@@ -33,6 +33,7 @@ prev_max_fish = float('inf')  # Initialize with infinity
 
 # Write the results into a text file
 with open('leaderboardfish.txt', 'w', encoding='utf-8') as result_file:
+    result_file.write("Chatters and their most fish caught in a single week:\n")
     for player, fish_counts in sorted(max_fish_in_week.items(), key=lambda x: max(x[1]), reverse=True):
         max_fish = max(fish_counts)
         if max_fish < prev_max_fish:
