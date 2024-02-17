@@ -14,8 +14,10 @@ player_counts = defaultdict(lambda: {'Trophy': 0, 'Silver': 0, 'Bronze': 0})
 # Define a dictionary to store the old names and new names mapping
 name_mapping = {'laaazuli' : 'lzvli', 'mochi404' : 'mochi_uygqzidbjizjkbehuiw', 'desecrated_altar' : 'miiiiisho', 'monkeycena' : 'ryebreadward'}
 
+# Define a list of players to ignore
+players_to_ignore = ['cyancaesar', 'hansworthelias']
+
 # Open and read the text file
-# encoding ?
 with open('logs.txt', 'r', encoding='utf-8') as file:
     # Read each line in the file
     for line in file:
@@ -26,6 +28,10 @@ with open('logs.txt', 'r', encoding='utf-8') as file:
             
             # Check if the old name has a mapping to a new name
             new_player = name_mapping.get(old_player, old_player)
+
+            # Skip processing for ignored players
+            if new_player in players_to_ignore:
+                continue
 
             # Find all occurrences of achievements in the line
             achievements = re.findall(r'(Victory|champion|runner-up|third)', line)
@@ -52,7 +58,8 @@ sorted_players = sorted(total_points.items(), key=lambda x: x[1], reverse=True)
 grouped_players = [(points, list(group)) for points, group in groupby(sorted_players, key=lambda x: x[1])]
 
 # Write the sorted results with positions to a file
-with open('leaderboardtrophies.txt', 'w', encoding='utf-8') as leaderboard_file:
+with open('leaderboardtrophies.txt', 'w', encoding='utf-8') as file:
+    file.write("Leaderboard for the weekly tournaments:\n")
     for position, (points, group) in enumerate(grouped_players, start=1):
         for player, _ in group:
-            leaderboard_file.write(f"#{position} {player}: Trophies: {player_counts[player]['Trophy']}🏆, Silver Medals: {player_counts[player]['Silver']}🥈, Bronze Medals: {player_counts[player]['Bronze']}🥉, Points: {points}\n")
+            file.write(f"#{position} {player}: Trophies: {player_counts[player]['Trophy']}🏆, Silver Medals: {player_counts[player]['Silver']}🥈, Bronze Medals: {player_counts[player]['Bronze']}🥉, Points: {points}\n")
