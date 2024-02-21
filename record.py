@@ -68,8 +68,8 @@ with open('leaderboardfish.txt', 'w', encoding='utf-8') as file:
             if max_fish < prev_max_fish:
                 rank += 1
             if player not in verified_players and bot_name == 'supibot':
-                file.write(f"#{rank} {player}: {max_fish} fish ⚠️\n")
+                file.write(f"#{rank} {player}*: {max_fish} fish\n")
             else:
                 file.write(f"#{rank} {player}: {max_fish} fish\n")
             prev_max_fish = max_fish
-    file.write("⚠️ This means that the fish were caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate.\n")
+    file.write("* = The fish were caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate.\n")
