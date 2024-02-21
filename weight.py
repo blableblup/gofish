@@ -68,9 +68,10 @@ async def main():
                 fish_type = parts[2]
                 fish_weight = float(parts[3])
                 bot = None  # Initialize bot as None by default
-                # Check if the ⚠ marker is present indicating 'supibot'
-                if '⚠' in line:
-                    bot = 'supibot'  # Set bot as 'supibot' if the marker is present
+                # Check if the marker is present indicating 'supibot'
+                if '*' in player:
+                    player = player.rstrip('*')
+                    bot = 'supibot'
                 old_record[player] = {'weight': fish_weight, 'type': fish_type, 'bot': bot}
 
 
@@ -97,10 +98,10 @@ async def main():
             if fish_details['weight'] > 200:
                 # Check if the player is not in the verified_players list and caught their fish on "supibot"
                 if player not in verified_players and merged_records[player]['bot'] == 'supibot':
-                    file.write(f"#{rank} {player}: {fish_details['type']} {fish_details['weight']} lbs ⚠️\n")
+                    file.write(f"#{rank} {player}*: {fish_details['type']} {fish_details['weight']} lbs\n")
                 else:
                     file.write(f"#{rank} {player}: {fish_details['type']} {fish_details['weight']} lbs\n")
-        file.write("⚠️ This means that the fish was caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate.\n")
+        file.write("* = The fish was caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate.\n")
 
 if __name__ == "__main__":
     asyncio.run(main())
