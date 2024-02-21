@@ -1,6 +1,6 @@
 # made with chatgpt
 # finds the biggest fish per fish type and who caught it and updates the leaderboard
-# hailhelix is a shiny shell; jellyfish is a bttv emote currently
+# jellyfish is a bttv emote currently
 
 import re
 import asyncio
@@ -35,7 +35,7 @@ equivalent_fish_types = {
     '🕷': '🕷️', '🗡' : '🗡️', '🕶' : '🕶️', '☂' : '☂️', '⛸' : '⛸️', '🧜♀' : '🧜‍♀️', '🧜♀️' : '🧜‍♀️', '🧜‍♀' : '🧜‍♀️', '🐻‍❄️' : '🐻‍❄', '🧞‍♂️' : '🧞‍♂', 'HailHelix' : '🐚',
 }
 
-not_fish_types = {'🛢️', '🦂'}
+not_fish_types = {'🛢️', '🦂', 'HailHelix'}
 
 # Define a list of players to ignore (cheaters)
 players_to_ignore = ['cyancaesar', 'hansworthelias']
@@ -101,18 +101,19 @@ async def main():
         else:
             updated_leaderboard[fish_type] = fish_info
 
+    # Sort fish types based on their weights
+    sorted_leaderboard = sorted(updated_leaderboard.items(), key=lambda x: x[1]['weight'], reverse=True)
+
     # Write the updated leaderboard to leaderboardtype.txt
     with open('leaderboardtype.txt', 'w', encoding='utf-8') as file:
         file.write("Biggest fish by type caught in chat:\n")
-        
-        # Sort the leaderboard by weight in descending order
-        sorted_leaderboard = sorted(updated_leaderboard.items(), key=lambda x: x[1]['weight'], reverse=True)
-        
+        rank = 1
         for fish_type, fish_info in sorted_leaderboard:
             if fish_info['player'] not in verified_players and fish_info['bot'] == 'supibot':
-                file.write(f"{fish_type} {fish_info['weight']} lbs, {fish_info['player']}* \n")
+                file.write(f"#{rank} {fish_type} {fish_info['weight']} lbs, {fish_info['player']}* \n")
             else:
-                file.write(f"{fish_type} {fish_info['weight']} lbs, {fish_info['player']} \n")
+                file.write(f"#{rank} {fish_type} {fish_info['weight']} lbs, {fish_info['player']} \n")
+            rank += 1
         file.write("* = The fish was caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate.\n")
 
 if __name__ == "__main__":
