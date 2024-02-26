@@ -19,27 +19,29 @@ def renamed(filename):
             renamed_chatters[old_player] = new_player
     return renamed_chatters
 
-# Function to read cheaters from CSV file
+# Function to read cheaters from a text file
 def read_cheaters(filename):
     cheaters = []
-    with open('lists/cheaters.csv', 'r') as file:
-        reader = csv.reader(file)
-        for row in reader:
-            cheaters.append(row[0])
+    with open('lists/cheaters.txt', 'r') as file:
+        # Read each line from the text file
+        for line in file:
+            # Append the line to the list of cheaters
+            cheaters.append(line.strip())  # Strip any leading or trailing whitespace
     return cheaters
 
-# Function to read verified players from CSV file
+# Function to read verified players from a text file
 def read_verified_players(filename):
     verified_players = []
-    with open('lists/verified.csv', 'r') as file:
-        reader = csv.reader(file)
-        for row in reader:
-            verified_players.append(row[0])
+    with open('lists/verified.txt', 'r') as file:
+        # Read each line from the text file
+        for line in file:
+            # Append the line to the list of cheaters
+            verified_players.append(line.strip())  # Strip any leading or trailing whitespace
     return verified_players
 
 renamed_chatters = renamed('lists/renamed.csv')
-cheaters = read_cheaters('lists/cheaters.csv')
-verified_players = read_verified_players('lists/verified.csv')
+cheaters = read_cheaters('lists/cheaters.txt')
+verified_players = read_verified_players('lists/verified.txt')
 
 # Open and read the text file
 with open('logs/logs.txt', 'r', encoding='utf-8') as file:
