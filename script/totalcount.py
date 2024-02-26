@@ -107,17 +107,19 @@ async def main(renamed_chatters, cheaters, verified_players):
     for player, count in ranked_players:
         ranks[count].append(player)
 
-    # Write the results to a text file
-    with open('leaderboardtotalcount.txt', 'w', encoding='utf-8') as file:
-        file.write("The most fish caught in chat (since December 2022):\n")
+    # Write the results to a Markdown file
+    with open('leaderboardtotalcount.md', 'w', encoding='utf-8') as file:
+        file.write("### Leaderboard for the most fish caught in chat (since December 2022)\n\n")
+        file.write("| Rank | Player | Fish Caught |\n")
+        file.write("|------|--------|-------------|\n")
         for count, players in ranks.items():
             for player in players:
                 if first_catch_with_supibot[player] == True:
-                    file.write(f"#{rank} {player}*: {count} fish caught \n")
+                    file.write(f"| {rank} | {player}* | {count} |\n")
                 else:
-                    file.write(f"#{rank} {player}: {count} fish caught \n")
+                    file.write(f"| {rank} | {player} | {count} |\n")
             rank += len(players)
-        file.write("* = The player caught their first fish on supibot and did not migrate their data to gofishgame. Because of that their data was not individually verified to be accurate.\n")
+        file.write("\n_* = The player caught their first fish on supibot and did not migrate their data to gofishgame. Because of that their data was not individually verified to be accurate._\n")
 
 if __name__ == "__main__":
     renamed_chatters = renamed('lists/renamed.csv')

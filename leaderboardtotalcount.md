@@ -1,4 +1,4 @@
-## Leaderboard for the most fish caught in chat (since December 2022)
+### Leaderboard for the most fish caught in chat (since December 2022)
 
 | Rank | Player | Fish Caught |
 |------|--------|-------------|
@@ -10,7 +10,7 @@
 | 6 | sussy_amonge | 2124 |
 | 7 | derinturitierutz | 2043 |
 | 8 | dayzedinndaydreams | 1818 |
-| 9 | miiiiisho* | 1600 |
+| 9 | miiiiisho | 1600 |
 | 10 | booty_bread | 1582 |
 | 11 | bussinongnocap | 754 |
 | 12 | crazytown_bananapants | 744 |

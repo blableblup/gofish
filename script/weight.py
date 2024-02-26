@@ -75,14 +75,18 @@ async def main(renamed_chatters, cheaters, verified_players):
     old_record = defaultdict(lambda: {'weight': 0, 'type': None, 'bot': None})
 
     # Open and read the existing leaderboard file
-    with open('leaderboardweight.txt', 'r', encoding='utf-8') as file:
+    with open('leaderboardweight.md', 'r', encoding='utf-8') as file:
+        next(file)  # Skip first 4 lines
+        next(file)  
+        next(file)
+        next(file)
         for line in file:
-            if line.startswith("#"):
+            if line.startswith("|"):
                 # Extract player name, fish type, and weight from the line
-                parts = line.split()
-                player = parts[1].rstrip(':')  # Remove the trailing colon if present
-                fish_type = parts[2]
-                fish_weight = float(parts[3])
+                parts = line.split("|")
+                player = parts[2].strip()
+                fish_type = parts[3].strip()
+                fish_weight = float(parts[4].strip().split()[0])
                 bot = None  # Initialize bot as None by default
                 # Check if the marker is present indicating 'supibot'
                 if '*' in player:
@@ -104,16 +108,18 @@ async def main(renamed_chatters, cheaters, verified_players):
     merged_records = {**old_record, **updated_records}
 
     # Write the updated records to the leaderboard file
-    with open('leaderboardweight.txt', 'w', encoding='utf-8') as file:
-        file.write("Chatters and their biggest fish caught in chat (>200 lbs):\n")
+    with open('leaderboardweight.md', 'w', encoding='utf-8') as file:
+        file.write("### Chatters and their biggest fish caught in chat (>200 lbs)\n\n")
+        file.write("| Rank | Player | Fish | Weight ⚖️ |\n")
+        file.write("|------|--------|-----------|---------|\n")
         for rank, (player, fish_details) in enumerate(sorted(merged_records.items(), key=lambda x: x[1]['weight'], reverse=True), start=1):
             if fish_details['weight'] > 200:
                 # Check if the player is not in the verified_players list and caught their fish on "supibot"
                 if player not in verified_players and merged_records[player]['bot'] == 'supibot':
-                    file.write(f"#{rank} {player}*: {fish_details['type']} {fish_details['weight']} lbs\n")
+                    file.write(f"| {rank} | {player}* | {fish_details['type']} | {fish_details['weight']} lbs |\n")
                 else:
-                    file.write(f"#{rank} {player}: {fish_details['type']} {fish_details['weight']} lbs\n")
-        file.write("* = The fish was caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate.\n")
+                    file.write(f"| {rank} | {player} | {fish_details['type']} | {fish_details['weight']} lbs |\n")
+        file.write("\n_* = The fish was caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate._\n")
 
 if __name__ == "__main__":
     renamed_chatters = renamed('lists/renamed.csv')

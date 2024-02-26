@@ -76,9 +76,11 @@ sorted_players = sorted(total_points.items(), key=lambda x: x[1], reverse=True)
 # Group players with the same points
 grouped_players = [(points, list(group)) for points, group in groupby(sorted_players, key=lambda x: x[1])]
 
-# Write the sorted results with positions to a file
-with open('leaderboardtrophies.txt', 'w', encoding='utf-8') as file:
-    file.write("Leaderboard for the weekly tournaments:\n")
+# Write the sorted results with positions to a Markdown file
+with open('leaderboardtrophies.md', 'w', encoding='utf-8') as file:
+    file.write("### Leaderboard for the weekly tournaments\n\n")
+    file.write("| Position | Player | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points |\n")
+    file.write("|----------|--------|------------|-----------------|-----------------|--------|\n")
     for position, (points, group) in enumerate(grouped_players, start=1):
         for player, _ in group:
-            file.write(f"#{position} {player}: Trophies: {player_counts[player]['Trophy']}🏆, Silver Medals: {player_counts[player]['Silver']}🥈, Bronze Medals: {player_counts[player]['Bronze']}🥉, Points: {points}\n")
+            file.write(f"| {position} | {player} | {player_counts[player]['Trophy']} | {player_counts[player]['Silver']} | {player_counts[player]['Bronze']} | {points} |\n")

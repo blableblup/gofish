@@ -73,9 +73,11 @@ with open('logs/logs.txt', 'r', encoding='utf-8') as file:
 rank = 0
 prev_max_fish = float('inf')  # Initialize with infinity
 
-# Write the results into a text file
-with open('leaderboardfish.txt', 'w', encoding='utf-8') as file:
-    file.write("Chatters and their most fish caught in a single week in tournaments:\n")
+# Write the results into a Markdown table
+with open('leaderboardfish.md', 'w', encoding='utf-8') as file:
+    file.write("### Chatters and their most fish caught in a single week in tournaments\n\n")
+    file.write("| Rank | Player | Fish Caught 🪣 |\n")
+    file.write("|------|--------|---------------|\n")
     for player, info in sorted(max_fish_in_week.items(), key=lambda x: x[1]['fish_count'], reverse=True):
         max_fish = info['fish_count']
         bot_name = info['bot_name']
@@ -84,8 +86,8 @@ with open('leaderboardfish.txt', 'w', encoding='utf-8') as file:
             if max_fish < prev_max_fish:
                 rank += 1
             if player not in verified_players and bot_name == 'supibot':
-                file.write(f"#{rank} {player}*: {max_fish} fish\n")
+                file.write(f"| {rank} | {player}* | {max_fish} |\n")
             else:
-                file.write(f"#{rank} {player}: {max_fish} fish\n")
+                file.write(f"| {rank} | {player} | {max_fish} |\n")
             prev_max_fish = max_fish
-    file.write("* = The fish were caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate.\n")
+    file.write("\n_* = The fish were caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate._\n")

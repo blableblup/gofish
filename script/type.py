@@ -82,21 +82,25 @@ async def main(renamed_chatters, cheaters, verified_players):
     old_record = defaultdict(lambda: {'weight': 0, 'player': '', 'bot': None})
 
     # Open and read the existing leaderboard file
-    with open('leaderboardtype.txt', 'r', encoding='utf-8') as file:
+    with open('leaderboardtype.md', 'r', encoding='utf-8') as file:
+        next(file)  # Skip first 4 lines
+        next(file)  
+        next(file)
+        next(file)
         for line in file:
-            if line.startswith("#"):
+            if line.startswith("|"):
                 # Extract player name, fish type, and weight from the line
-                parts = line.split()
-                player = parts[4] 
-                fish_type = parts[1]
-                weight = float(parts[2])
+                parts = line.split("|")
+                player = parts[4].strip()
+                fish_type = parts[2].strip()
+                fish_weight = float(parts[3].strip().split()[0])
                 bot = None  # Initialize bot as None by default
                 # Check if the marker is present indicating 'supibot'
                 if '*' in player:
                     player = player.rstrip('*')
                     bot = 'supibot'
                 player = renamed_chatters.get(player, player)
-                old_record[fish_type] = {'weight': weight, 'player': player, 'bot': bot}
+                old_record[fish_type] = {'weight': fish_weight, 'player': player, 'bot': bot}
 
     # Compare fetched data with existing data and update the leaderboard if necessary
     updated_leaderboard = {}
@@ -114,16 +118,18 @@ async def main(renamed_chatters, cheaters, verified_players):
     sorted_leaderboard = sorted(merged_records.items(), key=lambda x: x[1].get('weight', 0), reverse=True)
 
     # Write the updated leaderboard to leaderboardtype.txt
-    with open('leaderboardtype.txt', 'w', encoding='utf-8') as file:
-        file.write("Biggest fish by type caught in chat:\n")
+    with open('leaderboardtype.md', 'w', encoding='utf-8') as file:
+        file.write("### Biggest fish by type caught in chat\n\n")
+        file.write("| Rank | Fish Type | Weight | Player |\n")
+        file.write("|------|-----------|--------|--------|\n")
         rank = 1
         for fish_type, fish_info in sorted_leaderboard:
             if fish_info['player'] not in verified_players and fish_info['bot'] == 'supibot':
-                file.write(f"#{rank} {fish_type} {fish_info['weight']} lbs, {fish_info['player']}* \n")
+                file.write(f"| {rank} | {fish_type} | {fish_info['weight']} lbs | {fish_info['player']}* |\n")
             else:
-                file.write(f"#{rank} {fish_type} {fish_info['weight']} lbs, {fish_info['player']} \n")
+                file.write(f"| {rank} | {fish_type} | {fish_info['weight']} lbs | {fish_info['player']} |\n")
             rank += 1
-        file.write("* = The fish was caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate.\n")
+        file.write("\n_* = The fish was caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate._\n")
 
 if __name__ == "__main__":
     renamed_chatters = renamed('lists/renamed.csv')
