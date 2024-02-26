@@ -1,4 +1,4 @@
-## Leaderboard for the weekly tournaments:
+### Leaderboard for the weekly tournaments
 
 | Position | Player | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points |
 |----------|--------|------------|-----------------|-----------------|--------|
