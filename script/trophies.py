@@ -23,17 +23,18 @@ def renamed(filename):
             renamed_chatters[old_player] = new_player
     return renamed_chatters
 
-# Function to read cheaters from CSV file
+# Function to read cheaters from a text file
 def read_cheaters(filename):
     cheaters = []
-    with open('lists/cheaters.csv', 'r') as file:
-        reader = csv.reader(file)
-        for row in reader:
-            cheaters.append(row[0])
+    with open('lists/cheaters.txt', 'r') as file:
+        # Read each line from the text file
+        for line in file:
+            # Append the line to the list of cheaters
+            cheaters.append(line.strip())  # Strip any leading or trailing whitespace
     return cheaters
 
 renamed_chatters = renamed('lists/renamed.csv')
-cheaters = read_cheaters('lists/cheaters.csv')
+cheaters = read_cheaters('lists/cheaters.txt')
 
 # Open and read the text file
 with open('logs/logs.txt', 'r', encoding='utf-8') as file:
