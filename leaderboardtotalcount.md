@@ -1,4 +1,4 @@
-# Leaderboard for the most fish caught in chat (since December 2022)
+## Leaderboard for the most fish caught in chat (since December 2022)
 
 | Rank | Player | Fish Caught |
 |------|--------|-------------|
