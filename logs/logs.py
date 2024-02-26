@@ -25,7 +25,7 @@ async def main():
     all_matching_lines = [line for lines in matching_lines_list for line in lines]
 
     # Read existing content from logs.txt
-    with open('logs.txt', 'r', encoding='utf-8') as file:
+    with open('logs/logs.txt', 'r', encoding='utf-8') as file:
         existing_content = file.readlines()
 
     # Extract relevant parts from existing content
@@ -48,7 +48,7 @@ async def main():
     
     # Append only the unique new results to logs.txt
     if new_results:
-        with open('logs.txt', 'a', encoding='utf-8') as file:
+        with open('logs/logs.txt', 'a', encoding='utf-8') as file:
             for line in new_results:
                 file.write(line + '\n')
         print("New results appended")

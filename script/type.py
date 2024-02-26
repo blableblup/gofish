@@ -6,6 +6,7 @@ import re
 import asyncio
 import aiohttp
 from collections import defaultdict
+import csv
 
 # List of URLs containing the fish catch information
 urls = [
@@ -13,30 +14,39 @@ urls = [
     # Add more URLs as needed
 ]
 
-# Define a dictionary to store the old names and new names mapping
-name_mapping = {'laaazuli': 'lzvli', 'mochi404': 'mochi_uygqzidbjizjkbehuiw',
-                'desecrated_altar': 'miiiiisho', 'monkeycena': 'ryebreadward'}
+# Function to read renamed chatters from CSV file
+def renamed(filename):
+    renamed_chatters = {}
+    with open('lists/renamed.csv', 'r') as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            old_player = row['old_name']
+            new_player = row['new_name']
+            renamed_chatters[old_player] = new_player
+    return renamed_chatters
 
-# List of verified players
-verified_players = ['breadworms', 'trident1011', 'drainedjelqer', 'dayzedinndaydreams', 'kishma9', 'qu4ttromila', 'chubbyhamster2222', 'derinturitierutz', 
-                    'puzzlow', 'xz_xz', 'paras220', 'realtechnine', 'maxlewl', 'desecrated_altar', 'sussy_amonge', 'bussinongnocap', 'sicklymaidrobot', 
-                    'mochi_uygqzidbjizjkbehuiw', 'crazytown_bananapants', 'booty_bread', 'julialuxel', 'ouacewi', 'leanmeister', 'mitgliederversammlung', 
-                    'squirtyraccoon', 'breedworms', 'wispmode', 'psp1g', 'k3vuit', 'eebbbee', 'dx9er', 'divra__', 'chimmothi', 'collegefifar', 'd_egree', 
-                    'reapex_1', 'zwockel01', 'starducc', 'felipespe' 'flunke_', 'quton', 'fauxrothko', 'thasbe', 'thelantzzz', 'tien_', 'jackwhalebreaker', 
-                    'rttvname', 'cappo7117', 'revielum', 'mazza1g', 'elraimon2000', 'seryxx', 'yopego', 'pookiesnowman', 'ovrht', 'mikel1g', 'sonigtm', 
-                    'lastweeknextday', 'sameone', 'combineddota', 'lukydx', 'cowsareamazing', 'huuuuurz', 'alvaniss1g', 'sl3id3r', 'tomsi1g', 'cubedude20', 
-                    'satic____', 'vibinud', 'multiplegamer9', 'yuuka7', 'device1g', 'joleksu', 'jr_mime', 'expnandbanana', 'datwguy', 'totenguden', 'xkimi1337', 
-                    'ocram1g', 'breaddovariety', 'restartmikel', 'brunodestar', 'niiy', 'modestserhat', 'a1ryexpl0d1ng', 'gab_ri_el_', 'leftrights', 
-                    'surelynotafishingalt', 'lugesbro', 'dubyu_', 'kaspu222', 'd0nk7', 'angus_lpc', 'faslker', 'shinespikepm', 'devonoconde', 'blapman007', 
-                    'lobuhtomy', 'asthmaa', 'luzianu', 'hennnnni']
+# Function to read cheaters from CSV file
+def read_cheaters(filename):
+    cheaters = []
+    with open('lists/cheaters.csv', 'r') as file:
+        reader = csv.reader(file)
+        for row in reader:
+            cheaters.append(row[0])
+    return cheaters
+
+# Function to read verified players from CSV file
+def read_verified_players(filename):
+    verified_players = []
+    with open('lists/verified.csv', 'r') as file:
+        reader = csv.reader(file)
+        for row in reader:
+            verified_players.append(row[0])
+    return verified_players
 
 # Define a mapping for equivalent fish types
 equivalent_fish_types = {
     '🕷': '🕷️', '🗡' : '🗡️', '🕶' : '🕶️', '☂' : '☂️', '⛸' : '⛸️', '🧜♀' : '🧜‍♀️', '🧜♀️' : '🧜‍♀️', '🧜‍♀' : '🧜‍♀️', '🐻‍❄️' : '🐻‍❄', '🧞‍♂️' : '🧞‍♂', 'HailHelix' : '🐚',
 }
-
-# Define a list of players to ignore (cheaters)
-players_to_ignore = ['cyancaesar', 'hansworthelias']
 
 # Define a dictionary to store the biggest fish of each fish type
 new_record = defaultdict(lambda: {'player': '', 'weight': 0, 'bot': None})
@@ -44,7 +54,7 @@ new_record = defaultdict(lambda: {'player': '', 'weight': 0, 'bot': None})
 # Define a regex pattern to extract information about fish catches
 pattern = r"\s?(\w+): [@👥]\s?(\w+), You caught a [✨🫧] (.*?) [✨🫧]! It weighs ([\d.]+) lbs"
 
-async def fetch_data(url):
+async def fetch_data(url, renamed_chatters, cheaters):
     async with aiohttp.ClientSession() as session:
         async with session.get(url) as response:
             text_content = await response.text()
@@ -53,8 +63,8 @@ async def fetch_data(url):
                 bot, player, fish_type, fish_weight_str = match.groups()
                 weight = float(fish_weight_str)
                 # Check if the player name has a mapping to a new name
-                player = name_mapping.get(player, player)
-                if player in players_to_ignore:
+                player = renamed_chatters.get(player, player)
+                if player in cheaters:
                     continue  # Skip processing for ignored players 
                 if fish_type in equivalent_fish_types:
                     fish_type = equivalent_fish_types[fish_type]  # Update fish type if it has an equivalent
@@ -62,9 +72,9 @@ async def fetch_data(url):
                 if weight > new_record[fish_type]['weight']:
                     new_record[fish_type] = {'player': player, 'weight': weight, 'bot': bot}
 
-async def main():
+async def main(renamed_chatters, cheaters, verified_players):
     for url in urls:
-        await fetch_data(url)
+        await fetch_data(url, renamed_chatters, cheaters)
 
     # Initialize old_record with default values
     old_record = defaultdict(lambda: {'weight': 0, 'player': '', 'bot': None})
@@ -83,6 +93,7 @@ async def main():
                 if '*' in player:
                     player = player.rstrip('*')
                     bot = 'supibot'
+                player = renamed_chatters.get(player, player)
                 old_record[fish_type] = {'weight': weight, 'player': player, 'bot': bot}
 
     # Compare fetched data with existing data and update the leaderboard if necessary
@@ -113,4 +124,7 @@ async def main():
         file.write("* = The fish was caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate.\n")
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    renamed_chatters = renamed('lists/renamed.csv')
+    cheaters = read_cheaters('lists/cheaters.csv')
+    verified_players = read_verified_players('lists/verified.csv')
+    asyncio.run(main(renamed_chatters, cheaters, verified_players))
