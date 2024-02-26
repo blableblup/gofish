@@ -3,32 +3,46 @@
 
 import re
 from collections import defaultdict
+import csv
 
 # Define a dictionary to store the maximum fish caught in a week for each player and the bot name
 max_fish_in_week = defaultdict(lambda: {'fish_count': 0, 'bot_name': None})
 
-# Define a dictionary to store the old names and new names mapping
-name_mapping = {'laaazuli': 'lzvli', 'mochi404': 'mochi_uygqzidbjizjkbehuiw', 
-                'desecrated_altar': 'miiiiisho', 'monkeycena': 'ryebreadward'}
+# Function to read renamed chatters from CSV file
+def renamed(filename):
+    renamed_chatters = {}
+    with open('lists/renamed.csv', 'r') as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            old_player = row['old_name']
+            new_player = row['new_name']
+            renamed_chatters[old_player] = new_player
+    return renamed_chatters
 
-# Define a list of players to ignore
-players_to_ignore = ['cyancaesar', 'hansworthelias']
+# Function to read cheaters from CSV file
+def read_cheaters(filename):
+    cheaters = []
+    with open('lists/cheaters.csv', 'r') as file:
+        reader = csv.reader(file)
+        for row in reader:
+            cheaters.append(row[0])
+    return cheaters
 
-# List of verified players
-verified_players = ['breadworms', 'trident1011', 'drainedjelqer', 'dayzedinndaydreams', 'kishma9', 'qu4ttromila', 'chubbyhamster2222', 'derinturitierutz', 
-                    'puzzlow', 'xz_xz', 'paras220', 'realtechnine', 'maxlewl', 'desecrated_altar', 'sussy_amonge', 'bussinongnocap', 'sicklymaidrobot', 
-                    'mochi_uygqzidbjizjkbehuiw', 'crazytown_bananapants', 'booty_bread', 'julialuxel', 'ouacewi', 'leanmeister', 'mitgliederversammlung', 
-                    'squirtyraccoon', 'breedworms', 'wispmode', 'psp1g', 'k3vuit', 'eebbbee', 'dx9er', 'divra__', 'chimmothi', 'collegefifar', 'd_egree', 
-                    'reapex_1', 'zwockel01', 'starducc', 'felipespe' 'flunke_', 'quton', 'fauxrothko', 'thasbe', 'thelantzzz', 'tien_', 'jackwhalebreaker', 
-                    'rttvname', 'cappo7117', 'revielum', 'mazza1g', 'elraimon2000', 'seryxx', 'yopego', 'pookiesnowman', 'ovrht', 'mikel1g', 'sonigtm', 
-                    'lastweeknextday', 'sameone', 'combineddota', 'lukydx', 'cowsareamazing', 'huuuuurz', 'alvaniss1g', 'sl3id3r', 'tomsi1g', 'cubedude20', 
-                    'satic____', 'vibinud', 'multiplegamer9', 'yuuka7', 'device1g', 'joleksu', 'jr_mime', 'expnandbanana', 'datwguy', 'totenguden', 'xkimi1337', 
-                    'ocram1g', 'breaddovariety', 'restartmikel', 'brunodestar', 'niiy', 'modestserhat', 'a1ryexpl0d1ng', 'gab_ri_el_', 'leftrights', 
-                    'surelynotafishingalt', 'lugesbro', 'dubyu_', 'kaspu222', 'd0nk7', 'angus_lpc', 'faslker', 'shinespikepm', 'devonoconde', 'blapman007', 
-                    'lobuhtomy', 'asthmaa', 'luzianu', 'hennnnni']
+# Function to read verified players from CSV file
+def read_verified_players(filename):
+    verified_players = []
+    with open('lists/verified.csv', 'r') as file:
+        reader = csv.reader(file)
+        for row in reader:
+            verified_players.append(row[0])
+    return verified_players
+
+renamed_chatters = renamed('lists/renamed.csv')
+cheaters = read_cheaters('lists/cheaters.csv')
+verified_players = read_verified_players('lists/verified.csv')
 
 # Open and read the text file
-with open('logs.txt', 'r', encoding='utf-8') as file:
+with open('logs/logs.txt', 'r', encoding='utf-8') as file:
     # Read each line in the file
     for line in file:
         # Use regular expressions to extract relevant information
@@ -44,11 +58,11 @@ with open('logs.txt', 'r', encoding='utf-8') as file:
                 if player_match:
                     player = next(filter(None, player_match.groups()))  # Filter out None values
                     # Check if the player is in the ignore list
-                    if player in players_to_ignore:
+                    if player in cheaters:
                         continue  # Skip processing for ignored players
 
                     # Check if the player name has a mapping to a new name
-                    new_player = name_mapping.get(player, player)
+                    new_player = renamed_chatters.get(player, player)
                     # Update the record if the current fish count is greater
                     if fish_count > max_fish_in_week[new_player]['fish_count']:
                         max_fish_in_week[new_player] = {'fish_count': fish_count, 'bot_name': bot_name}

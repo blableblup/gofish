@@ -4,6 +4,7 @@
 import re
 from collections import defaultdict
 from itertools import groupby
+import csv
 
 # Define point values
 point_values = {'Trophy': 3, 'Silver': 1, 'Bronze': .5}
@@ -11,14 +12,31 @@ point_values = {'Trophy': 3, 'Silver': 1, 'Bronze': .5}
 # Define a dictionary to store the counts for each player
 player_counts = defaultdict(lambda: {'Trophy': 0, 'Silver': 0, 'Bronze': 0})
 
-# Define a dictionary to store the old names and new names mapping
-name_mapping = {'laaazuli' : 'lzvli', 'mochi404' : 'mochi_uygqzidbjizjkbehuiw', 'desecrated_altar' : 'miiiiisho', 'monkeycena' : 'ryebreadward'}
+# Function to read renamed chatters from CSV file
+def renamed(filename):
+    renamed_chatters = {}
+    with open('lists/renamed.csv', 'r') as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            old_player = row['old_name']
+            new_player = row['new_name']
+            renamed_chatters[old_player] = new_player
+    return renamed_chatters
 
-# Define a list of players to ignore
-players_to_ignore = ['cyancaesar', 'hansworthelias']
+# Function to read cheaters from CSV file
+def read_cheaters(filename):
+    cheaters = []
+    with open('lists/cheaters.csv', 'r') as file:
+        reader = csv.reader(file)
+        for row in reader:
+            cheaters.append(row[0])
+    return cheaters
+
+renamed_chatters = renamed('lists/renamed.csv')
+cheaters = read_cheaters('lists/cheaters.csv')
 
 # Open and read the text file
-with open('logs.txt', 'r', encoding='utf-8') as file:
+with open('logs/logs.txt', 'r', encoding='utf-8') as file:
     # Read each line in the file
     for line in file:
         # Use regular expressions to extract relevant information
@@ -27,10 +45,10 @@ with open('logs.txt', 'r', encoding='utf-8') as file:
             old_player = player_match.group(1)
             
             # Check if the old name has a mapping to a new name
-            new_player = name_mapping.get(old_player, old_player)
+            new_player = renamed_chatters.get(old_player, old_player)
 
             # Skip processing for ignored players
-            if new_player in players_to_ignore:
+            if new_player in cheaters:
                 continue
 
             # Find all occurrences of achievements in the line

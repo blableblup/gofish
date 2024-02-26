@@ -7,6 +7,7 @@ import re
 import asyncio
 import aiohttp
 from collections import defaultdict
+import csv
 
 # List of URLs containing the fish catch information
 urls = [
@@ -29,28 +30,37 @@ urls = [
     # Add more URLs as needed
 ]
 
-# Define a dictionary to store the old names and new names mapping
-name_mapping = {'laaazuli': 'lzvli', 'mochi404': 'mochi_uygqzidbjizjkbehuiw',
-                'desecrated_altar': 'miiiiisho', 'monkeycena': 'ryebreadward'}
+# Function to read renamed chatters from CSV file
+def renamed(filename):
+    renamed_chatters = {}
+    with open('lists/renamed.csv', 'r') as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            old_player = row['old_name']
+            new_player = row['new_name']
+            renamed_chatters[old_player] = new_player
+    return renamed_chatters
 
-# List of verified players
-verified_players = ['breadworms', 'trident1011', 'drainedjelqer', 'dayzedinndaydreams', 'kishma9', 'qu4ttromila', 'chubbyhamster2222', 'derinturitierutz', 
-                    'puzzlow', 'xz_xz', 'paras220', 'realtechnine', 'maxlewl', 'desecrated_altar', 'miiiiisho', 'sussy_amonge', 'bussinongnocap', 'sicklymaidrobot', 
-                    'mochi_uygqzidbjizjkbehuiw', 'crazytown_bananapants', 'booty_bread', 'julialuxel', 'ouacewi', 'leanmeister', 'mitgliederversammlung', 
-                    'squirtyraccoon', 'breedworms', 'wispmode', 'psp1g', 'k3vuit', 'eebbbee', 'dx9er', 'divra__', 'chimmothi', 'collegefifar', 'd_egree', 
-                    'reapex_1', 'zwockel01', 'starducc', 'felipespe' 'flunke_', 'quton', 'fauxrothko', 'thasbe', 'thelantzzz', 'tien_', 'jackwhalebreaker', 
-                    'rttvname', 'cappo7117', 'revielum', 'mazza1g', 'elraimon2000', 'seryxx', 'yopego', 'pookiesnowman', 'ovrht', 'mikel1g', 'sonigtm', 
-                    'lastweeknextday', 'sameone', 'combineddota', 'lukydx', 'cowsareamazing', 'huuuuurz', 'alvaniss1g', 'sl3id3r', 'tomsi1g', 'cubedude20', 
-                    'satic____', 'vibinud', 'multiplegamer9', 'yuuka7', 'device1g', 'joleksu', 'jr_mime', 'expnandbanana', 'datwguy', 'totenguden', 'xkimi1337', 
-                    'ocram1g', 'breaddovariety', 'restartmikel', 'brunodestar', 'niiy', 'modestserhat', 'a1ryexpl0d1ng', 'gab_ri_el_', 'leftrights', 
-                    'surelynotafishingalt', 'lugesbro', 'dubyu_', 'kaspu222', 'd0nk7', 'angus_lpc', 'faslker', 'shinespikepm', 'devonoconde', 'blapman007', 
-                    'lobuhtomy', 'asthmaa', 'luzianu', 'hennnnni']
+# Function to read cheaters from CSV file
+def read_cheaters(filename):
+    cheaters = []
+    with open('lists/cheaters.csv', 'r') as file:
+        reader = csv.reader(file)
+        for row in reader:
+            cheaters.append(row[0])
+    return cheaters
+
+# Function to read verified players from CSV file
+def read_verified_players(filename):
+    verified_players = []
+    with open('lists/verified.csv', 'r') as file:
+        reader = csv.reader(file)
+        for row in reader:
+            verified_players.append(row[0])
+    return verified_players
 
 # Define a dictionary to store the count of fish caught by each player
 fish_catch_count = defaultdict(int)
-
-# Define a list of players to ignore
-players_to_ignore = ['cyancaesar', 'hansworthelias']
 
 # Define a regex pattern to extract information about fish catches
 pattern = r"\s?(\w+): [@👥]\s?(\w+), You caught a [✨🫧] (.*?) [✨🫧]!"
@@ -58,7 +68,7 @@ pattern = r"\s?(\w+): [@👥]\s?(\w+), You caught a [✨🫧] (.*?) [✨🫧]!"
 # Keep track of players who caught their first fish with supibot
 first_catch_with_supibot = defaultdict(bool)
 
-async def fetch_data(url):
+async def fetch_data(url, renamed_chatters, cheaters, verified_players):
     async with aiohttp.ClientSession() as session:
         async with session.get(url) as response:
             text_content = await response.text()
@@ -67,20 +77,21 @@ async def fetch_data(url):
                 player_name = match.group(2)
                 bot_name = match.group(1)
                 # Check if the player is in the ignore list
-                if player_name in players_to_ignore:
+                if player_name in cheaters:
                     continue
                 # Check if the player name has a mapping to a new name
-                player_name = name_mapping.get(player_name, player_name)
+                player_name = renamed_chatters.get(player_name, player_name)
                 # Add a verification check
                 if bot_name == "supibot" and player_name not in verified_players and not first_catch_with_supibot[player_name]:
                     first_catch_with_supibot[player_name] = True
                 # Update the fish catch count for the player
                 fish_catch_count[player_name] += 1
 
-async def main():
-    global fish_catch_count  # Declare fish_catch_count as global
+async def main(renamed_chatters, cheaters, verified_players):
     for url in urls:
-        await fetch_data(url)
+        await fetch_data(url, renamed_chatters, cheaters, verified_players)
+    
+    global fish_catch_count
 
     # Filter players who caught more than 100 fish
     fish_catch_count = {player: count for player, count in fish_catch_count.items() if count > 100}
@@ -107,4 +118,7 @@ async def main():
         file.write("* = The player caught their first fish on supibot and did not migrate their data to gofishgame. Because of that their data was not individually verified to be accurate.\n")
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    renamed_chatters = renamed('lists/renamed.csv')
+    cheaters = read_cheaters('lists/cheaters.csv')
+    verified_players = read_verified_players('lists/verified.csv')
+    asyncio.run(main(renamed_chatters, cheaters, verified_players))
