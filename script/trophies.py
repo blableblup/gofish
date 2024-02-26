@@ -79,7 +79,7 @@ grouped_players = [(points, list(group)) for points, group in groupby(sorted_pla
 # Write the sorted results with positions to a Markdown file
 with open('leaderboardtrophies.md', 'w', encoding='utf-8') as file:
     file.write("### Leaderboard for the weekly tournaments\n\n")
-    file.write("| Position | Player | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points |\n")
+    file.write("| Rank | Player | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points |\n")
     file.write("|----------|--------|------------|-----------------|-----------------|--------|\n")
     for position, (points, group) in enumerate(grouped_players, start=1):
         for player, _ in group:

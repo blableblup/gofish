@@ -1,6 +1,6 @@
 ### Leaderboard for the weekly tournaments
 
-| Position | Player | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points |
+| Rank | Player | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points |
 |----------|--------|------------|-----------------|-----------------|--------|
 | 1 | osnyatsky | 25 | 23 | 5 | 100.5 |
 | 2 | derinturitierutz | 28 | 2 | 8 | 90.0 |
