@@ -43,13 +43,13 @@ with open('logs/logs.txt', 'r', encoding='utf-8') as file:
         # Use regular expressions to extract relevant information
         player_match = re.search(r'[@👥]\s?(\w+)', line)
         if player_match:
-            old_player = player_match.group(1)
+            player = player_match.group(1)
             
             # Check if the old name has a mapping to a new name
-            new_player = renamed_chatters.get(old_player, old_player)
+            player = renamed_chatters.get(player, player)
 
             # Skip processing for ignored players
-            if new_player in cheaters:
+            if player in cheaters:
                 continue
 
             # Find all occurrences of achievements in the line
@@ -57,13 +57,13 @@ with open('logs/logs.txt', 'r', encoding='utf-8') as file:
             
             for achievement in achievements:
                 if 'Victory' in achievement:
-                    player_counts[new_player]['Trophy'] += 1
+                    player_counts[player]['Trophy'] += 1
                 elif 'runner-up' in achievement:
-                    player_counts[new_player]['Silver'] += 1
+                    player_counts[player]['Silver'] += 1
                 elif 'third' in achievement:
-                    player_counts[new_player]['Bronze'] += 1
+                    player_counts[player]['Bronze'] += 1
                 elif 'champion' in achievement:
-                    player_counts[new_player]['Trophy'] += 1
+                    player_counts[player]['Trophy'] += 1
 
 # Calculate total points for each player
 total_points = defaultdict(float)

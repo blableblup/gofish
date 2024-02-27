@@ -102,17 +102,20 @@ async def main(renamed_chatters, cheaters, verified_players):
                 player = renamed_chatters.get(player, player)
                 old_record[fish_type] = {'weight': fish_weight, 'player': player, 'bot': bot}
 
-    # Compare fetched data with existing data and update the leaderboard if necessary
-    updated_leaderboard = {}
+    # Compare new records with old records and update if necessary
+    updated_records = {} # Create a new dictionary to store updated records
     for fish_type in list(new_record.keys()):
         if fish_type in old_record: 
+            # Update old record with the new record
             if new_record[fish_type]['weight'] > old_record[fish_type]['weight']:
                 old_record[fish_type] = {'weight': new_record[fish_type]['weight'], 'player': new_record[fish_type]['player'], 'bot': new_record[fish_type]['bot']}
-                updated_leaderboard[fish_type] = old_record[fish_type]
+                updated_records[fish_type] = old_record[fish_type]
         else:
-            updated_leaderboard[fish_type] = new_record[fish_type]
-            
-    merged_records = {**old_record, **updated_leaderboard}
+            # Add the new fish
+            updated_records[fish_type] = new_record[fish_type]
+    
+    # Merge old_record and updated_records dictionaries            
+    merged_records = {**old_record, **updated_records}
 
     # Sort fish types based on their weights
     sorted_leaderboard = sorted(merged_records.items(), key=lambda x: x[1].get('weight', 0), reverse=True)
