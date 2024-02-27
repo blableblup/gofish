@@ -112,13 +112,13 @@ async def main(renamed_chatters, cheaters, verified_players):
         file.write("### Chatters and their biggest fish caught in chat (>200 lbs)\n\n")
         file.write("| Rank | Player | Fish | Weight ⚖️ |\n")
         file.write("|------|--------|-----------|---------|\n")
-        for rank, (player, fish_details) in enumerate(sorted(merged_records.items(), key=lambda x: x[1]['weight'], reverse=True), start=1):
-            if fish_details['weight'] > 200:
+        for rank, (player, fish_info) in enumerate(sorted(merged_records.items(), key=lambda x: x[1]['weight'], reverse=True), start=1):
+            if fish_info['weight'] > 200:
                 # Check if the player is not in the verified_players list and caught their fish on "supibot"
                 if player not in verified_players and merged_records[player]['bot'] == 'supibot':
-                    file.write(f"| {rank} | {player}* | {fish_details['type']} | {fish_details['weight']} lbs |\n")
+                    file.write(f"| {rank} | {player}* | {fish_info['type']} | {fish_info['weight']} lbs |\n")
                 else:
-                    file.write(f"| {rank} | {player} | {fish_details['type']} | {fish_details['weight']} lbs |\n")
+                    file.write(f"| {rank} | {player} | {fish_info['type']} | {fish_info['weight']} lbs |\n")
         file.write("\n_* = The fish was caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate._\n")
 
 if __name__ == "__main__":

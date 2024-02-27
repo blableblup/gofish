@@ -76,18 +76,18 @@ async def fetch_data(url, renamed_chatters, cheaters, verified_players):
             text_content = await response.text()
             # Extract information about fish catches from the text content
             for match in re.finditer(pattern, text_content):
-                player_name = match.group(2)
-                bot_name = match.group(1)
+                player = match.group(2)
+                bot = match.group(1)
                 # Check if the player is in the ignore list
-                if player_name in cheaters:
+                if player in cheaters:
                     continue
                 # Check if the player name has a mapping to a new name
-                player_name = renamed_chatters.get(player_name, player_name)
+                player = renamed_chatters.get(player, player)
                 # Add a verification check
-                if bot_name == "supibot" and player_name not in verified_players and not first_catch_with_supibot[player_name]:
-                    first_catch_with_supibot[player_name] = True
+                if bot == "supibot" and player not in verified_players and not first_catch_with_supibot[player]:
+                    first_catch_with_supibot[player] = True
                 # Update the fish catch count for the player
-                fish_catch_count[player_name] += 1
+                fish_catch_count[player] += 1
 
 async def main(renamed_chatters, cheaters, verified_players):
     for url in urls:

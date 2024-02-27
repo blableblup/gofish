@@ -53,7 +53,7 @@ with open('logs/logs.txt', 'r', encoding='utf-8') as file:
             fish_count = int(fish_match.group(1))
             bot_match = re.search(r'#breadworms \s?(\w+):', line)
             if bot_match:
-                bot_name = bot_match.group(1)
+                bot = bot_match.group(1)
 
                 # Extract the player name from the line
                 player_match = re.search(r'[@👥]\s?(\w+),', line)
@@ -64,10 +64,10 @@ with open('logs/logs.txt', 'r', encoding='utf-8') as file:
                         continue  # Skip processing for ignored players
 
                     # Check if the player name has a mapping to a new name
-                    new_player = renamed_chatters.get(player, player)
+                    player = renamed_chatters.get(player, player)
                     # Update the record if the current fish count is greater
-                    if fish_count > max_fish_in_week[new_player]['fish_count']:
-                        max_fish_in_week[new_player] = {'fish_count': fish_count, 'bot_name': bot_name}
+                    if fish_count > max_fish_in_week[player]['fish_count']:
+                        max_fish_in_week[player] = {'fish_count': fish_count, 'bot': bot}
 
 # Sort players by maximum fish caught and assign ranks with ties handled
 rank = 0
@@ -80,12 +80,12 @@ with open('leaderboardfish.md', 'w', encoding='utf-8') as file:
     file.write("|------|--------|---------------|\n")
     for player, info in sorted(max_fish_in_week.items(), key=lambda x: x[1]['fish_count'], reverse=True):
         max_fish = info['fish_count']
-        bot_name = info['bot_name']
+        bot = info['bot']
         # Check if the player meets the minimum threshold
         if max_fish >= 20:
             if max_fish < prev_max_fish:
                 rank += 1
-            if player not in verified_players and bot_name == 'supibot':
+            if player not in verified_players and bot == 'supibot':
                 file.write(f"| {rank} | {player}* | {max_fish} |\n")
             else:
                 file.write(f"| {rank} | {player} | {max_fish} |\n")
