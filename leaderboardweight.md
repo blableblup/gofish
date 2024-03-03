@@ -10,7 +10,7 @@
 | 6 | kishma9 | 🐳 | 297.37 lbs |
 | 7 | fishingalt | 🐳 | 297.27 lbs |
 | 8 | islcfc* | 🐳 | 296.57 lbs |
-| 9 | chubbyhamster2222 | 🐳 | 292.12 lbs |
+| 9 | xxx_r0ze_xxx | 🐳 | 292.12 lbs |
 | 10 | puzzlow | 🐳 | 292.04 lbs |
 | 11 | miiiiisho | 🦈 | 288.27 lbs |
 | 12 | paras220 | 🐳 | 287.47 lbs |

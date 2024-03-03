@@ -8,7 +8,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 # URLs of the websites containing the results
 urls = [
-        'https://logs.joinuv.com/channel/breadworms/user/gofishgame/2024/2?',
+        'https://logs.joinuv.com/channel/breadworms/user/gofishgame/2024/3?',
 ]
 
 # Function to fetch matching lines from a single URL
