@@ -76,11 +76,41 @@ sorted_players = sorted(total_points.items(), key=lambda x: x[1], reverse=True)
 # Group players with the same points
 grouped_players = [(points, list(group)) for points, group in groupby(sorted_players, key=lambda x: x[1])]
 
-# Write the sorted results with positions to a Markdown file
+# Open and read the existing leaderboard file
+old_rankings = {}
+
+with open('leaderboardtrophies.md', 'r', encoding='utf-8') as file:
+    next(file) # Skip first 4 lines
+    next(file)
+    next(file)
+    next(file)
+    for line in file:
+        if line.startswith("|"):
+            # Split the line and extract player and rank
+            parts = line.split("|")
+            rank = parts[1].strip()
+            rank = rank.split()[0]
+            player = parts[2].strip()
+            player = renamed_chatters.get(player, player)
+            old_rankings[player] = int(rank)
+
+# Write the results into a Markdown table
 with open('leaderboardtrophies.md', 'w', encoding='utf-8') as file:
     file.write("### Leaderboard for the weekly tournaments\n\n")
     file.write("| Rank | Player | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points |\n")
     file.write("|----------|--------|------------|-----------------|-----------------|--------|\n")
-    for position, (points, group) in enumerate(grouped_players, start=1):
+    for rank, (points, group) in enumerate(grouped_players, start=1):
         for player, _ in group:
-            file.write(f"| {position} | {player} | {player_counts[player]['Trophy']} | {player_counts[player]['Silver']} | {player_counts[player]['Bronze']} | {points} |\n")
+            # Ranking change
+            movement = {}
+            old_rank = old_rankings.get(player)
+            if old_rank:
+                if rank < old_rank:
+                    movement[player] = '⬆'
+                elif rank > old_rank:
+                    movement[player] = '⬇'
+                else:
+                    movement[player] = ''
+            else:
+                movement[player] = '🆕'
+            file.write(f"| {rank} {movement[player]}| {player} | {player_counts[player]['Trophy']} | {player_counts[player]['Silver']} | {player_counts[player]['Bronze']} | {points} |\n")

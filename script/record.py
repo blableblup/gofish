@@ -69,6 +69,26 @@ with open('logs/logs.txt', 'r', encoding='utf-8') as file:
                     if fish_count > max_fish_in_week[player]['fish_count']:
                         max_fish_in_week[player] = {'fish_count': fish_count, 'bot': bot}
 
+# Open and read the existing leaderboard file
+old_rankings = {}
+    
+with open('leaderboardfish.md', 'r', encoding='utf-8') as file:
+    next(file) # Skip first 4 lines
+    next(file)
+    next(file)
+    next(file)
+    for line in file:
+        if line.startswith("|"):
+            # Split the line and extract player and rank
+            parts = line.split("|")
+            rank = parts[1].strip()
+            rank = rank.split()[0]
+            player = parts[2].strip()
+            if '*' in player:
+                player = player.rstrip('*')
+            player = renamed_chatters.get(player, player)
+            old_rankings[player] = int(rank)
+
 # Sort players by maximum fish caught and assign ranks with ties handled
 rank = 0
 prev_max_fish = float('inf')  # Initialize with infinity
@@ -85,9 +105,21 @@ with open('leaderboardfish.md', 'w', encoding='utf-8') as file:
         if max_fish >= 20:
             if max_fish < prev_max_fish:
                 rank += 1
-            if player not in verified_players and bot == 'supibot':
-                file.write(f"| {rank} | {player}* | {max_fish} |\n")
+            # Ranking change
+            movement = {}
+            old_rank = old_rankings.get(player)
+            if old_rank:
+                if rank < old_rank:
+                    movement[player] = '⬆'
+                elif rank > old_rank:
+                    movement[player] = '⬇'
+                else:
+                    movement[player] = ''
             else:
-                file.write(f"| {rank} | {player} | {max_fish} |\n")
+                movement[player] = '🆕'
+            if player not in verified_players and bot == 'supibot':
+                file.write(f"| {rank} {movement[player]}| {player}* | {max_fish} |\n")
+            else:
+                file.write(f"| {rank} {movement[player]}| {player} | {max_fish} |\n")
             prev_max_fish = max_fish
     file.write("\n_* = The fish were caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate._\n")

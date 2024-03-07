@@ -10,7 +10,7 @@ import csv
 
 # List of URLs containing the fish catch information
 urls = [
-    'https://logs.joinuv.com/channel/breadworms/user/gofishgame/2024/2?',
+    'https://logs.joinuv.com/channel/breadworms/user/gofishgame/2024/3?',
     # Add more URLs as needed
 ]
 
@@ -81,6 +81,8 @@ async def main(renamed_chatters, cheaters, verified_players):
     # Initialize old_record with default values
     old_record = defaultdict(lambda: {'weight': 0, 'player': '', 'bot': None})
 
+    old_rankings = {}
+    
     # Open and read the existing leaderboard file
     with open('leaderboardtype.md', 'r', encoding='utf-8') as file:
         next(file)  # Skip first 4 lines
@@ -91,6 +93,8 @@ async def main(renamed_chatters, cheaters, verified_players):
             if line.startswith("|"):
                 # Extract player name, fish type, and weight from the line
                 parts = line.split("|")
+                rank = parts[1].strip()
+                rank = rank.split()[0]
                 player = parts[4].strip()
                 fish_type = parts[2].strip()
                 fish_weight = float(parts[3].strip().split()[0])
@@ -100,6 +104,7 @@ async def main(renamed_chatters, cheaters, verified_players):
                     player = player.rstrip('*')
                     bot = 'supibot'
                 player = renamed_chatters.get(player, player)
+                old_rankings[fish_type] = int(rank)
                 old_record[fish_type] = {'weight': fish_weight, 'player': player, 'bot': bot}
 
     # Compare new records with old records and update if necessary
@@ -127,10 +132,22 @@ async def main(renamed_chatters, cheaters, verified_players):
         file.write("|------|-----------|--------|--------|\n")
         rank = 1
         for fish_type, fish_info in sorted_leaderboard:
-            if fish_info['player'] not in verified_players and fish_info['bot'] == 'supibot':
-                file.write(f"| {rank} | {fish_type} | {fish_info['weight']} lbs | {fish_info['player']}* |\n")
+            # Ranking change
+            movement = {}
+            old_rank = old_rankings.get(fish_type)
+            if old_rank:
+                if rank < old_rank:
+                    movement[fish_type] = '⬆'
+                elif rank > old_rank:
+                    movement[fish_type] = '⬇'
+                else:
+                    movement[fish_type] = ''
             else:
-                file.write(f"| {rank} | {fish_type} | {fish_info['weight']} lbs | {fish_info['player']} |\n")
+                movement[fish_type] = '🆕'
+            if fish_info['player'] not in verified_players and fish_info['bot'] == 'supibot':
+                file.write(f"| {rank} {movement[fish_type]}| {fish_type} | {fish_info['weight']} lbs | {fish_info['player']}* |\n")
+            else:
+                file.write(f"| {rank} {movement[fish_type]}| {fish_type} | {fish_info['weight']} lbs | {fish_info['player']} |\n")
             rank += 1
         file.write("\n_* = The fish was caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate._\n")
 
