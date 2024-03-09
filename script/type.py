@@ -41,7 +41,7 @@ def read_verified_players(filename):
     with open('lists/verified.txt', 'r') as file:
         # Read each line from the text file
         for line in file:
-            # Append the line to the list of cheaters
+            # Append the line to the list of verified players
             verified_players.append(line.strip())  # Strip any leading or trailing whitespace
     return verified_players
 
@@ -91,12 +91,14 @@ async def main(renamed_chatters, cheaters, verified_players):
         next(file)
         for line in file:
             if line.startswith("|"):
-                # Extract player name, fish type, and weight from the line
+                # Extract rank, player name, fish type, and weight from the line
                 parts = line.split("|")
                 rank = parts[1].strip()
                 rank = rank.split()[0]
                 player = parts[4].strip()
                 fish_type = parts[2].strip()
+                if fish_type in equivalent_fish_types:
+                    fish_type = equivalent_fish_types[fish_type]  # Update fish type if it has an equivalent
                 fish_weight = float(parts[3].strip().split()[0])
                 bot = None  # Initialize bot as None by default
                 # Check if the marker is present indicating 'supibot'
@@ -127,7 +129,7 @@ async def main(renamed_chatters, cheaters, verified_players):
 
     # Write the updated leaderboard to leaderboardtype.txt
     with open('leaderboardtype.md', 'w', encoding='utf-8') as file:
-        file.write("### Biggest fish by type caught in chat\n\n")
+        file.write("### Leaderboard for the biggest fish per type caught in chat\n\n")
         file.write("| Rank | Fish Type | Weight | Player |\n")
         file.write("|------|-----------|--------|--------|\n")
         rank = 1
