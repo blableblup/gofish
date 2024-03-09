@@ -40,7 +40,7 @@ def read_verified_players(filename):
     with open('lists/verified.txt', 'r') as file:
         # Read each line from the text file
         for line in file:
-            # Append the line to the list of cheaters
+            # Append the line to the list of verified players
             verified_players.append(line.strip())  # Strip any leading or trailing whitespace
     return verified_players
 
@@ -84,7 +84,7 @@ async def main(renamed_chatters, cheaters, verified_players):
         next(file)
         for line in file:
             if line.startswith("|"):
-                # Extract player name, fish type, and weight from the line
+                # Extract rank, player name, fish type, and weight from the line
                 parts = line.split("|")
                 rank = parts[1].strip()
                 rank = rank.split()[0]
@@ -113,7 +113,7 @@ async def main(renamed_chatters, cheaters, verified_players):
 
     # Write the updated records to the leaderboard file
     with open('leaderboardweight.md', 'w', encoding='utf-8') as file:
-        file.write("### Chatters and their biggest fish caught in chat (>200 lbs)\n\n")
+        file.write("### Leaderboard for the biggest fish caught per player in chat\n\n")
         file.write("| Rank | Player | Fish | Weight ⚖️ |\n")
         file.write("|------|--------|-----------|---------|\n")
         for rank, (player, fish_info) in enumerate(sorted(merged_records.items(), key=lambda x: x[1]['weight'], reverse=True), start=1):
@@ -141,4 +141,4 @@ if __name__ == "__main__":
     renamed_chatters = renamed('lists/renamed.csv')
     cheaters = read_cheaters('lists/cheaters.txt')
     verified_players = read_verified_players('lists/verified.txt')
-    asyncio.run(main(renamed_chatters, verified_players, cheaters))
+    asyncio.run(main(renamed_chatters, cheaters, verified_players))

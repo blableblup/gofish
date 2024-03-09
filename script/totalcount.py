@@ -41,7 +41,7 @@ def read_verified_players(filename):
     with open('lists/verified.txt', 'r') as file:
         # Read each line from the text file
         for line in file:
-            # Append the line to the list of cheaters
+            # Append the line to the list of verified players
             verified_players.append(line.strip())  # Strip any leading or trailing whitespace
     return verified_players
 

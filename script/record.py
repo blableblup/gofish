@@ -35,7 +35,7 @@ def read_verified_players(filename):
     with open('lists/verified.txt', 'r') as file:
         # Read each line from the text file
         for line in file:
-            # Append the line to the list of cheaters
+            # Append the line to the list of verified players
             verified_players.append(line.strip())  # Strip any leading or trailing whitespace
     return verified_players
 
@@ -95,7 +95,7 @@ prev_max_fish = float('inf')  # Initialize with infinity
 
 # Write the results into a Markdown table
 with open('leaderboardfish.md', 'w', encoding='utf-8') as file:
-    file.write("### Chatters and their most fish caught in a single week in tournaments\n\n")
+    file.write("### Leaderboard for the most fish caught in a single week in tournaments\n\n")
     file.write("| Rank | Player | Fish Caught 🪣 |\n")
     file.write("|------|--------|---------------|\n")
     for player, info in sorted(max_fish_in_week.items(), key=lambda x: x[1]['fish_count'], reverse=True):
