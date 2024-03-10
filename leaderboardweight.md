@@ -1,4 +1,4 @@
-### Chatters and their biggest fish caught in chat (>200 lbs)
+### Leaderboard for the biggest fish caught per player in chat
 
 | Rank | Player | Fish | Weight ⚖️ |
 |------|--------|-----------|---------|

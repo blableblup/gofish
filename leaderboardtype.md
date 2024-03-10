@@ -1,4 +1,4 @@
-### Biggest fish by type caught in chat
+### Leaderboard for the biggest fish per type caught in chat
 
 | Rank | Fish Type | Weight | Player |
 |------|-----------|--------|--------|
