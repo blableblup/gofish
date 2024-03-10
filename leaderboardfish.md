@@ -1,4 +1,4 @@
-### Chatters and their most fish caught in a single week in tournaments
+### Leaderboard for the most fish caught in a single week in tournaments
 
 | Rank | Player | Fish Caught 🪣 |
 |------|--------|---------------|
@@ -24,17 +24,18 @@
 | 19 | hmsmob* | 52 |
 | 19 | kaasppeerr | 52 |
 | 20 | leanmeister | 51 |
-| 21 🆕| bapqo | 47 |
-| 22 ⬇| paras220 | 46 |
-| 23 ⬇| ouacewi | 42 |
-| 24 ⬇| julialuxel | 34 |
-| 25 ⬇| islcfc* | 33 |
-| 26 ⬇| jr_mime | 32 |
-| 27 ⬇| itsalot_tlike* | 30 |
-| 28 ⬇| fallen_angels_1995 | 28 |
-| 29 ⬇| dougiefresh_83 | 27 |
-| 30 ⬇| breadworms | 25 |
-| 31 ⬇| rocketpol* | 24 |
-| 31 ⬇| ninjaross | 24 |
+| 21 | bapqo | 48 |
+| 22 | paras220 | 46 |
+| 23 | ouacewi | 42 |
+| 24 ⬆| ninjaross | 35 |
+| 25 ⬇| julialuxel | 34 |
+| 26 ⬇| islcfc* | 33 |
+| 27 ⬇| jr_mime | 32 |
+| 28 ⬇| itsalot_tlike* | 30 |
+| 29 ⬇| fallen_angels_1995 | 28 |
+| 30 ⬇| dougiefresh_83 | 27 |
+| 31 ⬇| breadworms | 25 |
+| 32 ⬇| rocketpol* | 24 |
+| 33 🆕| veggesh | 21 |
 
 _* = The fish were caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate._
