@@ -51,7 +51,7 @@ with open('logs/logs.txt', 'r', encoding='utf-8') as file:
         fish_match = re.search(r'🪣 (\d+) fish: (\w+)', line)
         if fish_match:
             fish_count = int(fish_match.group(1))
-            bot_match = re.search(r'#breadworms \s?(\w+):', line)
+            bot_match = re.search(r'#\w+ \s?(\w+):', line)
             if bot_match:
                 bot = bot_match.group(1)
 
