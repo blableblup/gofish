@@ -58,11 +58,16 @@ async def fetch_data(url, renamed_chatters, cheaters, verified_players):
             # Extract information about fish catches from the text content
             for match in re.finditer(pattern, text_content):
                 player = match.group(2)
+                
                 # Check if the player is in the ignore list
                 if player in cheaters:
                     continue
-                # Check if the player name has a mapping to a new name
+                
+                # Change to the latest name
                 player = renamed_chatters.get(player, player)
+                while player in renamed_chatters:
+                    player = renamed_chatters[player]
+                
                 # Update the fish catch count for the player
                 fish_catch_count[player] += 1
 
@@ -87,7 +92,10 @@ async def main(renamed_chatters, cheaters, verified_players):
                     player = parts[2].strip()
                     if '*' in player:
                         player = player.rstrip('*')
+                    # Change to the latest name
                     player = renamed_chatters.get(player, player)
+                    while player in renamed_chatters:
+                        player = renamed_chatters[player]
                     old_rankings[player] = int(rank)
     except FileNotFoundError:
         # If the file doesn't exist, initialize old_rankings as an empty dictionary
@@ -109,11 +117,20 @@ async def main(renamed_chatters, cheaters, verified_players):
                     player = parts[2].strip()
                     if '*' in player:
                         player = player.rstrip('*')
+                        # Change to the latest name
+                        player = renamed_chatters.get(player, player)
+                        while player in renamed_chatters:
+                            player = renamed_chatters[player]
+                        old_count[player] = int(count)
                         old_bot[player] = "supibot"
+                        
                     else:
-                        old_bot[player] = "adadasddad"
-                    player = renamed_chatters.get(player, player)
-                    old_count[player] = int(count)
+                        # Change to the latest name
+                        player = renamed_chatters.get(player, player)
+                        while player in renamed_chatters:
+                            player = renamed_chatters[player]
+                        old_count[player] = int(count)
+                        old_bot[player] = "notsupi"
                 
     global fish_catch_count
 
