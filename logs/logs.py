@@ -1,59 +1,65 @@
 # made with chatgpt
-# gets new tournament results and adds them to logs.txt
-# still have to delete new lines if chatter does +checkin multiple times
+# gets the new tournament results and adds them to logs.txt
 
-import asyncio
-import requests
-from concurrent.futures import ThreadPoolExecutor
+import os
+import urllib.request
 
-# URLs of the websites containing the results
-urls = [
-        'https://logs.joinuv.com/channel/breadworms/user/gofishgame/2024/3?',
-]
+class URLSet:
+    def __init__(self, urls, logs):
+        self.urls = urls
+        self.logs = logs
 
-# Function to fetch matching lines from a single URL
-async def fetch_matching_lines(url):
-    response = requests.get(url)
-    text_content = response.text
-    lines = text_content.split('\n')
-    matching_lines = [line.strip() for line in lines if 'The results are in' in line or 'The results for last week are in' in line or 'Last week...' in line]
-    return matching_lines
+def fetch_matching_lines(set_info):
+    log_file_path = set_info.logs if os.path.isabs(set_info.logs) else os.path.join('logs', set_info.logs)
+    matching_lines = []
 
-async def main():
-    # Fetch matching lines from multiple URLs concurrently
-    matching_lines_list = await asyncio.gather(*[fetch_matching_lines(url) for url in urls])
-    all_matching_lines = [line for lines in matching_lines_list for line in lines]
+    for url in set_info.urls:
+        try:
+            with urllib.request.urlopen(url) as response:
+                body = response.read().decode('utf-8')
+                lines = body.split('\n')
+                matching_lines.extend(line.strip() for line in lines if "The results are in" in line
+                                       or "The results for last week are in" in line
+                                       or "Last week..." in line)
+        except Exception as e:
+            print(f"Error fetching URL: {e}")
 
-    # Read existing content from logs.txt
-    with open('logs/logs.txt', 'r', encoding='utf-8') as file:
-        existing_content = file.readlines()
-
-    # Extract relevant parts from existing content
     existing_lines = set()
-    for line in existing_content:
-        if 'You caught' in line:
-            parts = line.split('You caught', 1)
-            if len(parts) > 1:
-                existing_lines.add(parts[1].strip())
+    if os.path.exists(log_file_path):
+        try:
+            with open(log_file_path, 'r', encoding='utf-8') as file:
+                for line in file:
+                    if "You caught" in line:
+                        parts = line.split("You caught", 1)
+                        if len(parts) > 1:
+                            existing_lines.add(parts[1].strip())
+        except FileNotFoundError:
+            pass  # File doesn't exist, so no existing lines to read
+    else:
+        os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
 
-    # Extract and compare new results to ensure uniqueness
-    new_results = set()
-    for line in all_matching_lines:
-        if 'You caught' in line:
-            parts = line.split('You caught', 1)
+    new_results = []
+    for line in matching_lines:
+        if "You caught" in line:
+            parts = line.split("You caught", 1)
             if len(parts) > 1:
                 new_line = parts[1].strip()
                 if new_line not in existing_lines:
-                    new_results.add(line)  # Add the entire line, not just the stripped part
-    
-    # Append only the unique new results to logs.txt
+                    new_results.append(line)
+                    existing_lines.add(new_line)
+
     if new_results:
-        with open('logs/logs.txt', 'a', encoding='utf-8') as file:
+        with open(log_file_path, 'a', encoding='utf-8') as file:
             for line in new_results:
                 file.write(line + '\n')
-        print("New results appended")
+        print(f"New results appended to {log_file_path}")
     else:
-        print("No new results to append")
+        print(f"No new results to append to {log_file_path}")
+
+def main():
+    url_set = URLSet(urls=["https://logs.joinuv.com/channel/breadworms/user/gofishgame/2024/3?"], logs="logs.txt")
+
+    fetch_matching_lines(url_set)
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()
