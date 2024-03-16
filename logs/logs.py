@@ -10,7 +10,7 @@ class URLSet:
         self.logs = logs
 
 def fetch_matching_lines(set_info):
-    log_file_path = set_info.logs if os.path.isabs(set_info.logs) else os.path.join('logs', set_info.logs)
+    log_file_path = set_info.logs
     matching_lines = []
 
     for url in set_info.urls:
@@ -57,7 +57,7 @@ def fetch_matching_lines(set_info):
         print(f"No new results to append to {log_file_path}")
 
 def main():
-    url_set = URLSet(urls=["https://logs.joinuv.com/channel/breadworms/user/gofishgame/2024/3?"], logs="logs.txt")
+    url_set = URLSet(urls=["https://logs.joinuv.com/channel/breadworms/user/gofishgame/2024/3?"], logs="logs/logs.txt")
 
     fetch_matching_lines(url_set)
 
