@@ -16,7 +16,7 @@
 | 12 | paras220 | 🐳 | 287.47 lbs |
 | 13 | breadworms | 🐳 | 282.85 lbs |
 | 14 | jr_mime | 🦑 | 282.46 lbs |
-| 15 | 5pic3* | 🐉 | 281.63 lbs |
+| 15 | 5c33* | 🐉 | 281.63 lbs |
 | 16 | sussy_amonge | 🐉 | 278.7 lbs |
 | 17 | niiy | 🐳 | 273.9 lbs |
 | 18 | booty_bread | 🐉 | 273.82 lbs |
@@ -34,13 +34,14 @@
 | 30 | leanmeister | 🦕 | 236.75 lbs |
 | 31 | doublehelicalstructure* | 🦕 | 235.33 lbs |
 | 32 | julialuxel | 🐳 | 234.0 lbs |
-| 33 | supibot | 🦕 | 231.47 lbs |
-| 34 | wispmode | 🐳 | 230.99 lbs |
-| 35 | mochi_uygqzidbjizjkbehuiw | 🐳 | 222.73 lbs |
-| 36 | fallen_angels_1995 | 🐳 | 219.76 lbs |
-| 37 | lzvli* | 🦈 | 215.97 lbs |
-| 38 | realtechnine | 🦕 | 214.11 lbs |
-| 39 | notparasfishalt* | 🐉 | 207.18 lbs |
-| 40 | veggesh | 🦈 | 206.22 lbs |
+| 33 🆕| bapqo | 🐉 | 233.48 lbs |
+| 34 ⬇| supibot | 🦕 | 231.47 lbs |
+| 35 ⬇| wispmode | 🐳 | 230.99 lbs |
+| 36 ⬇| mochi_uygqzidbjizjkbehuiw | 🐳 | 222.73 lbs |
+| 37 ⬇| fallen_angels_1995 | 🐳 | 219.76 lbs |
+| 38 ⬇| lazzvli* | 🦈 | 215.97 lbs |
+| 39 ⬇| realtechnine | 🦕 | 214.11 lbs |
+| 40 ⬇| notparasfishalt* | 🐉 | 207.18 lbs |
+| 41 ⬇| veggesh | 🦈 | 206.22 lbs |
 
 _* = The fish was caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate._

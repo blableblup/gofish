@@ -24,7 +24,7 @@
 | 20 | 🪸 | 97.69 lbs | kishma9 |
 | 21 | 👑 | 77.02 lbs | puzzlow |
 | 22 | 🪨 | 74.57 lbs | fishingalt |
-| 23 | 🦐 | 67.05 lbs | 5pic3* |
+| 23 | 🦐 | 67.05 lbs | 5c33* |
 | 24 | 🐟 | 62.65 lbs | derinturitierutz |
 | 25 | 🗡️ | 47.73 lbs | xz_xz |
 | 26 | 🐸 | 46.72 lbs | derinturitierutz |
@@ -61,7 +61,7 @@
 | 57 | 🪀 | 3.92 lbs | paras220 |
 | 58 | ☂️ | 2.96 lbs | kishma9 |
 | 59 | 🥪 | 2.96 lbs | qu4ttromila |
-| 60 | 🍬 | 2.6 lbs | 5pic3* |
+| 60 | 🍬 | 2.6 lbs | 5c33* |
 | 61 | 🧦 | 2.0 lbs | osnyatsky* |
 | 62 | 👟 | 2.0 lbs | kishma9 |
 | 63 | 🩴 | 2.0 lbs | qu4ttromila |
