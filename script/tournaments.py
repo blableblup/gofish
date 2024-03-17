@@ -94,15 +94,15 @@ with open('logs/logs.txt', 'r', encoding='utf-8') as file:
                 elif 'champion' in achievement:
                     player_counts[player]['Trophy'] += 1
 
-# Open and read the existing leaderboard files to get the old ranks
+# Open and read the existing leaderboard files to get the old ranks and old trophies and medals
 old_fish_rankings = {}
 old_trophy_rankings = {}
+old_player_counts = defaultdict(dict) 
 
 with open('leaderboardfish.md', 'r', encoding='utf-8') as file:
-    next(file) # Skip first 4 lines
-    next(file)
-    next(file)
-    next(file)
+    # Skip first 4 lines (header)
+    for _ in range(4):
+        next(file)
     for line in file:
         if line.startswith("|"):
             parts = line.split("|")
@@ -116,10 +116,9 @@ with open('leaderboardfish.md', 'r', encoding='utf-8') as file:
             old_fish_rankings[player] = int(rank)
 
 with open('leaderboardtrophies.md', 'r', encoding='utf-8') as file:
-    next(file) # Skip first 4 lines
-    next(file)
-    next(file)
-    next(file)
+    # Skip first 4 lines (header)
+    for _ in range(4):
+        next(file)
     for line in file:
         if line.startswith("|"):
             parts = line.split("|")
@@ -129,6 +128,17 @@ with open('leaderboardtrophies.md', 'r', encoding='utf-8') as file:
             while player in renamed_chatters:
                 player = renamed_chatters[player]
             old_trophy_rankings[player] = int(rank)
+            
+            trophies = int(parts[3].strip().split()[0])
+            silver_medals = int(parts[4].strip().split()[0])
+            bronze_medals = int(parts[5].strip().split()[0])
+            
+            # Store old player counts
+            old_player_counts[player] = {
+                'Trophies': trophies,
+                'Silver Medals': silver_medals,
+                'Bronze Medals': bronze_medals
+            }
 
 # Sort players by maximum fish caught and assign ranks with ties handled
 rank = 0
@@ -145,6 +155,7 @@ with open('leaderboardfish.md', 'w', encoding='utf-8') as file:
         if max_fish >= 20:
             if max_fish < prev_max_fish:
                 rank += 1
+            
             # Ranking change
             movement = {}
             old_rank = old_fish_rankings.get(player)
@@ -157,6 +168,7 @@ with open('leaderboardfish.md', 'w', encoding='utf-8') as file:
                     movement[player] = ''
             else:
                 movement[player] = '🆕'
+            
             if player not in verified_players and bot == 'supibot':
                 file.write(f"| {rank} {movement[player]}| {player}* | {max_fish} |\n")
             else:
@@ -182,6 +194,7 @@ with open('leaderboardtrophies.md', 'w', encoding='utf-8') as file:
     file.write("|----------|--------|------------|-----------------|-----------------|--------|\n")
     for rank, (points, group) in enumerate(grouped_players, start=1):
         for player, _ in group:
+           
             # Ranking change
             movement = {}
             old_rank = old_trophy_rankings.get(player)
@@ -194,4 +207,15 @@ with open('leaderboardtrophies.md', 'w', encoding='utf-8') as file:
                     movement[player] = ''
             else:
                 movement[player] = '🆕'
-            file.write(f"| {rank} {movement[player]}| {player} | {player_counts[player]['Trophy']} | {player_counts[player]['Silver']} | {player_counts[player]['Bronze']} | {points} |\n")
+            
+            # Compare new counts to old counts and display the difference
+            trophies_difference = player_counts[player]['Trophy'] - old_player_counts[player].get('Trophies', 0)
+            silver_difference = player_counts[player]['Silver'] - old_player_counts[player].get('Silver Medals', 0)
+            bronze_difference = player_counts[player]['Bronze'] - old_player_counts[player].get('Bronze Medals', 0)
+            
+            # Construct the string with the difference in brackets
+            trophy_count = f"{player_counts[player]['Trophy']} (+{trophies_difference})" if trophies_difference > 0 else str(player_counts[player]['Trophy'])
+            silver_count = f"{player_counts[player]['Silver']} (+{silver_difference})" if silver_difference > 0 else str(player_counts[player]['Silver'])
+            bronze_count = f"{player_counts[player]['Bronze']} (+{bronze_difference})" if bronze_difference > 0 else str(player_counts[player]['Bronze'])
+            
+            file.write(f"| {rank} {movement[player]}| {player} | {trophy_count} | {silver_count} | {bronze_count} | {points} |\n")
