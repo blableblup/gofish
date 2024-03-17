@@ -10,7 +10,7 @@
 | 6 | sicklymaidrobot | 123 |
 | 6 | sussy_amonge | 123 |
 | 7 | qu4ttromila | 122 |
-| 8 | lzvli* | 112 |
+| 8 | lazzvli* | 112 |
 | 9 | ryebreadward | 110 |
 | 10 | bussinongnocap | 108 |
 | 11 | dayzedinndaydreams | 93 |
@@ -18,7 +18,7 @@
 | 13 | supibot | 88 |
 | 14 | comiqq | 84 |
 | 15 | miiiiisho | 79 |
-| 16 | xxx_r0ze_xxx | 68 |
+| 16 | xxx_r0ze_xxx | 69 |
 | 17 | booty_bread | 60 |
 | 18 | bk207* | 53 |
 | 19 | hmsmob* | 52 |
@@ -27,15 +27,15 @@
 | 21 | bapqo | 48 |
 | 22 | paras220 | 46 |
 | 23 | ouacewi | 42 |
-| 24 ⬆| ninjaross | 35 |
-| 25 ⬇| julialuxel | 34 |
-| 26 ⬇| islcfc* | 33 |
-| 27 ⬇| jr_mime | 32 |
-| 28 ⬇| itsalot_tlike* | 30 |
-| 29 ⬇| fallen_angels_1995 | 28 |
-| 30 ⬇| dougiefresh_83 | 27 |
-| 31 ⬇| breadworms | 25 |
-| 32 ⬇| rocketpol* | 24 |
-| 33 🆕| veggesh | 21 |
+| 24 | ninjaross | 35 |
+| 25 | julialuxel | 34 |
+| 26 | islcfc* | 33 |
+| 27 | jr_mime | 32 |
+| 28 | itsalot_tlike* | 30 |
+| 29 | fallen_angels_1995 | 28 |
+| 30 | dougiefresh_83 | 27 |
+| 31 | breadworms | 25 |
+| 32 | rocketpol* | 24 |
+| 33 | veggesh | 21 |
 
 _* = The fish were caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate._
