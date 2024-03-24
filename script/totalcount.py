@@ -182,13 +182,14 @@ async def main(renamed_chatters, cheaters, verified_players):
                 else:
                     movement[player] = '🆕'
                 
-                # Show the weekly change of fish caught behind the players new count, if they were on the leaderboard last week
-                if last_week_count[player]:
+                # Show the weekly change of fish caught behind the player's new count
+                if player in last_week_count:
                     fish_difference = fish_catch_count[player] - last_week_count[player]
+                    new_count = f"{fish_catch_count[player]} (+{fish_difference})" if fish_difference >= 1 else str(fish_catch_count[player])
                 else:
-                    fish_difference = 0
-                new_count = f"{fish_catch_count[player]} (+{fish_difference})" if fish_difference >= 1 else str(fish_catch_count[player])
-                
+                    # Player wasn't on the leaderboard last week
+                    new_count = fish_catch_count[player]
+
                 if old_bot[player] == "supibot":
                     file.write(f"| {rank} {movement[player]}| {player}* | {new_count} |\n")
                 else:
