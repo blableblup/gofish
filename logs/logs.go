@@ -4,20 +4,18 @@ import (
 	"bufio"
 	"encoding/json"
 	"fmt"
+	"gofish_test/other"
 	"io"
 	"net/http"
 	"os"
 	"path/filepath"
 	"runtime"
-	"strconv"
 	"strings"
-	"time"
 )
 
 type URLSet struct {
 	URLs        []string `json:"urls"`
 	Logs        string   `json:"logs"`
-	Offset      int      `json:"offset"`
 	LogsHost    string   `json:"logs_host"`
 	LogsHostOld string   `json:"logs_host_old"`
 }
@@ -45,7 +43,8 @@ func RunLogs(setNames string, numMonths int, monthYear string) {
 	if setNames == "all" {
 		// Run all URL sets with the specified number of months or month/year
 		for setName, setInfo := range config.URLSets {
-			runURLSet(setName, setInfo, numMonths, monthYear)
+			urls := other.CreateURL(setName, numMonths, monthYear)
+			fetchMatchingLines(setInfo, urls)
 		}
 		return
 	}
@@ -60,75 +59,12 @@ func RunLogs(setNames string, numMonths int, monthYear string) {
 		}
 
 		// Call runURLSet function with the provided arguments
-		runURLSet(setName, setInfo, numMonths, monthYear)
+		urls := other.CreateURL(setName, numMonths, monthYear)
+		fetchMatchingLines(setInfo, urls)
 	}
 }
 
-func runURLSet(setName string, setInfo URLSet, numMonths int, monthYear string) {
-	fmt.Printf("Running URL set: %s\n", setName)
-	now := time.Now()
-
-	// Start from the specified month/year or current month/year
-	if monthYear != "" {
-		parts := strings.Split(monthYear, "/")
-		if len(parts) != 2 {
-			fmt.Println("Invalid month/year format. Please use 'yyyy/mm' format.")
-			os.Exit(1)
-		}
-		year, err := strconv.Atoi(parts[0])
-		if err != nil {
-			fmt.Println("Invalid year:", err)
-			os.Exit(1)
-		}
-		month, err := strconv.Atoi(parts[1])
-		if err != nil || month < 1 || month > 12 {
-			fmt.Println("Invalid month:", err)
-			os.Exit(1)
-		}
-		now = time.Date(year, time.Month(month), 1, 0, 0, 0, 0, time.UTC)
-	}
-
-	// Loop through the specified number of months
-	for i := 0; i < numMonths; i++ {
-		// Calculate the year and month for the current iteration
-		year, month, _ := now.AddDate(0, -i, 0).Date()
-
-		// Check if the current month is within September 2023 and LogsHostOld is not empty
-		if year == 2023 && month == time.September && setInfo.LogsHostOld != "" {
-			// Use both the old and new logs hosts
-			urlOld := fmt.Sprintf("%s%d/%d?", setInfo.LogsHostOld, year, int(month))
-			urlNew := fmt.Sprintf("%s%d/%d?", setInfo.LogsHost, year, int(month))
-			fmt.Println("Fetching data from supibot:", urlOld)              // Print the URL being used for old logs host
-			fmt.Println("Fetching data from gofishgame:", urlNew)           // Print the URL being used for new logs host
-			urlSetOld := URLSet{URLs: []string{urlOld}, Logs: setInfo.Logs} // Construct URLSet object for old logs host
-			urlSetNew := URLSet{URLs: []string{urlNew}, Logs: setInfo.Logs} // Construct URLSet object for new logs host
-			fetchMatchingLines(urlSetOld)
-			fetchMatchingLines(urlSetNew)
-		} else {
-			// Check if the current month is before the logs host change or LogsHostOld is not empty
-			if (year < 2023 || (year == 2023 && month < time.September)) || setInfo.LogsHostOld != "" {
-				// Use the old logs host if it's not empty
-				if setInfo.LogsHostOld != "" {
-					url := fmt.Sprintf("%s%d/%d?", setInfo.LogsHostOld, year, int(month))
-					fmt.Println("Fetching data from supibot:", url)           // Print the URL being used
-					urlSet := URLSet{URLs: []string{url}, Logs: setInfo.Logs} // Construct URLSet object
-					fetchMatchingLines(urlSet)
-				} else {
-					fmt.Println("There is no old logs host specified. Skipping...")
-				}
-			} else {
-				// Use the current logs host
-				url := fmt.Sprintf("%s%d/%d?", setInfo.LogsHost, year, int(month))
-				fmt.Println("Fetching data from gofishgame:", url)        // Print the URL being used
-				urlSet := URLSet{URLs: []string{url}, Logs: setInfo.Logs} // Construct URLSet object
-				fetchMatchingLines(urlSet)
-			}
-		}
-	}
-
-}
-
-func fetchMatchingLines(setInfo URLSet) {
+func fetchMatchingLines(setInfo URLSet, urls []string) {
 	// Get the directory of the current source file
 	_, currentFilePath, _, _ := runtime.Caller(0)
 	currentFileDir := filepath.Dir(currentFilePath)
@@ -147,7 +83,7 @@ func fetchMatchingLines(setInfo URLSet) {
 
 	// Fetch matching lines from each URL
 	matchingLines := make([]string, 0)
-	for _, url := range setInfo.URLs {
+	for _, url := range urls {
 		response, err := http.Get(url)
 		if err != nil {
 			fmt.Println("Error fetching URL:", err)
@@ -169,6 +105,7 @@ func fetchMatchingLines(setInfo URLSet) {
 				matchingLines = append(matchingLines, strings.TrimSpace(line))
 			}
 		}
+		fmt.Println("Finished checking for matching lines in", url)
 	}
 
 	// Read existing content from the output file
