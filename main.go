@@ -9,7 +9,7 @@ import (
 
 func main() {
 	// Define command line flags
-	program := flag.String("p", "", "Program name: trnm, wght, logs")
+	program := flag.String("p", "", "Program name: trnm, wght, logs, count")
 	setNames := flag.String("s", "", "Comma-separated list of set names")
 	leaderboard := flag.String("l", "", "Leaderboard name")
 	numMonths := flag.Int("m", 1, "Number of past months")

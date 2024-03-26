@@ -49,7 +49,7 @@ func RunTournaments(setNames, leaderboard string) {
 			if fishweekLimit == "" {
 				fishweekLimit = "20" // Set the default fishweek limit if not specified
 			}
-			processSet(setName, config.URLSets[setName], pointValues, leaderboard, fishweekLimit)
+			processTournaments(setName, config.URLSets[setName], pointValues, leaderboard, fishweekLimit)
 		}
 	case "":
 		fmt.Println("Please specify set names.")
@@ -66,12 +66,12 @@ func RunTournaments(setNames, leaderboard string) {
 			if fishweekLimit == "" {
 				fishweekLimit = "20" // Set the default fishweek limit if not specified
 			}
-			processSet(setName, urlSet, pointValues, leaderboard, fishweekLimit)
+			processTournaments(setName, urlSet, pointValues, leaderboard, fishweekLimit)
 		}
 	}
 }
 
-func processSet(setName string, urlSet other.URLSet, pointValues map[string]float64, leaderboard string, fishweekLimit string) {
+func processTournaments(setName string, urlSet other.URLSet, pointValues map[string]float64, leaderboard string, fishweekLimit string) {
 
 	// Import the lists from lists
 	cheaters := lists.ReadCheaters()

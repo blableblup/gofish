@@ -33,7 +33,7 @@ func RunTypeWeight(setNames, leaderboard string, numMonths int, monthYear string
 				Weightlimit = "200" // Set the default weight limit if not specified
 			}
 			urls := other.CreateURL(setName, numMonths, monthYear)
-			processSet2(urls, setName, config.URLSets[setName], leaderboard, Weightlimit)
+			processTypeWeight(urls, setName, config.URLSets[setName], leaderboard, Weightlimit)
 		}
 	case "":
 		fmt.Println("Please specify set names.")
@@ -51,12 +51,12 @@ func RunTypeWeight(setNames, leaderboard string, numMonths int, monthYear string
 				Weightlimit = "200" // Set the default weight limit if not specified
 			}
 			urls := other.CreateURL(setName, numMonths, monthYear)
-			processSet2(urls, setName, urlSet, leaderboard, Weightlimit)
+			processTypeWeight(urls, setName, urlSet, leaderboard, Weightlimit)
 		}
 	}
 }
 
-func processSet2(urls []string, setName string, urlSet other.URLSet, leaderboard string, Weightlimit string) {
+func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leaderboard string, Weightlimit string) {
 
 	oldRecordWeight, err := other.ReadWeightRankings(urlSet.Weight)
 	if err != nil {
