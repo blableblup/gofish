@@ -2,7 +2,7 @@ package other
 
 import (
 	"bufio"
-	"gofish_test/lists"
+	"gofish/lists"
 	"os"
 	"regexp"
 	"strconv"

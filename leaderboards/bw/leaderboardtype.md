@@ -1,5 +1,5 @@
 ### Leaderboard for the biggest fish per type caught in chat
-| Rank | Fish Type | Weight in lbs | Player |
+| Rank | Fish | Weight in lbs | Player |
 |------|-----------|--------|--------|
 | 1 🥇  | 🦑 | 307.60 | dayzedinndaydreams |
 | 2 🥈  | 🐳 | 303.81 | qu4ttromila |
@@ -58,18 +58,18 @@
 | 55  | 🥫 | 4.67 | qu4ttromila |
 | 56  | 🐚 | 4.00 | kishma9 |
 | 57  | 🪀 | 3.92 | paras220 |
-| 58  | 🥪 | 2.96 | qu4ttromila |
 | 58  | ☂️ | 2.96 | kishma9 |
+| 58  | 🥪 | 2.96 | qu4ttromila |
 | 60  | 🍬 | 2.60 | 5c33* |
+| 61  | 🩴 | 2.00 | qu4ttromila |
 | 61  | 👟 | 2.00 | kishma9 |
 | 61  | 🧦 | 2.00 | osnyatsky* |
-| 61  | 🩴 | 2.00 | qu4ttromila |
 | 64  | 👢 | 1.97 | kishma9 |
 | 65  | 🩰 | 1.96 | sicklymaidrobot |
 | 66  | ⛸️ | 1.94 | ryebreadward |
 | 67  | 🌿 | 1.00 | crinche* |
-| 68  | 🧣 | 0.99 | osnyatsky* |
 | 68  | 🧤 | 0.99 | sicklymaidrobot |
 | 68  | 🪶 | 0.99 | osnyatsky* |
+| 68  | 🧣 | 0.99 | osnyatsky* |
 
 _* = The fish was caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate._

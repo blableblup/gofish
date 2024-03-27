@@ -2,8 +2,8 @@ package leaderboards
 
 import (
 	"fmt"
-	"gofish_test/lists"
-	"gofish_test/other"
+	"gofish/lists"
+	"gofish/other"
 	"os"
 	"path/filepath"
 	"strings"
@@ -432,7 +432,7 @@ func writeTypeLeaderboard(filePath string, recordType map[string]other.Record) e
 	}
 
 	// Write the header
-	_, err = fmt.Fprintln(file, "| Rank | Fish Type | Weight in lbs | Player |")
+	_, err = fmt.Fprintln(file, "| Rank | Fish | Weight in lbs | Player |")
 	_, err = fmt.Fprintln(file, "|------|-----------|--------|--------|")
 	if err != nil {
 		return err

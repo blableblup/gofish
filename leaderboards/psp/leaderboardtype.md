@@ -1,5 +1,5 @@
 ### Leaderboard for the biggest fish per type caught in chat
-| Rank | Fish Type | Weight in lbs | Player |
+| Rank | Fish | Weight in lbs | Player |
 |------|-----------|--------|--------|
 | 1 🥇  | 🐳 | 303.51 | huuuuurz |
 | 2 🥈  | 🦑 | 280.48 | huuuuurz |
@@ -66,8 +66,8 @@
 | 62  | 🥪 | 1.98 | ovrht |
 | 64  | ⛸️ | 1.96 | pookiesnowman |
 | 65  | 🍬 | 1.60 | dx9er |
-| 66  | 🧤 | 1.00 | kubo7 |
 | 66  | 🌿 | 1.00 | shricky |
+| 66  | 🧤 | 1.00 | kubo7 |
 | 68  | 🪶 | 0.98 | amu1g |
 | 69  | 🧣 | 0.92 | blazeblitzzz |
 

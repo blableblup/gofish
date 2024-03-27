@@ -2,8 +2,8 @@ package leaderboards
 
 import (
 	"fmt"
-	"gofish_test/lists"
-	"gofish_test/other"
+	"gofish/lists"
+	"gofish/other"
 	"os"
 	"path/filepath"
 	"strconv"

@@ -3,7 +3,7 @@ package logs
 import (
 	"bufio"
 	"fmt"
-	"gofish_test/other"
+	"gofish/other"
 	"io"
 	"net/http"
 	"os"

@@ -2,7 +2,7 @@ package other
 
 import (
 	"fmt"
-	"gofish_test/lists"
+	"gofish/lists"
 	"regexp"
 	"strconv"
 
