@@ -1,4 +1,4 @@
-module gofish_test
+module gofish
 
 go 1.22.1
 

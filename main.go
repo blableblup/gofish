@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 	"fmt"
-	"gofish_test/leaderboards"
-	"gofish_test/logs"
+	"gofish/leaderboards"
+	"gofish/logs"
 )
 
 func main() {
