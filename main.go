@@ -1,5 +1,7 @@
 package main
 
+// Made with chatgpt
+
 import (
 	"flag"
 	"fmt"

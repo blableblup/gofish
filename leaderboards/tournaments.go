@@ -186,7 +186,7 @@ func processTournaments(setName string, urlSet other.URLSet, pointValues map[str
 	case "trophy":
 		// Write the leaderboard for the weekly tournaments to the file specified in the config
 		fmt.Printf("Updating trophies leaderboard for set '%s'...\n", setName)
-		err = writeTrophiesLeaderboard(urlSet.Trophies, playerCounts, pointValues)
+		err = writeTrophiesLeaderboard(urlSet.Trophies, setName, playerCounts, pointValues)
 		if err != nil {
 			fmt.Println("Error writing trophies leaderboard:", err)
 		} else {
@@ -195,7 +195,7 @@ func processTournaments(setName string, urlSet other.URLSet, pointValues map[str
 	case "fishw":
 		// Write the leaderboard for the most fish caught in a single week in tournaments to the file specified in the config
 		fmt.Printf("Updating fishweek leaderboard for set '%s' with fish count threshold %d...\n", setName, fishCountThreshold)
-		err = writeFishWeekLeaderboard(urlSet.Fishweek, maxFishInWeek, fishCountThreshold)
+		err = writeFishWeekLeaderboard(urlSet.Fishweek, setName, maxFishInWeek, fishCountThreshold)
 		if err != nil {
 			fmt.Println("Error writing fishweek leaderboard:", err)
 		} else {
@@ -204,7 +204,7 @@ func processTournaments(setName string, urlSet other.URLSet, pointValues map[str
 	default:
 		// If the leaderboard flag is not provided, update both leaderboards
 		fmt.Printf("Updating trophies leaderboard for set '%s'...\n", setName)
-		err = writeTrophiesLeaderboard(urlSet.Trophies, playerCounts, pointValues)
+		err = writeTrophiesLeaderboard(urlSet.Trophies, setName, playerCounts, pointValues)
 		if err != nil {
 			fmt.Println("Error writing trophies leaderboard:", err)
 		} else {
@@ -212,7 +212,7 @@ func processTournaments(setName string, urlSet other.URLSet, pointValues map[str
 		}
 
 		fmt.Printf("Updating fishweek leaderboard for set '%s' with fish count threshold %d...\n", setName, fishCountThreshold)
-		err = writeFishWeekLeaderboard(urlSet.Fishweek, maxFishInWeek, fishCountThreshold)
+		err = writeFishWeekLeaderboard(urlSet.Fishweek, setName, maxFishInWeek, fishCountThreshold)
 		if err != nil {
 			fmt.Println("Error writing fishweek leaderboard:", err)
 		} else {
@@ -222,7 +222,7 @@ func processTournaments(setName string, urlSet other.URLSet, pointValues map[str
 }
 
 // Function to write the Trophies leaderboard with emojis indicating ranking change and the change of trophies and medals in brackets
-func writeTrophiesLeaderboard(filePath string, playerCounts map[string]PlayerCounts, pointValues map[string]float64) error {
+func writeTrophiesLeaderboard(filePath string, setName string, playerCounts map[string]PlayerCounts, pointValues map[string]float64) error {
 	// Call ReadOldTrophyRankings to get the old trophy rankings and player counts
 	oldTrophyRankings, oldPlayerCounts, err := other.ReadOldTrophyRankings(filePath)
 	if err != nil {
@@ -243,7 +243,7 @@ func writeTrophiesLeaderboard(filePath string, playerCounts map[string]PlayerCou
 	defer file.Close()
 
 	// Write the title
-	_, err = fmt.Fprintln(file, "### Leaderboard for the weekly tournaments")
+	_, err = fmt.Fprintf(file, "### Leaderboard for the weekly tournaments in %s's chat\n", setName)
 	if err != nil {
 		return err
 	}
@@ -346,7 +346,7 @@ func writeTrophiesLeaderboard(filePath string, playerCounts map[string]PlayerCou
 }
 
 // Function to write the Fish Week leaderboard with emojis indicating ranking change
-func writeFishWeekLeaderboard(filePath string, maxFishInWeek map[string]PlayerInfo, fishCountThreshold int) error {
+func writeFishWeekLeaderboard(filePath string, setName string, maxFishInWeek map[string]PlayerInfo, fishCountThreshold int) error {
 	// Call ReadOldFishRankings to get the old fish rankings
 	oldFishRankings, oldFishCountWeek, err := other.ReadOldFishRankings(filePath)
 	if err != nil {
@@ -367,7 +367,7 @@ func writeFishWeekLeaderboard(filePath string, maxFishInWeek map[string]PlayerIn
 	defer file.Close()
 
 	// Write the title
-	_, err = fmt.Fprintln(file, "### Leaderboard for the most fish caught in a single week in tournaments")
+	_, err = fmt.Fprintf(file, "### Most fish caught in a single week in tournaments in %s's chat\n", setName)
 	if err != nil {
 		return err
 	}
