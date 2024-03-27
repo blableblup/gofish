@@ -2,7 +2,6 @@ package logs
 
 import (
 	"bufio"
-	"encoding/json"
 	"fmt"
 	"gofish_test/other"
 	"io"
@@ -12,17 +11,6 @@ import (
 	"runtime"
 	"strings"
 )
-
-type URLSet struct {
-	URLs        []string `json:"urls"`
-	Logs        string   `json:"logs"`
-	LogsHost    string   `json:"logs_host"`
-	LogsHostOld string   `json:"logs_host_old"`
-}
-
-type Config struct {
-	URLSets map[string]URLSet `json:"url_sets"`
-}
 
 // RunLogs runs the logs program with the provided setNames, numMonths, and monthYear.
 func RunLogs(setNames string, numMonths int, monthYear string) {
@@ -37,12 +25,13 @@ func RunLogs(setNames string, numMonths int, monthYear string) {
 	configFilePath := filepath.Join(wd, "config.json")
 
 	// Load the config from the constructed file path
-	config := loadConfig(configFilePath)
+	config := other.LoadConfig(configFilePath)
 
 	// Check if the first argument is "all"
 	if setNames == "all" {
 		// Run all URL sets with the specified number of months or month/year
 		for setName, setInfo := range config.URLSets {
+			// Call CreateURL function with the provided arguments
 			urls := other.CreateURL(setName, numMonths, monthYear)
 			fetchMatchingLines(setInfo, urls)
 		}
@@ -58,13 +47,13 @@ func RunLogs(setNames string, numMonths int, monthYear string) {
 			continue
 		}
 
-		// Call runURLSet function with the provided arguments
+		// Call CreateURL function with the provided arguments
 		urls := other.CreateURL(setName, numMonths, monthYear)
 		fetchMatchingLines(setInfo, urls)
 	}
 }
 
-func fetchMatchingLines(setInfo URLSet, urls []string) {
+func fetchMatchingLines(setInfo other.URLSet, urls []string) {
 	// Get the directory of the current source file
 	_, currentFilePath, _, _ := runtime.Caller(0)
 	currentFileDir := filepath.Dir(currentFilePath)
@@ -162,22 +151,4 @@ func fetchMatchingLines(setInfo URLSet, urls []string) {
 	} else {
 		fmt.Printf("No new results to append to %s\n", setInfo.Logs)
 	}
-}
-
-func loadConfig(filename string) Config {
-	file, err := os.Open(filename)
-	if err != nil {
-		fmt.Println("Error opening config file:", err)
-		os.Exit(1)
-	}
-	defer file.Close()
-
-	var config Config
-	err = json.NewDecoder(file).Decode(&config)
-	if err != nil {
-		fmt.Println("Error parsing config file:", err)
-		os.Exit(1)
-	}
-
-	return config
 }
