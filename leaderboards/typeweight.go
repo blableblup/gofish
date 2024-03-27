@@ -276,7 +276,7 @@ func writeWeightLeaderboard(filePath string, recordWeight map[string]other.Recor
 	}
 
 	// Write the header
-	_, err = fmt.Fprintln(file, "| Rank | Player | Fish | Weight ⚖️ |")
+	_, err = fmt.Fprintln(file, "| Rank | Player | Fish | Weight in lbs ⚖️ |")
 	_, err = fmt.Fprintln(file, "|------|--------|-----------|---------|")
 	if err != nil {
 		return err
@@ -297,15 +297,24 @@ func writeWeightLeaderboard(filePath string, recordWeight map[string]other.Recor
 	sortedPlayers := other.SortMapByValueDesc(weights)
 
 	// Write the leaderboard data
-	rank := 0
+	rank := 1
+	prevRank := 1
 	prevWeight := -1.0
+	occupiedRanks := make(map[int]int)
+
 	for _, player := range sortedPlayers {
 		weight := weights[player]     // Fetching the weight for the current player
 		fishType := fishTypes[player] // Fetching the fishType for the current player
 
-		// Check if the weight has changed
+		// Increment rank only if the count has changed
 		if weight != prevWeight {
-			rank++ // Increment rank if the weight has changed
+			rank += occupiedRanks[rank] // Increment rank by the number of occupied ranks
+			// Reset the count of occupied ranks when count changes
+			occupiedRanks[rank] = 1
+		} else {
+			// Set the rank to the previous rank if the count hasn't changed
+			rank = prevRank
+			occupiedRanks[rank]++ // Increment the count of occupied ranks
 		}
 
 		// Declare found variable in the outer scope
@@ -353,9 +362,9 @@ func writeWeightLeaderboard(filePath string, recordWeight map[string]other.Recor
 		weightDifference := weight - oldWeight
 
 		if weightDifference > 0 {
-			fishweight = fmt.Sprintf("%.2f lbs (+%.2f)", weight, weightDifference)
+			fishweight = fmt.Sprintf("%.2f (+%.2f)", weight, weightDifference)
 		} else {
-			fishweight = fmt.Sprintf("%.2f lbs", weight)
+			fishweight = fmt.Sprintf("%.2f", weight)
 		}
 
 		botIndicator := ""
@@ -383,7 +392,7 @@ func writeWeightLeaderboard(filePath string, recordWeight map[string]other.Recor
 		}
 
 		prevWeight = weight // Update previous weight
-
+		prevRank = rank     // Update previous rank
 	}
 
 	// Write the note
@@ -423,7 +432,7 @@ func writeTypeLeaderboard(filePath string, recordType map[string]other.Record) e
 	}
 
 	// Write the header
-	_, err = fmt.Fprintln(file, "| Rank | Fish Type | Weight | Player |")
+	_, err = fmt.Fprintln(file, "| Rank | Fish Type | Weight in lbs | Player |")
 	_, err = fmt.Fprintln(file, "|------|-----------|--------|--------|")
 	if err != nil {
 		return err
@@ -444,14 +453,24 @@ func writeTypeLeaderboard(filePath string, recordType map[string]other.Record) e
 	sortedTypes := other.SortMapByValueDesc(weights)
 
 	// Write the leaderboard data
-	rank := 0
+	rank := 1
+	prevRank := 1
 	prevWeight := -1.0
+	occupiedRanks := make(map[int]int)
+
 	for _, fishType := range sortedTypes {
 		weight := weights[fishType] // Fetching the weight for the current fish type
 		player := players[fishType] // Fetching the fishType for the current fish type
 
+		// Increment rank only if the count has changed
 		if weight != prevWeight {
-			rank++ // Increment rank if weight has changed
+			rank += occupiedRanks[rank] // Increment rank by the number of occupied ranks
+			// Reset the count of occupied ranks when count changes
+			occupiedRanks[rank] = 1
+		} else {
+			// Set the rank to the previous rank if the count hasn't changed
+			rank = prevRank
+			occupiedRanks[rank]++ // Increment the count of occupied ranks
 		}
 
 		// Declare found variable in the outer scope
@@ -499,9 +518,9 @@ func writeTypeLeaderboard(filePath string, recordType map[string]other.Record) e
 		weightDifference := weight - oldWeight
 
 		if weightDifference > 0 {
-			fishweight = fmt.Sprintf("%.2f lbs (+%.2f)", weight, weightDifference)
+			fishweight = fmt.Sprintf("%.2f (+%.2f)", weight, weightDifference)
 		} else {
-			fishweight = fmt.Sprintf("%.2f lbs", weight)
+			fishweight = fmt.Sprintf("%.2f", weight)
 		}
 
 		botIndicator := ""
@@ -528,6 +547,7 @@ func writeTypeLeaderboard(filePath string, recordType map[string]other.Record) e
 		}
 
 		prevWeight = weight // Update previous fish weight
+		prevRank = rank     // Update previous rank
 	}
 
 	// Write the note
