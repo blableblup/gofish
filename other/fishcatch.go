@@ -164,7 +164,6 @@ func extractInfoFromMouthPattern(match []string) Record {
 
 	weight, err := strconv.ParseFloat(fishWeightStr, 64)
 	if err != nil {
-		// Handle parsing error
 	}
 
 	// Print the extracted information
