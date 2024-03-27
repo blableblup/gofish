@@ -168,17 +168,26 @@ func writeTotalcount(filePath string, fishCaught map[string]int) error {
 	}
 
 	// Sort players by their fish count
-	sortedPlayers := other.SortMapByValueDescInt(fishCount)
+	sortedPlayers := other.SortMapByValueDescInt(fishCaught)
 
 	// Write the leaderboard data
-	rank := 0
+	rank := 1
+	prevRank := 1
 	prevCount := -1
+	occupiedRanks := make(map[int]int)
+
 	for _, player := range sortedPlayers {
 		count := fishCaught[player] // Fetching the count for the current player
 
-		// Check if the count has changed
+		// Increment rank only if the count has changed
 		if count != prevCount {
-			rank++ // Increment rank if the count has changed
+			rank += occupiedRanks[rank] // Increment rank by the number of occupied ranks
+			// Reset the count of occupied ranks when count changes
+			occupiedRanks[rank] = 1
+		} else {
+			// Set the rank to the previous rank if the count hasn't changed
+			rank = prevRank
+			occupiedRanks[rank]++ // Increment the count of occupied ranks
 		}
 
 		// Declare found variable in the outer scope
@@ -262,12 +271,13 @@ func writeTotalcount(filePath string, fishCaught map[string]int) error {
 		}
 
 		// Write the leaderboard row
-		_, err = fmt.Fprintf(file, "| %s %s | %s%s | %s |\n", ranks, changeEmoji, player, botIndicator, counts)
+		_, err := fmt.Fprintf(file, "| %s %s | %s%s | %s |\n", ranks, changeEmoji, player, botIndicator, counts)
 		if err != nil {
 			return err
 		}
 
 		prevCount = count // Update previous count
+		prevRank = rank   // Update previous rank
 
 	}
 

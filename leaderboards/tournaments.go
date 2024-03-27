@@ -265,15 +265,25 @@ func writeTrophiesLeaderboard(filePath string, playerCounts map[string]PlayerCou
 	sortedPlayers := other.SortMapByValueDesc(totalPoints)
 
 	// Write the leaderboard data
-	rank := 0
+	rank := 1
+	prevRank := 1
 	prevPoints := -1.0
+	occupiedRanks := make(map[int]int)
+
 	for _, player := range sortedPlayers {
 		points := totalPoints[player]
 
-		// Check if points have changed
+		// Increment rank only if the count has changed
 		if points != prevPoints {
-			rank++ // Increment rank if points have changed
+			rank += occupiedRanks[rank] // Increment rank by the number of occupied ranks
+			// Reset the count of occupied ranks when count changes
+			occupiedRanks[rank] = 1
+		} else {
+			// Set the rank to the previous rank if the count hasn't changed
+			rank = prevRank
+			occupiedRanks[rank]++ // Increment the count of occupied ranks
 		}
+
 		oldRank, found := oldTrophyRankings[player]
 		var changeEmoji string
 		if found {
@@ -329,6 +339,7 @@ func writeTrophiesLeaderboard(filePath string, playerCounts map[string]PlayerCou
 		}
 
 		prevPoints = points // Update previous points
+		prevRank = rank     // Update previous rank
 	}
 
 	return nil
@@ -381,17 +392,28 @@ func writeFishWeekLeaderboard(filePath string, maxFishInWeek map[string]PlayerIn
 	sortedPlayers := other.SortMapByValueDescInt(totalFishCaught)
 
 	// Write the leaderboard data
-	rank := 0
+	rank := 1
+	prevRank := 1
 	prevFishCount := -1
+	occupiedRanks := make(map[int]int)
+
 	for _, player := range sortedPlayers {
 		fishCount := totalFishCaught[player]
 
 		// Check if fish count is greater than or equal to 20
 		if fishCount >= fishCountThreshold {
-			// Check if fish count has changed
+
+			// Increment rank only if the count has changed
 			if fishCount != prevFishCount {
-				rank++ // Increment rank if fish count has changed
+				rank += occupiedRanks[rank] // Increment rank by the number of occupied ranks
+				// Reset the count of occupied ranks when count changes
+				occupiedRanks[rank] = 1
+			} else {
+				// Set the rank to the previous rank if the count hasn't changed
+				rank = prevRank
+				occupiedRanks[rank]++ // Increment the count of occupied ranks
 			}
+
 			oldRank, found := oldFishRankings[player]
 			var changeEmoji string
 			if found {
@@ -437,6 +459,7 @@ func writeFishWeekLeaderboard(filePath string, maxFishInWeek map[string]PlayerIn
 			}
 
 			prevFishCount = fishCount // Update previous fish count
+			prevRank = rank           // Update previous rank
 		}
 	}
 
