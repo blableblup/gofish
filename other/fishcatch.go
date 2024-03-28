@@ -18,9 +18,9 @@ type Record struct {
 }
 
 // List of all the patterns
-// releasePattern and mouthPattern dont work fix later
-var mouthPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), You caught a [✨🫧] (.*?) [✨🫧]! It weighs ([\d.]+) lbs. And!... (.*?) (([\d.]+) lbs) was in its mouth!`)
-var releasePattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), Bye bye (.*?)! 🫳🌊 ...Huh? ✨ Something is glimmering in the ocean... 🥍 (.*?) Got it!`)
+var mouthPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), You caught a [✨🫧] (.*?) [✨🫧]! It weighs ([\d.]+) lbs. And!... (.*?)(?: \(([\d.]+) lbs\) was in its mouth)?!`)
+var releasePattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+\s?(\w+): [@👥]\s?(\w+), Bye bye (.*?)[!] 🫳🌊 ...Huh[?] ✨ Something is (glimmering|sparkling) in the ocean... [🥍] (.*?) Got`)
+var jumpedPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), Huh[?][!] ✨ Something jumped out of the water to snatch your rare candy! ...Got it! 🥍 (.*?) ([\d.]+) lbs`)
 var normalPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), You caught a [✨🫧] (.*?) [✨🫧]! It weighs ([\d.]+) lbs`)
 
 func CatchWeightType(url string, newRecordWeight map[string]Record, newRecordType map[string]Record, Weightlimit string) (map[string]Record, map[string]Record, error) {
@@ -47,6 +47,7 @@ func CatchWeightType(url string, newRecordWeight map[string]Record, newRecordTyp
 		mouthPattern,
 		releasePattern,
 		normalPattern,
+		jumpedPattern,
 	}
 
 	// Extract information about fish catches from the text content using multiple patterns
@@ -120,6 +121,8 @@ func extractInfoFromPatterns(textContent string, patterns []*regexp.Regexp) []Re
 				extractFunc = extractInfoFromNormalPattern
 			case mouthPattern:
 				extractFunc = extractInfoFromMouthPattern
+			case jumpedPattern:
+				extractFunc = extractInfoFromNormalPattern
 			}
 
 			// Call the appropriate extraction function
@@ -142,9 +145,6 @@ func extractInfoFromNormalPattern(match []string) Record {
 	if err != nil {
 	}
 
-	// Print the extracted information
-	// fmt.Printf("Mouth Pattern Match: Date: %s, Bot: %s, Player: %s, FishType: %s, Weight: %f\n", date, bot, player, fishType, weight)
-
 	return Record{
 		Date:   date,
 		Bot:    bot,
@@ -166,9 +166,6 @@ func extractInfoFromMouthPattern(match []string) Record {
 	if err != nil {
 	}
 
-	// Print the extracted information
-	fmt.Printf("Mouth Pattern Match: Date: %s, Bot: %s, Player: %s, FishType: %s, Weight: %f\n", date, bot, player, fishType, weight)
-
 	return Record{
 		Date:   date,
 		Bot:    bot,
@@ -183,12 +180,9 @@ func extractInfoFromReleasePattern(match []string) Record {
 	date := match[1]
 	bot := match[2]
 	player := match[3]
-	fishType := match[5]
+	fishType := match[6]
 
 	weight := 0.0
-
-	// Print the extracted information
-	fmt.Printf("Release Pattern Match: Date: %s, Bot: %s, Player: %s, FishType: %s\n", date, bot, player, fishType)
 
 	return Record{
 		Date:   date,
@@ -223,6 +217,7 @@ func CountFishCaught(url string, fishCaught map[string]int) (map[string]int, err
 		mouthPattern,
 		releasePattern,
 		normalPattern,
+		jumpedPattern,
 	}
 
 	// Extract information about fish catches from the text content using multiple patterns
