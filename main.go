@@ -52,6 +52,10 @@ func main() {
 		fmt.Println("Running logs program...")
 		logs.RunLogs(*setNames, *numMonths, *monthYear)
 
+	case "test1":
+		fmt.Println("Running test1 program...")
+		other.RunTest1()
+
 	default:
 		fmt.Println("Invalid program specified.")
 		return
