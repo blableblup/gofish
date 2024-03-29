@@ -5,16 +5,18 @@ import (
 	"gofish/lists"
 	"regexp"
 	"strconv"
+	"strings"
 
 	"github.com/valyala/fasthttp"
 )
 
 type Record struct {
-	Player string
-	Weight float64
-	Bot    string
-	Type   string
-	Date   string
+	Player    string
+	Weight    float64
+	Bot       string
+	Type      string
+	CatchType string
+	Date      string
 }
 
 // List of all the patterns
@@ -61,6 +63,7 @@ func CatchWeightType(url string, newRecordWeight map[string]Record, newRecordTyp
 		weight := fishCatch.Weight
 		date := fishCatch.Date
 		bot := fishCatch.Bot
+		catchtype := fishCatch.CatchType
 
 		// Skip processing for ignored players
 		found := false
@@ -94,12 +97,12 @@ func CatchWeightType(url string, newRecordWeight map[string]Record, newRecordTyp
 
 		// Update the record for the biggest fish of the player if weight exceeds Weightlimit
 		if weight > newRecordWeight[player].Weight && weight > weightLimit {
-			newRecordWeight[player] = Record{Type: fishType, Weight: weight, Bot: bot, Date: date}
+			newRecordWeight[player] = Record{Type: fishType, Weight: weight, Bot: bot, Date: date, CatchType: catchtype}
 		}
 
 		// Update the record for the biggest fish for that type of fish
 		if weight > newRecordType[fishType].Weight {
-			newRecordType[fishType] = Record{Player: player, Weight: weight, Bot: bot, Date: date}
+			newRecordType[fishType] = Record{Player: player, Weight: weight, Bot: bot, Date: date, CatchType: catchtype}
 		}
 	}
 	fmt.Println("Finished storing weight records for", url)
@@ -140,17 +143,25 @@ func extractInfoFromNormalPattern(match []string) Record {
 	player := match[3]
 	fishType := match[4]
 	fishWeightStr := match[5]
+	catchtype := "normal"
+
+	// Check if the match contains the word "jumped"
+	if strings.Contains(strings.ToLower(match[0]), "jumped") {
+		catchtype = "jumped"
+	}
 
 	weight, err := strconv.ParseFloat(fishWeightStr, 64)
 	if err != nil {
+		// Handle error
 	}
 
 	return Record{
-		Date:   date,
-		Bot:    bot,
-		Player: player,
-		Type:   fishType,
-		Weight: weight,
+		Date:      date,
+		Bot:       bot,
+		Player:    player,
+		Type:      fishType,
+		Weight:    weight,
+		CatchType: catchtype,
 	}
 }
 
@@ -161,17 +172,19 @@ func extractInfoFromMouthPattern(match []string) Record {
 	player := match[3]
 	fishType := match[6]
 	fishWeightStr := match[7]
+	catchtype := "mouth"
 
 	weight, err := strconv.ParseFloat(fishWeightStr, 64)
 	if err != nil {
 	}
 
 	return Record{
-		Date:   date,
-		Bot:    bot,
-		Player: player,
-		Type:   fishType,
-		Weight: weight,
+		Date:      date,
+		Bot:       bot,
+		Player:    player,
+		Type:      fishType,
+		Weight:    weight,
+		CatchType: catchtype,
 	}
 }
 
@@ -181,15 +194,17 @@ func extractInfoFromReleasePattern(match []string) Record {
 	bot := match[2]
 	player := match[3]
 	fishType := match[6]
+	catchtype := "release"
 
 	weight := 0.0
 
 	return Record{
-		Date:   date,
-		Bot:    bot,
-		Player: player,
-		Type:   fishType,
-		Weight: weight,
+		Date:      date,
+		Bot:       bot,
+		Player:    player,
+		Type:      fishType,
+		Weight:    weight,
+		CatchType: catchtype,
 	}
 }
 
