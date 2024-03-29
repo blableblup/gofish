@@ -331,18 +331,7 @@ func writeWeightLeaderboard(filePath string, setName string, recordWeight map[st
 			}
 		}
 
-		var changeEmoji string
-		if found {
-			if rank < oldRank {
-				changeEmoji = "⬆" // Emoji indicating rank increase
-			} else if rank > oldRank {
-				changeEmoji = "⬇" // Emoji indicating rank decrease
-			} else {
-				changeEmoji = "" // Emoji indicating no change in rank
-			}
-		} else {
-			changeEmoji = "🆕" // Emoji indicating new player
-		}
+		changeEmoji := other.ChangeEmoji(rank, oldRank, found)
 
 		// Getting the old weight
 		oldWeight := weight // Default value if the old weight is not found
@@ -372,18 +361,7 @@ func writeWeightLeaderboard(filePath string, setName string, recordWeight map[st
 			botIndicator = "*"
 		}
 
-		var ranks string
-
-		switch rank {
-		case 1:
-			ranks = fmt.Sprintf("%d 🥇", rank)
-		case 2:
-			ranks = fmt.Sprintf("%d 🥈", rank)
-		case 3:
-			ranks = fmt.Sprintf("%d 🥉", rank)
-		default:
-			ranks = fmt.Sprintf("%d", rank)
-		}
+		ranks := other.Ranks(rank)
 
 		// Write the leaderboard row
 		_, err = fmt.Fprintf(file, "| %s %s | %s%s | %s | %s |\n", ranks, changeEmoji, player, botIndicator, fishType, fishweight)
@@ -487,18 +465,7 @@ func writeTypeLeaderboard(filePath string, setName string, recordType map[string
 			}
 		}
 
-		var changeEmoji string
-		if found {
-			if rank < oldRank {
-				changeEmoji = "⬆" // Emoji indicating rank increase
-			} else if rank > oldRank {
-				changeEmoji = "⬇" // Emoji indicating rank decrease
-			} else {
-				changeEmoji = "" // Emoji indicating no change in rank
-			}
-		} else {
-			changeEmoji = "🆕" // Emoji indicating new player
-		}
+		changeEmoji := other.ChangeEmoji(rank, oldRank, found)
 
 		// Getting the old weight
 		oldWeight := weight // Default value if the old weight is not found
@@ -528,18 +495,7 @@ func writeTypeLeaderboard(filePath string, setName string, recordType map[string
 			botIndicator = "*"
 		}
 
-		var ranks string
-
-		switch rank {
-		case 1:
-			ranks = fmt.Sprintf("%d 🥇", rank)
-		case 2:
-			ranks = fmt.Sprintf("%d 🥈", rank)
-		case 3:
-			ranks = fmt.Sprintf("%d 🥉", rank)
-		default:
-			ranks = fmt.Sprintf("%d", rank)
-		}
+		ranks := other.Ranks(rank)
 
 		_, err = fmt.Fprintf(file, "| %s %s | %s | %s | %s%s |\n", ranks, changeEmoji, fishType, fishweight, player, botIndicator)
 		if err != nil {

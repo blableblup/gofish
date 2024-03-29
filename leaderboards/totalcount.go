@@ -204,21 +204,10 @@ func writeTotalcount(filePath string, setName string, fishCaught map[string]int)
 			}
 		}
 
-		var changeEmoji string
-		if found {
-			if rank < oldRank {
-				changeEmoji = "⬆" // Emoji indicating rank increase
-			} else if rank > oldRank {
-				changeEmoji = "⬇" // Emoji indicating rank decrease
-			} else {
-				changeEmoji = "" // Emoji indicating no change in rank
-			}
-		} else {
-			changeEmoji = "🆕" // Emoji indicating new player
-		}
+		changeEmoji := other.ChangeEmoji(rank, oldRank, found)
 
 		// Getting the old count
-		oldCount := 0 // Default value if the old count is not found
+		oldCount := count // Default value if the old count is not found
 		if oldPlayerData, ok := oldLeaderboardCount[player]; ok {
 			found = true
 			if oldPlayerDataMap, ok := oldPlayerData.(map[string]interface{}); ok {
@@ -257,18 +246,7 @@ func writeTotalcount(filePath string, setName string, fishCaught map[string]int)
 			botIndicator = "*"
 		}
 
-		var ranks string
-
-		switch rank {
-		case 1:
-			ranks = fmt.Sprintf("%d 🥇", rank)
-		case 2:
-			ranks = fmt.Sprintf("%d 🥈", rank)
-		case 3:
-			ranks = fmt.Sprintf("%d 🥉", rank)
-		default:
-			ranks = fmt.Sprintf("%d", rank)
-		}
+		ranks := other.Ranks(rank)
 
 		// Write the leaderboard row
 		_, err := fmt.Fprintf(file, "| %s %s | %s%s | %s |\n", ranks, changeEmoji, player, botIndicator, counts)

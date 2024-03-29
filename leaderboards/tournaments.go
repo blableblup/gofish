@@ -285,18 +285,7 @@ func writeTrophiesLeaderboard(filePath string, setName string, playerCounts map[
 		}
 
 		oldRank, found := oldTrophyRankings[player]
-		var changeEmoji string
-		if found {
-			if rank < oldRank {
-				changeEmoji = "⬆" // Emoji indicating rank increase
-			} else if rank > oldRank {
-				changeEmoji = "⬇" // Emoji indicating rank decrease
-			} else {
-				changeEmoji = "" // Emoji indicating no change in rank
-			}
-		} else {
-			changeEmoji = "🆕" // Emoji indicating new player
-		}
+		changeEmoji := other.ChangeEmoji(rank, oldRank, found)
 
 		// Compare new counts to old counts and display the difference
 		trophiesDifference := playerCounts[player].Trophy - oldPlayerCounts[player].Trophy
@@ -319,18 +308,7 @@ func writeTrophiesLeaderboard(filePath string, setName string, playerCounts map[
 			bronzeCount += fmt.Sprintf(" (+%d)", bronzeDifference)
 		}
 
-		var ranks string
-
-		switch rank {
-		case 1:
-			ranks = fmt.Sprintf("%d 🥇", rank)
-		case 2:
-			ranks = fmt.Sprintf("%d 🥈", rank)
-		case 3:
-			ranks = fmt.Sprintf("%d 🥉", rank)
-		default:
-			ranks = fmt.Sprintf("%d", rank)
-		}
+		ranks := other.Ranks(rank)
 
 		// Write the leaderboard row
 		_, err = fmt.Fprintf(file, "| %s %s| %s | %s | %s | %s | %.1f |\n", ranks, changeEmoji, player, trophyCount, silverCount, bronzeCount, totalPoints[player])
@@ -415,23 +393,12 @@ func writeFishWeekLeaderboard(filePath string, setName string, maxFishInWeek map
 			}
 
 			oldRank, found := oldFishRankings[player]
-			var changeEmoji string
-			if found {
-				if rank < oldRank {
-					changeEmoji = "⬆" // Emoji indicating rank increase
-				} else if rank > oldRank {
-					changeEmoji = "⬇" // Emoji indicating rank decrease
-				} else {
-					changeEmoji = "" // Emoji indicating no change in rank
-				}
-			} else {
-				changeEmoji = "🆕" // Emoji indicating new player
-			}
+			changeEmoji := other.ChangeEmoji(rank, oldRank, found)
 
 			// Construct the string with the difference in brackets
 			fishweekDifference := fishCount - oldFishCountWeek[player]
 			fishWeekCount := fmt.Sprintf("%d", fishCount)
-			if fishweekDifference > 0 {
+			if fishweekDifference > 0 && fishweekDifference > fishCount {
 				fishWeekCount += fmt.Sprintf(" (+%d)", fishweekDifference)
 			}
 
@@ -441,18 +408,8 @@ func writeFishWeekLeaderboard(filePath string, setName string, maxFishInWeek map
 				botIndicator = "*"
 			}
 
-			var ranks string
+			ranks := other.Ranks(rank)
 
-			switch rank {
-			case 1:
-				ranks = fmt.Sprintf("%d 🥇", rank)
-			case 2:
-				ranks = fmt.Sprintf("%d 🥈", rank)
-			case 3:
-				ranks = fmt.Sprintf("%d 🥉", rank)
-			default:
-				ranks = fmt.Sprintf("%d", rank)
-			}
 			_, err = fmt.Fprintf(file, "| %s %s| %s%s | %s |\n", ranks, changeEmoji, player, botIndicator, fishWeekCount)
 			if err != nil {
 				return err
