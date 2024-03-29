@@ -1,6 +1,9 @@
 package other
 
-import "sort"
+import (
+	"fmt"
+	"sort"
+)
 
 // Function to sort a map by its values in descending order (int version)
 func SortMapByValueDescInt(m map[string]int) []string {
@@ -68,4 +71,39 @@ func EquivalentFishType(fishType string) string {
 		return equivalent
 	}
 	return fishType // Return the original fish type if no equivalent is found
+}
+
+func Ranks(rank int) string {
+	var ranks string
+
+	switch rank {
+	case 1:
+		ranks = fmt.Sprintf("%d 🥇", rank)
+	case 2:
+		ranks = fmt.Sprintf("%d 🥈", rank)
+	case 3:
+		ranks = fmt.Sprintf("%d 🥉", rank)
+	default:
+		ranks = fmt.Sprintf("%d", rank)
+	}
+
+	return ranks
+}
+
+func ChangeEmoji(rank int, oldRank int, found bool) string {
+	var changeEmoji string
+
+	if found {
+		if rank < oldRank {
+			changeEmoji = "⬆"
+		} else if rank > oldRank {
+			changeEmoji = "⬇"
+		} else {
+			changeEmoji = ""
+		}
+	} else {
+		changeEmoji = "🆕"
+	}
+
+	return changeEmoji
 }
