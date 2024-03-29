@@ -345,7 +345,7 @@ func writeWeightLeaderboard(filePath string, setName string, recordWeight map[st
 		}
 
 		// Getting the old weight
-		oldWeight := 0.0 // Default value if the old weight is not found
+		oldWeight := weight // Default value if the old weight is not found
 		if oldPlayerData, ok := oldLeaderboardWeight[player]; ok {
 			found = true
 			if oldPlayerDataMap, ok := oldPlayerData.(map[string]interface{}); ok {
@@ -501,7 +501,7 @@ func writeTypeLeaderboard(filePath string, setName string, recordType map[string
 		}
 
 		// Getting the old weight
-		oldWeight := 0.0 // Default value if the old weight is not found
+		oldWeight := weight // Default value if the old weight is not found
 		if oldTypeData, ok := oldLeaderboardType[fishType]; ok {
 			found = true
 			if oldTypeDataMap, ok := oldTypeData.(map[string]interface{}); ok {
