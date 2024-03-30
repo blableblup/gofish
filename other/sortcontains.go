@@ -49,18 +49,19 @@ func Contains(slice []string, str string) bool {
 
 // Define a mapping for equivalent fish types
 var equivalentFishTypes = map[string]string{
-	"🕷":         "🕷️",
-	"🗡":         "🗡️",
-	"🕶":         "🕶️",
-	"☂":         "☂️",
-	"⛸":         "⛸️",
-	"🧜♀":        "🧜‍♀️",
-	"🧜♀️":       "🧜‍♀️",
-	"🧜‍♀":       "🧜‍♀️",
-	"🐻‍❄️":      "🐻‍❄",
-	"🧞‍♂️":      "🧞‍♂",
-	"Jellyfish": "🪼",
-	// Shinies have to be manually removed idk why fix later
+	"🕷":          "🕷️",
+	"🗡":          "🗡️",
+	"🕶":          "🕶️",
+	"☂":          "☂️",
+	"⛸":          "⛸️",
+	"🧜♀":         "🧜‍♀️",
+	"🧜♀️":        "🧜‍♀️",
+	"🧜‍♀":        "🧜‍♀️",
+	"🐻‍❄️":       "🐻‍❄",
+	"🧞‍♂️":       "🧞‍♂",
+	"Jellyfish":  "🪼",
+	"HailHelix ": "🐚", // Shinies need to have one space behind them >-<
+	"SabaPing ":  "🐟",
 }
 
 // EquivalentFishType checks if the current fish type is in the list of equivalent fish types
