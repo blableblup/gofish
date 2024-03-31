@@ -1,4 +1,4 @@
-### Leaderboard for the biggest fish caught per player in chat
+### Biggest fish caught per player in bread's chat
 | Rank | Player | Fish | Weight in lbs ⚖️ |
 |------|--------|-----------|---------|
 | 1 🥇  | dayzedinndaydreams | 🦑 | 307.60 |
@@ -6,14 +6,14 @@
 | 3 🥉  | qu4ttromila | 🐳 | 303.81 |
 | 4  | osnyatsky | 🐳 | 302.88 |
 | 5  | derinturitierutz | 🐳 | 301.87 |
-| 6  | kishma9 | 🐳 | 297.37 |
-| 7  | fishingalt | 🐳 | 297.27 |
-| 8  | islcfc* | 🐳 | 296.57 |
-| 9  | xxx_r0ze_xxx | 🐳 | 292.12 |
+| 6 ⬆ | xxx_r0ze_xxx | 🐳 | 298.10 (+5.98) |
+| 7 ⬇ | kishma9 | 🐳 | 297.37 |
+| 8 ⬇ | fishingalt | 🐳 | 297.27 |
+| 9 ⬇ | islcfc* | 🐳 | 296.57 |
 | 10  | puzzlow | 🐳 | 292.04 |
 | 11  | miiiiisho | 🦈 | 288.27 |
-| 12  | comiqq | 🐳 | 288.19 |
-| 13  | paras220 | 🐳 | 287.47 |
+| 12 ⬆ | comiqq | 🐳 | 288.19 (+23.35) |
+| 13 ⬇ | paras220 | 🐳 | 287.47 |
 | 14 ⬆ | ryebreadward | 🐳 | 287.28 (+16.96) |
 | 15 ⬇ | breadworms | 🐳 | 282.85 |
 | 16 ⬇ | jr_mime | 🦑 | 282.46 |

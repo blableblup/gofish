@@ -1,11 +1,11 @@
-### Leaderboard for the most fish caught in a single week in tournaments
+### Most fish caught in a single week in tournaments in psp's chat
 | Rank | Player | Fish Caught 🪣 |
 |------|--------|---------------|
 | 1 🥇 | jr_mime | 73 |
 | 2 🥈 | thasbe | 48 |
 | 3 🥉 | yopego | 47 |
-| 4 | pengeg | 37 |
 | 4 | amu1g | 37 |
+| 4 | pengeg | 37 |
 | 6 | divra__ | 33 |
 | 7 | mikel1g | 31 |
 | 8 | jems______ | 30 |

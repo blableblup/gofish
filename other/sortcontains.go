@@ -60,7 +60,8 @@ var equivalentFishTypes = map[string]string{
 	"🐻‍❄️":       "🐻‍❄",
 	"🧞‍♂️":       "🧞‍♂",
 	"Jellyfish":  "🪼",
-	"HailHelix ": "🐚", // Shinies need to have one space behind them >-<
+	"HailHelix ": "🐚", // Shinies need to have one space behind them >-< or idk
+	"HailHelix":  "🐚",
 	"SabaPing ":  "🐟",
 }
 

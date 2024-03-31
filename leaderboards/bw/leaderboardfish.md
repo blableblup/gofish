@@ -1,4 +1,4 @@
-### Leaderboard for the most fish caught in a single week in tournaments
+### Most fish caught in a single week in tournaments in bread's chat
 | Rank | Player | Fish Caught 🪣 |
 |------|--------|---------------|
 | 1 🥇 | derinturitierutz | 183 |
@@ -6,8 +6,8 @@
 | 3 🥉 | osnyatsky | 150 |
 | 4 | puzzlow | 141 |
 | 5 | kishma9 | 137 |
-| 6 | sicklymaidrobot | 123 |
 | 6 | sussy_amonge | 123 |
+| 6 | sicklymaidrobot | 123 |
 | 8 | qu4ttromila | 122 |
 | 9 | lazzvli* | 112 |
 | 10 | ryebreadward | 110 |
@@ -20,10 +20,10 @@
 | 17 | miiiiisho | 79 |
 | 18 | booty_bread | 60 |
 | 19 | bk207* | 53 |
-| 20 | kaasppeerr | 52 |
 | 20 | hmsmob* | 52 |
+| 20 | kaasppeerr | 52 |
 | 22 | leanmeister | 51 |
-| 23 | bapqo | 48 |
+| 23 | bapqo | 49 (+1) |
 | 24 | paras220 | 46 |
 | 25 | ninjaross | 44 |
 | 26 | ouacewi | 42 |
@@ -34,7 +34,8 @@
 | 31 | fallen_angels_1995 | 28 |
 | 32 | dougiefresh_83 | 27 |
 | 33 | breadworms | 25 |
+| 34 🆕| cumro | 24 |
 | 34 | rocketpol* | 24 |
-| 35 | veggesh | 21 |
+| 36 ⬇| veggesh | 21 |
 
 _* = The fish were caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate._
