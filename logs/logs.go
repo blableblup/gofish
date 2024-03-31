@@ -97,6 +97,13 @@ func fetchMatchingLines(setInfo other.URLSet, urls []string) {
 		fmt.Println("Finished checking for matching lines in", url)
 	}
 
+	// Ensure directory exists
+	err := os.MkdirAll(filepath.Dir(logFilePath), 0755)
+	if err != nil {
+		fmt.Println("Error creating folder:", err)
+		return
+	}
+
 	// Read existing content from the output file
 	file, err := os.OpenFile(logFilePath, os.O_RDONLY|os.O_CREATE, 0644)
 	if err != nil {

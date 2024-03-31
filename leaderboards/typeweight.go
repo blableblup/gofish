@@ -3,6 +3,7 @@ package leaderboards
 import (
 	"fmt"
 	"gofish/lists"
+	"gofish/logs"
 	"gofish/other"
 	"os"
 	"path/filepath"
@@ -139,6 +140,9 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 				Bot:    newWeightRecord.Bot,
 			}
 			fmt.Println("Updated Record Weight for Player", player+":", newWeightRecord)
+			record := "updated"
+			// Log the updated record
+			logs.WriteWeightLog(setName, record, map[string]other.Record{player: newWeightRecord})
 		} else {
 			// If the new weight is not greater, keep the old record
 			recordWeight[player] = other.Record{
@@ -158,6 +162,9 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 				Bot:    newWeightRecord.Bot,
 			}
 			fmt.Println("New Record Weight for Player", player+":", newWeightRecord)
+			record := "new"
+			// Log the new record
+			logs.WriteWeightLog(setName, record, map[string]other.Record{player: newWeightRecord})
 		}
 	}
 
@@ -185,6 +192,9 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 				Bot:    newTypeRecord.Bot,
 			}
 			fmt.Println("Updated Record Type for Fish Type", fishType+":", newTypeRecord)
+			record := "updated"
+			// Log the updated record
+			logs.WriteTypeLog(setName, record, map[string]other.Record{fishType: newTypeRecord})
 		} else {
 			// If the new weight is not greater, keep the old record
 			recordType[fishType] = other.Record{
@@ -205,6 +215,10 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 				Bot:    newTypeRecord.Bot,
 			}
 			fmt.Println("New Record Type for Fish Type", fishType+":", newTypeRecord)
+			record := "new"
+			// Log the new record
+			logs.WriteTypeLog(setName, record, map[string]other.Record{fishType: newTypeRecord})
+
 		}
 	}
 

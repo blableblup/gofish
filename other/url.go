@@ -50,8 +50,11 @@ func CreateURL(setName string, numMonths int, monthYear string) []string {
 
 	// Loop through the specified number of months
 	for i := 0; i < numMonths; i++ {
-		// Calculate the year and month for the current iteration
-		year, month, _ := now.AddDate(0, -i, 0).Date()
+		// Calculate the date for the first day of the current month
+		firstOfMonth := now.AddDate(0, -i, -now.Day()+1)
+
+		// Extract the year and month from the first day of the month
+		year, month, _ := firstOfMonth.Date()
 
 		// Check if the current month is within September 2023
 		if year == 2023 && month == time.September && config.URLSets[setName].LogsHostOld != "" {
