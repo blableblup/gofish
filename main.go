@@ -7,6 +7,7 @@ import (
 	"fmt"
 	"gofish/leaderboards"
 	"gofish/logs"
+	"gofish/other"
 )
 
 func main() {
@@ -14,6 +15,7 @@ func main() {
 	program := flag.String("p", "", "Program name: trnm, wght, logs, count")
 	setNames := flag.String("s", "", "Comma-separated list of set names")
 	leaderboard := flag.String("l", "", "Leaderboard name")
+	mode := flag.String("mm", "", "Modes are different for each program")
 	numMonths := flag.Int("m", 1, "Number of past months")
 	monthYear := flag.String("d", "", "Specific month and year (yyyy/mm)")
 
@@ -22,7 +24,7 @@ func main() {
 
 	// Validate program name
 	if *program == "" {
-		fmt.Println("Usage: go run main.go -p <program> [-s <set names>] [-l <leaderboard>] [-m <months>] [-d <date>]")
+		fmt.Println("Usage: go run main.go -p <program> [-s <set names>] [-l <leaderboard>] [-m <months>] [-d <date>] [-m <mode>]")
 		// If no leaderboard is specified it updates all available leaderboards of the program
 		// If no month or time period is specified it checks the current month
 		return
@@ -34,6 +36,12 @@ func main() {
 		return
 	}
 
+	// Validate mode name for the specified program
+	if *mode != "" && !isValidModeForProgram(*program, *mode) {
+		fmt.Println("Invalid mode specified for the program or the program doesn't have different modes.")
+		return
+	}
+
 	// Call the appropriate function based on the program name
 	switch *program {
 	case "trnm":
@@ -41,8 +49,13 @@ func main() {
 		leaderboards.RunTournaments(*setNames, *leaderboard)
 
 	case "wght":
-		fmt.Println("Running typeweight program...")
-		leaderboards.RunTypeWeight(*setNames, *leaderboard, *numMonths, *monthYear)
+		fmt.Print("Running typeweight program")
+		if *mode != "" {
+			fmt.Printf(" in mode '%s'", *mode)
+		}
+		fmt.Println("...")
+		leaderboards.RunTypeWeight(*setNames, *leaderboard, *numMonths, *monthYear, *mode)
+		// Modes: "c", only prints new/updated records
 
 	case "count":
 		fmt.Println("Running totalcount program...")
@@ -66,14 +79,28 @@ func main() {
 func isValidLeaderboardForProgram(program, leaderboard string) bool {
 	// Define valid leaderboards for each program
 	validLeaderboards := map[string]map[string]bool{
-		"trnm":  {"trophy": true, "fishw": true, "": true}, // Valid leaderboards for trnm program
-		"wght":  {"weight": true, "type": true, "": true},  // Valid leaderboards for wght program
-		"count": {"count": true, "": true},                 // Valid leaderboards for count program
+		"trnm":  {"trophy": true, "fishw": true, "": true},
+		"wght":  {"weight": true, "type": true, "": true},
+		"count": {"count": true, "": true},
 	}
 
 	// Check if the provided leaderboard is valid for the specified program
 	if validPrograms, exists := validLeaderboards[program]; exists {
 		return validPrograms[leaderboard]
+	}
+	return false
+}
+
+// Function to validate mode name for the specified program
+func isValidModeForProgram(program, mode string) bool {
+	// Define valid modes for each program
+	validModes := map[string]map[string]bool{
+		"wght": {"c": true},
+	}
+
+	// Check if the provided mode is valid for the specified program
+	if validPrograms, exists := validModes[program]; exists {
+		return validPrograms[mode]
 	}
 	return false
 }
