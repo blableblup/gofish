@@ -10,7 +10,7 @@ import (
 	"strings"
 )
 
-func RunTypeWeight(setNames, leaderboard string, numMonths int, monthYear string) {
+func RunTypeWeight(setNames, leaderboard string, numMonths int, monthYear string, mode string) {
 
 	// Get the current working directory
 	wd, err := os.Getwd()
@@ -34,7 +34,7 @@ func RunTypeWeight(setNames, leaderboard string, numMonths int, monthYear string
 				Weightlimit = "200" // Set the default weight limit if not specified
 			}
 			urls := other.CreateURL(setName, numMonths, monthYear)
-			processTypeWeight(urls, setName, config.URLSets[setName], leaderboard, Weightlimit)
+			processTypeWeight(urls, setName, config.URLSets[setName], leaderboard, Weightlimit, mode)
 		}
 	case "":
 		fmt.Println("Please specify set names.")
@@ -52,12 +52,12 @@ func RunTypeWeight(setNames, leaderboard string, numMonths int, monthYear string
 				Weightlimit = "200" // Set the default weight limit if not specified
 			}
 			urls := other.CreateURL(setName, numMonths, monthYear)
-			processTypeWeight(urls, setName, urlSet, leaderboard, Weightlimit)
+			processTypeWeight(urls, setName, urlSet, leaderboard, Weightlimit, mode)
 		}
 	}
 }
 
-func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leaderboard string, Weightlimit string) {
+func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leaderboard string, Weightlimit string, mode string) {
 
 	oldRecordWeight, err := other.ReadWeightRankings(urlSet.Weight)
 	if err != nil {
@@ -140,9 +140,11 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 				Bot:    newWeightRecord.Bot,
 			}
 			fmt.Println("Updated Record Weight for Player", player+":", newWeightRecord)
-			record := "updated"
-			// Log the updated record
-			logs.WriteWeightLog(setName, record, map[string]other.Record{player: newWeightRecord})
+			if mode != "c" {
+				record := "updated"
+				// Log the updated record
+				logs.WriteWeightLog(setName, record, map[string]other.Record{player: newWeightRecord})
+			}
 		} else {
 			// If the new weight is not greater, keep the old record
 			recordWeight[player] = other.Record{
@@ -162,9 +164,11 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 				Bot:    newWeightRecord.Bot,
 			}
 			fmt.Println("New Record Weight for Player", player+":", newWeightRecord)
-			record := "new"
-			// Log the new record
-			logs.WriteWeightLog(setName, record, map[string]other.Record{player: newWeightRecord})
+			if mode != "c" {
+				record := "new"
+				// Log the new record
+				logs.WriteWeightLog(setName, record, map[string]other.Record{player: newWeightRecord})
+			}
 		}
 	}
 
@@ -192,9 +196,11 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 				Bot:    newTypeRecord.Bot,
 			}
 			fmt.Println("Updated Record Type for Fish Type", fishType+":", newTypeRecord)
-			record := "updated"
-			// Log the updated record
-			logs.WriteTypeLog(setName, record, map[string]other.Record{fishType: newTypeRecord})
+			if mode != "c" {
+				record := "updated"
+				// Log the updated record
+				logs.WriteTypeLog(setName, record, map[string]other.Record{fishType: newTypeRecord})
+			}
 		} else {
 			// If the new weight is not greater, keep the old record
 			recordType[fishType] = other.Record{
@@ -215,17 +221,25 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 				Bot:    newTypeRecord.Bot,
 			}
 			fmt.Println("New Record Type for Fish Type", fishType+":", newTypeRecord)
-			record := "new"
-			// Log the new record
-			logs.WriteTypeLog(setName, record, map[string]other.Record{fishType: newTypeRecord})
+			if mode != "c" {
+				record := "new"
+				// Log the new record
+				logs.WriteTypeLog(setName, record, map[string]other.Record{fishType: newTypeRecord})
 
+			}
 		}
+	}
+
+	// Stops the program if it is in "just checking" mode
+	if mode == "c" {
+		fmt.Println("Finished checking for new records for set", setName)
+		return
 	}
 
 	// Update only the specified leaderboard if the leaderboard flag is provided
 	switch leaderboard {
 	case "type":
-		// Write the leaderboard for the weekly tournaments to the file specified in the config
+		// Write the leaderboard for the biggest fish per fish type to the file specified in the config
 		fmt.Printf("Updating type leaderboard for set '%s'...\n", setName)
 		err = writeTypeLeaderboard(urlSet.Type, setName, recordType)
 		if err != nil {
