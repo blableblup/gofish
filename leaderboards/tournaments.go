@@ -44,12 +44,17 @@ func RunTournaments(setNames, leaderboard string) {
 	switch setNames {
 	case "all":
 		// Process all sets
-		for setName := range config.URLSets {
-			fishweekLimit := config.URLSets[setName].Fishweeklimit
+		for setName, urlSet := range config.URLSets {
+			if !urlSet.CheckEnabled {
+				fmt.Printf("Skipping set '%s' because check_enabled is false.\n", setName)
+				continue // Skip processing if check_enabled is false
+			}
+			fishweekLimit := urlSet.Fishweeklimit
 			if fishweekLimit == "" {
 				fishweekLimit = "20" // Set the default fishweek limit if not specified
 			}
-			processTournaments(setName, config.URLSets[setName], pointValues, leaderboard, fishweekLimit)
+			fmt.Printf("Checking set '%s'.\n", setName)
+			processTournaments(setName, urlSet, pointValues, leaderboard, fishweekLimit)
 		}
 	case "":
 		fmt.Println("Please specify set names.")
@@ -62,10 +67,15 @@ func RunTournaments(setNames, leaderboard string) {
 				fmt.Printf("Set '%s' not found in config.\n", setName)
 				continue
 			}
+			if !urlSet.CheckEnabled {
+				fmt.Printf("Skipping set '%s' because check_enabled is false.\n", setName)
+				continue // Skip processing if check_enabled is false
+			}
 			fishweekLimit := urlSet.Fishweeklimit
 			if fishweekLimit == "" {
 				fishweekLimit = "20" // Set the default fishweek limit if not specified
 			}
+			fmt.Printf("Checking set '%s'.\n", setName)
 			processTournaments(setName, urlSet, pointValues, leaderboard, fishweekLimit)
 		}
 	}

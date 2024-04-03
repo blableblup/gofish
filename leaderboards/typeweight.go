@@ -28,13 +28,19 @@ func RunTypeWeight(setNames, leaderboard string, numMonths int, monthYear string
 	switch setNames {
 	case "all":
 		// Process all sets
-		for setName := range config.URLSets {
-			Weightlimit := config.URLSets[setName].Weightlimit
+		for setName, urlSet := range config.URLSets {
+			if !urlSet.CheckEnabled {
+				fmt.Printf("Skipping set '%s' because check_enabled is false.\n", setName)
+				continue // Skip processing if check_enabled is false
+			}
+
+			Weightlimit := urlSet.Weightlimit
 			if Weightlimit == "" {
 				Weightlimit = "200" // Set the default weight limit if not specified
 			}
+			fmt.Printf("Checking set '%s'.\n", setName)
 			urls := other.CreateURL(setName, numMonths, monthYear)
-			processTypeWeight(urls, setName, config.URLSets[setName], leaderboard, Weightlimit, mode)
+			processTypeWeight(urls, setName, urlSet, leaderboard, Weightlimit, mode)
 		}
 	case "":
 		fmt.Println("Please specify set names.")
@@ -47,10 +53,15 @@ func RunTypeWeight(setNames, leaderboard string, numMonths int, monthYear string
 				fmt.Printf("Set '%s' not found in config.\n", setName)
 				continue
 			}
+			if !urlSet.CheckEnabled {
+				fmt.Printf("Skipping set '%s' because check_enabled is false.\n", setName)
+				continue // Skip processing if check_enabled is false
+			}
 			Weightlimit := urlSet.Weightlimit
 			if Weightlimit == "" {
 				Weightlimit = "200" // Set the default weight limit if not specified
 			}
+			fmt.Printf("Checking set '%s'.\n", setName)
 			urls := other.CreateURL(setName, numMonths, monthYear)
 			processTypeWeight(urls, setName, urlSet, leaderboard, Weightlimit, mode)
 		}
@@ -225,14 +236,13 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 				record := "new"
 				// Log the new record
 				logs.WriteTypeLog(setName, record, map[string]other.Record{fishType: newTypeRecord})
-
 			}
 		}
 	}
 
 	// Stops the program if it is in "just checking" mode
 	if mode == "c" {
-		fmt.Println("Finished checking for new records for set", setName)
+		fmt.Printf("Finished checking for new records for set '%s'.\n", setName)
 		return
 	}
 

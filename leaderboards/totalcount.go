@@ -29,13 +29,18 @@ func RunTotalcount(setNames, leaderboard string, numMonths int, monthYear string
 	switch setNames {
 	case "all":
 		// Process all sets
-		for setName := range config.URLSets {
-			Totalcountlimit := config.URLSets[setName].Totalcountlimit
+		for setName, urlSet := range config.URLSets {
+			if !urlSet.CheckEnabled {
+				fmt.Printf("Skipping set '%s' because check_enabled is false.\n", setName)
+				continue // Skip processing if check_enabled is false
+			}
+			Totalcountlimit := urlSet.Totalcountlimit
 			if Totalcountlimit == "" {
 				Totalcountlimit = "100" // Set the default count limit if not specified
 			}
+			fmt.Printf("Checking set '%s'.\n", setName)
 			urls := other.CreateURL(setName, numMonths, monthYear)
-			processTotalcount(urls, setName, config.URLSets[setName], leaderboard, Totalcountlimit)
+			processTotalcount(urls, setName, urlSet, leaderboard, Totalcountlimit)
 		}
 	case "":
 		fmt.Println("Please specify set names.")
@@ -48,10 +53,15 @@ func RunTotalcount(setNames, leaderboard string, numMonths int, monthYear string
 				fmt.Printf("Set '%s' not found in config.\n", setName)
 				continue
 			}
+			if !urlSet.CheckEnabled {
+				fmt.Printf("Skipping set '%s' because check_enabled is false.\n", setName)
+				continue // Skip processing if check_enabled is false
+			}
 			Totalcountlimit := urlSet.Totalcountlimit
 			if Totalcountlimit == "" {
 				Totalcountlimit = "100" // Set the default count limit if not specified
 			}
+			fmt.Printf("Checking set '%s'.\n", setName)
 			urls := other.CreateURL(setName, numMonths, monthYear)
 			processTotalcount(urls, setName, urlSet, leaderboard, Totalcountlimit)
 		}
