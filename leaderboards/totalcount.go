@@ -118,12 +118,15 @@ func processTotalcount(urls []string, setName string, urlSet other.URLSet, leade
 		}
 	}
 
+	// Titles for the leaderboards
+	titletotalcount := fmt.Sprintf("### Most fish caught in %s's chat (since gofish was added)\n", setName)
+
 	// Update only the specified leaderboard if the leaderboard flag is provided
 	switch leaderboard {
 	case "count":
 		// Write the leaderboard for the total fish caught to the file specified in the config
 		fmt.Printf("Updating totalcount leaderboard for set '%s' with count threshold %s...\n", setName, Totalcountlimit)
-		err = writeTotalcount(urlSet.Totalcount, setName, fishCaught)
+		err = writeTotalcount(urlSet.Totalcount, fishCaught, titletotalcount)
 		if err != nil {
 			fmt.Println("Error writing totalcount leaderboard:", err)
 		} else {
@@ -135,7 +138,7 @@ func processTotalcount(urls []string, setName string, urlSet other.URLSet, leade
 }
 
 // Function to write the Totalcount leaderboard with emojis indicating ranking change and the count change in brackets
-func writeTotalcount(filePath string, setName string, fishCaught map[string]int) error {
+func writeTotalcount(filePath string, fishCaught map[string]int, titletotalcount string) error {
 	// Call ReadTotalcountRankings to get the totalcount rankings
 	oldLeaderboardCount, err := other.ReadTotalcountRankings(filePath)
 	if err != nil {
@@ -156,7 +159,7 @@ func writeTotalcount(filePath string, setName string, fishCaught map[string]int)
 	defer file.Close()
 
 	// Write the title
-	_, err = fmt.Fprintf(file, "### Most fish caught in %s's chat (since gofish was added)\n", setName)
+	_, err = fmt.Fprintf(file, "%s\n", titletotalcount)
 	if err != nil {
 		return err
 	}
