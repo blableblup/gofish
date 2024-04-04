@@ -44,10 +44,15 @@ func RunTypeGlobal(config other.Config, title string) {
 	globalRecordType := make(map[string]other.Record)
 
 	// Process all sets
-	for _, urlSet := range config.URLSets {
+	for setName, urlSet := range config.URLSets {
+		if !urlSet.CheckEnabled {
+			fmt.Printf("Skipping set '%s' because check_enabled is false.\n", setName)
+			continue // Skip processing if check_enabled is false
+		}
+
 		oldRecordType, err := other.ReadTypeRankings(urlSet.Type)
 		if err != nil {
-			fmt.Println("Error reading old type leaderboard:", err)
+			fmt.Printf("Error reading old type leaderboard for set '%s': %v\n", setName, err)
 			continue
 		}
 
@@ -95,6 +100,11 @@ func RunWeightGlobal(config other.Config, title string) {
 
 	// Process all sets
 	for setName, urlSet := range config.URLSets {
+		if !urlSet.CheckEnabled {
+			fmt.Printf("Skipping set '%s' because check_enabled is false.\n", setName)
+			continue // Skip processing if check_enabled is false
+		}
+
 		oldRecordWeight, err := other.ReadWeightRankings(urlSet.Weight)
 		if err != nil {
 			fmt.Printf("Error reading old weight leaderboard for set '%s': %v\n", setName, err)
