@@ -10,6 +10,7 @@
         "totalcountold": "leaderboards/bw/leaderboardtotalcountold.md",
         "type": "leaderboards/bw/leaderboardtype.md",
         "weight": "leaderboards/bw/leaderboardweight.md",
+        "emoji": "🍞",
         "check_enabled": true
       },
       "psp": {
@@ -22,8 +23,19 @@
         "totalcountold": "leaderboards/psp/leaderboardtotalcountold.md",
         "type": "leaderboards/psp/leaderboardtype.md",
         "weight": "leaderboards/psp/leaderboardweight.md",
+        "emoji": "🐱",
         "check_enabled": true
-      }
+      },
+      "global": {
+        "trophies": "leaderboards/global/leaderboardtrophies.md",
+        "fishweek": "leaderboards/global/leaderboardfish.md",
+        "totalcount": "leaderboards/global/leaderboardtotalcount.md",
+        "totalcountold": "leaderboards/global/leaderboardtotalcountold.md",
+        "type": "leaderboards/global/leaderboardtype.md",
+        "weight": "leaderboards/global/leaderboardweight.md",
+        "weight_limit": "270",
+        "check_enabled": false
     }
   }
+}
   

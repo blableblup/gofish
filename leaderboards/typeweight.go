@@ -249,13 +249,14 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 	// Titles for the leaderboards
 	titleweight := fmt.Sprintf("### Biggest fish caught per player in %s's chat\n", setName)
 	titletype := fmt.Sprintf("### Biggest fish per type caught in %s's chat\n", setName)
+	isGlobal := false // Since these will be leaderboards for the chats
 
 	// Update only the specified leaderboard if the leaderboard flag is provided
 	switch leaderboard {
 	case "type":
 		// Write the leaderboard for the biggest fish per fish type to the file specified in the config
 		fmt.Printf("Updating type leaderboard for set '%s'...\n", setName)
-		err = writeTypeLeaderboard(urlSet.Type, recordType, titletype)
+		err = writeTypeLeaderboard(urlSet.Type, recordType, titletype, isGlobal)
 		if err != nil {
 			fmt.Println("Error writing type leaderboard:", err)
 		} else {
@@ -264,7 +265,7 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 	case "weight":
 		// Write the leaderboard for the biggest fish caught per player in chat to the file specified in the config
 		fmt.Printf("Updating weight leaderboard for set '%s' with weight threshold %s...\n", setName, Weightlimit)
-		err = writeWeightLeaderboard(urlSet.Weight, recordWeight, titleweight)
+		err = writeWeightLeaderboard(urlSet.Weight, recordWeight, titleweight, isGlobal)
 		if err != nil {
 			fmt.Println("Error writing weight leaderboard:", err)
 		} else {
@@ -273,7 +274,7 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 	default:
 		// If the leaderboard flag is not provided, update both leaderboards
 		fmt.Printf("Updating type leaderboard for set '%s'...\n", setName)
-		err = writeTypeLeaderboard(urlSet.Type, recordType, titletype)
+		err = writeTypeLeaderboard(urlSet.Type, recordType, titletype, isGlobal)
 		if err != nil {
 			fmt.Println("Error writing type leaderboard:", err)
 		} else {
@@ -281,7 +282,7 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 		}
 
 		fmt.Printf("Updating weight leaderboard for set '%s' with weight threshold %s...\n", setName, Weightlimit)
-		err = writeWeightLeaderboard(urlSet.Weight, recordWeight, titleweight)
+		err = writeWeightLeaderboard(urlSet.Weight, recordWeight, titleweight, isGlobal)
 		if err != nil {
 			fmt.Println("Error writing weight leaderboard:", err)
 		} else {
@@ -290,8 +291,7 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 	}
 }
 
-// Function to write the Weight leaderboard with emojis indicating ranking change and the weight change in brackets
-func writeWeightLeaderboard(filePath string, recordWeight map[string]other.Record, titleweight string) error {
+func writeWeightLeaderboard(filePath string, recordWeight map[string]other.Record, titleweight string, isGlobal bool) error {
 	// Call ReadWeightRankings to get the weight rankings
 	oldLeaderboardWeight, err := other.ReadWeightRankings(filePath)
 	if err != nil {
@@ -318,8 +318,18 @@ func writeWeightLeaderboard(filePath string, recordWeight map[string]other.Recor
 	}
 
 	// Write the header
-	_, err = fmt.Fprintln(file, "| Rank | Player | Fish | Weight in lbs ⚖️ |")
-	_, err = fmt.Fprintln(file, "|------|--------|-----------|---------|")
+	_, err = fmt.Fprintln(file, "| Rank | Player | Fish | Weight in lbs ⚖️ |"+func() string {
+		if isGlobal {
+			return " Chat |"
+		}
+		return ""
+	}())
+	_, err = fmt.Fprintln(file, "|------|--------|-----------|---------|"+func() string {
+		if isGlobal {
+			return "-------|"
+		}
+		return ""
+	}())
 	if err != nil {
 		return err
 	}
@@ -406,7 +416,11 @@ func writeWeightLeaderboard(filePath string, recordWeight map[string]other.Recor
 		ranks := other.Ranks(rank)
 
 		// Write the leaderboard row
-		_, err = fmt.Fprintf(file, "| %s %s | %s%s | %s | %s |\n", ranks, changeEmoji, player, botIndicator, fishType, fishweight)
+		_, err = fmt.Fprintf(file, "| %s %s | %s%s | %s | %s |", ranks, changeEmoji, player, botIndicator, fishType, fishweight)
+		if isGlobal {
+			_, err = fmt.Fprintf(file, " %s |", recordWeight[player].Chat)
+		}
+		_, err = fmt.Fprintln(file)
 		if err != nil {
 			return err
 		}
@@ -424,8 +438,7 @@ func writeWeightLeaderboard(filePath string, recordWeight map[string]other.Recor
 	return nil
 }
 
-// Function to write the Type leaderboard with emojis indicating ranking change and the weight change in brackets
-func writeTypeLeaderboard(filePath string, recordType map[string]other.Record, titletype string) error {
+func writeTypeLeaderboard(filePath string, recordType map[string]other.Record, titletype string, isGlobal bool) error {
 	// Call ReadOldTypeRankings to get the type rankings
 	oldLeaderboardType, err := other.ReadTypeRankings(filePath)
 	if err != nil {
@@ -452,8 +465,22 @@ func writeTypeLeaderboard(filePath string, recordType map[string]other.Record, t
 	}
 
 	// Write the header
-	_, err = fmt.Fprintln(file, "| Rank | Fish | Weight in lbs | Player |")
-	_, err = fmt.Fprintln(file, "|------|-----------|--------|--------|")
+	_, err = fmt.Fprintln(file, "| Rank | Fish | Weight in lbs | Player |"+func() string {
+		if isGlobal {
+			return " Chat |"
+		}
+		return ""
+	}())
+	if err != nil {
+		return err
+	}
+
+	_, err = fmt.Fprintln(file, "|------|--------|-----------|---------|"+func() string {
+		if isGlobal {
+			return "-------|"
+		}
+		return ""
+	}())
 	if err != nil {
 		return err
 	}
@@ -539,7 +566,11 @@ func writeTypeLeaderboard(filePath string, recordType map[string]other.Record, t
 
 		ranks := other.Ranks(rank)
 
-		_, err = fmt.Fprintf(file, "| %s %s | %s | %s | %s%s |\n", ranks, changeEmoji, fishType, fishweight, player, botIndicator)
+		_, err = fmt.Fprintf(file, "| %s %s | %s | %s | %s%s |", ranks, changeEmoji, fishType, fishweight, player, botIndicator)
+		if isGlobal {
+			_, err = fmt.Fprintf(file, " %s |", recordType[fishType].Chat)
+		}
+		_, err = fmt.Fprintln(file)
 		if err != nil {
 			return err
 		}
