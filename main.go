@@ -12,7 +12,7 @@ import (
 
 func main() {
 	// Define command line flags
-	program := flag.String("p", "", "Program name: trnm, wght, logs, count")
+	program := flag.String("p", "", "Program name: trnm, wght, logs, count, global")
 	setNames := flag.String("s", "", "Comma-separated list of set names")
 	leaderboard := flag.String("l", "", "Leaderboard name")
 	mode := flag.String("mm", "", "Modes are different for each program")
@@ -44,6 +44,10 @@ func main() {
 
 	// Call the appropriate function based on the program name
 	switch *program {
+	case "global":
+		fmt.Println("Running global program...")
+		leaderboards.RunGlobal(*leaderboard)
+
 	case "trnm":
 		fmt.Println("Running tournaments program...")
 		leaderboards.RunTournaments(*setNames, *leaderboard)
@@ -79,9 +83,10 @@ func main() {
 func isValidLeaderboardForProgram(program, leaderboard string) bool {
 	// Define valid leaderboards for each program
 	validLeaderboards := map[string]map[string]bool{
-		"trnm":  {"trophy": true, "fishw": true, "": true},
-		"wght":  {"weight": true, "type": true, "": true},
-		"count": {"count": true, "": true},
+		"trnm":   {"trophy": true, "fishw": true, "": true},
+		"wght":   {"weight": true, "type": true, "": true},
+		"count":  {"count": true, "": true},
+		"global": {"weight": true, "type": true, "all": true},
 	}
 
 	// Check if the provided leaderboard is valid for the specified program

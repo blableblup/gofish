@@ -17,6 +17,7 @@ type Record struct {
 	Type      string
 	CatchType string
 	Date      string
+	Chat      string
 }
 
 // List of all the patterns
