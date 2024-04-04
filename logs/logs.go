@@ -31,7 +31,13 @@ func RunLogs(setNames string, numMonths int, monthYear string) {
 	if setNames == "all" {
 		// Run all URL sets with the specified number of months or month/year
 		for setName, setInfo := range config.URLSets {
+			if !setInfo.CheckEnabled {
+				fmt.Printf("Skipping set '%s' because check_enabled is false.\n", setName)
+				continue // Skip processing if check_enabled is false
+			}
+
 			// Call CreateURL function with the provided arguments
+			fmt.Printf("Checking set '%s'.\n", setName)
 			urls := other.CreateURL(setName, numMonths, monthYear)
 			fetchMatchingLines(setInfo, urls)
 		}
@@ -47,7 +53,13 @@ func RunLogs(setNames string, numMonths int, monthYear string) {
 			continue
 		}
 
+		if !setInfo.CheckEnabled {
+			fmt.Printf("Skipping set '%s' because check_enabled is false.\n", setName)
+			continue // Skip processing if check_enabled is false
+		}
+
 		// Call CreateURL function with the provided arguments
+		fmt.Printf("Checking set '%s'.\n", setName)
 		urls := other.CreateURL(setName, numMonths, monthYear)
 		fetchMatchingLines(setInfo, urls)
 	}
