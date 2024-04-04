@@ -246,12 +246,16 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 		return
 	}
 
+	// Titles for the leaderboards
+	titleweight := fmt.Sprintf("### Biggest fish caught per player in %s's chat\n", setName)
+	titletype := fmt.Sprintf("### Biggest fish per type caught in %s's chat\n", setName)
+
 	// Update only the specified leaderboard if the leaderboard flag is provided
 	switch leaderboard {
 	case "type":
 		// Write the leaderboard for the biggest fish per fish type to the file specified in the config
 		fmt.Printf("Updating type leaderboard for set '%s'...\n", setName)
-		err = writeTypeLeaderboard(urlSet.Type, setName, recordType)
+		err = writeTypeLeaderboard(urlSet.Type, recordType, titletype)
 		if err != nil {
 			fmt.Println("Error writing type leaderboard:", err)
 		} else {
@@ -260,7 +264,7 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 	case "weight":
 		// Write the leaderboard for the biggest fish caught per player in chat to the file specified in the config
 		fmt.Printf("Updating weight leaderboard for set '%s' with weight threshold %s...\n", setName, Weightlimit)
-		err = writeWeightLeaderboard(urlSet.Weight, setName, recordWeight)
+		err = writeWeightLeaderboard(urlSet.Weight, recordWeight, titleweight)
 		if err != nil {
 			fmt.Println("Error writing weight leaderboard:", err)
 		} else {
@@ -269,7 +273,7 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 	default:
 		// If the leaderboard flag is not provided, update both leaderboards
 		fmt.Printf("Updating type leaderboard for set '%s'...\n", setName)
-		err = writeTypeLeaderboard(urlSet.Type, setName, recordType)
+		err = writeTypeLeaderboard(urlSet.Type, recordType, titletype)
 		if err != nil {
 			fmt.Println("Error writing type leaderboard:", err)
 		} else {
@@ -277,7 +281,7 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 		}
 
 		fmt.Printf("Updating weight leaderboard for set '%s' with weight threshold %s...\n", setName, Weightlimit)
-		err = writeWeightLeaderboard(urlSet.Weight, setName, recordWeight)
+		err = writeWeightLeaderboard(urlSet.Weight, recordWeight, titleweight)
 		if err != nil {
 			fmt.Println("Error writing weight leaderboard:", err)
 		} else {
@@ -287,7 +291,7 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 }
 
 // Function to write the Weight leaderboard with emojis indicating ranking change and the weight change in brackets
-func writeWeightLeaderboard(filePath string, setName string, recordWeight map[string]other.Record) error {
+func writeWeightLeaderboard(filePath string, recordWeight map[string]other.Record, titleweight string) error {
 	// Call ReadWeightRankings to get the weight rankings
 	oldLeaderboardWeight, err := other.ReadWeightRankings(filePath)
 	if err != nil {
@@ -308,7 +312,7 @@ func writeWeightLeaderboard(filePath string, setName string, recordWeight map[st
 	defer file.Close()
 
 	// Write the title
-	_, err = fmt.Fprintf(file, "### Biggest fish caught per player in %s's chat\n", setName)
+	_, err = fmt.Fprintf(file, "%s", titleweight)
 	if err != nil {
 		return err
 	}
@@ -421,7 +425,7 @@ func writeWeightLeaderboard(filePath string, setName string, recordWeight map[st
 }
 
 // Function to write the Type leaderboard with emojis indicating ranking change and the weight change in brackets
-func writeTypeLeaderboard(filePath string, setName string, recordType map[string]other.Record) error {
+func writeTypeLeaderboard(filePath string, recordType map[string]other.Record, titletype string) error {
 	// Call ReadOldTypeRankings to get the type rankings
 	oldLeaderboardType, err := other.ReadTypeRankings(filePath)
 	if err != nil {
@@ -442,7 +446,7 @@ func writeTypeLeaderboard(filePath string, setName string, recordType map[string
 	defer file.Close()
 
 	// Write the title
-	_, err = fmt.Fprintf(file, "### Biggest fish per type caught in %s's chat\n", setName)
+	_, err = fmt.Fprintf(file, "%s", titletype)
 	if err != nil {
 		return err
 	}
