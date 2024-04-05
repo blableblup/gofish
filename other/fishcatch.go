@@ -26,7 +26,7 @@ var releasePattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{
 var jumpedPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), Huh[?][!] ✨ Something jumped out of the water to snatch your rare candy! ...Got it! 🥍 (.*?) ([\d.]+) lbs`)
 var normalPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), You caught a [✨🫧] (.*?) [✨🫧]! It weighs ([\d.]+) lbs`)
 
-func CatchWeightType(url string, newRecordWeight map[string]Record, newRecordType map[string]Record, Weightlimit string) (map[string]Record, map[string]Record, error) {
+func CatchWeightType(url string, newRecordWeight map[string]Record, newRecordType map[string]Record, Weightlimit float64) (map[string]Record, map[string]Record, error) {
 
 	// Fetch data from the URL
 	req := fasthttp.AcquireRequest()
@@ -90,14 +90,8 @@ func CatchWeightType(url string, newRecordWeight map[string]Record, newRecordTyp
 			fishType = equivalent
 		}
 
-		// Convert Weightlimit to float64
-		weightLimit, err := strconv.ParseFloat(Weightlimit, 64)
-		if err != nil {
-			fmt.Println("Error converting Weightlimit to float64:", err)
-		}
-
 		// Update the record for the biggest fish of the player if weight exceeds Weightlimit
-		if weight > newRecordWeight[player].Weight && weight > weightLimit {
+		if weight > newRecordWeight[player].Weight && weight > Weightlimit {
 			newRecordWeight[player] = Record{Type: fishType, Weight: weight, Bot: bot, Date: date, CatchType: catchtype}
 		}
 

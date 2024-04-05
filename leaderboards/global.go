@@ -5,7 +5,6 @@ import (
 	"gofish/other"
 	"os"
 	"path/filepath"
-	"strconv"
 )
 
 func RunGlobal(leaderboard string) {
@@ -91,12 +90,7 @@ func RunWeightGlobal(config other.Config, title string) {
 	globalRecordWeight := make(map[string]other.Record)
 
 	// Get the weight limit from the "global" URL set configuration
-	globalWeightLimit := config.URLSets["global"].Weightlimit
-	weightLimit, err := strconv.ParseFloat(globalWeightLimit, 64)
-	if err != nil {
-		fmt.Printf("Error parsing weight limit for 'global' URL set: %v\n", err)
-		return
-	}
+	WeightLimit := config.URLSets["global"].Weightlimit
 
 	// Process all sets
 	for setName, urlSet := range config.URLSets {
@@ -118,7 +112,7 @@ func RunWeightGlobal(config other.Config, title string) {
 				fishType, fishTypeOK := record["type"].(string)
 				bot, botOK := record["bot"].(string)
 
-				if weightOK && fishTypeOK && botOK && weight > weightLimit {
+				if weightOK && fishTypeOK && botOK && weight > WeightLimit {
 					existingRecord, exists := globalRecordWeight[player]
 					if !exists || weight > existingRecord.Weight {
 						globalRecordWeight[player] = other.Record{
@@ -149,7 +143,7 @@ func updateTypeLeaderboard(config other.Config, recordType map[string]other.Reco
 	if err != nil {
 		fmt.Println("Error writing type leaderboard:", err)
 	} else {
-		fmt.Println("Type leaderboard updated successfully.")
+		fmt.Println("Global type leaderboard updated successfully.")
 	}
 }
 
@@ -161,6 +155,6 @@ func updateWeightLeaderboard(config other.Config, recordWeight map[string]other.
 	if err != nil {
 		fmt.Println("Error writing weight leaderboard:", err)
 	} else {
-		fmt.Println("Weight leaderboard updated successfully.")
+		fmt.Println("Global weight leaderboard updated successfully.")
 	}
 }

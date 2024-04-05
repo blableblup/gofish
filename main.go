@@ -25,7 +25,7 @@ func main() {
 	// Validate program name
 	if *program == "" {
 		fmt.Println("Usage: go run main.go -p <program> [-s <set names>] [-l <leaderboard>] [-m <months>] [-d <date>] [-m <mode>]")
-		// If no leaderboard is specified it updates all available leaderboards of the program
+		// If no leaderboard is specified it updates all available leaderboards of the program (for the global program a leaderboard has to be specified)
 		// If no month or time period is specified it checks the current month
 		return
 	}

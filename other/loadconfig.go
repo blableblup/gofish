@@ -7,20 +7,20 @@ import (
 )
 
 type URLSet struct {
-	Logs            string `json:"logs"`
-	Trophies        string `json:"trophies"`
-	Fishweek        string `json:"fishweek"`
-	Fishweeklimit   string `json:"fishweek_limit"`
-	Weight          string `json:"weight"`
-	Weightlimit     string `json:"weight_limit"`
-	Type            string `json:"type"`
-	Totalcount      string `json:"totalcount"`
-	Totalcountlimit string `json:"totalcount_limit"`
-	TotalcountOld   string `json:"totalcountold"`
-	LogsHost        string `json:"logs_host"`
-	LogsHostOld     string `json:"logs_host_old"`
-	Emoji           string `json:"emoji"`
-	CheckEnabled    bool   `json:"check_enabled"`
+	Logs            string  `json:"logs"`
+	Trophies        string  `json:"trophies"`
+	Fishweek        string  `json:"fishweek"`
+	Fishweeklimit   int     `json:"fishweek_limit"`
+	Weight          string  `json:"weight"`
+	Weightlimit     float64 `json:"weight_limit"`
+	Type            string  `json:"type"`
+	Totalcount      string  `json:"totalcount"`
+	Totalcountlimit int     `json:"totalcount_limit"`
+	TotalcountOld   string  `json:"totalcountold"`
+	LogsHost        string  `json:"logs_host"`
+	LogsHostOld     string  `json:"logs_host_old"`
+	Emoji           string  `json:"emoji"`
+	CheckEnabled    bool    `json:"check_enabled"`
 }
 
 type Config struct {

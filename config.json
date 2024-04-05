@@ -33,7 +33,7 @@
         "totalcountold": "leaderboards/global/leaderboardtotalcountold.md",
         "type": "leaderboards/global/leaderboardtype.md",
         "weight": "leaderboards/global/leaderboardweight.md",
-        "weight_limit": "270",
+        "weight_limit": 270,
         "check_enabled": false
     }
   }
