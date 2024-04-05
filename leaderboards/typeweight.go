@@ -35,8 +35,8 @@ func RunTypeWeight(setNames, leaderboard string, numMonths int, monthYear string
 			}
 
 			Weightlimit := urlSet.Weightlimit
-			if Weightlimit == "" {
-				Weightlimit = "200" // Set the default weight limit if not specified
+			if Weightlimit == 0 {
+				Weightlimit = 200 // Set the default weight limit if not specified
 			}
 			fmt.Printf("Checking set '%s'.\n", setName)
 			urls := other.CreateURL(setName, numMonths, monthYear)
@@ -58,8 +58,8 @@ func RunTypeWeight(setNames, leaderboard string, numMonths int, monthYear string
 				continue // Skip processing if check_enabled is false
 			}
 			Weightlimit := urlSet.Weightlimit
-			if Weightlimit == "" {
-				Weightlimit = "200" // Set the default weight limit if not specified
+			if Weightlimit == 0 {
+				Weightlimit = 200 // Set the default weight limit if not specified
 			}
 			fmt.Printf("Checking set '%s'.\n", setName)
 			urls := other.CreateURL(setName, numMonths, monthYear)
@@ -68,7 +68,7 @@ func RunTypeWeight(setNames, leaderboard string, numMonths int, monthYear string
 	}
 }
 
-func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leaderboard string, Weightlimit string, mode string) {
+func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leaderboard string, Weightlimit float64, mode string) {
 
 	oldRecordWeight, err := other.ReadWeightRankings(urlSet.Weight)
 	if err != nil {
@@ -264,7 +264,7 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 		}
 	case "weight":
 		// Write the leaderboard for the biggest fish caught per player in chat to the file specified in the config
-		fmt.Printf("Updating weight leaderboard for set '%s' with weight threshold %s...\n", setName, Weightlimit)
+		fmt.Printf("Updating weight leaderboard for set '%s' with weight threshold %f...\n", setName, Weightlimit)
 		err = writeWeightLeaderboard(urlSet.Weight, recordWeight, titleweight, isGlobal)
 		if err != nil {
 			fmt.Println("Error writing weight leaderboard:", err)
@@ -281,7 +281,7 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 			fmt.Println("Type leaderboard updated successfully.")
 		}
 
-		fmt.Printf("Updating weight leaderboard for set '%s' with weight threshold %s...\n", setName, Weightlimit)
+		fmt.Printf("Updating weight leaderboard for set '%s' with weight threshold %f...\n", setName, Weightlimit)
 		err = writeWeightLeaderboard(urlSet.Weight, recordWeight, titleweight, isGlobal)
 		if err != nil {
 			fmt.Println("Error writing weight leaderboard:", err)

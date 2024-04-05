@@ -6,7 +6,6 @@ import (
 	"gofish/other"
 	"os"
 	"path/filepath"
-	"strconv"
 	"strings"
 	"sync"
 )
@@ -35,8 +34,8 @@ func RunTotalcount(setNames, leaderboard string, numMonths int, monthYear string
 				continue // Skip processing if check_enabled is false
 			}
 			Totalcountlimit := urlSet.Totalcountlimit
-			if Totalcountlimit == "" {
-				Totalcountlimit = "100" // Set the default count limit if not specified
+			if Totalcountlimit == 0 {
+				Totalcountlimit = 100 // Set the default count limit if not specified
 			}
 			fmt.Printf("Checking set '%s'.\n", setName)
 			urls := other.CreateURL(setName, numMonths, monthYear)
@@ -58,8 +57,8 @@ func RunTotalcount(setNames, leaderboard string, numMonths int, monthYear string
 				continue // Skip processing if check_enabled is false
 			}
 			Totalcountlimit := urlSet.Totalcountlimit
-			if Totalcountlimit == "" {
-				Totalcountlimit = "100" // Set the default count limit if not specified
+			if Totalcountlimit == 0 {
+				Totalcountlimit = 100 // Set the default count limit if not specified
 			}
 			fmt.Printf("Checking set '%s'.\n", setName)
 			urls := other.CreateURL(setName, numMonths, monthYear)
@@ -68,14 +67,7 @@ func RunTotalcount(setNames, leaderboard string, numMonths int, monthYear string
 	}
 }
 
-func processTotalcount(urls []string, setName string, urlSet other.URLSet, leaderboard string, Totalcountlimit string) {
-
-	// Convert Totalcountlimit to an integer
-	totalCountLimitInt, err := strconv.Atoi(Totalcountlimit)
-	if err != nil {
-		fmt.Println("Error converting Totalcountlimit to integer:", err)
-		return
-	}
+func processTotalcount(urls []string, setName string, urlSet other.URLSet, leaderboard string, Totalcountlimit int) {
 
 	// Define maps to hold the results
 	fishCaught := make(map[string]int)
@@ -113,7 +105,7 @@ func processTotalcount(urls []string, setName string, urlSet other.URLSet, leade
 
 	// Filter out players with counts less than or equal to Totalcountlimit
 	for player, count := range fishCaught {
-		if count <= totalCountLimitInt {
+		if count <= Totalcountlimit {
 			delete(fishCaught, player)
 		}
 	}
@@ -122,10 +114,11 @@ func processTotalcount(urls []string, setName string, urlSet other.URLSet, leade
 	titletotalcount := fmt.Sprintf("### Most fish caught in %s's chat (since gofish was added)\n", setName)
 
 	// Update only the specified leaderboard if the leaderboard flag is provided
+	var err error
 	switch leaderboard {
 	case "count":
 		// Write the leaderboard for the total fish caught to the file specified in the config
-		fmt.Printf("Updating totalcount leaderboard for set '%s' with count threshold %s...\n", setName, Totalcountlimit)
+		fmt.Printf("Updating totalcount leaderboard for set '%s' with count threshold %d...\n", setName, Totalcountlimit)
 		err = writeTotalcount(urlSet.Totalcount, fishCaught, titletotalcount)
 		if err != nil {
 			fmt.Println("Error writing totalcount leaderboard:", err)
@@ -133,7 +126,7 @@ func processTotalcount(urls []string, setName string, urlSet other.URLSet, leade
 			fmt.Println("Totalcount leaderboard updated successfully.")
 		}
 	default:
-		fmt.Println("This does nothing.") // Add more cases
+		fmt.Println("This does nothing.")
 	}
 }
 

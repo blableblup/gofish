@@ -50,8 +50,8 @@ func RunTournaments(setNames, leaderboard string) {
 				continue // Skip processing if check_enabled is false
 			}
 			fishweekLimit := urlSet.Fishweeklimit
-			if fishweekLimit == "" {
-				fishweekLimit = "20" // Set the default fishweek limit if not specified
+			if fishweekLimit == 0 {
+				fishweekLimit = 20 // Set the default fishweek limit if not specified
 			}
 			fmt.Printf("Checking set '%s'.\n", setName)
 			processTournaments(setName, urlSet, pointValues, leaderboard, fishweekLimit)
@@ -72,8 +72,8 @@ func RunTournaments(setNames, leaderboard string) {
 				continue // Skip processing if check_enabled is false
 			}
 			fishweekLimit := urlSet.Fishweeklimit
-			if fishweekLimit == "" {
-				fishweekLimit = "20" // Set the default fishweek limit if not specified
+			if fishweekLimit == 0 {
+				fishweekLimit = 20 // Set the default fishweek limit if not specified
 			}
 			fmt.Printf("Checking set '%s'.\n", setName)
 			processTournaments(setName, urlSet, pointValues, leaderboard, fishweekLimit)
@@ -81,18 +81,12 @@ func RunTournaments(setNames, leaderboard string) {
 	}
 }
 
-func processTournaments(setName string, urlSet other.URLSet, pointValues map[string]float64, leaderboard string, fishweekLimit string) {
+func processTournaments(setName string, urlSet other.URLSet, pointValues map[string]float64, leaderboard string, fishweekLimit int) {
 
 	// Import the lists from lists
 	cheaters := lists.ReadCheaters()
 	renamedChatters := lists.ReadRenamedChatters()
 
-	// Check if fish count is greater than or equal to the fishweek limit
-	fishCountThreshold, err := strconv.Atoi(fishweekLimit)
-	if err != nil {
-		fmt.Printf("Invalid fishweek limit for set '%s': %v\n", setName, err)
-		return
-	}
 	// Get the current working directory
 	wd, err := os.Getwd()
 	if err != nil {
@@ -209,8 +203,8 @@ func processTournaments(setName string, urlSet other.URLSet, pointValues map[str
 		}
 	case "fishw":
 		// Write the leaderboard for the most fish caught in a single week in tournaments to the file specified in the config
-		fmt.Printf("Updating fishweek leaderboard for set '%s' with fish count threshold %d...\n", setName, fishCountThreshold)
-		err = writeFishWeekLeaderboard(urlSet.Fishweek, maxFishInWeek, fishCountThreshold, titlefishw)
+		fmt.Printf("Updating fishweek leaderboard for set '%s' with fish count threshold %d...\n", setName, fishweekLimit)
+		err = writeFishWeekLeaderboard(urlSet.Fishweek, maxFishInWeek, fishweekLimit, titlefishw)
 		if err != nil {
 			fmt.Println("Error writing fishweek leaderboard:", err)
 		} else {
@@ -226,8 +220,8 @@ func processTournaments(setName string, urlSet other.URLSet, pointValues map[str
 			fmt.Println("Trophies leaderboard updated successfully.")
 		}
 
-		fmt.Printf("Updating fishweek leaderboard for set '%s' with fish count threshold %d...\n", setName, fishCountThreshold)
-		err = writeFishWeekLeaderboard(urlSet.Fishweek, maxFishInWeek, fishCountThreshold, titlefishw)
+		fmt.Printf("Updating fishweek leaderboard for set '%s' with fish count threshold %d...\n", setName, fishweekLimit)
+		err = writeFishWeekLeaderboard(urlSet.Fishweek, maxFishInWeek, fishweekLimit, titlefishw)
 		if err != nil {
 			fmt.Println("Error writing fishweek leaderboard:", err)
 		} else {
@@ -339,7 +333,7 @@ func writeTrophiesLeaderboard(filePath string, playerCounts map[string]PlayerCou
 }
 
 // Function to write the Fish Week leaderboard with emojis indicating ranking change
-func writeFishWeekLeaderboard(filePath string, maxFishInWeek map[string]PlayerInfo, fishCountThreshold int, titlefishw string) error {
+func writeFishWeekLeaderboard(filePath string, maxFishInWeek map[string]PlayerInfo, fishweekLimit int, titlefishw string) error {
 	// Call ReadOldFishRankings to get the old fish rankings
 	oldFishRankings, oldFishCountWeek, err := other.ReadOldFishRankings(filePath)
 	if err != nil {
@@ -394,7 +388,7 @@ func writeFishWeekLeaderboard(filePath string, maxFishInWeek map[string]PlayerIn
 		fishCount := totalFishCaught[player]
 
 		// Check if fish count is greater than or equal to 20
-		if fishCount >= fishCountThreshold {
+		if fishCount >= fishweekLimit {
 
 			// Increment rank only if the count has changed
 			if fishCount != prevFishCount {

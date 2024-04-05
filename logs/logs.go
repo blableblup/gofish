@@ -27,45 +27,43 @@ func RunLogs(setNames string, numMonths int, monthYear string) {
 	// Load the config from the constructed file path
 	config := other.LoadConfig(configFilePath)
 
-	// Check if the first argument is "all"
-	if setNames == "all" {
-		// Run all URL sets with the specified number of months or month/year
-		for setName, setInfo := range config.URLSets {
-			if !setInfo.CheckEnabled {
+	switch setNames {
+	case "all":
+		// Process all sets
+		for setName, urlSet := range config.URLSets {
+			if !urlSet.CheckEnabled {
 				fmt.Printf("Skipping set '%s' because check_enabled is false.\n", setName)
 				continue // Skip processing if check_enabled is false
 			}
 
-			// Call CreateURL function with the provided arguments
 			fmt.Printf("Checking set '%s'.\n", setName)
 			urls := other.CreateURL(setName, numMonths, monthYear)
-			fetchMatchingLines(setInfo, urls)
+			fetchMatchingLines(urlSet, urls)
 		}
-		return
-	}
+	case "":
+		fmt.Println("Please specify set names.")
+	default:
+		// Process specified set names
+		specifiedSetNames := strings.Split(setNames, ",")
+		for _, setName := range specifiedSetNames {
+			urlSet, ok := config.URLSets[setName]
+			if !ok {
+				fmt.Printf("Set '%s' not found in config.\n", setName)
+				continue
+			}
+			if !urlSet.CheckEnabled {
+				fmt.Printf("Skipping set '%s' because check_enabled is false.\n", setName)
+				continue // Skip processing if check_enabled is false
+			}
 
-	// Loop through the setNames
-	for _, setName := range strings.Split(setNames, ",") {
-		// Check if the specified URL set exists
-		setInfo, ok := config.URLSets[setName]
-		if !ok {
-			fmt.Printf("URL set '%s' not found\n", setName)
-			continue
+			fmt.Printf("Checking set '%s'.\n", setName)
+			urls := other.CreateURL(setName, numMonths, monthYear)
+			fetchMatchingLines(urlSet, urls)
 		}
-
-		if !setInfo.CheckEnabled {
-			fmt.Printf("Skipping set '%s' because check_enabled is false.\n", setName)
-			continue // Skip processing if check_enabled is false
-		}
-
-		// Call CreateURL function with the provided arguments
-		fmt.Printf("Checking set '%s'.\n", setName)
-		urls := other.CreateURL(setName, numMonths, monthYear)
-		fetchMatchingLines(setInfo, urls)
 	}
 }
 
-func fetchMatchingLines(setInfo other.URLSet, urls []string) {
+func fetchMatchingLines(urlSet other.URLSet, urls []string) {
 	// Get the directory of the current source file
 	_, currentFilePath, _, _ := runtime.Caller(0)
 	currentFileDir := filepath.Dir(currentFilePath)
@@ -75,11 +73,11 @@ func fetchMatchingLines(setInfo other.URLSet, urls []string) {
 
 	// Check if the log file path is absolute
 	var logFilePath string
-	if filepath.IsAbs(setInfo.Logs) {
-		logFilePath = setInfo.Logs
+	if filepath.IsAbs(urlSet.Logs) {
+		logFilePath = urlSet.Logs
 	} else {
 		// Construct the absolute path to the log file
-		logFilePath = filepath.Join(logsDir, setInfo.Logs)
+		logFilePath = filepath.Join(logsDir, urlSet.Logs)
 	}
 
 	// Fetch matching lines from each URL
@@ -166,8 +164,8 @@ func fetchMatchingLines(setInfo other.URLSet, urls []string) {
 				return
 			}
 		}
-		fmt.Printf("New results appended to %s\n", setInfo.Logs)
+		fmt.Printf("New results appended to %s\n", urlSet.Logs)
 	} else {
-		fmt.Printf("No new results to append to %s\n", setInfo.Logs)
+		fmt.Printf("No new results to append to %s\n", urlSet.Logs)
 	}
 }
