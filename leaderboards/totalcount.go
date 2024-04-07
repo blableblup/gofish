@@ -111,7 +111,7 @@ func processTotalcount(urls []string, setName string, urlSet other.URLSet, leade
 	}
 
 	// Titles for the leaderboards
-	titletotalcount := fmt.Sprintf("### Most fish caught in %s's chat (since gofish was added)\n", setName)
+	titletotalcount := fmt.Sprintf("### Most fish caught in %s's chat\n", setName)
 
 	// Update only the specified leaderboard if the leaderboard flag is provided
 	var err error
@@ -152,7 +152,7 @@ func writeTotalcount(filePath string, fishCaught map[string]int, titletotalcount
 	defer file.Close()
 
 	// Write the title
-	_, err = fmt.Fprintf(file, "%s\n", titletotalcount)
+	_, err = fmt.Fprintf(file, "%s", titletotalcount)
 	if err != nil {
 		return err
 	}

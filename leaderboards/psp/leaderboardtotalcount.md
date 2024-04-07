@@ -1,55 +1,59 @@
 ### Most fish caught in psp's chat (since gofish was added)
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
-| 1 🥇  | caprise627 | 824 (+13) |
-| 2 🥈  | pengeg | 744 (+9) |
-| 3 🥉  | jr_mime | 608 (+19) |
-| 4  | amu1g | 539 (+16) |
-| 5  | huuuuurz | 523 (+6) |
-| 6  | sandwichsundays | 489 (+5) |
-| 7  | wisdom_frog | 472 (+1) |
-| 8 ⬆ | zwockel01 | 357 (+14) |
-| 9 ⬇ | noconcept_ | 346 (+1) |
-| 10 ⬆ | nndiana | 342 (+14) |
-| 11 ⬇ | faslker | 339  |
-| 12 ⬇ | quinrayy | 332  |
-| 13 ⬇ | copperx9 | 331  |
-| 14  | maksmusz | 272 (+2) |
-| 15  | qxxick_ | 264  |
-| 16  | divra__ | 254 (+2) |
-| 17 ⬆ | gorillapark | 211 (+11) |
-| 18 ⬇ | euxoa | 210 (+7) |
-| 19  | jj_ladic | 200 (+1) |
-| 20 ⬆ | jems______ | 193 (+22) |
-| 21  | cale4 | 186 (+8) |
-| 22 ⬇ | wasdecxyq | 183  |
-| 23 ⬇ | flunke_ | 172 (+1) |
-| 24  | ocram1g | 163  |
-| 25  | seryxx | 158  |
-| 25  | satic____ | 158  |
-| 27  | ttecnk | 148  |
-| 28  | asthmaa | 146  |
-| 28  | pspisafemboy | 146  |
-| 28  | thasbe | 146  |
-| 31 ⬆ | quton | 145 (+2) |
-| 31  | adziooooo | 145  |
-| 33 ⬆ | angus_lpc | 144 (+14) |
-| 34 ⬆ | hahppyy | 139 (+14) |
-| 35 ⬇ | yopego | 137  |
-| 36 ⬆ | creepycode1337 | 133 (+16) |
-| 37 ⬇ | brunodestar | 129  |
-| 38 ⬇ | rttvname | 126  |
-| 39 ⬆ | crunch_sack | 122 (+4) |
-| 40 ⬇ | kubo7 | 121  |
-| 41 ⬇ | chow_peepohappy | 119  |
-| 42  | 6blmue | 116  |
-| 42 ⬆ | obscurecharmling | 116 (+1) |
-| 42  | cappo7117 | 116  |
-| 45  | kaspu222 | 110  |
-| 45  | xkimi1337 | 110  |
-| 47  | starducc | 107  |
-| 48 ⬆ | milchfunky | 103 (+1) |
-| 48  | ovrht | 103  |
-| 50 ⬇ | alvaniss1g | 102  |
+| 1 🥇  | caprise627 | 872 (+26) |
+| 2 🥈  | pengeg | 793 (+16) |
+| 3 🥉  | jr_mime | 663 (+21) |
+| 4  | amu1g | 583 (+25) |
+| 5  | huuuuurz | 568 (+20) |
+| 6  | sandwichsundays | 508 (+2) |
+| 7  | wisdom_frog | 496  |
+| 8  | zwockel01 | 385 (+21) |
+| 9 ⬆ | nndiana | 368 (+13) |
+| 10 ⬇ | noconcept_ | 360 (+1) |
+| 11  | quinrayy | 353  |
+| 12  | faslker | 352  |
+| 13  | copperx9 | 341  |
+| 14  | maksmusz | 286 (+5) |
+| 15 ⬆ | divra__ | 272 (+6) |
+| 16 ⬇ | qxxick_ | 269 (+1) |
+| 17 ⬆ | jems______ | 232 (+33) |
+| 18 ⬇ | euxoa | 230 (+10) |
+| 19 ⬇ | gorillapark | 225 (+7) |
+| 20 ⬇ | jj_ladic | 211 (+5) |
+| 21 ⬆ | cale4 | 197 (+10) |
+| 22 ⬇ | wasdecxyq | 190  |
+| 23  | flunke_ | 181 (+6) |
+| 24  | ocram1g | 165  |
+| 25  | satic____ | 162  |
+| 26  | seryxx | 161  |
+| 27 ⬆ | hahppyy | 158 (+13) |
+| 27 ⬆ | creepycode1337 | 158 (+22) |
+| 29 ⬆ | angus_lpc | 154 (+6) |
+| 30  | quton | 151 (+3) |
+| 30 ⬇ | pspisafemboy | 151  |
+| 30 ⬇ | ttecnk | 151  |
+| 33 ⬇ | thasbe | 150  |
+| 34 ⬇ | adziooooo | 149 (+1) |
+| 35 ⬇ | asthmaa | 146  |
+| 36 ⬇ | yopego | 144  |
+| 37  | brunodestar | 132  |
+| 38 ⬆ | crunch_sack | 129 (+5) |
+| 39 ⬇ | rttvname | 127  |
+| 40  | kubo7 | 122  |
+| 41 ⬆ | cappo7117 | 119 (+2) |
+| 41  | chow_peepohappy | 119  |
+| 41  | 6blmue | 119  |
+| 41 🆕 | jamison1906 | 119  |
+| 45 ⬇ | xkimi1337 | 118  |
+| 46 ⬇ | obscurecharmling | 117  |
+| 47 ⬇ | kaspu222 | 115  |
+| 48 ⬇ | starducc | 108  |
+| 49 ⬇ | ovrht | 107  |
+| 50 ⬇ | acidfd174 | 103  |
+| 50 ⬇ | milchfunky | 103  |
+| 50 ⬇ | alvaniss1g | 103  |
+| 50 🆕 | vibepill | 103  |
+| 54 ⬇ | thelantzzz | 102  |
 
 _* = The player caught their first fish on supibot and did not migrate their data to gofishgame. Because of that their data was not individually verified to be accurate._
