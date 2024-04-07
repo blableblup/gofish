@@ -23,19 +23,19 @@
 | 20 | hmsmob* | 52 |
 | 20 | kaasppeerr | 52 |
 | 22 | leanmeister | 51 |
-| 23 | bapqo | 49 (+1) |
+| 23 | bapqo | 49 |
 | 24 | paras220 | 46 |
 | 25 | ninjaross | 44 |
 | 26 | ouacewi | 42 |
-| 27 | julialuxel | 34 |
-| 28 | islcfc* | 33 |
-| 29 | jr_mime | 32 |
-| 30 | itsalot_tlike* | 30 |
-| 31 | fallen_angels_1995 | 28 |
-| 32 | dougiefresh_83 | 27 |
-| 33 | breadworms | 25 |
-| 34 🆕| cumro | 24 |
-| 34 | rocketpol* | 24 |
-| 36 ⬇| veggesh | 21 |
+| 27 ⬆| cumro | 40 (+16) |
+| 28 ⬇| julialuxel | 34 |
+| 29 ⬇| islcfc* | 33 |
+| 30 ⬇| jr_mime | 32 |
+| 31 ⬇| itsalot_tlike* | 30 |
+| 32 ⬇| fallen_angels_1995 | 28 |
+| 33 ⬇| dougiefresh_83 | 27 |
+| 34 ⬇| breadworms | 25 |
+| 35 ⬇| rocketpol* | 24 |
+| 36 | veggesh | 21 |
 
 _* = The fish were caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate._

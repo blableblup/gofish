@@ -407,7 +407,7 @@ func writeFishWeekLeaderboard(filePath string, maxFishInWeek map[string]PlayerIn
 			// Construct the string with the difference in brackets
 			fishweekDifference := fishCount - oldFishCountWeek[player]
 			fishWeekCount := fmt.Sprintf("%d", fishCount)
-			if fishweekDifference > 0 && fishweekDifference > fishCount {
+			if fishweekDifference > 0 && oldFishCountWeek[player] > 0 {
 				fishWeekCount += fmt.Sprintf(" (+%d)", fishweekDifference)
 			}
 
