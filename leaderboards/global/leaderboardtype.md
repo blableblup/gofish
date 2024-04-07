@@ -29,7 +29,7 @@
 | 26  | 🐟 | 63.75 | adziooooo | 🐱 |
 | 27  | 🗡️ | 47.98 | hahppyy | 🐱 |
 | 28  | 🐸 | 47.43 | noconcept_ | 🐱 |
-| 29  | 🦫 | 42.94 | booty_bread | 🍞 |
+| 29  | 🦫 | 43.00 (+0.06) | suavvvvv | 🍞 |
 | 30  | 🐧 | 41.60 | osnyatsky* | 🍞 |
 | 31  | 🦀 | 38.91 | bussinongnocap | 🍞 |
 | 32  | 🐡 | 35.69 | kaspu222 | 🐱 |
@@ -56,8 +56,8 @@
 | 53  | 🧊 | 10.98 | miiiiisho | 🍞 |
 | 54  | 🪹 | 10.86 | bapqo | 🍞 |
 | 55  | 🪵 | 10.85 | qu4ttromila | 🍞 |
-| 56  | 🦎 | 10.84 | bosscrazymen | 🐱 |
 | 56  | 🪺 | 10.84 | osnyatsky | 🍞 |
+| 56  | 🦎 | 10.84 | bosscrazymen | 🐱 |
 | 58  | 🩲 | 10.20 | alvaniss1g | 🐱 |
 | 59  | 💀 | 9.99 | joleksu | 🐱 |
 | 60  | 🎏 | 5.76 | fishingalt | 🍞 |
@@ -66,19 +66,19 @@
 | 63  | 🪝 | 4.99 | thedraingangceo* | 🐱 |
 | 64  | 🥫 | 4.91 | huuuuurz | 🐱 |
 | 65  | ☘️ | 3.98 | osnyatsky | 🍞 |
-| 66  | 🥪 | 2.96 | qu4ttromila | 🍞 |
 | 66  | ☂️ | 2.96 | kishma9 | 🍞 |
+| 66  | 🥪 | 2.96 | qu4ttromila | 🍞 |
 | 66  | 🌹 | 2.96 | osnyatsky | 🍞 |
 | 69  | 🍬 | 2.60 | 5c33* | 🍞 |
-| 70  | 👟 | 2.00 | kishma9 | 🍞 |
-| 70  | 🩴 | 2.00 | qu4ttromila | 🍞 |
 | 70  | 👢 | 2.00 | jr_mime | 🐱 |
 | 70  | 🩰 | 2.00 | tomsi1g | 🐱 |
+| 70  | 👟 | 2.00 | kishma9 | 🍞 |
+| 70  | 🩴 | 2.00 | qu4ttromila | 🍞 |
 | 70  | 🧦 | 2.00 | osnyatsky* | 🍞 |
 | 75  | 🌿 | 1.96 | dayzedinndaydreams | 🍞 |
 | 75  | ⛸️ | 1.96 | pookiesnowman | 🐱 |
 | 77  | 🧤 | 1.00 | kubo7 | 🐱 |
-| 78  | 🪶 | 0.99 | osnyatsky* | 🍞 |
 | 78  | 🧣 | 0.99 | osnyatsky* | 🍞 |
+| 78  | 🪶 | 0.99 | osnyatsky* | 🍞 |
 
 _* = The fish was caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate._

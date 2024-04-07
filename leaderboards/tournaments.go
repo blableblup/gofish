@@ -354,7 +354,7 @@ func writeFishWeekLeaderboard(filePath string, maxFishInWeek map[string]PlayerIn
 	defer file.Close()
 
 	// Write the title
-	_, err = fmt.Fprintf(file, "%s\n", titlefishw)
+	_, err = fmt.Fprintf(file, "%s", titlefishw)
 	if err != nil {
 		return err
 	}
