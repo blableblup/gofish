@@ -116,6 +116,13 @@ func processTournaments(setName string, urlSet other.URLSet, pointValues map[str
 		if len(playerMatch) > 0 {
 			player := playerMatch[1]
 
+			// Change to the latest name
+			newPlayer := renamedChatters[player]
+			for newPlayer != "" {
+				player = newPlayer
+				newPlayer = renamedChatters[player]
+			}
+
 			// Skip processing for ignored players
 			found := false
 			for _, c := range cheaters {
@@ -126,13 +133,6 @@ func processTournaments(setName string, urlSet other.URLSet, pointValues map[str
 			}
 			if found {
 				continue // Skip processing for ignored players
-			}
-
-			// Change to the latest name
-			newPlayer := renamedChatters[player]
-			for newPlayer != "" {
-				player = newPlayer
-				newPlayer = renamedChatters[player]
 			}
 
 			// Get the amount of fish the player caught

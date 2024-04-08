@@ -9,9 +9,8 @@ import (
 	"strings"
 )
 
-// PlayerInfo stores information about a player's rank and medals for the trophy leaderboard
+// For the trophy leaderboard
 type PlayerInfo struct {
-	Rank   int
 	Trophy int
 	Silver int
 	Bronze int
@@ -51,6 +50,14 @@ func ReadOldFishRankings(filePath string) (map[string]int, map[string]int, error
 			if strings.Contains(player, "*") {
 				player = strings.TrimRight(player, "*")
 			}
+
+			// Change to the latest name
+			newPlayer := renamedChatters[player]
+			for newPlayer != "" {
+				player = newPlayer
+				newPlayer = renamedChatters[player]
+			}
+
 			// Skip processing for ignored players
 			found := false
 			for _, c := range cheaters {
@@ -62,12 +69,7 @@ func ReadOldFishRankings(filePath string) (map[string]int, map[string]int, error
 			if found {
 				continue // Skip processing for ignored players
 			}
-			// Change to the latest name
-			newPlayer := renamedChatters[player]
-			for newPlayer != "" {
-				player = newPlayer
-				newPlayer = renamedChatters[player]
-			}
+
 			weekcountStr := strings.TrimSpace(parts[3])
 			weekcount, err := strconv.Atoi(strings.Split(weekcountStr, " ")[0])
 			oldFishCountWeek[player] = weekcount
@@ -116,6 +118,14 @@ func ReadOldTrophyRankings(filePath string) (map[string]int, map[string]PlayerIn
 			if strings.Contains(player, "*") {
 				player = strings.TrimRight(player, "*")
 			}
+
+			// Change to the latest name
+			newPlayer := renamedChatters[player]
+			for newPlayer != "" {
+				player = newPlayer
+				newPlayer = renamedChatters[player]
+			}
+
 			// Skip processing for ignored players
 			found := false
 			for _, c := range cheaters {
@@ -127,12 +137,7 @@ func ReadOldTrophyRankings(filePath string) (map[string]int, map[string]PlayerIn
 			if found {
 				continue // Skip processing for ignored players
 			}
-			// Change to the latest name
-			newPlayer := renamedChatters[player]
-			for newPlayer != "" {
-				player = newPlayer
-				newPlayer = renamedChatters[player]
-			}
+
 			oldTrophyRankings[player] = rank
 
 			trohpyStr := strings.TrimSpace(parts[3])
@@ -188,6 +193,14 @@ func ReadWeightRankings(filePath string) (map[string]interface{}, error) {
 				player = strings.TrimRight(player, "*")
 				bot = "supibot"
 			}
+
+			// Change to the latest name
+			newPlayer := renamedChatters[player]
+			for newPlayer != "" {
+				player = newPlayer
+				newPlayer = renamedChatters[player]
+			}
+
 			// Skip processing for ignored players
 			found := false
 			for _, c := range cheaters {
@@ -199,12 +212,7 @@ func ReadWeightRankings(filePath string) (map[string]interface{}, error) {
 			if found {
 				continue // Skip processing for ignored players
 			}
-			// Change to the latest name
-			newPlayer := renamedChatters[player]
-			for newPlayer != "" {
-				player = newPlayer
-				newPlayer = renamedChatters[player]
-			}
+
 			fishType := strings.TrimSpace(parts[3])
 			// Update fish type if it has an equivalent
 			if equivalent := EquivalentFishType(fishType); equivalent != "" {
@@ -280,6 +288,14 @@ func ReadTypeRankings(filePath string) (map[string]interface{}, error) {
 				player = strings.TrimRight(player, "*")
 				bot = "supibot"
 			}
+
+			// Change to the latest name
+			newPlayer := renamedChatters[player]
+			for newPlayer != "" {
+				player = newPlayer
+				newPlayer = renamedChatters[player]
+			}
+
 			// Skip processing for ignored players
 			found := false
 			for _, c := range cheaters {
@@ -291,12 +307,7 @@ func ReadTypeRankings(filePath string) (map[string]interface{}, error) {
 			if found {
 				continue // Skip processing for ignored players
 			}
-			// Change to the latest name
-			newPlayer := renamedChatters[player]
-			for newPlayer != "" {
-				player = newPlayer
-				newPlayer = renamedChatters[player]
-			}
+
 			oldWeightStr := strings.TrimSpace(parts[3])
 			re := regexp.MustCompile(`([0-9.]+)`) // Regular expression to match floating-point numbers
 			matches := re.FindStringSubmatch(oldWeightStr)
@@ -362,6 +373,14 @@ func ReadTotalcountRankings(filePath string) (map[string]interface{}, error) {
 				player = strings.TrimRight(player, "*")
 				bot = "supibot"
 			}
+
+			// Change to the latest name
+			newPlayer := renamedChatters[player]
+			for newPlayer != "" {
+				player = newPlayer
+				newPlayer = renamedChatters[player]
+			}
+
 			// Skip processing for ignored players
 			found := false
 			for _, c := range cheaters {
@@ -373,12 +392,7 @@ func ReadTotalcountRankings(filePath string) (map[string]interface{}, error) {
 			if found {
 				continue // Skip processing for ignored players
 			}
-			// Change to the latest name
-			newPlayer := renamedChatters[player]
-			for newPlayer != "" {
-				player = newPlayer
-				newPlayer = renamedChatters[player]
-			}
+
 			countStr := strings.TrimSpace(parts[3])
 			count, err := strconv.Atoi(strings.Split(countStr, " ")[0])
 
