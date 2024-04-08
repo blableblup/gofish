@@ -9,17 +9,22 @@ import (
 	"strings"
 )
 
-// For the trophy leaderboard
-type PlayerInfo struct {
+// Storing data from the old leaderboards
+type LeaderboardInfo struct {
 	Trophy int
 	Silver int
 	Bronze int
+	Rank   int
+	Count  int
+	Weight float64
+	Type   string
+	Bot    string
+	Player string
 }
 
 // Function to read and extract the old fish per week leaderboard from the leaderboard file
-func ReadOldFishRankings(filePath string) (map[string]int, map[string]int, error) {
-	oldFishRankings := make(map[string]int)
-	oldFishCountWeek := make(map[string]int)
+func ReadOldFishRankings(filePath string) (map[string]LeaderboardInfo, error) {
+	oldLeaderboardFishW := make(map[string]LeaderboardInfo)
 	renamedChatters := lists.ReadRenamedChatters()
 	cheaters := lists.ReadCheaters()
 
@@ -27,7 +32,7 @@ func ReadOldFishRankings(filePath string) (map[string]int, map[string]int, error
 	file, err := os.Open(filePath)
 	if err != nil {
 		// If the file doesn't exist, return empty rankings and counts
-		return oldFishRankings, oldFishCountWeek, nil
+		return oldLeaderboardFishW, nil
 	}
 	defer file.Close()
 
@@ -64,22 +69,24 @@ func ReadOldFishRankings(filePath string) (map[string]int, map[string]int, error
 
 			weekcountStr := strings.TrimSpace(parts[3])
 			weekcount, err := strconv.Atoi(strings.Split(weekcountStr, " ")[0])
-			oldFishCountWeek[player] = weekcount
-			oldFishRankings[player] = rank
+
+			oldLeaderboardFishW[player] = LeaderboardInfo{
+				Rank:  rank,
+				Count: weekcount,
+			}
 		}
 	}
 
 	if err := scanner.Err(); err != nil {
-		return nil, nil, err
+		return nil, err
 	}
 
-	return oldFishRankings, oldFishCountWeek, nil
+	return oldLeaderboardFishW, nil
 }
 
 // Function to read and extract the old trophies leaderboard from the leaderboard file
-func ReadOldTrophyRankings(filePath string) (map[string]int, map[string]PlayerInfo, error) {
-	oldTrophyRankings := make(map[string]int)
-	oldPlayerCounts := make(map[string]PlayerInfo)
+func ReadOldTrophyRankings(filePath string) (map[string]LeaderboardInfo, error) {
+	oldLeaderboardTrophy := make(map[string]LeaderboardInfo)
 	renamedChatters := lists.ReadRenamedChatters()
 	cheaters := lists.ReadCheaters()
 
@@ -87,7 +94,7 @@ func ReadOldTrophyRankings(filePath string) (map[string]int, map[string]PlayerIn
 	file, err := os.Open(filePath)
 	if err != nil {
 		// If the file doesn't exist, return empty rankings and counts
-		return oldTrophyRankings, oldPlayerCounts, nil
+		return oldLeaderboardTrophy, nil
 	}
 	defer file.Close()
 
@@ -122,8 +129,6 @@ func ReadOldTrophyRankings(filePath string) (map[string]int, map[string]PlayerIn
 				continue // Skip processing for ignored players
 			}
 
-			oldTrophyRankings[player] = rank
-
 			trohpyStr := strings.TrimSpace(parts[3])
 			trophies, err := strconv.Atoi(strings.Split(trohpyStr, " ")[0])
 			silverMedalsStr := strings.TrimSpace(parts[4])
@@ -131,20 +136,25 @@ func ReadOldTrophyRankings(filePath string) (map[string]int, map[string]PlayerIn
 			bronzeMedalsStr := strings.TrimSpace(parts[5])
 			bronzeMedals, err := strconv.Atoi(strings.Split(bronzeMedalsStr, " ")[0])
 
-			oldPlayerCounts[player] = PlayerInfo{Trophy: trophies, Silver: silverMedals, Bronze: bronzeMedals}
+			oldLeaderboardTrophy[player] = LeaderboardInfo{
+				Rank:   rank,
+				Trophy: trophies,
+				Silver: silverMedals,
+				Bronze: bronzeMedals,
+			}
 		}
 	}
 
 	if err := scanner.Err(); err != nil {
-		return nil, nil, err
+		return nil, err
 	}
 
-	return oldTrophyRankings, oldPlayerCounts, nil
+	return oldLeaderboardTrophy, nil
 }
 
 // Function to read and extract the old weight leaderboard from the leaderboard file
-func ReadWeightRankings(filePath string) (map[string]interface{}, error) {
-	oldLeaderboardWeight := make(map[string]interface{})
+func ReadWeightRankings(filePath string) (map[string]LeaderboardInfo, error) {
+	oldLeaderboardWeight := make(map[string]LeaderboardInfo)
 	renamedChatters := lists.ReadRenamedChatters()
 	cheaters := lists.ReadCheaters()
 
@@ -208,11 +218,11 @@ func ReadWeightRankings(filePath string) (map[string]interface{}, error) {
 				continue // Skip if unable to extract weight
 			}
 
-			oldLeaderboardWeight[player] = map[string]interface{}{
-				"rank":   rank,
-				"weight": oldweight,
-				"type":   fishType,
-				"bot":    bot,
+			oldLeaderboardWeight[player] = LeaderboardInfo{
+				Rank:   rank,
+				Weight: oldweight,
+				Type:   fishType,
+				Bot:    bot,
 			}
 		}
 	}
@@ -225,8 +235,8 @@ func ReadWeightRankings(filePath string) (map[string]interface{}, error) {
 }
 
 // Function to read and extract the old type leaderboard from the leaderboard file
-func ReadTypeRankings(filePath string) (map[string]interface{}, error) {
-	oldLeaderboardType := make(map[string]interface{})
+func ReadTypeRankings(filePath string) (map[string]LeaderboardInfo, error) {
+	oldLeaderboardType := make(map[string]LeaderboardInfo)
 	renamedChatters := lists.ReadRenamedChatters()
 	cheaters := lists.ReadCheaters()
 
@@ -290,11 +300,11 @@ func ReadTypeRankings(filePath string) (map[string]interface{}, error) {
 				continue // Skip if unable to extract weight
 			}
 
-			oldLeaderboardType[fishType] = map[string]interface{}{
-				"weight": oldweight,
-				"player": player,
-				"bot":    bot,
-				"rank":   rank,
+			oldLeaderboardType[fishType] = LeaderboardInfo{
+				Rank:   rank,
+				Weight: oldweight,
+				Player: player,
+				Bot:    bot,
 			}
 		}
 	}
@@ -307,8 +317,8 @@ func ReadTypeRankings(filePath string) (map[string]interface{}, error) {
 }
 
 // Function to read and extract the old totalcount leaderboard from the leaderboard file
-func ReadTotalcountRankings(filePath string) (map[string]interface{}, error) {
-	oldLeaderboardCount := make(map[string]interface{})
+func ReadTotalcountRankings(filePath string) (map[string]LeaderboardInfo, error) {
+	oldLeaderboardCount := make(map[string]LeaderboardInfo)
 	renamedChatters := lists.ReadRenamedChatters()
 	cheaters := lists.ReadCheaters()
 
@@ -356,10 +366,10 @@ func ReadTotalcountRankings(filePath string) (map[string]interface{}, error) {
 			countStr := strings.TrimSpace(parts[3])
 			count, err := strconv.Atoi(strings.Split(countStr, " ")[0])
 
-			oldLeaderboardCount[player] = map[string]interface{}{
-				"count": count,
-				"bot":   bot,
-				"rank":  rank,
+			oldLeaderboardCount[player] = LeaderboardInfo{
+				Rank:  rank,
+				Count: count,
+				Bot:   bot,
 			}
 		}
 	}

@@ -224,8 +224,8 @@ func processTournaments(setName string, urlSet other.URLSet, pointValues map[str
 
 // Function to write the Trophies leaderboard with emojis indicating ranking change and the change of trophies and medals in brackets
 func writeTrophiesLeaderboard(filePath string, playerCounts map[string]PlayerCounts, pointValues map[string]float64, titletrophies string) error {
-	// Call ReadOldTrophyRankings to get the old trophy rankings and player counts
-	oldTrophyRankings, oldPlayerCounts, err := other.ReadOldTrophyRankings(filePath)
+	// Call ReadOldTrophyRankings to get the trophy rankings
+	oldLeaderboardTrophy, err := other.ReadOldTrophyRankings(filePath)
 	if err != nil {
 		return err
 	}
@@ -285,13 +285,22 @@ func writeTrophiesLeaderboard(filePath string, playerCounts map[string]PlayerCou
 			occupiedRanks[rank]++ // Increment the count of occupied ranks
 		}
 
-		oldRank, found := oldTrophyRankings[player]
+		// Declare found variable in the outer scope
+		var found bool
+
+		// Getting the old rank
+		oldRank := -1 // Default value if the old rank is not found
+		if info, ok := oldLeaderboardTrophy[player]; ok {
+			found = true
+			oldRank = info.Rank
+		}
+
 		changeEmoji := other.ChangeEmoji(rank, oldRank, found)
 
 		// Compare new counts to old counts and display the difference
-		trophiesDifference := playerCounts[player].Trophy - oldPlayerCounts[player].Trophy
-		silverDifference := playerCounts[player].Silver - oldPlayerCounts[player].Silver
-		bronzeDifference := playerCounts[player].Bronze - oldPlayerCounts[player].Bronze
+		trophiesDifference := playerCounts[player].Trophy - oldLeaderboardTrophy[player].Trophy
+		silverDifference := playerCounts[player].Silver - oldLeaderboardTrophy[player].Silver
+		bronzeDifference := playerCounts[player].Bronze - oldLeaderboardTrophy[player].Bronze
 
 		// Construct the string with the difference in brackets
 		trophyCount := fmt.Sprintf("%d", playerCounts[player].Trophy)
@@ -327,7 +336,7 @@ func writeTrophiesLeaderboard(filePath string, playerCounts map[string]PlayerCou
 // Function to write the Fish Week leaderboard with emojis indicating ranking change
 func writeFishWeekLeaderboard(filePath string, maxFishInWeek map[string]PlayerInfo, fishweekLimit int, titlefishw string) error {
 	// Call ReadOldFishRankings to get the old fish rankings
-	oldFishRankings, oldFishCountWeek, err := other.ReadOldFishRankings(filePath)
+	oldLeaderboardFishW, err := other.ReadOldFishRankings(filePath)
 	if err != nil {
 		return err
 	}
@@ -393,13 +402,22 @@ func writeFishWeekLeaderboard(filePath string, maxFishInWeek map[string]PlayerIn
 				occupiedRanks[rank]++ // Increment the count of occupied ranks
 			}
 
-			oldRank, found := oldFishRankings[player]
+			// Declare found variable in the outer scope
+			var found bool
+
+			// Getting the old rank
+			oldRank := -1 // Default value if the old rank is not found
+			if info, ok := oldLeaderboardFishW[player]; ok {
+				found = true
+				oldRank = info.Rank
+			}
+
 			changeEmoji := other.ChangeEmoji(rank, oldRank, found)
 
 			// Construct the string with the difference in brackets
-			fishweekDifference := fishCount - oldFishCountWeek[player]
+			fishweekDifference := fishCount - oldLeaderboardFishW[player].Count
 			fishWeekCount := fmt.Sprintf("%d", fishCount)
-			if fishweekDifference > 0 && oldFishCountWeek[player] > 0 {
+			if fishweekDifference > 0 && oldLeaderboardFishW[player].Count > 0 {
 				fishWeekCount += fmt.Sprintf(" (+%d)", fishweekDifference)
 			}
 
