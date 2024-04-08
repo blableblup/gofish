@@ -66,6 +66,13 @@ func CatchWeightType(url string, newRecordWeight map[string]Record, newRecordTyp
 		bot := fishCatch.Bot
 		catchtype := fishCatch.CatchType
 
+		// Change to the latest name
+		newPlayer := renamedChatters[player]
+		for newPlayer != "" {
+			player = newPlayer
+			newPlayer = renamedChatters[player]
+		}
+
 		// Skip processing for ignored players
 		found := false
 		for _, c := range cheaters {
@@ -76,13 +83,6 @@ func CatchWeightType(url string, newRecordWeight map[string]Record, newRecordTyp
 		}
 		if found {
 			continue // Skip processing for ignored players
-		}
-
-		// Change to the latest name
-		newPlayer := renamedChatters[player]
-		for newPlayer != "" {
-			player = newPlayer
-			newPlayer = renamedChatters[player]
 		}
 
 		// Update fish type if it has an equivalent
@@ -237,6 +237,13 @@ func CountFishCaught(url string, fishCaught map[string]int) (map[string]int, err
 	for _, fishCatch := range fishCatches {
 		player := fishCatch.Player
 
+		// Change to the latest name
+		newPlayer := renamedChatters[player]
+		for newPlayer != "" {
+			player = newPlayer
+			newPlayer = renamedChatters[player]
+		}
+
 		// Skip processing for ignored players
 		found := false
 		for _, c := range cheaters {
@@ -247,13 +254,6 @@ func CountFishCaught(url string, fishCaught map[string]int) (map[string]int, err
 		}
 		if found {
 			continue // Skip processing for ignored players
-		}
-
-		// Change to the latest name
-		newPlayer := renamedChatters[player]
-		for newPlayer != "" {
-			player = newPlayer
-			newPlayer = renamedChatters[player]
 		}
 
 		// Increase the count of fish caught by the player
