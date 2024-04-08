@@ -57,26 +57,11 @@ func RunTypeGlobal(config other.Config, title string) {
 
 		// Combine old type records into global record, keeping only the biggest record per fish type
 		for fishType, oldRecord := range oldRecordType {
-			if record, ok := oldRecord.(map[string]interface{}); ok {
-				weight, weightOK := record["weight"].(float64)
-				player, playerOK := record["player"].(string)
-				bot, botOK := record["bot"].(string)
+			convertedRecord := other.ConvertToRecord(oldRecord)
 
-				if weightOK && playerOK && botOK {
-					existingRecord, exists := globalRecordType[fishType]
-					if !exists || weight > existingRecord.Weight {
-						globalRecordType[fishType] = other.Record{
-							Weight: weight,
-							Player: player,
-							Bot:    bot,
-							Chat:   urlSet.Emoji,
-						}
-					}
-				} else {
-					fmt.Println("Error: Incomplete record for fish type", fishType)
-				}
-			} else {
-				fmt.Println("Error: Could not convert old type record to map[string]interface{} type")
+			existingRecord, exists := globalRecordType[fishType]
+			if !exists || convertedRecord.Weight > existingRecord.Weight {
+				globalRecordType[fishType] = convertedRecord
 			}
 		}
 	}
@@ -107,26 +92,13 @@ func RunWeightGlobal(config other.Config, title string) {
 
 		// Combine old weight records into global record, keeping only the biggest record per player
 		for player, oldRecord := range oldRecordWeight {
-			if record, ok := oldRecord.(map[string]interface{}); ok {
-				weight, weightOK := record["weight"].(float64)
-				fishType, fishTypeOK := record["type"].(string)
-				bot, botOK := record["bot"].(string)
+			convertedRecord := other.ConvertToRecord(oldRecord)
 
-				if weightOK && fishTypeOK && botOK && weight > WeightLimit {
-					existingRecord, exists := globalRecordWeight[player]
-					if !exists || weight > existingRecord.Weight {
-						globalRecordWeight[player] = other.Record{
-							Weight: weight,
-							Type:   fishType,
-							Bot:    bot,
-							Chat:   urlSet.Emoji,
-						}
-					}
-				} else if !weightOK || !fishTypeOK || !botOK {
-					fmt.Println("Error: Incomplete record for player", player)
+			if convertedRecord.Weight > WeightLimit {
+				existingRecord, exists := globalRecordWeight[player]
+				if !exists || convertedRecord.Weight > existingRecord.Weight {
+					globalRecordWeight[player] = convertedRecord
 				}
-			} else {
-				fmt.Println("Error: Could not convert old weight record to map[string]interface{} type")
 			}
 		}
 	}

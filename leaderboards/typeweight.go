@@ -128,28 +128,15 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 	recordType := make(map[string]other.Record)
 
 	// Compare old weight records with new ones and update if necessary
-	for player, oldWeightRecordInterface := range oldRecordWeight {
-		oldWeightRecord, ok := oldWeightRecordInterface.(map[string]interface{})
-		if !ok {
-			fmt.Println("Error: Could not convert old weight record to map[string]interface{} type")
-			continue
-		}
-
+	for player, oldWeightRecord := range oldRecordWeight {
+		oldWeightRecordConverted := other.ConvertToRecord(oldWeightRecord)
 		newWeightRecord, exists := newRecordWeight[player]
 		if !exists {
 			// If the player doesn't have a new record, add their old record to recordWeight
-			recordWeight[player] = other.Record{
-				Weight: oldWeightRecord["weight"].(float64),
-				Type:   oldWeightRecord["type"].(string),
-				Bot:    oldWeightRecord["bot"].(string),
-			}
-		} else if newWeightRecord.Weight > oldWeightRecord["weight"].(float64) {
+			recordWeight[player] = oldWeightRecordConverted
+		} else if newWeightRecord.Weight > oldWeightRecordConverted.Weight {
 			// If new record exists and its weight is greater than the old one, update the record
-			recordWeight[player] = other.Record{
-				Weight: newWeightRecord.Weight,
-				Type:   newWeightRecord.Type,
-				Bot:    newWeightRecord.Bot,
-			}
+			recordWeight[player] = newWeightRecord
 			fmt.Println("Updated Record Weight for Player", player+":", newWeightRecord)
 			if mode != "c" {
 				record := "updated"
@@ -158,22 +145,15 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 			}
 		} else {
 			// If the new weight is not greater, keep the old record
-			recordWeight[player] = other.Record{
-				Weight: oldWeightRecord["weight"].(float64),
-				Type:   oldWeightRecord["type"].(string),
-				Bot:    oldWeightRecord["bot"].(string),
-			}
+			recordWeight[player] = oldWeightRecordConverted
 		}
 	}
+
 	// Add players who have a new record but not an old record directly to recordWeight
 	for player, newWeightRecord := range newRecordWeight {
 		_, exists := oldRecordWeight[player]
 		if !exists {
-			recordWeight[player] = other.Record{
-				Weight: newWeightRecord.Weight,
-				Type:   newWeightRecord.Type,
-				Bot:    newWeightRecord.Bot,
-			}
+			recordWeight[player] = newWeightRecord
 			fmt.Println("New Record Weight for Player", player+":", newWeightRecord)
 			if mode != "c" {
 				record := "new"
@@ -184,28 +164,15 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 	}
 
 	// Compare old type records with new ones and update if necessary
-	for fishType, oldTypeRecordInterface := range oldRecordType {
-		oldTypeRecord, ok := oldTypeRecordInterface.(map[string]interface{})
-		if !ok {
-			fmt.Println("Error: Could not convert old type record to map[string]interface{} type")
-			continue
-		}
-
+	for fishType, oldTypeRecord := range oldRecordType {
+		oldTypeRecordConverted := other.ConvertToRecord(oldTypeRecord)
 		newTypeRecord, exists := newRecordType[fishType]
 		if !exists {
 			// If the fish type doesn't have a new record, add their old record to recordType
-			recordType[fishType] = other.Record{
-				Weight: oldTypeRecord["weight"].(float64),
-				Player: oldTypeRecord["player"].(string),
-				Bot:    fmt.Sprintf("%v", oldTypeRecord["bot"]),
-			}
-		} else if newTypeRecord.Weight > oldTypeRecord["weight"].(float64) {
+			recordType[fishType] = oldTypeRecordConverted
+		} else if newTypeRecord.Weight > oldTypeRecordConverted.Weight {
 			// If new record exists and its weight is greater than the old one, update the record
-			recordType[fishType] = other.Record{
-				Weight: newTypeRecord.Weight,
-				Player: newTypeRecord.Player,
-				Bot:    newTypeRecord.Bot,
-			}
+			recordType[fishType] = newTypeRecord
 			fmt.Println("Updated Record Type for Fish Type", fishType+":", newTypeRecord)
 			if mode != "c" {
 				record := "updated"
@@ -214,11 +181,7 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 			}
 		} else {
 			// If the new weight is not greater, keep the old record
-			recordType[fishType] = other.Record{
-				Weight: oldTypeRecord["weight"].(float64),
-				Player: oldTypeRecord["player"].(string),
-				Bot:    fmt.Sprintf("%v", oldTypeRecord["bot"]),
-			}
+			recordType[fishType] = oldTypeRecordConverted
 		}
 	}
 
@@ -226,11 +189,7 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 	for fishType, newTypeRecord := range newRecordType {
 		_, exists := oldRecordType[fishType]
 		if !exists {
-			recordType[fishType] = other.Record{
-				Weight: newTypeRecord.Weight,
-				Player: newTypeRecord.Player,
-				Bot:    newTypeRecord.Bot,
-			}
+			recordType[fishType] = newTypeRecord
 			fmt.Println("New Record Type for Fish Type", fishType+":", newTypeRecord)
 			if mode != "c" {
 				record := "new"
@@ -374,26 +333,18 @@ func writeWeightLeaderboard(filePath string, recordWeight map[string]other.Recor
 
 		// Getting the old rank
 		oldRank := -1 // Default value if the old rank is not found
-		if oldPlayerData, ok := oldLeaderboardWeight[player]; ok {
+		if info, ok := oldLeaderboardWeight[player]; ok {
 			found = true
-			if oldPlayerDataMap, ok := oldPlayerData.(map[string]interface{}); ok {
-				if oldRankValue, rankFound := oldPlayerDataMap["rank"]; rankFound {
-					oldRank, _ = oldRankValue.(int) // Assuming rank is stored as an int
-				}
-			}
+			oldRank = info.Rank
 		}
 
 		changeEmoji := other.ChangeEmoji(rank, oldRank, found)
 
 		// Getting the old weight
 		oldWeight := weight // Default value if the old weight is not found
-		if oldPlayerData, ok := oldLeaderboardWeight[player]; ok {
+		if info, ok := oldLeaderboardWeight[player]; ok {
 			found = true
-			if oldPlayerDataMap, ok := oldPlayerData.(map[string]interface{}); ok {
-				if oldWeightValue, weightFound := oldPlayerDataMap["weight"]; weightFound {
-					oldWeight, _ = oldWeightValue.(float64)
-				}
-			}
+			oldWeight = info.Weight
 		}
 
 		// Define fishweight outside the if clause
@@ -525,26 +476,18 @@ func writeTypeLeaderboard(filePath string, recordType map[string]other.Record, t
 
 		// Getting the old rank
 		oldRank := -1 // Default value if the old rank is not found
-		if oldTypeData, ok := oldLeaderboardType[fishType]; ok {
+		if info, ok := oldLeaderboardType[fishType]; ok {
 			found = true
-			if oldTypeDataMap, ok := oldTypeData.(map[string]interface{}); ok {
-				if oldRankValue, rankFound := oldTypeDataMap["rank"]; rankFound {
-					oldRank, _ = oldRankValue.(int) // Assuming rank is stored as an int
-				}
-			}
+			oldRank = info.Rank
 		}
 
 		changeEmoji := other.ChangeEmoji(rank, oldRank, found)
 
 		// Getting the old weight
 		oldWeight := weight // Default value if the old weight is not found
-		if oldTypeData, ok := oldLeaderboardType[fishType]; ok {
+		if info, ok := oldLeaderboardType[fishType]; ok {
 			found = true
-			if oldTypeDataMap, ok := oldTypeData.(map[string]interface{}); ok {
-				if oldWeightValue, weightFound := oldTypeDataMap["weight"]; weightFound {
-					oldWeight, _ = oldWeightValue.(float64)
-				}
-			}
+			oldWeight = info.Weight
 		}
 
 		// Define fishweight outside the if clause

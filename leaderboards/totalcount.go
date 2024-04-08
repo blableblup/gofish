@@ -201,28 +201,18 @@ func writeTotalcount(filePath string, fishCaught map[string]int, titletotalcount
 
 		// Getting the old rank
 		oldRank := -1 // Default value if the old rank is not found
-		if oldPlayerData, ok := oldLeaderboardCount[player]; ok {
+		if info, ok := oldLeaderboardCount[player]; ok {
 			found = true
-			if oldPlayerDataMap, ok := oldPlayerData.(map[string]interface{}); ok {
-				if oldRankValue, rankFound := oldPlayerDataMap["rank"]; rankFound {
-					oldRank, _ = oldRankValue.(int) // Assuming rank is stored as an int
-				}
-			}
+			oldRank = info.Rank
 		}
 
 		changeEmoji := other.ChangeEmoji(rank, oldRank, found)
 
 		// Getting the old count
-		oldCount := count // Default value if the old count is not found
-		if oldPlayerData, ok := oldLeaderboardCount[player]; ok {
+		oldCount := count // Default value if the old weight is not found
+		if info, ok := oldLeaderboardCount[player]; ok {
 			found = true
-			if oldPlayerDataMap, ok := oldPlayerData.(map[string]interface{}); ok {
-				if oldCountValue, countFound := oldPlayerDataMap["count"]; countFound {
-					if count, ok := oldCountValue.(int); ok {
-						oldCount = count
-					}
-				}
-			}
+			oldCount = info.Count
 		}
 
 		// Define counts outside the if clause
@@ -239,12 +229,9 @@ func writeTotalcount(filePath string, fishCaught map[string]int, titletotalcount
 
 		// Getting the old bot value
 		oldBot := ""
-		if oldPlayerData, ok := oldLeaderboardCount[player].(map[string]interface{}); ok {
-			if botValue, botFound := oldPlayerData["bot"]; botFound {
-				if botString, ok := botValue.(string); ok {
-					oldBot = botString
-				}
-			}
+		if info, ok := oldLeaderboardCount[player]; ok {
+			found = true
+			oldBot = info.Bot
 		}
 
 		botIndicator := ""
