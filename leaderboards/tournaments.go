@@ -123,15 +123,7 @@ func processTournaments(setName string, urlSet other.URLSet, pointValues map[str
 				newPlayer = renamedChatters[player]
 			}
 
-			// Skip processing for ignored players
-			found := false
-			for _, c := range cheaters {
-				if c == player {
-					found = true
-					break
-				}
-			}
-			if found {
+			if other.Contains(cheaters, player) {
 				continue // Skip processing for ignored players
 			}
 

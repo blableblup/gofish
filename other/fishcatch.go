@@ -73,15 +73,7 @@ func CatchWeightType(url string, newRecordWeight map[string]Record, newRecordTyp
 			newPlayer = renamedChatters[player]
 		}
 
-		// Skip processing for ignored players
-		found := false
-		for _, c := range cheaters {
-			if c == player {
-				found = true
-				break
-			}
-		}
-		if found {
+		if Contains(cheaters, player) {
 			continue // Skip processing for ignored players
 		}
 
@@ -244,15 +236,7 @@ func CountFishCaught(url string, fishCaught map[string]int) (map[string]int, err
 			newPlayer = renamedChatters[player]
 		}
 
-		// Skip processing for ignored players
-		found := false
-		for _, c := range cheaters {
-			if c == player {
-				found = true
-				break
-			}
-		}
-		if found {
+		if Contains(cheaters, player) {
 			continue // Skip processing for ignored players
 		}
 

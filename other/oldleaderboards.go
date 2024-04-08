@@ -58,15 +58,7 @@ func ReadOldFishRankings(filePath string) (map[string]int, map[string]int, error
 				newPlayer = renamedChatters[player]
 			}
 
-			// Skip processing for ignored players
-			found := false
-			for _, c := range cheaters {
-				if c == player {
-					found = true
-					break
-				}
-			}
-			if found {
+			if Contains(cheaters, player) {
 				continue // Skip processing for ignored players
 			}
 
@@ -126,15 +118,7 @@ func ReadOldTrophyRankings(filePath string) (map[string]int, map[string]PlayerIn
 				newPlayer = renamedChatters[player]
 			}
 
-			// Skip processing for ignored players
-			found := false
-			for _, c := range cheaters {
-				if c == player {
-					found = true
-					break
-				}
-			}
-			if found {
+			if Contains(cheaters, player) {
 				continue // Skip processing for ignored players
 			}
 
@@ -201,15 +185,7 @@ func ReadWeightRankings(filePath string) (map[string]interface{}, error) {
 				newPlayer = renamedChatters[player]
 			}
 
-			// Skip processing for ignored players
-			found := false
-			for _, c := range cheaters {
-				if c == player {
-					found = true
-					break
-				}
-			}
-			if found {
+			if Contains(cheaters, player) {
 				continue // Skip processing for ignored players
 			}
 
@@ -296,15 +272,7 @@ func ReadTypeRankings(filePath string) (map[string]interface{}, error) {
 				newPlayer = renamedChatters[player]
 			}
 
-			// Skip processing for ignored players
-			found := false
-			for _, c := range cheaters {
-				if c == player {
-					found = true
-					break
-				}
-			}
-			if found {
+			if Contains(cheaters, player) {
 				continue // Skip processing for ignored players
 			}
 
@@ -381,15 +349,7 @@ func ReadTotalcountRankings(filePath string) (map[string]interface{}, error) {
 				newPlayer = renamedChatters[player]
 			}
 
-			// Skip processing for ignored players
-			found := false
-			for _, c := range cheaters {
-				if c == player {
-					found = true
-					break
-				}
-			}
-			if found {
+			if Contains(cheaters, player) {
 				continue // Skip processing for ignored players
 			}
 
