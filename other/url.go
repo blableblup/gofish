@@ -51,10 +51,20 @@ func CreateURL(setName string, numMonths int, monthYear string) []string {
 	// Loop through the specified number of months
 	for i := 0; i < numMonths; i++ {
 		// Calculate the date for the first day of the current month
-		firstOfMonth := now.AddDate(0, -i, -now.Day()+1)
+		firstOfMonth := now.AddDate(0, -i, -now.Day()+1).UTC().Truncate(24 * time.Hour)
 
 		// Extract the year and month from the first day of the month
 		year, month, _ := firstOfMonth.Date()
+
+		// Check if gofish was added to the channel first
+		if logsAdded, err := time.Parse("2006/1", config.URLSets[setName].LogsAdded); err == nil {
+			if firstOfMonth.Before(logsAdded) {
+				fmt.Printf("Breaking at %d/%d because gofish was not added yet\n", year, month)
+				break
+			}
+		} else {
+			fmt.Println("Error parsing LogsAdded:", err)
+		}
 
 		// Check if the current month is within September 2023
 		if year == 2023 && month == time.September && config.URLSets[setName].LogsHostOld != "" {
