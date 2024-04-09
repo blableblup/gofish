@@ -19,6 +19,7 @@ type URLSet struct {
 	TotalcountOld   string  `json:"totalcountold"`
 	LogsHost        string  `json:"logs_host"`
 	LogsHostOld     string  `json:"logs_host_old"`
+	LogsAdded       string  `json:"logs_added"`
 	Emoji           string  `json:"emoji"`
 	CheckEnabled    bool    `json:"check_enabled"`
 }
