@@ -25,6 +25,7 @@ var mouthPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2}
 var releasePattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+\s?(\w+): [@👥]\s?(\w+), Bye bye (.*?)[!] 🫳🌊 ...Huh[?] ✨ Something is (glimmering|sparkling) in the ocean... [🥍] (.*?) Got`)
 var jumpedPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), Huh[?][!] ✨ Something jumped out of the water to snatch your rare candy! ...Got it! 🥍 (.*?) ([\d.]+) lbs`)
 var normalPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), You caught a [✨🫧] (.*?) [✨🫧]! It weighs ([\d.]+) lbs`)
+var birdPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): @\s?(\w+), Huh[?][!] 🪺 is hatching!... It's a 🪽 (.*?) 🪽! It weighs ([\d.]+) lbs`)
 
 func CatchWeightType(url string, newRecordWeight map[string]Record, newRecordType map[string]Record, Weightlimit float64) (map[string]Record, map[string]Record, error) {
 
@@ -51,6 +52,7 @@ func CatchWeightType(url string, newRecordWeight map[string]Record, newRecordTyp
 		releasePattern,
 		normalPattern,
 		jumpedPattern,
+		birdPattern,
 	}
 
 	// Extract information about fish catches from the text content using multiple patterns
@@ -112,6 +114,8 @@ func extractInfoFromPatterns(textContent string, patterns []*regexp.Regexp) []Re
 			case mouthPattern:
 				extractFunc = extractInfoFromMouthPattern
 			case jumpedPattern:
+				extractFunc = extractInfoFromNormalPattern
+			case birdPattern:
 				extractFunc = extractInfoFromNormalPattern
 			}
 
@@ -220,6 +224,7 @@ func CountFishCaught(url string, fishCaught map[string]int) (map[string]int, err
 		releasePattern,
 		normalPattern,
 		jumpedPattern,
+		birdPattern,
 	}
 
 	// Extract information about fish catches from the text content using multiple patterns
