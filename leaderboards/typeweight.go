@@ -34,13 +34,9 @@ func RunTypeWeight(chatNames, leaderboard string, numMonths int, monthYear strin
 				continue // Skip processing if check_enabled is false
 			}
 
-			Weightlimit := chat.Weightlimit
-			if Weightlimit == 0 {
-				Weightlimit = 200 // Set the default weight limit if not specified
-			}
 			fmt.Printf("Checking chat '%s'.\n", chatName)
 			urls := other.CreateURL(chatName, numMonths, monthYear)
-			processTypeWeight(urls, chatName, chat, leaderboard, Weightlimit, mode)
+			processTypeWeight(urls, chatName, chat, leaderboard, mode)
 		}
 	case "":
 		fmt.Println("Please specify chat names.")
@@ -57,18 +53,15 @@ func RunTypeWeight(chatNames, leaderboard string, numMonths int, monthYear strin
 				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
 				continue // Skip processing if check_enabled is false
 			}
-			Weightlimit := chat.Weightlimit
-			if Weightlimit == 0 {
-				Weightlimit = 200 // Set the default weight limit if not specified
-			}
+
 			fmt.Printf("Checking chat '%s'.\n", chatName)
 			urls := other.CreateURL(chatName, numMonths, monthYear)
-			processTypeWeight(urls, chatName, chat, leaderboard, Weightlimit, mode)
+			processTypeWeight(urls, chatName, chat, leaderboard, mode)
 		}
 	}
 }
 
-func processTypeWeight(urls []string, chatName string, chat other.ChatInfo, leaderboard string, Weightlimit float64, mode string) {
+func processTypeWeight(urls []string, chatName string, chat other.ChatInfo, leaderboard string, mode string) {
 
 	oldRecordWeight, err := other.ReadWeightRankings(chat.Weight)
 	if err != nil {
@@ -91,6 +84,11 @@ func processTypeWeight(urls []string, chatName string, chat other.ChatInfo, lead
 		Weight map[string]other.Record
 		Type   map[string]other.Record
 		Err    error
+	}
+
+	Weightlimit := chat.Weightlimit
+	if Weightlimit == 0 {
+		Weightlimit = 200 // Set the default weight limit if not specified
 	}
 
 	// Concurrently fetch data from URLs using CatchNormal function

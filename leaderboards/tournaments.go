@@ -49,12 +49,9 @@ func RunTournaments(chatNames, leaderboard string) {
 				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
 				continue // Skip processing if check_enabled is false
 			}
-			fishweekLimit := chat.Fishweeklimit
-			if fishweekLimit == 0 {
-				fishweekLimit = 20 // Set the default fishweek limit if not specified
-			}
+
 			fmt.Printf("Checking chat '%s'.\n", chatName)
-			processTournaments(chatName, chat, pointValues, leaderboard, fishweekLimit)
+			processTournaments(chatName, chat, pointValues, leaderboard)
 		}
 	case "":
 		fmt.Println("Please specify chat names.")
@@ -71,17 +68,14 @@ func RunTournaments(chatNames, leaderboard string) {
 				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
 				continue // Skip processing if check_enabled is false
 			}
-			fishweekLimit := chat.Fishweeklimit
-			if fishweekLimit == 0 {
-				fishweekLimit = 20 // Set the default fishweek limit if not specified
-			}
+
 			fmt.Printf("Checking chat '%s'.\n", chatName)
-			processTournaments(chatName, chat, pointValues, leaderboard, fishweekLimit)
+			processTournaments(chatName, chat, pointValues, leaderboard)
 		}
 	}
 }
 
-func processTournaments(chatName string, chat other.ChatInfo, pointValues map[string]float64, leaderboard string, fishweekLimit int) {
+func processTournaments(chatName string, chat other.ChatInfo, pointValues map[string]float64, leaderboard string) {
 
 	// Import the lists from lists
 	cheaters := lists.ReadCheaters()
@@ -100,6 +94,11 @@ func processTournaments(chatName string, chat other.ChatInfo, pointValues map[st
 		panic(err)
 	}
 	defer logs.Close()
+
+	fishweekLimit := chat.Fishweeklimit
+	if fishweekLimit == 0 {
+		fishweekLimit = 20 // Set the default fishweek limit if not specified
+	}
 
 	// Define a map to store the maximum fish caught in a week for each player and the bot name
 	maxFishInWeek := make(map[string]PlayerInfo)
@@ -136,7 +135,7 @@ func processTournaments(chatName string, chat other.ChatInfo, pointValues map[st
 					bot := botMatch[1]
 
 					// Update the record if the current fish count is greater
-					if fishCount > maxFishInWeek[player].FishCount {
+					if fishCount > maxFishInWeek[player].FishCount && fishCount >= fishweekLimit {
 						maxFishInWeek[player] = PlayerInfo{FishCount: fishCount, Bot: bot}
 					}
 				}
@@ -196,7 +195,7 @@ func processTournaments(chatName string, chat other.ChatInfo, pointValues map[st
 	case "fishw":
 		// Write the leaderboard for the most fish caught in a single week in tournaments to the file specified in the config
 		fmt.Printf("Updating fishweek leaderboard for chat '%s' with fish count threshold %d...\n", chatName, fishweekLimit)
-		err = writeFishWeekLeaderboard(chat.Fishweek, maxFishInWeek, fishweekLimit, titlefishw)
+		err = writeFishWeekLeaderboard(chat.Fishweek, maxFishInWeek, titlefishw)
 		if err != nil {
 			fmt.Println("Error writing fishweek leaderboard:", err)
 		} else {
@@ -213,7 +212,7 @@ func processTournaments(chatName string, chat other.ChatInfo, pointValues map[st
 		}
 
 		fmt.Printf("Updating fishweek leaderboard for chat '%s' with fish count threshold %d...\n", chatName, fishweekLimit)
-		err = writeFishWeekLeaderboard(chat.Fishweek, maxFishInWeek, fishweekLimit, titlefishw)
+		err = writeFishWeekLeaderboard(chat.Fishweek, maxFishInWeek, titlefishw)
 		if err != nil {
 			fmt.Println("Error writing fishweek leaderboard:", err)
 		} else {
@@ -334,7 +333,7 @@ func writeTrophiesLeaderboard(filePath string, playerCounts map[string]PlayerCou
 }
 
 // Function to write the Fish Week leaderboard with emojis indicating ranking change
-func writeFishWeekLeaderboard(filePath string, maxFishInWeek map[string]PlayerInfo, fishweekLimit int, titlefishw string) error {
+func writeFishWeekLeaderboard(filePath string, maxFishInWeek map[string]PlayerInfo, titlefishw string) error {
 	// Call ReadOldFishRankings to get the old fish rankings
 	oldLeaderboardFishW, err := other.ReadOldFishRankings(filePath)
 	if err != nil {
@@ -388,55 +387,52 @@ func writeFishWeekLeaderboard(filePath string, maxFishInWeek map[string]PlayerIn
 	for _, player := range sortedPlayers {
 		fishCount := totalFishCaught[player]
 
-		// Check if fish count is greater than or equal to 20
-		if fishCount >= fishweekLimit {
-
-			// Increment rank only if the count has changed
-			if fishCount != prevFishCount {
-				rank += occupiedRanks[rank] // Increment rank by the number of occupied ranks
-				// Reset the count of occupied ranks when count changes
-				occupiedRanks[rank] = 1
-			} else {
-				// Set the rank to the previous rank if the count hasn't changed
-				rank = prevRank
-				occupiedRanks[rank]++ // Increment the count of occupied ranks
-			}
-
-			// Declare found variable in the outer scope
-			var found bool
-
-			// Getting the old rank
-			oldRank := -1 // Default value if the old rank is not found
-			if info, ok := oldLeaderboardFishW[player]; ok {
-				found = true
-				oldRank = info.Rank
-			}
-
-			changeEmoji := other.ChangeEmoji(rank, oldRank, found)
-
-			// Construct the string with the difference in brackets
-			fishweekDifference := fishCount - oldLeaderboardFishW[player].Count
-			fishWeekCount := fmt.Sprintf("%d", fishCount)
-			if fishweekDifference > 0 && oldLeaderboardFishW[player].Count > 0 {
-				fishWeekCount += fmt.Sprintf(" (+%d)", fishweekDifference)
-			}
-
-			// Write the leaderboard row with change indication
-			botIndicator := ""
-			if maxFishInWeek[player].Bot == "supibot" && !other.Contains(verifiedPlayers, player) {
-				botIndicator = "*"
-			}
-
-			ranks := other.Ranks(rank)
-
-			_, err = fmt.Fprintf(file, "| %s %s| %s%s | %s |\n", ranks, changeEmoji, player, botIndicator, fishWeekCount)
-			if err != nil {
-				return err
-			}
-
-			prevFishCount = fishCount // Update previous fish count
-			prevRank = rank           // Update previous rank
+		// Increment rank only if the count has changed
+		if fishCount != prevFishCount {
+			rank += occupiedRanks[rank] // Increment rank by the number of occupied ranks
+			// Reset the count of occupied ranks when count changes
+			occupiedRanks[rank] = 1
+		} else {
+			// Set the rank to the previous rank if the count hasn't changed
+			rank = prevRank
+			occupiedRanks[rank]++ // Increment the count of occupied ranks
 		}
+
+		// Declare found variable in the outer scope
+		var found bool
+
+		// Getting the old rank
+		oldRank := -1 // Default value if the old rank is not found
+		if info, ok := oldLeaderboardFishW[player]; ok {
+			found = true
+			oldRank = info.Rank
+		}
+
+		changeEmoji := other.ChangeEmoji(rank, oldRank, found)
+
+		// Construct the string with the difference in brackets
+		fishweekDifference := fishCount - oldLeaderboardFishW[player].Count
+		fishWeekCount := fmt.Sprintf("%d", fishCount)
+		if fishweekDifference > 0 && oldLeaderboardFishW[player].Count > 0 {
+			fishWeekCount += fmt.Sprintf(" (+%d)", fishweekDifference)
+		}
+
+		// Write the leaderboard row with change indication
+		botIndicator := ""
+		if maxFishInWeek[player].Bot == "supibot" && !other.Contains(verifiedPlayers, player) {
+			botIndicator = "*"
+		}
+
+		ranks := other.Ranks(rank)
+
+		_, err = fmt.Fprintf(file, "| %s %s| %s%s | %s |\n", ranks, changeEmoji, player, botIndicator, fishWeekCount)
+		if err != nil {
+			return err
+		}
+
+		prevFishCount = fishCount // Update previous fish count
+		prevRank = rank           // Update previous rank
+
 	}
 
 	// Write the note

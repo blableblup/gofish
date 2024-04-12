@@ -33,13 +33,9 @@ func RunTotalcount(chatNames, leaderboard string, numMonths int, monthYear strin
 				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
 				continue // Skip processing if check_enabled is false
 			}
-			Totalcountlimit := chat.Totalcountlimit
-			if Totalcountlimit == 0 {
-				Totalcountlimit = 100 // Set the default count limit if not specified
-			}
 			fmt.Printf("Checking chat '%s'.\n", chatName)
 			urls := other.CreateURL(chatName, numMonths, monthYear)
-			processTotalcount(urls, chatName, chat, leaderboard, Totalcountlimit)
+			processTotalcount(urls, chatName, chat, leaderboard)
 		}
 	case "":
 		fmt.Println("Please specify chat names.")
@@ -56,18 +52,14 @@ func RunTotalcount(chatNames, leaderboard string, numMonths int, monthYear strin
 				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
 				continue // Skip processing if check_enabled is false
 			}
-			Totalcountlimit := chat.Totalcountlimit
-			if Totalcountlimit == 0 {
-				Totalcountlimit = 100 // Set the default count limit if not specified
-			}
 			fmt.Printf("Checking chat '%s'.\n", chatName)
 			urls := other.CreateURL(chatName, numMonths, monthYear)
-			processTotalcount(urls, chatName, chat, leaderboard, Totalcountlimit)
+			processTotalcount(urls, chatName, chat, leaderboard)
 		}
 	}
 }
 
-func processTotalcount(urls []string, chatName string, chat other.ChatInfo, leaderboard string, Totalcountlimit int) {
+func processTotalcount(urls []string, chatName string, chat other.ChatInfo, leaderboard string) {
 
 	// Define maps to hold the results
 	fishCaught := make(map[string]int)
@@ -102,6 +94,11 @@ func processTotalcount(urls []string, chatName string, chat other.ChatInfo, lead
 
 	// Wait for all goroutines to finish
 	wg.Wait()
+
+	Totalcountlimit := chat.Totalcountlimit
+	if Totalcountlimit == 0 {
+		Totalcountlimit = 100 // Set the default count limit if not specified
+	}
 
 	// Filter out players with counts less than or equal to Totalcountlimit
 	for player, count := range fishCaught {
