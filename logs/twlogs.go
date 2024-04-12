@@ -43,9 +43,9 @@ func concatRecord(record []string) string {
 }
 
 // Function to write weight log
-func WriteWeightLog(setName string, record string, newWeightRecord map[string]other.Record) {
+func WriteWeightLog(chatName string, record string, newWeightRecord map[string]other.Record) {
 	// Construct the absolute path to the weight log file
-	logFilePath := filepath.Join("logs", setName, "weightlogs.csv")
+	logFilePath := filepath.Join("logs", chatName, "weightlogs.csv")
 
 	// Ensure directory exists
 	if err := os.MkdirAll(filepath.Dir(logFilePath), 0755); err != nil {
@@ -89,15 +89,15 @@ func WriteWeightLog(setName string, record string, newWeightRecord map[string]ot
 		}
 		// Write the new record to log
 		if err := writer.Write([]string{player, fmt.Sprintf("%.2f", newWeightRecord.Weight), newWeightRecord.Type, newWeightRecord.CatchType, newWeightRecord.Bot, newWeightRecord.Date, record}); err != nil {
-			fmt.Fprintf(os.Stderr, "Error writing to weightlog of %s:\n%s\n", setName, err)
+			fmt.Fprintf(os.Stderr, "Error writing to weightlog of %s:\n%s\n", chatName, err)
 		}
 	}
 }
 
 // Function to write type log
-func WriteTypeLog(setName string, record string, newTypeRecord map[string]other.Record) {
+func WriteTypeLog(chatName string, record string, newTypeRecord map[string]other.Record) {
 	// Construct the absolute path to the type log file
-	logFilePath := filepath.Join("logs", setName, "typelogs.csv")
+	logFilePath := filepath.Join("logs", chatName, "typelogs.csv")
 
 	// Ensure directory exists
 	if err := os.MkdirAll(filepath.Dir(logFilePath), 0755); err != nil {
@@ -141,7 +141,7 @@ func WriteTypeLog(setName string, record string, newTypeRecord map[string]other.
 		}
 		// Write the new record to log
 		if err := writer.Write([]string{fishType, fmt.Sprintf("%.2f", newTypeRecord.Weight), newTypeRecord.Player, newTypeRecord.CatchType, newTypeRecord.Bot, newTypeRecord.Date, record}); err != nil {
-			fmt.Fprintf(os.Stderr, "Error writing to typelog of %s:\n%s\n", setName, err)
+			fmt.Fprintf(os.Stderr, "Error writing to typelog of %s:\n%s\n", chatName, err)
 		}
 	}
 }

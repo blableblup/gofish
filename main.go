@@ -13,7 +13,7 @@ import (
 func main() {
 	// Define command line flags
 	program := flag.String("p", "", "Program name: trnm, wght, logs, count, global")
-	setNames := flag.String("s", "", "Comma-separated list of set names")
+	chatNames := flag.String("s", "", "Comma-separated list of chat names")
 	leaderboard := flag.String("l", "", "Leaderboard name")
 	mode := flag.String("mm", "", "Modes are different for each program")
 	numMonths := flag.Int("m", 1, "Number of past months")
@@ -24,7 +24,7 @@ func main() {
 
 	// Validate program name
 	if *program == "" {
-		fmt.Println("Usage: go run main.go -p <program> [-s <set names>] [-l <leaderboard>] [-m <months>] [-d <date>] [-m <mode>]")
+		fmt.Println("Usage: go run main.go -p <program> [-s <chat names>] [-l <leaderboard>] [-m <months>] [-d <date>] [-m <mode>]")
 		// If no leaderboard is specified it updates all available leaderboards of the program (for the global program a leaderboard has to be specified)
 		// If no month or time period is specified it checks the current month
 		return
@@ -50,7 +50,7 @@ func main() {
 
 	case "trnm":
 		fmt.Println("Running tournaments program...")
-		leaderboards.RunTournaments(*setNames, *leaderboard)
+		leaderboards.RunTournaments(*chatNames, *leaderboard)
 
 	case "wght":
 		fmt.Print("Running typeweight program")
@@ -58,16 +58,16 @@ func main() {
 			fmt.Printf(" in mode '%s'", *mode)
 		}
 		fmt.Println("...")
-		leaderboards.RunTypeWeight(*setNames, *leaderboard, *numMonths, *monthYear, *mode)
+		leaderboards.RunTypeWeight(*chatNames, *leaderboard, *numMonths, *monthYear, *mode)
 		// Modes: "c", only prints new/updated records
 
 	case "count":
 		fmt.Println("Running totalcount program...")
-		leaderboards.RunTotalcount(*setNames, *leaderboard, *numMonths, *monthYear)
+		leaderboards.RunTotalcount(*chatNames, *leaderboard, *numMonths, *monthYear)
 
 	case "logs":
 		fmt.Println("Running logs program...")
-		logs.RunLogs(*setNames, *numMonths, *monthYear)
+		logs.RunLogs(*chatNames, *numMonths, *monthYear)
 
 	case "test1":
 		fmt.Println("Running test1 program...")

@@ -42,16 +42,16 @@ func RunTypeGlobal(config other.Config, title string) {
 	// Create a map to store combined records
 	globalRecordType := make(map[string]other.Record)
 
-	// Process all sets
-	for setName, urlSet := range config.URLSets {
-		if !urlSet.CheckEnabled {
-			fmt.Printf("Skipping set '%s' because check_enabled is false.\n", setName)
+	// Process all chats
+	for chatName, chat := range config.Chat {
+		if !chat.CheckEnabled {
+			fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
 			continue // Skip processing if check_enabled is false
 		}
 
-		oldRecordType, err := other.ReadTypeRankings(urlSet.Type)
+		oldRecordType, err := other.ReadTypeRankings(chat.Type)
 		if err != nil {
-			fmt.Printf("Error reading old type leaderboard for set '%s': %v\n", setName, err)
+			fmt.Printf("Error reading old type leaderboard for chat '%s': %v\n", chatName, err)
 			continue
 		}
 
@@ -74,19 +74,19 @@ func RunWeightGlobal(config other.Config, title string) {
 	// Create a map to store combined records
 	globalRecordWeight := make(map[string]other.Record)
 
-	// Get the weight limit from the "global" URL set configuration
-	WeightLimit := config.URLSets["global"].Weightlimit
+	// Get the weight limit from the "global" configuration
+	WeightLimit := config.Chat["global"].Weightlimit
 
-	// Process all sets
-	for setName, urlSet := range config.URLSets {
-		if !urlSet.CheckEnabled {
-			fmt.Printf("Skipping set '%s' because check_enabled is false.\n", setName)
+	// Process all chats
+	for chatName, chat := range config.Chat {
+		if !chat.CheckEnabled {
+			fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
 			continue // Skip processing if check_enabled is false
 		}
 
-		oldRecordWeight, err := other.ReadWeightRankings(urlSet.Weight)
+		oldRecordWeight, err := other.ReadWeightRankings(chat.Weight)
 		if err != nil {
-			fmt.Printf("Error reading old weight leaderboard for set '%s': %v\n", setName, err)
+			fmt.Printf("Error reading old weight leaderboard for chat '%s': %v\n", chatName, err)
 			continue
 		}
 
@@ -111,7 +111,7 @@ func RunWeightGlobal(config other.Config, title string) {
 func updateTypeLeaderboard(config other.Config, recordType map[string]other.Record, title string) {
 	fmt.Println("Updating global type leaderboard...")
 	isGlobal := true
-	err := writeTypeLeaderboard(config.URLSets["global"].Type, recordType, title, isGlobal)
+	err := writeTypeLeaderboard(config.Chat["global"].Type, recordType, title, isGlobal)
 	if err != nil {
 		fmt.Println("Error writing type leaderboard:", err)
 	} else {
@@ -123,7 +123,7 @@ func updateTypeLeaderboard(config other.Config, recordType map[string]other.Reco
 func updateWeightLeaderboard(config other.Config, recordWeight map[string]other.Record, title string) {
 	fmt.Println("Updating global weight leaderboard...")
 	isGlobal := true
-	err := writeWeightLeaderboard(config.URLSets["global"].Weight, recordWeight, title, isGlobal)
+	err := writeWeightLeaderboard(config.Chat["global"].Weight, recordWeight, title, isGlobal)
 	if err != nil {
 		fmt.Println("Error writing weight leaderboard:", err)
 	} else {

@@ -12,8 +12,8 @@ import (
 	"strings"
 )
 
-// RunLogs runs the logs program with the provided setNames, numMonths, and monthYear.
-func RunLogs(setNames string, numMonths int, monthYear string) {
+// RunLogs runs the logs program with the provided chatNames, numMonths, and monthYear.
+func RunLogs(chatNames string, numMonths int, monthYear string) {
 	// Get the current working directory
 	wd, err := os.Getwd()
 	if err != nil {
@@ -27,43 +27,43 @@ func RunLogs(setNames string, numMonths int, monthYear string) {
 	// Load the config from the constructed file path
 	config := other.LoadConfig(configFilePath)
 
-	switch setNames {
+	switch chatNames {
 	case "all":
-		// Process all sets
-		for setName, urlSet := range config.URLSets {
-			if !urlSet.CheckEnabled {
-				fmt.Printf("Skipping set '%s' because check_enabled is false.\n", setName)
+		// Process all chats
+		for chatName, chat := range config.Chat {
+			if !chat.CheckEnabled {
+				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
 				continue // Skip processing if check_enabled is false
 			}
 
-			fmt.Printf("Checking set '%s'.\n", setName)
-			urls := other.CreateURL(setName, numMonths, monthYear)
-			fetchMatchingLines(urlSet, urls)
+			fmt.Printf("Checking chat '%s'.\n", chatName)
+			urls := other.CreateURL(chatName, numMonths, monthYear)
+			fetchMatchingLines(chat, urls)
 		}
 	case "":
-		fmt.Println("Please specify set names.")
+		fmt.Println("Please specify chat names.")
 	default:
-		// Process specified set names
-		specifiedSetNames := strings.Split(setNames, ",")
-		for _, setName := range specifiedSetNames {
-			urlSet, ok := config.URLSets[setName]
+		// Process specified chat names
+		specifiedchatNames := strings.Split(chatNames, ",")
+		for _, chatName := range specifiedchatNames {
+			chat, ok := config.Chat[chatName]
 			if !ok {
-				fmt.Printf("Set '%s' not found in config.\n", setName)
+				fmt.Printf("Chat '%s' not found in config.\n", chatName)
 				continue
 			}
-			if !urlSet.CheckEnabled {
-				fmt.Printf("Skipping set '%s' because check_enabled is false.\n", setName)
+			if !chat.CheckEnabled {
+				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
 				continue // Skip processing if check_enabled is false
 			}
 
-			fmt.Printf("Checking set '%s'.\n", setName)
-			urls := other.CreateURL(setName, numMonths, monthYear)
-			fetchMatchingLines(urlSet, urls)
+			fmt.Printf("Checking chat '%s'.\n", chatName)
+			urls := other.CreateURL(chatName, numMonths, monthYear)
+			fetchMatchingLines(chat, urls)
 		}
 	}
 }
 
-func fetchMatchingLines(urlSet other.URLSet, urls []string) {
+func fetchMatchingLines(chat other.ChatInfo, urls []string) {
 	// Get the directory of the current source file
 	_, currentFilePath, _, _ := runtime.Caller(0)
 	currentFileDir := filepath.Dir(currentFilePath)
@@ -73,11 +73,11 @@ func fetchMatchingLines(urlSet other.URLSet, urls []string) {
 
 	// Check if the log file path is absolute
 	var logFilePath string
-	if filepath.IsAbs(urlSet.Logs) {
-		logFilePath = urlSet.Logs
+	if filepath.IsAbs(chat.Logs) {
+		logFilePath = chat.Logs
 	} else {
 		// Construct the absolute path to the log file
-		logFilePath = filepath.Join(logsDir, urlSet.Logs)
+		logFilePath = filepath.Join(logsDir, chat.Logs)
 	}
 
 	// Fetch matching lines from each URL
@@ -164,8 +164,8 @@ func fetchMatchingLines(urlSet other.URLSet, urls []string) {
 				return
 			}
 		}
-		fmt.Printf("New results appended to %s\n", urlSet.Logs)
+		fmt.Printf("New results appended to %s\n", chat.Logs)
 	} else {
-		fmt.Printf("No new results to append to %s\n", urlSet.Logs)
+		fmt.Printf("No new results to append to %s\n", chat.Logs)
 	}
 }

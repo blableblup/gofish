@@ -10,7 +10,7 @@ import (
 	"strings"
 )
 
-func RunTypeWeight(setNames, leaderboard string, numMonths int, monthYear string, mode string) {
+func RunTypeWeight(chatNames, leaderboard string, numMonths int, monthYear string, mode string) {
 
 	// Get the current working directory
 	wd, err := os.Getwd()
@@ -25,58 +25,58 @@ func RunTypeWeight(setNames, leaderboard string, numMonths int, monthYear string
 	// Load the config from the constructed file path
 	config := other.LoadConfig(configFilePath)
 
-	switch setNames {
+	switch chatNames {
 	case "all":
-		// Process all sets
-		for setName, urlSet := range config.URLSets {
-			if !urlSet.CheckEnabled {
-				fmt.Printf("Skipping set '%s' because check_enabled is false.\n", setName)
+		// Process all chats
+		for chatName, chat := range config.Chat {
+			if !chat.CheckEnabled {
+				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
 				continue // Skip processing if check_enabled is false
 			}
 
-			Weightlimit := urlSet.Weightlimit
+			Weightlimit := chat.Weightlimit
 			if Weightlimit == 0 {
 				Weightlimit = 200 // Set the default weight limit if not specified
 			}
-			fmt.Printf("Checking set '%s'.\n", setName)
-			urls := other.CreateURL(setName, numMonths, monthYear)
-			processTypeWeight(urls, setName, urlSet, leaderboard, Weightlimit, mode)
+			fmt.Printf("Checking chat '%s'.\n", chatName)
+			urls := other.CreateURL(chatName, numMonths, monthYear)
+			processTypeWeight(urls, chatName, chat, leaderboard, Weightlimit, mode)
 		}
 	case "":
-		fmt.Println("Please specify set names.")
+		fmt.Println("Please specify chat names.")
 	default:
-		// Process specified set names
-		specifiedSetNames := strings.Split(setNames, ",")
-		for _, setName := range specifiedSetNames {
-			urlSet, ok := config.URLSets[setName]
+		// Process specified chat names
+		specifiedchatNames := strings.Split(chatNames, ",")
+		for _, chatName := range specifiedchatNames {
+			chat, ok := config.Chat[chatName]
 			if !ok {
-				fmt.Printf("Set '%s' not found in config.\n", setName)
+				fmt.Printf("Chat '%s' not found in config.\n", chatName)
 				continue
 			}
-			if !urlSet.CheckEnabled {
-				fmt.Printf("Skipping set '%s' because check_enabled is false.\n", setName)
+			if !chat.CheckEnabled {
+				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
 				continue // Skip processing if check_enabled is false
 			}
-			Weightlimit := urlSet.Weightlimit
+			Weightlimit := chat.Weightlimit
 			if Weightlimit == 0 {
 				Weightlimit = 200 // Set the default weight limit if not specified
 			}
-			fmt.Printf("Checking set '%s'.\n", setName)
-			urls := other.CreateURL(setName, numMonths, monthYear)
-			processTypeWeight(urls, setName, urlSet, leaderboard, Weightlimit, mode)
+			fmt.Printf("Checking chat '%s'.\n", chatName)
+			urls := other.CreateURL(chatName, numMonths, monthYear)
+			processTypeWeight(urls, chatName, chat, leaderboard, Weightlimit, mode)
 		}
 	}
 }
 
-func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leaderboard string, Weightlimit float64, mode string) {
+func processTypeWeight(urls []string, chatName string, chat other.ChatInfo, leaderboard string, Weightlimit float64, mode string) {
 
-	oldRecordWeight, err := other.ReadWeightRankings(urlSet.Weight)
+	oldRecordWeight, err := other.ReadWeightRankings(chat.Weight)
 	if err != nil {
 		fmt.Println("Error reading old weight leaderboard:", err)
 		return
 	}
 
-	oldRecordType, err := other.ReadTypeRankings(urlSet.Type)
+	oldRecordType, err := other.ReadTypeRankings(chat.Type)
 	if err != nil {
 		fmt.Println("Error reading old type leaderboard:", err)
 		return
@@ -141,7 +141,7 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 			if mode != "c" {
 				record := "updated"
 				// Log the updated record
-				logs.WriteWeightLog(setName, record, map[string]other.Record{player: newWeightRecord})
+				logs.WriteWeightLog(chatName, record, map[string]other.Record{player: newWeightRecord})
 			}
 		} else {
 			// If the new weight is not greater, keep the old record
@@ -158,7 +158,7 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 			if mode != "c" {
 				record := "new"
 				// Log the new record
-				logs.WriteWeightLog(setName, record, map[string]other.Record{player: newWeightRecord})
+				logs.WriteWeightLog(chatName, record, map[string]other.Record{player: newWeightRecord})
 			}
 		}
 	}
@@ -177,7 +177,7 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 			if mode != "c" {
 				record := "updated"
 				// Log the updated record
-				logs.WriteTypeLog(setName, record, map[string]other.Record{fishType: newTypeRecord})
+				logs.WriteTypeLog(chatName, record, map[string]other.Record{fishType: newTypeRecord})
 			}
 		} else {
 			// If the new weight is not greater, keep the old record
@@ -194,28 +194,28 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 			if mode != "c" {
 				record := "new"
 				// Log the new record
-				logs.WriteTypeLog(setName, record, map[string]other.Record{fishType: newTypeRecord})
+				logs.WriteTypeLog(chatName, record, map[string]other.Record{fishType: newTypeRecord})
 			}
 		}
 	}
 
 	// Stops the program if it is in "just checking" mode
 	if mode == "c" {
-		fmt.Printf("Finished checking for new records for set '%s'.\n", setName)
+		fmt.Printf("Finished checking for new records for chat '%s'.\n", chatName)
 		return
 	}
 
 	// Titles for the leaderboards
-	titleweight := fmt.Sprintf("### Biggest fish caught per player in %s's chat\n", setName)
-	titletype := fmt.Sprintf("### Biggest fish per type caught in %s's chat\n", setName)
+	titleweight := fmt.Sprintf("### Biggest fish caught per player in %s's chat\n", chatName)
+	titletype := fmt.Sprintf("### Biggest fish per type caught in %s's chat\n", chatName)
 	isGlobal := false // Since these will be leaderboards for the chats
 
 	// Update only the specified leaderboard if the leaderboard flag is provided
 	switch leaderboard {
 	case "type":
 		// Write the leaderboard for the biggest fish per fish type to the file specified in the config
-		fmt.Printf("Updating type leaderboard for set '%s'...\n", setName)
-		err = writeTypeLeaderboard(urlSet.Type, recordType, titletype, isGlobal)
+		fmt.Printf("Updating type leaderboard for chat '%s'...\n", chatName)
+		err = writeTypeLeaderboard(chat.Type, recordType, titletype, isGlobal)
 		if err != nil {
 			fmt.Println("Error writing type leaderboard:", err)
 		} else {
@@ -223,8 +223,8 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 		}
 	case "weight":
 		// Write the leaderboard for the biggest fish caught per player in chat to the file specified in the config
-		fmt.Printf("Updating weight leaderboard for set '%s' with weight threshold %f...\n", setName, Weightlimit)
-		err = writeWeightLeaderboard(urlSet.Weight, recordWeight, titleweight, isGlobal)
+		fmt.Printf("Updating weight leaderboard for chat '%s' with weight threshold %f...\n", chatName, Weightlimit)
+		err = writeWeightLeaderboard(chat.Weight, recordWeight, titleweight, isGlobal)
 		if err != nil {
 			fmt.Println("Error writing weight leaderboard:", err)
 		} else {
@@ -232,16 +232,16 @@ func processTypeWeight(urls []string, setName string, urlSet other.URLSet, leade
 		}
 	default:
 		// If the leaderboard flag is not provided, update both leaderboards
-		fmt.Printf("Updating type leaderboard for set '%s'...\n", setName)
-		err = writeTypeLeaderboard(urlSet.Type, recordType, titletype, isGlobal)
+		fmt.Printf("Updating type leaderboard for chat '%s'...\n", chatName)
+		err = writeTypeLeaderboard(chat.Type, recordType, titletype, isGlobal)
 		if err != nil {
 			fmt.Println("Error writing type leaderboard:", err)
 		} else {
 			fmt.Println("Type leaderboard updated successfully.")
 		}
 
-		fmt.Printf("Updating weight leaderboard for set '%s' with weight threshold %f...\n", setName, Weightlimit)
-		err = writeWeightLeaderboard(urlSet.Weight, recordWeight, titleweight, isGlobal)
+		fmt.Printf("Updating weight leaderboard for chat '%s' with weight threshold %f...\n", chatName, Weightlimit)
+		err = writeWeightLeaderboard(chat.Weight, recordWeight, titleweight, isGlobal)
 		if err != nil {
 			fmt.Println("Error writing weight leaderboard:", err)
 		} else {
