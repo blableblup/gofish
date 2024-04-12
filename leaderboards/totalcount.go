@@ -10,7 +10,7 @@ import (
 	"sync"
 )
 
-func RunTotalcount(setNames, leaderboard string, numMonths int, monthYear string) {
+func RunTotalcount(chatNames, leaderboard string, numMonths int, monthYear string) {
 
 	// Get the current working directory
 	wd, err := os.Getwd()
@@ -25,49 +25,49 @@ func RunTotalcount(setNames, leaderboard string, numMonths int, monthYear string
 	// Load the config from the constructed file path
 	config := other.LoadConfig(configFilePath)
 
-	switch setNames {
+	switch chatNames {
 	case "all":
-		// Process all sets
-		for setName, urlSet := range config.URLSets {
-			if !urlSet.CheckEnabled {
-				fmt.Printf("Skipping set '%s' because check_enabled is false.\n", setName)
+		// Process all chats
+		for chatName, chat := range config.Chat {
+			if !chat.CheckEnabled {
+				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
 				continue // Skip processing if check_enabled is false
 			}
-			Totalcountlimit := urlSet.Totalcountlimit
+			Totalcountlimit := chat.Totalcountlimit
 			if Totalcountlimit == 0 {
 				Totalcountlimit = 100 // Set the default count limit if not specified
 			}
-			fmt.Printf("Checking set '%s'.\n", setName)
-			urls := other.CreateURL(setName, numMonths, monthYear)
-			processTotalcount(urls, setName, urlSet, leaderboard, Totalcountlimit)
+			fmt.Printf("Checking chat '%s'.\n", chatName)
+			urls := other.CreateURL(chatName, numMonths, monthYear)
+			processTotalcount(urls, chatName, chat, leaderboard, Totalcountlimit)
 		}
 	case "":
-		fmt.Println("Please specify set names.")
+		fmt.Println("Please specify chat names.")
 	default:
-		// Process specified set names
-		specifiedSetNames := strings.Split(setNames, ",")
-		for _, setName := range specifiedSetNames {
-			urlSet, ok := config.URLSets[setName]
+		// Process specified chat names
+		specifiedchatNames := strings.Split(chatNames, ",")
+		for _, chatName := range specifiedchatNames {
+			chat, ok := config.Chat[chatName]
 			if !ok {
-				fmt.Printf("Set '%s' not found in config.\n", setName)
+				fmt.Printf("Chat '%s' not found in config.\n", chatName)
 				continue
 			}
-			if !urlSet.CheckEnabled {
-				fmt.Printf("Skipping set '%s' because check_enabled is false.\n", setName)
+			if !chat.CheckEnabled {
+				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
 				continue // Skip processing if check_enabled is false
 			}
-			Totalcountlimit := urlSet.Totalcountlimit
+			Totalcountlimit := chat.Totalcountlimit
 			if Totalcountlimit == 0 {
 				Totalcountlimit = 100 // Set the default count limit if not specified
 			}
-			fmt.Printf("Checking set '%s'.\n", setName)
-			urls := other.CreateURL(setName, numMonths, monthYear)
-			processTotalcount(urls, setName, urlSet, leaderboard, Totalcountlimit)
+			fmt.Printf("Checking chat '%s'.\n", chatName)
+			urls := other.CreateURL(chatName, numMonths, monthYear)
+			processTotalcount(urls, chatName, chat, leaderboard, Totalcountlimit)
 		}
 	}
 }
 
-func processTotalcount(urls []string, setName string, urlSet other.URLSet, leaderboard string, Totalcountlimit int) {
+func processTotalcount(urls []string, chatName string, chat other.ChatInfo, leaderboard string, Totalcountlimit int) {
 
 	// Define maps to hold the results
 	fishCaught := make(map[string]int)
@@ -111,15 +111,15 @@ func processTotalcount(urls []string, setName string, urlSet other.URLSet, leade
 	}
 
 	// Titles for the leaderboards
-	titletotalcount := fmt.Sprintf("### Most fish caught in %s's chat\n", setName)
+	titletotalcount := fmt.Sprintf("### Most fish caught in %s's chat\n", chatName)
 
 	// Update only the specified leaderboard if the leaderboard flag is provided
 	var err error
 	switch leaderboard {
 	case "count":
 		// Write the leaderboard for the total fish caught to the file specified in the config
-		fmt.Printf("Updating totalcount leaderboard for set '%s' with count threshold %d...\n", setName, Totalcountlimit)
-		err = writeTotalcount(urlSet.Totalcount, fishCaught, titletotalcount)
+		fmt.Printf("Updating totalcount leaderboard for chat '%s' with count threshold %d...\n", chatName, Totalcountlimit)
+		err = writeTotalcount(chat.Totalcount, fishCaught, titletotalcount)
 		if err != nil {
 			fmt.Println("Error writing totalcount leaderboard:", err)
 		} else {

@@ -10,7 +10,7 @@ import (
 )
 
 // createURL generates URLs based on the given arguments and returns them
-func CreateURL(setName string, numMonths int, monthYear string) []string {
+func CreateURL(chatName string, numMonths int, monthYear string) []string {
 
 	// Get the current working directory
 	wd, err := os.Getwd()
@@ -57,7 +57,7 @@ func CreateURL(setName string, numMonths int, monthYear string) []string {
 		year, month, _ := firstOfMonth.Date()
 
 		// Check if gofish was added to the channel first
-		if logsAdded, err := time.Parse("2006/1", config.URLSets[setName].LogsAdded); err == nil {
+		if logsAdded, err := time.Parse("2006/1", config.Chat[chatName].LogsAdded); err == nil {
 			if firstOfMonth.Before(logsAdded) {
 				fmt.Printf("Breaking at %d/%d because gofish was not added yet\n", year, month)
 				break
@@ -67,10 +67,10 @@ func CreateURL(setName string, numMonths int, monthYear string) []string {
 		}
 
 		// Check if the current month is within September 2023
-		if year == 2023 && month == time.September && config.URLSets[setName].LogsHostOld != "" {
+		if year == 2023 && month == time.September && config.Chat[chatName].LogsHostOld != "" {
 			// Use both the old and new logs hosts
-			urlOld := fmt.Sprintf("%s%d/%d?", config.URLSets[setName].LogsHostOld, year, int(month))
-			urlNew := fmt.Sprintf("%s%d/%d?", config.URLSets[setName].LogsHost, year, int(month))
+			urlOld := fmt.Sprintf("%s%d/%d?", config.Chat[chatName].LogsHostOld, year, int(month))
+			urlNew := fmt.Sprintf("%s%d/%d?", config.Chat[chatName].LogsHost, year, int(month))
 			fmt.Println("Fetching data from supibot:", urlOld)    // Print the URL being used for old logs host
 			fmt.Println("Fetching data from gofishgame:", urlNew) // Print the URL being used for new logs host
 			urls = append(urls, urlOld, urlNew)
@@ -78,8 +78,8 @@ func CreateURL(setName string, numMonths int, monthYear string) []string {
 			// Check if the current month is before the logs host change
 			if year < 2023 || (year == 2023 && month < time.September) {
 				// Use the old logs host if it's not empty
-				if config.URLSets[setName].LogsHostOld != "" {
-					url := fmt.Sprintf("%s%d/%d?", config.URLSets[setName].LogsHostOld, year, int(month))
+				if config.Chat[chatName].LogsHostOld != "" {
+					url := fmt.Sprintf("%s%d/%d?", config.Chat[chatName].LogsHostOld, year, int(month))
 					fmt.Println("Fetching data from supibot:", url) // Print the URL being used
 					urls = append(urls, url)
 				} else {
@@ -87,7 +87,7 @@ func CreateURL(setName string, numMonths int, monthYear string) []string {
 				}
 			} else {
 				// Use the current logs host
-				url := fmt.Sprintf("%s%d/%d?", config.URLSets[setName].LogsHost, year, int(month))
+				url := fmt.Sprintf("%s%d/%d?", config.Chat[chatName].LogsHost, year, int(month))
 				fmt.Println("Fetching data from gofishgame:", url) // Print the URL being used
 				urls = append(urls, url)
 			}

@@ -23,7 +23,7 @@ type PlayerCounts struct {
 	Bronze int
 }
 
-func RunTournaments(setNames, leaderboard string) {
+func RunTournaments(chatNames, leaderboard string) {
 
 	// Get the current working directory
 	wd, err := os.Getwd()
@@ -41,47 +41,47 @@ func RunTournaments(setNames, leaderboard string) {
 	// Define point values
 	pointValues := map[string]float64{"Trophy": 3, "Silver": 1, "Bronze": 0.5}
 
-	switch setNames {
+	switch chatNames {
 	case "all":
-		// Process all sets
-		for setName, urlSet := range config.URLSets {
-			if !urlSet.CheckEnabled {
-				fmt.Printf("Skipping set '%s' because check_enabled is false.\n", setName)
+		// Process all chats
+		for chatName, chat := range config.Chat {
+			if !chat.CheckEnabled {
+				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
 				continue // Skip processing if check_enabled is false
 			}
-			fishweekLimit := urlSet.Fishweeklimit
+			fishweekLimit := chat.Fishweeklimit
 			if fishweekLimit == 0 {
 				fishweekLimit = 20 // Set the default fishweek limit if not specified
 			}
-			fmt.Printf("Checking set '%s'.\n", setName)
-			processTournaments(setName, urlSet, pointValues, leaderboard, fishweekLimit)
+			fmt.Printf("Checking chat '%s'.\n", chatName)
+			processTournaments(chatName, chat, pointValues, leaderboard, fishweekLimit)
 		}
 	case "":
-		fmt.Println("Please specify set names.")
+		fmt.Println("Please specify chat names.")
 	default:
-		// Process specified set names
-		specifiedSetNames := strings.Split(setNames, ",")
-		for _, setName := range specifiedSetNames {
-			urlSet, ok := config.URLSets[setName]
+		// Process specified chat names
+		specifiedchatNames := strings.Split(chatNames, ",")
+		for _, chatName := range specifiedchatNames {
+			chat, ok := config.Chat[chatName]
 			if !ok {
-				fmt.Printf("Set '%s' not found in config.\n", setName)
+				fmt.Printf("Chat '%s' not found in config.\n", chatName)
 				continue
 			}
-			if !urlSet.CheckEnabled {
-				fmt.Printf("Skipping set '%s' because check_enabled is false.\n", setName)
+			if !chat.CheckEnabled {
+				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
 				continue // Skip processing if check_enabled is false
 			}
-			fishweekLimit := urlSet.Fishweeklimit
+			fishweekLimit := chat.Fishweeklimit
 			if fishweekLimit == 0 {
 				fishweekLimit = 20 // Set the default fishweek limit if not specified
 			}
-			fmt.Printf("Checking set '%s'.\n", setName)
-			processTournaments(setName, urlSet, pointValues, leaderboard, fishweekLimit)
+			fmt.Printf("Checking chat '%s'.\n", chatName)
+			processTournaments(chatName, chat, pointValues, leaderboard, fishweekLimit)
 		}
 	}
 }
 
-func processTournaments(setName string, urlSet other.URLSet, pointValues map[string]float64, leaderboard string, fishweekLimit int) {
+func processTournaments(chatName string, chat other.ChatInfo, pointValues map[string]float64, leaderboard string, fishweekLimit int) {
 
 	// Import the lists from lists
 	cheaters := lists.ReadCheaters()
@@ -93,8 +93,8 @@ func processTournaments(setName string, urlSet other.URLSet, pointValues map[str
 		fmt.Println("Error getting current working directory:", err)
 		os.Exit(1)
 	}
-	// Open and read the logs file for the set
-	logsFilePath := filepath.Join(wd, "logs", urlSet.Logs)
+	// Open and read the logs file for the chat
+	logsFilePath := filepath.Join(wd, "logs", chat.Logs)
 	logs, err := os.Open(logsFilePath)
 	if err != nil {
 		panic(err)
@@ -179,15 +179,15 @@ func processTournaments(setName string, urlSet other.URLSet, pointValues map[str
 	}
 
 	// Titles for the leaderboards
-	titlefishw := fmt.Sprintf("### Most fish caught in a single week in tournaments in %s's chat\n", setName)
-	titletrophies := fmt.Sprintf("### Leaderboard for the weekly tournaments in %s's chat\n", setName)
+	titlefishw := fmt.Sprintf("### Most fish caught in a single week in tournaments in %s's chat\n", chatName)
+	titletrophies := fmt.Sprintf("### Leaderboard for the weekly tournaments in %s's chat\n", chatName)
 
 	// Update only the specified leaderboard if the leaderboard flag is provided
 	switch leaderboard {
 	case "trophy":
 		// Write the leaderboard for the weekly tournaments to the file specified in the config
-		fmt.Printf("Updating trophies leaderboard for set '%s'...\n", setName)
-		err = writeTrophiesLeaderboard(urlSet.Trophies, playerCounts, pointValues, titletrophies)
+		fmt.Printf("Updating trophies leaderboard for chat '%s'...\n", chatName)
+		err = writeTrophiesLeaderboard(chat.Trophies, playerCounts, pointValues, titletrophies)
 		if err != nil {
 			fmt.Println("Error writing trophies leaderboard:", err)
 		} else {
@@ -195,8 +195,8 @@ func processTournaments(setName string, urlSet other.URLSet, pointValues map[str
 		}
 	case "fishw":
 		// Write the leaderboard for the most fish caught in a single week in tournaments to the file specified in the config
-		fmt.Printf("Updating fishweek leaderboard for set '%s' with fish count threshold %d...\n", setName, fishweekLimit)
-		err = writeFishWeekLeaderboard(urlSet.Fishweek, maxFishInWeek, fishweekLimit, titlefishw)
+		fmt.Printf("Updating fishweek leaderboard for chat '%s' with fish count threshold %d...\n", chatName, fishweekLimit)
+		err = writeFishWeekLeaderboard(chat.Fishweek, maxFishInWeek, fishweekLimit, titlefishw)
 		if err != nil {
 			fmt.Println("Error writing fishweek leaderboard:", err)
 		} else {
@@ -204,16 +204,16 @@ func processTournaments(setName string, urlSet other.URLSet, pointValues map[str
 		}
 	default:
 		// If the leaderboard flag is not provided, update both leaderboards
-		fmt.Printf("Updating trophies leaderboard for set '%s'...\n", setName)
-		err = writeTrophiesLeaderboard(urlSet.Trophies, playerCounts, pointValues, titletrophies)
+		fmt.Printf("Updating trophies leaderboard for chat '%s'...\n", chatName)
+		err = writeTrophiesLeaderboard(chat.Trophies, playerCounts, pointValues, titletrophies)
 		if err != nil {
 			fmt.Println("Error writing trophies leaderboard:", err)
 		} else {
 			fmt.Println("Trophies leaderboard updated successfully.")
 		}
 
-		fmt.Printf("Updating fishweek leaderboard for set '%s' with fish count threshold %d...\n", setName, fishweekLimit)
-		err = writeFishWeekLeaderboard(urlSet.Fishweek, maxFishInWeek, fishweekLimit, titlefishw)
+		fmt.Printf("Updating fishweek leaderboard for chat '%s' with fish count threshold %d...\n", chatName, fishweekLimit)
+		err = writeFishWeekLeaderboard(chat.Fishweek, maxFishInWeek, fishweekLimit, titlefishw)
 		if err != nil {
 			fmt.Println("Error writing fishweek leaderboard:", err)
 		} else {

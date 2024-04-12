@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-type URLSet struct {
+type ChatInfo struct {
 	Logs            string  `json:"logs"`
 	Trophies        string  `json:"trophies"`
 	Fishweek        string  `json:"fishweek"`
@@ -25,7 +25,7 @@ type URLSet struct {
 }
 
 type Config struct {
-	URLSets map[string]URLSet `json:"url_sets"`
+	Chat map[string]ChatInfo `json:"twitch_chat"`
 }
 
 func LoadConfig(filename string) Config {
