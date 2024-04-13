@@ -16,7 +16,6 @@ type ChatInfo struct {
 	Type            string  `json:"type"`
 	Totalcount      string  `json:"totalcount"`
 	Totalcountlimit int     `json:"totalcount_limit"`
-	TotalcountOld   string  `json:"totalcountold"`
 	LogsHost        string  `json:"logs_host"`
 	LogsHostOld     string  `json:"logs_host_old"`
 	LogsAdded       string  `json:"logs_added"`
