@@ -59,11 +59,12 @@ var equivalentFishTypes = map[string]string{
 	"🧜‍♀":        "🧜‍♀️",
 	"🐻‍❄️":       "🐻‍❄",
 	"🧞‍♂️":       "🧞‍♂",
-	"Jellyfish":  "🪼",
+	"Jellyfish":  "🪼", // Add a space behind for fish which are/were not supported as emotes
 	"Jellyfish ": "🪼",
-	"HailHelix ": "🐚", // Shinies need to have one space behind them >-< or idk
+	"HailHelix ": "🐚",
 	"HailHelix":  "🐚",
 	"SabaPing ":  "🐟",
+	"SabaPing":   "🐟",
 }
 
 // EquivalentFishType checks if the current fish type is in the list of equivalent fish types

@@ -3,7 +3,6 @@ package data
 import (
 	"bufio"
 	"fmt"
-
 	"gofish/utils"
 	"io"
 	"net/http"
