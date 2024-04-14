@@ -21,24 +21,20 @@ func RunGlobal(leaderboard string) {
 	// Load the config from the constructed file path
 	config := other.LoadConfig(configFilePath)
 
-	// Titles for the leaderboards
-	titleweight := "### Biggest fish caught per player globally\n"
-	titletype := "### Biggest fish per type caught globally\n"
-
 	switch leaderboard {
 	case "type":
-		RunTypeGlobal(config, titletype)
+		RunTypeGlobal(config)
 	case "weight":
-		RunWeightGlobal(config, titleweight)
+		RunWeightGlobal(config)
 	case "all":
-		RunWeightGlobal(config, titleweight)
-		RunTypeGlobal(config, titletype)
+		RunWeightGlobal(config)
+		RunTypeGlobal(config)
 	default:
 		fmt.Println("Please specify a valid leaderboard type.")
 	}
 }
 
-func RunTypeGlobal(config other.Config, title string) {
+func RunTypeGlobal(config other.Config) {
 	// Create a map to store combined records
 	globalRecordType := make(map[string]other.Record)
 
@@ -61,16 +57,17 @@ func RunTypeGlobal(config other.Config, title string) {
 
 			existingRecord, exists := globalRecordType[fishType]
 			if !exists || convertedRecord.Weight > existingRecord.Weight {
+				convertedRecord.Chat = config.Chat[chatName].Emoji
 				globalRecordType[fishType] = convertedRecord
 			}
 		}
 	}
 
 	// Write the global type leaderboard
-	updateTypeLeaderboard(config, globalRecordType, title)
+	updateTypeLeaderboard(config, globalRecordType)
 }
 
-func RunWeightGlobal(config other.Config, title string) {
+func RunWeightGlobal(config other.Config) {
 	// Create a map to store combined records
 	globalRecordWeight := make(map[string]other.Record)
 
@@ -97,6 +94,7 @@ func RunWeightGlobal(config other.Config, title string) {
 			if convertedRecord.Weight > WeightLimit {
 				existingRecord, exists := globalRecordWeight[player]
 				if !exists || convertedRecord.Weight > existingRecord.Weight {
+					convertedRecord.Chat = config.Chat[chatName].Emoji
 					globalRecordWeight[player] = convertedRecord
 				}
 			}
@@ -104,12 +102,13 @@ func RunWeightGlobal(config other.Config, title string) {
 	}
 
 	// Write the global weight leaderboard
-	updateWeightLeaderboard(config, globalRecordWeight, title)
+	updateWeightLeaderboard(config, globalRecordWeight)
 }
 
 // Update the type leaderboard
-func updateTypeLeaderboard(config other.Config, recordType map[string]other.Record, title string) {
+func updateTypeLeaderboard(config other.Config, recordType map[string]other.Record) {
 	fmt.Println("Updating global type leaderboard...")
+	title := "### Biggest fish per type caught globally\n"
 	isGlobal := true
 	err := writeTypeLeaderboard(config.Chat["global"].Type, recordType, title, isGlobal)
 	if err != nil {
@@ -120,8 +119,9 @@ func updateTypeLeaderboard(config other.Config, recordType map[string]other.Reco
 }
 
 // Update the weight leaderboard
-func updateWeightLeaderboard(config other.Config, recordWeight map[string]other.Record, title string) {
+func updateWeightLeaderboard(config other.Config, recordWeight map[string]other.Record) {
 	fmt.Println("Updating global weight leaderboard...")
+	title := "### Biggest fish caught per player globally\n"
 	isGlobal := true
 	err := writeWeightLeaderboard(config.Chat["global"].Weight, recordWeight, title, isGlobal)
 	if err != nil {
