@@ -31,74 +31,94 @@ var normalPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2
 var birdPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): @\s?(\w+), Huh[?][!] 🪺 is hatching!... It's a 🪽 (.*?) 🪽! It weighs ([\d.]+) lbs`)
 
 func CatchWeightType(url string, newRecordWeight map[string]Record, newRecordType map[string]Record, Weightlimit float64) (map[string]Record, map[string]Record, error) {
+	const maxRetries = 5
+	retryDelay := time.Second // Initial delay before first retry
 
-	// Fetch data from the URL
-	req := fasthttp.AcquireRequest()
-	req.SetRequestURI(url)
-	resp := fasthttp.AcquireResponse()
-	defer fasthttp.ReleaseRequest(req)
-	defer fasthttp.ReleaseResponse(resp)
+	for retry := 0; retry < maxRetries; retry++ {
+		req := fasthttp.AcquireRequest()
+		req.SetRequestURI(url)
+		defer fasthttp.ReleaseRequest(req)
 
-	if err := fasthttp.Do(req, resp); err != nil {
-		return nil, nil, err
+		resp := fasthttp.AcquireResponse()
+		defer fasthttp.ReleaseResponse(resp)
+
+		if err := fasthttp.Do(req, resp); err != nil {
+			// Log the error and retry
+			log.Printf("Error fetching data from URL %s: %v\n", url, err)
+			time.Sleep(retryDelay)
+			retryDelay *= 5
+			continue
+		}
+
+		// Check for HTTP error status codes
+		if resp.StatusCode() != fasthttp.StatusOK {
+			// Log the error and retry
+			log.Printf("Unexpected HTTP status code %d for URL: %s\n", resp.StatusCode(), url)
+			time.Sleep(retryDelay)
+			retryDelay *= 5
+			continue
+		}
+
+		// Extract text content from the response body
+		textContent := string(resp.Body())
+
+		cheaters := playerdata.ReadCheaters()
+		renamedChatters := playerdata.ReadRenamedChatters()
+
+		// Define the patterns for fish catches
+		patterns := []*regexp.Regexp{
+			mouthPattern,
+			releasePattern,
+			normalPattern,
+			jumpedPattern,
+			birdPattern,
+		}
+
+		// Extract information about fish catches from the text content using multiple patterns
+		fishCatches := extractInfoFromPatterns(textContent, patterns)
+
+		// Process extracted information and update records
+		for _, fishCatch := range fishCatches {
+			player := fishCatch.Player
+			fishType := fishCatch.Type
+			weight := fishCatch.Weight
+			date := fishCatch.Date
+			bot := fishCatch.Bot
+			catchtype := fishCatch.CatchType
+
+			// Change to the latest name
+			newPlayer := renamedChatters[player]
+			for newPlayer != "" {
+				player = newPlayer
+				newPlayer = renamedChatters[player]
+			}
+
+			if utils.Contains(cheaters, player) {
+				continue // Skip processing for ignored players
+			}
+
+			// Update fish type if it has an equivalent
+			if equivalent := utils.EquivalentFishType(fishType); equivalent != "" {
+				fishType = equivalent
+			}
+
+			// Update the record for the biggest fish of the player if weight exceeds Weightlimit
+			if weight > newRecordWeight[player].Weight && weight > Weightlimit {
+				newRecordWeight[player] = Record{Type: fishType, Weight: weight, Bot: bot, Date: date, CatchType: catchtype}
+			}
+
+			// Update the record for the biggest fish for that type of fish
+			if weight > newRecordType[fishType].Weight {
+				newRecordType[fishType] = Record{Player: player, Weight: weight, Bot: bot, Date: date, CatchType: catchtype}
+			}
+		}
+
+		fmt.Println("Finished storing weight records for", url)
+		return newRecordWeight, newRecordType, nil // Return successfully fetched data
 	}
 
-	// Extract text content from the response body
-	textContent := string(resp.Body())
-
-	cheaters := playerdata.ReadCheaters()
-	renamedChatters := playerdata.ReadRenamedChatters()
-
-	// Define the patterns for fish catches
-	patterns := []*regexp.Regexp{
-		mouthPattern,
-		releasePattern,
-		normalPattern,
-		jumpedPattern,
-		birdPattern,
-	}
-
-	// Extract information about fish catches from the text content using multiple patterns
-	fishCatches := extractInfoFromPatterns(textContent, patterns)
-
-	// Process extracted information and update records
-	for _, fishCatch := range fishCatches {
-
-		player := fishCatch.Player
-		fishType := fishCatch.Type
-		weight := fishCatch.Weight
-		date := fishCatch.Date
-		bot := fishCatch.Bot
-		catchtype := fishCatch.CatchType
-
-		// Change to the latest name
-		newPlayer := renamedChatters[player]
-		for newPlayer != "" {
-			player = newPlayer
-			newPlayer = renamedChatters[player]
-		}
-
-		if utils.Contains(cheaters, player) {
-			continue // Skip processing for ignored players
-		}
-
-		// Update fish type if it has an equivalent
-		if equivalent := utils.EquivalentFishType(fishType); equivalent != "" {
-			fishType = equivalent
-		}
-
-		// Update the record for the biggest fish of the player if weight exceeds Weightlimit
-		if weight > newRecordWeight[player].Weight && weight > Weightlimit {
-			newRecordWeight[player] = Record{Type: fishType, Weight: weight, Bot: bot, Date: date, CatchType: catchtype}
-		}
-
-		// Update the record for the biggest fish for that type of fish
-		if weight > newRecordType[fishType].Weight {
-			newRecordType[fishType] = Record{Player: player, Weight: weight, Bot: bot, Date: date, CatchType: catchtype}
-		}
-	}
-	fmt.Println("Finished storing weight records for", url)
-	return newRecordWeight, newRecordType, nil
+	// Return an error if maximum retries reached
+	return nil, nil, fmt.Errorf("reached maximum retries, unable to fetch data from URL: %s", url)
 }
 
 // Generic function to extract information using multiple patterns
@@ -225,7 +245,7 @@ func CountFishCaught(url string, fishCaught map[string]int) (map[string]int, err
 
 		// Check for HTTP error status codes
 		if resp.StatusCode() != fasthttp.StatusOK {
-			// Log the unexpected status code
+			// Log the error and retry
 			log.Printf("Unexpected HTTP status code %d for URL: %s\n", resp.StatusCode(), url)
 			time.Sleep(retryDelay)
 			retryDelay *= 5
