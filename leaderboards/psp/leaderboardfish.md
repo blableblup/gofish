@@ -4,11 +4,11 @@
 | 1 🥇 | jr_mime | 73 |
 | 2 🥈 | thasbe | 48 |
 | 3 🥉 | yopego | 47 |
-| 4 | amu1g | 37 |
 | 4 | pengeg | 37 |
-| 6 | divra__ | 33 |
-| 7 | mikel1g | 31 |
-| 8 | jems______ | 30 |
+| 4 | amu1g | 37 |
+| 6 ⬆| jems______ | 35 (+5) |
+| 7 ⬇| divra__ | 33 |
+| 8 ⬇| mikel1g | 31 |
 | 9 | noconcept_ | 29 |
 | 10 | creepycode1337 | 26 |
 | 11 | zwockel01 | 24 |
