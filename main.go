@@ -53,7 +53,7 @@ func main() {
 		leaderboards.RunTournaments(*chatNames, *leaderboard)
 
 	case "wght":
-		fmt.Printf("Running %s program...\n", *program)
+		fmt.Printf("Running %s program", *program)
 		if *mode != "" {
 			fmt.Printf(" in mode '%s'", *mode)
 		}
