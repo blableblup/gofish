@@ -3,8 +3,8 @@ package leaderboards
 import (
 	"bufio"
 	"fmt"
-	"gofish/lists"
-	"gofish/other"
+	"gofish/playerdata"
+	"gofish/utils"
 	"os"
 	"path/filepath"
 	"regexp"
@@ -36,7 +36,7 @@ func RunTournaments(chatNames, leaderboard string) {
 	configFilePath := filepath.Join(wd, "config.json")
 
 	// Load the config from the constructed file path
-	config := other.LoadConfig(configFilePath)
+	config := utils.LoadConfig(configFilePath)
 
 	// Define point values
 	pointValues := map[string]float64{"Trophy": 3, "Silver": 1, "Bronze": 0.5}
@@ -75,11 +75,10 @@ func RunTournaments(chatNames, leaderboard string) {
 	}
 }
 
-func processTournaments(chatName string, chat other.ChatInfo, pointValues map[string]float64, leaderboard string) {
+func processTournaments(chatName string, chat utils.ChatInfo, pointValues map[string]float64, leaderboard string) {
 
-	// Import the lists from lists
-	cheaters := lists.ReadCheaters()
-	renamedChatters := lists.ReadRenamedChatters()
+	renamedChatters := playerdata.ReadRenamedChatters()
+	cheaters := playerdata.ReadCheaters()
 
 	// Get the current working directory
 	wd, err := os.Getwd()
@@ -88,7 +87,7 @@ func processTournaments(chatName string, chat other.ChatInfo, pointValues map[st
 		os.Exit(1)
 	}
 	// Open and read the logs file for the chat
-	logsFilePath := filepath.Join(wd, "logs", chat.Logs)
+	logsFilePath := filepath.Join(wd, "data", chat.Logs)
 	logs, err := os.Open(logsFilePath)
 	if err != nil {
 		panic(err)
@@ -122,7 +121,7 @@ func processTournaments(chatName string, chat other.ChatInfo, pointValues map[st
 				newPlayer = renamedChatters[player]
 			}
 
-			if other.Contains(cheaters, player) {
+			if utils.Contains(cheaters, player) {
 				continue // Skip processing for ignored players
 			}
 
@@ -224,7 +223,7 @@ func processTournaments(chatName string, chat other.ChatInfo, pointValues map[st
 // Function to write the Trophies leaderboard with emojis indicating ranking change and the change of trophies and medals in brackets
 func writeTrophiesLeaderboard(filePath string, playerCounts map[string]PlayerCounts, pointValues map[string]float64, titletrophies string) error {
 	// Call ReadOldTrophyRankings to get the trophy rankings
-	oldLeaderboardTrophy, err := other.ReadOldTrophyRankings(filePath)
+	oldLeaderboardTrophy, err := ReadOldTrophyRankings(filePath)
 	if err != nil {
 		return err
 	}
@@ -262,7 +261,7 @@ func writeTrophiesLeaderboard(filePath string, playerCounts map[string]PlayerCou
 	}
 
 	// Sort players by total points
-	sortedPlayers := other.SortMapByValueDesc(totalPoints)
+	sortedPlayers := utils.SortMapByValueDesc(totalPoints)
 
 	// Write the leaderboard data
 	rank := 1
@@ -294,7 +293,7 @@ func writeTrophiesLeaderboard(filePath string, playerCounts map[string]PlayerCou
 			oldRank = info.Rank
 		}
 
-		changeEmoji := other.ChangeEmoji(rank, oldRank, found)
+		changeEmoji := utils.ChangeEmoji(rank, oldRank, found)
 
 		// Compare new counts to old counts and display the difference
 		trophiesDifference := playerCounts[player].Trophy - oldLeaderboardTrophy[player].Trophy
@@ -317,7 +316,7 @@ func writeTrophiesLeaderboard(filePath string, playerCounts map[string]PlayerCou
 			bronzeCount += fmt.Sprintf(" (+%d)", bronzeDifference)
 		}
 
-		ranks := other.Ranks(rank)
+		ranks := utils.Ranks(rank)
 
 		// Write the leaderboard row
 		_, err = fmt.Fprintf(file, "| %s %s| %s | %s | %s | %s | %.1f |\n", ranks, changeEmoji, player, trophyCount, silverCount, bronzeCount, totalPoints[player])
@@ -335,7 +334,7 @@ func writeTrophiesLeaderboard(filePath string, playerCounts map[string]PlayerCou
 // Function to write the Fish Week leaderboard with emojis indicating ranking change
 func writeFishWeekLeaderboard(filePath string, maxFishInWeek map[string]PlayerInfo, titlefishw string) error {
 	// Call ReadOldFishRankings to get the old fish rankings
-	oldLeaderboardFishW, err := other.ReadOldFishRankings(filePath)
+	oldLeaderboardFishW, err := ReadOldFishRankings(filePath)
 	if err != nil {
 		return err
 	}
@@ -366,8 +365,7 @@ func writeFishWeekLeaderboard(filePath string, maxFishInWeek map[string]PlayerIn
 		return err
 	}
 
-	// Import the list from lists
-	verifiedPlayers := lists.ReadVerifiedPlayers()
+	verifiedPlayers := playerdata.ReadVerifiedPlayers()
 
 	// Calculate total fish caught for each player
 	totalFishCaught := make(map[string]int)
@@ -376,7 +374,7 @@ func writeFishWeekLeaderboard(filePath string, maxFishInWeek map[string]PlayerIn
 	}
 
 	// Sort players by total fish caught
-	sortedPlayers := other.SortMapByValueDescInt(totalFishCaught)
+	sortedPlayers := utils.SortMapByValueDescInt(totalFishCaught)
 
 	// Write the leaderboard data
 	rank := 1
@@ -408,7 +406,7 @@ func writeFishWeekLeaderboard(filePath string, maxFishInWeek map[string]PlayerIn
 			oldRank = info.Rank
 		}
 
-		changeEmoji := other.ChangeEmoji(rank, oldRank, found)
+		changeEmoji := utils.ChangeEmoji(rank, oldRank, found)
 
 		// Construct the string with the difference in brackets
 		fishweekDifference := fishCount - oldLeaderboardFishW[player].Count
@@ -419,11 +417,11 @@ func writeFishWeekLeaderboard(filePath string, maxFishInWeek map[string]PlayerIn
 
 		// Write the leaderboard row with change indication
 		botIndicator := ""
-		if maxFishInWeek[player].Bot == "supibot" && !other.Contains(verifiedPlayers, player) {
+		if maxFishInWeek[player].Bot == "supibot" && !utils.Contains(verifiedPlayers, player) {
 			botIndicator = "*"
 		}
 
-		ranks := other.Ranks(rank)
+		ranks := utils.Ranks(rank)
 
 		_, err = fmt.Fprintf(file, "| %s %s| %s%s | %s |\n", ranks, changeEmoji, player, botIndicator, fishWeekCount)
 		if err != nil {

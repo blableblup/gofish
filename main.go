@@ -5,9 +5,8 @@ package main
 import (
 	"flag"
 	"fmt"
+	"gofish/data"
 	"gofish/leaderboards"
-	"gofish/logs"
-	"gofish/other"
 )
 
 func main() {
@@ -67,11 +66,11 @@ func main() {
 
 	case "logs":
 		fmt.Println("Running logs program...")
-		logs.RunLogs(*chatNames, *numMonths, *monthYear)
+		data.RunLogs(*chatNames, *numMonths, *monthYear)
 
-	case "test1":
-		fmt.Println("Running test1 program...")
-		other.RunTest1()
+	// case "test1":
+	// 	fmt.Println("Running test1 program...")
+	// 	other.RunTest1()
 
 	default:
 		fmt.Println("Invalid program specified.")

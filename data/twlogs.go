@@ -1,9 +1,8 @@
-package logs
+package data
 
 import (
 	"encoding/csv"
 	"fmt"
-	"gofish/other"
 	"os"
 	"path/filepath"
 )
@@ -43,9 +42,9 @@ func concatRecord(record []string) string {
 }
 
 // Function to write weight log
-func WriteWeightLog(chatName string, record string, newWeightRecord map[string]other.Record) {
+func WriteWeightLog(chatName string, record string, newWeightRecord map[string]Record) {
 	// Construct the absolute path to the weight log file
-	logFilePath := filepath.Join("logs", chatName, "weightlogs.csv")
+	logFilePath := filepath.Join("data", chatName, "weightlogs.csv")
 
 	// Ensure directory exists
 	if err := os.MkdirAll(filepath.Dir(logFilePath), 0755); err != nil {
@@ -95,9 +94,9 @@ func WriteWeightLog(chatName string, record string, newWeightRecord map[string]o
 }
 
 // Function to write type log
-func WriteTypeLog(chatName string, record string, newTypeRecord map[string]other.Record) {
+func WriteTypeLog(chatName string, record string, newTypeRecord map[string]Record) {
 	// Construct the absolute path to the type log file
-	logFilePath := filepath.Join("logs", chatName, "typelogs.csv")
+	logFilePath := filepath.Join("data", chatName, "typelogs.csv")
 
 	// Ensure directory exists
 	if err := os.MkdirAll(filepath.Dir(logFilePath), 0755); err != nil {

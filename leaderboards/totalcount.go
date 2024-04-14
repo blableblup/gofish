@@ -2,8 +2,9 @@ package leaderboards
 
 import (
 	"fmt"
-	"gofish/lists"
-	"gofish/other"
+	"gofish/data"
+	"gofish/playerdata"
+	"gofish/utils"
 	"os"
 	"path/filepath"
 	"strings"
@@ -23,7 +24,7 @@ func RunTotalcount(chatNames, leaderboard string, numMonths int, monthYear strin
 	configFilePath := filepath.Join(wd, "config.json")
 
 	// Load the config from the constructed file path
-	config := other.LoadConfig(configFilePath)
+	config := utils.LoadConfig(configFilePath)
 
 	switch chatNames {
 	case "all":
@@ -34,7 +35,7 @@ func RunTotalcount(chatNames, leaderboard string, numMonths int, monthYear strin
 				continue // Skip processing if check_enabled is false
 			}
 			fmt.Printf("Checking chat '%s'.\n", chatName)
-			urls := other.CreateURL(chatName, numMonths, monthYear)
+			urls := utils.CreateURL(chatName, numMonths, monthYear)
 			processTotalcount(urls, chatName, chat, leaderboard)
 		}
 	case "":
@@ -53,13 +54,13 @@ func RunTotalcount(chatNames, leaderboard string, numMonths int, monthYear strin
 				continue // Skip processing if check_enabled is false
 			}
 			fmt.Printf("Checking chat '%s'.\n", chatName)
-			urls := other.CreateURL(chatName, numMonths, monthYear)
+			urls := utils.CreateURL(chatName, numMonths, monthYear)
 			processTotalcount(urls, chatName, chat, leaderboard)
 		}
 	}
 }
 
-func processTotalcount(urls []string, chatName string, chat other.ChatInfo, leaderboard string) {
+func processTotalcount(urls []string, chatName string, chat utils.ChatInfo, leaderboard string) {
 
 	// Define maps to hold the results
 	fishCaught := make(map[string]int)
@@ -77,7 +78,7 @@ func processTotalcount(urls []string, chatName string, chat other.ChatInfo, lead
 		wg.Add(1)
 		go func(url string, fishCaughtCopy map[string]int) {
 			defer wg.Done()
-			fishCounts, err := other.CountFishCaught(url, fishCaughtCopy)
+			fishCounts, err := data.CountFishCaught(url, fishCaughtCopy)
 			if err != nil {
 				fmt.Println("Error counting fish caught:", err)
 				return
@@ -130,7 +131,7 @@ func processTotalcount(urls []string, chatName string, chat other.ChatInfo, lead
 // Function to write the Totalcount leaderboard with emojis indicating ranking change and the count change in brackets
 func writeTotalcount(filePath string, fishCaught map[string]int, titletotalcount string) error {
 	// Call ReadTotalcountRankings to get the totalcount rankings
-	oldLeaderboardCount, err := other.ReadTotalcountRankings(filePath)
+	oldLeaderboardCount, err := ReadTotalcountRankings(filePath)
 	if err != nil {
 		return err
 	}
@@ -161,8 +162,7 @@ func writeTotalcount(filePath string, fishCaught map[string]int, titletotalcount
 		return err
 	}
 
-	// Import the list from lists
-	verifiedPlayers := lists.ReadVerifiedPlayers()
+	verifiedPlayers := playerdata.ReadVerifiedPlayers()
 
 	// Extract count from fishCount map
 	fishCount := make(map[string]int)
@@ -171,7 +171,7 @@ func writeTotalcount(filePath string, fishCaught map[string]int, titletotalcount
 	}
 
 	// Sort players by their fish count
-	sortedPlayers := other.SortMapByValueDescInt(fishCaught)
+	sortedPlayers := utils.SortMapByValueDescInt(fishCaught)
 
 	// Write the leaderboard data
 	rank := 1
@@ -203,7 +203,7 @@ func writeTotalcount(filePath string, fishCaught map[string]int, titletotalcount
 			oldRank = info.Rank
 		}
 
-		changeEmoji := other.ChangeEmoji(rank, oldRank, found)
+		changeEmoji := utils.ChangeEmoji(rank, oldRank, found)
 
 		// Getting the old count
 		oldCount := count // Default value if the old weight is not found
@@ -232,11 +232,11 @@ func writeTotalcount(filePath string, fishCaught map[string]int, titletotalcount
 		}
 
 		botIndicator := ""
-		if oldBot == "supibot" && !other.Contains(verifiedPlayers, player) {
+		if oldBot == "supibot" && !utils.Contains(verifiedPlayers, player) {
 			botIndicator = "*"
 		}
 
-		ranks := other.Ranks(rank)
+		ranks := utils.Ranks(rank)
 
 		// Write the leaderboard row
 		_, err := fmt.Fprintf(file, "| %s %s | %s%s | %s |\n", ranks, changeEmoji, player, botIndicator, counts)
