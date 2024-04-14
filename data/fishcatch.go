@@ -1,11 +1,14 @@
-package other
+package data
 
 import (
 	"fmt"
-	"gofish/lists"
+	"gofish/playerdata"
+	"gofish/utils"
+	"log"
 	"regexp"
 	"strconv"
 	"strings"
+	"time"
 
 	"github.com/valyala/fasthttp"
 )
@@ -43,8 +46,8 @@ func CatchWeightType(url string, newRecordWeight map[string]Record, newRecordTyp
 	// Extract text content from the response body
 	textContent := string(resp.Body())
 
-	cheaters := lists.ReadCheaters()
-	renamedChatters := lists.ReadRenamedChatters()
+	cheaters := playerdata.ReadCheaters()
+	renamedChatters := playerdata.ReadRenamedChatters()
 
 	// Define the patterns for fish catches
 	patterns := []*regexp.Regexp{
@@ -75,12 +78,12 @@ func CatchWeightType(url string, newRecordWeight map[string]Record, newRecordTyp
 			newPlayer = renamedChatters[player]
 		}
 
-		if Contains(cheaters, player) {
+		if utils.Contains(cheaters, player) {
 			continue // Skip processing for ignored players
 		}
 
 		// Update fish type if it has an equivalent
-		if equivalent := EquivalentFishType(fishType); equivalent != "" {
+		if equivalent := utils.EquivalentFishType(fishType); equivalent != "" {
 			fishType = equivalent
 		}
 
@@ -201,53 +204,75 @@ func extractInfoFromReleasePattern(match []string) Record {
 
 // Define a function to count the amount of fish caught by each player
 func CountFishCaught(url string, fishCaught map[string]int) (map[string]int, error) {
-	// Fetch data from the URL
-	req := fasthttp.AcquireRequest()
-	req.SetRequestURI(url)
-	resp := fasthttp.AcquireResponse()
-	defer fasthttp.ReleaseRequest(req)
-	defer fasthttp.ReleaseResponse(resp)
+	const maxRetries = 5
+	retryDelay := time.Second // Initial delay before first retry
 
-	if err := fasthttp.Do(req, resp); err != nil {
-		return nil, err
-	}
+	for i := 0; i < maxRetries; i++ {
+		req := fasthttp.AcquireRequest()
+		req.SetRequestURI(url)
+		defer fasthttp.ReleaseRequest(req)
 
-	// Extract text content from the response body
-	textContent := string(resp.Body())
+		resp := fasthttp.AcquireResponse()
+		defer fasthttp.ReleaseResponse(resp)
 
-	cheaters := lists.ReadCheaters()
-	renamedChatters := lists.ReadRenamedChatters()
-
-	// Define the patterns for fish catches
-	patterns := []*regexp.Regexp{
-		mouthPattern,
-		releasePattern,
-		normalPattern,
-		jumpedPattern,
-		birdPattern,
-	}
-
-	// Extract information about fish catches from the text content using multiple patterns
-	fishCatches := extractInfoFromPatterns(textContent, patterns)
-
-	// Process extracted information and count the number of fish caught by each player
-	for _, fishCatch := range fishCatches {
-		player := fishCatch.Player
-
-		// Change to the latest name
-		newPlayer := renamedChatters[player]
-		for newPlayer != "" {
-			player = newPlayer
-			newPlayer = renamedChatters[player]
+		if err := fasthttp.Do(req, resp); err != nil {
+			// Log the error and retry
+			log.Printf("Error fetching data from URL %s: %v\n", url, err)
+			time.Sleep(retryDelay)
+			retryDelay *= 5
+			continue
 		}
 
-		if Contains(cheaters, player) {
-			continue // Skip processing for ignored players
+		// Check for HTTP error status codes
+		if resp.StatusCode() != fasthttp.StatusOK {
+			// Log the unexpected status code
+			log.Printf("Unexpected HTTP status code %d for URL: %s\n", resp.StatusCode(), url)
+			time.Sleep(retryDelay)
+			retryDelay *= 5
+			continue
 		}
 
-		// Increase the count of fish caught by the player
-		fishCaught[player]++
+		// Extract text content from the response body
+		textContent := string(resp.Body())
+
+		cheaters := playerdata.ReadCheaters()
+		renamedChatters := playerdata.ReadRenamedChatters()
+
+		// Define the patterns for fish catches
+		patterns := []*regexp.Regexp{
+			mouthPattern,
+			releasePattern,
+			normalPattern,
+			jumpedPattern,
+			birdPattern,
+		}
+
+		// Extract information about fish catches from the text content using multiple patterns
+		fishCatches := extractInfoFromPatterns(textContent, patterns)
+
+		// Process extracted information and count the number of fish caught by each player
+		for _, fishCatch := range fishCatches {
+			player := fishCatch.Player
+
+			// Change to the latest name
+			newPlayer := renamedChatters[player]
+			for newPlayer != "" {
+				player = newPlayer
+				newPlayer = renamedChatters[player]
+			}
+
+			if utils.Contains(cheaters, player) {
+				continue // Skip processing for ignored players
+			}
+
+			// Increase the count of fish caught by the player
+			fishCaught[player]++
+		}
+
+		fmt.Println("Finished counting fish caught for", url)
+		return fishCaught, nil // Return successfully fetched data
 	}
-	fmt.Println("Finished counting fish caught for", url)
-	return fishCaught, nil
+
+	// Return an error if maximum retries reached
+	return nil, fmt.Errorf("reached maximum retries, unable to fetch data from URL: %s", url)
 }

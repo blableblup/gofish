@@ -1,8 +1,9 @@
-package other
+package leaderboards
 
 import (
 	"bufio"
-	"gofish/lists"
+	"gofish/playerdata"
+	"gofish/utils"
 	"os"
 	"regexp"
 	"strconv"
@@ -25,8 +26,8 @@ type LeaderboardInfo struct {
 // Function to read and extract the old fish per week leaderboard from the leaderboard file
 func ReadOldFishRankings(filePath string) (map[string]LeaderboardInfo, error) {
 	oldLeaderboardFishW := make(map[string]LeaderboardInfo)
-	renamedChatters := lists.ReadRenamedChatters()
-	cheaters := lists.ReadCheaters()
+	renamedChatters := playerdata.ReadRenamedChatters()
+	cheaters := playerdata.ReadCheaters()
 
 	// Open the file
 	file, err := os.Open(filePath)
@@ -63,7 +64,7 @@ func ReadOldFishRankings(filePath string) (map[string]LeaderboardInfo, error) {
 				newPlayer = renamedChatters[player]
 			}
 
-			if Contains(cheaters, player) {
+			if utils.Contains(cheaters, player) {
 				continue // Skip processing for ignored players
 			}
 
@@ -87,8 +88,8 @@ func ReadOldFishRankings(filePath string) (map[string]LeaderboardInfo, error) {
 // Function to read and extract the old trophies leaderboard from the leaderboard file
 func ReadOldTrophyRankings(filePath string) (map[string]LeaderboardInfo, error) {
 	oldLeaderboardTrophy := make(map[string]LeaderboardInfo)
-	renamedChatters := lists.ReadRenamedChatters()
-	cheaters := lists.ReadCheaters()
+	renamedChatters := playerdata.ReadRenamedChatters()
+	cheaters := playerdata.ReadCheaters()
 
 	// Open the file
 	file, err := os.Open(filePath)
@@ -125,7 +126,7 @@ func ReadOldTrophyRankings(filePath string) (map[string]LeaderboardInfo, error) 
 				newPlayer = renamedChatters[player]
 			}
 
-			if Contains(cheaters, player) {
+			if utils.Contains(cheaters, player) {
 				continue // Skip processing for ignored players
 			}
 
@@ -155,8 +156,8 @@ func ReadOldTrophyRankings(filePath string) (map[string]LeaderboardInfo, error) 
 // Function to read and extract the old weight leaderboard from the leaderboard file
 func ReadWeightRankings(filePath string) (map[string]LeaderboardInfo, error) {
 	oldLeaderboardWeight := make(map[string]LeaderboardInfo)
-	renamedChatters := lists.ReadRenamedChatters()
-	cheaters := lists.ReadCheaters()
+	renamedChatters := playerdata.ReadRenamedChatters()
+	cheaters := playerdata.ReadCheaters()
 
 	// Open the file
 	file, err := os.Open(filePath)
@@ -195,13 +196,13 @@ func ReadWeightRankings(filePath string) (map[string]LeaderboardInfo, error) {
 				newPlayer = renamedChatters[player]
 			}
 
-			if Contains(cheaters, player) {
+			if utils.Contains(cheaters, player) {
 				continue // Skip processing for ignored players
 			}
 
 			fishType := strings.TrimSpace(parts[3])
 			// Update fish type if it has an equivalent
-			if equivalent := EquivalentFishType(fishType); equivalent != "" {
+			if equivalent := utils.EquivalentFishType(fishType); equivalent != "" {
 				fishType = equivalent
 			}
 			oldWeightStr := strings.TrimSpace(parts[4])
@@ -237,8 +238,8 @@ func ReadWeightRankings(filePath string) (map[string]LeaderboardInfo, error) {
 // Function to read and extract the old type leaderboard from the leaderboard file
 func ReadTypeRankings(filePath string) (map[string]LeaderboardInfo, error) {
 	oldLeaderboardType := make(map[string]LeaderboardInfo)
-	renamedChatters := lists.ReadRenamedChatters()
-	cheaters := lists.ReadCheaters()
+	renamedChatters := playerdata.ReadRenamedChatters()
+	cheaters := playerdata.ReadCheaters()
 
 	// Open the file
 	file, err := os.Open(filePath)
@@ -265,7 +266,7 @@ func ReadTypeRankings(filePath string) (map[string]LeaderboardInfo, error) {
 			}
 			fishType := strings.TrimSpace(parts[2])
 			// Update fish type if it has an equivalent
-			if equivalent := EquivalentFishType(fishType); equivalent != "" {
+			if equivalent := utils.EquivalentFishType(fishType); equivalent != "" {
 				fishType = equivalent
 			}
 			player := strings.TrimSpace(parts[4])
@@ -282,7 +283,7 @@ func ReadTypeRankings(filePath string) (map[string]LeaderboardInfo, error) {
 				newPlayer = renamedChatters[player]
 			}
 
-			if Contains(cheaters, player) {
+			if utils.Contains(cheaters, player) {
 				continue // Skip processing for ignored players
 			}
 
@@ -319,8 +320,8 @@ func ReadTypeRankings(filePath string) (map[string]LeaderboardInfo, error) {
 // Function to read and extract the old totalcount leaderboard from the leaderboard file
 func ReadTotalcountRankings(filePath string) (map[string]LeaderboardInfo, error) {
 	oldLeaderboardCount := make(map[string]LeaderboardInfo)
-	renamedChatters := lists.ReadRenamedChatters()
-	cheaters := lists.ReadCheaters()
+	renamedChatters := playerdata.ReadRenamedChatters()
+	cheaters := playerdata.ReadCheaters()
 
 	// Open the file
 	file, err := os.Open(filePath)
@@ -359,7 +360,7 @@ func ReadTotalcountRankings(filePath string) (map[string]LeaderboardInfo, error)
 				newPlayer = renamedChatters[player]
 			}
 
-			if Contains(cheaters, player) {
+			if utils.Contains(cheaters, player) {
 				continue // Skip processing for ignored players
 			}
 

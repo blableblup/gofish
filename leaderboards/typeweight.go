@@ -2,9 +2,9 @@ package leaderboards
 
 import (
 	"fmt"
-	"gofish/lists"
-	"gofish/logs"
-	"gofish/other"
+	"gofish/data"
+	"gofish/playerdata"
+	"gofish/utils"
 	"os"
 	"path/filepath"
 	"strings"
@@ -23,7 +23,7 @@ func RunTypeWeight(chatNames, leaderboard string, numMonths int, monthYear strin
 	configFilePath := filepath.Join(wd, "config.json")
 
 	// Load the config from the constructed file path
-	config := other.LoadConfig(configFilePath)
+	config := utils.LoadConfig(configFilePath)
 
 	switch chatNames {
 	case "all":
@@ -35,7 +35,7 @@ func RunTypeWeight(chatNames, leaderboard string, numMonths int, monthYear strin
 			}
 
 			fmt.Printf("Checking chat '%s'.\n", chatName)
-			urls := other.CreateURL(chatName, numMonths, monthYear)
+			urls := utils.CreateURL(chatName, numMonths, monthYear)
 			processTypeWeight(urls, chatName, chat, leaderboard, mode)
 		}
 	case "":
@@ -55,34 +55,34 @@ func RunTypeWeight(chatNames, leaderboard string, numMonths int, monthYear strin
 			}
 
 			fmt.Printf("Checking chat '%s'.\n", chatName)
-			urls := other.CreateURL(chatName, numMonths, monthYear)
+			urls := utils.CreateURL(chatName, numMonths, monthYear)
 			processTypeWeight(urls, chatName, chat, leaderboard, mode)
 		}
 	}
 }
 
-func processTypeWeight(urls []string, chatName string, chat other.ChatInfo, leaderboard string, mode string) {
+func processTypeWeight(urls []string, chatName string, chat utils.ChatInfo, leaderboard string, mode string) {
 
-	oldRecordWeight, err := other.ReadWeightRankings(chat.Weight)
+	oldRecordWeight, err := ReadWeightRankings(chat.Weight)
 	if err != nil {
 		fmt.Println("Error reading old weight leaderboard:", err)
 		return
 	}
 
-	oldRecordType, err := other.ReadTypeRankings(chat.Type)
+	oldRecordType, err := ReadTypeRankings(chat.Type)
 	if err != nil {
 		fmt.Println("Error reading old type leaderboard:", err)
 		return
 	}
 
 	// Define maps to hold the results
-	newRecordWeight := make(map[string]other.Record)
-	newRecordType := make(map[string]other.Record)
+	newRecordWeight := make(map[string]data.Record)
+	newRecordType := make(map[string]data.Record)
 
 	// Define a struct to hold the results from CatchNormal
 	type CatchResults struct {
-		Weight map[string]other.Record
-		Type   map[string]other.Record
+		Weight map[string]data.Record
+		Type   map[string]data.Record
 		Err    error
 	}
 
@@ -96,7 +96,7 @@ func processTypeWeight(urls []string, chatName string, chat other.ChatInfo, lead
 	for _, url := range urls {
 		go func(url string) {
 			// Call CatchNormal with the created maps
-			newRecordWeight, newRecordType, err := other.CatchWeightType(url, newRecordWeight, newRecordType, Weightlimit)
+			newRecordWeight, newRecordType, err := data.CatchWeightType(url, newRecordWeight, newRecordType, Weightlimit)
 			catchResults <- CatchResults{Weight: newRecordWeight, Type: newRecordType, Err: err}
 		}(url)
 	}
@@ -122,12 +122,12 @@ func processTypeWeight(urls []string, chatName string, chat other.ChatInfo, lead
 	}
 
 	// Create maps to store updated records
-	recordWeight := make(map[string]other.Record)
-	recordType := make(map[string]other.Record)
+	recordWeight := make(map[string]data.Record)
+	recordType := make(map[string]data.Record)
 
 	// Compare old weight records with new ones and update if necessary
 	for player, oldWeightRecord := range oldRecordWeight {
-		oldWeightRecordConverted := other.ConvertToRecord(oldWeightRecord)
+		oldWeightRecordConverted := ConvertToRecord(oldWeightRecord)
 		newWeightRecord, exists := newRecordWeight[player]
 		if !exists {
 			// If the player doesn't have a new record, add their old record to recordWeight
@@ -139,7 +139,7 @@ func processTypeWeight(urls []string, chatName string, chat other.ChatInfo, lead
 			if mode != "c" {
 				record := "updated"
 				// Log the updated record
-				logs.WriteWeightLog(chatName, record, map[string]other.Record{player: newWeightRecord})
+				data.WriteWeightLog(chatName, record, map[string]data.Record{player: newWeightRecord})
 			}
 		} else {
 			// If the new weight is not greater, keep the old record
@@ -156,14 +156,14 @@ func processTypeWeight(urls []string, chatName string, chat other.ChatInfo, lead
 			if mode != "c" {
 				record := "new"
 				// Log the new record
-				logs.WriteWeightLog(chatName, record, map[string]other.Record{player: newWeightRecord})
+				data.WriteWeightLog(chatName, record, map[string]data.Record{player: newWeightRecord})
 			}
 		}
 	}
 
 	// Compare old type records with new ones and update if necessary
 	for fishType, oldTypeRecord := range oldRecordType {
-		oldTypeRecordConverted := other.ConvertToRecord(oldTypeRecord)
+		oldTypeRecordConverted := ConvertToRecord(oldTypeRecord)
 		newTypeRecord, exists := newRecordType[fishType]
 		if !exists {
 			// If the fish type doesn't have a new record, add their old record to recordType
@@ -175,7 +175,7 @@ func processTypeWeight(urls []string, chatName string, chat other.ChatInfo, lead
 			if mode != "c" {
 				record := "updated"
 				// Log the updated record
-				logs.WriteTypeLog(chatName, record, map[string]other.Record{fishType: newTypeRecord})
+				data.WriteTypeLog(chatName, record, map[string]data.Record{fishType: newTypeRecord})
 			}
 		} else {
 			// If the new weight is not greater, keep the old record
@@ -192,7 +192,7 @@ func processTypeWeight(urls []string, chatName string, chat other.ChatInfo, lead
 			if mode != "c" {
 				record := "new"
 				// Log the new record
-				logs.WriteTypeLog(chatName, record, map[string]other.Record{fishType: newTypeRecord})
+				data.WriteTypeLog(chatName, record, map[string]data.Record{fishType: newTypeRecord})
 			}
 		}
 	}
@@ -248,9 +248,9 @@ func processTypeWeight(urls []string, chatName string, chat other.ChatInfo, lead
 	}
 }
 
-func writeWeightLeaderboard(filePath string, recordWeight map[string]other.Record, titleweight string, isGlobal bool) error {
+func writeWeightLeaderboard(filePath string, recordWeight map[string]data.Record, titleweight string, isGlobal bool) error {
 	// Call ReadWeightRankings to get the weight rankings
-	oldLeaderboardWeight, err := other.ReadWeightRankings(filePath)
+	oldLeaderboardWeight, err := ReadWeightRankings(filePath)
 	if err != nil {
 		return err
 	}
@@ -291,8 +291,7 @@ func writeWeightLeaderboard(filePath string, recordWeight map[string]other.Recor
 		return err
 	}
 
-	// Import the list from lists
-	verifiedPlayers := lists.ReadVerifiedPlayers()
+	verifiedPlayers := playerdata.ReadVerifiedPlayers()
 
 	// Extract weights and fish types from recordWeight map
 	weights := make(map[string]float64)
@@ -303,7 +302,7 @@ func writeWeightLeaderboard(filePath string, recordWeight map[string]other.Recor
 	}
 
 	// Sort players by the weight of their fish
-	sortedPlayers := other.SortMapByValueDesc(weights)
+	sortedPlayers := utils.SortMapByValueDesc(weights)
 
 	// Write the leaderboard data
 	rank := 1
@@ -336,7 +335,7 @@ func writeWeightLeaderboard(filePath string, recordWeight map[string]other.Recor
 			oldRank = info.Rank
 		}
 
-		changeEmoji := other.ChangeEmoji(rank, oldRank, found)
+		changeEmoji := utils.ChangeEmoji(rank, oldRank, found)
 
 		// Getting the old weight
 		oldWeight := weight // Default value if the old weight is not found
@@ -358,11 +357,11 @@ func writeWeightLeaderboard(filePath string, recordWeight map[string]other.Recor
 		}
 
 		botIndicator := ""
-		if recordWeight[player].Bot == "supibot" && !other.Contains(verifiedPlayers, player) {
+		if recordWeight[player].Bot == "supibot" && !utils.Contains(verifiedPlayers, player) {
 			botIndicator = "*"
 		}
 
-		ranks := other.Ranks(rank)
+		ranks := utils.Ranks(rank)
 
 		// Write the leaderboard row
 		_, err = fmt.Fprintf(file, "| %s %s | %s%s | %s | %s |", ranks, changeEmoji, player, botIndicator, fishType, fishweight)
@@ -387,9 +386,9 @@ func writeWeightLeaderboard(filePath string, recordWeight map[string]other.Recor
 	return nil
 }
 
-func writeTypeLeaderboard(filePath string, recordType map[string]other.Record, titletype string, isGlobal bool) error {
+func writeTypeLeaderboard(filePath string, recordType map[string]data.Record, titletype string, isGlobal bool) error {
 	// Call ReadOldTypeRankings to get the type rankings
-	oldLeaderboardType, err := other.ReadTypeRankings(filePath)
+	oldLeaderboardType, err := ReadTypeRankings(filePath)
 	if err != nil {
 		return err
 	}
@@ -435,7 +434,7 @@ func writeTypeLeaderboard(filePath string, recordType map[string]other.Record, t
 	}
 
 	// Import the list from lists
-	verifiedPlayers := lists.ReadVerifiedPlayers()
+	verifiedPlayers := playerdata.ReadVerifiedPlayers()
 
 	// Extract weights and players from recordType map
 	weights := make(map[string]float64)
@@ -446,7 +445,7 @@ func writeTypeLeaderboard(filePath string, recordType map[string]other.Record, t
 	}
 
 	// Sort types by their biggest weight
-	sortedTypes := other.SortMapByValueDesc(weights)
+	sortedTypes := utils.SortMapByValueDesc(weights)
 
 	// Write the leaderboard data
 	rank := 1
@@ -479,7 +478,7 @@ func writeTypeLeaderboard(filePath string, recordType map[string]other.Record, t
 			oldRank = info.Rank
 		}
 
-		changeEmoji := other.ChangeEmoji(rank, oldRank, found)
+		changeEmoji := utils.ChangeEmoji(rank, oldRank, found)
 
 		// Getting the old weight
 		oldWeight := weight // Default value if the old weight is not found
@@ -501,11 +500,11 @@ func writeTypeLeaderboard(filePath string, recordType map[string]other.Record, t
 		}
 
 		botIndicator := ""
-		if recordType[fishType].Bot == "supibot" && !other.Contains(verifiedPlayers, player) {
+		if recordType[fishType].Bot == "supibot" && !utils.Contains(verifiedPlayers, player) {
 			botIndicator = "*"
 		}
 
-		ranks := other.Ranks(rank)
+		ranks := utils.Ranks(rank)
 
 		_, err = fmt.Fprintf(file, "| %s %s | %s | %s | %s%s |", ranks, changeEmoji, fishType, fishweight, player, botIndicator)
 		if isGlobal {

@@ -2,7 +2,8 @@ package leaderboards
 
 import (
 	"fmt"
-	"gofish/other"
+	"gofish/data"
+	"gofish/utils"
 	"os"
 	"path/filepath"
 )
@@ -19,7 +20,7 @@ func RunGlobal(leaderboard string) {
 	configFilePath := filepath.Join(wd, "config.json")
 
 	// Load the config from the constructed file path
-	config := other.LoadConfig(configFilePath)
+	config := utils.LoadConfig(configFilePath)
 
 	switch leaderboard {
 	case "type":
@@ -34,9 +35,9 @@ func RunGlobal(leaderboard string) {
 	}
 }
 
-func RunTypeGlobal(config other.Config) {
+func RunTypeGlobal(config utils.Config) {
 	// Create a map to store combined records
-	globalRecordType := make(map[string]other.Record)
+	globalRecordType := make(map[string]data.Record)
 
 	// Process all chats
 	for chatName, chat := range config.Chat {
@@ -45,7 +46,7 @@ func RunTypeGlobal(config other.Config) {
 			continue // Skip processing if check_enabled is false
 		}
 
-		oldRecordType, err := other.ReadTypeRankings(chat.Type)
+		oldRecordType, err := ReadTypeRankings(chat.Type)
 		if err != nil {
 			fmt.Printf("Error reading old type leaderboard for chat '%s': %v\n", chatName, err)
 			continue
@@ -53,7 +54,7 @@ func RunTypeGlobal(config other.Config) {
 
 		// Combine old type records into global record, keeping only the biggest record per fish type
 		for fishType, oldRecord := range oldRecordType {
-			convertedRecord := other.ConvertToRecord(oldRecord)
+			convertedRecord := ConvertToRecord(oldRecord)
 
 			existingRecord, exists := globalRecordType[fishType]
 			if !exists || convertedRecord.Weight > existingRecord.Weight {
@@ -67,9 +68,9 @@ func RunTypeGlobal(config other.Config) {
 	updateTypeLeaderboard(config, globalRecordType)
 }
 
-func RunWeightGlobal(config other.Config) {
+func RunWeightGlobal(config utils.Config) {
 	// Create a map to store combined records
-	globalRecordWeight := make(map[string]other.Record)
+	globalRecordWeight := make(map[string]data.Record)
 
 	// Get the weight limit from the "global" configuration
 	WeightLimit := config.Chat["global"].Weightlimit
@@ -81,7 +82,7 @@ func RunWeightGlobal(config other.Config) {
 			continue // Skip processing if check_enabled is false
 		}
 
-		oldRecordWeight, err := other.ReadWeightRankings(chat.Weight)
+		oldRecordWeight, err := ReadWeightRankings(chat.Weight)
 		if err != nil {
 			fmt.Printf("Error reading old weight leaderboard for chat '%s': %v\n", chatName, err)
 			continue
@@ -89,7 +90,7 @@ func RunWeightGlobal(config other.Config) {
 
 		// Combine old weight records into global record, keeping only the biggest record per player
 		for player, oldRecord := range oldRecordWeight {
-			convertedRecord := other.ConvertToRecord(oldRecord)
+			convertedRecord := ConvertToRecord(oldRecord)
 
 			if convertedRecord.Weight > WeightLimit {
 				existingRecord, exists := globalRecordWeight[player]
@@ -106,7 +107,7 @@ func RunWeightGlobal(config other.Config) {
 }
 
 // Update the type leaderboard
-func updateTypeLeaderboard(config other.Config, recordType map[string]other.Record) {
+func updateTypeLeaderboard(config utils.Config, recordType map[string]data.Record) {
 	fmt.Println("Updating global type leaderboard...")
 	title := "### Biggest fish per type caught globally\n"
 	isGlobal := true
@@ -119,7 +120,7 @@ func updateTypeLeaderboard(config other.Config, recordType map[string]other.Reco
 }
 
 // Update the weight leaderboard
-func updateWeightLeaderboard(config other.Config, recordWeight map[string]other.Record) {
+func updateWeightLeaderboard(config utils.Config, recordWeight map[string]data.Record) {
 	fmt.Println("Updating global weight leaderboard...")
 	title := "### Biggest fish caught per player globally\n"
 	isGlobal := true
@@ -128,5 +129,14 @@ func updateWeightLeaderboard(config other.Config, recordWeight map[string]other.
 		fmt.Println("Error writing weight leaderboard:", err)
 	} else {
 		fmt.Println("Global weight leaderboard updated successfully.")
+	}
+}
+
+func ConvertToRecord(info LeaderboardInfo) data.Record {
+	return data.Record{
+		Weight: info.Weight,
+		Type:   info.Type,
+		Bot:    info.Bot,
+		Player: info.Player,
 	}
 }

@@ -1,14 +1,14 @@
-package logs
+package data
 
 import (
 	"bufio"
 	"fmt"
-	"gofish/other"
+
+	"gofish/utils"
 	"io"
 	"net/http"
 	"os"
 	"path/filepath"
-	"runtime"
 	"strings"
 )
 
@@ -25,7 +25,7 @@ func RunLogs(chatNames string, numMonths int, monthYear string) {
 	configFilePath := filepath.Join(wd, "config.json")
 
 	// Load the config from the constructed file path
-	config := other.LoadConfig(configFilePath)
+	config := utils.LoadConfig(configFilePath)
 
 	switch chatNames {
 	case "all":
@@ -37,8 +37,8 @@ func RunLogs(chatNames string, numMonths int, monthYear string) {
 			}
 
 			fmt.Printf("Checking chat '%s'.\n", chatName)
-			urls := other.CreateURL(chatName, numMonths, monthYear)
-			fetchMatchingLines(chat, urls)
+			urls := utils.CreateURL(chatName, numMonths, monthYear)
+			fetchMatchingLines(chatName, urls)
 		}
 	case "":
 		fmt.Println("Please specify chat names.")
@@ -57,27 +57,20 @@ func RunLogs(chatNames string, numMonths int, monthYear string) {
 			}
 
 			fmt.Printf("Checking chat '%s'.\n", chatName)
-			urls := other.CreateURL(chatName, numMonths, monthYear)
-			fetchMatchingLines(chat, urls)
+			urls := utils.CreateURL(chatName, numMonths, monthYear)
+			fetchMatchingLines(chatName, urls)
 		}
 	}
 }
 
-func fetchMatchingLines(chat other.ChatInfo, urls []string) {
-	// Get the directory of the current source file
-	_, currentFilePath, _, _ := runtime.Caller(0)
-	currentFileDir := filepath.Dir(currentFilePath)
+func fetchMatchingLines(chatName string, urls []string) {
+	// Construct the absolute path to the log file
+	logFilePath := filepath.Join("data", chatName, "tournamentlogs.txt")
 
-	// Construct the absolute path to the logs directory relative to the current source file
-	logsDir := filepath.Join(currentFileDir, "")
-
-	// Check if the log file path is absolute
-	var logFilePath string
-	if filepath.IsAbs(chat.Logs) {
-		logFilePath = chat.Logs
-	} else {
-		// Construct the absolute path to the log file
-		logFilePath = filepath.Join(logsDir, chat.Logs)
+	// Ensure directory exists
+	if err := os.MkdirAll(filepath.Dir(logFilePath), 0755); err != nil {
+		fmt.Println("Error creating directory:", err)
+		return
 	}
 
 	// Fetch matching lines from each URL
@@ -164,8 +157,8 @@ func fetchMatchingLines(chat other.ChatInfo, urls []string) {
 				return
 			}
 		}
-		fmt.Printf("New results appended to %s\n", chat.Logs)
+		fmt.Printf("New results appended to %s\n", logFilePath)
 	} else {
-		fmt.Printf("No new results to append to %s\n", chat.Logs)
+		fmt.Printf("No new results to append to %s\n", logFilePath)
 	}
 }

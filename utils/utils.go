@@ -1,4 +1,4 @@
-package other
+package utils
 
 import (
 	"fmt"
@@ -109,13 +109,4 @@ func ChangeEmoji(rank int, oldRank int, found bool) string {
 	}
 
 	return changeEmoji
-}
-
-func ConvertToRecord(info LeaderboardInfo) Record {
-	return Record{
-		Weight: info.Weight,
-		Type:   info.Type,
-		Bot:    info.Bot,
-		Player: info.Player,
-	}
 }
