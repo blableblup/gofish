@@ -24,11 +24,11 @@ type Record struct {
 }
 
 // List of all the patterns
-var mouthPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), You caught a [✨🫧] (.*?) [✨🫧]! It weighs ([\d.]+) lbs. And!... (.*?)(?: \(([\d.]+) lbs\) was in its mouth)?!`)
-var releasePattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+\s?(\w+): [@👥]\s?(\w+), Bye bye (.*?)[!] 🫳🌊 ...Huh[?] ✨ Something is (glimmering|sparkling) in the ocean... [🥍] (.*?) Got`)
-var jumpedPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), Huh[?][!] ✨ Something jumped out of the water to snatch your rare candy! ...Got it! 🥍 (.*?) ([\d.]+) lbs`)
-var normalPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), You caught a [✨🫧] (.*?) [✨🫧]! It weighs ([\d.]+) lbs`)
-var birdPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): @\s?(\w+), Huh[?][!] 🪺 is hatching!... It's a 🪽 (.*?) 🪽! It weighs ([\d.]+) lbs`)
+var MouthPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), You caught a [✨🫧] (.*?) [✨🫧]! It weighs ([\d.]+) lbs. And!... (.*?)(?: \(([\d.]+) lbs\) was in its mouth)?!`)
+var ReleasePattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+\s?(\w+): [@👥]\s?(\w+), Bye bye (.*?)[!] 🫳🌊 ...Huh[?] ✨ Something is (glimmering|sparkling) in the ocean... [🥍] (.*?) Got`)
+var JumpedPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), Huh[?][!] ✨ Something jumped out of the water to snatch your rare candy! ...Got it! 🥍 (.*?) ([\d.]+) lbs`)
+var NormalPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), You caught a [✨🫧] (.*?) [✨🫧]! It weighs ([\d.]+) lbs`)
+var BirdPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): @\s?(\w+), Huh[?][!] 🪺 is hatching!... It's a 🪽 (.*?) 🪽! It weighs ([\d.]+) lbs`)
 
 func CatchWeightType(url string, newRecordWeight map[string]Record, newRecordType map[string]Record, Weightlimit float64) (map[string]Record, map[string]Record, error) {
 	const maxRetries = 5
@@ -67,11 +67,11 @@ func CatchWeightType(url string, newRecordWeight map[string]Record, newRecordTyp
 
 		// Define the patterns for fish catches
 		patterns := []*regexp.Regexp{
-			mouthPattern,
-			releasePattern,
-			normalPattern,
-			jumpedPattern,
-			birdPattern,
+			MouthPattern,
+			ReleasePattern,
+			NormalPattern,
+			JumpedPattern,
+			BirdPattern,
 		}
 
 		// Extract information about fish catches from the text content using multiple patterns
@@ -130,15 +130,15 @@ func extractInfoFromPatterns(textContent string, patterns []*regexp.Regexp) []Re
 			// Determine which extraction function to use based on the pattern
 			var extractFunc func([]string) Record
 			switch pattern {
-			case releasePattern:
+			case ReleasePattern:
 				extractFunc = extractInfoFromReleasePattern
-			case normalPattern:
+			case NormalPattern:
 				extractFunc = extractInfoFromNormalPattern
-			case mouthPattern:
+			case MouthPattern:
 				extractFunc = extractInfoFromMouthPattern
-			case jumpedPattern:
+			case JumpedPattern:
 				extractFunc = extractInfoFromNormalPattern
-			case birdPattern:
+			case BirdPattern:
 				extractFunc = extractInfoFromNormalPattern
 			}
 
@@ -260,11 +260,11 @@ func CountFishCaught(url string, fishCaught map[string]int) (map[string]int, err
 
 		// Define the patterns for fish catches
 		patterns := []*regexp.Regexp{
-			mouthPattern,
-			releasePattern,
-			normalPattern,
-			jumpedPattern,
-			birdPattern,
+			MouthPattern,
+			ReleasePattern,
+			NormalPattern,
+			JumpedPattern,
+			BirdPattern,
 		}
 
 		// Extract information about fish catches from the text content using multiple patterns

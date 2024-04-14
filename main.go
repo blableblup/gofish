@@ -7,11 +7,12 @@ import (
 	"fmt"
 	"gofish/data"
 	"gofish/leaderboards"
+	"gofish/scripts"
 )
 
 func main() {
 	// Define command line flags
-	program := flag.String("p", "", "Program name: trnm, wght, logs, count, global")
+	program := flag.String("p", "", "Program name: trnm, wght, logs, count, global,pattern")
 	chatNames := flag.String("s", "", "Comma-separated list of chat names")
 	leaderboard := flag.String("l", "", "Leaderboard name")
 	mode := flag.String("mm", "", "Modes are different for each program")
@@ -44,15 +45,15 @@ func main() {
 	// Call the appropriate function based on the program name
 	switch *program {
 	case "global":
-		fmt.Println("Running global program...")
+		fmt.Printf("Running %s program...\n", *program)
 		leaderboards.RunGlobal(*leaderboard)
 
 	case "trnm":
-		fmt.Println("Running tournaments program...")
+		fmt.Printf("Running %s program...\n", *program)
 		leaderboards.RunTournaments(*chatNames, *leaderboard)
 
 	case "wght":
-		fmt.Print("Running typeweight program")
+		fmt.Printf("Running %s program...\n", *program)
 		if *mode != "" {
 			fmt.Printf(" in mode '%s'", *mode)
 		}
@@ -61,16 +62,16 @@ func main() {
 		// Modes: "c", only prints new/updated records
 
 	case "count":
-		fmt.Println("Running totalcount program...")
+		fmt.Printf("Running %s program...\n", *program)
 		leaderboards.RunTotalcount(*chatNames, *leaderboard, *numMonths, *monthYear)
 
 	case "logs":
-		fmt.Println("Running logs program...")
+		fmt.Printf("Running %s program...\n", *program)
 		data.RunLogs(*chatNames, *numMonths, *monthYear)
 
-	// case "test1":
-	// 	fmt.Println("Running test1 program...")
-	// 	other.RunTest1()
+	case "pattern":
+		fmt.Printf("Running %s program...\n", *program)
+		scripts.RunPattern()
 
 	default:
 		fmt.Println("Invalid program specified.")
