@@ -116,5 +116,6 @@ func ConvertToRecord(info LeaderboardInfo) Record {
 		Weight: info.Weight,
 		Type:   info.Type,
 		Bot:    info.Bot,
+		Player: info.Player,
 	}
 }

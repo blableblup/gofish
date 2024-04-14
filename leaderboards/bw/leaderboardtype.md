@@ -29,7 +29,7 @@
 | 26  | 🐟 | 62.65 | derinturitierutz |
 | 27  | 🗡️ | 47.73 | xz_xz |
 | 28  | 🐸 | 46.72 | derinturitierutz |
-| 29  | 🦫 | 43.00 (+0.06) | suavvvvv |
+| 29  | 🦫 | 43.00 | suavvvvv |
 | 30  | 🐧 | 41.60 | osnyatsky* |
 | 31  | 🦀 | 38.91 | bussinongnocap |
 | 32  | 🐡 | 35.66 | crazytown_bananapants |
@@ -66,19 +66,21 @@
 | 63  | 🪝 | 4.98 | sussy_amonge |
 | 64  | 🥫 | 4.67 | qu4ttromila |
 | 65  | ☘️ | 3.98 | osnyatsky |
-| 66  | 🥪 | 2.96 | qu4ttromila |
-| 66  | ☂️ | 2.96 | kishma9 |
-| 66  | 🌹 | 2.96 | osnyatsky |
-| 69  | 🍬 | 2.60 | 5c33* |
-| 70  | 👟 | 2.00 | kishma9 |
-| 70  | 🧦 | 2.00 | osnyatsky* |
-| 70  | 🩴 | 2.00 | qu4ttromila |
-| 73  | 👢 | 1.98 | derinturitierutz |
-| 74  | 🌿 | 1.96 | dayzedinndaydreams |
-| 74  | 🩰 | 1.96 | dayzedinndaydreams |
-| 76  | ⛸️ | 1.94 | ryebreadward |
-| 77  | 🧣 | 0.99 | osnyatsky* |
-| 77  | 🧤 | 0.99 | sicklymaidrobot |
-| 77  | 🪶 | 0.99 | osnyatsky* |
+| 66 🆕 | 🐦‍⬛ | 3.16 | kishma9 |
+| 67 ⬇ | ☂️ | 2.96 | kishma9 |
+| 67 ⬇ | 🥪 | 2.96 | qu4ttromila |
+| 67 ⬇ | 🌹 | 2.96 | osnyatsky |
+| 70 ⬇ | 🍬 | 2.60 | 5c33* |
+| 71 ⬇ | 👟 | 2.00 | kishma9 |
+| 71 ⬇ | 🩴 | 2.00 | qu4ttromila |
+| 71 ⬇ | 🧦 | 2.00 | osnyatsky* |
+| 74 ⬇ | 👢 | 1.98 | derinturitierutz |
+| 75 ⬇ | 🌿 | 1.96 | dayzedinndaydreams |
+| 75 ⬇ | 🩰 | 1.96 | dayzedinndaydreams |
+| 77 ⬇ | ⛸️ | 1.94 | ryebreadward |
+| 78 🆕 | 🐦 | 1.30 | breadworms |
+| 79 ⬇ | 🧣 | 0.99 | osnyatsky* |
+| 79 ⬇ | 🧤 | 0.99 | sicklymaidrobot |
+| 79 ⬇ | 🪶 | 0.99 | osnyatsky* |
 
 _* = The fish was caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate._
