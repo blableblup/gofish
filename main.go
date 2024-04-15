@@ -17,7 +17,8 @@ func main() {
 	leaderboard := flag.String("l", "", "Leaderboard name")
 	mode := flag.String("mm", "", "Modes are different for each program")
 	numMonths := flag.Int("m", 1, "Number of past months")
-	monthYear := flag.String("d", "", "Specific month and year (yyyy/mm)")
+	monthYear := flag.String("dt", "", "Specific month and year (yyyy/mm)")
+	db := flag.String("db", "", "Database to update, fish (f) and tournament results (t)")
 
 	// Parse command line flags
 	flag.Parse()
@@ -69,6 +70,10 @@ func main() {
 		fmt.Printf("Running %s program...\n", *program)
 		data.RunLogs(*chatNames, *numMonths, *monthYear)
 
+	case "data":
+		fmt.Printf("Running %s program...\n", *program)
+		data.GetData(*chatNames, *db, *numMonths, *monthYear, *mode)
+
 	case "pattern":
 		fmt.Printf("Running %s program...\n", *program)
 		scripts.RunPattern()
@@ -101,6 +106,7 @@ func isValidModeForProgram(program, mode string) bool {
 	// Define valid modes for each program
 	validModes := map[string]map[string]bool{
 		"wght": {"c": true},
+		"data": {"c": true},
 	}
 
 	// Check if the provided mode is valid for the specified program
