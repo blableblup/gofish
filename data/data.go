@@ -37,7 +37,6 @@ func GetFishData(config utils.Config, chatNames string, numMonths int, monthYear
 
 	switch chatNames {
 	case "all":
-		// Process all chats
 		for chatName, chat := range config.Chat {
 			if !chat.CheckEnabled {
 				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
@@ -51,7 +50,6 @@ func GetFishData(config utils.Config, chatNames string, numMonths int, monthYear
 	case "":
 		fmt.Println("Please specify chat names.")
 	default:
-		// Process specified chat names
 		specifiedchatNames := strings.Split(chatNames, ",")
 		for _, chatName := range specifiedchatNames {
 			chat, ok := config.Chat[chatName]
@@ -95,14 +93,7 @@ func ProcessFishData(urls []string, chatName string, Chat utils.ChatInfo, mode s
 		}(url)
 	}
 
-	// Wait for all goroutines to finish
 	wg.Wait()
-
-	fmt.Println("Total number of fish caught in the checked URLs:", len(allFish)) // This is temporary since this can be done via sql later
-	if mode == "c" {
-		fmt.Printf("Finished checking for fish caught for chat '%s'.\n", chatName)
-		return
-	}
 
 	// Insert fish data into the database
 	pool, err := Connect()
@@ -115,11 +106,15 @@ func ProcessFishData(urls []string, chatName string, Chat utils.ChatInfo, mode s
 		fmt.Println("Error inserting fish data into database:", err)
 		return
 	}
-
-	fmt.Printf("Successfully inserted fish data into database for chat '%s'.\n", chatName)
 }
 
 func insertFishDataIntoDB(allFish []FishInfo, chatName string, pool *pgxpool.Pool) error {
+	// Construct the SQL statement for inserting fish data
+	tableName := "fish" + chatName
+	if err := ensureTableExists(pool, tableName); err != nil {
+		return err
+	}
+
 	// Begin a transaction
 	tx, err := pool.Begin(context.Background())
 	if err != nil {
@@ -128,18 +123,36 @@ func insertFishDataIntoDB(allFish []FishInfo, chatName string, pool *pgxpool.Poo
 	defer tx.Rollback(context.Background())
 
 	// Construct the SQL statement for inserting fish data
-	tableName := "Fish" + chatName
-	if err := ensureTableExists(pool, tableName); err != nil {
-		return err
-	}
 	query := fmt.Sprintf("INSERT INTO %s (fish_id, type, weight, catch_type, player, date, bot, chat) VALUES ($1, $2, $3, $4, $5, $6, $7, $8)", tableName)
 
-	// Iterate over all fish data and execute the SQL statement for each fish
+	var newFishCount int
+
 	for _, fish := range allFish {
-		_, err := tx.Exec(context.Background(), query, fish.FishId, fish.Type, fish.Weight, fish.CatchType, fish.Player, fish.Date, fish.Bot, fish.Chat)
+		// Check if the fish with the same fish_id already exists in the database
+		var count int
+		err := tx.QueryRow(context.Background(), "SELECT COUNT(*) FROM "+tableName+" WHERE fish_id = $1", fish.FishId).Scan(&count)
 		if err != nil {
 			return err
 		}
+
+		// Skip fish which already exist
+		if count > 0 {
+			continue
+		}
+
+		// Execute the SQL statement to insert the fish data
+		_, err = tx.Exec(context.Background(), query, fish.FishId, fish.Type, fish.Weight, fish.CatchType, fish.Player, fish.Date, fish.Bot, fish.Chat)
+		if err != nil {
+			return err
+		}
+
+		newFishCount++
+	}
+
+	if newFishCount > 0 {
+		fmt.Printf("Successfully inserted %d new fish into the database for chat '%s'.\n", newFishCount, chatName)
+	} else {
+		fmt.Printf("No new fish found to insert into the database for chat '%s'.\n", chatName)
 	}
 
 	// Commit the transaction
@@ -150,13 +163,16 @@ func insertFishDataIntoDB(allFish []FishInfo, chatName string, pool *pgxpool.Poo
 	return nil
 }
 
-// Change the type of pool in the function signature
 func ensureTableExists(pool *pgxpool.Pool, tableName string) error {
 	// Check if the table exists by querying the information_schema.tables
 	var exists bool
-	err := pool.QueryRow(context.Background(), "SELECT EXISTS (SELECT FROM information_schema.tables WHERE table_name = $1)", tableName).Scan(&exists)
+	err := pool.QueryRow(context.Background(), "SELECT EXISTS (SELECT 1 FROM information_schema.tables WHERE lower(table_name) = lower($1))", tableName).Scan(&exists)
 	if err != nil {
 		return err
+	}
+
+	if !exists {
+		fmt.Printf("Table '%s' does not exist, creating...\n", tableName)
 	}
 
 	// If the table doesn't exist, create it
@@ -168,7 +184,7 @@ func ensureTableExists(pool *pgxpool.Pool, tableName string) error {
                 weight FLOAT,
                 catch_type VARCHAR(255),
                 player VARCHAR(255),
-                date TIMESTAMP,
+                date TIMESTAMP WITH TIME ZONE,
                 bot VARCHAR(255),
                 chat VARCHAR(255)
             )
@@ -176,6 +192,8 @@ func ensureTableExists(pool *pgxpool.Pool, tableName string) error {
 		if err != nil {
 			return err
 		}
+
+		fmt.Printf("Table %s created successfully\n", tableName)
 	}
 
 	return nil
