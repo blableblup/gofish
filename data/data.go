@@ -9,6 +9,7 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
 )
 
@@ -123,7 +124,7 @@ func insertFishDataIntoDB(allFish []FishInfo, chatName string, pool *pgxpool.Poo
 	defer tx.Rollback(context.Background())
 
 	// Construct the SQL statement for inserting fish data
-	query := fmt.Sprintf("INSERT INTO %s (fish_id, type, weight, catch_type, player, date, bot, chat) VALUES ($1, $2, $3, $4, $5, $6, $7, $8)", tableName)
+	query := fmt.Sprintf("INSERT INTO %s (fish_id, type, typename, weight, catch_type, player, date, bot, chat) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)", tableName)
 
 	var newFishCount int
 
@@ -140,8 +141,31 @@ func insertFishDataIntoDB(allFish []FishInfo, chatName string, pool *pgxpool.Poo
 			continue
 		}
 
+		// Look up the fish name from the typename database based on the fish type
+		var typeName string
+		fishtablename := "typename"
+		if err := ensureTableExists(pool, fishtablename); err != nil {
+			return err
+		}
+		row := tx.QueryRow(context.Background(), "SELECT typename FROM "+fishtablename+"  WHERE type = $1", fish.Type)
+		if err := row.Scan(&typeName); err != nil {
+			if err == pgx.ErrNoRows {
+				// Fish type doesn't exist in the database, add it
+				if err := addFishType(pool, fish.Type); err != nil {
+					return err
+				}
+				// Query the fish name again
+				row = tx.QueryRow(context.Background(), "SELECT typename FROM "+fishtablename+"  WHERE type = $1", fish.Type)
+				if err := row.Scan(&typeName); err != nil {
+					return err
+				}
+			} else {
+				return err
+			}
+		}
+
 		// Execute the SQL statement to insert the fish data
-		_, err = tx.Exec(context.Background(), query, fish.FishId, fish.Type, fish.Weight, fish.CatchType, fish.Player, fish.Date, fish.Bot, fish.Chat)
+		_, err = tx.Exec(context.Background(), query, fish.FishId, fish.Type, typeName, fish.Weight, fish.CatchType, fish.Player, fish.Date, fish.Bot, fish.Chat)
 		if err != nil {
 			return err
 		}
@@ -175,25 +199,72 @@ func ensureTableExists(pool *pgxpool.Pool, tableName string) error {
 		fmt.Printf("Table '%s' does not exist, creating...\n", tableName)
 	}
 
-	// If the table doesn't exist, create it
+	// Create the appropriate table if it doesn't exist
 	if !exists {
-		_, err := pool.Exec(context.Background(), fmt.Sprintf(`
-            CREATE TABLE %s (
-                fish_id VARCHAR(255) PRIMARY KEY,
-                type VARCHAR(255),
-                weight FLOAT,
-                catch_type VARCHAR(255),
-                player VARCHAR(255),
-                date TIMESTAMP WITH TIME ZONE,
-                bot VARCHAR(255),
-                chat VARCHAR(255)
-            )
-        `, tableName))
+		switch {
+		case strings.HasPrefix(tableName, "fish"):
+			// Create the fish table
+			_, err := pool.Exec(context.Background(), fmt.Sprintf(`
+				CREATE TABLE %s (
+					fish_id VARCHAR(255) PRIMARY KEY,
+					type VARCHAR(255),
+					typename VARCHAR(255),
+					weight FLOAT,
+					catch_type VARCHAR(255),
+					player VARCHAR(255),
+					date TIMESTAMP,
+					bot VARCHAR(255),
+					chat VARCHAR(255)
+				)
+			`, tableName))
+			if err != nil {
+				return err
+			}
+
+			fmt.Printf("Table '%s' created successfully\n", tableName)
+		case tableName == "typename":
+			// Create the typename table
+			_, err := pool.Exec(context.Background(), fmt.Sprintf(`
+				CREATE TABLE %s (
+					type VARCHAR(255) PRIMARY KEY,
+					typename VARCHAR(255)
+				)
+			`, tableName))
+			if err != nil {
+				return err
+			}
+
+			fmt.Printf("Table '%s' created successfully\n", tableName)
+		default:
+			return fmt.Errorf("unsupported table name: %s", tableName)
+		}
+	}
+
+	return nil
+}
+
+func addFishType(pool *pgxpool.Pool, fishType string) error {
+	// Check if the fish type already exists in the typename table
+	var exists bool
+	err := pool.QueryRow(context.Background(), "SELECT EXISTS (SELECT 1 FROM typename WHERE type = $1)", fishType).Scan(&exists)
+	if err != nil {
+		return err
+	}
+
+	// If the fish type doesn't exist, prompt the user for the fish name
+	if !exists {
+		fmt.Printf("New fish type '%s' detected. Please enter the fish name: ", fishType)
+		var fishName string
+		fmt.Scanln(&fishName)
+
+		// Insert the fish type and name into the typename table
+		_, err := pool.Exec(context.Background(), "INSERT INTO typename (type, typename) VALUES ($1, $2)", fishType, fishName)
 		if err != nil {
 			return err
 		}
 
-		fmt.Printf("Table %s created successfully\n", tableName)
+		// Notify that a new fish type has been added
+		fmt.Printf("New fish type '%s' added to the database with name '%s'.\n", fishType, fishName)
 	}
 
 	return nil

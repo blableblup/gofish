@@ -2,6 +2,7 @@ package leaderboards
 
 import (
 	"bufio"
+	"gofish/data"
 	"gofish/playerdata"
 	"gofish/utils"
 	"os"
@@ -202,7 +203,7 @@ func ReadWeightRankings(filePath string) (map[string]LeaderboardInfo, error) {
 
 			fishType := strings.TrimSpace(parts[3])
 			// Update fish type if it has an equivalent
-			if equivalent := utils.EquivalentFishType(fishType); equivalent != "" {
+			if equivalent := data.EquivalentFishType(fishType); equivalent != "" {
 				fishType = equivalent
 			}
 			oldWeightStr := strings.TrimSpace(parts[4])
@@ -266,7 +267,7 @@ func ReadTypeRankings(filePath string) (map[string]LeaderboardInfo, error) {
 			}
 			fishType := strings.TrimSpace(parts[2])
 			// Update fish type if it has an equivalent
-			if equivalent := utils.EquivalentFishType(fishType); equivalent != "" {
+			if equivalent := data.EquivalentFishType(fishType); equivalent != "" {
 				fishType = equivalent
 			}
 			player := strings.TrimSpace(parts[4])
