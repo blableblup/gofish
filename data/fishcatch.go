@@ -89,7 +89,7 @@ func CatchWeightType(url string, newRecordWeight map[string]Record, newRecordTyp
 			}
 
 			// Update fish type if it has an equivalent
-			if equivalent := utils.EquivalentFishType(fishType); equivalent != "" {
+			if equivalent := EquivalentFishType(fishType); equivalent != "" {
 				fishType = equivalent
 			}
 

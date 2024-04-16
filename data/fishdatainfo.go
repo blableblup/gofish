@@ -8,9 +8,11 @@ import (
 
 type FishInfo struct {
 	Player    string
+	PlayerID  int
 	Weight    float64
 	Bot       string
 	Type      string
+	TypeName  string
 	CatchType string
 	Date      string
 	Chat      string
@@ -127,4 +129,34 @@ func extractInfoFromReleasePattern(match []string) FishInfo {
 		Weight:    weight,
 		CatchType: catchtype,
 	}
+}
+
+// Define a mapping for equivalent fish types
+var equivalentFishTypes = map[string]string{
+	"🕷":          "🕷️",
+	"🗡":          "🗡️",
+	"🕶":          "🕶️",
+	"☂":          "☂️",
+	"⛸":          "⛸️",
+	"🧜♀":         "🧜‍♀️",
+	"🧜♀️":        "🧜‍♀️",
+	"🧜‍♀":        "🧜‍♀️",
+	"🐻‍❄️":       "🐻‍❄",
+	"🧞‍♂️":       "🧞‍♂",
+	"Jellyfish":  "🪼", // Add a space behind for fish which are/were not supported as emotes
+	"Jellyfish ": "🪼",
+	"HailHelix ": "🐚",
+	"HailHelix":  "🐚",
+	"SabaPing ":  "🐟",
+	"SabaPing":   "🐟",
+}
+
+// EquivalentFishType checks if the current fish type is in the list of equivalent fish types
+// and returns the corresponding equivalent fish type if it exists.
+func EquivalentFishType(fishType string) string {
+	equivalent, ok := equivalentFishTypes[fishType]
+	if ok {
+		return equivalent
+	}
+	return fishType // Return the original fish type if no equivalent is found
 }

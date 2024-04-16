@@ -81,7 +81,7 @@ func FishData(url string, chatName string, fishData []FishInfo) ([]FishInfo, err
 			}
 
 			// Update fish type if it has an equivalent
-			if equivalent := utils.EquivalentFishType(fishType); equivalent != "" {
+			if equivalent := EquivalentFishType(fishType); equivalent != "" {
 				fishType = equivalent
 			}
 
