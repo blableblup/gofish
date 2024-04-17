@@ -72,7 +72,7 @@ func main() {
 
 	case "data":
 		fmt.Printf("Running %s program...\n", *program)
-		data.GetData(*chatNames, *db, *numMonths, *monthYear, *mode)
+		data.GetData(*chatNames, *db, *numMonths, *monthYear)
 
 	case "pattern":
 		fmt.Printf("Running %s program...\n", *program)
@@ -106,7 +106,6 @@ func isValidModeForProgram(program, mode string) bool {
 	// Define valid modes for each program
 	validModes := map[string]map[string]bool{
 		"wght": {"c": true},
-		"data": {"c": true},
 	}
 
 	// Check if the provided mode is valid for the specified program

@@ -1,8 +1,6 @@
 package data
 
 import (
-	"crypto/sha256"
-	"encoding/hex"
 	"fmt"
 	"gofish/playerdata"
 	"gofish/utils"
@@ -46,7 +44,6 @@ func FishData(url string, chatName string, fishData []FishInfo) ([]FishInfo, err
 		textContent := string(resp.Body())
 
 		cheaters := playerdata.ReadCheaters()
-		renamedChatters := playerdata.ReadRenamedChatters()
 
 		// Define the patterns for fish catches
 		patterns := []*regexp.Regexp{
@@ -69,13 +66,6 @@ func FishData(url string, chatName string, fishData []FishInfo) ([]FishInfo, err
 			bot := fishCatch.Bot
 			catchtype := fishCatch.CatchType
 
-			// Change to the latest name
-			newPlayer := renamedChatters[player]
-			for newPlayer != "" {
-				player = newPlayer
-				newPlayer = renamedChatters[player]
-			}
-
 			if utils.Contains(cheaters, player) {
 				continue // Skip processing for ignored players
 			}
@@ -85,8 +75,6 @@ func FishData(url string, chatName string, fishData []FishInfo) ([]FishInfo, err
 				fishType = equivalent
 			}
 
-			// Generate unique FishID
-			fishID := generateFishID(player, date, weight)
 			chat := chatName
 
 			FishData := FishInfo{
@@ -97,7 +85,6 @@ func FishData(url string, chatName string, fishData []FishInfo) ([]FishInfo, err
 				CatchType: catchtype,
 				Type:      fishType,
 				Chat:      chat,
-				FishId:    fishID,
 			}
 
 			// Append the record to the fishData slice
@@ -110,19 +97,4 @@ func FishData(url string, chatName string, fishData []FishInfo) ([]FishInfo, err
 
 	// Return an error if maximum retries reached
 	return nil, fmt.Errorf("reached maximum retries, unable to fetch data from URL: %s", url)
-}
-
-func generateFishID(player, date string, weight float64) string {
-	// Concatenate player's name, date, and weight
-	concatenated := fmt.Sprintf("%s-%s-%f", player, date, weight)
-
-	// Calculate SHA-256 hash of the concatenated string
-	hash := sha256.New()
-	hash.Write([]byte(concatenated))
-	hashed := hash.Sum(nil)
-
-	// Convert the first 20 bytes of the hash to a random 20-digit number
-	fishID := hex.EncodeToString(hashed)[:20]
-
-	return fishID
 }
