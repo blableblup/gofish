@@ -19,6 +19,7 @@ func main() {
 	numMonths := flag.Int("m", 1, "Number of past months")
 	monthYear := flag.String("dt", "", "Specific month and year (yyyy/mm)")
 	db := flag.String("db", "", "Database to update, fish (f) and tournament results (t)")
+	renamePairs := flag.String("rename", "", "Comma-separated list of oldName:newName pairs")
 
 	// Parse command line flags
 	flag.Parse()
@@ -77,6 +78,19 @@ func main() {
 	case "pattern":
 		fmt.Printf("Running %s program...\n", *program)
 		scripts.RunPattern()
+
+	case "renamed":
+		fmt.Printf("Running %s program...\n", *program)
+		namePairs, err := scripts.ProcessRenamePairs(*renamePairs)
+		if err != nil {
+			fmt.Println("Error processing rename pairs:", err)
+			return
+		}
+		err = scripts.UpdatePlayerNames(namePairs)
+		if err != nil {
+			fmt.Println("Error updating player names:", err)
+			return
+		}
 
 	default:
 		fmt.Println("Invalid program specified.")
