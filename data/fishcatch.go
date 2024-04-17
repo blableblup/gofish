@@ -17,7 +17,7 @@ type Record struct {
 	Bot       string
 	Type      string
 	CatchType string
-	Date      string
+	Date      time.Time
 	Chat      string
 }
 

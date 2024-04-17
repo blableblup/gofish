@@ -4,11 +4,12 @@ import (
 	"context"
 	"fmt"
 	"gofish/utils"
+	"time"
 
 	"github.com/jackc/pgx/v4/pgxpool"
 )
 
-func GetPlayerID(pool *pgxpool.Pool, playerName string, firstFishDate string, firstFishChat string) (int, error) {
+func GetPlayerID(pool *pgxpool.Pool, playerName string, firstFishDate time.Time, firstFishChat string) (int, error) {
 	if err := utils.EnsureTableExists(pool, "playerdata"); err != nil {
 		return 0, err
 	}
