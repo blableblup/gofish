@@ -9,7 +9,6 @@ import (
 	"path/filepath"
 	"sort"
 	"sync"
-	"time"
 
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
@@ -69,9 +68,7 @@ func GetFishData(config utils.Config, chatNames string, numMonths int, monthYear
 
 		// Sort the final fish data by date
 		sort.SliceStable(allFish, func(i, j int) bool {
-			time1, _ := time.Parse("2006-01-2 15:04:05", allFish[i].Date)
-			time2, _ := time.Parse("2006-01-2 15:04:05", allFish[j].Date)
-			return time1.Before(time2)
+			return allFish[i].Date.Before(allFish[j].Date)
 		})
 
 		// Insert fish data into the database
@@ -138,14 +135,31 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool) error {
 	newFishCounts := make(map[string]int)
 
 	for _, fish := range allFish {
+		// Add the chat to newFishCounts if it doesn't exist
+		if _, ok := newFishCounts[fish.Chat]; !ok {
+			newFishCounts[fish.Chat] = 0
+		}
 		tableName := "fish"
 		if err := utils.EnsureTableExists(pool, tableName); err != nil {
 			return err
 		}
 
-		// Check if the last chatID for this chat is already retrieved
+		// Extract the month and year from the fish's date
+		month := fish.Date.Month()
+		year := fish.Date.Year()
+
+		// Check if a fish with the same attributes already exists in the database for the same month
+		var count int
+		err := tx.QueryRow(context.Background(), "SELECT COUNT(*) FROM "+tableName+" WHERE EXTRACT(month FROM date) = $1 AND EXTRACT(year FROM date) = $2 AND weight = $3 AND player = $4", month, year, fish.Weight, fish.Player).Scan(&count)
+		if err != nil {
+			return err
+		}
+		if count > 0 {
+			continue
+		}
+
+		// Check if the last chatID for this chat is already retrieved, get it if not
 		if _, ok := lastChatIDs[fish.Chat]; !ok {
-			// Last chatID not found in the map, retrieve it from the database
 			lastChatID, err := getLastChatIDFromDB(pool, fish.Chat)
 			if err != nil {
 				return err

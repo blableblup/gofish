@@ -1,9 +1,11 @@
 package data
 
 import (
+	"gofish/utils"
 	"regexp"
 	"strconv"
 	"strings"
+	"time"
 )
 
 type FishInfo struct {
@@ -14,7 +16,7 @@ type FishInfo struct {
 	Type      string
 	TypeName  string
 	CatchType string
-	Date      string
+	Date      time.Time
 	Chat      string
 	FishId    int
 	ChatId    int
@@ -56,9 +58,8 @@ func extractInfoFromPatterns(textContent string, patterns []*regexp.Regexp) []Fi
 	return fishCatches
 }
 
-// Define a function to extract information for the existing pattern
 func extractInfoFromNormalPattern(match []string) FishInfo {
-	date := match[1]
+	dateStr := match[1]
 	bot := match[2]
 	player := match[3]
 	fishType := match[4]
@@ -79,26 +80,7 @@ func extractInfoFromNormalPattern(match []string) FishInfo {
 	if err != nil {
 	}
 
-	return FishInfo{
-		Date:      date,
-		Bot:       bot,
-		Player:    player,
-		Type:      fishType,
-		Weight:    weight,
-		CatchType: catchtype,
-	}
-}
-
-// Define a function to extract information for the existing pattern
-func extractInfoFromMouthPattern(match []string) FishInfo {
-	date := match[1]
-	bot := match[2]
-	player := match[3]
-	fishType := match[6]
-	fishWeightStr := match[7]
-	catchtype := "mouth"
-
-	weight, err := strconv.ParseFloat(fishWeightStr, 64)
+	date, err := utils.ParseDate(dateStr)
 	if err != nil {
 	}
 
@@ -112,15 +94,44 @@ func extractInfoFromMouthPattern(match []string) FishInfo {
 	}
 }
 
-// Define a function to extract information for the existing pattern
+func extractInfoFromMouthPattern(match []string) FishInfo {
+	dateStr := match[1]
+	bot := match[2]
+	player := match[3]
+	fishType := match[6]
+	fishWeightStr := match[7]
+	catchtype := "mouth"
+
+	weight, err := strconv.ParseFloat(fishWeightStr, 64)
+	if err != nil {
+	}
+
+	date, err := utils.ParseDate(dateStr)
+	if err != nil {
+	}
+
+	return FishInfo{
+		Date:      date,
+		Bot:       bot,
+		Player:    player,
+		Type:      fishType,
+		Weight:    weight,
+		CatchType: catchtype,
+	}
+}
+
 func extractInfoFromReleasePattern(match []string) FishInfo {
-	date := match[1]
+	dateStr := match[1]
 	bot := match[2]
 	player := match[3]
 	fishType := match[6]
 	catchtype := "release"
 
 	weight := 0.0
+
+	date, err := utils.ParseDate(dateStr)
+	if err != nil {
+	}
 
 	return FishInfo{
 		Date:      date,

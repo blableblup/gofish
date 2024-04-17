@@ -3,6 +3,7 @@ package utils
 import (
 	"fmt"
 	"sort"
+	"time"
 )
 
 // Function to sort a map by its values in descending order (int version)
@@ -80,4 +81,13 @@ func ChangeEmoji(rank int, oldRank int, found bool) string {
 	}
 
 	return changeEmoji
+}
+
+func ParseDate(dateStr string) (time.Time, error) {
+	// Parse the date string into a time.Time object
+	date, err := time.Parse("2006-01-2 15:04:05", dateStr)
+	if err != nil {
+		return time.Time{}, err
+	}
+	return date, nil
 }
