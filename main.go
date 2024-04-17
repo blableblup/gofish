@@ -92,6 +92,10 @@ func main() {
 			return
 		}
 
+	case "verified":
+		fmt.Printf("Running %s program...\n", *program)
+		scripts.VerifiedPlayers()
+
 	default:
 		fmt.Println("Invalid program specified.")
 		return
