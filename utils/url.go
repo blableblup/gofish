@@ -59,7 +59,7 @@ func CreateURL(chatName string, numMonths int, monthYear string) []string {
 		// Check if gofish was added to the channel first
 		if logsAdded, err := time.Parse("2006/1", config.Chat[chatName].LogsAdded); err == nil {
 			if firstOfMonth.Before(logsAdded) {
-				fmt.Printf("Breaking at %d/%d because gofish was not added yet\n", year, month)
+				fmt.Printf("Breaking at %d/%d because gofish was not added yet in chat '%s'\n", year, month, chatName)
 				break
 			}
 		} else {

@@ -16,7 +16,8 @@ type FishInfo struct {
 	CatchType string
 	Date      string
 	Chat      string
-	FishId    string
+	FishId    int
+	ChatId    int
 }
 
 // List of all the patterns
