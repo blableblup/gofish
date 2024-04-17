@@ -144,13 +144,18 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool) error {
 			return err
 		}
 
-		// Extract the month and year from the fish's date
-		month := fish.Date.Month()
-		year := fish.Date.Year()
-
-		// Check if a fish with the same attributes already exists in the database for the same month
+		// Check if a fish with the same attributes already exists in the database
 		var count int
-		err := tx.QueryRow(context.Background(), "SELECT COUNT(*) FROM "+tableName+" WHERE EXTRACT(month FROM date) = $1 AND EXTRACT(year FROM date) = $2 AND weight = $3 AND player = $4", month, year, fish.Weight, fish.Player).Scan(&count)
+		err := tx.QueryRow(context.Background(), `
+			SELECT COUNT(*) FROM `+tableName+`
+			WHERE EXTRACT(year FROM date) = EXTRACT(year FROM $1::timestamp)
+			AND EXTRACT(month FROM date) = EXTRACT(month FROM $2::timestamp)
+			AND EXTRACT(day FROM date) = EXTRACT(day FROM $3::timestamp)
+			AND EXTRACT(hour FROM date) = EXTRACT(hour FROM $4::timestamp)
+			AND EXTRACT(minute FROM date) = EXTRACT(minute FROM $5::timestamp)
+			AND EXTRACT(second FROM date) = EXTRACT(second FROM $6::timestamp)
+			AND weight = $7 AND player = $8
+		`, fish.Date, fish.Date, fish.Date, fish.Date, fish.Date, fish.Date, fish.Weight, fish.Player).Scan(&count)
 		if err != nil {
 			return err
 		}
