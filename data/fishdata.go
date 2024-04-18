@@ -2,14 +2,15 @@ package data
 
 import (
 	"context"
+	"errors"
 	"fmt"
 	"gofish/playerdata"
 	"gofish/utils"
 	"log"
-	"os"
 	"regexp"
 	"time"
 
+	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
 	"github.com/valyala/fasthttp"
 )
@@ -60,14 +61,17 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 		ctx := context.Background()
 		latestCatchDate, err := getLatestCatchDateFromDatabase(ctx, pool, chatName)
 		if err != nil {
-			log.Fatalf("Error while retrieving latest catch date: %v", err)
-			os.Exit(1)
+			if errors.Is(err, pgx.ErrNoRows) {
+				fmt.Printf("No fish data found for chat '%s', setting default latest catch date\n", chatName)
+			} else {
+				log.Fatalf("Error while retrieving latest catch date: %v", err)
+			}
 		}
 
 		// Extract information about fish catches from the text content using multiple patterns
 		fishCatches := extractInfoFromPatterns(textContent, patterns)
 
-		// Process extracted information and update records
+		// Process extracted information
 		for _, fishCatch := range fishCatches {
 			player := fishCatch.Player
 			fishType := fishCatch.Type
@@ -122,8 +126,9 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 		return fishData, nil // Return successfully fetched data
 	}
 
-	// Return an error if maximum retries reached
-	return nil, fmt.Errorf("reached maximum retries, unable to fetch data from URL: %s", url)
+	// Log the error and stop the entire program
+	log.Fatalf("Reached maximum retries, unable to fetch data from URL: %s", url)
+	return nil, nil
 }
 
 func getLatestCatchDateFromDatabase(ctx context.Context, pool *pgxpool.Pool, chatName string) (time.Time, error) {
@@ -133,7 +138,7 @@ func getLatestCatchDateFromDatabase(ctx context.Context, pool *pgxpool.Pool, cha
 	var latestCatchDate time.Time
 	err := pool.QueryRow(ctx, query, chatName).Scan(&latestCatchDate)
 	if err != nil {
-		return time.Time{}, err // Return zero time and error if query fails
+		return time.Time{}, err // Return zero time and error if there are no fish found for that chat
 	}
 
 	return latestCatchDate, nil
