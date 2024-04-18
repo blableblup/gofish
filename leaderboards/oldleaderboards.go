@@ -70,7 +70,7 @@ func ReadOldFishRankings(filePath string) (map[string]LeaderboardInfo, error) {
 			}
 
 			weekcountStr := strings.TrimSpace(parts[3])
-			weekcount, err := strconv.Atoi(strings.Split(weekcountStr, " ")[0])
+			weekcount, _ := strconv.Atoi(strings.Split(weekcountStr, " ")[0])
 
 			oldLeaderboardFishW[player] = LeaderboardInfo{
 				Rank:  rank,
@@ -132,11 +132,11 @@ func ReadOldTrophyRankings(filePath string) (map[string]LeaderboardInfo, error) 
 			}
 
 			trohpyStr := strings.TrimSpace(parts[3])
-			trophies, err := strconv.Atoi(strings.Split(trohpyStr, " ")[0])
+			trophies, _ := strconv.Atoi(strings.Split(trohpyStr, " ")[0])
 			silverMedalsStr := strings.TrimSpace(parts[4])
-			silverMedals, err := strconv.Atoi(strings.Split(silverMedalsStr, " ")[0])
+			silverMedals, _ := strconv.Atoi(strings.Split(silverMedalsStr, " ")[0])
 			bronzeMedalsStr := strings.TrimSpace(parts[5])
-			bronzeMedals, err := strconv.Atoi(strings.Split(bronzeMedalsStr, " ")[0])
+			bronzeMedals, _ := strconv.Atoi(strings.Split(bronzeMedalsStr, " ")[0])
 
 			oldLeaderboardTrophy[player] = LeaderboardInfo{
 				Rank:   rank,
@@ -366,7 +366,7 @@ func ReadTotalcountRankings(filePath string) (map[string]LeaderboardInfo, error)
 			}
 
 			countStr := strings.TrimSpace(parts[3])
-			count, err := strconv.Atoi(strings.Split(countStr, " ")[0])
+			count, _ := strconv.Atoi(strings.Split(countStr, " ")[0])
 
 			oldLeaderboardCount[player] = LeaderboardInfo{
 				Rank:  rank,
