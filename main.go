@@ -72,8 +72,14 @@ func main() {
 		data.RunLogs(*chatNames, *numMonths, *monthYear)
 
 	case "data":
-		fmt.Printf("Running %s program...\n", *program)
-		data.GetData(*chatNames, *db, *numMonths, *monthYear)
+		fmt.Printf("Running %s program", *program)
+		if *mode != "" {
+			fmt.Printf(" in mode '%s'", *mode)
+		}
+		fmt.Println("...")
+		data.GetData(*chatNames, *db, *numMonths, *monthYear, *mode)
+		// Modes: "a", this adds every fish caught to FishData instead of just the new ones.
+		// Useful for if there is a new catchtype and the database was already updated.
 
 	case "pattern":
 		fmt.Printf("Running %s program...\n", *program)
@@ -124,6 +130,7 @@ func isValidModeForProgram(program, mode string) bool {
 	// Define valid modes for each program
 	validModes := map[string]map[string]bool{
 		"wght": {"c": true},
+		"data": {"a": true},
 	}
 
 	// Check if the provided mode is valid for the specified program
