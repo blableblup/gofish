@@ -14,7 +14,7 @@ import (
 	"github.com/jackc/pgx/v4/pgxpool"
 )
 
-func GetData(chatNames, data string, numMonths int, monthYear string) {
+func GetData(chatNames, data string, numMonths int, monthYear string, mode string) {
 	// Get the current working directory
 	wd, err := os.Getwd()
 	if err != nil {
@@ -27,19 +27,25 @@ func GetData(chatNames, data string, numMonths int, monthYear string) {
 
 	switch data {
 	case "f":
-		GetFishData(config, chatNames, numMonths, monthYear)
+		GetFishData(config, chatNames, numMonths, monthYear, mode)
 	case "all":
-		GetFishData(config, chatNames, numMonths, monthYear)
+		GetFishData(config, chatNames, numMonths, monthYear, mode)
 	default:
 		fmt.Println("Please specify a valid database type.")
 	}
 }
 
-func GetFishData(config utils.Config, chatNames string, numMonths int, monthYear string) {
+func GetFishData(config utils.Config, chatNames string, numMonths int, monthYear string, mode string) {
 	switch chatNames {
 	case "all":
 		var wg sync.WaitGroup
 		fishChan := make(chan []FishInfo)
+
+		pool, err := Connect()
+		if err != nil {
+			fmt.Println("Error connecting to the database:", err)
+			return
+		}
 
 		for chatName, chat := range config.Chat {
 			if !chat.CheckEnabled {
@@ -51,7 +57,7 @@ func GetFishData(config utils.Config, chatNames string, numMonths int, monthYear
 			go func(chatName string, chat utils.ChatInfo) {
 				defer wg.Done()
 				urls := utils.CreateURL(chatName, numMonths, monthYear)
-				fishData := ProcessFishData(urls, chatName, chat)
+				fishData := ProcessFishData(urls, chatName, chat, pool, mode)
 				fishChan <- fishData
 			}(chatName, chat)
 		}
@@ -71,14 +77,8 @@ func GetFishData(config utils.Config, chatNames string, numMonths int, monthYear
 			return allFish[i].Date.Before(allFish[j].Date)
 		})
 
-		// Insert fish data into the database
-		pool, err := Connect()
-		if err != nil {
-			fmt.Println("Error connecting to the database:", err)
-			return
-		}
 		defer pool.Close()
-		if err := insertFishDataIntoDB(allFish, pool); err != nil {
+		if err := insertFishDataIntoDB(allFish, pool, mode); err != nil {
 			fmt.Println("Error inserting fish data into database:", err)
 			return
 		}
@@ -87,7 +87,7 @@ func GetFishData(config utils.Config, chatNames string, numMonths int, monthYear
 	}
 }
 
-func ProcessFishData(urls []string, chatName string, Chat utils.ChatInfo) []FishInfo {
+func ProcessFishData(urls []string, chatName string, Chat utils.ChatInfo, pool *pgxpool.Pool, mode string) []FishInfo {
 	var allFish []FishInfo
 	var wg sync.WaitGroup
 	var mu sync.Mutex // Mutex for synchronizing access to allFish
@@ -98,7 +98,7 @@ func ProcessFishData(urls []string, chatName string, Chat utils.ChatInfo) []Fish
 		wg.Add(1)
 		go func(url string) {
 			defer wg.Done()
-			fishData, err := FishData(url, chatName, allFish)
+			fishData, err := FishData(url, chatName, allFish, pool, mode)
 			if err != nil {
 				fmt.Println("Error fetching fish data:", err)
 				return
@@ -123,7 +123,7 @@ func ProcessFishData(urls []string, chatName string, Chat utils.ChatInfo) []Fish
 	return allFish
 }
 
-func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool) error {
+func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, mode string) error {
 	// Begin a transaction
 	tx, err := pool.Begin(context.Background())
 	if err != nil {
@@ -144,9 +144,10 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool) error {
 			return err
 		}
 
-		// Check if a fish with the same attributes already exists in the database
-		var count int
-		err := tx.QueryRow(context.Background(), `
+		// Only needed if mode is a since FishData only adds new fish else.
+		if mode == "a" {
+			var count int
+			err := tx.QueryRow(context.Background(), `
 			SELECT COUNT(*) FROM `+tableName+`
 			WHERE EXTRACT(year FROM date) = EXTRACT(year FROM $1::timestamp)
 			AND EXTRACT(month FROM date) = EXTRACT(month FROM $2::timestamp)
@@ -156,11 +157,12 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool) error {
 			AND EXTRACT(second FROM date) = EXTRACT(second FROM $6::timestamp)
 			AND weight = $7 AND player = $8
 		`, fish.Date, fish.Date, fish.Date, fish.Date, fish.Date, fish.Date, fish.Weight, fish.Player).Scan(&count)
-		if err != nil {
-			return err
-		}
-		if count > 0 {
-			continue
+			if err != nil {
+				return err
+			}
+			if count > 0 {
+				continue
+			}
 		}
 
 		// Check if the last chatID for this chat is already retrieved, get it if not

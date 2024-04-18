@@ -1,17 +1,20 @@
 package data
 
 import (
+	"context"
 	"fmt"
 	"gofish/playerdata"
 	"gofish/utils"
 	"log"
+	"os"
 	"regexp"
 	"time"
 
+	"github.com/jackc/pgx/v4/pgxpool"
 	"github.com/valyala/fasthttp"
 )
 
-func FishData(url string, chatName string, fishData []FishInfo) ([]FishInfo, error) {
+func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Pool, mode string) ([]FishInfo, error) {
 	const maxRetries = 5
 	retryDelay := time.Second // Initial delay before first retry
 
@@ -54,6 +57,13 @@ func FishData(url string, chatName string, fishData []FishInfo) ([]FishInfo, err
 			BirdPattern,
 		}
 
+		ctx := context.Background()
+		latestCatchDate, err := getLatestCatchDateFromDatabase(ctx, pool, chatName)
+		if err != nil {
+			log.Fatalf("Error while retrieving latest catch date: %v", err)
+			os.Exit(1)
+		}
+
 		// Extract information about fish catches from the text content using multiple patterns
 		fishCatches := extractInfoFromPatterns(textContent, patterns)
 
@@ -77,18 +87,35 @@ func FishData(url string, chatName string, fishData []FishInfo) ([]FishInfo, err
 
 			chat := chatName
 
-			FishData := FishInfo{
-				Player:    player,
-				Weight:    weight,
-				Bot:       bot,
-				Date:      date,
-				CatchType: catchtype,
-				Type:      fishType,
-				Chat:      chat,
-			}
+			if mode == "a" {
+				// Mode is "a", add every fish to fishData
+				FishData := FishInfo{
+					Player:    player,
+					Weight:    weight,
+					Bot:       bot,
+					Date:      date,
+					CatchType: catchtype,
+					Type:      fishType,
+					Chat:      chat,
+				}
 
-			// Append the record to the fishData slice
-			fishData = append(fishData, FishData)
+				fishData = append(fishData, FishData)
+			} else {
+				// Check if the catch date is after the latest saved date
+				if date.After(latestCatchDate) {
+					FishData := FishInfo{
+						Player:    player,
+						Weight:    weight,
+						Bot:       bot,
+						Date:      date,
+						CatchType: catchtype,
+						Type:      fishType,
+						Chat:      chat,
+					}
+
+					fishData = append(fishData, FishData)
+				}
+			}
 		}
 
 		fmt.Println("Finished storing fish for", url)
@@ -97,4 +124,17 @@ func FishData(url string, chatName string, fishData []FishInfo) ([]FishInfo, err
 
 	// Return an error if maximum retries reached
 	return nil, fmt.Errorf("reached maximum retries, unable to fetch data from URL: %s", url)
+}
+
+func getLatestCatchDateFromDatabase(ctx context.Context, pool *pgxpool.Pool, chatName string) (time.Time, error) {
+	// Query to retrieve the latest catch date for the given chatName
+	query := "SELECT MAX(date) FROM fish WHERE chat = $1"
+
+	var latestCatchDate time.Time
+	err := pool.QueryRow(ctx, query, chatName).Scan(&latestCatchDate)
+	if err != nil {
+		return time.Time{}, err // Return zero time and error if query fails
+	}
+
+	return latestCatchDate, nil
 }
