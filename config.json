@@ -7,9 +7,6 @@
         "logs": "bread/tournamentlogs.txt",
         "trophies": "leaderboards/bread/leaderboardtrophies.md",
         "fishweek": "leaderboards/bread/leaderboardfish.md",
-        "totalcount": "leaderboards/bread/leaderboardtotalcount.md",
-        "type": "leaderboards/bread/leaderboardtype.md",
-        "weight": "leaderboards/bread/leaderboardweight.md",
         "emoji": "🍞",
         "check_enabled": true
       },
@@ -20,19 +17,12 @@
         "logs": "psp/tournamentlogs.txt",
         "trophies": "leaderboards/psp/leaderboardtrophies.md",
         "fishweek": "leaderboards/psp/leaderboardfish.md",
-        "totalcount": "leaderboards/psp/leaderboardtotalcount.md",
-        "type": "leaderboards/psp/leaderboardtype.md",
-        "weight": "leaderboards/psp/leaderboardweight.md",
         "emoji": "🐱",
         "check_enabled": true
       },
       "global": {
-        "trophies": "leaderboards/global/leaderboardtrophies.md",
-        "fishweek": "leaderboards/global/leaderboardfish.md",
-        "totalcount": "leaderboards/global/leaderboardtotalcount.md",
-        "type": "leaderboards/global/leaderboardtype.md",
-        "weight": "leaderboards/global/leaderboardweight.md",
         "weight_limit": 270,
+        "totalcount_limit": 300,
         "check_enabled": false
     }
   }

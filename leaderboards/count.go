@@ -99,9 +99,6 @@ func writeCount(filePath string, fishCaught map[string]data.FishInfo, titletotal
 		}
 		return ""
 	}())
-	if err != nil {
-		return err
-	}
 
 	_, err = fmt.Fprintln(file, "|------|--------|-----------|"+func() string {
 		if isGlobal {
@@ -135,17 +132,22 @@ func writeCount(filePath string, fishCaught map[string]data.FishInfo, titletotal
 		}
 
 		var found bool
-		var oldRank int
+		oldRank := -1
+		oldCount := fishInfo.Count
 		oldFishInfo, ok := oldLeaderboardCount[player]
+		oldBot := ""
 		if ok {
 			found = true
 			oldRank = oldFishInfo.Rank
+			oldCount = oldFishInfo.Count
+			oldBot = oldFishInfo.Bot
 		}
 
 		changeEmoji := ChangeEmoji(rank, oldRank, found)
 
 		var counts string
-		countDifference := fishInfo.Count - oldFishInfo.Count
+
+		countDifference := fishInfo.Count - oldCount
 		if countDifference > 0 {
 			counts = fmt.Sprintf("%d (+%d)", fishInfo.Count, countDifference)
 		} else {
@@ -153,7 +155,7 @@ func writeCount(filePath string, fishCaught map[string]data.FishInfo, titletotal
 		}
 
 		botIndicator := ""
-		if oldFishInfo.Bot == "supibot" && !utils.Contains(verifiedPlayers, player) {
+		if oldBot == "supibot" && !utils.Contains(verifiedPlayers, player) {
 			botIndicator = "*"
 		}
 

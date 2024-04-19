@@ -9,17 +9,20 @@ import (
 )
 
 type FishInfo struct {
-	Player    string
-	PlayerID  int
-	Weight    float64
-	Bot       string
-	Type      string
-	TypeName  string
-	CatchType string
-	Date      time.Time
-	Chat      string
-	FishId    int
-	ChatId    int
+	Player     string
+	PlayerID   int
+	Weight     float64
+	Bot        string
+	Type       string
+	TypeName   string
+	CatchType  string
+	Date       time.Time
+	Chat       string
+	FishId     int
+	ChatId     int
+	Count      int
+	MaxCount   int
+	ChatCounts map[string]int
 }
 
 // List of all the patterns
@@ -63,7 +66,7 @@ func extractInfoFromNormalPattern(match []string) FishInfo {
 	bot := match[2]
 	player := match[3]
 	fishType := match[4]
-	fishWeightStr := match[5]
+	weight, _ := strconv.ParseFloat(match[5], 64)
 	catchtype := "normal"
 
 	// Check if the match contains the word "jumped"
@@ -74,10 +77,6 @@ func extractInfoFromNormalPattern(match []string) FishInfo {
 	// Check if the match contains the word "hatch"
 	if strings.Contains(strings.ToLower(match[0]), "hatch") {
 		catchtype = "egg"
-	}
-
-	weight, err := strconv.ParseFloat(fishWeightStr, 64)
-	if err != nil {
 	}
 
 	date, err := utils.ParseDate(dateStr)
@@ -99,12 +98,8 @@ func extractInfoFromMouthPattern(match []string) FishInfo {
 	bot := match[2]
 	player := match[3]
 	fishType := match[6]
-	fishWeightStr := match[7]
+	weight, _ := strconv.ParseFloat(match[7], 64)
 	catchtype := "mouth"
-
-	weight, err := strconv.ParseFloat(fishWeightStr, 64)
-	if err != nil {
-	}
 
 	date, err := utils.ParseDate(dateStr)
 	if err != nil {
