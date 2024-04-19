@@ -64,7 +64,7 @@ func processWeight(chatName string, chat utils.ChatInfo, pool *pgxpool.Pool, mod
 		var playerName string
 		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", playerid).Scan(&playerName)
 		if err != nil {
-			fmt.Println("Error retrieving player name:", err)
+			fmt.Printf("Error retrieving player name for id '%d':\n", playerid)
 			continue
 		}
 

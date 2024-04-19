@@ -59,7 +59,7 @@ func processType(chatName string, chat utils.ChatInfo, pool *pgxpool.Pool, mode 
 		var playerName string
 		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", playerid).Scan(&playerName)
 		if err != nil {
-			fmt.Println("Error retrieving player name:", err)
+			fmt.Printf("Error retrieving player name for id '%d':\n", playerid)
 			continue
 		}
 
@@ -111,7 +111,6 @@ func processType(chatName string, chat utils.ChatInfo, pool *pgxpool.Pool, mode 
 	titletype := fmt.Sprintf("### Biggest fish per type caught in %s's chat\n", chatName)
 	isGlobal := false
 
-	// Write the leaderboard for the biggest fish per fish type to the file specified in the config
 	fmt.Printf("Updating type leaderboard for chat '%s'...\n", chatName)
 	err = writeType(chat.Type, recordType, titletype, isGlobal)
 	if err != nil {
@@ -239,7 +238,6 @@ func writeType(filePath string, recordType map[string]data.FishInfo, titletype s
 		prevRank = rank
 	}
 
-	// Write the note
 	_, err = fmt.Fprintln(file, "\n_* = The fish was caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate._")
 	if err != nil {
 		return err
