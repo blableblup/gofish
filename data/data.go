@@ -49,7 +49,9 @@ func GetFishData(config utils.Config, chatNames string, numMonths int, monthYear
 
 		for chatName, chat := range config.Chat {
 			if !chat.CheckEnabled {
-				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+				if chatName != "global" {
+					fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+				}
 				continue
 			}
 
