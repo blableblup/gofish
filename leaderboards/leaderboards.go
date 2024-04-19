@@ -138,8 +138,8 @@ func Count(config utils.Config, chatNames string, pool *pgxpool.Pool, mode strin
 				continue
 			}
 
-			fmt.Printf("Checking chat '%s'.\n", chatName)
-			// processWeight(chatName, chat, mode)
+			fmt.Printf("Checking count for chat '%s'.\n", chatName)
+			processCount(chatName, chat, pool)
 		}
 	case "":
 		fmt.Println("Please specify chat names.")
@@ -157,8 +157,8 @@ func Count(config utils.Config, chatNames string, pool *pgxpool.Pool, mode strin
 				continue
 			}
 
-			fmt.Printf("Checking chat '%s'.\n", chatName)
-			// processWeight(chatName, chat, mode)
+			fmt.Printf("Checking count for chat '%s'.\n", chatName)
+			processCount(chatName, chat, pool)
 		}
 	}
 }

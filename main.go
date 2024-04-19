@@ -29,8 +29,8 @@ func main() {
 		fmt.Println("Usage: go run main.go -p data [-db <database>] [-m <months>] [-d <date>] [-m <mode>]")
 		// If no month or time period is specified it checks the current month
 		fmt.Println("Usage: go run main.go -p boards [-s <chat names>] [-l <leaderboards>] [-m <mode>]")
+		fmt.Println("Usage: go run main.go -p renamed [-rename <oldName:newName>]")
 		fmt.Println("Usage: go run main.go -p global [-l <leaderboards>]")
-		fmt.Println("Usage: go run main.go -p renamed [-rename <oldName:newName>")
 		return
 	}
 
