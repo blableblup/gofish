@@ -200,7 +200,7 @@ func writeType(filePath string, recordType map[string]data.FishInfo, titletype s
 			oldRank = info.Rank
 		}
 
-		changeEmoji := utils.ChangeEmoji(rank, oldRank, found)
+		changeEmoji := ChangeEmoji(rank, oldRank, found)
 
 		oldWeight := weight
 		if info, ok := oldLeaderboardType[fishType]; ok {
@@ -223,7 +223,7 @@ func writeType(filePath string, recordType map[string]data.FishInfo, titletype s
 			botIndicator = "*"
 		}
 
-		ranks := utils.Ranks(rank)
+		ranks := Ranks(rank)
 
 		_, _ = fmt.Fprintf(file, "| %s %s | %s | %s | %s%s |", ranks, changeEmoji, fishType, fishweight, player, botIndicator)
 		if isGlobal {

@@ -3,6 +3,7 @@ package leaderboards
 import (
 	"context"
 	"fmt"
+	"gofish/data"
 	"gofish/playerdata"
 	"gofish/utils"
 	"os"
@@ -32,7 +33,7 @@ func processCount(chatName string, chat utils.ChatInfo, pool *pgxpool.Pool) {
 	}
 	defer rows.Close()
 
-	fishCaught := make(map[string]int)
+	fishCaught := make(map[string]data.FishInfo)
 	// Iterate through the query results and store fish count for each player
 	for rows.Next() {
 		var playerID, fishCount int
@@ -49,13 +50,19 @@ func processCount(chatName string, chat utils.ChatInfo, pool *pgxpool.Pool) {
 			continue
 		}
 
-		fishCaught[playerName] = fishCount
+		fishInfo := data.FishInfo{
+			Player: playerName,
+			Count:  fishCount,
+		}
+
+		fishCaught[playerName] = fishInfo
 	}
 
 	titletotalcount := fmt.Sprintf("### Most fish caught in %s's chat\n", chatName)
+	isGlobal := false
 
 	fmt.Printf("Updating totalcount leaderboard for chat '%s' with count threshold %d...\n", chatName, Totalcountlimit)
-	err = writeCount(filePath, fishCaught, titletotalcount)
+	err = writeCount(filePath, fishCaught, titletotalcount, isGlobal)
 	if err != nil {
 		fmt.Println("Error writing totalcount leaderboard:", err)
 	} else {
@@ -63,9 +70,7 @@ func processCount(chatName string, chat utils.ChatInfo, pool *pgxpool.Pool) {
 	}
 }
 
-// Function to write the Totalcount leaderboard with emojis indicating ranking change and the count change in brackets
-func writeCount(filePath string, fishCaught map[string]int, titletotalcount string) error {
-
+func writeCount(filePath string, fishCaught map[string]data.FishInfo, titletotalcount string, isGlobal bool) error {
 	oldLeaderboardCount, err := ReadTotalcountRankings(filePath)
 	if err != nil {
 		return err
@@ -88,21 +93,29 @@ func writeCount(filePath string, fishCaught map[string]int, titletotalcount stri
 		return err
 	}
 
-	_, _ = fmt.Fprintln(file, "| Rank | Player | Fish Caught |")
-	_, err = fmt.Fprintln(file, "|------|--------|-----------|")
+	_, _ = fmt.Fprintln(file, "| Rank | Player | Fish Caught |"+func() string {
+		if isGlobal {
+			return " Chat |"
+		}
+		return ""
+	}())
+	if err != nil {
+		return err
+	}
+
+	_, err = fmt.Fprintln(file, "|------|--------|-----------|"+func() string {
+		if isGlobal {
+			return "-------|"
+		}
+		return ""
+	}())
 	if err != nil {
 		return err
 	}
 
 	verifiedPlayers := playerdata.ReadVerifiedPlayers()
 
-	// Extract count from fishCount map
-	fishCount := make(map[string]int)
-	for player, count := range fishCaught {
-		fishCount[player] = count
-	}
-
-	sortedPlayers := utils.SortMapByValueDescInt(fishCaught)
+	sortedPlayers := SortMapByCountDesc(fishCaught)
 
 	rank := 1
 	prevRank := 1
@@ -110,10 +123,10 @@ func writeCount(filePath string, fishCaught map[string]int, titletotalcount stri
 	occupiedRanks := make(map[int]int)
 
 	for _, player := range sortedPlayers {
-		count := fishCaught[player]
+		fishInfo := fishCaught[player]
 
 		// Increment rank only if the count has changed
-		if count != prevCount {
+		if fishInfo.Count != prevCount {
 			rank += occupiedRanks[rank]
 			occupiedRanks[rank] = 1
 		} else {
@@ -122,53 +135,45 @@ func writeCount(filePath string, fishCaught map[string]int, titletotalcount stri
 		}
 
 		var found bool
-
-		oldRank := -1
-		if info, ok := oldLeaderboardCount[player]; ok {
+		var oldRank int
+		oldFishInfo, ok := oldLeaderboardCount[player]
+		if ok {
 			found = true
-			oldRank = info.Rank
+			oldRank = oldFishInfo.Rank
 		}
 
-		changeEmoji := utils.ChangeEmoji(rank, oldRank, found)
-
-		oldCount := count
-		if info, ok := oldLeaderboardCount[player]; ok {
-			found = true
-			oldCount = info.Count
-		}
+		changeEmoji := ChangeEmoji(rank, oldRank, found)
 
 		var counts string
-
-		countDifference := count - oldCount
-
+		countDifference := fishInfo.Count - oldFishInfo.Count
 		if countDifference > 0 {
-			counts = fmt.Sprintf("%d (+%d)", count, countDifference)
+			counts = fmt.Sprintf("%d (+%d)", fishInfo.Count, countDifference)
 		} else {
-			counts = fmt.Sprintf("%d ", count)
-		}
-
-		oldBot := ""
-		if info, ok := oldLeaderboardCount[player]; ok {
-			found = true
-			oldBot = info.Bot
+			counts = fmt.Sprintf("%d", fishInfo.Count)
 		}
 
 		botIndicator := ""
-		if oldBot == "supibot" && !utils.Contains(verifiedPlayers, player) {
+		if oldFishInfo.Bot == "supibot" && !utils.Contains(verifiedPlayers, player) {
 			botIndicator = "*"
 		}
 
-		ranks := utils.Ranks(rank)
+		ranks := Ranks(rank)
 
-		// Write the leaderboard row
-		_, err := fmt.Fprintf(file, "| %s %s | %s%s | %s |\n", ranks, changeEmoji, player, botIndicator, counts)
+		_, _ = fmt.Fprintf(file, "| %s %s | %s%s | %s |", ranks, changeEmoji, player, botIndicator, counts)
+		if isGlobal {
+			// Print the count for each chat
+			for chat, count := range fishInfo.ChatCounts {
+				_, _ = fmt.Fprintf(file, " %s(%d) ", chat, count)
+			}
+			_, _ = fmt.Fprint(file, "|")
+		}
+		_, err = fmt.Fprintln(file)
 		if err != nil {
 			return err
 		}
 
-		prevCount = count
+		prevCount = fishInfo.Count
 		prevRank = rank
-
 	}
 
 	_, err = fmt.Fprintln(file, "\n_* = The player caught their first fish on supibot and did not migrate their data to gofishgame. Because of that their data was not individually verified to be accurate._")
