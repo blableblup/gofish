@@ -62,13 +62,17 @@ func Weight(config utils.Config, chatNames string, pool *pgxpool.Pool, mode stri
 		// Process all chats
 		for chatName, chat := range config.Chat {
 			if !chat.CheckEnabled {
-				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+				if chatName != "global" {
+					fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+				}
 				continue
 			}
 
 			fmt.Printf("Checking weight records for chat '%s'.\n", chatName)
 			processWeight(chatName, chat, pool, mode)
 		}
+	case "global":
+		RunWeightGlobal(config)
 	case "":
 		fmt.Println("Please specify chat names.")
 	default:
@@ -81,7 +85,9 @@ func Weight(config utils.Config, chatNames string, pool *pgxpool.Pool, mode stri
 				continue
 			}
 			if !chat.CheckEnabled {
-				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+				if chatName != "global" {
+					fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+				}
 				continue
 			}
 
@@ -98,13 +104,17 @@ func Type(config utils.Config, chatNames string, pool *pgxpool.Pool, mode string
 		// Process all chats
 		for chatName, chat := range config.Chat {
 			if !chat.CheckEnabled {
-				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+				if chatName != "global" {
+					fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+				}
 				continue
 			}
 
 			fmt.Printf("Checking type records for chat '%s'.\n", chatName)
 			processType(chatName, chat, pool, mode)
 		}
+	case "global":
+		RunTypeGlobal(config)
 	case "":
 		fmt.Println("Please specify chat names.")
 	default:
@@ -117,7 +127,9 @@ func Type(config utils.Config, chatNames string, pool *pgxpool.Pool, mode string
 				continue
 			}
 			if !chat.CheckEnabled {
-				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+				if chatName != "global" {
+					fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+				}
 				continue
 			}
 
@@ -134,13 +146,17 @@ func Count(config utils.Config, chatNames string, pool *pgxpool.Pool, mode strin
 		// Process all chats
 		for chatName, chat := range config.Chat {
 			if !chat.CheckEnabled {
-				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+				if chatName != "global" {
+					fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+				}
 				continue
 			}
 
 			fmt.Printf("Checking count for chat '%s'.\n", chatName)
 			processCount(chatName, chat, pool)
 		}
+	case "global":
+		RunCountGlobal(config, pool)
 	case "":
 		fmt.Println("Please specify chat names.")
 	default:
@@ -153,7 +169,9 @@ func Count(config utils.Config, chatNames string, pool *pgxpool.Pool, mode strin
 				continue
 			}
 			if !chat.CheckEnabled {
-				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+				if chatName != "global" {
+					fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+				}
 				continue
 			}
 

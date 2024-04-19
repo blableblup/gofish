@@ -5,55 +5,10 @@ import (
 	"fmt"
 	"gofish/data"
 	"gofish/utils"
-	"os"
 	"path/filepath"
-	"strings"
 
 	"github.com/jackc/pgx/v4/pgxpool"
 )
-
-func RunGlobal(leaderboards string) {
-	// Get the current working directory
-	wd, err := os.Getwd()
-	if err != nil {
-		fmt.Println("Error getting current working directory:", err)
-		os.Exit(1)
-	}
-
-	// Construct the absolute path to the config file
-	configFilePath := filepath.Join(wd, "config.json")
-
-	// Load the config from the constructed file path
-	config := utils.LoadConfig(configFilePath)
-
-	pool, err := data.Connect()
-	if err != nil {
-		fmt.Println("Error connecting to the database:", err)
-		return
-	}
-	defer pool.Close()
-
-	leaderboardList := strings.Split(leaderboards, ",")
-
-	for _, leaderboard := range leaderboardList {
-		switch leaderboard {
-		case "count":
-			RunCountGlobal(config, pool)
-		case "weight":
-			RunWeightGlobal(config)
-		case "type":
-			RunTypeGlobal(config)
-		case "all":
-			fmt.Println("Updating all global leaderboards...")
-			RunWeightGlobal(config)
-			RunTypeGlobal(config)
-
-		default:
-			fmt.Println("Invalid leaderboard specified:", leaderboard)
-
-		}
-	}
-}
 
 func RunTypeGlobal(config utils.Config) {
 
@@ -62,7 +17,9 @@ func RunTypeGlobal(config utils.Config) {
 	// Process all chats
 	for chatName, chat := range config.Chat {
 		if !chat.CheckEnabled {
-			fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+			if chatName != "global" {
+				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+			}
 			continue
 		}
 
@@ -98,7 +55,9 @@ func RunWeightGlobal(config utils.Config) {
 	// Process all chats
 	for chatName, chat := range config.Chat {
 		if !chat.CheckEnabled {
-			fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+			if chatName != "global" {
+				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+			}
 			continue
 		}
 
@@ -133,7 +92,9 @@ func RunCountGlobal(config utils.Config, pool *pgxpool.Pool) {
 	// Process all chats
 	for chatName, chat := range config.Chat {
 		if !chat.CheckEnabled {
-			fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+			if chatName != "global" {
+				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+			}
 			continue
 		}
 

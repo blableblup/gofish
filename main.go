@@ -12,7 +12,7 @@ import (
 
 func main() {
 	// Define command line flags
-	program := flag.String("p", "", "Program name: trnm, wght, logs, count, global,pattern")
+	program := flag.String("p", "", "Program name: boards, data, trnm, logs, pattern")
 	chatNames := flag.String("s", "", "Comma-separated list of chat names")
 	leaderboard := flag.String("l", "", "Comma separated list of leaderboards")
 	mode := flag.String("mm", "", "Modes are different for each program")
@@ -26,11 +26,10 @@ func main() {
 
 	// Validate program name
 	if *program == "" {
+		fmt.Println("Usage: go run main.go -p boards [-s <chat names> <all> <global>] [-l <leaderboards>] [-m <mode>]")
 		fmt.Println("Usage: go run main.go -p data [-db <database>] [-m <months>] [-d <date>] [-m <mode>]")
 		// If no month or time period is specified it checks the current month
-		fmt.Println("Usage: go run main.go -p boards [-s <chat names>] [-l <leaderboards>] [-m <mode>]")
 		fmt.Println("Usage: go run main.go -p renamed [-rename <oldName:newName>]")
-		fmt.Println("Usage: go run main.go -p global [-l <leaderboards>]")
 		return
 	}
 
@@ -43,12 +42,13 @@ func main() {
 	// Call the appropriate function based on the program name
 	switch *program {
 	case "boards":
-		fmt.Printf("Running %s program...\n", *program)
+		fmt.Printf("Running %s program", *program)
+		if *mode != "" {
+			fmt.Printf(" in mode '%s'", *mode)
+		}
+		fmt.Println("...")
 		leaderboards.Leaderboards(*leaderboard, *chatNames, *mode)
-
-	case "global":
-		fmt.Printf("Running %s program...\n", *program)
-		leaderboards.RunGlobal(*leaderboard)
+		// Modes: "c", only prints new / updated type and weight records
 
 	case "logs":
 		fmt.Printf("Running %s program...\n", *program)
