@@ -111,7 +111,7 @@ func Type(config utils.Config, chatNames string, pool *pgxpool.Pool, mode string
 			}
 
 			fmt.Printf("Checking type records for chat '%s'.\n", chatName)
-			processType(chatName, chat, pool, mode)
+			processType(chatName, pool, mode)
 		}
 	case "global":
 		RunTypeGlobal(config)
@@ -134,7 +134,7 @@ func Type(config utils.Config, chatNames string, pool *pgxpool.Pool, mode string
 			}
 
 			fmt.Printf("Checking type records for chat '%s'.\n", chatName)
-			processType(chatName, chat, pool, mode)
+			processType(chatName, pool, mode)
 		}
 	}
 }

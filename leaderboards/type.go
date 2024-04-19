@@ -13,7 +13,7 @@ import (
 	"github.com/jackc/pgx/v4/pgxpool"
 )
 
-func processType(chatName string, chat utils.ChatInfo, pool *pgxpool.Pool, mode string) {
+func processType(chatName string, pool *pgxpool.Pool, mode string) {
 	filePath := filepath.Join("leaderboards", chatName, "type.md")
 
 	oldRecordType, err := ReadTypeRankings(filePath)
