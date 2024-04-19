@@ -293,7 +293,7 @@ func writeTrophiesLeaderboard(filePath string, playerCounts map[string]PlayerCou
 			oldRank = info.Rank
 		}
 
-		changeEmoji := utils.ChangeEmoji(rank, oldRank, found)
+		changeEmoji := ChangeEmoji(rank, oldRank, found)
 
 		// Compare new counts to old counts and display the difference
 		trophiesDifference := playerCounts[player].Trophy - oldLeaderboardTrophy[player].Trophy
@@ -316,7 +316,7 @@ func writeTrophiesLeaderboard(filePath string, playerCounts map[string]PlayerCou
 			bronzeCount += fmt.Sprintf(" (+%d)", bronzeDifference)
 		}
 
-		ranks := utils.Ranks(rank)
+		ranks := Ranks(rank)
 
 		// Write the leaderboard row
 		_, err = fmt.Fprintf(file, "| %s %s| %s | %s | %s | %s | %.1f |\n", ranks, changeEmoji, player, trophyCount, silverCount, bronzeCount, totalPoints[player])
@@ -406,7 +406,7 @@ func writeFishWeekLeaderboard(filePath string, maxFishInWeek map[string]PlayerIn
 			oldRank = info.Rank
 		}
 
-		changeEmoji := utils.ChangeEmoji(rank, oldRank, found)
+		changeEmoji := ChangeEmoji(rank, oldRank, found)
 
 		// Construct the string with the difference in brackets
 		fishweekDifference := fishCount - oldLeaderboardFishW[player].Count
@@ -421,7 +421,7 @@ func writeFishWeekLeaderboard(filePath string, maxFishInWeek map[string]PlayerIn
 			botIndicator = "*"
 		}
 
-		ranks := utils.Ranks(rank)
+		ranks := Ranks(rank)
 
 		_, err = fmt.Fprintf(file, "| %s %s| %s%s | %s |\n", ranks, changeEmoji, player, botIndicator, fishWeekCount)
 		if err != nil {

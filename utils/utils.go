@@ -1,7 +1,6 @@
 package utils
 
 import (
-	"fmt"
 	"sort"
 	"time"
 )
@@ -46,41 +45,6 @@ func Contains(slice []string, str string) bool {
 		}
 	}
 	return false
-}
-
-func Ranks(rank int) string {
-	var ranks string
-
-	switch rank {
-	case 1:
-		ranks = fmt.Sprintf("%d 🥇", rank)
-	case 2:
-		ranks = fmt.Sprintf("%d 🥈", rank)
-	case 3:
-		ranks = fmt.Sprintf("%d 🥉", rank)
-	default:
-		ranks = fmt.Sprintf("%d", rank)
-	}
-
-	return ranks
-}
-
-func ChangeEmoji(rank int, oldRank int, found bool) string {
-	var changeEmoji string
-
-	if found {
-		if rank < oldRank {
-			changeEmoji = "⬆"
-		} else if rank > oldRank {
-			changeEmoji = "⬇"
-		} else {
-			changeEmoji = ""
-		}
-	} else {
-		changeEmoji = "🆕"
-	}
-
-	return changeEmoji
 }
 
 func ParseDate(dateStr string) (time.Time, error) {

@@ -202,7 +202,7 @@ func writeWeight(filePath string, recordWeight map[string]data.FishInfo, titlewe
 			oldRank = info.Rank
 		}
 
-		changeEmoji := utils.ChangeEmoji(rank, oldRank, found)
+		changeEmoji := ChangeEmoji(rank, oldRank, found)
 
 		oldWeight := weight
 		if info, ok := oldLeaderboardWeight[player]; ok {
@@ -225,7 +225,7 @@ func writeWeight(filePath string, recordWeight map[string]data.FishInfo, titlewe
 			botIndicator = "*"
 		}
 
-		ranks := utils.Ranks(rank)
+		ranks := Ranks(rank)
 
 		// Write the leaderboard row
 		_, _ = fmt.Fprintf(file, "| %s %s | %s%s | %s | %s |", ranks, changeEmoji, player, botIndicator, fishType, fishweight)
