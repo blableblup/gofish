@@ -196,19 +196,16 @@ func writeWeight(filePath string, recordWeight map[string]data.FishInfo, titlewe
 
 		var found bool
 
+		oldWeight := weight
 		oldRank := -1
+
 		if info, ok := oldLeaderboardWeight[player]; ok {
 			found = true
+			oldWeight = info.Weight
 			oldRank = info.Rank
 		}
 
 		changeEmoji := ChangeEmoji(rank, oldRank, found)
-
-		oldWeight := weight
-		if info, ok := oldLeaderboardWeight[player]; ok {
-			found = true
-			oldWeight = info.Weight
-		}
 
 		var fishweight string
 

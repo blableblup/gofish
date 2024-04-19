@@ -112,7 +112,7 @@ func processType(chatName string, chat utils.ChatInfo, pool *pgxpool.Pool, mode 
 	isGlobal := false
 
 	fmt.Printf("Updating type leaderboard for chat '%s'...\n", chatName)
-	err = writeType(chat.Type, recordType, titletype, isGlobal)
+	err = writeType(filePath, recordType, titletype, isGlobal)
 	if err != nil {
 		fmt.Println("Error writing type leaderboard:", err)
 	} else {
@@ -190,23 +190,21 @@ func writeType(filePath string, recordType map[string]data.FishInfo, titletype s
 			occupiedRanks[rank] = 1
 		} else {
 			rank = prevRank
+			occupiedRanks[rank]++
 		}
 
 		var found bool
 
+		oldWeight := weight
 		oldRank := -1
+
 		if info, ok := oldLeaderboardType[fishType]; ok {
 			found = true
+			oldWeight = info.Weight
 			oldRank = info.Rank
 		}
 
 		changeEmoji := ChangeEmoji(rank, oldRank, found)
-
-		oldWeight := weight
-		if info, ok := oldLeaderboardType[fishType]; ok {
-			found = true
-			oldWeight = info.Weight
-		}
 
 		var fishweight string
 

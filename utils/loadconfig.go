@@ -11,10 +11,7 @@ type ChatInfo struct {
 	Trophies        string  `json:"trophies"`
 	Fishweek        string  `json:"fishweek"`
 	Fishweeklimit   int     `json:"fishweek_limit"`
-	Weight          string  `json:"weight"`
 	Weightlimit     float64 `json:"weight_limit"`
-	Type            string  `json:"type"`
-	Totalcount      string  `json:"totalcount"`
 	Totalcountlimit int     `json:"totalcount_limit"`
 	LogsHost        string  `json:"logs_host"`
 	LogsHostOld     string  `json:"logs_host_old"`
