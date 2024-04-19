@@ -122,8 +122,7 @@ func RunCountGlobal(config utils.Config, pool *pgxpool.Pool) {
 			// Retrieve player name from the playerdata table
 			err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Player)
 			if err != nil {
-				fmt.Println("Error retrieving player name:", err)
-				continue
+				fmt.Printf("Error retrieving player name for id '%d':\n", fishInfo.PlayerID)
 			}
 
 			// Check if the player is already in the map
@@ -202,14 +201,5 @@ func updateCountLeaderboard(globalCount map[string]data.FishInfo) {
 		fmt.Println("Error writing global count leaderboard:", err)
 	} else {
 		fmt.Println("Global count leaderboard updated successfully.")
-	}
-}
-
-func ConvertToFishInfo(info LeaderboardInfo) data.FishInfo {
-	return data.FishInfo{
-		Weight: info.Weight,
-		Type:   info.Type,
-		Bot:    info.Bot,
-		Player: info.Player,
 	}
 }

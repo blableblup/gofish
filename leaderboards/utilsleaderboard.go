@@ -55,3 +55,12 @@ func ChangeEmoji(rank int, oldRank int, found bool) string {
 
 	return changeEmoji
 }
+
+func ConvertToFishInfo(info LeaderboardInfo) data.FishInfo {
+	return data.FishInfo{
+		Weight: info.Weight,
+		Type:   info.Type,
+		Bot:    info.Bot,
+		Player: info.Player,
+	}
+}
