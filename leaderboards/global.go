@@ -30,7 +30,6 @@ func RunTypeGlobal(config utils.Config) {
 			return
 		}
 
-		// Combine old type records into global record, keeping only the biggest record per fish type
 		for fishType, oldRecord := range oldRecordType {
 			convertedRecord := ConvertToFishInfo(oldRecord)
 
@@ -49,7 +48,6 @@ func RunWeightGlobal(config utils.Config) {
 
 	globalRecordWeight := make(map[string]data.FishInfo)
 
-	// Get the weight limit from the "global" configuration
 	WeightLimit := config.Chat["global"].Weightlimit
 
 	// Process all chats
@@ -68,7 +66,6 @@ func RunWeightGlobal(config utils.Config) {
 			return
 		}
 
-		// Combine old weight records into global record, keeping only the biggest record per player
 		for player, oldRecord := range oldRecordWeight {
 			convertedRecord := ConvertToFishInfo(oldRecord)
 
@@ -126,6 +123,7 @@ func RunCountGlobal(config utils.Config, pool *pgxpool.Pool) {
 			}
 
 			// Check if the player is already in the map
+			emoji := config.Chat[chatName].Emoji
 			existingFishInfo, exists := globalCount[fishInfo.Player]
 			if exists {
 				existingFishInfo.Count += fishInfo.Count
@@ -133,7 +131,6 @@ func RunCountGlobal(config utils.Config, pool *pgxpool.Pool) {
 				if existingFishInfo.ChatCounts == nil {
 					existingFishInfo.ChatCounts = make(map[string]int)
 				}
-				emoji := config.Chat[chatName].Emoji
 				existingFishInfo.ChatCounts[emoji] += fishInfo.Count
 
 				if fishInfo.Count > existingFishInfo.MaxCount {
@@ -142,7 +139,6 @@ func RunCountGlobal(config utils.Config, pool *pgxpool.Pool) {
 				}
 				globalCount[fishInfo.Player] = existingFishInfo
 			} else {
-				emoji := config.Chat[chatName].Emoji
 				globalCount[fishInfo.Player] = data.FishInfo{
 					Player:     fishInfo.Player,
 					Count:      fishInfo.Count,
