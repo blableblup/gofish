@@ -74,6 +74,29 @@ func EnsureTableExists(pool *pgxpool.Pool, tableName string) error {
 			}
 
 			fmt.Printf("Table '%s' created successfully\n", tableName)
+		case tableName == "tournaments":
+			_, err := pool.Exec(context.Background(), fmt.Sprintf(`
+				CREATE TABLE %s (
+					trnmid SERIAL PRIMARY KEY,
+					chatid INT,
+					date TIMESTAMP,
+					player VARCHAR(255),
+					playerid INT,
+					fishcaught INT,
+					fishplacement INT,
+					totalweight FLOAT,
+					weightplacement INT,
+					biggestfish FLOAT,
+					biggestfishPlacement INT,
+					bot VARCHAR(255),
+					chat VARCHAR(255)
+				)
+			`, tableName))
+			if err != nil {
+				return err
+			}
+
+			fmt.Printf("Table '%s' created successfully\n", tableName) // This isnt used atm
 
 		default:
 			return fmt.Errorf("unsupported table name: %s", tableName)
