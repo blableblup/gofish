@@ -147,7 +147,6 @@ func RunCountGlobal(config utils.Config, pool *pgxpool.Pool) {
 					ChatCounts: map[string]int{emoji: fishInfo.Count},
 				}
 			}
-
 		}
 	}
 
@@ -191,8 +190,9 @@ func updateCountLeaderboard(globalCount map[string]data.FishInfo) {
 	fmt.Println("Updating global count leaderboard...")
 	title := "### Most fish caught globally\n"
 	isGlobal := true
+	isType := false
 	filePath := filepath.Join("leaderboards", "global", "count.md")
-	err := writeCount(filePath, globalCount, title, isGlobal)
+	err := writeCount(filePath, globalCount, title, isGlobal, isType)
 	if err != nil {
 		fmt.Println("Error writing global count leaderboard:", err)
 	} else {

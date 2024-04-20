@@ -60,9 +60,10 @@ func processCount(chatName string, chat utils.ChatInfo, pool *pgxpool.Pool) {
 
 	titletotalcount := fmt.Sprintf("### Most fish caught in %s's chat\n", chatName)
 	isGlobal := false
+	isType := false
 
 	fmt.Printf("Updating totalcount leaderboard for chat '%s' with count threshold %d...\n", chatName, Totalcountlimit)
-	err = writeCount(filePath, fishCaught, titletotalcount, isGlobal)
+	err = writeCount(filePath, fishCaught, titletotalcount, isGlobal, isType)
 	if err != nil {
 		fmt.Println("Error writing totalcount leaderboard:", err)
 	} else {
@@ -70,7 +71,7 @@ func processCount(chatName string, chat utils.ChatInfo, pool *pgxpool.Pool) {
 	}
 }
 
-func writeCount(filePath string, fishCaught map[string]data.FishInfo, titletotalcount string, isGlobal bool) error {
+func writeCount(filePath string, fishCaught map[string]data.FishInfo, titletotalcount string, isGlobal bool, isType bool) error {
 	oldLeaderboardCount, err := ReadTotalcountRankings(filePath)
 	if err != nil {
 		return err
@@ -93,7 +94,12 @@ func writeCount(filePath string, fishCaught map[string]data.FishInfo, titletotal
 		return err
 	}
 
-	_, _ = fmt.Fprintln(file, "| Rank | Player | Fish Caught |"+func() string {
+	prefix := "| Rank | Player | Fish Caught |"
+	if isType {
+		prefix = "| Rank | Fish | Times Caught |"
+	}
+
+	_, _ = fmt.Fprintln(file, prefix+func() string {
 		if isGlobal {
 			return " Chat |"
 		}
@@ -179,9 +185,11 @@ func writeCount(filePath string, fishCaught map[string]data.FishInfo, titletotal
 		prevRank = rank
 	}
 
-	_, err = fmt.Fprintln(file, "\n_* = The player caught their first fish on supibot and did not migrate their data to gofishgame. Because of that their data was not individually verified to be accurate._")
-	if err != nil {
-		return err
+	if !isType {
+		_, err = fmt.Fprintln(file, "\n_* = The player caught their first fish on supibot and did not migrate their data to gofishgame. Because of that their data was not individually verified to be accurate._")
+		if err != nil {
+			return err
+		}
 	}
 
 	return nil
