@@ -39,6 +39,8 @@ func Leaderboards(leaderboards string, chatNames string, mode string) {
 			Weight(config, chatNames, pool, mode)
 		case "type":
 			Type(config, chatNames, pool, mode)
+		case "typecount":
+			RunCountFishTypesGlobal(config, pool)
 		case "trophy":
 
 		case "fishw":
