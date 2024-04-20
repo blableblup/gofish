@@ -8,6 +8,7 @@ import (
 	"gofish/utils"
 	"os"
 	"path/filepath"
+	"time"
 )
 
 func processCount(params LeaderboardParams) {
@@ -37,23 +38,19 @@ func processCount(params LeaderboardParams) {
 	fishCaught := make(map[string]data.FishInfo)
 	// Iterate through the query results and store fish count for each player
 	for rows.Next() {
-		var playerID, fishCount int
-		if err := rows.Scan(&playerID, &fishCount); err != nil {
+		var fishInfo data.FishInfo
+		if err := rows.Scan(&fishInfo.PlayerID, &fishInfo.Count); err != nil {
 			fmt.Println("Error scanning row:", err)
 			continue
 		}
-
 		// Retrieve player name from the playerdata table
 		var playerName string
-		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", playerID).Scan(&playerName)
+		err := pool.QueryRow(context.Background(), "SELECT name, firstfishdate FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&playerName, &fishInfo.Date)
 		if err != nil {
-			fmt.Println("Error retrieving player name:", err)
-			continue
+			fmt.Printf("Error retrieving player name for id '%d':\n", fishInfo.PlayerID)
 		}
-
-		fishInfo := data.FishInfo{
-			Player: playerName,
-			Count:  fishCount,
+		if fishInfo.Date.Before(time.Date(2023, time.September, 14, 0, 0, 0, 0, time.UTC)) {
+			fishInfo.Bot = "supibot"
 		}
 
 		fishCaught[playerName] = fishInfo
@@ -142,12 +139,10 @@ func writeCount(filePath string, fishCaught map[string]data.FishInfo, titletotal
 		oldRank := -1
 		oldCount := Count
 		oldFishInfo, ok := oldLeaderboardCount[player]
-		oldBot := ""
 		if ok {
 			found = true
 			oldRank = oldFishInfo.Rank
 			oldCount = oldFishInfo.Count
-			oldBot = oldFishInfo.Bot
 		}
 
 		changeEmoji := ChangeEmoji(rank, oldRank, found)
@@ -162,7 +157,7 @@ func writeCount(filePath string, fishCaught map[string]data.FishInfo, titletotal
 		}
 
 		botIndicator := ""
-		if oldBot == "supibot" && !utils.Contains(verifiedPlayers, player) {
+		if fishCaught[player].Bot == "supibot" && !utils.Contains(verifiedPlayers, player) {
 			botIndicator = "*"
 		}
 

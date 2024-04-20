@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"gofish/data"
 	"path/filepath"
+	"time"
 )
 
 func RunTypeGlobal(params LeaderboardParams) {
@@ -118,10 +119,12 @@ func RunCountGlobal(params LeaderboardParams) {
 				continue
 			}
 
-			// Retrieve player name from the playerdata table
-			err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Player)
+			err := pool.QueryRow(context.Background(), "SELECT name, firstfishdate FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Player, &fishInfo.Date)
 			if err != nil {
 				fmt.Printf("Error retrieving player name for id '%d':\n", fishInfo.PlayerID)
+			}
+			if fishInfo.Date.Before(time.Date(2023, time.September, 14, 0, 0, 0, 0, time.UTC)) {
+				fishInfo.Bot = "supibot"
 			}
 
 			// Check if the player is already in the map
@@ -146,6 +149,7 @@ func RunCountGlobal(params LeaderboardParams) {
 					Count:      fishInfo.Count,
 					Chat:       emoji,
 					MaxCount:   fishInfo.Count,
+					Bot:        fishInfo.Bot,
 					ChatCounts: map[string]int{emoji: fishInfo.Count},
 				}
 			}
