@@ -31,35 +31,49 @@ func Leaderboards(leaderboards string, chatNames string, mode string) {
 	}
 	defer pool.Close()
 
+	params := LeaderboardParams{
+		Pool:     pool,
+		Mode:     mode,
+		ChatName: chatNames,
+		Config:   config,
+	}
+
 	for _, leaderboard := range leaderboardList {
+		params.LeaderboardType = leaderboard
 		switch leaderboard {
-		case "count":
-			Count(config, chatNames, pool, mode)
+		case "fishw":
+			processLeaderboard(config, params, processFishweek)
+		case "trophy":
+			processLeaderboard(config, params, processTrophy)
 		case "weight":
-			Weight(config, chatNames, pool, mode)
+			processLeaderboard(config, params, processWeight)
+		case "count":
+			processLeaderboard(config, params, processCount)
 		case "type":
-			Type(config, chatNames, pool, mode)
+			processLeaderboard(config, params, processType)
 		case "typecount":
 			RunCountFishTypesGlobal(config, pool)
-		case "trophy":
-			Trophy(config, chatNames, pool, mode)
-		case "fishw":
-			Fishweek(config, chatNames, pool, mode)
+
 		case "all":
 			fmt.Println("Updating all leaderboards...")
-			Weight(config, chatNames, pool, mode)
-			Type(config, chatNames, pool, mode)
-
+			params.LeaderboardType = "type"
+			processLeaderboard(config, params, processType)
+			params.LeaderboardType = "count"
+			processLeaderboard(config, params, processCount)
+			params.LeaderboardType = "weight"
+			processLeaderboard(config, params, processWeight)
+			params.LeaderboardType = "trophy"
+			processLeaderboard(config, params, processTrophy)
+			params.LeaderboardType = "fishweek"
+			processLeaderboard(config, params, processFishweek)
 		default:
-			fmt.Println("Invalid leaderboard specified:", leaderboard)
-
+			fmt.Println("＞︿＜ Invalid leaderboard specified:", leaderboard)
 		}
 	}
 }
 
-func Weight(config utils.Config, chatNames string, pool *pgxpool.Pool, mode string) {
-
-	switch chatNames {
+func processLeaderboard(config utils.Config, params LeaderboardParams, processFunc func(LeaderboardParams)) {
+	switch params.ChatName {
 	case "all":
 		// Process all chats
 		for chatName, chat := range config.Chat {
@@ -70,16 +84,18 @@ func Weight(config utils.Config, chatNames string, pool *pgxpool.Pool, mode stri
 				continue
 			}
 
-			fmt.Printf("Checking weight records for chat '%s'.\n", chatName)
-			processWeight(chatName, chat, pool, mode)
+			fmt.Printf("Checking leaderboard for chat '%s'.\n", chatName)
+			params.ChatName = chatName
+			params.Chat = chat
+			processFunc(params)
 		}
 	case "global":
-		RunWeightGlobal(config)
+		processGlobalLeaderboard(params)
 	case "":
 		fmt.Println("Please specify chat names.")
 	default:
 		// Process specified chat names
-		specifiedchatNames := strings.Split(chatNames, ",")
+		specifiedchatNames := strings.Split(params.ChatName, ",")
 		for _, chatName := range specifiedchatNames {
 			chat, ok := config.Chat[chatName]
 			if !ok {
@@ -93,172 +109,33 @@ func Weight(config utils.Config, chatNames string, pool *pgxpool.Pool, mode stri
 				continue
 			}
 
-			fmt.Printf("Checking weight records for chat '%s'.\n", chatName)
-			processWeight(chatName, chat, pool, mode)
+			fmt.Printf("Checking leaderboard for chat '%s'.\n", chatName)
+			params.ChatName = chatName
+			params.Chat = chat
+			processFunc(params)
 		}
 	}
 }
 
-func Type(config utils.Config, chatNames string, pool *pgxpool.Pool, mode string) {
+func processGlobalLeaderboard(params LeaderboardParams) {
 
-	switch chatNames {
-	case "all":
-		// Process all chats
-		for chatName, chat := range config.Chat {
-			if !chat.CheckEnabled {
-				if chatName != "global" {
-					fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
-				}
-				continue
-			}
-
-			fmt.Printf("Checking type records for chat '%s'.\n", chatName)
-			processType(chatName, pool, mode)
-		}
-	case "global":
-		RunTypeGlobal(config)
-	case "":
-		fmt.Println("Please specify chat names.")
+	switch params.LeaderboardType {
+	case "weight":
+		RunWeightGlobal(params)
+	case "count":
+		RunCountGlobal(params)
+	case "type":
+		RunTypeGlobal(params)
 	default:
-		// Process specified chat names
-		specifiedchatNames := strings.Split(chatNames, ",")
-		for _, chatName := range specifiedchatNames {
-			chat, ok := config.Chat[chatName]
-			if !ok {
-				fmt.Printf("Chat '%s' not found in config.\n", chatName)
-				continue
-			}
-			if !chat.CheckEnabled {
-				if chatName != "global" {
-					fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
-				}
-				continue
-			}
-
-			fmt.Printf("Checking type records for chat '%s'.\n", chatName)
-			processType(chatName, pool, mode)
-		}
+		fmt.Printf("（︶^︶） There is no global leaderboard for that board '%s'\n", params.LeaderboardType)
 	}
 }
 
-func Count(config utils.Config, chatNames string, pool *pgxpool.Pool, mode string) {
-
-	switch chatNames {
-	case "all":
-		// Process all chats
-		for chatName, chat := range config.Chat {
-			if !chat.CheckEnabled {
-				if chatName != "global" {
-					fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
-				}
-				continue
-			}
-
-			fmt.Printf("Checking count for chat '%s'.\n", chatName)
-			processCount(chatName, chat, pool)
-		}
-	case "global":
-		RunCountGlobal(config, pool)
-	case "":
-		fmt.Println("Please specify chat names.")
-	default:
-		// Process specified chat names
-		specifiedchatNames := strings.Split(chatNames, ",")
-		for _, chatName := range specifiedchatNames {
-			chat, ok := config.Chat[chatName]
-			if !ok {
-				fmt.Printf("Chat '%s' not found in config.\n", chatName)
-				continue
-			}
-			if !chat.CheckEnabled {
-				if chatName != "global" {
-					fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
-				}
-				continue
-			}
-
-			fmt.Printf("Checking count for chat '%s'.\n", chatName)
-			processCount(chatName, chat, pool)
-		}
-	}
-}
-
-func Trophy(config utils.Config, chatNames string, pool *pgxpool.Pool, mode string) {
-
-	switch chatNames {
-	case "all":
-		// Process all chats
-		for chatName, chat := range config.Chat {
-			if !chat.CheckEnabled {
-				if chatName != "global" {
-					fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
-				}
-				continue
-			}
-
-			fmt.Printf("Checking trophies for chat '%s'.\n", chatName)
-			processTrophy(chatName)
-		}
-	case "":
-		fmt.Println("Please specify chat names.")
-	default:
-		// Process specified chat names
-		specifiedchatNames := strings.Split(chatNames, ",")
-		for _, chatName := range specifiedchatNames {
-			chat, ok := config.Chat[chatName]
-			if !ok {
-				fmt.Printf("Chat '%s' not found in config.\n", chatName)
-				continue
-			}
-			if !chat.CheckEnabled {
-				if chatName != "global" {
-					fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
-				}
-				continue
-			}
-
-			fmt.Printf("Checking trophies for chat '%s'.\n", chatName)
-			processTrophy(chatName)
-		}
-	}
-}
-
-func Fishweek(config utils.Config, chatNames string, pool *pgxpool.Pool, mode string) {
-
-	switch chatNames {
-	case "all":
-		// Process all chats
-		for chatName, chat := range config.Chat {
-			if !chat.CheckEnabled {
-				if chatName != "global" {
-					fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
-				}
-				continue
-			}
-
-			fmt.Printf("Checking fishweek for chat '%s'.\n", chatName)
-			processFishweek(chatName, chat)
-		}
-	case "":
-		fmt.Println("Please specify chat names.")
-	default:
-		// Process specified chat names
-		specifiedchatNames := strings.Split(chatNames, ",")
-		for _, chatName := range specifiedchatNames {
-			chat, ok := config.Chat[chatName]
-			if !ok {
-				fmt.Printf("Chat '%s' not found in config.\n", chatName)
-				continue
-			}
-			if !chat.CheckEnabled {
-				if chatName != "global" {
-					fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
-				}
-				continue
-			}
-
-			fmt.Printf("Checking fishweek for chat '%s'.\n", chatName)
-			processFishweek(chatName, chat)
-		}
-	}
+type LeaderboardParams struct {
+	Chat            utils.ChatInfo
+	Pool            *pgxpool.Pool
+	Config          utils.Config
+	ChatName        string
+	Mode            string
+	LeaderboardType string
 }

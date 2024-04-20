@@ -9,11 +9,14 @@ import (
 	"os"
 	"path/filepath"
 	"time"
-
-	"github.com/jackc/pgx/v4/pgxpool"
 )
 
-func processWeight(chatName string, chat utils.ChatInfo, pool *pgxpool.Pool, mode string) {
+func processWeight(params LeaderboardParams) {
+	chatName := params.ChatName
+	mode := params.Mode
+	pool := params.Pool
+	chat := params.Chat
+
 	filePath := filepath.Join("leaderboards", chatName, "weight.md")
 
 	oldRecordWeight, err := ReadWeightRankings(filePath)
