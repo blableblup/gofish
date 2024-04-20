@@ -11,28 +11,16 @@ import (
 	"strings"
 )
 
-// RunLogs runs the logs program with the provided chatNames, numMonths, and monthYear.
-func RunLogs(chatNames string, numMonths int, monthYear string) {
-	// Get the current working directory
-	wd, err := os.Getwd()
-	if err != nil {
-		fmt.Println("Error getting current working directory:", err)
-		os.Exit(1)
-	}
-
-	// Construct the absolute path to the config file
-	configFilePath := filepath.Join(wd, "config.json")
-
-	// Load the config from the constructed file path
-	config := utils.LoadConfig(configFilePath)
+func GetTournamentData(config utils.Config, chatNames string, numMonths int, monthYear string) {
 
 	switch chatNames {
 	case "all":
-		// Process all chats
 		for chatName, chat := range config.Chat {
 			if !chat.CheckEnabled {
-				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
-				continue // Skip processing if check_enabled is false
+				if chatName != "global" {
+					fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+				}
+				continue
 			}
 
 			fmt.Printf("Checking chat '%s'.\n", chatName)
@@ -51,8 +39,10 @@ func RunLogs(chatNames string, numMonths int, monthYear string) {
 				continue
 			}
 			if !chat.CheckEnabled {
-				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
-				continue // Skip processing if check_enabled is false
+				if chatName != "global" {
+					fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+				}
+				continue
 			}
 
 			fmt.Printf("Checking chat '%s'.\n", chatName)
@@ -63,10 +53,9 @@ func RunLogs(chatNames string, numMonths int, monthYear string) {
 }
 
 func fetchMatchingLines(chatName string, urls []string) {
-	// Construct the absolute path to the log file
+
 	logFilePath := filepath.Join("data", chatName, "tournamentlogs.txt")
 
-	// Ensure directory exists
 	if err := os.MkdirAll(filepath.Dir(logFilePath), 0755); err != nil {
 		fmt.Println("Error creating directory:", err)
 		return
@@ -106,7 +95,6 @@ func fetchMatchingLines(chatName string, urls []string) {
 		return
 	}
 
-	// Read existing content from the output file
 	file, err := os.OpenFile(logFilePath, os.O_RDONLY|os.O_CREATE, 0644)
 	if err != nil {
 		fmt.Println("Error opening log file:", err)

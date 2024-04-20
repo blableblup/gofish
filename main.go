@@ -50,10 +50,6 @@ func main() {
 		leaderboards.Leaderboards(*leaderboard, *chatNames, *mode)
 		// Modes: "c", only prints new / updated type and weight records
 
-	case "logs":
-		fmt.Printf("Running %s program...\n", *program)
-		data.RunLogs(*chatNames, *numMonths, *monthYear)
-
 	case "data":
 		fmt.Printf("Running %s program", *program)
 		if *mode != "" {
