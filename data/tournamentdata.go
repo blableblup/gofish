@@ -23,14 +23,13 @@ func GetTournamentData(config utils.Config, chatNames string, numMonths int, mon
 				continue
 			}
 
-			fmt.Printf("Checking chat '%s'.\n", chatName)
+			fmt.Printf("Checking tournament results for chat '%s'.\n", chatName)
 			urls := utils.CreateURL(chatName, numMonths, monthYear)
 			fetchMatchingLines(chatName, urls)
 		}
 	case "":
 		fmt.Println("Please specify chat names.")
 	default:
-		// Process specified chat names
 		specifiedchatNames := strings.Split(chatNames, ",")
 		for _, chatName := range specifiedchatNames {
 			chat, ok := config.Chat[chatName]
@@ -45,7 +44,7 @@ func GetTournamentData(config utils.Config, chatNames string, numMonths int, mon
 				continue
 			}
 
-			fmt.Printf("Checking chat '%s'.\n", chatName)
+			fmt.Printf("Checking tournament results for chat '%s'.\n", chatName)
 			urls := utils.CreateURL(chatName, numMonths, monthYear)
 			fetchMatchingLines(chatName, urls)
 		}

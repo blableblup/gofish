@@ -11,20 +11,17 @@ import (
 )
 
 func main() {
-	// Define command line flags
-	program := flag.String("p", "", "Program name: boards, data, trnm, logs, pattern")
-	chatNames := flag.String("s", "", "Comma-separated list of chat names")
-	leaderboard := flag.String("l", "", "Comma separated list of leaderboards")
-	mode := flag.String("mm", "", "Modes are different for each program")
 	numMonths := flag.Int("m", 1, "Number of past months")
+	mode := flag.String("mm", "", "Modes are different for each program")
+	chatNames := flag.String("s", "", "Comma-separated list of chat names")
 	monthYear := flag.String("dt", "", "Specific month and year (yyyy/mm)")
+	leaderboard := flag.String("l", "", "Comma separated list of leaderboards")
+	program := flag.String("p", "", "Program name: boards, data, trnm, logs, pattern")
 	db := flag.String("db", "", "Database to update, fish (f) and tournament results (t)")
 	renamePairs := flag.String("rename", "", "Comma-separated list of oldName:newName pairs")
 
-	// Parse command line flags
 	flag.Parse()
 
-	// Validate program name
 	if *program == "" {
 		fmt.Println("Usage: go run main.go -p boards [-s <chat names> <all> <global>] [-l <leaderboards>] [-m <mode>]")
 		fmt.Println("Usage: go run main.go -p data [-db <database>] [-m <months>] [-d <date>] [-m <mode>]")
@@ -33,13 +30,11 @@ func main() {
 		return
 	}
 
-	// Validate mode name for the specified program
 	if *mode != "" && !isValidModeForProgram(*program, *mode) {
 		fmt.Println("Invalid mode specified for the program or the program doesn't have different modes.")
 		return
 	}
 
-	// Call the appropriate function based on the program name
 	switch *program {
 	case "boards":
 		fmt.Printf("Running %s program", *program)
@@ -87,9 +82,8 @@ func main() {
 	}
 }
 
-// Function to validate mode name for the specified program
 func isValidModeForProgram(program, mode string) bool {
-	// Define valid modes for each program
+
 	validModes := map[string]map[string]bool{
 		"wght":   {"c": true},
 		"boards": {"c": true},

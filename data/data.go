@@ -50,6 +50,7 @@ func GetFishData(config utils.Config, chatNames string, numMonths int, monthYear
 			return
 		}
 
+		fmt.Printf("Checking new fish data.\n")
 		for chatName, chat := range config.Chat {
 			if !chat.CheckEnabled {
 				if chatName != "global" {
