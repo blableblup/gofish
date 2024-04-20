@@ -59,11 +59,10 @@ func processCount(chatName string, chat utils.ChatInfo, pool *pgxpool.Pool) {
 	}
 
 	titletotalcount := fmt.Sprintf("### Most fish caught in %s's chat\n", chatName)
-	isGlobal := false
-	isType := false
+	isGlobal, isType, isFishw := false, false, false
 
 	fmt.Printf("Updating totalcount leaderboard for chat '%s' with count threshold %d...\n", chatName, Totalcountlimit)
-	err = writeCount(filePath, fishCaught, titletotalcount, isGlobal, isType)
+	err = writeCount(filePath, fishCaught, titletotalcount, isGlobal, isType, isFishw)
 	if err != nil {
 		fmt.Println("Error writing totalcount leaderboard:", err)
 	} else {
@@ -71,7 +70,7 @@ func processCount(chatName string, chat utils.ChatInfo, pool *pgxpool.Pool) {
 	}
 }
 
-func writeCount(filePath string, fishCaught map[string]data.FishInfo, titletotalcount string, isGlobal bool, isType bool) error {
+func writeCount(filePath string, fishCaught map[string]data.FishInfo, titletotalcount string, isGlobal bool, isType bool, isFishw bool) error {
 	oldLeaderboardCount, err := ReadTotalcountRankings(filePath)
 	if err != nil {
 		return err
@@ -185,8 +184,14 @@ func writeCount(filePath string, fishCaught map[string]data.FishInfo, titletotal
 		prevRank = rank
 	}
 
-	if !isType {
+	if !isType && !isFishw {
 		_, err = fmt.Fprintln(file, "\n_* = The player caught their first fish on supibot and did not migrate their data to gofishgame. Because of that their data was not individually verified to be accurate._")
+		if err != nil {
+			return err
+		}
+	}
+	if isFishw {
+		_, err = fmt.Fprintln(file, "\n_* = The fish were caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate._")
 		if err != nil {
 			return err
 		}

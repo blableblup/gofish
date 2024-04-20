@@ -24,68 +24,6 @@ type LeaderboardInfo struct {
 	Player string
 }
 
-// Function to read and extract the old fish per week leaderboard from the leaderboard file
-func ReadOldFishRankings(filePath string) (map[string]LeaderboardInfo, error) {
-	oldLeaderboardFishW := make(map[string]LeaderboardInfo)
-	renamedChatters := playerdata.ReadRenamedChatters()
-	cheaters := playerdata.ReadCheaters()
-
-	// Open the file
-	file, err := os.Open(filePath)
-	if err != nil {
-		// If the file doesn't exist, return empty rankings and counts
-		return oldLeaderboardFishW, nil
-	}
-	defer file.Close()
-
-	scanner := bufio.NewScanner(file)
-	skipHeader := 0
-	for scanner.Scan() {
-		line := scanner.Text()
-		if skipHeader < 3 {
-			skipHeader++
-			continue
-		}
-		if strings.HasPrefix(line, "|") {
-			parts := strings.Split(line, "|")
-			rankStr := strings.TrimSpace(parts[1])
-			rank, err := strconv.Atoi(strings.Split(rankStr, " ")[0])
-			if err != nil {
-				continue
-			}
-			player := strings.TrimSpace(parts[2])
-			if strings.Contains(player, "*") {
-				player = strings.TrimRight(player, "*")
-			}
-
-			// Change to the latest name
-			newPlayer := renamedChatters[player]
-			for newPlayer != "" {
-				player = newPlayer
-				newPlayer = renamedChatters[player]
-			}
-
-			if utils.Contains(cheaters, player) {
-				continue // Skip processing for ignored players
-			}
-
-			weekcountStr := strings.TrimSpace(parts[3])
-			weekcount, _ := strconv.Atoi(strings.Split(weekcountStr, " ")[0])
-
-			oldLeaderboardFishW[player] = LeaderboardInfo{
-				Rank:  rank,
-				Count: weekcount,
-			}
-		}
-	}
-
-	if err := scanner.Err(); err != nil {
-		return nil, err
-	}
-
-	return oldLeaderboardFishW, nil
-}
-
 // Function to read and extract the old trophies leaderboard from the leaderboard file
 func ReadOldTrophyRankings(filePath string) (map[string]LeaderboardInfo, error) {
 	oldLeaderboardTrophy := make(map[string]LeaderboardInfo)

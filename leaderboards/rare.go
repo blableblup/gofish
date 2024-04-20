@@ -77,9 +77,9 @@ func updateFishTypesLeaderboard(globalFishTypesCount map[string]data.FishInfo) {
 	fmt.Println("Updating rarest fish leaderboard...")
 	title := "### How many times a fish has been caught\n"
 	filePath := filepath.Join("leaderboards", "global", "rare.md")
-	isGlobal := true
-	isType := true
-	err := writeCount(filePath, globalFishTypesCount, title, isGlobal, isType)
+	isGlobal, isType := true, true
+	isFishw := false
+	err := writeCount(filePath, globalFishTypesCount, title, isGlobal, isType, isFishw)
 	if err != nil {
 		fmt.Println("Error writing rarest fish leaderboard:", err)
 	} else {
