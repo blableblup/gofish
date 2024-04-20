@@ -167,14 +167,7 @@ func writeWeight(filePath string, recordWeight map[string]data.FishInfo, titlewe
 
 	verifiedPlayers := playerdata.ReadVerifiedPlayers()
 
-	weights := make(map[string]float64)
-	fishTypes := make(map[string]string)
-	for player, record := range recordWeight {
-		weights[player] = record.Weight
-		fishTypes[player] = record.Type
-	}
-
-	sortedPlayers := utils.SortMapByValueDesc(weights)
+	sortedPlayers := SortMapByWeightDesc(recordWeight)
 
 	rank := 1
 	prevRank := 1
@@ -182,8 +175,8 @@ func writeWeight(filePath string, recordWeight map[string]data.FishInfo, titlewe
 	occupiedRanks := make(map[int]int)
 
 	for _, player := range sortedPlayers {
-		weight := weights[player]
-		fishType := fishTypes[player]
+		weight := recordWeight[player].Weight
+		fishType := recordWeight[player].Type
 
 		// Increment rank only if the count has changed
 		if weight != prevWeight {

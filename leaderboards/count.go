@@ -120,10 +120,11 @@ func writeCount(filePath string, fishCaught map[string]data.FishInfo, titletotal
 	occupiedRanks := make(map[int]int)
 
 	for _, player := range sortedPlayers {
-		fishInfo := fishCaught[player]
+		Count := fishCaught[player].Count
+		ChatCounts := fishCaught[player].ChatCounts
 
 		// Increment rank only if the count has changed
-		if fishInfo.Count != prevCount {
+		if Count != prevCount {
 			rank += occupiedRanks[rank]
 			occupiedRanks[rank] = 1
 		} else {
@@ -133,7 +134,7 @@ func writeCount(filePath string, fishCaught map[string]data.FishInfo, titletotal
 
 		var found bool
 		oldRank := -1
-		oldCount := fishInfo.Count
+		oldCount := Count
 		oldFishInfo, ok := oldLeaderboardCount[player]
 		oldBot := ""
 		if ok {
@@ -147,11 +148,11 @@ func writeCount(filePath string, fishCaught map[string]data.FishInfo, titletotal
 
 		var counts string
 
-		countDifference := fishInfo.Count - oldCount
+		countDifference := Count - oldCount
 		if countDifference > 0 {
-			counts = fmt.Sprintf("%d (+%d)", fishInfo.Count, countDifference)
+			counts = fmt.Sprintf("%d (+%d)", Count, countDifference)
 		} else {
-			counts = fmt.Sprintf("%d", fishInfo.Count)
+			counts = fmt.Sprintf("%d", Count)
 		}
 
 		botIndicator := ""
@@ -164,7 +165,7 @@ func writeCount(filePath string, fishCaught map[string]data.FishInfo, titletotal
 		_, _ = fmt.Fprintf(file, "| %s %s | %s%s | %s |", ranks, changeEmoji, player, botIndicator, counts)
 		if isGlobal {
 			// Print the count for each chat
-			for chat, count := range fishInfo.ChatCounts {
+			for chat, count := range ChatCounts {
 				_, _ = fmt.Fprintf(file, " %s(%d) ", chat, count)
 			}
 			_, _ = fmt.Fprint(file, "|")
@@ -174,7 +175,7 @@ func writeCount(filePath string, fishCaught map[string]data.FishInfo, titletotal
 			return err
 		}
 
-		prevCount = fishInfo.Count
+		prevCount = Count
 		prevRank = rank
 	}
 

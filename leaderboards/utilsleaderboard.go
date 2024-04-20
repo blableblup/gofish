@@ -21,6 +21,21 @@ func SortMapByCountDesc(fishCaught map[string]data.FishInfo) []string {
 	return players
 }
 
+func SortMapByWeightDesc(fishCaught map[string]data.FishInfo) []string {
+	// Create a slice of player names
+	players := make([]string, 0, len(fishCaught))
+	for player := range fishCaught {
+		players = append(players, player)
+	}
+
+	// Sort the slice based on the weight of fish caught
+	sort.Slice(players, func(i, j int) bool {
+		return fishCaught[players[i]].Weight > fishCaught[players[j]].Weight
+	})
+
+	return players
+}
+
 func Ranks(rank int) string {
 	var ranks string
 
