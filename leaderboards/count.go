@@ -8,11 +8,12 @@ import (
 	"gofish/utils"
 	"os"
 	"path/filepath"
-
-	"github.com/jackc/pgx/v4/pgxpool"
 )
 
-func processCount(chatName string, chat utils.ChatInfo, pool *pgxpool.Pool) {
+func processCount(params LeaderboardParams) {
+	chatName := params.ChatName
+	chat := params.Chat
+	pool := params.Pool
 	filePath := filepath.Join("leaderboards", chatName, "count.md")
 
 	Totalcountlimit := chat.Totalcountlimit

@@ -12,7 +12,9 @@ import (
 	"strconv"
 )
 
-func processFishweek(chatName string, chat utils.ChatInfo) {
+func processFishweek(params LeaderboardParams) {
+	chatName := params.ChatName
+	chat := params.Chat
 
 	renamedChatters := playerdata.ReadRenamedChatters()
 	cheaters := playerdata.ReadCheaters()

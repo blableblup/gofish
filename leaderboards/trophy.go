@@ -10,7 +10,8 @@ import (
 	"regexp"
 )
 
-func processTrophy(chatName string) {
+func processTrophy(params LeaderboardParams) {
+	chatName := params.ChatName
 
 	renamedChatters := playerdata.ReadRenamedChatters()
 	cheaters := playerdata.ReadCheaters()

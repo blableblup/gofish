@@ -4,13 +4,11 @@ import (
 	"context"
 	"fmt"
 	"gofish/data"
-	"gofish/utils"
 	"path/filepath"
-
-	"github.com/jackc/pgx/v4/pgxpool"
 )
 
-func RunTypeGlobal(config utils.Config) {
+func RunTypeGlobal(params LeaderboardParams) {
+	config := params.Config
 
 	globalRecordType := make(map[string]data.FishInfo)
 
@@ -44,7 +42,8 @@ func RunTypeGlobal(config utils.Config) {
 	updateTypeLeaderboard(globalRecordType)
 }
 
-func RunWeightGlobal(config utils.Config) {
+func RunWeightGlobal(params LeaderboardParams) {
+	config := params.Config
 
 	globalRecordWeight := make(map[string]data.FishInfo)
 
@@ -82,7 +81,10 @@ func RunWeightGlobal(config utils.Config) {
 	updateWeightLeaderboard(globalRecordWeight)
 }
 
-func RunCountGlobal(config utils.Config, pool *pgxpool.Pool) {
+func RunCountGlobal(params LeaderboardParams) {
+	config := params.Config
+	pool := params.Pool
+
 	globalCount := make(map[string]data.FishInfo)
 	totalcountLimit := config.Chat["global"].Totalcountlimit
 
