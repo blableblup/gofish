@@ -42,9 +42,9 @@ func Leaderboards(leaderboards string, chatNames string, mode string) {
 		case "typecount":
 			RunCountFishTypesGlobal(config, pool)
 		case "trophy":
-
+			Trophy(config, chatNames, pool, mode)
 		case "fishw":
-
+			Fishweek(config, chatNames, pool, mode)
 		case "all":
 			fmt.Println("Updating all leaderboards...")
 			Weight(config, chatNames, pool, mode)
@@ -179,6 +179,86 @@ func Count(config utils.Config, chatNames string, pool *pgxpool.Pool, mode strin
 
 			fmt.Printf("Checking count for chat '%s'.\n", chatName)
 			processCount(chatName, chat, pool)
+		}
+	}
+}
+
+func Trophy(config utils.Config, chatNames string, pool *pgxpool.Pool, mode string) {
+
+	switch chatNames {
+	case "all":
+		// Process all chats
+		for chatName, chat := range config.Chat {
+			if !chat.CheckEnabled {
+				if chatName != "global" {
+					fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+				}
+				continue
+			}
+
+			fmt.Printf("Checking trophies for chat '%s'.\n", chatName)
+			processTrophy(chatName)
+		}
+	case "":
+		fmt.Println("Please specify chat names.")
+	default:
+		// Process specified chat names
+		specifiedchatNames := strings.Split(chatNames, ",")
+		for _, chatName := range specifiedchatNames {
+			chat, ok := config.Chat[chatName]
+			if !ok {
+				fmt.Printf("Chat '%s' not found in config.\n", chatName)
+				continue
+			}
+			if !chat.CheckEnabled {
+				if chatName != "global" {
+					fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+				}
+				continue
+			}
+
+			fmt.Printf("Checking trophies for chat '%s'.\n", chatName)
+			processTrophy(chatName)
+		}
+	}
+}
+
+func Fishweek(config utils.Config, chatNames string, pool *pgxpool.Pool, mode string) {
+
+	switch chatNames {
+	case "all":
+		// Process all chats
+		for chatName, chat := range config.Chat {
+			if !chat.CheckEnabled {
+				if chatName != "global" {
+					fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+				}
+				continue
+			}
+
+			fmt.Printf("Checking fishweek for chat '%s'.\n", chatName)
+			processFishweek(chatName, chat)
+		}
+	case "":
+		fmt.Println("Please specify chat names.")
+	default:
+		// Process specified chat names
+		specifiedchatNames := strings.Split(chatNames, ",")
+		for _, chatName := range specifiedchatNames {
+			chat, ok := config.Chat[chatName]
+			if !ok {
+				fmt.Printf("Chat '%s' not found in config.\n", chatName)
+				continue
+			}
+			if !chat.CheckEnabled {
+				if chatName != "global" {
+					fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+				}
+				continue
+			}
+
+			fmt.Printf("Checking fishweek for chat '%s'.\n", chatName)
+			processFishweek(chatName, chat)
 		}
 	}
 }

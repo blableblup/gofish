@@ -189,10 +189,10 @@ func updateWeightLeaderboard(recordWeight map[string]data.FishInfo) {
 func updateCountLeaderboard(globalCount map[string]data.FishInfo) {
 	fmt.Println("Updating global count leaderboard...")
 	title := "### Most fish caught globally\n"
+	isType, isFishw := false, false
 	isGlobal := true
-	isType := false
 	filePath := filepath.Join("leaderboards", "global", "count.md")
-	err := writeCount(filePath, globalCount, title, isGlobal, isType)
+	err := writeCount(filePath, globalCount, title, isGlobal, isType, isFishw)
 	if err != nil {
 		fmt.Println("Error writing global count leaderboard:", err)
 	} else {
