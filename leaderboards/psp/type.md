@@ -14,8 +14,8 @@
 | 11  | 🧞‍♂ | 139.63 | obscurecharmling |
 | 12  | 🧜‍♀️ | 139.02 | zwockel01 |
 | 13  | 🦭 | 133.15 | caprise627 |
-| 14  | 🦞 | 119.17 | device1g |
 | 14  | 🐬 | 119.17 | qxxick_ |
+| 14  | 🦞 | 119.17 | device1g |
 | 16  | 🧟 | 118.60 | asthmaa |
 | 17  | 🦪 | 114.43 | wisdom_frog |
 | 18  | 🪸 | 93.50 | yopego |
@@ -36,8 +36,8 @@
 | 33  | 🥒 | 31.04 | sshradd |
 | 34  | 🧽 | 29.61 | datwguy |
 | 35  | 🪳 | 25.94 | douyinnowmadge |
-| 36  | 🦠 | 21.99 | nndiana |
 | 36  | 🐠 | 21.99 | quinrayy |
+| 36  | 🦠 | 21.99 | nndiana |
 | 38  | 🎰 | 20.92 | dx9er |
 | 39  | 🪼 | 20.55 | cubedude20 |
 | 40  | 🦦 | 19.88 | angus_lpc |
@@ -51,33 +51,33 @@
 | 48  | 👒 | 11.98 | ttecnk |
 | 49  | 🐌 | 11.95 | thomasdoge |
 | 50  | 🧸 | 11.91 | yaratecs2 |
-| 51  | 🧊 | 10.84 | noconcept_ |
 | 51  | 🦎 | 10.84 | bosscrazymen |
+| 51  | 🧊 | 10.84 | noconcept_ |
 | 53  | 🎱 | 10.82 | 0_asd |
 | 54  | 🪵 | 10.56 | vibinud |
 | 55  | 🩲 | 10.20 | alvaniss1g |
 | 56  | 💀 | 9.99 | joleksu |
-| 57 🆕 | 🪹 | 7.31 | huuuuurz |
-| 58 ⬇ | 🧵 | 5.43 | creepycode1337 |
-| 59 ⬇ | 🪝 | 4.99 | thedraingangceo* |
-| 60 ⬇ | 🎏 | 4.97 | caprise627 |
-| 61 ⬇ | 🥫 | 4.91 | huuuuurz |
-| 62 ⬇ | 🐚 | 4.00 | manianic_ |
-| 63 ⬇ | ☘️ | 3.95 (+0.04) | huuuuurz |
-| 64 ⬇ | 🪺 | 3.82 | huuuuurz |
-| 65 ⬇ | ☂️ | 2.96 | xanthic_swe |
-| 66 ⬇ | 🌹 | 2.88 (+0.01) | zwockel01 |
-| 67 ⬇ | 👢 | 2.00 | jr_mime |
-| 67 ⬇ | 🩰 | 2.00 | tomsi1g |
-| 67 ⬇ | 🧦 | 2.00 | manmanboy_ |
-| 70 ⬇ | 🩴 | 1.99 | zwockel01 |
-| 71 ⬇ | 👟 | 1.98 | jj_ladic |
-| 71 ⬇ | 🥪 | 1.98 | ovrht |
-| 73 ⬇ | ⛸️ | 1.96 | pookiesnowman |
-| 74 ⬇ | 🍬 | 1.60 | dx9er |
-| 75 ⬇ | 🧤 | 1.00 | kubo7 |
-| 75 ⬇ | 🌿 | 1.00 | shricky |
-| 77 ⬇ | 🪶 | 0.98 | amu1g |
-| 78 ⬇ | 🧣 | 0.92 | blazeblitzzz |
+| 57  | 🪹 | 7.31 | huuuuurz |
+| 58  | 🧵 | 5.43 | creepycode1337 |
+| 59  | 🪝 | 4.99 | thedraingangceo* |
+| 60  | 🎏 | 4.97 | caprise627 |
+| 61  | 🥫 | 4.91 | huuuuurz |
+| 62  | 🐚 | 4.00 | manianic_ |
+| 63  | ☘️ | 3.95 | huuuuurz |
+| 64  | 🪺 | 3.82 | huuuuurz |
+| 65  | ☂️ | 2.96 | xanthic_swe |
+| 66  | 🌹 | 2.88 | zwockel01 |
+| 67  | 🧦 | 2.00 | manmanboy_ |
+| 67  | 🩰 | 2.00 | tomsi1g |
+| 67  | 👢 | 2.00 | jr_mime |
+| 70  | 🩴 | 1.99 | zwockel01 |
+| 71  | 👟 | 1.98 | jj_ladic |
+| 71  | 🥪 | 1.98 | ovrht |
+| 73  | ⛸️ | 1.96 | pookiesnowman |
+| 74  | 🍬 | 1.60 | dx9er |
+| 75  | 🧤 | 1.00 | kubo7 |
+| 75  | 🌿 | 1.00 | shricky |
+| 77  | 🪶 | 0.98 | amu1g |
+| 78  | 🧣 | 0.92 | blazeblitzzz |
 
 _* = The fish was caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate._
