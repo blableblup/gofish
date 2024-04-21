@@ -16,45 +16,47 @@
 | 13  | euxoa | 🦑 | 258.72 |
 | 14  | amu1g | 🦕 | 256.67 |
 | 15  | sandwichsundays | 🦕 | 255.00 |
-| 16  | yopego | 🐢 | 254.30 |
-| 17  | copperx9 | 🦕 | 252.78 |
-| 18  | flunke_ | 🐳 | 250.84 |
-| 19  | wasdecxyq | 🐳 | 249.91 |
-| 20  | cappo7117 | 🦕 | 240.97 |
-| 21  | jr_mime | 🦕 | 237.62 |
-| 22  | quton | 🐳 | 234.94 |
-| 23  | em1ze | 🦕 | 231.82 |
-| 24  | maksmusz | 🦕 | 231.69 |
-| 25  | xkimi1337 | 🦕 | 230.91 |
-| 26  | teskotienpl | 🐳 | 228.46 |
-| 27  | acidfd174 | 🐍 | 227.90 |
-| 28  | jj_ladic | 🐳 | 222.91 |
-| 29  | asthmaa | 🐉 | 220.96 |
-| 30  | rc_xz | 🐳 | 216.62 |
-| 31  | duckfackkk | 🐳 | 215.83 |
-| 32  | jems______ | 🐳 | 215.56 |
-| 33  | qxxick_ | 🐉 | 214.08 |
-| 34  | hahppyy | 🐍 | 213.91 |
-| 35  | obscurecharmling | 🦈 | 212.97 |
-| 36  | rttvname | 🐳 | 212.06 |
-| 37  | eebbbee | 🦕 | 211.29 |
-| 38  | ottexdd | 🐉 | 210.83 |
-| 39  | noconcept_ | 🐉 | 210.03 |
-| 40  | mikel1g | 🐳 | 209.45 |
-| 41  | sameone | 🐳 | 208.78 |
-| 42  | dx9er | 🐉 | 208.18 |
-| 43  | pspisafemboy | 🐳 | 207.80 |
-| 44  | sl3id3r | 🐳 | 206.99 |
-| 45 🆕 | moneyhoarder | 🦈 | 206.89 |
-| 46 ⬇ | cubedude20 | 🐉 | 206.77 |
-| 47 ⬇ | tien_ | 🐳 | 205.87 |
-| 48 ⬇ | pookiesnowman | 🐳 | 205.15 |
-| 49 ⬇ | norque69 | 🦈 | 204.31 |
-| 50 ⬇ | scaryo_o | 🦕 | 203.52 |
-| 51 ⬇ | red_blade9 | 🦈 | 203.47 |
-| 52 ⬇ | psp1g | 🦈 | 202.59 |
-| 53 ⬇ | seryxx | 🐉 | 202.24 |
-| 54 ⬇ | ttecnk | 🐉 | 202.20 |
-| 55 🆕 | theng | 🐳 | 201.58 |
+| 16 🆕 | rein_chsdg | 🐳 | 254.34 |
+| 17 ⬇ | yopego | 🐢 | 254.30 |
+| 18 ⬇ | copperx9 | 🦕 | 252.78 |
+| 19 ⬇ | flunke_ | 🐳 | 250.84 |
+| 20 ⬇ | wasdecxyq | 🐳 | 249.91 |
+| 21 ⬇ | cappo7117 | 🦕 | 240.97 |
+| 22 ⬇ | jr_mime | 🦕 | 237.62 |
+| 23 ⬇ | quton | 🐳 | 234.94 |
+| 24 ⬇ | em1ze | 🦕 | 231.82 |
+| 25 ⬇ | maksmusz | 🦕 | 231.69 |
+| 26 ⬇ | xkimi1337 | 🦕 | 230.91 |
+| 27 ⬇ | teskotienpl | 🐳 | 228.46 |
+| 28 ⬇ | acidfd174 | 🐍 | 227.90 |
+| 29 ⬇ | jj_ladic | 🐳 | 222.91 |
+| 30 ⬇ | asthmaa | 🐉 | 220.96 |
+| 31 🆕 | commanda_u | 🐉 | 217.59 |
+| 32 ⬇ | rc_xz | 🐳 | 216.62 |
+| 33 ⬇ | duckfackkk | 🐳 | 215.83 |
+| 34 ⬇ | jems______ | 🐳 | 215.56 |
+| 35 ⬇ | qxxick_ | 🐉 | 214.08 |
+| 36 ⬇ | hahppyy | 🐍 | 213.91 |
+| 37 ⬇ | obscurecharmling | 🦈 | 212.97 |
+| 38 ⬇ | rttvname | 🐳 | 212.06 |
+| 39 ⬇ | eebbbee | 🦕 | 211.29 |
+| 40 ⬇ | ottexdd | 🐉 | 210.83 |
+| 41 ⬇ | noconcept_ | 🐉 | 210.03 |
+| 42 ⬇ | mikel1g | 🐳 | 209.45 |
+| 43 ⬇ | sameone | 🐳 | 208.78 |
+| 44 ⬇ | dx9er | 🐉 | 208.18 |
+| 45 ⬇ | pspisafemboy | 🐳 | 207.80 |
+| 46 ⬇ | sl3id3r | 🐳 | 206.99 |
+| 47 ⬇ | moneyhoarder | 🦈 | 206.89 |
+| 48 ⬇ | cubedude20 | 🐉 | 206.77 |
+| 49 ⬇ | tien_ | 🐳 | 205.87 |
+| 50 ⬇ | pookiesnowman | 🐳 | 205.15 |
+| 51 ⬇ | norque69 | 🦈 | 204.31 |
+| 52 ⬇ | scaryo_o | 🦕 | 203.52 |
+| 53 ⬇ | red_blade9 | 🦈 | 203.47 |
+| 54 ⬇ | psp1g | 🦈 | 202.59 |
+| 55 ⬇ | seryxx | 🐉 | 202.24 |
+| 56 ⬇ | ttecnk | 🐉 | 202.20 |
+| 57 ⬇ | theng | 🐳 | 201.58 |
 
 _* = The fish was caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate._
