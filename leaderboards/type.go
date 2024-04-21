@@ -37,8 +37,14 @@ func processType(params LeaderboardParams) {
 			FROM fish 
 			WHERE chat = $1
 			GROUP BY type
-		) max_fish ON f.type = max_fish.type AND f.weight = max_fish.max_weight
-		WHERE f.chat = $1`, chatName)
+		) AS sub
+		ON f.type = sub.type AND f.weight = sub.max_weight
+		WHERE f.chat = $1
+		AND f.chatid = (
+			SELECT MIN(chatid)
+			FROM fish
+			WHERE type = sub.type AND weight = sub.max_weight AND chat = $1
+		)`, chatName)
 	if err != nil {
 		fmt.Println("Error querying database:", err)
 		return
@@ -83,22 +89,17 @@ func processType(params LeaderboardParams) {
 		return
 	}
 
-	// Compare old weight records with new ones and update if necessary
+	// Compare old type records with new ones and update if necessary
 	for fishType, newTypeRecord := range newRecordType {
-		// Check if player exists in the old weight leaderboard
 		oldTypeRecord, exists := oldRecordType[fishType]
 		if !exists {
-			// If player doesn't exist in the old leaderboard, add the new record
 			recordType[fishType] = newTypeRecord
 			fmt.Println("New Record Record Type for Fish Type", fishType+":", newTypeRecord)
 		} else {
-			// If player exists in the old leaderboard, compare weights
 			if newTypeRecord.Weight > oldTypeRecord.Weight {
-				// If new weight is greater, update the leaderboard record
 				recordType[fishType] = newTypeRecord
 				fmt.Println("Updated Record Type for Fish Type", fishType+":", newTypeRecord)
 			} else {
-				// If new weight is not greater, keep the old record
 				recordType[fishType] = ConvertToFishInfo(oldTypeRecord)
 			}
 		}

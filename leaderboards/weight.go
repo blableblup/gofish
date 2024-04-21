@@ -91,20 +91,15 @@ func processWeight(params LeaderboardParams) {
 
 	// Compare old weight records with new ones and update if necessary
 	for playerName, newWeightRecord := range newRecordWeight {
-		// Check if player exists in the old weight leaderboard
 		oldWeightRecord, exists := oldRecordWeight[playerName]
 		if !exists {
-			// If player doesn't exist in the old leaderboard, add the new record
 			recordWeight[playerName] = newWeightRecord
 			fmt.Println("New Record Weight for Player", playerName+":", newWeightRecord)
 		} else {
-			// If player exists in the old leaderboard, compare weights
 			if newWeightRecord.Weight > oldWeightRecord.Weight {
-				// If new weight is greater, update the leaderboard record
 				recordWeight[playerName] = newWeightRecord
 				fmt.Println("Updated Record Weight for Player", playerName+":", newWeightRecord)
 			} else {
-				// If new weight is not greater, keep the old record
 				recordWeight[playerName] = ConvertToFishInfo(oldWeightRecord)
 			}
 		}
