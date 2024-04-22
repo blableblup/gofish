@@ -4,9 +4,6 @@
         "logs_host": "https://logs.joinuv.com/channel/breadworms/user/gofishgame/",
         "logs_host_old": "https://logs.joinuv.com/channel/breadworms/user/supibot/",
         "logs_added": "2022/12",
-        "logs": "bread/tournamentlogs.txt",
-        "trophies": "leaderboards/bread/leaderboardtrophies.md",
-        "fishweek": "leaderboards/bread/leaderboardfish.md",
         "emoji": "🍞",
         "check_enabled": true
       },
@@ -14,9 +11,6 @@
         "logs_host": "https://logs.nadeko.net/channel/psp1g/user/gofishgame/",
         "logs_host_old": "https://logs.nadeko.net/channel/psp1g/user/supibot/",
         "logs_added": "2023/8",
-        "logs": "psp/tournamentlogs.txt",
-        "trophies": "leaderboards/psp/leaderboardtrophies.md",
-        "fishweek": "leaderboards/psp/leaderboardfish.md",
         "emoji": "🐱",
         "check_enabled": true
       },

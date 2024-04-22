@@ -7,9 +7,6 @@ import (
 )
 
 type ChatInfo struct {
-	Logs            string  `json:"logs"`
-	Trophies        string  `json:"trophies"`
-	Fishweek        string  `json:"fishweek"`
 	Fishweeklimit   int     `json:"fishweek_limit"`
 	Weightlimit     float64 `json:"weight_limit"`
 	Totalcountlimit int     `json:"totalcount_limit"`
