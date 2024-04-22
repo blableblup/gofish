@@ -43,7 +43,7 @@ func main() {
 		}
 		fmt.Println("...")
 		leaderboards.Leaderboards(*leaderboard, *chatNames, *mode)
-		// Modes: "c", only prints new / updated type and weight records
+		// Modes: "check", only prints new / updated type and weight records
 
 	case "data":
 		fmt.Printf("Running %s program", *program)
@@ -85,8 +85,7 @@ func main() {
 func isValidModeForProgram(program, mode string) bool {
 
 	validModes := map[string]map[string]bool{
-		"wght":   {"c": true},
-		"boards": {"c": true},
+		"boards": {"check": true},
 		"data":   {"a": true},
 	}
 

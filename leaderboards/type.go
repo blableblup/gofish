@@ -25,8 +25,7 @@ func processType(params LeaderboardParams) {
 	}
 
 	// Create maps to store updated records
-	recordType := make(map[string]data.FishInfo)
-	newRecordType := make(map[string]data.FishInfo)
+	recordType, newRecordType := make(map[string]data.FishInfo), make(map[string]data.FishInfo)
 
 	// Query the database to get the biggest fish per type for the specific chat
 	rows, err := pool.Query(context.Background(), `
@@ -106,7 +105,7 @@ func processType(params LeaderboardParams) {
 	}
 
 	// Stops the program if it is in "just checking" mode
-	if mode == "c" {
+	if mode == "check" {
 		fmt.Printf("Finished checking for new type records for chat '%s'.\n", chatName)
 		return
 	}
