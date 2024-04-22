@@ -13,10 +13,8 @@ func SortMapByCountDesc(fishCaught map[string]data.FishInfo) []string {
 		players = append(players, player)
 	}
 
-	// Sort the slice based on the count of fish caught
-	sort.Slice(players, func(i, j int) bool {
-		return fishCaught[players[i]].Count > fishCaught[players[j]].Count
-	})
+	sort.SliceStable(players, func(i, j int) bool { return fishCaught[players[i]].Player < fishCaught[players[j]].Player })
+	sort.SliceStable(players, func(i, j int) bool { return fishCaught[players[i]].Count > fishCaught[players[j]].Count })
 
 	return players
 }
@@ -28,10 +26,21 @@ func SortMapByWeightDesc(fishCaught map[string]data.FishInfo) []string {
 		players = append(players, player)
 	}
 
-	// Sort the slice based on the weight of fish caught
-	sort.Slice(players, func(i, j int) bool {
-		return fishCaught[players[i]].Weight > fishCaught[players[j]].Weight
-	})
+	sort.SliceStable(players, func(i, j int) bool { return fishCaught[players[i]].Player < fishCaught[players[j]].Player })
+	sort.SliceStable(players, func(i, j int) bool { return fishCaught[players[i]].Weight > fishCaught[players[j]].Weight })
+
+	return players
+}
+
+func SortMapByValueDesc(totalPoints map[string]float64) []string {
+	// Create a slice of player names
+	players := make([]string, 0, len(totalPoints))
+	for player := range totalPoints {
+		players = append(players, player)
+	}
+
+	sort.SliceStable(players, func(i, j int) bool { return players[i] < players[j] })
+	sort.SliceStable(players, func(i, j int) bool { return totalPoints[players[i]] > totalPoints[players[j]] })
 
 	return players
 }

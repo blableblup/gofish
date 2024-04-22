@@ -117,7 +117,7 @@ func writeTrophy(filePath string, playerCounts map[string]LeaderboardInfo, title
 		totalPoints[player] = float64(counts.Trophy)*3 + float64(counts.Silver) + float64(counts.Bronze)*0.5
 	}
 
-	sortedPlayers := utils.SortMapByValueDesc(totalPoints)
+	sortedPlayers := SortMapByValueDesc(totalPoints)
 
 	rank := 1
 	prevRank := 1
