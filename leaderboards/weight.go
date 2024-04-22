@@ -31,8 +31,7 @@ func processWeight(params LeaderboardParams) {
 	}
 
 	// Create maps to store updated records
-	recordWeight := make(map[string]data.FishInfo)
-	newRecordWeight := make(map[string]data.FishInfo)
+	recordWeight, newRecordWeight := make(map[string]data.FishInfo), make(map[string]data.FishInfo)
 
 	// Query the database to get the biggest fish per player for the specific chat
 	rows, err := pool.Query(context.Background(), `
@@ -106,7 +105,7 @@ func processWeight(params LeaderboardParams) {
 	}
 
 	// Stops the program if it is in "just checking" mode
-	if mode == "c" {
+	if mode == "check" {
 		fmt.Printf("Finished checking for new weight records for chat '%s'.\n", chatName)
 		return
 	}

@@ -69,7 +69,7 @@ func RunWeightGlobal(params LeaderboardParams) {
 		for player, oldRecord := range oldRecordWeight {
 			convertedRecord := ConvertToFishInfo(oldRecord)
 
-			if convertedRecord.Weight > WeightLimit {
+			if convertedRecord.Weight >= WeightLimit {
 				existingRecord, exists := globalRecordWeight[player]
 				if !exists || convertedRecord.Weight > existingRecord.Weight {
 					convertedRecord.Chat = config.Chat[chatName].Emoji
@@ -158,7 +158,7 @@ func RunCountGlobal(params LeaderboardParams) {
 
 	// Filter out players who caught less than the totalcountLimit
 	for playerName, fishInfo := range globalCount {
-		if fishInfo.Count < totalcountLimit {
+		if fishInfo.Count <= totalcountLimit {
 			delete(globalCount, playerName)
 		}
 	}
