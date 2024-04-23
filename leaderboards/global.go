@@ -10,32 +10,81 @@ import (
 
 func RunTypeGlobal(params LeaderboardParams) {
 	config := params.Config
+	pool := params.Pool
 
-	globalRecordType := make(map[string]data.FishInfo)
+	globalRecordType, newRecordType := make(map[string]data.FishInfo), make(map[string]data.FishInfo)
 
-	// Process all chats
-	for chatName, chat := range config.Chat {
-		if !chat.CheckEnabled {
-			if chatName != "global" {
-				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
-			}
+	// Query the database to get the biggest fish per type
+	rows, err := pool.Query(context.Background(), `
+		SELECT f.type AS fish_type, f.weight, f.typename, f.bot, f.chat AS chatname, f.date, f.catchtype, f.fishid, f.chatid, f.playerid
+		FROM fish f
+		JOIN (
+			SELECT type, MAX(weight) AS max_weight
+			FROM fish 
+			GROUP BY type
+		) AS sub
+		ON f.type = sub.type AND f.weight = sub.max_weight
+		AND f.fishid = (
+			SELECT MIN(fishid)
+			FROM fish
+			WHERE type = sub.type AND weight = sub.max_weight
+	)`)
+	if err != nil {
+		fmt.Println("Error querying database:", err)
+		return
+	}
+	defer rows.Close()
+
+	// Iterate through the query results
+	for rows.Next() {
+		var fishType, typeName, bot, catchtype, chatname string
+		var date time.Time
+		var fishid, chatid, playerid int
+		var weight float64
+
+		if err := rows.Scan(&fishType, &weight, &typeName, &bot, &chatname, &date, &catchtype, &fishid, &chatid, &playerid); err != nil {
+			fmt.Println("Error scanning row:", err)
 			continue
 		}
 
-		filePath := filepath.Join("leaderboards", chatName, "type.md")
-		oldRecordType, err := ReadTypeRankings(filePath)
+		// Retrieve player name from the playerdata table
+		var playerName string
+		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", playerid).Scan(&playerName)
 		if err != nil {
-			fmt.Printf("Error reading old type leaderboard for chat '%s': %v\n", chatName, err)
-			return
+			fmt.Printf("Error retrieving player name for id '%d':\n", playerid)
+			continue
 		}
 
-		for fishType, oldRecord := range oldRecordType {
-			convertedRecord := ConvertToFishInfo(oldRecord)
+		newRecordType[fishType] = data.FishInfo{
+			Weight:    weight,
+			Player:    playerName,
+			TypeName:  typeName,
+			Bot:       bot,
+			Date:      date,
+			CatchType: catchtype,
+			Chat:      chatname,
+			FishId:    fishid,
+			ChatId:    chatid,
+		}
+	}
 
-			existingRecord, exists := globalRecordType[fishType]
-			if !exists || convertedRecord.Weight > existingRecord.Weight {
-				convertedRecord.Chat = config.Chat[chatName].Emoji
-				globalRecordType[fishType] = convertedRecord
+	if err := rows.Err(); err != nil {
+		fmt.Println("Error iterating over query results:", err)
+		return
+	}
+
+	for fishType, newTypeRecord := range newRecordType {
+		emoji := config.Chat[newTypeRecord.Chat].Emoji
+		globalTypeRecord, exists := globalRecordType[fishType]
+		if !exists {
+			newTypeRecord.Chat = emoji
+			globalRecordType[fishType] = newTypeRecord
+		} else {
+			if newTypeRecord.Weight > globalTypeRecord.Weight {
+				newTypeRecord.Chat = emoji
+				globalRecordType[fishType] = newTypeRecord
+			} else {
+				globalRecordType[fishType] = globalTypeRecord
 			}
 		}
 	}
