@@ -52,10 +52,11 @@ func Leaderboards(leaderboards string, chatNames string, mode string) {
 		case "type":
 			processLeaderboard(config, params, processType)
 		case "typecount":
-			RunCountFishTypesGlobal(config, pool)
+			RunCountFishTypesGlobal(params)
 
 		case "all":
 			fmt.Println("Updating all leaderboards...")
+			RunCountFishTypesGlobal(params)
 			params.LeaderboardType = "type"
 			processLeaderboard(config, params, processType)
 			params.LeaderboardType = "count"
