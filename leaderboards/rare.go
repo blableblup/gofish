@@ -4,13 +4,13 @@ import (
 	"context"
 	"fmt"
 	"gofish/data"
-	"gofish/utils"
 	"path/filepath"
-
-	"github.com/jackc/pgx/v4/pgxpool"
 )
 
-func RunCountFishTypesGlobal(config utils.Config, pool *pgxpool.Pool) {
+func RunCountFishTypesGlobal(params LeaderboardParams) {
+	config := params.Config
+	pool := params.Pool
+
 	globalFishTypesCount := make(map[string]data.FishInfo)
 
 	// Process all chats
