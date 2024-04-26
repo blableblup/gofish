@@ -79,15 +79,15 @@ func EnsureTableExists(pool *pgxpool.Pool, tableName string) error {
 				CREATE TABLE %s (
 					trnmid SERIAL PRIMARY KEY,
 					chatid INT,
-					date TIMESTAMP,
 					player VARCHAR(255),
 					playerid INT,
 					fishcaught INT,
-					fishplacement INT,
+					placement1 INT,
 					totalweight FLOAT,
-					weightplacement INT,
+					placement2 INT,
 					biggestfish FLOAT,
-					biggestfishPlacement INT,
+					placement3 INT,
+					date TIMESTAMP,
 					bot VARCHAR(255),
 					chat VARCHAR(255)
 				)
