@@ -28,7 +28,7 @@ func GetPlayerID(pool *pgxpool.Pool, playerName string, firstFishDate time.Time,
 	}
 
 	// Check if they renamed first
-	newPlayer := PlayerLeaderboard(playerName, pool)
+	newPlayer := PlayerRenamed(playerName, pool)
 
 	if newPlayer == playerName {
 		// Player doesn't exist, add them to the playerdata table
@@ -49,7 +49,7 @@ func GetPlayerID(pool *pgxpool.Pool, playerName string, firstFishDate time.Time,
 	return playerID, nil
 }
 
-func PlayerLeaderboard(player string, pool *pgxpool.Pool) string {
+func PlayerRenamed(player string, pool *pgxpool.Pool) string {
 	var newPlayer string
 
 	// Check if the player exists in the playerdata table
