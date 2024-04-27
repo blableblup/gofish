@@ -15,7 +15,7 @@ func main() {
 	mode := flag.String("mm", "", "Modes are different for each program")
 	chatNames := flag.String("s", "", "Comma-separated list of chat names")
 	monthYear := flag.String("dt", "", "Specific month and year (yyyy/mm)")
-	leaderboard := flag.String("l", "", "Comma separated list of leaderboards")
+	leaderboard := flag.String("l", "", "Comma-separated list of leaderboards")
 	program := flag.String("p", "", "Program name: boards, data, trnm, logs, pattern")
 	db := flag.String("db", "", "Database to update, fish (f) and tournament results (t)")
 	renamePairs := flag.String("rename", "", "Comma-separated list of oldName:newName pairs")
@@ -23,8 +23,8 @@ func main() {
 	flag.Parse()
 
 	if *program == "" {
-		fmt.Println("Usage: go run main.go -p boards [-s <chat names> <all> <global>] [-l <leaderboards>] [-m <mode>]")
-		fmt.Println("Usage: go run main.go -p data [-db <database>] [-m <months>] [-d <date>] [-m <mode>]")
+		fmt.Println("Usage: go run main.go -p boards [-s <chat names> <all> <global>] [-l <leaderboards>] [-mm <mode>]")
+		fmt.Println("Usage: go run main.go -p data [-db <database>] [-m <months>] [-dt <date>] [-mm <mode>]")
 		// If no month or time period is specified it checks the current month
 		fmt.Println("Usage: go run main.go -p renamed [-rename <oldName:newName>]")
 		return
