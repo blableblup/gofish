@@ -13,6 +13,12 @@ func RunTypeGlobal(params LeaderboardParams) {
 	pool := params.Pool
 
 	globalRecordType, newRecordType := make(map[string]data.FishInfo), make(map[string]data.FishInfo)
+	filePath := filepath.Join("leaderboards", "global", "type.md")
+	oldType, err := ReadTypeRankings(filePath, pool)
+	if err != nil {
+		fmt.Println("Error reading old type leaderboard:", err)
+		return
+	}
 
 	// Query the database to get the biggest fish per type
 	rows, err := pool.Query(context.Background(), `
@@ -89,13 +95,20 @@ func RunTypeGlobal(params LeaderboardParams) {
 		}
 	}
 
-	updateTypeLeaderboard(globalRecordType)
+	updateTypeLeaderboard(globalRecordType, oldType)
 }
 
 func RunWeightGlobal(params LeaderboardParams) {
 	config := params.Config
+	pool := params.Pool
 
 	globalRecordWeight := make(map[string]data.FishInfo)
+	filePath := filepath.Join("leaderboards", "global", "weight.md")
+	oldWeight, err := ReadWeightRankings(filePath, pool)
+	if err != nil {
+		fmt.Printf("Error reading old weight leaderboard for chat global: %v\n", err)
+		return
+	}
 
 	WeightLimit := config.Chat["global"].Weightlimit
 
@@ -109,7 +122,7 @@ func RunWeightGlobal(params LeaderboardParams) {
 		}
 
 		filePath := filepath.Join("leaderboards", chatName, "weight.md")
-		oldRecordWeight, err := ReadWeightRankings(filePath)
+		oldRecordWeight, err := ReadWeightRankings(filePath, pool)
 		if err != nil {
 			fmt.Printf("Error reading old weight leaderboard for chat '%s': %v\n", chatName, err)
 			return
@@ -128,7 +141,7 @@ func RunWeightGlobal(params LeaderboardParams) {
 		}
 	}
 
-	updateWeightLeaderboard(globalRecordWeight)
+	updateWeightLeaderboard(globalRecordWeight, oldWeight)
 }
 
 func RunCountGlobal(params LeaderboardParams) {
@@ -137,6 +150,13 @@ func RunCountGlobal(params LeaderboardParams) {
 
 	globalCount := make(map[string]data.FishInfo)
 	totalcountLimit := config.Chat["global"].Totalcountlimit
+
+	filePath := filepath.Join("leaderboards", "global", "count.md")
+	oldCount, err := ReadTotalcountRankings(filePath, pool)
+	if err != nil {
+		fmt.Println("Error reading old count leaderboard:", err)
+		return
+	}
 
 	// Process all chats
 	for chatName, chat := range config.Chat {
@@ -212,15 +232,15 @@ func RunCountGlobal(params LeaderboardParams) {
 		}
 	}
 
-	updateCountLeaderboard(globalCount)
+	updateCountLeaderboard(globalCount, oldCount)
 }
 
-func updateTypeLeaderboard(recordType map[string]data.FishInfo) {
+func updateTypeLeaderboard(recordType map[string]data.FishInfo, oldType map[string]LeaderboardInfo) {
 	fmt.Println("Updating global type leaderboard...")
 	title := "### Biggest fish per type caught globally\n"
 	isGlobal := true
 	filePath := filepath.Join("leaderboards", "global", "type.md")
-	err := writeType(filePath, recordType, title, isGlobal)
+	err := writeType(filePath, recordType, oldType, title, isGlobal)
 	if err != nil {
 		fmt.Println("Error writing global type leaderboard:", err)
 	} else {
@@ -228,12 +248,12 @@ func updateTypeLeaderboard(recordType map[string]data.FishInfo) {
 	}
 }
 
-func updateWeightLeaderboard(recordWeight map[string]data.FishInfo) {
+func updateWeightLeaderboard(recordWeight map[string]data.FishInfo, oldWeight map[string]LeaderboardInfo) {
 	fmt.Println("Updating global weight leaderboard...")
 	title := "### Biggest fish caught per player globally\n"
 	isGlobal := true
 	filePath := filepath.Join("leaderboards", "global", "weight.md")
-	err := writeWeight(filePath, recordWeight, title, isGlobal)
+	err := writeWeight(filePath, recordWeight, oldWeight, title, isGlobal)
 	if err != nil {
 		fmt.Println("Error writing global weight leaderboard:", err)
 	} else {
@@ -241,13 +261,13 @@ func updateWeightLeaderboard(recordWeight map[string]data.FishInfo) {
 	}
 }
 
-func updateCountLeaderboard(globalCount map[string]data.FishInfo) {
+func updateCountLeaderboard(globalCount map[string]data.FishInfo, oldCount map[string]LeaderboardInfo) {
 	fmt.Println("Updating global count leaderboard...")
 	title := "### Most fish caught globally\n"
 	isType, isFishw := false, false
 	isGlobal := true
 	filePath := filepath.Join("leaderboards", "global", "count.md")
-	err := writeCount(filePath, globalCount, title, isGlobal, isType, isFishw)
+	err := writeCount(filePath, globalCount, oldCount, title, isGlobal, isType, isFishw)
 	if err != nil {
 		fmt.Println("Error writing global count leaderboard:", err)
 	} else {

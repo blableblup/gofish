@@ -19,7 +19,7 @@ func processWeight(params LeaderboardParams) {
 
 	filePath := filepath.Join("leaderboards", chatName, "weight.md")
 
-	oldRecordWeight, err := ReadWeightRankings(filePath)
+	oldRecordWeight, err := ReadWeightRankings(filePath, pool)
 	if err != nil {
 		fmt.Println("Error reading old weight leaderboard:", err)
 		return
@@ -114,7 +114,7 @@ func processWeight(params LeaderboardParams) {
 	isGlobal := false
 
 	fmt.Printf("Updating weight leaderboard for chat '%s' with weight threshold %f...\n", chatName, Weightlimit)
-	err = writeWeight(filePath, recordWeight, titleweight, isGlobal)
+	err = writeWeight(filePath, recordWeight, oldRecordWeight, titleweight, isGlobal)
 	if err != nil {
 		fmt.Printf("Error writing weight leaderboard for chat '%s': %v\n", chatName, err)
 	} else {
@@ -122,16 +122,10 @@ func processWeight(params LeaderboardParams) {
 	}
 }
 
-func writeWeight(filePath string, recordWeight map[string]data.FishInfo, titleweight string, isGlobal bool) error {
-
-	oldLeaderboardWeight, err := ReadWeightRankings(filePath)
-	if err != nil {
-		return err
-	}
+func writeWeight(filePath string, recordWeight map[string]data.FishInfo, oldRecordWeight map[string]LeaderboardInfo, title string, isGlobal bool) error {
 
 	// Ensure that the directory exists before attempting to create the file
-	err = os.MkdirAll(filepath.Dir(filePath), 0755)
-	if err != nil {
+	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
 		return err
 	}
 
@@ -141,7 +135,7 @@ func writeWeight(filePath string, recordWeight map[string]data.FishInfo, titlewe
 	}
 	defer file.Close()
 
-	_, err = fmt.Fprintf(file, "%s", titleweight)
+	_, err = fmt.Fprintf(file, "%s", title)
 	if err != nil {
 		return err
 	}
@@ -189,7 +183,7 @@ func writeWeight(filePath string, recordWeight map[string]data.FishInfo, titlewe
 		oldWeight := weight
 		oldRank := -1
 
-		if info, ok := oldLeaderboardWeight[player]; ok {
+		if info, ok := oldRecordWeight[player]; ok {
 			found = true
 			oldWeight = info.Weight
 			oldRank = info.Rank

@@ -18,7 +18,7 @@ func processType(params LeaderboardParams) {
 
 	filePath := filepath.Join("leaderboards", chatName, "type.md")
 
-	oldRecordType, err := ReadTypeRankings(filePath)
+	oldType, err := ReadTypeRankings(filePath, pool)
 	if err != nil {
 		fmt.Println("Error reading old type leaderboard:", err)
 		return
@@ -90,7 +90,7 @@ func processType(params LeaderboardParams) {
 
 	// Compare old type records with new ones and update if necessary
 	for fishType, newTypeRecord := range newRecordType {
-		oldTypeRecord, exists := oldRecordType[fishType]
+		oldTypeRecord, exists := oldType[fishType]
 		if !exists {
 			recordType[fishType] = newTypeRecord
 			fmt.Println("New Record Record Type for Fish Type", fishType+":", newTypeRecord)
@@ -114,7 +114,7 @@ func processType(params LeaderboardParams) {
 	isGlobal := false
 
 	fmt.Printf("Updating type leaderboard for chat '%s'...\n", chatName)
-	err = writeType(filePath, recordType, titletype, isGlobal)
+	err = writeType(filePath, recordType, oldType, titletype, isGlobal)
 	if err != nil {
 		fmt.Println("Error writing type leaderboard:", err)
 	} else {
@@ -122,16 +122,10 @@ func processType(params LeaderboardParams) {
 	}
 }
 
-func writeType(filePath string, recordType map[string]data.FishInfo, titletype string, isGlobal bool) error {
-
-	oldLeaderboardType, err := ReadTypeRankings(filePath)
-	if err != nil {
-		return err
-	}
+func writeType(filePath string, recordType map[string]data.FishInfo, oldType map[string]LeaderboardInfo, title string, isGlobal bool) error {
 
 	// Ensure that the directory exists before attempting to create the file
-	err = os.MkdirAll(filepath.Dir(filePath), 0755)
-	if err != nil {
+	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
 		return err
 	}
 
@@ -141,7 +135,7 @@ func writeType(filePath string, recordType map[string]data.FishInfo, titletype s
 	}
 	defer file.Close()
 
-	_, err = fmt.Fprintf(file, "%s", titletype)
+	_, err = fmt.Fprintf(file, "%s", title)
 	if err != nil {
 		return err
 	}
@@ -193,7 +187,7 @@ func writeType(filePath string, recordType map[string]data.FishInfo, titletype s
 		oldWeight := weight
 		oldRank := -1
 
-		if info, ok := oldLeaderboardType[fishType]; ok {
+		if info, ok := oldType[fishType]; ok {
 			found = true
 			oldWeight = info.Weight
 			oldRank = info.Rank
