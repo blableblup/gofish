@@ -40,7 +40,7 @@ func processTrophy(params LeaderboardParams) {
 			oldplayer := playerMatch[1]
 
 			// Check if the player renamed
-			player := playerdata.PlayerLeaderboard(oldplayer, pool)
+			player := playerdata.PlayerRenamed(oldplayer, pool)
 
 			if utils.Contains(cheaters, player) {
 				continue // Skip processing for ignored players
