@@ -2,7 +2,6 @@ package playerdata
 
 import (
 	"bufio"
-	"encoding/csv"
 	"fmt"
 	"os"
 	"path/filepath"
@@ -74,38 +73,4 @@ func ReadVerifiedPlayers() []string {
 	}
 
 	return verifiedPlayers
-}
-
-// ReadRenamedChatters reads renamed chatters from a CSV file
-func ReadRenamedChatters() map[string]string {
-	renamedChatters := make(map[string]string)
-
-	// Get the directory of the source file
-	_, filename, _, _ := runtime.Caller(0)
-	dir := filepath.Dir(filename)
-
-	// Construct the path to the renamed.csv file relative to the source file directory
-	csvPath := filepath.Join(dir, "renamed.csv")
-
-	file, err := os.Open(csvPath)
-	if err != nil {
-		fmt.Println("Error opening file:", err)
-		return renamedChatters
-	}
-	defer file.Close()
-
-	reader := csv.NewReader(file)
-	for {
-		row, err := reader.Read()
-		if err != nil {
-			break
-		}
-		if len(row) == 2 {
-			oldPlayer := row[0]
-			newPlayer := row[1]
-			renamedChatters[oldPlayer] = newPlayer
-		}
-	}
-
-	return renamedChatters
 }

@@ -15,8 +15,8 @@ import (
 func processFishweek(params LeaderboardParams) {
 	chatName := params.ChatName
 	chat := params.Chat
+	pool := params.Pool
 
-	renamedChatters := playerdata.ReadRenamedChatters()
 	cheaters := playerdata.ReadCheaters()
 
 	wd, err := os.Getwd()
@@ -45,14 +45,10 @@ func processFishweek(params LeaderboardParams) {
 
 		playerMatch := regexp.MustCompile(`[@👥]\s?(\w+)`).FindStringSubmatch(line)
 		if len(playerMatch) > 0 {
-			player := playerMatch[1]
+			oldplayer := playerMatch[1]
 
-			// Change to the latest name
-			newPlayer := renamedChatters[player]
-			for newPlayer != "" {
-				player = newPlayer
-				newPlayer = renamedChatters[player]
-			}
+			// Check if the player renamed
+			player := playerdata.PlayerLeaderboard(oldplayer, pool)
 
 			if utils.Contains(cheaters, player) {
 				continue // Skip processing for ignored players
@@ -80,8 +76,14 @@ func processFishweek(params LeaderboardParams) {
 	isGlobal, isType := false, false
 	isFishw := true
 
+	oldFishw, err := ReadTotalcountRankings(filePath, pool)
+	if err != nil {
+		fmt.Println("Error reading old fishweek leaderboard:", err)
+		return
+	}
+
 	fmt.Printf("Updating fishweek leaderboard for chat '%s' with fish count threshold %d...\n", chatName, fishweekLimit)
-	err = writeCount(filePath, maxFishInWeek, titlefishw, isGlobal, isType, isFishw)
+	err = writeCount(filePath, maxFishInWeek, oldFishw, titlefishw, isGlobal, isType, isFishw)
 	if err != nil {
 		fmt.Println("Error writing fishweek leaderboard:", err)
 	} else {

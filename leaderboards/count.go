@@ -17,6 +17,11 @@ func processCount(params LeaderboardParams) {
 	chat := params.Chat
 	pool := params.Pool
 	filePath := filepath.Join("leaderboards", chatName, "count.md")
+	oldCountRecord, err := ReadTotalcountRankings(filePath, pool)
+	if err != nil {
+		fmt.Println("Error reading old count leaderboard:", err)
+		return
+	}
 
 	Totalcountlimit := chat.Totalcountlimit
 	if Totalcountlimit == 0 {
@@ -61,7 +66,7 @@ func processCount(params LeaderboardParams) {
 	isGlobal, isType, isFishw := false, false, false
 
 	fmt.Printf("Updating totalcount leaderboard for chat '%s' with count threshold %d...\n", chatName, Totalcountlimit)
-	err = writeCount(filePath, fishCaught, titletotalcount, isGlobal, isType, isFishw)
+	err = writeCount(filePath, fishCaught, oldCountRecord, titletotalcount, isGlobal, isType, isFishw)
 	if err != nil {
 		fmt.Println("Error writing totalcount leaderboard:", err)
 	} else {
@@ -69,15 +74,10 @@ func processCount(params LeaderboardParams) {
 	}
 }
 
-func writeCount(filePath string, fishCaught map[string]data.FishInfo, titletotalcount string, isGlobal bool, isType bool, isFishw bool) error {
-	oldLeaderboardCount, err := ReadTotalcountRankings(filePath)
-	if err != nil {
-		return err
-	}
+func writeCount(filePath string, fishCaught map[string]data.FishInfo, oldCountRecord map[string]LeaderboardInfo, title string, isGlobal bool, isType bool, isFishw bool) error {
 
 	// Ensure that the directory exists before attempting to create the file
-	err = os.MkdirAll(filepath.Dir(filePath), 0755)
-	if err != nil {
+	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
 		return err
 	}
 
@@ -87,7 +87,7 @@ func writeCount(filePath string, fishCaught map[string]data.FishInfo, titletotal
 	}
 	defer file.Close()
 
-	_, err = fmt.Fprintf(file, "%s", titletotalcount)
+	_, err = fmt.Fprintf(file, "%s", title)
 	if err != nil {
 		return err
 	}
@@ -139,7 +139,7 @@ func writeCount(filePath string, fishCaught map[string]data.FishInfo, titletotal
 		var found bool
 		oldRank := -1
 		oldCount := Count
-		oldFishInfo, ok := oldLeaderboardCount[player]
+		oldFishInfo, ok := oldCountRecord[player]
 		if ok {
 			found = true
 			oldRank = oldFishInfo.Rank

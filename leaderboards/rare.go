@@ -12,6 +12,12 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 	pool := params.Pool
 
 	globalFishTypesCount := make(map[string]data.FishInfo)
+	filePath := filepath.Join("leaderboards", "global", "rare.md")
+	oldCount, err := ReadTotalcountRankings(filePath, pool)
+	if err != nil {
+		fmt.Println("Error reading old rarest fish leaderboard:", err)
+		return
+	}
 
 	// Process all chats
 	for chatName, chat := range config.Chat {
@@ -70,16 +76,16 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 		}
 	}
 
-	updateFishTypesLeaderboard(globalFishTypesCount)
+	updateFishTypesLeaderboard(globalFishTypesCount, oldCount)
 }
 
-func updateFishTypesLeaderboard(globalFishTypesCount map[string]data.FishInfo) {
+func updateFishTypesLeaderboard(globalFishTypesCount map[string]data.FishInfo, oldCount map[string]LeaderboardInfo) {
 	fmt.Println("Updating rarest fish leaderboard...")
 	title := "### How many times a fish has been caught\n"
 	filePath := filepath.Join("leaderboards", "global", "rare.md")
 	isGlobal, isType := true, true
 	isFishw := false
-	err := writeCount(filePath, globalFishTypesCount, title, isGlobal, isType, isFishw)
+	err := writeCount(filePath, globalFishTypesCount, oldCount, title, isGlobal, isType, isFishw)
 	if err != nil {
 		fmt.Println("Error writing rarest fish leaderboard:", err)
 	} else {

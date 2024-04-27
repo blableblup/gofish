@@ -12,8 +12,8 @@ import (
 
 func processTrophy(params LeaderboardParams) {
 	chatName := params.ChatName
+	pool := params.Pool
 
-	renamedChatters := playerdata.ReadRenamedChatters()
 	cheaters := playerdata.ReadCheaters()
 
 	wd, err := os.Getwd()
@@ -37,14 +37,10 @@ func processTrophy(params LeaderboardParams) {
 
 		playerMatch := regexp.MustCompile(`[@👥]\s?(\w+)`).FindStringSubmatch(line)
 		if len(playerMatch) > 0 {
-			player := playerMatch[1]
+			oldplayer := playerMatch[1]
 
-			// Change to the latest name
-			newPlayer := renamedChatters[player]
-			for newPlayer != "" {
-				player = newPlayer
-				newPlayer = renamedChatters[player]
-			}
+			// Check if the player renamed
+			player := playerdata.PlayerLeaderboard(oldplayer, pool)
 
 			if utils.Contains(cheaters, player) {
 				continue // Skip processing for ignored players
@@ -77,8 +73,14 @@ func processTrophy(params LeaderboardParams) {
 	titletrophies := fmt.Sprintf("### Leaderboard for the weekly tournaments in %s's chat\n", chatName)
 	filePath := filepath.Join("leaderboards", chatName, "trophy.md")
 
+	oldTrophy, err := ReadOldTrophyRankings(filePath, pool)
+	if err != nil {
+		fmt.Println("Error reading old trophy leaderboard:", err)
+		return
+	}
+
 	fmt.Printf("Updating trophies leaderboard for chat '%s'...\n", chatName)
-	err = writeTrophy(filePath, playerCounts, titletrophies)
+	err = writeTrophy(filePath, playerCounts, oldTrophy, titletrophies)
 	if err != nil {
 		fmt.Println("Error writing trophies leaderboard:", err)
 	} else {
@@ -86,15 +88,10 @@ func processTrophy(params LeaderboardParams) {
 	}
 }
 
-func writeTrophy(filePath string, playerCounts map[string]LeaderboardInfo, titletrophies string) error {
+func writeTrophy(filePath string, playerCounts map[string]LeaderboardInfo, oldTrophy map[string]LeaderboardInfo, title string) error {
 
-	oldLeaderboardTrophy, err := ReadOldTrophyRankings(filePath)
-	if err != nil {
-		return err
-	}
-
-	err = os.MkdirAll(filepath.Dir(filePath), 0755)
-	if err != nil {
+	// Ensure that the directory exists before attempting to create the file
+	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
 		return err
 	}
 
@@ -104,7 +101,7 @@ func writeTrophy(filePath string, playerCounts map[string]LeaderboardInfo, title
 	}
 	defer file.Close()
 
-	_, err = fmt.Fprintf(file, "%s", titletrophies)
+	_, err = fmt.Fprintf(file, "%s", title)
 	if err != nil {
 		return err
 	}
@@ -139,16 +136,16 @@ func writeTrophy(filePath string, playerCounts map[string]LeaderboardInfo, title
 		var found bool
 
 		oldRank := -1
-		if info, ok := oldLeaderboardTrophy[player]; ok {
+		if info, ok := oldTrophy[player]; ok {
 			found = true
 			oldRank = info.Rank
 		}
 
 		changeEmoji := ChangeEmoji(rank, oldRank, found)
 
-		trophiesDifference := playerCounts[player].Trophy - oldLeaderboardTrophy[player].Trophy
-		silverDifference := playerCounts[player].Silver - oldLeaderboardTrophy[player].Silver
-		bronzeDifference := playerCounts[player].Bronze - oldLeaderboardTrophy[player].Bronze
+		trophiesDifference := playerCounts[player].Trophy - oldTrophy[player].Trophy
+		silverDifference := playerCounts[player].Silver - oldTrophy[player].Silver
+		bronzeDifference := playerCounts[player].Bronze - oldTrophy[player].Bronze
 
 		trophyCount := fmt.Sprintf("%d", playerCounts[player].Trophy)
 		if trophiesDifference > 0 {

@@ -9,6 +9,8 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
+
+	"github.com/jackc/pgx/v4/pgxpool"
 )
 
 // Storing data from the old leaderboards
@@ -25,9 +27,8 @@ type LeaderboardInfo struct {
 }
 
 // Function to read and extract the old trophies leaderboard from the leaderboard file
-func ReadOldTrophyRankings(filePath string) (map[string]LeaderboardInfo, error) {
+func ReadOldTrophyRankings(filePath string, pool *pgxpool.Pool) (map[string]LeaderboardInfo, error) {
 	oldLeaderboardTrophy := make(map[string]LeaderboardInfo)
-	renamedChatters := playerdata.ReadRenamedChatters()
 	cheaters := playerdata.ReadCheaters()
 
 	// Open the file
@@ -53,17 +54,13 @@ func ReadOldTrophyRankings(filePath string) (map[string]LeaderboardInfo, error) 
 			if err != nil {
 				continue
 			}
-			player := strings.TrimSpace(parts[2])
-			if strings.Contains(player, "*") {
-				player = strings.TrimRight(player, "*")
+			oldplayer := strings.TrimSpace(parts[2])
+			if strings.Contains(oldplayer, "*") {
+				oldplayer = strings.TrimRight(oldplayer, "*")
 			}
 
-			// Change to the latest name
-			newPlayer := renamedChatters[player]
-			for newPlayer != "" {
-				player = newPlayer
-				newPlayer = renamedChatters[player]
-			}
+			// Check if the player renamed
+			player := playerdata.PlayerLeaderboard(oldplayer, pool)
 
 			if utils.Contains(cheaters, player) {
 				continue // Skip processing for ignored players
@@ -92,10 +89,8 @@ func ReadOldTrophyRankings(filePath string) (map[string]LeaderboardInfo, error) 
 	return oldLeaderboardTrophy, nil
 }
 
-// Function to read and extract the old weight leaderboard from the leaderboard file
-func ReadWeightRankings(filePath string) (map[string]LeaderboardInfo, error) {
+func ReadWeightRankings(filePath string, pool *pgxpool.Pool) (map[string]LeaderboardInfo, error) {
 	oldLeaderboardWeight := make(map[string]LeaderboardInfo)
-	renamedChatters := playerdata.ReadRenamedChatters()
 	cheaters := playerdata.ReadCheaters()
 
 	// Open the file
@@ -121,19 +116,15 @@ func ReadWeightRankings(filePath string) (map[string]LeaderboardInfo, error) {
 			if err != nil {
 				continue
 			}
-			player := strings.TrimSpace(parts[2])
+			oldplayer := strings.TrimSpace(parts[2])
 			var bot string
-			if strings.Contains(player, "*") {
-				player = strings.TrimRight(player, "*")
+			if strings.Contains(oldplayer, "*") {
+				oldplayer = strings.TrimRight(oldplayer, "*")
 				bot = "supibot"
 			}
 
-			// Change to the latest name
-			newPlayer := renamedChatters[player]
-			for newPlayer != "" {
-				player = newPlayer
-				newPlayer = renamedChatters[player]
-			}
+			// Check if the player renamed
+			player := playerdata.PlayerLeaderboard(oldplayer, pool)
 
 			if utils.Contains(cheaters, player) {
 				continue // Skip processing for ignored players
@@ -175,9 +166,8 @@ func ReadWeightRankings(filePath string) (map[string]LeaderboardInfo, error) {
 }
 
 // Function to read and extract the old type leaderboard from the leaderboard file
-func ReadTypeRankings(filePath string) (map[string]LeaderboardInfo, error) {
+func ReadTypeRankings(filePath string, pool *pgxpool.Pool) (map[string]LeaderboardInfo, error) {
 	oldLeaderboardType := make(map[string]LeaderboardInfo)
-	renamedChatters := playerdata.ReadRenamedChatters()
 	cheaters := playerdata.ReadCheaters()
 
 	// Open the file
@@ -208,19 +198,15 @@ func ReadTypeRankings(filePath string) (map[string]LeaderboardInfo, error) {
 			if equivalent := data.EquivalentFishType(fishType); equivalent != "" {
 				fishType = equivalent
 			}
-			player := strings.TrimSpace(parts[4])
+			oldplayer := strings.TrimSpace(parts[2])
 			var bot string
-			if strings.Contains(player, "*") {
-				player = strings.TrimRight(player, "*")
+			if strings.Contains(oldplayer, "*") {
+				oldplayer = strings.TrimRight(oldplayer, "*")
 				bot = "supibot"
 			}
 
-			// Change to the latest name
-			newPlayer := renamedChatters[player]
-			for newPlayer != "" {
-				player = newPlayer
-				newPlayer = renamedChatters[player]
-			}
+			// Check if the player renamed
+			player := playerdata.PlayerLeaderboard(oldplayer, pool)
 
 			if utils.Contains(cheaters, player) {
 				continue // Skip processing for ignored players
@@ -257,9 +243,8 @@ func ReadTypeRankings(filePath string) (map[string]LeaderboardInfo, error) {
 }
 
 // Function to read and extract the old totalcount leaderboard from the leaderboard file
-func ReadTotalcountRankings(filePath string) (map[string]LeaderboardInfo, error) {
+func ReadTotalcountRankings(filePath string, pool *pgxpool.Pool) (map[string]LeaderboardInfo, error) {
 	oldLeaderboardCount := make(map[string]LeaderboardInfo)
-	renamedChatters := playerdata.ReadRenamedChatters()
 	cheaters := playerdata.ReadCheaters()
 
 	// Open the file
@@ -285,19 +270,15 @@ func ReadTotalcountRankings(filePath string) (map[string]LeaderboardInfo, error)
 			if err != nil {
 				continue
 			}
-			player := strings.TrimSpace(parts[2])
+			oldplayer := strings.TrimSpace(parts[2])
 			var bot string
-			if strings.Contains(player, "*") {
-				player = strings.TrimRight(player, "*")
+			if strings.Contains(oldplayer, "*") {
+				oldplayer = strings.TrimRight(oldplayer, "*")
 				bot = "supibot"
 			}
 
-			// Change to the latest name
-			newPlayer := renamedChatters[player]
-			for newPlayer != "" {
-				player = newPlayer
-				newPlayer = renamedChatters[player]
-			}
+			// Check if the player renamed
+			player := playerdata.PlayerLeaderboard(oldplayer, pool)
 
 			if utils.Contains(cheaters, player) {
 				continue // Skip processing for ignored players
