@@ -10,6 +10,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
 )
 
@@ -18,20 +19,31 @@ func GetPlayerID(pool *pgxpool.Pool, playerName string, firstFishDate time.Time,
 		return 0, err
 	}
 
-	// Check if the player already exists in the playerdata table
 	var playerID int
 	err := pool.QueryRow(context.Background(), "SELECT playerid FROM playerdata WHERE name = $1", playerName).Scan(&playerID)
 	if err == nil {
 		return playerID, nil // Player already exists, return their ID
-	}
-
-	// Player doesn't exist, add them to the playerdata table
-	err = pool.QueryRow(context.Background(), "INSERT INTO playerdata (name, firstfishdate, firstfishchat) VALUES ($1, $2, $3) RETURNING playerid", playerName, firstFishDate, firstFishChat).Scan(&playerID)
-	if err != nil {
+	} else if err != pgx.ErrNoRows {
 		return 0, err
 	}
 
-	fmt.Printf("Added player '%s' to the playerdata table. First fish caught on %s in chat '%s'.\n", playerName, firstFishDate, firstFishChat)
+	// Check if they renamed first
+	newPlayer := PlayerLeaderboard(playerName, pool)
+
+	if newPlayer == playerName {
+		// Player doesn't exist, add them to the playerdata table
+		err = pool.QueryRow(context.Background(), "INSERT INTO playerdata (name, firstfishdate, firstfishchat) VALUES ($1, $2, $3) RETURNING playerid", playerName, firstFishDate, firstFishChat).Scan(&playerID)
+		if err != nil {
+			return 0, err
+		}
+		fmt.Printf("Added player '%s' to the playerdata table. First fish caught on %s in chat '%s'.\n", playerName, firstFishDate, firstFishChat)
+
+	} else { // If they were renamed before but the database wasnt updated so they still caught a fish with their old name, or if you recheck old logs
+		err := pool.QueryRow(context.Background(), "SELECT playerid FROM playerdata WHERE name = $1", newPlayer).Scan(&playerID)
+		if err != nil {
+			return 0, err
+		}
+	}
 
 	return playerID, nil
 }
@@ -70,8 +82,8 @@ func PlayerLeaderboard(player string, pool *pgxpool.Pool) string {
 		}
 
 		if len(matchingPlayers) == 0 {
-			fmt.Printf("Erm, player '%s' also doesn't appear as an old name.\n", player)
-			return player // This can only really happen if a player was renamed incorrectly somehow ?
+			fmt.Printf("Player '%s' also doesn't appear as an old name.\n", player)
+			return player // If the player is new (for GetPlayerID) or if the player was renamed incorrectly
 		}
 
 		if len(matchingPlayers) == 1 {
