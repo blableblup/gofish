@@ -38,7 +38,8 @@ func GetPlayerID(pool *pgxpool.Pool, playerName string, firstFishDate time.Time,
 		}
 		fmt.Printf("Added player '%s' to the playerdata table. First fish caught on %s in chat '%s'.\n", playerName, firstFishDate, firstFishChat)
 
-	} else { // If they were renamed before but the database wasnt updated so they still caught a fish with their old name, or if you recheck old logs
+	} else {
+		// If they were renamed before the database was updated and they still caught a fish with their old name, or if you recheck old logs
 		err := pool.QueryRow(context.Background(), "SELECT playerid FROM playerdata WHERE name = $1", newPlayer).Scan(&playerID)
 		if err != nil {
 			return 0, err
@@ -113,6 +114,9 @@ func PlayerLeaderboard(player string, pool *pgxpool.Pool) string {
 			fmt.Printf("Player '%s' renamed to '%s'.\n", player, newPlayer)
 			return newPlayer
 		}
+	} else if err != pgx.ErrNoRows {
+		fmt.Printf("Error looking up player name for player '%s': %v\n", player, err)
+		return player
 	}
 
 	return player
