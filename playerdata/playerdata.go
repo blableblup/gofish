@@ -114,9 +114,6 @@ func PlayerRenamed(player string, pool *pgxpool.Pool) string {
 			fmt.Printf("Player '%s' renamed to '%s'.\n", player, newPlayer)
 			return newPlayer
 		}
-	} else if err != pgx.ErrNoRows {
-		fmt.Printf("Error looking up player name for player '%s': %v\n", player, err)
-		return player
 	}
 
 	return player

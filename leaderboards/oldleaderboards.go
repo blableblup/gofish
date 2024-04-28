@@ -198,7 +198,7 @@ func ReadTypeRankings(filePath string, pool *pgxpool.Pool) (map[string]Leaderboa
 			if equivalent := data.EquivalentFishType(fishType); equivalent != "" {
 				fishType = equivalent
 			}
-			oldplayer := strings.TrimSpace(parts[2])
+			oldplayer := strings.TrimSpace(parts[4])
 			var bot string
 			if strings.Contains(oldplayer, "*") {
 				oldplayer = strings.TrimRight(oldplayer, "*")
