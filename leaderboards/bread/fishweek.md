@@ -6,8 +6,8 @@
 | 3 🥉  | osnyatsky | 150 |
 | 4  | puzzlow | 141 |
 | 5  | kishma9 | 137 |
-| 6  | sussy_amonge | 123 |
 | 6  | sicklymaidrobot | 123 |
+| 6  | sussy_amonge | 123 |
 | 8  | qu4ttromila | 122 |
 | 9  | lazzvli* | 112 |
 | 10  | ryebreadward | 110 |
@@ -20,13 +20,13 @@
 | 17  | miiiiisho | 79 |
 | 18  | booty_bread | 60 |
 | 19  | bk207* | 53 |
-| 20  | hmsmob* | 52 |
 | 20  | kaasppeerr | 52 |
+| 20  | hmsmob* | 52 |
 | 22  | leanmeister | 51 |
 | 23  | bapqo | 49 |
 | 24  | paras220 | 46 |
 | 25  | ninjaross | 44 |
-| 26  | ouacewi | 42 |
+| 26  | ouacewi | 43 (+1) |
 | 27  | cumro | 40 |
 | 28  | julialuxel | 34 |
 | 29  | islcfc* | 33 |
