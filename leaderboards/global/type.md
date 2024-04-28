@@ -48,39 +48,39 @@
 | 45  | 🦆 | 15.69 | derinturitierutz | 🍞 |
 | 46  | 🪀 | 15.53 | xxx_r0ze_xxx | 🍞 |
 | 47  | 🐌 | 14.24 | yliathim* | 🍞 |
-| 48  | 🎱 | 12.85 | qu4ttromila | 🍞 |
-| 49  | 🧃 | 12.83 | huuuuurz | 🐱 |
-| 50  | 🕶️ | 12.56 | destr0yer72 | 🐱 |
-| 51  | 👒 | 11.98 | ttecnk | 🐱 |
-| 52  | 🧸 | 11.91 | yaratecs2 | 🐱 |
-| 53  | 🧊 | 10.98 | miiiiisho | 🍞 |
-| 54  | 🪹 | 10.86 | bapqo | 🍞 |
-| 55  | 🪵 | 10.85 | qu4ttromila | 🍞 |
-| 56  | 🦎 | 10.84 | bosscrazymen | 🐱 |
-| 56  | 🪺 | 10.84 | osnyatsky | 🍞 |
-| 58  | 🩲 | 10.20 | alvaniss1g | 🐱 |
-| 59  | 💀 | 9.99 | joleksu | 🐱 |
-| 60  | 🎏 | 5.76 | fishingalt | 🍞 |
-| 61  | 🧵 | 5.43 | creepycode1337 | 🐱 |
-| 62  | 🐚 | 5.03 | puzzlow | 🍞 |
-| 63  | 🪝 | 4.99 | thedraingangceo* | 🐱 |
-| 64  | 🥫 | 4.91 | huuuuurz | 🐱 |
-| 65 ⬆ | 🐦 | 4.70 (+3.40) | derinturitierutz | 🍞 |
-| 66 ⬇ | ☘️ | 3.98 | osnyatsky | 🍞 |
-| 67 ⬇ | 🐦‍⬛ | 3.16 | kishma9 | 🍞 |
-| 68 ⬇ | 🥪 | 2.96 | qu4ttromila | 🍞 |
-| 68 ⬇ | ☂️ | 2.96 | kishma9 | 🍞 |
-| 68 ⬇ | 🌹 | 2.96 | osnyatsky | 🍞 |
-| 71 ⬇ | 🍬 | 2.60 | 5c33* | 🍞 |
-| 72 ⬇ | 👢 | 2.00 | jr_mime | 🐱 |
-| 72 ⬇ | 🩰 | 2.00 | tomsi1g | 🐱 |
-| 72 ⬇ | 👟 | 2.00 | kishma9 | 🍞 |
-| 72 ⬇ | 🩴 | 2.00 | qu4ttromila | 🍞 |
-| 72 ⬇ | 🧦 | 2.00 | osnyatsky* | 🍞 |
-| 77 ⬇ | 🌿 | 1.96 | dayzedinndaydreams | 🍞 |
-| 77 ⬇ | ⛸️ | 1.96 | pookiesnowman | 🐱 |
+| 48 ⬆ | 🪵 | 13.01 (+2.16) | qu4ttromila | 🍞 |
+| 49 ⬇ | 🎱 | 12.85 | qu4ttromila | 🍞 |
+| 50 ⬇ | 🧃 | 12.83 | huuuuurz | 🐱 |
+| 51 ⬇ | 🕶️ | 12.56 | destr0yer72 | 🐱 |
+| 52 ⬇ | 👒 | 11.98 | ttecnk | 🐱 |
+| 53 ⬆ | 🐦 | 11.96 (+7.26) | julialuxel | 🍞 |
+| 54 ⬇ | 🧸 | 11.91 | yaratecs2 | 🐱 |
+| 55 ⬇ | 🧊 | 10.98 | miiiiisho | 🍞 |
+| 56 ⬇ | 🪹 | 10.86 | bapqo | 🍞 |
+| 57 ⬇ | 🦎 | 10.84 | bosscrazymen | 🐱 |
+| 57 ⬇ | 🪺 | 10.84 | osnyatsky | 🍞 |
+| 59 ⬇ | 🩲 | 10.20 | alvaniss1g | 🐱 |
+| 60 ⬇ | 💀 | 9.99 | joleksu | 🐱 |
+| 61 ⬇ | 🎏 | 5.76 | fishingalt | 🍞 |
+| 62 ⬇ | 🧵 | 5.43 | creepycode1337 | 🐱 |
+| 63 ⬇ | 🐚 | 5.03 | puzzlow | 🍞 |
+| 64 ⬇ | 🪝 | 4.99 | thedraingangceo* | 🐱 |
+| 65 ⬇ | 🥫 | 4.91 | huuuuurz | 🐱 |
+| 66 ⬆ | 🐦‍⬛ | 4.85 (+1.69) | qu4ttromila | 🍞 |
+| 67 ⬇ | ☘️ | 3.98 | osnyatsky | 🍞 |
+| 68  | ☂️ | 2.96 | kishma9 | 🍞 |
+| 68  | 🌹 | 2.96 | osnyatsky | 🍞 |
+| 68  | 🥪 | 2.96 | qu4ttromila | 🍞 |
+| 71  | 🍬 | 2.60 | 5c33* | 🍞 |
+| 72  | 👢 | 2.00 | jr_mime | 🐱 |
+| 72  | 👟 | 2.00 | kishma9 | 🍞 |
+| 72  | 🧦 | 2.00 | osnyatsky* | 🍞 |
+| 72  | 🩴 | 2.00 | qu4ttromila | 🍞 |
+| 72  | 🩰 | 2.00 | tomsi1g | 🐱 |
+| 77  | 🌿 | 1.96 | dayzedinndaydreams | 🍞 |
+| 77  | ⛸️ | 1.96 | pookiesnowman | 🐱 |
 | 79  | 🧤 | 1.00 | kubo7 | 🐱 |
-| 80  | 🧣 | 0.99 | osnyatsky* | 🍞 |
 | 80  | 🪶 | 0.99 | osnyatsky* | 🍞 |
+| 80  | 🧣 | 0.99 | osnyatsky* | 🍞 |
 
 _* = The fish was caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate._

@@ -2,56 +2,57 @@
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
 | 1 🥇  | osnyatsky* | 5070 |
-| 2 🥈  | sicklymaidrobot | 3457 (+21) |
-| 3 🥉  | qu4ttromila | 2799 (+56) |
-| 4  | puzzlow | 2609 (+78) |
-| 5  | kishma9 | 2386 (+4) |
-| 6  | derinturitierutz | 2290 (+5) |
+| 2 🥈  | sicklymaidrobot | 3494 (+37) |
+| 3 🥉  | qu4ttromila | 2852 (+53) |
+| 4  | puzzlow | 2665 (+56) |
+| 5  | kishma9 | 2387 (+1) |
+| 6  | derinturitierutz | 2293 (+3) |
 | 7  | sussy_amonge | 2229 |
-| 8  | dayzedinndaydreams | 2156 (+21) |
-| 9  | miiiiisho | 2101 (+54) |
-| 10  | booty_bread | 1786 (+12) |
-| 11  | xxx_r0ze_xxx | 1094 (+48) |
+| 8  | dayzedinndaydreams | 2171 (+15) |
+| 9  | miiiiisho | 2139 (+38) |
+| 10  | booty_bread | 1809 (+23) |
+| 11  | xxx_r0ze_xxx | 1175 (+81) |
 | 12  | ryebreadward | 957 |
-| 13  | ninjaross* | 883 (+25) |
-| 14  | crazytown_bananapants | 840 |
-| 15  | paras220 | 831 (+9) |
-| 16  | bussinongnocap | 788 |
-| 16 ⬆ | fishingalt | 788 (+10) |
-| 18  | ouacewi | 715 (+26) |
+| 13  | ninjaross* | 914 (+31) |
+| 14 ⬆ | paras220 | 843 (+12) |
+| 15 ⬇ | crazytown_bananapants | 840 |
+| 16  | fishingalt | 790 (+2) |
+| 17 ⬇ | bussinongnocap | 788 |
+| 18  | ouacewi | 757 (+42) |
 | 19  | xth49* | 619 |
-| 20 ⬆ | kaasppeerr | 583 (+37) |
-| 21 ⬇ | trident1011 | 579 |
-| 22 ⬇ | xz_xz | 562 (+4) |
-| 23 ⬇ | islcfc* | 555 (+1) |
-| 24 ⬆ | comiqq | 427 (+53) |
-| 25 ⬇ | lazzvli* | 406 |
-| 26 ⬇ | julialuxel | 402 (+1) |
-| 27 ⬇ | doublehelicalstructure* | 399 |
-| 28 ⬇ | kildofris* | 384 |
-| 29 ⬆ | dougiefresh_83* | 320 (+39) |
-| 30 ⬇ | realtechnine | 302 |
-| 31 ⬇ | crinche* | 283 |
-| 32  | leanmeister | 251 |
-| 33 ⬆ | bapqo | 237 (+13) |
-| 33  | supibot | 237 |
-| 35 ⬆ | mitgliederversammlung | 231 (+4) |
-| 36 ⬇ | itsalot_tlike* | 229 |
-| 37 ⬇ | breadworms | 228 |
-| 38  | hmsmob* | 203 |
-| 39  | suavvvvv | 199 (+15) |
-| 40 ⬆ | cumro | 187 (+16) |
-| 41 ⬇ | yliathim* | 176 |
-| 42 ⬇ | wisco9ers* | 171 |
-| 43  | wispmode | 169 |
-| 44  | 5c33* | 159 |
-| 44  | veggesh | 159 |
-| 46 ⬆ | divra__ | 158 (+12) |
-| 47 ⬆ | larrahey | 154 (+10) |
-| 48 ⬇ | lagggm* | 152 |
-| 49 ⬇ | niiy | 146 |
+| 20  | kaasppeerr | 599 (+16) |
+| 21  | trident1011 | 579 |
+| 22  | xz_xz | 564 (+2) |
+| 23  | islcfc* | 555 |
+| 24  | comiqq | 493 (+66) |
+| 25  | lazzvli* | 406 |
+| 26  | julialuxel | 404 (+2) |
+| 27  | doublehelicalstructure* | 399 |
+| 28  | kildofris* | 384 |
+| 29  | dougiefresh_83* | 334 (+14) |
+| 30  | realtechnine | 302 |
+| 31  | crinche* | 283 |
+| 32 ⬆ | bapqo | 253 (+16) |
+| 33 ⬇ | leanmeister | 251 |
+| 34 ⬇ | supibot | 237 |
+| 35 ⬆ | breadworms | 233 (+5) |
+| 36 ⬇ | mitgliederversammlung | 232 (+1) |
+| 37 ⬇ | itsalot_tlike* | 229 |
+| 38 ⬆ | suavvvvv | 210 (+11) |
+| 39 ⬆ | cumro | 204 (+17) |
+| 40 ⬇ | hmsmob* | 203 |
+| 41 ⬆ | divra__ | 177 (+19) |
+| 42 ⬇ | yliathim* | 176 |
+| 43 ⬇ | wisco9ers* | 171 |
+| 44 ⬇ | wispmode | 170 (+1) |
+| 45 ⬆ | larrahey | 160 (+6) |
+| 46 ⬇ | veggesh | 159 |
+| 46 ⬇ | 5c33* | 159 |
+| 48  | lagggm* | 152 |
+| 49  | niiy | 146 |
 | 50  | fallen_angels_1995 | 139 |
 | 51  | jackwhalebreaker | 109 |
-| 52  | rexhappy_lol | 105 (+4) |
+| 52  | rexhappy_lol | 105 |
+| 53 🆕 | gawblemachine | 104 |
 
 _* = The player caught their first fish on supibot and did not migrate their data to gofishgame. Because of that their data was not individually verified to be accurate._
