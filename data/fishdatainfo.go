@@ -82,7 +82,7 @@ func extractInfoFromNormalPattern(match []string) FishInfo {
 
 	date, err := utils.ParseDate(dateStr)
 	if err != nil {
-		fmt.Printf("Error parsing date for fish '%s' caught by '%s' at '%s'.", fishType, player, dateStr)
+		fmt.Printf("Error parsing date for fish '%s' caught by '%s' at '%s': %v\n", fishType, player, dateStr, err)
 	}
 
 	return FishInfo{
@@ -105,7 +105,7 @@ func extractInfoFromMouthPattern(match []string) FishInfo {
 
 	date, err := utils.ParseDate(dateStr)
 	if err != nil {
-		fmt.Printf("Error parsing date for fish '%s' caught by '%s' at '%s'.", fishType, player, dateStr)
+		fmt.Printf("Error parsing date for fish '%s' caught by '%s' at '%s': %v\n", fishType, player, dateStr, err)
 	}
 
 	return FishInfo{
@@ -129,7 +129,7 @@ func extractInfoFromReleasePattern(match []string) FishInfo {
 
 	date, err := utils.ParseDate(dateStr)
 	if err != nil {
-		fmt.Printf("Error parsing date for fish '%s' caught by '%s' at '%s'.", fishType, player, dateStr)
+		fmt.Printf("Error parsing date for fish '%s' caught by '%s' at '%s': %v\n", fishType, player, dateStr, err)
 	}
 
 	return FishInfo{
