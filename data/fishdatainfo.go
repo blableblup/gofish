@@ -1,6 +1,7 @@
 package data
 
 import (
+	"fmt"
 	"gofish/utils"
 	"regexp"
 	"strconv"
@@ -81,6 +82,7 @@ func extractInfoFromNormalPattern(match []string) FishInfo {
 
 	date, err := utils.ParseDate(dateStr)
 	if err != nil {
+		fmt.Printf("Error parsing date for fish '%s' caught by '%s' at '%s'.", fishType, player, dateStr)
 	}
 
 	return FishInfo{
@@ -103,6 +105,7 @@ func extractInfoFromMouthPattern(match []string) FishInfo {
 
 	date, err := utils.ParseDate(dateStr)
 	if err != nil {
+		fmt.Printf("Error parsing date for fish '%s' caught by '%s' at '%s'.", fishType, player, dateStr)
 	}
 
 	return FishInfo{
@@ -126,6 +129,7 @@ func extractInfoFromReleasePattern(match []string) FishInfo {
 
 	date, err := utils.ParseDate(dateStr)
 	if err != nil {
+		fmt.Printf("Error parsing date for fish '%s' caught by '%s' at '%s'.", fishType, player, dateStr)
 	}
 
 	return FishInfo{
