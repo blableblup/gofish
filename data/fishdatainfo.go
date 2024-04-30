@@ -26,20 +26,17 @@ type FishInfo struct {
 	ChatCounts map[string]int
 }
 
-// List of all the patterns
 var MouthPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), You caught a [✨🫧] (.*?) [✨🫧]! It weighs ([\d.]+) lbs. And!... (.*?)(?: \(([\d.]+) lbs\) was in its mouth)?!`)
 var ReleasePattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+\s?(\w+): [@👥]\s?(\w+), Bye bye (.*?)[!] 🫳🌊 ...Huh[?] ✨ Something is (glimmering|sparkling) in the ocean... [🥍] (.*?) Got`)
 var JumpedPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), Huh[?][!] ✨ Something jumped out of the water to snatch your rare candy! ...Got it! 🥍 (.*?) ([\d.]+) lbs`)
 var NormalPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), You caught a [✨🫧] (.*?) [✨🫧]! It weighs ([\d.]+) lbs`)
 var BirdPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): @\s?(\w+), Huh[?][!] 🪺 is hatching!... It's a 🪽 (.*?) 🪽! It weighs ([\d.]+) lbs`)
 
-// Generic function to extract information using multiple patterns
 func extractInfoFromPatterns(textContent string, patterns []*regexp.Regexp) []FishInfo {
 	var fishCatches []FishInfo
 
 	for _, pattern := range patterns {
 		for _, match := range pattern.FindAllStringSubmatch(textContent, -1) {
-			// Determine which extraction function to use based on the pattern
 			var extractFunc func([]string) FishInfo
 			switch pattern {
 			case ReleasePattern:
@@ -54,7 +51,6 @@ func extractInfoFromPatterns(textContent string, patterns []*regexp.Regexp) []Fi
 				extractFunc = extractInfoFromNormalPattern
 			}
 
-			// Call the appropriate extraction function
 			fishCatches = append(fishCatches, extractFunc(match))
 		}
 	}
@@ -70,12 +66,10 @@ func extractInfoFromNormalPattern(match []string) FishInfo {
 	weight, _ := strconv.ParseFloat(match[5], 64)
 	catchtype := "normal"
 
-	// Check if the match contains the word "jumped"
 	if strings.Contains(strings.ToLower(match[0]), "jumped") {
 		catchtype = "jumped"
 	}
 
-	// Check if the match contains the word "hatch"
 	if strings.Contains(strings.ToLower(match[0]), "hatch") {
 		catchtype = "egg"
 	}
@@ -142,7 +136,6 @@ func extractInfoFromReleasePattern(match []string) FishInfo {
 	}
 }
 
-// Define a mapping for equivalent fish types
 var equivalentFishTypes = map[string]string{
 	"🕷":          "🕷️",
 	"🗡":          "🗡️",
