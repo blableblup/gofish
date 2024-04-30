@@ -2,16 +2,20 @@ package data
 
 import (
 	"bufio"
+	"context"
 	"fmt"
+	"gofish/playerdata"
 	"gofish/utils"
 	"io"
 	"net/http"
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/jackc/pgx/v4/pgxpool"
 )
 
-func GetTournamentData(config utils.Config, chatNames string, numMonths int, monthYear string) {
+func GetTournamentData(config utils.Config, pool *pgxpool.Pool, chatNames string, numMonths int, monthYear string) {
 
 	switch chatNames {
 	case "all":
@@ -25,7 +29,7 @@ func GetTournamentData(config utils.Config, chatNames string, numMonths int, mon
 
 			fmt.Printf("Checking tournament results for chat '%s'.\n", chatName)
 			urls := utils.CreateURL(chatName, numMonths, monthYear)
-			fetchMatchingLines(chatName, urls)
+			fetchMatchingLines(chatName, pool, urls)
 		}
 	case "":
 		fmt.Println("Please specify chat names.")
@@ -46,12 +50,12 @@ func GetTournamentData(config utils.Config, chatNames string, numMonths int, mon
 
 			fmt.Printf("Checking tournament results for chat '%s'.\n", chatName)
 			urls := utils.CreateURL(chatName, numMonths, monthYear)
-			fetchMatchingLines(chatName, urls)
+			fetchMatchingLines(chatName, pool, urls)
 		}
 	}
 }
 
-func fetchMatchingLines(chatName string, urls []string) {
+func fetchMatchingLines(chatName string, pool *pgxpool.Pool, urls []string) {
 
 	logFilePath := filepath.Join("data", chatName, "tournamentlogs.txt")
 
@@ -68,6 +72,13 @@ func fetchMatchingLines(chatName string, urls []string) {
 			fmt.Println("Error fetching URL:", err)
 			continue
 		}
+
+		if response.StatusCode != http.StatusOK {
+			fmt.Printf("Unexpected HTTP status code %d for URL: %s\n", response.StatusCode, url)
+			response.Body.Close()
+			continue
+		}
+
 		defer response.Body.Close()
 
 		body, err := io.ReadAll(response.Body)
@@ -128,8 +139,13 @@ func fetchMatchingLines(chatName string, urls []string) {
 		}
 	}
 
-	// Append only the unique new results to the output file
 	if len(newResults) > 0 {
+
+		if err := insertTDataIntoDB(newResults, chatName, pool); err != nil {
+			fmt.Println("Error inserting tournament data into database:", err)
+			return
+		}
+
 		file, err := os.OpenFile(logFilePath, os.O_APPEND|os.O_WRONLY, 0644)
 		if err != nil {
 			fmt.Println("Error opening log file for appending:", err)
@@ -147,4 +163,50 @@ func fetchMatchingLines(chatName string, urls []string) {
 	} else {
 		fmt.Printf("No new results to append to %s\n", logFilePath)
 	}
+}
+
+func insertTDataIntoDB(newResults []string, chatName string, pool *pgxpool.Pool) error {
+
+	Results, err := TData(chatName, newResults, pool)
+	if err != nil {
+		return err
+	}
+
+	tx, err := pool.Begin(context.Background())
+	if err != nil {
+		return err
+	}
+	defer tx.Rollback(context.Background())
+
+	newResultCounts := 0
+
+	for _, result := range Results {
+
+		tableName := "tournaments" + chatName
+		if err := utils.EnsureTableExists(pool, tableName); err != nil {
+			return err
+		}
+
+		playerID, err := playerdata.GetPlayerID(pool, result.Player, result.Date, result.Chat)
+		if err != nil {
+			return err
+		}
+
+		query := fmt.Sprintf("INSERT INTO %s ( player, playerid, fishcaught, placement1, totalweight, placement2, biggestfish, placement3, date, bot, chat) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)", tableName)
+		_, err = tx.Exec(context.Background(), query, result.Player, playerID, result.FishCaught, result.FishPlacement, result.TotalWeight, result.WeightPlacement, result.BiggestFish, result.BiggestFishPlacement, result.Date, result.Bot, result.Chat)
+		if err != nil {
+			fmt.Printf("adasd")
+			return err
+		}
+
+		newResultCounts++
+	}
+
+	fmt.Printf("Successfully inserted %d new results into the database for chat '%s'.\n", newResultCounts, chatName)
+
+	if err := tx.Commit(context.Background()); err != nil {
+		return err
+	}
+
+	return nil
 }
