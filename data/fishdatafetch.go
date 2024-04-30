@@ -29,7 +29,7 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 
 		if err := fasthttp.Do(req, resp); err != nil {
 			// Log the error and retry
-			log.Printf("Error fetching data from URL %s: %v\n", url, err)
+			log.Printf("Error fetching fish data from URL %s: %v\n", url, err)
 			time.Sleep(retryDelay)
 			retryDelay *= 5
 			continue
@@ -44,12 +44,10 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 			continue
 		}
 
-		// Extract text content from the response body
 		textContent := string(resp.Body())
 
 		cheaters := playerdata.ReadCheaters()
 
-		// Define the patterns for fish catches
 		patterns := []*regexp.Regexp{
 			MouthPattern,
 			ReleasePattern,
@@ -68,7 +66,6 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 			}
 		}
 
-		// Extract information about fish catches from the text content using multiple patterns
 		fishCatches := extractInfoFromPatterns(textContent, patterns)
 
 		// Process extracted information
@@ -127,12 +124,12 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 	}
 
 	// Log the error and stop the entire program
-	log.Fatalf("Reached maximum retries, unable to fetch data from URL: %s", url)
+	log.Fatalf("Reached maximum retries, unable to fetch fish data from URL: %s", url)
 	return nil, nil
 }
 
 func getLatestCatchDateFromDatabase(ctx context.Context, pool *pgxpool.Pool, chatName string) (time.Time, error) {
-	// Query to retrieve the latest catch date for the given chatName
+
 	query := "SELECT MAX(date) FROM fish WHERE chat = $1"
 
 	var latestCatchDate time.Time
