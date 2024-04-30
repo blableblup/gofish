@@ -25,30 +25,32 @@ func GetData(chatNames, data string, numMonths int, monthYear string, mode strin
 	configFilePath := filepath.Join(wd, "config.json")
 	config := utils.LoadConfig(configFilePath)
 
+	pool, err := Connect()
+	if err != nil {
+		fmt.Println("Error connecting to the database:", err)
+		return
+	}
+	defer pool.Close()
+
 	switch data {
 	case "f":
-		GetFishData(config, chatNames, numMonths, monthYear, mode)
+		GetFishData(config, pool, chatNames, numMonths, monthYear, mode)
 	case "t":
-		GetTournamentData(config, chatNames, numMonths, monthYear)
+		GetTournamentData(config, pool, chatNames, numMonths, monthYear)
 	case "all":
-		GetFishData(config, chatNames, numMonths, monthYear, mode)
-		GetTournamentData(config, chatNames, numMonths, monthYear)
+		GetFishData(config, pool, chatNames, numMonths, monthYear, mode)
+		GetTournamentData(config, pool, chatNames, numMonths, monthYear)
 	default:
 		fmt.Println("Please specify a valid database type.")
 	}
 }
 
-func GetFishData(config utils.Config, chatNames string, numMonths int, monthYear string, mode string) {
+func GetFishData(config utils.Config, pool *pgxpool.Pool, chatNames string, numMonths int, monthYear string, mode string) {
+
 	switch chatNames {
 	case "all":
 		var wg sync.WaitGroup
 		fishChan := make(chan []FishInfo)
-
-		pool, err := Connect()
-		if err != nil {
-			fmt.Println("Error connecting to the database:", err)
-			return
-		}
 
 		fmt.Printf("Checking new fish data.\n")
 		for chatName, chat := range config.Chat {
@@ -83,7 +85,6 @@ func GetFishData(config utils.Config, chatNames string, numMonths int, monthYear
 			return allFish[i].Date.Before(allFish[j].Date)
 		})
 
-		defer pool.Close()
 		if err := insertFishDataIntoDB(allFish, pool, mode); err != nil {
 			fmt.Println("Error inserting fish data into database:", err)
 			return
@@ -130,7 +131,7 @@ func ProcessFishData(urls []string, chatName string, Chat utils.ChatInfo, pool *
 }
 
 func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, mode string) error {
-	// Begin a transaction
+
 	tx, err := pool.Begin(context.Background())
 	if err != nil {
 		return err
@@ -141,7 +142,7 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, mode string) e
 	newFishCounts := make(map[string]int)
 
 	for _, fish := range allFish {
-		// Add the chat to newFishCounts if it doesn't exist
+
 		if _, ok := newFishCounts[fish.Chat]; !ok {
 			newFishCounts[fish.Chat] = 0
 		}
@@ -171,9 +172,8 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, mode string) e
 			}
 		}
 
-		// Check if the last chatID for this chat is already retrieved, get it if not
 		if _, ok := lastChatIDs[fish.Chat]; !ok {
-			lastChatID, err := getLastChatIDFromDB(pool, fish.Chat)
+			lastChatID, err := getLastChatIDFromDB(pool, fish.Chat, tableName)
 			if err != nil {
 				return err
 			}
@@ -188,7 +188,6 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, mode string) e
 			return err
 		}
 
-		// Look up the fish name from the typename database based on the fish type
 		var typeName string
 		typenametable := "typename"
 		if err := utils.EnsureTableExists(pool, typenametable); err != nil {
@@ -211,7 +210,6 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, mode string) e
 			}
 		}
 
-		// Execute the SQL statement to insert the fish data
 		query := fmt.Sprintf("INSERT INTO %s (chatid, type, typename, weight, catchtype, player, playerid, date, bot, chat) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)", tableName)
 		_, err = tx.Exec(context.Background(), query, chatID, fish.Type, typeName, fish.Weight, fish.CatchType, fish.Player, playerID, fish.Date, fish.Bot, fish.Chat)
 		if err != nil {
@@ -221,7 +219,6 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, mode string) e
 		newFishCounts[fish.Chat]++
 	}
 
-	// Log the number of new fish added per chat
 	for chat, count := range newFishCounts {
 		if count > 0 {
 			fmt.Printf("Successfully inserted %d new fish into the database for chat '%s'.\n", count, chat)
@@ -230,7 +227,6 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, mode string) e
 		}
 	}
 
-	// Commit the transaction
 	if err := tx.Commit(context.Background()); err != nil {
 		return err
 	}
@@ -239,43 +235,36 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, mode string) e
 }
 
 func addFishType(pool *pgxpool.Pool, fishType string) error {
-	// Check if the fish type already exists in the typename table
+
 	var exists bool
 	err := pool.QueryRow(context.Background(), "SELECT EXISTS (SELECT 1 FROM typename WHERE type = $1)", fishType).Scan(&exists)
 	if err != nil {
 		return err
 	}
 
-	// If the fish type doesn't exist, prompt the user for the fish name
 	if !exists {
 		fmt.Printf("New fish type '%s' detected. Please enter the fish name: ", fishType)
 		var fishName string
 		fmt.Scanln(&fishName)
 
-		// Insert the fish type and name into the typename table
 		_, err := pool.Exec(context.Background(), "INSERT INTO typename (type, typename) VALUES ($1, $2)", fishType, fishName)
 		if err != nil {
 			return err
 		}
 
-		// Notify that a new fish type has been added
 		fmt.Printf("New fish type '%s' added to the database with name '%s'.\n", fishType, fishName)
 	}
 
 	return nil
 }
 
-func getLastChatIDFromDB(pool *pgxpool.Pool, chatName string) (int, error) {
-	var lastChatID *int
-	// Query the database to retrieve the last chatID used for the specified chat
-	query := "SELECT COALESCE(MAX(chatid), 0) FROM fish WHERE chat = $1"
+func getLastChatIDFromDB(pool *pgxpool.Pool, chatName string, tablename string) (int, error) {
+	var lastChatID int
+
+	query := fmt.Sprintf("SELECT COALESCE(MAX(chatid), 0) FROM %s WHERE chat = $1", tablename)
 	row := pool.QueryRow(context.Background(), query, chatName)
-	// Scan the result into lastChatID
 	if err := row.Scan(&lastChatID); err != nil {
 		return 0, err
 	}
-	if lastChatID == nil {
-		return 0, nil
-	}
-	return *lastChatID, nil
+	return lastChatID, nil
 }
