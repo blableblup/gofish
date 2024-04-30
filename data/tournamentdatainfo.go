@@ -5,6 +5,7 @@ import (
 	"gofish/utils"
 	"regexp"
 	"strconv"
+	"strings"
 	"time"
 )
 
@@ -24,55 +25,55 @@ type TrnmInfo struct {
 	ChatId               int
 }
 
-var TrnmPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), (?:\p{So}\s)?The results are in! You caught 🪣 (\d+) fish: (\d+)th place\. Together they weighed (?:\p{So}\s)?(\d+(?:\.\d+)?) lbs: (\d+)th place\. Your biggest catch weighed 🎣 (\d+(?:\.\d+)?) lbs: (\d+)th place\.`)
-var Trnm2Pattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), Last week... You caught 🪣 (\d+) fish: (\d+)th place\. Together they weighed (?:\p{So}\s)?(\d+(?:\.\d+)?) lbs: (\d+)th place\. Your biggest catch weighed 🎣 (\d+(?:\.\d+)?) lbs: (\d+)th place\.`)
-
-func extractInfoFromTPatterns(textContent string, patterns []*regexp.Regexp) []TrnmInfo {
+func extractInfoFromTData(result string) []TrnmInfo {
 	var Results []TrnmInfo
 
-	for _, pattern := range patterns {
-		for _, match := range pattern.FindAllStringSubmatch(textContent, -1) {
+	infoMatch := regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+),`).FindStringSubmatch(result)
+	dateStr := infoMatch[1]
+	bot := infoMatch[2]
+	player := infoMatch[3]
 
-			var extractFunc func([]string) TrnmInfo
-			switch pattern {
-			case TrnmPattern:
-				extractFunc = extractInfoFromTrnmPattern
-			case Trnm2Pattern:
-				extractFunc = extractInfoFromTrnmPattern
-			}
+	fishMatch := regexp.MustCompile(`(\d+) fish: (.*?)[!.]`).FindStringSubmatch(result)
+	fishCaught, _ := strconv.Atoi(fishMatch[1])
 
-			Results = append(Results, extractFunc(match))
-		}
-	}
+	weightMatch := regexp.MustCompile(`Together they weighed (?:\p{So}\s)?(\d+(?:\.\d+)?) lbs: (.*?)[!.]`).FindStringSubmatch(result)
+	totalWeight, _ := strconv.ParseFloat(weightMatch[1], 64)
 
-	return Results
-}
-
-func extractInfoFromTrnmPattern(match []string) TrnmInfo {
-	dateStr := match[1]
-	bot := match[2]
-	player := match[3]
-	fishCaught, _ := strconv.Atoi(match[4])
-	fishPlacement, _ := strconv.Atoi(match[5])
-	totalWeight, _ := strconv.ParseFloat(match[6], 64)
-	weightPlacement, _ := strconv.Atoi(match[7])
-	biggestFishWeight, _ := strconv.ParseFloat(match[8], 64)
-	biggestFishPlacement, _ := strconv.Atoi(match[9])
+	biggestFishMatch := regexp.MustCompile(`Your biggest catch weighed (?:\p{So}\s)?(\d+(?:\.\d+)?) lbs: (.*?)[!.]`).FindStringSubmatch(result)
+	biggestFishWeight, _ := strconv.ParseFloat(biggestFishMatch[1], 64)
 
 	date, err := utils.ParseDate(dateStr)
 	if err != nil {
-		fmt.Printf("Error parsing date for result by player '%s' at '%s'.", player, dateStr)
+		fmt.Printf("Error parsing date for result by player '%s' at '%s': %v\n", player, dateStr, err)
 	}
 
-	return TrnmInfo{
+	Results = append(Results, TrnmInfo{
 		Date:                 date,
 		Bot:                  bot,
 		Player:               player,
 		FishCaught:           fishCaught,
 		TotalWeight:          totalWeight,
 		BiggestFish:          biggestFishWeight,
-		FishPlacement:        fishPlacement,
-		WeightPlacement:      weightPlacement,
-		BiggestFishPlacement: biggestFishPlacement,
+		FishPlacement:        getPlacement(fishMatch[2]),
+		WeightPlacement:      getPlacement(weightMatch[2]),
+		BiggestFishPlacement: getPlacement(biggestFishMatch[2]),
+	})
+
+	return Results
+}
+
+func getPlacement(placeStr string) int {
+	fmt.Println(placeStr)
+
+	switch placeStr {
+	case "Victory ✨🏆✨":
+		return 1
+	case "That's runner-up 🥈":
+		return 2
+	case "That's third 🥉":
+		return 3
+	default:
+		place, _ := strconv.Atoi(strings.TrimSuffix(placeStr, "th"))
+		return place
 	}
 }

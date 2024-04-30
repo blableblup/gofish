@@ -3,7 +3,6 @@ package data
 import (
 	"gofish/playerdata"
 	"gofish/utils"
-	"regexp"
 
 	"github.com/jackc/pgx/v4/pgxpool"
 )
@@ -12,15 +11,10 @@ func TData(chatName string, newResults []string, pool *pgxpool.Pool) ([]TrnmInfo
 
 	cheaters := playerdata.ReadCheaters()
 
-	patterns := []*regexp.Regexp{
-		TrnmPattern,
-		Trnm2Pattern,
-	}
-
 	var tdata []TrnmInfo
 
 	for _, line := range newResults {
-		Results := extractInfoFromTPatterns(line, patterns)
+		Results := extractInfoFromTData(line)
 
 		for _, result := range Results {
 			player := result.Player
