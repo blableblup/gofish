@@ -24,7 +24,6 @@ type TrnmInfo struct {
 	ChatId               int
 }
 
-// List of all the patterns
 var TrnmPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), (?:\p{So}\s)?The results are in! You caught 🪣 (\d+) fish: (\d+)th place\. Together they weighed (?:\p{So}\s)?(\d+(?:\.\d+)?) lbs: (\d+)th place\. Your biggest catch weighed 🎣 (\d+(?:\.\d+)?) lbs: (\d+)th place\.`)
 var Trnm2Pattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), Last week... You caught 🪣 (\d+) fish: (\d+)th place\. Together they weighed (?:\p{So}\s)?(\d+(?:\.\d+)?) lbs: (\d+)th place\. Your biggest catch weighed 🎣 (\d+(?:\.\d+)?) lbs: (\d+)th place\.`)
 
