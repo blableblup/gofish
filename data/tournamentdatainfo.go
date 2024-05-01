@@ -36,10 +36,10 @@ func extractInfoFromTData(result string) []TrnmInfo {
 	fishMatch := regexp.MustCompile(`(\d+) fish: (.*?)[!.]`).FindStringSubmatch(result)
 	fishCaught, _ := strconv.Atoi(fishMatch[1])
 
-	weightMatch := regexp.MustCompile(`Together they weighed (?:\p{So}\s)?(\d+(?:\.\d+)?) lbs: (.*?)[!.]`).FindStringSubmatch(result)
+	weightMatch := regexp.MustCompile(`Together they weighed .*? (\d+(?:\.\d+)?) lbs: (.*?)[!.]`).FindStringSubmatch(result)
 	totalWeight, _ := strconv.ParseFloat(weightMatch[1], 64)
 
-	biggestFishMatch := regexp.MustCompile(`Your biggest catch weighed (?:\p{So}\s)?(\d+(?:\.\d+)?) lbs: (.*?)[!.]`).FindStringSubmatch(result)
+	biggestFishMatch := regexp.MustCompile(`Your biggest catch weighed .*? (\d+(?:\.\d+)?) lbs: (.*?)[!.]`).FindStringSubmatch(result)
 	biggestFishWeight, _ := strconv.ParseFloat(biggestFishMatch[1], 64)
 
 	date, err := utils.ParseDate(dateStr)
@@ -63,7 +63,6 @@ func extractInfoFromTData(result string) []TrnmInfo {
 }
 
 func getPlacement(placeStr string) int {
-	fmt.Println(placeStr)
 
 	switch placeStr {
 	case "Victory ✨🏆✨":
@@ -72,8 +71,11 @@ func getPlacement(placeStr string) int {
 		return 2
 	case "That's third 🥉":
 		return 3
+	case "You got third place 🥉":
+		return 3
 	default:
-		place, _ := strconv.Atoi(strings.TrimSuffix(placeStr, "th"))
+		placeStr = strings.TrimSuffix(placeStr, " place")
+		place, _ := strconv.Atoi(regexp.MustCompile(`\D+$`).ReplaceAllString(placeStr, ""))
 		return place
 	}
 }
