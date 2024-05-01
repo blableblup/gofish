@@ -37,5 +37,6 @@
 | 34  | breadworms | 25 |
 | 35  | rocketpol* | 24 |
 | 36  | veggesh | 21 |
+| 37  | realtechnine | 20 |
 
 _* = The fish were caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate._
