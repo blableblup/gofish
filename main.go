@@ -52,8 +52,10 @@ func main() {
 		}
 		fmt.Println("...")
 		data.GetData(*chatNames, *db, *numMonths, *monthYear, *mode)
-		// Modes: "a", this adds every fish caught to FishData instead of just the new ones.
-		// Useful for if there is a new catchtype and the database was already updated.
+		// Modes: "a" for fishdatafetch.
+		// Adds every fish caught to FishData instead of just the new ones and inserts the missing fish into the db.
+		// Modes: "insertall" for tournamentdata.
+		// Adds all the existing lines from the tournamentlogs to newResults, inserts the missing results into the db and then returns.
 
 	case "pattern":
 		fmt.Printf("Running %s program...\n", *program)
@@ -86,7 +88,7 @@ func isValidModeForProgram(program, mode string) bool {
 
 	validModes := map[string]map[string]bool{
 		"boards": {"check": true},
-		"data":   {"a": true},
+		"data":   {"a": true, "insertall": true},
 	}
 
 	// Check if the provided mode is valid for the specified program
