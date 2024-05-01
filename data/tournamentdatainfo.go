@@ -67,6 +67,8 @@ func getPlacement(placeStr string) int {
 	switch placeStr {
 	case "Victory ✨🏆✨":
 		return 1
+	case "You were the champion ✨🏆✨":
+		return 1
 	case "That's runner-up 🥈":
 		return 2
 	case "That's third 🥉":
