@@ -1,20 +1,15 @@
 package leaderboards
 
 import (
-	"bufio"
+	"context"
 	"fmt"
-	"gofish/playerdata"
-	"gofish/utils"
 	"os"
 	"path/filepath"
-	"regexp"
 )
 
 func processTrophy(params LeaderboardParams) {
 	chatName := params.ChatName
 	pool := params.Pool
-
-	cheaters := playerdata.ReadCheaters()
 
 	wd, err := os.Getwd()
 	if err != nil {
@@ -31,43 +26,52 @@ func processTrophy(params LeaderboardParams) {
 
 	playerCounts := make(map[string]LeaderboardInfo)
 
-	scanner := bufio.NewScanner(logs)
-	for scanner.Scan() {
-		line := scanner.Text()
+	rows, err := pool.Query(context.Background(), `
+		SELECT 
+		playerid,
+		SUM(CASE WHEN placement IN (1) THEN 1 ELSE 0 END) AS trophycount,
+		SUM(CASE WHEN placement IN (2) THEN 1 ELSE 0 END) AS silvercount,
+		SUM(CASE WHEN placement IN (3) THEN 1 ELSE 0 END) AS bronzecount
+	FROM (
+		SELECT playerid, placement1 AS placement FROM tournaments`+chatName+` UNION ALL
+		SELECT playerid, placement2 AS placement FROM tournaments`+chatName+` UNION ALL
+		SELECT playerid, placement3 AS placement FROM tournaments`+chatName+`
+	) AS all_placements
+	GROUP BY playerid
+	HAVING (SUM(CASE WHEN placement IN (1) THEN 1 ELSE 0 END) + 
+            SUM(CASE WHEN placement IN (2) THEN 1 ELSE 0 END) +
+            SUM(CASE WHEN placement IN (3) THEN 1 ELSE 0 END)) > 0`)
+	if err != nil {
+		fmt.Println("Error querying database:", err)
+		return
+	}
+	defer rows.Close()
 
-		playerMatch := regexp.MustCompile(`[@👥]\s?(\w+)`).FindStringSubmatch(line)
-		if len(playerMatch) > 0 {
-			oldplayer := playerMatch[1]
+	for rows.Next() {
+		var playerid, trophycount, silvercount, bronzecount int
 
-			// Check if the player renamed
-			player := playerdata.PlayerRenamed(oldplayer, pool)
-
-			if utils.Contains(cheaters, player) {
-				continue // Skip processing for ignored players
-			}
-
-			// Find all their medals and trophies
-			achievements := regexp.MustCompile(`(Victory|champion|runner-up|third)`).FindAllString(line, -1)
-			for _, achievement := range achievements {
-				switch achievement {
-				case "Victory", "champion":
-					counts := playerCounts[player]
-					counts.Trophy++
-
-					playerCounts[player] = counts
-				case "runner-up":
-					counts := playerCounts[player]
-					counts.Silver++
-
-					playerCounts[player] = counts
-				case "third":
-					counts := playerCounts[player]
-					counts.Bronze++
-
-					playerCounts[player] = counts
-				}
-			}
+		if err := rows.Scan(&playerid, &trophycount, &silvercount, &bronzecount); err != nil {
+			fmt.Println("Error scanning row:", err)
+			continue
 		}
+
+		var playerName string
+		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", playerid).Scan(&playerName)
+		if err != nil {
+			fmt.Printf("Error retrieving player name for id '%d':\n", playerid)
+			continue
+		}
+
+		playerCounts[playerName] = LeaderboardInfo{
+			Trophy: trophycount,
+			Silver: silvercount,
+			Bronze: bronzecount,
+		}
+	}
+
+	if err := rows.Err(); err != nil {
+		fmt.Println("Error iterating over query results:", err)
+		return
 	}
 
 	titletrophies := fmt.Sprintf("### Leaderboard for the weekly tournaments in %s's chat\n", chatName)

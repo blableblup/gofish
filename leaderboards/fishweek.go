@@ -1,23 +1,18 @@
 package leaderboards
 
 import (
-	"bufio"
+	"context"
 	"fmt"
 	"gofish/data"
-	"gofish/playerdata"
-	"gofish/utils"
 	"os"
 	"path/filepath"
-	"regexp"
-	"strconv"
+	"time"
 )
 
 func processFishweek(params LeaderboardParams) {
 	chatName := params.ChatName
 	chat := params.Chat
 	pool := params.Pool
-
-	cheaters := playerdata.ReadCheaters()
 
 	wd, err := os.Getwd()
 	if err != nil {
@@ -39,36 +34,48 @@ func processFishweek(params LeaderboardParams) {
 
 	maxFishInWeek := make(map[string]data.FishInfo)
 
-	scanner := bufio.NewScanner(logs)
-	for scanner.Scan() {
-		line := scanner.Text()
+	rows, err := pool.Query(context.Background(), `
+	SELECT t.playerid, t.fishcaught, t.bot, t.date
+	FROM tournaments`+chatName+` t
+	JOIN (
+		SELECT playerid, MAX(fishcaught) AS max_count
+		FROM tournaments`+chatName+`
+		GROUP BY playerid
+	) max_t ON t.playerid = max_t.playerid AND t.fishcaught = max_t.max_count
+	WHERE t.chat = $1 AND max_count >= $2`, chatName, fishweekLimit)
+	if err != nil {
+		fmt.Println("Error querying database:", err)
+		return
+	}
+	defer rows.Close()
 
-		playerMatch := regexp.MustCompile(`[@👥]\s?(\w+)`).FindStringSubmatch(line)
-		if len(playerMatch) > 0 {
-			oldplayer := playerMatch[1]
+	for rows.Next() {
+		var bot string
+		var date time.Time
+		var playerid, count int
 
-			// Check if the player renamed
-			player := playerdata.PlayerRenamed(oldplayer, pool)
-
-			if utils.Contains(cheaters, player) {
-				continue // Skip processing for ignored players
-			}
-
-			// Get the amount of fish the player caught
-			fishMatch := regexp.MustCompile(`(\d+) fish: (\w+)`).FindStringSubmatch(line)
-			if len(fishMatch) > 0 {
-				fishCount, _ := strconv.Atoi(fishMatch[1])
-				botMatch := regexp.MustCompile(`#\w+ \s?(\w+):`).FindStringSubmatch(line)
-				if len(botMatch) > 0 {
-					bot := botMatch[1]
-
-					// Update the record if the current fish count is greater
-					if fishCount > maxFishInWeek[player].Count && fishCount >= fishweekLimit {
-						maxFishInWeek[player] = data.FishInfo{Count: fishCount, Bot: bot}
-					}
-				}
-			}
+		if err := rows.Scan(&playerid, &count, &bot, &date); err != nil {
+			fmt.Println("Error scanning row:", err)
+			continue
 		}
+
+		var playerName string
+		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", playerid).Scan(&playerName)
+		if err != nil {
+			fmt.Printf("Error retrieving player name for id '%d':\n", playerid)
+			continue
+		}
+
+		maxFishInWeek[playerName] = data.FishInfo{
+			Count: count,
+			Bot:   bot,
+			Date:  date,
+		}
+	}
+
+	if err := rows.Err(); err != nil {
+		fmt.Println("Error iterating over query results:", err)
+		return
 	}
 
 	titlefishw := fmt.Sprintf("### Most fish caught in a single week in tournaments in %s's chat\n", chatName)
