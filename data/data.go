@@ -36,10 +36,10 @@ func GetData(chatNames, data string, numMonths int, monthYear string, mode strin
 	case "f":
 		GetFishData(config, pool, chatNames, numMonths, monthYear, mode)
 	case "t":
-		GetTournamentData(config, pool, chatNames, numMonths, monthYear)
+		GetTournamentData(config, pool, chatNames, numMonths, monthYear, mode)
 	case "all":
 		GetFishData(config, pool, chatNames, numMonths, monthYear, mode)
-		GetTournamentData(config, pool, chatNames, numMonths, monthYear)
+		GetTournamentData(config, pool, chatNames, numMonths, monthYear, mode)
 	default:
 		fmt.Println("Please specify a valid database type.")
 	}

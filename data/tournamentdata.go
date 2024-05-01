@@ -16,7 +16,7 @@ import (
 	"github.com/jackc/pgx/v4/pgxpool"
 )
 
-func GetTournamentData(config utils.Config, pool *pgxpool.Pool, chatNames string, numMonths int, monthYear string) {
+func GetTournamentData(config utils.Config, pool *pgxpool.Pool, chatNames string, numMonths int, monthYear string, mode string) {
 
 	switch chatNames {
 	case "all":
@@ -30,7 +30,7 @@ func GetTournamentData(config utils.Config, pool *pgxpool.Pool, chatNames string
 
 			fmt.Printf("Checking tournament results for chat '%s'.\n", chatName)
 			urls := utils.CreateURL(chatName, numMonths, monthYear)
-			fetchMatchingLines(chatName, pool, urls)
+			fetchMatchingLines(chatName, pool, urls, mode)
 		}
 	case "":
 		fmt.Println("Please specify chat names.")
@@ -51,12 +51,12 @@ func GetTournamentData(config utils.Config, pool *pgxpool.Pool, chatNames string
 
 			fmt.Printf("Checking tournament results for chat '%s'.\n", chatName)
 			urls := utils.CreateURL(chatName, numMonths, monthYear)
-			fetchMatchingLines(chatName, pool, urls)
+			fetchMatchingLines(chatName, pool, urls, mode)
 		}
 	}
 }
 
-func fetchMatchingLines(chatName string, pool *pgxpool.Pool, urls []string) {
+func fetchMatchingLines(chatName string, pool *pgxpool.Pool, urls []string, mode string) {
 
 	logFilePath := filepath.Join("data", chatName, "tournamentlogs.txt")
 
@@ -67,36 +67,38 @@ func fetchMatchingLines(chatName string, pool *pgxpool.Pool, urls []string) {
 
 	// Fetch matching lines from each URL
 	matchingLines := make([]string, 0)
-	for _, url := range urls {
-		response, err := http.Get(url)
-		if err != nil {
-			fmt.Println("Error fetching URL:", err)
-			continue
-		}
-
-		if response.StatusCode != http.StatusOK {
-			fmt.Printf("Unexpected HTTP status code %d for URL: %s\n", response.StatusCode, url)
-			response.Body.Close()
-			continue
-		}
-
-		defer response.Body.Close()
-
-		body, err := io.ReadAll(response.Body)
-		if err != nil {
-			fmt.Println("Error reading response body:", err)
-			continue
-		}
-
-		lines := strings.Split(string(body), "\n")
-		for _, line := range lines {
-			if strings.Contains(line, "The results are in") ||
-				strings.Contains(line, "The results for last week are in") ||
-				strings.Contains(line, "Last week...") {
-				matchingLines = append(matchingLines, strings.TrimSpace(line))
+	if mode != "insertall" {
+		for _, url := range urls {
+			response, err := http.Get(url)
+			if err != nil {
+				fmt.Println("Error fetching URL:", err)
+				continue
 			}
+
+			if response.StatusCode != http.StatusOK {
+				fmt.Printf("Unexpected HTTP status code %d for URL: %s\n", response.StatusCode, url)
+				response.Body.Close()
+				continue
+			}
+
+			defer response.Body.Close()
+
+			body, err := io.ReadAll(response.Body)
+			if err != nil {
+				fmt.Println("Error reading response body:", err)
+				continue
+			}
+
+			lines := strings.Split(string(body), "\n")
+			for _, line := range lines {
+				if strings.Contains(line, "The results are in") ||
+					strings.Contains(line, "The results for last week are in") ||
+					strings.Contains(line, "Last week...") {
+					matchingLines = append(matchingLines, strings.TrimSpace(line))
+				}
+			}
+			fmt.Println("Finished checking for matching lines in", url)
 		}
-		fmt.Println("Finished checking for matching lines in", url)
 	}
 
 	// Ensure directory exists
@@ -119,22 +121,30 @@ func fetchMatchingLines(chatName string, pool *pgxpool.Pool, urls []string) {
 		line := scanner.Text()
 		if strings.Contains(line, "You caught") {
 			parts := strings.SplitN(line, "You caught", 2)
-			if len(parts) > 1 {
+			if mode == "insertall" {
+				existingLines[line] = struct{}{}
+			} else if len(parts) > 1 {
 				existingLines[strings.TrimSpace(parts[1])] = struct{}{}
 			}
 		}
 	}
 
-	// Extract and compare new results to ensure uniqueness
 	newResults := make([]string, 0)
-	for _, line := range matchingLines {
-		if strings.Contains(line, "You caught") {
-			parts := strings.SplitN(line, "You caught", 2)
-			if len(parts) > 1 {
-				newLine := strings.TrimSpace(parts[1])
-				if _, exists := existingLines[newLine]; !exists {
-					newResults = append(newResults, line)
-					existingLines[newLine] = struct{}{} // Update existing lines with new ones
+
+	if mode == "insertall" {
+		for line := range existingLines {
+			newResults = append(newResults, line)
+		}
+	} else {
+		for _, line := range matchingLines {
+			if strings.Contains(line, "You caught") {
+				parts := strings.SplitN(line, "You caught", 2)
+				if len(parts) > 1 {
+					newLine := strings.TrimSpace(parts[1])
+					if _, exists := existingLines[newLine]; !exists {
+						newResults = append(newResults, line)
+						existingLines[newLine] = struct{}{} // Update existing lines with new ones
+					}
 				}
 			}
 		}
@@ -142,8 +152,13 @@ func fetchMatchingLines(chatName string, pool *pgxpool.Pool, urls []string) {
 
 	if len(newResults) > 0 {
 
-		if err := insertTDataIntoDB(newResults, chatName, pool); err != nil {
+		if err := insertTDataIntoDB(newResults, chatName, mode, pool); err != nil {
 			fmt.Println("Error inserting tournament data into database:", err)
+			return
+		}
+
+		if mode == "insertall" {
+			fmt.Println("Returning because program is in mode 'insertall'.")
 			return
 		}
 
@@ -166,7 +181,7 @@ func fetchMatchingLines(chatName string, pool *pgxpool.Pool, urls []string) {
 	}
 }
 
-func insertTDataIntoDB(newResults []string, chatName string, pool *pgxpool.Pool) error {
+func insertTDataIntoDB(newResults []string, chatName string, mode string, pool *pgxpool.Pool) error {
 
 	Results, err := TData(chatName, newResults, pool)
 	if err != nil {
@@ -190,6 +205,22 @@ func insertTDataIntoDB(newResults []string, chatName string, pool *pgxpool.Pool)
 		tableName := "tournaments" + chatName
 		if err := utils.EnsureTableExists(pool, tableName); err != nil {
 			return err
+		}
+
+		if mode == "insertall" {
+			var count int
+			err := tx.QueryRow(context.Background(), `
+			SELECT COUNT(*) FROM `+tableName+`
+			WHERE EXTRACT(year FROM date) = EXTRACT(year FROM $1::timestamp)
+			AND EXTRACT(month FROM date) = EXTRACT(month FROM $2::timestamp)
+			AND player = $3 AND fishcaught = $4 AND placement1 = $5 AND totalweight = $6 AND placement2 = $7 AND biggestfish = $8 AND placement3 = $9
+		`, result.Date, result.Date, result.Player, result.FishCaught, result.FishPlacement, result.TotalWeight, result.WeightPlacement, result.BiggestFish, result.BiggestFishPlacement).Scan(&count)
+			if err != nil {
+				return err
+			}
+			if count > 0 {
+				continue
+			}
 		}
 
 		playerID, err := playerdata.GetPlayerID(pool, result.Player, result.Date, result.Chat)
