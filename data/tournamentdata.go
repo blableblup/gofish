@@ -178,6 +178,10 @@ func insertTDataIntoDB(newResults []string, chatName string, pool *pgxpool.Pool)
 	}
 	defer tx.Rollback(context.Background())
 
+	sort.SliceStable(Results, func(i, j int) bool {
+		return Results[i].Date.Before(Results[j].Date)
+	})
+
 	newResultCounts := 0
 
 	for _, result := range Results {
