@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"context"
 	"fmt"
+	"gofish/logs"
 	"gofish/playerdata"
 	"gofish/utils"
 	"io"
@@ -23,33 +24,33 @@ func GetTournamentData(config utils.Config, pool *pgxpool.Pool, chatNames string
 		for chatName, chat := range config.Chat {
 			if !chat.CheckEnabled {
 				if chatName != "global" {
-					fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+					logs.Logs().Info().Msgf("Skipping chat '%s' because check_enabled is false", chatName)
 				}
 				continue
 			}
 
-			fmt.Printf("Checking tournament results for chat '%s'.\n", chatName)
+			logs.Logs().Info().Msgf("Checking tournament results for chat '%s'", chatName)
 			urls := utils.CreateURL(chatName, numMonths, monthYear)
 			fetchMatchingLines(chatName, pool, urls, mode)
 		}
 	case "":
-		fmt.Println("Please specify chat names.")
+		logs.Logs().Warn().Msgf("Please specify chat names.")
 	default:
 		specifiedchatNames := strings.Split(chatNames, ",")
 		for _, chatName := range specifiedchatNames {
 			chat, ok := config.Chat[chatName]
 			if !ok {
-				fmt.Printf("Chat '%s' not found in config.\n", chatName)
+				logs.Logs().Warn().Msgf("Chat '%s' not found in config", chatName)
 				continue
 			}
 			if !chat.CheckEnabled {
 				if chatName != "global" {
-					fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+					logs.Logs().Info().Msgf("Skipping chat '%s' because check_enabled is false", chatName)
 				}
 				continue
 			}
 
-			fmt.Printf("Checking tournament results for chat '%s'.\n", chatName)
+			logs.Logs().Info().Msgf("Checking tournament results for chat '%s'", chatName)
 			urls := utils.CreateURL(chatName, numMonths, monthYear)
 			fetchMatchingLines(chatName, pool, urls, mode)
 		}
@@ -61,7 +62,7 @@ func fetchMatchingLines(chatName string, pool *pgxpool.Pool, urls []string, mode
 	logFilePath := filepath.Join("data", chatName, "tournamentlogs.txt")
 
 	if err := os.MkdirAll(filepath.Dir(logFilePath), 0755); err != nil {
-		fmt.Println("Error creating directory:", err)
+		logs.Logs().Error().Err(err).Msg("Error creating directory")
 		return
 	}
 
@@ -71,12 +72,12 @@ func fetchMatchingLines(chatName string, pool *pgxpool.Pool, urls []string, mode
 		for _, url := range urls {
 			response, err := http.Get(url)
 			if err != nil {
-				fmt.Println("Error fetching URL:", err)
+				logs.Logs().Fatal().Err(err).Msg("Error fetching URL")
 				continue
 			}
 
 			if response.StatusCode != http.StatusOK {
-				fmt.Printf("Unexpected HTTP status code %d for URL: %s\n", response.StatusCode, url)
+				logs.Logs().Fatal().Msgf("Unexpected HTTP status code %d for URL: %s", response.StatusCode, url)
 				response.Body.Close()
 				continue
 			}
@@ -85,7 +86,7 @@ func fetchMatchingLines(chatName string, pool *pgxpool.Pool, urls []string, mode
 
 			body, err := io.ReadAll(response.Body)
 			if err != nil {
-				fmt.Println("Error reading response body:", err)
+				logs.Logs().Fatal().Err(err).Msg("Error reading response body")
 				continue
 			}
 
@@ -97,20 +98,20 @@ func fetchMatchingLines(chatName string, pool *pgxpool.Pool, urls []string, mode
 					matchingLines = append(matchingLines, strings.TrimSpace(line))
 				}
 			}
-			fmt.Println("Finished checking for matching lines in", url)
+			logs.Logs().Info().Msgf("Finished checking for matching lines in %s", url)
 		}
 	}
 
 	// Ensure directory exists
 	err := os.MkdirAll(filepath.Dir(logFilePath), 0755)
 	if err != nil {
-		fmt.Println("Error creating folder:", err)
+		logs.Logs().Error().Err(err).Msg("Error creating folder")
 		return
 	}
 
 	file, err := os.OpenFile(logFilePath, os.O_RDONLY|os.O_CREATE, 0644)
 	if err != nil {
-		fmt.Println("Error opening log file:", err)
+		logs.Logs().Error().Err(err).Msg("Error opening log file")
 		return
 	}
 	defer file.Close()
@@ -153,31 +154,31 @@ func fetchMatchingLines(chatName string, pool *pgxpool.Pool, urls []string, mode
 	if len(newResults) > 0 {
 
 		if err := insertTDataIntoDB(newResults, chatName, mode, pool); err != nil {
-			fmt.Println("Error inserting tournament data into database:", err)
+			logs.Logs().Error().Err(err).Msg("Error inserting tournament data into database")
 			return
 		}
 
 		if mode == "insertall" {
-			fmt.Println("Returning because program is in mode 'insertall'.")
+			logs.Logs().Info().Msg("Returning because program is in mode 'insertall'")
 			return
 		}
 
 		file, err := os.OpenFile(logFilePath, os.O_APPEND|os.O_WRONLY, 0644)
 		if err != nil {
-			fmt.Println("Error opening log file for appending:", err)
+			logs.Logs().Error().Err(err).Msg("Error opening log file for appending")
 			return
 		}
 		defer file.Close()
 
 		for _, line := range newResults {
 			if _, err := file.WriteString(line + "\n"); err != nil {
-				fmt.Println("Error appending to log file:", err)
+				logs.Logs().Error().Err(err).Msg("Error appending to log file")
 				return
 			}
 		}
-		fmt.Printf("New results appended to %s\n", logFilePath)
+		logs.Logs().Info().Msgf("New results appended to %s", logFilePath)
 	} else {
-		fmt.Printf("No new results to append to %s\n", logFilePath)
+		logs.Logs().Info().Msgf("No new results to append to %s", logFilePath)
 	}
 }
 
@@ -237,7 +238,7 @@ func insertTDataIntoDB(newResults []string, chatName string, mode string, pool *
 		newResultCounts++
 	}
 
-	fmt.Printf("Successfully inserted %d new results into the database for chat '%s'.\n", newResultCounts, chatName)
+	logs.Logs().Info().Msgf("Successfully inserted %d new results into the database for chat '%s'", newResultCounts, chatName)
 
 	if err := tx.Commit(context.Background()); err != nil {
 		return err
