@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"context"
 	"fmt"
+	"gofish/logs"
 	"gofish/utils"
 	"os"
 	"strconv"
@@ -36,7 +37,7 @@ func GetPlayerID(pool *pgxpool.Pool, playerName string, firstFishDate time.Time,
 		if err != nil {
 			return 0, err
 		}
-		fmt.Printf("Added player '%s' to the playerdata table. First fish caught on %s in chat '%s'.\n", playerName, firstFishDate, firstFishChat)
+		logs.Logs().Info().Msgf("Added player '%s' to the playerdata table. First fish caught on %s in chat '%s'", playerName, firstFishDate, firstFishChat)
 
 	} else {
 		// If they were renamed before the database was updated and they still caught a fish with their old name, or if you recheck old logs
@@ -57,7 +58,7 @@ func PlayerRenamed(player string, pool *pgxpool.Pool) string {
 	// Maybe one player caught a fish and then renamed and never caught a fish again and then another one renamed to that name ?
 	err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE name = $1", player).Scan(&player)
 	if err != nil {
-		fmt.Printf("Player name '%s' cannot be found as a current name in the playerdata table. Checking if they renamed...\n", player)
+		logs.Logs().Info().Msgf("Player name '%s' cannot be found as a current name in the playerdata table. Checking if they renamed...", player)
 
 		// Check if the name is an old name for a player
 		query := `
@@ -67,7 +68,7 @@ func PlayerRenamed(player string, pool *pgxpool.Pool) string {
         `
 		rows, err := pool.Query(context.Background(), query, player)
 		if err != nil {
-			fmt.Printf("Error querying for old names for player '%s': %v\n", player, err)
+			logs.Logs().Error().Err(err).Msgf("Error querying for old names for player '%s'", player)
 			return player
 		}
 		defer rows.Close()
@@ -76,42 +77,42 @@ func PlayerRenamed(player string, pool *pgxpool.Pool) string {
 		for rows.Next() {
 			var matchingPlayer string
 			if err := rows.Scan(&matchingPlayer); err != nil {
-				fmt.Printf("Error scanning player for player '%s': %v\n", player, err)
+				logs.Logs().Error().Err(err).Msgf("Error scanning player for player '%s'", player)
 				continue
 			}
 			matchingPlayers = append(matchingPlayers, matchingPlayer)
 		}
 
 		if len(matchingPlayers) == 0 {
-			fmt.Printf("Player '%s' also doesn't appear as an old name.\n", player)
+			logs.Logs().Info().Msgf("Player '%s' also doesn't appear as an old name", player)
 			return player // If the player is new (for GetPlayerID) or if the player was renamed incorrectly
 		}
 
 		if len(matchingPlayers) == 1 {
 			newPlayer = matchingPlayers[0]
-			fmt.Printf("Player '%s' renamed to '%s'.\n", player, newPlayer)
+			logs.Logs().Info().Msgf("Player '%s' renamed to '%s'", player, newPlayer)
 			return newPlayer
 		}
 
 		// Old Twitch names can become available after 6 months so it is better having this even if it might never be needed
 		for {
-			fmt.Printf("Player '%s' renamed to one of the following names:\n", player)
+			logs.Logs().Info().Msgf("Player '%s' renamed to one of the following names:", player)
 			for i, name := range matchingPlayers {
 				fmt.Printf("%d. %s\n", i+1, name)
 			}
 
-			fmt.Print("Enter the number corresponding to the correct new name: ")
+			logs.Logs().Info().Msg("Enter the number corresponding to the correct new name: ")
 			reader := bufio.NewReader(os.Stdin)
 			choiceStr, _ := reader.ReadString('\n')
 			choiceStr = strings.TrimSpace(choiceStr)
 			choice, err := strconv.Atoi(choiceStr)
 			if err != nil || choice < 1 || choice > len(matchingPlayers) {
-				fmt.Println("Enter a valid number (ㆆ_ㆆ).")
+				logs.Logs().Warn().Msgf("Enter a valid number (ㆆ_ㆆ).")
 				continue
 			}
 
 			newPlayer = matchingPlayers[choice-1]
-			fmt.Printf("Player '%s' renamed to '%s'.\n", player, newPlayer)
+			logs.Logs().Info().Msgf("Player '%s' renamed to '%s'", player, newPlayer)
 			return newPlayer
 		}
 	}

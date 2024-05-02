@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 	"gofish/data"
+	"gofish/logs"
 	"gofish/playerdata"
-	"os"
 	"strings"
 	"time"
 
@@ -30,7 +30,7 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 
 	pool, err := data.Connect()
 	if err != nil {
-		fmt.Println("Error connecting to the database:", err)
+		logs.Logs().Error().Err(err).Msgf("Error connecting to the database")
 		return err
 	}
 	defer pool.Close()
@@ -46,7 +46,7 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 		oldName := pair.OldName
 		newName := pair.NewName
 
-		fmt.Printf("Updating player name from '%s' to '%s'.\n", oldName, newName)
+		logs.Logs().Info().Msgf("Updating player name from '%s' to '%s'", oldName, newName)
 
 		// Get player IDs
 		var oldPlayerID, newPlayerID int
@@ -56,9 +56,9 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 			`, oldName).Scan(&oldPlayerID)
 		if err != nil {
 			if err == pgx.ErrNoRows {
-				fmt.Printf("No player found with name '%s'.\n", oldName)
+				logs.Logs().Warn().Msgf("No player found with name '%s'", oldName)
 			} else {
-				fmt.Printf("Error retrieving player ID for name '%s': %v\n", oldName, err)
+				logs.Logs().Error().Err(err).Msgf("Error retrieving player ID for name '%s'", oldName)
 			}
 			continue
 		}
@@ -69,14 +69,14 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 		if err != nil {
 			if err == pgx.ErrNoRows {
 				var confirm string // If the player renamed but never caught a fish since renaming. This only updates the old name in playerdata
-				fmt.Printf("Player '%s' does not have an entry in the playerdata table. Is the name correct? (yes/no): ", newName)
+				logs.Logs().Warn().Msgf("Player '%s' does not have an entry in the playerdata table. Is the name correct? (yes/no): ", newName)
 				_, err = fmt.Scanln(&confirm)
 				if err != nil {
 					return err
 				}
 
 				if confirm != "yes" {
-					fmt.Println("Player not renamed.")
+					logs.Logs().Info().Msg("Player not renamed")
 					continue
 				}
 
@@ -93,15 +93,15 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 				// Check if any rows were affected by the update operation
 				rowsAffected := result.RowsAffected()
 				if rowsAffected == 0 {
-					fmt.Printf("No rows updated for player %s\n", newName)
-					fmt.Println("Exiting the program due to potential data inconsistency.")
-					os.Exit(1) // There should be an update unless something is wrong with the data
+					logs.Logs().Error().Msgf("No rows updated for player %s", newName)
+					logs.Logs().Fatal().Err(err).Msg("Exiting the program due to potential data inconsistency.")
+					// There should be an update unless something is wrong with the data
 				}
 
-				fmt.Printf("Player data updated for player %s\n", newName)
+				logs.Logs().Info().Msgf("Player data updated for player %s", newName)
 				break
 			} else {
-				fmt.Printf("Error retrieving player ID for name '%s': %v\n", newName, err)
+				logs.Logs().Error().Err(err).Msgf("Error retrieving player ID for name '%s'", newName)
 			}
 			continue
 		}
@@ -113,18 +113,18 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 			WHERE playerid = $3		
 			`, newName, oldName, oldPlayerID)
 		if err != nil {
-			return fmt.Errorf("error updating player data for player %s: %v", newName, err)
+			logs.Logs().Error().Err(err).Msgf("error updating player data for player %s", newName)
 		}
 
 		// Check if any rows were affected by the update operation
 		rowsAffected := result.RowsAffected()
 		if rowsAffected == 0 {
-			fmt.Printf("No rows updated for player %s\n", newName)
-			fmt.Println("Exiting the program due to potential data inconsistency.")
-			os.Exit(1) // There should be an update unless something is wrong with the data
+			logs.Logs().Error().Msgf("No rows updated for player %s", newName)
+			logs.Logs().Fatal().Err(err).Msg("Exiting the program due to potential data inconsistency.")
+			// There should be an update unless something is wrong with the data
 		}
 
-		fmt.Printf("Player data updated for player %s\n", newName)
+		logs.Logs().Info().Msgf("Player data updated for player %s", newName)
 
 		// Update playerid in fish table
 		result, err = tx.Exec(context.Background(), `
@@ -137,12 +137,12 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 		}
 		rowsAffected = result.RowsAffected()
 		if rowsAffected == 0 {
-			fmt.Printf("No rows updated for player %s\n", newName)
-			fmt.Println("Exiting the program due to potential data inconsistency.")
-			os.Exit(1) // There should be an update unless something is wrong with the data
+			logs.Logs().Error().Msgf("No rows updated for player %s", newName)
+			logs.Logs().Fatal().Err(err).Msg("Exiting the program due to potential data inconsistency.")
+			// There should be an update unless something is wrong with the data
 		}
 
-		fmt.Printf("Rows affected in fish table for player %s: %d\n", newName, rowsAffected)
+		logs.Logs().Info().Msgf("Rows affected in fish table for player %s: %d", newName, rowsAffected)
 
 		// Delete redundant entry
 		result, err = tx.Exec(context.Background(), `
@@ -154,12 +154,12 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 		}
 		rowsAffected = result.RowsAffected()
 		if rowsAffected == 0 {
-			fmt.Printf("No rows updated for player %s\n", newName)
-			fmt.Println("Exiting the program due to potential data inconsistency.")
-			os.Exit(1) // There should be an update unless something is wrong with the data
+			logs.Logs().Error().Msgf("No rows updated for player %s", newName)
+			logs.Logs().Fatal().Err(err).Msg("Exiting the program due to potential data inconsistency.")
+			// There should be an update unless something is wrong with the data
 		}
 
-		fmt.Printf("Rows affected in playerdata table for player %s after deletion: %d\n", newName, rowsAffected)
+		logs.Logs().Info().Msgf("Rows affected in playerdata table for player %s after deletion: %d", newName, rowsAffected)
 	}
 
 	// Commit the transaction
