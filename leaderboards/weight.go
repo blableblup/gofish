@@ -100,6 +100,7 @@ func processWeight(params LeaderboardParams) {
 				Str("Chat", newWeightRecord.Chat).
 				Float64("Weight", newWeightRecord.Weight).
 				Str("TypeName", newWeightRecord.TypeName).
+				Str("CatchType", newWeightRecord.CatchType).
 				Str("FishType", newWeightRecord.Type).
 				Str("Player", playerName).
 				Int("ChatID", newWeightRecord.ChatId).
@@ -113,6 +114,7 @@ func processWeight(params LeaderboardParams) {
 					Str("Chat", newWeightRecord.Chat).
 					Float64("Weight", newWeightRecord.Weight).
 					Str("TypeName", newWeightRecord.TypeName).
+					Str("CatchType", newWeightRecord.CatchType).
 					Str("FishType", newWeightRecord.Type).
 					Str("Player", playerName).
 					Int("ChatID", newWeightRecord.ChatId).

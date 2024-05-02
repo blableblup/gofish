@@ -99,6 +99,7 @@ func processType(params LeaderboardParams) {
 				Str("Chat", newTypeRecord.Chat).
 				Float64("Weight", newTypeRecord.Weight).
 				Str("TypeName", newTypeRecord.TypeName).
+				Str("CatchType", newTypeRecord.CatchType).
 				Str("FishType", fishType).
 				Str("Player", newTypeRecord.Player).
 				Int("ChatID", newTypeRecord.ChatId).
@@ -112,6 +113,7 @@ func processType(params LeaderboardParams) {
 					Str("Chat", newTypeRecord.Chat).
 					Float64("Weight", newTypeRecord.Weight).
 					Str("TypeName", newTypeRecord.TypeName).
+					Str("CatchType", newTypeRecord.CatchType).
 					Str("FishType", fishType).
 					Str("Player", newTypeRecord.Player).
 					Int("ChatID", newTypeRecord.ChatId).
