@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"gofish/data"
+	"gofish/logs"
 	"gofish/playerdata"
 	"gofish/utils"
 	"os"
@@ -20,7 +21,7 @@ func processType(params LeaderboardParams) {
 
 	oldType, err := ReadTypeRankings(filePath, pool)
 	if err != nil {
-		fmt.Println("Error reading old type leaderboard:", err)
+		logs.Logs().Error().Err(err).Msg("Error reading old type leaderboard")
 		return
 	}
 
@@ -45,7 +46,7 @@ func processType(params LeaderboardParams) {
 			WHERE type = sub.type AND weight = sub.max_weight AND chat = $1
 		)`, chatName)
 	if err != nil {
-		fmt.Println("Error querying database:", err)
+		logs.Logs().Error().Err(err).Msg("Error querying database")
 		return
 	}
 	defer rows.Close()
@@ -58,7 +59,7 @@ func processType(params LeaderboardParams) {
 		var weight float64
 
 		if err := rows.Scan(&fishType, &weight, &typeName, &bot, &chatname, &date, &catchtype, &fishid, &chatid, &playerid); err != nil {
-			fmt.Println("Error scanning row:", err)
+			logs.Logs().Error().Err(err).Msg("Error scanning row")
 			continue
 		}
 
@@ -66,7 +67,7 @@ func processType(params LeaderboardParams) {
 		var playerName string
 		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", playerid).Scan(&playerName)
 		if err != nil {
-			fmt.Printf("Error retrieving player name for id '%d':\n", playerid)
+			logs.Logs().Error().Err(err).Msgf("Error retrieving player name for id '%d'", playerid)
 			continue
 		}
 
@@ -84,7 +85,7 @@ func processType(params LeaderboardParams) {
 	}
 
 	if err := rows.Err(); err != nil {
-		fmt.Println("Error iterating over query results:", err)
+		logs.Logs().Error().Err(err).Msg("Error iterating over query results")
 		return
 	}
 
@@ -93,11 +94,29 @@ func processType(params LeaderboardParams) {
 		oldTypeRecord, exists := oldType[fishType]
 		if !exists {
 			recordType[fishType] = newTypeRecord
-			fmt.Println("New Record Record Type for Fish Type", fishType+":", newTypeRecord)
+			logs.Logs().Info().
+				Str("Date", newTypeRecord.Date.Format(time.RFC3339)).
+				Str("Chat", newTypeRecord.Chat).
+				Float64("Weight", newTypeRecord.Weight).
+				Str("TypeName", newTypeRecord.TypeName).
+				Str("FishType", fishType).
+				Str("Player", newTypeRecord.Player).
+				Int("ChatID", newTypeRecord.ChatId).
+				Int("FishID", newTypeRecord.FishId).
+				Msg("New Record Type for Fish Type")
 		} else {
 			if newTypeRecord.Weight > oldTypeRecord.Weight {
 				recordType[fishType] = newTypeRecord
-				fmt.Println("Updated Record Type for Fish Type", fishType+":", newTypeRecord)
+				logs.Logs().Info().
+					Str("Date", newTypeRecord.Date.Format(time.RFC3339)).
+					Str("Chat", newTypeRecord.Chat).
+					Float64("Weight", newTypeRecord.Weight).
+					Str("TypeName", newTypeRecord.TypeName).
+					Str("FishType", fishType).
+					Str("Player", newTypeRecord.Player).
+					Int("ChatID", newTypeRecord.ChatId).
+					Int("FishID", newTypeRecord.FishId).
+					Msg("Updated Record Type for Fish Type")
 			} else {
 				recordType[fishType] = ConvertToFishInfo(oldTypeRecord)
 			}
@@ -106,19 +125,19 @@ func processType(params LeaderboardParams) {
 
 	// Stops the program if it is in "just checking" mode
 	if mode == "check" {
-		fmt.Printf("Finished checking for new type records for chat '%s'.\n", chatName)
+		logs.Logs().Info().Msgf("Finished checking for new type records for chat '%s'", chatName)
 		return
 	}
 
 	titletype := fmt.Sprintf("### Biggest fish per type caught in %s's chat\n", chatName)
 	isGlobal := false
 
-	fmt.Printf("Updating type leaderboard for chat '%s'...\n", chatName)
+	logs.Logs().Info().Msgf("Updating type leaderboard for chat '%s'...", chatName)
 	err = writeType(filePath, recordType, oldType, titletype, isGlobal)
 	if err != nil {
-		fmt.Println("Error writing type leaderboard:", err)
+		logs.Logs().Error().Err(err).Msg("Error writing type leaderboard")
 	} else {
-		fmt.Println("Type leaderboard updated successfully.")
+		logs.Logs().Info().Msg("Type leaderboard updated successfully")
 	}
 }
 

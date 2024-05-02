@@ -2,8 +2,8 @@ package leaderboards
 
 import (
 	"context"
-	"fmt"
 	"gofish/data"
+	"gofish/logs"
 	"path/filepath"
 	"time"
 )
@@ -16,7 +16,7 @@ func RunTypeGlobal(params LeaderboardParams) {
 	filePath := filepath.Join("leaderboards", "global", "type.md")
 	oldType, err := ReadTypeRankings(filePath, pool)
 	if err != nil {
-		fmt.Println("Error reading old type leaderboard:", err)
+		logs.Logs().Error().Err(err).Msg("Error reading old global type leaderboard")
 		return
 	}
 
@@ -36,7 +36,7 @@ func RunTypeGlobal(params LeaderboardParams) {
 			WHERE type = sub.type AND weight = sub.max_weight
 	)`)
 	if err != nil {
-		fmt.Println("Error querying database:", err)
+		logs.Logs().Error().Err(err).Msg("Error querying database")
 		return
 	}
 	defer rows.Close()
@@ -49,7 +49,7 @@ func RunTypeGlobal(params LeaderboardParams) {
 		var weight float64
 
 		if err := rows.Scan(&fishType, &weight, &typeName, &bot, &chatname, &date, &catchtype, &fishid, &chatid, &playerid); err != nil {
-			fmt.Println("Error scanning row:", err)
+			logs.Logs().Error().Err(err).Msg("Error scanning row")
 			continue
 		}
 
@@ -57,7 +57,7 @@ func RunTypeGlobal(params LeaderboardParams) {
 		var playerName string
 		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", playerid).Scan(&playerName)
 		if err != nil {
-			fmt.Printf("Error retrieving player name for id '%d':\n", playerid)
+			logs.Logs().Error().Err(err).Msgf("Error retrieving player name for id '%d'", playerid)
 			continue
 		}
 
@@ -75,7 +75,7 @@ func RunTypeGlobal(params LeaderboardParams) {
 	}
 
 	if err := rows.Err(); err != nil {
-		fmt.Println("Error iterating over query results:", err)
+		logs.Logs().Error().Err(err).Msg("Error iterating over query results")
 		return
 	}
 
@@ -106,7 +106,7 @@ func RunWeightGlobal(params LeaderboardParams) {
 	filePath := filepath.Join("leaderboards", "global", "weight.md")
 	oldWeight, err := ReadWeightRankings(filePath, pool)
 	if err != nil {
-		fmt.Printf("Error reading old weight leaderboard for chat global: %v\n", err)
+		logs.Logs().Error().Err(err).Msg("Error reading old global weight leaderboard")
 		return
 	}
 
@@ -116,7 +116,7 @@ func RunWeightGlobal(params LeaderboardParams) {
 	for chatName, chat := range config.Chat {
 		if !chat.CheckEnabled {
 			if chatName != "global" {
-				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+				logs.Logs().Info().Msgf("Skipping chat '%s' because check_enabled is false", chatName)
 			}
 			continue
 		}
@@ -124,7 +124,7 @@ func RunWeightGlobal(params LeaderboardParams) {
 		filePath := filepath.Join("leaderboards", chatName, "weight.md")
 		oldRecordWeight, err := ReadWeightRankings(filePath, pool)
 		if err != nil {
-			fmt.Printf("Error reading old weight leaderboard for chat '%s': %v\n", chatName, err)
+			logs.Logs().Error().Err(err).Msgf("Error reading old weight leaderboard for chat '%s'", chatName)
 			return
 		}
 
@@ -154,7 +154,7 @@ func RunCountGlobal(params LeaderboardParams) {
 	filePath := filepath.Join("leaderboards", "global", "count.md")
 	oldCount, err := ReadTotalcountRankings(filePath, pool)
 	if err != nil {
-		fmt.Println("Error reading old count leaderboard:", err)
+		logs.Logs().Error().Err(err).Msg("Error reading old global count leaderboard")
 		return
 	}
 
@@ -162,7 +162,7 @@ func RunCountGlobal(params LeaderboardParams) {
 	for chatName, chat := range config.Chat {
 		if !chat.CheckEnabled {
 			if chatName != "global" {
-				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+				logs.Logs().Info().Msgf("Skipping chat '%s' because check_enabled is false", chatName)
 			}
 			continue
 		}
@@ -175,7 +175,7 @@ func RunCountGlobal(params LeaderboardParams) {
             GROUP BY playerid
             `, chatName)
 		if err != nil {
-			fmt.Println("Error querying database:", err)
+			logs.Logs().Error().Err(err).Msg("Error querying database")
 			return
 		}
 		defer rows.Close()
@@ -184,13 +184,13 @@ func RunCountGlobal(params LeaderboardParams) {
 		for rows.Next() {
 			var fishInfo data.FishInfo
 			if err := rows.Scan(&fishInfo.PlayerID, &fishInfo.Count); err != nil {
-				fmt.Println("Error scanning row:", err)
+				logs.Logs().Error().Err(err).Msg("Error scanning row")
 				continue
 			}
 
 			err := pool.QueryRow(context.Background(), "SELECT name, firstfishdate FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Player, &fishInfo.Date)
 			if err != nil {
-				fmt.Printf("Error retrieving player name for id '%d':\n", fishInfo.PlayerID)
+				logs.Logs().Error().Err(err).Msgf("Error retrieving player name for id '%d'", fishInfo.PlayerID)
 			}
 			if fishInfo.Date.Before(time.Date(2023, time.September, 14, 0, 0, 0, 0, time.UTC)) {
 				fishInfo.Bot = "supibot"
@@ -236,41 +236,41 @@ func RunCountGlobal(params LeaderboardParams) {
 }
 
 func updateTypeLeaderboard(recordType map[string]data.FishInfo, oldType map[string]LeaderboardInfo) {
-	fmt.Println("Updating global type leaderboard...")
+	logs.Logs().Info().Msg("Updating global type leaderboard...")
 	title := "### Biggest fish per type caught globally\n"
 	isGlobal := true
 	filePath := filepath.Join("leaderboards", "global", "type.md")
 	err := writeType(filePath, recordType, oldType, title, isGlobal)
 	if err != nil {
-		fmt.Println("Error writing global type leaderboard:", err)
+		logs.Logs().Error().Err(err).Msg("Error writing global type leaderboard")
 	} else {
-		fmt.Println("Global type leaderboard updated successfully.")
+		logs.Logs().Info().Msg("Global type leaderboard updated successfully")
 	}
 }
 
 func updateWeightLeaderboard(recordWeight map[string]data.FishInfo, oldWeight map[string]LeaderboardInfo) {
-	fmt.Println("Updating global weight leaderboard...")
+	logs.Logs().Info().Msg("Updating global weight leaderboard...")
 	title := "### Biggest fish caught per player globally\n"
 	isGlobal := true
 	filePath := filepath.Join("leaderboards", "global", "weight.md")
 	err := writeWeight(filePath, recordWeight, oldWeight, title, isGlobal)
 	if err != nil {
-		fmt.Println("Error writing global weight leaderboard:", err)
+		logs.Logs().Error().Err(err).Msg("Error writing global weight leaderboard")
 	} else {
-		fmt.Println("Global weight leaderboard updated successfully.")
+		logs.Logs().Info().Msg("Global weight leaderboard updated successfully")
 	}
 }
 
 func updateCountLeaderboard(globalCount map[string]data.FishInfo, oldCount map[string]LeaderboardInfo) {
-	fmt.Println("Updating global count leaderboard...")
+	logs.Logs().Info().Msg("Updating global count leaderboard...")
 	title := "### Most fish caught globally\n"
 	isType, isFishw := false, false
 	isGlobal := true
 	filePath := filepath.Join("leaderboards", "global", "count.md")
 	err := writeCount(filePath, globalCount, oldCount, title, isGlobal, isType, isFishw)
 	if err != nil {
-		fmt.Println("Error writing global count leaderboard:", err)
+		logs.Logs().Error().Err(err).Msg("Error writing global count leaderboard")
 	} else {
-		fmt.Println("Global count leaderboard updated successfully.")
+		logs.Logs().Info().Msg("Global count leaderboard updated successfully")
 	}
 }

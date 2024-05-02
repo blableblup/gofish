@@ -2,8 +2,8 @@ package leaderboards
 
 import (
 	"context"
-	"fmt"
 	"gofish/data"
+	"gofish/logs"
 	"path/filepath"
 )
 
@@ -15,7 +15,7 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 	filePath := filepath.Join("leaderboards", "global", "rare.md")
 	oldCount, err := ReadTotalcountRankings(filePath, pool)
 	if err != nil {
-		fmt.Println("Error reading old rarest fish leaderboard:", err)
+		logs.Logs().Error().Err(err).Msg("Error reading old rarest fish leaderboard")
 		return
 	}
 
@@ -23,7 +23,7 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 	for chatName, chat := range config.Chat {
 		if !chat.CheckEnabled {
 			if chatName != "global" {
-				fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+				logs.Logs().Info().Msgf("Skipping chat '%s' because check_enabled is false", chatName)
 			}
 			continue
 		}
@@ -36,7 +36,7 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
             GROUP BY fish_type
             `, chatName)
 		if err != nil {
-			fmt.Println("Error querying database:", err)
+			logs.Logs().Error().Err(err).Msg("Error querying database")
 			return
 		}
 		defer rows.Close()
@@ -45,7 +45,7 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 		for rows.Next() {
 			var fishInfo data.FishInfo
 			if err := rows.Scan(&fishInfo.Type, &fishInfo.Count); err != nil {
-				fmt.Println("Error scanning row:", err)
+				logs.Logs().Error().Err(err).Msg("Error scanning row")
 				continue
 			}
 
@@ -80,15 +80,15 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 }
 
 func updateFishTypesLeaderboard(globalFishTypesCount map[string]data.FishInfo, oldCount map[string]LeaderboardInfo) {
-	fmt.Println("Updating rarest fish leaderboard...")
+	logs.Logs().Info().Msg("Updating rarest fish leaderboard...")
 	title := "### How many times a fish has been caught\n"
 	filePath := filepath.Join("leaderboards", "global", "rare.md")
 	isGlobal, isType := true, true
 	isFishw := false
 	err := writeCount(filePath, globalFishTypesCount, oldCount, title, isGlobal, isType, isFishw)
 	if err != nil {
-		fmt.Println("Error writing rarest fish leaderboard:", err)
+		logs.Logs().Error().Err(err).Msg("Error writing rarest fish leaderboard")
 	} else {
-		fmt.Println("Rarest fish leaderboard updated successfully.")
+		logs.Logs().Info().Msg("Rarest fish leaderboard updated successfully")
 	}
 }
