@@ -2,7 +2,7 @@ package utils
 
 import (
 	"encoding/json"
-	"fmt"
+	"gofish/logs"
 	"os"
 )
 
@@ -24,7 +24,7 @@ type Config struct {
 func LoadConfig(filename string) Config {
 	file, err := os.Open(filename)
 	if err != nil {
-		fmt.Println("Error opening config file:", err)
+		logs.Logs().Error().Err(err).Msg("Error opening config file")
 		os.Exit(1)
 	}
 	defer file.Close()
@@ -32,7 +32,7 @@ func LoadConfig(filename string) Config {
 	var config Config
 	err = json.NewDecoder(file).Decode(&config)
 	if err != nil {
-		fmt.Println("Error parsing config file:", err)
+		logs.Logs().Error().Err(err).Msg("Error parsing config file")
 		os.Exit(1)
 	}
 

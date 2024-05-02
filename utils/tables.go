@@ -3,6 +3,7 @@ package utils
 import (
 	"context"
 	"fmt"
+	"gofish/logs"
 	"strings"
 
 	"github.com/jackc/pgx/v4/pgxpool"
@@ -17,7 +18,7 @@ func EnsureTableExists(pool *pgxpool.Pool, tableName string) error {
 	}
 
 	if !exists {
-		fmt.Printf("Table '%s' does not exist, creating...\n", tableName)
+		logs.Logs().Info().Msgf("Table '%s' does not exist, creating...", tableName)
 	}
 
 	// Create the appropriate table if it doesn't exist
@@ -43,7 +44,7 @@ func EnsureTableExists(pool *pgxpool.Pool, tableName string) error {
 				return err
 			}
 
-			fmt.Printf("Table '%s' created successfully\n", tableName)
+			logs.Logs().Info().Msgf("Table '%s' created successfully", tableName)
 		case tableName == "typename":
 			_, err := pool.Exec(context.Background(), fmt.Sprintf(`
 				CREATE TABLE %s (
@@ -55,7 +56,7 @@ func EnsureTableExists(pool *pgxpool.Pool, tableName string) error {
 				return err
 			}
 
-			fmt.Printf("Table '%s' created successfully\n", tableName)
+			logs.Logs().Info().Msgf("Table '%s' created successfully", tableName)
 		case tableName == "playerdata":
 			_, err := pool.Exec(context.Background(), fmt.Sprintf(`
 				CREATE TABLE %s (
@@ -73,7 +74,7 @@ func EnsureTableExists(pool *pgxpool.Pool, tableName string) error {
 				return err
 			}
 
-			fmt.Printf("Table '%s' created successfully\n", tableName)
+			logs.Logs().Info().Msgf("Table '%s' created successfully", tableName)
 		case strings.HasPrefix(tableName, "tournaments"):
 			_, err := pool.Exec(context.Background(), fmt.Sprintf(`
 				CREATE TABLE %s (
@@ -95,7 +96,7 @@ func EnsureTableExists(pool *pgxpool.Pool, tableName string) error {
 				return err
 			}
 
-			fmt.Printf("Table '%s' created successfully\n", tableName)
+			logs.Logs().Info().Msgf("Table '%s' created successfully", tableName)
 
 		default:
 			return fmt.Errorf("unsupported table name: %s", tableName)
