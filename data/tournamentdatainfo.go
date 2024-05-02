@@ -1,7 +1,7 @@
 package data
 
 import (
-	"fmt"
+	"gofish/logs"
 	"gofish/utils"
 	"regexp"
 	"strconv"
@@ -44,7 +44,7 @@ func extractInfoFromTData(result string) []TrnmInfo {
 
 	date, err := utils.ParseDate(dateStr)
 	if err != nil {
-		fmt.Printf("Error parsing date for result by player '%s' at '%s': %v\n", player, dateStr, err)
+		logs.Logs().Error().Err(err).Msgf("Error parsing date for result by player '%s' at '%s'", player, dateStr)
 	}
 
 	Results = append(Results, TrnmInfo{

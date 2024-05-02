@@ -4,6 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"gofish/logs"
 	"os"
 	"path/filepath"
 
@@ -58,7 +59,7 @@ func Connect() (*pgxpool.Pool, error) {
 	// Get the current working directory
 	wd, err := os.Getwd()
 	if err != nil {
-		fmt.Println("Error getting current working directory:", err)
+		logs.Logs().Error().Err(err).Msg("Error getting current working directory")
 		os.Exit(1)
 	}
 
@@ -68,7 +69,7 @@ func Connect() (*pgxpool.Pool, error) {
 	// Load the config from the constructed file path
 	config, err := readConfig(configFilePath)
 	if err != nil {
-		fmt.Println("Error loading configuration:", err)
+		logs.Logs().Error().Err(err).Msg("Error loading configuration")
 	}
 
 	// Establish connection to the PostgreSQL database

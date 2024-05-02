@@ -4,9 +4,9 @@ package main
 
 import (
 	"flag"
-	"fmt"
 	"gofish/data"
 	"gofish/leaderboards"
+	"gofish/logs"
 	"gofish/scripts"
 )
 
@@ -23,34 +23,34 @@ func main() {
 	flag.Parse()
 
 	if *program == "" {
-		fmt.Println("Usage: go run main.go -p boards [-s <chat names> <all> <global>] [-l <leaderboards>] [-mm <mode>]")
-		fmt.Println("Usage: go run main.go -p data [-db <database>] [-m <months>] [-dt <date>] [-mm <mode>]")
-		// If no month or time period is specified it checks the current month
-		fmt.Println("Usage: go run main.go -p renamed [-rename <oldName:newName>]")
+		logs.Logs().Info().Msg("Usage: go run main.go -p boards [-s <chat names> <all> <global>] [-l <leaderboards>] [-mm <mode>]")
+		logs.Logs().Info().Msg("Usage: go run main.go -p data [-db <database>] [-m <months>] [-dt <date>] [-mm <mode>]")
+		logs.Logs().Info().Msg("Usage: If no month or time period is specified it checks the current month")
+		logs.Logs().Info().Msg("Usage: go run main.go -p renamed [-rename <oldName:newName>]")
 		return
 	}
 
 	if *mode != "" && !isValidModeForProgram(*program, *mode) {
-		fmt.Println("Invalid mode specified for the program or the program doesn't have different modes.")
+		logs.Logs().Warn().Msg("Invalid mode specified for the program or the program doesn't have different modes")
 		return
 	}
 
 	switch *program {
 	case "boards":
-		fmt.Printf("Running %s program", *program)
 		if *mode != "" {
-			fmt.Printf(" in mode '%s'", *mode)
+			logs.Logs().Info().Msgf("Running %s program in mode '%s'...", *program, *mode)
+		} else {
+			logs.Logs().Info().Msgf("Running %s program...", *program)
 		}
-		fmt.Println("...")
 		leaderboards.Leaderboards(*leaderboard, *chatNames, *mode)
 		// Modes: "check", only prints new / updated type and weight records
 
 	case "data":
-		fmt.Printf("Running %s program", *program)
 		if *mode != "" {
-			fmt.Printf(" in mode '%s'", *mode)
+			logs.Logs().Info().Msgf("Running %s program in mode '%s'...", *program, *mode)
+		} else {
+			logs.Logs().Info().Msgf("Running %s program...", *program)
 		}
-		fmt.Println("...")
 		data.GetData(*chatNames, *db, *numMonths, *monthYear, *mode)
 		// Modes: "a" for fishdatafetch.
 		// Adds every fish caught to FishData instead of just the new ones and inserts the missing fish into the db.
@@ -58,28 +58,28 @@ func main() {
 		// Adds all the existing lines from the tournamentlogs to newResults, inserts the missing results into the db and then returns.
 
 	case "pattern":
-		fmt.Printf("Running %s program...\n", *program)
+		logs.Logs().Info().Msgf("Running %s program...", *program)
 		scripts.RunPattern()
 
 	case "renamed":
-		fmt.Printf("Running %s program...\n", *program)
+		logs.Logs().Info().Msgf("Running %s program...", *program)
 		namePairs, err := scripts.ProcessRenamePairs(*renamePairs)
 		if err != nil {
-			fmt.Println("Error processing rename pairs:", err)
+			logs.Logs().Error().Err(err).Msg("Error processing rename pairs")
 			return
 		}
 		err = scripts.UpdatePlayerNames(namePairs)
 		if err != nil {
-			fmt.Println("Error updating player names:", err)
+			logs.Logs().Error().Err(err).Msg("Error updating player names")
 			return
 		}
 
 	case "verified":
-		fmt.Printf("Running %s program...\n", *program)
+		logs.Logs().Info().Msgf("Running %s program...", *program)
 		scripts.VerifiedPlayers()
 
 	default:
-		fmt.Println("Invalid program specified.")
+		logs.Logs().Warn().Msg("Invalid program specified")
 		return
 	}
 }

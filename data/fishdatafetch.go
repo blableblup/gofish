@@ -3,10 +3,9 @@ package data
 import (
 	"context"
 	"database/sql"
-	"fmt"
+	"gofish/logs"
 	"gofish/playerdata"
 	"gofish/utils"
-	"log"
 	"regexp"
 	"time"
 
@@ -28,7 +27,7 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 
 		if err := fasthttp.Do(req, resp); err != nil {
 			// Log the error and retry
-			log.Printf("Error fetching fish data from URL %s: %v\n", url, err)
+			logs.Logs().Error().Err(err).Msgf("Error fetching fish data from URL: %s", url)
 			time.Sleep(retryDelay)
 			retryDelay *= 5
 			continue
@@ -37,7 +36,7 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 		// Check for HTTP error status codes
 		if resp.StatusCode() != fasthttp.StatusOK {
 			// Log the error and retry
-			log.Printf("Unexpected HTTP status code %d for URL: %s\n", resp.StatusCode(), url)
+			logs.Logs().Error().Msgf("Unexpected HTTP status code %d for URL: %s", resp.StatusCode(), url)
 			time.Sleep(retryDelay)
 			retryDelay *= 5
 			continue
@@ -65,7 +64,7 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 			var err error
 			latestCatchDate, err = getLatestCatchDateFromDatabase(ctx, pool, chatName)
 			if err != nil {
-				log.Fatalf("Error while retrieving latest catch date for chat '%s': %v", chatName, err)
+				logs.Logs().Fatal().Err(err).Msgf("Error while retrieving latest catch date for chat '%s'", chatName)
 			}
 		}
 
@@ -106,12 +105,12 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 
 		}
 
-		fmt.Println("Finished storing fish for", url)
+		logs.Logs().Info().Msgf("Finished storing fish for %s", url)
 		return fishData, nil // Return successfully fetched data
 	}
 
 	// Log the error and stop the entire program
-	log.Fatalf("Reached maximum retries, unable to fetch fish data from URL: %s", url)
+	logs.Logs().Fatal().Msgf("Reached maximum retries, unable to fetch fish data from URL: %s", url)
 	return nil, nil
 }
 

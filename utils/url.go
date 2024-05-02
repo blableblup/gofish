@@ -2,6 +2,7 @@ package utils
 
 import (
 	"fmt"
+	"gofish/logs"
 	"os"
 	"path/filepath"
 	"strconv"
@@ -15,7 +16,7 @@ func CreateURL(chatName string, numMonths int, monthYear string) []string {
 	// Get the current working directory
 	wd, err := os.Getwd()
 	if err != nil {
-		fmt.Println("Error getting current working directory:", err)
+		logs.Logs().Error().Err(err).Msg("Error getting current working directory")
 		os.Exit(1)
 	}
 
@@ -32,17 +33,17 @@ func CreateURL(chatName string, numMonths int, monthYear string) []string {
 	if monthYear != "" {
 		parts := strings.Split(monthYear, "/")
 		if len(parts) != 2 {
-			fmt.Println("Invalid month/year format. Please use 'yyyy/mm' format.")
+			logs.Logs().Error().Err(err).Msg("Invalid month/year format. Please use 'yyyy/mm' format.")
 			os.Exit(1)
 		}
 		year, err := strconv.Atoi(parts[0])
 		if err != nil {
-			fmt.Println("Invalid year:", err)
+			logs.Logs().Error().Err(err).Msg("Invalid year")
 			os.Exit(1)
 		}
 		month, err := strconv.Atoi(parts[1])
 		if err != nil || month < 1 || month > 12 {
-			fmt.Println("Invalid month:", err)
+			logs.Logs().Error().Err(err).Msg("Invalid month")
 			os.Exit(1)
 		}
 		now = time.Date(year, time.Month(month), 1, 0, 0, 0, 0, time.UTC)
@@ -59,11 +60,11 @@ func CreateURL(chatName string, numMonths int, monthYear string) []string {
 		// Check if gofish was added to the channel first
 		if logsAdded, err := time.Parse("2006/1", config.Chat[chatName].LogsAdded); err == nil {
 			if firstOfMonth.Before(logsAdded) {
-				fmt.Printf("Breaking at %d/%d because gofish was not added yet in chat '%s'\n", year, month, chatName)
+				logs.Logs().Info().Msgf("Breaking at %d/%d because gofish was not added yet in chat '%s'", year, month, chatName)
 				break
 			}
 		} else {
-			fmt.Println("Error parsing LogsAdded:", err)
+			logs.Logs().Error().Err(err).Msg("Error parsing LogsAdded")
 		}
 
 		// Check if the current month is within September 2023
@@ -71,8 +72,8 @@ func CreateURL(chatName string, numMonths int, monthYear string) []string {
 			// Use both the old and new logs hosts
 			urlOld := fmt.Sprintf("%s%d/%d?", config.Chat[chatName].LogsHostOld, year, int(month))
 			urlNew := fmt.Sprintf("%s%d/%d?", config.Chat[chatName].LogsHost, year, int(month))
-			fmt.Println("Fetching data from supibot:", urlOld)    // Print the URL being used for old logs host
-			fmt.Println("Fetching data from gofishgame:", urlNew) // Print the URL being used for new logs host
+			logs.Logs().Info().Msgf("Fetching data from supibot: %s", urlOld)
+			logs.Logs().Info().Msgf("Fetching data from gofishgame: %s", urlNew)
 			urls = append(urls, urlOld, urlNew)
 		} else {
 			// Check if the current month is before the logs host change
@@ -80,15 +81,15 @@ func CreateURL(chatName string, numMonths int, monthYear string) []string {
 				// Use the old logs host if it's not empty
 				if config.Chat[chatName].LogsHostOld != "" {
 					url := fmt.Sprintf("%s%d/%d?", config.Chat[chatName].LogsHostOld, year, int(month))
-					fmt.Println("Fetching data from supibot:", url) // Print the URL being used
+					logs.Logs().Info().Msgf("Fetching data from supibot: %s", url)
 					urls = append(urls, url)
 				} else {
-					fmt.Println("There is no old logs host specified. Skipping...")
+					logs.Logs().Warn().Msg("There is no old logs host specified. Skipping...")
 				}
 			} else {
 				// Use the current logs host
 				url := fmt.Sprintf("%s%d/%d?", config.Chat[chatName].LogsHost, year, int(month))
-				fmt.Println("Fetching data from gofishgame:", url) // Print the URL being used
+				logs.Logs().Info().Msgf("Fetching data from gofishgame: %s", url)
 				urls = append(urls, url)
 			}
 		}

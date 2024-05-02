@@ -3,6 +3,7 @@ package data
 import (
 	"context"
 	"fmt"
+	"gofish/logs"
 	"gofish/playerdata"
 	"gofish/utils"
 	"os"
@@ -18,7 +19,7 @@ func GetData(chatNames, data string, numMonths int, monthYear string, mode strin
 	// Get the current working directory
 	wd, err := os.Getwd()
 	if err != nil {
-		fmt.Println("Error getting current working directory:", err)
+		logs.Logs().Error().Err(err).Msg("Error getting current working directory")
 		os.Exit(1)
 	}
 
@@ -27,7 +28,7 @@ func GetData(chatNames, data string, numMonths int, monthYear string, mode strin
 
 	pool, err := Connect()
 	if err != nil {
-		fmt.Println("Error connecting to the database:", err)
+		logs.Logs().Error().Err(err).Msg("Error connecting to the database")
 		return
 	}
 	defer pool.Close()
@@ -41,7 +42,7 @@ func GetData(chatNames, data string, numMonths int, monthYear string, mode strin
 		GetFishData(config, pool, chatNames, numMonths, monthYear, mode)
 		GetTournamentData(config, pool, chatNames, numMonths, monthYear, mode)
 	default:
-		fmt.Println("Please specify a valid database type.")
+		logs.Logs().Warn().Msg("Please specify a valid database type")
 	}
 }
 
@@ -52,11 +53,11 @@ func GetFishData(config utils.Config, pool *pgxpool.Pool, chatNames string, numM
 		var wg sync.WaitGroup
 		fishChan := make(chan []FishInfo)
 
-		fmt.Printf("Checking new fish data.\n")
+		logs.Logs().Info().Msgf("Checking new fish data")
 		for chatName, chat := range config.Chat {
 			if !chat.CheckEnabled {
 				if chatName != "global" {
-					fmt.Printf("Skipping chat '%s' because check_enabled is false.\n", chatName)
+					logs.Logs().Info().Msgf("Skipping chat '%s' because check_enabled is false.", chatName)
 				}
 				continue
 			}
@@ -86,11 +87,11 @@ func GetFishData(config utils.Config, pool *pgxpool.Pool, chatNames string, numM
 		})
 
 		if err := insertFishDataIntoDB(allFish, pool, mode); err != nil {
-			fmt.Println("Error inserting fish data into database:", err)
+			logs.Logs().Error().Err(err).Msg("Error inserting fish data into database")
 			return
 		}
 	default:
-		fmt.Println("Please specify 'all' for chat names.") // For now only check "all" chats
+		logs.Logs().Warn().Msg("Please specify 'all' for chat names") // For now only check "all" chats
 	}
 }
 
@@ -107,7 +108,7 @@ func ProcessFishData(urls []string, chatName string, Chat utils.ChatInfo, pool *
 			defer wg.Done()
 			fishData, err := FishData(url, chatName, allFish, pool, mode)
 			if err != nil {
-				fmt.Println("Error fetching fish data:", err)
+				logs.Logs().Error().Err(err).Msg("Error fetching fish data")
 				return
 			}
 			mu.Lock()
@@ -221,9 +222,9 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, mode string) e
 
 	for chat, count := range newFishCounts {
 		if count > 0 {
-			fmt.Printf("Successfully inserted %d new fish into the database for chat '%s'.\n", count, chat)
+			logs.Logs().Info().Msgf("Successfully inserted %d new fish into the database for chat '%s'", count, chat)
 		} else {
-			fmt.Printf("No new fish found to insert into the database for chat '%s'.\n", chat)
+			logs.Logs().Info().Msgf("No new fish found to insert into the database for chat '%s'", chat)
 		}
 	}
 
@@ -243,7 +244,7 @@ func addFishType(pool *pgxpool.Pool, fishType string) error {
 	}
 
 	if !exists {
-		fmt.Printf("New fish type '%s' detected. Please enter the fish name: ", fishType)
+		logs.Logs().Info().Msgf("New fish type '%s' detected. Please enter the fish name: ", fishType)
 		var fishName string
 		fmt.Scanln(&fishName)
 
@@ -252,7 +253,7 @@ func addFishType(pool *pgxpool.Pool, fishType string) error {
 			return err
 		}
 
-		fmt.Printf("New fish type '%s' added to the database with name '%s'.\n", fishType, fishName)
+		logs.Logs().Info().Msgf("New fish type '%s' added to the database with name '%s'", fishType, fishName)
 	}
 
 	return nil
