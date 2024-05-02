@@ -14,6 +14,7 @@ import (
 
 func processWeight(params LeaderboardParams) {
 	chatName := params.ChatName
+	config := params.Config
 	mode := params.Mode
 	pool := params.Pool
 	chat := params.Chat
@@ -28,7 +29,7 @@ func processWeight(params LeaderboardParams) {
 
 	Weightlimit := chat.Weightlimit
 	if Weightlimit == 0 {
-		Weightlimit = 200 // Set the default weight limit if not specified
+		Weightlimit = config.Chat["default"].Weightlimit
 	}
 
 	// Create maps to store updated records

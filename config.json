@@ -18,7 +18,13 @@
         "weight_limit": 270,
         "totalcount_limit": 300,
         "check_enabled": false
-    }
+      },
+      "default": {
+        "weight_limit": 200,
+        "totalcount_limit": 100,
+        "fishweek_limit": 20,
+        "check_enabled": false
+      }
   }
 }
   
