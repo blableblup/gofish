@@ -3,6 +3,7 @@ package leaderboards
 import (
 	"context"
 	"fmt"
+	"gofish/logs"
 	"os"
 	"path/filepath"
 )
@@ -10,19 +11,6 @@ import (
 func processTrophy(params LeaderboardParams) {
 	chatName := params.ChatName
 	pool := params.Pool
-
-	wd, err := os.Getwd()
-	if err != nil {
-		fmt.Println("Error getting current working directory:", err)
-		os.Exit(1)
-	}
-
-	logsFilePath := filepath.Join(wd, "data", chatName, "tournamentlogs.txt")
-	logs, err := os.Open(logsFilePath)
-	if err != nil {
-		panic(err)
-	}
-	defer logs.Close()
 
 	playerCounts := make(map[string]LeaderboardInfo)
 
@@ -42,7 +30,7 @@ func processTrophy(params LeaderboardParams) {
             SUM(CASE WHEN placement IN (2) THEN 1 ELSE 0 END) +
             SUM(CASE WHEN placement IN (3) THEN 1 ELSE 0 END)) > 0`)
 	if err != nil {
-		fmt.Println("Error querying database:", err)
+		logs.Logs().Error().Err(err).Msg("Error querying database")
 		return
 	}
 	defer rows.Close()
@@ -51,14 +39,14 @@ func processTrophy(params LeaderboardParams) {
 		var playerid, trophycount, silvercount, bronzecount int
 
 		if err := rows.Scan(&playerid, &trophycount, &silvercount, &bronzecount); err != nil {
-			fmt.Println("Error scanning row:", err)
+			logs.Logs().Error().Err(err).Msg("Error scanning row")
 			continue
 		}
 
 		var playerName string
 		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", playerid).Scan(&playerName)
 		if err != nil {
-			fmt.Printf("Error retrieving player name for id '%d':\n", playerid)
+			logs.Logs().Error().Err(err).Msgf("Error retrieving player name for id '%d'", playerid)
 			continue
 		}
 
@@ -70,7 +58,7 @@ func processTrophy(params LeaderboardParams) {
 	}
 
 	if err := rows.Err(); err != nil {
-		fmt.Println("Error iterating over query results:", err)
+		logs.Logs().Error().Err(err).Msg("Error iterating over query results")
 		return
 	}
 
@@ -79,16 +67,16 @@ func processTrophy(params LeaderboardParams) {
 
 	oldTrophy, err := ReadOldTrophyRankings(filePath, pool)
 	if err != nil {
-		fmt.Println("Error reading old trophy leaderboard:", err)
+		logs.Logs().Error().Err(err).Msg("Error reading old trophy leaderboard")
 		return
 	}
 
-	fmt.Printf("Updating trophies leaderboard for chat '%s'...\n", chatName)
+	logs.Logs().Info().Msgf("Updating trophies leaderboard for chat '%s'...", chatName)
 	err = writeTrophy(filePath, playerCounts, oldTrophy, titletrophies)
 	if err != nil {
-		fmt.Println("Error writing trophies leaderboard:", err)
+		logs.Logs().Error().Err(err).Msg("Error writing trophies leaderboard")
 	} else {
-		fmt.Println("Trophies leaderboard updated successfully.")
+		logs.Logs().Info().Msg("Trophies leaderboard updated successfully")
 	}
 }
 

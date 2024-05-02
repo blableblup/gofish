@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"gofish/data"
+	"gofish/logs"
 	"gofish/playerdata"
 	"gofish/utils"
 	"os"
@@ -21,7 +22,7 @@ func processWeight(params LeaderboardParams) {
 
 	oldRecordWeight, err := ReadWeightRankings(filePath, pool)
 	if err != nil {
-		fmt.Println("Error reading old weight leaderboard:", err)
+		logs.Logs().Error().Err(err).Msg("Error reading old weight leaderboard")
 		return
 	}
 
@@ -45,7 +46,7 @@ func processWeight(params LeaderboardParams) {
 		) max_fish ON f.playerid = max_fish.playerid AND f.weight = max_fish.max_weight
 		WHERE f.chat = $1 AND f.weight >= $2`, chatName, Weightlimit)
 	if err != nil {
-		fmt.Println("Error querying database:", err)
+		logs.Logs().Error().Err(err).Msg("Error querying database")
 		return
 	}
 	defer rows.Close()
@@ -66,7 +67,7 @@ func processWeight(params LeaderboardParams) {
 		var playerName string
 		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", playerid).Scan(&playerName)
 		if err != nil {
-			fmt.Printf("Error retrieving player name for id '%d':\n", playerid)
+			logs.Logs().Error().Err(err).Msgf("Error retrieving player name for id '%d'", playerid)
 			continue
 		}
 
@@ -84,7 +85,7 @@ func processWeight(params LeaderboardParams) {
 	}
 
 	if err := rows.Err(); err != nil {
-		fmt.Println("Error iterating over query results:", err)
+		logs.Logs().Error().Err(err).Msg("Error iterating over query results")
 		return
 	}
 
@@ -93,11 +94,29 @@ func processWeight(params LeaderboardParams) {
 		oldWeightRecord, exists := oldRecordWeight[playerName]
 		if !exists {
 			recordWeight[playerName] = newWeightRecord
-			fmt.Println("New Record Weight for Player", playerName+":", newWeightRecord)
+			logs.Logs().Info().
+				Str("Date", newWeightRecord.Date.Format(time.RFC3339)).
+				Str("Chat", newWeightRecord.Chat).
+				Float64("Weight", newWeightRecord.Weight).
+				Str("TypeName", newWeightRecord.TypeName).
+				Str("FishType", newWeightRecord.Type).
+				Str("Player", playerName).
+				Int("ChatID", newWeightRecord.ChatId).
+				Int("FishID", newWeightRecord.FishId).
+				Msg("New Record Weight for Player")
 		} else {
 			if newWeightRecord.Weight > oldWeightRecord.Weight {
 				recordWeight[playerName] = newWeightRecord
-				fmt.Println("Updated Record Weight for Player", playerName+":", newWeightRecord)
+				logs.Logs().Info().
+					Str("Date", newWeightRecord.Date.Format(time.RFC3339)).
+					Str("Chat", newWeightRecord.Chat).
+					Float64("Weight", newWeightRecord.Weight).
+					Str("TypeName", newWeightRecord.TypeName).
+					Str("FishType", newWeightRecord.Type).
+					Str("Player", playerName).
+					Int("ChatID", newWeightRecord.ChatId).
+					Int("FishID", newWeightRecord.FishId).
+					Msg("Updated Record Weight for Player")
 			} else {
 				recordWeight[playerName] = ConvertToFishInfo(oldWeightRecord)
 			}
@@ -106,19 +125,19 @@ func processWeight(params LeaderboardParams) {
 
 	// Stops the program if it is in "just checking" mode
 	if mode == "check" {
-		fmt.Printf("Finished checking for new weight records for chat '%s'.\n", chatName)
+		logs.Logs().Info().Msgf("Finished checking for new weight records for chat '%s'", chatName)
 		return
 	}
 
 	titleweight := fmt.Sprintf("### Biggest fish caught per player in %s's chat\n", chatName)
 	isGlobal := false
 
-	fmt.Printf("Updating weight leaderboard for chat '%s' with weight threshold %f...\n", chatName, Weightlimit)
+	logs.Logs().Info().Msgf("Updating weight leaderboard for chat '%s' with weight threshold %f...", chatName, Weightlimit)
 	err = writeWeight(filePath, recordWeight, oldRecordWeight, titleweight, isGlobal)
 	if err != nil {
-		fmt.Printf("Error writing weight leaderboard for chat '%s': %v\n", chatName, err)
+		logs.Logs().Error().Err(err).Msgf("Error writing weight leaderboard for chat '%s'", chatName)
 	} else {
-		fmt.Printf("Weight leaderboard updated successfully for chat '%s'\n", chatName)
+		logs.Logs().Info().Msgf("Weight leaderboard updated successfully for chat '%s'\n", chatName)
 	}
 }
 

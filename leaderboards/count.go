@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"gofish/data"
+	"gofish/logs"
 	"gofish/playerdata"
 	"gofish/utils"
 	"os"
@@ -19,7 +20,7 @@ func processCount(params LeaderboardParams) {
 	filePath := filepath.Join("leaderboards", chatName, "count.md")
 	oldCountRecord, err := ReadTotalcountRankings(filePath, pool)
 	if err != nil {
-		fmt.Println("Error reading old count leaderboard:", err)
+		logs.Logs().Error().Err(err).Msg("Error reading old count leaderboard")
 		return
 	}
 
@@ -36,24 +37,24 @@ func processCount(params LeaderboardParams) {
 	  GROUP BY playerid
 	  HAVING COUNT(*) >= $2`, chatName, Totalcountlimit)
 	if err != nil {
-		fmt.Println("Error querying database:", err)
+		logs.Logs().Error().Err(err).Msg("Error querying database")
 		return
 	}
 	defer rows.Close()
 
 	fishCaught := make(map[string]data.FishInfo)
-	// Iterate through the query results and store fish count for each player
+
 	for rows.Next() {
 		var fishInfo data.FishInfo
 		if err := rows.Scan(&fishInfo.PlayerID, &fishInfo.Count); err != nil {
-			fmt.Println("Error scanning row:", err)
+			logs.Logs().Error().Err(err).Msg("Error scanning row")
 			continue
 		}
-		// Retrieve player name from the playerdata table
+
 		var playerName string
 		err := pool.QueryRow(context.Background(), "SELECT name, firstfishdate FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&playerName, &fishInfo.Date)
 		if err != nil {
-			fmt.Printf("Error retrieving player name for id '%d':\n", fishInfo.PlayerID)
+			logs.Logs().Error().Err(err).Msgf("Error retrieving player name for id '%d'", fishInfo.PlayerID)
 		}
 		if fishInfo.Date.Before(time.Date(2023, time.September, 14, 0, 0, 0, 0, time.UTC)) {
 			fishInfo.Bot = "supibot"
@@ -65,12 +66,12 @@ func processCount(params LeaderboardParams) {
 	titletotalcount := fmt.Sprintf("### Most fish caught in %s's chat\n", chatName)
 	isGlobal, isType, isFishw := false, false, false
 
-	fmt.Printf("Updating totalcount leaderboard for chat '%s' with count threshold %d...\n", chatName, Totalcountlimit)
+	logs.Logs().Info().Msgf("Updating totalcount leaderboard for chat '%s' with count threshold %d...", chatName, Totalcountlimit)
 	err = writeCount(filePath, fishCaught, oldCountRecord, titletotalcount, isGlobal, isType, isFishw)
 	if err != nil {
-		fmt.Println("Error writing totalcount leaderboard:", err)
+		logs.Logs().Error().Err(err).Msg("Error writing totalcount leaderboard")
 	} else {
-		fmt.Println("Totalcount leaderboard updated successfully.")
+		logs.Logs().Info().Msg("Totalcount leaderboard updated successfully.")
 	}
 }
 

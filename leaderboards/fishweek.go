@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	"gofish/data"
-	"os"
+	"gofish/logs"
 	"path/filepath"
 	"time"
 )
@@ -13,19 +13,6 @@ func processFishweek(params LeaderboardParams) {
 	chatName := params.ChatName
 	chat := params.Chat
 	pool := params.Pool
-
-	wd, err := os.Getwd()
-	if err != nil {
-		fmt.Println("Error getting current working directory:", err)
-		os.Exit(1)
-	}
-
-	logsFilePath := filepath.Join(wd, "data", chatName, "tournamentlogs.txt")
-	logs, err := os.Open(logsFilePath)
-	if err != nil {
-		panic(err)
-	}
-	defer logs.Close()
 
 	fishweekLimit := chat.Fishweeklimit
 	if fishweekLimit == 0 {
@@ -44,7 +31,7 @@ func processFishweek(params LeaderboardParams) {
 	) max_t ON t.playerid = max_t.playerid AND t.fishcaught = max_t.max_count
 	WHERE t.chat = $1 AND max_count >= $2`, chatName, fishweekLimit)
 	if err != nil {
-		fmt.Println("Error querying database:", err)
+		logs.Logs().Error().Err(err).Msg("Error querying database")
 		return
 	}
 	defer rows.Close()
@@ -55,14 +42,14 @@ func processFishweek(params LeaderboardParams) {
 		var playerid, count int
 
 		if err := rows.Scan(&playerid, &count, &bot, &date); err != nil {
-			fmt.Println("Error scanning row:", err)
+			logs.Logs().Error().Err(err).Msg("Error scanning row")
 			continue
 		}
 
 		var playerName string
 		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", playerid).Scan(&playerName)
 		if err != nil {
-			fmt.Printf("Error retrieving player name for id '%d':\n", playerid)
+			logs.Logs().Error().Err(err).Msgf("Error retrieving player name for id '%d'", playerid)
 			continue
 		}
 
@@ -74,7 +61,7 @@ func processFishweek(params LeaderboardParams) {
 	}
 
 	if err := rows.Err(); err != nil {
-		fmt.Println("Error iterating over query results:", err)
+		logs.Logs().Error().Err(err).Msg("Error iterating over query results")
 		return
 	}
 
@@ -85,15 +72,15 @@ func processFishweek(params LeaderboardParams) {
 
 	oldFishw, err := ReadTotalcountRankings(filePath, pool)
 	if err != nil {
-		fmt.Println("Error reading old fishweek leaderboard:", err)
+		logs.Logs().Error().Err(err).Msg("Error reading old fishweek leaderboard")
 		return
 	}
 
-	fmt.Printf("Updating fishweek leaderboard for chat '%s' with fish count threshold %d...\n", chatName, fishweekLimit)
+	logs.Logs().Info().Msgf("Updating fishweek leaderboard for chat '%s' with fish count threshold %d...", chatName, fishweekLimit)
 	err = writeCount(filePath, maxFishInWeek, oldFishw, titlefishw, isGlobal, isType, isFishw)
 	if err != nil {
-		fmt.Println("Error writing fishweek leaderboard:", err)
+		logs.Logs().Error().Err(err).Msg("Error writing fishweek leaderboard")
 	} else {
-		fmt.Println("Fishweek leaderboard updated successfully.")
+		logs.Logs().Info().Msg("Fishweek leaderboard updated successfully")
 	}
 }
