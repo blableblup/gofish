@@ -15,8 +15,10 @@ import (
 
 func processCount(params LeaderboardParams) {
 	chatName := params.ChatName
+	config := params.Config
 	chat := params.Chat
 	pool := params.Pool
+
 	filePath := filepath.Join("leaderboards", chatName, "count.md")
 	oldCountRecord, err := ReadTotalcountRankings(filePath, pool)
 	if err != nil {
@@ -26,7 +28,7 @@ func processCount(params LeaderboardParams) {
 
 	Totalcountlimit := chat.Totalcountlimit
 	if Totalcountlimit == 0 {
-		Totalcountlimit = 100 // Set the default count limit if not specified
+		Totalcountlimit = config.Chat["default"].Totalcountlimit
 	}
 
 	// Query the database to get the count of fish caught by each player

@@ -11,12 +11,13 @@ import (
 
 func processFishweek(params LeaderboardParams) {
 	chatName := params.ChatName
+	config := params.Config
 	chat := params.Chat
 	pool := params.Pool
 
 	fishweekLimit := chat.Fishweeklimit
 	if fishweekLimit == 0 {
-		fishweekLimit = 20 // Set the default fishweek limit if not specified
+		fishweekLimit = config.Chat["default"].Fishweeklimit
 	}
 
 	maxFishInWeek := make(map[string]data.FishInfo)

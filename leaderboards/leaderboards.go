@@ -80,7 +80,7 @@ func processLeaderboard(config utils.Config, params LeaderboardParams, processFu
 		// Process all chats
 		for chatName, chat := range config.Chat {
 			if !chat.CheckEnabled {
-				if chatName != "global" {
+				if chatName != "global" && chatName != "default" {
 					logs.Logs().Info().Msgf("Skipping chat '%s' because check_enabled is false", chatName)
 				}
 				continue
@@ -105,7 +105,7 @@ func processLeaderboard(config utils.Config, params LeaderboardParams, processFu
 				continue
 			}
 			if !chat.CheckEnabled {
-				if chatName != "global" {
+				if chatName != "global" && chatName != "default" {
 					logs.Logs().Info().Msgf("Skipping chat '%s' because check_enabled is false", chatName)
 				}
 				continue

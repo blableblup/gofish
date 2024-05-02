@@ -56,7 +56,7 @@ func GetFishData(config utils.Config, pool *pgxpool.Pool, chatNames string, numM
 		logs.Logs().Info().Msgf("Checking new fish data")
 		for chatName, chat := range config.Chat {
 			if !chat.CheckEnabled {
-				if chatName != "global" {
+				if chatName != "global" && chatName != "default" {
 					logs.Logs().Info().Msgf("Skipping chat '%s' because check_enabled is false.", chatName)
 				}
 				continue

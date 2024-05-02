@@ -23,7 +23,7 @@ func GetTournamentData(config utils.Config, pool *pgxpool.Pool, chatNames string
 	case "all":
 		for chatName, chat := range config.Chat {
 			if !chat.CheckEnabled {
-				if chatName != "global" {
+				if chatName != "global" && chatName != "default" {
 					logs.Logs().Info().Msgf("Skipping chat '%s' because check_enabled is false", chatName)
 				}
 				continue
@@ -44,7 +44,7 @@ func GetTournamentData(config utils.Config, pool *pgxpool.Pool, chatNames string
 				continue
 			}
 			if !chat.CheckEnabled {
-				if chatName != "global" {
+				if chatName != "global" && chatName != "default" {
 					logs.Logs().Info().Msgf("Skipping chat '%s' because check_enabled is false", chatName)
 				}
 				continue
