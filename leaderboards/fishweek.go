@@ -6,7 +6,6 @@ import (
 	"gofish/data"
 	"gofish/logs"
 	"path/filepath"
-	"time"
 )
 
 func processFishweek(params LeaderboardParams) {
@@ -38,27 +37,20 @@ func processFishweek(params LeaderboardParams) {
 	defer rows.Close()
 
 	for rows.Next() {
-		var bot string
-		var date time.Time
-		var playerid, count int
+		var fishInfo data.FishInfo
 
-		if err := rows.Scan(&playerid, &count, &bot, &date); err != nil {
+		if err := rows.Scan(&fishInfo.PlayerID, &fishInfo.Count, &fishInfo.Bot, &fishInfo.Date); err != nil {
 			logs.Logs().Error().Err(err).Msg("Error scanning row")
 			continue
 		}
 
-		var playerName string
-		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", playerid).Scan(&playerName)
+		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Player)
 		if err != nil {
-			logs.Logs().Error().Err(err).Msgf("Error retrieving player name for id '%d'", playerid)
+			logs.Logs().Error().Err(err).Msgf("Error retrieving player name for id '%d'", fishInfo.PlayerID)
 			continue
 		}
 
-		maxFishInWeek[playerName] = data.FishInfo{
-			Count: count,
-			Bot:   bot,
-			Date:  date,
-		}
+		maxFishInWeek[fishInfo.Player] = fishInfo
 	}
 
 	if err := rows.Err(); err != nil {

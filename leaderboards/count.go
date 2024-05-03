@@ -53,8 +53,7 @@ func processCount(params LeaderboardParams) {
 			continue
 		}
 
-		var playerName string
-		err := pool.QueryRow(context.Background(), "SELECT name, firstfishdate FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&playerName, &fishInfo.Date)
+		err := pool.QueryRow(context.Background(), "SELECT name, firstfishdate FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Player, &fishInfo.Date)
 		if err != nil {
 			logs.Logs().Error().Err(err).Msgf("Error retrieving player name for id '%d'", fishInfo.PlayerID)
 		}
@@ -62,7 +61,7 @@ func processCount(params LeaderboardParams) {
 			fishInfo.Bot = "supibot"
 		}
 
-		fishCaught[playerName] = fishInfo
+		fishCaught[fishInfo.Player] = fishInfo
 	}
 
 	titletotalcount := fmt.Sprintf("### Most fish caught in %s's chat\n", chatName)

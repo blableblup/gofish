@@ -54,35 +54,22 @@ func processWeight(params LeaderboardParams) {
 
 	// Iterate through the query results
 	for rows.Next() {
-		var fishType, typeName, bot, catchtype, chatname string
-		var date time.Time
-		var playerid, fishid, chatid int
-		var weight float64
+		var fishInfo data.FishInfo
 
-		if err := rows.Scan(&playerid, &weight, &fishType, &typeName, &bot, &chatname, &date, &catchtype, &fishid, &chatid); err != nil {
+		if err := rows.Scan(&fishInfo.PlayerID, &fishInfo.Weight, &fishInfo.Type, &fishInfo.TypeName, &fishInfo.Bot,
+			&fishInfo.Chat, &fishInfo.Date, &fishInfo.CatchType, &fishInfo.FishId, &fishInfo.ChatId); err != nil {
 			fmt.Println("Error scanning row:", err)
 			continue
 		}
 
-		// Retrieve player name from the playerdata table
-		var playerName string
-		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", playerid).Scan(&playerName)
+		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Player)
 		if err != nil {
-			logs.Logs().Error().Err(err).Msgf("Error retrieving player name for id '%d'", playerid)
+			logs.Logs().Error().Err(err).Msgf("Error retrieving player name for id '%d'", fishInfo.PlayerID)
 			continue
 		}
 
-		newRecordWeight[playerName] = data.FishInfo{
-			Weight:    weight,
-			Type:      fishType,
-			TypeName:  typeName,
-			Bot:       bot,
-			Date:      date,
-			CatchType: catchtype,
-			Chat:      chatname,
-			FishId:    fishid,
-			ChatId:    chatid,
-		}
+		newRecordWeight[fishInfo.Player] = fishInfo
+
 	}
 
 	if err := rows.Err(); err != nil {
