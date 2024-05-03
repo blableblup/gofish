@@ -66,10 +66,10 @@ func processCount(params LeaderboardParams) {
 	}
 
 	titletotalcount := fmt.Sprintf("### Most fish caught in %s's chat\n", chatName)
-	isGlobal, isType, isFishw := false, false, false
+	isGlobal, isType := false, false
 
 	logs.Logs().Info().Msgf("Updating totalcount leaderboard for chat '%s' with count threshold %d...", chatName, Totalcountlimit)
-	err = writeCount(filePath, fishCaught, oldCountRecord, titletotalcount, isGlobal, isType, isFishw)
+	err = writeCount(filePath, fishCaught, oldCountRecord, titletotalcount, isGlobal, isType)
 	if err != nil {
 		logs.Logs().Error().Err(err).Msg("Error writing totalcount leaderboard")
 	} else {
@@ -77,7 +77,7 @@ func processCount(params LeaderboardParams) {
 	}
 }
 
-func writeCount(filePath string, fishCaught map[string]data.FishInfo, oldCountRecord map[string]LeaderboardInfo, title string, isGlobal bool, isType bool, isFishw bool) error {
+func writeCount(filePath string, fishCaught map[string]data.FishInfo, oldCountRecord map[string]LeaderboardInfo, title string, isGlobal bool, isType bool) error {
 
 	// Ensure that the directory exists before attempting to create the file
 	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
@@ -200,19 +200,6 @@ func writeCount(filePath string, fishCaught map[string]data.FishInfo, oldCountRe
 
 		prevCount = Count
 		prevRank = rank
-	}
-
-	if !isType && !isFishw {
-		_, err = fmt.Fprintln(file, "\n_* = The player caught their first fish on supibot and did not migrate their data to gofishgame. Because of that their data was not individually verified to be accurate._")
-		if err != nil {
-			return err
-		}
-	}
-	if isFishw {
-		_, err = fmt.Fprintln(file, "\n_* = The fish were caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate._")
-		if err != nil {
-			return err
-		}
 	}
 
 	return nil

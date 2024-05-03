@@ -246,10 +246,5 @@ func writeType(filePath string, recordType map[string]data.FishInfo, oldType map
 		prevRank = rank
 	}
 
-	_, err = fmt.Fprintln(file, "\n_* = The fish was caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate._")
-	if err != nil {
-		return err
-	}
-
 	return nil
 }
