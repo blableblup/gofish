@@ -3,6 +3,8 @@ gofish made by [breadworms](https://www.twitch.tv/breadworms)
 
 [gofish.juliapixel](https://gofish.juliapixel.com/) website with the leaderboards
 
+_The leaderboards are updated every sunday_
+
 ## Chats being covered 👥
 | Chat | Emoji | Leaderboards | Data stored | Logs |
 |---| --- | --- | --- | --- |
@@ -16,4 +18,4 @@ The data for psp1g's chat from the 12th of December 2023 to the 14th of December
 
 There might have been other times where the logs were down but I only noticed those two periods so far
 
-_The leaderboards are updated every sunday_
+>The * next to a player's name on the leaderboard indicates that they did not migrate their supibot data to gofishgame. Thus, their supibot records are marked with an asterisk because they were not verified for accuracy.

@@ -69,7 +69,6 @@ func processFishweek(params LeaderboardParams) {
 	titlefishw := fmt.Sprintf("### Most fish caught in a single week in tournaments in %s's chat\n", chatName)
 	filePath := filepath.Join("leaderboards", chatName, "fishweek.md")
 	isGlobal, isType := false, false
-	isFishw := true
 
 	oldFishw, err := ReadTotalcountRankings(filePath, pool)
 	if err != nil {
@@ -78,7 +77,7 @@ func processFishweek(params LeaderboardParams) {
 	}
 
 	logs.Logs().Info().Msgf("Updating fishweek leaderboard for chat '%s' with fish count threshold %d...", chatName, fishweekLimit)
-	err = writeCount(filePath, maxFishInWeek, oldFishw, titlefishw, isGlobal, isType, isFishw)
+	err = writeCount(filePath, maxFishInWeek, oldFishw, titlefishw, isGlobal, isType)
 	if err != nil {
 		logs.Logs().Error().Err(err).Msg("Error writing fishweek leaderboard")
 	} else {
