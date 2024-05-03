@@ -138,6 +138,7 @@ func writeTrophy(filePath string, playerCounts map[string]LeaderboardInfo, oldTr
 		trophiesDifference := playerCounts[player].Trophy - oldTrophy[player].Trophy
 		silverDifference := playerCounts[player].Silver - oldTrophy[player].Silver
 		bronzeDifference := playerCounts[player].Bronze - oldTrophy[player].Bronze
+		pointsDifference := totalPoints[player] - oldTrophy[player].Points
 
 		trophyCount := fmt.Sprintf("%d", playerCounts[player].Trophy)
 		if trophiesDifference > 0 {
@@ -154,9 +155,14 @@ func writeTrophy(filePath string, playerCounts map[string]LeaderboardInfo, oldTr
 			bronzeCount += fmt.Sprintf(" (+%d)", bronzeDifference)
 		}
 
+		newpoints := fmt.Sprintf("%.1f", totalPoints[player])
+		if pointsDifference > 0 {
+			newpoints += fmt.Sprintf(" (+%.1f)", pointsDifference)
+		}
+
 		ranks := Ranks(rank)
 
-		_, err = fmt.Fprintf(file, "| %s %s| %s | %s | %s | %s | %.1f |\n", ranks, changeEmoji, player, trophyCount, silverCount, bronzeCount, totalPoints[player])
+		_, err = fmt.Fprintf(file, "| %s %s| %s | %s | %s | %s | %s |\n", ranks, changeEmoji, player, trophyCount, silverCount, bronzeCount, newpoints)
 		if err != nil {
 			return err
 		}

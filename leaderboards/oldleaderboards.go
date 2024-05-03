@@ -18,6 +18,7 @@ type LeaderboardInfo struct {
 	Trophy int
 	Silver int
 	Bronze int
+	Points float64
 	Rank   int
 	Count  int
 	Weight float64
@@ -72,12 +73,15 @@ func ReadOldTrophyRankings(filePath string, pool *pgxpool.Pool) (map[string]Lead
 			silverMedals, _ := strconv.Atoi(strings.Split(silverMedalsStr, " ")[0])
 			bronzeMedalsStr := strings.TrimSpace(parts[5])
 			bronzeMedals, _ := strconv.Atoi(strings.Split(bronzeMedalsStr, " ")[0])
+			pointsStr := strings.TrimSpace(parts[6])
+			points, _ := strconv.ParseFloat(strings.Split(pointsStr, " ")[0], 64)
 
 			oldLeaderboardTrophy[player] = LeaderboardInfo{
 				Rank:   rank,
 				Trophy: trophies,
 				Silver: silverMedals,
 				Bronze: bronzeMedals,
+				Points: points,
 			}
 		}
 	}
