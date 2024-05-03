@@ -59,13 +59,6 @@ func GetTournamentData(config utils.Config, pool *pgxpool.Pool, chatNames string
 
 func fetchMatchingLines(chatName string, pool *pgxpool.Pool, urls []string, mode string) {
 
-	logFilePath := filepath.Join("data", chatName, "tournamentlogs.txt")
-
-	if err := os.MkdirAll(filepath.Dir(logFilePath), 0755); err != nil {
-		logs.Logs().Error().Err(err).Msg("Error creating directory")
-		return
-	}
-
 	// Fetch matching lines from each URL
 	matchingLines := make([]string, 0)
 	if mode != "insertall" {
@@ -103,9 +96,10 @@ func fetchMatchingLines(chatName string, pool *pgxpool.Pool, urls []string, mode
 	}
 
 	// Ensure directory exists
+	logFilePath := filepath.Join("data", chatName, "tournamentlogs.txt")
 	err := os.MkdirAll(filepath.Dir(logFilePath), 0755)
 	if err != nil {
-		logs.Logs().Error().Err(err).Msg("Error creating folder")
+		logs.Logs().Error().Err(err).Msg("Error creating directory")
 		return
 	}
 
@@ -215,7 +209,8 @@ func insertTDataIntoDB(newResults []string, chatName string, mode string, pool *
 			WHERE EXTRACT(year FROM date) = EXTRACT(year FROM $1::timestamp)
 			AND EXTRACT(month FROM date) = EXTRACT(month FROM $2::timestamp)
 			AND player = $3 AND fishcaught = $4 AND placement1 = $5 AND totalweight = $6 AND placement2 = $7 AND biggestfish = $8 AND placement3 = $9
-		`, result.Date, result.Date, result.Player, result.FishCaught, result.FishPlacement, result.TotalWeight, result.WeightPlacement, result.BiggestFish, result.BiggestFishPlacement).Scan(&count)
+		`, result.Date, result.Date, result.Player, result.FishCaught, result.FishPlacement, result.TotalWeight, result.WeightPlacement,
+				result.BiggestFish, result.BiggestFishPlacement).Scan(&count)
 			if err != nil {
 				return err
 			}
@@ -230,7 +225,8 @@ func insertTDataIntoDB(newResults []string, chatName string, mode string, pool *
 		}
 
 		query := fmt.Sprintf("INSERT INTO %s ( player, playerid, fishcaught, placement1, totalweight, placement2, biggestfish, placement3, date, bot, chat) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)", tableName)
-		_, err = tx.Exec(context.Background(), query, result.Player, playerID, result.FishCaught, result.FishPlacement, result.TotalWeight, result.WeightPlacement, result.BiggestFish, result.BiggestFishPlacement, result.Date, result.Bot, result.Chat)
+		_, err = tx.Exec(context.Background(), query, result.Player, playerID, result.FishCaught, result.FishPlacement, result.TotalWeight,
+			result.WeightPlacement, result.BiggestFish, result.BiggestFishPlacement, result.Date, result.Bot, result.Chat)
 		if err != nil {
 			return err
 		}
