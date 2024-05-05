@@ -38,8 +38,8 @@
 | 35  | 🪳 | 25.94 | douyinnowmadge |
 | 36  | 🦠 | 21.99 | nndiana |
 | 36  | 🐠 | 21.99 | quinrayy |
-| 38 ⬆ | 🪼 | 21.00 (+0.45) | xveso |
-| 39 ⬇ | 🎰 | 20.92 | dx9er |
+| 38  | 🪼 | 21.00 | xveso |
+| 39  | 🎰 | 20.92 | dx9er |
 | 40  | 🦦 | 19.88 | angus_lpc |
 | 41  | 🪱 | 19.17 | caprise627 |
 | 42  | 🧭 | 17.75 | poppari38 |
@@ -57,14 +57,14 @@
 | 54  | 🪵 | 10.56 | vibinud |
 | 55  | 🩲 | 10.20 | alvaniss1g |
 | 56  | 💀 | 9.99 | joleksu |
-| 57 ⬆ | 🪺 | 8.82 (+5.00) | creepycode1337 |
-| 58 ⬇ | 🪹 | 7.31 | huuuuurz |
-| 59 ⬇ | 🧵 | 5.43 | creepycode1337 |
-| 60 ⬇ | 🪝 | 4.99 | thedraingangceo* |
-| 61 ⬇ | 🎏 | 4.97 | caprise627 |
-| 62 ⬇ | 🥫 | 4.91 | huuuuurz |
-| 63 ⬇ | 🐚 | 4.00 | manianic_ |
-| 64 ⬇ | ☘️ | 3.95 | huuuuurz |
+| 57  | 🪺 | 8.82 | creepycode1337 |
+| 58  | 🪹 | 7.31 | huuuuurz |
+| 59  | 🧵 | 5.43 | creepycode1337 |
+| 60  | 🪝 | 4.99 | thedraingangceo* |
+| 61  | 🎏 | 4.97 | caprise627 |
+| 62  | 🥫 | 4.91 | huuuuurz |
+| 63  | 🐚 | 4.00 | manianic_ |
+| 64  | ☘️ | 3.95 | huuuuurz |
 | 65  | ☂️ | 2.96 | xanthic_swe |
 | 66  | 🌹 | 2.88 | zwockel01 |
 | 67  | 👢 | 2.00 | jr_mime |
@@ -79,5 +79,3 @@
 | 75  | 🌿 | 1.00 | shricky |
 | 77  | 🪶 | 0.98 | amu1g |
 | 78  | 🧣 | 0.92 | blazeblitzzz |
-
-_* = The fish was caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate._

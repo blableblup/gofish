@@ -19,7 +19,7 @@
 | 16  | 🦪 | 128.36 | qu4ttromila |
 | 17  | 🦞 | 126.55 | yopego |
 | 18  | 🧟 | 118.47 | realtechnine |
-| 19  | 🐬 | 112.76 (+0.23) | kaasppeerr |
+| 19  | 🐬 | 112.76 | kaasppeerr |
 | 20  | 📱 | 109.87 | kaasppeerr |
 | 21  | 🦇 | 109.02 | larrahey |
 | 22  | 🪸 | 97.69 | kishma9 |
@@ -48,26 +48,26 @@
 | 45  | 🦆 | 15.69 | derinturitierutz |
 | 46  | 🪀 | 15.53 | xxx_r0ze_xxx |
 | 47  | 🐌 | 14.24 | yliathim* |
-| 48 ⬆ | 🪵 | 13.01 (+2.16) | qu4ttromila |
-| 49 ⬇ | 🎱 | 12.85 | qu4ttromila |
-| 50 ⬇ | 🕶️ | 12.41 | paras220 |
-| 51 ⬆ | 🐦 | 11.96 (+7.26) | julialuxel |
-| 52 ⬇ | 👒 | 11.85 | sussy_amonge |
-| 53 ⬇ | 🧸 | 11.83 | miiiiisho |
-| 54 ⬇ | 🧃 | 11.17 | sussy_amonge |
-| 55 ⬇ | 🧊 | 10.98 | miiiiisho |
-| 56 ⬇ | 🪹 | 10.86 | bapqo |
-| 57 ⬇ | 🪺 | 10.84 | osnyatsky |
-| 58 ⬇ | 🦎 | 10.61 | sussy_amonge |
-| 59 ⬇ | 🩲 | 10.19 | xz_xz |
-| 60 ⬇ | 💀 | 9.98 | bussinongnocap |
-| 61 ⬇ | 🎏 | 5.76 | fishingalt |
-| 62 ⬇ | 🧵 | 5.35 | breadworms |
-| 63 ⬇ | 🐚 | 5.03 | puzzlow |
-| 64 ⬇ | 🪝 | 4.98 | sussy_amonge |
-| 65 ⬆ | 🐦‍⬛ | 4.85 (+1.69) | qu4ttromila |
-| 66 ⬇ | 🥫 | 4.67 | qu4ttromila |
-| 67 ⬇ | ☘️ | 3.98 | osnyatsky |
+| 48  | 🪵 | 13.01 | qu4ttromila |
+| 49  | 🎱 | 12.85 | qu4ttromila |
+| 50  | 🕶️ | 12.41 | paras220 |
+| 51  | 🐦 | 11.96 | julialuxel |
+| 52  | 👒 | 11.85 | sussy_amonge |
+| 53  | 🧸 | 11.83 | miiiiisho |
+| 54  | 🧃 | 11.17 | sussy_amonge |
+| 55  | 🧊 | 10.98 | miiiiisho |
+| 56  | 🪹 | 10.86 | bapqo |
+| 57  | 🪺 | 10.84 | osnyatsky |
+| 58  | 🦎 | 10.61 | sussy_amonge |
+| 59  | 🩲 | 10.19 | xz_xz |
+| 60  | 💀 | 9.98 | bussinongnocap |
+| 61  | 🎏 | 5.76 | fishingalt |
+| 62  | 🧵 | 5.35 | breadworms |
+| 63  | 🐚 | 5.03 | puzzlow |
+| 64  | 🪝 | 4.98 | sussy_amonge |
+| 65  | 🐦‍⬛ | 4.85 | qu4ttromila |
+| 66  | 🥫 | 4.67 | qu4ttromila |
+| 67  | ☘️ | 3.98 | osnyatsky |
 | 68  | ☂️ | 2.96 | kishma9 |
 | 68  | 🌹 | 2.96 | osnyatsky |
 | 68  | 🥪 | 2.96 | qu4ttromila |
@@ -79,8 +79,6 @@
 | 76  | 👢 | 1.98 | derinturitierutz |
 | 77  | 🌿 | 1.96 | dayzedinndaydreams |
 | 78  | ⛸️ | 1.94 | ryebreadward |
-| 79  | 🪶 | 0.99 | osnyatsky* |
 | 79  | 🧣 | 0.99 | osnyatsky* |
+| 79  | 🪶 | 0.99 | osnyatsky* |
 | 79  | 🧤 | 0.99 | sicklymaidrobot |
-
-_* = The fish was caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate._

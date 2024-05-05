@@ -33,5 +33,3 @@
 | 30  | ninjaross* | 🦑 | 273.17 | 🍞 |
 | 31  | 6blmue | 🐳 | 272.90 | 🐱 |
 | 32  | crazytown_bananapants | 🦈 | 270.42 | 🍞 |
-
-_* = The fish was caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate._

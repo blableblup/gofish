@@ -11,30 +11,30 @@
 | 8  | damon_okami | 🐉 | 276.80 |
 | 9  | caprise627 | 🐳 | 274.74 |
 | 10  | 6blmue | 🐳 | 272.90 |
-| 11 ⬆ | commanda_u | 🐉 | 267.88 (+50.29) |
-| 12 ⬆ | jems______ | 🐳 | 267.13 (+51.57) |
-| 13 ⬇ | quinrayy | 🦕 | 266.36 |
-| 14 ⬇ | divra__ | 🐍 | 266.35 |
-| 15 ⬇ | euxoa | 🦑 | 258.72 |
-| 16 ⬇ | amu1g | 🦕 | 256.67 |
-| 17 ⬇ | sandwichsundays | 🦕 | 255.00 |
-| 18 ⬇ | rein_chsdg | 🐳 | 254.34 |
-| 19 ⬇ | yopego | 🐢 | 254.30 |
-| 20 ⬇ | copperx9 | 🦕 | 252.78 |
-| 21 ⬇ | flunke_ | 🐳 | 250.84 |
-| 22 ⬇ | wasdecxyq | 🐳 | 249.91 |
-| 23 ⬇ | cappo7117 | 🐉 | 247.50 (+6.53) |
-| 24 ⬇ | jr_mime | 🦕 | 237.62 |
-| 25 ⬇ | quton | 🐳 | 234.94 |
-| 26 ⬇ | em1ze | 🦕 | 231.82 |
-| 27 ⬇ | maksmusz | 🦕 | 231.69 |
-| 28 ⬇ | xkimi1337 | 🦕 | 230.91 |
-| 29 ⬇ | teskotienpl | 🐳 | 228.46 |
-| 30 ⬇ | acidfd174 | 🐍 | 227.90 |
-| 31 ⬇ | jj_ladic | 🐳 | 222.91 |
-| 32 ⬇ | asthmaa | 🐉 | 220.96 |
-| 33 ⬇ | rc_xz | 🐳 | 216.62 |
-| 34 ⬇ | duckfackkk | 🐳 | 215.83 |
+| 11  | commanda_u | 🐉 | 267.88 |
+| 12  | jems______ | 🐳 | 267.13 |
+| 13  | quinrayy | 🦕 | 266.36 |
+| 14  | divra__ | 🐍 | 266.35 |
+| 15  | euxoa | 🦑 | 258.72 |
+| 16  | amu1g | 🦕 | 256.67 |
+| 17  | sandwichsundays | 🦕 | 255.00 |
+| 18  | rein_chsdg | 🐳 | 254.34 |
+| 19  | yopego | 🐢 | 254.30 |
+| 20  | copperx9 | 🦕 | 252.78 |
+| 21  | flunke_ | 🐳 | 250.84 |
+| 22  | wasdecxyq | 🐳 | 249.91 |
+| 23  | cappo7117 | 🐉 | 247.50 |
+| 24  | jr_mime | 🦕 | 237.62 |
+| 25  | quton | 🐳 | 234.94 |
+| 26  | em1ze | 🦕 | 231.82 |
+| 27  | maksmusz | 🦕 | 231.69 |
+| 28  | xkimi1337 | 🦕 | 230.91 |
+| 29  | teskotienpl | 🐳 | 228.46 |
+| 30  | acidfd174 | 🐍 | 227.90 |
+| 31  | jj_ladic | 🐳 | 222.91 |
+| 32  | asthmaa | 🐉 | 220.96 |
+| 33  | rc_xz | 🐳 | 216.62 |
+| 34  | duckfackkk | 🐳 | 215.83 |
 | 35  | qxxick_ | 🐉 | 214.08 |
 | 36  | hahppyy | 🐍 | 213.91 |
 | 37  | obscurecharmling | 🦈 | 212.97 |
@@ -52,11 +52,10 @@
 | 49  | tien_ | 🐳 | 205.87 |
 | 50  | pookiesnowman | 🐳 | 205.15 |
 | 51  | norque69 | 🦈 | 204.31 |
-| 52  | scaryo_o | 🦕 | 203.52 |
-| 53  | red_blade9 | 🦈 | 203.47 |
-| 54  | psp1g | 🦈 | 202.59 |
-| 55  | seryxx | 🐉 | 202.24 |
-| 56  | ttecnk | 🐉 | 202.20 |
-| 57  | theng | 🐳 | 201.58 |
-
-_* = The fish was caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate._
+| 52 🆕 | micropotato69 | 🦈 | 203.75 |
+| 53 ⬇ | scaryo_o | 🦕 | 203.52 |
+| 54 ⬇ | red_blade9 | 🦈 | 203.47 |
+| 55 ⬇ | psp1g | 🦈 | 202.59 |
+| 56 ⬇ | seryxx | 🐉 | 202.24 |
+| 57 ⬇ | ttecnk | 🐉 | 202.20 |
+| 58 ⬇ | theng | 🐳 | 201.58 |
