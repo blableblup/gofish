@@ -13,11 +13,14 @@ import (
 	"path/filepath"
 	"sort"
 	"strings"
+	"sync"
 
 	"github.com/jackc/pgx/v4/pgxpool"
 )
 
 func GetTournamentData(config utils.Config, pool *pgxpool.Pool, chatNames string, numMonths int, monthYear string, mode string) {
+
+	var wg sync.WaitGroup
 
 	switch chatNames {
 	case "all":
@@ -29,9 +32,14 @@ func GetTournamentData(config utils.Config, pool *pgxpool.Pool, chatNames string
 				continue
 			}
 
-			logs.Logs().Info().Msgf("Checking tournament results for chat '%s'", chatName)
-			urls := utils.CreateURL(chatName, numMonths, monthYear)
-			fetchMatchingLines(chatName, pool, urls, mode)
+			wg.Add(1)
+			go func(chatName string, chat utils.ChatInfo) {
+				defer wg.Done()
+
+				logs.Logs().Info().Msgf("Checking tournament results for chat '%s'...", chatName)
+				urls := utils.CreateURL(chatName, numMonths, monthYear)
+				fetchMatchingLines(chatName, pool, urls, mode)
+			}(chatName, chat)
 		}
 	case "":
 		logs.Logs().Warn().Msgf("Please specify chat names.")
@@ -50,11 +58,18 @@ func GetTournamentData(config utils.Config, pool *pgxpool.Pool, chatNames string
 				continue
 			}
 
-			logs.Logs().Info().Msgf("Checking tournament results for chat '%s'", chatName)
-			urls := utils.CreateURL(chatName, numMonths, monthYear)
-			fetchMatchingLines(chatName, pool, urls, mode)
+			wg.Add(1)
+			go func(chatName string, chat utils.ChatInfo) {
+				defer wg.Done()
+
+				logs.Logs().Info().Msgf("Checking tournament results for chat '%s'...", chatName)
+				urls := utils.CreateURL(chatName, numMonths, monthYear)
+				fetchMatchingLines(chatName, pool, urls, mode)
+			}(chatName, chat)
 		}
 	}
+
+	wg.Wait()
 }
 
 func fetchMatchingLines(chatName string, pool *pgxpool.Pool, urls []string, mode string) {
