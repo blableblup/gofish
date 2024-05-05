@@ -43,5 +43,3 @@
 | 40  | divra__ | 🐳 | 213.23 |
 | 41  | notparasfishalt* | 🐉 | 207.18 |
 | 42  | veggesh | 🦈 | 206.22 |
-
-_* = The fish was caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate._
