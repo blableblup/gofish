@@ -50,7 +50,7 @@ func Leaderboards(leaderboards string, chatNames string, mode string) {
 			processLeaderboard(config, params, processCount)
 		case "type":
 			processLeaderboard(config, params, processType)
-		case "typecount":
+		case "rare":
 			RunCountFishTypesGlobal(params)
 		case "countday":
 			RunCountDay(params)
@@ -79,9 +79,9 @@ func processLeaderboard(config utils.Config, params LeaderboardParams, processFu
 	case "all":
 		// Process all chats
 		for chatName, chat := range config.Chat {
-			if !chat.CheckEnabled {
+			if !chat.BoardsEnabled {
 				if chatName != "global" && chatName != "default" {
-					logs.Logs().Warn().Msgf("Skipping chat '%s' because check_enabled is false", chatName)
+					logs.Logs().Warn().Msgf("Skipping chat '%s' because board_enabled is false", chatName)
 				}
 				continue
 			}
@@ -94,7 +94,7 @@ func processLeaderboard(config utils.Config, params LeaderboardParams, processFu
 	case "global":
 		processGlobalLeaderboard(params)
 	case "":
-		logs.Logs().Info().Msg("Please specify chat names.")
+		logs.Logs().Info().Msg("Please specify chat names")
 	default:
 		// Process specified chat names
 		specifiedchatNames := strings.Split(params.ChatName, ",")
@@ -104,9 +104,9 @@ func processLeaderboard(config utils.Config, params LeaderboardParams, processFu
 				logs.Logs().Warn().Msgf("Chat '%s' not found in config.\n", chatName)
 				continue
 			}
-			if !chat.CheckEnabled {
+			if !chat.BoardsEnabled {
 				if chatName != "global" && chatName != "default" {
-					logs.Logs().Warn().Msgf("Skipping chat '%s' because check_enabled is false", chatName)
+					logs.Logs().Warn().Msgf("Skipping chat '%s' because board_enabled is false", chatName)
 				}
 				continue
 			}

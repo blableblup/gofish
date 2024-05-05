@@ -5,25 +5,29 @@
         "logs_host_old": "https://logs.joinuv.com/channel/breadworms/user/supibot/",
         "logs_added": "2022/12",
         "emoji": "🍞",
-        "check_enabled": true
+        "check_enabled": true,
+        "board_enabled": true
       },
       "psp": {
         "logs_host": "https://logs.nadeko.net/channel/psp1g/user/gofishgame/",
         "logs_host_old": "https://logs.nadeko.net/channel/psp1g/user/supibot/",
         "logs_added": "2023/8",
         "emoji": "🐱",
-        "check_enabled": true
+        "check_enabled": true,
+        "board_enabled": true
       },
       "global": {
         "weight_limit": 270,
         "totalcount_limit": 300,
-        "check_enabled": false
+        "check_enabled": false,
+        "board_enabled": false
       },
       "default": {
         "weight_limit": 200,
         "totalcount_limit": 100,
         "fishweek_limit": 20,
-        "check_enabled": false
+        "check_enabled": false,
+        "board_enabled": false
       }
   }
 }
