@@ -13,7 +13,8 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 
 	globalFishTypesCount := make(map[string]data.FishInfo)
 	filePath := filepath.Join("leaderboards", "global", "rare.md")
-	oldCount, err := ReadTotalcountRankings(filePath, pool)
+	isFish := true
+	oldCount, err := ReadTotalcountRankings(filePath, pool, isFish)
 	if err != nil {
 		logs.Logs().Error().Err(err).Msg("Error reading old rarest fish leaderboard")
 		return
