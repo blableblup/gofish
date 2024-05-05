@@ -148,7 +148,7 @@ func RunCountGlobal(params LeaderboardParams) {
 	for chatName, chat := range config.Chat {
 		if !chat.CheckEnabled {
 			if chatName != "global" && chatName != "default" {
-				logs.Logs().Info().Msgf("Skipping chat '%s' because check_enabled is false", chatName)
+				logs.Logs().Warn().Msgf("Skipping chat '%s' because check_enabled is false", chatName)
 			}
 			continue
 		}
