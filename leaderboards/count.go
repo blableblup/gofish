@@ -20,7 +20,8 @@ func processCount(params LeaderboardParams) {
 	pool := params.Pool
 
 	filePath := filepath.Join("leaderboards", chatName, "count.md")
-	oldCountRecord, err := ReadTotalcountRankings(filePath, pool)
+	isFish := false
+	oldCountRecord, err := ReadTotalcountRankings(filePath, pool, isFish)
 	if err != nil {
 		logs.Logs().Error().Err(err).Msg("Error reading old count leaderboard")
 		return

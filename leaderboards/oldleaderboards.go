@@ -247,7 +247,7 @@ func ReadTypeRankings(filePath string, pool *pgxpool.Pool) (map[string]Leaderboa
 }
 
 // Function to read and extract the old totalcount leaderboard from the leaderboard file
-func ReadTotalcountRankings(filePath string, pool *pgxpool.Pool) (map[string]LeaderboardInfo, error) {
+func ReadTotalcountRankings(filePath string, pool *pgxpool.Pool, isFish bool) (map[string]LeaderboardInfo, error) {
 	oldLeaderboardCount := make(map[string]LeaderboardInfo)
 	cheaters := playerdata.ReadCheaters()
 
@@ -281,8 +281,17 @@ func ReadTotalcountRankings(filePath string, pool *pgxpool.Pool) (map[string]Lea
 				bot = "supibot"
 			}
 
-			// Check if the player renamed
-			player := playerdata.PlayerRenamed(oldplayer, pool)
+			// Check if the player renamed or is a fish (for global rarest fish leaderboard)
+			var player string
+			if isFish {
+				fishType := oldplayer
+				if equivalent := data.EquivalentFishType(fishType); equivalent != "" {
+					fishType = equivalent
+				}
+				player = fishType
+			} else {
+				player = playerdata.PlayerRenamed(oldplayer, pool)
+			}
 
 			if utils.Contains(cheaters, player) {
 				continue // Skip processing for ignored players

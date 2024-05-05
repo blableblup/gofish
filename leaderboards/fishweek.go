@@ -62,7 +62,8 @@ func processFishweek(params LeaderboardParams) {
 	filePath := filepath.Join("leaderboards", chatName, "fishweek.md")
 	isGlobal, isType := false, false
 
-	oldFishw, err := ReadTotalcountRankings(filePath, pool)
+	isFish := false
+	oldFishw, err := ReadTotalcountRankings(filePath, pool, isFish)
 	if err != nil {
 		logs.Logs().Error().Err(err).Msg("Error reading old fishweek leaderboard")
 		return

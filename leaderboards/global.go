@@ -138,7 +138,8 @@ func RunCountGlobal(params LeaderboardParams) {
 	totalcountLimit := config.Chat["global"].Totalcountlimit
 
 	filePath := filepath.Join("leaderboards", "global", "count.md")
-	oldCount, err := ReadTotalcountRankings(filePath, pool)
+	isFish := false
+	oldCount, err := ReadTotalcountRankings(filePath, pool, isFish)
 	if err != nil {
 		logs.Logs().Error().Err(err).Msg("Error reading old global count leaderboard")
 		return
