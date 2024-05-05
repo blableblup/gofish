@@ -5,6 +5,9 @@ import (
 	"fmt"
 	"gofish/data"
 	"gofish/logs"
+	"gofish/utils"
+	"os"
+	"path/filepath"
 	"strings"
 
 	"github.com/jackc/pgx/v4"
@@ -25,6 +28,14 @@ func ProcessRenamePairs(renamePairs string) ([]struct{ OldName, NewName string }
 }
 
 func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
+
+	wd, err := os.Getwd()
+	if err != nil {
+		logs.Logs().Fatal().Err(err).Msg("Error getting current working directory")
+	}
+
+	configFilePath := filepath.Join(wd, "config.json")
+	config := utils.LoadConfig(configFilePath)
 
 	pool, err := data.Connect()
 	if err != nil {
@@ -66,7 +77,8 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 			`, newName).Scan(&newPlayerID)
 		if err != nil {
 			if err == pgx.ErrNoRows {
-				var confirm string // If the player renamed but never caught a fish since renaming. This only updates the old name in playerdata
+				// If the player renamed but never caught a fish since renaming. This only updates the old name in playerdata
+				var confirm string
 				logs.Logs().Warn().Msgf("Player '%s' does not have an entry in the playerdata table. Is the name correct? (yes/no): ", newName)
 				_, err = fmt.Scanln(&confirm)
 				if err != nil {
@@ -124,7 +136,7 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 
 		logs.Logs().Info().Msgf("Player data updated for player %s", newName)
 
-		// Update playerid in fish table
+		// Update playerid in fish + tournament tables
 		result, err = tx.Exec(context.Background(), `
             UPDATE fish
             SET playerid = $1
@@ -135,12 +147,50 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 		}
 		rowsAffected = result.RowsAffected()
 		if rowsAffected == 0 {
-			logs.Logs().Error().Msgf("No rows updated for player %s", newName)
+			logs.Logs().Error().Msgf("No rows updated for player %s in fish table", newName)
 			logs.Logs().Fatal().Err(err).Msg("Exiting the program due to potential data inconsistency.")
 			// There should be an update unless something is wrong with the data
 		}
 
 		logs.Logs().Info().Msgf("Rows affected in fish table for player %s: %d", newName, rowsAffected)
+
+		for chatName, chat := range config.Chat {
+			if !chat.CheckEnabled {
+				if chatName != "global" && chatName != "default" {
+					logs.Logs().Warn().Msgf("Skipping chat '%s' because check_enabled is false", chatName)
+				}
+				continue
+			}
+
+			tableName := "tournaments" + chatName
+
+			var exists bool
+			err := pool.QueryRow(context.Background(), "SELECT EXISTS (SELECT 1 FROM information_schema.tables WHERE lower(table_name) = lower($1))", tableName).Scan(&exists)
+			if err != nil {
+				return err
+			}
+
+			if !exists {
+				logs.Logs().Warn().Msgf("Tournament table '%s' does not exist skipping...", tableName)
+				continue
+			}
+
+			result, err := tx.Exec(context.Background(), fmt.Sprintf(`
+			UPDATE %s
+			SET playerid = $1
+			WHERE playerid = $2
+		`, tableName), newPlayerID, oldPlayerID)
+			if err != nil {
+				return err
+			}
+			rowsAffected = result.RowsAffected()
+			if rowsAffected == 0 {
+				logs.Logs().Warn().Msgf("No rows updated for player %s in tournament table '%s'", newName, tableName)
+				// Because players wont have an entry in every tournament database for every chat, this doesnt need to be fatal
+			}
+
+			logs.Logs().Info().Msgf("Rows affected in tournament table '%s' for player %s: %d", tableName, newName, rowsAffected)
+		}
 
 		// Delete redundant entry
 		result, err = tx.Exec(context.Background(), `
