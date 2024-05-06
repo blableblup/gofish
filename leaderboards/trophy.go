@@ -129,17 +129,25 @@ func writeTrophy(filePath string, playerCounts map[string]LeaderboardInfo, oldTr
 		var found bool
 
 		oldRank := -1
+		oldtrophies := playerCounts[player].Trophy
+		oldsilver := playerCounts[player].Silver
+		oldbronze := playerCounts[player].Bronze
+		oldpoints := totalPoints[player]
 		if info, ok := oldTrophy[player]; ok {
 			found = true
 			oldRank = info.Rank
+			oldtrophies = oldTrophy[player].Trophy
+			oldsilver = oldTrophy[player].Silver
+			oldbronze = oldTrophy[player].Bronze
+			oldpoints = oldTrophy[player].Points
 		}
 
 		changeEmoji := ChangeEmoji(rank, oldRank, found)
 
-		trophiesDifference := playerCounts[player].Trophy - oldTrophy[player].Trophy
-		silverDifference := playerCounts[player].Silver - oldTrophy[player].Silver
-		bronzeDifference := playerCounts[player].Bronze - oldTrophy[player].Bronze
-		pointsDifference := totalPoints[player] - oldTrophy[player].Points
+		trophiesDifference := playerCounts[player].Trophy - oldtrophies
+		silverDifference := playerCounts[player].Silver - oldsilver
+		bronzeDifference := playerCounts[player].Bronze - oldbronze
+		pointsDifference := totalPoints[player] - oldpoints
 
 		trophyCount := fmt.Sprintf("%d", playerCounts[player].Trophy)
 		if trophiesDifference > 0 {
