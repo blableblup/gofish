@@ -20,13 +20,13 @@
 | 17  | miiiiisho | 79 |
 | 18  | booty_bread | 60 |
 | 19  | bk207* | 53 |
-| 20  | kaasppeerr | 52 |
 | 20  | hmsmob* | 52 |
+| 20  | kaasppeerr | 52 |
 | 22  | leanmeister | 51 |
 | 23  | bapqo | 49 |
 | 24  | paras220 | 46 |
 | 25  | ninjaross | 44 |
-| 26  | ouacewi | 43 (+1) |
+| 26  | ouacewi | 43 |
 | 27  | cumro | 40 |
 | 28  | julialuxel | 34 |
 | 29  | islcfc* | 33 |
@@ -39,4 +39,4 @@
 | 36  | veggesh | 21 |
 | 37  | realtechnine | 20 |
 
-_* = The fish were caught on supibot and the player did not migrate their data over to gofishgame. Because of that their data was not individually verified to be accurate._
+_Last updated at 2024-05-06 09:16:49 UTC_
