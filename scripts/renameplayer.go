@@ -79,13 +79,13 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 			if err == pgx.ErrNoRows {
 				// If the player renamed but never caught a fish since renaming. This only updates the old name in playerdata
 				var confirm string
-				logs.Logs().Warn().Msgf("Player '%s' does not have an entry in the playerdata table. Is the name correct? (yes/no): ", newName)
+				logs.Logs().Warn().Msgf("Player '%s' does not have an entry in the playerdata table. Is the name correct? (y/n): ", newName)
 				_, err = fmt.Scanln(&confirm)
 				if err != nil {
 					return err
 				}
 
-				if confirm != "yes" {
+				if confirm != "y" {
 					logs.Logs().Info().Msg("Player not renamed")
 					continue
 				}
@@ -100,15 +100,14 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 					return fmt.Errorf("error updating player data for player %s: %v", newName, err)
 				}
 
-				// Check if any rows were affected by the update operation
 				rowsAffected := result.RowsAffected()
 				if rowsAffected == 0 {
-					logs.Logs().Error().Msgf("No rows updated for player %s", newName)
-					logs.Logs().Fatal().Err(err).Msg("Exiting the program due to potential data inconsistency.")
+					logs.Logs().Fatal().Msgf("No rows updated for player %s in playerdata. Exiting the program due to potential data inconsistency.", newName)
 					// There should be an update unless something is wrong with the data
+				} else {
+					logs.Logs().Info().Msgf("Player data updated for player %s", newName)
 				}
 
-				logs.Logs().Info().Msgf("Player data updated for player %s", newName)
 				break
 			} else {
 				logs.Logs().Error().Err(err).Msgf("Error retrieving player ID for name '%s'", newName)
@@ -126,15 +125,13 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 			logs.Logs().Error().Err(err).Msgf("error updating player data for player %s", newName)
 		}
 
-		// Check if any rows were affected by the update operation
 		rowsAffected := result.RowsAffected()
 		if rowsAffected == 0 {
-			logs.Logs().Error().Msgf("No rows updated for player %s", newName)
-			logs.Logs().Fatal().Err(err).Msg("Exiting the program due to potential data inconsistency.")
+			logs.Logs().Fatal().Msgf("No rows updated for player %s in playerdata. Exiting the program due to potential data inconsistency.", newName)
 			// There should be an update unless something is wrong with the data
+		} else {
+			logs.Logs().Info().Msgf("Player data updated for player %s", newName)
 		}
-
-		logs.Logs().Info().Msgf("Player data updated for player %s", newName)
 
 		// Update playerid in fish + tournament tables
 		result, err = tx.Exec(context.Background(), `
@@ -147,12 +144,11 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 		}
 		rowsAffected = result.RowsAffected()
 		if rowsAffected == 0 {
-			logs.Logs().Error().Msgf("No rows updated for player %s in fish table", newName)
-			logs.Logs().Fatal().Err(err).Msg("Exiting the program due to potential data inconsistency.")
+			logs.Logs().Fatal().Msgf("No rows updated for player %s in fish table. Exiting the program due to potential data inconsistency.", newName)
 			// There should be an update unless something is wrong with the data
+		} else {
+			logs.Logs().Info().Msgf("Rows affected in fish table for player %s: %d", newName, rowsAffected)
 		}
-
-		logs.Logs().Info().Msgf("Rows affected in fish table for player %s: %d", newName, rowsAffected)
 
 		for chatName, chat := range config.Chat {
 			if !chat.CheckEnabled {
@@ -187,9 +183,10 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 			if rowsAffected == 0 {
 				logs.Logs().Warn().Msgf("No rows updated for player %s in tournament table '%s'", newName, tableName)
 				// Because players wont have an entry in every tournament database for every chat, this doesnt need to be fatal
+			} else {
+				logs.Logs().Info().Msgf("Rows affected in tournament table '%s' for player %s: %d", tableName, newName, rowsAffected)
 			}
 
-			logs.Logs().Info().Msgf("Rows affected in tournament table '%s' for player %s: %d", tableName, newName, rowsAffected)
 		}
 
 		// Delete redundant entry
@@ -202,12 +199,12 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 		}
 		rowsAffected = result.RowsAffected()
 		if rowsAffected == 0 {
-			logs.Logs().Error().Msgf("No rows updated for player %s", newName)
-			logs.Logs().Fatal().Err(err).Msg("Exiting the program due to potential data inconsistency.")
+			logs.Logs().Fatal().Msgf("No rows updated for player %s after deletion. Exiting the program due to potential data inconsistency.", newName)
 			// There should be an update unless something is wrong with the data
+		} else {
+			logs.Logs().Info().Msgf("Rows affected in playerdata table for player %s after deletion: %d", newName, rowsAffected)
 		}
 
-		logs.Logs().Info().Msgf("Rows affected in playerdata table for player %s after deletion: %d", newName, rowsAffected)
 	}
 
 	// Commit the transaction
