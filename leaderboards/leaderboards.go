@@ -52,8 +52,8 @@ func Leaderboards(leaderboards string, chatNames string, mode string) {
 			processLeaderboard(config, params, processType)
 		case "rare":
 			RunCountFishTypesGlobal(params)
-		case "countday":
-			RunCountDay(params)
+		// case "countday":
+		// 	RunCountDay(params)
 
 		case "all":
 			logs.Logs().Info().Msg("Updating all leaderboards...")
