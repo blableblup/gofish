@@ -314,3 +314,77 @@ func ReadTotalcountRankings(filePath string, pool *pgxpool.Pool, isFish bool) (m
 
 	return oldLeaderboardCount, nil
 }
+
+func ReadOldChatStats(filePath string) (map[string]LeaderboardInfo, error) {
+	oldLeaderboardStats := make(map[string]LeaderboardInfo)
+
+	// Open the file
+	file, err := os.Open(filePath)
+	if err != nil {
+		// If the file doesn't exist, return empty rankings and counts
+		return oldLeaderboardStats, nil
+	}
+	defer file.Close()
+
+	scanner := bufio.NewScanner(file)
+	skipHeader := 0
+	for scanner.Scan() {
+		line := scanner.Text()
+		if skipHeader < 3 {
+			skipHeader++
+			continue
+		}
+		if strings.HasPrefix(line, "|") {
+			parts := strings.Split(line, "|")
+			rankStr := strings.TrimSpace(parts[1])
+			rank, err := strconv.Atoi(strings.Split(rankStr, " ")[0])
+			if err != nil {
+				continue
+			}
+
+			var chat string
+			chatstr := strings.TrimSpace(parts[2])
+			chatParts := strings.Split(chatstr, " ")
+			if len(chatParts) > 0 {
+				chat = chatParts[0]
+			}
+
+			countStr := strings.TrimSpace(parts[3])
+			count, _ := strconv.Atoi(strings.Split(countStr, " ")[0])
+
+			activeStr := strings.TrimSpace(parts[4])
+			active, _ := strconv.Atoi(strings.Split(activeStr, " ")[0])
+
+			uniqueStr := strings.TrimSpace(parts[5])
+			unique, _ := strconv.Atoi(strings.Split(uniqueStr, " ")[0])
+
+			oldWeightStr := strings.TrimSpace(parts[6])
+			re := regexp.MustCompile(`([0-9.]+)`)
+			matches := re.FindStringSubmatch(oldWeightStr)
+			var oldweight float64
+			if len(matches) >= 2 {
+				var err error
+				oldweight, err = strconv.ParseFloat(matches[1], 64)
+				if err != nil {
+					continue
+				}
+			} else {
+				continue
+			}
+
+			oldLeaderboardStats[chat] = LeaderboardInfo{
+				Rank:   rank,
+				Count:  count,
+				Silver: active,
+				Bronze: unique,
+				Weight: oldweight,
+			}
+		}
+	}
+
+	if err := scanner.Err(); err != nil {
+		return nil, err
+	}
+
+	return oldLeaderboardStats, nil
+}
