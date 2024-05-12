@@ -80,7 +80,7 @@
 | 77  | 🌿 | 1.96 | dayzedinndaydreams | 🍞 |
 | 77  | ⛸️ | 1.96 | pookiesnowman | 🐱 |
 | 79  | 🧤 | 1.00 | kubo7 | 🐱 |
-| 80  | 🧣 | 0.99 | osnyatsky* | 🍞 |
 | 80  | 🪶 | 0.99 | osnyatsky* | 🍞 |
+| 80  | 🧣 | 0.99 | osnyatsky* | 🍞 |
 
-_Last updated at 2024-05-05 11:05:17 UTC_
+_Last updated at 2024-05-12 09:13:49 UTC_
