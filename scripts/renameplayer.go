@@ -175,7 +175,7 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 			UPDATE %s
 			SET playerid = $1
 			WHERE playerid = $2
-		`, tableName), newPlayerID, oldPlayerID)
+		`, tableName), oldPlayerID, newPlayerID)
 			if err != nil {
 				return err
 			}
