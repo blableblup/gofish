@@ -81,7 +81,7 @@ func RunTypeGlobal(params LeaderboardParams) {
 		}
 	}
 
-	updateTypeLeaderboard(globalRecordType, oldType)
+	updateTypeLeaderboard(globalRecordType, oldType, filePath)
 }
 
 func RunWeightGlobal(params LeaderboardParams) {
@@ -107,8 +107,8 @@ func RunWeightGlobal(params LeaderboardParams) {
 			continue
 		}
 
-		filePath := filepath.Join("leaderboards", chatName, "weight.md")
-		oldRecordWeight, err := ReadWeightRankings(filePath, pool)
+		filePathChat := filepath.Join("leaderboards", chatName, "weight.md")
+		oldRecordWeight, err := ReadWeightRankings(filePathChat, pool)
 		if err != nil {
 			logs.Logs().Error().Err(err).Msgf("Error reading old weight leaderboard for chat '%s'", chatName)
 			return
@@ -127,7 +127,7 @@ func RunWeightGlobal(params LeaderboardParams) {
 		}
 	}
 
-	updateWeightLeaderboard(globalRecordWeight, oldWeight)
+	updateWeightLeaderboard(globalRecordWeight, oldWeight, filePath)
 }
 
 func RunCountGlobal(params LeaderboardParams) {
@@ -219,14 +219,13 @@ func RunCountGlobal(params LeaderboardParams) {
 		}
 	}
 
-	updateCountLeaderboard(globalCount, oldCount)
+	updateCountLeaderboard(globalCount, oldCount, filePath)
 }
 
-func updateTypeLeaderboard(recordType map[string]data.FishInfo, oldType map[string]LeaderboardInfo) {
+func updateTypeLeaderboard(recordType map[string]data.FishInfo, oldType map[string]LeaderboardInfo, filePath string) {
 	logs.Logs().Info().Msg("Updating global type leaderboard...")
 	title := "### Biggest fish per type caught globally\n"
 	isGlobal := true
-	filePath := filepath.Join("leaderboards", "global", "type.md")
 	err := writeType(filePath, recordType, oldType, title, isGlobal)
 	if err != nil {
 		logs.Logs().Error().Err(err).Msg("Error writing global type leaderboard")
@@ -235,11 +234,10 @@ func updateTypeLeaderboard(recordType map[string]data.FishInfo, oldType map[stri
 	}
 }
 
-func updateWeightLeaderboard(recordWeight map[string]data.FishInfo, oldWeight map[string]LeaderboardInfo) {
+func updateWeightLeaderboard(recordWeight map[string]data.FishInfo, oldWeight map[string]LeaderboardInfo, filePath string) {
 	logs.Logs().Info().Msg("Updating global weight leaderboard...")
 	title := "### Biggest fish caught per player globally\n"
 	isGlobal := true
-	filePath := filepath.Join("leaderboards", "global", "weight.md")
 	err := writeWeight(filePath, recordWeight, oldWeight, title, isGlobal)
 	if err != nil {
 		logs.Logs().Error().Err(err).Msg("Error writing global weight leaderboard")
@@ -248,12 +246,11 @@ func updateWeightLeaderboard(recordWeight map[string]data.FishInfo, oldWeight ma
 	}
 }
 
-func updateCountLeaderboard(globalCount map[string]data.FishInfo, oldCount map[string]LeaderboardInfo) {
+func updateCountLeaderboard(globalCount map[string]data.FishInfo, oldCount map[string]LeaderboardInfo, filePath string) {
 	logs.Logs().Info().Msg("Updating global count leaderboard...")
 	title := "### Most fish caught globally\n"
 	isType := false
 	isGlobal := true
-	filePath := filepath.Join("leaderboards", "global", "count.md")
 	err := writeCount(filePath, globalCount, oldCount, title, isGlobal, isType)
 	if err != nil {
 		logs.Logs().Error().Err(err).Msg("Error writing global count leaderboard")

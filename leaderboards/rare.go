@@ -77,13 +77,12 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 		}
 	}
 
-	updateFishTypesLeaderboard(globalFishTypesCount, oldCount)
+	updateFishTypesLeaderboard(globalFishTypesCount, oldCount, filePath)
 }
 
-func updateFishTypesLeaderboard(globalFishTypesCount map[string]data.FishInfo, oldCount map[string]LeaderboardInfo) {
+func updateFishTypesLeaderboard(globalFishTypesCount map[string]data.FishInfo, oldCount map[string]LeaderboardInfo, filePath string) {
 	logs.Logs().Info().Msg("Updating rarest fish leaderboard...")
 	title := "### How many times a fish has been caught\n"
-	filePath := filepath.Join("leaderboards", "global", "rare.md")
 	isGlobal, isType := true, true
 	err := writeCount(filePath, globalFishTypesCount, oldCount, title, isGlobal, isType)
 	if err != nil {
