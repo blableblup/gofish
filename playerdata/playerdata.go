@@ -40,7 +40,7 @@ func GetPlayerID(pool *pgxpool.Pool, playerName string, firstFishDate time.Time,
 		logs.Logs().Info().Msgf("Added player '%s' to the playerdata table. First fish caught on %s in chat '%s'", playerName, firstFishDate, firstFishChat)
 
 	} else {
-		// If they were renamed before the database was updated and they still caught a fish with their old name, or if you recheck old logs
+		// If they were renamed before the database was updated and they still caught a fish with their old name, if you recheck old logs or they have an old entry on the leaderboards
 		err := pool.QueryRow(context.Background(), "SELECT playerid FROM playerdata WHERE name = $1", newPlayer).Scan(&playerID)
 		if err != nil {
 			return 0, err
@@ -58,7 +58,6 @@ func PlayerRenamed(player string, pool *pgxpool.Pool) string {
 	// Maybe one player caught a fish and then renamed and never caught a fish again and then another one renamed to that name ?
 	err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE name = $1", player).Scan(&player)
 	if err != nil {
-		logs.Logs().Info().Msgf("Player name '%s' cannot be found as a current name in the playerdata table. Checking if they renamed...", player)
 
 		// Check if the name is an old name for a player
 		query := `
@@ -84,7 +83,7 @@ func PlayerRenamed(player string, pool *pgxpool.Pool) string {
 		}
 
 		if len(matchingPlayers) == 0 {
-			logs.Logs().Info().Msgf("Player '%s' also doesn't appear as an old name", player)
+			logs.Logs().Info().Msgf("Player '%s' doesn't appear in playerdata as a name or old name", player)
 			return player // If the player is new (for GetPlayerID) or if the player was renamed incorrectly
 		}
 
