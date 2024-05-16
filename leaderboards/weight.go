@@ -58,7 +58,7 @@ func processWeight(params LeaderboardParams) {
 
 		if err := rows.Scan(&fishInfo.PlayerID, &fishInfo.Weight, &fishInfo.Type, &fishInfo.TypeName, &fishInfo.Bot,
 			&fishInfo.Chat, &fishInfo.Date, &fishInfo.CatchType, &fishInfo.FishId, &fishInfo.ChatId); err != nil {
-			fmt.Println("Error scanning row:", err)
+			logs.Logs().Error().Err(err).Msg("Error scanning row")
 			continue
 		}
 
