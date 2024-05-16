@@ -78,33 +78,38 @@ func Leaderboards(leaderboards string, chatNames string, mode string) {
 }
 
 func processLeaderboard(config utils.Config, params LeaderboardParams, processFunc func(LeaderboardParams)) {
-	switch params.ChatName {
-	case "all":
-		// Process all chats
-		for chatName, chat := range config.Chat {
-			if !chat.BoardsEnabled {
-				if chatName != "global" && chatName != "default" {
-					logs.Logs().Warn().Msgf("Skipping chat '%s' because board_enabled is false", chatName)
+
+	specifiedchatNames := strings.Split(params.ChatName, ",")
+	for _, chatName := range specifiedchatNames {
+
+		switch chatName {
+		case "all":
+
+			// Process all chats
+			for chatName, chat := range config.Chat {
+				if !chat.BoardsEnabled {
+					if chatName != "global" && chatName != "default" {
+						logs.Logs().Warn().Msgf("Skipping chat '%s' because board_enabled is false", chatName)
+					}
+					continue
 				}
-				continue
+
+				logs.Logs().Info().Msgf("Checking leaderboard '%s' for chat '%s'", params.LeaderboardType, chatName)
+				params.ChatName = chatName
+				params.Chat = chat
+				processFunc(params)
 			}
 
-			logs.Logs().Info().Msgf("Checking leaderboard '%s' for chat '%s'", params.LeaderboardType, chatName)
-			params.ChatName = chatName
-			params.Chat = chat
-			processFunc(params)
-		}
-	case "global":
-		processGlobalLeaderboard(params)
-	case "":
-		logs.Logs().Info().Msg("Please specify chat names")
-	default:
-		// Process specified chat names
-		specifiedchatNames := strings.Split(params.ChatName, ",")
-		for _, chatName := range specifiedchatNames {
+		case "global":
+			processGlobalLeaderboard(params)
+		case "":
+			logs.Logs().Warn().Msg("Please specify chat names")
+		default:
+
+			// Process the specified chat
 			chat, ok := config.Chat[chatName]
 			if !ok {
-				logs.Logs().Warn().Msgf("Chat '%s' not found in config.\n", chatName)
+				logs.Logs().Warn().Msgf("Chat '%s' not found in config\n", chatName)
 				continue
 			}
 			if !chat.BoardsEnabled {
@@ -118,6 +123,7 @@ func processLeaderboard(config utils.Config, params LeaderboardParams, processFu
 			params.ChatName = chatName
 			params.Chat = chat
 			processFunc(params)
+
 		}
 	}
 }
