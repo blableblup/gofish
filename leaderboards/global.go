@@ -12,7 +12,7 @@ func RunTypeGlobal(params LeaderboardParams) {
 	config := params.Config
 	pool := params.Pool
 
-	globalRecordType, newRecordType := make(map[string]data.FishInfo), make(map[string]data.FishInfo)
+	globalRecordType := make(map[string]data.FishInfo)
 	filePath := filepath.Join("leaderboards", "global", "type.md")
 	oldType, err := ReadTypeRankings(filePath, pool)
 	if err != nil {
@@ -57,28 +57,13 @@ func RunTypeGlobal(params LeaderboardParams) {
 			continue
 		}
 
-		newRecordType[fishInfo.Type] = fishInfo
+		fishInfo.Chat = config.Chat[fishInfo.Chat].Emoji
+		globalRecordType[fishInfo.Type] = fishInfo
 	}
 
 	if err := rows.Err(); err != nil {
 		logs.Logs().Error().Err(err).Msg("Error iterating over query results")
 		return
-	}
-
-	for fishType, newTypeRecord := range newRecordType {
-		emoji := config.Chat[newTypeRecord.Chat].Emoji
-		globalTypeRecord, exists := globalRecordType[fishType]
-		if !exists {
-			newTypeRecord.Chat = emoji
-			globalRecordType[fishType] = newTypeRecord
-		} else {
-			if newTypeRecord.Weight > globalTypeRecord.Weight {
-				newTypeRecord.Chat = emoji
-				globalRecordType[fishType] = newTypeRecord
-			} else {
-				globalRecordType[fishType] = globalTypeRecord
-			}
-		}
 	}
 
 	updateTypeLeaderboard(globalRecordType, oldType, filePath)
@@ -98,33 +83,46 @@ func RunWeightGlobal(params LeaderboardParams) {
 
 	WeightLimit := config.Chat["global"].Weightlimit
 
-	// Process all chats
-	for chatName, chat := range config.Chat {
-		if !chat.CheckEnabled {
-			if chatName != "global" && chatName != "default" {
-				logs.Logs().Info().Msgf("Skipping chat '%s' because check_enabled is false", chatName)
-			}
+	// Query the database to get the biggest fish per player
+	rows, err := pool.Query(context.Background(), `
+		SELECT f.playerid, f.weight, f.type AS fish_type, f.typename, f.bot, f.chat AS chatname, f.date, f.catchtype, f.fishid, f.chatid
+		FROM fish f
+		JOIN (
+			SELECT playerid, MAX(weight) AS max_weight
+			FROM fish 
+			GROUP BY playerid
+		) max_fish ON f.playerid = max_fish.playerid AND f.weight = max_fish.max_weight
+		WHERE f.weight >= $1`, WeightLimit)
+	if err != nil {
+		logs.Logs().Error().Err(err).Msg("Error querying database")
+		return
+	}
+	defer rows.Close()
+
+	// Iterate through the query results
+	for rows.Next() {
+		var fishInfo data.FishInfo
+
+		if err := rows.Scan(&fishInfo.PlayerID, &fishInfo.Weight, &fishInfo.Type, &fishInfo.TypeName, &fishInfo.Bot,
+			&fishInfo.Chat, &fishInfo.Date, &fishInfo.CatchType, &fishInfo.FishId, &fishInfo.ChatId); err != nil {
+			logs.Logs().Error().Err(err).Msg("Error scanning row")
 			continue
 		}
 
-		filePathChat := filepath.Join("leaderboards", chatName, "weight.md")
-		oldRecordWeight, err := ReadWeightRankings(filePathChat, pool)
+		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Player)
 		if err != nil {
-			logs.Logs().Error().Err(err).Msgf("Error reading old weight leaderboard for chat '%s'", chatName)
-			return
+			logs.Logs().Error().Err(err).Msgf("Error retrieving player name for id '%d'", fishInfo.PlayerID)
+			continue
 		}
 
-		for player, oldRecord := range oldRecordWeight {
-			convertedRecord := ConvertToFishInfo(oldRecord)
+		fishInfo.Chat = config.Chat[fishInfo.Chat].Emoji
+		globalRecordWeight[fishInfo.Player] = fishInfo
 
-			if convertedRecord.Weight >= WeightLimit {
-				existingRecord, exists := globalRecordWeight[player]
-				if !exists || convertedRecord.Weight > existingRecord.Weight {
-					convertedRecord.Chat = config.Chat[chatName].Emoji
-					globalRecordWeight[player] = convertedRecord
-				}
-			}
-		}
+	}
+
+	if err := rows.Err(); err != nil {
+		logs.Logs().Error().Err(err).Msg("Error iterating over query results")
+		return
 	}
 
 	updateWeightLeaderboard(globalRecordWeight, oldWeight, filePath)
