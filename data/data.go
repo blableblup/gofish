@@ -188,7 +188,7 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, mode string) e
 			return err
 		}
 
-		fishinfotable := "typename"
+		fishinfotable := "fishinfo"
 		if err := utils.EnsureTableExists(pool, fishinfotable); err != nil {
 			return err
 		}
@@ -197,7 +197,7 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, mode string) e
 			return err
 		}
 
-		query := fmt.Sprintf("INSERT INTO %s (chatid, type, typename, weight, catchtype, player, playerid, date, bot, chat) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)", tableName)
+		query := fmt.Sprintf("INSERT INTO %s (chatid, fishtype, fishname, weight, catchtype, player, playerid, date, bot, chat) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)", tableName)
 		_, err = tx.Exec(context.Background(), query, chatID, fish.Type, fishName, fish.Weight, fish.CatchType, fish.Player, playerID, fish.Date, fish.Bot, fish.Chat)
 		if err != nil {
 			return err

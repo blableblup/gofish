@@ -29,8 +29,8 @@ func EnsureTableExists(pool *pgxpool.Pool, tableName string) error {
 				CREATE TABLE %s (
 					fishid SERIAL PRIMARY KEY,
 					chatid INT,
-					type VARCHAR(255),
-					typename VARCHAR(255),
+					fishtype VARCHAR(255),
+					fishname VARCHAR(255),
 					weight FLOAT,
 					catchtype VARCHAR(255),
 					player VARCHAR(255),
@@ -45,7 +45,7 @@ func EnsureTableExists(pool *pgxpool.Pool, tableName string) error {
 			}
 
 			logs.Logs().Info().Msgf("Table '%s' created successfully", tableName)
-		case tableName == "typename":
+		case tableName == "fishinfo":
 			_, err := pool.Exec(context.Background(), fmt.Sprintf(`
 				CREATE TABLE %s (
 					fishname VARCHAR(255) PRIMARY KEY,

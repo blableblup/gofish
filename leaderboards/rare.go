@@ -31,10 +31,10 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 
 		// Query the database to get the count of each fish type caught in the chat
 		rows, err := pool.Query(context.Background(), `
-            SELECT type AS fish_type, COUNT(*) AS type_count
+            SELECT fishname, COUNT(*) AS type_count
             FROM fish
             WHERE chat = $1
-            GROUP BY fish_type
+            GROUP BY fishname
             `, chatName)
 		if err != nil {
 			logs.Logs().Error().Err(err).Msg("Error querying database")
@@ -45,8 +45,14 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 		// Iterate through the query results and store fish type count for each chat
 		for rows.Next() {
 			var fishInfo data.FishInfo
-			if err := rows.Scan(&fishInfo.Type, &fishInfo.Count); err != nil {
+			if err := rows.Scan(&fishInfo.TypeName, &fishInfo.Count); err != nil {
 				logs.Logs().Error().Err(err).Msg("Error scanning row")
+				continue
+			}
+
+			err = pool.QueryRow(context.Background(), "SELECT fishtype FROM fishinfo WHERE fishname = $1", fishInfo.TypeName).Scan(&fishInfo.Type)
+			if err != nil {
+				logs.Logs().Error().Err(err).Msgf("Error retrieving fish type for fish name '%s'", fishInfo.TypeName)
 				continue
 			}
 
