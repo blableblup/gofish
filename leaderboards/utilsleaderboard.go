@@ -80,6 +80,7 @@ func ChangeEmoji(rank int, oldRank int, found bool) string {
 	return changeEmoji
 }
 
+// This isnt needed anymore ?
 func ConvertToFishInfo(info LeaderboardInfo) data.FishInfo {
 	return data.FishInfo{
 		Weight: info.Weight,
