@@ -235,6 +235,8 @@ func writeChatStats(filePath string, chatStats map[string]data.FishInfo, oldChat
 		activediff := activefishers - oldActive
 		if activediff > 0 {
 			activepl = fmt.Sprintf("%d (+%d)", activefishers, activediff)
+		} else if activediff < 0 {
+			activepl = fmt.Sprintf("%d (%d)", activefishers, activediff)
 		} else {
 			activepl = fmt.Sprintf("%d", activefishers)
 		}
@@ -242,6 +244,8 @@ func writeChatStats(filePath string, chatStats map[string]data.FishInfo, oldChat
 		uniquediff := uniquefishers - oldUnique
 		if uniquediff > 0 {
 			uniquepl = fmt.Sprintf("%d (+%d)", uniquefishers, uniquediff)
+		} else if uniquediff < 0 {
+			uniquepl = fmt.Sprintf("%d (%d)", uniquefishers, uniquediff)
 		} else {
 			uniquepl = fmt.Sprintf("%d", uniquefishers)
 		}
