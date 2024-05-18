@@ -2,7 +2,9 @@ package leaderboards
 
 import (
 	"bufio"
+	"context"
 	"gofish/data"
+	"gofish/logs"
 	"gofish/playerdata"
 	"gofish/utils"
 	"os"
@@ -26,6 +28,10 @@ type LeaderboardInfo struct {
 	Bot    string
 	Player string
 }
+
+var oldweight float64
+var fishinfotable = "fishinfo"
+var fishType, bot, player, chat string
 
 // Function to read and extract the old trophies leaderboard from the leaderboard file
 func ReadOldTrophyRankings(filePath string, pool *pgxpool.Pool) (map[string]LeaderboardInfo, error) {
@@ -121,7 +127,6 @@ func ReadWeightRankings(filePath string, pool *pgxpool.Pool) (map[string]Leaderb
 				continue
 			}
 			oldplayer := strings.TrimSpace(parts[2])
-			var bot string
 			if strings.Contains(oldplayer, "*") {
 				oldplayer = strings.TrimRight(oldplayer, "*")
 				bot = "supibot"
@@ -134,17 +139,21 @@ func ReadWeightRankings(filePath string, pool *pgxpool.Pool) (map[string]Leaderb
 				continue // Skip processing for ignored players
 			}
 
-			fishType := strings.TrimSpace(parts[3])
-			// Update fish type if it has an equivalent
-			if equivalent := data.EquivalentFishType(fishType); equivalent != "" {
-				fishType = equivalent
+			oldfishType := strings.TrimSpace(parts[3])
+			fishName, err := data.GetFishName(pool, fishinfotable, oldfishType)
+			if err != nil {
+				return oldLeaderboardWeight, err
 			}
+			err = pool.QueryRow(context.Background(), "SELECT fishtype FROM fishinfo WHERE fishname = $1", fishName).Scan(&fishType)
+			if err != nil {
+				logs.Logs().Error().Err(err).Msgf("Error retrieving fish type for fish name '%s'", fishName)
+				continue
+			}
+
 			oldWeightStr := strings.TrimSpace(parts[4])
 			re := regexp.MustCompile(`([0-9.]+)`) // Regular expression to match floating-point numbers
 			matches := re.FindStringSubmatch(oldWeightStr)
-			var oldweight float64 // Declare oldweight outside the if block
 			if len(matches) >= 2 {
-				var err error
 				oldweight, err = strconv.ParseFloat(matches[1], 64)
 				if err != nil {
 					continue // Skip if unable to parse weight
@@ -197,13 +206,19 @@ func ReadTypeRankings(filePath string, pool *pgxpool.Pool) (map[string]Leaderboa
 			if err != nil {
 				continue
 			}
-			fishType := strings.TrimSpace(parts[2])
-			// Update fish type if it has an equivalent
-			if equivalent := data.EquivalentFishType(fishType); equivalent != "" {
-				fishType = equivalent
+
+			oldfishType := strings.TrimSpace(parts[3])
+			fishName, err := data.GetFishName(pool, fishinfotable, oldfishType)
+			if err != nil {
+				return oldLeaderboardType, err
 			}
+			err = pool.QueryRow(context.Background(), "SELECT fishtype FROM fishinfo WHERE fishname = $1", fishName).Scan(&fishType)
+			if err != nil {
+				logs.Logs().Error().Err(err).Msgf("Error retrieving fish type for fish name '%s'", fishName)
+				continue
+			}
+
 			oldplayer := strings.TrimSpace(parts[4])
-			var bot string
 			if strings.Contains(oldplayer, "*") {
 				oldplayer = strings.TrimRight(oldplayer, "*")
 				bot = "supibot"
@@ -219,9 +234,7 @@ func ReadTypeRankings(filePath string, pool *pgxpool.Pool) (map[string]Leaderboa
 			oldWeightStr := strings.TrimSpace(parts[3])
 			re := regexp.MustCompile(`([0-9.]+)`) // Regular expression to match floating-point numbers
 			matches := re.FindStringSubmatch(oldWeightStr)
-			var oldweight float64 // Declare oldweight outside the if block
 			if len(matches) >= 2 {
-				var err error
 				oldweight, err = strconv.ParseFloat(matches[1], 64)
 				if err != nil {
 					continue // Skip if unable to parse weight
@@ -275,18 +288,22 @@ func ReadTotalcountRankings(filePath string, pool *pgxpool.Pool, isFish bool) (m
 				continue
 			}
 			oldplayer := strings.TrimSpace(parts[2])
-			var bot string
 			if strings.Contains(oldplayer, "*") {
 				oldplayer = strings.TrimRight(oldplayer, "*")
 				bot = "supibot"
 			}
 
 			// Check if the player renamed or is a fish (for global rarest fish leaderboard)
-			var player string
 			if isFish {
-				fishType := oldplayer
-				if equivalent := data.EquivalentFishType(fishType); equivalent != "" {
-					fishType = equivalent
+				oldfishType := oldplayer
+				fishName, err := data.GetFishName(pool, fishinfotable, oldfishType)
+				if err != nil {
+					return oldLeaderboardCount, err
+				}
+				err = pool.QueryRow(context.Background(), "SELECT fishtype FROM fishinfo WHERE fishname = $1", fishName).Scan(&fishType)
+				if err != nil {
+					logs.Logs().Error().Err(err).Msgf("Error retrieving fish type for fish name '%s'", fishName)
+					continue
 				}
 				player = fishType
 			} else {
@@ -342,7 +359,6 @@ func ReadOldChatStats(filePath string) (map[string]LeaderboardInfo, error) {
 				continue
 			}
 
-			var chat string
 			chatstr := strings.TrimSpace(parts[2])
 			chatParts := strings.Split(chatstr, " ")
 			if len(chatParts) > 0 {
@@ -361,9 +377,7 @@ func ReadOldChatStats(filePath string) (map[string]LeaderboardInfo, error) {
 			oldWeightStr := strings.TrimSpace(parts[6])
 			re := regexp.MustCompile(`([0-9.]+)`)
 			matches := re.FindStringSubmatch(oldWeightStr)
-			var oldweight float64
 			if len(matches) >= 2 {
-				var err error
 				oldweight, err = strconv.ParseFloat(matches[1], 64)
 				if err != nil {
 					continue
