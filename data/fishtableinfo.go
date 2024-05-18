@@ -12,7 +12,7 @@ var fishName, newfishType, oldfishType, response string
 
 // I didnt really test this for new fish types, but should work ? i think
 
-func getFishName(pool *pgxpool.Pool, fishinfotable string, fishType string) (string, error) {
+func GetFishName(pool *pgxpool.Pool, fishinfotable string, fishType string) (string, error) {
 
 	var exists bool
 	err := pool.QueryRow(context.Background(), "SELECT EXISTS (SELECT 1 FROM "+fishinfotable+" WHERE fishtype = $1)", fishType).Scan(&exists)

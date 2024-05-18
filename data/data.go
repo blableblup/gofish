@@ -192,7 +192,7 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, mode string) e
 		if err := utils.EnsureTableExists(pool, fishinfotable); err != nil {
 			return err
 		}
-		fishName, err := getFishName(pool, fishinfotable, fish.Type)
+		fishName, err := GetFishName(pool, fishinfotable, fish.Type)
 		if err != nil {
 			return err
 		}
