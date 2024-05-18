@@ -11,6 +11,7 @@ import (
 func RunTypeGlobal(params LeaderboardParams) {
 	config := params.Config
 	pool := params.Pool
+	mode := params.Mode
 
 	globalRecordType := make(map[string]data.FishInfo)
 	filePath := filepath.Join("leaderboards", "global", "type.md")
@@ -66,12 +67,49 @@ func RunTypeGlobal(params LeaderboardParams) {
 		return
 	}
 
+	for fishType, typerecord := range globalRecordType {
+		oldtyperecord, exists := oldType[fishType]
+		if !exists {
+			logs.Logs().Info().
+				Str("Date", typerecord.Date.Format(time.RFC3339)).
+				Str("Chat", typerecord.Chat).
+				Float64("Weight", typerecord.Weight).
+				Str("TypeName", typerecord.TypeName).
+				Str("CatchType", typerecord.CatchType).
+				Str("FishType", typerecord.Type).
+				Str("Player", typerecord.Player).
+				Int("ChatID", typerecord.ChatId).
+				Int("FishID", typerecord.FishId).
+				Msg("New Record Weight for fishType")
+		} else {
+			if typerecord.Weight > oldtyperecord.Weight {
+				logs.Logs().Info().
+					Str("Date", typerecord.Date.Format(time.RFC3339)).
+					Str("Chat", typerecord.Chat).
+					Float64("Weight", typerecord.Weight).
+					Str("TypeName", typerecord.TypeName).
+					Str("CatchType", typerecord.CatchType).
+					Str("FishType", typerecord.Type).
+					Str("Player", typerecord.Player).
+					Int("ChatID", typerecord.ChatId).
+					Int("FishID", typerecord.FishId).
+					Msg("Updated Record Weight for fishType")
+			}
+		}
+	}
+
+	if mode == "check" {
+		logs.Logs().Info().Msg("Finished checking for new global type records")
+		return
+	}
+
 	updateTypeLeaderboard(globalRecordType, oldType, filePath)
 }
 
 func RunWeightGlobal(params LeaderboardParams) {
 	config := params.Config
 	pool := params.Pool
+	mode := params.Mode
 
 	globalRecordWeight := make(map[string]data.FishInfo)
 	filePath := filepath.Join("leaderboards", "global", "weight.md")
@@ -122,6 +160,42 @@ func RunWeightGlobal(params LeaderboardParams) {
 
 	if err := rows.Err(); err != nil {
 		logs.Logs().Error().Err(err).Msg("Error iterating over query results")
+		return
+	}
+
+	for player, weightrecord := range globalRecordWeight {
+		oldweightrecord, exists := oldWeight[player]
+		if !exists {
+			logs.Logs().Info().
+				Str("Date", weightrecord.Date.Format(time.RFC3339)).
+				Str("Chat", weightrecord.Chat).
+				Float64("Weight", weightrecord.Weight).
+				Str("TypeName", weightrecord.TypeName).
+				Str("CatchType", weightrecord.CatchType).
+				Str("FishType", weightrecord.Type).
+				Str("Player", weightrecord.Player).
+				Int("ChatID", weightrecord.ChatId).
+				Int("FishID", weightrecord.FishId).
+				Msg("New Record Weight for Player")
+		} else {
+			if weightrecord.Weight > oldweightrecord.Weight {
+				logs.Logs().Info().
+					Str("Date", weightrecord.Date.Format(time.RFC3339)).
+					Str("Chat", weightrecord.Chat).
+					Float64("Weight", weightrecord.Weight).
+					Str("TypeName", weightrecord.TypeName).
+					Str("CatchType", weightrecord.CatchType).
+					Str("FishType", weightrecord.Type).
+					Str("Player", weightrecord.Player).
+					Int("ChatID", weightrecord.ChatId).
+					Int("FishID", weightrecord.FishId).
+					Msg("Updated Record Weight for Player")
+			}
+		}
+	}
+
+	if mode == "check" {
+		logs.Logs().Info().Msg("Finished checking for new global weight records")
 		return
 	}
 
