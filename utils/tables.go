@@ -48,8 +48,10 @@ func EnsureTableExists(pool *pgxpool.Pool, tableName string) error {
 		case tableName == "typename":
 			_, err := pool.Exec(context.Background(), fmt.Sprintf(`
 				CREATE TABLE %s (
-					type VARCHAR(255) PRIMARY KEY,
-					typename VARCHAR(255)
+					fishname VARCHAR(255) PRIMARY KEY,
+					fishtype VARCHAR(255),
+					oldemojis TEXT,
+					shiny TEXT
 				)
 			`, tableName))
 			if err != nil {
