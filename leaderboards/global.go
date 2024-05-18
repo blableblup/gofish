@@ -23,18 +23,18 @@ func RunTypeGlobal(params LeaderboardParams) {
 
 	// Query the database to get the biggest fish per type
 	rows, err := pool.Query(context.Background(), `
-		SELECT f.type AS fish_type, f.weight, f.typename, f.bot, f.chat AS chatname, f.date, f.catchtype, f.fishid, f.chatid, f.playerid
+		SELECT f.weight, f.fishname, f.bot, f.chat AS chatname, f.date, f.catchtype, f.fishid, f.chatid, f.playerid
 		FROM fish f
 		JOIN (
-			SELECT type, MAX(weight) AS max_weight
+			SELECT fishname, MAX(weight) AS max_weight
 			FROM fish 
-			GROUP BY type
+			GROUP BY fishname
 		) AS sub
-		ON f.type = sub.type AND f.weight = sub.max_weight
+		ON f.fishname = sub.fishname AND f.weight = sub.max_weight
 		AND f.fishid = (
 			SELECT MIN(fishid)
 			FROM fish
-			WHERE type = sub.type AND weight = sub.max_weight
+			WHERE fishname = sub.fishname AND weight = sub.max_weight
 	)`)
 	if err != nil {
 		logs.Logs().Error().Err(err).Msg("Error querying database")
@@ -46,8 +46,8 @@ func RunTypeGlobal(params LeaderboardParams) {
 	for rows.Next() {
 		var fishInfo data.FishInfo
 
-		if err := rows.Scan(&fishInfo.Type, &fishInfo.Weight, &fishInfo.TypeName, &fishInfo.Bot,
-			&fishInfo.Chat, &fishInfo.Date, &fishInfo.CatchType, &fishInfo.FishId, &fishInfo.ChatId, &fishInfo.PlayerID); err != nil {
+		if err := rows.Scan(&fishInfo.Weight, &fishInfo.TypeName, &fishInfo.Bot, &fishInfo.Chat,
+			&fishInfo.Date, &fishInfo.CatchType, &fishInfo.FishId, &fishInfo.ChatId, &fishInfo.PlayerID); err != nil {
 			logs.Logs().Error().Err(err).Msg("Error scanning row")
 			continue
 		}
@@ -55,6 +55,12 @@ func RunTypeGlobal(params LeaderboardParams) {
 		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Player)
 		if err != nil {
 			logs.Logs().Error().Err(err).Msgf("Error retrieving player name for id '%d'", fishInfo.PlayerID)
+			continue
+		}
+
+		err = pool.QueryRow(context.Background(), "SELECT fishtype FROM fishinfo WHERE fishname = $1", fishInfo.TypeName).Scan(&fishInfo.Type)
+		if err != nil {
+			logs.Logs().Error().Err(err).Msgf("Error retrieving fish type for fish name '%s'", fishInfo.TypeName)
 			continue
 		}
 
@@ -123,7 +129,7 @@ func RunWeightGlobal(params LeaderboardParams) {
 
 	// Query the database to get the biggest fish per player
 	rows, err := pool.Query(context.Background(), `
-		SELECT f.playerid, f.weight, f.type AS fish_type, f.typename, f.bot, f.chat AS chatname, f.date, f.catchtype, f.fishid, f.chatid
+		SELECT f.playerid, f.weight, f.fishname, f.bot, f.chat AS chatname, f.date, f.catchtype, f.fishid, f.chatid
 		FROM fish f
 		JOIN (
 			SELECT playerid, MAX(weight) AS max_weight
@@ -141,7 +147,7 @@ func RunWeightGlobal(params LeaderboardParams) {
 	for rows.Next() {
 		var fishInfo data.FishInfo
 
-		if err := rows.Scan(&fishInfo.PlayerID, &fishInfo.Weight, &fishInfo.Type, &fishInfo.TypeName, &fishInfo.Bot,
+		if err := rows.Scan(&fishInfo.PlayerID, &fishInfo.Weight, &fishInfo.TypeName, &fishInfo.Bot,
 			&fishInfo.Chat, &fishInfo.Date, &fishInfo.CatchType, &fishInfo.FishId, &fishInfo.ChatId); err != nil {
 			logs.Logs().Error().Err(err).Msg("Error scanning row")
 			continue
@@ -150,6 +156,12 @@ func RunWeightGlobal(params LeaderboardParams) {
 		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Player)
 		if err != nil {
 			logs.Logs().Error().Err(err).Msgf("Error retrieving player name for id '%d'", fishInfo.PlayerID)
+			continue
+		}
+
+		err = pool.QueryRow(context.Background(), "SELECT fishtype FROM fishinfo WHERE fishname = $1", fishInfo.TypeName).Scan(&fishInfo.Type)
+		if err != nil {
+			logs.Logs().Error().Err(err).Msgf("Error retrieving fish type for fish name '%s'", fishInfo.TypeName)
 			continue
 		}
 

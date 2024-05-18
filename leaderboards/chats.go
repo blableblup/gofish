@@ -101,7 +101,7 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 
 		// Get the channel record
 		rows, err = pool.Query(context.Background(), `
-				SELECT f.playerid, f.weight, f.type
+				SELECT f.playerid, f.weight, f.fishname
 				FROM fish f
 				JOIN (
 					SELECT MAX(weight) AS max_weight
@@ -117,10 +117,16 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 		defer rows.Close()
 
 		for rows.Next() {
-			if err := rows.Scan(&chatInfo.PlayerID, &chatInfo.Weight, &chatInfo.Type); err != nil {
+			if err := rows.Scan(&chatInfo.PlayerID, &chatInfo.Weight, &chatInfo.TypeName); err != nil {
 				logs.Logs().Error().Err(err).Msgf("Error scanning row to get channel record for chat %s", chatName)
 				continue
 			}
+		}
+
+		err = pool.QueryRow(context.Background(), "SELECT fishtype FROM fishinfo WHERE fishname = $1", chatInfo.TypeName).Scan(&chatInfo.Type)
+		if err != nil {
+			logs.Logs().Error().Err(err).Msgf("Error retrieving fish type for fish name '%s'", chatInfo.TypeName)
+			continue
 		}
 
 		err = pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", chatInfo.PlayerID).Scan(&chatInfo.Player)

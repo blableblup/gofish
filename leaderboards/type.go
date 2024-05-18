@@ -29,20 +29,20 @@ func processType(params LeaderboardParams) {
 
 	// Query the database to get the biggest fish per type for the specific chat
 	rows, err := pool.Query(context.Background(), `
-		SELECT f.type AS fish_type, f.weight, f.typename, f.bot, f.chat AS chatname, f.date, f.catchtype, f.fishid, f.chatid, f.playerid
+		SELECT f.weight, f.fishname, f.bot, f.chat AS chatname, f.date, f.catchtype, f.fishid, f.chatid, f.playerid
 		FROM fish f
 		JOIN (
-			SELECT type, MAX(weight) AS max_weight
+			SELECT fishname, MAX(weight) AS max_weight
 			FROM fish 
 			WHERE chat = $1
-			GROUP BY type
+			GROUP BY fishname
 		) AS sub
-		ON f.type = sub.type AND f.weight = sub.max_weight
+		ON f.fishname = sub.fishname AND f.weight = sub.max_weight
 		WHERE f.chat = $1
 		AND f.chatid = (
 			SELECT MIN(chatid)
 			FROM fish
-			WHERE type = sub.type AND weight = sub.max_weight AND chat = $1
+			WHERE fishname = sub.fishname AND weight = sub.max_weight AND chat = $1
 		)`, chatName)
 	if err != nil {
 		logs.Logs().Error().Err(err).Msg("Error querying database")
@@ -54,7 +54,7 @@ func processType(params LeaderboardParams) {
 	for rows.Next() {
 		var fishInfo data.FishInfo
 
-		if err := rows.Scan(&fishInfo.Type, &fishInfo.Weight, &fishInfo.TypeName, &fishInfo.Bot,
+		if err := rows.Scan(&fishInfo.Weight, &fishInfo.TypeName, &fishInfo.Bot,
 			&fishInfo.Chat, &fishInfo.Date, &fishInfo.CatchType, &fishInfo.FishId, &fishInfo.ChatId, &fishInfo.PlayerID); err != nil {
 			logs.Logs().Error().Err(err).Msg("Error scanning row")
 			continue
@@ -64,6 +64,12 @@ func processType(params LeaderboardParams) {
 		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Player)
 		if err != nil {
 			logs.Logs().Error().Err(err).Msgf("Error retrieving player name for id '%d'", fishInfo.PlayerID)
+			continue
+		}
+
+		err = pool.QueryRow(context.Background(), "SELECT fishtype FROM fishinfo WHERE fishname = $1", fishInfo.TypeName).Scan(&fishInfo.Type)
+		if err != nil {
+			logs.Logs().Error().Err(err).Msgf("Error retrieving fish type for fish name '%s'", fishInfo.TypeName)
 			continue
 		}
 
