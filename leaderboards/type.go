@@ -25,8 +25,7 @@ func processType(params LeaderboardParams) {
 		return
 	}
 
-	// Create maps to store updated records
-	recordType, newRecordType := make(map[string]data.FishInfo), make(map[string]data.FishInfo)
+	recordType := make(map[string]data.FishInfo)
 
 	// Query the database to get the biggest fish per type for the specific chat
 	rows, err := pool.Query(context.Background(), `
@@ -68,7 +67,7 @@ func processType(params LeaderboardParams) {
 			continue
 		}
 
-		newRecordType[fishInfo.Type] = fishInfo
+		recordType[fishInfo.Type] = fishInfo
 	}
 
 	if err := rows.Err(); err != nil {
@@ -77,10 +76,9 @@ func processType(params LeaderboardParams) {
 	}
 
 	// Compare old type records with new ones and update if necessary
-	for fishType, newTypeRecord := range newRecordType {
+	for fishType, newTypeRecord := range recordType {
 		oldTypeRecord, exists := oldType[fishType]
 		if !exists {
-			recordType[fishType] = newTypeRecord
 			logs.Logs().Info().
 				Str("Date", newTypeRecord.Date.Format(time.RFC3339)).
 				Str("Chat", newTypeRecord.Chat).
@@ -94,7 +92,6 @@ func processType(params LeaderboardParams) {
 				Msg("New Record Type for Fish Type")
 		} else {
 			if newTypeRecord.Weight > oldTypeRecord.Weight {
-				recordType[fishType] = newTypeRecord
 				logs.Logs().Info().
 					Str("Date", newTypeRecord.Date.Format(time.RFC3339)).
 					Str("Chat", newTypeRecord.Chat).
@@ -106,8 +103,6 @@ func processType(params LeaderboardParams) {
 					Int("ChatID", newTypeRecord.ChatId).
 					Int("FishID", newTypeRecord.FishId).
 					Msg("Updated Record Type for Fish Type")
-			} else {
-				recordType[fishType] = ConvertToFishInfo(oldTypeRecord)
 			}
 		}
 	}

@@ -32,8 +32,7 @@ func processWeight(params LeaderboardParams) {
 		Weightlimit = config.Chat["default"].Weightlimit
 	}
 
-	// Create maps to store updated records
-	recordWeight, newRecordWeight := make(map[string]data.FishInfo), make(map[string]data.FishInfo)
+	recordWeight := make(map[string]data.FishInfo)
 
 	// Query the database to get the biggest fish per player for the specific chat
 	rows, err := pool.Query(context.Background(), `
@@ -68,7 +67,7 @@ func processWeight(params LeaderboardParams) {
 			continue
 		}
 
-		newRecordWeight[fishInfo.Player] = fishInfo
+		recordWeight[fishInfo.Player] = fishInfo
 
 	}
 
@@ -78,10 +77,9 @@ func processWeight(params LeaderboardParams) {
 	}
 
 	// Compare old weight records with new ones and update if necessary
-	for playerName, newWeightRecord := range newRecordWeight {
+	for playerName, newWeightRecord := range recordWeight {
 		oldWeightRecord, exists := oldRecordWeight[playerName]
 		if !exists {
-			recordWeight[playerName] = newWeightRecord
 			logs.Logs().Info().
 				Str("Date", newWeightRecord.Date.Format(time.RFC3339)).
 				Str("Chat", newWeightRecord.Chat).
@@ -95,7 +93,6 @@ func processWeight(params LeaderboardParams) {
 				Msg("New Record Weight for Player")
 		} else {
 			if newWeightRecord.Weight > oldWeightRecord.Weight {
-				recordWeight[playerName] = newWeightRecord
 				logs.Logs().Info().
 					Str("Date", newWeightRecord.Date.Format(time.RFC3339)).
 					Str("Chat", newWeightRecord.Chat).
@@ -107,8 +104,6 @@ func processWeight(params LeaderboardParams) {
 					Int("ChatID", newWeightRecord.ChatId).
 					Int("FishID", newWeightRecord.FishId).
 					Msg("Updated Record Weight for Player")
-			} else {
-				recordWeight[playerName] = ConvertToFishInfo(oldWeightRecord)
 			}
 		}
 	}
