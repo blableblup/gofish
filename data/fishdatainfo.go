@@ -137,26 +137,14 @@ func extractInfoFromReleasePattern(match []string) FishInfo {
 }
 
 var equivalentFishTypes = map[string]string{
-	"🕷":          "🕷️",
-	"🗡":          "🗡️",
-	"🕶":          "🕶️",
-	"☂":          "☂️",
-	"⛸":          "⛸️",
-	"🧜♀":         "🧜‍♀️",
-	"🧜♀️":        "🧜‍♀️",
-	"🧜‍♀":        "🧜‍♀️",
-	"🐻‍❄️":       "🐻‍❄",
-	"🧞‍♂️":       "🧞‍♂",
-	"Jellyfish":  "🪼", // Add a space behind for fish which are/were not supported as emotes
+	"Jellyfish":  "🪼",
 	"Jellyfish ": "🪼",
-	"HailHelix ": "🐚",
-	"HailHelix":  "🐚",
-	"SabaPing ":  "🐟",
-	"SabaPing":   "🐟",
+	"HailHelix ": "HailHelix",
+	"SabaPing ":  "SabaPing",
 }
 
-// EquivalentFishType checks if the current fish type is in the list of equivalent fish types
-// and returns the corresponding equivalent fish type if it exists.
+// This is now mainly used to get rid of the trailing space behind some fish which are not emojis
+// I dont know why HailHelix and SabaPing had a space behind
 func EquivalentFishType(fishType string) string {
 	equivalent, ok := equivalentFishTypes[fishType]
 	if ok {
