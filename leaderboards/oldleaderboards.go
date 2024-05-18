@@ -207,7 +207,7 @@ func ReadTypeRankings(filePath string, pool *pgxpool.Pool) (map[string]Leaderboa
 				continue
 			}
 
-			oldfishType := strings.TrimSpace(parts[3])
+			oldfishType := strings.TrimSpace(parts[2])
 			fishName, err := data.GetFishName(pool, fishinfotable, oldfishType)
 			if err != nil {
 				return oldLeaderboardType, err
