@@ -18,7 +18,7 @@
 | 15  | crazytown_bananapants | 841 |
 | 16  | fishingalt | 823 (+1) |
 | 17  | ouacewi | 822 (+25) |
-| 18  | bussinongnocap* | 797 (+2) |
+| 18  | bussinongnocap | 797 (+2) |
 | 19  | xth49* | 619 |
 | 20  | kaasppeerr | 600 |
 | 21  | trident1011 | 579 |
