@@ -59,6 +59,10 @@ func RunCountGlobal(params LeaderboardParams) {
 			}
 			if fishInfo.Date.Before(time.Date(2023, time.September, 14, 0, 0, 0, 0, time.UTC)) {
 				fishInfo.Bot = "supibot"
+				err := pool.QueryRow(context.Background(), "SELECT verified FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Verified)
+				if err != nil {
+					logs.Logs().Error().Err(err).Msgf("Error retrieving verified status for playerid '%d'", fishInfo.PlayerID)
+				}
 			}
 
 			// Check if the player is already in the map
@@ -84,6 +88,7 @@ func RunCountGlobal(params LeaderboardParams) {
 					Chat:       emoji,
 					MaxCount:   fishInfo.Count,
 					Bot:        fishInfo.Bot,
+					Verified:   fishInfo.Verified,
 					ChatCounts: map[string]int{emoji: fishInfo.Count},
 				}
 			}

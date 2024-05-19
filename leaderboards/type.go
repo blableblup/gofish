@@ -5,8 +5,6 @@ import (
 	"fmt"
 	"gofish/data"
 	"gofish/logs"
-	"gofish/playerdata"
-	"gofish/utils"
 	"os"
 	"path/filepath"
 	"time"
@@ -65,6 +63,13 @@ func processType(params LeaderboardParams) {
 		if err != nil {
 			logs.Logs().Error().Err(err).Msgf("Error retrieving player name for id '%d'", fishInfo.PlayerID)
 			continue
+		}
+
+		if fishInfo.Bot == "supibot" {
+			err := pool.QueryRow(context.Background(), "SELECT verified FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Verified)
+			if err != nil {
+				logs.Logs().Error().Err(err).Msgf("Error retrieving verified status for playerid '%d'", fishInfo.PlayerID)
+			}
 		}
 
 		err = pool.QueryRow(context.Background(), "SELECT fishtype FROM fishinfo WHERE fishname = $1", fishInfo.TypeName).Scan(&fishInfo.Type)
@@ -169,8 +174,6 @@ func writeType(filePath string, recordType map[string]data.FishInfo, oldType map
 		return err
 	}
 
-	verifiedPlayers := playerdata.ReadVerifiedPlayers()
-
 	sortedTypes := SortMapByWeightDesc(recordType)
 
 	rank := 1
@@ -215,7 +218,7 @@ func writeType(filePath string, recordType map[string]data.FishInfo, oldType map
 		}
 
 		botIndicator := ""
-		if recordType[fishType].Bot == "supibot" && !utils.Contains(verifiedPlayers, player) {
+		if recordType[fishType].Bot == "supibot" && !recordType[fishType].Verified {
 			botIndicator = "*"
 		}
 
