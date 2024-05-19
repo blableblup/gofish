@@ -40,7 +40,7 @@ func Leaderboards(leaderboards string, chatNames string, mode string) {
 	for _, leaderboard := range leaderboardList {
 		params.LeaderboardType = leaderboard
 		switch leaderboard {
-		case "fishw":
+		case "fishweek":
 			processLeaderboard(config, params, processFishweek)
 		case "trophy":
 			processLeaderboard(config, params, processTrophy)
