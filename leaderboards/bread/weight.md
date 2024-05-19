@@ -6,7 +6,7 @@
 | 3 🥉  | qu4ttromila | 🐳 | 303.81 |
 | 4  | osnyatsky | 🐳 | 302.88 |
 | 5  | derinturitierutz | 🐳 | 301.87 |
-| 6  | xxx_r0ze_xxx | 🐳 | 298.10 |
+| 6  | chubbyhamster__ | 🐳 | 298.10 |
 | 7  | kishma9 | 🐳 | 297.37 |
 | 8  | fishingalt | 🐳 | 297.27 |
 | 9  | islcfc* | 🐳 | 296.57 |
@@ -44,4 +44,4 @@
 | 41  | notparasfishalt* | 🐉 | 207.18 |
 | 42  | veggesh | 🦈 | 206.22 |
 
-_Last updated at 2024-05-12 09:08:57 UTC_
+_Last updated at 2024-05-19 09:12:56 UTC_

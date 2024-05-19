@@ -7,7 +7,7 @@
 | 4  | huuuuurz | 🐳 | 303.51 | 🐱 |
 | 5  | osnyatsky | 🐳 | 302.88 | 🍞 |
 | 6  | derinturitierutz | 🐳 | 301.87 | 🍞 |
-| 7  | xxx_r0ze_xxx | 🐳 | 298.10 | 🍞 |
+| 7  | chubbyhamster__ | 🐳 | 298.10 | 🍞 |
 | 8  | kishma9 | 🐳 | 297.37 | 🍞 |
 | 9  | nndiana | 🐳 | 297.35 | 🐱 |
 | 10  | fishingalt | 🐳 | 297.27 | 🍞 |
@@ -34,4 +34,4 @@
 | 31  | 6blmue | 🐳 | 272.90 | 🐱 |
 | 32  | crazytown_bananapants | 🦈 | 270.42 | 🍞 |
 
-_Last updated at 2024-05-12 09:13:49 UTC_
+_Last updated at 2024-05-19 09:12:56 UTC_
