@@ -5,8 +5,6 @@ import (
 	"fmt"
 	"gofish/data"
 	"gofish/logs"
-	"gofish/playerdata"
-	"gofish/utils"
 	"os"
 	"path/filepath"
 	"sort"
@@ -60,6 +58,10 @@ func processCount(params LeaderboardParams) {
 		}
 		if fishInfo.Date.Before(time.Date(2023, time.September, 14, 0, 0, 0, 0, time.UTC)) {
 			fishInfo.Bot = "supibot"
+			err := pool.QueryRow(context.Background(), "SELECT verified FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Verified)
+			if err != nil {
+				logs.Logs().Error().Err(err).Msgf("Error retrieving verified status for playerid '%d'", fishInfo.PlayerID)
+			}
 		}
 
 		fishCaught[fishInfo.Player] = fishInfo
@@ -117,8 +119,6 @@ func writeCount(filePath string, fishCaught map[string]data.FishInfo, oldCountRe
 		return err
 	}
 
-	verifiedPlayers := playerdata.ReadVerifiedPlayers()
-
 	sortedPlayers := SortMapByCountDesc(fishCaught)
 
 	rank := 1
@@ -161,7 +161,7 @@ func writeCount(filePath string, fishCaught map[string]data.FishInfo, oldCountRe
 		}
 
 		botIndicator := ""
-		if fishCaught[player].Bot == "supibot" && !utils.Contains(verifiedPlayers, player) {
+		if fishCaught[player].Bot == "supibot" && !fishCaught[player].Verified {
 			botIndicator = "*"
 		}
 

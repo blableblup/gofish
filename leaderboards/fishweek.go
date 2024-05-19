@@ -50,6 +50,13 @@ func processFishweek(params LeaderboardParams) {
 			continue
 		}
 
+		if fishInfo.Bot == "supibot" {
+			err := pool.QueryRow(context.Background(), "SELECT verified FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Verified)
+			if err != nil {
+				logs.Logs().Error().Err(err).Msgf("Error retrieving verified status for playerid '%d'", fishInfo.PlayerID)
+			}
+		}
+
 		maxFishInWeek[fishInfo.Player] = fishInfo
 	}
 
