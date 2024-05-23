@@ -22,20 +22,24 @@ func main() {
 
 	flag.Parse()
 
-	if *program == "" {
-		logs.Logs().Info().Msg("Usage: go run main.go -p boards [-s <chat names> <all> <global>] [-l <leaderboards>] [-mm <mode>]")
-		logs.Logs().Info().Msg("Usage: go run main.go -p data [-db <database>] [-m <months>] [-dt <date>] [-mm <mode>]")
-		logs.Logs().Info().Msg("Usage: If no month or time period is specified it checks the current month")
-		logs.Logs().Info().Msg("Usage: go run main.go -p renamed [-rename <oldName:newName>]")
-		return
-	}
-
 	if *mode != "" && !isValidModeForProgram(*program, *mode) {
 		logs.Logs().Warn().Msg("Invalid mode specified for the program or the program doesn't have different modes")
 		return
 	}
 
 	switch *program {
+	case "":
+		logs.Logs().Warn().Msg("No program specified. Use 'go run main.go -p help' for help")
+		return
+
+	case "help":
+		logs.Logs().Info().Msg("Leaderboards: fishweek, trophy, weight, type, count, rare, stats. Global boards: weight, type, count")
+		logs.Logs().Info().Msg("Usage: go run main.go -p boards [-s <chat names> <all> <global>] [-l <leaderboards>] [-mm <mode>]")
+		logs.Logs().Info().Msg("Usage: go run main.go -p data [-db <database>] [-m <months>] [-dt <date>] [-mm <mode>]")
+		logs.Logs().Info().Msg("Usage: If no month or time period is specified it checks the current month")
+		logs.Logs().Info().Msg("Usage: go run main.go -p renamed [-rename <oldName:newName>]")
+		return
+
 	case "boards":
 		if *mode != "" {
 			logs.Logs().Info().Msgf("Running %s program in mode '%s'...", *program, *mode)
