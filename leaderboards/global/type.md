@@ -47,8 +47,8 @@
 | 44  | 🍄 | 17.85 | comiqq | 🍞 |
 | 45  | 🦆 | 15.69 | derinturitierutz | 🍞 |
 | 46  | 🪀 | 15.53 | chubbyhamster__ | 🍞 |
-| 47 ⬆ | 🪵 | 15.28 (+2.27) | comiqq | 🍞 |
-| 48 ⬇ | 🐌 | 14.24 | yliathim* | 🍞 |
+| 47  | 🪵 | 15.28 | comiqq | 🍞 |
+| 48  | 🐌 | 14.24 | yliathim* | 🍞 |
 | 49  | 🎱 | 12.85 | qu4ttromila | 🍞 |
 | 50  | 🧃 | 12.83 | huuuuurz | 🐱 |
 | 51  | 🕶️ | 12.56 | destr0yer72 | 🐱 |
@@ -80,7 +80,7 @@
 | 77  | 🌿 | 1.96 | dayzedinndaydreams | 🍞 |
 | 77  | ⛸️ | 1.96 | pookiesnowman | 🐱 |
 | 79  | 🧤 | 1.00 | kubo7 | 🐱 |
-| 80  | 🪶 | 0.99 | osnyatsky* | 🍞 |
 | 80  | 🧣 | 0.99 | osnyatsky* | 🍞 |
+| 80  | 🪶 | 0.99 | osnyatsky* | 🍞 |
 
-_Last updated at 2024-05-19 09:12:55 UTC_
+_Last updated at 2024-05-26 08:21:48 UTC_
