@@ -47,8 +47,8 @@
 | 44  | 🍄 | 17.85 | comiqq |
 | 45  | 🦆 | 15.69 | derinturitierutz |
 | 46  | 🪀 | 15.53 | chubbyhamster__ |
-| 47 ⬆ | 🪵 | 15.28 (+2.27) | comiqq |
-| 48 ⬇ | 🐌 | 14.24 | yliathim* |
+| 47  | 🪵 | 15.28 | comiqq |
+| 48  | 🐌 | 14.24 | yliathim* |
 | 49  | 🎱 | 12.85 | qu4ttromila |
 | 50  | 🕶️ | 12.41 | paras220 |
 | 51  | 🐦 | 11.96 | julialuxel |
@@ -79,8 +79,8 @@
 | 76  | 👢 | 1.98 | derinturitierutz |
 | 77  | 🌿 | 1.96 | dayzedinndaydreams |
 | 78  | ⛸️ | 1.94 | ryebreadward |
-| 79  | 🪶 | 0.99 | osnyatsky* |
 | 79  | 🧣 | 0.99 | osnyatsky* |
+| 79  | 🪶 | 0.99 | osnyatsky* |
 | 79  | 🧤 | 0.99 | sicklymaidrobot |
 
-_Last updated at 2024-05-19 09:12:53 UTC_
+_Last updated at 2024-05-26 08:21:47 UTC_
