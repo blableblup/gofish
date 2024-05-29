@@ -8,63 +8,62 @@ import (
 	"github.com/jackc/pgx/v4/pgxpool"
 )
 
-var fishName, newfishType, oldfishType, response string
+var fishName, oldfishType, response string
+var exists bool
 
-// I didnt really test this for new fish types, but should work ? i think
+// The fishtype in the table is the emote of the fish, which can be the shiny version or different versions of the emote (like 🕷🕷️ for spider)
+// The fishtype should only exists once in the table
 
 func GetFishName(pool *pgxpool.Pool, fishinfotable string, fishType string) (string, error) {
 
-	var exists bool
+	// Check if fishType exists directly
 	err := pool.QueryRow(context.Background(), "SELECT EXISTS (SELECT 1 FROM "+fishinfotable+" WHERE fishtype = $1)", fishType).Scan(&exists)
 	if err != nil {
-		return fishName, err
+		return "", err
+	}
+	if exists {
+		return queryFishNameByType(pool, fishinfotable, fishType)
 	}
 
-	if !exists {
-		err = pool.QueryRow(context.Background(), "SELECT EXISTS (SELECT 1 FROM "+fishinfotable+" WHERE $1 = ANY(STRING_TO_ARRAY(oldemojis, ' ')))", fishType).Scan(&exists)
-		if err != nil {
-			return fishName, err
-		}
-
-		if !exists {
-			err = pool.QueryRow(context.Background(), "SELECT EXISTS (SELECT 1 FROM "+fishinfotable+" WHERE $1 = ANY(STRING_TO_ARRAY(shiny, ' ')))", fishType).Scan(&exists)
-			if err != nil {
-				return fishName, err
-			}
-
-			if !exists {
-				// The fishtype doesn't exist as oldemoji/shiny/fishtype in the database, add it
-				newfishType, err = addFishType(pool, fishinfotable, fishType)
-				if err != nil {
-					return fishName, err
-				}
-
-				// Query the fish name again
-				row := pool.QueryRow(context.Background(), "SELECT fishname FROM "+fishinfotable+" WHERE fishtype = $1", newfishType)
-				if err := row.Scan(&fishName); err != nil {
-					return fishName, err
-				}
-
-				return fishName, nil
-			}
-
-		} else {
-			row := pool.QueryRow(context.Background(), "SELECT fishname FROM "+fishinfotable+" WHERE $1 = ANY(STRING_TO_ARRAY(oldemojis, ' '))", fishType)
-			if err := row.Scan(&fishName); err != nil {
-				return fishName, err
-			}
-			return fishName, nil
-		}
-
-	} else {
-		row := pool.QueryRow(context.Background(), "SELECT fishname FROM "+fishinfotable+" WHERE fishtype = $1", fishType)
-		if err := row.Scan(&fishName); err != nil {
-			return fishName, err
-		}
-		return fishName, nil
+	// Check if fishType exists as old emoji
+	err = pool.QueryRow(context.Background(), "SELECT EXISTS (SELECT 1 FROM "+fishinfotable+" WHERE $1 = ANY(STRING_TO_ARRAY(oldemojis, ' ')))", fishType).Scan(&exists)
+	if err != nil {
+		return "", err
+	}
+	if exists {
+		return queryFishNameByEmoji(pool, fishinfotable, fishType)
 	}
 
-	return fishName, nil
+	// Check if fishType exists as shiny
+	err = pool.QueryRow(context.Background(), "SELECT EXISTS (SELECT 1 FROM "+fishinfotable+" WHERE $1 = ANY(STRING_TO_ARRAY(shiny, ' ')))", fishType).Scan(&exists)
+	if err != nil {
+		return "", err
+	}
+	if exists {
+		return queryFishNameByShiny(pool, fishinfotable, fishType)
+	}
+
+	// If not found, add it and retrieve the fish name
+	newFishType, err := addFishType(pool, fishinfotable, fishType)
+	if err != nil {
+		return "", err
+	}
+	return queryFishNameByType(pool, fishinfotable, newFishType)
+}
+
+func queryFishNameByType(pool *pgxpool.Pool, fishinfotable string, fishType string) (string, error) {
+	err := pool.QueryRow(context.Background(), "SELECT fishname FROM "+fishinfotable+" WHERE fishtype = $1", fishType).Scan(&fishName)
+	return fishName, err
+}
+
+func queryFishNameByEmoji(pool *pgxpool.Pool, fishinfotable string, fishType string) (string, error) {
+	err := pool.QueryRow(context.Background(), "SELECT fishname FROM "+fishinfotable+" WHERE $1 = ANY(STRING_TO_ARRAY(oldemojis, ' '))", fishType).Scan(&fishName)
+	return fishName, err
+}
+
+func queryFishNameByShiny(pool *pgxpool.Pool, fishinfotable string, fishType string) (string, error) {
+	err := pool.QueryRow(context.Background(), "SELECT fishname FROM "+fishinfotable+" WHERE $1 = ANY(STRING_TO_ARRAY(shiny, ' '))", fishType).Scan(&fishName)
+	return fishName, err
 }
 
 func addFishType(pool *pgxpool.Pool, fishinfotable string, fishType string) (string, error) {
