@@ -6,8 +6,6 @@ import (
 	"gofish/logs"
 	"gofish/playerdata"
 	"gofish/utils"
-	"os"
-	"path/filepath"
 	"sort"
 	"sync"
 
@@ -15,15 +13,8 @@ import (
 )
 
 func GetData(chatNames, data string, numMonths int, monthYear string, mode string) {
-	// Get the current working directory
-	wd, err := os.Getwd()
-	if err != nil {
-		logs.Logs().Error().Err(err).Msg("Error getting current working directory")
-		os.Exit(1)
-	}
 
-	configFilePath := filepath.Join(wd, "config.json")
-	config := utils.LoadConfig(configFilePath)
+	config := utils.LoadConfig()
 
 	pool, err := Connect()
 	if err != nil {
