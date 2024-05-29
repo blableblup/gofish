@@ -37,7 +37,7 @@ func GetTournamentData(config utils.Config, pool *pgxpool.Pool, chatNames string
 				defer wg.Done()
 
 				logs.Logs().Info().Msgf("Checking tournament results for chat '%s'...", chatName)
-				urls := utils.CreateURL(chatName, numMonths, monthYear)
+				urls := utils.CreateURL(chatName, numMonths, monthYear, config)
 				fetchMatchingLines(chatName, pool, urls, mode)
 			}(chatName, chat)
 		}
@@ -63,7 +63,7 @@ func GetTournamentData(config utils.Config, pool *pgxpool.Pool, chatNames string
 				defer wg.Done()
 
 				logs.Logs().Info().Msgf("Checking tournament results for chat '%s'...", chatName)
-				urls := utils.CreateURL(chatName, numMonths, monthYear)
+				urls := utils.CreateURL(chatName, numMonths, monthYear, config)
 				fetchMatchingLines(chatName, pool, urls, mode)
 			}(chatName, chat)
 		}

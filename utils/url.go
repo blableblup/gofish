@@ -4,30 +4,19 @@ import (
 	"fmt"
 	"gofish/logs"
 	"os"
-	"path/filepath"
 	"strconv"
 	"strings"
 	"time"
 )
 
-// createURL generates URLs based on the given arguments and returns them
-func CreateURL(chatName string, numMonths int, monthYear string) []string {
+// One problem here: Whenever it is past midnight for me, it checks the previous month instead of the current one ?
+// This creates the urls which get checked in data. By default it returns the url of the current month
 
-	// Get the current working directory
-	wd, err := os.Getwd()
-	if err != nil {
-		logs.Logs().Error().Err(err).Msg("Error getting current working directory")
-		os.Exit(1)
-	}
-
-	// Construct the absolute path to the config file
-	configFilePath := filepath.Join(wd, "config.json")
-
-	// Load the config from the constructed file path
-	config := LoadConfig(configFilePath)
+func CreateURL(chatName string, numMonths int, monthYear string, config Config) []string {
 
 	now := time.Now()
 	var urls []string
+	var err error
 
 	// Start from the specified month/year or current month/year
 	if monthYear != "" {
