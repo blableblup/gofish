@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"gofish/logs"
 	"os"
+	"path/filepath"
 )
 
 type ChatInfo struct {
@@ -22,8 +23,17 @@ type Config struct {
 	Chat map[string]ChatInfo `json:"twitch_chat"`
 }
 
-func LoadConfig(filename string) Config {
-	file, err := os.Open(filename)
+func LoadConfig() Config {
+
+	wd, err := os.Getwd()
+	if err != nil {
+		logs.Logs().Error().Err(err).Msg("Error getting current working directory")
+		os.Exit(1)
+	}
+
+	configFilePath := filepath.Join(wd, "config.json")
+
+	file, err := os.Open(configFilePath)
 	if err != nil {
 		logs.Logs().Error().Err(err).Msg("Error opening config file")
 		os.Exit(1)

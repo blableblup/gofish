@@ -6,8 +6,6 @@ import (
 	"gofish/data"
 	"gofish/logs"
 	"gofish/utils"
-	"os"
-	"path/filepath"
 	"strings"
 
 	"github.com/jackc/pgx/v4"
@@ -29,13 +27,7 @@ func ProcessRenamePairs(renamePairs string) ([]struct{ OldName, NewName string }
 
 func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 
-	wd, err := os.Getwd()
-	if err != nil {
-		logs.Logs().Fatal().Err(err).Msg("Error getting current working directory")
-	}
-
-	configFilePath := filepath.Join(wd, "config.json")
-	config := utils.LoadConfig(configFilePath)
+	config := utils.LoadConfig()
 
 	pool, err := data.Connect()
 	if err != nil {

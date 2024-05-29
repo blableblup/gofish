@@ -4,22 +4,14 @@ import (
 	"gofish/data"
 	"gofish/logs"
 	"gofish/utils"
-	"os"
-	"path/filepath"
 	"strings"
 
 	"github.com/jackc/pgx/v4/pgxpool"
 )
 
 func Leaderboards(leaderboards string, chatNames string, mode string) {
-	// Get the current working directory
-	wd, err := os.Getwd()
-	if err != nil {
-		logs.Logs().Fatal().Err(err).Msg("Error getting current working directory")
-	}
 
-	configFilePath := filepath.Join(wd, "config.json")
-	config := utils.LoadConfig(configFilePath)
+	config := utils.LoadConfig()
 
 	leaderboardList := strings.Split(leaderboards, ",")
 
