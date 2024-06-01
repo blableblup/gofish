@@ -11,8 +11,7 @@ import (
 var fishName, oldfishType, response string
 var exists bool
 
-// The fishtype in the table is the emote of the fish, which can be the shiny version or different versions of the emote (like 🕷🕷️ for spider)
-// The fishtype should only exists once in the table
+// The fishtype in the table is the emote of the fish. A fish type can have a shiny version and old versions of the emote (like 🕷🕷️ for spider)
 
 func GetFishName(pool *pgxpool.Pool, fishinfotable string, fishType string) (string, error) {
 
