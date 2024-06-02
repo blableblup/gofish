@@ -79,8 +79,9 @@
 | 76  | 👢 | 1.98 | derinturitierutz |
 | 77  | 🌿 | 1.96 | dayzedinndaydreams |
 | 78  | ⛸️ | 1.94 | ryebreadward |
-| 79  | 🧣 | 0.99 | osnyatsky* |
-| 79  | 🪶 | 0.99 | osnyatsky* |
-| 79  | 🧤 | 0.99 | sicklymaidrobot |
+| 79 🆕 | 🌻 | 1.35 | suavvvvv |
+| 80 ⬇ | 🧣 | 0.99 | osnyatsky* |
+| 80 ⬇ | 🪶 | 0.99 | osnyatsky* |
+| 80 ⬇ | 🧤 | 0.99 | sicklymaidrobot |
 
-_Last updated at 2024-05-26 08:21:47 UTC_
+_Last updated at 2024-06-02 09:07:34 UTC_
