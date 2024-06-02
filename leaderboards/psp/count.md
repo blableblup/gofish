@@ -1,66 +1,70 @@
 ### Most fish caught in psp's chat
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
-| 1 🥇  | caprise627* | 1038 (+8) |
-| 2 🥈  | pengeg | 867 (+12) |
-| 3 🥉  | jr_mime | 820 (+19) |
-| 4 ⬆ | huuuuurz | 706 (+26) |
-| 5 ⬇ | amu1g | 689 |
-| 6  | nndiana* | 658 (+44) |
-| 7  | sandwichsundays* | 576 (+12) |
-| 8  | zwockel01 | 531 (+29) |
-| 9  | wisdom_frog | 496 |
-| 10  | jems______ | 476 (+36) |
-| 11  | noconcept_ | 366 |
-| 12  | quinrayy | 353 |
-| 13  | faslker | 352 |
-| 14 ⬆ | divra__ | 347 (+8) |
-| 15 ⬇ | copperx9 | 343 (+1) |
-| 16  | maksmusz* | 332 (+7) |
-| 17 ⬆ | benciee | 298 (+62) |
-| 18 ⬇ | angus_lpc | 293 (+22) |
-| 19 ⬇ | gorillapark | 272 (+3) |
-| 20 ⬇ | qxxick_ | 269 |
-| 21 ⬇ | euxoa | 245 |
-| 22  | hahppyy | 238 (+8) |
-| 23 ⬆ | fonuwu | 237 (+90) |
-| 24 ⬆ | flunke_ | 231 (+22) |
-| 25 ⬇ | creepycode1337* | 228 (+4) |
-| 26 ⬇ | jj_ladic | 217 |
-| 27 ⬇ | cale4 | 212 |
-| 28 ⬇ | wasdecxyq | 190 |
-| 29 ⬇ | cappo7117 | 185 (+6) |
-| 30 ⬆ | commanda_u | 178 (+22) |
-| 31 ⬇ | satic____ | 170 |
-| 32 ⬇ | ocram1g | 166 (+1) |
-| 33 ⬇ | seryxx | 165 (+1) |
-| 34 ⬆ | theng | 161 (+11) |
-| 35 ⬇ | quton | 157 |
-| 36  | crunch_sack | 152 (+2) |
-| 37 ⬇ | pspisafemboy | 151 |
-| 37 ⬇ | ttecnk | 151 |
-| 39 ⬆ | jamison1906 | 150 (+5) |
-| 39 ⬇ | thasbe | 150 |
-| 41 ⬇ | adziooooo | 149 |
-| 42 ⬇ | asthmaa | 146 |
-| 43 ⬇ | yopego | 145 |
-| 44  | brunodestar | 132 |
-| 45  | vibepill | 130 |
-| 46  | kubo7 | 128 |
-| 47  | rttvname | 127 |
-| 48  | kaspu222 | 125 |
-| 49 ⬆ | markenzy01 | 123 (+6) |
-| 50 ⬇ | 6blmue | 119 |
-| 50 ⬇ | chow_peepohappy* | 119 |
-| 50 ⬇ | obscurecharmling | 119 |
-| 53 ⬇ | xkimi1337 | 118 |
-| 54  | damon_okami* | 116 |
-| 55  | milchfunky* | 112 (+1) |
-| 55 ⬆ | popfizzgg | 112 (+6) |
-| 57 ⬇ | ovrht | 108 |
-| 57 ⬇ | starducc | 108 |
-| 59  | alvaniss1g | 104 |
-| 60  | acidfd174 | 103 |
-| 61  | thelantzzz | 102 |
+| 1 🥇  | caprise627* | 1055 (+17) |
+| 2 🥈  | pengeg | 887 (+20) |
+| 3 🥉  | jr_mime | 838 (+18) |
+| 4  | huuuuurz | 726 (+20) |
+| 5 ⬆ | nndiana* | 716 (+58) |
+| 6 ⬇ | amu1g | 689 |
+| 7  | sandwichsundays* | 593 (+17) |
+| 8  | zwockel01 | 569 (+38) |
+| 9 ⬆ | jems______ | 528 (+52) |
+| 10 ⬇ | wisdom_frog | 496 |
+| 11  | noconcept_ | 368 (+2) |
+| 12 ⬆ | benciee | 361 (+63) |
+| 13 ⬆ | divra__ | 354 (+7) |
+| 14 ⬇ | quinrayy | 353 |
+| 15 ⬇ | faslker | 352 |
+| 16 ⬇ | copperx9 | 343 |
+| 17 ⬇ | maksmusz* | 340 (+8) |
+| 18  | angus_lpc | 324 (+31) |
+| 19 ⬆ | fonuwu | 318 (+81) |
+| 20 ⬇ | gorillapark | 278 (+6) |
+| 21 ⬇ | qxxick_ | 269 |
+| 22 ⬆ | flunke_ | 249 (+18) |
+| 23 ⬇ | euxoa | 245 |
+| 24 ⬇ | hahppyy | 241 (+3) |
+| 25  | creepycode1337* | 233 (+5) |
+| 26  | jj_ladic | 217 |
+| 27  | cale4 | 212 |
+| 28 ⬆ | commanda_u | 211 (+33) |
+| 29  | cappo7117 | 193 (+8) |
+| 30 ⬇ | wasdecxyq | 190 |
+| 31 ⬆ | theng | 179 (+18) |
+| 32 ⬇ | satic____ | 170 |
+| 32 ⬆ | seryxx | 170 (+5) |
+| 34 ⬇ | ocram1g | 168 (+2) |
+| 35 🆕 | bubinga | 164 |
+| 36 ⬇ | quton | 158 (+1) |
+| 37 ⬇ | crunch_sack | 153 (+1) |
+| 37 ⬆ | jamison1906 | 153 (+3) |
+| 39 ⬇ | pspisafemboy | 151 |
+| 39 ⬇ | ttecnk | 151 |
+| 41 ⬇ | thasbe | 150 |
+| 42 ⬇ | adziooooo | 149 |
+| 43 ⬇ | asthmaa | 146 |
+| 44 ⬇ | yopego | 145 |
+| 45 ⬇ | brunodestar | 134 (+2) |
+| 46 ⬇ | vibepill | 130 |
+| 47 ⬇ | kubo7 | 129 (+1) |
+| 48 ⬆ | markenzy01 | 128 (+5) |
+| 49 🆕 | mazzo_tv | 127 |
+| 49 ⬇ | rttvname | 127 |
+| 51 ⬇ | kaspu222 | 125 |
+| 52 🆕 | bartohehe | 121 |
+| 53 ⬇ | 6blmue | 119 |
+| 53 ⬇ | chow_peepohappy* | 119 |
+| 53 ⬇ | obscurecharmling | 119 |
+| 56 🆕 | brachiocs | 118 |
+| 56 ⬇ | xkimi1337 | 118 |
+| 58 ⬇ | damon_okami* | 116 |
+| 59 ⬇ | popfizzgg | 114 (+2) |
+| 60 ⬇ | milchfunky* | 113 (+1) |
+| 61 ⬇ | ovrht | 108 |
+| 61 ⬇ | starducc | 108 |
+| 63 ⬇ | alvaniss1g | 104 |
+| 64 ⬇ | acidfd174 | 103 |
+| 65 ⬇ | thelantzzz | 102 |
 
-_Last updated at 2024-05-26 08:21:44 UTC_
+_Last updated at 2024-06-02 09:07:31 UTC_

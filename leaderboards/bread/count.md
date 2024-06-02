@@ -2,57 +2,57 @@
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
 | 1 🥇  | osnyatsky* | 5070 |
-| 2 🥈  | sicklymaidrobot | 3583 (+22) |
-| 3 🥉  | qu4ttromila | 2986 (+1) |
-| 4  | puzzlow | 2966 (+113) |
-| 5  | kishma9 | 2390 (+1) |
-| 6  | derinturitierutz | 2297 |
-| 7 ⬆ | miiiiisho | 2256 (+31) |
-| 8 ⬇ | sussy_amonge | 2229 |
-| 9  | dayzedinndaydreams | 2198 (+1) |
-| 10  | booty_bread | 1866 (+12) |
-| 11  | chubbyhamster__ | 1381 (+68) |
-| 12 ⬆ | ninjaross* | 961 (+17) |
-| 13 ⬇ | ryebreadward | 957 |
-| 14  | paras220 | 866 (+3) |
+| 2 🥈  | sicklymaidrobot | 3596 (+13) |
+| 3 🥉 ⬆ | puzzlow | 3050 (+84) |
+| 4 ⬇ | qu4ttromila | 2986 |
+| 5  | kishma9 | 2390 |
+| 6  | derinturitierutz | 2299 (+2) |
+| 7  | miiiiisho | 2282 (+26) |
+| 8  | sussy_amonge | 2229 |
+| 9  | dayzedinndaydreams | 2205 (+7) |
+| 10  | booty_bread | 1875 (+9) |
+| 11  | chubbyhamster__ | 1450 (+69) |
+| 12  | ninjaross* | 969 (+8) |
+| 13  | ryebreadward | 957 |
+| 14  | paras220 | 867 (+1) |
 | 15  | crazytown_bananapants | 841 |
-| 16  | fishingalt | 828 (+5) |
-| 17  | ouacewi | 823 (+1) |
+| 16  | fishingalt | 838 (+10) |
+| 17  | ouacewi | 823 |
 | 18  | bussinongnocap | 797 |
+| 19 ⬆ | comiqq | 619 (+33) |
 | 19  | xth49* | 619 |
-| 20  | kaasppeerr | 603 (+3) |
-| 21 ⬆ | comiqq | 586 (+24) |
-| 22 ⬇ | trident1011 | 579 |
-| 23 ⬇ | xz_xz | 567 |
-| 24  | islcfc* | 558 (+1) |
-| 25  | julialuxel | 419 (+9) |
+| 21 ⬇ | kaasppeerr | 604 (+1) |
+| 22  | trident1011 | 579 |
+| 23  | xz_xz | 567 |
+| 24  | islcfc* | 558 |
+| 25  | julialuxel | 421 (+2) |
 | 26  | lazzvli* | 406 |
-| 27  | doublehelicalstructure* | 399 |
-| 28 ⬆ | dougiefresh_83* | 389 (+10) |
-| 29 ⬇ | kildofris* | 385 |
+| 27 ⬆ | dougiefresh_83* | 405 (+16) |
+| 28 ⬇ | doublehelicalstructure* | 399 |
+| 29  | kildofris* | 385 |
 | 30  | realtechnine | 302 |
 | 31  | crinche* | 283 |
-| 32  | bapqo | 268 (+5) |
-| 33  | leanmeister | 252 |
-| 34  | suavvvvv | 248 (+5) |
-| 35  | mitgliederversammlung | 245 (+4) |
-| 36  | supibot | 237 |
-| 37  | breadworms | 234 |
-| 37 ⬆ | cumro | 234 (+5) |
-| 39 ⬇ | itsalot_tlike* | 229 |
-| 40  | larrahey | 225 (+9) |
-| 41  | divra__ | 213 (+7) |
+| 32 ⬆ | suavvvvv | 269 (+21) |
+| 33 ⬇ | bapqo | 268 |
+| 34 ⬇ | leanmeister | 252 |
+| 35  | mitgliederversammlung | 250 (+5) |
+| 36 ⬆ | cumro | 248 (+14) |
+| 37 ⬇ | supibot | 237 |
+| 38 ⬇ | breadworms | 235 (+1) |
+| 39 ⬆ | larrahey | 234 (+9) |
+| 40 ⬇ | itsalot_tlike* | 229 |
+| 41  | divra__ | 219 (+6) |
 | 42  | hmsmob* | 203 |
-| 43 ⬆ | wispmode | 178 (+4) |
-| 44 ⬇ | yliathim* | 176 |
+| 43  | wispmode | 182 (+4) |
+| 44  | yliathim* | 176 |
 | 45  | wisco9ers* | 171 |
 | 46  | 5c33* | 159 |
 | 46  | veggesh | 159 |
 | 48  | lagggm* | 152 |
 | 49  | niiy | 146 |
-| 50  | fallen_angels_1995 | 139 |
-| 51  | gawblemachine | 138 (+6) |
+| 50 ⬆ | gawblemachine | 142 (+4) |
+| 51 ⬇ | fallen_angels_1995 | 139 |
 | 52  | jackwhalebreaker | 109 |
 | 53  | rexhappy_lol | 105 |
 
-_Last updated at 2024-05-26 08:21:44 UTC_
+_Last updated at 2024-06-02 09:07:31 UTC_
