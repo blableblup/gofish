@@ -1,21 +1,22 @@
 ### Most fish caught in a single week in tournaments in psp's chat
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
-| 1 🥇  | jr_mime | 73 |
-| 2 🥈  | benciee | 62 (+2) |
-| 3 🥉  | thasbe | 48 |
-| 4  | nndiana | 47 |
-| 4  | yopego | 47 |
-| 6  | fonuwu | 42 |
+| 1 🥇 ⬆ | fonuwu | 83 (+41) |
+| 2 🥈 ⬇ | jr_mime | 73 |
+| 3 🥉 ⬇ | benciee | 62 |
+| 4  | nndiana | 57 (+10) |
+| 5 ⬇ | thasbe | 48 |
+| 6 ⬇ | yopego | 47 |
 | 7  | amu1g | 37 |
 | 7  | pengeg | 37 |
 | 9  | jems______ | 35 |
 | 10  | divra__ | 33 |
-| 11  | mikel1g | 31 |
-| 12  | noconcept_ | 29 |
-| 13  | creepycode1337 | 26 |
-| 14  | zwockel01 | 24 |
-| 15  | restartmikel | 23 |
-| 16  | afju* | 21 |
+| 11 🆕 | commanda_u | 32 |
+| 12 ⬇ | mikel1g | 31 |
+| 13 ⬇ | noconcept_ | 29 |
+| 14 ⬇ | creepycode1337 | 26 |
+| 15 ⬇ | zwockel01 | 24 |
+| 16 ⬇ | restartmikel | 23 |
+| 17 ⬇ | afju* | 21 |
 
-_Last updated at 2024-05-29 10:38:03 UTC_
+_Last updated at 2024-06-04 09:30:35 UTC_
