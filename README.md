@@ -5,17 +5,19 @@ gofish made by [breadworms](https://www.twitch.tv/breadworms)
 
 _The leaderboards are updated every sunday_
 
-## Chats being covered 👥
-| Chat | Emoji | Leaderboards | Data stored | Logs |
-|---| --- | --- | --- | --- |
-| [breadworms](https://www.twitch.tv/breadworms) | 🍞 | ✔️ | ✔️ | [logs.joinuv.com](https://logs.joinuv.com/?channel=breadworms&username=gofishgame) |
-| [psp1g](https://www.twitch.tv/psp1g) | 🐱 | ✔️ | ✔️ | [logs.nadeko.net](https://logs.nadeko.net/?channel=psp1g&username=gofishgame) |
+These chats are currently being covered:
 
-## Regarding the data 🗃️
-The log data for psp1g's chat from the 27th of February 2024 to the 3rd of March 2024 is incomplete (see [here](https://logs.nadeko.net/channel/psp1g/2024/2/28))
+| Chat | Logs |
+|---| --- |
+| [breadworms](https://www.twitch.tv/breadworms) | [logs.joinuv.com](https://logs.joinuv.com/?channel=breadworms&username=gofishgame) |
+| [psp1g](https://www.twitch.tv/psp1g) | [logs.nadeko.net](https://logs.nadeko.net/?channel=psp1g&username=gofishgame) |
 
-The data for psp1g's chat from the 12th of December 2023 to the 14th of December 2023  is also incomplete (see [here](https://logs.nadeko.net/channel/psp1g/2023/12/13))
+## About the data 🗃️
 
-There might have been other times where the logs were down but I only noticed those two periods so far
+* The data comes from the justlog instance. The program parses the logs of gofishgame (or supibot for older data) and then inserts the fish and the tournament results into a postgresql database.
 
->The * next to a player's name on the leaderboard indicates that they did not migrate their supibot data to gofishgame. Thus, their supibot records are marked with an asterisk because they were not verified for accuracy.
+* The log data for psp1g's chat from the 27th of February 2024 to the 3rd of March 2024 is incomplete (see [here](https://logs.nadeko.net/channel/psp1g/2024/2/28)).
+
+* The data for psp1g's chat from the 12th of December 2023 to the 14th of December 2023  is also incomplete (see [here](https://logs.nadeko.net/channel/psp1g/2023/12/13)).
+
+* The * next to a player's name on the leaderboard indicates that they did not migrate their supibot data to gofishgame. Thus, their supibot records are marked with an asterisk because they were not verified for accuracy.
