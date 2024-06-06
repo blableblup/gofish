@@ -249,11 +249,11 @@ func insertTDataIntoDB(newResults []string, chatName string, mode string, pool *
 		newResultCounts++
 	}
 
-	logs.Logs().Info().Msgf("Successfully inserted %d new results into the database for chat '%s'", newResultCounts, chatName)
-
 	if err := tx.Commit(context.Background()); err != nil {
 		return err
 	}
+
+	logs.Logs().Info().Msgf("Successfully inserted %d new results into the database for chat '%s'", newResultCounts, chatName)
 
 	return nil
 }
