@@ -9,7 +9,6 @@ import (
 	"time"
 )
 
-// One problem here: Whenever it is past midnight for me, it checks the previous month instead of the current one ?
 // This creates the urls which get checked in data. By default it returns the url of the current month
 
 func CreateURL(chatName string, numMonths int, monthYear string, config Config) []string {
@@ -41,7 +40,7 @@ func CreateURL(chatName string, numMonths int, monthYear string, config Config) 
 	// Loop through the specified number of months
 	for i := 0; i < numMonths; i++ {
 		// Calculate the date for the first day of the current month
-		firstOfMonth := now.AddDate(0, -i, -now.Day()+1).UTC().Truncate(24 * time.Hour)
+		firstOfMonth := time.Date(now.Year(), now.Month()-time.Month(i), 1, 0, 0, 0, 0, time.UTC)
 
 		// Extract the year and month from the first day of the month
 		year, month, _ := firstOfMonth.Date()
