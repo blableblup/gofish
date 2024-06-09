@@ -70,16 +70,16 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 		if err != nil {
 			if err == pgx.ErrNoRows {
 				// If the player renamed but never caught a fish since renaming. This only updates the old name in playerdata
-				var confirm string
-				logs.Logs().Warn().Msgf("Player '%s' does not have an entry in the playerdata table. Is the name correct? (y/n): ", newName)
-				_, err = fmt.Scanln(&confirm)
+				logs.Logs().Warn().Msgf("Player '%s' does not have an entry in the playerdata table. ", newName)
+				confirm, err := utils.Confirm("Is the name correct? (y to continue, n to exit)")
 				if err != nil {
+					logs.Logs().Error().Err(err).Msg("Error reading input")
 					return err
 				}
 
-				if confirm != "y" {
-					logs.Logs().Info().Msg("Player not renamed")
-					continue
+				if !confirm {
+					logs.Logs().Info().Msg("Exiting program")
+					return nil
 				}
 
 				// Update player names and oldnames
@@ -197,6 +197,20 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 			logs.Logs().Info().Msgf("Rows affected in playerdata table for player %s after deletion: %d", newName, rowsAffected)
 		}
 
+	}
+
+	confirm, err := utils.Confirm("Continue with the transaction? Or exit if there is something wrong (y to continue, n to exit)")
+	if err != nil {
+		logs.Logs().Error().Err(err).Msg("Error reading input")
+		return err
+	}
+
+	if confirm {
+		logs.Logs().Info().Msg("Committing transaction...")
+
+	} else {
+		logs.Logs().Info().Msg("Exiting program")
+		return nil
 	}
 
 	// Commit the transaction
