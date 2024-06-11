@@ -76,7 +76,7 @@ func GetFishData(config utils.Config, pool *pgxpool.Pool, chatNames string, numM
 			return allFish[i].Date.Before(allFish[j].Date)
 		})
 
-		if err := insertFishDataIntoDB(allFish, pool, mode); err != nil {
+		if err := insertFishDataIntoDB(allFish, pool, config, mode); err != nil {
 			logs.Logs().Error().Err(err).Msg("Error inserting fish data into database")
 			return
 		}
@@ -121,7 +121,7 @@ func ProcessFishData(urls []string, chatName string, Chat utils.ChatInfo, pool *
 	return allFish
 }
 
-func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, mode string) error {
+func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.Config, mode string) error {
 
 	tx, err := pool.Begin(context.Background())
 	if err != nil {
@@ -132,11 +132,14 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, mode string) e
 	lastChatIDs := make(map[string]int)
 	newFishCounts := make(map[string]int)
 
+	for chatName, chat := range config.Chat {
+		if chat.CheckEnabled {
+			newFishCounts[chatName] = 0
+		}
+	}
+
 	for _, fish := range allFish {
 
-		if _, ok := newFishCounts[fish.Chat]; !ok {
-			newFishCounts[fish.Chat] = 0
-		}
 		tableName := "fish"
 		if err := utils.EnsureTableExists(pool, tableName); err != nil {
 			return err
