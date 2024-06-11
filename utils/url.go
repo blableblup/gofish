@@ -55,7 +55,20 @@ func CreateURL(chatName string, numMonths int, monthYear string, config Config) 
 		}
 
 		// Check if the current month is within September 2023
-		if year == 2023 && month == time.September && config.Chat[chatName].LogsHostOld != "" {
+		if year == 2023 && month == time.September {
+			if config.Chat[chatName].LogsHostOld == "" {
+				// This doesnt need to be fatal for chats which didnt have gofish on supibot
+				// But this shouldnt really happen, since the program should break before that by checking logsAdded
+				logs.Logs().Warn().Msgf("There is no old logs host specified for chat '%s'", chatName)
+				confirm, err := Confirm("Do you want to go ahead? Or exit the program? (use y or n)")
+				if err != nil {
+					logs.Logs().Fatal().Err(err).Msg("Error reading input")
+				}
+				if !confirm {
+					logs.Logs().Fatal().Msgf("No old logs host specified for chat '%s'", chatName)
+				}
+			}
+
 			// Use both the old and new logs hosts
 			urlOld := fmt.Sprintf("%s%d/%d?", config.Chat[chatName].LogsHostOld, year, int(month))
 			urlNew := fmt.Sprintf("%s%d/%d?", config.Chat[chatName].LogsHost, year, int(month))
@@ -71,7 +84,16 @@ func CreateURL(chatName string, numMonths int, monthYear string, config Config) 
 					logs.Logs().Info().Msgf("Fetching data from supibot: %s", url)
 					urls = append(urls, url)
 				} else {
-					logs.Logs().Warn().Msg("There is no old logs host specified. Skipping...")
+					// This doesnt need to be fatal for chats which didnt have gofish on supibot
+					// But this shouldnt really happen, since the program should break before that by checking logsAdded
+					logs.Logs().Warn().Msgf("There is no old logs host specified for chat '%s'", chatName)
+					confirm, err := Confirm("Do you want to go ahead? Or exit the program? (use y or n)")
+					if err != nil {
+						logs.Logs().Fatal().Err(err).Msg("Error reading input")
+					}
+					if !confirm {
+						logs.Logs().Fatal().Msgf("No old logs host specified for chat '%s'", chatName)
+					}
 				}
 			} else {
 				// Use the current logs host
