@@ -3,7 +3,6 @@ package utils
 import (
 	"fmt"
 	"gofish/logs"
-	"os"
 	"strconv"
 	"strings"
 	"time"
@@ -15,24 +14,24 @@ func CreateURL(chatName string, numMonths int, monthYear string, config Config) 
 
 	now := time.Now()
 	var urls []string
-	var err error
+
+	if config.Chat[chatName].LogsHost == "" {
+		logs.Logs().Fatal().Msgf("No logs host specified for chat '%s'", chatName)
+	}
 
 	// Start from the specified month/year or current month/year
 	if monthYear != "" {
 		parts := strings.Split(monthYear, "/")
 		if len(parts) != 2 {
-			logs.Logs().Error().Err(err).Msg("Invalid month/year format. Please use 'yyyy/mm' format.")
-			os.Exit(1)
+			logs.Logs().Fatal().Msg("Invalid month/year format. Please use 'yyyy/mm' format.")
 		}
 		year, err := strconv.Atoi(parts[0])
 		if err != nil {
-			logs.Logs().Error().Err(err).Msg("Invalid year")
-			os.Exit(1)
+			logs.Logs().Fatal().Msg("Invalid year")
 		}
 		month, err := strconv.Atoi(parts[1])
 		if err != nil || month < 1 || month > 12 {
-			logs.Logs().Error().Err(err).Msg("Invalid month")
-			os.Exit(1)
+			logs.Logs().Fatal().Msg("Invalid month")
 		}
 		now = time.Date(year, time.Month(month), 1, 0, 0, 0, 0, time.UTC)
 	}
@@ -52,7 +51,7 @@ func CreateURL(chatName string, numMonths int, monthYear string, config Config) 
 				break
 			}
 		} else {
-			logs.Logs().Error().Err(err).Msg("Error parsing LogsAdded")
+			logs.Logs().Error().Msg("Error parsing LogsAdded")
 		}
 
 		// Check if the current month is within September 2023
