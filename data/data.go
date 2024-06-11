@@ -197,16 +197,16 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, mode string) e
 		newFishCounts[fish.Chat]++
 	}
 
+	if err := tx.Commit(context.Background()); err != nil {
+		return err
+	}
+
 	for chat, count := range newFishCounts {
 		if count > 0 {
 			logs.Logs().Info().Msgf("Successfully inserted %d new fish into the database for chat '%s'", count, chat)
 		} else {
 			logs.Logs().Info().Msgf("No new fish found to insert into the database for chat '%s'", chat)
 		}
-	}
-
-	if err := tx.Commit(context.Background()); err != nil {
-		return err
 	}
 
 	return nil
