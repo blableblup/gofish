@@ -101,7 +101,6 @@ func fetchMatchingLines(chatName string, pool *pgxpool.Pool, urls []string, mode
 			lines := strings.Split(string(body), "\n")
 			for _, line := range lines {
 				if strings.Contains(line, "The results are in") ||
-					strings.Contains(line, "The results for last week are in") ||
 					strings.Contains(line, "Last week...") {
 					matchingLines = append(matchingLines, strings.TrimSpace(line))
 				}
