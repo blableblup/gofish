@@ -51,7 +51,8 @@ func CreateURL(chatName string, numMonths int, monthYear string, config Config) 
 				break
 			}
 		} else {
-			logs.Logs().Error().Msg("Error parsing LogsAdded")
+			// Every chat should have this field in the config
+			logs.Logs().Fatal().Err(err).Msgf("Unable to parse LogsAdded for chat '%s'", chatName)
 		}
 
 		// Check if the current month is within September 2023
