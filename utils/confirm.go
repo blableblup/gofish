@@ -10,7 +10,7 @@ import (
 
 func Confirm(prompt string) (bool, error) {
 	reader := bufio.NewReader(os.Stdin)
-	logs.Logs().Info().Msg(prompt)
+	logs.Logs().Warn().Msg(prompt)
 	for {
 		input, err := reader.ReadString('\n')
 		if err != nil {
