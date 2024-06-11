@@ -233,6 +233,7 @@ func insertTDataIntoDB(newResults []string, chatName string, mode string, pool *
 			}
 		}
 
+		// This adds the players checkin result date and chat as their first fish!
 		playerID, err := playerdata.GetPlayerID(pool, result.Player, result.Date, result.Chat)
 		if err != nil {
 			return err
