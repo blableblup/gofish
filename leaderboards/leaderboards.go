@@ -130,7 +130,7 @@ func processGlobalLeaderboard(params LeaderboardParams) {
 	case "type":
 		RunTypeGlobal(params)
 	default:
-		logs.Logs().Info().Msgf("（︶^︶） There is no global leaderboard for that board '%s'", params.LeaderboardType)
+		logs.Logs().Warn().Msgf("（︶^︶） There is no global leaderboard for that board '%s'", params.LeaderboardType)
 	}
 }
 
