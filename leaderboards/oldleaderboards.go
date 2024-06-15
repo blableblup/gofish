@@ -67,7 +67,10 @@ func ReadOldTrophyRankings(filePath string, pool *pgxpool.Pool) (map[string]Lead
 			}
 
 			// Check if the player renamed
-			player := playerdata.PlayerRenamed(oldplayer, pool)
+			player, err := playerdata.PlayerRenamed(oldplayer, pool)
+			if err != nil {
+				return oldLeaderboardTrophy, err
+			}
 
 			if utils.Contains(cheaters, player) {
 				continue // Skip processing for ignored players
@@ -133,7 +136,10 @@ func ReadWeightRankings(filePath string, pool *pgxpool.Pool) (map[string]Leaderb
 			}
 
 			// Check if the player renamed
-			player := playerdata.PlayerRenamed(oldplayer, pool)
+			player, err := playerdata.PlayerRenamed(oldplayer, pool)
+			if err != nil {
+				return oldLeaderboardWeight, err
+			}
 
 			if utils.Contains(cheaters, player) {
 				continue // Skip processing for ignored players
@@ -225,7 +231,10 @@ func ReadTypeRankings(filePath string, pool *pgxpool.Pool) (map[string]Leaderboa
 			}
 
 			// Check if the player renamed
-			player := playerdata.PlayerRenamed(oldplayer, pool)
+			player, err := playerdata.PlayerRenamed(oldplayer, pool)
+			if err != nil {
+				return oldLeaderboardType, err
+			}
 
 			if utils.Contains(cheaters, player) {
 				continue // Skip processing for ignored players
@@ -307,7 +316,10 @@ func ReadTotalcountRankings(filePath string, pool *pgxpool.Pool, isFish bool) (m
 				}
 				player = fishType
 			} else {
-				player = playerdata.PlayerRenamed(oldplayer, pool)
+				player, err = playerdata.PlayerRenamed(oldplayer, pool)
+				if err != nil {
+					return oldLeaderboardCount, err
+				}
 			}
 
 			if utils.Contains(cheaters, player) {

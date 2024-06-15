@@ -29,7 +29,10 @@ func GetPlayerID(pool *pgxpool.Pool, playerName string, firstFishDate time.Time,
 	}
 
 	// Check if they renamed first
-	newPlayer := PlayerRenamed(playerName, pool)
+	newPlayer, err := PlayerRenamed(playerName, pool)
+	if err != nil {
+		return 0, err
+	}
 
 	if newPlayer == playerName {
 		// Player doesn't exist, add them to the playerdata table
@@ -50,7 +53,7 @@ func GetPlayerID(pool *pgxpool.Pool, playerName string, firstFishDate time.Time,
 	return playerID, nil
 }
 
-func PlayerRenamed(player string, pool *pgxpool.Pool) string {
+func PlayerRenamed(player string, pool *pgxpool.Pool) (string, error) {
 	var newPlayer string
 
 	// Check if the player exists in the playerdata table
@@ -68,7 +71,7 @@ func PlayerRenamed(player string, pool *pgxpool.Pool) string {
 		rows, err := pool.Query(context.Background(), query, player)
 		if err != nil {
 			logs.Logs().Error().Err(err).Msgf("Error querying for old names for player '%s'", player)
-			return player
+			return player, err
 		}
 		defer rows.Close()
 
@@ -77,20 +80,20 @@ func PlayerRenamed(player string, pool *pgxpool.Pool) string {
 			var matchingPlayer string
 			if err := rows.Scan(&matchingPlayer); err != nil {
 				logs.Logs().Error().Err(err).Msgf("Error scanning player for player '%s'", player)
-				continue
+				return player, err
 			}
 			matchingPlayers = append(matchingPlayers, matchingPlayer)
 		}
 
 		if len(matchingPlayers) == 0 {
 			logs.Logs().Info().Msgf("Player '%s' doesn't appear in playerdata as a name or old name", player)
-			return player // If the player is new (for GetPlayerID) or if the player was renamed incorrectly
+			return player, nil // If the player is new (for GetPlayerID) or if the player was renamed incorrectly
 		}
 
 		if len(matchingPlayers) == 1 {
 			newPlayer = matchingPlayers[0]
 			logs.Logs().Info().Msgf("Player '%s' renamed to '%s'", player, newPlayer)
-			return newPlayer
+			return newPlayer, nil
 		}
 
 		// Old Twitch names can become available after 6 months so it is better having this even if it might never be needed
@@ -112,9 +115,9 @@ func PlayerRenamed(player string, pool *pgxpool.Pool) string {
 
 			newPlayer = matchingPlayers[choice-1]
 			logs.Logs().Info().Msgf("Player '%s' renamed to '%s'", player, newPlayer)
-			return newPlayer
+			return newPlayer, nil
 		}
 	}
 
-	return player
+	return player, nil
 }
