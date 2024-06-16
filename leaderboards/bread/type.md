@@ -72,16 +72,16 @@
 | 68  | 🌹 | 2.96 | osnyatsky |
 | 68  | 🥪 | 2.96 | qu4ttromila |
 | 71  | 🍬 | 2.60 | 5c33* |
-| 72  | 👟 | 2.00 | kishma9 |
-| 72  | 🧦 | 2.00 | osnyatsky* |
-| 72  | 🩴 | 2.00 | qu4ttromila |
-| 75  | 🩰 | 1.99 | qu4ttromila |
-| 76  | 👢 | 1.98 | derinturitierutz |
-| 77  | 🌿 | 1.96 | dayzedinndaydreams |
-| 78  | ⛸️ | 1.94 | ryebreadward |
-| 79  | 🌻 | 1.46 (+0.11) | suavvvvv |
+| 72 ⬆ | 🌻 | 2.18 (+0.72) | ninjaross |
+| 73 ⬇ | 👟 | 2.00 | kishma9 |
+| 73 ⬇ | 🧦 | 2.00 | osnyatsky* |
+| 73 ⬇ | 🩴 | 2.00 | qu4ttromila |
+| 76 ⬇ | 🩰 | 1.99 | qu4ttromila |
+| 77 ⬇ | 👢 | 1.98 | derinturitierutz |
+| 78 ⬇ | 🌿 | 1.96 | dayzedinndaydreams |
+| 79 ⬇ | ⛸️ | 1.94 | ryebreadward |
 | 80  | 🧣 | 0.99 | osnyatsky* |
 | 80  | 🪶 | 0.99 | osnyatsky* |
 | 80  | 🧤 | 0.99 | sicklymaidrobot |
 
-_Last updated at 2024-06-09 09:36:23 UTC_
+_Last updated at 2024-06-16 08:54:58 UTC_
