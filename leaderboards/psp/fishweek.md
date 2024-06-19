@@ -7,9 +7,9 @@
 | 4  | nndiana | 57 |
 | 5  | thasbe | 48 |
 | 6  | yopego | 47 |
-| 7 ⬆ | jems______ | 45 (+10) |
-| 8 ⬇ | amu1g | 37 |
-| 8 ⬇ | pengeg | 37 |
+| 7  | jems______ | 45 |
+| 8  | amu1g | 37 |
+| 8  | pengeg | 37 |
 | 10  | divra__ | 33 |
 | 11  | commanda_u | 32 |
 | 12  | mikel1g | 31 |
@@ -19,4 +19,4 @@
 | 16  | restartmikel | 23 |
 | 17  | afju* | 21 |
 
-_Last updated at 2024-06-13 08:58:09 UTC_
+_Last updated at 2024-06-19 10:06:15 UTC_
