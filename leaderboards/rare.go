@@ -22,7 +22,7 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 
 	// Process all chats
 	for chatName, chat := range config.Chat {
-		if !chat.CheckEnabled {
+		if !chat.CheckFData {
 			if chatName != "global" && chatName != "default" {
 				logs.Logs().Warn().Msgf("Skipping chat '%s' because check_enabled is false", chatName)
 			}

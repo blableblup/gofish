@@ -143,7 +143,7 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 		}
 
 		for chatName, chat := range config.Chat {
-			if !chat.CheckEnabled {
+			if !chat.CheckTData {
 				if chatName != "global" && chatName != "default" {
 					logs.Logs().Warn().Msgf("Skipping chat '%s' because check_enabled is false", chatName)
 				}
