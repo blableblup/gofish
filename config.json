@@ -6,6 +6,7 @@
         "logs_added": "2022/12",
         "emoji": "🍞",
         "check_enabled": true,
+        "checktdata": true,
         "board_enabled": true
       },
       "psp": {
@@ -14,12 +15,14 @@
         "logs_added": "2023/8",
         "emoji": "🐱",
         "check_enabled": true,
+        "checktdata": true,
         "board_enabled": true
       },
       "global": {
         "weight_limit": 270,
         "totalcount_limit": 300,
         "check_enabled": false,
+        "checktdata": false,
         "board_enabled": false
       },
       "default": {
@@ -27,6 +30,7 @@
         "totalcount_limit": 100,
         "fishweek_limit": 20,
         "check_enabled": false,
+        "checktdata": false,
         "board_enabled": false
       }
   }
