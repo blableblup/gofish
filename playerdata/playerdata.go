@@ -15,13 +15,13 @@ import (
 	"github.com/jackc/pgx/v4/pgxpool"
 )
 
-func GetPlayerID(pool *pgxpool.Pool, playerName string, firstFishDate time.Time, firstFishChat string) (int, error) {
+func GetPlayerID(pool *pgxpool.Pool, player string, firstFishDate time.Time, firstFishChat string) (int, error) {
 	if err := utils.EnsureTableExists(pool, "playerdata"); err != nil {
 		return 0, err
 	}
 
 	var playerID int
-	err := pool.QueryRow(context.Background(), "SELECT playerid FROM playerdata WHERE name = $1", playerName).Scan(&playerID)
+	err := pool.QueryRow(context.Background(), "SELECT playerid FROM playerdata WHERE name = $1", player).Scan(&playerID)
 	if err == nil {
 		return playerID, nil // Player already exists, return their ID
 	} else if err != pgx.ErrNoRows {
@@ -29,18 +29,18 @@ func GetPlayerID(pool *pgxpool.Pool, playerName string, firstFishDate time.Time,
 	}
 
 	// Check if they renamed first
-	newPlayer, err := PlayerRenamed(playerName, pool)
+	newPlayer, err := PlayerRenamed(player, pool)
 	if err != nil {
 		return 0, err
 	}
 
-	if newPlayer == playerName {
+	if newPlayer == player {
 		// Player doesn't exist, add them to the playerdata table
-		err = pool.QueryRow(context.Background(), "INSERT INTO playerdata (name, firstfishdate, firstfishchat) VALUES ($1, $2, $3) RETURNING playerid", playerName, firstFishDate, firstFishChat).Scan(&playerID)
+		err = pool.QueryRow(context.Background(), "INSERT INTO playerdata (name, firstfishdate, firstfishchat) VALUES ($1, $2, $3) RETURNING playerid", player, firstFishDate, firstFishChat).Scan(&playerID)
 		if err != nil {
 			return 0, err
 		}
-		logs.Logs().Info().Msgf("Added player '%s' to the playerdata table. First fish caught on %s in chat '%s'", playerName, firstFishDate, firstFishChat)
+		logs.Logs().Info().Str("Date", firstFishDate.Format(time.RFC3339)).Str("Chat", firstFishChat).Str("Player", player).Msgf("Added new player to playerdata")
 
 	} else {
 		// If they were renamed before the database was updated and they still caught a fish with their old name, if you recheck old logs or they have an old entry on the leaderboards
@@ -70,7 +70,7 @@ func PlayerRenamed(player string, pool *pgxpool.Pool) (string, error) {
         `
 		rows, err := pool.Query(context.Background(), query, player)
 		if err != nil {
-			logs.Logs().Error().Err(err).Msgf("Error querying for old names for player '%s'", player)
+			logs.Logs().Error().Err(err).Str("Player", player).Msg("Error querying for old names for player")
 			return player, err
 		}
 		defer rows.Close()
@@ -79,20 +79,20 @@ func PlayerRenamed(player string, pool *pgxpool.Pool) (string, error) {
 		for rows.Next() {
 			var matchingPlayer string
 			if err := rows.Scan(&matchingPlayer); err != nil {
-				logs.Logs().Error().Err(err).Msgf("Error scanning player for player '%s'", player)
+				logs.Logs().Error().Err(err).Str("Player", player).Msg("Error scanning player for player")
 				return player, err
 			}
 			matchingPlayers = append(matchingPlayers, matchingPlayer)
 		}
 
 		if len(matchingPlayers) == 0 {
-			logs.Logs().Info().Msgf("Player '%s' doesn't appear in playerdata as a name or old name", player)
+			logs.Logs().Warn().Str("Player", player).Msg("Unknown player")
 			return player, nil // If the player is new (for GetPlayerID) or if the player was renamed incorrectly
 		}
 
 		if len(matchingPlayers) == 1 {
 			newPlayer = matchingPlayers[0]
-			logs.Logs().Info().Msgf("Player '%s' renamed to '%s'", player, newPlayer)
+			logs.Logs().Info().Str("Old Name", player).Str("New Name", newPlayer).Msg("Player was previously renamed")
 			return newPlayer, nil
 		}
 
@@ -114,7 +114,7 @@ func PlayerRenamed(player string, pool *pgxpool.Pool) (string, error) {
 			}
 
 			newPlayer = matchingPlayers[choice-1]
-			logs.Logs().Info().Msgf("Player '%s' renamed to '%s'", player, newPlayer)
+			logs.Logs().Info().Str("Old Name", player).Str("New Name", newPlayer).Msg("Player was previously renamed")
 			return newPlayer, nil
 		}
 	}
