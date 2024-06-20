@@ -45,7 +45,7 @@ func GetFishData(config utils.Config, pool *pgxpool.Pool, chatNames string, numM
 
 		logs.Logs().Info().Msgf("Checking new fish data")
 		for chatName, chat := range config.Chat {
-			if !chat.CheckEnabled {
+			if !chat.CheckFData {
 				if chatName != "global" && chatName != "default" {
 					logs.Logs().Warn().Msgf("Skipping chat '%s' because check_enabled is false", chatName)
 				}
@@ -133,7 +133,7 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 	newFishCounts := make(map[string]int)
 
 	for chatName, chat := range config.Chat {
-		if chat.CheckEnabled {
+		if chat.CheckFData {
 			newFishCounts[chatName] = 0
 		}
 	}
