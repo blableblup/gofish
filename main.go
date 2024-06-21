@@ -1,6 +1,6 @@
 package main
 
-// Made with chatgpt
+// Originally made with chatgpt
 
 import (
 	"flag"
@@ -15,12 +15,15 @@ func main() {
 	mode := flag.String("mm", "", "Modes are different for each program")
 	chatNames := flag.String("s", "", "Comma-separated list of chat names")
 	monthYear := flag.String("dt", "", "Specific month and year (yyyy/mm)")
+	debug := flag.Bool("debug", false, "Set debug to true to log everything")
 	leaderboard := flag.String("l", "", "Comma-separated list of leaderboards")
 	program := flag.String("p", "", "Program name: boards, data, trnm, logs, pattern")
 	db := flag.String("db", "", "Database to update, fish (f) and tournament results (t)")
 	renamePairs := flag.String("rename", "", "Comma-separated list of oldName:newName pairs")
 
 	flag.Parse()
+
+	logs.InitializeLogger(*debug)
 
 	if *mode != "" && !isValidModeForProgram(*program, *mode) {
 		logs.Logs().Warn().Str("Program", *program).Str("Mode", *mode).Msg("Invalid mode specified")
