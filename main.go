@@ -23,38 +23,32 @@ func main() {
 	flag.Parse()
 
 	if *mode != "" && !isValidModeForProgram(*program, *mode) {
-		logs.Logs().Warn().Msg("Invalid mode specified for the program or the program doesn't have different modes")
+		logs.Logs().Warn().Str("Program", *program).Str("Mode", *mode).Msg("Invalid mode specified")
 		return
 	}
 
 	switch *program {
 	case "":
-		logs.Logs().Warn().Msg("No program specified. Use 'go run main.go -p help' for help")
+		logs.Logs().Warn().Msg("No program specified. Use '-p help' for help")
 		return
 
 	case "help":
 		logs.Logs().Info().Msg("Leaderboards: fishweek, trophy, weight, type, count, rare, stats. Global boards: weight, type, count")
-		logs.Logs().Info().Msg("Usage: go run main.go -p boards [-s <chat names> <all> <global>] [-l <leaderboards>] [-mm <mode>]")
-		logs.Logs().Info().Msg("Usage: go run main.go -p data [-db <database>] [-m <months>] [-dt <date>] [-mm <mode>]")
+		logs.Logs().Info().Msg("Usage: -p boards [-s <chat names> <all> <global>] [-l <leaderboards>] [-mm <mode>]")
+		logs.Logs().Info().Msg("Usage: -p data [-db <database>] [-m <months>] [-dt <date>] [-mm <mode>]")
 		logs.Logs().Info().Msg("Usage: If no month or time period is specified it checks the current month")
-		logs.Logs().Info().Msg("Usage: go run main.go -p renamed [-rename <oldName:newName>]")
+		logs.Logs().Info().Msg("Usage: -p renamed [-rename <oldName:newName>]")
 		return
 
 	case "boards":
-		if *mode != "" {
-			logs.Logs().Info().Msgf("Running %s program in mode '%s'...", *program, *mode)
-		} else {
-			logs.Logs().Info().Msgf("Running %s program...", *program)
-		}
+		logs.Logs().Info().Str("Program", *program).Str("Mode", *mode).Str("Boards", *leaderboard).Str("Chats", *chatNames).Msg("Start")
+
 		leaderboards.Leaderboards(*leaderboard, *chatNames, *mode)
 		// Modes: "check", only prints new / updated type and weight records
 
 	case "data":
-		if *mode != "" {
-			logs.Logs().Info().Msgf("Running %s program in mode '%s'...", *program, *mode)
-		} else {
-			logs.Logs().Info().Msgf("Running %s program...", *program)
-		}
+		logs.Logs().Info().Str("Program", *program).Str("Mode", *mode).Str("Chats", *chatNames).Str("DB", *db).Int("Months", *numMonths).Str("Date", *monthYear).Msg("Start")
+
 		data.GetData(*chatNames, *db, *numMonths, *monthYear, *mode)
 		// Modes: "a" for fishdatafetch.
 		// Adds every fish caught to FishData instead of just the new ones and inserts the missing fish into the db.
@@ -62,11 +56,11 @@ func main() {
 		// Adds all the existing lines from the tournamentlogs to newResults, inserts the missing results into the db and then returns.
 
 	case "pattern":
-		logs.Logs().Info().Msgf("Running %s program...", *program)
+		logs.Logs().Info().Str("Program", *program).Msg("Start")
 		scripts.RunPattern()
 
 	case "renamed":
-		logs.Logs().Info().Msgf("Running %s program...", *program)
+		logs.Logs().Info().Str("Rename pairs", *renamePairs).Str("Program", *program).Msg("Start")
 		namePairs, err := scripts.ProcessRenamePairs(*renamePairs)
 		if err != nil {
 			logs.Logs().Error().Err(err).Msg("Error processing rename pairs")
@@ -79,11 +73,11 @@ func main() {
 		}
 
 	case "verified":
-		logs.Logs().Info().Msgf("Running %s program...", *program)
+		logs.Logs().Info().Str("Program", *program).Msg("Start")
 		scripts.VerifiedPlayers()
 
 	default:
-		logs.Logs().Warn().Msg("Invalid program specified")
+		logs.Logs().Warn().Str("Program", *program).Msg("Invalid program specified")
 		return
 	}
 }
