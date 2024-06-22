@@ -9,9 +9,11 @@ To see which chats are being covered look here: [config](https://github.com/blab
 
 ## About the data 🗃️
 
-* The data comes from the justlog instance. The program parses the logs of gofishgame (or supibot for older data) and then inserts the fish and the tournament results into a postgresql database.
+* The program currently only works for Twitch chats. Fish caught before the justlog instance was added to the chat are not included, nor are fish caught in Twitch whispers or on Discord."
 
-* The logs are probably not fully complete in most cases, but they should contain the vast majority of fish.
+* The program parses the logs of gofishgame (or supibot for older data) and then inserts the fish and the tournament results into a postgresql database.
+
+* The logs are probably not fully complete in most cases, but they should contain the vast majority of fish. 
 
 * The log data for psp1g's chat from the 27th of February 2024 to the 3rd of March 2024 is incomplete (see [here](https://logs.nadeko.net/channel/psp1g/2024/2/28)).
 
