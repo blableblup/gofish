@@ -9,7 +9,7 @@ To see which chats are being covered look here: [config](https://github.com/blab
 
 ## About the data 🗃️
 
-* The program currently only works for Twitch chats. Fish caught before the justlog instance was added to the chat are not included, nor are fish caught in Twitch whispers or on Discord."
+* The program currently only works for Twitch chats. Fish caught before the justlog instance was added to the chat are not included, nor are fish caught in Twitch whispers or on Discord.
 
 * The program parses the logs of gofishgame (or supibot for older data) and then inserts the fish and the tournament results into a postgresql database.
 
