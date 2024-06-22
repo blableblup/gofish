@@ -1,6 +1,6 @@
 {
     "twitch_chat": {
-      "bread": {
+      "breadworms": {
         "logs_host": "https://logs.joinuv.com/channel/breadworms/user/gofishgame/",
         "logs_host_old": "https://logs.joinuv.com/channel/breadworms/user/supibot/",
         "logs_added": "2022/12",
@@ -9,7 +9,7 @@
         "checktdata": true,
         "board_enabled": true
       },
-      "psp": {
+      "psp1g": {
         "logs_host": "https://logs.nadeko.net/channel/psp1g/user/gofishgame/",
         "logs_host_old": "https://logs.nadeko.net/channel/psp1g/user/supibot/",
         "logs_added": "2023/8",
@@ -18,7 +18,7 @@
         "checktdata": true,
         "board_enabled": true
       },
-      "degree": {
+      "d_egree": {
         "logs_host": "https://logs.spanix.team/channel/d_egree/user/gofishgame/",
         "logs_added": "2024/5",
         "checkfdata": false,
