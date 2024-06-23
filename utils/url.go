@@ -16,22 +16,22 @@ func CreateURL(chatName string, numMonths int, monthYear string, config Config) 
 	var urls []string
 
 	if config.Chat[chatName].LogsHost == "" {
-		logs.Logs().Fatal().Msgf("No logs host specified for chat '%s'", chatName)
+		logs.Logs().Fatal().Str("Chat", chatName).Msg("No logs host specified for chat")
 	}
 
 	// Start from the specified month/year or current month/year
 	if monthYear != "" {
 		parts := strings.Split(monthYear, "/")
 		if len(parts) != 2 {
-			logs.Logs().Fatal().Msg("Invalid month/year format. Please use 'yyyy/mm' format.")
+			logs.Logs().Fatal().Str("MonthYear", monthYear).Msg("Invalid month/year format. Please use 'yyyy/mm' format.")
 		}
 		year, err := strconv.Atoi(parts[0])
 		if err != nil {
-			logs.Logs().Fatal().Msg("Invalid year")
+			logs.Logs().Fatal().Str("MonthYear", monthYear).Msg("Invalid year")
 		}
 		month, err := strconv.Atoi(parts[1])
 		if err != nil || month < 1 || month > 12 {
-			logs.Logs().Fatal().Msg("Invalid month")
+			logs.Logs().Fatal().Str("MonthYear", monthYear).Msg("Invalid month")
 		}
 		now = time.Date(year, time.Month(month), 1, 0, 0, 0, 0, time.UTC)
 	}
@@ -47,34 +47,23 @@ func CreateURL(chatName string, numMonths int, monthYear string, config Config) 
 		// Check if gofish was added to the channel first
 		if logsAdded, err := time.Parse("2006/1", config.Chat[chatName].LogsAdded); err == nil {
 			if firstOfMonth.Before(logsAdded) {
-				logs.Logs().Info().Msgf("Breaking at %d/%d because gofish was not added yet in chat '%s'", year, month, chatName)
+				logs.Logs().Info().Str("Chat", chatName).Int("Year", year).Int("Month", int(month)).Msg("Breaking because gofish was not added yet in chat")
 				break
 			}
 		} else {
 			// Every chat should have this field in the config
-			logs.Logs().Fatal().Err(err).Msgf("Unable to parse LogsAdded for chat '%s'", chatName)
+			logs.Logs().Fatal().Err(err).Str("Chat", chatName).Msg("Unable to parse LogsAdded for chat")
 		}
 
 		// Check if the current month is within September 2023
 		if year == 2023 && month == time.September {
 			if config.Chat[chatName].LogsHostOld == "" {
-				// This doesnt need to be fatal for chats which didnt have gofish on supibot
-				// But this shouldnt really happen, since the program should break before that by checking logsAdded
-				logs.Logs().Warn().Msgf("There is no old logs host specified for chat '%s'", chatName)
-				confirm, err := Confirm("Do you want to go ahead? Or exit the program? (use y or n)")
-				if err != nil {
-					logs.Logs().Fatal().Err(err).Msg("Error reading input")
-				}
-				if !confirm {
-					logs.Logs().Fatal().Msgf("No old logs host specified for chat '%s'", chatName)
-				}
+				logs.Logs().Fatal().Str("Chat", chatName).Msg("There is no old logs host specified for chat")
 			}
 
 			// Use both the old and new logs hosts
 			urlOld := fmt.Sprintf("%s%d/%d?", config.Chat[chatName].LogsHostOld, year, int(month))
 			urlNew := fmt.Sprintf("%s%d/%d?", config.Chat[chatName].LogsHost, year, int(month))
-			logs.Logs().Info().Msgf("Fetching data from supibot: %s", urlOld)
-			logs.Logs().Info().Msgf("Fetching data from gofishgame: %s", urlNew)
 			urls = append(urls, urlOld, urlNew)
 		} else {
 			// Check if the current month is before the logs host change
@@ -82,24 +71,13 @@ func CreateURL(chatName string, numMonths int, monthYear string, config Config) 
 				// Use the old logs host if it's not empty
 				if config.Chat[chatName].LogsHostOld != "" {
 					url := fmt.Sprintf("%s%d/%d?", config.Chat[chatName].LogsHostOld, year, int(month))
-					logs.Logs().Info().Msgf("Fetching data from supibot: %s", url)
 					urls = append(urls, url)
 				} else {
-					// This doesnt need to be fatal for chats which didnt have gofish on supibot
-					// But this shouldnt really happen, since the program should break before that by checking logsAdded
-					logs.Logs().Warn().Msgf("There is no old logs host specified for chat '%s'", chatName)
-					confirm, err := Confirm("Do you want to go ahead? Or exit the program? (use y or n)")
-					if err != nil {
-						logs.Logs().Fatal().Err(err).Msg("Error reading input")
-					}
-					if !confirm {
-						logs.Logs().Fatal().Msgf("No old logs host specified for chat '%s'", chatName)
-					}
+					logs.Logs().Fatal().Str("Chat", chatName).Msg("There is no old logs host specified for chat")
 				}
 			} else {
 				// Use the current logs host
 				url := fmt.Sprintf("%s%d/%d?", config.Chat[chatName].LogsHost, year, int(month))
-				logs.Logs().Info().Msgf("Fetching data from gofishgame: %s", url)
 				urls = append(urls, url)
 			}
 		}

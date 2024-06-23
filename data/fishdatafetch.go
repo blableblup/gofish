@@ -17,6 +17,8 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 	const maxRetries = 5
 	retryDelay := time.Second // Initial delay before first retry
 
+	logs.Logs().Info().Str("URL", url).Str("Chat", chatName).Msg("Fetching fish data")
+
 	for retry := 0; retry < maxRetries; retry++ {
 		req := fasthttp.AcquireRequest()
 		req.SetRequestURI(url)
@@ -27,7 +29,7 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 
 		if err := fasthttp.Do(req, resp); err != nil {
 			// Log the error and retry
-			logs.Logs().Error().Err(err).Msgf("Error fetching fish data from URL: %s", url)
+			logs.Logs().Error().Err(err).Str("URL", url).Str("Chat", chatName).Msgf("Error fetching fish data from URL")
 			time.Sleep(retryDelay)
 			retryDelay *= 5
 			continue
@@ -36,7 +38,7 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 		// Check for HTTP error status codes
 		if resp.StatusCode() != fasthttp.StatusOK {
 			// Log the error and retry
-			logs.Logs().Error().Msgf("Unexpected HTTP status code %d for URL: %s", resp.StatusCode(), url)
+			logs.Logs().Error().Str("URL", url).Str("Chat", chatName).Int("Code", resp.StatusCode()).Msg("Unexpected HTTP status code")
 			time.Sleep(retryDelay)
 			retryDelay *= 5
 			continue
@@ -64,7 +66,7 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 			var err error
 			latestCatchDate, err = getLatestCatchDateFromDatabase(ctx, pool, chatName)
 			if err != nil {
-				logs.Logs().Fatal().Err(err).Msgf("Error while retrieving latest catch date for chat '%s'", chatName)
+				logs.Logs().Fatal().Err(err).Str("Chat", chatName).Msg("Error while retrieving latest catch date for chat")
 			}
 		}
 
@@ -105,12 +107,12 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 
 		}
 
-		logs.Logs().Info().Msgf("Finished storing fish for %s", url)
+		logs.Logs().Info().Str("URL", url).Str("Chat", chatName).Msg("Finished storing fish")
 		return fishData, nil // Return successfully fetched data
 	}
 
 	// Log the error and stop the entire program
-	logs.Logs().Fatal().Msgf("Reached maximum retries, unable to fetch fish data from URL: %s", url)
+	logs.Logs().Fatal().Str("URL", url).Str("Chat", chatName).Msg("Reached maximum retries, unable to fetch fish data from URL")
 	return nil, nil
 }
 
