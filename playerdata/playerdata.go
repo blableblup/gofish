@@ -15,6 +15,8 @@ import (
 	"github.com/jackc/pgx/v4/pgxpool"
 )
 
+var loggedPlayers = make(map[string]bool)
+
 func GetPlayerID(pool *pgxpool.Pool, player string, firstFishDate time.Time, firstFishChat string) (int, error) {
 	if err := utils.EnsureTableExists(pool, "playerdata"); err != nil {
 		return 0, err
@@ -90,9 +92,16 @@ func PlayerRenamed(player string, pool *pgxpool.Pool) (string, error) {
 			return player, nil // If the player is new (for GetPlayerID) or if the player was renamed incorrectly
 		}
 
+		// So that the terminal doesnt get bombed with players renaming if you check old logs again
 		if len(matchingPlayers) == 1 {
-			newPlayer = matchingPlayers[0]
-			logs.Logs().Info().Str("Old Name", player).Str("New Name", newPlayer).Msg("Player was previously renamed")
+			newPlayer := matchingPlayers[0]
+
+			if !loggedPlayers[newPlayer] {
+				logs.Logs().Info().Str("Old Name", player).Str("New Name", newPlayer).Msg("Player was previously renamed")
+
+				loggedPlayers[newPlayer] = true
+			}
+
 			return newPlayer, nil
 		}
 
