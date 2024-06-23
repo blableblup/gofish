@@ -18,13 +18,6 @@
         "checktdata": true,
         "board_enabled": true
       },
-      "d_egree": {
-        "logs_host": "https://logs.spanix.team/channel/d_egree/user/gofishgame/",
-        "logs_added": "2024/5",
-        "checkfdata": false,
-        "checktdata": false,
-        "board_enabled": false
-      },
       "ovrht": {
         "logs_host": "https://logs.spanix.team/channel/ovrht/user/gofishgame/",
         "logs_added": "2023/10",
@@ -42,6 +35,13 @@
       "ryanpotat": {
         "logs_host": "https://logs.spanix.team/channel/ryanpotat/user/gofishgame/",
         "logs_added": "2023/12",
+        "checkfdata": false,
+        "checktdata": false,
+        "board_enabled": false
+      },
+      "d_egree": {
+        "logs_host": "https://logs.spanix.team/channel/d_egree/user/gofishgame/",
+        "logs_added": "2024/5",
         "checkfdata": false,
         "checktdata": false,
         "board_enabled": false
