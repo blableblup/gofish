@@ -3,23 +3,28 @@ package data
 import (
 	"context"
 	"database/sql"
+	"fmt"
 	"gofish/logs"
 	"gofish/playerdata"
 	"gofish/utils"
 	"regexp"
 	"time"
 
+	"github.com/jackc/pgconn"
 	"github.com/jackc/pgx/v4/pgxpool"
 	"github.com/valyala/fasthttp"
 )
 
-func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Pool, mode string) ([]FishInfo, error) {
+func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Pool, mode string, latestCatchDate time.Time) ([]FishInfo, error) {
 	const maxRetries = 5
 	retryDelay := time.Second // Initial delay before first retry
 
 	logs.Logs().Info().Str("URL", url).Str("Chat", chatName).Msg("Fetching fish data")
 
 	for retry := 0; retry < maxRetries; retry++ {
+
+		startTime := time.Now()
+
 		req := fasthttp.AcquireRequest()
 		req.SetRequestURI(url)
 		defer fasthttp.ReleaseRequest(req)
@@ -38,11 +43,17 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 		// Check for HTTP error status codes
 		if resp.StatusCode() != fasthttp.StatusOK {
 			// Log the error and retry
-			logs.Logs().Error().Str("URL", url).Str("Chat", chatName).Int("Code", resp.StatusCode()).Msg("Unexpected HTTP status code")
-			time.Sleep(retryDelay)
-			retryDelay *= 5
-			continue
+			// Since 404 can just mean that noone fished in that month for the very small chats, this doesnt have to count as an error
+			if resp.StatusCode() != 404 {
+				logs.Logs().Error().Str("URL", url).Str("Chat", chatName).Int("Code", resp.StatusCode()).Msg("Unexpected HTTP status code")
+				time.Sleep(retryDelay)
+				retryDelay *= 5
+				continue
+			}
 		}
+
+		duration := time.Since(startTime)
+		logs.Logs().Debug().Dur("Duration", duration).Str("URL", url).Str("Chat", chatName).Msg("Time to load URL")
 
 		textContent := string(resp.Body())
 
@@ -54,20 +65,6 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 			NormalPattern,
 			JumpedPattern,
 			BirdPattern,
-		}
-
-		ctx := context.Background()
-
-		var latestCatchDate time.Time
-
-		if mode == "a" {
-			latestCatchDate = time.Time{}
-		} else {
-			var err error
-			latestCatchDate, err = getLatestCatchDateFromDatabase(ctx, pool, chatName)
-			if err != nil {
-				logs.Logs().Fatal().Err(err).Str("Chat", chatName).Msg("Error while retrieving latest catch date for chat")
-			}
 		}
 
 		fishCatches := extractInfoFromPatterns(textContent, patterns)
@@ -118,11 +115,17 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 
 func getLatestCatchDateFromDatabase(ctx context.Context, pool *pgxpool.Pool, chatName string) (time.Time, error) {
 
-	query := "SELECT MAX(date) FROM fish WHERE chat = $1"
+	tableName := "fish"
+
+	query := fmt.Sprintf("SELECT MAX(date) FROM %s WHERE chat = $1", tableName)
 
 	var latestCatchDate sql.NullTime
 	err := pool.QueryRow(ctx, query, chatName).Scan(&latestCatchDate)
 	if err != nil {
+		// 42P01 is when the table doesnt exist yet, if you check for the first time
+		if pgErr, ok := err.(*pgconn.PgError); ok && pgErr.Code == "42P01" {
+			return time.Time{}, nil
+		}
 		return time.Time{}, err
 	}
 

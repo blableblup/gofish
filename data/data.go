@@ -8,7 +8,9 @@ import (
 	"gofish/utils"
 	"sort"
 	"sync"
+	"time"
 
+	"github.com/jackc/pgconn"
 	"github.com/jackc/pgx/v4/pgxpool"
 )
 
@@ -32,7 +34,7 @@ func GetData(chatNames, data string, numMonths int, monthYear string, mode strin
 		GetFishData(config, pool, chatNames, numMonths, monthYear, mode)
 		GetTournamentData(config, pool, chatNames, numMonths, monthYear, mode)
 	default:
-		logs.Logs().Warn().Msg("Please specify a valid database type")
+		logs.Logs().Warn().Str("DB", data).Msg("Please specify a valid database type")
 	}
 }
 
@@ -47,7 +49,7 @@ func GetFishData(config utils.Config, pool *pgxpool.Pool, chatNames string, numM
 		for chatName, chat := range config.Chat {
 			if !chat.CheckFData {
 				if chatName != "global" && chatName != "default" {
-					logs.Logs().Warn().Msgf("Skipping chat '%s' because checkfdata is false", chatName)
+					logs.Logs().Warn().Str("Chat", chatName).Msg("Skipping chat because checkfdata is false")
 				}
 				continue
 			}
@@ -92,13 +94,29 @@ func ProcessFishData(urls []string, chatName string, Chat utils.ChatInfo, pool *
 
 	fishChan := make(chan FishInfo)
 
+	var latestCatchDate time.Time
+
+	ctx := context.Background()
+
+	if mode == "a" {
+		latestCatchDate = time.Time{}
+	} else {
+		var err error
+		latestCatchDate, err = getLatestCatchDateFromDatabase(ctx, pool, chatName)
+		if err != nil {
+			logs.Logs().Fatal().Err(err).Str("Chat", chatName).Msg("Error while retrieving latest catch date for chat")
+		}
+	}
+
+	logs.Logs().Debug().Time("LatestCatchDate", latestCatchDate).Str("Chat", chatName).Msg("Fetched latest catch date for chat")
+
 	for _, url := range urls {
 		wg.Add(1)
 		go func(url string) {
 			defer wg.Done()
-			fishData, err := FishData(url, chatName, allFish, pool, mode)
+			fishData, err := FishData(url, chatName, allFish, pool, mode, latestCatchDate)
 			if err != nil {
-				logs.Logs().Error().Err(err).Msg("Error fetching fish data")
+				logs.Logs().Error().Err(err).Msg("Error fetching fish data") // This never gets logged since fishdata will always fatal if error
 				return
 			}
 			mu.Lock()
@@ -142,6 +160,7 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 
 		tableName := "fish"
 		if err := utils.EnsureTableExists(pool, tableName); err != nil {
+			logs.Logs().Error().Err(err).Str("Table", tableName).Msg("Error ensuring table exists")
 			return err
 		}
 
@@ -159,6 +178,7 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			AND weight = $7 AND player = $8
 		`, fish.Date, fish.Date, fish.Date, fish.Date, fish.Date, fish.Date, fish.Weight, fish.Player).Scan(&count)
 			if err != nil {
+				logs.Logs().Error().Err(err).Str("Table", tableName).Msg("Error counting existing fish")
 				return err
 			}
 			if count > 0 {
@@ -169,9 +189,11 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 		if _, ok := lastChatIDs[fish.Chat]; !ok {
 			lastChatID, err := getLastChatIDFromDB(pool, fish.Chat, tableName)
 			if err != nil {
+				logs.Logs().Error().Err(err).Str("Table", tableName).Str("Chat", fish.Chat).Msg("Error getting last chat ID")
 				return err
 			}
 			lastChatIDs[fish.Chat] = lastChatID
+			logs.Logs().Debug().Int("lastChatID", lastChatIDs[fish.Chat]).Str("Chat", fish.Chat).Msg("Last Chat ID for chat")
 		}
 
 		lastChatIDs[fish.Chat]++
@@ -179,21 +201,25 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 
 		playerID, err := playerdata.GetPlayerID(pool, fish.Player, fish.Date, fish.Chat)
 		if err != nil {
+			logs.Logs().Error().Err(err).Str("Player", fish.Player).Msg("Error getting player ID")
 			return err
 		}
 
 		fishinfotable := "fishinfo"
 		if err := utils.EnsureTableExists(pool, fishinfotable); err != nil {
+			logs.Logs().Error().Err(err).Str("Table", fishinfotable).Msg("Error ensuring fishinfo table exists")
 			return err
 		}
 		fishName, err := GetFishName(pool, fishinfotable, fish.Type)
 		if err != nil {
+			logs.Logs().Error().Err(err).Str("Type", fish.Type).Msg("Error getting fish name")
 			return err
 		}
 
 		query := fmt.Sprintf("INSERT INTO %s (chatid, fishtype, fishname, weight, catchtype, player, playerid, date, bot, chat) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)", tableName)
 		_, err = tx.Exec(context.Background(), query, chatID, fish.Type, fishName, fish.Weight, fish.CatchType, fish.Player, playerID, fish.Date, fish.Bot, fish.Chat)
 		if err != nil {
+			logs.Logs().Error().Err(err).Str("Query", query).Msg("Error inserting fish data")
 			return err
 		}
 
@@ -201,14 +227,15 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 	}
 
 	if err := tx.Commit(context.Background()); err != nil {
+		logs.Logs().Error().Err(err).Msg("Error committing transaction")
 		return err
 	}
 
 	for chat, count := range newFishCounts {
 		if count > 0 {
-			logs.Logs().Info().Msgf("Successfully inserted %d new fish into the database for chat '%s'", count, chat)
+			logs.Logs().Info().Int("Count", count).Str("Chat", chat).Msg("New fish added into the database for chat")
 		} else {
-			logs.Logs().Info().Msgf("No new fish found to insert into the database for chat '%s'", chat)
+			logs.Logs().Info().Int("Count", count).Str("Chat", chat).Msg("No new fish found for chat")
 		}
 	}
 
@@ -220,7 +247,12 @@ func getLastChatIDFromDB(pool *pgxpool.Pool, chatName string, tablename string) 
 
 	query := fmt.Sprintf("SELECT COALESCE(MAX(chatid), 0) FROM %s WHERE chat = $1", tablename)
 	row := pool.QueryRow(context.Background(), query, chatName)
-	if err := row.Scan(&lastChatID); err != nil {
+	err := row.Scan(&lastChatID)
+	if err != nil {
+		// 42P01 is when the table doesnt exist yet, if you check for the first time
+		if pgErr, ok := err.(*pgconn.PgError); ok && pgErr.Code == "42P01" {
+			return 0, nil
+		}
 		return 0, err
 	}
 	return lastChatID, nil
