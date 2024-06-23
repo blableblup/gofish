@@ -1,4 +1,4 @@
-### Most fish caught in a single week in tournaments in bread's chat
+### Most fish caught in a single week in tournaments in breadworms's chat
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
 | 1 🥇  | derinturitierutz | 183 |
@@ -37,7 +37,8 @@
 | 34  | breadworms | 25 |
 | 34  | globcob | 25 |
 | 36  | rocketpol* | 24 |
-| 37  | veggesh | 21 |
-| 38  | realtechnine | 20 |
+| 37 🆕 | divra__ | 22 |
+| 38 ⬇ | veggesh | 21 |
+| 39 ⬇ | realtechnine | 20 |
 
-_Last updated at 2024-06-16 22:29:18 UTC_
+_Last updated at 2024-06-23 09:35:49 UTC_
