@@ -11,8 +11,7 @@ import (
 	"github.com/jackc/pgx/v4/pgxpool"
 )
 
-// Configuration struct to hold database connection parameters
-type Config struct {
+type DBConfig struct {
 	DB struct {
 		User     string `json:"user"`
 		Password string `json:"password"`
@@ -23,29 +22,37 @@ type Config struct {
 	} `json:"db"`
 }
 
-// Function to read configuration from JSON file
-func readConfig(filename string) (*Config, error) {
-	data, err := os.ReadFile(filename)
+func LoadDBConfig() DBConfig {
+
+	wd, err := os.Getwd()
 	if err != nil {
-		return nil, err
+		logs.Logs().Fatal().Err(err).Msg("Error getting current working directory")
 	}
 
-	var config Config
-	err = json.Unmarshal(data, &config)
+	configFilePath := filepath.Join(wd, "sqlconfig.json")
+	logs.Logs().Debug().Str("configFilePath", configFilePath).Msg("Loading DB config file")
+
+	file, err := os.Open(configFilePath)
 	if err != nil {
-		return nil, err
+		logs.Logs().Fatal().Err(err).Msg("Error opening DB config file")
+	}
+	defer file.Close()
+
+	var config DBConfig
+	err = json.NewDecoder(file).Decode(&config)
+	if err != nil {
+		logs.Logs().Fatal().Err(err).Msg("Error parsing DB config file")
 	}
 
-	return &config, nil
+	logs.Logs().Debug().Interface("DB config", config).Msg("Loaded DB connection config")
+
+	return config
 }
 
-// Function to establish a connection to the PostgreSQL database
-func connectToDatabase(config *Config) (*pgxpool.Pool, error) {
-	// Database connection configuration
+func connectToDatabase(config *DBConfig) (*pgxpool.Pool, error) {
 	connConfig := fmt.Sprintf("user=%s password=%s host=%s port=%s dbname=%s sslmode=%s",
 		config.DB.User, config.DB.Password, config.DB.Host, config.DB.Port, config.DB.DBName, config.DB.SSLMode)
 
-	// Create a connection pool
 	pool, err := pgxpool.Connect(context.Background(), connConfig)
 	if err != nil {
 		return nil, err
@@ -56,22 +63,8 @@ func connectToDatabase(config *Config) (*pgxpool.Pool, error) {
 }
 
 func Connect() (*pgxpool.Pool, error) {
-	// Get the current working directory
-	wd, err := os.Getwd()
-	if err != nil {
-		logs.Logs().Error().Err(err).Msg("Error getting current working directory")
-		os.Exit(1)
-	}
-
-	// Construct the absolute path to the config file
-	configFilePath := filepath.Join(wd, "sqlconfig.json")
-
-	// Load the config from the constructed file path
-	config, err := readConfig(configFilePath)
-	if err != nil {
-		logs.Logs().Error().Err(err).Msg("Error loading configuration")
-	}
+	config := LoadDBConfig()
 
 	// Establish connection to the PostgreSQL database
-	return connectToDatabase(config)
+	return connectToDatabase(&config)
 }

@@ -28,25 +28,25 @@ func LoadConfig() Config {
 
 	wd, err := os.Getwd()
 	if err != nil {
-		logs.Logs().Error().Err(err).Msg("Error getting current working directory")
-		os.Exit(1)
+		logs.Logs().Fatal().Err(err).Msg("Error getting current working directory")
 	}
 
 	configFilePath := filepath.Join(wd, "config.json")
+	logs.Logs().Debug().Str("configFilePath", configFilePath).Msg("Loading config file")
 
 	file, err := os.Open(configFilePath)
 	if err != nil {
-		logs.Logs().Error().Err(err).Msg("Error opening config file")
-		os.Exit(1)
+		logs.Logs().Fatal().Err(err).Msg("Error opening config file")
 	}
 	defer file.Close()
 
 	var config Config
 	err = json.NewDecoder(file).Decode(&config)
 	if err != nil {
-		logs.Logs().Error().Err(err).Msg("Error parsing config file")
-		os.Exit(1)
+		logs.Logs().Fatal().Err(err).Msg("Error parsing config file")
 	}
+
+	logs.Logs().Debug().Interface("config", config).Msg("Loaded chat config")
 
 	return config
 }
