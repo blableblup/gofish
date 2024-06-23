@@ -8,7 +8,7 @@ import (
 	"github.com/jackc/pgx/v4/pgxpool"
 )
 
-var fishName, oldfishType, response string
+var fishName, oldfishType, newfishType, response string
 var exists bool
 
 // The fishtype in the table is the emote of the fish. A fish type can have a shiny version and old versions of the emote (like 🕷🕷️ for spider)
@@ -140,7 +140,13 @@ func addFishType(pool *pgxpool.Pool, fishinfotable string, fishType string) (str
 
 					logs.Logs().Info().Msgf("Added '%s' to oldemojis for fish name '%s'", fishType, fishName)
 
-					return fishType, nil
+					row := pool.QueryRow(context.Background(), "SELECT fishtype FROM "+fishinfotable+"  WHERE fishname = $1", fishName)
+					if err := row.Scan(&newfishType); err != nil {
+						return fishType, err
+					}
+
+					return newfishType, nil
+
 				default:
 					logs.Logs().Warn().Msgf("-.- Invalid response '%s'. Use new/old", response)
 
