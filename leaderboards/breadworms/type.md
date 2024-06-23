@@ -1,4 +1,4 @@
-### Biggest fish per type caught in bread's chat
+### Biggest fish per type caught in breadworms's chat
 | Rank | Fish | Weight in lbs | Player |
 |------|--------|-----------|---------|
 | 1 🥇  | 🦑 | 307.60 | dayzedinndaydreams |
@@ -29,7 +29,7 @@
 | 26  | 🐟 | 62.65 | derinturitierutz |
 | 27  | 🗡️ | 47.73 | xz_xz |
 | 28  | 🐸 | 46.72 | derinturitierutz |
-| 29  | 🦫 | 43.00 | suavvvvv |
+| 29  | 🦫 | 43.98 (+0.98) | bapqo |
 | 30  | 🐧 | 41.60 | osnyatsky* |
 | 31  | 🦀 | 38.91 | bussinongnocap |
 | 32  | 🐡 | 35.66 | crazytown_bananapants |
@@ -62,7 +62,7 @@
 | 59  | 🩲 | 10.19 | xz_xz |
 | 60  | 💀 | 9.98 | bussinongnocap |
 | 61  | 🎏 | 5.76 | fishingalt |
-| 62  | 🧵 | 5.35 | breadworms |
+| 62  | 🧵 | 5.45 (+0.10) | puzzlow |
 | 63  | 🐚 | 5.03 | puzzlow |
 | 64  | 🪝 | 4.98 | sussy_amonge |
 | 65  | 🐦‍⬛ | 4.85 | qu4ttromila |
@@ -71,17 +71,17 @@
 | 68  | ☂️ | 2.96 | kishma9 |
 | 68  | 🌹 | 2.96 | osnyatsky |
 | 68  | 🥪 | 2.96 | qu4ttromila |
-| 71  | 🍬 | 2.60 | 5c33* |
-| 72 ⬆ | 🌻 | 2.18 (+0.72) | ninjaross |
-| 73 ⬇ | 👟 | 2.00 | kishma9 |
-| 73 ⬇ | 🧦 | 2.00 | osnyatsky* |
-| 73 ⬇ | 🩴 | 2.00 | qu4ttromila |
-| 76 ⬇ | 🩰 | 1.99 | qu4ttromila |
-| 77 ⬇ | 👢 | 1.98 | derinturitierutz |
-| 78 ⬇ | 🌿 | 1.96 | dayzedinndaydreams |
-| 79 ⬇ | ⛸️ | 1.94 | ryebreadward |
+| 71 ⬆ | 🌻 | 2.78 (+0.60) | fishingalt |
+| 72 ⬇ | 🍬 | 2.60 | 5c33* |
+| 73  | 👟 | 2.00 | kishma9 |
+| 73  | 🧦 | 2.00 | osnyatsky* |
+| 73  | 🩴 | 2.00 | qu4ttromila |
+| 76  | 🩰 | 1.99 | qu4ttromila |
+| 77  | 👢 | 1.98 | derinturitierutz |
+| 78  | 🌿 | 1.96 | dayzedinndaydreams |
+| 79  | ⛸️ | 1.94 | ryebreadward |
 | 80  | 🧣 | 0.99 | osnyatsky* |
 | 80  | 🪶 | 0.99 | osnyatsky* |
 | 80  | 🧤 | 0.99 | sicklymaidrobot |
 
-_Last updated at 2024-06-16 08:54:58 UTC_
+_Last updated at 2024-06-23 09:31:36 UTC_

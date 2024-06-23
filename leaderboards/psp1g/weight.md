@@ -1,4 +1,4 @@
-### Biggest fish caught per player in psp's chat
+### Biggest fish caught per player in psp1g's chat
 | Rank | Player | Fish | Weight in lbs ⚖️ |
 |------|--------|-----------|---------|
 | 1 🥇  | huuuuurz | 🐳 | 303.51 |
@@ -70,4 +70,4 @@
 | 67  | ttecnk | 🐉 | 202.20 |
 | 68  | juwna | 🐳 | 201.19 |
 
-_Last updated at 2024-06-16 08:55:01 UTC_
+_Last updated at 2024-06-23 09:31:37 UTC_

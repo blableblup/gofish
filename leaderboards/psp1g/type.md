@@ -1,4 +1,4 @@
-### Biggest fish per type caught in psp's chat
+### Biggest fish per type caught in psp1g's chat
 | Rank | Fish | Weight in lbs | Player |
 |------|--------|-----------|---------|
 | 1 🥇  | 🐳 | 303.51 | huuuuurz |
@@ -20,7 +20,7 @@
 | 17  | 🧟 | 118.60 | asthmaa |
 | 18  | 🦪 | 114.43 | wisdom_frog |
 | 19  | 🪸 | 99.92 | divra__ |
-| 20  | 🦇 | 77.36 | gorillapark |
+| 20  | 🦇 | 97.28 (+19.92) | jems______ |
 | 21  | 🪨 | 74.24 | caprise627 |
 | 22  | 👑 | 73.08 | brunodestar |
 | 23  | 🐟 | 63.75 | adziooooo |
@@ -60,25 +60,28 @@
 | 57  | 💀 | 9.99 | joleksu |
 | 58  | 🪺 | 8.82 | creepycode |
 | 59  | 🪹 | 8.38 | creepycode |
-| 60  | 🧵 | 5.43 | creepycode |
+| 60  | 🧵 | 6.00 (+0.57) | ocrw |
 | 61  | 🪝 | 4.99 | thedraingangceo* |
 | 62  | 🎏 | 4.97 | caprise627 |
 | 63  | 🥫 | 4.91 | huuuuurz |
 | 64  | 🐚 | 4.00 | manianic_ |
-| 65  | ☘️ | 3.95 | huuuuurz |
-| 66  | ☂️ | 2.96 | xanthic_swe |
-| 67  | 🌹 | 2.88 | zwockel01 |
-| 68  | 🩴 | 2.00 | crunch_sack |
-| 68  | 👢 | 2.00 | jr_mime |
-| 68  | 🧦 | 2.00 | manmanboy_ |
-| 68  | 🩰 | 2.00 | tomsi1g |
-| 72  | 👟 | 1.98 | jj_ladic |
-| 72  | 🥪 | 1.98 | ovrht |
-| 74  | ⛸️ | 1.96 | pookiesnowman |
-| 75  | 🍬 | 1.60 | dx9er |
-| 76  | 🧤 | 1.00 | kubo7 |
-| 76  | 🌿 | 1.00 | shricky |
-| 78  | 🪶 | 0.98 | amu1g |
-| 79  | 🧣 | 0.92 | blazeblitzzz |
+| 65  | ☘️ | 3.98 (+0.03) | popfizzgg |
+| 66 🆕 | 🐦‍⬛ | 3.30 | nndiana |
+| 67 ⬇ | ☂️ | 2.96 | xanthic_swe |
+| 68 ⬇ | 🌹 | 2.88 | zwockel01 |
+| 69 🆕 | 🌻 | 2.86 | benciee |
+| 70 🆕 | 🐦 | 2.71 | huuuuurz |
+| 71 ⬇ | 🩴 | 2.00 | crunch_sack |
+| 71 ⬇ | 👢 | 2.00 | jr_mime |
+| 71 ⬇ | 🧦 | 2.00 | manmanboy_ |
+| 71 ⬇ | 🩰 | 2.00 | tomsi1g |
+| 75 ⬇ | 👟 | 1.98 | jj_ladic |
+| 75 ⬇ | 🥪 | 1.98 | ovrht |
+| 77 ⬇ | ⛸️ | 1.96 | pookiesnowman |
+| 78 ⬇ | 🍬 | 1.60 | dx9er |
+| 79 ⬇ | 🧤 | 1.00 | kubo7 |
+| 79 ⬇ | 🌿 | 1.00 | shricky |
+| 81 ⬇ | 🪶 | 0.98 | amu1g |
+| 82 ⬇ | 🧣 | 0.92 | blazeblitzzz |
 
-_Last updated at 2024-06-16 08:54:59 UTC_
+_Last updated at 2024-06-23 09:31:34 UTC_

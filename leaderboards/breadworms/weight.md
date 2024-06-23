@@ -1,4 +1,4 @@
-### Biggest fish caught per player in bread's chat
+### Biggest fish caught per player in breadworms's chat
 | Rank | Player | Fish | Weight in lbs ⚖️ |
 |------|--------|-----------|---------|
 | 1 🥇  | dayzedinndaydreams | 🦑 | 307.60 |
@@ -44,4 +44,4 @@
 | 41  | notparasfishalt* | 🐉 | 207.18 |
 | 42  | veggesh | 🦈 | 206.22 |
 
-_Last updated at 2024-06-16 08:55:01 UTC_
+_Last updated at 2024-06-23 09:31:37 UTC_
