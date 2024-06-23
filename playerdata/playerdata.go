@@ -96,10 +96,10 @@ func PlayerRenamed(player string, pool *pgxpool.Pool) (string, error) {
 		if len(matchingPlayers) == 1 {
 			newPlayer := matchingPlayers[0]
 
-			if !loggedPlayers[newPlayer] {
+			if !loggedPlayers[player] {
 				logs.Logs().Info().Str("Old Name", player).Str("New Name", newPlayer).Msg("Player was previously renamed")
 
-				loggedPlayers[newPlayer] = true
+				loggedPlayers[player] = true
 			}
 
 			return newPlayer, nil
