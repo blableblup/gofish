@@ -44,7 +44,7 @@ func extractInfoFromTData(result string) []TrnmInfo {
 
 	date, err := utils.ParseDate(dateStr)
 	if err != nil {
-		logs.Logs().Error().Err(err).Msgf("Error parsing date for result by player '%s' at '%s'", player, dateStr)
+		logs.Logs().Fatal().Err(err).Str("Player", player).Str("Date", dateStr).Msgf("Error parsing date for tournament result")
 	}
 
 	Results = append(Results, TrnmInfo{
