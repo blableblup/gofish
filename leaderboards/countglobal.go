@@ -67,7 +67,7 @@ func RunCountGlobal(params LeaderboardParams) {
 			}
 
 			// Check if the player is already in the map
-			pfp := fmt.Sprintf("![%s](../../images/players/%s.png)", chatName, chatName)
+			pfp := fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", chatName, chatName)
 			existingFishInfo, exists := globalCount[fishInfo.Player]
 			if exists {
 				existingFishInfo.Count += fishInfo.Count
