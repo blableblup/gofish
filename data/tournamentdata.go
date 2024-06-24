@@ -1,7 +1,6 @@
 package data
 
 import (
-	"bufio"
 	"context"
 	"fmt"
 	"gofish/logs"
@@ -14,6 +13,7 @@ import (
 	"sort"
 	"strings"
 	"sync"
+	"time"
 
 	"github.com/jackc/pgx/v4/pgxpool"
 )
@@ -27,7 +27,7 @@ func GetTournamentData(config utils.Config, pool *pgxpool.Pool, chatNames string
 		for chatName, chat := range config.Chat {
 			if !chat.CheckTData {
 				if chatName != "global" && chatName != "default" {
-					logs.Logs().Warn().Msgf("Skipping chat '%s' because checktdata is false", chatName)
+					logs.Logs().Warn().Str("Chat", chatName).Msg("Skipping chat because checktdata is false")
 				}
 				continue
 			}
@@ -36,9 +36,13 @@ func GetTournamentData(config utils.Config, pool *pgxpool.Pool, chatNames string
 			go func(chatName string, chat utils.ChatInfo) {
 				defer wg.Done()
 
-				logs.Logs().Info().Msgf("Checking tournament results for chat '%s'...", chatName)
 				urls := utils.CreateURL(chatName, numMonths, monthYear, config)
-				fetchMatchingLines(chatName, pool, urls, mode)
+				matchingLines, err := fetchMatchingLines(chatName, urls)
+				if err != nil {
+					logs.Logs().Error().Err(err).Str("Chat", chatName).Msg("Error fetching tournament data")
+					return
+				}
+				processTData(matchingLines, chatName, pool)
 			}(chatName, chat)
 		}
 	case "":
@@ -48,12 +52,12 @@ func GetTournamentData(config utils.Config, pool *pgxpool.Pool, chatNames string
 		for _, chatName := range specifiedchatNames {
 			chat, ok := config.Chat[chatName]
 			if !ok {
-				logs.Logs().Warn().Msgf("Chat '%s' not found in config", chatName)
+				logs.Logs().Warn().Str("Chat", chatName).Msg("Chat not found in config")
 				continue
 			}
 			if !chat.CheckTData {
 				if chatName != "global" && chatName != "default" {
-					logs.Logs().Warn().Msgf("Skipping chat '%s' because checktdata is false", chatName)
+					logs.Logs().Warn().Str("Chat", chatName).Msg("Skipping chat because checktdata is false")
 				}
 				continue
 			}
@@ -62,9 +66,13 @@ func GetTournamentData(config utils.Config, pool *pgxpool.Pool, chatNames string
 			go func(chatName string, chat utils.ChatInfo) {
 				defer wg.Done()
 
-				logs.Logs().Info().Msgf("Checking tournament results for chat '%s'...", chatName)
 				urls := utils.CreateURL(chatName, numMonths, monthYear, config)
-				fetchMatchingLines(chatName, pool, urls, mode)
+				matchingLines, err := fetchMatchingLines(chatName, urls)
+				if err != nil {
+					logs.Logs().Error().Err(err).Str("Chat", chatName).Msg("Error fetching tournament data")
+					return
+				}
+				processTData(matchingLines, chatName, pool)
 			}(chatName, chat)
 		}
 	}
@@ -72,134 +80,150 @@ func GetTournamentData(config utils.Config, pool *pgxpool.Pool, chatNames string
 	wg.Wait()
 }
 
-func fetchMatchingLines(chatName string, pool *pgxpool.Pool, urls []string, mode string) {
-
-	// Fetch matching lines from each URL
+func fetchMatchingLines(chatName string, urls []string) ([]string, error) {
 	matchingLines := make([]string, 0)
-	if mode != "insertall" {
-		for _, url := range urls {
-			response, err := http.Get(url)
-			if err != nil {
-				logs.Logs().Fatal().Err(err).Msg("Error fetching URL")
-				continue
-			}
+	var wg sync.WaitGroup
+	var mu sync.Mutex
+	errCh := make(chan error, len(urls)) // Channel to receive errors from goroutines
 
-			if response.StatusCode != http.StatusOK {
-				logs.Logs().Fatal().Msgf("Unexpected HTTP status code %d for URL: %s", response.StatusCode, url)
-				response.Body.Close()
-				continue
-			}
+	for _, url := range urls {
+		wg.Add(1)
+		go func(url string) {
+			defer wg.Done()
 
-			defer response.Body.Close()
+			const maxRetries = 5
+			retryDelay := time.Second
 
-			body, err := io.ReadAll(response.Body)
-			if err != nil {
-				logs.Logs().Fatal().Err(err).Msg("Error reading response body")
-				continue
-			}
+			logs.Logs().Info().Str("URL", url).Str("Chat", chatName).Msg("Fetching tournament results")
 
-			lines := strings.Split(string(body), "\n")
-			for _, line := range lines {
-				if strings.Contains(line, "The results are in") ||
-					strings.Contains(line, "Last week...") {
-					matchingLines = append(matchingLines, strings.TrimSpace(line))
+			for retry := 0; retry < maxRetries; retry++ {
+				startTime := time.Now()
+
+				response, err := http.Get(url)
+				if err != nil {
+					logs.Logs().Error().Err(err).Str("URL", url).Str("Chat", chatName).Msg("Error fetching URL")
+					time.Sleep(retryDelay)
+					retryDelay *= 5
+					continue
 				}
+
+				if response.StatusCode != http.StatusOK {
+					// Since 404 can just mean that noone fished in that month for the very small chats, this doesnt have to count as an error
+					if response.StatusCode != 404 {
+						logs.Logs().Error().Str("URL", url).Str("Chat", chatName).Int("Code", response.StatusCode).Msg("Unexpected HTTP status code")
+						time.Sleep(retryDelay)
+						retryDelay *= 5
+						continue
+					}
+				}
+
+				body, err := io.ReadAll(response.Body)
+				response.Body.Close()
+				if err != nil {
+					logs.Logs().Error().Err(err).Str("URL", url).Str("Chat", chatName).Msg("Error reading response body")
+					time.Sleep(retryDelay)
+					retryDelay *= 5
+					continue
+				}
+
+				lines := strings.Split(string(body), "\n")
+				for _, line := range lines {
+					if strings.Contains(line, "The results are in") ||
+						strings.Contains(line, "Last week...") {
+						mu.Lock()
+						matchingLines = append(matchingLines, strings.TrimSpace(line))
+						mu.Unlock()
+					}
+				}
+
+				duration := time.Since(startTime)
+				logs.Logs().Debug().Dur("Duration", duration).Str("URL", url).Str("Chat", chatName).Msg("Time to load URL")
+				logs.Logs().Info().Str("URL", url).Str("Chat", chatName).Msg("Finished checking for tournament results")
+				return
 			}
-			logs.Logs().Info().Msgf("Finished checking for matching lines in %s", url)
+
+			logs.Logs().Error().Str("URL", url).Str("Chat", chatName).Msg("Reached maximum retries, unable to fetch tournament data from URL")
+			errCh <- fmt.Errorf("reached maximum retries for URL %s", url)
+
+		}(url)
+	}
+
+	go func() {
+		wg.Wait()
+		close(errCh)
+	}()
+
+	// Collect errors from errCh if any goroutine failed
+	for err := range errCh {
+		if err != nil {
+			logs.Logs().Error().Err(err).Msg("Error fetching tournament data")
+			return matchingLines, err
 		}
 	}
+
+	return matchingLines, nil
+}
+
+func processTData(matchingLines []string, chatName string, pool *pgxpool.Pool) {
 
 	// Ensure directory exists
 	logFilePath := filepath.Join("data", chatName, "tournamentlogs.txt")
 	err := os.MkdirAll(filepath.Dir(logFilePath), 0755)
 	if err != nil {
-		logs.Logs().Error().Err(err).Msg("Error creating directory")
+		logs.Logs().Error().Err(err).Str("File", logFilePath).Msg("Error creating directory")
 		return
 	}
 
 	file, err := os.OpenFile(logFilePath, os.O_RDONLY|os.O_CREATE, 0644)
 	if err != nil {
-		logs.Logs().Error().Err(err).Msg("Error opening log file")
+		logs.Logs().Error().Err(err).Str("File", logFilePath).Msg("Error opening log file")
 		return
 	}
 	defer file.Close()
 
-	existingLines := make(map[string]struct{})
-	scanner := bufio.NewScanner(file)
-	for scanner.Scan() {
-		line := scanner.Text()
-		if strings.Contains(line, "You caught") {
-			parts := strings.SplitN(line, "You caught", 2)
-			if mode == "insertall" {
-				existingLines[line] = struct{}{}
-			} else if len(parts) > 1 {
-				existingLines[strings.TrimSpace(parts[1])] = struct{}{}
-			}
-		}
-	}
-
-	newResults := make([]string, 0)
-
-	if mode == "insertall" {
-		for line := range existingLines {
-			newResults = append(newResults, line)
-		}
-	} else {
-		for _, line := range matchingLines {
-			if strings.Contains(line, "You caught") {
-				parts := strings.SplitN(line, "You caught", 2)
-				if len(parts) > 1 {
-					newLine := strings.TrimSpace(parts[1])
-					if _, exists := existingLines[newLine]; !exists {
-						newResults = append(newResults, line)
-						existingLines[newLine] = struct{}{} // Update existing lines with new ones
-					}
-				}
-			}
-		}
+	newResults, err := insertTDataIntoDB(matchingLines, chatName, pool)
+	if err != nil {
+		logs.Logs().Error().Err(err).Str("Chat", chatName).Msg("Error inserting tournament data into database")
+		return
 	}
 
 	if len(newResults) > 0 {
 
-		if err := insertTDataIntoDB(newResults, chatName, mode, pool); err != nil {
-			logs.Logs().Error().Err(err).Msg("Error inserting tournament data into database")
-			return
-		}
-
-		if mode == "insertall" {
-			logs.Logs().Info().Msg("Returning because program is in mode 'insertall'")
-			return
-		}
-
 		file, err := os.OpenFile(logFilePath, os.O_APPEND|os.O_WRONLY, 0644)
 		if err != nil {
-			logs.Logs().Error().Err(err).Msg("Error opening log file for appending")
+			logs.Logs().Error().Err(err).Str("File", logFilePath).Str("Chat", chatName).Msg("Error opening log file for appending")
 			return
 		}
 		defer file.Close()
 
 		for _, line := range newResults {
 			if _, err := file.WriteString(line + "\n"); err != nil {
-				logs.Logs().Error().Err(err).Msg("Error appending to log file")
+				logs.Logs().Error().Err(err).Str("File", logFilePath).Str("Chat", chatName).Msg("Error appending to log file")
 				return
 			}
 		}
-		logs.Logs().Info().Msgf("New results appended to %s", logFilePath)
+
+		logs.Logs().Info().Str("File", logFilePath).Str("Chat", chatName).Msgf("New results appended")
+
 	} else {
-		logs.Logs().Info().Msgf("No new results to append to %s", logFilePath)
+		logs.Logs().Info().Str("File", logFilePath).Str("Chat", chatName).Msgf("No new results to append")
 	}
 }
 
-func insertTDataIntoDB(newResults []string, chatName string, mode string, pool *pgxpool.Pool) error {
+func insertTDataIntoDB(matchingLines []string, chatName string, pool *pgxpool.Pool) ([]string, error) {
 
-	Results, err := TData(chatName, newResults, pool)
+	newResults := make([]string, 0)
+
+	Results, err := TData(chatName, matchingLines, pool)
 	if err != nil {
-		return err
+		logs.Logs().Error().Err(err).Str("Chat", chatName).Msg("Error parsing results")
+		return newResults, err
 	}
 
 	tx, err := pool.Begin(context.Background())
 	if err != nil {
-		return err
+		logs.Logs().Error().Err(err).Str("Chat", chatName).Msg("Error starting transaction")
+		return newResults, err
 	}
 	defer tx.Rollback(context.Background())
 
@@ -213,47 +237,57 @@ func insertTDataIntoDB(newResults []string, chatName string, mode string, pool *
 
 		tableName := "tournaments" + chatName
 		if err := utils.EnsureTableExists(pool, tableName); err != nil {
-			return err
+			logs.Logs().Error().Err(err).Str("Table", tableName).Str("Chat", chatName).Msg("Error ensuring table exists")
+			return newResults, err
 		}
 
-		if mode == "insertall" {
-			var count int
-			err := tx.QueryRow(context.Background(), `
+		var count int
+		err := tx.QueryRow(context.Background(), `
 			SELECT COUNT(*) FROM `+tableName+`
-			WHERE EXTRACT(year FROM date) = EXTRACT(year FROM $1::timestamp)
-			AND EXTRACT(month FROM date) = EXTRACT(month FROM $2::timestamp)
-			AND player = $3 AND fishcaught = $4 AND placement1 = $5 AND totalweight = $6 AND placement2 = $7 AND biggestfish = $8 AND placement3 = $9
-		`, result.Date, result.Date, result.Player, result.FishCaught, result.FishPlacement, result.TotalWeight, result.WeightPlacement,
-				result.BiggestFish, result.BiggestFishPlacement).Scan(&count)
-			if err != nil {
-				return err
-			}
-			if count > 0 {
-				continue
-			}
+			WHERE (EXTRACT(year FROM date) = EXTRACT(year FROM $1::timestamp)
+				   AND EXTRACT(month FROM date) = EXTRACT(month FROM $2::timestamp))
+			   OR (EXTRACT(year FROM date) = EXTRACT(year FROM $3::timestamp)
+				   AND EXTRACT(month FROM date) = EXTRACT(month FROM $4::timestamp))
+			   AND player = $5 AND fishcaught = $6 AND placement1 = $7 AND totalweight = $8 AND placement2 = $9 AND biggestfish = $10 AND placement3 = $11
+		`, result.Date, result.Date, result.Date.AddDate(0, -1, 0), result.Date.AddDate(0, -1, 0), result.Player, result.FishCaught, result.FishPlacement, result.TotalWeight, result.WeightPlacement,
+			result.BiggestFish, result.BiggestFishPlacement).Scan(&count)
+		if err != nil {
+			logs.Logs().Error().Err(err).Str("Table", tableName).Str("Chat", chatName).Msg("Error counting existing results")
+			return newResults, err
+		}
+		if count > 0 {
+			continue
 		}
 
 		// This adds the players checkin result date and chat as their first fish!
 		playerID, err := playerdata.GetPlayerID(pool, result.Player, result.Date, result.Chat)
 		if err != nil {
-			return err
+			logs.Logs().Error().Err(err).Str("Player", result.Player).Str("Chat", result.Chat).Msg("Error getting player ID")
+			return newResults, err
 		}
 
 		query := fmt.Sprintf("INSERT INTO %s ( player, playerid, fishcaught, placement1, totalweight, placement2, biggestfish, placement3, date, bot, chat) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)", tableName)
 		_, err = tx.Exec(context.Background(), query, result.Player, playerID, result.FishCaught, result.FishPlacement, result.TotalWeight,
 			result.WeightPlacement, result.BiggestFish, result.BiggestFishPlacement, result.Date, result.Bot, result.Chat)
 		if err != nil {
-			return err
+			logs.Logs().Error().Err(err).Str("Chat", chatName).Str("Query", query).Msg("Error inserting tournament data")
+			return newResults, err
 		}
 
 		newResultCounts++
+		newResults = append(newResults, result.Line)
 	}
 
 	if err := tx.Commit(context.Background()); err != nil {
-		return err
+		logs.Logs().Error().Err(err).Str("Chat", chatName).Msg("Error committing transaction")
+		return newResults, err
 	}
 
-	logs.Logs().Info().Msgf("Successfully inserted %d new results into the database for chat '%s'", newResultCounts, chatName)
+	if newResultCounts > 0 {
+		logs.Logs().Info().Int("Count", newResultCounts).Str("Chat", chatName).Msg("New results added into the database for chat")
+	} else {
+		logs.Logs().Info().Int("Count", newResultCounts).Str("Chat", chatName).Msg("No new results found for chat")
+	}
 
-	return nil
+	return newResults, nil
 }

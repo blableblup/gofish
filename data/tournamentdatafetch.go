@@ -26,6 +26,7 @@ func TData(chatName string, newResults []string, pool *pgxpool.Pool) ([]TrnmInfo
 			weightplacement := result.WeightPlacement
 			biggestfish := result.BiggestFish
 			biggestfishplacement := result.BiggestFishPlacement
+			line := result.Line
 
 			if utils.Contains(cheaters, player) {
 				continue // Skip processing for ignored players
@@ -44,6 +45,7 @@ func TData(chatName string, newResults []string, pool *pgxpool.Pool) ([]TrnmInfo
 				WeightPlacement:      weightplacement,
 				BiggestFish:          biggestfish,
 				BiggestFishPlacement: biggestfishplacement,
+				Line:                 line,
 			}
 
 			tdata = append(tdata, Tdata)
