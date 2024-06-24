@@ -241,15 +241,14 @@ func insertTDataIntoDB(matchingLines []string, chatName string, pool *pgxpool.Po
 			return newResults, err
 		}
 
+		// Always checks if the result is already in the db
+		// There is a bug where it will show the checkin result of the previous week if noone checked in, thats why it checks 14 days instead of 7
 		var count int
 		err := tx.QueryRow(context.Background(), `
 			SELECT COUNT(*) FROM `+tableName+`
-			WHERE (EXTRACT(year FROM date) = EXTRACT(year FROM $1::timestamp)
-				   AND EXTRACT(month FROM date) = EXTRACT(month FROM $2::timestamp))
-			   OR (EXTRACT(year FROM date) = EXTRACT(year FROM $3::timestamp)
-				   AND EXTRACT(month FROM date) = EXTRACT(month FROM $4::timestamp))
-			   AND player = $5 AND fishcaught = $6 AND placement1 = $7 AND totalweight = $8 AND placement2 = $9 AND biggestfish = $10 AND placement3 = $11
-		`, result.Date, result.Date, result.Date.AddDate(0, -1, 0), result.Date.AddDate(0, -1, 0), result.Player, result.FishCaught, result.FishPlacement, result.TotalWeight, result.WeightPlacement,
+			WHERE (date >= $1::timestamp - interval '14 days' AND date < $2::timestamp + interval '1 day')
+			   AND player = $3 AND fishcaught = $4 AND placement1 = $5 AND totalweight = $6 AND placement2 = $7 AND biggestfish = $8 AND placement3 = $9
+		`, result.Date, result.Date, result.Player, result.FishCaught, result.FishPlacement, result.TotalWeight, result.WeightPlacement,
 			result.BiggestFish, result.BiggestFishPlacement).Scan(&count)
 		if err != nil {
 			logs.Logs().Error().Err(err).Str("Table", tableName).Str("Chat", chatName).Msg("Error counting existing results")
