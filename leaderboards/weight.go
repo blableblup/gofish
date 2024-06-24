@@ -224,7 +224,7 @@ func writeWeight(filePath string, recordWeight map[string]data.FishInfo, oldReco
 		// Write the leaderboard row
 		_, _ = fmt.Fprintf(file, "| %s %s | %s%s | %s | %s |", ranks, changeEmoji, player, botIndicator, fishType, fishweight)
 		if isGlobal {
-			_, _ = fmt.Fprintf(file, " %s |", recordWeight[player].Chat)
+			_, _ = fmt.Fprintf(file, " %s |", recordWeight[player].ChatPfp)
 		}
 		_, err = fmt.Fprintln(file)
 		if err != nil {
