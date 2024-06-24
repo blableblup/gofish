@@ -15,44 +15,43 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 	config := params.Config
 
 	chatStats := make(map[string]data.FishInfo)
-	var chatInfo data.FishInfo
 
 	filePath := filepath.Join("leaderboards", "global", "chats.md")
 	oldChatStats, err := ReadOldChatStats(filePath)
 	if err != nil {
-		logs.Logs().Error().Err(err).Msg("Error reading old chatStats leaderboard")
+		logs.Logs().Error().Err(err).Str("Path", filePath).Msg("Error reading old chatStats leaderboard")
 		return
 	}
 
 	for chatName, chat := range config.Chat {
+		var chatInfo data.FishInfo
+
 		if !chat.CheckFData {
 			if chatName != "global" && chatName != "default" {
-				logs.Logs().Warn().Msgf("Skipping chat '%s' because checkfdata is false", chatName)
+				logs.Logs().Warn().Str("Chat", chatName).Msg("Skipping chat because checkfdata is false")
 			}
 			continue
 		}
 
 		// Get the amount of fish caught per chat
-		rows, err := pool.Query(context.Background(), `
-				SELECT MAX(chatid) AS fish_count
+		err := pool.QueryRow(context.Background(), `
+				SELECT COUNT(*) AS fish_count
 				FROM fish
 				WHERE chat = $1
-				`, chatName)
+				`, chatName).Scan(&chatInfo.Count)
 		if err != nil {
-			logs.Logs().Error().Err(err).Msgf("Error querying fish database for chat %s", chatName)
+			logs.Logs().Error().Err(err).Str("Chat", chatName).Msg("Error querying fish database for fish count")
 			return
 		}
-		defer rows.Close()
 
-		for rows.Next() {
-			if err := rows.Scan(&chatInfo.Count); err != nil {
-				logs.Logs().Error().Err(err).Msgf("Error scanning row to get highest chatid for chat %s", chatName)
-				continue
-			}
+		// Skip chats with zero fish caught
+		if chatInfo.Count == 0 {
+			logs.Logs().Debug().Str("Chat", chatName).Msg("Skipping chat with zero fish caught")
+			continue
 		}
 
 		// Get the active fishers
-		rows, err = pool.Query(context.Background(), `
+		err = pool.QueryRow(context.Background(), `
 				SELECT COUNT(*) AS active_fishers_count
 				FROM (
 					SELECT DISTINCT playerid
@@ -62,22 +61,14 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 					GROUP BY playerid
 					HAVING COUNT(*) > 10
 				) AS subquery
-				`, chatName)
+				`, chatName).Scan(&chatInfo.MaxCount)
 		if err != nil {
-			logs.Logs().Error().Err(err).Msgf("Error querying fish database for chat %s", chatName)
+			logs.Logs().Error().Err(err).Str("Chat", chatName).Msg("Error querying fish database for active fishers")
 			return
-		}
-		defer rows.Close()
-
-		for rows.Next() {
-			if err := rows.Scan(&chatInfo.MaxCount); err != nil {
-				logs.Logs().Error().Err(err).Msgf("Error scanning row to get active fishers for chat %s", chatName)
-				continue
-			}
 		}
 
 		// Get the unique fishers
-		rows, err = pool.Query(context.Background(), `
+		err = pool.QueryRow(context.Background(), `
 				SELECT COUNT(*) AS unique_fishers_count
 				FROM (
 					SELECT DISTINCT playerid
@@ -85,22 +76,14 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 					WHERE chat = $1
 					GROUP BY playerid
 				) AS subquery
-				`, chatName)
+				`, chatName).Scan(&chatInfo.FishId)
 		if err != nil {
-			logs.Logs().Error().Err(err).Msgf("Error querying fish database for chat %s", chatName)
+			logs.Logs().Error().Err(err).Str("Chat", chatName).Msg("Error querying fish database for unique fishers")
 			return
-		}
-		defer rows.Close()
-
-		for rows.Next() {
-			if err := rows.Scan(&chatInfo.FishId); err != nil {
-				logs.Logs().Error().Err(err).Msgf("Error scanning row to get unique fishers for chat %s", chatName)
-				continue
-			}
 		}
 
 		// Get the channel record
-		rows, err = pool.Query(context.Background(), `
+		err = pool.QueryRow(context.Background(), `
 				SELECT f.playerid, f.weight, f.fishname
 				FROM fish f
 				JOIN (
@@ -109,33 +92,25 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 					WHERE chat = $1
 				) max_weight_chat ON f.weight = max_weight_chat.max_weight
 				WHERE f.chat = $1;
-				`, chatName)
+				`, chatName).Scan(&chatInfo.PlayerID, &chatInfo.Weight, &chatInfo.TypeName)
 		if err != nil {
-			logs.Logs().Error().Err(err).Msgf("Error querying fish database for chat %s", chatName)
+			logs.Logs().Error().Err(err).Str("Chat", chatName).Msgf("Error querying fish database for channel record")
 			return
-		}
-		defer rows.Close()
-
-		for rows.Next() {
-			if err := rows.Scan(&chatInfo.PlayerID, &chatInfo.Weight, &chatInfo.TypeName); err != nil {
-				logs.Logs().Error().Err(err).Msgf("Error scanning row to get channel record for chat %s", chatName)
-				continue
-			}
 		}
 
 		err = pool.QueryRow(context.Background(), "SELECT fishtype FROM fishinfo WHERE fishname = $1", chatInfo.TypeName).Scan(&chatInfo.Type)
 		if err != nil {
-			logs.Logs().Error().Err(err).Msgf("Error retrieving fish type for fish name '%s'", chatInfo.TypeName)
-			continue
+			logs.Logs().Error().Err(err).Str("Chat", chatName).Str("Fishname", chatInfo.TypeName).Msg("Error retrieving fish type for fish name")
+			return
 		}
 
 		err = pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", chatInfo.PlayerID).Scan(&chatInfo.Player)
 		if err != nil {
-			logs.Logs().Error().Err(err).Msgf("Error retrieving player name for id '%d'", chatInfo.PlayerID)
-			continue
+			logs.Logs().Error().Err(err).Str("Chat", chatName).Int("PlayerID", chatInfo.PlayerID).Msg("Error retrieving player name for id")
+			return
 		}
 
-		chatInfo.TypeName = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", chatName, chatName)
+		chatInfo.ChatPfp = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", chatName, chatName)
 		chatInfo.Chat = chatName
 
 		// Update chatStats
@@ -187,7 +162,7 @@ func writeChatStats(filePath string, chatStats map[string]data.FishInfo, oldChat
 
 	for _, chat := range sortedChats {
 		count := chatStats[chat].Count
-		emoji := chatStats[chat].TypeName
+		pfp := chatStats[chat].ChatPfp
 		weight := chatStats[chat].Weight
 		fishtype := chatStats[chat].Type
 		player := chatStats[chat].Player
@@ -258,7 +233,7 @@ func writeChatStats(filePath string, chatStats map[string]data.FishInfo, oldChat
 
 		ranks := Ranks(rank)
 
-		_, _ = fmt.Fprintf(file, "| %s %s | %s %s | %s | %s | %s | %s %s lbs, %s |", ranks, changeEmoji, chatname, emoji, counts, activepl, uniquepl, fishtype, fishweight, player)
+		_, _ = fmt.Fprintf(file, "| %s %s | %s %s | %s | %s | %s | %s %s lbs, %s |", ranks, changeEmoji, chatname, pfp, counts, activepl, uniquepl, fishtype, fishweight, player)
 		_, err = fmt.Fprintln(file)
 		if err != nil {
 			return err
