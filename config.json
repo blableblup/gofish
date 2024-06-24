@@ -21,50 +21,53 @@
       "ovrht": {
         "logs_host": "https://logs.spanix.team/channel/ovrht/user/gofishgame/",
         "logs_added": "2023/10",
-        "checkfdata": false,
-        "checktdata": false,
+        "checkfdata": true,
+        "checktdata": true,
         "board_enabled": false
       },
       "julialuxel": {
         "logs_host": "https://logs.ivr.fi/channel/julialuxel/user/gofishgame/",
         "logs_added": "2023/12",
-        "checkfdata": false,
-        "checktdata": false,
-        "board_enabled": false
+        "weight_limit": 50,
+        "totalcount_limit": 10,
+        "fishweek_limit": 10,
+        "checkfdata": true,
+        "checktdata": true,
+        "board_enabled": true
       },
       "ryanpotat": {
         "logs_host": "https://logs.spanix.team/channel/ryanpotat/user/gofishgame/",
         "logs_added": "2023/12",
-        "checkfdata": false,
-        "checktdata": false,
+        "checkfdata": true,
+        "checktdata": true,
         "board_enabled": false
       },
       "d_egree": {
         "logs_host": "https://logs.spanix.team/channel/d_egree/user/gofishgame/",
         "logs_added": "2024/5",
-        "checkfdata": false,
-        "checktdata": false,
+        "checkfdata": true,
+        "checktdata": true,
         "board_enabled": false
       },
       "pokirule": {
         "logs_host": "https://logs.spanix.team/channel/pokirule/user/gofishgame/",
         "logs_added": "2024/5",
-        "checkfdata": false,
-        "checktdata": false,
+        "checkfdata": true,
+        "checktdata": true,
         "board_enabled": false
       },
       "ajspyman": {
         "logs_host": "https://logs.spanix.team/channel/ajspyman/user/gofishgame/",
         "logs_added": "2024/5",
-        "checkfdata": false,
-        "checktdata": false,
+        "checkfdata": true,
+        "checktdata": true,
         "board_enabled": false
       },
       "miagooper": {
         "logs_host": "https://logs.ivr.fi/channel/miagooper/user/gofishgame/",
         "logs_added": "2024/5",
-        "checkfdata": false,
-        "checktdata": false,
+        "checkfdata": true,
+        "checktdata": true,
         "board_enabled": false
       },
       "global": {
