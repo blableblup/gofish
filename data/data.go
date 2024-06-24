@@ -143,6 +143,7 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 
 	tx, err := pool.Begin(context.Background())
 	if err != nil {
+		logs.Logs().Error().Err(err).Msg("Error starting transaction")
 		return err
 	}
 	defer tx.Rollback(context.Background())

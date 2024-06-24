@@ -55,8 +55,6 @@ func main() {
 		data.GetData(*chatNames, *db, *numMonths, *monthYear, *mode)
 		// Modes: "a" for fishdatafetch.
 		// Adds every fish caught to FishData instead of just the new ones and inserts the missing fish into the db.
-		// Modes: "insertall" for tournamentdata.
-		// Adds all the existing lines from the tournamentlogs to newResults, inserts the missing results into the db and then returns.
 
 	case "pattern":
 		logs.Logs().Info().Str("Program", *program).Msg("Start")
