@@ -58,7 +58,7 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 			}
 
 			// Check if the fish type already exists in the map
-			pfp := fmt.Sprintf("![%s](../../images/players/%s.png)", chatName, chatName)
+			pfp := fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", chatName, chatName)
 			existingFishInfo, exists := globalFishTypesCount[fishInfo.Type]
 			if exists {
 				existingFishInfo.Count += fishInfo.Count

@@ -135,7 +135,7 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 			continue
 		}
 
-		chatInfo.TypeName = fmt.Sprintf("![%s](../../images/players/%s.png)", chatName, chatName)
+		chatInfo.TypeName = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", chatName, chatName)
 		chatInfo.Chat = chatName
 
 		// Update chatStats
