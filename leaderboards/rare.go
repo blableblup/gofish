@@ -2,6 +2,7 @@ package leaderboards
 
 import (
 	"context"
+	"fmt"
 	"gofish/data"
 	"gofish/logs"
 	"path/filepath"
@@ -57,7 +58,7 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 			}
 
 			// Check if the fish type already exists in the map
-			emoji := config.Chat[chatName].Emoji
+			pfp := fmt.Sprintf("![%s](../../images/players/%s.png)", chatName, chatName)
 			existingFishInfo, exists := globalFishTypesCount[fishInfo.Type]
 			if exists {
 				existingFishInfo.Count += fishInfo.Count
@@ -65,19 +66,19 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 				if existingFishInfo.ChatCounts == nil {
 					existingFishInfo.ChatCounts = make(map[string]int)
 				}
-				existingFishInfo.ChatCounts[emoji] += fishInfo.Count
+				existingFishInfo.ChatCounts[pfp] += fishInfo.Count
 
 				if fishInfo.Count > existingFishInfo.MaxCount {
 					existingFishInfo.MaxCount = fishInfo.Count
-					existingFishInfo.Chat = emoji
+					existingFishInfo.Chat = pfp
 				}
 				globalFishTypesCount[fishInfo.Type] = existingFishInfo
 			} else {
 				globalFishTypesCount[fishInfo.Type] = data.FishInfo{
 					Count:      fishInfo.Count,
-					Chat:       emoji,
+					Chat:       pfp,
 					MaxCount:   fishInfo.Count,
-					ChatCounts: map[string]int{emoji: fishInfo.Count},
+					ChatCounts: map[string]int{pfp: fishInfo.Count},
 				}
 			}
 		}

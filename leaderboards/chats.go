@@ -135,7 +135,7 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 			continue
 		}
 
-		chatInfo.TypeName = config.Chat[chatName].Emoji
+		chatInfo.TypeName = fmt.Sprintf("![%s](../../images/players/%s.png)", chatName, chatName)
 		chatInfo.Chat = chatName
 
 		// Update chatStats
