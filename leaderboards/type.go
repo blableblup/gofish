@@ -226,7 +226,7 @@ func writeType(filePath string, recordType map[string]data.FishInfo, oldType map
 
 		_, _ = fmt.Fprintf(file, "| %s %s | %s | %s | %s%s |", ranks, changeEmoji, fishType, fishweight, player, botIndicator)
 		if isGlobal {
-			_, _ = fmt.Fprintf(file, " %s |", recordType[fishType].Chat)
+			_, _ = fmt.Fprintf(file, " %s |", recordType[fishType].ChatPfp)
 		}
 		_, err = fmt.Fprintln(file)
 		if err != nil {

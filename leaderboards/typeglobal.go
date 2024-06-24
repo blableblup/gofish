@@ -2,6 +2,7 @@ package leaderboards
 
 import (
 	"context"
+	"fmt"
 	"gofish/data"
 	"gofish/logs"
 	"path/filepath"
@@ -9,7 +10,6 @@ import (
 )
 
 func RunTypeGlobal(params LeaderboardParams) {
-	config := params.Config
 	pool := params.Pool
 	mode := params.Mode
 
@@ -71,7 +71,7 @@ func RunTypeGlobal(params LeaderboardParams) {
 			continue
 		}
 
-		fishInfo.Chat = config.Chat[fishInfo.Chat].Emoji
+		fishInfo.ChatPfp = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", fishInfo.Chat, fishInfo.Chat)
 		globalRecordType[fishInfo.Type] = fishInfo
 	}
 

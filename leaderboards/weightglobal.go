@@ -2,6 +2,7 @@ package leaderboards
 
 import (
 	"context"
+	"fmt"
 	"gofish/data"
 	"gofish/logs"
 	"path/filepath"
@@ -68,7 +69,7 @@ func RunWeightGlobal(params LeaderboardParams) {
 			continue
 		}
 
-		fishInfo.Chat = config.Chat[fishInfo.Chat].Emoji
+		fishInfo.ChatPfp = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", fishInfo.Chat, fishInfo.Chat)
 		globalRecordWeight[fishInfo.Player] = fishInfo
 
 	}
