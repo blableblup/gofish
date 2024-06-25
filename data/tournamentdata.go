@@ -110,10 +110,13 @@ func fetchMatchingLines(chatName string, urls []string) ([]string, error) {
 				if response.StatusCode != http.StatusOK {
 					// Since 404 can just mean that noone fished in that month for the very small chats, this doesnt have to count as an error
 					if response.StatusCode != 404 {
-						logs.Logs().Error().Str("URL", url).Str("Chat", chatName).Int("Code", response.StatusCode).Msg("Unexpected HTTP status code")
+						logs.Logs().Error().Str("URL", url).Str("Chat", chatName).Int("HTTP Code", response.StatusCode).Msg("Unexpected HTTP status code")
 						time.Sleep(retryDelay)
 						retryDelay *= 5
 						continue
+					} else {
+						logs.Logs().Warn().Str("URL", url).Str("Chat", chatName).Int("HTTP Code", response.StatusCode).Msg("No logs for chat")
+						return
 					}
 				}
 
