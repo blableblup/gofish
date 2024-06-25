@@ -166,21 +166,6 @@ func fetchMatchingLines(chatName string, urls []string) ([]string, error) {
 
 func processTData(matchingLines []string, chatName string, pool *pgxpool.Pool) {
 
-	// Ensure directory exists
-	logFilePath := filepath.Join("data", chatName, "tournamentlogs.txt")
-	err := os.MkdirAll(filepath.Dir(logFilePath), 0755)
-	if err != nil {
-		logs.Logs().Error().Err(err).Str("File", logFilePath).Msg("Error creating directory")
-		return
-	}
-
-	file, err := os.OpenFile(logFilePath, os.O_RDONLY|os.O_CREATE, 0644)
-	if err != nil {
-		logs.Logs().Error().Err(err).Str("File", logFilePath).Msg("Error opening log file")
-		return
-	}
-	defer file.Close()
-
 	newResults, err := insertTDataIntoDB(matchingLines, chatName, pool)
 	if err != nil {
 		logs.Logs().Error().Err(err).Str("Chat", chatName).Msg("Error inserting tournament data into database")
@@ -188,6 +173,14 @@ func processTData(matchingLines []string, chatName string, pool *pgxpool.Pool) {
 	}
 
 	if len(newResults) > 0 {
+
+		// Append the new results to tournamentlogs
+		logFilePath := filepath.Join("data", chatName, "tournamentlogs.txt")
+		err := os.MkdirAll(filepath.Dir(logFilePath), 0755)
+		if err != nil {
+			logs.Logs().Error().Err(err).Str("File", logFilePath).Msg("Error creating directory")
+			return
+		}
 
 		file, err := os.OpenFile(logFilePath, os.O_APPEND|os.O_WRONLY, 0644)
 		if err != nil {
@@ -205,8 +198,6 @@ func processTData(matchingLines []string, chatName string, pool *pgxpool.Pool) {
 
 		logs.Logs().Info().Str("File", logFilePath).Str("Chat", chatName).Msgf("New results appended")
 
-	} else {
-		logs.Logs().Info().Str("File", logFilePath).Str("Chat", chatName).Msgf("No new results to append")
 	}
 }
 
