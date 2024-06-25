@@ -45,10 +45,13 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 			// Log the error and retry
 			// Since 404 can just mean that noone fished in that month for the very small chats, this doesnt have to count as an error
 			if resp.StatusCode() != 404 {
-				logs.Logs().Error().Str("URL", url).Str("Chat", chatName).Int("Code", resp.StatusCode()).Msg("Unexpected HTTP status code")
+				logs.Logs().Error().Str("URL", url).Str("Chat", chatName).Int("HTTP Code", resp.StatusCode()).Msg("Unexpected HTTP status code")
 				time.Sleep(retryDelay)
 				retryDelay *= 5
 				continue
+			} else {
+				logs.Logs().Warn().Str("URL", url).Str("Chat", chatName).Int("HTTP Code", resp.StatusCode()).Msg("No logs for chat")
+				return fishData, nil
 			}
 		}
 
