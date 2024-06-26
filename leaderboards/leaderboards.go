@@ -157,10 +157,13 @@ func processGlobalLeaderboard(params LeaderboardParams) {
 
 	switch params.LeaderboardType {
 	case "weight":
+		params.LeaderboardType += "global"
 		RunWeightGlobal(params)
 	case "count":
+		params.LeaderboardType += "global"
 		RunCountGlobal(params)
 	case "type":
+		params.LeaderboardType += "global"
 		RunTypeGlobal(params)
 	default:
 		logs.Logs().Warn().Str("Board", params.LeaderboardType).Msg("（︶^︶） There is no global leaderboard for that board")
