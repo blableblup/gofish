@@ -11,7 +11,7 @@ import (
 	"github.com/jackc/pgx/v4/pgxpool"
 )
 
-func Leaderboards(leaderboards string, chatNames string, date string, date2 string, path string, mode string) {
+func Leaderboards(leaderboards string, chatNames string, date string, date2 string, path string, mode string, title string) {
 
 	config := utils.LoadConfig()
 
@@ -59,6 +59,7 @@ func Leaderboards(leaderboards string, chatNames string, date string, date2 stri
 		Date:     date,
 		Date2:    date2,
 		Path:     path,
+		Title:    title,
 	}
 
 	for _, leaderboard := range leaderboardList {
@@ -176,6 +177,7 @@ type LeaderboardParams struct {
 	Config          utils.Config
 	Date            string
 	Date2           string
+	Title           string
 	Path            string
 	ChatName        string
 	Mode            string
