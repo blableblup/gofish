@@ -7,21 +7,36 @@ import (
 	"gofish/logs"
 	"os"
 	"path/filepath"
+	"strings"
 	"time"
 )
 
 func processWeight(params LeaderboardParams) {
+	board := params.LeaderboardType
 	chatName := params.ChatName
 	config := params.Config
-	mode := params.Mode
-	pool := params.Pool
+	date2 := params.Date2
+	title := params.Title
 	chat := params.Chat
+	pool := params.Pool
+	date := params.Date
+	path := params.Path
+	mode := params.Mode
 
-	filePath := filepath.Join("leaderboards", chatName, "weight.md")
+	var filePath string
+
+	if path == "" {
+		filePath = filepath.Join("leaderboards", chatName, "weight.md")
+	} else {
+		if !strings.HasSuffix(path, ".md") {
+			path += ".md"
+		}
+		filePath = filepath.Join("leaderboards", chatName, path)
+	}
 
 	oldRecordWeight, err := ReadWeightRankings(filePath, pool)
 	if err != nil {
-		logs.Logs().Error().Err(err).Msg("Error reading old weight leaderboard")
+		logs.Logs().Error().Err(err).Str("Path", filePath).Str("Board", board).Msg("Error reading old leaderboard")
 		return
 	}
 
@@ -40,11 +55,13 @@ func processWeight(params LeaderboardParams) {
 			SELECT playerid, MAX(weight) AS max_weight
 			FROM fish 
 			WHERE chat = $1
+			AND date < $3
+	  		AND date > $4
 			GROUP BY playerid
 		) max_fish ON f.playerid = max_fish.playerid AND f.weight = max_fish.max_weight
-		WHERE f.chat = $1 AND f.weight >= $2`, chatName, Weightlimit)
+		WHERE f.chat = $1 AND f.weight >= $2`, chatName, Weightlimit, date, date2)
 	if err != nil {
-		logs.Logs().Error().Err(err).Msg("Error querying database")
+		logs.Logs().Error().Str("Board", board).Str("Chat", chatName).Err(err).Msg("Error querying database")
 		return
 	}
 	defer rows.Close()
@@ -55,27 +72,28 @@ func processWeight(params LeaderboardParams) {
 
 		if err := rows.Scan(&fishInfo.PlayerID, &fishInfo.Weight, &fishInfo.TypeName, &fishInfo.Bot,
 			&fishInfo.Chat, &fishInfo.Date, &fishInfo.CatchType, &fishInfo.FishId, &fishInfo.ChatId); err != nil {
-			logs.Logs().Error().Err(err).Msg("Error scanning row")
-			continue
+			logs.Logs().Error().Err(err).Str("Chat", chatName).Str("Board", board).Msg("Error scanning row for fish weight")
+			return
 		}
 
 		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Player)
 		if err != nil {
-			logs.Logs().Error().Err(err).Msgf("Error retrieving player name for id '%d'", fishInfo.PlayerID)
-			continue
+			logs.Logs().Error().Err(err).Int("PlayerID", fishInfo.PlayerID).Str("Board", board).Str("Chat", chatName).Msg("Error retrieving player name for id")
+			return
 		}
 
 		if fishInfo.Bot == "supibot" {
 			err := pool.QueryRow(context.Background(), "SELECT verified FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Verified)
 			if err != nil {
-				logs.Logs().Error().Err(err).Msgf("Error retrieving verified status for playerid '%d'", fishInfo.PlayerID)
+				logs.Logs().Error().Err(err).Int("PlayerID", fishInfo.PlayerID).Str("Board", board).Str("Chat", chatName).Msg("Error retrieving verified status for playerid")
+				return
 			}
 		}
 
 		err = pool.QueryRow(context.Background(), "SELECT fishtype FROM fishinfo WHERE fishname = $1", fishInfo.TypeName).Scan(&fishInfo.Type)
 		if err != nil {
-			logs.Logs().Error().Err(err).Msgf("Error retrieving fish type for fish name '%s'", fishInfo.TypeName)
-			continue
+			logs.Logs().Error().Err(err).Str("FishName", fishInfo.TypeName).Str("Board", board).Str("Chat", chatName).Msg("Error retrieving fish type for fish name")
+			return
 		}
 
 		recordWeight[fishInfo.Player] = fishInfo
@@ -83,7 +101,7 @@ func processWeight(params LeaderboardParams) {
 	}
 
 	if err := rows.Err(); err != nil {
-		logs.Logs().Error().Err(err).Msg("Error iterating over query results")
+		logs.Logs().Error().Str("Board", board).Str("Chat", chatName).Err(err).Msg("Error iterating over query results")
 		return
 	}
 
@@ -99,9 +117,10 @@ func processWeight(params LeaderboardParams) {
 				Str("CatchType", newWeightRecord.CatchType).
 				Str("FishType", newWeightRecord.Type).
 				Str("Player", playerName).
+				Str("Board", board).
 				Int("ChatID", newWeightRecord.ChatId).
 				Int("FishID", newWeightRecord.FishId).
-				Msg("New Record Weight for Player")
+				Msg("New Record")
 		} else {
 			if newWeightRecord.Weight > oldWeightRecord.Weight {
 				logs.Logs().Info().
@@ -112,28 +131,35 @@ func processWeight(params LeaderboardParams) {
 					Str("CatchType", newWeightRecord.CatchType).
 					Str("FishType", newWeightRecord.Type).
 					Str("Player", playerName).
+					Str("Board", board).
 					Int("ChatID", newWeightRecord.ChatId).
 					Int("FishID", newWeightRecord.FishId).
-					Msg("Updated Record Weight for Player")
+					Msg("Updated Record")
 			}
 		}
 	}
 
 	// Stops the program if it is in "just checking" mode
 	if mode == "check" {
-		logs.Logs().Info().Msgf("Finished checking for new weight records for chat '%s'", chatName)
+		logs.Logs().Info().Str("Chat", chatName).Str("Board", board).Msg("Finished checking for records for chat")
 		return
 	}
 
-	titleweight := fmt.Sprintf("### Biggest fish caught per player in %s's chat\n", chatName)
+	var titleweight string
+	if title == "" {
+		titleweight = fmt.Sprintf("### Biggest fish caught per player in %s's chat\n", chatName)
+	} else {
+		titleweight = fmt.Sprintf("%s\n", title)
+	}
+
 	isGlobal := false
 
-	logs.Logs().Info().Msgf("Updating weight leaderboard for chat '%s' with weight threshold %f...", chatName, Weightlimit)
+	logs.Logs().Info().Str("Board", board).Str("Chat", chatName).Msg("Updating leaderboard")
 	err = writeWeight(filePath, recordWeight, oldRecordWeight, titleweight, isGlobal)
 	if err != nil {
-		logs.Logs().Error().Err(err).Msgf("Error writing weight leaderboard for chat '%s'", chatName)
+		logs.Logs().Error().Err(err).Str("Board", board).Str("Chat", chatName).Msg("Error writing leaderboard")
 	} else {
-		logs.Logs().Info().Msgf("Weight leaderboard updated successfully for chat '%s'\n", chatName)
+		logs.Logs().Info().Str("Board", board).Str("Chat", chatName).Msg("Leaderboard updated successfully")
 	}
 }
 

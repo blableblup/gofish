@@ -11,7 +11,7 @@ import (
 	"github.com/jackc/pgx/v4/pgxpool"
 )
 
-func Leaderboards(leaderboards string, chatNames string, date string, date2 string, path string, mode string, title string) {
+func Leaderboards(leaderboards string, chatNames string, date string, date2 string, path string, title string, mode string) {
 
 	config := utils.LoadConfig()
 

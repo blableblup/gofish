@@ -8,20 +8,36 @@ import (
 	"os"
 	"path/filepath"
 	"sort"
+	"strings"
 	"time"
 )
 
 func processCount(params LeaderboardParams) {
+	board := params.LeaderboardType
 	chatName := params.ChatName
 	config := params.Config
+	date2 := params.Date2
+	title := params.Title
 	chat := params.Chat
 	pool := params.Pool
+	date := params.Date
+	path := params.Path
 
-	filePath := filepath.Join("leaderboards", chatName, "count.md")
+	var filePath string
+
+	if path == "" {
+		filePath = filepath.Join("leaderboards", chatName, "count.md")
+	} else {
+		if !strings.HasSuffix(path, ".md") {
+			path += ".md"
+		}
+		filePath = filepath.Join("leaderboards", chatName, path)
+	}
+
 	isFish := false
 	oldCountRecord, err := ReadTotalcountRankings(filePath, pool, isFish)
 	if err != nil {
-		logs.Logs().Error().Err(err).Msg("Error reading old count leaderboard")
+		logs.Logs().Error().Err(err).Str("Path", filePath).Str("Board", board).Msg("Error reading old leaderboard")
 		return
 	}
 
@@ -35,10 +51,12 @@ func processCount(params LeaderboardParams) {
 	  SELECT playerid, COUNT(*) AS fish_count
 	  FROM fish
 	  WHERE chat = $1
+	  AND date < $2
+	  AND date > $3
 	  GROUP BY playerid
-	  HAVING COUNT(*) >= $2`, chatName, Totalcountlimit)
+	  HAVING COUNT(*) >= $4`, chatName, date, date2, Totalcountlimit)
 	if err != nil {
-		logs.Logs().Error().Err(err).Msg("Error querying database")
+		logs.Logs().Error().Err(err).Str("Chat", chatName).Str("Board", board).Msg("Error querying database")
 		return
 	}
 	defer rows.Close()
@@ -48,34 +66,42 @@ func processCount(params LeaderboardParams) {
 	for rows.Next() {
 		var fishInfo data.FishInfo
 		if err := rows.Scan(&fishInfo.PlayerID, &fishInfo.Count); err != nil {
-			logs.Logs().Error().Err(err).Msg("Error scanning row")
-			continue
+			logs.Logs().Error().Err(err).Str("Chat", chatName).Str("Board", board).Msg("Error scanning row for fish count")
+			return
 		}
 
 		err := pool.QueryRow(context.Background(), "SELECT name, firstfishdate FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Player, &fishInfo.Date)
 		if err != nil {
-			logs.Logs().Error().Err(err).Msgf("Error retrieving player name for id '%d'", fishInfo.PlayerID)
+			logs.Logs().Error().Err(err).Int("PlayerID", fishInfo.PlayerID).Str("Board", board).Msg("Error retrieving player name for id")
+			return
 		}
 		if fishInfo.Date.Before(time.Date(2023, time.September, 14, 0, 0, 0, 0, time.UTC)) {
 			fishInfo.Bot = "supibot"
 			err := pool.QueryRow(context.Background(), "SELECT verified FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Verified)
 			if err != nil {
-				logs.Logs().Error().Err(err).Msgf("Error retrieving verified status for playerid '%d'", fishInfo.PlayerID)
+				logs.Logs().Error().Err(err).Int("PlayerID", fishInfo.PlayerID).Str("Board", board).Msg("Error retrieving verified status for playerid")
+				return
 			}
 		}
 
 		fishCaught[fishInfo.Player] = fishInfo
 	}
 
-	titletotalcount := fmt.Sprintf("### Most fish caught in %s's chat\n", chatName)
+	var titletotalcount string
+	if title == "" {
+		titletotalcount = fmt.Sprintf("### Most fish caught in %s's chat\n", chatName)
+	} else {
+		titletotalcount = fmt.Sprintf("%s\n", title)
+	}
+
 	isGlobal, isType := false, false
 
-	logs.Logs().Info().Msgf("Updating totalcount leaderboard for chat '%s' with count threshold %d...", chatName, Totalcountlimit)
+	logs.Logs().Info().Str("Board", board).Str("Chat", chatName).Msg("Updating leaderboard")
 	err = writeCount(filePath, fishCaught, oldCountRecord, titletotalcount, isGlobal, isType)
 	if err != nil {
-		logs.Logs().Error().Err(err).Msg("Error writing totalcount leaderboard")
+		logs.Logs().Error().Err(err).Str("Board", board).Str("Chat", chatName).Msg("Error writing leaderboard")
 	} else {
-		logs.Logs().Info().Msg("Totalcount leaderboard updated successfully.")
+		logs.Logs().Info().Str("Board", board).Str("Chat", chatName).Msg("Leaderboard updated successfully")
 	}
 }
 
@@ -189,7 +215,7 @@ func writeCount(filePath string, fishCaught map[string]data.FishInfo, oldCountRe
 
 			// Print the count for each chat
 			for _, count := range ChatCountsSlice {
-				_, _ = fmt.Fprintf(file, " %s(%d) ", count.chat, count.count)
+				_, _ = fmt.Fprintf(file, " %s %d ", count.chat, count.count)
 			}
 			_, _ = fmt.Fprint(file, "|")
 		}
