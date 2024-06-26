@@ -56,7 +56,7 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
             GROUP BY fishname
             `, chatName, date, date2)
 		if err != nil {
-			logs.Logs().Error().Err(err).Str("Chat", chatName).Msg("Error querying database for rarest fish")
+			logs.Logs().Error().Err(err).Str("Chat", chatName).Str("Board", board).Msg("Error querying database for rarest fish")
 			return
 		}
 		defer rows.Close()
@@ -65,14 +65,14 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 		for rows.Next() {
 			var fishInfo data.FishInfo
 			if err := rows.Scan(&fishInfo.TypeName, &fishInfo.Count); err != nil {
-				logs.Logs().Error().Err(err).Str("Chat", chatName).Msg("Error scanning row for rarest fish")
-				continue
+				logs.Logs().Error().Err(err).Str("Chat", chatName).Str("Board", board).Msg("Error scanning row for rarest fish")
+				return
 			}
 
 			err = pool.QueryRow(context.Background(), "SELECT fishtype FROM fishinfo WHERE fishname = $1", fishInfo.TypeName).Scan(&fishInfo.Type)
 			if err != nil {
-				logs.Logs().Error().Err(err).Str("Fish name", fishInfo.TypeName).Msg("Error retrieving fish type for fish name")
-				continue
+				logs.Logs().Error().Err(err).Str("Fish name", fishInfo.TypeName).Str("Board", board).Msg("Error retrieving fish type for fish name")
+				return
 			}
 
 			// Check if the fish type already exists in the map
