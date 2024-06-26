@@ -12,14 +12,16 @@ import (
 
 func main() {
 	numMonths := flag.Int("m", 1, "Number of past months")
+	debug := flag.Bool("debug", false, "Debug some stuff")
 	mode := flag.String("mm", "", "Modes are different for each program")
 	chatNames := flag.String("s", "", "Comma-separated list of chat names")
-	monthYear := flag.String("dt", "", "Specific month and year (yyyy/mm)")
-	debug := flag.Bool("debug", false, "Set debug to true to log everything")
 	leaderboard := flag.String("l", "", "Comma-separated list of leaderboards")
 	program := flag.String("p", "", "Program name: boards, data, trnm, logs, pattern")
 	db := flag.String("db", "", "Database to update, fish (f) and tournament results (t)")
 	renamePairs := flag.String("rename", "", "Comma-separated list of oldName:newName pairs")
+	date2 := flag.String("dt2", "", "Second date for the leaderboards. If you want to get boards for a time period")
+	monthYear := flag.String("dt", "", "Specific month and year for data (yyyy/mm). For the boards, this needs to be yyyy-mm-dd")
+	path := flag.String("path", "", "Give the board a custom name. But you should only do one board at a time with this. Else it will get overwritten.")
 
 	flag.Parse()
 
@@ -44,9 +46,9 @@ func main() {
 		return
 
 	case "boards":
-		logs.Logs().Info().Str("Program", *program).Str("Mode", *mode).Str("Boards", *leaderboard).Str("Chats", *chatNames).Msg("Start")
+		logs.Logs().Info().Str("Program", *program).Str("Mode", *mode).Str("Boards", *leaderboard).Str("Chats", *chatNames).Str("Path", *path).Str("Date", *monthYear).Str("Date2", *date2).Msg("Start")
 
-		leaderboards.Leaderboards(*leaderboard, *chatNames, *mode)
+		leaderboards.Leaderboards(*leaderboard, *chatNames, *monthYear, *date2, *path, *mode)
 		// Modes: "check", only prints new / updated type and weight records
 
 	case "data":

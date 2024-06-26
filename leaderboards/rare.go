@@ -6,18 +6,34 @@ import (
 	"gofish/data"
 	"gofish/logs"
 	"path/filepath"
+	"strings"
 )
 
 func RunCountFishTypesGlobal(params LeaderboardParams) {
+	board := params.LeaderboardType
 	config := params.Config
+	date2 := params.Date2
 	pool := params.Pool
+	date := params.Date
+	path := params.Path
 
 	globalFishTypesCount := make(map[string]data.FishInfo)
-	filePath := filepath.Join("leaderboards", "global", "rare.md")
+
+	var filePath string
+
+	if path == "" {
+		filePath = filepath.Join("leaderboards", "global", "rare.md")
+	} else {
+		if !strings.HasSuffix(path, ".md") {
+			path += ".md"
+		}
+		filePath = filepath.Join("leaderboards", "global", path)
+	}
+
 	isFish := true
 	oldCount, err := ReadTotalcountRankings(filePath, pool, isFish)
 	if err != nil {
-		logs.Logs().Error().Err(err).Msg("Error reading old rarest fish leaderboard")
+		logs.Logs().Error().Err(err).Str("Path", filePath).Str("Board", board).Msg("Error reading old leaderboard")
 		return
 	}
 
@@ -25,7 +41,7 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 	for chatName, chat := range config.Chat {
 		if !chat.CheckFData {
 			if chatName != "global" && chatName != "default" {
-				logs.Logs().Warn().Msgf("Skipping chat '%s' because checkfdata is false", chatName)
+				logs.Logs().Warn().Str("Chat", chatName).Msg("Skipping chat because checkfdata is false")
 			}
 			continue
 		}
@@ -35,10 +51,12 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
             SELECT fishname, COUNT(*) AS type_count
             FROM fish
             WHERE chat = $1
+			AND date < $2
+			AND date > $3
             GROUP BY fishname
-            `, chatName)
+            `, chatName, date, date2)
 		if err != nil {
-			logs.Logs().Error().Err(err).Msg("Error querying database")
+			logs.Logs().Error().Err(err).Str("Chat", chatName).Msg("Error querying database for rarest fish")
 			return
 		}
 		defer rows.Close()
@@ -47,13 +65,13 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 		for rows.Next() {
 			var fishInfo data.FishInfo
 			if err := rows.Scan(&fishInfo.TypeName, &fishInfo.Count); err != nil {
-				logs.Logs().Error().Err(err).Msg("Error scanning row")
+				logs.Logs().Error().Err(err).Str("Chat", chatName).Msg("Error scanning row for rarest fish")
 				continue
 			}
 
 			err = pool.QueryRow(context.Background(), "SELECT fishtype FROM fishinfo WHERE fishname = $1", fishInfo.TypeName).Scan(&fishInfo.Type)
 			if err != nil {
-				logs.Logs().Error().Err(err).Msgf("Error retrieving fish type for fish name '%s'", fishInfo.TypeName)
+				logs.Logs().Error().Err(err).Str("Fish name", fishInfo.TypeName).Msg("Error retrieving fish type for fish name")
 				continue
 			}
 
@@ -84,17 +102,17 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 		}
 	}
 
-	updateFishTypesLeaderboard(globalFishTypesCount, oldCount, filePath)
+	updateFishTypesLeaderboard(globalFishTypesCount, oldCount, filePath, board)
 }
 
-func updateFishTypesLeaderboard(globalFishTypesCount map[string]data.FishInfo, oldCount map[string]LeaderboardInfo, filePath string) {
-	logs.Logs().Info().Msg("Updating rarest fish leaderboard...")
+func updateFishTypesLeaderboard(globalFishTypesCount map[string]data.FishInfo, oldCount map[string]LeaderboardInfo, filePath string, board string) {
+	logs.Logs().Info().Str("Board", board).Msg("Updating leaderboard")
 	title := "### How many times a fish has been caught\n"
 	isGlobal, isType := true, true
 	err := writeCount(filePath, globalFishTypesCount, oldCount, title, isGlobal, isType)
 	if err != nil {
-		logs.Logs().Error().Err(err).Msg("Error writing rarest fish leaderboard")
+		logs.Logs().Error().Err(err).Str("Path", filePath).Str("Board", board).Msg("Error writing leaderboard")
 	} else {
-		logs.Logs().Info().Msg("Rarest fish leaderboard updated successfully")
+		logs.Logs().Info().Str("Board", board).Msg("Leaderboard updated successfully")
 	}
 }
