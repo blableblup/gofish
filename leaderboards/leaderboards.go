@@ -4,12 +4,14 @@ import (
 	"gofish/data"
 	"gofish/logs"
 	"gofish/utils"
+	"regexp"
 	"strings"
+	"time"
 
 	"github.com/jackc/pgx/v4/pgxpool"
 )
 
-func Leaderboards(leaderboards string, chatNames string, mode string) {
+func Leaderboards(leaderboards string, chatNames string, date string, date2 string, path string, mode string) {
 
 	config := utils.LoadConfig()
 
@@ -22,11 +24,41 @@ func Leaderboards(leaderboards string, chatNames string, mode string) {
 	}
 	defer pool.Close()
 
+	// So that you can make "past" boards for a date or for a time period (like 2023 boards)
+	// So if "date" is 2024-01-01 and "date2" is 2022-12-31 it will only count data for 2023
+	// If "date" is 2024-05-10 it will only count data up to 2024-05-09
+	// If "date2" is 2023-01-01 it will only count data after that date
+	if date == "" {
+		currentDate := time.Now()
+		date = currentDate.Format("2006-01-02")
+	}
+
+	if date2 == "" {
+		oldDate := time.Date(2004, 3, 2, 0, 0, 0, 0, time.UTC)
+		date2 = oldDate.Format("2006-01-02")
+	}
+
+	if !isValidDate(date) {
+		logs.Logs().Error().Str("Date", date).Msg("Date is in the wrong format")
+		return
+	}
+
+	if !isValidDate(date2) {
+		logs.Logs().Error().Str("Date2", date2).Msg("Date2 is in the wrong format")
+		return
+	}
+
+	logs.Logs().Debug().Str("Date", date).Msg("The date for the data")
+	logs.Logs().Debug().Str("Date2", date2).Msg("The date2 for the data")
+
 	params := LeaderboardParams{
 		Pool:     pool,
 		Mode:     mode,
 		ChatName: chatNames,
 		Config:   config,
+		Date:     date,
+		Date2:    date2,
+		Path:     path,
 	}
 
 	for _, leaderboard := range leaderboardList {
@@ -50,7 +82,9 @@ func Leaderboards(leaderboards string, chatNames string, mode string) {
 		// 	RunCountDay(params)
 
 		case "all":
+			params.LeaderboardType = "stats"
 			RunChatStatsGlobal(params)
+			params.LeaderboardType = "rare"
 			RunCountFishTypesGlobal(params)
 			params.LeaderboardType = "type"
 			processLeaderboard(config, params, processType)
@@ -137,7 +171,15 @@ type LeaderboardParams struct {
 	Chat            utils.ChatInfo
 	Pool            *pgxpool.Pool
 	Config          utils.Config
+	Date            string
+	Date2           string
+	Path            string
 	ChatName        string
 	Mode            string
 	LeaderboardType string
+}
+
+func isValidDate(date string) bool {
+	re := regexp.MustCompile(`^\d{4}-\d{2}-\d{2}$`)
+	return re.MatchString(date)
 }
