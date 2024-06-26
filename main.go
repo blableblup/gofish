@@ -14,6 +14,7 @@ func main() {
 	numMonths := flag.Int("m", 1, "Number of past months")
 	debug := flag.Bool("debug", false, "Debug some stuff")
 	mode := flag.String("mm", "", "Modes are different for each program")
+	title := flag.String("title", "", "Pass a custom title to the board.")
 	chatNames := flag.String("s", "", "Comma-separated list of chat names")
 	leaderboard := flag.String("l", "", "Comma-separated list of leaderboards")
 	program := flag.String("p", "", "Program name: boards, data, trnm, logs, pattern")
@@ -46,9 +47,9 @@ func main() {
 		return
 
 	case "boards":
-		logs.Logs().Info().Str("Program", *program).Str("Mode", *mode).Str("Boards", *leaderboard).Str("Chats", *chatNames).Str("Path", *path).Str("Date", *monthYear).Str("Date2", *date2).Msg("Start")
+		logs.Logs().Info().Str("Program", *program).Str("Mode", *mode).Str("Boards", *leaderboard).Str("Chats", *chatNames).Str("Path", *path).Str("Date", *monthYear).Str("Date2", *date2).Str("Title", *title).Msg("Start")
 
-		leaderboards.Leaderboards(*leaderboard, *chatNames, *monthYear, *date2, *path, *mode)
+		leaderboards.Leaderboards(*leaderboard, *chatNames, *monthYear, *date2, *path, *title, *mode)
 		// Modes: "check", only prints new / updated type and weight records
 
 	case "data":
