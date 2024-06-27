@@ -14,6 +14,7 @@ func RunCountGlobal(params LeaderboardParams) {
 	board := params.LeaderboardType
 	config := params.Config
 	date2 := params.Date2
+	title := params.Title
 	pool := params.Pool
 	date := params.Date
 	path := params.Path
@@ -85,7 +86,6 @@ func RunCountGlobal(params LeaderboardParams) {
 				}
 			}
 
-			// Check if the player is already in the map
 			pfp := fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", chatName, chatName)
 			existingFishInfo, exists := globalCount[fishInfo.Player]
 			if exists {
@@ -122,15 +122,20 @@ func RunCountGlobal(params LeaderboardParams) {
 		}
 	}
 
-	updateCountLeaderboard(globalCount, oldCount, filePath, board)
+	updateCountLeaderboard(globalCount, oldCount, filePath, board, title)
 }
 
-func updateCountLeaderboard(globalCount map[string]data.FishInfo, oldCount map[string]LeaderboardInfo, filePath string, board string) {
+func updateCountLeaderboard(globalCount map[string]data.FishInfo, oldCount map[string]LeaderboardInfo, filePath string, board string, title string) {
 	logs.Logs().Info().Str("Board", board).Msg("Updating leaderboard")
-	title := "### Most fish caught globally\n"
+	var titlecount string
+	if title == "" {
+		titlecount = "### How many times a fish has been caught\n"
+	} else {
+		titlecount = fmt.Sprintf("%s\n", title)
+	}
 	isType := false
 	isGlobal := true
-	err := writeCount(filePath, globalCount, oldCount, title, isGlobal, isType)
+	err := writeCount(filePath, globalCount, oldCount, titlecount, isGlobal, isType)
 	if err != nil {
 		logs.Logs().Error().Err(err).Str("Board", board).Msg("Error writing leaderboard")
 	} else {
