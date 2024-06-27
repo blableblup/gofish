@@ -129,7 +129,7 @@ func updateCountLeaderboard(globalCount map[string]data.FishInfo, oldCount map[s
 	logs.Logs().Info().Str("Board", board).Msg("Updating leaderboard")
 	var titlecount string
 	if title == "" {
-		titlecount = "### How many times a fish has been caught\n"
+		titlecount = "### Most fish caught globally\n"
 	} else {
 		titlecount = fmt.Sprintf("%s\n", title)
 	}
