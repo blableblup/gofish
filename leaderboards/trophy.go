@@ -6,32 +6,62 @@ import (
 	"gofish/logs"
 	"os"
 	"path/filepath"
+	"strings"
 	"time"
 )
 
 func processTrophy(params LeaderboardParams) {
+	board := params.LeaderboardType
 	chatName := params.ChatName
+	date2 := params.Date2
+	title := params.Title
 	pool := params.Pool
+	date := params.Date
+	path := params.Path
+
+	var filePath string
+
+	if path == "" {
+		filePath = filepath.Join("leaderboards", chatName, "trophy.md")
+	} else {
+		if !strings.HasSuffix(path, ".md") {
+			path += ".md"
+		}
+		filePath = filepath.Join("leaderboards", chatName, path)
+	}
+
+	oldTrophy, err := ReadOldTrophyRankings(filePath, pool)
+	if err != nil {
+		logs.Logs().Error().Err(err).Str("Chat", chatName).Str("Board", board).Msg("Error reading old leaderboard")
+		return
+	}
 
 	playerCounts := make(map[string]LeaderboardInfo)
 
-	rows, err := pool.Query(context.Background(), `
-		SELECT 
+	// I get "ERROR: column \"date\" does not exist" with the old query ? This works but it is the exact same query (?) or I am stupid
+	query := fmt.Sprintf(`
+	SELECT 
 		playerid,
 		SUM(CASE WHEN placement IN (1) THEN 1 ELSE 0 END) AS trophycount,
 		SUM(CASE WHEN placement IN (2) THEN 1 ELSE 0 END) AS silvercount,
 		SUM(CASE WHEN placement IN (3) THEN 1 ELSE 0 END) AS bronzecount
 	FROM (
-		SELECT playerid, placement1 AS placement FROM tournaments`+chatName+` UNION ALL
-		SELECT playerid, placement2 AS placement FROM tournaments`+chatName+` UNION ALL
-		SELECT playerid, placement3 AS placement FROM tournaments`+chatName+`
+		SELECT playerid, placement1 AS placement, date FROM tournaments%s
+		UNION ALL
+		SELECT playerid, placement2 AS placement, date FROM tournaments%s
+		UNION ALL
+		SELECT playerid, placement3 AS placement, date FROM tournaments%s
 	) AS all_placements
+	WHERE date < $1
+	AND date > $2
 	GROUP BY playerid
 	HAVING (SUM(CASE WHEN placement IN (1) THEN 1 ELSE 0 END) + 
-            SUM(CASE WHEN placement IN (2) THEN 1 ELSE 0 END) +
-            SUM(CASE WHEN placement IN (3) THEN 1 ELSE 0 END)) > 0`)
+			SUM(CASE WHEN placement IN (2) THEN 1 ELSE 0 END) +
+			SUM(CASE WHEN placement IN (3) THEN 1 ELSE 0 END)) > 0`, chatName, chatName, chatName)
+
+	rows, err := pool.Query(context.Background(), query, date, date2)
 	if err != nil {
-		logs.Logs().Error().Err(err).Msg("Error querying database")
+		logs.Logs().Error().Err(err).Str("Chat", chatName).Str("Board", board).Msg("Error querying database")
 		return
 	}
 	defer rows.Close()
@@ -40,15 +70,15 @@ func processTrophy(params LeaderboardParams) {
 		var playerid, trophycount, silvercount, bronzecount int
 
 		if err := rows.Scan(&playerid, &trophycount, &silvercount, &bronzecount); err != nil {
-			logs.Logs().Error().Err(err).Msg("Error scanning row")
-			continue
+			logs.Logs().Error().Err(err).Str("Chat", chatName).Str("Board", board).Msg("Error scanning row")
+			return
 		}
 
 		var playerName string
 		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", playerid).Scan(&playerName)
 		if err != nil {
-			logs.Logs().Error().Err(err).Msgf("Error retrieving player name for id '%d'", playerid)
-			continue
+			logs.Logs().Error().Err(err).Int("PlayerID", playerid).Str("Chat", chatName).Str("Board", board).Msg("Error retrieving player name for id")
+			return
 		}
 
 		playerCounts[playerName] = LeaderboardInfo{
@@ -59,25 +89,23 @@ func processTrophy(params LeaderboardParams) {
 	}
 
 	if err := rows.Err(); err != nil {
-		logs.Logs().Error().Err(err).Msg("Error iterating over query results")
+		logs.Logs().Error().Str("Chat", chatName).Str("Board", board).Err(err).Msg("Error iterating over query results")
 		return
 	}
 
-	titletrophies := fmt.Sprintf("### Leaderboard for the weekly tournaments in %s's chat\n", chatName)
-	filePath := filepath.Join("leaderboards", chatName, "trophy.md")
-
-	oldTrophy, err := ReadOldTrophyRankings(filePath, pool)
-	if err != nil {
-		logs.Logs().Error().Err(err).Msg("Error reading old trophy leaderboard")
-		return
+	var titletrophies string
+	if title == "" {
+		titletrophies = fmt.Sprintf("### Leaderboard for the weekly tournaments in %s's chat\n", chatName)
+	} else {
+		titletrophies = fmt.Sprintf("%s\n", title)
 	}
 
-	logs.Logs().Info().Msgf("Updating trophies leaderboard for chat '%s'...", chatName)
+	logs.Logs().Info().Str("Chat", chatName).Str("Board", board).Msg("Updating leaderboard")
 	err = writeTrophy(filePath, playerCounts, oldTrophy, titletrophies)
 	if err != nil {
-		logs.Logs().Error().Err(err).Msg("Error writing trophies leaderboard")
+		logs.Logs().Error().Err(err).Str("Chat", chatName).Str("Board", board).Msg("Error writing leaderboard")
 	} else {
-		logs.Logs().Info().Msg("Trophies leaderboard updated successfully")
+		logs.Logs().Info().Str("Chat", chatName).Str("Board", board).Msg("Leaderboard updated successfully")
 	}
 }
 
