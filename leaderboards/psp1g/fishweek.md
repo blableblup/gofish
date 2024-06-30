@@ -1,22 +1,23 @@
-### Most fish caught in a single week in tournaments in psp's chat
+### Most fish caught in a single week in tournaments in psp1g's chat
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
-| 1 🥇  | fonuwu | 83 |
-| 2 🥈  | jr_mime | 73 |
-| 3 🥉  | benciee | 62 |
-| 4  | nndiana | 57 |
-| 5  | thasbe | 48 |
-| 6  | yopego | 47 |
-| 7  | jems______ | 45 |
-| 8  | amu1g | 37 |
-| 8  | pengeg | 37 |
-| 10  | divra__ | 33 |
-| 11  | commanda_u | 32 |
-| 12  | mikel1g | 31 |
-| 13  | noconcept_ | 29 |
-| 14  | creepycode | 26 |
-| 15  | zwockel01 | 24 |
-| 16  | restartmikel | 23 |
-| 17  | afju* | 21 |
+| 1 🥇 ⬆ | benciee | 94 (+25) |
+| 2 🥈 ⬇ | fonuwu | 83 |
+| 3 🥉 ⬆ | nndiana | 78 (+10) |
+| 4 ⬇ | jr_mime | 73 |
+| 5 🆕 | caprise627 | 61 |
+| 6 ⬇ | thasbe | 48 |
+| 7 ⬇ | yopego | 47 |
+| 8 ⬇ | jems______ | 45 |
+| 9 ⬇ | amu1g | 37 |
+| 9 ⬇ | pengeg | 37 |
+| 11 ⬇ | commanda_u | 34 |
+| 12 ⬇ | divra__ | 33 |
+| 13 ⬇ | mikel1g | 31 |
+| 14 ⬇ | noconcept_ | 29 |
+| 15 ⬇ | creepycode | 26 |
+| 16 ⬇ | zwockel01 | 24 |
+| 17 ⬇ | restartmikel | 23 |
+| 18 ⬇ | afju* | 21 |
 
-_Last updated at 2024-06-19 10:06:15 UTC_
+_Last updated at 2024-06-30 20:21:38 UTC_
