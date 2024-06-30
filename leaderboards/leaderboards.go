@@ -28,9 +28,11 @@ func Leaderboards(leaderboards string, chatNames string, date string, date2 stri
 	// So if "date" is 2024-01-01 and "date2" is 2022-12-31 it will only count data for 2023
 	// If "date" is 2024-05-10 it will only count data up to 2024-05-09
 	// If "date2" is 2023-01-01 it will only count data after that date
+	// By default, "date" is the next day. So that it considers all data
 	if date == "" {
 		currentDate := time.Now()
-		date = currentDate.Format("2006-01-02")
+		nextDay := currentDate.AddDate(0, 0, 1)
+		date = nextDay.Format("2006-01-02")
 	}
 
 	if date2 == "" {
