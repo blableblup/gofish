@@ -39,6 +39,7 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 	// Start a transaction
 	tx, err := pool.Begin(context.Background())
 	if err != nil {
+		logs.Logs().Error().Err(err).Msg("Error starting transaction")
 		return err
 	}
 	defer tx.Rollback(context.Background())
@@ -47,7 +48,7 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 		oldName := pair.OldName
 		newName := pair.NewName
 
-		logs.Logs().Info().Msgf("Updating player name from '%s' to '%s'", oldName, newName)
+		logs.Logs().Info().Str("OldName", oldName).Str("NewName", newName).Msg("Updating player name")
 
 		// Get player IDs
 		var oldPlayerID, newPlayerID int
@@ -57,11 +58,12 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 			`, oldName).Scan(&oldPlayerID)
 		if err != nil {
 			if err == pgx.ErrNoRows {
-				logs.Logs().Warn().Msgf("No player found with name '%s'", oldName)
+				logs.Logs().Warn().Str("Old Name", oldName).Msg("No player found with old name")
+				return nil
 			} else {
-				logs.Logs().Error().Err(err).Msgf("Error retrieving player ID for name '%s'", oldName)
+				logs.Logs().Error().Err(err).Str("OldName", oldName).Msg("Error retrieving player ID for name")
+				return err
 			}
-			continue
 		}
 
 		err = tx.QueryRow(context.Background(), `
@@ -70,7 +72,7 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 		if err != nil {
 			if err == pgx.ErrNoRows {
 				// If the player renamed but never caught a fish since renaming. This only updates the old name in playerdata
-				logs.Logs().Warn().Msgf("Player '%s' does not have an entry in the playerdata table. ", newName)
+				logs.Logs().Warn().Str("Player", newName).Msg("Player does not have an entry in the playerdata table. ")
 				confirm, err := utils.Confirm("Is the name correct? (y to continue, n to exit)")
 				if err != nil {
 					logs.Logs().Error().Err(err).Msg("Error reading input")
@@ -89,22 +91,23 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 					WHERE playerid = $3
 				`, newName, oldName, oldPlayerID)
 				if err != nil {
-					return fmt.Errorf("error updating player data for player %s: %v", newName, err)
+					logs.Logs().Error().Err(err).Str("OldName", oldName).Str("NewName", newName).Msg("Error updating player data for name")
+					return err
 				}
 
 				rowsAffected := result.RowsAffected()
 				if rowsAffected == 0 {
-					logs.Logs().Fatal().Msgf("No rows updated for player %s in playerdata. Exiting the program due to potential data inconsistency.", newName)
+					logs.Logs().Fatal().Str("Player", newName).Msg("No rows updated for player in playerdata. Exiting the program due to potential data inconsistency.")
 					// There should be an update unless something is wrong with the data
 				} else {
-					logs.Logs().Info().Msgf("Player data updated for player %s", newName)
+					logs.Logs().Info().Str("Player", newName).Int64("Rows Affected", rowsAffected).Msg("Player data updated for player")
 				}
 
 				break
 			} else {
-				logs.Logs().Error().Err(err).Msgf("Error retrieving player ID for name '%s'", newName)
+				logs.Logs().Error().Err(err).Str("NewName", newName).Msg("Error retrieving player ID for name")
+				return err
 			}
-			continue
 		}
 
 		// Update player names and oldnames
@@ -114,15 +117,16 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 			WHERE playerid = $3		
 			`, newName, oldName, oldPlayerID)
 		if err != nil {
-			logs.Logs().Error().Err(err).Msgf("error updating player data for player %s", newName)
+			logs.Logs().Error().Err(err).Str("OldName", oldName).Str("NewName", newName).Msg("Error updating player data for name")
+			return err
 		}
 
 		rowsAffected := result.RowsAffected()
 		if rowsAffected == 0 {
-			logs.Logs().Fatal().Msgf("No rows updated for player %s in playerdata. Exiting the program due to potential data inconsistency.", newName)
+			logs.Logs().Fatal().Str("Player", newName).Msg("No rows updated for player in playerdata. Exiting the program due to potential data inconsistency.")
 			// There should be an update unless something is wrong with the data
 		} else {
-			logs.Logs().Info().Msgf("Player data updated for player %s", newName)
+			logs.Logs().Info().Str("Player", newName).Int64("Rows Affected", rowsAffected).Msg("Player data updated for player")
 		}
 
 		// Update playerid in fish + tournament tables
@@ -132,20 +136,21 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
             WHERE playerid = $2
         `, oldPlayerID, newPlayerID)
 		if err != nil {
+			logs.Logs().Error().Err(err).Int("OldID", oldPlayerID).Int("NewID", newPlayerID).Msg("Error updating playerids in fish table")
 			return err
 		}
 		rowsAffected = result.RowsAffected()
 		if rowsAffected == 0 {
-			logs.Logs().Fatal().Msgf("No rows updated for player %s in fish table. Exiting the program due to potential data inconsistency.", newName)
+			logs.Logs().Fatal().Str("Player", newName).Msg("No rows updated for player in fish table. Exiting the program due to potential data inconsistency.")
 			// There should be an update unless something is wrong with the data
 		} else {
-			logs.Logs().Info().Msgf("Rows affected in fish table for player %s: %d", newName, rowsAffected)
+			logs.Logs().Info().Str("Player", newName).Int64("Rows Affected", rowsAffected).Msg("Rows affected in fish table for player")
 		}
 
 		for chatName, chat := range config.Chat {
 			if !chat.CheckTData {
 				if chatName != "global" && chatName != "default" {
-					logs.Logs().Warn().Msgf("Skipping chat '%s' because checktdata is false", chatName)
+					logs.Logs().Warn().Str("Chat", chatName).Msgf("Skipping chat because checktdata is false")
 				}
 				continue
 			}
@@ -155,11 +160,12 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 			var exists bool
 			err := pool.QueryRow(context.Background(), "SELECT EXISTS (SELECT 1 FROM information_schema.tables WHERE lower(table_name) = lower($1))", tableName).Scan(&exists)
 			if err != nil {
+				logs.Logs().Error().Err(err).Msg("Error checking if the tournament tables exist")
 				return err
 			}
 
 			if !exists {
-				logs.Logs().Warn().Msgf("Tournament table '%s' does not exist skipping...", tableName)
+				logs.Logs().Warn().Str("Table", tableName).Msg("Tournament table does not exist skipping...")
 				continue
 			}
 
@@ -169,14 +175,15 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 			WHERE playerid = $2
 		`, tableName), oldPlayerID, newPlayerID)
 			if err != nil {
+				logs.Logs().Error().Err(err).Int("OldID", oldPlayerID).Int("NewID", newPlayerID).Str("Table", tableName).Msg("Error updating playerids in tournament table")
 				return err
 			}
 			rowsAffected = result.RowsAffected()
 			if rowsAffected == 0 {
-				logs.Logs().Warn().Msgf("No rows updated for player %s in tournament table '%s'", newName, tableName)
+				logs.Logs().Warn().Str("Player", newName).Str("Table", tableName).Msgf("No rows updated for player in tournament table")
 				// Because players wont have an entry in every tournament database for every chat, this doesnt need to be fatal
 			} else {
-				logs.Logs().Info().Msgf("Rows affected in tournament table '%s' for player %s: %d", tableName, newName, rowsAffected)
+				logs.Logs().Info().Str("Player", newName).Str("Table", tableName).Int64("Rows Affected", rowsAffected).Msg("Rows affected in tournament table for player")
 			}
 
 		}
@@ -187,18 +194,20 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
             WHERE playerid = $1
         `, newPlayerID)
 		if err != nil {
+			logs.Logs().Error().Err(err).Str("Player", newName).Int("NewID", newPlayerID).Msg("Error deleting new player entry in playerdata")
 			return err
 		}
 		rowsAffected = result.RowsAffected()
 		if rowsAffected == 0 {
-			logs.Logs().Fatal().Msgf("No rows updated for player %s after deletion. Exiting the program due to potential data inconsistency.", newName)
+			logs.Logs().Fatal().Str("Player", newName).Msg("No rows updated for player after deletion. Exiting the program due to potential data inconsistency.")
 			// There should be an update unless something is wrong with the data
 		} else {
-			logs.Logs().Info().Msgf("Rows affected in playerdata table for player %s after deletion: %d", newName, rowsAffected)
+			logs.Logs().Info().Str("Player", newName).Int64("Rows Affected", rowsAffected).Msg("Rows affected in playerdata table for player after deletion")
 		}
 
 	}
 
+	// This is just in case something is weird. But not really needed. Editing the db manually is annoying so everything here has to be done correctly
 	confirm, err := utils.Confirm("Continue with the transaction? Or exit if there is something wrong (y to continue, n to exit)")
 	if err != nil {
 		logs.Logs().Error().Err(err).Msg("Error reading input")
@@ -216,6 +225,7 @@ func UpdatePlayerNames(namePairs []struct{ OldName, NewName string }) error {
 	// Commit the transaction
 	err = tx.Commit(context.Background())
 	if err != nil {
+		logs.Logs().Error().Err(err).Msg("Error committing transaction")
 		return err
 	}
 
