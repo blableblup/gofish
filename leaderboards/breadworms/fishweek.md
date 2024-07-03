@@ -27,7 +27,7 @@
 | 24  | paras220 | 46 |
 | 25  | ninjaross | 44 |
 | 26  | ouacewi | 43 |
-| 27  | cumro | 40 |
+| 27  | notcum | 40 |
 | 28  | julialuxel | 34 |
 | 29  | islcfc* | 33 |
 | 30  | jr_mime | 32 |
@@ -37,8 +37,8 @@
 | 34  | breadworms | 25 |
 | 34  | globcob | 25 |
 | 36  | rocketpol* | 24 |
-| 37 🆕 | divra__ | 22 |
-| 38 ⬇ | veggesh | 21 |
-| 39 ⬇ | realtechnine | 20 |
+| 37  | divra__ | 22 |
+| 38  | veggesh | 21 |
+| 39  | realtechnine | 20 |
 
-_Last updated at 2024-06-23 09:35:49 UTC_
+_Last updated at 2024-07-03 08:54:06 UTC_
