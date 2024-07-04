@@ -187,6 +187,6 @@ type LeaderboardParams struct {
 }
 
 func isValidDate(date string) bool {
-	re := regexp.MustCompile(`^\d{4}-\d{2}-\d{2}$`)
+	re := regexp.MustCompile(`^\d{4}-\d{2}-\d{2}( \d{2}:\d{2}:\d{2})?$`)
 	return re.MatchString(date)
 }
