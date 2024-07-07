@@ -13,4 +13,4 @@
 | 10  | julialuxel | 🦈 | 72.09 |
 | 11  | vinfg1 | 🦭 | 63.07 |
 
-_Last updated at 2024-06-30 08:37:55 UTC_
+_Last updated at 2024-07-07 08:44:24 UTC_
