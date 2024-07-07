@@ -114,13 +114,14 @@ func RunTypeGlobal(params LeaderboardParams) {
 				Str("Board", board).
 				Int("ChatID", typerecord.ChatId).
 				Int("FishID", typerecord.FishId).
-				Msg("New Record Weight for fishType")
+				Msg("New Record")
 		} else {
 			if typerecord.Weight > oldtyperecord.Weight {
 				logs.Logs().Info().
 					Str("Date", typerecord.Date.Format(time.RFC3339)).
 					Str("Chat", typerecord.Chat).
 					Float64("Weight", typerecord.Weight).
+					Float64("Old Weight", oldtyperecord.Weight).
 					Str("TypeName", typerecord.TypeName).
 					Str("CatchType", typerecord.CatchType).
 					Str("FishType", typerecord.Type).
@@ -128,7 +129,7 @@ func RunTypeGlobal(params LeaderboardParams) {
 					Str("Board", board).
 					Int("ChatID", typerecord.ChatId).
 					Int("FishID", typerecord.FishId).
-					Msg("Updated Record Weight for fishType")
+					Msg("Updated Record")
 			}
 		}
 	}

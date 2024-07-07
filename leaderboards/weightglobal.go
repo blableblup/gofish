@@ -112,13 +112,14 @@ func RunWeightGlobal(params LeaderboardParams) {
 				Str("Board", board).
 				Int("ChatID", weightrecord.ChatId).
 				Int("FishID", weightrecord.FishId).
-				Msg("New Record Weight for Player")
+				Msg("New Record")
 		} else {
 			if weightrecord.Weight > oldweightrecord.Weight {
 				logs.Logs().Info().
 					Str("Date", weightrecord.Date.Format(time.RFC3339)).
 					Str("Chat", weightrecord.Chat).
 					Float64("Weight", weightrecord.Weight).
+					Float64("Old Weight", oldweightrecord.Weight).
 					Str("TypeName", weightrecord.TypeName).
 					Str("CatchType", weightrecord.CatchType).
 					Str("FishType", weightrecord.Type).
@@ -126,7 +127,7 @@ func RunWeightGlobal(params LeaderboardParams) {
 					Str("Board", board).
 					Int("ChatID", weightrecord.ChatId).
 					Int("FishID", weightrecord.FishId).
-					Msg("Updated Record Weight for Player")
+					Msg("Updated Record")
 			}
 		}
 	}
