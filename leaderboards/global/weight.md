@@ -36,4 +36,4 @@
 | 33  | 6blmue | 🐳 | 272.90 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
 | 34  | crazytown_bananapants | 🦈 | 270.42 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 
-_Last updated at 2024-06-30 08:37:55 UTC_
+_Last updated at 2024-07-07 08:44:24 UTC_

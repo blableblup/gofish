@@ -40,7 +40,7 @@
 | 37  | 🎰 | 23.11 | qu4ttromila | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 38  | 🦠 | 22.00 | osnyatsky | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 39  | 🐠 | 21.99 | quinrayy | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
-| 40  | 🪼 | 21.87 | sicklymaidrobot | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 40  | 🪼 | 21.95 (+0.08) | sandwichsundays | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
 | 41  | 🧭 | 20.23 | ryebreadward | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 42  | 🦦 | 19.88 | angus_lpc | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
 | 43  | 🪱 | 19.17 | caprise627 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
@@ -67,21 +67,21 @@
 | 64  | 🪝 | 4.99 | thedraingangceo* | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
 | 65  | 🥫 | 4.91 | huuuuurz | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
 | 66  | 🐦‍⬛ | 4.85 | qu4ttromila | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
-| 67  | ☘️ | 4.00 (+0.02) | divra__ | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
+| 67  | ☘️ | 4.00 | divra__ | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
 | 68  | ☂️ | 2.96 | kishma9 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 68  | 🌹 | 2.96 | osnyatsky | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 68  | 🥪 | 2.96 | qu4ttromila | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
-| 71  | 🌻 | 2.95 (+0.09) | ratot | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
+| 71  | 🌻 | 2.95 | ratot | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
 | 72  | 🍬 | 2.60 | 5c33* | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 73  | 👢 | 2.00 | jr_mime | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
 | 73  | 👟 | 2.00 | kishma9 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 73  | 🧦 | 2.00 | osnyatsky* | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 73  | 🩴 | 2.00 | qu4ttromila | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 73  | 🩰 | 2.00 | tomsi1g | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
-| 78  | 🌿 | 1.96 | dayzedinndaydreams | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
-| 78  | ⛸️ | 1.96 | pookiesnowman | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
+| 78  | 🌿 | 1.99 (+0.03) | angus_lpc | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
+| 79 ⬇ | ⛸️ | 1.96 | pookiesnowman | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
 | 80  | 🧤 | 1.00 | kubo7 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
-| 81  | 🪶 | 0.99 | osnyatsky* | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 81  | 🧣 | 0.99 | osnyatsky* | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 81  | 🪶 | 0.99 | osnyatsky* | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 
-_Last updated at 2024-06-30 08:38:00 UTC_
+_Last updated at 2024-07-07 08:44:29 UTC_

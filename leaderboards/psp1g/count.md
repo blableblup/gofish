@@ -1,73 +1,75 @@
 ### Most fish caught in psp1g's chat
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
-| 1 🥇  | caprise627* | 1164 (+61) |
-| 2 🥈 ⬆ | nndiana* | 941 (+78) |
-| 3 🥉 ⬇ | pengeg | 933 (+7) |
-| 4 ⬇ | jr_mime | 928 (+26) |
-| 5  | huuuuurz | 825 (+26) |
-| 6  | amu1g | 689 |
-| 7  | sandwichsundays* | 682 (+27) |
-| 8 ⬆ | zwockel01 | 671 (+47) |
-| 9 ⬇ | jems______ | 667 (+30) |
-| 10  | benciee | 592 (+93) |
+| 1 🥇  | caprise627* | 1223 (+59) |
+| 2 🥈  | nndiana* | 1027 (+86) |
+| 3 🥉 ⬆ | jr_mime | 959 (+31) |
+| 4 ⬇ | pengeg | 936 (+3) |
+| 5  | huuuuurz | 882 (+57) |
+| 6 ⬆ | sandwichsundays* | 750 (+68) |
+| 7 ⬆ | zwockel01 | 714 (+43) |
+| 8 ⬆ | jems______ | 691 (+24) |
+| 9 ⬇ | amu1g | 689 |
+| 10  | benciee | 675 (+83) |
 | 11  | wisdom_frog | 496 |
-| 12 ⬆ | divra__ | 409 (+25) |
-| 13 ⬇ | angus_lpc | 407 (+22) |
-| 14  | fonuwu | 381 (+8) |
-| 15  | noconcept_ | 368 |
-| 16  | quinrayy | 353 |
-| 17  | faslker | 352 |
-| 18  | maksmusz* | 346 (+2) |
-| 19  | copperx9 | 343 |
-| 20 ⬆ | commanda_u | 324 (+38) |
-| 21  | flunke_ | 323 (+31) |
-| 22 ⬇ | bubinga | 322 (+19) |
-| 23 ⬇ | gorillapark | 287 |
-| 24 ⬆ | mazzo_tv | 285 (+47) |
-| 25 ⬇ | qxxick_ | 269 |
-| 26 ⬇ | euxoa | 245 |
-| 27 ⬇ | creepycode* | 243 |
-| 28 ⬇ | hahppyy | 241 |
-| 29 ⬆ | theng | 220 (+17) |
-| 30 ⬇ | jj_ladic | 217 |
-| 31 ⬆ | kaspu222 | 213 (+87) |
-| 32 ⬇ | cale4 | 212 |
-| 33 ⬇ | cappo7117 | 202 (+3) |
-| 34 ⬇ | seryxx | 198 (+3) |
-| 35  | brachiocs | 195 (+16) |
-| 36 ⬇ | wasdecxyq | 190 |
-| 37 ⬇ | ocram1g | 179 (+2) |
-| 38 ⬇ | satic____ | 170 |
-| 39 ⬆ | markenzy01 | 167 (+15) |
-| 40 ⬆ | bartohehe | 159 (+19) |
-| 41 ⬇ | quton | 158 |
-| 42 ⬇ | jamison1906 | 156 |
-| 43 ⬆ | popfizzgg | 154 (+23) |
-| 44 ⬇ | crunch_sack | 153 |
-| 44 ⬇ | thasbe | 153 |
-| 46 ⬇ | pspisafemboy | 151 |
-| 46 ⬇ | ttecnk | 151 |
-| 48 ⬇ | adziooooo | 149 |
-| 49 ⬇ | asthmaa | 146 |
-| 49 ⬇ | yopego | 146 |
-| 51 ⬇ | brunodestar | 134 |
-| 52 ⬇ | kubo7 | 132 |
-| 53 ⬇ | vibepill | 130 |
-| 54 ⬇ | rttvname | 128 |
-| 55 ⬆ | xveso | 122 (+16) |
-| 56 ⬇ | 6blmue | 120 |
-| 56  | obscurecharmling | 120 (+1) |
-| 58 ⬇ | chow_peepohappy* | 119 |
-| 59 ⬇ | xkimi1337 | 118 |
-| 60 ⬇ | damon_okami* | 116 |
-| 60 ⬇ | milchfunky* | 116 |
-| 60 ⬆ | ovrht | 116 (+1) |
-| 63 🆕 | benlol_l* | 109 |
-| 64 ⬇ | starducc | 108 |
-| 65 ⬇ | alvaniss1g | 104 |
-| 66 ⬇ | acidfd174 | 103 |
-| 66 ⬇ | thelantzzz | 103 |
-| 68 🆕 | deogen01 | 100 |
+| 12 ⬆ | angus_lpc | 441 (+34) |
+| 13 ⬇ | divra__ | 416 (+7) |
+| 14  | fonuwu | 383 (+2) |
+| 15  | noconcept_ | 370 (+2) |
+| 16 ⬆ | flunke_ | 365 (+42) |
+| 17 ⬇ | quinrayy | 353 |
+| 18 ⬇ | faslker | 352 |
+| 19 ⬆ | commanda_u | 351 (+27) |
+| 20 ⬇ | maksmusz* | 350 (+4) |
+| 21 ⬇ | copperx9 | 343 |
+| 22  | bubinga | 335 (+13) |
+| 23 ⬆ | mazzo_tv | 329 (+44) |
+| 24 ⬇ | gorillapark | 287 |
+| 25  | qxxick_ | 269 |
+| 26 ⬆ | kaspu222 | 251 (+38) |
+| 27 ⬇ | euxoa | 250 (+5) |
+| 28 ⬇ | creepycode* | 244 (+1) |
+| 29 ⬇ | hahppyy | 241 |
+| 30 ⬇ | theng | 229 (+9) |
+| 31 ⬇ | jj_ladic | 217 |
+| 32 ⬆ | brachiocs | 213 (+18) |
+| 33 ⬇ | cale4 | 212 |
+| 34 ⬇ | cappo7117 | 204 (+2) |
+| 35 ⬇ | seryxx | 201 (+3) |
+| 36 ⬆ | markenzy01 | 190 (+23) |
+| 36  | wasdecxyq | 190 |
+| 38 ⬇ | ocram1g | 180 (+1) |
+| 39 ⬆ | popfizzgg | 173 (+19) |
+| 40 ⬇ | satic____ | 170 |
+| 41 ⬇ | bartohehe | 166 (+7) |
+| 42 ⬇ | quton | 158 |
+| 43 ⬇ | jamison1906 | 156 |
+| 44  | crunch_sack | 154 (+1) |
+| 45 ⬇ | thasbe | 153 |
+| 46  | pspisafemboy | 151 |
+| 46  | ttecnk | 151 |
+| 48  | adziooooo | 149 |
+| 49  | yopego | 147 (+1) |
+| 50 ⬇ | asthmaa | 146 |
+| 51 ⬆ | kubo7 | 138 (+6) |
+| 52 ⬇ | brunodestar | 134 |
+| 53  | vibepill | 130 |
+| 54  | rttvname | 128 |
+| 54 ⬆ | xveso | 128 (+6) |
+| 56  | 6blmue | 120 |
+| 56 ⬆ | deogen01 | 120 (+20) |
+| 56  | obscurecharmling | 120 |
+| 59 ⬇ | chow_peepohappy* | 119 |
+| 60 ⬇ | xkimi1337 | 118 |
+| 61 ⬇ | milchfunky* | 117 (+1) |
+| 61 ⬇ | ovrht | 117 (+1) |
+| 63 ⬇ | damon_okami* | 116 |
+| 64 ⬇ | benlol_l* | 112 (+3) |
+| 65 ⬇ | starducc | 108 |
+| 66 ⬇ | alvaniss1g | 107 (+3) |
+| 67 ⬇ | acidfd174 | 103 |
+| 67 🆕 | lobuhtomy | 103 |
+| 67 ⬇ | thelantzzz | 103 |
+| 70 🆕 | pookiesnowman | 101 |
 
-_Last updated at 2024-06-30 08:51:49 UTC_
+_Last updated at 2024-07-07 08:44:29 UTC_
