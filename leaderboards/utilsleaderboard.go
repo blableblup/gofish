@@ -3,8 +3,48 @@ package leaderboards
 import (
 	"fmt"
 	"gofish/data"
+	"gofish/logs"
 	"sort"
+	"time"
 )
+
+func logRecord(newRecords map[string]data.FishInfo, oldRecords map[string]LeaderboardInfo, board string) {
+
+	// Log new or updated records for the (global) type and weight leaderboards
+	for playerORfish, newRecord := range newRecords {
+		oldRecord, exists := oldRecords[playerORfish]
+		if !exists {
+			logs.Logs().Info().
+				Str("Date", newRecord.Date.Format(time.RFC3339)).
+				Str("Chat", newRecord.Chat).
+				Float64("Weight", newRecord.Weight).
+				Str("TypeName", newRecord.TypeName).
+				Str("CatchType", newRecord.CatchType).
+				Str("FishType", newRecord.Type).
+				Str("Player", newRecord.Player).
+				Str("Board", board).
+				Int("ChatID", newRecord.ChatId).
+				Int("FishID", newRecord.FishId).
+				Msg("New Record")
+		} else {
+			if newRecord.Weight > oldRecord.Weight {
+				logs.Logs().Info().
+					Str("Date", newRecord.Date.Format(time.RFC3339)).
+					Str("Chat", newRecord.Chat).
+					Float64("Weight", newRecord.Weight).
+					Float64("Old Weight", oldRecord.Weight).
+					Str("TypeName", newRecord.TypeName).
+					Str("CatchType", newRecord.CatchType).
+					Str("FishType", newRecord.Type).
+					Str("Player", newRecord.Player).
+					Str("Board", board).
+					Int("ChatID", newRecord.ChatId).
+					Int("FishID", newRecord.FishId).
+					Msg("Updated Record")
+			}
+		}
+	}
+}
 
 func SortMapByCountDesc(fishCaught map[string]data.FishInfo) []string {
 	// Create a slice of player names

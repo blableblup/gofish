@@ -7,7 +7,6 @@ import (
 	"gofish/logs"
 	"path/filepath"
 	"strings"
-	"time"
 )
 
 func RunTypeGlobal(params LeaderboardParams) {
@@ -100,39 +99,7 @@ func RunTypeGlobal(params LeaderboardParams) {
 		return
 	}
 
-	for fishType, typerecord := range globalRecordType {
-		oldtyperecord, exists := oldType[fishType]
-		if !exists {
-			logs.Logs().Info().
-				Str("Date", typerecord.Date.Format(time.RFC3339)).
-				Str("Chat", typerecord.Chat).
-				Float64("Weight", typerecord.Weight).
-				Str("TypeName", typerecord.TypeName).
-				Str("CatchType", typerecord.CatchType).
-				Str("FishType", typerecord.Type).
-				Str("Player", typerecord.Player).
-				Str("Board", board).
-				Int("ChatID", typerecord.ChatId).
-				Int("FishID", typerecord.FishId).
-				Msg("New Record")
-		} else {
-			if typerecord.Weight > oldtyperecord.Weight {
-				logs.Logs().Info().
-					Str("Date", typerecord.Date.Format(time.RFC3339)).
-					Str("Chat", typerecord.Chat).
-					Float64("Weight", typerecord.Weight).
-					Float64("Old Weight", oldtyperecord.Weight).
-					Str("TypeName", typerecord.TypeName).
-					Str("CatchType", typerecord.CatchType).
-					Str("FishType", typerecord.Type).
-					Str("Player", typerecord.Player).
-					Str("Board", board).
-					Int("ChatID", typerecord.ChatId).
-					Int("FishID", typerecord.FishId).
-					Msg("Updated Record")
-			}
-		}
-	}
+	logRecord(globalRecordType, oldType, board)
 
 	if mode == "check" {
 		logs.Logs().Info().Str("Board", board).Msg("Finished checking for new records")
