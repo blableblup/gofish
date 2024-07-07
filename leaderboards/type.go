@@ -125,6 +125,7 @@ func processType(params LeaderboardParams) {
 					Str("Date", newTypeRecord.Date.Format(time.RFC3339)).
 					Str("Chat", newTypeRecord.Chat).
 					Float64("Weight", newTypeRecord.Weight).
+					Float64("Old Weight", oldTypeRecord.Weight).
 					Str("TypeName", newTypeRecord.TypeName).
 					Str("CatchType", newTypeRecord.CatchType).
 					Str("FishType", fishType).
