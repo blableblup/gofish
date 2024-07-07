@@ -7,7 +7,6 @@ import (
 	"gofish/logs"
 	"path/filepath"
 	"strings"
-	"time"
 )
 
 func RunWeightGlobal(params LeaderboardParams) {
@@ -98,39 +97,7 @@ func RunWeightGlobal(params LeaderboardParams) {
 		return
 	}
 
-	for player, weightrecord := range globalRecordWeight {
-		oldweightrecord, exists := oldWeight[player]
-		if !exists {
-			logs.Logs().Info().
-				Str("Date", weightrecord.Date.Format(time.RFC3339)).
-				Str("Chat", weightrecord.Chat).
-				Float64("Weight", weightrecord.Weight).
-				Str("TypeName", weightrecord.TypeName).
-				Str("CatchType", weightrecord.CatchType).
-				Str("FishType", weightrecord.Type).
-				Str("Player", weightrecord.Player).
-				Str("Board", board).
-				Int("ChatID", weightrecord.ChatId).
-				Int("FishID", weightrecord.FishId).
-				Msg("New Record")
-		} else {
-			if weightrecord.Weight > oldweightrecord.Weight {
-				logs.Logs().Info().
-					Str("Date", weightrecord.Date.Format(time.RFC3339)).
-					Str("Chat", weightrecord.Chat).
-					Float64("Weight", weightrecord.Weight).
-					Float64("Old Weight", oldweightrecord.Weight).
-					Str("TypeName", weightrecord.TypeName).
-					Str("CatchType", weightrecord.CatchType).
-					Str("FishType", weightrecord.Type).
-					Str("Player", weightrecord.Player).
-					Str("Board", board).
-					Int("ChatID", weightrecord.ChatId).
-					Int("FishID", weightrecord.FishId).
-					Msg("Updated Record")
-			}
-		}
-	}
+	logRecord(globalRecordWeight, oldWeight, board)
 
 	if mode == "check" {
 		logs.Logs().Info().Str("Board", board).Msg("Finished checking for new records")

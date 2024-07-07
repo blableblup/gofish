@@ -105,44 +105,11 @@ func processWeight(params LeaderboardParams) {
 		return
 	}
 
-	// Compare old weight records with new ones and update if necessary
-	for playerName, newWeightRecord := range recordWeight {
-		oldWeightRecord, exists := oldRecordWeight[playerName]
-		if !exists {
-			logs.Logs().Info().
-				Str("Date", newWeightRecord.Date.Format(time.RFC3339)).
-				Str("Chat", newWeightRecord.Chat).
-				Float64("Weight", newWeightRecord.Weight).
-				Str("TypeName", newWeightRecord.TypeName).
-				Str("CatchType", newWeightRecord.CatchType).
-				Str("FishType", newWeightRecord.Type).
-				Str("Player", playerName).
-				Str("Board", board).
-				Int("ChatID", newWeightRecord.ChatId).
-				Int("FishID", newWeightRecord.FishId).
-				Msg("New Record")
-		} else {
-			if newWeightRecord.Weight > oldWeightRecord.Weight {
-				logs.Logs().Info().
-					Str("Date", newWeightRecord.Date.Format(time.RFC3339)).
-					Str("Chat", newWeightRecord.Chat).
-					Float64("Weight", newWeightRecord.Weight).
-					Float64("Old Weight", oldWeightRecord.Weight).
-					Str("TypeName", newWeightRecord.TypeName).
-					Str("CatchType", newWeightRecord.CatchType).
-					Str("FishType", newWeightRecord.Type).
-					Str("Player", playerName).
-					Str("Board", board).
-					Int("ChatID", newWeightRecord.ChatId).
-					Int("FishID", newWeightRecord.FishId).
-					Msg("Updated Record")
-			}
-		}
-	}
+	logRecord(recordWeight, oldRecordWeight, board)
 
 	// Stops the program if it is in "just checking" mode
 	if mode == "check" {
-		logs.Logs().Info().Str("Chat", chatName).Str("Board", board).Msg("Finished checking for records for chat")
+		logs.Logs().Info().Str("Chat", chatName).Str("Board", board).Msg("Finished checking for new records")
 		return
 	}
 

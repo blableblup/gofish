@@ -103,40 +103,7 @@ func processType(params LeaderboardParams) {
 		return
 	}
 
-	// Compare old type records with new ones and update if necessary
-	for fishType, newTypeRecord := range recordType {
-		oldTypeRecord, exists := oldType[fishType]
-		if !exists {
-			logs.Logs().Info().
-				Str("Date", newTypeRecord.Date.Format(time.RFC3339)).
-				Str("Chat", newTypeRecord.Chat).
-				Float64("Weight", newTypeRecord.Weight).
-				Str("TypeName", newTypeRecord.TypeName).
-				Str("CatchType", newTypeRecord.CatchType).
-				Str("FishType", fishType).
-				Str("Board", board).
-				Str("Player", newTypeRecord.Player).
-				Int("ChatID", newTypeRecord.ChatId).
-				Int("FishID", newTypeRecord.FishId).
-				Msg("New Record")
-		} else {
-			if newTypeRecord.Weight > oldTypeRecord.Weight {
-				logs.Logs().Info().
-					Str("Date", newTypeRecord.Date.Format(time.RFC3339)).
-					Str("Chat", newTypeRecord.Chat).
-					Float64("Weight", newTypeRecord.Weight).
-					Float64("Old Weight", oldTypeRecord.Weight).
-					Str("TypeName", newTypeRecord.TypeName).
-					Str("CatchType", newTypeRecord.CatchType).
-					Str("FishType", fishType).
-					Str("Board", board).
-					Str("Player", newTypeRecord.Player).
-					Int("ChatID", newTypeRecord.ChatId).
-					Int("FishID", newTypeRecord.FishId).
-					Msg("Updated Record")
-			}
-		}
-	}
+	logRecord(recordType, oldType, board)
 
 	// Stops the program if it is in "just checking" mode
 	if mode == "check" {
