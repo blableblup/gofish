@@ -126,7 +126,11 @@ func processFishweek(params LeaderboardParams) {
 
 	var titlefishw string
 	if title == "" {
-		titlefishw = fmt.Sprintf("### Most fish caught in a single week in tournaments in %s's chat\n", chatName)
+		if strings.HasSuffix(chatName, "s") {
+			titlefishw = fmt.Sprintf("### Most fish caught in a single week in tournaments in %s' chat\n", chatName)
+		} else {
+			titlefishw = fmt.Sprintf("### Most fish caught in a single week in tournaments in %s's chat\n", chatName)
+		}
 	} else {
 		titlefishw = fmt.Sprintf("%s\n", title)
 	}

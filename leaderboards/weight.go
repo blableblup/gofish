@@ -115,7 +115,11 @@ func processWeight(params LeaderboardParams) {
 
 	var titleweight string
 	if title == "" {
-		titleweight = fmt.Sprintf("### Biggest fish caught per player in %s's chat\n", chatName)
+		if strings.HasSuffix(chatName, "s") {
+			titleweight = fmt.Sprintf("### Biggest fish caught per player in %s' chat\n", chatName)
+		} else {
+			titleweight = fmt.Sprintf("### Biggest fish caught per player in %s's chat\n", chatName)
+		}
 	} else {
 		titleweight = fmt.Sprintf("%s\n", title)
 	}

@@ -95,7 +95,11 @@ func processTrophy(params LeaderboardParams) {
 
 	var titletrophies string
 	if title == "" {
-		titletrophies = fmt.Sprintf("### Leaderboard for the weekly tournaments in %s's chat\n", chatName)
+		if strings.HasSuffix(chatName, "s") {
+			titletrophies = fmt.Sprintf("### Leaderboard for the weekly tournaments in %s' chat\n", chatName)
+		} else {
+			titletrophies = fmt.Sprintf("### Leaderboard for the weekly tournaments in %s's chat\n", chatName)
+		}
 	} else {
 		titletrophies = fmt.Sprintf("%s\n", title)
 	}
