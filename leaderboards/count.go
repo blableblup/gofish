@@ -89,7 +89,11 @@ func processCount(params LeaderboardParams) {
 
 	var titletotalcount string
 	if title == "" {
-		titletotalcount = fmt.Sprintf("### Most fish caught in %s's chat\n", chatName)
+		if strings.HasSuffix(chatName, "s") {
+			titletotalcount = fmt.Sprintf("### Most fish caught in %s' chat\n", chatName)
+		} else {
+			titletotalcount = fmt.Sprintf("### Most fish caught in %s's chat\n", chatName)
+		}
 	} else {
 		titletotalcount = fmt.Sprintf("%s\n", title)
 	}

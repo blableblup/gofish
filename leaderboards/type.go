@@ -113,7 +113,11 @@ func processType(params LeaderboardParams) {
 
 	var titletype string
 	if title == "" {
-		titletype = fmt.Sprintf("### Biggest fish per type caught in %s's chat\n", chatName)
+		if strings.HasSuffix(chatName, "s") {
+			titletype = fmt.Sprintf("### Biggest fish per type caught in %s' chat\n", chatName)
+		} else {
+			titletype = fmt.Sprintf("### Biggest fish per type caught in %s's chat\n", chatName)
+		}
 	} else {
 		titletype = fmt.Sprintf("%s\n", title)
 	}
