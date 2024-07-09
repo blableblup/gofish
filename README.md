@@ -1,7 +1,7 @@
 ## Unofficial leaderboards for gofish 🥇
 gofish made by [breadworms](https://www.twitch.tv/breadworms)
 
-[gofish.juliapixel](https://gofish.lol/) website with the leaderboards
+[gofish.lol](https://gofish.lol/) website with the leaderboards
 
 _The leaderboards are updated every sunday_
 
