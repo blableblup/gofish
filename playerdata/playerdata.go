@@ -42,7 +42,7 @@ func GetPlayerID(pool *pgxpool.Pool, player string, firstFishDate time.Time, fir
 		if err != nil {
 			return 0, err
 		}
-		logs.Logs().Info().Str("Date", firstFishDate.Format(time.RFC3339)).Str("Chat", firstFishChat).Str("Player", player).Msgf("Added new player to playerdata")
+		logs.Logs().Info().Str("Date", firstFishDate.Format(time.RFC3339)).Str("Chat", firstFishChat).Str("Player", player).Int("PlayerID", playerID).Msgf("Added new player to playerdata")
 
 	} else {
 		// If they were renamed before the database was updated and they still caught a fish with their old name, if you recheck old logs or they have an old entry on the leaderboards
@@ -92,7 +92,7 @@ func PlayerRenamed(player string, pool *pgxpool.Pool) (string, error) {
 			return player, nil // If the player is new (for GetPlayerID) or if the player was renamed incorrectly
 		}
 
-		// So that the terminal doesnt get bombed with players renaming if you check old logs again
+		// So that you dont get spammed with log messages if you check old logs again
 		if len(matchingPlayers) == 1 {
 			newPlayer := matchingPlayers[0]
 
@@ -105,7 +105,8 @@ func PlayerRenamed(player string, pool *pgxpool.Pool) (string, error) {
 			return newPlayer, nil
 		}
 
-		// Old Twitch names can become available after 6 months so it is better having this even if it might never be needed
+		// This is needed if the name is an old name for multiple players
+		// Could happen if someone renames and then someone else renames to their old name and then also renames
 		for {
 			logs.Logs().Info().Msgf("Player '%s' renamed to one of the following names:", player)
 			for i, name := range matchingPlayers {
@@ -123,7 +124,11 @@ func PlayerRenamed(player string, pool *pgxpool.Pool) (string, error) {
 			}
 
 			newPlayer = matchingPlayers[choice-1]
-			logs.Logs().Info().Str("Old Name", player).Str("New Name", newPlayer).Msg("Player was previously renamed")
+			if !loggedPlayers[player] {
+				logs.Logs().Info().Str("Old Name", player).Str("New Name", newPlayer).Msg("Player was previously renamed")
+
+				loggedPlayers[player] = true
+			}
 			return newPlayer, nil
 		}
 	}
