@@ -1,4 +1,4 @@
-### Biggest fish per type caught in breadworms's chat
+### Biggest fish per type caught in breadworms' chat
 | Rank | Fish | Weight in lbs | Player |
 |------|--------|-----------|---------|
 | 1 🥇  | 🦑 | 307.60 | dayzedinndaydreams |
@@ -22,7 +22,7 @@
 | 19  | 🐬 | 112.76 | kaasppeerr |
 | 20  | 📱 | 109.87 | kaasppeerr |
 | 21  | 🦇 | 109.02 | larrahey |
-| 22  | 🪸 | 99.61 (+1.92) | puzzlow |
+| 22  | 🪸 | 99.61 | puzzlow |
 | 23  | 👑 | 77.02 | puzzlow |
 | 24  | 🪨 | 74.57 | fishingalt |
 | 25  | 🦐 | 67.05 | 5c33* |
@@ -80,8 +80,8 @@
 | 77  | 👢 | 1.98 | derinturitierutz |
 | 78  | 🌿 | 1.96 | dayzedinndaydreams |
 | 79  | ⛸️ | 1.94 | ryebreadward |
-| 80  | 🪶 | 0.99 | osnyatsky* |
 | 80  | 🧣 | 0.99 | osnyatsky* |
+| 80  | 🪶 | 0.99 | osnyatsky* |
 | 80  | 🧤 | 0.99 | sicklymaidrobot |
 
-_Last updated at 2024-07-07 08:44:25 UTC_
+_Last updated at 2024-07-14 09:10:03 UTC_

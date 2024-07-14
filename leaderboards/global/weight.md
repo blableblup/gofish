@@ -23,17 +23,18 @@
 | 20  | ryebreadward | 🐳 | 287.28 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 21  | sandwichsundays | 🐉 | 284.61 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
 | 22  | breadworms | 🐳 | 282.85 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
-| 23  | jr_mime | 🦑 | 282.46 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
-| 24  | 5c33* | 🐉 | 281.63 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
-| 25  | reaima | 🐳 | 281.05 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
-| 26  | faslker | 🐳 | 280.99 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
-| 27  | sussy_amonge | 🐉 | 278.70 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
-| 28  | damon_okami | 🐉 | 276.80 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
-| 29  | caprise627 | 🐳 | 274.74 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
-| 30  | niiy | 🐳 | 273.90 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
-| 31  | booty_bread | 🐉 | 273.82 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
-| 32  | ninjaross* | 🦑 | 273.17 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
-| 33  | 6blmue | 🐳 | 272.90 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
-| 34  | crazytown_bananapants | 🦈 | 270.42 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 23 🆕 | deogen01 | 🐳 | 282.59 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
+| 24 ⬇ | jr_mime | 🦑 | 282.46 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 25 ⬇ | 5c33* | 🐉 | 281.63 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 26 ⬇ | reaima | 🐳 | 281.05 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
+| 27 ⬇ | faslker | 🐳 | 280.99 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
+| 28 ⬇ | sussy_amonge | 🐉 | 278.70 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 29 ⬇ | damon_okami | 🐉 | 276.80 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
+| 30 ⬇ | caprise627 | 🐳 | 274.74 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
+| 31 ⬇ | niiy | 🐳 | 273.90 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 32 ⬇ | booty_bread | 🐉 | 273.82 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 33 ⬇ | ninjaross* | 🦑 | 273.17 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 34 ⬇ | 6blmue | 🐳 | 272.90 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
+| 35 ⬇ | crazytown_bananapants | 🦈 | 270.42 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 
-_Last updated at 2024-07-07 08:44:24 UTC_
+_Last updated at 2024-07-14 09:10:02 UTC_
