@@ -13,7 +13,7 @@
 | 10  | 🐙 | 198.60 | derinturitierutz | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 11  | 🐋 | 159.84 | osnyatsky | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 12  | 🐊 | 149.83 | lagggm* | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
-| 13  | 🧞‍♂ | 139.63 | obscurecharmling | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
+| 13  | 🧞‍♂ | 141.02 (+1.39) | lobuhtomy | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
 | 14  | 🧜‍♀️ | 139.02 | zwockel01 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
 | 15  | 🦭 | 133.31 | ryebreadward | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 16  | 🦪 | 128.36 | qu4ttromila | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
@@ -40,7 +40,7 @@
 | 37  | 🎰 | 23.11 | qu4ttromila | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 38  | 🦠 | 22.00 | osnyatsky | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 39  | 🐠 | 21.99 | quinrayy | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
-| 40  | 🪼 | 21.95 (+0.08) | sandwichsundays | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
+| 40  | 🪼 | 21.95 | sandwichsundays | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
 | 41  | 🧭 | 20.23 | ryebreadward | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 42  | 🦦 | 19.88 | angus_lpc | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
 | 43  | 🪱 | 19.17 | caprise627 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
@@ -78,10 +78,11 @@
 | 73  | 🧦 | 2.00 | osnyatsky* | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 73  | 🩴 | 2.00 | qu4ttromila | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 73  | 🩰 | 2.00 | tomsi1g | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
-| 78  | 🌿 | 1.99 (+0.03) | angus_lpc | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
-| 79 ⬇ | ⛸️ | 1.96 | pookiesnowman | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
-| 80  | 🧤 | 1.00 | kubo7 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
-| 81  | 🧣 | 0.99 | osnyatsky* | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
-| 81  | 🪶 | 0.99 | osnyatsky* | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 78  | 🌿 | 1.99 | angus_lpc | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
+| 79  | ⛸️ | 1.96 | pookiesnowman | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
+| 80 🆕 | 🦢 | 1.26 | mazzo_tv | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
+| 81 ⬇ | 🧤 | 1.00 | kubo7 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
+| 82 ⬇ | 🧣 | 0.99 | osnyatsky* | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 82 ⬇ | 🪶 | 0.99 | osnyatsky* | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 
-_Last updated at 2024-07-07 08:44:29 UTC_
+_Last updated at 2024-07-14 09:10:07 UTC_
