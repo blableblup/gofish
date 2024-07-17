@@ -1,4 +1,4 @@
-### Most fish caught in a single week in tournaments in breadworms's chat
+### Most fish caught in a single week in tournaments in breadworms' chat
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
 | 1 🥇  | derinturitierutz | 183 |
@@ -24,21 +24,22 @@
 | 20  | kaasppeerr | 52 |
 | 22  | leanmeister | 51 |
 | 23  | bapqo | 49 |
-| 24  | paras220 | 46 |
-| 25  | ninjaross | 44 |
-| 26  | ouacewi | 43 |
-| 27  | notcum | 40 |
-| 28  | julialuxel | 34 |
-| 29  | islcfc* | 33 |
-| 30  | jr_mime | 32 |
-| 31  | itsalot_tlike* | 30 |
-| 32  | fallen_angels_1995 | 28 |
-| 33  | dougiefresh_83 | 27 |
-| 34  | breadworms | 25 |
-| 34  | globcob | 25 |
-| 36  | rocketpol* | 24 |
-| 37  | divra__ | 22 |
-| 38  | veggesh | 21 |
-| 39  | realtechnine | 20 |
+| 24 🆕 | osnyisdead | 47 |
+| 25 ⬇ | paras220 | 46 |
+| 26 ⬇ | ninjaross | 44 |
+| 27 ⬇ | ouacewi | 43 |
+| 28 ⬇ | notcum | 40 |
+| 29 ⬇ | julialuxel | 34 |
+| 30 ⬇ | islcfc* | 33 |
+| 31 ⬇ | jr_mime | 32 |
+| 32 ⬇ | itsalot_tlike* | 30 |
+| 33 ⬇ | fallen_angels_1995 | 28 |
+| 34 ⬇ | dougiefresh_83 | 27 |
+| 35 ⬇ | breadworms | 25 |
+| 35 ⬇ | globcob | 25 |
+| 37 ⬇ | rocketpol* | 24 |
+| 38 ⬇ | divra__ | 22 |
+| 39 ⬇ | veggesh | 21 |
+| 40 ⬇ | realtechnine | 20 |
 
-_Last updated at 2024-07-07 16:27:27 UTC_
+_Last updated at 2024-07-17 12:48:52 UTC_
