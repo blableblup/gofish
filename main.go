@@ -44,20 +44,20 @@ func main() {
 		logs.Logs().Info().Msg("Usage: -p data [-db <database>] [-m <months>] [-dt <date>] [-mm <mode>]")
 		logs.Logs().Info().Msg("Usage: If no month or time period is specified it checks the current month")
 		logs.Logs().Info().Msg("Usage: -p renamed [-rename <oldName:newName>]")
+		logs.Logs().Info().Msg("To run in debug mode, set -debug to true.")
+		logs.Logs().Info().Msg("Mode 'check': For type,weight,fishweek boards. Only logs new or updated records")
+		logs.Logs().Info().Msg("Mode 'a': For data. Adds every fish caught to FishData instead of just the new ones and inserts the missing fish into the db")
 		return
 
 	case "boards":
 		logs.Logs().Info().Str("Program", *program).Str("Mode", *mode).Str("Boards", *leaderboard).Str("Chats", *chatNames).Str("Path", *path).Str("Date", *monthYear).Str("Date2", *date2).Str("Title", *title).Msg("Start")
 
 		leaderboards.Leaderboards(*leaderboard, *chatNames, *monthYear, *date2, *path, *title, *mode)
-		// Modes: "check", only prints new / updated type and weight records
 
 	case "data":
 		logs.Logs().Info().Str("Program", *program).Str("Mode", *mode).Str("Chats", *chatNames).Str("DB", *db).Int("Months", *numMonths).Str("Date", *monthYear).Msg("Start")
 
 		data.GetData(*chatNames, *db, *numMonths, *monthYear, *mode)
-		// Modes: "a" for fishdatafetch.
-		// Adds every fish caught to FishData instead of just the new ones and inserts the missing fish into the db.
 
 	case "pattern":
 		logs.Logs().Info().Str("Program", *program).Msg("Start")
@@ -90,7 +90,7 @@ func isValidModeForProgram(program, mode string) bool {
 
 	validModes := map[string]map[string]bool{
 		"boards": {"check": true},
-		"data":   {"a": true, "insertall": true},
+		"data":   {"a": true},
 	}
 
 	// Check if the provided mode is valid for the specified program
