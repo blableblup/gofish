@@ -24,22 +24,22 @@
 | 20  | kaasppeerr | 52 |
 | 22  | leanmeister | 51 |
 | 23  | bapqo | 49 |
-| 24 🆕 | osnyisdead | 47 |
-| 25 ⬇ | paras220 | 46 |
-| 26 ⬇ | ninjaross | 44 |
-| 27 ⬇ | ouacewi | 43 |
-| 28 ⬇ | notcum | 40 |
-| 29 ⬇ | julialuxel | 34 |
-| 30 ⬇ | islcfc* | 33 |
-| 31 ⬇ | jr_mime | 32 |
-| 32 ⬇ | itsalot_tlike* | 30 |
-| 33 ⬇ | fallen_angels_1995 | 28 |
-| 34 ⬇ | dougiefresh_83 | 27 |
-| 35 ⬇ | breadworms | 25 |
-| 35 ⬇ | globcob | 25 |
-| 37 ⬇ | rocketpol* | 24 |
-| 38 ⬇ | divra__ | 22 |
-| 39 ⬇ | veggesh | 21 |
-| 40 ⬇ | realtechnine | 20 |
+| 24  | osnyisdead | 47 |
+| 25  | paras220 | 46 |
+| 26  | ninjaross | 44 |
+| 27  | ouacewi | 43 |
+| 28  | notcum | 40 |
+| 29  | julialuxel | 34 |
+| 30  | islcfc* | 33 |
+| 31  | jr_mime | 32 |
+| 32  | itsalot_tlike* | 30 |
+| 33  | fallen_angels_1995 | 28 |
+| 34  | dougiefresh_83 | 27 |
+| 35  | breadworms | 25 |
+| 35  | globcob | 25 |
+| 37  | rocketpol* | 24 |
+| 38  | divra__ | 22 |
+| 39  | veggesh | 21 |
+| 40  | realtechnine | 20 |
 
-_Last updated at 2024-07-17 12:48:52 UTC_
+_Last updated at 2024-07-22 15:20:55 UTC_
