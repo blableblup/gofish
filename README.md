@@ -20,3 +20,5 @@ To see which chats are being covered look here: [config](https://github.com/blab
 * The data for psp1g's chat from the 12th of December 2023 to the 14th of December 2023  is also incomplete (see [here](https://logs.nadeko.net/channel/psp1g/2023/12/13)).
 
 * The * next to a player's name on the leaderboard indicates that they did not migrate their supibot data to gofishgame. Thus, their supibot records are marked with an asterisk because they were not verified for accuracy.
+
+* If there are multiple records with the same weight for the type leaderboards, only the player who caught it the earliest is displayed. 
