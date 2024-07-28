@@ -8,11 +8,11 @@
 | 5  | 🐉 | 284.24 | puzzlow |
 | 6  | 🐍 | 271.95 | miiiiisho |
 | 7  | 🐢 | 251.35 | bussinongnocap |
-| 8  | 🐻‍❄ | 205.85 | ninjaross* |
-| 9  | 🛢️ | 204.30 | sussy_amonge |
+| 8 ⬆ | 🛢️ | 218.96 (+14.66) | respirate_ |
+| 9 ⬇ | 🐻‍❄ | 205.85 | ninjaross* |
 | 10  | 🐙 | 198.60 | derinturitierutz |
 | 11  | 🐋 | 159.84 | osnyatsky |
-| 12  | 🐊 | 149.83 | lagggm* |
+| 12  | 🐊 | 149.89 (+0.06) | vaiastol |
 | 13  | 🧜‍♀️ | 136.90 | dayzedinndaydreams |
 | 14  | 🦭 | 133.31 | ryebreadward |
 | 15  | 🧞‍♂ | 131.64 | kishma9 |
@@ -50,11 +50,11 @@
 | 47  | 🪵 | 15.28 | comiqq |
 | 48  | 🐌 | 14.24 | yliathim* |
 | 49  | 🎱 | 12.85 | qu4ttromila |
-| 50  | 🕶️ | 12.41 | paras220 |
+| 50  | 🕶️ | 12.51 (+0.10) | dayzedinndaydreams |
 | 51  | 🐦 | 11.96 | julialuxel |
 | 52  | 👒 | 11.85 | sussy_amonge |
 | 53  | 🧸 | 11.83 | miiiiisho |
-| 54  | 🧃 | 11.46 (+0.29) | osnyisdead |
+| 54  | 🧃 | 11.46 | osnyisdead |
 | 55  | 🧊 | 10.98 | miiiiisho |
 | 56  | 🪹 | 10.86 | bapqo |
 | 57  | 🪺 | 10.84 | osnyatsky |
@@ -68,9 +68,9 @@
 | 65  | 🐦‍⬛ | 4.85 | qu4ttromila |
 | 66  | 🥫 | 4.67 | qu4ttromila |
 | 67  | ☘️ | 3.98 | osnyatsky |
-| 68  | ☂️ | 2.99 (+0.03) | vaiastol |
-| 69 ⬇ | 🌹 | 2.96 | osnyatsky |
-| 69 ⬇ | 🥪 | 2.96 | qu4ttromila |
+| 68  | ☂️ | 2.99 | vaiastol |
+| 69  | 🌹 | 2.96 | osnyatsky |
+| 69  | 🥪 | 2.96 | qu4ttromila |
 | 71  | 🌻 | 2.78 | fishingalt |
 | 72  | 🍬 | 2.60 | 5c33* |
 | 73  | 👟 | 2.00 | kishma9 |
@@ -80,9 +80,9 @@
 | 77  | 👢 | 1.98 | derinturitierutz |
 | 78  | 🌿 | 1.96 | dayzedinndaydreams |
 | 79  | ⛸️ | 1.94 | ryebreadward |
-| 80  | 🪶 | 0.99 | osnyatsky* |
 | 80  | 🧣 | 0.99 | osnyatsky* |
+| 80  | 🪶 | 0.99 | osnyatsky* |
 | 80  | 🧤 | 0.99 | sicklymaidrobot |
-| 83 🆕 | 🦢 | 0.17 | chubbyhamster__ |
+| 83  | 🦢 | 0.17 | chubbyhamster__ |
 
-_Last updated at 2024-07-21 08:26:13 UTC_
+_Last updated at 2024-07-28 08:18:22 UTC_
