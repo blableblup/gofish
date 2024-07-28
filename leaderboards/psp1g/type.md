@@ -4,8 +4,8 @@
 | 1 🥇  | 🐳 | 303.51 | huuuuuuuuuuuuuuuuuuuuuurz |
 | 2 🥈  | 🐉 | 284.61 | sandwichsundays |
 | 3 🥉  | 🦑 | 280.48 | huuuuuuuuuuuuuuuuuuuuuurz |
-| 4 ⬆ | 🦕 | 267.81 (+1.45) | huuuuuuuuuuuuuuuuuuuuuurz |
-| 5 ⬇ | 🐍 | 266.77 | pengeg |
+| 4  | 🦕 | 267.81 | huuuuuuuuuuuuuuuuuuuuuurz |
+| 5  | 🐍 | 266.77 | pengeg |
 | 6  | 🐢 | 254.30 | yopego |
 | 7  | 🦈 | 249.45 | divra__ |
 | 8  | 🐙 | 191.79 | xkimi1337 |
@@ -85,4 +85,4 @@
 | 82  | 🪶 | 0.98 | amu1g |
 | 83  | 🧣 | 0.92 | blazeblitzzz |
 
-_Last updated at 2024-07-21 08:26:15 UTC_
+_Last updated at 2024-07-28 08:18:25 UTC_
