@@ -24,6 +24,6 @@
 | 21  | creepycode | 26 |
 | 22  | restartmikel | 23 |
 | 23  | afju* | 21 |
-| 24 🆕 | iflya320 | 20 |
+| 24  | iflya320 | 20 |
 
-_Last updated at 2024-07-22 15:20:55 UTC_
+_Last updated at 2024-07-29 08:10:24 UTC_
