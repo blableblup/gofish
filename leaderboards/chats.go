@@ -5,21 +5,41 @@ import (
 	"fmt"
 	"gofish/data"
 	"gofish/logs"
+	"gofish/utils"
 	"os"
 	"path/filepath"
+	"strings"
 	"time"
 )
 
 func RunChatStatsGlobal(params LeaderboardParams) {
-	pool := params.Pool
+	board := params.LeaderboardType
 	config := params.Config
+	date2 := params.Date2
+	title := params.Title
+	pool := params.Pool
+	date := params.Date
+	path := params.Path
 
 	chatStats := make(map[string]data.FishInfo)
 
-	filePath := filepath.Join("leaderboards", "global", "chats.md")
+	var filePath string
+
+	if path == "" {
+		filePath = filepath.Join("leaderboards", "global", "chats.md")
+	} else {
+		if !strings.HasSuffix(path, ".md") {
+			path += ".md"
+		}
+		filePath = filepath.Join("leaderboards", "global", path)
+	}
+
 	oldChatStats, err := ReadOldChatStats(filePath)
 	if err != nil {
-		logs.Logs().Error().Err(err).Str("Path", filePath).Msg("Error reading old chatStats leaderboard")
+		logs.Logs().Error().Err(err).
+			Str("Path", filePath).
+			Str("Board", board).
+			Msg("Error reading old chatStats leaderboard")
 		return
 	}
 
@@ -28,7 +48,10 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 
 		if !chat.CheckFData {
 			if chatName != "global" && chatName != "default" {
-				logs.Logs().Warn().Str("Chat", chatName).Msg("Skipping chat because checkfdata is false")
+				logs.Logs().Warn().
+					Str("Board", board).
+					Str("Chat", chatName).
+					Msg("Skipping chat because checkfdata is false")
 			}
 			continue
 		}
@@ -38,32 +61,59 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 				SELECT COUNT(*) AS fish_count
 				FROM fish
 				WHERE chat = $1
-				`, chatName).Scan(&chatInfo.Count)
+				AND date < $2
+	  			AND date > $3
+				`, chatName, date, date2).Scan(&chatInfo.Count)
 		if err != nil {
-			logs.Logs().Error().Err(err).Str("Chat", chatName).Msg("Error querying fish database for fish count")
+			logs.Logs().Error().Err(err).
+				Str("Chat", chatName).
+				Str("Board", board).
+				Msg("Error querying fish database for fish count")
 			return
 		}
 
 		// Skip chats with zero fish caught
 		if chatInfo.Count == 0 {
-			logs.Logs().Debug().Str("Chat", chatName).Msg("Skipping chat with zero fish caught")
+			logs.Logs().Debug().
+				Str("Chat", chatName).
+				Str("Board", board).
+				Msg("Skipping chat with zero fish caught")
 			continue
 		}
 
-		// Get the active fishers
+		// Get the active fishers for the last seven days (defined by date)
+		// For pastdate, the query should have >= else it will only be 6 days
+		datetime, err := utils.ParseDate(date)
+		if err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Date", date).
+				Str("Chat", chatName).
+				Str("Board", board).
+				Msg("Error parsing date into time.Time for active fishers")
+			return
+		}
+		pastDate := datetime.AddDate(0, 0, -7)
+		// logs.Logs().Debug().
+		// 	Str("PastDate", pastDate.String()).
+		// 	Str("DateTime", datetime.String()).
+		// 	Msg("Dates for active fishers")
 		err = pool.QueryRow(context.Background(), `
 				SELECT COUNT(*) AS active_fishers_count
 				FROM (
 					SELECT DISTINCT playerid
 					FROM fish
 					WHERE chat = $1
-					AND date >= CURRENT_DATE - INTERVAL '7 days'
+					AND date >= $2
+					AND date < $3
 					GROUP BY playerid
 					HAVING COUNT(*) > 10
 				) AS subquery
-				`, chatName).Scan(&chatInfo.MaxCount)
+				`, chatName, pastDate, datetime).Scan(&chatInfo.MaxCount)
 		if err != nil {
-			logs.Logs().Error().Err(err).Str("Chat", chatName).Msg("Error querying fish database for active fishers")
+			logs.Logs().Error().Err(err).
+				Str("Chat", chatName).
+				Str("Board", board).
+				Msg("Error querying fish database for active fishers")
 			return
 		}
 
@@ -74,11 +124,16 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 					SELECT DISTINCT playerid
 					FROM fish
 					WHERE chat = $1
+					AND date < $2
+	  				AND date > $3
 					GROUP BY playerid
 				) AS subquery
-				`, chatName).Scan(&chatInfo.FishId)
+				`, chatName, date, date2).Scan(&chatInfo.FishId)
 		if err != nil {
-			logs.Logs().Error().Err(err).Str("Chat", chatName).Msg("Error querying fish database for unique fishers")
+			logs.Logs().Error().Err(err).
+				Str("Chat", chatName).
+				Str("Board", board).
+				Msg("Error querying fish database for unique fishers")
 			return
 		}
 
@@ -90,23 +145,36 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 					SELECT MAX(weight) AS max_weight
 					FROM fish
 					WHERE chat = $1
+					AND date < $2
+	  				AND date > $3
 				) max_weight_chat ON f.weight = max_weight_chat.max_weight
 				WHERE f.chat = $1;
-				`, chatName).Scan(&chatInfo.PlayerID, &chatInfo.Weight, &chatInfo.TypeName)
+				`, chatName, date, date2).Scan(&chatInfo.PlayerID, &chatInfo.Weight, &chatInfo.TypeName)
 		if err != nil {
-			logs.Logs().Error().Err(err).Str("Chat", chatName).Msgf("Error querying fish database for channel record")
+			logs.Logs().Error().Err(err).
+				Str("Chat", chatName).
+				Str("Board", board).
+				Msg("Error querying fish database for channel record")
 			return
 		}
 
 		err = pool.QueryRow(context.Background(), "SELECT fishtype FROM fishinfo WHERE fishname = $1", chatInfo.TypeName).Scan(&chatInfo.Type)
 		if err != nil {
-			logs.Logs().Error().Err(err).Str("Chat", chatName).Str("Fishname", chatInfo.TypeName).Msg("Error retrieving fish type for fish name")
+			logs.Logs().Error().Err(err).
+				Str("Chat", chatName).
+				Str("Fishname", chatInfo.TypeName).
+				Str("Board", board).
+				Msg("Error retrieving fish type for fish name")
 			return
 		}
 
 		err = pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", chatInfo.PlayerID).Scan(&chatInfo.Player)
 		if err != nil {
-			logs.Logs().Error().Err(err).Str("Chat", chatName).Int("PlayerID", chatInfo.PlayerID).Msg("Error retrieving player name for id")
+			logs.Logs().Error().Err(err).
+				Str("Chat", chatName).
+				Int("PlayerID", chatInfo.PlayerID).
+				Str("Board", board).
+				Msg("Error retrieving player name for id")
 			return
 		}
 
@@ -117,18 +185,29 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 		chatStats[chatName] = chatInfo
 	}
 
-	updateChatStats(chatStats, oldChatStats, filePath)
+	updateChatStats(chatStats, oldChatStats, filePath, board, title)
 
 }
 
-func updateChatStats(chatStats map[string]data.FishInfo, oldChatStats map[string]LeaderboardInfo, filepath string) {
-	logs.Logs().Info().Msg("Updating global chatStats leaderboard...")
-	title := "### Chat leaderboard\n"
-	err := writeChatStats(filepath, chatStats, oldChatStats, title)
-	if err != nil {
-		logs.Logs().Error().Err(err).Msg("Error writing global chatStats leaderboard")
+func updateChatStats(chatStats map[string]data.FishInfo, oldChatStats map[string]LeaderboardInfo, filepath string, board string, title string) {
+	logs.Logs().Info().
+		Str("Board", board).
+		Msg("Updating leaderboard")
+	var titlestats string
+	if title == "" {
+		titlestats = "### Chat leaderboard\n"
 	} else {
-		logs.Logs().Info().Msg("Global chatStats leaderboard updated successfully")
+		titlestats = fmt.Sprintf("%s\n", title)
+	}
+	err := writeChatStats(filepath, chatStats, oldChatStats, titlestats)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Board", board).
+			Msg("Error writing leaderboard")
+	} else {
+		logs.Logs().Info().
+			Str("Board", board).
+			Msg("Leaderboard updated successfully")
 	}
 }
 
