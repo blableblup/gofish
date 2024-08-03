@@ -176,8 +176,8 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			AND EXTRACT(hour FROM date) = EXTRACT(hour FROM $4::timestamp)
 			AND EXTRACT(minute FROM date) = EXTRACT(minute FROM $5::timestamp)
 			AND EXTRACT(second FROM date) = EXTRACT(second FROM $6::timestamp)
-			AND weight = $7 AND player = $8
-		`, fish.Date, fish.Date, fish.Date, fish.Date, fish.Date, fish.Date, fish.Weight, fish.Player).Scan(&count)
+			AND weight = $7 AND player = $8 AND chat = $9
+		`, fish.Date, fish.Date, fish.Date, fish.Date, fish.Date, fish.Date, fish.Weight, fish.Player, fish.Chat).Scan(&count)
 			if err != nil {
 				logs.Logs().Error().Err(err).Str("Table", tableName).Msg("Error counting existing fish")
 				return err
