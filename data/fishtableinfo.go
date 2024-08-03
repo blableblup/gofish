@@ -13,7 +13,7 @@ var exists bool
 
 // The fishtype in the table is the emote of the fish. A fish type can have a shiny version and old versions of the emote (like 🕷🕷️ for spider)
 
-func GetFishName(pool *pgxpool.Pool, fishinfotable string, fishType string) (string, error) {
+func GetFishName(pool *pgxpool.Pool, fishinfotable string, fishType string, board bool) (string, error) {
 
 	// Check if fishType exists directly
 	err := pool.QueryRow(context.Background(), "SELECT EXISTS (SELECT 1 FROM "+fishinfotable+" WHERE fishtype = $1)", fishType).Scan(&exists)
@@ -43,7 +43,7 @@ func GetFishName(pool *pgxpool.Pool, fishinfotable string, fishType string) (str
 	}
 
 	// If not found, add it and retrieve the fish name
-	newFishType, err := addFishType(pool, fishinfotable, fishType)
+	newFishType, err := addFishType(pool, fishinfotable, fishType, board)
 	if err != nil {
 		return "", err
 	}
@@ -65,10 +65,18 @@ func queryFishNameByShiny(pool *pgxpool.Pool, fishinfotable string, fishType str
 	return fishName, err
 }
 
-func addFishType(pool *pgxpool.Pool, fishinfotable string, fishType string) (string, error) {
+func addFishType(pool *pgxpool.Pool, fishinfotable string, fishType string, board bool) (string, error) {
 
-	logs.Logs().Info().Msgf("Unknown fish type '%s' detected. Is it a new fish type, a shiny or a different emote for an existing fish type?", fishType)
-	logs.Logs().Info().Msg("Use new/shiny/emote: ")
+	if !board {
+		logs.Logs().Info().Msgf("Unknown fish type '%s' detected. Is it a new fish type, a shiny or a different emote for an existing fish type?", fishType)
+		logs.Logs().Info().Msg("Use new/shiny/emote: ")
+	} else {
+		// This should never really happen. Maybe only during testing ?
+		logs.Logs().Error().
+			Err(fmt.Errorf("unknown fish type found on leaderboard")).
+			Str("FishType", fishType).
+			Msg("Unknown fish type found on leaderboard")
+	}
 
 	for {
 		fmt.Scanln(&response)
