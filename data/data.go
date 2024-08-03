@@ -211,7 +211,8 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			logs.Logs().Error().Err(err).Str("Table", fishinfotable).Msg("Error ensuring fishinfo table exists")
 			return err
 		}
-		fishName, err := GetFishName(pool, fishinfotable, fish.Type)
+		board := false
+		fishName, err := GetFishName(pool, fishinfotable, fish.Type, board)
 		if err != nil {
 			logs.Logs().Error().Err(err).Str("Type", fish.Type).Msg("Error getting fish name")
 			return err
