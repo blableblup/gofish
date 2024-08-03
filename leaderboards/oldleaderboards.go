@@ -194,8 +194,8 @@ func ReadWeightRankings(filePath string, pool *pgxpool.Pool) (map[string]Leaderb
 					return nil, err
 				}
 			} else {
-				logs.Logs().Error().
-					Err(fmt.Errorf("weight invalid")).
+				err = fmt.Errorf("weight invalid")
+				logs.Logs().Error().Err(err).
 					Str("Old weight string", oldWeightStr).
 					Str("FishType", fishType).
 					Str("Player", player).
@@ -306,8 +306,8 @@ func ReadTypeRankings(filePath string, pool *pgxpool.Pool) (map[string]Leaderboa
 					return nil, err
 				}
 			} else {
-				logs.Logs().Error().
-					Err(fmt.Errorf("weight invalid")).
+				err = fmt.Errorf("weight invalid")
+				logs.Logs().Error().Err(err).
 					Str("Old weight string", oldWeightStr).
 					Str("FishType", fishType).
 					Str("Player", player).
@@ -480,8 +480,8 @@ func ReadOldChatStats(filePath string) (map[string]LeaderboardInfo, error) {
 					return nil, err
 				}
 			} else {
-				logs.Logs().Error().
-					Err(fmt.Errorf("weight invalid")).
+				err = fmt.Errorf("weight invalid")
+				logs.Logs().Error().Err(err).
 					Str("Old weight string", oldWeightStr).
 					Str("FishType", fishType).
 					Str("Player", player).
