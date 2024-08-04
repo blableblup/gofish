@@ -1,16 +1,16 @@
 ### Biggest fish caught per player in julialuxel's chat
 | Rank | Player | Fish | Weight in lbs ⚖️ |
 |------|--------|-----------|---------|
-| 1 🥇  | toastyso | 🦕 | 241.63 |
-| 2 🥈  | chubbyhamster__ | 🐉 | 211.91 |
-| 3 🥉  | hahppyy | 🐳 | 200.06 |
-| 4  | tucelli | 🦈 | 183.97 |
-| 5  | supibot | 🐙 | 115.11 |
-| 6  | dayzedinndaydreams | 🐋 | 105.06 |
-| 7  | sicklymaidrobot | 🐬 | 90.05 |
-| 8  | ryebreadward | 🦕 | 89.88 |
-| 9  | puzzlow | 🦑 | 89.25 |
-| 10  | julialuxel | 🦈 | 72.09 |
-| 11  | vinfg1 | 🦭 | 63.07 |
+| 1 🥇  | toastyso | 🦕 sauropod | 241.63 |
+| 2 🥈  | chubbyhamster__ | 🐉 dragon | 211.91 |
+| 3 🥉  | hahppyy | 🐳 whale | 200.06 |
+| 4  | tucelli | 🦈 shark | 183.97 |
+| 5  | supibot | 🐙 octopus | 115.11 |
+| 6  | dayzedinndaydreams | 🐋 whale2 | 105.06 |
+| 7  | sicklymaidrobot | 🐬 dolphin | 90.05 |
+| 8  | ryebreadward | 🦕 sauropod | 89.88 |
+| 9  | puzzlow | 🦑 squid | 89.25 |
+| 10  | julialuxel | 🦈 shark | 72.09 |
+| 11  | vinfg1 | 🦭 seal | 63.07 |
 
-_Last updated at 2024-07-28 08:18:21 UTC_
+_Last updated at 2024-08-04 09:01:20 UTC_
