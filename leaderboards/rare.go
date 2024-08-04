@@ -96,6 +96,7 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 					Count:      fishInfo.Count,
 					Chat:       pfp,
 					MaxCount:   fishInfo.Count,
+					TypeName:   fishInfo.TypeName,
 					ChatCounts: map[string]int{pfp: fishInfo.Count},
 				}
 			}

@@ -159,6 +159,7 @@ func writeCount(filePath string, fishCaught map[string]data.FishInfo, oldCountRe
 	for _, player := range sortedPlayers {
 		Count := fishCaught[player].Count
 		ChatCounts := fishCaught[player].ChatCounts
+		FishName := fishCaught[player].TypeName // For rarest fish leaderboard. For the count boards, this will print nothing
 
 		// Increment rank only if the count has changed
 		if Count != prevCount {
@@ -197,7 +198,7 @@ func writeCount(filePath string, fishCaught map[string]data.FishInfo, oldCountRe
 
 		ranks := Ranks(rank)
 
-		_, _ = fmt.Fprintf(file, "| %s %s | %s%s | %s |", ranks, changeEmoji, player, botIndicator, counts)
+		_, _ = fmt.Fprintf(file, "| %s %s | %s%s %s | %s |", ranks, changeEmoji, player, botIndicator, FishName, counts)
 		if isGlobal {
 			// Turn the map to a slice
 			ChatCountsSlice := make([]struct {
