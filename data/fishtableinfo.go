@@ -72,10 +72,10 @@ func addFishType(pool *pgxpool.Pool, fishinfotable string, fishType string, boar
 		logs.Logs().Info().Msg("Use new/shiny/emote: ")
 	} else {
 		// This should never really happen. Maybe only during testing ?
-		err := fmt.Errorf("unkown fish type found on leaderboard")
+		err := fmt.Errorf("unknown fish type found on leaderboard")
 		logs.Logs().Error().Err(err).
 			Str("FishType", fishType).
-			Msg("Unkown fish type found on leaderboard")
+			Msg("Unknown fish type found on leaderboard")
 		return "", err
 	}
 
