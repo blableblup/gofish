@@ -181,6 +181,7 @@ func writeType(filePath string, recordType map[string]data.FishInfo, oldType map
 	for _, fishType := range sortedTypes {
 		weight := recordType[fishType].Weight
 		player := recordType[fishType].Player
+		fishName := recordType[fishType].TypeName
 
 		// Increment rank only if the count has changed
 		if weight != prevWeight {
@@ -221,7 +222,7 @@ func writeType(filePath string, recordType map[string]data.FishInfo, oldType map
 
 		ranks := Ranks(rank)
 
-		_, _ = fmt.Fprintf(file, "| %s %s | %s | %s | %s%s |", ranks, changeEmoji, fishType, fishweight, player, botIndicator)
+		_, _ = fmt.Fprintf(file, "| %s %s | %s %s | %s | %s%s |", ranks, changeEmoji, fishType, fishName, fishweight, player, botIndicator)
 		if isGlobal {
 			_, _ = fmt.Fprintf(file, " %s |", recordType[fishType].ChatPfp)
 		}

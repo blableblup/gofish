@@ -179,6 +179,7 @@ func writeWeight(filePath string, recordWeight map[string]data.FishInfo, oldReco
 	for _, player := range sortedPlayers {
 		weight := recordWeight[player].Weight
 		fishType := recordWeight[player].Type
+		fishName := recordWeight[player].TypeName
 
 		// Increment rank only if the count has changed
 		if weight != prevWeight {
@@ -220,7 +221,7 @@ func writeWeight(filePath string, recordWeight map[string]data.FishInfo, oldReco
 		ranks := Ranks(rank)
 
 		// Write the leaderboard row
-		_, _ = fmt.Fprintf(file, "| %s %s | %s%s | %s | %s |", ranks, changeEmoji, player, botIndicator, fishType, fishweight)
+		_, _ = fmt.Fprintf(file, "| %s %s | %s%s | %s %s | %s |", ranks, changeEmoji, player, botIndicator, fishType, fishName, fishweight)
 		if isGlobal {
 			_, _ = fmt.Fprintf(file, " %s |", recordWeight[player].ChatPfp)
 		}
