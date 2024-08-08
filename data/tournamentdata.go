@@ -185,7 +185,7 @@ func processTData(matchingLines []string, chatName string, pool *pgxpool.Pool) {
 			return
 		}
 
-		file, err := os.OpenFile(logFilePath, os.O_APPEND|os.O_WRONLY, 0644)
+		file, err := os.OpenFile(logFilePath, os.O_APPEND|os.O_CREATE, 0644)
 		if err != nil {
 			logs.Logs().Error().Err(err).Str("File", logFilePath).Str("Chat", chatName).Msg("Error opening log file for appending")
 			return
