@@ -70,6 +70,13 @@
         "checktdata": true,
         "board_enabled": false
       },
+      "omie": {
+        "logs_host": "https://logs.spanix.team/channel/omie/user/gofishgame/",
+        "logs_added": "2024/8",
+        "checkfdata": true,
+        "checktdata": true,
+        "board_enabled": false
+      },
       "global": {
         "weight_limit": 270,
         "totalcount_limit": 300,
