@@ -48,37 +48,37 @@
 | 45  | brachiocs | 🐉 dragon | 226.11 |
 | 46  | gorillapark | 🦕 sauropod | 224.26 |
 | 47  | jj_ladic | 🐳 whale | 222.91 |
-| 47 🆕 | veny1g | 🐉 dragon | 222.91 |
-| 49 ⬇ | asthmaa | 🐉 dragon | 220.96 |
-| 50 ⬇ | rc_xz | 🐳 whale | 216.62 |
-| 51 ⬇ | duckfackkk | 🐳 whale | 215.83 |
-| 52 ⬇ | iflya320 | 🐳 whale | 214.34 |
-| 53 ⬇ | qxxick_ | 🐉 dragon | 214.08 |
-| 54 ⬇ | obscurecharmling | 🦈 shark | 212.97 |
-| 55 ⬇ | rttvname | 🐳 whale | 212.06 |
-| 56 ⬇ | eebbbee | 🦕 sauropod | 211.29 |
-| 57 ⬇ | ottexdd | 🐉 dragon | 210.83 |
-| 58 ⬇ | noconcept_ | 🐉 dragon | 210.03 |
-| 59 ⬇ | mikel1g | 🐳 whale | 209.45 |
-| 60 ⬇ | sameone | 🐳 whale | 208.78 |
-| 61 ⬇ | jami1g | 🦈 shark | 208.55 |
-| 62 ⬇ | dx9er | 🐉 dragon | 208.18 |
-| 63 ⬇ | pspisafemboy | 🐳 whale | 207.80 |
-| 64 🆕 | eskibroyo | 🐉 dragon | 207.00 |
-| 65 ⬇ | sl3id3r | 🐳 whale | 206.99 |
-| 66 ⬇ | moneyhoarder | 🦈 shark | 206.89 |
-| 67 ⬇ | cubedude20 | 🐉 dragon | 206.77 |
-| 68 ⬇ | theevirus | 🐢 turtle | 205.87 |
-| 68 ⬇ | tien_ | 🐳 whale | 205.87 |
-| 70 ⬇ | pookiesnowman | 🐳 whale | 205.15 |
-| 71 ⬇ | norque69 | 🦈 shark | 204.31 |
-| 72 ⬇ | micropotato69 | 🦈 shark | 203.75 |
-| 73 ⬇ | scaryo_o | 🦕 sauropod | 203.52 |
-| 74 ⬇ | red_blade9 | 🦈 shark | 203.47 |
-| 75 ⬇ | psp1g | 🦈 shark | 202.59 |
-| 76 ⬇ | theng | 🦈 shark | 202.21 |
-| 77 ⬇ | ttecnk | 🐉 dragon | 202.20 |
-| 78 ⬇ | juwna | 🐳 whale | 201.19 |
-| 79 ⬇ | finalmorningstar | 🐳 whale | 200.01 |
+| 47  | veny1g | 🐉 dragon | 222.91 |
+| 49  | asthmaa | 🐉 dragon | 220.96 |
+| 50  | rc_xz | 🐳 whale | 216.62 |
+| 51  | duckfackkk | 🐳 whale | 215.83 |
+| 52  | iflya320 | 🐳 whale | 214.34 |
+| 53  | qxxick_ | 🐉 dragon | 214.08 |
+| 54  | obscurecharmling | 🦈 shark | 212.97 |
+| 55  | rttvname | 🐳 whale | 212.06 |
+| 56  | eebbbee | 🦕 sauropod | 211.29 |
+| 57  | ottexdd | 🐉 dragon | 210.83 |
+| 58  | noconcept_ | 🐉 dragon | 210.03 |
+| 59  | mikel1g | 🐳 whale | 209.45 |
+| 60  | sameone | 🐳 whale | 208.78 |
+| 61  | jami1g | 🦈 shark | 208.55 |
+| 62  | dx9er | 🐉 dragon | 208.18 |
+| 63  | pspisafemboy | 🐳 whale | 207.80 |
+| 64 ⬆ | theevirus | 🦕 sauropod | 207.64 (+1.77) |
+| 65 ⬇ | eskibroyo | 🐉 dragon | 207.00 |
+| 66 ⬇ | sl3id3r | 🐳 whale | 206.99 |
+| 67 ⬇ | moneyhoarder | 🦈 shark | 206.89 |
+| 68 ⬇ | cubedude20 | 🐉 dragon | 206.77 |
+| 69 ⬇ | tien_ | 🐳 whale | 205.87 |
+| 70  | pookiesnowman | 🐳 whale | 205.15 |
+| 71  | norque69 | 🦈 shark | 204.31 |
+| 72  | micropotato69 | 🦈 shark | 203.75 |
+| 73  | scaryo_o | 🦕 sauropod | 203.52 |
+| 74  | red_blade9 | 🦈 shark | 203.47 |
+| 75  | psp1g | 🦈 shark | 202.59 |
+| 76  | theng | 🦈 shark | 202.21 |
+| 77  | ttecnk | 🐉 dragon | 202.20 |
+| 78  | juwna | 🐳 whale | 201.19 |
+| 79  | finalmorningstar | 🐳 whale | 200.01 |
 
-_Last updated at 2024-08-04 09:01:20 UTC_
+_Last updated at 2024-08-11 08:38:19 UTC_

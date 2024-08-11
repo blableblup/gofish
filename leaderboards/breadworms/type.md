@@ -54,7 +54,7 @@
 | 51  | 🐦 bird | 11.96 | julialuxel |
 | 52  | 👒 womanshat | 11.85 | sussy_amonge |
 | 53  | 🧸 teddybear | 11.83 | miiiiisho |
-| 54  | 🧃 beveragebox | 11.46 | osnyisdead |
+| 54  | 🧃 beveragebox | 11.62 (+0.16) | derinturitierutz |
 | 55  | 🧊 icecube | 10.98 | miiiiisho |
 | 56  | 🪹 emptynest | 10.86 | bapqo |
 | 57  | 🪺 nestwitheggs | 10.84 | osnyatsky |
@@ -85,4 +85,4 @@
 | 80  | 🧤 gloves | 0.99 | sicklymaidrobot |
 | 83  | 🦢 swan | 0.17 | chubbyhamster__ |
 
-_Last updated at 2024-08-04 08:46:28 UTC_
+_Last updated at 2024-08-11 08:38:24 UTC_
