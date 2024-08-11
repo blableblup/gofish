@@ -21,9 +21,12 @@
       "ovrht": {
         "logs_host": "https://logs.spanix.team/channel/ovrht/user/gofishgame/",
         "logs_added": "2023/10",
+        "weight_limit": 50,
+        "totalcount_limit": 10,
+        "fishweek_limit": 10,
         "checkfdata": true,
         "checktdata": true,
-        "board_enabled": false
+        "board_enabled": true
       },
       "julialuxel": {
         "logs_host": "https://logs.ivr.fi/channel/julialuxel/user/gofishgame/",
@@ -73,9 +76,12 @@
       "omie": {
         "logs_host": "https://logs.spanix.team/channel/omie/user/gofishgame/",
         "logs_added": "2024/8",
+        "weight_limit": 50,
+        "totalcount_limit": 10,
+        "fishweek_limit": 10,
         "checkfdata": true,
         "checktdata": true,
-        "board_enabled": false
+        "board_enabled": true
       },
       "global": {
         "weight_limit": 270,
