@@ -1,83 +1,83 @@
 ### Most fish caught in psp1g's chat
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
-| 1 🥇  | caprise627*  | 1352 (+25) |
-| 2 🥈  | nndiana*  | 1269 (+60) |
-| 3 🥉  | huuuuuuuuuuuuuuuuuuuuuurz  | 1120 (+55) |
-| 4  | jr_mime  | 1024 (+15) |
-| 5  | pengeg  | 981 (+24) |
-| 6  | sandwichsundays*  | 884 (+24) |
-| 7  | zwockel01  | 797 (+17) |
-| 8  | benciee  | 782 (+26) |
-| 9  | jemcs_  | 756 (+5) |
+| 1 🥇  | caprise627*  | 1393 (+41) |
+| 2 🥈  | nndiana*  | 1332 (+63) |
+| 3 🥉  | huuuuuuuuuuuuuuuuuuuuuurz  | 1153 (+33) |
+| 4  | jr_mime  | 1040 (+16) |
+| 5  | pengeg  | 1009 (+28) |
+| 6  | sandwichsundays*  | 907 (+23) |
+| 7  | zwockel01  | 806 (+9) |
+| 8  | benciee  | 796 (+14) |
+| 9  | jemcs_  | 790 (+34) |
 | 10  | amu1g  | 689 |
-| 11  | angus_lpc  | 522 (+16) |
-| 12  | wisdom_frog  | 496 |
-| 13  | mazzo_tv  | 479 (+38) |
-| 14 ⬆ | commanda_u  | 454 (+38) |
-| 15 ⬇ | divra__  | 417 |
-| 16  | flunke_  | 412 (+8) |
+| 11  | angus_lpc  | 538 (+16) |
+| 12 ⬆ | commanda_u  | 505 (+51) |
+| 13 ⬇ | wisdom_frog  | 496 |
+| 14 ⬇ | mazzo_tv  | 487 (+8) |
+| 15 ⬆ | flunke_  | 423 (+11) |
+| 16 ⬇ | divra__  | 417 |
 | 17  | fonuwu  | 396 |
 | 18  | noconcept_  | 373 |
-| 19  | maksmusz*  | 363 (+2) |
-| 20  | quinrayy  | 353 |
-| 21  | faslker  | 352 |
-| 22  | copperx9  | 343 |
-| 23  | bubinga  | 339 |
-| 24  | gorillapark  | 310 (+18) |
-| 25  | euxoa  | 291 |
-| 26 ⬆ | lobuhtomy  | 284 (+37) |
-| 27 ⬇ | kaspu222  | 277 |
-| 28 ⬇ | qxxick_  | 269 |
-| 29 ⬇ | creepycode*  | 261 (+2) |
-| 30 ⬇ | theng  | 258 (+7) |
-| 31  | hahppyy  | 241 |
-| 32  | markenzy01  | 239 (+2) |
-| 33  | brachiocs  | 232 (+3) |
-| 34  | seryxx  | 227 (+10) |
-| 35 ⬇ | jj_ladic  | 217 |
+| 19 ⬆ | bubinga  | 369 (+30) |
+| 20 ⬇ | maksmusz*  | 366 (+3) |
+| 21 ⬇ | quinrayy  | 353 |
+| 22 ⬇ | faslker  | 352 |
+| 23 ⬇ | copperx9  | 343 |
+| 24 ⬆ | lobuhtomy  | 333 (+49) |
+| 25 ⬇ | gorillapark  | 320 (+10) |
+| 26 ⬇ | euxoa  | 291 |
+| 27 ⬆ | creepycode*  | 279 (+18) |
+| 28 ⬇ | kaspu222  | 277 |
+| 29 ⬇ | qxxick_  | 269 |
+| 30  | theng  | 261 (+3) |
+| 31 ⬆ | markenzy01  | 246 (+7) |
+| 32 ⬆ | seryxx  | 242 (+15) |
+| 33 ⬇ | hahppyy  | 241 |
+| 34 ⬇ | brachiocs  | 233 (+1) |
+| 35  | jj_ladic  | 217 |
 | 36  | cale4  | 212 |
-| 37  | cappo7117  | 210 (+1) |
-| 38  | ocram1g  | 193 (+3) |
-| 39 ⬇ | wasdecxyq  | 190 |
+| 37  | cappo7117  | 210 |
+| 38  | ocram1g  | 194 (+1) |
+| 39  | wasdecxyq  | 190 |
 | 40  | popfizzgg  | 184 |
-| 41  | bartohehe  | 171 |
-| 41  | satic____  | 171 |
-| 43  | crunch_sack  | 160 |
-| 43 ⬆ | f_i_o_r  | 160 (+2) |
-| 45 ⬇ | quton  | 159 |
+| 41  | bartohehe  | 172 (+1) |
+| 42 ⬇ | satic____  | 171 |
+| 43  | crunch_sack  | 161 (+1) |
+| 44 ⬇ | f_i_o_r  | 160 |
+| 45  | quton  | 159 |
 | 46  | jamison1906  | 156 |
 | 47  | thasbe  | 153 |
 | 48  | pspisafemboy  | 151 |
 | 48  | ttecnk  | 151 |
-| 50  | yopego  | 150 (+1) |
-| 51 ⬇ | adziooooo  | 149 |
-| 52 ⬆ | kubo7  | 148 (+3) |
-| 53 ⬆ | deogen01  | 147 (+10) |
-| 54 ⬇ | asthmaa  | 146 |
-| 54  | xveso  | 146 (+5) |
-| 56  | brunodestar  | 134 |
-| 56 ⬆ | trendymirror  | 134 (+10) |
-| 58 ⬇ | vibepill  | 130 |
-| 59 ⬇ | rttvname  | 128 |
-| 60 ⬆ | onarrrrrr  | 126 (+12) |
-| 61 ⬇ | milchfunky*  | 124 (+1) |
-| 62 ⬇ | obscurecharmling  | 121 |
-| 63 ⬇ | 6blmue  | 120 |
-| 64 ⬇ | chow_peepohappy*  | 119 |
-| 65 ⬇ | benlol_l*  | 118 |
-| 65 ⬇ | ovrht  | 118 |
-| 65 ⬇ | xkimi1337  | 118 |
-| 68 ⬇ | damon_okami*  | 116 |
-| 69  | alvaniss1g  | 111 |
-| 70 ⬆ | kalechap  | 109 (+7) |
-| 71 ⬇ | starducc  | 108 |
-| 72 ⬇ | pookiesnowman  | 105 |
-| 72 🆕 | veny1g  | 105 |
-| 74 🆕 | eskibroyo  | 104 |
-| 75 ⬇ | acidfd174  | 103 |
-| 75 ⬇ | thelantzzz  | 103 |
-| 77 🆕 | theskritsch  | 102 |
-| 78 🆕 | zeeerux  | 101 |
+| 50 ⬆ | deogen01  | 150 (+3) |
+| 50 ⬆ | xveso  | 150 (+4) |
+| 50  | yopego  | 150 |
+| 53 ⬇ | adziooooo  | 149 |
+| 53 ⬇ | kubo7  | 149 (+1) |
+| 55 ⬇ | asthmaa  | 146 |
+| 56 ⬆ | onarrrrrr  | 145 (+19) |
+| 57 ⬇ | trendymirror  | 143 (+9) |
+| 58 ⬆ | veny1g  | 139 (+34) |
+| 59 ⬇ | brunodestar  | 134 |
+| 60 ⬇ | vibepill  | 130 |
+| 61 ⬇ | rttvname  | 128 |
+| 62 ⬇ | milchfunky*  | 125 (+1) |
+| 63 ⬇ | obscurecharmling  | 121 |
+| 64 ⬇ | 6blmue  | 120 |
+| 65 ⬇ | chow_peepohappy*  | 119 |
+| 66 ⬇ | benlol_l*  | 118 |
+| 66 ⬇ | ovrht  | 118 |
+| 66 ⬇ | xkimi1337  | 118 |
+| 69 ⬇ | damon_okami*  | 116 |
+| 70  | kalechap  | 115 (+6) |
+| 71 ⬇ | alvaniss1g  | 111 |
+| 72  | pookiesnowman  | 109 (+4) |
+| 73 ⬇ | starducc  | 108 |
+| 74  | eskibroyo  | 107 (+3) |
+| 75 ⬆ | theskritsch  | 104 (+2) |
+| 76 ⬇ | acidfd174  | 103 |
+| 76 ⬇ | thelantzzz  | 103 |
+| 78  | zeeerux  | 101 |
 
-_Last updated at 2024-08-04 08:46:30 UTC_
+_Last updated at 2024-08-11 08:38:26 UTC_

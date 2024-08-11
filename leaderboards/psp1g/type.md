@@ -49,7 +49,7 @@
 | 46  | 🪀 bobber | 14.82 | jemcs_ |
 | 47  | 🪵 log | 13.04 | bcarw |
 | 48  | 🧃 beveragebox | 12.83 | huuuuuuuuuuuuuuuuuuuuuurz |
-| 49  | 🕶️ darksunglasses | 12.56 | destr0yer72 |
+| 49  | 🕶️ darksunglasses | 12.77 (+0.21) | jr_mime |
 | 50  | 👒 womanshat | 11.98 | ttecnk |
 | 51  | 🐌 snail | 11.97 | sandwichsundays |
 | 52  | 🧸 teddybear | 11.91 | yaratecs2 |
@@ -85,4 +85,4 @@
 | 82  | 🪶 feather | 0.98 | amu1g |
 | 83  | 🧣 scarf | 0.92 | blazeblitzzz |
 
-_Last updated at 2024-08-04 08:46:26 UTC_
+_Last updated at 2024-08-11 08:38:21 UTC_
