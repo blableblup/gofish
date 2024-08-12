@@ -464,7 +464,10 @@ func ReadOldChatStats(filePath string) (map[string]LeaderboardInfo, error) {
 			uniqueStr := strings.TrimSpace(parts[5])
 			unique, _ := strconv.Atoi(strings.Split(uniqueStr, " ")[0])
 
-			oldWeightStr := strings.TrimSpace(parts[6])
+			uniqueFStr := strings.TrimSpace(parts[6])
+			uniquef, _ := strconv.Atoi(strings.Split(uniqueFStr, " ")[0])
+
+			oldWeightStr := strings.TrimSpace(parts[7])
 			re := regexp.MustCompile(`([0-9.]+)`)
 			matches := re.FindStringSubmatch(oldWeightStr)
 			if len(matches) >= 2 {
@@ -495,6 +498,7 @@ func ReadOldChatStats(filePath string) (map[string]LeaderboardInfo, error) {
 				Count:  count,
 				Silver: active,
 				Bronze: unique,
+				Trophy: uniquef,
 				Weight: oldweight,
 			}
 		}

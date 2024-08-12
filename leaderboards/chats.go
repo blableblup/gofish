@@ -137,6 +137,26 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 			return
 		}
 
+		// Get the unique fish caught
+		err = pool.QueryRow(context.Background(), `
+				SELECT COUNT(*) AS unique_fish_count
+				FROM (
+					SELECT DISTINCT fishname
+					FROM fish
+					WHERE chat = $1
+					AND date < $2
+	  				AND date > $3
+					GROUP BY fishname
+				) AS subquery
+				`, chatName, date, date2).Scan(&chatInfo.ChatId)
+		if err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Chat", chatName).
+				Str("Board", board).
+				Msg("Error querying fish database for unique fish caught")
+			return
+		}
+
 		// Get the channel record
 		err = pool.QueryRow(context.Background(), `
 				SELECT f.playerid, f.weight, f.fishname
@@ -229,8 +249,8 @@ func writeChatStats(filePath string, chatStats map[string]data.FishInfo, oldChat
 		return err
 	}
 
-	_, _ = fmt.Fprintln(file, "| Rank | Chat | Fish Caught | Active Players | Unique Players | Channel Record 🎊 |")
-	_, _ = fmt.Fprintln(file, "|------|------|-------------|----------------|----------------|-------------------|")
+	_, _ = fmt.Fprintln(file, "| Rank | Chat | Fish Caught | Active Players | Unique Players | Unique Fish | Channel Record 🎊 |")
+	_, _ = fmt.Fprintln(file, "|------|------|-------------|----------------|----------------|-------------|-------------------|")
 
 	sortedChats := SortMapByCountDesc(chatStats)
 
@@ -248,6 +268,7 @@ func writeChatStats(filePath string, chatStats map[string]data.FishInfo, oldChat
 		chatname := chatStats[chat].Chat
 		activefishers := chatStats[chat].MaxCount
 		uniquefishers := chatStats[chat].FishId
+		uniquefish := chatStats[chat].ChatId
 
 		// Increment rank only if the count has changed
 		if count != prevCount {
@@ -264,6 +285,7 @@ func writeChatStats(filePath string, chatStats map[string]data.FishInfo, oldChat
 		oldWeight := weight
 		oldActive := activefishers
 		oldUnique := uniquefishers
+		oldUniquef := uniquefish
 		oldChatInfo, ok := oldChatStats[chatname]
 		if ok {
 			found = true
@@ -272,11 +294,12 @@ func writeChatStats(filePath string, chatStats map[string]data.FishInfo, oldChat
 			oldWeight = oldChatInfo.Weight
 			oldActive = oldChatInfo.Silver
 			oldUnique = oldChatInfo.Bronze
+			oldUniquef = oldChatInfo.Trophy
 		}
 
 		changeEmoji := ChangeEmoji(rank, oldRank, found)
 
-		var counts, fishweight, activepl, uniquepl string
+		var counts, fishweight, activepl, uniquepl, uniquef string
 
 		countDifference := count - oldCount
 		if countDifference > 0 {
@@ -310,9 +333,18 @@ func writeChatStats(filePath string, chatStats map[string]data.FishInfo, oldChat
 			uniquepl = fmt.Sprintf("%d", uniquefishers)
 		}
 
+		uniquefdiff := uniquefish - oldUniquef
+		if uniquefdiff > 0 {
+			uniquef = fmt.Sprintf("%d (+%d)", uniquefish, uniquefdiff)
+		} else if uniquediff < 0 {
+			uniquef = fmt.Sprintf("%d (%d)", uniquefish, uniquefdiff)
+		} else {
+			uniquef = fmt.Sprintf("%d", uniquefish)
+		}
+
 		ranks := Ranks(rank)
 
-		_, _ = fmt.Fprintf(file, "| %s %s | %s %s | %s | %s | %s | %s %s lbs, %s |", ranks, changeEmoji, chatname, pfp, counts, activepl, uniquepl, fishtype, fishweight, player)
+		_, _ = fmt.Fprintf(file, "| %s %s | %s %s | %s | %s | %s | %s | %s %s lbs, %s |", ranks, changeEmoji, chatname, pfp, counts, activepl, uniquepl, uniquef, fishtype, fishweight, player)
 		_, err = fmt.Fprintln(file)
 		if err != nil {
 			return err
