@@ -1,16 +1,16 @@
 ### Leaderboard for the weekly tournaments in breadworms' chat
 | Rank | Player | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points |
 |------|--------|-------------|------------------|------------------|--------|
-| 1 🥇 | puzzlow | 35 | 15 | 10 | 125.0 |
+| 1 🥇 | puzzlow | 35 | 15 | 13 (+3) | 126.5 (+1.5) |
 | 2 🥈 | osnyatsky | 31 | 24 | 6 | 120.0 |
-| 3 🥉 | derinturitierutz | 31 | 5 (+1) | 9 (+1) | 102.5 (+1.5) |
-| 4 | chubbyhamster__ | 15 (+3) | 28 | 12 | 79.0 (+9.0) |
+| 3 🥉 | derinturitierutz | 33 (+2) | 5 | 9 | 108.5 (+6.0) |
+| 4 | chubbyhamster__ | 15 | 28 | 12 | 79.0 |
 | 5 | qu4ttromila | 11 | 19 | 20 | 62.0 |
 | 6 | kishma9 | 11 | 18 | 8 | 55.0 |
 | 7 | miiiiisho | 7 | 19 | 9 | 44.5 |
 | 8 | sussy_amonge | 12 | 4 | 7 | 43.5 |
-| 9 | sicklymaidrobot | 5 | 10 | 26 | 38.0 |
-| 10 | dayzedinndaydreams | 9 | 3 (+1) | 11 | 35.5 (+1.0) |
+| 9 ⬆| dayzedinndaydreams | 9 | 6 (+3) | 11 | 38.5 (+3.0) |
+| 10 ⬇| sicklymaidrobot | 5 | 10 | 26 | 38.0 |
 | 11 | comiqq | 5 | 12 | 9 | 31.5 |
 | 12 | fishingalt | 4 | 7 | 4 | 21.0 |
 | 13 | booty_bread | 4 | 2 | 6 | 17.0 |
@@ -32,4 +32,4 @@
 | 25 | niiy | 0 | 0 | 1 | 0.5 |
 | 25 | notcum | 0 | 0 | 1 | 0.5 |
 
-_Last updated at 2024-08-07 11:59:44 UTC_
+_Last updated at 2024-08-14 09:24:55 UTC_
