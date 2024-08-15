@@ -21,10 +21,11 @@
 | 18  | divra__  | 33 |
 | 19  | mikel1g  | 31 |
 | 20  | noconcept_  | 29 |
-| 21  | creepycode  | 26 |
-| 21 🆕 | veny1g  | 26 |
-| 23 ⬇ | restartmikel  | 23 |
-| 24 ⬇ | afju*  | 21 |
-| 25 ⬇ | iflya320  | 20 |
+| 21 🆕 | bubinga  | 28 |
+| 21  | veny1g  | 28 (+2) |
+| 23 ⬇ | creepycode  | 26 |
+| 24 ⬇ | restartmikel  | 23 |
+| 25 ⬇ | afju*  | 21 |
+| 26 ⬇ | iflya320  | 20 |
 
-_Last updated at 2024-08-06 11:50:18 UTC_
+_Last updated at 2024-08-15 08:54:01 UTC_
