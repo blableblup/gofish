@@ -1,26 +1,22 @@
 {
     "twitch_chat": {
       "breadworms": {
-        "logs_host": "https://logs.joinuv.com/channel/breadworms/user/gofishgame/",
-        "logs_host_old": "https://logs.joinuv.com/channel/breadworms/user/supibot/",
+        "logs_host": "https://logs.joinuv.com",
         "logs_added": "2022/12",
-        "emoji": "🍞",
         "checkfdata": true,
         "checktdata": true,
         "board_enabled": true
       },
       "psp1g": {
-        "logs_host": "https://logs.nadeko.net/channel/psp1g/user/gofishgame/",
-        "logs_host_old": "https://logs.nadeko.net/channel/psp1g/user/supibot/",
+        "logs_host": "https://logs.ivr.fi",
         "logs_added": "2023/8",
-        "emoji": "🐱",
         "checkfdata": true,
         "checktdata": true,
         "board_enabled": true
       },
       "ovrht": {
-        "logs_host": "https://logs.spanix.team/channel/ovrht/user/gofishgame/",
-        "logs_added": "2023/10",
+        "logs_host": "https://logs.potat.app",
+        "logs_added": "2024/7",
         "weight_limit": 50,
         "totalcount_limit": 10,
         "fishweek_limit": 10,
@@ -29,7 +25,7 @@
         "board_enabled": true
       },
       "julialuxel": {
-        "logs_host": "https://logs.ivr.fi/channel/julialuxel/user/gofishgame/",
+        "logs_host": "https://logs.ivr.fi",
         "logs_added": "2023/12",
         "weight_limit": 50,
         "totalcount_limit": 10,
@@ -39,42 +35,42 @@
         "board_enabled": true
       },
       "ryanpotat": {
-        "logs_host": "https://logs.spanix.team/channel/ryanpotat/user/gofishgame/",
+        "logs_host": "https://logs.spanix.team",
         "logs_added": "2023/12",
         "checkfdata": true,
         "checktdata": true,
         "board_enabled": false
       },
       "d_egree": {
-        "logs_host": "https://logs.spanix.team/channel/d_egree/user/gofishgame/",
+        "logs_host": "https://logs.spanix.team",
         "logs_added": "2024/5",
         "checkfdata": true,
         "checktdata": true,
         "board_enabled": false
       },
       "pokirule": {
-        "logs_host": "https://logs.spanix.team/channel/pokirule/user/gofishgame/",
+        "logs_host": "https://logs.spanix.team",
         "logs_added": "2024/5",
         "checkfdata": true,
         "checktdata": true,
         "board_enabled": false
       },
       "ajspyman": {
-        "logs_host": "https://logs.spanix.team/channel/ajspyman/user/gofishgame/",
+        "logs_host": "https://logs.spanix.team",
         "logs_added": "2024/5",
         "checkfdata": true,
         "checktdata": true,
         "board_enabled": false
       },
       "miagooper": {
-        "logs_host": "https://logs.ivr.fi/channel/miagooper/user/gofishgame/",
+        "logs_host": "https://logs.ivr.fi",
         "logs_added": "2024/5",
         "checkfdata": true,
         "checktdata": true,
         "board_enabled": false
       },
       "omie": {
-        "logs_host": "https://logs.spanix.team/channel/omie/user/gofishgame/",
+        "logs_host": "https://logs.spanix.team",
         "logs_added": "2024/8",
         "weight_limit": 50,
         "totalcount_limit": 10,
