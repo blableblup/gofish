@@ -7,8 +7,8 @@
 | 4  | 🦕 sauropod | 286.09 | sicklymaidrobot |
 | 5  | 🐉 dragon | 284.24 | puzzlow |
 | 6  | 🐍 snake | 271.95 | miiiiisho |
-| 7  | 🐢 turtle | 251.35 | bussinongnocap |
-| 8  | 🛢️ oildrum | 218.96 | respirate_ |
+| 7 ⬆ | 🛢️ oildrum | 251.70 (+32.74) | osnyisdead |
+| 8 ⬇ | 🐢 turtle | 251.35 | bussinongnocap |
 | 9  | 🐻‍❄ polarbear | 205.85 | ninjaross* |
 | 10  | 🐙 octopus | 198.60 | derinturitierutz |
 | 11  | 🐋 whale2 | 159.84 | osnyatsky |
@@ -54,7 +54,7 @@
 | 51  | 🐦 bird | 11.96 | julialuxel |
 | 52  | 👒 womanshat | 11.85 | sussy_amonge |
 | 53  | 🧸 teddybear | 11.83 | miiiiisho |
-| 54  | 🧃 beveragebox | 11.62 (+0.16) | derinturitierutz |
+| 54  | 🧃 beveragebox | 11.62 | derinturitierutz |
 | 55  | 🧊 icecube | 10.98 | miiiiisho |
 | 56  | 🪹 emptynest | 10.86 | bapqo |
 | 57  | 🪺 nestwitheggs | 10.84 | osnyatsky |
@@ -80,9 +80,9 @@
 | 77  | 👢 boot | 1.98 | derinturitierutz |
 | 78  | 🌿 herb | 1.96 | dayzedinndaydreams |
 | 79  | ⛸️ iceskate | 1.94 | ryebreadward |
-| 80  | 🧣 scarf | 0.99 | osnyatsky* |
 | 80  | 🪶 feather | 0.99 | osnyatsky* |
+| 80  | 🧣 scarf | 0.99 | osnyatsky* |
 | 80  | 🧤 gloves | 0.99 | sicklymaidrobot |
 | 83  | 🦢 swan | 0.17 | chubbyhamster__ |
 
-_Last updated at 2024-08-11 08:38:24 UTC_
+_Last updated at 2024-08-18 09:36:16 UTC_

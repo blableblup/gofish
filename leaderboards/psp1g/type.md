@@ -32,7 +32,7 @@
 | 29  | 🦫 beaver | 43.07 | ratot |
 | 30  | 🐧 penguin | 41.06 | nndiana |
 | 31  | 🦀 crab | 38.88 | d1ma1g* |
-| 32  | 🐡 blowfish | 35.69 | kaspu222 |
+| 32  | 🐡 blowfish | 35.81 (+0.12) | bluberry |
 | 33  | 🕷️ spider | 31.29 | huuuuuuuuuuuuuuuuuuuuuurz |
 | 34  | 🥒 cucumber | 31.24 | divra__ |
 | 35  | 🧽 sponge | 29.61 | datwguy |
@@ -49,7 +49,7 @@
 | 46  | 🪀 bobber | 14.82 | jemcs_ |
 | 47  | 🪵 log | 13.04 | bcarw |
 | 48  | 🧃 beveragebox | 12.83 | huuuuuuuuuuuuuuuuuuuuuurz |
-| 49  | 🕶️ darksunglasses | 12.77 (+0.21) | jr_mime |
+| 49  | 🕶️ darksunglasses | 12.77 | jr_mime |
 | 50  | 👒 womanshat | 11.98 | ttecnk |
 | 51  | 🐌 snail | 11.97 | sandwichsundays |
 | 52  | 🧸 teddybear | 11.91 | yaratecs2 |
@@ -70,11 +70,11 @@
 | 67  | 🐦‍⬛ blackbird | 3.30 | nndiana |
 | 68  | ☂️ umbrella | 2.96 | xanthic_swe |
 | 69  | 🌻 sunflower | 2.95 | ratot |
-| 70  | 🌹 rose | 2.88 | zwockel01 |
-| 71  | 🩴 thongsandal | 2.00 | crunch_sack |
-| 71  | 👢 boot | 2.00 | jr_mime |
-| 71  | 🧦 socks | 2.00 | manmanboy_ |
-| 71  | 🩰 balletshoes | 2.00 | tomsi1g |
+| 70 ⬆ | 🩴 thongsandal | 2.94 (+0.94) | bubinga |
+| 71 ⬇ | 🌹 rose | 2.88 | zwockel01 |
+| 72 ⬇ | 👢 boot | 2.00 | jr_mime |
+| 72 ⬇ | 🧦 socks | 2.00 | manmanboy_ |
+| 72 ⬇ | 🩰 balletshoes | 2.00 | tomsi1g |
 | 75  | 🌿 herb | 1.99 | angus_lpc |
 | 76  | 👟 athleticshoe | 1.98 | jj_ladic |
 | 76  | 🥪 sandwich | 1.98 | ovrht |
@@ -85,4 +85,4 @@
 | 82  | 🪶 feather | 0.98 | amu1g |
 | 83  | 🧣 scarf | 0.92 | blazeblitzzz |
 
-_Last updated at 2024-08-11 08:38:21 UTC_
+_Last updated at 2024-08-18 09:36:20 UTC_

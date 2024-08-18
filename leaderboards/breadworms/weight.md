@@ -29,21 +29,22 @@
 | 26  | yliathim* | 🐉 dragon | 266.12 |
 | 27  | trident1011 | 🦕 sauropod | 264.95 |
 | 28  | xth49* | 🦕 sauropod | 254.75 |
-| 29  | bussinongnocap | 🐢 turtle | 251.35 |
-| 30  | kadaris4h* | 🦕 sauropod | 251.33 |
-| 31  | kaasppeerr | 🦕 sauropod | 241.66 |
-| 32  | leanmeister | 🦕 sauropod | 236.75 |
-| 33  | doublehelicalstructure* | 🦕 sauropod | 235.33 |
-| 34  | julialuxel | 🐳 whale | 234.00 |
-| 35  | bapqo | 🐉 dragon | 233.48 |
-| 36  | supibot | 🦕 sauropod | 231.47 |
-| 37  | wispmode | 🐳 whale | 230.99 |
-| 38  | mochi_uygqzidbjizjkbehuiw | 🐳 whale | 222.73 |
-| 39  | fallen_angels_1995 | 🐳 whale | 219.76 |
-| 40  | lazzvli* | 🦈 shark | 215.97 |
-| 41  | realtechnine | 🦕 sauropod | 214.11 |
-| 42  | divra__ | 🐳 whale | 213.23 |
-| 43  | notparasfishalt* | 🐉 dragon | 207.18 |
-| 44  | veggesh | 🦈 shark | 206.22 |
+| 29 🆕 | osnyisdead | 🛢️ oildrum | 251.70 |
+| 30 ⬇ | bussinongnocap | 🐢 turtle | 251.35 |
+| 31 ⬇ | kadaris4h* | 🦕 sauropod | 251.33 |
+| 32 ⬇ | kaasppeerr | 🦕 sauropod | 241.66 |
+| 33 ⬇ | leanmeister | 🦕 sauropod | 236.75 |
+| 34 ⬇ | doublehelicalstructure* | 🦕 sauropod | 235.33 |
+| 35 ⬇ | julialuxel | 🐳 whale | 234.00 |
+| 36 ⬇ | bapqo | 🐉 dragon | 233.48 |
+| 37 ⬇ | supibot | 🦕 sauropod | 231.47 |
+| 38 ⬇ | wispmode | 🐳 whale | 230.99 |
+| 39 ⬇ | mochi_uygqzidbjizjkbehuiw | 🐳 whale | 222.73 |
+| 40 ⬇ | fallen_angels_1995 | 🐳 whale | 219.76 |
+| 41 ⬇ | lazzvli* | 🦈 shark | 215.97 |
+| 42 ⬇ | realtechnine | 🦕 sauropod | 214.11 |
+| 43 ⬇ | divra__ | 🐳 whale | 213.23 |
+| 44 ⬇ | notparasfishalt* | 🐉 dragon | 207.18 |
+| 45 ⬇ | veggesh | 🦈 shark | 206.22 |
 
-_Last updated at 2024-08-11 08:38:19 UTC_
+_Last updated at 2024-08-18 09:36:15 UTC_
