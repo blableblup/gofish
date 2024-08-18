@@ -1,41 +1,42 @@
 ### Biggest fish per type caught in omie's chat
 | Rank | Fish | Weight in lbs | Player |
 |------|--------|-----------|---------|
-| 1 🥇 🆕 | 🐉 dragon | 220.29 | aliveleader |
-| 2 🥈 🆕 | 🐳 whale | 187.22 | ritaaww |
-| 3 🥉 🆕 | 🐢 turtle | 181.31 | ritaaww |
-| 4 🆕 | 🦈 shark | 114.28 | ritaaww |
-| 5 🆕 | 🐋 whale2 | 113.87 | aliveleader |
-| 6 🆕 | 🐊 crocodile | 96.33 | ritaaww |
-| 7 🆕 | 🦕 sauropod | 92.42 | aliveleader |
-| 8 🆕 | 🐙 octopus | 65.50 | ritaaww |
-| 9 🆕 | 🐬 dolphin | 58.02 | ritaaww |
-| 10 🆕 | 🐟 fish | 54.27 | aliveleader |
-| 11 🆕 | 🐡 blowfish | 33.56 | ritaaww |
-| 12 🆕 | 🦀 crab | 32.75 | ritaaww |
-| 13 🆕 | 🦪 oyster | 31.15 | ritaaww |
-| 14 🆕 | 🦞 lobster | 28.99 | aliveleader |
-| 15 🆕 | 🥒 cucumber | 28.65 | aliveleader |
-| 16 🆕 | 🧽 sponge | 27.12 | aliveleader |
-| 17 🆕 | 🦐 shrimp | 21.55 | aliveleader |
-| 18 🆕 | 🪸 coral | 20.02 | sykelle |
-| 19 🆕 | 🦦 otter | 16.68 | ritaaww |
-| 20 🆕 | 🐠 tropicalfish | 16.22 | ritaaww |
-| 21 🆕 | 🕷️ spider | 10.29 | aliveleader |
-| 22 🆕 | 🕶️ darksunglasses | 9.92 | aliveleader |
-| 23 🆕 | 🐍 snake | 9.38 | ritaaww |
-| 24 🆕 | 🩲 briefs | 6.85 | ritaaww |
-| 25 🆕 | 🦑 squid | 6.02 | ritaaww |
-| 26 🆕 | 💀 skull | 5.43 | aliveleader |
-| 27 🆕 | 🪼 jellyfish | 4.40 | ritaaww |
-| 28 🆕 | 🪝 hook | 3.93 | sykelle |
-| 29 🆕 | 🎏 lure | 3.72 | aliveleader |
-| 30 🆕 | 🐸 frog | 3.64 | ritaaww |
-| 31 🆕 | 🪳 cockroach | 3.38 | aliveleader |
-| 32 🆕 | 🐚 shell | 3.05 | sussy_amonge |
-| 33 🆕 | 🩴 thongsandal | 1.44 | isabelyes |
-| 34 🆕 | 🪨 rock | 1.02 | sykelle |
-| 35 🆕 | 🧦 socks | 0.31 | ritaaww |
-| 36 🆕 | 🪀 bobber | 0.00 | ritaaww |
+| 1 🥇  | 🐉 dragon | 220.29 | aliveleader |
+| 2 🥈 ⬆ | 🦈 shark | 210.87 (+96.59) | sykelle |
+| 3 🥉 ⬇ | 🐳 whale | 187.22 | ritaaww |
+| 4 ⬇ | 🐢 turtle | 181.31 | ritaaww |
+| 5 ⬆ | 🦕 sauropod | 173.27 (+80.85) | aliveleader |
+| 6 ⬇ | 🐋 whale2 | 125.42 (+11.55) | ritaaww |
+| 7 ⬇ | 🐊 crocodile | 114.03 (+17.70) | ritaaww |
+| 8 ⬆ | 🐬 dolphin | 80.71 (+22.69) | ritaaww |
+| 9 ⬆ | 🦑 squid | 80.28 (+74.26) | ritaaww |
+| 10 ⬇ | 🐙 octopus | 65.50 | ritaaww |
+| 11 ⬇ | 🐟 fish | 54.27 | aliveleader |
+| 12 ⬆ | 🦞 lobster | 53.80 (+24.81) | aliveleader |
+| 13 ⬆ | 🪸 coral | 40.05 (+20.03) | aliveleader |
+| 14 ⬇ | 🐡 blowfish | 33.56 | ritaaww |
+| 15 ⬇ | 🦀 crab | 32.75 | ritaaww |
+| 16 ⬇ | 🦪 oyster | 31.15 | ritaaww |
+| 17 ⬇ | 🥒 cucumber | 29.34 (+0.69) | ritaaww |
+| 18 ⬇ | 🧽 sponge | 27.12 | aliveleader |
+| 19 ⬇ | 🦐 shrimp | 21.55 | aliveleader |
+| 20 ⬇ | 🦦 otter | 16.68 | ritaaww |
+| 21 ⬇ | 🐠 tropicalfish | 16.22 | ritaaww |
+| 22 ⬆ | 🪼 jellyfish | 11.59 (+7.19) | aliveleader |
+| 23 ⬆ | 🪳 cockroach | 10.57 (+7.19) | ritaaww |
+| 24 ⬇ | 🕷️ spider | 10.29 | aliveleader |
+| 25 ⬇ | 🕶️ darksunglasses | 9.92 | aliveleader |
+| 26 ⬇ | 🐍 snake | 9.38 | ritaaww |
+| 27 ⬇ | 💀 skull | 6.93 (+1.50) | ritaaww |
+| 28 ⬇ | 🩲 briefs | 6.85 | ritaaww |
+| 29 ⬇ | 🪝 hook | 3.93 | sykelle |
+| 30 ⬇ | 🎏 lure | 3.72 | aliveleader |
+| 31 ⬇ | 🐸 frog | 3.64 | ritaaww |
+| 32  | 🐚 shell | 3.56 (+0.51) | aliveleader |
+| 33  | 🩴 thongsandal | 1.63 (+0.19) | ritaaww |
+| 34  | 🪨 rock | 1.02 | sykelle |
+| 35  | 🧦 socks | 0.31 | ritaaww |
+| 36 🆕 | 🍬 candy | 0.00 | aliveleader |
+| 36  | 🪀 bobber | 0.00 | ritaaww |
 
-_Last updated at 2024-08-11 08:38:20 UTC_
+_Last updated at 2024-08-18 09:36:18 UTC_
