@@ -14,17 +14,17 @@
 | 11  | bussinongnocap  | 108 |
 | 12  | chubbyhamster__  | 102 |
 | 13  | dayzedinndaydreams  | 93 |
-| 14  | crazytown_bananapants  | 89 |
-| 15  | supibot  | 88 |
-| 16  | comiqq  | 84 |
-| 17  | miiiiisho  | 79 |
-| 18  | booty_bread  | 60 |
-| 19  | bk207*  | 53 |
-| 20  | hmsmob*  | 52 |
-| 20  | kaasppeerr  | 52 |
-| 22  | leanmeister  | 51 |
-| 23  | bapqo  | 49 |
-| 24  | osnyisdead  | 47 |
+| 14 ⬆ | osnyisdead  | 92 (+45) |
+| 15 ⬇ | crazytown_bananapants  | 89 |
+| 16 ⬇ | supibot  | 88 |
+| 17 ⬇ | comiqq  | 84 |
+| 18 ⬇ | miiiiisho  | 79 |
+| 19 ⬇ | booty_bread  | 60 |
+| 20 ⬇ | bk207*  | 53 |
+| 21 ⬇ | hmsmob*  | 52 |
+| 21 ⬇ | kaasppeerr  | 52 |
+| 23 ⬇ | leanmeister  | 51 |
+| 24 ⬇ | bapqo  | 49 |
 | 25  | paras220  | 46 |
 | 26  | ninjaross  | 44 |
 | 27  | ouacewi  | 43 |
@@ -42,4 +42,4 @@
 | 39  | veggesh  | 21 |
 | 40  | realtechnine  | 20 |
 
-_Last updated at 2024-08-14 09:24:55 UTC_
+_Last updated at 2024-08-19 09:38:19 UTC_
