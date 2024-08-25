@@ -8,10 +8,10 @@
 | 5  | 🐍 snake | 266.77 | pengeg |
 | 6  | 🐢 turtle | 254.30 | yopego |
 | 7  | 🦈 shark | 249.45 | divra__ |
-| 8  | 🐙 octopus | 191.79 | xkimi1337 |
-| 9  | 🐋 whale2 | 158.40 | sandwichsundays |
-| 10  | 🐊 crocodile | 149.60 | juwna |
-| 11  | 🛢️ oildrum | 144.03 | angus_lpc |
+| 8 ⬆ | 🛢️ oildrum | 248.25 (+104.22) | sandwichsundays |
+| 9 ⬇ | 🐙 octopus | 191.79 | xkimi1337 |
+| 10 ⬇ | 🐋 whale2 | 158.40 | sandwichsundays |
+| 11 ⬇ | 🐊 crocodile | 149.60 | juwna |
 | 12  | 🧞‍♂ malegenie | 141.02 | lobuhtomy |
 | 13  | 🧜‍♀️ mermaid | 139.02 | zwockel01 |
 | 14  | 🦭 seal | 133.15 | caprise627 |
@@ -32,7 +32,7 @@
 | 29  | 🦫 beaver | 43.07 | ratot |
 | 30  | 🐧 penguin | 41.06 | nndiana |
 | 31  | 🦀 crab | 38.88 | d1ma1g* |
-| 32  | 🐡 blowfish | 35.81 (+0.12) | bluberry |
+| 32  | 🐡 blowfish | 35.81 | bluberry |
 | 33  | 🕷️ spider | 31.29 | huuuuuuuuuuuuuuuuuuuuuurz |
 | 34  | 🥒 cucumber | 31.24 | divra__ |
 | 35  | 🧽 sponge | 29.61 | datwguy |
@@ -70,11 +70,11 @@
 | 67  | 🐦‍⬛ blackbird | 3.30 | nndiana |
 | 68  | ☂️ umbrella | 2.96 | xanthic_swe |
 | 69  | 🌻 sunflower | 2.95 | ratot |
-| 70 ⬆ | 🩴 thongsandal | 2.94 (+0.94) | bubinga |
-| 71 ⬇ | 🌹 rose | 2.88 | zwockel01 |
-| 72 ⬇ | 👢 boot | 2.00 | jr_mime |
-| 72 ⬇ | 🧦 socks | 2.00 | manmanboy_ |
-| 72 ⬇ | 🩰 balletshoes | 2.00 | tomsi1g |
+| 70  | 🩴 thongsandal | 2.94 | bubinga |
+| 71  | 🌹 rose | 2.88 | zwockel01 |
+| 72  | 👢 boot | 2.00 | jr_mime |
+| 72  | 🧦 socks | 2.00 | manmanboy_ |
+| 72  | 🩰 balletshoes | 2.00 | tomsi1g |
 | 75  | 🌿 herb | 1.99 | angus_lpc |
 | 76  | 👟 athleticshoe | 1.98 | jj_ladic |
 | 76  | 🥪 sandwich | 1.98 | ovrht |
@@ -85,4 +85,4 @@
 | 82  | 🪶 feather | 0.98 | amu1g |
 | 83  | 🧣 scarf | 0.92 | blazeblitzzz |
 
-_Last updated at 2024-08-18 09:36:20 UTC_
+_Last updated at 2024-08-25 08:41:43 UTC_
