@@ -7,8 +7,8 @@
 | 4  | 🦕 sauropod | 286.09 | sicklymaidrobot |
 | 5  | 🐉 dragon | 284.24 | puzzlow |
 | 6  | 🐍 snake | 271.95 | miiiiisho |
-| 7 ⬆ | 🛢️ oildrum | 251.70 (+32.74) | osnyisdead |
-| 8 ⬇ | 🐢 turtle | 251.35 | bussinongnocap |
+| 7  | 🛢️ oildrum | 251.70 | osnyisdead |
+| 8  | 🐢 turtle | 251.35 | bussinongnocap |
 | 9  | 🐻‍❄ polarbear | 205.85 | ninjaross* |
 | 10  | 🐙 octopus | 198.60 | derinturitierutz |
 | 11  | 🐋 whale2 | 159.84 | osnyatsky |
@@ -85,4 +85,4 @@
 | 80  | 🧤 gloves | 0.99 | sicklymaidrobot |
 | 83  | 🦢 swan | 0.17 | chubbyhamster__ |
 
-_Last updated at 2024-08-18 09:36:16 UTC_
+_Last updated at 2024-08-25 08:41:41 UTC_
