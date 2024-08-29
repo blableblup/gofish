@@ -42,6 +42,7 @@ func processWeight(params LeaderboardParams) {
 	oldRecordWeight, err := ReadWeightRankings(filePath, pool)
 	if err != nil {
 		logs.Logs().Error().Err(err).
+			Str("Chat", chatName).
 			Str("Path", filePath).
 			Str("Board", board).
 			Msg("Error reading old leaderboard")
@@ -94,6 +95,7 @@ func processWeight(params LeaderboardParams) {
 		if err != nil {
 			logs.Logs().Error().Err(err).
 				Str("Board", board).
+				Str("Chat", chatName).
 				Msg("Error querying database")
 			return
 		}
