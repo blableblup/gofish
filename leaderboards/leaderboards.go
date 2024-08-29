@@ -50,9 +50,6 @@ func Leaderboards(leaderboards string, chatNames string, date string, date2 stri
 		return
 	}
 
-	logs.Logs().Debug().Str("Date", date).Msg("The date for the data")
-	logs.Logs().Debug().Str("Date2", date2).Msg("The date2 for the data")
-
 	params := LeaderboardParams{
 		Pool:     pool,
 		Mode:     mode,
@@ -81,8 +78,6 @@ func Leaderboards(leaderboards string, chatNames string, date string, date2 stri
 			RunCountFishTypesGlobal(params)
 		case "stats":
 			RunChatStatsGlobal(params)
-		// case "countday":
-		// 	RunCountDay(params)
 
 		case "all":
 			params.LeaderboardType = "stats"
