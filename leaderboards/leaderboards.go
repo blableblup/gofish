@@ -129,6 +129,8 @@ func processLeaderboard(config utils.Config, params LeaderboardParams, processFu
 			}
 
 		case "global":
+			params.Chat = config.Chat["global"]
+			params.ChatName = "global"
 			processGlobalLeaderboard(params)
 		case "":
 			logs.Logs().Warn().Msg("Please specify chat names")
@@ -161,7 +163,7 @@ func processGlobalLeaderboard(params LeaderboardParams) {
 	switch params.LeaderboardType {
 	case "weight":
 		params.LeaderboardType += "global"
-		RunWeightGlobal(params)
+		processWeight(params)
 	case "count":
 		params.LeaderboardType += "global"
 		RunCountGlobal(params)

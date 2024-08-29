@@ -9,6 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 	"time"
+
+	"github.com/jackc/pgx/v4"
 )
 
 func processWeight(params LeaderboardParams) {
@@ -23,7 +25,16 @@ func processWeight(params LeaderboardParams) {
 	path := params.Path
 	mode := params.Mode
 
-	var filePath string
+	var filePath, titleweight string
+	var weightlimit float64
+	var rows pgx.Rows
+	var isGlobal bool
+
+	if chatName == "global" {
+		isGlobal = true
+	} else {
+		isGlobal = false
+	}
 
 	if path == "" {
 		filePath = filepath.Join("leaderboards", chatName, "weight.md")
@@ -36,20 +47,25 @@ func processWeight(params LeaderboardParams) {
 
 	oldRecordWeight, err := ReadWeightRankings(filePath, pool)
 	if err != nil {
-		logs.Logs().Error().Err(err).Str("Path", filePath).Str("Board", board).Msg("Error reading old leaderboard")
+		logs.Logs().Error().Err(err).
+			Str("Path", filePath).
+			Str("Board", board).
+			Msg("Error reading old leaderboard")
 		return
 	}
 
-	Weightlimit := chat.Weightlimit
-	if Weightlimit == 0 {
-		Weightlimit = config.Chat["default"].Weightlimit
+	weightlimit = chat.Weightlimit
+	if weightlimit == 0 {
+		weightlimit = config.Chat["default"].Weightlimit
 	}
 
 	recordWeight := make(map[string]data.FishInfo)
 
-	// Query the database to get the biggest fish per player for the specific chat
-	rows, err := pool.Query(context.Background(), `
-		SELECT f.playerid, f.weight, f.fishname, f.bot, f.chat AS chatname, f.date, f.catchtype, f.fishid, f.chatid
+	// Query the database to get the biggest fish per player for the specific chat or globally
+	if !isGlobal {
+		rows, err = pool.Query(context.Background(), `
+		SELECT f.playerid, f.weight, f.fishname, f.bot, f.chat AS chatname, f.date, f.catchtype, f.fishid, f.chatid,
+		RANK() OVER (ORDER BY f.weight DESC)
 		FROM fish f
 		JOIN (
 			SELECT playerid, MAX(weight) AS max_weight
@@ -59,41 +75,83 @@ func processWeight(params LeaderboardParams) {
 	  		AND date > $4
 			GROUP BY playerid
 		) max_fish ON f.playerid = max_fish.playerid AND f.weight = max_fish.max_weight
-		WHERE f.chat = $1 AND f.weight >= $2`, chatName, Weightlimit, date, date2)
-	if err != nil {
-		logs.Logs().Error().Str("Board", board).Str("Chat", chatName).Err(err).Msg("Error querying database")
-		return
+		WHERE f.chat = $1 AND f.weight >= $2`, chatName, weightlimit, date, date2)
+		if err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Board", board).
+				Str("Chat", chatName).
+				Msg("Error querying database")
+			return
+		}
+		defer rows.Close()
+	} else {
+		rows, err = pool.Query(context.Background(), `
+		SELECT f.playerid, f.weight, f.fishname, f.bot, f.chat AS chatname, f.date, f.catchtype, f.fishid, f.chatid,
+		RANK() OVER (ORDER BY f.weight DESC)
+		FROM fish f
+		JOIN (
+			SELECT playerid, MAX(weight) AS max_weight
+			FROM fish 
+			WHERE date < $1
+			AND date > $2
+			GROUP BY playerid
+		) max_fish ON f.playerid = max_fish.playerid AND f.weight = max_fish.max_weight
+		WHERE f.weight >= $3`, date, date2, weightlimit)
+		if err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Board", board).
+				Msg("Error querying database")
+			return
+		}
+		defer rows.Close()
 	}
-	defer rows.Close()
 
-	// Iterate through the query results
 	for rows.Next() {
 		var fishInfo data.FishInfo
 
 		if err := rows.Scan(&fishInfo.PlayerID, &fishInfo.Weight, &fishInfo.TypeName, &fishInfo.Bot,
-			&fishInfo.Chat, &fishInfo.Date, &fishInfo.CatchType, &fishInfo.FishId, &fishInfo.ChatId); err != nil {
-			logs.Logs().Error().Err(err).Str("Chat", chatName).Str("Board", board).Msg("Error scanning row for fish weight")
+			&fishInfo.Chat, &fishInfo.Date, &fishInfo.CatchType, &fishInfo.FishId, &fishInfo.ChatId, &fishInfo.Rank); err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Chat", chatName).
+				Str("Board", board).
+				Msg("Error scanning row for biggest fish")
 			return
 		}
 
 		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Player)
 		if err != nil {
-			logs.Logs().Error().Err(err).Int("PlayerID", fishInfo.PlayerID).Str("Board", board).Str("Chat", chatName).Msg("Error retrieving player name for id")
+			logs.Logs().Error().Err(err).
+				Int("PlayerID", fishInfo.PlayerID).
+				Str("Board", board).
+				Str("Chat", chatName).
+				Msg("Error retrieving player name for id")
 			return
 		}
 
 		if fishInfo.Bot == "supibot" {
 			err := pool.QueryRow(context.Background(), "SELECT verified FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Verified)
 			if err != nil {
-				logs.Logs().Error().Err(err).Int("PlayerID", fishInfo.PlayerID).Str("Board", board).Str("Chat", chatName).Msg("Error retrieving verified status for playerid")
+				logs.Logs().Error().Err(err).
+					Int("PlayerID", fishInfo.PlayerID).
+					Str("Board", board).
+					Str("Chat", chatName).
+					Msg("Error retrieving verified status for playerid")
 				return
 			}
 		}
 
 		err = pool.QueryRow(context.Background(), "SELECT fishtype FROM fishinfo WHERE fishname = $1", fishInfo.TypeName).Scan(&fishInfo.Type)
 		if err != nil {
-			logs.Logs().Error().Err(err).Str("FishName", fishInfo.TypeName).Str("Board", board).Str("Chat", chatName).Msg("Error retrieving fish type for fish name")
+			logs.Logs().Error().Err(err).
+				Str("FishName", fishInfo.TypeName).
+				Str("Board", board).
+				Str("Chat", chatName).
+				Msg("Error retrieving fish type for fish name")
 			return
+		}
+
+		if isGlobal {
+			fishInfo.ChatPfp = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", fishInfo.Chat, fishInfo.Chat)
 		}
 
 		recordWeight[fishInfo.Player] = fishInfo
@@ -101,7 +159,10 @@ func processWeight(params LeaderboardParams) {
 	}
 
 	if err := rows.Err(); err != nil {
-		logs.Logs().Error().Str("Board", board).Str("Chat", chatName).Err(err).Msg("Error iterating over query results")
+		logs.Logs().Error().Err(err).
+			Str("Board", board).
+			Str("Chat", chatName).
+			Msg("Error iterating over query results")
 		return
 	}
 
@@ -109,29 +170,43 @@ func processWeight(params LeaderboardParams) {
 
 	// Stops the program if it is in "just checking" mode
 	if mode == "check" {
-		logs.Logs().Info().Str("Chat", chatName).Str("Board", board).Msg("Finished checking for new records")
+		logs.Logs().Info().
+			Str("Chat", chatName).
+			Str("Board", board).
+			Msg("Finished checking for new records")
 		return
 	}
 
-	var titleweight string
 	if title == "" {
-		if strings.HasSuffix(chatName, "s") {
-			titleweight = fmt.Sprintf("### Biggest fish caught per player in %s' chat\n", chatName)
+		if !isGlobal {
+			if strings.HasSuffix(chatName, "s") {
+				titleweight = fmt.Sprintf("### Biggest fish caught per player in %s' chat\n", chatName)
+			} else {
+				titleweight = fmt.Sprintf("### Biggest fish caught per player in %s's chat\n", chatName)
+			}
 		} else {
-			titleweight = fmt.Sprintf("### Biggest fish caught per player in %s's chat\n", chatName)
+			titleweight = "### Biggest fish caught per player globally\n"
 		}
 	} else {
 		titleweight = fmt.Sprintf("%s\n", title)
 	}
 
-	isGlobal := false
+	logs.Logs().Info().
+		Str("Board", board).
+		Str("Chat", chatName).
+		Msg("Updating leaderboard")
 
-	logs.Logs().Info().Str("Board", board).Str("Chat", chatName).Msg("Updating leaderboard")
 	err = writeWeight(filePath, recordWeight, oldRecordWeight, titleweight, isGlobal)
 	if err != nil {
-		logs.Logs().Error().Err(err).Str("Board", board).Str("Chat", chatName).Msg("Error writing leaderboard")
+		logs.Logs().Error().Err(err).
+			Str("Board", board).
+			Str("Chat", chatName).
+			Msg("Error writing leaderboard")
 	} else {
-		logs.Logs().Info().Str("Board", board).Str("Chat", chatName).Msg("Leaderboard updated successfully")
+		logs.Logs().Info().
+			Str("Board", board).
+			Str("Chat", chatName).
+			Msg("Leaderboard updated successfully")
 	}
 }
 
@@ -171,24 +246,11 @@ func writeWeight(filePath string, recordWeight map[string]data.FishInfo, oldReco
 
 	sortedPlayers := SortMapByWeightDesc(recordWeight)
 
-	rank := 1
-	prevRank := 1
-	prevWeight := -1.0
-	occupiedRanks := make(map[int]int)
-
 	for _, player := range sortedPlayers {
 		weight := recordWeight[player].Weight
 		fishType := recordWeight[player].Type
 		fishName := recordWeight[player].TypeName
-
-		// Increment rank only if the count has changed
-		if weight != prevWeight {
-			rank += occupiedRanks[rank]
-			occupiedRanks[rank] = 1
-		} else {
-			rank = prevRank
-			occupiedRanks[rank]++
-		}
+		rank := recordWeight[player].Rank
 
 		var found bool
 
@@ -230,8 +292,6 @@ func writeWeight(filePath string, recordWeight map[string]data.FishInfo, oldReco
 			return err
 		}
 
-		prevWeight = weight
-		prevRank = rank
 	}
 
 	_, _ = fmt.Fprintf(file, "\n_Last updated at %s_", time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC"))

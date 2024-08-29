@@ -27,6 +27,7 @@ type FishInfo struct {
 	ChatCounts map[string]int
 	Verified   bool
 	Cheated    bool
+	Rank       int
 }
 
 var MouthPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), You caught a [✨🫧] (.*?) [✨🫧]! It weighs ([\d.]+) lbs. And!... (.*?)(?: \(([\d.]+) lbs\) was in its mouth)?!`)
