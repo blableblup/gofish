@@ -66,6 +66,9 @@ func Leaderboards(leaderboards string, chatNames string, date string, date2 stri
 		Title:    title,
 	}
 
+	// Rare and stats are the only boards which are "global only"
+	// They do not go to processLeaderboard, instead they directly go to their function
+	// And they do not need a chat specified. Could change it so that chat needs to be global ?
 	for _, leaderboard := range leaderboardList {
 		params.LeaderboardType = leaderboard
 		switch leaderboard {
