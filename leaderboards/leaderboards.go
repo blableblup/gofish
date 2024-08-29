@@ -200,7 +200,7 @@ func processGlobalLeaderboard(params LeaderboardParams) {
 		RunCountGlobal(params)
 	case "type":
 		params.LeaderboardType += "global"
-		RunTypeGlobal(params)
+		processType(params)
 	default:
 		logs.Logs().Warn().
 			Str("Board", params.LeaderboardType).
