@@ -19,7 +19,8 @@ func Leaderboards(leaderboards string, chatNames string, date string, date2 stri
 
 	pool, err := data.Connect()
 	if err != nil {
-		logs.Logs().Error().Err(err).Msg("Error connecting to the database")
+		logs.Logs().Error().Err(err).
+			Msg("Error connecting to the database")
 		return
 	}
 	defer pool.Close()
@@ -41,12 +42,16 @@ func Leaderboards(leaderboards string, chatNames string, date string, date2 stri
 	}
 
 	if !isValidDate(date) {
-		logs.Logs().Error().Str("Date", date).Msg("Date is in the wrong format")
+		logs.Logs().Error().
+			Str("Date", date).
+			Msg("Date is in the wrong format")
 		return
 	}
 
 	if !isValidDate(date2) {
-		logs.Logs().Error().Str("Date2", date2).Msg("Date2 is in the wrong format")
+		logs.Logs().Error().
+			Str("Date2", date2).
+			Msg("Date2 is in the wrong format")
 		return
 	}
 
@@ -95,7 +100,9 @@ func Leaderboards(leaderboards string, chatNames string, date string, date2 stri
 			params.LeaderboardType = "fishweek"
 			processLeaderboard(config, params, processFishweek)
 		default:
-			logs.Logs().Info().Str("Leaderboard", leaderboard).Msg("＞︿＜ Invalid leaderboard specified")
+			logs.Logs().Info().
+				Str("Leaderboard", leaderboard).
+				Msg("＞︿＜ Invalid leaderboard specified")
 		}
 	}
 }
@@ -111,44 +118,70 @@ func processLeaderboard(config utils.Config, params LeaderboardParams, processFu
 			// Process all chats
 			for chatName, chat := range config.Chat {
 				if !chat.BoardsEnabled {
-					if chatName != "global" && chatName != "default" {
-						logs.Logs().Warn().Str("Chat", chatName).Msg("Skipping chat because board_enabled is false")
+					if chatName != "default" {
+						logs.Logs().Warn().
+							Str("Chat", chatName).
+							Msg("Skipping chat because board_enabled is false")
 					}
 					continue
 				}
 
-				logs.Logs().Info().Str("Chat", chatName).Str("Board", params.LeaderboardType).Msg("Checking leaderboard for chat")
+				logs.Logs().Info().
+					Str("Chat", chatName).
+					Str("Board", params.LeaderboardType).
+					Msg("Checking leaderboard for chat")
+
 				params.ChatName = chatName
 				params.Chat = chat
-				processFunc(params)
+
+				if chatName != "global" {
+					params.Global = false
+					processFunc(params)
+				} else {
+					params.Global = true
+					processGlobalLeaderboard(params)
+				}
 			}
 
-		case "global":
-			params.Chat = config.Chat["global"]
-			params.ChatName = "global"
-			processGlobalLeaderboard(params)
 		case "":
-			logs.Logs().Warn().Msg("Please specify chat names")
+
+			logs.Logs().Warn().
+				Msg("Please specify chat names")
+
 		default:
 
 			// Process the specified chat
 			chat, ok := config.Chat[chatName]
 			if !ok {
-				logs.Logs().Warn().Str("Chat", chatName).Msg("Chat not found in config")
+				logs.Logs().Warn().
+					Str("Chat", chatName).
+					Msg("Chat not found in config")
 				continue
 			}
 			if !chat.BoardsEnabled {
-				if chatName != "global" && chatName != "default" {
-					logs.Logs().Warn().Str("Chat", chatName).Msg("Skipping chat because board_enabled is false")
+				if chatName != "default" {
+					logs.Logs().Warn().
+						Str("Chat", chatName).
+						Msg("Skipping chat because board_enabled is false")
 				}
 				continue
 			}
 
-			logs.Logs().Info().Str("Chat", chatName).Str("Board", params.LeaderboardType).Msg("Checking leaderboard for chat")
+			logs.Logs().Info().
+				Str("Chat", chatName).
+				Str("Board", params.LeaderboardType).
+				Msg("Checking leaderboard for chat")
+
 			params.ChatName = chatName
 			params.Chat = chat
-			processFunc(params)
 
+			if chatName != "global" {
+				params.Global = false
+				processFunc(params)
+			} else {
+				params.Global = true
+				processGlobalLeaderboard(params)
+			}
 		}
 	}
 }
@@ -166,7 +199,9 @@ func processGlobalLeaderboard(params LeaderboardParams) {
 		params.LeaderboardType += "global"
 		RunTypeGlobal(params)
 	default:
-		logs.Logs().Warn().Str("Board", params.LeaderboardType).Msg("（︶^︶） There is no global leaderboard for that board")
+		logs.Logs().Warn().
+			Str("Board", params.LeaderboardType).
+			Msg("（︶^︶） There is no global leaderboard for that board")
 	}
 }
 
@@ -181,6 +216,7 @@ type LeaderboardParams struct {
 	ChatName        string
 	Mode            string
 	LeaderboardType string
+	Global          bool
 }
 
 func isValidDate(date string) bool {

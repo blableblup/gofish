@@ -84,7 +84,7 @@
         "totalcount_limit": 300,
         "checkfdata": false,
         "checktdata": false,
-        "board_enabled": false
+        "board_enabled": true
       },
       "default": {
         "weight_limit": 200,
