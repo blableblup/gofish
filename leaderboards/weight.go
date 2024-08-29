@@ -17,6 +17,7 @@ func processWeight(params LeaderboardParams) {
 	board := params.LeaderboardType
 	chatName := params.ChatName
 	config := params.Config
+	global := params.Global
 	date2 := params.Date2
 	title := params.Title
 	chat := params.Chat
@@ -28,13 +29,6 @@ func processWeight(params LeaderboardParams) {
 	var filePath, titleweight string
 	var weightlimit float64
 	var rows pgx.Rows
-	var isGlobal bool
-
-	if chatName == "global" {
-		isGlobal = true
-	} else {
-		isGlobal = false
-	}
 
 	if path == "" {
 		filePath = filepath.Join("leaderboards", chatName, "weight.md")
@@ -62,7 +56,7 @@ func processWeight(params LeaderboardParams) {
 	recordWeight := make(map[string]data.FishInfo)
 
 	// Query the database to get the biggest fish per player for the specific chat or globally
-	if !isGlobal {
+	if !global {
 		rows, err = pool.Query(context.Background(), `
 		SELECT f.playerid, f.weight, f.fishname, f.bot, f.chat AS chatname, f.date, f.catchtype, f.fishid, f.chatid,
 		RANK() OVER (ORDER BY f.weight DESC)
@@ -150,7 +144,7 @@ func processWeight(params LeaderboardParams) {
 			return
 		}
 
-		if isGlobal {
+		if global {
 			fishInfo.ChatPfp = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", fishInfo.Chat, fishInfo.Chat)
 		}
 
@@ -178,7 +172,7 @@ func processWeight(params LeaderboardParams) {
 	}
 
 	if title == "" {
-		if !isGlobal {
+		if !global {
 			if strings.HasSuffix(chatName, "s") {
 				titleweight = fmt.Sprintf("### Biggest fish caught per player in %s' chat\n", chatName)
 			} else {
@@ -196,7 +190,7 @@ func processWeight(params LeaderboardParams) {
 		Str("Chat", chatName).
 		Msg("Updating leaderboard")
 
-	err = writeWeight(filePath, recordWeight, oldRecordWeight, titleweight, isGlobal)
+	err = writeWeight(filePath, recordWeight, oldRecordWeight, titleweight, global)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Board", board).
@@ -210,7 +204,7 @@ func processWeight(params LeaderboardParams) {
 	}
 }
 
-func writeWeight(filePath string, recordWeight map[string]data.FishInfo, oldRecordWeight map[string]LeaderboardInfo, title string, isGlobal bool) error {
+func writeWeight(filePath string, recordWeight map[string]data.FishInfo, oldRecordWeight map[string]LeaderboardInfo, title string, global bool) error {
 
 	// Ensure that the directory exists before attempting to create the file
 	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
@@ -229,13 +223,13 @@ func writeWeight(filePath string, recordWeight map[string]data.FishInfo, oldReco
 	}
 
 	_, _ = fmt.Fprintln(file, "| Rank | Player | Fish | Weight in lbs ⚖️ |"+func() string {
-		if isGlobal {
+		if global {
 			return " Chat |"
 		}
 		return ""
 	}())
 	_, err = fmt.Fprintln(file, "|------|--------|-----------|---------|"+func() string {
-		if isGlobal {
+		if global {
 			return "-------|"
 		}
 		return ""
@@ -284,7 +278,7 @@ func writeWeight(filePath string, recordWeight map[string]data.FishInfo, oldReco
 
 		// Write the leaderboard row
 		_, _ = fmt.Fprintf(file, "| %s %s | %s%s | %s %s | %s |", ranks, changeEmoji, player, botIndicator, fishType, fishName, fishweight)
-		if isGlobal {
+		if global {
 			_, _ = fmt.Fprintf(file, " %s |", recordWeight[player].ChatPfp)
 		}
 		_, err = fmt.Fprintln(file)
