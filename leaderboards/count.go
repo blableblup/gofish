@@ -101,7 +101,7 @@ func processCount(params LeaderboardParams) {
 	isGlobal, isType := false, false
 
 	logs.Logs().Info().Str("Board", board).Str("Chat", chatName).Msg("Updating leaderboard")
-	err = writeCount(filePath, fishCaught, oldCountRecord, titletotalcount, isGlobal, isType)
+	err = writeCount(filePath, fishCaught, oldCountRecord, titletotalcount, isGlobal, isType, Totalcountlimit)
 	if err != nil {
 		logs.Logs().Error().Err(err).Str("Board", board).Str("Chat", chatName).Msg("Error writing leaderboard")
 	} else {
@@ -233,6 +233,9 @@ func writeCount(filePath string, fishCaught map[string]data.FishInfo, oldCountRe
 		prevRank = rank
 	}
 
+	if !isType {
+		_, _ = fmt.Fprintf(file, "\n_Only showing fishers who caught >= %d fish_\n", countlimit)
+	}
 	_, _ = fmt.Fprintf(file, "\n_Last updated at %s_", time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC"))
 
 	return nil
