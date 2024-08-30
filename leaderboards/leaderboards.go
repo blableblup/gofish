@@ -37,7 +37,8 @@ func Leaderboards(leaderboards string, chatNames string, date string, date2 stri
 	}
 
 	if date2 == "" {
-		oldDate := time.Date(2004, 3, 2, 0, 0, 0, 0, time.UTC)
+		// This is one day before the first ever fish was caught (on justlog)
+		oldDate := time.Date(2022, 12, 3, 0, 0, 0, 0, time.UTC)
 		date2 = oldDate.Format("2006-01-02")
 	}
 
