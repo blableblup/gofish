@@ -115,7 +115,9 @@ func updateFishTypesLeaderboard(globalFishTypesCount map[string]data.FishInfo, o
 		titlerare = fmt.Sprintf("%s\n", title)
 	}
 	isGlobal, isType := true, true
-	err := writeCount(filePath, globalFishTypesCount, oldCount, titlerare, isGlobal, isType)
+	// Rarest fish leaderboard doesnt have a countlimit
+	countlimit := 0
+	err := writeCount(filePath, globalFishTypesCount, oldCount, titlerare, isGlobal, isType, countlimit)
 	if err != nil {
 		logs.Logs().Error().Err(err).Str("Path", filePath).Str("Board", board).Msg("Error writing leaderboard")
 	} else {

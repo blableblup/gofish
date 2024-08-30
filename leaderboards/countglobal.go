@@ -122,10 +122,10 @@ func RunCountGlobal(params LeaderboardParams) {
 		}
 	}
 
-	updateCountLeaderboard(globalCount, oldCount, filePath, board, title)
+	updateCountLeaderboard(globalCount, oldCount, filePath, board, title, totalcountLimit)
 }
 
-func updateCountLeaderboard(globalCount map[string]data.FishInfo, oldCount map[string]LeaderboardInfo, filePath string, board string, title string) {
+func updateCountLeaderboard(globalCount map[string]data.FishInfo, oldCount map[string]LeaderboardInfo, filePath string, board string, title string, countlimit int) {
 	logs.Logs().Info().Str("Board", board).Msg("Updating leaderboard")
 	var titlecount string
 	if title == "" {
@@ -135,7 +135,7 @@ func updateCountLeaderboard(globalCount map[string]data.FishInfo, oldCount map[s
 	}
 	isType := false
 	isGlobal := true
-	err := writeCount(filePath, globalCount, oldCount, titlecount, isGlobal, isType)
+	err := writeCount(filePath, globalCount, oldCount, titlecount, isGlobal, isType, countlimit)
 	if err != nil {
 		logs.Logs().Error().Err(err).Str("Board", board).Msg("Error writing leaderboard")
 	} else {

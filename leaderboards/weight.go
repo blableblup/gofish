@@ -192,7 +192,7 @@ func processWeight(params LeaderboardParams) {
 		Str("Chat", chatName).
 		Msg("Updating leaderboard")
 
-	err = writeWeight(filePath, recordWeight, oldRecordWeight, titleweight, global)
+	err = writeWeight(filePath, recordWeight, oldRecordWeight, titleweight, global, weightlimit)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Board", board).
@@ -206,7 +206,7 @@ func processWeight(params LeaderboardParams) {
 	}
 }
 
-func writeWeight(filePath string, recordWeight map[string]data.FishInfo, oldRecordWeight map[string]LeaderboardInfo, title string, global bool) error {
+func writeWeight(filePath string, recordWeight map[string]data.FishInfo, oldRecordWeight map[string]LeaderboardInfo, title string, global bool, weightlimit float64) error {
 
 	// Ensure that the directory exists before attempting to create the file
 	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
@@ -290,6 +290,7 @@ func writeWeight(filePath string, recordWeight map[string]data.FishInfo, oldReco
 
 	}
 
+	_, _ = fmt.Fprintf(file, "\n_Only showing fish weighing >= %v lbs_\n", weightlimit)
 	_, _ = fmt.Fprintf(file, "\n_Last updated at %s_", time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC"))
 
 	return nil
