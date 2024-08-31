@@ -109,7 +109,7 @@ func processCount(params LeaderboardParams) {
 	}
 }
 
-func writeCount(filePath string, fishCaught map[string]data.FishInfo, oldCountRecord map[string]LeaderboardInfo, title string, isGlobal bool, isType bool) error {
+func writeCount(filePath string, fishCaught map[string]data.FishInfo, oldCountRecord map[string]LeaderboardInfo, title string, isGlobal bool, isType bool, countlimit int) error {
 
 	// Ensure that the directory exists before attempting to create the file
 	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
