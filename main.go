@@ -11,25 +11,37 @@ import (
 )
 
 func main() {
-	numMonths := flag.Int("m", 1, "Number of past months")
 	debug := flag.Bool("debug", false, "Debug some stuff")
+	program := flag.String("p", "", "Program name: boards, data, renamed, verified, pattern")
+
+	// For both boards and data
 	mode := flag.String("mm", "", "Modes are different for each program")
-	title := flag.String("title", "", "Pass a custom title to the board.")
 	chatNames := flag.String("s", "", "Comma-separated list of chat names")
-	leaderboard := flag.String("l", "", "Comma-separated list of leaderboards")
-	program := flag.String("p", "", "Program name: boards, data, trnm, logs, pattern")
-	db := flag.String("db", "", "Database to update, fish (f) and tournament results (t)")
-	renamePairs := flag.String("rename", "", "Comma-separated list of oldName:newName pairs")
-	date2 := flag.String("dt2", "", "Second date for the leaderboards. If you want to get boards for a time period")
+
+	// Flags for data program
+	numMonths := flag.Int("m", 1, "Number of past months for url")
+	db := flag.String("db", "", "Database to update: fish (f) and tournament results (t)")
+	// This flag is also used for the boards as "date"
 	monthYear := flag.String("dt", "", "Specific month and year for data (yyyy/mm). For the boards, this needs to be yyyy-mm-dd")
+
+	// Flags for boards program
+	title := flag.String("title", "", "Pass a custom title to the board.")
+	leaderboard := flag.String("l", "", "Comma-separated list of leaderboards")
+	date2 := flag.String("dt2", "", "Second date for the leaderboards. If you want to get boards for a time period")
 	path := flag.String("path", "", "Give the board a custom name. But you should only do one board at a time with this. Else it will get overwritten.")
+
+	// For the rename player script
+	renamePairs := flag.String("rename", "", "Comma-separated list of oldName:newName pairs")
 
 	flag.Parse()
 
 	logs.InitializeLogger(*debug)
 
 	if *mode != "" && !isValidModeForProgram(*program, *mode) {
-		logs.Logs().Warn().Str("Program", *program).Str("Mode", *mode).Msg("Invalid mode specified")
+		logs.Logs().Warn().
+			Str("Mode", *mode).
+			Str("Program", *program).
+			Msg("Invalid mode specified")
 		return
 	}
 
@@ -50,21 +62,42 @@ func main() {
 		return
 
 	case "boards":
-		logs.Logs().Info().Str("Program", *program).Str("Mode", *mode).Str("Boards", *leaderboard).Str("Chats", *chatNames).Str("Path", *path).Str("Date", *monthYear).Str("Date2", *date2).Str("Title", *title).Msg("Start")
+		logs.Logs().Info().
+			Str("Boards", *leaderboard).
+			Str("Chats", *chatNames).
+			Str("Program", *program).
+			Str("Date", *monthYear).
+			Str("Date2", *date2).
+			Str("Title", *title).
+			Str("Mode", *mode).
+			Str("Path", *path).
+			Msg("Start")
 
 		leaderboards.Leaderboards(*leaderboard, *chatNames, *monthYear, *date2, *path, *title, *mode)
 
 	case "data":
-		logs.Logs().Info().Str("Program", *program).Str("Mode", *mode).Str("Chats", *chatNames).Str("DB", *db).Int("Months", *numMonths).Str("Date", *monthYear).Msg("Start")
+		logs.Logs().Info().
+			Int("Months", *numMonths).
+			Str("Program", *program).
+			Str("Chats", *chatNames).
+			Str("Date", *monthYear).
+			Str("Mode", *mode).
+			Str("DB", *db).
+			Msg("Start")
 
 		data.GetData(*chatNames, *db, *numMonths, *monthYear, *mode)
 
 	case "pattern":
-		logs.Logs().Info().Str("Program", *program).Msg("Start")
+		logs.Logs().Info().
+			Str("Program", *program).
+			Msg("Start")
 		scripts.RunPattern()
 
 	case "renamed":
-		logs.Logs().Info().Str("Rename pairs", *renamePairs).Str("Program", *program).Msg("Start")
+		logs.Logs().Info().
+			Str("Rename pairs", *renamePairs).
+			Str("Program", *program).
+			Msg("Start")
 		namePairs, err := scripts.ProcessRenamePairs(*renamePairs)
 		if err != nil {
 			logs.Logs().Error().Err(err).Msg("Error processing rename pairs")
@@ -77,11 +110,15 @@ func main() {
 		}
 
 	case "verified":
-		logs.Logs().Info().Str("Program", *program).Msg("Start")
+		logs.Logs().Info().
+			Str("Program", *program).
+			Msg("Start")
 		scripts.VerifiedPlayers()
 
 	default:
-		logs.Logs().Warn().Str("Program", *program).Msg("Invalid program specified")
+		logs.Logs().Warn().
+			Str("Program", *program).
+			Msg("Invalid program specified")
 		return
 	}
 }
