@@ -35,15 +35,15 @@
 | 32  | 🦆 duck | 10.58 | ovrht |
 | 33  | 🧃 beveragebox | 10.21 | virxverok |
 | 34  | 💀 skull | 9.59 | sgvabl |
-| 35 ⬆ | 🩲 briefs | 8.83 (+0.08) | sgvabl |
-| 36 ⬇ | 👒 womanshat | 8.81 | ovrht |
+| 35  | 🩲 briefs | 8.83 | sgvabl |
+| 36  | 👒 womanshat | 8.81 | ovrht |
 | 37  | 🕶️ darksunglasses | 7.24 | wizzyy6 |
 | 38  | 🐸 frog | 6.72 | sestrichklnn |
 | 39  | 🧊 icecube | 6.55 | dan1lew |
 | 40  | 🐧 penguin | 5.14 | sestrichklnn |
 | 41  | 🪝 hook | 4.50 | nightbot |
 | 42  | 🎏 lure | 4.34 | alenakuz03 |
-| 43  | 🐚 shell | 3.63 | fofee_n |
+| 43  | 🐚 shell | 3.89 (+0.26) | pelmee44ka |
 | 44  | 🦎 lizard | 3.36 | nightbot |
 | 45  | 🪱 worm | 2.86 | nightbot |
 | 46  | 🍄 mushroom | 2.61 | wizzyy6 |
@@ -61,4 +61,4 @@
 | 58  | 👟 athleticshoe | 0.22 | ovrht |
 | 59  | 🎰 slotmachine | 0.00 | ovrht |
 
-_Last updated at 2024-08-25 08:41:38 UTC_
+_Last updated at 2024-09-01 09:14:26 UTC_
