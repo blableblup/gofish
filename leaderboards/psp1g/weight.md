@@ -35,53 +35,55 @@
 | 32  | wasdecxyq | 🐳 whale | 249.91 |
 | 33  | jr_mime | 🐢 turtle | 247.61 |
 | 34  | cappo7117 | 🐉 dragon | 247.50 |
-| 35 🆕 | mazzo_tv | 🦕 sauropod | 247.16 |
-| 36 ⬇ | bluberry | 🦕 sauropod | 240.13 |
-| 37 ⬇ | veny1g | 🐢 turtle | 239.60 |
-| 38 ⬇ | markenzy01 | 🦕 sauropod | 238.16 |
-| 39 ⬇ | benciee | 🐉 dragon | 237.06 |
-| 40 ⬇ | seryxx | 🐳 whale | 236.49 |
-| 41 ⬇ | quton | 🐳 whale | 234.94 |
-| 42 ⬇ | escapealtdelete | 🐉 dragon | 234.19 |
-| 43 ⬇ | em1ze | 🦕 sauropod | 231.82 |
-| 44 ⬇ | maksmusz | 🦕 sauropod | 231.69 |
-| 45 ⬇ | xkimi1337 | 🦕 sauropod | 230.91 |
-| 46 ⬇ | teskotienpl | 🐳 whale | 228.46 |
-| 47 ⬇ | acidfd174 | 🐍 snake | 227.90 |
-| 48 ⬇ | brachiocs | 🐉 dragon | 226.11 |
-| 49 ⬇ | gorillapark | 🦕 sauropod | 224.26 |
-| 50 ⬇ | jj_ladic | 🐳 whale | 222.91 |
-| 51 ⬇ | asthmaa | 🐉 dragon | 220.96 |
-| 52 ⬇ | ratot | 🦕 sauropod | 217.98 |
-| 53 ⬇ | rc_xz | 🐳 whale | 216.62 |
-| 54 ⬇ | duckfackkk | 🐳 whale | 215.83 |
-| 55 ⬇ | iflya320 | 🐳 whale | 214.34 |
-| 56 ⬇ | qxxick_ | 🐉 dragon | 214.08 |
-| 57 ⬇ | obscurecharmling | 🦈 shark | 212.97 |
-| 58 ⬇ | rttvname | 🐳 whale | 212.06 |
-| 59 ⬇ | eebbbee | 🦕 sauropod | 211.29 |
-| 60 ⬇ | ottexdd | 🐉 dragon | 210.83 |
-| 61 ⬇ | noconcept_ | 🐉 dragon | 210.03 |
-| 62 ⬇ | mikel1g | 🐳 whale | 209.45 |
-| 63 ⬇ | sameone | 🐳 whale | 208.78 |
-| 64 ⬇ | jami1g | 🦈 shark | 208.55 |
-| 65 ⬇ | dx9er | 🐉 dragon | 208.18 |
-| 66 ⬇ | pspisafemboy | 🐳 whale | 207.80 |
-| 67 ⬇ | theevirus | 🦕 sauropod | 207.64 |
-| 68 ⬇ | eskibroyo | 🐉 dragon | 207.00 |
-| 69 ⬇ | sl3id3r | 🐳 whale | 206.99 |
-| 70 ⬇ | moneyhoarder | 🦈 shark | 206.89 |
-| 71 ⬇ | cubedude20 | 🐉 dragon | 206.77 |
-| 72 ⬇ | tien_ | 🐳 whale | 205.87 |
-| 73 ⬇ | pookiesnowman | 🐳 whale | 205.15 |
-| 74 ⬇ | norque69 | 🦈 shark | 204.31 |
-| 75 ⬇ | micropotato69 | 🦈 shark | 203.75 |
-| 76 ⬇ | scaryo_o | 🦕 sauropod | 203.52 |
-| 77 ⬇ | red_blade9 | 🦈 shark | 203.47 |
-| 78 ⬇ | psp1g | 🦈 shark | 202.59 |
-| 79 ⬇ | theng | 🦈 shark | 202.21 |
-| 80 ⬇ | ttecnk | 🐉 dragon | 202.20 |
-| 81 ⬇ | juwna | 🐳 whale | 201.19 |
-| 82 ⬇ | finalmorningstar | 🐳 whale | 200.01 |
+| 35  | mazzo_tv | 🦕 sauropod | 247.16 |
+| 36  | bluberry | 🦕 sauropod | 240.13 |
+| 37  | veny1g | 🐢 turtle | 239.60 |
+| 38  | markenzy01 | 🦕 sauropod | 238.16 |
+| 39  | benciee | 🐉 dragon | 237.06 |
+| 40  | seryxx | 🐳 whale | 236.49 |
+| 41  | quton | 🐳 whale | 234.94 |
+| 42  | escapealtdelete | 🐉 dragon | 234.19 |
+| 43  | em1ze | 🦕 sauropod | 231.82 |
+| 44  | maksmusz | 🦕 sauropod | 231.69 |
+| 45  | xkimi1337 | 🦕 sauropod | 230.91 |
+| 46  | teskotienpl | 🐳 whale | 228.46 |
+| 47  | acidfd174 | 🐍 snake | 227.90 |
+| 48  | brachiocs | 🐉 dragon | 226.11 |
+| 49  | gorillapark | 🦕 sauropod | 224.26 |
+| 50  | jj_ladic | 🐳 whale | 222.91 |
+| 51  | asthmaa | 🐉 dragon | 220.96 |
+| 52  | ratot | 🦕 sauropod | 217.98 |
+| 53  | rc_xz | 🐳 whale | 216.62 |
+| 54  | duckfackkk | 🐳 whale | 215.83 |
+| 55  | iflya320 | 🐳 whale | 214.34 |
+| 56  | qxxick_ | 🐉 dragon | 214.08 |
+| 57  | obscurecharmling | 🦈 shark | 212.97 |
+| 58  | rttvname | 🐳 whale | 212.06 |
+| 59  | eebbbee | 🦕 sauropod | 211.29 |
+| 60  | ottexdd | 🐉 dragon | 210.83 |
+| 61  | noconcept_ | 🐉 dragon | 210.03 |
+| 62  | mikel1g | 🐳 whale | 209.45 |
+| 63  | sameone | 🐳 whale | 208.78 |
+| 64  | jami1g | 🦈 shark | 208.55 |
+| 65  | dx9er | 🐉 dragon | 208.18 |
+| 66  | pspisafemboy | 🐳 whale | 207.80 |
+| 67  | theevirus | 🦕 sauropod | 207.64 |
+| 68  | eskibroyo | 🐉 dragon | 207.00 |
+| 69  | sl3id3r | 🐳 whale | 206.99 |
+| 70  | moneyhoarder | 🦈 shark | 206.89 |
+| 71  | cubedude20 | 🐉 dragon | 206.77 |
+| 72  | tien_ | 🐳 whale | 205.87 |
+| 73  | pookiesnowman | 🐳 whale | 205.15 |
+| 74  | norque69 | 🦈 shark | 204.31 |
+| 75  | micropotato69 | 🦈 shark | 203.75 |
+| 76  | scaryo_o | 🦕 sauropod | 203.52 |
+| 77  | red_blade9 | 🦈 shark | 203.47 |
+| 78  | psp1g | 🦈 shark | 202.59 |
+| 79  | theng | 🦈 shark | 202.21 |
+| 80  | ttecnk | 🐉 dragon | 202.20 |
+| 81  | juwna | 🐳 whale | 201.19 |
+| 82  | finalmorningstar | 🐳 whale | 200.01 |
 
-_Last updated at 2024-08-25 08:41:37 UTC_
+_Only showing fish weighing >= 200 lbs_
+
+_Last updated at 2024-09-01 09:14:20 UTC_

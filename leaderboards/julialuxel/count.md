@@ -7,4 +7,6 @@
 | 4  | chubbyhamster__  | 29 |
 | 5  | ryebreadward  | 14 |
 
-_Last updated at 2024-08-25 08:41:45 UTC_
+_Only showing fishers who caught >= 10 fish_
+
+_Last updated at 2024-09-01 09:14:29 UTC_

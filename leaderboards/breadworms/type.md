@@ -12,7 +12,7 @@
 | 9  | 🐻‍❄ polarbear | 205.85 | ninjaross* |
 | 10  | 🐙 octopus | 198.60 | derinturitierutz |
 | 11  | 🐋 whale2 | 159.84 | osnyatsky |
-| 12  | 🐊 crocodile | 149.89 | vaiastol |
+| 12  | 🐊 crocodile | 149.98 (+0.09) | kishma9 |
 | 13  | 🧜‍♀️ mermaid | 136.90 | dayzedinndaydreams |
 | 14  | 🦭 seal | 133.31 | ryebreadward |
 | 15  | 🧞‍♂ malegenie | 131.64 | kishma9 |
@@ -80,9 +80,9 @@
 | 77  | 👢 boot | 1.98 | derinturitierutz |
 | 78  | 🌿 herb | 1.96 | dayzedinndaydreams |
 | 79  | ⛸️ iceskate | 1.94 | ryebreadward |
-| 80  | 🪶 feather | 0.99 | osnyatsky* |
 | 80  | 🧣 scarf | 0.99 | osnyatsky* |
+| 80  | 🪶 feather | 0.99 | osnyatsky* |
 | 80  | 🧤 gloves | 0.99 | sicklymaidrobot |
 | 83  | 🦢 swan | 0.17 | chubbyhamster__ |
 
-_Last updated at 2024-08-25 08:41:41 UTC_
+_Last updated at 2024-09-01 09:14:23 UTC_

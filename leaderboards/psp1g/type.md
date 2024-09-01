@@ -8,10 +8,10 @@
 | 5  | 🐍 snake | 266.77 | pengeg |
 | 6  | 🐢 turtle | 254.30 | yopego |
 | 7  | 🦈 shark | 249.45 | divra__ |
-| 8 ⬆ | 🛢️ oildrum | 248.25 (+104.22) | sandwichsundays |
-| 9 ⬇ | 🐙 octopus | 191.79 | xkimi1337 |
-| 10 ⬇ | 🐋 whale2 | 158.40 | sandwichsundays |
-| 11 ⬇ | 🐊 crocodile | 149.60 | juwna |
+| 8  | 🛢️ oildrum | 248.25 | sandwichsundays |
+| 9  | 🐙 octopus | 191.79 | xkimi1337 |
+| 10  | 🐋 whale2 | 158.40 | sandwichsundays |
+| 11  | 🐊 crocodile | 149.60 | juwna |
 | 12  | 🧞‍♂ malegenie | 141.02 | lobuhtomy |
 | 13  | 🧜‍♀️ mermaid | 139.02 | zwockel01 |
 | 14  | 🦭 seal | 133.15 | caprise627 |
@@ -85,4 +85,4 @@
 | 82  | 🪶 feather | 0.98 | amu1g |
 | 83  | 🧣 scarf | 0.92 | blazeblitzzz |
 
-_Last updated at 2024-08-25 08:41:43 UTC_
+_Last updated at 2024-09-01 09:14:25 UTC_
