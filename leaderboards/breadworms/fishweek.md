@@ -29,17 +29,21 @@
 | 26  | ninjaross  | 44 |
 | 27  | ouacewi  | 43 |
 | 28  | notcum  | 40 |
-| 29  | julialuxel  | 34 |
-| 30  | islcfc*  | 33 |
-| 31  | jr_mime  | 32 |
-| 32  | itsalot_tlike*  | 30 |
-| 33  | fallen_angels_1995  | 28 |
-| 34  | dougiefresh_83  | 27 |
-| 35  | breadworms  | 25 |
-| 35  | globcob  | 25 |
-| 37  | rocketpol*  | 24 |
-| 38  | divra__  | 22 |
-| 39  | veggesh  | 21 |
-| 40  | realtechnine  | 20 |
+| 29 🆕 | idini  | 36 |
+| 30 🆕 | respirate_  | 35 |
+| 31 ⬇ | julialuxel  | 34 |
+| 32 ⬇ | islcfc*  | 33 |
+| 33 ⬇ | jr_mime  | 32 |
+| 34 ⬇ | itsalot_tlike*  | 30 |
+| 35 ⬇ | fallen_angels_1995  | 28 |
+| 36 ⬇ | dougiefresh_83  | 27 |
+| 37 ⬇ | breadworms  | 25 |
+| 37 ⬇ | globcob  | 25 |
+| 39 ⬇ | rocketpol*  | 24 |
+| 40 ⬇ | divra__  | 22 |
+| 41 ⬇ | veggesh  | 21 |
+| 42 ⬇ | realtechnine  | 20 |
 
-_Last updated at 2024-08-27 14:53:42 UTC_
+_Only showing fishers who caught >= 20 fish_
+
+_Last updated at 2024-09-04 10:12:40 UTC_

@@ -1,10 +1,10 @@
 ### Most fish caught in a single week in tournaments in psp1g's chat
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
-| 1 🥇 ⬆ | bubinga  | 95 (+17) |
-| 2 🥈 ⬇ | benciee  | 94 |
-| 3 🥉 ⬇ | nndiana  | 87 |
-| 4 ⬇ | fonuwu  | 83 |
+| 1 🥇  | bubinga  | 95 |
+| 2 🥈  | benciee  | 94 |
+| 3 🥉  | nndiana  | 87 |
+| 4  | fonuwu  | 83 |
 | 5  | jr_mime  | 73 |
 | 6  | huuuuuuuuuuuuuuuuuuuuuurz  | 70 |
 | 7  | caprise627  | 65 |
@@ -21,12 +21,15 @@
 | 17  | commanda_u  | 37 |
 | 17  | pengeg  | 37 |
 | 20  | divra__  | 33 |
-| 21  | mikel1g  | 31 |
-| 22  | noconcept_  | 29 |
-| 23  | creepycode  | 26 |
-| 24 🆕 | theevirus  | 24 |
-| 25 ⬇ | restartmikel  | 23 |
-| 26 ⬇ | afju*  | 21 |
-| 27 ⬇ | iflya320  | 20 |
+| 21 🆕 | glorianeq  | 32 |
+| 22 ⬇ | mikel1g  | 31 |
+| 23 ⬇ | noconcept_  | 29 |
+| 24 ⬇ | creepycode  | 26 |
+| 25 ⬇ | theevirus  | 24 |
+| 26 ⬇ | restartmikel  | 23 |
+| 27 ⬇ | afju*  | 21 |
+| 28 ⬇ | iflya320  | 20 |
 
-_Last updated at 2024-08-26 09:31:11 UTC_
+_Only showing fishers who caught >= 20 fish_
+
+_Last updated at 2024-09-04 10:12:40 UTC_
