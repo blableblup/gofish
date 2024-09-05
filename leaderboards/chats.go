@@ -93,10 +93,7 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 			return
 		}
 		pastDate := datetime.AddDate(0, 0, -7)
-		// logs.Logs().Debug().
-		// 	Str("PastDate", pastDate.String()).
-		// 	Str("DateTime", datetime.String()).
-		// 	Msg("Dates for active fishers")
+
 		err = pool.QueryRow(context.Background(), `
 				SELECT COUNT(*) AS active_fishers_count
 				FROM (

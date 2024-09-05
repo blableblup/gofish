@@ -97,7 +97,6 @@ func fetchMatchingLines(chatName string, urls []string) ([]string, error) {
 			logs.Logs().Info().Str("URL", url).Str("Chat", chatName).Msg("Fetching tournament results")
 
 			for retry := 0; retry < maxRetries; retry++ {
-				startTime := time.Now()
 
 				response, err := http.Get(url)
 				if err != nil {
@@ -139,8 +138,6 @@ func fetchMatchingLines(chatName string, urls []string) ([]string, error) {
 					}
 				}
 
-				duration := time.Since(startTime)
-				logs.Logs().Debug().Dur("Duration", duration).Str("URL", url).Str("Chat", chatName).Msg("Time to load URL")
 				logs.Logs().Info().Str("URL", url).Str("Chat", chatName).Msg("Finished checking for tournament results")
 				return
 			}

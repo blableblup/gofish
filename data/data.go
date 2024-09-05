@@ -108,8 +108,6 @@ func ProcessFishData(urls []string, chatName string, Chat utils.ChatInfo, pool *
 		}
 	}
 
-	logs.Logs().Debug().Time("LatestCatchDate", latestCatchDate).Str("Chat", chatName).Msg("Fetched latest catch date for chat")
-
 	for _, url := range urls {
 		wg.Add(1)
 		go func(url string) {
@@ -194,7 +192,6 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 				return err
 			}
 			lastChatIDs[fish.Chat] = lastChatID
-			logs.Logs().Debug().Int("lastChatID", lastChatIDs[fish.Chat]).Str("Chat", fish.Chat).Msg("Last Chat ID for chat")
 		}
 
 		lastChatIDs[fish.Chat]++
