@@ -22,16 +22,17 @@
 | 18 🆕| respirate_ | 1 | 0 | 1 | 3.5 |
 | 20 ⬇| divra__ | 1 | 0 | 0 | 3.0 |
 | 21 ⬇| bussinongnocap | 0 | 1 | 2 | 2.0 |
+| 21 🆕| houseofieaves | 0 | 2 | 0 | 2.0 |
 | 21 ⬆| julialuxel | 0 | 2 (+1) | 0 | 2.0 (+1.0) |
 | 21 ⬇| ninjaross | 0 | 0 | 4 | 2.0 |
-| 24 ⬇| kaasppeerr | 0 | 0 | 3 | 1.5 |
-| 24 ⬇| leanmeister | 0 | 1 | 1 | 1.5 |
-| 26 ⬇| bapqo | 0 | 0 | 2 | 1.0 |
-| 27 ⬇| breadworms | 0 | 0 | 1 | 0.5 |
-| 27 🆕| idini | 0 | 0 | 1 | 0.5 |
-| 27 ⬇| jr_mime | 0 | 0 | 1 | 0.5 |
-| 27 ⬇| mochi_uygqzidbjizjkbehuiw | 0 | 0 | 1 | 0.5 |
-| 27 ⬇| niiy | 0 | 0 | 1 | 0.5 |
-| 27 ⬇| notcum | 0 | 0 | 1 | 0.5 |
+| 25 ⬇| kaasppeerr | 0 | 0 | 3 | 1.5 |
+| 25 ⬇| leanmeister | 0 | 1 | 1 | 1.5 |
+| 27 ⬇| bapqo | 0 | 0 | 2 | 1.0 |
+| 28 ⬇| breadworms | 0 | 0 | 1 | 0.5 |
+| 28 ⬇| cumgi | 0 | 0 | 1 | 0.5 |
+| 28 🆕| idini | 0 | 0 | 1 | 0.5 |
+| 28 ⬇| jr_mime | 0 | 0 | 1 | 0.5 |
+| 28 ⬇| mochi_uygqzidbjizjkbehuiw | 0 | 0 | 1 | 0.5 |
+| 28 ⬇| niiy | 0 | 0 | 1 | 0.5 |
 
-_Last updated at 2024-09-04 10:12:40 UTC_
+_Last updated at 2024-09-05 10:15:48 UTC_

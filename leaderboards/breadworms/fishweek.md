@@ -28,22 +28,23 @@
 | 25  | paras220  | 46 |
 | 26  | ninjaross  | 44 |
 | 27  | ouacewi  | 43 |
-| 28  | notcum  | 40 |
-| 29 🆕 | idini  | 36 |
-| 30 🆕 | respirate_  | 35 |
-| 31 ⬇ | julialuxel  | 34 |
-| 32 ⬇ | islcfc*  | 33 |
-| 33 ⬇ | jr_mime  | 32 |
-| 34 ⬇ | itsalot_tlike*  | 30 |
-| 35 ⬇ | fallen_angels_1995  | 28 |
-| 36 ⬇ | dougiefresh_83  | 27 |
-| 37 ⬇ | breadworms  | 25 |
-| 37 ⬇ | globcob  | 25 |
-| 39 ⬇ | rocketpol*  | 24 |
-| 40 ⬇ | divra__  | 22 |
-| 41 ⬇ | veggesh  | 21 |
-| 42 ⬇ | realtechnine  | 20 |
+| 28 🆕 | houseofieaves  | 42 |
+| 29 ⬇ | cumgi  | 40 |
+| 30 🆕 | idini  | 36 |
+| 31 🆕 | respirate_  | 35 |
+| 32 ⬇ | julialuxel  | 34 |
+| 33 ⬇ | islcfc*  | 33 |
+| 34 ⬇ | jr_mime  | 32 |
+| 35 ⬇ | itsalot_tlike*  | 30 |
+| 36 ⬇ | fallen_angels_1995  | 28 |
+| 37 ⬇ | dougiefresh_83  | 27 |
+| 38 ⬇ | breadworms  | 25 |
+| 38 ⬇ | globcob  | 25 |
+| 40 ⬇ | rocketpol*  | 24 |
+| 41 ⬇ | divra__  | 22 |
+| 42 ⬇ | veggesh  | 21 |
+| 43 ⬇ | realtechnine  | 20 |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2024-09-04 10:12:40 UTC_
+_Last updated at 2024-09-05 10:15:47 UTC_
