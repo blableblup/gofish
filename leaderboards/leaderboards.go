@@ -73,6 +73,8 @@ func Leaderboards(leaderboards string, chatNames string, date string, date2 stri
 	for _, leaderboard := range leaderboardList {
 		params.LeaderboardType = leaderboard
 		switch leaderboard {
+		case "unique":
+			processLeaderboard(config, params, processUniqueFish)
 		case "fishweek":
 			processLeaderboard(config, params, processFishweek)
 		case "trophy":
@@ -103,6 +105,8 @@ func Leaderboards(leaderboards string, chatNames string, date string, date2 stri
 			processLeaderboard(config, params, processTrophy)
 			params.LeaderboardType = "fishweek"
 			processLeaderboard(config, params, processFishweek)
+			params.LeaderboardType = "unique"
+			processLeaderboard(config, params, processUniqueFish)
 		default:
 			logs.Logs().Info().
 				Str("Leaderboard", leaderboard).
@@ -202,6 +206,9 @@ func processGlobalLeaderboard(params LeaderboardParams) {
 	case "type":
 		params.LeaderboardType += "global"
 		processType(params)
+	case "unique":
+		params.LeaderboardType += "global"
+		processUniqueFish(params)
 	default:
 		logs.Logs().Warn().
 			Str("Board", params.LeaderboardType).

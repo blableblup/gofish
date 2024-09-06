@@ -135,10 +135,10 @@ func processFishweek(params LeaderboardParams) {
 		titlefishw = fmt.Sprintf("%s\n", title)
 	}
 
-	isGlobal, isType := false, false
+	isGlobal := false
 
 	logs.Logs().Info().Str("Board", board).Str("Chat", chatName).Msg("Updating leaderboard")
-	err = writeCount(filePath, maxFishInWeek, oldFishw, titlefishw, isGlobal, isType, fishweekLimit)
+	err = writeCount(filePath, maxFishInWeek, oldFishw, titlefishw, isGlobal, board, fishweekLimit)
 	if err != nil {
 		logs.Logs().Error().Err(err).Str("Board", board).Str("Chat", chatName).Msg("Error writing leaderboard")
 	} else {

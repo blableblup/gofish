@@ -98,10 +98,10 @@ func processCount(params LeaderboardParams) {
 		titletotalcount = fmt.Sprintf("%s\n", title)
 	}
 
-	isGlobal, isType := false, false
+	isGlobal := false
 
 	logs.Logs().Info().Str("Board", board).Str("Chat", chatName).Msg("Updating leaderboard")
-	err = writeCount(filePath, fishCaught, oldCountRecord, titletotalcount, isGlobal, isType, Totalcountlimit)
+	err = writeCount(filePath, fishCaught, oldCountRecord, titletotalcount, isGlobal, board, Totalcountlimit)
 	if err != nil {
 		logs.Logs().Error().Err(err).Str("Board", board).Str("Chat", chatName).Msg("Error writing leaderboard")
 	} else {
@@ -109,7 +109,7 @@ func processCount(params LeaderboardParams) {
 	}
 }
 
-func writeCount(filePath string, fishCaught map[string]data.FishInfo, oldCountRecord map[string]LeaderboardInfo, title string, isGlobal bool, isType bool, countlimit int) error {
+func writeCount(filePath string, fishCaught map[string]data.FishInfo, oldCountRecord map[string]LeaderboardInfo, title string, isGlobal bool, board string, countlimit int) error {
 
 	// Ensure that the directory exists before attempting to create the file
 	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
@@ -128,8 +128,11 @@ func writeCount(filePath string, fishCaught map[string]data.FishInfo, oldCountRe
 	}
 
 	prefix := "| Rank | Player | Fish Caught |"
-	if isType {
+	if board == "rare" {
 		prefix = "| Rank | Fish | Times Caught |"
+	}
+	if board == "unique" || board == "uniqueglobal" {
+		prefix = "| Rank | Fish | Fish Seen |"
 	}
 
 	_, _ = fmt.Fprintln(file, prefix+func() string {
@@ -233,8 +236,13 @@ func writeCount(filePath string, fishCaught map[string]data.FishInfo, oldCountRe
 		prevRank = rank
 	}
 
-	if !isType {
-		_, _ = fmt.Fprintf(file, "\n_Only showing fishers who caught >= %d fish_\n", countlimit)
+	if board != "rare" {
+		if board == "unique" || board == "uniqueglobal" {
+			_, _ = fmt.Fprintf(file, "\n_Only showing fishers who have seen >= %d fish_\n", countlimit)
+		} else {
+			_, _ = fmt.Fprintf(file, "\n_Only showing fishers who caught >= %d fish_\n", countlimit)
+
+		}
 	}
 	_, _ = fmt.Fprintf(file, "\n_Last updated at %s_", time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC"))
 

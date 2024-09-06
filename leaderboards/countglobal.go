@@ -133,9 +133,8 @@ func updateCountLeaderboard(globalCount map[string]data.FishInfo, oldCount map[s
 	} else {
 		titlecount = fmt.Sprintf("%s\n", title)
 	}
-	isType := false
 	isGlobal := true
-	err := writeCount(filePath, globalCount, oldCount, titlecount, isGlobal, isType, countlimit)
+	err := writeCount(filePath, globalCount, oldCount, titlecount, isGlobal, board, countlimit)
 	if err != nil {
 		logs.Logs().Error().Err(err).Str("Board", board).Msg("Error writing leaderboard")
 	} else {
