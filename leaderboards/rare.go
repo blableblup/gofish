@@ -19,8 +19,8 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 	path := params.Path
 
 	globalFishTypesCount := make(map[string]data.FishInfo)
-
-	var filePath string
+	var filePath, titlerare string
+	var fishInfo data.FishInfo
 
 	if path == "" {
 		filePath = filepath.Join("leaderboards", "global", "rare.md")
@@ -34,7 +34,10 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 	isFish := true
 	oldCount, err := ReadTotalcountRankings(filePath, pool, isFish)
 	if err != nil {
-		logs.Logs().Error().Err(err).Str("Path", filePath).Str("Board", board).Msg("Error reading old leaderboard")
+		logs.Logs().Error().Err(err).
+			Str("Path", filePath).
+			Str("Board", board).
+			Msg("Error reading old leaderboard")
 		return
 	}
 
@@ -42,7 +45,10 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 	for chatName, chat := range config.Chat {
 		if !chat.CheckFData {
 			if chatName != "global" && chatName != "default" {
-				logs.Logs().Warn().Str("Chat", chatName).Msg("Skipping chat because checkfdata is false")
+				logs.Logs().Warn().
+					Str("Board", board).
+					Str("Chat", chatName).
+					Msg("Skipping chat because checkfdata is false")
 			}
 			continue
 		}
@@ -57,22 +63,32 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
             GROUP BY fishname
             `, chatName, date, date2)
 		if err != nil {
-			logs.Logs().Error().Err(err).Str("Chat", chatName).Str("Board", board).Msg("Error querying database for rarest fish")
+			logs.Logs().Error().Err(err).
+				Str("Chat", chatName).
+				Str("Board", board).
+				Msg("Error querying database for rarest fish")
 			return
 		}
 		defer rows.Close()
 
 		// Iterate through the query results and store fish type count for each chat
 		for rows.Next() {
-			var fishInfo data.FishInfo
+
 			if err := rows.Scan(&fishInfo.TypeName, &fishInfo.Count); err != nil {
-				logs.Logs().Error().Err(err).Str("Chat", chatName).Str("Board", board).Msg("Error scanning row for rarest fish")
+				logs.Logs().Error().Err(err).
+					Str("Chat", chatName).
+					Str("Board", board).
+					Msg("Error scanning row for rarest fish")
 				return
 			}
 
 			err = pool.QueryRow(context.Background(), "SELECT fishtype FROM fishinfo WHERE fishname = $1", fishInfo.TypeName).Scan(&fishInfo.Type)
 			if err != nil {
-				logs.Logs().Error().Err(err).Str("Fish name", fishInfo.TypeName).Str("Board", board).Msg("Error retrieving fish type for fish name")
+				logs.Logs().Error().Err(err).
+					Str("Fish name", fishInfo.TypeName).
+					Str("Board", board).
+					Str("Chat", chatName).
+					Msg("Error retrieving fish type for fish name")
 				return
 			}
 
@@ -103,24 +119,29 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 		}
 	}
 
-	updateFishTypesLeaderboard(globalFishTypesCount, oldCount, filePath, board, title)
-}
+	logs.Logs().Info().
+		Str("Board", board).
+		Msg("Updating leaderboard")
 
-func updateFishTypesLeaderboard(globalFishTypesCount map[string]data.FishInfo, oldCount map[string]LeaderboardInfo, filePath string, board string, title string) {
-	logs.Logs().Info().Str("Board", board).Msg("Updating leaderboard")
-	var titlerare string
 	if title == "" {
 		titlerare = "### How many times a fish has been caught\n"
 	} else {
 		titlerare = fmt.Sprintf("%s\n", title)
 	}
-	isGlobal := true
+
 	// Rarest fish leaderboard doesnt have a countlimit
 	countlimit := 0
-	err := writeCount(filePath, globalFishTypesCount, oldCount, titlerare, isGlobal, board, countlimit)
+	// Have to set global here since it doesnt go through processLeaderboards
+	global := true
+	err = writeCount(filePath, globalFishTypesCount, oldCount, titlerare, global, board, countlimit)
 	if err != nil {
-		logs.Logs().Error().Err(err).Str("Path", filePath).Str("Board", board).Msg("Error writing leaderboard")
+		logs.Logs().Error().Err(err).
+			Str("Path", filePath).
+			Str("Board", board).
+			Msg("Error writing leaderboard")
 	} else {
-		logs.Logs().Info().Str("Board", board).Msg("Leaderboard updated successfully")
+		logs.Logs().Info().
+			Str("Board", board).
+			Msg("Leaderboard updated successfully")
 	}
 }

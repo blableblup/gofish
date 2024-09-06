@@ -12,7 +12,9 @@ import (
 
 func RunCountGlobal(params LeaderboardParams) {
 	board := params.LeaderboardType
+	chatName := params.ChatName
 	config := params.Config
+	global := params.Global
 	date2 := params.Date2
 	title := params.Title
 	pool := params.Pool
@@ -21,8 +23,7 @@ func RunCountGlobal(params LeaderboardParams) {
 
 	globalCount := make(map[string]data.FishInfo)
 	totalcountLimit := config.Chat["global"].Totalcountlimit
-
-	var filePath string
+	var filePath, titlecount string
 
 	if path == "" {
 		filePath = filepath.Join("leaderboards", "global", "count.md")
@@ -36,7 +37,10 @@ func RunCountGlobal(params LeaderboardParams) {
 	isFish := false
 	oldCount, err := ReadTotalcountRankings(filePath, pool, isFish)
 	if err != nil {
-		logs.Logs().Error().Err(err).Str("Path", filePath).Str("Board", board).Msg("Error reading old leaderboard")
+		logs.Logs().Error().Err(err).
+			Str("Board", board).
+			Str("Chat", chatName).
+			Msg("Error reading old leaderboard")
 		return
 	}
 
@@ -44,7 +48,10 @@ func RunCountGlobal(params LeaderboardParams) {
 	for chatName, chat := range config.Chat {
 		if !chat.CheckFData {
 			if chatName != "global" && chatName != "default" {
-				logs.Logs().Warn().Str("Chat", chatName).Msg("Skipping chat because checkfdata is false")
+				logs.Logs().Warn().
+					Str("Board", board).
+					Str("Chat", chatName).
+					Msg("Skipping chat because checkfdata is false")
 			}
 			continue
 		}
@@ -59,7 +66,10 @@ func RunCountGlobal(params LeaderboardParams) {
             GROUP BY playerid
             `, chatName, date, date2)
 		if err != nil {
-			logs.Logs().Error().Err(err).Str("Chat", chatName).Str("Board", board).Msg("Error querying database for fish count")
+			logs.Logs().Error().Err(err).
+				Str("Board", board).
+				Str("Chat", chatName).
+				Msg("Error querying database for fish count")
 			return
 		}
 		defer rows.Close()
@@ -68,20 +78,31 @@ func RunCountGlobal(params LeaderboardParams) {
 		for rows.Next() {
 			var fishInfo data.FishInfo
 			if err := rows.Scan(&fishInfo.PlayerID, &fishInfo.Count); err != nil {
-				logs.Logs().Error().Err(err).Str("Chat", chatName).Str("Board", board).Msg("Error scanning row for fish count")
+				logs.Logs().Error().Err(err).
+					Str("Board", board).
+					Str("Chat", chatName).
+					Msg("Error scanning row for fish count")
 				return
 			}
 
 			err := pool.QueryRow(context.Background(), "SELECT name, firstfishdate FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Player, &fishInfo.Date)
 			if err != nil {
-				logs.Logs().Error().Err(err).Int("PlayerID", fishInfo.PlayerID).Str("Board", board).Msg("Error retrieving player name for id")
+				logs.Logs().Error().Err(err).
+					Str("Board", board).
+					Str("Chat", chatName).
+					Int("PlayerID", fishInfo.PlayerID).
+					Msg("Error retrieving player name for id")
 				return
 			}
 			if fishInfo.Date.Before(time.Date(2023, time.September, 14, 0, 0, 0, 0, time.UTC)) {
 				fishInfo.Bot = "supibot"
 				err := pool.QueryRow(context.Background(), "SELECT verified FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Verified)
 				if err != nil {
-					logs.Logs().Error().Err(err).Int("PlayerID", fishInfo.PlayerID).Str("Board", board).Msg("Error retrieving verified status for playerid")
+					logs.Logs().Error().Err(err).
+						Str("Board", board).
+						Str("Chat", chatName).
+						Int("PlayerID", fishInfo.PlayerID).
+						Msg("Error retrieving verified status for playerid")
 					return
 				}
 			}
@@ -122,22 +143,26 @@ func RunCountGlobal(params LeaderboardParams) {
 		}
 	}
 
-	updateCountLeaderboard(globalCount, oldCount, filePath, board, title, totalcountLimit)
-}
+	logs.Logs().Info().
+		Str("Board", board).
+		Msg("Updating leaderboard")
 
-func updateCountLeaderboard(globalCount map[string]data.FishInfo, oldCount map[string]LeaderboardInfo, filePath string, board string, title string, countlimit int) {
-	logs.Logs().Info().Str("Board", board).Msg("Updating leaderboard")
-	var titlecount string
 	if title == "" {
 		titlecount = "### Most fish caught globally\n"
 	} else {
 		titlecount = fmt.Sprintf("%s\n", title)
 	}
-	isGlobal := true
-	err := writeCount(filePath, globalCount, oldCount, titlecount, isGlobal, board, countlimit)
+
+	err = writeCount(filePath, globalCount, oldCount, titlecount, global, board, totalcountLimit)
 	if err != nil {
-		logs.Logs().Error().Err(err).Str("Board", board).Msg("Error writing leaderboard")
+		logs.Logs().Error().Err(err).
+			Str("Board", board).
+			Str("Chat", chatName).
+			Msg("Error writing leaderboard")
 	} else {
-		logs.Logs().Info().Str("Board", board).Msg("Leaderboard updated successfully")
+		logs.Logs().Info().
+			Str("Board", board).
+			Str("Chat", chatName).
+			Msg("Leaderboard updated successfully")
 	}
 }
