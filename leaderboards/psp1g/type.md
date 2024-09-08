@@ -67,7 +67,7 @@
 | 64  | 🥫 cannedfood | 4.91 | huuuuuuuuuuuuuuuuuuuuuurz |
 | 65  | ☘️ shamrock | 4.00 | divra__ |
 | 65  | 🐚 shell | 4.00 | manianic_ |
-| 67  | 🐦‍⬛ blackbird | 3.30 | nndiana |
+| 67  | 🐦‍⬛ blackbird | 3.93 (+0.63) | flunke_ |
 | 68  | ☂️ umbrella | 2.96 | xanthic_swe |
 | 69  | 🌻 sunflower | 2.95 | ratot |
 | 70  | 🩴 thongsandal | 2.94 | bubinga |
@@ -85,4 +85,4 @@
 | 82  | 🪶 feather | 0.98 | amu1g |
 | 83  | 🧣 scarf | 0.92 | blazeblitzzz |
 
-_Last updated at 2024-09-01 09:14:25 UTC_
+_Last updated at 2024-09-08 09:42:08 UTC_
