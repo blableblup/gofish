@@ -24,20 +24,20 @@
 | 21  | 🐠 tropicalfish | 16.22 | ritaaww |
 | 22  | 🪼 jellyfish | 11.59 | aliveleader |
 | 23  | 🪳 cockroach | 10.57 | ritaaww |
-| 24  | 🕷️ spider | 10.29 | aliveleader |
-| 25  | 🕶️ darksunglasses | 9.92 | aliveleader |
-| 26  | 🐍 snake | 9.38 | ritaaww |
-| 27  | 💀 skull | 9.33 | ritaaww |
-| 28  | 🩲 briefs | 6.85 | ritaaww |
-| 29 ⬆ | 🐸 frog | 4.66 (+1.02) | ritaaww |
-| 30 ⬇ | 🪝 hook | 3.93 | sykelle |
-| 31 ⬇ | 🎏 lure | 3.72 | aliveleader |
-| 32  | 🐚 shell | 3.56 | aliveleader |
-| 33  | 🩴 thongsandal | 1.63 | ritaaww |
-| 34  | 🧦 socks | 1.24 | 1cegem |
-| 35  | 🪨 rock | 1.02 | sykelle |
-| 36 🆕 | 🌿 herb | 0.94 | zeesunny |
-| 37 ⬇ | 🍬 candy | 0.00 | aliveleader |
-| 37 ⬇ | 🪀 bobber | 0.00 | ritaaww |
+| 24 ⬆ | 🪨 rock | 10.44 (+9.42) | ritaaww |
+| 25 ⬇ | 🕷️ spider | 10.29 | aliveleader |
+| 26 ⬇ | 🕶️ darksunglasses | 9.92 | aliveleader |
+| 27 ⬇ | 🐍 snake | 9.38 | ritaaww |
+| 28 ⬇ | 💀 skull | 9.33 | ritaaww |
+| 29 ⬇ | 🩲 briefs | 6.85 | ritaaww |
+| 30 ⬇ | 🐸 frog | 4.72 (+0.06) | ritaaww |
+| 31 ⬇ | 🪝 hook | 3.93 | sykelle |
+| 32 ⬇ | 🎏 lure | 3.72 | aliveleader |
+| 33 ⬇ | 🐚 shell | 3.56 | aliveleader |
+| 34 ⬇ | 🩴 thongsandal | 1.63 | ritaaww |
+| 35 ⬇ | 🧦 socks | 1.24 | 1cegem |
+| 36  | 🌿 herb | 0.94 | zeesunny |
+| 37  | 🍬 candy | 0.00 | aliveleader |
+| 37  | 🪀 bobber | 0.00 | ritaaww |
 
-_Last updated at 2024-09-01 09:14:21 UTC_
+_Last updated at 2024-09-08 09:42:05 UTC_

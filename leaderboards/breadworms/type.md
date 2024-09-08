@@ -12,7 +12,7 @@
 | 9  | 🐻‍❄ polarbear | 205.85 | ninjaross* |
 | 10  | 🐙 octopus | 198.60 | derinturitierutz |
 | 11  | 🐋 whale2 | 159.84 | osnyatsky |
-| 12  | 🐊 crocodile | 149.98 (+0.09) | kishma9 |
+| 12  | 🐊 crocodile | 149.98 | kishma9 |
 | 13  | 🧜‍♀️ mermaid | 136.90 | dayzedinndaydreams |
 | 14  | 🦭 seal | 133.31 | ryebreadward |
 | 15  | 🧞‍♂ malegenie | 131.64 | kishma9 |
@@ -85,4 +85,4 @@
 | 80  | 🧤 gloves | 0.99 | sicklymaidrobot |
 | 83  | 🦢 swan | 0.17 | chubbyhamster__ |
 
-_Last updated at 2024-09-01 09:14:23 UTC_
+_Last updated at 2024-09-08 09:42:11 UTC_

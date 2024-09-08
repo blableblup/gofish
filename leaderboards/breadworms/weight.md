@@ -21,10 +21,10 @@
 | 18  | jr_mime | 🦑 squid | 282.46 |
 | 19  | 5c33* | 🐉 dragon | 281.63 |
 | 20  | sussy_amonge | 🐉 dragon | 278.70 |
-| 21  | niiy | 🐳 whale | 273.90 |
-| 22  | booty_bread | 🐉 dragon | 273.82 |
-| 23  | ninjaross* | 🦑 squid | 273.17 |
-| 24  | respirate_ | 🐳 whale | 271.66 |
+| 21 ⬆ | respirate_ | 🐳 whale | 277.53 (+5.87) |
+| 22 ⬇ | niiy | 🐳 whale | 273.90 |
+| 23 ⬇ | booty_bread | 🐉 dragon | 273.82 |
+| 24 ⬇ | ninjaross* | 🦑 squid | 273.17 |
 | 25  | crazytown_bananapants | 🦈 shark | 270.42 |
 | 26  | xz_xz | 🐳 whale | 269.03 |
 | 27  | yliathim* | 🐉 dragon | 266.12 |
@@ -49,4 +49,4 @@
 
 _Only showing fish weighing >= 200 lbs_
 
-_Last updated at 2024-09-01 09:14:20 UTC_
+_Last updated at 2024-09-08 09:42:03 UTC_
