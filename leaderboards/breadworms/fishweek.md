@@ -12,9 +12,9 @@
 | 9  | lazzvli*  | 112 |
 | 10  | ryebreadward  | 110 |
 | 11  | bussinongnocap  | 108 |
-| 12  | chubbyhamster__  | 102 |
-| 13  | dayzedinndaydreams  | 93 |
-| 14  | osnyisdead  | 92 |
+| 12 ⬆ | osnyisdead  | 103 (+11) |
+| 13 ⬇ | chubbyhamster__  | 102 |
+| 14 ⬇ | dayzedinndaydreams  | 93 |
 | 15  | crazytown_bananapants  | 89 |
 | 16  | supibot  | 88 |
 | 17  | comiqq  | 84 |
@@ -26,25 +26,25 @@
 | 23  | leanmeister  | 51 |
 | 24  | bapqo  | 49 |
 | 25  | paras220  | 46 |
-| 26  | ninjaross  | 44 |
-| 27  | ouacewi  | 43 |
-| 28 🆕 | houseofieaves  | 42 |
-| 29 ⬇ | cumgi  | 40 |
-| 30 🆕 | idini  | 36 |
-| 31 🆕 | respirate_  | 35 |
-| 32 ⬇ | julialuxel  | 34 |
-| 33 ⬇ | islcfc*  | 33 |
-| 34 ⬇ | jr_mime  | 32 |
-| 35 ⬇ | itsalot_tlike*  | 30 |
-| 36 ⬇ | fallen_angels_1995  | 28 |
-| 37 ⬇ | dougiefresh_83  | 27 |
-| 38 ⬇ | breadworms  | 25 |
-| 38 ⬇ | globcob  | 25 |
-| 40 ⬇ | rocketpol*  | 24 |
-| 41 ⬇ | divra__  | 22 |
-| 42 ⬇ | veggesh  | 21 |
-| 43 ⬇ | realtechnine  | 20 |
+| 25 ⬆ | respirate_  | 46 (+11) |
+| 27 ⬇ | ninjaross  | 44 |
+| 28 ⬇ | ouacewi  | 43 |
+| 29 ⬇ | houseofieaves  | 42 |
+| 30 ⬇ | c_mgi  | 40 |
+| 31 ⬇ | idini  | 36 |
+| 32  | julialuxel  | 34 |
+| 33  | islcfc*  | 33 |
+| 34  | jr_mime  | 32 |
+| 35  | itsalot_tlike*  | 30 |
+| 36  | fallen_angels_1995  | 28 |
+| 37  | dougiefresh_83  | 27 |
+| 38  | breadworms  | 25 |
+| 38  | globcob  | 25 |
+| 40  | rocketpol*  | 24 |
+| 41  | divra__  | 22 |
+| 42  | veggesh  | 21 |
+| 43  | realtechnine  | 20 |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2024-09-05 10:15:47 UTC_
+_Last updated at 2024-09-11 09:22:15 UTC_
