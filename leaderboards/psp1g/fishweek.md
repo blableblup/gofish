@@ -21,15 +21,16 @@
 | 17  | commanda_u  | 37 |
 | 17  | pengeg  | 37 |
 | 20  | divra__  | 33 |
-| 21 🆕 | glorianeq  | 32 |
-| 22 ⬇ | mikel1g  | 31 |
-| 23 ⬇ | noconcept_  | 29 |
-| 24 ⬇ | creepycode  | 26 |
-| 25 ⬇ | theevirus  | 24 |
-| 26 ⬇ | restartmikel  | 23 |
-| 27 ⬇ | afju*  | 21 |
-| 28 ⬇ | iflya320  | 20 |
+| 21  | glorianeq  | 32 |
+| 22  | mikel1g  | 31 |
+| 23  | noconcept_  | 29 |
+| 24  | creepycode  | 26 |
+| 25 🆕 | angus_lpc  | 24 |
+| 25  | theevirus  | 24 |
+| 27 ⬇ | restartmikel  | 23 |
+| 28 ⬇ | afju*  | 21 |
+| 29 ⬇ | iflya320  | 20 |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2024-09-04 10:12:40 UTC_
+_Last updated at 2024-09-11 09:22:15 UTC_
