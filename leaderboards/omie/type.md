@@ -1,14 +1,14 @@
 ### Biggest fish per type caught in omie's chat
 | Rank | Fish | Weight in lbs | Player |
 |------|--------|-----------|---------|
-| 1 🥇  | 🐉 dragon | 220.29 | aliveleader |
+| 1 🥇  | 🐉 dragon | 239.97 (+19.68) | respirate_ |
 | 2 🥈  | 🦈 shark | 210.87 | sykelle |
 | 3 🥉  | 🦕 sauropod | 189.22 | ritaaww |
 | 4  | 🐳 whale | 187.22 | ritaaww |
 | 5  | 🐢 turtle | 181.31 | ritaaww |
-| 6  | 🐋 whale2 | 125.42 | ritaaww |
-| 7  | 🐊 crocodile | 114.03 | ritaaww |
-| 8  | 🦑 squid | 82.20 | ritaaww |
+| 6 ⬆ | 🐊 crocodile | 142.24 (+28.21) | respirate_ |
+| 7 ⬇ | 🐋 whale2 | 132.77 (+7.35) | ritaaww |
+| 8  | 🦑 squid | 83.19 (+0.99) | sussy_amonge |
 | 9  | 🐬 dolphin | 80.71 | ritaaww |
 | 10  | 🐙 octopus | 65.50 | ritaaww |
 | 11  | 🐟 fish | 54.27 | aliveleader |
@@ -24,20 +24,20 @@
 | 21  | 🐠 tropicalfish | 16.22 | ritaaww |
 | 22  | 🪼 jellyfish | 11.59 | aliveleader |
 | 23  | 🪳 cockroach | 10.57 | ritaaww |
-| 24 ⬆ | 🪨 rock | 10.44 (+9.42) | ritaaww |
-| 25 ⬇ | 🕷️ spider | 10.29 | aliveleader |
-| 26 ⬇ | 🕶️ darksunglasses | 9.92 | aliveleader |
-| 27 ⬇ | 🐍 snake | 9.38 | ritaaww |
-| 28 ⬇ | 💀 skull | 9.33 | ritaaww |
-| 29 ⬇ | 🩲 briefs | 6.85 | ritaaww |
-| 30 ⬇ | 🐸 frog | 4.72 (+0.06) | ritaaww |
-| 31 ⬇ | 🪝 hook | 3.93 | sykelle |
-| 32 ⬇ | 🎏 lure | 3.72 | aliveleader |
-| 33 ⬇ | 🐚 shell | 3.56 | aliveleader |
-| 34 ⬇ | 🩴 thongsandal | 1.63 | ritaaww |
-| 35 ⬇ | 🧦 socks | 1.24 | 1cegem |
+| 24  | 🪨 rock | 10.44 | ritaaww |
+| 25  | 🕷️ spider | 10.29 | aliveleader |
+| 26  | 🕶️ darksunglasses | 9.92 | aliveleader |
+| 27  | 🐍 snake | 9.38 | ritaaww |
+| 28  | 💀 skull | 9.33 | ritaaww |
+| 29  | 🩲 briefs | 6.85 | ritaaww |
+| 30  | 🐸 frog | 4.84 (+0.12) | respirate_ |
+| 31  | 🪝 hook | 3.93 | sykelle |
+| 32  | 🎏 lure | 3.72 | aliveleader |
+| 33  | 🐚 shell | 3.65 (+0.09) | respirate_ |
+| 34  | 🩴 thongsandal | 1.63 | ritaaww |
+| 35  | 🧦 socks | 1.24 | 1cegem |
 | 36  | 🌿 herb | 0.94 | zeesunny |
 | 37  | 🍬 candy | 0.00 | aliveleader |
 | 37  | 🪀 bobber | 0.00 | ritaaww |
 
-_Last updated at 2024-09-08 09:42:05 UTC_
+_Last updated at 2024-09-15 10:37:19 UTC_
