@@ -20,12 +20,12 @@
 | 16  | maksmusz*  | 54 |
 | 18  | creepycode*  | 53 |
 | 18  | euxoa  | 53 |
-| 20  | benciee  | 51 |
-| 20  | bubinga  | 51 |
-| 20  | faslker  | 51 |
-| 20  | noconcept_  | 51 |
-| 20  | wisdom_frog  | 51 |
+| 20  | bubinga  | 52 (+1) |
+| 21 ⬇ | benciee  | 51 |
+| 21 ⬇ | faslker  | 51 |
+| 21 ⬇ | noconcept_  | 51 |
+| 21 ⬇ | wisdom_frog  | 51 |
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2024-09-08 09:47:23 UTC_
+_Last updated at 2024-09-15 10:37:24 UTC_

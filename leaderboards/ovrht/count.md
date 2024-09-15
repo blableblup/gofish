@@ -1,22 +1,24 @@
 ### Most fish caught in ovrht's chat
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
-| 1 🥇  | ovrht  | 196 (+7) |
+| 1 🥇  | ovrht  | 202 (+6) |
 | 2 🥈  | alenakuz03*  | 115 |
-| 3 🥉 ⬆ | sgvabl*  | 64 (+15) |
-| 4 ⬇ | dan1lew*  | 56 |
-| 5 ⬇ | nightbot*  | 51 |
-| 6 ⬆ | virxverok*  | 50 (+4) |
-| 7 ⬇ | wizzyy6*  | 48 |
+| 3 🥉  | sgvabl*  | 76 (+12) |
+| 4  | dan1lew*  | 57 (+1) |
+| 5 ⬆ | virxverok*  | 55 (+5) |
+| 6 ⬇ | nightbot*  | 51 |
+| 7  | wizzyy6*  | 48 |
 | 8  | klyne_qq*  | 37 |
-| 9  | diloindys*  | 25 (+3) |
-| 10  | fofee_n*  | 20 |
-| 10 ⬆ | wiazuh*  | 20 (+4) |
-| 12 ⬇ | k1lk4_*  | 17 |
-| 12  | miaquiet*  | 17 (+1) |
-| 14  | ewweddz*  | 12 (+1) |
-| 15 🆕 | wenlygga*  | 11 |
+| 9  | diloindys*  | 33 (+8) |
+| 10  | wiazuh*  | 22 (+2) |
+| 11 ⬇ | fofee_n*  | 21 (+1) |
+| 12  | miaquiet*  | 20 (+3) |
+| 13 ⬇ | k1lk4_*  | 17 |
+| 14 🆕 | offwhiteairforc3_*  | 13 |
+| 15 ⬇ | ewweddz*  | 12 |
+| 15  | wenlygga*  | 12 (+1) |
+| 17 🆕 | kvgch*  | 10 |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2024-09-08 09:42:11 UTC_
+_Last updated at 2024-09-15 10:37:20 UTC_
