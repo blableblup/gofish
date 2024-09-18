@@ -20,7 +20,6 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 
 	globalFishTypesCount := make(map[string]data.FishInfo)
 	var filePath, titlerare string
-	var fishInfo data.FishInfo
 
 	if path == "" {
 		filePath = filepath.Join("leaderboards", "global", "rare.md")
@@ -73,6 +72,7 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 
 		// Iterate through the query results and store fish type count for each chat
 		for rows.Next() {
+			var fishInfo data.FishInfo
 
 			if err := rows.Scan(&fishInfo.TypeName, &fishInfo.Count); err != nil {
 				logs.Logs().Error().Err(err).

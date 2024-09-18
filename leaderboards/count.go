@@ -26,7 +26,6 @@ func processCount(params LeaderboardParams) {
 
 	fishCaught := make(map[string]data.FishInfo)
 	var filePath, titletotalcount string
-	var fishInfo data.FishInfo
 
 	if path == "" {
 		filePath = filepath.Join("leaderboards", chatName, "count.md")
@@ -71,6 +70,8 @@ func processCount(params LeaderboardParams) {
 	defer rows.Close()
 
 	for rows.Next() {
+		var fishInfo data.FishInfo
+
 		if err := rows.Scan(&fishInfo.PlayerID, &fishInfo.Count); err != nil {
 			logs.Logs().Error().Err(err).
 				Str("Chat", chatName).
