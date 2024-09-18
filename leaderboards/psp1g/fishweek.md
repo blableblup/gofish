@@ -25,12 +25,12 @@
 | 22  | mikel1g  | 31 |
 | 23  | noconcept_  | 29 |
 | 24  | creepycode  | 26 |
-| 25 🆕 | angus_lpc  | 24 |
+| 25  | angus_lpc  | 24 |
 | 25  | theevirus  | 24 |
-| 27 ⬇ | restartmikel  | 23 |
-| 28 ⬇ | afju*  | 21 |
-| 29 ⬇ | iflya320  | 20 |
+| 27  | restartmikel  | 23 |
+| 28  | afju*  | 21 |
+| 29  | iflya320  | 20 |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2024-09-11 09:22:15 UTC_
+_Last updated at 2024-09-18 10:40:01 UTC_
