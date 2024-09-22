@@ -13,8 +13,8 @@
 | 10  | dayzedinndaydreams  | 72 |
 | 10  | kishma9  | 72 |
 | 12  | paras220  | 70 |
-| 13  | ninjaross*  | 65 |
-| 13  | ryebreadward  | 65 |
+| 13  | ninjaross*  | 66 (+1) |
+| 14 ⬇ | ryebreadward  | 65 |
 | 15  | crazytown_bananapants  | 64 |
 | 16  | sussy_amonge  | 62 |
 | 17  | dougiefresh_83*  | 61 |
@@ -31,4 +31,4 @@
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2024-09-15 10:37:20 UTC_
+_Last updated at 2024-09-22 09:59:56 UTC_

@@ -16,16 +16,16 @@
 | 11  | flunke_  | 56 |
 | 14  | commanda_u  | 55 |
 | 14  | gorillapark  | 55 |
-| 16  | lobuhtomy  | 54 |
-| 16  | maksmusz*  | 54 |
+| 14 ⬆ | lobuhtomy  | 55 (+1) |
+| 17 ⬇ | maksmusz*  | 54 |
 | 18  | creepycode*  | 53 |
 | 18  | euxoa  | 53 |
-| 20  | bubinga  | 52 (+1) |
-| 21 ⬇ | benciee  | 51 |
-| 21 ⬇ | faslker  | 51 |
-| 21 ⬇ | noconcept_  | 51 |
-| 21 ⬇ | wisdom_frog  | 51 |
+| 20  | bubinga  | 52 |
+| 21  | benciee  | 51 |
+| 21  | faslker  | 51 |
+| 21  | noconcept_  | 51 |
+| 21  | wisdom_frog  | 51 |
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2024-09-15 10:37:24 UTC_
+_Last updated at 2024-09-22 09:59:52 UTC_

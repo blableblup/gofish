@@ -18,8 +18,8 @@
 | 14  | jr_mime  | 69 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) 22  ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) 69  ![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png) 12 |
 | 16  | nndiana*  | 68 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) 68 |
 | 17  | divra__  | 67 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) 52  ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) 63  ![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png) 18 |
-| 18  | ninjaross*  | 66 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) 65  ![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png) 6 |
-| 19  | pengeg  | 65 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) 1  ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) 65  ![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png) 5 |
+| 17 ⬆ | ninjaross*  | 67 (+1) | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) 66  ![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png) 6 |
+| 19  | pengeg  | 65 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) 1  ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) 65  ![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png) 7 |
 | 19  | ryebreadward  | 65 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) 65  ![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png) 12 |
 | 21  | crazytown_bananapants  | 64 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) 64 |
 | 21  | zwockel01  | 64 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) 2  ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) 64 |
@@ -31,4 +31,4 @@
 
 _Only showing fishers who have seen >= 60 fish_
 
-_Last updated at 2024-09-15 10:37:24 UTC_
+_Last updated at 2024-09-22 09:59:56 UTC_
