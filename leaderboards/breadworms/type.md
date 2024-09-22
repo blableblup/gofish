@@ -28,7 +28,7 @@
 | 25  | 🦐 shrimp | 67.05 | 5c33* |
 | 26  | 🐟 fish | 62.65 | derinturitierutz |
 | 27  | 🗡️ dagger | 47.73 | xz_xz |
-| 28  | 🐸 frog | 47.16 (+0.44) | vaiastol |
+| 28  | 🐸 frog | 47.16 | vaiastol |
 | 29  | 🦫 beaver | 43.98 | bapqo |
 | 30  | 🐧 penguin | 41.60 | osnyatsky* |
 | 31  | 🦀 crab | 38.91 | bussinongnocap |
@@ -80,10 +80,10 @@
 | 77  | 👢 boot | 1.98 | derinturitierutz |
 | 78  | 🌿 herb | 1.96 | dayzedinndaydreams |
 | 79  | ⛸️ iceskate | 1.94 | ryebreadward |
-| 80 🆕 | 🌷 tulip | 1.77 | bapqo |
-| 81 ⬇ | 🪶 feather | 0.99 | osnyatsky* |
-| 81 ⬇ | 🧣 scarf | 0.99 | osnyatsky* |
-| 81 ⬇ | 🧤 gloves | 0.99 | sicklymaidrobot |
-| 84 ⬇ | 🦢 swan | 0.17 | chubbyhamster__ |
+| 80  | 🌷 tulip | 1.77 | bapqo |
+| 81  | 🧣 scarf | 0.99 | osnyatsky* |
+| 81  | 🪶 feather | 0.99 | osnyatsky* |
+| 81  | 🧤 gloves | 0.99 | sicklymaidrobot |
+| 84  | 🦢 swan | 0.17 | chubbyhamster__ |
 
-_Last updated at 2024-09-15 10:37:17 UTC_
+_Last updated at 2024-09-22 09:59:50 UTC_

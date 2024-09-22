@@ -6,12 +6,12 @@
 | 3 🥉  | qu4ttromila | 🐳 whale | 303.81 |
 | 4  | osnyatsky | 🐳 whale | 302.88 |
 | 5  | derinturitierutz | 🐳 whale | 301.87 |
-| 6  | chubbyhamster__ | 🐳 whale | 298.10 |
-| 7  | kishma9 | 🐳 whale | 297.37 |
-| 8  | fishingalt | 🐳 whale | 297.27 |
-| 9  | islcfc* | 🐳 whale | 296.57 |
-| 10  | puzzlow | 🐳 whale | 292.04 |
-| 11  | osnyisdead | 🐳 whale | 291.49 |
+| 6 ⬆ | osnyisdead | 🐳 whale | 298.16 (+6.67) |
+| 7 ⬇ | chubbyhamster__ | 🐳 whale | 298.10 |
+| 8 ⬇ | kishma9 | 🐳 whale | 297.37 |
+| 9 ⬇ | fishingalt | 🐳 whale | 297.27 |
+| 10 ⬇ | islcfc* | 🐳 whale | 296.57 |
+| 11 ⬇ | puzzlow | 🐳 whale | 292.04 |
 | 12  | miiiiisho | 🦈 shark | 288.27 |
 | 13  | comiqq | 🐳 whale | 288.19 |
 | 14  | paras220 | 🐳 whale | 287.47 |
@@ -33,21 +33,21 @@
 | 30  | bussinongnocap | 🐢 turtle | 251.35 |
 | 31  | kadaris4h* | 🦕 sauropod | 251.33 |
 | 32  | kaasppeerr | 🦕 sauropod | 241.66 |
-| 33 🆕 | pagmaninoff | 🦕 sauropod | 239.14 |
-| 34 ⬇ | leanmeister | 🦕 sauropod | 236.75 |
-| 35 ⬇ | doublehelicalstructure* | 🦕 sauropod | 235.33 |
-| 36 ⬇ | julialuxel | 🐳 whale | 234.00 |
-| 37 ⬇ | bapqo | 🐉 dragon | 233.48 |
-| 38 ⬇ | supibot | 🦕 sauropod | 231.47 |
-| 39 ⬇ | wispmode | 🐳 whale | 230.99 |
-| 40 ⬇ | mochi_uygqzidbjizjkbehuiw | 🐳 whale | 222.73 |
-| 41 ⬇ | fallen_angels_1995 | 🐳 whale | 219.76 |
-| 42 ⬇ | lazzvli* | 🦈 shark | 215.97 |
-| 43 ⬇ | realtechnine | 🦕 sauropod | 214.11 |
-| 44 ⬇ | divra__ | 🐳 whale | 213.23 |
-| 45 ⬇ | notparasfishalt* | 🐉 dragon | 207.18 |
-| 46 ⬇ | veggesh | 🦈 shark | 206.22 |
+| 33  | pagmaninoff | 🦕 sauropod | 239.14 |
+| 34  | leanmeister | 🦕 sauropod | 236.75 |
+| 35  | doublehelicalstructure* | 🦕 sauropod | 235.33 |
+| 36  | julialuxel | 🐳 whale | 234.00 |
+| 37  | bapqo | 🐉 dragon | 233.48 |
+| 38  | supibot | 🦕 sauropod | 231.47 |
+| 39  | wispmode | 🐳 whale | 230.99 |
+| 40  | mochi_uygqzidbjizjkbehuiw | 🐳 whale | 222.73 |
+| 41  | fallen_angels_1995 | 🐳 whale | 219.76 |
+| 42  | lazzvli* | 🦈 shark | 215.97 |
+| 43  | realtechnine | 🦕 sauropod | 214.11 |
+| 44  | divra__ | 🐳 whale | 213.23 |
+| 45  | notparasfishalt* | 🐉 dragon | 207.18 |
+| 46  | veggesh | 🦈 shark | 206.22 |
 
 _Only showing fish weighing >= 200 lbs_
 
-_Last updated at 2024-09-15 10:37:12 UTC_
+_Last updated at 2024-09-22 09:59:45 UTC_

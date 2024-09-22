@@ -80,9 +80,10 @@
 | 76  | 🥪 sandwich | 1.98 | ovrht |
 | 78  | ⛸️ iceskate | 1.96 | pookiesnowman |
 | 79  | 🍬 candy | 1.89 | flunke_ |
-| 80  | 🦢 swan | 1.26 | mazzo_tv |
-| 81  | 🧤 gloves | 1.00 | kubo7 |
-| 82  | 🪶 feather | 0.98 | amu1g |
-| 83  | 🧣 scarf | 0.92 | blazeblitzzz |
+| 80 🆕 | 🌷 tulip | 1.49 | ocrw |
+| 81 ⬇ | 🦢 swan | 1.26 | mazzo_tv |
+| 82 ⬇ | 🧤 gloves | 1.00 | kubo7 |
+| 82  | 🪶 feather | 1.00 (+0.02) | shadowraider247 |
+| 84 ⬇ | 🧣 scarf | 0.92 | blazeblitzzz |
 
-_Last updated at 2024-09-15 10:37:13 UTC_
+_Last updated at 2024-09-22 09:59:52 UTC_
