@@ -26,7 +26,6 @@ func processUniqueFish(params LeaderboardParams) {
 
 	uniquefishy := make(map[string]data.FishInfo)
 	var filePath, titleunique string
-	var fishInfo data.FishInfo
 	var rows pgx.Rows
 
 	if path == "" {
@@ -95,6 +94,7 @@ func processUniqueFish(params LeaderboardParams) {
 	}
 
 	for rows.Next() {
+		var fishInfo data.FishInfo
 
 		if err := rows.Scan(&fishInfo.PlayerID, &fishInfo.Count); err != nil {
 			logs.Logs().Error().Err(err).
@@ -155,6 +155,8 @@ func processUniqueFish(params LeaderboardParams) {
 					}
 					continue
 				}
+
+				var fishInfo data.FishInfo
 
 				err = pool.QueryRow(context.Background(), `
 					SELECT COUNT(DISTINCT fishname)
