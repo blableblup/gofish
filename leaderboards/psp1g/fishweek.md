@@ -27,10 +27,11 @@
 | 24  | creepycode  | 26 |
 | 25  | angus_lpc  | 24 |
 | 25  | theevirus  | 24 |
+| 27 🆕 | eezi1g  | 23 |
 | 27  | restartmikel  | 23 |
-| 28  | afju*  | 21 |
-| 29  | iflya320  | 20 |
+| 29 ⬇ | afju*  | 21 |
+| 30 ⬇ | iflya320  | 20 |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2024-09-18 10:40:01 UTC_
+_Last updated at 2024-09-25 09:33:22 UTC_
