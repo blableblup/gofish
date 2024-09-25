@@ -1,10 +1,10 @@
 ### Leaderboard for the weekly tournaments in psp1g's chat
 | Rank | Player | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points |
 |------|--------|-------------|------------------|------------------|--------|
-| 1 🥇 | nndiana | 19 (+1) | 13 (+2) | 5 | 72.5 (+5.0) |
-| 2 🥈 | benciee | 7 | 11 | 2 | 33.0 |
-| 3 🥉 | bubinga | 10 (+2) | 2 (+1) | 0 | 32.0 (+7.0) |
-| 4 | huuuuuuuuuuuuuuuuuuuuuurz | 5 | 6 | 2 (+1) | 22.0 (+0.5) |
+| 1 🥇 | nndiana | 20 (+1) | 14 (+1) | 5 | 76.5 (+4.0) |
+| 2 🥈 ⬆| bubinga | 11 (+1) | 3 (+1) | 1 (+1) | 36.5 (+4.5) |
+| 3 🥉 ⬇| benciee | 7 | 11 | 2 | 33.0 |
+| 4 | huuuuuuuuuuuuuuuuuuuuuurz | 5 | 7 (+1) | 3 (+1) | 23.5 (+1.5) |
 | 5 | jemcs_ | 6 | 3 | 0 | 21.0 |
 | 6 | amu1g | 6 | 2 | 0 | 20.0 |
 | 7 | noconcept_ | 4 | 2 | 0 | 14.0 |
@@ -12,9 +12,9 @@
 | 9 | cale4 | 3 | 0 | 5 | 11.5 |
 | 10 | jr_mime | 2 | 4 | 2 | 11.0 |
 | 11 | fonuwu | 3 | 0 | 1 | 9.5 |
-| 11 ⬆| lobuhtomy | 1 | 3 | 7 (+1) | 9.5 (+0.5) |
-| 13 ⬇| pengeg | 2 | 3 | 0 | 9.0 |
-| 13 ⬇| restartmikel | 3 | 0 | 0 | 9.0 |
+| 11 | lobuhtomy | 1 | 3 | 7 | 9.5 |
+| 13 | pengeg | 2 | 3 | 0 | 9.0 |
+| 13 | restartmikel | 3 | 0 | 0 | 9.0 |
 | 15 | sandwichsundays | 1 | 2 | 4 | 7.0 |
 | 15 | thasbe | 2 | 1 | 0 | 7.0 |
 | 17 | mazzo_tv | 0 | 5 | 3 | 6.5 |
@@ -33,4 +33,4 @@
 | 30 | gorillapark | 0 | 0 | 1 | 0.5 |
 | 30 | starducc | 0 | 0 | 1 | 0.5 |
 
-_Last updated at 2024-09-18 10:40:01 UTC_
+_Last updated at 2024-09-25 09:33:22 UTC_
