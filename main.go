@@ -109,6 +109,22 @@ func main() {
 			return
 		}
 
+	case "renamedfish":
+		logs.Logs().Info().
+			Str("Rename pairs", *renamePairs).
+			Str("Program", *program).
+			Msg("Start")
+		namePairs, err := scripts.ProcessRenamePairs(*renamePairs)
+		if err != nil {
+			logs.Logs().Error().Err(err).Msg("Error processing fishname rename pairs")
+			return
+		}
+		err = scripts.UpdateFishNames(namePairs)
+		if err != nil {
+			logs.Logs().Error().Err(err).Msg("Error updating fish names")
+			return
+		}
+
 	case "verified":
 		logs.Logs().Info().
 			Str("Program", *program).
