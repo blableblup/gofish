@@ -6,12 +6,12 @@
 | 3 🥉  | qu4ttromila | 🐳 whale | 303.81 |
 | 4  | osnyatsky | 🐳 whale | 302.88 |
 | 5  | derinturitierutz | 🐳 whale | 301.87 |
-| 6 ⬆ | osnyisdead | 🐳 whale | 298.16 (+6.67) |
-| 7 ⬇ | chubbyhamster__ | 🐳 whale | 298.10 |
-| 8 ⬇ | kishma9 | 🐳 whale | 297.37 |
-| 9 ⬇ | fishingalt | 🐳 whale | 297.27 |
-| 10 ⬇ | islcfc* | 🐳 whale | 296.57 |
-| 11 ⬇ | puzzlow | 🐳 whale | 292.04 |
+| 6  | osnyisdead | 🐳 whale | 298.16 |
+| 7  | chubbyhamster__ | 🐳 whale | 298.10 |
+| 8  | kishma9 | 🐳 whale | 297.37 |
+| 9  | fishingalt | 🐳 whale | 297.27 |
+| 10  | islcfc* | 🐳 whale | 296.57 |
+| 11  | puzzlow | 🐳 whale | 292.04 |
 | 12  | miiiiisho | 🦈 shark | 288.27 |
 | 13  | comiqq | 🐳 whale | 288.19 |
 | 14  | paras220 | 🐳 whale | 287.47 |
@@ -50,4 +50,4 @@
 
 _Only showing fish weighing >= 200 lbs_
 
-_Last updated at 2024-09-22 09:59:45 UTC_
+_Last updated at 2024-09-29 09:30:54 UTC_
