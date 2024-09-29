@@ -23,7 +23,7 @@
 | 20  | 🪸 coral | 20.18 | chubbyhamster__ |
 | 21  | 🕷️ spider | 20.04 | puzzlow |
 | 22  | 🐡 blowfish | 18.91 | toastyso |
-| 23  | 🦠 microbe | 16.85 | toastyso |
+| 23  | 🦠 plankton | 16.85 | toastyso |
 | 24  | 🦦 otter | 15.66 | toastyso |
 | 25  | 🍄 mushroom | 14.18 | puzzlow |
 | 26  | 🪳 cockroach | 12.26 | julialuxel |
@@ -45,10 +45,10 @@
 | 42  | 🐌 snail | 0.67 | chubbyhamster__ |
 | 43  | ⛸️ iceskate | 0.62 | toastyso |
 | 44  | 👟 athleticshoe | 0.53 | supibot |
-| 45  | 🌿 herb | 0.42 | julialuxel |
+| 45  | 🌿 seaweed | 0.42 | julialuxel |
 | 46  | 🧣 scarf | 0.37 | hahppyy |
 | 47  | 🧦 socks | 0.19 | chubbyhamster__ |
 | 48  | 🪀 bobber | 0.00 | julialuxel |
 | 48  | 🍬 candy | 0.00 | toastyso |
 
-_Last updated at 2024-09-22 09:59:47 UTC_
+_Last updated at 2024-09-29 09:30:58 UTC_

@@ -38,7 +38,7 @@
 | 35  | 🧽 sponge | 29.73 | dayzedinndaydreams |
 | 36  | 🪳 cockroach | 26.00 | miiiiisho |
 | 37  | 🎰 slotmachine | 23.11 | qu4ttromila |
-| 38  | 🦠 microbe | 22.00 | osnyatsky |
+| 38  | 🦠 plankton | 22.00 | osnyatsky |
 | 39  | 🐠 tropicalfish | 21.97 | derinturitierutz |
 | 40  | 🪼 jellyfish | 21.87 | sicklymaidrobot |
 | 41  | 🧭 compass | 20.23 | ryebreadward |
@@ -46,7 +46,7 @@
 | 43  | 🪱 worm | 18.95 | derinturitierutz |
 | 44  | 🍄 mushroom | 17.85 | comiqq |
 | 45  | 🦆 duck | 15.69 | derinturitierutz |
-| 46  | 🪀 bobber | 15.53 | chubbyhamster__ |
+| 46  | 🪀 bobber | 15.60 (+0.07) | osnyisdead |
 | 47  | 🪵 log | 15.28 | comiqq |
 | 48  | 🐌 snail | 14.24 | yliathim* |
 | 49  | 🎱 8ball | 12.85 | qu4ttromila |
@@ -59,31 +59,33 @@
 | 56  | 🪹 emptynest | 10.86 | bapqo |
 | 57  | 🪺 nestwitheggs | 10.84 | osnyatsky |
 | 58  | 🦎 lizard | 10.61 | sussy_amonge |
-| 59  | 🩲 briefs | 10.19 | xz_xz |
+| 59  | 🩲 briefs | 10.43 (+0.24) | mitgliederversammlung |
 | 60  | 💀 skull | 9.98 | bussinongnocap |
+| 61 ⬆ | 🧵 wireline | 5.76 (+0.31) | c_mgi |
 | 61  | 🎏 lure | 5.76 | fishingalt |
-| 62  | 🧵 wireline | 5.45 | puzzlow |
 | 63  | 🐚 shell | 5.03 | puzzlow |
 | 64  | 🪝 hook | 4.98 | sussy_amonge |
 | 65  | 🐦‍⬛ blackbird | 4.85 | qu4ttromila |
 | 66  | 🥫 cannedfood | 4.67 | qu4ttromila |
 | 67  | ☘️ shamrock | 3.98 | osnyatsky |
-| 68  | ☂️ umbrella | 2.99 | vaiastol |
-| 69  | 🌹 rose | 2.96 | osnyatsky |
-| 69  | 🥪 sandwich | 2.96 | qu4ttromila |
-| 71  | 🌻 sunflower | 2.78 | fishingalt |
-| 72  | 🍬 candy | 2.60 | 5c33* |
-| 73  | 👟 athleticshoe | 2.00 | kishma9 |
-| 73  | 🧦 socks | 2.00 | osnyatsky* |
-| 73  | 🩴 thongsandal | 2.00 | qu4ttromila |
-| 76  | 🩰 balletshoes | 1.99 | qu4ttromila |
-| 77  | 👢 boot | 1.98 | derinturitierutz |
-| 78  | 🌿 herb | 1.96 | dayzedinndaydreams |
-| 79  | ⛸️ iceskate | 1.94 | ryebreadward |
-| 80  | 🌷 tulip | 1.77 | bapqo |
-| 81  | 🧣 scarf | 0.99 | osnyatsky* |
-| 81  | 🪶 feather | 0.99 | osnyatsky* |
-| 81  | 🧤 gloves | 0.99 | sicklymaidrobot |
-| 84  | 🦢 swan | 0.17 | chubbyhamster__ |
+| 68 🆕 | 🌰 acorn | 3.91 | fishingalt |
+| 69 ⬇ | ☂️ umbrella | 2.99 | vaiastol |
+| 70 ⬇ | 🌹 rose | 2.96 | osnyatsky |
+| 70 ⬇ | 🥪 sandwich | 2.96 | qu4ttromila |
+| 72 ⬇ | 🌻 sunflower | 2.78 | fishingalt |
+| 73 ⬇ | 🍬 candy | 2.60 | 5c33* |
+| 74 ⬇ | 👟 athleticshoe | 2.00 | kishma9 |
+| 74 ⬇ | 🧦 socks | 2.00 | osnyatsky* |
+| 74 ⬇ | 🩴 thongsandal | 2.00 | qu4ttromila |
+| 77 ⬇ | 🩰 balletshoes | 1.99 | qu4ttromila |
+| 78 ⬇ | 👢 boot | 1.98 | derinturitierutz |
+| 79 ⬇ | 🌿 seaweed | 1.96 | dayzedinndaydreams |
+| 80 ⬇ | ⛸️ iceskate | 1.94 | ryebreadward |
+| 81 ⬇ | 🌷 tulip | 1.77 | bapqo |
+| 82 🆕 | 🍁 mapleleaf | 1.00 | fishingalt |
+| 83 ⬇ | 🪶 feather | 0.99 | osnyatsky* |
+| 83 ⬇ | 🧣 scarf | 0.99 | osnyatsky* |
+| 83 ⬇ | 🧤 gloves | 0.99 | sicklymaidrobot |
+| 86 ⬇ | 🦢 swan | 0.17 | chubbyhamster__ |
 
-_Last updated at 2024-09-22 09:59:50 UTC_
+_Last updated at 2024-09-29 09:30:58 UTC_

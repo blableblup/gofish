@@ -38,7 +38,7 @@
 | 35  | 🧽 sponge | 29.61 | datwguy |
 | 36  | 🪳 cockroach | 25.94 | douyinnowmadge |
 | 37  | 🎰 slotmachine | 22.55 | flunke_ |
-| 38  | 🦠 microbe | 21.99 | nndiana |
+| 38  | 🦠 plankton | 21.99 | nndiana |
 | 38  | 🐠 tropicalfish | 21.99 | quinrayy |
 | 40  | 🪼 jellyfish | 21.95 | sandwichsundays |
 | 41  | 🦦 otter | 19.88 | angus_lpc |
@@ -53,37 +53,39 @@
 | 50  | 👒 womanshat | 11.98 | ttecnk |
 | 51  | 🐌 snail | 11.97 | sandwichsundays |
 | 52  | 🧸 teddybear | 11.91 | yaratecs2 |
-| 53  | 🦎 lizard | 10.84 | bosscrazymen |
-| 53  | 🧊 icecube | 10.84 | noconcept_ |
-| 55  | 🎱 8ball | 10.82 | 0_asd |
-| 56  | 🪺 nestwitheggs | 10.31 | syxtuh |
-| 57  | 🩲 briefs | 10.20 | alvaniss1g |
-| 58  | 💀 skull | 9.99 | joleksu |
-| 59  | 🪹 emptynest | 9.31 | mazzo_tv |
+| 53 ⬆ | 🪹 emptynest | 10.91 (+1.60) | veny1g |
+| 54 ⬇ | 🦎 lizard | 10.84 | bosscrazymen |
+| 54 ⬇ | 🧊 icecube | 10.84 | noconcept_ |
+| 56 ⬇ | 🎱 8ball | 10.82 | 0_asd |
+| 57 ⬇ | 🪺 nestwitheggs | 10.31 | syxtuh |
+| 58 ⬇ | 🩲 briefs | 10.20 | alvaniss1g |
+| 59 ⬇ | 💀 skull | 9.99 | joleksu |
 | 60  | 🐦 bird | 9.22 | zwockel01 |
 | 61  | 🧵 wireline | 6.00 | ocrw |
 | 62  | 🪝 hook | 4.99 | thedraingangceo* |
 | 63  | 🎏 lure | 4.97 | caprise627 |
 | 64  | 🥫 cannedfood | 4.91 | huuuuuuuuuuuuuuuuuuuuuurz |
+| 65 🆕 | 🌰 acorn | 4.00 | bubinga |
 | 65  | ☘️ shamrock | 4.00 | divra__ |
 | 65  | 🐚 shell | 4.00 | manianic_ |
-| 67  | 🐦‍⬛ blackbird | 3.93 | flunke_ |
-| 68  | ☂️ umbrella | 2.96 | xanthic_swe |
-| 69  | 🌻 sunflower | 2.95 | ratot |
-| 70  | 🩴 thongsandal | 2.94 | bubinga |
-| 71  | 🌹 rose | 2.88 | zwockel01 |
-| 72  | 👢 boot | 2.00 | jr_mime |
-| 72  | 🧦 socks | 2.00 | manmanboy_ |
-| 72  | 🩰 balletshoes | 2.00 | tomsi1g |
-| 75  | 🌿 herb | 1.99 | angus_lpc |
-| 76  | 👟 athleticshoe | 1.98 | jj_ladic |
-| 76  | 🥪 sandwich | 1.98 | ovrht |
-| 78  | ⛸️ iceskate | 1.96 | pookiesnowman |
-| 79  | 🍬 candy | 1.89 | flunke_ |
-| 80 🆕 | 🌷 tulip | 1.49 | ocrw |
-| 81 ⬇ | 🦢 swan | 1.26 | mazzo_tv |
-| 82 ⬇ | 🧤 gloves | 1.00 | kubo7 |
-| 82  | 🪶 feather | 1.00 (+0.02) | shadowraider247 |
-| 84 ⬇ | 🧣 scarf | 0.92 | blazeblitzzz |
+| 68 ⬇ | 🐦‍⬛ blackbird | 3.93 | flunke_ |
+| 69 ⬇ | ☂️ umbrella | 2.96 | xanthic_swe |
+| 70 ⬇ | 🌻 sunflower | 2.95 | ratot |
+| 71 ⬇ | 🩴 thongsandal | 2.94 | bubinga |
+| 72 ⬇ | 🌹 rose | 2.88 | zwockel01 |
+| 73 ⬇ | 👢 boot | 2.00 | jr_mime |
+| 73 ⬇ | 🧦 socks | 2.00 | manmanboy_ |
+| 73 ⬇ | 🩰 balletshoes | 2.00 | tomsi1g |
+| 76 ⬇ | 🌿 seaweed | 1.99 | angus_lpc |
+| 77 ⬇ | 👟 athleticshoe | 1.98 | jj_ladic |
+| 77 ⬇ | 🥪 sandwich | 1.98 | ovrht |
+| 79 ⬇ | ⛸️ iceskate | 1.96 | pookiesnowman |
+| 80 ⬇ | 🍬 candy | 1.89 | flunke_ |
+| 81 ⬇ | 🌷 tulip | 1.49 | ocrw |
+| 82 ⬇ | 🦢 swan | 1.26 | mazzo_tv |
+| 83 ⬇ | 🧤 gloves | 1.00 | kubo7 |
+| 83 ⬇ | 🪶 feather | 1.00 | shadowraider247 |
+| 85 ⬇ | 🧣 scarf | 0.92 | blazeblitzzz |
+| 86 🆕 | 🍁 mapleleaf | 0.86 | ratot |
 
-_Last updated at 2024-09-22 09:59:52 UTC_
+_Last updated at 2024-09-29 09:30:55 UTC_
