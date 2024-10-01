@@ -1,10 +1,10 @@
 ### Leaderboard for the weekly tournaments in psp1g's chat
 | Rank | Player | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points |
 |------|--------|-------------|------------------|------------------|--------|
-| 1 🥇 | nndiana | 20 (+1) | 14 (+1) | 5 | 76.5 (+4.0) |
-| 2 🥈 ⬆| bubinga | 11 (+1) | 3 (+1) | 1 (+1) | 36.5 (+4.5) |
-| 3 🥉 ⬇| benciee | 7 | 11 | 2 | 33.0 |
-| 4 | huuuuuuuuuuuuuuuuuuuuuurz | 5 | 7 (+1) | 3 (+1) | 23.5 (+1.5) |
+| 1 🥇 | nndiana | 21 (+1) | 16 (+2) | 5 | 81.5 (+5.0) |
+| 2 🥈 | bubinga | 13 (+2) | 4 (+1) | 1 | 43.5 (+7.0) |
+| 3 🥉 | benciee | 7 | 11 | 2 | 33.0 |
+| 4 | huuuuuuuuuuuuuuuuuuuuuurz | 5 | 7 | 5 (+2) | 24.5 (+1.0) |
 | 5 | jemcs_ | 6 | 3 | 0 | 21.0 |
 | 6 | amu1g | 6 | 2 | 0 | 20.0 |
 | 7 | noconcept_ | 4 | 2 | 0 | 14.0 |
@@ -27,10 +27,10 @@
 | 22 | zsipe | 0 | 3 | 0 | 3.0 |
 | 25 | supibot | 0 | 2 | 1 | 2.5 |
 | 26 | commanda_u | 0 | 0 | 4 | 2.0 |
+| 26 ⬆| iflya320 | 0 | 1 | 2 (+1) | 2.0 (+0.5) |
 | 26 | yopego | 0 | 2 | 0 | 2.0 |
-| 28 | crunch_sack | 0 | 0 | 3 | 1.5 |
-| 28 | iflya320 | 0 | 1 | 1 | 1.5 |
+| 29 ⬇| crunch_sack | 0 | 0 | 3 | 1.5 |
 | 30 | gorillapark | 0 | 0 | 1 | 0.5 |
 | 30 | starducc | 0 | 0 | 1 | 0.5 |
 
-_Last updated at 2024-09-25 09:33:22 UTC_
+_Last updated at 2024-10-01 14:36:58 UTC_

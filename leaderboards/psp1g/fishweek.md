@@ -20,18 +20,19 @@
 | 17  | amu1g  | 37 |
 | 17  | commanda_u  | 37 |
 | 17  | pengeg  | 37 |
-| 20  | divra__  | 33 |
-| 21  | glorianeq  | 32 |
-| 22  | mikel1g  | 31 |
-| 23  | noconcept_  | 29 |
-| 24  | creepycode  | 26 |
-| 25  | angus_lpc  | 24 |
-| 25  | theevirus  | 24 |
-| 27 🆕 | eezi1g  | 23 |
-| 27  | restartmikel  | 23 |
-| 29 ⬇ | afju*  | 21 |
-| 30 ⬇ | iflya320  | 20 |
+| 20 ⬆ | iflya320  | 35 (+15) |
+| 21 ⬇ | divra__  | 33 |
+| 22 ⬇ | glorianeq  | 32 |
+| 23 ⬇ | mikel1g  | 31 |
+| 24 ⬇ | noconcept_  | 29 |
+| 25 ⬇ | creepycode  | 26 |
+| 26 ⬇ | angus_lpc  | 24 |
+| 26 🆕 | seryxx  | 24 |
+| 26 ⬇ | theevirus  | 24 |
+| 29 ⬇ | eezi1g  | 23 |
+| 29 ⬇ | restartmikel  | 23 |
+| 31 ⬇ | afju*  | 21 |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2024-09-25 09:33:22 UTC_
+_Last updated at 2024-10-01 14:36:58 UTC_
