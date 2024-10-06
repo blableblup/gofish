@@ -29,25 +29,27 @@
 | 26  | xz_xz | 🐳 whale | 269.03 |
 | 27  | yliathim* | 🐉 dragon | 266.12 |
 | 28  | trident1011 | 🦕 sauropod | 264.95 |
-| 29  | xth49* | 🦕 sauropod | 254.75 |
-| 30  | bussinongnocap | 🐢 turtle | 251.35 |
-| 31  | kadaris4h* | 🦕 sauropod | 251.33 |
-| 32  | kaasppeerr | 🦕 sauropod | 241.66 |
-| 33  | pagmaninoff | 🦕 sauropod | 239.14 |
-| 34  | leanmeister | 🦕 sauropod | 236.75 |
-| 35  | doublehelicalstructure* | 🦕 sauropod | 235.33 |
-| 36  | julialuxel | 🐳 whale | 234.00 |
-| 37  | bapqo | 🐉 dragon | 233.48 |
-| 38  | supibot | 🦕 sauropod | 231.47 |
-| 39  | wispmode | 🐳 whale | 230.99 |
-| 40  | mochi_uygqzidbjizjkbehuiw | 🐳 whale | 222.73 |
-| 41  | fallen_angels_1995 | 🐳 whale | 219.76 |
-| 42  | lazzvli* | 🦈 shark | 215.97 |
-| 43  | realtechnine | 🦕 sauropod | 214.11 |
-| 44  | divra__ | 🐳 whale | 213.23 |
-| 45  | notparasfishalt* | 🐉 dragon | 207.18 |
-| 46  | veggesh | 🦈 shark | 206.22 |
+| 29 🆕 | receipts | 🦕 sauropod | 255.01 |
+| 30 ⬇ | xth49* | 🦕 sauropod | 254.75 |
+| 31 ⬇ | bussinongnocap | 🐢 turtle | 251.35 |
+| 32 ⬇ | kadaris4h* | 🦕 sauropod | 251.33 |
+| 33 ⬇ | kaasppeerr | 🦕 sauropod | 241.66 |
+| 34 ⬇ | pagmaninoff | 🦕 sauropod | 239.14 |
+| 35 ⬇ | leanmeister | 🦕 sauropod | 236.75 |
+| 36 🆕 | idini | 🐳 whale | 236.40 |
+| 37 ⬇ | doublehelicalstructure* | 🦕 sauropod | 235.33 |
+| 38 ⬇ | julialuxel | 🐳 whale | 234.00 |
+| 39 ⬇ | bapqo | 🐉 dragon | 233.48 |
+| 40 ⬇ | supibot | 🦕 sauropod | 231.47 |
+| 41 ⬇ | wispmode | 🐳 whale | 230.99 |
+| 42 ⬇ | mochi_uygqzidbjizjkbehuiw | 🐳 whale | 222.73 |
+| 43 ⬇ | fallen_angels_1995 | 🐳 whale | 219.76 |
+| 44 ⬇ | lazzvli* | 🦈 shark | 215.97 |
+| 45 ⬇ | realtechnine | 🦕 sauropod | 214.11 |
+| 46 ⬇ | divra__ | 🐳 whale | 213.23 |
+| 47 ⬇ | notparasfishalt* | 🐉 dragon | 207.18 |
+| 48 ⬇ | veggesh | 🦈 shark | 206.22 |
 
 _Only showing fish weighing >= 200 lbs_
 
-_Last updated at 2024-09-29 09:30:54 UTC_
+_Last updated at 2024-10-06 09:36:06 UTC_

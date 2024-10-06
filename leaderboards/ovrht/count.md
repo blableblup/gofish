@@ -17,8 +17,8 @@
 | 14  | k1lk4_  | 17 |
 | 14  | wenlygga  | 17 |
 | 16  | ewweddz  | 12 |
-| 17  | kvgch  | 11 (+1) |
+| 17  | kvgch  | 11 |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2024-09-29 09:31:01 UTC_
+_Last updated at 2024-10-06 09:36:12 UTC_
