@@ -9,8 +9,8 @@
 | 6  | derinturitierutz | 🐳 whale | 301.87 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 7  | osnyisdead | 🐳 whale | 298.16 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 8  | chubbyhamster__ | 🐳 whale | 298.10 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
-| 9 ⬆ | nndiana | 🐳 whale | 298.08 (+0.73) | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
-| 10 ⬇ | kishma9 | 🐳 whale | 297.37 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 9  | nndiana | 🐳 whale | 298.08 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
+| 10  | kishma9 | 🐳 whale | 297.37 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 11  | fishingalt | 🐳 whale | 297.27 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 12  | islcfc* | 🐳 whale | 296.57 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 13  | benciee | 🐳 whale | 295.43 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
@@ -50,4 +50,4 @@
 
 _Only showing fish weighing >= 270 lbs_
 
-_Last updated at 2024-09-29 09:30:54 UTC_
+_Last updated at 2024-10-06 09:36:05 UTC_
