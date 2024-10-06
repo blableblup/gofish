@@ -67,7 +67,6 @@ func EnsureTableExists(pool *pgxpool.Pool, tableName string) error {
 					name VARCHAR(255),
 					oldnames TEXT,
 					verified BOOLEAN,
-					cheated BOOLEAN,
 					firstfishdate TIMESTAMP,
 					firstfishchat VARCHAR(255)
 				)
