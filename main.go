@@ -131,6 +131,21 @@ func main() {
 			Msg("Start")
 		scripts.VerifiedPlayers()
 
+	case "updatetwitchids":
+		logs.Logs().Info().
+			Str("Program", *program).
+			Str("Mode", *mode).
+			Msg("Start")
+
+		scripts.UpdateTwitchIDs(*mode)
+
+	case "mergetwitchids":
+		logs.Logs().Info().
+			Str("Program", *program).
+			Msg("Start")
+
+		scripts.MergePlayers()
+
 	default:
 		logs.Logs().Warn().
 			Str("Program", *program).
@@ -142,8 +157,9 @@ func main() {
 func isValidModeForProgram(program, mode string) bool {
 
 	validModes := map[string]map[string]bool{
-		"boards": {"check": true},
-		"data":   {"a": true},
+		"boards":          {"check": true},
+		"updatetwitchids": {"ble": true},
+		"data":            {"a": true},
 	}
 
 	// Check if the provided mode is valid for the specified program
