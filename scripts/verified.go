@@ -2,16 +2,19 @@ package scripts
 
 import (
 	"context"
-	"fmt"
+	"database/sql"
 	"gofish/data"
+	"gofish/logs"
 	"gofish/playerdata"
+	"strings"
 	"time"
 )
 
 func VerifiedPlayers() {
+
 	pool, err := data.Connect()
 	if err != nil {
-		fmt.Println("Error connecting to the database:", err)
+		logs.Logs().Error().Err(err).Msg("Error connecting to database")
 		return
 	}
 	defer pool.Close()
@@ -20,52 +23,62 @@ func VerifiedPlayers() {
 
 	tx, err := pool.Begin(context.Background())
 	if err != nil {
-		fmt.Println("Error starting transaction:", err)
+		logs.Logs().Error().Err(err).Msg("Error starting transaction")
 		return
 	}
 	defer tx.Rollback(context.Background())
 
-	// Prepare a map to store the verification status for each player
 	verificationStatus := make(map[string]bool)
 
-	// Get player data names and their first fish date
+	date := "2023-09-15"
+
+	// Get the player data for supibot fishers
 	rows, err := tx.Query(context.Background(), `
-        SELECT name, firstfishdate FROM playerdata
-    `)
+        SELECT name, oldnames, firstfishdate FROM playerdata
+		where firstfishdate < $1`, date)
 	if err != nil {
-		fmt.Println("Error retrieving player data:", err)
+		logs.Logs().Error().Err(err).Msg("Retrieving playerdata")
 		return
 	}
 	defer rows.Close()
 
 	for rows.Next() {
 		var playerName string
+		var oldnames sql.NullString
 		var firstFishDate time.Time
-		if err := rows.Scan(&playerName, &firstFishDate); err != nil {
-			fmt.Println("Error scanning row:", err)
-			continue
+		if err := rows.Scan(&playerName, &oldnames, &firstFishDate); err != nil {
+			logs.Logs().Error().Err(err).Msg("Error scanning row")
+			return
 		}
 
-		// Check if player's first fish date is before 2023-09-15
-		if firstFishDate.After(time.Date(2023, 9, 15, 0, 0, 0, 0, time.UTC)) {
-			continue // Skip players whose first fish date is after the specified date
-		}
-
-		// Check if player is in the verified players list
+		// Check if player or one of their old names is in the verified players list
 		verified := false
 		for _, verifiedPlayer := range verifiedPlayers {
 			if verifiedPlayer == playerName {
 				verified = true
 				break
 			}
+			if oldnames.Valid {
+				oldname := strings.Split(oldnames.String, " ")
+
+				for _, name := range oldname {
+					if verifiedPlayer == name {
+						logs.Logs().Info().
+							Str("Player", playerName).
+							Str("OldName", name).
+							Msg("Player was verified with an old name")
+						verified = true
+						break
+					}
+				}
+			}
 		}
 
-		// Store the verification status for the player
 		verificationStatus[playerName] = verified
 	}
 
 	if err := rows.Err(); err != nil {
-		fmt.Println("Error iterating over player data rows:", err)
+		logs.Logs().Error().Err(err).Msg("Error iterating over player rows")
 		return
 	}
 
@@ -77,16 +90,22 @@ func VerifiedPlayers() {
             WHERE name = $2
         `, verified, playerName)
 		if err != nil {
-			fmt.Printf("Error updating verified field for player %s: %v\n", playerName, err)
+			logs.Logs().Error().Err(err).
+				Str("Player", playerName).
+				Bool("Verified", verified).
+				Msg("Error updating verified field for player")
 			return
 		}
-		fmt.Printf("Verified field set to %v for player %s\n", verified, playerName)
+		logs.Logs().Info().
+			Str("Player", playerName).
+			Bool("Verified", verified).
+			Msg("Verified field updated for player")
 	}
 
 	// Commit the transaction
 	err = tx.Commit(context.Background())
 	if err != nil {
-		fmt.Println("Error committing transaction:", err)
+		logs.Logs().Error().Err(err).Msg("Error committing transaction")
 		return
 	}
 }
