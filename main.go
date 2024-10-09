@@ -55,7 +55,7 @@ func main() {
 		logs.Logs().Info().Msg("Usage: -p boards [-s <chat names> <all> <global>] [-l <leaderboards>] [-mm <mode>]")
 		logs.Logs().Info().Msg("Usage: -p data [-db <database>] [-m <months>] [-dt <date>] [-mm <mode>]")
 		logs.Logs().Info().Msg("Usage: If no month or time period is specified it checks the current month")
-		logs.Logs().Info().Msg("Usage: -p renamed [-rename <oldName:newName>]")
+		logs.Logs().Info().Msg("Usage: -p renamedfish [-rename <oldName:newName>]")
 		logs.Logs().Info().Msg("To run in debug mode, set -debug to true.")
 		logs.Logs().Info().Msg("Mode 'check': For type,weight,fishweek boards. Only logs new or updated records")
 		logs.Logs().Info().Msg("Mode 'a': For data. Adds every fish caught to FishData instead of just the new ones and inserts the missing fish into the db")
@@ -92,22 +92,6 @@ func main() {
 			Str("Program", *program).
 			Msg("Start")
 		scripts.RunPattern()
-
-	case "renamed":
-		logs.Logs().Info().
-			Str("Rename pairs", *renamePairs).
-			Str("Program", *program).
-			Msg("Start")
-		namePairs, err := scripts.ProcessRenamePairs(*renamePairs)
-		if err != nil {
-			logs.Logs().Error().Err(err).Msg("Error processing rename pairs")
-			return
-		}
-		err = scripts.UpdatePlayerNames(namePairs)
-		if err != nil {
-			logs.Logs().Error().Err(err).Msg("Error updating player names")
-			return
-		}
 
 	case "renamedfish":
 		logs.Logs().Info().
