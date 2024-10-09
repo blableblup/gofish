@@ -2,13 +2,29 @@ package scripts
 
 import (
 	"context"
+	"fmt"
 	"gofish/data"
 	"gofish/logs"
 	"gofish/utils"
+	"strings"
 )
 
-// Updates fish names in fish and fishinfo
-// Uses same flag for the names as renameplayer; so needs to be oldFish:newFish
+// Updates fish names in fish and fishinfo, needs to be oldFish:newFish
+
+func ProcessRenamePairs(renamePairs string) ([]struct{ OldName, NewName string }, error) {
+	// Split renamePairs into pairs
+	renamePairsSlice := strings.Split(renamePairs, ",")
+	var namePairs []struct{ OldName, NewName string }
+	for _, pair := range renamePairsSlice {
+		names := strings.Split(pair, ":")
+		if len(names) != 2 {
+			return nil, fmt.Errorf("invalid pair format: %s", pair)
+		}
+		namePairs = append(namePairs, struct{ OldName, NewName string }{OldName: names[0], NewName: names[1]})
+	}
+	return namePairs, nil
+}
+
 func UpdateFishNames(namePairs []struct{ OldName, NewName string }) error {
 
 	pool, err := data.Connect()
@@ -95,7 +111,7 @@ func UpdateFishNames(namePairs []struct{ OldName, NewName string }) error {
 		}
 	}
 
-	// This is just in case something is weird. But not really needed. Editing the db manually is annoying so everything here has to be done correctly
+	// This is just in case something is weird. But not really needed.
 	confirm, err := utils.Confirm("Continue with the transaction? (y to continue, n to exit)")
 	if err != nil {
 		logs.Logs().Error().Err(err).
