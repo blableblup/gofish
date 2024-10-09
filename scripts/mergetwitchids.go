@@ -14,7 +14,9 @@ import (
 // This script was needed because I got the twitchids without merging the players right away
 // So there were multiple entries with the same twitchid in playerdata
 // This doesnt update the verified status of the player because some renamed
-// And this doesnt consider cases where a name has been used by different accounts multiple times in the past i think ?
+// And this doesnt consider cases where a name has been used by different accounts multiple times in the past
+// Also: If a player who was merged had oldnames in the table, the oldnames are lost, if the oldnames were part of an "oldname" and not the current name
+// But this didnt happen (I think)
 
 // To check ids which are in a table but not in playerdata
 // SELECT playerid from fish
