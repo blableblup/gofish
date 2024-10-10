@@ -2,6 +2,7 @@ package playerdata
 
 import (
 	"encoding/json"
+	"errors"
 	"fmt"
 	"gofish/logs"
 	"io"
@@ -12,6 +13,9 @@ import (
 	"strconv"
 	"time"
 )
+
+// Custom error for not finding a player in both the apis
+var ErrNoPlayerFound = errors.New("no player found")
 
 // Try to get the twitch id for a name
 func GetTwitchID(player string) (int, error) {
@@ -61,7 +65,7 @@ func GetTwitchID(player string) (int, error) {
 			Str("URL", url).
 			Str("Player", player).
 			Msg("No player found")
-		return 0, fmt.Errorf("no player found")
+		return 0, ErrNoPlayerFound
 	}
 
 	id, err := strconv.Atoi(userdata[0]["id"].(string))
@@ -135,7 +139,7 @@ func GetTwitchID2(player string) (int, error) {
 			Str("URL", url).
 			Str("Player", player).
 			Msg("No player found")
-		return 0, fmt.Errorf("no player found")
+		return 0, ErrNoPlayerFound
 	}
 
 	if userdata["status"].(float64) == 403 {
