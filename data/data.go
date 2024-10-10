@@ -146,6 +146,27 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 	}
 	defer tx.Rollback(context.Background())
 
+	fishinfotable := "fishinfo"
+	if err := utils.EnsureTableExists(pool, fishinfotable); err != nil {
+		logs.Logs().Error().Err(err).Str("Table", fishinfotable).Msg("Error ensuring fishinfo table exists")
+		return err
+	}
+
+	tableName := "fish"
+	if err := utils.EnsureTableExists(pool, tableName); err != nil {
+		logs.Logs().Error().Err(err).Str("Table", tableName).Msg("Error ensuring fish table exists")
+		return err
+	}
+
+	// This is only here and not in tournamentdata, because in order to have tournament results
+	// fish need to have been caught (unless you only check for tournament results)
+	playerdatatable := "playerdata"
+	if err := utils.EnsureTableExists(pool, playerdatatable); err != nil {
+		logs.Logs().Error().Err(err).Str("Table", playerdatatable).Msg("Error ensuring playerdata table exists")
+		return err
+	}
+
+	playerids := make(map[string]int)
 	lastChatIDs := make(map[string]int)
 	newFishCounts := make(map[string]int)
 
@@ -156,12 +177,6 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 	}
 
 	for _, fish := range allFish {
-
-		tableName := "fish"
-		if err := utils.EnsureTableExists(pool, tableName); err != nil {
-			logs.Logs().Error().Err(err).Str("Table", tableName).Msg("Error ensuring table exists")
-			return err
-		}
 
 		// Only needed if mode is a since FishData only adds new fish else.
 		if mode == "a" {
@@ -197,17 +212,17 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 		lastChatIDs[fish.Chat]++
 		chatID := lastChatIDs[fish.Chat]
 
-		playerID, err := playerdata.GetPlayerID(pool, fish.Player, fish.Date, fish.Chat)
-		if err != nil {
-			logs.Logs().Error().Err(err).Str("Player", fish.Player).Msg("Error getting player ID")
-			return err
+		if _, ok := playerids[fish.Player]; !ok {
+			playerID, err := playerdata.GetPlayerID(pool, fish.Player, fish.Date, fish.Chat)
+			if err != nil {
+				logs.Logs().Error().Err(err).Str("Player", fish.Player).Msg("Error getting player ID")
+				return err
+			}
+			playerids[fish.Player] = playerID
 		}
 
-		fishinfotable := "fishinfo"
-		if err := utils.EnsureTableExists(pool, fishinfotable); err != nil {
-			logs.Logs().Error().Err(err).Str("Table", fishinfotable).Msg("Error ensuring fishinfo table exists")
-			return err
-		}
+		playerID := playerids[fish.Player]
+
 		board := false
 		fishName, err := GetFishName(pool, fishinfotable, fish.Type, board)
 		if err != nil {
