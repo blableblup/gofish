@@ -222,10 +222,13 @@ func insertTDataIntoDB(matchingLines []string, chatName string, pool *pgxpool.Po
 		return Results[i].Date.Before(Results[j].Date)
 	})
 
+	playerids := make(map[string]int)
+
 	newResultCounts := 0
 
 	for _, result := range Results {
 
+		// This is here so that you dont create tables for chats with no tournament results
 		tableName := "tournaments" + chatName
 		if err := utils.EnsureTableExists(pool, tableName); err != nil {
 			logs.Logs().Error().Err(err).Str("Table", tableName).Str("Chat", chatName).Msg("Error ensuring table exists")
@@ -250,11 +253,16 @@ func insertTDataIntoDB(matchingLines []string, chatName string, pool *pgxpool.Po
 		}
 
 		// This adds the players checkin result date and chat as their first fish!
-		playerID, err := playerdata.GetPlayerID(pool, result.Player, result.Date, result.Chat)
-		if err != nil {
-			logs.Logs().Error().Err(err).Str("Player", result.Player).Str("Chat", result.Chat).Msg("Error getting player ID")
-			return newResults, err
+		if _, ok := playerids[result.Player]; !ok {
+			playerID, err := playerdata.GetPlayerID(pool, result.Player, result.Date, result.Chat)
+			if err != nil {
+				logs.Logs().Error().Err(err).Str("Player", result.Player).Msg("Error getting player ID")
+				return newResults, err
+			}
+			playerids[result.Player] = playerID
 		}
+
+		playerID := playerids[result.Player]
 
 		query := fmt.Sprintf("INSERT INTO %s ( player, playerid, fishcaught, placement1, totalweight, placement2, biggestfish, placement3, date, bot, chat) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)", tableName)
 		_, err = tx.Exec(context.Background(), query, result.Player, playerID, result.FishCaught, result.FishPlacement, result.TotalWeight,
