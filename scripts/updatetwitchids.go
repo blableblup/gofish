@@ -58,16 +58,9 @@ func UpdateTwitchIDs(mode string) {
 		// Or check the official data from bready
 		id, err := playerdata.GetTwitchID(name)
 		if err != nil {
-			id, err = playerdata.GetTwitchID2(name)
+			id, err = CheckTwitchID23(name)
 			if err != nil {
-				id, err = playerdata.GetTwitchID3(name)
-				if err != nil {
-					logs.Logs().Error().Err(err).
-						Str("Player", name).
-						Msg("Error getting twitch id for player")
-					continue
-				}
-
+				continue
 			}
 		}
 
@@ -88,4 +81,20 @@ func UpdateTwitchIDs(mode string) {
 			Int("ID", id).
 			Msg("Updated twitch id")
 	}
+}
+
+func CheckTwitchID23(name string) (int, error) {
+
+	id, err := playerdata.GetTwitchID2(name)
+	if err != nil {
+		id, err = playerdata.GetTwitchID3(name)
+		if err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Player", name).
+				Msg("Error getting twitch id for player")
+			return 0, err
+		}
+
+	}
+	return id, nil
 }
