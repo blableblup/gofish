@@ -23,7 +23,7 @@
         "unique_limit": 20,
         "checkfdata": true,
         "checktdata": true,
-        "board_enabled": true
+        "board_enabled": false
       },
       "julialuxel": {
         "logs_host": "https://logs.ivr.fi",
