@@ -11,7 +11,7 @@
 | 8  | sandwichsundays | 🐉 dragon | 284.61 |
 | 9  | bubinga | 🐳 whale | 283.33 |
 | 10  | deogen01 | 🐳 whale | 282.59 |
-| 11  | reaima | 🐳 whale | 281.05 |
+| 11  | sunflowerrr8 | 🐳 whale | 281.05 |
 | 12  | faslker | 🐳 whale | 280.99 |
 | 13  | gorillapark | 🐉 dragon | 280.50 |
 | 14  | lobuhtomy | 🐳 whale | 279.06 |
@@ -31,61 +31,63 @@
 | 28  | f_i_o_r | 🐳 whale | 257.97 |
 | 29  | amu1g | 🦕 sauropod | 256.67 |
 | 30  | trendymirror | 🐳 whale | 256.04 |
-| 31  | rein_chsdg | 🐳 whale | 254.34 |
+| 31  | reinchsdg | 🐳 whale | 254.34 |
 | 32  | yopego | 🐢 turtle | 254.30 |
-| 33 ⬆ | theevirus | 🐉 dragon | 254.10 (+39.25) |
-| 34 ⬇ | copperx9 | 🦕 sauropod | 252.78 |
-| 35 ⬇ | flunke_ | 🐳 whale | 250.84 |
-| 36 ⬇ | wasdecxyq | 🐳 whale | 249.91 |
-| 37 ⬇ | jr_mime | 🐢 turtle | 247.61 |
-| 38 ⬇ | cappo7117 | 🐉 dragon | 247.50 |
-| 39 ⬇ | mazzo_tv | 🦕 sauropod | 247.16 |
-| 40 ⬇ | bluberry | 🦕 sauropod | 240.13 |
-| 41 ⬇ | veny1g | 🐢 turtle | 239.60 |
-| 42 ⬇ | markenzy01 | 🦕 sauropod | 238.16 |
-| 43 ⬇ | seryxx | 🐳 whale | 236.49 |
-| 44 ⬇ | quton | 🐳 whale | 234.94 |
-| 45 ⬇ | escapealtdelete | 🐉 dragon | 234.19 |
-| 46 ⬇ | em1ze | 🦕 sauropod | 231.82 |
-| 47 ⬇ | maksmusz | 🦕 sauropod | 231.69 |
-| 48 ⬇ | xkimi1337 | 🦕 sauropod | 230.91 |
-| 49 ⬇ | teskotienpl | 🐳 whale | 228.46 |
-| 50 ⬇ | acidfd174 | 🐍 snake | 227.90 |
-| 51 ⬇ | brachiocs | 🐉 dragon | 226.11 |
-| 52 ⬇ | jj_ladic | 🐳 whale | 222.91 |
-| 53 ⬇ | asthmaa | 🐉 dragon | 220.96 |
-| 54 ⬇ | ratot | 🦕 sauropod | 217.98 |
-| 55 ⬇ | rc_xz | 🐳 whale | 216.62 |
-| 56 ⬇ | duckfackkk | 🐳 whale | 215.83 |
-| 57  | qxxick_ | 🐉 dragon | 214.08 |
-| 58  | obscurecharmling | 🦈 shark | 212.97 |
-| 59 🆕 | alvaniss1g | 🐉 dragon | 212.91 |
-| 60 ⬇ | rttvname | 🐳 whale | 212.06 |
-| 61 ⬇ | eebbbee | 🦕 sauropod | 211.29 |
-| 62 ⬇ | ottexdd | 🐉 dragon | 210.83 |
-| 63 ⬇ | noconcept_ | 🐉 dragon | 210.03 |
-| 64 ⬇ | mikel1g | 🐳 whale | 209.45 |
-| 65 ⬇ | sameone | 🐳 whale | 208.78 |
-| 66 ⬇ | jami1g | 🦈 shark | 208.55 |
-| 67 ⬇ | dx9er | 🐉 dragon | 208.18 |
-| 68 ⬇ | pspisafemboy | 🐳 whale | 207.80 |
-| 69 ⬇ | eskibroyo | 🐉 dragon | 207.00 |
-| 70 ⬇ | sl3id3r | 🐳 whale | 206.99 |
-| 71 ⬇ | moneyhoarder | 🦈 shark | 206.89 |
-| 72 ⬇ | cubedude20 | 🐉 dragon | 206.77 |
-| 73 ⬇ | glorianeq | 🦈 shark | 206.76 |
-| 74 ⬇ | tien_ | 🐳 whale | 205.87 |
-| 75 ⬇ | pookiesnowman | 🐳 whale | 205.15 |
-| 76 ⬇ | norque69 | 🦈 shark | 204.31 |
-| 77 ⬇ | micropotato69 | 🦈 shark | 203.75 |
-| 78 ⬇ | scaryo_o | 🦕 sauropod | 203.52 |
-| 79 ⬇ | red_blade9 | 🦈 shark | 203.47 |
-| 80 ⬇ | psp1g | 🦈 shark | 202.59 |
-| 81 ⬇ | theng | 🦈 shark | 202.21 |
-| 82 ⬇ | ttecnk | 🐉 dragon | 202.20 |
-| 83 ⬇ | juwna | 🐳 whale | 201.19 |
-| 84 ⬇ | finalmorningstar | 🐳 whale | 200.01 |
+| 33  | theevirus | 🐉 dragon | 254.10 |
+| 34  | copperx9 | 🦕 sauropod | 252.78 |
+| 35  | flunke_ | 🐳 whale | 250.84 |
+| 36  | wasdecxyq | 🐳 whale | 249.91 |
+| 37  | jr_mime | 🐢 turtle | 247.61 |
+| 38  | cappo7117 | 🐉 dragon | 247.50 |
+| 39 🆕 | alizuh | 🐉 dragon | 247.21 |
+| 40 ⬇ | mazzo_tv | 🦕 sauropod | 247.16 |
+| 41 🆕 | womenfeet | 🐳 whale | 242.64 |
+| 42 ⬇ | bluberry | 🦕 sauropod | 240.13 |
+| 43 ⬇ | veny1g | 🐢 turtle | 239.60 |
+| 44 ⬇ | markenzy01 | 🦕 sauropod | 238.16 |
+| 45 ⬇ | seryxx | 🐳 whale | 236.49 |
+| 46 ⬇ | quton | 🐳 whale | 234.94 |
+| 47 ⬇ | escapealtdelete | 🐉 dragon | 234.19 |
+| 48 ⬇ | em1ze | 🦕 sauropod | 231.82 |
+| 49 ⬇ | maksmusz | 🦕 sauropod | 231.69 |
+| 50 ⬇ | xkimi1337 | 🦕 sauropod | 230.91 |
+| 51 ⬇ | teskotienpl | 🐳 whale | 228.46 |
+| 52 ⬇ | acid1g | 🐍 snake | 227.90 |
+| 53 ⬇ | brachiocs | 🐉 dragon | 226.11 |
+| 54 ⬇ | jeejee_jjl | 🐳 whale | 222.91 |
+| 55 ⬇ | asthmaa | 🐉 dragon | 220.96 |
+| 56 ⬇ | ratot | 🦕 sauropod | 217.98 |
+| 57 ⬇ | rc_xz | 🐳 whale | 216.62 |
+| 58 ⬇ | duckfackkk | 🐳 whale | 215.83 |
+| 59 ⬇ | qxxick_ | 🐉 dragon | 214.08 |
+| 60 ⬇ | obscurecharmling | 🦈 shark | 212.97 |
+| 61 ⬇ | alvaniss1g | 🐉 dragon | 212.91 |
+| 62 ⬇ | rttvname | 🐳 whale | 212.06 |
+| 63 ⬇ | eebbbee | 🦕 sauropod | 211.29 |
+| 64 ⬇ | ottexdd | 🐉 dragon | 210.83 |
+| 65 ⬇ | noconcept_ | 🐉 dragon | 210.03 |
+| 66 ⬇ | restartmikel | 🐳 whale | 209.45 |
+| 67 ⬇ | sameone | 🐳 whale | 208.78 |
+| 68 ⬇ | jami1g | 🦈 shark | 208.55 |
+| 69 ⬇ | dx9er | 🐉 dragon | 208.18 |
+| 70 ⬇ | pspisafemboy | 🐳 whale | 207.80 |
+| 71 ⬇ | eskibroyo | 🐉 dragon | 207.00 |
+| 72 ⬇ | sl3id3r | 🐳 whale | 206.99 |
+| 73 ⬇ | moneyhoarder | 🦈 shark | 206.89 |
+| 74 ⬇ | cubedude20 | 🐉 dragon | 206.77 |
+| 75 ⬇ | glorianeq | 🦈 shark | 206.76 |
+| 76 ⬇ | tien_ | 🐳 whale | 205.87 |
+| 77 ⬇ | pookiesnowman | 🐳 whale | 205.15 |
+| 78 ⬇ | norque69 | 🦈 shark | 204.31 |
+| 79 ⬇ | micropotato69 | 🦈 shark | 203.75 |
+| 80 ⬇ | scaryo_o | 🦕 sauropod | 203.52 |
+| 81 ⬇ | red_blade9 | 🦈 shark | 203.47 |
+| 82 ⬇ | psp1g | 🦈 shark | 202.59 |
+| 83 ⬇ | theng | 🦈 shark | 202.21 |
+| 84 ⬇ | ttecnk | 🐉 dragon | 202.20 |
+| 85 ⬇ | juwna | 🐳 whale | 201.19 |
+| 86 ⬇ | finalmorningstar | 🐳 whale | 200.01 |
 
 _Only showing fish weighing >= 200 lbs_
 
-_Last updated at 2024-10-06 09:36:05 UTC_
+_Last updated at 2024-10-13 11:21:10 UTC_
