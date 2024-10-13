@@ -25,31 +25,33 @@
 | 22  | niiy | 🐳 whale | 273.90 |
 | 23  | booty_bread | 🐉 dragon | 273.82 |
 | 24  | ninjaross* | 🦑 squid | 273.17 |
-| 25  | crazytown_bananapants | 🦈 shark | 270.42 |
-| 26  | xz_xz | 🐳 whale | 269.03 |
-| 27  | yliathim* | 🐉 dragon | 266.12 |
-| 28  | trident1011 | 🦕 sauropod | 264.95 |
-| 29 🆕 | receipts | 🦕 sauropod | 255.01 |
-| 30 ⬇ | xth49* | 🦕 sauropod | 254.75 |
-| 31 ⬇ | bussinongnocap | 🐢 turtle | 251.35 |
-| 32 ⬇ | kadaris4h* | 🦕 sauropod | 251.33 |
-| 33 ⬇ | kaasppeerr | 🦕 sauropod | 241.66 |
-| 34 ⬇ | pagmaninoff | 🦕 sauropod | 239.14 |
-| 35 ⬇ | leanmeister | 🦕 sauropod | 236.75 |
-| 36 🆕 | idini | 🐳 whale | 236.40 |
-| 37 ⬇ | doublehelicalstructure* | 🦕 sauropod | 235.33 |
-| 38 ⬇ | julialuxel | 🐳 whale | 234.00 |
-| 39 ⬇ | bapqo | 🐉 dragon | 233.48 |
-| 40 ⬇ | supibot | 🦕 sauropod | 231.47 |
-| 41 ⬇ | wispmode | 🐳 whale | 230.99 |
-| 42 ⬇ | mochi_uygqzidbjizjkbehuiw | 🐳 whale | 222.73 |
-| 43 ⬇ | fallen_angels_1995 | 🐳 whale | 219.76 |
-| 44 ⬇ | lazzvli* | 🦈 shark | 215.97 |
-| 45 ⬇ | realtechnine | 🦕 sauropod | 214.11 |
-| 46 ⬇ | divra__ | 🐳 whale | 213.23 |
-| 47 ⬇ | notparasfishalt* | 🐉 dragon | 207.18 |
-| 48 ⬇ | veggesh | 🦈 shark | 206.22 |
+| 25 🆕 | seryxx | 🐉 dragon | 270.97 |
+| 26 ⬇ | crazytown_bananapants | 🦈 shark | 270.42 |
+| 27 ⬇ | xz_xz | 🐳 whale | 269.03 |
+| 28 ⬇ | yliathim* | 🐉 dragon | 266.12 |
+| 29 ⬇ | trident1011 | 🦕 sauropod | 264.95 |
+| 30 ⬇ | receipts | 🦕 sauropod | 255.01 |
+| 31 ⬇ | xth49* | 🦕 sauropod | 254.75 |
+| 32 ⬇ | bussinongnocap | 🐢 turtle | 251.35 |
+| 33 ⬇ | kadaris4h* | 🦕 sauropod | 251.33 |
+| 34 ⬇ | kaasppeerr | 🦕 sauropod | 241.66 |
+| 35 ⬇ | pagmaninoff | 🦕 sauropod | 239.14 |
+| 36 ⬇ | leanmeister | 🦕 sauropod | 236.75 |
+| 37 ⬇ | idini | 🐳 whale | 236.40 |
+| 38 ⬇ | doublehelicalstructure* | 🦕 sauropod | 235.33 |
+| 39 🆕 | houseofieaves | 🦕 sauropod | 234.27 |
+| 40 ⬇ | julialuxel | 🐳 whale | 234.00 |
+| 41 ⬇ | bapqo | 🐉 dragon | 233.48 |
+| 42 ⬇ | supibot | 🦕 sauropod | 231.47 |
+| 43 ⬇ | wispmode | 🐳 whale | 230.99 |
+| 44 ⬇ | mochi_uygqzidbjizjkbehuiw | 🐳 whale | 222.73 |
+| 45 ⬇ | fallen_angels_1995 | 🐳 whale | 219.76 |
+| 46 ⬇ | lazzvli* | 🦈 shark | 215.97 |
+| 47 ⬇ | realtechnine | 🦕 sauropod | 214.11 |
+| 48 ⬇ | divra__ | 🐳 whale | 213.23 |
+| 49 ⬇ | notparasfishalt* | 🐉 dragon | 207.18 |
+| 50 ⬇ | veggesh | 🦈 shark | 206.22 |
 
 _Only showing fish weighing >= 200 lbs_
 
-_Last updated at 2024-10-06 09:36:06 UTC_
+_Last updated at 2024-10-13 11:21:10 UTC_

@@ -32,7 +32,7 @@
 | 29  | jr_mime | 🦑 squid | 282.46 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 30  | hahppyy | 🐉 dragon | 282.25 | ![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png) |
 | 31  | 5c33* | 🐉 dragon | 281.63 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
-| 32  | reaima | 🐳 whale | 281.05 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
+| 32  | sunflowerrr8 | 🐳 whale | 281.05 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
 | 33  | faslker | 🐳 whale | 280.99 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
 | 34  | gorillapark | 🐉 dragon | 280.50 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
 | 35  | lobuhtomy | 🐳 whale | 279.06 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
@@ -46,8 +46,9 @@
 | 43  | booty_bread | 🐉 dragon | 273.82 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 44  | ninjaross* | 🦑 squid | 273.17 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 45  | 6blmue | 🐳 whale | 272.90 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
-| 46  | crazytown_bananapants | 🦈 shark | 270.42 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 46 🆕 | seryxx | 🐉 dragon | 270.97 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 47 ⬇ | crazytown_bananapants | 🦈 shark | 270.42 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 
 _Only showing fish weighing >= 270 lbs_
 
-_Last updated at 2024-10-06 09:36:05 UTC_
+_Last updated at 2024-10-13 11:21:10 UTC_

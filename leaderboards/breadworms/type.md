@@ -56,7 +56,7 @@
 | 53  | 🧸 teddybear | 11.83 | miiiiisho |
 | 54  | 🧃 beveragebox | 11.62 | derinturitierutz |
 | 55  | 🧊 icecube | 10.98 | miiiiisho |
-| 56  | 🪹 emptynest | 10.96 (+0.10) | chubbyhamster__ |
+| 56  | 🪹 emptynest | 10.96 | chubbyhamster__ |
 | 57  | 🪺 nestwitheggs | 10.84 | osnyatsky |
 | 58  | 🦎 lizard | 10.61 | sussy_amonge |
 | 59  | 🩲 briefs | 10.43 | mitgliederversammlung |
@@ -69,23 +69,23 @@
 | 66  | 🥫 cannedfood | 4.67 | qu4ttromila |
 | 67  | ☘️ shamrock | 3.98 | osnyatsky |
 | 68  | 🌰 acorn | 3.91 | fishingalt |
-| 69 ⬆ | 🦢 swan | 3.28 (+3.11) | chubbyhamster__ |
-| 70 ⬇ | ☂️ umbrella | 2.99 | vaiastol |
-| 71 ⬇ | 🌹 rose | 2.96 | osnyatsky |
-| 71 ⬇ | 🥪 sandwich | 2.96 | qu4ttromila |
-| 73 ⬇ | 🌻 sunflower | 2.78 | fishingalt |
-| 74 ⬇ | 🍬 candy | 2.60 | 5c33* |
-| 75 ⬇ | 👟 athleticshoe | 2.00 | kishma9 |
-| 75 ⬇ | 🧦 socks | 2.00 | osnyatsky* |
-| 75 ⬇ | 🩴 thongsandal | 2.00 | qu4ttromila |
-| 78 ⬇ | 🩰 balletshoes | 1.99 | qu4ttromila |
-| 79 ⬇ | 👢 boot | 1.98 | derinturitierutz |
-| 80 ⬇ | 🌿 seaweed | 1.96 | dayzedinndaydreams |
-| 81 ⬇ | ⛸️ iceskate | 1.94 | ryebreadward |
-| 82 ⬇ | 🌷 tulip | 1.77 | bapqo |
-| 83 ⬇ | 🍁 mapleleaf | 1.00 | fishingalt |
-| 84 ⬇ | 🧣 scarf | 0.99 | osnyatsky* |
-| 84 ⬇ | 🪶 feather | 0.99 | osnyatsky* |
-| 84 ⬇ | 🧤 gloves | 0.99 | sicklymaidrobot |
+| 69  | 🦢 swan | 3.28 | chubbyhamster__ |
+| 70  | ☂️ umbrella | 2.99 | vaiastol |
+| 71  | 🌹 rose | 2.96 | osnyatsky |
+| 71  | 🥪 sandwich | 2.96 | qu4ttromila |
+| 73  | 🌻 sunflower | 2.78 | fishingalt |
+| 74  | 🍬 candy | 2.60 | 5c33* |
+| 75  | 👟 athleticshoe | 2.00 | kishma9 |
+| 75  | 🧦 socks | 2.00 | osnyatsky* |
+| 75  | 🩴 thongsandal | 2.00 | qu4ttromila |
+| 78  | 🩰 balletshoes | 1.99 | qu4ttromila |
+| 79  | 👢 boot | 1.98 | derinturitierutz |
+| 80  | 🌿 seaweed | 1.96 | dayzedinndaydreams |
+| 81  | ⛸️ iceskate | 1.94 | ryebreadward |
+| 82  | 🌷 tulip | 1.77 | bapqo |
+| 83  | 🍁 mapleleaf | 1.00 | fishingalt |
+| 84  | 🧣 scarf | 0.99 | osnyatsky* |
+| 84  | 🪶 feather | 0.99 | osnyatsky* |
+| 84  | 🧤 gloves | 0.99 | sicklymaidrobot |
 
-_Last updated at 2024-10-06 09:36:11 UTC_
+_Last updated at 2024-10-13 11:21:08 UTC_

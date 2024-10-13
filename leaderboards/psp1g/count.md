@@ -1,97 +1,100 @@
 ### Most fish caught in psp1g's chat
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
-| 1 🥇  | nndiana*  | 1858 (+121) |
-| 2 🥈  | caprise627*  | 1626 (+33) |
-| 3 🥉  | huuuuuuuuuuuuuuuuuuuuuurz  | 1493 (+105) |
-| 4  | sandwichsundays*  | 1148 (+42) |
-| 5  | jr_mime  | 1089 (+18) |
-| 6  | pengeg  | 1034 |
-| 7 ⬆ | bubinga  | 968 (+94) |
-| 8 ⬆ | zwockel01  | 901 (+31) |
-| 9 ⬇ | benciee  | 888 (+13) |
-| 10  | jemcs_  | 851 (+3) |
-| 11  | mazzo_tv  | 797 (+71) |
-| 12  | amu1g  | 689 |
-| 13  | angus_lpc  | 684 (+11) |
-| 14  | commanda_u  | 584 (+4) |
-| 15 ⬆ | lobuhtomy  | 551 (+60) |
-| 16 ⬇ | flunke_  | 526 (+10) |
-| 17 ⬇ | wisdom_frog  | 496 |
-| 18 ⬆ | gorillapark  | 429 (+17) |
-| 19 ⬆ | veny1g  | 422 (+31) |
-| 20 ⬇ | divra__  | 417 |
-| 21 ⬇ | maksmusz*  | 398 (+1) |
-| 22 ⬇ | fonuwu  | 396 |
-| 23 ⬆ | iflya320  | 380 (+103) |
-| 24 ⬇ | noconcept_  | 373 |
-| 25 ⬇ | seryxx  | 367 (+14) |
-| 26 ⬇ | quinrayy  | 353 |
-| 27 ⬇ | faslker  | 352 |
-| 28 ⬇ | copperx9  | 343 |
-| 29 ⬆ | theevirus  | 334 (+93) |
-| 30 ⬇ | creepycode*  | 322 (+8) |
-| 31 ⬆ | deogen01  | 315 (+36) |
-| 32 ⬇ | markenzy01  | 303 (+15) |
-| 33 ⬇ | euxoa  | 293 |
-| 34 ⬇ | theng  | 285 (+1) |
-| 35 ⬇ | kaspu222  | 278 |
-| 36 ⬇ | qxxick_  | 269 |
-| 37 ⬇ | brachiocs  | 250 (+1) |
-| 38 ⬇ | hahppyy  | 241 |
-| 39  | onarrrrrr  | 230 (+13) |
-| 40 ⬇ | jj_ladic  | 217 |
-| 41  | cale4  | 212 |
-| 42  | cappo7117  | 210 |
-| 43  | popfizzgg  | 206 (+3) |
-| 44 ⬆ | ratot  | 200 (+69) |
-| 44  | trendymirror  | 200 |
-| 46 ⬇ | ocram1g  | 198 (+1) |
-| 47  | bartohehe  | 192 (+7) |
-| 48 ⬇ | wasdecxyq  | 190 |
-| 49 ⬆ | eezi1g  | 179 (+19) |
-| 50 ⬇ | satic____  | 172 |
-| 50 ⬇ | xveso  | 172 |
-| 52 ⬇ | quton  | 165 (+1) |
-| 53 ⬇ | crunch_sack  | 162 |
-| 53 ⬇ | yopego  | 162 (+1) |
-| 55 ⬇ | f_i_o_r  | 160 |
-| 56 ⬇ | jamison1906  | 156 |
-| 57 ⬆ | glorianeq  | 153 (+2) |
-| 57  | kubo7  | 153 (+1) |
-| 57 ⬇ | thasbe  | 153 |
-| 60 ⬇ | pspisafemboy  | 151 |
-| 60 ⬇ | ttecnk  | 151 |
-| 62 ⬇ | adziooooo  | 149 |
-| 63 ⬇ | asthmaa  | 146 |
-| 64 ⬇ | kalechap  | 143 (+5) |
-| 65 ⬆ | bluberry  | 140 (+14) |
-| 66 ⬇ | brunodestar  | 134 |
-| 67 ⬇ | milchfunky*  | 133 |
-| 68  | alvaniss1g  | 132 (+4) |
-| 69 ⬇ | vibepill  | 130 |
-| 70 ⬇ | bcarw  | 129 (+1) |
-| 71 ⬇ | obscurecharmling  | 128 |
-| 71 ⬇ | rttvname  | 128 |
-| 73  | supibot  | 127 (+2) |
-| 74 ⬆ | benlol_l*  | 125 (+1) |
-| 74 ⬇ | ovrht  | 125 |
-| 76 ⬆ | thetaxmen  | 123 (+7) |
-| 77 ⬇ | 6blmue  | 120 |
-| 78 ⬇ | chow_peepohappy*  | 119 |
-| 78 ⬆ | llikotesnecil  | 119 (+10) |
-| 80 ⬇ | eskibroyo  | 118 (+1) |
-| 80 ⬇ | xkimi1337  | 118 |
-| 82 ⬇ | damon_okami*  | 116 |
-| 82 ⬇ | pookiesnowman  | 116 |
-| 84 ⬇ | syxtuh  | 112 |
-| 85 ⬇ | theskritsch  | 109 |
-| 86  | starducc  | 108 |
-| 87  | uni1g  | 104 |
-| 88  | acidfd174  | 103 |
-| 88  | thelantzzz  | 103 |
-| 90  | zeeerux  | 101 |
+| 1 🥇  | nndiana*  | 1962 (+104) |
+| 2 🥈  | caprise627*  | 1648 (+22) |
+| 3 🥉  | huuuuuuuuuuuuuuuuuuuuuurz  | 1571 (+78) |
+| 4  | sandwichsundays*  | 1182 (+34) |
+| 5  | jr_mime  | 1120 (+31) |
+| 6 ⬆ | bubinga  | 1062 (+94) |
+| 7 ⬇ | pengeg  | 1035 (+1) |
+| 8  | zwockel01  | 911 (+10) |
+| 9  | benciee  | 888 |
+| 10  | jemcs_  | 851 |
+| 11  | mazzo_tv  | 838 (+41) |
+| 12 ⬆ | angus_lpc  | 690 (+6) |
+| 13 ⬇ | amu1g  | 689 |
+| 14 ⬆ | lobuhtomy  | 599 (+48) |
+| 15 ⬇ | commanda_u  | 591 (+7) |
+| 16  | flunke_  | 532 (+6) |
+| 17  | wisdom_frog  | 496 |
+| 18  | veny1g  | 464 (+28) |
+| 19  | gorillapark  | 443 (+14) |
+| 19 ⬆ | iflya320  | 443 (+63) |
+| 21 ⬇ | divra__  | 417 |
+| 22 ⬇ | maksmusz*  | 398 |
+| 23 ⬇ | fonuwu  | 396 |
+| 24 ⬇ | quinrayy  | 388 |
+| 25 ⬆ | theevirus  | 376 (+42) |
+| 26 ⬇ | noconcept_  | 373 |
+| 26  | seryxx  | 373 (+6) |
+| 28 ⬇ | faslker  | 352 |
+| 29 ⬆ | deogen01  | 349 (+34) |
+| 30 ⬇ | copperx9  | 343 |
+| 31 ⬇ | creepycode*  | 323 (+1) |
+| 32  | markenzy01  | 314 (+11) |
+| 33  | euxoa  | 293 |
+| 34  | theng  | 285 |
+| 35  | kaspu222  | 278 |
+| 36 ⬆ | brachiocs*  | 273 (+13) |
+| 37 ⬇ | qxxick_  | 269 |
+| 38 ⬆ | ratot  | 253 (+53) |
+| 39 ⬇ | hahppyy  | 241 |
+| 40 ⬇ | onar1g  | 239 (+9) |
+| 41 ⬇ | jeejee_jjl  | 221 |
+| 42 ⬇ | cale4  | 212 |
+| 42 ⬆ | popfizzgg  | 212 (+6) |
+| 44 ⬇ | cappo7117  | 210 |
+| 45 ⬇ | trendymirror  | 200 |
+| 46  | ocram1g  | 199 (+1) |
+| 47 ⬆ | eezi1g  | 196 (+17) |
+| 47  | jami1g  | 196 |
+| 49 ⬇ | bartohehe  | 194 (+2) |
+| 50 ⬇ | wasdecxyq  | 190 |
+| 51  | satic____  | 173 (+1) |
+| 52 ⬇ | xveso  | 172 |
+| 53  | quton  | 166 (+1) |
+| 54  | crunch_sack  | 162 |
+| 54  | yopego  | 162 |
+| 56  | f_i_o_r  | 160 |
+| 57  | syxtuh  | 158 (+1) |
+| 58  | glorianeq  | 154 (+1) |
+| 58  | kubo7  | 154 (+1) |
+| 60 ⬇ | thasbe  | 153 |
+| 61  | pspisafemboy  | 152 (+1) |
+| 62 ⬇ | ttecnk  | 151 |
+| 63 ⬆ | bluberry  | 150 (+10) |
+| 64 ⬇ | adziooooo  | 149 |
+| 65  | kalechap  | 148 (+5) |
+| 66 ⬇ | asthmaa  | 146 |
+| 67  | brunodestar  | 134 |
+| 67 ⬆ | milchfunky*  | 134 (+1) |
+| 69  | alvaniss1g  | 133 (+1) |
+| 70 ⬆ | supibot  | 130 (+3) |
+| 70  | vibepill  | 130 |
+| 72 ⬇ | bcarw  | 129 |
+| 72 ⬆ | thetaxmen  | 129 (+6) |
+| 74 ⬇ | obscurecharmling  | 128 |
+| 74 ⬇ | rttvname  | 128 |
+| 76 ⬇ | benlol_l*  | 125 |
+| 76 ⬆ | llikotesnecil  | 125 (+6) |
+| 76 ⬇ | ovrht  | 125 |
+| 79 ⬇ | restartmikel  | 121 |
+| 80 ⬇ | 6blmue  | 120 |
+| 80 ⬆ | eskibroyo  | 120 (+2) |
+| 82 ⬇ | chow_peepohappy*  | 119 |
+| 82 ⬇ | sunflowerrr8  | 119 |
+| 84 ⬇ | xkimi1337  | 118 |
+| 85  | damon_okami*  | 116 |
+| 85  | pookiesnowman  | 116 |
+| 87  | uni1g  | 114 |
+| 88  | theskritsch  | 109 |
+| 89  | starducc  | 108 |
+| 90 🆕 | aecyne  | 106 |
+| 91 ⬇ | acid1g  | 105 |
+| 92 ⬇ | thelantzzz  | 103 |
+| 93 ⬇ | zeeerux  | 101 |
 
 _Only showing fishers who caught >= 100 fish_
 
-_Last updated at 2024-10-06 09:36:12 UTC_
+_Last updated at 2024-10-13 11:21:05 UTC_
