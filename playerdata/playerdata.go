@@ -3,6 +3,7 @@ package playerdata
 import (
 	"bufio"
 	"context"
+	"database/sql"
 	"errors"
 	"fmt"
 	"gofish/logs"
@@ -17,7 +18,8 @@ import (
 
 func GetPlayerID(pool *pgxpool.Pool, player string, firstFishDate time.Time, firstFishChat string) (int, error) {
 
-	var playerID, twitchID int
+	var playerID int
+	var twitchID sql.NullInt64
 
 	// If a player renamed and hasnt caught a fish since the rename...
 	// this wont find the player in the api and will return 0
@@ -30,11 +32,24 @@ func GetPlayerID(pool *pgxpool.Pool, player string, firstFishDate time.Time, fir
 	}
 
 	err = pool.QueryRow(context.Background(), "SELECT playerid, twitchid FROM playerdata WHERE name = $1", player).Scan(&playerID, &twitchID)
-	// If player already exists and the twitchid is the same, return their player ID
-	// If the api gives the twitchid 0, but the error is nil: the player renamed but hasnt caught a fish with their new name yet
-	// In this case return the playerid since the player has an entry in the table. They will get renamed if they catch a fish with their new name
-	if err == nil && twitchID == apiID || err == nil && apiID == 0 {
-		return playerID, nil
+	if err == nil {
+		if twitchID.Valid {
+			// If player already exists and the twitchid is the same, return their player ID
+			// If the api cant find the twitchid, but the player has a non null twitchid entry: they likely renamed but havent caught a fish with their new name yet
+			if int(twitchID.Int64) == apiID || apiID == 0 {
+				return playerID, nil
+			}
+		} else {
+			// This should only happen if you recheck old logs and one of the 35 players without a twitchid caught a fish
+			if apiID == 0 {
+				logs.Logs().Warn().
+					Str("Player", player).
+					Int("PlayerID", playerID).
+					Int("TwitchID", apiID).
+					Msg("A player does not have a twitchID")
+				return playerID, nil
+			}
+		}
 	} else if err != pgx.ErrNoRows {
 		return 0, err
 	}
@@ -52,7 +67,7 @@ func GetPlayerID(pool *pgxpool.Pool, player string, firstFishDate time.Time, fir
 	}
 
 	// Same name but different twitch id means that the player took someone elses name who fished before
-	if twitchID != apiID {
+	if int(twitchID.Int64) != apiID {
 
 		logs.Logs().Warn().
 			Str("Date", firstFishDate.Format(time.RFC3339)).
