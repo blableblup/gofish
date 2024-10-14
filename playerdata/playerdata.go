@@ -163,11 +163,10 @@ func DidPlayerRename(twitchid int, player string, pool *pgxpool.Pool) (bool, boo
 	err = pool.QueryRow(context.Background(), "SELECT name, playerid FROM playerdata WHERE $1 = ANY(STRING_TO_ARRAY(oldnames, ' '))", player).Scan(&lastoldname, &playerID)
 	if err == nil {
 		logs.Logs().Warn().
-			Str("LastOldName", lastoldname).
+			Str("CurrentName", lastoldname).
 			Str("Player", player).
 			Int("PlayerID", playerID).
-			Int("TwitchID", twitchid).
-			Msg("A player renamed")
+			Msg("A player is an old name")
 		return false, true, lastoldname, playerID, nil // The player renamed
 	} else if err != pgx.ErrNoRows {
 		return false, false, lastoldname, playerID, err
