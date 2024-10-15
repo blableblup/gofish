@@ -202,21 +202,18 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 		chatStats[chatName] = chatInfo
 	}
 
-	updateChatStats(chatStats, oldChatStats, filePath, board, title)
-
-}
-
-func updateChatStats(chatStats map[string]data.FishInfo, oldChatStats map[string]LeaderboardInfo, filepath string, board string, title string) {
 	logs.Logs().Info().
 		Str("Board", board).
 		Msg("Updating leaderboard")
+
 	var titlestats string
 	if title == "" {
 		titlestats = "### Chat leaderboard\n"
 	} else {
 		titlestats = fmt.Sprintf("%s\n", title)
 	}
-	err := writeChatStats(filepath, chatStats, oldChatStats, titlestats)
+
+	err = writeChatStats(filePath, chatStats, oldChatStats, titlestats)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Board", board).
