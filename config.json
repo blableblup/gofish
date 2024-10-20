@@ -74,8 +74,8 @@
       "swormbeard": {
         "logs_host": "https://logs.potat.app",
         "logs_added": "2024/7",
-        "checkfdata": false,
-        "checktdata": false,
+        "checkfdata": true,
+        "checktdata": true,
         "board_enabled": false
       },
       "omie": {
