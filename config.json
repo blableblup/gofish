@@ -89,6 +89,13 @@
         "checktdata": true,
         "board_enabled": true
       },
+      "dizzy": {
+        "logs_host": "https://logs.ivr.fi",
+        "logs_added": "2024/10",
+        "checkfdata": true,
+        "checktdata": true,
+        "board_enabled": false
+      },
       "global": {
         "weight_limit": 270,
         "totalcount_limit": 300,
