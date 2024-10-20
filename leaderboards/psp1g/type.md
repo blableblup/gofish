@@ -15,12 +15,12 @@
 | 12  | 🧞‍♂ malegenie | 141.02 | lobuhtomy |
 | 13  | 🧜‍♀️ mermaid | 139.02 | zwockel01 |
 | 14  | 🦭 seal | 133.15 | caprise627 |
-| 15  | 🐬 dolphin | 119.32 (+0.15) | nndiana |
-| 16 ⬇ | 🦞 lobster | 119.17 | device1g |
+| 15  | 🐬 dolphin | 119.32 | nndiana |
+| 16  | 🦞 lobster | 119.17 | device1g |
 | 17  | 🧟 zombie | 118.60 | asthmaa |
-| 18 ⬆ | 🦇 bat | 117.16 (+19.88) | funnywhitecat12 |
-| 19 ⬇ | 🦪 oyster | 114.43 | wisdom_frog |
-| 20 ⬇ | 🪸 coral | 99.92 | divra__ |
+| 18  | 🦇 bat | 117.16 | funnywhitecat12 |
+| 19  | 🦪 oyster | 114.43 | wisdom_frog |
+| 20  | 🪸 coral | 99.92 | divra__ |
 | 21  | 🪨 rock | 74.24 | caprise627 |
 | 22  | 👑 crown | 73.08 | brunodestar |
 | 23  | 🐟 fish | 63.75 | adziooooo |
@@ -54,12 +54,12 @@
 | 51  | 🐌 snail | 11.97 | sandwichsundays |
 | 52  | 🧸 teddybear | 11.91 | yaratecs2 |
 | 53  | 🪹 emptynest | 10.91 | veny1g |
-| 54 ⬆ | 💀 skull | 10.89 (+0.90) | aecyne |
-| 55 ⬇ | 🦎 lizard | 10.84 | bosscrazymen |
-| 55 ⬇ | 🧊 icecube | 10.84 | noconcept_ |
-| 57 ⬇ | 🎱 8ball | 10.82 | 0_asd |
-| 58 ⬇ | 🪺 nestwitheggs | 10.31 | syxtuh |
-| 59 ⬇ | 🩲 briefs | 10.20 | alvaniss1g |
+| 54  | 💀 skull | 10.89 | aecyne |
+| 55  | 🦎 lizard | 10.84 | bosscrazymen |
+| 55  | 🧊 icecube | 10.84 | noconcept_ |
+| 57  | 🎱 8ball | 10.82 | 0_asd |
+| 58  | 🪺 nestwitheggs | 10.31 | syxtuh |
+| 59  | 🩲 briefs | 10.20 | alvaniss1g |
 | 60  | 🐦 bird | 9.22 | zwockel01 |
 | 61  | 🧵 wireline | 6.00 | ocrw |
 | 62  | 🪝 hook | 4.99 | thedraingangceo* |
@@ -88,4 +88,4 @@
 | 85  | 🍁 mapleleaf | 0.96 | theevirus |
 | 86  | 🧣 scarf | 0.92 | blazeblitzzz |
 
-_Last updated at 2024-10-13 11:21:10 UTC_
+_Last updated at 2024-10-20 10:11:21 UTC_
