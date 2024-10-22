@@ -7,7 +7,6 @@ import (
 	"gofish/data"
 	"gofish/logs"
 	"gofish/playerdata"
-	"gofish/utils"
 	"os"
 	"regexp"
 	"strconv"
@@ -36,7 +35,6 @@ var fishType, bot, player, chat string
 
 func ReadOldTrophyRankings(filePath string, pool *pgxpool.Pool) (map[string]LeaderboardInfo, error) {
 	oldLeaderboardTrophy := make(map[string]LeaderboardInfo)
-	cheaters := playerdata.ReadCheaters()
 
 	// Open the file
 	file, err := os.Open(filePath)
@@ -76,10 +74,6 @@ func ReadOldTrophyRankings(filePath string, pool *pgxpool.Pool) (map[string]Lead
 				return nil, err
 			}
 
-			if utils.Contains(cheaters, player) {
-				continue // Skip processing for ignored players
-			}
-
 			trohpyStr := strings.TrimSpace(parts[3])
 			trophies, _ := strconv.Atoi(strings.Split(trohpyStr, " ")[0])
 			silverMedalsStr := strings.TrimSpace(parts[4])
@@ -108,7 +102,6 @@ func ReadOldTrophyRankings(filePath string, pool *pgxpool.Pool) (map[string]Lead
 
 func ReadWeightRankings(filePath string, pool *pgxpool.Pool) (map[string]LeaderboardInfo, error) {
 	oldLeaderboardWeight := make(map[string]LeaderboardInfo)
-	cheaters := playerdata.ReadCheaters()
 
 	// Open the file
 	file, err := os.Open(filePath)
@@ -147,10 +140,6 @@ func ReadWeightRankings(filePath string, pool *pgxpool.Pool) (map[string]Leaderb
 					Str("OldPlayer", oldplayer).
 					Msg("Error checking if player renamed")
 				return nil, err
-			}
-
-			if utils.Contains(cheaters, player) {
-				continue // Skip processing for ignored players
 			}
 
 			// Get the fish name through get fish name for the fish on the leaderboard
@@ -222,7 +211,6 @@ func ReadWeightRankings(filePath string, pool *pgxpool.Pool) (map[string]Leaderb
 
 func ReadTypeRankings(filePath string, pool *pgxpool.Pool) (map[string]LeaderboardInfo, error) {
 	oldLeaderboardType := make(map[string]LeaderboardInfo)
-	cheaters := playerdata.ReadCheaters()
 
 	// Open the file
 	file, err := os.Open(filePath)
@@ -286,10 +274,6 @@ func ReadTypeRankings(filePath string, pool *pgxpool.Pool) (map[string]Leaderboa
 				return nil, err
 			}
 
-			if utils.Contains(cheaters, player) {
-				continue // Skip processing for ignored players
-			}
-
 			oldWeightStr := strings.TrimSpace(parts[3])
 			re := regexp.MustCompile(`([0-9.]+)`)
 			matches := re.FindStringSubmatch(oldWeightStr)
@@ -334,7 +318,6 @@ func ReadTypeRankings(filePath string, pool *pgxpool.Pool) (map[string]Leaderboa
 
 func ReadTotalcountRankings(filePath string, pool *pgxpool.Pool, isFish bool) (map[string]LeaderboardInfo, error) {
 	oldLeaderboardCount := make(map[string]LeaderboardInfo)
-	cheaters := playerdata.ReadCheaters()
 
 	// Open the file
 	file, err := os.Open(filePath)
@@ -398,10 +381,6 @@ func ReadTotalcountRankings(filePath string, pool *pgxpool.Pool, isFish bool) (m
 						Msg("Error checking if player renamed")
 					return nil, err
 				}
-			}
-
-			if utils.Contains(cheaters, player) {
-				continue // Skip processing for ignored players
 			}
 
 			countStr := strings.TrimSpace(parts[3])

@@ -5,8 +5,6 @@ import (
 	"database/sql"
 	"fmt"
 	"gofish/logs"
-	"gofish/playerdata"
-	"gofish/utils"
 	"regexp"
 	"time"
 
@@ -22,8 +20,6 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 	logs.Logs().Info().Str("URL", url).Str("Chat", chatName).Msg("Fetching fish data")
 
 	for retry := 0; retry < maxRetries; retry++ {
-
-		startTime := time.Now()
 
 		req := fasthttp.AcquireRequest()
 		req.SetRequestURI(url)
@@ -55,12 +51,7 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 			}
 		}
 
-		duration := time.Since(startTime)
-		logs.Logs().Debug().Dur("Duration", duration).Str("URL", url).Str("Chat", chatName).Msg("Time to load URL")
-
 		textContent := string(resp.Body())
-
-		cheaters := playerdata.ReadCheaters()
 
 		patterns := []*regexp.Regexp{
 			MouthPattern,
@@ -80,8 +71,11 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 			bot := fishCatch.Bot
 			catchtype := fishCatch.CatchType
 
-			if utils.Contains(cheaters, player) {
-				continue // Skip processing for ignored players
+			// Skip the two players who cheated here
+			if player == "cyancaesar" || player == "hansworthelias" {
+				if bot == "supibot" {
+					continue
+				}
 			}
 
 			// Update fish type if it has an equivalent
@@ -100,6 +94,7 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 					CatchType: catchtype,
 					Type:      fishType,
 					Chat:      chat,
+					Url:       url,
 				}
 
 				fishData = append(fishData, FishData)
