@@ -1,15 +1,10 @@
 package data
 
 import (
-	"gofish/playerdata"
-	"gofish/utils"
-
 	"github.com/jackc/pgx/v4/pgxpool"
 )
 
 func TData(chatName string, newResults []string, pool *pgxpool.Pool) ([]TrnmInfo, error) {
-
-	cheaters := playerdata.ReadCheaters()
 
 	var tdata []TrnmInfo
 
@@ -28,8 +23,11 @@ func TData(chatName string, newResults []string, pool *pgxpool.Pool) ([]TrnmInfo
 			biggestfishplacement := result.BiggestFishPlacement
 			line := result.Line
 
-			if utils.Contains(cheaters, player) {
-				continue // Skip processing for ignored players
+			// Skip the two players who cheated here
+			if player == "cyancaesar" || player == "hansworthelias" {
+				if bot == "supibot" {
+					continue
+				}
 			}
 
 			chat := chatName
