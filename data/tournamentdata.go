@@ -222,8 +222,6 @@ func insertTDataIntoDB(matchingLines []string, chatName string, pool *pgxpool.Po
 		return Results[i].Date.Before(Results[j].Date)
 	})
 
-	playerids := make(map[string]int)
-
 	newResultCounts := 0
 
 	for _, result := range Results {
