@@ -92,9 +92,13 @@
       "dizzy": {
         "logs_host": "https://logs.ivr.fi",
         "logs_added": "2024/10",
+        "weight_limit": 100,
+        "totalcount_limit": 30,
+        "fishweek_limit": 20,
+        "unique_limit": 20,
         "checkfdata": true,
         "checktdata": true,
-        "board_enabled": false
+        "board_enabled": true
       },
       "global": {
         "weight_limit": 270,
