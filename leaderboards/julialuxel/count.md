@@ -9,4 +9,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2024-10-20 10:11:17 UTC_
+_Last updated at 2024-10-27 10:38:30 UTC_

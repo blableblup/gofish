@@ -18,11 +18,11 @@
 | 15  | larrahey | 🐋 whale2 | 77.98 |
 | 16  | ermnest | 🦑 squid | 77.83 |
 | 17  | choplueys | 🐬 dolphin | 77.20 |
-| 18 🆕 | eelacy | 🐋 whale2 | 69.13 |
-| 19 ⬇ | emotion_01 | 🐋 whale2 | 63.17 |
-| 20 ⬇ | sulypert | 🐙 octopus | 61.78 |
-| 21 ⬇ | houseofieaves | 🐋 whale2 | 61.69 |
+| 18  | eelacy | 🐋 whale2 | 69.13 |
+| 19  | emotion_01 | 🐋 whale2 | 63.17 |
+| 20  | sulypert | 🐙 octopus | 61.78 |
+| 21  | houseofieaves | 🐋 whale2 | 61.69 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2024-10-20 10:11:23 UTC_
+_Last updated at 2024-10-27 10:38:37 UTC_

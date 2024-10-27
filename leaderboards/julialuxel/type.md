@@ -32,26 +32,26 @@
 | 29  | 💀 skull | 8.64 | julialuxel |
 | 30  | 🧊 icecube | 8.17 | julialuxel |
 | 31  | 🦎 lizard | 5.71 | chubbyhamster__ |
-| 32 🆕 | 📱 iphone | 5.63 | gawblemachine |
-| 33 ⬇ | 🐸 frog | 4.25 | chubbyhamster__ |
-| 34 ⬇ | 🎏 lure | 4.03 | toastyso |
-| 35 ⬇ | 🪝 hook | 3.88 | hahppyy |
-| 36 ⬇ | ☘️ shamrock | 3.85 | gawblemachine |
-| 37 ⬇ | 🐚 shell | 3.29 | hahppyy |
-| 38 ⬇ | 🦀 crab | 2.79 | hahppyy |
-| 39 ⬇ | 👢 boot | 1.95 | hahppyy |
-| 40 ⬇ | 🥫 cannedfood | 1.90 | fallen_angels_1995 |
-| 41 ⬇ | 🌰 acorn | 1.34 | julialuxel |
-| 42 ⬇ | 🌹 rose | 0.94 | suavvvvv |
-| 43 ⬇ | 🧤 gloves | 0.86 | hahppyy |
-| 44 ⬇ | 🐦‍⬛ blackbird | 0.69 | ninjaross |
-| 45 ⬇ | 🐌 snail | 0.67 | chubbyhamster__ |
-| 46 ⬇ | ⛸️ iceskate | 0.62 | toastyso |
-| 47 ⬇ | 👟 athleticshoe | 0.53 | supibot |
-| 48 ⬇ | 🌿 seaweed | 0.42 | julialuxel |
-| 49 ⬇ | 🧣 scarf | 0.37 | hahppyy |
-| 50 ⬇ | 🧦 socks | 0.19 | chubbyhamster__ |
-| 51 ⬇ | 🪀 bobber | 0.00 | julialuxel |
-| 51 ⬇ | 🍬 candy | 0.00 | toastyso |
+| 32  | 📱 iphone | 5.63 | gawblemachine |
+| 33  | 🐸 frog | 4.25 | chubbyhamster__ |
+| 34  | 🎏 lure | 4.03 | toastyso |
+| 35  | 🪝 hook | 3.88 | hahppyy |
+| 36  | ☘️ shamrock | 3.85 | gawblemachine |
+| 37  | 🐚 shell | 3.29 | hahppyy |
+| 38  | 🦀 crab | 2.79 | hahppyy |
+| 39  | 👢 boot | 1.95 | hahppyy |
+| 40  | 🥫 cannedfood | 1.90 | fallen_angels_1995 |
+| 41  | 🌰 acorn | 1.34 | julialuxel |
+| 42  | 🌹 rose | 0.94 | suavvvvv |
+| 43  | 🧤 gloves | 0.86 | hahppyy |
+| 44  | 🐦‍⬛ blackbird | 0.69 | ninjaross |
+| 45  | 🐌 snail | 0.67 | chubbyhamster__ |
+| 46  | ⛸️ iceskate | 0.62 | toastyso |
+| 47  | 👟 athleticshoe | 0.53 | supibot |
+| 48  | 🌿 seaweed | 0.42 | julialuxel |
+| 49  | 🧣 scarf | 0.37 | hahppyy |
+| 50  | 🧦 socks | 0.19 | chubbyhamster__ |
+| 51  | 🪀 bobber | 0.00 | julialuxel |
+| 51  | 🍬 candy | 0.00 | toastyso |
 
-_Last updated at 2024-10-20 10:11:22 UTC_
+_Last updated at 2024-10-27 10:38:32 UTC_

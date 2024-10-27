@@ -35,7 +35,7 @@
 | 32  | 🐡 blowfish | 35.81 | bluberry |
 | 33  | 🕷️ spider | 31.29 | huuuuuuuuuuuuuuuuuuuuuurz |
 | 34  | 🥒 cucumber | 31.24 | divra__ |
-| 35  | 🧽 sponge | 29.61 | datwguy |
+| 35  | 🧽 sponge | 29.78 (+0.17) | mazzo_tv |
 | 36  | 🪳 cockroach | 25.94 | release1g |
 | 37  | 🎰 slotmachine | 24.99 | theevirus |
 | 38  | 🦠 plankton | 21.99 | nndiana |
@@ -85,7 +85,7 @@
 | 82  | 🦢 swan | 1.26 | mazzo_tv |
 | 83  | 🧤 gloves | 1.00 | kubo7 |
 | 83  | 🪶 feather | 1.00 | shadowraider247 |
-| 85  | 🍁 mapleleaf | 0.96 | theevirus |
+| 85  | 🍁 mapleleaf | 0.99 (+0.03) | flunke_ |
 | 86  | 🧣 scarf | 0.92 | blazeblitzzz |
 
-_Last updated at 2024-10-20 10:11:21 UTC_
+_Last updated at 2024-10-27 10:38:35 UTC_
