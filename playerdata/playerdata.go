@@ -36,7 +36,15 @@ func GetPlayerID(pool *pgxpool.Pool, player string, firstFishDate time.Time, fir
 		if twitchID.Valid {
 			// If player already exists and the twitchid is the same, return their player ID
 			// If the api cant find the twitchid, but the player has a non null twitchid entry: they likely renamed but havent caught a fish with their new name yet
-			if int(twitchID.Int64) == apiID || apiID == 0 {
+			if int(twitchID.Int64) == apiID {
+				return playerID, nil
+			}
+			if apiID == 0 {
+				logs.Logs().Warn().
+					Str("Player", player).
+					Int("PlayerID", playerID).
+					Int("TwitchID", int(twitchID.Int64)).
+					Msg("A player cannot be found in the API, but has an entry")
 				return playerID, nil
 			}
 		} else {
@@ -153,7 +161,7 @@ func DidPlayerRename(twitchid int, player string, pool *pgxpool.Pool) (bool, boo
 			Int("PlayerID", playerID).
 			Int("TwitchID", twitchid).
 			Msg("A player renamed")
-		return true, false, lastoldname, playerID, nil // The player renamed
+		return true, false, lastoldname, playerID, nil
 	} else if err != pgx.ErrNoRows {
 		return false, false, lastoldname, playerID, err
 	}
@@ -167,7 +175,7 @@ func DidPlayerRename(twitchid int, player string, pool *pgxpool.Pool) (bool, boo
 			Str("Player", player).
 			Int("PlayerID", playerID).
 			Msg("A player is an old name")
-		return false, true, lastoldname, playerID, nil // The player renamed
+		return false, true, lastoldname, playerID, nil
 	} else if err != pgx.ErrNoRows {
 		return false, false, lastoldname, playerID, err
 	}
