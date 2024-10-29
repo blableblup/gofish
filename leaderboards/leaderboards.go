@@ -126,11 +126,6 @@ func processLeaderboard(config utils.Config, params LeaderboardParams, processFu
 			// Process all chats
 			for chatName, chat := range config.Chat {
 				if !chat.BoardsEnabled {
-					if chatName != "default" {
-						logs.Logs().Warn().
-							Str("Chat", chatName).
-							Msg("Skipping chat because board_enabled is false")
-					}
 					continue
 				}
 
