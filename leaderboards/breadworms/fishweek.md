@@ -43,10 +43,10 @@
 | 39  | globcob  | 25 |
 | 41  | rocketpol*  | 24 |
 | 42  | divra__  | 22 |
-| 42 🆕 | larrahey  | 22 |
-| 44 ⬇ | veggesh  | 21 |
-| 45 ⬇ | realtechnine  | 20 |
+| 42  | larrahey  | 22 |
+| 44  | veggesh  | 21 |
+| 45  | realtechnine  | 20 |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2024-10-23 22:33:03 UTC_
+_Last updated at 2024-10-30 13:16:39 UTC_
