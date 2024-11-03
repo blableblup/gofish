@@ -14,7 +14,7 @@
 | 11  | 🐊 crocodile | 149.60 | juwna |
 | 12  | 🧞‍♂ malegenie | 141.02 | lobuhtomy |
 | 13  | 🧜‍♀️ mermaid | 139.02 | zwockel01 |
-| 14  | 🦭 seal | 133.15 | caprise627 |
+| 14  | 🦭 seal | 134.32 (+1.17) | veny1g |
 | 15  | 🐬 dolphin | 119.32 | nndiana |
 | 16  | 🦞 lobster | 119.17 | device1g |
 | 17  | 🧟 zombie | 118.60 | asthmaa |
@@ -35,7 +35,7 @@
 | 32  | 🐡 blowfish | 35.81 | bluberry |
 | 33  | 🕷️ spider | 31.29 | huuuuuuuuuuuuuuuuuuuuuurz |
 | 34  | 🥒 cucumber | 31.24 | divra__ |
-| 35  | 🧽 sponge | 29.78 (+0.17) | mazzo_tv |
+| 35  | 🧽 sponge | 29.78 | mazzo_tv |
 | 36  | 🪳 cockroach | 25.94 | release1g |
 | 37  | 🎰 slotmachine | 24.99 | theevirus |
 | 38  | 🦠 plankton | 21.99 | nndiana |
@@ -85,7 +85,7 @@
 | 82  | 🦢 swan | 1.26 | mazzo_tv |
 | 83  | 🧤 gloves | 1.00 | kubo7 |
 | 83  | 🪶 feather | 1.00 | shadowraider247 |
-| 85  | 🍁 mapleleaf | 0.99 (+0.03) | flunke_ |
+| 85  | 🍁 mapleleaf | 0.99 | flunke_ |
 | 86  | 🧣 scarf | 0.92 | blazeblitzzz |
 
-_Last updated at 2024-10-27 10:38:35 UTC_
+_Last updated at 2024-11-03 11:11:22 UTC_

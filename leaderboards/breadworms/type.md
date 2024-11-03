@@ -61,32 +61,32 @@
 | 58  | 🦎 lizard | 10.61 | sussy_amonge |
 | 59  | 🩲 briefs | 10.43 | mitgliederversammlung |
 | 60  | 💀 skull | 9.98 | bussinongnocap |
-| 61 🆕 | 🦉 owl | 5.90 | c_mgi |
-| 62 ⬇ | 🧵 wireline | 5.76 | c_mgi |
-| 62 ⬇ | 🎏 lure | 5.76 | fishingalt |
-| 64 ⬇ | 🐚 shell | 5.03 | puzzlow |
-| 65 ⬇ | 🪝 hook | 4.98 | sussy_amonge |
-| 66 ⬇ | 🐦‍⬛ blackbird | 4.85 | qu4ttromila |
-| 67 ⬇ | 🥫 cannedfood | 4.67 | qu4ttromila |
-| 68 ⬇ | ☘️ shamrock | 3.98 | osnyatsky |
-| 69 ⬇ | 🌰 acorn | 3.91 | fishingalt |
-| 70 ⬇ | 🦢 swan | 3.28 | chubbyhamster__ |
-| 71 ⬇ | ☂️ umbrella | 2.99 | vaiastol |
-| 72 ⬇ | 🌹 rose | 2.96 | osnyatsky |
-| 72 ⬇ | 🥪 sandwich | 2.96 | qu4ttromila |
-| 74 ⬇ | 🌻 sunflower | 2.78 | fishingalt |
-| 75 ⬇ | 🍬 candy | 2.60 | 5c33* |
-| 76 ⬇ | 👟 athleticshoe | 2.00 | kishma9 |
-| 76 ⬇ | 🧦 socks | 2.00 | osnyatsky* |
-| 76 ⬇ | 🩴 thongsandal | 2.00 | qu4ttromila |
-| 79 ⬇ | 🩰 balletshoes | 1.99 | qu4ttromila |
-| 80 ⬇ | 👢 boot | 1.98 | derinturitierutz |
-| 81 ⬇ | 🌿 seaweed | 1.96 | dayzedinndaydreams |
-| 82 ⬇ | ⛸️ iceskate | 1.94 | ryebreadward |
-| 83 ⬇ | 🌷 tulip | 1.77 | bapqo |
-| 84 ⬇ | 🍁 mapleleaf | 1.00 | fishingalt |
-| 85 ⬇ | 🪶 feather | 0.99 | osnyatsky* |
-| 85 ⬇ | 🧣 scarf | 0.99 | osnyatsky* |
-| 85 ⬇ | 🧤 gloves | 0.99 | sicklymaidrobot |
+| 61  | 🦉 owl | 5.90 | c_mgi |
+| 62  | 🧵 wireline | 5.76 | c_mgi |
+| 62  | 🎏 lure | 5.76 | fishingalt |
+| 64  | 🐚 shell | 5.03 | puzzlow |
+| 65  | 🪝 hook | 4.98 | sussy_amonge |
+| 66  | 🐦‍⬛ blackbird | 4.85 | qu4ttromila |
+| 67  | 🥫 cannedfood | 4.67 | qu4ttromila |
+| 68  | ☘️ shamrock | 3.98 | osnyatsky |
+| 69  | 🌰 acorn | 3.91 | fishingalt |
+| 70  | 🦢 swan | 3.28 | chubbyhamster__ |
+| 71  | ☂️ umbrella | 2.99 | vaiastol |
+| 72  | 🌹 rose | 2.96 | osnyatsky |
+| 72  | 🥪 sandwich | 2.96 | qu4ttromila |
+| 74  | 🌻 sunflower | 2.78 | fishingalt |
+| 75  | 🍬 candy | 2.60 | 5c33* |
+| 76  | 👟 athleticshoe | 2.00 | kishma9 |
+| 76  | 🧦 socks | 2.00 | osnyatsky* |
+| 76  | 🩴 thongsandal | 2.00 | qu4ttromila |
+| 79  | 🩰 balletshoes | 1.99 | qu4ttromila |
+| 80  | 👢 boot | 1.98 | derinturitierutz |
+| 81  | 🌿 seaweed | 1.96 | dayzedinndaydreams |
+| 82  | ⛸️ iceskate | 1.94 | ryebreadward |
+| 83  | 🌷 tulip | 1.77 | bapqo |
+| 84  | 🍁 mapleleaf | 1.00 | fishingalt |
+| 85  | 🧣 scarf | 0.99 | osnyatsky* |
+| 85  | 🪶 feather | 0.99 | osnyatsky* |
+| 85  | 🧤 gloves | 0.99 | sicklymaidrobot |
 
-_Last updated at 2024-10-27 10:38:37 UTC_
+_Last updated at 2024-11-03 11:11:19 UTC_
