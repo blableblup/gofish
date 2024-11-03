@@ -5,7 +5,7 @@
 
 ## About the boards
 
-* The leaderboards are updated every sunday. (The tournament leaderboards are updated later because players need to do +checkin in chat to see their result)
+* The leaderboards are remade every sunday with data up to saturday. This way, the changes match the tournament week. The tournament leaderboards are updated later because players need to do +checkin in chat to see their result
 
 * The * next to a player's name on the leaderboard indicates that they did not migrate their supibot data to gofishgame. Thus, their supibot records are marked with an asterisk because they were not verified for accuracy.
 
