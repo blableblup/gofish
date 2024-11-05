@@ -24,7 +24,7 @@ func EnsureTableExists(pool *pgxpool.Pool, tableName string) error {
 	// Create the appropriate table if it doesn't exist
 	if !exists {
 		switch {
-		case strings.HasPrefix(tableName, "fish"):
+		case tableName == "fish":
 			_, err := pool.Exec(context.Background(), fmt.Sprintf(`
 				CREATE TABLE %s (
 					fishid SERIAL PRIMARY KEY,
