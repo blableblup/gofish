@@ -110,6 +110,7 @@
       },
       "default": {
         "weight_limit": 200,
+        "weight_limit_records": 200,
         "totalcount_limit": 100,
         "fishweek_limit": 20,
         "unique_limit": 50,

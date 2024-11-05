@@ -489,3 +489,66 @@ func ReadOldChatStats(filePath string) (map[string]LeaderboardInfo, error) {
 
 	return oldLeaderboardStats, nil
 }
+
+// Only get the weight and rank here
+// Not using ReadWeightRankings here because thats a map[string] and this is a map[float64]
+func ReadChannelRecords(filepath string, pool *pgxpool.Pool) (map[float64]LeaderboardInfo, error) {
+	oldLeaderboardRecords := make(map[float64]LeaderboardInfo)
+
+	file, err := os.Open(filepath)
+	if err != nil {
+		return oldLeaderboardRecords, nil
+	}
+	defer file.Close()
+
+	scanner := bufio.NewScanner(file)
+	skipHeader := 0
+	for scanner.Scan() {
+		line := scanner.Text()
+		if skipHeader < 3 {
+			skipHeader++
+			continue
+		}
+		if strings.HasPrefix(line, "|") {
+			parts := strings.Split(line, "|")
+
+			rankStr := strings.TrimSpace(parts[1])
+			rank, err := strconv.Atoi(strings.Split(rankStr, " ")[0])
+			if err != nil {
+				return nil, err
+			}
+
+			oldWeightStr := strings.TrimSpace(parts[4])
+			re := regexp.MustCompile(`([0-9.]+)`)
+			matches := re.FindStringSubmatch(oldWeightStr)
+			if len(matches) >= 2 {
+				oldweight, err = strconv.ParseFloat(matches[1], 64)
+				if err != nil {
+					logs.Logs().Error().Err(err).
+						Str("Old weight string", oldWeightStr).
+						Str("Path", filepath).
+						Msg("Could not convert old weight to float64")
+					return nil, err
+				}
+			} else {
+				err = fmt.Errorf("weight invalid")
+				logs.Logs().Error().Err(err).
+					Str("Old weight string", oldWeightStr).
+					Str("Path", filepath).
+					Msg("No valid weight found")
+				return nil, err
+			}
+
+			oldLeaderboardRecords[oldweight] = LeaderboardInfo{
+				Weight: oldweight,
+				Rank:   rank,
+			}
+		}
+	}
+
+	if err := scanner.Err(); err != nil {
+		return nil, err
+	}
+
+	return oldLeaderboardRecords, nil
+}

@@ -8,17 +8,18 @@ import (
 )
 
 type ChatInfo struct {
-	Fishweeklimit   int     `json:"fishweek_limit"`
-	Weightlimit     float64 `json:"weight_limit"`
-	Totalcountlimit int     `json:"totalcount_limit"`
-	Uniquelimit     int     `json:"unique_limit"`
-	LogsHost        string  `json:"logs_host"`
-	LogsHostOld     string  `json:"logs_host_old"`
-	LogsAdded       string  `json:"logs_added"`
-	Emoji           string  `json:"emoji"`
-	CheckFData      bool    `json:"checkfdata"`
-	CheckTData      bool    `json:"checktdata"`
-	BoardsEnabled   bool    `json:"board_enabled"`
+	Fishweeklimit      int     `json:"fishweek_limit"`
+	Weightlimit        float64 `json:"weight_limit"`
+	WeightlimitRecords float64 `json:"weight_limit_records"`
+	Totalcountlimit    int     `json:"totalcount_limit"`
+	Uniquelimit        int     `json:"unique_limit"`
+	LogsHost           string  `json:"logs_host"`
+	LogsHostOld        string  `json:"logs_host_old"`
+	LogsAdded          string  `json:"logs_added"`
+	Emoji              string  `json:"emoji"`
+	CheckFData         bool    `json:"checkfdata"`
+	CheckTData         bool    `json:"checktdata"`
+	BoardsEnabled      bool    `json:"board_enabled"`
 }
 
 type Config struct {
