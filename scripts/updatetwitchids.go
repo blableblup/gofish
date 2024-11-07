@@ -9,7 +9,7 @@ import (
 	"github.com/jackc/pgx/v4"
 )
 
-// Mode ble is checking the twitch ids only for players who dont have one
+// Mode ble is checking the twitch ids for all players, even if they already have one
 func UpdateTwitchIDs(mode string) {
 
 	pool, err := data.Connect()
@@ -24,8 +24,7 @@ func UpdateTwitchIDs(mode string) {
 
 	if mode == "ble" {
 		rows, err = pool.Query(context.Background(), `
-		SELECT name from playerdata
-		WHERE twitchid is null`)
+		SELECT name from playerdata`)
 		if err != nil {
 			logs.Logs().Error().Err(err).
 				Msg("Error querying database")
@@ -34,7 +33,8 @@ func UpdateTwitchIDs(mode string) {
 		defer rows.Close()
 	} else {
 		rows, err = pool.Query(context.Background(), `
-		SELECT name from playerdata`)
+		SELECT name from playerdata
+		WHERE twitchid is null`)
 		if err != nil {
 			logs.Logs().Error().Err(err).
 				Msg("Error querying database")
@@ -58,9 +58,15 @@ func UpdateTwitchIDs(mode string) {
 		// Or check the official data from bready
 		id, err := playerdata.GetTwitchID(name)
 		if err != nil {
-			id, err = CheckTwitchID23(name)
+			id, err = playerdata.GetTwitchID2(name)
 			if err != nil {
-				continue
+				id, err = playerdata.GetTwitchID3(name)
+				if err != nil {
+					logs.Logs().Error().Err(err).
+						Str("Player", name).
+						Msg("Error getting twitch id for player")
+					continue
+				}
 			}
 		}
 
@@ -81,20 +87,4 @@ func UpdateTwitchIDs(mode string) {
 			Int("ID", id).
 			Msg("Updated twitch id")
 	}
-}
-
-func CheckTwitchID23(name string) (int, error) {
-
-	id, err := playerdata.GetTwitchID2(name)
-	if err != nil {
-		id, err = playerdata.GetTwitchID3(name)
-		if err != nil {
-			logs.Logs().Error().Err(err).
-				Str("Player", name).
-				Msg("Error getting twitch id for player")
-			return 0, err
-		}
-
-	}
-	return id, nil
 }
