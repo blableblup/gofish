@@ -64,8 +64,8 @@ func processType(params LeaderboardParams) {
 		) AS sub
 		ON f.fishname = sub.fishname AND f.weight = sub.max_weight
 		WHERE f.chat = $1
-		AND f.chatid = (
-			SELECT MIN(chatid)
+		AND f.date = (
+			SELECT MIN(date)
 			FROM fish
 			WHERE fishname = sub.fishname AND weight = sub.max_weight AND chat = $1
 		)`, chatName, date, date2)
@@ -90,8 +90,8 @@ func processType(params LeaderboardParams) {
 			GROUP BY fishname
 		) AS sub
 		ON f.fishname = sub.fishname AND f.weight = sub.max_weight
-		AND f.fishid = (
-			SELECT MIN(fishid)
+		AND f.date = (
+			SELECT MIN(date)
 			FROM fish
 			WHERE fishname = sub.fishname AND weight = sub.max_weight
 		)`, date, date2)
