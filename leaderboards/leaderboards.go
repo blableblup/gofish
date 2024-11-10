@@ -77,6 +77,8 @@ func Leaderboards(leaderboards string, chatNames string, date string, date2 stri
 			processLeaderboard(config, params, processChannelRecords)
 		case "unique":
 			processLeaderboard(config, params, processUniqueFish)
+		case "typesmall":
+			processLeaderboard(config, params, processTypeSmall)
 		case "fishweek":
 			processLeaderboard(config, params, processFishweek)
 		case "trophy":
@@ -107,6 +109,8 @@ func Leaderboards(leaderboards string, chatNames string, date string, date2 stri
 			processLeaderboard(config, params, processTrophy)
 			params.LeaderboardType = "fishweek"
 			processLeaderboard(config, params, processFishweek)
+			params.LeaderboardType = "typesmall"
+			processLeaderboard(config, params, processTypeSmall)
 			params.LeaderboardType = "unique"
 			processLeaderboard(config, params, processUniqueFish)
 			params.LeaderboardType = "records"
@@ -205,6 +209,9 @@ func processGlobalLeaderboard(params LeaderboardParams) {
 	case "type":
 		params.LeaderboardType += "global"
 		processType(params)
+	case "typesmall":
+		params.LeaderboardType += "global"
+		processTypeSmall(params)
 	case "unique":
 		params.LeaderboardType += "global"
 		processUniqueFish(params)

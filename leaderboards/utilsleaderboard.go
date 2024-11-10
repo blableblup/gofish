@@ -27,20 +27,38 @@ func logRecord(newRecords map[string]data.FishInfo, oldRecords map[string]Leader
 				Int("FishID", newRecord.FishId).
 				Msg("New Record")
 		} else {
-			if newRecord.Weight > oldRecord.Weight {
-				logs.Logs().Info().
-					Str("Date", newRecord.Date.Format(time.RFC3339)).
-					Str("Chat", newRecord.Chat).
-					Float64("Weight", newRecord.Weight).
-					Float64("Old Weight", oldRecord.Weight).
-					Str("TypeName", newRecord.TypeName).
-					Str("CatchType", newRecord.CatchType).
-					Str("FishType", newRecord.Type).
-					Str("Player", newRecord.Player).
-					Str("Board", board).
-					Int("ChatID", newRecord.ChatId).
-					Int("FishID", newRecord.FishId).
-					Msg("Updated Record")
+			if board != "typesmall" && board != "typesmallglobal" {
+				if newRecord.Weight > oldRecord.Weight {
+					logs.Logs().Info().
+						Str("Date", newRecord.Date.Format(time.RFC3339)).
+						Str("Chat", newRecord.Chat).
+						Float64("New_Weight", newRecord.Weight).
+						Float64("Old_Weight", oldRecord.Weight).
+						Str("TypeName", newRecord.TypeName).
+						Str("CatchType", newRecord.CatchType).
+						Str("FishType", newRecord.Type).
+						Str("Player", newRecord.Player).
+						Str("Board", board).
+						Int("ChatID", newRecord.ChatId).
+						Int("FishID", newRecord.FishId).
+						Msg("Updated Record")
+				}
+			} else {
+				if newRecord.Weight < oldRecord.Weight {
+					logs.Logs().Info().
+						Str("Date", newRecord.Date.Format(time.RFC3339)).
+						Str("Chat", newRecord.Chat).
+						Float64("New_Weight", newRecord.Weight).
+						Float64("Old_Weight", oldRecord.Weight).
+						Str("TypeName", newRecord.TypeName).
+						Str("CatchType", newRecord.CatchType).
+						Str("FishType", newRecord.Type).
+						Str("Player", newRecord.Player).
+						Str("Board", board).
+						Int("ChatID", newRecord.ChatId).
+						Int("FishID", newRecord.FishId).
+						Msg("Updated Record")
+				}
 			}
 		}
 	}
