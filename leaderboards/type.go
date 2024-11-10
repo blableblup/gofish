@@ -294,6 +294,7 @@ func writeType(filePath string, recordType map[string]data.FishInfo, oldType map
 		}
 	}
 
+	_, _ = fmt.Fprint(file, "\n_If there are multiple records with the same weight, only the player who caught it first is displayed_\n")
 	_, _ = fmt.Fprintf(file, "\n_Last updated at %s_", time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC"))
 
 	return nil
