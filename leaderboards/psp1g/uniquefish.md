@@ -1,37 +1,37 @@
 ### Players who have seen the most fish in psp1g's chat
 | Rank | Fish | Fish Seen |
 |------|--------|-----------|
-| 1 🥇  | huuuuuuuuuuuuuuuuuuuuuurz  | 78 |
-| 2 🥈  | nndiana*  | 72 (+1) |
-| 3 🥉 ⬇ | caprise627*  | 71 |
-| 3 🥉 ⬇ | jr_mime  | 71 |
+| 1 🥇  | huuuuuuuuuuuuuuuuuuuuuurz  | 79 (+1) |
+| 2 🥈  | nndiana*  | 73 (+1) |
+| 3 🥉  | caprise627*  | 71 |
+| 3 🥉  | jr_mime  | 71 |
 | 5  | pengeg  | 66 |
+| 5 ⬆ | sandwichsundays*  | 66 (+1) |
 | 5  | zwockel01  | 66 |
-| 7  | sandwichsundays*  | 65 (+1) |
-| 8  | divra__  | 63 |
-| 8  | mazzo_tv  | 63 |
-| 10  | lobuhtomy  | 62 (+2) |
-| 11 ⬆ | angus_lpc  | 59 (+2) |
-| 11 ⬆ | bubinga  | 59 (+3) |
-| 11  | flunke_  | 59 |
-| 11  | gorillapark  | 59 |
-| 11  | jemcs_  | 59 |
-| 16 ⬇ | commanda_u  | 57 (+1) |
-| 17 ⬇ | amu1g  | 56 |
+| 8 ⬆ | bubinga  | 65 (+6) |
+| 9 ⬆ | lobuhtomy  | 64 (+2) |
+| 9 ⬇ | mazzo_tv  | 64 (+1) |
+| 11 ⬇ | divra__  | 63 |
+| 12 ⬇ | angus_lpc  | 59 |
+| 12 ⬇ | flunke_  | 59 |
+| 12 ⬇ | gorillapark  | 59 |
+| 12 ⬇ | jemcs_  | 59 |
+| 16  | commanda_u  | 57 |
+| 17  | amu1g  | 56 |
 | 18  | creepycode*  | 55 |
-| 19 ⬆ | deogen01  | 54 (+2) |
-| 19  | iflya320  | 54 |
-| 19  | maksmusz*  | 54 |
-| 22 ⬇ | euxoa  | 53 |
-| 22  | theevirus  | 53 (+1) |
-| 24  | benciee  | 51 |
-| 24  | faslker  | 51 |
-| 24  | noconcept_  | 51 |
-| 24 🆕 | veny1g  | 51 |
-| 24  | wisdom_frog  | 51 |
-| 29 🆕 | ratot  | 50 |
-| 29 ⬇ | seryxx  | 50 |
+| 18 ⬆ | deogen01  | 55 (+1) |
+| 20 ⬇ | iflya320  | 54 |
+| 20 ⬇ | maksmusz*  | 54 |
+| 20 ⬆ | theevirus  | 54 (+1) |
+| 23 ⬆ | benciee  | 53 (+2) |
+| 23 ⬇ | euxoa  | 53 |
+| 25 ⬆ | ratot  | 52 (+2) |
+| 25 ⬇ | veny1g  | 52 (+1) |
+| 27 ⬇ | faslker  | 51 |
+| 27 ⬇ | noconcept_  | 51 |
+| 27 ⬇ | wisdom_frog  | 51 |
+| 30 ⬇ | seryxx  | 50 |
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2024-11-03 11:11:30 UTC_
+_Last updated at 2024-11-10 12:49:10 UTC_

@@ -54,4 +54,6 @@
 | 51  | 🪀 bobber | 0.00 | julialuxel |
 | 51  | 🍬 candy | 0.00 | toastyso |
 
-_Last updated at 2024-11-03 11:11:16 UTC_
+_If there are multiple records with the same weight, only the player who caught it first is displayed_
+
+_Last updated at 2024-11-10 12:48:58 UTC_

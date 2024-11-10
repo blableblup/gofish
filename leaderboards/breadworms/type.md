@@ -26,7 +26,7 @@
 | 23  | 👑 crown | 77.02 | puzzlow |
 | 24  | 🪨 rock | 74.57 | fishingalt |
 | 25  | 🦐 shrimp | 67.05 | 5c33* |
-| 26  | 🐟 fish | 62.65 | derinturitierutz |
+| 26  | 🐟 fish | 63.56 (+0.91) | konsminator |
 | 27  | 🗡️ dagger | 47.73 | xz_xz |
 | 28  | 🐸 frog | 47.16 | vaiastol |
 | 29  | 🦫 beaver | 43.98 | bapqo |
@@ -85,8 +85,10 @@
 | 82  | ⛸️ iceskate | 1.94 | ryebreadward |
 | 83  | 🌷 tulip | 1.77 | bapqo |
 | 84  | 🍁 mapleleaf | 1.00 | fishingalt |
-| 85  | 🧣 scarf | 0.99 | osnyatsky* |
 | 85  | 🪶 feather | 0.99 | osnyatsky* |
+| 85  | 🧣 scarf | 0.99 | osnyatsky* |
 | 85  | 🧤 gloves | 0.99 | sicklymaidrobot |
 
-_Last updated at 2024-11-03 11:11:19 UTC_
+_If there are multiple records with the same weight, only the player who caught it first is displayed_
+
+_Last updated at 2024-11-10 12:48:57 UTC_

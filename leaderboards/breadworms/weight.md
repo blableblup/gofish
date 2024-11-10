@@ -46,14 +46,16 @@
 | 43  | bapqo | 🐉 dragon | 233.48 |
 | 44  | supibot | 🦕 sauropod | 231.47 |
 | 45  | wispmode | 🐳 whale | 230.99 |
-| 46  | mochi_uygqzidbjizjkbehuiw | 🐳 whale | 222.73 |
-| 47  | fallen_angels_1995 | 🐳 whale | 219.76 |
-| 48  | lazzvli* | 🦈 shark | 215.97 |
-| 49  | realtechnine | 🦕 sauropod | 214.11 |
-| 50  | divra__ | 🐳 whale | 213.23 |
-| 51  | notparasfishalt* | 🐉 dragon | 207.18 |
-| 52  | veggesh | 🦈 shark | 206.22 |
+| 46 🆕 | konsminator | 🐍 snake | 229.00 |
+| 47 ⬇ | mochi_uygqzidbjizjkbehuiw | 🐳 whale | 222.73 |
+| 48 ⬇ | fallen_angels_1995 | 🐳 whale | 219.76 |
+| 49 🆕 | mitgliederversammlung | 🦕 sauropod | 219.52 |
+| 50 ⬇ | lazzvli* | 🦈 shark | 215.97 |
+| 51 ⬇ | realtechnine | 🦕 sauropod | 214.11 |
+| 52 ⬇ | divra__ | 🐳 whale | 213.23 |
+| 53 ⬇ | notparasfishalt* | 🐉 dragon | 207.18 |
+| 54 ⬇ | veggesh | 🦈 shark | 206.22 |
 
 _Only showing fish weighing >= 200 lbs_
 
-_Last updated at 2024-11-03 11:11:23 UTC_
+_Last updated at 2024-11-10 12:49:03 UTC_

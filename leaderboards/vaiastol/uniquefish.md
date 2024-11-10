@@ -1,15 +1,15 @@
 ### Players who have seen the most fish in vaiastol's chat
 | Rank | Fish | Fish Seen |
 |------|--------|-----------|
-| 1 🥇  | hahppyy  | 54 (+6) |
-| 2 🥈  | vaiastol  | 42 (+1) |
-| 3 🥉  | divra__  | 41 (+3) |
-| 4 ⬆ | milesdotcom  | 40 (+4) |
-| 5 ⬇ | leastsussyimposter  | 39 (+1) |
-| 6  | dayzedinndaydreams  | 26 |
-| 7  | yoimlee  | 21 (+1) |
-| 8 🆕 | bubinga  | 20 |
+| 1 🥇  | hahppyy  | 58 (+4) |
+| 2 🥈 ⬆ | divra__  | 43 (+2) |
+| 3 🥉 ⬆ | milesdotcom  | 42 (+2) |
+| 3 🥉 ⬇ | vaiastol  | 42 |
+| 5  | leastsussyimposter  | 39 |
+| 6  | dayzedinndaydreams  | 28 (+2) |
+| 7 ⬆ | bubinga  | 25 (+5) |
+| 8 ⬇ | yoimlee  | 23 (+2) |
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2024-11-03 11:11:30 UTC_
+_Last updated at 2024-11-10 12:49:03 UTC_

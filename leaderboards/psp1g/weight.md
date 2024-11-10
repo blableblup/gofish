@@ -2,7 +2,7 @@
 | Rank | Player | Fish | Weight in lbs ⚖️ |
 |------|--------|-----------|---------|
 | 1 🥇  | huuuuuuuuuuuuuuuuuuuuuurz | 🐳 whale | 303.51 |
-| 2 🥈  | nndiana | 🐳 whale | 299.48 (+1.40) |
+| 2 🥈  | nndiana | 🐳 whale | 299.48 |
 | 3 🥉  | benciee | 🐳 whale | 295.43 |
 | 4  | fonuwu | 🐳 whale | 294.10 |
 | 5  | pengeg | 🐳 whale | 293.10 |
@@ -44,52 +44,53 @@
 | 41  | cappo7117 | 🐉 dragon | 247.50 |
 | 42  | alizuh | 🐉 dragon | 247.21 |
 | 43  | mazzo_tv | 🦕 sauropod | 247.16 |
-| 44  | womenfeet | 🐳 whale | 242.64 |
-| 45  | bluberry | 🦕 sauropod | 240.13 |
-| 46  | veny1g | 🐢 turtle | 239.60 |
-| 47  | markenzy01 | 🦕 sauropod | 238.16 |
-| 48  | seryxx | 🐳 whale | 236.49 |
-| 49  | quton | 🐳 whale | 234.94 |
-| 50  | escapealtdelete | 🐉 dragon | 234.19 |
-| 51  | em1ze | 🦕 sauropod | 231.82 |
-| 52  | maksmusz | 🦕 sauropod | 231.69 |
-| 53  | xkimi1337 | 🦕 sauropod | 230.91 |
-| 54  | teskotienpl | 🐳 whale | 228.46 |
-| 55  | acid1g | 🐍 snake | 227.90 |
-| 56  | brachiocs | 🐉 dragon | 226.11 |
-| 57  | jeejee_jjl | 🐳 whale | 222.91 |
-| 58  | asthmaa | 🐉 dragon | 220.96 |
-| 59  | rc_xz | 🐳 whale | 216.62 |
-| 60  | duckfackkk | 🐳 whale | 215.83 |
-| 61  | qxxick_ | 🐉 dragon | 214.08 |
-| 62  | obscurecharmling | 🦈 shark | 212.97 |
-| 63  | alvaniss1g | 🐉 dragon | 212.91 |
-| 64  | rttvname | 🐳 whale | 212.06 |
-| 65  | eebbbee | 🦕 sauropod | 211.29 |
-| 66  | ottexdd | 🐉 dragon | 210.83 |
-| 67  | noconcept_ | 🐉 dragon | 210.03 |
-| 68  | restartmikel | 🐳 whale | 209.45 |
-| 69  | sameone | 🐳 whale | 208.78 |
-| 70  | jami1g | 🦈 shark | 208.55 |
-| 71  | dx9er | 🐉 dragon | 208.18 |
-| 72  | pspisafemboy | 🐳 whale | 207.80 |
-| 73  | eskibroyo | 🐉 dragon | 207.00 |
-| 74  | sl3id3r | 🐳 whale | 206.99 |
-| 75  | moneyhoarder | 🦈 shark | 206.89 |
-| 76  | cubedude20 | 🐉 dragon | 206.77 |
-| 77  | tien_ | 🐳 whale | 205.87 |
-| 78  | onar1g | 🐉 dragon | 205.86 |
-| 79  | pookiesnowman | 🐳 whale | 205.15 |
-| 80  | norque69 | 🦈 shark | 204.31 |
-| 81  | micropotato69 | 🦈 shark | 203.75 |
-| 82  | scaryo_o | 🦕 sauropod | 203.52 |
-| 83  | red_blade9 | 🦈 shark | 203.47 |
-| 84  | psp1g | 🦈 shark | 202.59 |
-| 85  | theng | 🦈 shark | 202.21 |
-| 86  | ttecnk | 🐉 dragon | 202.20 |
-| 87  | juwna | 🐳 whale | 201.19 |
-| 88  | finalmorningstar | 🐳 whale | 200.01 |
+| 44 🆕 | funnywhitecat12 | 🐍 snake | 246.18 |
+| 45 ⬇ | womenfeet | 🐳 whale | 242.64 |
+| 46 ⬇ | bluberry | 🦕 sauropod | 240.13 |
+| 47 ⬇ | veny1g | 🐢 turtle | 239.60 |
+| 48 ⬇ | markenzy01 | 🦕 sauropod | 238.16 |
+| 49 ⬇ | seryxx | 🐳 whale | 236.49 |
+| 50 ⬇ | quton | 🐳 whale | 234.94 |
+| 51 ⬇ | escapealtdelete | 🐉 dragon | 234.19 |
+| 52 ⬇ | em1ze | 🦕 sauropod | 231.82 |
+| 53 ⬇ | maksmusz | 🦕 sauropod | 231.69 |
+| 54 ⬇ | xkimi1337 | 🦕 sauropod | 230.91 |
+| 55 ⬇ | teskotienpl | 🐳 whale | 228.46 |
+| 56 ⬇ | acid1g | 🐍 snake | 227.90 |
+| 57 ⬇ | brachiocs | 🐉 dragon | 226.11 |
+| 58 ⬇ | jeejee_jjl | 🐳 whale | 222.91 |
+| 59 ⬇ | asthmaa | 🐉 dragon | 220.96 |
+| 60 ⬇ | rc_xz | 🐳 whale | 216.62 |
+| 61 ⬇ | duckfackkk | 🐳 whale | 215.83 |
+| 62 ⬇ | qxxick_ | 🐉 dragon | 214.08 |
+| 63 ⬇ | obscurecharmling | 🦈 shark | 212.97 |
+| 64 ⬇ | alvaniss1g | 🐉 dragon | 212.91 |
+| 65 ⬇ | rttvname | 🐳 whale | 212.06 |
+| 66 ⬇ | eebbbee | 🦕 sauropod | 211.29 |
+| 67 ⬇ | ottexdd | 🐉 dragon | 210.83 |
+| 68 ⬇ | noconcept_ | 🐉 dragon | 210.03 |
+| 69 ⬇ | restartmikel | 🐳 whale | 209.45 |
+| 70 ⬇ | sameone | 🐳 whale | 208.78 |
+| 71 ⬇ | jami1g | 🦈 shark | 208.55 |
+| 72 ⬇ | dx9er | 🐉 dragon | 208.18 |
+| 73 ⬇ | pspisafemboy | 🐳 whale | 207.80 |
+| 74 ⬇ | eskibroyo | 🐉 dragon | 207.00 |
+| 75 ⬇ | sl3id3r | 🐳 whale | 206.99 |
+| 76 ⬇ | moneyhoarder | 🦈 shark | 206.89 |
+| 77 ⬇ | cubedude20 | 🐉 dragon | 206.77 |
+| 78 ⬇ | tien_ | 🐳 whale | 205.87 |
+| 79 ⬇ | onar1g | 🐉 dragon | 205.86 |
+| 80 ⬇ | pookiesnowman | 🐳 whale | 205.15 |
+| 81 ⬇ | norque69 | 🦈 shark | 204.31 |
+| 82 ⬇ | micropotato69 | 🦈 shark | 203.75 |
+| 83 ⬇ | scaryo_o | 🦕 sauropod | 203.52 |
+| 84 ⬇ | red_blade9 | 🦈 shark | 203.47 |
+| 85 ⬇ | psp1g | 🦈 shark | 202.59 |
+| 86 ⬇ | theng | 🦈 shark | 202.21 |
+| 87 ⬇ | ttecnk | 🐉 dragon | 202.20 |
+| 88 ⬇ | juwna | 🐳 whale | 201.19 |
+| 89 ⬇ | finalmorningstar | 🐳 whale | 200.01 |
 
 _Only showing fish weighing >= 200 lbs_
 
-_Last updated at 2024-11-03 11:11:23 UTC_
+_Last updated at 2024-11-10 12:49:03 UTC_

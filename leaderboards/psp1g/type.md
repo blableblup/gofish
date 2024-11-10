@@ -14,7 +14,7 @@
 | 11  | 🐊 crocodile | 149.60 | juwna |
 | 12  | 🧞‍♂ malegenie | 141.02 | lobuhtomy |
 | 13  | 🧜‍♀️ mermaid | 139.02 | zwockel01 |
-| 14  | 🦭 seal | 134.32 (+1.17) | veny1g |
+| 14  | 🦭 seal | 134.32 | veny1g |
 | 15  | 🐬 dolphin | 119.32 | nndiana |
 | 16  | 🦞 lobster | 119.17 | device1g |
 | 17  | 🧟 zombie | 118.60 | asthmaa |
@@ -88,4 +88,6 @@
 | 85  | 🍁 mapleleaf | 0.99 | flunke_ |
 | 86  | 🧣 scarf | 0.92 | blazeblitzzz |
 
-_Last updated at 2024-11-03 11:11:22 UTC_
+_If there are multiple records with the same weight, only the player who caught it first is displayed_
+
+_Last updated at 2024-11-10 12:48:55 UTC_
