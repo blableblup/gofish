@@ -71,6 +71,17 @@
         "checktdata": true,
         "board_enabled": false
       },
+      "vaiastol": {
+        "logs_host": "not public",
+        "logs_added": "2024/7",
+        "weight_limit": 50,
+        "totalcount_limit": 10,
+        "fishweek_limit": 10,
+        "unique_limit": 20,
+        "checkfdata": true,
+        "checktdata": true,
+        "board_enabled": true
+      },
       "swormbeard": {
         "logs_host": "https://logs.potat.app",
         "logs_added": "2024/7",
