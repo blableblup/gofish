@@ -141,7 +141,7 @@ func main() {
 func isValidModeForProgram(program, mode string) bool {
 
 	validModes := map[string]map[string]bool{
-		"boards":          {"check": true},
+		"boards":          {"check": true, "force": true},
 		"updatetwitchids": {"ble": true},
 		"data":            {"a": true},
 	}

@@ -20,6 +20,7 @@ func processChannelRecords(params LeaderboardParams) {
 	config := params.Config
 	global := params.Global
 	title := params.Title
+	mode := params.Mode
 	chat := params.Chat
 	pool := params.Pool
 	path := params.Path
@@ -59,6 +60,16 @@ func processChannelRecords(params LeaderboardParams) {
 		return
 	}
 
+	AreMapsSame := didMapsChange(records, oldChannelRecords)
+
+	if AreMapsSame && mode != "force" {
+		logs.Logs().Warn().
+			Str("Board", board).
+			Str("Chat", chatName).
+			Msg("Not updating board because there are no changes")
+		return
+	}
+
 	if title == "" {
 		if global {
 			titlerecords = "### History of global weight records\n"
@@ -90,6 +101,23 @@ func processChannelRecords(params LeaderboardParams) {
 			Str("Chat", chatName).
 			Msg("Leaderboard updated successfully")
 	}
+}
+
+func didMapsChange(newMap map[float64]data.FishInfo, oldMap map[float64]LeaderboardInfo) bool {
+
+	// Dont update the board if there are no changes
+	// If maps are same length, check if a player renamed
+	if len(oldMap) == len(newMap) {
+		for weight := range newMap {
+			if oldMap[weight].Player != newMap[weight].Player {
+				return false
+			}
+		}
+	} else {
+		return false
+	}
+
+	return true
 }
 
 // Select the first fish above the weightlimit -> then select the first fish above that fishes weight -> ...

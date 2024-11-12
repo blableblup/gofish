@@ -490,7 +490,6 @@ func ReadOldChatStats(filePath string) (map[string]LeaderboardInfo, error) {
 	return oldLeaderboardStats, nil
 }
 
-// Only get the weight and rank here
 // Not using ReadWeightRankings here because thats a map[string] and this is a map[float64]
 func ReadChannelRecords(filepath string, pool *pgxpool.Pool) (map[float64]LeaderboardInfo, error) {
 	oldLeaderboardRecords := make(map[float64]LeaderboardInfo)
@@ -518,30 +517,26 @@ func ReadChannelRecords(filepath string, pool *pgxpool.Pool) (map[float64]Leader
 				return nil, err
 			}
 
+			oldPlayerStr := strings.TrimSpace(parts[2])
+			oldplayer := strings.Split(oldPlayerStr, " ")[0]
+			if strings.Contains(oldplayer, "*") {
+				oldplayer = strings.TrimRight(oldplayer, "*")
+			}
+
 			oldWeightStr := strings.TrimSpace(parts[4])
-			re := regexp.MustCompile(`([0-9.]+)`)
-			matches := re.FindStringSubmatch(oldWeightStr)
-			if len(matches) >= 2 {
-				oldweight, err = strconv.ParseFloat(matches[1], 64)
-				if err != nil {
-					logs.Logs().Error().Err(err).
-						Str("Old weight string", oldWeightStr).
-						Str("Path", filepath).
-						Msg("Could not convert old weight to float64")
-					return nil, err
-				}
-			} else {
-				err = fmt.Errorf("weight invalid")
+			oldweight, err = strconv.ParseFloat(oldWeightStr, 64)
+			if err != nil {
 				logs.Logs().Error().Err(err).
 					Str("Old weight string", oldWeightStr).
 					Str("Path", filepath).
-					Msg("No valid weight found")
+					Msg("Could not convert old weight to float64")
 				return nil, err
 			}
 
 			oldLeaderboardRecords[oldweight] = LeaderboardInfo{
 				Weight: oldweight,
 				Rank:   rank,
+				Player: oldplayer,
 			}
 		}
 	}
