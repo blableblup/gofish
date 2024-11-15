@@ -111,7 +111,7 @@ func Asdfjsadgaiga(apiID int, player string, firstFishDate time.Time, firstFishC
 	if renamed {
 
 		// Rename them and return their id
-		err = RenamePlayer(player, oldname, apiID, pool)
+		err = RenamePlayer(player, oldname, apiID, playerID, pool)
 		if err != nil {
 			logs.Logs().Error().Err(err).
 				Int("TwitchID", apiID).
@@ -219,7 +219,7 @@ func AddNewPlayer(twitchid int, player string, firstFishDate time.Time, firstFis
 	return playerID, nil
 }
 
-func RenamePlayer(newName string, oldName string, twitchid int, pool *pgxpool.Pool) error {
+func RenamePlayer(newName string, oldName string, twitchid int, playerid int, pool *pgxpool.Pool) error {
 
 	// Update the player in playerdata
 	_, err := pool.Exec(context.Background(), `
@@ -231,6 +231,8 @@ func RenamePlayer(newName string, oldName string, twitchid int, pool *pgxpool.Po
 		logs.Logs().Error().Err(err).
 			Str("OldName", oldName).
 			Str("NewName", newName).
+			Int("TwitchID", twitchid).
+			Int("PlayerID", playerid).
 			Msg("Error updating player data for name")
 		return err
 	}
@@ -239,6 +241,7 @@ func RenamePlayer(newName string, oldName string, twitchid int, pool *pgxpool.Po
 		Str("OldName", oldName).
 		Str("NewName", newName).
 		Int("TwitchID", twitchid).
+		Int("PlayerID", playerid).
 		Msg("Renamed player")
 
 	return nil
