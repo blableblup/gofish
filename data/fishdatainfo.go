@@ -19,6 +19,7 @@ type FishInfo struct {
 	CatchType  string
 	Date       time.Time
 	Chat       string
+	Url        string
 	ChatPfp    string
 	FishId     int
 	ChatId     int

@@ -94,6 +94,7 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 					CatchType: catchtype,
 					Type:      fishType,
 					Chat:      chat,
+					Url:       url,
 				}
 
 				fishData = append(fishData, FishData)
