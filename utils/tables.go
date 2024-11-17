@@ -37,7 +37,8 @@ func EnsureTableExists(pool *pgxpool.Pool, tableName string) error {
 					playerid INT,
 					date TIMESTAMP,
 					bot VARCHAR(255),
-					chat VARCHAR(255)
+					chat VARCHAR(255),
+					url VARCHAR(255)
 				)
 			`, tableName))
 			if err != nil {
@@ -90,7 +91,8 @@ func EnsureTableExists(pool *pgxpool.Pool, tableName string) error {
 					placement3 INT,
 					date TIMESTAMP,
 					bot VARCHAR(255),
-					chat VARCHAR(255)
+					chat VARCHAR(255),
+					url VARCHAR(255)
 				)
 			`, tableName))
 			if err != nil {
