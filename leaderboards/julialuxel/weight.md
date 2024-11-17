@@ -2,7 +2,7 @@
 | Rank | Player | Fish | Weight in lbs ⚖️ |
 |------|--------|-----------|---------|
 | 1 🥇  | toastyso | 🦕 sauropod | 241.63 |
-| 2 🥈  | chubbyhamster__ | 🐉 dragon | 211.91 |
+| 2 🥈  | chuuubbyyy | 🐉 dragon | 211.91 |
 | 3 🥉  | hahppyy | 🐳 whale | 200.06 |
 | 4  | tucelli | 🦈 shark | 183.97 |
 | 5  | supibot | 🐙 octopus | 115.11 |
@@ -15,4 +15,4 @@
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2024-11-03 11:11:23 UTC_
+_Last updated at 2024-11-17 10:52:19 UTC_

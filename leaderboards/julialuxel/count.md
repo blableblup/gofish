@@ -4,9 +4,9 @@
 | 1 🥇  | hahppyy  | 99 |
 | 2 🥈  | julialuxel  | 51 |
 | 3 🥉  | toastyso  | 35 |
-| 4  | chubbyhamster__  | 29 |
+| 4  | chuuubbyyy  | 29 |
 | 5  | ryebreadward  | 14 |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2024-11-03 11:11:15 UTC_
+_Last updated at 2024-11-17 10:52:09 UTC_

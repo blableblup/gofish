@@ -21,7 +21,7 @@
 | 18  | 🦇 bat | 117.16 | funnywhitecat12 |
 | 19  | 🦪 oyster | 114.43 | wisdom_frog |
 | 20  | 🪸 coral | 99.92 | divra__ |
-| 21  | 🪨 rock | 74.24 | caprise627 |
+| 21  | 🪨 rock | 74.24 | caprisen_ |
 | 22  | 👑 crown | 73.08 | brunodestar |
 | 23  | 🐟 fish | 63.75 | adziooooo |
 | 24  | 📱 iphone | 59.71 | jr_mime |
@@ -42,9 +42,9 @@
 | 38  | 🐠 tropicalfish | 21.99 | quinrayy |
 | 40  | 🪼 jellyfish | 21.95 | sandwichsundays |
 | 41  | 🦦 otter | 19.88 | angus_lpc |
-| 42  | 🪱 worm | 19.17 | caprise627 |
+| 42  | 🪱 worm | 19.17 | caprisen_ |
 | 43  | 🧭 compass | 17.75 | poppari38 |
-| 44  | 🍄 mushroom | 17.58 | ttecnk |
+| 44  | 🍄 mushroom | 17.72 (+0.14) | theevirus |
 | 45  | 🦆 duck | 15.55 | sameone |
 | 46  | 🪀 bobber | 14.82 | jemcs_ |
 | 47  | 🪵 log | 13.04 | bcarw |
@@ -63,13 +63,13 @@
 | 60  | 🐦 bird | 9.22 | zwockel01 |
 | 61  | 🧵 wireline | 6.00 | ocrw |
 | 62  | 🪝 hook | 4.99 | thedraingangceo* |
-| 63  | 🎏 lure | 4.97 | caprise627 |
+| 63  | 🎏 lure | 4.97 | caprisen_ |
 | 64  | 🥫 cannedfood | 4.91 | huuuuuuuuuuuuuuuuuuuuuurz |
 | 65  | 🌰 acorn | 4.00 | bubinga |
 | 65  | ☘️ shamrock | 4.00 | divra__ |
 | 65  | 🐚 shell | 4.00 | manianic_ |
 | 68  | 🐦‍⬛ blackbird | 3.93 | flunke_ |
-| 69  | ☂️ umbrella | 2.96 | xanthic1g |
+| 69  | ☂️ umbrella | 2.98 (+0.02) | theevirus |
 | 70  | 🌻 sunflower | 2.95 | ratot |
 | 71  | 🩴 thongsandal | 2.94 | bubinga |
 | 72  | 🌹 rose | 2.88 | zwockel01 |
@@ -90,4 +90,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2024-11-10 12:48:55 UTC_
+_Last updated at 2024-11-17 10:52:19 UTC_

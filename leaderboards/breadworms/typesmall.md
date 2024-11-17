@@ -10,12 +10,12 @@
 | 7  | 🧜‍♀️ mermaid | 2.65 | kishma9 |
 | 8  | 🧭 compass | 2.21 | dayzedinndaydreams |
 | 9  | 🌷 tulip | 1.77 | bapqo |
-| 10  | 🐉 dragon | 0.94 | chubbyhamster__ |
+| 10  | 🐉 dragon | 0.94 | chuuubbyyy |
 | 11  | 🐧 penguin | 0.80 | xth49* |
 | 12  | 🧟 zombie | 0.61 | dayzedinndaydreams |
 | 13  | 🗡️ dagger | 0.56 | respirate_ |
-| 14  | 🪺 nestwitheggs | 0.55 | chubbyhamster__ |
-| 15  | 🦫 beaver | 0.53 | chubbyhamster__ |
+| 14  | 🪺 nestwitheggs | 0.55 | chuuubbyyy |
+| 15  | 🦫 beaver | 0.53 | chuuubbyyy |
 | 16  | 🎰 slotmachine | 0.52 | larrahey |
 | 17  | 🦆 duck | 0.48 | osnyatsky* |
 | 18  | 🐳 whale | 0.30 | sussy_amonge |
@@ -24,7 +24,7 @@
 | 20  | 🐊 crocodile | 0.21 | suavvvvv |
 | 22  | 🕶️ darksunglasses | 0.19 | leanmeister |
 | 23  | 🐦 bird | 0.18 | larrahey |
-| 24  | 🦢 swan | 0.17 | chubbyhamster__ |
+| 24  | 🦢 swan | 0.17 | chuuubbyyy |
 | 25  | 🦭 seal | 0.15 | dayzedinndaydreams |
 | 25  | 🎱 8ball | 0.15 | ninjaross |
 | 27  | 🥒 cucumber | 0.14 | puzzlow |
@@ -51,8 +51,8 @@
 | 46  | 🐠 tropicalfish | 0.03 | respirate_ |
 | 46  | 🐋 whale2 | 0.03 | sicklymaidrobot |
 | 50  | 🪸 coral | 0.02 | bussinongnocap |
-| 50  | 🧵 wireline | 0.02 | chubbyhamster__ |
-| 50  | 🐍 snake | 0.02 | chubbyhamster__ |
+| 50  | 🧵 wireline | 0.02 | chuuubbyyy |
+| 50  | 🐍 snake | 0.02 | chuuubbyyy |
 | 50  | 👟 athleticshoe | 0.02 | derinturitierutz |
 | 50  | 🩴 thongsandal | 0.02 | puzzlow |
 | 50  | 🐡 blowfish | 0.02 | puzzlow |
@@ -66,14 +66,14 @@
 | 57  | 🧤 gloves | 0.01 | kildofris* |
 | 57  | 🍁 mapleleaf | 0.01 | miiiiisho |
 | 57  | 👢 boot | 0.01 | osnyatsky |
-| 57  | 🦑 squid | 0.01 | puzzlow |
 | 57  | 🥫 cannedfood | 0.01 | puzzlow |
-| 57  | ☘️ shamrock | 0.01 | qu4ttromila |
+| 57  | 🦑 squid | 0.01 | puzzlow |
 | 57  | 🐌 snail | 0.01 | qu4ttromila |
+| 57  | ☘️ shamrock | 0.01 | qu4ttromila |
 | 57  | 🥪 sandwich | 0.01 | sicklymaidrobot |
 | 57  | 🪨 rock | 0.01 | yliathim* |
-| 72  | 🐢 turtle | 0.00 | chubbyhamster__ |
-| 72  | 🌰 acorn | 0.00 | chubbyhamster__ |
+| 72  | 🌰 acorn | 0.00 | chuuubbyyy |
+| 72  | 🐢 turtle | 0.00 | chuuubbyyy |
 | 72  | 🪵 log | 0.00 | derinturitierutz |
 | 72  | 🍬 candy | 0.00 | desoarer |
 | 72  | 🐟 fish | 0.00 | islcfc* |
@@ -91,4 +91,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2024-11-10 12:51:56 UTC_
+_Last updated at 2024-11-17 10:52:41 UTC_

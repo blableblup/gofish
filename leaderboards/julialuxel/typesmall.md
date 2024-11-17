@@ -24,7 +24,7 @@
 | 21  | 🐢 turtle | 2.91 | hahppyy |
 | 22  | 🐡 blowfish | 2.43 | hahppyy |
 | 23  | 🦑 squid | 2.36 | hahppyy |
-| 24  | 🦦 otter | 1.55 | chubbyhamster__ |
+| 24  | 🦦 otter | 1.55 | chuuubbyyy |
 | 25  | 🌰 acorn | 1.34 | julialuxel |
 | 26  | 🌹 rose | 0.94 | suavvvvv |
 | 26  | 🧸 teddybear | 0.94 | toastyso |
@@ -34,19 +34,19 @@
 | 31  | 🐸 frog | 0.81 | dayzedinndaydreams |
 | 32  | 🦐 shrimp | 0.71 | julialuxel |
 | 33  | 🐦‍⬛ blackbird | 0.69 | ninjaross |
-| 34  | 🐌 snail | 0.67 | chubbyhamster__ |
+| 34  | 🐌 snail | 0.67 | chuuubbyyy |
 | 35  | ⛸️ iceskate | 0.62 | toastyso |
 | 36  | 🕷️ spider | 0.54 | hahppyy |
 | 37  | 👟 athleticshoe | 0.53 | supibot |
 | 38  | 🪳 cockroach | 0.38 | julialuxel |
 | 39  | 🧣 scarf | 0.37 | hahppyy |
 | 40  | 🧤 gloves | 0.27 | hahppyy |
-| 41  | 🧦 socks | 0.19 | chubbyhamster__ |
+| 41  | 🧦 socks | 0.19 | chuuubbyyy |
 | 42  | 🎏 lure | 0.17 | mitgliederversammlung |
 | 43  | 🪸 coral | 0.16 | hahppyy |
 | 44  | 🐟 fish | 0.14 | hahppyy |
 | 45  | 🪝 hook | 0.13 | hahppyy |
-| 46  | ☘️ shamrock | 0.12 | chubbyhamster__ |
+| 46  | ☘️ shamrock | 0.12 | chuuubbyyy |
 | 47  | 🦀 crab | 0.10 | toastyso |
 | 48  | 🥫 cannedfood | 0.05 | hahppyy |
 | 49  | 🐍 snake | 0.03 | veggesh |
@@ -54,4 +54,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2024-11-10 12:51:59 UTC_
+_Last updated at 2024-11-17 10:52:42 UTC_

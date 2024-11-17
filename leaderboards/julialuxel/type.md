@@ -2,7 +2,7 @@
 | Rank | Fish | Weight in lbs | Player |
 |------|--------|-----------|---------|
 | 1 🥇  | 🦕 sauropod | 241.63 | toastyso |
-| 2 🥈  | 🐉 dragon | 211.91 | chubbyhamster__ |
+| 2 🥈  | 🐉 dragon | 211.91 | chuuubbyyy |
 | 3 🥉  | 🐳 whale | 200.06 | hahppyy |
 | 4  | 🦈 shark | 183.97 | tucelli |
 | 5  | 🐙 octopus | 115.11 | supibot |
@@ -15,13 +15,13 @@
 | 12  | 🐢 turtle | 43.83 | hahppyy |
 | 13  | 🪨 rock | 41.96 | hahppyy |
 | 14  | 🦪 oyster | 37.55 | puzzlow |
-| 15  | 🐧 penguin | 35.92 | chubbyhamster__ |
+| 15  | 🐧 penguin | 35.92 | chuuubbyyy |
 | 16  | 🦐 shrimp | 30.19 | hahppyy |
-| 17  | 🐟 fish | 28.64 | chubbyhamster__ |
+| 17  | 🐟 fish | 28.64 | chuuubbyyy |
 | 18  | 🦫 beaver | 28.05 | julialuxel |
 | 19  | 🐍 snake | 24.30 | hahppyy |
 | 20  | 🐠 tropicalfish | 21.19 | dayzedinndaydreams |
-| 21  | 🪸 coral | 20.18 | chubbyhamster__ |
+| 21  | 🪸 coral | 20.18 | chuuubbyyy |
 | 22  | 🕷️ spider | 20.04 | puzzlow |
 | 23  | 🐡 blowfish | 18.91 | toastyso |
 | 24  | 🦠 plankton | 16.85 | toastyso |
@@ -31,9 +31,9 @@
 | 28  | 🧸 teddybear | 11.20 | hahppyy |
 | 29  | 💀 skull | 8.64 | julialuxel |
 | 30  | 🧊 icecube | 8.17 | julialuxel |
-| 31  | 🦎 lizard | 5.71 | chubbyhamster__ |
+| 31  | 🦎 lizard | 5.71 | chuuubbyyy |
 | 32  | 📱 iphone | 5.63 | gawblemachine |
-| 33  | 🐸 frog | 4.25 | chubbyhamster__ |
+| 33  | 🐸 frog | 4.25 | chuuubbyyy |
 | 34  | 🎏 lure | 4.03 | toastyso |
 | 35  | 🪝 hook | 3.88 | hahppyy |
 | 36  | ☘️ shamrock | 3.85 | gawblemachine |
@@ -45,15 +45,15 @@
 | 42  | 🌹 rose | 0.94 | suavvvvv |
 | 43  | 🧤 gloves | 0.86 | hahppyy |
 | 44  | 🐦‍⬛ blackbird | 0.69 | ninjaross |
-| 45  | 🐌 snail | 0.67 | chubbyhamster__ |
+| 45  | 🐌 snail | 0.67 | chuuubbyyy |
 | 46  | ⛸️ iceskate | 0.62 | toastyso |
 | 47  | 👟 athleticshoe | 0.53 | supibot |
 | 48  | 🌿 seaweed | 0.42 | julialuxel |
 | 49  | 🧣 scarf | 0.37 | hahppyy |
-| 50  | 🧦 socks | 0.19 | chubbyhamster__ |
+| 50  | 🧦 socks | 0.19 | chuuubbyyy |
 | 51  | 🪀 bobber | 0.00 | julialuxel |
 | 51  | 🍬 candy | 0.00 | toastyso |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2024-11-10 12:48:58 UTC_
+_Last updated at 2024-11-17 10:52:16 UTC_

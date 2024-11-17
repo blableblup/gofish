@@ -9,7 +9,7 @@
 | 6  | derinturitierutz | 🐳 whale | 301.87 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 7  | nndiana | 🐳 whale | 299.48 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
 | 8  | osnyisdead | 🐳 whale | 298.16 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
-| 9  | chubbyhamster__ | 🐳 whale | 298.10 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 9  | chuuubbyyy | 🐳 whale | 298.10 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 10  | kishma9 | 🐳 whale | 297.37 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 11  | fishingalt | 🐳 whale | 297.27 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 12  | islcfc* | 🐳 whale | 296.57 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
@@ -41,7 +41,7 @@
 | 38  | respirate_ | 🐳 whale | 277.53 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 39  | damon_okami | 🐉 dragon | 276.80 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
 | 40  | zwockel01 | 🐉 dragon | 275.31 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
-| 41  | caprise627 | 🐳 whale | 274.74 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
+| 41  | caprisen_ | 🐳 whale | 274.74 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
 | 42  | iflya320 | 🐉 dragon | 274.21 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
 | 43  | niiy | 🐳 whale | 273.90 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 44  | booty_bread | 🐉 dragon | 273.82 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
@@ -52,4 +52,4 @@
 
 _Only showing fish weighing >= 270 lbs_
 
-_Last updated at 2024-11-10 12:49:03 UTC_
+_Last updated at 2024-11-17 10:52:19 UTC_

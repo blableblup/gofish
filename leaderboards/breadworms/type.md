@@ -26,7 +26,7 @@
 | 23  | 👑 crown | 77.02 | puzzlow |
 | 24  | 🪨 rock | 74.57 | fishingalt |
 | 25  | 🦐 shrimp | 67.05 | 5c33* |
-| 26  | 🐟 fish | 63.56 (+0.91) | konsminator |
+| 26  | 🐟 fish | 63.56 | konsminator |
 | 27  | 🗡️ dagger | 47.73 | xz_xz |
 | 28  | 🐸 frog | 47.16 | vaiastol |
 | 29  | 🦫 beaver | 43.98 | bapqo |
@@ -56,7 +56,7 @@
 | 53  | 🧸 teddybear | 11.83 | miiiiisho |
 | 54  | 🧃 beveragebox | 11.62 | derinturitierutz |
 | 55  | 🧊 icecube | 10.98 | miiiiisho |
-| 56  | 🪹 emptynest | 10.96 | chubbyhamster__ |
+| 56  | 🪹 emptynest | 10.96 | chuuubbyyy |
 | 57  | 🪺 nestwitheggs | 10.84 | osnyatsky |
 | 58  | 🦎 lizard | 10.61 | sussy_amonge |
 | 59  | 🩲 briefs | 10.43 | mitgliederversammlung |
@@ -70,7 +70,7 @@
 | 67  | 🥫 cannedfood | 4.67 | qu4ttromila |
 | 68  | ☘️ shamrock | 3.98 | osnyatsky |
 | 69  | 🌰 acorn | 3.91 | fishingalt |
-| 70  | 🦢 swan | 3.28 | chubbyhamster__ |
+| 70  | 🦢 swan | 3.28 | chuuubbyyy |
 | 71  | ☂️ umbrella | 2.99 | vaiastol |
 | 72  | 🌹 rose | 2.96 | osnyatsky |
 | 72  | 🥪 sandwich | 2.96 | qu4ttromila |
@@ -85,10 +85,10 @@
 | 82  | ⛸️ iceskate | 1.94 | ryebreadward |
 | 83  | 🌷 tulip | 1.77 | bapqo |
 | 84  | 🍁 mapleleaf | 1.00 | fishingalt |
-| 85  | 🪶 feather | 0.99 | osnyatsky* |
 | 85  | 🧣 scarf | 0.99 | osnyatsky* |
+| 85  | 🪶 feather | 0.99 | osnyatsky* |
 | 85  | 🧤 gloves | 0.99 | sicklymaidrobot |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2024-11-10 12:48:57 UTC_
+_Last updated at 2024-11-17 10:52:13 UTC_

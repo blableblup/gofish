@@ -7,7 +7,7 @@
 | 4  | osnyatsky | 🐳 whale | 302.88 |
 | 5  | derinturitierutz | 🐳 whale | 301.87 |
 | 6  | osnyisdead | 🐳 whale | 298.16 |
-| 7  | chubbyhamster__ | 🐳 whale | 298.10 |
+| 7  | chuuubbyyy | 🐳 whale | 298.10 |
 | 8  | kishma9 | 🐳 whale | 297.37 |
 | 9  | fishingalt | 🐳 whale | 297.27 |
 | 10  | islcfc* | 🐳 whale | 296.57 |
@@ -46,16 +46,16 @@
 | 43  | bapqo | 🐉 dragon | 233.48 |
 | 44  | supibot | 🦕 sauropod | 231.47 |
 | 45  | wispmode | 🐳 whale | 230.99 |
-| 46 🆕 | konsminator | 🐍 snake | 229.00 |
-| 47 ⬇ | mochi_uygqzidbjizjkbehuiw | 🐳 whale | 222.73 |
-| 48 ⬇ | fallen_angels_1995 | 🐳 whale | 219.76 |
-| 49 🆕 | mitgliederversammlung | 🦕 sauropod | 219.52 |
-| 50 ⬇ | lazzvli* | 🦈 shark | 215.97 |
-| 51 ⬇ | realtechnine | 🦕 sauropod | 214.11 |
-| 52 ⬇ | divra__ | 🐳 whale | 213.23 |
-| 53 ⬇ | notparasfishalt* | 🐉 dragon | 207.18 |
-| 54 ⬇ | veggesh | 🦈 shark | 206.22 |
+| 46  | konsminator | 🐍 snake | 229.00 |
+| 47  | mochi_uygqzidbjizjkbehuiw | 🐳 whale | 222.73 |
+| 48  | fallen_angels_1995 | 🐳 whale | 219.76 |
+| 49  | mitgliederversammlung | 🦕 sauropod | 219.52 |
+| 50  | lazzvli* | 🦈 shark | 215.97 |
+| 51  | realtechnine | 🦕 sauropod | 214.11 |
+| 52  | divra__ | 🐳 whale | 213.23 |
+| 53  | notparasfishalt* | 🐉 dragon | 207.18 |
+| 54  | veggesh | 🦈 shark | 206.22 |
 
 _Only showing fish weighing >= 200 lbs_
 
-_Last updated at 2024-11-10 12:49:03 UTC_
+_Last updated at 2024-11-17 10:52:19 UTC_
