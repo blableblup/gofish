@@ -1,12 +1,87 @@
 package leaderboards
 
 import (
+	"encoding/json"
 	"fmt"
 	"gofish/data"
 	"gofish/logs"
+	"os"
+	"path/filepath"
 	"sort"
+	"strings"
 	"time"
 )
+
+func getJsonBoard(filePath string) (map[int]data.FishInfo, error) {
+
+	oldBoard := make(map[int]data.FishInfo)
+
+	filePath = strings.TrimSuffix(filePath, filepath.Ext(filePath))
+
+	wd, err := os.Getwd()
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("FilePath", filePath).
+			Msg("Error getting current working directory")
+		return oldBoard, err
+	}
+
+	rawboard := filepath.Join(wd, filePath+"raw.json")
+
+	// This doesnt have to count as an error, because the board could be new
+	file, err := os.Open(rawboard)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("FilePath", filePath).
+			Msg("Error opening json board")
+		return oldBoard, nil
+	}
+	defer file.Close()
+
+	err = json.NewDecoder(file).Decode(&oldBoard)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("FilePath", filePath).
+			Msg("Error parsing raw board file")
+		return oldBoard, err
+	}
+
+	return oldBoard, nil
+}
+
+func writeRaw(filePath string, board map[int]data.FishInfo) error {
+
+	filePath = strings.TrimSuffix(filePath, filepath.Ext(filePath))
+
+	file, err := os.Create(filePath + "raw.json")
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+
+	bytes, err := json.MarshalIndent(board, "", "\t")
+	if err != nil {
+		return err
+	}
+
+	_, _ = fmt.Fprintf(file, "%s", bytes)
+
+	return nil
+}
+
+func sortWeightRecords(recordWeight map[int]data.FishInfo) []int {
+
+	ids := make([]int, 0, len(recordWeight))
+	for playerID := range recordWeight {
+		ids = append(ids, playerID)
+	}
+
+	sort.SliceStable(ids, func(i, j int) bool { return recordWeight[ids[i]].Player < recordWeight[ids[j]].Player })
+	sort.SliceStable(ids, func(i, j int) bool { return recordWeight[ids[i]].Weight > recordWeight[ids[j]].Weight })
+
+	return ids
+
+}
 
 func logRecord(newRecords map[string]data.FishInfo, oldRecords map[string]LeaderboardInfo, board string) {
 
