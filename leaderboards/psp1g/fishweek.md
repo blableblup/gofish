@@ -9,7 +9,7 @@
 | 6  | fonuwu  | 83 |
 | 7  | jr_mime  | 73 |
 | 8  | mazzo_tv  | 71 |
-| 9  | caprise627  | 65 |
+| 9  | caprisen_  | 65 |
 | 9  | sandwichsundays  | 65 |
 | 11  | ratot  | 63 |
 | 12  | lobuhtomy  | 59 |
@@ -36,4 +36,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2024-11-12 13:00:03 UTC_
+_Last updated at 2024-11-20 13:46:26 UTC_

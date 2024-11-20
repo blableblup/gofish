@@ -10,7 +10,7 @@
 | 7  | sicklymaidrobot  | 123 |
 | 7  | sussy_amonge  | 123 |
 | 9  | qu4ttromila  | 122 |
-| 10  | chubbyhamster__  | 112 |
+| 10  | chuuubbyyy  | 112 |
 | 10  | lazzvli*  | 112 |
 | 12  | ryebreadward  | 110 |
 | 13  | bussinongnocap  | 108 |
@@ -21,11 +21,11 @@
 | 18  | miiiiisho  | 79 |
 | 19  | respirate_  | 74 |
 | 20  | booty_bread  | 60 |
-| 21  | receipts  | 56 |
-| 22  | bk207*  | 53 |
-| 23  | hmsmob*  | 52 |
-| 23  | kaasppeerr  | 52 |
-| 25  | leanmeister  | 51 |
+| 21 ⬆ | leanmeister  | 58 (+7) |
+| 22 ⬇ | receipts  | 56 |
+| 23 ⬇ | bk207*  | 53 |
+| 24 ⬇ | hmsmob*  | 52 |
+| 24 ⬇ | kaasppeerr  | 52 |
 | 26  | bapqo  | 49 |
 | 27  | paras220  | 46 |
 | 28  | ninjaross  | 44 |
@@ -43,10 +43,10 @@
 | 39  | globcob  | 25 |
 | 41  | rocketpol*  | 24 |
 | 42  | divra__  | 22 |
-| 42  | larrahey  | 22 |
+| 42  | larvasisters  | 22 |
 | 44  | veggesh  | 21 |
 | 45  | realtechnine  | 20 |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2024-11-12 13:00:03 UTC_
+_Last updated at 2024-11-20 13:46:26 UTC_
