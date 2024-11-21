@@ -7,6 +7,7 @@ import (
 	"gofish/logs"
 	"os"
 	"path/filepath"
+	"strconv"
 	"strings"
 	"time"
 
@@ -19,6 +20,7 @@ func processWeight(params LeaderboardParams) {
 	config := params.Config
 	global := params.Global
 	title := params.Title
+	limit := params.Limit
 	chat := params.Chat
 	path := params.Path
 	mode := params.Mode
@@ -45,9 +47,21 @@ func processWeight(params LeaderboardParams) {
 		return
 	}
 
-	weightlimit = chat.Weightlimit
-	if weightlimit == 0 {
-		weightlimit = config.Chat["default"].Weightlimit
+	if limit == "" {
+		weightlimit = chat.Weightlimit
+		if weightlimit == 0 {
+			weightlimit = config.Chat["default"].Weightlimit
+		}
+	} else {
+		weightlimit, err = strconv.ParseFloat(limit, 64)
+		if err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Chat", chatName).
+				Str("Limit", limit).
+				Str("Board", board).
+				Msg("Error converting custom weight limit to float64")
+			return
+		}
 	}
 
 	recordWeight, err := getWeightRecords(params, weightlimit)

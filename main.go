@@ -27,6 +27,7 @@ func main() {
 	// Flags for boards program
 	title := flag.String("title", "", "Pass a custom title to the board.")
 	leaderboard := flag.String("l", "", "Comma-separated list of leaderboards")
+	limit := flag.String("limit", "", "Custom weight/count limit for the boards")
 	date2 := flag.String("dt2", "", "Second date for the leaderboards. If you want to get boards for a time period")
 	path := flag.String("path", "", "Give the board a custom name. But you should only do one board at a time with this. Else it will get overwritten.")
 
@@ -73,7 +74,7 @@ func main() {
 			Str("Path", *path).
 			Msg("Start")
 
-		leaderboards.Leaderboards(*leaderboard, *chatNames, *monthYear, *date2, *path, *title, *mode)
+		leaderboards.Leaderboards(*leaderboard, *chatNames, *monthYear, *date2, *path, *title, *limit, *mode)
 
 	case "data":
 		logs.Logs().Info().

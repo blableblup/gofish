@@ -11,7 +11,7 @@ import (
 	"github.com/jackc/pgx/v4/pgxpool"
 )
 
-func Leaderboards(leaderboards string, chatNames string, date string, date2 string, path string, title string, mode string) {
+func Leaderboards(leaderboards string, chatNames string, date string, date2 string, path string, title string, limit string, mode string) {
 
 	config := utils.LoadConfig()
 
@@ -65,6 +65,7 @@ func Leaderboards(leaderboards string, chatNames string, date string, date2 stri
 		Date2:    date2,
 		Path:     path,
 		Title:    title,
+		Limit:    limit,
 	}
 
 	// Rare and stats are the only boards which are "global only"
@@ -232,6 +233,7 @@ type LeaderboardParams struct {
 	Date            string
 	Date2           string
 	Title           string
+	Limit           string
 	Path            string
 	ChatName        string
 	Mode            string
