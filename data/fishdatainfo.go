@@ -27,7 +27,6 @@ type FishInfo struct {
 	MaxCount   int
 	ChatCounts map[string]int
 	Verified   bool
-	Cheated    bool
 	Rank       int
 }
 
