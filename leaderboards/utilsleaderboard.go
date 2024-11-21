@@ -26,7 +26,7 @@ func getJsonBoard(filePath string) (map[int]data.FishInfo, error) {
 		return oldBoard, err
 	}
 
-	rawboard := filepath.Join(wd, filePath+"raw.json")
+	rawboard := filepath.Join(wd, filePath+".json")
 
 	// This doesnt have to count as an error, because the board could be new
 	file, err := os.Open(rawboard)
@@ -49,11 +49,12 @@ func getJsonBoard(filePath string) (map[int]data.FishInfo, error) {
 	return oldBoard, nil
 }
 
+// Mabye dont write the entire board but instead only the relevant fields
 func writeRaw(filePath string, board map[int]data.FishInfo) error {
 
 	filePath = strings.TrimSuffix(filePath, filepath.Ext(filePath))
 
-	file, err := os.Create(filePath + "raw.json")
+	file, err := os.Create(filePath + ".json")
 	if err != nil {
 		return err
 	}
@@ -81,6 +82,40 @@ func sortWeightRecords(recordWeight map[int]data.FishInfo) []int {
 
 	return ids
 
+}
+
+// If maps are same length, check if the player renamed or has an updated record
+// This replaced the log record function
+func didWeightMapsChange(params LeaderboardParams, oldBoard map[int]data.FishInfo, newBoard map[int]data.FishInfo) bool {
+	var bla = true
+
+	if len(oldBoard) == len(newBoard) {
+		for playerID := range newBoard {
+			if oldBoard[playerID].Weight != newBoard[playerID].Weight {
+				if params.LeaderboardType != "trophy" {
+					logs.Logs().Info().
+						Str("Board", params.LeaderboardType).
+						Str("Chat", newBoard[playerID].Chat).
+						Str("Date", newBoard[playerID].Date.Format("2006-01-02 15:04:05 UTC")).
+						Float64("WeightOld", oldBoard[playerID].Weight).
+						Float64("Weight", newBoard[playerID].Weight).
+						Str("CatchType", newBoard[playerID].CatchType).
+						Str("FishName", newBoard[playerID].TypeName).
+						Str("FishType", newBoard[playerID].Type).
+						Str("Player", newBoard[playerID].Player).
+						Msg("Updated/New weight record")
+				}
+				bla = false
+			}
+			if oldBoard[playerID].Player != newBoard[playerID].Player {
+				bla = false
+			}
+		}
+		return bla
+	} else {
+		bla = false
+		return bla
+	}
 }
 
 func logRecord(newRecords map[string]data.FishInfo, oldRecords map[string]LeaderboardInfo, board string) {
@@ -161,19 +196,6 @@ func SortMapByWeightDesc(fishCaught map[string]data.FishInfo) []string {
 
 	sort.SliceStable(players, func(i, j int) bool { return fishCaught[players[i]].Player < fishCaught[players[j]].Player })
 	sort.SliceStable(players, func(i, j int) bool { return fishCaught[players[i]].Weight > fishCaught[players[j]].Weight })
-
-	return players
-}
-
-func SortMapByValueDesc(totalPoints map[string]float64) []string {
-	// Create a slice of player names
-	players := make([]string, 0, len(totalPoints))
-	for player := range totalPoints {
-		players = append(players, player)
-	}
-
-	sort.SliceStable(players, func(i, j int) bool { return players[i] < players[j] })
-	sort.SliceStable(players, func(i, j int) bool { return totalPoints[players[i]] > totalPoints[players[j]] })
 
 	return players
 }

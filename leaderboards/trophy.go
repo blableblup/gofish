@@ -3,6 +3,7 @@ package leaderboards
 import (
 	"context"
 	"fmt"
+	"gofish/data"
 	"gofish/logs"
 	"os"
 	"path/filepath"
@@ -13,13 +14,11 @@ import (
 func processTrophy(params LeaderboardParams) {
 	board := params.LeaderboardType
 	chatName := params.ChatName
-	date2 := params.Date2
 	title := params.Title
-	pool := params.Pool
-	date := params.Date
 	path := params.Path
+	mode := params.Mode
 
-	var filePath string
+	var filePath, titletrophies string
 
 	if path == "" {
 		filePath = filepath.Join("leaderboards", chatName, "trophy.md")
@@ -30,15 +29,68 @@ func processTrophy(params LeaderboardParams) {
 		filePath = filepath.Join("leaderboards", chatName, path)
 	}
 
-	oldTrophy, err := ReadOldTrophyRankings(filePath, pool)
+	oldTrophy, err := getJsonBoard(filePath)
 	if err != nil {
-		logs.Logs().Error().Err(err).Str("Chat", chatName).Str("Board", board).Msg("Error reading old leaderboard")
+		logs.Logs().Error().Err(err).
+			Str("Chat", chatName).
+			Str("Board", board).
+			Msg("Error reading old leaderboard")
 		return
 	}
 
-	playerCounts := make(map[string]LeaderboardInfo)
+	newTrophy, err := getTrophies(params)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Chat", chatName).
+			Str("Board", board).
+			Msg("Error getting trophies")
+		return
+	}
 
-	// I get "ERROR: column \"date\" does not exist" with the old query ? This works but it is the exact same query (?) or I am stupid
+	AreMapsSame := didWeightMapsChange(params, oldTrophy, newTrophy)
+
+	if AreMapsSame && mode != "force" {
+		logs.Logs().Warn().
+			Str("Board", board).
+			Str("Chat", chatName).
+			Msg("Not updating board because there are no changes")
+		return
+	}
+
+	if title == "" {
+		if strings.HasSuffix(chatName, "s") {
+			titletrophies = fmt.Sprintf("### Leaderboard for the weekly tournaments in %s' chat\n", chatName)
+		} else {
+			titletrophies = fmt.Sprintf("### Leaderboard for the weekly tournaments in %s's chat\n", chatName)
+		}
+	} else {
+		titletrophies = fmt.Sprintf("%s\n", title)
+	}
+
+	err = writeTrophy(filePath, newTrophy, oldTrophy, titletrophies)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Chat", chatName).
+			Str("Board", board).
+			Msg("Error writing leaderboard")
+		return
+	} else {
+		logs.Logs().Info().
+			Str("Chat", chatName).
+			Str("Board", board).
+			Msg("Leaderboard updated successfully")
+	}
+}
+
+func getTrophies(params LeaderboardParams) (map[int]data.FishInfo, error) {
+	board := params.LeaderboardType
+	chatName := params.ChatName
+	date2 := params.Date2
+	pool := params.Pool
+	date := params.Date
+
+	playerCounts := make(map[int]data.FishInfo)
+
 	query := fmt.Sprintf(`
 	SELECT 
 		playerid,
@@ -61,59 +113,53 @@ func processTrophy(params LeaderboardParams) {
 
 	rows, err := pool.Query(context.Background(), query, date, date2)
 	if err != nil {
-		logs.Logs().Error().Err(err).Str("Chat", chatName).Str("Board", board).Msg("Error querying database")
-		return
+		logs.Logs().Error().Err(err).
+			Str("Chat", chatName).
+			Str("Board", board).
+			Msg("Error querying database")
+		return playerCounts, err
 	}
 	defer rows.Close()
 
 	for rows.Next() {
-		var playerid, trophycount, silvercount, bronzecount int
+		var fishInfo data.FishInfo
 
-		if err := rows.Scan(&playerid, &trophycount, &silvercount, &bronzecount); err != nil {
-			logs.Logs().Error().Err(err).Str("Chat", chatName).Str("Board", board).Msg("Error scanning row")
-			return
+		if err := rows.Scan(&fishInfo.PlayerID, &fishInfo.FishId, &fishInfo.ChatId, &fishInfo.Count); err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Chat", chatName).
+				Str("Board", board).
+				Msg("Error scanning row")
+			return playerCounts, err
 		}
 
-		var playerName string
-		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", playerid).Scan(&playerName)
+		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Player)
 		if err != nil {
-			logs.Logs().Error().Err(err).Int("PlayerID", playerid).Str("Chat", chatName).Str("Board", board).Msg("Error retrieving player name for id")
-			return
+			logs.Logs().Error().Err(err).
+				Int("PlayerID", fishInfo.PlayerID).
+				Str("Chat", chatName).
+				Str("Board", board).
+				Msg("Error retrieving player name for id")
+			return playerCounts, err
 		}
 
-		playerCounts[playerName] = LeaderboardInfo{
-			Trophy: trophycount,
-			Silver: silvercount,
-			Bronze: bronzecount,
-		}
+		fishInfo.Weight = float64(fishInfo.FishId)*3 + float64(fishInfo.ChatId) + float64(fishInfo.Count)*0.5
+
+		// Fishid = trophies, chatid = silvermedals, count = bronzemedals, weight = points
+		playerCounts[fishInfo.PlayerID] = fishInfo
 	}
 
 	if err := rows.Err(); err != nil {
-		logs.Logs().Error().Str("Chat", chatName).Str("Board", board).Err(err).Msg("Error iterating over query results")
-		return
+		logs.Logs().Error().Err(err).
+			Str("Chat", chatName).
+			Str("Board", board).
+			Msg("Error iterating over query results")
+		return playerCounts, err
 	}
 
-	var titletrophies string
-	if title == "" {
-		if strings.HasSuffix(chatName, "s") {
-			titletrophies = fmt.Sprintf("### Leaderboard for the weekly tournaments in %s' chat\n", chatName)
-		} else {
-			titletrophies = fmt.Sprintf("### Leaderboard for the weekly tournaments in %s's chat\n", chatName)
-		}
-	} else {
-		titletrophies = fmt.Sprintf("%s\n", title)
-	}
-
-	logs.Logs().Info().Str("Chat", chatName).Str("Board", board).Msg("Updating leaderboard")
-	err = writeTrophy(filePath, playerCounts, oldTrophy, titletrophies)
-	if err != nil {
-		logs.Logs().Error().Err(err).Str("Chat", chatName).Str("Board", board).Msg("Error writing leaderboard")
-	} else {
-		logs.Logs().Info().Str("Chat", chatName).Str("Board", board).Msg("Leaderboard updated successfully")
-	}
+	return playerCounts, nil
 }
 
-func writeTrophy(filePath string, playerCounts map[string]LeaderboardInfo, oldTrophy map[string]LeaderboardInfo, title string) error {
+func writeTrophy(filePath string, playerCounts map[int]data.FishInfo, oldTrophy map[int]data.FishInfo, title string) error {
 
 	// Ensure that the directory exists before attempting to create the file
 	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
@@ -134,20 +180,16 @@ func writeTrophy(filePath string, playerCounts map[string]LeaderboardInfo, oldTr
 	_, _ = fmt.Fprintln(file, "| Rank | Player | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points |")
 	_, _ = fmt.Fprintln(file, "|------|--------|-------------|------------------|------------------|--------|")
 
-	totalPoints := make(map[string]float64)
-	for player, counts := range playerCounts {
-		totalPoints[player] = float64(counts.Trophy)*3 + float64(counts.Silver) + float64(counts.Bronze)*0.5
-	}
-
-	sortedPlayers := SortMapByValueDesc(totalPoints)
+	sortedPlayers := sortWeightRecords(playerCounts)
 
 	rank := 1
 	prevRank := 1
 	prevPoints := -1.0
 	occupiedRanks := make(map[int]int)
 
-	for _, player := range sortedPlayers {
-		points := totalPoints[player]
+	for _, playerID := range sortedPlayers {
+		points := playerCounts[playerID].Weight
+		player := playerCounts[playerID].Player
 
 		// Increment rank only if the count has changed
 		if points != prevPoints {
@@ -158,45 +200,53 @@ func writeTrophy(filePath string, playerCounts map[string]LeaderboardInfo, oldTr
 			occupiedRanks[rank]++
 		}
 
+		// Store the rank
+		if ranksksk, ok := playerCounts[playerID]; ok {
+
+			ranksksk.Rank = rank
+
+			playerCounts[playerID] = ranksksk
+		}
+
 		var found bool
 
 		oldRank := -1
-		oldtrophies := playerCounts[player].Trophy
-		oldsilver := playerCounts[player].Silver
-		oldbronze := playerCounts[player].Bronze
-		oldpoints := totalPoints[player]
-		if info, ok := oldTrophy[player]; ok {
+		oldtrophies := playerCounts[playerID].FishId
+		oldsilver := playerCounts[playerID].ChatId
+		oldbronze := playerCounts[playerID].Count
+		oldpoints := points
+		if info, ok := oldTrophy[playerID]; ok {
 			found = true
 			oldRank = info.Rank
-			oldtrophies = oldTrophy[player].Trophy
-			oldsilver = oldTrophy[player].Silver
-			oldbronze = oldTrophy[player].Bronze
-			oldpoints = oldTrophy[player].Points
+			oldtrophies = oldTrophy[playerID].FishId
+			oldsilver = oldTrophy[playerID].ChatId
+			oldbronze = oldTrophy[playerID].Count
+			oldpoints = oldTrophy[playerID].Weight
 		}
 
 		changeEmoji := ChangeEmoji(rank, oldRank, found)
 
-		trophiesDifference := playerCounts[player].Trophy - oldtrophies
-		silverDifference := playerCounts[player].Silver - oldsilver
-		bronzeDifference := playerCounts[player].Bronze - oldbronze
-		pointsDifference := totalPoints[player] - oldpoints
+		trophiesDifference := playerCounts[playerID].FishId - oldtrophies
+		silverDifference := playerCounts[playerID].ChatId - oldsilver
+		bronzeDifference := playerCounts[playerID].Count - oldbronze
+		pointsDifference := points - oldpoints
 
-		trophyCount := fmt.Sprintf("%d", playerCounts[player].Trophy)
+		trophyCount := fmt.Sprintf("%d", playerCounts[playerID].FishId)
 		if trophiesDifference > 0 {
 			trophyCount += fmt.Sprintf(" (+%d)", trophiesDifference)
 		}
 
-		silverCount := fmt.Sprintf("%d", playerCounts[player].Silver)
+		silverCount := fmt.Sprintf("%d", playerCounts[playerID].ChatId)
 		if silverDifference > 0 {
 			silverCount += fmt.Sprintf(" (+%d)", silverDifference)
 		}
 
-		bronzeCount := fmt.Sprintf("%d", playerCounts[player].Bronze)
+		bronzeCount := fmt.Sprintf("%d", playerCounts[playerID].Count)
 		if bronzeDifference > 0 {
 			bronzeCount += fmt.Sprintf(" (+%d)", bronzeDifference)
 		}
 
-		newpoints := fmt.Sprintf("%.1f", totalPoints[player])
+		newpoints := fmt.Sprintf("%.1f", points)
 		if pointsDifference > 0 {
 			newpoints += fmt.Sprintf(" (+%.1f)", pointsDifference)
 		}
@@ -213,6 +263,19 @@ func writeTrophy(filePath string, playerCounts map[string]LeaderboardInfo, oldTr
 	}
 
 	_, _ = fmt.Fprintf(file, "\n_Last updated at %s_", time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC"))
+
+	// This has to be here, because im not getting the rank directly from the query
+	err = writeRaw(filePath, playerCounts)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Path", filePath).
+			Msg("Error writing raw leaderboard")
+		return nil
+	} else {
+		logs.Logs().Info().
+			Str("Path", filePath).
+			Msg("Raw leaderboard updated successfully")
+	}
 
 	return nil
 }
