@@ -85,12 +85,27 @@ func sortWeightRecords(recordWeight map[int]data.FishInfo) []int {
 }
 
 // If maps are same length, check if the player renamed or has an updated record
-// This replaced the log record function
+// Trophy board is also using this. For trophy the weights are the players points
 func didWeightMapsChange(params LeaderboardParams, oldBoard map[int]data.FishInfo, newBoard map[int]data.FishInfo) bool {
-	var bla = true
+	var mapsarethesame = true
 
-	if len(oldBoard) == len(newBoard) {
-		for playerID := range newBoard {
+	for playerID := range newBoard {
+		_, exists := oldBoard[playerID]
+		if !exists {
+			if params.LeaderboardType != "trophy" {
+				logs.Logs().Info().
+					Str("Board", params.LeaderboardType).
+					Str("Chat", newBoard[playerID].Chat).
+					Str("Date", newBoard[playerID].Date.Format("2006-01-02 15:04:05 UTC")).
+					Float64("Weight", newBoard[playerID].Weight).
+					Str("CatchType", newBoard[playerID].CatchType).
+					Str("FishName", newBoard[playerID].TypeName).
+					Str("FishType", newBoard[playerID].Type).
+					Str("Player", newBoard[playerID].Player).
+					Msg("New weight record")
+			}
+			mapsarethesame = false
+		} else {
 			if oldBoard[playerID].Weight != newBoard[playerID].Weight {
 				if params.LeaderboardType != "trophy" {
 					logs.Logs().Info().
@@ -103,19 +118,16 @@ func didWeightMapsChange(params LeaderboardParams, oldBoard map[int]data.FishInf
 						Str("FishName", newBoard[playerID].TypeName).
 						Str("FishType", newBoard[playerID].Type).
 						Str("Player", newBoard[playerID].Player).
-						Msg("Updated/New weight record")
+						Msg("Updated weight record")
 				}
-				bla = false
+				mapsarethesame = false
 			}
 			if oldBoard[playerID].Player != newBoard[playerID].Player {
-				bla = false
+				mapsarethesame = false
 			}
 		}
-		return bla
-	} else {
-		bla = false
-		return bla
 	}
+	return mapsarethesame
 }
 
 func logRecord(newRecords map[string]data.FishInfo, oldRecords map[string]LeaderboardInfo, board string) {
