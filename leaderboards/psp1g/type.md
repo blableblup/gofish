@@ -11,7 +11,7 @@
 | 8  | 🛢️ oildrum | 248.25 | sandwichsundays |
 | 9  | 🐙 octopus | 191.79 | xkimi1337 |
 | 10  | 🐋 whale2 | 158.40 | sandwichsundays |
-| 11  | 🐊 crocodile | 149.60 | juwna |
+| 11  | 🐊 crocodile | 149.68 (+0.08) | nndiana |
 | 12  | 🧞‍♂ malegenie | 141.02 | lobuhtomy |
 | 13  | 🧜‍♀️ mermaid | 139.02 | zwockel01 |
 | 14  | 🦭 seal | 134.32 | veny1g |
@@ -44,7 +44,7 @@
 | 41  | 🦦 otter | 19.88 | angus_lpc |
 | 42  | 🪱 worm | 19.17 | caprisen_ |
 | 43  | 🧭 compass | 17.75 | poppari38 |
-| 44  | 🍄 mushroom | 17.72 (+0.14) | theevirus |
+| 44  | 🍄 mushroom | 17.72 | theevirus |
 | 45  | 🦆 duck | 15.55 | sameone |
 | 46  | 🪀 bobber | 14.82 | jemcs_ |
 | 47  | 🪵 log | 13.04 | bcarw |
@@ -69,7 +69,7 @@
 | 65  | ☘️ shamrock | 4.00 | divra__ |
 | 65  | 🐚 shell | 4.00 | manianic_ |
 | 68  | 🐦‍⬛ blackbird | 3.93 | flunke_ |
-| 69  | ☂️ umbrella | 2.98 (+0.02) | theevirus |
+| 69  | ☂️ umbrella | 2.98 | theevirus |
 | 70  | 🌻 sunflower | 2.95 | ratot |
 | 71  | 🩴 thongsandal | 2.94 | bubinga |
 | 72  | 🌹 rose | 2.88 | zwockel01 |
@@ -90,4 +90,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2024-11-17 10:52:19 UTC_
+_Last updated at 2024-11-24 11:20:51 UTC_

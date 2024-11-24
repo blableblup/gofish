@@ -4,18 +4,18 @@
 | 1 🥇  | 🐳 whale | 300.47 | dayzedinndaydreams |
 | 2 🥈  | 🐉 dragon | 282.25 | hahppyy |
 | 3 🥉  | 🦕 sauropod | 240.28 | divra__ |
-| 4  | 🦈 shark | 201.75 (+7.65) | pengeg |
+| 4  | 🦈 shark | 201.75 | pengeg |
 | 5  | 🐙 octopus | 160.48 | divra__ |
 | 6  | 🐋 whale2 | 148.82 | hahppyy |
 | 7  | 🐢 turtle | 148.29 | leastsussyimposter |
 | 8  | 🐊 crocodile | 145.58 | vaiastol |
 | 9  | 🦭 seal | 111.88 | hahppyy |
-| 10  | 🐬 dolphin | 96.76 | hahppyy |
+| 10  | 🐬 dolphin | 104.56 (+7.80) | leastsussyimposter |
 | 11  | 🦑 squid | 95.81 | jr_mime |
 | 12  | 🧟 zombie | 86.37 | yoimlee |
 | 13  | 🛢️ oildrum | 68.03 | leastsussyimposter |
 | 14  | 🪸 coral | 60.38 | vaiastol |
-| 15  | 🦞 lobster | 60.11 (+6.34) | hahppyy |
+| 15  | 🦞 lobster | 60.11 | hahppyy |
 | 16  | 🪨 rock | 47.51 | leastsussyimposter |
 | 17  | 🦫 beaver | 44.84 | vaiastol |
 | 18  | 🐟 fish | 43.71 | hahppyy |
@@ -27,21 +27,21 @@
 | 24  | 🐡 blowfish | 31.46 | yoimlee |
 | 25  | 🧽 sponge | 25.67 | milesdotcom |
 | 26  | 🪳 cockroach | 25.61 | anhedonia1g |
-| 27  | 🐠 tropicalfish | 20.39 | vaiastol |
-| 28  | 🪼 jellyfish | 20.36 | mitgliederversammlung |
-| 29 ⬆ | 🦠 plankton | 19.95 (+10.93) | hahppyy |
-| 30 ⬇ | 🎰 slotmachine | 19.86 | bubinga |
-| 31 ⬇ | 🐍 snake | 18.02 | hahppyy |
-| 32 ⬇ | 🕷️ spider | 16.30 | hahppyy |
-| 33 ⬇ | 🐸 frog | 15.69 | divra__ |
-| 34 ⬇ | 🦦 otter | 14.87 | hahppyy |
-| 35 ⬇ | 🍄 mushroom | 14.55 | milesdotcom |
-| 36 ⬇ | 🐌 snail | 11.90 | leastsussyimposter |
-| 37 ⬇ | 🪺 nestwitheggs | 10.98 | hahppyy |
-| 38 ⬇ | 🪹 emptynest | 10.45 | bubinga |
-| 39 ⬇ | 🪵 log | 10.26 | bubinga |
-| 40 ⬇ | 🪱 worm | 9.51 | hahppyy |
-| 41 ⬇ | 💀 skull | 9.07 | milesdotcom |
+| 27 ⬆ | 🦠 plankton | 21.42 (+1.47) | pengeg |
+| 28 ⬇ | 🐠 tropicalfish | 20.39 | vaiastol |
+| 29 ⬇ | 🪼 jellyfish | 20.36 | mitgliederversammlung |
+| 30  | 🎰 slotmachine | 19.86 | bubinga |
+| 31  | 🐍 snake | 18.02 | hahppyy |
+| 32  | 🕷️ spider | 16.30 | hahppyy |
+| 33  | 🐸 frog | 15.69 | divra__ |
+| 34  | 🦦 otter | 14.87 | hahppyy |
+| 35  | 🍄 mushroom | 14.55 | milesdotcom |
+| 36  | 🐌 snail | 11.90 | leastsussyimposter |
+| 37  | 🪺 nestwitheggs | 10.98 | hahppyy |
+| 38  | 🪹 emptynest | 10.45 | bubinga |
+| 39  | 🪵 log | 10.26 | bubinga |
+| 40  | 🪱 worm | 9.51 | hahppyy |
+| 41  | 💀 skull | 9.07 | milesdotcom |
 | 42  | 🧊 icecube | 8.06 | dayzedinndaydreams |
 | 43  | 🦎 lizard | 7.96 | vaiastol |
 | 44  | 🎱 8ball | 7.75 | hahppyy |
@@ -52,28 +52,29 @@
 | 49  | 👒 womanshat | 5.54 | hahppyy |
 | 50  | 🧵 wireline | 5.52 | pengeg |
 | 51  | 🩲 briefs | 5.42 | pengeg |
-| 52  | 🎏 lure | 4.90 | hahppyy |
-| 53  | 🐚 shell | 3.99 | cyanidecynic |
-| 54  | 🌰 acorn | 3.94 | divra__ |
-| 55  | 🪝 hook | 3.57 | yoimlee |
-| 56  | 📱 iphone | 3.26 | creepycode |
-| 57  | ☂️ umbrella | 2.40 | divra__ |
-| 58  | 👢 boot | 1.97 | yoimlee |
-| 59  | 🧦 socks | 1.95 | divra__ |
-| 60  | 🩴 thongsandal | 1.87 | vaiastol |
-| 61  | 👟 athleticshoe | 1.83 | hahppyy |
-| 62  | 🥫 cannedfood | 1.76 | milesdotcom |
-| 63  | ☘️ shamrock | 1.75 | divra__ |
-| 64  | 🥪 sandwich | 1.62 | divra__ |
-| 65  | 🧞‍♂ malegenie | 1.44 | hahppyy |
-| 66  | 🦢 swan | 1.14 | vaiastol |
-| 67  | 🧤 gloves | 0.95 | hahppyy |
-| 68  | 🌿 seaweed | 0.91 | hahppyy |
-| 69  | 🪶 feather | 0.88 | milesdotcom |
-| 70  | 🍁 mapleleaf | 0.84 | divra__ |
-| 71  | 🩰 balletshoes | 0.67 | hahppyy |
-| 72  | 🍬 candy | 0.04 (+0.04) | hahppyy |
+| 52 🆕 | 🧸 teddybear | 4.99 | hahppyy |
+| 53 ⬇ | 🎏 lure | 4.90 | hahppyy |
+| 54 ⬇ | 🐚 shell | 3.99 | cyanidecynic |
+| 55 ⬇ | 🌰 acorn | 3.94 | divra__ |
+| 56 ⬇ | 🪝 hook | 3.57 | yoimlee |
+| 57 ⬇ | 📱 iphone | 3.26 | creepycode |
+| 58 ⬇ | ☂️ umbrella | 2.40 | divra__ |
+| 59 ⬇ | 👢 boot | 1.97 | yoimlee |
+| 60 ⬇ | 🧦 socks | 1.95 | divra__ |
+| 61 ⬇ | 🩴 thongsandal | 1.87 | vaiastol |
+| 62 ⬇ | 👟 athleticshoe | 1.83 | hahppyy |
+| 63 ⬇ | 🥫 cannedfood | 1.76 | milesdotcom |
+| 64 ⬇ | ☘️ shamrock | 1.75 | divra__ |
+| 65 ⬇ | 🥪 sandwich | 1.73 (+0.11) | hahppyy |
+| 66 ⬇ | 🧞‍♂ malegenie | 1.44 | hahppyy |
+| 67 ⬇ | 🦢 swan | 1.14 | vaiastol |
+| 68 ⬇ | 🧤 gloves | 0.95 | hahppyy |
+| 69 ⬇ | 🌿 seaweed | 0.91 | hahppyy |
+| 70 ⬇ | 🪶 feather | 0.88 | milesdotcom |
+| 71 ⬇ | 🍁 mapleleaf | 0.84 | divra__ |
+| 72 ⬇ | 🩰 balletshoes | 0.67 | hahppyy |
+| 73 ⬇ | 🍬 candy | 0.04 | hahppyy |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2024-11-17 10:52:14 UTC_
+_Last updated at 2024-11-24 11:20:55 UTC_

@@ -54,4 +54,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2024-11-17 10:52:42 UTC_
+_Last updated at 2024-11-24 11:21:27 UTC_

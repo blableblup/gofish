@@ -21,7 +21,7 @@
 | 18  | 🧟 zombie | 118.47 | realtechnine |
 | 19  | 🐬 dolphin | 112.76 | kaasppeerr |
 | 20  | 📱 iphone | 109.87 | kaasppeerr |
-| 21  | 🦇 bat | 109.02 | larrahey |
+| 21  | 🦇 bat | 109.02 | larvasisters |
 | 22  | 🪸 coral | 99.61 | puzzlow |
 | 23  | 👑 crown | 77.02 | puzzlow |
 | 24  | 🪨 rock | 74.57 | fishingalt |
@@ -91,4 +91,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2024-11-17 10:52:13 UTC_
+_Last updated at 2024-11-24 11:20:54 UTC_
