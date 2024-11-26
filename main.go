@@ -51,17 +51,6 @@ func main() {
 		logs.Logs().Warn().Msg("No program specified. Use '-p help' for help")
 		return
 
-	case "help":
-		logs.Logs().Info().Msg("Leaderboards: fishweek, trophy, weight, type, count, rare, stats. Global boards: weight, type, count")
-		logs.Logs().Info().Msg("Usage: -p boards [-s <chat names> <all> <global>] [-l <leaderboards>] [-mm <mode>]")
-		logs.Logs().Info().Msg("Usage: -p data [-db <database>] [-m <months>] [-dt <date>] [-mm <mode>]")
-		logs.Logs().Info().Msg("Usage: If no month or time period is specified it checks the current month")
-		logs.Logs().Info().Msg("Usage: -p renamedfish [-rename <oldName:newName>]")
-		logs.Logs().Info().Msg("To run in debug mode, set -debug to true.")
-		logs.Logs().Info().Msg("Mode 'check': For type,weight,fishweek boards. Only logs new or updated records")
-		logs.Logs().Info().Msg("Mode 'a': For data. Adds every fish caught to FishData instead of just the new ones and inserts the missing fish into the db")
-		return
-
 	case "boards":
 		logs.Logs().Info().
 			Str("Boards", *leaderboard).
@@ -69,6 +58,7 @@ func main() {
 			Str("Program", *program).
 			Str("Date", *monthYear).
 			Str("Date2", *date2).
+			Str("Limit", *limit).
 			Str("Title", *title).
 			Str("Mode", *mode).
 			Str("Path", *path).
