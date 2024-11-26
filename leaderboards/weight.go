@@ -106,11 +106,6 @@ func processWeight(params LeaderboardParams) {
 		titleweight = fmt.Sprintf("%s\n", title)
 	}
 
-	logs.Logs().Info().
-		Str("Board", board).
-		Str("Chat", chatName).
-		Msg("Updating leaderboard")
-
 	err = writeWeight(filePath, recordWeight, oldRecordWeight, titleweight, global, weightlimit)
 	if err != nil {
 		logs.Logs().Error().Err(err).
