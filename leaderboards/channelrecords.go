@@ -8,6 +8,7 @@ import (
 	"os"
 	"path/filepath"
 	"sort"
+	"strconv"
 	"strings"
 	"time"
 
@@ -20,6 +21,7 @@ func processChannelRecords(params LeaderboardParams) {
 	config := params.Config
 	global := params.Global
 	title := params.Title
+	limit := params.Limit
 	mode := params.Mode
 	chat := params.Chat
 	pool := params.Pool
@@ -37,9 +39,30 @@ func processChannelRecords(params LeaderboardParams) {
 		filePath = filepath.Join("leaderboards", chatName, path)
 	}
 
-	weightlimit = chat.WeightlimitRecords
-	if weightlimit == 0 {
-		weightlimit = config.Chat["default"].WeightlimitRecords
+	oldChannelRecords, err := ReadChannelRecords(filePath, pool)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Path", filePath).
+			Str("Board", board).
+			Msg("Error reading old leaderboard")
+		return
+	}
+
+	if limit == "" {
+		weightlimit = chat.Weightlimit
+		if weightlimit == 0 {
+			weightlimit = config.Chat["default"].Weightlimit
+		}
+	} else {
+		weightlimit, err = strconv.ParseFloat(limit, 64)
+		if err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Chat", chatName).
+				Str("Limit", limit).
+				Str("Board", board).
+				Msg("Error converting custom weight limit to float64")
+			return
+		}
 	}
 
 	records, err := getRecords(params, weightlimit)
@@ -48,15 +71,6 @@ func processChannelRecords(params LeaderboardParams) {
 			Str("Path", filePath).
 			Str("Board", board).
 			Msg("Error getting weight records")
-		return
-	}
-
-	oldChannelRecords, err := ReadChannelRecords(filePath, pool)
-	if err != nil {
-		logs.Logs().Error().Err(err).
-			Str("Path", filePath).
-			Str("Board", board).
-			Msg("Error reading old leaderboard")
 		return
 	}
 
@@ -83,11 +97,6 @@ func processChannelRecords(params LeaderboardParams) {
 	} else {
 		titlerecords = fmt.Sprintf("%s\n", title)
 	}
-
-	logs.Logs().Info().
-		Str("Board", board).
-		Str("Chat", chatName).
-		Msg("Updating leaderboard")
 
 	err = writeRecords(records, oldChannelRecords, filePath, titlerecords, global, weightlimit)
 	if err != nil {
