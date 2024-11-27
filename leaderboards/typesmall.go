@@ -15,15 +15,11 @@ func processTypeSmall(params LeaderboardParams) {
 	board := params.LeaderboardType
 	chatName := params.ChatName
 	global := params.Global
-	date2 := params.Date2
 	title := params.Title
-	pool := params.Pool
-	date := params.Date
 	path := params.Path
 	mode := params.Mode
 
 	var filePath, titletype string
-	var rows pgx.Rows
 
 	if path == "" {
 		filePath = filepath.Join("leaderboards", chatName, "typesmall.md")
@@ -34,7 +30,7 @@ func processTypeSmall(params LeaderboardParams) {
 		filePath = filepath.Join("leaderboards", chatName, path)
 	}
 
-	oldType, err := ReadTypeRankings(filePath, pool)
+	oldType, err := getJsonBoardString(filePath)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Chat", chatName).
@@ -44,9 +40,89 @@ func processTypeSmall(params LeaderboardParams) {
 		return
 	}
 
-	recordType := make(map[string]data.FishInfo)
+	recordType, err := getTypeRecordsSmall(params)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Chat", chatName).
+			Str("Path", filePath).
+			Str("Board", board).
+			Msg("Error getting type records")
+		return
+	}
 
-	// Query the database to get the Smallest fish per type for the specific chat or globally
+	AreMapsSame := didFishMapChange(params, oldType, recordType)
+
+	if AreMapsSame && mode != "force" {
+		logs.Logs().Warn().
+			Str("Board", board).
+			Str("Chat", chatName).
+			Msg("Not updating board because there are no changes")
+		return
+	}
+
+	// Stops the program if it is in "just checking" mode
+	if mode == "check" {
+		logs.Logs().Info().
+			Str("Chat", chatName).
+			Str("Board", board).
+			Msg("Finished checking for new records")
+		return
+	}
+
+	if title == "" {
+		if !global {
+			if strings.HasSuffix(chatName, "s") {
+				titletype = fmt.Sprintf("### Smallest fish per type caught in %s' chat\n", chatName)
+			} else {
+				titletype = fmt.Sprintf("### Smallest fish per type caught in %s's chat\n", chatName)
+			}
+		} else {
+			titletype = "### Smallest fish per type caught globally\n"
+		}
+	} else {
+		titletype = fmt.Sprintf("%s\n", title)
+	}
+
+	err = writeType(filePath, recordType, oldType, titletype, global)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Board", board).
+			Str("Chat", chatName).
+			Msg("Error writing leaderboard")
+	} else {
+		logs.Logs().Info().
+			Str("Board", board).
+			Str("Chat", chatName).
+			Msg("Leaderboard updated successfully")
+	}
+
+	err = writeRawString(filePath, recordType)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Board", board).
+			Str("Chat", chatName).
+			Msg("Error writing raw leaderboard")
+	} else {
+		logs.Logs().Info().
+			Str("Board", board).
+			Str("Chat", chatName).
+			Msg("Raw leaderboard updated successfully")
+	}
+}
+
+func getTypeRecordsSmall(params LeaderboardParams) (map[string]data.FishInfo, error) {
+	board := params.LeaderboardType
+	chatName := params.ChatName
+	global := params.Global
+	date2 := params.Date2
+	pool := params.Pool
+	date := params.Date
+
+	recordType := make(map[string]data.FishInfo)
+	var rows pgx.Rows
+	var err error
+
+	// Query the database to get the smallest fish per type for the specific chat or globally
 	// Fish you get from releasing dont show their weight so they get ignored here
 	if !global {
 		rows, err = pool.Query(context.Background(), `
@@ -74,7 +150,7 @@ func processTypeSmall(params LeaderboardParams) {
 				Str("Chat", chatName).
 				Str("Board", board).
 				Msg("Error querying database")
-			return
+			return recordType, err
 		}
 		defer rows.Close()
 	} else {
@@ -101,11 +177,12 @@ func processTypeSmall(params LeaderboardParams) {
 				Str("Board", board).
 				Str("Chat", chatName).
 				Msg("Error querying database")
-			return
+			return recordType, err
 		}
 		defer rows.Close()
 	}
 
+	// Iterate through the query results
 	for rows.Next() {
 		var fishInfo data.FishInfo
 
@@ -115,7 +192,7 @@ func processTypeSmall(params LeaderboardParams) {
 				Str("Chat", chatName).
 				Str("Board", board).
 				Msg("Error scanning row")
-			return
+			return recordType, err
 		}
 
 		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Player)
@@ -125,7 +202,7 @@ func processTypeSmall(params LeaderboardParams) {
 				Str("Chat", chatName).
 				Str("Board", board).
 				Msg("Error retrieving player name for id")
-			return
+			return recordType, err
 		}
 
 		if fishInfo.Bot == "supibot" {
@@ -136,6 +213,7 @@ func processTypeSmall(params LeaderboardParams) {
 					Str("Chat", chatName).
 					Str("Board", board).
 					Msg("Error retrieving verified status for playerid")
+				return recordType, err
 			}
 		}
 
@@ -146,14 +224,14 @@ func processTypeSmall(params LeaderboardParams) {
 				Str("Chat", chatName).
 				Str("Board", board).
 				Msg("Error retrieving fish type for fish name")
-			return
+			return recordType, err
 		}
 
 		if global {
 			fishInfo.ChatPfp = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", fishInfo.Chat, fishInfo.Chat)
 		}
 
-		recordType[fishInfo.Type] = fishInfo
+		recordType[fishInfo.TypeName] = fishInfo
 	}
 
 	if err := rows.Err(); err != nil {
@@ -161,49 +239,8 @@ func processTypeSmall(params LeaderboardParams) {
 			Str("Chat", chatName).
 			Str("Board", board).
 			Msg("Error iterating over query results")
-		return
+		return recordType, err
 	}
 
-	logRecord(recordType, oldType, board)
-
-	// Stops the program if it is in "just checking" mode
-	if mode == "check" {
-		logs.Logs().Info().
-			Str("Chat", chatName).
-			Str("Board", board).
-			Msg("Finished checking for new records")
-		return
-	}
-
-	if title == "" {
-		if !global {
-			if strings.HasSuffix(chatName, "s") {
-				titletype = fmt.Sprintf("### Smallest fish per type caught in %s' chat\n", chatName)
-			} else {
-				titletype = fmt.Sprintf("### Smallest fish per type caught in %s's chat\n", chatName)
-			}
-		} else {
-			titletype = "### Smallest fish per type caught globally\n"
-		}
-	} else {
-		titletype = fmt.Sprintf("%s\n", title)
-	}
-
-	logs.Logs().Info().
-		Str("Board", board).
-		Str("Chat", chatName).
-		Msg("Updating leaderboard")
-
-	err = writeType(filePath, recordType, oldType, titletype, global)
-	if err != nil {
-		logs.Logs().Error().Err(err).
-			Str("Board", board).
-			Str("Chat", chatName).
-			Msg("Error writing leaderboard")
-	} else {
-		logs.Logs().Info().
-			Str("Board", board).
-			Str("Chat", chatName).
-			Msg("Leaderboard updated successfully")
-	}
+	return recordType, nil
 }

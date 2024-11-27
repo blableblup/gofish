@@ -17,15 +17,11 @@ func processType(params LeaderboardParams) {
 	board := params.LeaderboardType
 	chatName := params.ChatName
 	global := params.Global
-	date2 := params.Date2
 	title := params.Title
-	pool := params.Pool
-	date := params.Date
 	path := params.Path
 	mode := params.Mode
 
 	var filePath, titletype string
-	var rows pgx.Rows
 
 	if path == "" {
 		filePath = filepath.Join("leaderboards", chatName, "type.md")
@@ -36,7 +32,7 @@ func processType(params LeaderboardParams) {
 		filePath = filepath.Join("leaderboards", chatName, path)
 	}
 
-	oldType, err := ReadTypeRankings(filePath, pool)
+	oldType, err := getJsonBoardString(filePath)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Chat", chatName).
@@ -46,7 +42,87 @@ func processType(params LeaderboardParams) {
 		return
 	}
 
+	recordType, err := getTypeRecords(params)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Chat", chatName).
+			Str("Path", filePath).
+			Str("Board", board).
+			Msg("Error getting type records")
+		return
+	}
+
+	AreMapsSame := didFishMapChange(params, oldType, recordType)
+
+	if AreMapsSame && mode != "force" {
+		logs.Logs().Warn().
+			Str("Board", board).
+			Str("Chat", chatName).
+			Msg("Not updating board because there are no changes")
+		return
+	}
+
+	// Stops the program if it is in "just checking" mode
+	if mode == "check" {
+		logs.Logs().Info().
+			Str("Chat", chatName).
+			Str("Board", board).
+			Msg("Finished checking for new records")
+		return
+	}
+
+	if title == "" {
+		if !global {
+			if strings.HasSuffix(chatName, "s") {
+				titletype = fmt.Sprintf("### Biggest fish per type caught in %s' chat\n", chatName)
+			} else {
+				titletype = fmt.Sprintf("### Biggest fish per type caught in %s's chat\n", chatName)
+			}
+		} else {
+			titletype = "### Biggest fish per type caught globally\n"
+		}
+	} else {
+		titletype = fmt.Sprintf("%s\n", title)
+	}
+
+	err = writeType(filePath, recordType, oldType, titletype, global)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Board", board).
+			Str("Chat", chatName).
+			Msg("Error writing leaderboard")
+	} else {
+		logs.Logs().Info().
+			Str("Board", board).
+			Str("Chat", chatName).
+			Msg("Leaderboard updated successfully")
+	}
+
+	err = writeRawString(filePath, recordType)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Board", board).
+			Str("Chat", chatName).
+			Msg("Error writing raw leaderboard")
+	} else {
+		logs.Logs().Info().
+			Str("Board", board).
+			Str("Chat", chatName).
+			Msg("Raw leaderboard updated successfully")
+	}
+}
+
+func getTypeRecords(params LeaderboardParams) (map[string]data.FishInfo, error) {
+	board := params.LeaderboardType
+	chatName := params.ChatName
+	global := params.Global
+	date2 := params.Date2
+	pool := params.Pool
+	date := params.Date
+
 	recordType := make(map[string]data.FishInfo)
+	var rows pgx.Rows
+	var err error
 
 	// Query the database to get the biggest fish per type for the specific chat or globally
 	if !global {
@@ -74,7 +150,7 @@ func processType(params LeaderboardParams) {
 				Str("Chat", chatName).
 				Str("Board", board).
 				Msg("Error querying database")
-			return
+			return recordType, err
 		}
 		defer rows.Close()
 	} else {
@@ -100,7 +176,7 @@ func processType(params LeaderboardParams) {
 				Str("Board", board).
 				Str("Chat", chatName).
 				Msg("Error querying database")
-			return
+			return recordType, err
 		}
 		defer rows.Close()
 	}
@@ -115,7 +191,7 @@ func processType(params LeaderboardParams) {
 				Str("Chat", chatName).
 				Str("Board", board).
 				Msg("Error scanning row")
-			return
+			return recordType, err
 		}
 
 		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Player)
@@ -125,7 +201,7 @@ func processType(params LeaderboardParams) {
 				Str("Chat", chatName).
 				Str("Board", board).
 				Msg("Error retrieving player name for id")
-			return
+			return recordType, err
 		}
 
 		if fishInfo.Bot == "supibot" {
@@ -136,6 +212,7 @@ func processType(params LeaderboardParams) {
 					Str("Chat", chatName).
 					Str("Board", board).
 					Msg("Error retrieving verified status for playerid")
+				return recordType, err
 			}
 		}
 
@@ -146,14 +223,14 @@ func processType(params LeaderboardParams) {
 				Str("Chat", chatName).
 				Str("Board", board).
 				Msg("Error retrieving fish type for fish name")
-			return
+			return recordType, err
 		}
 
 		if global {
 			fishInfo.ChatPfp = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", fishInfo.Chat, fishInfo.Chat)
 		}
 
-		recordType[fishInfo.Type] = fishInfo
+		recordType[fishInfo.TypeName] = fishInfo
 	}
 
 	if err := rows.Err(); err != nil {
@@ -161,54 +238,13 @@ func processType(params LeaderboardParams) {
 			Str("Chat", chatName).
 			Str("Board", board).
 			Msg("Error iterating over query results")
-		return
+		return recordType, err
 	}
 
-	logRecord(recordType, oldType, board)
-
-	// Stops the program if it is in "just checking" mode
-	if mode == "check" {
-		logs.Logs().Info().
-			Str("Chat", chatName).
-			Str("Board", board).
-			Msg("Finished checking for new records")
-		return
-	}
-
-	if title == "" {
-		if !global {
-			if strings.HasSuffix(chatName, "s") {
-				titletype = fmt.Sprintf("### Biggest fish per type caught in %s' chat\n", chatName)
-			} else {
-				titletype = fmt.Sprintf("### Biggest fish per type caught in %s's chat\n", chatName)
-			}
-		} else {
-			titletype = "### Biggest fish per type caught globally\n"
-		}
-	} else {
-		titletype = fmt.Sprintf("%s\n", title)
-	}
-
-	logs.Logs().Info().
-		Str("Board", board).
-		Str("Chat", chatName).
-		Msg("Updating leaderboard")
-
-	err = writeType(filePath, recordType, oldType, titletype, global)
-	if err != nil {
-		logs.Logs().Error().Err(err).
-			Str("Board", board).
-			Str("Chat", chatName).
-			Msg("Error writing leaderboard")
-	} else {
-		logs.Logs().Info().
-			Str("Board", board).
-			Str("Chat", chatName).
-			Msg("Leaderboard updated successfully")
-	}
+	return recordType, nil
 }
 
-func writeType(filePath string, recordType map[string]data.FishInfo, oldType map[string]LeaderboardInfo, title string, global bool) error {
+func writeType(filePath string, recordType map[string]data.FishInfo, oldType map[string]data.FishInfo, title string, global bool) error {
 
 	// Ensure that the directory exists before attempting to create the file
 	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
@@ -246,20 +282,21 @@ func writeType(filePath string, recordType map[string]data.FishInfo, oldType map
 		return err
 	}
 
-	sortedTypes := SortMapByWeightDesc(recordType)
+	sortedTypes := sortFishRecords(recordType)
 
-	for _, fishType := range sortedTypes {
-		weight := recordType[fishType].Weight
-		player := recordType[fishType].Player
-		fishName := recordType[fishType].TypeName
-		rank := recordType[fishType].Rank
+	for _, fishName := range sortedTypes {
+		weight := recordType[fishName].Weight
+		player := recordType[fishName].Player
+		fishName := recordType[fishName].TypeName
+		fishType := recordType[fishName].Type
+		rank := recordType[fishName].Rank
 
 		var found bool
 
 		oldWeight := weight
 		oldRank := -1
 
-		if info, ok := oldType[fishType]; ok {
+		if info, ok := oldType[fishName]; ok {
 			found = true
 			oldWeight = info.Weight
 			oldRank = info.Rank
@@ -282,7 +319,7 @@ func writeType(filePath string, recordType map[string]data.FishInfo, oldType map
 		}
 
 		botIndicator := ""
-		if recordType[fishType].Bot == "supibot" && !recordType[fishType].Verified {
+		if recordType[fishName].Bot == "supibot" && !recordType[fishName].Verified {
 			botIndicator = "*"
 		}
 
@@ -290,7 +327,7 @@ func writeType(filePath string, recordType map[string]data.FishInfo, oldType map
 
 		_, _ = fmt.Fprintf(file, "| %s %s | %s %s | %s | %s%s |", ranks, changeEmoji, fishType, fishName, fishweight, player, botIndicator)
 		if global {
-			_, _ = fmt.Fprintf(file, " %s |", recordType[fishType].ChatPfp)
+			_, _ = fmt.Fprintf(file, " %s |", recordType[fishName].ChatPfp)
 		}
 		_, err = fmt.Fprintln(file)
 		if err != nil {
