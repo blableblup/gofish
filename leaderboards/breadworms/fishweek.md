@@ -14,18 +14,18 @@
 | 10  | lazzvli*  | 112 |
 | 12  | ryebreadward  | 110 |
 | 13  | bussinongnocap  | 108 |
-| 14  | dayzedinndaydreams  | 93 |
-| 15  | crazytown_bananapants  | 89 |
-| 16  | supibot  | 88 |
-| 17  | comiqq  | 84 |
-| 18  | miiiiisho  | 79 |
-| 19  | respirate_  | 74 |
-| 20  | booty_bread  | 60 |
-| 21 ⬆ | leanmeister  | 58 (+7) |
-| 22 ⬇ | receipts  | 56 |
-| 23 ⬇ | bk207*  | 53 |
-| 24 ⬇ | hmsmob*  | 52 |
-| 24 ⬇ | kaasppeerr  | 52 |
+| 13 ⬆ | leanmeister  | 108 (+50) |
+| 15 ⬇ | dayzedinndaydreams  | 93 |
+| 16 ⬇ | crazytown_bananapants  | 89 |
+| 17 ⬇ | supibot  | 88 |
+| 18 ⬇ | comiqq  | 84 |
+| 19 ⬇ | miiiiisho  | 79 |
+| 20 ⬇ | respirate_  | 74 |
+| 21 ⬇ | booty_bread  | 60 |
+| 22  | receipts  | 56 |
+| 23  | bk207*  | 53 |
+| 24  | hmsmob*  | 52 |
+| 24  | kaasppeerr  | 52 |
 | 26  | bapqo  | 49 |
 | 27  | paras220  | 46 |
 | 28  | ninjaross  | 44 |
@@ -49,4 +49,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2024-11-20 13:46:26 UTC_
+_Last updated at 2024-11-27 11:41:12 UTC_

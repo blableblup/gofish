@@ -3,9 +3,9 @@
 |------|--------|-------------|------------------|------------------|--------|
 | 1 🥇 | puzzlow | 35 | 15 | 14 | 127.0 |
 | 2 🥈 | osnyatsky | 31 | 24 | 6 | 120.0 |
-| 3 🥉 | chuuubbyyy | 23 | 40 | 19 (+3) | 118.5 (+1.5) |
+| 3 🥉 | chuuubbyyy | 23 | 40 | 20 (+1) | 119.0 (+0.5) |
 | 4 | derinturitierutz | 33 | 5 | 10 | 109.0 |
-| 5 | osnyisdead | 26 (+3) | 9 | 2 | 88.0 (+9.0) |
+| 5 | osnyisdead | 26 | 12 (+3) | 2 | 91.0 (+3.0) |
 | 6 | qu4ttromila | 11 | 19 | 20 | 62.0 |
 | 7 | kishma9 | 11 | 18 | 8 | 55.0 |
 | 8 | miiiiisho | 7 | 21 | 11 | 47.5 |
@@ -16,26 +16,27 @@
 | 13 | fishingalt | 4 | 7 | 6 | 22.0 |
 | 14 | booty_bread | 4 | 2 | 6 | 17.0 |
 | 15 | ryebreadward | 3 | 3 | 6 | 15.0 |
-| 16 | respirate_ | 2 | 1 | 2 | 8.0 |
-| 17 | idini | 1 | 0 | 6 | 6.0 |
-| 17 | lazzvli | 2 | 0 | 0 | 6.0 |
-| 19 | c_mgi | 0 | 2 | 5 | 4.5 |
-| 19 ⬆| leanmeister | 0 | 4 (+3) | 1 | 4.5 (+3.0) |
-| 21 ⬇| paras220 | 1 | 0 | 2 | 4.0 |
-| 22 ⬇| crazytown_bananapants | 1 | 0 | 1 | 3.5 |
-| 23 ⬇| divra__ | 1 | 0 | 0 | 3.0 |
-| 23 ⬇| receipts | 0 | 2 | 2 | 3.0 |
-| 25 ⬇| houseofieaves | 0 | 2 | 1 | 2.5 |
-| 26 ⬇| bussinongnocap | 0 | 1 | 2 | 2.0 |
-| 26 ⬇| julialuxel | 0 | 2 | 0 | 2.0 |
-| 26 ⬇| ninjaross | 0 | 0 | 4 | 2.0 |
-| 29 ⬇| breadworms | 0 | 0 | 3 | 1.5 |
-| 29 ⬇| kaasppeerr | 0 | 0 | 3 | 1.5 |
-| 29 ⬇| larvasisters | 0 | 1 | 1 | 1.5 |
-| 32 | bapqo | 0 | 0 | 2 | 1.0 |
-| 33 | hansworthelias | 0 | 0 | 1 | 0.5 |
-| 33 | jr_mime | 0 | 0 | 1 | 0.5 |
-| 33 | mochi_uygqzidbjizjkbehuiw | 0 | 0 | 1 | 0.5 |
-| 33 | niiy | 0 | 0 | 1 | 0.5 |
+| 16 ⬆| leanmeister | 2 (+2) | 4 | 1 | 10.5 (+6.0) |
+| 17 ⬇| respirate_ | 2 | 1 | 2 | 8.0 |
+| 18 ⬇| idini | 1 | 0 | 6 | 6.0 |
+| 18 ⬇| lazzvli | 2 | 0 | 0 | 6.0 |
+| 20 ⬇| c_mgi | 0 | 2 | 6 (+1) | 5.0 (+0.5) |
+| 21 | paras220 | 1 | 0 | 2 | 4.0 |
+| 22 | crazytown_bananapants | 1 | 0 | 1 | 3.5 |
+| 22 🆕| dougiefresh_83 | 1 | 0 | 1 | 3.5 |
+| 24 ⬇| divra__ | 1 | 0 | 0 | 3.0 |
+| 24 ⬇| receipts | 0 | 2 | 2 | 3.0 |
+| 26 ⬇| houseofieaves | 0 | 2 | 1 | 2.5 |
+| 27 ⬇| bussinongnocap | 0 | 1 | 2 | 2.0 |
+| 27 ⬇| julialuxel | 0 | 2 | 0 | 2.0 |
+| 27 ⬇| ninjaross | 0 | 0 | 4 | 2.0 |
+| 30 ⬇| breadworms | 0 | 0 | 3 | 1.5 |
+| 30 ⬇| kaasppeerr | 0 | 0 | 3 | 1.5 |
+| 30 ⬇| larvasisters | 0 | 1 | 1 | 1.5 |
+| 33 ⬇| bapqo | 0 | 0 | 2 | 1.0 |
+| 34 ⬇| hansworthelias | 0 | 0 | 1 | 0.5 |
+| 34 ⬇| jr_mime | 0 | 0 | 1 | 0.5 |
+| 34 ⬇| mochi_uygqzidbjizjkbehuiw | 0 | 0 | 1 | 0.5 |
+| 34 ⬇| niiy | 0 | 0 | 1 | 0.5 |
 
-_Last updated at 2024-11-20 13:46:26 UTC_
+_Last updated at 2024-11-27 11:42:44 UTC_
