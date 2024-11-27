@@ -111,6 +111,13 @@
         "checktdata": true,
         "board_enabled": true
       },
+      "aquaismissing": {
+        "logs_host": "https://logs.potat.app",
+        "logs_added": "2024/11",
+        "checkfdata": true,
+        "checktdata": true,
+        "board_enabled": false
+      },
       "global": {
         "weight_limit": 270,
         "totalcount_limit": 300,
