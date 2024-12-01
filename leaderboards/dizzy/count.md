@@ -1,40 +1,42 @@
 ### Most fish caught in dizzy's chat
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
-| 1 🥇  | buhl00n  | 346 (+11) |
-| 2 🥈  | iam_haunt_  | 329 (+66) |
-| 3 🥉 ⬆ | konsminator  | 279 (+64) |
-| 4 ⬇ | spanmer  | 277 (+27) |
-| 5 ⬇ | rabituwu  | 239 (+17) |
-| 6 ⬆ | lolspers  | 221 (+55) |
-| 7 ⬇ | gimmeschmoneys  | 202 (+20) |
-| 8  | vagdi  | 171 (+25) |
-| 9  | ssenario  | 154 (+12) |
-| 10 ⬆ | ben_vincent  | 139 (+31) |
-| 11 ⬇ | burnend  | 129 (+6) |
-| 12 ⬇ | aceleju  | 115 |
-| 13 ⬇ | kukkuri  | 109 |
-| 14  | simplydrack  | 101 (+18) |
-| 15 ⬆ | tairaaaaa  | 92 (+19) |
-| 16 ⬇ | kyonuwu  | 79 (+2) |
-| 17 ⬆ | notnownico  | 78 (+14) |
-| 18  | exo9*  | 70 (+4) |
-| 18 ⬆ | paperboat99  | 70 (+7) |
-| 20 ⬇ | gofishgamer  | 69 |
-| 21 ⬇ | icejamx  | 65 (+1) |
-| 21 ⬇ | silent11d5  | 65 |
-| 23  | respirate_  | 54 |
-| 24 ⬆ | imzommie  | 48 (+3) |
-| 25 ⬇ | rozbox  | 47 (+1) |
-| 26  | 777pancake  | 46 (+2) |
-| 27 🆕 | ofaisalz  | 42 |
-| 27  | whoop_ee  | 42 (+4) |
-| 29 ⬇ | deadl3gs  | 38 |
-| 30 ⬇ | gigi  | 36 |
-| 31  | dizzy  | 35 (+2) |
-| 31 ⬇ | gizbart  | 35 |
-| 33 ⬇ | sugur  | 33 (+2) |
+| 1 🥇  | buhl00n  | 424 (+78) |
+| 2 🥈  | iam_haunt_  | 370 (+41) |
+| 3 🥉 ⬆ | spanmer  | 326 (+49) |
+| 4 ⬇ | konsminator  | 321 (+42) |
+| 5 ⬆ | lolspers  | 284 (+63) |
+| 6 ⬇ | rabituwu  | 239 |
+| 7 ⬆ | ben_vincent  | 213 (+74) |
+| 8 ⬇ | gimmeschmoneys  | 211 (+9) |
+| 9 ⬇ | vagdi  | 192 (+21) |
+| 10 ⬇ | ssenario  | 163 (+9) |
+| 11  | burnend  | 131 (+2) |
+| 12 ⬆ | tairaaaaa  | 122 (+30) |
+| 13 ⬇ | aceleju  | 115 |
+| 14 ⬇ | kukkuri  | 109 |
+| 15 ⬇ | simplydrack  | 104 (+3) |
+| 16 ⬆ | notnownico  | 90 (+12) |
+| 17 ⬇ | kyonuwu  | 82 (+3) |
+| 18  | paperboat99  | 79 (+9) |
+| 19 ⬇ | exo9*  | 75 (+5) |
+| 19 🆕 | gofishrigged  | 75 |
+| 21 ⬇ | gofishgamer  | 69 |
+| 22 ⬇ | icejamx  | 65 |
+| 22 ⬇ | silent11d5  | 65 |
+| 24 ⬆ | ofaisalz  | 60 (+18) |
+| 25 ⬇ | imzommie  | 57 (+9) |
+| 26 ⬇ | respirate_  | 54 |
+| 27 ⬇ | rozbox  | 52 (+5) |
+| 28 ⬇ | 777pancake  | 51 (+5) |
+| 29 ⬆ | sugur  | 47 (+14) |
+| 30 ⬇ | whoop_ee  | 46 (+4) |
+| 31 ⬇ | deadl3gs  | 38 |
+| 32 ⬇ | dizzy  | 36 (+1) |
+| 32 ⬇ | gigi  | 36 |
+| 34 ⬇ | gizbart  | 35 |
+| 35 🆕 | mitsu_skidz  | 33 |
 
 _Only showing fishers who caught >= 30 fish_
 
-_Last updated at 2024-11-24 11:20:46 UTC_
+_Last updated at 2024-12-01 11:49:23 UTC_

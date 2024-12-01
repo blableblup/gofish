@@ -5,8 +5,8 @@
 | 2 🥈  | respirate_ | 🐉 dragon | 239.97 |
 | 3 🥉  | aliveleader | 🐉 dragon | 220.29 |
 | 4  | sykelle | 🦈 shark | 210.87 |
-| 5  | mangos4u | 🦈 shark | 199.52 (+14.34) |
-| 6  | v6r_ | 🐳 whale | 171.06 |
+| 5  | mangos4u | 🦈 shark | 199.52 |
+| 6  | v6r_ | 🐍 snake | 186.33 (+15.27) |
 | 7  | xddjenny | 🐬 dolphin | 96.16 |
 | 8  | sussy_amonge | 🦑 squid | 83.19 |
 | 9  | gofishgamer | 🐢 turtle | 74.83 |
@@ -14,4 +14,4 @@
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2024-11-24 11:22:25 UTC_
+_Last updated at 2024-12-01 11:49:35 UTC_

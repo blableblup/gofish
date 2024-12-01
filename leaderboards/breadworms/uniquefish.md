@@ -13,13 +13,13 @@
 | 9  | osnyatsky*  | 73 |
 | 9  | puzzlow  | 73 |
 | 12  | paras220  | 72 |
-| 13 ⬆ | osnyisdead  | 69 (+2) |
-| 14 ⬇ | ninjaross*  | 68 |
+| 13  | osnyisdead  | 69 |
+| 14  | ninjaross*  | 68 |
 | 15  | breadworms  | 66 |
-| 15 ⬆ | crazytown_bananapants  | 66 (+1) |
-| 17 ⬇ | ryebreadward  | 65 |
-| 18  | dougiefresh_83*  | 64 (+1) |
-| 19 ⬇ | larvasisters  | 63 |
+| 15  | crazytown_bananapants  | 66 |
+| 17  | ryebreadward  | 65 |
+| 18  | dougiefresh_83*  | 64 |
+| 19  | larvasisters  | 63 |
 | 20  | c_mgi  | 62 |
 | 20  | mitgliederversammlung  | 62 |
 | 20  | sussy_amonge  | 62 |
@@ -27,11 +27,11 @@
 | 23  | respirate_  | 60 |
 | 25  | comiqq  | 59 |
 | 25  | julialuxel  | 59 |
-| 27 ⬆ | leanmeister  | 55 (+3) |
-| 28 ⬇ | bussinongnocap  | 53 |
-| 28 ⬇ | divra__  | 53 |
-| 28 ⬇ | lazzvli*  | 53 |
+| 27  | leanmeister  | 56 (+1) |
+| 28  | bussinongnocap  | 53 |
+| 28  | divra__  | 53 |
+| 28  | lazzvli*  | 53 |
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2024-11-24 11:20:57 UTC_
+_Last updated at 2024-12-01 11:49:35 UTC_
