@@ -49,7 +49,7 @@ func processChannelRecords(params LeaderboardParams) {
 	}
 
 	if limit == "" {
-		weightlimit = chat.Weightlimit
+		weightlimit = chat.WeightlimitRecords
 		if weightlimit == 0 {
 			weightlimit = config.Chat["default"].Weightlimit
 		}
