@@ -149,6 +149,7 @@ func sortFishRecords(recordFish map[string]data.FishInfo) []string {
 	sort.SliceStable(fishy, func(i, j int) bool { return recordFish[fishy[i]].Player < recordFish[fishy[j]].Player })
 	sort.SliceStable(fishy, func(i, j int) bool { return recordFish[fishy[i]].TypeName < recordFish[fishy[j]].TypeName })
 	sort.SliceStable(fishy, func(i, j int) bool { return recordFish[fishy[i]].Weight > recordFish[fishy[j]].Weight })
+	sort.SliceStable(fishy, func(i, j int) bool { return recordFish[fishy[i]].Count > recordFish[fishy[j]].Count })
 
 	return fishy
 }
@@ -207,37 +208,49 @@ func didFishMapChange(params LeaderboardParams, oldBoard map[string]data.FishInf
 		_, exists := oldBoard[fishName]
 		if !exists {
 
-			logs.Logs().Info().
-				Str("Board", params.LeaderboardType).
-				Str("Chat", newBoard[fishName].Chat).
-				Str("Date", newBoard[fishName].Date.Format("2006-01-02 15:04:05 UTC")).
-				Float64("Weight", newBoard[fishName].Weight).
-				Str("CatchType", newBoard[fishName].CatchType).
-				Str("FishName", newBoard[fishName].TypeName).
-				Str("FishType", newBoard[fishName].Type).
-				Str("Player", newBoard[fishName].Player).
-				Msg("New fish record")
-
-			mapsarethesame = false
-		} else {
-			if oldBoard[fishName].Weight != newBoard[fishName].Weight {
+			if params.LeaderboardType != "rare" {
 
 				logs.Logs().Info().
 					Str("Board", params.LeaderboardType).
 					Str("Chat", newBoard[fishName].Chat).
 					Str("Date", newBoard[fishName].Date.Format("2006-01-02 15:04:05 UTC")).
-					Float64("WeightOld", oldBoard[fishName].Weight).
 					Float64("Weight", newBoard[fishName].Weight).
 					Str("CatchType", newBoard[fishName].CatchType).
 					Str("FishName", newBoard[fishName].TypeName).
 					Str("FishType", newBoard[fishName].Type).
 					Str("Player", newBoard[fishName].Player).
-					Msg("Updated fish record")
-
-				mapsarethesame = false
+					Msg("New fish record")
 			}
-			if oldBoard[fishName].Player != newBoard[fishName].Player {
-				mapsarethesame = false
+
+			mapsarethesame = false
+		} else {
+			if params.LeaderboardType != "rare" {
+
+				if oldBoard[fishName].Weight != newBoard[fishName].Weight {
+
+					logs.Logs().Info().
+						Str("Board", params.LeaderboardType).
+						Str("Chat", newBoard[fishName].Chat).
+						Str("Date", newBoard[fishName].Date.Format("2006-01-02 15:04:05 UTC")).
+						Float64("WeightOld", oldBoard[fishName].Weight).
+						Float64("Weight", newBoard[fishName].Weight).
+						Str("CatchType", newBoard[fishName].CatchType).
+						Str("FishName", newBoard[fishName].TypeName).
+						Str("FishType", newBoard[fishName].Type).
+						Str("Player", newBoard[fishName].Player).
+						Msg("Updated fish record")
+
+					mapsarethesame = false
+				}
+				if oldBoard[fishName].Player != newBoard[fishName].Player {
+					mapsarethesame = false
+				}
+			}
+
+			if params.LeaderboardType == "rare" {
+				if oldBoard[fishName].Count != newBoard[fishName].Count {
+					mapsarethesame = false
+				}
 			}
 			// In case the emoji of a fish gets updated
 			if oldBoard[fishName].Type != newBoard[fishName].Type {

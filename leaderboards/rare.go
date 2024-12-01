@@ -5,20 +5,19 @@ import (
 	"fmt"
 	"gofish/data"
 	"gofish/logs"
+	"os"
 	"path/filepath"
+	"sort"
 	"strings"
+	"time"
 )
 
 func RunCountFishTypesGlobal(params LeaderboardParams) {
 	board := params.LeaderboardType
-	config := params.Config
-	date2 := params.Date2
 	title := params.Title
-	pool := params.Pool
-	date := params.Date
 	path := params.Path
+	mode := params.Mode
 
-	globalFishTypesCount := make(map[string]data.FishInfo)
 	var filePath, titlerare string
 
 	if path == "" {
@@ -30,8 +29,7 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 		filePath = filepath.Join("leaderboards", "global", path)
 	}
 
-	isFish := true
-	oldCount, err := ReadTotalcountRankings(filePath, pool, isFish)
+	oldCount, err := getJsonBoardString(filePath)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Path", filePath).
@@ -39,6 +37,57 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 			Msg("Error reading old leaderboard")
 		return
 	}
+
+	globalFishTypesCount, err := getRarestFish(params)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Path", filePath).
+			Str("Board", board).
+			Msg("Error getting leaderboard")
+		return
+	}
+
+	// This board should always have changes unless game doid
+	AreMapsSame := didFishMapChange(params, oldCount, globalFishTypesCount)
+
+	if AreMapsSame && mode != "force" {
+		logs.Logs().Warn().
+			Str("Board", board).
+			Msg("Not updating board because there are no changes")
+		return
+	}
+
+	if title == "" {
+		titlerare = "### How many times a fish has been caught\n"
+	} else {
+		titlerare = fmt.Sprintf("%s\n", title)
+	}
+
+	logs.Logs().Info().
+		Str("Board", board).
+		Msg("Updating leaderboard")
+
+	err = writeRare(filePath, globalFishTypesCount, oldCount, titlerare)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Path", filePath).
+			Str("Board", board).
+			Msg("Error writing leaderboard")
+	} else {
+		logs.Logs().Info().
+			Str("Board", board).
+			Msg("Leaderboard updated successfully")
+	}
+}
+
+func getRarestFish(params LeaderboardParams) (map[string]data.FishInfo, error) {
+	board := params.LeaderboardType
+	config := params.Config
+	date2 := params.Date2
+	pool := params.Pool
+	date := params.Date
+
+	globalFishTypesCount := make(map[string]data.FishInfo)
 
 	// Process all chats
 	for chatName, chat := range config.Chat {
@@ -54,19 +103,19 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 
 		// Query the database to get the count of each fish type caught in the chat
 		rows, err := pool.Query(context.Background(), `
-            SELECT fishname, COUNT(*) AS type_count
-            FROM fish
-            WHERE chat = $1
-			AND date < $2
-			AND date > $3
-            GROUP BY fishname
-            `, chatName, date, date2)
+				SELECT fishname, COUNT(*) AS type_count
+				FROM fish
+				WHERE chat = $1
+				AND date < $2
+				AND date > $3
+				GROUP BY fishname
+				`, chatName, date, date2)
 		if err != nil {
 			logs.Logs().Error().Err(err).
 				Str("Chat", chatName).
 				Str("Board", board).
 				Msg("Error querying database for rarest fish")
-			return
+			return globalFishTypesCount, err
 		}
 		defer rows.Close()
 
@@ -79,7 +128,7 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 					Str("Chat", chatName).
 					Str("Board", board).
 					Msg("Error scanning row for rarest fish")
-				return
+				return globalFishTypesCount, err
 			}
 
 			err = pool.QueryRow(context.Background(), "SELECT fishtype FROM fishinfo WHERE fishname = $1", fishInfo.TypeName).Scan(&fishInfo.Type)
@@ -89,11 +138,11 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 					Str("Board", board).
 					Str("Chat", chatName).
 					Msg("Error retrieving fish type for fish name")
-				return
+				return globalFishTypesCount, err
 			}
 
 			pfp := fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", chatName, chatName)
-			existingFishInfo, exists := globalFishTypesCount[fishInfo.Type]
+			existingFishInfo, exists := globalFishTypesCount[fishInfo.TypeName]
 			if exists {
 				existingFishInfo.Count += fishInfo.Count
 
@@ -102,46 +151,147 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 				}
 				existingFishInfo.ChatCounts[pfp] += fishInfo.Count
 
-				if fishInfo.Count > existingFishInfo.MaxCount {
-					existingFishInfo.MaxCount = fishInfo.Count
-					existingFishInfo.Chat = pfp
-				}
-				globalFishTypesCount[fishInfo.Type] = existingFishInfo
+				globalFishTypesCount[fishInfo.TypeName] = existingFishInfo
 			} else {
-				globalFishTypesCount[fishInfo.Type] = data.FishInfo{
+				globalFishTypesCount[fishInfo.TypeName] = data.FishInfo{
 					Count:      fishInfo.Count,
-					Chat:       pfp,
-					MaxCount:   fishInfo.Count,
 					TypeName:   fishInfo.TypeName,
+					Type:       fishInfo.Type,
 					ChatCounts: map[string]int{pfp: fishInfo.Count},
 				}
 			}
 		}
 	}
 
-	logs.Logs().Info().
-		Str("Board", board).
-		Msg("Updating leaderboard")
+	return globalFishTypesCount, nil
+}
 
-	if title == "" {
-		titlerare = "### How many times a fish has been caught\n"
-	} else {
-		titlerare = fmt.Sprintf("%s\n", title)
+func writeRare(filePath string, fishCaught map[string]data.FishInfo, oldCountRecord map[string]data.FishInfo, title string) error {
+
+	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
+		return err
 	}
 
-	// Rarest fish leaderboard doesnt have a countlimit
-	countlimit := 0
-	// Have to set global here since it doesnt go through processLeaderboards
-	global := true
-	err = writeCount(filePath, globalFishTypesCount, oldCount, titlerare, global, board, countlimit)
+	file, err := os.Create(filePath)
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+
+	_, err = fmt.Fprintf(file, "%s", title)
+	if err != nil {
+		return err
+	}
+
+	prefix := "| Rank | Fish | Times Caught | Chat |"
+
+	_, _ = fmt.Fprintln(file, prefix)
+
+	_, err = fmt.Fprintln(file, "|------|--------|-----------|-------|")
+	if err != nil {
+		return err
+	}
+
+	sortedPlayers := sortFishRecords(fishCaught)
+
+	rank := 1
+	prevRank := 1
+	prevCount := -1
+	occupiedRanks := make(map[int]int)
+
+	for _, FishName := range sortedPlayers {
+		Count := fishCaught[FishName].Count
+		ChatCounts := fishCaught[FishName].ChatCounts
+		Emoji := fishCaught[FishName].Type
+
+		if Count != prevCount {
+			rank += occupiedRanks[rank]
+			occupiedRanks[rank] = 1
+		} else {
+			rank = prevRank
+			occupiedRanks[rank]++
+		}
+
+		// Store the rank
+		if ranksksk, ok := fishCaught[FishName]; ok {
+
+			ranksksk.Rank = rank
+
+			fishCaught[FishName] = ranksksk
+		}
+
+		var found bool
+		oldRank := -1
+		oldCount := Count
+		oldFishInfo, ok := oldCountRecord[FishName]
+		if ok {
+			found = true
+			oldRank = oldFishInfo.Rank
+			oldCount = oldFishInfo.Count
+		}
+
+		changeEmoji := ChangeEmoji(rank, oldRank, found)
+
+		var counts string
+
+		countDifference := Count - oldCount
+		if countDifference > 0 {
+			counts = fmt.Sprintf("%d (+%d)", Count, countDifference)
+		} else {
+			counts = fmt.Sprintf("%d", Count)
+		}
+
+		ranks := Ranks(rank)
+
+		_, _ = fmt.Fprintf(file, "| %s %s | %s %s | %s |", ranks, changeEmoji, Emoji, FishName, counts)
+
+		// Turn the map to a slice
+		ChatCountsSlice := make([]struct {
+			chat  string
+			count int
+		}, 0, 2)
+
+		for k, v := range ChatCounts {
+			ChatCountsSlice = append(ChatCountsSlice, struct {
+				chat  string
+				count int
+			}{k, v})
+		}
+
+		// Sort per-channel counts by channel
+		sort.Slice(ChatCountsSlice, func(i, j int) bool {
+			return ChatCountsSlice[i].chat < ChatCountsSlice[j].chat
+		})
+
+		// Print the count for each chat
+		for _, count := range ChatCountsSlice {
+			_, _ = fmt.Fprintf(file, " %s %d ", count.chat, count.count)
+		}
+		_, _ = fmt.Fprint(file, "|")
+
+		_, err = fmt.Fprintln(file)
+		if err != nil {
+			return err
+		}
+
+		prevCount = Count
+		prevRank = rank
+	}
+
+	_, _ = fmt.Fprintf(file, "\n_Last updated at %s_", time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC"))
+
+	// This has to be here, because im not getting the rank directly from the query
+	err = writeRawString(filePath, fishCaught)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Path", filePath).
-			Str("Board", board).
-			Msg("Error writing leaderboard")
+			Msg("Error writing raw leaderboard")
+		return err
 	} else {
 		logs.Logs().Info().
-			Str("Board", board).
-			Msg("Leaderboard updated successfully")
+			Str("Path", filePath).
+			Msg("Raw leaderboard updated successfully")
 	}
+
+	return nil
 }
