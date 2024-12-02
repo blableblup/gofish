@@ -288,7 +288,7 @@ func writeWeight(filePath string, recordWeight map[int]data.FishInfo, oldRecordW
 		return err
 	}
 
-	sortedWeightRecords := sortWeightRecords(recordWeight)
+	sortedWeightRecords := sortPlayerRecords(recordWeight)
 
 	for _, playerID := range sortedWeightRecords {
 		weight := recordWeight[playerID].Weight

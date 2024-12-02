@@ -125,15 +125,16 @@ func writeRawString(filePath string, board map[string]data.FishInfo) error {
 	return nil
 }
 
-func sortWeightRecords(recordWeight map[int]data.FishInfo) []int {
+func sortPlayerRecords(record map[int]data.FishInfo) []int {
 
-	ids := make([]int, 0, len(recordWeight))
-	for playerID := range recordWeight {
+	ids := make([]int, 0, len(record))
+	for playerID := range record {
 		ids = append(ids, playerID)
 	}
 
-	sort.SliceStable(ids, func(i, j int) bool { return recordWeight[ids[i]].Player < recordWeight[ids[j]].Player })
-	sort.SliceStable(ids, func(i, j int) bool { return recordWeight[ids[i]].Weight > recordWeight[ids[j]].Weight })
+	sort.SliceStable(ids, func(i, j int) bool { return record[ids[i]].Player < record[ids[j]].Player })
+	sort.SliceStable(ids, func(i, j int) bool { return record[ids[i]].Weight > record[ids[j]].Weight })
+	sort.SliceStable(ids, func(i, j int) bool { return record[ids[i]].Count > record[ids[j]].Count })
 
 	return ids
 
