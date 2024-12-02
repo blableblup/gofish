@@ -73,7 +73,7 @@ func processWeight(params LeaderboardParams) {
 		return
 	}
 
-	AreMapsSame := didWeightMapsChange(params, oldRecordWeight, recordWeight)
+	AreMapsSame := didPlayerMapsChange(params, oldRecordWeight, recordWeight)
 
 	if AreMapsSame && mode != "force" {
 		logs.Logs().Warn().

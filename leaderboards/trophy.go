@@ -47,7 +47,7 @@ func processTrophy(params LeaderboardParams) {
 		return
 	}
 
-	AreMapsSame := didWeightMapsChange(params, oldTrophy, newTrophy)
+	AreMapsSame := didPlayerMapsChange(params, oldTrophy, newTrophy)
 
 	if AreMapsSame && mode != "force" {
 		logs.Logs().Warn().

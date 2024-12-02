@@ -157,7 +157,7 @@ func sortFishRecords(recordFish map[string]data.FishInfo) []string {
 
 // If maps are same length, check if the player renamed or has an updated record
 // Trophy board is also using this. For trophy the weights are the players points
-func didWeightMapsChange(params LeaderboardParams, oldBoard map[int]data.FishInfo, newBoard map[int]data.FishInfo) bool {
+func didPlayerMapsChange(params LeaderboardParams, oldBoard map[int]data.FishInfo, newBoard map[int]data.FishInfo) bool {
 	var mapsarethesame = true
 
 	for playerID := range newBoard {
