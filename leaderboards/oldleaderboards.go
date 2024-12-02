@@ -2,11 +2,8 @@ package leaderboards
 
 import (
 	"bufio"
-	"context"
 	"fmt"
-	"gofish/data"
 	"gofish/logs"
-	"gofish/playerdata"
 	"os"
 	"regexp"
 	"strconv"
@@ -30,93 +27,7 @@ type LeaderboardInfo struct {
 }
 
 var oldweight float64
-var fishinfotable = "fishinfo"
-var fishType, bot, player, chat string
-
-func ReadTotalcountRankings(filePath string, pool *pgxpool.Pool, isFish bool) (map[string]LeaderboardInfo, error) {
-	oldLeaderboardCount := make(map[string]LeaderboardInfo)
-
-	// Open the file
-	file, err := os.Open(filePath)
-	if err != nil {
-		// If the file doesn't exist, return empty rankings and counts
-		return oldLeaderboardCount, nil
-	}
-	defer file.Close()
-
-	scanner := bufio.NewScanner(file)
-	skipHeader := 0
-	for scanner.Scan() {
-		line := scanner.Text()
-		if skipHeader < 3 {
-			skipHeader++
-			continue
-		}
-		if strings.HasPrefix(line, "|") {
-			parts := strings.Split(line, "|")
-			rankStr := strings.TrimSpace(parts[1])
-			rank, err := strconv.Atoi(strings.Split(rankStr, " ")[0])
-			if err != nil {
-				return nil, err
-			}
-			oldPlayerStr := strings.TrimSpace(parts[2])
-			oldplayer := strings.Split(oldPlayerStr, " ")[0]
-			if strings.Contains(oldplayer, "*") {
-				oldplayer = strings.TrimRight(oldplayer, "*")
-				bot = "supibot"
-			}
-
-			// Check if the player renamed or is a fish (for global rarest fish leaderboard)
-			if isFish {
-				board := true
-				oldfishType := oldplayer
-				fishName, err := data.GetFishName(pool, fishinfotable, oldfishType, board)
-				if err != nil {
-					logs.Logs().Error().Err(err).
-						Str("FishName", fishName).
-						Str("Player", player).
-						Str("Path", filePath).
-						Msg("Error retrieving fish name for old fish type")
-					return nil, err
-				}
-				err = pool.QueryRow(context.Background(), "SELECT fishtype FROM fishinfo WHERE fishname = $1", fishName).Scan(&fishType)
-				if err != nil {
-					logs.Logs().Error().Err(err).
-						Str("FishName", fishName).
-						Str("Player", player).
-						Str("Path", filePath).
-						Msg("Error retrieving fish type for fish name")
-					return nil, err
-				}
-				player = fishType
-			} else {
-				player, err = playerdata.PlayerRenamed(oldplayer, pool)
-				if err != nil {
-					logs.Logs().Error().Err(err).
-						Str("Path", filePath).
-						Str("OldPlayer", oldplayer).
-						Msg("Error checking if player renamed")
-					return nil, err
-				}
-			}
-
-			countStr := strings.TrimSpace(parts[3])
-			count, _ := strconv.Atoi(strings.Split(countStr, " ")[0])
-
-			oldLeaderboardCount[player] = LeaderboardInfo{
-				Rank:  rank,
-				Count: count,
-				Bot:   bot,
-			}
-		}
-	}
-
-	if err := scanner.Err(); err != nil {
-		return nil, err
-	}
-
-	return oldLeaderboardCount, nil
-}
+var fishType, player, chat string
 
 func ReadOldChatStats(filePath string) (map[string]LeaderboardInfo, error) {
 	oldLeaderboardStats := make(map[string]LeaderboardInfo)
