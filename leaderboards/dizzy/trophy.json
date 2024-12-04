@@ -6,7 +6,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 2,
 		"chatid": 1,
-		"rank": 4
+		"rank": 5
 	},
 	"248": {
 		"player": "exo9",
@@ -14,16 +14,16 @@
 		"weight": 3,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 1,
-		"rank": 8
+		"rank": 9
 	},
 	"2989": {
 		"player": "lolspers",
 		"playerid": 2989,
-		"weight": 3.5,
+		"weight": 4,
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 3,
-		"count": 1,
-		"rank": 6
+		"maxcount": 2,
+		"rank": 8
 	},
 	"3003": {
 		"player": "kyonuwu",
@@ -31,17 +31,17 @@
 		"weight": 1.5,
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 1,
-		"count": 1,
-		"rank": 9
+		"maxcount": 1,
+		"rank": 10
 	},
 	"3007": {
 		"player": "spanmer",
 		"playerid": 3007,
-		"weight": 3.5,
+		"weight": 5,
 		"date": "0001-01-01T00:00:00Z",
-		"chatid": 2,
-		"count": 3,
-		"rank": 6
+		"chatid": 3,
+		"maxcount": 4,
+		"rank": 7
 	},
 	"3067": {
 		"player": "vagdi",
@@ -49,7 +49,7 @@
 		"weight": 10,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 3,
-		"count": 2,
+		"maxcount": 2,
 		"rank": 3
 	},
 	"3086": {
@@ -58,25 +58,25 @@
 		"weight": 1,
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 1,
-		"rank": 10
+		"rank": 11
 	},
 	"3108": {
 		"player": "iam_haunt_",
 		"playerid": 3108,
-		"weight": 6.5,
+		"weight": 7,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 1,
 		"chatid": 3,
-		"count": 1,
+		"maxcount": 2,
 		"rank": 5
 	},
 	"3121": {
 		"player": "buhl00n",
 		"playerid": 3121,
-		"weight": 16,
+		"weight": 20,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 5,
-		"chatid": 1,
+		"fishid": 6,
+		"chatid": 2,
 		"rank": 1
 	},
 	"3143": {
@@ -86,23 +86,25 @@
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 3,
 		"chatid": 2,
-		"count": 4,
+		"maxcount": 4,
 		"rank": 2
 	},
 	"3164": {
 		"player": "ben_vincent",
 		"playerid": 3164,
-		"weight": 1,
+		"weight": 8,
 		"date": "0001-01-01T00:00:00Z",
-		"count": 2,
-		"rank": 10
+		"fishid": 2,
+		"chatid": 1,
+		"maxcount": 2,
+		"rank": 4
 	},
 	"64": {
 		"player": "julialuxel",
 		"playerid": 64,
 		"weight": 0.5,
 		"date": "0001-01-01T00:00:00Z",
-		"count": 1,
+		"maxcount": 1,
 		"rank": 12
 	}
 }

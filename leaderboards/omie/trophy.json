@@ -22,16 +22,16 @@
 		"playerid": 2885,
 		"weight": 1.5,
 		"date": "0001-01-01T00:00:00Z",
-		"count": 3,
+		"maxcount": 3,
 		"rank": 4
 	},
 	"2941": {
 		"player": "v6r_",
 		"playerid": 2941,
-		"weight": 31,
+		"weight": 38,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 8,
-		"chatid": 7,
+		"fishid": 10,
+		"chatid": 8,
 		"rank": 2
 	}
 }

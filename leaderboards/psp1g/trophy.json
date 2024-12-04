@@ -15,7 +15,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 1,
 		"chatid": 1,
-		"count": 2,
+		"maxcount": 2,
 		"rank": 20
 	},
 	"1317": {
@@ -24,7 +24,7 @@
 		"weight": 6.5,
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 5,
-		"count": 3,
+		"maxcount": 3,
 		"rank": 19
 	},
 	"1344": {
@@ -32,7 +32,7 @@
 		"playerid": 1344,
 		"weight": 0.5,
 		"date": "0001-01-01T00:00:00Z",
-		"count": 1,
+		"maxcount": 1,
 		"rank": 30
 	},
 	"140": {
@@ -40,7 +40,7 @@
 		"playerid": 140,
 		"weight": 0.5,
 		"date": "0001-01-01T00:00:00Z",
-		"count": 1,
+		"maxcount": 1,
 		"rank": 30
 	},
 	"1461": {
@@ -49,8 +49,8 @@
 		"weight": 2.5,
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 2,
-		"count": 1,
-		"rank": 26
+		"maxcount": 1,
+		"rank": 27
 	},
 	"159": {
 		"player": "yopego",
@@ -58,7 +58,7 @@
 		"weight": 2,
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 2,
-		"rank": 27
+		"rank": 28
 	},
 	"1635": {
 		"player": "cale4",
@@ -66,7 +66,7 @@
 		"weight": 11.5,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 3,
-		"count": 5,
+		"maxcount": 5,
 		"rank": 12
 	},
 	"164": {
@@ -76,7 +76,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 8,
 		"chatid": 10,
-		"count": 9,
+		"maxcount": 9,
 		"rank": 3
 	},
 	"1672": {
@@ -84,8 +84,8 @@
 		"playerid": 1672,
 		"weight": 1.5,
 		"date": "0001-01-01T00:00:00Z",
-		"count": 3,
-		"rank": 28
+		"maxcount": 3,
+		"rank": 29
 	},
 	"169": {
 		"player": "creepycode",
@@ -93,7 +93,7 @@
 		"weight": 3,
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 3,
-		"rank": 24
+		"rank": 25
 	},
 	"170": {
 		"player": "restartmikel",
@@ -101,7 +101,7 @@
 		"weight": 13,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 4,
-		"count": 2,
+		"maxcount": 2,
 		"rank": 11
 	},
 	"1747": {
@@ -110,7 +110,7 @@
 		"weight": 5,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 1,
-		"count": 4,
+		"maxcount": 4,
 		"rank": 20
 	},
 	"200": {
@@ -137,8 +137,8 @@
 		"weight": 4,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 1,
-		"count": 2,
-		"rank": 23
+		"maxcount": 2,
+		"rank": 24
 	},
 	"2317": {
 		"player": "benciee",
@@ -147,17 +147,17 @@
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 7,
 		"chatid": 11,
-		"count": 2,
+		"maxcount": 2,
 		"rank": 4
 	},
 	"2339": {
 		"player": "bubinga",
 		"playerid": 2339,
-		"weight": 66.5,
+		"weight": 67.5,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 18,
 		"chatid": 9,
-		"count": 7,
+		"maxcount": 9,
 		"rank": 2
 	},
 	"2370": {
@@ -166,27 +166,27 @@
 		"weight": 9.5,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 3,
-		"count": 1,
+		"maxcount": 1,
 		"rank": 14
 	},
 	"2609": {
 		"player": "iflya320",
 		"playerid": 2609,
-		"weight": 16,
+		"weight": 19,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 4,
+		"fishid": 5,
 		"chatid": 3,
-		"count": 2,
-		"rank": 8
+		"maxcount": 2,
+		"rank": 7
 	},
 	"269": {
 		"player": "nndiana",
 		"playerid": 269,
-		"weight": 111.5,
+		"weight": 115.5,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 28,
-		"chatid": 24,
-		"count": 7,
+		"fishid": 29,
+		"chatid": 25,
+		"maxcount": 7,
 		"rank": 1
 	},
 	"457": {
@@ -196,7 +196,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 1,
 		"chatid": 2,
-		"count": 4,
+		"maxcount": 4,
 		"rank": 17
 	},
 	"460": {
@@ -206,7 +206,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 4,
 		"chatid": 2,
-		"count": 2,
+		"maxcount": 2,
 		"rank": 9
 	},
 	"487": {
@@ -215,17 +215,17 @@
 		"weight": 3,
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 3,
-		"rank": 24
+		"rank": 25
 	},
 	"500": {
 		"player": "caprisen_",
 		"playerid": 500,
-		"weight": 7.5,
+		"weight": 9,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 1,
-		"chatid": 1,
-		"count": 7,
-		"rank": 16
+		"chatid": 2,
+		"maxcount": 8,
+		"rank": 15
 	},
 	"575": {
 		"player": "divra__",
@@ -243,8 +243,8 @@
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 3,
 		"chatid": 3,
-		"count": 11,
-		"rank": 7
+		"maxcount": 11,
+		"rank": 8
 	},
 	"686": {
 		"player": "jr_mime",
@@ -253,7 +253,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 2,
 		"chatid": 4,
-		"count": 2,
+		"maxcount": 2,
 		"rank": 13
 	},
 	"693": {
@@ -277,10 +277,11 @@
 	"913": {
 		"player": "ratot",
 		"playerid": 913,
-		"weight": 1.5,
+		"weight": 4.5,
 		"date": "0001-01-01T00:00:00Z",
+		"fishid": 1,
 		"chatid": 1,
-		"count": 1,
-		"rank": 28
+		"maxcount": 1,
+		"rank": 23
 	}
 }

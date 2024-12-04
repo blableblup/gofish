@@ -2,7 +2,7 @@
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
 | 1 🥇  | nndiana  | 118 |
-| 2 🥈  | iflya320  | 103 |
+| 2 🥈  | iflya320  | 114 (+11) |
 | 3 🥉  | huuuuuuuuuuuuuuuuuuuuuurz  | 101 |
 | 4  | bubinga  | 95 |
 | 5  | benciee  | 94 |
@@ -23,17 +23,18 @@
 | 20  | amu1g  | 37 |
 | 20  | commanda_u  | 37 |
 | 20  | pengeg  | 37 |
-| 23  | divra__  | 33 |
-| 24  | glorianeq  | 32 |
-| 25  | restartmikel  | 31 |
-| 26  | noconcept_  | 29 |
-| 27  | aecyne  | 28 |
-| 28  | creepycode  | 26 |
-| 29  | angus_lpc  | 24 |
-| 29  | seryxx  | 24 |
-| 31  | eezi1g  | 23 |
-| 32  | afju*  | 21 |
+| 23 ⬆ | eezi1g  | 36 (+13) |
+| 24 ⬇ | divra__  | 33 |
+| 25 ⬇ | glorianeq  | 32 |
+| 25 🆕 | xd_2k  | 32 |
+| 27 ⬇ | restartmikel  | 31 |
+| 28 ⬇ | noconcept_  | 29 |
+| 29 ⬇ | aecyne  | 28 |
+| 30 ⬇ | creepycode  | 26 |
+| 31 ⬇ | angus_lpc  | 24 |
+| 31 ⬇ | seryxx  | 24 |
+| 33 ⬇ | afju*  | 21 |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2024-11-27 11:41:12 UTC_
+_Last updated at 2024-12-04 11:41:28 UTC_
