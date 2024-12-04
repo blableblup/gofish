@@ -265,19 +265,6 @@ func didFishMapChange(params LeaderboardParams, oldBoard map[string]data.FishInf
 	return mapsarethesame
 }
 
-func SortMapByCountDesc(fishCaught map[string]data.FishInfo) []string {
-	// Create a slice of player names
-	players := make([]string, 0, len(fishCaught))
-	for player := range fishCaught {
-		players = append(players, player)
-	}
-
-	sort.SliceStable(players, func(i, j int) bool { return fishCaught[players[i]].Player < fishCaught[players[j]].Player })
-	sort.SliceStable(players, func(i, j int) bool { return fishCaught[players[i]].Count > fishCaught[players[j]].Count })
-
-	return players
-}
-
 func Ranks(rank int) string {
 	var ranks string
 

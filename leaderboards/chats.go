@@ -14,16 +14,10 @@ import (
 
 func RunChatStatsGlobal(params LeaderboardParams) {
 	board := params.LeaderboardType
-	config := params.Config
-	date2 := params.Date2
 	title := params.Title
-	pool := params.Pool
-	date := params.Date
 	path := params.Path
 
-	chatStats := make(map[string]data.FishInfo)
-
-	var filePath string
+	var filePath, titlestats string
 
 	if path == "" {
 		filePath = filepath.Join("leaderboards", "global", "chats.md")
@@ -34,7 +28,7 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 		filePath = filepath.Join("leaderboards", "global", path)
 	}
 
-	oldChatStats, err := ReadOldChatStats(filePath)
+	oldChatStats, err := getJsonBoardString(filePath)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Path", filePath).
@@ -42,6 +36,48 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 			Msg("Error reading old chatStats leaderboard")
 		return
 	}
+
+	chatStats, err := getChatStats(params)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Path", filePath).
+			Str("Board", board).
+			Msg("Error getting leaderboard")
+		return
+	}
+
+	// Not checking if maps changed because they should always have changes here
+
+	logs.Logs().Info().
+		Str("Board", board).
+		Msg("Updating leaderboard")
+
+	if title == "" {
+		titlestats = "### Chat leaderboard\n"
+	} else {
+		titlestats = fmt.Sprintf("%s\n", title)
+	}
+
+	err = writeChatStats(filePath, chatStats, oldChatStats, titlestats)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Board", board).
+			Msg("Error writing leaderboard")
+	} else {
+		logs.Logs().Info().
+			Str("Board", board).
+			Msg("Leaderboard updated successfully")
+	}
+}
+
+func getChatStats(params LeaderboardParams) (map[string]data.FishInfo, error) {
+	board := params.LeaderboardType
+	config := params.Config
+	date2 := params.Date2
+	pool := params.Pool
+	date := params.Date
+
+	chatStats := make(map[string]data.FishInfo)
 
 	for chatName, chat := range config.Chat {
 		var chatInfo data.FishInfo
@@ -69,7 +105,7 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 				Str("Chat", chatName).
 				Str("Board", board).
 				Msg("Error querying fish database for fish count")
-			return
+			return chatStats, err
 		}
 
 		// Skip chats with zero fish caught
@@ -90,7 +126,7 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 				Str("Chat", chatName).
 				Str("Board", board).
 				Msg("Error parsing date into time.Time for active fishers")
-			return
+			return chatStats, err
 		}
 		pastDate := datetime.AddDate(0, 0, -7)
 
@@ -111,7 +147,7 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 				Str("Chat", chatName).
 				Str("Board", board).
 				Msg("Error querying fish database for active fishers")
-			return
+			return chatStats, err
 		}
 
 		// Get the unique fishers
@@ -131,7 +167,7 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 				Str("Chat", chatName).
 				Str("Board", board).
 				Msg("Error querying fish database for unique fishers")
-			return
+			return chatStats, err
 		}
 
 		// Get the unique fish caught
@@ -151,7 +187,7 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 				Str("Chat", chatName).
 				Str("Board", board).
 				Msg("Error querying fish database for unique fish caught")
-			return
+			return chatStats, err
 		}
 
 		// Get the channel record
@@ -172,7 +208,7 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 				Str("Chat", chatName).
 				Str("Board", board).
 				Msg("Error querying fish database for channel record")
-			return
+			return chatStats, err
 		}
 
 		err = pool.QueryRow(context.Background(), "SELECT fishtype FROM fishinfo WHERE fishname = $1", chatInfo.TypeName).Scan(&chatInfo.Type)
@@ -182,7 +218,7 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 				Str("Fishname", chatInfo.TypeName).
 				Str("Board", board).
 				Msg("Error retrieving fish type for fish name")
-			return
+			return chatStats, err
 		}
 
 		err = pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", chatInfo.PlayerID).Scan(&chatInfo.Player)
@@ -192,7 +228,7 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 				Int("PlayerID", chatInfo.PlayerID).
 				Str("Board", board).
 				Msg("Error retrieving player name for id")
-			return
+			return chatStats, err
 		}
 
 		chatInfo.ChatPfp = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", chatName, chatName)
@@ -202,30 +238,10 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 		chatStats[chatName] = chatInfo
 	}
 
-	logs.Logs().Info().
-		Str("Board", board).
-		Msg("Updating leaderboard")
-
-	var titlestats string
-	if title == "" {
-		titlestats = "### Chat leaderboard\n"
-	} else {
-		titlestats = fmt.Sprintf("%s\n", title)
-	}
-
-	err = writeChatStats(filePath, chatStats, oldChatStats, titlestats)
-	if err != nil {
-		logs.Logs().Error().Err(err).
-			Str("Board", board).
-			Msg("Error writing leaderboard")
-	} else {
-		logs.Logs().Info().
-			Str("Board", board).
-			Msg("Leaderboard updated successfully")
-	}
+	return chatStats, nil
 }
 
-func writeChatStats(filePath string, chatStats map[string]data.FishInfo, oldChatStats map[string]LeaderboardInfo, title string) error {
+func writeChatStats(filePath string, chatStats map[string]data.FishInfo, oldChatStats map[string]data.FishInfo, title string) error {
 
 	// Ensure that the directory exists before attempting to create the file
 	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
@@ -246,7 +262,7 @@ func writeChatStats(filePath string, chatStats map[string]data.FishInfo, oldChat
 	_, _ = fmt.Fprintln(file, "| Rank | Chat | Fish Caught | Active Players | Unique Players | Unique Fish | Channel Record 🎊 |")
 	_, _ = fmt.Fprintln(file, "|------|------|-------------|----------------|----------------|-------------|-------------------|")
 
-	sortedChats := SortMapByCountDesc(chatStats)
+	sortedChats := sortFishRecords(chatStats)
 
 	rank := 1
 	prevRank := 1
@@ -273,6 +289,14 @@ func writeChatStats(filePath string, chatStats map[string]data.FishInfo, oldChat
 			occupiedRanks[rank]++
 		}
 
+		// Store the rank
+		if ranksksk, ok := chatStats[chat]; ok {
+
+			ranksksk.Rank = rank
+
+			chatStats[chat] = ranksksk
+		}
+
 		var found bool
 		oldRank := -1
 		oldCount := count
@@ -286,9 +310,9 @@ func writeChatStats(filePath string, chatStats map[string]data.FishInfo, oldChat
 			oldRank = oldChatInfo.Rank
 			oldCount = oldChatInfo.Count
 			oldWeight = oldChatInfo.Weight
-			oldActive = oldChatInfo.Silver
-			oldUnique = oldChatInfo.Bronze
-			oldUniquef = oldChatInfo.Trophy
+			oldActive = oldChatInfo.MaxCount
+			oldUnique = oldChatInfo.FishId
+			oldUniquef = oldChatInfo.ChatId
 		}
 
 		changeEmoji := ChangeEmoji(rank, oldRank, found)
@@ -351,6 +375,19 @@ func writeChatStats(filePath string, chatStats map[string]data.FishInfo, oldChat
 	_, _ = fmt.Fprint(file, "\n_Active players means that they caught more than 10 fish in the last seven days_\n")
 	_, _ = fmt.Fprint(file, "\n_Unique players is how many different players caught a fish in that chat_\n")
 	_, _ = fmt.Fprintf(file, "\n_Last updated at %s_", time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC"))
+
+	// This has to be here, because im not getting the rank directly from the query
+	err = writeRawString(filePath, chatStats)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Path", filePath).
+			Msg("Error writing raw leaderboard")
+		return nil
+	} else {
+		logs.Logs().Info().
+			Str("Path", filePath).
+			Msg("Raw leaderboard updated successfully")
+	}
 
 	return nil
 }
