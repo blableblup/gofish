@@ -1,6 +1,7 @@
 package leaderboards
 
 import (
+	"bufio"
 	"context"
 	"fmt"
 	"gofish/data"
@@ -24,7 +25,6 @@ func processChannelRecords(params LeaderboardParams) {
 	limit := params.Limit
 	mode := params.Mode
 	chat := params.Chat
-	pool := params.Pool
 	path := params.Path
 
 	var filePath, titlerecords string
@@ -39,7 +39,7 @@ func processChannelRecords(params LeaderboardParams) {
 		filePath = filepath.Join("leaderboards", chatName, path)
 	}
 
-	oldChannelRecords, err := ReadChannelRecords(filePath, pool)
+	oldChannelRecords, err := ReadChannelRecords(filePath)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Path", filePath).
@@ -112,7 +112,7 @@ func processChannelRecords(params LeaderboardParams) {
 	}
 }
 
-func didMapsChange(newMap map[float64]data.FishInfo, oldMap map[float64]LeaderboardInfo) bool {
+func didMapsChange(newMap map[float64]data.FishInfo, oldMap map[float64]data.FishInfo) bool {
 
 	// Dont update the board if there are no changes
 	// If maps are same length, check if a player renamed
@@ -234,7 +234,7 @@ func getRecords(params LeaderboardParams, weightlimit float64) (map[float64]data
 	return recordFish, nil
 }
 
-func writeRecords(records map[float64]data.FishInfo, oldChannelRecords map[float64]LeaderboardInfo, filePath string, title string, global bool, weightlimit float64) error {
+func writeRecords(records map[float64]data.FishInfo, oldChannelRecords map[float64]data.FishInfo, filePath string, title string, global bool, weightlimit float64) error {
 
 	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
 		return err
@@ -323,4 +323,61 @@ func sortWeights(records map[float64]data.FishInfo) []float64 {
 	sort.SliceStable(weights, func(i, j int) bool { return records[weights[i]].Weight > records[weights[j]].Weight })
 
 	return weights
+}
+
+func ReadChannelRecords(filepath string) (map[float64]data.FishInfo, error) {
+	oldLeaderboardRecords := make(map[float64]data.FishInfo)
+
+	file, err := os.Open(filepath)
+	if err != nil {
+		return oldLeaderboardRecords, nil
+	}
+	defer file.Close()
+
+	scanner := bufio.NewScanner(file)
+	skipHeader := 0
+	for scanner.Scan() {
+		line := scanner.Text()
+		if skipHeader < 3 {
+			skipHeader++
+			continue
+		}
+		if strings.HasPrefix(line, "|") {
+			parts := strings.Split(line, "|")
+
+			rankStr := strings.TrimSpace(parts[1])
+			rank, err := strconv.Atoi(strings.Split(rankStr, " ")[0])
+			if err != nil {
+				return nil, err
+			}
+
+			oldPlayerStr := strings.TrimSpace(parts[2])
+			oldplayer := strings.Split(oldPlayerStr, " ")[0]
+			if strings.Contains(oldplayer, "*") {
+				oldplayer = strings.TrimRight(oldplayer, "*")
+			}
+
+			oldWeightStr := strings.TrimSpace(parts[4])
+			oldweight, err := strconv.ParseFloat(oldWeightStr, 64)
+			if err != nil {
+				logs.Logs().Error().Err(err).
+					Str("Old weight string", oldWeightStr).
+					Str("Path", filepath).
+					Msg("Could not convert old weight to float64")
+				return nil, err
+			}
+
+			oldLeaderboardRecords[oldweight] = data.FishInfo{
+				Weight: oldweight,
+				Rank:   rank,
+				Player: oldplayer,
+			}
+		}
+	}
+
+	if err := scanner.Err(); err != nil {
+		return nil, err
+	}
+
+	return oldLeaderboardRecords, nil
 }
