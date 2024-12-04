@@ -124,7 +124,7 @@ func getTrophies(params LeaderboardParams) (map[int]data.FishInfo, error) {
 	for rows.Next() {
 		var fishInfo data.FishInfo
 
-		if err := rows.Scan(&fishInfo.PlayerID, &fishInfo.FishId, &fishInfo.ChatId, &fishInfo.Count); err != nil {
+		if err := rows.Scan(&fishInfo.PlayerID, &fishInfo.FishId, &fishInfo.ChatId, &fishInfo.MaxCount); err != nil {
 			logs.Logs().Error().Err(err).
 				Str("Chat", chatName).
 				Str("Board", board).
@@ -142,9 +142,9 @@ func getTrophies(params LeaderboardParams) (map[int]data.FishInfo, error) {
 			return playerCounts, err
 		}
 
-		fishInfo.Weight = float64(fishInfo.FishId)*3 + float64(fishInfo.ChatId) + float64(fishInfo.Count)*0.5
+		fishInfo.Weight = float64(fishInfo.FishId)*3 + float64(fishInfo.ChatId) + float64(fishInfo.MaxCount)*0.5
 
-		// Fishid = trophies, chatid = silvermedals, count = bronzemedals, weight = points
+		// Fishid = trophies, chatid = silvermedals, maxcount = bronzemedals, weight = points
 		playerCounts[fishInfo.PlayerID] = fishInfo
 	}
 
@@ -213,14 +213,14 @@ func writeTrophy(filePath string, playerCounts map[int]data.FishInfo, oldTrophy 
 		oldRank := -1
 		oldtrophies := playerCounts[playerID].FishId
 		oldsilver := playerCounts[playerID].ChatId
-		oldbronze := playerCounts[playerID].Count
+		oldbronze := playerCounts[playerID].MaxCount
 		oldpoints := points
 		if info, ok := oldTrophy[playerID]; ok {
 			found = true
 			oldRank = info.Rank
 			oldtrophies = oldTrophy[playerID].FishId
 			oldsilver = oldTrophy[playerID].ChatId
-			oldbronze = oldTrophy[playerID].Count
+			oldbronze = oldTrophy[playerID].MaxCount
 			oldpoints = oldTrophy[playerID].Weight
 		}
 
@@ -228,7 +228,7 @@ func writeTrophy(filePath string, playerCounts map[int]data.FishInfo, oldTrophy 
 
 		trophiesDifference := playerCounts[playerID].FishId - oldtrophies
 		silverDifference := playerCounts[playerID].ChatId - oldsilver
-		bronzeDifference := playerCounts[playerID].Count - oldbronze
+		bronzeDifference := playerCounts[playerID].MaxCount - oldbronze
 		pointsDifference := points - oldpoints
 
 		trophyCount := fmt.Sprintf("%d", playerCounts[playerID].FishId)
@@ -241,7 +241,7 @@ func writeTrophy(filePath string, playerCounts map[int]data.FishInfo, oldTrophy 
 			silverCount += fmt.Sprintf(" (+%d)", silverDifference)
 		}
 
-		bronzeCount := fmt.Sprintf("%d", playerCounts[playerID].Count)
+		bronzeCount := fmt.Sprintf("%d", playerCounts[playerID].MaxCount)
 		if bronzeDifference > 0 {
 			bronzeCount += fmt.Sprintf(" (+%d)", bronzeDifference)
 		}
