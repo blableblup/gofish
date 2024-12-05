@@ -1,17 +1,31 @@
 package utils
 
 import (
+	"bufio"
+	"os"
+	"strings"
 	"time"
+
+	"gofish/logs"
 )
 
-// Function to check if a slice contains a specific string
-func Contains(slice []string, str string) bool {
-	for _, s := range slice {
-		if s == str {
-			return true
+func Confirm(prompt string) (bool, error) {
+	reader := bufio.NewReader(os.Stdin)
+	logs.Logs().Warn().Msg(prompt)
+	for {
+		input, err := reader.ReadString('\n')
+		if err != nil {
+			return false, err
+		}
+		input = strings.TrimSpace(strings.ToLower(input))
+		if input == "y" {
+			return true, nil
+		} else if input == "n" {
+			return false, nil
+		} else {
+			logs.Logs().Warn().Msgf("Invalid input '%s'. Use 'y' or 'n'", input)
 		}
 	}
-	return false
 }
 
 func ParseDate(dateStr string) (time.Time, error) {
