@@ -6,6 +6,7 @@ import (
 	"gofish/data"
 	"gofish/logs"
 	"path/filepath"
+	"strconv"
 	"strings"
 	"time"
 
@@ -18,11 +19,13 @@ func processUniqueFish(params LeaderboardParams) {
 	config := params.Config
 	global := params.Global
 	title := params.Title
+	limit := params.Limit
 	chat := params.Chat
 	path := params.Path
 	mode := params.Mode
 
 	var filePath, titleunique string
+	var uniquelimit int
 
 	if path == "" {
 		filePath = filepath.Join("leaderboards", chatName, "uniquefish.md")
@@ -42,9 +45,21 @@ func processUniqueFish(params LeaderboardParams) {
 		return
 	}
 
-	uniquelimit := chat.Uniquelimit
-	if uniquelimit == 0 {
-		uniquelimit = config.Chat["default"].Uniquelimit
+	if limit == "" {
+		uniquelimit = chat.Uniquelimit
+		if uniquelimit == 0 {
+			uniquelimit = config.Chat["default"].Uniquelimit
+		}
+	} else {
+		uniquelimit, err = strconv.Atoi(limit)
+		if err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Chat", chatName).
+				Str("Limit", limit).
+				Str("Board", board).
+				Msg("Error converting custom limit to int")
+			return
+		}
 	}
 
 	uniquefishy, err := getUnique(params, uniquelimit)

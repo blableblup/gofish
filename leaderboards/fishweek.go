@@ -6,6 +6,7 @@ import (
 	"gofish/data"
 	"gofish/logs"
 	"path/filepath"
+	"strconv"
 	"strings"
 )
 
@@ -15,11 +16,13 @@ func processFishweek(params LeaderboardParams) {
 	global := params.Global
 	config := params.Config
 	title := params.Title
+	limit := params.Limit
 	chat := params.Chat
 	path := params.Path
 	mode := params.Mode
 
 	var filePath, titlefishw string
+	var fishweekLimit int
 
 	if path == "" {
 		filePath = filepath.Join("leaderboards", chatName, "fishweek.md")
@@ -39,9 +42,21 @@ func processFishweek(params LeaderboardParams) {
 		return
 	}
 
-	fishweekLimit := chat.Fishweeklimit
-	if fishweekLimit == 0 {
-		fishweekLimit = config.Chat["default"].Fishweeklimit
+	if limit == "" {
+		fishweekLimit = chat.Fishweeklimit
+		if fishweekLimit == 0 {
+			fishweekLimit = config.Chat["default"].Fishweeklimit
+		}
+	} else {
+		fishweekLimit, err = strconv.Atoi(limit)
+		if err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Chat", chatName).
+				Str("Limit", limit).
+				Str("Board", board).
+				Msg("Error converting custom limit to int")
+			return
+		}
 	}
 
 	maxFishInWeek, err := getFishWeek(params, fishweekLimit)

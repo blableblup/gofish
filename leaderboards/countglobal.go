@@ -6,6 +6,7 @@ import (
 	"gofish/data"
 	"gofish/logs"
 	"path/filepath"
+	"strconv"
 	"strings"
 	"time"
 )
@@ -16,11 +17,12 @@ func RunCountGlobal(params LeaderboardParams) {
 	config := params.Config
 	global := params.Global
 	title := params.Title
+	limit := params.Limit
 	path := params.Path
 	mode := params.Mode
 
-	totalcountLimit := config.Chat["global"].Totalcountlimit
 	var filePath, titlecount string
+	var countlimit int
 
 	if path == "" {
 		filePath = filepath.Join("leaderboards", "global", "count.md")
@@ -40,7 +42,22 @@ func RunCountGlobal(params LeaderboardParams) {
 		return
 	}
 
-	globalCount, err := getCountGlobal(params, totalcountLimit)
+	if limit == "" {
+		countlimit = config.Chat["global"].Totalcountlimit
+
+	} else {
+		countlimit, err = strconv.Atoi(limit)
+		if err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Chat", chatName).
+				Str("Limit", limit).
+				Str("Board", board).
+				Msg("Error converting custom limit to int")
+			return
+		}
+	}
+
+	globalCount, err := getCountGlobal(params, countlimit)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Board", board).
@@ -69,7 +86,7 @@ func RunCountGlobal(params LeaderboardParams) {
 		Str("Board", board).
 		Msg("Updating leaderboard")
 
-	err = writeCount(filePath, globalCount, oldCount, titlecount, global, board, totalcountLimit)
+	err = writeCount(filePath, globalCount, oldCount, titlecount, global, board, countlimit)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Board", board).
@@ -178,7 +195,7 @@ func getCountGlobal(params LeaderboardParams, countlimit int) (map[int]data.Fish
 					MaxCount:   fishInfo.Count,
 					Bot:        fishInfo.Bot,
 					Verified:   fishInfo.Verified,
-					Date: 		fishInfo.Date,
+					Date:       fishInfo.Date,
 					ChatCounts: map[string]int{pfp: fishInfo.Count},
 				}
 			}

@@ -8,6 +8,7 @@ import (
 	"os"
 	"path/filepath"
 	"sort"
+	"strconv"
 	"strings"
 	"time"
 )
@@ -18,11 +19,13 @@ func processCount(params LeaderboardParams) {
 	global := params.Global
 	config := params.Config
 	title := params.Title
+	limit := params.Limit
 	chat := params.Chat
 	path := params.Path
 	mode := params.Mode
 
 	var filePath, titletotalcount string
+	var countlimit int
 
 	if path == "" {
 		filePath = filepath.Join("leaderboards", chatName, "count.md")
@@ -43,12 +46,24 @@ func processCount(params LeaderboardParams) {
 		return
 	}
 
-	Totalcountlimit := chat.Totalcountlimit
-	if Totalcountlimit == 0 {
-		Totalcountlimit = config.Chat["default"].Totalcountlimit
+	if limit == "" {
+		countlimit = chat.Totalcountlimit
+		if countlimit == 0 {
+			countlimit = config.Chat["default"].Totalcountlimit
+		}
+	} else {
+		countlimit, err = strconv.Atoi(limit)
+		if err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Chat", chatName).
+				Str("Limit", limit).
+				Str("Board", board).
+				Msg("Error converting custom limit to int")
+			return
+		}
 	}
 
-	fishCaught, err := getCount(params, Totalcountlimit)
+	fishCaught, err := getCount(params, countlimit)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Chat", chatName).
@@ -83,7 +98,7 @@ func processCount(params LeaderboardParams) {
 		Str("Chat", chatName).
 		Msg("Updating leaderboard")
 
-	err = writeCount(filePath, fishCaught, oldCountRecord, titletotalcount, global, board, Totalcountlimit)
+	err = writeCount(filePath, fishCaught, oldCountRecord, titletotalcount, global, board, countlimit)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Board", board).
