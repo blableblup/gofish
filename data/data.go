@@ -225,8 +225,7 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 
 		playerID := playerids[fish.Player]
 
-		board := false
-		fishName, err := GetFishName(pool, fishinfotable, fish.Type, board)
+		fishName, err := GetFishName(pool, fishinfotable, fish.Type)
 		if err != nil {
 			logs.Logs().Error().Err(err).Str("Type", fish.Type).Msg("Error getting fish name")
 			return err

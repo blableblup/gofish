@@ -8,12 +8,12 @@ import (
 	"github.com/jackc/pgx/v4/pgxpool"
 )
 
-var fishName, oldfishType, newfishType, response string
-var exists bool
-
+// This is to get the fishname for a fishtype before inserting the fish into the db
 // The fishtype in the table is the emote of the fish. A fish type can have a shiny version and old versions of the emote (like 🕷🕷️ for spider)
 
-func GetFishName(pool *pgxpool.Pool, fishinfotable string, fishType string, board bool) (string, error) {
+func GetFishName(pool *pgxpool.Pool, fishinfotable string, fishType string) (string, error) {
+
+	var exists bool
 
 	// Check if fishType exists directly
 	err := pool.QueryRow(context.Background(), "SELECT EXISTS (SELECT 1 FROM "+fishinfotable+" WHERE fishtype = $1)", fishType).Scan(&exists)
@@ -43,7 +43,7 @@ func GetFishName(pool *pgxpool.Pool, fishinfotable string, fishType string, boar
 	}
 
 	// If not found, add it and retrieve the fish name
-	newFishType, err := addFishType(pool, fishinfotable, fishType, board)
+	newFishType, err := addFishType(pool, fishinfotable, fishType)
 	if err != nil {
 		return "", err
 	}
@@ -51,33 +51,28 @@ func GetFishName(pool *pgxpool.Pool, fishinfotable string, fishType string, boar
 }
 
 func queryFishNameByType(pool *pgxpool.Pool, fishinfotable string, fishType string) (string, error) {
+	var fishName string
 	err := pool.QueryRow(context.Background(), "SELECT fishname FROM "+fishinfotable+" WHERE fishtype = $1", fishType).Scan(&fishName)
 	return fishName, err
 }
 
 func queryFishNameByEmoji(pool *pgxpool.Pool, fishinfotable string, fishType string) (string, error) {
+	var fishName string
 	err := pool.QueryRow(context.Background(), "SELECT fishname FROM "+fishinfotable+" WHERE $1 = ANY(STRING_TO_ARRAY(oldemojis, ' '))", fishType).Scan(&fishName)
 	return fishName, err
 }
 
 func queryFishNameByShiny(pool *pgxpool.Pool, fishinfotable string, fishType string) (string, error) {
+	var fishName string
 	err := pool.QueryRow(context.Background(), "SELECT fishname FROM "+fishinfotable+" WHERE $1 = ANY(STRING_TO_ARRAY(shiny, ' '))", fishType).Scan(&fishName)
 	return fishName, err
 }
 
-func addFishType(pool *pgxpool.Pool, fishinfotable string, fishType string, board bool) (string, error) {
+func addFishType(pool *pgxpool.Pool, fishinfotable string, fishType string) (string, error) {
+	var fishName, oldfishType, newfishType, response string
 
-	if !board {
-		logs.Logs().Info().Msgf("Unknown fish type '%s' detected. Is it a new fish type, a shiny or a different emote for an existing fish type?", fishType)
-		logs.Logs().Info().Msg("Use new/shiny/emote: ")
-	} else {
-		// This should never really happen. Maybe only during testing ?
-		err := fmt.Errorf("unknown fish type found on leaderboard")
-		logs.Logs().Error().Err(err).
-			Str("FishType", fishType).
-			Msg("Unknown fish type found on leaderboard")
-		return "", err
-	}
+	logs.Logs().Info().Msgf("Unknown fish type '%s' detected. Is it a new fish type, a shiny or a different emote for an existing fish type?", fishType)
+	logs.Logs().Info().Msg("Use new/shiny/emote: ")
 
 	for {
 		fmt.Scanln(&response)
