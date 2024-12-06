@@ -78,12 +78,6 @@ func main() {
 
 		data.GetData(*chatNames, *db, *numMonths, *monthYear, *mode)
 
-	case "pattern":
-		logs.Logs().Info().
-			Str("Program", *program).
-			Msg("Start")
-		scripts.RunPattern()
-
 	case "renamedfish":
 		logs.Logs().Info().
 			Str("Rename pairs", *renamePairs).
