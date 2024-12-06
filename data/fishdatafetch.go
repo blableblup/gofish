@@ -59,6 +59,7 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 			NormalPattern,
 			JumpedPattern,
 			BirdPattern,
+			SquirrelPattern,
 		}
 
 		fishCatches := extractInfoFromPatterns(textContent, patterns)

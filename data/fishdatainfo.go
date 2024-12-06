@@ -36,6 +36,7 @@ var ReleasePattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{
 var JumpedPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), Huh[?][!] ✨ Something jumped out of the water to snatch your rare candy! ...Got it! 🥍 (.*?) ([\d.]+) lbs`)
 var NormalPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), You caught a [✨🫧] (.*?) [✨🫧]! It weighs ([\d.]+) lbs`)
 var BirdPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): @\s?(\w+), Huh[?][!] 🪺 is hatching!... It's a [✨🪽🫧] (.*?) [✨🪽🫧]! It weighs ([\d.]+) lbs`)
+var SquirrelPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): @\s?(\w+), You toss your 🌰! 🫴 Huh[?][!] A [✨🫧] 🐿️ [✨🫧] chased after it! It went into @\s?(\w+)'s bag!`)
 
 func extractInfoFromPatterns(textContent string, patterns []*regexp.Regexp) []FishInfo {
 	var fishCatches []FishInfo
@@ -54,6 +55,8 @@ func extractInfoFromPatterns(textContent string, patterns []*regexp.Regexp) []Fi
 				extractFunc = extractInfoFromNormalPattern
 			case BirdPattern:
 				extractFunc = extractInfoFromNormalPattern
+			case SquirrelPattern:
+				extractFunc = extractInfoFromSquirrelPattern
 			}
 
 			fishCatches = append(fishCatches, extractFunc(match))
@@ -124,6 +127,29 @@ func extractInfoFromReleasePattern(match []string) FishInfo {
 	fishType := match[6]
 	catchtype := "release"
 
+	weight := 0.0
+
+	date, err := utils.ParseDate(dateStr)
+	if err != nil {
+		logs.Logs().Fatal().Err(err).Str("Player", player).Str("Date", dateStr).Str("FishType", fishType).Msgf("Error parsing date for fish")
+	}
+
+	return FishInfo{
+		Date:      date,
+		Bot:       bot,
+		Player:    player,
+		Type:      fishType,
+		Weight:    weight,
+		CatchType: catchtype,
+	}
+}
+
+func extractInfoFromSquirrelPattern(match []string) FishInfo {
+	dateStr := match[1]
+	bot := match[2]
+	player := match[4] // Could maybe also store thrower ?
+	fishType := "🐿️"
+	catchtype := "squirrel"
 	weight := 0.0
 
 	date, err := utils.ParseDate(dateStr)
