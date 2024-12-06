@@ -145,34 +145,39 @@ func Asdfjsadgaiga(apiID int, player string, firstFishDate time.Time, firstFishC
 
 func DidPlayerRename(twitchid int, player string, pool *pgxpool.Pool) (bool, bool, string, int, error) {
 
-	// Check if an entry with that twitchid exists
 	var playerID int
 	var lastoldname string
-	err := pool.QueryRow(context.Background(), "SELECT name, playerid FROM playerdata WHERE twitchid = $1", twitchid).Scan(&lastoldname, &playerID)
-	if err == nil {
-		logs.Logs().Warn().
-			Str("LastOldName", lastoldname).
-			Str("Player", player).
-			Int("PlayerID", playerID).
-			Int("TwitchID", twitchid).
-			Msg("A player renamed")
-		return true, false, lastoldname, playerID, nil
-	} else if err != pgx.ErrNoRows {
-		return false, false, lastoldname, playerID, err
+
+	// Check if an entry with that twitchid exists if the twitchid isnt 0
+	if twitchid != 0 {
+		err := pool.QueryRow(context.Background(), "SELECT name, playerid FROM playerdata WHERE twitchid = $1", twitchid).Scan(&lastoldname, &playerID)
+		if err == nil {
+			logs.Logs().Warn().
+				Str("LastOldName", lastoldname).
+				Str("Player", player).
+				Int("PlayerID", playerID).
+				Int("TwitchID", twitchid).
+				Msg("A player renamed")
+			return true, false, lastoldname, playerID, nil
+		} else if err != pgx.ErrNoRows {
+			return false, false, lastoldname, playerID, err
+		}
 	}
 
-	// Check if the player name is an old name for a player
+	// Check if the player name is an old name for a player if there is no twitchid found for that name
 	// This wont work though if the name is an old name for multiple players -.- then the data gets mixed up ?
-	err = pool.QueryRow(context.Background(), "SELECT name, playerid FROM playerdata WHERE $1 = ANY(STRING_TO_ARRAY(oldnames, ' '))", player).Scan(&lastoldname, &playerID)
-	if err == nil {
-		logs.Logs().Warn().
-			Str("CurrentName", lastoldname).
-			Str("Player", player).
-			Int("PlayerID", playerID).
-			Msg("A player is an old name")
-		return false, true, lastoldname, playerID, nil
-	} else if err != pgx.ErrNoRows {
-		return false, false, lastoldname, playerID, err
+	if twitchid == 0 {
+		err := pool.QueryRow(context.Background(), "SELECT name, playerid FROM playerdata WHERE $1 = ANY(STRING_TO_ARRAY(oldnames, ' '))", player).Scan(&lastoldname, &playerID)
+		if err == nil {
+			logs.Logs().Warn().
+				Str("CurrentName", lastoldname).
+				Str("Player", player).
+				Int("PlayerID", playerID).
+				Msg("A player is an old name")
+			return false, true, lastoldname, playerID, nil
+		} else if err != pgx.ErrNoRows {
+			return false, false, lastoldname, playerID, err
+		}
 	}
 
 	return false, false, lastoldname, playerID, nil
