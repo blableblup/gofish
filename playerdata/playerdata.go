@@ -1,15 +1,10 @@
 package playerdata
 
 import (
-	"bufio"
 	"context"
 	"database/sql"
 	"errors"
-	"fmt"
 	"gofish/logs"
-	"os"
-	"strconv"
-	"strings"
 	"time"
 
 	"github.com/jackc/pgx/v4"
@@ -245,90 +240,4 @@ func RenamePlayer(newName string, oldName string, twitchid int, playerid int, po
 		Msg("Renamed player")
 
 	return nil
-}
-
-// This is now only used for the leaderboards, so that it doesnt show NEW after a player renamed
-// But could reuse the same code as above for the leaderboards ?
-// And need to update the leaderboards to allow for the same name to appear multiple times :D
-var loggedPlayers = make(map[string]bool)
-
-func PlayerRenamed(player string, pool *pgxpool.Pool) (string, error) {
-	var newPlayer string
-
-	// Check if the player exists in the playerdata table
-	// This doesnt consider the case where two players in the databse have the same name
-	// Maybe one player caught a fish and then renamed and never caught a fish again and then another one renamed to that name ?
-	err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE name = $1", player).Scan(&player)
-	if err != nil {
-
-		// Check if the name is an old name for a player
-		query := `
-            SELECT name
-            FROM playerdata
-            WHERE $1 = ANY(STRING_TO_ARRAY(oldnames, ' '))
-        `
-		rows, err := pool.Query(context.Background(), query, player)
-		if err != nil {
-			logs.Logs().Error().Err(err).Str("Player", player).Msg("Error querying for old names for player")
-			return player, err
-		}
-		defer rows.Close()
-
-		matchingPlayers := make([]string, 0)
-		for rows.Next() {
-			var matchingPlayer string
-			if err := rows.Scan(&matchingPlayer); err != nil {
-				logs.Logs().Error().Err(err).Str("Player", player).Msg("Error scanning player for player")
-				return player, err
-			}
-			matchingPlayers = append(matchingPlayers, matchingPlayer)
-		}
-
-		if len(matchingPlayers) == 0 {
-			logs.Logs().Warn().Str("Player", player).Msg("Unknown player on leaderboard")
-			return player, nil // This should never happen
-		}
-
-		// So that you dont get spammed with log messages if you check old logs again
-		if len(matchingPlayers) == 1 {
-			newPlayer := matchingPlayers[0]
-
-			if !loggedPlayers[player] {
-				logs.Logs().Info().Str("Old Name", player).Str("New Name", newPlayer).Msg("Player was previously renamed")
-
-				loggedPlayers[player] = true
-			}
-
-			return newPlayer, nil
-		}
-
-		// This is needed if the name is an old name for multiple players
-		// Could happen if someone renames and then someone else renames to their old name and then also renames
-		for {
-			logs.Logs().Info().Msgf("Player '%s' renamed to one of the following names:", player)
-			for i, name := range matchingPlayers {
-				fmt.Printf("%d. %s\n", i+1, name)
-			}
-
-			logs.Logs().Info().Msg("Enter the number corresponding to the correct new name: ")
-			reader := bufio.NewReader(os.Stdin)
-			choiceStr, _ := reader.ReadString('\n')
-			choiceStr = strings.TrimSpace(choiceStr)
-			choice, err := strconv.Atoi(choiceStr)
-			if err != nil || choice < 1 || choice > len(matchingPlayers) {
-				logs.Logs().Warn().Msgf("Enter a valid number (ㆆ_ㆆ).")
-				continue
-			}
-
-			newPlayer = matchingPlayers[choice-1]
-			if !loggedPlayers[player] {
-				logs.Logs().Info().Str("Old Name", player).Str("New Name", newPlayer).Msg("Player was previously renamed")
-
-				loggedPlayers[player] = true
-			}
-			return newPlayer, nil
-		}
-	}
-
-	return player, nil
 }
