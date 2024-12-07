@@ -166,20 +166,3 @@ func extractInfoFromSquirrelPattern(match []string) FishInfo {
 		CatchType: catchtype,
 	}
 }
-
-var equivalentFishTypes = map[string]string{
-	"Jellyfish":  "🪼",
-	"Jellyfish ": "🪼",
-	"HailHelix ": "HailHelix",
-	"SabaPing ":  "SabaPing",
-}
-
-// This is now mainly used to get rid of the trailing space behind some fish which are not emojis
-// I dont know why HailHelix and SabaPing had a space behind
-func EquivalentFishType(fishType string) string {
-	equivalent, ok := equivalentFishTypes[fishType]
-	if ok {
-		return equivalent
-	}
-	return fishType // Return the original fish type if no equivalent is found
-}

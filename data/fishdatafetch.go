@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"gofish/logs"
 	"regexp"
+	"strings"
 	"time"
 
 	"github.com/jackc/pgconn"
@@ -79,12 +80,15 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 				}
 			}
 
-			// Update fish type if it has an equivalent
-			if equivalent := EquivalentFishType(fishType); equivalent != "" {
-				fishType = equivalent
+			// This is only for old Supibot logs (Could also change regex to not get the space at the end?)
+			if fishType == "SabaPing " || fishType == "HailHelix " || fishType == "Jellyfish " {
+				fishType = strings.TrimSpace(fishType)
 			}
 
-			chat := chatName
+			// Because Jellyfish used to be a bttv emote
+			if fishType == "Jellyfish" {
+				fishType = "🪼"
+			}
 
 			if date.After(latestCatchDate) {
 				FishData := FishInfo{
@@ -94,7 +98,7 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 					Date:      date,
 					CatchType: catchtype,
 					Type:      fishType,
-					Chat:      chat,
+					Chat:      chatName,
 					Url:       url,
 				}
 
