@@ -198,7 +198,7 @@ func writeCount(filePath string, fishCaught map[int]data.FishInfo, oldCountRecor
 	prefix := "| Rank | Player | Fish Caught |"
 
 	if board == "unique" || board == "uniqueglobal" {
-		prefix = "| Rank | Fish | Fish Seen |"
+		prefix = "| Rank | Player | Fish Seen |"
 	}
 
 	_, _ = fmt.Fprintln(file, prefix+func() string {
