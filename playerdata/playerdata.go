@@ -16,8 +16,9 @@ func GetPlayerID(pool *pgxpool.Pool, player string, firstFishDate time.Time, fir
 	var playerID int
 	var twitchID sql.NullInt64
 
-	// If a player renamed and hasnt caught a fish since the rename...
-	// this wont find the player in the api and will return 0
+	// Returns 0 if no player found in api
+	// Problem: When rechecking old logs, this GetPlayerID function will assign the wrong playerid to players, who renamed and whose name is now used by another account
+	// Maybe if someone hasnt caught a fish in 6 months make sure that thats still the same fisher if that name is an old name and the name is being actively used by a player?
 	apiID, err := GetTwitchID(player)
 	if err != nil && !errors.Is(err, ErrNoPlayerFound) {
 		logs.Logs().Error().Err(err).
