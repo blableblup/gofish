@@ -37,6 +37,7 @@ var JumpedPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2
 var NormalPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), You caught a [✨🫧] (.*?) [✨🫧]! It weighs ([\d.]+) lbs`)
 var BirdPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): @\s?(\w+), Huh[?][!] 🪺 is hatching!... It's a [✨🪽🫧] (.*?) [✨🪽🫧]! It weighs ([\d.]+) lbs`)
 var SquirrelPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): @\s?(\w+), You toss your 🌰! 🫴 Huh[?][!] A [✨🫧] 🐿️ [✨🫧] chased after it! It went into @\s?(\w+)'s bag!`)
+var BagPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), Your (bag|collection): (.+)`)
 
 func extractInfoFromPatterns(textContent string, patterns []*regexp.Regexp) []FishInfo {
 	var fishCatches []FishInfo
@@ -57,6 +58,8 @@ func extractInfoFromPatterns(textContent string, patterns []*regexp.Regexp) []Fi
 				extractFunc = extractInfoFromNormalPattern
 			case SquirrelPattern:
 				extractFunc = extractInfoFromSquirrelPattern
+			case BagPattern:
+				extractFunc = extractInfoFromBagPattern
 			}
 
 			fishCatches = append(fishCatches, extractFunc(match))
@@ -84,7 +87,11 @@ func extractInfoFromNormalPattern(match []string) FishInfo {
 
 	date, err := utils.ParseDate(dateStr)
 	if err != nil {
-		logs.Logs().Fatal().Err(err).Str("Player", player).Str("Date", dateStr).Str("FishType", fishType).Msgf("Error parsing date for fish")
+		logs.Logs().Fatal().Err(err).
+			Str("Player", player).
+			Str("Date", dateStr).
+			Str("FishType", fishType).
+			Msgf("Error parsing date for fish")
 	}
 
 	return FishInfo{
@@ -107,7 +114,11 @@ func extractInfoFromMouthPattern(match []string) FishInfo {
 
 	date, err := utils.ParseDate(dateStr)
 	if err != nil {
-		logs.Logs().Fatal().Err(err).Str("Player", player).Str("Date", dateStr).Str("FishType", fishType).Msgf("Error parsing date for fish")
+		logs.Logs().Fatal().Err(err).
+			Str("Player", player).
+			Str("Date", dateStr).
+			Str("FishType", fishType).
+			Msgf("Error parsing date for fish")
 	}
 
 	return FishInfo{
@@ -131,7 +142,11 @@ func extractInfoFromReleasePattern(match []string) FishInfo {
 
 	date, err := utils.ParseDate(dateStr)
 	if err != nil {
-		logs.Logs().Fatal().Err(err).Str("Player", player).Str("Date", dateStr).Str("FishType", fishType).Msgf("Error parsing date for fish")
+		logs.Logs().Fatal().Err(err).
+			Str("Player", player).
+			Str("Date", dateStr).
+			Str("FishType", fishType).
+			Msgf("Error parsing date for fish")
 	}
 
 	return FishInfo{
@@ -154,7 +169,11 @@ func extractInfoFromSquirrelPattern(match []string) FishInfo {
 
 	date, err := utils.ParseDate(dateStr)
 	if err != nil {
-		logs.Logs().Fatal().Err(err).Str("Player", player).Str("Date", dateStr).Str("FishType", fishType).Msgf("Error parsing date for fish")
+		logs.Logs().Fatal().Err(err).
+			Str("Player", player).
+			Str("Date", dateStr).
+			Str("FishType", fishType).
+			Msgf("Error parsing date for fish")
 	}
 
 	return FishInfo{
@@ -163,6 +182,31 @@ func extractInfoFromSquirrelPattern(match []string) FishInfo {
 		Player:    player,
 		Type:      fishType,
 		Weight:    weight,
+		CatchType: catchtype,
+	}
+}
+
+func extractInfoFromBagPattern(match []string) FishInfo {
+	dateStr := match[1]
+	bot := match[2]
+	player := match[3]
+	fishType := match[5]
+	catchtype := "bag"
+
+	date, err := utils.ParseDate(dateStr)
+	if err != nil {
+		logs.Logs().Fatal().Err(err).
+			Str("Player", player).
+			Str("Date", dateStr).
+			Str("FishType", fishType).
+			Msgf("Error parsing date for bag")
+	}
+
+	return FishInfo{
+		Date:      date,
+		Bot:       bot,
+		Player:    player,
+		Type:      fishType,
 		CatchType: catchtype,
 	}
 }
