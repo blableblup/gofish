@@ -1,39 +1,39 @@
 ### Players who have seen the most fish in dizzy's chat
 | Rank | Fish | Fish Seen |
 |------|--------|-----------|
-| 1 🥇  | iam_haunt_  | 53 (+2) |
-| 2 🥈  | konsminator  | 49 (+3) |
-| 3 🥉 ⬇ | spanmer  | 47 (+1) |
-| 4  | buhl00n  | 46 (+2) |
-| 5 ⬇ | rabituwu  | 44 |
-| 6  | gimmeschmoneys  | 43 |
-| 6 ⬆ | lolspers  | 43 (+1) |
-| 6  | vagdi  | 43 |
-| 9 ⬆ | ben_vincent  | 40 (+7) |
-| 9  | ssenario  | 40 |
-| 11 ⬆ | tairaaaaa  | 38 (+3) |
-| 12 ⬇ | burnend  | 37 (+1) |
-| 13 ⬇ | aceleju  | 36 |
-| 14 ⬇ | simplydrack  | 35 |
-| 15 ⬇ | kukkuri  | 34 |
-| 16  | notnownico  | 31 (+2) |
-| 17  | 777pancake  | 29 (+1) |
-| 17 🆕 | gofishrigged  | 29 |
-| 19 ⬇ | icejamx  | 28 |
-| 20 ⬆ | imzommie  | 27 (+2) |
-| 20 ⬇ | kyonuwu  | 27 |
-| 20 ⬇ | silent11d5  | 27 |
-| 23 ⬇ | exo9*  | 26 (+1) |
-| 23 ⬇ | paperboat99  | 26 (+1) |
-| 23 ⬇ | respirate_  | 26 |
-| 23 ⬆ | whoop_ee  | 26 (+2) |
-| 27 🆕 | ofaisalz  | 24 |
-| 27 ⬇ | rozbox  | 24 |
-| 29 ⬇ | dizzy  | 21 (+1) |
-| 29 🆕 | sugur  | 21 |
-| 31 🆕 | mitsu_skidz  | 20 |
-| 31 ⬇ | omegalulow2onsteam  | 20 |
+| 1 🥇  | iam_haunt_  | 53 |
+| 2 🥈  | konsminator  | 49 |
+| 3 🥉 ⬆ | buhl00n  | 48 (+2) |
+| 3 🥉  | spanmer  | 48 (+1) |
+| 5 ⬆ | lolspers  | 46 (+3) |
+| 6  | gimmeschmoneys  | 44 (+1) |
+| 6 ⬇ | rabituwu  | 44 |
+| 8 ⬇ | vagdi  | 43 |
+| 9  | ben_vincent  | 42 (+2) |
+| 10 ⬆ | tairaaaaa  | 41 (+3) |
+| 11 ⬇ | ssenario  | 40 |
+| 12  | burnend  | 37 |
+| 13  | aceleju  | 36 |
+| 13 ⬆ | gofishrigged  | 36 (+7) |
+| 13 ⬆ | simplydrack  | 36 (+1) |
+| 16 ⬇ | kukkuri  | 34 |
+| 16  | notnownico  | 34 (+3) |
+| 18 ⬇ | 777pancake  | 31 (+2) |
+| 18 ⬆ | paperboat99  | 31 (+5) |
+| 20 ⬇ | icejamx  | 30 (+2) |
+| 21 ⬇ | kyonuwu  | 29 (+2) |
+| 22 ⬆ | ofaisalz  | 28 (+4) |
+| 23 ⬇ | imzommie  | 27 |
+| 23 ⬇ | silent11d5  | 27 |
+| 23 ⬆ | sugur  | 27 (+6) |
+| 23  | whoop_ee  | 27 (+1) |
+| 27 ⬇ | exo9*  | 26 |
+| 27 ⬇ | respirate_  | 26 |
+| 29 ⬇ | rozbox  | 24 |
+| 30 ⬇ | dizzy  | 21 |
+| 30 ⬆ | mitsu_skidz  | 21 (+1) |
+| 32 ⬇ | omegalulow2onsteam  | 20 |
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2024-12-01 11:49:58 UTC_
+_Last updated at 2024-12-08 11:00:17 UTC_

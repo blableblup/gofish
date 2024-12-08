@@ -39,7 +39,7 @@
 		"chat": "psp1g",
 		"fishid": 35993,
 		"chatid": 8351,
-		"rank": 77
+		"rank": 79
 	},
 	"balletshoes": {
 		"player": "tomsi1g",
@@ -54,7 +54,7 @@
 		"fishid": 25601,
 		"chatid": 2318,
 		"verified": true,
-		"rank": 73
+		"rank": 75
 	},
 	"bat": {
 		"player": "funnywhitecat12",
@@ -166,7 +166,7 @@
 		"chat": "psp1g",
 		"fishid": 52598,
 		"chatid": 17781,
-		"rank": 73
+		"rank": 75
 	},
 	"briefs": {
 		"player": "alvaniss1g",
@@ -194,7 +194,7 @@
 		"chat": "psp1g",
 		"fishid": 88625,
 		"chatid": 37694,
-		"rank": 80
+		"rank": 82
 	},
 	"cannedfood": {
 		"player": "huuuuuuuuuuuuuuuuuuuuuurz",
@@ -406,7 +406,7 @@
 		"chat": "psp1g",
 		"fishid": 101476,
 		"chatid": 45862,
-		"rank": 83
+		"rank": 84
 	},
 	"fish": {
 		"player": "adziooooo",
@@ -448,7 +448,7 @@
 		"chat": "psp1g",
 		"fishid": 57411,
 		"chatid": 20210,
-		"rank": 83
+		"rank": 84
 	},
 	"hook": {
 		"player": "thedraingangceo",
@@ -465,17 +465,17 @@
 		"rank": 62
 	},
 	"icecube": {
-		"player": "noconcept_",
-		"playerid": 693,
-		"weight": 10.84,
+		"player": "angus_lpc",
+		"playerid": 637,
+		"weight": 10.85,
 		"bot": "gofishgame",
 		"type": "🧊",
 		"typename": "icecube",
 		"catchtype": "normal",
-		"date": "2024-01-21T15:08:04Z",
+		"date": "2024-12-05T14:00:23Z",
 		"chat": "psp1g",
-		"fishid": 55949,
-		"chatid": 19428,
+		"fishid": 127766,
+		"chatid": 56812,
 		"rank": 55
 	},
 	"iceskate": {
@@ -490,7 +490,7 @@
 		"chat": "psp1g",
 		"fishid": 48581,
 		"chatid": 16009,
-		"rank": 79
+		"rank": 81
 	},
 	"iphone": {
 		"player": "jr_mime",
@@ -532,7 +532,7 @@
 		"chat": "psp1g",
 		"fishid": 46926,
 		"chatid": 15199,
-		"rank": 55
+		"rank": 56
 	},
 	"lobster": {
 		"player": "ratot",
@@ -602,7 +602,7 @@
 		"chat": "psp1g",
 		"fishid": 112340,
 		"chatid": 51271,
-		"rank": 85
+		"rank": 86
 	},
 	"mermaid": {
 		"player": "zwockel01",
@@ -770,7 +770,7 @@
 		"chat": "psp1g",
 		"fishid": 72228,
 		"chatid": 26656,
-		"rank": 72
+		"rank": 73
 	},
 	"sandwich": {
 		"player": "ovrht",
@@ -784,7 +784,7 @@
 		"chat": "psp1g",
 		"fishid": 37258,
 		"chatid": 9105,
-		"rank": 77
+		"rank": 79
 	},
 	"sauropod": {
 		"player": "huuuuuuuuuuuuuuuuuuuuuurz",
@@ -812,7 +812,7 @@
 		"chat": "psp1g",
 		"fishid": 58667,
 		"chatid": 20871,
-		"rank": 86
+		"rank": 87
 	},
 	"seal": {
 		"player": "veny1g",
@@ -840,7 +840,7 @@
 		"chat": "psp1g",
 		"fishid": 87176,
 		"chatid": 36555,
-		"rank": 76
+		"rank": 78
 	},
 	"shamrock": {
 		"player": "divra__",
@@ -967,7 +967,7 @@
 		"chat": "psp1g",
 		"fishid": 29225,
 		"chatid": 4188,
-		"rank": 73
+		"rank": 75
 	},
 	"spider": {
 		"player": "huuuuuuuuuuuuuuuuuuuuuurz",
@@ -1011,6 +1011,20 @@
 		"chatid": 19513,
 		"rank": 3
 	},
+	"squirrel": {
+		"player": "iflya320",
+		"playerid": 2609,
+		"weight": 0.9,
+		"bot": "gofishgame",
+		"type": "🐿️",
+		"typename": "squirrel",
+		"catchtype": "squirrel",
+		"date": "2024-12-04T11:13:44Z",
+		"chat": "psp1g",
+		"fishid": 128075,
+		"chatid": 56969,
+		"rank": 88
+	},
 	"sunflower": {
 		"player": "ratot",
 		"playerid": 913,
@@ -1037,7 +1051,7 @@
 		"chat": "psp1g",
 		"fishid": 88767,
 		"chatid": 37805,
-		"rank": 82
+		"rank": 83
 	},
 	"teddybear": {
 		"player": "yaratecs2",
@@ -1082,18 +1096,18 @@
 		"rank": 38
 	},
 	"tulip": {
-		"player": "ocrw",
-		"playerid": 2656,
-		"weight": 1.49,
+		"player": "iflya320",
+		"playerid": 2609,
+		"weight": 2.93,
 		"bot": "gofishgame",
 		"type": "🌷",
 		"typename": "tulip",
 		"catchtype": "normal",
-		"date": "2024-09-16T12:47:45Z",
+		"date": "2024-12-04T16:22:17Z",
 		"chat": "psp1g",
-		"fishid": 101659,
-		"chatid": 45945,
-		"rank": 81
+		"fishid": 127553,
+		"chatid": 56701,
+		"rank": 72
 	},
 	"turtle": {
 		"player": "yopego",
@@ -1151,6 +1165,20 @@
 		"fishid": 36907,
 		"chatid": 8891,
 		"rank": 10
+	},
+	"wiltedflower": {
+		"player": "iflya320",
+		"playerid": 2609,
+		"weight": 2.83,
+		"bot": "gofishgame",
+		"type": "🥀",
+		"typename": "wiltedflower",
+		"catchtype": "normal",
+		"date": "2024-12-07T14:39:21Z",
+		"chat": "psp1g",
+		"fishid": 128411,
+		"chatid": 57145,
+		"rank": 74
 	},
 	"wireline": {
 		"player": "ocrw",

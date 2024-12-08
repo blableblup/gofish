@@ -24,10 +24,10 @@
 | 21  | 🪸 coral | 20.18 | chuuubbyyy |
 | 22  | 🕷️ spider | 20.04 | puzzlow |
 | 23  | 🐡 blowfish | 18.91 | toastyso |
-| 24  | 🦠 plankton | 16.85 | toastyso |
-| 25  | 🦦 otter | 15.66 | toastyso |
-| 26  | 🍄 mushroom | 14.18 | puzzlow |
-| 27  | 🪳 cockroach | 12.26 | julialuxel |
+| 24 ⬆ | 🪳 cockroach | 18.84 (+6.58) | notnownico |
+| 25 ⬇ | 🦠 plankton | 16.85 | toastyso |
+| 26 ⬇ | 🦦 otter | 15.66 | toastyso |
+| 27 ⬇ | 🍄 mushroom | 14.18 | puzzlow |
 | 28  | 🧸 teddybear | 11.20 | hahppyy |
 | 29  | 💀 skull | 8.64 | julialuxel |
 | 30  | 🧊 icecube | 8.17 | julialuxel |
@@ -56,4 +56,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2024-11-24 11:20:51 UTC_
+_Last updated at 2024-12-08 11:00:26 UTC_

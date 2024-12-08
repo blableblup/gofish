@@ -3,14 +3,14 @@
 |------|--------|-----------|
 | 1 🥇  | hahppyy  | 61 |
 | 2 🥈  | divra__  | 43 |
-| 2 🥈 ⬆ | leastsussyimposter  | 43 (+2) |
-| 4 ⬇ | milesdotcom  | 42 |
-| 4 ⬇ | vaiastol  | 42 |
-| 6  | dayzedinndaydreams  | 30 |
-| 7  | pengeg  | 29 (+1) |
-| 8  | yoimlee  | 26 (+1) |
-| 9 ⬇ | bubinga  | 25 |
+| 2 🥈  | leastsussyimposter  | 43 |
+| 2 🥈 ⬆ | vaiastol  | 43 (+1) |
+| 5 ⬇ | milesdotcom  | 42 |
+| 6 ⬆ | pengeg  | 36 (+7) |
+| 7 ⬇ | dayzedinndaydreams  | 32 (+2) |
+| 8  | yoimlee  | 26 |
+| 9  | bubinga  | 25 |
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2024-12-01 11:49:58 UTC_
+_Last updated at 2024-12-08 11:00:17 UTC_

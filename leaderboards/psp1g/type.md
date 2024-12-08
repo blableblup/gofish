@@ -4,8 +4,8 @@
 | 1 🥇  | 🐳 whale | 303.51 | huuuuuuuuuuuuuuuuuuuuuurz |
 | 2 🥈  | 🐉 dragon | 284.61 | sandwichsundays |
 | 3 🥉  | 🦑 squid | 280.48 | huuuuuuuuuuuuuuuuuuuuuurz |
-| 4 ⬆ | 🐍 snake | 269.95 (+3.18) | caprisen_ |
-| 5 ⬇ | 🦕 sauropod | 267.81 | huuuuuuuuuuuuuuuuuuuuuurz |
+| 4  | 🐍 snake | 269.95 | caprisen_ |
+| 5  | 🦕 sauropod | 267.81 | huuuuuuuuuuuuuuuuuuuuuurz |
 | 6  | 🐢 turtle | 254.30 | yopego |
 | 7  | 🦈 shark | 249.45 | divra__ |
 | 8  | 🛢️ oildrum | 248.25 | sandwichsundays |
@@ -15,8 +15,8 @@
 | 12  | 🧞‍♂ malegenie | 141.02 | lobuhtomy |
 | 13  | 🧜‍♀️ mermaid | 139.02 | zwockel01 |
 | 14  | 🦭 seal | 134.32 | veny1g |
-| 15 ⬆ | 🦞 lobster | 120.96 (+1.79) | ratot |
-| 16 ⬇ | 🐬 dolphin | 119.32 | nndiana |
+| 15  | 🦞 lobster | 120.96 | ratot |
+| 16  | 🐬 dolphin | 119.32 | nndiana |
 | 17  | 🧟 zombie | 118.60 | asthmaa |
 | 18  | 🦇 bat | 117.16 | funnywhitecat12 |
 | 19  | 🦪 oyster | 114.43 | wisdom_frog |
@@ -55,8 +55,8 @@
 | 52  | 🧸 teddybear | 11.91 | yaratecs2 |
 | 53  | 🪹 emptynest | 10.91 | veny1g |
 | 54  | 💀 skull | 10.89 | aecyne |
-| 55  | 🧊 icecube | 10.84 | noconcept_ |
-| 55  | 🦎 lizard | 10.84 | bosscrazymen |
+| 55  | 🧊 icecube | 10.85 (+0.01) | angus_lpc |
+| 56 ⬇ | 🦎 lizard | 10.84 | bosscrazymen |
 | 57  | 🎱 8ball | 10.82 | 0_asd |
 | 58  | 🪺 nestwitheggs | 10.31 | syxtuh |
 | 59  | 🩲 briefs | 10.20 | alvaniss1g |
@@ -72,22 +72,24 @@
 | 69  | ☂️ umbrella | 2.98 | theevirus |
 | 70  | 🌻 sunflower | 2.95 | ratot |
 | 71  | 🩴 thongsandal | 2.94 | bubinga |
-| 72  | 🌹 rose | 2.88 | zwockel01 |
-| 73  | 🩰 balletshoes | 2.00 | tomsi1g |
-| 73  | 👢 boot | 2.00 | jr_mime |
-| 73  | 🧦 socks | 2.00 | manmanboy_ |
-| 76  | 🌿 seaweed | 1.99 | angus_lpc |
-| 77  | 👟 athleticshoe | 1.98 | jeejee_jjl |
-| 77  | 🥪 sandwich | 1.98 | ovrht |
-| 79  | ⛸️ iceskate | 1.96 | pookiesnowman |
-| 80  | 🍬 candy | 1.89 | flunke_ |
-| 81  | 🌷 tulip | 1.49 | ocrw |
-| 82  | 🦢 swan | 1.26 | mazzo_tv |
-| 83  | 🪶 feather | 1.00 | shadowraider247 |
-| 83  | 🧤 gloves | 1.00 | kubo7 |
-| 85  | 🍁 mapleleaf | 0.99 | flunke_ |
-| 86  | 🧣 scarf | 0.92 | blazeblitzzz |
+| 72 ⬆ | 🌷 tulip | 2.93 (+1.44) | iflya320 |
+| 73 ⬇ | 🌹 rose | 2.88 | zwockel01 |
+| 74 🆕 | 🥀 wiltedflower | 2.83 | iflya320 |
+| 75 ⬇ | 🩰 balletshoes | 2.00 | tomsi1g |
+| 75 ⬇ | 👢 boot | 2.00 | jr_mime |
+| 75 ⬇ | 🧦 socks | 2.00 | manmanboy_ |
+| 78 ⬇ | 🌿 seaweed | 1.99 | angus_lpc |
+| 79 ⬇ | 👟 athleticshoe | 1.98 | jeejee_jjl |
+| 79 ⬇ | 🥪 sandwich | 1.98 | ovrht |
+| 81 ⬇ | ⛸️ iceskate | 1.96 | pookiesnowman |
+| 82 ⬇ | 🍬 candy | 1.89 | flunke_ |
+| 83 ⬇ | 🦢 swan | 1.26 | mazzo_tv |
+| 84 ⬇ | 🪶 feather | 1.00 | shadowraider247 |
+| 84 ⬇ | 🧤 gloves | 1.00 | kubo7 |
+| 86 ⬇ | 🍁 mapleleaf | 0.99 | flunke_ |
+| 87 ⬇ | 🧣 scarf | 0.92 | blazeblitzzz |
+| 88 🆕 | 🐿️ squirrel | 0.90 | iflya320 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2024-12-01 11:49:26 UTC_
+_Last updated at 2024-12-08 11:00:19 UTC_
