@@ -68,7 +68,7 @@ func Leaderboards(leaderboards string, chatNames string, date string, date2 stri
 		Limit:    limit,
 	}
 
-	// Rare and stats are the only boards which are "global only"
+	// Rare, stats, shiny and averageweight are the only boards which are "global only"
 	// They do not go to processLeaderboard, instead they directly go to their function
 	// And they do not need a chat specified. Could change it so that chat needs to be global ?
 	for _, leaderboard := range leaderboardList {
@@ -90,6 +90,8 @@ func Leaderboards(leaderboards string, chatNames string, date string, date2 stri
 			processLeaderboard(config, params, processCount)
 		case "type":
 			processLeaderboard(config, params, processType)
+		case "averageweight":
+			processAverageWeight(params)
 		case "rare":
 			RunCountFishTypesGlobal(params)
 		case "stats":
@@ -102,6 +104,8 @@ func Leaderboards(leaderboards string, chatNames string, date string, date2 stri
 			processShinies(params)
 			params.LeaderboardType = "stats"
 			RunChatStatsGlobal(params)
+			params.LeaderboardType = "averageweight"
+			processAverageWeight(params)
 			params.LeaderboardType = "rare"
 			RunCountFishTypesGlobal(params)
 			params.LeaderboardType = "type"

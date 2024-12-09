@@ -10,25 +10,26 @@ import (
 )
 
 type FishInfo struct {
-	Player     string         `json:"player,omitempty"`
-	PlayerID   int            `json:"playerid,omitempty"`
-	TwitchID   int            `json:"twitchid,omitempty"`
-	Weight     float64        `json:"weight,omitempty"`
-	Bot        string         `json:"bot,omitempty"`
-	Type       string         `json:"type,omitempty"`
-	TypeName   string         `json:"typename,omitempty"`
-	CatchType  string         `json:"catchtype,omitempty"`
-	Date       time.Time      `json:"date,omitempty"`
-	Chat       string         `json:"chat,omitempty"`
-	Url        string         `json:"url,omitempty"`
-	ChatPfp    string         `json:"chatpfp,omitempty"`
-	FishId     int            `json:"fishid,omitempty"`
-	ChatId     int            `json:"chatid,omitempty"`
-	Count      int            `json:"count,omitempty"`
-	MaxCount   int            `json:"maxcount,omitempty"`
-	ChatCounts map[string]int `json:"chatcounts,omitempty"`
-	Verified   bool           `json:"verified,omitempty"`
-	Rank       int            `json:"rank,omitempty"`
+	Player      string             `json:"player,omitempty"`
+	PlayerID    int                `json:"playerid,omitempty"`
+	TwitchID    int                `json:"twitchid,omitempty"`
+	Weight      float64            `json:"weight,omitempty"`
+	Bot         string             `json:"bot,omitempty"`
+	Type        string             `json:"type,omitempty"`
+	TypeName    string             `json:"typename,omitempty"`
+	CatchType   string             `json:"catchtype,omitempty"`
+	Date        time.Time          `json:"date,omitempty"`
+	Chat        string             `json:"chat,omitempty"`
+	Url         string             `json:"url,omitempty"`
+	ChatPfp     string             `json:"chatpfp,omitempty"`
+	FishId      int                `json:"fishid,omitempty"`
+	ChatId      int                `json:"chatid,omitempty"`
+	Count       int                `json:"count,omitempty"`
+	MaxCount    int                `json:"maxcount,omitempty"`
+	ChatCounts  map[string]int     `json:"chatcounts,omitempty"`
+	ChatWeights map[string]float64 `json:"chatweights,omitempty"`
+	Verified    bool               `json:"verified,omitempty"`
+	Rank        int                `json:"rank,omitempty"`
 }
 
 var MouthPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), You caught a [✨🫧] (.*?) [✨🫧]! It weighs ([\d.]+) lbs. And!... (.*?)(?: \(([\d.]+) lbs\) was in its mouth)?!`)
