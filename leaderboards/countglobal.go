@@ -182,17 +182,11 @@ func getCountGlobal(params LeaderboardParams, countlimit int) (map[int]data.Fish
 				}
 				existingFishInfo.ChatCounts[pfp] += fishInfo.Count
 
-				if fishInfo.Count > existingFishInfo.MaxCount {
-					existingFishInfo.MaxCount = fishInfo.Count
-					existingFishInfo.Chat = pfp
-				}
 				globalCount[fishInfo.PlayerID] = existingFishInfo
 			} else {
 				globalCount[fishInfo.PlayerID] = data.FishInfo{
 					Player:     fishInfo.Player,
 					Count:      fishInfo.Count,
-					Chat:       pfp,
-					MaxCount:   fishInfo.Count,
 					Bot:        fishInfo.Bot,
 					Verified:   fishInfo.Verified,
 					Date:       fishInfo.Date,
