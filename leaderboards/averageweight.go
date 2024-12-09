@@ -237,7 +237,7 @@ func writeAverageWeight(filePath string, Weights map[string]data.FishInfo, oldWe
 		return err
 	}
 
-	prefix := "| Rank | Fish | Rounded Weight | Chat |"
+	prefix := "| Rank | Fish | Weight in lbs | Chat |"
 
 	_, _ = fmt.Fprintln(file, prefix)
 
