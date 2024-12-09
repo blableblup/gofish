@@ -140,6 +140,20 @@ func sortPlayerRecords(record map[int]data.FishInfo) []int {
 
 }
 
+func sortFishRecords2(record map[int]data.FishInfo) []int {
+
+	ids := make([]int, 0, len(record))
+	for playerID := range record {
+		ids = append(ids, playerID)
+	}
+
+	sort.SliceStable(ids, func(i, j int) bool { return record[ids[i]].Player < record[ids[j]].Player })
+	sort.SliceStable(ids, func(i, j int) bool { return record[ids[i]].Date.After(record[ids[j]].Date) })
+
+	return ids
+
+}
+
 func sortFishRecords(recordFish map[string]data.FishInfo) []string {
 
 	fishy := make([]string, 0, len(recordFish))

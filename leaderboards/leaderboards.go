@@ -94,8 +94,12 @@ func Leaderboards(leaderboards string, chatNames string, date string, date2 stri
 			RunCountFishTypesGlobal(params)
 		case "stats":
 			RunChatStatsGlobal(params)
+		case "shiny":
+			processShinies(params)
 
 		case "all":
+			params.LeaderboardType = "shiny"
+			processShinies(params)
 			params.LeaderboardType = "stats"
 			RunChatStatsGlobal(params)
 			params.LeaderboardType = "rare"

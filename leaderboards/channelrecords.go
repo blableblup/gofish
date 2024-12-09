@@ -1,17 +1,13 @@
 package leaderboards
 
 import (
-	"bufio"
 	"context"
 	"fmt"
 	"gofish/data"
 	"gofish/logs"
-	"os"
 	"path/filepath"
-	"sort"
 	"strconv"
 	"strings"
-	"time"
 
 	"github.com/jackc/pgx/v4"
 )
@@ -39,7 +35,7 @@ func processChannelRecords(params LeaderboardParams) {
 		filePath = filepath.Join("leaderboards", chatName, path)
 	}
 
-	oldChannelRecords, err := ReadChannelRecords(filePath)
+	oldChannelRecords, err := getJsonBoard(filePath)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Path", filePath).
@@ -74,7 +70,7 @@ func processChannelRecords(params LeaderboardParams) {
 		return
 	}
 
-	AreMapsSame := didMapsChange(records, oldChannelRecords)
+	AreMapsSame := didPlayerMapsChange(params, oldChannelRecords, records)
 
 	if AreMapsSame && mode != "force" {
 		logs.Logs().Warn().
@@ -98,7 +94,7 @@ func processChannelRecords(params LeaderboardParams) {
 		titlerecords = fmt.Sprintf("%s\n", title)
 	}
 
-	err = writeRecords(records, oldChannelRecords, filePath, titlerecords, global, weightlimit)
+	err = writeFishList(filePath, records, oldChannelRecords, titlerecords, global, board, weightlimit)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Board", board).
@@ -110,29 +106,25 @@ func processChannelRecords(params LeaderboardParams) {
 			Str("Chat", chatName).
 			Msg("Leaderboard updated successfully")
 	}
-}
 
-func didMapsChange(newMap map[float64]data.FishInfo, oldMap map[float64]data.FishInfo) bool {
-
-	// Dont update the board if there are no changes
-	// If maps are same length, check if a player renamed
-	if len(oldMap) == len(newMap) {
-		for weight := range newMap {
-			if oldMap[weight].Player != newMap[weight].Player {
-				return false
-			}
-		}
+	err = writeRaw(filePath, records)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Board", board).
+			Str("Chat", chatName).
+			Msg("Error writing raw leaderboard")
 	} else {
-		return false
+		logs.Logs().Info().
+			Str("Board", board).
+			Str("Chat", chatName).
+			Msg("Raw leaderboard updated successfully")
 	}
-
-	return true
 }
 
 // Select the first fish above the weightlimit -> then select the first fish above that fishes weight -> ...
 // Do this until there are no bigger fish anymore (if there is the error pgx.ErrNoRows)
 // This will only show the oldest fish if there are multiple channel records with the same weight
-func getRecords(params LeaderboardParams, weightlimit float64) (map[float64]data.FishInfo, error) {
+func getRecords(params LeaderboardParams, weightlimit float64) (map[int]data.FishInfo, error) {
 	board := params.LeaderboardType
 	chatName := params.ChatName
 	global := params.Global
@@ -140,7 +132,7 @@ func getRecords(params LeaderboardParams, weightlimit float64) (map[float64]data
 	pool := params.Pool
 	date := params.Date
 
-	recordFish := make(map[float64]data.FishInfo)
+	recordFish := make(map[int]data.FishInfo)
 
 	for {
 		var fishInfo data.FishInfo
@@ -228,156 +220,8 @@ func getRecords(params LeaderboardParams, weightlimit float64) (map[float64]data
 
 		// A new channel record can never be 0.001 lbs bigger than the last one so this should never skip any records
 		weightlimit = fishInfo.Weight + 0.001
-		recordFish[fishInfo.Weight] = fishInfo
+		recordFish[fishInfo.FishId] = fishInfo
 	}
 
 	return recordFish, nil
-}
-
-func writeRecords(records map[float64]data.FishInfo, oldChannelRecords map[float64]data.FishInfo, filePath string, title string, global bool, weightlimit float64) error {
-
-	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
-		return err
-	}
-
-	file, err := os.Create(filePath)
-	if err != nil {
-		return err
-	}
-	defer file.Close()
-
-	_, err = fmt.Fprintf(file, "%s", title)
-	if err != nil {
-		return err
-	}
-
-	_, _ = fmt.Fprintln(file, "| # | Player | Fish | Weight in lbs ⚖️ | Date |"+func() string {
-		if global {
-			return " Chat |"
-		}
-		return ""
-	}())
-	_, err = fmt.Fprintln(file, "|-----|------|--------|-----------|---------|"+func() string {
-		if global {
-			return "-------|"
-		}
-		return ""
-	}())
-	if err != nil {
-		return err
-	}
-
-	weights := sortWeights(records)
-
-	rank := len(records) + 1
-
-	for _, weight := range weights {
-		weight := records[weight].Weight
-		fishType := records[weight].Type
-		fishName := records[weight].TypeName
-		player := records[weight].Player
-		date := records[weight].Date
-
-		botIndicator := ""
-		if records[weight].Bot == "supibot" && !records[weight].Verified {
-			botIndicator = "*"
-		}
-
-		rank--
-
-		var found bool
-
-		oldRank := -1
-
-		if info, ok := oldChannelRecords[weight]; ok {
-			found = true
-			oldRank = info.Rank
-		}
-
-		changeEmoji := ChangeEmoji(rank, oldRank, found)
-
-		_, _ = fmt.Fprintf(file, "| %d %s | %s%s | %s %s | %v | %s |",
-			rank, changeEmoji, player, botIndicator, fishType, fishName, weight, date.Format("2006-01-02 15:04:05 UTC"))
-		if global {
-			_, _ = fmt.Fprintf(file, " %s |", records[weight].ChatPfp)
-		}
-		_, err = fmt.Fprintln(file)
-		if err != nil {
-			return err
-		}
-
-	}
-
-	_, _ = fmt.Fprintf(file, "\n_Only showing fish weighing >= %v lbs_\n", weightlimit)
-	_, _ = fmt.Fprintf(file, "\n_Last updated at %s_", time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC"))
-
-	return nil
-}
-
-func sortWeights(records map[float64]data.FishInfo) []float64 {
-	weights := make([]float64, 0, len(records))
-	for weight := range records {
-		weights = append(weights, weight)
-	}
-
-	sort.SliceStable(weights, func(i, j int) bool { return records[weights[i]].Weight > records[weights[j]].Weight })
-
-	return weights
-}
-
-func ReadChannelRecords(filepath string) (map[float64]data.FishInfo, error) {
-	oldLeaderboardRecords := make(map[float64]data.FishInfo)
-
-	file, err := os.Open(filepath)
-	if err != nil {
-		return oldLeaderboardRecords, nil
-	}
-	defer file.Close()
-
-	scanner := bufio.NewScanner(file)
-	skipHeader := 0
-	for scanner.Scan() {
-		line := scanner.Text()
-		if skipHeader < 3 {
-			skipHeader++
-			continue
-		}
-		if strings.HasPrefix(line, "|") {
-			parts := strings.Split(line, "|")
-
-			rankStr := strings.TrimSpace(parts[1])
-			rank, err := strconv.Atoi(strings.Split(rankStr, " ")[0])
-			if err != nil {
-				return nil, err
-			}
-
-			oldPlayerStr := strings.TrimSpace(parts[2])
-			oldplayer := strings.Split(oldPlayerStr, " ")[0]
-			if strings.Contains(oldplayer, "*") {
-				oldplayer = strings.TrimRight(oldplayer, "*")
-			}
-
-			oldWeightStr := strings.TrimSpace(parts[4])
-			oldweight, err := strconv.ParseFloat(oldWeightStr, 64)
-			if err != nil {
-				logs.Logs().Error().Err(err).
-					Str("Old weight string", oldWeightStr).
-					Str("Path", filepath).
-					Msg("Could not convert old weight to float64")
-				return nil, err
-			}
-
-			oldLeaderboardRecords[oldweight] = data.FishInfo{
-				Weight: oldweight,
-				Rank:   rank,
-				Player: oldplayer,
-			}
-		}
-	}
-
-	if err := scanner.Err(); err != nil {
-		return nil, err
-	}
-
-	return oldLeaderboardRecords, nil
 }
