@@ -11,17 +11,17 @@
 | 7  | sussy_amonge  | 123 |
 | 9  | qu4ttromila  | 122 |
 | 10  | chuuubbyyy  | 112 |
-| 10  | lazzvli*  | 112 |
+| 10  | lazuli672*  | 112 |
 | 12  | ryebreadward  | 110 |
 | 13  | bussinongnocap  | 108 |
-| 13 ⬆ | leanmeister  | 108 (+50) |
-| 15 ⬇ | dayzedinndaydreams  | 93 |
-| 16 ⬇ | crazytown_bananapants  | 89 |
-| 17 ⬇ | supibot  | 88 |
-| 18 ⬇ | comiqq  | 84 |
-| 19 ⬇ | miiiiisho  | 79 |
-| 20 ⬇ | respirate_  | 74 |
-| 21 ⬇ | booty_bread  | 60 |
+| 13  | leanmeister  | 108 |
+| 15  | dayzedinndaydreams  | 93 |
+| 16  | crazytown_bananapants  | 89 |
+| 17  | supibot  | 88 |
+| 18  | comiqq  | 84 |
+| 19  | miiiiisho  | 79 |
+| 20  | respirate_  | 74 |
+| 21  | booty_bread  | 60 |
 | 22  | receipts  | 56 |
 | 23  | bk207*  | 53 |
 | 24  | hmsmob*  | 52 |
@@ -30,7 +30,7 @@
 | 27  | paras220  | 46 |
 | 28  | ninjaross  | 44 |
 | 29  | ouacewi  | 43 |
-| 30  | houseofieaves  | 42 |
+| 30  | houseofleaves  | 42 |
 | 31  | c_mgi  | 40 |
 | 32  | idini  | 36 |
 | 33  | julialuxel  | 34 |
@@ -49,4 +49,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2024-11-27 11:41:12 UTC_
+_Last updated at 2024-12-10 11:11:24 UTC_

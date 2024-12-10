@@ -11,10 +11,10 @@
 	"2813": {
 		"player": "ritaaww",
 		"playerid": 2813,
-		"weight": 45,
+		"weight": 48,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 12,
-		"chatid": 9,
+		"chatid": 12,
 		"rank": 1
 	},
 	"2885": {
@@ -28,10 +28,18 @@
 	"2941": {
 		"player": "v6r_",
 		"playerid": 2941,
-		"weight": 38,
+		"weight": 47,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 10,
+		"fishid": 13,
 		"chatid": 8,
 		"rank": 2
+	},
+	"3487": {
+		"player": "solahh__",
+		"playerid": 3487,
+		"weight": 1.5,
+		"date": "0001-01-01T00:00:00Z",
+		"maxcount": 3,
+		"rank": 4
 	}
 }
