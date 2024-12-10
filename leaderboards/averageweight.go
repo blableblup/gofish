@@ -122,7 +122,7 @@ func getAverageWeights(params LeaderboardParams) (map[string]data.FishInfo, erro
 		// Dont get it for fish you get from releases because they have no weight (maybe also squirrels ?)
 		if chatName != "global" {
 			rows, err = pool.Query(context.Background(), `
-				SELECT fishname, TRUNC(AVG(weight::numeric), 2)
+				SELECT fishname, ROUND(AVG(weight::numeric), 2)
 				FROM fish
 				WHERE chat = $1
 				AND date < $2
@@ -140,7 +140,7 @@ func getAverageWeights(params LeaderboardParams) (map[string]data.FishInfo, erro
 			defer rows.Close()
 		} else {
 			rows, err = pool.Query(context.Background(), `
-			SELECT fishname, TRUNC(AVG(weight::numeric), 2)
+			SELECT fishname, ROUND(AVG(weight::numeric), 2)
 			FROM fish
 			WHERE date < $1
 			AND date > $2
