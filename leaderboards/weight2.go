@@ -5,16 +5,14 @@ import (
 	"fmt"
 	"gofish/data"
 	"gofish/logs"
-	"os"
 	"path/filepath"
 	"strconv"
 	"strings"
-	"time"
 
 	"github.com/jackc/pgx/v4"
 )
 
-func processWeight(params LeaderboardParams) {
+func processWeight2(params LeaderboardParams) {
 	board := params.LeaderboardType
 	chatName := params.ChatName
 	config := params.Config
@@ -26,10 +24,10 @@ func processWeight(params LeaderboardParams) {
 	mode := params.Mode
 
 	var filePath, titleweight string
-	var weightlimit float64
+	var rowlimit int
 
 	if path == "" {
-		filePath = filepath.Join("leaderboards", chatName, "weight.md")
+		filePath = filepath.Join("leaderboards", chatName, "weight2.md")
 	} else {
 		if !strings.HasSuffix(path, ".md") {
 			path += ".md"
@@ -48,23 +46,23 @@ func processWeight(params LeaderboardParams) {
 	}
 
 	if limit == "" {
-		weightlimit = chat.Weightlimit
-		if weightlimit == 0 {
-			weightlimit = config.Chat["default"].Weightlimit
+		rowlimit = chat.Rowlimit
+		if rowlimit == 0 {
+			rowlimit = config.Chat["default"].Rowlimit
 		}
 	} else {
-		weightlimit, err = strconv.ParseFloat(limit, 64)
+		rowlimit, err = strconv.Atoi(limit)
 		if err != nil {
 			logs.Logs().Error().Err(err).
 				Str("Chat", chatName).
 				Str("Limit", limit).
 				Str("Board", board).
-				Msg("Error converting custom weight limit to float64")
+				Msg("Error converting custom weight limit to int")
 			return
 		}
 	}
 
-	recordWeight, err := getWeightRecords(params, weightlimit)
+	recordWeight, err := getWeightRecords2(params, rowlimit)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Board", board).
@@ -95,18 +93,19 @@ func processWeight(params LeaderboardParams) {
 	if title == "" {
 		if !global {
 			if strings.HasSuffix(chatName, "s") {
-				titleweight = fmt.Sprintf("### Biggest fish caught per player in %s' chat\n", chatName)
+				titleweight = fmt.Sprintf("### %d biggest fish caught in %s' chat\n", rowlimit, chatName)
 			} else {
-				titleweight = fmt.Sprintf("### Biggest fish caught per player in %s's chat\n", chatName)
+				titleweight = fmt.Sprintf("### %d biggest fish caught in %s's chat\n", rowlimit, chatName)
 			}
 		} else {
-			titleweight = "### Biggest fish caught per player globally\n"
+			titleweight = fmt.Sprintf("### %d biggest fish caught globally\n", rowlimit)
 		}
 	} else {
 		titleweight = fmt.Sprintf("%s\n", title)
 	}
 
-	err = writeWeight(filePath, recordWeight, oldRecordWeight, titleweight, global, board, weightlimit)
+	notlimit := 0.0 // Because the limit for this board is in the title but the func still needs a limit
+	err = writeWeight(filePath, recordWeight, oldRecordWeight, titleweight, global, board, notlimit)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Board", board).
@@ -133,7 +132,7 @@ func processWeight(params LeaderboardParams) {
 	}
 }
 
-func getWeightRecords(params LeaderboardParams, weightlimit float64) (map[int]data.FishInfo, error) {
+func getWeightRecords2(params LeaderboardParams, limit int) (map[int]data.FishInfo, error) {
 	board := params.LeaderboardType
 	chatName := params.ChatName
 	global := params.Global
@@ -145,21 +144,15 @@ func getWeightRecords(params LeaderboardParams, weightlimit float64) (map[int]da
 	var rows pgx.Rows
 	var err error
 
-	// Query the database to get the biggest fish per player for the specific chat or globally
 	if !global {
 		rows, err = pool.Query(context.Background(), `
-		SELECT f.playerid, f.weight, f.fishname, f.bot, f.chat AS chatname, f.date, f.catchtype, f.fishid, f.chatid,
-		RANK() OVER (ORDER BY f.weight DESC)
-		FROM fish f
-		JOIN (
-			SELECT playerid, MAX(weight) AS max_weight
-			FROM fish 
-			WHERE chat = $1
-			AND date < $3
-	  		AND date > $4
-			GROUP BY playerid
-		) max_fish ON f.playerid = max_fish.playerid AND f.weight = max_fish.max_weight
-		WHERE f.chat = $1 AND f.weight >= $2`, chatName, weightlimit, date, date2)
+		SELECT playerid, weight, fishname, bot, chat, date, catchtype, fishid, chatid,
+		RANK() OVER (ORDER BY weight DESC)
+		FROM fish 
+		WHERE chat = $1
+		AND date < $2
+		AND date > $3
+		LIMIT $4`, chatName, date, date2, limit)
 		if err != nil {
 			logs.Logs().Error().Err(err).
 				Str("Board", board).
@@ -170,17 +163,12 @@ func getWeightRecords(params LeaderboardParams, weightlimit float64) (map[int]da
 		defer rows.Close()
 	} else {
 		rows, err = pool.Query(context.Background(), `
-		SELECT f.playerid, f.weight, f.fishname, f.bot, f.chat AS chatname, f.date, f.catchtype, f.fishid, f.chatid,
-		RANK() OVER (ORDER BY f.weight DESC)
-		FROM fish f
-		JOIN (
-			SELECT playerid, MAX(weight) AS max_weight
-			FROM fish 
-			WHERE date < $1
-			AND date > $2
-			GROUP BY playerid
-		) max_fish ON f.playerid = max_fish.playerid AND f.weight = max_fish.max_weight
-		WHERE f.weight >= $3`, date, date2, weightlimit)
+		SELECT playerid, weight, fishname, bot, chat, date, catchtype, fishid, chatid,
+		RANK() OVER (ORDER BY weight DESC)
+		FROM fish 
+		WHERE date < $1
+		AND date > $2
+		LIMIT $3`, date, date2, limit)
 		if err != nil {
 			logs.Logs().Error().Err(err).
 				Str("Board", board).
@@ -239,7 +227,7 @@ func getWeightRecords(params LeaderboardParams, weightlimit float64) (map[int]da
 			fishInfo.ChatPfp = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", fishInfo.Chat, fishInfo.Chat)
 		}
 
-		recordWeight[fishInfo.PlayerID] = fishInfo
+		recordWeight[fishInfo.FishId] = fishInfo
 
 	}
 
@@ -252,99 +240,4 @@ func getWeightRecords(params LeaderboardParams, weightlimit float64) (map[int]da
 	}
 
 	return recordWeight, nil
-}
-
-func writeWeight(filePath string, recordWeight map[int]data.FishInfo, oldRecordWeight map[int]data.FishInfo, title string, global bool, board string, weightlimit float64) error {
-
-	// Ensure that the directory exists before attempting to create the file
-	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
-		return err
-	}
-
-	file, err := os.Create(filePath)
-	if err != nil {
-		return err
-	}
-	defer file.Close()
-
-	_, err = fmt.Fprintf(file, "%s", title)
-	if err != nil {
-		return err
-	}
-
-	_, _ = fmt.Fprintln(file, "| Rank | Player | Fish | Weight in lbs | Date |"+func() string {
-		if global {
-			return " Chat |"
-		}
-		return ""
-	}())
-	_, err = fmt.Fprintln(file, "|------|--------|-----------|---------|-----|"+func() string {
-		if global {
-			return "-------|"
-		}
-		return ""
-	}())
-	if err != nil {
-		return err
-	}
-
-	sortedWeightRecords := sortPlayerRecords(recordWeight)
-
-	for _, playerID := range sortedWeightRecords {
-		weight := recordWeight[playerID].Weight
-		fishType := recordWeight[playerID].Type
-		fishName := recordWeight[playerID].TypeName
-		rank := recordWeight[playerID].Rank
-		player := recordWeight[playerID].Player
-		date := recordWeight[playerID].Date
-
-		var found bool
-
-		oldWeight := weight
-		oldRank := -1
-
-		if info, ok := oldRecordWeight[playerID]; ok {
-			found = true
-			oldWeight = info.Weight
-			oldRank = info.Rank
-		}
-
-		changeEmoji := ChangeEmoji(rank, oldRank, found)
-
-		var fishweight string
-
-		weightDifference := weight - oldWeight
-
-		if weightDifference > 0 {
-			fishweight = fmt.Sprintf("%.2f (+%.2f)", weight, weightDifference)
-		} else {
-			fishweight = fmt.Sprintf("%.2f", weight)
-		}
-
-		botIndicator := ""
-		if recordWeight[playerID].Bot == "supibot" && !recordWeight[playerID].Verified {
-			botIndicator = "*"
-		}
-
-		ranks := Ranks(rank)
-
-		// Write the leaderboard row
-		_, _ = fmt.Fprintf(file, "| %s %s | %s%s | %s %s | %s | %s |", ranks, changeEmoji, player, botIndicator, fishType, fishName, fishweight, date.Format("2006-01-02 15:04:05 UTC"))
-		if global {
-			_, _ = fmt.Fprintf(file, " %s |", recordWeight[playerID].ChatPfp)
-		}
-		_, err = fmt.Fprintln(file)
-		if err != nil {
-			return err
-		}
-
-	}
-
-	if board == "weight" || board == "weightglobal" {
-		_, _ = fmt.Fprintf(file, "\n_Only showing fish weighing >= %v lbs_\n", weightlimit)
-	}
-
-	_, _ = fmt.Fprintf(file, "\n_Last updated at %s_", time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC"))
-
-	return nil
 }

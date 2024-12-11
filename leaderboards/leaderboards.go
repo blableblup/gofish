@@ -84,6 +84,8 @@ func Leaderboards(leaderboards string, chatNames string, date string, date2 stri
 			processLeaderboard(config, params, processFishweek)
 		case "trophy":
 			processLeaderboard(config, params, processTrophy)
+		case "weight2":
+			processLeaderboard(config, params, processWeight2)
 		case "weight":
 			processLeaderboard(config, params, processWeight)
 		case "count":
@@ -114,6 +116,8 @@ func Leaderboards(leaderboards string, chatNames string, date string, date2 stri
 			processLeaderboard(config, params, processCount)
 			params.LeaderboardType = "weight"
 			processLeaderboard(config, params, processWeight)
+			params.LeaderboardType = "weight2"
+			processLeaderboard(config, params, processWeight2)
 			params.LeaderboardType = "trophy"
 			processLeaderboard(config, params, processTrophy)
 			params.LeaderboardType = "fishweek"
@@ -212,6 +216,9 @@ func processGlobalLeaderboard(params LeaderboardParams) {
 	case "weight":
 		params.LeaderboardType += "global"
 		processWeight(params)
+	case "weight2":
+		params.LeaderboardType += "global"
+		processWeight2(params)
 	case "count":
 		params.LeaderboardType += "global"
 		RunCountGlobal(params)

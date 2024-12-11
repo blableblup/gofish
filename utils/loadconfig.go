@@ -13,6 +13,7 @@ type ChatInfo struct {
 	WeightlimitRecords float64 `json:"weight_limit_records"`
 	Totalcountlimit    int     `json:"totalcount_limit"`
 	Uniquelimit        int     `json:"unique_limit"`
+	Rowlimit           int     `json:"row_limit"`
 	LogsHost           string  `json:"logs_host"`
 	LogsHostOld        string  `json:"logs_host_old"`
 	LogsAdded          string  `json:"logs_added"`

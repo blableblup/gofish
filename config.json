@@ -132,6 +132,7 @@
         "totalcount_limit": 100,
         "fishweek_limit": 20,
         "unique_limit": 50,
+        "row_limit": 100,
         "checkfdata": false,
         "checktdata": false,
         "board_enabled": false
