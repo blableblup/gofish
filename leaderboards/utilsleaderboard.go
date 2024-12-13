@@ -226,7 +226,7 @@ func didFishMapChange(params LeaderboardParams, oldBoard map[string]data.FishInf
 		_, exists := oldBoard[fishName]
 		if !exists {
 
-			if params.LeaderboardType == "type" || params.LeaderboardType == "typeglobal" {
+			if params.LeaderboardType != "rare" && params.LeaderboardType != "averageweight" {
 
 				logs.Logs().Info().
 					Str("Board", params.LeaderboardType).
@@ -245,7 +245,7 @@ func didFishMapChange(params LeaderboardParams, oldBoard map[string]data.FishInf
 
 			if oldBoard[fishName].Weight != newBoard[fishName].Weight {
 
-				if params.LeaderboardType == "type" || params.LeaderboardType == "typeglobal" {
+				if params.LeaderboardType != "rare" && params.LeaderboardType != "averageweight" {
 
 					logs.Logs().Info().
 						Str("Board", params.LeaderboardType).
