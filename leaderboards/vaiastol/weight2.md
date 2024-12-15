@@ -6,100 +6,100 @@
 | 3 🥉  | mitgliederversammlung | 🐉 dragon | 281.39 | 2024-12-06 06:43:51 UTC |
 | 4  | bubinga | 🐳 whale | 244.45 | 2024-11-02 12:59:08 UTC |
 | 5  | divra__ | 🦕 sauropod | 240.28 | 2024-11-08 13:15:47 UTC |
-| 6  | leastsussyimposter | 🦕 sauropod | 235.21 | 2024-11-25 12:13:47 UTC |
-| 7  | yoimlee | 🦕 sauropod | 235.13 | 2024-11-21 19:43:07 UTC |
-| 8  | divra__ | 🐳 whale | 224.88 | 2024-10-31 02:27:31 UTC |
-| 9  | vaiastol | 🦕 sauropod | 223.03 | 2024-09-09 21:44:19 UTC |
-| 10  | pengeg | 🐉 dragon | 216.34 | 2024-11-18 15:58:35 UTC |
-| 11  | vaiastol | 🐉 dragon | 214.26 | 2024-08-21 23:20:14 UTC |
-| 12  | pengeg | 🦈 shark | 201.75 | 2024-11-16 06:57:21 UTC |
-| 13  | divra__ | 🦈 shark | 194.10 | 2024-10-27 22:51:42 UTC |
-| 14  | milesdotcom | 🐳 whale | 190.38 | 2024-10-10 11:59:46 UTC |
-| 15  | hahppyy | 🦈 shark | 182.33 | 2024-11-23 19:32:40 UTC |
-| 16  | hahppyy | 🦕 sauropod | 181.90 | 2024-11-06 10:47:37 UTC |
-| 17  | divra__ | 🦈 shark | 172.82 | 2024-10-12 17:51:16 UTC |
-| 18  | divra__ | 🐙 octopus | 160.48 | 2024-11-01 17:07:43 UTC |
-| 19  | dayzedinndaydreams | 🦕 sauropod | 157.39 | 2024-12-02 17:12:38 UTC |
-| 20  | dayzedinndaydreams | 🐳 whale | 155.63 | 2024-08-18 19:13:43 UTC |
-| 21  | hahppyy | 🐙 octopus | 150.71 | 2024-11-01 03:50:08 UTC |
-| 22  | hahppyy | 🦕 sauropod | 149.96 | 2024-11-10 07:48:01 UTC |
-| 23  | hahppyy | 🐋 whale2 | 148.82 | 2024-11-04 16:24:39 UTC |
-| 24  | milesdotcom | 🐙 octopus | 148.38 | 2024-10-16 12:28:41 UTC |
-| 25  | leastsussyimposter | 🐢 turtle | 148.29 | 2024-09-29 20:58:46 UTC |
-| 26  | vaiastol | 🐊 crocodile | 145.58 | 2024-09-08 00:40:59 UTC |
-| 27  | hahppyy | 🦈 shark | 145.37 | 2024-08-12 13:56:31 UTC |
-| 28  | vaiastol | 🐳 whale | 145.06 | 2024-09-24 19:30:07 UTC |
-| 29  | hahppyy | 🐋 whale2 | 141.82 | 2024-09-10 00:37:24 UTC |
-| 30  | bubinga | 🐋 whale2 | 140.55 | 2024-11-09 19:56:02 UTC |
-| 31  | divra__ | 🐋 whale2 | 138.14 | 2024-10-26 16:18:29 UTC |
-| 32  | hahppyy | 🐊 crocodile | 137.47 | 2024-07-29 23:36:25 UTC |
-| 33  | pengeg | 🦕 sauropod | 137.18 | 2024-11-30 16:09:33 UTC |
-| 34  | hahppyy | 🐙 octopus | 136.32 | 2024-09-17 23:01:31 UTC |
-| 35  | creepycode | 🐢 turtle | 134.92 | 2024-08-02 20:12:19 UTC |
-| 36  | pengeg | 🐋 whale2 | 134.47 | 2024-12-05 15:08:07 UTC |
-| 37  | hahppyy | 🐋 whale2 | 134.00 | 2024-09-14 21:40:26 UTC |
-| 38  | hahppyy | 🐉 dragon | 130.87 | 2024-09-12 18:32:30 UTC |
-| 39  | leastsussyimposter | 🐙 octopus | 129.93 | 2024-09-17 12:10:10 UTC |
-| 40  | pengeg | 🐉 dragon | 128.78 | 2024-09-17 00:44:21 UTC |
-| 41  | divra__ | 🐋 whale2 | 123.38 | 2024-10-28 19:50:29 UTC |
-| 42  | sandwichsundays | 🐊 crocodile | 122.88 | 2024-07-31 18:53:34 UTC |
-| 43  | hahppyy | 🐋 whale2 | 121.26 | 2024-11-03 21:08:35 UTC |
-| 44  | milesdotcom | 🐙 octopus | 121.08 | 2024-10-05 21:18:33 UTC |
-| 45  | hahppyy | 🦕 sauropod | 119.26 | 2024-10-02 19:13:37 UTC |
-| 46  | hahppyy | 🐋 whale2 | 116.99 | 2024-10-09 18:53:49 UTC |
-| 47  | milesdotcom | 🐊 crocodile | 115.95 | 2024-10-23 18:38:22 UTC |
-| 48  | hahppyy | 🐋 whale2 | 115.33 | 2024-09-15 17:04:33 UTC |
-| 49  | milesdotcom | 🐋 whale2 | 113.94 | 2024-10-18 17:21:54 UTC |
-| 50  | hahppyy | 🦭 seal | 111.88 | 2024-11-02 14:54:46 UTC |
-| 51  | milesdotcom | 🐊 crocodile | 111.13 | 2024-10-29 22:52:09 UTC |
-| 52  | pengeg | 🦕 sauropod | 110.47 | 2024-11-17 02:02:36 UTC |
-| 53  | hahppyy | 🐋 whale2 | 109.78 | 2024-10-11 18:51:10 UTC |
-| 54  | vaiastol | 🦕 sauropod | 109.77 | 2024-08-09 17:54:32 UTC |
-| 55  | vaiastol | 🐋 whale2 | 108.95 | 2024-09-22 08:15:39 UTC |
-| 56  | pengeg | 🐙 octopus | 107.68 | 2024-11-14 23:26:07 UTC |
-| 57  | jr_mime | 🐙 octopus | 105.86 | 2024-08-24 13:55:32 UTC |
-| 58  | leastsussyimposter | 🐬 dolphin | 104.56 | 2024-11-21 16:03:43 UTC |
-| 59  | jr_mime | 🐋 whale2 | 101.82 | 2024-07-31 21:42:49 UTC |
-| 60  | bubinga | 🐙 octopus | 101.53 | 2024-08-21 15:44:27 UTC |
-| 61  | milesdotcom | 🐙 octopus | 100.20 | 2024-10-26 14:19:32 UTC |
-| 62  | hahppyy | 🐙 octopus | 99.54 | 2024-10-14 22:51:57 UTC |
-| 63  | pengeg | 🦭 seal | 99.32 | 2024-11-27 05:09:07 UTC |
-| 64  | bubinga | 🐋 whale2 | 98.98 | 2024-08-21 17:18:06 UTC |
-| 65  | leastsussyimposter | 🐙 octopus | 98.67 | 2024-10-05 15:02:34 UTC |
-| 66  | vaiastol | 🐢 turtle | 98.06 | 2024-10-12 07:42:11 UTC |
-| 67  | hahppyy | 🐳 whale | 98.03 | 2024-11-07 03:25:42 UTC |
-| 68  | leastsussyimposter | 🐢 turtle | 97.76 | 2024-09-28 21:23:48 UTC |
-| 69  | vaiastol | 🐢 turtle | 96.87 | 2024-12-06 06:24:07 UTC |
-| 70  | hahppyy | 🐬 dolphin | 96.76 | 2024-10-05 15:42:04 UTC |
-| 71  | divra__ | 🐬 dolphin | 96.53 | 2024-08-20 17:43:23 UTC |
-| 72  | vaiastol | 🐢 turtle | 96.51 | 2024-10-21 17:52:32 UTC |
-| 73  | hahppyy | 🐊 crocodile | 96.01 | 2024-09-06 12:49:54 UTC |
-| 74  | jr_mime | 🦑 squid | 95.81 | 2024-08-01 00:56:49 UTC |
-| 75  | hahppyy | 🐙 octopus | 95.74 | 2024-08-29 08:14:54 UTC |
-| 76  | hahppyy | 🦑 squid | 95.45 | 2024-10-31 15:05:24 UTC |
-| 77  | vaiastol | 🐢 turtle | 95.06 | 2024-11-11 12:53:49 UTC |
-| 78  | leastsussyimposter | 🐙 octopus | 93.80 | 2024-10-19 20:05:43 UTC |
-| 79  | vaiastol | 🐢 turtle | 93.67 | 2024-11-05 18:23:40 UTC |
-| 80  | divra__ | 🐳 whale | 93.54 | 2024-10-18 01:26:35 UTC |
-| 81  | pengeg | 🐬 dolphin | 93.46 | 2024-12-04 03:13:15 UTC |
-| 82  | hahppyy | 🐋 whale2 | 92.68 | 2024-10-07 10:40:50 UTC |
-| 83  | creepycode | 🐋 whale2 | 92.65 | 2024-08-02 16:37:46 UTC |
-| 84  | leastsussyimposter | 🐙 octopus | 92.12 | 2024-10-28 15:41:20 UTC |
-| 85  | vaiastol | 🐢 turtle | 91.93 | 2024-11-04 07:34:57 UTC |
-| 86  | hahppyy | 🐬 dolphin | 91.92 | 2024-10-19 19:38:24 UTC |
-| 87  | julialuxel | 🐋 whale2 | 91.70 | 2024-08-28 22:03:14 UTC |
-| 88  | vaiastol | 🐢 turtle | 91.59 | 2024-10-04 15:55:44 UTC |
-| 89  | vaiastol | 🐢 turtle | 91.34 | 2024-11-07 21:50:37 UTC |
-| 90  | hahppyy | 🐬 dolphin | 90.80 | 2024-10-20 16:47:24 UTC |
-| 91  | hahppyy | 🐊 crocodile | 89.20 | 2024-09-21 12:34:10 UTC |
-| 92  | hahppyy | 🐋 whale2 | 89.08 | 2024-10-05 19:36:25 UTC |
-| 93  | hahppyy | 🐬 dolphin | 88.95 | 2024-10-26 19:38:22 UTC |
-| 94  | mitgliederversammlung | 🐊 crocodile | 88.41 | 2024-09-25 13:08:46 UTC |
-| 95  | hahppyy | 🐊 crocodile | 88.27 | 2024-10-22 19:54:40 UTC |
-| 96  | vaiastol | 🐊 crocodile | 88.08 | 2024-08-04 00:10:55 UTC |
-| 97  | milesdotcom | 🐋 whale2 | 87.99 | 2024-09-10 21:03:10 UTC |
-| 98  | milesdotcom | 🦑 squid | 87.98 | 2024-09-13 17:43:26 UTC |
-| 99  | creepycode | 🐉 dragon | 87.82 | 2024-08-09 02:52:26 UTC |
-| 100  | vaiastol | 🐢 turtle | 87.40 | 2024-10-11 14:40:49 UTC |
+| 6 🆕 | thetaxmen | 🐉 dragon | 239.00 | 2024-12-14 14:30:50 UTC |
+| 7 ⬇ | leastsussyimposter | 🦕 sauropod | 235.21 | 2024-11-25 12:13:47 UTC |
+| 8 ⬇ | yoimlee | 🦕 sauropod | 235.13 | 2024-11-21 19:43:07 UTC |
+| 9 ⬇ | divra__ | 🐳 whale | 224.88 | 2024-10-31 02:27:31 UTC |
+| 10 ⬇ | vaiastol | 🦕 sauropod | 223.03 | 2024-09-09 21:44:19 UTC |
+| 11 ⬇ | pengeg | 🐉 dragon | 216.34 | 2024-11-18 15:58:35 UTC |
+| 12 ⬇ | vaiastol | 🐉 dragon | 214.26 | 2024-08-21 23:20:14 UTC |
+| 13 ⬇ | pengeg | 🦈 shark | 201.75 | 2024-11-16 06:57:21 UTC |
+| 14 ⬇ | divra__ | 🦈 shark | 194.10 | 2024-10-27 22:51:42 UTC |
+| 15 ⬇ | milesdotcom | 🐳 whale | 190.38 | 2024-10-10 11:59:46 UTC |
+| 16 ⬇ | hahppyy | 🦈 shark | 182.33 | 2024-11-23 19:32:40 UTC |
+| 17 ⬇ | hahppyy | 🦕 sauropod | 181.90 | 2024-11-06 10:47:37 UTC |
+| 18 ⬇ | divra__ | 🦈 shark | 172.82 | 2024-10-12 17:51:16 UTC |
+| 19 🆕 | hahppyy | 🦕 sauropod | 167.85 | 2024-12-12 15:35:50 UTC |
+| 20 ⬇ | divra__ | 🐙 octopus | 160.48 | 2024-11-01 17:07:43 UTC |
+| 21 ⬇ | dayzedinndaydreams | 🦕 sauropod | 157.39 | 2024-12-02 17:12:38 UTC |
+| 22 ⬇ | dayzedinndaydreams | 🐳 whale | 155.63 | 2024-08-18 19:13:43 UTC |
+| 23 ⬇ | hahppyy | 🐙 octopus | 150.71 | 2024-11-01 03:50:08 UTC |
+| 24 ⬇ | hahppyy | 🦕 sauropod | 149.96 | 2024-11-10 07:48:01 UTC |
+| 25 ⬇ | hahppyy | 🐋 whale2 | 148.82 | 2024-11-04 16:24:39 UTC |
+| 26 ⬇ | milesdotcom | 🐙 octopus | 148.38 | 2024-10-16 12:28:41 UTC |
+| 27 ⬇ | leastsussyimposter | 🐢 turtle | 148.29 | 2024-09-29 20:58:46 UTC |
+| 28 ⬇ | vaiastol | 🐊 crocodile | 145.58 | 2024-09-08 00:40:59 UTC |
+| 29 ⬇ | hahppyy | 🦈 shark | 145.37 | 2024-08-12 13:56:31 UTC |
+| 30 ⬇ | vaiastol | 🐳 whale | 145.06 | 2024-09-24 19:30:07 UTC |
+| 31 ⬇ | hahppyy | 🐋 whale2 | 141.82 | 2024-09-10 00:37:24 UTC |
+| 32 ⬇ | bubinga | 🐋 whale2 | 140.55 | 2024-11-09 19:56:02 UTC |
+| 33 ⬇ | divra__ | 🐋 whale2 | 138.14 | 2024-10-26 16:18:29 UTC |
+| 34 ⬇ | hahppyy | 🐊 crocodile | 137.47 | 2024-07-29 23:36:25 UTC |
+| 35 ⬇ | pengeg | 🦕 sauropod | 137.18 | 2024-11-30 16:09:33 UTC |
+| 36 ⬇ | hahppyy | 🐙 octopus | 136.32 | 2024-09-17 23:01:31 UTC |
+| 37 ⬇ | creepycode | 🐢 turtle | 134.92 | 2024-08-02 20:12:19 UTC |
+| 38 ⬇ | pengeg | 🐋 whale2 | 134.47 | 2024-12-05 15:08:07 UTC |
+| 39 ⬇ | hahppyy | 🐋 whale2 | 134.00 | 2024-09-14 21:40:26 UTC |
+| 40 ⬇ | hahppyy | 🐉 dragon | 130.87 | 2024-09-12 18:32:30 UTC |
+| 41 ⬇ | leastsussyimposter | 🐙 octopus | 129.93 | 2024-09-17 12:10:10 UTC |
+| 42 ⬇ | pengeg | 🐉 dragon | 128.78 | 2024-09-17 00:44:21 UTC |
+| 43 ⬇ | divra__ | 🐋 whale2 | 123.38 | 2024-10-28 19:50:29 UTC |
+| 44 ⬇ | sandwichsundays | 🐊 crocodile | 122.88 | 2024-07-31 18:53:34 UTC |
+| 45 ⬇ | hahppyy | 🐋 whale2 | 121.26 | 2024-11-03 21:08:35 UTC |
+| 46 ⬇ | milesdotcom | 🐙 octopus | 121.08 | 2024-10-05 21:18:33 UTC |
+| 47 ⬇ | hahppyy | 🦕 sauropod | 119.26 | 2024-10-02 19:13:37 UTC |
+| 48 ⬇ | hahppyy | 🐋 whale2 | 116.99 | 2024-10-09 18:53:49 UTC |
+| 49 ⬇ | milesdotcom | 🐊 crocodile | 115.95 | 2024-10-23 18:38:22 UTC |
+| 50 ⬇ | hahppyy | 🐋 whale2 | 115.33 | 2024-09-15 17:04:33 UTC |
+| 51 ⬇ | milesdotcom | 🐋 whale2 | 113.94 | 2024-10-18 17:21:54 UTC |
+| 52 ⬇ | hahppyy | 🦭 seal | 111.88 | 2024-11-02 14:54:46 UTC |
+| 53 ⬇ | milesdotcom | 🐊 crocodile | 111.13 | 2024-10-29 22:52:09 UTC |
+| 54 ⬇ | pengeg | 🦕 sauropod | 110.47 | 2024-11-17 02:02:36 UTC |
+| 55 ⬇ | hahppyy | 🐋 whale2 | 109.78 | 2024-10-11 18:51:10 UTC |
+| 56 ⬇ | vaiastol | 🦕 sauropod | 109.77 | 2024-08-09 17:54:32 UTC |
+| 57 ⬇ | vaiastol | 🐋 whale2 | 108.95 | 2024-09-22 08:15:39 UTC |
+| 58 ⬇ | pengeg | 🐙 octopus | 107.68 | 2024-11-14 23:26:07 UTC |
+| 59 ⬇ | jr_mime | 🐙 octopus | 105.86 | 2024-08-24 13:55:32 UTC |
+| 60 ⬇ | leastsussyimposter | 🐬 dolphin | 104.56 | 2024-11-21 16:03:43 UTC |
+| 61 ⬇ | jr_mime | 🐋 whale2 | 101.82 | 2024-07-31 21:42:49 UTC |
+| 62 ⬇ | bubinga | 🐙 octopus | 101.53 | 2024-08-21 15:44:27 UTC |
+| 63 ⬇ | milesdotcom | 🐙 octopus | 100.20 | 2024-10-26 14:19:32 UTC |
+| 64 ⬇ | hahppyy | 🐙 octopus | 99.54 | 2024-10-14 22:51:57 UTC |
+| 65 ⬇ | pengeg | 🦭 seal | 99.32 | 2024-11-27 05:09:07 UTC |
+| 66 ⬇ | bubinga | 🐋 whale2 | 98.98 | 2024-08-21 17:18:06 UTC |
+| 67 ⬇ | leastsussyimposter | 🐙 octopus | 98.67 | 2024-10-05 15:02:34 UTC |
+| 68 ⬇ | vaiastol | 🐢 turtle | 98.06 | 2024-10-12 07:42:11 UTC |
+| 69 ⬇ | hahppyy | 🐳 whale | 98.03 | 2024-11-07 03:25:42 UTC |
+| 70 ⬇ | leastsussyimposter | 🐢 turtle | 97.76 | 2024-09-28 21:23:48 UTC |
+| 71 ⬇ | vaiastol | 🐢 turtle | 96.87 | 2024-12-06 06:24:07 UTC |
+| 72 ⬇ | hahppyy | 🐬 dolphin | 96.76 | 2024-10-05 15:42:04 UTC |
+| 73 ⬇ | divra__ | 🐬 dolphin | 96.53 | 2024-08-20 17:43:23 UTC |
+| 74 ⬇ | vaiastol | 🐢 turtle | 96.51 | 2024-10-21 17:52:32 UTC |
+| 75 ⬇ | hahppyy | 🐊 crocodile | 96.01 | 2024-09-06 12:49:54 UTC |
+| 76 ⬇ | jr_mime | 🦑 squid | 95.81 | 2024-08-01 00:56:49 UTC |
+| 77 ⬇ | hahppyy | 🐙 octopus | 95.74 | 2024-08-29 08:14:54 UTC |
+| 78 ⬇ | hahppyy | 🦑 squid | 95.45 | 2024-10-31 15:05:24 UTC |
+| 79 ⬇ | vaiastol | 🐢 turtle | 95.06 | 2024-11-11 12:53:49 UTC |
+| 80 ⬇ | leastsussyimposter | 🐙 octopus | 93.80 | 2024-10-19 20:05:43 UTC |
+| 81 ⬇ | vaiastol | 🐢 turtle | 93.67 | 2024-11-05 18:23:40 UTC |
+| 82 🆕 | vaiastol | 🐢 turtle | 93.60 | 2024-12-09 08:11:59 UTC |
+| 83 ⬇ | divra__ | 🐳 whale | 93.54 | 2024-10-18 01:26:35 UTC |
+| 84 ⬇ | pengeg | 🐬 dolphin | 93.46 | 2024-12-04 03:13:15 UTC |
+| 85 ⬇ | hahppyy | 🐋 whale2 | 92.68 | 2024-10-07 10:40:50 UTC |
+| 86 ⬇ | creepycode | 🐋 whale2 | 92.65 | 2024-08-02 16:37:46 UTC |
+| 87 ⬇ | leastsussyimposter | 🐙 octopus | 92.12 | 2024-10-28 15:41:20 UTC |
+| 88 ⬇ | vaiastol | 🐢 turtle | 91.93 | 2024-11-04 07:34:57 UTC |
+| 89 ⬇ | hahppyy | 🐬 dolphin | 91.92 | 2024-10-19 19:38:24 UTC |
+| 90 ⬇ | julialuxel | 🐋 whale2 | 91.70 | 2024-08-28 22:03:14 UTC |
+| 91 ⬇ | vaiastol | 🐢 turtle | 91.59 | 2024-10-04 15:55:44 UTC |
+| 92 ⬇ | vaiastol | 🐢 turtle | 91.34 | 2024-11-07 21:50:37 UTC |
+| 93 ⬇ | hahppyy | 🐬 dolphin | 90.80 | 2024-10-20 16:47:24 UTC |
+| 94 ⬇ | hahppyy | 🐊 crocodile | 89.20 | 2024-09-21 12:34:10 UTC |
+| 95 ⬇ | hahppyy | 🐋 whale2 | 89.08 | 2024-10-05 19:36:25 UTC |
+| 96 ⬇ | hahppyy | 🐬 dolphin | 88.95 | 2024-10-26 19:38:22 UTC |
+| 97 ⬇ | mitgliederversammlung | 🐊 crocodile | 88.41 | 2024-09-25 13:08:46 UTC |
+| 98 ⬇ | hahppyy | 🐊 crocodile | 88.27 | 2024-10-22 19:54:40 UTC |
+| 99 ⬇ | vaiastol | 🐊 crocodile | 88.08 | 2024-08-04 00:10:55 UTC |
+| 100 ⬇ | milesdotcom | 🐋 whale2 | 87.99 | 2024-09-10 21:03:10 UTC |
 
-_Last updated at 2024-12-08 11:00:41 UTC_
+_Last updated at 2024-12-15 11:39:23 UTC_

@@ -11,7 +11,7 @@
 		"chat": "vaiastol",
 		"fishid": 100386,
 		"chatid": 452,
-		"rank": 8
+		"rank": 9
 	},
 	"1212": {
 		"player": "larvasisters",
@@ -25,7 +25,7 @@
 		"chat": "vaiastol",
 		"fishid": 108449,
 		"chatid": 1156,
-		"rank": 15
+		"rank": 16
 	},
 	"1280": {
 		"player": "eelacy",
@@ -39,7 +39,7 @@
 		"chat": "vaiastol",
 		"fishid": 110656,
 		"chatid": 1416,
-		"rank": 18
+		"rank": 19
 	},
 	"1310": {
 		"player": "hahppyy",
@@ -67,7 +67,7 @@
 		"chat": "vaiastol",
 		"fishid": 104846,
 		"chatid": 802,
-		"rank": 20
+		"rank": 21
 	},
 	"1353": {
 		"player": "leastsussyimposter",
@@ -81,7 +81,7 @@
 		"chat": "vaiastol",
 		"fishid": 124629,
 		"chatid": 2207,
-		"rank": 6
+		"rank": 7
 	},
 	"1484": {
 		"player": "ermnest",
@@ -95,7 +95,7 @@
 		"chat": "vaiastol",
 		"fishid": 105792,
 		"chatid": 884,
-		"rank": 16
+		"rank": 17
 	},
 	"169": {
 		"player": "creepycode",
@@ -109,7 +109,7 @@
 		"chat": "vaiastol",
 		"fishid": 93287,
 		"chatid": 72,
-		"rank": 11
+		"rank": 12
 	},
 	"17": {
 		"player": "mitgliederversammlung",
@@ -151,7 +151,7 @@
 		"chat": "vaiastol",
 		"fishid": 94602,
 		"chatid": 158,
-		"rank": 19
+		"rank": 20
 	},
 	"2846": {
 		"player": "milesdotcom",
@@ -165,7 +165,7 @@
 		"chat": "vaiastol",
 		"fishid": 108574,
 		"chatid": 1165,
-		"rank": 10
+		"rank": 11
 	},
 	"457": {
 		"player": "sandwichsundays",
@@ -179,10 +179,10 @@
 		"chat": "vaiastol",
 		"fishid": 92962,
 		"chatid": 41,
-		"rank": 12
+		"rank": 13
 	},
 	"54": {
-		"player": "houseofieaves",
+		"player": "houseofleaves",
 		"playerid": 54,
 		"weight": 61.69,
 		"bot": "gofishgame",
@@ -193,7 +193,7 @@
 		"chat": "vaiastol",
 		"fishid": 98758,
 		"chatid": 360,
-		"rank": 21
+		"rank": 22
 	},
 	"56": {
 		"player": "dayzedinndaydreams",
@@ -235,7 +235,7 @@
 		"chat": "vaiastol",
 		"fishid": 98201,
 		"chatid": 317,
-		"rank": 14
+		"rank": 15
 	},
 	"686": {
 		"player": "jr_mime",
@@ -249,7 +249,7 @@
 		"chat": "vaiastol",
 		"fishid": 97333,
 		"chatid": 269,
-		"rank": 13
+		"rank": 14
 	},
 	"756": {
 		"player": "pengeg",
@@ -263,7 +263,7 @@
 		"chat": "vaiastol",
 		"fishid": 122808,
 		"chatid": 2072,
-		"rank": 9
+		"rank": 10
 	},
 	"785": {
 		"player": "yoimlee",
@@ -277,7 +277,7 @@
 		"chat": "vaiastol",
 		"fishid": 123712,
 		"chatid": 2129,
-		"rank": 7
+		"rank": 8
 	},
 	"838": {
 		"player": "choplueys",
@@ -291,6 +291,20 @@
 		"chat": "vaiastol",
 		"fishid": 98575,
 		"chatid": 345,
-		"rank": 17
+		"rank": 18
+	},
+	"901": {
+		"player": "thetaxmen",
+		"playerid": 901,
+		"weight": 239,
+		"bot": "gofishgame",
+		"type": "🐉",
+		"typename": "dragon",
+		"catchtype": "normal",
+		"date": "2024-12-14T14:30:50Z",
+		"chat": "vaiastol",
+		"fishid": 130541,
+		"chatid": 2449,
+		"rank": 6
 	}
 }
