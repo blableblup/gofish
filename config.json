@@ -118,6 +118,13 @@
         "checktdata": true,
         "board_enabled": false
       },
+      "wuh6": {
+        "logs_host": "https://logs.potat.app",
+        "logs_added": "2024/12",
+        "checkfdata": true,
+        "checktdata": true,
+        "board_enabled": false
+      },
       "global": {
         "weight_limit": 270,
         "totalcount_limit": 300,
