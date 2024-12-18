@@ -2,7 +2,7 @@
 | Rank | Player | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points |
 |------|--------|-------------|------------------|------------------|--------|
 | 1 🥇 | puzzlow | 35 | 15 | 14 | 127.0 |
-| 2 🥈 | chuuubbyyy | 23 | 43 (+2) | 22 (+1) | 123.0 (+2.5) |
+| 2 🥈 | chuuubbyyy | 23 | 45 (+2) | 22 | 125.0 (+2.0) |
 | 3 🥉 | osnyatsky | 31 | 24 | 6 | 120.0 |
 | 4 | derinturitierutz | 33 | 5 | 10 | 109.0 |
 | 5 | osnyisdead | 26 | 12 | 2 | 91.0 |
@@ -12,15 +12,15 @@
 | 9 | dayzedinndaydreams | 10 | 10 | 12 | 46.0 |
 | 10 | sussy_amonge | 12 | 4 | 7 | 43.5 |
 | 11 | sicklymaidrobot | 5 | 10 | 26 | 38.0 |
-| 12 | comiqq | 5 | 12 | 9 | 31.5 |
-| 13 ⬆| leanmeister | 8 (+3) | 4 | 1 | 28.5 (+9.0) |
-| 14 ⬇| fishingalt | 4 | 7 | 6 | 22.0 |
+| 12 ⬆| leanmeister | 10 (+2) | 5 (+1) | 1 | 35.5 (+7.0) |
+| 13 ⬇| comiqq | 5 | 12 | 9 | 31.5 |
+| 14 | fishingalt | 4 | 7 | 6 | 22.0 |
 | 15 | booty_bread | 4 | 2 | 6 | 17.0 |
 | 16 | ryebreadward | 3 | 3 | 6 | 15.0 |
-| 17 ⬆| idini | 1 | 1 (+1) | 8 (+2) | 8.0 (+2.0) |
-| 17 | respirate_ | 2 | 1 | 2 | 8.0 |
-| 19 ⬇| lazuli672 | 2 | 0 | 0 | 6.0 |
-| 20 | c_mgi | 0 | 2 | 6 | 5.0 |
+| 17 ⬆| c_mgi | 1 (+1) | 2 | 8 (+2) | 9.0 (+4.0) |
+| 17 | idini | 1 | 1 | 10 (+2) | 9.0 (+1.0) |
+| 19 ⬇| respirate_ | 2 | 1 | 2 | 8.0 |
+| 20 ⬇| lazuli672 | 2 | 0 | 0 | 6.0 |
 | 21 | paras220 | 1 | 0 | 2 | 4.0 |
 | 22 | crazytown_bananapants | 1 | 0 | 1 | 3.5 |
 | 22 | dougiefresh_83 | 1 | 0 | 1 | 3.5 |
@@ -39,4 +39,4 @@
 | 34 | mochi_uygqzidbjizjkbehuiw | 0 | 0 | 1 | 0.5 |
 | 34 | niiy | 0 | 0 | 1 | 0.5 |
 
-_Last updated at 2024-12-10 11:11:24 UTC_
+_Last updated at 2024-12-18 17:24:06 UTC_

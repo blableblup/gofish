@@ -14,7 +14,7 @@
 		"weight": 3,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 1,
-		"rank": 9
+		"rank": 10
 	},
 	"2989": {
 		"player": "lolspers",
@@ -32,7 +32,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 1,
 		"maxcount": 1,
-		"rank": 10
+		"rank": 11
 	},
 	"3007": {
 		"player": "spanmer",
@@ -58,7 +58,7 @@
 		"weight": 1,
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 1,
-		"rank": 11
+		"rank": 12
 	},
 	"3108": {
 		"player": "iam_haunt_",
@@ -73,9 +73,9 @@
 	"3121": {
 		"player": "buhl00n",
 		"playerid": 3121,
-		"weight": 26,
+		"weight": 35,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 8,
+		"fishid": 11,
 		"chatid": 2,
 		"rank": 1
 	},
@@ -92,20 +92,21 @@
 	"3164": {
 		"player": "ben_vincent",
 		"playerid": 3164,
-		"weight": 8,
+		"weight": 9.5,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 2,
-		"chatid": 1,
-		"maxcount": 2,
+		"chatid": 2,
+		"maxcount": 3,
 		"rank": 4
 	},
 	"3448": {
 		"player": "gofishrigged",
 		"playerid": 3448,
-		"weight": 1,
+		"weight": 3.5,
 		"date": "0001-01-01T00:00:00Z",
-		"maxcount": 2,
-		"rank": 11
+		"chatid": 2,
+		"maxcount": 3,
+		"rank": 9
 	},
 	"64": {
 		"player": "julialuxel",
