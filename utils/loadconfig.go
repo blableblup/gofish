@@ -19,7 +19,6 @@ type ChatInfo struct {
 	LogsAdded          string  `json:"logs_added"`
 	Emoji              string  `json:"emoji"`
 	CheckFData         bool    `json:"checkfdata"`
-	CheckTData         bool    `json:"checktdata"`
 	BoardsEnabled      bool    `json:"board_enabled"`
 }
 

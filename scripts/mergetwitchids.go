@@ -140,7 +140,7 @@ func MergePlayers() {
 			}
 
 			for chatName, chat := range config.Chat {
-				if !chat.CheckTData {
+				if !chat.CheckFData {
 					// No need to always log this
 					continue
 				}
@@ -190,7 +190,7 @@ func MergePlayers() {
 		}
 
 		for chatName, chat := range config.Chat {
-			if !chat.CheckTData {
+			if !chat.CheckFData {
 				// No need to always log this
 				continue
 			}

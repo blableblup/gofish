@@ -14,14 +14,16 @@ import (
 	"github.com/valyala/fasthttp"
 )
 
-func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Pool, latestCatchDate time.Time, latestBagDate time.Time) ([]FishInfo, error) {
+func FishData(url string, chatName string, data string, pool *pgxpool.Pool, latestCatchDate time.Time, latestBagDate time.Time, latestTournamentDate time.Time) ([]FishInfo, error) {
+	var fishData []FishInfo
+
 	const maxRetries = 5
 	retryDelay := time.Second
 
 	logs.Logs().Info().
 		Str("URL", url).
 		Str("Chat", chatName).
-		Msg("Fetching fish data")
+		Msg("Fetching data")
 
 	for retry := 0; retry < maxRetries; retry++ {
 
@@ -44,6 +46,8 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 
 		if resp.StatusCode() != fasthttp.StatusOK {
 			// Since 404 can just mean that noone fished in that month for the very small chats, this doesnt have to count as an error
+			// Just make sure that the chat actually doesnt have logs
+			// The chat could also be banned or might have been renamed or might have been removed from the justlog instance
 			if resp.StatusCode() != 404 {
 				logs.Logs().Error().
 					Str("URL", url).
@@ -65,16 +69,37 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 
 		textContent := string(resp.Body())
 
-		patterns := []*regexp.Regexp{
-			MouthPattern,
-			ReleasePattern,
-			NormalPattern,
-			JumpedPattern,
-			BirdPattern,
-			SquirrelPattern,
-			BagPattern,
+		// Dont check every pattern depending on "data"
+		var patterns []*regexp.Regexp
+		switch data {
+		case "all":
+			patterns = []*regexp.Regexp{
+				MouthPattern,
+				ReleasePattern,
+				NormalPattern,
+				JumpedPattern,
+				BirdPattern,
+				SquirrelPattern,
+				BagPattern,
+				TournamentPattern,
+			}
+		case "f":
+			patterns = []*regexp.Regexp{
+				MouthPattern,
+				ReleasePattern,
+				NormalPattern,
+				JumpedPattern,
+				BirdPattern,
+				SquirrelPattern,
+				BagPattern,
+			}
+		case "t":
+			patterns = []*regexp.Regexp{
+				TournamentPattern,
+			}
 		}
 
+		// This is always parsing all fish and results
 		fishCatches := extractInfoFromPatterns(textContent, patterns)
 
 		for _, fishCatch := range fishCatches {
@@ -102,11 +127,10 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 				fishType = "🪼"
 			}
 
-			if catchtype != "bag" {
-				if date.After(latestCatchDate) {
+			if catchtype == "bag" {
+				if date.After(latestBagDate) {
 					FishData := FishInfo{
 						Player:    player,
-						Weight:    weight,
 						Bot:       bot,
 						Date:      date,
 						CatchType: catchtype,
@@ -117,10 +141,31 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 
 					fishData = append(fishData, FishData)
 				}
-			} else {
-				if date.After(latestBagDate) {
+			}
+			if catchtype == "result" {
+				if date.After(latestTournamentDate) {
+					FishData := FishInfo{
+						Player:               player,
+						Bot:                  bot,
+						Date:                 date,
+						Chat:                 chatName,
+						CatchType:            catchtype,
+						Url:                  url,
+						Count:                fishCatch.Count,
+						FishPlacement:        fishCatch.FishPlacement,
+						TotalWeight:          fishCatch.TotalWeight,
+						WeightPlacement:      fishCatch.WeightPlacement,
+						Weight:               weight,
+						BiggestFishPlacement: fishCatch.BiggestFishPlacement,
+					}
+					fishData = append(fishData, FishData)
+				}
+			}
+			if catchtype != "result" && catchtype != "bag" {
+				if date.After(latestCatchDate) {
 					FishData := FishInfo{
 						Player:    player,
+						Weight:    weight,
 						Bot:       bot,
 						Date:      date,
 						CatchType: catchtype,
@@ -137,15 +182,16 @@ func FishData(url string, chatName string, fishData []FishInfo, pool *pgxpool.Po
 		logs.Logs().Info().
 			Str("URL", url).
 			Str("Chat", chatName).
-			Msg("Finished storing fish")
-		return fishData, nil // Return successfully fetched data
+			Msg("Finished parsing data")
+
+		return fishData, nil
 	}
 
 	// Log the error and stop the entire program
 	logs.Logs().Fatal().
 		Str("URL", url).
 		Str("Chat", chatName).
-		Msg("Reached maximum retries, unable to fetch fish data from URL")
+		Msg("Reached maximum retries, unable to fetch data from URL")
 	return nil, nil
 }
 

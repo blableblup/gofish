@@ -4,14 +4,12 @@
         "logs_host": "https://logs.joinuv.com",
         "logs_added": "2022/12",
         "checkfdata": true,
-        "checktdata": true,
         "board_enabled": true
       },
       "psp1g": {
         "logs_host": "https://logs.ivr.fi",
         "logs_added": "2023/8",
         "checkfdata": true,
-        "checktdata": true,
         "board_enabled": true
       },
       "ovrht": {
@@ -22,7 +20,6 @@
         "fishweek_limit": 10,
         "unique_limit": 20,
         "checkfdata": true,
-        "checktdata": true,
         "board_enabled": false
       },
       "julialuxel": {
@@ -33,42 +30,36 @@
         "fishweek_limit": 10,
         "unique_limit": 20,
         "checkfdata": true,
-        "checktdata": true,
         "board_enabled": true
       },
       "ryanpotat": {
         "logs_host": "https://logs.spanix.team",
         "logs_added": "2023/12",
         "checkfdata": true,
-        "checktdata": true,
         "board_enabled": false
       },
       "d_egree": {
         "logs_host": "https://logs.spanix.team",
         "logs_added": "2024/5",
         "checkfdata": true,
-        "checktdata": true,
         "board_enabled": false
       },
       "pokirule": {
         "logs_host": "https://logs.spanix.team",
         "logs_added": "2024/5",
         "checkfdata": true,
-        "checktdata": true,
         "board_enabled": false
       },
       "ajspyman": {
         "logs_host": "https://logs.spanix.team",
         "logs_added": "2024/5",
         "checkfdata": true,
-        "checktdata": true,
         "board_enabled": false
       },
       "miagooper": {
         "logs_host": "https://logs.ivr.fi",
         "logs_added": "2024/5",
         "checkfdata": true,
-        "checktdata": true,
         "board_enabled": false
       },
       "vaiastol": {
@@ -79,14 +70,12 @@
         "fishweek_limit": 10,
         "unique_limit": 20,
         "checkfdata": true,
-        "checktdata": true,
         "board_enabled": true
       },
       "swormbeard": {
         "logs_host": "https://logs.potat.app",
         "logs_added": "2024/7",
         "checkfdata": true,
-        "checktdata": true,
         "board_enabled": false
       },
       "omie": {
@@ -97,7 +86,6 @@
         "fishweek_limit": 10,
         "unique_limit": 20,
         "checkfdata": true,
-        "checktdata": true,
         "board_enabled": true
       },
       "dizzy": {
@@ -108,21 +96,18 @@
         "fishweek_limit": 20,
         "unique_limit": 20,
         "checkfdata": true,
-        "checktdata": true,
         "board_enabled": true
       },
       "aquaismissing": {
         "logs_host": "https://logs.potat.app",
         "logs_added": "2024/11",
         "checkfdata": true,
-        "checktdata": true,
         "board_enabled": false
       },
       "wuh6": {
         "logs_host": "https://logs.potat.app",
         "logs_added": "2024/12",
         "checkfdata": true,
-        "checktdata": true,
         "board_enabled": false
       },
       "global": {
@@ -130,7 +115,6 @@
         "totalcount_limit": 300,
         "unique_limit": 60,
         "checkfdata": false,
-        "checktdata": false,
         "board_enabled": true
       },
       "default": {
@@ -141,7 +125,6 @@
         "unique_limit": 50,
         "row_limit": 100,
         "checkfdata": false,
-        "checktdata": false,
         "board_enabled": false
       }
   }
