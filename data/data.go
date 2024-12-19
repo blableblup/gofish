@@ -232,8 +232,6 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 		return err
 	}
 
-	// This is only here and not in tournamentdata, because in order to have tournament results
-	// fish need to have been caught (unless you only check for tournament results)
 	playerdatatable := "playerdata"
 	if err := utils.EnsureTableExists(pool, playerdatatable); err != nil {
 		logs.Logs().Error().Err(err).
@@ -330,16 +328,16 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 		if fish.CatchType == "result" {
 
 			// This is here so that you dont create tables for chats with no tournament results
-			tableName := "tournaments" + fish.Chat
-			if _, ok := didwealreadycheckiftableexists[tableName]; !ok {
-				if err := utils.EnsureTableExists(pool, tableName); err != nil {
+			tableNameTournament := "tournaments" + fish.Chat
+			if _, ok := didwealreadycheckiftableexists[tableNameTournament]; !ok {
+				if err := utils.EnsureTableExists(pool, tableNameTournament); err != nil {
 					logs.Logs().Error().Err(err).
-						Str("Table", tableName).
+						Str("Table", tableNameTournament).
 						Str("Chat", fish.Chat).
 						Msg("Error ensuring table exists")
 					return err
 				}
-				didwealreadycheckiftableexists[tableName] = true
+				didwealreadycheckiftableexists[tableNameTournament] = true
 			}
 
 			// Always checks if the result is already in the db, because you can do +checkin multiple times
@@ -347,14 +345,14 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			// This means that you cannot have the exact same tournament result two weeks in a row though
 			var count int
 			err := tx.QueryRow(context.Background(), `
-			SELECT COUNT(*) FROM `+tableName+`
+			SELECT COUNT(*) FROM `+tableNameTournament+`
 			WHERE (date >= $1::timestamp - interval '14 days' AND date < $2::timestamp + interval '1 day')
 			   AND player = $3 AND fishcaught = $4 AND placement1 = $5 AND totalweight = $6 AND placement2 = $7 AND biggestfish = $8 AND placement3 = $9
 		`, fish.Date, fish.Date, fish.Player, fish.Count, fish.FishPlacement, fish.TotalWeight, fish.WeightPlacement,
 				fish.Weight, fish.BiggestFishPlacement).Scan(&count)
 			if err != nil {
 				logs.Logs().Error().Err(err).
-					Str("Table", tableName).
+					Str("Table", tableNameTournament).
 					Str("Chat", fish.Chat).
 					Msg("Error counting existing results")
 				return err
@@ -363,12 +361,12 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 				continue
 			}
 
-			query := fmt.Sprintf("INSERT INTO %s ( player, playerid, fishcaught, placement1, totalweight, placement2, biggestfish, placement3, date, bot, chat, url) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)", tableName)
+			query := fmt.Sprintf("INSERT INTO %s ( player, playerid, fishcaught, placement1, totalweight, placement2, biggestfish, placement3, date, bot, chat, url) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)", tableNameTournament)
 			_, err = tx.Exec(context.Background(), query, fish.Player, playerID, fish.Count, fish.FishPlacement, fish.TotalWeight,
 				fish.WeightPlacement, fish.Weight, fish.BiggestFishPlacement, fish.Date, fish.Bot, fish.Chat, fish.Url)
 			if err != nil {
 				logs.Logs().Error().Err(err).
-					Str("Table", tableName).
+					Str("Table", tableNameTournament).
 					Str("Chat", fish.Chat).
 					Str("Query", query).
 					Msg("Error inserting tournament data")
