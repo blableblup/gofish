@@ -218,8 +218,8 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 	for _, table := range CheckTables {
 		if err := utils.EnsureTableExists(pool, table); err != nil {
 			logs.Logs().Error().Err(err).
-				Str("Table", playerdatatable).
-				Msg("Error ensuring playerdata table exists")
+				Str("Table", table).
+				Msg("Error ensuring table exists")
 			return err
 		}
 	}
