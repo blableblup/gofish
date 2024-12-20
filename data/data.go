@@ -208,49 +208,33 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 	}
 	defer tx.Rollback(context.Background())
 
-	fishinfotable := "fishinfo"
-	if err := utils.EnsureTableExists(pool, fishinfotable); err != nil {
-		logs.Logs().Error().Err(err).
-			Str("Table", fishinfotable).
-			Msg("Error ensuring table exists")
-		return err
-	}
-
 	tableName := "fish"
-	if err := utils.EnsureTableExists(pool, tableName); err != nil {
-		logs.Logs().Error().Err(err).
-			Str("Table", tableName).
-			Msg("Error ensuring table exists")
-		return err
-	}
-
 	tableNameBag := "bag"
-	if err := utils.EnsureTableExists(pool, tableNameBag); err != nil {
-		logs.Logs().Error().Err(err).
-			Str("Table", tableNameBag).
-			Msg("Error ensuring table exists")
-		return err
-	}
-
+	fishinfotable := "fishinfo"
 	playerdatatable := "playerdata"
-	if err := utils.EnsureTableExists(pool, playerdatatable); err != nil {
-		logs.Logs().Error().Err(err).
-			Str("Table", playerdatatable).
-			Msg("Error ensuring playerdata table exists")
-		return err
+
+	CheckTables := []string{fishinfotable, tableName, tableNameBag, playerdatatable}
+
+	for _, table := range CheckTables {
+		if err := utils.EnsureTableExists(pool, table); err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Table", playerdatatable).
+				Msg("Error ensuring playerdata table exists")
+			return err
+		}
 	}
 
 	lastChatIDs := make(map[string]int)
-	newFishCounts := make(map[string]int)
 	newBagCounts := make(map[string]int)
+	newFishCounts := make(map[string]int)
 	newResultCounts := make(map[string]int)
 
 	didwealreadycheckiftableexists := make(map[string]bool)
 
 	for chatName, chat := range config.Chat {
 		if chat.CheckFData {
-			newFishCounts[chatName] = 0
 			newBagCounts[chatName] = 0
+			newFishCounts[chatName] = 0
 			newResultCounts[chatName] = 0
 		}
 	}
@@ -276,7 +260,9 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 
 		playerID := playerids[fish.Player]
 
-		if fish.CatchType != "bag" && fish.CatchType != "result" {
+		switch fish.CatchType {
+		// Add the fish into fish table
+		default:
 
 			if _, ok := lastChatIDs[fish.Chat]; !ok {
 				lastChatID, err := getLastChatIDFromDB(pool, fish.Chat, tableName)
@@ -311,9 +297,10 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			}
 
 			newFishCounts[fish.Chat]++
-		}
 
-		if fish.CatchType == "bag" {
+		// Add the bag into the table for bags
+		case "bag":
+
 			query := fmt.Sprintf("INSERT INTO %s (bag, player, playerid, date, bot, chat, url) VALUES ($1, $2, $3, $4, $5, $6, $7)", tableNameBag)
 			_, err = tx.Exec(context.Background(), query, fish.Type, fish.Player, playerID, fish.Date, fish.Bot, fish.Chat, fish.Url)
 			if err != nil {
@@ -323,9 +310,9 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 				return err
 			}
 			newBagCounts[fish.Chat]++
-		}
 
-		if fish.CatchType == "result" {
+		// Insert the tournament result into the chats tournament table
+		case "result":
 
 			// This is here so that you dont create tables for chats with no tournament results
 			tableNameTournament := "tournaments" + fish.Chat
@@ -374,7 +361,6 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			}
 
 			newResultCounts[fish.Chat]++
-
 		}
 	}
 
@@ -384,7 +370,6 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 		return err
 	}
 
-	// Is this stupid ?
 	var noNewFishChats []string
 	var noNewBagsChats []string
 	var noNewResultCounts []string
