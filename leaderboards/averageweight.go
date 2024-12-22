@@ -119,7 +119,9 @@ func getAverageWeights(params LeaderboardParams) (map[string]data.FishInfo, erro
 		}
 
 		// Query the database to get the average weight of each fish type per chat and globally
-		// Dont get it for fish you get from releases because they have no weight (maybe also squirrels ?)
+		// Dont get it for fish you get from releases because they have no weight
+		// The three original squirrels which were caught did have a weight, for them i changed the catchtype to be "squirrelfail"
+		// But all the following squirrels dont show their weight in the catch so ignore them aswell
 		if chatName != "global" {
 			rows, err = pool.Query(context.Background(), `
 				SELECT fishname, ROUND(AVG(weight::numeric), 2)
@@ -128,6 +130,7 @@ func getAverageWeights(params LeaderboardParams) (map[string]data.FishInfo, erro
 				AND date < $2
 				AND date > $3
 				AND catchtype != 'release'
+				AND catchtype != 'squirrel'
 				GROUP BY fishname
 				`, chatName, date, date2)
 			if err != nil {
@@ -145,6 +148,7 @@ func getAverageWeights(params LeaderboardParams) (map[string]data.FishInfo, erro
 			WHERE date < $1
 			AND date > $2
 			AND catchtype != 'release'
+			AND catchtype != 'squirrel'
 			GROUP BY fishname
 			`, date, date2)
 			if err != nil {
