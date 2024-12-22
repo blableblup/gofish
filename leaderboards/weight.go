@@ -272,7 +272,7 @@ func writeWeight(filePath string, recordWeight map[int]data.FishInfo, oldRecordW
 		return err
 	}
 
-	_, _ = fmt.Fprintln(file, "| Rank | Player | Fish | Weight in lbs | Date |"+func() string {
+	_, _ = fmt.Fprintln(file, "| Rank | Player | Fish | Weight in lbs | Date in UTC |"+func() string {
 		if global {
 			return " Chat |"
 		}
@@ -329,7 +329,7 @@ func writeWeight(filePath string, recordWeight map[int]data.FishInfo, oldRecordW
 		ranks := Ranks(rank)
 
 		// Write the leaderboard row
-		_, _ = fmt.Fprintf(file, "| %s %s | %s%s | %s %s | %s | %s |", ranks, changeEmoji, player, botIndicator, fishType, fishName, fishweight, date.Format("2006-01-02 15:04:05 UTC"))
+		_, _ = fmt.Fprintf(file, "| %s %s | %s%s | %s %s | %s | %s |", ranks, changeEmoji, player, botIndicator, fishType, fishName, fishweight, date.Format("2006-01-02 15:04:05"))
 		if global {
 			_, _ = fmt.Fprintf(file, " %s |", recordWeight[playerID].ChatPfp)
 		}

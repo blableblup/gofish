@@ -262,7 +262,7 @@ func writeType(filePath string, recordType map[string]data.FishInfo, oldType map
 		return err
 	}
 
-	_, err = fmt.Fprintln(file, "| Rank | Fish | Weight in lbs | Player | Date |"+func() string {
+	_, err = fmt.Fprintln(file, "| Rank | Fish | Weight in lbs | Player | Date in UTC |"+func() string {
 		if global {
 			return " Chat |"
 		}
@@ -326,7 +326,7 @@ func writeType(filePath string, recordType map[string]data.FishInfo, oldType map
 
 		ranks := Ranks(rank)
 
-		_, _ = fmt.Fprintf(file, "| %s %s | %s %s | %s | %s%s | %s |", ranks, changeEmoji, fishType, fishName, fishweight, player, botIndicator, date.Format("2006-01-02 15:04:05 UTC"))
+		_, _ = fmt.Fprintf(file, "| %s %s | %s %s | %s | %s%s | %s |", ranks, changeEmoji, fishType, fishName, fishweight, player, botIndicator, date.Format("2006-01-02 15:04:05"))
 		if global {
 			_, _ = fmt.Fprintf(file, " %s |", recordType[fishName].ChatPfp)
 		}

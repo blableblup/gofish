@@ -186,7 +186,7 @@ func writeFishList(filePath string, fishy map[int]data.FishInfo, oldFishy map[in
 		return err
 	}
 
-	_, _ = fmt.Fprintln(file, "| # | Player | Fish | Weight in lbs ⚖️ | Date |"+func() string {
+	_, _ = fmt.Fprintln(file, "| # | Player | Fish | Weight in lbs ⚖️ | Date in UTC |"+func() string {
 		if global {
 			return " Chat |"
 		}
@@ -223,7 +223,7 @@ func writeFishList(filePath string, fishy map[int]data.FishInfo, oldFishy map[in
 		}
 
 		_, _ = fmt.Fprintf(file, "| %d %s | %s%s | %s %s | %v | %s |",
-			rank, changeEmoji, fishy[fishid].Player, botIndicator, fishy[fishid].Type, fishy[fishid].TypeName, fishy[fishid].Weight, fishy[fishid].Date.Format("2006-01-02 15:04:05 UTC"))
+			rank, changeEmoji, fishy[fishid].Player, botIndicator, fishy[fishid].Type, fishy[fishid].TypeName, fishy[fishid].Weight, fishy[fishid].Date.Format("2006-01-02 15:04:05"))
 		if global {
 			_, _ = fmt.Fprintf(file, " %s |", fishy[fishid].ChatPfp)
 		}
