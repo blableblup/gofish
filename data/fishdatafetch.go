@@ -99,82 +99,46 @@ func FishData(url string, chatName string, data string, pool *pgxpool.Pool, late
 			}
 		}
 
-		// This is always parsing all fish and results
 		fishCatches := extractInfoFromPatterns(textContent, patterns)
 
-		for _, fishCatch := range fishCatches {
-			player := fishCatch.Player
-			fishType := fishCatch.Type
-			weight := fishCatch.Weight
-			date := fishCatch.Date
-			bot := fishCatch.Bot
-			catchtype := fishCatch.CatchType
+		for _, fish := range fishCatches {
+			// Update the url and the name of the chat here
+			fish.Chat = chatName
+			fish.Url = url
 
 			// Skip the two players who cheated here
-			if player == "cyancaesar" || player == "hansworthelias" {
-				if bot == "supibot" {
+			if fish.Player == "cyancaesar" || fish.Player == "hansworthelias" {
+				if fish.Bot == "supibot" {
 					continue
 				}
 			}
 
 			// This is only for old Supibot logs (Could also change regex to not get the space at the end?)
-			if fishType == "SabaPing " || fishType == "HailHelix " || fishType == "Jellyfish " {
-				fishType = strings.TrimSpace(fishType)
+			if fish.Type == "SabaPing " || fish.Type == "HailHelix " || fish.Type == "Jellyfish " {
+				fish.Type = strings.TrimSpace(fish.Type)
 			}
 
 			// Because Jellyfish used to be a bttv emote
-			if fishType == "Jellyfish" {
-				fishType = "🪼"
+			if fish.Type == "Jellyfish" {
+				fish.Type = "🪼"
 			}
 
-			if catchtype == "bag" {
-				if date.After(latestBagDate) {
-					FishData := FishInfo{
-						Player:    player,
-						Bot:       bot,
-						Date:      date,
-						CatchType: catchtype,
-						Type:      fishType,
-						Chat:      chatName,
-						Url:       url,
-					}
+			switch fish.CatchType {
+			default:
+				if fish.Date.After(latestCatchDate) {
 
-					fishData = append(fishData, FishData)
+					fishData = append(fishData, fish)
 				}
-			}
-			if catchtype == "result" {
-				if date.After(latestTournamentDate) {
-					FishData := FishInfo{
-						Player:               player,
-						Bot:                  bot,
-						Date:                 date,
-						Chat:                 chatName,
-						CatchType:            catchtype,
-						Url:                  url,
-						Count:                fishCatch.Count,
-						FishPlacement:        fishCatch.FishPlacement,
-						TotalWeight:          fishCatch.TotalWeight,
-						WeightPlacement:      fishCatch.WeightPlacement,
-						Weight:               weight,
-						BiggestFishPlacement: fishCatch.BiggestFishPlacement,
-					}
-					fishData = append(fishData, FishData)
-				}
-			}
-			if catchtype != "result" && catchtype != "bag" {
-				if date.After(latestCatchDate) {
-					FishData := FishInfo{
-						Player:    player,
-						Weight:    weight,
-						Bot:       bot,
-						Date:      date,
-						CatchType: catchtype,
-						Type:      fishType,
-						Chat:      chatName,
-						Url:       url,
-					}
 
-					fishData = append(fishData, FishData)
+			case "bag":
+				if fish.Date.After(latestBagDate) {
+
+					fishData = append(fishData, fish)
+				}
+			case "result":
+				if fish.Date.After(latestTournamentDate) {
+
+					fishData = append(fishData, fish)
 				}
 			}
 		}
