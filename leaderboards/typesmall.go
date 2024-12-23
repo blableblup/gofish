@@ -123,7 +123,8 @@ func getTypeRecordsSmall(params LeaderboardParams) (map[string]data.FishInfo, er
 	var err error
 
 	// Query the database to get the smallest fish per type for the specific chat or globally
-	// Fish you get from releasing dont show their weight so they get ignored here
+	// Fish you get from releasing and squirrels dont show their weight so they get ignored here
+	// Ignoring them on the "biggest" type board wouldnt make a difference but could also do that there
 	if !global {
 		rows, err = pool.Query(context.Background(), `
 		SELECT f.weight, f.fishname, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid,
@@ -136,6 +137,7 @@ func getTypeRecordsSmall(params LeaderboardParams) (map[string]data.FishInfo, er
 			AND date < $2
 	  		AND date > $3
 			AND catchtype != 'release'
+			AND catchtype != 'squirrel'
 			GROUP BY fishname
 		) AS sub
 		ON f.fishname = sub.fishname AND f.weight = sub.min_weight
@@ -143,7 +145,7 @@ func getTypeRecordsSmall(params LeaderboardParams) (map[string]data.FishInfo, er
 		AND f.date = (
 			SELECT MIN(date)
 			FROM fish
-			WHERE fishname = sub.fishname AND weight = sub.min_weight AND chat = $1 AND catchtype != 'release'
+			WHERE fishname = sub.fishname AND weight = sub.min_weight AND chat = $1 AND catchtype != 'release' AND catchtype != 'squirrel'
 		)`, chatName, date, date2)
 		if err != nil {
 			logs.Logs().Error().Err(err).
@@ -164,13 +166,14 @@ func getTypeRecordsSmall(params LeaderboardParams) (map[string]data.FishInfo, er
 			WHERE date < $1
 	  		AND date > $2
 			AND catchtype != 'release'
+			AND catchtype != 'squirrel'
 			GROUP BY fishname
 		) AS sub
 		ON f.fishname = sub.fishname AND f.weight = sub.min_weight
 		AND f.date = (
 			SELECT MIN(date)
 			FROM fish
-			WHERE fishname = sub.fishname AND weight = sub.min_weight AND catchtype != 'release'
+			WHERE fishname = sub.fishname AND weight = sub.min_weight AND catchtype != 'release' AND catchtype != 'squirrel'
 		)`, date, date2)
 		if err != nil {
 			logs.Logs().Error().Err(err).
