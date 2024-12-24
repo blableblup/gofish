@@ -27,14 +27,37 @@ func GetPlayerID(pool *pgxpool.Pool, player string, firstFishDate time.Time, fir
 		return 0, err
 	}
 
-	err = pool.QueryRow(context.Background(), "SELECT playerid, twitchid FROM playerdata WHERE name = $1", player).Scan(&playerID, &twitchID)
-	if err == nil {
+	rows, err := pool.Query(context.Background(), "SELECT playerid, twitchid FROM playerdata WHERE name = $1", player)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Player", player).
+			Msg("Error quering playerid and twitchid for player")
+		return 0, err
+	}
+	defer rows.Close()
+
+	for rows.Next() {
+		if err := rows.Scan(&playerID, &twitchID); err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Player", player).
+				Msg("Error scanning playerid and twitchid for player")
+			return 0, err
+		}
+
 		if twitchID.Valid {
 			// If player already exists and the twitchid is the same, return their player ID
-			// If the api cant find the twitchid, but the player has a non null twitchid entry: they likely renamed but havent caught a fish with their new name yet
 			if int(twitchID.Int64) == apiID {
 				return playerID, nil
 			}
+			// If a player with that name was found, but the apiID and the twitchID in the table are different
+			// This will always log though, until one of the players with that name renames again
+			if int(twitchID.Int64) != apiID {
+				logs.Logs().Warn().
+					Str("Player", player).
+					Int("TwitchID", apiID).
+					Msg("Player is using a name which was already used by a different person before")
+			}
+			// If the api cant find the twitchid, but the player has a non null twitchid entry: they likely renamed but havent caught a fish with their new name yet
 			if apiID == 0 {
 				logs.Logs().Warn().
 					Str("Player", player).
@@ -54,39 +77,12 @@ func GetPlayerID(pool *pgxpool.Pool, player string, firstFishDate time.Time, fir
 				return playerID, nil
 			}
 		}
-	} else if err != pgx.ErrNoRows {
+	}
+
+	// If the playerid didnt get returned yet, the player is new or renamed
+	playerID, err = Asdfjsadgaiga(apiID, player, firstFishDate, firstFishChat, pool)
+	if err != nil {
 		return 0, err
-	}
-
-	// That players name isnt in playerdata
-	if err == pgx.ErrNoRows {
-
-		playerID, err = Asdfjsadgaiga(apiID, player, firstFishDate, firstFishChat, pool)
-		if err != nil {
-			return 0, err
-		}
-
-		return playerID, nil
-
-	}
-
-	// Same name but different twitch id means that the player took someone elses name who fished before
-	if int(twitchID.Int64) != apiID {
-
-		logs.Logs().Warn().
-			Str("Date", firstFishDate.Format(time.RFC3339)).
-			Str("Chat", firstFishChat).
-			Int("TwitchID", apiID).
-			Str("Player", player).
-			Msg("Player took someone elses name")
-
-		playerID, err = Asdfjsadgaiga(apiID, player, firstFishDate, firstFishChat, pool)
-		if err != nil {
-			return 0, err
-		}
-
-		return playerID, nil
-
 	}
 
 	return playerID, nil
@@ -187,9 +183,7 @@ func DidPlayerRename(twitchid int, player string, pool *pgxpool.Pool) (bool, boo
 func AddNewPlayer(twitchid int, player string, firstFishDate time.Time, firstFishChat string, pool *pgxpool.Pool) (int, error) {
 
 	// Add a new player and return their id
-	// For older logs: If a players twitchid cannot be found in the api...
-	// twitchid is left empty so that we dont have multiple players with the same twitchid (0)
-	// Can maybe run updatetwitchids to check for it afterwards
+	// If a players twitchid cannot be found in the api, twitchid is left empty so that we dont have multiple players with the same twitchid (0)
 	var playerID int
 	if twitchid == 0 {
 		err := pool.QueryRow(context.Background(), "INSERT INTO playerdata (name,  firstfishdate, firstfishchat) VALUES ($1, $2, $3) RETURNING playerid", player, firstFishDate, firstFishChat).Scan(&playerID)
