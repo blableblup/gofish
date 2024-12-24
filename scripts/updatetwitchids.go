@@ -6,7 +6,7 @@ import (
 	"gofish/logs"
 	"gofish/playerdata"
 
-	"github.com/jackc/pgx/v4"
+	"github.com/jackc/pgx/v5"
 )
 
 // Mode ble is checking the twitch ids for all players, even if they already have one

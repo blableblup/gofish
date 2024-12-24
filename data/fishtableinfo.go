@@ -6,7 +6,7 @@ import (
 	"gofish/logs"
 	"os"
 
-	"github.com/jackc/pgx/v4/pgxpool"
+	"github.com/jackc/pgx/v5/pgxpool"
 )
 
 // This is to get the fishname for a fishtype before inserting the fish into the db

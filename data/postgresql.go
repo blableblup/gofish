@@ -8,7 +8,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/jackc/pgx/v4/pgxpool"
+	"github.com/jackc/pgx/v5/pgxpool"
 )
 
 type DBConfig struct {
@@ -53,7 +53,7 @@ func connectToDatabase(config *DBConfig) (*pgxpool.Pool, error) {
 	connConfig := fmt.Sprintf("user=%s password=%s host=%s port=%s dbname=%s sslmode=%s",
 		config.DB.User, config.DB.Password, config.DB.Host, config.DB.Port, config.DB.DBName, config.DB.SSLMode)
 
-	pool, err := pgxpool.Connect(context.Background(), connConfig)
+	pool, err := pgxpool.New(context.Background(), connConfig)
 	if err != nil {
 		return nil, err
 	}

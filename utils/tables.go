@@ -6,7 +6,7 @@ import (
 	"gofish/logs"
 	"strings"
 
-	"github.com/jackc/pgx/v4/pgxpool"
+	"github.com/jackc/pgx/v5/pgxpool"
 )
 
 func EnsureTableExists(pool *pgxpool.Pool, tableName string) error {

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jackc/pgx/v4/pgxpool"
+	"github.com/jackc/pgx/v5/pgxpool"
 )
 
 func Leaderboards(leaderboards string, chatNames string, date string, date2 string, path string, title string, limit string, mode string) {
