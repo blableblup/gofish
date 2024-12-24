@@ -3,10 +3,11 @@ package scripts
 import (
 	"context"
 	"fmt"
-	"gofish/data"
 	"gofish/logs"
 	"gofish/utils"
 	"strings"
+
+	"github.com/jackc/pgx/v5/pgxpool"
 )
 
 // Updates fish names in fish and fishinfo, needs to be oldFish:newFish
@@ -25,15 +26,7 @@ func ProcessRenamePairs(renamePairs string) ([]struct{ OldName, NewName string }
 	return namePairs, nil
 }
 
-func UpdateFishNames(namePairs []struct{ OldName, NewName string }) error {
-
-	pool, err := data.Connect()
-	if err != nil {
-		logs.Logs().Error().Err(err).
-			Msgf("Error connecting to the database")
-		return err
-	}
-	defer pool.Close()
+func UpdateFishNames(pool *pgxpool.Pool, namePairs []struct{ OldName, NewName string }) error {
 
 	// Start a transaction
 	tx, err := pool.Begin(context.Background())

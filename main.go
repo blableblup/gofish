@@ -13,6 +13,7 @@ import (
 func main() {
 	debug := flag.Bool("debug", false, "Debug some stuff")
 	program := flag.String("p", "", "Program name: boards, data, renamed, verified, pattern")
+	database := flag.String("database", "default", "What databse to connect to. Connects to whatever is named 'default' in the file by default.")
 
 	// For both boards and data
 	mode := flag.String("mm", "", "Modes are different for each program")
@@ -37,6 +38,15 @@ func main() {
 	flag.Parse()
 
 	logs.InitializeLogger(*debug)
+
+	// Connect to the selected database
+	pool, err := data.Connect(*database)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Msg("Error connecting to the database")
+		return
+	}
+	defer pool.Close()
 
 	if *mode != "" && !isValidModeForProgram(*program, *mode) {
 		logs.Logs().Warn().
@@ -64,7 +74,7 @@ func main() {
 			Str("Path", *path).
 			Msg("Start")
 
-		leaderboards.Leaderboards(*leaderboard, *chatNames, *monthYear, *date2, *path, *title, *limit, *mode)
+		leaderboards.Leaderboards(pool, *leaderboard, *chatNames, *monthYear, *date2, *path, *title, *limit, *mode)
 
 	case "data":
 		logs.Logs().Info().
@@ -76,7 +86,7 @@ func main() {
 			Str("DB", *db).
 			Msg("Start")
 
-		data.GetData(*chatNames, *db, *numMonths, *monthYear, *mode)
+		data.GetData(pool, *chatNames, *db, *numMonths, *monthYear, *mode)
 
 	case "renamedfish":
 		logs.Logs().Info().
@@ -88,7 +98,7 @@ func main() {
 			logs.Logs().Error().Err(err).Msg("Error processing fishname rename pairs")
 			return
 		}
-		err = scripts.UpdateFishNames(namePairs)
+		err = scripts.UpdateFishNames(pool, namePairs)
 		if err != nil {
 			logs.Logs().Error().Err(err).Msg("Error updating fish names")
 			return
@@ -98,7 +108,7 @@ func main() {
 		logs.Logs().Info().
 			Str("Program", *program).
 			Msg("Start")
-		scripts.VerifiedPlayers()
+		scripts.VerifiedPlayers(pool)
 
 	case "updatetwitchids":
 		logs.Logs().Info().
@@ -106,14 +116,14 @@ func main() {
 			Str("Mode", *mode).
 			Msg("Start")
 
-		scripts.UpdateTwitchIDs(*mode)
+		scripts.UpdateTwitchIDs(pool, *mode)
 
 	case "mergetwitchids":
 		logs.Logs().Info().
 			Str("Program", *program).
 			Msg("Start")
 
-		scripts.MergePlayers()
+		scripts.MergePlayers(pool)
 
 	default:
 		logs.Logs().Warn().

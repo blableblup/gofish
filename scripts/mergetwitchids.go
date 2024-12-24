@@ -3,7 +3,6 @@ package scripts
 import (
 	"context"
 	"fmt"
-	"gofish/data"
 	"gofish/logs"
 	"gofish/utils"
 	"time"
@@ -28,15 +27,7 @@ import (
 // Maybe they were deleted at some point by accident ? or idk
 // 2115 has a twitchid (143555482) and renamed, 1590 aswell (901340198). add them to playerdata manually and then merge
 // And mikel1g and restartmikel have to be merged aswell (current name as of writing this was mikelpikol) id:211629518
-func MergePlayers() {
-
-	pool, err := data.Connect()
-	if err != nil {
-		logs.Logs().Error().Err(err).
-			Msgf("Error connecting to the database")
-		return
-	}
-	defer pool.Close()
+func MergePlayers(pool *pgxpool.Pool) {
 
 	config := utils.LoadConfig()
 

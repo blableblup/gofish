@@ -3,21 +3,15 @@ package scripts
 import (
 	"context"
 	"database/sql"
-	"gofish/data"
 	"gofish/logs"
 	"gofish/playerdata"
 	"strings"
 	"time"
+
+	"github.com/jackc/pgx/v5/pgxpool"
 )
 
-func VerifiedPlayers() {
-
-	pool, err := data.Connect()
-	if err != nil {
-		logs.Logs().Error().Err(err).Msg("Error connecting to database")
-		return
-	}
-	defer pool.Close()
+func VerifiedPlayers(pool *pgxpool.Pool) {
 
 	verifiedPlayers := playerdata.ReadVerifiedPlayers()
 

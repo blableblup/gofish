@@ -2,25 +2,18 @@ package scripts
 
 import (
 	"context"
-	"gofish/data"
 	"gofish/logs"
 	"gofish/playerdata"
 
 	"github.com/jackc/pgx/v5"
+	"github.com/jackc/pgx/v5/pgxpool"
 )
 
 // Mode ble is checking the twitch ids for all players, even if they already have one
-func UpdateTwitchIDs(mode string) {
-
-	pool, err := data.Connect()
-	if err != nil {
-		logs.Logs().Error().Err(err).
-			Msg("Error connecting to the database")
-		return
-	}
-	defer pool.Close()
+func UpdateTwitchIDs(pool *pgxpool.Pool, mode string) {
 
 	var rows pgx.Rows
+	var err error
 
 	if mode == "ble" {
 		rows, err = pool.Query(context.Background(), `

@@ -1,7 +1,6 @@
 package leaderboards
 
 import (
-	"gofish/data"
 	"gofish/logs"
 	"gofish/utils"
 	"regexp"
@@ -11,19 +10,11 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 
-func Leaderboards(leaderboards string, chatNames string, date string, date2 string, path string, title string, limit string, mode string) {
+func Leaderboards(pool *pgxpool.Pool, leaderboards string, chatNames string, date string, date2 string, path string, title string, limit string, mode string) {
 
 	config := utils.LoadConfig()
 
 	leaderboardList := strings.Split(leaderboards, ",")
-
-	pool, err := data.Connect()
-	if err != nil {
-		logs.Logs().Error().Err(err).
-			Msg("Error connecting to the database")
-		return
-	}
-	defer pool.Close()
 
 	// So that you can make "past" boards for a date or for a time period (like 2023 boards)
 	// So if "date" is 2024-01-01 and "date2" is 2022-12-31 it will only count data for 2023

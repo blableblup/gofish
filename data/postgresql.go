@@ -11,47 +11,56 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 
+type DBInfo struct {
+	User     string `json:"user"`
+	Password string `json:"password"`
+	Host     string `json:"host"`
+	Port     string `json:"port"`
+	DBName   string `json:"dbname"`
+	SSLMode  string `json:"sslmode"`
+}
+
 type DBConfig struct {
-	DB struct {
-		User     string `json:"user"`
-		Password string `json:"password"`
-		Host     string `json:"host"`
-		Port     string `json:"port"`
-		DBName   string `json:"dbname"`
-		SSLMode  string `json:"sslmode"`
-	} `json:"db"`
+	DB map[string]DBInfo `json:"database"`
 }
 
 func LoadDBConfig() DBConfig {
 
 	wd, err := os.Getwd()
 	if err != nil {
-		logs.Logs().Fatal().Err(err).Msg("Error getting current working directory")
+		logs.Logs().Fatal().Err(err).
+			Msg("Error getting current working directory")
 	}
 
 	configFilePath := filepath.Join(wd, "sqlconfig.json")
-	logs.Logs().Debug().Str("configFilePath", configFilePath).Msg("Loading DB config file")
 
 	file, err := os.Open(configFilePath)
 	if err != nil {
-		logs.Logs().Fatal().Err(err).Msg("Error opening DB config file")
+		logs.Logs().Fatal().Err(err).
+			Msg("Error opening DB config file")
 	}
 	defer file.Close()
 
 	var config DBConfig
 	err = json.NewDecoder(file).Decode(&config)
 	if err != nil {
-		logs.Logs().Fatal().Err(err).Msg("Error parsing DB config file")
+		logs.Logs().Fatal().Err(err).
+			Msg("Error parsing DB config file")
 	}
-
-	logs.Logs().Debug().Interface("DB config", config).Msg("Loaded DB connection config")
 
 	return config
 }
 
-func connectToDatabase(config *DBConfig) (*pgxpool.Pool, error) {
+func connectToDatabase(config *DBConfig, database string) (*pgxpool.Pool, error) {
+	_, ok := config.DB[database]
+	if !ok {
+		logs.Logs().Fatal().
+			Str("Database", database).
+			Msg("Database not found in sqlconfig")
+	}
+
 	connConfig := fmt.Sprintf("user=%s password=%s host=%s port=%s dbname=%s sslmode=%s",
-		config.DB.User, config.DB.Password, config.DB.Host, config.DB.Port, config.DB.DBName, config.DB.SSLMode)
+		config.DB[database].User, config.DB[database].Password, config.DB[database].Host, config.DB[database].Port, config.DB[database].DBName, config.DB[database].SSLMode)
 
 	pool, err := pgxpool.New(context.Background(), connConfig)
 	if err != nil {
@@ -62,9 +71,8 @@ func connectToDatabase(config *DBConfig) (*pgxpool.Pool, error) {
 	return pool, nil
 }
 
-func Connect() (*pgxpool.Pool, error) {
+func Connect(database string) (*pgxpool.Pool, error) {
 	config := LoadDBConfig()
 
-	// Establish connection to the PostgreSQL database
-	return connectToDatabase(&config)
+	return connectToDatabase(&config, database)
 }

@@ -15,17 +15,9 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 
-func GetData(chatNames, data string, numMonths int, monthYear string, mode string) {
+func GetData(pool *pgxpool.Pool, chatNames string, data string, numMonths int, monthYear string, mode string) {
 
 	config := utils.LoadConfig()
-
-	pool, err := Connect()
-	if err != nil {
-		logs.Logs().Error().Err(err).
-			Msg("Error connecting to the database")
-		return
-	}
-	defer pool.Close()
 
 	switch data {
 	case "f":
