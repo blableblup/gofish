@@ -41,7 +41,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 3,
 		"maxcount": 4,
-		"rank": 8
+		"rank": 9
 	},
 	"3067": {
 		"player": "vagdi",
@@ -73,9 +73,9 @@
 	"3121": {
 		"player": "buhl00n",
 		"playerid": 3121,
-		"weight": 35,
+		"weight": 44,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 11,
+		"fishid": 14,
 		"chatid": 2,
 		"rank": 1
 	},
@@ -99,14 +99,22 @@
 		"maxcount": 3,
 		"rank": 4
 	},
+	"3179": {
+		"player": "ofaisalz",
+		"playerid": 3179,
+		"weight": 1,
+		"date": "0001-01-01T00:00:00Z",
+		"maxcount": 2,
+		"rank": 12
+	},
 	"3448": {
 		"player": "gofishrigged",
 		"playerid": 3448,
-		"weight": 3.5,
+		"weight": 6.5,
 		"date": "0001-01-01T00:00:00Z",
-		"chatid": 2,
+		"chatid": 5,
 		"maxcount": 3,
-		"rank": 9
+		"rank": 8
 	},
 	"64": {
 		"player": "julialuxel",
@@ -114,6 +122,6 @@
 		"weight": 0.5,
 		"date": "0001-01-01T00:00:00Z",
 		"maxcount": 1,
-		"rank": 13
+		"rank": 14
 	}
 }

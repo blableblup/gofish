@@ -10,11 +10,11 @@
 | 7  | sicklymaidrobot  | 123 |
 | 7  | sussy_amonge  | 123 |
 | 9  | qu4ttromila  | 122 |
-| 10  | chuuubbyyy  | 112 |
-| 10  | lazuli672*  | 112 |
-| 12  | ryebreadward  | 110 |
-| 13  | bussinongnocap  | 108 |
-| 13  | leanmeister  | 108 |
+| 10 ⬆ | leanmeister  | 120 (+12) |
+| 11 ⬇ | chuuubbyyy  | 112 |
+| 11 ⬇ | lazuli672*  | 112 |
+| 13 ⬇ | ryebreadward  | 110 |
+| 14 ⬇ | bussinongnocap  | 108 |
 | 15  | dayzedinndaydreams  | 93 |
 | 16  | crazytown_bananapants  | 89 |
 | 17  | supibot  | 88 |
@@ -36,7 +36,7 @@
 | 33  | julialuxel  | 34 |
 | 34  | islcfc*  | 33 |
 | 35  | jr_mime  | 32 |
-| 36  | itsalot_tlike*  | 30 |
+| 36  | osnyatsky*  | 30 |
 | 37  | fallen_angels_1995  | 28 |
 | 38  | dougiefresh_83  | 27 |
 | 39  | breadworms  | 25 |
@@ -49,4 +49,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2024-12-10 11:11:24 UTC_
+_Last updated at 2024-12-25 10:44:34 UTC_

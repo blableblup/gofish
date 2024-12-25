@@ -14,23 +14,50 @@
 		"weight": 1,
 		"date": "0001-01-01T00:00:00Z",
 		"maxcount": 2,
-		"rank": 3
+		"rank": 7
 	},
 	"2339": {
 		"player": "bubinga",
 		"playerid": 2339,
-		"weight": 1,
-		"date": "0001-01-01T00:00:00Z",
-		"chatid": 1,
-		"rank": 3
-	},
-	"2609": {
-		"player": "iflya320",
-		"playerid": 2609,
 		"weight": 5,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 1,
 		"chatid": 2,
+		"rank": 3
+	},
+	"2578": {
+		"player": "eeziiii",
+		"playerid": 2578,
+		"weight": 4,
+		"date": "0001-01-01T00:00:00Z",
+		"fishid": 1,
+		"maxcount": 2,
+		"rank": 4
+	},
+	"2609": {
+		"player": "iflya320",
+		"playerid": 2609,
+		"weight": 6,
+		"date": "0001-01-01T00:00:00Z",
+		"fishid": 1,
+		"chatid": 3,
 		"rank": 2
+	},
+	"269": {
+		"player": "nndiana",
+		"playerid": 269,
+		"weight": 3,
+		"date": "0001-01-01T00:00:00Z",
+		"fishid": 1,
+		"rank": 5
+	},
+	"457": {
+		"player": "sandwichsundays",
+		"playerid": 457,
+		"weight": 1.5,
+		"date": "0001-01-01T00:00:00Z",
+		"chatid": 1,
+		"maxcount": 1,
+		"rank": 6
 	}
 }
