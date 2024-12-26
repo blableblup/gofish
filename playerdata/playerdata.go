@@ -51,7 +51,7 @@ func GetPlayerID(pool *pgxpool.Pool, player string, firstFishDate time.Time, fir
 			}
 			// If a player with that name was found, but the apiID and the twitchID in the table are different
 			// This will always log though, until one of the players with that name renames again
-			if int(twitchID.Int64) != apiID {
+			if int(twitchID.Int64) != apiID && apiID != 0 {
 				logs.Logs().Warn().
 					Str("Player", player).
 					Int("TwitchID", apiID).
