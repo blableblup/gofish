@@ -13,6 +13,7 @@ import (
 
 func GetPlayerID(pool *pgxpool.Pool, player string, firstFishDate time.Time, firstFishChat string) (int, error) {
 
+	var lastoldname string
 	var playerID int
 	var twitchID sql.NullInt64
 
@@ -27,6 +28,7 @@ func GetPlayerID(pool *pgxpool.Pool, player string, firstFishDate time.Time, fir
 		return 0, err
 	}
 
+	// Query for all players with that name
 	rows, err := pool.Query(context.Background(), "SELECT playerid, twitchid FROM playerdata WHERE name = $1", player)
 	if err != nil {
 		logs.Logs().Error().Err(err).
@@ -75,53 +77,62 @@ func GetPlayerID(pool *pgxpool.Pool, player string, firstFishDate time.Time, fir
 					Int("TwitchID", apiID).
 					Msg("A player does not have a twitchID")
 				return playerID, nil
+			} else {
+				// Could happen if any of the fishers without a twitchID in the db catch a fish
+				// Can just manually update the twitchid ? But would also need to check the logs if that is still the same person or they renamed
+				logs.Logs().Warn().
+					Str("Player", player).
+					Int("PlayerID", playerID).
+					Int("TwitchID", apiID).
+					Msg("A player does not have a twitchID in the DB, but a player with that name was found having a twitchID")
+				// Dont return their playerID here. because they have a twitchID, check if they are new or not
 			}
 		}
 	}
 
-	// If the playerid didnt get returned yet, the player is new or renamed
-	playerID, err = Asdfjsadgaiga(apiID, player, firstFishDate, firstFishChat, pool)
-	if err != nil {
-		return 0, err
-	}
-
-	return playerID, nil
-}
-
-// To check if the player renamed, is an old name or is completely new
-func Asdfjsadgaiga(apiID int, player string, firstFishDate time.Time, firstFishChat string, pool *pgxpool.Pool) (int, error) {
-
-	renamed, isoldname, oldname, playerID, err := DidPlayerRename(apiID, player, pool)
-	if err != nil {
-		logs.Logs().Error().Err(err).
-			Int("TwitchID", apiID).
-			Str("Player", player).
-			Msg("Error checking if player renamed")
-		return 0, err
-	}
-
-	if renamed {
-
-		// Rename them and return their id
-		err = RenamePlayer(player, oldname, apiID, playerID, pool)
-		if err != nil {
-			logs.Logs().Error().Err(err).
-				Int("TwitchID", apiID).
-				Int("PlayerID", playerID).
+	// Check if an entry with that twitchid exists if the twitchid isnt 0
+	if apiID != 0 {
+		err := pool.QueryRow(context.Background(), "SELECT name, playerid FROM playerdata WHERE twitchid = $1", apiID).Scan(&lastoldname, &playerID)
+		if err == nil {
+			logs.Logs().Warn().
+				Str("LastOldName", lastoldname).
 				Str("Player", player).
-				Str("OldName", oldname).
-				Msg("Error renaming player")
+				Int("PlayerID", playerID).
+				Int("TwitchID", apiID).
+				Msg("A player renamed")
+
+			// Rename them and return their id
+			err = RenamePlayer(player, lastoldname, apiID, playerID, pool)
+			if err != nil {
+				logs.Logs().Error().Err(err).
+					Int("TwitchID", apiID).
+					Int("PlayerID", playerID).
+					Str("Player", player).
+					Str("OldName", lastoldname).
+					Msg("Error renaming player")
+				return 0, err
+			}
+
+			return playerID, nil
+		} else if err != pgx.ErrNoRows {
 			return 0, err
 		}
-
-		return playerID, nil
-
 	}
 
-	if isoldname {
-
-		// Return their playerid
-		return playerID, nil
+	// Check if the player name is an old name for a player if there is no twitchid found for that name
+	// This wont work though if the name is an old name for multiple players -.- then the data gets mixed up ?
+	if apiID == 0 {
+		err := pool.QueryRow(context.Background(), "SELECT name, playerid FROM playerdata WHERE $1 = ANY(STRING_TO_ARRAY(oldnames, ' '))", player).Scan(&lastoldname, &playerID)
+		if err == nil {
+			logs.Logs().Warn().
+				Str("CurrentName", lastoldname).
+				Str("Player", player).
+				Int("PlayerID", playerID).
+				Msg("A player is an old name")
+			return playerID, nil
+		} else if err != pgx.ErrNoRows {
+			return 0, err
+		}
 	}
 
 	// Add the new player if they didnt rename and arent an old name
@@ -136,48 +147,8 @@ func Asdfjsadgaiga(apiID int, player string, firstFishDate time.Time, firstFishC
 			Msg("Error adding player to playerdata")
 		return 0, err
 	}
+
 	return playerID, nil
-
-}
-
-func DidPlayerRename(twitchid int, player string, pool *pgxpool.Pool) (bool, bool, string, int, error) {
-
-	var playerID int
-	var lastoldname string
-
-	// Check if an entry with that twitchid exists if the twitchid isnt 0
-	if twitchid != 0 {
-		err := pool.QueryRow(context.Background(), "SELECT name, playerid FROM playerdata WHERE twitchid = $1", twitchid).Scan(&lastoldname, &playerID)
-		if err == nil {
-			logs.Logs().Warn().
-				Str("LastOldName", lastoldname).
-				Str("Player", player).
-				Int("PlayerID", playerID).
-				Int("TwitchID", twitchid).
-				Msg("A player renamed")
-			return true, false, lastoldname, playerID, nil
-		} else if err != pgx.ErrNoRows {
-			return false, false, lastoldname, playerID, err
-		}
-	}
-
-	// Check if the player name is an old name for a player if there is no twitchid found for that name
-	// This wont work though if the name is an old name for multiple players -.- then the data gets mixed up ?
-	if twitchid == 0 {
-		err := pool.QueryRow(context.Background(), "SELECT name, playerid FROM playerdata WHERE $1 = ANY(STRING_TO_ARRAY(oldnames, ' '))", player).Scan(&lastoldname, &playerID)
-		if err == nil {
-			logs.Logs().Warn().
-				Str("CurrentName", lastoldname).
-				Str("Player", player).
-				Int("PlayerID", playerID).
-				Msg("A player is an old name")
-			return false, true, lastoldname, playerID, nil
-		} else if err != pgx.ErrNoRows {
-			return false, false, lastoldname, playerID, err
-		}
-	}
-
-	return false, false, lastoldname, playerID, nil
 }
 
 func AddNewPlayer(twitchid int, player string, firstFishDate time.Time, firstFishChat string, pool *pgxpool.Pool) (int, error) {
