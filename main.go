@@ -13,7 +13,7 @@ import (
 func main() {
 	debug := flag.Bool("debug", false, "Debug some stuff")
 	program := flag.String("p", "", "Program name: boards, data, renamed, verified, pattern")
-	database := flag.String("database", "default", "What databse to connect to. Connects to whatever is named 'default' in the file by default.")
+	database := flag.String("database", "default", "What databse to connect to. Connects to whatever is named 'default' in sqlconfig.json by default.")
 
 	// For both boards and data
 	mode := flag.String("mm", "", "Modes are different for each program")
@@ -58,12 +58,13 @@ func main() {
 
 	switch *program {
 	case "":
-		logs.Logs().Warn().Msg("No program specified. Use '-p help' for help")
+		logs.Logs().Warn().Msg("Missing -p !")
 		return
 
 	case "boards":
 		logs.Logs().Info().
 			Str("Boards", *leaderboard).
+			Str("Database", *database).
 			Str("Chats", *chatNames).
 			Str("Program", *program).
 			Str("Date", *monthYear).
@@ -78,6 +79,7 @@ func main() {
 
 	case "data":
 		logs.Logs().Info().
+			Str("Database", *database).
 			Int("Months", *numMonths).
 			Str("Program", *program).
 			Str("Chats", *chatNames).
@@ -91,6 +93,7 @@ func main() {
 	case "renamedfish":
 		logs.Logs().Info().
 			Str("Rename pairs", *renamePairs).
+			Str("Database", *database).
 			Str("Program", *program).
 			Msg("Start")
 		namePairs, err := scripts.ProcessRenamePairs(*renamePairs)
@@ -106,12 +109,14 @@ func main() {
 
 	case "verified":
 		logs.Logs().Info().
+			Str("Database", *database).
 			Str("Program", *program).
 			Msg("Start")
 		scripts.VerifiedPlayers(pool)
 
 	case "updatetwitchids":
 		logs.Logs().Info().
+			Str("Database", *database).
 			Str("Program", *program).
 			Str("Mode", *mode).
 			Msg("Start")

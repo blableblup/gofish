@@ -187,9 +187,6 @@ func ProcessFishData(urls []string, chatName string, data string, Chat utils.Cha
 	return allFish
 }
 
-// Shared map for tournament + fishdata
-var playerids = make(map[string]int)
-
 func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.Config, mode string) error {
 
 	tx, err := pool.Begin(context.Background())
@@ -216,6 +213,7 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 		}
 	}
 
+	playerids := make(map[string]int)
 	lastChatIDs := make(map[string]int)
 	newBagCounts := make(map[string]int)
 	newFishCounts := make(map[string]int)
