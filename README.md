@@ -22,3 +22,5 @@
 * The log data for psp1g's chat from the 27th of February 2024 to the 3rd of March 2024 is incomplete (see [here](https://logs.nadeko.net/channel/psp1g/2024/2/28)).
 
 * The data for psp1g's chat from the 12th of December 2023 to the 14th of December 2023  is also incomplete (see [here](https://logs.nadeko.net/channel/psp1g/2023/12/13)).
+
+* Fish seen through gifts 🎁 and through releasing to another player during the winter events were not added to the database.

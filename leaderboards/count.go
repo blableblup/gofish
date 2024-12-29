@@ -312,10 +312,10 @@ func writeCount(filePath string, fishCaught map[int]data.FishInfo, oldCountRecor
 	}
 
 	if board == "unique" || board == "uniqueglobal" {
+		_, _ = fmt.Fprint(file, "\n_This does not include fish seen through 🎁 gifts or through releasing to another player during the winter events!_\n")
 		_, _ = fmt.Fprintf(file, "\n_Only showing fishers who have seen >= %d fish_\n", countlimit)
 	} else {
 		_, _ = fmt.Fprintf(file, "\n_Only showing fishers who caught >= %d fish_\n", countlimit)
-
 	}
 
 	_, _ = fmt.Fprintf(file, "\n_Last updated at %s_", time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC"))
