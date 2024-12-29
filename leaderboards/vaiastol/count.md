@@ -1,22 +1,22 @@
 ### Most fish caught in vaiastol's chat
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
-| 1 🥇  | vaiastol  | 881 (+57) |
-| 2 🥈  | hahppyy  | 621 (+35) |
+| 1 🥇  | vaiastol  | 966 (+85) |
+| 2 🥈  | hahppyy  | 659 (+38) |
 | 3 🥉  | divra__  | 249 |
-| 4  | leastsussyimposter  | 180 (+3) |
-| 5  | pengeg  | 152 (+15) |
-| 6 ⬇ | milesdotcom  | 137 |
-| 7  | dayzedinndaydreams  | 101 (+10) |
+| 4  | leastsussyimposter  | 210 (+30) |
+| 5  | pengeg  | 204 (+52) |
+| 6  | milesdotcom  | 137 |
+| 7  | dayzedinndaydreams  | 107 (+6) |
 | 8  | bubinga  | 55 |
-| 9  | yoimlee  | 51 (+1) |
-| 10  | houseofleaves*  | 25 |
-| 11  | jr_mime  | 17 |
-| 12  | creepycode*  | 13 |
-| 13  | mitgliederversammlung  | 11 |
-| 14  | ermnest  | 10 |
-| 14 🆕 | julialuxel  | 10 |
+| 9 ⬆ | julialuxel  | 51 (+41) |
+| 9  | yoimlee  | 51 |
+| 11 ⬇ | houseofleaves*  | 25 |
+| 12 ⬇ | jr_mime  | 17 |
+| 13 ⬇ | creepycode*  | 13 |
+| 14 ⬇ | mitgliederversammlung  | 11 |
+| 15 ⬇ | ermnest  | 10 |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2024-12-22 11:30:46 UTC_
+_Last updated at 2024-12-29 11:05:36 UTC_

@@ -11,7 +11,7 @@
 		"chat": "julialuxel",
 		"fishid": 105288,
 		"chatid": 294,
-		"rank": 41
+		"rank": 42
 	},
 	"athleticshoe": {
 		"player": "supibot",
@@ -25,7 +25,7 @@
 		"chat": "julialuxel",
 		"fishid": 52273,
 		"chatid": 108,
-		"rank": 47
+		"rank": 48
 	},
 	"beaver": {
 		"player": "julialuxel",
@@ -53,7 +53,7 @@
 		"chat": "julialuxel",
 		"fishid": 76330,
 		"chatid": 283,
-		"rank": 44
+		"rank": 45
 	},
 	"blowfish": {
 		"player": "toastyso",
@@ -80,7 +80,7 @@
 		"chat": "julialuxel",
 		"fishid": 52238,
 		"chatid": 99,
-		"rank": 51
+		"rank": 52
 	},
 	"boot": {
 		"player": "hahppyy",
@@ -94,7 +94,7 @@
 		"chat": "julialuxel",
 		"fishid": 55373,
 		"chatid": 206,
-		"rank": 39
+		"rank": 40
 	},
 	"candy": {
 		"player": "toastyso",
@@ -107,7 +107,7 @@
 		"chat": "julialuxel",
 		"fishid": 52600,
 		"chatid": 117,
-		"rank": 51
+		"rank": 52
 	},
 	"cannedfood": {
 		"player": "fallen_angels_1995",
@@ -121,7 +121,7 @@
 		"chat": "julialuxel",
 		"fishid": 56865,
 		"chatid": 217,
-		"rank": 40
+		"rank": 41
 	},
 	"cockroach": {
 		"player": "notnownico",
@@ -247,7 +247,7 @@
 		"chat": "julialuxel",
 		"fishid": 49046,
 		"chatid": 23,
-		"rank": 43
+		"rank": 44
 	},
 	"hook": {
 		"player": "hahppyy",
@@ -289,7 +289,7 @@
 		"chat": "julialuxel",
 		"fishid": 52916,
 		"chatid": 128,
-		"rank": 46
+		"rank": 47
 	},
 	"iphone": {
 		"player": "gawblemachine",
@@ -331,7 +331,7 @@
 		"chat": "julialuxel",
 		"fishid": 59231,
 		"chatid": 230,
-		"rank": 11
+		"rank": 12
 	},
 	"lure": {
 		"player": "toastyso",
@@ -360,6 +360,20 @@
 		"fishid": 52276,
 		"chatid": 109,
 		"rank": 27
+	},
+	"nestwitheggs": {
+		"player": "julialuxel",
+		"playerid": 64,
+		"weight": 2.18,
+		"bot": "gofishgame",
+		"type": "🪺",
+		"typename": "nestwitheggs",
+		"catchtype": "normal",
+		"date": "2024-12-24T01:54:16Z",
+		"chat": "julialuxel",
+		"fishid": 134561,
+		"chatid": 305,
+		"rank": 39
 	},
 	"octopus": {
 		"player": "supibot",
@@ -457,7 +471,7 @@
 		"chat": "julialuxel",
 		"fishid": 69576,
 		"chatid": 249,
-		"rank": 42
+		"rank": 43
 	},
 	"sauropod": {
 		"player": "toastyso",
@@ -485,7 +499,7 @@
 		"chat": "julialuxel",
 		"fishid": 48797,
 		"chatid": 15,
-		"rank": 49
+		"rank": 50
 	},
 	"seal": {
 		"player": "hahppyy",
@@ -513,7 +527,7 @@
 		"chat": "julialuxel",
 		"fishid": 70495,
 		"chatid": 269,
-		"rank": 48
+		"rank": 49
 	},
 	"shamrock": {
 		"player": "gawblemachine",
@@ -597,7 +611,7 @@
 		"chat": "julialuxel",
 		"fishid": 69613,
 		"chatid": 255,
-		"rank": 45
+		"rank": 46
 	},
 	"snake": {
 		"player": "hahppyy",
@@ -625,7 +639,7 @@
 		"chat": "julialuxel",
 		"fishid": 66058,
 		"chatid": 247,
-		"rank": 50
+		"rank": 51
 	},
 	"spider": {
 		"player": "puzzlow",
@@ -684,18 +698,18 @@
 		"rank": 20
 	},
 	"turtle": {
-		"player": "hahppyy",
-		"playerid": 1310,
-		"weight": 43.83,
+		"player": "julialuxel",
+		"playerid": 64,
+		"weight": 73.84,
 		"bot": "gofishgame",
 		"type": "🐢",
 		"typename": "turtle",
 		"catchtype": "normal",
-		"date": "2023-12-28T13:21:29Z",
+		"date": "2024-12-23T17:30:06Z",
 		"chat": "julialuxel",
-		"fishid": 49966,
-		"chatid": 46,
-		"rank": 12
+		"fishid": 134314,
+		"chatid": 304,
+		"rank": 11
 	},
 	"whale": {
 		"player": "hahppyy",

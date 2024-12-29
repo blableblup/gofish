@@ -91,7 +91,7 @@
 | 88  | xkimi1337  | 118 |
 | 89  | damon_okami*  | 116 |
 | 89  | pookiesnowman  | 116 |
-| 91  | aecyne  | 113 |
+| 91  | qyxuu  | 113 |
 | 92  | garciaerik  | 109 |
 | 92  | theskritsch  | 109 |
 | 94  | starducc  | 108 |
@@ -103,4 +103,4 @@
 
 _Only showing fishers who caught >= 100 fish_
 
-_Last updated at 2024-12-22 11:30:46 UTC_
+_Last updated at 2024-12-29 11:05:37 UTC_

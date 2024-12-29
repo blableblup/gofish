@@ -1,33 +1,41 @@
 ### Most fish caught in wuh6's chat
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
-| 1 🥇 🆕 | bubinga  | 152 |
-| 2 🥈 ⬇ | iflya320  | 144 (+132) |
-| 3 🥉 🆕 | eeziiii  | 120 |
-| 4 🆕 | huuuuuuuuuuuuuuuuuuuuuurz  | 92 |
-| 5 🆕 | mazzo_tv  | 65 |
-| 6 🆕 | wowitsdub  | 63 |
-| 7 🆕 | sandwichsundays*  | 60 |
-| 8 🆕 | nndiana*  | 54 |
-| 9 🆕 | caprisen_*  | 53 |
-| 9 🆕 | lobuhtomy  | 53 |
-| 11 🆕 | veny2lbs  | 51 |
-| 12 🆕 | theevirus  | 44 |
-| 13 🆕 | ratot  | 41 |
-| 14 🆕 | commanda_u  | 40 |
-| 14 🆕 | thetaxmen  | 40 |
-| 16 🆕 | teddbearcs  | 32 |
-| 16 🆕 | zwockel01  | 32 |
-| 18 🆕 | flovrek  | 28 |
-| 19 🆕 | onarrrrrrrr  | 27 |
-| 20 🆕 | gorillapark  | 25 |
-| 21 🆕 | wuh6  | 18 |
-| 22 🆕 | araqs  | 16 |
-| 23 🆕 | benciee  | 12 |
-| 23 🆕 | cotovelo3  | 12 |
-| 23 🆕 | glorianeq  | 12 |
-| 26 🆕 | aecyne  | 11 |
+| 1 🥇  | bubinga  | 297 (+145) |
+| 2 🥈  | iflya320  | 262 (+118) |
+| 3 🥉  | eeziiii  | 224 (+104) |
+| 4  | huuuuuuuuuuuuuuuuuuuuuurz  | 160 (+68) |
+| 5 ⬆ | nndiana*  | 134 (+80) |
+| 6 ⬆ | theevirus  | 117 (+73) |
+| 7 ⬇ | wowitsdub  | 112 (+49) |
+| 8 ⬇ | sandwichsundays*  | 109 (+49) |
+| 9 ⬇ | mazzo_tv  | 107 (+42) |
+| 10 ⬇ | lobuhtomy  | 105 (+52) |
+| 11 ⬆ | teddbearcs  | 98 (+66) |
+| 12 ⬇ | caprisen_*  | 94 (+41) |
+| 13 ⬇ | veny2lbs  | 83 (+32) |
+| 14 ⬆ | zwockel01  | 74 (+42) |
+| 15 ⬇ | thetaxmen  | 71 (+31) |
+| 16 ⬇ | commanda_u  | 68 (+28) |
+| 16 ⬆ | flovrek  | 68 (+40) |
+| 18 ⬆ | benciee  | 62 (+50) |
+| 19 ⬆ | gorillapark  | 57 (+32) |
+| 20 ⬇ | ratot  | 47 (+6) |
+| 21 ⬆ | qyxuu  | 45 (+34) |
+| 22 ⬇ | onarrrrrrrr  | 37 (+10) |
+| 23 ⬇ | araqs  | 30 (+14) |
+| 23 🆕 | jr_mime  | 30 |
+| 25 ⬇ | glorianeq  | 27 (+15) |
+| 26 ⬇ | wuh6  | 25 (+7) |
+| 27 🆕 | creepycode*  | 19 |
+| 27 🆕 | tdillar  | 19 |
+| 29 🆕 | llikotesnecil  | 17 |
+| 30 ⬇ | cotovelo3  | 15 (+3) |
+| 31 🆕 | ocrw  | 12 |
+| 32 🆕 | chuuubbyyy  | 11 |
+| 32 🆕 | drecklo  | 11 |
+| 32 🆕 | supibot  | 11 |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2024-12-22 11:30:46 UTC_
+_Last updated at 2024-12-29 11:05:37 UTC_

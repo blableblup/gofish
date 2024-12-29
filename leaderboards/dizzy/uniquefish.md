@@ -1,41 +1,45 @@
 ### Players who have seen the most fish in dizzy's chat
 | Rank | Player | Fish Seen |
 |------|--------|-----------|
-| 1 🥇  | iam_haunt_  | 57 (+4) |
-| 2 🥈  | buhl00n  | 56 (+7) |
-| 3 🥉 ⬆ | ben_vincent  | 52 (+7) |
-| 4 ⬆ | gimmeschmoneys  | 49 (+5) |
-| 4 ⬇ | konsminator  | 49 |
-| 6 ⬆ | gofishrigged  | 48 (+6) |
-| 6 ⬇ | spanmer  | 48 |
-| 8 ⬇ | lolspers  | 46 |
-| 9 ⬇ | rabituwu  | 44 |
-| 9  | vagdi  | 44 (+1) |
-| 11  | tairaaaaa  | 43 (+2) |
-| 12 ⬆ | notnownico  | 40 (+4) |
-| 12  | ssenario  | 40 |
-| 14 ⬆ | ofaisalz  | 39 (+9) |
-| 14 ⬇ | simplydrack  | 39 (+2) |
-| 16 ⬇ | burnend  | 37 |
-| 17 ⬇ | aceleju  | 36 |
-| 18 ⬆ | sugur  | 35 (+5) |
-| 19 ⬇ | kukkuri  | 34 |
-| 20 ⬆ | exo9*  | 33 (+5) |
-| 21 ⬇ | 777pancake  | 31 |
-| 21 ⬇ | paperboat99  | 31 |
-| 23 ⬇ | icejamx  | 30 |
-| 24 ⬇ | imzommie  | 29 |
-| 24 ⬇ | kyonuwu  | 29 |
-| 26 ⬇ | whoop_ee  | 28 |
+| 1 🥇 ⬆ | buhl00n  | 63 (+7) |
+| 2 🥈 ⬆ | ben_vincent  | 58 (+6) |
+| 3 🥉 ⬇ | iam_haunt_  | 57 |
+| 4 ⬆ | gofishrigged  | 56 (+8) |
+| 5 ⬆ | lolspers  | 51 (+5) |
+| 6 ⬇ | gimmeschmoneys  | 49 |
+| 6 ⬇ | konsminator  | 49 |
+| 8 ⬇ | spanmer  | 48 |
+| 9  | rabituwu  | 44 |
+| 9  | vagdi  | 44 |
+| 11  | tairaaaaa  | 43 |
+| 12 ⬆ | ofaisalz  | 42 (+3) |
+| 13 ⬇ | notnownico  | 40 |
+| 13 ⬆ | simplydrack  | 40 (+1) |
+| 13 ⬇ | ssenario  | 40 |
+| 16 ⬆ | exo9*  | 38 (+5) |
+| 17 ⬇ | burnend  | 37 |
+| 17 ⬆ | sugur  | 37 (+2) |
+| 19 ⬇ | aceleju  | 36 |
+| 20 ⬇ | kukkuri  | 34 |
+| 21  | 777pancake  | 31 |
+| 21  | paperboat99  | 31 |
+| 23  | icejamx  | 30 |
+| 24  | imzommie  | 29 |
+| 24  | kyonuwu  | 29 |
+| 26  | whoop_ee  | 28 |
 | 27  | silent11d5  | 27 |
 | 28  | respirate_  | 26 |
+| 29 🆕 | feuha  | 25 |
 | 29  | rozbox  | 25 |
-| 30  | dizzy  | 21 |
-| 30  | mitsu_skidz  | 21 |
-| 32 🆕 | extrafocused  | 20 |
-| 32  | gigi  | 20 |
-| 32  | omegalulow2onsteam  | 20 |
+| 31 ⬇ | mitsu_skidz  | 22 (+1) |
+| 31 🆕 | youngstercal  | 22 |
+| 33 ⬇ | dizzy  | 21 |
+| 34 ⬇ | extrafocused  | 20 |
+| 34 ⬇ | gigi  | 20 |
+| 34 ⬇ | omegalulow2onsteam  | 20 |
+
+_This does not include fish seen through 🎁 gifts or through releasing to another player during the winter events!_
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2024-12-22 11:30:18 UTC_
+_Last updated at 2024-12-29 11:04:30 UTC_
