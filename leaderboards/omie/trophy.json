@@ -6,7 +6,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 1,
 		"chatid": 2,
-		"rank": 3
+		"rank": 4
 	},
 	"2813": {
 		"player": "ritaaww",
@@ -24,7 +24,7 @@
 		"weight": 1.5,
 		"date": "0001-01-01T00:00:00Z",
 		"maxcount": 3,
-		"rank": 5
+		"rank": 6
 	},
 	"2941": {
 		"player": "v6r_",
@@ -39,10 +39,12 @@
 	"3142": {
 		"player": "mangos4u",
 		"playerid": 3142,
-		"weight": 1,
+		"weight": 7.5,
 		"date": "0001-01-01T00:00:00Z",
+		"fishid": 2,
 		"chatid": 1,
-		"rank": 6
+		"maxcount": 1,
+		"rank": 3
 	},
 	"3487": {
 		"player": "solahh__",
@@ -51,6 +53,6 @@
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 1,
 		"maxcount": 5,
-		"rank": 4
+		"rank": 5
 	}
 }
