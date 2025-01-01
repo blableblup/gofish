@@ -1,8 +1,9 @@
-package utils
+package data
 
 import (
 	"fmt"
 	"gofish/logs"
+	"gofish/utils"
 	"strconv"
 	"strings"
 	"time"
@@ -11,7 +12,7 @@ import (
 // This creates the urls which get checked in data. By default it returns the url of the current month
 // To do: Add a way to check different justlog instances for older data / when the current one is unavailable ?
 
-func CreateURL(chatName string, numMonths int, monthYear string, config Config) []string {
+func CreateURL(chatName string, numMonths int, monthYear string, config utils.Config) []string {
 
 	now := time.Now()
 	var urls []string
