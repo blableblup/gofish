@@ -234,12 +234,6 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 
 	for _, fish := range allFish {
 
-		// Only needed if mode is a since FishData only adds new fish else.
-		if mode == "a" {
-			logs.Logs().Warn().Msg("This doesnt do anything atm. There needs to be a way to insert 'old' fish which arent in the db. Add this back for bags and fish")
-			return nil
-		}
-
 		if _, ok := playerids[fish.Player]; !ok {
 			playerID, err := playerdata.GetPlayerID(pool, fish.Player, fish.Date, fish.Chat)
 			if err != nil {
@@ -269,6 +263,38 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 		switch fish.CatchType {
 		// Add the fish into fish table
 		default:
+
+			// Only needed if mode is a since FishData only adds new fish else
+			// Not checking the exact second here and in bags, because that can be different, example:
+			// [2023-12-31 00:33:46] #psp1g gofishgame: @leoisbaba, You caught a ✨ 🐟 ✨! It weighs 31.86 lbs. (30m cooldown after a catch) logs.ivr.fi
+			// [2023-12-30 23:33:45] #psp1g gofishgame: @leoisbaba, You caught a ✨ 🐟 ✨! It weighs 31.86 lbs. (30m cooldown after a catch) logs.nadeko.net
+			// PROBLEM: if the time is ...:59 and ....:00 the fish still gets added >___<
+			// [2024-06-03 04:42:00] #psp1g gofishgame: @keremk_3, You caught a ✨ 🎏 ✨! It weighs 1.64 lbs. (30m cooldown after a catch) logs.ivr.fi
+			// [2024-06-03 02:41:59] #psp1g gofishgame: @keremk_3, You caught a ✨ 🎏 ✨! It weighs 1.64 lbs. (30m cooldown after a catch) logs.nadeko.net
+			if mode == "a" {
+
+				var count int
+				err := tx.QueryRow(context.Background(), `
+				SELECT COUNT(*) FROM `+tableName+`
+				WHERE EXTRACT(year FROM date) = EXTRACT(year FROM $1::timestamp)
+				AND EXTRACT(month FROM date) = EXTRACT(month FROM $1::timestamp)
+				AND EXTRACT(day FROM date) = EXTRACT(day FROM $1::timestamp)
+				AND EXTRACT(hour FROM date) = EXTRACT(hour FROM $1::timestamp)
+				AND EXTRACT(minute FROM date) = EXTRACT(minute FROM $1::timestamp)
+				AND EXTRACT(second FROM date) - EXTRACT(second FROM $1::timestamp) <= 1
+				AND EXTRACT(second FROM date) - EXTRACT(second FROM $1::timestamp) >= -1
+				AND weight = $2 AND player = $3 AND chat = $4 AND fishtype = $5
+				`, fish.Date, fish.Weight, fish.Player, fish.Chat, fish.Type).Scan(&count)
+				if err != nil {
+					logs.Logs().Error().Err(err).
+						Str("Table", tableName).
+						Msg("Error checking if fish exists")
+					return err
+				}
+				if count > 0 {
+					continue // Skip that fish
+				}
+			}
 
 			if _, ok := lastChatIDs[fish.Chat]; !ok {
 				lastChatID, err := getLastChatIDFromDB(pool, fish.Chat, tableName)
@@ -306,6 +332,33 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 
 		// Add the bag into the table for bags
 		case "bag":
+
+			// Only needed if mode is a since FishData only adds new bags else
+			if mode == "a" {
+
+				var count int
+				err := tx.QueryRow(context.Background(), `
+				SELECT COUNT(*) FROM `+tableNameBag+`
+				WHERE EXTRACT(year FROM date) = EXTRACT(year FROM $1::timestamp)
+				AND EXTRACT(month FROM date) = EXTRACT(month FROM $1::timestamp)
+				AND EXTRACT(day FROM date) = EXTRACT(day FROM $1::timestamp)
+				AND EXTRACT(hour FROM date) = EXTRACT(hour FROM $1::timestamp)
+				AND EXTRACT(minute FROM date) = EXTRACT(minute FROM $1::timestamp)
+				AND EXTRACT(second FROM date) = EXTRACT(second FROM $1::timestamp)
+				AND EXTRACT(second FROM date) - EXTRACT(second FROM $1::timestamp) <= 1
+				AND EXTRACT(second FROM date) - EXTRACT(second FROM $1::timestamp) >= -1
+				AND player = $2 AND chat = $3 AND bag = $4
+				`, fish.Date, fish.Player, fish.Chat, fish.Type).Scan(&count)
+				if err != nil {
+					logs.Logs().Error().Err(err).
+						Str("Table", tableNameBag).
+						Msg("Error checking if bag exists")
+					return err
+				}
+				if count > 0 {
+					continue // Skip that bag
+				}
+			}
 
 			query := fmt.Sprintf("INSERT INTO %s (bag, player, playerid, date, bot, chat, url) VALUES ($1, $2, $3, $4, $5, $6, $7)", tableNameBag)
 			_, err = tx.Exec(context.Background(), query, fish.Type, fish.Player, playerID, fish.Date, fish.Bot, fish.Chat, fish.Url)
