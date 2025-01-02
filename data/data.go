@@ -229,6 +229,9 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 		}
 	}
 
+	date1, _ := utils.ParseDate("2024-06-06 00:00:00") // When logs ivr started using utc in the logs
+	date2, _ := utils.ParseDate("2024-03-31 03:00:00") // When normal time changed to summer time
+
 	for _, fish := range allFish {
 
 		// Only needed if mode is a since FishData only adds new fish else.
@@ -249,6 +252,19 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 		}
 
 		playerID := playerids[fish.Player]
+
+		// Because logs.ivr didnt use utc but instead had the logs in utc+1/utc+2
+		if strings.Contains(fish.Url, "logs.ivr.fi") {
+
+			if fish.Date.Before(date1) && fish.Date.Before(date2) {
+				// Subtract one hour (utc+1 to utc)
+				fish.Date = fish.Date.Add(time.Hour * -1)
+			}
+			if fish.Date.Before(date1) && fish.Date.After(date2) {
+				// Subtract two hours (utc+2 to utc)
+				fish.Date = fish.Date.Add(time.Hour * -2)
+			}
+		}
 
 		switch fish.CatchType {
 		// Add the fish into fish table
