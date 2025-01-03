@@ -2,9 +2,9 @@
 	"1135": {
 		"player": "vaiastol",
 		"playerid": 1135,
-		"weight": 43,
+		"weight": 52,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 13,
+		"fishid": 16,
 		"chatid": 3,
 		"maxcount": 2,
 		"rank": 1
@@ -55,5 +55,14 @@
 		"chatid": 2,
 		"maxcount": 4,
 		"rank": 5
+	},
+	"756": {
+		"player": "pengeg",
+		"playerid": 756,
+		"weight": 2,
+		"date": "0001-01-01T00:00:00Z",
+		"chatid": 1,
+		"maxcount": 2,
+		"rank": 7
 	}
 }
