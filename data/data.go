@@ -264,27 +264,27 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 		// Add the fish into fish table
 		default:
 
-			// Only needed if mode is a since FishData only adds new fish else
+			// Only need to check if a fish/bag exists if mode is 'a', because else you only have new fish
 			// Not checking the exact second here and in bags, because that can be different, example:
 			// [2023-12-31 00:33:46] #psp1g gofishgame: @leoisbaba, You caught a ✨ 🐟 ✨! It weighs 31.86 lbs. (30m cooldown after a catch) logs.ivr.fi
 			// [2023-12-30 23:33:45] #psp1g gofishgame: @leoisbaba, You caught a ✨ 🐟 ✨! It weighs 31.86 lbs. (30m cooldown after a catch) logs.nadeko.net
-			// PROBLEM: if the time is ...:59 and ....:00 the fish still gets added >___<
-			// [2024-06-03 04:42:00] #psp1g gofishgame: @keremk_3, You caught a ✨ 🎏 ✨! It weighs 1.64 lbs. (30m cooldown after a catch) logs.ivr.fi
-			// [2024-06-03 02:41:59] #psp1g gofishgame: @keremk_3, You caught a ✨ 🎏 ✨! It weighs 1.64 lbs. (30m cooldown after a catch) logs.nadeko.net
+			// Can even be more than one second, 5 is the largest difference i found, examples:
+			// [2024-05-25 00:10:27] #psp1g gofishgame: @divra__, You caught a ✨ 🐠 ✨! It weighs 3.25 lbs. (30m cooldown after a catch) logs.ivr.fi
+			// [2024-05-24 22:10:25] #psp1g gofishgame: @divra__, You caught a ✨ 🐠 ✨! It weighs 3.25 lbs. (30m cooldown after a catch) logs.nadeko.net
+			// [2024-01-22 02:23:25] #psp1g gofishgame: @caprise627, You caught a ✨ 🥫 ✨! It weighs 3.62 lbs. (30m cooldown after a catch) logs.ivr.fi
+			// [2024-01-22 01:23:21] #psp1g gofishgame: @caprise627, You caught a ✨ 🥫 ✨! It weighs 3.62 lbs. (30m cooldown after a catch) logs.nadeko.net
+			// [2024-01-20 13:48:50] #psp1g gofishgame: @norque69, You caught a ✨ 🦪 ✨! It weighs 15.93 lbs. (30m cooldown after a catch) logs.ivr.fi
+			// [2024-01-20 12:48:45] #psp1g gofishgame: @norque69, You caught a ✨ 🦪 ✨! It weighs 15.93 lbs. (30m cooldown after a catch) logs.nadeko.net
+			// If someone gets the same fish from releasing in between ten seconds and one of the catches wasnt logged, this would skip that catch though
+			// Because fishtype, weight (0 lbs), player and chat would be the same and the date would fall in between that date range
 			if mode == "a" {
 
 				var count int
 				err := tx.QueryRow(context.Background(), `
 				SELECT COUNT(*) FROM `+tableName+`
-				WHERE EXTRACT(year FROM date) = EXTRACT(year FROM $1::timestamp)
-				AND EXTRACT(month FROM date) = EXTRACT(month FROM $1::timestamp)
-				AND EXTRACT(day FROM date) = EXTRACT(day FROM $1::timestamp)
-				AND EXTRACT(hour FROM date) = EXTRACT(hour FROM $1::timestamp)
-				AND EXTRACT(minute FROM date) = EXTRACT(minute FROM $1::timestamp)
-				AND EXTRACT(second FROM date) - EXTRACT(second FROM $1::timestamp) <= 1
-				AND EXTRACT(second FROM date) - EXTRACT(second FROM $1::timestamp) >= -1
-				AND weight = $2 AND player = $3 AND chat = $4 AND fishtype = $5
-				`, fish.Date, fish.Weight, fish.Player, fish.Chat, fish.Type).Scan(&count)
+				WHERE date <= $1::timestamp AND date >= $2::timestamp
+				AND weight = $3 AND player = $4 AND chat = $5 AND fishtype = $6
+				`, fish.Date.Add(time.Second*5), fish.Date.Add(time.Second*-5), fish.Weight, fish.Player, fish.Chat, fish.Type).Scan(&count)
 				if err != nil {
 					logs.Logs().Error().Err(err).
 						Str("Table", tableName).
@@ -333,22 +333,14 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 		// Add the bag into the table for bags
 		case "bag":
 
-			// Only needed if mode is a since FishData only adds new bags else
 			if mode == "a" {
 
 				var count int
 				err := tx.QueryRow(context.Background(), `
 				SELECT COUNT(*) FROM `+tableNameBag+`
-				WHERE EXTRACT(year FROM date) = EXTRACT(year FROM $1::timestamp)
-				AND EXTRACT(month FROM date) = EXTRACT(month FROM $1::timestamp)
-				AND EXTRACT(day FROM date) = EXTRACT(day FROM $1::timestamp)
-				AND EXTRACT(hour FROM date) = EXTRACT(hour FROM $1::timestamp)
-				AND EXTRACT(minute FROM date) = EXTRACT(minute FROM $1::timestamp)
-				AND EXTRACT(second FROM date) = EXTRACT(second FROM $1::timestamp)
-				AND EXTRACT(second FROM date) - EXTRACT(second FROM $1::timestamp) <= 1
-				AND EXTRACT(second FROM date) - EXTRACT(second FROM $1::timestamp) >= -1
-				AND player = $2 AND chat = $3 AND bag = $4
-				`, fish.Date, fish.Player, fish.Chat, fish.Type).Scan(&count)
+				WHERE date <= $1::timestamp AND date >= $2::timestamp
+				AND player = $3 AND chat = $4 AND bag = $5
+				`, fish.Date.Add(time.Second*5), fish.Date.Add(time.Second*-5), fish.Player, fish.Chat, fish.Type).Scan(&count)
 				if err != nil {
 					logs.Logs().Error().Err(err).
 						Str("Table", tableNameBag).
@@ -387,14 +379,14 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			}
 
 			// Always checks if the result is already in the db, because you can do +checkin multiple times
-			// There is a bug where it will show the checkin result of the previous week if noone checked in, thats why it checks 14 days instead of 7
-			// This means that you cannot have the exact same tournament result two weeks in a row though
+			// There is a bug where it will show the checkin result of the previous week if noone checked in, have to manually delete those
+			// If you check for more than 7 days, you could end up skipping a result if someone has the exact same result two weeks in a row (very unlikely)
 			var count int
 			err := tx.QueryRow(context.Background(), `
 			SELECT COUNT(*) FROM `+tableNameTournament+`
-			WHERE (date >= $1::timestamp - interval '14 days' AND date < $2::timestamp + interval '1 day')
-			   AND player = $3 AND fishcaught = $4 AND placement1 = $5 AND totalweight = $6 AND placement2 = $7 AND biggestfish = $8 AND placement3 = $9
-		`, fish.Date, fish.Date, fish.Player, fish.Count, fish.FishPlacement, fish.TotalWeight, fish.WeightPlacement,
+			WHERE date >= $1::timestamp AND date <= $2::timestamp
+			AND player = $3 AND fishcaught = $4 AND placement1 = $5 AND totalweight = $6 AND placement2 = $7 AND biggestfish = $8 AND placement3 = $9
+		`, fish.Date.Add(time.Hour*-168), fish.Date, fish.Player, fish.Count, fish.FishPlacement, fish.TotalWeight, fish.WeightPlacement,
 				fish.Weight, fish.BiggestFishPlacement).Scan(&count)
 			if err != nil {
 				logs.Logs().Error().Err(err).
