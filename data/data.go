@@ -421,66 +421,44 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 		return err
 	}
 
-	var noNewFishChats []string
-	var noNewBagsChats []string
-	var noNewResultCounts []string
+	newCounts := []map[string]int{newFishCounts, newBagCounts, newResultCounts}
+	var things string
+	somenumber := 0
 
-	for chat, count := range newFishCounts {
-		if count > 0 {
-			logs.Logs().Info().
-				Int("Count", count).
-				Str("Chat", chat).
-				Msg("New fish added into the database for chat")
-		} else {
-			noNewFishChats = append(noNewFishChats, chat)
+	for _, m := range newCounts {
+		somenumber++
+
+		switch somenumber {
+		case 1:
+			things = "fish"
+		case 2:
+			things = "bags"
+		case 3:
+			things = "results"
 		}
-	}
 
-	sort.SliceStable(noNewFishChats, func(i, j int) bool {
-		return noNewFishChats[i] < noNewFishChats[j]
-	})
+		var noNewCounts []string
 
-	logs.Logs().Info().
-		Interface("Chats", noNewFishChats).
-		Msg("No new fish found for chats")
-
-	for chat, count := range newBagCounts {
-		if count > 0 {
-			logs.Logs().Info().
-				Int("Count", count).
-				Str("Chat", chat).
-				Msg("New bags added into the database for chat")
-		} else {
-			noNewBagsChats = append(noNewBagsChats, chat)
+		for chat, count := range m {
+			if count > 0 {
+				logs.Logs().Info().
+					Int("Count", count).
+					Str("Chat", chat).
+					Msgf("New %s added into the database for chat", things)
+			} else {
+				noNewCounts = append(noNewCounts, chat)
+			}
 		}
+
+		sort.SliceStable(noNewCounts, func(i, j int) bool {
+			return noNewCounts[i] < noNewCounts[j]
+		})
+
+		logs.Logs().Info().
+			Interface("Chats", noNewCounts).
+			Msgf("No new %s found for chats", things)
+
 	}
-
-	sort.SliceStable(noNewBagsChats, func(i, j int) bool {
-		return noNewBagsChats[i] < noNewBagsChats[j]
-	})
-
-	logs.Logs().Info().
-		Interface("Chats", noNewBagsChats).
-		Msg("No new bags found for chats")
-
-	for chat, count := range newResultCounts {
-		if count > 0 {
-			logs.Logs().Info().
-				Int("Count", count).
-				Str("Chat", chat).
-				Msg("New results added into the database for chat")
-		} else {
-			noNewResultCounts = append(noNewResultCounts, chat)
-		}
-	}
-
-	sort.SliceStable(noNewResultCounts, func(i, j int) bool {
-		return noNewResultCounts[i] < noNewResultCounts[j]
-	})
-
-	logs.Logs().Info().
-		Interface("Chats", noNewResultCounts).
-		Msg("No new results found for chats")
 
 	return nil
 }
