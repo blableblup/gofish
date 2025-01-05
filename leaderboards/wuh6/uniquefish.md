@@ -1,31 +1,34 @@
 ### Players who have seen the most fish in wuh6's chat
 | Rank | Player | Fish Seen |
 |------|--------|-----------|
-| 1 🥇  | bubinga  | 49 (+7) |
-| 2 🥈  | eeziiii  | 44 (+9) |
-| 3 🥉  | huuuuuuuuuuuuuuuuuuuuuurz  | 41 (+7) |
-| 4  | mazzo_tv  | 38 (+8) |
-| 5  | veny2lbs  | 37 (+8) |
-| 6 ⬆ | thetaxmen  | 36 (+11) |
-| 7 ⬇ | sandwichsundays*  | 35 (+6) |
-| 7 ⬆ | theevirus  | 35 (+10) |
-| 9 ⬆ | lobuhtomy  | 34 (+11) |
-| 9 ⬆ | nndiana*  | 34 (+11) |
-| 11 ⬇ | wowitsdub  | 33 (+6) |
-| 12 ⬆ | teddbearcs  | 32 (+12) |
-| 13 ⬇ | caprisen_*  | 31 (+10) |
-| 14 🆕 | flovrek  | 29 |
-| 15 🆕 | benciee  | 28 |
-| 16 ⬇ | commanda_u  | 27 (+7) |
-| 17 🆕 | zwockel01  | 25 |
-| 18 ⬇ | ratot  | 24 (+3) |
-| 19 🆕 | gorillapark  | 23 |
-| 19 ⬇ | onarrrrrrrr  | 23 (+3) |
-| 21 🆕 | qyxuu  | 22 |
-| 22 🆕 | araqs  | 20 |
+| 1 🥇  | bubinga  | 53 (+4) |
+| 2 🥈  | eeziiii  | 51 (+7) |
+| 3 🥉  | huuuuuuuuuuuuuuuuuuuuuurz  | 44 (+3) |
+| 4  | mazzo_tv  | 43 (+5) |
+| 5 ⬆ | thetaxmen  | 42 (+6) |
+| 6 ⬆ | nndiana*  | 41 (+7) |
+| 6 ⬇ | veny2lbs  | 41 (+4) |
+| 8 ⬇ | theevirus  | 39 (+4) |
+| 9 ⬆ | wowitsdub  | 38 (+5) |
+| 10 ⬇ | lobuhtomy  | 37 (+3) |
+| 10 ⬇ | sandwichsundays*  | 37 (+2) |
+| 12  | teddbearcs  | 35 (+3) |
+| 13  | caprisen_*  | 33 (+2) |
+| 14 ⬆ | benciee  | 32 (+4) |
+| 14  | flovrek  | 32 (+3) |
+| 16 ⬆ | zwockel01  | 31 (+6) |
+| 17 ⬇ | commanda_u  | 29 (+2) |
+| 17 ⬆ | gorillapark  | 29 (+6) |
+| 19 ⬇ | ratot  | 25 (+1) |
+| 20 🆕 | glorianeq  | 23 |
+| 20 ⬇ | onarrrrrrrr  | 23 |
+| 22 🆕 | jr_mime  | 22 |
+| 22 ⬇ | qyxuu  | 22 |
+| 24 ⬇ | araqs  | 21 (+1) |
+| 25 🆕 | wuh6  | 20 |
 
 _This does not include fish seen through 🎁 gifts or through releasing to another player during the winter events!_
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2024-12-29 11:04:30 UTC_
+_Last updated at 2025-01-05 12:11:27 UTC_
