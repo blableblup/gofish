@@ -2,9 +2,9 @@
 	"1135": {
 		"player": "vaiastol",
 		"playerid": 1135,
-		"weight": 52,
+		"weight": 58,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 16,
+		"fishid": 18,
 		"chatid": 3,
 		"maxcount": 2,
 		"rank": 1
@@ -19,6 +19,14 @@
 		"maxcount": 1,
 		"rank": 2
 	},
+	"135": {
+		"player": "leanmeister",
+		"playerid": 135,
+		"weight": 3,
+		"date": "0001-01-01T00:00:00Z",
+		"fishid": 1,
+		"rank": 7
+	},
 	"1353": {
 		"player": "leastsussyimposter",
 		"playerid": 1353,
@@ -31,10 +39,10 @@
 	"56": {
 		"player": "dayzedinndaydreams",
 		"playerid": 56,
-		"weight": 18.5,
+		"weight": 19,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 6,
-		"maxcount": 1,
+		"maxcount": 2,
 		"rank": 3
 	},
 	"575": {
@@ -63,6 +71,6 @@
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 1,
 		"maxcount": 2,
-		"rank": 7
+		"rank": 8
 	}
 }
