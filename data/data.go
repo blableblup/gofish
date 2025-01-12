@@ -229,13 +229,10 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 		}
 	}
 
-	for _, fish := range allFish {
+	date1, _ := utils.ParseDate("2024-06-06 00:00:00") // When logs ivr started using utc in the logs
+	date2, _ := utils.ParseDate("2024-03-31 03:00:00") // When normal time changed to summer time
 
-		// Only needed if mode is a since FishData only adds new fish else.
-		if mode == "a" {
-			logs.Logs().Warn().Msg("This doesnt do anything atm. There needs to be a way to insert 'old' fish which arent in the db. Add this back for bags and fish")
-			return nil
-		}
+	for _, fish := range allFish {
 
 		if _, ok := playerids[fish.Player]; !ok {
 			playerID, err := playerdata.GetPlayerID(pool, fish.Player, fish.Date, fish.Chat)
@@ -250,9 +247,54 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 
 		playerID := playerids[fish.Player]
 
+		// Because logs.ivr didnt use utc but instead had the logs in utc+1/utc+2
+		if strings.Contains(fish.Url, "logs.ivr.fi") {
+
+			if fish.Date.Before(date1) && fish.Date.Before(date2) {
+				// Subtract one hour (utc+1 to utc)
+				fish.Date = fish.Date.Add(time.Hour * -1)
+			}
+			if fish.Date.Before(date1) && fish.Date.After(date2) {
+				// Subtract two hours (utc+2 to utc)
+				fish.Date = fish.Date.Add(time.Hour * -2)
+			}
+		}
+
 		switch fish.CatchType {
 		// Add the fish into fish table
 		default:
+
+			// Only need to check if a fish/bag exists if mode is 'a', because else you only have new fish
+			// Not checking the exact second here and in bags, because that can be different, example:
+			// [2023-12-31 00:33:46] #psp1g gofishgame: @leoisbaba, You caught a ✨ 🐟 ✨! It weighs 31.86 lbs. (30m cooldown after a catch) logs.ivr.fi
+			// [2023-12-30 23:33:45] #psp1g gofishgame: @leoisbaba, You caught a ✨ 🐟 ✨! It weighs 31.86 lbs. (30m cooldown after a catch) logs.nadeko.net
+			// Can even be more than one second, 5 is the largest difference i found, examples:
+			// [2024-05-25 00:10:27] #psp1g gofishgame: @divra__, You caught a ✨ 🐠 ✨! It weighs 3.25 lbs. (30m cooldown after a catch) logs.ivr.fi
+			// [2024-05-24 22:10:25] #psp1g gofishgame: @divra__, You caught a ✨ 🐠 ✨! It weighs 3.25 lbs. (30m cooldown after a catch) logs.nadeko.net
+			// [2024-01-22 02:23:25] #psp1g gofishgame: @caprise627, You caught a ✨ 🥫 ✨! It weighs 3.62 lbs. (30m cooldown after a catch) logs.ivr.fi
+			// [2024-01-22 01:23:21] #psp1g gofishgame: @caprise627, You caught a ✨ 🥫 ✨! It weighs 3.62 lbs. (30m cooldown after a catch) logs.nadeko.net
+			// [2024-01-20 13:48:50] #psp1g gofishgame: @norque69, You caught a ✨ 🦪 ✨! It weighs 15.93 lbs. (30m cooldown after a catch) logs.ivr.fi
+			// [2024-01-20 12:48:45] #psp1g gofishgame: @norque69, You caught a ✨ 🦪 ✨! It weighs 15.93 lbs. (30m cooldown after a catch) logs.nadeko.net
+			// If someone gets the same fish from releasing in between ten seconds and one of the catches wasnt logged, this would skip that catch though
+			// Because fishtype, weight (0 lbs), player and chat would be the same and the date would fall in between that date range
+			if mode == "a" {
+
+				var count int
+				err := tx.QueryRow(context.Background(), `
+				SELECT COUNT(*) FROM `+tableName+`
+				WHERE date <= $1::timestamp AND date >= $2::timestamp
+				AND weight = $3 AND player = $4 AND chat = $5 AND fishtype = $6
+				`, fish.Date.Add(time.Second*5), fish.Date.Add(time.Second*-5), fish.Weight, fish.Player, fish.Chat, fish.Type).Scan(&count)
+				if err != nil {
+					logs.Logs().Error().Err(err).
+						Str("Table", tableName).
+						Msg("Error checking if fish exists")
+					return err
+				}
+				if count > 0 {
+					continue // Skip that fish
+				}
+			}
 
 			if _, ok := lastChatIDs[fish.Chat]; !ok {
 				lastChatID, err := getLastChatIDFromDB(pool, fish.Chat, tableName)
@@ -291,6 +333,25 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 		// Add the bag into the table for bags
 		case "bag":
 
+			if mode == "a" {
+
+				var count int
+				err := tx.QueryRow(context.Background(), `
+				SELECT COUNT(*) FROM `+tableNameBag+`
+				WHERE date <= $1::timestamp AND date >= $2::timestamp
+				AND player = $3 AND chat = $4 AND bag = $5
+				`, fish.Date.Add(time.Second*5), fish.Date.Add(time.Second*-5), fish.Player, fish.Chat, fish.Type).Scan(&count)
+				if err != nil {
+					logs.Logs().Error().Err(err).
+						Str("Table", tableNameBag).
+						Msg("Error checking if bag exists")
+					return err
+				}
+				if count > 0 {
+					continue // Skip that bag
+				}
+			}
+
 			query := fmt.Sprintf("INSERT INTO %s (bag, player, playerid, date, bot, chat, url) VALUES ($1, $2, $3, $4, $5, $6, $7)", tableNameBag)
 			_, err = tx.Exec(context.Background(), query, fish.Type, fish.Player, playerID, fish.Date, fish.Bot, fish.Chat, fish.Url)
 			if err != nil {
@@ -318,14 +379,14 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			}
 
 			// Always checks if the result is already in the db, because you can do +checkin multiple times
-			// There is a bug where it will show the checkin result of the previous week if noone checked in, thats why it checks 14 days instead of 7
-			// This means that you cannot have the exact same tournament result two weeks in a row though
+			// There is a bug where it will show the checkin result of the previous week if noone checked in, have to manually delete those
+			// If you check for more than 7 days, you could end up skipping a result if someone has the exact same result two weeks in a row (very unlikely)
 			var count int
 			err := tx.QueryRow(context.Background(), `
 			SELECT COUNT(*) FROM `+tableNameTournament+`
-			WHERE (date >= $1::timestamp - interval '14 days' AND date < $2::timestamp + interval '1 day')
-			   AND player = $3 AND fishcaught = $4 AND placement1 = $5 AND totalweight = $6 AND placement2 = $7 AND biggestfish = $8 AND placement3 = $9
-		`, fish.Date, fish.Date, fish.Player, fish.Count, fish.FishPlacement, fish.TotalWeight, fish.WeightPlacement,
+			WHERE date >= $1::timestamp AND date <= $2::timestamp
+			AND player = $3 AND fishcaught = $4 AND placement1 = $5 AND totalweight = $6 AND placement2 = $7 AND biggestfish = $8 AND placement3 = $9
+		`, fish.Date.Add(time.Hour*-168), fish.Date, fish.Player, fish.Count, fish.FishPlacement, fish.TotalWeight, fish.WeightPlacement,
 				fish.Weight, fish.BiggestFishPlacement).Scan(&count)
 			if err != nil {
 				logs.Logs().Error().Err(err).
@@ -360,66 +421,44 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 		return err
 	}
 
-	var noNewFishChats []string
-	var noNewBagsChats []string
-	var noNewResultCounts []string
+	newCounts := []map[string]int{newFishCounts, newBagCounts, newResultCounts}
+	var things string
+	somenumber := 0
 
-	for chat, count := range newFishCounts {
-		if count > 0 {
-			logs.Logs().Info().
-				Int("Count", count).
-				Str("Chat", chat).
-				Msg("New fish added into the database for chat")
-		} else {
-			noNewFishChats = append(noNewFishChats, chat)
+	for _, m := range newCounts {
+		somenumber++
+
+		switch somenumber {
+		case 1:
+			things = "fish"
+		case 2:
+			things = "bags"
+		case 3:
+			things = "results"
 		}
-	}
 
-	sort.SliceStable(noNewFishChats, func(i, j int) bool {
-		return noNewFishChats[i] < noNewFishChats[j]
-	})
+		var noNewCounts []string
 
-	logs.Logs().Info().
-		Interface("Chats", noNewFishChats).
-		Msg("No new fish found for chats")
-
-	for chat, count := range newBagCounts {
-		if count > 0 {
-			logs.Logs().Info().
-				Int("Count", count).
-				Str("Chat", chat).
-				Msg("New bags added into the database for chat")
-		} else {
-			noNewBagsChats = append(noNewBagsChats, chat)
+		for chat, count := range m {
+			if count > 0 {
+				logs.Logs().Info().
+					Int("Count", count).
+					Str("Chat", chat).
+					Msgf("New %s added into the database for chat", things)
+			} else {
+				noNewCounts = append(noNewCounts, chat)
+			}
 		}
+
+		sort.SliceStable(noNewCounts, func(i, j int) bool {
+			return noNewCounts[i] < noNewCounts[j]
+		})
+
+		logs.Logs().Info().
+			Interface("Chats", noNewCounts).
+			Msgf("No new %s found for chats", things)
+
 	}
-
-	sort.SliceStable(noNewBagsChats, func(i, j int) bool {
-		return noNewBagsChats[i] < noNewBagsChats[j]
-	})
-
-	logs.Logs().Info().
-		Interface("Chats", noNewBagsChats).
-		Msg("No new bags found for chats")
-
-	for chat, count := range newResultCounts {
-		if count > 0 {
-			logs.Logs().Info().
-				Int("Count", count).
-				Str("Chat", chat).
-				Msg("New results added into the database for chat")
-		} else {
-			noNewResultCounts = append(noNewResultCounts, chat)
-		}
-	}
-
-	sort.SliceStable(noNewResultCounts, func(i, j int) bool {
-		return noNewResultCounts[i] < noNewResultCounts[j]
-	})
-
-	logs.Logs().Info().
-		Interface("Chats", noNewResultCounts).
-		Msg("No new results found for chats")
 
 	return nil
 }
