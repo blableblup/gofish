@@ -11,7 +11,7 @@
 		"chat": "breadworms",
 		"fishid": 69191,
 		"chatid": 43027,
-		"rank": 53
+		"rank": 54
 	},
 	"acorn": {
 		"player": "fishingalt",
@@ -25,7 +25,7 @@
 		"chat": "breadworms",
 		"fishid": 103256,
 		"chatid": 53929,
-		"rank": 73
+		"rank": 74
 	},
 	"athleticshoe": {
 		"player": "kishma9",
@@ -39,7 +39,7 @@
 		"chat": "breadworms",
 		"fishid": 38940,
 		"chatid": 28617,
-		"rank": 82
+		"rank": 83
 	},
 	"balletshoes": {
 		"player": "qu4ttromila",
@@ -53,7 +53,7 @@
 		"chat": "breadworms",
 		"fishid": 73644,
 		"chatid": 45555,
-		"rank": 85
+		"rank": 86
 	},
 	"bat": {
 		"player": "larvasisters",
@@ -95,7 +95,7 @@
 		"chat": "breadworms",
 		"fishid": 93616,
 		"chatid": 51570,
-		"rank": 58
+		"rank": 59
 	},
 	"bird": {
 		"player": "julialuxel",
@@ -109,7 +109,7 @@
 		"chat": "breadworms",
 		"fishid": 74655,
 		"chatid": 46058,
-		"rank": 55
+		"rank": 56
 	},
 	"blackbird": {
 		"player": "qu4ttromila",
@@ -123,7 +123,7 @@
 		"chat": "breadworms",
 		"fishid": 74656,
 		"chatid": 46059,
-		"rank": 71
+		"rank": 72
 	},
 	"blackcat": {
 		"player": "breadworms",
@@ -166,7 +166,7 @@
 		"chat": "breadworms",
 		"fishid": 103935,
 		"chatid": 54236,
-		"rank": 50
+		"rank": 51
 	},
 	"boot": {
 		"player": "derinturitierutz",
@@ -180,7 +180,7 @@
 		"chat": "breadworms",
 		"fishid": 50799,
 		"chatid": 33496,
-		"rank": 87
+		"rank": 88
 	},
 	"briefs": {
 		"player": "mitgliederversammlung",
@@ -194,7 +194,21 @@
 		"chat": "breadworms",
 		"fishid": 103248,
 		"chatid": 53923,
-		"rank": 62
+		"rank": 63
+	},
+	"brownmushroom": {
+		"player": "dougiefresh_83",
+		"playerid": 129,
+		"weight": 19.51,
+		"bot": "gofishgame",
+		"type": "🍄‍🟫",
+		"typename": "brownmushroom",
+		"catchtype": "normal",
+		"date": "2025-01-09T07:31:25Z",
+		"chat": "breadworms",
+		"fishid": 140106,
+		"chatid": 60263,
+		"rank": 47
 	},
 	"candy": {
 		"player": "5c33",
@@ -208,21 +222,21 @@
 		"chat": "breadworms",
 		"fishid": 944,
 		"chatid": 944,
-		"rank": 80
+		"rank": 81
 	},
 	"cannedfood": {
-		"player": "ouacewi",
-		"playerid": 79,
-		"weight": 5.65,
+		"player": "leanmeister",
+		"playerid": 135,
+		"weight": 5.98,
 		"bot": "gofishgame",
 		"type": "🥫",
 		"typename": "cannedfood",
 		"catchtype": "normal",
-		"date": "2025-01-03T23:14:30Z",
+		"date": "2025-01-07T20:29:27Z",
 		"chat": "breadworms",
-		"fishid": 138491,
-		"chatid": 59849,
-		"rank": 68
+		"fishid": 139691,
+		"chatid": 60191,
+		"rank": 66
 	},
 	"carpentrysaw": {
 		"player": "chuuubbyyy",
@@ -236,7 +250,7 @@
 		"chat": "breadworms",
 		"fishid": 138622,
 		"chatid": 59892,
-		"rank": 94
+		"rank": 95
 	},
 	"coat": {
 		"player": "irgenting",
@@ -250,7 +264,7 @@
 		"chat": "breadworms",
 		"fishid": 137877,
 		"chatid": 59721,
-		"rank": 64
+		"rank": 65
 	},
 	"cockroach": {
 		"player": "miiiiisho",
@@ -380,7 +394,7 @@
 		"chat": "breadworms",
 		"fishid": 92120,
 		"chatid": 51223,
-		"rank": 54
+		"rank": 55
 	},
 	"dolphin": {
 		"player": "kaasppeerr",
@@ -422,7 +436,7 @@
 		"chat": "breadworms",
 		"fishid": 38818,
 		"chatid": 28583,
-		"rank": 49
+		"rank": 50
 	},
 	"emptynest": {
 		"player": "chuuubbyyy",
@@ -436,7 +450,7 @@
 		"chat": "breadworms",
 		"fishid": 104628,
 		"chatid": 54627,
-		"rank": 59
+		"rank": 60
 	},
 	"feather": {
 		"player": "osnyatsky",
@@ -450,7 +464,7 @@
 		"chat": "breadworms",
 		"fishid": 22780,
 		"chatid": 22209,
-		"rank": 91
+		"rank": 92
 	},
 	"fish": {
 		"player": "konsminator",
@@ -492,7 +506,7 @@
 		"chat": "breadworms",
 		"fishid": 62848,
 		"chatid": 39120,
-		"rank": 91
+		"rank": 92
 	},
 	"goose": {
 		"player": "leanmeister",
@@ -506,7 +520,7 @@
 		"chat": "breadworms",
 		"fishid": 137452,
 		"chatid": 59585,
-		"rank": 81
+		"rank": 82
 	},
 	"hook": {
 		"player": "sussy_amonge",
@@ -521,7 +535,7 @@
 		"fishid": 736,
 		"chatid": 736,
 		"verified": true,
-		"rank": 70
+		"rank": 71
 	},
 	"icecube": {
 		"player": "dougiefresh_83",
@@ -549,7 +563,7 @@
 		"chat": "breadworms",
 		"fishid": 134250,
 		"chatid": 58951,
-		"rank": 85
+		"rank": 86
 	},
 	"iphone": {
 		"player": "kaasppeerr",
@@ -593,7 +607,7 @@
 		"fishid": 14082,
 		"chatid": 14082,
 		"verified": true,
-		"rank": 61
+		"rank": 62
 	},
 	"lobster": {
 		"player": "yopego",
@@ -622,7 +636,7 @@
 		"chat": "breadworms",
 		"fishid": 78515,
 		"chatid": 47415,
-		"rank": 51
+		"rank": 52
 	},
 	"lure": {
 		"player": "fishingalt",
@@ -636,7 +650,7 @@
 		"chat": "breadworms",
 		"fishid": 54148,
 		"chatid": 35161,
-		"rank": 66
+		"rank": 68
 	},
 	"malegenie": {
 		"player": "kishma9",
@@ -665,7 +679,7 @@
 		"chat": "breadworms",
 		"fishid": 104528,
 		"chatid": 54591,
-		"rank": 90
+		"rank": 91
 	},
 	"mermaid": {
 		"player": "dayzedinndaydreams",
@@ -694,7 +708,7 @@
 		"chat": "breadworms",
 		"fishid": 62504,
 		"chatid": 38997,
-		"rank": 48
+		"rank": 49
 	},
 	"nestwitheggs": {
 		"player": "osnyatsky",
@@ -708,7 +722,7 @@
 		"chat": "breadworms",
 		"fishid": 69888,
 		"chatid": 43506,
-		"rank": 60
+		"rank": 61
 	},
 	"octopus": {
 		"player": "derinturitierutz",
@@ -764,7 +778,7 @@
 		"chat": "breadworms",
 		"fishid": 111130,
 		"chatid": 56136,
-		"rank": 65
+		"rank": 67
 	},
 	"oyster": {
 		"player": "qu4ttromila",
@@ -862,7 +876,7 @@
 		"chat": "breadworms",
 		"fishid": 69091,
 		"chatid": 42941,
-		"rank": 77
+		"rank": 78
 	},
 	"sandwich": {
 		"player": "qu4ttromila",
@@ -877,7 +891,7 @@
 		"fishid": 13245,
 		"chatid": 13245,
 		"verified": true,
-		"rank": 77
+		"rank": 78
 	},
 	"sauropod": {
 		"player": "sicklymaidrobot",
@@ -905,7 +919,7 @@
 		"chat": "breadworms",
 		"fishid": 1130,
 		"chatid": 1130,
-		"rank": 91
+		"rank": 92
 	},
 	"seal": {
 		"player": "ryebreadward",
@@ -933,7 +947,7 @@
 		"chat": "breadworms",
 		"fishid": 69020,
 		"chatid": 42900,
-		"rank": 88
+		"rank": 89
 	},
 	"shamrock": {
 		"player": "osnyatsky",
@@ -947,7 +961,7 @@
 		"chat": "breadworms",
 		"fishid": 69482,
 		"chatid": 43253,
-		"rank": 72
+		"rank": 73
 	},
 	"shark": {
 		"player": "miiiiisho",
@@ -975,7 +989,7 @@
 		"chat": "breadworms",
 		"fishid": 43685,
 		"chatid": 29973,
-		"rank": 69
+		"rank": 70
 	},
 	"shoppingcart": {
 		"player": "derinturitierutz",
@@ -1018,7 +1032,7 @@
 		"fishid": 11402,
 		"chatid": 11402,
 		"verified": true,
-		"rank": 63
+		"rank": 64
 	},
 	"slotmachine": {
 		"player": "qu4ttromila",
@@ -1046,7 +1060,7 @@
 		"chat": "breadworms",
 		"fishid": 148,
 		"chatid": 148,
-		"rank": 52
+		"rank": 53
 	},
 	"snake": {
 		"player": "miiiiisho",
@@ -1074,7 +1088,7 @@
 		"chat": "breadworms",
 		"fishid": 3386,
 		"chatid": 3386,
-		"rank": 82
+		"rank": 83
 	},
 	"spider": {
 		"player": "derinturitierutz",
@@ -1131,7 +1145,7 @@
 		"chat": "breadworms",
 		"fishid": 133403,
 		"chatid": 58762,
-		"rank": 95
+		"rank": 96
 	},
 	"sunflower": {
 		"player": "fishingalt",
@@ -1145,7 +1159,7 @@
 		"chat": "breadworms",
 		"fishid": 84368,
 		"chatid": 49178,
-		"rank": 79
+		"rank": 80
 	},
 	"swan": {
 		"player": "chuuubbyyy",
@@ -1159,7 +1173,7 @@
 		"chat": "breadworms",
 		"fishid": 105831,
 		"chatid": 54967,
-		"rank": 74
+		"rank": 75
 	},
 	"teddybear": {
 		"player": "miiiiisho",
@@ -1173,7 +1187,7 @@
 		"chat": "breadworms",
 		"fishid": 61031,
 		"chatid": 38392,
-		"rank": 57
+		"rank": 58
 	},
 	"thongsandal": {
 		"player": "qu4ttromila",
@@ -1188,7 +1202,7 @@
 		"fishid": 23766,
 		"chatid": 22614,
 		"verified": true,
-		"rank": 82
+		"rank": 83
 	},
 	"tropicalfish": {
 		"player": "cumro",
@@ -1216,7 +1230,7 @@
 		"chat": "breadworms",
 		"fishid": 100697,
 		"chatid": 53282,
-		"rank": 89
+		"rank": 90
 	},
 	"turtle": {
 		"player": "bussinongnocap",
@@ -1245,7 +1259,7 @@
 		"chat": "breadworms",
 		"fishid": 90063,
 		"chatid": 50566,
-		"rank": 75
+		"rank": 76
 	},
 	"whale": {
 		"player": "qu4ttromila",
@@ -1288,7 +1302,7 @@
 		"chat": "breadworms",
 		"fishid": 132348,
 		"chatid": 58562,
-		"rank": 76
+		"rank": 77
 	},
 	"wireline": {
 		"player": "cumro",
@@ -1302,7 +1316,7 @@
 		"chat": "breadworms",
 		"fishid": 103078,
 		"chatid": 53866,
-		"rank": 66
+		"rank": 68
 	},
 	"womanshat": {
 		"player": "sussy_amonge",
@@ -1317,7 +1331,7 @@
 		"fishid": 22697,
 		"chatid": 22165,
 		"verified": true,
-		"rank": 56
+		"rank": 57
 	},
 	"worm": {
 		"player": "derinturitierutz",
@@ -1331,7 +1345,7 @@
 		"chat": "breadworms",
 		"fishid": 35388,
 		"chatid": 27350,
-		"rank": 47
+		"rank": 48
 	},
 	"zombie": {
 		"player": "realtechnine",

@@ -1,6 +1,6 @@
 {
 	"8ball": {
-		"weight": 5.4,
+		"weight": 5.41,
 		"type": "🎱",
 		"typename": "8ball",
 		"date": "0001-01-01T00:00:00Z",
@@ -12,10 +12,10 @@
 			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 3.6,
 			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 7.78,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 5.27,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 4.08,
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 4.57,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 5.25
 		},
-		"rank": 56
+		"rank": 57
 	},
 	"acorn": {
 		"weight": 1.87,
@@ -33,7 +33,7 @@
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 1.58,
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 1.84
 		},
-		"rank": 71
+		"rank": 72
 	},
 	"athleticshoe": {
 		"weight": 1.06,
@@ -50,7 +50,7 @@
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 0.91,
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 1.63
 		},
-		"rank": 81
+		"rank": 82
 	},
 	"balletshoes": {
 		"weight": 1.01,
@@ -66,7 +66,7 @@
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 1.28,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 1.05
 		},
-		"rank": 84
+		"rank": 85
 	},
 	"bat": {
 		"weight": 69.4,
@@ -80,7 +80,7 @@
 		"rank": 9
 	},
 	"beaver": {
-		"weight": 21.82,
+		"weight": 21.87,
 		"type": "🦫",
 		"typename": "beaver",
 		"date": "0001-01-01T00:00:00Z",
@@ -92,7 +92,7 @@
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 21.25,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 16.32,
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 21.76,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 21.34
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 22.02
 		},
 		"rank": 25
 	},
@@ -109,7 +109,7 @@
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 11.89,
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 3.65
 		},
-		"rank": 48
+		"rank": 49
 	},
 	"bird": {
 		"weight": 3.02,
@@ -117,14 +117,14 @@
 		"typename": "bird",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 2.71,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 2.63,
 			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 3.32,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 10.75,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 8.54,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 2.89,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 2.81,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 6.09
 		},
-		"rank": 65
+		"rank": 66
 	},
 	"blackbird": {
 		"weight": 1.99,
@@ -136,7 +136,7 @@
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 0.69,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 3.62
 		},
-		"rank": 70
+		"rank": 71
 	},
 	"blackcat": {
 		"weight": 65.04,
@@ -168,45 +168,46 @@
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 15.83,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 15.98
 		},
-		"rank": 31
+		"rank": 32
 	},
 	"bobber": {
-		"weight": 4.83,
+		"weight": 4.81,
 		"type": "🪀",
 		"typename": "bobber",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
 			"![ajspyman](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ajspyman.png)": 4.26,
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 4.97,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 4.92,
 			"![d_egree](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/d_egree.png)": 4.04,
 			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 4.92,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 7.74,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 7.16,
 			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 5.27,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 3.96,
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 5.34,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 5.58
 		},
-		"rank": 61
+		"rank": 62
 	},
 	"boot": {
-		"weight": 1.02,
+		"weight": 1.03,
 		"type": "👢",
 		"typename": "boot",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
-			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 1.5,
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 0.99,
+			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 1.47,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 0.98,
 			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 1.06,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 1.37,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 1.07,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 1.06,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 0.93,
+			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 1.76,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 1.03,
 			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 1.15,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 1.07,
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 0.84,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 0.88
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 0.98
 		},
-		"rank": 82
+		"rank": 83
 	},
 	"briefs": {
 		"weight": 5.22,
@@ -222,7 +223,21 @@
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 5.87,
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 3.75
 		},
-		"rank": 58
+		"rank": 59
+	},
+	"brownmushroom": {
+		"weight": 14.25,
+		"type": "🍄‍🟫",
+		"typename": "brownmushroom",
+		"date": "0001-01-01T00:00:00Z",
+		"chatweights": {
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 10,
+			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 19.3,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 13.01,
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 12.13,
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 16.52
+		},
+		"rank": 31
 	},
 	"candy": {
 		"weight": 0.88,
@@ -239,40 +254,41 @@
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 0.45,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 0.9
 		},
-		"rank": 89
+		"rank": 90
 	},
 	"cannedfood": {
-		"weight": 1.22,
+		"weight": 1.3,
 		"type": "🥫",
 		"typename": "cannedfood",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
 			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 0.74,
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 1.13,
-			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 1.24,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 1.22,
+			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 1.27,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 1,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 1.23,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 1.36,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 1.1,
-			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 4.34,
+			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 2.67,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 1.17,
 			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 1.43,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 1.73,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 1.49,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 1.92
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 1.92,
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 2
 		},
-		"rank": 80
+		"rank": 81
 	},
 	"carpentrysaw": {
-		"weight": 0.61,
+		"weight": 0.48,
 		"type": "🪚",
 		"typename": "carpentrysaw",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 0.71,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 0.2,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 0.69
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 0.49,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 0.77,
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 0.39,
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 0.52
 		},
-		"rank": 90
+		"rank": 95
 	},
 	"coat": {
 		"weight": 5.88,
@@ -283,27 +299,28 @@
 			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 5.29,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 7.06
 		},
-		"rank": 52
+		"rank": 53
 	},
 	"cockroach": {
-		"weight": 7.95,
+		"weight": 7.99,
 		"type": "🪳",
 		"typename": "cockroach",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 7.53,
-			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 9.37,
+			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 7.11,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 7.55,
+			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 9.44,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 7.28,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 9.69,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 10.45,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 7.37,
 			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 0.04,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 7.98,
 			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 1.23,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 2.15,
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 8.28,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 14.14
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 13.45
 		},
-		"rank": 42
+		"rank": 43
 	},
 	"compass": {
 		"weight": 9.19,
@@ -318,7 +335,7 @@
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 9.89,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 8.6
 		},
-		"rank": 40
+		"rank": 41
 	},
 	"coral": {
 		"weight": 16.86,
@@ -341,46 +358,46 @@
 		"rank": 28
 	},
 	"crab": {
-		"weight": 3.09,
+		"weight": 3.08,
 		"type": "🦀",
 		"typename": "crab",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
-			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 1.91,
+			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 1.74,
 			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 2.78,
 			"![d_egree](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/d_egree.png)": 1.65,
 			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 2.05,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 2.08,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 2.74,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 2.64,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 2.57,
-			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 1.18,
+			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 1.71,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 3.56,
 			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 1.75,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 2.67,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 6.63,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 1.78
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 5.65,
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 2.01
 		},
-		"rank": 64
+		"rank": 65
 	},
 	"crocodile": {
-		"weight": 69.3,
+		"weight": 69.08,
 		"type": "🐊",
 		"typename": "crocodile",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
 			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 76.35,
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 71.03,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 70.91,
 			"![d_egree](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/d_egree.png)": 132.02,
-			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 64.77,
+			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 64.53,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 46.02,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 63.07,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 62.03,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 90.36,
-			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 91.57,
+			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 88.79,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 68.85,
 			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 83.85,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 53.16,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 55.58,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 68.3
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 56.94,
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 64.89
 		},
 		"rank": 10
 	},
@@ -448,25 +465,25 @@
 		"rank": 46
 	},
 	"dolphin": {
-		"weight": 50.42,
+		"weight": 50.31,
 		"type": "🐬",
 		"typename": "dolphin",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
 			"![ajspyman](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ajspyman.png)": 91.06,
 			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 17.51,
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 50.51,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 50.49,
 			"![d_egree](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/d_egree.png)": 43.78,
-			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 51.3,
-			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 58.57,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 51.65,
+			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 51.36,
+			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 57.06,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 52.9,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 44.39,
 			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 36.94,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 50.2,
 			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 51.54,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 61.95,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 49.2,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 51.74
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 48.67,
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 47.7
 		},
 		"rank": 16
 	},
@@ -502,7 +519,7 @@
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 4.07,
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 4.47
 		},
-		"rank": 44
+		"rank": 45
 	},
 	"emptynest": {
 		"weight": 5.39,
@@ -519,7 +536,7 @@
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 5.93,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 6
 		},
-		"rank": 57
+		"rank": 58
 	},
 	"feather": {
 		"weight": 0.52,
@@ -537,49 +554,49 @@
 		"rank": 91
 	},
 	"fish": {
-		"weight": 9.61,
+		"weight": 9.58,
 		"type": "🐟",
 		"typename": "fish",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
 			"![ajspyman](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ajspyman.png)": 12.6,
-			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 9.9,
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 9.69,
+			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 9.73,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 9.68,
 			"![d_egree](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/d_egree.png)": 10.38,
-			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 10.01,
+			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 9.98,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 10.44,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 9.35,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 9.36,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 9.61,
-			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 6.42,
+			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 7.29,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 9.72,
 			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 8.4,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 7.31,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 7.98,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 8.2
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 7.91,
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 7.96
 		},
-		"rank": 39
+		"rank": 40
 	},
 	"frog": {
-		"weight": 3.14,
+		"weight": 3.13,
 		"type": "🐸",
 		"typename": "frog",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
 			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 3.2,
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 3.12,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 3.11,
 			"![d_egree](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/d_egree.png)": 2.7,
 			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 3.2,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 1.96,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 2.47,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 2.48,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 2.58,
 			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 7.42,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 3.28,
 			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 1.18,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 2.66,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 2.42,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 2.27
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 2.46,
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 2.35
 		},
-		"rank": 63
+		"rank": 64
 	},
 	"gloves": {
 		"weight": 0.5,
@@ -588,16 +605,16 @@
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
 			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 0.67,
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 0.5,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 0.49,
 			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 0.55,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 0.66,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 0.55,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 0.53,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 0.4,
 			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 0.36,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 0.49,
 			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 0.01,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 0.66,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 0.49
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 0.72,
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 0.46
 		},
 		"rank": 92
 	},
@@ -610,7 +627,7 @@
 			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 2.44,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 2.4
 		},
-		"rank": 67
+		"rank": 68
 	},
 	"hook": {
 		"weight": 1.78,
@@ -620,60 +637,60 @@
 		"chatweights": {
 			"![ajspyman](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ajspyman.png)": 0.29,
 			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 1.64,
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 1.79,
-			"![d_egree](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/d_egree.png)": 2.09,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 1.78,
+			"![d_egree](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/d_egree.png)": 2.13,
 			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 1.79,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 2.14,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 1.63,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 1.64,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 2.01,
-			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 1.85,
+			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 1.68,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 1.79,
 			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 1.37,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 1.52,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 1.79,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 1.69
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 1.8,
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 1.77
 		},
-		"rank": 72
+		"rank": 73
 	},
 	"icecube": {
-		"weight": 6.48,
+		"weight": 6.24,
 		"type": "🧊",
 		"typename": "icecube",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
 			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 4.3,
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 6.16,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 5.78,
 			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 6.62,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 8.17,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 10.24,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 9.54,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 6.55,
-			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 8.85,
+			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 9.07,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 5.48,
 			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 7.43,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 10.27,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 8.94
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 5.34,
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 8.5
 		},
-		"rank": 45
+		"rank": 48
 	},
 	"iceskate": {
-		"weight": 0.99,
+		"weight": 0.96,
 		"type": "⛸️",
 		"typename": "iceskate",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
 			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 0.96,
-			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 0.91,
+			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 0.89,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 0.62,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 1.67,
-			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 0.64,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 1.02,
+			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 0.73,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 0.99,
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 1.01,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 1.02
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 0.97
 		},
-		"rank": 86
+		"rank": 87
 	},
 	"iphone": {
-		"weight": 5.44,
+		"weight": 5.46,
 		"type": "📱",
 		"typename": "iphone",
 		"date": "0001-01-01T00:00:00Z",
@@ -685,10 +702,10 @@
 			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 4.81,
 			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 4.63,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 5.1,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 4.87,
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 5.46,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 5.23
 		},
-		"rank": 55
+		"rank": 56
 	},
 	"jellyfish": {
 		"weight": 11.67,
@@ -720,30 +737,30 @@
 			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 3.03,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 4.27,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 4.82,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 3.88,
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 3.9,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 4.09
 		},
-		"rank": 62
+		"rank": 63
 	},
 	"lobster": {
-		"weight": 32.51,
+		"weight": 32.36,
 		"type": "🦞",
 		"typename": "lobster",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
-			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 34.15,
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 33.32,
+			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 31.82,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 33.26,
 			"![d_egree](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/d_egree.png)": 26.2,
-			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 31.9,
+			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 31.66,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 42.13,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 33.39,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 32.55,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 31.12,
-			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 30.57,
+			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 30.04,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 31.75,
 			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 39.29,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 26.23,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 31.14,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 31.48
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 30.55,
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 29.25
 		},
 		"rank": 21
 	},
@@ -761,30 +778,30 @@
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 7.09,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 6.2
 		},
-		"rank": 49
+		"rank": 50
 	},
 	"lure": {
-		"weight": 1.62,
+		"weight": 1.63,
 		"type": "🎏",
 		"typename": "lure",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
 			"![ajspyman](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ajspyman.png)": 2.03,
-			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 2.14,
+			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 2.21,
 			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 1.61,
 			"![d_egree](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/d_egree.png)": 1.51,
 			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 1.68,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 1.36,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 1.84,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 1.88,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 1.53,
-			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 1.02,
+			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 1.27,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 1.61,
-			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 1.7,
+			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 1.92,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 1.46,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 1.68,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 2.07
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 1.67,
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 2.12
 		},
-		"rank": 74
+		"rank": 75
 	},
 	"malegenie": {
 		"weight": 73.94,
@@ -826,32 +843,33 @@
 		"rank": 11
 	},
 	"mushroom": {
-		"weight": 9.13,
+		"weight": 9.1,
 		"type": "🍄",
 		"typename": "mushroom",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
 			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 6.58,
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 8.71,
-			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 10.17,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 8.66,
+			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 10.23,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 10.77,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 8.03,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 8.2,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 2.61,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 9.49,
 			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 16.1,
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 8.12,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 9.12
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 8.71
 		},
-		"rank": 41
+		"rank": 42
 	},
 	"nestwitheggs": {
-		"weight": 5.55,
+		"weight": 5.58,
 		"type": "🪺",
 		"typename": "nestwitheggs",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
 			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 5.56,
 			"![d_egree](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/d_egree.png)": 2.6,
+			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 9.75,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 2.18,
 			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 5.27,
 			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 9.38,
@@ -861,27 +879,27 @@
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 6.58,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 5.41
 		},
-		"rank": 54
+		"rank": 55
 	},
 	"octopus": {
-		"weight": 55.29,
+		"weight": 54.82,
 		"type": "🐙",
 		"typename": "octopus",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
 			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 51.41,
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 58.76,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 58.47,
 			"![d_egree](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/d_egree.png)": 44.99,
-			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 47.1,
+			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 46.79,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 66.71,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 40.03,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 38.79,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 56.12,
-			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 51.81,
+			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 41.25,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 55.27,
 			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 54.95,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 57.25,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 55.22,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 24.24
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 54.05,
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 24.3
 		},
 		"rank": 15
 	},
@@ -898,22 +916,22 @@
 		"rank": 1
 	},
 	"otter": {
-		"weight": 9.9,
+		"weight": 9.98,
 		"type": "🦦",
 		"typename": "otter",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
 			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 9.19,
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 9.75,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 9.79,
 			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 10.09,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 8.09,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 12.06,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 13.3,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 13.93,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 9.63,
 			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 10.45,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 14.7,
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 12.25,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 13.63
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 12.4
 		},
 		"rank": 38
 	},
@@ -925,32 +943,32 @@
 		"chatweights": {
 			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 5.9
 		},
-		"rank": 51
+		"rank": 52
 	},
 	"oyster": {
-		"weight": 21.22,
+		"weight": 21.23,
 		"type": "🦪",
 		"typename": "oyster",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
 			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 14.97,
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 20.68,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 20.67,
 			"![d_egree](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/d_egree.png)": 18.18,
 			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 21.43,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 19.1,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 28.56,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 28.35,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 18.01,
-			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 25.56,
+			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 16.91,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 19.07,
 			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 9.36,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 13.3,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 29.87,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 52.22
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 28.89,
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 45.35
 		},
 		"rank": 26
 	},
 	"penguin": {
-		"weight": 21.16,
+		"weight": 21.11,
 		"type": "🐧",
 		"typename": "penguin",
 		"date": "0001-01-01T00:00:00Z",
@@ -963,28 +981,28 @@
 			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 13.43,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 20.42,
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 24.78,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 20.99
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 20.8
 		},
 		"rank": 27
 	},
 	"plankton": {
-		"weight": 10.1,
+		"weight": 10.06,
 		"type": "🦠",
 		"typename": "plankton",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
 			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 15.6,
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 9.94,
-			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 10.63,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 9.84,
+			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 10.57,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 10.16,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 11.55,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 10.16,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 14.76,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 9.97,
 			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 14.78,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 8.51,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 9.54
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 10.08,
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 9.66
 		},
-		"rank": 36
+		"rank": 37
 	},
 	"polarbear": {
 		"weight": 134.3,
@@ -1040,7 +1058,7 @@
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 0.94,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 1.59
 		},
-		"rank": 78
+		"rank": 79
 	},
 	"sandwich": {
 		"weight": 0.96,
@@ -1061,22 +1079,22 @@
 		"rank": 87
 	},
 	"sauropod": {
-		"weight": 128.27,
+		"weight": 128.15,
 		"type": "🦕",
 		"typename": "sauropod",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
 			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 73.83,
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 134.93,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 134.81,
 			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 110.35,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 129.3,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 132.47,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 132.16,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 87.85,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 121.85,
 			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 177.64,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 202.4,
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 137.6,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 167.76
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 151.8
 		},
 		"rank": 5
 	},
@@ -1094,27 +1112,27 @@
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 0.45,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 0.51
 		},
-		"rank": 95
+		"rank": 96
 	},
 	"seal": {
-		"weight": 65.59,
+		"weight": 65.4,
 		"type": "🦭",
 		"typename": "seal",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
 			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 75.93,
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 65.46,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 65.34,
 			"![d_egree](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/d_egree.png)": 46.79,
-			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 62.27,
+			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 62.46,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 73.08,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 59.08,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 63.14,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 45.52,
 			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 55.05,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 71.64,
 			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 90.62,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 16.96,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 54.67,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 52.14
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 53.75,
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 53.89
 		},
 		"rank": 12
 	},
@@ -1127,7 +1145,7 @@
 			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 0.42,
 			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 0.5,
 			"![d_egree](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/d_egree.png)": 0.46,
-			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 0.47,
+			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 0.46,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 0.22,
 			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 0.56,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 0.45,
@@ -1154,27 +1172,27 @@
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 1.58,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 1,
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 1.49,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 2.03
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 1.98
 		},
-		"rank": 73
+		"rank": 74
 	},
 	"shark": {
-		"weight": 105.92,
+		"weight": 104.71,
 		"type": "🦈",
 		"typename": "shark",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 107.13,
-			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 99.58,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 106.95,
+			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 97.91,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 128.03,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 109.46,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 106.83,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 117.92,
 			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 138.65,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 105.51,
 			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 110.09,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 29.43,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 103.46,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 102.67
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 94.22,
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 90.39
 		},
 		"rank": 6
 	},
@@ -1184,21 +1202,21 @@
 		"typename": "shell",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
-			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 1.53,
+			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 1.6,
 			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 2,
 			"![d_egree](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/d_egree.png)": 2.51,
 			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 2,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 1.8,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 1.99,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 2.03,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 1.78,
-			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 1.77,
+			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 1.71,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 2.02,
 			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 1.1,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 2.32,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 2.01,
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 1.97,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 1.94
 		},
-		"rank": 69
+		"rank": 70
 	},
 	"shoppingcart": {
 		"weight": 25.62,
@@ -1214,27 +1232,27 @@
 		"rank": 22
 	},
 	"shrimp": {
-		"weight": 11.7,
+		"weight": 11.65,
 		"type": "🦐",
 		"typename": "shrimp",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
 			"![ajspyman](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ajspyman.png)": 4.79,
 			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 8.83,
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 12.7,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 12.64,
 			"![d_egree](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/d_egree.png)": 3.52,
-			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 13.36,
+			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 13.24,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 12.72,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 11.43,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 11.93,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 12.56,
-			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 13.05,
+			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 15.7,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 11.45,
 			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 4.27,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 6.91,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 7.19,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 7.02
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 7.37,
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 6.95
 		},
-		"rank": 33
+		"rank": 35
 	},
 	"skull": {
 		"weight": 5.06,
@@ -1255,22 +1273,22 @@
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 5.43,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 3.48
 		},
-		"rank": 59
+		"rank": 60
 	},
 	"slotmachine": {
-		"weight": 12.97,
+		"weight": 13.01,
 		"type": "🎰",
 		"typename": "slotmachine",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
 			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 11.7,
 			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 14.41,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 6.65,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 8.83,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 14.19,
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 19.86,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 19.35
 		},
-		"rank": 32
+		"rank": 33
 	},
 	"snail": {
 		"weight": 4.86,
@@ -1279,7 +1297,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
 			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 4.15,
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 5.02,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 5.01,
 			"![d_egree](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/d_egree.png)": 0.78,
 			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 4.73,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 0.67,
@@ -1288,28 +1306,28 @@
 			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 7.56,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 4.92,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 7.79,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 4.77,
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 4.6,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 2.63
 		},
-		"rank": 60
+		"rank": 61
 	},
 	"snake": {
-		"weight": 14.95,
+		"weight": 15.05,
 		"type": "🐍",
 		"typename": "snake",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 16.24,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 16.27,
 			"![d_egree](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/d_egree.png)": 15.11,
-			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 29.41,
+			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 29.55,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 7.49,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 17.22,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 19.85,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 10.34,
 			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 12.74,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 14.85,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 7.4,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 5.8,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 6.72
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 5.93,
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 8.2
 		},
 		"rank": 29
 	},
@@ -1333,28 +1351,28 @@
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 1.12,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 1.29
 		},
-		"rank": 85
+		"rank": 86
 	},
 	"spider": {
-		"weight": 7.93,
+		"weight": 7.9,
 		"type": "🕷️",
 		"typename": "spider",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
 			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 9.94,
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 8,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 7.99,
 			"![d_egree](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/d_egree.png)": 2.9,
-			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 8.6,
+			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 8.58,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 11.35,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 8.2,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 8.36,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 6.7,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 7.71,
 			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 7.72,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 11.42,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 6.95,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 8.31
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 6.63,
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 7.49
 		},
-		"rank": 43
+		"rank": 44
 	},
 	"sponge": {
 		"weight": 10.45,
@@ -1374,27 +1392,27 @@
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 9.75,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 7.75
 		},
-		"rank": 35
+		"rank": 36
 	},
 	"squid": {
-		"weight": 44.81,
+		"weight": 45.8,
 		"type": "🦑",
 		"typename": "squid",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
 			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 25.24,
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 44.36,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 44.51,
 			"![d_egree](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/d_egree.png)": 44.57,
-			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 47.02,
+			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 47.12,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 49.98,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 54.22,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 56.8,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 41.66,
-			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 147.34,
+			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 118.19,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 40.73,
 			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 8.57,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 7.81,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 48.85,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 119.96
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 72.7,
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 122.24
 		},
 		"rank": 17
 	},
@@ -1407,7 +1425,7 @@
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 0.9,
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 0.9
 		},
-		"rank": 88
+		"rank": 89
 	},
 	"sunflower": {
 		"weight": 1.42,
@@ -1418,7 +1436,7 @@
 			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 1.38,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 1.43
 		},
-		"rank": 79
+		"rank": 80
 	},
 	"swan": {
 		"weight": 2.3,
@@ -1431,26 +1449,26 @@
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 1.14,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 5.64
 		},
-		"rank": 68
+		"rank": 69
 	},
 	"teddybear": {
-		"weight": 5.85,
+		"weight": 5.87,
 		"type": "🧸",
 		"typename": "teddybear",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
 			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 7.02,
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 6.04,
-			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 5.53,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 6.05,
+			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 5.57,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 5.83,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 5.48,
-			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 0.46,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 5.43,
+			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 5.68,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 5.85,
 			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 2.99,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 5.5,
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 5.94,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 5.26
 		},
-		"rank": 53
+		"rank": 54
 	},
 	"thongsandal": {
 		"weight": 1.02,
@@ -1467,7 +1485,7 @@
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 0.65,
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 0.9
 		},
-		"rank": 82
+		"rank": 84
 	},
 	"tropicalfish": {
 		"weight": 9.98,
@@ -1475,7 +1493,7 @@
 		"typename": "tropicalfish",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
-			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 15.51,
+			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 15.76,
 			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 10.07,
 			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 10.2,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 21.19,
@@ -1485,9 +1503,9 @@
 			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 19.86,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 8.61,
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 8.64,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 8.71
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 7.92
 		},
-		"rank": 37
+		"rank": 38
 	},
 	"tulip": {
 		"weight": 1.47,
@@ -1498,28 +1516,28 @@
 			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 1.77,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 1.44
 		},
-		"rank": 77
+		"rank": 78
 	},
 	"turtle": {
-		"weight": 40.99,
+		"weight": 40.92,
 		"type": "🐢",
 		"typename": "turtle",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
 			"![ajspyman](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ajspyman.png)": 82.5,
 			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 28.38,
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 40.63,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 40.6,
 			"![d_egree](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/d_egree.png)": 48.86,
-			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 34.37,
+			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 34.97,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 20.76,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 43.72,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 42.81,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 34.76,
-			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 34.87,
+			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 35.61,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 40.88,
 			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 63.25,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 47.41,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 51,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 44.22
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 50.09,
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 43
 		},
 		"rank": 19
 	},
@@ -1537,49 +1555,49 @@
 			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 2.43,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 1.61,
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 1.92,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 1.82
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 1.94
 		},
-		"rank": 75
+		"rank": 76
 	},
 	"whale": {
-		"weight": 130.47,
+		"weight": 129.76,
 		"type": "🐳",
 		"typename": "whale",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 137.25,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 137.11,
 			"![d_egree](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/d_egree.png)": 96.95,
-			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 111.39,
+			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 111.45,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 181,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 135.65,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 131.1,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 177.81,
-			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 8.27,
+			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 27.39,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 127.92,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 207.35,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 110.76,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 112.53
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 112.57,
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 108.97
 		},
 		"rank": 4
 	},
 	"whale2": {
-		"weight": 70.75,
+		"weight": 70.82,
 		"type": "🐋",
 		"typename": "whale2",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
 			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 66.44,
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 71.36,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 71.39,
 			"![d_egree](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/d_egree.png)": 56.3,
 			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 68.15,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 47.91,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 75.24,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 74.68,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 58.19,
-			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 45.52,
+			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 55.96,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 70.81,
 			"![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)": 67.06,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 57.6,
-			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 69.66,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 73.79
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 70.81,
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 74.25
 		},
 		"rank": 8
 	},
@@ -1590,14 +1608,14 @@
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
 			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 1.22,
-			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 1.7,
+			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 1.73,
 			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 1.75,
 			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 0.56,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 1.64,
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 1.83,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 1.52
 		},
-		"rank": 76
+		"rank": 77
 	},
 	"wireline": {
 		"weight": 2.77,
@@ -1613,7 +1631,7 @@
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 3.12,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 2.43
 		},
-		"rank": 66
+		"rank": 67
 	},
 	"womanshat": {
 		"weight": 6.28,
@@ -1632,22 +1650,22 @@
 		"rank": 47
 	},
 	"worm": {
-		"weight": 5.94,
+		"weight": 5.92,
 		"type": "🪱",
 		"typename": "worm",
 		"date": "0001-01-01T00:00:00Z",
 		"chatweights": {
 			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 2.42,
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 6.6,
-			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 5.25,
-			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 6.05,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 6.62,
+			"![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)": 5.19,
+			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 5.51,
 			"![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)": 1.95,
-			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 9.03,
+			"![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)": 9.39,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 5.77,
 			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 6.03,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 4.53
 		},
-		"rank": 50
+		"rank": 51
 	},
 	"zombie": {
 		"weight": 60.23,
