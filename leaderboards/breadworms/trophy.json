@@ -6,7 +6,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 1,
 		"maxcount": 2,
-		"rank": 23
+		"rank": 24
 	},
 	"12": {
 		"player": "bussinongnocap",
@@ -15,7 +15,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 1,
 		"maxcount": 2,
-		"rank": 29
+		"rank": 30
 	},
 	"1212": {
 		"player": "larvasisters",
@@ -60,26 +60,26 @@
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 1,
 		"maxcount": 1,
-		"rank": 24
+		"rank": 25
 	},
 	"135": {
 		"player": "leanmeister",
 		"playerid": 135,
-		"weight": 55,
+		"weight": 64,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 16,
+		"fishid": 19,
 		"chatid": 6,
 		"maxcount": 2,
-		"rank": 7
+		"rank": 6
 	},
 	"1369": {
 		"player": "cumro",
 		"playerid": 1369,
-		"weight": 10,
+		"weight": 10.5,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 1,
 		"chatid": 3,
-		"maxcount": 8,
+		"maxcount": 9,
 		"rank": 17
 	},
 	"1377": {
@@ -142,11 +142,11 @@
 	"21": {
 		"player": "chuuubbyyy",
 		"playerid": 21,
-		"weight": 134,
+		"weight": 135.5,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 24,
-		"chatid": 50,
-		"maxcount": 24,
+		"chatid": 51,
+		"maxcount": 25,
 		"rank": 1
 	},
 	"2373": {
@@ -173,7 +173,7 @@
 		"weight": 2,
 		"date": "0001-01-01T00:00:00Z",
 		"maxcount": 4,
-		"rank": 29
+		"rank": 30
 	},
 	"2701": {
 		"player": "osnyisdead",
@@ -202,7 +202,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 2,
 		"maxcount": 2,
-		"rank": 26
+		"rank": 27
 	},
 	"29": {
 		"player": "booty_bread",
@@ -217,10 +217,11 @@
 	"3529": {
 		"player": "gstaman911",
 		"playerid": 3529,
-		"weight": 2,
+		"weight": 4.5,
 		"date": "0001-01-01T00:00:00Z",
-		"chatid": 2,
-		"rank": 29
+		"chatid": 4,
+		"maxcount": 1,
+		"rank": 22
 	},
 	"38": {
 		"player": "niiy",
@@ -257,7 +258,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 2,
 		"maxcount": 1,
-		"rank": 28
+		"rank": 29
 	},
 	"56": {
 		"player": "dayzedinndaydreams",
@@ -275,7 +276,7 @@
 		"weight": 3,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 1,
-		"rank": 26
+		"rank": 27
 	},
 	"58": {
 		"player": "qu4ttromila",
@@ -285,7 +286,7 @@
 		"fishid": 11,
 		"chatid": 19,
 		"maxcount": 20,
-		"rank": 6
+		"rank": 7
 	},
 	"6": {
 		"player": "osnyatsky",
@@ -303,7 +304,7 @@
 		"weight": 2,
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 2,
-		"rank": 29
+		"rank": 30
 	},
 	"686": {
 		"player": "jr_mime",
@@ -321,7 +322,7 @@
 		"fishid": 11,
 		"chatid": 18,
 		"maxcount": 8,
-		"rank": 7
+		"rank": 8
 	},
 	"871": {
 		"player": "bapqo",
@@ -348,6 +349,6 @@
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 1,
 		"maxcount": 1,
-		"rank": 24
+		"rank": 25
 	}
 }
