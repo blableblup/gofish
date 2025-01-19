@@ -1,9 +1,9 @@
 ### Players who have seen the most fish in dizzy's chat
 | Rank | Player | Fish Seen |
 |------|--------|-----------|
-| 1 🥇  | buhl00n  | 66 (+1) |
-| 2 🥈  | ben_vincent  | 59 (+1) |
-| 2 🥈  | gofishrigged  | 59 (+1) |
+| 1 🥇  | buhl00n  | 66 |
+| 2 🥈  | ben_vincent  | 60 (+1) |
+| 3 🥉 ⬇ | gofishrigged  | 59 |
 | 4  | iam_haunt_  | 57 |
 | 5  | gimmeschmoneys  | 51 |
 | 5  | lolspers  | 51 |
@@ -11,14 +11,14 @@
 | 8  | spanmer  | 48 |
 | 9  | rabituwu  | 44 |
 | 9  | vagdi  | 44 |
+| 11 ⬆ | notnownico  | 43 (+1) |
 | 11  | ofaisalz  | 43 |
 | 11  | tairaaaaa  | 43 |
-| 13  | notnownico  | 42 (+2) |
-| 14 ⬇ | simplydrack  | 41 (+1) |
-| 15 ⬇ | ssenario  | 40 |
+| 14  | simplydrack  | 41 |
+| 15  | ssenario  | 40 |
 | 16  | exo9*  | 38 |
-| 16 ⬆ | sugur  | 38 (+1) |
-| 18 ⬇ | burnend  | 37 |
+| 16  | sugur  | 38 |
+| 18  | burnend  | 37 |
 | 19  | aceleju  | 36 |
 | 20  | kukkuri  | 34 |
 | 21  | 777pancake  | 31 |
@@ -32,9 +32,10 @@
 | 29  | respirate_  | 26 |
 | 30  | ruusui  | 25 |
 | 31  | youngstercal  | 24 |
-| 32 ⬆ | dizzy  | 22 (+1) |
+| 32  | dizzy  | 22 |
 | 32  | mitsu_skidz  | 22 |
-| 34 ⬇ | reallyxtra  | 21 |
+| 34  | reallyxtra  | 21 |
+| 35 🆕 | buffyo  | 20 |
 | 35  | gigi  | 20 |
 | 35  | omegalulow2onsteam  | 20 |
 | 35  | shheedy  | 20 |
@@ -43,4 +44,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2025-01-12 11:49:17 UTC_
+_Last updated at 2025-01-19 11:29:01 UTC_

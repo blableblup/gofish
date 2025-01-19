@@ -1,7 +1,7 @@
 ### Biggest fish caught per player in breadworms' chat
 | Rank | Player | Fish | Weight in lbs | Date in UTC |
 |------|--------|-----------|---------|-----|
-| 1 🥇  | chuuubbyyy | 🦑 squid | 308.86 | 2024-12-24 02:34:50 |
+| 1 🥇  | liiiiiiiiiilly | 🦑 squid | 308.86 | 2024-12-24 02:34:50 |
 | 2 🥈  | dayzedinndaydreams | 🦑 squid | 307.60 | 2023-12-31 16:04:05 |
 | 3 🥉  | sicklymaidrobot | 🦑 squid | 306.97 | 2023-12-28 00:11:01 |
 | 4  | qu4ttromila | 🐳 whale | 303.81 | 2023-03-17 23:18:19 |
@@ -27,37 +27,38 @@
 | 24  | niiy | 🐳 whale | 273.90 | 2023-06-01 15:55:18 |
 | 25  | booty_bread | 🐉 dragon | 273.82 | 2023-03-14 22:01:12 |
 | 26  | ninjaross* | 🦑 squid | 273.17 | 2022-12-23 23:06:53 |
-| 27 ⬆ | larvasisters | 🐻‍❄ polarbear | 272.28 (+66.93) | 2025-01-02 19:01:21 |
-| 28 ⬇ | seryxx | 🐉 dragon | 270.97 | 2024-10-07 12:01:26 |
-| 29 ⬇ | crazytown_bananapants | 🦈 shark | 270.42 | 2023-12-28 02:55:00 |
-| 30 ⬇ | xz_xz | 🐳 whale | 269.03 | 2023-02-24 01:04:39 |
-| 31 ⬇ | yliathim* | 🐉 dragon | 266.12 | 2022-12-15 17:10:45 |
-| 32 ⬇ | trident1011 | 🦕 sauropod | 264.95 | 2023-04-06 04:52:56 |
-| 33 ⬇ | receipts | 🦕 sauropod | 255.01 | 2024-10-04 03:30:03 |
-| 34 ⬇ | xth49* | 🦕 sauropod | 254.75 | 2022-12-28 08:48:40 |
-| 35 ⬇ | bussinongnocap | 🐢 turtle | 251.35 | 2023-06-17 05:29:50 |
-| 36 ⬇ | kadaris4h* | 🦕 sauropod | 251.33 | 2022-12-08 11:30:12 |
-| 37 ⬇ | idini | 🐉 dragon | 247.21 | 2024-10-18 08:10:33 |
-| 38 ⬇ | aceleju | 🐉 dragon | 242.20 | 2024-10-22 15:24:27 |
-| 39 ⬇ | kaasppeerr | 🦕 sauropod | 241.66 | 2024-01-30 00:42:05 |
-| 40 ⬇ | pagmaninoff | 🦕 sauropod | 239.14 | 2024-09-11 13:04:38 |
-| 41 ⬇ | doublehelicalstructure* | 🦕 sauropod | 235.33 | 2023-02-07 14:43:35 |
-| 42 ⬇ | houseofleaves | 🦕 sauropod | 234.27 | 2024-10-06 06:12:34 |
-| 43 ⬇ | julialuxel | 🐳 whale | 234.00 | 2024-02-17 03:13:44 |
-| 44 ⬇ | bapqo | 🐉 dragon | 233.48 | 2024-03-10 18:29:29 |
-| 45 ⬇ | supibot | 🦕 sauropod | 231.47 | 2023-12-30 02:14:20 |
-| 46 ⬇ | wispmode | 🐳 whale | 230.99 | 2024-01-02 16:58:48 |
-| 47 ⬇ | konsminator | 🐍 snake | 229.00 | 2024-11-05 14:28:25 |
-| 48 ⬇ | mochi_uygqzidbjizjkbehuiw | 🐳 whale | 222.73 | 2024-01-07 13:54:46 |
-| 49 ⬇ | fallen_angels_1995 | 🐳 whale | 219.76 | 2024-02-24 12:26:34 |
-| 50 ⬇ | mitgliederversammlung | 🦕 sauropod | 219.52 | 2024-11-08 15:07:01 |
-| 51 ⬇ | lazuli672* | 🦈 shark | 215.97 | 2023-07-09 23:11:02 |
-| 52 🆕 | gawblemachine | 🦕 sauropod | 214.80 | 2025-01-01 13:21:56 |
-| 53 ⬇ | realtechnine | 🦕 sauropod | 214.11 | 2023-02-14 20:12:23 |
-| 54 ⬇ | divra__ | 🐳 whale | 213.23 | 2024-04-16 16:17:28 |
-| 55 ⬇ | notparasfishalt* | 🐉 dragon | 207.18 | 2023-06-05 03:16:42 |
-| 56 ⬇ | veggesh | 🦈 shark | 206.22 | 2024-02-25 22:40:19 |
+| 27  | larvasisters | 🐻‍❄ polarbear | 272.28 | 2025-01-02 19:01:21 |
+| 28  | seryxx | 🐉 dragon | 270.97 | 2024-10-07 12:01:26 |
+| 29  | crazytown_bananapants | 🦈 shark | 270.42 | 2023-12-28 02:55:00 |
+| 30  | xz_xz | 🐳 whale | 269.03 | 2023-02-24 01:04:39 |
+| 31  | yliathim* | 🐉 dragon | 266.12 | 2022-12-15 17:10:45 |
+| 32  | trident1011 | 🦕 sauropod | 264.95 | 2023-04-06 04:52:56 |
+| 33  | receipts | 🦕 sauropod | 255.01 | 2024-10-04 03:30:03 |
+| 34  | xth49* | 🦕 sauropod | 254.75 | 2022-12-28 08:48:40 |
+| 35  | bussinongnocap | 🐢 turtle | 251.35 | 2023-06-17 05:29:50 |
+| 36  | kadaris4h* | 🦕 sauropod | 251.33 | 2022-12-08 11:30:12 |
+| 37  | idini | 🐉 dragon | 247.21 | 2024-10-18 08:10:33 |
+| 38 🆕 | osnyatsky | 🐍 snake | 246.07 | 2025-01-16 15:12:51 |
+| 39 ⬇ | aceleju | 🐉 dragon | 242.20 | 2024-10-22 15:24:27 |
+| 40 ⬇ | kaasppeerr | 🦕 sauropod | 241.66 | 2024-01-30 00:42:05 |
+| 41 ⬇ | pagmaninoff | 🦕 sauropod | 239.14 | 2024-09-11 13:04:38 |
+| 42 ⬇ | doublehelicalstructure* | 🦕 sauropod | 235.33 | 2023-02-07 14:43:35 |
+| 43 ⬇ | houseofleaves | 🦕 sauropod | 234.27 | 2024-10-06 06:12:34 |
+| 44 ⬇ | julialuxel | 🐳 whale | 234.00 | 2024-02-17 03:13:44 |
+| 45 ⬇ | bapqo | 🐉 dragon | 233.48 | 2024-03-10 18:29:29 |
+| 46 ⬇ | supibot | 🦕 sauropod | 231.47 | 2023-12-30 02:14:20 |
+| 47 ⬇ | wispmode | 🐳 whale | 230.99 | 2024-01-02 16:58:48 |
+| 48 ⬇ | konsminator | 🐍 snake | 229.00 | 2024-11-05 14:28:25 |
+| 49 ⬇ | mochi_uygqzidbjizjkbehuiw | 🐳 whale | 222.73 | 2024-01-07 13:54:46 |
+| 50 ⬇ | fallen_angels_1995 | 🐳 whale | 219.76 | 2024-02-24 12:26:34 |
+| 51 ⬇ | mitgliederversammlung | 🦕 sauropod | 219.52 | 2024-11-08 15:07:01 |
+| 52 ⬇ | lazuli672* | 🦈 shark | 215.97 | 2023-07-09 23:11:02 |
+| 53 ⬇ | gawblemachine | 🦕 sauropod | 214.80 | 2025-01-01 13:21:56 |
+| 54 ⬇ | realtechnine | 🦕 sauropod | 214.11 | 2023-02-14 20:12:23 |
+| 55 ⬇ | divra__ | 🐳 whale | 213.23 | 2024-04-16 16:17:28 |
+| 56 ⬇ | notparasfishalt* | 🐉 dragon | 207.18 | 2023-06-05 03:16:42 |
+| 57 ⬇ | veggesh | 🦈 shark | 206.22 | 2024-02-25 22:40:19 |
 
 _Only showing fish weighing >= 200 lbs_
 
-_Last updated at 2025-01-05 12:12:02 UTC_
+_Last updated at 2025-01-19 11:30:10 UTC_

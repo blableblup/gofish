@@ -1,26 +1,27 @@
 ### Most fish caught in vaiastol's chat
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
-| 1 🥇  | vaiastol  | 1107 (+62) |
-| 2 🥈  | hahppyy  | 741 (+30) |
-| 3 🥉 ⬆ | leastsussyimposter  | 253 (+14) |
-| 4 ⬇ | divra__  | 250 (+1) |
-| 5  | pengeg  | 234 (+8) |
-| 6  | dayzedinndaydreams  | 174 (+29) |
+| 1 🥇  | vaiastol  | 1166 (+59) |
+| 2 🥈  | hahppyy  | 769 (+28) |
+| 3 🥉  | leastsussyimposter  | 263 (+10) |
+| 4  | divra__  | 256 (+6) |
+| 5  | pengeg  | 237 (+3) |
+| 6  | dayzedinndaydreams  | 187 (+13) |
 | 7  | milesdotcom  | 137 |
-| 8  | julialuxel  | 82 (+17) |
-| 9 ⬆ | bron8i  | 67 (+14) |
-| 10 ⬇ | bubinga  | 55 |
-| 11  | yoimlee  | 52 |
-| 12 ⬆ | leanmeister  | 45 (+31) |
-| 13  | nicestnarwhal  | 35 (+18) |
-| 14 ⬇ | houseofleaves*  | 25 |
-| 15 ⬇ | jr_mime  | 17 |
-| 16  | creepycode*  | 13 |
-| 16 🆕 | larvasisters  | 13 |
-| 16  | mitgliederversammlung  | 13 |
-| 19 ⬇ | ermnest  | 10 |
+| 8  | julialuxel  | 86 (+4) |
+| 9  | bron8i  | 75 (+8) |
+| 9 ⬆ | leanmeister  | 75 (+30) |
+| 11 ⬇ | bubinga  | 55 |
+| 12 ⬆ | nicestnarwhal  | 54 (+19) |
+| 13 ⬇ | yoimlee  | 53 (+1) |
+| 14  | houseofleaves*  | 25 |
+| 15  | jr_mime  | 17 |
+| 16  | larvasisters  | 16 (+3) |
+| 17 ⬇ | mitgliederversammlung  | 14 (+1) |
+| 18 ⬇ | creepycode*  | 13 |
+| 19 🆕 | cycyxd_  | 10 |
+| 19  | ermnest  | 10 |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-01-12 11:50:28 UTC_
+_Last updated at 2025-01-19 11:30:12 UTC_

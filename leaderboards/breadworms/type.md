@@ -1,7 +1,7 @@
 ### Biggest fish per type caught in breadworms' chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
-| 1 🥇  | 🦑 squid | 308.86 | chuuubbyyy | 2024-12-24 02:34:50 |
+| 1 🥇  | 🦑 squid | 308.86 | liiiiiiiiiilly | 2024-12-24 02:34:50 |
 | 2 🥈  | 🐳 whale | 303.81 | qu4ttromila | 2023-03-17 23:18:19 |
 | 3 🥉  | 🦈 shark | 288.27 | miiiiisho | 2024-02-01 22:00:13 |
 | 4  | 🦕 sauropod | 286.09 | sicklymaidrobot | 2023-11-06 10:21:56 |
@@ -46,58 +46,58 @@
 | 43  | 🐠 tropicalfish | 21.99 | cumro | 2024-12-10 01:42:43 |
 | 44  | 🪼 jellyfish | 21.87 | sicklymaidrobot | 2023-08-04 03:47:25 |
 | 45  | 🧭 compass | 20.23 | ryebreadward | 2023-12-24 02:46:48 |
-| 46  | 🦦 otter | 19.78 | dayzedinndaydreams | 2024-02-17 10:37:23 |
-| 47 🆕 | 🍄‍🟫 brownmushroom | 19.51 | dougiefresh_83 | 2025-01-09 07:31:25 |
-| 48 ⬇ | 🪱 worm | 18.95 | derinturitierutz | 2023-10-15 10:38:50 |
-| 49 ⬇ | 🍄 mushroom | 17.85 | comiqq | 2024-02-22 05:08:00 |
-| 50 ⬇ | 🦆 duck | 15.69 | derinturitierutz | 2023-11-04 14:31:09 |
-| 51 ⬇ | 🪀 bobber | 15.60 | osnyisdead | 2024-09-27 00:16:38 |
-| 52 ⬇ | 🪵 log | 15.28 | comiqq | 2024-05-16 17:26:45 |
-| 53 ⬇ | 🐌 snail | 14.24 | yliathim* | 2022-12-05 13:25:16 |
-| 54 ⬇ | 🎱 8ball | 12.85 | qu4ttromila | 2024-03-28 16:36:34 |
-| 55 ⬇ | 🕶️ darksunglasses | 12.51 | dayzedinndaydreams | 2024-07-26 16:49:35 |
-| 56 ⬇ | 🐦 bird | 11.96 | julialuxel | 2024-04-25 00:21:16 |
-| 57 ⬇ | 👒 womanshat | 11.85 | sussy_amonge | 2023-08-23 21:47:21 |
-| 58 ⬇ | 🧸 teddybear | 11.83 | miiiiisho | 2024-02-15 23:21:41 |
-| 59 ⬇ | 🧃 beveragebox | 11.62 | derinturitierutz | 2024-08-04 15:51:12 |
-| 60 ⬇ | 🪹 emptynest | 10.96 | chuuubbyyy | 2024-09-29 00:03:10 |
-| 61 ⬇ | 🪺 nestwitheggs | 10.84 | osnyatsky | 2024-03-30 13:50:46 |
-| 62 ⬇ | 🦎 lizard | 10.61 | sussy_amonge | 2023-06-04 08:16:33 |
-| 63 ⬇ | 🩲 briefs | 10.43 | mitgliederversammlung | 2024-09-25 12:08:43 |
-| 64 ⬇ | 💀 skull | 9.98 | bussinongnocap | 2023-05-14 05:29:15 |
-| 65 ⬇ | 🧥 coat | 8.72 | irgenting | 2025-01-02 00:19:23 |
-| 66 ⬆ | 🥫 cannedfood | 5.98 (+0.33) | leanmeister | 2025-01-07 20:29:27 |
-| 67 ⬇ | 🦉 owl | 5.90 | cumro | 2024-10-20 16:28:24 |
-| 68 ⬇ | 🎏 lure | 5.76 | fishingalt | 2024-01-13 13:04:30 |
-| 68 ⬇ | 🧵 wireline | 5.76 | cumro | 2024-09-25 02:16:10 |
-| 70 ⬇ | 🐚 shell | 5.03 | puzzlow | 2023-11-27 19:57:07 |
-| 71 ⬇ | 🪝 hook | 4.98 | sussy_amonge | 2022-12-15 17:37:01 |
-| 72 ⬇ | 🐦‍⬛ blackbird | 4.85 | qu4ttromila | 2024-04-25 00:23:08 |
-| 73 ⬇ | ☘️ shamrock | 3.98 | osnyatsky | 2024-03-29 10:22:41 |
-| 74 ⬇ | 🌰 acorn | 3.91 | fishingalt | 2024-09-25 12:59:56 |
-| 75 ⬇ | 🦢 swan | 3.28 | chuuubbyyy | 2024-10-02 11:43:20 |
-| 76 ⬇ | ☂️ umbrella | 2.99 | vaiastol | 2024-07-14 15:25:04 |
-| 77 ⬇ | 🥀 wiltedflower | 2.97 | cumro | 2024-12-19 20:15:08 |
-| 78 ⬇ | 🌹 rose | 2.96 | osnyatsky | 2024-03-28 12:12:36 |
-| 78 ⬇ | 🥪 sandwich | 2.96 | qu4ttromila | 2023-05-29 08:10:17 |
-| 80 ⬇ | 🌻 sunflower | 2.78 | fishingalt | 2024-06-18 10:20:11 |
-| 81 ⬇ | 🍬 candy | 2.60 | 5c33* | 2022-12-19 03:20:33 |
-| 82 ⬇ | 🪿 goose | 2.44 | leanmeister | 2024-12-31 17:08:06 |
-| 83 ⬇ | 👟 athleticshoe | 2.00 | kishma9 | 2023-11-05 02:37:53 |
-| 83 ⬇ | 🧦 socks | 2.00 | osnyatsky* | 2023-01-31 01:42:33 |
-| 83 ⬇ | 🩴 thongsandal | 2.00 | qu4ttromila | 2023-08-26 15:36:36 |
-| 86 ⬇ | 🩰 balletshoes | 1.99 | qu4ttromila | 2024-04-19 07:41:11 |
-| 86 ⬇ | ⛸️ iceskate | 1.99 | derinturitierutz | 2024-12-23 15:56:24 |
-| 88 ⬇ | 👢 boot | 1.98 | derinturitierutz | 2023-12-30 12:35:00 |
-| 89 ⬇ | 🌿 seaweed | 1.96 | dayzedinndaydreams | 2024-03-28 09:38:13 |
-| 90 ⬇ | 🌷 tulip | 1.77 | bapqo | 2024-09-11 16:29:55 |
-| 91 ⬇ | 🍁 mapleleaf | 1.00 | fishingalt | 2024-09-28 20:29:04 |
-| 92 ⬇ | 🪶 feather | 0.99 | osnyatsky* | 2023-08-24 01:31:11 |
-| 92 ⬇ | 🧤 gloves | 0.99 | sicklymaidrobot | 2024-02-23 12:41:32 |
-| 92 ⬇ | 🧣 scarf | 0.99 | osnyatsky* | 2022-12-22 04:35:03 |
-| 95 ⬇ | 🪚 carpentrysaw | 0.94 | chuuubbyyy | 2025-01-04 13:59:40 |
-| 96 ⬇ | 🐿️ squirrel | 0.00 | larvasisters | 2024-12-21 19:36:22 |
+| 46 ⬆ | 🍄‍🟫 brownmushroom | 19.90 (+0.39) | leanmeister | 2025-01-12 01:22:58 |
+| 47 ⬇ | 🦦 otter | 19.78 | dayzedinndaydreams | 2024-02-17 10:37:23 |
+| 48  | 🪱 worm | 18.95 | derinturitierutz | 2023-10-15 10:38:50 |
+| 49  | 🍄 mushroom | 17.85 | comiqq | 2024-02-22 05:08:00 |
+| 50  | 🦆 duck | 15.69 | derinturitierutz | 2023-11-04 14:31:09 |
+| 51  | 🪀 bobber | 15.60 | osnyisdead | 2024-09-27 00:16:38 |
+| 52  | 🪵 log | 15.28 | comiqq | 2024-05-16 17:26:45 |
+| 53  | 🐌 snail | 14.24 | yliathim* | 2022-12-05 13:25:16 |
+| 54  | 🎱 8ball | 12.85 | qu4ttromila | 2024-03-28 16:36:34 |
+| 55  | 🕶️ darksunglasses | 12.51 | dayzedinndaydreams | 2024-07-26 16:49:35 |
+| 56  | 🐦 bird | 11.96 | julialuxel | 2024-04-25 00:21:16 |
+| 57  | 👒 womanshat | 11.85 | sussy_amonge | 2023-08-23 21:47:21 |
+| 58  | 🧸 teddybear | 11.83 | miiiiisho | 2024-02-15 23:21:41 |
+| 59  | 🧃 beveragebox | 11.62 | derinturitierutz | 2024-08-04 15:51:12 |
+| 60  | 🪹 emptynest | 10.96 | liiiiiiiiiilly | 2024-09-29 00:03:10 |
+| 61  | 🪺 nestwitheggs | 10.84 | osnyatsky | 2024-03-30 13:50:46 |
+| 62  | 🦎 lizard | 10.61 | sussy_amonge | 2023-06-04 08:16:33 |
+| 63  | 🩲 briefs | 10.43 | mitgliederversammlung | 2024-09-25 12:08:43 |
+| 64  | 💀 skull | 9.98 | bussinongnocap | 2023-05-14 05:29:15 |
+| 65  | 🧥 coat | 8.72 | irgenting | 2025-01-02 00:19:23 |
+| 66  | 🥫 cannedfood | 5.98 | leanmeister | 2025-01-07 20:29:27 |
+| 67  | 🦉 owl | 5.90 | cumro | 2024-10-20 16:28:24 |
+| 68  | 🎏 lure | 5.76 | fishingalt | 2024-01-13 13:04:30 |
+| 68  | 🧵 wireline | 5.76 | cumro | 2024-09-25 02:16:10 |
+| 70  | 🐚 shell | 5.03 | puzzlow | 2023-11-27 19:57:07 |
+| 71  | 🪝 hook | 4.98 | sussy_amonge | 2022-12-15 17:37:01 |
+| 72  | 🐦‍⬛ blackbird | 4.85 | qu4ttromila | 2024-04-25 00:23:08 |
+| 73  | ☘️ shamrock | 3.98 | osnyatsky | 2024-03-29 10:22:41 |
+| 74  | 🌰 acorn | 3.91 | fishingalt | 2024-09-25 12:59:56 |
+| 75 ⬆ | 🪿 goose | 3.41 (+0.97) | julialuxel | 2025-01-15 04:08:39 |
+| 76 ⬇ | 🦢 swan | 3.28 | liiiiiiiiiilly | 2024-10-02 11:43:20 |
+| 77 ⬇ | ☂️ umbrella | 2.99 | vaiastol | 2024-07-14 15:25:04 |
+| 78 ⬇ | 🥀 wiltedflower | 2.97 | cumro | 2024-12-19 20:15:08 |
+| 79 ⬇ | 🌹 rose | 2.96 | osnyatsky | 2024-03-28 12:12:36 |
+| 79 ⬇ | 🥪 sandwich | 2.96 | qu4ttromila | 2023-05-29 08:10:17 |
+| 81 ⬇ | 🌻 sunflower | 2.78 | fishingalt | 2024-06-18 10:20:11 |
+| 82 ⬇ | 🍬 candy | 2.60 | 5c33* | 2022-12-19 03:20:33 |
+| 83  | 👟 athleticshoe | 2.00 | kishma9 | 2023-11-05 02:37:53 |
+| 83  | 🧦 socks | 2.00 | osnyatsky* | 2023-01-31 01:42:33 |
+| 83  | 🩴 thongsandal | 2.00 | qu4ttromila | 2023-08-26 15:36:36 |
+| 86  | 🩰 balletshoes | 1.99 | qu4ttromila | 2024-04-19 07:41:11 |
+| 86  | ⛸️ iceskate | 1.99 | derinturitierutz | 2024-12-23 15:56:24 |
+| 88  | 👢 boot | 1.98 | derinturitierutz | 2023-12-30 12:35:00 |
+| 89  | 🌿 seaweed | 1.96 | dayzedinndaydreams | 2024-03-28 09:38:13 |
+| 90  | 🌷 tulip | 1.77 | bapqo | 2024-09-11 16:29:55 |
+| 91  | 🍁 mapleleaf | 1.00 | fishingalt | 2024-09-28 20:29:04 |
+| 92  | 🪶 feather | 0.99 | osnyatsky* | 2023-08-24 01:31:11 |
+| 92  | 🧤 gloves | 0.99 | sicklymaidrobot | 2024-02-23 12:41:32 |
+| 92  | 🧣 scarf | 0.99 | osnyatsky* | 2022-12-22 04:35:03 |
+| 95  | 🪚 carpentrysaw | 0.94 | liiiiiiiiiilly | 2025-01-04 13:59:40 |
+| 96  | 🐿️ squirrel | 0.00 | larvasisters | 2024-12-21 19:36:22 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-01-12 11:49:52 UTC_
+_Last updated at 2025-01-19 11:29:36 UTC_
