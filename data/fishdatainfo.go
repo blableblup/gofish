@@ -46,7 +46,7 @@ var BirdPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})
 var SquirrelPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): @\s?(\w+), You toss your 🌰! 🫴 Huh[?][!] A [✨🫧] 🐿️ [✨🫧] chased after it! It went into @\s?(\w+)'s bag!`)
 var BagPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ \s?(\w+): [@👥]\s?(\w+), Your (bag|collection): (.+)`)
 
-func extractInfoFromPatterns(textContent string, patterns []*regexp.Regexp) []FishInfo {
+func extractFishDataFromPatterns(textContent string, patterns []*regexp.Regexp) []FishInfo {
 	var fishCatches []FishInfo
 
 	for _, pattern := range patterns {

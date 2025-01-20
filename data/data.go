@@ -29,7 +29,7 @@ func GetData(pool *pgxpool.Pool, chatNames string, data string, numMonths int, m
 	default:
 		logs.Logs().Warn().
 			Str("DB", data).
-			Msg("Please specify a valid database type")
+			Msg("That does not exist")
 	}
 }
 
@@ -57,16 +57,14 @@ func GetFishData(config utils.Config, pool *pgxpool.Pool, chatNames string, data
 			go func(chatName string, chat utils.ChatInfo) {
 				defer wg.Done()
 				urls := CreateURL(chatName, numMonths, monthYear, config)
-				fishData := ProcessFishData(urls, chatName, data, chat, pool, mode)
+				fishData := ProcessFishDataForChat(urls, chatName, data, chat, pool, mode)
 				fishChan <- fishData
 
 			}(chatName, chat)
 		}
 
 	default:
-		// Not doing "all" here means that the fishid and bagid for the fish/bag will be "wrong", since youre not getting all data
-		// But the fishid/bagid is just a unique number and doesnt do anything, can always do RANK() over(order by date desc/asc) in fish/bag for the actual fishid/bagid
-		// For the tournament results this doesnt matter, because every chat has their own tournament table
+
 		specifiedchatNames := strings.Split(chatNames, ",")
 		for _, chatName := range specifiedchatNames {
 			chat, ok := config.Chat[chatName]
@@ -89,7 +87,7 @@ func GetFishData(config utils.Config, pool *pgxpool.Pool, chatNames string, data
 			go func(chatName string, chat utils.ChatInfo) {
 				defer wg.Done()
 				urls := CreateURL(chatName, numMonths, monthYear, config)
-				fishData := ProcessFishData(urls, chatName, data, chat, pool, mode)
+				fishData := ProcessFishDataForChat(urls, chatName, data, chat, pool, mode)
 				fishChan <- fishData
 
 			}(chatName, chat)
@@ -119,7 +117,7 @@ func GetFishData(config utils.Config, pool *pgxpool.Pool, chatNames string, data
 
 }
 
-func ProcessFishData(urls []string, chatName string, data string, Chat utils.ChatInfo, pool *pgxpool.Pool, mode string) []FishInfo {
+func ProcessFishDataForChat(urls []string, chatName string, data string, Chat utils.ChatInfo, pool *pgxpool.Pool, mode string) []FishInfo {
 	var allFish []FishInfo
 	var wg sync.WaitGroup
 	var mu sync.Mutex
@@ -161,7 +159,7 @@ func ProcessFishData(urls []string, chatName string, data string, Chat utils.Cha
 		wg.Add(1)
 		go func(url string) {
 			defer wg.Done()
-			fishData, err := FishData(url, chatName, data, pool, latestCatchDate, latestBagDate, latestTournamentDate)
+			fishData, err := GetFishDataFromURL(url, chatName, data, pool, latestCatchDate, latestBagDate, latestTournamentDate)
 			if err != nil {
 				logs.Logs().Error().Err(err).
 					Msg("Error fetching data")
@@ -421,6 +419,7 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 		return err
 	}
 
+	// Log the fish / bags / results
 	newCounts := []map[string]int{newFishCounts, newBagCounts, newResultCounts}
 	var things string
 	somenumber := 0

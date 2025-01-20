@@ -14,7 +14,7 @@ import (
 	"github.com/valyala/fasthttp"
 )
 
-func FishData(url string, chatName string, data string, pool *pgxpool.Pool, latestCatchDate time.Time, latestBagDate time.Time, latestTournamentDate time.Time) ([]FishInfo, error) {
+func GetFishDataFromURL(url string, chatName string, data string, pool *pgxpool.Pool, latestCatchDate time.Time, latestBagDate time.Time, latestTournamentDate time.Time) ([]FishInfo, error) {
 	var fishData []FishInfo
 
 	const maxRetries = 5
@@ -99,7 +99,7 @@ func FishData(url string, chatName string, data string, pool *pgxpool.Pool, late
 			}
 		}
 
-		fishCatches := extractInfoFromPatterns(textContent, patterns)
+		fishCatches := extractFishDataFromPatterns(textContent, patterns)
 
 		for _, fish := range fishCatches {
 			// Update the url and the name of the chat here
