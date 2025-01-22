@@ -1,8 +1,8 @@
 ### Leaderboard for the weekly tournaments in dizzy's chat
 | Rank | Player | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points |
 |------|--------|-------------|------------------|------------------|--------|
-| 1 🥇 | buhl00n | 20 | 2 | 0 | 62.0 |
-| 2 🥈 | ben_vincent | 5 (+3) | 6 | 3 | 22.5 (+9.0) |
+| 1 🥇 | buhl00n | 21 (+1) | 4 (+2) | 0 | 67.0 (+5.0) |
+| 2 🥈 | ben_vincent | 7 (+2) | 6 | 4 (+1) | 29.0 (+6.5) |
 | 3 🥉 | konsminator | 3 | 2 | 4 | 13.0 |
 | 4 | vagdi | 3 | 0 | 2 | 10.0 |
 | 5 | gofishrigged | 0 | 7 | 3 | 8.5 |
@@ -16,4 +16,4 @@
 | 12 | ofaisalz | 0 | 0 | 2 | 1.0 |
 | 14 | julialuxel | 0 | 0 | 1 | 0.5 |
 
-_Last updated at 2025-01-15 10:53:43 UTC_
+_Last updated at 2025-01-22 17:29:53 UTC_
