@@ -4,55 +4,55 @@
 | 1 🥇  | osnyatsky*  | 5070 |
 | 2 🥈  | sicklymaidrobot  | 3823 |
 | 3 🥉  | puzzlow  | 3760 |
-| 4  | liiiiiiiiiilly  | 3295 (+6) |
-| 5  | qu4ttromila  | 3093 (+1) |
+| 4  | liiiiiiiiiilly  | 3316 (+21) |
+| 5  | qu4ttromila  | 3093 |
 | 6  | derinturitierutz  | 2699 |
-| 7  | miiiiisho  | 2621 (+10) |
+| 7  | miiiiisho  | 2632 (+11) |
 | 8  | dayzedinndaydreams  | 2581 |
-| 9  | kishma9  | 2506 (+1) |
+| 9  | kishma9  | 2510 (+4) |
 | 10  | sussy_amonge  | 2230 |
-| 11  | booty_bread  | 2027 |
-| 12  | osnyisdead  | 1398 (+57) |
-| 13  | ninjaross*  | 1321 (+11) |
-| 14 ⬆ | leanmeister  | 1215 (+91) |
-| 15 ⬇ | fishingalt  | 1161 |
+| 11  | booty_bread  | 2028 (+1) |
+| 12  | osnyisdead  | 1485 (+87) |
+| 13  | ninjaross*  | 1326 (+5) |
+| 14  | leanmeister  | 1313 (+98) |
+| 15  | fishingalt  | 1161 |
 | 16  | paras220  | 1070 |
 | 17  | ryebreadward  | 957 |
 | 18  | crazytown_bananapants  | 938 |
-| 19  | ouacewi  | 934 (+3) |
-| 20  | dougiefresh_83*  | 821 (+14) |
+| 19  | ouacewi  | 935 (+1) |
+| 20  | dougiefresh_83*  | 825 (+4) |
 | 21  | comiqq  | 805 |
 | 22  | bussinongnocap  | 797 |
-| 23  | cumro  | 674 (+12) |
+| 23  | cumro  | 688 (+14) |
 | 24  | kaasppeerr  | 626 |
 | 25  | xth49*  | 619 |
 | 26  | trident1011  | 579 |
 | 27  | xz_xz  | 567 |
 | 28  | islcfc*  | 563 |
-| 29  | julialuxel  | 528 (+5) |
-| 30  | larvasisters  | 517 (+3) |
+| 29  | julialuxel  | 530 (+2) |
+| 30  | larvasisters  | 522 (+5) |
 | 31  | respirate_  | 512 |
-| 32 ⬆ | idini  | 406 (+3) |
-| 32  | lazuli672*  | 406 |
+| 32  | idini  | 418 (+12) |
+| 33 ⬇ | lazuli672*  | 406 |
 | 34  | doublehelicalstructure*  | 399 |
 | 35  | kildofris*  | 389 |
-| 36 ⬆ | breadworms  | 386 (+4) |
-| 37 ⬇ | bapqo  | 384 |
-| 38  | mitgliederversammlung  | 363 (+3) |
+| 36  | breadworms  | 387 (+1) |
+| 37  | bapqo  | 384 |
+| 38  | mitgliederversammlung  | 369 (+6) |
 | 39  | suavvvvv  | 349 |
-| 40  | divra__  | 303 |
-| 41  | realtechnine  | 302 |
-| 42  | gawblemachine  | 290 (+3) |
-| 43  | crinche*  | 284 |
-| 44  | osnyatsky*  | 278 (+34) |
+| 40 ⬆ | osnyatsky*  | 325 (+47) |
+| 41 ⬇ | divra__  | 304 (+1) |
+| 42 ⬇ | realtechnine  | 302 |
+| 43 ⬇ | gawblemachine  | 294 (+4) |
+| 44 ⬇ | crinche*  | 284 |
 | 45  | supibot  | 241 |
-| 46  | houseofleaves*  | 221 |
-| 47  | vaiastol  | 213 (+2) |
-| 48 ⬆ | gstaman911  | 203 (+29) |
-| 48  | hmsmob*  | 203 |
-| 50 ⬇ | wispmode  | 193 |
-| 51 ⬇ | wisco9ers*  | 184 (+2) |
-| 52 ⬇ | yliathim*  | 179 |
+| 46  | houseofleaves*  | 222 (+1) |
+| 47 ⬆ | gstaman911  | 220 (+17) |
+| 48 ⬇ | vaiastol  | 213 |
+| 49 ⬇ | hmsmob*  | 203 |
+| 50  | wispmode  | 193 |
+| 51  | wisco9ers*  | 187 (+3) |
+| 52  | yliathim*  | 179 |
 | 53  | 5c33*  | 159 |
 | 53  | veggesh  | 159 |
 | 55  | lagggm*  | 152 |
@@ -65,4 +65,4 @@
 
 _Only showing fishers who caught >= 100 fish_
 
-_Last updated at 2025-01-19 11:30:12 UTC_
+_Last updated at 2025-01-26 12:55:37 UTC_

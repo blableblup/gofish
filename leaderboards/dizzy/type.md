@@ -48,8 +48,8 @@
 | 45  | 🐌 snail | 11.95 | ben_vincent | 2024-11-11 01:45:17 |
 | 46  | 🎱 8ball | 11.72 | gimmeschmoneys | 2024-12-21 01:06:37 |
 | 47  | 📱 iphone | 11.67 | shheedy | 2024-12-24 15:47:03 |
-| 48  | 👒 womanshat | 11.34 | ssenario | 2024-10-23 06:15:35 |
-| 49  | 🧸 teddybear | 11.19 | sugur | 2024-12-02 16:51:05 |
+| 48 ⬆ | 🧸 teddybear | 11.47 (+0.28) | ben_vincent | 2025-01-19 22:56:07 |
+| 49 ⬇ | 👒 womanshat | 11.34 | ssenario | 2024-10-23 06:15:35 |
 | 50  | 🪀 bobber | 11.09 | ofaisalz | 2024-12-24 13:47:53 |
 | 51  | 🦆 duck | 10.85 | buhl00n | 2024-12-10 18:12:07 |
 | 52  | 🩲 briefs | 10.68 | exo9 | 2024-10-27 06:42:48 |
@@ -57,7 +57,7 @@
 | 54  | 🦎 lizard | 9.91 | synncss | 2024-11-01 01:12:13 |
 | 55  | 🕶️ darksunglasses | 9.87 | gimmeschmoneys | 2024-10-22 11:25:00 |
 | 56  | 🪺 nestwitheggs | 9.75 | notnownico | 2025-01-10 21:07:22 |
-| 57  | 🪹 emptynest | 9.06 (+1.61) | notnownico | 2025-01-17 15:18:36 |
+| 57  | 🪹 emptynest | 9.06 | notnownico | 2025-01-17 15:18:36 |
 | 58  | 🧵 wireline | 5.62 | sugur | 2024-12-21 00:13:44 |
 | 59  | 🧃 beveragebox | 5.17 | imzommie | 2024-10-24 20:56:03 |
 | 60  | 🥫 cannedfood | 4.89 | gofishrigged | 2024-12-25 06:17:05 |
@@ -84,4 +84,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-01-19 11:29:41 UTC_
+_Last updated at 2025-01-26 12:55:04 UTC_
