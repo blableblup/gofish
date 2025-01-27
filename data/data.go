@@ -15,17 +15,17 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 
-func GetData(pool *pgxpool.Pool, chatNames string, data string, numMonths int, monthYear string, mode string) {
+func GetData(pool *pgxpool.Pool, chatNames string, data string, numMonths int, monthYear string, logInstance int, mode string) {
 
 	config := utils.LoadConfig()
 
 	switch data {
 	case "f":
-		GetFishData(config, pool, chatNames, data, numMonths, monthYear, mode)
+		GetFishData(config, pool, chatNames, data, numMonths, monthYear, logInstance, mode)
 	case "t":
-		GetFishData(config, pool, chatNames, data, numMonths, monthYear, mode)
+		GetFishData(config, pool, chatNames, data, numMonths, monthYear, logInstance, mode)
 	case "all":
-		GetFishData(config, pool, chatNames, data, numMonths, monthYear, mode)
+		GetFishData(config, pool, chatNames, data, numMonths, monthYear, logInstance, mode)
 	default:
 		logs.Logs().Warn().
 			Str("DB", data).
@@ -33,7 +33,7 @@ func GetData(pool *pgxpool.Pool, chatNames string, data string, numMonths int, m
 	}
 }
 
-func GetFishData(config utils.Config, pool *pgxpool.Pool, chatNames string, data string, numMonths int, monthYear string, mode string) {
+func GetFishData(config utils.Config, pool *pgxpool.Pool, chatNames string, data string, numMonths int, monthYear string, logInstance int, mode string) {
 
 	var wg sync.WaitGroup
 	fishChan := make(chan []FishInfo)
@@ -56,7 +56,7 @@ func GetFishData(config utils.Config, pool *pgxpool.Pool, chatNames string, data
 			wg.Add(1)
 			go func(chatName string, chat utils.ChatInfo) {
 				defer wg.Done()
-				urls := CreateURL(chatName, numMonths, monthYear, config)
+				urls := CreateURL(chatName, numMonths, monthYear, logInstance, config)
 				fishData := ProcessFishDataForChat(urls, chatName, data, chat, pool, mode)
 				fishChan <- fishData
 
@@ -86,7 +86,7 @@ func GetFishData(config utils.Config, pool *pgxpool.Pool, chatNames string, data
 			wg.Add(1)
 			go func(chatName string, chat utils.ChatInfo) {
 				defer wg.Done()
-				urls := CreateURL(chatName, numMonths, monthYear, config)
+				urls := CreateURL(chatName, numMonths, monthYear, logInstance, config)
 				fishData := ProcessFishDataForChat(urls, chatName, data, chat, pool, mode)
 				fishChan <- fishData
 

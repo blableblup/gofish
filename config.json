@@ -3,22 +3,22 @@
       "breadworms": {
         "logs_host": "https://logs.joinuv.com",
         "logs_added": "2022/12",
-        "logs_host_alts": {
-          "https://logs.ivr.fi": "2024/6",
-          "https://logs.potat.app": "2024/10",
-          "https://logs.spanix.team": "2024/10"
-        },
+        "logs_host_alts": [
+          "https://logs.ivr.fi$2024/6",
+          "https://logs.potat.app$2024/10",
+          "https://logs.spanix.team$2024/10"
+        ],
         "checkfdata": true,
         "board_enabled": true
       },
       "psp1g": {
         "logs_host": "https://logs.ivr.fi",
         "logs_added": "2023/8",
-        "logs_host_alts": {
-          "https://logs.nadeko.net": "2023/8",
-          "https://logs.potat.app": "2024/8",
-          "https://logs.spanix.team": "2024/8"
-        },
+        "logs_host_alts": [
+          "https://logs.nadeko.net$2023/8", 
+          "https://logs.potat.app$2024/8", 
+          "https://logs.spanix.team$2024/8"
+        ],
         "checkfdata": true,
         "board_enabled": true
       },
@@ -35,10 +35,10 @@
       "julialuxel": {
         "logs_host": "https://logs.ivr.fi",
         "logs_added": "2023/12",
-        "logs_host_alts": {
-          "https://logs.potat.app": "2024/3",
-          "https://logs.spanix.team": "2024/9"
-        },
+        "logs_host_alts": [
+          "https://logs.potat.app$2024/3",
+          "https://logs.spanix.team$2024/9"
+        ],
         "weight_limit": 50,
         "totalcount_limit": 10,
         "fishweek_limit": 10,
@@ -49,9 +49,9 @@
       "ryanpotat": {
         "logs_host": "https://logs.spanix.team",
         "logs_added": "2023/12",
-        "logs_host_alts": {
-          "https://logs.potat.app": "2024/4"
-        },
+        "logs_host_alts": [
+          "https://logs.potat.app$2024/4"
+        ],
         "checkfdata": true,
         "board_enabled": false
       },
@@ -92,9 +92,9 @@
       "swormbeard": {
         "logs_host": "https://logs.potat.app",
         "logs_added": "2024/7",
-        "logs_host_alts": {
-          "https://logs.spanix.team": "2024/8"
-        },
+        "logs_host_alts": [
+          "https://logs.spanix.team$2024/8"
+        ],
         "checkfdata": true,
         "board_enabled": false
       },
@@ -111,9 +111,9 @@
       "dizzy": {
         "logs_host": "https://logs.ivr.fi",
         "logs_added": "2024/10",
-        "logs_host_alts": {
-          "https://logs.spanix.team": "2024/10"
-        },
+        "logs_host_alts": [
+          "https://logs.spanix.team$2024/10"
+        ],
         "weight_limit": 100,
         "totalcount_limit": 30,
         "fishweek_limit": 20,

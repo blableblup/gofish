@@ -10,12 +10,11 @@ import (
 )
 
 // This creates the urls which get checked in data. By default it returns the url of the current month
-// To do: Add a way to check different justlog instances for older data / when the current one is unavailable ?
-
-func CreateURL(chatName string, numMonths int, monthYear string, config utils.Config) []string {
+func CreateURL(chatName string, numMonths int, monthYear string, logInstance int, config utils.Config) []string {
 
 	now := time.Now()
 	var urls []string
+	var justlogInstance, justlogInstanceAdded string
 
 	if config.Chat[chatName].LogsHost == "" {
 		logs.Logs().Fatal().
@@ -23,13 +22,28 @@ func CreateURL(chatName string, numMonths int, monthYear string, config utils.Co
 			Msg("No logs host specified for chat")
 	}
 
-	// Start from the specified month/year or current month/year
+	if logInstance == 99 {
+		justlogInstance = config.Chat[chatName].LogsHost
+		justlogInstanceAdded = config.Chat[chatName].LogsAdded
+	} else {
+		if len(config.Chat[chatName].LogsHostAlts) == 0 {
+			logs.Logs().Fatal().
+				Str("Chat", chatName).
+				Msg("No alt logs host specified for chat")
+		}
+		parts := strings.Split(config.Chat[chatName].LogsHostAlts[logInstance], "$")
+
+		justlogInstance = parts[0]
+		justlogInstanceAdded = parts[1]
+	}
+
+	// Get the specified month if it was specified
 	if monthYear != "" {
 		parts := strings.Split(monthYear, "/")
 		if len(parts) != 2 {
 			logs.Logs().Fatal().
 				Str("MonthYear", monthYear).
-				Msg("Invalid month/year format. Please use 'yyyy/mm' format.")
+				Msg("Invalid month/year format. Use 'yyyy/mm' format.")
 		}
 		year, err := strconv.Atoi(parts[0])
 		if err != nil {
@@ -48,14 +62,13 @@ func CreateURL(chatName string, numMonths int, monthYear string, config utils.Co
 
 	// Loop through the specified number of months
 	for i := 0; i < numMonths; i++ {
-		// Calculate the date for the first day of the current month
-		firstOfMonth := time.Date(now.Year(), now.Month()-time.Month(i), 1, 0, 0, 0, 0, time.UTC)
 
-		// Extract the year and month from the first day of the month
+		// Get the year and month to check, from the first day of that month, because idk ?
+		firstOfMonth := time.Date(now.Year(), now.Month()-time.Month(i), 1, 0, 0, 0, 0, time.UTC)
 		year, month, _ := firstOfMonth.Date()
 
 		// Check if justlog was added to the channel first
-		if logsAdded, err := time.Parse("2006/1", config.Chat[chatName].LogsAdded); err == nil {
+		if logsAdded, err := time.Parse("2006/1", justlogInstanceAdded); err == nil {
 			if firstOfMonth.Before(logsAdded) {
 				logs.Logs().Info().
 					Str("Chat", chatName).
@@ -75,19 +88,19 @@ func CreateURL(chatName string, numMonths int, monthYear string, config utils.Co
 		if year == 2023 && month == time.September {
 
 			// Check supi and gofishgame
-			urlSupi := fmt.Sprintf("%s/channel/%s/user/supibot/%d/%d?", config.Chat[chatName].LogsHost, chatName, year, int(month))
-			urlGofi := fmt.Sprintf("%s/channel/%s/user/gofishgame/%d/%d?", config.Chat[chatName].LogsHost, chatName, year, int(month))
+			urlSupi := fmt.Sprintf("%s/channel/%s/user/supibot/%d/%d?", justlogInstance, chatName, year, int(month))
+			urlGofi := fmt.Sprintf("%s/channel/%s/user/gofishgame/%d/%d?", justlogInstance, chatName, year, int(month))
 			urls = append(urls, urlSupi, urlGofi)
 		} else {
 			// Check supi for months before september 2023, check gofishgame for months after september 2023
 			if year < 2023 || (year == 2023 && month < time.September) {
 
-				url := fmt.Sprintf("%s/channel/%s/user/supibot/%d/%d?", config.Chat[chatName].LogsHost, chatName, year, int(month))
+				url := fmt.Sprintf("%s/channel/%s/user/supibot/%d/%d?", justlogInstance, chatName, year, int(month))
 				urls = append(urls, url)
 
 			} else {
 
-				url := fmt.Sprintf("%s/channel/%s/user/gofishgame/%d/%d?", config.Chat[chatName].LogsHost, chatName, year, int(month))
+				url := fmt.Sprintf("%s/channel/%s/user/gofishgame/%d/%d?", justlogInstance, chatName, year, int(month))
 				urls = append(urls, url)
 			}
 		}
