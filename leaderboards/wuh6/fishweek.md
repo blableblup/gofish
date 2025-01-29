@@ -6,7 +6,7 @@
 | 3 🥉  | iflya320  | 130 |
 | 4  | huuuuuuuuuuuuuuuuuuuuuurz  | 90 |
 | 5  | nndiana  | 80 |
-| 6  | theevirus  | 73 |
+| 6  | theevirus  | 75 (+2) |
 | 7  | teddbearcs  | 66 |
 | 8  | mazzo_tv  | 59 |
 | 9  | sandwichsundays  | 57 |
@@ -16,9 +16,10 @@
 | 13  | veny2lbs  | 47 |
 | 14  | zwockel01  | 40 |
 | 15  | flovrek  | 24 |
-| 16  | wuh6  | 18 |
-| 17  | liiiiiiiiiilly  | 11 |
+| 16 🆕 | gorillapark  | 23 |
+| 17 ⬇ | wuh6  | 18 |
+| 18 ⬇ | liiiiiiiiiilly  | 11 |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-01-22 17:29:53 UTC_
+_Last updated at 2025-01-29 12:24:07 UTC_

@@ -28,16 +28,16 @@
 | 25  | hmsmob*  | 52 |
 | 25  | kaasppeerr  | 52 |
 | 27  | bapqo  | 49 |
-| 28  | paras220  | 46 |
-| 29  | ninjaross  | 44 |
-| 30  | ouacewi  | 43 |
-| 31  | houseofleaves  | 42 |
-| 32  | cumro  | 40 |
-| 33  | idini  | 36 |
-| 34  | julialuxel  | 34 |
-| 34 ⬆ | osnyatsky  | 34 (+4) |
-| 36 ⬇ | islcfc*  | 33 |
-| 37 ⬇ | jr_mime  | 32 |
+| 28 ⬆ | osnyatsky  | 47 (+13) |
+| 29 ⬇ | paras220  | 46 |
+| 30 ⬇ | ninjaross  | 44 |
+| 31 ⬇ | ouacewi  | 43 |
+| 32 ⬇ | houseofleaves  | 42 |
+| 33 ⬇ | cumro  | 40 |
+| 34 ⬇ | idini  | 36 |
+| 35 ⬇ | julialuxel  | 34 |
+| 36  | islcfc*  | 33 |
+| 37  | jr_mime  | 32 |
 | 38  | fallen_angels_1995  | 28 |
 | 39  | dougiefresh_83  | 27 |
 | 40  | breadworms  | 25 |
@@ -50,4 +50,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2025-01-22 17:29:53 UTC_
+_Last updated at 2025-01-29 12:24:07 UTC_
