@@ -26,10 +26,20 @@ func CreateURL(chatName string, numMonths int, monthYear string, logInstance int
 		justlogInstance = config.Chat[chatName].LogsHost
 		justlogInstanceAdded = config.Chat[chatName].LogsAdded
 	} else {
+		// Can check this api https://logs.zonian.dev/instances and search for the channel here to get the chats instances
+		// Instead of adding them all manually to the config ?
 		if len(config.Chat[chatName].LogsHostAlts) == 0 {
 			logs.Logs().Fatal().
 				Str("Chat", chatName).
-				Msg("No alt logs host specified for chat")
+				Msg("No alt logs host specified for chat in config")
+		}
+		if len(config.Chat[chatName].LogsHostAlts) < logInstance {
+			logs.Logs().Fatal().
+				Str("Chat", chatName).
+				Int("Selected instance", logInstance).
+				Int("Amount of instances", len(config.Chat[chatName].LogsHostAlts)).
+				Interface("Available instances", config.Chat[chatName].LogsHostAlts).
+				Msg("Chat does not have that many different instances")
 		}
 		parts := strings.Split(config.Chat[chatName].LogsHostAlts[logInstance], "$")
 
