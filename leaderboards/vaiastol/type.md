@@ -5,20 +5,20 @@
 | 2 🥈  | 🐳 whale | 300.47 | dayzedinndaydreams | 2024-08-22 22:47:58 |
 | 3 🥉  | 🐉 dragon | 282.25 | hahppyy | 2024-08-07 13:40:28 |
 | 4  | 🦕 sauropod | 264.89 | dayzedinndaydreams | 2025-01-13 21:51:27 |
-| 5  | 🐻‍❄ polarbear | 236.12 | julialuxel | 2024-12-30 06:35:55 |
-| 6  | 🐍 snake | 224.83 | mitgliederversammlung | 2025-01-12 20:19:13 |
+| 5 ⬆ | 🐍 snake | 240.52 (+15.69) | leastsussyimposter | 2025-01-26 23:13:55 |
+| 6 ⬇ | 🐻‍❄ polarbear | 236.12 | julialuxel | 2024-12-30 06:35:55 |
 | 7  | 🦈 shark | 201.75 | pengeg | 2024-11-16 06:57:21 |
 | 8  | 🐙 octopus | 160.48 | divra__ | 2024-11-01 17:07:43 |
 | 9  | 🐋 whale2 | 148.82 | hahppyy | 2024-11-04 16:24:39 |
 | 10  | 🐢 turtle | 148.29 | leastsussyimposter | 2024-09-29 20:58:46 |
 | 11  | 🐊 crocodile | 145.58 | vaiastol | 2024-09-08 00:40:59 |
-| 12  | 🦪 oyster | 125.98 | julialuxel | 2024-12-28 19:05:43 |
-| 13  | 🦭 seal | 116.63 (+4.75) | bron8i | 2025-01-21 21:38:24 |
+| 12 ⬆ | 🦭 seal | 133.82 (+17.19) | vaiastol | 2025-02-01 09:46:57 |
+| 13 ⬇ | 🦪 oyster | 125.98 | julialuxel | 2024-12-28 19:05:43 |
 | 14  | 🐬 dolphin | 104.56 | leastsussyimposter | 2024-11-21 16:03:43 |
 | 15  | 🧟 zombie | 86.37 | yoimlee | 2024-08-12 16:32:24 |
 | 16  | 🛢️ oildrum | 68.03 | leastsussyimposter | 2024-08-05 01:05:17 |
 | 17  | 🐟 fish | 62.69 | pengeg | 2024-12-01 22:40:57 |
-| 18  | 🦞 lobster | 61.60 | hahppyy | 2024-12-10 01:14:26 |
+| 18  | 🦞 lobster | 62.67 (+1.07) | vaiastol | 2025-01-28 13:41:41 |
 | 19  | 🪸 coral | 60.38 | vaiastol | 2024-09-19 04:57:44 |
 | 20  | 🐈‍⬛ blackcat | 60.23 | hahppyy | 2024-12-19 10:38:55 |
 | 21  | 🦐 shrimp | 54.29 | hahppyy | 2024-12-01 21:27:46 |
@@ -45,11 +45,11 @@
 | 42  | 🧭 compass | 12.25 | vaiastol | 2024-12-25 03:46:12 |
 | 43  | 🐌 snail | 11.90 | leastsussyimposter | 2024-08-28 17:02:48 |
 | 44  | 🪺 nestwitheggs | 10.98 | hahppyy | 2024-09-26 18:59:03 |
-| 45 ⬆ | 🪱 worm | 10.90 (+1.39) | divra__ | 2025-01-25 21:04:34 |
-| 46 ⬇ | 📱 iphone | 10.66 | pengeg | 2024-12-24 00:32:17 |
-| 47 ⬇ | 🪹 emptynest | 10.45 | bubinga | 2024-10-17 21:08:36 |
-| 48 ⬇ | 🪵 log | 10.26 | bubinga | 2024-11-05 20:58:54 |
-| 49 ⬇ | 🧸 teddybear | 9.81 | nicestnarwhal | 2025-01-05 02:59:12 |
+| 45  | 🪱 worm | 10.90 | divra__ | 2025-01-25 21:04:34 |
+| 46  | 📱 iphone | 10.66 | pengeg | 2024-12-24 00:32:17 |
+| 47  | 🪹 emptynest | 10.45 | bubinga | 2024-10-17 21:08:36 |
+| 48  | 🪵 log | 10.26 | bubinga | 2024-11-05 20:58:54 |
+| 49  | 🧸 teddybear | 9.81 | nicestnarwhal | 2025-01-05 02:59:12 |
 | 50  | 🎱 8ball | 9.50 | leastsussyimposter | 2025-01-06 22:09:55 |
 | 51  | 💀 skull | 9.07 | milesdotcom | 2024-08-28 22:55:59 |
 | 52  | 🦎 lizard | 7.98 | leastsussyimposter | 2024-12-24 22:04:56 |
@@ -88,4 +88,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-01-26 12:55:05 UTC_
+_Last updated at 2025-02-02 12:55:41 UTC_

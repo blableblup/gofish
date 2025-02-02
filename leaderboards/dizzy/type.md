@@ -14,7 +14,7 @@
 | 11  | 🦭 seal | 131.76 | lolspers | 2024-11-04 14:33:49 |
 | 12  | 🦪 oyster | 120.17 | buhl00n | 2024-12-26 09:23:36 |
 | 13  | 🐬 dolphin | 111.47 | iam_haunt_ | 2024-11-04 17:15:30 |
-| 14  | 🐢 turtle | 96.13 | julialuxel | 2024-10-21 02:30:51 |
+| 14  | 🐢 turtle | 99.60 (+3.47) | notnownico | 2025-02-01 14:22:39 |
 | 15  | 🧟 zombie | 92.30 | ofaisalz | 2024-12-16 10:40:05 |
 | 16  | 🦞 lobster | 92.11 | spanmer | 2024-10-22 00:09:41 |
 | 17  | 🪸 coral | 86.86 | rabituwu | 2024-10-22 06:25:51 |
@@ -48,8 +48,8 @@
 | 45  | 🐌 snail | 11.95 | ben_vincent | 2024-11-11 01:45:17 |
 | 46  | 🎱 8ball | 11.72 | gimmeschmoneys | 2024-12-21 01:06:37 |
 | 47  | 📱 iphone | 11.67 | shheedy | 2024-12-24 15:47:03 |
-| 48 ⬆ | 🧸 teddybear | 11.47 (+0.28) | ben_vincent | 2025-01-19 22:56:07 |
-| 49 ⬇ | 👒 womanshat | 11.34 | ssenario | 2024-10-23 06:15:35 |
+| 48  | 🧸 teddybear | 11.47 | ben_vincent | 2025-01-19 22:56:07 |
+| 49  | 👒 womanshat | 11.34 | ssenario | 2024-10-23 06:15:35 |
 | 50  | 🪀 bobber | 11.09 | ofaisalz | 2024-12-24 13:47:53 |
 | 51  | 🦆 duck | 10.85 | buhl00n | 2024-12-10 18:12:07 |
 | 52  | 🩲 briefs | 10.68 | exo9 | 2024-10-27 06:42:48 |
@@ -79,9 +79,10 @@
 | 76  | 🧤 gloves | 0.99 | spanmer | 2024-11-09 03:05:19 |
 | 77  | 🌿 seaweed | 0.97 | tairaaaaa | 2024-11-27 10:53:24 |
 | 78  | 🍬 candy | 0.93 | spanmer | 2024-11-17 16:32:54 |
-| 79  | 🧣 scarf | 0.75 | exo9 | 2024-12-25 05:19:42 |
-| 80  | 🪶 feather | 0.70 | squishyuh | 2024-10-21 19:23:19 |
+| 79 ⬆ | 🪶 feather | 0.92 (+0.22) | gofishrigged | 2025-01-30 09:09:36 |
+| 80 🆕 | 🪚 carpentrysaw | 0.86 | gimmeschmoneys | 2025-02-01 18:11:04 |
+| 81 ⬇ | 🧣 scarf | 0.75 | exo9 | 2024-12-25 05:19:42 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-01-26 12:55:04 UTC_
+_Last updated at 2025-02-02 12:55:38 UTC_

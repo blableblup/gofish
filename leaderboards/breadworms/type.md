@@ -45,9 +45,9 @@
 | 42  | 🦠 plankton | 22.00 | osnyatsky | 2024-01-03 09:00:25 |
 | 43  | 🐠 tropicalfish | 21.99 | cumro | 2024-12-10 01:42:43 |
 | 44  | 🪼 jellyfish | 21.87 | sicklymaidrobot | 2023-08-04 03:47:25 |
-| 45  | 🧭 compass | 20.23 | ryebreadward | 2023-12-24 02:46:48 |
-| 46 ⬆ | 🍄‍🟫 brownmushroom | 19.90 (+0.39) | leanmeister | 2025-01-12 01:22:58 |
-| 47 ⬇ | 🦦 otter | 19.78 | dayzedinndaydreams | 2024-02-17 10:37:23 |
+| 45 ⬆ | 🍄‍🟫 brownmushroom | 20.74 (+0.84) | liiiiiiiiiilly | 2025-01-29 03:56:30 |
+| 46 ⬇ | 🧭 compass | 20.23 | ryebreadward | 2023-12-24 02:46:48 |
+| 47  | 🦦 otter | 19.78 | dayzedinndaydreams | 2024-02-17 10:37:23 |
 | 48  | 🪱 worm | 18.95 | derinturitierutz | 2023-10-15 10:38:50 |
 | 49  | 🍄 mushroom | 17.85 | comiqq | 2024-02-22 05:08:00 |
 | 50  | 🦆 duck | 15.69 | derinturitierutz | 2023-11-04 14:31:09 |
@@ -75,14 +75,14 @@
 | 72  | 🐦‍⬛ blackbird | 4.85 | qu4ttromila | 2024-04-25 00:23:08 |
 | 73  | ☘️ shamrock | 3.98 | osnyatsky | 2024-03-29 10:22:41 |
 | 74  | 🌰 acorn | 3.91 | fishingalt | 2024-09-25 12:59:56 |
-| 75 ⬆ | 🪿 goose | 3.41 (+0.97) | julialuxel | 2025-01-15 04:08:39 |
-| 76 ⬇ | 🦢 swan | 3.28 | liiiiiiiiiilly | 2024-10-02 11:43:20 |
-| 77 ⬇ | ☂️ umbrella | 2.99 | vaiastol | 2024-07-14 15:25:04 |
-| 78 ⬇ | 🥀 wiltedflower | 2.97 | cumro | 2024-12-19 20:15:08 |
-| 79 ⬇ | 🌹 rose | 2.96 | osnyatsky | 2024-03-28 12:12:36 |
-| 79 ⬇ | 🥪 sandwich | 2.96 | qu4ttromila | 2023-05-29 08:10:17 |
-| 81 ⬇ | 🌻 sunflower | 2.78 | fishingalt | 2024-06-18 10:20:11 |
-| 82 ⬇ | 🍬 candy | 2.60 | 5c33* | 2022-12-19 03:20:33 |
+| 75  | 🪿 goose | 3.41 | julialuxel | 2025-01-15 04:08:39 |
+| 76  | 🦢 swan | 3.28 | liiiiiiiiiilly | 2024-10-02 11:43:20 |
+| 77  | ☂️ umbrella | 2.99 | vaiastol | 2024-07-14 15:25:04 |
+| 78  | 🥀 wiltedflower | 2.97 | cumro | 2024-12-19 20:15:08 |
+| 79  | 🌹 rose | 2.96 | osnyatsky | 2024-03-28 12:12:36 |
+| 79  | 🥪 sandwich | 2.96 | qu4ttromila | 2023-05-29 08:10:17 |
+| 81  | 🌻 sunflower | 2.78 | fishingalt | 2024-06-18 10:20:11 |
+| 82  | 🍬 candy | 2.60 | 5c33* | 2022-12-19 03:20:33 |
 | 83  | 👟 athleticshoe | 2.00 | kishma9 | 2023-11-05 02:37:53 |
 | 83  | 🧦 socks | 2.00 | osnyatsky* | 2023-01-31 01:42:33 |
 | 83  | 🩴 thongsandal | 2.00 | qu4ttromila | 2023-08-26 15:36:36 |
@@ -100,4 +100,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-01-19 11:29:36 UTC_
+_Last updated at 2025-02-02 12:55:46 UTC_
