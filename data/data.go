@@ -15,7 +15,7 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 
-func GetData(pool *pgxpool.Pool, chatNames string, data string, numMonths int, monthYear string, logInstance int, mode string) {
+func GetData(pool *pgxpool.Pool, chatNames string, data string, numMonths int, monthYear string, logInstance string, mode string) {
 
 	config := utils.LoadConfig()
 
@@ -33,7 +33,7 @@ func GetData(pool *pgxpool.Pool, chatNames string, data string, numMonths int, m
 	}
 }
 
-func GetFishData(config utils.Config, pool *pgxpool.Pool, chatNames string, data string, numMonths int, monthYear string, logInstance int, mode string) {
+func GetFishData(config utils.Config, pool *pgxpool.Pool, chatNames string, data string, numMonths int, monthYear string, logInstance string, mode string) {
 
 	var wg sync.WaitGroup
 	fishChan := make(chan []FishInfo)
