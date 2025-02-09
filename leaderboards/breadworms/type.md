@@ -14,7 +14,7 @@
 | 11  | 🐋 whale2 | 159.84 | osnyatsky | 2023-10-17 15:40:41 |
 | 12  | 🐊 crocodile | 149.98 | kishma9 | 2024-08-27 00:54:05 |
 | 13  | 🧜‍♀️ mermaid | 136.90 | dayzedinndaydreams | 2023-08-17 12:37:02 |
-| 14  | 🦭 seal | 133.31 | ryebreadward | 2024-01-08 13:39:53 |
+| 14  | 🦭 seal | 134.85 (+1.54) | derinturitierutz | 2025-02-02 16:33:05 |
 | 15  | 🧞‍♂ malegenie | 131.64 | kishma9 | 2023-05-29 11:38:47 |
 | 16  | 🦪 oyster | 128.36 | qu4ttromila | 2024-02-01 20:33:40 |
 | 17  | 🦞 lobster | 126.55 | yopego | 2023-08-27 15:59:04 |
@@ -44,9 +44,9 @@
 | 41  | 🎰 slotmachine | 23.11 | qu4ttromila | 2023-09-20 09:31:25 |
 | 42  | 🦠 plankton | 22.00 | osnyatsky | 2024-01-03 09:00:25 |
 | 43  | 🐠 tropicalfish | 21.99 | cumro | 2024-12-10 01:42:43 |
-| 44  | 🪼 jellyfish | 21.87 | sicklymaidrobot | 2023-08-04 03:47:25 |
-| 45 ⬆ | 🍄‍🟫 brownmushroom | 20.74 (+0.84) | liiiiiiiiiilly | 2025-01-29 03:56:30 |
-| 46 ⬇ | 🧭 compass | 20.23 | ryebreadward | 2023-12-24 02:46:48 |
+| 44 ⬆ | 🍄‍🟫 brownmushroom | 21.97 (+1.23) | liiiiiiiiiilly | 2025-02-05 02:10:22 |
+| 45 ⬇ | 🪼 jellyfish | 21.87 | sicklymaidrobot | 2023-08-04 03:47:25 |
+| 46  | 🧭 compass | 20.23 | ryebreadward | 2023-12-24 02:46:48 |
 | 47  | 🦦 otter | 19.78 | dayzedinndaydreams | 2024-02-17 10:37:23 |
 | 48  | 🪱 worm | 18.95 | derinturitierutz | 2023-10-15 10:38:50 |
 | 49  | 🍄 mushroom | 17.85 | comiqq | 2024-02-22 05:08:00 |
@@ -61,11 +61,11 @@
 | 58  | 🧸 teddybear | 11.83 | miiiiisho | 2024-02-15 23:21:41 |
 | 59  | 🧃 beveragebox | 11.62 | derinturitierutz | 2024-08-04 15:51:12 |
 | 60  | 🪹 emptynest | 10.96 | liiiiiiiiiilly | 2024-09-29 00:03:10 |
-| 61  | 🪺 nestwitheggs | 10.84 | osnyatsky | 2024-03-30 13:50:46 |
-| 62  | 🦎 lizard | 10.61 | sussy_amonge | 2023-06-04 08:16:33 |
-| 63  | 🩲 briefs | 10.43 | mitgliederversammlung | 2024-09-25 12:08:43 |
-| 64  | 💀 skull | 9.98 | bussinongnocap | 2023-05-14 05:29:15 |
-| 65  | 🧥 coat | 8.72 | irgenting | 2025-01-02 00:19:23 |
+| 61 ⬆ | 🧥 coat | 10.92 (+2.20) | miiiiisho | 2025-02-02 14:27:49 |
+| 62 ⬇ | 🪺 nestwitheggs | 10.84 | osnyatsky | 2024-03-30 13:50:46 |
+| 63 ⬇ | 🦎 lizard | 10.61 | sussy_amonge | 2023-06-04 08:16:33 |
+| 64 ⬇ | 🩲 briefs | 10.43 | mitgliederversammlung | 2024-09-25 12:08:43 |
+| 65 ⬇ | 💀 skull | 9.98 | bussinongnocap | 2023-05-14 05:29:15 |
 | 66  | 🥫 cannedfood | 5.98 | leanmeister | 2025-01-07 20:29:27 |
 | 67  | 🦉 owl | 5.90 | cumro | 2024-10-20 16:28:24 |
 | 68  | 🎏 lure | 5.76 | fishingalt | 2024-01-13 13:04:30 |
@@ -100,4 +100,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-02-02 12:55:46 UTC_
+_Last updated at 2025-02-09 10:53:38 UTC_

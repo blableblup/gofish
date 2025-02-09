@@ -2,21 +2,22 @@
 | Rank | Player | Fish Seen |
 |------|--------|-----------|
 | 1 🥇  | hahppyy  | 69 |
-| 2 🥈  | vaiastol  | 60 (+4) |
-| 3 🥉  | leastsussyimposter  | 50 (+1) |
-| 4 ⬆ | dayzedinndaydreams  | 47 (+1) |
+| 2 🥈  | vaiastol  | 62 (+2) |
+| 3 🥉  | leastsussyimposter  | 51 (+1) |
+| 4  | dayzedinndaydreams  | 47 |
+| 4 ⬆ | divra__  | 47 (+1) |
 | 4  | pengeg  | 47 |
-| 6  | divra__  | 46 (+1) |
 | 7  | milesdotcom  | 42 |
-| 8  | bron8i  | 32 (+1) |
-| 8  | leanmeister  | 32 (+1) |
+| 8  | leanmeister  | 33 (+1) |
+| 9 ⬇ | bron8i  | 32 |
 | 10  | julialuxel  | 28 |
+| 10 ⬆ | nicestnarwhal  | 28 (+1) |
 | 10  | yoimlee  | 28 |
-| 12 ⬆ | nicestnarwhal  | 27 (+3) |
-| 13 ⬇ | bubinga  | 25 |
+| 13  | bubinga  | 25 |
+| 14 🆕 | eelacy  | 20 |
 
 _This does not include fish seen through 🎁 gifts or through releasing to another player during the winter events!_
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2025-02-02 12:54:57 UTC_
+_Last updated at 2025-02-09 10:52:57 UTC_

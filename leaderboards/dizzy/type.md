@@ -14,7 +14,7 @@
 | 11  | 🦭 seal | 131.76 | lolspers | 2024-11-04 14:33:49 |
 | 12  | 🦪 oyster | 120.17 | buhl00n | 2024-12-26 09:23:36 |
 | 13  | 🐬 dolphin | 111.47 | iam_haunt_ | 2024-11-04 17:15:30 |
-| 14  | 🐢 turtle | 99.60 (+3.47) | notnownico | 2025-02-01 14:22:39 |
+| 14  | 🐢 turtle | 99.60 | notnownico | 2025-02-01 14:22:39 |
 | 15  | 🧟 zombie | 92.30 | ofaisalz | 2024-12-16 10:40:05 |
 | 16  | 🦞 lobster | 92.11 | spanmer | 2024-10-22 00:09:41 |
 | 17  | 🪸 coral | 86.86 | rabituwu | 2024-10-22 06:25:51 |
@@ -58,11 +58,11 @@
 | 55  | 🕶️ darksunglasses | 9.87 | gimmeschmoneys | 2024-10-22 11:25:00 |
 | 56  | 🪺 nestwitheggs | 9.75 | notnownico | 2025-01-10 21:07:22 |
 | 57  | 🪹 emptynest | 9.06 | notnownico | 2025-01-17 15:18:36 |
-| 58  | 🧵 wireline | 5.62 | sugur | 2024-12-21 00:13:44 |
-| 59  | 🧃 beveragebox | 5.17 | imzommie | 2024-10-24 20:56:03 |
-| 60  | 🥫 cannedfood | 4.89 | gofishrigged | 2024-12-25 06:17:05 |
-| 60  | 🎏 lure | 4.89 | 777pancake | 2024-11-06 04:09:36 |
-| 62  | 🪝 hook | 4.41 | iam_haunt_ | 2024-11-16 14:42:57 |
+| 58 ⬆ | 🥫 cannedfood | 5.77 (+0.88) | buhl00n | 2025-02-03 23:18:41 |
+| 59 ⬇ | 🧵 wireline | 5.62 | sugur | 2024-12-21 00:13:44 |
+| 60 ⬇ | 🧃 beveragebox | 5.17 | imzommie | 2024-10-24 20:56:03 |
+| 61 ⬇ | 🎏 lure | 4.97 (+0.08) | rougep1rate | 2025-02-02 21:36:15 |
+| 62  | 🪝 hook | 4.72 (+0.31) | ben_vincent | 2025-02-05 02:21:58 |
 | 63  | 🐚 shell | 4.00 | gingiam | 2024-10-21 23:47:32 |
 | 64  | ☘️ shamrock | 3.77 | gofishrigged | 2024-12-21 06:24:44 |
 | 65  | 🐦 bird | 3.32 | aceleju | 2024-10-21 05:30:05 |
@@ -79,10 +79,10 @@
 | 76  | 🧤 gloves | 0.99 | spanmer | 2024-11-09 03:05:19 |
 | 77  | 🌿 seaweed | 0.97 | tairaaaaa | 2024-11-27 10:53:24 |
 | 78  | 🍬 candy | 0.93 | spanmer | 2024-11-17 16:32:54 |
-| 79 ⬆ | 🪶 feather | 0.92 (+0.22) | gofishrigged | 2025-01-30 09:09:36 |
-| 80 🆕 | 🪚 carpentrysaw | 0.86 | gimmeschmoneys | 2025-02-01 18:11:04 |
-| 81 ⬇ | 🧣 scarf | 0.75 | exo9 | 2024-12-25 05:19:42 |
+| 79  | 🪶 feather | 0.92 | gofishrigged | 2025-01-30 09:09:36 |
+| 80  | 🪚 carpentrysaw | 0.86 | gimmeschmoneys | 2025-02-01 18:11:04 |
+| 81  | 🧣 scarf | 0.75 | exo9 | 2024-12-25 05:19:42 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-02-02 12:55:38 UTC_
+_Last updated at 2025-02-09 10:53:35 UTC_

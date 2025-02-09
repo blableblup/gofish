@@ -36,7 +36,7 @@
 | 33  | 🦀 crab | 4.95 | leanmeister | 2025-01-03 21:39:41 |
 | 34  | 🐸 frog | 4.25 | liiiiiiiiiilly | 2024-02-11 22:39:37 |
 | 35  | 🎏 lure | 4.03 | toastyso | 2023-12-30 15:32:52 |
-| 36  | 🪝 hook | 3.88 | hahppyy | 2023-12-25 22:32:58 |
+| 36  | 🪝 hook | 3.91 (+0.03) | bubinga | 2025-02-08 19:33:04 |
 | 37  | ☘️ shamrock | 3.85 | gawblemachine | 2024-04-01 17:08:27 |
 | 38  | 🐚 shell | 3.29 | hahppyy | 2024-01-10 02:19:04 |
 | 39  | 🪺 nestwitheggs | 2.18 | julialuxel | 2024-12-24 01:54:16 |
@@ -57,4 +57,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-01-19 11:29:38 UTC_
+_Last updated at 2025-02-09 10:53:41 UTC_
