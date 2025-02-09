@@ -16,11 +16,11 @@ func main() {
 	database := flag.String("database", "default", "What databse to connect to. Connects to whatever is named 'default' in sqlconfig.json by default.")
 
 	// For both boards and data
-	mode := flag.String("mm", "", "Modes are different for each program")
-	chatNames := flag.String("s", "", "Comma-separated list of chat names")
+	mode := flag.String("mode", "", "Modes are different for each program")
+	chatNames := flag.String("chats", "", "Comma-separated list of chat names")
 
 	// Flags for data program
-	numMonths := flag.Int("m", 1, "Number of past months for url")
+	numMonths := flag.Int("months", 1, "Number of past months for url")
 	db := flag.String("db", "", "Database to update: fish (f) and tournament results (t)")
 	// To select another justlog instance for a chat if it has one
 	logInstance := flag.String("instance", "99", "Can select another justlog instance for a chat")
@@ -144,9 +144,15 @@ func main() {
 func isValidModeForProgram(program, mode string) bool {
 
 	validModes := map[string]map[string]bool{
-		"boards":          {"check": true, "force": true},
+		"boards": {"check": true, "force": true},
+		// "check" Only prints updated/new records for the weight/weight2 and smallest/biggest fish per type boards
+		// "force" forces the leaderboard to update, even if there are no changes on it
 		"updatetwitchids": {"ble": true},
-		"data":            {"a": true},
+		// Mode ble is updating the twitch ids for all players, even if they already have one
+		// This could mess up data, by updating someones twitchid because someone else is now using their name
+		"data": {"a": true},
+		// "a" makes it so every single catch/bag/result is manually checked if it exists in the db
+		// usually, you get the highest date for each chat in the db and then add alll fish which come after that
 	}
 
 	// Check if the provided mode is valid for the specified program
