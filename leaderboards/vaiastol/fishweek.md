@@ -7,11 +7,12 @@
 | 4  | hahppyy  | 46 |
 | 5  | julialuxel  | 40 |
 | 6  | dayzedinndaydreams  | 38 |
-| 7 🆕 | leanmeister  | 31 |
-| 8 ⬇ | leastsussyimposter  | 26 |
-| 9 🆕 | nicestnarwhal  | 18 |
-| 10 ⬇ | milesdotcom  | 13 |
+| 7  | leanmeister  | 31 |
+| 8  | leastsussyimposter  | 26 |
+| 9 🆕 | eelacy  | 19 |
+| 10 ⬇ | nicestnarwhal  | 18 |
+| 11 ⬇ | milesdotcom  | 13 |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-01-15 10:53:43 UTC_
+_Last updated at 2025-02-12 10:29:59 UTC_
