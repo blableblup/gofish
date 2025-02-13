@@ -29,8 +29,8 @@ func main() {
 
 	// Flags for boards program
 	title := flag.String("title", "", "Pass a custom title to the board.")
-	leaderboard := flag.String("l", "", "Comma-separated list of leaderboards")
 	limit := flag.String("limit", "", "Custom weight/count limit for the boards")
+	leaderboard := flag.String("board", "", "Comma-separated list of leaderboards")
 	date2 := flag.String("dt2", "", "Second date for the leaderboards. If you want to get boards for a time period")
 	path := flag.String("path", "", "Give the board a custom name. But you should only do one board at a time with this. Else it will get overwritten.")
 
@@ -152,7 +152,7 @@ func isValidModeForProgram(program, mode string) bool {
 		// This could mess up data, by updating someones twitchid because someone else is now using their name
 		"data": {"a": true},
 		// "a" makes it so every single catch/bag/result is manually checked if it exists in the db
-		// usually, you get the highest date for each chat in the db and then add alll fish which come after that
+		// usually, you get the highest date for each chat in the db and then add all fish which come after that
 	}
 
 	// Check if the provided mode is valid for the specified program
