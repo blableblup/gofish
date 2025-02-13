@@ -1,30 +1,38 @@
 {
     "twitch_chat": {
       "breadworms": {
-        "logs_host": "https://logs.joinuv.com",
-        "logs_added": "2022/12",
-        "logs_host_alts": [
-          "https://logs.ivr.fi$2024/6",
-          "https://logs.potat.app$2024/10",
-          "https://logs.spanix.team$2024/10"
-        ],
+        "logs_instances": [
+            {"url": "https://logs.joinuv.com",
+            "logs_added": "2022/12"},
+            {"url": "https://logs.ivr.fi",
+            "logs_added": "2024/6"},
+            {"url": "https://logs.potat.app",
+            "logs_added": "2024/10"},
+            {"url": "https://logs.spanix.team",
+            "logs_added": "2024/10"}
+          ],
         "checkfdata": true,
         "board_enabled": true
       },
       "psp1g": {
-        "logs_host": "https://logs.ivr.fi",
-        "logs_added": "2023/8",
-        "logs_host_alts": [
-          "https://logs.nadeko.net$2023/8", 
-          "https://logs.potat.app$2024/8", 
-          "https://logs.spanix.team$2024/8"
+        "logs_instances": [
+          {"url": "https://logs.ivr.fi",
+          "logs_added": "2023/8"},
+          {"url": "https://logs.nadeko.net",
+          "logs_added": "2023/8"},
+          {"url": "https://logs.potat.app",
+          "logs_added": "2024/8"},
+          {"url": "https://logs.spanix.team",
+          "logs_added": "2024/8"}
         ],
         "checkfdata": true,
         "board_enabled": true
       },
       "ovrht": {
-        "logs_host": "https://logs.spanix.team",
-        "logs_added": "2023/10",
+        "logs_instances": [
+          {"url": "https://logs.spanix.team",
+          "logs_added": "2023/10"}
+        ],
         "weight_limit": 50,
         "totalcount_limit": 10,
         "fishweek_limit": 10,
@@ -33,11 +41,13 @@
         "board_enabled": false
       },
       "julialuxel": {
-        "logs_host": "https://logs.ivr.fi",
-        "logs_added": "2023/12",
-        "logs_host_alts": [
-          "https://logs.potat.app$2024/3",
-          "https://logs.spanix.team$2024/9"
+        "logs_instances": [
+          {"url": "https://logs.ivr.fi",
+          "logs_added": "2023/12"},
+          {"url": "https://logs.potat.app",
+          "logs_added": "2024/3"},
+          {"url": "https://logs.spanix.team",
+          "logs_added": "2024/9"}
         ],
         "weight_limit": 50,
         "totalcount_limit": 10,
@@ -47,41 +57,52 @@
         "board_enabled": true
       },
       "ryanpotat": {
-        "logs_host": "https://logs.spanix.team",
-        "logs_added": "2023/12",
-        "logs_host_alts": [
-          "https://logs.potat.app$2024/4"
+        "logs_instances": [
+          {"url": "https://logs.spanix.team",
+          "logs_added": "2023/12"},
+          {"url": "https://logs.potat.app",
+          "logs_added": "2024/4"}
         ],
         "checkfdata": true,
         "board_enabled": false
       },
       "d_egree": {
-        "logs_host": "https://logs.spanix.team",
-        "logs_added": "2024/5",
+        "logs_instances": [
+          {"url": "https://logs.spanix.team",
+          "logs_added": "2024/5"}
+        ],
         "checkfdata": true,
         "board_enabled": false
       },
       "pokirule": {
-        "logs_host": "https://logs.spanix.team",
-        "logs_added": "2024/5",
+        "logs_instances": [
+          {"url": "https://logs.spanix.team",
+          "logs_added": "2024/5"}
+        ],
         "checkfdata": true,
         "board_enabled": false
       },
       "ajspyman": {
-        "logs_host": "https://logs.spanix.team",
-        "logs_added": "2024/5",
+        "logs_instances": [
+          {"url": "https://logs.spanix.team",
+          "logs_added": "2024/5"}
+        ],
         "checkfdata": true,
         "board_enabled": false
       },
       "miagooper": {
-        "logs_host": "https://logs.ivr.fi",
-        "logs_added": "2024/5",
+        "logs_instances": [
+          {"url": "https://logs.ivr.fi",
+          "logs_added": "2024/5"}
+        ],
         "checkfdata": true,
         "board_enabled": false
       },
       "vaiastol": {
-        "logs_host": "not public",
-        "logs_added": "2024/7",
+        "logs_instances": [
+          {"url": "not public",
+          "logs_added": "2024/7"}
+        ],
         "weight_limit": 50,
         "totalcount_limit": 10,
         "fishweek_limit": 10,
@@ -90,17 +111,20 @@
         "board_enabled": true
       },
       "swormbeard": {
-        "logs_host": "https://logs.potat.app",
-        "logs_added": "2024/7",
-        "logs_host_alts": [
-          "https://logs.spanix.team$2024/8"
+        "logs_instances": [
+          {"url": "https://logs.potat.app",
+          "logs_added": "2024/7"},
+          {"url": "https://logs.spanix.team",
+          "logs_added": "2024/8"}
         ],
         "checkfdata": true,
         "board_enabled": false
       },
       "omie": {
-        "logs_host": "https://logs.spanix.team",
-        "logs_added": "2024/8",
+        "logs_instances": [
+          {"url": "https://logs.spanix.team",
+          "logs_added": "2024/8"}
+        ],
         "weight_limit": 50,
         "totalcount_limit": 10,
         "fishweek_limit": 10,
@@ -109,10 +133,11 @@
         "board_enabled": true
       },
       "dizzy": {
-        "logs_host": "https://logs.ivr.fi",
-        "logs_added": "2024/10",
-        "logs_host_alts": [
-          "https://logs.spanix.team$2024/10"
+        "logs_instances": [
+          {"url": "https://logs.ivr.fi",
+          "logs_added": "2024/10"},
+          {"url": "https://logs.spanix.team",
+          "logs_added": "2024/10"}
         ],
         "weight_limit": 100,
         "totalcount_limit": 30,
@@ -122,14 +147,18 @@
         "board_enabled": true
       },
       "aquaismissing": {
-        "logs_host": "https://logs.potat.app",
-        "logs_added": "2024/11",
+        "logs_instances": [
+          {"url": "https://logs.potat.app",
+          "logs_added": "2024/11"}
+        ],
         "checkfdata": true,
         "board_enabled": false
       },
       "wuh6": {
-        "logs_host": "https://logs.potat.app",
-        "logs_added": "2024/12",
+        "logs_instances": [
+          {"url": "https://logs.potat.app",
+          "logs_added": "2024/12"}
+        ],
         "weight_limit": 50,
         "totalcount_limit": 10,
         "fishweek_limit": 10,

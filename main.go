@@ -23,7 +23,7 @@ func main() {
 	numMonths := flag.Int("months", 1, "Number of past months for url")
 	db := flag.String("db", "", "Database to update: fish (f) and tournament results (t)")
 	// To select another justlog instance for a chat if it has one
-	logInstance := flag.String("instance", "99", "Can select another justlog instance for a chat")
+	logInstance := flag.String("instance", "0", "Can select another justlog instance for a chat")
 	// This flag is also used for the boards as "date"
 	monthYear := flag.String("dt", "", "Specific month and year for data (yyyy/mm). For the boards, this needs to be yyyy-mm-dd")
 

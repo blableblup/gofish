@@ -10,14 +10,13 @@ import (
 )
 
 // This creates the urls which get checked in data. By default it returns the url of the current month
-// If multiple instances are selected and mode isnt "a", you will add every new fish multiple times!!!!!!!!!!
 func CreateURL(chatName string, numMonths int, monthYear string, logInstance string, config utils.Config) []string {
 
 	var urls []string
 	var justlogInstance, justlogInstanceAdded string
 
-	// If a different date was specified, update timevar, else use time.Now
-	timevar := time.Now()
+	// If a different date was specified, update timevar, else use time.Now in UTC, because all the instances are in UTC
+	timevar := time.Now().UTC()
 
 	if monthYear != "" {
 		parts := strings.Split(monthYear, "/")
@@ -41,14 +40,9 @@ func CreateURL(chatName string, numMonths int, monthYear string, logInstance str
 		timevar = time.Date(year, time.Month(month), 1, 0, 0, 0, 0, time.UTC)
 	}
 
-	if config.Chat[chatName].LogsHost == "" {
-		logs.Logs().Fatal().
-			Str("Chat", chatName).
-			Msg("No logs host specified for chat")
-	}
-
-	// Get the selected instances, like:  -instance 99,2
-	// 0 is the first extra instance!!!
+	// Get the selected instances, like:  -instance 1,2; default instance is "0"
+	// But checking multiple instances for the same chat at the same time will just add the same fish multiple times
+	// Even with mode "a",(if the fish was missing in the db), so this is kinda useless ?
 	var selectedInstances []int
 	instances := strings.Split(logInstance, ",")
 	for a := range instances {
@@ -64,31 +58,23 @@ func CreateURL(chatName string, numMonths int, monthYear string, logInstance str
 
 	for _, instance := range selectedInstances {
 
-		// 99 is the default value of the "-instance" flag, no chat will ever have 99 instances
-		if instance == 99 {
-			justlogInstance = config.Chat[chatName].LogsHost
-			justlogInstanceAdded = config.Chat[chatName].LogsAdded
-		} else {
-			// Can check this api https://logs.zonian.dev/instances and search for the channel here to get the chats instances
-			// Instead of adding them all manually to the config ? also, just add the "default" instance to the slice as well, dont need two things or?
-			if len(config.Chat[chatName].LogsHostAlts) == 0 {
-				logs.Logs().Fatal().
-					Str("Chat", chatName).
-					Msg("No alt logs host specified for chat in config")
-			}
-			if len(config.Chat[chatName].LogsHostAlts) <= instance {
-				logs.Logs().Fatal().
-					Str("Chat", chatName).
-					Int("Selected instance", instance).
-					Interface("Available instances", config.Chat[chatName].LogsHostAlts).
-					Msg("Chat does not have that many different instances")
-			}
-			// Because the extra instances are stored like this in the config: "https://logs.ivr.fi$2024/6",
-			parts := strings.Split(config.Chat[chatName].LogsHostAlts[instance], "$")
-
-			justlogInstance = parts[0]
-			justlogInstanceAdded = parts[1]
+		// Can check this api https://logs.zonian.dev/instances and search for the channel here to get the chats instances
+		// Instead of adding them all manually to the config ?
+		if len(config.Chat[chatName].LogsInstances) == 0 {
+			logs.Logs().Fatal().
+				Str("Chat", chatName).
+				Msg("No logs host specified for chat in config !")
 		}
+		if len(config.Chat[chatName].LogsInstances) <= instance {
+			logs.Logs().Fatal().
+				Str("Chat", chatName).
+				Int("Selected instance", instance).
+				Interface("Available instances", config.Chat[chatName].LogsInstances).
+				Msg("Chat does not have that many different instances !")
+		}
+
+		justlogInstance = config.Chat[chatName].LogsInstances[instance].URL
+		justlogInstanceAdded = config.Chat[chatName].LogsInstances[instance].LogsAdded
 
 		// Loop through the specified number of months
 		for i := 0; i < numMonths; i++ {
