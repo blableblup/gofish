@@ -37,7 +37,7 @@
 | 33  | 🪹 emptynest | 0.09 | bubinga | 2024-10-08 18:25:51 |
 | 35  | 🧭 compass | 0.08 | obscurecharmling | 2024-01-15 08:22:22 |
 | 35  | 🐙 octopus | 0.08 | kalechap | 2024-10-28 05:41:37 |
-| 35  | 🧽 sponge | 0.08 | brachlo | 2024-07-04 20:13:01 |
+| 35  | 🧽 sponge | 0.08 | velantix | 2024-07-04 20:13:01 |
 | 38  | 🪀 bobber | 0.07 | theevirus | 2024-10-03 21:11:49 |
 | 39  | 🥒 cucumber | 0.06 | gruble | 2023-10-19 13:14:09 |
 | 39  | 📱 iphone | 0.06 | hahppyy | 2024-03-28 12:09:45 |
@@ -92,4 +92,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2024-12-29 11:05:31 UTC_
+_Last updated at 2025-02-16 10:52:29 UTC_

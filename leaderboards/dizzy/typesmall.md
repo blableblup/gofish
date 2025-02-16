@@ -3,10 +3,10 @@
 |------|--------|-----------|---------|------|
 | 1 🥇  | 🐻‍❄ polarbear | 65.33 | ofaisalz | 2024-12-31 17:15:21 |
 | 2 🥈  | 👑 crown | 23.44 | simplydrack | 2024-11-02 11:32:08 |
-| 3 🥉 ⬆ | 🧞‍♂ malegenie | 17.60 | feuha | 2024-11-01 09:40:30 |
-| 4 ⬆ | 🛒 shoppingcart | 15.28 | buhl00n | 2025-01-01 13:00:22 |
-| 5 ⬆ | 🪺 nestwitheggs | 9.75 | notnownico | 2025-01-10 21:07:22 |
-| 6 ⬇ | 🍄‍🟫 brownmushroom | 9.26 (-9.30) | buhl00n | 2025-02-05 16:21:18 |
+| 3 🥉  | 🧞‍♂ malegenie | 17.60 | feuha | 2024-11-01 09:40:30 |
+| 4  | 🛒 shoppingcart | 15.28 | buhl00n | 2025-01-01 13:00:22 |
+| 5  | 🪺 nestwitheggs | 9.75 | notnownico | 2025-01-10 21:07:22 |
+| 6  | 🍄‍🟫 brownmushroom | 9.26 | buhl00n | 2025-02-05 16:21:18 |
 | 7  | 🧟 zombie | 8.08 | ben_vincent | 2025-01-15 14:55:56 |
 | 8  | 🐉 dragon | 7.78 | spanmer | 2024-11-18 12:34:49 |
 | 9  | 🎰 slotmachine | 5.30 | spanmer | 2024-11-17 11:40:56 |
@@ -25,7 +25,7 @@
 | 22  | 🪹 emptynest | 1.22 | gofishgamer | 2024-10-26 05:42:31 |
 | 23  | 🎱 8ball | 1.18 | exo9 | 2024-12-21 03:14:13 |
 | 24  | 🪨 rock | 1.13 | tairaaaaa | 2024-11-08 06:26:30 |
-| 25  | 🪚 carpentrysaw | 0.86 | gimmeschmoneys | 2025-02-01 18:11:04 |
+| 25  | 🪚 carpentrysaw | 0.83 (-0.03) | buhl00n | 2025-02-13 14:12:45 |
 | 26  | 📱 iphone | 0.79 | tairaaaaa | 2024-12-21 07:28:23 |
 | 27  | 🐬 dolphin | 0.70 | gimmeschmoneys | 2024-10-24 22:43:17 |
 | 28  | 🥒 cucumber | 0.68 | bomster | 2024-10-23 14:47:11 |
@@ -67,11 +67,11 @@
 | 64  | 👟 athleticshoe | 0.05 | burnend | 2024-10-31 15:58:05 |
 | 65  | 👢 boot | 0.04 | buhl00n | 2024-11-10 23:05:58 |
 | 66  | ☂️ umbrella | 0.03 | burnend | 2024-11-05 19:26:50 |
-| 67 ⬆ | 🪳 cockroach | 0.02 | kaynsirplayer | 2024-10-24 01:24:09 |
-| 67 ⬇ | 🐟 fish | 0.02 (-0.01) | buhl00n | 2025-02-03 13:23:14 |
-| 67 ⬆ | 🧤 gloves | 0.02 | yenjay_ | 2024-12-15 08:12:47 |
-| 67 ⬆ | 🧊 icecube | 0.02 | vagdi | 2024-11-03 18:13:26 |
-| 67 ⬆ | 🐍 snake | 0.02 | lolspers | 2024-10-24 17:43:32 |
+| 67  | 🪳 cockroach | 0.02 | kaynsirplayer | 2024-10-24 01:24:09 |
+| 67  | 🐟 fish | 0.02 | buhl00n | 2025-02-03 13:23:14 |
+| 67  | 🧤 gloves | 0.02 | yenjay_ | 2024-12-15 08:12:47 |
+| 67  | 🧊 icecube | 0.02 | vagdi | 2024-11-03 18:13:26 |
+| 67  | 🐍 snake | 0.02 | lolspers | 2024-10-24 17:43:32 |
 | 72  | 🥫 cannedfood | 0.01 | konsminator | 2024-11-02 17:40:20 |
 | 72  | 🦀 crab | 0.01 | konsminator | 2024-11-10 17:08:53 |
 | 72  | 🌿 seaweed | 0.01 | gimmeschmoneys | 2024-10-23 00:29:08 |
@@ -85,4 +85,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-02-09 10:53:57 UTC_
+_Last updated at 2025-02-16 10:52:20 UTC_

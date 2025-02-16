@@ -165,7 +165,7 @@
 		"chat": "omie",
 		"fishid": 122515,
 		"chatid": 1510,
-		"rank": 79
+		"rank": 80
 	},
 	"cannedfood": {
 		"player": "v6r_",
@@ -193,7 +193,21 @@
 		"chat": "omie",
 		"fishid": 138912,
 		"chatid": 2964,
-		"rank": 76
+		"rank": 77
+	},
+	"coat": {
+		"player": "v6r_",
+		"playerid": 2941,
+		"weight": 1.14,
+		"bot": "gofishgame",
+		"type": "🧥",
+		"typename": "coat",
+		"catchtype": "normal",
+		"date": "2025-02-14T04:44:30Z",
+		"chat": "omie",
+		"fishid": 147586,
+		"chatid": 3917,
+		"rank": 74
 	},
 	"cockroach": {
 		"player": "ritaaww",
@@ -375,7 +389,7 @@
 		"chat": "omie",
 		"fishid": 129472,
 		"chatid": 2087,
-		"rank": 78
+		"rank": 79
 	},
 	"fish": {
 		"player": "aliveleader",
@@ -417,7 +431,7 @@
 		"chat": "omie",
 		"fishid": 120173,
 		"chatid": 1360,
-		"rank": 74
+		"rank": 75
 	},
 	"hook": {
 		"player": "v6r_",
@@ -725,7 +739,7 @@
 		"chat": "omie",
 		"fishid": 136033,
 		"chatid": 2764,
-		"rank": 77
+		"rank": 78
 	},
 	"seal": {
 		"player": "ritaaww",
@@ -753,7 +767,7 @@
 		"chat": "omie",
 		"fishid": 118973,
 		"chatid": 1269,
-		"rank": 75
+		"rank": 76
 	},
 	"shamrock": {
 		"player": "mangos4u",

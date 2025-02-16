@@ -28,7 +28,7 @@
 | 25  | maksmusz*  | 398 |
 | 26  | fonuwu  | 396 |
 | 27  | quinrayy  | 388 |
-| 28  | brachlo*  | 387 |
+| 28  | velantix*  | 387 |
 | 29  | markenzy01  | 382 |
 | 30  | seryxx  | 380 |
 | 31  | creepycode*  | 379 |
@@ -103,4 +103,4 @@
 
 _Only showing fishers who caught >= 100 fish_
 
-_Last updated at 2024-12-29 11:05:37 UTC_
+_Last updated at 2025-02-16 10:52:34 UTC_

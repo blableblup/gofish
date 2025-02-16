@@ -62,7 +62,7 @@
 | 59  | seymoni | 🐳 whale | 228.67 | 2024-12-09 19:39:12 |
 | 60  | teskotienpl | 🐳 whale | 228.46 | 2024-01-04 22:33:15 |
 | 61  | acid1g | 🐍 snake | 227.90 | 2024-01-23 14:42:54 |
-| 62  | brachlo | 🐉 dragon | 226.11 | 2024-06-06 21:50:23 |
+| 62  | velantix | 🐉 dragon | 226.11 | 2024-06-06 21:50:23 |
 | 63  | onarrrrrrrr | 🐳 whale | 225.14 | 2024-12-10 20:46:31 |
 | 64  | thomasdoge | 🦕 sauropod | 223.19 | 2024-11-20 20:47:17 |
 | 65  | jeejee_jjl | 🐳 whale | 222.91 | 2023-12-31 02:33:21 |
@@ -99,4 +99,4 @@
 
 _Only showing fish weighing >= 200 lbs_
 
-_Last updated at 2024-12-22 11:30:44 UTC_
+_Last updated at 2025-02-16 10:52:33 UTC_
