@@ -8,13 +8,13 @@ import (
 )
 
 type ChatInfo struct {
-	Fishweeklimit      int        `json:"fishweek_limit"`
-	Weightlimit        float64    `json:"weight_limit"`
-	WeightlimitRecords float64    `json:"weight_limit_records"`
-	Totalcountlimit    int        `json:"totalcount_limit"`
-	Uniquelimit        int        `json:"unique_limit"`
-	Rowlimit           int        `json:"row_limit"`
-	LogsInstances      []Instance `json:"logs_instances"`
+	LogsInstances      []Instance `json:"logs_instances,omitempty"`
+	Fishweeklimit      int        `json:"fishweek_limit,omitempty"`
+	Weightlimit        float64    `json:"weight_limit,omitempty"`
+	WeightlimitRecords float64    `json:"weight_limit_records,omitempty"`
+	Totalcountlimit    int        `json:"totalcount_limit,omitempty"`
+	Uniquelimit        int        `json:"unique_limit,omitempty"`
+	Rowlimit           int        `json:"row_limit,omitempty"`
 	CheckFData         bool       `json:"checkfdata"`
 	BoardsEnabled      bool       `json:"board_enabled"`
 }
