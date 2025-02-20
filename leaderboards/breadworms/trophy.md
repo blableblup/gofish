@@ -4,8 +4,8 @@
 | 1 🥇 | liiiiiiiiiilly | 24 | 51 | 28 | 137.0 |
 | 2 🥈 | puzzlow | 35 | 15 | 14 | 127.0 |
 | 3 🥉 | osnyatsky | 31 | 24 | 6 | 120.0 |
-| 4 | derinturitierutz | 33 | 5 | 13 | 110.5 |
-| 5 | osnyisdead | 29 | 19 | 3 | 107.5 |
+| 4 ⬆| osnyisdead | 30 (+1) | 21 (+2) | 3 | 112.5 (+5.0) |
+| 5 ⬇| derinturitierutz | 33 | 5 | 13 | 110.5 |
 | 6 | leanmeister | 29 (+1) | 9 (+1) | 3 | 97.5 (+4.0) |
 | 7 | qu4ttromila | 11 | 19 | 20 | 62.0 |
 | 8 | kishma9 | 11 | 18 | 9 | 55.5 |
@@ -41,4 +41,4 @@
 | 36 | mochi_uygqzidbjizjkbehuiw | 0 | 0 | 1 | 0.5 |
 | 36 | niiy | 0 | 0 | 1 | 0.5 |
 
-_Last updated at 2025-02-19 11:01:56 UTC_
+_Last updated at 2025-02-20 14:03:16 UTC_
