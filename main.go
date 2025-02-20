@@ -11,7 +11,11 @@ import (
 )
 
 func main() {
+	// For the logger
 	debug := flag.Bool("debug", false, "Debug some stuff")
+	multi := flag.Bool("multi", false, "To also log to a file")
+	pathlog := flag.String("pathlog", "", "If multi is selected, can give the file a different name")
+
 	program := flag.String("p", "", "Program name: boards, data, renamed, verified, pattern")
 	database := flag.String("database", "default", "What databse to connect to. Connects to whatever is named 'default' in sqlconfig.json by default.")
 
@@ -39,7 +43,7 @@ func main() {
 
 	flag.Parse()
 
-	logs.InitializeLogger(*debug)
+	logs.InitializeLogger(*debug, *multi, *pathlog)
 
 	// Connect to the selected database
 	pool, err := data.Connect(*database)
