@@ -4,10 +4,10 @@
 | 1 🥇  | 🦑 squid | 305.17 | vaiastol | 2025-01-06 21:58:48 |
 | 2 🥈  | 🐳 whale | 300.47 | dayzedinndaydreams | 2024-08-22 22:47:58 |
 | 3 🥉  | 🐉 dragon | 282.25 | hahppyy | 2024-08-07 13:40:28 |
-| 4 ⬆ | 🐍 snake | 270.40 (+8.85) | dayzedinndaydreams | 2025-02-10 21:16:17 |
-| 5 ⬇ | 🦕 sauropod | 264.89 | dayzedinndaydreams | 2025-01-13 21:51:27 |
+| 4  | 🐍 snake | 270.40 | dayzedinndaydreams | 2025-02-10 21:16:17 |
+| 5  | 🦕 sauropod | 264.89 | dayzedinndaydreams | 2025-01-13 21:51:27 |
 | 6  | 🐻‍❄ polarbear | 236.12 | julialuxel | 2024-12-30 06:35:55 |
-| 7  | 🦈 shark | 210.14 (+8.39) | leastsussyimposter | 2025-02-15 02:35:23 |
+| 7  | 🦈 shark | 210.14 | leastsussyimposter | 2025-02-15 02:35:23 |
 | 8  | 🐙 octopus | 160.48 | divra__ | 2024-11-01 17:07:43 |
 | 9  | 🐋 whale2 | 148.82 | hahppyy | 2024-11-04 16:24:39 |
 | 10  | 🐢 turtle | 148.29 | leastsussyimposter | 2024-09-29 20:58:46 |
@@ -18,8 +18,8 @@
 | 15  | 🧟 zombie | 86.37 | yoimlee | 2024-08-12 16:32:24 |
 | 16  | 🛢️ oildrum | 68.03 | leastsussyimposter | 2024-08-05 01:05:17 |
 | 17  | 🛒 shoppingcart | 66.80 | vaiastol | 2025-02-02 14:27:59 |
-| 18  | 🐟 fish | 62.69 | pengeg | 2024-12-01 22:40:57 |
-| 19  | 🦞 lobster | 62.67 | vaiastol | 2025-01-28 13:41:41 |
+| 18 ⬆ | 🦞 lobster | 63.97 (+1.30) | vaiastol | 2025-02-18 14:47:02 |
+| 19 ⬇ | 🐟 fish | 62.69 | pengeg | 2024-12-01 22:40:57 |
 | 20  | 🪸 coral | 60.38 | vaiastol | 2024-09-19 04:57:44 |
 | 21  | 🐈‍⬛ blackcat | 60.23 | hahppyy | 2024-12-19 10:38:55 |
 | 22  | 🦐 shrimp | 54.29 | hahppyy | 2024-12-01 21:27:46 |
@@ -34,7 +34,7 @@
 | 31  | 🧽 sponge | 25.67 | milesdotcom | 2024-08-25 19:52:32 |
 | 32  | 🪳 cockroach | 25.61 | hailstrasza | 2024-07-31 04:20:39 |
 | 33  | 🕷️ spider | 23.39 | bron8i | 2025-01-18 20:55:49 |
-| 34  | 🦠 plankton | 21.42 | pengeg | 2024-11-19 16:57:42 |
+| 34  | 🦠 plankton | 21.87 (+0.45) | vaiastol | 2025-02-16 12:59:13 |
 | 35  | 🍄‍🟫 brownmushroom | 21.32 | vaiastol | 2025-01-05 18:34:29 |
 | 36  | 🐠 tropicalfish | 20.39 | vaiastol | 2024-09-15 00:25:16 |
 | 37  | 🪼 jellyfish | 20.36 | mitgliederversammlung | 2024-08-31 13:56:17 |
@@ -67,7 +67,7 @@
 | 64  | 🪝 hook | 3.91 | pengeg | 2024-12-29 16:54:31 |
 | 65  | ☘️ shamrock | 3.63 | hahppyy | 2025-01-02 17:11:45 |
 | 66  | 🥀 wiltedflower | 2.73 | hahppyy | 2025-01-02 18:42:06 |
-| 67  | ☂️ umbrella | 2.40 | divra__ | 2024-10-31 19:49:35 |
+| 67  | ☂️ umbrella | 2.48 (+0.08) | hahppyy | 2025-02-17 22:19:26 |
 | 68  | 🐦 bird | 2.29 | vaiastol | 2025-01-17 12:13:23 |
 | 69  | 👢 boot | 1.97 | yoimlee | 2024-11-04 14:41:11 |
 | 70  | 🧦 socks | 1.95 | divra__ | 2024-10-16 23:07:48 |
@@ -88,4 +88,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-02-16 11:20:07 UTC_
+_Last updated at 2025-02-23 10:58:53 UTC_

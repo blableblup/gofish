@@ -22,10 +22,10 @@
 		"date": "0001-01-01T00:00:00Z",
 		"chat": "aquaismissing",
 		"chatpfp": "![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)",
-		"fishid": 48,
-		"chatid": 39,
-		"count": 315,
-		"rank": 9
+		"fishid": 53,
+		"chatid": 41,
+		"count": 353,
+		"rank": 8
 	},
 	"breadworms": {
 		"player": "liiiiiiiiiilly",
@@ -38,7 +38,7 @@
 		"chatpfp": "![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)",
 		"fishid": 308,
 		"chatid": 96,
-		"count": 62434,
+		"count": 62804,
 		"maxcount": 9,
 		"rank": 1
 	},
@@ -51,10 +51,11 @@
 		"date": "0001-01-01T00:00:00Z",
 		"chat": "d_egree",
 		"chatpfp": "![d_egree](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/d_egree.png)",
-		"fishid": 5,
-		"chatid": 45,
-		"count": 184,
-		"rank": 12
+		"fishid": 7,
+		"chatid": 50,
+		"count": 236,
+		"maxcount": 1,
+		"rank": 11
 	},
 	"dizzy": {
 		"player": "buhl00n",
@@ -65,10 +66,10 @@
 		"date": "0001-01-01T00:00:00Z",
 		"chat": "dizzy",
 		"chatpfp": "![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)",
-		"fishid": 484,
-		"chatid": 81,
-		"count": 9230,
-		"maxcount": 4,
+		"fishid": 485,
+		"chatid": 82,
+		"count": 9386,
+		"maxcount": 5,
 		"rank": 3
 	},
 	"julialuxel": {
@@ -83,7 +84,7 @@
 		"fishid": 28,
 		"chatid": 53,
 		"count": 326,
-		"rank": 8
+		"rank": 9
 	},
 	"omie": {
 		"player": "v6r_",
@@ -94,10 +95,10 @@
 		"date": "0001-01-01T00:00:00Z",
 		"chat": "omie",
 		"chatpfp": "![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)",
-		"fishid": 30,
-		"chatid": 80,
-		"count": 3941,
-		"maxcount": 2,
+		"fishid": 31,
+		"chatid": 81,
+		"count": 4112,
+		"maxcount": 5,
 		"rank": 6
 	},
 	"ovrht": {
@@ -126,7 +127,7 @@
 		"fishid": 2,
 		"chatid": 43,
 		"count": 215,
-		"rank": 11
+		"rank": 12
 	},
 	"psp1g": {
 		"player": "huuuuuuuuuuuuuuuuuuuuuurz",
@@ -153,7 +154,7 @@
 		"chatpfp": "![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png)",
 		"fishid": 7,
 		"chatid": 36,
-		"count": 89,
+		"count": 91,
 		"rank": 13
 	},
 	"swormbeard": {
@@ -179,10 +180,10 @@
 		"date": "0001-01-01T00:00:00Z",
 		"chat": "vaiastol",
 		"chatpfp": "![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)",
-		"fishid": 44,
+		"fishid": 45,
 		"chatid": 84,
-		"count": 4185,
-		"maxcount": 5,
+		"count": 4427,
+		"maxcount": 6,
 		"rank": 5
 	},
 	"wuh6": {
@@ -195,8 +196,8 @@
 		"chat": "wuh6",
 		"chatpfp": "![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)",
 		"fishid": 70,
-		"chatid": 76,
-		"count": 7399,
+		"chatid": 77,
+		"count": 7848,
 		"maxcount": 10,
 		"rank": 4
 	}

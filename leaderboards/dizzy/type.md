@@ -11,7 +11,7 @@
 | 8  | 🐙 octopus | 156.92 | konsminator | 2024-11-01 14:17:42 |
 | 9  | 🐋 whale2 | 150.88 | thecobbler1 | 2024-10-31 19:21:13 |
 | 10  | 🐊 crocodile | 148.84 | buhl00n | 2024-12-14 08:59:36 |
-| 11  | 🦭 seal | 131.76 | lolspers | 2024-11-04 14:33:49 |
+| 11  | 🦭 seal | 131.88 (+0.12) | wisteraeia | 2025-02-18 07:56:23 |
 | 12  | 🦪 oyster | 120.17 | buhl00n | 2024-12-26 09:23:36 |
 | 13  | 🐬 dolphin | 111.47 | iam_haunt_ | 2024-11-04 17:15:30 |
 | 14  | 🐢 turtle | 99.60 | notnownico | 2025-02-01 14:22:39 |
@@ -58,31 +58,32 @@
 | 55  | 🕶️ darksunglasses | 9.87 | gimmeschmoneys | 2024-10-22 11:25:00 |
 | 56  | 🪺 nestwitheggs | 9.75 | notnownico | 2025-01-10 21:07:22 |
 | 57  | 🪹 emptynest | 9.06 | notnownico | 2025-01-17 15:18:36 |
-| 58 ⬆ | 🥫 cannedfood | 5.77 (+0.88) | buhl00n | 2025-02-03 23:18:41 |
-| 59 ⬇ | 🧵 wireline | 5.62 | sugur | 2024-12-21 00:13:44 |
-| 60 ⬇ | 🧃 beveragebox | 5.17 | imzommie | 2024-10-24 20:56:03 |
-| 61 ⬇ | 🎏 lure | 4.97 (+0.08) | rougep1rate | 2025-02-02 21:36:15 |
-| 62  | 🪝 hook | 4.72 (+0.31) | ben_vincent | 2025-02-05 02:21:58 |
-| 63  | 🐚 shell | 4.00 | gingiam | 2024-10-21 23:47:32 |
-| 64  | ☘️ shamrock | 3.77 | gofishrigged | 2024-12-21 06:24:44 |
-| 65  | 🐦 bird | 3.32 | aceleju | 2024-10-21 05:30:05 |
-| 66  | 🌰 acorn | 3.26 | gofishgamer | 2024-10-25 03:40:01 |
-| 67  | 🥀 wiltedflower | 2.96 | buhl00n | 2024-12-22 13:48:49 |
-| 68  | ☂️ umbrella | 2.64 | notnownico | 2024-12-15 23:09:15 |
-| 69  | 👢 boot | 1.99 | tunacrab | 2024-11-02 22:57:50 |
-| 69  | 🩴 thongsandal | 1.99 | blunterayo | 2024-10-24 20:52:23 |
-| 71  | 🩰 balletshoes | 1.98 | ssenario | 2024-10-31 18:18:21 |
-| 71  | 🧦 socks | 1.98 | buhl00n | 2024-11-28 12:05:33 |
-| 73  | 👟 athleticshoe | 1.96 | lilhanji | 2024-11-01 17:22:32 |
-| 74  | ⛸️ iceskate | 1.92 | gofishrigged | 2024-12-23 16:00:58 |
-| 75  | 🥪 sandwich | 1.91 | ofaisalz | 2024-11-05 20:26:29 |
-| 76  | 🧤 gloves | 0.99 | spanmer | 2024-11-09 03:05:19 |
-| 77  | 🌿 seaweed | 0.97 | tairaaaaa | 2024-11-27 10:53:24 |
-| 78  | 🍬 candy | 0.93 | spanmer | 2024-11-17 16:32:54 |
-| 79  | 🪶 feather | 0.92 | gofishrigged | 2025-01-30 09:09:36 |
-| 80  | 🪚 carpentrysaw | 0.86 | gimmeschmoneys | 2025-02-01 18:11:04 |
-| 81  | 🧣 scarf | 0.75 | exo9 | 2024-12-25 05:19:42 |
+| 58 🆕 | 🧥 coat | 6.78 | gofishrigged | 2025-02-18 01:35:25 |
+| 59 ⬇ | 🥫 cannedfood | 5.77 | buhl00n | 2025-02-03 23:18:41 |
+| 60 ⬇ | 🧵 wireline | 5.62 | sugur | 2024-12-21 00:13:44 |
+| 61 ⬇ | 🧃 beveragebox | 5.17 | imzommie | 2024-10-24 20:56:03 |
+| 62 ⬇ | 🎏 lure | 4.97 | rougep1rate | 2025-02-02 21:36:15 |
+| 63 ⬇ | 🪝 hook | 4.72 | ben_vincent | 2025-02-05 02:21:58 |
+| 64 ⬇ | 🐚 shell | 4.00 | gingiam | 2024-10-21 23:47:32 |
+| 65 ⬇ | ☘️ shamrock | 3.77 | gofishrigged | 2024-12-21 06:24:44 |
+| 66 ⬇ | 🐦 bird | 3.32 | aceleju | 2024-10-21 05:30:05 |
+| 67 ⬇ | 🌰 acorn | 3.26 | gofishgamer | 2024-10-25 03:40:01 |
+| 68 ⬇ | 🥀 wiltedflower | 2.96 | buhl00n | 2024-12-22 13:48:49 |
+| 69 ⬇ | ☂️ umbrella | 2.64 | notnownico | 2024-12-15 23:09:15 |
+| 70 ⬇ | 👢 boot | 1.99 | tunacrab | 2024-11-02 22:57:50 |
+| 70 ⬇ | 🩴 thongsandal | 1.99 | blunterayo | 2024-10-24 20:52:23 |
+| 72 ⬇ | 🩰 balletshoes | 1.98 | ssenario | 2024-10-31 18:18:21 |
+| 72 ⬇ | 🧦 socks | 1.98 | buhl00n | 2024-11-28 12:05:33 |
+| 74 ⬇ | 👟 athleticshoe | 1.96 | lilhanji | 2024-11-01 17:22:32 |
+| 75 ⬇ | ⛸️ iceskate | 1.92 | gofishrigged | 2024-12-23 16:00:58 |
+| 76 ⬇ | 🥪 sandwich | 1.91 | ofaisalz | 2024-11-05 20:26:29 |
+| 77 ⬇ | 🧤 gloves | 0.99 | spanmer | 2024-11-09 03:05:19 |
+| 78 ⬇ | 🌿 seaweed | 0.97 | tairaaaaa | 2024-11-27 10:53:24 |
+| 79 ⬇ | 🍬 candy | 0.93 | spanmer | 2024-11-17 16:32:54 |
+| 80 ⬇ | 🪶 feather | 0.92 | gofishrigged | 2025-01-30 09:09:36 |
+| 81 ⬇ | 🪚 carpentrysaw | 0.86 | gimmeschmoneys | 2025-02-01 18:11:04 |
+| 82 ⬇ | 🧣 scarf | 0.75 | exo9 | 2024-12-25 05:19:42 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-02-09 10:53:35 UTC_
+_Last updated at 2025-02-23 10:59:06 UTC_

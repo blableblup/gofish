@@ -16,7 +16,7 @@
 | 13  | 🧜‍♀️ mermaid | 136.90 | dayzedinndaydreams | 2023-08-17 12:37:02 |
 | 14  | 🦭 seal | 134.85 | derinturitierutz | 2025-02-02 16:33:05 |
 | 15  | 🧞‍♂ malegenie | 131.64 | kishma9 | 2023-05-29 11:38:47 |
-| 16  | 🦪 oyster | 128.36 | qu4ttromila | 2024-02-01 20:33:40 |
+| 16  | 🦪 oyster | 130.81 (+2.45) | dougiefresh_83 | 2025-02-18 19:19:09 |
 | 17  | 🦞 lobster | 126.55 | yopego | 2023-08-27 15:59:04 |
 | 18  | 🧟 zombie | 118.47 | realtechnine | 2023-07-25 17:13:49 |
 | 19  | 🐬 dolphin | 112.76 | kaasppeerr | 2024-04-22 16:38:27 |
@@ -95,9 +95,9 @@
 | 92  | 🪶 feather | 0.99 | osnyatsky* | 2023-08-24 01:31:11 |
 | 92  | 🧤 gloves | 0.99 | sicklymaidrobot | 2024-02-23 12:41:32 |
 | 92  | 🧣 scarf | 0.99 | osnyatsky* | 2022-12-22 04:35:03 |
-| 95  | 🪚 carpentrysaw | 0.95 (+0.01) | osnyisdead | 2025-02-12 04:45:11 |
+| 95  | 🪚 carpentrysaw | 0.95 | osnyisdead | 2025-02-12 04:45:11 |
 | 96  | 🐿️ squirrel | 0.00 | larvasisters | 2024-12-21 19:36:22 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-02-16 10:51:58 UTC_
+_Last updated at 2025-02-23 10:59:04 UTC_
