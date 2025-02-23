@@ -229,6 +229,11 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 
 	date1, _ := utils.ParseDate("2024-06-06 00:00:00") // When logs ivr started using utc in the logs
 	date2, _ := utils.ParseDate("2024-03-31 03:00:00") // When normal time changed to summer time
+	date3, _ := utils.ParseDate("2023-10-29 03:00:00") // When summer time changed to normal time
+	// It will always add a couple of fish around the time of the time changes which are already in the db
+	// cant really do anything about that, because the time changes messing up the logs at that point, had to delete manually >________<
+	// the logs are normal until the time changes and then the older and newer messages overlap
+	// https://logs.ivr.fi/channel/psp1g/2023/10/29 compare to https://logs.nadeko.net/channel/psp1g/2023/10/29 same for march
 
 	for _, fish := range allFish {
 
@@ -246,15 +251,16 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 		playerID := playerids[fish.Player]
 
 		// Because logs.ivr didnt use utc but instead had the logs in utc+1/utc+2
-		if strings.Contains(fish.Url, "logs.ivr.fi") {
+		if strings.Contains(fish.Url, "logs.ivr.fi") && fish.Date.Before(date1) {
 
-			if fish.Date.Before(date1) && fish.Date.Before(date2) {
-				// Subtract one hour (utc+1 to utc)
-				fish.Date = fish.Date.Add(time.Hour * -1)
-			}
-			if fish.Date.Before(date1) && fish.Date.After(date2) {
+			if fish.Date.Before(date1) && fish.Date.After(date2) || fish.Date.Before(date3) {
 				// Subtract two hours (utc+2 to utc)
 				fish.Date = fish.Date.Add(time.Hour * -2)
+			}
+
+			if fish.Date.Before(date2) && fish.Date.After(date3) {
+				// Subtract one hour (utc+1 to utc)
+				fish.Date = fish.Date.Add(time.Hour * -1)
 			}
 		}
 
