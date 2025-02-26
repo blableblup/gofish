@@ -72,6 +72,7 @@ func GetInstances() {
 		configinstancesslice := chat.LogsInstances
 		for _, instance := range instanceswhichhavechannel[chatName] {
 			instanceisnew := true
+			channeloptedoutofinstance := false
 
 			for _, existinginstance := range configinstancesslice {
 				if strings.Contains(existinginstance.URL, instance) {
@@ -81,24 +82,6 @@ func GetInstances() {
 			}
 
 			if instanceisnew {
-				// Check if the channel opted out by checking the channels logs
-				// I think the day doesnt matter here and can just be whatever
-				url := fmt.Sprintf("https://%s/channel/%s/2020/1/1", instance, chatName)
-				response, err := http.Get(url)
-				if err != nil {
-					logs.Logs().Error().Err(err).
-						Msg("Error making request") // this should never really happen, because instances which are down are skipped or ?
-				}
-
-				if response.StatusCode != http.StatusOK {
-					if response.StatusCode == 403 {
-						logs.Logs().Warn().
-							Str("Channel", chatName).
-							Str("Instance", instance).
-							Msg("Channel opted out of instance")
-						continue
-					}
-				}
 
 				// Find when gofish was added to the channel
 				timevar := time.Now().UTC()
@@ -122,6 +105,15 @@ func GetInstances() {
 						if response.StatusCode == 404 {
 							monthsinarowwhich404d++
 						}
+						// Skip instances from which the channel opted out of
+						if response.StatusCode == 403 {
+							logs.Logs().Warn().
+								Str("Channel", chatName).
+								Str("Instance", instance).
+								Msg("Channel opted out of instance")
+							channeloptedoutofinstance = true
+							break
+						}
 					} else {
 						monthsinarowwhich404d = 0
 						lastmonthwhichdidnt404 = fmt.Sprintf("%d/%d", year, month)
@@ -136,6 +128,10 @@ func GetInstances() {
 					}
 
 					i++
+				}
+
+				if channeloptedoutofinstance {
+					continue
 				}
 
 				logs.Logs().Info().
