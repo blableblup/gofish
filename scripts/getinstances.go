@@ -9,6 +9,7 @@ import (
 	"net/http"
 	"os"
 	"strings"
+	"time"
 )
 
 // To get all the different justlog instances for a chat from https://logs.zonian.dev/instances
@@ -96,13 +97,45 @@ func GetInstances() {
 							Str("Instance", instance).
 							Msg("Channel opted out of instance")
 						continue
-					} else {
-						logs.Logs().Warn().
-							Str("Channel", chatName).
-							Str("Instance", instance).
-							Int("Code", response.StatusCode).
-							Msg("Http status not ok :(")
 					}
+				}
+
+				// Find when gofish was added to the channel
+				timevar := time.Now().UTC()
+
+				// Loop through the urls starting from current month
+				i := 0
+				monthsinarowwhich404d := 0
+				var lastmonthwhichdidnt404 string
+				for {
+					firstOfMonth := time.Date(timevar.Year(), timevar.Month()-time.Month(i), 1, 0, 0, 0, 0, time.UTC)
+					year, month, _ := firstOfMonth.Date()
+
+					url := fmt.Sprintf("https://%s/channel/%s/user/gofishgame/%d/%d", instance, chatName, year, month)
+					response, err := http.Get(url)
+					if err != nil {
+						logs.Logs().Error().Err(err).
+							Msg("Error making request")
+					}
+
+					if response.StatusCode != http.StatusOK {
+						if response.StatusCode == 404 {
+							monthsinarowwhich404d++
+						}
+					} else {
+						monthsinarowwhich404d = 0
+						lastmonthwhichdidnt404 = fmt.Sprintf("%d/%d", year, month)
+					}
+
+					// So if there is 404 12 months in a row use the last month which didnt as logs added
+					// If the channel had gofish but noone fished there for over a year this wont work though
+					// If the channel has gofish but the instance had the chat added later this also wont work if the bot didnt type anything since the instance was added
+					// logs added will be empty then
+					if monthsinarowwhich404d >= 12 {
+						break
+					}
+
+					i++
 				}
 
 				logs.Logs().Info().
@@ -112,9 +145,7 @@ func GetInstances() {
 
 				NewInstance := utils.Instance{
 					URL:       fmt.Sprintf("https://%s", instance),
-					LogsAdded: "add this manually",
-					// could check which url returns 404 first and then use the last one that didnt as logsadded ?
-					// but checking it manually probably better, there could also be months in which gofishgame didnt type anything in the small chats
+					LogsAdded: lastmonthwhichdidnt404,
 				}
 
 				configinstancesslice = append(configinstancesslice, NewInstance)
