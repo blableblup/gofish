@@ -21,6 +21,12 @@ func GetInstances() {
 		return
 	}
 
+	// If a lot of instances are down it wont find all the channels
+	logs.Logs().Info().
+		Int("Down", instancesapi.InstancesStats.Down).
+		Int("Up", instancesapi.InstancesStats.Count).
+		Msg("Status of API")
+
 	for chatName, chat := range config.Chat {
 		if !chat.CheckFData {
 			if chatName != "global" && chatName != "default" {
