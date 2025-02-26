@@ -106,7 +106,7 @@ func GetInstances() {
 				// Loop through the urls starting from current month
 				i := 0
 				monthsinarowwhich404d := 0
-				var lastmonthwhichdidnt404 string
+				lastmonthwhichdidnt404 := "no logs added found"
 				for {
 					firstOfMonth := time.Date(timevar.Year(), timevar.Month()-time.Month(i), 1, 0, 0, 0, 0, time.UTC)
 					year, month, _ := firstOfMonth.Date()
@@ -130,7 +130,7 @@ func GetInstances() {
 					// So if there is 404 12 months in a row use the last month which didnt as logs added
 					// If the channel had gofish but noone fished there for over a year this wont work though
 					// If the channel has gofish but the instance had the chat added later this also wont work if the bot didnt type anything since the instance was added
-					// logs added will be empty then
+					// Need to set logs added manually in those cases
 					if monthsinarowwhich404d >= 12 {
 						break
 					}
@@ -141,6 +141,7 @@ func GetInstances() {
 				logs.Logs().Info().
 					Str("Chat", chatName).
 					Str("Instance", instance).
+					Str("LogsAdded", lastmonthwhichdidnt404).
 					Msg("New instance found for chat")
 
 				NewInstance := utils.Instance{
@@ -165,35 +166,25 @@ func GetInstances() {
 		Msg("Done checking the api")
 
 	// Rewrite the config file
-	err = writeConfigAgain(config)
+	file, err := os.Create("config" + ".json")
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Msg("Error updating config file")
+		return
+	}
+	defer file.Close()
+
+	bytes, err := json.MarshalIndent(config, "", "\t")
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Msg("Error updating config file")
 		return
 	}
 
-	logs.Logs().Info().
-		Msg("Updated config")
-}
-
-// This writes the config chats ordered by their name instead of how i had them ordered by when they added gofish
-// And also "default" and "global" wont be at the bottom
-func writeConfigAgain(config utils.Config) error {
-
-	file, err := os.Create("config" + ".json")
-	if err != nil {
-		return err
-	}
-	defer file.Close()
-
-	bytes, err := json.MarshalIndent(config, "", "\t")
-	if err != nil {
-		return err
-	}
-
 	_, _ = fmt.Fprintf(file, "%s", bytes)
 
-	return nil
+	logs.Logs().Info().
+		Msg("Updated config")
 }
 
 func doApiToLogsZonian() (LogsZonianChannelAPI, error) {
