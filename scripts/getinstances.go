@@ -27,6 +27,37 @@ func GetInstances() {
 		Int("Up", instancesapi.InstancesStats.Count).
 		Msg("Status of API")
 
+	// Get all the different instances which have the chats
+	instanceswhichhavechannel := make(map[string][]string)
+	for instance, channels := range instancesapi.Instances {
+
+		if len(channels) == 0 {
+			logs.Logs().Warn().
+				Str("Instance", instance).
+				Msg("Instance is down")
+			continue
+		}
+
+		for _, channel := range channels {
+			for chatName, chat := range config.Chat {
+				if !chat.CheckFData {
+					if chatName != "global" && chatName != "default" {
+						logs.Logs().Warn().
+							Str("Chat", chatName).
+							Msg("Skipping chat because checkfdata is false")
+					}
+					continue
+				}
+
+				if channel.Name == chatName {
+					instanceswhichhavechannel[chatName] = append(instanceswhichhavechannel[chatName], instance)
+				} // Can also check the twitchid channel.UserID, need to also store twitchid in config file!
+			}
+		}
+	}
+
+	// Find the instances which arent already in the config
+	// Can maybe also find instances which had the chat originally but then removed the chat (?) And then update the config ?
 	for chatName, chat := range config.Chat {
 		if !chat.CheckFData {
 			if chatName != "global" && chatName != "default" {
@@ -37,21 +68,8 @@ func GetInstances() {
 			continue
 		}
 
-		// Get all the different instances which have the chat
-		var instanceswhichhavechannel []string
-		for instance, channels := range instancesapi.Instances {
-			for _, channel := range channels {
-				if channel.Name == chatName {
-					instanceswhichhavechannel = append(instanceswhichhavechannel, instance)
-				} // Can also check the twitchid channel.UserID, need to also store twitchid in config file!
-			}
-		}
-
-		// Find the instances which arent already in the config
-		// Can maybe also find instances which had the chat originally but then removed the chat (?) And then update the config ?
-		// This will also find instances for a channel even if the channel has opted out of being logged !
 		configinstancesslice := chat.LogsInstances
-		for _, instance := range instanceswhichhavechannel {
+		for _, instance := range instanceswhichhavechannel[chatName] {
 			instanceisnew := true
 
 			for _, existinginstance := range configinstancesslice {
@@ -60,7 +78,33 @@ func GetInstances() {
 					break
 				}
 			}
+
 			if instanceisnew {
+				// Check if the channel opted out by checking the channels logs
+				// I think the day doesnt matter here and can just be whatever
+				url := fmt.Sprintf("https://%s/channel/%s/2020/1/1", instance, chatName)
+				response, err := http.Get(url)
+				if err != nil {
+					logs.Logs().Error().Err(err).
+						Msg("Error making request") // this should never really happen, because instances which are down are skipped or ?
+				}
+
+				if response.StatusCode != http.StatusOK {
+					if response.StatusCode == 403 {
+						logs.Logs().Warn().
+							Str("Channel", chatName).
+							Str("Instance", instance).
+							Msg("Channel opted out of instance")
+						continue
+					} else {
+						logs.Logs().Warn().
+							Str("Channel", chatName).
+							Str("Instance", instance).
+							Int("Code", response.StatusCode).
+							Msg("Http status not ok :(")
+					}
+				}
+
 				logs.Logs().Info().
 					Str("Chat", chatName).
 					Str("Instance", instance).
