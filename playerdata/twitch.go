@@ -17,9 +17,10 @@ import (
 // Custom error for not finding a player in both the apis
 var ErrNoPlayerFound = errors.New("no player found")
 
-// Try to get the twitch id for a name
-func GetTwitchID(player string) (int, error) {
+// Get the userdata for a single player
+func MakeApiRequestForPlayerToApiIVR(player string) ([]map[string]interface{}, error) {
 
+	var userdata []map[string]interface{}
 	url := fmt.Sprintf("https://api.ivr.fi/v2/twitch/user?login=%s", player)
 	response, err := http.Get(url)
 	if err != nil {
@@ -27,7 +28,7 @@ func GetTwitchID(player string) (int, error) {
 			Str("URL", url).
 			Str("Player", player).
 			Msg("Error fetching twitch id for player")
-		return 0, err
+		return userdata, err
 	}
 
 	if response.StatusCode != http.StatusOK {
@@ -36,7 +37,7 @@ func GetTwitchID(player string) (int, error) {
 			Str("Player", player).
 			Int("HTTP Code", response.StatusCode).
 			Msg("Unexpected HTTP status code")
-		return 0, fmt.Errorf("unexpected HTTP status code")
+		return userdata, fmt.Errorf("unexpected HTTP status code")
 	}
 
 	body, err := io.ReadAll(response.Body)
@@ -45,11 +46,9 @@ func GetTwitchID(player string) (int, error) {
 			Str("URL", url).
 			Str("Player", player).
 			Msg("Error reading response body")
-		return 0, err
+		return userdata, err
 	}
 	response.Body.Close()
-
-	var userdata []map[string]interface{}
 
 	err = json.Unmarshal(body, &userdata)
 	if err != nil {
@@ -57,7 +56,7 @@ func GetTwitchID(player string) (int, error) {
 			Str("URL", url).
 			Str("Player", player).
 			Msg("Error unmarshalling json")
-		return 0, err
+		return userdata, err
 	}
 
 	if len(userdata) == 0 {
@@ -65,7 +64,18 @@ func GetTwitchID(player string) (int, error) {
 			Str("URL", url).
 			Str("Player", player).
 			Msg("No player found")
-		return 0, ErrNoPlayerFound
+		return userdata, ErrNoPlayerFound
+	}
+
+	return userdata, nil
+}
+
+// Try to get the twitch id for a name
+func GetTwitchID(player string) (int, error) {
+
+	userdata, err := MakeApiRequestForPlayerToApiIVR(player)
+	if err != nil {
+		return 0, err
 	}
 
 	id, err := strconv.Atoi(userdata[0]["id"].(string))
@@ -78,6 +88,18 @@ func GetTwitchID(player string) (int, error) {
 	}
 
 	return id, nil
+}
+
+// Get the pfp
+func GetTwitchPFP(player string) (string, error) {
+	userdata, err := MakeApiRequestForPlayerToApiIVR(player)
+	if err != nil {
+		return "", err
+	}
+
+	pfp := userdata[0]["logo"].(string)
+
+	return pfp, nil
 }
 
 // This checks that other website

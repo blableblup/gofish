@@ -137,6 +137,14 @@ func main() {
 
 		scripts.MergePlayers(pool)
 
+	case "pfps":
+		logs.Logs().Info().
+			Str("Program", *program).
+			Str("Mode", *mode).
+			Msg("Start")
+
+		scripts.GetTwitchPFPs(*mode)
+
 	default:
 		logs.Logs().Warn().
 			Str("Program", *program).
@@ -157,6 +165,8 @@ func isValidModeForProgram(program, mode string) bool {
 		"data": {"a": true},
 		// "a" makes it so every single catch/bag/result is manually checked if it exists in the db
 		// usually, you get the highest date for each chat in the db and then add all fish which come after that
+		"pfps": {"all": true},
+		// all gets the pfps for all the chats in the config even if they already have a file named after them in /images/players
 	}
 
 	// Check if the provided mode is valid for the specified program
