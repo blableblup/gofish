@@ -1,188 +1,307 @@
 {
-    "twitch_chat": {
-      "breadworms": {
-        "logs_instances": [
-            {"url": "https://logs.joinuv.com",
-            "logs_added": "2022/12"},
-            {"url": "https://logs.ivr.fi",
-            "logs_added": "2024/6"},
-            {"url": "https://logs.potat.app",
-            "logs_added": "2024/10"},
-            {"url": "https://logs.spanix.team",
-            "logs_added": "2024/10"}
-          ],
-        "checkfdata": true,
-        "board_enabled": true
-      },
-      "psp1g": {
-        "logs_instances": [
-          {"url": "https://logs.ivr.fi",
-          "logs_added": "2023/8"},
-          {"url": "https://logs.nadeko.net",
-          "logs_added": "2023/8"},
-          {"url": "https://logs.potat.app",
-          "logs_added": "2024/8"},
-          {"url": "https://logs.spanix.team",
-          "logs_added": "2024/8"}
-        ],
-        "checkfdata": true,
-        "board_enabled": true
-      },
-      "ovrht": {
-        "logs_instances": [
-          {"url": "https://logs.spanix.team",
-          "logs_added": "2023/10"}
-        ],
-        "weight_limit": 50,
-        "totalcount_limit": 10,
-        "fishweek_limit": 10,
-        "unique_limit": 20,
-        "checkfdata": true,
-        "board_enabled": false
-      },
-      "julialuxel": {
-        "logs_instances": [
-          {"url": "https://logs.ivr.fi",
-          "logs_added": "2023/12"},
-          {"url": "https://logs.potat.app",
-          "logs_added": "2024/3"},
-          {"url": "https://logs.spanix.team",
-          "logs_added": "2024/9"}
-        ],
-        "weight_limit": 50,
-        "totalcount_limit": 10,
-        "fishweek_limit": 10,
-        "unique_limit": 20,
-        "checkfdata": true,
-        "board_enabled": true
-      },
-      "ryanpotat": {
-        "logs_instances": [
-          {"url": "https://logs.spanix.team",
-          "logs_added": "2023/12"},
-          {"url": "https://logs.potat.app",
-          "logs_added": "2024/4"}
-        ],
-        "checkfdata": true,
-        "board_enabled": false
-      },
-      "d_egree": {
-        "logs_instances": [
-          {"url": "https://logs.spanix.team",
-          "logs_added": "2024/5"}
-        ],
-        "checkfdata": true,
-        "board_enabled": false
-      },
-      "pokirule": {
-        "logs_instances": [
-          {"url": "https://logs.spanix.team",
-          "logs_added": "2024/5"}
-        ],
-        "checkfdata": true,
-        "board_enabled": false
-      },
-      "ajspyman": {
-        "logs_instances": [
-          {"url": "https://logs.spanix.team",
-          "logs_added": "2024/5"}
-        ],
-        "checkfdata": true,
-        "board_enabled": false
-      },
-      "miagooper": {
-        "logs_instances": [
-          {"url": "https://logs.ivr.fi",
-          "logs_added": "2024/5"}
-        ],
-        "checkfdata": true,
-        "board_enabled": false
-      },
-      "vaiastol": {
-        "logs_instances": [
-          {"url": "not public",
-          "logs_added": "2024/7"}
-        ],
-        "weight_limit": 50,
-        "totalcount_limit": 10,
-        "fishweek_limit": 10,
-        "unique_limit": 20,
-        "checkfdata": true,
-        "board_enabled": true
-      },
-      "swormbeard": {
-        "logs_instances": [
-          {"url": "https://logs.potat.app",
-          "logs_added": "2024/7"},
-          {"url": "https://logs.spanix.team",
-          "logs_added": "2024/8"}
-        ],
-        "checkfdata": true,
-        "board_enabled": false
-      },
-      "omie": {
-        "logs_instances": [
-          {"url": "https://logs.spanix.team",
-          "logs_added": "2024/8"}
-        ],
-        "weight_limit": 50,
-        "totalcount_limit": 10,
-        "fishweek_limit": 10,
-        "unique_limit": 20,
-        "checkfdata": true,
-        "board_enabled": true
-      },
-      "dizzy": {
-        "logs_instances": [
-          {"url": "https://logs.ivr.fi",
-          "logs_added": "2024/10"},
-          {"url": "https://logs.spanix.team",
-          "logs_added": "2024/10"}
-        ],
-        "weight_limit": 100,
-        "totalcount_limit": 30,
-        "fishweek_limit": 20,
-        "unique_limit": 20,
-        "checkfdata": true,
-        "board_enabled": true
-      },
-      "aquaismissing": {
-        "logs_instances": [
-          {"url": "https://logs.potat.app",
-          "logs_added": "2024/11"}
-        ],
-        "checkfdata": true,
-        "board_enabled": false
-      },
-      "wuh6": {
-        "logs_instances": [
-          {"url": "https://logs.potat.app",
-          "logs_added": "2024/12"}
-        ],
-        "weight_limit": 50,
-        "totalcount_limit": 10,
-        "fishweek_limit": 10,
-        "unique_limit": 20,
-        "checkfdata": true,
-        "board_enabled": true
-      },
-      "global": {
-        "weight_limit": 270,
-        "totalcount_limit": 300,
-        "unique_limit": 60,
-        "checkfdata": false,
-        "board_enabled": true
-      },
-      "default": {
-        "weight_limit": 200,
-        "weight_limit_records": 200,
-        "totalcount_limit": 100,
-        "fishweek_limit": 20,
-        "unique_limit": 50,
-        "row_limit": 100,
-        "checkfdata": false,
-        "board_enabled": false
-      }
-  }
+	"twitch_chat": {
+		"ajspyman": {
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2024/5"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2024/5"
+				},
+				{
+					"url": "https://logs.jimmyboy.dev",
+					"logs_added": "2025/2"
+				},
+				{
+					"url": "https://logs.ivr.fi",
+					"logs_added": "2024/5"
+				},
+				{
+					"url": "https://logs.susgee.dev",
+					"logs_added": "2024/5"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
+		"aquaismissing": {
+			"logs_instances": [
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2024/11"
+				},
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2024/12"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
+		"breadworms": {
+			"logs_instances": [
+				{
+					"url": "https://logs.joinuv.com",
+					"logs_added": "2022/12"
+				},
+				{
+					"url": "https://logs.ivr.fi",
+					"logs_added": "2024/6"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2024/10"
+				},
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2024/10"
+				},
+				{
+					"url": "https://logs.supa.codes",
+					"logs_added": "2024/5"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": true
+		},
+		"d_egree": {
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2024/5"
+				},
+				{
+					"url": "https://logs.ivr.fi",
+					"logs_added": "2023/9"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
+		"default": {
+			"fishweek_limit": 20,
+			"weight_limit": 200,
+			"weight_limit_records": 200,
+			"totalcount_limit": 100,
+			"unique_limit": 50,
+			"row_limit": 100,
+			"checkfdata": false,
+			"board_enabled": false
+		},
+		"dizzy": {
+			"logs_instances": [
+				{
+					"url": "https://logs.ivr.fi",
+					"logs_added": "2024/10"
+				},
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2024/10"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2024/11"
+				},
+				{
+					"url": "https://logs.jimmyboy.dev",
+					"logs_added": "2025/2"
+				}
+			],
+			"fishweek_limit": 20,
+			"weight_limit": 100,
+			"totalcount_limit": 30,
+			"unique_limit": 20,
+			"checkfdata": true,
+			"board_enabled": true
+		},
+		"global": {
+			"weight_limit": 270,
+			"totalcount_limit": 300,
+			"unique_limit": 60,
+			"checkfdata": false,
+			"board_enabled": true
+		},
+		"julialuxel": {
+			"logs_instances": [
+				{
+					"url": "https://logs.ivr.fi",
+					"logs_added": "2023/12"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2024/3"
+				},
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2024/9"
+				}
+			],
+			"fishweek_limit": 10,
+			"weight_limit": 50,
+			"totalcount_limit": 10,
+			"unique_limit": 20,
+			"checkfdata": true,
+			"board_enabled": true
+		},
+		"miagooper": {
+			"logs_instances": [
+				{
+					"url": "https://logs.ivr.fi",
+					"logs_added": "2024/5"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2024/5"
+				},
+				{
+					"url": "https://logs.jimmyboy.dev",
+					"logs_added": "2024/5"
+				},
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2024/9"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
+		"omie": {
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2024/8"
+				}
+			],
+			"fishweek_limit": 10,
+			"weight_limit": 50,
+			"totalcount_limit": 10,
+			"unique_limit": 20,
+			"checkfdata": true,
+			"board_enabled": true
+		},
+		"ovrht": {
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2023/10"
+				}
+			],
+			"fishweek_limit": 10,
+			"weight_limit": 50,
+			"totalcount_limit": 10,
+			"unique_limit": 20,
+			"checkfdata": true,
+			"board_enabled": false
+		},
+		"pokirule": {
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2024/5"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
+		"psp1g": {
+			"logs_instances": [
+				{
+					"url": "https://logs.ivr.fi",
+					"logs_added": "2023/8"
+				},
+				{
+					"url": "https://logs.nadeko.net",
+					"logs_added": "2023/8"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2024/8"
+				},
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2024/8"
+				},
+				{
+					"url": "https://logs.flake.sh",
+					"logs_added": "no logs added found"
+				},
+				{
+					"url": "https://logs.jimmyboy.dev",
+					"logs_added": "2024/6"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": true
+		},
+		"ryanpotat": {
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2023/12"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2024/4"
+				},
+				{
+					"url": "https://logs.flake.sh",
+					"logs_added": "2024/12"
+				},
+				{
+					"url": "https://logs.jimmyboy.dev",
+					"logs_added": "2024/4"
+				},
+				{
+					"url": "https://logs.supa.codes",
+					"logs_added": "2024/10"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
+		"swormbeard": {
+			"logs_instances": [
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2024/7"
+				},
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2024/8"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
+		"vaiastol": {
+			"logs_instances": [
+				{
+					"url": "not public",
+					"logs_added": "2024/7"
+				}
+			],
+			"fishweek_limit": 10,
+			"weight_limit": 50,
+			"totalcount_limit": 10,
+			"unique_limit": 20,
+			"checkfdata": true,
+			"board_enabled": true
+		},
+		"wuh6": {
+			"logs_instances": [
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2024/12"
+				}
+			],
+			"fishweek_limit": 10,
+			"weight_limit": 50,
+			"totalcount_limit": 10,
+			"unique_limit": 20,
+			"checkfdata": true,
+			"board_enabled": true
+		}
+	}
 }
-  
