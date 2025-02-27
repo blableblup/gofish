@@ -145,6 +145,13 @@ func main() {
 
 		scripts.GetTwitchPFPs(*mode)
 
+	case "logszonian":
+		logs.Logs().Info().
+			Str("Program", *program).
+			Msg("Start")
+
+		scripts.GetInstances()
+
 	default:
 		logs.Logs().Warn().
 			Str("Program", *program).

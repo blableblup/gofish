@@ -58,8 +58,6 @@ func CreateURL(chatName string, numMonths int, monthYear string, logInstance str
 
 	for _, instance := range selectedInstances {
 
-		// Can check this api https://logs.zonian.dev/instances and search for the channel here to get the chats instances
-		// Instead of adding them all manually to the config ?
 		if len(config.Chat[chatName].LogsInstances) == 0 {
 			logs.Logs().Fatal().
 				Str("Chat", chatName).
