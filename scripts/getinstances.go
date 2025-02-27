@@ -8,6 +8,7 @@ import (
 	"io"
 	"net/http"
 	"os"
+	"slices"
 	"strings"
 	"time"
 )
@@ -57,19 +58,34 @@ func GetInstances() {
 		}
 	}
 
-	// Find the instances which arent already in the config
-	// Can maybe also find instances which had the chat originally but then removed the chat (?) And then update the config ?
 	for chatName, chat := range config.Chat {
 		if !chat.CheckFData {
-			if chatName != "global" && chatName != "default" {
-				logs.Logs().Warn().
-					Str("Chat", chatName).
-					Msg("Skipping chat because checkfdata is false")
-			}
 			continue
 		}
 
+		// Get the chats instances from the config
 		configinstancesslice := chat.LogsInstances
+
+		// Skip chats with no instances in the API
+		if len(instanceswhichhavechannel[chatName]) == 0 {
+			logs.Logs().Warn().
+				Str("Chat", chatName).
+				Msg("No instances found for chat")
+			continue
+		}
+
+		// Warn if the instance from the config cant be found in the API
+		// This will always log for logs.joinuv and the private instance for vaia
+		for _, existinginstance := range configinstancesslice {
+			if !slices.Contains(instanceswhichhavechannel[chatName], strings.TrimPrefix(existinginstance.URL, "https://")) {
+				logs.Logs().Warn().
+					Str("Chat", chatName).
+					Str("Instance", existinginstance.URL).
+					Msg("Instance found in config not in API")
+			}
+		}
+
+		// Find the instances which arent already in the config
 		for _, instance := range instanceswhichhavechannel[chatName] {
 			instanceisnew := true
 			channeloptedoutofinstance := false
@@ -108,7 +124,7 @@ func GetInstances() {
 						// Skip instances from which the channel opted out of
 						if response.StatusCode == 403 {
 							logs.Logs().Warn().
-								Str("Channel", chatName).
+								Str("Chat", chatName).
 								Str("Instance", instance).
 								Msg("Channel opted out of instance")
 							channeloptedoutofinstance = true
@@ -165,7 +181,7 @@ func GetInstances() {
 	file, err := os.Create("config" + ".json")
 	if err != nil {
 		logs.Logs().Error().Err(err).
-			Msg("Error updating config file")
+			Msg("Error opening config file")
 		return
 	}
 	defer file.Close()
@@ -173,11 +189,16 @@ func GetInstances() {
 	bytes, err := json.MarshalIndent(config, "", "\t")
 	if err != nil {
 		logs.Logs().Error().Err(err).
-			Msg("Error updating config file")
+			Msg("Error updating config file json")
 		return
 	}
 
-	_, _ = fmt.Fprintf(file, "%s", bytes)
+	_, err = fmt.Fprintf(file, "%s", bytes)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Msg("Error writing config file")
+		return
+	}
 
 	logs.Logs().Info().
 		Msg("Updated config")
