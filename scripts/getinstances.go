@@ -99,7 +99,7 @@ func GetInstances() {
 
 			if instanceisnew {
 
-				// Find when gofish was added to the channel
+				// Find how far back the logs go to find the "logs_added" for the instance
 				timevar := time.Now().UTC()
 
 				// Loop through the urls starting from current month
