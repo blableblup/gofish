@@ -1,6 +1,27 @@
 {
 	"twitch_chat": {
+		"6daves": {
+			"twitchid": "893094510",
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2024/8"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2024/7"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
+		"aaurie": {
+			"twitchid": "222788698",
+			"checkfdata": false,
+			"board_enabled": false
+		},
 		"ajspyman": {
+			"twitchid": "93949130",
 			"logs_instances": [
 				{
 					"url": "https://logs.spanix.team",
@@ -27,6 +48,7 @@
 			"board_enabled": false
 		},
 		"aquaismissing": {
+			"twitchid": "782127507",
 			"logs_instances": [
 				{
 					"url": "https://logs.potat.app",
@@ -40,7 +62,28 @@
 			"checkfdata": true,
 			"board_enabled": false
 		},
+		"avrwhy": {
+			"twitchid": "153293873",
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2025/1"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2025/1"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
+		"bapqo": {
+			"twitchid": "417508502",
+			"checkfdata": false,
+			"board_enabled": false
+		},
 		"breadworms": {
+			"twitchid": "140659901",
 			"logs_instances": [
 				{
 					"url": "https://logs.joinuv.com",
@@ -66,7 +109,19 @@
 			"checkfdata": true,
 			"board_enabled": true
 		},
+		"coolishdanker": {
+			"twitchid": "440281017",
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2025/1"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
 		"d_egree": {
+			"twitchid": "56703747",
 			"logs_instances": [
 				{
 					"url": "https://logs.spanix.team",
@@ -91,6 +146,7 @@
 			"board_enabled": false
 		},
 		"dizzy": {
+			"twitchid": "108005221",
 			"logs_instances": [
 				{
 					"url": "https://logs.ivr.fi",
@@ -116,6 +172,36 @@
 			"checkfdata": true,
 			"board_enabled": true
 		},
+		"e1llas": {
+			"twitchid": "616747654",
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2024/12"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2024/12"
+				},
+				{
+					"url": "https://logs.susgee.dev",
+					"logs_added": "2025/1"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
+		"forsengosling": {
+			"twitchid": "788787727",
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2024/9"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
 		"global": {
 			"weight_limit": 270,
 			"totalcount_limit": 300,
@@ -123,7 +209,30 @@
 			"checkfdata": false,
 			"board_enabled": true
 		},
+		"jackwhalebreaker": {
+			"twitchid": "729305888",
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "no logs added found"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
+		"jellyuh": {
+			"twitchid": "605882414",
+			"logs_instances": [
+				{
+					"url": "https://logs.supa.codes",
+					"logs_added": "2024/12"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
 		"julialuxel": {
+			"twitchid": "173685614",
 			"logs_instances": [
 				{
 					"url": "https://logs.ivr.fi",
@@ -145,7 +254,13 @@
 			"checkfdata": true,
 			"board_enabled": true
 		},
+		"lifeless": {
+			"twitchid": "494931569",
+			"checkfdata": false,
+			"board_enabled": false
+		},
 		"miagooper": {
+			"twitchid": "422545773",
 			"logs_instances": [
 				{
 					"url": "https://logs.ivr.fi",
@@ -167,7 +282,31 @@
 			"checkfdata": true,
 			"board_enabled": false
 		},
+		"mylifeislul": {
+			"twitchid": "537196168",
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2024/5"
+				},
+				{
+					"url": "https://logs.ivr.fi",
+					"logs_added": "2024/5"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2024/5"
+				},
+				{
+					"url": "https://logs.susgee.dev",
+					"logs_added": "2024/5"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
 		"omie": {
+			"twitchid": "196858",
 			"logs_instances": [
 				{
 					"url": "https://logs.spanix.team",
@@ -182,6 +321,7 @@
 			"board_enabled": true
 		},
 		"ovrht": {
+			"twitchid": "649281193",
 			"logs_instances": [
 				{
 					"url": "https://logs.spanix.team",
@@ -195,7 +335,23 @@
 			"checkfdata": true,
 			"board_enabled": false
 		},
+		"paras220": {
+			"twitchid": "32275275",
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2024/9"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2024/9"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
 		"pokirule": {
+			"twitchid": "789734352",
 			"logs_instances": [
 				{
 					"url": "https://logs.spanix.team",
@@ -206,6 +362,7 @@
 			"board_enabled": false
 		},
 		"psp1g": {
+			"twitchid": "104391402",
 			"logs_instances": [
 				{
 					"url": "https://logs.ivr.fi",
@@ -235,7 +392,23 @@
 			"checkfdata": true,
 			"board_enabled": true
 		},
+		"retrorelaxo": {
+			"twitchid": "265557682",
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "no logs added found"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "no logs added found"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
 		"ryanpotat": {
+			"twitchid": "457260003",
 			"logs_instances": [
 				{
 					"url": "https://logs.spanix.team",
@@ -261,7 +434,38 @@
 			"checkfdata": true,
 			"board_enabled": false
 		},
+		"sauronwins": {
+			"twitchid": "242112564",
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "no logs added found"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
+		"sukoxi": {
+			"twitchid": "504059939",
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2024/8"
+				},
+				{
+					"url": "https://logs.ivr.fi",
+					"logs_added": "2024/8"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2024/8"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
 		"swormbeard": {
+			"twitchid": "929354209",
 			"logs_instances": [
 				{
 					"url": "https://logs.potat.app",
@@ -275,7 +479,23 @@
 			"checkfdata": true,
 			"board_enabled": false
 		},
+		"tipicogato": {
+			"twitchid": "550816449",
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2024/11"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2024/11"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
 		"vaiastol": {
+			"twitchid": "106590483",
 			"logs_instances": [
 				{
 					"url": "not public",
@@ -290,6 +510,7 @@
 			"board_enabled": true
 		},
 		"wuh6": {
+			"twitchid": "1022625575",
 			"logs_instances": [
 				{
 					"url": "https://logs.potat.app",
@@ -302,6 +523,57 @@
 			"unique_limit": 20,
 			"checkfdata": true,
 			"board_enabled": true
+		},
+		"xriggby": {
+			"twitchid": "890180659",
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2024/9"
+				},
+				{
+					"url": "https://logs.ivr.fi",
+					"logs_added": "2024/9"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2024/9"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
+		"yopego": {
+			"twitchid": "175225959",
+			"checkfdata": false,
+			"board_enabled": false
+		},
+		"zomballr": {
+			"twitchid": "86173302",
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2023/12"
+				},
+				{
+					"url": "https://logs.ivr.fi",
+					"logs_added": "2023/12"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2024/4"
+				},
+				{
+					"url": "https://logs.jimmyboy.dev",
+					"logs_added": "no logs added found"
+				},
+				{
+					"url": "https://logs.susgee.dev",
+					"logs_added": "2023/12"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
 		}
 	}
 }

@@ -51,9 +51,9 @@ func GetInstances() {
 					continue
 				}
 
-				if channel.Name == chatName {
+				if channel.Name == chatName && channel.UserID == chat.TwitchID {
 					instanceswhichhavechannel[chatName] = append(instanceswhichhavechannel[chatName], instance)
-				} // Can also check the twitchid channel.UserID, need to also store twitchid in config file!
+				}
 			}
 		}
 	}

@@ -8,6 +8,7 @@ import (
 )
 
 type ChatInfo struct {
+	TwitchID           string     `json:"twitchid"`
 	LogsInstances      []Instance `json:"logs_instances,omitempty"`
 	Fishweeklimit      int        `json:"fishweek_limit,omitempty"`
 	Weightlimit        float64    `json:"weight_limit,omitempty"`
