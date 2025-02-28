@@ -108,12 +108,21 @@ func getChatStats(params LeaderboardParams) (map[string]data.FishInfo, error) {
 			return chatStats, err
 		}
 
-		// Skip chats with zero fish caught
+		// If no fish caught in chat, dont do the queries and set the stats here
 		if chatInfo.Count == 0 {
-			logs.Logs().Debug().
-				Str("Chat", chatName).
-				Str("Board", board).
-				Msg("Skipping chat with zero fish caught")
+			chatStats[chatName] = data.FishInfo{
+				Count:    0,
+				MaxCount: 0,
+				FishId:   0,
+				ChatId:   0,
+				Player:   "",
+				PlayerID: 0,
+				Type:     "",
+				TypeName: "",
+				Weight:   0.0,
+				Chat:     chatName,
+				ChatPfp:  fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", chatName, chatName),
+			}
 			continue
 		}
 
