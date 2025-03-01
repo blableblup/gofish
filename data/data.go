@@ -56,7 +56,7 @@ func GetFishData(config utils.Config, pool *pgxpool.Pool, chatNames string, data
 			wg.Add(1)
 			go func(chatName string, chat utils.ChatInfo) {
 				defer wg.Done()
-				urls := CreateURL(chatName, numMonths, monthYear, logInstance, config)
+				urls := CreateURL(chatName, chat, numMonths, monthYear, logInstance)
 				fishData := ProcessFishDataForChat(urls, chatName, data, chat, pool, mode)
 				fishChan <- fishData
 
@@ -86,7 +86,7 @@ func GetFishData(config utils.Config, pool *pgxpool.Pool, chatNames string, data
 			wg.Add(1)
 			go func(chatName string, chat utils.ChatInfo) {
 				defer wg.Done()
-				urls := CreateURL(chatName, numMonths, monthYear, logInstance, config)
+				urls := CreateURL(chatName, chat, numMonths, monthYear, logInstance)
 				fishData := ProcessFishDataForChat(urls, chatName, data, chat, pool, mode)
 				fishChan <- fishData
 

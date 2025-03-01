@@ -18,13 +18,9 @@ func GetTwitchPFPs(mode string) {
 
 	config := utils.LoadConfig()
 
-	for chatName, chat := range config.Chat {
-		if !chat.CheckFData {
-			if chatName != "global" && chatName != "default" {
-				logs.Logs().Warn().
-					Str("Chat", chatName).
-					Msg("Skipping chat because checkfdata is false")
-			}
+	for chatName := range config.Chat {
+
+		if chatName == "global" || chatName == "default" {
 			continue
 		}
 
