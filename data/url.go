@@ -107,11 +107,15 @@ func CreateURL(chatName string, chat utils.ChatInfo, numMonths int, monthYear st
 					break
 				}
 			} else {
-				// Every chat should have this field in the config
-				logs.Logs().Fatal().Err(err).
-					Str("Chat", chatName).
-					Str("Instance", justlogInstance).
-					Msg("Unable to parse LogsAdded for chat")
+				// "no logs added found" just means that gofishgame never typed in that chat (in that instance) when the instance was added
+				// dont need to fatal, will just check urls which will 404 but its ok
+				// If gofishgame typed and there are logs to parse, can update logs added for the instance manually
+				if justlogInstanceAdded != "no logs added found" {
+					logs.Logs().Fatal().Err(err).
+						Str("Chat", chatName).
+						Str("Instance", justlogInstance).
+						Msg("Unable to parse LogsAdded for chat")
+				}
 			}
 
 			// Check if the current month is within September 2023
