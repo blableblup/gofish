@@ -41,7 +41,7 @@ func GetInstances() {
 		}
 
 		for _, channel := range channels {
-			for chatName := range config.Chat {
+			for chatName, chat := range config.Chat {
 				if chatName == "global" || chatName == "default" {
 					continue
 				}

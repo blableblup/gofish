@@ -124,12 +124,12 @@
 			"twitchid": "56703747",
 			"logs_instances": [
 				{
-					"url": "https://logs.spanix.team",
-					"logs_added": "2024/5"
-				},
-				{
 					"url": "https://logs.ivr.fi",
 					"logs_added": "2023/9"
+				},
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2024/5"
 				}
 			],
 			"checkfdata": true,
@@ -397,7 +397,7 @@
 			"logs_instances": [
 				{
 					"url": "https://logs.spanix.team",
-					"logs_added": "no logs added found"
+					"logs_added": "2024/2"
 				},
 				{
 					"url": "https://logs.potat.app",
@@ -545,7 +545,13 @@
 		},
 		"yopego": {
 			"twitchid": "175225959",
-			"checkfdata": false,
+			"logs_instances": [
+				{
+					"url": "not public",
+					"logs_added": "2024/10"
+				}
+			],
+			"checkfdata": true,
 			"board_enabled": false
 		},
 		"zomballr": {
