@@ -286,7 +286,9 @@ func FindAllThePossiblePlayers(pool *pgxpool.Pool, player string, firstFishDate 
 // but also this is only a problem when checking older logs
 func PlayerDates(pool *pgxpool.Pool, playerID int, player string) (time.Time, time.Time, error) {
 
-	var lastseen, lastseenbag, firstseen, firstseenbag time.Time
+	var lastseen, lastseenbag, firstseen, firstseenbag sql.NullTime
+	// nulltime because not everyone has to be in both tables
+	// there are fishers who only ever did +bag or never did +bag and only caught fish
 
 	err := pool.QueryRow(context.Background(),
 		"select max(date), min(date) from fish where playerid = $1 and player = $2",
@@ -302,15 +304,26 @@ func PlayerDates(pool *pgxpool.Pool, playerID int, player string) (time.Time, ti
 		return time.Time{}, time.Time{}, err
 	}
 
-	// update the lastseen and firstseen, if the values from bag are higher/lower
-	if lastseenbag.After(lastseen) {
-		lastseen = lastseenbag
-	}
-	if firstseenbag.Before(firstseen) {
-		firstseen = firstseenbag
+	// update the lastseen and firstseen, if the times from bag are higher/lower and both arent null
+	// if one of them isnt valid, return the other set of times
+	if lastseenbag.Valid && lastseen.Valid {
+		if lastseenbag.Time.After(lastseen.Time) {
+			lastseen.Time = lastseenbag.Time
+		}
+		if firstseenbag.Time.Before(firstseen.Time) {
+			firstseen.Time = firstseenbag.Time
+		}
+		return lastseen.Time, firstseen.Time, nil
+
+	} else if !lastseenbag.Valid && lastseen.Valid {
+
+		return lastseen.Time, firstseen.Time, nil
+	} else if lastseenbag.Valid && !lastseen.Valid {
+
+		return lastseenbag.Time, firstseenbag.Time, nil
 	}
 
-	return lastseen, firstseen, nil
+	return lastseen.Time, firstseen.Time, nil
 }
 
 func AddNewPlayer(twitchid int, player string, firstFishDate time.Time, firstFishChat string, pool *pgxpool.Pool) (int, error) {
