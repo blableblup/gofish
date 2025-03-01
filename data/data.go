@@ -276,12 +276,12 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 				if fish.Date.Before(possiblePlayer.LastSeen) && fish.Date.After(possiblePlayer.FirstSeen) {
 					// has to be that player then, but if someone used a name multiple times this range can be huge and probably wrong ?
 					// because then this would be true for multiple possible players
-					// but it would take a couple of years until a name has been reused between multiple players multiple times so this should be fine ?
+					// but it would take a couple of years until a name has been reused between multiple players multiple times so i have time to fix this
 					playerID = possiblePlayer.PlayerID
 					break
 				}
 
-				// if it hasnt been more than 6 months since that player caught a fish, it has to be them
+				// check how long ago that possible players last catch was
 				var months, years int
 				err := pool.QueryRow(context.Background(),
 					"select date_part('month', age($1, $2)), date_part('year', age($1, $2))",
@@ -294,11 +294,18 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 						Msg("Error getting month difference for possible player")
 					return err
 				}
-				if months > -6 || years != 0 {
+				// if it hasnt been more than 6 months since the possible player caught a fish, it has to be them
+				if months > -6 && years == 0 {
 					playerID = possiblePlayer.PlayerID
 					break
 				}
+				// else it isnt that player and it has to be someone else, or playerid will be 0
 			}
+		} else if len(possiblePlayersForPlayer[fish.Player]) == 0 {
+			logs.Logs().Warn().
+				Str("Player", fish.Player).
+				Msg("No possible player found for player!!!")
+			// this is to debug, shouldnt be possible ?
 		}
 
 		switch fish.CatchType {

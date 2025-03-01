@@ -84,6 +84,25 @@ func FindAllThePossiblePlayers(pool *pgxpool.Pool, player string, firstFishDate 
 
 		possiblePlayer.OldNames = strings.Split(oldnames.String, " ")
 
+		// check if that player used the name multiple times
+		howmanytimesusedname := make(map[string]int)
+		for _, oldname := range possiblePlayer.OldNames {
+			howmanytimesusedname[oldname]++
+		}
+
+		for oldname, count := range howmanytimesusedname {
+			if count > 1 && oldname == player {
+				// so this warns if the current name "player" which is being checked was used by a player multiple times
+				// so they were renamed multiple times in the db and so the name should appear multiple times in the oldnames slice
+				logs.Logs().Warn().
+					Str("Player", possiblePlayer.Player).
+					Str("OldName", player).
+					Int("Count", count).
+					Msg("Player used name multiple times in the past")
+			}
+		} // now wot ?
+
+		// need to get the first and last seen of the old name (so "player"), since this is checking for old names
 		possiblePlayer.LastSeen, possiblePlayer.FirstSeen, err = PlayerDates(pool, possiblePlayer.PlayerID, player)
 		if err != nil {
 			logs.Logs().Error().Err(err).
@@ -99,6 +118,7 @@ func FindAllThePossiblePlayers(pool *pgxpool.Pool, player string, firstFishDate 
 	// If no possible players are found, check the api
 	// i dont want to check the api for every player because that is really slow >_>_>>__>_> ?
 	// wouldnt really change much, i would still need to do all those checks below
+	// If the player is new or renamed i dont need to get their last and firstseen, since it is clear who the player is
 	if len(possiblePlayers) == 0 {
 		apiID, err = GetTwitchID(player)
 		if err != nil && !errors.Is(err, ErrNoPlayerFound) {
@@ -254,21 +274,40 @@ func FindAllThePossiblePlayers(pool *pgxpool.Pool, player string, firstFishDate 
 	return possiblePlayers, nil
 }
 
-// If a player used the name multiple times in the past, this will select a huge range
+// Get the first and last seen for the player from bag and fish
+// for tournaments: would need to check all the different tournament tables since you can checkin in different chats
+// probably doesnt matter ?
+
 // there is one problem:
 // like if player1 used "a" as a name and then renames and then after 6 months player2 uses "a" as a name and then after some time renames and then player1 uses "a" again ?
-// but if noone else used that name between this is fine
+// but if noone else used that name between this is fine, but in this case, the check in data would be true for multiple players
 // can see if one name appears multiple times in the []oldnames and then split that player and append them to possible players two times
 // but would need to find the >=6 months gap so that last and first seen are different ?
+// but also this is only a problem when checking older logs
 func PlayerDates(pool *pgxpool.Pool, playerID int, player string) (time.Time, time.Time, error) {
 
-	var lastseen, firstseen time.Time
+	var lastseen, lastseenbag, firstseen, firstseenbag time.Time
 
 	err := pool.QueryRow(context.Background(),
 		"select max(date), min(date) from fish where playerid = $1 and player = $2",
 		playerID, player).Scan(&lastseen, &firstseen)
 	if err != nil {
 		return time.Time{}, time.Time{}, err
+	}
+
+	err = pool.QueryRow(context.Background(),
+		"select max(date), min(date) from bag where playerid = $1 and player = $2",
+		playerID, player).Scan(&lastseenbag, &firstseenbag)
+	if err != nil {
+		return time.Time{}, time.Time{}, err
+	}
+
+	// update the lastseen and firstseen, if the values from bag are higher/lower
+	if lastseenbag.After(lastseen) {
+		lastseen = lastseenbag
+	}
+	if firstseenbag.Before(firstseen) {
+		firstseen = firstseenbag
 	}
 
 	return lastseen, firstseen, nil
