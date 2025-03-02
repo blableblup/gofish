@@ -79,16 +79,11 @@ func getChatStats(params LeaderboardParams) (map[string]data.FishInfo, error) {
 
 	chatStats := make(map[string]data.FishInfo)
 
-	for chatName, chat := range config.Chat {
+	for chatName := range config.Chat {
 		var chatInfo data.FishInfo
 
-		if !chat.CheckFData {
-			if chatName != "global" && chatName != "default" {
-				logs.Logs().Warn().
-					Str("Board", board).
-					Str("Chat", chatName).
-					Msg("Skipping chat because checkfdata is false")
-			}
+		// ignoring chat checkfdata so that it shows all the chats even those with no log instances
+		if chatName == "global" || chatName == "default" {
 			continue
 		}
 
