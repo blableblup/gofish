@@ -1,8 +1,9 @@
 ### History of channel records in jellyuh's chat
 | # | Player | Fish | Weight in lbs ⚖️ | Date in UTC |
 |-----|------|--------|-----------|---------|
-| 1   | pompadourdelinquent | 🦑 squid | 307.87 | 2025-01-06 01:33:12 |
+| 2   | pompadourdelinquent | 🦑 squid | 307.87 | 2025-01-06 01:33:12 |
+| 1   | pompadourdelinquent | 🦑 squid | 190.73 | 2025-01-02 09:31:00 |
 
-_Only showing fish weighing >= 200 lbs_
+_Only showing fish weighing >= 100 lbs_
 
-_Last updated at 2025-03-02 12:50:01 UTC_
+_Last updated at 2025-03-02 19:48:40 UTC_
