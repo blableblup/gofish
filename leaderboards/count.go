@@ -11,6 +11,8 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/jackc/pgx/v5"
 )
 
 func processCount(params LeaderboardParams) {
@@ -84,10 +86,14 @@ func processCount(params LeaderboardParams) {
 	}
 
 	if title == "" {
-		if strings.HasSuffix(chatName, "s") {
-			titletotalcount = fmt.Sprintf("### Most fish caught in %s' chat\n", chatName)
+		if !global {
+			if strings.HasSuffix(chatName, "s") {
+				titletotalcount = fmt.Sprintf("### Most fish caught in %s' chat\n", chatName)
+			} else {
+				titletotalcount = fmt.Sprintf("### Most fish caught in %s's chat\n", chatName)
+			}
 		} else {
-			titletotalcount = fmt.Sprintf("### Most fish caught in %s's chat\n", chatName)
+			titletotalcount = "### Most fish caught globally\n"
 		}
 	} else {
 		titletotalcount = fmt.Sprintf("%s\n", title)
@@ -115,14 +121,17 @@ func processCount(params LeaderboardParams) {
 func getCount(params LeaderboardParams, countlimit int) (map[int]data.FishInfo, error) {
 	board := params.LeaderboardType
 	chatName := params.ChatName
+	global := params.Global
 	date2 := params.Date2
 	pool := params.Pool
 	date := params.Date
 
 	fishCaught := make(map[int]data.FishInfo)
+	var rows pgx.Rows
+	var err error
 
-	// Query the database to get the count of fish caught by each player
-	rows, err := pool.Query(context.Background(), `
+	if !global {
+		rows, err = pool.Query(context.Background(), `
 		SELECT playerid, COUNT(*) AS fish_count
 		FROM fish
 		WHERE chat = $1
@@ -130,14 +139,31 @@ func getCount(params LeaderboardParams, countlimit int) (map[int]data.FishInfo, 
 		AND date > $3
 		GROUP BY playerid
 		HAVING COUNT(*) >= $4`, chatName, date, date2, countlimit)
-	if err != nil {
-		logs.Logs().Error().Err(err).
-			Str("Chat", chatName).
-			Str("Board", board).
-			Msg("Error querying database")
-		return fishCaught, err
+		if err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Chat", chatName).
+				Str("Board", board).
+				Msg("Error querying database")
+			return fishCaught, err
+		}
+		defer rows.Close()
+	} else {
+		rows, err = pool.Query(context.Background(), `
+		SELECT playerid, COUNT(*) AS fish_count
+		FROM fish
+		WHERE date < $1
+		AND date > $2
+		GROUP BY playerid
+		HAVING COUNT(*) >= $3`, date, date2, countlimit)
+		if err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Chat", chatName).
+				Str("Board", board).
+				Msg("Error querying database")
+			return fishCaught, err
+		}
+		defer rows.Close()
 	}
-	defer rows.Close()
 
 	for rows.Next() {
 		var fishInfo data.FishInfo
@@ -173,6 +199,50 @@ func getCount(params LeaderboardParams, countlimit int) (map[int]data.FishInfo, 
 		}
 
 		fishCaught[fishInfo.PlayerID] = fishInfo
+	}
+
+	if global {
+		// Get the fish caught per chat for the chatters above the countlimit
+		rows, err = pool.Query(context.Background(), `
+		select playerid, chat, count(*)
+		from fish
+		where date < $1
+		and date > $2
+		group by playerid, chat
+		order by count desc`, date, date2)
+		if err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Board", board).
+				Str("Chat", chatName).
+				Msg("Error querying database")
+			return fishCaught, err
+		}
+		defer rows.Close()
+
+		for rows.Next() {
+			var fishInfo data.FishInfo
+
+			if err := rows.Scan(&fishInfo.PlayerID, &fishInfo.Chat, &fishInfo.Count); err != nil {
+				logs.Logs().Error().Err(err).
+					Str("Chat", chatName).
+					Str("Board", board).
+					Msg("Error scanning row for fish caught")
+				return fishCaught, err
+			}
+
+			pfp := fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", fishInfo.Chat, fishInfo.Chat)
+
+			existingFishInfo, exists := fishCaught[fishInfo.PlayerID]
+			if exists {
+
+				if existingFishInfo.ChatCounts == nil {
+					existingFishInfo.ChatCounts = make(map[string]int)
+				}
+				existingFishInfo.ChatCounts[pfp] += fishInfo.Count
+
+				fishCaught[fishInfo.PlayerID] = existingFishInfo
+			}
+		}
 	}
 
 	return fishCaught, nil

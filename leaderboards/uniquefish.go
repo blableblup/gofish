@@ -117,7 +117,6 @@ func processUniqueFish(params LeaderboardParams) {
 func getUnique(params LeaderboardParams, uniquelimit int) (map[int]data.FishInfo, error) {
 	board := params.LeaderboardType
 	chatName := params.ChatName
-	config := params.Config
 	global := params.Global
 	date2 := params.Date2
 	pool := params.Pool
@@ -205,78 +204,49 @@ func getUnique(params LeaderboardParams, uniquelimit int) (map[int]data.FishInfo
 		uniquefishy[fishInfo.PlayerID] = fishInfo
 	}
 
-	if err := rows.Err(); err != nil {
-		logs.Logs().Error().Err(err).
-			Str("Board", board).
-			Str("Chat", chatName).
-			Msg("Error iterating over query results")
-		return uniquefishy, err
-	}
-
-	// To get the unique fish count per chat; this is really slow orm
 	if global {
+		// Get the unique fish caught per chat for the chatters above the uniquelimit
+		rows, err = pool.Query(context.Background(), `
+		select playerid, chat, count(distinct fishname)
+		from fish
+		where date < $1
+		and date > $2
+		group by playerid, chat
+		order by count desc`, date, date2)
+		if err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Board", board).
+				Str("Chat", chatName).
+				Msg("Error querying database")
+			return uniquefishy, err
+		}
+		defer rows.Close()
 
-		for playerID := range uniquefishy {
-			player := uniquefishy[playerID].Player
+		for rows.Next() {
+			var fishInfo data.FishInfo
 
-			for chatName, chat := range config.Chat {
+			if err := rows.Scan(&fishInfo.PlayerID, &fishInfo.Chat, &fishInfo.Count); err != nil {
+				logs.Logs().Error().Err(err).
+					Str("Chat", chatName).
+					Str("Board", board).
+					Msg("Error scanning row for unique fish caught")
+				return uniquefishy, err
+			}
 
-				if !chat.CheckFData {
-					if chatName != "global" && chatName != "default" {
-						logs.Logs().Warn().
-							Str("Board", board).
-							Str("Chat", chatName).
-							Msg("Skipping chat because checkfdata is false")
-					}
-					continue
+			pfp := fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", fishInfo.Chat, fishInfo.Chat)
+
+			existingFishInfo, exists := uniquefishy[fishInfo.PlayerID]
+			if exists {
+
+				if existingFishInfo.ChatCounts == nil {
+					existingFishInfo.ChatCounts = make(map[string]int)
 				}
+				existingFishInfo.ChatCounts[pfp] += fishInfo.Count
 
-				var fishInfo data.FishInfo
-
-				err = pool.QueryRow(context.Background(), `
-					SELECT COUNT(DISTINCT fishname)
-					FROM fish
-					WHERE chat = $1
-					AND playerid = $2
-					AND date < $3
-					AND date > $4`, chatName, playerID, date, date2).Scan(&fishInfo.Count)
-				if err != nil {
-					logs.Logs().Error().Err(err).
-						Str("Board", board).
-						Str("Player", player).
-						Str("Chat", chatName).
-						Msg("Error querying database again for players chat counts")
-					return uniquefishy, err
-				}
-				defer rows.Close()
-
-				// Skip chats in which the player wasnt fishing
-				if fishInfo.Count == 0 {
-					continue
-				}
-
-				pfp := fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", chatName, chatName)
-
-				existingFishInfo, exists := uniquefishy[playerID]
-				if exists {
-
-					if existingFishInfo.ChatCounts == nil {
-						existingFishInfo.ChatCounts = make(map[string]int)
-					}
-					existingFishInfo.ChatCounts[pfp] += fishInfo.Count
-
-					uniquefishy[playerID] = existingFishInfo
-				}
-
-				if err := rows.Err(); err != nil {
-					logs.Logs().Error().Err(err).
-						Str("Board", board).
-						Str("Chat", chatName).
-						Msg("Error iterating over query results")
-					return uniquefishy, err
-				}
+				uniquefishy[fishInfo.PlayerID] = existingFishInfo
 			}
 		}
 	}
+
 	return uniquefishy, nil
 }

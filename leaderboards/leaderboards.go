@@ -212,7 +212,7 @@ func processGlobalLeaderboard(params LeaderboardParams) {
 		processWeight2(params)
 	case "count":
 		params.LeaderboardType += "global"
-		RunCountGlobal(params)
+		processCount(params)
 	case "type":
 		params.LeaderboardType += "global"
 		processType(params)
