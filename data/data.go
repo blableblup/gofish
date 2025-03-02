@@ -211,13 +211,14 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 		}
 	}
 
-	playerids := make(map[string]int)
 	lastChatIDs := make(map[string]int)
 	newBagCounts := make(map[string]int)
 	newFishCounts := make(map[string]int)
 	newResultCounts := make(map[string]int)
 
 	didwealreadycheckiftableexists := make(map[string]bool)
+
+	possiblePlayersForPlayer := make(map[string][]playerdata.PossiblePlayer)
 
 	for chatName, chat := range config.Chat {
 		if chat.CheckFData {
@@ -237,19 +238,6 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 
 	for _, fish := range allFish {
 
-		if _, ok := playerids[fish.Player]; !ok {
-			playerID, err := playerdata.GetPlayerID(pool, fish.Player, fish.Date, fish.Chat)
-			if err != nil {
-				logs.Logs().Error().Err(err).
-					Str("Player", fish.Player).
-					Msg("Error getting player ID")
-				return err
-			}
-			playerids[fish.Player] = playerID
-		}
-
-		playerID := playerids[fish.Player]
-
 		// Because logs.ivr didnt use utc but instead had the logs in utc+1/utc+2
 		if strings.Contains(fish.Url, "logs.ivr.fi") && fish.Date.Before(date1) {
 
@@ -262,6 +250,62 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 				// Subtract one hour (utc+1 to utc)
 				fish.Date = fish.Date.Add(time.Hour * -1)
 			}
+		}
+
+		// Find the possible players for that player name
+		if _, ok := possiblePlayersForPlayer[fish.Player]; !ok {
+			possiblePlayers, err := playerdata.FindAllThePossiblePlayers(pool, fish.Player, fish.Date, fish.Chat)
+			if err != nil {
+				return err
+			}
+			possiblePlayersForPlayer[fish.Player] = possiblePlayers
+		}
+
+		var playerID int
+
+		// If there is only one player returned, it has to be that player
+		// only one player is always returned if that player is new
+		if len(possiblePlayersForPlayer[fish.Player]) == 1 {
+
+			playerID = possiblePlayersForPlayer[fish.Player][0].PlayerID
+
+		} else if len(possiblePlayersForPlayer[fish.Player]) > 1 {
+			// else go over all the possible players
+			for _, possiblePlayer := range possiblePlayersForPlayer[fish.Player] {
+
+				if fish.Date.Before(possiblePlayer.LastSeen) && fish.Date.After(possiblePlayer.FirstSeen) {
+					// has to be that player then, but if someone used a name multiple times this range can be huge and probably wrong ?
+					// because then this would be true for multiple possible players
+					// but it would take a couple of years until a name has been reused between multiple players multiple times so i have time to fix this
+					playerID = possiblePlayer.PlayerID
+					break
+				}
+
+				// check how long ago that possible players last catch was
+				var months, years int
+				err := pool.QueryRow(context.Background(),
+					"select date_part('month', age($1, $2)), date_part('year', age($1, $2))",
+					possiblePlayer.LastSeen, fish.Date).Scan(&months, &years)
+				if err != nil {
+					logs.Logs().Error().Err(err).
+						Int("TwitchID", int(possiblePlayer.TwitchID.Int64)).
+						Int("PlayerID", possiblePlayer.PlayerID).
+						Str("Player", fish.Player).
+						Msg("Error getting month difference for possible player")
+					return err
+				}
+				// if it hasnt been more than 6 months since the possible player caught a fish, it has to be them
+				if months > -6 && years == 0 {
+					playerID = possiblePlayer.PlayerID
+					break
+				}
+				// else it isnt that player and it has to be someone else, or playerid will be 0
+			}
+		} else if len(possiblePlayersForPlayer[fish.Player]) == 0 {
+			logs.Logs().Warn().
+				Str("Player", fish.Player).
+				Msg("No possible player found for player!!!")
+			// this is to debug, shouldnt be possible ?
 		}
 
 		switch fish.CatchType {
