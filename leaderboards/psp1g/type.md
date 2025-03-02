@@ -18,7 +18,7 @@
 | 15  | 🦞 lobster | 120.96 | ratot | 2024-11-28 01:35:49 |
 | 16  | 🐬 dolphin | 119.32 | nndiana | 2024-10-07 05:51:19 |
 | 17  | 🧟 zombie | 118.60 | asthmaa | 2023-10-26 13:48:29 |
-| 18  | 🦇 bat | 117.16 | funnywhitecat12 | 2024-10-11 11:31:43 |
+| 18  | 🦇 bat | 117.16 | funnywhitecat6 | 2024-10-11 11:31:43 |
 | 19  | 🦪 oyster | 114.43 | wisdom_frog | 2023-12-28 02:26:26 |
 | 20  | 🪸 coral | 99.92 | divra__ | 2024-05-27 21:22:08 |
 | 21  | 🪨 rock | 74.24 | caprisen_ | 2023-10-15 09:18:51 |
@@ -92,4 +92,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2024-12-29 11:05:14 UTC_
+_Last updated at 2025-03-02 12:02:04 UTC_

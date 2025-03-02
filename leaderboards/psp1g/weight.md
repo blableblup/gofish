@@ -47,7 +47,7 @@
 | 44  | alizuh | 🐉 dragon | 247.21 | 2024-10-08 20:07:43 |
 | 45  | mazzo_tv | 🦕 sauropod | 247.16 | 2024-08-19 11:51:23 |
 | 46  | eeziiii | 🦕 sauropod | 246.82 | 2024-12-11 06:07:44 |
-| 47  | funnywhitecat12 | 🐍 snake | 246.18 | 2024-11-09 14:48:47 |
+| 47  | funnywhitecat6 | 🐍 snake | 246.18 | 2024-11-09 14:48:47 |
 | 48  | llikotesnecil | 🐳 whale | 244.75 | 2024-11-11 03:50:36 |
 | 49  | womenfeet | 🐳 whale | 242.64 | 2024-10-06 15:49:09 |
 | 50  | bluberry | 🦕 sauropod | 240.13 | 2024-06-26 15:50:49 |
@@ -99,4 +99,4 @@
 
 _Only showing fish weighing >= 200 lbs_
 
-_Last updated at 2025-02-16 10:52:33 UTC_
+_Last updated at 2025-03-02 12:02:41 UTC_

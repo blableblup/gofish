@@ -11,15 +11,15 @@
 | 8  | 🐙 octopus | 160.48 | divra__ | 2024-11-01 17:07:43 |
 | 9  | 🐋 whale2 | 148.82 | hahppyy | 2024-11-04 16:24:39 |
 | 10  | 🐢 turtle | 148.29 | leastsussyimposter | 2024-09-29 20:58:46 |
-| 11  | 🐊 crocodile | 145.58 | vaiastol | 2024-09-08 00:40:59 |
+| 11  | 🐊 crocodile | 145.86 (+0.28) | nicestnarwhal | 2025-03-01 13:38:53 |
 | 12  | 🦭 seal | 133.82 | vaiastol | 2025-02-01 09:46:57 |
 | 13  | 🦪 oyster | 125.98 | julialuxel | 2024-12-28 19:05:43 |
 | 14  | 🐬 dolphin | 104.56 | leastsussyimposter | 2024-11-21 16:03:43 |
 | 15  | 🧟 zombie | 86.37 | yoimlee | 2024-08-12 16:32:24 |
 | 16  | 🛢️ oildrum | 68.03 | leastsussyimposter | 2024-08-05 01:05:17 |
 | 17  | 🛒 shoppingcart | 66.80 | vaiastol | 2025-02-02 14:27:59 |
-| 18 ⬆ | 🦞 lobster | 63.97 (+1.30) | vaiastol | 2025-02-18 14:47:02 |
-| 19 ⬇ | 🐟 fish | 62.69 | pengeg | 2024-12-01 22:40:57 |
+| 18  | 🦞 lobster | 63.97 | vaiastol | 2025-02-18 14:47:02 |
+| 19  | 🐟 fish | 62.69 | pengeg | 2024-12-01 22:40:57 |
 | 20  | 🪸 coral | 60.38 | vaiastol | 2024-09-19 04:57:44 |
 | 21  | 🐈‍⬛ blackcat | 60.23 | hahppyy | 2024-12-19 10:38:55 |
 | 22  | 🦐 shrimp | 54.29 | hahppyy | 2024-12-01 21:27:46 |
@@ -31,10 +31,10 @@
 | 28  | 🥒 cucumber | 31.74 | hahppyy | 2024-08-09 18:09:50 |
 | 29  | 🐡 blowfish | 31.46 | yoimlee | 2024-08-30 16:54:37 |
 | 30  | 🧊 icecube | 26.42 | vaiastol | 2024-12-27 04:13:21 |
-| 31  | 🧽 sponge | 25.67 | milesdotcom | 2024-08-25 19:52:32 |
-| 32  | 🪳 cockroach | 25.61 | hailstrasza | 2024-07-31 04:20:39 |
+| 31 ⬆ | 🪳 cockroach | 25.91 (+0.30) | nicestnarwhal | 2025-02-23 14:10:51 |
+| 32 ⬇ | 🧽 sponge | 25.67 | milesdotcom | 2024-08-25 19:52:32 |
 | 33  | 🕷️ spider | 23.39 | bron8i | 2025-01-18 20:55:49 |
-| 34  | 🦠 plankton | 21.87 (+0.45) | vaiastol | 2025-02-16 12:59:13 |
+| 34  | 🦠 plankton | 21.87 | vaiastol | 2025-02-16 12:59:13 |
 | 35  | 🍄‍🟫 brownmushroom | 21.32 | vaiastol | 2025-01-05 18:34:29 |
 | 36  | 🐠 tropicalfish | 20.39 | vaiastol | 2024-09-15 00:25:16 |
 | 37  | 🪼 jellyfish | 20.36 | mitgliederversammlung | 2024-08-31 13:56:17 |
@@ -45,10 +45,10 @@
 | 42  | 🪀 bobber | 14.41 | leastsussyimposter | 2024-12-22 14:08:31 |
 | 43  | 🧭 compass | 12.25 | vaiastol | 2024-12-25 03:46:12 |
 | 44  | 🐌 snail | 11.90 | leastsussyimposter | 2024-08-28 17:02:48 |
-| 45  | 🪺 nestwitheggs | 10.98 | hahppyy | 2024-09-26 18:59:03 |
-| 46  | 🪱 worm | 10.90 | divra__ | 2025-01-25 21:04:34 |
-| 47  | 📱 iphone | 10.66 | pengeg | 2024-12-24 00:32:17 |
-| 47  | 🧸 teddybear | 10.66 | eelacy | 2025-02-04 10:26:52 |
+| 45 ⬆ | 🧸 teddybear | 11.77 (+1.11) | eelacy | 2025-02-28 20:45:50 |
+| 46 ⬇ | 🪺 nestwitheggs | 10.98 | hahppyy | 2024-09-26 18:59:03 |
+| 47 ⬇ | 🪱 worm | 10.90 | divra__ | 2025-01-25 21:04:34 |
+| 48 ⬇ | 📱 iphone | 10.66 | pengeg | 2024-12-24 00:32:17 |
 | 49  | 🪹 emptynest | 10.45 | bubinga | 2024-10-17 21:08:36 |
 | 50  | 🪵 log | 10.26 | bubinga | 2024-11-05 20:58:54 |
 | 51  | 🎱 8ball | 9.50 | leastsussyimposter | 2025-01-06 22:09:55 |
@@ -67,7 +67,7 @@
 | 64  | 🪝 hook | 3.91 | pengeg | 2024-12-29 16:54:31 |
 | 65  | ☘️ shamrock | 3.63 | hahppyy | 2025-01-02 17:11:45 |
 | 66  | 🥀 wiltedflower | 2.73 | hahppyy | 2025-01-02 18:42:06 |
-| 67  | ☂️ umbrella | 2.48 (+0.08) | hahppyy | 2025-02-17 22:19:26 |
+| 67  | ☂️ umbrella | 2.48 | hahppyy | 2025-02-17 22:19:26 |
 | 68  | 🐦 bird | 2.29 | vaiastol | 2025-01-17 12:13:23 |
 | 69  | 👢 boot | 1.97 | yoimlee | 2024-11-04 14:41:11 |
 | 70  | 🧦 socks | 1.95 | divra__ | 2024-10-16 23:07:48 |
@@ -88,4 +88,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-02-23 10:58:53 UTC_
+_Last updated at 2025-03-02 12:02:09 UTC_

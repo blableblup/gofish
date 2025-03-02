@@ -2,18 +2,18 @@
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
 | 1 🥇  | 🐻‍❄ polarbear | 71.89 | qu4ttromila | 2024-12-23 17:46:04 |
-| 2 🥈 ⬆ | 🐈‍⬛ blackcat | 19.32 | derinturitierutz | 2024-12-21 10:47:09 |
-| 3 🥉 ⬇ | 🛒 shoppingcart | 14.53 (-19.52) | leanmeister | 2025-02-02 15:33:00 |
+| 2 🥈  | 🐈‍⬛ blackcat | 19.32 | derinturitierutz | 2024-12-21 10:47:09 |
+| 3 🥉  | 🛒 shoppingcart | 14.53 | leanmeister | 2025-02-02 15:33:00 |
 | 4  | 🛢️ oildrum | 13.36 | islcfc | 2024-07-12 03:25:59 |
 | 5  | 🐀 rat | 11.46 | kishma9 | 2024-12-25 21:31:05 |
 | 6  | 🦇 bat | 6.11 | julialuxel | 2024-09-26 00:36:06 |
-| 7  | 🦉 owl | 5.90 | cumro | 2024-10-20 16:28:24 |
+| 7  | 🦉 owl | 5.90 | eaeac | 2024-10-20 16:28:24 |
 | 8  | 🧞‍♂ malegenie | 3.22 | osnyatsky | 2024-02-11 00:58:17 |
 | 9  | 👑 crown | 3.10 | osnyatsky* | 2023-06-12 13:09:46 |
 | 10  | 🧜‍♀️ mermaid | 2.65 | kishma9 | 2023-12-04 11:12:58 |
 | 11  | 🧥 coat | 1.85 | gstaman911 | 2025-01-01 13:14:00 |
 | 12  | 🌷 tulip | 1.77 | bapqo | 2024-09-11 16:29:55 |
-| 13  | 🪿 goose | 1.43 (-0.16) | qu4ttromila | 2025-02-03 02:10:08 |
+| 13  | 🪿 goose | 1.43 | qu4ttromila | 2025-02-03 02:10:08 |
 | 14  | 🐉 dragon | 0.94 | liiiiiiiiiilly | 2023-03-05 17:11:41 |
 | 15  | 🧟 zombie | 0.61 | dayzedinndaydreams | 2023-07-07 21:49:48 |
 | 16  | 🗡️ dagger | 0.56 | respirate_ | 2024-08-26 22:03:27 |
@@ -55,14 +55,14 @@
 | 52  | 🐙 octopus | 0.03 | qu4ttromila | 2023-08-30 11:27:07 |
 | 52  | 🐠 tropicalfish | 0.03 | respirate_ | 2024-07-24 04:15:04 |
 | 52  | 🐋 whale2 | 0.03 | sicklymaidrobot | 2023-04-09 17:38:12 |
-| 55 ⬆ | 👟 athleticshoe | 0.02 | derinturitierutz | 2023-10-26 07:33:49 |
-| 55 ⬆ | 🩰 balletshoes | 0.02 | qu4ttromila | 2023-06-30 22:49:49 |
-| 55 ⬆ | 🐡 blowfish | 0.02 | puzzlow | 2024-05-30 14:04:13 |
-| 55 ⬆ | 🪚 carpentrysaw | 0.02 | larvasisters | 2025-01-10 02:25:27 |
-| 55 ⬆ | 🪸 coral | 0.02 | bussinongnocap | 2023-05-13 19:34:02 |
-| 55 ⬆ | 🐍 snake | 0.02 | liiiiiiiiiilly | 2024-09-28 18:59:06 |
-| 55 ⬆ | 🩴 thongsandal | 0.02 | puzzlow | 2024-06-08 23:45:52 |
-| 55 ⬇ | ☂️ umbrella | 0.02 (-0.01) | ouacewi | 2025-02-03 08:32:50 |
+| 55  | 👟 athleticshoe | 0.02 | derinturitierutz | 2023-10-26 07:33:49 |
+| 55  | 🩰 balletshoes | 0.02 | qu4ttromila | 2023-06-30 22:49:49 |
+| 55  | 🐡 blowfish | 0.02 | puzzlow | 2024-05-30 14:04:13 |
+| 55  | 🪚 carpentrysaw | 0.02 | larvasisters | 2025-01-10 02:25:27 |
+| 55  | 🪸 coral | 0.02 | bussinongnocap | 2023-05-13 19:34:02 |
+| 55  | 🐍 snake | 0.02 | liiiiiiiiiilly | 2024-09-28 18:59:06 |
+| 55  | 🩴 thongsandal | 0.02 | puzzlow | 2024-06-08 23:45:52 |
+| 55  | ☂️ umbrella | 0.02 | ouacewi | 2025-02-03 08:32:50 |
 | 63  | 🪀 bobber | 0.01 | julialuxel | 2023-08-20 23:19:06 |
 | 63  | 👢 boot | 0.01 | osnyatsky | 2024-02-03 06:44:14 |
 | 63  | 🥫 cannedfood | 0.01 | puzzlow | 2023-08-29 22:34:55 |
@@ -99,4 +99,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-02-09 10:54:01 UTC_
+_Last updated at 2025-03-02 12:02:33 UTC_

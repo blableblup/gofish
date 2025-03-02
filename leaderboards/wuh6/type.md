@@ -11,15 +11,15 @@
 | 8  | 🐊 crocodile | 148.42 | bubinga | 2024-12-25 18:55:16 |
 | 9  | 🦭 seal | 134.48 | flovrek | 2025-02-07 00:19:40 |
 | 10  | 🦪 oyster | 131.61 | eeziiii | 2025-01-03 22:02:07 |
-| 11  | 🧟 zombie | 119.53 | onarrrrrrrr | 2024-12-15 18:50:39 |
-| 12  | 🐬 dolphin | 117.30 | nndiana | 2025-01-01 02:38:18 |
-| 13 ⬆ | 🐙 octopus | 115.92 (+52.19) | ratatas_ | 2025-02-16 21:47:45 |
-| 14 ⬇ | 🐢 turtle | 102.01 | iflya320 | 2025-01-25 22:20:43 |
-| 15 ⬇ | 🐉 dragon | 96.47 | eeziiii | 2024-12-18 20:20:19 |
-| 16 ⬇ | 🐈‍⬛ blackcat | 90.13 | thetaxmen | 2024-12-19 08:21:39 |
-| 17  | 🦞 lobster | 61.69 | bubinga | 2025-01-02 08:42:11 |
-| 18  | 🐟 fish | 61.35 | huuuuuuuuuuuuuuuuuuuuuurz | 2025-01-03 12:13:18 |
-| 19  | 🛒 shoppingcart | 55.74 | nndiana | 2025-01-03 00:23:05 |
+| 11 ⬆ | 🐙 octopus | 128.81 (+12.89) | veny2lbs | 2025-02-26 11:05:14 |
+| 12 ⬇ | 🧟 zombie | 119.53 | onarrrrrrrr | 2024-12-15 18:50:39 |
+| 13 ⬇ | 🐬 dolphin | 117.30 | nndiana | 2025-01-01 02:38:18 |
+| 14  | 🐢 turtle | 102.01 | iflya320 | 2025-01-25 22:20:43 |
+| 15  | 🐉 dragon | 96.47 | eeziiii | 2024-12-18 20:20:19 |
+| 16  | 🐈‍⬛ blackcat | 90.13 | thetaxmen | 2024-12-19 08:21:39 |
+| 17 ⬆ | 🛒 shoppingcart | 73.36 (+17.62) | glorianeq | 2025-02-24 22:18:53 |
+| 18 ⬇ | 🦞 lobster | 61.69 | bubinga | 2025-01-02 08:42:11 |
+| 19 ⬇ | 🐟 fish | 61.35 | huuuuuuuuuuuuuuuuuuuuuurz | 2025-01-03 12:13:18 |
 | 20  | 🐀 rat | 54.57 | theevirus | 2024-12-23 19:12:05 |
 | 21  | 🪨 rock | 47.00 | bubinga | 2024-12-18 00:31:07 |
 | 22  | 🦫 beaver | 43.64 | iflya320 | 2024-12-31 19:44:39 |
@@ -29,7 +29,7 @@
 | 26  | 🧊 icecube | 27.54 | jr_mime | 2024-12-28 15:51:20 |
 | 27  | 🪳 cockroach | 25.42 | nndiana | 2025-01-05 07:04:19 |
 | 28  | 🪸 coral | 23.98 | cotovelo3 | 2024-12-18 18:50:06 |
-| 29  | 🕷️ spider | 23.83 (+0.14) | wowitsdub | 2025-02-20 15:12:47 |
+| 29  | 🕷️ spider | 23.83 | wowitsdub | 2025-02-20 15:12:47 |
 | 30  | 🍄‍🟫 brownmushroom | 21.92 | gorillapark | 2025-01-18 00:47:17 |
 | 31  | 🦠 plankton | 21.44 | eeziiii | 2025-02-09 08:46:23 |
 | 32  | 🐡 blowfish | 21.18 | theevirus | 2024-12-18 03:32:44 |
@@ -46,9 +46,9 @@
 | 43  | 🪵 log | 11.18 | ratot | 2024-12-15 18:50:38 |
 | 44  | 👒 womanshat | 11.04 | finalmorningstar | 2024-12-15 02:23:05 |
 | 45  | 🪱 worm | 10.88 | huuuuuuuuuuuuuuuuuuuuuurz | 2025-02-09 08:13:22 |
-| 46  | 🪺 nestwitheggs | 10.81 | veny2lbs | 2024-12-20 00:59:54 |
-| 47  | 🎱 8ball | 10.70 | zwockel01 | 2024-12-24 12:24:07 |
-| 47  | 🪹 emptynest | 10.70 | sandwichsundays | 2024-12-21 17:38:38 |
+| 46 ⬆ | 🪹 emptynest | 10.84 (+0.14) | iflya320 | 2025-02-27 11:11:29 |
+| 47 ⬇ | 🪺 nestwitheggs | 10.81 | veny2lbs | 2024-12-20 00:59:54 |
+| 48 ⬇ | 🎱 8ball | 10.70 | zwockel01 | 2024-12-24 12:24:07 |
 | 49  | 💀 skull | 9.95 | nndiana | 2025-02-05 23:14:26 |
 | 50  | 🦀 crab | 9.71 | bubinga | 2025-01-25 00:29:19 |
 | 51  | 🐦 bird | 8.28 | nndiana | 2025-01-14 14:10:28 |
@@ -71,14 +71,14 @@
 | 68  | 🩰 balletshoes | 1.90 | bubinga | 2024-12-14 16:58:36 |
 | 69  | 🥪 sandwich | 1.83 | bubinga | 2024-12-16 11:35:24 |
 | 70  | 🧦 socks | 1.59 | wowitsdub | 2024-12-18 21:16:32 |
-| 71 🆕 | 🧞‍♂ malegenie | 1.10 | eeziiii | 2025-02-16 11:13:46 |
-| 72 ⬇ | 🌿 seaweed | 1.00 | iflya320 | 2024-12-14 23:52:21 |
-| 73 ⬇ | 🧣 scarf | 0.96 | thetaxmen | 2025-01-03 00:50:02 |
-| 74 ⬇ | 🪚 carpentrysaw | 0.95 | glorianeq | 2025-01-08 21:18:20 |
-| 75 ⬇ | 🪶 feather | 0.94 | womenfeet | 2025-02-15 18:29:30 |
-| 76 ⬇ | 🧤 gloves | 0.91 | eeziiii | 2025-01-25 18:14:34 |
-| 77 ⬇ | 🐿️ squirrel | 0.00 | lobuhtomy | 2024-12-21 20:01:28 |
+| 71  | 🧞‍♂ malegenie | 1.10 | eeziiii | 2025-02-16 11:13:46 |
+| 72  | 🌿 seaweed | 1.00 | iflya320 | 2024-12-14 23:52:21 |
+| 73  | 🧣 scarf | 0.96 | thetaxmen | 2025-01-03 00:50:02 |
+| 74  | 🪚 carpentrysaw | 0.95 | glorianeq | 2025-01-08 21:18:20 |
+| 75  | 🪶 feather | 0.94 | womenfeet | 2025-02-15 18:29:30 |
+| 76  | 🧤 gloves | 0.91 | eeziiii | 2025-01-25 18:14:34 |
+| 77  | 🐿️ squirrel | 0.00 | lobuhtomy | 2024-12-21 20:01:28 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-02-23 10:58:55 UTC_
+_Last updated at 2025-03-02 12:02:01 UTC_
