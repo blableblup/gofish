@@ -61,6 +61,12 @@ func FindAllThePossiblePlayers(pool *pgxpool.Pool, player string, firstFishDate 
 		possiblePlayers = append(possiblePlayers, possiblePlayer)
 	}
 
+	if err = rows.Err(); err != nil {
+		logs.Logs().Error().Err(err).
+			Msg("Error iterating over rows")
+		return []PossiblePlayer{}, err
+	}
+
 	// Query for all players which had that name as an oldname
 	rows, err = pool.Query(context.Background(), "SELECT name, playerid, twitchid, oldnames FROM playerdata WHERE $1 = ANY(STRING_TO_ARRAY(oldnames, ' '))", player)
 	if err != nil {
@@ -112,6 +118,12 @@ func FindAllThePossiblePlayers(pool *pgxpool.Pool, player string, firstFishDate 
 		}
 
 		possiblePlayers = append(possiblePlayers, possiblePlayer)
+	}
+
+	if err = rows.Err(); err != nil {
+		logs.Logs().Error().Err(err).
+			Msg("Error iterating over rows")
+		return []PossiblePlayer{}, err
 	}
 
 	var apiID int

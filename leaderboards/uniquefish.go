@@ -204,6 +204,14 @@ func getUnique(params LeaderboardParams, uniquelimit int) (map[int]data.FishInfo
 		uniquefishy[fishInfo.PlayerID] = fishInfo
 	}
 
+	if err = rows.Err(); err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Board", board).
+			Str("Chat", chatName).
+			Msg("Error iterating over rows")
+		return uniquefishy, err
+	}
+
 	if global {
 		// Get the unique fish caught per chat for the chatters above the uniquelimit
 		rows, err = pool.Query(context.Background(), `
@@ -245,6 +253,14 @@ func getUnique(params LeaderboardParams, uniquelimit int) (map[int]data.FishInfo
 
 				uniquefishy[fishInfo.PlayerID] = existingFishInfo
 			}
+		}
+
+		if err = rows.Err(); err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Board", board).
+				Str("Chat", chatName).
+				Msg("Error iterating over rows")
+			return uniquefishy, err
 		}
 	}
 

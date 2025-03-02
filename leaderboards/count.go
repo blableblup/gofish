@@ -201,6 +201,14 @@ func getCount(params LeaderboardParams, countlimit int) (map[int]data.FishInfo, 
 		fishCaught[fishInfo.PlayerID] = fishInfo
 	}
 
+	if err = rows.Err(); err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Board", board).
+			Str("Chat", chatName).
+			Msg("Error iterating over rows")
+		return fishCaught, err
+	}
+
 	if global {
 		// Get the fish caught per chat for the chatters above the countlimit
 		rows, err = pool.Query(context.Background(), `
@@ -242,6 +250,14 @@ func getCount(params LeaderboardParams, countlimit int) (map[int]data.FishInfo, 
 
 				fishCaught[fishInfo.PlayerID] = existingFishInfo
 			}
+		}
+
+		if err = rows.Err(); err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Board", board).
+				Str("Chat", chatName).
+				Msg("Error iterating over rows")
+			return fishCaught, err
 		}
 	}
 

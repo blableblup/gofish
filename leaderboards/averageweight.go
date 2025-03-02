@@ -219,6 +219,14 @@ func getAverageWeights(params LeaderboardParams) (map[string]data.FishInfo, erro
 
 			}
 		}
+
+		if err = rows.Err(); err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Board", board).
+				Str("Chat", chatName).
+				Msg("Error iterating over rows")
+			return Weights, err
+		}
 	}
 
 	return Weights, nil
