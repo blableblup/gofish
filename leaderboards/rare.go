@@ -161,6 +161,14 @@ func getRarestFish(params LeaderboardParams) (map[string]data.FishInfo, error) {
 				}
 			}
 		}
+
+		if err = rows.Err(); err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Board", board).
+				Str("Chat", chatName).
+				Msg("Error iterating over rows")
+			return globalFishTypesCount, err
+		}
 	}
 
 	return globalFishTypesCount, nil
