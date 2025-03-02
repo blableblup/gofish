@@ -1,64 +1,66 @@
 ### Biggest fish per type caught in ovrht's chat
-| Rank | Fish | Weight in lbs | Player |
-|------|--------|-----------|---------|
-| 1 🥇  | 🐳 whale | 287.76 | ovrht |
-| 2 🥈  | 🐉 dragon | 236.79 | alenakuz03 |
-| 3 🥉  | 🦕 sauropod | 208.67 | sgvabl |
-| 4  | 🦈 shark | 207.34 | alenakuz03 |
-| 5  | 🐊 crocodile | 143.50 | alenakuz03 |
-| 6  | 🐋 whale2 | 134.54 | diloindys |
-| 7  | 🦭 seal | 120.41 | dan1lew |
-| 8  | 🐙 octopus | 117.30 | sgvabl |
-| 9  | 🐬 dolphin | 110.24 | wenlygga |
-| 10  | 🧟 zombie | 109.08 | ovrht |
-| 11  | 🪸 coral | 99.09 | offwhiteairforc3_ |
-| 12  | 🦑 squid | 78.41 | alenakuz03 |
-| 13  | 🦞 lobster | 72.85 | nightbot |
-| 14  | 🐢 turtle | 59.74 | alenakuz03 |
-| 15  | 🐟 fish | 54.91 | alenakuz03 |
-| 16  | 🗡️ dagger | 43.61 | sgvabl |
-| 17  | 🦪 oyster | 37.53 | nightbot |
-| 18  | 🐡 blowfish | 34.59 | fofee_n |
-| 19  | 🪨 rock | 34.55 | ovrht |
-| 20  | 🦐 shrimp | 29.06 | k1lk4_ |
-| 21  | 🥒 cucumber | 26.97 | klyne_qq |
-| 22  | 🪳 cockroach | 25.38 | dan1lew |
-| 23  | 🐠 tropicalfish | 19.77 | ovrht |
-| 24  | 🐍 snake | 19.76 | ovrht |
-| 25  | 🪼 jellyfish | 19.30 | lobuhtomy |
-| 26  | 🦠 plankton | 18.81 | alenakuz03 |
-| 27  | 🧽 sponge | 17.85 | nightbot |
-| 28  | 🦀 crab | 17.71 | wizzyy6 |
-| 29  | 🦦 otter | 15.61 | ovrht |
-| 30  | 🕷️ spider | 12.99 | diloindys |
-| 31  | 🐌 snail | 11.30 | ewweddz |
-| 32  | 🦆 duck | 10.58 | ovrht |
-| 33  | 🧃 beveragebox | 10.21 | virxverok |
-| 34  | 💀 skull | 9.98 | wiazuh |
-| 35  | 🩲 briefs | 8.83 | sgvabl |
-| 36  | 👒 womanshat | 8.81 | ovrht |
-| 37  | 🕶️ darksunglasses | 7.24 | wizzyy6 |
-| 38  | 🐸 frog | 6.72 | sestrichklnn |
-| 39  | 🧊 icecube | 6.55 | dan1lew |
-| 40  | 🐧 penguin | 5.14 | sestrichklnn |
-| 41  | 🪝 hook | 4.50 | nightbot |
-| 42  | 🎏 lure | 4.34 | alenakuz03 |
-| 43  | 🐚 shell | 3.89 | pelmee44ka |
-| 44  | 🦎 lizard | 3.36 | nightbot |
-| 45  | 🪱 worm | 2.86 | nightbot |
-| 46  | 🍄 mushroom | 2.61 | wizzyy6 |
-| 47  | 🧦 socks | 1.98 | alenakuz03 |
-| 48  | 🩰 balletshoes | 1.82 | fofee_n |
-| 49  | 🩴 thongsandal | 1.60 | sgvabl |
-| 50  | 👢 boot | 1.59 | diloindys |
-| 51  | 🍬 candy | 1.57 | ovrht |
-| 52  | 🥫 cannedfood | 1.52 | ovrht |
-| 53  | 🥪 sandwich | 1.47 | nightbot |
-| 54  | 👑 crown | 1.16 | alenakuz03 |
-| 55  | 🌿 seaweed | 0.90 | offwhiteairforc3_ |
-| 56  | 🧤 gloves | 0.67 | arct1ca_ |
-| 57  | 🧣 scarf | 0.65 | sestrichklnn |
-| 58  | 👟 athleticshoe | 0.22 | ovrht |
-| 59  | 🎰 slotmachine | 0.00 | ovrht |
+| Rank | Fish | Weight in lbs | Player | Date in UTC |
+|------|--------|-----------|---------|------|
+| 1 🥇  | 🐳 whale | 287.76 | ovrht | 2024-08-11 09:56:21 |
+| 2 🥈  | 🐉 dragon | 236.79 | alenakuz03 | 2023-12-19 19:47:04 |
+| 3 🥉  | 🦕 sauropod | 208.67 | alizuh | 2024-09-21 17:01:13 |
+| 4  | 🦈 shark | 207.34 | alenakuz03 | 2024-01-18 21:07:09 |
+| 5  | 🐊 crocodile | 143.50 | alenakuz03 | 2023-11-08 07:29:45 |
+| 6  | 🐋 whale2 | 134.54 | diloindys | 2024-09-04 16:46:56 |
+| 7  | 🦭 seal | 120.41 | dan1lew | 2024-01-05 22:04:10 |
+| 8  | 🐙 octopus | 117.30 | alizuh | 2024-09-06 15:53:45 |
+| 9  | 🐬 dolphin | 110.24 | wenlygga | 2024-08-08 21:03:49 |
+| 10  | 🧟 zombie | 109.08 | ovrht | 2023-10-13 19:00:56 |
+| 11  | 🪸 coral | 99.09 | offwhiteairforc3_ | 2024-09-15 12:24:23 |
+| 12  | 🦑 squid | 78.41 | alenakuz03 | 2023-11-09 10:30:02 |
+| 13  | 🦞 lobster | 72.85 | nightbot | 2023-10-15 07:25:05 |
+| 14  | 🐢 turtle | 59.74 | alenakuz03 | 2023-11-01 07:15:31 |
+| 15  | 🐟 fish | 54.91 | alenakuz03 | 2024-01-11 20:36:46 |
+| 16  | 🗡️ dagger | 43.61 | alizuh | 2024-08-17 14:27:07 |
+| 17  | 🦪 oyster | 37.53 | nightbot | 2023-11-04 11:05:05 |
+| 18  | 🐡 blowfish | 34.59 | focfee | 2024-08-04 18:47:41 |
+| 19  | 🪨 rock | 34.55 | ovrht | 2024-08-01 20:11:33 |
+| 20  | 🦐 shrimp | 29.06 | k1lk4_ | 2023-12-15 12:12:31 |
+| 21  | 🥒 cucumber | 26.97 | klyne_qq | 2024-08-12 21:01:12 |
+| 22  | 🪳 cockroach | 25.38 | dan1lew | 2024-08-07 17:35:52 |
+| 23  | 🐠 tropicalfish | 19.77 | ovrht | 2024-09-06 14:45:54 |
+| 24  | 🐍 snake | 19.76 | ovrht | 2023-10-15 19:09:11 |
+| 25  | 🪼 jellyfish | 19.30 | lobuhtomy | 2024-07-16 19:08:22 |
+| 26  | 🦠 plankton | 18.81 | alenakuz03 | 2024-01-12 14:20:07 |
+| 27  | 🧽 sponge | 17.85 | nightbot | 2023-10-12 04:50:05 |
+| 28  | 🦀 crab | 17.71 | wizzyy6 | 2024-08-04 17:37:00 |
+| 29  | 🦦 otter | 15.61 | ovrht | 2024-01-12 13:50:20 |
+| 30  | 🕷️ spider | 12.99 | diloindys | 2024-08-17 20:29:22 |
+| 31  | 🐌 snail | 11.30 | ewwwedd | 2024-07-27 23:03:54 |
+| 32  | 🦆 duck | 10.58 | ovrht | 2024-07-27 20:18:28 |
+| 33  | 🧃 beveragebox | 10.21 | virxverok | 2024-08-16 20:28:52 |
+| 34  | 💀 skull | 9.98 | wiazuh | 2024-09-18 18:39:28 |
+| 35  | 🩲 briefs | 8.83 | alizuh | 2024-08-20 13:44:36 |
+| 36  | 👒 womanshat | 8.81 | ovrht | 2024-01-29 16:37:24 |
+| 37  | 🕶️ darksunglasses | 7.24 | wizzyy6 | 2024-08-14 21:11:41 |
+| 38  | 🐸 frog | 6.72 | ovrhtcd | 2023-12-18 18:10:26 |
+| 39  | 🧊 icecube | 6.55 | dan1lew | 2024-01-08 17:21:33 |
+| 40  | 🐧 penguin | 5.14 | ovrhtcd | 2024-01-01 19:28:15 |
+| 41  | 🪝 hook | 4.50 | nightbot | 2023-10-12 21:25:06 |
+| 42  | 🎏 lure | 4.34 | alenakuz03 | 2024-01-07 18:33:44 |
+| 43  | 🐚 shell | 3.89 | pelmee44ka | 2024-08-29 16:00:49 |
+| 44  | 🦎 lizard | 3.36 | nightbot | 2023-11-07 21:36:05 |
+| 45  | 🪱 worm | 2.86 | nightbot | 2023-10-13 05:00:10 |
+| 46  | 🍄 mushroom | 2.61 | wizzyy6 | 2024-03-16 16:34:10 |
+| 47  | 🧦 socks | 1.98 | alenakuz03 | 2023-11-04 10:36:42 |
+| 48  | 🩰 balletshoes | 1.82 | focfee | 2024-07-25 18:37:46 |
+| 49  | 🩴 thongsandal | 1.60 | alizuh | 2024-08-16 17:44:51 |
+| 50  | 👢 boot | 1.59 | diloindys | 2024-02-05 12:26:50 |
+| 51  | 🍬 candy | 1.57 | ovrht | 2023-11-28 14:44:35 |
+| 52  | 🥫 cannedfood | 1.52 | ovrht | 2024-01-18 15:30:26 |
+| 53  | 🥪 sandwich | 1.47 | nightbot | 2023-11-06 14:40:07 |
+| 54  | 👑 crown | 1.16 | alenakuz03 | 2023-10-19 12:36:49 |
+| 55  | 🌿 seaweed | 0.90 | offwhiteairforc3_ | 2024-09-13 15:09:05 |
+| 56  | 🧤 gloves | 0.67 | arct1ca_ | 2024-02-28 18:49:06 |
+| 57  | 🧣 scarf | 0.65 | ovrhtcd | 2023-12-24 19:25:38 |
+| 58  | 👟 athleticshoe | 0.22 | ovrht | 2023-10-23 20:40:23 |
+| 59  | 🎰 slotmachine | 0.00 | ovrht | 2023-11-28 14:38:57 |
 
-_Last updated at 2024-10-06 09:36:09 UTC_
+_If there are multiple records with the same weight, only the player who caught it first is displayed_
+
+_Last updated at 2025-03-02 12:50:07 UTC_

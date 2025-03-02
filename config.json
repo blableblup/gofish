@@ -59,8 +59,12 @@
 					"logs_added": "2024/12"
 				}
 			],
+			"fishweek_limit": 10,
+			"weight_limit": 50,
+			"totalcount_limit": 10,
+			"unique_limit": 10,
 			"checkfdata": true,
-			"board_enabled": false
+			"board_enabled": true
 		},
 		"avrwhy": {
 			"twitchid": "153293873",
@@ -117,8 +121,12 @@
 					"logs_added": "2025/1"
 				}
 			],
+			"fishweek_limit": 10,
+			"weight_limit": 50,
+			"totalcount_limit": 10,
+			"unique_limit": 10,
 			"checkfdata": true,
-			"board_enabled": false
+			"board_enabled": true
 		},
 		"d_egree": {
 			"twitchid": "56703747",
@@ -132,8 +140,12 @@
 					"logs_added": "2024/5"
 				}
 			],
+			"fishweek_limit": 10,
+			"weight_limit": 50,
+			"totalcount_limit": 10,
+			"unique_limit": 10,
 			"checkfdata": true,
-			"board_enabled": false
+			"board_enabled": true
 		},
 		"default": {
 			"fishweek_limit": 20,
@@ -228,8 +240,12 @@
 					"logs_added": "2024/12"
 				}
 			],
+			"fishweek_limit": 10,
+			"weight_limit": 50,
+			"totalcount_limit": 10,
+			"unique_limit": 10,
 			"checkfdata": true,
-			"board_enabled": false
+			"board_enabled": true
 		},
 		"julialuxel": {
 			"twitchid": "173685614",
@@ -331,9 +347,9 @@
 			"fishweek_limit": 10,
 			"weight_limit": 50,
 			"totalcount_limit": 10,
-			"unique_limit": 20,
+			"unique_limit": 10,
 			"checkfdata": true,
-			"board_enabled": false
+			"board_enabled": true
 		},
 		"paras220": {
 			"twitchid": "32275275",
@@ -476,8 +492,12 @@
 					"logs_added": "2024/8"
 				}
 			],
+			"fishweek_limit": 10,
+			"weight_limit": 50,
+			"totalcount_limit": 10,
+			"unique_limit": 10,
 			"checkfdata": true,
-			"board_enabled": false
+			"board_enabled": true
 		},
 		"tipicogato": {
 			"twitchid": "550816449",
