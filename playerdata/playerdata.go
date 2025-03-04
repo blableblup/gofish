@@ -220,8 +220,10 @@ func FindAllThePossiblePlayers(pool *pgxpool.Pool, player string, firstFishDate 
 		}
 
 	} else {
-		// Need to check if the players last catch was more than six months away to make sure that its still the same players
-		// because twitch names can be reused six months after someone renamed
+		// If all the possible players last catch was more than 6 months away and the twitchids are different from the current player
+		// add the player as a new entry (the player took a name which was used by other players before)
+		// if the player isnt new, return all the possible players and go over them in data
+		playerisnew := true
 		for _, possiblePlayer := range possiblePlayers {
 			var months, years int
 			err := pool.QueryRow(context.Background(),
@@ -236,8 +238,7 @@ func FindAllThePossiblePlayers(pool *pgxpool.Pool, player string, firstFishDate 
 				return []PossiblePlayer{}, err
 			}
 
-			// this has to be negative
-			if months < -5 || years < 0 {
+			if months < -6 || years < 0 {
 				// check the twitchid of the name
 				apiID, err = GetTwitchID(player)
 				if err != nil && !errors.Is(err, ErrNoPlayerFound) {
@@ -247,39 +248,42 @@ func FindAllThePossiblePlayers(pool *pgxpool.Pool, player string, firstFishDate 
 					return []PossiblePlayer{}, err
 				}
 
-				// the player has to be new if the twitchids are different
-				if possiblePlayer.TwitchID.Int64 != int64(apiID) {
+				if possiblePlayer.TwitchID.Int64 == int64(apiID) {
 
-					// only add them as a new player if there is no other possible player
-					if len(possiblePlayers) == 1 {
-						playerID, err := AddNewPlayer(apiID, player, firstFishDate, firstFishChat, pool)
-						if err != nil {
-							logs.Logs().Error().Err(err).
-								Str("Date", firstFishDate.Format(time.RFC3339)).
-								Str("Chat", firstFishChat).
-								Int("TwitchID", apiID).
-								Str("Player", player).
-								Msg("Error adding player to playerdata")
-							return []PossiblePlayer{}, err
-						}
+					playerisnew = false
+					break
+				}
+			} else {
+				playerisnew = false
+				break
+			}
+		}
+		if playerisnew {
+			playerID, err := AddNewPlayer(apiID, player, firstFishDate, firstFishChat, pool)
+			if err != nil {
+				logs.Logs().Error().Err(err).
+					Str("Date", firstFishDate.Format(time.RFC3339)).
+					Str("Chat", firstFishChat).
+					Int("TwitchID", apiID).
+					Str("Player", player).
+					Msg("Error adding player to playerdata")
+				return []PossiblePlayer{}, err
+			}
 
-						newplayer := PossiblePlayer{
-							FirstSeen: firstFishDate,
-							PlayerID:  playerID,
-							Player:    player,
-						}
+			newplayer := PossiblePlayer{
+				FirstSeen: firstFishDate,
+				PlayerID:  playerID,
+				Player:    player,
+			}
 
-						newplayer.TwitchID.Int64 = int64(apiID)
+			newplayer.TwitchID.Int64 = int64(apiID)
 
-						// return only this new player
-						var newpossibleplayer []PossiblePlayer
+			// return only this new player
+			var newpossibleplayer []PossiblePlayer
 
-						newpossibleplayer = append(newpossibleplayer, newplayer)
+			newpossibleplayer = append(newpossibleplayer, newplayer)
 
-						return newpossibleplayer, nil
-					}
-				} // else it has to be another of the possible players
-			} // else do nothing i think ?
+			return newpossibleplayer, nil
 		}
 	}
 
