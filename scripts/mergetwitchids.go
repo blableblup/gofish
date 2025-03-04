@@ -130,6 +130,19 @@ func MergePlayers(pool *pgxpool.Pool) {
 				return
 			}
 
+			_, err = tx.Exec(context.Background(), `
+			update bag
+			SET playerid = $1
+			WHERE player = $2`, playerid, name)
+			if err != nil {
+				logs.Logs().Error().Err(err).
+					Str("OldName", name).
+					Str("CurrentName", currentname).
+					Int("TwitchID", twitchid).
+					Msg("Error updating bag ids for old player")
+				return
+			}
+
 			for chatName, chat := range config.Chat {
 				if !chat.CheckFData {
 					// No need to always log this
@@ -177,6 +190,18 @@ func MergePlayers(pool *pgxpool.Pool) {
 				Str("CurrentName", currentname).
 				Int("TwitchID", twitchid).
 				Msg("Error updating fish ids for current player")
+			return
+		}
+
+		_, err = tx.Exec(context.Background(), `
+		update bag
+		SET playerid = $1
+		WHERE player = $2`, playerid, currentname)
+		if err != nil {
+			logs.Logs().Error().Err(err).
+				Str("CurrentName", currentname).
+				Int("TwitchID", twitchid).
+				Msg("Error updating bag ids for current player")
 			return
 		}
 
