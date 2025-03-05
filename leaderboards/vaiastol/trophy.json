@@ -2,10 +2,10 @@
 	"1135": {
 		"player": "vaiastol",
 		"playerid": 1135,
-		"weight": 115.5,
+		"weight": 119.5,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 37,
-		"chatid": 3,
+		"fishid": 38,
+		"chatid": 4,
 		"maxcount": 3,
 		"rank": 1
 	},
@@ -21,20 +21,21 @@
 	"1310": {
 		"player": "hahppyy",
 		"playerid": 1310,
-		"weight": 42.5,
+		"weight": 47,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 8,
-		"chatid": 15,
-		"maxcount": 7,
+		"fishid": 9,
+		"chatid": 16,
+		"maxcount": 8,
 		"rank": 2
 	},
 	"135": {
 		"player": "leanmeister",
 		"playerid": 135,
-		"weight": 9,
+		"weight": 10.5,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 1,
-		"chatid": 6,
+		"chatid": 7,
+		"maxcount": 1,
 		"rank": 5
 	},
 	"1353": {

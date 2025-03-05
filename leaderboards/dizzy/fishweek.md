@@ -1,10 +1,10 @@
 ### Most fish caught in a single week in tournaments in dizzy's chat
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
-| 1 🥇  | buhl00n  | 133 (+15) |
-| 2 🥈  | iam_haunt_  | 96 |
-| 3 🥉 ⬆ | gofishrigged  | 93 (+12) |
-| 4 ⬇ | lolspers  | 83 |
+| 1 🥇  | buhl00n  | 133 |
+| 2 🥈  | iam_haunt  | 96 |
+| 3 🥉  | gofishrigged  | 93 |
+| 4  | lolspers  | 83 |
 | 5  | ben_vincent  | 74 |
 | 6  | spanmer  | 71 |
 | 7  | aceleju  | 64 |
@@ -27,4 +27,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2025-01-01 11:08:04 UTC_
+_Last updated at 2025-03-05 10:33:26 UTC_
