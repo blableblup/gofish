@@ -22,7 +22,7 @@ func Leaderboards(pool *pgxpool.Pool, leaderboards string, chatNames string, dat
 	// If "date2" is 2023-01-01 it will only count data after that date
 	// By default, "date" is the next day. So that it considers all data
 	if date == "" {
-		currentDate := time.Now()
+		currentDate := time.Now().UTC()
 		nextDay := currentDate.AddDate(0, 0, 1)
 		date = nextDay.Format("2006-01-02")
 	}
@@ -59,75 +59,75 @@ func Leaderboards(pool *pgxpool.Pool, leaderboards string, chatNames string, dat
 		Limit:    limit,
 	}
 
-	// Rare, stats, shiny and averageweight are the only boards which are "global only"
-	// They do not go to processLeaderboard, instead they directly go to their function
-	// And they do not need a chat specified. Could change it so that chat needs to be global ?
+	// map of all the boards
+	// averageweight, rare, stats, shiny are global only, dont need a chat specified, so if there is, they get skipped
+	// i do -chats all -board chatboards and then -chats global -board globalboards on sunday, and -chats all -board tourney for tournaments later
+	existingboards := map[string]LeaderboardConfig{
+		"fishweek":      {hasGlobal: false, GlobalOnly: false, Tournament: true, Function: processFishweek},
+		"trophy":        {hasGlobal: false, GlobalOnly: false, Tournament: true, Function: processTrophy},
+		"records":       {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processChannelRecords},
+		"unique":        {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processUniqueFish},
+		"typesmall":     {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processTypeSmall},
+		"type":          {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processType},
+		"count":         {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processCount},
+		"weight":        {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processWeight},
+		"weight2":       {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processWeight2},
+		"averageweight": {hasGlobal: true, GlobalOnly: true, Tournament: false, Function: processAverageWeight},
+		"rare":          {hasGlobal: true, GlobalOnly: true, Tournament: false, Function: RunCountFishTypesGlobal},
+		"stats":         {hasGlobal: true, GlobalOnly: true, Tournament: false, Function: RunChatStatsGlobal},
+		"shiny":         {hasGlobal: true, GlobalOnly: true, Tournament: false, Function: processShinies}}
+
 	for _, leaderboard := range leaderboardList {
-		params.LeaderboardType = leaderboard
+
 		switch leaderboard {
-		case "records":
-			processLeaderboard(config, params, processChannelRecords)
-		case "unique":
-			processLeaderboard(config, params, processUniqueFish)
-		case "typesmall":
-			processLeaderboard(config, params, processTypeSmall)
-		case "fishweek":
-			processLeaderboard(config, params, processFishweek)
-		case "trophy":
-			processLeaderboard(config, params, processTrophy)
-		case "weight2":
-			processLeaderboard(config, params, processWeight2)
-		case "weight":
-			processLeaderboard(config, params, processWeight)
-		case "count":
-			processLeaderboard(config, params, processCount)
-		case "type":
-			processLeaderboard(config, params, processType)
-		case "averageweight":
-			processAverageWeight(params)
-		case "rare":
-			RunCountFishTypesGlobal(params)
-		case "stats":
-			RunChatStatsGlobal(params)
-		case "shiny":
-			processShinies(params)
+		default:
+			board, ok := existingboards[leaderboard]
+			if !ok {
+				logs.Logs().Warn().
+					Str("Board", leaderboard).
+					Msg("Board doesnt exist")
+				continue
+			}
+			processLeaderboard(config, params, leaderboard, board)
+
+		case "tourney":
+			for boardname, board := range existingboards {
+				if board.Tournament {
+					processLeaderboard(config, params, boardname, board)
+				}
+			}
+
+		case "nontourney":
+			for boardname, board := range existingboards {
+				if !board.Tournament {
+					processLeaderboard(config, params, boardname, board)
+				}
+			}
+
+		case "chatboards":
+			for boardname, board := range existingboards {
+				if !board.GlobalOnly && !board.Tournament {
+					processLeaderboard(config, params, boardname, board)
+				}
+			}
+
+		case "globalboards":
+			for boardname, board := range existingboards {
+				if board.GlobalOnly {
+					processLeaderboard(config, params, boardname, board)
+				}
+			}
 
 		case "all":
-			params.LeaderboardType = "shiny"
-			processShinies(params)
-			params.LeaderboardType = "stats"
-			RunChatStatsGlobal(params)
-			params.LeaderboardType = "averageweight"
-			processAverageWeight(params)
-			params.LeaderboardType = "rare"
-			RunCountFishTypesGlobal(params)
-			params.LeaderboardType = "type"
-			processLeaderboard(config, params, processType)
-			params.LeaderboardType = "count"
-			processLeaderboard(config, params, processCount)
-			params.LeaderboardType = "weight"
-			processLeaderboard(config, params, processWeight)
-			params.LeaderboardType = "weight2"
-			processLeaderboard(config, params, processWeight2)
-			params.LeaderboardType = "trophy"
-			processLeaderboard(config, params, processTrophy)
-			params.LeaderboardType = "fishweek"
-			processLeaderboard(config, params, processFishweek)
-			params.LeaderboardType = "typesmall"
-			processLeaderboard(config, params, processTypeSmall)
-			params.LeaderboardType = "unique"
-			processLeaderboard(config, params, processUniqueFish)
-			params.LeaderboardType = "records"
-			processLeaderboard(config, params, processChannelRecords)
-		default:
-			logs.Logs().Info().
-				Str("Leaderboard", leaderboard).
-				Msg("＞︿＜ Invalid leaderboard specified")
+			for boardname, board := range existingboards {
+
+				processLeaderboard(config, params, boardname, board)
+			}
 		}
 	}
 }
 
-func processLeaderboard(config utils.Config, params LeaderboardParams, processFunc func(LeaderboardParams)) {
+func processLeaderboard(config utils.Config, params LeaderboardParams, leaderboard string, board LeaderboardConfig) {
 
 	specifiedchatNames := strings.Split(params.ChatName, ",")
 	for _, chatName := range specifiedchatNames {
@@ -143,25 +143,42 @@ func processLeaderboard(config utils.Config, params LeaderboardParams, processFu
 
 				logs.Logs().Info().
 					Str("Chat", chatName).
-					Str("Board", params.LeaderboardType).
+					Str("Board", leaderboard).
 					Msg("Checking leaderboard for chat")
 
+				params.LeaderboardType = leaderboard
 				params.ChatName = chatName
 				params.Chat = chat
 
+				processFunc := board.Function
+
 				if chatName != "global" {
+					if board.GlobalOnly {
+						logs.Logs().Warn().
+							Str("Board", leaderboard).
+							Str("Chat", chatName).
+							Msg("Board is global only !")
+						continue
+					}
 					params.Global = false
 					processFunc(params)
 				} else {
-					params.Global = true
-					processGlobalLeaderboard(params)
+					if board.hasGlobal {
+						params.Global = true
+						processFunc(params)
+					} else {
+						logs.Logs().Warn().
+							Str("Board", leaderboard).
+							Msg("Board doesnt have global variant !")
+						continue
+					}
 				}
 			}
 
 		case "":
 
 			logs.Logs().Warn().
-				Msg("Please specify chat names")
+				Msg("Missing -chats !")
 
 		default:
 
@@ -184,54 +201,49 @@ func processLeaderboard(config utils.Config, params LeaderboardParams, processFu
 
 			logs.Logs().Info().
 				Str("Chat", chatName).
-				Str("Board", params.LeaderboardType).
+				Str("Board", leaderboard).
 				Msg("Checking leaderboard for chat")
 
+			params.LeaderboardType = leaderboard
 			params.ChatName = chatName
 			params.Chat = chat
 
+			processFunc := board.Function
+
 			if chatName != "global" {
+				if board.GlobalOnly {
+					logs.Logs().Warn().
+						Str("Board", leaderboard).
+						Str("Chat", chatName).
+						Msg("Board is global only !")
+					continue
+				}
 				params.Global = false
 				processFunc(params)
 			} else {
-				params.Global = true
-				processGlobalLeaderboard(params)
+				if board.hasGlobal {
+					params.Global = true
+					processFunc(params)
+				} else {
+					logs.Logs().Warn().
+						Str("Board", leaderboard).
+						Msg("Board doesnt have global variant !")
+					continue
+				}
 			}
 		}
 	}
 }
 
-func processGlobalLeaderboard(params LeaderboardParams) {
-
-	switch params.LeaderboardType {
-	case "weight":
-		params.LeaderboardType += "global"
-		processWeight(params)
-	case "weight2":
-		params.LeaderboardType += "global"
-		processWeight2(params)
-	case "count":
-		params.LeaderboardType += "global"
-		processCount(params)
-	case "type":
-		params.LeaderboardType += "global"
-		processType(params)
-	case "typesmall":
-		params.LeaderboardType += "global"
-		processTypeSmall(params)
-	case "unique":
-		params.LeaderboardType += "global"
-		processUniqueFish(params)
-	case "records":
-		params.LeaderboardType += "global"
-		processChannelRecords(params)
-	default:
-		logs.Logs().Warn().
-			Str("Board", params.LeaderboardType).
-			Msg("（︶^︶） There is no global leaderboard for that board")
-	}
+type LeaderboardConfig struct {
+	Name       string
+	hasGlobal  bool
+	GlobalOnly bool
+	Tournament bool
+	Function   func(LeaderboardParams)
 }
 
+// This is holding the flags (like -title and -path...)
 type LeaderboardParams struct {
 	Chat            utils.ChatInfo
 	Pool            *pgxpool.Pool
