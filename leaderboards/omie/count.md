@@ -1,10 +1,10 @@
 ### Most fish caught in omie's chat
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
-| 1 🥇  | v6r_  | 1545 (+69) |
-| 2 🥈  | ritaaww  | 1390 (+19) |
-| 3 🥉  | mangos4u  | 538 (+72) |
-| 4  | solahh__  | 355 (+4) |
+| 1 🥇  | v6r_  | 1624 (+79) |
+| 2 🥈  | ritaaww  | 1416 (+26) |
+| 3 🥉  | mangos4u  | 591 (+53) |
+| 4  | solahh__  | 377 (+22) |
 | 5  | aliveleader  | 119 |
 | 6  | gofishgamer  | 87 |
 | 7  | sykelle  | 76 |
@@ -17,4 +17,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-03-02 12:02:45 UTC_
+_Last updated at 2025-03-09 11:14:39 UTC_

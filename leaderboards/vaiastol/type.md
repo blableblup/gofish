@@ -11,7 +11,7 @@
 | 8  | 🐙 octopus | 160.48 | divra__ | 2024-11-01 17:07:43 |
 | 9  | 🐋 whale2 | 148.82 | hahppyy | 2024-11-04 16:24:39 |
 | 10  | 🐢 turtle | 148.29 | leastsussyimposter | 2024-09-29 20:58:46 |
-| 11  | 🐊 crocodile | 145.86 (+0.28) | nicestnarwhal | 2025-03-01 13:38:53 |
+| 11  | 🐊 crocodile | 145.86 | nicestnarwhal | 2025-03-01 13:38:53 |
 | 12  | 🦭 seal | 133.82 | vaiastol | 2025-02-01 09:46:57 |
 | 13  | 🦪 oyster | 125.98 | julialuxel | 2024-12-28 19:05:43 |
 | 14  | 🐬 dolphin | 104.56 | leastsussyimposter | 2024-11-21 16:03:43 |
@@ -31,9 +31,9 @@
 | 28  | 🥒 cucumber | 31.74 | hahppyy | 2024-08-09 18:09:50 |
 | 29  | 🐡 blowfish | 31.46 | yoimlee | 2024-08-30 16:54:37 |
 | 30  | 🧊 icecube | 26.42 | vaiastol | 2024-12-27 04:13:21 |
-| 31 ⬆ | 🪳 cockroach | 25.91 (+0.30) | nicestnarwhal | 2025-02-23 14:10:51 |
-| 32 ⬇ | 🧽 sponge | 25.67 | milesdotcom | 2024-08-25 19:52:32 |
-| 33  | 🕷️ spider | 23.39 | bron8i | 2025-01-18 20:55:49 |
+| 31  | 🪳 cockroach | 25.91 | nicestnarwhal | 2025-02-23 14:10:51 |
+| 32  | 🧽 sponge | 25.67 | milesdotcom | 2024-08-25 19:52:32 |
+| 33  | 🕷️ spider | 23.39 | beebo8i | 2025-01-18 20:55:49 |
 | 34  | 🦠 plankton | 21.87 | vaiastol | 2025-02-16 12:59:13 |
 | 35  | 🍄‍🟫 brownmushroom | 21.32 | vaiastol | 2025-01-05 18:34:29 |
 | 36  | 🐠 tropicalfish | 20.39 | vaiastol | 2024-09-15 00:25:16 |
@@ -45,10 +45,10 @@
 | 42  | 🪀 bobber | 14.41 | leastsussyimposter | 2024-12-22 14:08:31 |
 | 43  | 🧭 compass | 12.25 | vaiastol | 2024-12-25 03:46:12 |
 | 44  | 🐌 snail | 11.90 | leastsussyimposter | 2024-08-28 17:02:48 |
-| 45 ⬆ | 🧸 teddybear | 11.77 (+1.11) | eelacy | 2025-02-28 20:45:50 |
-| 46 ⬇ | 🪺 nestwitheggs | 10.98 | hahppyy | 2024-09-26 18:59:03 |
-| 47 ⬇ | 🪱 worm | 10.90 | divra__ | 2025-01-25 21:04:34 |
-| 48 ⬇ | 📱 iphone | 10.66 | pengeg | 2024-12-24 00:32:17 |
+| 45  | 🧸 teddybear | 11.77 | eelacy | 2025-02-28 20:45:50 |
+| 46  | 🪺 nestwitheggs | 10.98 | hahppyy | 2024-09-26 18:59:03 |
+| 47  | 🪱 worm | 10.90 | divra__ | 2025-01-25 21:04:34 |
+| 48  | 📱 iphone | 10.66 | pengeg | 2024-12-24 00:32:17 |
 | 49  | 🪹 emptynest | 10.45 | bubinga | 2024-10-17 21:08:36 |
 | 50  | 🪵 log | 10.26 | bubinga | 2024-11-05 20:58:54 |
 | 51  | 🎱 8ball | 9.50 | leastsussyimposter | 2025-01-06 22:09:55 |
@@ -71,7 +71,7 @@
 | 68  | 🐦 bird | 2.29 | vaiastol | 2025-01-17 12:13:23 |
 | 69  | 👢 boot | 1.97 | yoimlee | 2024-11-04 14:41:11 |
 | 70  | 🧦 socks | 1.95 | divra__ | 2024-10-16 23:07:48 |
-| 71  | 🩰 balletshoes | 1.89 | bron8i | 2025-01-01 02:12:26 |
+| 71  | 🩰 balletshoes | 1.89 | beebo8i | 2025-01-01 02:12:26 |
 | 72  | 🩴 thongsandal | 1.87 | vaiastol | 2024-07-31 16:40:54 |
 | 73  | ⛸️ iceskate | 1.84 | hahppyy | 2025-01-12 19:57:15 |
 | 74  | 👟 athleticshoe | 1.83 | hahppyy | 2024-10-10 10:31:24 |
@@ -79,8 +79,8 @@
 | 76  | 🧞‍♂ malegenie | 1.44 | hahppyy | 2024-10-31 05:57:15 |
 | 77  | 🦢 swan | 1.14 | vaiastol | 2024-10-28 23:35:23 |
 | 78  | 🪚 carpentrysaw | 0.97 | hahppyy | 2025-01-05 13:24:59 |
-| 79  | 🧤 gloves | 0.95 | hahppyy | 2024-11-02 16:18:30 |
-| 80  | 🌿 seaweed | 0.91 | hahppyy | 2024-07-31 22:43:54 |
+| 78 ⬆ | 🌿 seaweed | 0.97 (+0.06) | tiaguitos97 | 2025-03-05 00:48:45 |
+| 80 ⬇ | 🧤 gloves | 0.95 | hahppyy | 2024-11-02 16:18:30 |
 | 81  | 🐿️ squirrel | 0.90 | creepycode | 2024-12-04 03:46:23 |
 | 82  | 🪶 feather | 0.88 | milesdotcom | 2024-10-21 19:36:21 |
 | 83  | 🍁 mapleleaf | 0.84 | divra__ | 2024-09-27 22:38:30 |
@@ -88,4 +88,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-03-02 12:02:09 UTC_
+_Last updated at 2025-03-09 11:14:19 UTC_

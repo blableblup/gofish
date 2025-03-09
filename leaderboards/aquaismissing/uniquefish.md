@@ -4,17 +4,18 @@
 | 1 🥇  | yyaaaaaaaas  | 17 |
 | 2 🥈  | likedom_  | 16 |
 | 2 🥈  | rustezzz  | 16 |
-| 4  | kaitechpl  | 14 |
+| 4  | kaitechpl  | 15 (+1) |
 | 5  | aquaismissing  | 13 |
 | 5  | poggu_  | 13 |
 | 7  | aistyrax3  | 11 |
 | 7  | kaczer1_  | 11 |
-| 9 🆕 | ggmagician  | 10 |
+| 9 🆕 | dom1torii  | 10 |
+| 9  | ggmagician  | 10 |
 | 9  | velantix*  | 10 |
-| 9 🆕 | vigilworld*  | 10 |
+| 9  | vigilworld*  | 10 |
 
 _This does not include fish seen through 🎁 gifts or through releasing to another player during the winter events!_
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2025-03-02 12:57:09 UTC_
+_Last updated at 2025-03-09 11:14:40 UTC_

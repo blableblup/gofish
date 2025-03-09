@@ -40,7 +40,7 @@
 | 37  | 🥒 cucumber | 31.72 | kishma9 | 2023-06-26 12:35:30 |
 | 38  | 🧽 sponge | 29.73 | dayzedinndaydreams | 2023-08-24 08:42:37 |
 | 39  | 🧊 icecube | 29.34 | dougiefresh_83 | 2024-12-31 21:24:39 |
-| 40  | 🪳 cockroach | 26.00 | miiiiisho | 2024-02-14 15:47:29 |
+| 40  | 🪳 cockroach | 26.79 (+0.79) | fishingalt | 2025-03-02 15:50:28 |
 | 41  | 🎰 slotmachine | 23.11 | qu4ttromila | 2023-09-20 09:31:25 |
 | 42  | 🦠 plankton | 22.00 | osnyatsky | 2024-01-03 09:00:25 |
 | 43  | 🐠 tropicalfish | 21.99 | eaeac | 2024-12-10 01:42:43 |
@@ -56,9 +56,9 @@
 | 53  | 🐌 snail | 14.24 | yliathim* | 2022-12-05 13:25:16 |
 | 54  | 🎱 8ball | 12.85 | qu4ttromila | 2024-03-28 16:36:34 |
 | 55  | 🕶️ darksunglasses | 12.51 | dayzedinndaydreams | 2024-07-26 16:49:35 |
-| 56 ⬆ | 🧸 teddybear | 11.98 (+0.15) | destin357 | 2025-02-26 03:30:12 |
-| 57 ⬇ | 🐦 bird | 11.96 | julialuxel | 2024-04-25 00:21:16 |
-| 58 ⬇ | 👒 womanshat | 11.85 | sussy_amonge | 2023-08-23 21:47:21 |
+| 56  | 🧸 teddybear | 11.98 | destin357 | 2025-02-26 03:30:12 |
+| 57  | 🐦 bird | 11.96 | julialuxel | 2024-04-25 00:21:16 |
+| 58  | 👒 womanshat | 11.85 | sussy_amonge | 2023-08-23 21:47:21 |
 | 59  | 🧃 beveragebox | 11.62 | derinturitierutz | 2024-08-04 15:51:12 |
 | 60  | 🪹 emptynest | 10.96 | liiiiiiiiiilly | 2024-09-29 00:03:10 |
 | 61  | 🧥 coat | 10.92 | miiiiisho | 2025-02-02 14:27:49 |
@@ -100,4 +100,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-03-02 12:02:07 UTC_
+_Last updated at 2025-03-09 11:14:22 UTC_

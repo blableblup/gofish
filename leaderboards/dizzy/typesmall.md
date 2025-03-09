@@ -18,7 +18,7 @@
 | 15  | 🗡️ dagger | 1.91 | exo9 | 2024-10-22 03:57:43 |
 | 16  | 👒 womanshat | 1.60 | ben_vincent | 2024-12-15 18:54:20 |
 | 17  | 🧃 beveragebox | 1.46 | sugur | 2024-10-23 06:10:52 |
-| 17  | 🩲 briefs | 1.46 | iam_haunt_ | 2024-10-23 16:26:54 |
+| 17  | 🩲 briefs | 1.46 | iam_haunt | 2024-10-23 16:26:54 |
 | 19  | 🦕 sauropod | 1.40 | rougep1rate | 2024-12-09 17:26:26 |
 | 20  | 🦆 duck | 1.35 | respirate_ | 2024-10-21 01:04:03 |
 | 21  | 🐧 penguin | 1.25 | lolspers | 2024-12-27 16:22:53 |
@@ -26,10 +26,10 @@
 | 23  | 🎱 8ball | 1.18 | exo9 | 2024-12-21 03:14:13 |
 | 24  | 🪨 rock | 1.13 | tairaaaaa | 2024-11-08 06:26:30 |
 | 25  | 🍄‍🟫 brownmushroom | 0.85 | buhl00n | 2025-02-17 02:04:02 |
-| 26 ⬆ | 📱 iphone | 0.79 | tairaaaaa | 2024-12-21 07:28:23 |
-| 27 ⬆ | 🐬 dolphin | 0.70 | gimmeschmoneys | 2024-10-24 22:43:17 |
-| 28 ⬆ | 🥒 cucumber | 0.68 | bomster | 2024-10-23 14:47:11 |
-| 29 ⬇ | 🪚 carpentrysaw | 0.60 (-0.23) | gimmeschmoneys | 2025-02-26 01:33:52 |
+| 26  | 📱 iphone | 0.79 | tairaaaaa | 2024-12-21 07:28:23 |
+| 27  | 🐬 dolphin | 0.70 | gimmeschmoneys | 2024-10-24 22:43:17 |
+| 28  | 🥒 cucumber | 0.68 | bomster | 2024-10-23 14:47:11 |
+| 29  | 🪚 carpentrysaw | 0.60 | gimmeschmoneys | 2025-02-26 01:33:52 |
 | 30  | 🐋 whale2 | 0.57 | simplydrack | 2024-11-13 17:30:44 |
 | 31  | 🧵 wireline | 0.55 | lolspers | 2024-12-23 11:44:05 |
 | 32  | ☘️ shamrock | 0.54 | ofaisalz | 2024-12-21 09:45:23 |
@@ -54,7 +54,7 @@
 | 51  | 🥪 sandwich | 0.15 | kronos43 | 2024-10-31 23:27:47 |
 | 52  | 🦞 lobster | 0.14 | buhl00n | 2024-12-27 17:24:35 |
 | 52  | 🐠 tropicalfish | 0.14 | ben_vincent | 2024-11-16 17:32:54 |
-| 54  | 🦎 lizard | 0.13 | iam_haunt_ | 2024-12-21 15:22:40 |
+| 54  | 🦎 lizard | 0.13 | iam_haunt | 2024-12-21 15:22:40 |
 | 54  | 🪱 worm | 0.13 | ben_vincent | 2025-01-13 01:28:45 |
 | 56  | 🐢 turtle | 0.12 | konsminator | 2024-11-19 19:10:21 |
 | 57  | ⛸️ iceskate | 0.11 | buhl00n | 2024-12-27 09:40:43 |
@@ -86,4 +86,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-03-02 12:02:29 UTC_
+_Last updated at 2025-03-09 11:15:09 UTC_

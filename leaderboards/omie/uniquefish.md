@@ -1,9 +1,9 @@
 ### Players who have seen the most fish in omie's chat
 | Rank | Player | Fish Seen |
 |------|--------|-----------|
-| 1 🥇  | ritaaww  | 68 |
-| 1 🥇  | v6r_  | 68 |
-| 3 🥉  | mangos4u  | 55 (+2) |
+| 1 🥇  | v6r_  | 69 (+1) |
+| 2 🥈 ⬇ | ritaaww  | 68 |
+| 3 🥉  | mangos4u  | 55 |
 | 4  | solahh__  | 51 |
 | 5  | aliveleader  | 33 |
 | 6  | sykelle  | 31 |
@@ -14,4 +14,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2025-03-02 12:01:55 UTC_
+_Last updated at 2025-03-09 11:14:40 UTC_

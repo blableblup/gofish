@@ -38,7 +38,7 @@
 | 35  | copperx9  | 343 |
 | 36  | euxoa  | 293 |
 | 37  | bluberry  | 289 |
-| 38  | theng  | 286 |
+| 38  | eng0_  | 286 |
 | 39  | onarrrrrrrr  | 281 |
 | 40  | kaspu222  | 278 |
 | 41  | qxxick_  | 269 |
@@ -103,4 +103,4 @@
 
 _Only showing fishers who caught >= 100 fish_
 
-_Last updated at 2025-02-16 10:52:34 UTC_
+_Last updated at 2025-03-09 11:14:39 UTC_

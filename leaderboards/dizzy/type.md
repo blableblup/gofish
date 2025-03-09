@@ -13,7 +13,7 @@
 | 10  | 🐊 crocodile | 148.84 | buhl00n | 2024-12-14 08:59:36 |
 | 11  | 🦭 seal | 131.88 | wisteraeia | 2025-02-18 07:56:23 |
 | 12  | 🦪 oyster | 120.17 | buhl00n | 2024-12-26 09:23:36 |
-| 13  | 🐬 dolphin | 111.47 | iam_haunt_ | 2024-11-04 17:15:30 |
+| 13  | 🐬 dolphin | 111.47 | iam_haunt | 2024-11-04 17:15:30 |
 | 14  | 🐢 turtle | 99.60 | notnownico | 2025-02-01 14:22:39 |
 | 15  | 🧟 zombie | 92.30 | ofaisalz | 2024-12-16 10:40:05 |
 | 16  | 🦞 lobster | 92.11 | spanmer | 2024-10-22 00:09:41 |
@@ -23,8 +23,8 @@
 | 20  | 🧞‍♂ malegenie | 60.36 | tairaaaaa | 2024-10-31 12:12:01 |
 | 21  | 🛒 shoppingcart | 56.52 | buhl00n | 2025-01-02 17:13:58 |
 | 22  | 🗡️ dagger | 47.93 | juhjimmy | 2024-10-22 01:44:12 |
-| 23  | 🐸 frog | 42.05 | exo9 | 2024-10-29 22:15:02 |
-| 24  | 🪨 rock | 41.72 | vagdi | 2024-10-30 12:59:44 |
+| 23 ⬆ | 🪨 rock | 45.46 (+3.74) | fvkdylan | 2025-03-08 02:55:57 |
+| 24 ⬇ | 🐸 frog | 42.05 | exo9 | 2024-10-29 22:15:02 |
 | 25  | 🐧 penguin | 40.98 | buhl00n | 2024-12-25 06:28:31 |
 | 26  | 🦫 beaver | 37.71 | ofaisalz | 2024-12-22 19:00:44 |
 | 27  | 🦐 shrimp | 32.67 | ben_vincent | 2024-12-04 18:51:05 |
@@ -59,7 +59,7 @@
 | 56  | 🪺 nestwitheggs | 9.75 | notnownico | 2025-01-10 21:07:22 |
 | 57  | 🪹 emptynest | 9.06 | notnownico | 2025-01-17 15:18:36 |
 | 58  | 🧥 coat | 6.78 | gofishrigged | 2025-02-18 01:35:25 |
-| 59  | 🥫 cannedfood | 5.77 | buhl00n | 2025-02-03 23:18:41 |
+| 59  | 🥫 cannedfood | 5.88 (+0.11) | gimmeschmoneys | 2025-03-02 04:38:49 |
 | 60  | 🧵 wireline | 5.62 | sugur | 2024-12-21 00:13:44 |
 | 61  | 🧃 beveragebox | 5.17 | lilzomme | 2024-10-24 20:56:03 |
 | 62  | 🎏 lure | 4.97 | rougep1rate | 2025-02-02 21:36:15 |
@@ -71,14 +71,14 @@
 | 68  | 🥀 wiltedflower | 2.96 | buhl00n | 2024-12-22 13:48:49 |
 | 69  | ☂️ umbrella | 2.64 | notnownico | 2024-12-15 23:09:15 |
 | 70  | 👢 boot | 1.99 | tunacrab | 2024-11-02 22:57:50 |
+| 70 ⬆ | 🧦 socks | 1.99 (+0.01) | maccat1337 | 2025-03-06 19:52:37 |
 | 70  | 🩴 thongsandal | 1.99 | blunterayo | 2024-10-24 20:52:23 |
-| 72  | 🩰 balletshoes | 1.98 | ssenario | 2024-10-31 18:18:21 |
-| 72  | 🧦 socks | 1.98 | buhl00n | 2024-11-28 12:05:33 |
+| 73 ⬇ | 🩰 balletshoes | 1.98 | ssenario | 2024-10-31 18:18:21 |
 | 74  | 👟 athleticshoe | 1.96 | lilhanji | 2024-11-01 17:22:32 |
 | 75  | ⛸️ iceskate | 1.92 | gofishrigged | 2024-12-23 16:00:58 |
 | 76  | 🥪 sandwich | 1.91 | ofaisalz | 2024-11-05 20:26:29 |
 | 77  | 🧤 gloves | 0.99 | spanmer | 2024-11-09 03:05:19 |
-| 78  | 🌿 seaweed | 0.97 | tairaaaaa | 2024-11-27 10:53:24 |
+| 77 ⬆ | 🌿 seaweed | 0.99 (+0.02) | lazybluedeer | 2025-03-03 05:56:17 |
 | 79  | 🍬 candy | 0.93 | spanmer | 2024-11-17 16:32:54 |
 | 80  | 🪶 feather | 0.92 | gofishrigged | 2025-01-30 09:09:36 |
 | 81  | 🪚 carpentrysaw | 0.86 | gimmeschmoneys | 2025-02-01 18:11:04 |
@@ -86,4 +86,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-03-02 12:01:59 UTC_
+_Last updated at 2025-03-09 11:14:14 UTC_

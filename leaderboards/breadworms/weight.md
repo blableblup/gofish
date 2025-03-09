@@ -55,11 +55,12 @@
 | 52  | mitgliederversammlung | 🦕 sauropod | 219.52 | 2024-11-08 15:07:01 |
 | 53  | lazuli672* | 🦈 shark | 215.97 | 2023-07-09 23:11:02 |
 | 54  | gawblemachine | 🦕 sauropod | 214.80 | 2025-01-01 13:21:56 |
-| 55  | realtechnine | 🦕 sauropod | 214.11 | 2023-02-14 20:12:23 |
-| 56  | divra__ | 🐳 whale | 213.23 | 2024-04-16 16:17:28 |
-| 57  | notparasfishalt* | 🐉 dragon | 207.18 | 2023-06-05 03:16:42 |
-| 58  | veggesh | 🦈 shark | 206.22 | 2024-02-25 22:40:19 |
+| 55 🆕 | destin357 | 🦈 shark | 214.15 | 2025-03-07 03:44:50 |
+| 56 ⬇ | realtechnine | 🦕 sauropod | 214.11 | 2023-02-14 20:12:23 |
+| 57 ⬇ | divra__ | 🐳 whale | 213.23 | 2024-04-16 16:17:28 |
+| 58 ⬇ | notparasfishalt* | 🐉 dragon | 207.18 | 2023-06-05 03:16:42 |
+| 59 ⬇ | veggesh | 🦈 shark | 206.22 | 2024-02-25 22:40:19 |
 
 _Only showing fish weighing >= 200 lbs_
 
-_Last updated at 2025-03-02 12:02:41 UTC_
+_Last updated at 2025-03-09 11:15:17 UTC_
