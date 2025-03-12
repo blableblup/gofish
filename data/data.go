@@ -216,8 +216,9 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 	newFishCounts := make(map[string]int)
 	newResultCounts := make(map[string]int)
 
+	// to store some stuff
+	fishNames := make(map[string]string)
 	didwealreadycheckiftableexists := make(map[string]bool)
-
 	possiblePlayersForPlayer := make(map[string][]playerdata.PossiblePlayer)
 
 	for chatName, chat := range config.Chat {
@@ -359,13 +360,20 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			lastChatIDs[fish.Chat]++
 			chatID := lastChatIDs[fish.Chat]
 
-			fishName, err := GetFishName(pool, fishinfotable, fish.Type)
-			if err != nil {
-				logs.Logs().Error().Err(err).
-					Str("Type", fish.Type).
-					Msg("Error getting fish name")
-				return err
+			// get the fishname for the fishtype and store it
+			if _, ok := fishNames[fish.Type]; !ok {
+				fishName, err := GetFishName(pool, fishinfotable, fish.Type)
+				if err != nil {
+					logs.Logs().Error().Err(err).
+						Str("Type", fish.Type).
+						Msg("Error getting fish name")
+					return err
+				}
+
+				fishNames[fish.Type] = fishName
 			}
+
+			fishName := fishNames[fish.Type]
 
 			query := fmt.Sprintf("INSERT INTO %s (chatid, fishtype, fishname, weight, catchtype, player, playerid, date, bot, chat, url) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)", tableName)
 			_, err = tx.Exec(context.Background(), query, chatID, fish.Type, fishName, fish.Weight, fish.CatchType, fish.Player, playerID, fish.Date, fish.Bot, fish.Chat, fish.Url)
