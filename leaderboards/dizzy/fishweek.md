@@ -3,15 +3,15 @@
 |------|--------|-----------|
 | 1 🥇  | buhl00n  | 133 |
 | 2 🥈  | iam_haunt  | 96 |
-| 3 🥉  | gofishrigged  | 93 |
-| 4  | lolspers  | 83 |
-| 5  | ben_vincent  | 74 |
-| 6  | spanmer  | 71 |
-| 7  | aceleju  | 64 |
-| 7  | konsminator  | 64 |
-| 9  | kyonuwu  | 59 |
-| 10  | gimmeschmoneys  | 53 |
-| 10  | ssenario  | 53 |
+| 3 🥉 ⬆ | gimmeschmoneys  | 95 (+42) |
+| 4 ⬇ | iam_glorp  | 93 |
+| 5 ⬇ | lolspers  | 83 |
+| 6 ⬇ | ben_vincent  | 74 |
+| 7 ⬇ | spanmer  | 71 |
+| 8 ⬇ | aceleju  | 64 |
+| 8 ⬇ | konsminator  | 64 |
+| 10 ⬇ | kyonuwu  | 59 |
+| 11 ⬇ | ssenario  | 53 |
 | 12  | gofishgamer  | 51 |
 | 12  | rabituwu  | 51 |
 | 14  | vagdi  | 46 |
@@ -27,4 +27,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2025-03-05 10:33:26 UTC_
+_Last updated at 2025-03-12 10:42:59 UTC_

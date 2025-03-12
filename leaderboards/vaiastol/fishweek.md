@@ -2,17 +2,17 @@
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
 | 1 🥇  | vaiastol  | 87 |
-| 2 🥈  | divra__  | 54 |
-| 3 🥉  | pengeg  | 52 |
-| 4  | hahppyy  | 46 |
-| 5  | julialuxel  | 40 |
-| 6  | dayzedinndaydreams  | 38 |
-| 7  | leanmeister  | 31 |
-| 8 ⬆ | eelacy  | 30 (+11) |
-| 9 ⬇ | leastsussyimposter  | 26 |
-| 10  | nicestnarwhal  | 18 |
+| 2 🥈 ⬆ | eelacy  | 65 (+35) |
+| 3 🥉 ⬇ | divra__  | 54 |
+| 4  | hahppyy  | 53 (+7) |
+| 5 ⬇ | pengeg  | 52 |
+| 6 ⬇ | julialuxel  | 40 |
+| 7 ⬇ | dayzedinndaydreams  | 38 |
+| 8 ⬇ | leanmeister  | 31 |
+| 9  | leastsussyimposter  | 26 |
+| 10  | nicestnarwhal  | 22 (+4) |
 | 11  | milesdotcom  | 13 |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-02-19 11:01:56 UTC_
+_Last updated at 2025-03-12 10:42:59 UTC_
