@@ -122,19 +122,19 @@ func CreateURL(chatName string, chat utils.ChatInfo, numMonths int, monthYear st
 			if year == 2023 && month == time.September {
 
 				// Check supi and gofishgame
-				urlSupi := fmt.Sprintf("%s/channel/%s/user/supibot/%d/%d?", justlogInstance, chatName, year, int(month))
-				urlGofi := fmt.Sprintf("%s/channel/%s/user/gofishgame/%d/%d?", justlogInstance, chatName, year, int(month))
+				urlSupi := fmt.Sprintf("%s/channelid/%s/user/supibot/%d/%d?", justlogInstance, chat.TwitchID, year, int(month))
+				urlGofi := fmt.Sprintf("%s/channelid/%s/user/gofishgame/%d/%d?", justlogInstance, chat.TwitchID, year, int(month))
 				urls = append(urls, urlSupi, urlGofi)
 			} else {
 				// Check supi for months before september 2023, check gofishgame for months after september 2023
 				if year < 2023 || (year == 2023 && month < time.September) {
 
-					url := fmt.Sprintf("%s/channel/%s/user/supibot/%d/%d?", justlogInstance, chatName, year, int(month))
+					url := fmt.Sprintf("%s/channelid/%s/user/supibot/%d/%d?", justlogInstance, chat.TwitchID, year, int(month))
 					urls = append(urls, url)
 
 				} else {
 
-					url := fmt.Sprintf("%s/channel/%s/user/gofishgame/%d/%d?", justlogInstance, chatName, year, int(month))
+					url := fmt.Sprintf("%s/channelid/%s/user/gofishgame/%d/%d?", justlogInstance, chat.TwitchID, year, int(month))
 					urls = append(urls, url)
 				}
 			}
