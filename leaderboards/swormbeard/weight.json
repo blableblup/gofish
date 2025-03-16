@@ -11,7 +11,7 @@
 		"chat": "swormbeard",
 		"fishid": 110972,
 		"chatid": 46,
-		"rank": 1
+		"rank": 2
 	},
 	"126": {
 		"player": "derinturitierutz",
@@ -25,21 +25,21 @@
 		"chat": "swormbeard",
 		"fishid": 110980,
 		"chatid": 54,
-		"rank": 2
+		"rank": 3
 	},
 	"135": {
 		"player": "leanmeister",
 		"playerid": 135,
-		"weight": 81.38,
+		"weight": 184.28,
 		"bot": "gofishgame",
-		"type": "🐢",
-		"typename": "turtle",
+		"type": "🦑",
+		"typename": "squid",
 		"catchtype": "normal",
-		"date": "2024-11-14T21:09:06Z",
+		"date": "2025-03-15T00:53:07Z",
 		"chat": "swormbeard",
-		"fishid": 121635,
-		"chatid": 237,
-		"rank": 10
+		"fishid": 155146,
+		"chatid": 324,
+		"rank": 5
 	},
 	"14": {
 		"player": "ninjaross",
@@ -53,7 +53,7 @@
 		"chat": "swormbeard",
 		"fishid": 110936,
 		"chatid": 10,
-		"rank": 8
+		"rank": 10
 	},
 	"17": {
 		"player": "mitgliederversammlung",
@@ -67,7 +67,7 @@
 		"chat": "swormbeard",
 		"fishid": 111012,
 		"chatid": 86,
-		"rank": 3
+		"rank": 4
 	},
 	"21": {
 		"player": "liiiiiiiiiilly",
@@ -81,7 +81,7 @@
 		"chat": "swormbeard",
 		"fishid": 111061,
 		"chatid": 135,
-		"rank": 9
+		"rank": 11
 	},
 	"2125": {
 		"player": "gawblemachine",
@@ -95,7 +95,7 @@
 		"chat": "swormbeard",
 		"fishid": 110984,
 		"chatid": 58,
-		"rank": 6
+		"rank": 8
 	},
 	"2525": {
 		"player": "respirate_",
@@ -109,7 +109,21 @@
 		"chat": "swormbeard",
 		"fishid": 111043,
 		"chatid": 117,
-		"rank": 4
+		"rank": 6
+	},
+	"3638": {
+		"player": "derintu",
+		"playerid": 3638,
+		"weight": 86.36,
+		"bot": "gofishgame",
+		"type": "🐊",
+		"typename": "crocodile",
+		"catchtype": "normal",
+		"date": "2025-03-15T17:08:06Z",
+		"chat": "swormbeard",
+		"fishid": 155422,
+		"chatid": 345,
+		"rank": 12
 	},
 	"56": {
 		"player": "dayzedinndaydreams",
@@ -123,7 +137,7 @@
 		"chat": "swormbeard",
 		"fishid": 110946,
 		"chatid": 20,
-		"rank": 7
+		"rank": 9
 	},
 	"64": {
 		"player": "julialuxel",
@@ -137,6 +151,20 @@
 		"chat": "swormbeard",
 		"fishid": 110927,
 		"chatid": 1,
-		"rank": 5
+		"rank": 7
+	},
+	"80": {
+		"player": "kishma9",
+		"playerid": 80,
+		"weight": 243.37,
+		"bot": "gofishgame",
+		"type": "🦑",
+		"typename": "squid",
+		"catchtype": "normal",
+		"date": "2025-03-14T20:12:15Z",
+		"chat": "swormbeard",
+		"fishid": 155079,
+		"chatid": 311,
+		"rank": 1
 	}
 }

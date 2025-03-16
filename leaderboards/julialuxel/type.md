@@ -29,32 +29,34 @@
 | 26  | 🦦 otter | 15.66 | toastyso | 2024-01-11 16:49:02 |
 | 27  | 🍄 mushroom | 14.18 | puzzlow | 2024-01-04 20:15:17 |
 | 28  | 🧸 teddybear | 11.20 | hahppyy | 2023-12-23 13:43:06 |
-| 29  | 💀 skull | 8.64 | julialuxel | 2024-04-01 18:11:26 |
-| 30  | 🧊 icecube | 8.17 | julialuxel | 2024-01-11 14:42:35 |
-| 31  | 🦎 lizard | 5.71 | liiiiiiiiiilly | 2024-03-29 20:01:01 |
-| 32  | 📱 iphone | 5.63 | gawblemachine | 2024-10-17 19:29:24 |
-| 33  | 🦀 crab | 4.95 | leanmeister | 2025-01-03 21:39:41 |
-| 34  | 🐸 frog | 4.25 | liiiiiiiiiilly | 2024-02-11 22:39:37 |
-| 35  | 🎏 lure | 4.03 | toastyso | 2023-12-30 15:32:52 |
-| 36  | 🪝 hook | 3.91 (+0.03) | bubinga | 2025-02-08 19:33:04 |
-| 37  | ☘️ shamrock | 3.85 | gawblemachine | 2024-04-01 17:08:27 |
-| 38  | 🐚 shell | 3.29 | hahppyy | 2024-01-10 02:19:04 |
-| 39  | 🪺 nestwitheggs | 2.18 | julialuxel | 2024-12-24 01:54:16 |
-| 40  | 👢 boot | 1.95 | hahppyy | 2024-01-19 00:38:03 |
-| 41  | 🥫 cannedfood | 1.90 | fallen_angels_1995 | 2024-01-25 14:31:20 |
-| 42  | 🌰 acorn | 1.34 | julialuxel | 2024-09-30 23:18:34 |
-| 43  | 🌹 rose | 0.94 | suavvvvv | 2024-03-29 18:01:59 |
-| 44  | 🧤 gloves | 0.86 | hahppyy | 2023-12-25 21:21:08 |
-| 45  | 🐦‍⬛ blackbird | 0.69 | ninjaross | 2024-05-04 20:16:52 |
-| 46  | 🐌 snail | 0.67 | liiiiiiiiiilly | 2024-03-29 20:36:29 |
-| 47  | ⛸️ iceskate | 0.62 | toastyso | 2024-01-07 03:21:01 |
-| 48  | 👟 athleticshoe | 0.53 | supibot | 2024-01-04 19:43:39 |
-| 49  | 🌿 seaweed | 0.42 | julialuxel | 2024-04-01 17:04:41 |
-| 50  | 🧣 scarf | 0.37 | hahppyy | 2023-12-25 00:05:05 |
-| 51  | 🧦 socks | 0.19 | liiiiiiiiiilly | 2024-03-12 15:48:51 |
-| 52  | 🪀 bobber | 0.00 | julialuxel | 2024-01-04 14:17:46 |
-| 52  | 🍬 candy | 0.00 | toastyso | 2024-01-06 00:58:33 |
+| 29 🆕 | 🎱 8ball | 9.03 | julialuxel | 2025-03-14 23:02:31 |
+| 30 ⬇ | 💀 skull | 8.64 | julialuxel | 2024-04-01 18:11:26 |
+| 31 ⬇ | 🧊 icecube | 8.17 | julialuxel | 2024-01-11 14:42:35 |
+| 32 ⬇ | 🦎 lizard | 5.71 | liiiiiiiiiilly | 2024-03-29 20:01:01 |
+| 33 ⬇ | 📱 iphone | 5.63 | gawblemachine | 2024-10-17 19:29:24 |
+| 34 ⬇ | 🦀 crab | 4.95 | leanmeister | 2025-01-03 21:39:41 |
+| 35 🆕 | 🧵 wireline | 4.73 | julialuxel | 2025-03-15 00:39:39 |
+| 36 ⬇ | 🐸 frog | 4.25 | liiiiiiiiiilly | 2024-02-11 22:39:37 |
+| 37 ⬇ | 🎏 lure | 4.03 | toastyso | 2023-12-30 15:32:52 |
+| 38 ⬇ | 🪝 hook | 3.91 | bubinga | 2025-02-08 19:33:04 |
+| 39 ⬇ | ☘️ shamrock | 3.85 | gawblemachine | 2024-04-01 17:08:27 |
+| 40 ⬇ | 🐚 shell | 3.29 | hahppyy | 2024-01-10 02:19:04 |
+| 41 ⬇ | 🪺 nestwitheggs | 2.18 | julialuxel | 2024-12-24 01:54:16 |
+| 42 ⬇ | 👢 boot | 1.95 | hahppyy | 2024-01-19 00:38:03 |
+| 43 ⬇ | 🥫 cannedfood | 1.90 | fallen_angels_1995 | 2024-01-25 14:31:20 |
+| 44 ⬇ | 🌰 acorn | 1.34 | julialuxel | 2024-09-30 23:18:34 |
+| 45 ⬇ | 🌹 rose | 0.94 | suavvvvv | 2024-03-29 18:01:59 |
+| 46 ⬇ | 🧤 gloves | 0.86 | hahppyy | 2023-12-25 21:21:08 |
+| 47 ⬇ | 🐦‍⬛ blackbird | 0.69 | ninjaross | 2024-05-04 20:16:52 |
+| 48 ⬇ | 🐌 snail | 0.67 | liiiiiiiiiilly | 2024-03-29 20:36:29 |
+| 49 ⬇ | ⛸️ iceskate | 0.62 | toastyso | 2024-01-07 03:21:01 |
+| 50 ⬇ | 👟 athleticshoe | 0.53 | supibot | 2024-01-04 19:43:39 |
+| 51 ⬇ | 🌿 seaweed | 0.42 | julialuxel | 2024-04-01 17:04:41 |
+| 52 ⬇ | 🧣 scarf | 0.37 | hahppyy | 2023-12-25 00:05:05 |
+| 53 ⬇ | 🧦 socks | 0.19 | liiiiiiiiiilly | 2024-03-12 15:48:51 |
+| 54 ⬇ | 🪀 bobber | 0.00 | julialuxel | 2024-01-04 14:17:46 |
+| 54 ⬇ | 🍬 candy | 0.00 | toastyso | 2024-01-06 00:58:33 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-02-09 10:53:41 UTC_
+_Last updated at 2025-03-16 09:30:59 UTC_

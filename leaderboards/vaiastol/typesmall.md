@@ -23,32 +23,32 @@
 | 20  | 🦪 oyster | 1.70 | hahppyy | 2024-12-18 13:40:16 |
 | 21  | 🧞‍♂ malegenie | 1.44 | hahppyy | 2024-10-31 05:57:15 |
 | 22  | 👟 athleticshoe | 1.42 | cyaniderx | 2024-10-29 20:03:19 |
-| 23 ⬆ | 🧟 zombie | 1.28 | leastsussyimposter | 2024-12-10 01:51:33 |
-| 24 ⬆ | 📱 iphone | 1.16 | cyaniderx | 2024-12-25 06:41:56 |
-| 25 ⬆ | 🦢 swan | 1.14 | vaiastol | 2024-10-28 23:35:23 |
-| 26 ⬆ | 🦆 duck | 1.02 | hahppyy | 2024-10-21 17:54:35 |
-| 27 ⬆ | 🎱 8ball | 0.98 | pengeg | 2024-12-19 01:46:37 |
-| 28 ⬆ | 🐿️ squirrel | 0.90 | creepycode | 2024-12-04 03:46:23 |
-| 29 ⬆ | 👒 womanshat | 0.89 | milesdotcom | 2024-09-13 22:05:28 |
-| 30 ⬆ | 🍁 mapleleaf | 0.84 | divra__ | 2024-09-27 22:38:30 |
-| 31 ⬇ | ☂️ umbrella | 0.81 (-0.59) | hahppyy | 2025-03-07 09:00:38 |
-| 32  | 🪀 bobber | 0.75 | beebo8i | 2024-12-31 17:42:11 |
-| 33  | 🐊 crocodile | 0.59 | eelacy | 2025-02-10 13:15:15 |
-| 34 ⬆ | 🩲 briefs | 0.49 | hahppyy | 2024-09-16 22:40:24 |
-| 35 ⬆ | 🐦 bird | 0.46 | divra__ | 2025-01-22 04:01:47 |
-| 36 ⬆ | 🥀 wiltedflower | 0.44 | hahppyy | 2024-12-19 22:38:17 |
-| 37 ⬆ | 🧵 wireline | 0.42 | bubinga | 2024-09-28 13:14:31 |
-| 38 ⬆ | 🦦 otter | 0.41 | eelacy | 2025-02-22 15:32:02 |
-| 39 ⬆ | 🩰 balletshoes | 0.40 | dayzedinndaydreams | 2025-01-26 21:30:29 |
-| 40 ⬆ | 🐧 penguin | 0.39 | dayzedinndaydreams | 2024-12-25 20:09:47 |
-| 41 ⬆ | 🐬 dolphin | 0.38 | eelacy | 2025-02-22 13:05:41 |
-| 42 ⬆ | 🪳 cockroach | 0.37 | eelacy | 2025-02-22 18:17:14 |
-| 43 ⬆ | 🐙 octopus | 0.34 | vaiastol | 2025-01-17 13:07:16 |
-| 44 ⬆ | 🕷️ spider | 0.33 | milesdotcom | 2024-10-10 23:15:47 |
-| 44 ⬇ | 🐋 whale2 | 0.33 (-0.10) | nicestnarwhal | 2025-03-07 23:18:22 |
-| 46 ⬆ | 🐡 blowfish | 0.32 | divra__ | 2024-08-20 15:50:56 |
-| 47 ⬆ | 🍄 mushroom | 0.31 | leanmeister | 2025-01-21 20:17:28 |
-| 48 ⬇ | 🦑 squid | 0.29 (-0.30) | verypeppy | 2025-03-03 16:51:46 |
+| 23  | 🧟 zombie | 1.28 | leastsussyimposter | 2024-12-10 01:51:33 |
+| 24 ⬆ | 🦢 swan | 1.14 | vaiastol | 2024-10-28 23:35:23 |
+| 25 ⬆ | 🦆 duck | 1.02 | hahppyy | 2024-10-21 17:54:35 |
+| 26 ⬆ | 🎱 8ball | 0.98 | pengeg | 2024-12-19 01:46:37 |
+| 27 ⬆ | 🐿️ squirrel | 0.90 | creepycode | 2024-12-04 03:46:23 |
+| 28 ⬆ | 👒 womanshat | 0.89 | milesdotcom | 2024-09-13 22:05:28 |
+| 29 ⬆ | 🍁 mapleleaf | 0.84 | divra__ | 2024-09-27 22:38:30 |
+| 30 ⬆ | ☂️ umbrella | 0.81 | hahppyy | 2025-03-07 09:00:38 |
+| 31 ⬆ | 🪀 bobber | 0.75 | beebo8i | 2024-12-31 17:42:11 |
+| 32 ⬆ | 🐊 crocodile | 0.59 | eelacy | 2025-02-10 13:15:15 |
+| 33 ⬆ | 🩲 briefs | 0.49 | hahppyy | 2024-09-16 22:40:24 |
+| 33 🆕 | 🌷 tulip | 0.49 | hahppyy | 2025-03-15 17:12:27 |
+| 35  | 🐦 bird | 0.46 | divra__ | 2025-01-22 04:01:47 |
+| 36  | 🥀 wiltedflower | 0.44 | hahppyy | 2024-12-19 22:38:17 |
+| 37  | 🧵 wireline | 0.42 | bubinga | 2024-09-28 13:14:31 |
+| 38  | 🦦 otter | 0.41 | eelacy | 2025-02-22 15:32:02 |
+| 39  | 🩰 balletshoes | 0.40 | dayzedinndaydreams | 2025-01-26 21:30:29 |
+| 40  | 🐧 penguin | 0.39 | dayzedinndaydreams | 2024-12-25 20:09:47 |
+| 41  | 🐬 dolphin | 0.38 | eelacy | 2025-02-22 13:05:41 |
+| 42  | 🪳 cockroach | 0.37 | eelacy | 2025-02-22 18:17:14 |
+| 43  | 🐙 octopus | 0.34 | vaiastol | 2025-01-17 13:07:16 |
+| 44  | 🕷️ spider | 0.33 | milesdotcom | 2024-10-10 23:15:47 |
+| 44  | 🐋 whale2 | 0.33 | nicestnarwhal | 2025-03-07 23:18:22 |
+| 46  | 🐡 blowfish | 0.32 | divra__ | 2024-08-20 15:50:56 |
+| 47  | 🍄 mushroom | 0.31 | leanmeister | 2025-01-21 20:17:28 |
+| 48  | 🦑 squid | 0.29 | verypeppy | 2025-03-03 16:51:46 |
 | 49  | 🪹 emptynest | 0.28 | vaiastol | 2024-12-23 02:53:10 |
 | 50  | 🧸 teddybear | 0.27 | leastsussyimposter | 2025-02-17 13:35:21 |
 | 50  | 🐠 tropicalfish | 0.27 | hahppyy | 2024-12-08 23:26:07 |
@@ -64,28 +64,29 @@
 | 61  | 🪱 worm | 0.12 | eelacy | 2025-02-21 07:31:57 |
 | 62  | 👢 boot | 0.10 | hahppyy | 2025-02-26 02:17:51 |
 | 62  | 🩴 thongsandal | 0.10 | milesdotcom | 2024-09-11 19:56:17 |
-| 64 ⬆ | 🦎 lizard | 0.09 | divra__ | 2024-10-05 21:01:54 |
-| 65 ⬆ | 💀 skull | 0.08 | leastsussyimposter | 2024-11-26 08:49:53 |
-| 65 ⬇ | 🧦 socks | 0.08 (-0.02) | hahppyy | 2025-03-05 01:14:36 |
+| 64  | 🦎 lizard | 0.09 | divra__ | 2024-10-05 21:01:54 |
+| 65  | 💀 skull | 0.08 | leastsussyimposter | 2024-11-26 08:49:53 |
+| 65  | 🧦 socks | 0.08 | hahppyy | 2025-03-05 01:14:36 |
 | 67  | 🐸 frog | 0.07 | nicestnarwhal | 2025-01-12 20:37:36 |
 | 68  | 🪶 feather | 0.06 | garout | 2025-02-12 20:51:20 |
+| 68 ⬇ | 📱 iphone | 0.06 (-1.10) | eelacy | 2025-03-14 23:15:09 |
 | 68  | 🧽 sponge | 0.06 | jr_mime | 2024-08-02 17:19:54 |
-| 70  | 🍬 candy | 0.04 | hahppyy | 2024-11-10 18:29:03 |
-| 70  | 🧊 icecube | 0.04 | leanmeister | 2025-01-08 21:50:10 |
-| 70  | 🦐 shrimp | 0.04 | divra__ | 2024-10-06 16:21:41 |
-| 73  | 🪸 coral | 0.03 | hahppyy | 2024-10-26 17:19:25 |
-| 73  | ⛸️ iceskate | 0.03 | vaiastol | 2025-01-03 11:53:37 |
-| 73  | 🐚 shell | 0.03 | leastsussyimposter | 2024-08-07 23:21:39 |
-| 76  | 🌰 acorn | 0.02 | leastsussyimposter | 2024-09-25 23:23:39 |
-| 76  | 🥫 cannedfood | 0.02 | nicestnarwhal | 2025-01-08 13:23:38 |
-| 76  | 🌿 seaweed | 0.02 | leastsussyimposter | 2024-09-19 13:16:37 |
-| 79  | 🪚 carpentrysaw | 0.01 | vaiastol | 2025-01-21 23:39:41 |
-| 79  | 🦀 crab | 0.01 | eelacy | 2025-02-24 14:56:28 |
-| 79  | 🐟 fish | 0.01 | julialuxel | 2024-10-04 19:01:33 |
-| 79  | 🪝 hook | 0.01 | dayzedinndaydreams | 2024-12-03 15:23:52 |
-| 79  | 🎏 lure | 0.01 | hahppyy | 2024-11-20 09:09:11 |
-| 84  | 🧤 gloves | 0.00 | vaiastol | 2025-02-28 22:53:41 |
+| 71 ⬇ | 🍬 candy | 0.04 | hahppyy | 2024-11-10 18:29:03 |
+| 71 ⬇ | 🧊 icecube | 0.04 | leanmeister | 2025-01-08 21:50:10 |
+| 71 ⬇ | 🦐 shrimp | 0.04 | divra__ | 2024-10-06 16:21:41 |
+| 74 ⬇ | 🪸 coral | 0.03 | hahppyy | 2024-10-26 17:19:25 |
+| 74 ⬇ | ⛸️ iceskate | 0.03 | vaiastol | 2025-01-03 11:53:37 |
+| 74 ⬇ | 🐚 shell | 0.03 | leastsussyimposter | 2024-08-07 23:21:39 |
+| 77 ⬇ | 🌰 acorn | 0.02 | leastsussyimposter | 2024-09-25 23:23:39 |
+| 77 ⬇ | 🥫 cannedfood | 0.02 | nicestnarwhal | 2025-01-08 13:23:38 |
+| 77 ⬇ | 🌿 seaweed | 0.02 | leastsussyimposter | 2024-09-19 13:16:37 |
+| 80 ⬇ | 🪚 carpentrysaw | 0.01 | vaiastol | 2025-01-21 23:39:41 |
+| 80 ⬇ | 🦀 crab | 0.01 | eelacy | 2025-02-24 14:56:28 |
+| 80 ⬇ | 🐟 fish | 0.01 | julialuxel | 2024-10-04 19:01:33 |
+| 80 ⬇ | 🪝 hook | 0.01 | dayzedinndaydreams | 2024-12-03 15:23:52 |
+| 80 ⬇ | 🎏 lure | 0.01 | hahppyy | 2024-11-20 09:09:11 |
+| 85 ⬇ | 🧤 gloves | 0.00 | vaiastol | 2025-02-28 22:53:41 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-03-09 11:15:16 UTC_
+_Last updated at 2025-03-16 09:30:21 UTC_

@@ -1,105 +1,105 @@
 ### 100 biggest fish caught in swormbeard's chat
 | Rank | Player | Fish | Weight in lbs | Date in UTC |
 |------|--------|-----------|---------|-----|
-| 1 🥇  | larvasisters | 🐳 whale | 208.05 | 2024-08-04 20:06:31 |
-| 2 🥈  | derinturitierutz | 🐳 whale | 206.65 | 2024-08-05 19:56:13 |
-| 3 🥉  | mitgliederversammlung | 🦕 sauropod | 202.40 | 2024-08-30 22:35:37 |
-| 4  | respirate_ | 🐋 whale2 | 140.34 | 2024-09-08 18:56:18 |
-| 5  | julialuxel | 🐊 crocodile | 105.00 | 2024-07-28 22:59:00 |
-| 6  | mitgliederversammlung | 🐋 whale2 | 101.29 | 2024-08-30 04:24:01 |
-| 7  | gawblemachine | 🐬 dolphin | 101.18 | 2024-08-07 17:37:10 |
-| 8  | dayzedinndaydreams | 🐬 dolphin | 100.81 | 2024-08-02 22:34:26 |
-| 9  | ninjaross | 🐬 dolphin | 99.98 | 2024-08-02 19:41:23 |
-| 10  | liiiiiiiiiilly | 🐢 turtle | 95.26 | 2024-10-15 20:41:05 |
-| 11  | respirate_ | 🐬 dolphin | 87.36 | 2024-09-01 19:07:10 |
-| 12  | liiiiiiiiiilly | 🐢 turtle | 85.17 | 2024-11-30 18:48:17 |
-| 13  | leanmeister | 🐢 turtle | 81.38 | 2024-11-14 21:09:06 |
-| 14  | liiiiiiiiiilly | 🐢 turtle | 81.09 | 2024-10-26 18:34:06 |
-| 15  | respirate_ | 🐋 whale2 | 79.35 | 2024-09-01 19:53:33 |
-| 16  | respirate_ | 🐙 octopus | 77.19 | 2024-08-23 18:20:38 |
-| 17  | derinturitierutz | 🐋 whale2 | 74.46 | 2024-08-02 20:58:00 |
-| 18  | respirate_ | 🐢 turtle | 74.33 | 2024-08-21 23:01:53 |
-| 19  | gawblemachine | 🐋 whale2 | 73.70 | 2024-08-04 18:19:45 |
-| 20  | gawblemachine | 🐋 whale2 | 66.55 | 2024-08-04 19:17:32 |
-| 21  | leanmeister | 🐢 turtle | 58.31 | 2024-11-13 20:26:51 |
-| 21  | leanmeister | 🐢 turtle | 58.31 | 2024-11-13 20:26:51 |
-| 23  | dayzedinndaydreams | 🐬 dolphin | 55.97 | 2024-08-03 20:25:34 |
-| 24  | respirate_ | 🦞 lobster | 54.45 | 2024-08-31 19:32:16 |
-| 25  | leanmeister | 🐙 octopus | 53.64 | 2024-11-28 19:04:20 |
-| 26  | ninjaross | 🐬 dolphin | 53.42 | 2024-08-02 18:34:51 |
-| 27  | larvasisters | 🐙 octopus | 52.91 | 2024-11-01 22:55:35 |
-| 28  | dayzedinndaydreams | 🐊 crocodile | 48.33 | 2024-08-09 17:29:38 |
-| 29  | sicklymaidrobot | 🐙 octopus | 45.25 | 2024-08-09 16:34:11 |
-| 30  | liiiiiiiiiilly | 🐢 turtle | 43.32 | 2024-11-14 19:05:43 |
-| 31  | sicklymaidrobot | 🦞 lobster | 42.53 | 2024-08-05 01:49:18 |
-| 32  | respirate_ | 🐊 crocodile | 41.47 | 2024-09-01 18:00:28 |
-| 33  | sicklymaidrobot | 🪨 rock | 41.20 | 2024-09-04 23:11:31 |
-| 34  | liiiiiiiiiilly | 🐢 turtle | 37.40 | 2024-11-20 18:39:22 |
-| 35  | ninjaross | 🐢 turtle | 36.15 | 2024-11-29 19:07:42 |
-| 36  | respirate_ | 🐋 whale2 | 33.82 | 2024-09-08 21:08:56 |
-| 37  | dayzedinndaydreams | 🐡 blowfish | 32.43 | 2024-08-02 18:20:24 |
-| 38  | leanmeister | 🦐 shrimp | 31.35 | 2024-11-27 20:25:23 |
-| 39  | ninjaross | 🐟 fish | 31.03 | 2024-08-02 20:33:13 |
-| 40  | respirate_ | 🦈 shark | 29.43 | 2024-08-30 20:13:52 |
-| 41  | ninjaross | 🦪 oyster | 26.47 | 2024-11-29 20:00:15 |
-| 42  | respirate_ | 🐋 whale2 | 26.24 | 2024-08-30 17:27:10 |
-| 43  | respirate_ | 🐬 dolphin | 25.78 | 2024-10-28 20:43:08 |
-| 44  | respirate_ | 🐬 dolphin | 23.48 | 2024-08-31 23:52:44 |
-| 45  | liiiiiiiiiilly | 🦫 beaver | 22.77 | 2024-10-12 21:50:13 |
-| 46  | liiiiiiiiiilly | 🦫 beaver | 21.75 | 2024-11-02 23:21:11 |
-| 47  | respirate_ | 🦐 shrimp | 20.71 | 2024-08-21 21:20:52 |
-| 48  | mitgliederversammlung | 🐡 blowfish | 20.51 | 2024-11-30 18:46:26 |
-| 49  | respirate_ | 🦞 lobster | 20.28 | 2024-09-02 23:17:13 |
-| 50  | sicklymaidrobot | 🦞 lobster | 20.25 | 2024-08-05 18:09:25 |
-| 51  | liiiiiiiiiilly | 🦫 beaver | 20.11 | 2024-11-02 18:35:57 |
-| 52  | sicklymaidrobot | 🐟 fish | 19.93 | 2024-09-06 15:51:09 |
-| 53  | respirate_ | 🦐 shrimp | 19.27 | 2024-07-28 23:49:11 |
-| 54  | liiiiiiiiiilly | 🦫 beaver | 18.67 | 2024-11-12 22:07:11 |
-| 54  | liiiiiiiiiilly | 🦫 beaver | 18.67 | 2024-11-12 22:07:11 |
-| 56  | mitgliederversammlung | 🐋 whale2 | 18.30 | 2024-08-30 17:42:51 |
-| 57  | liiiiiiiiiilly | 🦫 beaver | 17.97 | 2024-11-13 16:46:17 |
-| 58  | derinturitierutz | 🐊 crocodile | 17.84 | 2024-08-02 21:58:37 |
-| 59  | liiiiiiiiiilly | 🦫 beaver | 17.42 | 2024-11-23 21:38:11 |
-| 60  | respirate_ | 🐠 tropicalfish | 17.35 | 2024-08-30 18:27:48 |
-| 61  | dayzedinndaydreams | 🐟 fish | 17.10 | 2024-08-03 14:59:26 |
-| 61  | larvasisters | 🐍 snake | 17.10 | 2024-08-07 17:36:47 |
-| 61  | larvasisters | 🐍 snake | 17.10 | 2024-08-07 17:36:47 |
-| 64  | dayzedinndaydreams | 🦞 lobster | 17.05 | 2024-08-02 21:57:16 |
-| 65  | leanmeister | 🦭 seal | 16.96 | 2024-11-28 20:27:17 |
-| 66  | respirate_ | 🐟 fish | 15.92 | 2024-08-30 22:34:15 |
-| 67  | respirate_ | 🐟 fish | 14.74 | 2024-09-07 21:53:01 |
-| 68  | leanmeister | 🦦 otter | 14.70 | 2024-11-23 20:16:01 |
-| 69  | respirate_ | 🐍 snake | 14.67 | 2024-10-24 19:11:05 |
-| 70  | liiiiiiiiiilly | 🐢 turtle | 14.64 | 2024-11-23 17:00:18 |
-| 71  | leanmeister | 🐋 whale2 | 14.59 | 2024-11-30 19:02:09 |
-| 72  | respirate_ | 🪸 coral | 14.47 | 2024-09-01 18:32:43 |
-| 73  | dayzedinndaydreams | 🐟 fish | 14.40 | 2024-10-15 20:35:51 |
-| 74  | liiiiiiiiiilly | 🐟 fish | 14.38 | 2024-11-12 21:25:51 |
-| 75  | liiiiiiiiiilly | 🐟 fish | 13.61 | 2024-10-26 22:15:08 |
-| 76  | liiiiiiiiiilly | 🐢 turtle | 12.87 | 2024-10-19 01:22:09 |
-| 77  | liiiiiiiiiilly | 🐟 fish | 12.84 | 2024-10-15 19:06:53 |
-| 78  | liiiiiiiiiilly | 🐢 turtle | 12.30 | 2024-10-24 23:23:58 |
-| 79  | liiiiiiiiiilly | 🐢 turtle | 12.07 | 2024-10-16 21:36:16 |
-| 80  | liiiiiiiiiilly | 🦫 beaver | 12.03 | 2024-11-18 19:05:13 |
-| 81  | dayzedinndaydreams | 🧃 beveragebox | 11.89 | 2024-08-04 17:56:24 |
-| 82  | respirate_ | 🕷️ spider | 11.42 | 2024-08-31 20:13:14 |
-| 83  | respirate_ | 🕶️ darksunglasses | 11.39 | 2024-07-29 07:01:49 |
-| 84  | liiiiiiiiiilly | 🦫 beaver | 11.29 | 2024-11-14 21:22:00 |
-| 85  | liiiiiiiiiilly | 🐟 fish | 10.98 | 2024-11-24 17:36:08 |
-| 86  | dayzedinndaydreams | 🦪 oyster | 10.77 | 2024-08-04 22:09:58 |
-| 87  | dayzedinndaydreams | 🐟 fish | 10.73 | 2024-08-09 20:35:33 |
-| 88  | dayzedinndaydreams | 🪺 nestwitheggs | 10.58 | 2024-10-14 19:42:06 |
-| 88  | leanmeister | 🐟 fish | 10.58 | 2024-11-28 17:21:32 |
-| 90  | respirate_ | 🪨 rock | 10.48 | 2024-08-31 22:32:13 |
-| 91  | dayzedinndaydreams | 🐍 snake | 9.79 | 2024-10-14 20:28:28 |
-| 92  | ninjaross | 🐟 fish | 9.77 | 2024-08-03 18:36:18 |
-| 93  | liiiiiiiiiilly | 🐍 snake | 9.71 | 2024-11-20 21:24:33 |
-| 94  | liiiiiiiiiilly | 🪺 nestwitheggs | 9.62 | 2024-11-30 22:55:35 |
-| 95  | respirate_ | 🐬 dolphin | 9.57 | 2024-09-07 21:16:11 |
-| 96  | liiiiiiiiiilly | 🐟 fish | 9.41 | 2024-11-06 16:23:30 |
-| 97  | liiiiiiiiiilly | 🐍 snake | 9.38 | 2024-11-23 19:37:40 |
-| 98  | liiiiiiiiiilly | 🐍 snake | 9.28 | 2024-11-02 21:00:22 |
-| 99  | ninjaross | 🐍 snake | 9.03 | 2024-10-26 13:48:17 |
-| 100  | leanmeister | 🐍 snake | 8.87 | 2024-11-13 16:35:49 |
+| 1 🥇 🆕 | kishma9 | 🦑 squid | 243.37 | 2025-03-14 20:12:15 |
+| 2 🥈 ⬇ | larvasisters | 🐳 whale | 208.05 | 2024-08-04 20:06:31 |
+| 3 🥉 ⬇ | derinturitierutz | 🐳 whale | 206.65 | 2024-08-05 19:56:13 |
+| 4 ⬇ | mitgliederversammlung | 🦕 sauropod | 202.40 | 2024-08-30 22:35:37 |
+| 5 🆕 | leanmeister | 🦑 squid | 184.28 | 2025-03-15 00:53:07 |
+| 6 ⬇ | respirate_ | 🐋 whale2 | 140.34 | 2024-09-08 18:56:18 |
+| 7 ⬇ | julialuxel | 🐊 crocodile | 105.00 | 2024-07-28 22:59:00 |
+| 8 ⬇ | mitgliederversammlung | 🐋 whale2 | 101.29 | 2024-08-30 04:24:01 |
+| 9 ⬇ | gawblemachine | 🐬 dolphin | 101.18 | 2024-08-07 17:37:10 |
+| 10 ⬇ | dayzedinndaydreams | 🐬 dolphin | 100.81 | 2024-08-02 22:34:26 |
+| 11 ⬇ | ninjaross | 🐬 dolphin | 99.98 | 2024-08-02 19:41:23 |
+| 12 ⬇ | liiiiiiiiiilly | 🐢 turtle | 95.26 | 2024-10-15 20:41:05 |
+| 13 ⬇ | respirate_ | 🐬 dolphin | 87.36 | 2024-09-01 19:07:10 |
+| 14 🆕 | derintu | 🐊 crocodile | 86.36 | 2025-03-15 17:08:06 |
+| 15 ⬇ | liiiiiiiiiilly | 🐢 turtle | 85.17 | 2024-11-30 18:48:17 |
+| 16 ⬇ | leanmeister | 🐢 turtle | 81.38 | 2024-11-14 21:09:06 |
+| 17 ⬇ | liiiiiiiiiilly | 🐢 turtle | 81.09 | 2024-10-26 18:34:06 |
+| 18 ⬇ | respirate_ | 🐋 whale2 | 79.35 | 2024-09-01 19:53:33 |
+| 19 ⬇ | respirate_ | 🐙 octopus | 77.19 | 2024-08-23 18:20:38 |
+| 20 🆕 | leanmeister | 🐊 crocodile | 76.13 | 2025-03-15 00:22:03 |
+| 21 🆕 | derinturitierutz | 🐢 turtle | 76.08 | 2025-03-15 21:20:55 |
+| 22 🆕 | kishma9 | 🦑 squid | 75.17 | 2025-03-14 19:33:14 |
+| 23 ⬇ | derinturitierutz | 🐋 whale2 | 74.46 | 2024-08-02 20:58:00 |
+| 24 ⬇ | respirate_ | 🐢 turtle | 74.33 | 2024-08-21 23:01:53 |
+| 25 ⬇ | gawblemachine | 🐋 whale2 | 73.70 | 2024-08-04 18:19:45 |
+| 26 ⬇ | gawblemachine | 🐋 whale2 | 66.55 | 2024-08-04 19:17:32 |
+| 27 🆕 | kishma9 | 🦇 bat | 60.15 | 2025-03-14 00:11:12 |
+| 28 🆕 | derinturitierutz | 🐢 turtle | 59.66 | 2025-03-15 19:35:14 |
+| 29 ⬇ | leanmeister | 🐢 turtle | 58.31 | 2024-11-13 20:26:51 |
+| 29 ⬇ | leanmeister | 🐢 turtle | 58.31 | 2024-11-13 20:26:51 |
+| 31 ⬇ | dayzedinndaydreams | 🐬 dolphin | 55.97 | 2024-08-03 20:25:34 |
+| 32 🆕 | derintu | 🦑 squid | 55.12 | 2025-03-15 16:35:57 |
+| 33 ⬇ | respirate_ | 🦞 lobster | 54.45 | 2024-08-31 19:32:16 |
+| 34 ⬇ | leanmeister | 🐙 octopus | 53.64 | 2024-11-28 19:04:20 |
+| 35 ⬇ | ninjaross | 🐬 dolphin | 53.42 | 2024-08-02 18:34:51 |
+| 36 ⬇ | larvasisters | 🐙 octopus | 52.91 | 2024-11-01 22:55:35 |
+| 37 ⬇ | dayzedinndaydreams | 🐊 crocodile | 48.33 | 2024-08-09 17:29:38 |
+| 38 ⬇ | sicklymaidrobot | 🐙 octopus | 45.25 | 2024-08-09 16:34:11 |
+| 39 ⬇ | liiiiiiiiiilly | 🐢 turtle | 43.32 | 2024-11-14 19:05:43 |
+| 40 ⬇ | sicklymaidrobot | 🦞 lobster | 42.53 | 2024-08-05 01:49:18 |
+| 41 ⬇ | respirate_ | 🐊 crocodile | 41.47 | 2024-09-01 18:00:28 |
+| 42 ⬇ | sicklymaidrobot | 🪨 rock | 41.20 | 2024-09-04 23:11:31 |
+| 43 🆕 | dayzedinndaydreams | 🦫 beaver | 37.92 | 2025-03-14 22:02:31 |
+| 44 ⬇ | liiiiiiiiiilly | 🐢 turtle | 37.40 | 2024-11-20 18:39:22 |
+| 45 🆕 | kishma9 | 🦭 seal | 36.84 | 2025-03-15 18:10:47 |
+| 46 ⬇ | ninjaross | 🐢 turtle | 36.15 | 2024-11-29 19:07:42 |
+| 47 ⬇ | respirate_ | 🐋 whale2 | 33.82 | 2024-09-08 21:08:56 |
+| 48 ⬇ | dayzedinndaydreams | 🐡 blowfish | 32.43 | 2024-08-02 18:20:24 |
+| 49 ⬇ | leanmeister | 🦐 shrimp | 31.35 | 2024-11-27 20:25:23 |
+| 50 ⬇ | ninjaross | 🐟 fish | 31.03 | 2024-08-02 20:33:13 |
+| 51 ⬇ | respirate_ | 🦈 shark | 29.43 | 2024-08-30 20:13:52 |
+| 52 ⬇ | ninjaross | 🦪 oyster | 26.47 | 2024-11-29 20:00:15 |
+| 53 ⬇ | respirate_ | 🐋 whale2 | 26.24 | 2024-08-30 17:27:10 |
+| 54 ⬇ | respirate_ | 🐬 dolphin | 25.78 | 2024-10-28 20:43:08 |
+| 55 ⬇ | respirate_ | 🐬 dolphin | 23.48 | 2024-08-31 23:52:44 |
+| 56 ⬇ | liiiiiiiiiilly | 🦫 beaver | 22.77 | 2024-10-12 21:50:13 |
+| 57 ⬇ | liiiiiiiiiilly | 🦫 beaver | 21.75 | 2024-11-02 23:21:11 |
+| 58 ⬇ | respirate_ | 🦐 shrimp | 20.71 | 2024-08-21 21:20:52 |
+| 59 ⬇ | mitgliederversammlung | 🐡 blowfish | 20.51 | 2024-11-30 18:46:26 |
+| 60 ⬇ | respirate_ | 🦞 lobster | 20.28 | 2024-09-02 23:17:13 |
+| 61 ⬇ | sicklymaidrobot | 🦞 lobster | 20.25 | 2024-08-05 18:09:25 |
+| 62 ⬇ | liiiiiiiiiilly | 🦫 beaver | 20.11 | 2024-11-02 18:35:57 |
+| 63 ⬇ | sicklymaidrobot | 🐟 fish | 19.93 | 2024-09-06 15:51:09 |
+| 64 🆕 | fvkdylan | 🐢 turtle | 19.41 | 2025-03-14 23:32:27 |
+| 65 ⬇ | respirate_ | 🦐 shrimp | 19.27 | 2024-07-28 23:49:11 |
+| 66 ⬇ | liiiiiiiiiilly | 🦫 beaver | 18.67 | 2024-11-12 22:07:11 |
+| 66 ⬇ | liiiiiiiiiilly | 🦫 beaver | 18.67 | 2024-11-12 22:07:11 |
+| 68 🆕 | derintu | 🍄‍🟫 brownmushroom | 18.54 | 2025-03-15 19:24:59 |
+| 69 ⬇ | mitgliederversammlung | 🐋 whale2 | 18.30 | 2024-08-30 17:42:51 |
+| 70 ⬇ | liiiiiiiiiilly | 🦫 beaver | 17.97 | 2024-11-13 16:46:17 |
+| 71 ⬇ | derinturitierutz | 🐊 crocodile | 17.84 | 2024-08-02 21:58:37 |
+| 72 ⬇ | liiiiiiiiiilly | 🦫 beaver | 17.42 | 2024-11-23 21:38:11 |
+| 73 ⬇ | respirate_ | 🐠 tropicalfish | 17.35 | 2024-08-30 18:27:48 |
+| 74 ⬇ | dayzedinndaydreams | 🐟 fish | 17.10 | 2024-08-03 14:59:26 |
+| 74 ⬇ | larvasisters | 🐍 snake | 17.10 | 2024-08-07 17:36:47 |
+| 74 ⬇ | larvasisters | 🐍 snake | 17.10 | 2024-08-07 17:36:47 |
+| 77 ⬇ | dayzedinndaydreams | 🦞 lobster | 17.05 | 2024-08-02 21:57:16 |
+| 78 ⬇ | leanmeister | 🦭 seal | 16.96 | 2024-11-28 20:27:17 |
+| 79 🆕 | leanmeister | 🐢 turtle | 16.53 | 2025-03-15 23:15:12 |
+| 80 ⬇ | respirate_ | 🐟 fish | 15.92 | 2024-08-30 22:34:15 |
+| 81 ⬇ | respirate_ | 🐟 fish | 14.74 | 2024-09-07 21:53:01 |
+| 82 ⬇ | leanmeister | 🦦 otter | 14.70 | 2024-11-23 20:16:01 |
+| 83 ⬇ | respirate_ | 🐍 snake | 14.67 | 2024-10-24 19:11:05 |
+| 84 🆕 | derinturitierutz | 🐟 fish | 14.64 | 2025-03-14 18:02:05 |
+| 84 ⬇ | liiiiiiiiiilly | 🐢 turtle | 14.64 | 2024-11-23 17:00:18 |
+| 86 ⬇ | leanmeister | 🐋 whale2 | 14.59 | 2024-11-30 19:02:09 |
+| 87 ⬇ | respirate_ | 🪸 coral | 14.47 | 2024-09-01 18:32:43 |
+| 88 ⬇ | dayzedinndaydreams | 🐟 fish | 14.40 | 2024-10-15 20:35:51 |
+| 89 ⬇ | liiiiiiiiiilly | 🐟 fish | 14.38 | 2024-11-12 21:25:51 |
+| 90 🆕 | derinturitierutz | 🐟 fish | 14.21 | 2025-03-15 22:01:22 |
+| 91 ⬇ | liiiiiiiiiilly | 🐟 fish | 13.61 | 2024-10-26 22:15:08 |
+| 92 ⬇ | liiiiiiiiiilly | 🐢 turtle | 12.87 | 2024-10-19 01:22:09 |
+| 93 ⬇ | liiiiiiiiiilly | 🐟 fish | 12.84 | 2024-10-15 19:06:53 |
+| 94 ⬇ | liiiiiiiiiilly | 🐢 turtle | 12.30 | 2024-10-24 23:23:58 |
+| 95 ⬇ | liiiiiiiiiilly | 🐢 turtle | 12.07 | 2024-10-16 21:36:16 |
+| 96 ⬇ | liiiiiiiiiilly | 🦫 beaver | 12.03 | 2024-11-18 19:05:13 |
+| 97 ⬇ | dayzedinndaydreams | 🧃 beveragebox | 11.89 | 2024-08-04 17:56:24 |
+| 98 ⬇ | respirate_ | 🕷️ spider | 11.42 | 2024-08-31 20:13:14 |
+| 99 ⬇ | respirate_ | 🕶️ darksunglasses | 11.39 | 2024-07-29 07:01:49 |
+| 100 ⬇ | liiiiiiiiiilly | 🦫 beaver | 11.29 | 2024-11-14 21:22:00 |
 
-_Last updated at 2025-03-02 12:50:15 UTC_
+_Last updated at 2025-03-16 09:30:53 UTC_

@@ -3,11 +3,14 @@
 |------|--------|-----------|
 | 1 🥇  | liiiiiiiiiilly  | 119 |
 | 2 🥈  | respirate_  | 61 |
-| 3 🥉  | dayzedinndaydreams  | 27 |
-| 4  | leanmeister  | 24 |
-| 5  | ninjaross*  | 22 |
-| 6  | larvasisters  | 11 |
+| 3 🥉 ⬆ | leanmeister  | 42 (+18) |
+| 4 ⬇ | dayzedinndaydreams  | 28 (+1) |
+| 5  | ninjaross*  | 27 (+5) |
+| 6 🆕 | derinturitierutz  | 21 |
+| 7 🆕 | kishma9  | 17 |
+| 8 🆕 | derintu  | 11 |
+| 8 ⬇ | larvasisters  | 11 |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-03-02 12:50:16 UTC_
+_Last updated at 2025-03-16 09:30:52 UTC_

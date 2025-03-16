@@ -1,8 +1,8 @@
 ### Players who have seen the most fish in julialuxel's chat
 | Rank | Player | Fish Seen |
 |------|--------|-----------|
-| 1 🥇  | hahppyy  | 30 |
-| 2 🥈  | julialuxel  | 29 |
+| 1 🥇 ⬆ | julialuxel  | 31 (+2) |
+| 2 🥈 ⬇ | hahppyy  | 30 |
 | 3 🥉  | liiiiiiiiiilly  | 20 |
 | 3 🥉  | toastyso  | 20 |
 
@@ -10,4 +10,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2025-01-19 11:29:33 UTC_
+_Last updated at 2025-03-16 09:31:23 UTC_

@@ -1,19 +1,20 @@
 ### Most fish caught in jellyuh's chat
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
-| 1 🥇  | miyabwah  | 99 (+22) |
-| 2 🥈  | rainedparade  | 89 (+14) |
-| 3 🥉  | goopy777  | 73 (+10) |
-| 4  | pompadourdelinquent  | 63 (+17) |
-| 5  | hello0d  | 51 (+6) |
-| 6  | e1d2f3  | 37 (+6) |
-| 7  | poioce  | 36 (+12) |
-| 8 🆕 | teeto  | 24 |
-| 9 ⬇ | cptblack_  | 23 (+4) |
-| 10 ⬇ | crunch_sack  | 19 (+3) |
-| 11  | jellyuh  | 13 (+3) |
-| 11 ⬇ | pxxchy_dreams  | 13 |
+| 1 🥇  | miyabwah  | 124 (+25) |
+| 2 🥈  | rainedparade  | 113 (+24) |
+| 3 🥉  | goopy777  | 81 (+8) |
+| 4  | pompadourdelinquent  | 68 (+5) |
+| 5  | hello0d  | 60 (+9) |
+| 6 ⬆ | poioce  | 51 (+15) |
+| 7 ⬆ | teeto  | 39 (+15) |
+| 8 ⬇ | e1d2f3  | 37 |
+| 9 ⬆ | crunch_sack  | 24 (+5) |
+| 10 ⬇ | cptblack_  | 23 |
+| 11  | jellyuh  | 14 (+1) |
+| 12 ⬇ | pxxchy_dreams  | 13 |
+| 13 🆕 | wombatbrownies  | 11 |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-03-09 11:14:39 UTC_
+_Last updated at 2025-03-16 09:30:52 UTC_

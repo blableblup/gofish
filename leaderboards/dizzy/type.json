@@ -179,7 +179,7 @@
 		"chat": "dizzy",
 		"fishid": 122489,
 		"chatid": 5103,
-		"rank": 79
+		"rank": 80
 	},
 	"cannedfood": {
 		"player": "gimmeschmoneys",
@@ -207,10 +207,10 @@
 		"chat": "dizzy",
 		"fishid": 145202,
 		"chatid": 8949,
-		"rank": 81
+		"rank": 82
 	},
 	"coat": {
-		"player": "gofishrigged",
+		"player": "iam_glorp",
 		"playerid": 3448,
 		"weight": 6.78,
 		"bot": "gofishgame",
@@ -406,7 +406,7 @@
 		"rank": 57
 	},
 	"feather": {
-		"player": "gofishrigged",
+		"player": "iam_glorp",
 		"playerid": 3448,
 		"weight": 0.92,
 		"bot": "gofishgame",
@@ -417,7 +417,7 @@
 		"chat": "dizzy",
 		"fishid": 144693,
 		"chatid": 8911,
-		"rank": 80
+		"rank": 81
 	},
 	"fish": {
 		"player": "sugur",
@@ -459,7 +459,7 @@
 		"chat": "dizzy",
 		"fishid": 119744,
 		"chatid": 4110,
-		"rank": 77
+		"rank": 78
 	},
 	"hook": {
 		"player": "ben_vincent",
@@ -490,7 +490,7 @@
 		"rank": 29
 	},
 	"iceskate": {
-		"player": "gofishrigged",
+		"player": "iam_glorp",
 		"playerid": 3448,
 		"weight": 1.92,
 		"bot": "gofishgame",
@@ -767,7 +767,7 @@
 		"chat": "dizzy",
 		"fishid": 135116,
 		"chatid": 7987,
-		"rank": 82
+		"rank": 83
 	},
 	"seal": {
 		"player": "wisteraeia",
@@ -795,10 +795,10 @@
 		"chat": "dizzy",
 		"fishid": 152004,
 		"chatid": 9499,
-		"rank": 77
+		"rank": 78
 	},
 	"shamrock": {
-		"player": "gofishrigged",
+		"player": "iam_glorp",
 		"playerid": 3448,
 		"weight": 3.77,
 		"bot": "gofishgame",
@@ -812,7 +812,7 @@
 		"rank": 65
 	},
 	"shark": {
-		"player": "gofishrigged",
+		"player": "iam_glorp",
 		"playerid": 3448,
 		"weight": 256.96,
 		"bot": "gofishgame",
@@ -854,17 +854,17 @@
 		"rank": 21
 	},
 	"shrimp": {
-		"player": "ben_vincent",
-		"playerid": 3164,
-		"weight": 32.67,
+		"player": "buhl00n",
+		"playerid": 3121,
+		"weight": 32.7,
 		"bot": "gofishgame",
 		"type": "🦐",
 		"typename": "shrimp",
-		"catchtype": "normal",
-		"date": "2024-12-04T18:51:05Z",
+		"catchtype": "jumped",
+		"date": "2025-03-15T18:13:06Z",
 		"chat": "dizzy",
-		"fishid": 127626,
-		"chatid": 6584,
+		"fishid": 155453,
+		"chatid": 9872,
 		"rank": 27
 	},
 	"skull": {
@@ -1021,6 +1021,20 @@
 		"chatid": 5220,
 		"rank": 34
 	},
+	"tulip": {
+		"player": "gimmeschmoneys",
+		"playerid": 3086,
+		"weight": 1.38,
+		"bot": "gofishgame",
+		"type": "🌷",
+		"typename": "tulip",
+		"catchtype": "normal",
+		"date": "2025-03-13T11:40:09Z",
+		"chat": "dizzy",
+		"fishid": 154424,
+		"chatid": 9849,
+		"rank": 77
+	},
 	"turtle": {
 		"player": "notnownico",
 		"playerid": 3238,
@@ -1092,17 +1106,17 @@
 		"rank": 68
 	},
 	"wireline": {
-		"player": "sugur",
-		"playerid": 2997,
-		"weight": 5.62,
+		"player": "hamoodhabibee",
+		"playerid": 3002,
+		"weight": 5.66,
 		"bot": "gofishgame",
 		"type": "🧵",
 		"typename": "wireline",
 		"catchtype": "normal",
-		"date": "2024-12-21T00:13:44Z",
+		"date": "2025-03-15T23:00:16Z",
 		"chat": "dizzy",
-		"fishid": 132919,
-		"chatid": 7660,
+		"fishid": 155560,
+		"chatid": 9892,
 		"rank": 60
 	},
 	"womanshat": {

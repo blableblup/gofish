@@ -1,34 +1,35 @@
 ### Most fish caught in vaiastol's chat
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
-| 1 🥇  | vaiastol  | 1488 (+43) |
-| 2 🥈  | hahppyy  | 950 (+53) |
-| 3 🥉  | leastsussyimposter  | 328 (+8) |
-| 4  | divra__  | 311 (+16) |
-| 5  | pengeg  | 237 |
-| 6  | dayzedinndaydreams  | 214 |
-| 7 ⬆ | eelacy  | 206 (+66) |
-| 8 ⬇ | leanmeister  | 195 (+31) |
-| 9 ⬇ | nicestnarwhal  | 177 (+22) |
+| 1 🥇  | vaiastol  | 1525 (+37) |
+| 2 🥈  | hahppyy  | 980 (+30) |
+| 3 🥉  | leastsussyimposter  | 334 (+6) |
+| 4  | divra__  | 329 (+18) |
+| 5 ⬆ | eelacy  | 268 (+62) |
+| 6 ⬇ | pengeg  | 237 |
+| 7 ⬆ | nicestnarwhal  | 224 (+47) |
+| 8 ⬇ | dayzedinndaydreams  | 218 (+4) |
+| 9 ⬇ | leanmeister  | 212 (+17) |
 | 10  | milesdotcom  | 137 |
-| 11  | beebo8i  | 108 (+1) |
+| 11  | beebo8i  | 108 |
 | 12  | julialuxel  | 88 |
-| 13  | yoimlee  | 56 |
-| 14  | bubinga  | 55 |
-| 15 ⬆ | tiaguitos97  | 37 (+23) |
-| 16 ⬇ | garout  | 28 (+2) |
-| 17 ⬇ | houseofleaves*  | 25 |
-| 18  | fvkdylan  | 21 (+3) |
-| 19 ⬇ | larvasisters  | 19 |
-| 20 ⬇ | jr_mime  | 17 |
-| 21 ⬇ | cyaniderx  | 15 |
-| 21 ⬇ | ermnest  | 15 |
-| 21 🆕 | rird_  | 15 |
-| 24 ⬇ | kaseyfart  | 14 |
-| 24 ⬇ | mitgliederversammlung  | 14 |
-| 26 ⬇ | creepycode*  | 13 |
-| 26 🆕 | verypeppy  | 13 |
+| 13 ⬆ | tiaguitos97  | 60 (+23) |
+| 14 ⬇ | yoimlee  | 56 |
+| 15 ⬇ | bubinga  | 55 |
+| 16  | garout  | 32 (+4) |
+| 17 ⬆ | fvkdylan  | 31 (+10) |
+| 18 ⬇ | houseofleaves*  | 25 |
+| 19 ⬆ | rird_  | 20 (+5) |
+| 20 ⬇ | larvasisters  | 19 |
+| 21 ⬇ | jr_mime  | 17 |
+| 22 ⬇ | cyaniderx  | 16 (+1) |
+| 23 ⬇ | ermnest  | 15 |
+| 23 ⬆ | mitgliederversammlung  | 15 (+1) |
+| 25 ⬇ | kaseyfart  | 14 |
+| 25 ⬆ | verypeppy  | 14 (+1) |
+| 27 ⬇ | creepycode*  | 13 |
+| 28 🆕 | devroyalty  | 10 |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-03-09 11:14:39 UTC_
+_Last updated at 2025-03-16 09:30:52 UTC_
