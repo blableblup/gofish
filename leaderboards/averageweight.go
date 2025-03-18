@@ -172,13 +172,8 @@ func getAverageWeights(params LeaderboardParams) (map[string]data.FishInfo, erro
 				return Weights, err
 			}
 
-			err := pool.QueryRow(context.Background(), "SELECT fishtype FROM fishinfo WHERE fishname = $1", fishInfo.TypeName).Scan(&fishInfo.Type)
+			fishInfo.Type, err = FishStuff(fishInfo.TypeName, params, pool)
 			if err != nil {
-				logs.Logs().Error().Err(err).
-					Str("Fish name", fishInfo.TypeName).
-					Str("Board", board).
-					Str("Chat", chatName).
-					Msg("Error retrieving fish type for fish name")
 				return Weights, err
 			}
 

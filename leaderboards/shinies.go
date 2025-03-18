@@ -132,24 +132,9 @@ func getShinies(params LeaderboardParams) (map[int]data.FishInfo, error) {
 			return Shinies, err
 		}
 
-		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Player)
+		fishInfo.Player, _, fishInfo.Verified, err = PlayerStuff(fishInfo.PlayerID, params, pool)
 		if err != nil {
-			logs.Logs().Error().Err(err).
-				Int("PlayerID", fishInfo.PlayerID).
-				Str("Board", board).
-				Msg("Error retrieving player name for id")
 			return Shinies, err
-		}
-
-		if fishInfo.Bot == "supibot" {
-			err := pool.QueryRow(context.Background(), "SELECT verified FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Verified)
-			if err != nil {
-				logs.Logs().Error().Err(err).
-					Int("PlayerID", fishInfo.PlayerID).
-					Str("Board", board).
-					Msg("Error retrieving verified status for playerid")
-				return nil, err
-			}
 		}
 
 		fishInfo.ChatPfp = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", fishInfo.Chat, fishInfo.Chat)

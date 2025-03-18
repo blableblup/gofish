@@ -16,8 +16,8 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 
-// store the players in a map, for their verified status, their current name and when they started fishing
-// useful when updating all the leaderboards at once
+// Store the players in a map, for their verified status, their current name and when they started fishing
+// useful when updating all the leaderboards at once; firstfishdate is ignored on some boards where you already get date
 // the first fishdate only matters if the player fished on supi, would be better to get min(date) from fish for the player
 // firstfishdate is set for when the player first was added and is never updated afterwards,
 // so the player might have fished earlier in a chat which wasnt covered for example or during a downtime
@@ -51,6 +51,30 @@ func PlayerStuff(playerID int, params LeaderboardParams, pool *pgxpool.Pool) (st
 	}
 
 	return name, firstfishdate, verified.Bool, nil
+}
+
+// because some fish had different emotes on supibot, i always get the latest emoji from fishinfo
+func FishStuff(fishName string, params LeaderboardParams, pool *pgxpool.Pool) (string, error) {
+	var emoji string
+
+	if _, ok := params.FishTypes[fishName]; !ok {
+		err := pool.QueryRow(context.Background(), "SELECT fishtype FROM fishinfo WHERE fishname = $1", fishName).Scan(&emoji)
+		if err != nil {
+			logs.Logs().Error().Err(err).
+				Str("FishName", fishName).
+				Str("Chat", params.ChatName).
+				Str("Board", params.LeaderboardType).
+				Msg("Error retrieving fish type for fish name")
+			return emoji, err
+		}
+
+		params.FishTypes[fishName] = emoji
+
+	} else {
+		emoji = params.FishTypes[fishName]
+	}
+
+	return emoji, nil
 }
 
 func getJsonBoard(filePath string) (map[int]data.FishInfo, error) {

@@ -133,6 +133,7 @@ func getRecords(params LeaderboardParams, weightlimit float64) (map[int]data.Fis
 	date := params.Date
 
 	recordFish := make(map[int]data.FishInfo)
+	var err error
 
 	for {
 		var fishInfo data.FishInfo
@@ -182,36 +183,14 @@ func getRecords(params LeaderboardParams, weightlimit float64) (map[int]data.Fis
 			}
 		}
 
-		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Player)
+		fishInfo.Player, _, fishInfo.Verified, err = PlayerStuff(fishInfo.PlayerID, params, pool)
 		if err != nil {
-			logs.Logs().Error().Err(err).
-				Int("PlayerID", fishInfo.PlayerID).
-				Str("Board", board).
-				Str("Chat", chatName).
-				Msg("Error retrieving player name for id")
-			return nil, err
+			return recordFish, err
 		}
 
-		if fishInfo.Bot == "supibot" {
-			err := pool.QueryRow(context.Background(), "SELECT verified FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Verified)
-			if err != nil {
-				logs.Logs().Error().Err(err).
-					Int("PlayerID", fishInfo.PlayerID).
-					Str("Board", board).
-					Str("Chat", chatName).
-					Msg("Error retrieving verified status for playerid")
-				return nil, err
-			}
-		}
-
-		err = pool.QueryRow(context.Background(), "SELECT fishtype FROM fishinfo WHERE fishname = $1", fishInfo.TypeName).Scan(&fishInfo.Type)
+		fishInfo.Type, err = FishStuff(fishInfo.TypeName, params, pool)
 		if err != nil {
-			logs.Logs().Error().Err(err).
-				Str("FishName", fishInfo.TypeName).
-				Str("Board", board).
-				Str("Chat", chatName).
-				Msg("Error retrieving fish type for fish name")
-			return nil, err
+			return recordFish, err
 		}
 
 		if global {

@@ -215,23 +215,13 @@ func getChatStats(params LeaderboardParams) (map[string]data.FishInfo, error) {
 			return chatStats, err
 		}
 
-		err = pool.QueryRow(context.Background(), "SELECT fishtype FROM fishinfo WHERE fishname = $1", chatInfo.TypeName).Scan(&chatInfo.Type)
+		chatInfo.Player, _, _, err = PlayerStuff(chatInfo.PlayerID, params, pool)
 		if err != nil {
-			logs.Logs().Error().Err(err).
-				Str("Chat", chatName).
-				Str("Fishname", chatInfo.TypeName).
-				Str("Board", board).
-				Msg("Error retrieving fish type for fish name")
 			return chatStats, err
 		}
 
-		err = pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", chatInfo.PlayerID).Scan(&chatInfo.Player)
+		chatInfo.Type, err = FishStuff(chatInfo.TypeName, params, pool)
 		if err != nil {
-			logs.Logs().Error().Err(err).
-				Str("Chat", chatName).
-				Int("PlayerID", chatInfo.PlayerID).
-				Str("Board", board).
-				Msg("Error retrieving player name for id")
 			return chatStats, err
 		}
 
