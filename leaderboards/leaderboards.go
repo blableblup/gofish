@@ -1,6 +1,7 @@
 package leaderboards
 
 import (
+	"gofish/data"
 	"gofish/logs"
 	"gofish/utils"
 	"regexp"
@@ -47,16 +48,19 @@ func Leaderboards(pool *pgxpool.Pool, leaderboards string, chatNames string, dat
 		return
 	}
 
+	// Store the flags, the connection, the config and initialize the two maps for storing player and fish data
 	params := LeaderboardParams{
-		Pool:     pool,
-		Mode:     mode,
-		ChatName: chatNames,
-		Config:   config,
-		Date:     date,
-		Date2:    date2,
-		Path:     path,
-		Title:    title,
-		Limit:    limit,
+		Pool:      pool,
+		Mode:      mode,
+		ChatName:  chatNames,
+		Config:    config,
+		Date:      date,
+		Date2:     date2,
+		Path:      path,
+		Title:     title,
+		Limit:     limit,
+		Players:   make(map[int]data.FishInfo),
+		FishTypes: make(map[string]string),
 	}
 
 	// map of all the boards
@@ -244,6 +248,9 @@ type LeaderboardConfig struct {
 }
 
 // This is holding the flags (like -title and -path...)
+// players is to store the info about the players
+// to get their latest name, verified status and when they started fishing
+// fishtypes is to store the latest emoji for a fishname
 type LeaderboardParams struct {
 	Chat            utils.ChatInfo
 	Pool            *pgxpool.Pool
@@ -257,6 +264,8 @@ type LeaderboardParams struct {
 	Mode            string
 	LeaderboardType string
 	Global          bool
+	Players         map[int]data.FishInfo
+	FishTypes       map[string]string
 }
 
 func isValidDate(date string) bool {

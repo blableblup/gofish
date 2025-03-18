@@ -176,26 +176,13 @@ func getCount(params LeaderboardParams, countlimit int) (map[int]data.FishInfo, 
 			return fishCaught, err
 		}
 
-		err := pool.QueryRow(context.Background(), "SELECT name, firstfishdate FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Player, &fishInfo.Date)
+		fishInfo.Player, fishInfo.Date, fishInfo.Verified, err = PlayerStuff(fishInfo.PlayerID, params, pool)
 		if err != nil {
-			logs.Logs().Error().Err(err).
-				Int("PlayerID", fishInfo.PlayerID).
-				Str("Chat", chatName).
-				Str("Board", board).
-				Msg("Error retrieving player name for id")
 			return fishCaught, err
 		}
+
 		if fishInfo.Date.Before(time.Date(2023, time.September, 14, 0, 0, 0, 0, time.UTC)) {
 			fishInfo.Bot = "supibot"
-			err := pool.QueryRow(context.Background(), "SELECT verified FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Verified)
-			if err != nil {
-				logs.Logs().Error().Err(err).
-					Int("PlayerID", fishInfo.PlayerID).
-					Str("Chat", chatName).
-					Str("Board", board).
-					Msg("Error retrieving verified status for playerid")
-				return fishCaught, err
-			}
 		}
 
 		fishCaught[fishInfo.PlayerID] = fishInfo

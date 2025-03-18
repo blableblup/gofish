@@ -148,26 +148,10 @@ func getFishWeek(params LeaderboardParams, fishweeklimit int) (map[int]data.Fish
 			return maxFishInWeek, err
 		}
 
-		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Player)
+		// dont overwrite fishinfo date from the query; but fishinfo date isnt used for anything ?
+		fishInfo.Player, _, fishInfo.Verified, err = PlayerStuff(fishInfo.PlayerID, params, pool)
 		if err != nil {
-			logs.Logs().Error().Err(err).
-				Int("PlayerID", fishInfo.PlayerID).
-				Str("Board", board).
-				Str("Chat", chatName).
-				Msg("Error retrieving player name for id")
 			return maxFishInWeek, err
-		}
-
-		if fishInfo.Bot == "supibot" {
-			err := pool.QueryRow(context.Background(), "SELECT verified FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Verified)
-			if err != nil {
-				logs.Logs().Error().Err(err).
-					Int("PlayerID", fishInfo.PlayerID).
-					Str("Board", board).
-					Str("Chat", chatName).
-					Msg("Error retrieving verified status for playerid")
-				return maxFishInWeek, err
-			}
 		}
 
 		maxFishInWeek[fishInfo.PlayerID] = fishInfo

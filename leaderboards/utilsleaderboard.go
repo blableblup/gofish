@@ -1,6 +1,8 @@
 package leaderboards
 
 import (
+	"context"
+	"database/sql"
 	"encoding/json"
 	"fmt"
 	"gofish/data"
@@ -9,7 +11,47 @@ import (
 	"path/filepath"
 	"sort"
 	"strings"
+	"time"
+
+	"github.com/jackc/pgx/v5/pgxpool"
 )
+
+// store the players in a map, for their verified status, their current name and when they started fishing
+// useful when updating all the leaderboards at once
+// the first fishdate only matters if the player fished on supi, would be better to get min(date) from fish for the player
+// firstfishdate is set for when the player first was added and is never updated afterwards,
+// so the player might have fished earlier in a chat which wasnt covered for example or during a downtime
+// and also, firstfishdate could also be when the player first did + bag
+func PlayerStuff(playerID int, params LeaderboardParams, pool *pgxpool.Pool) (string, time.Time, bool, error) {
+
+	var name string
+	var firstfishdate time.Time
+	var verified sql.NullBool
+
+	if _, ok := params.Players[playerID]; !ok {
+		err := pool.QueryRow(context.Background(), "SELECT name, firstfishdate, verified FROM playerdata WHERE playerid = $1", playerID).Scan(&name, &firstfishdate, &verified)
+		if err != nil {
+			logs.Logs().Error().Err(err).
+				Int("PlayerID", playerID).
+				Str("Chat", params.ChatName).
+				Str("Board", params.LeaderboardType).
+				Msg("Error retrieving player name for id")
+			return name, firstfishdate, verified.Bool, err
+		}
+
+		params.Players[playerID] = data.FishInfo{
+			Player:   name,
+			Date:     firstfishdate,
+			Verified: verified.Bool,
+		}
+	} else {
+		name = params.Players[playerID].Player
+		firstfishdate = params.Players[playerID].Date
+		verified.Bool = params.Players[playerID].Verified
+	}
+
+	return name, firstfishdate, verified.Bool, nil
+}
 
 func getJsonBoard(filePath string) (map[int]data.FishInfo, error) {
 

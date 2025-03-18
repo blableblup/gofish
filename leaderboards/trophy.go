@@ -132,13 +132,9 @@ func getTrophies(params LeaderboardParams) (map[int]data.FishInfo, error) {
 			return playerCounts, err
 		}
 
-		err := pool.QueryRow(context.Background(), "SELECT name FROM playerdata WHERE playerid = $1", fishInfo.PlayerID).Scan(&fishInfo.Player)
+		// date and verified arent needed here
+		fishInfo.Player, _, _, err = PlayerStuff(fishInfo.PlayerID, params, pool)
 		if err != nil {
-			logs.Logs().Error().Err(err).
-				Int("PlayerID", fishInfo.PlayerID).
-				Str("Chat", chatName).
-				Str("Board", board).
-				Msg("Error retrieving player name for id")
 			return playerCounts, err
 		}
 
