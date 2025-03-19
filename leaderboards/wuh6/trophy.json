@@ -10,39 +10,39 @@
 	"1344": {
 		"player": "gorillapark",
 		"playerid": 1344,
-		"weight": 2,
+		"weight": 3,
 		"date": "0001-01-01T00:00:00Z",
-		"chatid": 2,
-		"rank": 10
+		"chatid": 3,
+		"rank": 9
 	},
 	"1427": {
 		"player": "wowitsdub",
 		"playerid": 1427,
-		"weight": 6.5,
+		"weight": 7,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 2,
-		"maxcount": 1,
+		"maxcount": 2,
 		"rank": 7
 	},
 	"164": {
 		"player": "huuuuuuuuuuuuuuuuuuuuuurz",
 		"playerid": 164,
-		"weight": 16.5,
+		"weight": 23.5,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 4,
-		"chatid": 1,
+		"fishid": 6,
+		"chatid": 2,
 		"maxcount": 7,
-		"rank": 5
+		"rank": 4
 	},
 	"2187": {
 		"player": "theevirus",
 		"playerid": 2187,
-		"weight": 22.5,
+		"weight": 23,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 4,
 		"chatid": 7,
-		"maxcount": 7,
-		"rank": 4
+		"maxcount": 8,
+		"rank": 5
 	},
 	"2219": {
 		"player": "veny2lbs",
@@ -56,10 +56,10 @@
 	"2339": {
 		"player": "bubinga",
 		"playerid": 2339,
-		"weight": 27.5,
+		"weight": 31.5,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 6,
-		"chatid": 8,
+		"fishid": 7,
+		"chatid": 9,
 		"maxcount": 3,
 		"rank": 3
 	},
@@ -108,7 +108,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 2,
 		"maxcount": 1,
-		"rank": 9
+		"rank": 10
 	},
 	"500": {
 		"player": "caprisen_",

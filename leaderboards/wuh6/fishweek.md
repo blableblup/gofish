@@ -15,11 +15,11 @@
 | 12  | caprisen_  | 51 |
 | 13  | veny2lbs  | 47 |
 | 14  | zwockel01  | 40 |
-| 15 ⬆ | gorillapark  | 29 (+6) |
-| 16 ⬇ | flovrek  | 24 |
+| 15  | gorillapark  | 31 (+2) |
+| 16  | flovrek  | 24 |
 | 17  | wuh6  | 18 |
 | 18  | liiiiiiiiiilly  | 11 |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-03-12 10:42:59 UTC_
+_Last updated at 2025-03-19 11:05:32 UTC_

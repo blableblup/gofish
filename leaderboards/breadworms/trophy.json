@@ -52,7 +52,7 @@
 		"weight": 6,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 2,
-		"rank": 21
+		"rank": 22
 	},
 	"128": {
 		"player": "mochi_uygqzidbjizjkbehuiw",
@@ -75,12 +75,12 @@
 	"135": {
 		"player": "leanmeister",
 		"playerid": 135,
-		"weight": 120,
+		"weight": 127,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 36,
-		"chatid": 10,
+		"fishid": 38,
+		"chatid": 11,
 		"maxcount": 4,
-		"rank": 3
+		"rank": 2
 	},
 	"1369": {
 		"player": "eaeac",
@@ -105,21 +105,21 @@
 	"14": {
 		"player": "ninjaross",
 		"playerid": 14,
-		"weight": 7.5,
+		"weight": 9,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 1,
-		"chatid": 1,
-		"maxcount": 7,
-		"rank": 20
+		"chatid": 2,
+		"maxcount": 8,
+		"rank": 19
 	},
 	"1459": {
 		"player": "fishingalt",
 		"playerid": 1459,
-		"weight": 22,
+		"weight": 22.5,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 4,
 		"chatid": 7,
-		"maxcount": 6,
+		"maxcount": 7,
 		"rank": 14
 	},
 	"1737": {
@@ -176,7 +176,7 @@
 		"fishid": 2,
 		"chatid": 1,
 		"maxcount": 2,
-		"rank": 19
+		"rank": 21
 	},
 	"26": {
 		"player": "breadworms",
@@ -204,7 +204,15 @@
 		"fishid": 1,
 		"chatid": 1,
 		"maxcount": 10,
-		"rank": 18
+		"rank": 19
+	},
+	"2881": {
+		"player": "fvkdylan",
+		"playerid": 2881,
+		"weight": 0.5,
+		"date": "0001-01-01T00:00:00Z",
+		"maxcount": 1,
+		"rank": 37
 	},
 	"2889": {
 		"player": "receipts",
@@ -237,11 +245,12 @@
 	"3537": {
 		"player": "destin357",
 		"playerid": 3537,
-		"weight": 6,
+		"weight": 10,
 		"date": "0001-01-01T00:00:00Z",
-		"chatid": 5,
+		"fishid": 1,
+		"chatid": 6,
 		"maxcount": 2,
-		"rank": 21
+		"rank": 18
 	},
 	"38": {
 		"player": "niiy",
@@ -316,7 +325,7 @@
 		"fishid": 31,
 		"chatid": 24,
 		"maxcount": 6,
-		"rank": 3
+		"rank": 4
 	},
 	"64": {
 		"player": "julialuxel",
