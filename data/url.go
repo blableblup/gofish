@@ -44,42 +44,45 @@ func CreateURL(chatName string, chat utils.ChatInfo, numMonths int, monthYear st
 	}
 
 	// Get the selected instances, default instance is "0" which is the first in the slice
-	// Can be the number of the instance in the config slice, or the name of the instance; like -instance 2,ivr,potat
+	// Can be the number of the instance in the config slice, or the name of the instance; like -instance 2,ivr,potat, or all of a chats instances
 	// Double selecting the same instance doesnt work; that will just overwrite selectedInstances[...]...
-	// But checking multiple instances for the same chat at the same time will just add the same fish multiple times
-	// Even with mode "a",(if the fish was missing in the db), so this is kinda useless ?
-	// Thats also why there is no -instance all, or maybe could update data to check if the fish also exists in the fish slice instead of only in the db
-	// to remove duplicates from the other instances ?
+	// checking multiple instances for the same chat at the same time will add the same fish multiple times if mode isnt 'a'
 	selectedInstances := make(map[string]string)
-	instances := strings.Split(logInstance, ",")
-	for a := range instances {
-		instance, err := strconv.Atoi(instances[a])
-		if err != nil {
-			// Check if the name of an instance was selected instead
-			thatinstanceexists := false
-			for _, existinginstance := range chat.LogsInstances {
-				if strings.Contains(existinginstance.URL, instances[a]) {
-					selectedInstances[existinginstance.URL] = existinginstance.LogsAdded
-					thatinstanceexists = true
-					break
-				}
-			}
-			if !thatinstanceexists {
-				logs.Logs().Fatal().
-					Str("Chat", chatName).
-					Str("Instance", instances[a]).
-					Msg("Selected instance does not exist")
-			}
-		} else {
-			// If err nil, select the element of the slice as the instance
-			if len(chat.LogsInstances) <= instance {
-				logs.Logs().Fatal().
-					Str("Chat", chatName).
-					Int("Selected instance", instance).
-					Interface("Available instances", chat.LogsInstances).
-					Msg("Chat does not have that many different instances !")
-			}
+	if logInstance == "all" {
+		for instance := range chat.LogsInstances {
 			selectedInstances[chat.LogsInstances[instance].URL] = chat.LogsInstances[instance].LogsAdded
+		}
+	} else {
+		instances := strings.Split(logInstance, ",")
+		for a := range instances {
+			instance, err := strconv.Atoi(instances[a])
+			if err != nil {
+				// Check if the name of an instance was selected instead
+				thatinstanceexists := false
+				for _, existinginstance := range chat.LogsInstances {
+					if strings.Contains(existinginstance.URL, instances[a]) {
+						selectedInstances[existinginstance.URL] = existinginstance.LogsAdded
+						thatinstanceexists = true
+						break
+					}
+				}
+				if !thatinstanceexists {
+					logs.Logs().Fatal().
+						Str("Chat", chatName).
+						Str("Instance", instances[a]).
+						Msg("Selected instance does not exist")
+				}
+			} else {
+				// If err nil, select the element of the slice as the instance
+				if len(chat.LogsInstances) <= instance {
+					logs.Logs().Fatal().
+						Str("Chat", chatName).
+						Int("Selected instance", instance).
+						Interface("Available instances", chat.LogsInstances).
+						Msg("Chat does not have that many different instances !")
+				}
+				selectedInstances[chat.LogsInstances[instance].URL] = chat.LogsInstances[instance].LogsAdded
+			}
 		}
 	}
 
