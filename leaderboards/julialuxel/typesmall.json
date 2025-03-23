@@ -11,7 +11,8 @@
 		"chat": "julialuxel",
 		"fishid": 155542,
 		"chatid": 330,
-		"rank": 22
+		"verified": true,
+		"rank": 21
 	},
 	"acorn": {
 		"player": "julialuxel",
@@ -25,6 +26,7 @@
 		"chat": "julialuxel",
 		"fishid": 105288,
 		"chatid": 294,
+		"verified": true,
 		"rank": 28
 	},
 	"athleticshoe": {
@@ -53,6 +55,7 @@
 		"chat": "julialuxel",
 		"fishid": 106961,
 		"chatid": 297,
+		"verified": true,
 		"rank": 7
 	},
 	"blackbird": {
@@ -81,7 +84,7 @@
 		"chat": "julialuxel",
 		"fishid": 58775,
 		"chatid": 227,
-		"rank": 23
+		"rank": 22
 	},
 	"boot": {
 		"player": "toastyso",
@@ -123,6 +126,7 @@
 		"chat": "julialuxel",
 		"fishid": 51986,
 		"chatid": 93,
+		"verified": true,
 		"rank": 41
 	},
 	"coral": {
@@ -165,6 +169,7 @@
 		"chat": "julialuxel",
 		"fishid": 134631,
 		"chatid": 306,
+		"verified": true,
 		"rank": 26
 	},
 	"dolphin": {
@@ -221,6 +226,7 @@
 		"chat": "julialuxel",
 		"fishid": 70501,
 		"chatid": 275,
+		"verified": true,
 		"rank": 34
 	},
 	"gloves": {
@@ -263,6 +269,7 @@
 		"chat": "julialuxel",
 		"fishid": 53884,
 		"chatid": 173,
+		"verified": true,
 		"rank": 14
 	},
 	"iceskate": {
@@ -280,18 +287,19 @@
 		"rank": 38
 	},
 	"iphone": {
-		"player": "gawblemachine",
-		"playerid": 2125,
-		"weight": 5.63,
+		"player": "julialuxel",
+		"playerid": 64,
+		"weight": 2.28,
 		"bot": "gofishgame",
 		"type": "📱",
 		"typename": "iphone",
 		"catchtype": "normal",
-		"date": "2024-10-17T19:29:24Z",
+		"date": "2025-03-16T00:00:13Z",
 		"chat": "julialuxel",
-		"fishid": 110346,
-		"chatid": 298,
-		"rank": 15
+		"fishid": 155583,
+		"chatid": 331,
+		"verified": true,
+		"rank": 24
 	},
 	"lizard": {
 		"player": "dayzedinndaydreams",
@@ -305,6 +313,7 @@
 		"chat": "julialuxel",
 		"fishid": 70499,
 		"chatid": 273,
+		"verified": true,
 		"rank": 31
 	},
 	"lobster": {
@@ -333,6 +342,7 @@
 		"chat": "julialuxel",
 		"fishid": 82110,
 		"chatid": 289,
+		"verified": true,
 		"rank": 45
 	},
 	"mushroom": {
@@ -347,7 +357,7 @@
 		"chat": "julialuxel",
 		"fishid": 52531,
 		"chatid": 115,
-		"rank": 16
+		"rank": 15
 	},
 	"nestwitheggs": {
 		"player": "julialuxel",
@@ -361,6 +371,7 @@
 		"chat": "julialuxel",
 		"fishid": 134561,
 		"chatid": 305,
+		"verified": true,
 		"rank": 25
 	},
 	"octopus": {
@@ -389,6 +400,7 @@
 		"chat": "julialuxel",
 		"fishid": 48379,
 		"chatid": 5,
+		"verified": true,
 		"rank": 27
 	},
 	"oyster": {
@@ -403,7 +415,7 @@
 		"chat": "julialuxel",
 		"fishid": 53406,
 		"chatid": 146,
-		"rank": 20
+		"rank": 19
 	},
 	"penguin": {
 		"player": "ryebreadward",
@@ -431,7 +443,7 @@
 		"chat": "julialuxel",
 		"fishid": 56505,
 		"chatid": 212,
-		"rank": 19
+		"rank": 18
 	},
 	"rock": {
 		"player": "hahppyy",
@@ -473,6 +485,7 @@
 		"chat": "julialuxel",
 		"fishid": 52866,
 		"chatid": 125,
+		"verified": true,
 		"rank": 3
 	},
 	"scarf": {
@@ -529,6 +542,7 @@
 		"chat": "julialuxel",
 		"fishid": 69592,
 		"chatid": 253,
+		"verified": true,
 		"rank": 49
 	},
 	"shark": {
@@ -543,6 +557,7 @@
 		"chat": "julialuxel",
 		"fishid": 54059,
 		"chatid": 186,
+		"verified": true,
 		"rank": 2
 	},
 	"shell": {
@@ -571,6 +586,7 @@
 		"chat": "julialuxel",
 		"fishid": 54068,
 		"chatid": 188,
+		"verified": true,
 		"rank": 35
 	},
 	"skull": {
@@ -585,6 +601,7 @@
 		"chat": "julialuxel",
 		"fishid": 70500,
 		"chatid": 274,
+		"verified": true,
 		"rank": 13
 	},
 	"snail": {
@@ -599,6 +616,7 @@
 		"chat": "julialuxel",
 		"fishid": 69613,
 		"chatid": 255,
+		"verified": true,
 		"rank": 37
 	},
 	"snake": {
@@ -627,6 +645,7 @@
 		"chat": "julialuxel",
 		"fishid": 66058,
 		"chatid": 247,
+		"verified": true,
 		"rank": 44
 	},
 	"spider": {
@@ -655,7 +674,7 @@
 		"chat": "julialuxel",
 		"fishid": 48332,
 		"chatid": 3,
-		"rank": 24
+		"rank": 23
 	},
 	"teddybear": {
 		"player": "toastyso",
@@ -683,6 +702,7 @@
 		"chat": "julialuxel",
 		"fishid": 77969,
 		"chatid": 287,
+		"verified": true,
 		"rank": 8
 	},
 	"turtle": {
@@ -697,7 +717,7 @@
 		"chat": "julialuxel",
 		"fishid": 53630,
 		"chatid": 158,
-		"rank": 21
+		"rank": 20
 	},
 	"whale": {
 		"player": "hahppyy",
@@ -725,7 +745,8 @@
 		"chat": "julialuxel",
 		"fishid": 52267,
 		"chatid": 102,
-		"rank": 17
+		"verified": true,
+		"rank": 16
 	},
 	"wireline": {
 		"player": "julialuxel",
@@ -739,6 +760,7 @@
 		"chat": "julialuxel",
 		"fishid": 155140,
 		"chatid": 328,
-		"rank": 18
+		"verified": true,
+		"rank": 17
 	}
 }

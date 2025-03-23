@@ -25,6 +25,7 @@
 		"chat": "swormbeard",
 		"fishid": 110980,
 		"chatid": 54,
+		"verified": true,
 		"rank": 3
 	},
 	"135": {
@@ -39,6 +40,7 @@
 		"chat": "swormbeard",
 		"fishid": 155146,
 		"chatid": 324,
+		"verified": true,
 		"rank": 5
 	},
 	"14": {
@@ -53,7 +55,7 @@
 		"chat": "swormbeard",
 		"fishid": 110936,
 		"chatid": 10,
-		"rank": 10
+		"rank": 11
 	},
 	"17": {
 		"player": "mitgliederversammlung",
@@ -67,6 +69,7 @@
 		"chat": "swormbeard",
 		"fishid": 111012,
 		"chatid": 86,
+		"verified": true,
 		"rank": 4
 	},
 	"21": {
@@ -81,7 +84,8 @@
 		"chat": "swormbeard",
 		"fishid": 111061,
 		"chatid": 135,
-		"rank": 11
+		"verified": true,
+		"rank": 12
 	},
 	"2125": {
 		"player": "gawblemachine",
@@ -95,7 +99,7 @@
 		"chat": "swormbeard",
 		"fishid": 110984,
 		"chatid": 58,
-		"rank": 8
+		"rank": 9
 	},
 	"2525": {
 		"player": "respirate_",
@@ -114,16 +118,16 @@
 	"3638": {
 		"player": "derintu",
 		"playerid": 3638,
-		"weight": 86.36,
+		"weight": 103.86,
 		"bot": "gofishgame",
-		"type": "🐊",
-		"typename": "crocodile",
+		"type": "🦈",
+		"typename": "shark",
 		"catchtype": "normal",
-		"date": "2025-03-15T17:08:06Z",
+		"date": "2025-03-22T19:45:15Z",
 		"chat": "swormbeard",
-		"fishid": 155422,
-		"chatid": 345,
-		"rank": 12
+		"fishid": 157812,
+		"chatid": 443,
+		"rank": 8
 	},
 	"56": {
 		"player": "dayzedinndaydreams",
@@ -137,7 +141,8 @@
 		"chat": "swormbeard",
 		"fishid": 110946,
 		"chatid": 20,
-		"rank": 9
+		"verified": true,
+		"rank": 10
 	},
 	"64": {
 		"player": "julialuxel",
@@ -151,6 +156,7 @@
 		"chat": "swormbeard",
 		"fishid": 110927,
 		"chatid": 1,
+		"verified": true,
 		"rank": 7
 	},
 	"80": {
@@ -165,6 +171,7 @@
 		"chat": "swormbeard",
 		"fishid": 155079,
 		"chatid": 311,
+		"verified": true,
 		"rank": 1
 	}
 }

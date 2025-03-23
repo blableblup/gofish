@@ -11,6 +11,7 @@
 		"chat": "julialuxel",
 		"fishid": 155120,
 		"chatid": 327,
+		"verified": true,
 		"rank": 29
 	},
 	"acorn": {
@@ -25,6 +26,7 @@
 		"chat": "julialuxel",
 		"fishid": 105288,
 		"chatid": 294,
+		"verified": true,
 		"rank": 44
 	},
 	"athleticshoe": {
@@ -53,6 +55,7 @@
 		"chat": "julialuxel",
 		"fishid": 106961,
 		"chatid": 297,
+		"verified": true,
 		"rank": 18
 	},
 	"blackbird": {
@@ -94,6 +97,7 @@
 		"chat": "julialuxel",
 		"fishid": 52238,
 		"chatid": 99,
+		"verified": true,
 		"rank": 54
 	},
 	"boot": {
@@ -163,6 +167,7 @@
 		"chat": "julialuxel",
 		"fishid": 70513,
 		"chatid": 279,
+		"verified": true,
 		"rank": 21
 	},
 	"crab": {
@@ -177,6 +182,7 @@
 		"chat": "julialuxel",
 		"fishid": 138463,
 		"chatid": 316,
+		"verified": true,
 		"rank": 34
 	},
 	"crocodile": {
@@ -219,6 +225,7 @@
 		"chat": "julialuxel",
 		"fishid": 69951,
 		"chatid": 258,
+		"verified": true,
 		"rank": 2
 	},
 	"fish": {
@@ -233,6 +240,7 @@
 		"chat": "julialuxel",
 		"fishid": 48467,
 		"chatid": 10,
+		"verified": true,
 		"rank": 17
 	},
 	"frog": {
@@ -247,6 +255,7 @@
 		"chat": "julialuxel",
 		"fishid": 60339,
 		"chatid": 236,
+		"verified": true,
 		"rank": 36
 	},
 	"gloves": {
@@ -289,6 +298,7 @@
 		"chat": "julialuxel",
 		"fishid": 53884,
 		"chatid": 173,
+		"verified": true,
 		"rank": 31
 	},
 	"iceskate": {
@@ -331,6 +341,7 @@
 		"chat": "julialuxel",
 		"fishid": 69602,
 		"chatid": 254,
+		"verified": true,
 		"rank": 32
 	},
 	"lobster": {
@@ -373,6 +384,7 @@
 		"chat": "julialuxel",
 		"fishid": 52276,
 		"chatid": 109,
+		"verified": true,
 		"rank": 27
 	},
 	"nestwitheggs": {
@@ -387,6 +399,7 @@
 		"chat": "julialuxel",
 		"fishid": 134561,
 		"chatid": 305,
+		"verified": true,
 		"rank": 41
 	},
 	"octopus": {
@@ -429,6 +442,7 @@
 		"chat": "julialuxel",
 		"fishid": 52272,
 		"chatid": 107,
+		"verified": true,
 		"rank": 14
 	},
 	"penguin": {
@@ -443,6 +457,7 @@
 		"chat": "julialuxel",
 		"fishid": 48423,
 		"chatid": 7,
+		"verified": true,
 		"rank": 15
 	},
 	"plankton": {
@@ -541,6 +556,7 @@
 		"chat": "julialuxel",
 		"fishid": 70495,
 		"chatid": 269,
+		"verified": true,
 		"rank": 51
 	},
 	"shamrock": {
@@ -611,6 +627,7 @@
 		"chat": "julialuxel",
 		"fishid": 70500,
 		"chatid": 274,
+		"verified": true,
 		"rank": 30
 	},
 	"snail": {
@@ -625,6 +642,7 @@
 		"chat": "julialuxel",
 		"fishid": 69613,
 		"chatid": 255,
+		"verified": true,
 		"rank": 48
 	},
 	"snake": {
@@ -653,6 +671,7 @@
 		"chat": "julialuxel",
 		"fishid": 66058,
 		"chatid": 247,
+		"verified": true,
 		"rank": 53
 	},
 	"spider": {
@@ -667,6 +686,7 @@
 		"chat": "julialuxel",
 		"fishid": 50026,
 		"chatid": 50,
+		"verified": true,
 		"rank": 22
 	},
 	"squid": {
@@ -681,6 +701,7 @@
 		"chat": "julialuxel",
 		"fishid": 136687,
 		"chatid": 311,
+		"verified": true,
 		"rank": 3
 	},
 	"teddybear": {
@@ -709,20 +730,22 @@
 		"chat": "julialuxel",
 		"fishid": 77969,
 		"chatid": 287,
+		"verified": true,
 		"rank": 20
 	},
 	"turtle": {
 		"player": "julialuxel",
 		"playerid": 64,
-		"weight": 73.84,
+		"weight": 80.52,
 		"bot": "gofishgame",
 		"type": "🐢",
 		"typename": "turtle",
 		"catchtype": "normal",
-		"date": "2024-12-23T17:30:06Z",
+		"date": "2025-03-16T17:21:06Z",
 		"chat": "julialuxel",
-		"fishid": 134314,
-		"chatid": 304,
+		"fishid": 155822,
+		"chatid": 332,
+		"verified": true,
 		"rank": 11
 	},
 	"whale": {
@@ -751,6 +774,7 @@
 		"chat": "julialuxel",
 		"fishid": 79058,
 		"chatid": 288,
+		"verified": true,
 		"rank": 8
 	},
 	"wireline": {
@@ -765,6 +789,7 @@
 		"chat": "julialuxel",
 		"fishid": 155140,
 		"chatid": 328,
+		"verified": true,
 		"rank": 35
 	}
 }

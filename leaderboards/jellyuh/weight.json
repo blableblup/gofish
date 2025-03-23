@@ -25,7 +25,7 @@
 		"chat": "jellyuh",
 		"fishid": 150950,
 		"chatid": 36,
-		"rank": 12
+		"rank": 13
 	},
 	"3581": {
 		"player": "jellyuh",
@@ -39,7 +39,7 @@
 		"chat": "jellyuh",
 		"fishid": 153371,
 		"chatid": 598,
-		"rank": 11
+		"rank": 12
 	},
 	"3600": {
 		"player": "goopy777",
@@ -81,7 +81,7 @@
 		"chat": "jellyuh",
 		"fishid": 152944,
 		"chatid": 565,
-		"rank": 5
+		"rank": 6
 	},
 	"3603": {
 		"player": "hello0d",
@@ -123,21 +123,21 @@
 		"chat": "jellyuh",
 		"fishid": 151568,
 		"chatid": 391,
-		"rank": 13
+		"rank": 15
 	},
 	"3607": {
 		"player": "rainedparade",
 		"playerid": 3607,
-		"weight": 141.35,
+		"weight": 233.06,
 		"bot": "gofishgame",
-		"type": "🐊",
-		"typename": "crocodile",
+		"type": "🦑",
+		"typename": "squid",
 		"catchtype": "normal",
-		"date": "2025-02-27T22:08:19Z",
+		"date": "2025-03-21T21:43:22Z",
 		"chat": "jellyuh",
-		"fishid": 151602,
-		"chatid": 425,
-		"rank": 7
+		"fishid": 157578,
+		"chatid": 852,
+		"rank": 5
 	},
 	"3608": {
 		"player": "e1d2f3",
@@ -165,7 +165,7 @@
 		"chat": "jellyuh",
 		"fishid": 151548,
 		"chatid": 371,
-		"rank": 6
+		"rank": 7
 	},
 	"3627": {
 		"player": "poioce",
@@ -193,6 +193,34 @@
 		"chat": "jellyuh",
 		"fishid": 152210,
 		"chatid": 513,
+		"rank": 16
+	},
+	"3636": {
+		"player": "maavva",
+		"playerid": 3636,
+		"weight": 77.36,
+		"bot": "gofishgame",
+		"type": "🦑",
+		"typename": "squid",
+		"catchtype": "normal",
+		"date": "2025-03-21T04:58:54Z",
+		"chat": "jellyuh",
+		"fishid": 157358,
+		"chatid": 838,
+		"rank": 11
+	},
+	"3644": {
+		"player": "deitydg",
+		"playerid": 3644,
+		"weight": 62.57,
+		"bot": "gofishgame",
+		"type": "🦑",
+		"typename": "squid",
+		"catchtype": "normal",
+		"date": "2025-03-19T05:56:02Z",
+		"chat": "jellyuh",
+		"fishid": 156765,
+		"chatid": 788,
 		"rank": 14
 	}
 }

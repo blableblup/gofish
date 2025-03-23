@@ -37,30 +37,30 @@
 | 34  | xth49* | 🦕 sauropod | 254.75 | 2022-12-28 08:48:40 |
 | 35  | bussinongnocap | 🐢 turtle | 251.35 | 2023-06-17 05:29:50 |
 | 36  | kadaris4h* | 🦕 sauropod | 251.33 | 2022-12-08 11:30:12 |
-| 37  | idini | 🐉 dragon | 247.21 | 2024-10-18 08:10:33 |
-| 38  | osnyatsky | 🐍 snake | 246.07 | 2025-01-16 15:12:51 |
-| 39  | aceleju | 🐉 dragon | 242.20 | 2024-10-22 15:24:27 |
-| 40  | kaasppeerr | 🦕 sauropod | 241.66 | 2024-01-30 00:42:05 |
-| 41  | carmirror | 🦕 sauropod | 239.65 | 2025-02-12 18:03:52 |
-| 42  | pagmaninoff | 🦕 sauropod | 239.14 | 2024-09-11 13:04:38 |
-| 43  | doublehelicalstructure* | 🦕 sauropod | 235.33 | 2023-02-07 14:43:35 |
-| 44  | houseofleaves | 🦕 sauropod | 234.27 | 2024-10-06 06:12:34 |
-| 45  | julialuxel | 🐳 whale | 234.00 | 2024-02-17 03:13:44 |
-| 46  | bapqo | 🐉 dragon | 233.48 | 2024-03-10 18:29:29 |
-| 47  | supibot | 🦕 sauropod | 231.47 | 2023-12-30 02:14:20 |
-| 48  | wispmode | 🐳 whale | 230.99 | 2024-01-02 16:58:48 |
-| 49  | konsminator | 🐍 snake | 229.00 | 2024-11-05 14:28:25 |
-| 50  | mochi_uygqzidbjizjkbehuiw | 🐳 whale | 222.73 | 2024-01-07 13:54:46 |
-| 51  | fallen_angels_1995 | 🐳 whale | 219.76 | 2024-02-24 12:26:34 |
-| 52  | mitgliederversammlung | 🦕 sauropod | 219.52 | 2024-11-08 15:07:01 |
-| 53  | lazuli672* | 🦈 shark | 215.97 | 2023-07-09 23:11:02 |
-| 54  | gawblemachine | 🦕 sauropod | 214.80 | 2025-01-01 13:21:56 |
-| 55 🆕 | destin357 | 🦈 shark | 214.15 | 2025-03-07 03:44:50 |
-| 56 ⬇ | realtechnine | 🦕 sauropod | 214.11 | 2023-02-14 20:12:23 |
-| 57 ⬇ | divra__ | 🐳 whale | 213.23 | 2024-04-16 16:17:28 |
-| 58 ⬇ | notparasfishalt* | 🐉 dragon | 207.18 | 2023-06-05 03:16:42 |
-| 59 ⬇ | veggesh | 🦈 shark | 206.22 | 2024-02-25 22:40:19 |
+| 37 ⬆ | destin357 | 🦑 squid | 249.98 (+35.83) | 2025-03-22 14:44:01 |
+| 38 ⬇ | idini | 🐉 dragon | 247.21 | 2024-10-18 08:10:33 |
+| 39 ⬇ | osnyatsky | 🐍 snake | 246.07 | 2025-01-16 15:12:51 |
+| 40 ⬇ | aceleju | 🐉 dragon | 242.20 | 2024-10-22 15:24:27 |
+| 41 ⬇ | kaasppeerr | 🦕 sauropod | 241.66 | 2024-01-30 00:42:05 |
+| 42 ⬇ | carmirror | 🦕 sauropod | 239.65 | 2025-02-12 18:03:52 |
+| 43 ⬇ | pagmaninoff | 🦕 sauropod | 239.14 | 2024-09-11 13:04:38 |
+| 44 ⬇ | doublehelicalstructure* | 🦕 sauropod | 235.33 | 2023-02-07 14:43:35 |
+| 45 ⬇ | houseofleaves | 🦕 sauropod | 234.27 | 2024-10-06 06:12:34 |
+| 46 ⬇ | julialuxel | 🐳 whale | 234.00 | 2024-02-17 03:13:44 |
+| 47 ⬇ | bapqo | 🐉 dragon | 233.48 | 2024-03-10 18:29:29 |
+| 48 ⬇ | supibot | 🦕 sauropod | 231.47 | 2023-12-30 02:14:20 |
+| 49 ⬇ | wispmode | 🐳 whale | 230.99 | 2024-01-02 16:58:48 |
+| 50 ⬇ | konsminator | 🐍 snake | 229.00 | 2024-11-05 14:28:25 |
+| 51 ⬇ | mochi_uygqzidbjizjkbehuiw | 🐳 whale | 222.73 | 2024-01-07 13:54:46 |
+| 52 ⬇ | fallen_angels_1995 | 🐳 whale | 219.76 | 2024-02-24 12:26:34 |
+| 53 ⬇ | mitgliederversammlung | 🦕 sauropod | 219.52 | 2024-11-08 15:07:01 |
+| 54 ⬇ | lazuli672* | 🦈 shark | 215.97 | 2023-07-09 23:11:02 |
+| 55 ⬇ | gawblemachine | 🦕 sauropod | 214.80 | 2025-01-01 13:21:56 |
+| 56  | realtechnine | 🦕 sauropod | 214.11 | 2023-02-14 20:12:23 |
+| 57  | divra__ | 🐳 whale | 213.23 | 2024-04-16 16:17:28 |
+| 58  | notparasfishalt* | 🐉 dragon | 207.18 | 2023-06-05 03:16:42 |
+| 59  | veggesh | 🦈 shark | 206.22 | 2024-02-25 22:40:19 |
 
 _Only showing fish weighing >= 200 lbs_
 
-_Last updated at 2025-03-09 11:15:17 UTC_
+_Last updated at 2025-03-23 10:49:35 UTC_
