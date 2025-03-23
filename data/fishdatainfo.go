@@ -16,6 +16,7 @@ type FishInfo struct {
 	Weight               float64            `json:"weight,omitempty"`
 	TotalWeight          float64            `json:"totalweight,omitempty"`
 	Bot                  string             `json:"bot,omitempty"`
+	Bag                  []string           `json:"bag,omitempty"`
 	Type                 string             `json:"type,omitempty"`
 	TypeName             string             `json:"typename,omitempty"`
 	CatchType            string             `json:"catchtype,omitempty"`
@@ -200,7 +201,7 @@ func extractInfoFromBagPattern(match []string) FishInfo {
 	dateStr := match[1]
 	bot := match[2]
 	player := match[3]
-	fishType := match[5]
+	bag := strings.Fields(match[5])
 	catchtype := "bag"
 
 	date, err := utils.ParseDate(dateStr)
@@ -208,7 +209,7 @@ func extractInfoFromBagPattern(match []string) FishInfo {
 		logs.Logs().Fatal().Err(err).
 			Str("Player", player).
 			Str("Date", dateStr).
-			Str("FishType", fishType).
+			Interface("Bag", bag).
 			Msgf("Error parsing date for bag")
 	}
 
@@ -216,7 +217,7 @@ func extractInfoFromBagPattern(match []string) FishInfo {
 		Date:      date,
 		Bot:       bot,
 		Player:    player,
-		Type:      fishType,
+		Bag:       bag,
 		CatchType: catchtype,
 	}
 }

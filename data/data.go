@@ -396,7 +396,7 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 				SELECT COUNT(*) FROM `+tableNameBag+`
 				WHERE date <= $1::timestamp AND date >= $2::timestamp
 				AND player = $3 AND chat = $4 AND bag = $5
-				`, fish.Date.Add(time.Second*5), fish.Date.Add(time.Second*-5), fish.Player, fish.Chat, fish.Type).Scan(&count)
+				`, fish.Date.Add(time.Second*5), fish.Date.Add(time.Second*-5), fish.Player, fish.Chat, fish.Bag).Scan(&count)
 				if err != nil {
 					logs.Logs().Error().Err(err).
 						Str("Table", tableNameBag).
@@ -409,7 +409,7 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			}
 
 			query := fmt.Sprintf("INSERT INTO %s (bag, player, playerid, date, bot, chat, url) VALUES ($1, $2, $3, $4, $5, $6, $7)", tableNameBag)
-			_, err = tx.Exec(context.Background(), query, fish.Type, fish.Player, playerID, fish.Date, fish.Bot, fish.Chat, fish.Url)
+			_, err = tx.Exec(context.Background(), query, fish.Bag, fish.Player, playerID, fish.Date, fish.Bot, fish.Chat, fish.Url)
 			if err != nil {
 				logs.Logs().Error().Err(err).
 					Str("Query", query).

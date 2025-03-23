@@ -112,21 +112,20 @@ func GetFishDataFromURL(url string, chatName string, data string, pool *pgxpool.
 				}
 			}
 
-			// The shinies can have a space in front and behind them, same with the Jellyfish, idk why. this will be really long if there are a lot more shinies
-			// [2025-01-11 01:30:41] #omie gofishgame: @ritaaww, You caught a 🫧  HailHelix  🫧! It weighs 2.06 lbs. (30m cooldown after a catch) logs.spanix
-			// [2023-10-1 21:24:45] #breadworms gofishgame: @derinturitierutz, You caught a 🫧 HailHelix  🫧! It weighs 2.21 lbs. (30m cooldown after a catch) logs.joinuv
-			// [2023-09-30 22:49:23] #psp1g gofishgame: @6blmue, You caught a 🫧 Jellyfish  🫧! It weighs 19.44 lbs. (30m cooldown after a catch) logs.nadeko
-			if strings.Contains(fish.Type, "HailHelix") || strings.Contains(fish.Type, "SabaPing") || strings.Contains(fish.Type, "Jellyfish") {
-				fish.Type = strings.TrimSpace(fish.Type)
-			}
-
-			// Because Jellyfish used to be a bttv emote
-			if fish.Type == "Jellyfish" {
-				fish.Type = "🪼"
-			}
-
 			switch fish.CatchType {
 			default:
+				// The shinies can have a space in front and behind them, same with the Jellyfish, idk why. this will be really long if there are a lot more shinies
+				// [2025-01-11 01:30:41] #omie gofishgame: @ritaaww, You caught a 🫧  HailHelix  🫧! It weighs 2.06 lbs. (30m cooldown after a catch) logs.spanix
+				// [2023-10-1 21:24:45] #breadworms gofishgame: @derinturitierutz, You caught a 🫧 HailHelix  🫧! It weighs 2.21 lbs. (30m cooldown after a catch) logs.joinuv
+				// [2023-09-30 22:49:23] #psp1g gofishgame: @6blmue, You caught a 🫧 Jellyfish  🫧! It weighs 19.44 lbs. (30m cooldown after a catch) logs.nadeko
+				if strings.Contains(fish.Type, "HailHelix") || strings.Contains(fish.Type, "SabaPing") || strings.Contains(fish.Type, "Jellyfish") {
+					fish.Type = strings.TrimSpace(fish.Type)
+				}
+
+				// Because Jellyfish used to be a bttv emote
+				if fish.Type == "Jellyfish" {
+					fish.Type = "🪼"
+				}
 				if fish.Date.After(latestCatchDate) {
 
 					fishData = append(fishData, fish)
