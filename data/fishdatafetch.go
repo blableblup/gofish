@@ -17,15 +17,16 @@ import (
 func GetFishDataFromURL(url string, chatName string, data string, pool *pgxpool.Pool, latestCatchDate time.Time, latestBagDate time.Time, latestTournamentDate time.Time) ([]FishInfo, error) {
 	var fishData []FishInfo
 
-	const maxRetries = 5
-	retryDelay := time.Second
+	// retry 3 times after 20 seconds
+	const maxRetries = 3
+	retryDelay := time.Second * 20
 
 	logs.Logs().Info().
 		Str("URL", url).
 		Str("Chat", chatName).
 		Msg("Fetching data")
 
-	for retry := 0; retry < maxRetries; retry++ {
+	for range maxRetries {
 
 		req := fasthttp.AcquireRequest()
 		req.SetRequestURI(url)
@@ -40,7 +41,6 @@ func GetFishDataFromURL(url string, chatName string, data string, pool *pgxpool.
 				Str("Chat", chatName).
 				Msg("Error fetching fish data from URL")
 			time.Sleep(retryDelay)
-			retryDelay *= 5
 			continue
 		}
 
@@ -55,7 +55,6 @@ func GetFishDataFromURL(url string, chatName string, data string, pool *pgxpool.
 					Int("HTTP Code", resp.StatusCode()).
 					Msg("Unexpected HTTP status code")
 				time.Sleep(retryDelay)
-				retryDelay *= 5
 				continue
 			} else {
 				logs.Logs().Warn().
@@ -132,7 +131,6 @@ func GetFishDataFromURL(url string, chatName string, data string, pool *pgxpool.
 
 					fishData = append(fishData, fish)
 				}
-
 			case "bag":
 				if fish.Date.After(latestBagDate) {
 
@@ -154,12 +152,13 @@ func GetFishDataFromURL(url string, chatName string, data string, pool *pgxpool.
 		return fishData, nil
 	}
 
-	// Log the error and stop the entire program
-	logs.Logs().Fatal().
+	// dont really need to fatal here, not getting data from an instance isnt a problem
+	// fish will just not be ordered by fishid if they get inserted later or are added from a different instance but its ok
+	logs.Logs().Error().
 		Str("URL", url).
 		Str("Chat", chatName).
 		Msg("Reached maximum retries, unable to fetch data from URL")
-	return nil, nil
+	return fishData, nil
 }
 
 func getLatestCatchDateFromDatabase(ctx context.Context, pool *pgxpool.Pool, chatName string, tableName string) (time.Time, error) {

@@ -70,7 +70,7 @@ func CreateURL(chatName string, chat utils.ChatInfo, numMonths int, monthYear st
 					logs.Logs().Fatal().
 						Str("Chat", chatName).
 						Str("Instance", instances[a]).
-						Msg("Selected instance does not exist")
+						Msg("Instance does not exist")
 				}
 			} else {
 				// If err nil, select the element of the slice as the instance
@@ -78,8 +78,8 @@ func CreateURL(chatName string, chat utils.ChatInfo, numMonths int, monthYear st
 					logs.Logs().Fatal().
 						Str("Chat", chatName).
 						Int("Selected instance", instance).
-						Interface("Available instances", chat.LogsInstances).
-						Msg("Chat does not have that many different instances !")
+						Int("Available instances", len(chat.LogsInstances)).
+						Msg("Chat does not have that many instances!")
 				}
 				selectedInstances[chat.LogsInstances[instance].URL] = chat.LogsInstances[instance].LogsAdded
 			}
