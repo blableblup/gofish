@@ -202,6 +202,7 @@ func extractInfoFromBagPattern(match []string) FishInfo {
 	bot := match[2]
 	player := match[3]
 	bag := strings.Fields(match[5])
+	// split the string into a slice and then later store the bag as an array in the db
 	catchtype := "bag"
 
 	date, err := utils.ParseDate(dateStr)
