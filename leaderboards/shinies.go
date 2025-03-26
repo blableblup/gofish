@@ -102,15 +102,15 @@ func getShinies(params LeaderboardParams) (map[int]data.FishInfo, error) {
 
 	Shinies := make(map[int]data.FishInfo)
 
-	// This will work if there are multiple shinies for the same fishtype; trim, because there is one space in front of the shiny string when adding them (fix that?)
+	// This will work if there are multiple shinies for the same fishtype
 	rows, err := pool.Query(context.Background(), `
 		select f.fishid, f.chatid, f.fishtype, f.fishname, f.weight, f.catchtype, f.playerid, f.date, f.bot, f.chat 
 		from fish f
 		join(
-		select STRING_TO_ARRAY(trim(' ' from shiny), ' ') as shiny_list
+		select shiny
 		from fishinfo
-		where shiny != ''
-		) shinyfish on f.fishtype = any(shiny_list)
+		where shiny != '{}'
+		) shinyfish on f.fishtype = any(shiny)
 		where date < $1
 		and date > $2`, date, date2)
 	if err != nil {

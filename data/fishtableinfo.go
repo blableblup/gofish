@@ -26,7 +26,7 @@ func GetFishName(pool *pgxpool.Pool, fishinfotable string, fishType string) (str
 	}
 
 	// Check if fishType exists as old emoji
-	err = pool.QueryRow(context.Background(), "SELECT EXISTS (SELECT 1 FROM "+fishinfotable+" WHERE $1 = ANY(STRING_TO_ARRAY(oldemojis, ' ')))", fishType).Scan(&exists)
+	err = pool.QueryRow(context.Background(), "SELECT EXISTS (SELECT 1 FROM "+fishinfotable+" WHERE $1 = ANY(oldemojis)", fishType).Scan(&exists)
 	if err != nil {
 		return "", err
 	}
@@ -35,7 +35,7 @@ func GetFishName(pool *pgxpool.Pool, fishinfotable string, fishType string) (str
 	}
 
 	// Check if fishType exists as shiny
-	err = pool.QueryRow(context.Background(), "SELECT EXISTS (SELECT 1 FROM "+fishinfotable+" WHERE $1 = ANY(STRING_TO_ARRAY(shiny, ' ')))", fishType).Scan(&exists)
+	err = pool.QueryRow(context.Background(), "SELECT EXISTS (SELECT 1 FROM "+fishinfotable+" WHERE $1 = ANY(shiny)", fishType).Scan(&exists)
 	if err != nil {
 		return "", err
 	}
@@ -59,13 +59,13 @@ func queryFishNameByType(pool *pgxpool.Pool, fishinfotable string, fishType stri
 
 func queryFishNameByEmoji(pool *pgxpool.Pool, fishinfotable string, fishType string) (string, error) {
 	var fishName string
-	err := pool.QueryRow(context.Background(), "SELECT fishname FROM "+fishinfotable+" WHERE $1 = ANY(STRING_TO_ARRAY(oldemojis, ' '))", fishType).Scan(&fishName)
+	err := pool.QueryRow(context.Background(), "SELECT fishname FROM "+fishinfotable+" WHERE $1 = ANY(oldemojis)", fishType).Scan(&fishName)
 	return fishName, err
 }
 
 func queryFishNameByShiny(pool *pgxpool.Pool, fishinfotable string, fishType string) (string, error) {
 	var fishName string
-	err := pool.QueryRow(context.Background(), "SELECT fishname FROM "+fishinfotable+" WHERE $1 = ANY(STRING_TO_ARRAY(shiny, ' '))", fishType).Scan(&fishName)
+	err := pool.QueryRow(context.Background(), "SELECT fishname FROM "+fishinfotable+" WHERE $1 = ANY(shiny)", fishType).Scan(&fishName)
 	return fishName, err
 }
 
@@ -115,7 +115,7 @@ func addFishType(pool *pgxpool.Pool, fishinfotable string, fishType string) (str
 			}
 			fishName := scanner.Text()
 
-			_, err := pool.Exec(context.Background(), "UPDATE "+fishinfotable+" SET shiny = CONCAT(shiny, ' ', CAST($1 AS TEXT)) WHERE fishname = $2", fishType, fishName)
+			_, err := pool.Exec(context.Background(), "UPDATE "+fishinfotable+" SET shiny = array_append(shiny, $1) WHERE fishname = $2", fishType, fishName)
 			if err != nil {
 				return fishType, err
 			}
@@ -157,7 +157,7 @@ func addFishType(pool *pgxpool.Pool, fishinfotable string, fishType string) (str
 						return fishType, err
 					}
 
-					_, err := pool.Exec(context.Background(), "UPDATE "+fishinfotable+" SET fishtype = $1, oldemojis = CONCAT(oldemojis, ' ', CAST($2 AS TEXT)) WHERE fishname = $3", fishType, oldfishType, fishName)
+					_, err := pool.Exec(context.Background(), "UPDATE "+fishinfotable+" SET fishtype = $1, oldemojis = array_append(oldemojis, $2) WHERE fishname = $3", fishType, oldfishType, fishName)
 					if err != nil {
 						return fishType, err
 					}
@@ -168,7 +168,7 @@ func addFishType(pool *pgxpool.Pool, fishinfotable string, fishType string) (str
 
 				case "old":
 					// Update the oldemojis for that fishType
-					_, err := pool.Exec(context.Background(), "UPDATE "+fishinfotable+" SET oldemojis = CONCAT(oldemojis, ' ', CAST($1 AS TEXT)) WHERE fishname = $2", fishType, fishName)
+					_, err := pool.Exec(context.Background(), "UPDATE "+fishinfotable+" SET oldemojis = array_append(oldemojis, $1) WHERE fishname = $2", fishType, fishName)
 					if err != nil {
 						return fishType, err
 					}

@@ -105,7 +105,7 @@ func MergePlayers(pool *pgxpool.Pool) {
 		for _, name := range oldnames {
 			_, err = tx.Exec(context.Background(), `
 			update playerdata
-			SET oldnames = CONCAT(oldnames, ' ', CAST($1 AS TEXT))
+			SET oldnames = array_append(oldnames, $1)
 			WHERE firstfishdate = $2
 			AND playerid = $3`, name, oldestdate, playerid)
 			if err != nil {

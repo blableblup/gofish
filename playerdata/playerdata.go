@@ -38,17 +38,14 @@ func FindAllThePossiblePlayers(pool *pgxpool.Pool, player string, firstFishDate 
 
 	for rows.Next() {
 		var possiblePlayer PossiblePlayer
-		var oldnames sql.NullString
 		possiblePlayer.Player = player
 
-		if err := rows.Scan(&possiblePlayer.PlayerID, &possiblePlayer.TwitchID, &oldnames); err != nil {
+		if err := rows.Scan(&possiblePlayer.PlayerID, &possiblePlayer.TwitchID, &possiblePlayer.OldNames); err != nil {
 			logs.Logs().Error().Err(err).
 				Str("Player", player).
 				Msg("Error scanning row for player")
 			return []PossiblePlayer{}, err
 		}
-
-		possiblePlayer.OldNames = strings.Split(oldnames.String, " ")
 
 		possiblePlayer.LastSeen, possiblePlayer.FirstSeen, err = PlayerDates(pool, possiblePlayer.PlayerID, possiblePlayer.Player)
 		if err != nil {
@@ -68,7 +65,7 @@ func FindAllThePossiblePlayers(pool *pgxpool.Pool, player string, firstFishDate 
 	}
 
 	// Query for all players which had that name as an oldname
-	rows, err = pool.Query(context.Background(), "SELECT name, playerid, twitchid, oldnames FROM playerdata WHERE $1 = ANY(STRING_TO_ARRAY(oldnames, ' '))", player)
+	rows, err = pool.Query(context.Background(), "SELECT name, playerid, twitchid, oldnames FROM playerdata WHERE $1 = ANY(oldnames)", player)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Player", player).
@@ -79,16 +76,13 @@ func FindAllThePossiblePlayers(pool *pgxpool.Pool, player string, firstFishDate 
 
 	for rows.Next() {
 		var possiblePlayer PossiblePlayer
-		var oldnames sql.NullString
 
-		if err := rows.Scan(&possiblePlayer.Player, &possiblePlayer.PlayerID, &possiblePlayer.TwitchID, &oldnames); err != nil {
+		if err := rows.Scan(&possiblePlayer.Player, &possiblePlayer.PlayerID, &possiblePlayer.TwitchID, &possiblePlayer.OldNames); err != nil {
 			logs.Logs().Error().Err(err).
 				Str("Player", player).
 				Msg("Error scanning row for player")
 			return []PossiblePlayer{}, err
 		}
-
-		possiblePlayer.OldNames = strings.Split(oldnames.String, " ")
 
 		// check if that player used the name multiple times
 		howmanytimesusedname := make(map[string]int)
@@ -381,7 +375,7 @@ func RenamePlayer(newName string, oldName string, twitchid int, playerid int, po
 	// Update the player in playerdata
 	_, err := pool.Exec(context.Background(), `
 			UPDATE playerdata
-			SET name = $1, oldnames = CONCAT(oldnames, ' ', CAST($2 AS TEXT))
+			SET name = $1, oldnames = array_append(oldnames, $2)
 			WHERE twitchid = $3		
 			`, newName, oldName, twitchid)
 	if err != nil {

@@ -2,10 +2,8 @@ package scripts
 
 import (
 	"context"
-	"database/sql"
 	"gofish/logs"
 	"gofish/playerdata"
-	"strings"
 	"time"
 
 	"github.com/jackc/pgx/v5/pgxpool"
@@ -38,7 +36,7 @@ func VerifiedPlayers(pool *pgxpool.Pool) {
 
 	for rows.Next() {
 		var playerName string
-		var oldnames sql.NullString
+		var oldnames []string
 		var firstFishDate time.Time
 		if err := rows.Scan(&playerName, &oldnames, &firstFishDate); err != nil {
 			logs.Logs().Error().Err(err).Msg("Error scanning row")
@@ -52,18 +50,14 @@ func VerifiedPlayers(pool *pgxpool.Pool) {
 				verified = true
 				break
 			}
-			if oldnames.Valid {
-				oldname := strings.Split(oldnames.String, " ")
-
-				for _, name := range oldname {
-					if verifiedPlayer == name {
-						logs.Logs().Info().
-							Str("Player", playerName).
-							Str("OldName", name).
-							Msg("Player was verified with an old name")
-						verified = true
-						break
-					}
+			for _, name := range oldnames {
+				if verifiedPlayer == name {
+					logs.Logs().Info().
+						Str("Player", playerName).
+						Str("OldName", name).
+						Msg("Player was verified with an old name")
+					verified = true
+					break
 				}
 			}
 		}
