@@ -10,9 +10,10 @@
 	"1344": {
 		"player": "gorillapark",
 		"playerid": 1344,
-		"weight": 3,
+		"weight": 3.5,
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 3,
+		"maxcount": 1,
 		"rank": 9
 	},
 	"1427": {
@@ -56,30 +57,30 @@
 	"2339": {
 		"player": "bubinga",
 		"playerid": 2339,
-		"weight": 31.5,
+		"weight": 33,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 7,
-		"chatid": 9,
-		"maxcount": 3,
+		"chatid": 10,
+		"maxcount": 4,
 		"rank": 3
 	},
 	"2578": {
 		"player": "eeziiii",
 		"playerid": 2578,
-		"weight": 39.5,
+		"weight": 44,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 11,
-		"chatid": 3,
-		"maxcount": 7,
+		"fishid": 12,
+		"chatid": 4,
+		"maxcount": 8,
 		"rank": 1
 	},
 	"2609": {
 		"player": "iflya320",
 		"playerid": 2609,
-		"weight": 33,
+		"weight": 40,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 8,
-		"chatid": 8,
+		"fishid": 10,
+		"chatid": 9,
 		"maxcount": 2,
 		"rank": 2
 	},

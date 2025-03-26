@@ -12,12 +12,12 @@
 	"1280": {
 		"player": "eelacy",
 		"playerid": 1280,
-		"weight": 15.5,
+		"weight": 20.5,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 3,
-		"chatid": 4,
+		"fishid": 4,
+		"chatid": 6,
 		"maxcount": 5,
-		"rank": 5
+		"rank": 3
 	},
 	"1310": {
 		"player": "hahppyy",
@@ -32,11 +32,11 @@
 	"135": {
 		"player": "leanmeister",
 		"playerid": 135,
-		"weight": 10.5,
+		"weight": 11,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 1,
 		"chatid": 7,
-		"maxcount": 1,
+		"maxcount": 2,
 		"rank": 6
 	},
 	"1353": {
@@ -46,16 +46,17 @@
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 3,
 		"maxcount": 2,
-		"rank": 8
+		"rank": 9
 	},
 	"3535": {
 		"player": "nicestnarwhal",
 		"playerid": 3535,
-		"weight": 4,
+		"weight": 10.5,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 1,
+		"fishid": 3,
 		"chatid": 1,
-		"rank": 8
+		"maxcount": 1,
+		"rank": 7
 	},
 	"56": {
 		"player": "dayzedinndaydreams",
@@ -64,17 +65,17 @@
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 6,
 		"maxcount": 4,
-		"rank": 3
+		"rank": 4
 	},
 	"575": {
 		"player": "divra__",
 		"playerid": 575,
-		"weight": 16.5,
+		"weight": 18.5,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 3,
-		"chatid": 4,
-		"maxcount": 7,
-		"rank": 4
+		"chatid": 5,
+		"maxcount": 9,
+		"rank": 5
 	},
 	"64": {
 		"player": "julialuxel",
@@ -83,7 +84,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 4,
 		"maxcount": 4,
-		"rank": 7
+		"rank": 8
 	},
 	"756": {
 		"player": "pengeg",
