@@ -54,11 +54,12 @@
 | 51  | deadl3gs | 🐋 whale2 | 108.56 | 2024-10-24 00:35:47 |
 | 52  | remer_2 | 🐙 octopus | 108.14 | 2024-10-26 03:38:50 |
 | 53  | imgeformat | 🐋 whale2 | 105.98 | 2024-10-31 22:00:01 |
-| 54  | puhzzle | 🐙 octopus | 105.71 | 2024-11-01 16:47:40 |
-| 55  | gingbeardman | 🐙 octopus | 103.24 | 2024-10-21 17:42:57 |
-| 56  | reallyxtra | 🐋 whale2 | 101.86 | 2024-10-22 08:33:30 |
-| 57  | marigoldandwine | 🐋 whale2 | 100.82 | 2024-12-08 05:39:17 |
+| 54 🆕 | mousee93 | 🐙 octopus | 105.96 | 2025-03-24 19:29:58 |
+| 55 ⬇ | puhzzle | 🐙 octopus | 105.71 | 2024-11-01 16:47:40 |
+| 56 ⬇ | gingbeardman | 🐙 octopus | 103.24 | 2024-10-21 17:42:57 |
+| 57 ⬇ | reallyxtra | 🐋 whale2 | 101.86 | 2024-10-22 08:33:30 |
+| 58 ⬇ | marigoldandwine | 🐋 whale2 | 100.82 | 2024-12-08 05:39:17 |
 
 _Only showing fish weighing >= 100 lbs_
 
-_Last updated at 2025-03-16 09:31:21 UTC_
+_Last updated at 2025-03-30 09:45:24 UTC_

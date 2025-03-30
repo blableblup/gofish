@@ -39,6 +39,7 @@
 		"chat": "dizzy",
 		"fishid": 130503,
 		"chatid": 7250,
+		"verified": true,
 		"rank": 27
 	},
 	"1853": {
@@ -347,7 +348,7 @@
 		"chat": "dizzy",
 		"fishid": 128637,
 		"chatid": 6814,
-		"rank": 57
+		"rank": 58
 	},
 	"3058": {
 		"player": "reallyxtra",
@@ -361,7 +362,7 @@
 		"chat": "dizzy",
 		"fishid": 112211,
 		"chatid": 669,
-		"rank": 56
+		"rank": 57
 	},
 	"3059": {
 		"player": "gizbart",
@@ -487,7 +488,7 @@
 		"chat": "dizzy",
 		"fishid": 111848,
 		"chatid": 476,
-		"rank": 55
+		"rank": 56
 	},
 	"3115": {
 		"player": "thecobbler1",
@@ -515,7 +516,7 @@
 		"chat": "dizzy",
 		"fishid": 116867,
 		"chatid": 3024,
-		"rank": 54
+		"rank": 55
 	},
 	"3121": {
 		"player": "buhl00n",
@@ -769,6 +770,20 @@
 		"chatid": 7897,
 		"rank": 6
 	},
+	"3642": {
+		"player": "mousee93",
+		"playerid": 3642,
+		"weight": 105.96,
+		"bot": "gofishgame",
+		"type": "🐙",
+		"typename": "octopus",
+		"catchtype": "normal",
+		"date": "2025-03-24T19:29:58Z",
+		"chat": "dizzy",
+		"fishid": 158390,
+		"chatid": 10170,
+		"rank": 54
+	},
 	"64": {
 		"player": "julialuxel",
 		"playerid": 64,
@@ -781,6 +796,7 @@
 		"chat": "dizzy",
 		"fishid": 123088,
 		"chatid": 5276,
+		"verified": true,
 		"rank": 14
 	},
 	"868": {

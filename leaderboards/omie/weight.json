@@ -53,7 +53,7 @@
 		"chat": "omie",
 		"fishid": 151920,
 		"chatid": 4297,
-		"rank": 2
+		"rank": 3
 	},
 	"2859": {
 		"player": "templart1",
@@ -95,7 +95,7 @@
 		"chat": "omie",
 		"fishid": 145547,
 		"chatid": 3739,
-		"rank": 1
+		"rank": 2
 	},
 	"2944": {
 		"player": "gofishgamer",
@@ -114,16 +114,16 @@
 	"3142": {
 		"player": "mangos4u",
 		"playerid": 3142,
-		"weight": 266.36,
+		"weight": 294.19,
 		"bot": "gofishgame",
-		"type": "🦑",
-		"typename": "squid",
+		"type": "🐻‍❄",
+		"typename": "polarbear",
 		"catchtype": "normal",
-		"date": "2024-12-24T20:11:13Z",
+		"date": "2025-03-25T15:07:02Z",
 		"chat": "omie",
-		"fishid": 134930,
-		"chatid": 2656,
-		"rank": 3
+		"fishid": 158654,
+		"chatid": 5109,
+		"rank": 1
 	},
 	"3487": {
 		"player": "solahh__",
@@ -151,6 +151,7 @@
 		"chat": "omie",
 		"fishid": 100042,
 		"chatid": 338,
+		"verified": true,
 		"rank": 9
 	}
 }

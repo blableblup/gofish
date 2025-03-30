@@ -1,9 +1,9 @@
 ### Biggest fish caught per player in omie's chat
 | Rank | Player | Fish | Weight in lbs | Date in UTC |
 |------|--------|-----------|---------|-----|
-| 1 🥇  | v6r_ | 🐳 whale | 290.44 | 2025-02-03 09:08:17 |
-| 2 🥈  | ritaaww | 🦈 shark | 277.20 (+8.44) | 2025-03-02 19:47:11 |
-| 3 🥉  | mangos4u | 🦑 squid | 266.36 | 2024-12-24 20:11:13 |
+| 1 🥇 ⬆ | mangos4u | 🐻‍❄ polarbear | 294.19 (+27.83) | 2025-03-25 15:07:02 |
+| 2 🥈 ⬇ | v6r_ | 🐳 whale | 290.44 | 2025-02-03 09:08:17 |
+| 3 🥉 ⬇ | ritaaww | 🦈 shark | 277.20 | 2025-03-02 19:47:11 |
 | 4  | solahh__ | 🦕 sauropod | 264.24 | 2025-01-26 02:26:54 |
 | 5  | respirate_ | 🐉 dragon | 239.97 | 2024-09-12 06:28:16 |
 | 6  | aliveleader | 🐉 dragon | 220.29 | 2024-08-09 13:02:52 |
@@ -15,4 +15,4 @@
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2025-03-09 11:15:17 UTC_
+_Last updated at 2025-03-30 09:45:25 UTC_

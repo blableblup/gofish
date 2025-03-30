@@ -1,51 +1,52 @@
 ### Most fish caught in wuh6's chat
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
-| 1 🥇  | iflya320  | 1335 (+104) |
-| 2 🥈  | eeziiii  | 1204 (+63) |
-| 3 🥉  | bubinga  | 1044 (+90) |
-| 4  | theevirus  | 819 (+42) |
-| 5  | huuuuuuuuuuuuuuuuuuuuuurz  | 802 (+55) |
-| 6  | nndiana*  | 721 (+51) |
-| 7  | wowitsdub  | 534 (+53) |
-| 8  | mazzo_tv  | 448 (+22) |
-| 9  | veny2lbs  | 352 (+31) |
-| 10  | sandwichsundays*  | 323 (+4) |
-| 11  | gorillapark  | 318 (+49) |
-| 12 ⬆ | lobuhtomy  | 230 (+49) |
-| 13 ⬇ | caprisen_*  | 214 (+1) |
-| 14  | flovrek  | 189 (+20) |
+| 1 🥇  | iflya320  | 1436 (+101) |
+| 2 🥈  | eeziiii  | 1241 (+37) |
+| 3 🥉  | bubinga  | 1121 (+77) |
+| 4 ⬆ | huuuuuuuuuuuuuuuuuuuuuurz  | 870 (+68) |
+| 5 ⬇ | theevirus  | 857 (+38) |
+| 6  | nndiana*  | 754 (+33) |
+| 7  | wowitsdub  | 574 (+40) |
+| 8  | mazzo_tv  | 471 (+23) |
+| 9  | veny2lbs  | 376 (+24) |
+| 10 ⬆ | gorillapark  | 358 (+40) |
+| 11 ⬇ | sandwichsundays*  | 328 (+5) |
+| 12  | lobuhtomy  | 257 (+27) |
+| 13  | caprisen_*  | 214 |
+| 14  | flovrek  | 197 (+8) |
+| 15 ⬆ | commanda_u  | 142 (+6) |
 | 15  | thetaxmen  | 142 |
-| 16  | teddbearcs  | 139 |
-| 17  | commanda_u  | 136 (+6) |
-| 18  | benciee  | 122 (+8) |
-| 19  | zwockel01  | 95 |
-| 20 ⬆ | bluberry  | 91 (+13) |
-| 21 ⬇ | glorianeq  | 88 (+2) |
+| 17 ⬇ | teddbearcs  | 139 |
+| 18  | benciee  | 122 |
+| 19 ⬆ | bluberry  | 99 (+8) |
+| 20 ⬇ | zwockel01  | 95 |
+| 21  | glorianeq  | 88 |
 | 22  | ratot  | 58 |
 | 23  | qyxuu  | 45 |
-| 24  | onarrrrrrrr  | 41 |
-| 24 ⬆ | wuh6  | 41 (+5) |
-| 26 ⬇ | cotovelo3  | 39 |
-| 26 ⬇ | jr_mime  | 39 |
-| 28 ⬇ | araqs  | 36 |
-| 29  | tdillar  | 33 |
-| 30 ⬆ | turboyy  | 32 (+5) |
-| 31 ⬇ | ocrw  | 31 |
-| 32  | funnywhitecat6*  | 27 (+1) |
-| 33 ⬇ | llikotesnecil  | 26 |
-| 34 ⬆ | wadupcaprise  | 23 (+9) |
-| 35 ⬇ | creepycode*  | 21 (+1) |
-| 36 ⬇ | supibot  | 19 |
-| 37 ⬇ | liiiiiiiiiilly  | 18 |
-| 38 ⬇ | flvx_flux*  | 17 |
-| 39 ⬇ | kalechap  | 15 |
-| 40 ⬇ | drecklo  | 14 |
-| 40 ⬆ | flunke_  | 14 (+1) |
-| 42 ⬇ | xd_2k  | 13 |
-| 43  | ggmagician  | 11 |
-| 44  | gwincyy  | 10 |
+| 24  | wuh6  | 42 (+1) |
+| 25 ⬇ | onarrrrrrrr  | 41 |
+| 26 ⬆ | wadupcaprise  | 40 (+17) |
+| 27 ⬇ | cotovelo3  | 39 |
+| 27 ⬇ | jr_mime  | 39 |
+| 29 ⬇ | araqs  | 36 |
+| 30 ⬇ | tdillar  | 33 |
+| 30  | turboyy  | 33 (+1) |
+| 32 ⬇ | ocrw  | 31 |
+| 33 ⬇ | funnywhitecat6*  | 27 |
+| 34 ⬇ | llikotesnecil  | 26 |
+| 35  | creepycode*  | 21 |
+| 36  | supibot  | 19 |
+| 37  | chubbbyhamster  | 18 |
+| 38  | flvx_flux*  | 17 |
+| 39  | kalechap  | 15 |
+| 40  | drecklo  | 14 |
+| 40  | flunke_  | 14 |
+| 42 ⬆ | ggmagician  | 13 (+2) |
+| 42  | xd_2k  | 13 |
+| 44 🆕 | bcarw  | 12 |
+| 45 ⬇ | gwincyy  | 10 |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-03-23 10:50:24 UTC_
+_Last updated at 2025-03-30 09:45:24 UTC_

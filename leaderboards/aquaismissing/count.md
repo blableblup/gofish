@@ -1,23 +1,23 @@
 ### Most fish caught in aquaismissing's chat
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
-| 1 🥇  | rustezzz  | 29 |
+| 1 🥇  | rustezzz  | 30 (+1) |
 | 2 🥈  | yyaaaaaaaas  | 27 |
-| 3 🥉 ⬆ | kaitechpl  | 25 (+1) |
-| 3 🥉  | likedom_  | 25 |
+| 3 🥉  | likedom_  | 26 (+1) |
+| 4 ⬇ | kaitechpl  | 25 |
 | 5  | poggu_  | 23 |
 | 6  | aquaismissing  | 22 |
-| 7  | aistyrax3  | 16 |
-| 7  | kaczer1_  | 16 |
-| 9  | dom1torii  | 15 (+1) |
-| 10 ⬇ | ggmagician  | 14 |
-| 11 ⬆ | velantix*  | 13 (+1) |
+| 7 ⬆ | dom1torii  | 17 (+2) |
+| 8 ⬇ | aistyrax3  | 16 |
+| 8 ⬇ | kaczer1_  | 16 |
+| 10  | ggmagician  | 14 |
+| 11 ⬆ | bubinga  | 13 (+2) |
+| 11  | velantix*  | 13 |
 | 11  | vigilworld*  | 13 |
-| 13 ⬇ | tetohasdied  | 12 |
-| 14  | bubinga  | 11 (+1) |
-| 15 ⬇ | mishashto  | 10 |
-| 15 ⬇ | ojack18  | 10 |
+| 14 ⬇ | tetohasdied  | 12 |
+| 15  | mishashto  | 10 |
+| 15  | ojack18  | 10 |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-03-23 10:50:24 UTC_
+_Last updated at 2025-03-30 09:45:24 UTC_
