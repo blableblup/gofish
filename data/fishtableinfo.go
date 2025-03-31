@@ -26,7 +26,7 @@ func GetFishName(pool *pgxpool.Pool, fishinfotable string, fishType string) (str
 	}
 
 	// Check if fishType exists as old emoji
-	err = pool.QueryRow(context.Background(), "SELECT EXISTS (SELECT 1 FROM "+fishinfotable+" WHERE $1 = ANY(oldemojis)", fishType).Scan(&exists)
+	err = pool.QueryRow(context.Background(), "SELECT EXISTS (SELECT 1 FROM "+fishinfotable+" WHERE $1 = ANY(oldemojis))", fishType).Scan(&exists)
 	if err != nil {
 		return "", err
 	}
@@ -35,7 +35,7 @@ func GetFishName(pool *pgxpool.Pool, fishinfotable string, fishType string) (str
 	}
 
 	// Check if fishType exists as shiny
-	err = pool.QueryRow(context.Background(), "SELECT EXISTS (SELECT 1 FROM "+fishinfotable+" WHERE $1 = ANY(shiny)", fishType).Scan(&exists)
+	err = pool.QueryRow(context.Background(), "SELECT EXISTS (SELECT 1 FROM "+fishinfotable+" WHERE $1 = ANY(shiny))", fishType).Scan(&exists)
 	if err != nil {
 		return "", err
 	}
