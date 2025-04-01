@@ -15,7 +15,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 1,
 		"maxcount": 2,
-		"rank": 32
+		"rank": 33
 	},
 	"1212": {
 		"player": "larvasisters",
@@ -60,7 +60,7 @@
 		"weight": 0.5,
 		"date": "0001-01-01T00:00:00Z",
 		"maxcount": 1,
-		"rank": 37
+		"rank": 39
 	},
 	"129": {
 		"player": "dougiefresh_83",
@@ -75,12 +75,12 @@
 	"135": {
 		"player": "leanmeister",
 		"playerid": 135,
-		"weight": 134,
+		"weight": 140.5,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 40,
+		"fishid": 42,
 		"chatid": 12,
-		"maxcount": 4,
-		"rank": 2
+		"maxcount": 5,
+		"rank": 1
 	},
 	"1369": {
 		"player": "eaeac",
@@ -128,7 +128,7 @@
 		"weight": 1.5,
 		"date": "0001-01-01T00:00:00Z",
 		"maxcount": 3,
-		"rank": 35
+		"rank": 36
 	},
 	"1985": {
 		"player": "comiqq",
@@ -158,7 +158,7 @@
 		"fishid": 24,
 		"chatid": 51,
 		"maxcount": 28,
-		"rank": 1
+		"rank": 2
 	},
 	"2373": {
 		"player": "hansworthelias",
@@ -166,7 +166,7 @@
 		"weight": 0.5,
 		"date": "0001-01-01T00:00:00Z",
 		"maxcount": 1,
-		"rank": 37
+		"rank": 39
 	},
 	"2525": {
 		"player": "respirate_",
@@ -184,7 +184,7 @@
 		"weight": 2,
 		"date": "0001-01-01T00:00:00Z",
 		"maxcount": 4,
-		"rank": 32
+		"rank": 33
 	},
 	"2701": {
 		"player": "osnyisdead",
@@ -209,10 +209,11 @@
 	"2881": {
 		"player": "fvkdylan",
 		"playerid": 2881,
-		"weight": 0.5,
+		"weight": 1.5,
 		"date": "0001-01-01T00:00:00Z",
+		"chatid": 1,
 		"maxcount": 1,
-		"rank": 37
+		"rank": 36
 	},
 	"2889": {
 		"player": "receipts",
@@ -221,7 +222,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 2,
 		"maxcount": 2,
-		"rank": 29
+		"rank": 30
 	},
 	"29": {
 		"player": "booty_bread",
@@ -236,21 +237,30 @@
 	"3529": {
 		"player": "gstaman911",
 		"playerid": 3529,
-		"weight": 5,
+		"weight": 5.5,
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 4,
-		"maxcount": 2,
-		"rank": 24
+		"maxcount": 3,
+		"rank": 23
 	},
 	"3537": {
 		"player": "destin357",
 		"playerid": 3537,
-		"weight": 12.5,
+		"weight": 14,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 1,
-		"chatid": 8,
-		"maxcount": 3,
+		"chatid": 9,
+		"maxcount": 4,
 		"rank": 18
+	},
+	"3638": {
+		"player": "derintu",
+		"playerid": 3638,
+		"weight": 4,
+		"date": "0001-01-01T00:00:00Z",
+		"fishid": 1,
+		"chatid": 1,
+		"rank": 27
 	},
 	"38": {
 		"player": "niiy",
@@ -258,7 +268,7 @@
 		"weight": 0.5,
 		"date": "0001-01-01T00:00:00Z",
 		"maxcount": 1,
-		"rank": 37
+		"rank": 39
 	},
 	"4": {
 		"player": "sussy_amonge",
@@ -287,7 +297,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 2,
 		"maxcount": 1,
-		"rank": 31
+		"rank": 32
 	},
 	"56": {
 		"player": "dayzedinndaydreams",
@@ -305,7 +315,7 @@
 		"weight": 3,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 1,
-		"rank": 29
+		"rank": 30
 	},
 	"58": {
 		"player": "qu4ttromila",
@@ -333,7 +343,7 @@
 		"weight": 2,
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 2,
-		"rank": 32
+		"rank": 33
 	},
 	"686": {
 		"player": "jr_mime",
@@ -341,7 +351,7 @@
 		"weight": 0.5,
 		"date": "0001-01-01T00:00:00Z",
 		"maxcount": 1,
-		"rank": 37
+		"rank": 39
 	},
 	"80": {
 		"player": "kishma9",
@@ -359,7 +369,7 @@
 		"weight": 1,
 		"date": "0001-01-01T00:00:00Z",
 		"maxcount": 2,
-		"rank": 36
+		"rank": 38
 	},
 	"90": {
 		"player": "puzzlow",
@@ -378,6 +388,6 @@
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 1,
 		"maxcount": 1,
-		"rank": 28
+		"rank": 29
 	}
 }

@@ -24,34 +24,35 @@
 | 21  | miiiiisho  | 79 |
 | 22  | respirate_  | 74 |
 | 23  | booty_bread  | 60 |
-| 24 🆕 | derintu  | 59 |
-| 25 ⬇ | receipts  | 56 |
-| 26 ⬇ | bk207*  | 53 |
-| 27 ⬇ | hmsmob*  | 52 |
-| 27 ⬇ | kaasppeerr  | 52 |
-| 29 ⬇ | bapqo  | 49 |
-| 30 ⬇ | osnyatsky  | 47 |
-| 31 ⬇ | paras220  | 46 |
-| 32 ⬇ | ninjaross  | 44 |
-| 33 ⬇ | ouacewi  | 43 |
-| 34 ⬇ | houseofleaves  | 42 |
-| 35 ⬇ | eaeac  | 40 |
-| 36 ⬆ | fvkdylan  | 36 (+8) |
-| 36 ⬇ | idini  | 36 |
-| 38 ⬇ | julialuxel  | 34 |
-| 39 ⬇ | islcfc*  | 33 |
-| 40 ⬇ | jr_mime  | 32 |
-| 41 ⬇ | fallen_angels_1995  | 28 |
-| 42 ⬇ | dougiefresh_83  | 27 |
-| 43 ⬇ | breadworms  | 25 |
-| 43 ⬇ | carmirror  | 25 |
-| 43 ⬇ | globcob  | 25 |
-| 46 ⬇ | rocketpol*  | 24 |
-| 47 ⬇ | divra__  | 22 |
-| 47 ⬇ | larvasisters  | 22 |
-| 49 ⬇ | veggesh  | 21 |
-| 50 ⬇ | realtechnine  | 20 |
+| 24  | derintu  | 59 |
+| 25  | receipts  | 56 |
+| 26  | bk207*  | 53 |
+| 27  | hmsmob*  | 52 |
+| 27  | kaasppeerr  | 52 |
+| 29  | bapqo  | 49 |
+| 30  | osnyatsky  | 47 |
+| 31  | paras220  | 46 |
+| 32  | ninjaross  | 44 |
+| 33  | ouacewi  | 43 |
+| 34  | houseofleaves  | 42 |
+| 35  | eaeac  | 40 |
+| 36  | fvkdylan  | 39 (+3) |
+| 37 ⬇ | idini  | 36 |
+| 38  | julialuxel  | 34 |
+| 39  | islcfc*  | 33 |
+| 40  | jr_mime  | 32 |
+| 41  | fallen_angels_1995  | 28 |
+| 42  | dougiefresh_83  | 27 |
+| 43  | breadworms  | 25 |
+| 43  | carmirror  | 25 |
+| 43  | globcob  | 25 |
+| 43 🆕 | wisco9ers  | 25 |
+| 47 ⬇ | rocketpol*  | 24 |
+| 48 ⬇ | divra__  | 22 |
+| 48 ⬇ | larvasisters  | 22 |
+| 50 ⬇ | veggesh  | 21 |
+| 51 ⬇ | realtechnine  | 20 |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2025-03-26 11:14:58 UTC_
+_Last updated at 2025-04-01 09:23:36 UTC_
