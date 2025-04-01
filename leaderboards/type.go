@@ -136,6 +136,8 @@ func getTypeRecords(params LeaderboardParams) (map[string]data.FishInfo, error) 
 			WHERE chat = $1
 			AND date < $2
 	  		AND date > $3
+			AND catchtype != 'release'
+			AND catchtype != 'squirrel'
 			GROUP BY fishname
 		) AS sub
 		ON f.fishname = sub.fishname AND f.weight = sub.max_weight
@@ -143,7 +145,7 @@ func getTypeRecords(params LeaderboardParams) (map[string]data.FishInfo, error) 
 		AND f.date = (
 			SELECT MIN(date)
 			FROM fish
-			WHERE fishname = sub.fishname AND weight = sub.max_weight AND chat = $1
+			WHERE fishname = sub.fishname AND weight = sub.max_weight AND chat = $1 AND catchtype != 'release' AND catchtype != 'squirrel'
 		)`, chatName, date, date2)
 		if err != nil {
 			logs.Logs().Error().Err(err).
