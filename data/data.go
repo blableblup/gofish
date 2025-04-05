@@ -296,7 +296,7 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 					return err
 				}
 				// if it hasnt been more than 6 months since the possible player caught a fish, it has to be them
-				if months > -6 && years == 0 {
+				if months > -6 && years == 0 && months < 6 {
 					playerID = possiblePlayer.PlayerID
 					break
 				}
