@@ -1,14 +1,14 @@
 ### Smallest fish per type caught in breadworms' chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
-| 1 🥇 ⬆ | 🫎 moose | 48.74 | derintu | 2025-03-16 14:42:36 |
-| 2 🥈 ⬆ | 🐈‍⬛ blackcat | 19.32 | derinturitierutz | 2024-12-21 10:47:09 |
-| 3 🥉 ⬇ | 🐻‍❄ polarbear | 14.96 (-56.93) | derintu | 2025-03-25 15:00:46 |
+| 1 🥇  | 🫎 moose | 48.74 | derintu | 2025-03-16 14:42:36 |
+| 2 🥈  | 🐈‍⬛ blackcat | 19.32 | derinturitierutz | 2024-12-21 10:47:09 |
+| 3 🥉  | 🐻‍❄ polarbear | 14.96 | derintu | 2025-03-25 15:00:46 |
 | 4  | 🛒 shoppingcart | 14.53 | leanmeister | 2025-02-02 15:33:00 |
 | 5  | 🛢️ oildrum | 13.36 | islcfc | 2024-07-12 03:25:59 |
 | 6  | 🐀 rat | 8.62 | derinturitierutz | 2025-03-14 09:24:02 |
 | 7  | 🦇 bat | 6.11 | julialuxel | 2024-09-26 00:36:06 |
-| 8  | 🦉 owl | 5.90 | eaeac | 2024-10-20 16:28:24 |
+| 8  | 🦉 owl | 5.76 (-0.14) | destin357 | 2025-03-31 06:19:48 |
 | 9  | 🧞‍♂ malegenie | 3.22 | osnyatsky | 2024-02-11 00:58:17 |
 | 10  | 👑 crown | 3.10 | osnyatsky* | 2023-06-12 13:09:46 |
 | 11  | 🧜‍♀️ mermaid | 2.65 | kishma9 | 2023-12-04 11:12:58 |
@@ -20,15 +20,15 @@
 | 17  | 🦫 beaver | 0.53 | chubbbyhamster | 2024-10-10 15:17:38 |
 | 18  | 🎰 slotmachine | 0.52 | larvasisters | 2024-04-18 22:31:49 |
 | 19  | 🦆 duck | 0.48 | osnyatsky* | 2023-07-25 17:55:46 |
-| 20 ⬆ | 🐳 whale | 0.30 | sussy_amonge | 2023-09-16 00:52:05 |
-| 21 ⬆ | 🍄‍🟫 brownmushroom | 0.28 | osnyisdead | 2025-01-14 02:54:02 |
-| 21 ⬆ | 🪼 jellyfish | 0.28 | dayzedinndaydreams | 2024-08-14 19:13:07 |
-| 23 ⬆ | 🧭 compass | 0.25 | breadworms | 2025-01-02 17:10:06 |
-| 24 ⬆ | 🧃 beveragebox | 0.21 | qu4ttromila | 2023-07-09 11:25:41 |
-| 24 ⬆ | 🐊 crocodile | 0.21 | suavvvvv | 2024-03-05 17:44:44 |
-| 26 ⬆ | 🕶️ darksunglasses | 0.19 | leanmeister | 2023-09-03 10:41:13 |
-| 27 ⬇ | 👡 sandal | 0.17 (-0.23) | wisco9ers | 2025-03-24 08:55:10 |
-| 27 ⬆ | 🦢 swan | 0.17 | chubbbyhamster | 2024-07-15 15:39:04 |
+| 20  | 🐳 whale | 0.30 | sussy_amonge | 2023-09-16 00:52:05 |
+| 21  | 🍄‍🟫 brownmushroom | 0.28 | osnyisdead | 2025-01-14 02:54:02 |
+| 21  | 🪼 jellyfish | 0.28 | dayzedinndaydreams | 2024-08-14 19:13:07 |
+| 23  | 🧭 compass | 0.25 | breadworms | 2025-01-02 17:10:06 |
+| 24  | 🧃 beveragebox | 0.21 | qu4ttromila | 2023-07-09 11:25:41 |
+| 24  | 🐊 crocodile | 0.21 | suavvvvv | 2024-03-05 17:44:44 |
+| 26  | 🕶️ darksunglasses | 0.19 | leanmeister | 2023-09-03 10:41:13 |
+| 27  | 👡 sandal | 0.17 | wisco9ers | 2025-03-24 08:55:10 |
+| 27  | 🦢 swan | 0.17 | chubbbyhamster | 2024-07-15 15:39:04 |
 | 29  | 🎱 8ball | 0.15 | ninjaross | 2024-06-20 09:07:58 |
 | 29  | 🦭 seal | 0.15 | dayzedinndaydreams | 2024-01-28 16:20:04 |
 | 31  | 🥒 cucumber | 0.14 | puzzlow | 2023-08-17 12:35:10 |
@@ -103,4 +103,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-03-30 09:46:07 UTC_
+_Last updated at 2025-04-06 09:26:16 UTC_

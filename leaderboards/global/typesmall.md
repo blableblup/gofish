@@ -5,7 +5,7 @@
 | 2 🥈  | 🐀 rat | 8.62 | derinturitierutz | 2025-03-14 09:24:02 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 3 🥉  | 🫎 moose | 7.50 | benciee | 2025-03-18 21:41:18 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png) |
 | 4  | 🦇 bat | 6.11 | julialuxel | 2024-09-26 00:36:06 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
-| 5  | 🦉 owl | 5.90 | eaeac | 2024-10-20 16:28:24 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 5  | 🦉 owl | 5.76 (-0.14) | destin357 | 2025-03-31 06:19:48 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 6  | 🛒 shoppingcart | 5.58 | beebo8i | 2025-01-01 18:41:52 | ![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png) |
 | 7  | 🛢️ oildrum | 3.99 | trendymirror | 2024-07-23 02:27:36 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
 | 8  | 🧜‍♀️ mermaid | 2.65 | kishma9 | 2023-12-04 11:12:58 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
@@ -104,4 +104,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-03-30 09:45:53 UTC_
+_Last updated at 2025-04-06 09:26:40 UTC_

@@ -33,12 +33,12 @@
 | 29  | 🧸 teddybear | 0.94 | toastyso | 2024-01-08 03:45:55 |
 | 31  | 🦎 lizard | 0.93 | dayzedinndaydreams | 2024-04-01 17:56:16 |
 | 32  | 👢 boot | 0.89 | toastyso | 2024-01-07 14:47:48 |
-| 33  | 🐚 shell | 0.83 | hahppyy | 2023-12-25 09:20:32 |
-| 34  | 🐸 frog | 0.81 | dayzedinndaydreams | 2024-04-01 18:32:08 |
-| 35  | 🦐 shrimp | 0.71 | julialuxel | 2024-01-12 17:42:48 |
-| 36  | 🐦‍⬛ blackbird | 0.69 | ninjaross | 2024-05-04 20:16:52 |
-| 37  | 🐌 snail | 0.67 | chubbbyhamster | 2024-03-29 20:36:29 |
-| 38  | ⛸️ iceskate | 0.62 | toastyso | 2024-01-07 03:21:01 |
+| 33 ⬆ | 🐸 frog | 0.81 | dayzedinndaydreams | 2024-04-01 18:32:08 |
+| 34 ⬆ | 🦐 shrimp | 0.71 | julialuxel | 2024-01-12 17:42:48 |
+| 35 ⬆ | 🐦‍⬛ blackbird | 0.69 | ninjaross | 2024-05-04 20:16:52 |
+| 36 ⬆ | 🐌 snail | 0.67 | chubbbyhamster | 2024-03-29 20:36:29 |
+| 37 ⬆ | ⛸️ iceskate | 0.62 | toastyso | 2024-01-07 03:21:01 |
+| 38 ⬇ | 🐚 shell | 0.56 (-0.27) | eaeac | 2025-03-31 02:33:51 |
 | 39  | 🕷️ spider | 0.54 | hahppyy | 2024-01-04 00:48:54 |
 | 40  | 👟 athleticshoe | 0.53 | supibot | 2024-01-04 19:43:39 |
 | 41  | 🪳 cockroach | 0.38 | julialuxel | 2024-01-03 14:55:10 |
@@ -57,4 +57,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-03-30 09:45:39 UTC_
+_Last updated at 2025-04-06 09:26:03 UTC_

@@ -24,9 +24,9 @@
 | 21  | 🛒 shoppingcart | 56.52 | buhl00n | 2025-01-02 17:13:58 |
 | 22  | 🗡️ dagger | 47.93 | juhjimmy | 2024-10-22 01:44:12 |
 | 23  | 🪨 rock | 45.46 | fvkdylan | 2025-03-08 02:55:57 |
-| 24  | 🐸 frog | 42.05 | exo9 | 2024-10-29 22:15:02 |
-| 25  | 🐧 penguin | 40.98 | buhl00n | 2024-12-25 06:28:31 |
-| 26  | 🦫 beaver | 40.89 (+3.18) | lolspers | 2025-03-26 09:11:53 |
+| 24 ⬆ | 🦫 beaver | 43.66 (+2.77) | gimmeschmoneys | 2025-04-01 21:24:25 |
+| 25 ⬇ | 🐸 frog | 42.05 | exo9 | 2024-10-29 22:15:02 |
+| 26 ⬇ | 🐧 penguin | 40.98 | buhl00n | 2024-12-25 06:28:31 |
 | 27  | 🦐 shrimp | 32.70 | buhl00n | 2025-03-15 18:13:06 |
 | 28  | 🕷️ spider | 32.34 | vagdi | 2024-11-03 11:38:24 |
 | 29  | 🧊 icecube | 28.67 | ben_vincent | 2024-12-31 18:30:07 |
@@ -51,13 +51,13 @@
 | 48  | 🧸 teddybear | 11.47 | ben_vincent | 2025-01-19 22:56:07 |
 | 49  | 👒 womanshat | 11.34 | ssenario | 2024-10-23 06:15:35 |
 | 50  | 🪀 bobber | 11.09 | ofaisalz | 2024-12-24 13:47:53 |
-| 51  | 🦆 duck | 10.85 | buhl00n | 2024-12-10 18:12:07 |
-| 52  | 🩲 briefs | 10.68 | exo9 | 2024-10-27 06:42:48 |
-| 53  | 🪺 nestwitheggs | 10.63 | hamoodhabibee | 2025-03-18 00:21:06 |
-| 54  | 💀 skull | 9.96 | lilskurtie | 2024-10-20 22:23:45 |
-| 55  | 🦎 lizard | 9.91 | synncss | 2024-11-01 01:12:13 |
-| 56  | 🕶️ darksunglasses | 9.87 | gimmeschmoneys | 2024-10-22 11:25:00 |
-| 57  | 🪹 emptynest | 9.06 | notnownico | 2025-01-17 15:18:36 |
+| 51 ⬆ | 🪹 emptynest | 10.96 (+1.90) | buhl00n | 2025-03-31 12:58:54 |
+| 52 ⬇ | 🦆 duck | 10.85 | buhl00n | 2024-12-10 18:12:07 |
+| 53 ⬇ | 🩲 briefs | 10.68 | exo9 | 2024-10-27 06:42:48 |
+| 54 ⬇ | 🪺 nestwitheggs | 10.63 | hamoodhabibee | 2025-03-18 00:21:06 |
+| 55 ⬇ | 💀 skull | 9.96 | lilskurtie | 2024-10-20 22:23:45 |
+| 56 ⬇ | 🦎 lizard | 9.91 | synncss | 2024-11-01 01:12:13 |
+| 57 ⬇ | 🕶️ darksunglasses | 9.87 | gimmeschmoneys | 2024-10-22 11:25:00 |
 | 58  | 🧥 coat | 6.78 | iam_glorp | 2025-02-18 01:35:25 |
 | 59  | 🥫 cannedfood | 5.88 | gimmeschmoneys | 2025-03-02 04:38:49 |
 | 60  | 🧵 wireline | 5.66 | hamoodhabibee | 2025-03-15 23:00:16 |
@@ -65,7 +65,7 @@
 | 62  | 🎏 lure | 4.97 | rougep1rate | 2025-02-02 21:36:15 |
 | 63  | 🪝 hook | 4.72 | ben_vincent | 2025-02-05 02:21:58 |
 | 64  | 🐚 shell | 4.00 | gingiam | 2024-10-21 23:47:32 |
-| 65  | ☘️ shamrock | 3.94 | buhl00n | 2025-03-18 21:12:37 |
+| 65  | ☘️ shamrock | 3.99 (+0.05) | iam_glorp | 2025-04-04 08:21:18 |
 | 66  | 🐦 bird | 3.32 | aceleju | 2024-10-21 05:30:05 |
 | 67  | 🌰 acorn | 3.26 | gofishgamer | 2024-10-25 03:40:01 |
 | 68  | 🥀 wiltedflower | 2.96 | buhl00n | 2024-12-22 13:48:49 |
@@ -88,4 +88,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-03-30 09:45:21 UTC_
+_Last updated at 2025-04-06 09:26:49 UTC_

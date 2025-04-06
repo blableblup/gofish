@@ -6,10 +6,10 @@
 | 3 🥉  | 🦈 shark | 129.36 | benni900 | 2025-02-15 17:05:41 |
 | 4  | 🦕 sauropod | 125.87 | benni900 | 2025-02-19 17:48:07 |
 | 5  | 🦭 seal | 123.31 | benni900 | 2025-02-19 18:50:23 |
-| 6  | 🐙 octopus | 97.11 | koromadeno_shogun | 2024-09-16 11:00:23 |
-| 7  | 🐳 whale | 96.95 | koromadeno_shogun | 2024-12-31 15:55:23 |
-| 8  | 🐢 turtle | 89.56 | koromadeno_shogun | 2024-09-30 17:53:24 |
-| 9  | 🐋 whale2 | 83.95 | koromadeno_shogun | 2024-09-07 16:04:37 |
+| 6 ⬆ | 🐋 whale2 | 109.58 (+25.63) | benni900 | 2025-03-30 11:19:45 |
+| 7 ⬇ | 🐙 octopus | 97.11 | koromadeno_shogun | 2024-09-16 11:00:23 |
+| 8 ⬇ | 🐳 whale | 96.95 | koromadeno_shogun | 2024-12-31 15:55:23 |
+| 9 ⬇ | 🐢 turtle | 89.56 | koromadeno_shogun | 2024-09-30 17:53:24 |
 | 10  | 🦑 squid | 78.90 | koromadeno_shogun | 2024-09-12 16:11:09 |
 | 11  | 🐬 dolphin | 72.65 | koromadeno_shogun | 2024-09-21 23:24:30 |
 | 12  | 🐍 snake | 58.59 | koromadeno_shogun | 2024-12-25 19:02:58 |
@@ -25,17 +25,17 @@
 | 22  | 🕶️ darksunglasses | 12.16 | larvasisters | 2024-06-05 20:25:47 |
 | 23  | 🦆 duck | 10.39 | koromadeno_shogun | 2024-09-03 14:58:44 |
 | 24  | 💀 skull | 8.96 | koromadeno_shogun | 2024-09-02 16:31:59 |
-| 25 ⬆ | 🎱 8ball | 8.57 (+4.75) | koromadeno_shogun | 2025-03-13 10:05:29 |
-| 26 ⬇ | 🕷️ spider | 8.24 | benni900 | 2025-02-22 00:07:51 |
-| 27 ⬆ | 📱 iphone | 7.64 (+1.13) | koromadeno_shogun | 2025-03-13 12:07:24 |
-| 28 ⬇ | 🪀 bobber | 7.41 | koromadeno_shogun | 2024-09-26 20:19:46 |
-| 29 ⬇ | 🧊 icecube | 6.66 | benni900 | 2025-02-21 16:16:42 |
-| 30 ⬇ | 🥒 cucumber | 6.47 | koromadeno_shogun | 2024-09-15 15:03:32 |
-| 31 ⬇ | 🦎 lizard | 6.46 | koromadeno_shogun | 2024-09-27 00:13:01 |
-| 32 ⬇ | 🐸 frog | 4.72 | koromadeno_shogun | 2024-09-22 11:51:06 |
-| 33 ⬇ | 🪵 log | 4.69 | koromadeno_shogun | 2024-10-18 00:03:02 |
-| 34 ⬇ | 🎏 lure | 4.29 | riki482 | 2025-02-19 19:48:40 |
-| 35 ⬇ | 🪝 hook | 3.95 | larvasisters | 2024-06-05 00:49:25 |
+| 25  | 🎱 8ball | 8.57 | koromadeno_shogun | 2025-03-13 10:05:29 |
+| 26  | 🕷️ spider | 8.24 | benni900 | 2025-02-22 00:07:51 |
+| 27  | 📱 iphone | 7.64 | koromadeno_shogun | 2025-03-13 12:07:24 |
+| 28  | 🪀 bobber | 7.41 | koromadeno_shogun | 2024-09-26 20:19:46 |
+| 29  | 🧊 icecube | 6.66 | benni900 | 2025-02-21 16:16:42 |
+| 30  | 🥒 cucumber | 6.47 | koromadeno_shogun | 2024-09-15 15:03:32 |
+| 31  | 🦎 lizard | 6.46 | koromadeno_shogun | 2024-09-27 00:13:01 |
+| 32  | 🐸 frog | 4.72 | koromadeno_shogun | 2024-09-22 11:51:06 |
+| 33  | 🪵 log | 4.69 | koromadeno_shogun | 2024-10-18 00:03:02 |
+| 34  | 🎏 lure | 4.29 | riki482 | 2025-02-19 19:48:40 |
+| 35  | 🪝 hook | 3.95 | larvasisters | 2024-06-05 00:49:25 |
 | 36  | 🐚 shell | 3.65 | mitgliederversammlung | 2024-07-03 15:10:00 |
 | 37  | 🌰 acorn | 2.94 | koromadeno_shogun | 2024-09-29 17:10:00 |
 | 38  | 🦀 crab | 2.69 | benni900 | 2025-02-23 12:22:57 |
@@ -51,9 +51,7 @@
 | 48  | 🧤 gloves | 0.70 | benni900 | 2025-02-15 22:44:26 |
 | 49  | 🍁 mapleleaf | 0.56 | koromadeno_shogun | 2024-09-30 23:22:41 |
 | 50  | 👢 boot | 0.25 | benni900 | 2025-02-16 12:11:25 |
-| 51  | 🍬 candy | 0.00 | larvasisters | 2024-10-13 22:30:23 |
-| 51  | 🎰 slotmachine | 0.00 | koromadeno_shogun | 2024-12-25 19:04:19 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-03-16 09:31:00 UTC_
+_Last updated at 2025-04-06 09:27:06 UTC_

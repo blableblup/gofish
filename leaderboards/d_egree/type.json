@@ -69,19 +69,6 @@
 		"chatid": 187,
 		"rank": 50
 	},
-	"candy": {
-		"player": "larvasisters",
-		"playerid": 1212,
-		"bot": "gofishgame",
-		"type": "🍬",
-		"typename": "candy",
-		"catchtype": "release",
-		"date": "2024-10-13T22:30:23Z",
-		"chat": "d_egree",
-		"fishid": 109381,
-		"chatid": 147,
-		"rank": 51
-	},
 	"cannedfood": {
 		"player": "benni900",
 		"playerid": 228,
@@ -430,7 +417,7 @@
 		"chat": "d_egree",
 		"fishid": 101633,
 		"chatid": 61,
-		"rank": 6
+		"rank": 7
 	},
 	"oyster": {
 		"player": "koromadeno_shogun",
@@ -542,6 +529,7 @@
 		"chat": "d_egree",
 		"fishid": 87801,
 		"chatid": 9,
+		"verified": true,
 		"rank": 36
 	},
 	"shrimp": {
@@ -571,19 +559,6 @@
 		"fishid": 99047,
 		"chatid": 11,
 		"rank": 24
-	},
-	"slotmachine": {
-		"player": "koromadeno_shogun",
-		"playerid": 2887,
-		"bot": "gofishgame",
-		"type": "🎰",
-		"typename": "slotmachine",
-		"catchtype": "release",
-		"date": "2024-12-25T19:04:19Z",
-		"chat": "d_egree",
-		"fishid": 135369,
-		"chatid": 162,
-		"rank": 51
 	},
 	"snail": {
 		"player": "koromadeno_shogun",
@@ -681,7 +656,7 @@
 		"chat": "d_egree",
 		"fishid": 105210,
 		"chatid": 131,
-		"rank": 8
+		"rank": 9
 	},
 	"umbrella": {
 		"player": "benni900",
@@ -709,20 +684,20 @@
 		"chat": "d_egree",
 		"fishid": 137432,
 		"chatid": 169,
-		"rank": 7
+		"rank": 8
 	},
 	"whale2": {
-		"player": "koromadeno_shogun",
-		"playerid": 2887,
-		"weight": 83.95,
+		"player": "benni900",
+		"playerid": 228,
+		"weight": 109.58,
 		"bot": "gofishgame",
 		"type": "🐋",
 		"typename": "whale2",
 		"catchtype": "normal",
-		"date": "2024-09-07T16:04:37Z",
+		"date": "2025-03-30T11:19:45Z",
 		"chat": "d_egree",
-		"fishid": 99981,
-		"chatid": 38,
-		"rank": 9
+		"fishid": 160348,
+		"chatid": 264,
+		"rank": 6
 	}
 }

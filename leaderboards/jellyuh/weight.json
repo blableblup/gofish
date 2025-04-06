@@ -9,7 +9,7 @@
 		"catchtype": "normal",
 		"date": "2025-03-26T05:51:36Z",
 		"chat": "jellyuh",
-		"fishid": 158847,
+		"fishid": 159170,
 		"chatid": 898,
 		"rank": 6
 	},
@@ -123,7 +123,7 @@
 		"chat": "jellyuh",
 		"fishid": 151568,
 		"chatid": 391,
-		"rank": 15
+		"rank": 16
 	},
 	"3607": {
 		"player": "rainedparade",
@@ -193,7 +193,7 @@
 		"chat": "jellyuh",
 		"fishid": 152210,
 		"chatid": 513,
-		"rank": 16
+		"rank": 17
 	},
 	"3636": {
 		"player": "maavva",
@@ -222,5 +222,19 @@
 		"fishid": 156765,
 		"chatid": 788,
 		"rank": 14
+	},
+	"3646": {
+		"player": "gamingwithmicah_",
+		"playerid": 3646,
+		"weight": 61.58,
+		"bot": "gofishgame",
+		"type": "🐢",
+		"typename": "turtle",
+		"catchtype": "normal",
+		"date": "2025-04-04T04:22:31Z",
+		"chat": "jellyuh",
+		"fishid": 161790,
+		"chatid": 985,
+		"rank": 15
 	}
 }
