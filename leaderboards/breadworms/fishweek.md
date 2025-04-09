@@ -23,8 +23,8 @@
 | 20  | gstaman911  | 80 |
 | 21  | miiiiisho  | 79 |
 | 22  | respirate_  | 74 |
-| 23  | booty_bread  | 60 |
-| 24  | derintu  | 59 |
+| 23 ⬆ | derintu  | 69 (+10) |
+| 24 ⬇ | booty_bread  | 60 |
 | 25  | receipts  | 56 |
 | 26  | bk207*  | 53 |
 | 27  | hmsmob*  | 52 |
@@ -36,8 +36,8 @@
 | 33  | ouacewi  | 43 |
 | 34  | houseofleaves  | 42 |
 | 35  | eaeac  | 40 |
-| 36  | fvkdylan  | 39 (+3) |
-| 37 ⬇ | idini  | 36 |
+| 36  | fvkdylan  | 39 |
+| 37  | idini  | 36 |
 | 38  | julialuxel  | 34 |
 | 39  | islcfc*  | 33 |
 | 40  | jr_mime  | 32 |
@@ -46,13 +46,13 @@
 | 43  | breadworms  | 25 |
 | 43  | carmirror  | 25 |
 | 43  | globcob  | 25 |
-| 43 🆕 | wisco9ers  | 25 |
-| 47 ⬇ | rocketpol*  | 24 |
-| 48 ⬇ | divra__  | 22 |
-| 48 ⬇ | larvasisters  | 22 |
-| 50 ⬇ | veggesh  | 21 |
-| 51 ⬇ | realtechnine  | 20 |
+| 43  | wisco9ers  | 25 |
+| 47  | rocketpol*  | 24 |
+| 48  | divra__  | 22 |
+| 48  | larvasisters  | 22 |
+| 50  | veggesh  | 21 |
+| 51  | realtechnine  | 20 |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2025-04-01 09:23:36 UTC_
+_Last updated at 2025-04-09 09:50:14 UTC_

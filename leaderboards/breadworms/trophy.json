@@ -6,7 +6,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 1,
 		"maxcount": 2,
-		"rank": 27
+		"rank": 28
 	},
 	"12": {
 		"player": "bussinongnocap",
@@ -25,7 +25,7 @@
 		"fishid": 1,
 		"chatid": 1,
 		"maxcount": 1,
-		"rank": 25
+		"rank": 26
 	},
 	"125": {
 		"player": "osnyatsky",
@@ -34,7 +34,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 2,
 		"maxcount": 5,
-		"rank": 25
+		"rank": 26
 	},
 	"126": {
 		"player": "derinturitierutz",
@@ -70,14 +70,14 @@
 		"fishid": 1,
 		"chatid": 1,
 		"maxcount": 3,
-		"rank": 23
+		"rank": 24
 	},
 	"135": {
 		"player": "leanmeister",
 		"playerid": 135,
-		"weight": 140.5,
+		"weight": 149.5,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 42,
+		"fishid": 45,
 		"chatid": 12,
 		"maxcount": 5,
 		"rank": 1
@@ -100,7 +100,7 @@
 		"fishid": 3,
 		"chatid": 3,
 		"maxcount": 6,
-		"rank": 17
+		"rank": 18
 	},
 	"14": {
 		"player": "ninjaross",
@@ -237,30 +237,31 @@
 	"3529": {
 		"player": "gstaman911",
 		"playerid": 3529,
-		"weight": 5.5,
+		"weight": 6,
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 4,
-		"maxcount": 3,
-		"rank": 23
+		"maxcount": 4,
+		"rank": 22
 	},
 	"3537": {
 		"player": "destin357",
 		"playerid": 3537,
-		"weight": 14,
+		"weight": 16.5,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 1,
-		"chatid": 9,
-		"maxcount": 4,
-		"rank": 18
+		"chatid": 11,
+		"maxcount": 5,
+		"rank": 17
 	},
 	"3638": {
 		"player": "derintu",
 		"playerid": 3638,
-		"weight": 4,
+		"weight": 5.5,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 1,
-		"chatid": 1,
-		"rank": 27
+		"chatid": 2,
+		"maxcount": 1,
+		"rank": 24
 	},
 	"38": {
 		"player": "niiy",
