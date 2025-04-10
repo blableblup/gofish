@@ -34,9 +34,19 @@ func ParseDate(dateStr string) (time.Time, error) {
 	date, err := time.Parse("2006-01-2 15:04:05", dateStr)
 	if err != nil {
 		date, err = time.Parse("2006-01-2", dateStr)
+		// this is only for the "chats" leaderboard to get the active fishers
 		if err != nil {
 			return time.Time{}, err
 		}
+	}
+	return date, nil
+}
+
+func ParseDateInLoc(dateStr string, loc *time.Location) (time.Time, error) {
+	// Parse the date string into a time.Time object with a location
+	date, err := time.ParseInLocation("2006-01-2 15:04:05", dateStr, loc)
+	if err != nil {
+		return time.Time{}, err
 	}
 	return date, nil
 }

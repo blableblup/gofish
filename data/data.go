@@ -229,27 +229,80 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 		}
 	}
 
-	date1, _ := utils.ParseDate("2024-06-06 00:00:00") // When logs ivr started using utc in the logs
-	date2, _ := utils.ParseDate("2024-03-31 03:00:00") // When normal time changed to summer time
-	date3, _ := utils.ParseDate("2023-10-29 03:00:00") // When summer time changed to normal time
-	// It will always add a couple of fish around the time of the time changes which are already in the db
-	// cant really do anything about that, because the time changes messing up the logs at that point, had to delete manually >________<
+	// First need to check fish . Date, because not all instances were always in utc
+	// Checking logs when there is daylight savings can add fish again which are already in the db
+	// cant do anything about that, because the time changes messing up the logs at that point, need to delete manually
 	// the logs are normal until the time changes and then the older and newer messages overlap
 	// https://logs.ivr.fi/channel/psp1g/2023/10/29 compare to https://logs.nadeko.net/channel/psp1g/2023/10/29 same for march
 
+	// because some fish were added to the db before i knew they werent in utc ...
+	// I updated the times for the fish in julia + ajspyman + zomballr + ovrht + d_egree manually; and also for the very first fish in ryanpotats chat
+	// i did: update fish set date = date - interval '1/2' hour where chat ... and date ....
+	// their tournament results i didnt change the times !, bags i deleted and made it recheck from the very beginning
+
+	// idk why, https://logs.ivr.fi/channel/d_egree/user/gofishgame/2024/6 ahead of spanix by 2 hours https://logs.spanix.team/channel/d_egree/user/gofishgame/2024/6?
+	// but in other chats times are same: https://logs.ivr.fi/channel/ajspyman/user/gofishgame/2024/6 ; https://logs.spanix.team/channel/ajspyman/user/gofishgame/2024/6
+	// need to probably subtract two hours from the time from logs ivr
+	// i checked this with the fish squid mitglied caught
+	// mit typed [2024-06-1 22:13:21] #breadworms mitgliederversammlung: $gn elisSleep in logs joinuv
+	// so cant have fished here:
+	// [2024-06-01 23:33:58] #d_egree gofishgame: @mitgliederversammlung, You caught a ✨ 🦑 ✨! It weighs 15.02 lbs. (30m cooldown after a catch) logs ivr
+	// or maybe not, but doesnt matter; its only 8 catches
+
+	datelogsivr, _ := utils.ParseDate("2024-06-06 00:00:00")
+	// When logs ivr started using utc in the logs, seems to be the same for potat and spanix i think ?
+	// i found this date by comparing psp chat fish logs from nadeko and ivr; nadeko should be in utc
+	datesusgee, _ := utils.ParseDate("2024-07-01 00:00:00")
+	datesusgee2, _ := utils.ParseDate("2024-03-31 00:00:00")
+	// i could just delete logs.susgee.dev, all the channels which have it have enough other instances ?
+
+	loc, err := time.LoadLocation("Europe/Berlin")
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Msg("Error loading time location for berlin")
+		return err
+	}
+
 	for _, fish := range allFish {
 
-		// Because logs.ivr didnt use utc but instead had the logs in utc+1/utc+2
-		if strings.Contains(fish.Url, "logs.ivr.fi") && fish.Date.Before(date1) {
+		// logs.ivr had the logs in utc+1/utc+2, potat and spanix aswell
+		if strings.Contains(fish.Url, "logs.ivr.fi") || strings.Contains(fish.Url, "logs.potat.app") || strings.Contains(fish.Url, "logs.spanix.team") {
 
-			if fish.Date.Before(date1) && fish.Date.After(date2) || fish.Date.Before(date3) {
-				// Subtract two hours (utc+2 to utc)
-				fish.Date = fish.Date.Add(time.Hour * -2)
+			if fish.Date.Before(datelogsivr) {
+
+				// re parse the time of the fish to have the location set to berlin cet/cest
+				notUTC, err := utils.ParseDateInLoc(fish.Date.Format("2006-01-2 15:04:05"), loc)
+				if err != nil {
+					logs.Logs().Error().Err(err).
+						Str("Time", fish.Date.String()).
+						Msg("Error parsing time")
+					return err
+				}
+
+				// convert the time of the fish back to utc, this works with daylight savings
+				fish.Date = notUTC.In(time.UTC)
 			}
+		}
 
-			if fish.Date.Before(date2) && fish.Date.After(date3) {
-				// Subtract one hour (utc+1 to utc)
-				fish.Date = fish.Date.Add(time.Hour * -1)
+		// logs.susgee is in utc+1/utc+2; but was +2/+4 (?)
+		if strings.Contains(fish.Url, "logs.susgee.dev") {
+
+			if fish.Date.After(datesusgee) {
+				notUTC, err := utils.ParseDateInLoc(fish.Date.Format("2006-01-2 15:04:05"), loc)
+				if err != nil {
+					logs.Logs().Error().Err(err).
+						Str("Time", fish.Date.String()).
+						Msg("Error parsing time")
+					return err
+				}
+
+				fish.Date = notUTC.In(time.UTC)
+			} else if fish.Date.Before(datesusgee2) {
+
+				fish.Date = fish.Date.Add(time.Hour * -2)
+			} else if fish.Date.Before(datesusgee) && fish.Date.After(datesusgee2) {
+
+				fish.Date = fish.Date.Add(time.Hour * -4)
 			}
 		}
 
