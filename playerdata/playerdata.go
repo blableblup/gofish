@@ -21,7 +21,8 @@ type PossiblePlayer struct {
 	OldNames  []string
 }
 
-// >_________________________________________________________<
+// This is finding all the players who used that players name before in the db
+// and returning a slice of them
 func FindAllThePossiblePlayers(pool *pgxpool.Pool, player string, firstFishDate time.Time, firstFishChat string) ([]PossiblePlayer, error) {
 
 	var possiblePlayers []PossiblePlayer
@@ -232,6 +233,7 @@ func FindAllThePossiblePlayers(pool *pgxpool.Pool, player string, firstFishDate 
 				return []PossiblePlayer{}, err
 			}
 
+			// if months is > 6 or years < 6 then what ?
 			if months < -6 || years < 0 {
 				// check the twitchid of the name
 				apiID, err = GetTwitchID(player)
@@ -331,6 +333,16 @@ func PlayerDates(pool *pgxpool.Pool, playerID int, player string) (time.Time, ti
 	} else if lastseenbag.Valid && !lastseen.Valid {
 
 		return lastseenbag.Time, firstseenbag.Time, nil
+	} else if !lastseen.Valid && !lastseenbag.Valid {
+		// This only happened when i was updating and changing the db
+		// if this is the case, the playerid in the db of the data which is being added will probably be 0 ...
+		// if there are multiple possible players
+		// can just check for that and update manually
+
+		logs.Logs().Warn().
+			Str("Player", player).
+			Int("PlayerID", playerID).
+			Msg("Cannot find last and firstseen for player!")
 	}
 
 	return lastseen.Time, firstseen.Time, nil
