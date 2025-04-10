@@ -6,7 +6,6 @@ import (
 	"fmt"
 	"gofish/logs"
 	"regexp"
-	"strings"
 	"time"
 
 	"github.com/jackc/pgx/v5/pgconn"
@@ -114,19 +113,12 @@ func GetFishDataFromURL(url string, chatName string, data string, pool *pgxpool.
 
 			switch fish.CatchType {
 			default:
-				// The shinies can have a space in front and behind them idk why
-				// [2025-01-11 01:30:41] #omie gofishgame: @ritaaww, You caught a 🫧  HailHelix  🫧! It weighs 2.06 lbs. (30m cooldown after a catch) logs.spanix
-				// [2023-10-1 21:24:45] #breadworms gofishgame: @derinturitierutz, You caught a 🫧 HailHelix  🫧! It weighs 2.21 lbs. (30m cooldown after a catch) logs.joinuv
-				// [2023-09-30 22:49:23] #psp1g gofishgame: @6blmue, You caught a 🫧 Jellyfish  🫧! It weighs 19.44 lbs. (30m cooldown after a catch) logs.nadeko
-				fish.Type = strings.TrimSpace(fish.Type)
-				// always trim the space, there could be a new shiny
-				// should probably just change regex maybe ?? -? since this wont do anything for 99.99% of fish
 
-				// Because Jellyfish used to be a bttv emote
-				if fish.Type == "Jellyfish" {
-					fish.Type = "🪼"
-				}
 				if fish.Date.After(latestCatchDate) {
+					// Because Jellyfish used to be a bttv emote
+					if fish.Type == "Jellyfish" {
+						fish.Type = "🪼"
+					}
 
 					fishData = append(fishData, fish)
 				}
