@@ -17,10 +17,8 @@
 
 * The program parses the logs of gofishgame (or supibot for older data) and then inserts the fish and the tournament results into a postgresql database. Fish from Twitch whispers, from Discord and fish caught before the justlog instance was added to the chat are not included. (To see which chats are being covered look here: [config](https://github.com/blableblup/gofish/blob/main/config.json))
 
-* The logs are probably not fully complete in most cases, but they should contain the vast majority of fish. 
+* The logs are probably not fully complete in most cases, but they should contain the vast majority of fish. If a chat has mutliple justlog instances, I can check the different ones and find missing fish. The only instance with a lot of very long downtimes was logs nadeko, but that was only used for psp1g and those gaps have been fixed.
 
-* The log data for psp1g's chat from the 27th of February 2024 to the 3rd of March 2024 is incomplete (see [here](https://logs.nadeko.net/channel/psp1g/2024/2/28)).
-
-* The data for psp1g's chat from the 12th of December 2023 to the 14th of December 2023  is also incomplete (see [here](https://logs.nadeko.net/channel/psp1g/2023/12/13)).
+* Some gaps I know about which weren't filled: Small gap for [logs.spanix.team](https://logs.spanix.team/channel/omie/user/gofishgame/2025/1) from 2025-01-21 05:18:08 to 2025-01-23 01:32:54 for omie. And somewhere in this week 2025-02-09/16 for vaiastol.
 
 * Fish seen through gifts 🎁 and through releasing to another player during the winter events were not added to the database.

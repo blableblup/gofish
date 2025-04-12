@@ -232,31 +232,32 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 	}
 
 	// First need to check fish . Date, because not all instances were always in utc
+
 	// Checking logs when there is daylight savings can add fish again which are already in the db
 	// cant do anything about that, because the time changes messing up the logs at that point, need to delete manually
 	// the logs are normal until the time changes and then the older and newer messages overlap
-	// https://logs.ivr.fi/channel/psp1g/2023/10/29 compare to https://logs.nadeko.net/channel/psp1g/2023/10/29 same for march
+	// https://logs.ivr.fi/channel/psp1g/2023/10/29 compare to https://logs.nadeko.net/channel/psp1g/2023/10/29
+	// for march no fish get added again
 
-	// because some fish were added to the db before i knew they werent in utc ...
-	// I updated the times for the fish in julia + ajspyman + zomballr + ovrht + d_egree manually; and also for the very first fish in ryanpotats chat
-	// i did: update fish set date = date - interval '1/2' hour where chat ... and date ....
-	// their tournament results i didnt change the times !, bags i deleted and made it recheck from the very beginning
-
-	// idk why, https://logs.ivr.fi/channel/d_egree/user/gofishgame/2024/6 ahead of spanix by 2 hours https://logs.spanix.team/channel/d_egree/user/gofishgame/2024/6?
-	// but in other chats times are same: https://logs.ivr.fi/channel/ajspyman/user/gofishgame/2024/6 ; https://logs.spanix.team/channel/ajspyman/user/gofishgame/2024/6
-	// need to probably subtract two hours from the time from logs ivr
-	// i checked this with the fish squid mitglied caught
-	// mit typed [2024-06-1 22:13:21] #breadworms mitgliederversammlung: $gn elisSleep in logs joinuv
-	// so cant have fished here:
+	// Time can be inconsistent between channels in same instance:
+	// https://logs.ivr.fi/channel/d_egree/user/gofishgame/2024/6 ahead of spanix by 2 hours https://logs.spanix.team/channel/d_egree/user/gofishgame/2024/6?
+	// but not here: https://logs.ivr.fi/channel/ajspyman/user/gofishgame/2024/6 ; https://logs.spanix.team/channel/ajspyman/user/gofishgame/2024/6
+	// The time in spanix is probably the correct one based off of mitglieds logs:
+	// [2024-06-1 22:13:21] #breadworms mitgliederversammlung: $gn elisSleep in logs joinuv
 	// [2024-06-01 23:33:58] #d_egree gofishgame: @mitgliederversammlung, You caught a ✨ 🦑 ✨! It weighs 15.02 lbs. (30m cooldown after a catch) logs ivr
-	// or maybe not, but doesnt matter; its only 8 catches
+
+	// Some data was added to the db before I knew that the time wasnt in utc:
+	// for julialuxel, ajspyman, zomballr, ovrht, d_egree, ryanpotat
+	// I updated the times for their fish (update fish set date = date - interval '1/2' hour where chat ... and date ....)
+	// but their tournament results i didnt change the times ! bags was rechecked anyways so didnt matter
+
+	// Fishids of the fish added from when i rechecked all the instances for all the chats: 163725 - 165222
 
 	datelogsivr, _ := utils.ParseDate("2024-06-06 00:00:00")
 	// When logs ivr started using utc in the logs, seems to be the same for potat and spanix i think ?
 	// i found this date by comparing psp chat fish logs from nadeko and ivr; nadeko should be in utc
 	datesusgee, _ := utils.ParseDate("2024-07-01 00:00:00")
 	datesusgee2, _ := utils.ParseDate("2024-03-31 00:00:00")
-	// i could just delete logs.susgee.dev, all the channels which have it have enough other instances ?
 
 	loc, err := time.LoadLocation("Europe/Berlin")
 	if err != nil {
@@ -287,6 +288,7 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 		}
 
 		// logs.susgee is in utc+1/utc+2; but was +2/+4 (?)
+		// OR maybe: logs susgee was always in utc+1/+2; and ivr, spanix and potat were in utc ? (???)
 		if strings.Contains(fish.Url, "logs.susgee.dev") {
 
 			if fish.Date.After(datesusgee) {
@@ -504,7 +506,13 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 
 			// Always checks if the result is already in the db, because you can do +checkin multiple times
 			// There is a bug where it will show the checkin result of the previous week if noone checked in, have to manually delete those
-			// If you check for more than 7 days, you could end up skipping a result if someone has the exact same result two weeks in a row (very unlikely)
+			// It appeared here:
+			// jellyuh: jan 2025 - march 2025 (4+?)
+			// psp1g: sept 2023 (3), oct 2023 (1), feb 2024 (4), april 2024 (1), may 2024 (2)
+			// omie: end of aug 2024 (2), mid oct 2024 (2)
+			// julia: dec 2023 - jan 2024 (7), because i didnt update the times of the older results to be in utc
+			// ryanpotat: dec 2024 - feb 2025 (2)
+			// For bread some results (7) get readded in may 2023 because she kept updating the results and format
 			var count int
 			err := tx.QueryRow(context.Background(), `
 			SELECT COUNT(*) FROM `+tableNameTournament+`

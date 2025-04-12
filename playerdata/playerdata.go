@@ -22,7 +22,8 @@ type PossiblePlayer struct {
 }
 
 // This is finding all the players who used that players name before in the db
-// and returning a slice of them
+// There can be problems if a players first and lastseen cant be found in the db
+// And when checking new logs from a long time ago, this cant find the twitchID for the players who renamed
 func FindAllThePossiblePlayers(pool *pgxpool.Pool, player string, firstFishDate time.Time, firstFishChat string) ([]PossiblePlayer, error) {
 
 	var possiblePlayers []PossiblePlayer
@@ -93,8 +94,6 @@ func FindAllThePossiblePlayers(pool *pgxpool.Pool, player string, firstFishDate 
 
 		for oldname, count := range howmanytimesusedname {
 			if count > 1 && oldname == player {
-				// so this warns if the current name "player" which is being checked was used by a player multiple times
-				// so they were renamed multiple times in the db and so the name should appear multiple times in the oldnames slice
 				logs.Logs().Warn().
 					Str("Player", possiblePlayer.Player).
 					Str("OldName", player).
@@ -123,8 +122,6 @@ func FindAllThePossiblePlayers(pool *pgxpool.Pool, player string, firstFishDate 
 
 	var apiID int
 	// If no possible players are found, check the api
-	// i dont want to check the api for every player because that is really slow >_>_>>__>_> ?
-	// wouldnt really change much, i would still need to do all those checks below
 	// If the player is new or renamed i dont need to get their last and firstseen, since it is clear who the player is
 	if len(possiblePlayers) == 0 {
 		apiID, err = GetTwitchID(player)
@@ -164,8 +161,6 @@ func FindAllThePossiblePlayers(pool *pgxpool.Pool, player string, firstFishDate 
 				return []PossiblePlayer{}, err
 			}
 			// No player in the db with that twitchid, the player has to be new
-			// player could also be a rename of one of the players in the db which dont have a twitchid
-			// whatever
 			if err == pgx.ErrNoRows {
 				playerID, err := AddNewPlayer(apiID, player, firstFishDate, firstFishChat, pool)
 				if err != nil {
@@ -189,8 +184,7 @@ func FindAllThePossiblePlayers(pool *pgxpool.Pool, player string, firstFishDate 
 				possiblePlayers = append(possiblePlayers, newplayer)
 			}
 		} else {
-			// has to be someone who renamed and then never caught a fish again with their new name
-			// so the player is added to the db with "0" as their twitchid
+			// the player is added to the db with null as their twitchid
 			playerID, err := AddNewPlayer(apiID, player, firstFishDate, firstFishChat, pool)
 			if err != nil {
 				logs.Logs().Error().Err(err).
@@ -215,7 +209,7 @@ func FindAllThePossiblePlayers(pool *pgxpool.Pool, player string, firstFishDate 
 		}
 
 	} else {
-		// If all the possible players last catch was more than 6 months away and the twitchids are different from the current player
+		// If all the possible players last catch was more than 6 months ago and the twitchids are different from the current player
 		// add the player as a new entry (the player took a name which was used by other players before)
 		// if the player isnt new, return all the possible players and go over them in data
 		playerisnew := true
@@ -233,7 +227,6 @@ func FindAllThePossiblePlayers(pool *pgxpool.Pool, player string, firstFishDate 
 				return []PossiblePlayer{}, err
 			}
 
-			// if months is > 6 or years < 6 then what ?
 			if months < -6 || years < 0 {
 				// check the twitchid of the name
 				apiID, err = GetTwitchID(player)
@@ -287,9 +280,6 @@ func FindAllThePossiblePlayers(pool *pgxpool.Pool, player string, firstFishDate 
 }
 
 // Get the first and last seen for the player from bag and fish
-// for tournaments: would need to check all the different tournament tables since you can checkin in different chats
-// probably doesnt matter ?
-
 // there is one problem:
 // like if player1 used "a" as a name and then renames and then after 6 months player2 uses "a" as a name and then after some time renames and then player1 uses "a" again ?
 // but if noone else used that name between this is fine, but in this case, the check in data would be true for multiple players
@@ -335,9 +325,10 @@ func PlayerDates(pool *pgxpool.Pool, playerID int, player string) (time.Time, ti
 		return lastseenbag.Time, firstseenbag.Time, nil
 	} else if !lastseen.Valid && !lastseenbag.Valid {
 		// This only happened when i was updating and changing the db
-		// if this is the case, the playerid in the db of the data which is being added will probably be 0 ...
-		// if there are multiple possible players
-		// can just check for that and update manually
+		// playerID will probably be 0 if there are more than one possible players
+		// Not getting "firstfishdate" from playerdata instead
+		// because that is never updated and doesnt have to work aswell
+		// if the data was more than 6 months from their firstfishdate
 
 		logs.Logs().Warn().
 			Str("Player", player).
@@ -351,7 +342,7 @@ func PlayerDates(pool *pgxpool.Pool, playerID int, player string) (time.Time, ti
 func AddNewPlayer(twitchid int, player string, firstFishDate time.Time, firstFishChat string, pool *pgxpool.Pool) (int, error) {
 
 	// Add a new player and return their id
-	// If a players twitchid cannot be found in the api, twitchid is left empty so that we dont have multiple players with the same twitchid (0)
+	// If a players twitchid cannot be found in the api, twitchid is null
 	var playerID int
 	if twitchid == 0 {
 		err := pool.QueryRow(context.Background(), "INSERT INTO playerdata (name,  firstfishdate, firstfishchat) VALUES ($1, $2, $3) RETURNING playerid", player, firstFishDate, firstFishChat).Scan(&playerID)
