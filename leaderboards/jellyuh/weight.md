@@ -15,10 +15,10 @@
 | 12  | jellyuh | 🐬 dolphin | 67.30 | 2025-03-09 07:03:16 |
 | 13  | fadingmemoriez | 🐙 octopus | 63.24 | 2025-01-02 07:08:13 |
 | 14  | deitydg | 🦑 squid | 62.57 | 2025-03-19 05:56:02 |
-| 15 🆕 | gamingwithmicah_ | 🐢 turtle | 61.58 | 2025-04-04 04:22:31 |
-| 16 ⬇ | pxxchy_dreams | 🐳 whale | 58.93 | 2025-02-25 05:10:34 |
-| 17 ⬇ | doggo143 | 🐟 fish | 54.83 | 2025-03-04 03:36:25 |
+| 15  | gamingwithmicah_ | 🐢 turtle | 61.58 | 2025-04-04 04:22:31 |
+| 16  | pxxchy_dreams | 🐳 whale | 58.93 | 2025-02-25 05:10:34 |
+| 17  | doggo143 | 🐟 fish | 54.83 | 2025-03-04 03:36:25 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2025-04-06 09:25:59 UTC_
+_Last updated at 2025-04-13 10:22:18 UTC_

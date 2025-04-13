@@ -12,7 +12,7 @@
 		"fishid": 126252,
 		"chatid": 287,
 		"verified": true,
-		"rank": 57
+		"rank": 56
 	},
 	"athleticshoe": {
 		"player": "respirate_",
@@ -189,7 +189,7 @@
 		"chat": "swormbeard",
 		"fishid": 156211,
 		"chatid": 398,
-		"rank": 41
+		"rank": 40
 	},
 	"cockroach": {
 		"player": "sicklymaidrobot",
@@ -307,18 +307,19 @@
 		"rank": 17
 	},
 	"fish": {
-		"player": "ninjaross",
-		"playerid": 14,
-		"weight": 0.58,
+		"player": "leanmeister",
+		"playerid": 135,
+		"weight": 0.36,
 		"bot": "gofishgame",
 		"type": "🐟",
 		"typename": "fish",
 		"catchtype": "normal",
-		"date": "2025-03-15T15:14:19Z",
+		"date": "2024-11-16T01:01:38Z",
 		"chat": "swormbeard",
-		"fishid": 155384,
-		"chatid": 333,
-		"rank": 40
+		"fishid": 165177,
+		"chatid": 472,
+		"verified": true,
+		"rank": 42
 	},
 	"frog": {
 		"player": "kishma9",
@@ -613,17 +614,17 @@
 		"rank": 51
 	},
 	"shamrock": {
-		"player": "chubbbyhamster",
-		"playerid": 21,
-		"weight": 0.04,
+		"player": "leanmeister",
+		"playerid": 135,
+		"weight": 0.01,
 		"bot": "gofishgame",
 		"type": "☘️",
 		"typename": "shamrock",
 		"catchtype": "normal",
-		"date": "2024-10-31T20:09:08Z",
+		"date": "2024-11-15T22:59:26Z",
 		"chat": "swormbeard",
-		"fishid": 116407,
-		"chatid": 180,
+		"fishid": 165172,
+		"chatid": 467,
 		"verified": true,
 		"rank": 56
 	},
@@ -653,7 +654,7 @@
 		"chat": "swormbeard",
 		"fishid": 111031,
 		"chatid": 105,
-		"rank": 57
+		"rank": 56
 	},
 	"shrimp": {
 		"player": "fvkdylan",
@@ -813,7 +814,7 @@
 		"fishid": 155813,
 		"chatid": 379,
 		"verified": true,
-		"rank": 57
+		"rank": 56
 	},
 	"turtle": {
 		"player": "derinturitierutz",
@@ -828,7 +829,7 @@
 		"fishid": 155500,
 		"chatid": 363,
 		"verified": true,
-		"rank": 42
+		"rank": 41
 	},
 	"whale": {
 		"player": "derinturitierutz",

@@ -95,7 +95,7 @@
 		"chat": "dizzy",
 		"fishid": 115725,
 		"chatid": 2480,
-		"rank": 70
+		"rank": 71
 	},
 	"116144": {
 		"player": "tairaaaaa",
@@ -207,7 +207,7 @@
 		"chat": "dizzy",
 		"fishid": 118800,
 		"chatid": 3772,
-		"rank": 91
+		"rank": 92
 	},
 	"119153": {
 		"player": "gimmeschmoneys",
@@ -291,7 +291,7 @@
 		"chat": "dizzy",
 		"fishid": 119821,
 		"chatid": 4159,
-		"rank": 77
+		"rank": 78
 	},
 	"119954": {
 		"player": "iam_haunt",
@@ -319,7 +319,7 @@
 		"chat": "dizzy",
 		"fishid": 119975,
 		"chatid": 4226,
-		"rank": 93
+		"rank": 94
 	},
 	"120049": {
 		"player": "gigi",
@@ -375,7 +375,7 @@
 		"chat": "dizzy",
 		"fishid": 120418,
 		"chatid": 4386,
-		"rank": 81
+		"rank": 82
 	},
 	"121175": {
 		"player": "konsminator",
@@ -403,7 +403,7 @@
 		"chat": "dizzy",
 		"fishid": 121464,
 		"chatid": 4755,
-		"rank": 73
+		"rank": 74
 	},
 	"121509": {
 		"player": "spanmer",
@@ -417,7 +417,7 @@
 		"chat": "dizzy",
 		"fishid": 121509,
 		"chatid": 4778,
-		"rank": 99
+		"rank": 100
 	},
 	"121612": {
 		"player": "lolspers",
@@ -445,7 +445,7 @@
 		"chat": "dizzy",
 		"fishid": 121614,
 		"chatid": 4829,
-		"rank": 98
+		"rank": 99
 	},
 	"122016": {
 		"player": "vagdi",
@@ -515,7 +515,7 @@
 		"chat": "dizzy",
 		"fishid": 123066,
 		"chatid": 5267,
-		"rank": 88
+		"rank": 89
 	},
 	"123088": {
 		"player": "julialuxel",
@@ -529,6 +529,7 @@
 		"chat": "dizzy",
 		"fishid": 123088,
 		"chatid": 5276,
+		"verified": true,
 		"rank": 30
 	},
 	"123143": {
@@ -543,7 +544,7 @@
 		"chat": "dizzy",
 		"fishid": 123143,
 		"chatid": 5312,
-		"rank": 75
+		"rank": 76
 	},
 	"123282": {
 		"player": "iam_haunt",
@@ -641,7 +642,7 @@
 		"chat": "dizzy",
 		"fishid": 126043,
 		"chatid": 6014,
-		"rank": 85
+		"rank": 86
 	},
 	"126444": {
 		"player": "iam_haunt",
@@ -655,7 +656,7 @@
 		"chat": "dizzy",
 		"fishid": 126444,
 		"chatid": 6170,
-		"rank": 82
+		"rank": 83
 	},
 	"126970": {
 		"player": "lolspers",
@@ -669,7 +670,7 @@
 		"chat": "dizzy",
 		"fishid": 126970,
 		"chatid": 6324,
-		"rank": 84
+		"rank": 85
 	},
 	"126986": {
 		"player": "ofaisalz",
@@ -697,7 +698,7 @@
 		"chat": "dizzy",
 		"fishid": 127217,
 		"chatid": 6425,
-		"rank": 74
+		"rank": 75
 	},
 	"127298": {
 		"player": "iam_glorp",
@@ -711,7 +712,7 @@
 		"chat": "dizzy",
 		"fishid": 127298,
 		"chatid": 6477,
-		"rank": 72
+		"rank": 73
 	},
 	"127448": {
 		"player": "lolspers",
@@ -725,7 +726,7 @@
 		"chat": "dizzy",
 		"fishid": 127448,
 		"chatid": 6524,
-		"rank": 89
+		"rank": 90
 	},
 	"127634": {
 		"player": "simplydrack",
@@ -767,7 +768,7 @@
 		"chat": "dizzy",
 		"fishid": 128752,
 		"chatid": 6854,
-		"rank": 97
+		"rank": 98
 	},
 	"128866": {
 		"player": "iam_glorp",
@@ -781,7 +782,7 @@
 		"chat": "dizzy",
 		"fishid": 128866,
 		"chatid": 6881,
-		"rank": 87
+		"rank": 88
 	},
 	"129058": {
 		"player": "iam_glorp",
@@ -795,7 +796,7 @@
 		"chat": "dizzy",
 		"fishid": 129058,
 		"chatid": 6920,
-		"rank": 80
+		"rank": 81
 	},
 	"129066": {
 		"player": "buhl00n",
@@ -837,7 +838,7 @@
 		"chat": "dizzy",
 		"fishid": 130005,
 		"chatid": 7120,
-		"rank": 92
+		"rank": 93
 	},
 	"130349": {
 		"player": "youngstercal",
@@ -851,7 +852,7 @@
 		"chat": "dizzy",
 		"fishid": 130349,
 		"chatid": 7191,
-		"rank": 86
+		"rank": 87
 	},
 	"130450": {
 		"player": "iam_glorp",
@@ -865,7 +866,7 @@
 		"chat": "dizzy",
 		"fishid": 130450,
 		"chatid": 7219,
-		"rank": 79
+		"rank": 80
 	},
 	"130475": {
 		"player": "buhl00n",
@@ -893,7 +894,8 @@
 		"chat": "dizzy",
 		"fishid": 130503,
 		"chatid": 7250,
-		"rank": 78
+		"verified": true,
+		"rank": 79
 	},
 	"130668": {
 		"player": "iam_glorp",
@@ -921,7 +923,7 @@
 		"chat": "dizzy",
 		"fishid": 131754,
 		"chatid": 7524,
-		"rank": 90
+		"rank": 91
 	},
 	"132202": {
 		"player": "simplydrack",
@@ -1089,7 +1091,7 @@
 		"chat": "dizzy",
 		"fishid": 135717,
 		"chatid": 8088,
-		"rank": 95
+		"rank": 96
 	},
 	"135887": {
 		"player": "iam_glorp",
@@ -1103,7 +1105,7 @@
 		"chat": "dizzy",
 		"fishid": 135887,
 		"chatid": 8127,
-		"rank": 96
+		"rank": 97
 	},
 	"136000": {
 		"player": "buhl00n",
@@ -1173,7 +1175,7 @@
 		"chat": "dizzy",
 		"fishid": 136608,
 		"chatid": 8230,
-		"rank": 76
+		"rank": 77
 	},
 	"137684": {
 		"player": "buhl00n",
@@ -1201,7 +1203,7 @@
 		"chat": "dizzy",
 		"fishid": 140424,
 		"chatid": 8567,
-		"rank": 71
+		"rank": 72
 	},
 	"141620": {
 		"player": "buhl00n",
@@ -1215,7 +1217,7 @@
 		"chat": "dizzy",
 		"fishid": 141620,
 		"chatid": 8667,
-		"rank": 83
+		"rank": 84
 	},
 	"143698": {
 		"player": "iam_glorp",
@@ -1383,20 +1385,20 @@
 		"chat": "dizzy",
 		"fishid": 148298,
 		"chatid": 9280,
-		"rank": 94
+		"rank": 95
 	},
-	"148796": {
-		"player": "wisteraeia",
-		"playerid": 3252,
-		"weight": 169.14,
+	"165279": {
+		"player": "hamoodhabibee",
+		"playerid": 3002,
+		"weight": 186.07,
 		"bot": "gofishgame",
-		"type": "🦈",
-		"typename": "shark",
+		"type": "🐳",
+		"typename": "whale",
 		"catchtype": "normal",
-		"date": "2025-02-19T13:58:34Z",
+		"date": "2025-04-11T21:08:55Z",
 		"chat": "dizzy",
-		"fishid": 148796,
-		"chatid": 9351,
-		"rank": 100
+		"fishid": 165279,
+		"chatid": 10932,
+		"rank": 70
 	}
 }

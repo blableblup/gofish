@@ -1,10 +1,10 @@
 ### Most fish caught in swormbeard's chat
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
-| 1 🥇  | chubbbyhamster  | 119 |
-| 2 🥈  | respirate_  | 61 |
-| 3 🥉 ⬆ | derintu  | 60 (+8) |
-| 4 ⬇ | leanmeister  | 57 |
+| 1 🥇  | chubbbyhamster  | 127 |
+| 2 🥈  | leanmeister  | 76 |
+| 3 🥉  | respirate_  | 61 |
+| 4  | derintu  | 60 |
 | 5  | ninjaross*  | 29 |
 | 6  | dayzedinndaydreams  | 28 |
 | 7  | derinturitierutz  | 26 |
@@ -14,4 +14,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-03-30 09:45:24 UTC_
+_Last updated at 2025-04-13 10:22:18 UTC_

@@ -37,7 +37,7 @@
 | 34  | 🦀 crab | 38.91 | bussinongnocap | 2023-09-05 06:10:03 |
 | 35  | 🐡 blowfish | 35.66 | crazytown_bananapants | 2023-08-24 09:30:28 |
 | 36  | 🛒 shoppingcart | 34.05 | derinturitierutz | 2025-01-01 18:01:51 |
-| 37  | 🕷️ spider | 32.71 (+0.70) | leanmeister | 2025-04-02 10:24:56 |
+| 37  | 🕷️ spider | 32.71 | leanmeister | 2025-04-02 10:24:56 |
 | 38  | 🥒 cucumber | 31.72 | kishma9 | 2023-06-26 12:35:30 |
 | 39  | 🧽 sponge | 29.73 | dayzedinndaydreams | 2023-08-24 08:42:37 |
 | 40  | 🧊 icecube | 29.34 | dougiefresh_83 | 2024-12-31 21:24:39 |
@@ -69,15 +69,15 @@
 | 66  | 💀 skull | 9.98 | bussinongnocap | 2023-05-14 05:29:15 |
 | 67  | 🥫 cannedfood | 5.98 | leanmeister | 2025-01-07 20:29:27 |
 | 68  | 🧵 wireline | 5.95 | ninjaross | 2025-03-15 11:04:57 |
-| 69 ⬆ | 🐚 shell | 5.92 (+0.06) | eaeac | 2025-04-01 04:02:00 |
-| 70 ⬇ | 🦉 owl | 5.90 | eaeac | 2024-10-20 16:28:24 |
+| 69  | 🐚 shell | 5.92 | eaeac | 2025-04-01 04:02:00 |
+| 70  | 🦉 owl | 5.90 | eaeac | 2024-10-20 16:28:24 |
 | 71  | 🎏 lure | 5.76 | fishingalt | 2024-01-13 13:04:30 |
 | 72  | 🪝 hook | 4.98 | sussy_amonge | 2022-12-15 17:37:01 |
 | 73  | 🐦‍⬛ blackbird | 4.85 | qu4ttromila | 2024-04-25 00:23:08 |
-| 74 ⬆ | 🦢 swan | 4.40 (+1.12) | fishingalt | 2025-03-30 15:28:03 |
-| 75 ⬇ | ☘️ shamrock | 3.98 | osnyatsky | 2024-03-29 10:22:41 |
-| 76 ⬇ | 🌰 acorn | 3.91 | fishingalt | 2024-09-25 12:59:56 |
-| 77 ⬇ | 🪿 goose | 3.41 | julialuxel | 2025-01-15 04:08:39 |
+| 74  | 🦢 swan | 4.40 | fishingalt | 2025-03-30 15:28:03 |
+| 75  | ☘️ shamrock | 3.98 | osnyatsky | 2024-03-29 10:22:41 |
+| 76  | 🌰 acorn | 3.91 | fishingalt | 2024-09-25 12:59:56 |
+| 77  | 🪿 goose | 3.41 | julialuxel | 2025-01-15 04:08:39 |
 | 78  | ☂️ umbrella | 2.99 | vaiastol | 2024-07-14 15:25:04 |
 | 79  | 👡 sandal | 2.97 | fishingalt | 2025-03-16 15:45:17 |
 | 79  | 🥀 wiltedflower | 2.97 | eaeac | 2024-12-19 20:15:08 |
@@ -92,15 +92,15 @@
 | 89  | 🩰 balletshoes | 1.99 | qu4ttromila | 2024-04-19 07:41:11 |
 | 89  | ⛸️ iceskate | 1.99 | derinturitierutz | 2024-12-23 15:56:24 |
 | 91  | 👢 boot | 1.98 | derinturitierutz | 2023-12-30 12:35:00 |
-| 92 ⬆ | 🍃 leaf | 1.97 (+0.02) | destin357 | 2025-04-04 08:54:35 |
-| 93 ⬇ | 🌿 seaweed | 1.96 | dayzedinndaydreams | 2024-03-28 09:38:13 |
+| 92  | 🍃 leaf | 1.97 | destin357 | 2025-04-04 08:54:35 |
+| 93  | 🌿 seaweed | 1.96 | dayzedinndaydreams | 2024-03-28 09:38:13 |
 | 94  | 🍁 mapleleaf | 1.00 | fishingalt | 2024-09-28 20:29:04 |
 | 95  | 🪶 feather | 0.99 | osnyatsky* | 2023-08-24 01:31:11 |
 | 95  | 🧤 gloves | 0.99 | sicklymaidrobot | 2024-02-23 12:41:32 |
+| 95 ⬆ | 🌾 grass | 0.99 (+0.01) | chubbbyhamster | 2025-04-10 10:13:43 |
 | 95  | 🧣 scarf | 0.99 | osnyatsky* | 2022-12-22 04:35:03 |
-| 98  | 🌾 grass | 0.98 | gstaman911 | 2025-03-27 05:48:06 |
 | 99  | 🪚 carpentrysaw | 0.95 | osnyisdead | 2025-02-12 04:45:11 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-04-06 09:27:14 UTC_
+_Last updated at 2025-04-13 10:23:13 UTC_

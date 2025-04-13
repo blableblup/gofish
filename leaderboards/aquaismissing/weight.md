@@ -4,9 +4,9 @@
 | 1 🥇  | likedom_ | 🐋 whale2 | 134.56 | 2025-03-11 15:57:11 |
 | 2 🥈  | poggu_ | 🦭 seal | 129.15 | 2024-12-01 11:08:35 |
 | 3 🥉  | bubinga | 🐋 whale2 | 102.44 | 2024-12-10 17:23:25 |
-| 4 ⬆ | rustezzz | 🦭 seal | 94.11 (+3.46) | 2025-04-02 16:46:39 |
-| 5 ⬇ | velantix | 🐊 crocodile | 94.10 | 2025-02-09 20:10:49 |
-| 6 ⬇ | ggmagician | 🦭 seal | 93.61 | 2024-12-04 19:41:04 |
+| 4  | rustezzz | 🦭 seal | 94.11 | 2025-04-02 16:46:39 |
+| 5  | velantix | 🐊 crocodile | 94.10 | 2025-02-09 20:10:49 |
+| 6  | ggmagician | 🦭 seal | 93.61 | 2024-12-04 19:41:04 |
 | 7  | vigilworld | 🐳 whale | 88.80 | 2025-02-23 19:30:19 |
 | 8  | dom1torii | 🐊 crocodile | 80.34 | 2025-02-04 23:36:24 |
 | 9  | kaitechpl | 🐊 crocodile | 79.42 | 2024-12-26 18:05:28 |
@@ -18,4 +18,4 @@
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2025-04-06 09:26:00 UTC_
+_Last updated at 2025-04-13 10:22:19 UTC_

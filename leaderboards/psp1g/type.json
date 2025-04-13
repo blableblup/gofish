@@ -96,6 +96,7 @@
 		"chat": "psp1g",
 		"fishid": 31614,
 		"chatid": 5574,
+		"verified": true,
 		"rank": 49
 	},
 	"bird": {
@@ -110,6 +111,7 @@
 		"chat": "psp1g",
 		"fishid": 87994,
 		"chatid": 37191,
+		"verified": true,
 		"rank": 60
 	},
 	"blackbird": {
@@ -124,6 +126,7 @@
 		"chat": "psp1g",
 		"fishid": 99578,
 		"chatid": 44687,
+		"verified": true,
 		"rank": 68
 	},
 	"blowfish": {
@@ -155,17 +158,17 @@
 		"rank": 46
 	},
 	"boot": {
-		"player": "jr_mime",
-		"playerid": 686,
+		"player": "thegovernment5g",
+		"playerid": 375,
 		"weight": 2,
 		"bot": "gofishgame",
 		"type": "👢",
 		"typename": "boot",
 		"catchtype": "normal",
-		"date": "2024-01-06T00:47:38Z",
+		"date": "2024-01-03T19:04:05Z",
 		"chat": "psp1g",
-		"fishid": 52598,
-		"chatid": 17781,
+		"fishid": 164054,
+		"chatid": 58349,
 		"rank": 75
 	},
 	"briefs": {
@@ -180,6 +183,7 @@
 		"chat": "psp1g",
 		"fishid": 29677,
 		"chatid": 4433,
+		"verified": true,
 		"rank": 59
 	},
 	"candy": {
@@ -194,6 +198,7 @@
 		"chat": "psp1g",
 		"fishid": 88625,
 		"chatid": 37694,
+		"verified": true,
 		"rank": 82
 	},
 	"cannedfood": {
@@ -208,6 +213,7 @@
 		"chat": "psp1g",
 		"fishid": 56139,
 		"chatid": 19527,
+		"verified": true,
 		"rank": 64
 	},
 	"cockroach": {
@@ -250,6 +256,7 @@
 		"chat": "psp1g",
 		"fishid": 80772,
 		"chatid": 31985,
+		"verified": true,
 		"rank": 20
 	},
 	"crab": {
@@ -307,6 +314,7 @@
 		"chat": "psp1g",
 		"fishid": 82664,
 		"chatid": 33388,
+		"verified": true,
 		"rank": 34
 	},
 	"dagger": {
@@ -476,6 +484,7 @@
 		"chat": "psp1g",
 		"fishid": 127766,
 		"chatid": 56812,
+		"verified": true,
 		"rank": 55
 	},
 	"iceskate": {
@@ -490,6 +499,7 @@
 		"chat": "psp1g",
 		"fishid": 48581,
 		"chatid": 16009,
+		"verified": true,
 		"rank": 81
 	},
 	"iphone": {
@@ -563,18 +573,18 @@
 		"rank": 47
 	},
 	"lure": {
-		"player": "caprisen_",
-		"playerid": 500,
-		"weight": 4.97,
+		"player": "thomasdoge",
+		"playerid": 1002,
+		"weight": 4.99,
 		"bot": "gofishgame",
 		"type": "🎏",
 		"typename": "lure",
 		"catchtype": "normal",
-		"date": "2024-02-04T09:08:07Z",
+		"date": "2024-02-24T13:32:34Z",
 		"chat": "psp1g",
-		"fishid": 59168,
-		"chatid": 21099,
-		"rank": 63
+		"fishid": 164306,
+		"chatid": 58584,
+		"rank": 62
 	},
 	"malegenie": {
 		"player": "lobuhtomy",
@@ -588,6 +598,7 @@
 		"chat": "psp1g",
 		"fishid": 88565,
 		"chatid": 37642,
+		"verified": true,
 		"rank": 12
 	},
 	"mapleleaf": {
@@ -602,6 +613,7 @@
 		"chat": "psp1g",
 		"fishid": 112340,
 		"chatid": 51271,
+		"verified": true,
 		"rank": 86
 	},
 	"mermaid": {
@@ -616,6 +628,7 @@
 		"chat": "psp1g",
 		"fishid": 47175,
 		"chatid": 15357,
+		"verified": true,
 		"rank": 13
 	},
 	"mushroom": {
@@ -658,6 +671,7 @@
 		"chat": "psp1g",
 		"fishid": 29925,
 		"chatid": 4550,
+		"verified": true,
 		"rank": 9
 	},
 	"oildrum": {
@@ -686,6 +700,7 @@
 		"chat": "psp1g",
 		"fishid": 51350,
 		"chatid": 17197,
+		"verified": true,
 		"rank": 41
 	},
 	"oyster": {
@@ -770,6 +785,7 @@
 		"chat": "psp1g",
 		"fishid": 72228,
 		"chatid": 26656,
+		"verified": true,
 		"rank": 74
 	},
 	"sandwich": {
@@ -784,6 +800,7 @@
 		"chat": "psp1g",
 		"fishid": 37258,
 		"chatid": 9105,
+		"verified": true,
 		"rank": 79
 	},
 	"sauropod": {
@@ -798,6 +815,7 @@
 		"chat": "psp1g",
 		"fishid": 90715,
 		"chatid": 39188,
+		"verified": true,
 		"rank": 5
 	},
 	"scarf": {
@@ -840,6 +858,7 @@
 		"chat": "psp1g",
 		"fishid": 87176,
 		"chatid": 36555,
+		"verified": true,
 		"rank": 78
 	},
 	"shamrock": {
@@ -854,6 +873,7 @@
 		"chat": "psp1g",
 		"fishid": 87131,
 		"chatid": 36515,
+		"verified": true,
 		"rank": 65
 	},
 	"shark": {
@@ -868,6 +888,7 @@
 		"chat": "psp1g",
 		"fishid": 49794,
 		"chatid": 16474,
+		"verified": true,
 		"rank": 7
 	},
 	"shell": {
@@ -981,6 +1002,7 @@
 		"chat": "psp1g",
 		"fishid": 31721,
 		"chatid": 5649,
+		"verified": true,
 		"rank": 33
 	},
 	"sponge": {
@@ -1009,6 +1031,7 @@
 		"chat": "psp1g",
 		"fishid": 56121,
 		"chatid": 19513,
+		"verified": true,
 		"rank": 3
 	},
 	"squirrel": {
@@ -1150,6 +1173,7 @@
 		"chat": "psp1g",
 		"fishid": 52350,
 		"chatid": 17666,
+		"verified": true,
 		"rank": 1
 	},
 	"whale2": {
@@ -1234,6 +1258,7 @@
 		"chat": "psp1g",
 		"fishid": 37285,
 		"chatid": 9127,
+		"verified": true,
 		"rank": 17
 	}
 }

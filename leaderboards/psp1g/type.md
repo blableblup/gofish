@@ -63,7 +63,7 @@
 | 60  | 🐦 bird | 9.22 | zwockel01 | 2024-07-04 11:25:35 |
 | 61  | 🧵 wireline | 6.00 | ocrw | 2024-06-20 15:30:46 |
 | 62  | 🪝 hook | 4.99 | thedraingangceo* | 2023-08-24 20:19:25 |
-| 63  | 🎏 lure | 4.97 | caprisen_ | 2024-02-04 09:08:07 |
+| 62  | 🎏 lure | 4.99 | thomasdoge | 2024-02-24 13:32:34 |
 | 64  | 🥫 cannedfood | 4.91 | huuuuuuuuuuuuuuuuuuuuuurz | 2024-01-22 08:44:29 |
 | 65  | 🌰 acorn | 4.00 | bubinga | 2024-09-26 10:53:14 |
 | 65  | ☘️ shamrock | 4.00 | divra__ | 2024-06-30 02:15:28 |
@@ -76,7 +76,7 @@
 | 73  | 🌷 tulip | 2.93 | iflya320 | 2024-12-04 16:22:17 |
 | 74  | 🌹 rose | 2.88 | zwockel01 | 2024-04-11 08:51:47 |
 | 75  | 🩰 balletshoes | 2.00 | tomsi1g | 2023-09-01 09:27:04 |
-| 75  | 👢 boot | 2.00 | jr_mime | 2024-01-06 00:47:38 |
+| 75  | 👢 boot | 2.00 | thegovernment5g | 2024-01-03 19:04:05 |
 | 75  | 🧦 socks | 2.00 | manmanboy_ | 2023-09-16 12:22:22 |
 | 78  | 🌿 seaweed | 1.99 | angus_lpc | 2024-06-30 11:26:57 |
 | 79  | 👟 athleticshoe | 1.98 | jeejee_jjl | 2023-10-18 11:56:32 |
@@ -92,4 +92,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-03-02 12:02:04 UTC_
+_Last updated at 2025-04-13 10:23:38 UTC_

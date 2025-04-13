@@ -11,7 +11,7 @@
 		"chat": "d_egree",
 		"fishid": 100144,
 		"chatid": 40,
-		"rank": 81
+		"rank": 87
 	},
 	"100285": {
 		"player": "koromadeno_shogun",
@@ -25,7 +25,7 @@
 		"chat": "d_egree",
 		"fishid": 100285,
 		"chatid": 41,
-		"rank": 69
+		"rank": 73
 	},
 	"100336": {
 		"player": "koromadeno_shogun",
@@ -39,7 +39,7 @@
 		"chat": "d_egree",
 		"fishid": 100336,
 		"chatid": 42,
-		"rank": 80
+		"rank": 86
 	},
 	"100349": {
 		"player": "koromadeno_shogun",
@@ -53,7 +53,7 @@
 		"chat": "d_egree",
 		"fishid": 100349,
 		"chatid": 43,
-		"rank": 61
+		"rank": 64
 	},
 	"100448": {
 		"player": "koromadeno_shogun",
@@ -67,7 +67,7 @@
 		"chat": "d_egree",
 		"fishid": 100448,
 		"chatid": 45,
-		"rank": 74
+		"rank": 79
 	},
 	"100484": {
 		"player": "koromadeno_shogun",
@@ -81,7 +81,7 @@
 		"chat": "d_egree",
 		"fishid": 100484,
 		"chatid": 46,
-		"rank": 16
+		"rank": 17
 	},
 	"100908": {
 		"player": "koromadeno_shogun",
@@ -95,7 +95,7 @@
 		"chat": "d_egree",
 		"fishid": 100908,
 		"chatid": 47,
-		"rank": 13
+		"rank": 14
 	},
 	"101268": {
 		"player": "mitgliederversammlung",
@@ -110,37 +110,7 @@
 		"fishid": 101268,
 		"chatid": 52,
 		"verified": true,
-		"rank": 10
-	},
-	"101292": {
-		"player": "mitgliederversammlung",
-		"playerid": 17,
-		"weight": 9.91,
-		"bot": "gofishgame",
-		"type": "🐟",
-		"typename": "fish",
-		"catchtype": "normal",
-		"date": "2024-09-14T15:50:18Z",
-		"chat": "d_egree",
-		"fishid": 101292,
-		"chatid": 54,
-		"verified": true,
-		"rank": 94
-	},
-	"101305": {
-		"player": "mitgliederversammlung",
-		"playerid": 17,
-		"weight": 9,
-		"bot": "gofishgame",
-		"type": "🐟",
-		"typename": "fish",
-		"catchtype": "normal",
-		"date": "2024-09-14T16:53:36Z",
-		"chat": "d_egree",
-		"fishid": 101305,
-		"chatid": 56,
-		"verified": true,
-		"rank": 100
+		"rank": 11
 	},
 	"101633": {
 		"player": "koromadeno_shogun",
@@ -154,7 +124,7 @@
 		"chat": "d_egree",
 		"fishid": 101633,
 		"chatid": 61,
-		"rank": 7
+		"rank": 8
 	},
 	"101710": {
 		"player": "koromadeno_shogun",
@@ -168,7 +138,7 @@
 		"chat": "d_egree",
 		"fishid": 101710,
 		"chatid": 62,
-		"rank": 86
+		"rank": 92
 	},
 	"101883": {
 		"player": "koromadeno_shogun",
@@ -182,7 +152,7 @@
 		"chat": "d_egree",
 		"fishid": 101883,
 		"chatid": 69,
-		"rank": 50
+		"rank": 53
 	},
 	"101904": {
 		"player": "koromadeno_shogun",
@@ -196,7 +166,7 @@
 		"chat": "d_egree",
 		"fishid": 101904,
 		"chatid": 70,
-		"rank": 58
+		"rank": 61
 	},
 	"101992": {
 		"player": "koromadeno_shogun",
@@ -210,7 +180,7 @@
 		"chat": "d_egree",
 		"fishid": 101992,
 		"chatid": 72,
-		"rank": 37
+		"rank": 40
 	},
 	"102182": {
 		"player": "mitgliederversammlung",
@@ -225,7 +195,7 @@
 		"fishid": 102182,
 		"chatid": 78,
 		"verified": true,
-		"rank": 75
+		"rank": 80
 	},
 	"102501": {
 		"player": "koromadeno_shogun",
@@ -239,7 +209,7 @@
 		"chat": "d_egree",
 		"fishid": 102501,
 		"chatid": 89,
-		"rank": 52
+		"rank": 55
 	},
 	"102547": {
 		"player": "koromadeno_shogun",
@@ -253,7 +223,7 @@
 		"chat": "d_egree",
 		"fishid": 102547,
 		"chatid": 90,
-		"rank": 18
+		"rank": 19
 	},
 	"102808": {
 		"player": "koromadeno_shogun",
@@ -267,7 +237,7 @@
 		"chat": "d_egree",
 		"fishid": 102808,
 		"chatid": 93,
-		"rank": 17
+		"rank": 18
 	},
 	"103914": {
 		"player": "koromadeno_shogun",
@@ -281,21 +251,7 @@
 		"chat": "d_egree",
 		"fishid": 103914,
 		"chatid": 102,
-		"rank": 85
-	},
-	"104103": {
-		"player": "koromadeno_shogun",
-		"playerid": 2887,
-		"weight": 9.81,
-		"bot": "gofishgame",
-		"type": "🐟",
-		"typename": "fish",
-		"catchtype": "normal",
-		"date": "2024-09-27T14:38:00Z",
-		"chat": "d_egree",
-		"fishid": 104103,
-		"chatid": 105,
-		"rank": 96
+		"rank": 91
 	},
 	"104143": {
 		"player": "koromadeno_shogun",
@@ -309,21 +265,7 @@
 		"chat": "d_egree",
 		"fishid": 104143,
 		"chatid": 108,
-		"rank": 82
-	},
-	"104439": {
-		"player": "koromadeno_shogun",
-		"playerid": 2887,
-		"weight": 9.76,
-		"bot": "gofishgame",
-		"type": "🐟",
-		"typename": "fish",
-		"catchtype": "normal",
-		"date": "2024-09-28T15:31:16Z",
-		"chat": "d_egree",
-		"fishid": 104439,
-		"chatid": 117,
-		"rank": 98
+		"rank": 88
 	},
 	"105210": {
 		"player": "koromadeno_shogun",
@@ -337,7 +279,7 @@
 		"chat": "d_egree",
 		"fishid": 105210,
 		"chatid": 131,
-		"rank": 9
+		"rank": 10
 	},
 	"105279": {
 		"player": "koromadeno_shogun",
@@ -351,7 +293,7 @@
 		"chat": "d_egree",
 		"fishid": 105279,
 		"chatid": 132,
-		"rank": 14
+		"rank": 15
 	},
 	"105318": {
 		"player": "koromadeno_shogun",
@@ -365,7 +307,7 @@
 		"chat": "d_egree",
 		"fishid": 105318,
 		"chatid": 136,
-		"rank": 40
+		"rank": 43
 	},
 	"105461": {
 		"player": "koromadeno_shogun",
@@ -379,7 +321,7 @@
 		"chat": "d_egree",
 		"fishid": 105461,
 		"chatid": 138,
-		"rank": 20
+		"rank": 21
 	},
 	"105480": {
 		"player": "koromadeno_shogun",
@@ -393,7 +335,7 @@
 		"chat": "d_egree",
 		"fishid": 105480,
 		"chatid": 139,
-		"rank": 89
+		"rank": 96
 	},
 	"105519": {
 		"player": "mitgliederversammlung",
@@ -408,7 +350,7 @@
 		"fishid": 105519,
 		"chatid": 140,
 		"verified": true,
-		"rank": 42
+		"rank": 45
 	},
 	"106207": {
 		"player": "koromadeno_shogun",
@@ -422,7 +364,7 @@
 		"chat": "d_egree",
 		"fishid": 106207,
 		"chatid": 143,
-		"rank": 64
+		"rank": 67
 	},
 	"106266": {
 		"player": "koromadeno_shogun",
@@ -450,7 +392,7 @@
 		"chat": "d_egree",
 		"fishid": 109515,
 		"chatid": 148,
-		"rank": 44
+		"rank": 47
 	},
 	"109557": {
 		"player": "koromadeno_shogun",
@@ -464,7 +406,7 @@
 		"chat": "d_egree",
 		"fishid": 109557,
 		"chatid": 150,
-		"rank": 35
+		"rank": 37
 	},
 	"110366": {
 		"player": "koromadeno_shogun",
@@ -478,7 +420,7 @@
 		"chat": "d_egree",
 		"fishid": 110366,
 		"chatid": 151,
-		"rank": 71
+		"rank": 76
 	},
 	"110526": {
 		"player": "koromadeno_shogun",
@@ -492,7 +434,7 @@
 		"chat": "d_egree",
 		"fishid": 110526,
 		"chatid": 153,
-		"rank": 68
+		"rank": 72
 	},
 	"121711": {
 		"player": "koromadeno_shogun",
@@ -506,7 +448,7 @@
 		"chat": "d_egree",
 		"fishid": 121711,
 		"chatid": 155,
-		"rank": 92
+		"rank": 99
 	},
 	"128142": {
 		"player": "koromadeno_shogun",
@@ -520,7 +462,7 @@
 		"chat": "d_egree",
 		"fishid": 128142,
 		"chatid": 159,
-		"rank": 60
+		"rank": 63
 	},
 	"135318": {
 		"player": "koromadeno_shogun",
@@ -534,7 +476,7 @@
 		"chat": "d_egree",
 		"fishid": 135318,
 		"chatid": 160,
-		"rank": 43
+		"rank": 46
 	},
 	"135367": {
 		"player": "koromadeno_shogun",
@@ -548,7 +490,7 @@
 		"chat": "d_egree",
 		"fishid": 135367,
 		"chatid": 161,
-		"rank": 23
+		"rank": 24
 	},
 	"135424": {
 		"player": "koromadeno_shogun",
@@ -562,7 +504,7 @@
 		"chat": "d_egree",
 		"fishid": 135424,
 		"chatid": 167,
-		"rank": 24
+		"rank": 25
 	},
 	"137432": {
 		"player": "koromadeno_shogun",
@@ -576,7 +518,7 @@
 		"chat": "d_egree",
 		"fishid": 137432,
 		"chatid": 169,
-		"rank": 8
+		"rank": 9
 	},
 	"138646": {
 		"player": "koromadeno_shogun",
@@ -590,7 +532,7 @@
 		"chat": "d_egree",
 		"fishid": 138646,
 		"chatid": 170,
-		"rank": 26
+		"rank": 27
 	},
 	"138734": {
 		"player": "koromadeno_shogun",
@@ -604,7 +546,7 @@
 		"chat": "d_egree",
 		"fishid": 138734,
 		"chatid": 171,
-		"rank": 57
+		"rank": 60
 	},
 	"138767": {
 		"player": "koromadeno_shogun",
@@ -618,7 +560,7 @@
 		"chat": "d_egree",
 		"fishid": 138767,
 		"chatid": 172,
-		"rank": 47
+		"rank": 50
 	},
 	"147916": {
 		"player": "benni900",
@@ -646,7 +588,7 @@
 		"chat": "d_egree",
 		"fishid": 147931,
 		"chatid": 176,
-		"rank": 59
+		"rank": 62
 	},
 	"147971": {
 		"player": "mitgliederversammlung",
@@ -661,7 +603,7 @@
 		"fishid": 147971,
 		"chatid": 182,
 		"verified": true,
-		"rank": 51
+		"rank": 54
 	},
 	"148124": {
 		"player": "benni900",
@@ -675,7 +617,7 @@
 		"chat": "d_egree",
 		"fishid": 148124,
 		"chatid": 186,
-		"rank": 45
+		"rank": 48
 	},
 	"148160": {
 		"player": "benni900",
@@ -689,7 +631,7 @@
 		"chat": "d_egree",
 		"fishid": 148160,
 		"chatid": 190,
-		"rank": 56
+		"rank": 59
 	},
 	"148167": {
 		"player": "d_egree",
@@ -704,7 +646,7 @@
 		"fishid": 148167,
 		"chatid": 191,
 		"verified": true,
-		"rank": 79
+		"rank": 85
 	},
 	"148170": {
 		"player": "benni900",
@@ -718,7 +660,7 @@
 		"chat": "d_egree",
 		"fishid": 148170,
 		"chatid": 192,
-		"rank": 25
+		"rank": 26
 	},
 	"148178": {
 		"player": "benni900",
@@ -732,21 +674,7 @@
 		"chat": "d_egree",
 		"fishid": 148178,
 		"chatid": 193,
-		"rank": 15
-	},
-	"148210": {
-		"player": "benni900",
-		"playerid": 228,
-		"weight": 9.78,
-		"bot": "gofishgame",
-		"type": "🦞",
-		"typename": "lobster",
-		"catchtype": "normal",
-		"date": "2025-02-16T18:51:07Z",
-		"chat": "d_egree",
-		"fishid": 148210,
-		"chatid": 194,
-		"rank": 97
+		"rank": 16
 	},
 	"148239": {
 		"player": "benni900",
@@ -760,7 +688,7 @@
 		"chat": "d_egree",
 		"fishid": 148239,
 		"chatid": 196,
-		"rank": 11
+		"rank": 12
 	},
 	"148350": {
 		"player": "benni900",
@@ -774,7 +702,7 @@
 		"chat": "d_egree",
 		"fishid": 148350,
 		"chatid": 201,
-		"rank": 54
+		"rank": 57
 	},
 	"148366": {
 		"player": "benni900",
@@ -788,7 +716,7 @@
 		"chat": "d_egree",
 		"fishid": 148366,
 		"chatid": 203,
-		"rank": 72
+		"rank": 77
 	},
 	"148385": {
 		"player": "benni900",
@@ -802,7 +730,7 @@
 		"chat": "d_egree",
 		"fishid": 148385,
 		"chatid": 205,
-		"rank": 55
+		"rank": 58
 	},
 	"148386": {
 		"player": "koromadeno_shogun",
@@ -816,7 +744,7 @@
 		"chat": "d_egree",
 		"fishid": 148386,
 		"chatid": 206,
-		"rank": 29
+		"rank": 30
 	},
 	"148553": {
 		"player": "benni900",
@@ -830,7 +758,7 @@
 		"chat": "d_egree",
 		"fishid": 148553,
 		"chatid": 208,
-		"rank": 21
+		"rank": 22
 	},
 	"148582": {
 		"player": "benni900",
@@ -844,7 +772,7 @@
 		"chat": "d_egree",
 		"fishid": 148582,
 		"chatid": 210,
-		"rank": 39
+		"rank": 42
 	},
 	"148589": {
 		"player": "benni900",
@@ -858,7 +786,7 @@
 		"chat": "d_egree",
 		"fishid": 148589,
 		"chatid": 211,
-		"rank": 63
+		"rank": 66
 	},
 	"148599": {
 		"player": "benni900",
@@ -872,7 +800,7 @@
 		"chat": "d_egree",
 		"fishid": 148599,
 		"chatid": 212,
-		"rank": 49
+		"rank": 52
 	},
 	"148749": {
 		"player": "benni900",
@@ -886,7 +814,7 @@
 		"chat": "d_egree",
 		"fishid": 148749,
 		"chatid": 214,
-		"rank": 78
+		"rank": 83
 	},
 	"148838": {
 		"player": "benni900",
@@ -928,7 +856,7 @@
 		"chat": "d_egree",
 		"fishid": 148867,
 		"chatid": 221,
-		"rank": 28
+		"rank": 29
 	},
 	"149078": {
 		"player": "benni900",
@@ -942,7 +870,7 @@
 		"chat": "d_egree",
 		"fishid": 149078,
 		"chatid": 224,
-		"rank": 19
+		"rank": 20
 	},
 	"149113": {
 		"player": "benni900",
@@ -956,7 +884,7 @@
 		"chat": "d_egree",
 		"fishid": 149113,
 		"chatid": 225,
-		"rank": 40
+		"rank": 43
 	},
 	"149187": {
 		"player": "benni900",
@@ -970,7 +898,7 @@
 		"chat": "d_egree",
 		"fishid": 149187,
 		"chatid": 226,
-		"rank": 22
+		"rank": 23
 	},
 	"149217": {
 		"player": "benni900",
@@ -984,7 +912,7 @@
 		"chat": "d_egree",
 		"fishid": 149217,
 		"chatid": 227,
-		"rank": 62
+		"rank": 65
 	},
 	"149225": {
 		"player": "benni900",
@@ -998,21 +926,7 @@
 		"chat": "d_egree",
 		"fishid": 149225,
 		"chatid": 228,
-		"rank": 66
-	},
-	"149427": {
-		"player": "benni900",
-		"playerid": 228,
-		"weight": 9.26,
-		"bot": "gofishgame",
-		"type": "🐋",
-		"typename": "whale2",
-		"catchtype": "normal",
-		"date": "2025-02-22T19:19:56Z",
-		"chat": "d_egree",
-		"fishid": 149427,
-		"chatid": 234,
-		"rank": 99
+		"rank": 70
 	},
 	"149452": {
 		"player": "benni900",
@@ -1026,7 +940,7 @@
 		"chat": "d_egree",
 		"fishid": 149452,
 		"chatid": 236,
-		"rank": 53
+		"rank": 56
 	},
 	"149612": {
 		"player": "benni900",
@@ -1040,7 +954,7 @@
 		"chat": "d_egree",
 		"fishid": 149612,
 		"chatid": 241,
-		"rank": 67
+		"rank": 71
 	},
 	"149620": {
 		"player": "benni900",
@@ -1054,7 +968,7 @@
 		"chat": "d_egree",
 		"fishid": 149620,
 		"chatid": 242,
-		"rank": 91
+		"rank": 98
 	},
 	"149625": {
 		"player": "benni900",
@@ -1068,7 +982,7 @@
 		"chat": "d_egree",
 		"fishid": 149625,
 		"chatid": 243,
-		"rank": 90
+		"rank": 97
 	},
 	"149676": {
 		"player": "benni900",
@@ -1096,7 +1010,7 @@
 		"chat": "d_egree",
 		"fishid": 149730,
 		"chatid": 249,
-		"rank": 32
+		"rank": 33
 	},
 	"149956": {
 		"player": "benni900",
@@ -1110,7 +1024,7 @@
 		"chat": "d_egree",
 		"fishid": 149956,
 		"chatid": 251,
-		"rank": 36
+		"rank": 39
 	},
 	"150034": {
 		"player": "benni900",
@@ -1124,21 +1038,7 @@
 		"chat": "d_egree",
 		"fishid": 150034,
 		"chatid": 252,
-		"rank": 70
-	},
-	"150105": {
-		"player": "benni900",
-		"playerid": 228,
-		"weight": 9.83,
-		"bot": "gofishgame",
-		"type": "🐟",
-		"typename": "fish",
-		"catchtype": "normal",
-		"date": "2025-02-26T19:23:52Z",
-		"chat": "d_egree",
-		"fishid": 150105,
-		"chatid": 254,
-		"rank": 95
+		"rank": 74
 	},
 	"150145": {
 		"player": "benni900",
@@ -1152,7 +1052,7 @@
 		"chat": "d_egree",
 		"fishid": 150145,
 		"chatid": 255,
-		"rank": 33
+		"rank": 35
 	},
 	"160348": {
 		"player": "benni900",
@@ -1168,6 +1068,108 @@
 		"chatid": 264,
 		"rank": 6
 	},
+	"163725": {
+		"player": "d_egree",
+		"playerid": 62,
+		"weight": 14.4,
+		"bot": "supibot",
+		"type": "🐡",
+		"typename": "blowfish",
+		"catchtype": "normal",
+		"date": "2023-09-04T14:50:53Z",
+		"chat": "d_egree",
+		"fishid": 163725,
+		"chatid": 265,
+		"verified": true,
+		"rank": 84
+	},
+	"163732": {
+		"player": "shpeelerin",
+		"playerid": 100,
+		"weight": 19.31,
+		"bot": "supibot",
+		"type": "🐠",
+		"typename": "tropicalfish",
+		"catchtype": "normal",
+		"date": "2023-09-11T14:04:53Z",
+		"chat": "d_egree",
+		"fishid": 163732,
+		"chatid": 268,
+		"rank": 68
+	},
+	"163734": {
+		"player": "ethanolo",
+		"playerid": 3658,
+		"weight": 11.95,
+		"bot": "gofishgame",
+		"type": "🐟",
+		"typename": "fish",
+		"catchtype": "normal",
+		"date": "2023-09-15T07:31:18Z",
+		"chat": "d_egree",
+		"fishid": 163734,
+		"chatid": 269,
+		"rank": 94
+	},
+	"163757": {
+		"player": "ouacewi",
+		"playerid": 79,
+		"weight": 44.31,
+		"bot": "gofishgame",
+		"type": "🪸",
+		"typename": "coral",
+		"catchtype": "normal",
+		"date": "2023-09-29T22:08:51Z",
+		"chat": "d_egree",
+		"fishid": 163757,
+		"chatid": 274,
+		"verified": true,
+		"rank": 38
+	},
+	"163758": {
+		"player": "ouacewi",
+		"playerid": 79,
+		"weight": 103.03,
+		"bot": "gofishgame",
+		"type": "🐋",
+		"typename": "whale2",
+		"catchtype": "normal",
+		"date": "2023-09-30T09:48:54Z",
+		"chat": "d_egree",
+		"fishid": 163758,
+		"chatid": 275,
+		"verified": true,
+		"rank": 7
+	},
+	"163814": {
+		"player": "islcfc",
+		"playerid": 63,
+		"weight": 16.09,
+		"bot": "gofishgame",
+		"type": "🐟",
+		"typename": "fish",
+		"catchtype": "normal",
+		"date": "2023-12-07T18:09:17Z",
+		"chat": "d_egree",
+		"fishid": 163814,
+		"chatid": 278,
+		"rank": 75
+	},
+	"164506": {
+		"player": "julialuxel",
+		"playerid": 64,
+		"weight": 46.55,
+		"bot": "gofishgame",
+		"type": "🦑",
+		"typename": "squid",
+		"catchtype": "normal",
+		"date": "2024-02-29T14:52:12Z",
+		"chat": "d_egree",
+		"fishid": 164506,
+		"chatid": 280,
+		"verified": true,
+		"rank": 34
+	},
 	"81759": {
 		"player": "mitgliederversammlung",
 		"playerid": 17,
@@ -1181,7 +1183,7 @@
 		"fishid": 81759,
 		"chatid": 3,
 		"verified": true,
-		"rank": 76
+		"rank": 81
 	},
 	"82423": {
 		"player": "larvasisters",
@@ -1195,7 +1197,7 @@
 		"chat": "d_egree",
 		"fishid": 82423,
 		"chatid": 6,
-		"rank": 87
+		"rank": 93
 	},
 	"85505": {
 		"player": "mitgliederversammlung",
@@ -1205,12 +1207,12 @@
 		"type": "🐟",
 		"typename": "fish",
 		"catchtype": "normal",
-		"date": "2024-06-22T13:47:14Z",
+		"date": "2024-06-22T15:47:14Z",
 		"chat": "d_egree",
 		"fishid": 85505,
 		"chatid": 8,
 		"verified": true,
-		"rank": 73
+		"rank": 78
 	},
 	"90940": {
 		"player": "dayzedinndaydreams",
@@ -1225,7 +1227,7 @@
 		"fishid": 90940,
 		"chatid": 10,
 		"verified": true,
-		"rank": 30
+		"rank": 31
 	},
 	"99082": {
 		"player": "koromadeno_shogun",
@@ -1239,7 +1241,7 @@
 		"chat": "d_egree",
 		"fishid": 99082,
 		"chatid": 15,
-		"rank": 83
+		"rank": 89
 	},
 	"99091": {
 		"player": "koromadeno_shogun",
@@ -1253,7 +1255,7 @@
 		"chat": "d_egree",
 		"fishid": 99091,
 		"chatid": 17,
-		"rank": 34
+		"rank": 36
 	},
 	"99097": {
 		"player": "koromadeno_shogun",
@@ -1267,7 +1269,7 @@
 		"chat": "d_egree",
 		"fishid": 99097,
 		"chatid": 18,
-		"rank": 48
+		"rank": 51
 	},
 	"99179": {
 		"player": "koromadeno_shogun",
@@ -1281,7 +1283,7 @@
 		"chat": "d_egree",
 		"fishid": 99179,
 		"chatid": 20,
-		"rank": 27
+		"rank": 28
 	},
 	"99190": {
 		"player": "koromadeno_shogun",
@@ -1295,7 +1297,7 @@
 		"chat": "d_egree",
 		"fishid": 99190,
 		"chatid": 21,
-		"rank": 88
+		"rank": 95
 	},
 	"99205": {
 		"player": "koromadeno_shogun",
@@ -1309,7 +1311,7 @@
 		"chat": "d_egree",
 		"fishid": 99205,
 		"chatid": 22,
-		"rank": 31
+		"rank": 32
 	},
 	"99222": {
 		"player": "koromadeno_shogun",
@@ -1323,7 +1325,7 @@
 		"chat": "d_egree",
 		"fishid": 99222,
 		"chatid": 23,
-		"rank": 84
+		"rank": 90
 	},
 	"99244": {
 		"player": "koromadeno_shogun",
@@ -1337,7 +1339,7 @@
 		"chat": "d_egree",
 		"fishid": 99244,
 		"chatid": 24,
-		"rank": 92
+		"rank": 99
 	},
 	"99356": {
 		"player": "koromadeno_shogun",
@@ -1351,7 +1353,7 @@
 		"chat": "d_egree",
 		"fishid": 99356,
 		"chatid": 27,
-		"rank": 65
+		"rank": 69
 	},
 	"99430": {
 		"player": "koromadeno_shogun",
@@ -1365,7 +1367,7 @@
 		"chat": "d_egree",
 		"fishid": 99430,
 		"chatid": 30,
-		"rank": 77
+		"rank": 82
 	},
 	"99621": {
 		"player": "koromadeno_shogun",
@@ -1379,7 +1381,7 @@
 		"chat": "d_egree",
 		"fishid": 99621,
 		"chatid": 34,
-		"rank": 46
+		"rank": 49
 	},
 	"99787": {
 		"player": "koromadeno_shogun",
@@ -1393,7 +1395,7 @@
 		"chat": "d_egree",
 		"fishid": 99787,
 		"chatid": 36,
-		"rank": 38
+		"rank": 41
 	},
 	"99981": {
 		"player": "koromadeno_shogun",
@@ -1407,6 +1409,6 @@
 		"chat": "d_egree",
 		"fishid": 99981,
 		"chatid": 38,
-		"rank": 12
+		"rank": 13
 	}
 }

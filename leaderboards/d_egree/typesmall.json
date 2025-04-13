@@ -11,7 +11,7 @@
 		"chat": "d_egree",
 		"fishid": 103755,
 		"chatid": 96,
-		"rank": 23
+		"rank": 25
 	},
 	"acorn": {
 		"player": "koromadeno_shogun",
@@ -25,21 +25,51 @@
 		"chat": "d_egree",
 		"fishid": 104571,
 		"chatid": 121,
-		"rank": 41
+		"rank": 44
+	},
+	"balletshoes": {
+		"player": "islcfc",
+		"playerid": 63,
+		"weight": 1.5,
+		"bot": "gofishgame",
+		"type": "🩰",
+		"typename": "balletshoes",
+		"catchtype": "normal",
+		"date": "2023-12-07T21:39:35Z",
+		"chat": "d_egree",
+		"fishid": 163815,
+		"chatid": 279,
+		"rank": 32
+	},
+	"beveragebox": {
+		"player": "ouacewi",
+		"playerid": 79,
+		"weight": 4.2,
+		"bot": "gofishgame",
+		"type": "🧃",
+		"typename": "beveragebox",
+		"catchtype": "normal",
+		"date": "2023-09-26T20:27:31Z",
+		"chat": "d_egree",
+		"fishid": 163754,
+		"chatid": 271,
+		"verified": true,
+		"rank": 24
 	},
 	"blowfish": {
-		"player": "koromadeno_shogun",
-		"playerid": 2887,
-		"weight": 16.83,
-		"bot": "gofishgame",
+		"player": "d_egree",
+		"playerid": 62,
+		"weight": 14.4,
+		"bot": "supibot",
 		"type": "🐡",
 		"typename": "blowfish",
 		"catchtype": "normal",
-		"date": "2024-09-09T10:21:28Z",
+		"date": "2023-09-04T14:50:53Z",
 		"chat": "d_egree",
-		"fishid": 100285,
-		"chatid": 41,
-		"rank": 7
+		"fishid": 163725,
+		"chatid": 265,
+		"verified": true,
+		"rank": 9
 	},
 	"bobber": {
 		"player": "koromadeno_shogun",
@@ -53,7 +83,7 @@
 		"chat": "d_egree",
 		"fishid": 103882,
 		"chatid": 101,
-		"rank": 34
+		"rank": 37
 	},
 	"boot": {
 		"player": "benni900",
@@ -67,7 +97,7 @@
 		"chat": "d_egree",
 		"fishid": 148134,
 		"chatid": 187,
-		"rank": 42
+		"rank": 45
 	},
 	"cannedfood": {
 		"player": "benni900",
@@ -81,7 +111,7 @@
 		"chat": "d_egree",
 		"fishid": 148765,
 		"chatid": 215,
-		"rank": 48
+		"rank": 51
 	},
 	"cockroach": {
 		"player": "benni900",
@@ -95,7 +125,7 @@
 		"chat": "d_egree",
 		"fishid": 149236,
 		"chatid": 229,
-		"rank": 15
+		"rank": 16
 	},
 	"coral": {
 		"player": "koromadeno_shogun",
@@ -109,7 +139,7 @@
 		"chat": "d_egree",
 		"fishid": 102480,
 		"chatid": 87,
-		"rank": 16
+		"rank": 17
 	},
 	"crab": {
 		"player": "benni900",
@@ -123,7 +153,7 @@
 		"chat": "d_egree",
 		"fishid": 147958,
 		"chatid": 179,
-		"rank": 33
+		"rank": 36
 	},
 	"crocodile": {
 		"player": "benni900",
@@ -151,7 +181,7 @@
 		"chat": "d_egree",
 		"fishid": 101498,
 		"chatid": 59,
-		"rank": 18
+		"rank": 19
 	},
 	"dagger": {
 		"player": "koromadeno_shogun",
@@ -165,7 +195,7 @@
 		"chat": "d_egree",
 		"fishid": 100336,
 		"chatid": 42,
-		"rank": 9
+		"rank": 10
 	},
 	"darksunglasses": {
 		"player": "koromadeno_shogun",
@@ -179,7 +209,7 @@
 		"chat": "d_egree",
 		"fishid": 99571,
 		"chatid": 33,
-		"rank": 19
+		"rank": 20
 	},
 	"dolphin": {
 		"player": "koromadeno_shogun",
@@ -193,7 +223,7 @@
 		"chat": "d_egree",
 		"fishid": 148805,
 		"chatid": 216,
-		"rank": 32
+		"rank": 35
 	},
 	"dragon": {
 		"player": "benni900",
@@ -221,7 +251,7 @@
 		"chat": "d_egree",
 		"fishid": 114145,
 		"chatid": 154,
-		"rank": 22
+		"rank": 23
 	},
 	"fish": {
 		"player": "koromadeno_shogun",
@@ -235,7 +265,7 @@
 		"chat": "d_egree",
 		"fishid": 154621,
 		"chatid": 259,
-		"rank": 43
+		"rank": 46
 	},
 	"frog": {
 		"player": "koromadeno_shogun",
@@ -249,7 +279,7 @@
 		"chat": "d_egree",
 		"fishid": 104184,
 		"chatid": 111,
-		"rank": 49
+		"rank": 52
 	},
 	"gloves": {
 		"player": "benni900",
@@ -263,7 +293,7 @@
 		"chat": "d_egree",
 		"fishid": 147967,
 		"chatid": 181,
-		"rank": 36
+		"rank": 39
 	},
 	"hook": {
 		"player": "koromadeno_shogun",
@@ -277,7 +307,7 @@
 		"chat": "d_egree",
 		"fishid": 149649,
 		"chatid": 244,
-		"rank": 45
+		"rank": 48
 	},
 	"icecube": {
 		"player": "benni900",
@@ -291,7 +321,7 @@
 		"chat": "d_egree",
 		"fishid": 149336,
 		"chatid": 233,
-		"rank": 20
+		"rank": 21
 	},
 	"iphone": {
 		"player": "koromadeno_shogun",
@@ -305,7 +335,7 @@
 		"chat": "d_egree",
 		"fishid": 103745,
 		"chatid": 95,
-		"rank": 17
+		"rank": 18
 	},
 	"lizard": {
 		"player": "koromadeno_shogun",
@@ -319,7 +349,7 @@
 		"chat": "d_egree",
 		"fishid": 104161,
 		"chatid": 109,
-		"rank": 29
+		"rank": 30
 	},
 	"lobster": {
 		"player": "benni900",
@@ -333,7 +363,7 @@
 		"chat": "d_egree",
 		"fishid": 148210,
 		"chatid": 194,
-		"rank": 13
+		"rank": 14
 	},
 	"log": {
 		"player": "koromadeno_shogun",
@@ -347,7 +377,7 @@
 		"chat": "d_egree",
 		"fishid": 110382,
 		"chatid": 152,
-		"rank": 21
+		"rank": 22
 	},
 	"lure": {
 		"player": "benni900",
@@ -361,7 +391,7 @@
 		"chat": "d_egree",
 		"fishid": 150389,
 		"chatid": 256,
-		"rank": 45
+		"rank": 48
 	},
 	"mapleleaf": {
 		"player": "koromadeno_shogun",
@@ -375,7 +405,7 @@
 		"chat": "d_egree",
 		"fishid": 104430,
 		"chatid": 116,
-		"rank": 40
+		"rank": 43
 	},
 	"mushroom": {
 		"player": "benni900",
@@ -389,7 +419,7 @@
 		"chat": "d_egree",
 		"fishid": 149732,
 		"chatid": 250,
-		"rank": 24
+		"rank": 26
 	},
 	"nestwitheggs": {
 		"player": "koromadeno_shogun",
@@ -403,7 +433,7 @@
 		"chat": "d_egree",
 		"fishid": 103768,
 		"chatid": 97,
-		"rank": 25
+		"rank": 27
 	},
 	"octopus": {
 		"player": "benni900",
@@ -417,7 +447,7 @@
 		"chat": "d_egree",
 		"fishid": 149295,
 		"chatid": 232,
-		"rank": 31
+		"rank": 34
 	},
 	"oyster": {
 		"player": "koromadeno_shogun",
@@ -431,7 +461,7 @@
 		"chat": "d_egree",
 		"fishid": 99222,
 		"chatid": 23,
-		"rank": 10
+		"rank": 11
 	},
 	"plankton": {
 		"player": "benni900",
@@ -445,7 +475,7 @@
 		"chat": "d_egree",
 		"fishid": 149620,
 		"chatid": 242,
-		"rank": 12
+		"rank": 13
 	},
 	"sauropod": {
 		"player": "benni900",
@@ -487,7 +517,7 @@
 		"chat": "d_egree",
 		"fishid": 105306,
 		"chatid": 135,
-		"rank": 47
+		"rank": 50
 	},
 	"shamrock": {
 		"player": "koromadeno_shogun",
@@ -501,7 +531,7 @@
 		"chat": "d_egree",
 		"fishid": 104858,
 		"chatid": 126,
-		"rank": 50
+		"rank": 53
 	},
 	"shark": {
 		"player": "benni900",
@@ -529,7 +559,7 @@
 		"chat": "d_egree",
 		"fishid": 147961,
 		"chatid": 180,
-		"rank": 38
+		"rank": 41
 	},
 	"shrimp": {
 		"player": "koromadeno_shogun",
@@ -543,21 +573,21 @@
 		"chat": "d_egree",
 		"fishid": 103784,
 		"chatid": 99,
-		"rank": 35
+		"rank": 38
 	},
 	"skull": {
-		"player": "koromadeno_shogun",
-		"playerid": 2887,
-		"weight": 2.45,
+		"player": "zsipe",
+		"playerid": 487,
+		"weight": 1.39,
 		"bot": "gofishgame",
 		"type": "💀",
 		"typename": "skull",
 		"catchtype": "normal",
-		"date": "2024-09-18T16:03:12Z",
+		"date": "2023-10-03T12:11:56Z",
 		"chat": "d_egree",
-		"fishid": 102002,
-		"chatid": 73,
-		"rank": 27
+		"fishid": 163759,
+		"chatid": 276,
+		"rank": 33
 	},
 	"snail": {
 		"player": "larvasisters",
@@ -571,7 +601,7 @@
 		"chat": "d_egree",
 		"fishid": 81729,
 		"chatid": 1,
-		"rank": 39
+		"rank": 42
 	},
 	"snake": {
 		"player": "koromadeno_shogun",
@@ -585,7 +615,7 @@
 		"chat": "d_egree",
 		"fishid": 104237,
 		"chatid": 114,
-		"rank": 28
+		"rank": 29
 	},
 	"socks": {
 		"player": "koromadeno_shogun",
@@ -599,7 +629,7 @@
 		"chat": "d_egree",
 		"fishid": 101222,
 		"chatid": 51,
-		"rank": 37
+		"rank": 40
 	},
 	"spider": {
 		"player": "benni900",
@@ -613,7 +643,7 @@
 		"chat": "d_egree",
 		"fishid": 149517,
 		"chatid": 238,
-		"rank": 26
+		"rank": 28
 	},
 	"squid": {
 		"player": "benni900",
@@ -641,7 +671,21 @@
 		"chat": "d_egree",
 		"fishid": 99249,
 		"chatid": 25,
-		"rank": 44
+		"rank": 47
+	},
+	"tropicalfish": {
+		"player": "shpeelerin",
+		"playerid": 100,
+		"weight": 19.31,
+		"bot": "supibot",
+		"type": "🐠",
+		"typename": "tropicalfish",
+		"catchtype": "normal",
+		"date": "2023-09-11T14:04:53Z",
+		"chat": "d_egree",
+		"fishid": 163732,
+		"chatid": 268,
+		"rank": 7
 	},
 	"turtle": {
 		"player": "koromadeno_shogun",
@@ -655,7 +699,7 @@
 		"chat": "d_egree",
 		"fishid": 105480,
 		"chatid": 139,
-		"rank": 11
+		"rank": 12
 	},
 	"umbrella": {
 		"player": "mitgliederversammlung",
@@ -669,7 +713,8 @@
 		"chat": "d_egree",
 		"fishid": 101842,
 		"chatid": 64,
-		"rank": 30
+		"verified": true,
+		"rank": 31
 	},
 	"whale": {
 		"player": "koromadeno_shogun",
@@ -697,6 +742,6 @@
 		"chat": "d_egree",
 		"fishid": 149427,
 		"chatid": 234,
-		"rank": 14
+		"rank": 15
 	}
 }

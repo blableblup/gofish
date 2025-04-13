@@ -11,7 +11,8 @@
 		"chat": "d_egree",
 		"fishid": 101268,
 		"chatid": 52,
-		"rank": 3
+		"verified": true,
+		"rank": 4
 	},
 	"228": {
 		"player": "benni900",
@@ -40,5 +41,20 @@
 		"fishid": 106266,
 		"chatid": 144,
 		"rank": 2
+	},
+	"79": {
+		"player": "ouacewi",
+		"playerid": 79,
+		"weight": 103.03,
+		"bot": "gofishgame",
+		"type": "🐋",
+		"typename": "whale2",
+		"catchtype": "normal",
+		"date": "2023-09-30T09:48:54Z",
+		"chat": "d_egree",
+		"fishid": 163758,
+		"chatid": 275,
+		"verified": true,
+		"rank": 3
 	}
 }

@@ -10,8 +10,8 @@
 | 7  | klyne_qq  | 23 |
 | 7  | nightbot  | 23 |
 | 9  | diloindys*  | 21 |
-| 10  | focfee  | 17 |
-| 11  | wiazuh  | 16 |
+| 10  | wiazuh  | 18 |
+| 11  | focfee  | 17 |
 | 12  | miaquiet  | 14 |
 | 13  | offwhiteairforc3_  | 13 |
 | 14  | k1lk4_  | 12 |
@@ -23,4 +23,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2025-03-02 12:57:09 UTC_
+_Last updated at 2025-04-13 10:22:17 UTC_
