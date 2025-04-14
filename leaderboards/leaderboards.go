@@ -79,7 +79,8 @@ func Leaderboards(pool *pgxpool.Pool, leaderboards string, chatNames string, dat
 		"averageweight": {hasGlobal: true, GlobalOnly: true, Tournament: false, Function: processAverageWeight},
 		"rare":          {hasGlobal: true, GlobalOnly: true, Tournament: false, Function: RunCountFishTypesGlobal},
 		"stats":         {hasGlobal: true, GlobalOnly: true, Tournament: false, Function: RunChatStatsGlobal},
-		"shiny":         {hasGlobal: true, GlobalOnly: true, Tournament: false, Function: processShinies}}
+		"shiny":         {hasGlobal: true, GlobalOnly: true, Tournament: false, Function: processShinies},
+		"players":       {hasGlobal: true, GlobalOnly: true, Tournament: false, Function: GetPlayerProfiles}}
 
 	for _, leaderboard := range leaderboardList {
 

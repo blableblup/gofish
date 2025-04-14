@@ -151,6 +151,7 @@
 			"board_enabled": true
 		},
 		"default": {
+			"playercount_limit": 20,
 			"fishweek_limit": 20,
 			"weight_limit": 200,
 			"weight_limit_records": 200,
