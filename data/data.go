@@ -189,6 +189,8 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 
 	// Start the transaction to insert the data
 	// maybe include adding/renaming players, adding fish, creating the tables in the transaction or ?
+	// could batch all the inserts with pgx.batch
+	// this would be faster, but i dont know how to see what query failed if there is an error
 	tx, err := pool.Begin(context.Background())
 	if err != nil {
 		logs.Logs().Error().Err(err).
@@ -329,10 +331,13 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 
 		} else if len(possiblePlayersForPlayer[fish.Player]) > 1 {
 			// else go over all the possible players
+			// this still goes over all the possible players
+			// even if all the playerids are the same ß?
 			for _, possiblePlayer := range possiblePlayersForPlayer[fish.Player] {
 
 				if fish.Date.Before(possiblePlayer.LastSeen.Add(time.Second)) && fish.Date.After(possiblePlayer.FirstSeen.Add(time.Second*-1)) {
 					// adding / removing a second so that this is true for their first and last data
+					// could also just add six months here ? or ?
 					playerID = possiblePlayer.PlayerID
 					break
 				}
@@ -351,11 +356,6 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 					return err
 				}
 				// if it hasnt been more than 6 months since the possible player caught a fish, it has to be them
-				// BUT this basically means that if a players name was used multiple times
-				// and their new catch is more than six months away from someones last catch with that name
-				// this wont work for their names ?; need to find the possible players who had their lastseen the closest to the fishes date
-				// since here it is already ruled out that the player could be new because that is being checked in the possible players function
-				// ALSO: if all the possible players playerids are the same it has to be that player here ?
 				if months > -6 && years == 0 && months < 6 {
 					playerID = possiblePlayer.PlayerID
 					break
@@ -370,13 +370,28 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 		}
 
 		if playerID == 0 {
-			logs.Logs().Warn().
-				Str("Player", fish.Player).
-				Interface("Possible players", possiblePlayersForPlayer[fish.Player]).
-				Interface("Data", fish).
-				Msg("PlayerID for data is 0!")
-			// this doesnt mean that the data was actually added
-			// since this is before its being checked if mode is "a"
+			// If the playerid is still 0 but there are more than one possible players:
+			// It has to be the player with the highest last seen
+			// because the player cant be new here anymore since that is checked in playerdata
+			if len(possiblePlayersForPlayer[fish.Player]) > 1 {
+				var highestlastseen time.Time
+				var playerIDwithhighestlastseen int
+				for _, possiblePlayer := range possiblePlayersForPlayer[fish.Player] {
+					if possiblePlayer.LastSeen.After(highestlastseen) {
+						highestlastseen = possiblePlayer.LastSeen
+						playerIDwithhighestlastseen = possiblePlayer.PlayerID
+					}
+				}
+				playerID = playerIDwithhighestlastseen
+			} else {
+				logs.Logs().Warn().
+					Str("Player", fish.Player).
+					Interface("Possible players", possiblePlayersForPlayer[fish.Player]).
+					Interface("Data", fish).
+					Msg("PlayerID for data is 0!")
+				// this doesnt mean that the data was actually added
+				// since this is before its being checked (if mode is "a")
+			}
 		}
 
 		switch fish.CatchType {
