@@ -235,6 +235,28 @@ func sortFishRecords(recordFish map[string]data.FishInfo) []string {
 	return fishy
 }
 
+// for nameasc and countdesc (only used for playerprofiles)
+func sortMapString(somemap map[string]int, whattosort string) []string {
+
+	blee := make([]string, 0, len(somemap))
+	for whatever := range somemap {
+		blee = append(blee, whatever)
+	}
+
+	switch whattosort {
+	case "countdesc":
+		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]] > somemap[blee[j]] })
+	case "nameasc":
+		sort.SliceStable(blee, func(i, j int) bool { return blee[i] < blee[j] })
+	default:
+		logs.Logs().Warn().
+			Str("WhatToSort", whattosort).
+			Msg("idk what to do :(")
+	}
+
+	return blee
+}
+
 // If maps are same length, check if the player renamed or has an updated record
 func didPlayerMapsChange(params LeaderboardParams, oldBoard map[int]data.FishInfo, newBoard map[int]data.FishInfo) bool {
 	var mapsarethesame = true

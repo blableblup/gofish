@@ -24,17 +24,20 @@ type PlayerProfile struct {
 	ChatCounts     map[string]int
 	ChatCountsYear map[string]map[string]int
 	CountCatchtype map[string]int
-	// CountCatchtypeYearChat ?
+	// could also have the count catchtype per year per chat ?
 
 	BiggestFish []data.FishInfo
 	LastFish    []data.FishInfo
 	FirstFish   data.FishInfo
 
-	FishSeen             []string
-	FishSeenChat         map[string]string
-	FishTypesCaughtCount map[string]int
-	BiggestFishPerType   map[string]data.FishInfo
-	SmallestFishPerType  map[string]data.FishInfo
+	FishSeen                     []string
+	FishSeenChat                 map[string][]string
+	FishTypesCaughtCount         map[string]int
+	FishTypesCaughtCountChat     map[string]map[string]int
+	FishTypesCaughtCountYear     map[string]map[string]int
+	FishTypesCaughtCountYearChat map[string]map[string]map[string]int
+	BiggestFishPerType           map[string]data.FishInfo
+	SmallestFishPerType          map[string]data.FishInfo
 
 	Bag       data.FishInfo
 	BagCounts map[string]int
@@ -45,6 +48,7 @@ func GetPlayerProfiles(params LeaderboardParams) {
 	chatName := params.ChatName
 	config := params.Config
 	limit := params.Limit
+	pool := params.Pool
 
 	var countlimit int
 	var err error
@@ -72,16 +76,43 @@ func GetPlayerProfiles(params LeaderboardParams) {
 		return
 	}
 
+	// I need to get the newest emoji per fishname
+	// because there were fish which had different emojis in older logs (like ⛸ / ⛸️ for ice skate)
+	// and i didnt change that
+	// so get all the fish first and then use the utils function
+	allFishes, err := GetAllFishNames(params)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Chat", chatName).
+			Str("Board", board).
+			Msg("Error getting all fish names")
+		return
+	}
+
+	FishWithEmoji := make(map[string]string)
+
+	for _, fish := range allFishes {
+		FishWithEmoji[fish], err = FishStuff(fish, params, pool)
+		if err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Chat", chatName).
+				Str("Board", board).
+				Str("Fish", fish).
+				Msg("Error getting fish emoji")
+			return
+		}
+	}
+
+	// This can just be a normal sync waitgroup
+	// im not doing anythign with an error
 	g := new(errgroup.Group)
 
 	// Get the players profile and print it for each player
 	for _, validPlayer := range validPlayers {
-		// "The first call to return a non-nil error cancels the group's context, if the group was created by calling WithContext."
-		// context ?
 		g.Go(func() error {
 			playerProfile, err := GetAPlayerProfile(params, validPlayer)
 			if err == nil {
-				err = PrintPlayerProfile(playerProfile)
+				err = PrintPlayerProfile(playerProfile, FishWithEmoji)
 			}
 			return err
 		})
@@ -148,6 +179,51 @@ func GetValidPlayers(params LeaderboardParams, limit int) ([]int, error) {
 	return validPlayers, nil
 }
 
+func GetAllFishNames(params LeaderboardParams) ([]string, error) {
+	board := params.LeaderboardType
+	chatName := params.ChatName
+	pool := params.Pool
+
+	var fishes []string
+
+	rows, err := pool.Query(context.Background(), `
+		select fishname from fishinfo
+		group by fishname`)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Chat", chatName).
+			Str("Board", board).
+			Msg("Error querying database")
+		return fishes, err
+	}
+	defer rows.Close()
+
+	for rows.Next() {
+
+		var fishy string
+
+		if err := rows.Scan(&fishy); err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Chat", chatName).
+				Str("Board", board).
+				Msg("Error scanning row")
+			return fishes, err
+		}
+
+		fishes = append(fishes, fishy)
+	}
+
+	if err = rows.Err(); err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Chat", chatName).
+			Str("Board", board).
+			Msg("Error iterating over rows")
+		return fishes, err
+	}
+
+	return fishes, nil
+}
+
 func GetAPlayerProfile(params LeaderboardParams, playerID int) (PlayerProfile, error) {
 	pool := params.Pool
 
@@ -160,7 +236,7 @@ func GetAPlayerProfile(params LeaderboardParams, playerID int) (PlayerProfile, e
 	// add date and date 2 to the queries so that they are like the leaderboards
 	// so that they only count the data for the tournament week ? or
 
-	// For this I already have PlayerStuff function in leaderboardutils ?
+	// For this I already have PlayerStuff function in utilsleaderboard ?
 	// add twitchid to that function or?
 	err := pool.QueryRow(context.Background(),
 		"select name, twitchid from playerdata where playerid = $1",
@@ -176,74 +252,20 @@ func GetAPlayerProfile(params LeaderboardParams, playerID int) (PlayerProfile, e
 			Msg("Player does not have a twitchID in the DB!")
 	}
 
-	err = pool.QueryRow(context.Background(),
-		"select count(*), array_agg(distinct(fishname)) from fish where playerid = $1",
-		playerID).Scan(&Profile.Count, &Profile.FishSeen)
-	if err != nil {
-		return Profile, err
-	}
-
-	// idk how to scan directly into the map[string]int ?
+	// idk how to scan directly into the maps
+	// so scan into this struct and then range over the struct to get the map
 	// name of the rows needs to match the names here
 	type Frick struct {
 		FishInfo data.FishInfo
 		String   string
 		String2  string
+		String3  string
+		String4  []string
 		Int      int
 	}
 
-	// The count per chat
-	rows, err := pool.Query(context.Background(), `
-		select count(*) as int, 
-		chat as string 
-		from fish 
-		where playerid = $1
-		group by string
-		order by int desc
-		`,
-		playerID)
-	if err != nil {
-		return Profile, err
-	}
-
-	ChatCounts, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[Frick])
-	if err != nil {
-		return Profile, err
-	}
-
-	Profile.ChatCounts = make(map[string]int)
-
-	for _, chat := range ChatCounts {
-		Profile.ChatCounts[chat.String] = chat.Int
-	}
-
-	// The count per year
-	rows, err = pool.Query(context.Background(), `
-		select count(*) as int, 
-		to_char(date_trunc('year', date), 'YYYY') as string 
-		from fish 
-		where playerid = $1
-		group by string
-		order by string asc
-		`,
-		playerID)
-	if err != nil {
-		return Profile, err
-	}
-
-	CountYear, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[Frick])
-	if err != nil {
-		return Profile, err
-	}
-
-	Profile.CountYear = make(map[string]int)
-
-	for _, year := range CountYear {
-		Profile.CountYear[year.String] = year.Int
-	}
-
 	// The count per year per chat
-	rows, err = pool.Query(context.Background(), `
+	rows, err := pool.Query(context.Background(), `
 		select count(*) as int, 
 		to_char(date_trunc('year', date), 'YYYY') as string,
 		chat as string2
@@ -262,6 +284,8 @@ func GetAPlayerProfile(params LeaderboardParams, playerID int) (PlayerProfile, e
 		return Profile, err
 	}
 
+	Profile.CountYear = make(map[string]int)
+	Profile.ChatCounts = make(map[string]int)
 	Profile.ChatCountsYear = make(map[string]map[string]int)
 
 	for _, chatyear := range ChatCountsYear {
@@ -270,6 +294,11 @@ func GetAPlayerProfile(params LeaderboardParams, playerID int) (PlayerProfile, e
 			Profile.ChatCountsYear[chatyear.String] = make(map[string]int)
 		}
 		Profile.ChatCountsYear[chatyear.String][chatyear.String2] = chatyear.Int
+
+		// Calculate the total count, the count per year and the count per chat
+		Profile.Count = Profile.Count + chatyear.Int
+		Profile.CountYear[chatyear.String] = Profile.CountYear[chatyear.String] + chatyear.Int
+		Profile.ChatCounts[chatyear.String2] = Profile.ChatCounts[chatyear.String2] + chatyear.Int
 	}
 
 	// The count per catchtype
@@ -301,11 +330,8 @@ func GetAPlayerProfile(params LeaderboardParams, playerID int) (PlayerProfile, e
 		`SELECT weight, fishtype as type, fishname as typename, bot, chat, date, catchtype, fishid, chatid
 		FROM fish 
 		WHERE playerid = $1
-		AND date = (
-			SELECT MIN(date)
-			FROM fish
-			WHERE playerid = $1
-			)`, playerID)
+		ORDER BY date asc
+		LIMIT 1`, playerID)
 	if err != nil {
 		return Profile, err
 	}
@@ -331,7 +357,7 @@ func GetAPlayerProfile(params LeaderboardParams, playerID int) (PlayerProfile, e
 		return Profile, err
 	}
 
-	// their 10 last fish
+	// their last fish
 	rows, err = pool.Query(context.Background(),
 		`SELECT weight, fishtype as type, fishname as typename, bot, chat, date, catchtype, fishid, chatid
 		FROM fish 
@@ -375,12 +401,111 @@ func GetAPlayerProfile(params LeaderboardParams, playerID int) (PlayerProfile, e
 		Profile.BagCounts[ItemInBag]++
 	}
 
-	// ...
+	// The count per year per chat
+	rows, err = pool.Query(context.Background(), `
+		select count(*) as int, 
+		fishname as string,
+		chat as string2,
+		to_char(date_trunc('year', date), 'YYYY') as string3
+		from fish 
+		where playerid = $1
+		group by string, string2, string3
+		order by int desc
+		`,
+		playerID)
+	if err != nil {
+		return Profile, err
+	}
+
+	FishTypesCaughtCountYearChat, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[Frick])
+	if err != nil {
+		return Profile, err
+	}
+
+	Profile.FishTypesCaughtCount = make(map[string]int)
+	Profile.FishTypesCaughtCountChat = make(map[string]map[string]int)
+	Profile.FishTypesCaughtCountYear = make(map[string]map[string]int)
+	Profile.FishTypesCaughtCountYearChat = make(map[string]map[string]map[string]int)
+
+	for _, chatyear := range FishTypesCaughtCountYearChat {
+		// Need to initialize all frickin maps, else nil panic)
+		if Profile.FishTypesCaughtCountYearChat[chatyear.String] == nil {
+			Profile.FishTypesCaughtCountYearChat[chatyear.String] = make(map[string]map[string]int)
+		}
+		if Profile.FishTypesCaughtCountYearChat[chatyear.String][chatyear.String3] == nil {
+			Profile.FishTypesCaughtCountYearChat[chatyear.String][chatyear.String3] = make(map[string]int)
+		}
+		Profile.FishTypesCaughtCountYearChat[chatyear.String][chatyear.String3][chatyear.String2] = chatyear.Int
+
+		Profile.FishTypesCaughtCount[chatyear.String] = Profile.FishTypesCaughtCount[chatyear.String] + chatyear.Int
+
+		if Profile.FishTypesCaughtCountChat[chatyear.String] == nil {
+			Profile.FishTypesCaughtCountChat[chatyear.String] = make(map[string]int)
+		}
+		Profile.FishTypesCaughtCountChat[chatyear.String][chatyear.String2] = Profile.FishTypesCaughtCountChat[chatyear.String][chatyear.String2] + chatyear.Int
+
+		if Profile.FishTypesCaughtCountYear[chatyear.String] == nil {
+			Profile.FishTypesCaughtCountYear[chatyear.String] = make(map[string]int)
+		}
+		Profile.FishTypesCaughtCountYear[chatyear.String][chatyear.String3] = Profile.FishTypesCaughtCountYear[chatyear.String][chatyear.String3] + chatyear.Int
+	}
+
+	// all their fish seen
+	err = pool.QueryRow(context.Background(),
+		"select array_agg(distinct(fishname)) from fish where playerid = $1",
+		playerID).Scan(&Profile.FishSeen)
+	if err != nil {
+		return Profile, err
+	}
+
+	// The fishseen per chat
+	rows, err = pool.Query(context.Background(), `
+		select array_agg(distinct(fishname)) as string4,
+		chat as string
+		from fish 
+		where playerid = $1
+		group by string
+		order by string4 asc
+		`,
+		playerID)
+	if err != nil {
+		return Profile, err
+	}
+
+	CountYear, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[Frick])
+	if err != nil {
+		return Profile, err
+	}
+
+	Profile.FishSeenChat = make(map[string][]string)
+
+	for _, dada := range CountYear {
+		Profile.FishSeenChat[dada.String] = dada.String4
+	}
+
+	// for biggest / smallest fish per type ?
+	// SELECT f.weight, f.fishname, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid
+	// FROM fish f
+	// JOIN (
+	// 	SELECT fishname, MAX(weight) AS max_weight
+	// 	FROM fish
+	// 	WHERE playerid = 126
+	// 	AND catchtype != 'release'
+	// 	AND catchtype != 'squirrel'
+	// 	GROUP BY fishname
+	// ) AS sub
+	// ON f.fishname = sub.fishname AND f.weight = sub.max_weight
+	// WHERE f.playerid = 126
+	// AND f.date = (
+	// 	SELECT MIN(date)
+	// 	FROM fish
+	// 	WHERE fishname = sub.fishname AND weight = sub.max_weight AND playerid = 126 AND catchtype != 'release' AND catchtype != 'squirrel'
+	// )
 
 	return Profile, nil
 }
 
-func PrintPlayerProfile(Profile PlayerProfile) error {
+func PrintPlayerProfile(Profile PlayerProfile, EmojisForFish map[string]string) error {
 
 	filePath := filepath.Join("leaderboards", "global", "players", fmt.Sprintf("%d", Profile.TwitchID.Int64)+".md")
 
@@ -402,42 +527,40 @@ func PrintPlayerProfile(Profile PlayerProfile) error {
 
 	_, _ = fmt.Fprintln(file, "\n|-------|-------|")
 
-	// make it print the chats and years consistently in order !
-
-	// instead of having caught per year and per chat each their own block
-	// just put the chat behind ? like on the global boards ?
-	// like | --- | Year | Fish Caught | Chat |
-
-	_, _ = fmt.Fprintln(file, "\nFish caught per year")
-
-	_, _ = fmt.Fprintln(file, "\n| --- | Year | Count |")
-
-	_, _ = fmt.Fprint(file, "|-------|-------|-------|")
-
-	rank := 1
-
-	for year, count := range Profile.CountYear {
-		_, _ = fmt.Fprintf(file, "\n| %d | %s | %d |",
-			rank,
-			year,
-			count)
-		rank++
-	}
-
 	_, _ = fmt.Fprintln(file, "\n\nFish caught per chat")
 
 	_, _ = fmt.Fprintln(file, "\n| Rank | Chat | Count |")
 
 	_, _ = fmt.Fprint(file, "|-------|-------|-------|")
 
-	rank = 1
+	rank := 1 // make chats with same count have same rank
 
-	for chat, count := range Profile.ChatCounts {
+	sortedChatCounts := sortMapString(Profile.ChatCounts, "countdesc")
+
+	for _, chat := range sortedChatCounts {
 		_, _ = fmt.Fprintf(file, "\n| %s | %s %s | %d |",
 			Ranks(rank),
 			chat,
 			fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", chat, chat),
-			count)
+			Profile.ChatCounts[chat])
+		rank++
+	}
+
+	_, _ = fmt.Fprintln(file, "\n\nFish caught per year")
+
+	_, _ = fmt.Fprintln(file, "\n| --- | Year | Count |")
+
+	_, _ = fmt.Fprint(file, "|-------|-------|-------|")
+
+	rank = 1
+
+	sortedYearCounts := sortMapString(Profile.CountYear, "nameasc")
+
+	for _, year := range sortedYearCounts {
+		_, _ = fmt.Fprintf(file, "\n| %d | %s | %d |",
+			rank,
+			year,
+			Profile.CountYear[year])
 		rank++
 	}
 
@@ -449,15 +572,17 @@ func PrintPlayerProfile(Profile PlayerProfile) error {
 
 	rank = 1
 
-	for year, chatcount := range Profile.ChatCountsYear {
+	for _, year := range sortedYearCounts {
 		_, _ = fmt.Fprintf(file, "\n| %d | %s |",
 			rank,
 			year)
 
-		for chat, count := range chatcount {
+		sortedChatCountsYear := sortMapString(Profile.ChatCountsYear[year], "countdesc")
+
+		for _, chat := range sortedChatCountsYear {
 			_, _ = fmt.Fprintf(file, " %s %d ",
 				fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", chat, chat),
-				count)
+				Profile.ChatCountsYear[year][chat])
 		}
 		_, _ = fmt.Fprint(file, "|")
 		rank++
@@ -471,16 +596,36 @@ func PrintPlayerProfile(Profile PlayerProfile) error {
 
 	rank = 1
 
-	// make it clear what each catchtype means
-	for catch, count := range Profile.CountCatchtype {
+	sortedCatchtypes := sortMapString(Profile.CountCatchtype, "countdesc")
+
+	for _, catch := range sortedCatchtypes {
+		var catchtype string
+		switch catch {
+		default:
+			catchtype = catch
+		case "normal":
+			catchtype = "Normal"
+		case "egg":
+			catchtype = "Eggs hatched"
+		case "jumped":
+			catchtype = "Jumped bonus"
+		case "release":
+			catchtype = "Release bonus"
+		case "mouth":
+			catchtype = "Mouth bonus"
+		case "squirrel":
+			catchtype = "Squirrels"
+		case "squirrelfail":
+			catchtype = "Squirrel fail" // add a description for this
+		}
 		_, _ = fmt.Fprintf(file, "\n| %d | %s | %d |",
 			rank,
-			catch,
-			count)
+			catchtype,
+			Profile.CountCatchtype[catch])
 		rank++
 	}
 
-	_, _ = fmt.Fprintln(file, "\n## Data for fishes")
+	_, _ = fmt.Fprintln(file, "\n## Data for fishes") // Make it show catchtype ?
 
 	_, _ = fmt.Fprintln(file, "\nFirst ever fish caught")
 
@@ -535,7 +680,12 @@ func PrintPlayerProfile(Profile PlayerProfile) error {
 
 	_, _ = fmt.Fprintln(file, "\n## Data about their fish seen")
 
-	// ...
+	_, _ = fmt.Fprintf(file, "\n| Total fish seen | %d |", len(Profile.FishSeen))
+
+	_, _ = fmt.Fprintln(file, "\n|-------|-------|")
+
+	// make it so that each fish seen has their own block ?
+	// add something to say if they caught all the treasures
 
 	_, _ = fmt.Fprintln(file, "\n## Their last seen bag")
 
@@ -547,6 +697,16 @@ func PrintPlayerProfile(Profile PlayerProfile) error {
 		Profile.Bag.Bag,
 		Profile.Bag.Date.Format("2006-01-02 15:04:05"),
 		fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", Profile.Bag.Chat, Profile.Bag.Chat))
+
+	_, _ = fmt.Fprintln(file, "\n\nCount of items in that bag:")
+
+	sortedBagCounts := sortMapString(Profile.BagCounts, "countdesc")
+
+	for _, bagItem := range sortedBagCounts {
+		_, _ = fmt.Fprintf(file, " [%s %d]",
+			bagItem,
+			Profile.BagCounts[bagItem])
+	}
 
 	return nil
 }
