@@ -176,7 +176,7 @@ func writeTrophy(filePath string, playerCounts map[int]data.FishInfo, oldTrophy 
 	_, _ = fmt.Fprintln(file, "| Rank | Player | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points |")
 	_, _ = fmt.Fprintln(file, "|------|--------|-------------|------------------|------------------|--------|")
 
-	sortedPlayers := sortPlayerRecords(playerCounts)
+	sortedPlayers := sortMapIntFishInfo(playerCounts, "weightdesc")
 
 	rank := 1
 	prevRank := 1

@@ -77,7 +77,6 @@ func FishStuff(fishName string, params LeaderboardParams, pool *pgxpool.Pool) (s
 	return emoji, nil
 }
 
-// can combine this with getjsonboardstring ? can return empty map ?
 func getJsonBoard(filePath string) (map[int]data.FishInfo, error) {
 
 	oldBoard := make(map[int]data.FishInfo)
@@ -192,34 +191,29 @@ func writeRawString(filePath string, board map[string]data.FishInfo) error {
 	return nil
 }
 
-// combine this with sortfishrecords 2
-func sortPlayerRecords(record map[int]data.FishInfo) []int {
+func sortMapIntFishInfo(somemap map[int]data.FishInfo, whattosort string) []int {
 
-	ids := make([]int, 0, len(record))
-	for playerID := range record {
-		ids = append(ids, playerID)
+	blee := make([]int, 0, len(somemap))
+	for whatever := range somemap {
+		blee = append(blee, whatever)
 	}
 
-	sort.SliceStable(ids, func(i, j int) bool { return record[ids[i]].Player < record[ids[j]].Player })
-	sort.SliceStable(ids, func(i, j int) bool { return record[ids[i]].Weight > record[ids[j]].Weight })
-	sort.SliceStable(ids, func(i, j int) bool { return record[ids[i]].Count > record[ids[j]].Count })
-
-	return ids
-
-}
-
-func sortFishRecords2(record map[int]data.FishInfo) []int {
-
-	ids := make([]int, 0, len(record))
-	for playerID := range record {
-		ids = append(ids, playerID)
+	switch whattosort {
+	case "datedesc":
+		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Date.After(somemap[blee[j]].Date) })
+	case "weightdesc":
+		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Player < somemap[blee[j]].Player })
+		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Weight > somemap[blee[j]].Weight })
+	case "countdesc":
+		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Player < somemap[blee[j]].Player })
+		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Count > somemap[blee[j]].Count })
+	default:
+		logs.Logs().Warn().
+			Str("WhatToSort", whattosort).
+			Msg("idk what to do :(")
 	}
 
-	sort.SliceStable(ids, func(i, j int) bool { return record[ids[i]].Player < record[ids[j]].Player })
-	sort.SliceStable(ids, func(i, j int) bool { return record[ids[i]].Date.After(record[ids[j]].Date) })
-
-	return ids
-
+	return blee
 }
 
 func sortMapStringFishInfo(somemap map[string]data.FishInfo, whattosort string) []string {

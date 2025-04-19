@@ -189,7 +189,7 @@ func writeFishList(filePath string, fishy map[int]data.FishInfo, oldFishy map[in
 
 	rank := len(fishy) + 1
 
-	sortedFish := sortFishRecords2(fishy)
+	sortedFish := sortMapIntFishInfo(fishy, "datedesc")
 
 	for _, fishid := range sortedFish {
 
