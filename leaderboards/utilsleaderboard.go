@@ -77,6 +77,7 @@ func FishStuff(fishName string, params LeaderboardParams, pool *pgxpool.Pool) (s
 	return emoji, nil
 }
 
+// can combine this with getjsonboardstring ? can return empty map ?
 func getJsonBoard(filePath string) (map[int]data.FishInfo, error) {
 
 	oldBoard := make(map[int]data.FishInfo)
@@ -191,6 +192,7 @@ func writeRawString(filePath string, board map[string]data.FishInfo) error {
 	return nil
 }
 
+// combine this with sortfishrecords 2
 func sortPlayerRecords(record map[int]data.FishInfo) []int {
 
 	ids := make([]int, 0, len(record))
@@ -220,19 +222,31 @@ func sortFishRecords2(record map[int]data.FishInfo) []int {
 
 }
 
-func sortFishRecords(recordFish map[string]data.FishInfo) []string {
+func sortMapStringFishInfo(somemap map[string]data.FishInfo, whattosort string) []string {
 
-	fishy := make([]string, 0, len(recordFish))
-	for fish := range recordFish {
-		fishy = append(fishy, fish)
+	blee := make([]string, 0, len(somemap))
+	for whatever := range somemap {
+		blee = append(blee, whatever)
 	}
 
-	sort.SliceStable(fishy, func(i, j int) bool { return recordFish[fishy[i]].Player < recordFish[fishy[j]].Player })
-	sort.SliceStable(fishy, func(i, j int) bool { return recordFish[fishy[i]].TypeName < recordFish[fishy[j]].TypeName })
-	sort.SliceStable(fishy, func(i, j int) bool { return recordFish[fishy[i]].Weight > recordFish[fishy[j]].Weight })
-	sort.SliceStable(fishy, func(i, j int) bool { return recordFish[fishy[i]].Count > recordFish[fishy[j]].Count })
+	switch whattosort {
+	case "dateasc":
+		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Date.Before(somemap[blee[j]].Date) })
+	case "weightdesc":
+		sort.SliceStable(blee, func(i, j int) bool { return blee[i] < blee[j] })
+		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].TypeName < somemap[blee[j]].TypeName })
+		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Weight > somemap[blee[j]].Weight })
+	case "countdesc":
+		sort.SliceStable(blee, func(i, j int) bool { return blee[i] < blee[j] })
+		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].TypeName < somemap[blee[j]].TypeName })
+		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Count > somemap[blee[j]].Count })
+	default:
+		logs.Logs().Warn().
+			Str("WhatToSort", whattosort).
+			Msg("idk what to do :(")
+	}
 
-	return fishy
+	return blee
 }
 
 // for nameasc and countdesc (only used for playerprofiles)
@@ -245,6 +259,7 @@ func sortMapString(somemap map[string]int, whattosort string) []string {
 
 	switch whattosort {
 	case "countdesc":
+		sort.SliceStable(blee, func(i, j int) bool { return blee[i] < blee[j] })
 		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]] > somemap[blee[j]] })
 	case "nameasc":
 		sort.SliceStable(blee, func(i, j int) bool { return blee[i] < blee[j] })
@@ -367,6 +382,21 @@ func didFishMapChange(params LeaderboardParams, oldBoard map[string]data.FishInf
 		}
 	}
 	return mapsarethesame
+}
+
+func CatchtypeNames() map[string]string {
+
+	CatchTypesPlayerProfile := map[string]string{
+		"normal":       "Normal",
+		"egg":          "Hatched egg",
+		"release":      "Release bonus",
+		"jumped":       "Jumped bonus",
+		"mouth":        "Mouth bonus",
+		"squirrel":     "Squirrel",
+		"squirrelfail": "Squirrel fail", // the squirrels i added manually because bread forgor to update game and you werent supposed to catch them
+	}
+
+	return CatchTypesPlayerProfile
 }
 
 func Ranks(rank int) string {

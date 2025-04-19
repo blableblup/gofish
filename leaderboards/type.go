@@ -262,7 +262,7 @@ func writeType(filePath string, recordType map[string]data.FishInfo, oldType map
 		return err
 	}
 
-	sortedTypes := sortFishRecords(recordType)
+	sortedTypes := sortMapStringFishInfo(recordType, "weightdesc")
 
 	for _, fishName := range sortedTypes {
 		weight := recordType[fishName].Weight

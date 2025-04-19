@@ -253,7 +253,7 @@ func writeAverageWeight(filePath string, Weights map[string]data.FishInfo, oldWe
 		return err
 	}
 
-	sortedFish := sortFishRecords(Weights)
+	sortedFish := sortMapStringFishInfo(Weights, "weightdesc")
 
 	rank := 1
 	prevRank := 1
