@@ -2,56 +2,56 @@
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
 | 1 🥇  | osnyatsky*  | 5070 |
-| 2 🥈  | sicklymaidrobot  | 3841 (+6) |
+| 2 🥈  | sicklymaidrobot  | 3843 (+2) |
 | 3 🥉  | puzzlow  | 3760 |
-| 4  | chubbbyhamster  | 3529 (+55) |
+| 4  | chubbbyhamster  | 3567 (+38) |
 | 5  | qu4ttromila  | 3111 |
-| 6  | miiiiisho  | 2842 (+15) |
-| 7  | derinturitierutz  | 2825 |
-| 8  | dayzedinndaydreams  | 2607 |
-| 9  | kishma9  | 2567 (+4) |
-| 10  | leanmeister  | 2565 (+108) |
+| 6  | miiiiisho  | 2867 (+25) |
+| 7  | derinturitierutz  | 2826 (+1) |
+| 8 ⬆ | leanmeister  | 2656 (+91) |
+| 9 ⬇ | dayzedinndaydreams  | 2607 |
+| 10 ⬇ | kishma9  | 2567 |
 | 11  | sussy_amonge  | 2230 |
-| 12  | booty_bread  | 2034 |
+| 12  | booty_bread  | 2035 (+1) |
 | 13  | osnyisdead  | 1834 |
-| 14  | ninjaross*  | 1591 (+35) |
+| 14  | ninjaross*  | 1626 (+35) |
 | 15  | fishingalt  | 1257 |
 | 16  | paras220  | 1070 |
-| 17  | ouacewi  | 962 |
-| 18  | ryebreadward  | 957 |
-| 19 ⬆ | dougiefresh_83*  | 954 (+17) |
-| 20 ⬇ | crazytown_bananapants  | 938 |
-| 21  | eaeac  | 861 (+6) |
-| 22  | comiqq  | 806 |
-| 23  | bussinongnocap  | 797 |
-| 24  | destin357  | 785 (+100) |
+| 17 ⬆ | dougiefresh_83*  | 976 (+22) |
+| 18 ⬇ | ouacewi  | 963 (+1) |
+| 19 ⬇ | ryebreadward  | 957 |
+| 20  | crazytown_bananapants  | 938 |
+| 21 ⬆ | destin357  | 937 (+152) |
+| 22 ⬇ | eaeac  | 873 (+12) |
+| 23 ⬇ | comiqq  | 806 |
+| 24 ⬇ | bussinongnocap  | 797 |
 | 25  | kaasppeerr  | 626 |
 | 26  | xth49*  | 619 |
-| 27  | trident1011  | 579 |
-| 28  | islcfc*  | 569 |
-| 29 ⬆ | larvasisters  | 567 (+2) |
-| 29  | xz_xz  | 567 |
-| 31 ⬆ | gstaman911  | 562 (+65) |
-| 32 ⬇ | julialuxel  | 545 |
-| 33  | idini  | 517 (+9) |
-| 34 ⬇ | respirate_  | 512 |
-| 35  | mitgliederversammlung  | 435 (+4) |
-| 36  | breadworms  | 431 (+3) |
+| 27 ⬆ | gstaman911  | 617 (+55) |
+| 28 ⬇ | trident1011  | 579 |
+| 29 ⬇ | islcfc*  | 569 |
+| 29  | larvasisters  | 569 (+2) |
+| 31 ⬇ | xz_xz  | 567 |
+| 32  | julialuxel  | 546 (+1) |
+| 33  | idini  | 527 (+10) |
+| 34  | respirate_  | 512 |
+| 35  | mitgliederversammlung  | 435 |
+| 36  | breadworms  | 433 (+2) |
 | 37  | lazuli672*  | 406 |
 | 38  | doublehelicalstructure*  | 399 |
-| 39  | kildofris*  | 393 (+1) |
+| 39  | kildofris*  | 394 (+1) |
 | 40  | bapqo  | 384 |
 | 41  | osnyatsky*  | 365 |
-| 42  | suavvvvv  | 349 |
-| 43  | gawblemachine  | 326 |
-| 44  | divra__  | 317 |
-| 45 ⬆ | wisco9ers*  | 313 (+15) |
-| 46 ⬇ | realtechnine  | 302 |
-| 47  | crinche*  | 284 |
-| 48 ⬆ | derintu  | 274 (+63) |
-| 49 ⬇ | supibot  | 241 |
-| 50 ⬇ | houseofleaves*  | 234 (+5) |
-| 51 ⬇ | vaiastol  | 213 |
+| 42  | suavvvvv  | 350 (+1) |
+| 43 ⬆ | derintu  | 338 (+64) |
+| 44 ⬇ | gawblemachine  | 327 (+1) |
+| 45  | wisco9ers*  | 323 (+10) |
+| 46 ⬇ | divra__  | 317 |
+| 47 ⬇ | realtechnine  | 302 |
+| 48 ⬇ | crinche*  | 284 |
+| 49  | supibot  | 241 |
+| 50  | houseofleaves*  | 236 (+2) |
+| 51  | vaiastol  | 213 |
 | 52  | hmsmob*  | 203 |
 | 53  | wispmode  | 194 |
 | 54  | yliathim*  | 179 |
@@ -60,13 +60,14 @@
 | 57  | lagggm*  | 152 |
 | 58  | niiy  | 146 |
 | 59  | fallen_angels_1995  | 139 |
-| 60  | fvkdylan  | 131 (+3) |
+| 60  | fvkdylan  | 138 (+7) |
 | 61  | carmirror  | 122 |
 | 62  | aceleju  | 120 |
 | 63  | receipts  | 117 |
-| 64  | jackwhalebreaker  | 109 |
-| 65  | rexhappy  | 106 |
+| 64 🆕 | ritual665  | 112 |
+| 65 ⬇ | jackwhalebreaker  | 109 |
+| 66 ⬇ | rexhappy  | 106 |
 
 _Only showing fishers who caught >= 100 fish_
 
-_Last updated at 2025-04-13 10:22:18 UTC_
+_Last updated at 2025-04-20 09:58:41 UTC_

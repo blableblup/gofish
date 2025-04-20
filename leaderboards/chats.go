@@ -256,7 +256,7 @@ func writeChatStats(filePath string, chatStats map[string]data.FishInfo, oldChat
 	_, _ = fmt.Fprintln(file, "| Rank | Chat | Fish Caught | Active Players | Unique Players | Unique Fish | Channel Record 🎊 |")
 	_, _ = fmt.Fprintln(file, "|------|------|-------------|----------------|----------------|-------------|-------------------|")
 
-	sortedChats := sortFishRecords(chatStats)
+	sortedChats := sortMapStringFishInfo(chatStats, "countdesc")
 
 	rank := 1
 	prevRank := 1

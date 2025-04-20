@@ -27,17 +27,18 @@
 | 24  | larvasisters | 🐋 whale2 | 114.20 | 2024-12-26 20:44:24 |
 | 25  | jr_mime | 🐙 octopus | 105.86 | 2024-08-24 13:55:32 |
 | 26  | fvkdylan | 🐬 dolphin | 90.12 | 2025-02-05 08:48:24 |
-| 27  | garout | 🐬 dolphin | 81.23 | 2025-02-12 09:49:26 |
-| 28  | ermnest | 🦑 squid | 77.83 | 2024-10-02 09:12:01 |
-| 29  | choplueys | 🐬 dolphin | 77.20 | 2024-08-30 17:40:32 |
-| 30  | devroyalty | 🐊 crocodile | 75.86 | 2025-03-09 17:41:10 |
-| 31 🆕 | yespere | 🐢 turtle | 72.61 | 2025-04-08 17:36:03 |
-| 32 ⬇ | cyaniderx | 🐢 turtle | 63.80 | 2025-02-10 21:06:42 |
-| 33 ⬇ | emotion_01 | 🐋 whale2 | 63.17 | 2024-08-09 15:15:43 |
-| 34 ⬇ | sulypert | 🐙 octopus | 61.78 | 2024-09-29 18:05:30 |
-| 35 ⬇ | houseofleaves | 🐋 whale2 | 61.69 | 2024-09-01 01:35:25 |
-| 36 ⬇ | nightmare_jpg | 🐊 crocodile | 56.42 | 2025-03-02 16:24:06 |
+| 27 🆕 | drpasu | 🐙 octopus | 89.12 | 2025-04-18 23:30:56 |
+| 28 ⬇ | garout | 🐬 dolphin | 81.23 | 2025-02-12 09:49:26 |
+| 29 ⬇ | ermnest | 🦑 squid | 77.83 | 2024-10-02 09:12:01 |
+| 30 ⬇ | choplueys | 🐬 dolphin | 77.20 | 2024-08-30 17:40:32 |
+| 31 ⬇ | devroyalty | 🐊 crocodile | 75.86 | 2025-03-09 17:41:10 |
+| 32 ⬇ | yespere | 🐢 turtle | 72.61 | 2025-04-08 17:36:03 |
+| 33 ⬇ | cyaniderx | 🐢 turtle | 63.80 | 2025-02-10 21:06:42 |
+| 34 ⬇ | emotion_01 | 🐋 whale2 | 63.17 | 2024-08-09 15:15:43 |
+| 35 ⬇ | sulypert | 🐙 octopus | 61.78 | 2024-09-29 18:05:30 |
+| 36 ⬇ | houseofleaves | 🐋 whale2 | 61.69 | 2024-09-01 01:35:25 |
+| 37 ⬇ | nightmare_jpg | 🐊 crocodile | 56.42 | 2025-03-02 16:24:06 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2025-04-13 10:22:19 UTC_
+_Last updated at 2025-04-20 09:58:42 UTC_

@@ -195,7 +195,7 @@ func writeRare(filePath string, fishCaught map[string]data.FishInfo, oldCountRec
 		return err
 	}
 
-	sortedPlayers := sortFishRecords(fishCaught)
+	sortedPlayers := sortMapStringFishInfo(fishCaught, "countdesc")
 
 	rank := 1
 	prevRank := 1

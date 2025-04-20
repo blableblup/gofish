@@ -2,7 +2,7 @@
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
 | 1 🥇  | fenix8  | 50 |
-| 2 🥈  | destructionvibe  | 21 |
+| 2 🥈  | destructionvibe  | 22 (+1) |
 | 3 🥉  | yxnggon  | 19 |
 | 4  | 04knight  | 18 |
 | 4  | copynine  | 18 |
@@ -15,4 +15,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-04-13 10:22:18 UTC_
+_Last updated at 2025-04-20 09:58:41 UTC_

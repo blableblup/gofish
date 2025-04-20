@@ -12,13 +12,14 @@
 | 9  | poioce | 🐊 crocodile | 139.70 | 2025-03-02 10:35:29 |
 | 10  | e1d2f3 | 🐊 crocodile | 97.62 | 2025-02-15 06:50:41 |
 | 11  | maavva | 🦑 squid | 77.36 | 2025-03-21 04:58:54 |
-| 12  | jellyuh | 🐬 dolphin | 67.30 | 2025-03-09 07:03:16 |
-| 13  | fadingmemoriez | 🐙 octopus | 63.24 | 2025-01-02 07:08:13 |
-| 14  | deitydg | 🦑 squid | 62.57 | 2025-03-19 05:56:02 |
-| 15  | gamingwithmicah_ | 🐢 turtle | 61.58 | 2025-04-04 04:22:31 |
-| 16  | pxxchy_dreams | 🐳 whale | 58.93 | 2025-02-25 05:10:34 |
-| 17  | doggo143 | 🐟 fish | 54.83 | 2025-03-04 03:36:25 |
+| 12 🆕 | wombatbrownies | 🐬 dolphin | 73.13 | 2025-04-17 03:04:00 |
+| 13 ⬇ | jellyuh | 🐬 dolphin | 67.30 | 2025-03-09 07:03:16 |
+| 14 ⬇ | fadingmemoriez | 🐙 octopus | 63.24 | 2025-01-02 07:08:13 |
+| 15 ⬇ | deitydg | 🦑 squid | 62.57 | 2025-03-19 05:56:02 |
+| 16 ⬇ | gamingwithmicah_ | 🐢 turtle | 61.58 | 2025-04-04 04:22:31 |
+| 17 ⬇ | pxxchy_dreams | 🐳 whale | 58.93 | 2025-02-25 05:10:34 |
+| 18 ⬇ | doggo143 | 🐟 fish | 54.83 | 2025-03-04 03:36:25 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2025-04-13 10:22:18 UTC_
+_Last updated at 2025-04-20 09:58:42 UTC_

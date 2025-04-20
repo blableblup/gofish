@@ -291,7 +291,7 @@ func writeCount(filePath string, fishCaught map[int]data.FishInfo, oldCountRecor
 		return err
 	}
 
-	sortedPlayers := sortPlayerRecords(fishCaught)
+	sortedPlayers := sortMapIntFishInfo(fishCaught, "countdesc")
 
 	rank := 1
 	prevRank := 1
