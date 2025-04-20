@@ -18,7 +18,7 @@ import (
 type PlayerProfile struct {
 	Name     string
 	PlayerID int
-	TwitchID sql.NullInt64
+	TwitchID int
 	Verified sql.NullBool
 
 	HasSeenTreasures bool
@@ -130,8 +130,6 @@ func GetPlayerProfiles(params LeaderboardParams) {
 	g := new(errgroup.Group)
 
 	// Get the players profile and print it for each player
-	// maybe only print the profiles  or make postgresql server not peak at 100 % cpu ?
-	// https://pkg.go.dev/github.com/jackc/pgx/v5#hdr-Prepared_Statements
 	for _, validPlayer := range validPlayers {
 		g.Go(func() error {
 			playerProfile, err := GetAPlayerProfile(params, validPlayer)
@@ -252,6 +250,7 @@ func GetAPlayerProfile(params LeaderboardParams, playerID int) (PlayerProfile, e
 	pool := params.Pool
 
 	var Profile PlayerProfile
+	var err error
 
 	Profile.PlayerID = playerID
 
@@ -260,16 +259,12 @@ func GetAPlayerProfile(params LeaderboardParams, playerID int) (PlayerProfile, e
 	// add date and date 2 to the queries so that they are like the leaderboards
 	// so that they only count the data for the tournament week ? or
 
-	// For this I already have PlayerStuff function in utilsleaderboard ?
-	// add twitchid to that function or?
-	err := pool.QueryRow(context.Background(),
-		"select name, twitchid, verified from playerdata where playerid = $1",
-		playerID).Scan(&Profile.Name, &Profile.TwitchID, &Profile.Verified)
+	Profile.Name, _, Profile.Verified.Bool, Profile.TwitchID, err = PlayerStuff(playerID, params, pool)
 	if err != nil {
 		return Profile, err
 	}
 
-	if !Profile.TwitchID.Valid {
+	if Profile.TwitchID == 0 {
 		logs.Logs().Error().
 			Str("Player", Profile.Name).
 			Int("PlayerID", Profile.PlayerID).
@@ -698,7 +693,7 @@ func QueryAndReturnMapStringFishInfo(pool *pgxpool.Pool, query string, playerID 
 
 func PrintPlayerProfile(Profile PlayerProfile, EmojisForFish map[string]string, CatchtypeNames map[string]string) error {
 
-	filePath := filepath.Join("leaderboards", "global", "players", fmt.Sprintf("%d", Profile.TwitchID.Int64)+".md")
+	filePath := filepath.Join("leaderboards", "global", "players", fmt.Sprintf("%d", Profile.TwitchID)+".md")
 
 	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
 		return err
@@ -881,7 +876,7 @@ func PrintPlayerProfile(Profile PlayerProfile, EmojisForFish map[string]string, 
 		rank++
 	}
 
-	_, _ = fmt.Fprintln(file, "\n\nTheir last fish caught")
+	_, _ = fmt.Fprintln(file, "\n\nTheir overall last fish caught")
 
 	_, _ = fmt.Fprintln(file, "\n| --- | Fish | Weight in lbs | Date in UTC | Chat |")
 
@@ -926,6 +921,8 @@ func PrintPlayerProfile(Profile PlayerProfile, EmojisForFish map[string]string, 
 	}
 
 	_, _ = fmt.Fprintln(file)
+
+	_, _ = fmt.Fprintln(file, "\n## Data about each of their seen fish")
 
 	// print one block for each fish type
 	// show their total coutn caught, count per year per chat

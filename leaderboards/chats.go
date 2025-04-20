@@ -215,7 +215,7 @@ func getChatStats(params LeaderboardParams) (map[string]data.FishInfo, error) {
 			return chatStats, err
 		}
 
-		chatInfo.Player, _, _, err = PlayerStuff(chatInfo.PlayerID, params, pool)
+		chatInfo.Player, _, _, _, err = PlayerStuff(chatInfo.PlayerID, params, pool)
 		if err != nil {
 			return chatStats, err
 		}

@@ -149,7 +149,7 @@ func getFishWeek(params LeaderboardParams, fishweeklimit int) (map[int]data.Fish
 		}
 
 		// dont overwrite fishinfo date from the query; but fishinfo date isnt used for anything ?
-		fishInfo.Player, _, fishInfo.Verified, err = PlayerStuff(fishInfo.PlayerID, params, pool)
+		fishInfo.Player, _, fishInfo.Verified, _, err = PlayerStuff(fishInfo.PlayerID, params, pool)
 		if err != nil {
 			return maxFishInWeek, err
 		}

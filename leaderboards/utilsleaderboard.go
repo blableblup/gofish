@@ -22,35 +22,44 @@ import (
 // firstfishdate is set for when the player first was added and is never updated afterwards,
 // so the player might have fished earlier in a chat which wasnt covered for example or during a downtime
 // and also, firstfishdate could also be when the player first did + bag
-func PlayerStuff(playerID int, params LeaderboardParams, pool *pgxpool.Pool) (string, time.Time, bool, error) {
+func PlayerStuff(playerID int, params LeaderboardParams, pool *pgxpool.Pool) (string, time.Time, bool, int, error) {
 
 	var name string
 	var firstfishdate time.Time
 	var verified sql.NullBool
+	var twitchID sql.NullInt64
 
 	if _, ok := params.Players[playerID]; !ok {
-		err := pool.QueryRow(context.Background(), "SELECT name, firstfishdate, verified FROM playerdata WHERE playerid = $1", playerID).Scan(&name, &firstfishdate, &verified)
+		err := pool.QueryRow(context.Background(),
+			"SELECT name, firstfishdate, verified, twitchid FROM playerdata WHERE playerid = $1",
+			playerID).Scan(&name, &firstfishdate, &verified, &twitchID)
 		if err != nil {
 			logs.Logs().Error().Err(err).
 				Int("PlayerID", playerID).
 				Str("Chat", params.ChatName).
 				Str("Board", params.LeaderboardType).
 				Msg("Error retrieving player name for id")
-			return name, firstfishdate, verified.Bool, err
+			return name, firstfishdate, verified.Bool, 0, err
 		}
 
-		params.Players[playerID] = data.FishInfo{
-			Player:   name,
-			Date:     firstfishdate,
-			Verified: verified.Bool,
+		if twitchID.Valid {
+			params.Players[playerID] = data.FishInfo{
+				Player:   name,
+				Date:     firstfishdate,
+				Verified: verified.Bool,
+				TwitchID: int(twitchID.Int64),
+			}
+		} else {
+			params.Players[playerID] = data.FishInfo{
+				Player:   name,
+				Date:     firstfishdate,
+				Verified: verified.Bool,
+				TwitchID: 0,
+			}
 		}
-	} else {
-		name = params.Players[playerID].Player
-		firstfishdate = params.Players[playerID].Date
-		verified.Bool = params.Players[playerID].Verified
 	}
 
-	return name, firstfishdate, verified.Bool, nil
+	return params.Players[playerID].Player, params.Players[playerID].Date, params.Players[playerID].Verified, params.Players[playerID].TwitchID, nil
 }
 
 // because some fish had different emotes on supibot, i always get the latest emoji from fishinfo

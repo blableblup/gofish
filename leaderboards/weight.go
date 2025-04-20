@@ -203,7 +203,7 @@ func getWeightRecords(params LeaderboardParams, weightlimit float64) (map[int]da
 			return recordWeight, err
 		}
 
-		fishInfo.Player, _, fishInfo.Verified, err = PlayerStuff(fishInfo.PlayerID, params, pool)
+		fishInfo.Player, _, fishInfo.Verified, _, err = PlayerStuff(fishInfo.PlayerID, params, pool)
 		if err != nil {
 			return recordWeight, err
 		}

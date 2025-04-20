@@ -176,7 +176,7 @@ func getCount(params LeaderboardParams, countlimit int) (map[int]data.FishInfo, 
 			return fishCaught, err
 		}
 
-		fishInfo.Player, fishInfo.Date, fishInfo.Verified, err = PlayerStuff(fishInfo.PlayerID, params, pool)
+		fishInfo.Player, fishInfo.Date, fishInfo.Verified, _, err = PlayerStuff(fishInfo.PlayerID, params, pool)
 		if err != nil {
 			return fishCaught, err
 		}

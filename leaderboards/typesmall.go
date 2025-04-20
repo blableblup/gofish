@@ -198,7 +198,7 @@ func getTypeRecordsSmall(params LeaderboardParams) (map[string]data.FishInfo, er
 			return recordType, err
 		}
 
-		fishInfo.Player, _, fishInfo.Verified, err = PlayerStuff(fishInfo.PlayerID, params, pool)
+		fishInfo.Player, _, fishInfo.Verified, _, err = PlayerStuff(fishInfo.PlayerID, params, pool)
 		if err != nil {
 			return recordType, err
 		}
