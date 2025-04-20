@@ -49,7 +49,7 @@
 | 46  | 🪼 jellyfish | 21.95 | sandwichsundays | 2024-07-05 19:59:19 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
 | 47  | 🧭 compass | 21.26 | destin357 | 2025-03-25 13:46:19 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 48  | 🦦 otter | 19.91 | wowitsdub | 2025-02-12 19:55:33 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png) |
-| 49  | 🪱 worm | 19.17 | caprisen_ | 2023-10-18 12:29:31 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
+| 49  | 🪱 worm | 19.86 (+0.69) | bubinga | 2025-04-17 08:57:57 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png) |
 | 50  | 🍄 mushroom | 17.90 | skixxmm | 2024-10-31 17:30:00 | ![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png) |
 | 51  | 🪀 bobber | 15.77 | gofishgamer | 2024-09-28 01:01:14 | ![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png) |
 | 52  | 🦆 duck | 15.69 | derinturitierutz | 2023-11-04 14:31:09 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
@@ -104,4 +104,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-04-13 10:23:52 UTC_
+_Last updated at 2025-04-20 09:58:25 UTC_
