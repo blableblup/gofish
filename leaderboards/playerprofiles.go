@@ -6,13 +6,14 @@ import (
 	"fmt"
 	"gofish/data"
 	"gofish/logs"
+	"gofish/utils"
 	"os"
 	"path/filepath"
 	"strconv"
+	"sync"
 
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgxpool"
-	"golang.org/x/sync/errgroup"
 )
 
 type PlayerProfile struct {
@@ -84,8 +85,6 @@ func GetPlayerProfiles(params LeaderboardParams) {
 		}
 	}
 
-	// instead of always updating it for all players
-	//  only select the players who fished in the last seven days above the limit and update it for them only ?
 	validPlayers, err := GetValidPlayers(params, countlimit)
 	if err != nil {
 		logs.Logs().Error().Err(err).
@@ -125,55 +124,121 @@ func GetPlayerProfiles(params LeaderboardParams) {
 	// get the names for the different type of ways you can catch fish
 	Catchtypenames := CatchtypeNames()
 
-	// This can just be a normal sync waitgroup
-	// im not doing anythign with an error
-	g := new(errgroup.Group)
+	wg := new(sync.WaitGroup)
 
 	// Get the players profile and print it for each player
+	// when doing this for all players, this may be a bit hard on cpu :DD ?
+
+	logs.Logs().Info().
+		Int("Amount of players", len(validPlayers)).
+		Msg("Updating player profiles")
+
 	for _, validPlayer := range validPlayers {
-		g.Go(func() error {
+		wg.Add(1)
+		go func() {
+			defer wg.Done()
 			playerProfile, err := GetAPlayerProfile(params, validPlayer)
 			if err == nil {
 				err = PrintPlayerProfile(playerProfile, FishWithEmoji, Catchtypenames)
+				if err != nil {
+					logs.Logs().Error().Err(err).
+						Str("Chat", chatName).
+						Str("Board", board).
+						Int("PlayerID", validPlayer).
+						Msg("Error printing player profile")
+				}
+			} else {
+				logs.Logs().Error().Err(err).
+					Str("Chat", chatName).
+					Str("Board", board).
+					Int("PlayerID", validPlayer).
+					Msg("Error getting player profile")
 			}
-			return err
-		})
+		}()
 	}
 
-	// this will be the first non nil error
-	if err := g.Wait(); err != nil {
-		logs.Logs().Error().Err(err).
-			Str("Chat", chatName).
-			Str("Board", board).
-			Msg("Error with player profiles")
-		return
-	}
+	wg.Wait()
 
 	logs.Logs().Info().
-		Msg("Done printing player profiles")
+		Str("Chat", chatName).
+		Str("Board", board).
+		Msg("Done updating player profiles")
 
 }
 
 func GetValidPlayers(params LeaderboardParams, limit int) ([]int, error) {
 	board := params.LeaderboardType
 	chatName := params.ChatName
+	date2 := params.Date2
+	date := params.Date
+	mode := params.Mode
 	pool := params.Pool
 
 	var validPlayers []int
+	var rows pgx.Rows
+	var err error
 
-	// Query for all players above the countlimit
-	rows, err := pool.Query(context.Background(), `
+	// If nothing else was specified for date 2 and its the default date
+	// have date 2 be 7 days before date1, so the players above the limit who fished in the last 7 days are selected
+	// because ill update this with the other leaderboards on sunday
+	if date2 == "2022-12-03" {
+		datetime, err := utils.ParseDate(date)
+		if err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Date", date).
+				Str("Chat", chatName).
+				Str("Board", board).
+				Msg("Error parsing date into time.Time for active fishers")
+			return validPlayers, err
+		}
+		date2 = datetime.AddDate(0, 0, -7).Format("2006-01-2")
+	}
+
+	// select all the players
+	queryall := `
 		select playerid from fish
 		group by playerid
-		having count(*) >= $1`, limit)
-	if err != nil {
-		logs.Logs().Error().Err(err).
-			Str("Chat", chatName).
-			Str("Board", board).
-			Msg("Error querying database")
-		return validPlayers, err
+		having count(*) >= $1`
+
+	// only select the players who fished in that time period and have their total count above the limit
+	queryrecent := `
+	select f.playerid from fish f
+		join 
+		(
+		select playerid from fish
+		where date < $2
+		and date >= $3
+			group by playerid
+		) bla on bla.playerid = f.playerid
+		group by f.playerid
+		having count(*) >= $1
+	`
+
+	if mode == "force" {
+
+		rows, err = pool.Query(context.Background(), queryall, limit)
+		if err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Chat", chatName).
+				Str("Board", board).
+				Msg("Error querying database")
+			return validPlayers, err
+		}
+		defer rows.Close()
+
+	} else {
+
+		rows, err = pool.Query(context.Background(), queryrecent, limit, date, date2)
+		if err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Chat", chatName).
+				Str("Board", board).
+				Msg("Error querying database")
+			return validPlayers, err
+		}
+		defer rows.Close()
+
 	}
-	defer rows.Close()
 
 	for rows.Next() {
 
@@ -201,51 +266,8 @@ func GetValidPlayers(params LeaderboardParams, limit int) ([]int, error) {
 	return validPlayers, nil
 }
 
-func GetAllFishNames(params LeaderboardParams) ([]string, error) {
-	board := params.LeaderboardType
-	chatName := params.ChatName
-	pool := params.Pool
-
-	var fishes []string
-
-	rows, err := pool.Query(context.Background(), `
-		select fishname from fishinfo
-		group by fishname`)
-	if err != nil {
-		logs.Logs().Error().Err(err).
-			Str("Chat", chatName).
-			Str("Board", board).
-			Msg("Error querying database")
-		return fishes, err
-	}
-	defer rows.Close()
-
-	for rows.Next() {
-
-		var fishy string
-
-		if err := rows.Scan(&fishy); err != nil {
-			logs.Logs().Error().Err(err).
-				Str("Chat", chatName).
-				Str("Board", board).
-				Msg("Error scanning row")
-			return fishes, err
-		}
-
-		fishes = append(fishes, fishy)
-	}
-
-	if err = rows.Err(); err != nil {
-		logs.Logs().Error().Err(err).
-			Str("Chat", chatName).
-			Str("Board", board).
-			Msg("Error iterating over rows")
-		return fishes, err
-	}
-
-	return fishes, nil
-}
-
+// make this return map[int]PlayerProfile instead of selecting every single profile concurrently
+// can update queries to have: where playerid IN (id1, id2, .....)
 func GetAPlayerProfile(params LeaderboardParams, playerID int) (PlayerProfile, error) {
 	pool := params.Pool
 
@@ -540,6 +562,7 @@ func GetAPlayerProfile(params LeaderboardParams, playerID int) (PlayerProfile, e
 		return Profile, err
 	}
 
+	// if first / last fish was a mouth bonus catch, there will be two fish selected with max and min date
 	queryFirstFishChat := `
 	SELECT f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid
 	FROM fish f
@@ -691,6 +714,7 @@ func QueryAndReturnMapStringFishInfo(pool *pgxpool.Pool, query string, playerID 
 	return Mappy, nil
 }
 
+// can put code which is printing the same type of maps into their own function ?
 func PrintPlayerProfile(Profile PlayerProfile, EmojisForFish map[string]string, CatchtypeNames map[string]string) error {
 
 	filePath := filepath.Join("leaderboards", "global", "players", fmt.Sprintf("%d", Profile.TwitchID)+".md")

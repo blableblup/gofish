@@ -86,6 +86,52 @@ func FishStuff(fishName string, params LeaderboardParams, pool *pgxpool.Pool) (s
 	return emoji, nil
 }
 
+// get all the fish from the db
+func GetAllFishNames(params LeaderboardParams) ([]string, error) {
+	board := params.LeaderboardType
+	chatName := params.ChatName
+	pool := params.Pool
+
+	var fishes []string
+
+	rows, err := pool.Query(context.Background(), `
+		select fishname from fishinfo
+		group by fishname`)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Chat", chatName).
+			Str("Board", board).
+			Msg("Error querying database")
+		return fishes, err
+	}
+	defer rows.Close()
+
+	for rows.Next() {
+
+		var fishy string
+
+		if err := rows.Scan(&fishy); err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Chat", chatName).
+				Str("Board", board).
+				Msg("Error scanning row")
+			return fishes, err
+		}
+
+		fishes = append(fishes, fishy)
+	}
+
+	if err = rows.Err(); err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Chat", chatName).
+			Str("Board", board).
+			Msg("Error iterating over rows")
+		return fishes, err
+	}
+
+	return fishes, nil
+}
+
 func getJsonBoard(filePath string) (map[int]data.FishInfo, error) {
 
 	oldBoard := make(map[int]data.FishInfo)
