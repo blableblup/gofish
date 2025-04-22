@@ -2,6 +2,7 @@ package leaderboards
 
 import (
 	"context"
+	"fmt"
 	"gofish/data"
 	"gofish/logs"
 
@@ -11,7 +12,7 @@ import (
 
 // add date and date 2 to the queries so that they are like the leaderboards
 // so that they only count the data for the tournament week ?
-func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int) (map[int]*PlayerProfile, error) {
+func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allShinies []string) (map[int]*PlayerProfile, error) {
 	pool := params.Pool
 
 	// pointer to the map so i can directly modify the maps
@@ -137,7 +138,6 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int) (map[int
 		return Profiles, err
 	}
 
-	// also check for shiny in bag!
 	bags, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
 	if err != nil && err != pgx.ErrNoRows {
 		return Profiles, err
@@ -150,8 +150,27 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int) (map[int
 
 		// Count the items in their bag
 		Profiles[lastBag.PlayerID].BagCounts = make(map[string]int)
-		for _, ItemInBag := range Profiles[lastBag.PlayerID].Bag.Bag {
-			Profiles[lastBag.PlayerID].BagCounts[ItemInBag]++
+		for n, ItemInBag := range Profiles[lastBag.PlayerID].Bag.Bag {
+
+			var isashiny bool
+			for _, shiny := range allShinies {
+				if ItemInBag == shiny {
+
+					isashiny = true
+
+					// Change the item to the shiny emoji
+					shinyEmoji := fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/shiny/%s.png)", ItemInBag, ItemInBag)
+
+					Profiles[lastBag.PlayerID].Bag.Bag[n] = shinyEmoji
+
+					Profiles[lastBag.PlayerID].BagCounts[shinyEmoji]++
+				}
+			}
+
+			// Dont count the item again if it is a shiny
+			if !isashiny {
+				Profiles[lastBag.PlayerID].BagCounts[ItemInBag]++
+			}
 		}
 	}
 

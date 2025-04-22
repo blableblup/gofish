@@ -132,6 +132,52 @@ func GetAllFishNames(params LeaderboardParams) ([]string, error) {
 	return fishes, nil
 }
 
+func GetAllShinies(params LeaderboardParams) ([]string, error) {
+	board := params.LeaderboardType
+	chatName := params.ChatName
+	pool := params.Pool
+
+	var shinies []string
+
+	rows, err := pool.Query(context.Background(), `
+		select shiny from fishinfo where shiny != '{}'`)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Chat", chatName).
+			Str("Board", board).
+			Msg("Error querying database")
+		return shinies, err
+	}
+	defer rows.Close()
+
+	for rows.Next() {
+
+		// maybe bread will add multiple shinies for same fish at one point
+		// thats why shiny is an array in the fishinfo table
+		var shiny []string
+
+		if err := rows.Scan(&shiny); err != nil {
+			logs.Logs().Error().Err(err).
+				Str("Chat", chatName).
+				Str("Board", board).
+				Msg("Error scanning row")
+			return shinies, err
+		}
+
+		shinies = append(shinies, shiny...)
+	}
+
+	if err = rows.Err(); err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Chat", chatName).
+			Str("Board", board).
+			Msg("Error iterating over rows")
+		return shinies, err
+	}
+
+	return shinies, nil
+}
+
 func getJsonBoard(filePath string) (map[int]data.FishInfo, error) {
 
 	oldBoard := make(map[int]data.FishInfo)

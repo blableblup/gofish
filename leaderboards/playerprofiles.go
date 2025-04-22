@@ -120,6 +120,16 @@ func GetPlayerProfiles(params LeaderboardParams) {
 		}
 	}
 
+	// Get the names of all the shines in the db
+	allShinies, err := GetAllShinies(params)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Chat", chatName).
+			Str("Board", board).
+			Msg("Error getting all shinies")
+		return
+	}
+
 	// Get the names for the different type of ways you can catch fish
 	Catchtypenames := CatchtypeNames()
 
@@ -129,7 +139,7 @@ func GetPlayerProfiles(params LeaderboardParams) {
 		Int("Amount of players", len(validPlayers)).
 		Msg("Updating player profiles")
 
-	playerProfiles, err := GetThePlayerProfiles(params, validPlayers)
+	playerProfiles, err := GetThePlayerProfiles(params, validPlayers, allShinies)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Chat", chatName).
