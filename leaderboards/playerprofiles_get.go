@@ -128,10 +128,10 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allShini
 		from bag b
 		join
 		(
-			select max(date) as max_date, playerid
-			from bag
-			where playerid = any($1)
-			group by playerid
+		select max(date) as max_date, playerid
+		from bag
+		where playerid = any($1)
+		group by playerid
 		) bag on b.playerid = bag.playerid and b.date = bag.max_date`,
 		validPlayers)
 	if err != nil {
@@ -180,11 +180,11 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allShini
 		from bag b
 		join
 		(
-			select min(date) as min_date, playerid
-			from bag
-			where playerid = any($1)
-			and '✉️' = any(bag)
-			group by playerid
+		select min(date) as min_date, playerid
+		from bag
+		where playerid = any($1)
+		and '✉️' = any(bag)
+		group by playerid
 		) bag on b.playerid = bag.playerid and b.date = bag.min_date`,
 		validPlayers)
 	if err != nil {
@@ -357,59 +357,44 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allShini
 		Profiles[dada.PlayerID].FishSeenChat[dada.String] = dada.Int
 	}
 
-	// the queries here are mostly the same, can have a base query and then construct the others
-	// the biggest and smallest should also have the lowest date if a fish with that weight was caught multiple times
-	queryBiggestFishChat := `
-		SELECT f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid
-		FROM fish f
-		JOIN (
-			SELECT MAX(weight) AS max_weight, chat, playerid
-			FROM fish
-			WHERE playerid = any($1)
-			AND catchtype != 'release'
-			AND catchtype != 'squirrel'
-			GROUP BY chat, playerid
-		) AS sub
-		ON f.weight = sub.max_weight AND f.chat = sub.chat AND f.playerid = sub.playerid
-		WHERE f.playerid = any($1)`
+	// For biggest and smallest ignore the fish which i dont see the weight of in the catch message (squirrels and release bonus fish)
+	// Also for biggest and smallest im ordering by date desc, so that as the rows are being read, if someone caught that weight multiple times
+	// it should always end up printing the oldest one with that weight on the profile
+	queryBiggestFishChat := ConstructFishQuery(
+		",MAX(weight) AS max_weight, chat",
+		"AND catchtype != 'release' AND catchtype != 'squirrel'",
+		",chat",
+		"AND f.weight = sub.max_weight AND f.chat = sub.chat",
+		"AND f.catchtype != 'release' AND f.catchtype != 'squirrel'",
+		"ORDER BY date desc")
 
 	Profiles, err = QueryMapStringFishInfo(pool, Profiles, queryBiggestFishChat, validPlayers, "biggest", true)
 	if err != nil {
 		return Profiles, err
 	}
 
-	// if first / last catch was a mouth bonus catch dont select the mouth catch,
-	// so that there arent two fish with max / min date
-	queryFirstFishChat := `
-	SELECT f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid
-	FROM fish f
-	JOIN (
-		SELECT MIN(date) AS min_date, chat, playerid
-		FROM fish
-		WHERE playerid = any($1)
-		AND catchtype != 'mouth'
-		GROUP BY chat, playerid
-	) AS sub
-	ON f.date = sub.min_date AND f.chat = sub.chat AND f.playerid = sub.playerid
-	WHERE f.playerid = any($1)`
+	// If first / last catch was a mouth bonus catch dont select the mouth catch,
+	// So that there arent two fish with max / min date
+	queryFirstFishChat := ConstructFishQuery(
+		",MIN(date) AS min_date, chat",
+		"",
+		",chat",
+		"AND f.date = sub.min_date AND f.chat = sub.chat",
+		"AND f.catchtype != 'mouth'",
+		"")
 
 	Profiles, err = QueryMapStringFishInfo(pool, Profiles, queryFirstFishChat, validPlayers, "first", true)
 	if err != nil {
 		return Profiles, err
 	}
 
-	queryLastFishChat := `
-	SELECT f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid
-	FROM fish f
-	JOIN (
-		SELECT MAX(date) AS max_date, chat, playerid
-		FROM fish
-		WHERE playerid = any($1)
-		AND catchtype != 'mouth'
-		GROUP BY chat, playerid
-	) AS sub
-	ON f.date = sub.max_date AND f.chat = sub.chat AND f.playerid = sub.playerid
-	WHERE f.playerid = any($1)`
+	queryLastFishChat := ConstructFishQuery(
+		",MAX(date) AS max_date, chat",
+		"",
+		",chat",
+		"AND f.date = sub.max_date AND f.chat = sub.chat",
+		"AND f.catchtype != 'mouth'",
+		"")
 
 	Profiles, err = QueryMapStringFishInfo(pool, Profiles, queryLastFishChat, validPlayers, "last", true)
 	if err != nil {
@@ -417,73 +402,54 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allShini
 	}
 
 	// Get the biggest, smallest, last and first fish per fishtype
-	// For biggest and smallest ignore the fish which i dont see the weight of in the catch message (squirrels and release bonus fish)
-	queryBiggestFishPerType := `
-		SELECT f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid
-		FROM fish f
-		JOIN (
-			SELECT fishname, MAX(weight) AS max_weight, playerid
-			FROM fish
-			WHERE playerid = any($1)
-			AND catchtype != 'release'
-			AND catchtype != 'squirrel'
-			GROUP BY fishname, playerid
-		) AS sub
-		ON f.fishname = sub.fishname AND f.weight = sub.max_weight AND f.playerid = sub.playerid
-		WHERE f.playerid = any($1)`
+	queryBiggestFishPerType := ConstructFishQuery(
+		",fishname, MAX(weight) AS max_weight",
+		"AND catchtype != 'release' AND catchtype != 'squirrel'",
+		",fishname",
+		"AND f.weight = sub.max_weight AND f.fishname = sub.fishname",
+		"AND f.catchtype != 'release' AND f.catchtype != 'squirrel'",
+		"ORDER BY date desc")
 
 	Profiles, err = QueryMapStringFishInfo(pool, Profiles, queryBiggestFishPerType, validPlayers, "biggest", false)
 	if err != nil {
 		return Profiles, err
 	}
 
-	querySmallestFishPerType := `
-		SELECT f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid
-		FROM fish f
-		JOIN (
-			SELECT fishname, MIN(weight) AS min_weight, playerid
-			FROM fish
-			WHERE playerid = any($1)
-			AND catchtype != 'release'
-			AND catchtype != 'squirrel'
-			GROUP BY fishname, playerid
-		) AS sub
-		ON f.fishname = sub.fishname AND f.weight = sub.min_weight AND f.playerid = sub.playerid
-		WHERE f.playerid = any($1)`
+	querySmallestFishPerType := ConstructFishQuery(
+		",fishname, MIN(weight) AS min_weight",
+		"AND catchtype != 'release' AND catchtype != 'squirrel'",
+		",fishname",
+		"AND f.weight = sub.min_weight AND f.fishname = sub.fishname",
+		"AND f.catchtype != 'release' AND f.catchtype != 'squirrel'",
+		"ORDER BY date desc")
 
 	Profiles, err = QueryMapStringFishInfo(pool, Profiles, querySmallestFishPerType, validPlayers, "smallest", false)
 	if err != nil {
 		return Profiles, err
 	}
 
-	queryLastFishPerType := `
-		SELECT f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid
-		FROM fish f
-		JOIN (
-			SELECT fishname, MAX(date) AS max_date, playerid
-			FROM fish
-			WHERE playerid = any($1)
-			GROUP BY fishname, playerid
-		) AS sub
-		ON f.fishname = sub.fishname AND f.date = sub.max_date AND f.playerid = sub.playerid
-		WHERE f.playerid = any($1)`
+	// If someones last catch of a type was a mouth catch and the fish in the mouth and the other catch are of the same type
+	// this will select two fishes, doesnt rly happen a lot anyways so idc (?)
+	queryLastFishPerType := ConstructFishQuery(
+		",MAX(date) AS max_date, fishname",
+		"",
+		",fishname",
+		"AND f.date = sub.max_date AND f.fishname = sub.fishname",
+		"",
+		"")
 
 	Profiles, err = QueryMapStringFishInfo(pool, Profiles, queryLastFishPerType, validPlayers, "last", false)
 	if err != nil {
 		return Profiles, err
 	}
 
-	queryFirstFishPerType := `
-		SELECT f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid
-		FROM fish f
-		JOIN (
-			SELECT fishname, MIN(date) AS min_date, playerid
-			FROM fish
-			WHERE playerid = any($1)
-			GROUP BY fishname, playerid
-		) AS sub
-		ON f.fishname = sub.fishname AND f.date = sub.min_date AND f.playerid = sub.playerid
-		WHERE f.playerid = any($1)`
+	queryFirstFishPerType := ConstructFishQuery(
+		",MIN(date) AS min_date, fishname",
+		"",
+		",fishname",
+		"AND f.date = sub.min_date AND f.fishname = sub.fishname",
+		"",
+		"")
 
 	Profiles, err = QueryMapStringFishInfo(pool, Profiles, queryFirstFishPerType, validPlayers, "first", false)
 	if err != nil {
@@ -574,4 +540,22 @@ func QueryMapStringFishInfo(pool *pgxpool.Pool, Profiles map[int]*PlayerProfile,
 	}
 
 	return Profiles, nil
+}
+
+func ConstructFishQuery(innerSelect string, ignoreCatchtypeInside string, groupByInside string, idk string, ignoreCatchtypeOutside string, orderDateOutside string) string {
+
+	return fmt.Sprintf(` 
+		SELECT f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid
+		FROM fish f
+		JOIN (
+			SELECT playerid %s
+			FROM fish
+			WHERE playerid = any($1)
+			%s
+			GROUP BY playerid %s
+		) AS sub
+		ON f.playerid = sub.playerid %s %s
+		WHERE f.playerid = any($1)
+		%s`, innerSelect, ignoreCatchtypeInside, groupByInside, idk, ignoreCatchtypeOutside, orderDateOutside)
+
 }
