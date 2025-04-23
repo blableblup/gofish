@@ -1,7 +1,7 @@
 ### Leaderboard for the weekly tournaments in breadworms' chat
 | Rank | Player | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points |
 |------|--------|-------------|------------------|------------------|--------|
-| 1 🥇 | leanmeister | 48 (+3) | 12 | 5 | 158.5 (+9.0) |
+| 1 🥇 | leanmeister | 48 | 12 | 5 | 158.5 |
 | 2 🥈 | chubbbyhamster | 24 | 51 | 28 | 137.0 |
 | 3 🥉 | puzzlow | 35 | 15 | 14 | 127.0 |
 | 4 | osnyatsky | 31 | 24 | 6 | 120.0 |
@@ -14,18 +14,18 @@
 | 11 | sussy_amonge | 12 | 4 | 7 | 43.5 |
 | 12 | sicklymaidrobot | 5 | 10 | 26 | 38.0 |
 | 13 | comiqq | 5 | 12 | 9 | 31.5 |
-| 14 | fishingalt | 4 | 7 | 7 | 22.5 |
-| 15 ⬆| destin357 | 1 | 13 (+2) | 6 (+1) | 19.0 (+2.5) |
-| 16 ⬇| eaeac | 3 | 3 | 11 | 17.5 |
-| 17 ⬇| booty_bread | 4 | 2 | 6 | 17.0 |
+| 14 ⬆| destin357 | 4 (+3) | 13 | 6 | 28.0 (+9.0) |
+| 15 ⬇| fishingalt | 4 | 7 | 7 | 22.5 |
+| 16 | eaeac | 3 | 3 | 11 | 17.5 |
+| 17 | booty_bread | 4 | 2 | 6 | 17.0 |
 | 18 | ryebreadward | 3 | 3 | 6 | 15.0 |
+| 19 ⬆| derintu | 1 | 3 | 6 (+3) | 9.0 (+1.5) |
 | 19 | idini | 1 | 1 | 10 | 9.0 |
 | 19 | ninjaross | 1 | 2 | 8 | 9.0 |
-| 21 | respirate_ | 2 | 1 | 2 | 8.0 |
-| 22 ⬆| derintu | 1 | 3 (+1) | 3 (+2) | 7.5 (+2.0) |
-| 23 ⬇| gstaman911 | 0 | 4 | 4 | 6.0 |
-| 23 ⬇| lazuli672 | 2 | 0 | 0 | 6.0 |
-| 25 ⬇| dougiefresh_83 | 1 | 1 | 3 | 5.5 |
+| 22 ⬇| respirate_ | 2 | 1 | 2 | 8.0 |
+| 23 | gstaman911 | 0 | 4 | 4 | 6.0 |
+| 23 | lazuli672 | 2 | 0 | 0 | 6.0 |
+| 25 | dougiefresh_83 | 1 | 1 | 3 | 5.5 |
 | 26 | larvasisters | 1 | 1 | 1 | 4.5 |
 | 26 | osnyatsky | 0 | 2 | 5 | 4.5 |
 | 28 | paras220 | 1 | 0 | 2 | 4.0 |
@@ -44,4 +44,4 @@
 | 39 | mochi_uygqzidbjizjkbehuiw | 0 | 0 | 1 | 0.5 |
 | 39 | niiy | 0 | 0 | 1 | 0.5 |
 
-_Last updated at 2025-04-16 10:07:34 UTC_
+_Last updated at 2025-04-23 09:48:31 UTC_

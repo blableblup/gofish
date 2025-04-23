@@ -13,13 +13,15 @@
 | 10  | wowitsdub  | 54 |
 | 11  | lobuhtomy  | 52 |
 | 12  | caprisen_  | 51 |
-| 12 ⬆ | gorillapark  | 51 (+3) |
+| 12  | gorillapark  | 51 |
 | 14  | veny2lbs  | 47 |
 | 15  | zwockel01  | 40 |
 | 16  | flovrek  | 24 |
-| 17  | wuh6  | 18 |
-| 18  | chubbbyhamster  | 11 |
+| 17 🆕 | bluberry  | 21 |
+| 18 ⬇ | wuh6  | 18 |
+| 19 ⬇ | chubbbyhamster  | 11 |
+| 20 🆕 | commanda_u  | 10 |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-04-16 10:07:34 UTC_
+_Last updated at 2025-04-23 09:48:31 UTC_

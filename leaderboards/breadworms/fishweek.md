@@ -3,11 +3,11 @@
 |------|--------|-----------|
 | 1 🥇  | derinturitierutz  | 183 |
 | 2 🥈  | fishingalt  | 176 |
-| 3 🥉  | osnyatsky  | 150 |
-| 4  | puzzlow  | 141 |
-| 5  | leanmeister  | 139 |
-| 6  | kishma9  | 137 |
-| 7  | destin357  | 136 |
+| 3 🥉 ⬆ | destin357  | 152 (+16) |
+| 4 ⬇ | osnyatsky  | 150 |
+| 5 ⬇ | puzzlow  | 141 |
+| 6 ⬇ | leanmeister  | 139 |
+| 7 ⬇ | kishma9  | 137 |
 | 8  | osnyisdead  | 127 |
 | 9  | sicklymaidrobot  | 123 |
 | 9  | sussy_amonge  | 123 |
@@ -23,8 +23,8 @@
 | 20  | gstaman911  | 80 |
 | 21  | miiiiisho  | 79 |
 | 22  | respirate_  | 74 |
-| 23 ⬆ | derintu  | 69 (+10) |
-| 24 ⬇ | booty_bread  | 60 |
+| 23  | derintu  | 69 |
+| 24  | booty_bread  | 60 |
 | 25  | receipts  | 56 |
 | 26  | bk207*  | 53 |
 | 27  | hmsmob*  | 52 |
@@ -55,4 +55,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2025-04-09 09:50:14 UTC_
+_Last updated at 2025-04-23 09:48:31 UTC_
