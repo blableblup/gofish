@@ -7,12 +7,11 @@ import (
 	"gofish/logs"
 
 	"github.com/jackc/pgx/v5"
-	"github.com/jackc/pgx/v5/pgxpool"
 )
 
-// add date and date 2 to the queries so that they are like the leaderboards
-// so that they only count the data for the tournament week ?
 func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allShinies []string) (map[int]*PlayerProfile, error) {
+	date2 := params.Date2
+	date := params.Date
 	pool := params.Pool
 
 	// pointer to the map so i can directly modify the maps
@@ -40,9 +39,11 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allShini
 		playerid
 		from fish 
 		where playerid = any($1)
+		and date < $2
+	  	and date > $3
 		group by string, string2, playerid
 		order by string asc`,
-		validPlayers)
+		validPlayers, date, date2)
 	if err != nil {
 		return Profiles, err
 	}
@@ -131,9 +132,11 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allShini
 		select max(date) as max_date, playerid
 		from bag
 		where playerid = any($1)
+		and date < $2
+	  	and date > $3
 		group by playerid
 		) bag on b.playerid = bag.playerid and b.date = bag.max_date`,
-		validPlayers)
+		validPlayers, date, date2)
 	if err != nil {
 		return Profiles, err
 	}
@@ -183,10 +186,12 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allShini
 		select min(date) as min_date, playerid
 		from bag
 		where playerid = any($1)
+		and date < $2
+	  	and date > $3
 		and '✉️' = any(bag)
 		group by playerid
 		) bag on b.playerid = bag.playerid and b.date = bag.min_date`,
-		validPlayers)
+		validPlayers, date, date2)
 	if err != nil {
 		return Profiles, err
 	}
@@ -210,8 +215,10 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allShini
 		playerid
 		from fish
 		where playerid = any($1)
+		and date < $2
+	  	and date > $3
 		group by string, string2, string3, string5, playerid`,
-		validPlayers)
+		validPlayers, date, date2)
 	if err != nil {
 		return Profiles, err
 	}
@@ -222,7 +229,6 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allShini
 	}
 
 	// i dotn think there is a more readablew way to do this orm
-	// also if fish was caught in multiple ways the count doesnt add up on board
 	for _, chatyear := range FishTypesCaughtCountYearChat {
 
 		if Profiles[chatyear.PlayerID].CountCatchtype == nil {
@@ -258,7 +264,7 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allShini
 		if Profiles[chatyear.PlayerID].FishTypesCaughtCountYearChat[chatyear.String][chatyear.String3] == nil {
 			Profiles[chatyear.PlayerID].FishTypesCaughtCountYearChat[chatyear.String][chatyear.String3] = make(map[string]int)
 		}
-		Profiles[chatyear.PlayerID].FishTypesCaughtCountYearChat[chatyear.String][chatyear.String3][chatyear.String2] = chatyear.Int
+		Profiles[chatyear.PlayerID].FishTypesCaughtCountYearChat[chatyear.String][chatyear.String3][chatyear.String2] = Profiles[chatyear.PlayerID].FishTypesCaughtCountYearChat[chatyear.String][chatyear.String3][chatyear.String2] + chatyear.Int
 
 		Profiles[chatyear.PlayerID].FishTypesCaughtCount[chatyear.String] = Profiles[chatyear.PlayerID].FishTypesCaughtCount[chatyear.String] + chatyear.Int
 
@@ -303,8 +309,10 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allShini
 		`select array_agg(distinct(fishname)) as string4, playerid
 		from fish 
 		where playerid = any($1)
+		and date < $2
+	  	and date > $3
 		group by playerid`,
-		validPlayers)
+		validPlayers, date, date2)
 	if err != nil {
 		return Profiles, err
 	}
@@ -339,8 +347,10 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allShini
 		playerid
 		from fish
 		where playerid = any($1)
+		and date < $2
+	  	and date > $3
 		group by string, playerid`,
-		validPlayers)
+		validPlayers, date, date2)
 	if err != nil {
 		return Profiles, err
 	}
@@ -368,7 +378,7 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allShini
 		"AND f.catchtype != 'release' AND f.catchtype != 'squirrel'",
 		"ORDER BY date desc")
 
-	Profiles, err = QueryMapStringFishInfo(pool, Profiles, queryBiggestFishChat, validPlayers, "biggest", true)
+	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryBiggestFishChat, validPlayers, "biggest", true)
 	if err != nil {
 		return Profiles, err
 	}
@@ -383,7 +393,7 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allShini
 		"AND f.catchtype != 'mouth'",
 		"")
 
-	Profiles, err = QueryMapStringFishInfo(pool, Profiles, queryFirstFishChat, validPlayers, "first", true)
+	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryFirstFishChat, validPlayers, "first", true)
 	if err != nil {
 		return Profiles, err
 	}
@@ -396,7 +406,7 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allShini
 		"AND f.catchtype != 'mouth'",
 		"")
 
-	Profiles, err = QueryMapStringFishInfo(pool, Profiles, queryLastFishChat, validPlayers, "last", true)
+	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryLastFishChat, validPlayers, "last", true)
 	if err != nil {
 		return Profiles, err
 	}
@@ -410,7 +420,7 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allShini
 		"AND f.catchtype != 'release' AND f.catchtype != 'squirrel'",
 		"ORDER BY date desc")
 
-	Profiles, err = QueryMapStringFishInfo(pool, Profiles, queryBiggestFishPerType, validPlayers, "biggest", false)
+	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryBiggestFishPerType, validPlayers, "biggest", false)
 	if err != nil {
 		return Profiles, err
 	}
@@ -423,7 +433,7 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allShini
 		"AND f.catchtype != 'release' AND f.catchtype != 'squirrel'",
 		"ORDER BY date desc")
 
-	Profiles, err = QueryMapStringFishInfo(pool, Profiles, querySmallestFishPerType, validPlayers, "smallest", false)
+	Profiles, err = QueryMapStringFishInfo(params, Profiles, querySmallestFishPerType, validPlayers, "smallest", false)
 	if err != nil {
 		return Profiles, err
 	}
@@ -438,7 +448,7 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allShini
 		"",
 		"")
 
-	Profiles, err = QueryMapStringFishInfo(pool, Profiles, queryLastFishPerType, validPlayers, "last", false)
+	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryLastFishPerType, validPlayers, "last", false)
 	if err != nil {
 		return Profiles, err
 	}
@@ -451,7 +461,7 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allShini
 		"",
 		"")
 
-	Profiles, err = QueryMapStringFishInfo(pool, Profiles, queryFirstFishPerType, validPlayers, "first", false)
+	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryFirstFishPerType, validPlayers, "first", false)
 	if err != nil {
 		return Profiles, err
 	}
@@ -459,9 +469,12 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allShini
 	return Profiles, nil
 }
 
-func QueryMapStringFishInfo(pool *pgxpool.Pool, Profiles map[int]*PlayerProfile, query string, validPlayers []int, whatmap string, chat bool) (map[int]*PlayerProfile, error) {
+func QueryMapStringFishInfo(params LeaderboardParams, Profiles map[int]*PlayerProfile, query string, validPlayers []int, whatmap string, chat bool) (map[int]*PlayerProfile, error) {
+	date2 := params.Date2
+	date := params.Date
+	pool := params.Pool
 
-	rows, err := pool.Query(context.Background(), query, validPlayers)
+	rows, err := pool.Query(context.Background(), query, validPlayers, date, date2)
 	if err != nil {
 		return Profiles, err
 	}
@@ -551,6 +564,8 @@ func ConstructFishQuery(innerSelect string, ignoreCatchtypeInside string, groupB
 			SELECT playerid %s
 			FROM fish
 			WHERE playerid = any($1)
+			AND date < $2
+	  		AND date > $3
 			%s
 			GROUP BY playerid %s
 		) AS sub
