@@ -94,38 +94,12 @@ func GetAllFishNames(params LeaderboardParams) ([]string, error) {
 
 	var fishes []string
 
-	rows, err := pool.Query(context.Background(), `
-		select fishname from fishinfo
-		group by fishname`)
+	err := pool.QueryRow(context.Background(), `select array_agg(fishname) from fishinfo`).Scan(&fishes)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Chat", chatName).
 			Str("Board", board).
-			Msg("Error querying database")
-		return fishes, err
-	}
-	defer rows.Close()
-
-	for rows.Next() {
-
-		var fishy string
-
-		if err := rows.Scan(&fishy); err != nil {
-			logs.Logs().Error().Err(err).
-				Str("Chat", chatName).
-				Str("Board", board).
-				Msg("Error scanning row")
-			return fishes, err
-		}
-
-		fishes = append(fishes, fishy)
-	}
-
-	if err = rows.Err(); err != nil {
-		logs.Logs().Error().Err(err).
-			Str("Chat", chatName).
-			Str("Board", board).
-			Msg("Error iterating over rows")
+			Msg("Error querying database for all fish")
 		return fishes, err
 	}
 

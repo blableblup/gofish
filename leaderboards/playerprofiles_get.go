@@ -5,11 +5,12 @@ import (
 	"fmt"
 	"gofish/data"
 	"gofish/logs"
+	"sort"
 
 	"github.com/jackc/pgx/v5"
 )
 
-func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allShinies []string) (map[int]*PlayerProfile, error) {
+func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish []string, allShinies []string) (map[int]*PlayerProfile, error) {
 	date2 := params.Date2
 	date := params.Date
 	pool := params.Pool
@@ -30,6 +31,8 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allShini
 		Int      int
 		PlayerID int
 	}
+
+	// for all the queries which select the first / last / biggest can use "select distinct on" ?
 
 	// The count per year per chat
 	rows, err := pool.Query(context.Background(), `
@@ -91,37 +94,61 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allShini
 		Profiles[chatyear.PlayerID].ChatCounts[chatyear.String2] = Profiles[chatyear.PlayerID].ChatCounts[chatyear.String2] + chatyear.Int
 	}
 
-	// // their 10 biggest fish, can put the limit into the config to change it ?
-	// rows, err = pool.Query(context.Background(),
-	// 	`SELECT weight, fishtype as type, fishname as typename, bot, chat, date, catchtype, fishid, chatid
-	// 	FROM fish
-	// 	WHERE playerid = $1
-	// 	ORDER BY weight desc
-	// 	LIMIT 10`, playerID)
-	// if err != nil {
-	// 	return Profile, err
-	// }
+	// The 10 biggest fish per player
+	rows, err = pool.Query(context.Background(), `
+		SELECT bub.weight, bub.fishname as typename, bub.bot, bub.chat, bub.date, bub.catchtype, bub.fishid, bub.chatid, bub.playerid
+		FROM (
+        SELECT fish.*, 
+        RANK() OVER (
+            PARTITION BY playerid
+            ORDER BY weight DESC
+        )
+        FROM fish
+		WHERE playerid = any($1)
+		AND date < $2
+	  	AND date > $3
+    	) bub WHERE RANK <= 10
+		`, validPlayers, date, date2)
+	if err != nil {
+		return Profiles, err
+	}
 
-	// Profile.BiggestFish, err = pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
-	// if err != nil {
-	// 	return Profile, err
-	// }
+	BiggestFish, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
+	if err != nil {
+		return Profiles, err
+	}
 
-	// // their last fish
-	// rows, err = pool.Query(context.Background(),
-	// 	`SELECT weight, fishtype as type, fishname as typename, bot, chat, date, catchtype, fishid, chatid
-	// 	FROM fish
-	// 	WHERE playerid = $1
-	// 	ORDER BY date desc
-	// 	LIMIT 10`, playerID)
-	// if err != nil {
-	// 	return Profile, err
-	// }
+	for _, fish := range BiggestFish {
+		Profiles[fish.PlayerID].BiggestFish = append(Profiles[fish.PlayerID].BiggestFish, fish)
+	}
 
-	// Profile.LastFish, err = pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
-	// if err != nil {
-	// 	return Profile, err
-	// }
+	// The 10 last fish per player
+	rows, err = pool.Query(context.Background(), `
+		SELECT bub.weight, bub.fishname as typename, bub.bot, bub.chat, bub.date, bub.catchtype, bub.fishid, bub.chatid, bub.playerid 
+		FROM (
+        SELECT fish.*, 
+        RANK() OVER (
+            PARTITION BY playerid
+            ORDER BY date DESC
+        )
+        FROM fish
+		WHERE playerid = any($1)
+		AND date < $2
+	  	AND date > $3
+    	) bub WHERE RANK <= 10
+		`, validPlayers, date, date2)
+	if err != nil {
+		return Profiles, err
+	}
+
+	LastFish, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
+	if err != nil {
+		return Profiles, err
+	}
+
+	for _, fish := range LastFish {
+		Profiles[fish.PlayerID].LastFish = append(Profiles[fish.PlayerID].LastFish, fish)
+	}
 
 	// The last seen bag
 	rows, err = pool.Query(context.Background(),
@@ -325,20 +352,28 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allShini
 	for _, fishu := range fishseen {
 
 		Profiles[fishu.PlayerID].FishSeen = fishu.String4
-	}
 
-	// // the fish they never caught
-	// err = pool.QueryRow(context.Background(),
-	// 	`select array_agg(fishname)
-	// 	from
-	// 	(
-	// 	select distinct(fishname) from fishinfo
-	// 	except
-	// 	select distinct(fishname) from fish where playerid = $1
-	// 	order by fishname asc)`, playerID).Scan(&Profile.FishNotSeen)
-	// if err != nil {
-	// 	return Profile, err
-	// }
+		// Also get the fish that player never caught
+		for _, fishy := range allFish {
+			fishneverseen := true
+
+			for _, seenfish := range Profiles[fishu.PlayerID].FishSeen {
+				if fishy == seenfish {
+					fishneverseen = false
+				}
+			}
+
+			if fishneverseen {
+				Profiles[fishu.PlayerID].FishNotSeen = append(Profiles[fishu.PlayerID].FishNotSeen, fishy)
+			}
+		}
+
+		// Sort the fish not seen by name
+		sort.SliceStable(Profiles[fishu.PlayerID].FishNotSeen, func(i, j int) bool {
+			return Profiles[fishu.PlayerID].FishNotSeen[i] < Profiles[fishu.PlayerID].FishNotSeen[j]
+		})
+
+	}
 
 	// The fishseen per chat count
 	rows, err = pool.Query(context.Background(), `

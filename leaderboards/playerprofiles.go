@@ -139,7 +139,7 @@ func GetPlayerProfiles(params LeaderboardParams) {
 		Int("Amount of players", len(validPlayers)).
 		Msg("Updating player profiles")
 
-	playerProfiles, err := GetThePlayerProfiles(params, validPlayers, allShinies)
+	playerProfiles, err := GetThePlayerProfiles(params, validPlayers, allFishes, allShinies)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Chat", chatName).
@@ -210,17 +210,16 @@ func GetValidPlayers(params LeaderboardParams, limit int) ([]int, error) {
 
 	// only select the players who fished in that time period and have their total count above the limit
 	queryrecent := `
-	select f.playerid from fish f
+		select f.playerid from fish f
 		join 
 		(
 		select playerid from fish
 		where date < $2
 		and date >= $3
-			group by playerid
+		group by playerid
 		) bla on bla.playerid = f.playerid
 		group by f.playerid
-		having count(*) >= $1
-	`
+		having count(*) >= $1`
 
 	if mode == "force" {
 
@@ -452,7 +451,7 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 	for _, Fish := range Profile.BiggestFish {
 		_, _ = fmt.Fprintf(file, "\n| %s | %s %s | %.2f | %s | %s |",
 			Ranks(rank),
-			Fish.Type,
+			EmojisForFish[Fish.TypeName],
 			Fish.TypeName,
 			Fish.Weight,
 			Fish.Date.Format("2006-01-02 15:04:05"),
@@ -471,7 +470,7 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 	for _, Fish := range Profile.LastFish {
 		_, _ = fmt.Fprintf(file, "\n| %d | %s %s | %.2f | %s | %s |",
 			rank,
-			Fish.Type,
+			EmojisForFish[Fish.TypeName],
 			Fish.TypeName,
 			Fish.Weight,
 			Fish.Date.Format("2006-01-02 15:04:05"),
