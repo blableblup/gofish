@@ -21,9 +21,11 @@ type PlayerProfile struct {
 	TwitchID int
 	Verified sql.NullBool
 
-	HasSeenTreasures bool // make this show when they caught the treasures for the first time
-	HasLetter        bool // also make it show when they had it in their bag for first time
-	HasShiny         bool
+	// To show the "progress" of a player in their fishing career
+	Treasures TreasureProgress
+	SonnyDay  SonnyDayProgress
+	// shiny isnt progress but i have a shiny and i want to show it off
+	HasShiny Shinies
 
 	Count              int
 	CountYear          map[string]int
@@ -58,6 +60,22 @@ type PlayerProfile struct {
 
 	Bag       data.FishInfo
 	BagCounts map[string]int
+}
+
+type TreasureProgress struct {
+	FirstTimeCaughtTreasure map[string]data.FishInfo
+	HasAllTreasure          bool
+	TreasureCount           int
+}
+
+type SonnyDayProgress struct {
+	LetterInBag data.FishInfo
+	HasLetter   bool
+}
+
+type Shinies struct {
+	ShinyCatch []data.FishInfo // can use shiny board func for this ?
+	HasShiny   bool
 }
 
 func GetPlayerProfiles(params LeaderboardParams) {
@@ -273,7 +291,7 @@ func GetValidPlayers(params LeaderboardParams, limit int) ([]int, error) {
 	return validPlayers, nil
 }
 
-// can put code which is printing the same type of maps into their own function ?
+// can put code which is printing the same type of maps into their own function ? or use the already existing leaderboard functions ? ?
 func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string, CatchtypeNames map[string]string) error {
 
 	filePath := filepath.Join("leaderboards", "global", "players", fmt.Sprintf("%d", Profile.TwitchID)+".md")
@@ -508,7 +526,8 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 	_, _ = fmt.Fprintln(file, "\n## Data about each of their seen fish")
 
 	// print one block for each fish type
-	// show their total coutn caught, count per year per chat
+	// show their total count caught, count per year per chat
+	// and first, last, biggest and smallest per type
 	for _, fish := range Profile.FishSeen {
 
 		_, _ = fmt.Fprintf(file, "\n| %s %s | Total caught | %d |",

@@ -32,8 +32,6 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 		PlayerID int
 	}
 
-	// for all the queries which select the first / last / biggest can use "select distinct on" ?
-
 	// The count per year per chat
 	rows, err := pool.Query(context.Background(), `
 		select count(*) as int, 
@@ -56,98 +54,46 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 		return Profiles, err
 	}
 
-	for _, chatyear := range ChatCountsYear {
+	for _, ble := range ChatCountsYear {
+		count := ble.Int
+		year := ble.String
+		chat := ble.String2
+		playerID := ble.PlayerID
 
 		// Add the playerid to the map first and get their name, their verified status and their twitchid
-		if _, ok := Profiles[chatyear.PlayerID]; !ok {
+		if _, ok := Profiles[playerID]; !ok {
 
-			Profiles[chatyear.PlayerID] = &PlayerProfile{
-				PlayerID:       chatyear.PlayerID,
+			Profiles[playerID] = &PlayerProfile{
+				PlayerID:       playerID,
 				CountYear:      make(map[string]int),
 				ChatCounts:     make(map[string]int),
 				ChatCountsYear: make(map[string]map[string]int),
 			}
 
-			Profiles[chatyear.PlayerID].Name, _, Profiles[chatyear.PlayerID].Verified.Bool, Profiles[chatyear.PlayerID].TwitchID, err = PlayerStuff(chatyear.PlayerID, params, pool)
+			Profiles[playerID].Name, _, Profiles[playerID].Verified.Bool, Profiles[playerID].TwitchID, err = PlayerStuff(playerID, params, pool)
 			if err != nil {
 				return Profiles, err
 			}
 
-			if Profiles[chatyear.PlayerID].TwitchID == 0 {
+			if Profiles[playerID].TwitchID == 0 {
 				logs.Logs().Error().
-					Str("Player", Profiles[chatyear.PlayerID].Name).
-					Int("PlayerID", chatyear.PlayerID).
+					Str("Player", Profiles[playerID].Name).
+					Int("PlayerID", playerID).
 					Msg("Player does not have a twitchID in the DB!")
 			}
 
-			Profiles[chatyear.PlayerID].PlayerID = chatyear.PlayerID
+			Profiles[playerID].PlayerID = playerID
 		}
 
-		if Profiles[chatyear.PlayerID].ChatCountsYear[chatyear.String] == nil {
-			Profiles[chatyear.PlayerID].ChatCountsYear[chatyear.String] = make(map[string]int)
+		if Profiles[playerID].ChatCountsYear[year] == nil {
+			Profiles[playerID].ChatCountsYear[year] = make(map[string]int)
 		}
-		Profiles[chatyear.PlayerID].ChatCountsYear[chatyear.String][chatyear.String2] = chatyear.Int
+		Profiles[playerID].ChatCountsYear[year][chat] = count
 
 		// Calculate the total count, the count per year and the count per chat
-		Profiles[chatyear.PlayerID].Count = Profiles[chatyear.PlayerID].Count + chatyear.Int
-		Profiles[chatyear.PlayerID].CountYear[chatyear.String] = Profiles[chatyear.PlayerID].CountYear[chatyear.String] + chatyear.Int
-		Profiles[chatyear.PlayerID].ChatCounts[chatyear.String2] = Profiles[chatyear.PlayerID].ChatCounts[chatyear.String2] + chatyear.Int
-	}
-
-	// The 10 biggest fish per player
-	rows, err = pool.Query(context.Background(), `
-		SELECT bub.weight, bub.fishname as typename, bub.bot, bub.chat, bub.date, bub.catchtype, bub.fishid, bub.chatid, bub.playerid
-		FROM (
-        SELECT fish.*, 
-        RANK() OVER (
-            PARTITION BY playerid
-            ORDER BY weight DESC
-        )
-        FROM fish
-		WHERE playerid = any($1)
-		AND date < $2
-	  	AND date > $3
-    	) bub WHERE RANK <= 10
-		`, validPlayers, date, date2)
-	if err != nil {
-		return Profiles, err
-	}
-
-	BiggestFish, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
-	if err != nil {
-		return Profiles, err
-	}
-
-	for _, fish := range BiggestFish {
-		Profiles[fish.PlayerID].BiggestFish = append(Profiles[fish.PlayerID].BiggestFish, fish)
-	}
-
-	// The 10 last fish per player
-	rows, err = pool.Query(context.Background(), `
-		SELECT bub.weight, bub.fishname as typename, bub.bot, bub.chat, bub.date, bub.catchtype, bub.fishid, bub.chatid, bub.playerid 
-		FROM (
-        SELECT fish.*, 
-        RANK() OVER (
-            PARTITION BY playerid
-            ORDER BY date DESC
-        )
-        FROM fish
-		WHERE playerid = any($1)
-		AND date < $2
-	  	AND date > $3
-    	) bub WHERE RANK <= 10
-		`, validPlayers, date, date2)
-	if err != nil {
-		return Profiles, err
-	}
-
-	LastFish, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
-	if err != nil {
-		return Profiles, err
-	}
-
-	for _, fish := range LastFish {
-		Profiles[fish.PlayerID].LastFish = append(Profiles[fish.PlayerID].LastFish, fish)
+		Profiles[playerID].Count = Profiles[playerID].Count + count
+		Profiles[playerID].CountYear[year] = Profiles[playerID].CountYear[year] + count
+		Profiles[playerID].ChatCounts[chat] = Profiles[playerID].ChatCounts[chat] + count
 	}
 
 	// The last seen bag
@@ -229,7 +175,8 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 	}
 
 	for _, bag := range letterbag {
-		Profiles[bag.PlayerID].HasLetter = true
+		Profiles[bag.PlayerID].SonnyDay.HasLetter = true
+		Profiles[bag.PlayerID].SonnyDay.LetterInBag = bag
 	}
 
 	// The fish type caught count per year per chat per catchtype
@@ -255,79 +202,103 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 		return Profiles, err
 	}
 
-	// i dotn think there is a more readablew way to do this orm
-	for _, chatyear := range FishTypesCaughtCountYearChat {
+	// a
+	for _, ble := range FishTypesCaughtCountYearChat {
+		count := ble.Int
+		fishname := ble.String
+		chat := ble.String2
+		year := ble.String3
+		catchtype := ble.String5
+		playerID := ble.PlayerID
 
-		if Profiles[chatyear.PlayerID].CountCatchtype == nil {
-			Profiles[chatyear.PlayerID].CountCatchtype = make(map[string]int)
-			Profiles[chatyear.PlayerID].CountCatchtypeChat = make(map[string]map[string]int)
-			Profiles[chatyear.PlayerID].FishTypesCaughtCountCatchtype = make(map[string]map[string]int)
-			Profiles[chatyear.PlayerID].FishTypesCaughtCountCatchtypeChat = make(map[string]map[string]map[string]int)
+		if Profiles[playerID].CountCatchtype == nil {
+			Profiles[playerID].CountCatchtype = make(map[string]int)
+			Profiles[playerID].CountCatchtypeChat = make(map[string]map[string]int)
+			Profiles[playerID].FishTypesCaughtCountCatchtype = make(map[string]map[string]int)
+			Profiles[playerID].FishTypesCaughtCountCatchtypeChat = make(map[string]map[string]map[string]int)
 
-			Profiles[chatyear.PlayerID].FishTypesCaughtCount = make(map[string]int)
-			Profiles[chatyear.PlayerID].FishTypesCaughtCountChat = make(map[string]map[string]int)
-			Profiles[chatyear.PlayerID].FishTypesCaughtCountYear = make(map[string]map[string]int)
-			Profiles[chatyear.PlayerID].FishTypesCaughtCountYearChat = make(map[string]map[string]map[string]int)
-			Profiles[chatyear.PlayerID].FishTypesCaughtCountYearChatCatchtype = make(map[string]map[string]map[string]map[string]int)
+			Profiles[playerID].FishTypesCaughtCount = make(map[string]int)
+			Profiles[playerID].FishTypesCaughtCountChat = make(map[string]map[string]int)
+			Profiles[playerID].FishTypesCaughtCountYear = make(map[string]map[string]int)
+			Profiles[playerID].FishTypesCaughtCountYearChat = make(map[string]map[string]map[string]int)
+			Profiles[playerID].FishTypesCaughtCountYearChatCatchtype = make(map[string]map[string]map[string]map[string]int)
 		}
 
-		if Profiles[chatyear.PlayerID].FishTypesCaughtCountYearChatCatchtype[chatyear.String] == nil {
-			Profiles[chatyear.PlayerID].FishTypesCaughtCountYearChatCatchtype[chatyear.String] = make(map[string]map[string]map[string]int)
+		// // fish of that type caught per year per chat per catchtype; im not using this ?
+		if Profiles[playerID].FishTypesCaughtCountYearChatCatchtype[fishname] == nil {
+			Profiles[playerID].FishTypesCaughtCountYearChatCatchtype[fishname] = make(map[string]map[string]map[string]int)
 		}
 
-		if Profiles[chatyear.PlayerID].FishTypesCaughtCountYearChatCatchtype[chatyear.String][chatyear.String3] == nil {
-			Profiles[chatyear.PlayerID].FishTypesCaughtCountYearChatCatchtype[chatyear.String][chatyear.String3] = make(map[string]map[string]int)
+		if Profiles[playerID].FishTypesCaughtCountYearChatCatchtype[fishname][year] == nil {
+			Profiles[playerID].FishTypesCaughtCountYearChatCatchtype[fishname][year] = make(map[string]map[string]int)
 		}
 
-		if Profiles[chatyear.PlayerID].FishTypesCaughtCountYearChatCatchtype[chatyear.String][chatyear.String3][chatyear.String2] == nil {
-			Profiles[chatyear.PlayerID].FishTypesCaughtCountYearChatCatchtype[chatyear.String][chatyear.String3][chatyear.String2] = make(map[string]int)
+		if Profiles[playerID].FishTypesCaughtCountYearChatCatchtype[fishname][year][chat] == nil {
+			Profiles[playerID].FishTypesCaughtCountYearChatCatchtype[fishname][year][chat] = make(map[string]int)
 		}
 
-		Profiles[chatyear.PlayerID].FishTypesCaughtCountYearChatCatchtype[chatyear.String][chatyear.String3][chatyear.String2][chatyear.String5] = chatyear.Int
+		Profiles[playerID].FishTypesCaughtCountYearChatCatchtype[fishname][year][chat][catchtype] = count
 
-		if Profiles[chatyear.PlayerID].FishTypesCaughtCountYearChat[chatyear.String] == nil {
-			Profiles[chatyear.PlayerID].FishTypesCaughtCountYearChat[chatyear.String] = make(map[string]map[string]int)
+		// fish of that type caught per year per chat
+		if Profiles[playerID].FishTypesCaughtCountYearChat[fishname] == nil {
+			Profiles[playerID].FishTypesCaughtCountYearChat[fishname] = make(map[string]map[string]int)
 		}
-		if Profiles[chatyear.PlayerID].FishTypesCaughtCountYearChat[chatyear.String][chatyear.String3] == nil {
-			Profiles[chatyear.PlayerID].FishTypesCaughtCountYearChat[chatyear.String][chatyear.String3] = make(map[string]int)
+		if Profiles[playerID].FishTypesCaughtCountYearChat[fishname][year] == nil {
+			Profiles[playerID].FishTypesCaughtCountYearChat[fishname][year] = make(map[string]int)
 		}
-		Profiles[chatyear.PlayerID].FishTypesCaughtCountYearChat[chatyear.String][chatyear.String3][chatyear.String2] = Profiles[chatyear.PlayerID].FishTypesCaughtCountYearChat[chatyear.String][chatyear.String3][chatyear.String2] + chatyear.Int
+		Profiles[playerID].FishTypesCaughtCountYearChat[fishname][year][chat] = Profiles[playerID].FishTypesCaughtCountYearChat[fishname][year][chat] + count
 
-		Profiles[chatyear.PlayerID].FishTypesCaughtCount[chatyear.String] = Profiles[chatyear.PlayerID].FishTypesCaughtCount[chatyear.String] + chatyear.Int
+		// fish of that type caught overall
+		Profiles[playerID].FishTypesCaughtCount[fishname] = Profiles[playerID].FishTypesCaughtCount[fishname] + count
 
-		if Profiles[chatyear.PlayerID].FishTypesCaughtCountChat[chatyear.String] == nil {
-			Profiles[chatyear.PlayerID].FishTypesCaughtCountChat[chatyear.String] = make(map[string]int)
-		}
-		Profiles[chatyear.PlayerID].FishTypesCaughtCountChat[chatyear.String][chatyear.String2] = Profiles[chatyear.PlayerID].FishTypesCaughtCountChat[chatyear.String][chatyear.String2] + chatyear.Int
+		// increase the fish seen per chat if that fish wasnt already in this map for the chat
+		if _, ok := Profiles[playerID].FishTypesCaughtCountChat[fishname][chat]; !ok {
+			if Profiles[playerID].FishSeenChat == nil {
+				Profiles[playerID].FishSeenChat = make(map[string]int)
+			}
 
-		if Profiles[chatyear.PlayerID].FishTypesCaughtCountYear[chatyear.String] == nil {
-			Profiles[chatyear.PlayerID].FishTypesCaughtCountYear[chatyear.String] = make(map[string]int)
-		}
-		Profiles[chatyear.PlayerID].FishTypesCaughtCountYear[chatyear.String][chatyear.String3] = Profiles[chatyear.PlayerID].FishTypesCaughtCountYear[chatyear.String][chatyear.String3] + chatyear.Int
-
-		Profiles[chatyear.PlayerID].CountCatchtype[chatyear.String5] = Profiles[chatyear.PlayerID].CountCatchtype[chatyear.String5] + chatyear.Int
-
-		if Profiles[chatyear.PlayerID].CountCatchtypeChat[chatyear.String5] == nil {
-			Profiles[chatyear.PlayerID].CountCatchtypeChat[chatyear.String5] = make(map[string]int)
+			Profiles[playerID].FishSeenChat[chat] = Profiles[playerID].FishSeenChat[chat] + 1
 		}
 
-		Profiles[chatyear.PlayerID].CountCatchtypeChat[chatyear.String5][chatyear.String2] = Profiles[chatyear.PlayerID].CountCatchtypeChat[chatyear.String5][chatyear.String2] + chatyear.Int
+		// fish of that type caught per chat
+		if Profiles[playerID].FishTypesCaughtCountChat[fishname] == nil {
+			Profiles[playerID].FishTypesCaughtCountChat[fishname] = make(map[string]int)
+		}
+		Profiles[playerID].FishTypesCaughtCountChat[fishname][chat] = Profiles[playerID].FishTypesCaughtCountChat[fishname][chat] + count
 
-		if Profiles[chatyear.PlayerID].FishTypesCaughtCountCatchtype[chatyear.String] == nil {
-			Profiles[chatyear.PlayerID].FishTypesCaughtCountCatchtype[chatyear.String] = make(map[string]int)
+		// fish of that type caught per year
+		if Profiles[playerID].FishTypesCaughtCountYear[fishname] == nil {
+			Profiles[playerID].FishTypesCaughtCountYear[fishname] = make(map[string]int)
+		}
+		Profiles[playerID].FishTypesCaughtCountYear[fishname][year] = Profiles[playerID].FishTypesCaughtCountYear[fishname][year] + count
+
+		// fish caught per catchtype
+		Profiles[playerID].CountCatchtype[catchtype] = Profiles[playerID].CountCatchtype[catchtype] + count
+
+		// fish caught per catchtype per chat
+		if Profiles[playerID].CountCatchtypeChat[catchtype] == nil {
+			Profiles[playerID].CountCatchtypeChat[catchtype] = make(map[string]int)
 		}
 
-		Profiles[chatyear.PlayerID].FishTypesCaughtCountCatchtype[chatyear.String][chatyear.String5] = Profiles[chatyear.PlayerID].FishTypesCaughtCountCatchtype[chatyear.String][chatyear.String5] + chatyear.Int
+		Profiles[playerID].CountCatchtypeChat[catchtype][chat] = Profiles[playerID].CountCatchtypeChat[catchtype][chat] + count
 
-		if Profiles[chatyear.PlayerID].FishTypesCaughtCountCatchtypeChat[chatyear.String] == nil {
-			Profiles[chatyear.PlayerID].FishTypesCaughtCountCatchtypeChat[chatyear.String] = make(map[string]map[string]int)
+		// fish of that type caught per catchtype
+		if Profiles[playerID].FishTypesCaughtCountCatchtype[fishname] == nil {
+			Profiles[playerID].FishTypesCaughtCountCatchtype[fishname] = make(map[string]int)
 		}
 
-		if Profiles[chatyear.PlayerID].FishTypesCaughtCountCatchtypeChat[chatyear.String][chatyear.String5] == nil {
-			Profiles[chatyear.PlayerID].FishTypesCaughtCountCatchtypeChat[chatyear.String][chatyear.String5] = make(map[string]int)
+		Profiles[playerID].FishTypesCaughtCountCatchtype[fishname][catchtype] = Profiles[playerID].FishTypesCaughtCountCatchtype[fishname][catchtype] + count
+
+		// fish of that type caught per catchtype per chat
+		if Profiles[playerID].FishTypesCaughtCountCatchtypeChat[fishname] == nil {
+			Profiles[playerID].FishTypesCaughtCountCatchtypeChat[fishname] = make(map[string]map[string]int)
 		}
 
-		Profiles[chatyear.PlayerID].FishTypesCaughtCountCatchtypeChat[chatyear.String][chatyear.String5][chatyear.String2] = Profiles[chatyear.PlayerID].FishTypesCaughtCountCatchtypeChat[chatyear.String][chatyear.String5][chatyear.String2] + chatyear.Int
+		if Profiles[playerID].FishTypesCaughtCountCatchtypeChat[fishname][catchtype] == nil {
+			Profiles[playerID].FishTypesCaughtCountCatchtypeChat[fishname][catchtype] = make(map[string]int)
+		}
+
+		Profiles[playerID].FishTypesCaughtCountCatchtypeChat[fishname][catchtype][chat] = Profiles[playerID].FishTypesCaughtCountCatchtypeChat[fishname][catchtype][chat] + count
 	}
 
 	// all their fish seen; could get this from the fishtypescaughtcount maps
@@ -375,31 +346,44 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 
 	}
 
-	// The fishseen per chat count
-	rows, err = pool.Query(context.Background(), `
-		select count(distinct(fishname)) as int,
-		chat as string,
-		playerid
-		from fish
-		where playerid = any($1)
-		and date < $2
-	  	and date > $3
-		group by string, playerid`,
-		validPlayers, date, date2)
+	// The 10 biggest fish per player
+	queryBiggestFishOverall := `
+		SELECT bub.weight, bub.fishname as typename, bub.bot, bub.chat, bub.date, bub.catchtype, bub.fishid, bub.chatid, bub.playerid
+		FROM (
+        SELECT fish.*, 
+        RANK() OVER (
+            PARTITION BY playerid
+            ORDER BY weight DESC
+        )
+        FROM fish
+		WHERE playerid = any($1)
+		AND date < $2
+	  	AND date > $3
+    	) bub WHERE RANK <= 10`
+
+	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryBiggestFishOverall, validPlayers, "biggestoverall", true)
 	if err != nil {
 		return Profiles, err
 	}
 
-	CountChat, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[Frick])
+	// The 10 last fish per player
+	queryLastFishOverall := `
+		SELECT bub.weight, bub.fishname as typename, bub.bot, bub.chat, bub.date, bub.catchtype, bub.fishid, bub.chatid, bub.playerid 
+		FROM (
+        SELECT fish.*, 
+        RANK() OVER (
+            PARTITION BY playerid
+            ORDER BY date DESC
+        )
+        FROM fish
+		WHERE playerid = any($1)
+		AND date < $2
+	  	AND date > $3
+    	) bub WHERE RANK <= 10`
+
+	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryLastFishOverall, validPlayers, "lastoverall", true)
 	if err != nil {
 		return Profiles, err
-	}
-
-	for _, dada := range CountChat {
-		if Profiles[dada.PlayerID].FishSeenChat == nil {
-			Profiles[dada.PlayerID].FishSeenChat = make(map[string]int)
-		}
-		Profiles[dada.PlayerID].FishSeenChat[dada.String] = dada.Int
 	}
 
 	// For biggest and smallest ignore the fish which i dont see the weight of in the catch message (squirrels and release bonus fish)
@@ -536,6 +520,10 @@ func QueryMapStringFishInfo(params LeaderboardParams, Profiles map[int]*PlayerPr
 				Profiles[fish.PlayerID].BiggestFishPerType[fish.TypeName] = fish
 			}
 		}
+	case "biggestoverall":
+		for _, fish := range Fishes {
+			Profiles[fish.PlayerID].BiggestFish = append(Profiles[fish.PlayerID].BiggestFish, fish)
+		}
 	case "smallest":
 		for _, fish := range Fishes {
 			if chat {
@@ -563,6 +551,22 @@ func QueryMapStringFishInfo(params LeaderboardParams, Profiles map[int]*PlayerPr
 				}
 
 				Profiles[fish.PlayerID].FirstCaughtFishPerType[fish.TypeName] = fish
+
+				// Also store the first time someone caught their treasures
+				// new treasures need to be manually added
+				if Profiles[fish.PlayerID].Treasures.FirstTimeCaughtTreasure == nil {
+					Profiles[fish.PlayerID].Treasures.FirstTimeCaughtTreasure = make(map[string]data.FishInfo)
+				}
+
+				if fish.TypeName == "dagger" || fish.TypeName == "crown" || fish.TypeName == "compass" {
+					Profiles[fish.PlayerID].Treasures.FirstTimeCaughtTreasure[fish.TypeName] = fish
+
+					Profiles[fish.PlayerID].Treasures.TreasureCount++
+
+					if Profiles[fish.PlayerID].Treasures.TreasureCount > 2 {
+						Profiles[fish.PlayerID].Treasures.HasAllTreasure = true
+					}
+				}
 			}
 		}
 	case "last":
@@ -580,6 +584,10 @@ func QueryMapStringFishInfo(params LeaderboardParams, Profiles map[int]*PlayerPr
 
 				Profiles[fish.PlayerID].LastCaughtFishPerType[fish.TypeName] = fish
 			}
+		}
+	case "lastoverall":
+		for _, fish := range Fishes {
+			Profiles[fish.PlayerID].LastFish = append(Profiles[fish.PlayerID].LastFish, fish)
 		}
 	default:
 		logs.Logs().Warn().
