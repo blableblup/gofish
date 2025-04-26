@@ -24,7 +24,7 @@ type PlayerProfile struct {
 	// To show the "progress" of a player in their fishing career
 	Treasures TreasureProgress
 	SonnyDay  SonnyDayProgress
-	// shiny isnt progress but i have a shiny and i want to show it off
+	// and shinies
 	HasShiny Shinies
 
 	Count              int
@@ -74,7 +74,7 @@ type SonnyDayProgress struct {
 }
 
 type Shinies struct {
-	ShinyCatch []data.FishInfo // can use shiny board func for this ?
+	ShinyCatch []data.FishInfo
 	HasShiny   bool
 }
 
@@ -138,7 +138,9 @@ func GetPlayerProfiles(params LeaderboardParams) {
 		}
 	}
 
-	// Get the names of all the shines in the db
+	// Get the names of all the shinies in the db
+	// this is only for if a player has a shiny in their bag so that it shows the emote
+	// if a shiny is in any other table on the profile, it will not show the shiny but the emote of the fishname instead
 	allShinies, err := GetAllShinies(params)
 	if err != nil {
 		logs.Logs().Error().Err(err).
@@ -292,6 +294,7 @@ func GetValidPlayers(params LeaderboardParams, limit int) ([]int, error) {
 }
 
 // can put code which is printing the same type of maps into their own function ? or use the already existing leaderboard functions ? ?
+// https://github.com/nao1215/markdown ? ?
 func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string, CatchtypeNames map[string]string) error {
 
 	filePath := filepath.Join("leaderboards", "global", "players", fmt.Sprintf("%d", Profile.TwitchID)+".md")

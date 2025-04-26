@@ -15,7 +15,7 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 	date := params.Date
 	pool := params.Pool
 
-	// pointer to the map so i can directly modify the maps
+	// the * to update the maps inside the struct directly
 	Profiles := make(map[int]*PlayerProfile, len(validPlayers))
 
 	// idk how to scan directly into the maps
@@ -346,6 +346,12 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 
 	}
 
+	// also check if any valid player caught a shiny
+	Profiles, err = GetTheShiniesForPlayerProfiles(params, Profiles)
+	if err != nil {
+		return Profiles, err
+	}
+
 	// The 10 biggest fish per player
 	queryBiggestFishOverall := `
 		SELECT bub.weight, bub.fishname as typename, bub.bot, bub.chat, bub.date, bub.catchtype, bub.fishid, bub.chatid, bub.playerid
@@ -616,4 +622,30 @@ func ConstructFishQuery(innerSelect string, ignoreCatchtypeInside string, groupB
 		WHERE f.playerid = any($1)
 		%s`, innerSelect, ignoreCatchtypeInside, groupByInside, idk, ignoreCatchtypeOutside, orderDateOutside)
 
+}
+
+func GetTheShiniesForPlayerProfiles(params LeaderboardParams, Profiles map[int]*PlayerProfile) (map[int]*PlayerProfile, error) {
+
+	// use the function from the shiny board for this
+	Shinies, err := getShinies(params)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Chat", params.ChatName).
+			Str("Board", params.LeaderboardType).
+			Msg("Error getting shinies for player profiles")
+		return Profiles, err
+	}
+
+	for _, fish := range Shinies {
+
+		// because the leaderboard function doesnt use the validplayers
+		// only store the shiny if the player is already in the map
+		if _, ok := Profiles[fish.PlayerID]; ok {
+			Profiles[fish.PlayerID].HasShiny.ShinyCatch = append(Profiles[fish.PlayerID].HasShiny.ShinyCatch, fish)
+
+			Profiles[fish.PlayerID].HasShiny.HasShiny = true
+		}
+	}
+
+	return Profiles, nil
 }
