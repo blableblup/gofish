@@ -83,7 +83,7 @@
 | 79  | 🥀 wiltedflower | 2.97 | eaeac | 2024-12-19 20:15:08 |
 | 81  | 🌹 rose | 2.96 | osnyatsky | 2024-03-28 12:12:36 |
 | 81  | 🥪 sandwich | 2.96 | qu4ttromila | 2023-05-29 08:10:17 |
-| 83  | 🌷 tulip | 2.81 | gstaman911 | 2025-03-14 07:32:16 |
+| 83  | 🌷 tulip | 2.85 (+0.04) | ritual665 | 2025-04-26 01:03:44 |
 | 84  | 🌻 sunflower | 2.78 | fishingalt | 2024-06-18 10:20:11 |
 | 85  | 🍬 candy | 2.60 | 5c33* | 2022-12-19 03:20:33 |
 | 86  | 👟 athleticshoe | 2.00 | kishma9 | 2023-11-05 02:37:53 |
@@ -97,10 +97,10 @@
 | 94  | 🍁 mapleleaf | 1.00 | fishingalt | 2024-09-28 20:29:04 |
 | 95  | 🪶 feather | 0.99 | osnyatsky* | 2023-08-24 01:31:11 |
 | 95  | 🧤 gloves | 0.99 | sicklymaidrobot | 2024-02-23 12:41:32 |
-| 95 ⬆ | 🌾 grass | 0.99 (+0.01) | chubbbyhamster | 2025-04-10 10:13:43 |
+| 95  | 🌾 grass | 0.99 | chubbbyhamster | 2025-04-10 10:13:43 |
 | 95  | 🧣 scarf | 0.99 | osnyatsky* | 2022-12-22 04:35:03 |
 | 99  | 🪚 carpentrysaw | 0.95 | osnyisdead | 2025-02-12 04:45:11 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-04-13 10:23:13 UTC_
+_Last updated at 2025-04-27 09:07:08 UTC_

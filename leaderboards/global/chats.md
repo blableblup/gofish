@@ -1,19 +1,19 @@
 ### Chat leaderboard
 | Rank | Chat | Fish Caught | Active Players | Unique Players | Unique Fish | Channel Record 🎊 |
 |------|------|-------------|----------------|----------------|-------------|-------------------|
-| 1 🥇  | breadworms ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) | 66944 (+561) | 10 (+1) | 314 (+1) | 100 | 🦑 308.86 lbs, chubbbyhamster |
+| 1 🥇  | breadworms ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) | 67406 (+462) | 10 | 314 | 100 | 🦑 308.86 lbs, chubbbyhamster |
 | 2 🥈  | psp1g ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) | 59379 | 0 | 2638 | 88 | 🐳 303.51 lbs, huuuuuuuuuuuuuuuuuuuuuurz |
-| 3 🥉  | wuh6 ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png) | 12254 (+495) | 10 (-2) | 77 | 85 | 🦑 311.04 lbs, eeziiii |
-| 4  | dizzy ![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png) | 11244 (+260) | 4 (-2) | 490 | 84 | 🐳 291.32 lbs, buhl00n |
-| 5  | vaiastol ![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png) | 6406 (+161) | 6 | 52 (+1) | 89 | 🦑 305.17 lbs, vaiastol |
-| 6  | omie ![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png) | 5790 (+171) | 4 (+1) | 33 | 86 | 🐻‍❄ 294.19 lbs, mangos4u |
-| 7  | jellyuh ![jellyuh](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/jellyuh.png) | 1087 (+54) | 1 | 34 | 69 | 🦑 307.87 lbs, pompadourdelinquent |
+| 3 🥉  | wuh6 ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png) | 12791 (+537) | 9 (-1) | 78 (+1) | 89 (+4) | 🦑 311.04 lbs, eeziiii |
+| 4  | dizzy ![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png) | 11457 (+213) | 4 | 490 | 84 | 🐳 291.32 lbs, buhl00n |
+| 5  | vaiastol ![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png) | 6634 (+228) | 6 | 54 (+2) | 89 | 🦑 305.17 lbs, vaiastol |
+| 6  | omie ![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png) | 5998 (+208) | 4 | 33 | 86 | 🐻‍❄ 294.19 lbs, mangos4u |
+| 7  | jellyuh ![jellyuh](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/jellyuh.png) | 1131 (+44) | 0 (-1) | 37 (+3) | 69 | 🦑 307.87 lbs, pompadourdelinquent |
 | 8  | ovrht ![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png) | 957 | 0 | 40 | 59 | 🐳 287.76 lbs, ovrht |
 | 9  | swormbeard ![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png) | 483 | 0 | 20 | 60 | 🦑 243.37 lbs, kishma9 |
-| 10  | aquaismissing ![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png) | 414 (+9) | 0 | 56 (+1) | 44 | 🐋 134.56 lbs, likedom_ |
+| 10  | aquaismissing ![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png) | 422 (+8) | 0 | 58 (+2) | 44 | 🐋 134.56 lbs, likedom_ |
 | 11  | julialuxel ![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png) | 335 | 0 | 29 | 55 | 🦕 241.63 lbs, toastyso |
 | 12  | d_egree ![d_egree](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/d_egree.png) | 280 | 0 | 13 | 55 | 🐉 173.10 lbs, benni900 |
-| 13  | coolishdanker ![coolishdanker](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/coolishdanker.png) | 245 (+1) | 0 | 18 | 31 | 🐍 156.42 lbs, jaial |
+| 13  | coolishdanker ![coolishdanker](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/coolishdanker.png) | 247 (+2) | 0 | 18 | 31 | 🐍 156.42 lbs, jaial |
 | 14  | pokirule ![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png) | 215 | 0 | 2 | 43 | 🦑 284.82 lbs, osnyisdead |
 | 15  | yopego ![yopego](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/yopego.png) | 157 | 0 | 21 | 44 | 🐋 126.17 lbs, grumpo_ |
 | 16  | ryanpotat ![ryanpotat](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ryanpotat.png) | 91 | 0 | 7 | 36 | 🦕 177.64 lbs, lolspers |
@@ -24,7 +24,7 @@
 | 21  | forsengosling ![forsengosling](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/forsengosling.png) | 14 | 0 | 1 | 10 | 🐢 99.81 lbs, forsengosling |
 | 22  | zomballr ![zomballr](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/zomballr.png) | 6 | 0 | 3 | 5 | 🐟 43.11 lbs, ryanpotat |
 | 22  | sukoxi ![sukoxi](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/sukoxi.png) | 6 | 0 | 1 | 6 | 🐋 126.54 lbs, sukoxi |
-| 24  | 6daves ![6daves](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/6daves.png) | 3 | 0 | 2 | 3 | 🪳 10.86 lbs, 6daves |
+| 24  | 6daves ![6daves](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/6daves.png) | 4 (+1) | 0 | 2 | 4 (+1) | 🦐 29.99 (+19.13) lbs, 6daves |
 | 25  | mylifeislul ![mylifeislul](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/mylifeislul.png) | 2 | 0 | 2 | 2 | 💀 2.37 lbs, mylifeislul |
 | 25  | paras220 ![paras220](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/paras220.png) | 2 | 0 | 1 | 2 | 🎰 0.00 lbs, paras220 |
 | 27  | aaurie ![aaurie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aaurie.png) | 0 | 0 | 0 | 0 |  0.00 lbs,  |
@@ -40,4 +40,4 @@ _Active players means that they caught more than 10 fish in the last seven days_
 
 _Unique players is how many different players caught a fish in that chat_
 
-_Last updated at 2025-04-20 09:59:28 UTC_
+_Last updated at 2025-04-27 09:14:06 UTC_

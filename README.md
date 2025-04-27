@@ -19,6 +19,6 @@
 
 * The logs are probably not fully complete in most cases, but they should contain the vast majority of fish. If a chat has mutliple justlog instances, I can check the different ones and find missing fish. The only instance with a lot of very long downtimes was logs nadeko, but that was only used for psp1g and those gaps have been fixed.
 
-* Some gaps I know about which weren't filled: Small gap for [logs.spanix.team](https://logs.spanix.team/channel/omie/user/gofishgame/2025/1) from 2025-01-21 05:18:08 to 2025-01-23 01:32:54 for omie. And somewhere in this week 2025-02-09/16 for vaiastol.
+* Some gaps I know about which weren't filled: Small gap for [logs.spanix.team](https://logs.spanix.team/channel/omie/user/gofishgame/2025/1) from 2025-01-21 05:18:08 to 2025-01-23 01:32:54 for omie. And somewhere in this week 2025-02-09/16 for vaiastol. Week 2025-04-20/26 in omies chat (logs.spanix but idk when extactly).
 
 * Fish seen through gifts 🎁 and through releasing to another player during the winter events were not added to the database.

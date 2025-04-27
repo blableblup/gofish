@@ -9,8 +9,8 @@
 | 6  | 🐙 octopus | 12.02 | destructionvibe | 2025-02-03 21:51:38 |
 | 7  | 🧊 icecube | 10.35 | kidnamedzan | 2025-01-19 20:31:47 |
 | 8  | 🐳 whale | 8.92 | turkld | 2025-01-18 18:50:12 |
-| 9  | 🪳 cockroach | 6.71 | fenix8 | 2025-02-06 07:40:56 |
-| 10  | 🦑 squid | 4.98 | xmrsamx | 2025-01-24 09:11:57 |
+| 9 ⬆ | 🦑 squid | 4.98 | xmrsamx | 2025-01-24 09:11:57 |
+| 10 ⬇ | 🪳 cockroach | 4.18 (-2.53) | destructionvibe | 2025-04-20 21:47:29 |
 | 11  | 🦞 lobster | 3.21 | fenix8 | 2025-01-23 10:49:48 |
 | 12  | 🧽 sponge | 3.08 | kidnamedzan | 2025-02-16 21:07:25 |
 | 13  | 🦐 shrimp | 2.90 | stevetheastronaut | 2025-01-23 16:11:48 |
@@ -35,4 +35,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-04-13 10:22:37 UTC_
+_Last updated at 2025-04-27 09:08:14 UTC_
