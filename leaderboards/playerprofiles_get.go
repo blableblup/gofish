@@ -18,46 +18,31 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 	// the * to update the maps inside the struct directly
 	Profiles := make(map[int]*PlayerProfile, len(validPlayers))
 
-	// idk how to scan directly into the maps
-	// so scan into this struct and then range over the struct to get the map
-	// name of the rows needs to match the names here
-	type Frick struct {
-		FishInfo data.FishInfo
-		String   string
-		String2  string
-		String3  string
-		String4  []string
-		String5  string
-		Int      int
-		PlayerID int
-	}
-
 	// The count per year per chat
 	rows, err := pool.Query(context.Background(), `
-		select count(*) as int, 
-		to_char(date_trunc('year', date), 'YYYY') as string,
-		chat as string2,
+		select count(*), 
+		to_char(date_trunc('year', date), 'YYYY') as chatpfp,
+		chat,
 		playerid
 		from fish 
 		where playerid = any($1)
 		and date < $2
 	  	and date > $3
-		group by string, string2, playerid
-		order by string asc`,
+		group by chatpfp, chat, playerid`,
 		validPlayers, date, date2)
 	if err != nil {
 		return Profiles, err
 	}
 
-	ChatCountsYear, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[Frick])
+	ChatCountsYear, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
 	if err != nil {
 		return Profiles, err
 	}
 
 	for _, ble := range ChatCountsYear {
-		count := ble.Int
-		year := ble.String
-		chat := ble.String2
+		count := ble.Count
+		year := ble.ChatPfp
+		chat := ble.Chat
 		playerID := ble.PlayerID
 
 		// Add the playerid to the map first and get their name, their verified status and their twitchid
@@ -181,34 +166,34 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 
 	// The fish type caught count per year per chat per catchtype
 	rows, err = pool.Query(context.Background(), `
-		select count(*) as int,
-		fishname as string,
-		chat as string2,
-		to_char(date_trunc('year', date), 'YYYY') as string3,
-		catchtype as string5,
+		select count(*),
+		fishname as typename,
+		chat,
+		to_char(date_trunc('year', date), 'YYYY') as url,
+		catchtype,
 		playerid
 		from fish
 		where playerid = any($1)
 		and date < $2
 	  	and date > $3
-		group by string, string2, string3, string5, playerid`,
+		group by typename, chat, date, catchtype, playerid`,
 		validPlayers, date, date2)
 	if err != nil {
 		return Profiles, err
 	}
 
-	FishTypesCaughtCountYearChat, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[Frick])
+	FishTypesCaughtCountYearChat, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
 	if err != nil {
 		return Profiles, err
 	}
 
 	// a
 	for _, ble := range FishTypesCaughtCountYearChat {
-		count := ble.Int
-		fishname := ble.String
-		chat := ble.String2
-		year := ble.String3
-		catchtype := ble.String5
+		count := ble.Count
+		fishname := ble.TypeName
+		chat := ble.Chat
+		year := ble.Url
+		catchtype := ble.CatchType
 		playerID := ble.PlayerID
 
 		if Profiles[playerID].CountCatchtype == nil {
@@ -304,7 +289,7 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 	// all their fish seen; could get this from the fishtypescaughtcount maps
 	// but this is also sorting them by name, so i dont need to sort them later
 	rows, err = pool.Query(context.Background(),
-		`select array_agg(distinct(fishname)) as string4, playerid
+		`select array_agg(distinct(fishname)) as bag, playerid
 		from fish 
 		where playerid = any($1)
 		and date < $2
@@ -315,14 +300,14 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 		return Profiles, err
 	}
 
-	fishseen, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[Frick])
+	fishseen, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
 	if err != nil && err != pgx.ErrNoRows {
 		return Profiles, err
 	}
 
 	for _, fishu := range fishseen {
 
-		Profiles[fishu.PlayerID].FishSeen = fishu.String4
+		Profiles[fishu.PlayerID].FishSeen = fishu.Bag
 
 		// Also get the fish that player never caught
 		for _, fishy := range allFish {
@@ -560,17 +545,17 @@ func QueryMapStringFishInfo(params LeaderboardParams, Profiles map[int]*PlayerPr
 
 				// Also store the first time someone caught their treasures
 				// new treasures need to be manually added
-				if Profiles[fish.PlayerID].Treasures.FirstTimeCaughtTreasure == nil {
-					Profiles[fish.PlayerID].Treasures.FirstTimeCaughtTreasure = make(map[string]data.FishInfo)
+				if Profiles[fish.PlayerID].Treasures.FirstTimeCaughtRedAveryTreasure == nil {
+					Profiles[fish.PlayerID].Treasures.FirstTimeCaughtRedAveryTreasure = make(map[string]data.FishInfo)
 				}
 
 				if fish.TypeName == "dagger" || fish.TypeName == "crown" || fish.TypeName == "compass" {
-					Profiles[fish.PlayerID].Treasures.FirstTimeCaughtTreasure[fish.TypeName] = fish
+					Profiles[fish.PlayerID].Treasures.FirstTimeCaughtRedAveryTreasure[fish.TypeName] = fish
 
-					Profiles[fish.PlayerID].Treasures.TreasureCount++
+					Profiles[fish.PlayerID].Treasures.RedAveryTreasureCount++
 
-					if Profiles[fish.PlayerID].Treasures.TreasureCount > 2 {
-						Profiles[fish.PlayerID].Treasures.HasAllTreasure = true
+					if Profiles[fish.PlayerID].Treasures.RedAveryTreasureCount == 3 {
+						Profiles[fish.PlayerID].Treasures.HasAllRedAveryTreasure = true
 					}
 				}
 			}
@@ -641,9 +626,9 @@ func GetTheShiniesForPlayerProfiles(params LeaderboardParams, Profiles map[int]*
 		// because the leaderboard function doesnt use the validplayers
 		// only store the shiny if the player is already in the map
 		if _, ok := Profiles[fish.PlayerID]; ok {
-			Profiles[fish.PlayerID].HasShiny.ShinyCatch = append(Profiles[fish.PlayerID].HasShiny.ShinyCatch, fish)
+			Profiles[fish.PlayerID].Shiny.ShinyCatch = append(Profiles[fish.PlayerID].Shiny.ShinyCatch, fish)
 
-			Profiles[fish.PlayerID].HasShiny.HasShiny = true
+			Profiles[fish.PlayerID].Shiny.HasShiny = true
 		}
 	}
 
