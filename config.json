@@ -275,6 +275,25 @@
 			"checkfdata": true,
 			"board_enabled": true
 		},
+		"keeki_chan": {
+			"twitchid": "90528258",
+			"logs_instances": [
+				{
+					"url": "https://logs.ivr.fi",
+					"logs_added": "2025/4"
+				},
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2025/4"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2025/4"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
 		"lifeless": {
 			"twitchid": "494931569",
 			"checkfdata": false,
@@ -541,10 +560,14 @@
 				{
 					"url": "https://logs.potat.app",
 					"logs_added": "2024/12"
-				}, 
+				},
 				{
 					"url": "not public",
 					"logs_added": "2024/12"
+				},
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2025/4"
 				}
 			],
 			"fishweek_limit": 10,
