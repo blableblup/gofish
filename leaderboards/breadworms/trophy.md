@@ -2,7 +2,7 @@
 | Rank | Player | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points |
 |------|--------|-------------|------------------|------------------|--------|
 | 1 🥇 | leanmeister | 48 | 12 | 5 | 158.5 |
-| 2 🥈 | chubbbyhamster | 24 | 51 | 28 | 137.0 |
+| 2 🥈 | chubbbyhamster | 24 | 51 | 29 (+1) | 137.5 (+0.5) |
 | 3 🥉 | puzzlow | 35 | 15 | 14 | 127.0 |
 | 4 | osnyatsky | 31 | 24 | 6 | 120.0 |
 | 5 | osnyisdead | 30 | 21 | 3 | 112.5 |
@@ -13,16 +13,16 @@
 | 10 | dayzedinndaydreams | 10 | 10 | 12 | 46.0 |
 | 11 | sussy_amonge | 12 | 4 | 7 | 43.5 |
 | 12 | sicklymaidrobot | 5 | 10 | 26 | 38.0 |
-| 13 | comiqq | 5 | 12 | 9 | 31.5 |
-| 14 ⬆| destin357 | 4 (+3) | 13 | 6 | 28.0 (+9.0) |
-| 15 ⬇| fishingalt | 4 | 7 | 7 | 22.5 |
-| 16 | eaeac | 3 | 3 | 11 | 17.5 |
+| 13 ⬆| destin357 | 6 (+2) | 14 (+1) | 6 | 35.0 (+7.0) |
+| 14 ⬇| comiqq | 5 | 12 | 9 | 31.5 |
+| 15 | fishingalt | 4 | 7 | 7 | 22.5 |
+| 16 | c_mgirl | 3 | 3 | 11 | 17.5 |
 | 17 | booty_bread | 4 | 2 | 6 | 17.0 |
 | 18 | ryebreadward | 3 | 3 | 6 | 15.0 |
-| 19 ⬆| derintu | 1 | 3 | 6 (+3) | 9.0 (+1.5) |
-| 19 | idini | 1 | 1 | 10 | 9.0 |
-| 19 | ninjaross | 1 | 2 | 8 | 9.0 |
-| 22 ⬇| respirate_ | 2 | 1 | 2 | 8.0 |
+| 19 | ninjaross | 2 (+1) | 2 | 8 | 12.0 (+3.0) |
+| 20 ⬇| derintu | 1 | 5 (+2) | 6 | 11.0 (+2.0) |
+| 21 ⬇| idini | 1 | 1 | 10 | 9.0 |
+| 22 | respirate_ | 2 | 1 | 2 | 8.0 |
 | 23 | gstaman911 | 0 | 4 | 4 | 6.0 |
 | 23 | lazuli672 | 2 | 0 | 0 | 6.0 |
 | 25 | dougiefresh_83 | 1 | 1 | 3 | 5.5 |
@@ -44,4 +44,4 @@
 | 39 | mochi_uygqzidbjizjkbehuiw | 0 | 0 | 1 | 0.5 |
 | 39 | niiy | 0 | 0 | 1 | 0.5 |
 
-_Last updated at 2025-04-23 09:48:31 UTC_
+_Last updated at 2025-04-30 10:28:52 UTC_
