@@ -321,7 +321,7 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 
 	// received means when it first appeared in their bag
 	if Profile.SonnyDay.HasLetter {
-		_, _ = fmt.Fprintf(file, "\n* 🏅 Has gotten a letter ✉️ ! (Received: %s)\n", Profile.SonnyDay.LetterInBag.Date.Format("2006-01-02 15:04:05"))
+		_, _ = fmt.Fprintf(file, "\n* 🏅 Has gotten a letter ✉️ ! (Received: %s UTC)\n", Profile.SonnyDay.LetterInBag.Date.Format("2006-01-02 15:04:05"))
 	}
 
 	if Profile.Shiny.HasShiny {
@@ -352,28 +352,39 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 
 	_, _ = fmt.Fprintln(file, "\n\nFish caught per chat")
 
-	_, _ = fmt.Fprintln(file, "\n| Rank | Chat | Count |")
+	PrintHead(file, "| Rank | Chat | Count |", 3)
 
-	_, _ = fmt.Fprint(file, "|-------|-------|-------|")
-
-	rank := 1 // make chats with same count have same rank
+	rank := 1
+	prevRank := 1
+	prevCount := -1
+	occupiedRanks := make(map[int]int)
 
 	sortedChatCounts := sortMapString(Profile.ChatCounts, "countdesc")
 
 	for _, chat := range sortedChatCounts {
+
+		// so that chats with same fish caught are same rank
+		if Profile.ChatCounts[chat] != prevCount {
+			rank += occupiedRanks[rank]
+			occupiedRanks[rank] = 1
+		} else {
+			rank = prevRank
+			occupiedRanks[rank]++
+		}
+
 		_, _ = fmt.Fprintf(file, "\n| %s | %s %s | %d |",
 			Ranks(rank),
 			chat,
 			fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", chat, chat),
 			Profile.ChatCounts[chat])
-		rank++
+
+		prevCount = Profile.ChatCounts[chat]
+		prevRank = rank
 	}
 
 	_, _ = fmt.Fprintln(file, "\n\nFish caught per year")
 
-	_, _ = fmt.Fprintln(file, "\n| --- | Year | Count | Chat |")
-
-	_, _ = fmt.Fprint(file, "|-------|-------|-------|-------|")
+	PrintHead(file, "| --- | Year | Count | Chat |", 4)
 
 	rank = 1
 
@@ -398,17 +409,27 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 
 	_, _ = fmt.Fprintln(file, "\n\nFish caught per catchtype")
 
-	_, _ = fmt.Fprintln(file, "\n| --- | Catchtype | Count | Chat |")
-
-	_, _ = fmt.Fprint(file, "|-------|-------|-------|-------|")
+	PrintHead(file, "| --- | Catchtype | Count | Chat |", 4)
 
 	rank = 1
+	prevRank = 1
+	prevCount = -1
+	occupiedRanks = make(map[int]int)
 
 	sortedCatchtypes := sortMapString(Profile.CountCatchtype, "countdesc")
 
 	for _, catch := range sortedCatchtypes {
 
 		catchtype := CatchtypeNames[catch]
+
+		// make catchtypes with same count have same rank
+		if Profile.CountCatchtype[catch] != prevCount {
+			rank += occupiedRanks[rank]
+			occupiedRanks[rank] = 1
+		} else {
+			rank = prevRank
+			occupiedRanks[rank]++
+		}
 
 		_, _ = fmt.Fprintf(file, "\n| %d | %s | %d |",
 			rank,
@@ -424,7 +445,9 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 		}
 
 		_, _ = fmt.Fprint(file, "|")
-		rank++
+
+		prevCount = Profile.CountCatchtype[catch]
+		prevRank = rank
 	}
 
 	// first, biggest, last fish
@@ -432,107 +455,62 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 
 	_, _ = fmt.Fprintln(file, "\n\nFirst ever fish caught per chat")
 
-	_, _ = fmt.Fprintln(file, "\n| --- | Fish | Weight in lbs | Catchtype | Date in UTC | Chat |")
-
-	_, _ = fmt.Fprint(file, "|-------|-------|-------|-------|-------|-------|")
+	PrintHead(file, "| --- | Fish | Weight in lbs | Catchtype | Date in UTC | Chat |", 6)
 
 	rank = 1
 
 	sortedChatDates := sortMapStringFishInfo(Profile.FirstFishChat, "dateasc")
 
 	for _, chat := range sortedChatDates {
-		_, _ = fmt.Fprintf(file, "\n| %d | %s %s | %.2f | %s | %s | %s |",
-			rank,
-			EmojisForFish[Profile.FirstFishChat[chat].TypeName],
-			Profile.FirstFishChat[chat].TypeName,
-			Profile.FirstFishChat[chat].Weight,
-			CatchtypeNames[Profile.FirstFishChat[chat].CatchType],
-			Profile.FirstFishChat[chat].Date.Format("2006-01-02 15:04:05"),
-			fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", chat, chat))
+		PrintFish(file, Profile.FirstFishChat[chat], rank, EmojisForFish, CatchtypeNames)
 		rank++
 	}
 
 	_, _ = fmt.Fprintln(file, "\n\nLast fish caught per chat")
 
-	_, _ = fmt.Fprintln(file, "\n| --- | Fish | Weight in lbs | Catchtype | Date in UTC | Chat |")
-
-	_, _ = fmt.Fprint(file, "|-------|-------|-------|-------|-------|-------|")
+	PrintHead(file, "| --- | Fish | Weight in lbs | Catchtype | Date in UTC | Chat |", 6)
 
 	rank = 1
 
 	sortedChatDates2 := sortMapStringFishInfo(Profile.LastFishChat, "dateasc")
 
 	for _, chat := range sortedChatDates2 {
-		_, _ = fmt.Fprintf(file, "\n| %d | %s %s | %.2f | %s | %s | %s |",
-			rank,
-			EmojisForFish[Profile.LastFishChat[chat].TypeName],
-			Profile.LastFishChat[chat].TypeName,
-			Profile.LastFishChat[chat].Weight,
-			CatchtypeNames[Profile.LastFishChat[chat].CatchType],
-			Profile.LastFishChat[chat].Date.Format("2006-01-02 15:04:05"),
-			fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", chat, chat))
+		PrintFish(file, Profile.LastFishChat[chat], rank, EmojisForFish, CatchtypeNames)
 		rank++
 	}
 
 	_, _ = fmt.Fprintln(file, "\n\nBiggest fish caught per chat")
 
-	_, _ = fmt.Fprintln(file, "\n| --- | Fish | Weight in lbs | Catchtype | Date in UTC | Chat |")
-
-	_, _ = fmt.Fprint(file, "|-------|-------|-------|-------|-------|-------|")
+	PrintHead(file, "| --- | Fish | Weight in lbs | Catchtype | Date in UTC | Chat |", 6)
 
 	rank = 1
 
 	sortedChatWeights := sortMapStringFishInfo(Profile.BiggestFishChat, "weightdesc")
 
 	for _, chat := range sortedChatWeights {
-		_, _ = fmt.Fprintf(file, "\n| %d | %s %s | %.2f | %s | %s | %s |",
-			rank,
-			EmojisForFish[Profile.BiggestFishChat[chat].TypeName],
-			Profile.BiggestFishChat[chat].TypeName,
-			Profile.BiggestFishChat[chat].Weight,
-			CatchtypeNames[Profile.BiggestFishChat[chat].CatchType],
-			Profile.BiggestFishChat[chat].Date.Format("2006-01-02 15:04:05"),
-			fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", chat, chat))
+		PrintFish(file, Profile.BiggestFishChat[chat], rank, EmojisForFish, CatchtypeNames)
 		rank++
 	}
 
 	_, _ = fmt.Fprintln(file, "\n\nTheir overall biggest fish caught")
 
-	_, _ = fmt.Fprintln(file, "\n| --- | Fish | Weight in lbs | Catchtype | Date in UTC | Chat |")
-
-	_, _ = fmt.Fprint(file, "|-------|-------|-------|-------|-------|-------|")
+	PrintHead(file, "| --- | Fish | Weight in lbs | Catchtype | Date in UTC | Chat |", 6)
 
 	rank = 1
 
-	for _, Fish := range Profile.BiggestFish {
-		_, _ = fmt.Fprintf(file, "\n| %s | %s %s | %.2f | %s | %s | %s |",
-			Ranks(rank),
-			EmojisForFish[Fish.TypeName],
-			Fish.TypeName,
-			Fish.Weight,
-			CatchtypeNames[Fish.CatchType],
-			Fish.Date.Format("2006-01-02 15:04:05"),
-			fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", Fish.Chat, Fish.Chat))
+	for _, fish := range Profile.BiggestFish {
+		PrintFish(file, fish, rank, EmojisForFish, CatchtypeNames)
 		rank++
 	}
 
 	_, _ = fmt.Fprintln(file, "\n\nTheir overall last fish caught")
 
-	_, _ = fmt.Fprintln(file, "\n| --- | Fish | Weight in lbs | Catchtype | Date in UTC | Chat |")
-
-	_, _ = fmt.Fprint(file, "|-------|-------|-------|-------|-------|-------|")
+	PrintHead(file, "| --- | Fish | Weight in lbs | Catchtype | Date in UTC | Chat |", 6)
 
 	rank = 1
 
-	for _, Fish := range Profile.LastFish {
-		_, _ = fmt.Fprintf(file, "\n| %d | %s %s | %.2f | %s | %s | %s |",
-			rank,
-			EmojisForFish[Fish.TypeName],
-			Fish.TypeName,
-			Fish.Weight,
-			CatchtypeNames[Fish.CatchType],
-			Fish.Date.Format("2006-01-02 15:04:05"),
-			fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", Fish.Chat, Fish.Chat))
+	for _, fish := range Profile.LastFish {
+		PrintFish(file, fish, rank, EmojisForFish, CatchtypeNames)
 		rank++
 	}
 
@@ -545,21 +523,34 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 
 	_, _ = fmt.Fprintln(file, "\nFish seen per chat")
 
-	_, _ = fmt.Fprintln(file, "\n| Rank | Chat | Count |")
-
-	_, _ = fmt.Fprint(file, "|-------|-------|-------|")
+	PrintHead(file, "| Rank | Chat | Count |", 3)
 
 	rank = 1
+	prevRank = 1
+	prevCount = -1
+	occupiedRanks = make(map[int]int)
 
 	sortedChatCounts = sortMapString(Profile.FishSeenChat, "countdesc")
 
 	for _, chat := range sortedChatCounts {
+
+		// same rank for chats with same fish seen
+		if Profile.FishSeenChat[chat] != prevCount {
+			rank += occupiedRanks[rank]
+			occupiedRanks[rank] = 1
+		} else {
+			rank = prevRank
+			occupiedRanks[rank]++
+		}
+
 		_, _ = fmt.Fprintf(file, "\n| %s | %s %s | %d |",
 			Ranks(rank),
 			chat,
 			fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", chat, chat),
 			Profile.FishSeenChat[chat])
-		rank++
+
+		prevCount = Profile.FishSeenChat[chat]
+		prevRank = rank
 	}
 
 	_, _ = fmt.Fprintln(file)
@@ -571,12 +562,29 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 	// and first, last, biggest and smallest per type
 	for _, fish := range Profile.FishSeen {
 
-		_, _ = fmt.Fprintf(file, "\n| %s %s | Total caught | %d |",
+		_, _ = fmt.Fprintf(file, "\n## %s %s",
 			EmojisForFish[fish],
-			fish,
-			Profile.FishTypesCaughtCount[fish])
+			fish)
 
-		_, _ = fmt.Fprintln(file, "\n|-------|-------|-------|")
+		_, _ = fmt.Fprintln(file, "\nCaught in total")
+
+		_, _ = fmt.Fprint(file, "\n| Count | Chat |")
+
+		_, _ = fmt.Fprintln(file, "\n|-------|-------|")
+
+		_, _ = fmt.Fprint(file, "| ", Profile.FishTypesCaughtCount[fish], " |")
+
+		sortedChatCounts = sortMapString(Profile.FishTypesCaughtCountChat[fish], "countdesc")
+
+		for _, chat := range sortedChatCounts {
+			_, _ = fmt.Fprintf(file, " %s %d",
+				fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", chat, chat),
+				Profile.FishTypesCaughtCountChat[fish][chat])
+		}
+
+		_, _ = fmt.Fprint(file, " |\n")
+
+		_, _ = fmt.Fprintln(file, "\nCaught per year")
 
 		_, _ = fmt.Fprintf(file, "\n| %s | Year | Count | Chat |\n", EmojisForFish[fish])
 
@@ -612,6 +620,8 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 		}
 		_, _ = fmt.Fprintln(file)
 
+		_, _ = fmt.Fprintln(file, "\nCaught per catchtype")
+
 		_, _ = fmt.Fprintf(file, "\n| %s | Catchtype | Count | Chat |\n", EmojisForFish[fish])
 
 		_, _ = fmt.Fprint(file, "|-------|-------|-------|-------|")
@@ -643,6 +653,7 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 			rank++
 
 		}
+
 		_, _ = fmt.Fprintln(file)
 
 		_, _ = fmt.Fprintf(file, "\n| %s | Weight in lbs | Catchtype | Date in UTC | Chat |\n", EmojisForFish[fish])
@@ -680,9 +691,7 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 	// show their last seen bag, and how many of each fish they had in their bag
 	_, _ = fmt.Fprintln(file, "\n## Their last seen bag")
 
-	_, _ = fmt.Fprintln(file, "\n| Bag | Date in UTC | Chat |")
-
-	_, _ = fmt.Fprint(file, "|-------|-------|-------|")
+	PrintHead(file, "| Bag | Date in UTC | Chat |", 3)
 
 	_, _ = fmt.Fprintf(file, "\n| %s | %s | %s |",
 		Profile.Bag.Bag,
@@ -700,4 +709,32 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 	}
 
 	return nil
+}
+
+func PrintHead(file *os.File, head string, columns int) {
+
+	_, _ = fmt.Fprintf(file, "\n%s\n", head)
+
+	columnsString := "|"
+
+	for range columns {
+		columnsString = columnsString + "-------|"
+	}
+
+	_, _ = fmt.Fprint(file, columnsString)
+
+}
+
+// print a fish; cant be a shiny, because this uses EmojisForFish
+func PrintFish(file *os.File, fish data.FishInfo, rank int, EmojisForFish map[string]string, CatchtypeNames map[string]string) {
+
+	_, _ = fmt.Fprintf(file, "\n| %d | %s %s | %.2f | %s | %s | %s |",
+		rank,
+		EmojisForFish[fish.TypeName],
+		fish.TypeName,
+		fish.Weight,
+		CatchtypeNames[fish.CatchType],
+		fish.Date.Format("2006-01-02 15:04:05"),
+		fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", fish.Chat, fish.Chat))
+
 }
