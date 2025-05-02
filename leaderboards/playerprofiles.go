@@ -11,6 +11,7 @@ import (
 	"path/filepath"
 	"strconv"
 	"sync"
+	"time"
 
 	"github.com/jackc/pgx/v5"
 )
@@ -22,8 +23,10 @@ type PlayerProfile struct {
 	Verified sql.NullBool
 
 	// To show the "progress" of a player in their fishing career
-	Treasures TreasureProgress
-	SonnyDay  SonnyDayProgress
+	Stars        int
+	Treasures    TreasureProgress
+	SonnyDay     SonnyDayProgress
+	MythicalFish MythicalFishProgress
 	// and shinies
 	Shiny Shinies
 
@@ -71,6 +74,12 @@ type TreasureProgress struct {
 type SonnyDayProgress struct {
 	LetterInBag data.FishInfo
 	HasLetter   bool
+}
+
+type MythicalFishProgress struct {
+	FirstTimeCaughtOriginalMythicalFish map[string]data.FishInfo
+	HasAllOriginalMythicalFish          bool
+	OriginalMythicalFishCount           int
 }
 
 type Shinies struct {
@@ -151,7 +160,10 @@ func GetPlayerProfiles(params LeaderboardParams) {
 	}
 
 	// Get the names for the different type of ways you can catch fish
+	// and also the treasures and the mythical fish
 	Catchtypenames := CatchtypeNames()
+	redAveryTreasures := ReturnRedAveryTreasure()
+	originalMythicalFish := ReturnOriginalMythicalFish()
 
 	// Get the player profiles and print them for each player
 
@@ -159,7 +171,7 @@ func GetPlayerProfiles(params LeaderboardParams) {
 		Int("Amount of players", len(validPlayers)).
 		Msg("Updating player profiles")
 
-	playerProfiles, err := GetThePlayerProfiles(params, validPlayers, allFishes, allShinies)
+	playerProfiles, err := GetThePlayerProfiles(params, validPlayers, allFishes, allShinies, redAveryTreasures, originalMythicalFish)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Chat", chatName).
@@ -295,6 +307,8 @@ func GetValidPlayers(params LeaderboardParams, limit int) ([]int, error) {
 
 // can put code which is printing the same type of maps into their own function ? or use the already existing leaderboard functions ? ?
 // https://github.com/nao1215/markdown ? ?
+// make it show chat name everywhere instead of twitch pfp ?
+// make it show changes like on the other leaderboards !
 func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string, CatchtypeNames map[string]string) error {
 
 	filePath := filepath.Join("leaderboards", "global", "players", fmt.Sprintf("%d", Profile.TwitchID)+".md")
@@ -311,21 +325,30 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 
 	_, _ = fmt.Fprintf(file, "# %s", Profile.Name)
 
+	// print the players stars (?)
+	for range Profile.Stars {
+		_, _ = fmt.Fprint(file, " ⭐")
+	}
+
 	// show off some stuff
 
 	// this means that they caught them atleast once
 	// doesnt mean that they still have them in their bag
+	if Profile.MythicalFish.HasAllOriginalMythicalFish {
+		_, _ = fmt.Fprintln(file, "\n* ⭐ Has encountered all the mythical fish 🧞‍♂️ 🧜‍♀️ !")
+	}
+
 	if Profile.Treasures.HasAllRedAveryTreasure {
-		_, _ = fmt.Fprintln(file, "\n* 🏅 Has found all the treasures from legendary pirate Red Avery 🗡️ 👑 🧭 !")
+		_, _ = fmt.Fprintln(file, "\n* ⭐ Has found all the treasures from legendary pirate Red Avery 🗡️ 👑 🧭 !")
 	}
 
 	// received means when it first appeared in their bag
 	if Profile.SonnyDay.HasLetter {
-		_, _ = fmt.Fprintf(file, "\n* 🏅 Has gotten a letter ✉️ ! (Received: %s UTC)\n", Profile.SonnyDay.LetterInBag.Date.Format("2006-01-02 15:04:05"))
+		_, _ = fmt.Fprintf(file, "\n* ⭐ Has gotten a letter ✉️ ! (Received: %s UTC)\n", Profile.SonnyDay.LetterInBag.Date.Format("2006-01-02 15:04:05"))
 	}
 
 	if Profile.Shiny.HasShiny {
-		// no medal because its just extremely rare and doesnt count as progress in anything
+		// no star because its just extremely rare and doesnt count as progress in anything
 		_, _ = fmt.Fprintln(file, "\n* Has caught a shiny !")
 
 		_, _ = fmt.Fprintln(file, "\n| Fish | Weight in lbs | Catchtype | Date in UTC | Chat |")
@@ -372,8 +395,8 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 			occupiedRanks[rank]++
 		}
 
-		_, _ = fmt.Fprintf(file, "\n| %s | %s %s | %d |",
-			Ranks(rank),
+		_, _ = fmt.Fprintf(file, "\n| %d | %s %s | %d |",
+			rank,
 			chat,
 			fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", chat, chat),
 			Profile.ChatCounts[chat])
@@ -514,6 +537,26 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 		rank++
 	}
 
+	// show their last seen bag, and how many of each fish they had in their bag
+	_, _ = fmt.Fprintln(file, "\n## Their last seen bag")
+
+	PrintHead(file, "| Bag | Date in UTC | Chat |", 3)
+
+	_, _ = fmt.Fprintf(file, "\n| %s | %s | %s |",
+		Profile.Bag.Bag,
+		Profile.Bag.Date.Format("2006-01-02 15:04:05"),
+		fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", Profile.Bag.Chat, Profile.Bag.Chat))
+
+	_, _ = fmt.Fprintln(file, "\n\nCount of each item in that bag:")
+
+	sortedBagCounts := sortMapString(Profile.BagCounts, "countdesc")
+
+	for _, bagItem := range sortedBagCounts {
+		_, _ = fmt.Fprintf(file, " [%s %d]",
+			bagItem,
+			Profile.BagCounts[bagItem])
+	}
+
 	// how many different fish they have seen in total and per chat
 	_, _ = fmt.Fprintln(file, "\n## Their fish seen")
 
@@ -543,8 +586,8 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 			occupiedRanks[rank]++
 		}
 
-		_, _ = fmt.Fprintf(file, "\n| %s | %s %s | %d |",
-			Ranks(rank),
+		_, _ = fmt.Fprintf(file, "\n| %d | %s %s | %d |",
+			rank,
 			chat,
 			fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", chat, chat),
 			Profile.FishSeenChat[chat])
@@ -688,25 +731,7 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 
 	_, _ = fmt.Fprintf(file, "\n\nIn total %d fish never seen", len(Profile.FishNotSeen))
 
-	// show their last seen bag, and how many of each fish they had in their bag
-	_, _ = fmt.Fprintln(file, "\n## Their last seen bag")
-
-	PrintHead(file, "| Bag | Date in UTC | Chat |", 3)
-
-	_, _ = fmt.Fprintf(file, "\n| %s | %s | %s |",
-		Profile.Bag.Bag,
-		Profile.Bag.Date.Format("2006-01-02 15:04:05"),
-		fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", Profile.Bag.Chat, Profile.Bag.Chat))
-
-	_, _ = fmt.Fprintln(file, "\n\nCount of each item in that bag:")
-
-	sortedBagCounts := sortMapString(Profile.BagCounts, "countdesc")
-
-	for _, bagItem := range sortedBagCounts {
-		_, _ = fmt.Fprintf(file, " [%s %d]",
-			bagItem,
-			Profile.BagCounts[bagItem])
-	}
+	_, _ = fmt.Fprintf(file, "\n\n_Last updated at %s_", time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC"))
 
 	return nil
 }

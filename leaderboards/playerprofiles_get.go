@@ -10,7 +10,7 @@ import (
 	"github.com/jackc/pgx/v5"
 )
 
-func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish []string, allShinies []string) (map[int]*PlayerProfile, error) {
+func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish []string, allShinies []string, redAveryTreasures []string, originalMythicalFish []string) (map[int]*PlayerProfile, error) {
 	date2 := params.Date2
 	date := params.Date
 	pool := params.Pool
@@ -162,6 +162,7 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 	for _, bag := range letterbag {
 		Profiles[bag.PlayerID].SonnyDay.HasLetter = true
 		Profiles[bag.PlayerID].SonnyDay.LetterInBag = bag
+		Profiles[bag.PlayerID].Stars++
 	}
 
 	// The fish type caught count per year per chat per catchtype
@@ -352,7 +353,7 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 	  	AND date > $3
     	) bub WHERE RANK <= 10`
 
-	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryBiggestFishOverall, validPlayers, "biggestoverall", true)
+	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryBiggestFishOverall, validPlayers, "biggestoverall", true, redAveryTreasures, originalMythicalFish)
 	if err != nil {
 		return Profiles, err
 	}
@@ -372,7 +373,7 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 	  	AND date > $3
     	) bub WHERE RANK <= 10`
 
-	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryLastFishOverall, validPlayers, "lastoverall", true)
+	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryLastFishOverall, validPlayers, "lastoverall", true, redAveryTreasures, originalMythicalFish)
 	if err != nil {
 		return Profiles, err
 	}
@@ -388,7 +389,7 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 		"AND f.catchtype != 'release' AND f.catchtype != 'squirrel'",
 		"ORDER BY date desc")
 
-	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryBiggestFishChat, validPlayers, "biggest", true)
+	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryBiggestFishChat, validPlayers, "biggest", true, redAveryTreasures, originalMythicalFish)
 	if err != nil {
 		return Profiles, err
 	}
@@ -403,7 +404,7 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 		"AND f.catchtype != 'mouth'",
 		"")
 
-	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryFirstFishChat, validPlayers, "first", true)
+	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryFirstFishChat, validPlayers, "first", true, redAveryTreasures, originalMythicalFish)
 	if err != nil {
 		return Profiles, err
 	}
@@ -416,7 +417,7 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 		"AND f.catchtype != 'mouth'",
 		"")
 
-	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryLastFishChat, validPlayers, "last", true)
+	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryLastFishChat, validPlayers, "last", true, redAveryTreasures, originalMythicalFish)
 	if err != nil {
 		return Profiles, err
 	}
@@ -430,7 +431,7 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 		"AND f.catchtype != 'release' AND f.catchtype != 'squirrel'",
 		"ORDER BY date desc")
 
-	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryBiggestFishPerType, validPlayers, "biggest", false)
+	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryBiggestFishPerType, validPlayers, "biggest", false, redAveryTreasures, originalMythicalFish)
 	if err != nil {
 		return Profiles, err
 	}
@@ -443,7 +444,7 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 		"AND f.catchtype != 'release' AND f.catchtype != 'squirrel'",
 		"ORDER BY date desc")
 
-	Profiles, err = QueryMapStringFishInfo(params, Profiles, querySmallestFishPerType, validPlayers, "smallest", false)
+	Profiles, err = QueryMapStringFishInfo(params, Profiles, querySmallestFishPerType, validPlayers, "smallest", false, redAveryTreasures, originalMythicalFish)
 	if err != nil {
 		return Profiles, err
 	}
@@ -458,7 +459,7 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 		"",
 		"")
 
-	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryLastFishPerType, validPlayers, "last", false)
+	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryLastFishPerType, validPlayers, "last", false, redAveryTreasures, originalMythicalFish)
 	if err != nil {
 		return Profiles, err
 	}
@@ -471,7 +472,7 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 		"",
 		"")
 
-	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryFirstFishPerType, validPlayers, "first", false)
+	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryFirstFishPerType, validPlayers, "first", false, redAveryTreasures, originalMythicalFish)
 	if err != nil {
 		return Profiles, err
 	}
@@ -479,7 +480,7 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 	return Profiles, nil
 }
 
-func QueryMapStringFishInfo(params LeaderboardParams, Profiles map[int]*PlayerProfile, query string, validPlayers []int, whatmap string, chat bool) (map[int]*PlayerProfile, error) {
+func QueryMapStringFishInfo(params LeaderboardParams, Profiles map[int]*PlayerProfile, query string, validPlayers []int, whatmap string, chat bool, redAveryTreasures []string, originalMythicalFish []string) (map[int]*PlayerProfile, error) {
 	date2 := params.Date2
 	date := params.Date
 	pool := params.Pool
@@ -543,19 +544,43 @@ func QueryMapStringFishInfo(params LeaderboardParams, Profiles map[int]*PlayerPr
 
 				Profiles[fish.PlayerID].FirstCaughtFishPerType[fish.TypeName] = fish
 
-				// Also store the first time someone caught their treasures
-				// new treasures need to be manually added
-				if Profiles[fish.PlayerID].Treasures.FirstTimeCaughtRedAveryTreasure == nil {
-					Profiles[fish.PlayerID].Treasures.FirstTimeCaughtRedAveryTreasure = make(map[string]data.FishInfo)
+				for _, redAveryTreasure := range redAveryTreasures {
+
+					if fish.TypeName == redAveryTreasure {
+
+						// Update their progress for the Red Avery Treasures
+						if Profiles[fish.PlayerID].Treasures.FirstTimeCaughtRedAveryTreasure == nil {
+							Profiles[fish.PlayerID].Treasures.FirstTimeCaughtRedAveryTreasure = make(map[string]data.FishInfo)
+						}
+
+						Profiles[fish.PlayerID].Treasures.FirstTimeCaughtRedAveryTreasure[fish.TypeName] = fish
+
+						Profiles[fish.PlayerID].Treasures.RedAveryTreasureCount++
+
+						if Profiles[fish.PlayerID].Treasures.RedAveryTreasureCount == len(redAveryTreasures) {
+							Profiles[fish.PlayerID].Treasures.HasAllRedAveryTreasure = true
+							Profiles[fish.PlayerID].Stars++
+						}
+					}
 				}
 
-				if fish.TypeName == "dagger" || fish.TypeName == "crown" || fish.TypeName == "compass" {
-					Profiles[fish.PlayerID].Treasures.FirstTimeCaughtRedAveryTreasure[fish.TypeName] = fish
+				for _, ogMythicalFish := range originalMythicalFish {
 
-					Profiles[fish.PlayerID].Treasures.RedAveryTreasureCount++
+					if fish.TypeName == ogMythicalFish {
 
-					if Profiles[fish.PlayerID].Treasures.RedAveryTreasureCount == 3 {
-						Profiles[fish.PlayerID].Treasures.HasAllRedAveryTreasure = true
+						// Update their progress for the Mythical Fish
+						if Profiles[fish.PlayerID].MythicalFish.FirstTimeCaughtOriginalMythicalFish == nil {
+							Profiles[fish.PlayerID].MythicalFish.FirstTimeCaughtOriginalMythicalFish = make(map[string]data.FishInfo)
+						}
+
+						Profiles[fish.PlayerID].MythicalFish.FirstTimeCaughtOriginalMythicalFish[fish.TypeName] = fish
+
+						Profiles[fish.PlayerID].MythicalFish.OriginalMythicalFishCount++
+
+						if Profiles[fish.PlayerID].MythicalFish.OriginalMythicalFishCount == len(originalMythicalFish) {
+							Profiles[fish.PlayerID].MythicalFish.HasAllOriginalMythicalFish = true
+							Profiles[fish.PlayerID].Stars++
+						}
 					}
 				}
 			}

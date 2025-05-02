@@ -106,6 +106,16 @@ func GetAllFishNames(params LeaderboardParams) ([]string, error) {
 	return fishes, nil
 }
 
+// the treasures and mythical fish
+// for the player profiles
+func ReturnRedAveryTreasure() []string {
+	return []string{"dagger", "crown", "compass"}
+}
+
+func ReturnOriginalMythicalFish() []string {
+	return []string{"mermaid", "malegenie"}
+}
+
 func GetAllShinies(params LeaderboardParams) ([]string, error) {
 	board := params.LeaderboardType
 	chatName := params.ChatName
