@@ -5,10 +5,10 @@
 | 2 🥈  | 🐳 whale | 303.81 | qu4ttromila | 2023-03-17 23:18:19 |
 | 3 🥉  | 🦈 shark | 288.27 | miiiiisho | 2024-02-01 22:00:13 |
 | 4  | 🦕 sauropod | 286.09 | sicklymaidrobot | 2023-11-06 10:21:56 |
-| 5  | 🐉 dragon | 284.43 | eaeac | 2024-12-10 21:13:14 |
-| 6  | 🐻‍❄ polarbear | 272.28 | larvasisters | 2025-01-02 19:01:21 |
-| 7  | 🐍 snake | 271.95 | miiiiisho | 2024-01-09 01:20:50 |
-| 8  | 🫎 moose | 255.87 | leanmeister | 2025-03-18 07:27:42 |
+| 5  | 🐉 dragon | 284.43 | c_mgirl | 2024-12-10 21:13:14 |
+| 6 ⬆ | 🫎 moose | 278.16 (+22.29) | fvkdylan | 2025-04-27 13:58:41 |
+| 7 ⬇ | 🐻‍❄ polarbear | 272.28 | larvasisters | 2025-01-02 19:01:21 |
+| 8 ⬇ | 🐍 snake | 271.95 | miiiiisho | 2024-01-09 01:20:50 |
 | 9  | 🛢️ oildrum | 251.70 | osnyisdead | 2024-08-14 01:03:37 |
 | 10  | 🐢 turtle | 251.35 | bussinongnocap | 2023-06-17 05:29:50 |
 | 11  | 🐙 octopus | 198.60 | derinturitierutz | 2023-12-27 14:54:34 |
@@ -41,7 +41,7 @@
 | 38  | 🥒 cucumber | 31.72 | kishma9 | 2023-06-26 12:35:30 |
 | 39  | 🧽 sponge | 29.73 | dayzedinndaydreams | 2023-08-24 08:42:37 |
 | 40  | 🧊 icecube | 29.34 | dougiefresh_83 | 2024-12-31 21:24:39 |
-| 41  | 🐠 tropicalfish | 28.79 | eaeac | 2025-03-28 16:25:42 |
+| 41  | 🐠 tropicalfish | 28.79 | c_mgirl | 2025-03-28 16:25:42 |
 | 42  | 🪳 cockroach | 26.79 | fishingalt | 2025-03-02 15:50:28 |
 | 43  | 🎰 slotmachine | 23.35 | gstaman911 | 2025-03-15 03:53:22 |
 | 44  | 🦠 plankton | 22.00 | osnyatsky | 2024-01-03 09:00:25 |
@@ -69,8 +69,8 @@
 | 66  | 💀 skull | 9.98 | bussinongnocap | 2023-05-14 05:29:15 |
 | 67  | 🥫 cannedfood | 5.98 | leanmeister | 2025-01-07 20:29:27 |
 | 68  | 🧵 wireline | 5.95 | ninjaross | 2025-03-15 11:04:57 |
-| 69  | 🐚 shell | 5.92 | eaeac | 2025-04-01 04:02:00 |
-| 70  | 🦉 owl | 5.90 | eaeac | 2024-10-20 16:28:24 |
+| 69  | 🐚 shell | 5.92 | c_mgirl | 2025-04-01 04:02:00 |
+| 70  | 🦉 owl | 5.90 | c_mgirl | 2024-10-20 16:28:24 |
 | 71  | 🎏 lure | 5.76 | fishingalt | 2024-01-13 13:04:30 |
 | 72  | 🪝 hook | 4.98 | sussy_amonge | 2022-12-15 17:37:01 |
 | 73  | 🐦‍⬛ blackbird | 4.85 | qu4ttromila | 2024-04-25 00:23:08 |
@@ -80,10 +80,10 @@
 | 77  | 🪿 goose | 3.41 | julialuxel | 2025-01-15 04:08:39 |
 | 78  | ☂️ umbrella | 2.99 | vaiastol | 2024-07-14 15:25:04 |
 | 79  | 👡 sandal | 2.97 | fishingalt | 2025-03-16 15:45:17 |
-| 79  | 🥀 wiltedflower | 2.97 | eaeac | 2024-12-19 20:15:08 |
+| 79  | 🥀 wiltedflower | 2.97 | c_mgirl | 2024-12-19 20:15:08 |
 | 81  | 🌹 rose | 2.96 | osnyatsky | 2024-03-28 12:12:36 |
 | 81  | 🥪 sandwich | 2.96 | qu4ttromila | 2023-05-29 08:10:17 |
-| 83  | 🌷 tulip | 2.85 (+0.04) | ritual665 | 2025-04-26 01:03:44 |
+| 83  | 🌷 tulip | 2.85 | invfierno | 2025-04-26 01:03:44 |
 | 84  | 🌻 sunflower | 2.78 | fishingalt | 2024-06-18 10:20:11 |
 | 85  | 🍬 candy | 2.60 | 5c33* | 2022-12-19 03:20:33 |
 | 86  | 👟 athleticshoe | 2.00 | kishma9 | 2023-11-05 02:37:53 |
@@ -103,4 +103,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-04-27 09:07:08 UTC_
+_Last updated at 2025-05-04 09:47:48 UTC_

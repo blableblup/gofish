@@ -81,7 +81,7 @@
 		"chat": "dizzy",
 		"fishid": 113488,
 		"chatid": 1308,
-		"rank": 62
+		"rank": 63
 	},
 	"bird": {
 		"player": "hamoodhabibee",
@@ -95,7 +95,7 @@
 		"chat": "dizzy",
 		"fishid": 167716,
 		"chatid": 11301,
-		"rank": 61
+		"rank": 62
 	},
 	"blowfish": {
 		"player": "dead2i",
@@ -193,7 +193,7 @@
 		"chat": "dizzy",
 		"fishid": 151762,
 		"chatid": 9465,
-		"rank": 59
+		"rank": 60
 	},
 	"carpentrysaw": {
 		"player": "gimmeschmoneys",
@@ -473,7 +473,7 @@
 		"chat": "dizzy",
 		"fishid": 145886,
 		"chatid": 9026,
-		"rank": 64
+		"rank": 65
 	},
 	"icecube": {
 		"player": "ben_vincent",
@@ -531,6 +531,20 @@
 		"chatid": 915,
 		"rank": 33
 	},
+	"leaf": {
+		"player": "gimmeschmoneys",
+		"playerid": 3086,
+		"weight": 0.86,
+		"bot": "gofishgame",
+		"type": "🍃",
+		"typename": "leaf",
+		"catchtype": "normal",
+		"date": "2025-04-28T09:28:23Z",
+		"chat": "dizzy",
+		"fishid": 169248,
+		"chatid": 11501,
+		"rank": 83
+	},
 	"lizard": {
 		"player": "synncss",
 		"playerid": 3026,
@@ -585,7 +599,7 @@
 		"chat": "dizzy",
 		"fishid": 145462,
 		"chatid": 8975,
-		"rank": 63
+		"rank": 64
 	},
 	"malegenie": {
 		"player": "tairaaaaa",
@@ -781,7 +795,7 @@
 		"chat": "dizzy",
 		"fishid": 135116,
 		"chatid": 7987,
-		"rank": 84
+		"rank": 85
 	},
 	"seal": {
 		"player": "wisteraeia",
@@ -842,16 +856,16 @@
 	"shell": {
 		"player": "gimmeschmoneys",
 		"playerid": 3086,
-		"weight": 4.59,
+		"weight": 5.9,
 		"bot": "gofishgame",
 		"type": "🐚",
 		"typename": "shell",
 		"catchtype": "normal",
-		"date": "2025-04-18T02:40:43Z",
+		"date": "2025-05-03T20:58:43Z",
 		"chat": "dizzy",
-		"fishid": 166870,
-		"chatid": 11190,
-		"rank": 65
+		"fishid": 170475,
+		"chatid": 11686,
+		"rank": 59
 	},
 	"shoppingcart": {
 		"player": "buhl00n",
@@ -1131,7 +1145,7 @@
 		"chat": "dizzy",
 		"fishid": 155560,
 		"chatid": 9892,
-		"rank": 60
+		"rank": 61
 	},
 	"womanshat": {
 		"player": "ssenario",

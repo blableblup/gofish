@@ -93,7 +93,7 @@
 | 89  | xkimi1337  | 118 |
 | 91  | theskritsch  | 117 |
 | 92  | garciaerik  | 115 |
-| 93  | qyxuu  | 113 |
+| 93  | nv6y4  | 113 |
 | 94  | starducc  | 108 |
 | 94  | wuh6  | 108 |
 | 96  | hydronix  | 106 |
@@ -103,4 +103,4 @@
 
 _Only showing fishers who caught >= 100 fish_
 
-_Last updated at 2025-04-13 10:22:18 UTC_
+_Last updated at 2025-05-04 09:46:26 UTC_

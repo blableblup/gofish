@@ -59,14 +59,14 @@
 | 56  | 🦎 lizard | 9.91 | synncss | 2024-11-01 01:12:13 |
 | 57  | 🕶️ darksunglasses | 9.87 | gimmeschmoneys | 2024-10-22 11:25:00 |
 | 58  | 🧥 coat | 6.78 | iam_glorp | 2025-02-18 01:35:25 |
-| 59  | 🥫 cannedfood | 5.88 | gimmeschmoneys | 2025-03-02 04:38:49 |
-| 60  | 🧵 wireline | 5.66 | hamoodhabibee | 2025-03-15 23:00:16 |
-| 61 ⬆ | 🐦 bird | 5.18 (+1.86) | hamoodhabibee | 2025-04-21 22:06:03 |
-| 62 ⬇ | 🧃 beveragebox | 5.17 | lilzomme | 2024-10-24 20:56:03 |
-| 63 ⬇ | 🎏 lure | 4.97 | rougep1rate | 2025-02-02 21:36:15 |
-| 64 ⬇ | 🪝 hook | 4.72 | ben_vincent | 2025-02-05 02:21:58 |
-| 65 ⬇ | 🐚 shell | 4.59 | gimmeschmoneys | 2025-04-18 02:40:43 |
-| 66 ⬇ | ☘️ shamrock | 3.99 | iam_glorp | 2025-04-04 08:21:18 |
+| 59 ⬆ | 🐚 shell | 5.90 (+1.31) | gimmeschmoneys | 2025-05-03 20:58:43 |
+| 60 ⬇ | 🥫 cannedfood | 5.88 | gimmeschmoneys | 2025-03-02 04:38:49 |
+| 61 ⬇ | 🧵 wireline | 5.66 | hamoodhabibee | 2025-03-15 23:00:16 |
+| 62 ⬇ | 🐦 bird | 5.18 | hamoodhabibee | 2025-04-21 22:06:03 |
+| 63 ⬇ | 🧃 beveragebox | 5.17 | lilzomme | 2024-10-24 20:56:03 |
+| 64 ⬇ | 🎏 lure | 4.97 | rougep1rate | 2025-02-02 21:36:15 |
+| 65 ⬇ | 🪝 hook | 4.72 | ben_vincent | 2025-02-05 02:21:58 |
+| 66  | ☘️ shamrock | 3.99 | iam_glorp | 2025-04-04 08:21:18 |
 | 67  | 🌰 acorn | 3.26 | gofishgamer | 2024-10-25 03:40:01 |
 | 68  | 🥀 wiltedflower | 2.96 | buhl00n | 2024-12-22 13:48:49 |
 | 69  | 🌷 tulip | 2.90 | iam_glorp | 2025-03-18 09:34:00 |
@@ -84,8 +84,9 @@
 | 81  | 🍬 candy | 0.93 | spanmer | 2024-11-17 16:32:54 |
 | 82  | 🪶 feather | 0.92 | iam_glorp | 2025-01-30 09:09:36 |
 | 83  | 🪚 carpentrysaw | 0.86 | gimmeschmoneys | 2025-02-01 18:11:04 |
-| 84  | 🧣 scarf | 0.75 | exo9 | 2024-12-25 05:19:42 |
+| 83 🆕 | 🍃 leaf | 0.86 | gimmeschmoneys | 2025-04-28 09:28:23 |
+| 85 ⬇ | 🧣 scarf | 0.75 | exo9 | 2024-12-25 05:19:42 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-04-27 09:07:01 UTC_
+_Last updated at 2025-05-04 09:47:39 UTC_

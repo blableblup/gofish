@@ -22,7 +22,7 @@
 | 19  | 🦕 sauropod | 0.37 | bubinga | 2024-11-02 12:03:16 |
 | 20  | 🪵 log | 0.36 | noconcept_ | 2023-11-26 11:51:47 |
 | 21  | 🐬 dolphin | 0.35 | millinoid | 2023-11-09 01:19:44 |
-| 22  | 🍬 candy | 0.32 | qyxuu | 2024-10-07 07:47:12 |
+| 22  | 🍬 candy | 0.32 | nv6y4 | 2024-10-07 07:47:12 |
 | 23  | 🧵 wireline | 0.31 | popfizzgg | 2024-10-04 13:43:30 |
 | 24  | 🥀 wiltedflower | 0.29 | iflya320 | 2024-12-09 19:11:25 |
 | 25  | 🌷 tulip | 0.24 | iflya320 | 2024-12-04 13:10:28 |
@@ -92,4 +92,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-04-13 10:22:41 UTC_
+_Last updated at 2025-05-04 09:46:32 UTC_

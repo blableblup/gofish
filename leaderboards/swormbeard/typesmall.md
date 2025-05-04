@@ -23,7 +23,7 @@
 | 20  | 📱 iphone | 5.21 | fvkdylan | 2025-03-18 23:17:58 |
 | 21  | 🐋 whale2 | 4.91 | gawblemachine | 2024-08-07 18:36:53 |
 | 22  | 🕷️ spider | 4.36 | derintu | 2025-03-15 18:48:34 |
-| 23  | 🦆 duck | 3.99 | eaeac | 2024-10-07 02:07:17 |
+| 23  | 🦆 duck | 3.99 | c_mgirl | 2024-10-07 02:07:17 |
 | 24  | 🪀 bobber | 3.83 | kishma9 | 2025-03-15 01:09:13 |
 | 25  | 🐠 tropicalfish | 3.54 | respirate_ | 2024-08-24 21:55:40 |
 | 26  | 🦞 lobster | 2.82 | respirate_ | 2024-08-31 23:03:24 |
@@ -32,7 +32,7 @@
 | 29  | 🧽 sponge | 2.43 | dayzedinndaydreams | 2024-08-04 18:57:12 |
 | 30  | 🍄‍🟫 brownmushroom | 2.18 | derintu | 2025-03-15 20:43:28 |
 | 31  | 🪳 cockroach | 2.15 | sicklymaidrobot | 2024-08-02 21:50:26 |
-| 32  | 🦀 crab | 1.89 | eaeac | 2025-03-12 20:46:58 |
+| 32  | 🦀 crab | 1.89 | c_mgirl | 2025-03-12 20:46:58 |
 | 33  | 🥫 cannedfood | 1.73 | leanmeister | 2024-11-27 21:52:51 |
 | 34  | 🐌 snail | 1.52 | derinturitierutz | 2025-03-17 18:46:09 |
 | 35  | 🍁 mapleleaf | 0.94 | leanmeister | 2024-11-14 23:08:37 |
@@ -63,4 +63,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-04-13 10:22:43 UTC_
+_Last updated at 2025-05-04 09:46:48 UTC_

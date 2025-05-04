@@ -54,7 +54,7 @@
 | 51  | 🐌 snail | 11.97 | sandwichsundays | 2024-07-09 03:04:06 |
 | 52  | 🧸 teddybear | 11.91 | yaratecs2 | 2024-01-01 14:39:17 |
 | 53  | 🪹 emptynest | 10.91 | veny2lbs | 2024-09-28 03:04:09 |
-| 54  | 💀 skull | 10.89 | qyxuu | 2024-10-12 08:17:27 |
+| 54  | 💀 skull | 10.89 | nv6y4 | 2024-10-12 08:17:27 |
 | 55  | 🧊 icecube | 10.85 | angus_lpc | 2024-12-05 14:00:23 |
 | 56  | 🦎 lizard | 10.84 | bosscrazymen | 2023-12-17 18:48:58 |
 | 57  | 🎱 8ball | 10.82 | 0_asd | 2024-03-31 10:49:57 |
@@ -92,4 +92,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-04-13 10:23:38 UTC_
+_Last updated at 2025-05-04 09:47:43 UTC_

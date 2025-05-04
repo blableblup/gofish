@@ -37,10 +37,10 @@
 | 34  | emotion_01 | 🐋 whale2 | 63.17 | 2024-08-09 15:15:43 |
 | 35  | sulypert | 🐙 octopus | 61.78 | 2024-09-29 18:05:30 |
 | 36  | houseofleaves | 🐋 whale2 | 61.69 | 2024-09-01 01:35:25 |
-| 37 🆕 | redreignss | 🐬 dolphin | 61.59 | 2025-04-23 13:26:54 |
-| 38 ⬇ | nightmare_jpg | 🐊 crocodile | 56.42 | 2025-03-02 16:24:06 |
-| 39 🆕 | obama | 🐢 turtle | 53.76 | 2025-04-23 22:38:33 |
+| 37  | redreignss | 🐬 dolphin | 61.59 | 2025-04-23 13:26:54 |
+| 38  | nightmare_jpg | 🐊 crocodile | 56.42 | 2025-03-02 16:24:06 |
+| 39  | obama | 🦑 squid | 53.86 (+0.10) | 2025-04-27 21:26:02 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2025-04-27 09:07:41 UTC_
+_Last updated at 2025-05-04 09:47:17 UTC_

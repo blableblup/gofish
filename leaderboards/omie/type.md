@@ -60,7 +60,7 @@
 | 57  | 🐸 frog | 5.99 | v6r_ | 2025-03-17 05:33:46 |
 | 58  | 🐚 shell | 5.94 | solahh__ | 2025-04-02 22:15:33 |
 | 59  | 🧵 wireline | 5.46 | mangos4u | 2024-12-19 03:02:18 |
-| 60  | 🎏 lure | 4.94 | mangos4u | 2024-12-11 02:03:15 |
+| 60  | 🎏 lure | 4.97 (+0.03) | ritaaww | 2025-04-29 17:30:40 |
 | 61  | 🥫 cannedfood | 4.92 | v6r_ | 2025-01-07 03:31:41 |
 | 62  | 🪝 hook | 4.23 | v6r_ | 2025-03-11 23:15:39 |
 | 63  | ☘️ shamrock | 3.99 | v6r_ | 2025-03-13 19:31:46 |
@@ -90,4 +90,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-04-13 10:23:33 UTC_
+_Last updated at 2025-05-04 09:47:29 UTC_

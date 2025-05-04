@@ -211,7 +211,7 @@
 		"chat": "vaiastol",
 		"fishid": 120361,
 		"chatid": 1945,
-		"rank": 72
+		"rank": 71
 	},
 	"cannedfood": {
 		"player": "nicestnarwhal",
@@ -282,7 +282,7 @@
 		"chat": "vaiastol",
 		"fishid": 114472,
 		"chatid": 1571,
-		"rank": 75
+		"rank": 74
 	},
 	"crab": {
 		"player": "eelacy",
@@ -409,7 +409,7 @@
 		"chat": "vaiastol",
 		"fishid": 155887,
 		"chatid": 5197,
-		"rank": 65
+		"rank": 63
 	},
 	"feather": {
 		"player": "garout",
@@ -423,7 +423,7 @@
 		"chat": "vaiastol",
 		"fishid": 147340,
 		"chatid": 4125,
-		"rank": 69
+		"rank": 67
 	},
 	"fish": {
 		"player": "julialuxel",
@@ -452,7 +452,7 @@
 		"chat": "vaiastol",
 		"fishid": 140955,
 		"chatid": 3426,
-		"rank": 68
+		"rank": 66
 	},
 	"gloves": {
 		"player": "vaiastol",
@@ -509,7 +509,7 @@
 		"fishid": 139968,
 		"chatid": 3301,
 		"verified": true,
-		"rank": 72
+		"rank": 71
 	},
 	"iceskate": {
 		"player": "vaiastol",
@@ -523,7 +523,7 @@
 		"chat": "vaiastol",
 		"fishid": 138320,
 		"chatid": 3080,
-		"rank": 75
+		"rank": 74
 	},
 	"iphone": {
 		"player": "eelacy",
@@ -537,7 +537,7 @@
 		"chat": "vaiastol",
 		"fishid": 155123,
 		"chatid": 5117,
-		"rank": 69
+		"rank": 67
 	},
 	"jellyfish": {
 		"player": "cyaniderx",
@@ -568,19 +568,18 @@
 		"rank": 22
 	},
 	"lizard": {
-		"player": "divra__",
-		"playerid": 575,
-		"weight": 0.09,
+		"player": "vaiastol",
+		"playerid": 1135,
+		"weight": 0.05,
 		"bot": "gofishgame",
 		"type": "🦎",
 		"typename": "lizard",
 		"catchtype": "normal",
-		"date": "2024-10-05T21:01:54Z",
+		"date": "2025-04-30T23:57:39Z",
 		"chat": "vaiastol",
-		"fishid": 107221,
-		"chatid": 1018,
-		"verified": true,
-		"rank": 63
+		"fishid": 169880,
+		"chatid": 6766,
+		"rank": 70
 	},
 	"lobster": {
 		"player": "eelacy",
@@ -907,7 +906,7 @@
 		"chat": "vaiastol",
 		"fishid": 94214,
 		"chatid": 139,
-		"rank": 75
+		"rank": 74
 	},
 	"shoppingcart": {
 		"player": "beebo8i",
@@ -949,7 +948,7 @@
 		"chat": "vaiastol",
 		"fishid": 124855,
 		"chatid": 2214,
-		"rank": 65
+		"rank": 63
 	},
 	"slotmachine": {
 		"player": "vaiastol",
@@ -966,18 +965,18 @@
 		"rank": 5
 	},
 	"snail": {
-		"player": "hahppyy",
-		"playerid": 1310,
-		"weight": 0.09,
+		"player": "garout",
+		"playerid": 3555,
+		"weight": 0.03,
 		"bot": "gofishgame",
 		"type": "🐌",
 		"typename": "snail",
 		"catchtype": "normal",
-		"date": "2025-03-17T14:34:04Z",
+		"date": "2025-05-01T12:09:11Z",
 		"chat": "vaiastol",
-		"fishid": 156170,
-		"chatid": 5222,
-		"rank": 63
+		"fishid": 169941,
+		"chatid": 6773,
+		"rank": 74
 	},
 	"snake": {
 		"player": "garout",
@@ -991,7 +990,7 @@
 		"chat": "vaiastol",
 		"fishid": 162914,
 		"chatid": 6073,
-		"rank": 72
+		"rank": 71
 	},
 	"socks": {
 		"player": "hahppyy",
@@ -1005,7 +1004,7 @@
 		"chat": "vaiastol",
 		"fishid": 152428,
 		"chatid": 4721,
-		"rank": 65
+		"rank": 63
 	},
 	"spider": {
 		"player": "tiaguitos97",
@@ -1033,7 +1032,7 @@
 		"chat": "vaiastol",
 		"fishid": 93279,
 		"chatid": 66,
-		"rank": 69
+		"rank": 67
 	},
 	"squid": {
 		"player": "verypeppy",

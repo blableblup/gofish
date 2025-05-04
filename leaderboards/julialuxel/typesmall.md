@@ -38,7 +38,7 @@
 | 35  | 🐦‍⬛ blackbird | 0.69 | ninjaross | 2024-05-04 18:16:52 |
 | 36  | 🐌 snail | 0.67 | chubbbyhamster | 2024-03-29 19:36:29 |
 | 37  | ⛸️ iceskate | 0.62 | toastyso | 2024-01-07 02:21:01 |
-| 38  | 🐚 shell | 0.56 | eaeac | 2025-03-31 02:33:51 |
+| 38  | 🐚 shell | 0.56 | c_mgirl | 2025-03-31 02:33:51 |
 | 39  | 🕷️ spider | 0.54 | hahppyy | 2024-01-03 23:48:54 |
 | 40  | 👟 athleticshoe | 0.53 | supibot | 2024-01-04 18:43:39 |
 | 41  | 🪳 cockroach | 0.38 | julialuxel | 2024-01-03 13:55:10 |
@@ -57,4 +57,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-04-13 10:22:59 UTC_
+_Last updated at 2025-05-04 09:46:28 UTC_
