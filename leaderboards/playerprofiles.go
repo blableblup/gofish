@@ -66,20 +66,18 @@ type PlayerProfile struct {
 }
 
 type TreasureProgress struct {
-	FirstTimeCaughtRedAveryTreasure map[string]data.FishInfo
-	HasAllRedAveryTreasure          bool
-	RedAveryTreasureCount           int
+	HasAllRedAveryTreasure bool
+	RedAveryTreasureCount  int
 }
 
 type SonnyDayProgress struct {
-	LetterInBag data.FishInfo
-	HasLetter   bool
+	LetterInBagReceived time.Time
+	HasLetter           bool
 }
 
 type MythicalFishProgress struct {
-	FirstTimeCaughtOriginalMythicalFish map[string]data.FishInfo
-	HasAllOriginalMythicalFish          bool
-	OriginalMythicalFishCount           int
+	HasAllOriginalMythicalFish bool
+	OriginalMythicalFishCount  int
 }
 
 type Shinies struct {
@@ -177,6 +175,7 @@ func GetPlayerProfiles(params LeaderboardParams) {
 			Str("Chat", chatName).
 			Str("Board", board).
 			Msg("Error getting player profiles")
+		return
 	}
 
 	wg := new(sync.WaitGroup)
@@ -344,7 +343,7 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 
 	// received means when it first appeared in their bag
 	if Profile.SonnyDay.HasLetter {
-		_, _ = fmt.Fprintf(file, "\n* ⭐ Has gotten a letter ✉️ ! (Received: %s UTC)\n", Profile.SonnyDay.LetterInBag.Date.Format("2006-01-02 15:04:05"))
+		_, _ = fmt.Fprintf(file, "\n* ⭐ Has gotten a letter ✉️ ! (Received: %s UTC)\n", Profile.SonnyDay.LetterInBagReceived.Format("2006-01-02 15:04:05"))
 	}
 
 	if Profile.Shiny.HasShiny {

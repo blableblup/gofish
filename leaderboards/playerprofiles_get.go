@@ -11,15 +11,13 @@ import (
 )
 
 func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish []string, allShinies []string, redAveryTreasures []string, originalMythicalFish []string) (map[int]*PlayerProfile, error) {
-	date2 := params.Date2
-	date := params.Date
 	pool := params.Pool
 
 	// the * to update the maps inside the struct directly
 	Profiles := make(map[int]*PlayerProfile, len(validPlayers))
 
 	// The count per year per chat
-	rows, err := pool.Query(context.Background(), `
+	queryCountYearChat := `
 		select count(*), 
 		to_char(date_trunc('year', date), 'YYYY') as chatpfp,
 		chat,
@@ -28,18 +26,14 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 		where playerid = any($1)
 		and date < $2
 	  	and date > $3
-		group by chatpfp, chat, playerid`,
-		validPlayers, date, date2)
+		group by chatpfp, chat, playerid`
+
+	countyearchat, err := ReturnFishSliceQueryValidPlayers(params, queryCountYearChat, validPlayers)
 	if err != nil {
 		return Profiles, err
 	}
 
-	ChatCountsYear, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
-	if err != nil {
-		return Profiles, err
-	}
-
-	for _, ble := range ChatCountsYear {
+	for _, ble := range countyearchat {
 		count := ble.Count
 		year := ble.ChatPfp
 		chat := ble.Chat
@@ -82,8 +76,8 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 	}
 
 	// The last seen bag
-	rows, err = pool.Query(context.Background(),
-		`select bag, bot, chat, date, b.playerid
+	queryLastSeenBag := ` 
+		select bag, bot, chat, date, b.playerid
 		from bag b
 		join
 		(
@@ -93,14 +87,10 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 		and date < $2
 	  	and date > $3
 		group by playerid
-		) bag on b.playerid = bag.playerid and b.date = bag.max_date`,
-		validPlayers, date, date2)
-	if err != nil {
-		return Profiles, err
-	}
+		) bag on b.playerid = bag.playerid and b.date = bag.max_date`
 
-	bags, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
-	if err != nil && err != pgx.ErrNoRows {
+	bags, err := ReturnFishSliceQueryValidPlayers(params, queryLastSeenBag, validPlayers)
+	if err != nil {
 		return Profiles, err
 	}
 
@@ -136,8 +126,8 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 	}
 
 	// The first seen bag which had the ✉️ letter in it
-	rows, err = pool.Query(context.Background(),
-		`select bag, bot, chat, date, b.playerid
+	queryFirstSeenLetterBag := `
+		select bag, bot, chat, date, b.playerid
 		from bag b
 		join
 		(
@@ -148,25 +138,21 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 	  	and date > $3
 		and '✉️' = any(bag)
 		group by playerid
-		) bag on b.playerid = bag.playerid and b.date = bag.min_date`,
-		validPlayers, date, date2)
+		) bag on b.playerid = bag.playerid and b.date = bag.min_date`
+
+	letterbags, err := ReturnFishSliceQueryValidPlayers(params, queryFirstSeenLetterBag, validPlayers)
 	if err != nil {
 		return Profiles, err
 	}
 
-	letterbag, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
-	if err != nil && err != pgx.ErrNoRows {
-		return Profiles, err
-	}
-
-	for _, bag := range letterbag {
+	for _, bag := range letterbags {
 		Profiles[bag.PlayerID].SonnyDay.HasLetter = true
-		Profiles[bag.PlayerID].SonnyDay.LetterInBag = bag
+		Profiles[bag.PlayerID].SonnyDay.LetterInBagReceived = bag.Date
 		Profiles[bag.PlayerID].Stars++
 	}
 
 	// The fish type caught count per year per chat per catchtype
-	rows, err = pool.Query(context.Background(), `
+	queryFishTypesCaughtCountYearChat := `
 		select count(*),
 		fishname as typename,
 		chat,
@@ -177,19 +163,15 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 		where playerid = any($1)
 		and date < $2
 	  	and date > $3
-		group by typename, chat, date, catchtype, playerid`,
-		validPlayers, date, date2)
-	if err != nil {
-		return Profiles, err
-	}
+		group by typename, chat, date, catchtype, playerid`
 
-	FishTypesCaughtCountYearChat, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
+	fishTypesCaughtCountYearChat, err := ReturnFishSliceQueryValidPlayers(params, queryFishTypesCaughtCountYearChat, validPlayers)
 	if err != nil {
 		return Profiles, err
 	}
 
 	// a
-	for _, ble := range FishTypesCaughtCountYearChat {
+	for _, ble := range fishTypesCaughtCountYearChat {
 		count := ble.Count
 		fishname := ble.TypeName
 		chat := ble.Chat
@@ -289,20 +271,16 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 
 	// all their fish seen; could get this from the fishtypescaughtcount maps
 	// but this is also sorting them by name, so i dont need to sort them later
-	rows, err = pool.Query(context.Background(),
-		`select array_agg(distinct(fishname)) as bag, playerid
+	queryFishSeen := `
+		select array_agg(distinct(fishname)) as bag, playerid
 		from fish 
 		where playerid = any($1)
 		and date < $2
 	  	and date > $3
-		group by playerid`,
-		validPlayers, date, date2)
-	if err != nil {
-		return Profiles, err
-	}
+		group by playerid`
 
-	fishseen, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
-	if err != nil && err != pgx.ErrNoRows {
+	fishseen, err := ReturnFishSliceQueryValidPlayers(params, queryFishSeen, validPlayers)
+	if err != nil {
 		return Profiles, err
 	}
 
@@ -353,9 +331,14 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 	  	AND date > $3
     	) bub WHERE RANK <= 10`
 
-	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryBiggestFishOverall, validPlayers, "biggestoverall", true, redAveryTreasures, originalMythicalFish)
+	fishes, err := ReturnFishSliceQueryValidPlayers(params, queryBiggestFishOverall, validPlayers)
 	if err != nil {
 		return Profiles, err
+	}
+
+	for _, fish := range fishes {
+
+		Profiles[fish.PlayerID].BiggestFish = append(Profiles[fish.PlayerID].BiggestFish, fish)
 	}
 
 	// The 10 last fish per player
@@ -373,265 +356,266 @@ func GetThePlayerProfiles(params LeaderboardParams, validPlayers []int, allFish 
 	  	AND date > $3
     	) bub WHERE RANK <= 10`
 
-	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryLastFishOverall, validPlayers, "lastoverall", true, redAveryTreasures, originalMythicalFish)
+	fishes, err = ReturnFishSliceQueryValidPlayers(params, queryLastFishOverall, validPlayers)
 	if err != nil {
 		return Profiles, err
+	}
+
+	for _, fish := range fishes {
+
+		Profiles[fish.PlayerID].LastFish = append(Profiles[fish.PlayerID].LastFish, fish)
 	}
 
 	// For biggest and smallest ignore the fish which i dont see the weight of in the catch message (squirrels and release bonus fish)
 	// Also for biggest and smallest im ordering by date desc, so that as the rows are being read, if someone caught that weight multiple times
 	// it should always end up printing the oldest one with that weight on the profile
-	queryBiggestFishChat := ConstructFishQuery(
-		",MAX(weight) AS max_weight, chat",
-		"AND catchtype != 'release' AND catchtype != 'squirrel'",
-		",chat",
-		"AND f.weight = sub.max_weight AND f.chat = sub.chat",
-		"AND f.catchtype != 'release' AND f.catchtype != 'squirrel'",
-		"ORDER BY date desc")
+	queryBiggestFishChat := `
+		SELECT f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid
+		FROM fish f
+		JOIN (
+		SELECT playerid, MAX(weight) AS max_weight, chat
+		FROM fish
+		WHERE playerid = any($1)
+		AND date < $2
+		AND date > $3
+		AND catchtype != 'release' AND catchtype != 'squirrel'
+		GROUP BY playerid, chat
+		) AS sub
+		ON f.playerid = sub.playerid AND f.weight = sub.max_weight AND f.chat = sub.chat AND f.catchtype != 'release' AND f.catchtype != 'squirrel'
+		WHERE f.playerid = any($1)
+		ORDER BY date desc`
 
-	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryBiggestFishChat, validPlayers, "biggest", true, redAveryTreasures, originalMythicalFish)
+	fishes, err = ReturnFishSliceQueryValidPlayers(params, queryBiggestFishChat, validPlayers)
 	if err != nil {
 		return Profiles, err
+	}
+
+	for _, fish := range fishes {
+		if Profiles[fish.PlayerID].BiggestFishChat == nil {
+			Profiles[fish.PlayerID].BiggestFishChat = make(map[string]data.FishInfo)
+		}
+
+		Profiles[fish.PlayerID].BiggestFishChat[fish.Chat] = fish
 	}
 
 	// If first / last catch was a mouth bonus catch dont select the mouth catch,
 	// So that there arent two fish with max / min date
-	queryFirstFishChat := ConstructFishQuery(
-		",MIN(date) AS min_date, chat",
-		"",
-		",chat",
-		"AND f.date = sub.min_date AND f.chat = sub.chat",
-		"AND f.catchtype != 'mouth'",
-		"")
+	queryFirstFishChat := ` 
+		SELECT f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid
+		FROM fish f
+		JOIN (
+		SELECT playerid, MIN(date) AS min_date, chat
+		FROM fish
+		WHERE playerid = any($1)
+		AND date < $2
+		AND date > $3
+		GROUP BY playerid, chat
+		) AS sub
+		ON f.playerid = sub.playerid AND f.date = sub.min_date AND f.chat = sub.chat AND f.catchtype != 'mouth'
+		WHERE f.playerid = any($1)`
 
-	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryFirstFishChat, validPlayers, "first", true, redAveryTreasures, originalMythicalFish)
+	fishes, err = ReturnFishSliceQueryValidPlayers(params, queryFirstFishChat, validPlayers)
 	if err != nil {
 		return Profiles, err
 	}
 
-	queryLastFishChat := ConstructFishQuery(
-		",MAX(date) AS max_date, chat",
-		"",
-		",chat",
-		"AND f.date = sub.max_date AND f.chat = sub.chat",
-		"AND f.catchtype != 'mouth'",
-		"")
+	for _, fish := range fishes {
+		if Profiles[fish.PlayerID].FirstFishChat == nil {
+			Profiles[fish.PlayerID].FirstFishChat = make(map[string]data.FishInfo)
+		}
 
-	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryLastFishChat, validPlayers, "last", true, redAveryTreasures, originalMythicalFish)
+		Profiles[fish.PlayerID].FirstFishChat[fish.Chat] = fish
+	}
+
+	queryLastFishChat := `	
+		SELECT f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid
+		FROM fish f
+		JOIN (
+		SELECT playerid, MAX(date) AS max_date, chat
+		FROM fish
+		WHERE playerid = any($1)
+		AND date < $2
+		AND date > $3
+		GROUP BY playerid, chat
+		) AS sub
+		ON f.playerid = sub.playerid AND f.date = sub.max_date AND f.chat = sub.chat AND f.catchtype != 'mouth'
+		WHERE f.playerid = any($1)`
+
+	fishes, err = ReturnFishSliceQueryValidPlayers(params, queryLastFishChat, validPlayers)
 	if err != nil {
 		return Profiles, err
+	}
+
+	for _, fish := range fishes {
+		if Profiles[fish.PlayerID].LastFishChat == nil {
+			Profiles[fish.PlayerID].LastFishChat = make(map[string]data.FishInfo)
+		}
+
+		Profiles[fish.PlayerID].LastFishChat[fish.Chat] = fish
 	}
 
 	// Get the biggest, smallest, last and first fish per fishtype
-	queryBiggestFishPerType := ConstructFishQuery(
-		",fishname, MAX(weight) AS max_weight",
-		"AND catchtype != 'release' AND catchtype != 'squirrel'",
-		",fishname",
-		"AND f.weight = sub.max_weight AND f.fishname = sub.fishname",
-		"AND f.catchtype != 'release' AND f.catchtype != 'squirrel'",
-		"ORDER BY date desc")
+	queryBiggestFishPerType := ` 
+		SELECT f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid
+		FROM fish f
+		JOIN (
+		SELECT playerid, fishname, MAX(weight) AS max_weight
+		FROM fish
+		WHERE playerid = any($1)
+		AND date < $2 
+		AND date > $3
+		AND catchtype != 'release' AND catchtype != 'squirrel'
+		GROUP BY playerid, fishname
+		) AS sub
+		ON f.playerid = sub.playerid AND f.weight = sub.max_weight AND f.fishname = sub.fishname AND f.catchtype != 'release' AND f.catchtype != 'squirrel'
+		WHERE f.playerid = any($1)
+		ORDER BY date desc`
 
-	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryBiggestFishPerType, validPlayers, "biggest", false, redAveryTreasures, originalMythicalFish)
+	fishes, err = ReturnFishSliceQueryValidPlayers(params, queryBiggestFishPerType, validPlayers)
 	if err != nil {
 		return Profiles, err
 	}
 
-	querySmallestFishPerType := ConstructFishQuery(
-		",fishname, MIN(weight) AS min_weight",
-		"AND catchtype != 'release' AND catchtype != 'squirrel'",
-		",fishname",
-		"AND f.weight = sub.min_weight AND f.fishname = sub.fishname",
-		"AND f.catchtype != 'release' AND f.catchtype != 'squirrel'",
-		"ORDER BY date desc")
+	for _, fish := range fishes {
+		if Profiles[fish.PlayerID].BiggestFishPerType == nil {
+			Profiles[fish.PlayerID].BiggestFishPerType = make(map[string]data.FishInfo)
+		}
 
-	Profiles, err = QueryMapStringFishInfo(params, Profiles, querySmallestFishPerType, validPlayers, "smallest", false, redAveryTreasures, originalMythicalFish)
+		Profiles[fish.PlayerID].BiggestFishPerType[fish.TypeName] = fish
+	}
+
+	querySmallestFishPerType := `
+		SELECT f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid
+		FROM fish f
+		JOIN (
+		SELECT playerid, fishname, MIN(weight) AS min_weight
+		FROM fish
+		WHERE playerid = any($1)
+		AND date < $2 
+		AND date > $3
+		AND catchtype != 'release' AND catchtype != 'squirrel'
+		GROUP BY playerid, fishname
+		) AS sub
+		ON f.playerid = sub.playerid AND f.weight = sub.min_weight AND f.fishname = sub.fishname AND f.catchtype != 'release' AND f.catchtype != 'squirrel'
+		WHERE f.playerid = any($1)
+		ORDER BY date desc`
+
+	fishes, err = ReturnFishSliceQueryValidPlayers(params, querySmallestFishPerType, validPlayers)
 	if err != nil {
 		return Profiles, err
+	}
+
+	for _, fish := range fishes {
+		if Profiles[fish.PlayerID].SmallestFishPerType == nil {
+			Profiles[fish.PlayerID].SmallestFishPerType = make(map[string]data.FishInfo)
+		}
+
+		Profiles[fish.PlayerID].SmallestFishPerType[fish.TypeName] = fish
 	}
 
 	// If someones last catch of a type was a mouth catch and the fish in the mouth and the other catch are of the same type
 	// this will select two fishes, doesnt rly happen a lot anyways so idc (?)
-	queryLastFishPerType := ConstructFishQuery(
-		",MAX(date) AS max_date, fishname",
-		"",
-		",fishname",
-		"AND f.date = sub.max_date AND f.fishname = sub.fishname",
-		"",
-		"")
+	queryLastFishPerType := `
+		SELECT f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid
+		FROM fish f
+		JOIN (
+		SELECT playerid, MAX(date) AS max_date, fishname
+		FROM fish
+		WHERE playerid = any($1)
+		AND date < $2 
+		AND date > $3
+		GROUP BY playerid, fishname
+		) AS sub
+		ON f.playerid = sub.playerid AND f.date = sub.max_date AND f.fishname = sub.fishname 
+		WHERE f.playerid = any($1)`
 
-	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryLastFishPerType, validPlayers, "last", false, redAveryTreasures, originalMythicalFish)
+	fishes, err = ReturnFishSliceQueryValidPlayers(params, queryLastFishPerType, validPlayers)
 	if err != nil {
 		return Profiles, err
 	}
 
-	queryFirstFishPerType := ConstructFishQuery(
-		",MIN(date) AS min_date, fishname",
-		"",
-		",fishname",
-		"AND f.date = sub.min_date AND f.fishname = sub.fishname",
-		"",
-		"")
+	for _, fish := range fishes {
+		if Profiles[fish.PlayerID].LastCaughtFishPerType == nil {
+			Profiles[fish.PlayerID].LastCaughtFishPerType = make(map[string]data.FishInfo)
+		}
 
-	Profiles, err = QueryMapStringFishInfo(params, Profiles, queryFirstFishPerType, validPlayers, "first", false, redAveryTreasures, originalMythicalFish)
+		Profiles[fish.PlayerID].LastCaughtFishPerType[fish.TypeName] = fish
+	}
+
+	queryFirstFishPerType := `
+		SELECT f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid
+		FROM fish f
+		JOIN (
+		SELECT playerid, MIN(date) AS min_date, fishname
+		FROM fish
+		WHERE playerid = any($1)
+		AND date < $2 
+		AND date > $3
+		GROUP BY playerid, fishname
+		) AS sub
+		ON f.playerid = sub.playerid AND f.date = sub.min_date AND f.fishname = sub.fishname 
+		WHERE f.playerid = any($1)`
+
+	fishes, err = ReturnFishSliceQueryValidPlayers(params, queryFirstFishPerType, validPlayers)
 	if err != nil {
 		return Profiles, err
+	}
+
+	for _, fish := range fishes {
+		if Profiles[fish.PlayerID].FirstCaughtFishPerType == nil {
+			Profiles[fish.PlayerID].FirstCaughtFishPerType = make(map[string]data.FishInfo)
+		}
+
+		Profiles[fish.PlayerID].FirstCaughtFishPerType[fish.TypeName] = fish
+
+		// Update their progress for the Red Avery Treasures
+		for _, redAveryTreasure := range redAveryTreasures {
+
+			if fish.TypeName == redAveryTreasure {
+
+				Profiles[fish.PlayerID].Treasures.RedAveryTreasureCount++
+
+				if Profiles[fish.PlayerID].Treasures.RedAveryTreasureCount == len(redAveryTreasures) {
+					Profiles[fish.PlayerID].Treasures.HasAllRedAveryTreasure = true
+					Profiles[fish.PlayerID].Stars++
+				}
+			}
+		}
+
+		// Update their progress for the Mythical Fish
+		for _, ogMythicalFish := range originalMythicalFish {
+
+			if fish.TypeName == ogMythicalFish {
+
+				Profiles[fish.PlayerID].MythicalFish.OriginalMythicalFishCount++
+
+				if Profiles[fish.PlayerID].MythicalFish.OriginalMythicalFishCount == len(originalMythicalFish) {
+					Profiles[fish.PlayerID].MythicalFish.HasAllOriginalMythicalFish = true
+					Profiles[fish.PlayerID].Stars++
+				}
+			}
+		}
 	}
 
 	return Profiles, nil
 }
 
-func QueryMapStringFishInfo(params LeaderboardParams, Profiles map[int]*PlayerProfile, query string, validPlayers []int, whatmap string, chat bool, redAveryTreasures []string, originalMythicalFish []string) (map[int]*PlayerProfile, error) {
+func ReturnFishSliceQueryValidPlayers(params LeaderboardParams, query string, validPlayers []int) ([]data.FishInfo, error) {
 	date2 := params.Date2
 	date := params.Date
 	pool := params.Pool
 
 	rows, err := pool.Query(context.Background(), query, validPlayers, date, date2)
 	if err != nil {
-		return Profiles, err
+		return []data.FishInfo{}, err
 	}
 
-	Fishes, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
+	fishy, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
 	if err != nil && err != pgx.ErrNoRows {
-		return Profiles, err
+		return []data.FishInfo{}, err
 	}
 
-	switch whatmap {
-	case "biggest":
-		for _, fish := range Fishes {
-			if chat {
-				if Profiles[fish.PlayerID].BiggestFishChat == nil {
-					Profiles[fish.PlayerID].BiggestFishChat = make(map[string]data.FishInfo)
-				}
-
-				Profiles[fish.PlayerID].BiggestFishChat[fish.Chat] = fish
-			} else {
-				if Profiles[fish.PlayerID].BiggestFishPerType == nil {
-					Profiles[fish.PlayerID].BiggestFishPerType = make(map[string]data.FishInfo)
-				}
-
-				Profiles[fish.PlayerID].BiggestFishPerType[fish.TypeName] = fish
-			}
-		}
-	case "biggestoverall":
-		for _, fish := range Fishes {
-			Profiles[fish.PlayerID].BiggestFish = append(Profiles[fish.PlayerID].BiggestFish, fish)
-		}
-	case "smallest":
-		for _, fish := range Fishes {
-			if chat {
-				// im not selecting the smallest fish per chat
-				logs.Logs().Warn().Msg("No smallest fish per chat!")
-			} else {
-				if Profiles[fish.PlayerID].SmallestFishPerType == nil {
-					Profiles[fish.PlayerID].SmallestFishPerType = make(map[string]data.FishInfo)
-				}
-
-				Profiles[fish.PlayerID].SmallestFishPerType[fish.TypeName] = fish
-			}
-		}
-	case "first":
-		for _, fish := range Fishes {
-			if chat {
-				if Profiles[fish.PlayerID].FirstFishChat == nil {
-					Profiles[fish.PlayerID].FirstFishChat = make(map[string]data.FishInfo)
-				}
-
-				Profiles[fish.PlayerID].FirstFishChat[fish.Chat] = fish
-			} else {
-				if Profiles[fish.PlayerID].FirstCaughtFishPerType == nil {
-					Profiles[fish.PlayerID].FirstCaughtFishPerType = make(map[string]data.FishInfo)
-				}
-
-				Profiles[fish.PlayerID].FirstCaughtFishPerType[fish.TypeName] = fish
-
-				for _, redAveryTreasure := range redAveryTreasures {
-
-					if fish.TypeName == redAveryTreasure {
-
-						// Update their progress for the Red Avery Treasures
-						if Profiles[fish.PlayerID].Treasures.FirstTimeCaughtRedAveryTreasure == nil {
-							Profiles[fish.PlayerID].Treasures.FirstTimeCaughtRedAveryTreasure = make(map[string]data.FishInfo)
-						}
-
-						Profiles[fish.PlayerID].Treasures.FirstTimeCaughtRedAveryTreasure[fish.TypeName] = fish
-
-						Profiles[fish.PlayerID].Treasures.RedAveryTreasureCount++
-
-						if Profiles[fish.PlayerID].Treasures.RedAveryTreasureCount == len(redAveryTreasures) {
-							Profiles[fish.PlayerID].Treasures.HasAllRedAveryTreasure = true
-							Profiles[fish.PlayerID].Stars++
-						}
-					}
-				}
-
-				for _, ogMythicalFish := range originalMythicalFish {
-
-					if fish.TypeName == ogMythicalFish {
-
-						// Update their progress for the Mythical Fish
-						if Profiles[fish.PlayerID].MythicalFish.FirstTimeCaughtOriginalMythicalFish == nil {
-							Profiles[fish.PlayerID].MythicalFish.FirstTimeCaughtOriginalMythicalFish = make(map[string]data.FishInfo)
-						}
-
-						Profiles[fish.PlayerID].MythicalFish.FirstTimeCaughtOriginalMythicalFish[fish.TypeName] = fish
-
-						Profiles[fish.PlayerID].MythicalFish.OriginalMythicalFishCount++
-
-						if Profiles[fish.PlayerID].MythicalFish.OriginalMythicalFishCount == len(originalMythicalFish) {
-							Profiles[fish.PlayerID].MythicalFish.HasAllOriginalMythicalFish = true
-							Profiles[fish.PlayerID].Stars++
-						}
-					}
-				}
-			}
-		}
-	case "last":
-		for _, fish := range Fishes {
-			if chat {
-				if Profiles[fish.PlayerID].LastFishChat == nil {
-					Profiles[fish.PlayerID].LastFishChat = make(map[string]data.FishInfo)
-				}
-
-				Profiles[fish.PlayerID].LastFishChat[fish.Chat] = fish
-			} else {
-				if Profiles[fish.PlayerID].LastCaughtFishPerType == nil {
-					Profiles[fish.PlayerID].LastCaughtFishPerType = make(map[string]data.FishInfo)
-				}
-
-				Profiles[fish.PlayerID].LastCaughtFishPerType[fish.TypeName] = fish
-			}
-		}
-	case "lastoverall":
-		for _, fish := range Fishes {
-			Profiles[fish.PlayerID].LastFish = append(Profiles[fish.PlayerID].LastFish, fish)
-		}
-	default:
-		logs.Logs().Warn().
-			Str("MAP", whatmap).
-			Msg("QueryMapStringFishInfo WRONG MAP!")
-	}
-
-	return Profiles, nil
-}
-
-func ConstructFishQuery(innerSelect string, ignoreCatchtypeInside string, groupByInside string, idk string, ignoreCatchtypeOutside string, orderDateOutside string) string {
-
-	return fmt.Sprintf(` 
-		SELECT f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid
-		FROM fish f
-		JOIN (
-			SELECT playerid %s
-			FROM fish
-			WHERE playerid = any($1)
-			AND date < $2
-	  		AND date > $3
-			%s
-			GROUP BY playerid %s
-		) AS sub
-		ON f.playerid = sub.playerid %s %s
-		WHERE f.playerid = any($1)
-		%s`, innerSelect, ignoreCatchtypeInside, groupByInside, idk, ignoreCatchtypeOutside, orderDateOutside)
-
+	return fishy, nil
 }
 
 func GetTheShiniesForPlayerProfiles(params LeaderboardParams, Profiles map[int]*PlayerProfile) (map[int]*PlayerProfile, error) {
