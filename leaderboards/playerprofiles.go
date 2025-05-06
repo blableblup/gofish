@@ -160,8 +160,24 @@ func GetPlayerProfiles(params LeaderboardParams) {
 	// Get the names for the different type of ways you can catch fish
 	// and also the treasures and the mythical fish
 	Catchtypenames := CatchtypeNames()
-	redAveryTreasures := ReturnRedAveryTreasure()
-	originalMythicalFish := ReturnOriginalMythicalFish()
+
+	redAveryTreasures, err := ReturnRedAveryTreasure(params)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Chat", chatName).
+			Str("Board", board).
+			Msg("Error getting redAveryTreasures")
+		return
+	}
+
+	originalMythicalFish, err := ReturnOriginalMythicalFish(params)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Chat", chatName).
+			Str("Board", board).
+			Msg("Error getting originalMythicalFish")
+		return
+	}
 
 	// Get the player profiles and print them for each player
 
