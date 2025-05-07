@@ -15,7 +15,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 2,
 		"chatid": 1,
-		"rank": 9
+		"rank": 10
 	},
 	"248": {
 		"player": "exo9",
@@ -37,12 +37,12 @@
 	"3002": {
 		"player": "hamoodhabibee",
 		"playerid": 3002,
-		"weight": 6,
+		"weight": 7.5,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 1,
-		"chatid": 1,
-		"maxcount": 4,
-		"rank": 10
+		"chatid": 2,
+		"maxcount": 5,
+		"rank": 8
 	},
 	"3003": {
 		"player": "kyonuwu",
@@ -94,11 +94,11 @@
 	"3121": {
 		"player": "buhl00n",
 		"playerid": 3121,
-		"weight": 147.5,
+		"weight": 152,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 43,
-		"chatid": 17,
-		"maxcount": 3,
+		"fishid": 44,
+		"chatid": 18,
+		"maxcount": 4,
 		"rank": 1
 	},
 	"3143": {

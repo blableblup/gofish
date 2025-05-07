@@ -30,7 +30,7 @@
 | 27  | glorianeq  | 32 |
 | 28  | restartmikel  | 31 |
 | 29  | noconcept_  | 29 |
-| 30  | qyxuu  | 28 |
+| 30  | nv6y4  | 28 |
 | 31  | creepycode  | 26 |
 | 32  | angus_lpc  | 24 |
 | 32  | seryxx  | 24 |
@@ -38,4 +38,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2025-01-01 11:08:04 UTC_
+_Last updated at 2025-05-07 09:22:39 UTC_

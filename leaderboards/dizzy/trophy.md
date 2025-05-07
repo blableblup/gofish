@@ -1,16 +1,16 @@
 ### Leaderboard for the weekly tournaments in dizzy's chat
 | Rank | Player | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points |
 |------|--------|-------------|------------------|------------------|--------|
-| 1 🥇 | buhl00n | 43 (+2) | 17 (+1) | 3 | 147.5 (+7.0) |
+| 1 🥇 | buhl00n | 44 (+1) | 18 (+1) | 4 (+1) | 152.0 (+4.5) |
 | 2 🥈 | ben_vincent | 15 | 10 | 4 | 57.0 |
-| 3 🥉 | gimmeschmoneys | 7 (+1) | 8 (+1) | 4 (+1) | 31.0 (+4.5) |
+| 3 🥉 | gimmeschmoneys | 7 | 8 | 4 | 31.0 |
 | 4 | konsminator | 3 | 2 | 4 | 13.0 |
 | 5 | lolspers | 0 | 7 | 7 | 10.5 |
 | 6 | iam_glorp | 0 | 8 | 4 | 10.0 |
 | 6 | vagdi | 3 | 0 | 2 | 10.0 |
+| 8 ⬆| hamoodhabibee | 1 | 2 (+1) | 5 (+1) | 7.5 (+1.5) |
 | 8 | iam_haunt | 1 | 3 | 3 | 7.5 |
-| 9 | aceleju | 2 | 1 | 0 | 7.0 |
-| 10 | hamoodhabibee | 1 | 1 | 4 | 6.0 |
+| 10 ⬇| aceleju | 2 | 1 | 0 | 7.0 |
 | 11 | spanmer | 0 | 3 | 4 | 5.0 |
 | 12 | popfizzgg | 1 | 0 | 1 | 3.5 |
 | 13 | exo9 | 1 | 0 | 0 | 3.0 |
@@ -19,4 +19,4 @@
 | 16 | ofaisalz | 0 | 0 | 2 | 1.0 |
 | 17 | julialuxel | 0 | 0 | 1 | 0.5 |
 
-_Last updated at 2025-04-30 10:28:52 UTC_
+_Last updated at 2025-05-07 09:22:39 UTC_
