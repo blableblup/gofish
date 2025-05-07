@@ -229,7 +229,7 @@ func getJsonBoard(filePath string) (map[int]data.FishInfo, error) {
 	return oldBoard, nil
 }
 
-func writeRaw(filePath string, board map[int]data.FishInfo) error {
+func writeRaw(filePath string, data any) error {
 
 	filePath = strings.TrimSuffix(filePath, filepath.Ext(filePath))
 
@@ -239,7 +239,7 @@ func writeRaw(filePath string, board map[int]data.FishInfo) error {
 	}
 	defer file.Close()
 
-	bytes, err := json.MarshalIndent(board, "", "\t")
+	bytes, err := json.MarshalIndent(data, "", "\t")
 	if err != nil {
 		return err
 	}
