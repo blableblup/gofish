@@ -554,6 +554,21 @@
 			"checkfdata": true,
 			"board_enabled": true
 		},
+		"wiihxhx": {
+			"twitchid": "703051649",
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2025/5"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2025/5"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
 		"wuh6": {
 			"twitchid": "1022625575",
 			"logs_instances": [
