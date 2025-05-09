@@ -63,7 +63,9 @@ func PlayerStuff(playerID int, params LeaderboardParams, pool *pgxpool.Pool) (st
 }
 
 // because some fish had different emotes on supibot, i always get the latest emoji from fishinfo
-func FishStuff(fishName string, params LeaderboardParams, pool *pgxpool.Pool) (string, error) {
+func FishStuff(fishName string, params LeaderboardParams) (string, error) {
+	pool := params.Pool
+
 	var emoji string
 
 	if _, ok := params.FishTypes[fishName]; !ok {
@@ -192,6 +194,69 @@ func GetAllShinies(params LeaderboardParams) ([]string, error) {
 	return shinies, nil
 }
 
+func CatchtypeNames(pool *pgxpool.Pool) (map[string]string, error) {
+
+	CatchtypeNames := make(map[string]string)
+
+	rows, err := pool.Query(context.Background(), `
+		select distinct(catchtype) from fish`)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Msg("Error querying database")
+		return map[string]string{}, err
+	}
+	defer rows.Close()
+
+	for rows.Next() {
+
+		var catchtype string
+
+		if err := rows.Scan(&catchtype); err != nil {
+			logs.Logs().Error().Err(err).
+				Msg("Error scanning row")
+			return map[string]string{}, err
+		}
+
+		switch catchtype {
+		default:
+			logs.Logs().Error().
+				Str("Catchtype", catchtype).
+				Msg("NO NAME FOR CATCHTYPE!!!!")
+
+		case "normal":
+			CatchtypeNames[catchtype] = "Normal"
+
+		case "egg":
+			CatchtypeNames[catchtype] = "Hatched egg"
+
+		case "release":
+			CatchtypeNames[catchtype] = "Release bonus"
+
+		case "jumped":
+			CatchtypeNames[catchtype] = "Jumped bonus"
+
+		case "mouth":
+			CatchtypeNames[catchtype] = "Mouth bonus"
+
+		case "squirrel":
+			CatchtypeNames[catchtype] = "Squirrel"
+
+		case "squirrelfail":
+			CatchtypeNames[catchtype] = "Squirrel fail"
+			// the squirrels i added manually because bread forgor to update game and you werent supposed to catch them
+
+		}
+	}
+
+	if err = rows.Err(); err != nil {
+		logs.Logs().Error().Err(err).
+			Msg("Error iterating over rows")
+		return map[string]string{}, err
+	}
+
+	return CatchtypeNames, nil
+}
+
 func getJsonBoard(filePath string) (map[int]data.FishInfo, error) {
 
 	oldBoard := make(map[int]data.FishInfo)
@@ -286,26 +351,6 @@ func getJsonBoardString(filePath string) (map[string]data.FishInfo, error) {
 	return oldBoard, nil
 }
 
-func writeRawString(filePath string, board map[string]data.FishInfo) error {
-
-	filePath = strings.TrimSuffix(filePath, filepath.Ext(filePath))
-
-	file, err := os.Create(filePath + ".json")
-	if err != nil {
-		return err
-	}
-	defer file.Close()
-
-	bytes, err := json.MarshalIndent(board, "", "\t")
-	if err != nil {
-		return err
-	}
-
-	_, _ = fmt.Fprintf(file, "%s", bytes)
-
-	return nil
-}
-
 func sortMapIntFishInfo(somemap map[int]data.FishInfo, whattosort string) []int {
 
 	blee := make([]int, 0, len(somemap))
@@ -349,29 +394,6 @@ func sortMapStringFishInfo(somemap map[string]data.FishInfo, whattosort string) 
 		sort.SliceStable(blee, func(i, j int) bool { return blee[i] < blee[j] })
 		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].TypeName < somemap[blee[j]].TypeName })
 		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Count > somemap[blee[j]].Count })
-	default:
-		logs.Logs().Warn().
-			Str("WhatToSort", whattosort).
-			Msg("idk what to do :(")
-	}
-
-	return blee
-}
-
-// for nameasc and countdesc (only used for playerprofiles)
-func sortMapString(somemap map[string]int, whattosort string) []string {
-
-	blee := make([]string, 0, len(somemap))
-	for whatever := range somemap {
-		blee = append(blee, whatever)
-	}
-
-	switch whattosort {
-	case "countdesc":
-		sort.SliceStable(blee, func(i, j int) bool { return blee[i] < blee[j] })
-		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]] > somemap[blee[j]] })
-	case "nameasc":
-		sort.SliceStable(blee, func(i, j int) bool { return blee[i] < blee[j] })
 	default:
 		logs.Logs().Warn().
 			Str("WhatToSort", whattosort).
@@ -491,21 +513,6 @@ func didFishMapChange(params LeaderboardParams, oldBoard map[string]data.FishInf
 		}
 	}
 	return mapsarethesame
-}
-
-func CatchtypeNames() map[string]string {
-
-	CatchTypesPlayerProfile := map[string]string{
-		"normal":       "Normal",
-		"egg":          "Hatched egg",
-		"release":      "Release bonus",
-		"jumped":       "Jumped bonus",
-		"mouth":        "Mouth bonus",
-		"squirrel":     "Squirrel",
-		"squirrelfail": "Squirrel fail", // the squirrels i added manually because bread forgor to update game and you werent supposed to catch them
-	}
-
-	return CatchTypesPlayerProfile
 }
 
 func Ranks(rank int) string {

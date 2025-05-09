@@ -48,19 +48,27 @@ func Leaderboards(pool *pgxpool.Pool, leaderboards string, chatNames string, dat
 		return
 	}
 
+	// Get the map with the name for the catchtypes
+	Catchtypes, err := CatchtypeNames(pool)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Msg("Error getting names for catchtypes")
+	}
+
 	// Store the flags, the connection, the config and initialize the two maps for storing player and fish data
 	params := LeaderboardParams{
-		Pool:      pool,
-		Mode:      mode,
-		ChatName:  chatNames,
-		Config:    config,
-		Date:      date,
-		Date2:     date2,
-		Path:      path,
-		Title:     title,
-		Limit:     limit,
-		Players:   make(map[int]data.FishInfo),
-		FishTypes: make(map[string]string),
+		Pool:           pool,
+		Mode:           mode,
+		ChatName:       chatNames,
+		Config:         config,
+		Date:           date,
+		Date2:          date2,
+		Path:           path,
+		Title:          title,
+		Limit:          limit,
+		Catchtypenames: Catchtypes,
+		Players:        make(map[int]data.FishInfo),
+		FishTypes:      make(map[string]string),
 	}
 
 	// map of all the boards
@@ -267,6 +275,7 @@ type LeaderboardParams struct {
 	Global          bool
 	Players         map[int]data.FishInfo
 	FishTypes       map[string]string
+	Catchtypenames  map[string]string
 }
 
 func isValidDate(date string) bool {

@@ -91,7 +91,6 @@ type ProfileFish struct {
 	// but arent printed out in the end
 	Count    int       `json:"-"`
 	PlayerID int       `json:"-"`
-	Player   string    `json:"-"`
 	TypeName string    `json:"-"`
 	ChatPfp  string    `json:"-"`
 	Url      string    `json:"-"`
@@ -117,7 +116,6 @@ func GetPlayerProfiles(params LeaderboardParams) {
 	chatName := params.ChatName
 	config := params.Config
 	limit := params.Limit
-	pool := params.Pool
 
 	var countlimit int
 	var err error
@@ -161,7 +159,7 @@ func GetPlayerProfiles(params LeaderboardParams) {
 	FishWithEmoji := make(map[string]string)
 
 	for _, fish := range allFishes {
-		FishWithEmoji[fish], err = FishStuff(fish, params, pool)
+		FishWithEmoji[fish], err = FishStuff(fish, params)
 		if err != nil {
 			logs.Logs().Error().Err(err).
 				Str("Chat", chatName).
@@ -184,9 +182,7 @@ func GetPlayerProfiles(params LeaderboardParams) {
 		return
 	}
 
-	// Get the names for the different type of ways you can catch fish
-	// and also the treasures and the mythical fish
-	Catchtypenames := CatchtypeNames()
+	// Get the treasures and the mythical fish
 
 	redAveryTreasures, err := ReturnRedAveryTreasure(params)
 	if err != nil {
@@ -212,7 +208,7 @@ func GetPlayerProfiles(params LeaderboardParams) {
 		Int("Amount of players", len(validPlayers)).
 		Msg("Updating player profiles")
 
-	playerProfiles, err := GetThePlayerProfiles(params, FishWithEmoji, Catchtypenames, validPlayers, allFishes, allShinies, redAveryTreasures, originalMythicalFish)
+	playerProfiles, err := GetThePlayerProfiles(params, FishWithEmoji, validPlayers, allFishes, allShinies, redAveryTreasures, originalMythicalFish)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Chat", chatName).

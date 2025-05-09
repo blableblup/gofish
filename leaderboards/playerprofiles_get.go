@@ -9,7 +9,8 @@ import (
 	"github.com/jackc/pgx/v5"
 )
 
-func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]string, CatchtypeNames map[string]string, validPlayers []int, allFish []string, allShinies []string, redAveryTreasures []string, originalMythicalFish []string) (map[int]*PlayerProfile, error) {
+func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]string, validPlayers []int, allFish []string, allShinies []string, redAveryTreasures []string, originalMythicalFish []string) (map[int]*PlayerProfile, error) {
+	CatchtypeNames := params.Catchtypenames
 	pool := params.Pool
 
 	// the * to update the maps inside the struct directly
@@ -272,7 +273,7 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 			}
 
 			if fishneverseen {
-				Profiles[fishu.PlayerID].FishNotSeen = append(Profiles[fishu.PlayerID].FishNotSeen, fishy)
+				Profiles[fishu.PlayerID].FishNotSeen = append(Profiles[fishu.PlayerID].FishNotSeen, fmt.Sprintf("%s %s", fishy, EmojisForFish[fishy]))
 				Profiles[fishu.PlayerID].FishNotSeenTotal++
 			}
 		}

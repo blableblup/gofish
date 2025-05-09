@@ -220,7 +220,7 @@ func getChatStats(params LeaderboardParams) (map[string]data.FishInfo, error) {
 			return chatStats, err
 		}
 
-		chatInfo.Type, err = FishStuff(chatInfo.TypeName, params, pool)
+		chatInfo.Type, err = FishStuff(chatInfo.TypeName, params)
 		if err != nil {
 			return chatStats, err
 		}
@@ -371,7 +371,7 @@ func writeChatStats(filePath string, chatStats map[string]data.FishInfo, oldChat
 	_, _ = fmt.Fprintf(file, "\n_Last updated at %s_", time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC"))
 
 	// This has to be here, because im not getting the rank directly from the query
-	err = writeRawString(filePath, chatStats)
+	err = writeRaw(filePath, chatStats)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Path", filePath).

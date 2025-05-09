@@ -208,7 +208,7 @@ func getWeightRecords(params LeaderboardParams, weightlimit float64) (map[int]da
 			return recordWeight, err
 		}
 
-		fishInfo.Type, err = FishStuff(fishInfo.TypeName, params, pool)
+		fishInfo.Type, err = FishStuff(fishInfo.TypeName, params)
 		if err != nil {
 			return recordWeight, err
 		}
