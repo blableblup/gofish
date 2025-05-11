@@ -204,8 +204,13 @@
 					"logs_added": "2025/1"
 				}
 			],
+			"fishweek_limit": 10,
+			"weight_limit": 50,
+			"weight_limit_records": 100,
+			"totalcount_limit": 10,
+			"unique_limit": 10,
 			"checkfdata": true,
-			"board_enabled": false
+			"board_enabled": true
 		},
 		"forsengosling": {
 			"twitchid": "788787727",
@@ -398,8 +403,13 @@
 					"logs_added": "2024/5"
 				}
 			],
+			"fishweek_limit": 10,
+			"weight_limit": 50,
+			"weight_limit_records": 100,
+			"totalcount_limit": 10,
+			"unique_limit": 10,
 			"checkfdata": true,
-			"board_enabled": false
+			"board_enabled": true
 		},
 		"psp1g": {
 			"twitchid": "104391402",
@@ -471,8 +481,13 @@
 					"logs_added": "2024/10"
 				}
 			],
+			"fishweek_limit": 10,
+			"weight_limit": 50,
+			"weight_limit_records": 100,
+			"totalcount_limit": 10,
+			"unique_limit": 10,
 			"checkfdata": true,
-			"board_enabled": false
+			"board_enabled": true
 		},
 		"sauronwins": {
 			"twitchid": "242112564",
@@ -608,8 +623,13 @@
 					"logs_added": "2024/9"
 				}
 			],
+			"fishweek_limit": 10,
+			"weight_limit": 50,
+			"weight_limit_records": 100,
+			"totalcount_limit": 10,
+			"unique_limit": 10,
 			"checkfdata": true,
-			"board_enabled": false
+			"board_enabled": true
 		},
 		"yopego": {
 			"twitchid": "175225959",
@@ -619,8 +639,13 @@
 					"logs_added": "2024/10"
 				}
 			],
+			"fishweek_limit": 10,
+			"weight_limit": 50,
+			"weight_limit_records": 100,
+			"totalcount_limit": 10,
+			"unique_limit": 10,
 			"checkfdata": true,
-			"board_enabled": false
+			"board_enabled": true
 		},
 		"zomballr": {
 			"twitchid": "86173302",
