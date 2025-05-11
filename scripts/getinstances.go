@@ -48,6 +48,14 @@ func GetInstances() {
 
 				if channel.Name == chatName && channel.UserID == chat.TwitchID {
 					instanceswhichhavechannel[chatName] = append(instanceswhichhavechannel[chatName], instance)
+				} else if channel.Name != chatName && channel.UserID == chat.TwitchID {
+					// if the channel renamed
+					logs.Logs().Warn().
+						Str("Chat in config", chatName).
+						Str("Chat in API", channel.Name).
+						Str("TwitchID", channel.UserID).
+						Msg("Name different but same twitchID !")
+					instanceswhichhavechannel[chatName] = append(instanceswhichhavechannel[chatName], instance)
 				}
 			}
 		}
