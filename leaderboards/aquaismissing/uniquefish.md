@@ -5,10 +5,10 @@
 | 2 🥈  | likedom_  | 18 |
 | 3 🥉  | yyaaaaaaaas  | 17 |
 | 4  | kaitechpl  | 16 |
-| 5  | bubinga  | 14 (+1) |
-| 5  | dom1torii  | 14 (+1) |
-| 7 ⬇ | aquaismissing  | 13 |
-| 7 ⬇ | poggu_  | 13 |
+| 5  | bubinga  | 15 (+1) |
+| 6 ⬇ | dom1torii  | 14 |
+| 7  | aquaismissing  | 13 |
+| 7  | poggu_  | 13 |
 | 9  | kaczer1_  | 12 |
 | 9  | velantix*  | 12 |
 | 11  | aistyrax3  | 11 |
@@ -19,4 +19,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2025-05-04 09:47:18 UTC_
+_Last updated at 2025-05-11 09:28:07 UTC_

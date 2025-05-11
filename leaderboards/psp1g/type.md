@@ -59,37 +59,39 @@
 | 56  | 🦎 lizard | 10.84 | bosscrazymen | 2023-12-17 18:48:58 |
 | 57  | 🎱 8ball | 10.82 | 0_asd | 2024-03-31 10:49:57 |
 | 58  | 🪺 nestwitheggs | 10.31 | syxtuh | 2024-06-27 08:05:10 |
-| 59  | 🩲 briefs | 10.20 | alvaniss1g | 2023-09-18 12:21:36 |
+| 59  | 🩲 briefs | 10.20 | alvanissdev | 2023-09-18 12:21:36 |
 | 60  | 🐦 bird | 9.22 | zwockel01 | 2024-07-04 11:25:35 |
-| 61  | 🧵 wireline | 6.00 | ocrw | 2024-06-20 15:30:46 |
-| 62  | 🪝 hook | 4.99 | thedraingangceo* | 2023-08-24 20:19:25 |
-| 62  | 🎏 lure | 4.99 | thomasdoge | 2024-02-24 13:32:34 |
-| 64  | 🥫 cannedfood | 4.91 | huuuuuuuuuuuuuuuuuuuuuurz | 2024-01-22 08:44:29 |
-| 65  | 🌰 acorn | 4.00 | bubinga | 2024-09-26 10:53:14 |
-| 65  | ☘️ shamrock | 4.00 | divra__ | 2024-06-30 02:15:28 |
-| 65  | 🐚 shell | 4.00 | manianic_ | 2023-10-02 13:36:35 |
-| 68  | 🐦‍⬛ blackbird | 3.93 | flunke_ | 2024-09-05 14:16:16 |
-| 69  | ☂️ umbrella | 2.98 | theevirus | 2024-11-16 17:35:32 |
-| 70  | 🥀 wiltedflower | 2.97 | iflya320 | 2024-12-10 13:06:53 |
-| 71  | 🌻 sunflower | 2.95 | ratot | 2024-06-24 18:54:04 |
-| 72  | 🩴 thongsandal | 2.94 | bubinga | 2024-08-13 10:17:43 |
-| 73  | 🌷 tulip | 2.93 | iflya320 | 2024-12-04 16:22:17 |
-| 74  | 🌹 rose | 2.88 | zwockel01 | 2024-04-11 08:51:47 |
-| 75  | 🩰 balletshoes | 2.00 | tomsi1g | 2023-09-01 09:27:04 |
-| 75  | 👢 boot | 2.00 | thegovernment5g | 2024-01-03 19:04:05 |
-| 75  | 🧦 socks | 2.00 | manmanboy_ | 2023-09-16 12:22:22 |
-| 78  | 🌿 seaweed | 1.99 | angus_lpc | 2024-06-30 11:26:57 |
-| 79  | 👟 athleticshoe | 1.98 | jeejee_jjl | 2023-10-18 11:56:32 |
-| 79  | 🥪 sandwich | 1.98 | ovrht | 2023-10-26 12:50:25 |
-| 81  | ⛸️ iceskate | 1.96 | pookiesnowman | 2023-12-24 05:51:00 |
-| 82  | 🍬 candy | 1.89 | flunke_ | 2024-07-07 12:23:18 |
-| 83  | 🦢 swan | 1.26 | mazzo_tv | 2024-07-08 06:43:22 |
-| 84  | 🪶 feather | 1.00 | shadowraider247 | 2024-09-15 13:12:58 |
-| 84  | 🧤 gloves | 1.00 | kubo7 | 2024-01-27 18:51:58 |
-| 86  | 🍁 mapleleaf | 0.99 | flunke_ | 2024-10-22 20:57:20 |
-| 87  | 🧣 scarf | 0.92 | blazeblitzzz | 2024-02-01 23:11:44 |
-| 88  | 🐿️ squirrel | 0.90 | iflya320 | 2024-12-04 11:13:44 |
+| 61 🆕 | 🍄‍🟫 brownmushroom | 7.00 | mazzo_tv | 2025-05-06 11:55:03 |
+| 62 ⬇ | 🧵 wireline | 6.00 | ocrw | 2024-06-20 15:30:46 |
+| 63 ⬇ | 🪝 hook | 4.99 | thedraingangceo* | 2023-08-24 20:19:25 |
+| 63 ⬇ | 🎏 lure | 4.99 | thomasdoge | 2024-02-24 13:32:34 |
+| 65 ⬇ | 🥫 cannedfood | 4.91 | huuuuuuuuuuuuuuuuuuuuuurz | 2024-01-22 08:44:29 |
+| 66 ⬇ | 🌰 acorn | 4.00 | bubinga | 2024-09-26 10:53:14 |
+| 66 ⬇ | ☘️ shamrock | 4.00 | divra__ | 2024-06-30 02:15:28 |
+| 66 ⬇ | 🐚 shell | 4.00 | manianic_ | 2023-10-02 13:36:35 |
+| 69 ⬇ | 🐦‍⬛ blackbird | 3.93 | flunke_ | 2024-09-05 14:16:16 |
+| 70 ⬇ | ☂️ umbrella | 2.98 | theevirus | 2024-11-16 17:35:32 |
+| 71 ⬇ | 🥀 wiltedflower | 2.97 | iflya320 | 2024-12-10 13:06:53 |
+| 72 ⬇ | 🌻 sunflower | 2.95 | ratot | 2024-06-24 18:54:04 |
+| 73 ⬇ | 🩴 thongsandal | 2.94 | bubinga | 2024-08-13 10:17:43 |
+| 74 ⬇ | 🌷 tulip | 2.93 | iflya320 | 2024-12-04 16:22:17 |
+| 75 ⬇ | 🌹 rose | 2.88 | zwockel01 | 2024-04-11 08:51:47 |
+| 76 🆕 | 👡 sandal | 2.64 | mazzo_tv | 2025-05-06 17:36:17 |
+| 77 ⬇ | 🩰 balletshoes | 2.00 | tomsi1g | 2023-09-01 09:27:04 |
+| 77 ⬇ | 👢 boot | 2.00 | thegovernment5g | 2024-01-03 19:04:05 |
+| 77 ⬇ | 🧦 socks | 2.00 | manmanboy_ | 2023-09-16 12:22:22 |
+| 80 ⬇ | 🌿 seaweed | 1.99 | angus_lpc | 2024-06-30 11:26:57 |
+| 81 ⬇ | 👟 athleticshoe | 1.98 | jeejee_jjl | 2023-10-18 11:56:32 |
+| 81 ⬇ | 🥪 sandwich | 1.98 | ovrht | 2023-10-26 12:50:25 |
+| 83 ⬇ | ⛸️ iceskate | 1.96 | pookiesnowman | 2023-12-24 05:51:00 |
+| 84 ⬇ | 🍬 candy | 1.89 | flunke_ | 2024-07-07 12:23:18 |
+| 85 ⬇ | 🦢 swan | 1.26 | mazzo_tv | 2024-07-08 06:43:22 |
+| 86 ⬇ | 🪶 feather | 1.00 | shadowraider247 | 2024-09-15 13:12:58 |
+| 86 ⬇ | 🧤 gloves | 1.00 | kubo7 | 2024-01-27 18:51:58 |
+| 88 ⬇ | 🍁 mapleleaf | 0.99 | flunke_ | 2024-10-22 20:57:20 |
+| 89 ⬇ | 🧣 scarf | 0.92 | blazeblitzzz | 2024-02-01 23:11:44 |
+| 90 ⬇ | 🐿️ squirrel | 0.90 | iflya320 | 2024-12-04 11:13:44 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-05-04 09:47:43 UTC_
+_Last updated at 2025-05-11 09:27:26 UTC_

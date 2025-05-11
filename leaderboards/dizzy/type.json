@@ -39,7 +39,7 @@
 		"chat": "dizzy",
 		"fishid": 116894,
 		"chatid": 3042,
-		"rank": 76
+		"rank": 77
 	},
 	"balletshoes": {
 		"player": "ssenario",
@@ -53,7 +53,7 @@
 		"chat": "dizzy",
 		"fishid": 116336,
 		"chatid": 2741,
-		"rank": 75
+		"rank": 76
 	},
 	"beaver": {
 		"player": "gimmeschmoneys",
@@ -137,7 +137,7 @@
 		"chat": "dizzy",
 		"fishid": 117611,
 		"chatid": 3396,
-		"rank": 72
+		"rank": 73
 	},
 	"briefs": {
 		"player": "exo9",
@@ -179,7 +179,7 @@
 		"chat": "dizzy",
 		"fishid": 122489,
 		"chatid": 5103,
-		"rank": 81
+		"rank": 82
 	},
 	"cannedfood": {
 		"player": "gimmeschmoneys",
@@ -207,7 +207,7 @@
 		"chat": "dizzy",
 		"fishid": 145202,
 		"chatid": 8949,
-		"rank": 83
+		"rank": 84
 	},
 	"coat": {
 		"player": "iam_glorp",
@@ -417,7 +417,7 @@
 		"chat": "dizzy",
 		"fishid": 144693,
 		"chatid": 8911,
-		"rank": 82
+		"rank": 83
 	},
 	"fish": {
 		"player": "sugur",
@@ -459,7 +459,21 @@
 		"chat": "dizzy",
 		"fishid": 119744,
 		"chatid": 4110,
-		"rank": 79
+		"rank": 80
+	},
+	"grass": {
+		"player": "gimmeschmoneys",
+		"playerid": 3086,
+		"weight": 0.74,
+		"bot": "gofishgame",
+		"type": "🌾",
+		"typename": "grass",
+		"catchtype": "normal",
+		"date": "2025-05-05T21:58:58Z",
+		"chat": "dizzy",
+		"fishid": 170907,
+		"chatid": 11750,
+		"rank": 86
 	},
 	"hook": {
 		"player": "ben_vincent",
@@ -501,7 +515,7 @@
 		"chat": "dizzy",
 		"fishid": 134253,
 		"chatid": 7907,
-		"rank": 77
+		"rank": 78
 	},
 	"iphone": {
 		"player": "shheedy",
@@ -534,16 +548,16 @@
 	"leaf": {
 		"player": "gimmeschmoneys",
 		"playerid": 3086,
-		"weight": 0.86,
+		"weight": 2,
 		"bot": "gofishgame",
 		"type": "🍃",
 		"typename": "leaf",
 		"catchtype": "normal",
-		"date": "2025-04-28T09:28:23Z",
+		"date": "2025-05-10T11:10:39Z",
 		"chat": "dizzy",
-		"fishid": 169248,
-		"chatid": 11501,
-		"rank": 83
+		"fishid": 172173,
+		"chatid": 11864,
+		"rank": 72
 	},
 	"lizard": {
 		"player": "synncss",
@@ -767,7 +781,7 @@
 		"chat": "dizzy",
 		"fishid": 118774,
 		"chatid": 3759,
-		"rank": 78
+		"rank": 79
 	},
 	"sauropod": {
 		"player": "konsminator",
@@ -823,7 +837,7 @@
 		"chat": "dizzy",
 		"fishid": 152004,
 		"chatid": 9499,
-		"rank": 79
+		"rank": 80
 	},
 	"shamrock": {
 		"player": "iam_glorp",
@@ -963,7 +977,7 @@
 		"chat": "dizzy",
 		"fishid": 152826,
 		"chatid": 9660,
-		"rank": 72
+		"rank": 73
 	},
 	"spider": {
 		"player": "vagdi",
@@ -1033,7 +1047,7 @@
 		"chat": "dizzy",
 		"fishid": 113480,
 		"chatid": 1300,
-		"rank": 72
+		"rank": 73
 	},
 	"tropicalfish": {
 		"player": "lolspers",

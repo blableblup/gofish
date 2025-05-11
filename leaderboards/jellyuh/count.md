@@ -1,22 +1,23 @@
 ### Most fish caught in jellyuh's chat
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
-| 1 🥇  | rainedparade  | 235 (+16) |
-| 2 🥈  | miyabwah  | 204 (+7) |
-| 3 🥉  | goopy777  | 106 |
-| 4  | poioce  | 103 (+5) |
-| 5  | pompadourdelinquent  | 99 (+12) |
-| 6  | hello0d  | 79 |
-| 7  | teeto  | 72 (+1) |
-| 8 ⬆ | cptblack_  | 46 (+5) |
-| 9 ⬇ | e1d2f3  | 43 (+1) |
-| 10  | wombatbrownies  | 37 (+1) |
-| 11 ⬇ | crunch_sack  | 36 |
-| 12  | jellyuh  | 15 (+1) |
-| 12  | pxxchy_dreams  | 15 (+1) |
+| 1 🥇  | rainedparade  | 247 (+12) |
+| 2 🥈  | miyabwah  | 210 (+6) |
+| 3 🥉 ⬆ | poioce  | 111 (+8) |
+| 4 ⬆ | pompadourdelinquent  | 110 (+11) |
+| 5 ⬇ | goopy777  | 107 (+1) |
+| 6  | hello0d  | 81 (+2) |
+| 7  | teeto  | 75 (+3) |
+| 8  | cptblack_  | 51 (+5) |
+| 9  | e1d2f3  | 48 (+5) |
+| 10  | wombatbrownies  | 40 (+3) |
+| 11  | crunch_sack  | 36 |
+| 12  | jellyuh  | 16 (+1) |
+| 12  | pxxchy_dreams  | 16 (+1) |
+| 14 ⬆ | fadingmemoriez  | 13 (+1) |
 | 14  | maurgauna  | 13 |
-| 15  | fadingmemoriez  | 12 (+1) |
+| 16 🆕 | piz_z  | 11 |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-05-04 09:46:26 UTC_
+_Last updated at 2025-05-11 09:27:11 UTC_

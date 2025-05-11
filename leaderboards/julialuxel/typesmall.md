@@ -8,10 +8,10 @@
 | 5  | 🦭 seal | 30.79 | hahppyy | 2024-01-24 20:22:39 |
 | 6  | 🐧 penguin | 29.49 | ryebreadward | 2024-01-01 00:28:42 |
 | 7  | 🦫 beaver | 28.05 | julialuxel | 2024-10-04 20:54:33 |
-| 8  | 🐠 tropicalfish | 21.19 | dayzedinndaydreams | 2024-05-13 18:34:24 |
-| 9  | 🐙 octopus | 18.74 | hahppyy | 2024-01-03 02:43:01 |
-| 10  | 🦞 lobster | 17.60 | hahppyy | 2023-12-23 16:39:19 |
-| 11  | 🐬 dolphin | 13.62 | supibot | 2024-01-26 21:44:45 |
+| 8 ⬆ | 🐙 octopus | 18.74 | hahppyy | 2024-01-03 02:43:01 |
+| 9 ⬆ | 🦞 lobster | 17.60 | hahppyy | 2023-12-23 16:39:19 |
+| 10 ⬆ | 🐬 dolphin | 13.62 | supibot | 2024-01-26 21:44:45 |
+| 11 ⬇ | 🐠 tropicalfish | 13.48 (-7.71) | julialuxel | 2025-05-08 03:22:34 |
 | 12  | 🐉 dragon | 13.02 | toastyso | 2023-12-31 19:44:56 |
 | 13  | 💀 skull | 8.64 | julialuxel | 2024-04-01 16:11:26 |
 | 14  | 🧊 icecube | 8.17 | julialuxel | 2024-01-11 13:42:35 |
@@ -57,4 +57,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-05-04 09:46:28 UTC_
+_Last updated at 2025-05-11 09:28:56 UTC_

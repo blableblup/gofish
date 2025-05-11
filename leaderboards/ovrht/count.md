@@ -19,8 +19,8 @@
 | 16  | ewwwedd  | 13 |
 | 17  | kvgch  | 11 |
 | 17  | pelmee44ka  | 11 |
-| 17  | tetohasdied  | 11 |
+| 17  | tetohasgone  | 11 |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-04-13 10:22:18 UTC_
+_Last updated at 2025-05-11 09:27:11 UTC_

@@ -59,34 +59,35 @@
 | 56  | 🦎 lizard | 9.91 | synncss | 2024-11-01 01:12:13 |
 | 57  | 🕶️ darksunglasses | 9.87 | gimmeschmoneys | 2024-10-22 11:25:00 |
 | 58  | 🧥 coat | 6.78 | iam_glorp | 2025-02-18 01:35:25 |
-| 59 ⬆ | 🐚 shell | 5.90 (+1.31) | gimmeschmoneys | 2025-05-03 20:58:43 |
-| 60 ⬇ | 🥫 cannedfood | 5.88 | gimmeschmoneys | 2025-03-02 04:38:49 |
-| 61 ⬇ | 🧵 wireline | 5.66 | hamoodhabibee | 2025-03-15 23:00:16 |
-| 62 ⬇ | 🐦 bird | 5.18 | hamoodhabibee | 2025-04-21 22:06:03 |
-| 63 ⬇ | 🧃 beveragebox | 5.17 | lilzomme | 2024-10-24 20:56:03 |
-| 64 ⬇ | 🎏 lure | 4.97 | rougep1rate | 2025-02-02 21:36:15 |
-| 65 ⬇ | 🪝 hook | 4.72 | ben_vincent | 2025-02-05 02:21:58 |
+| 59  | 🐚 shell | 5.90 | gimmeschmoneys | 2025-05-03 20:58:43 |
+| 60  | 🥫 cannedfood | 5.88 | gimmeschmoneys | 2025-03-02 04:38:49 |
+| 61  | 🧵 wireline | 5.66 | hamoodhabibee | 2025-03-15 23:00:16 |
+| 62  | 🐦 bird | 5.18 | hamoodhabibee | 2025-04-21 22:06:03 |
+| 63  | 🧃 beveragebox | 5.17 | lilzomme | 2024-10-24 20:56:03 |
+| 64  | 🎏 lure | 4.97 | rougep1rate | 2025-02-02 21:36:15 |
+| 65  | 🪝 hook | 4.72 | ben_vincent | 2025-02-05 02:21:58 |
 | 66  | ☘️ shamrock | 3.99 | iam_glorp | 2025-04-04 08:21:18 |
 | 67  | 🌰 acorn | 3.26 | gofishgamer | 2024-10-25 03:40:01 |
 | 68  | 🥀 wiltedflower | 2.96 | buhl00n | 2024-12-22 13:48:49 |
 | 69  | 🌷 tulip | 2.90 | iam_glorp | 2025-03-18 09:34:00 |
 | 70  | 👡 sandal | 2.86 | gimmeschmoneys | 2025-04-15 15:25:52 |
 | 71  | ☂️ umbrella | 2.64 | notnownico | 2024-12-15 23:09:15 |
-| 72  | 👢 boot | 1.99 | tunacrab | 2024-11-02 22:57:50 |
-| 72  | 🧦 socks | 1.99 | maccat1337 | 2025-03-06 19:52:37 |
-| 72  | 🩴 thongsandal | 1.99 | blunterayo | 2024-10-24 20:52:23 |
-| 75  | 🩰 balletshoes | 1.98 | ssenario | 2024-10-31 18:18:21 |
-| 76  | 👟 athleticshoe | 1.96 | lilhanji | 2024-11-01 17:22:32 |
-| 77  | ⛸️ iceskate | 1.92 | iam_glorp | 2024-12-23 16:00:58 |
-| 78  | 🥪 sandwich | 1.91 | ofaisalz | 2024-11-05 20:26:29 |
-| 79  | 🧤 gloves | 0.99 | spanmer | 2024-11-09 03:05:19 |
-| 79  | 🌿 seaweed | 0.99 | lazybluedeer | 2025-03-03 05:56:17 |
-| 81  | 🍬 candy | 0.93 | spanmer | 2024-11-17 16:32:54 |
-| 82  | 🪶 feather | 0.92 | iam_glorp | 2025-01-30 09:09:36 |
-| 83  | 🪚 carpentrysaw | 0.86 | gimmeschmoneys | 2025-02-01 18:11:04 |
-| 83 🆕 | 🍃 leaf | 0.86 | gimmeschmoneys | 2025-04-28 09:28:23 |
-| 85 ⬇ | 🧣 scarf | 0.75 | exo9 | 2024-12-25 05:19:42 |
+| 72 ⬆ | 🍃 leaf | 2.00 (+1.14) | gimmeschmoneys | 2025-05-10 11:10:39 |
+| 73 ⬇ | 👢 boot | 1.99 | tunacrab | 2024-11-02 22:57:50 |
+| 73 ⬇ | 🧦 socks | 1.99 | maccat1337 | 2025-03-06 19:52:37 |
+| 73 ⬇ | 🩴 thongsandal | 1.99 | blunterayo | 2024-10-24 20:52:23 |
+| 76 ⬇ | 🩰 balletshoes | 1.98 | ssenario | 2024-10-31 18:18:21 |
+| 77 ⬇ | 👟 athleticshoe | 1.96 | lilhanji | 2024-11-01 17:22:32 |
+| 78 ⬇ | ⛸️ iceskate | 1.92 | iam_glorp | 2024-12-23 16:00:58 |
+| 79 ⬇ | 🥪 sandwich | 1.91 | ofaisalz | 2024-11-05 20:26:29 |
+| 80 ⬇ | 🧤 gloves | 0.99 | spanmer | 2024-11-09 03:05:19 |
+| 80 ⬇ | 🌿 seaweed | 0.99 | lazybluedeer | 2025-03-03 05:56:17 |
+| 82 ⬇ | 🍬 candy | 0.93 | spanmer | 2024-11-17 16:32:54 |
+| 83 ⬇ | 🪶 feather | 0.92 | iam_glorp | 2025-01-30 09:09:36 |
+| 84 ⬇ | 🪚 carpentrysaw | 0.86 | gimmeschmoneys | 2025-02-01 18:11:04 |
+| 85  | 🧣 scarf | 0.75 | exo9 | 2024-12-25 05:19:42 |
+| 86 🆕 | 🌾 grass | 0.74 | gimmeschmoneys | 2025-05-05 21:58:58 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-05-04 09:47:39 UTC_
+_Last updated at 2025-05-11 09:27:16 UTC_

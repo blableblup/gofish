@@ -8,9 +8,9 @@
 | 5  | bubinga  | 69 |
 | 5  | sandwichsundays*  | 69 |
 | 5  | zwockel01  | 69 |
-| 8  | lobuhtomy  | 67 |
-| 8  | pengeg  | 67 |
-| 10  | mazzo_tv  | 66 |
+| 8 ⬆ | mazzo_tv  | 68 (+2) |
+| 9 ⬇ | lobuhtomy  | 67 |
+| 9 ⬇ | pengeg  | 67 |
 | 11  | divra__  | 63 |
 | 12  | angus_lpc  | 62 |
 | 12  | jemcs_  | 62 |
@@ -43,4 +43,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2025-04-13 10:22:17 UTC_
+_Last updated at 2025-05-11 09:28:08 UTC_
