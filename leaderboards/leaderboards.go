@@ -26,26 +26,30 @@ func Leaderboards(pool *pgxpool.Pool, leaderboards string, chatNames string, dat
 		currentDate := time.Now().UTC()
 		nextDay := currentDate.AddDate(0, 0, 1)
 		date = nextDay.Format("2006-01-02")
+	} else {
+		if date == "today" {
+			date = time.Now().UTC().Format("2006-01-02")
+		} else {
+			if !isValidDate(date) {
+				logs.Logs().Error().
+					Str("Date", date).
+					Msg("Date is in the wrong format")
+				return
+			}
+		}
 	}
 
 	if date2 == "" {
 		// This is one day before the first ever fish was caught (on justlog)
 		oldDate := time.Date(2022, 12, 3, 0, 0, 0, 0, time.UTC)
 		date2 = oldDate.Format("2006-01-02")
-	}
-
-	if !isValidDate(date) {
-		logs.Logs().Error().
-			Str("Date", date).
-			Msg("Date is in the wrong format")
-		return
-	}
-
-	if !isValidDate(date2) {
-		logs.Logs().Error().
-			Str("Date2", date2).
-			Msg("Date2 is in the wrong format")
-		return
+	} else {
+		if !isValidDate(date2) {
+			logs.Logs().Error().
+				Str("Date2", date2).
+				Msg("Date2 is in the wrong format")
+			return
+		}
 	}
 
 	// Store the flags, the connection, the config and initialize the two maps for storing player and fish data
