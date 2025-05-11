@@ -161,6 +161,42 @@
 			"checkfdata": false,
 			"board_enabled": false
 		},
+		"deme": {
+			"twitchid": "422275514",
+			"logs_instances": [
+				{
+					"url": "https://logs.ivr.fi",
+					"logs_added": "2025/5"
+				},
+				{
+					"url": "https://logs.jimmyboy.dev",
+					"logs_added": "2025/5"
+				},
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2025/5"
+				},
+				{
+					"url": "https://logs.susgee.dev",
+					"logs_added": "2025/5"
+				},
+				{
+					"url": "https://logs.xyqra.com",
+					"logs_added": "2025/5"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2025/5"
+				}
+			],
+			"fishweek_limit": 10,
+			"weight_limit": 50,
+			"weight_limit_records": 100,
+			"totalcount_limit": 10,
+			"unique_limit": 10,
+			"checkfdata": true,
+			"board_enabled": true
+		},
 		"dizzy": {
 			"twitchid": "108005221",
 			"logs_instances": [
