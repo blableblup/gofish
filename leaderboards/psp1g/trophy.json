@@ -153,10 +153,10 @@
 	"2339": {
 		"player": "bubinga",
 		"playerid": 2339,
-		"weight": 69.5,
+		"weight": 76.5,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 18,
-		"chatid": 11,
+		"fishid": 20,
+		"chatid": 12,
 		"maxcount": 9,
 		"rank": 2
 	},
@@ -198,11 +198,11 @@
 	"269": {
 		"player": "nndiana",
 		"playerid": 269,
-		"weight": 119.5,
+		"weight": 122,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 30,
-		"chatid": 25,
-		"maxcount": 9,
+		"chatid": 27,
+		"maxcount": 10,
 		"rank": 1
 	},
 	"457": {
@@ -293,11 +293,11 @@
 	"913": {
 		"player": "ratot",
 		"playerid": 913,
-		"weight": 4.5,
+		"weight": 5,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 1,
 		"chatid": 1,
-		"maxcount": 1,
-		"rank": 23
+		"maxcount": 2,
+		"rank": 20
 	}
 }

@@ -1,8 +1,8 @@
 ### Leaderboard for the weekly tournaments in psp1g's chat
 | Rank | Player | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points |
 |------|--------|-------------|------------------|------------------|--------|
-| 1 🥇 | nndiana | 30 | 25 | 9 | 119.5 |
-| 2 🥈 | bubinga | 18 | 11 | 9 | 69.5 |
+| 1 🥇 | nndiana | 30 | 27 (+2) | 10 (+1) | 122.0 (+2.5) |
+| 2 🥈 | bubinga | 20 (+2) | 12 (+1) | 9 | 76.5 (+7.0) |
 | 3 🥉 | huuuuuuuuuuuuuuuuuuuuuurz | 8 | 10 | 9 | 38.5 |
 | 4 | benciee | 7 | 11 | 2 | 33.0 |
 | 5 | iflya320 | 6 | 3 | 2 | 22.0 |
@@ -23,7 +23,7 @@
 | 20 | commanda_u | 1 | 0 | 4 | 5.0 |
 | 20 | divra__ | 1 | 2 | 0 | 5.0 |
 | 20 | hahppyy | 1 | 1 | 2 | 5.0 |
-| 23 | ratot | 1 | 1 | 1 | 4.5 |
+| 20 ⬆| ratot | 1 | 1 | 2 (+1) | 5.0 (+0.5) |
 | 24 | veny2lbs | 1 | 0 | 2 | 4.0 |
 | 25 | creepycode | 0 | 3 | 0 | 3.0 |
 | 25 | zsipe | 0 | 3 | 0 | 3.0 |
@@ -35,4 +35,4 @@
 | 31 | gorillapark | 0 | 0 | 1 | 0.5 |
 | 31 | starducc | 0 | 0 | 1 | 0.5 |
 
-_Last updated at 2024-12-25 10:44:34 UTC_
+_Last updated at 2025-05-14 10:01:14 UTC_
