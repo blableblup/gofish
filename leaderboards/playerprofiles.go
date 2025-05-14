@@ -20,15 +20,15 @@ type PlayerProfile struct {
 	TwitchID int          `json:"-"`
 	Verified sql.NullBool `json:"-"`
 
-	// To show the "progress" of a player in their fishing career
-	Achievments []string
+	Progress []string
+	Records  []string
+	// right now shiny is the only other achievment
+	Other OtherAchievements `json:"Other achievements"`
 
 	Stars        int                  `json:"-"`
 	Treasures    TreasureProgress     `json:"-"`
 	SonnyDay     SonnyDayProgress     `json:"-"`
 	MythicalFish MythicalFishProgress `json:"-"`
-	// and shinies
-	Shiny Shinies
 
 	Count              int                       `json:"Fish Caught in total"`
 	ChatCounts         map[string]int            `json:"Fish caught per chat"`
@@ -44,7 +44,7 @@ type PlayerProfile struct {
 	BiggestFish []ProfileFish `json:"Their overall biggest fish"`
 	LastFish    []ProfileFish `json:"Their overall last fish"`
 
-	Bag       ProfileFish    `json:"Their last seen bag"`
+	Bag       ProfileBag     `json:"Their last seen bag"`
 	BagCounts map[string]int `json:"Count of each item in that bag"`
 
 	FishSeen      []string       `json:"-"`
@@ -74,21 +74,38 @@ type MythicalFishProgress struct {
 	OriginalMythicalFishCount  int
 }
 
+type OtherAchievements struct {
+	Other   []string `json:"Achievements"`
+	Shinies Shinies
+}
+
 type Shinies struct {
 	HasShiny   bool          `json:"-"`
 	ShinyCatch []ProfileFish `json:"Shinies"`
 }
 
-type ProfileFish struct {
+// different struct for bag so that it doesnt show weight
+type ProfileBag struct {
 	Bag        []string `json:"Bag,omitempty"`
-	Fish       string   `json:"Fish,omitempty"`
-	Weight     float64  `json:"Weight in lbs,omitempty"`
-	CatchType  string   `json:"Catchtype,omitempty"`
 	DateString string   `json:"Date,omitempty"`
 	Chat       string   `json:"Chat,omitempty"`
 
+	Date time.Time `json:"-"`
+}
+
+type ProfileFish struct {
+	Fish   string  `json:"Fish,omitempty"`
+	Weight float64 `json:"Weight in lbs"`
+	// cant put omitempty for weight, else it wont show a weight for 0 lbs catches
+	// but now this will show 0 lbs weight for release + jumped bonus + squirrel,
+	// even though they have a weight, but i cant see it in log message
+	CatchType  string `json:"Catchtype,omitempty"`
+	DateString string `json:"Date,omitempty"`
+	Chat       string `json:"Chat,omitempty"`
+
 	// these are to scan the data into the struct
 	// but arent printed out in the end
+	Bag      []string  `json:"-"`
 	Count    int       `json:"-"`
 	PlayerID int       `json:"-"`
 	TypeName string    `json:"-"`
@@ -105,10 +122,15 @@ type ProfileFishData struct {
 	CountCatchtype     map[string]int            `json:"Caught per catchtype"`
 	CountCatchtypeChat map[string]map[string]int `json:"Caught per catchtype per chat"`
 
-	First    ProfileFish `json:"First catch"`
-	Last     ProfileFish `json:"Last catch"`
-	Biggest  ProfileFish `json:"Biggest catch"`
-	Smallest ProfileFish `json:"Smallest catch"`
+	First    ProfileFish       `json:"First catch"`
+	Last     ProfileFish       `json:"Last catch"`
+	Biggest  TypeRecordProfile `json:"Biggest catch"`
+	Smallest TypeRecordProfile `json:"Smallest catch"`
+}
+
+type TypeRecordProfile struct {
+	Fish     ProfileFish
+	IsRecord []string `json:"Record,omitempty"`
 }
 
 func GetPlayerProfiles(params LeaderboardParams) {
@@ -202,18 +224,27 @@ func GetPlayerProfiles(params LeaderboardParams) {
 		return
 	}
 
-	// Get the player profiles and print them for each player
-
 	logs.Logs().Info().
 		Int("Amount of players", len(validPlayers)).
 		Msg("Updating player profiles")
 
+	// Get the player profiles and print them for each player
 	playerProfiles, err := GetThePlayerProfiles(params, FishWithEmoji, validPlayers, allFishes, allShinies, redAveryTreasures, originalMythicalFish)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Chat", chatName).
 			Str("Board", board).
 			Msg("Error getting player profiles")
+		return
+	}
+
+	// add records from other leaderboards to the profiles
+	playerProfiles, err = UpdatePlayerProfilesRecords(params, playerProfiles)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Chat", chatName).
+			Str("Board", board).
+			Msg("Error updating player profiles records")
 		return
 	}
 
@@ -356,28 +387,22 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string)
 		Profile.Name = Profile.Name + " ⭐"
 	}
 
-	// add the achievments before printing
+	// add the progress stars before printing
 
 	// this means that they caught them atleast once
 	// doesnt mean that they still have them in their bag
 	if Profile.MythicalFish.HasAllOriginalMythicalFish {
-		Profile.Achievments = append(Profile.Achievments, "⭐ Has encountered all the mythical fish 🧞‍♂️ 🧜‍♀️ !")
+		Profile.Progress = append(Profile.Progress, "⭐ Has encountered all the mythical fish 🧞‍♂️ 🧜‍♀️ !")
 	}
 
 	if Profile.Treasures.HasAllRedAveryTreasure {
-		Profile.Achievments = append(Profile.Achievments, "⭐ Has found all the treasures from legendary pirate Red Avery 🗡️ 👑 🧭 !")
+		Profile.Progress = append(Profile.Progress, "⭐ Has found all the treasures from legendary pirate Red Avery 🗡️ 👑 🧭 !")
 	}
 
 	// received means when it first appeared in their bag
 	if Profile.SonnyDay.HasLetter {
-		Profile.Achievments = append(Profile.Achievments,
+		Profile.Progress = append(Profile.Progress,
 			fmt.Sprintf("⭐ Has gotten a letter ✉️ ! (Received: %s UTC)", Profile.SonnyDay.LetterInBagReceived.Format("2006-01-02 15:04:05")))
-	}
-
-	if Profile.Shiny.HasShiny {
-		// no star because its just extremely rare and doesnt count as progress in anything
-		Profile.Achievments = append(Profile.Achievments, "Has caught a shiny !")
-
 	}
 
 	// update the last updated

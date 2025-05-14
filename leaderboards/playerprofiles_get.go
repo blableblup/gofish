@@ -98,7 +98,11 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 
 		// If a player never did +bag this will just be nothing
 		lastBag.DateString = lastBag.Date.Format("2006-01-02 15:04:05 UTC")
-		Profiles[lastBag.PlayerID].Bag = lastBag
+		Profiles[lastBag.PlayerID].Bag = ProfileBag{
+			Bag:        lastBag.Bag,
+			DateString: lastBag.DateString,
+			Chat:       lastBag.Chat,
+		}
 
 		// Count the items in their bag
 		Profiles[lastBag.PlayerID].BagCounts = make(map[string]int)
@@ -283,12 +287,6 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 			return Profiles[fishu.PlayerID].FishNotSeen[i] < Profiles[fishu.PlayerID].FishNotSeen[j]
 		})
 
-	}
-
-	// also check if any valid player caught a shiny
-	Profiles, err = GetTheShiniesForPlayerProfiles(params, Profiles)
-	if err != nil {
-		return Profiles, err
 	}
 
 	// The 10 biggest fish per player
@@ -484,7 +482,7 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 
 		fish.Fish = fmt.Sprintf("%s %s", EmojisForFish[fish.TypeName], fish.TypeName)
 
-		Profiles[fish.PlayerID].FishData[fmt.Sprintf("%s %s", fish.TypeName, EmojisForFish[fish.TypeName])].Biggest = fish
+		Profiles[fish.PlayerID].FishData[fmt.Sprintf("%s %s", fish.TypeName, EmojisForFish[fish.TypeName])].Biggest.Fish = fish
 	}
 
 	querySmallestFishPerType := `
@@ -516,7 +514,7 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 
 		fish.Fish = fmt.Sprintf("%s %s", EmojisForFish[fish.TypeName], fish.TypeName)
 
-		Profiles[fish.PlayerID].FishData[fmt.Sprintf("%s %s", fish.TypeName, EmojisForFish[fish.TypeName])].Smallest = fish
+		Profiles[fish.PlayerID].FishData[fmt.Sprintf("%s %s", fish.TypeName, EmojisForFish[fish.TypeName])].Smallest.Fish = fish
 	}
 
 	// If someones last catch of a type was a mouth catch and the fish in the mouth and the other catch are of the same type
@@ -628,40 +626,4 @@ func ReturnFishSliceQueryValidPlayers(params LeaderboardParams, query string, va
 	}
 
 	return fishy, nil
-}
-
-func GetTheShiniesForPlayerProfiles(params LeaderboardParams, Profiles map[int]*PlayerProfile) (map[int]*PlayerProfile, error) {
-
-	// use the function from the shiny board for this
-	Shinies, err := getShinies(params)
-	if err != nil {
-		logs.Logs().Error().Err(err).
-			Str("Chat", params.ChatName).
-			Str("Board", params.LeaderboardType).
-			Msg("Error getting shinies for player profiles")
-		return Profiles, err
-	}
-
-	for _, fish := range Shinies {
-
-		// because the leaderboard function doesnt use the validplayers
-		// only store the shiny if the player is already in the map
-		if _, ok := Profiles[fish.PlayerID]; ok {
-
-			// because that board returns a different struct
-			profileFish := ProfileFish{
-				Fish:       fmt.Sprintf("%s %s", fish.Type, fish.TypeName),
-				Weight:     fish.Weight,
-				CatchType:  fish.CatchType,
-				DateString: fish.Date.Format("2006-01-02 15:04:05 UTC"),
-				Chat:       fish.Chat,
-			}
-
-			Profiles[fish.PlayerID].Shiny.ShinyCatch = append(Profiles[fish.PlayerID].Shiny.ShinyCatch, profileFish)
-
-			Profiles[fish.PlayerID].Shiny.HasShiny = true
-		}
-	}
-
-	return Profiles, nil
 }
