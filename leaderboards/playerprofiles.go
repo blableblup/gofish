@@ -56,7 +56,8 @@ type PlayerProfile struct {
 	FishNotSeen      []string `json:"Fish they never saw"`
 	FishNotSeenTotal int      `json:"Total fish not seen"`
 
-	LastUpdated string `json:"Profile last updated at"`
+	InfoBottom  []string `json:"Some info"`
+	LastUpdated string   `json:"Profile last updated at"`
 }
 
 type TreasureProgress struct {
@@ -75,11 +76,7 @@ type MythicalFishProgress struct {
 }
 
 type OtherAchievements struct {
-	Other   []string `json:"Achievements"`
-	Shinies Shinies
-}
-
-type Shinies struct {
+	Other      []string      `json:"Achievements"`
 	HasShiny   bool          `json:"-"`
 	ShinyCatch []ProfileFish `json:"Shinies"`
 }
@@ -255,7 +252,7 @@ func GetPlayerProfiles(params LeaderboardParams) {
 		go func() {
 			defer wg.Done()
 
-			err = PrintPlayerProfile(playerProfiles[validPlayer], FishWithEmoji)
+			err = PrintPlayerProfile(playerProfiles[validPlayer], FishWithEmoji, originalMythicalFish, redAveryTreasures)
 			if err != nil {
 				logs.Logs().Error().Err(err).
 					Str("Chat", chatName).
@@ -374,7 +371,7 @@ func GetValidPlayers(params LeaderboardParams, limit int) ([]int, error) {
 	return validPlayers, nil
 }
 
-func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string) error {
+func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string, originalMythicalFish []string, redAveryTreasures []string) error {
 
 	if Profile.TwitchID == 0 {
 		return nil
@@ -392,11 +389,21 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string)
 	// this means that they caught them atleast once
 	// doesnt mean that they still have them in their bag
 	if Profile.MythicalFish.HasAllOriginalMythicalFish {
-		Profile.Progress = append(Profile.Progress, "⭐ Has encountered all the mythical fish 🧞‍♂️ 🧜‍♀️ !")
+		baseText := "⭐ Has encountered all the mythical fish"
+		for _, fish := range originalMythicalFish {
+			baseText = baseText + " " + EmojisForFish[fish]
+		}
+		baseText = baseText + " !"
+		Profile.Progress = append(Profile.Progress, baseText)
 	}
 
 	if Profile.Treasures.HasAllRedAveryTreasure {
-		Profile.Progress = append(Profile.Progress, "⭐ Has found all the treasures from legendary pirate Red Avery 🗡️ 👑 🧭 !")
+		baseText := "⭐ Has found all the treasures from legendary pirate Red Avery"
+		for _, fish := range redAveryTreasures {
+			baseText = baseText + " " + EmojisForFish[fish]
+		}
+		baseText = baseText + " !"
+		Profile.Progress = append(Profile.Progress, baseText)
 	}
 
 	// received means when it first appeared in their bag
@@ -404,6 +411,25 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string)
 		Profile.Progress = append(Profile.Progress,
 			fmt.Sprintf("⭐ Has gotten a letter ✉️ ! (Received: %s UTC)", Profile.SonnyDay.LetterInBagReceived.Format("2006-01-02 15:04:05")))
 	}
+
+	// add some notes to the bottom
+	Profile.InfoBottom = append(Profile.InfoBottom,
+		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.")
+
+	Profile.InfoBottom = append(Profile.InfoBottom,
+		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.")
+
+	Profile.InfoBottom = append(Profile.InfoBottom,
+		"The players biggest or smallest catch of a fish type can be nothing, if the player only caught the fish through catches which do not show the weight in the catch message.")
+
+	Profile.InfoBottom = append(Profile.InfoBottom,
+		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.")
+
+	Profile.InfoBottom = append(Profile.InfoBottom,
+		"The profile does not check if the player still has the treasures and mythical fish in their bag. The player gets a progress star if they caught all of them atleast once.")
+
+	Profile.InfoBottom = append(Profile.InfoBottom,
+		"The records at the top and the records per fish type will only show records from channels which have their own leaderboards.")
 
 	// update the last updated
 	Profile.LastUpdated = time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC")

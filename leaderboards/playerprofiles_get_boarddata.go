@@ -282,6 +282,7 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 
 					Profiles[playerID].FishData[fishType].Biggest.IsRecord = append(Profiles[playerID].FishData[fishType].Biggest.IsRecord,
 						fmt.Sprintf("🥇 Biggest %s %s record %s !", fish.Type, fishName, text))
+
 				}
 
 			}
@@ -301,6 +302,7 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 
 					Profiles[playerID].FishData[fishType].Smallest.IsRecord = append(Profiles[playerID].FishData[fishType].Smallest.IsRecord,
 						fmt.Sprintf("🥇 Smallest %s %s record %s !", fish.Type, fishName, text))
+
 				}
 
 			}
@@ -344,9 +346,9 @@ func GetTheShiniesForPlayerProfiles(params LeaderboardParams, Profiles map[int]*
 				Chat:       fish.Chat,
 			}
 
-			Profiles[fish.PlayerID].Other.Shinies.ShinyCatch = append(Profiles[fish.PlayerID].Other.Shinies.ShinyCatch, profileFish)
+			Profiles[fish.PlayerID].Other.ShinyCatch = append(Profiles[fish.PlayerID].Other.ShinyCatch, profileFish)
 
-			Profiles[fish.PlayerID].Other.Shinies.HasShiny = true
+			Profiles[fish.PlayerID].Other.HasShiny = true
 
 			// update the achievment
 			Profiles[fish.PlayerID].Other.Other = append(Profiles[fish.PlayerID].Other.Other, "Has caught a shiny !")
