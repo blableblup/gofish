@@ -29,6 +29,10 @@ func GetOtherBoardDataForPlayerProfiles(params LeaderboardParams) (map[string]*B
 
 	for chatName, chat := range config.Chat {
 
+		if !chat.BoardsEnabled {
+			continue
+		}
+
 		if _, ok := otherBoardsData[chatName]; !ok {
 			otherBoardsData[chatName] = &BoardDataProfiles{
 				Count:      make(map[int]data.FishInfo),
@@ -37,10 +41,6 @@ func GetOtherBoardDataForPlayerProfiles(params LeaderboardParams) (map[string]*B
 				Type:       make(map[string]data.FishInfo),
 				Typesmall:  make(map[string]data.FishInfo),
 			}
-		}
-
-		if !chat.BoardsEnabled {
-			continue
 		}
 
 		for _, board := range boardsToGetDataFrom {

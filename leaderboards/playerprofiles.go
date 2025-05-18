@@ -420,6 +420,9 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.")
 
 	Profile.InfoBottom = append(Profile.InfoBottom,
+		"The records at the top and the records per fish type will only show records from channels which have their own leaderboards.")
+
+	Profile.InfoBottom = append(Profile.InfoBottom,
 		"The players biggest or smallest catch of a fish type can be nothing, if the player only caught the fish through catches which do not show the weight in the catch message.")
 
 	Profile.InfoBottom = append(Profile.InfoBottom,
@@ -427,9 +430,6 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 
 	Profile.InfoBottom = append(Profile.InfoBottom,
 		"The profile does not check if the player still has the treasures and mythical fish in their bag. The player gets a progress star if they caught all of them atleast once.")
-
-	Profile.InfoBottom = append(Profile.InfoBottom,
-		"The records at the top and the records per fish type will only show records from channels which have their own leaderboards.")
 
 	// update the last updated
 	Profile.LastUpdated = time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC")
