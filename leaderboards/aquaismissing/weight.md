@@ -13,9 +13,10 @@
 | 10  | 3aphotp3 | 🐊 crocodile | 77.89 | 2024-12-02 23:41:17 |
 | 11  | aquaismissing | 🐢 turtle | 75.51 | 2024-11-29 17:43:11 |
 | 12  | aistyrax3 | 🦕 sauropod | 73.83 | 2024-12-01 17:06:31 |
-| 13  | tautautautautau | 🐢 turtle | 59.69 | 2025-03-11 22:09:33 |
-| 14  | beepisla | 🦑 squid | 50.31 | 2025-01-14 21:39:57 |
+| 13 🆕 | stofeyxd | 🐢 turtle | 60.60 | 2025-05-15 14:53:40 |
+| 14 ⬇ | tautautautautau | 🐢 turtle | 59.69 | 2025-03-11 22:09:33 |
+| 15 ⬇ | beepisla | 🦑 squid | 50.31 | 2025-01-14 21:39:57 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2025-04-13 10:22:19 UTC_
+_Last updated at 2025-05-18 09:20:34 UTC_

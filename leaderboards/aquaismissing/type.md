@@ -34,7 +34,7 @@
 | 31  | 🐸 frog | 5.08 | cs_buh | 2024-12-01 20:21:52 |
 | 32  | 🧊 icecube | 4.82 | likedom_ | 2024-12-02 05:21:01 |
 | 33  | 🎏 lure | 4.63 | likedom_ | 2024-12-02 04:06:12 |
-| 34  | 💀 skull | 4.04 | giriglock | 2025-04-10 00:05:47 |
+| 34  | 💀 skull | 4.61 (+0.57) | jodopasta | 2025-05-11 06:57:06 |
 | 35  | 🪝 hook | 3.82 | sammevevo | 2025-04-03 00:08:48 |
 | 36  | 🐚 shell | 3.71 | velantix | 2024-12-16 10:38:12 |
 | 37  | ☂️ umbrella | 2.25 | rustezzz | 2024-12-10 20:56:39 |
@@ -42,10 +42,10 @@
 | 39  | 👢 boot | 1.83 | likedom_ | 2024-12-02 16:34:12 |
 | 40  | 🥫 cannedfood | 1.71 | yyaaaaaaaas | 2024-12-28 18:16:47 |
 | 41  | 🩰 balletshoes | 1.25 | delfino921 | 2025-02-22 23:48:09 |
-| 42  | 🌿 seaweed | 0.80 | zarpcallum | 2024-11-26 16:46:13 |
+| 42  | 🌿 seaweed | 0.88 (+0.08) | smurfcat258 | 2025-05-14 21:25:22 |
 | 43  | 🥪 sandwich | 0.71 | aquaismissing | 2024-12-02 05:35:34 |
 | 44  | 🧤 gloves | 0.67 | yureedtv | 2024-12-08 13:58:18 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-05-11 09:27:50 UTC_
+_Last updated at 2025-05-18 09:20:44 UTC_

@@ -9,12 +9,12 @@
 | 6  | 🦕 sauropod | 264.24 | solahh__ | 2025-01-26 02:26:54 |
 | 7  | 🐍 snake | 263.21 | ritaaww | 2024-12-17 16:13:11 |
 | 8  | 🐢 turtle | 181.31 | ritaaww | 2024-08-10 15:54:37 |
-| 9  | 🐋 whale2 | 152.29 | ritaaww | 2024-11-07 22:24:52 |
-| 10  | 🐊 crocodile | 147.52 | ritaaww | 2024-11-26 11:19:17 |
-| 11 ⬆ | 🐙 octopus | 137.71 (+8.49) | mangos4u | 2025-05-05 12:02:49 |
-| 12 ⬇ | 🦭 seal | 134.54 | ritaaww | 2025-01-06 10:39:02 |
-| 13 ⬇ | 🦪 oyster | 131.94 | solahh__ | 2024-12-29 14:45:52 |
-| 14  | 🫎 moose | 117.55 | mangos4u | 2025-04-03 13:28:34 |
+| 9 ⬆ | 🫎 moose | 176.62 (+59.07) | solahh__ | 2025-05-11 05:37:20 |
+| 10 ⬇ | 🐋 whale2 | 152.29 | ritaaww | 2024-11-07 22:24:52 |
+| 11 ⬇ | 🐊 crocodile | 147.52 | ritaaww | 2024-11-26 11:19:17 |
+| 12 ⬇ | 🐙 octopus | 137.71 | mangos4u | 2025-05-05 12:02:49 |
+| 13 ⬇ | 🦭 seal | 134.54 | ritaaww | 2025-01-06 10:39:02 |
+| 14 ⬇ | 🦪 oyster | 131.94 | solahh__ | 2024-12-29 14:45:52 |
 | 15  | 🐬 dolphin | 108.80 | mangos4u | 2025-01-11 01:17:05 |
 | 16  | 🧟 zombie | 95.03 | ritaaww | 2024-10-31 23:12:01 |
 | 17  | 🪸 coral | 86.67 | ritaaww | 2024-09-26 17:14:42 |
@@ -90,4 +90,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-05-11 09:27:57 UTC_
+_Last updated at 2025-05-18 09:20:40 UTC_
