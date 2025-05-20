@@ -26,9 +26,12 @@ type PlayerProfile struct {
 	Other OtherAchievements `json:"Other achievements"`
 
 	Stars        int                  `json:"-"`
+	StarsGlow    int                  `json:"-"`
 	Treasures    TreasureProgress     `json:"-"`
 	SonnyDay     SonnyDayProgress     `json:"-"`
 	MythicalFish MythicalFishProgress `json:"-"`
+	Birds        BirdProgress         `json:"-"`
+	Flowers      FlowerProgress       `json:"-"`
 
 	Count              int                       `json:"Fish Caught in total"`
 	ChatCounts         map[string]int            `json:"Fish caught per chat"`
@@ -74,6 +77,18 @@ type MythicalFishProgress struct {
 	HasAllOriginalMythicalFish bool
 	OriginalMythicalFishCount  int
 }
+
+type BirdProgress struct {
+	HasAllBirds bool
+	BirdCount   int
+}
+
+type FlowerProgress struct {
+	HasAllFlowers bool
+	FLowerCount   int
+}
+
+// can maybe eventually add the big mammals from big as progress
 
 type OtherAchievements struct {
 	Other      []string      `json:"Achievements"`
@@ -166,14 +181,15 @@ func GetPlayerProfiles(params LeaderboardParams) {
 	// because there were fish which had different emojis in older logs (like ⛸ / ⛸️ for ice skate)
 	// and i didnt change that
 	// so get all the fish first and then use the utils function
+
+	fishLists := make(map[string][]string)
+
 	allFishes, err := GetAllFishNames(params)
 	if err != nil {
-		logs.Logs().Error().Err(err).
-			Str("Chat", chatName).
-			Str("Board", board).
-			Msg("Error getting all fish names")
 		return
 	}
+
+	fishLists["all"] = allFishes
 
 	FishWithEmoji := make(map[string]string)
 
@@ -194,31 +210,23 @@ func GetPlayerProfiles(params LeaderboardParams) {
 	// if a shiny is in any other table on the profile, it will not show the shiny but the emote of the fishname instead
 	allShinies, err := GetAllShinies(params)
 	if err != nil {
-		logs.Logs().Error().Err(err).
-			Str("Chat", chatName).
-			Str("Board", board).
-			Msg("Error getting all shinies")
 		return
 	}
 
-	// Get the treasures and the mythical fish
+	fishLists["shiny"] = allShinies
 
-	redAveryTreasures, err := ReturnRedAveryTreasure(params)
-	if err != nil {
-		logs.Logs().Error().Err(err).
-			Str("Chat", chatName).
-			Str("Board", board).
-			Msg("Error getting redAveryTreasures")
-		return
-	}
+	// Get the treasures, the mythical fish, the birds, the flowers
 
-	originalMythicalFish, err := ReturnOriginalMythicalFish(params)
-	if err != nil {
-		logs.Logs().Error().Err(err).
-			Str("Chat", chatName).
-			Str("Board", board).
-			Msg("Error getting originalMythicalFish")
-		return
+	tags := []string{"r.a.treasure", "mythic", "bird", "flower"}
+
+	for _, tag := range tags {
+
+		fish, err := ReturnFishTags(params, tag)
+		if err != nil {
+			return
+		}
+
+		fishLists[tag] = fish
 	}
 
 	logs.Logs().Info().
@@ -226,7 +234,7 @@ func GetPlayerProfiles(params LeaderboardParams) {
 		Msg("Updating player profiles")
 
 	// Get the player profiles and print them for each player
-	playerProfiles, err := GetThePlayerProfiles(params, FishWithEmoji, validPlayers, allFishes, allShinies, redAveryTreasures, originalMythicalFish)
+	playerProfiles, err := GetThePlayerProfiles(params, FishWithEmoji, validPlayers, fishLists)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Chat", chatName).
@@ -252,7 +260,7 @@ func GetPlayerProfiles(params LeaderboardParams) {
 		go func() {
 			defer wg.Done()
 
-			err = PrintPlayerProfile(playerProfiles[validPlayer], FishWithEmoji, originalMythicalFish, redAveryTreasures)
+			err = PrintPlayerProfile(playerProfiles[validPlayer], FishWithEmoji, fishLists)
 			if err != nil {
 				logs.Logs().Error().Err(err).
 					Str("Chat", chatName).
@@ -371,7 +379,7 @@ func GetValidPlayers(params LeaderboardParams, limit int) ([]int, error) {
 	return validPlayers, nil
 }
 
-func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string, originalMythicalFish []string, redAveryTreasures []string) error {
+func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string, fishLists map[string][]string) error {
 
 	if Profile.TwitchID == 0 {
 		return nil
@@ -380,27 +388,42 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 	filePath := filepath.Join("leaderboards", "global", "players", fmt.Sprintf("%d", Profile.TwitchID)+".json")
 
 	// add the stars
+	// stars glow is for the rarer stuff
+	// and the normal star for less rare things or unfinished stuff
+	for range Profile.StarsGlow {
+		Profile.Name = Profile.Name + " 🌟"
+	}
+
 	for range Profile.Stars {
 		Profile.Name = Profile.Name + " ⭐"
 	}
 
-	// add the progress stars before printing
+	// update the progress
 
 	// this means that they caught them atleast once
 	// doesnt mean that they still have them in their bag
 	if Profile.MythicalFish.HasAllOriginalMythicalFish {
-		baseText := "⭐ Has encountered all the mythical fish"
-		for _, fish := range originalMythicalFish {
-			baseText = baseText + " " + EmojisForFish[fish]
+		baseText := "🌟 Has encountered all the mythical fish:"
+		for _, fish := range fishLists["mythic"] {
+			baseText = baseText + " " + EmojisForFish[fish] + " " + fish
 		}
 		baseText = baseText + " !"
 		Profile.Progress = append(Profile.Progress, baseText)
 	}
 
 	if Profile.Treasures.HasAllRedAveryTreasure {
-		baseText := "⭐ Has found all the treasures from legendary pirate Red Avery"
-		for _, fish := range redAveryTreasures {
-			baseText = baseText + " " + EmojisForFish[fish]
+		baseText := "🌟 Has found all the treasures from legendary pirate Red Avery:"
+		for _, fish := range fishLists["r.a.treasure"] {
+			baseText = baseText + " " + EmojisForFish[fish] + " " + fish
+		}
+		baseText = baseText + " !"
+		Profile.Progress = append(Profile.Progress, baseText)
+	}
+
+	if Profile.Birds.HasAllBirds {
+		baseText := "🌟 Has seen all the birds:"
+		for _, fish := range fishLists["bird"] {
+			baseText = baseText + " " + EmojisForFish[fish] + " " + fish
 		}
 		baseText = baseText + " !"
 		Profile.Progress = append(Profile.Progress, baseText)
@@ -410,6 +433,19 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 	if Profile.SonnyDay.HasLetter {
 		Profile.Progress = append(Profile.Progress,
 			fmt.Sprintf("⭐ Has gotten a letter ✉️ ! (Received: %s UTC)", Profile.SonnyDay.LetterInBagReceived.Format("2006-01-02 15:04:05")))
+	}
+
+	// no star, since it isnt really rare
+	// just means you've been at acorn pond all four seasons
+	if Profile.Flowers.HasAllFlowers {
+		baseText := "💐 Has seen all the flowers:"
+		for _, fish := range fishLists["flower"] {
+			baseText = baseText + " " + EmojisForFish[fish] + " " + fish
+		}
+		baseText = baseText + " !"
+		Profile.Progress = append(Profile.Progress, baseText)
+
+		Profile.Name = Profile.Name + " 💐"
 	}
 
 	// add some notes to the bottom
@@ -429,7 +465,7 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.")
 
 	Profile.InfoBottom = append(Profile.InfoBottom,
-		"The profile does not check if the player still has the treasures and mythical fish in their bag. The player gets a progress star if they caught all of them atleast once.")
+		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once.")
 
 	// update the last updated
 	Profile.LastUpdated = time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC")

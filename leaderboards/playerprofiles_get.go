@@ -9,7 +9,7 @@ import (
 	"github.com/jackc/pgx/v5"
 )
 
-func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]string, validPlayers []int, allFish []string, allShinies []string, redAveryTreasures []string, originalMythicalFish []string) (map[int]*PlayerProfile, error) {
+func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]string, validPlayers []int, fishLists map[string][]string) (map[int]*PlayerProfile, error) {
 	CatchtypeNames := params.Catchtypenames
 	pool := params.Pool
 
@@ -109,7 +109,7 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 		for n, ItemInBag := range Profiles[lastBag.PlayerID].Bag.Bag {
 
 			var isashiny bool
-			for _, shiny := range allShinies {
+			for _, shiny := range fishLists["shiny"] {
 				if ItemInBag == shiny {
 
 					isashiny = true
@@ -267,7 +267,7 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 		Profiles[fishu.PlayerID].FishSeenTotal = len(fishu.Bag)
 
 		// Also get the fish that player never caught
-		for _, fishy := range allFish {
+		for _, fishy := range fishLists["all"] {
 			fishneverseen := true
 
 			for _, seenfish := range Profiles[fishu.PlayerID].FishSeen {
@@ -579,29 +579,56 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 		Profiles[fish.PlayerID].FishData[fmt.Sprintf("%s %s", fish.TypeName, EmojisForFish[fish.TypeName])].First = fish
 
 		// Update their progress for the Red Avery Treasures
-		for _, redAveryTreasure := range redAveryTreasures {
+		for _, redAveryTreasure := range fishLists["r.a.treasure"] {
 
 			if fish.TypeName == redAveryTreasure {
 
 				Profiles[fish.PlayerID].Treasures.RedAveryTreasureCount++
 
-				if Profiles[fish.PlayerID].Treasures.RedAveryTreasureCount == len(redAveryTreasures) {
+				if Profiles[fish.PlayerID].Treasures.RedAveryTreasureCount == len(fishLists["r.a.treasure"]) {
 					Profiles[fish.PlayerID].Treasures.HasAllRedAveryTreasure = true
-					Profiles[fish.PlayerID].Stars++
+					Profiles[fish.PlayerID].StarsGlow++
 				}
 			}
 		}
 
 		// Update their progress for the Mythical Fish
-		for _, ogMythicalFish := range originalMythicalFish {
+		for _, ogMythicalFish := range fishLists["mythic"] {
 
 			if fish.TypeName == ogMythicalFish {
 
 				Profiles[fish.PlayerID].MythicalFish.OriginalMythicalFishCount++
 
-				if Profiles[fish.PlayerID].MythicalFish.OriginalMythicalFishCount == len(originalMythicalFish) {
+				if Profiles[fish.PlayerID].MythicalFish.OriginalMythicalFishCount == len(fishLists["mythic"]) {
 					Profiles[fish.PlayerID].MythicalFish.HasAllOriginalMythicalFish = true
-					Profiles[fish.PlayerID].Stars++
+					Profiles[fish.PlayerID].StarsGlow++
+				}
+			}
+		}
+
+		// update progress for birds
+		for _, bird := range fishLists["bird"] {
+
+			if fish.TypeName == bird {
+
+				Profiles[fish.PlayerID].Birds.BirdCount++
+
+				if Profiles[fish.PlayerID].Birds.BirdCount == len(fishLists["birds"]) {
+					Profiles[fish.PlayerID].Birds.HasAllBirds = true
+					Profiles[fish.PlayerID].StarsGlow++
+				}
+			}
+		}
+
+		// also for flowers ?
+		for _, flower := range fishLists["flower"] {
+
+			if fish.TypeName == flower {
+
+				Profiles[fish.PlayerID].Flowers.FLowerCount++
+
+				if Profiles[fish.PlayerID].Flowers.FLowerCount == len(fishLists["flower"]) {
+					Profiles[fish.PlayerID].Flowers.HasAllFlowers = true
 				}
 			}
 		}

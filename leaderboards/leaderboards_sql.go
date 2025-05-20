@@ -102,44 +102,33 @@ func GetAllFishNames(params LeaderboardParams) ([]string, error) {
 	return fishes, nil
 }
 
-// the treasures and mythical fish
-// for the player profiles
-func ReturnRedAveryTreasure(params LeaderboardParams) ([]string, error) {
+// return fish from fishinfo with a specific tag
+func ReturnFishTags(params LeaderboardParams, tag string) ([]string, error) {
 	board := params.LeaderboardType
 	chatName := params.ChatName
 	pool := params.Pool
 
-	var redAveryTreasures []string
+	var fish []string
 
-	err := pool.QueryRow(context.Background(), `select array_agg(fishname) from fishinfo where 'r.a.treasure' = any(tags)`).Scan(&redAveryTreasures)
+	err := pool.QueryRow(context.Background(), `select array_agg(fishname) from fishinfo where $1 = any(tags)`, tag).Scan(&fish)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Chat", chatName).
 			Str("Board", board).
-			Msg("Error querying database for redAveryTreasures")
-		return redAveryTreasures, err
+			Str("Tag", tag).
+			Msg("Error querying database for tag")
+		return fish, err
 	}
 
-	return redAveryTreasures, nil
-}
-
-func ReturnOriginalMythicalFish(params LeaderboardParams) ([]string, error) {
-	board := params.LeaderboardType
-	chatName := params.ChatName
-	pool := params.Pool
-
-	var ogMythicalFish []string
-
-	err := pool.QueryRow(context.Background(), `select array_agg(fishname) from fishinfo where 'mythic' = any(tags)`).Scan(&ogMythicalFish)
-	if err != nil {
-		logs.Logs().Error().Err(err).
+	if len(fish) == 0 {
+		logs.Logs().Warn().
 			Str("Chat", chatName).
 			Str("Board", board).
-			Msg("Error querying database for ogMythicalFish")
-		return ogMythicalFish, err
+			Str("Tag", tag).
+			Msg("No fish with that tag in db!")
 	}
 
-	return ogMythicalFish, nil
+	return fish, nil
 }
 
 func GetAllShinies(params LeaderboardParams) ([]string, error) {
