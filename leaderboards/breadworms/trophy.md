@@ -9,17 +9,17 @@
 | 6 | derinturitierutz | 33 | 5 | 13 | 110.5 |
 | 7 | qu4ttromila | 11 | 19 | 20 | 62.0 |
 | 8 | kishma9 | 11 | 18 | 9 | 55.5 |
-| 9 | miiiiisho | 8 | 21 | 14 | 52.0 |
-| 10 | dayzedinndaydreams | 10 | 10 | 12 | 46.0 |
-| 11 ⬆| destin357 | 9 (+3) | 14 | 6 | 44.0 (+9.0) |
-| 12 ⬇| sussy_amonge | 12 | 4 | 7 | 43.5 |
-| 13 ⬇| sicklymaidrobot | 5 | 10 | 26 | 38.0 |
+| 9 ⬆| destin357 | 12 (+3) | 14 | 6 | 53.0 (+9.0) |
+| 10 ⬇| miiiiisho | 8 | 21 | 14 | 52.0 |
+| 11 ⬇| dayzedinndaydreams | 10 | 10 | 12 | 46.0 |
+| 12 | sussy_amonge | 12 | 4 | 7 | 43.5 |
+| 13 | sicklymaidrobot | 5 | 10 | 26 | 38.0 |
 | 14 | comiqq | 5 | 12 | 9 | 31.5 |
-| 15 | fishingalt | 4 | 7 | 7 | 22.5 |
+| 15 | fishingalt | 4 | 7 | 9 | 23.5 |
 | 16 | c_mgirl | 3 | 3 | 11 | 17.5 |
-| 17 | booty_bread | 4 | 2 | 6 | 17.0 |
-| 18 ⬆| derintu | 1 | 10 (+3) | 7 | 16.5 (+3.0) |
-| 19 ⬇| ryebreadward | 3 | 3 | 6 | 15.0 |
+| 16 ⬆| derintu | 1 | 10 | 9 (+2) | 17.5 (+1.0) |
+| 18 ⬇| booty_bread | 4 | 2 | 6 | 17.0 |
+| 19 | ryebreadward | 3 | 3 | 6 | 15.0 |
 | 20 | ninjaross | 2 | 2 | 10 | 13.0 |
 | 21 | idini | 1 | 1 | 10 | 9.0 |
 | 22 | respirate_ | 2 | 1 | 2 | 8.0 |
@@ -45,4 +45,4 @@
 | 40 | mochi_uygqzidbjizjkbehuiw | 0 | 0 | 1 | 0.5 |
 | 40 | niiy | 0 | 0 | 1 | 0.5 |
 
-_Last updated at 2025-05-14 10:01:14 UTC_
+_Last updated at 2025-05-21 09:19:53 UTC_

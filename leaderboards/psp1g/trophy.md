@@ -1,8 +1,8 @@
 ### Leaderboard for the weekly tournaments in psp1g's chat
 | Rank | Player | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points |
 |------|--------|-------------|------------------|------------------|--------|
-| 1 🥇 | nndiana | 30 | 27 (+2) | 10 (+1) | 122.0 (+2.5) |
-| 2 🥈 | bubinga | 20 (+2) | 12 (+1) | 9 | 76.5 (+7.0) |
+| 1 🥇 | nndiana | 30 | 30 (+3) | 10 | 125.0 (+3.0) |
+| 2 🥈 | bubinga | 23 (+3) | 12 | 9 | 85.5 (+9.0) |
 | 3 🥉 | huuuuuuuuuuuuuuuuuuuuuurz | 8 | 10 | 9 | 38.5 |
 | 4 | benciee | 7 | 11 | 2 | 33.0 |
 | 5 | iflya320 | 6 | 3 | 2 | 22.0 |
@@ -17,13 +17,13 @@
 | 14 | jr_mime | 2 | 4 | 2 | 11.0 |
 | 15 | fonuwu | 3 | 0 | 1 | 9.5 |
 | 16 | pengeg | 2 | 3 | 0 | 9.0 |
-| 17 | sandwichsundays | 1 | 2 | 4 | 7.0 |
-| 17 | thasbe | 2 | 1 | 0 | 7.0 |
-| 19 | mazzo_tv | 0 | 5 | 3 | 6.5 |
+| 17 ⬆| mazzo_tv | 0 | 5 | 6 (+3) | 8.0 (+1.5) |
+| 18 ⬇| sandwichsundays | 1 | 2 | 4 | 7.0 |
+| 18 ⬇| thasbe | 2 | 1 | 0 | 7.0 |
 | 20 | commanda_u | 1 | 0 | 4 | 5.0 |
 | 20 | divra__ | 1 | 2 | 0 | 5.0 |
 | 20 | hahppyy | 1 | 1 | 2 | 5.0 |
-| 20 ⬆| ratot | 1 | 1 | 2 (+1) | 5.0 (+0.5) |
+| 20 | ratot | 1 | 1 | 2 | 5.0 |
 | 24 | veny2lbs | 1 | 0 | 2 | 4.0 |
 | 25 | creepycode | 0 | 3 | 0 | 3.0 |
 | 25 | zsipe | 0 | 3 | 0 | 3.0 |
@@ -35,4 +35,4 @@
 | 31 | gorillapark | 0 | 0 | 1 | 0.5 |
 | 31 | starducc | 0 | 0 | 1 | 0.5 |
 
-_Last updated at 2025-05-14 10:01:14 UTC_
+_Last updated at 2025-05-21 09:16:59 UTC_

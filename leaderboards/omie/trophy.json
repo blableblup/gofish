@@ -29,31 +29,31 @@
 	"2941": {
 		"player": "v6r_",
 		"playerid": 2941,
-		"weight": 191,
+		"weight": 197.5,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 57,
+		"fishid": 59,
 		"chatid": 19,
-		"maxcount": 2,
+		"maxcount": 3,
 		"rank": 1
 	},
 	"3142": {
 		"player": "mangos4u",
 		"playerid": 3142,
-		"weight": 55,
+		"weight": 59.5,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 9,
-		"chatid": 17,
-		"maxcount": 22,
+		"fishid": 10,
+		"chatid": 18,
+		"maxcount": 23,
 		"rank": 3
 	},
 	"3487": {
 		"player": "solahh__",
 		"playerid": 3487,
-		"weight": 16,
+		"weight": 18.5,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 2,
-		"chatid": 4,
-		"maxcount": 12,
+		"chatid": 6,
+		"maxcount": 13,
 		"rank": 4
 	}
 }
