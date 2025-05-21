@@ -23,7 +23,7 @@ type PlayerProfile struct {
 	Progress []string
 	Records  []string
 	// right now shiny is the only other achievment
-	Other OtherAchievements `json:"Other achievements"`
+	Other OtherAchievements `json:"Other accomplishments"`
 
 	Stars        int                  `json:"-"`
 	StarsGlow    int                  `json:"-"`
@@ -33,12 +33,9 @@ type PlayerProfile struct {
 	Birds        BirdProgress         `json:"-"`
 	Flowers      FlowerProgress       `json:"-"`
 
-	Count              int                       `json:"Fish Caught in total"`
-	ChatCounts         map[string]int            `json:"Fish caught per chat"`
-	CountYear          map[string]int            `json:"Fish caught per year"`
-	ChatCountsYear     map[string]map[string]int `json:"Fish caught per chat per year"`
-	CountCatchtype     map[string]int            `json:"Fish caught per catchtype"`
-	CountCatchtypeChat map[string]map[string]int `json:"Fish caught per catchtype per chat"`
+	Count          *TotalChatStruct            `json:"Fish Caught in total"`
+	CountYear      map[string]*TotalChatStruct `json:"Fish caught per year"`
+	CountCatchtype map[string]*TotalChatStruct `json:"Fish caught per catchtype"`
 
 	FirstFishChat   map[string]ProfileFish `json:"Their first fish per chat"`
 	LastFishChat    map[string]ProfileFish `json:"Their last fish per chat"`
@@ -50,9 +47,8 @@ type PlayerProfile struct {
 	Bag       ProfileBag     `json:"Their last seen bag"`
 	BagCounts map[string]int `json:"Count of each item in that bag"`
 
-	FishSeen      []string       `json:"-"`
-	FishSeenTotal int            `json:"Fish seen in total"`
-	FishSeenChat  map[string]int `json:"Fish seen per chat"`
+	FishSeen      []string         `json:"-"`
+	FishSeenTotal *TotalChatStruct `json:"Fish seen in total"`
 
 	FishData map[string]*ProfileFishData `json:"Data about each of their seen fish"`
 
@@ -63,6 +59,13 @@ type PlayerProfile struct {
 	LastUpdated string   `json:"Profile last updated at"`
 }
 
+// for the counts which have a total and chats
+type TotalChatStruct struct {
+	Total int
+	Chat  map[string]int `json:"Per chat"`
+}
+
+// all the structs for the progress thingys
 type TreasureProgress struct {
 	HasAllRedAveryTreasure bool
 	RedAveryTreasureCount  int
@@ -88,10 +91,10 @@ type FlowerProgress struct {
 	FLowerCount   int
 }
 
-// can maybe eventually add the big mammals from big as progress
+// can maybe eventually add the big mammals from big as progress (?)
 
 type OtherAchievements struct {
-	Other      []string      `json:"Achievements"`
+	Other      []string      `json:"Accomplishments"`
 	HasShiny   bool          `json:"-"`
 	ShinyCatch []ProfileFish `json:"Shinies"`
 }
@@ -126,13 +129,11 @@ type ProfileFish struct {
 	Date     time.Time `json:"-"`
 }
 
+// struct for each fish types data
 type ProfileFishData struct {
-	TotalCount         int                       `json:"Caught in total"`
-	CountChat          map[string]int            `json:"Caught in total per chat"`
-	CountYear          map[string]int            `json:"Caught per year"`
-	CountChatYear      map[string]map[string]int `json:"Caught per year per chat"`
-	CountCatchtype     map[string]int            `json:"Caught per catchtype"`
-	CountCatchtypeChat map[string]map[string]int `json:"Caught per catchtype per chat"`
+	TotalCount     *TotalChatStruct            `json:"Caught in total"`
+	CountYear      map[string]*TotalChatStruct `json:"Caught per year"`
+	CountCatchtype map[string]*TotalChatStruct `json:"Caught per catchtype"`
 
 	First    ProfileFish       `json:"First catch"`
 	Last     ProfileFish       `json:"Last catch"`
@@ -140,6 +141,7 @@ type ProfileFishData struct {
 	Smallest TypeRecordProfile `json:"Smallest catch"`
 }
 
+// to make it show if that fish is a record somewhere
 type TypeRecordProfile struct {
 	Fish     ProfileFish
 	IsRecord []string `json:"Record,omitempty"`

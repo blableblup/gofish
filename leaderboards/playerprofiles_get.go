@@ -47,10 +47,12 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 		if _, ok := Profiles[playerID]; !ok {
 
 			Profiles[playerID] = &PlayerProfile{
-				PlayerID:       playerID,
-				CountYear:      make(map[string]int),
-				ChatCounts:     make(map[string]int),
-				ChatCountsYear: make(map[string]map[string]int),
+				PlayerID:  playerID,
+				CountYear: make(map[string]*TotalChatStruct),
+			}
+
+			Profiles[playerID].Count = &TotalChatStruct{
+				Chat: make(map[string]int),
 			}
 
 			Profiles[playerID].Name, _, Profiles[playerID].Verified.Bool, Profiles[playerID].TwitchID, err = PlayerStuff(playerID, params, pool)
@@ -68,15 +70,20 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 			Profiles[playerID].PlayerID = playerID
 		}
 
-		if Profiles[playerID].ChatCountsYear[year] == nil {
-			Profiles[playerID].ChatCountsYear[year] = make(map[string]int)
+		// initialize the year
+		if _, ok := Profiles[playerID].CountYear[year]; !ok {
+
+			Profiles[playerID].CountYear[year] = &TotalChatStruct{
+				Chat: make(map[string]int),
+			}
 		}
-		Profiles[playerID].ChatCountsYear[year][chat] = count
 
 		// Calculate the total count, the count per year and the count per chat
-		Profiles[playerID].Count = Profiles[playerID].Count + count
-		Profiles[playerID].CountYear[year] = Profiles[playerID].CountYear[year] + count
-		Profiles[playerID].ChatCounts[chat] = Profiles[playerID].ChatCounts[chat] + count
+		Profiles[playerID].Count.Total = Profiles[playerID].Count.Total + count
+		Profiles[playerID].Count.Chat[chat] = Profiles[playerID].Count.Chat[chat] + count
+
+		Profiles[playerID].CountYear[year].Chat[chat] = count
+		Profiles[playerID].CountYear[year].Total = Profiles[playerID].CountYear[year].Total + count
 	}
 
 	// The last seen bag
@@ -190,67 +197,83 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 		catchtype := CatchtypeNames[ble.CatchType]
 		playerID := ble.PlayerID
 
+		// initialize the catchtype map and the fishdata map first
 		if Profiles[playerID].CountCatchtype == nil {
-			Profiles[playerID].CountCatchtype = make(map[string]int)
-			Profiles[playerID].CountCatchtypeChat = make(map[string]map[string]int)
+
+			Profiles[playerID].CountCatchtype = make(map[string]*TotalChatStruct)
 
 			Profiles[playerID].FishData = make(map[string]*ProfileFishData)
 		}
 
-		// fish caught per catchtype
-		Profiles[playerID].CountCatchtype[catchtype] = Profiles[playerID].CountCatchtype[catchtype] + count
+		if _, ok := Profiles[playerID].CountCatchtype[catchtype]; !ok {
 
-		// fish caught per catchtype per chat
-		if Profiles[playerID].CountCatchtypeChat[catchtype] == nil {
-			Profiles[playerID].CountCatchtypeChat[catchtype] = make(map[string]int)
+			Profiles[playerID].CountCatchtype[catchtype] = &TotalChatStruct{
+				Chat: make(map[string]int),
+			}
 		}
 
-		Profiles[playerID].CountCatchtypeChat[catchtype][chat] = Profiles[playerID].CountCatchtypeChat[catchtype][chat] + count
+		// fish caught per catchtype
+		Profiles[playerID].CountCatchtype[catchtype].Total = Profiles[playerID].CountCatchtype[catchtype].Total + count
 
+		// fish caught per catchtype per chat
+		Profiles[playerID].CountCatchtype[catchtype].Chat[chat] = Profiles[playerID].CountCatchtype[catchtype].Chat[chat] + count
+
+		// initialize the maps for the fish type
 		if _, ok := Profiles[playerID].FishData[fishname]; !ok {
 
 			Profiles[playerID].FishData[fishname] = &ProfileFishData{
-				CountChat:          make(map[string]int),
-				CountYear:          make(map[string]int),
-				CountChatYear:      make(map[string]map[string]int),
-				CountCatchtype:     make(map[string]int),
-				CountCatchtypeChat: make(map[string]map[string]int),
+				TotalCount: &TotalChatStruct{
+					Chat: make(map[string]int),
+				},
+				CountYear:      make(map[string]*TotalChatStruct),
+				CountCatchtype: make(map[string]*TotalChatStruct),
+			}
+		}
+
+		// initialize the year
+		if _, ok := Profiles[playerID].FishData[fishname].CountYear[year]; !ok {
+
+			Profiles[playerID].FishData[fishname].CountYear[year] = &TotalChatStruct{
+				Chat: make(map[string]int),
 			}
 		}
 
 		// fish of that type caught per year per chat
-		if Profiles[playerID].FishData[fishname].CountChatYear[year] == nil {
-			Profiles[playerID].FishData[fishname].CountChatYear[year] = make(map[string]int)
-		}
-		Profiles[playerID].FishData[fishname].CountChatYear[year][chat] = Profiles[playerID].FishData[fishname].CountChatYear[year][chat] + count
+		Profiles[playerID].FishData[fishname].CountYear[year].Chat[chat] = Profiles[playerID].FishData[fishname].CountYear[year].Chat[chat] + count
 
 		// fish of that type caught overall
-		Profiles[playerID].FishData[fishname].TotalCount = Profiles[playerID].FishData[fishname].TotalCount + count
+		Profiles[playerID].FishData[fishname].TotalCount.Total = Profiles[playerID].FishData[fishname].TotalCount.Total + count
 
 		// increase the fish seen per chat if that fish wasnt already in this map for the chat
-		if _, ok := Profiles[playerID].FishData[fishname].CountChat[chat]; !ok {
-			if Profiles[playerID].FishSeenChat == nil {
-				Profiles[playerID].FishSeenChat = make(map[string]int)
+		if _, ok := Profiles[playerID].FishData[fishname].TotalCount.Chat[chat]; !ok {
+
+			if Profiles[playerID].FishSeenTotal == nil {
+				Profiles[playerID].FishSeenTotal = &TotalChatStruct{
+					Chat: make(map[string]int),
+				}
 			}
 
-			Profiles[playerID].FishSeenChat[chat] = Profiles[playerID].FishSeenChat[chat] + 1
+			Profiles[playerID].FishSeenTotal.Chat[chat] = Profiles[playerID].FishSeenTotal.Chat[chat] + 1
 		}
 
 		// fish of that type caught per chat
-		Profiles[playerID].FishData[fishname].CountChat[chat] = Profiles[playerID].FishData[fishname].CountChat[chat] + count
+		Profiles[playerID].FishData[fishname].TotalCount.Chat[chat] = Profiles[playerID].FishData[fishname].TotalCount.Chat[chat] + count
 
 		// fish of that type caught per year
-		Profiles[playerID].FishData[fishname].CountYear[year] = Profiles[playerID].FishData[fishname].CountYear[year] + count
+		Profiles[playerID].FishData[fishname].CountYear[year].Total = Profiles[playerID].FishData[fishname].CountYear[year].Total + count
 
-		// fish of that type caught per catchtype
-		Profiles[playerID].FishData[fishname].CountCatchtype[catchtype] = Profiles[playerID].FishData[fishname].CountCatchtype[catchtype] + count
+		// initialize the catchtype count per fish type
+		if _, ok := Profiles[playerID].FishData[fishname].CountCatchtype[catchtype]; !ok {
 
-		// fish of that type caught per catchtype per chat
-		if Profiles[playerID].FishData[fishname].CountCatchtypeChat[catchtype] == nil {
-			Profiles[playerID].FishData[fishname].CountCatchtypeChat[catchtype] = make(map[string]int)
+			Profiles[playerID].FishData[fishname].CountCatchtype[catchtype] = &TotalChatStruct{
+				Chat: make(map[string]int),
+			}
 		}
 
-		Profiles[playerID].FishData[fishname].CountCatchtypeChat[catchtype][chat] = Profiles[playerID].FishData[fishname].CountCatchtypeChat[catchtype][chat] + count
+		// fish of that type caught per catchtype
+		Profiles[playerID].FishData[fishname].CountCatchtype[catchtype].Total = Profiles[playerID].FishData[fishname].CountCatchtype[catchtype].Total + count
+
+		Profiles[playerID].FishData[fishname].CountCatchtype[catchtype].Chat[chat] = Profiles[playerID].FishData[fishname].CountCatchtype[catchtype].Chat[chat] + count
 	}
 
 	// all their fish seen; could get this from the fishtypescaughtcount maps
@@ -271,7 +294,7 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 	for _, fishu := range fishseen {
 
 		Profiles[fishu.PlayerID].FishSeen = fishu.Bag
-		Profiles[fishu.PlayerID].FishSeenTotal = len(fishu.Bag)
+		Profiles[fishu.PlayerID].FishSeenTotal.Total = len(fishu.Bag)
 
 		// Also get the fish that player never caught
 		for _, fishy := range fishLists["all"] {
