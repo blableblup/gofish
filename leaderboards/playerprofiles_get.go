@@ -626,12 +626,12 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 
 				Profiles[fish.PlayerID].Birds.BirdCount++
 
-				if Profiles[fish.PlayerID].Birds.BirdCount == len(fishLists["birds"]) {
+				if Profiles[fish.PlayerID].Birds.BirdCount == len(fishLists["bird"]) {
 					Profiles[fish.PlayerID].Birds.HasAllBirds = true
 					Profiles[fish.PlayerID].StarsGlow++
 
-					HowManyPlayersHaveRecords["birds"]++
-					PlayersWithRecordsPlayerIDs["birds"] = append(PlayersWithRecordsPlayerIDs["birds"], fish.PlayerID)
+					HowManyPlayersHaveRecords["bird"]++
+					PlayersWithRecordsPlayerIDs["bird"] = append(PlayersWithRecordsPlayerIDs["bird"], fish.PlayerID)
 				}
 			}
 		}
