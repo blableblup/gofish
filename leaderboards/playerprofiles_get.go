@@ -16,6 +16,10 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 	// the * to update the maps inside the struct directly
 	Profiles := make(map[int]*PlayerProfile, len(validPlayers))
 
+	// to see how many players have each record and their ids
+	HowManyPlayersHaveRecords := make(map[string]int)
+	PlayersWithRecordsPlayerIDs := make(map[string][]int)
+
 	// The count per year per chat
 	queryCountYearChat := `
 		select count(*), 
@@ -154,6 +158,9 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 		Profiles[bag.PlayerID].SonnyDay.HasLetter = true
 		Profiles[bag.PlayerID].SonnyDay.LetterInBagReceived = bag.Date
 		Profiles[bag.PlayerID].Stars++
+
+		HowManyPlayersHaveRecords["letter"]++
+		PlayersWithRecordsPlayerIDs["letter"] = append(PlayersWithRecordsPlayerIDs["letter"], bag.PlayerID)
 	}
 
 	// The fish type caught count per year per chat per catchtype
@@ -588,6 +595,9 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 				if Profiles[fish.PlayerID].Treasures.RedAveryTreasureCount == len(fishLists["r.a.treasure"]) {
 					Profiles[fish.PlayerID].Treasures.HasAllRedAveryTreasure = true
 					Profiles[fish.PlayerID].StarsGlow++
+
+					HowManyPlayersHaveRecords["r.a.treasure"]++
+					PlayersWithRecordsPlayerIDs["r.a.treasure"] = append(PlayersWithRecordsPlayerIDs["r.a.treasure"], fish.PlayerID)
 				}
 			}
 		}
@@ -602,6 +612,9 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 				if Profiles[fish.PlayerID].MythicalFish.OriginalMythicalFishCount == len(fishLists["mythic"]) {
 					Profiles[fish.PlayerID].MythicalFish.HasAllOriginalMythicalFish = true
 					Profiles[fish.PlayerID].StarsGlow++
+
+					HowManyPlayersHaveRecords["mythic"]++
+					PlayersWithRecordsPlayerIDs["mythic"] = append(PlayersWithRecordsPlayerIDs["mythic"], fish.PlayerID)
 				}
 			}
 		}
@@ -616,6 +629,9 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 				if Profiles[fish.PlayerID].Birds.BirdCount == len(fishLists["birds"]) {
 					Profiles[fish.PlayerID].Birds.HasAllBirds = true
 					Profiles[fish.PlayerID].StarsGlow++
+
+					HowManyPlayersHaveRecords["birds"]++
+					PlayersWithRecordsPlayerIDs["birds"] = append(PlayersWithRecordsPlayerIDs["birds"], fish.PlayerID)
 				}
 			}
 		}
@@ -629,9 +645,22 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 
 				if Profiles[fish.PlayerID].Flowers.FLowerCount == len(fishLists["flower"]) {
 					Profiles[fish.PlayerID].Flowers.HasAllFlowers = true
+
+					HowManyPlayersHaveRecords["flower"]++
+					PlayersWithRecordsPlayerIDs["flower"] = append(PlayersWithRecordsPlayerIDs["flower"], fish.PlayerID)
 				}
 			}
 		}
+	}
+
+	// debug log, need to do -mode force for this to show all of the records,
+	// will only show for players which are in the validPlayers
+	for record, count := range HowManyPlayersHaveRecords {
+		logs.Logs().Debug().
+			Str("Record", record).
+			Int("Players", count).
+			Interface("PlayerIDs", PlayersWithRecordsPlayerIDs[record]).
+			Msg("Amount of players with record")
 	}
 
 	return Profiles, nil
