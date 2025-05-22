@@ -33,7 +33,7 @@ type PlayerProfile struct {
 	Birds        BirdProgress         `json:"-"`
 	Flowers      FlowerProgress       `json:"-"`
 
-	Count          *TotalChatStruct            `json:"Fish Caught in total"`
+	Count          *TotalChatStruct            `json:"Fish caught in total"`
 	CountYear      map[string]*TotalChatStruct `json:"Fish caught per year"`
 	CountCatchtype map[string]*TotalChatStruct `json:"Fish caught per catchtype"`
 
