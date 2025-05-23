@@ -389,18 +389,10 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 
 	filePath := filepath.Join("leaderboards", "global", "players", fmt.Sprintf("%d", Profile.TwitchID)+".json")
 
-	// add the stars
+	// update the progress
+
 	// stars glow is for the rarer stuff
 	// and the normal star for less rare things or unfinished stuff
-	for range Profile.StarsGlow {
-		Profile.Name = Profile.Name + " 🌟"
-	}
-
-	for range Profile.Stars {
-		Profile.Name = Profile.Name + " ⭐"
-	}
-
-	// update the progress
 
 	// this means that they caught them atleast once
 	// doesnt mean that they still have them in their bag
@@ -446,8 +438,6 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 		}
 		baseText = baseText + " !"
 		Profile.Progress = append(Profile.Progress, baseText)
-
-		Profile.Name = Profile.Name + " 💐"
 	}
 
 	// add some notes to the bottom

@@ -156,6 +156,10 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 
 	sort.SliceStable(blee, func(i, j int) bool { return blee[i] < blee[j] })
 
+	// for count, uniquefish, weight, trophy update their record if they are rank <= the limit on that board
+	// could also jsut remove it ? ?
+	ranklimit := 20
+
 	for _, chatName := range blee {
 
 		var text string
@@ -169,8 +173,7 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 		for playerID := range otherBoardData[chatName].Count {
 			rank := otherBoardData[chatName].Count[playerID].Rank
 
-			// for count, uniquefish, weight, trophy update their record if they are rank <= 10 on that board
-			if rank <= 10 {
+			if rank <= ranklimit {
 
 				// only update Records if they are in the map
 				if _, ok := Profiles[playerID]; ok {
@@ -196,7 +199,7 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 		// give the players Records for their fish seen
 		for playerID := range otherBoardData[chatName].Uniquefish {
 			rank := otherBoardData[chatName].Uniquefish[playerID].Rank
-			if rank <= 10 {
+			if rank <= ranklimit {
 
 				if _, ok := Profiles[playerID]; ok {
 					switch rank {
@@ -221,7 +224,7 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 		// give the players Records for their biggest fish
 		for playerID := range otherBoardData[chatName].Weight {
 			rank := otherBoardData[chatName].Weight[playerID].Rank
-			if rank <= 10 {
+			if rank <= ranklimit {
 
 				if _, ok := Profiles[playerID]; ok {
 					switch rank {
@@ -245,7 +248,7 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 
 		for playerID := range otherBoardData[chatName].Trophy {
 			rank := otherBoardData[chatName].Trophy[playerID].Rank
-			if rank <= 10 {
+			if rank <= ranklimit {
 
 				if _, ok := Profiles[playerID]; ok {
 					switch rank {
