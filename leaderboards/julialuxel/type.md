@@ -2,7 +2,7 @@
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
 | 1 🥇  | 🦕 sauropod | 241.63 | toastyso | 2024-01-10 01:45:42 |
-| 2 🥈  | 🐉 dragon | 211.91 | chubbbyhamster | 2024-03-30 16:25:01 |
+| 2 🥈  | 🐉 dragon | 211.91 | lluuucy | 2024-03-30 16:25:01 |
 | 3 🥉  | 🦑 squid | 208.92 | julialuxel | 2024-12-29 01:57:03 |
 | 4  | 🐳 whale | 200.06 | hahppyy | 2024-01-07 09:31:34 |
 | 5  | 🦈 shark | 183.97 | tucelli | 2024-02-04 14:44:44 |
@@ -15,13 +15,13 @@
 | 12  | 🦞 lobster | 57.13 | hahppyy | 2024-02-04 14:41:47 |
 | 13  | 🪨 rock | 41.96 | hahppyy | 2024-02-01 13:41:58 |
 | 14  | 🦪 oyster | 37.55 | puzzlow | 2024-01-04 18:20:12 |
-| 15  | 🐧 penguin | 35.92 | chubbbyhamster | 2023-12-23 18:45:06 |
+| 15  | 🐧 penguin | 35.92 | lluuucy | 2023-12-23 18:45:06 |
 | 16  | 🦐 shrimp | 30.19 | hahppyy | 2024-03-11 19:01:30 |
-| 17  | 🐟 fish | 28.64 | chubbbyhamster | 2023-12-23 20:50:22 |
+| 17  | 🐟 fish | 28.64 | lluuucy | 2023-12-23 20:50:22 |
 | 18  | 🦫 beaver | 28.05 | julialuxel | 2024-10-04 20:54:33 |
 | 19  | 🐍 snake | 24.30 | hahppyy | 2024-01-24 16:47:43 |
 | 20  | 🐠 tropicalfish | 21.19 | dayzedinndaydreams | 2024-05-13 18:34:24 |
-| 21  | 🪸 coral | 20.18 | chubbbyhamster | 2024-04-01 18:43:48 |
+| 21  | 🪸 coral | 20.18 | lluuucy | 2024-04-01 18:43:48 |
 | 22  | 🕷️ spider | 20.04 | puzzlow | 2023-12-28 17:08:57 |
 | 23  | 🐡 blowfish | 18.91 | toastyso | 2023-12-27 10:41:27 |
 | 24  | 🪳 cockroach | 18.84 | notnownico | 2024-12-06 00:32:24 |
@@ -32,11 +32,11 @@
 | 29  | 🎱 8ball | 9.03 | julialuxel | 2025-03-14 23:02:31 |
 | 30  | 💀 skull | 8.64 | julialuxel | 2024-04-01 16:11:26 |
 | 31  | 🧊 icecube | 8.17 | julialuxel | 2024-01-11 13:42:35 |
-| 32  | 🦎 lizard | 5.71 | chubbbyhamster | 2024-03-29 19:01:01 |
+| 32  | 🦎 lizard | 5.71 | lluuucy | 2024-03-29 19:01:01 |
 | 33  | 📱 iphone | 5.63 | gawblemachine | 2024-10-17 19:29:24 |
 | 34  | 🦀 crab | 4.95 | leanmeister | 2025-01-03 21:39:41 |
 | 35  | 🧵 wireline | 4.73 | julialuxel | 2025-03-15 00:39:39 |
-| 36  | 🐸 frog | 4.25 | chubbbyhamster | 2024-02-11 21:39:37 |
+| 36  | 🐸 frog | 4.25 | lluuucy | 2024-02-11 21:39:37 |
 | 37  | 🎏 lure | 4.03 | toastyso | 2023-12-30 14:32:52 |
 | 38  | 🪝 hook | 3.91 | bubinga | 2025-02-08 19:33:04 |
 | 39  | ☘️ shamrock | 3.85 | gawblemachine | 2024-04-01 15:08:27 |
@@ -48,13 +48,13 @@
 | 45  | 🌹 rose | 0.94 | suavvvvv | 2024-03-29 17:01:59 |
 | 46  | 🧤 gloves | 0.86 | hahppyy | 2023-12-25 20:21:08 |
 | 47  | 🐦‍⬛ blackbird | 0.69 | ninjaross | 2024-05-04 18:16:52 |
-| 48  | 🐌 snail | 0.67 | chubbbyhamster | 2024-03-29 19:36:29 |
+| 48  | 🐌 snail | 0.67 | lluuucy | 2024-03-29 19:36:29 |
 | 49  | ⛸️ iceskate | 0.62 | toastyso | 2024-01-07 02:21:01 |
 | 50  | 👟 athleticshoe | 0.53 | supibot | 2024-01-04 18:43:39 |
 | 51  | 🌿 seaweed | 0.42 | julialuxel | 2024-04-01 15:04:41 |
 | 52  | 🧣 scarf | 0.37 | hahppyy | 2023-12-24 23:05:05 |
-| 53  | 🧦 socks | 0.19 | chubbbyhamster | 2024-03-12 14:48:51 |
+| 53  | 🧦 socks | 0.19 | lluuucy | 2024-03-12 14:48:51 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-04-13 10:23:40 UTC_
+_Last updated at 2025-05-25 10:45:57 UTC_

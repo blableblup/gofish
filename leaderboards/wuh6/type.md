@@ -46,13 +46,13 @@
 | 43  | 🧽 sponge | 17.80 | huuuuuuuuuuuuuuuuuuuuuurz | 2025-04-05 22:03:57 |
 | 44  | 🍄 mushroom | 17.60 | iflya320 | 2025-03-30 15:29:44 |
 | 45  | 🪀 bobber | 15.44 | wuh6 | 2024-12-25 02:55:50 |
-| 46  | 🪼 jellyfish | 15.16 (+0.36) | iflya320 | 2025-05-16 21:01:32 |
-| 47  | 🕶️ darksunglasses | 11.93 | eeziiii | 2025-05-03 15:33:19 |
-| 48  | 🐌 snail | 11.88 | bubinga | 2025-04-29 18:11:25 |
-| 49  | 🧸 teddybear | 11.53 | bubinga | 2025-02-11 20:24:44 |
-| 50  | 📱 iphone | 11.49 | supibot | 2024-12-19 11:50:57 |
-| 51  | 🪵 log | 11.18 | ratot | 2024-12-15 18:50:38 |
-| 52  | 👒 womanshat | 11.04 | finalmorningstar | 2024-12-15 02:23:05 |
+| 46  | 🪼 jellyfish | 15.16 | iflya320 | 2025-05-16 21:01:32 |
+| 47 ⬆ | 🪵 log | 14.90 (+3.72) | wowitsdub | 2025-05-21 11:27:21 |
+| 48 ⬇ | 🕶️ darksunglasses | 11.93 | eeziiii | 2025-05-03 15:33:19 |
+| 49 ⬇ | 🐌 snail | 11.88 | bubinga | 2025-04-29 18:11:25 |
+| 50 ⬆ | 👒 womanshat | 11.80 (+0.76) | theevirus | 2025-05-21 19:10:55 |
+| 51 ⬇ | 🧸 teddybear | 11.53 | bubinga | 2025-02-11 20:24:44 |
+| 52 ⬇ | 📱 iphone | 11.49 | supibot | 2024-12-19 11:50:57 |
 | 53  | 🪹 emptynest | 10.84 | iflya320 | 2025-02-27 11:11:29 |
 | 54  | 🪺 nestwitheggs | 10.81 | veny2lbs | 2024-12-20 00:59:54 |
 | 55  | 🧥 coat | 10.72 | iflya320 | 2025-05-02 13:12:42 |
@@ -94,4 +94,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-05-18 09:49:01 UTC_
+_Last updated at 2025-05-25 10:45:52 UTC_

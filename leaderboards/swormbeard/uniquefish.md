@@ -6,7 +6,7 @@
 | 3 🥉  | derintu  | 24 |
 | 4  | dayzedinndaydreams  | 18 |
 | 5  | derinturitierutz  | 17 |
-| 6  | chubbbyhamster  | 15 |
+| 6  | lluuucy  | 15 |
 | 7  | ninjaross*  | 14 |
 | 8  | kishma9  | 13 |
 
@@ -14,4 +14,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2025-04-13 10:22:17 UTC_
+_Last updated at 2025-05-25 10:46:13 UTC_

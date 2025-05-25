@@ -2,7 +2,7 @@
 | Rank | Player | Fish | Weight in lbs | Date in UTC |
 |------|--------|-----------|---------|-----|
 | 1 🥇  | toastyso | 🦕 sauropod | 241.63 | 2024-01-10 01:45:42 |
-| 2 🥈  | chubbbyhamster | 🐉 dragon | 211.91 | 2024-03-30 16:25:01 |
+| 2 🥈  | lluuucy | 🐉 dragon | 211.91 | 2024-03-30 16:25:01 |
 | 3 🥉  | julialuxel | 🦑 squid | 208.92 | 2024-12-29 01:57:03 |
 | 4  | hahppyy | 🐳 whale | 200.06 | 2024-01-07 09:31:34 |
 | 5  | tucelli | 🦈 shark | 183.97 | 2024-02-04 14:44:44 |
@@ -17,10 +17,10 @@
 | 14  | sicklymaidrobot | 🐬 dolphin | 90.05 | 2023-12-26 20:22:24 |
 | 15  | ryebreadward | 🦕 sauropod | 89.88 | 2024-01-04 08:28:06 |
 | 16  | puzzlow | 🦑 squid | 89.25 | 2024-01-04 20:01:34 |
-| 17  | chubbbyhamster | 🐙 octopus | 88.82 | 2024-04-01 13:37:16 |
+| 17  | lluuucy | 🐙 octopus | 88.82 | 2024-04-01 13:37:16 |
 | 18  | hahppyy | 🦭 seal | 81.76 | 2024-01-23 21:10:54 |
 | 19  | julialuxel | 🐢 turtle | 80.52 | 2025-03-16 17:21:06 |
-| 20  | chubbbyhamster | 🐊 crocodile | 77.87 | 2024-04-01 17:36:37 |
+| 20  | lluuucy | 🐊 crocodile | 77.87 | 2024-04-01 17:36:37 |
 | 21  | toastyso | 🐊 crocodile | 77.35 | 2023-12-25 18:04:59 |
 | 22  | julialuxel | 🐢 turtle | 73.84 | 2024-12-23 17:30:06 |
 | 23  | julialuxel | 🦈 shark | 72.09 | 2024-01-12 15:15:53 |
@@ -29,7 +29,7 @@
 | 26  | julialuxel | 🐬 dolphin | 68.07 | 2024-01-11 21:01:00 |
 | 27  | julialuxel | 🐋 whale2 | 66.58 | 2024-01-08 17:33:29 |
 | 28  | vinfg1 | 🦭 seal | 63.07 | 2024-01-11 12:58:29 |
-| 29  | chubbbyhamster | 🐊 crocodile | 61.10 | 2024-04-01 21:06:25 |
+| 29  | lluuucy | 🐊 crocodile | 61.10 | 2024-04-01 21:06:25 |
 | 30  | julialuxel | 🐬 dolphin | 61.07 | 2024-01-04 19:55:23 |
 | 31  | julialuxel | 🐊 crocodile | 58.41 | 2024-01-06 15:38:28 |
 | 32  | julialuxel | 🐙 octopus | 57.77 | 2023-12-24 11:12:47 |
@@ -44,19 +44,19 @@
 | 41  | hahppyy | 🐙 octopus | 53.11 | 2024-01-13 07:14:37 |
 | 42  | julialuxel | 🦞 lobster | 52.88 | 2024-01-11 01:06:24 |
 | 43  | julialuxel | 🦞 lobster | 49.64 | 2024-12-29 04:36:47 |
-| 44  | chubbbyhamster | 🦞 lobster | 49.52 | 2024-02-19 16:37:15 |
+| 44  | lluuucy | 🦞 lobster | 49.52 | 2024-02-19 16:37:15 |
 | 45  | hahppyy | 🦞 lobster | 49.30 | 2024-01-26 18:52:54 |
 | 46  | julialuxel | 🐊 crocodile | 46.83 | 2024-01-03 13:05:38 |
 | 47  | julialuxel | 🦞 lobster | 45.91 | 2024-01-10 16:31:30 |
 | 48  | hahppyy | 🐢 turtle | 43.83 | 2023-12-28 12:21:29 |
-| 49  | chubbbyhamster | 🦞 lobster | 43.54 | 2024-03-01 18:24:29 |
+| 49  | lluuucy | 🦞 lobster | 43.54 | 2024-03-01 18:24:29 |
 | 50  | hahppyy | 🦞 lobster | 43.50 | 2024-01-01 03:17:56 |
 | 51  | julialuxel | 🐬 dolphin | 43.45 | 2025-01-08 22:53:41 |
 | 52  | hahppyy | 🪨 rock | 41.96 | 2024-02-01 13:41:58 |
 | 53  | vinfg1 | 🐊 crocodile | 39.57 | 2024-01-10 00:42:29 |
 | 54  | puzzlow | 🦪 oyster | 37.55 | 2024-01-04 18:20:12 |
 | 55  | sicklymaidrobot | 🐊 crocodile | 37.14 | 2023-12-26 19:45:08 |
-| 56  | chubbbyhamster | 🐧 penguin | 35.92 | 2023-12-23 18:45:06 |
+| 56  | lluuucy | 🐧 penguin | 35.92 | 2023-12-23 18:45:06 |
 | 57  | hahppyy | 🦑 squid | 34.79 | 2024-01-22 21:07:44 |
 | 58  | vinfg1 | 🦞 lobster | 34.44 | 2024-01-06 17:08:54 |
 | 59  | julialuxel | 🐬 dolphin | 33.73 | 2024-12-24 22:59:29 |
@@ -66,7 +66,7 @@
 | 63  | hahppyy | 🦐 shrimp | 30.19 | 2024-03-11 19:01:30 |
 | 64  | ryebreadward | 🦞 lobster | 29.74 | 2024-01-06 20:42:39 |
 | 65  | ryebreadward | 🐧 penguin | 29.49 | 2024-01-01 00:28:42 |
-| 66  | chubbbyhamster | 🐟 fish | 28.64 | 2023-12-23 20:50:22 |
+| 66  | lluuucy | 🐟 fish | 28.64 | 2023-12-23 20:50:22 |
 | 67  | julialuxel | 🦫 beaver | 28.05 | 2024-10-04 20:54:33 |
 | 68  | julialuxel | 🦐 shrimp | 27.27 | 2025-02-02 16:19:07 |
 | 69  | julialuxel | 🐟 fish | 25.31 | 2024-12-24 21:40:28 |
@@ -75,22 +75,22 @@
 | 72  | hahppyy | 🦑 squid | 23.93 | 2024-01-04 02:15:07 |
 | 73  | hahppyy | 🦪 oyster | 23.80 | 2024-01-12 14:40:57 |
 | 74  | ryebreadward | 🐊 crocodile | 22.20 | 2023-12-26 21:14:13 |
-| 75  | chubbbyhamster | 🐊 crocodile | 21.58 | 2024-02-29 22:10:46 |
+| 75  | lluuucy | 🐊 crocodile | 21.58 | 2024-02-29 22:10:46 |
 | 76  | toastyso | 🦐 shrimp | 21.55 | 2024-01-07 21:10:41 |
 | 77  | dayzedinndaydreams | 🐠 tropicalfish | 21.19 | 2024-05-13 18:34:24 |
-| 78  | chubbbyhamster | 🦪 oyster | 20.43 | 2024-04-01 15:47:01 |
+| 78  | lluuucy | 🦪 oyster | 20.43 | 2024-04-01 15:47:01 |
 | 79  | toastyso | 🦪 oyster | 20.41 | 2024-01-08 03:50:57 |
-| 80  | chubbbyhamster | 🪸 coral | 20.18 | 2024-04-01 18:43:48 |
+| 80  | lluuucy | 🪸 coral | 20.18 | 2024-04-01 18:43:48 |
 | 81  | puzzlow | 🕷️ spider | 20.04 | 2023-12-28 17:08:57 |
 | 82  | julialuxel | 🐟 fish | 19.60 | 2024-12-24 18:12:44 |
-| 83  | chubbbyhamster | 🦞 lobster | 19.22 | 2024-04-01 21:42:47 |
+| 83  | lluuucy | 🦞 lobster | 19.22 | 2024-04-01 21:42:47 |
 | 84  | toastyso | 🐡 blowfish | 18.91 | 2023-12-27 10:41:27 |
 | 85  | notnownico | 🪳 cockroach | 18.84 | 2024-12-06 00:32:24 |
 | 86  | hahppyy | 🐙 octopus | 18.74 | 2024-01-03 02:43:01 |
 | 87  | julialuxel | 🪸 coral | 18.56 | 2024-01-02 17:34:27 |
 | 88  | hahppyy | 🐟 fish | 18.48 | 2024-01-13 16:01:58 |
 | 89  | julialuxel | 🐟 fish | 18.02 | 2025-01-03 16:40:36 |
-| 90  | chubbbyhamster | 🐡 blowfish | 17.98 | 2024-02-29 16:26:42 |
+| 90  | lluuucy | 🐡 blowfish | 17.98 | 2024-02-29 16:26:42 |
 | 91  | dayzedinndaydreams | 🪳 cockroach | 17.87 | 2025-01-31 21:06:17 |
 | 91  | supibot | 🐊 crocodile | 17.87 | 2024-01-04 20:09:37 |
 | 93  | leanmeister | 🐍 snake | 17.81 | 2025-03-26 20:13:10 |
@@ -102,4 +102,4 @@
 | 99  | toastyso | 🦠 plankton | 16.73 | 2023-12-30 15:16:35 |
 | 100  | hahppyy | 🐟 fish | 15.80 | 2024-01-09 04:27:17 |
 
-_Last updated at 2025-04-13 10:22:19 UTC_
+_Last updated at 2025-05-25 10:47:15 UTC_

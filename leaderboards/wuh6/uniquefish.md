@@ -3,20 +3,20 @@
 |------|--------|-----------|
 | 1 🥇  | eeziiii  | 80 |
 | 2 🥈  | bubinga  | 79 |
-| 3 🥉  | iflya320  | 71 (+3) |
-| 4 ⬇ | huuuuuuuuuuuuuuuuuuuuuurz  | 70 (+2) |
-| 5  | veny2lbs  | 65 |
-| 6  | nndiana*  | 63 |
-| 6 ⬆ | wowitsdub  | 63 (+1) |
-| 8  | theevirus  | 59 (+1) |
+| 3 🥉  | iflya320  | 73 (+2) |
+| 4  | huuuuuuuuuuuuuuuuuuuuuurz  | 70 |
+| 5 ⬆ | wowitsdub  | 66 (+3) |
+| 6 ⬇ | veny2lbs  | 65 |
+| 7 ⬇ | nndiana*  | 64 (+1) |
+| 8  | theevirus  | 61 (+2) |
 | 9  | gorillapark  | 54 |
-| 10  | lobuhtomy  | 50 |
-| 10  | mazzo_tv  | 50 |
-| 12  | bluberry  | 49 (+1) |
+| 10  | lobuhtomy  | 51 (+1) |
+| 11 ⬇ | mazzo_tv  | 50 |
+| 12  | bluberry  | 49 |
+| 13 ⬆ | caprisen_*  | 47 (+1) |
 | 13  | flovrek  | 47 |
-| 14 ⬆ | caprisen_*  | 46 (+1) |
-| 14  | commanda_u  | 46 |
-| 16 ⬇ | thetaxmen  | 45 |
+| 15 ⬇ | commanda_u  | 46 |
+| 16  | thetaxmen  | 45 |
 | 17  | sandwichsundays*  | 44 |
 | 18  | teddbearcs  | 39 |
 | 19  | glorianeq  | 38 |
@@ -25,10 +25,10 @@
 | 22  | ratot  | 28 |
 | 23  | wadupcaprise  | 27 |
 | 24  | wuh6  | 25 |
-| 25  | araqs  | 24 (+1) |
-| 26 ⬇ | jr_mime  | 23 |
-| 26 ⬆ | nv6y4  | 23 (+1) |
-| 26 ⬇ | onarrrrrrrr  | 23 |
+| 25  | araqs  | 24 |
+| 26  | jr_mime  | 23 |
+| 26  | nv6y4  | 23 |
+| 26  | onarrrrrrrr  | 23 |
 | 29  | turboyy  | 21 |
 | 30  | funnywhitecat6*  | 20 |
 | 30  | ocrw  | 20 |
@@ -37,4 +37,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2025-05-18 09:49:01 UTC_
+_Last updated at 2025-05-25 10:46:12 UTC_

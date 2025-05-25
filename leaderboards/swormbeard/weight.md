@@ -12,8 +12,8 @@
 | 9  | gawblemachine | 🐬 dolphin | 101.18 | 2024-08-07 17:37:10 |
 | 10  | dayzedinndaydreams | 🐬 dolphin | 100.81 | 2024-08-02 22:34:26 |
 | 11  | ninjaross | 🐬 dolphin | 99.98 | 2024-08-02 19:41:23 |
-| 12  | chubbbyhamster | 🐢 turtle | 95.26 | 2024-10-15 20:41:05 |
+| 12  | lluuucy | 🐢 turtle | 95.26 | 2024-10-15 20:41:05 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2025-04-13 10:22:19 UTC_
+_Last updated at 2025-05-25 10:46:11 UTC_

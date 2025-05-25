@@ -14,10 +14,10 @@
 | 11  | 🧜‍♀️ mermaid | 2.65 | kishma9 | 2023-12-04 11:12:58 |
 | 12  | 🧥 coat | 1.85 | gstaman911 | 2025-01-01 13:14:00 |
 | 13  | 🪿 goose | 1.43 | qu4ttromila | 2025-02-03 02:10:08 |
-| 14  | 🐉 dragon | 0.94 | chubbbyhamster | 2023-03-05 17:11:41 |
+| 14  | 🐉 dragon | 0.94 | lluuucy | 2023-03-05 17:11:41 |
 | 15  | 🧟 zombie | 0.61 | dayzedinndaydreams | 2023-07-07 21:49:48 |
 | 16  | 🗡️ dagger | 0.56 | respirate_ | 2024-08-26 22:03:27 |
-| 17  | 🦫 beaver | 0.53 | chubbbyhamster | 2024-10-10 15:17:38 |
+| 17  | 🦫 beaver | 0.53 | lluuucy | 2024-10-10 15:17:38 |
 | 18  | 🦆 duck | 0.48 | osnyatsky* | 2023-07-25 17:55:46 |
 | 19  | 🎰 slotmachine | 0.42 | leanmeister | 2025-04-17 00:15:18 |
 | 20  | 🐳 whale | 0.30 | sussy_amonge | 2023-09-16 00:52:05 |
@@ -27,7 +27,7 @@
 | 24  | 🧃 beveragebox | 0.21 | qu4ttromila | 2023-07-09 11:25:41 |
 | 24  | 🐊 crocodile | 0.21 | suavvvvv | 2024-03-05 17:44:44 |
 | 26  | 🕶️ darksunglasses | 0.19 | leanmeister | 2023-09-03 10:41:13 |
-| 27  | 🦢 swan | 0.17 | chubbbyhamster | 2024-07-15 15:39:04 |
+| 27  | 🦢 swan | 0.17 | lluuucy | 2024-07-15 15:39:04 |
 | 28  | 🦭 seal | 0.15 | dayzedinndaydreams | 2024-01-28 16:20:04 |
 | 29  | 🥒 cucumber | 0.14 | puzzlow | 2023-08-17 12:35:10 |
 | 30  | 🎱 8ball | 0.13 | gstaman911 | 2025-03-13 03:26:38 |
@@ -62,14 +62,14 @@
 | 55  | 🪸 coral | 0.02 | bussinongnocap | 2023-05-13 19:34:02 |
 | 55  | 🍃 leaf | 0.02 | gstaman911 | 2025-03-18 07:30:37 |
 | 55  | 🦪 oyster | 0.02 | derintu | 2025-04-09 10:37:45 |
-| 55  | 🐍 snake | 0.02 | chubbbyhamster | 2024-09-28 18:59:06 |
+| 55  | 🐍 snake | 0.02 | lluuucy | 2024-09-28 18:59:06 |
 | 55  | 🩴 thongsandal | 0.02 | puzzlow | 2024-06-08 23:45:52 |
 | 55  | ☂️ umbrella | 0.02 | ouacewi | 2025-02-03 08:32:50 |
 | 65  | 🪀 bobber | 0.01 | julialuxel | 2023-08-20 23:19:06 |
 | 65  | 👢 boot | 0.01 | osnyatsky | 2024-02-03 06:44:14 |
 | 65  | 🥫 cannedfood | 0.01 | puzzlow | 2023-08-29 22:34:55 |
 | 65  | 🧤 gloves | 0.01 | kildofris* | 2022-12-29 22:46:59 |
-| 65  | 🧊 icecube | 0.01 | chubbbyhamster | 2025-01-30 14:21:23 |
+| 65  | 🧊 icecube | 0.01 | lluuucy | 2025-01-30 14:21:23 |
 | 65  | 📱 iphone | 0.01 | crazytown_bananapants | 2024-09-25 02:15:32 |
 | 65  | 🦎 lizard | 0.01 | dougiefresh_83 | 2024-03-29 07:00:59 |
 | 65  | 🍁 mapleleaf | 0.01 | miiiiisho | 2024-09-29 05:05:00 |
@@ -82,25 +82,25 @@
 | 65  | 🦑 squid | 0.01 | puzzlow | 2023-06-20 21:55:46 |
 | 65  | 🧵 wireline | 0.01 | kishma9 | 2024-12-21 00:22:05 |
 | 65  | 🪱 worm | 0.01 | gawblemachine | 2024-03-09 14:59:19 |
-| 82 ⬆ | 🌰 acorn | 0.00 | chubbbyhamster | 2024-10-05 13:50:17 |
-| 82 ⬆ | 🍬 candy | 0.00 | desoarer | 2024-09-25 12:07:14 |
-| 82 ⬆ | 🪳 cockroach | 0.00 | derintu | 2025-04-14 10:52:33 |
-| 82 ⬆ | 🦀 crab | 0.00 | kildofris* | 2022-12-14 15:37:51 |
-| 82 ⬆ | 🪶 feather | 0.00 | kishma9 | 2023-08-18 06:48:14 |
-| 82 ⬆ | 🐟 fish | 0.00 | islcfc* | 2023-02-05 00:08:54 |
-| 82 ⬆ | 🐸 frog | 0.00 | xth49* | 2023-01-31 15:23:49 |
-| 82 ⬇ | 🌾 grass | 0.00 (-0.01) | chubbbyhamster | 2025-04-20 17:18:55 |
-| 82 ⬆ | 🪝 hook | 0.00 | sussy_amonge | 2023-06-06 03:55:39 |
-| 82 ⬆ | ⛸️ iceskate | 0.00 | sicklymaidrobot | 2024-02-07 22:02:46 |
-| 82 ⬆ | 🪵 log | 0.00 | derinturitierutz | 2023-10-13 22:37:34 |
-| 82 ⬆ | 🎏 lure | 0.00 | kildofris* | 2022-12-13 00:44:33 |
-| 82 ⬆ | 🌿 seaweed | 0.00 | qu4ttromila | 2023-06-02 16:21:39 |
-| 82 ⬆ | 🐚 shell | 0.00 | trident1011 | 2023-03-05 11:18:03 |
-| 82 ⬆ | 💀 skull | 0.00 | osnyatsky* | 2023-06-02 02:54:24 |
-| 82 ⬆ | 🧦 socks | 0.00 | osnyatsky* | 2023-02-20 13:03:25 |
-| 82 ⬆ | 🕷️ spider | 0.00 | sicklymaidrobot | 2023-11-03 18:57:13 |
-| 82 ⬆ | 🐢 turtle | 0.00 | chubbbyhamster | 2024-09-29 13:14:53 |
+| 82  | 🌰 acorn | 0.00 | lluuucy | 2024-10-05 13:50:17 |
+| 82  | 🍬 candy | 0.00 | desoarer | 2024-09-25 12:07:14 |
+| 82  | 🪳 cockroach | 0.00 | derintu | 2025-04-14 10:52:33 |
+| 82  | 🦀 crab | 0.00 | kildofris* | 2022-12-14 15:37:51 |
+| 82  | 🪶 feather | 0.00 | kishma9 | 2023-08-18 06:48:14 |
+| 82  | 🐟 fish | 0.00 | islcfc* | 2023-02-05 00:08:54 |
+| 82  | 🐸 frog | 0.00 | xth49* | 2023-01-31 15:23:49 |
+| 82  | 🌾 grass | 0.00 | lluuucy | 2025-04-20 17:18:55 |
+| 82  | 🪝 hook | 0.00 | sussy_amonge | 2023-06-06 03:55:39 |
+| 82  | ⛸️ iceskate | 0.00 | sicklymaidrobot | 2024-02-07 22:02:46 |
+| 82  | 🪵 log | 0.00 | derinturitierutz | 2023-10-13 22:37:34 |
+| 82  | 🎏 lure | 0.00 | kildofris* | 2022-12-13 00:44:33 |
+| 82  | 🌿 seaweed | 0.00 | qu4ttromila | 2023-06-02 16:21:39 |
+| 82  | 🐚 shell | 0.00 | trident1011 | 2023-03-05 11:18:03 |
+| 82  | 💀 skull | 0.00 | osnyatsky* | 2023-06-02 02:54:24 |
+| 82  | 🧦 socks | 0.00 | osnyatsky* | 2023-02-20 13:03:25 |
+| 82  | 🕷️ spider | 0.00 | sicklymaidrobot | 2023-11-03 18:57:13 |
+| 82  | 🐢 turtle | 0.00 | lluuucy | 2024-09-29 13:14:53 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-04-27 09:08:13 UTC_
+_Last updated at 2025-05-25 10:47:01 UTC_

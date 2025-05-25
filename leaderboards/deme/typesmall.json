@@ -1,4 +1,18 @@
 {
+	"blowfish": {
+		"player": "commanda_u",
+		"playerid": 1747,
+		"weight": 8.96,
+		"bot": "gofishgame",
+		"type": "🐡",
+		"typename": "blowfish",
+		"catchtype": "normal",
+		"date": "2025-05-18T21:28:28Z",
+		"chat": "deme",
+		"fishid": 174256,
+		"chatid": 4,
+		"rank": 4
+	},
 	"crocodile": {
 		"player": "fantanium",
 		"playerid": 3751,
@@ -39,6 +53,34 @@
 		"chat": "deme",
 		"fishid": 172638,
 		"chatid": 2,
+		"rank": 6
+	},
+	"oyster": {
+		"player": "naori_desu",
+		"playerid": 3774,
+		"weight": 32.44,
+		"bot": "gofishgame",
+		"type": "🦪",
+		"typename": "oyster",
+		"catchtype": "normal",
+		"date": "2025-05-22T12:53:05Z",
+		"chat": "deme",
+		"fishid": 175092,
+		"chatid": 7,
 		"rank": 3
+	},
+	"skull": {
+		"player": "naori_desu",
+		"playerid": 3774,
+		"weight": 4.85,
+		"bot": "gofishgame",
+		"type": "💀",
+		"typename": "skull",
+		"catchtype": "normal",
+		"date": "2025-05-23T23:26:41Z",
+		"chat": "deme",
+		"fishid": 175488,
+		"chatid": 8,
+		"rank": 5
 	}
 }

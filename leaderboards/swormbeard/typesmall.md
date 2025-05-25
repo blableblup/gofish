@@ -17,7 +17,7 @@
 | 14  | 🪨 rock | 10.48 | respirate_ | 2024-08-31 22:32:13 |
 | 15  | 🐬 dolphin | 9.57 | respirate_ | 2024-09-07 21:16:11 |
 | 16  | 🦪 oyster | 7.49 | ninjaross | 2024-11-27 17:24:59 |
-| 17  | 🪹 emptynest | 6.80 | chubbbyhamster | 2024-11-07 15:57:21 |
+| 17  | 🪹 emptynest | 6.80 | lluuucy | 2024-11-07 15:57:21 |
 | 18  | 🦑 squid | 5.88 | derintu | 2025-03-18 20:06:31 |
 | 19  | 🩲 briefs | 5.43 | dayzedinndaydreams | 2024-08-03 17:16:23 |
 | 20  | 📱 iphone | 5.21 | fvkdylan | 2025-03-18 23:17:58 |
@@ -27,8 +27,8 @@
 | 24  | 🪀 bobber | 3.83 | kishma9 | 2025-03-15 01:09:13 |
 | 25  | 🐠 tropicalfish | 3.54 | respirate_ | 2024-08-24 21:55:40 |
 | 26  | 🦞 lobster | 2.82 | respirate_ | 2024-08-31 23:03:24 |
-| 27  | 🐦 bird | 2.81 | chubbbyhamster | 2024-10-26 03:04:44 |
-| 28  | 🦫 beaver | 2.50 | chubbbyhamster | 2024-10-17 18:00:12 |
+| 27  | 🐦 bird | 2.81 | lluuucy | 2024-10-26 03:04:44 |
+| 28  | 🦫 beaver | 2.50 | lluuucy | 2024-10-17 18:00:12 |
 | 29  | 🧽 sponge | 2.43 | dayzedinndaydreams | 2024-08-04 18:57:12 |
 | 30  | 🍄‍🟫 brownmushroom | 2.18 | derintu | 2025-03-15 20:43:28 |
 | 31  | 🪳 cockroach | 2.15 | sicklymaidrobot | 2024-08-02 21:50:26 |
@@ -46,7 +46,7 @@
 | 43  | 👢 boot | 0.35 | leanmeister | 2024-11-27 21:07:52 |
 | 44  | 🎏 lure | 0.34 | dayzedinndaydreams | 2024-08-03 16:41:10 |
 | 45  | 🍃 leaf | 0.32 | derintu | 2025-03-17 22:31:58 |
-| 46  | 🦎 lizard | 0.29 | chubbbyhamster | 2024-11-19 17:16:38 |
+| 46  | 🦎 lizard | 0.29 | lluuucy | 2024-11-19 17:16:38 |
 | 47  | 💀 skull | 0.26 | sicklymaidrobot | 2024-08-06 10:23:20 |
 | 48  | 👡 sandal | 0.23 | derintu | 2025-03-17 21:45:17 |
 | 49  | 🌾 grass | 0.18 | derinturitierutz | 2025-03-18 09:12:59 |
@@ -55,12 +55,12 @@
 | 52  | 🐸 frog | 0.14 | kishma9 | 2025-03-15 16:26:23 |
 | 53  | 🧦 socks | 0.11 | larvasisters | 2024-11-01 20:23:07 |
 | 54  | 🦐 shrimp | 0.10 | fvkdylan | 2025-03-14 22:17:46 |
-| 55  | 🐍 snake | 0.07 | chubbbyhamster | 2024-11-04 21:26:38 |
-| 56  | 🌰 acorn | 0.01 | chubbbyhamster | 2024-11-30 18:15:35 |
+| 55  | 🐍 snake | 0.07 | lluuucy | 2024-11-04 21:26:38 |
+| 56  | 🌰 acorn | 0.01 | lluuucy | 2024-11-30 18:15:35 |
 | 56  | ☘️ shamrock | 0.01 | leanmeister | 2024-11-15 22:59:26 |
 | 56  | 🐚 shell | 0.01 | respirate_ | 2024-09-02 20:16:01 |
 | 56  | 🌷 tulip | 0.01 | derinturitierutz | 2025-03-16 16:56:15 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-05-04 09:46:48 UTC_
+_Last updated at 2025-05-25 10:46:39 UTC_

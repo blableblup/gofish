@@ -2,7 +2,7 @@
 | Rank | Player | Fish | Weight in lbs | Date in UTC |
 |------|--------|-----------|---------|-----|
 | 1 🥇  | toastyso | 🦕 sauropod | 241.63 | 2024-01-10 01:45:42 |
-| 2 🥈  | chubbbyhamster | 🐉 dragon | 211.91 | 2024-03-30 16:25:01 |
+| 2 🥈  | lluuucy | 🐉 dragon | 211.91 | 2024-03-30 16:25:01 |
 | 3 🥉  | julialuxel | 🦑 squid | 208.92 | 2024-12-29 01:57:03 |
 | 4  | hahppyy | 🐳 whale | 200.06 | 2024-01-07 09:31:34 |
 | 5  | tucelli | 🦈 shark | 183.97 | 2024-02-04 14:44:44 |
@@ -16,4 +16,4 @@
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2025-04-13 10:22:19 UTC_
+_Last updated at 2025-05-25 10:46:11 UTC_

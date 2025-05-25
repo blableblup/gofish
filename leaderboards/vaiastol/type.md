@@ -31,68 +31,68 @@
 | 28  | 🦀 crab | 36.97 | julialuxel | 2024-08-29 02:39:38 |
 | 29  | 🥒 cucumber | 31.74 | hahppyy | 2024-08-09 18:09:50 |
 | 30  | 🐡 blowfish | 31.46 | yoimlee | 2024-08-30 16:54:37 |
-| 31 ⬆ | 🧽 sponge | 27.70 (+2.03) | nicestnarwhal | 2025-05-09 12:25:40 |
-| 32 ⬇ | 🧊 icecube | 26.42 | vaiastol | 2024-12-27 04:13:21 |
-| 33 ⬇ | 🪳 cockroach | 25.91 | nicestnarwhal | 2025-02-23 14:10:51 |
+| 31  | 🧽 sponge | 27.70 | nicestnarwhal | 2025-05-09 12:25:40 |
+| 32  | 🧊 icecube | 26.42 | vaiastol | 2024-12-27 04:13:21 |
+| 33  | 🪳 cockroach | 25.91 | nicestnarwhal | 2025-02-23 14:10:51 |
 | 34  | 🐠 tropicalfish | 24.09 | leanmeister | 2025-03-17 19:53:33 |
 | 35  | 🕷️ spider | 23.39 | beebo8i | 2025-01-18 20:55:49 |
-| 36 🆕 | 🫎 moose | 22.03 | dayzedinndaydreams | 2025-05-06 17:17:48 |
-| 37 ⬇ | 🦠 plankton | 21.87 | vaiastol | 2025-02-16 12:59:13 |
-| 38 ⬇ | 🍄‍🟫 brownmushroom | 21.32 | vaiastol | 2025-01-05 18:34:29 |
-| 39 ⬇ | 🪼 jellyfish | 20.36 | mitgliederversammlung | 2024-08-31 13:56:17 |
-| 40 ⬇ | 🎰 slotmachine | 19.86 | bubinga | 2024-08-16 16:26:37 |
-| 41 🆕 | 🧜‍♀️ mermaid | 18.46 | hahppyy | 2025-05-05 14:52:40 |
-| 42 ⬇ | 🍄 mushroom | 16.35 | leastsussyimposter | 2025-02-02 17:03:11 |
-| 43 ⬇ | 🦦 otter | 15.94 | hahppyy | 2025-02-03 02:46:56 |
-| 44 ⬇ | 🐸 frog | 15.69 | divra__ | 2024-11-01 16:31:44 |
-| 45 ⬇ | 🪀 bobber | 14.41 | leastsussyimposter | 2024-12-22 14:08:31 |
-| 46 ⬇ | 🧭 compass | 12.25 | vaiastol | 2024-12-25 03:46:12 |
-| 47 ⬇ | 🐌 snail | 11.90 | leastsussyimposter | 2024-08-28 17:02:48 |
-| 48 ⬇ | 🧸 teddybear | 11.77 | eelacy | 2025-02-28 20:45:50 |
-| 49 ⬇ | 🪺 nestwitheggs | 10.98 | hahppyy | 2024-09-26 18:59:03 |
-| 50 ⬇ | 🪱 worm | 10.90 | divra__ | 2025-01-25 21:04:34 |
-| 51 ⬇ | 📱 iphone | 10.66 | pengeg | 2024-12-24 00:32:17 |
-| 52 ⬇ | 🪹 emptynest | 10.57 | divra__ | 2025-04-12 21:36:49 |
-| 53 ⬇ | 🪵 log | 10.26 | bubinga | 2024-11-05 20:58:54 |
-| 54 ⬇ | 💀 skull | 9.87 | leanmeister | 2025-03-27 18:21:23 |
-| 55 ⬇ | 🎱 8ball | 9.50 | leastsussyimposter | 2025-01-06 22:09:55 |
-| 56 ⬇ | 🧃 beveragebox | 9.36 | nicestnarwhal | 2025-04-23 02:28:33 |
-| 57 ⬇ | 🦎 lizard | 7.98 | leastsussyimposter | 2024-12-24 22:04:56 |
-| 58 ⬇ | 🕶️ darksunglasses | 7.43 | yoimlee | 2024-09-13 19:48:24 |
-| 59 ⬇ | 🦆 duck | 6.56 | divra__ | 2024-11-02 04:38:35 |
-| 60 ⬇ | 🥫 cannedfood | 5.92 | hahppyy | 2025-01-13 14:58:31 |
-| 61 ⬇ | 🧵 wireline | 5.87 | vaiastol | 2025-03-13 07:44:35 |
-| 62 ⬇ | 🐚 shell | 5.60 | v6r_ | 2025-04-02 06:07:49 |
-| 63 ⬇ | 👒 womanshat | 5.54 | hahppyy | 2024-11-02 04:51:56 |
-| 64 ⬇ | 🩲 briefs | 5.42 | pengeg | 2024-08-04 21:14:04 |
-| 65 ⬇ | 🎏 lure | 4.97 | vaiastol | 2025-02-06 22:37:25 |
-| 66 ⬇ | ☘️ shamrock | 3.96 | divra__ | 2025-04-22 18:59:33 |
-| 67 ⬇ | 🌰 acorn | 3.94 | divra__ | 2024-10-03 20:49:22 |
-| 68 ⬇ | 🪝 hook | 3.92 | vaiastol | 2025-03-11 13:08:39 |
-| 69 ⬆ | 🦢 swan | 3.86 (+2.72) | divra__ | 2025-05-06 23:44:45 |
-| 70 ⬇ | 🌷 tulip | 2.98 | eelacy | 2025-03-18 02:28:33 |
-| 71 ⬇ | 🥀 wiltedflower | 2.73 | hahppyy | 2025-01-02 18:42:06 |
-| 72 ⬇ | ☂️ umbrella | 2.48 | hahppyy | 2025-02-17 22:19:26 |
-| 73 ⬇ | 👡 sandal | 2.41 | hahppyy | 2025-03-20 18:39:52 |
-| 74 ⬇ | 🐦 bird | 2.29 | vaiastol | 2025-01-17 12:13:23 |
-| 75 ⬇ | 👢 boot | 1.97 | yoimlee | 2024-11-04 14:41:11 |
-| 76 ⬇ | 🧦 socks | 1.95 | divra__ | 2024-10-16 23:07:48 |
-| 77 ⬇ | 🍃 leaf | 1.92 | v6r_ | 2025-03-26 03:07:20 |
-| 78 ⬇ | 🩰 balletshoes | 1.89 | beebo8i | 2025-01-01 02:12:26 |
-| 79 ⬇ | 🩴 thongsandal | 1.87 | vaiastol | 2024-07-31 16:40:54 |
-| 80 ⬇ | ⛸️ iceskate | 1.84 | hahppyy | 2025-01-12 19:57:15 |
-| 81 ⬇ | 👟 athleticshoe | 1.83 | hahppyy | 2024-10-10 10:31:24 |
-| 82 ⬇ | 🥪 sandwich | 1.73 | hahppyy | 2024-11-23 00:31:22 |
-| 83 ⬇ | 🐦‍⬛ blackbird | 1.42 | vaiastol | 2025-04-11 08:37:47 |
-| 84 ⬇ | 🌿 seaweed | 0.99 | misifearless | 2025-03-10 09:57:08 |
-| 85 ⬇ | 🪚 carpentrysaw | 0.97 | hahppyy | 2025-01-05 13:24:59 |
-| 86 ⬇ | 🧤 gloves | 0.95 | hahppyy | 2024-11-02 16:18:30 |
-| 87 ⬇ | 🐿️ squirrel | 0.90 | creepycode | 2024-12-04 03:46:23 |
-| 88 ⬇ | 🪶 feather | 0.88 | milesdotcom | 2024-10-21 19:36:21 |
-| 89 ⬇ | 🍁 mapleleaf | 0.84 | divra__ | 2024-09-27 22:38:30 |
-| 90 ⬇ | 🍬 candy | 0.81 | hahppyy | 2025-01-03 15:22:18 |
-| 91 ⬇ | 🌾 grass | 0.79 | leanmeister | 2025-03-20 20:23:59 |
+| 36  | 🫎 moose | 22.03 | dayzedinndaydreams | 2025-05-06 17:17:48 |
+| 37  | 🦠 plankton | 21.87 | vaiastol | 2025-02-16 12:59:13 |
+| 38  | 🍄‍🟫 brownmushroom | 21.32 | vaiastol | 2025-01-05 18:34:29 |
+| 39  | 🪼 jellyfish | 20.36 | mitgliederversammlung | 2024-08-31 13:56:17 |
+| 40  | 🎰 slotmachine | 19.86 | bubinga | 2024-08-16 16:26:37 |
+| 41  | 🧜‍♀️ mermaid | 18.46 | hahppyy | 2025-05-05 14:52:40 |
+| 42  | 🍄 mushroom | 16.35 | leastsussyimposter | 2025-02-02 17:03:11 |
+| 43  | 🦦 otter | 15.94 | hahppyy | 2025-02-03 02:46:56 |
+| 44  | 🐸 frog | 15.69 | divra__ | 2024-11-01 16:31:44 |
+| 45  | 🪀 bobber | 14.41 | leastsussyimposter | 2024-12-22 14:08:31 |
+| 46  | 🧭 compass | 12.25 | vaiastol | 2024-12-25 03:46:12 |
+| 47  | 🐌 snail | 11.90 | leastsussyimposter | 2024-08-28 17:02:48 |
+| 48  | 🧸 teddybear | 11.77 | eelacy | 2025-02-28 20:45:50 |
+| 49  | 🪺 nestwitheggs | 10.98 | hahppyy | 2024-09-26 18:59:03 |
+| 50  | 🪱 worm | 10.90 | divra__ | 2025-01-25 21:04:34 |
+| 51  | 📱 iphone | 10.66 | pengeg | 2024-12-24 00:32:17 |
+| 52  | 🪹 emptynest | 10.57 | divra__ | 2025-04-12 21:36:49 |
+| 53  | 🪵 log | 10.26 | bubinga | 2024-11-05 20:58:54 |
+| 54  | 💀 skull | 9.87 | leanmeister | 2025-03-27 18:21:23 |
+| 55  | 🎱 8ball | 9.50 | leastsussyimposter | 2025-01-06 22:09:55 |
+| 56  | 🧃 beveragebox | 9.36 | nicestnarwhal | 2025-04-23 02:28:33 |
+| 57  | 🦎 lizard | 7.98 | leastsussyimposter | 2024-12-24 22:04:56 |
+| 58  | 🕶️ darksunglasses | 7.43 | yoimlee | 2024-09-13 19:48:24 |
+| 59  | 🦆 duck | 6.56 | divra__ | 2024-11-02 04:38:35 |
+| 60  | 🥫 cannedfood | 5.92 | hahppyy | 2025-01-13 14:58:31 |
+| 61  | 🧵 wireline | 5.87 | vaiastol | 2025-03-13 07:44:35 |
+| 62  | 🐚 shell | 5.60 | v6r_ | 2025-04-02 06:07:49 |
+| 63  | 👒 womanshat | 5.54 | hahppyy | 2024-11-02 04:51:56 |
+| 64  | 🩲 briefs | 5.42 | pengeg | 2024-08-04 21:14:04 |
+| 65  | 🎏 lure | 4.97 | vaiastol | 2025-02-06 22:37:25 |
+| 66  | ☘️ shamrock | 3.96 | divra__ | 2025-04-22 18:59:33 |
+| 67 ⬆ | 🪝 hook | 3.95 (+0.03) | yoimlee | 2025-05-19 12:50:57 |
+| 68 ⬇ | 🌰 acorn | 3.94 | divra__ | 2024-10-03 20:49:22 |
+| 69  | 🦢 swan | 3.86 | divra__ | 2025-05-06 23:44:45 |
+| 70  | 🌷 tulip | 2.98 | eelacy | 2025-03-18 02:28:33 |
+| 71 ⬆ | 🐦 bird | 2.86 (+0.57) | vaiastol | 2025-05-22 14:52:45 |
+| 72 ⬇ | 🥀 wiltedflower | 2.73 | hahppyy | 2025-01-02 18:42:06 |
+| 73 ⬇ | ☂️ umbrella | 2.48 | hahppyy | 2025-02-17 22:19:26 |
+| 74 ⬇ | 👡 sandal | 2.41 | hahppyy | 2025-03-20 18:39:52 |
+| 75  | 👢 boot | 1.97 | yoimlee | 2024-11-04 14:41:11 |
+| 76  | 🧦 socks | 1.95 | divra__ | 2024-10-16 23:07:48 |
+| 77  | 🍃 leaf | 1.92 | v6r_ | 2025-03-26 03:07:20 |
+| 78  | 🩰 balletshoes | 1.89 | beebo8i | 2025-01-01 02:12:26 |
+| 79  | 🩴 thongsandal | 1.87 | vaiastol | 2024-07-31 16:40:54 |
+| 80  | ⛸️ iceskate | 1.84 | hahppyy | 2025-01-12 19:57:15 |
+| 81  | 👟 athleticshoe | 1.83 | hahppyy | 2024-10-10 10:31:24 |
+| 82  | 🥪 sandwich | 1.73 | hahppyy | 2024-11-23 00:31:22 |
+| 83  | 🐦‍⬛ blackbird | 1.42 | vaiastol | 2025-04-11 08:37:47 |
+| 84  | 🌿 seaweed | 0.99 | misifearless | 2025-03-10 09:57:08 |
+| 85  | 🪚 carpentrysaw | 0.97 | hahppyy | 2025-01-05 13:24:59 |
+| 86  | 🧤 gloves | 0.95 | hahppyy | 2024-11-02 16:18:30 |
+| 87  | 🐿️ squirrel | 0.90 | creepycode | 2024-12-04 03:46:23 |
+| 88  | 🪶 feather | 0.88 | milesdotcom | 2024-10-21 19:36:21 |
+| 89  | 🍁 mapleleaf | 0.84 | divra__ | 2024-09-27 22:38:30 |
+| 90  | 🍬 candy | 0.81 | hahppyy | 2025-01-03 15:22:18 |
+| 91  | 🌾 grass | 0.79 | leanmeister | 2025-03-20 20:23:59 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-05-11 09:27:33 UTC_
+_Last updated at 2025-05-25 10:46:09 UTC_

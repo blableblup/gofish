@@ -3,9 +3,9 @@
 |------|--------|-----------|---------|------|
 | 1 🥇  | 🦑 squid | 307.87 | pompadourdelinquent | 2025-01-06 01:33:12 |
 | 2 🥈  | 🐳 whale | 276.04 | hello0d | 2025-02-14 04:56:39 |
-| 3 🥉  | 🦕 sauropod | 245.71 | pompadourdelinquent | 2025-04-28 08:25:22 |
-| 4  | 🐍 snake | 229.58 | miyabwah | 2025-02-17 05:17:00 |
-| 5  | 🐉 dragon | 198.35 | hello0d | 2025-03-08 07:54:38 |
+| 3 🥉 ⬆ | 🐉 dragon | 269.98 (+71.63) | pompadourdelinquent | 2025-05-19 21:19:50 |
+| 4 ⬇ | 🦕 sauropod | 256.91 (+11.20) | goopy777 | 2025-05-22 06:19:27 |
+| 5 ⬇ | 🐍 snake | 229.58 | miyabwah | 2025-02-17 05:17:00 |
 | 6  | 🦈 shark | 196.64 | rainedparade | 2025-03-25 00:46:13 |
 | 7  | 🫎 moose | 196.42 | crunch_sack | 2025-03-26 05:51:36 |
 | 8  | 🐋 whale2 | 152.10 | pompadourdelinquent | 2025-04-25 23:03:06 |
@@ -25,10 +25,10 @@
 | 22  | 🦀 crab | 35.87 | rainedparade | 2025-05-09 05:06:10 |
 | 23  | 🦫 beaver | 33.44 | goopy777 | 2025-03-17 05:33:26 |
 | 24  | 🐧 penguin | 32.40 | goopy777 | 2025-03-02 23:26:33 |
-| 25  | 🦐 shrimp | 30.66 | hello0d | 2025-03-02 14:19:11 |
+| 25  | 🦐 shrimp | 30.77 (+0.11) | rainedparade | 2025-05-21 03:13:07 |
 | 26  | 🪳 cockroach | 22.79 | rainedparade | 2025-05-03 02:44:50 |
 | 27  | 🪸 coral | 22.27 | e1d2f3 | 2025-05-08 16:02:29 |
-| 28  | 🐡 blowfish | 21.98 (+0.01) | piz_z | 2025-05-12 17:44:07 |
+| 28  | 🐡 blowfish | 21.98 | piz_z | 2025-05-12 17:44:07 |
 | 29  | 🐠 tropicalfish | 21.61 | rainedparade | 2025-03-11 21:19:37 |
 | 30  | 🍄‍🟫 brownmushroom | 21.03 | goopy777 | 2025-01-14 07:15:13 |
 | 30  | 🦠 plankton | 21.03 | rainedparade | 2025-02-25 05:17:44 |
@@ -43,8 +43,8 @@
 | 40  | 🩲 briefs | 9.56 | cptblack_ | 2025-05-09 03:44:38 |
 | 40  | 🕶️ darksunglasses | 9.56 | rainedparade | 2025-05-01 22:35:28 |
 | 42  | 👒 womanshat | 9.46 | rainedparade | 2025-01-25 17:36:59 |
-| 43  | 🧊 icecube | 9.30 | rainedparade | 2025-02-24 17:25:34 |
-| 44  | 💀 skull | 9.21 (+0.25) | rainedparade | 2025-05-16 05:35:30 |
+| 43 ⬆ | 💀 skull | 9.37 (+0.16) | miyabwah | 2025-05-19 23:37:58 |
+| 44 ⬇ | 🧊 icecube | 9.30 | rainedparade | 2025-02-24 17:25:34 |
 | 45  | 🎱 8ball | 8.42 | teeto | 2025-03-20 22:25:41 |
 | 46  | 🪱 worm | 7.94 | miyabwah | 2025-02-25 05:58:02 |
 | 47  | 🦆 duck | 7.71 | rainedparade | 2025-02-24 08:22:44 |
@@ -63,11 +63,11 @@
 | 60  | 🌷 tulip | 2.36 | hello0d | 2025-03-21 18:32:56 |
 | 61  | 🧦 socks | 1.97 | pompadourdelinquent | 2025-05-10 02:39:04 |
 | 62  | 👢 boot | 1.65 | miyabwah | 2025-03-20 06:30:08 |
-| 63 ⬆ | 🥪 sandwich | 1.48 (+0.25) | rainedparade | 2025-05-17 18:51:56 |
-| 64 ⬇ | 🍃 leaf | 1.31 | poioce | 2025-03-27 02:26:12 |
+| 63  | 🥪 sandwich | 1.48 | rainedparade | 2025-05-17 18:51:56 |
+| 64  | 🍃 leaf | 1.31 | poioce | 2025-03-27 02:26:12 |
 | 65  | 🩴 thongsandal | 1.10 | i_xerrax | 2025-05-09 04:15:30 |
 | 66  | 🧤 gloves | 0.95 | jellyuh | 2025-02-19 05:34:02 |
-| 67  | 🌿 seaweed | 0.86 (+0.26) | rainedparade | 2025-05-16 22:37:52 |
+| 67  | 🌿 seaweed | 0.86 | rainedparade | 2025-05-16 22:37:52 |
 | 68  | 🩰 balletshoes | 0.52 | rainedparade | 2025-01-25 04:09:12 |
 | 69  | 🪶 feather | 0.43 | jellyuh | 2025-01-02 09:31:14 |
 | 70  | ⛸️ iceskate | 0.33 | hello0d | 2025-01-12 16:12:14 |
@@ -76,4 +76,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-05-18 09:21:23 UTC_
+_Last updated at 2025-05-25 10:45:16 UTC_

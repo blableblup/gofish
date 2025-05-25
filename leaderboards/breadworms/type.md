@@ -1,14 +1,14 @@
 ### Biggest fish per type caught in breadworms' chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
-| 1 🥇  | 🦑 squid | 308.86 | chubbbyhamster | 2024-12-24 02:34:50 |
+| 1 🥇  | 🦑 squid | 308.86 | lluuucy | 2024-12-24 02:34:50 |
 | 2 🥈  | 🐳 whale | 303.81 | qu4ttromila | 2023-03-17 23:18:19 |
 | 3 🥉  | 🦈 shark | 288.27 | miiiiisho | 2024-02-01 22:00:13 |
 | 4  | 🦕 sauropod | 286.09 | sicklymaidrobot | 2023-11-06 10:21:56 |
 | 5  | 🐉 dragon | 284.43 | c_mgirl | 2024-12-10 21:13:14 |
-| 6 ⬆ | 🫎 moose | 278.16 (+22.29) | fvkdylan | 2025-04-27 13:58:41 |
-| 7 ⬇ | 🐻‍❄ polarbear | 272.28 | larvasisters | 2025-01-02 19:01:21 |
-| 8 ⬇ | 🐍 snake | 271.95 | miiiiisho | 2024-01-09 01:20:50 |
+| 6  | 🫎 moose | 278.16 | fvkdylan | 2025-04-27 13:58:41 |
+| 7  | 🐻‍❄ polarbear | 272.28 | larvasisters | 2025-01-02 19:01:21 |
+| 8  | 🐍 snake | 271.95 | miiiiisho | 2024-01-09 01:20:50 |
 | 9  | 🛢️ oildrum | 251.70 | osnyisdead | 2024-08-14 01:03:37 |
 | 10  | 🐢 turtle | 251.35 | bussinongnocap | 2023-06-17 05:29:50 |
 | 11  | 🐙 octopus | 198.60 | derinturitierutz | 2023-12-27 14:54:34 |
@@ -45,7 +45,7 @@
 | 42  | 🪳 cockroach | 26.79 | fishingalt | 2025-03-02 15:50:28 |
 | 43  | 🎰 slotmachine | 23.35 | gstaman911 | 2025-03-15 03:53:22 |
 | 44  | 🦠 plankton | 22.00 | osnyatsky | 2024-01-03 09:00:25 |
-| 45  | 🍄‍🟫 brownmushroom | 21.97 | chubbbyhamster | 2025-02-05 02:10:22 |
+| 45  | 🍄‍🟫 brownmushroom | 21.97 | lluuucy | 2025-02-05 02:10:22 |
 | 46  | 🪼 jellyfish | 21.87 | sicklymaidrobot | 2023-08-04 03:47:25 |
 | 47  | 🧭 compass | 21.26 | destin357 | 2025-03-25 13:46:19 |
 | 48  | 🦦 otter | 19.78 | dayzedinndaydreams | 2024-02-17 10:37:23 |
@@ -97,10 +97,10 @@
 | 94  | 🍁 mapleleaf | 1.00 | fishingalt | 2024-09-28 20:29:04 |
 | 95  | 🪶 feather | 0.99 | osnyatsky* | 2023-08-24 01:31:11 |
 | 95  | 🧤 gloves | 0.99 | sicklymaidrobot | 2024-02-23 12:41:32 |
-| 95  | 🌾 grass | 0.99 | chubbbyhamster | 2025-04-10 10:13:43 |
+| 95  | 🌾 grass | 0.99 | lluuucy | 2025-04-10 10:13:43 |
 | 95  | 🧣 scarf | 0.99 | osnyatsky* | 2022-12-22 04:35:03 |
 | 99  | 🪚 carpentrysaw | 0.95 | osnyisdead | 2025-02-12 04:45:11 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-05-04 09:47:48 UTC_
+_Last updated at 2025-05-25 10:45:41 UTC_

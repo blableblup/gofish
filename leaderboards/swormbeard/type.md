@@ -9,7 +9,7 @@
 | 6  | 🐊 crocodile | 105.00 | julialuxel | 2024-07-28 22:59:00 |
 | 7  | 🦈 shark | 103.86 | derintu | 2025-03-22 19:45:15 |
 | 8  | 🐬 dolphin | 101.18 | gawblemachine | 2024-08-07 17:37:10 |
-| 9  | 🐢 turtle | 95.26 | chubbbyhamster | 2024-10-15 20:41:05 |
+| 9  | 🐢 turtle | 95.26 | lluuucy | 2024-10-15 20:41:05 |
 | 10  | 🐙 octopus | 77.19 | respirate_ | 2024-08-23 18:20:38 |
 | 11  | 🦇 bat | 60.15 | kishma9 | 2025-03-14 00:11:12 |
 | 12  | 🦞 lobster | 54.45 | respirate_ | 2024-08-31 19:32:16 |
@@ -31,8 +31,8 @@
 | 29  | 🪺 nestwitheggs | 10.58 | dayzedinndaydreams | 2024-10-14 19:42:06 |
 | 30  | 🐌 snail | 7.79 | respirate_ | 2024-08-24 06:22:05 |
 | 31  | 💀 skull | 7.51 | respirate_ | 2024-09-02 20:55:13 |
-| 32  | 🦎 lizard | 7.49 | chubbbyhamster | 2024-12-01 17:38:15 |
-| 33  | 🪹 emptynest | 6.80 | chubbbyhamster | 2024-11-07 15:57:21 |
+| 32  | 🦎 lizard | 7.49 | lluuucy | 2024-12-01 17:38:15 |
+| 33  | 🪹 emptynest | 6.80 | lluuucy | 2024-11-07 15:57:21 |
 | 34  | 🩲 briefs | 6.30 | dayzedinndaydreams | 2024-08-02 22:34:26 |
 | 35  | 🧽 sponge | 6.19 | respirate_ | 2024-07-28 22:59:22 |
 | 36  | 📱 iphone | 5.21 | fvkdylan | 2025-03-18 23:17:58 |
@@ -41,10 +41,10 @@
 | 39  | 🐚 shell | 4.40 | derintu | 2025-03-15 17:40:36 |
 | 40  | 🦆 duck | 4.14 | respirate_ | 2024-10-07 19:23:05 |
 | 41  | 🎏 lure | 3.68 | derinturitierutz | 2025-03-17 18:02:54 |
-| 42  | 🌰 acorn | 3.63 | chubbbyhamster | 2024-11-18 14:33:58 |
+| 42  | 🌰 acorn | 3.63 | lluuucy | 2024-11-18 14:33:58 |
 | 43  | ☘️ shamrock | 3.44 | derinturitierutz | 2025-03-15 16:35:34 |
 | 44  | 🪝 hook | 2.82 | respirate_ | 2024-09-08 21:39:07 |
-| 45  | 🐦 bird | 2.81 | chubbbyhamster | 2024-10-26 03:04:44 |
+| 45  | 🐦 bird | 2.81 | lluuucy | 2024-10-26 03:04:44 |
 | 46  | 🦀 crab | 2.76 | julialuxel | 2025-03-12 22:09:40 |
 | 47  | 👡 sandal | 2.63 | leanmeister | 2025-03-18 21:15:42 |
 | 48  | 🪳 cockroach | 2.15 | sicklymaidrobot | 2024-08-02 21:50:26 |
@@ -63,4 +63,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-04-13 10:23:19 UTC_
+_Last updated at 2025-05-25 10:45:20 UTC_
