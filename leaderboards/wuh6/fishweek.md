@@ -17,11 +17,11 @@
 | 14  | veny2lbs  | 47 |
 | 15  | zwockel01  | 40 |
 | 16  | flovrek  | 24 |
-| 17 🆕 | bluberry  | 21 |
-| 18 ⬇ | wuh6  | 18 |
-| 19 ⬇ | chubbbyhamster  | 11 |
-| 20 🆕 | commanda_u  | 10 |
+| 17  | bluberry  | 21 |
+| 18  | wuh6  | 18 |
+| 19  | lluuucy  | 11 |
+| 20  | commanda_u  | 10 |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-04-23 09:48:31 UTC_
+_Last updated at 2025-05-28 11:41:32 UTC_

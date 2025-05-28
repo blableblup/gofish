@@ -12,8 +12,8 @@
 | 9  | sicklymaidrobot  | 123 |
 | 9  | sussy_amonge  | 123 |
 | 11  | qu4ttromila  | 122 |
-| 12  | chubbbyhamster  | 112 |
 | 12  | lazuli672*  | 112 |
+| 12  | lluuucy  | 112 |
 | 14  | ryebreadward  | 110 |
 | 15  | bussinongnocap  | 108 |
 | 16  | dayzedinndaydreams  | 93 |
@@ -22,8 +22,8 @@
 | 19  | comiqq  | 84 |
 | 20  | gstaman911  | 80 |
 | 21  | miiiiisho  | 79 |
-| 22 ⬆ | derintu  | 78 (+9) |
-| 23 ⬇ | respirate_  | 74 |
+| 22  | derintu  | 78 |
+| 23  | respirate_  | 74 |
 | 24  | booty_bread  | 60 |
 | 25  | receipts  | 56 |
 | 26  | bk207*  | 53 |
@@ -55,4 +55,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2025-04-30 10:28:52 UTC_
+_Last updated at 2025-05-28 11:41:32 UTC_

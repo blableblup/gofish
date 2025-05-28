@@ -20,12 +20,12 @@
 	"1212": {
 		"player": "larvasisters",
 		"playerid": 1212,
-		"weight": 4.5,
+		"weight": 5.5,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 1,
 		"chatid": 1,
-		"maxcount": 1,
-		"rank": 26
+		"maxcount": 3,
+		"rank": 25
 	},
 	"125": {
 		"player": "osnyatsky",
@@ -34,7 +34,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 2,
 		"maxcount": 5,
-		"rank": 26
+		"rank": 27
 	},
 	"126": {
 		"player": "derinturitierutz",
@@ -75,10 +75,10 @@
 	"135": {
 		"player": "leanmeister",
 		"playerid": 135,
-		"weight": 158.5,
+		"weight": 163.5,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 48,
-		"chatid": 12,
+		"fishid": 49,
+		"chatid": 14,
 		"maxcount": 5,
 		"rank": 1
 	},
@@ -151,13 +151,13 @@
 		"rank": 10
 	},
 	"21": {
-		"player": "chubbbyhamster",
+		"player": "lluuucy",
 		"playerid": 21,
-		"weight": 137.5,
+		"weight": 138,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 24,
 		"chatid": 51,
-		"maxcount": 29,
+		"maxcount": 30,
 		"rank": 2
 	},
 	"2125": {
@@ -222,7 +222,7 @@
 		"fishid": 1,
 		"chatid": 1,
 		"maxcount": 1,
-		"rank": 26
+		"rank": 27
 	},
 	"2889": {
 		"player": "receipts",
@@ -255,12 +255,12 @@
 	"3537": {
 		"player": "destin357",
 		"playerid": 3537,
-		"weight": 53,
+		"weight": 60,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 12,
-		"chatid": 14,
+		"fishid": 14,
+		"chatid": 15,
 		"maxcount": 6,
-		"rank": 9
+		"rank": 8
 	},
 	"3638": {
 		"player": "derintu",
@@ -371,7 +371,7 @@
 		"fishid": 11,
 		"chatid": 18,
 		"maxcount": 9,
-		"rank": 8
+		"rank": 9
 	},
 	"871": {
 		"player": "bapqo",
