@@ -123,7 +123,7 @@ type ProfileFish struct {
 	Bag      []string  `json:"-"`
 	Count    int       `json:"-"`
 	PlayerID int       `json:"-"`
-	TypeName string    `json:"-"`
+	FishName string    `json:"-"`
 	ChatPfp  string    `json:"-"`
 	Url      string    `json:"-"`
 	Date     time.Time `json:"-"`

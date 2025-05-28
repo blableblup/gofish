@@ -173,7 +173,7 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 	// The fish type caught count per year per chat per catchtype
 	queryFishTypesCaughtCountYearChat := `
 		select count(*),
-		fishname as typename,
+		fishname,
 		chat,
 		to_char(date_trunc('year', date), 'YYYY') as url,
 		catchtype,
@@ -182,7 +182,7 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 		where playerid = any($1)
 		and date < $2
 	  	and date > $3
-		group by typename, chat, date, catchtype, playerid`
+		group by fishname, chat, date, catchtype, playerid`
 
 	fishTypesCaughtCountYearChat, err := ReturnFishSliceQueryValidPlayers(params, queryFishTypesCaughtCountYearChat, validPlayers)
 	if err != nil {
@@ -191,7 +191,7 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 
 	for _, ble := range fishTypesCaughtCountYearChat {
 		count := ble.Count
-		fishname := fmt.Sprintf("%s %s", ble.TypeName, EmojisForFish[ble.TypeName])
+		fishname := fmt.Sprintf("%s %s", ble.FishName, EmojisForFish[ble.FishName])
 		chat := ble.Chat
 		year := ble.Url
 		catchtype := CatchtypeNames[ble.CatchType]
@@ -321,7 +321,7 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 
 	// The 10 biggest fish per player
 	queryBiggestFishOverall := `
-		SELECT bub.weight, bub.fishname as typename, bub.chat, bub.date, bub.catchtype, bub.playerid 
+		SELECT bub.weight, bub.fishname, bub.chat, bub.date, bub.catchtype, bub.playerid 
 		FROM (
         SELECT fish.*, 
         RANK() OVER (
@@ -344,14 +344,15 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 		fish.DateString = fish.Date.Format("2006-01-02 15:04:05 UTC")
 
 		fish.CatchType = CatchtypeNames[fish.CatchType]
-		fish.Fish = fmt.Sprintf("%s %s", EmojisForFish[fish.TypeName], fish.TypeName)
+
+		fish.Fish = fmt.Sprintf("%s %s", EmojisForFish[fish.FishName], fish.FishName)
 
 		Profiles[fish.PlayerID].BiggestFish = append(Profiles[fish.PlayerID].BiggestFish, fish)
 	}
 
 	// The 10 last fish per player
 	queryLastFishOverall := `
-		SELECT bub.weight, bub.fishname as typename, bub.chat, bub.date, bub.catchtype, bub.playerid 
+		SELECT bub.weight, bub.fishname, bub.chat, bub.date, bub.catchtype, bub.playerid 
 		FROM (
         SELECT fish.*, 
         RANK() OVER (
@@ -374,7 +375,8 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 		fish.DateString = fish.Date.Format("2006-01-02 15:04:05 UTC")
 
 		fish.CatchType = CatchtypeNames[fish.CatchType]
-		fish.Fish = fmt.Sprintf("%s %s", EmojisForFish[fish.TypeName], fish.TypeName)
+
+		fish.Fish = fmt.Sprintf("%s %s", EmojisForFish[fish.FishName], fish.FishName)
 
 		Profiles[fish.PlayerID].LastFish = append(Profiles[fish.PlayerID].LastFish, fish)
 	}
@@ -383,7 +385,7 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 	// Also for biggest and smallest im ordering by date desc, so that as the rows are being read, if someone caught that weight multiple times
 	// it should always end up printing the oldest one with that weight on the profile
 	queryBiggestFishChat := `
-		SELECT f.weight, f.fishname as typename, f.chat, f.date, f.catchtype, f.playerid
+		SELECT f.weight, f.fishname, f.chat, f.date, f.catchtype, f.playerid
 		FROM fish f
 		JOIN (
 		SELECT playerid, MAX(weight) AS max_weight, chat
@@ -411,7 +413,8 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 		fish.DateString = fish.Date.Format("2006-01-02 15:04:05 UTC")
 
 		fish.CatchType = CatchtypeNames[fish.CatchType]
-		fish.Fish = fmt.Sprintf("%s %s", EmojisForFish[fish.TypeName], fish.TypeName)
+
+		fish.Fish = fmt.Sprintf("%s %s", EmojisForFish[fish.FishName], fish.FishName)
 
 		Profiles[fish.PlayerID].BiggestFishChat[fish.Chat] = fish
 	}
@@ -419,7 +422,7 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 	// If first / last catch was a mouth bonus catch dont select the mouth catch,
 	// So that there arent two fish with max / min date
 	queryFirstFishChat := ` 
-		SELECT f.weight, f.fishname as typename, f.chat, f.date, f.catchtype, f.playerid
+		SELECT f.weight, f.fishname, f.chat, f.date, f.catchtype, f.playerid
 		FROM fish f
 		JOIN (
 		SELECT playerid, MIN(date) AS min_date, chat
@@ -445,13 +448,14 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 		fish.DateString = fish.Date.Format("2006-01-02 15:04:05 UTC")
 
 		fish.CatchType = CatchtypeNames[fish.CatchType]
-		fish.Fish = fmt.Sprintf("%s %s", EmojisForFish[fish.TypeName], fish.TypeName)
+
+		fish.Fish = fmt.Sprintf("%s %s", EmojisForFish[fish.FishName], fish.FishName)
 
 		Profiles[fish.PlayerID].FirstFishChat[fish.Chat] = fish
 	}
 
 	queryLastFishChat := `	
-		SELECT f.weight, f.fishname as typename, f.chat, f.date, f.catchtype, f.playerid
+		SELECT f.weight, f.fishname, f.chat, f.date, f.catchtype, f.playerid
 		FROM fish f
 		JOIN (
 		SELECT playerid, MAX(date) AS max_date, chat
@@ -477,14 +481,14 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 		fish.DateString = fish.Date.Format("2006-01-02 15:04:05 UTC")
 
 		fish.CatchType = CatchtypeNames[fish.CatchType]
-		fish.Fish = fmt.Sprintf("%s %s", EmojisForFish[fish.TypeName], fish.TypeName)
+		fish.Fish = fmt.Sprintf("%s %s", EmojisForFish[fish.FishName], fish.FishName)
 
 		Profiles[fish.PlayerID].LastFishChat[fish.Chat] = fish
 	}
 
 	// Get the biggest, smallest, last and first fish per fishtype
 	queryBiggestFishPerType := ` 
-		SELECT f.weight, f.fishname as typename, f.chat, f.date, f.catchtype, f.playerid
+		SELECT f.weight, f.fishname, f.chat, f.date, f.catchtype, f.playerid
 		FROM fish f
 		JOIN (
 		SELECT playerid, fishname, MAX(weight) AS max_weight
@@ -510,13 +514,13 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 
 		fish.CatchType = CatchtypeNames[fish.CatchType]
 
-		fish.Fish = fmt.Sprintf("%s %s", EmojisForFish[fish.TypeName], fish.TypeName)
+		fish.Fish = fmt.Sprintf("%s %s", EmojisForFish[fish.FishName], fish.FishName)
 
-		Profiles[fish.PlayerID].FishData[fmt.Sprintf("%s %s", fish.TypeName, EmojisForFish[fish.TypeName])].Biggest.Fish = fish
+		Profiles[fish.PlayerID].FishData[fmt.Sprintf("%s %s", fish.FishName, EmojisForFish[fish.FishName])].Biggest.Fish = fish
 	}
 
 	querySmallestFishPerType := `
-		SELECT f.weight, f.fishname as typename, f.chat, f.date, f.catchtype, f.playerid
+		SELECT f.weight, f.fishname, f.chat, f.date, f.catchtype, f.playerid
 		FROM fish f
 		JOIN (
 		SELECT playerid, fishname, MIN(weight) AS min_weight
@@ -542,15 +546,15 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 
 		fish.CatchType = CatchtypeNames[fish.CatchType]
 
-		fish.Fish = fmt.Sprintf("%s %s", EmojisForFish[fish.TypeName], fish.TypeName)
+		fish.Fish = fmt.Sprintf("%s %s", EmojisForFish[fish.FishName], fish.FishName)
 
-		Profiles[fish.PlayerID].FishData[fmt.Sprintf("%s %s", fish.TypeName, EmojisForFish[fish.TypeName])].Smallest.Fish = fish
+		Profiles[fish.PlayerID].FishData[fmt.Sprintf("%s %s", fish.FishName, EmojisForFish[fish.FishName])].Smallest.Fish = fish
 	}
 
 	// If someones last catch of a type was a mouth catch and the fish in the mouth and the other catch are of the same type
 	// this will select two fishes, doesnt rly happen a lot anyways so idc (?)
 	queryLastFishPerType := `
-		SELECT f.weight, f.fishname as typename, f.chat, f.date, f.catchtype, f.playerid
+		SELECT f.weight, f.fishname, f.chat, f.date, f.catchtype, f.playerid
 		FROM fish f
 		JOIN (
 		SELECT playerid, MAX(date) AS max_date, fishname
@@ -574,13 +578,13 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 
 		fish.CatchType = CatchtypeNames[fish.CatchType]
 
-		fish.Fish = fmt.Sprintf("%s %s", EmojisForFish[fish.TypeName], fish.TypeName)
+		fish.Fish = fmt.Sprintf("%s %s", EmojisForFish[fish.FishName], fish.FishName)
 
-		Profiles[fish.PlayerID].FishData[fmt.Sprintf("%s %s", fish.TypeName, EmojisForFish[fish.TypeName])].Last = fish
+		Profiles[fish.PlayerID].FishData[fmt.Sprintf("%s %s", fish.FishName, EmojisForFish[fish.FishName])].Last = fish
 	}
 
 	queryFirstFishPerType := `
-		SELECT f.weight, f.fishname as typename, f.chat, f.date, f.catchtype, f.playerid
+		SELECT f.weight, f.fishname, f.chat, f.date, f.catchtype, f.playerid
 		FROM fish f
 		JOIN (
 		SELECT playerid, MIN(date) AS min_date, fishname
@@ -604,14 +608,14 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 
 		fish.CatchType = CatchtypeNames[fish.CatchType]
 
-		fish.Fish = fmt.Sprintf("%s %s", EmojisForFish[fish.TypeName], fish.TypeName)
+		fish.Fish = fmt.Sprintf("%s %s", EmojisForFish[fish.FishName], fish.FishName)
 
-		Profiles[fish.PlayerID].FishData[fmt.Sprintf("%s %s", fish.TypeName, EmojisForFish[fish.TypeName])].First = fish
+		Profiles[fish.PlayerID].FishData[fmt.Sprintf("%s %s", fish.FishName, EmojisForFish[fish.FishName])].First = fish
 
 		// Update their progress for the Red Avery Treasures
 		for _, redAveryTreasure := range fishLists["r.a.treasure"] {
 
-			if fish.TypeName == redAveryTreasure {
+			if fish.FishName == redAveryTreasure {
 
 				Profiles[fish.PlayerID].Treasures.RedAveryTreasureCount++
 
@@ -628,7 +632,7 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 		// Update their progress for the Mythical Fish
 		for _, ogMythicalFish := range fishLists["mythic"] {
 
-			if fish.TypeName == ogMythicalFish {
+			if fish.FishName == ogMythicalFish {
 
 				Profiles[fish.PlayerID].MythicalFish.OriginalMythicalFishCount++
 
@@ -645,7 +649,7 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 		// update progress for birds
 		for _, bird := range fishLists["bird"] {
 
-			if fish.TypeName == bird {
+			if fish.FishName == bird {
 
 				Profiles[fish.PlayerID].Birds.BirdCount++
 
@@ -662,7 +666,7 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 		// also for flowers ?
 		for _, flower := range fishLists["flower"] {
 
-			if fish.TypeName == flower {
+			if fish.FishName == flower {
 
 				Profiles[fish.PlayerID].Flowers.FLowerCount++
 
