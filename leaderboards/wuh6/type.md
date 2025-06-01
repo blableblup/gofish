@@ -11,7 +11,7 @@
 | 8  | 🐍 snake | 246.44 | nndiana | 2025-01-15 07:16:30 |
 | 9  | 🦈 shark | 215.20 | bubinga | 2025-04-23 16:33:54 |
 | 10  | 🐋 whale2 | 154.07 | nndiana | 2025-03-16 01:01:08 |
-| 11  | 🐊 crocodile | 149.05 | wadupcaprise | 2025-03-25 18:51:00 |
+| 11  | 🐊 crocodile | 149.87 (+0.82) | iflya320 | 2025-05-26 18:56:21 |
 | 12  | 🐙 octopus | 136.02 | bubinga | 2025-04-10 22:15:50 |
 | 13  | 🦭 seal | 134.48 | flovrek | 2025-02-07 00:19:40 |
 | 14  | 🦪 oyster | 131.61 | eeziiii | 2025-01-03 22:02:07 |
@@ -20,11 +20,11 @@
 | 17  | 🪸 coral | 95.15 | gorillapark | 2025-05-04 23:53:54 |
 | 18  | 🐈‍⬛ blackcat | 90.13 | thetaxmen | 2024-12-19 08:21:39 |
 | 19  | 🦞 lobster | 78.35 | eeziiii | 2025-05-05 14:19:33 |
-| 20  | 🛒 shoppingcart | 73.36 | glorianeq | 2025-02-24 22:18:53 |
-| 21  | 👑 crown | 69.03 | iflya320 | 2025-05-07 13:47:40 |
-| 22  | 🐟 fish | 61.35 | huuuuuuuuuuuuuuuuuuuuuurz | 2025-01-03 12:13:18 |
-| 23  | 🐀 rat | 54.57 | theevirus | 2024-12-23 19:12:05 |
-| 24  | 🪨 rock | 47.66 | nndiana | 2025-03-06 15:36:07 |
+| 20 ⬆ | 🪨 rock | 75.87 (+28.21) | eeziiii | 2025-05-30 10:35:50 |
+| 21 ⬇ | 🛒 shoppingcart | 73.36 | glorianeq | 2025-02-24 22:18:53 |
+| 22 ⬇ | 👑 crown | 69.03 | iflya320 | 2025-05-07 13:47:40 |
+| 23 ⬇ | 🐟 fish | 61.35 | huuuuuuuuuuuuuuuuuuuuuurz | 2025-01-03 12:13:18 |
+| 24 ⬇ | 🐀 rat | 54.57 | theevirus | 2024-12-23 19:12:05 |
 | 25  | 🦫 beaver | 43.64 | iflya320 | 2024-12-31 19:44:39 |
 | 26  | 🐧 penguin | 41.88 | theevirus | 2025-01-02 18:41:16 |
 | 27  | 🦀 crab | 39.37 | huuuuuuuuuuuuuuuuuuuuuurz | 2025-03-31 19:21:43 |
@@ -47,18 +47,18 @@
 | 44  | 🍄 mushroom | 17.60 | iflya320 | 2025-03-30 15:29:44 |
 | 45  | 🪀 bobber | 15.44 | wuh6 | 2024-12-25 02:55:50 |
 | 46  | 🪼 jellyfish | 15.16 | iflya320 | 2025-05-16 21:01:32 |
-| 47 ⬆ | 🪵 log | 14.90 (+3.72) | wowitsdub | 2025-05-21 11:27:21 |
-| 48 ⬇ | 🕶️ darksunglasses | 11.93 | eeziiii | 2025-05-03 15:33:19 |
-| 49 ⬇ | 🐌 snail | 11.88 | bubinga | 2025-04-29 18:11:25 |
-| 50 ⬆ | 👒 womanshat | 11.80 (+0.76) | theevirus | 2025-05-21 19:10:55 |
-| 51 ⬇ | 🧸 teddybear | 11.53 | bubinga | 2025-02-11 20:24:44 |
-| 52 ⬇ | 📱 iphone | 11.49 | supibot | 2024-12-19 11:50:57 |
+| 47  | 🪵 log | 14.90 | wowitsdub | 2025-05-21 11:27:21 |
+| 48  | 🕶️ darksunglasses | 11.93 | eeziiii | 2025-05-03 15:33:19 |
+| 49  | 🐌 snail | 11.88 | bubinga | 2025-04-29 18:11:25 |
+| 50  | 👒 womanshat | 11.80 | theevirus | 2025-05-21 19:10:55 |
+| 51  | 🧸 teddybear | 11.53 | bubinga | 2025-02-11 20:24:44 |
+| 52  | 📱 iphone | 11.49 | supibot | 2024-12-19 11:50:57 |
 | 53  | 🪹 emptynest | 10.84 | iflya320 | 2025-02-27 11:11:29 |
 | 54  | 🪺 nestwitheggs | 10.81 | veny2lbs | 2024-12-20 00:59:54 |
 | 55  | 🧥 coat | 10.72 | iflya320 | 2025-05-02 13:12:42 |
 | 56  | 🎱 8ball | 10.70 | zwockel01 | 2024-12-24 12:24:07 |
 | 57  | 🦆 duck | 10.61 | bubinga | 2025-05-07 19:58:52 |
-| 58  | 🩲 briefs | 10.00 | iflya320 | 2025-04-26 22:39:14 |
+| 58  | 🩲 briefs | 10.02 (+0.02) | theevirus | 2025-05-28 20:51:58 |
 | 59  | 💀 skull | 9.98 | huuuuuuuuuuuuuuuuuuuuuurz | 2025-04-11 09:10:15 |
 | 60  | 🐦 bird | 8.94 | iflya320 | 2025-04-05 11:05:15 |
 | 61  | 🧃 beveragebox | 8.68 | huuuuuuuuuuuuuuuuuuuuuurz | 2025-04-23 05:12:49 |
@@ -94,4 +94,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-05-25 10:45:52 UTC_
+_Last updated at 2025-06-01 09:16:29 UTC_

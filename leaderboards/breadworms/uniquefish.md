@@ -18,9 +18,9 @@
 | 15  | breadworms  | 73 |
 | 15  | osnyatsky*  | 73 |
 | 15  | puzzlow  | 73 |
+| 18 ⬆ | destin357  | 72 (+1) |
 | 18  | paras220  | 72 |
-| 19 ⬆ | destin357  | 71 (+1) |
-| 19  | dougiefresh_83*  | 71 |
+| 20 ⬇ | dougiefresh_83*  | 71 |
 | 21  | crazytown_bananapants  | 67 |
 | 22  | ryebreadward  | 65 |
 | 23  | julialuxel  | 63 |
@@ -30,12 +30,12 @@
 | 26  | respirate_  | 60 |
 | 28  | comiqq  | 59 |
 | 29  | gstaman911  | 58 |
+| 30 ⬆ | derintu  | 57 (+2) |
 | 30  | gawblemachine  | 57 |
-| 31  | idini  | 56 |
-| 32 ⬆ | derintu  | 55 (+1) |
-| 32  | divra__  | 55 |
-| 32  | ouacewi  | 55 |
-| 35 ⬇ | wisco9ers*  | 54 |
+| 32 ⬇ | idini  | 56 |
+| 33 ⬇ | divra__  | 55 |
+| 33 ⬇ | ouacewi  | 55 |
+| 35  | wisco9ers*  | 54 |
 | 36  | bussinongnocap  | 53 |
 | 36  | lazuli672*  | 53 |
 | 38  | bapqo  | 52 |
@@ -46,4 +46,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2025-05-25 10:46:13 UTC_
+_Last updated at 2025-06-01 09:15:15 UTC_

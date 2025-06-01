@@ -25,7 +25,7 @@
 		"chat": "deme",
 		"fishid": 172638,
 		"chatid": 2,
-		"rank": 8
+		"rank": 12
 	},
 	"172739": {
 		"player": "fantanium",
@@ -67,7 +67,7 @@
 		"chat": "deme",
 		"fishid": 174769,
 		"chatid": 5,
-		"rank": 7
+		"rank": 10
 	},
 	"175076": {
 		"player": "commanda_u",
@@ -109,6 +109,62 @@
 		"chat": "deme",
 		"fishid": 175488,
 		"chatid": 8,
+		"rank": 8
+	},
+	"175822": {
+		"player": "naori_desu",
+		"playerid": 3774,
+		"weight": 8.03,
+		"bot": "gofishgame",
+		"type": "🐟",
+		"typename": "fish",
+		"catchtype": "normal",
+		"date": "2025-05-25T10:55:38Z",
+		"chat": "deme",
+		"fishid": 175822,
+		"chatid": 9,
 		"rank": 6
+	},
+	"176183": {
+		"player": "naori_desu",
+		"playerid": 3774,
+		"weight": 5.53,
+		"bot": "gofishgame",
+		"type": "💀",
+		"typename": "skull",
+		"catchtype": "normal",
+		"date": "2025-05-27T08:19:06Z",
+		"chat": "deme",
+		"fishid": 176183,
+		"chatid": 10,
+		"rank": 7
+	},
+	"176530": {
+		"player": "naori_desu",
+		"playerid": 3774,
+		"weight": 2.96,
+		"bot": "gofishgame",
+		"type": "💀",
+		"typename": "skull",
+		"catchtype": "normal",
+		"date": "2025-05-28T23:50:55Z",
+		"chat": "deme",
+		"fishid": 176530,
+		"chatid": 11,
+		"rank": 9
+	},
+	"176915": {
+		"player": "commanda_u",
+		"playerid": 1747,
+		"weight": 1.64,
+		"bot": "gofishgame",
+		"type": "🦑",
+		"typename": "squid",
+		"catchtype": "normal",
+		"date": "2025-05-31T10:40:40Z",
+		"chat": "deme",
+		"fishid": 176915,
+		"chatid": 12,
+		"rank": 11
 	}
 }

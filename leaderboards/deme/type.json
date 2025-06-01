@@ -41,6 +41,20 @@
 		"chatid": 6,
 		"rank": 1
 	},
+	"fish": {
+		"player": "naori_desu",
+		"playerid": 3774,
+		"weight": 8.03,
+		"bot": "gofishgame",
+		"type": "🐟",
+		"typename": "fish",
+		"catchtype": "normal",
+		"date": "2025-05-25T10:55:38Z",
+		"chat": "deme",
+		"fishid": 175822,
+		"chatid": 9,
+		"rank": 5
+	},
 	"hook": {
 		"player": "naori_desu",
 		"playerid": 3774,
@@ -53,7 +67,7 @@
 		"chat": "deme",
 		"fishid": 174769,
 		"chatid": 5,
-		"rank": 6
+		"rank": 7
 	},
 	"oyster": {
 		"player": "naori_desu",
@@ -72,15 +86,29 @@
 	"skull": {
 		"player": "naori_desu",
 		"playerid": 3774,
-		"weight": 4.85,
+		"weight": 5.53,
 		"bot": "gofishgame",
 		"type": "💀",
 		"typename": "skull",
 		"catchtype": "normal",
-		"date": "2025-05-23T23:26:41Z",
+		"date": "2025-05-27T08:19:06Z",
 		"chat": "deme",
-		"fishid": 175488,
-		"chatid": 8,
-		"rank": 5
+		"fishid": 176183,
+		"chatid": 10,
+		"rank": 6
+	},
+	"squid": {
+		"player": "commanda_u",
+		"playerid": 1747,
+		"weight": 1.64,
+		"bot": "gofishgame",
+		"type": "🦑",
+		"typename": "squid",
+		"catchtype": "normal",
+		"date": "2025-05-31T10:40:40Z",
+		"chat": "deme",
+		"fishid": 176915,
+		"chatid": 12,
+		"rank": 8
 	}
 }

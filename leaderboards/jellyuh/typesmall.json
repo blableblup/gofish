@@ -39,7 +39,7 @@
 		"chat": "jellyuh",
 		"fishid": 156016,
 		"chatid": 726,
-		"rank": 2
+		"rank": 1
 	},
 	"beaver": {
 		"player": "goopy777",
@@ -81,7 +81,7 @@
 		"chat": "jellyuh",
 		"fishid": 151268,
 		"chatid": 140,
-		"rank": 47
+		"rank": 48
 	},
 	"boot": {
 		"player": "cptblack_",
@@ -95,7 +95,7 @@
 		"chat": "jellyuh",
 		"fishid": 151351,
 		"chatid": 200,
-		"rank": 52
+		"rank": 53
 	},
 	"briefs": {
 		"player": "rainedparade",
@@ -109,7 +109,7 @@
 		"chat": "jellyuh",
 		"fishid": 173775,
 		"chatid": 1306,
-		"rank": 12
+		"rank": 13
 	},
 	"brownmushroom": {
 		"player": "miyabwah",
@@ -123,7 +123,7 @@
 		"chat": "jellyuh",
 		"fishid": 151340,
 		"chatid": 191,
-		"rank": 48
+		"rank": 49
 	},
 	"cannedfood": {
 		"player": "angelboygone",
@@ -136,7 +136,7 @@
 		"chat": "jellyuh",
 		"fishid": 151348,
 		"chatid": 197,
-		"rank": 72
+		"rank": 73
 	},
 	"cockroach": {
 		"player": "fadingmemoriez",
@@ -178,7 +178,7 @@
 		"chat": "jellyuh",
 		"fishid": 166394,
 		"chatid": 1058,
-		"rank": 70
+		"rank": 71
 	},
 	"crocodile": {
 		"player": "goopy777",
@@ -192,7 +192,21 @@
 		"chat": "jellyuh",
 		"fishid": 151374,
 		"chatid": 220,
-		"rank": 9
+		"rank": 10
+	},
+	"cucumber": {
+		"player": "rainedparade",
+		"playerid": 3607,
+		"weight": 18.76,
+		"bot": "gofishgame",
+		"type": "🥒",
+		"typename": "cucumber",
+		"catchtype": "normal",
+		"date": "2025-05-26T19:35:02Z",
+		"chat": "jellyuh",
+		"fishid": 176098,
+		"chatid": 1382,
+		"rank": 5
 	},
 	"dagger": {
 		"player": "rainedparade",
@@ -220,7 +234,7 @@
 		"chat": "jellyuh",
 		"fishid": 172145,
 		"chatid": 1264,
-		"rank": 17
+		"rank": 18
 	},
 	"dolphin": {
 		"player": "poioce",
@@ -237,18 +251,18 @@
 		"rank": 28
 	},
 	"dragon": {
-		"player": "miyabwah",
-		"playerid": 3604,
-		"weight": 37.27,
+		"player": "rainedparade",
+		"playerid": 3607,
+		"weight": 10.94,
 		"bot": "gofishgame",
 		"type": "🐉",
 		"typename": "dragon",
 		"catchtype": "normal",
-		"date": "2025-03-30T03:49:53Z",
+		"date": "2025-05-25T01:21:35Z",
 		"chat": "jellyuh",
-		"fishid": 160274,
-		"chatid": 933,
-		"rank": 4
+		"fishid": 175788,
+		"chatid": 1373,
+		"rank": 7
 	},
 	"duck": {
 		"player": "rainedparade",
@@ -262,7 +276,7 @@
 		"chat": "jellyuh",
 		"fishid": 151554,
 		"chatid": 377,
-		"rank": 9
+		"rank": 10
 	},
 	"feather": {
 		"player": "jellyuh",
@@ -276,7 +290,7 @@
 		"chat": "jellyuh",
 		"fishid": 150955,
 		"chatid": 41,
-		"rank": 44
+		"rank": 45
 	},
 	"fish": {
 		"player": "hello0d",
@@ -290,7 +304,7 @@
 		"chat": "jellyuh",
 		"fishid": 151693,
 		"chatid": 453,
-		"rank": 63
+		"rank": 64
 	},
 	"frog": {
 		"player": "rainedparade",
@@ -304,7 +318,7 @@
 		"chat": "jellyuh",
 		"fishid": 175436,
 		"chatid": 1366,
-		"rank": 49
+		"rank": 50
 	},
 	"gloves": {
 		"player": "cptblack_",
@@ -332,7 +346,7 @@
 		"chat": "jellyuh",
 		"fishid": 151597,
 		"chatid": 420,
-		"rank": 68
+		"rank": 69
 	},
 	"icecube": {
 		"player": "miyabwah",
@@ -346,7 +360,7 @@
 		"chat": "jellyuh",
 		"fishid": 151614,
 		"chatid": 437,
-		"rank": 16
+		"rank": 17
 	},
 	"iceskate": {
 		"player": "pompadourdelinquent",
@@ -360,7 +374,7 @@
 		"chat": "jellyuh",
 		"fishid": 150994,
 		"chatid": 75,
-		"rank": 65
+		"rank": 66
 	},
 	"iphone": {
 		"player": "teeto",
@@ -402,7 +416,7 @@
 		"chat": "jellyuh",
 		"fishid": 159988,
 		"chatid": 926,
-		"rank": 65
+		"rank": 66
 	},
 	"lizard": {
 		"player": "poioce",
@@ -416,7 +430,7 @@
 		"chat": "jellyuh",
 		"fishid": 157403,
 		"chatid": 847,
-		"rank": 50
+		"rank": 51
 	},
 	"lobster": {
 		"player": "hello0d",
@@ -430,7 +444,7 @@
 		"chat": "jellyuh",
 		"fishid": 151459,
 		"chatid": 293,
-		"rank": 54
+		"rank": 55
 	},
 	"log": {
 		"player": "poioce",
@@ -444,7 +458,7 @@
 		"chat": "jellyuh",
 		"fishid": 152372,
 		"chatid": 532,
-		"rank": 11
+		"rank": 12
 	},
 	"lure": {
 		"player": "cptblack_",
@@ -458,7 +472,7 @@
 		"chat": "jellyuh",
 		"fishid": 169670,
 		"chatid": 1151,
-		"rank": 69
+		"rank": 70
 	},
 	"moose": {
 		"player": "rainedparade",
@@ -472,7 +486,7 @@
 		"chat": "jellyuh",
 		"fishid": 156263,
 		"chatid": 747,
-		"rank": 5
+		"rank": 4
 	},
 	"mushroom": {
 		"player": "avalidu5ername",
@@ -500,21 +514,21 @@
 		"chat": "jellyuh",
 		"fishid": 156213,
 		"chatid": 738,
-		"rank": 13
+		"rank": 14
 	},
 	"octopus": {
-		"player": "miyabwah",
-		"playerid": 3604,
-		"weight": 2.95,
+		"player": "rainedparade",
+		"playerid": 3607,
+		"weight": 0.45,
 		"bot": "gofishgame",
 		"type": "🐙",
 		"typename": "octopus",
 		"catchtype": "normal",
-		"date": "2025-02-25T01:38:51Z",
+		"date": "2025-05-31T21:47:34Z",
 		"chat": "jellyuh",
-		"fishid": 151558,
-		"chatid": 381,
-		"rank": 19
+		"fishid": 177054,
+		"chatid": 1419,
+		"rank": 44
 	},
 	"otter": {
 		"player": "miyabwah",
@@ -556,7 +570,7 @@
 		"chat": "jellyuh",
 		"fishid": 151944,
 		"chatid": 473,
-		"rank": 14
+		"rank": 15
 	},
 	"plankton": {
 		"player": "poioce",
@@ -584,7 +598,7 @@
 		"chat": "jellyuh",
 		"fishid": 161467,
 		"chatid": 966,
-		"rank": 18
+		"rank": 19
 	},
 	"sandal": {
 		"player": "rainedparade",
@@ -617,16 +631,16 @@
 	"sauropod": {
 		"player": "rainedparade",
 		"playerid": 3607,
-		"weight": 106.09,
+		"weight": 88.3,
 		"bot": "gofishgame",
 		"type": "🦕",
 		"typename": "sauropod",
 		"catchtype": "normal",
-		"date": "2025-05-13T02:56:25Z",
+		"date": "2025-05-31T23:01:19Z",
 		"chat": "jellyuh",
-		"fishid": 172841,
-		"chatid": 1277,
-		"rank": 1
+		"fishid": 177067,
+		"chatid": 1421,
+		"rank": 2
 	},
 	"scarf": {
 		"player": "goopy777",
@@ -640,7 +654,7 @@
 		"chat": "jellyuh",
 		"fishid": 150942,
 		"chatid": 33,
-		"rank": 54
+		"rank": 55
 	},
 	"seal": {
 		"player": "pompadourdelinquent",
@@ -668,7 +682,7 @@
 		"chat": "jellyuh",
 		"fishid": 157112,
 		"chatid": 824,
-		"rank": 64
+		"rank": 65
 	},
 	"shamrock": {
 		"player": "miyabwah",
@@ -682,7 +696,7 @@
 		"chat": "jellyuh",
 		"fishid": 151252,
 		"chatid": 127,
-		"rank": 65
+		"rank": 66
 	},
 	"shark": {
 		"player": "teeto",
@@ -699,18 +713,18 @@
 		"rank": 25
 	},
 	"shell": {
-		"player": "rainedparade",
-		"playerid": 3607,
-		"weight": 0.16,
+		"player": "miyabwah",
+		"playerid": 3604,
+		"weight": 0.09,
 		"bot": "gofishgame",
 		"type": "🐚",
 		"typename": "shell",
 		"catchtype": "normal",
-		"date": "2025-05-08T18:29:44Z",
+		"date": "2025-05-25T02:40:40Z",
 		"chat": "jellyuh",
-		"fishid": 171726,
-		"chatid": 1242,
-		"rank": 54
+		"fishid": 175795,
+		"chatid": 1374,
+		"rank": 63
 	},
 	"shoppingcart": {
 		"player": "miyabwah",
@@ -724,7 +738,7 @@
 		"chat": "jellyuh",
 		"fishid": 151543,
 		"chatid": 366,
-		"rank": 15
+		"rank": 16
 	},
 	"shrimp": {
 		"player": "goopy777",
@@ -780,7 +794,7 @@
 		"chat": "jellyuh",
 		"fishid": 156214,
 		"chatid": 739,
-		"rank": 51
+		"rank": 52
 	},
 	"socks": {
 		"player": "miyabwah",
@@ -794,7 +808,7 @@
 		"chat": "jellyuh",
 		"fishid": 153772,
 		"chatid": 628,
-		"rank": 70
+		"rank": 71
 	},
 	"spider": {
 		"player": "embuhli",
@@ -822,7 +836,7 @@
 		"chat": "jellyuh",
 		"fishid": 173319,
 		"chatid": 1289,
-		"rank": 45
+		"rank": 46
 	},
 	"squid": {
 		"player": "goopy777",
@@ -836,7 +850,7 @@
 		"chat": "jellyuh",
 		"fishid": 151295,
 		"chatid": 154,
-		"rank": 46
+		"rank": 47
 	},
 	"teddybear": {
 		"player": "rainedparade",
@@ -934,7 +948,7 @@
 		"chat": "jellyuh",
 		"fishid": 151411,
 		"chatid": 251,
-		"rank": 8
+		"rank": 9
 	},
 	"whale2": {
 		"player": "rainedparade",
@@ -962,7 +976,7 @@
 		"chat": "jellyuh",
 		"fishid": 150928,
 		"chatid": 28,
-		"rank": 53
+		"rank": 54
 	},
 	"womanshat": {
 		"player": "rainedparade",
@@ -976,7 +990,7 @@
 		"chat": "jellyuh",
 		"fishid": 151247,
 		"chatid": 122,
-		"rank": 7
+		"rank": 8
 	},
 	"worm": {
 		"player": "maurgauna",

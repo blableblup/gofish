@@ -27,7 +27,7 @@
 | 24  | 🪸 coral | 99.92 | divra__ | 2024-05-27 21:22:08 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
 | 25  | 🐈‍⬛ blackcat | 90.13 | thetaxmen | 2024-12-19 08:21:39 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png) |
 | 26  | 👑 crown | 77.02 | puzzlow | 2023-07-19 11:53:37 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
-| 27  | 🪨 rock | 74.57 | fishingalt | 2023-12-19 23:47:32 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 27  | 🪨 rock | 75.87 (+1.30) | eeziiii | 2025-05-30 10:35:50 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png) |
 | 28  | 🛒 shoppingcart | 73.36 | glorianeq | 2025-02-24 22:18:53 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png) |
 | 29  | 🦐 shrimp | 67.05 | 5c33* | 2022-12-05 10:26:58 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 30  | 🐟 fish | 63.75 | adziooooo | 2023-10-27 22:15:11 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
@@ -104,4 +104,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-05-25 10:45:19 UTC_
+_Last updated at 2025-06-01 09:16:44 UTC_

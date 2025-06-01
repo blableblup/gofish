@@ -123,7 +123,7 @@
 		"chat": "omie",
 		"fishid": 119376,
 		"chatid": 1323,
-		"rank": 96
+		"rank": 97
 	},
 	"119386": {
 		"player": "v6r_",
@@ -221,7 +221,7 @@
 		"chat": "omie",
 		"fishid": 123487,
 		"chatid": 1571,
-		"rank": 95
+		"rank": 96
 	},
 	"124789": {
 		"player": "v6r_",
@@ -249,7 +249,7 @@
 		"chat": "omie",
 		"fishid": 127594,
 		"chatid": 1853,
-		"rank": 98
+		"rank": 99
 	},
 	"128870": {
 		"player": "mangos4u",
@@ -361,7 +361,7 @@
 		"chat": "omie",
 		"fishid": 134984,
 		"chatid": 2662,
-		"rank": 92
+		"rank": 93
 	},
 	"135069": {
 		"player": "v6r_",
@@ -403,21 +403,7 @@
 		"chat": "omie",
 		"fishid": 135740,
 		"chatid": 2735,
-		"rank": 89
-	},
-	"135824": {
-		"player": "mangos4u",
-		"playerid": 3142,
-		"weight": 149.92,
-		"bot": "gofishgame",
-		"type": "🦈",
-		"typename": "shark",
-		"catchtype": "normal",
-		"date": "2024-12-26T18:13:51Z",
-		"chat": "omie",
-		"fishid": 135824,
-		"chatid": 2737,
-		"rank": 100
+		"rank": 90
 	},
 	"135835": {
 		"player": "ritaaww",
@@ -487,7 +473,7 @@
 		"chat": "omie",
 		"fishid": 137844,
 		"chatid": 2891,
-		"rank": 87
+		"rank": 88
 	},
 	"138118": {
 		"player": "ritaaww",
@@ -571,7 +557,7 @@
 		"chat": "omie",
 		"fishid": 138773,
 		"chatid": 2956,
-		"rank": 83
+		"rank": 84
 	},
 	"139225": {
 		"player": "v6r_",
@@ -711,7 +697,7 @@
 		"chat": "omie",
 		"fishid": 144192,
 		"chatid": 3576,
-		"rank": 88
+		"rank": 89
 	},
 	"144225": {
 		"player": "v6r_",
@@ -725,7 +711,7 @@
 		"chat": "omie",
 		"fishid": 144225,
 		"chatid": 3582,
-		"rank": 86
+		"rank": 87
 	},
 	"144534": {
 		"player": "v6r_",
@@ -865,7 +851,7 @@
 		"chat": "omie",
 		"fishid": 148942,
 		"chatid": 4036,
-		"rank": 99
+		"rank": 100
 	},
 	"149426": {
 		"player": "v6r_",
@@ -893,7 +879,7 @@
 		"chat": "omie",
 		"fishid": 149635,
 		"chatid": 4129,
-		"rank": 85
+		"rank": 86
 	},
 	"149831": {
 		"player": "v6r_",
@@ -907,7 +893,7 @@
 		"chat": "omie",
 		"fishid": 149831,
 		"chatid": 4161,
-		"rank": 84
+		"rank": 85
 	},
 	"149833": {
 		"player": "v6r_",
@@ -963,7 +949,7 @@
 		"chat": "omie",
 		"fishid": 151718,
 		"chatid": 4274,
-		"rank": 82
+		"rank": 83
 	},
 	"151920": {
 		"player": "ritaaww",
@@ -1089,7 +1075,7 @@
 		"chat": "omie",
 		"fishid": 158743,
 		"chatid": 5077,
-		"rank": 94
+		"rank": 95
 	},
 	"158751": {
 		"player": "ritaaww",
@@ -1245,6 +1231,20 @@
 		"chatid": 6533,
 		"rank": 25
 	},
+	"176158": {
+		"player": "mangos4u",
+		"playerid": 3142,
+		"weight": 161.4,
+		"bot": "gofishgame",
+		"type": "🦕",
+		"typename": "sauropod",
+		"catchtype": "normal",
+		"date": "2025-05-27T01:30:19Z",
+		"chat": "omie",
+		"fishid": 176158,
+		"chatid": 6579,
+		"rank": 82
+	},
 	"93913": {
 		"player": "ritaaww",
 		"playerid": 2813,
@@ -1313,7 +1313,7 @@
 		"chat": "omie",
 		"fishid": 95005,
 		"chatid": 176,
-		"rank": 90
+		"rank": 91
 	},
 	"95386": {
 		"player": "aliveleader",
@@ -1355,7 +1355,7 @@
 		"chat": "omie",
 		"fishid": 96104,
 		"chatid": 245,
-		"rank": 93
+		"rank": 94
 	},
 	"96859": {
 		"player": "aliveleader",
@@ -1369,7 +1369,7 @@
 		"chat": "omie",
 		"fishid": 96859,
 		"chatid": 265,
-		"rank": 91
+		"rank": 92
 	},
 	"96860": {
 		"player": "ritaaww",
@@ -1397,6 +1397,6 @@
 		"chat": "omie",
 		"fishid": 97440,
 		"chatid": 283,
-		"rank": 97
+		"rank": 98
 	}
 }

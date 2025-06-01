@@ -408,16 +408,16 @@
 	"fish": {
 		"player": "v6r_",
 		"playerid": 2941,
-		"weight": 0.12,
+		"weight": 0.1,
 		"bot": "gofishgame",
 		"type": "🐟",
 		"typename": "fish",
-		"catchtype": "normal",
-		"date": "2024-11-19T02:00:10Z",
+		"catchtype": "mouth",
+		"date": "2025-05-30T15:28:48Z",
 		"chat": "omie",
-		"fishid": 122944,
-		"chatid": 1539,
-		"rank": 55
+		"fishid": 176798,
+		"chatid": 6620,
+		"rank": 57
 	},
 	"frog": {
 		"player": "v6r_",
@@ -515,7 +515,7 @@
 		"chat": "omie",
 		"fishid": 104082,
 		"chatid": 445,
-		"rank": 58
+		"rank": 57
 	},
 	"jellyfish": {
 		"player": "ritaaww",
@@ -571,7 +571,7 @@
 		"chat": "omie",
 		"fishid": 129269,
 		"chatid": 2052,
-		"rank": 56
+		"rank": 55
 	},
 	"log": {
 		"player": "ritaaww",
@@ -907,7 +907,7 @@
 		"chat": "omie",
 		"fishid": 160827,
 		"chatid": 5338,
-		"rank": 58
+		"rank": 57
 	},
 	"skull": {
 		"player": "respirate_",
@@ -1088,7 +1088,7 @@
 		"chat": "omie",
 		"fishid": 126448,
 		"chatid": 1763,
-		"rank": 56
+		"rank": 55
 	},
 	"umbrella": {
 		"player": "v6r_",

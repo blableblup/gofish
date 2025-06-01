@@ -11,7 +11,7 @@
 		"chat": "e1llas",
 		"fishid": 171002,
 		"chatid": 140,
-		"rank": 25
+		"rank": 24
 	},
 	"beveragebox": {
 		"player": "envtt",
@@ -53,7 +53,7 @@
 		"chat": "e1llas",
 		"fishid": 150882,
 		"chatid": 44,
-		"rank": 42
+		"rank": 43
 	},
 	"cannedfood": {
 		"player": "mersuf",
@@ -67,7 +67,7 @@
 		"chat": "e1llas",
 		"fishid": 150838,
 		"chatid": 5,
-		"rank": 33
+		"rank": 32
 	},
 	"cockroach": {
 		"player": "jboy42o",
@@ -95,7 +95,7 @@
 		"chat": "e1llas",
 		"fishid": 172933,
 		"chatid": 194,
-		"rank": 27
+		"rank": 26
 	},
 	"crab": {
 		"player": "jboy42o",
@@ -109,7 +109,7 @@
 		"chat": "e1llas",
 		"fishid": 173491,
 		"chatid": 207,
-		"rank": 39
+		"rank": 40
 	},
 	"crocodile": {
 		"player": "jboy42o",
@@ -137,7 +137,7 @@
 		"chat": "e1llas",
 		"fishid": 170450,
 		"chatid": 126,
-		"rank": 7
+		"rank": 6
 	},
 	"dagger": {
 		"player": "envtt",
@@ -179,7 +179,7 @@
 		"chat": "e1llas",
 		"fishid": 150835,
 		"chatid": 3,
-		"rank": 8
+		"rank": 7
 	},
 	"dragon": {
 		"player": "envtt",
@@ -195,6 +195,20 @@
 		"chatid": 218,
 		"rank": 3
 	},
+	"feather": {
+		"player": "d1fforr",
+		"playerid": 3596,
+		"weight": 0.48,
+		"bot": "gofishgame",
+		"type": "🪶",
+		"typename": "feather",
+		"catchtype": "normal",
+		"date": "2025-05-29T18:53:46Z",
+		"chat": "e1llas",
+		"fishid": 176674,
+		"chatid": 272,
+		"rank": 33
+	},
 	"fish": {
 		"player": "d1fforr",
 		"playerid": 3596,
@@ -207,7 +221,7 @@
 		"chat": "e1llas",
 		"fishid": 150896,
 		"chatid": 51,
-		"rank": 30
+		"rank": 28
 	},
 	"frog": {
 		"player": "d1fforr",
@@ -235,7 +249,7 @@
 		"chat": "e1llas",
 		"fishid": 150916,
 		"chatid": 55,
-		"rank": 32
+		"rank": 30
 	},
 	"hook": {
 		"player": "e1llas",
@@ -249,7 +263,7 @@
 		"chat": "e1llas",
 		"fishid": 173597,
 		"chatid": 211,
-		"rank": 41
+		"rank": 42
 	},
 	"icecube": {
 		"player": "d1fforr",
@@ -263,7 +277,7 @@
 		"chat": "e1llas",
 		"fishid": 150872,
 		"chatid": 35,
-		"rank": 20
+		"rank": 19
 	},
 	"lobster": {
 		"player": "e1llas",
@@ -277,7 +291,7 @@
 		"chat": "e1llas",
 		"fishid": 174098,
 		"chatid": 224,
-		"rank": 23
+		"rank": 22
 	},
 	"lure": {
 		"player": "d1fforr",
@@ -291,7 +305,7 @@
 		"chat": "e1llas",
 		"fishid": 171520,
 		"chatid": 153,
-		"rank": 43
+		"rank": 44
 	},
 	"octopus": {
 		"player": "envtt",
@@ -305,7 +319,7 @@
 		"chat": "e1llas",
 		"fishid": 174949,
 		"chatid": 240,
-		"rank": 22
+		"rank": 21
 	},
 	"otter": {
 		"player": "xopowosidim667",
@@ -319,7 +333,7 @@
 		"chat": "e1llas",
 		"fishid": 150879,
 		"chatid": 42,
-		"rank": 21
+		"rank": 20
 	},
 	"oyster": {
 		"player": "envtt",
@@ -347,21 +361,21 @@
 		"chat": "e1llas",
 		"fishid": 151224,
 		"chatid": 83,
-		"rank": 19
+		"rank": 18
 	},
 	"rock": {
-		"player": "jboy42o",
-		"playerid": 3725,
-		"weight": 15.09,
+		"player": "envtt",
+		"playerid": 3724,
+		"weight": 11.84,
 		"bot": "gofishgame",
 		"type": "🪨",
 		"typename": "rock",
 		"catchtype": "normal",
-		"date": "2025-05-20T13:58:53Z",
+		"date": "2025-05-27T10:35:01Z",
 		"chat": "e1llas",
-		"fishid": 174586,
-		"chatid": 232,
-		"rank": 6
+		"fishid": 176198,
+		"chatid": 253,
+		"rank": 8
 	},
 	"sandwich": {
 		"player": "waveheartz",
@@ -403,7 +417,7 @@
 		"chat": "e1llas",
 		"fishid": 173104,
 		"chatid": 201,
-		"rank": 39
+		"rank": 40
 	},
 	"shark": {
 		"player": "envtt",
@@ -431,7 +445,7 @@
 		"chat": "e1llas",
 		"fishid": 170756,
 		"chatid": 131,
-		"rank": 44
+		"rank": 45
 	},
 	"shrimp": {
 		"player": "mersuf",
@@ -445,7 +459,7 @@
 		"chat": "e1llas",
 		"fishid": 150865,
 		"chatid": 30,
-		"rank": 24
+		"rank": 23
 	},
 	"skull": {
 		"player": "envtt",
@@ -473,7 +487,7 @@
 		"chat": "e1llas",
 		"fishid": 150890,
 		"chatid": 47,
-		"rank": 29
+		"rank": 27
 	},
 	"snake": {
 		"player": "envtt",
@@ -490,18 +504,18 @@
 		"rank": 38
 	},
 	"socks": {
-		"player": "koenheylen",
-		"playerid": 3593,
-		"weight": 1.17,
+		"player": "thetukan_",
+		"playerid": 3788,
+		"weight": 0.76,
 		"bot": "gofishgame",
 		"type": "🧦",
 		"typename": "socks",
 		"catchtype": "normal",
-		"date": "2025-05-07T11:54:50Z",
+		"date": "2025-05-29T19:06:43Z",
 		"chat": "e1llas",
-		"fishid": 171347,
-		"chatid": 148,
-		"rank": 28
+		"fishid": 176676,
+		"chatid": 273,
+		"rank": 31
 	},
 	"spider": {
 		"player": "envtt",
@@ -515,21 +529,21 @@
 		"chat": "e1llas",
 		"fishid": 170400,
 		"chatid": 121,
-		"rank": 31
+		"rank": 29
 	},
 	"sponge": {
 		"player": "mersuf",
 		"playerid": 2835,
-		"weight": 5.19,
+		"weight": 0.21,
 		"bot": "gofishgame",
 		"type": "🧽",
 		"typename": "sponge",
 		"catchtype": "normal",
-		"date": "2025-05-18T15:26:38Z",
+		"date": "2025-05-25T20:47:08Z",
 		"chat": "e1llas",
-		"fishid": 174201,
-		"chatid": 228,
-		"rank": 15
+		"fishid": 175932,
+		"chatid": 251,
+		"rank": 38
 	},
 	"squid": {
 		"player": "d1fforr",
@@ -557,7 +571,7 @@
 		"chat": "e1llas",
 		"fishid": 169365,
 		"chatid": 91,
-		"rank": 18
+		"rank": 17
 	},
 	"turtle": {
 		"player": "d1fforr",
@@ -571,7 +585,7 @@
 		"chat": "e1llas",
 		"fishid": 172074,
 		"chatid": 165,
-		"rank": 17
+		"rank": 16
 	},
 	"umbrella": {
 		"player": "jboy42o",
@@ -585,7 +599,7 @@
 		"chat": "e1llas",
 		"fishid": 169324,
 		"chatid": 87,
-		"rank": 26
+		"rank": 25
 	},
 	"whale2": {
 		"player": "e1llas",
@@ -599,7 +613,7 @@
 		"chat": "e1llas",
 		"fishid": 150854,
 		"chatid": 19,
-		"rank": 16
+		"rank": 15
 	},
 	"worm": {
 		"player": "mersuf",

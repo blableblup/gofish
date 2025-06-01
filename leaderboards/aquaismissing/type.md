@@ -12,8 +12,8 @@
 | 9  | 🦞 lobster | 59.30 | poggu_ | 2024-11-28 10:34:33 |
 | 10  | 🦑 squid | 59.01 | aquaismissing | 2025-02-03 23:27:27 |
 | 11  | 🦈 shark | 46.64 | yyaaaaaaaas | 2025-02-05 04:06:13 |
-| 12  | 🐍 snake | 29.64 | dom1torii | 2025-02-20 23:26:35 |
-| 13  | 🦪 oyster | 29.38 (+1.34) | giriglock | 2025-05-20 01:56:04 |
+| 12 ⬆ | 🦪 oyster | 34.71 (+5.33) | aquaismissing | 2025-05-29 22:53:07 |
+| 13 ⬇ | 🐍 snake | 29.64 | dom1torii | 2025-02-20 23:26:35 |
 | 14  | 🦐 shrimp | 26.47 | velantix | 2025-01-17 11:20:20 |
 | 15  | 🐡 blowfish | 25.12 | poggu_ | 2024-12-01 21:24:56 |
 | 16  | 🗡️ dagger | 22.91 | stofeyxd | 2025-04-28 08:38:27 |
@@ -48,4 +48,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-05-25 10:45:30 UTC_
+_Last updated at 2025-06-01 09:16:54 UTC_
