@@ -281,9 +281,9 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 
 			if _, ok := Profiles[playerID]; ok {
 
-				if Profiles[playerID].FishData[fishType].Biggest.Fish.Date == otherBoardData[chatName].Type[fishName].Date {
+				if Profiles[playerID].FishData[fishType].Biggest.Date == otherBoardData[chatName].Type[fishName].Date {
 
-					Profiles[playerID].FishData[fishType].Biggest.IsRecord = append(Profiles[playerID].FishData[fishType].Biggest.IsRecord,
+					Profiles[playerID].FishData[fishType].Biggest.Record = append(Profiles[playerID].FishData[fishType].Biggest.Record,
 						fmt.Sprintf("🥇 Biggest %s %s record %s !", fish.Type, fishName, text))
 
 				}
@@ -301,9 +301,9 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 
 			if _, ok := Profiles[playerID]; ok {
 
-				if Profiles[playerID].FishData[fishType].Smallest.Fish.Date == otherBoardData[chatName].Typesmall[fishName].Date {
+				if Profiles[playerID].FishData[fishType].Smallest.Date == otherBoardData[chatName].Typesmall[fishName].Date {
 
-					Profiles[playerID].FishData[fishType].Smallest.IsRecord = append(Profiles[playerID].FishData[fishType].Smallest.IsRecord,
+					Profiles[playerID].FishData[fishType].Smallest.Record = append(Profiles[playerID].FishData[fishType].Smallest.Record,
 						fmt.Sprintf("🥇 Smallest %s %s record %s !", fish.Type, fishName, text))
 
 				}

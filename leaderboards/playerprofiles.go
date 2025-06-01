@@ -114,9 +114,10 @@ type ProfileFish struct {
 	// cant put omitempty for weight, else it wont show a weight for 0 lbs catches
 	// but now this will show 0 lbs weight for release + jumped bonus + squirrel,
 	// even though they have a weight, but i cant see it in log message
-	CatchType  string `json:"Catchtype,omitempty"`
-	DateString string `json:"Date,omitempty"`
-	Chat       string `json:"Chat,omitempty"`
+	CatchType  string   `json:"Catchtype,omitempty"`
+	DateString string   `json:"Date,omitempty"`
+	Chat       string   `json:"Chat,omitempty"`
+	Record     []string `json:"Record,omitempty"`
 
 	// these are to scan the data into the struct
 	// but arent printed out in the end
@@ -135,16 +136,10 @@ type ProfileFishData struct {
 	CountYear      map[string]*TotalChatStruct `json:"Caught per year"`
 	CountCatchtype map[string]*TotalChatStruct `json:"Caught per catchtype"`
 
-	First    ProfileFish       `json:"First catch"`
-	Last     ProfileFish       `json:"Last catch"`
-	Biggest  TypeRecordProfile `json:"Biggest catch"`
-	Smallest TypeRecordProfile `json:"Smallest catch"`
-}
-
-// to make it show if that fish is a record somewhere
-type TypeRecordProfile struct {
-	Fish     ProfileFish
-	IsRecord []string `json:"Record,omitempty"`
+	First    ProfileFish `json:"First catch"`
+	Last     ProfileFish `json:"Last catch"`
+	Biggest  ProfileFish `json:"Biggest catch"`
+	Smallest ProfileFish `json:"Smallest catch"`
 }
 
 func GetPlayerProfiles(params LeaderboardParams) {
@@ -387,7 +382,7 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 		return nil
 	}
 
-	filePath := filepath.Join("leaderboards", "global", "players", fmt.Sprintf("%d", Profile.TwitchID)+".json")
+	filePath := filepath.Join("leaderboards", "global", "profiles", fmt.Sprintf("%d", Profile.TwitchID)+".json")
 
 	// update the progress
 

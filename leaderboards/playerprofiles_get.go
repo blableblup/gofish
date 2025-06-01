@@ -516,7 +516,7 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 
 		fish.Fish = fmt.Sprintf("%s %s", EmojisForFish[fish.FishName], fish.FishName)
 
-		Profiles[fish.PlayerID].FishData[fmt.Sprintf("%s %s", fish.FishName, EmojisForFish[fish.FishName])].Biggest.Fish = fish
+		Profiles[fish.PlayerID].FishData[fmt.Sprintf("%s %s", fish.FishName, EmojisForFish[fish.FishName])].Biggest = fish
 	}
 
 	querySmallestFishPerType := `
@@ -548,7 +548,7 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 
 		fish.Fish = fmt.Sprintf("%s %s", EmojisForFish[fish.FishName], fish.FishName)
 
-		Profiles[fish.PlayerID].FishData[fmt.Sprintf("%s %s", fish.FishName, EmojisForFish[fish.FishName])].Smallest.Fish = fish
+		Profiles[fish.PlayerID].FishData[fmt.Sprintf("%s %s", fish.FishName, EmojisForFish[fish.FishName])].Smallest = fish
 	}
 
 	// If someones last catch of a type was a mouth catch and the fish in the mouth and the other catch are of the same type
