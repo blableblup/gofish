@@ -17,9 +17,9 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 3863,
+		"Total": 3864,
 		"Per chat": {
-			"breadworms": 3849,
+			"breadworms": 3850,
 			"julialuxel": 6,
 			"swormbeard": 8
 		}
@@ -41,9 +41,9 @@
 			}
 		},
 		"2025": {
-			"Total": 27,
+			"Total": 28,
 			"Per chat": {
-				"breadworms": 26,
+				"breadworms": 27,
 				"swormbeard": 1
 			}
 		}
@@ -68,9 +68,9 @@
 			}
 		},
 		"Normal": {
-			"Total": 3661,
+			"Total": 3662,
 			"Per chat": {
-				"breadworms": 3647,
+				"breadworms": 3648,
 				"julialuxel": 6,
 				"swormbeard": 8
 			}
@@ -107,10 +107,10 @@
 	},
 	"Their last fish per chat": {
 		"breadworms": {
-			"Fish": "🐟 fish",
-			"Weight in lbs": 19.06,
+			"Fish": "🧦 socks",
+			"Weight in lbs": 1.11,
 			"Catchtype": "Normal",
-			"Date": "2025-05-10 04:05:12 UTC",
+			"Date": "2025-05-28 10:55:32 UTC",
 			"Chat": "breadworms"
 		},
 		"julialuxel": {
@@ -225,6 +225,13 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "🧦 socks",
+			"Weight in lbs": 1.11,
+			"Catchtype": "Normal",
+			"Date": "2025-05-28 10:55:32 UTC",
+			"Chat": "breadworms"
+		},
+		{
 			"Fish": "🐟 fish",
 			"Weight in lbs": 19.06,
 			"Catchtype": "Normal",
@@ -285,20 +292,6 @@
 			"Weight in lbs": 3.43,
 			"Catchtype": "Normal",
 			"Date": "2025-04-12 10:10:28 UTC",
-			"Chat": "breadworms"
-		},
-		{
-			"Fish": "🐢 turtle",
-			"Weight in lbs": 49.96,
-			"Catchtype": "Normal",
-			"Date": "2025-04-09 10:05:24 UTC",
-			"Chat": "breadworms"
-		},
-		{
-			"Fish": "🐚 shell",
-			"Weight in lbs": 1.59,
-			"Catchtype": "Mouth bonus",
-			"Date": "2025-04-09 10:05:24 UTC",
 			"Chat": "breadworms"
 		}
 	],
@@ -4005,9 +3998,9 @@
 		},
 		"socks 🧦": {
 			"Caught in total": {
-				"Total": 85,
+				"Total": 86,
 				"Per chat": {
-					"breadworms": 85
+					"breadworms": 86
 				}
 			},
 			"Caught per year": {
@@ -4022,6 +4015,12 @@
 					"Per chat": {
 						"breadworms": 8
 					}
+				},
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"breadworms": 1
+					}
 				}
 			},
 			"Caught per catchtype": {
@@ -4032,9 +4031,9 @@
 					}
 				},
 				"Normal": {
-					"Total": 84,
+					"Total": 85,
 					"Per chat": {
-						"breadworms": 84
+						"breadworms": 85
 					}
 				}
 			},
@@ -4047,9 +4046,9 @@
 			},
 			"Last catch": {
 				"Fish": "🧦 socks",
-				"Weight in lbs": 0.08,
+				"Weight in lbs": 1.11,
 				"Catchtype": "Normal",
-				"Date": "2024-06-17 05:57:10 UTC",
+				"Date": "2025-05-28 10:55:32 UTC",
 				"Chat": "breadworms"
 			},
 			"Biggest catch": {
@@ -4957,5 +4956,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-01 09:36:01 UTC"
+	"Profile last updated at": "2025-06-03 10:27:13 UTC"
 }

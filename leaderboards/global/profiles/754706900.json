@@ -1,0 +1,3518 @@
+{
+	"Name": "rainedparade",
+	"Progress": null,
+	"Records": [
+		"🥇 Most fish caught in channel jellyuh !",
+		"🥇 Most fish seen in channel jellyuh !",
+		"5th biggest fish record in channel jellyuh !",
+		"🥈 Second most points on tournament leaderboard in channel jellyuh !"
+	],
+	"Other accomplishments": {
+		"Accomplishments": null,
+		"Shinies": null
+	},
+	"Fish caught in total": {
+		"Total": 304,
+		"Per chat": {
+			"jellyuh": 304
+		}
+	},
+	"Fish caught per year": {
+		"2025": {
+			"Total": 304,
+			"Per chat": {
+				"jellyuh": 304
+			}
+		}
+	},
+	"Fish caught per catchtype": {
+		"Normal": {
+			"Total": 297,
+			"Per chat": {
+				"jellyuh": 297
+			}
+		},
+		"Release bonus": {
+			"Total": 7,
+			"Per chat": {
+				"jellyuh": 7
+			}
+		}
+	},
+	"Their first fish per chat": {
+		"jellyuh": {
+			"Fish": "🪝 hook",
+			"Weight in lbs": 2.04,
+			"Catchtype": "Normal",
+			"Date": "2025-01-04 02:32:32 UTC",
+			"Chat": "jellyuh"
+		}
+	},
+	"Their last fish per chat": {
+		"jellyuh": {
+			"Fish": "🦕 sauropod",
+			"Weight in lbs": 88.3,
+			"Catchtype": "Normal",
+			"Date": "2025-05-31 23:01:19 UTC",
+			"Chat": "jellyuh"
+		}
+	},
+	"Their biggest fish per chat": {
+		"jellyuh": {
+			"Fish": "🦑 squid",
+			"Weight in lbs": 233.06,
+			"Catchtype": "Normal",
+			"Date": "2025-03-21 21:43:22 UTC",
+			"Chat": "jellyuh"
+		}
+	},
+	"Their overall biggest fish": [
+		{
+			"Fish": "🦑 squid",
+			"Weight in lbs": 233.06,
+			"Catchtype": "Normal",
+			"Date": "2025-03-21 21:43:22 UTC",
+			"Chat": "jellyuh"
+		},
+		{
+			"Fish": "🦑 squid",
+			"Weight in lbs": 232.47,
+			"Catchtype": "Normal",
+			"Date": "2025-04-17 02:40:21 UTC",
+			"Chat": "jellyuh"
+		},
+		{
+			"Fish": "🦈 shark",
+			"Weight in lbs": 196.64,
+			"Catchtype": "Normal",
+			"Date": "2025-03-25 00:46:13 UTC",
+			"Chat": "jellyuh"
+		},
+		{
+			"Fish": "🦑 squid",
+			"Weight in lbs": 172.11,
+			"Catchtype": "Normal",
+			"Date": "2025-03-17 01:40:34 UTC",
+			"Chat": "jellyuh"
+		},
+		{
+			"Fish": "🐊 crocodile",
+			"Weight in lbs": 141.35,
+			"Catchtype": "Normal",
+			"Date": "2025-02-27 22:08:19 UTC",
+			"Chat": "jellyuh"
+		},
+		{
+			"Fish": "🐊 crocodile",
+			"Weight in lbs": 120.16,
+			"Catchtype": "Normal",
+			"Date": "2025-03-25 23:22:05 UTC",
+			"Chat": "jellyuh"
+		},
+		{
+			"Fish": "🐙 octopus",
+			"Weight in lbs": 118.72,
+			"Catchtype": "Normal",
+			"Date": "2025-04-05 02:35:19 UTC",
+			"Chat": "jellyuh"
+		},
+		{
+			"Fish": "🐊 crocodile",
+			"Weight in lbs": 117.56,
+			"Catchtype": "Normal",
+			"Date": "2025-05-22 05:26:53 UTC",
+			"Chat": "jellyuh"
+		},
+		{
+			"Fish": "🦕 sauropod",
+			"Weight in lbs": 106.09,
+			"Catchtype": "Normal",
+			"Date": "2025-05-13 02:56:25 UTC",
+			"Chat": "jellyuh"
+		},
+		{
+			"Fish": "🐋 whale2",
+			"Weight in lbs": 105.05,
+			"Catchtype": "Normal",
+			"Date": "2025-04-01 03:17:43 UTC",
+			"Chat": "jellyuh"
+		}
+	],
+	"Their overall last fish": [
+		{
+			"Fish": "🦕 sauropod",
+			"Weight in lbs": 88.3,
+			"Catchtype": "Normal",
+			"Date": "2025-05-31 23:01:19 UTC",
+			"Chat": "jellyuh"
+		},
+		{
+			"Fish": "🐙 octopus",
+			"Weight in lbs": 0.45,
+			"Catchtype": "Normal",
+			"Date": "2025-05-31 21:47:34 UTC",
+			"Chat": "jellyuh"
+		},
+		{
+			"Fish": "🎏 lure",
+			"Weight in lbs": 0.19,
+			"Catchtype": "Normal",
+			"Date": "2025-05-31 19:44:45 UTC",
+			"Chat": "jellyuh"
+		},
+		{
+			"Fish": "🦐 shrimp",
+			"Weight in lbs": 26.87,
+			"Catchtype": "Normal",
+			"Date": "2025-05-31 02:24:06 UTC",
+			"Chat": "jellyuh"
+		},
+		{
+			"Fish": "🐊 crocodile",
+			"Weight in lbs": 59.22,
+			"Catchtype": "Normal",
+			"Date": "2025-05-31 01:06:22 UTC",
+			"Chat": "jellyuh"
+		},
+		{
+			"Fish": "🐟 fish",
+			"Weight in lbs": 14.9,
+			"Catchtype": "Normal",
+			"Date": "2025-05-30 18:29:53 UTC",
+			"Chat": "jellyuh"
+		},
+		{
+			"Fish": "🦑 squid",
+			"Weight in lbs": 28.79,
+			"Catchtype": "Normal",
+			"Date": "2025-05-30 15:17:21 UTC",
+			"Chat": "jellyuh"
+		},
+		{
+			"Fish": "🐋 whale2",
+			"Weight in lbs": 35.79,
+			"Catchtype": "Normal",
+			"Date": "2025-05-29 01:08:48 UTC",
+			"Chat": "jellyuh"
+		},
+		{
+			"Fish": "🍬 candy",
+			"Weight in lbs": 0,
+			"Catchtype": "Release bonus",
+			"Date": "2025-05-28 18:06:55 UTC",
+			"Chat": "jellyuh"
+		},
+		{
+			"Fish": "🦑 squid",
+			"Weight in lbs": 19.8,
+			"Catchtype": "Normal",
+			"Date": "2025-05-26 23:36:23 UTC",
+			"Chat": "jellyuh"
+		}
+	],
+	"Their last seen bag": {
+		"Bag": [
+			"🐙",
+			"🦑",
+			"🐋",
+			"🐋",
+			"🐊",
+			"🦞",
+			"🦑",
+			"🐊",
+			"🐊",
+			"🐊",
+			"🐬",
+			"🦦",
+			"🐙",
+			"🐙",
+			"🐬",
+			"🐬",
+			"🦑",
+			"🦞",
+			"🦞",
+			"🦦",
+			"🦦",
+			"🦭",
+			"🐊",
+			"🦞",
+			"🦞",
+			"🦑",
+			"🦞",
+			"🦞",
+			"🐙",
+			"🦑",
+			"🗡️",
+			"🐙",
+			"📑",
+			"🪀",
+			"🐋",
+			"🐬",
+			"🦑",
+			"🐊",
+			"🫎",
+			"🫎",
+			"🐊",
+			"🐊",
+			"🐊",
+			"🦀",
+			"🐬",
+			"🦭",
+			"🦈",
+			"🦑",
+			"🦑",
+			"🦈",
+			"🐊",
+			"🦀",
+			"🦀",
+			"🐋",
+			"🦈",
+			"🦑",
+			"🐙",
+			"🦞",
+			"🦞",
+			"🦞",
+			"🐊",
+			"🦑",
+			"🐬",
+			"🦑",
+			"🦀",
+			"🐬",
+			"🐋",
+			"🦞",
+			"🐙",
+			"🦈",
+			"🐬",
+			"🐙",
+			"🐬",
+			"🕶️",
+			"🐬",
+			"🐋",
+			"🐊",
+			"🐙",
+			"🕶️",
+			"🐳",
+			"🦕",
+			"🧽",
+			"💀",
+			"🩲",
+			"🥪",
+			"🐊",
+			"🐸",
+			"🪝",
+			"🐊",
+			"🎏",
+			"🐉",
+			"🦞",
+			"🐬",
+			"🐟",
+			"🪸",
+			"🥒",
+			"🦑"
+		],
+		"Date": "2025-05-28 18:06:14 UTC",
+		"Chat": "jellyuh"
+	},
+	"Count of each item in that bag": {
+		"🎏": 1,
+		"🐉": 1,
+		"🐊": 14,
+		"🐋": 6,
+		"🐙": 9,
+		"🐟": 1,
+		"🐬": 11,
+		"🐳": 1,
+		"🐸": 1,
+		"💀": 1,
+		"📑": 1,
+		"🕶️": 2,
+		"🗡️": 1,
+		"🥒": 1,
+		"🥪": 1,
+		"🦀": 4,
+		"🦈": 4,
+		"🦑": 12,
+		"🦕": 1,
+		"🦞": 12,
+		"🦦": 3,
+		"🦭": 2,
+		"🧽": 1,
+		"🩲": 1,
+		"🪀": 1,
+		"🪝": 1,
+		"🪸": 1,
+		"🫎": 2
+	},
+	"Fish seen in total": {
+		"Total": 58,
+		"Per chat": {
+			"jellyuh": 58
+		}
+	},
+	"Data about each of their seen fish": {
+		"8ball 🎱": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"jellyuh": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🎱 8ball",
+				"Weight in lbs": 3.21,
+				"Catchtype": "Normal",
+				"Date": "2025-03-16 20:21:05 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🎱 8ball",
+				"Weight in lbs": 3.21,
+				"Catchtype": "Normal",
+				"Date": "2025-03-16 20:21:05 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🎱 8ball",
+				"Weight in lbs": 3.21,
+				"Catchtype": "Normal",
+				"Date": "2025-03-16 20:21:05 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🎱 8ball",
+				"Weight in lbs": 3.21,
+				"Catchtype": "Normal",
+				"Date": "2025-03-16 20:21:05 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"balletshoes 🩰": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"jellyuh": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🩰 balletshoes",
+				"Weight in lbs": 0.52,
+				"Catchtype": "Normal",
+				"Date": "2025-01-25 04:09:12 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🩰 balletshoes",
+				"Weight in lbs": 0.52,
+				"Catchtype": "Normal",
+				"Date": "2025-01-25 04:09:12 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🩰 balletshoes",
+				"Weight in lbs": 0.52,
+				"Catchtype": "Normal",
+				"Date": "2025-01-25 04:09:12 UTC",
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Biggest 🩰 balletshoes record in channel jellyuh !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "🩰 balletshoes",
+				"Weight in lbs": 0.52,
+				"Catchtype": "Normal",
+				"Date": "2025-01-25 04:09:12 UTC",
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Smallest 🩰 balletshoes record in channel jellyuh !"
+				]
+			}
+		},
+		"blowfish 🐡": {
+			"Caught in total": {
+				"Total": 4,
+				"Per chat": {
+					"jellyuh": 4
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 4,
+					"Per chat": {
+						"jellyuh": 4
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 4,
+					"Per chat": {
+						"jellyuh": 4
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🐡 blowfish",
+				"Weight in lbs": 16.59,
+				"Catchtype": "Normal",
+				"Date": "2025-03-05 01:35:20 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🐡 blowfish",
+				"Weight in lbs": 21.74,
+				"Catchtype": "Normal",
+				"Date": "2025-04-01 01:29:06 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🐡 blowfish",
+				"Weight in lbs": 21.74,
+				"Catchtype": "Normal",
+				"Date": "2025-04-01 01:29:06 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🐡 blowfish",
+				"Weight in lbs": 15.27,
+				"Catchtype": "Normal",
+				"Date": "2025-03-10 09:55:33 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"bobber 🪀": {
+			"Caught in total": {
+				"Total": 3,
+				"Per chat": {
+					"jellyuh": 3
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 3,
+					"Per chat": {
+						"jellyuh": 3
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 2,
+					"Per chat": {
+						"jellyuh": 2
+					}
+				},
+				"Release bonus": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🪀 bobber",
+				"Weight in lbs": 3.36,
+				"Catchtype": "Normal",
+				"Date": "2025-03-14 06:58:17 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🪀 bobber",
+				"Weight in lbs": 0,
+				"Catchtype": "Release bonus",
+				"Date": "2025-04-04 01:30:04 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🪀 bobber",
+				"Weight in lbs": 15.21,
+				"Catchtype": "Normal",
+				"Date": "2025-03-16 18:04:07 UTC",
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Biggest 🪀 bobber record in channel jellyuh !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "🪀 bobber",
+				"Weight in lbs": 3.36,
+				"Catchtype": "Normal",
+				"Date": "2025-03-14 06:58:17 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"briefs 🩲": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"jellyuh": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🩲 briefs",
+				"Weight in lbs": 7.09,
+				"Catchtype": "Normal",
+				"Date": "2025-05-16 19:20:52 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🩲 briefs",
+				"Weight in lbs": 7.09,
+				"Catchtype": "Normal",
+				"Date": "2025-05-16 19:20:52 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🩲 briefs",
+				"Weight in lbs": 7.09,
+				"Catchtype": "Normal",
+				"Date": "2025-05-16 19:20:52 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🩲 briefs",
+				"Weight in lbs": 7.09,
+				"Catchtype": "Normal",
+				"Date": "2025-05-16 19:20:52 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"brownmushroom 🍄‍🟫": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"jellyuh": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🍄‍🟫 brownmushroom",
+				"Weight in lbs": 8.83,
+				"Catchtype": "Normal",
+				"Date": "2025-04-20 01:51:11 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🍄‍🟫 brownmushroom",
+				"Weight in lbs": 8.83,
+				"Catchtype": "Normal",
+				"Date": "2025-04-20 01:51:11 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🍄‍🟫 brownmushroom",
+				"Weight in lbs": 8.83,
+				"Catchtype": "Normal",
+				"Date": "2025-04-20 01:51:11 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🍄‍🟫 brownmushroom",
+				"Weight in lbs": 8.83,
+				"Catchtype": "Normal",
+				"Date": "2025-04-20 01:51:11 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"candy 🍬": {
+			"Caught in total": {
+				"Total": 3,
+				"Per chat": {
+					"jellyuh": 3
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 3,
+					"Per chat": {
+						"jellyuh": 3
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Release bonus": {
+					"Total": 3,
+					"Per chat": {
+						"jellyuh": 3
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🍬 candy",
+				"Weight in lbs": 0,
+				"Catchtype": "Release bonus",
+				"Date": "2025-04-04 01:29:25 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🍬 candy",
+				"Weight in lbs": 0,
+				"Catchtype": "Release bonus",
+				"Date": "2025-05-28 18:06:55 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Weight in lbs": 0
+			},
+			"Smallest catch": {
+				"Weight in lbs": 0
+			}
+		},
+		"cannedfood 🥫": {
+			"Caught in total": {
+				"Total": 3,
+				"Per chat": {
+					"jellyuh": 3
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 3,
+					"Per chat": {
+						"jellyuh": 3
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 3,
+					"Per chat": {
+						"jellyuh": 3
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🥫 cannedfood",
+				"Weight in lbs": 0.76,
+				"Catchtype": "Normal",
+				"Date": "2025-01-07 06:09:40 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🥫 cannedfood",
+				"Weight in lbs": 1.16,
+				"Catchtype": "Normal",
+				"Date": "2025-01-15 01:32:46 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🥫 cannedfood",
+				"Weight in lbs": 1.16,
+				"Catchtype": "Normal",
+				"Date": "2025-01-15 01:32:46 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🥫 cannedfood",
+				"Weight in lbs": 0.61,
+				"Catchtype": "Normal",
+				"Date": "2025-01-09 00:42:48 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"cockroach 🪳": {
+			"Caught in total": {
+				"Total": 10,
+				"Per chat": {
+					"jellyuh": 10
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 10,
+					"Per chat": {
+						"jellyuh": 10
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 10,
+					"Per chat": {
+						"jellyuh": 10
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🪳 cockroach",
+				"Weight in lbs": 12.99,
+				"Catchtype": "Normal",
+				"Date": "2025-02-01 06:20:10 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🪳 cockroach",
+				"Weight in lbs": 1.83,
+				"Catchtype": "Normal",
+				"Date": "2025-05-23 18:36:46 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🪳 cockroach",
+				"Weight in lbs": 22.79,
+				"Catchtype": "Normal",
+				"Date": "2025-05-03 02:44:50 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🪳 cockroach",
+				"Weight in lbs": 1.27,
+				"Catchtype": "Normal",
+				"Date": "2025-04-02 03:04:49 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"coral 🪸": {
+			"Caught in total": {
+				"Total": 3,
+				"Per chat": {
+					"jellyuh": 3
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 3,
+					"Per chat": {
+						"jellyuh": 3
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 3,
+					"Per chat": {
+						"jellyuh": 3
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🪸 coral",
+				"Weight in lbs": 0.89,
+				"Catchtype": "Normal",
+				"Date": "2025-03-09 00:19:47 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🪸 coral",
+				"Weight in lbs": 1.65,
+				"Catchtype": "Normal",
+				"Date": "2025-05-26 02:15:28 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🪸 coral",
+				"Weight in lbs": 14.1,
+				"Catchtype": "Normal",
+				"Date": "2025-05-01 05:25:16 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🪸 coral",
+				"Weight in lbs": 0.89,
+				"Catchtype": "Normal",
+				"Date": "2025-03-09 00:19:47 UTC",
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Smallest 🪸 coral record in channel jellyuh !"
+				]
+			}
+		},
+		"crab 🦀": {
+			"Caught in total": {
+				"Total": 7,
+				"Per chat": {
+					"jellyuh": 7
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 7,
+					"Per chat": {
+						"jellyuh": 7
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 7,
+					"Per chat": {
+						"jellyuh": 7
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🦀 crab",
+				"Weight in lbs": 7.84,
+				"Catchtype": "Normal",
+				"Date": "2025-03-18 15:32:52 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🦀 crab",
+				"Weight in lbs": 0.67,
+				"Catchtype": "Normal",
+				"Date": "2025-05-21 00:51:43 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🦀 crab",
+				"Weight in lbs": 35.87,
+				"Catchtype": "Normal",
+				"Date": "2025-05-09 05:06:10 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🦀 crab",
+				"Weight in lbs": 0.67,
+				"Catchtype": "Normal",
+				"Date": "2025-05-21 00:51:43 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"crocodile 🐊": {
+			"Caught in total": {
+				"Total": 15,
+				"Per chat": {
+					"jellyuh": 15
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 15,
+					"Per chat": {
+						"jellyuh": 15
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 15,
+					"Per chat": {
+						"jellyuh": 15
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🐊 crocodile",
+				"Weight in lbs": 66.19,
+				"Catchtype": "Normal",
+				"Date": "2025-01-07 03:16:16 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🐊 crocodile",
+				"Weight in lbs": 59.22,
+				"Catchtype": "Normal",
+				"Date": "2025-05-31 01:06:22 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🐊 crocodile",
+				"Weight in lbs": 141.35,
+				"Catchtype": "Normal",
+				"Date": "2025-02-27 22:08:19 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🐊 crocodile",
+				"Weight in lbs": 8.58,
+				"Catchtype": "Normal",
+				"Date": "2025-03-18 04:08:23 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"cucumber 🥒": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"jellyuh": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🥒 cucumber",
+				"Weight in lbs": 18.76,
+				"Catchtype": "Normal",
+				"Date": "2025-05-26 19:35:02 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🥒 cucumber",
+				"Weight in lbs": 18.76,
+				"Catchtype": "Normal",
+				"Date": "2025-05-26 19:35:02 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🥒 cucumber",
+				"Weight in lbs": 18.76,
+				"Catchtype": "Normal",
+				"Date": "2025-05-26 19:35:02 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🥒 cucumber",
+				"Weight in lbs": 18.76,
+				"Catchtype": "Normal",
+				"Date": "2025-05-26 19:35:02 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"dagger 🗡️": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"jellyuh": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🗡️ dagger",
+				"Weight in lbs": 1.4,
+				"Catchtype": "Normal",
+				"Date": "2025-03-12 02:52:01 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🗡️ dagger",
+				"Weight in lbs": 1.4,
+				"Catchtype": "Normal",
+				"Date": "2025-03-12 02:52:01 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🗡️ dagger",
+				"Weight in lbs": 1.4,
+				"Catchtype": "Normal",
+				"Date": "2025-03-12 02:52:01 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🗡️ dagger",
+				"Weight in lbs": 1.4,
+				"Catchtype": "Normal",
+				"Date": "2025-03-12 02:52:01 UTC",
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Smallest 🗡️ dagger record in channel jellyuh !"
+				]
+			}
+		},
+		"darksunglasses 🕶️": {
+			"Caught in total": {
+				"Total": 2,
+				"Per chat": {
+					"jellyuh": 2
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 2,
+					"Per chat": {
+						"jellyuh": 2
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 2,
+					"Per chat": {
+						"jellyuh": 2
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🕶️ darksunglasses",
+				"Weight in lbs": 9.56,
+				"Catchtype": "Normal",
+				"Date": "2025-05-01 22:35:28 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🕶️ darksunglasses",
+				"Weight in lbs": 4.63,
+				"Catchtype": "Normal",
+				"Date": "2025-05-10 08:33:50 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🕶️ darksunglasses",
+				"Weight in lbs": 9.56,
+				"Catchtype": "Normal",
+				"Date": "2025-05-01 22:35:28 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🕶️ darksunglasses",
+				"Weight in lbs": 4.63,
+				"Catchtype": "Normal",
+				"Date": "2025-05-10 08:33:50 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"dolphin 🐬": {
+			"Caught in total": {
+				"Total": 10,
+				"Per chat": {
+					"jellyuh": 10
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 10,
+					"Per chat": {
+						"jellyuh": 10
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 10,
+					"Per chat": {
+						"jellyuh": 10
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🐬 dolphin",
+				"Weight in lbs": 82.02,
+				"Catchtype": "Normal",
+				"Date": "2025-02-07 00:05:46 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🐬 dolphin",
+				"Weight in lbs": 82.13,
+				"Catchtype": "Normal",
+				"Date": "2025-05-25 04:48:41 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🐬 dolphin",
+				"Weight in lbs": 82.13,
+				"Catchtype": "Normal",
+				"Date": "2025-05-25 04:48:41 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🐬 dolphin",
+				"Weight in lbs": 6.75,
+				"Catchtype": "Normal",
+				"Date": "2025-04-27 03:10:14 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"dragon 🐉": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"jellyuh": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🐉 dragon",
+				"Weight in lbs": 10.94,
+				"Catchtype": "Normal",
+				"Date": "2025-05-25 01:21:35 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🐉 dragon",
+				"Weight in lbs": 10.94,
+				"Catchtype": "Normal",
+				"Date": "2025-05-25 01:21:35 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🐉 dragon",
+				"Weight in lbs": 10.94,
+				"Catchtype": "Normal",
+				"Date": "2025-05-25 01:21:35 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🐉 dragon",
+				"Weight in lbs": 10.94,
+				"Catchtype": "Normal",
+				"Date": "2025-05-25 01:21:35 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"duck 🦆": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"jellyuh": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🦆 duck",
+				"Weight in lbs": 7.71,
+				"Catchtype": "Normal",
+				"Date": "2025-02-24 08:22:44 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🦆 duck",
+				"Weight in lbs": 7.71,
+				"Catchtype": "Normal",
+				"Date": "2025-02-24 08:22:44 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🦆 duck",
+				"Weight in lbs": 7.71,
+				"Catchtype": "Normal",
+				"Date": "2025-02-24 08:22:44 UTC",
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Biggest 🦆 duck record in channel jellyuh !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "🦆 duck",
+				"Weight in lbs": 7.71,
+				"Catchtype": "Normal",
+				"Date": "2025-02-24 08:22:44 UTC",
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Smallest 🦆 duck record in channel jellyuh !"
+				]
+			}
+		},
+		"fish 🐟": {
+			"Caught in total": {
+				"Total": 27,
+				"Per chat": {
+					"jellyuh": 27
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 27,
+					"Per chat": {
+						"jellyuh": 27
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 27,
+					"Per chat": {
+						"jellyuh": 27
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🐟 fish",
+				"Weight in lbs": 8.75,
+				"Catchtype": "Normal",
+				"Date": "2025-01-09 19:24:07 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🐟 fish",
+				"Weight in lbs": 14.9,
+				"Catchtype": "Normal",
+				"Date": "2025-05-30 18:29:53 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🐟 fish",
+				"Weight in lbs": 29.76,
+				"Catchtype": "Normal",
+				"Date": "2025-03-18 17:48:46 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🐟 fish",
+				"Weight in lbs": 0.21,
+				"Catchtype": "Normal",
+				"Date": "2025-05-16 00:01:52 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"frog 🐸": {
+			"Caught in total": {
+				"Total": 7,
+				"Per chat": {
+					"jellyuh": 7
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 7,
+					"Per chat": {
+						"jellyuh": 7
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 7,
+					"Per chat": {
+						"jellyuh": 7
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🐸 frog",
+				"Weight in lbs": 1.13,
+				"Catchtype": "Normal",
+				"Date": "2025-02-05 00:52:16 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🐸 frog",
+				"Weight in lbs": 0.3,
+				"Catchtype": "Normal",
+				"Date": "2025-05-23 19:31:07 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🐸 frog",
+				"Weight in lbs": 3.76,
+				"Catchtype": "Normal",
+				"Date": "2025-04-18 21:33:28 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🐸 frog",
+				"Weight in lbs": 0.3,
+				"Catchtype": "Normal",
+				"Date": "2025-05-23 19:31:07 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"gloves 🧤": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"jellyuh": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🧤 gloves",
+				"Weight in lbs": 0.29,
+				"Catchtype": "Normal",
+				"Date": "2025-02-25 22:51:52 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🧤 gloves",
+				"Weight in lbs": 0.29,
+				"Catchtype": "Normal",
+				"Date": "2025-02-25 22:51:52 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🧤 gloves",
+				"Weight in lbs": 0.29,
+				"Catchtype": "Normal",
+				"Date": "2025-02-25 22:51:52 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🧤 gloves",
+				"Weight in lbs": 0.29,
+				"Catchtype": "Normal",
+				"Date": "2025-02-25 22:51:52 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"hook 🪝": {
+			"Caught in total": {
+				"Total": 16,
+				"Per chat": {
+					"jellyuh": 16
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 16,
+					"Per chat": {
+						"jellyuh": 16
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 14,
+					"Per chat": {
+						"jellyuh": 14
+					}
+				},
+				"Release bonus": {
+					"Total": 2,
+					"Per chat": {
+						"jellyuh": 2
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🪝 hook",
+				"Weight in lbs": 2.04,
+				"Catchtype": "Normal",
+				"Date": "2025-01-04 02:32:32 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🪝 hook",
+				"Weight in lbs": 0.69,
+				"Catchtype": "Normal",
+				"Date": "2025-05-24 20:02:30 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🪝 hook",
+				"Weight in lbs": 3.86,
+				"Catchtype": "Normal",
+				"Date": "2025-05-13 22:10:17 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🪝 hook",
+				"Weight in lbs": 0.15,
+				"Catchtype": "Normal",
+				"Date": "2025-05-23 07:38:44 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"icecube 🧊": {
+			"Caught in total": {
+				"Total": 2,
+				"Per chat": {
+					"jellyuh": 2
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 2,
+					"Per chat": {
+						"jellyuh": 2
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 2,
+					"Per chat": {
+						"jellyuh": 2
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🧊 icecube",
+				"Weight in lbs": 5.02,
+				"Catchtype": "Normal",
+				"Date": "2025-02-07 03:25:57 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🧊 icecube",
+				"Weight in lbs": 9.3,
+				"Catchtype": "Normal",
+				"Date": "2025-02-24 17:25:34 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🧊 icecube",
+				"Weight in lbs": 9.3,
+				"Catchtype": "Normal",
+				"Date": "2025-02-24 17:25:34 UTC",
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Biggest 🧊 icecube record in channel jellyuh !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "🧊 icecube",
+				"Weight in lbs": 5.02,
+				"Catchtype": "Normal",
+				"Date": "2025-02-07 03:25:57 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"iphone 📱": {
+			"Caught in total": {
+				"Total": 2,
+				"Per chat": {
+					"jellyuh": 2
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 2,
+					"Per chat": {
+						"jellyuh": 2
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 2,
+					"Per chat": {
+						"jellyuh": 2
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "📱 iphone",
+				"Weight in lbs": 7.81,
+				"Catchtype": "Normal",
+				"Date": "2025-03-15 18:18:18 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "📱 iphone",
+				"Weight in lbs": 10.59,
+				"Catchtype": "Normal",
+				"Date": "2025-03-16 00:27:44 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "📱 iphone",
+				"Weight in lbs": 10.59,
+				"Catchtype": "Normal",
+				"Date": "2025-03-16 00:27:44 UTC",
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Biggest 📱 iphone record in channel jellyuh !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "📱 iphone",
+				"Weight in lbs": 7.81,
+				"Catchtype": "Normal",
+				"Date": "2025-03-15 18:18:18 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"lobster 🦞": {
+			"Caught in total": {
+				"Total": 14,
+				"Per chat": {
+					"jellyuh": 14
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 14,
+					"Per chat": {
+						"jellyuh": 14
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 14,
+					"Per chat": {
+						"jellyuh": 14
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🦞 lobster",
+				"Weight in lbs": 43.29,
+				"Catchtype": "Normal",
+				"Date": "2025-01-07 04:07:04 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🦞 lobster",
+				"Weight in lbs": 35.5,
+				"Catchtype": "Normal",
+				"Date": "2025-05-25 03:14:48 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🦞 lobster",
+				"Weight in lbs": 59.56,
+				"Catchtype": "Normal",
+				"Date": "2025-03-03 01:12:27 UTC",
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Biggest 🦞 lobster record in channel jellyuh !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "🦞 lobster",
+				"Weight in lbs": 2.44,
+				"Catchtype": "Normal",
+				"Date": "2025-02-17 04:40:19 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"lure 🎏": {
+			"Caught in total": {
+				"Total": 15,
+				"Per chat": {
+					"jellyuh": 15
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 15,
+					"Per chat": {
+						"jellyuh": 15
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 14,
+					"Per chat": {
+						"jellyuh": 14
+					}
+				},
+				"Release bonus": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🎏 lure",
+				"Weight in lbs": 0.61,
+				"Catchtype": "Normal",
+				"Date": "2025-01-04 05:44:39 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🎏 lure",
+				"Weight in lbs": 0.19,
+				"Catchtype": "Normal",
+				"Date": "2025-05-31 19:44:45 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🎏 lure",
+				"Weight in lbs": 3.78,
+				"Catchtype": "Normal",
+				"Date": "2025-04-23 02:30:19 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🎏 lure",
+				"Weight in lbs": 0.16,
+				"Catchtype": "Normal",
+				"Date": "2025-03-31 00:28:30 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"moose 🫎": {
+			"Caught in total": {
+				"Total": 2,
+				"Per chat": {
+					"jellyuh": 2
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 2,
+					"Per chat": {
+						"jellyuh": 2
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 2,
+					"Per chat": {
+						"jellyuh": 2
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🫎 moose",
+				"Weight in lbs": 37.78,
+				"Catchtype": "Normal",
+				"Date": "2025-03-17 19:17:58 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🫎 moose",
+				"Weight in lbs": 26.84,
+				"Catchtype": "Normal",
+				"Date": "2025-03-17 19:54:46 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🫎 moose",
+				"Weight in lbs": 37.78,
+				"Catchtype": "Normal",
+				"Date": "2025-03-17 19:17:58 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🫎 moose",
+				"Weight in lbs": 26.84,
+				"Catchtype": "Normal",
+				"Date": "2025-03-17 19:54:46 UTC",
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Smallest 🫎 moose record in channel jellyuh !"
+				]
+			}
+		},
+		"mushroom 🍄": {
+			"Caught in total": {
+				"Total": 2,
+				"Per chat": {
+					"jellyuh": 2
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 2,
+					"Per chat": {
+						"jellyuh": 2
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 2,
+					"Per chat": {
+						"jellyuh": 2
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🍄 mushroom",
+				"Weight in lbs": 15.4,
+				"Catchtype": "Normal",
+				"Date": "2025-02-19 05:10:19 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🍄 mushroom",
+				"Weight in lbs": 15.62,
+				"Catchtype": "Normal",
+				"Date": "2025-02-28 17:02:14 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🍄 mushroom",
+				"Weight in lbs": 15.62,
+				"Catchtype": "Normal",
+				"Date": "2025-02-28 17:02:14 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🍄 mushroom",
+				"Weight in lbs": 15.4,
+				"Catchtype": "Normal",
+				"Date": "2025-02-19 05:10:19 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"octopus 🐙": {
+			"Caught in total": {
+				"Total": 11,
+				"Per chat": {
+					"jellyuh": 11
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 11,
+					"Per chat": {
+						"jellyuh": 11
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 11,
+					"Per chat": {
+						"jellyuh": 11
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🐙 octopus",
+				"Weight in lbs": 40.73,
+				"Catchtype": "Normal",
+				"Date": "2025-01-06 02:14:33 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🐙 octopus",
+				"Weight in lbs": 0.45,
+				"Catchtype": "Normal",
+				"Date": "2025-05-31 21:47:34 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🐙 octopus",
+				"Weight in lbs": 118.72,
+				"Catchtype": "Normal",
+				"Date": "2025-04-05 02:35:19 UTC",
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Biggest 🐙 octopus record in channel jellyuh !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "🐙 octopus",
+				"Weight in lbs": 0.45,
+				"Catchtype": "Normal",
+				"Date": "2025-05-31 21:47:34 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"otter 🦦": {
+			"Caught in total": {
+				"Total": 3,
+				"Per chat": {
+					"jellyuh": 3
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 3,
+					"Per chat": {
+						"jellyuh": 3
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 3,
+					"Per chat": {
+						"jellyuh": 3
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🦦 otter",
+				"Weight in lbs": 11.67,
+				"Catchtype": "Normal",
+				"Date": "2025-01-25 23:50:51 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🦦 otter",
+				"Weight in lbs": 5.77,
+				"Catchtype": "Normal",
+				"Date": "2025-02-24 07:50:40 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🦦 otter",
+				"Weight in lbs": 11.67,
+				"Catchtype": "Normal",
+				"Date": "2025-01-25 23:50:51 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🦦 otter",
+				"Weight in lbs": 2.73,
+				"Catchtype": "Normal",
+				"Date": "2025-02-24 01:18:22 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"oyster 🦪": {
+			"Caught in total": {
+				"Total": 4,
+				"Per chat": {
+					"jellyuh": 4
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 4,
+					"Per chat": {
+						"jellyuh": 4
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 4,
+					"Per chat": {
+						"jellyuh": 4
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🦪 oyster",
+				"Weight in lbs": 1.87,
+				"Catchtype": "Normal",
+				"Date": "2025-03-20 01:07:31 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🦪 oyster",
+				"Weight in lbs": 16.96,
+				"Catchtype": "Normal",
+				"Date": "2025-04-27 19:15:46 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🦪 oyster",
+				"Weight in lbs": 16.96,
+				"Catchtype": "Normal",
+				"Date": "2025-04-27 19:15:46 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🦪 oyster",
+				"Weight in lbs": 1.87,
+				"Catchtype": "Normal",
+				"Date": "2025-03-20 01:07:31 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"plankton 🦠": {
+			"Caught in total": {
+				"Total": 4,
+				"Per chat": {
+					"jellyuh": 4
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 4,
+					"Per chat": {
+						"jellyuh": 4
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 4,
+					"Per chat": {
+						"jellyuh": 4
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🦠 plankton",
+				"Weight in lbs": 2.07,
+				"Catchtype": "Normal",
+				"Date": "2025-02-06 03:46:41 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🦠 plankton",
+				"Weight in lbs": 16.87,
+				"Catchtype": "Normal",
+				"Date": "2025-03-11 01:08:05 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🦠 plankton",
+				"Weight in lbs": 21.03,
+				"Catchtype": "Normal",
+				"Date": "2025-02-25 05:17:44 UTC",
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Biggest 🦠 plankton record in channel jellyuh !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "🦠 plankton",
+				"Weight in lbs": 2.07,
+				"Catchtype": "Normal",
+				"Date": "2025-02-06 03:46:41 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"rock 🪨": {
+			"Caught in total": {
+				"Total": 6,
+				"Per chat": {
+					"jellyuh": 6
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 6,
+					"Per chat": {
+						"jellyuh": 6
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 6,
+					"Per chat": {
+						"jellyuh": 6
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🪨 rock",
+				"Weight in lbs": 11.97,
+				"Catchtype": "Normal",
+				"Date": "2025-03-12 03:47:34 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🪨 rock",
+				"Weight in lbs": 25.63,
+				"Catchtype": "Normal",
+				"Date": "2025-05-08 04:11:11 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🪨 rock",
+				"Weight in lbs": 38.95,
+				"Catchtype": "Normal",
+				"Date": "2025-04-03 23:05:25 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🪨 rock",
+				"Weight in lbs": 3.55,
+				"Catchtype": "Normal",
+				"Date": "2025-04-03 03:36:41 UTC",
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Smallest 🪨 rock record in channel jellyuh !"
+				]
+			}
+		},
+		"sandal 👡": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"jellyuh": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "👡 sandal",
+				"Weight in lbs": 0.91,
+				"Catchtype": "Normal",
+				"Date": "2025-04-15 02:59:56 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "👡 sandal",
+				"Weight in lbs": 0.91,
+				"Catchtype": "Normal",
+				"Date": "2025-04-15 02:59:56 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "👡 sandal",
+				"Weight in lbs": 0.91,
+				"Catchtype": "Normal",
+				"Date": "2025-04-15 02:59:56 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "👡 sandal",
+				"Weight in lbs": 0.91,
+				"Catchtype": "Normal",
+				"Date": "2025-04-15 02:59:56 UTC",
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Smallest 👡 sandal record in channel jellyuh !"
+				]
+			}
+		},
+		"sandwich 🥪": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"jellyuh": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🥪 sandwich",
+				"Weight in lbs": 1.48,
+				"Catchtype": "Normal",
+				"Date": "2025-05-17 18:51:56 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🥪 sandwich",
+				"Weight in lbs": 1.48,
+				"Catchtype": "Normal",
+				"Date": "2025-05-17 18:51:56 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🥪 sandwich",
+				"Weight in lbs": 1.48,
+				"Catchtype": "Normal",
+				"Date": "2025-05-17 18:51:56 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🥪 sandwich",
+				"Weight in lbs": 1.48,
+				"Catchtype": "Normal",
+				"Date": "2025-05-17 18:51:56 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"sauropod 🦕": {
+			"Caught in total": {
+				"Total": 2,
+				"Per chat": {
+					"jellyuh": 2
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 2,
+					"Per chat": {
+						"jellyuh": 2
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 2,
+					"Per chat": {
+						"jellyuh": 2
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🦕 sauropod",
+				"Weight in lbs": 106.09,
+				"Catchtype": "Normal",
+				"Date": "2025-05-13 02:56:25 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🦕 sauropod",
+				"Weight in lbs": 88.3,
+				"Catchtype": "Normal",
+				"Date": "2025-05-31 23:01:19 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🦕 sauropod",
+				"Weight in lbs": 106.09,
+				"Catchtype": "Normal",
+				"Date": "2025-05-13 02:56:25 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🦕 sauropod",
+				"Weight in lbs": 88.3,
+				"Catchtype": "Normal",
+				"Date": "2025-05-31 23:01:19 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"seal 🦭": {
+			"Caught in total": {
+				"Total": 2,
+				"Per chat": {
+					"jellyuh": 2
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 2,
+					"Per chat": {
+						"jellyuh": 2
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 2,
+					"Per chat": {
+						"jellyuh": 2
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🦭 seal",
+				"Weight in lbs": 32.72,
+				"Catchtype": "Normal",
+				"Date": "2025-02-25 03:58:30 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🦭 seal",
+				"Weight in lbs": 0.87,
+				"Catchtype": "Normal",
+				"Date": "2025-03-19 14:41:58 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🦭 seal",
+				"Weight in lbs": 32.72,
+				"Catchtype": "Normal",
+				"Date": "2025-02-25 03:58:30 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🦭 seal",
+				"Weight in lbs": 0.87,
+				"Catchtype": "Normal",
+				"Date": "2025-03-19 14:41:58 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"seaweed 🌿": {
+			"Caught in total": {
+				"Total": 2,
+				"Per chat": {
+					"jellyuh": 2
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 2,
+					"Per chat": {
+						"jellyuh": 2
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 2,
+					"Per chat": {
+						"jellyuh": 2
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🌿 seaweed",
+				"Weight in lbs": 0.86,
+				"Catchtype": "Normal",
+				"Date": "2025-05-16 22:37:52 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🌿 seaweed",
+				"Weight in lbs": 0.08,
+				"Catchtype": "Normal",
+				"Date": "2025-05-24 14:49:13 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🌿 seaweed",
+				"Weight in lbs": 0.86,
+				"Catchtype": "Normal",
+				"Date": "2025-05-16 22:37:52 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🌿 seaweed",
+				"Weight in lbs": 0.08,
+				"Catchtype": "Normal",
+				"Date": "2025-05-24 14:49:13 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"shark 🦈": {
+			"Caught in total": {
+				"Total": 4,
+				"Per chat": {
+					"jellyuh": 4
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 4,
+					"Per chat": {
+						"jellyuh": 4
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 4,
+					"Per chat": {
+						"jellyuh": 4
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🦈 shark",
+				"Weight in lbs": 19.07,
+				"Catchtype": "Normal",
+				"Date": "2025-03-19 16:27:32 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🦈 shark",
+				"Weight in lbs": 2.91,
+				"Catchtype": "Normal",
+				"Date": "2025-04-25 22:57:11 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🦈 shark",
+				"Weight in lbs": 196.64,
+				"Catchtype": "Normal",
+				"Date": "2025-03-25 00:46:13 UTC",
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Biggest 🦈 shark record in channel jellyuh !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "🦈 shark",
+				"Weight in lbs": 2.91,
+				"Catchtype": "Normal",
+				"Date": "2025-04-25 22:57:11 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"shell 🐚": {
+			"Caught in total": {
+				"Total": 24,
+				"Per chat": {
+					"jellyuh": 24
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 24,
+					"Per chat": {
+						"jellyuh": 24
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 24,
+					"Per chat": {
+						"jellyuh": 24
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🐚 shell",
+				"Weight in lbs": 0.25,
+				"Catchtype": "Normal",
+				"Date": "2025-01-25 18:14:01 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🐚 shell",
+				"Weight in lbs": 3.78,
+				"Catchtype": "Normal",
+				"Date": "2025-05-22 23:54:51 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🐚 shell",
+				"Weight in lbs": 5.55,
+				"Catchtype": "Normal",
+				"Date": "2025-04-16 01:35:35 UTC",
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Biggest 🐚 shell record in channel jellyuh !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "🐚 shell",
+				"Weight in lbs": 0.16,
+				"Catchtype": "Normal",
+				"Date": "2025-05-08 18:29:44 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"shoppingcart 🛒": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"jellyuh": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🛒 shoppingcart",
+				"Weight in lbs": 60.16,
+				"Catchtype": "Normal",
+				"Date": "2025-05-02 16:58:31 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🛒 shoppingcart",
+				"Weight in lbs": 60.16,
+				"Catchtype": "Normal",
+				"Date": "2025-05-02 16:58:31 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🛒 shoppingcart",
+				"Weight in lbs": 60.16,
+				"Catchtype": "Normal",
+				"Date": "2025-05-02 16:58:31 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🛒 shoppingcart",
+				"Weight in lbs": 60.16,
+				"Catchtype": "Normal",
+				"Date": "2025-05-02 16:58:31 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"shrimp 🦐": {
+			"Caught in total": {
+				"Total": 8,
+				"Per chat": {
+					"jellyuh": 8
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 8,
+					"Per chat": {
+						"jellyuh": 8
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 8,
+					"Per chat": {
+						"jellyuh": 8
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🦐 shrimp",
+				"Weight in lbs": 27.13,
+				"Catchtype": "Normal",
+				"Date": "2025-01-08 18:56:43 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🦐 shrimp",
+				"Weight in lbs": 26.87,
+				"Catchtype": "Normal",
+				"Date": "2025-05-31 02:24:06 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🦐 shrimp",
+				"Weight in lbs": 30.77,
+				"Catchtype": "Normal",
+				"Date": "2025-05-21 03:13:07 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🦐 shrimp",
+				"Weight in lbs": 2.51,
+				"Catchtype": "Normal",
+				"Date": "2025-03-04 03:28:51 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"skull 💀": {
+			"Caught in total": {
+				"Total": 5,
+				"Per chat": {
+					"jellyuh": 5
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 5,
+					"Per chat": {
+						"jellyuh": 5
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 5,
+					"Per chat": {
+						"jellyuh": 5
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "💀 skull",
+				"Weight in lbs": 7.46,
+				"Catchtype": "Normal",
+				"Date": "2025-02-27 18:49:58 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "💀 skull",
+				"Weight in lbs": 1.61,
+				"Catchtype": "Normal",
+				"Date": "2025-05-19 15:42:48 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "💀 skull",
+				"Weight in lbs": 9.21,
+				"Catchtype": "Normal",
+				"Date": "2025-05-16 05:35:30 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "💀 skull",
+				"Weight in lbs": 1.25,
+				"Catchtype": "Normal",
+				"Date": "2025-03-25 03:51:09 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"snail 🐌": {
+			"Caught in total": {
+				"Total": 8,
+				"Per chat": {
+					"jellyuh": 8
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 8,
+					"Per chat": {
+						"jellyuh": 8
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 8,
+					"Per chat": {
+						"jellyuh": 8
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🐌 snail",
+				"Weight in lbs": 0.13,
+				"Catchtype": "Normal",
+				"Date": "2025-03-02 02:36:51 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🐌 snail",
+				"Weight in lbs": 1.42,
+				"Catchtype": "Normal",
+				"Date": "2025-05-17 23:19:13 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🐌 snail",
+				"Weight in lbs": 11.3,
+				"Catchtype": "Normal",
+				"Date": "2025-04-06 18:41:03 UTC",
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Biggest 🐌 snail record in channel jellyuh !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "🐌 snail",
+				"Weight in lbs": 0.13,
+				"Catchtype": "Normal",
+				"Date": "2025-03-02 02:36:51 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"snake 🐍": {
+			"Caught in total": {
+				"Total": 2,
+				"Per chat": {
+					"jellyuh": 2
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 2,
+					"Per chat": {
+						"jellyuh": 2
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 2,
+					"Per chat": {
+						"jellyuh": 2
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🐍 snake",
+				"Weight in lbs": 13.58,
+				"Catchtype": "Normal",
+				"Date": "2025-03-09 03:28:36 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🐍 snake",
+				"Weight in lbs": 0.23,
+				"Catchtype": "Normal",
+				"Date": "2025-03-17 17:09:44 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🐍 snake",
+				"Weight in lbs": 13.58,
+				"Catchtype": "Normal",
+				"Date": "2025-03-09 03:28:36 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🐍 snake",
+				"Weight in lbs": 0.23,
+				"Catchtype": "Normal",
+				"Date": "2025-03-17 17:09:44 UTC",
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Smallest 🐍 snake record in channel jellyuh !"
+				]
+			}
+		},
+		"socks 🧦": {
+			"Caught in total": {
+				"Total": 8,
+				"Per chat": {
+					"jellyuh": 8
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 8,
+					"Per chat": {
+						"jellyuh": 8
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 8,
+					"Per chat": {
+						"jellyuh": 8
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🧦 socks",
+				"Weight in lbs": 1.92,
+				"Catchtype": "Normal",
+				"Date": "2025-02-26 06:14:53 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🧦 socks",
+				"Weight in lbs": 0.52,
+				"Catchtype": "Normal",
+				"Date": "2025-04-14 04:01:40 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🧦 socks",
+				"Weight in lbs": 1.92,
+				"Catchtype": "Normal",
+				"Date": "2025-02-26 06:14:53 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🧦 socks",
+				"Weight in lbs": 0.3,
+				"Catchtype": "Normal",
+				"Date": "2025-03-15 01:31:57 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"spider 🕷️": {
+			"Caught in total": {
+				"Total": 8,
+				"Per chat": {
+					"jellyuh": 8
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 8,
+					"Per chat": {
+						"jellyuh": 8
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 8,
+					"Per chat": {
+						"jellyuh": 8
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🕷️ spider",
+				"Weight in lbs": 19.95,
+				"Catchtype": "Normal",
+				"Date": "2025-01-29 09:22:19 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🕷️ spider",
+				"Weight in lbs": 1.35,
+				"Catchtype": "Normal",
+				"Date": "2025-03-22 04:26:06 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🕷️ spider",
+				"Weight in lbs": 19.95,
+				"Catchtype": "Normal",
+				"Date": "2025-01-29 09:22:19 UTC",
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Biggest 🕷️ spider record in channel jellyuh !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "🕷️ spider",
+				"Weight in lbs": 1.35,
+				"Catchtype": "Normal",
+				"Date": "2025-03-22 04:26:06 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"sponge 🧽": {
+			"Caught in total": {
+				"Total": 2,
+				"Per chat": {
+					"jellyuh": 2
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 2,
+					"Per chat": {
+						"jellyuh": 2
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 2,
+					"Per chat": {
+						"jellyuh": 2
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🧽 sponge",
+				"Weight in lbs": 0.42,
+				"Catchtype": "Normal",
+				"Date": "2025-05-14 23:03:07 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🧽 sponge",
+				"Weight in lbs": 4.71,
+				"Catchtype": "Normal",
+				"Date": "2025-05-19 03:23:56 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🧽 sponge",
+				"Weight in lbs": 4.71,
+				"Catchtype": "Normal",
+				"Date": "2025-05-19 03:23:56 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🧽 sponge",
+				"Weight in lbs": 0.42,
+				"Catchtype": "Normal",
+				"Date": "2025-05-14 23:03:07 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"squid 🦑": {
+			"Caught in total": {
+				"Total": 13,
+				"Per chat": {
+					"jellyuh": 13
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 13,
+					"Per chat": {
+						"jellyuh": 13
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 13,
+					"Per chat": {
+						"jellyuh": 13
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🦑 squid",
+				"Weight in lbs": 49.87,
+				"Catchtype": "Normal",
+				"Date": "2025-01-06 15:07:19 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🦑 squid",
+				"Weight in lbs": 28.79,
+				"Catchtype": "Normal",
+				"Date": "2025-05-30 15:17:21 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🦑 squid",
+				"Weight in lbs": 233.06,
+				"Catchtype": "Normal",
+				"Date": "2025-03-21 21:43:22 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🦑 squid",
+				"Weight in lbs": 4.58,
+				"Catchtype": "Normal",
+				"Date": "2025-04-04 00:25:33 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"teddybear 🧸": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"jellyuh": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🧸 teddybear",
+				"Weight in lbs": 2.37,
+				"Catchtype": "Normal",
+				"Date": "2025-02-28 00:29:01 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🧸 teddybear",
+				"Weight in lbs": 2.37,
+				"Catchtype": "Normal",
+				"Date": "2025-02-28 00:29:01 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🧸 teddybear",
+				"Weight in lbs": 2.37,
+				"Catchtype": "Normal",
+				"Date": "2025-02-28 00:29:01 UTC",
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Biggest 🧸 teddybear record in channel jellyuh !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "🧸 teddybear",
+				"Weight in lbs": 2.37,
+				"Catchtype": "Normal",
+				"Date": "2025-02-28 00:29:01 UTC",
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Smallest 🧸 teddybear record in channel jellyuh !"
+				]
+			}
+		},
+		"tropicalfish 🐠": {
+			"Caught in total": {
+				"Total": 5,
+				"Per chat": {
+					"jellyuh": 5
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 5,
+					"Per chat": {
+						"jellyuh": 5
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 5,
+					"Per chat": {
+						"jellyuh": 5
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🐠 tropicalfish",
+				"Weight in lbs": 17.4,
+				"Catchtype": "Normal",
+				"Date": "2025-03-04 05:00:41 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🐠 tropicalfish",
+				"Weight in lbs": 10.54,
+				"Catchtype": "Normal",
+				"Date": "2025-03-21 05:17:45 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🐠 tropicalfish",
+				"Weight in lbs": 21.61,
+				"Catchtype": "Normal",
+				"Date": "2025-03-11 21:19:37 UTC",
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Biggest 🐠 tropicalfish record in channel jellyuh !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "🐠 tropicalfish",
+				"Weight in lbs": 10.54,
+				"Catchtype": "Normal",
+				"Date": "2025-03-21 05:17:45 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"turtle 🐢": {
+			"Caught in total": {
+				"Total": 8,
+				"Per chat": {
+					"jellyuh": 8
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 8,
+					"Per chat": {
+						"jellyuh": 8
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 8,
+					"Per chat": {
+						"jellyuh": 8
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🐢 turtle",
+				"Weight in lbs": 3.95,
+				"Catchtype": "Normal",
+				"Date": "2025-02-17 15:46:06 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🐢 turtle",
+				"Weight in lbs": 53.33,
+				"Catchtype": "Normal",
+				"Date": "2025-05-11 02:47:06 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🐢 turtle",
+				"Weight in lbs": 53.33,
+				"Catchtype": "Normal",
+				"Date": "2025-05-11 02:47:06 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🐢 turtle",
+				"Weight in lbs": 3.95,
+				"Catchtype": "Normal",
+				"Date": "2025-02-17 15:46:06 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"whale 🐳": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"jellyuh": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🐳 whale",
+				"Weight in lbs": 56.64,
+				"Catchtype": "Normal",
+				"Date": "2025-05-12 19:42:52 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🐳 whale",
+				"Weight in lbs": 56.64,
+				"Catchtype": "Normal",
+				"Date": "2025-05-12 19:42:52 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🐳 whale",
+				"Weight in lbs": 56.64,
+				"Catchtype": "Normal",
+				"Date": "2025-05-12 19:42:52 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🐳 whale",
+				"Weight in lbs": 56.64,
+				"Catchtype": "Normal",
+				"Date": "2025-05-12 19:42:52 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"whale2 🐋": {
+			"Caught in total": {
+				"Total": 7,
+				"Per chat": {
+					"jellyuh": 7
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 7,
+					"Per chat": {
+						"jellyuh": 7
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 7,
+					"Per chat": {
+						"jellyuh": 7
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🐋 whale2",
+				"Weight in lbs": 18.69,
+				"Catchtype": "Normal",
+				"Date": "2025-01-06 19:11:11 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🐋 whale2",
+				"Weight in lbs": 35.79,
+				"Catchtype": "Normal",
+				"Date": "2025-05-29 01:08:48 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🐋 whale2",
+				"Weight in lbs": 105.05,
+				"Catchtype": "Normal",
+				"Date": "2025-04-01 03:17:43 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🐋 whale2",
+				"Weight in lbs": 1.45,
+				"Catchtype": "Normal",
+				"Date": "2025-01-06 20:19:03 UTC",
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Smallest 🐋 whale2 record in channel jellyuh !"
+				]
+			}
+		},
+		"wireline 🧵": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"jellyuh": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🧵 wireline",
+				"Weight in lbs": 0.92,
+				"Catchtype": "Normal",
+				"Date": "2025-03-14 06:21:46 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🧵 wireline",
+				"Weight in lbs": 0.92,
+				"Catchtype": "Normal",
+				"Date": "2025-03-14 06:21:46 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🧵 wireline",
+				"Weight in lbs": 0.92,
+				"Catchtype": "Normal",
+				"Date": "2025-03-14 06:21:46 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🧵 wireline",
+				"Weight in lbs": 0.92,
+				"Catchtype": "Normal",
+				"Date": "2025-03-14 06:21:46 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"womanshat 👒": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"jellyuh": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "👒 womanshat",
+				"Weight in lbs": 9.46,
+				"Catchtype": "Normal",
+				"Date": "2025-01-25 17:36:59 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "👒 womanshat",
+				"Weight in lbs": 9.46,
+				"Catchtype": "Normal",
+				"Date": "2025-01-25 17:36:59 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "👒 womanshat",
+				"Weight in lbs": 9.46,
+				"Catchtype": "Normal",
+				"Date": "2025-01-25 17:36:59 UTC",
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Biggest 👒 womanshat record in channel jellyuh !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "👒 womanshat",
+				"Weight in lbs": 9.46,
+				"Catchtype": "Normal",
+				"Date": "2025-01-25 17:36:59 UTC",
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Smallest 👒 womanshat record in channel jellyuh !"
+				]
+			}
+		},
+		"worm 🪱": {
+			"Caught in total": {
+				"Total": 3,
+				"Per chat": {
+					"jellyuh": 3
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 3,
+					"Per chat": {
+						"jellyuh": 3
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 3,
+					"Per chat": {
+						"jellyuh": 3
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🪱 worm",
+				"Weight in lbs": 5.55,
+				"Catchtype": "Normal",
+				"Date": "2025-02-18 00:58:11 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🪱 worm",
+				"Weight in lbs": 2.46,
+				"Catchtype": "Normal",
+				"Date": "2025-03-29 03:52:20 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🪱 worm",
+				"Weight in lbs": 5.55,
+				"Catchtype": "Normal",
+				"Date": "2025-02-18 00:58:11 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🪱 worm",
+				"Weight in lbs": 1.09,
+				"Catchtype": "Normal",
+				"Date": "2025-02-28 15:11:13 UTC",
+				"Chat": "jellyuh"
+			}
+		},
+		"zombie 🧟": {
+			"Caught in total": {
+				"Total": 2,
+				"Per chat": {
+					"jellyuh": 2
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 2,
+					"Per chat": {
+						"jellyuh": 2
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 2,
+					"Per chat": {
+						"jellyuh": 2
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🧟 zombie",
+				"Weight in lbs": 83.97,
+				"Catchtype": "Normal",
+				"Date": "2025-01-25 05:40:47 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🧟 zombie",
+				"Weight in lbs": 49.41,
+				"Catchtype": "Normal",
+				"Date": "2025-01-25 17:01:30 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🧟 zombie",
+				"Weight in lbs": 83.97,
+				"Catchtype": "Normal",
+				"Date": "2025-01-25 05:40:47 UTC",
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Biggest 🧟 zombie record in channel jellyuh !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "🧟 zombie",
+				"Weight in lbs": 49.41,
+				"Catchtype": "Normal",
+				"Date": "2025-01-25 17:01:30 UTC",
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Smallest 🧟 zombie record in channel jellyuh !"
+				]
+			}
+		}
+	},
+	"Fish they never saw": [
+		"acorn 🌰",
+		"athleticshoe 👟",
+		"bat 🦇",
+		"beaver 🦫",
+		"beveragebox 🧃",
+		"bird 🐦",
+		"blackbird 🐦‍⬛",
+		"blackcat 🐈‍⬛",
+		"boot 👢",
+		"carpentrysaw 🪚",
+		"coat 🧥",
+		"compass 🧭",
+		"crown 👑",
+		"emptynest 🪹",
+		"feather 🪶",
+		"goose 🪿",
+		"grass 🌾",
+		"iceskate ⛸️",
+		"jellyfish 🪼",
+		"leaf 🍃",
+		"lizard 🦎",
+		"log 🪵",
+		"malegenie 🧞‍♂",
+		"mapleleaf 🍁",
+		"mermaid 🧜‍♀️",
+		"nestwitheggs 🪺",
+		"oildrum 🛢️",
+		"owl 🦉",
+		"penguin 🐧",
+		"polarbear 🐻‍❄",
+		"rat 🐀",
+		"rose 🌹",
+		"scarf 🧣",
+		"shamrock ☘️",
+		"slotmachine 🎰",
+		"squirrel 🐿️",
+		"sunflower 🌻",
+		"swan 🦢",
+		"thongsandal 🩴",
+		"tulip 🌷",
+		"umbrella ☂️",
+		"wiltedflower 🥀"
+	],
+	"Total fish not seen": 42,
+	"Some info": [
+		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
+		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
+		"The records at the top and the records per fish type will only show records from channels which have their own leaderboards.",
+		"The players biggest or smallest catch of a fish type can be nothing, if the player only caught the fish through catches which do not show the weight in the catch message.",
+		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
+		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
+	],
+	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+}

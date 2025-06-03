@@ -16,9 +16,9 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 2591,
+		"Total": 2673,
 		"Per chat": {
-			"omie": 2579,
+			"omie": 2661,
 			"vaiastol": 12
 		}
 	},
@@ -30,9 +30,9 @@
 			}
 		},
 		"2025": {
-			"Total": 1649,
+			"Total": 1731,
 			"Per chat": {
-				"omie": 1637,
+				"omie": 1719,
 				"vaiastol": 12
 			}
 		}
@@ -51,15 +51,15 @@
 			}
 		},
 		"Mouth bonus": {
-			"Total": 27,
+			"Total": 28,
 			"Per chat": {
-				"omie": 27
+				"omie": 28
 			}
 		},
 		"Normal": {
-			"Total": 2459,
+			"Total": 2540,
 			"Per chat": {
-				"omie": 2447,
+				"omie": 2528,
 				"vaiastol": 12
 			}
 		},
@@ -89,9 +89,9 @@
 	"Their last fish per chat": {
 		"omie": {
 			"Fish": "🐬 dolphin",
-			"Weight in lbs": 71.58,
+			"Weight in lbs": 74.81,
 			"Catchtype": "Normal",
-			"Date": "2025-05-17 23:24:42 UTC",
+			"Date": "2025-05-31 05:16:34 UTC",
 			"Chat": "omie"
 		},
 		"vaiastol": {
@@ -193,72 +193,72 @@
 	"Their overall last fish": [
 		{
 			"Fish": "🐬 dolphin",
-			"Weight in lbs": 71.58,
+			"Weight in lbs": 74.81,
 			"Catchtype": "Normal",
-			"Date": "2025-05-17 23:24:42 UTC",
+			"Date": "2025-05-31 05:16:34 UTC",
 			"Chat": "omie"
 		},
 		{
-			"Fish": "🦈 shark",
-			"Weight in lbs": 49.76,
+			"Fish": "🦀 crab",
+			"Weight in lbs": 6.23,
 			"Catchtype": "Normal",
-			"Date": "2025-05-17 22:07:49 UTC",
-			"Chat": "omie"
-		},
-		{
-			"Fish": "🐟 fish",
-			"Weight in lbs": 2.25,
-			"Catchtype": "Normal",
-			"Date": "2025-05-17 21:16:06 UTC",
-			"Chat": "omie"
-		},
-		{
-			"Fish": "🐢 turtle",
-			"Weight in lbs": 19.93,
-			"Catchtype": "Normal",
-			"Date": "2025-05-17 20:02:19 UTC",
-			"Chat": "omie"
-		},
-		{
-			"Fish": "🐚 shell",
-			"Weight in lbs": 0.73,
-			"Catchtype": "Normal",
-			"Date": "2025-05-17 18:53:01 UTC",
-			"Chat": "omie"
-		},
-		{
-			"Fish": "🦪 oyster",
-			"Weight in lbs": 4.9,
-			"Catchtype": "Normal",
-			"Date": "2025-05-17 10:01:08 UTC",
+			"Date": "2025-05-31 04:02:28 UTC",
 			"Chat": "omie"
 		},
 		{
 			"Fish": "🦐 shrimp",
-			"Weight in lbs": 15.11,
+			"Weight in lbs": 7.01,
 			"Catchtype": "Normal",
-			"Date": "2025-05-17 06:58:02 UTC",
+			"Date": "2025-05-30 16:22:19 UTC",
 			"Chat": "omie"
 		},
 		{
-			"Fish": "🐊 crocodile",
-			"Weight in lbs": 84.63,
+			"Fish": "🍄‍🟫 brownmushroom",
+			"Weight in lbs": 10.89,
 			"Catchtype": "Normal",
-			"Date": "2025-05-17 04:40:12 UTC",
+			"Date": "2025-05-30 15:28:48 UTC",
 			"Chat": "omie"
 		},
 		{
-			"Fish": "🐋 whale2",
-			"Weight in lbs": 64.58,
-			"Catchtype": "Normal",
-			"Date": "2025-05-17 03:20:45 UTC",
+			"Fish": "🐟 fish",
+			"Weight in lbs": 0.1,
+			"Catchtype": "Mouth bonus",
+			"Date": "2025-05-30 15:28:48 UTC",
 			"Chat": "omie"
 		},
 		{
-			"Fish": "🐬 dolphin",
-			"Weight in lbs": 42.57,
+			"Fish": "🐌 snail",
+			"Weight in lbs": 1.4,
 			"Catchtype": "Normal",
-			"Date": "2025-05-17 01:44:35 UTC",
+			"Date": "2025-05-30 12:30:33 UTC",
+			"Chat": "omie"
+		},
+		{
+			"Fish": "🪝 hook",
+			"Weight in lbs": 2.16,
+			"Catchtype": "Normal",
+			"Date": "2025-05-30 03:15:24 UTC",
+			"Chat": "omie"
+		},
+		{
+			"Fish": "🐌 snail",
+			"Weight in lbs": 1.74,
+			"Catchtype": "Normal",
+			"Date": "2025-05-30 01:56:29 UTC",
+			"Chat": "omie"
+		},
+		{
+			"Fish": "🐌 snail",
+			"Weight in lbs": 1.71,
+			"Catchtype": "Normal",
+			"Date": "2025-05-29 17:42:17 UTC",
+			"Chat": "omie"
+		},
+		{
+			"Fish": "🐚 shell",
+			"Weight in lbs": 4.3,
+			"Catchtype": "Normal",
+			"Date": "2025-05-29 10:07:23 UTC",
 			"Chat": "omie"
 		}
 	],
@@ -281,32 +281,32 @@
 			"🥒",
 			"🌷",
 			"🐦",
-			"🌾",
 			"🪚",
-			"🐚",
-			"🐟",
-			"🦈",
-			"🎏"
+			"🐠",
+			"🐬",
+			"🐢",
+			"🐌",
+			"🐚"
 		],
-		"Date": "2025-05-15 00:41:28 UTC",
+		"Date": "2025-05-29 10:51:09 UTC",
 		"Chat": "omie"
 	},
 	"Count of each item in that bag": {
 		"☂️": 1,
 		"🌰": 1,
 		"🌷": 1,
-		"🌾": 1,
 		"🎀": 1,
-		"🎏": 1,
+		"🐌": 1,
 		"🐚": 1,
-		"🐟": 1,
+		"🐠": 1,
+		"🐢": 1,
 		"🐦": 1,
+		"🐬": 1,
 		"👑": 1,
 		"📑": 1,
 		"🗡️": 1,
 		"🛒": 1,
 		"🥒": 1,
-		"🦈": 1,
 		"🦫": 1,
 		"🧊": 1,
 		"🧞‍♂️": 1,
@@ -799,16 +799,16 @@
 		},
 		"brownmushroom 🍄‍🟫": {
 			"Caught in total": {
-				"Total": 23,
+				"Total": 26,
 				"Per chat": {
-					"omie": 23
+					"omie": 26
 				}
 			},
 			"Caught per year": {
 				"2025": {
-					"Total": 23,
+					"Total": 26,
 					"Per chat": {
-						"omie": 23
+						"omie": 26
 					}
 				}
 			},
@@ -820,9 +820,9 @@
 					}
 				},
 				"Normal": {
-					"Total": 22,
+					"Total": 25,
 					"Per chat": {
-						"omie": 22
+						"omie": 25
 					}
 				}
 			},
@@ -835,9 +835,9 @@
 			},
 			"Last catch": {
 				"Fish": "🍄‍🟫 brownmushroom",
-				"Weight in lbs": 0.28,
+				"Weight in lbs": 10.89,
 				"Catchtype": "Normal",
-				"Date": "2025-05-04 03:08:47 UTC",
+				"Date": "2025-05-30 15:28:48 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -1271,9 +1271,9 @@
 		},
 		"crab 🦀": {
 			"Caught in total": {
-				"Total": 117,
+				"Total": 122,
 				"Per chat": {
-					"omie": 116,
+					"omie": 121,
 					"vaiastol": 1
 				}
 			},
@@ -1285,9 +1285,9 @@
 					}
 				},
 				"2025": {
-					"Total": 83,
+					"Total": 88,
 					"Per chat": {
-						"omie": 82,
+						"omie": 87,
 						"vaiastol": 1
 					}
 				}
@@ -1300,9 +1300,9 @@
 					}
 				},
 				"Normal": {
-					"Total": 115,
+					"Total": 120,
 					"Per chat": {
-						"omie": 114,
+						"omie": 119,
 						"vaiastol": 1
 					}
 				}
@@ -1316,9 +1316,9 @@
 			},
 			"Last catch": {
 				"Fish": "🦀 crab",
-				"Weight in lbs": 21.09,
+				"Weight in lbs": 6.23,
 				"Catchtype": "Normal",
-				"Date": "2025-05-15 19:51:33 UTC",
+				"Date": "2025-05-31 04:02:28 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -1341,9 +1341,9 @@
 		},
 		"crocodile 🐊": {
 			"Caught in total": {
-				"Total": 99,
+				"Total": 102,
 				"Per chat": {
-					"omie": 99
+					"omie": 102
 				}
 			},
 			"Caught per year": {
@@ -1354,17 +1354,17 @@
 					}
 				},
 				"2025": {
-					"Total": 69,
+					"Total": 72,
 					"Per chat": {
-						"omie": 69
+						"omie": 72
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 99,
+					"Total": 102,
 					"Per chat": {
-						"omie": 99
+						"omie": 102
 					}
 				}
 			},
@@ -1377,9 +1377,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐊 crocodile",
-				"Weight in lbs": 84.63,
+				"Weight in lbs": 49.76,
 				"Catchtype": "Normal",
-				"Date": "2025-05-17 04:40:12 UTC",
+				"Date": "2025-05-25 03:44:40 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -1570,9 +1570,9 @@
 		},
 		"dolphin 🐬": {
 			"Caught in total": {
-				"Total": 64,
+				"Total": 68,
 				"Per chat": {
-					"omie": 64
+					"omie": 68
 				}
 			},
 			"Caught per year": {
@@ -1583,17 +1583,17 @@
 					}
 				},
 				"2025": {
-					"Total": 56,
+					"Total": 60,
 					"Per chat": {
-						"omie": 56
+						"omie": 60
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 64,
+					"Total": 68,
 					"Per chat": {
-						"omie": 64
+						"omie": 68
 					}
 				}
 			},
@@ -1606,9 +1606,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐬 dolphin",
-				"Weight in lbs": 71.58,
+				"Weight in lbs": 74.81,
 				"Catchtype": "Normal",
-				"Date": "2025-05-17 23:24:42 UTC",
+				"Date": "2025-05-31 05:16:34 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -1851,9 +1851,9 @@
 		},
 		"fish 🐟": {
 			"Caught in total": {
-				"Total": 331,
+				"Total": 337,
 				"Per chat": {
-					"omie": 329,
+					"omie": 335,
 					"vaiastol": 2
 				}
 			},
@@ -1865,24 +1865,24 @@
 					}
 				},
 				"2025": {
-					"Total": 211,
+					"Total": 217,
 					"Per chat": {
-						"omie": 209,
+						"omie": 215,
 						"vaiastol": 2
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Mouth bonus": {
-					"Total": 3,
+					"Total": 4,
 					"Per chat": {
-						"omie": 3
+						"omie": 4
 					}
 				},
 				"Normal": {
-					"Total": 328,
+					"Total": 333,
 					"Per chat": {
-						"omie": 326,
+						"omie": 331,
 						"vaiastol": 2
 					}
 				}
@@ -1896,9 +1896,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐟 fish",
-				"Weight in lbs": 2.25,
-				"Catchtype": "Normal",
-				"Date": "2025-05-17 21:16:06 UTC",
+				"Weight in lbs": 0.1,
+				"Catchtype": "Mouth bonus",
+				"Date": "2025-05-30 15:28:48 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -1910,20 +1910,17 @@
 			},
 			"Smallest catch": {
 				"Fish": "🐟 fish",
-				"Weight in lbs": 0.12,
-				"Catchtype": "Normal",
-				"Date": "2024-11-19 02:00:10 UTC",
-				"Chat": "omie",
-				"Record": [
-					"🥇 Smallest 🐟 fish record in channel omie !"
-				]
+				"Weight in lbs": 0.1,
+				"Catchtype": "Mouth bonus",
+				"Date": "2025-05-30 15:28:48 UTC",
+				"Chat": "omie"
 			}
 		},
 		"frog 🐸": {
 			"Caught in total": {
-				"Total": 81,
+				"Total": 83,
 				"Per chat": {
-					"omie": 81
+					"omie": 83
 				}
 			},
 			"Caught per year": {
@@ -1934,9 +1931,9 @@
 					}
 				},
 				"2025": {
-					"Total": 60,
+					"Total": 62,
 					"Per chat": {
-						"omie": 60
+						"omie": 62
 					}
 				}
 			},
@@ -1954,9 +1951,9 @@
 					}
 				},
 				"Normal": {
-					"Total": 78,
+					"Total": 80,
 					"Per chat": {
-						"omie": 78
+						"omie": 80
 					}
 				}
 			},
@@ -1969,9 +1966,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐸 frog",
-				"Weight in lbs": 2.32,
+				"Weight in lbs": 1.11,
 				"Catchtype": "Normal",
-				"Date": "2025-05-12 04:31:12 UTC",
+				"Date": "2025-05-20 06:16:22 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -2058,16 +2055,16 @@
 		},
 		"grass 🌾": {
 			"Caught in total": {
-				"Total": 11,
+				"Total": 13,
 				"Per chat": {
-					"omie": 11
+					"omie": 13
 				}
 			},
 			"Caught per year": {
 				"2025": {
-					"Total": 11,
+					"Total": 13,
 					"Per chat": {
-						"omie": 11
+						"omie": 13
 					}
 				}
 			},
@@ -2079,9 +2076,9 @@
 					}
 				},
 				"Normal": {
-					"Total": 10,
+					"Total": 12,
 					"Per chat": {
-						"omie": 10
+						"omie": 12
 					}
 				}
 			},
@@ -2094,9 +2091,9 @@
 			},
 			"Last catch": {
 				"Fish": "🌾 grass",
-				"Weight in lbs": 0.09,
+				"Weight in lbs": 0.11,
 				"Catchtype": "Normal",
-				"Date": "2025-05-04 20:45:26 UTC",
+				"Date": "2025-05-20 20:02:26 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -2122,9 +2119,9 @@
 		},
 		"hook 🪝": {
 			"Caught in total": {
-				"Total": 149,
+				"Total": 152,
 				"Per chat": {
-					"omie": 147,
+					"omie": 150,
 					"vaiastol": 2
 				}
 			},
@@ -2136,9 +2133,9 @@
 					}
 				},
 				"2025": {
-					"Total": 80,
+					"Total": 83,
 					"Per chat": {
-						"omie": 78,
+						"omie": 81,
 						"vaiastol": 2
 					}
 				}
@@ -2151,9 +2148,9 @@
 					}
 				},
 				"Normal": {
-					"Total": 124,
+					"Total": 127,
 					"Per chat": {
-						"omie": 122,
+						"omie": 125,
 						"vaiastol": 2
 					}
 				},
@@ -2173,9 +2170,9 @@
 			},
 			"Last catch": {
 				"Fish": "🪝 hook",
-				"Weight in lbs": 1.78,
+				"Weight in lbs": 2.16,
 				"Catchtype": "Normal",
-				"Date": "2025-05-11 19:54:14 UTC",
+				"Date": "2025-05-30 03:15:24 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -2366,26 +2363,26 @@
 		},
 		"leaf 🍃": {
 			"Caught in total": {
-				"Total": 24,
+				"Total": 27,
 				"Per chat": {
-					"omie": 23,
+					"omie": 26,
 					"vaiastol": 1
 				}
 			},
 			"Caught per year": {
 				"2025": {
-					"Total": 24,
+					"Total": 27,
 					"Per chat": {
-						"omie": 23,
+						"omie": 26,
 						"vaiastol": 1
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 24,
+					"Total": 27,
 					"Per chat": {
-						"omie": 23,
+						"omie": 26,
 						"vaiastol": 1
 					}
 				}
@@ -2399,9 +2396,9 @@
 			},
 			"Last catch": {
 				"Fish": "🍃 leaf",
-				"Weight in lbs": 0.34,
+				"Weight in lbs": 1.21,
 				"Catchtype": "Normal",
-				"Date": "2025-05-16 02:44:59 UTC",
+				"Date": "2025-05-27 16:04:38 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -2416,13 +2413,10 @@
 			},
 			"Smallest catch": {
 				"Fish": "🍃 leaf",
-				"Weight in lbs": 0.09,
+				"Weight in lbs": 0.07,
 				"Catchtype": "Normal",
-				"Date": "2025-04-14 19:18:05 UTC",
-				"Chat": "omie",
-				"Record": [
-					"🥇 Smallest 🍃 leaf record in channel omie !"
-				]
+				"Date": "2025-05-20 02:55:23 UTC",
+				"Chat": "omie"
 			}
 		},
 		"lizard 🦎": {
@@ -2488,9 +2482,9 @@
 		},
 		"lobster 🦞": {
 			"Caught in total": {
-				"Total": 84,
+				"Total": 86,
 				"Per chat": {
-					"omie": 83,
+					"omie": 85,
 					"vaiastol": 1
 				}
 			},
@@ -2502,18 +2496,18 @@
 					}
 				},
 				"2025": {
-					"Total": 60,
+					"Total": 62,
 					"Per chat": {
-						"omie": 59,
+						"omie": 61,
 						"vaiastol": 1
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 84,
+					"Total": 86,
 					"Per chat": {
-						"omie": 83,
+						"omie": 85,
 						"vaiastol": 1
 					}
 				}
@@ -2527,9 +2521,9 @@
 			},
 			"Last catch": {
 				"Fish": "🦞 lobster",
-				"Weight in lbs": 37.1,
+				"Weight in lbs": 19.73,
 				"Catchtype": "Normal",
-				"Date": "2025-05-14 20:47:04 UTC",
+				"Date": "2025-05-26 18:49:51 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -2549,9 +2543,9 @@
 		},
 		"lure 🎏": {
 			"Caught in total": {
-				"Total": 230,
+				"Total": 238,
 				"Per chat": {
-					"omie": 230
+					"omie": 238
 				}
 			},
 			"Caught per year": {
@@ -2562,9 +2556,9 @@
 					}
 				},
 				"2025": {
-					"Total": 135,
+					"Total": 143,
 					"Per chat": {
-						"omie": 135
+						"omie": 143
 					}
 				}
 			},
@@ -2576,9 +2570,9 @@
 					}
 				},
 				"Normal": {
-					"Total": 206,
+					"Total": 214,
 					"Per chat": {
-						"omie": 206
+						"omie": 214
 					}
 				},
 				"Release bonus": {
@@ -2597,9 +2591,9 @@
 			},
 			"Last catch": {
 				"Fish": "🎏 lure",
-				"Weight in lbs": 3.07,
+				"Weight in lbs": 3.6,
 				"Catchtype": "Normal",
-				"Date": "2025-05-17 01:02:02 UTC",
+				"Date": "2025-05-28 05:28:00 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -2967,9 +2961,9 @@
 		},
 		"oyster 🦪": {
 			"Caught in total": {
-				"Total": 99,
+				"Total": 102,
 				"Per chat": {
-					"omie": 99
+					"omie": 102
 				}
 			},
 			"Caught per year": {
@@ -2980,9 +2974,9 @@
 					}
 				},
 				"2025": {
-					"Total": 61,
+					"Total": 64,
 					"Per chat": {
-						"omie": 61
+						"omie": 64
 					}
 				}
 			},
@@ -2994,9 +2988,9 @@
 					}
 				},
 				"Normal": {
-					"Total": 97,
+					"Total": 100,
 					"Per chat": {
-						"omie": 97
+						"omie": 100
 					}
 				}
 			},
@@ -3009,9 +3003,9 @@
 			},
 			"Last catch": {
 				"Fish": "🦪 oyster",
-				"Weight in lbs": 4.9,
+				"Weight in lbs": 13.95,
 				"Catchtype": "Normal",
-				"Date": "2025-05-17 10:01:08 UTC",
+				"Date": "2025-05-24 00:06:07 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -3211,26 +3205,26 @@
 		},
 		"sandal 👡": {
 			"Caught in total": {
-				"Total": 22,
+				"Total": 27,
 				"Per chat": {
-					"omie": 21,
+					"omie": 26,
 					"vaiastol": 1
 				}
 			},
 			"Caught per year": {
 				"2025": {
-					"Total": 22,
+					"Total": 27,
 					"Per chat": {
-						"omie": 21,
+						"omie": 26,
 						"vaiastol": 1
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 22,
+					"Total": 27,
 					"Per chat": {
-						"omie": 21,
+						"omie": 26,
 						"vaiastol": 1
 					}
 				}
@@ -3244,9 +3238,9 @@
 			},
 			"Last catch": {
 				"Fish": "👡 sandal",
-				"Weight in lbs": 1.82,
+				"Weight in lbs": 0.83,
 				"Catchtype": "Normal",
-				"Date": "2025-05-04 04:30:48 UTC",
+				"Date": "2025-05-24 02:41:52 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -3565,9 +3559,9 @@
 		},
 		"shark 🦈": {
 			"Caught in total": {
-				"Total": 57,
+				"Total": 60,
 				"Per chat": {
-					"omie": 55,
+					"omie": 58,
 					"vaiastol": 2
 				}
 			},
@@ -3579,9 +3573,9 @@
 					}
 				},
 				"2025": {
-					"Total": 53,
+					"Total": 56,
 					"Per chat": {
-						"omie": 51,
+						"omie": 54,
 						"vaiastol": 2
 					}
 				}
@@ -3594,9 +3588,9 @@
 					}
 				},
 				"Normal": {
-					"Total": 56,
+					"Total": 59,
 					"Per chat": {
-						"omie": 54,
+						"omie": 57,
 						"vaiastol": 2
 					}
 				}
@@ -3610,9 +3604,9 @@
 			},
 			"Last catch": {
 				"Fish": "🦈 shark",
-				"Weight in lbs": 49.76,
+				"Weight in lbs": 31.76,
 				"Catchtype": "Normal",
-				"Date": "2025-05-17 22:07:49 UTC",
+				"Date": "2025-05-27 10:37:00 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -3635,9 +3629,9 @@
 		},
 		"shell 🐚": {
 			"Caught in total": {
-				"Total": 143,
+				"Total": 152,
 				"Per chat": {
-					"omie": 142,
+					"omie": 151,
 					"vaiastol": 1
 				}
 			},
@@ -3649,9 +3643,9 @@
 					}
 				},
 				"2025": {
-					"Total": 84,
+					"Total": 93,
 					"Per chat": {
-						"omie": 83,
+						"omie": 92,
 						"vaiastol": 1
 					}
 				}
@@ -3664,9 +3658,9 @@
 					}
 				},
 				"Normal": {
-					"Total": 141,
+					"Total": 150,
 					"Per chat": {
-						"omie": 140,
+						"omie": 149,
 						"vaiastol": 1
 					}
 				}
@@ -3680,9 +3674,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐚 shell",
-				"Weight in lbs": 0.73,
+				"Weight in lbs": 4.3,
 				"Catchtype": "Normal",
-				"Date": "2025-05-17 18:53:01 UTC",
+				"Date": "2025-05-29 10:07:23 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -3763,9 +3757,9 @@
 		},
 		"shrimp 🦐": {
 			"Caught in total": {
-				"Total": 123,
+				"Total": 126,
 				"Per chat": {
-					"omie": 122,
+					"omie": 125,
 					"vaiastol": 1
 				}
 			},
@@ -3777,9 +3771,9 @@
 					}
 				},
 				"2025": {
-					"Total": 79,
+					"Total": 82,
 					"Per chat": {
-						"omie": 78,
+						"omie": 81,
 						"vaiastol": 1
 					}
 				}
@@ -3792,9 +3786,9 @@
 					}
 				},
 				"Normal": {
-					"Total": 122,
+					"Total": 125,
 					"Per chat": {
-						"omie": 121,
+						"omie": 124,
 						"vaiastol": 1
 					}
 				}
@@ -3808,9 +3802,9 @@
 			},
 			"Last catch": {
 				"Fish": "🦐 shrimp",
-				"Weight in lbs": 15.11,
+				"Weight in lbs": 7.01,
 				"Catchtype": "Normal",
-				"Date": "2025-05-17 06:58:02 UTC",
+				"Date": "2025-05-30 16:22:19 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -3958,9 +3952,9 @@
 		},
 		"snail 🐌": {
 			"Caught in total": {
-				"Total": 54,
+				"Total": 61,
 				"Per chat": {
-					"omie": 54
+					"omie": 61
 				}
 			},
 			"Caught per year": {
@@ -3971,17 +3965,17 @@
 					}
 				},
 				"2025": {
-					"Total": 31,
+					"Total": 38,
 					"Per chat": {
-						"omie": 31
+						"omie": 38
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 54,
+					"Total": 61,
 					"Per chat": {
-						"omie": 54
+						"omie": 61
 					}
 				}
 			},
@@ -3994,9 +3988,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐌 snail",
-				"Weight in lbs": 2,
+				"Weight in lbs": 1.4,
 				"Catchtype": "Normal",
-				"Date": "2025-05-14 02:10:55 UTC",
+				"Date": "2025-05-30 12:30:33 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -4440,9 +4434,9 @@
 		},
 		"tropicalfish 🐠": {
 			"Caught in total": {
-				"Total": 23,
+				"Total": 25,
 				"Per chat": {
-					"omie": 23
+					"omie": 25
 				}
 			},
 			"Caught per year": {
@@ -4453,17 +4447,17 @@
 					}
 				},
 				"2025": {
-					"Total": 14,
+					"Total": 16,
 					"Per chat": {
-						"omie": 14
+						"omie": 16
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 23,
+					"Total": 25,
 					"Per chat": {
-						"omie": 23
+						"omie": 25
 					}
 				}
 			},
@@ -4476,9 +4470,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐠 tropicalfish",
-				"Weight in lbs": 28.28,
+				"Weight in lbs": 1.49,
 				"Catchtype": "Normal",
-				"Date": "2025-05-02 06:09:28 UTC",
+				"Date": "2025-05-28 20:37:57 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -4494,9 +4488,9 @@
 			},
 			"Smallest catch": {
 				"Fish": "🐠 tropicalfish",
-				"Weight in lbs": 3.38,
+				"Weight in lbs": 1.49,
 				"Catchtype": "Normal",
-				"Date": "2024-09-27 18:18:47 UTC",
+				"Date": "2025-05-28 20:37:57 UTC",
 				"Chat": "omie"
 			}
 		},
@@ -4560,9 +4554,9 @@
 		},
 		"turtle 🐢": {
 			"Caught in total": {
-				"Total": 120,
+				"Total": 125,
 				"Per chat": {
-					"omie": 120
+					"omie": 125
 				}
 			},
 			"Caught per year": {
@@ -4573,9 +4567,9 @@
 					}
 				},
 				"2025": {
-					"Total": 79,
+					"Total": 84,
 					"Per chat": {
-						"omie": 79
+						"omie": 84
 					}
 				}
 			},
@@ -4587,9 +4581,9 @@
 					}
 				},
 				"Normal": {
-					"Total": 116,
+					"Total": 121,
 					"Per chat": {
-						"omie": 116
+						"omie": 121
 					}
 				}
 			},
@@ -4602,9 +4596,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐢 turtle",
-				"Weight in lbs": 19.93,
+				"Weight in lbs": 13.39,
 				"Catchtype": "Normal",
-				"Date": "2025-05-17 20:02:19 UTC",
+				"Date": "2025-05-28 22:32:54 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -4749,9 +4743,9 @@
 		},
 		"whale2 🐋": {
 			"Caught in total": {
-				"Total": 64,
+				"Total": 68,
 				"Per chat": {
-					"omie": 64
+					"omie": 68
 				}
 			},
 			"Caught per year": {
@@ -4762,9 +4756,9 @@
 					}
 				},
 				"2025": {
-					"Total": 54,
+					"Total": 58,
 					"Per chat": {
-						"omie": 54
+						"omie": 58
 					}
 				}
 			},
@@ -4776,9 +4770,9 @@
 					}
 				},
 				"Normal": {
-					"Total": 63,
+					"Total": 67,
 					"Per chat": {
-						"omie": 63
+						"omie": 67
 					}
 				}
 			},
@@ -4791,9 +4785,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐋 whale2",
-				"Weight in lbs": 64.58,
+				"Weight in lbs": 58.27,
 				"Catchtype": "Normal",
-				"Date": "2025-05-17 03:20:45 UTC",
+				"Date": "2025-05-26 23:31:51 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -5080,5 +5074,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-01 09:36:01 UTC"
+	"Profile last updated at": "2025-06-03 10:27:13 UTC"
 }
