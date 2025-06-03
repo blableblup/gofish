@@ -250,25 +250,56 @@ func GetPlayerProfiles(params LeaderboardParams) {
 		return
 	}
 
+	// for the website ?
+	// but i want to only update a players profile if they fished in last seven days hmmmmm
+	// so the nameID file will always only have the players i just updated the profiles for ??
+	type nameID struct {
+		Name string
+		ID   int
+	}
+
+	var nameIDs []nameID
+
 	wg := new(sync.WaitGroup)
+	mu := new(sync.Mutex)
 
 	for _, validPlayer := range validPlayers {
 		wg.Add(1)
 		go func() {
-			defer wg.Done()
 
-			err = PrintPlayerProfile(playerProfiles[validPlayer], FishWithEmoji, fishLists)
-			if err != nil {
-				logs.Logs().Error().Err(err).
-					Str("Chat", chatName).
-					Str("Board", board).
-					Int("PlayerID", validPlayer).
-					Msg("Error printing player profile")
+			if playerProfiles[validPlayer].TwitchID != 0 {
+				err = PrintPlayerProfile(playerProfiles[validPlayer], FishWithEmoji, fishLists)
+				if err != nil {
+					logs.Logs().Error().Err(err).
+						Str("Chat", chatName).
+						Str("Board", board).
+						Int("PlayerID", validPlayer).
+						Msg("Error printing player profile")
+				} else {
+					var nameAndId nameID
+					nameAndId.Name = playerProfiles[validPlayer].Name
+					nameAndId.ID = playerProfiles[validPlayer].TwitchID
+					mu.Lock()
+					nameIDs = append(nameIDs, nameAndId)
+					mu.Unlock()
+				}
 			}
+
+			wg.Done()
 		}()
 	}
 
 	wg.Wait()
+
+	// print out the json file with the names and their ids
+	err = writeRaw(filepath.Join("leaderboards", "global", "profiles", "nameID"), nameIDs)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Chat", chatName).
+			Str("Board", board).
+			Msg("Error writing nameID file")
+		return
+	}
 
 	logs.Logs().Info().
 		Str("Chat", chatName).
@@ -377,10 +408,6 @@ func GetValidPlayers(params LeaderboardParams, limit int) ([]int, error) {
 }
 
 func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string, fishLists map[string][]string) error {
-
-	if Profile.TwitchID == 0 {
-		return nil
-	}
 
 	filePath := filepath.Join("leaderboards", "global", "profiles", fmt.Sprintf("%d", Profile.TwitchID)+".json")
 

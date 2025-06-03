@@ -11,6 +11,29 @@ import (
 	"strings"
 )
 
+// to print whatever struct / map as a json file
+func writeRaw(filePath string, data any) error {
+
+	// because for the leaderboards, the filepath used ends with .md
+	// need to change that and replace with json
+	filePath = strings.TrimSuffix(filePath, filepath.Ext(filePath))
+
+	file, err := os.Create(filePath + ".json")
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+
+	bytes, err := json.MarshalIndent(data, "", "\t")
+	if err != nil {
+		return err
+	}
+
+	_, _ = fmt.Fprintf(file, "%s", bytes)
+
+	return nil
+}
+
 func getJsonBoard(filePath string) (map[int]data.FishInfo, error) {
 
 	oldBoard := make(map[int]data.FishInfo)
@@ -46,26 +69,6 @@ func getJsonBoard(filePath string) (map[int]data.FishInfo, error) {
 	}
 
 	return oldBoard, nil
-}
-
-func writeRaw(filePath string, data any) error {
-
-	filePath = strings.TrimSuffix(filePath, filepath.Ext(filePath))
-
-	file, err := os.Create(filePath + ".json")
-	if err != nil {
-		return err
-	}
-	defer file.Close()
-
-	bytes, err := json.MarshalIndent(data, "", "\t")
-	if err != nil {
-		return err
-	}
-
-	_, _ = fmt.Fprintf(file, "%s", bytes)
-
-	return nil
 }
 
 func getJsonBoardString(filePath string) (map[string]data.FishInfo, error) {
