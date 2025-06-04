@@ -21,11 +21,11 @@
 	"1317": {
 		"player": "mazzo_tv",
 		"playerid": 1317,
-		"weight": 8.5,
+		"weight": 9.5,
 		"date": "0001-01-01T00:00:00Z",
-		"chatid": 5,
+		"chatid": 6,
 		"maxcount": 7,
-		"rank": 17
+		"rank": 15
 	},
 	"1344": {
 		"player": "gorillapark",
@@ -161,9 +161,9 @@
 	"2339": {
 		"player": "bubinga",
 		"playerid": 2339,
-		"weight": 85.5,
+		"weight": 91.5,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 23,
+		"fishid": 25,
 		"chatid": 12,
 		"maxcount": 9,
 		"rank": 2
@@ -206,10 +206,10 @@
 	"269": {
 		"player": "nndiana",
 		"playerid": 269,
-		"weight": 131.5,
+		"weight": 136.5,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 32,
-		"chatid": 30,
+		"fishid": 33,
+		"chatid": 32,
 		"maxcount": 11,
 		"rank": 1
 	},
@@ -296,16 +296,16 @@
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 2,
 		"chatid": 3,
-		"rank": 16
+		"rank": 18
 	},
 	"913": {
 		"player": "ratot",
 		"playerid": 913,
-		"weight": 8,
+		"weight": 9.5,
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 1,
 		"chatid": 4,
-		"maxcount": 2,
-		"rank": 18
+		"maxcount": 5,
+		"rank": 15
 	}
 }
