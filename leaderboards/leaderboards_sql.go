@@ -3,7 +3,6 @@ package leaderboards
 import (
 	"context"
 	"database/sql"
-	"gofish/data"
 	"gofish/logs"
 	"time"
 
@@ -37,23 +36,23 @@ func PlayerStuff(playerID int, params LeaderboardParams, pool *pgxpool.Pool) (st
 		}
 
 		if twitchID.Valid {
-			params.Players[playerID] = data.FishInfo{
-				Player:   name,
-				Date:     firstfishdate,
-				Verified: verified.Bool,
-				TwitchID: int(twitchID.Int64),
+			params.Players[playerID] = PlayerInfo{
+				CurrentName: name,
+				Date:        firstfishdate,
+				Verified:    verified.Bool,
+				TwitchID:    int(twitchID.Int64),
 			}
 		} else {
-			params.Players[playerID] = data.FishInfo{
-				Player:   name,
-				Date:     firstfishdate,
-				Verified: verified.Bool,
-				TwitchID: 0,
+			params.Players[playerID] = PlayerInfo{
+				CurrentName: name,
+				Date:        firstfishdate,
+				Verified:    verified.Bool,
+				TwitchID:    0,
 			}
 		}
 	}
 
-	return params.Players[playerID].Player, params.Players[playerID].Date, params.Players[playerID].Verified, params.Players[playerID].TwitchID, nil
+	return params.Players[playerID].CurrentName, params.Players[playerID].Date, params.Players[playerID].Verified, params.Players[playerID].TwitchID, nil
 }
 
 // because some fish had different emotes on supibot, i always get the latest emoji from fishinfo

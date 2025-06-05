@@ -7,6 +7,7 @@ import (
 	"gofish/logs"
 	"os"
 	"path/filepath"
+	"regexp"
 	"sort"
 	"strings"
 )
@@ -305,4 +306,11 @@ func ChangeEmoji(rank int, oldRank int, found bool) string {
 	}
 
 	return changeEmoji
+}
+
+// the date format for the leaderboards is YYYY-MM-DD
+// can also be YYYY-MM-DD HH:MM:SS
+func isValidDate(date string) bool {
+	re := regexp.MustCompile(`^\d{4}-\d{2}-\d{2}( \d{2}:\d{2}:\d{2})?$`)
+	return re.MatchString(date)
 }
