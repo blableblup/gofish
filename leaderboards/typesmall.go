@@ -96,7 +96,7 @@ func processTypeSmall(params LeaderboardParams) {
 			Msg("Leaderboard updated successfully")
 	}
 
-	err = writeRawString(filePath, recordType)
+	err = writeRaw(filePath, recordType)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Board", board).
@@ -198,12 +198,12 @@ func getTypeRecordsSmall(params LeaderboardParams) (map[string]data.FishInfo, er
 			return recordType, err
 		}
 
-		fishInfo.Player, _, fishInfo.Verified, err = PlayerStuff(fishInfo.PlayerID, params, pool)
+		fishInfo.Player, _, fishInfo.Verified, _, err = PlayerStuff(fishInfo.PlayerID, params, pool)
 		if err != nil {
 			return recordType, err
 		}
 
-		fishInfo.Type, err = FishStuff(fishInfo.TypeName, params, pool)
+		fishInfo.Type, err = FishStuff(fishInfo.TypeName, params)
 		if err != nil {
 			return recordType, err
 		}

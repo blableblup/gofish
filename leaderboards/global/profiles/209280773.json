@@ -1,0 +1,1491 @@
+{
+	"Name": "toastyso",
+	"Progress": null,
+	"Records": [
+		"🥉 Third most fish caught in channel julialuxel !",
+		"🥉 Third most fish seen in channel julialuxel !",
+		"🥇 Biggest fish record in channel julialuxel !",
+		"4th place on tournament leaderboard in channel julialuxel !"
+	],
+	"Other accomplishments": {
+		"Accomplishments": null,
+		"Shinies": null
+	},
+	"Fish caught in total": {
+		"Total": 35,
+		"Per chat": {
+			"julialuxel": 35
+		}
+	},
+	"Fish caught per year": {
+		"2023": {
+			"Total": 9,
+			"Per chat": {
+				"julialuxel": 9
+			}
+		},
+		"2024": {
+			"Total": 26,
+			"Per chat": {
+				"julialuxel": 26
+			}
+		}
+	},
+	"Fish caught per catchtype": {
+		"Normal": {
+			"Total": 34,
+			"Per chat": {
+				"julialuxel": 34
+			}
+		},
+		"Release bonus": {
+			"Total": 1,
+			"Per chat": {
+				"julialuxel": 1
+			}
+		}
+	},
+	"Their first fish per chat": {
+		"julialuxel": {
+			"Fish": "🦀 crab",
+			"Weight in lbs": 0.1,
+			"Catchtype": "Normal",
+			"Date": "2023-12-25 05:16:13 UTC",
+			"Chat": "julialuxel"
+		}
+	},
+	"Their last fish per chat": {
+		"julialuxel": {
+			"Fish": "🪳 cockroach",
+			"Weight in lbs": 4.42,
+			"Catchtype": "Normal",
+			"Date": "2024-01-12 14:34:23 UTC",
+			"Chat": "julialuxel"
+		}
+	},
+	"Their biggest fish per chat": {
+		"julialuxel": {
+			"Fish": "🦕 sauropod",
+			"Weight in lbs": 241.63,
+			"Catchtype": "Normal",
+			"Date": "2024-01-10 01:45:42 UTC",
+			"Chat": "julialuxel"
+		}
+	},
+	"Their overall biggest fish": [
+		{
+			"Fish": "🦕 sauropod",
+			"Weight in lbs": 241.63,
+			"Catchtype": "Normal",
+			"Date": "2024-01-10 01:45:42 UTC",
+			"Chat": "julialuxel"
+		},
+		{
+			"Fish": "🦕 sauropod",
+			"Weight in lbs": 129.42,
+			"Catchtype": "Normal",
+			"Date": "2024-01-03 13:49:53 UTC",
+			"Chat": "julialuxel"
+		},
+		{
+			"Fish": "🐊 crocodile",
+			"Weight in lbs": 90.8,
+			"Catchtype": "Normal",
+			"Date": "2024-01-06 22:18:16 UTC",
+			"Chat": "julialuxel"
+		},
+		{
+			"Fish": "🐊 crocodile",
+			"Weight in lbs": 77.35,
+			"Catchtype": "Normal",
+			"Date": "2023-12-25 18:04:59 UTC",
+			"Chat": "julialuxel"
+		},
+		{
+			"Fish": "🐬 dolphin",
+			"Weight in lbs": 54.39,
+			"Catchtype": "Normal",
+			"Date": "2023-12-30 06:39:07 UTC",
+			"Chat": "julialuxel"
+		},
+		{
+			"Fish": "🦐 shrimp",
+			"Weight in lbs": 24.49,
+			"Catchtype": "Normal",
+			"Date": "2024-01-08 15:33:59 UTC",
+			"Chat": "julialuxel"
+		},
+		{
+			"Fish": "🦐 shrimp",
+			"Weight in lbs": 21.55,
+			"Catchtype": "Normal",
+			"Date": "2024-01-07 21:10:41 UTC",
+			"Chat": "julialuxel"
+		},
+		{
+			"Fish": "🦪 oyster",
+			"Weight in lbs": 20.41,
+			"Catchtype": "Normal",
+			"Date": "2024-01-08 03:50:57 UTC",
+			"Chat": "julialuxel"
+		},
+		{
+			"Fish": "🐡 blowfish",
+			"Weight in lbs": 18.91,
+			"Catchtype": "Normal",
+			"Date": "2023-12-27 10:41:27 UTC",
+			"Chat": "julialuxel"
+		},
+		{
+			"Fish": "🦠 plankton",
+			"Weight in lbs": 16.85,
+			"Catchtype": "Normal",
+			"Date": "2024-01-03 03:52:07 UTC",
+			"Chat": "julialuxel"
+		}
+	],
+	"Their overall last fish": [
+		{
+			"Fish": "🪳 cockroach",
+			"Weight in lbs": 4.42,
+			"Catchtype": "Normal",
+			"Date": "2024-01-12 14:34:23 UTC",
+			"Chat": "julialuxel"
+		},
+		{
+			"Fish": "🪳 cockroach",
+			"Weight in lbs": 4.58,
+			"Catchtype": "Normal",
+			"Date": "2024-01-11 18:42:51 UTC",
+			"Chat": "julialuxel"
+		},
+		{
+			"Fish": "🦦 otter",
+			"Weight in lbs": 15.66,
+			"Catchtype": "Normal",
+			"Date": "2024-01-11 15:49:02 UTC",
+			"Chat": "julialuxel"
+		},
+		{
+			"Fish": "🐟 fish",
+			"Weight in lbs": 10.45,
+			"Catchtype": "Normal",
+			"Date": "2024-01-11 02:38:10 UTC",
+			"Chat": "julialuxel"
+		},
+		{
+			"Fish": "🎏 lure",
+			"Weight in lbs": 1.88,
+			"Catchtype": "Normal",
+			"Date": "2024-01-10 21:57:57 UTC",
+			"Chat": "julialuxel"
+		},
+		{
+			"Fish": "👢 boot",
+			"Weight in lbs": 1.18,
+			"Catchtype": "Normal",
+			"Date": "2024-01-10 20:40:11 UTC",
+			"Chat": "julialuxel"
+		},
+		{
+			"Fish": "🐟 fish",
+			"Weight in lbs": 15.42,
+			"Catchtype": "Normal",
+			"Date": "2024-01-10 17:58:27 UTC",
+			"Chat": "julialuxel"
+		},
+		{
+			"Fish": "🦕 sauropod",
+			"Weight in lbs": 241.63,
+			"Catchtype": "Normal",
+			"Date": "2024-01-10 01:45:42 UTC",
+			"Chat": "julialuxel"
+		},
+		{
+			"Fish": "🎏 lure",
+			"Weight in lbs": 0.4,
+			"Catchtype": "Normal",
+			"Date": "2024-01-09 04:47:06 UTC",
+			"Chat": "julialuxel"
+		},
+		{
+			"Fish": "🐟 fish",
+			"Weight in lbs": 11.66,
+			"Catchtype": "Normal",
+			"Date": "2024-01-08 23:03:56 UTC",
+			"Chat": "julialuxel"
+		}
+	],
+	"Their last seen bag": {
+		"Bag": [
+			"🐚",
+			"🐸",
+			"🦀",
+			"🦞",
+			"🐚",
+			"🐬",
+			"🦕",
+			"🐊",
+			"🐢",
+			"🦀",
+			"🦞",
+			"🐊",
+			"💀",
+			"🐉",
+			"💀",
+			"🐟",
+			"🦪",
+			"🦑",
+			"🍄",
+			"🐌",
+			"🐟",
+			"🐢",
+			"🪱",
+			"🐡",
+			"🐬",
+			"🦠",
+			"🐉",
+			"🦠",
+			"🦕",
+			"🪸",
+			"🍄",
+			"🧸",
+			"⛸️",
+			"👢",
+			"🦐",
+			"🧸",
+			"🦪",
+			"🦐",
+			"👢",
+			"🎏",
+			"🦦",
+			"🪳",
+			"🪳"
+		],
+		"Date": "2025-03-26 20:16:33 UTC",
+		"Chat": "julialuxel"
+	},
+	"Count of each item in that bag": {
+		"⛸️": 1,
+		"🍄": 2,
+		"🎏": 1,
+		"🐉": 2,
+		"🐊": 2,
+		"🐌": 1,
+		"🐚": 2,
+		"🐟": 2,
+		"🐡": 1,
+		"🐢": 2,
+		"🐬": 2,
+		"🐸": 1,
+		"👢": 2,
+		"💀": 2,
+		"🦀": 2,
+		"🦐": 2,
+		"🦑": 1,
+		"🦕": 2,
+		"🦞": 2,
+		"🦠": 2,
+		"🦦": 1,
+		"🦪": 2,
+		"🧸": 2,
+		"🪱": 1,
+		"🪳": 2,
+		"🪸": 1
+	},
+	"Fish seen in total": {
+		"Total": 20,
+		"Per chat": {
+			"julialuxel": 20
+		}
+	},
+	"Data about each of their seen fish": {
+		"blowfish 🐡": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"julialuxel": 1
+				}
+			},
+			"Caught per year": {
+				"2023": {
+					"Total": 1,
+					"Per chat": {
+						"julialuxel": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"julialuxel": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🐡 blowfish",
+				"Weight in lbs": 18.91,
+				"Catchtype": "Normal",
+				"Date": "2023-12-27 10:41:27 UTC",
+				"Chat": "julialuxel"
+			},
+			"Last catch": {
+				"Fish": "🐡 blowfish",
+				"Weight in lbs": 18.91,
+				"Catchtype": "Normal",
+				"Date": "2023-12-27 10:41:27 UTC",
+				"Chat": "julialuxel"
+			},
+			"Biggest catch": {
+				"Fish": "🐡 blowfish",
+				"Weight in lbs": 18.91,
+				"Catchtype": "Normal",
+				"Date": "2023-12-27 10:41:27 UTC",
+				"Chat": "julialuxel",
+				"Record": [
+					"🥇 Biggest 🐡 blowfish record in channel julialuxel !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "🐡 blowfish",
+				"Weight in lbs": 18.91,
+				"Catchtype": "Normal",
+				"Date": "2023-12-27 10:41:27 UTC",
+				"Chat": "julialuxel"
+			}
+		},
+		"boot 👢": {
+			"Caught in total": {
+				"Total": 2,
+				"Per chat": {
+					"julialuxel": 2
+				}
+			},
+			"Caught per year": {
+				"2024": {
+					"Total": 2,
+					"Per chat": {
+						"julialuxel": 2
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 2,
+					"Per chat": {
+						"julialuxel": 2
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "👢 boot",
+				"Weight in lbs": 0.89,
+				"Catchtype": "Normal",
+				"Date": "2024-01-07 13:47:48 UTC",
+				"Chat": "julialuxel"
+			},
+			"Last catch": {
+				"Fish": "👢 boot",
+				"Weight in lbs": 1.18,
+				"Catchtype": "Normal",
+				"Date": "2024-01-10 20:40:11 UTC",
+				"Chat": "julialuxel"
+			},
+			"Biggest catch": {
+				"Fish": "👢 boot",
+				"Weight in lbs": 1.18,
+				"Catchtype": "Normal",
+				"Date": "2024-01-10 20:40:11 UTC",
+				"Chat": "julialuxel"
+			},
+			"Smallest catch": {
+				"Fish": "👢 boot",
+				"Weight in lbs": 0.89,
+				"Catchtype": "Normal",
+				"Date": "2024-01-07 13:47:48 UTC",
+				"Chat": "julialuxel",
+				"Record": [
+					"🥇 Smallest 👢 boot record in channel julialuxel !"
+				]
+			}
+		},
+		"candy 🍬": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"julialuxel": 1
+				}
+			},
+			"Caught per year": {
+				"2024": {
+					"Total": 1,
+					"Per chat": {
+						"julialuxel": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Release bonus": {
+					"Total": 1,
+					"Per chat": {
+						"julialuxel": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🍬 candy",
+				"Weight in lbs": 0,
+				"Catchtype": "Release bonus",
+				"Date": "2024-01-05 23:58:33 UTC",
+				"Chat": "julialuxel"
+			},
+			"Last catch": {
+				"Fish": "🍬 candy",
+				"Weight in lbs": 0,
+				"Catchtype": "Release bonus",
+				"Date": "2024-01-05 23:58:33 UTC",
+				"Chat": "julialuxel"
+			},
+			"Biggest catch": {
+				"Weight in lbs": 0
+			},
+			"Smallest catch": {
+				"Weight in lbs": 0
+			}
+		},
+		"cockroach 🪳": {
+			"Caught in total": {
+				"Total": 2,
+				"Per chat": {
+					"julialuxel": 2
+				}
+			},
+			"Caught per year": {
+				"2024": {
+					"Total": 2,
+					"Per chat": {
+						"julialuxel": 2
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 2,
+					"Per chat": {
+						"julialuxel": 2
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🪳 cockroach",
+				"Weight in lbs": 4.58,
+				"Catchtype": "Normal",
+				"Date": "2024-01-11 18:42:51 UTC",
+				"Chat": "julialuxel"
+			},
+			"Last catch": {
+				"Fish": "🪳 cockroach",
+				"Weight in lbs": 4.42,
+				"Catchtype": "Normal",
+				"Date": "2024-01-12 14:34:23 UTC",
+				"Chat": "julialuxel"
+			},
+			"Biggest catch": {
+				"Fish": "🪳 cockroach",
+				"Weight in lbs": 4.58,
+				"Catchtype": "Normal",
+				"Date": "2024-01-11 18:42:51 UTC",
+				"Chat": "julialuxel"
+			},
+			"Smallest catch": {
+				"Fish": "🪳 cockroach",
+				"Weight in lbs": 4.42,
+				"Catchtype": "Normal",
+				"Date": "2024-01-12 14:34:23 UTC",
+				"Chat": "julialuxel"
+			}
+		},
+		"coral 🪸": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"julialuxel": 1
+				}
+			},
+			"Caught per year": {
+				"2024": {
+					"Total": 1,
+					"Per chat": {
+						"julialuxel": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"julialuxel": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🪸 coral",
+				"Weight in lbs": 7.36,
+				"Catchtype": "Normal",
+				"Date": "2024-01-04 17:49:47 UTC",
+				"Chat": "julialuxel"
+			},
+			"Last catch": {
+				"Fish": "🪸 coral",
+				"Weight in lbs": 7.36,
+				"Catchtype": "Normal",
+				"Date": "2024-01-04 17:49:47 UTC",
+				"Chat": "julialuxel"
+			},
+			"Biggest catch": {
+				"Fish": "🪸 coral",
+				"Weight in lbs": 7.36,
+				"Catchtype": "Normal",
+				"Date": "2024-01-04 17:49:47 UTC",
+				"Chat": "julialuxel"
+			},
+			"Smallest catch": {
+				"Fish": "🪸 coral",
+				"Weight in lbs": 7.36,
+				"Catchtype": "Normal",
+				"Date": "2024-01-04 17:49:47 UTC",
+				"Chat": "julialuxel"
+			}
+		},
+		"crab 🦀": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"julialuxel": 1
+				}
+			},
+			"Caught per year": {
+				"2023": {
+					"Total": 1,
+					"Per chat": {
+						"julialuxel": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"julialuxel": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🦀 crab",
+				"Weight in lbs": 0.1,
+				"Catchtype": "Normal",
+				"Date": "2023-12-25 05:16:13 UTC",
+				"Chat": "julialuxel"
+			},
+			"Last catch": {
+				"Fish": "🦀 crab",
+				"Weight in lbs": 0.1,
+				"Catchtype": "Normal",
+				"Date": "2023-12-25 05:16:13 UTC",
+				"Chat": "julialuxel"
+			},
+			"Biggest catch": {
+				"Fish": "🦀 crab",
+				"Weight in lbs": 0.1,
+				"Catchtype": "Normal",
+				"Date": "2023-12-25 05:16:13 UTC",
+				"Chat": "julialuxel"
+			},
+			"Smallest catch": {
+				"Fish": "🦀 crab",
+				"Weight in lbs": 0.1,
+				"Catchtype": "Normal",
+				"Date": "2023-12-25 05:16:13 UTC",
+				"Chat": "julialuxel",
+				"Record": [
+					"🥇 Smallest 🦀 crab record in channel julialuxel !"
+				]
+			}
+		},
+		"crocodile 🐊": {
+			"Caught in total": {
+				"Total": 2,
+				"Per chat": {
+					"julialuxel": 2
+				}
+			},
+			"Caught per year": {
+				"2023": {
+					"Total": 1,
+					"Per chat": {
+						"julialuxel": 1
+					}
+				},
+				"2024": {
+					"Total": 1,
+					"Per chat": {
+						"julialuxel": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 2,
+					"Per chat": {
+						"julialuxel": 2
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🐊 crocodile",
+				"Weight in lbs": 77.35,
+				"Catchtype": "Normal",
+				"Date": "2023-12-25 18:04:59 UTC",
+				"Chat": "julialuxel"
+			},
+			"Last catch": {
+				"Fish": "🐊 crocodile",
+				"Weight in lbs": 90.8,
+				"Catchtype": "Normal",
+				"Date": "2024-01-06 22:18:16 UTC",
+				"Chat": "julialuxel"
+			},
+			"Biggest catch": {
+				"Fish": "🐊 crocodile",
+				"Weight in lbs": 90.8,
+				"Catchtype": "Normal",
+				"Date": "2024-01-06 22:18:16 UTC",
+				"Chat": "julialuxel",
+				"Record": [
+					"🥇 Biggest 🐊 crocodile record in channel julialuxel !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "🐊 crocodile",
+				"Weight in lbs": 77.35,
+				"Catchtype": "Normal",
+				"Date": "2023-12-25 18:04:59 UTC",
+				"Chat": "julialuxel"
+			}
+		},
+		"dolphin 🐬": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"julialuxel": 1
+				}
+			},
+			"Caught per year": {
+				"2023": {
+					"Total": 1,
+					"Per chat": {
+						"julialuxel": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"julialuxel": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🐬 dolphin",
+				"Weight in lbs": 54.39,
+				"Catchtype": "Normal",
+				"Date": "2023-12-30 06:39:07 UTC",
+				"Chat": "julialuxel"
+			},
+			"Last catch": {
+				"Fish": "🐬 dolphin",
+				"Weight in lbs": 54.39,
+				"Catchtype": "Normal",
+				"Date": "2023-12-30 06:39:07 UTC",
+				"Chat": "julialuxel"
+			},
+			"Biggest catch": {
+				"Fish": "🐬 dolphin",
+				"Weight in lbs": 54.39,
+				"Catchtype": "Normal",
+				"Date": "2023-12-30 06:39:07 UTC",
+				"Chat": "julialuxel"
+			},
+			"Smallest catch": {
+				"Fish": "🐬 dolphin",
+				"Weight in lbs": 54.39,
+				"Catchtype": "Normal",
+				"Date": "2023-12-30 06:39:07 UTC",
+				"Chat": "julialuxel"
+			}
+		},
+		"dragon 🐉": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"julialuxel": 1
+				}
+			},
+			"Caught per year": {
+				"2023": {
+					"Total": 1,
+					"Per chat": {
+						"julialuxel": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"julialuxel": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🐉 dragon",
+				"Weight in lbs": 13.02,
+				"Catchtype": "Normal",
+				"Date": "2023-12-31 19:44:56 UTC",
+				"Chat": "julialuxel"
+			},
+			"Last catch": {
+				"Fish": "🐉 dragon",
+				"Weight in lbs": 13.02,
+				"Catchtype": "Normal",
+				"Date": "2023-12-31 19:44:56 UTC",
+				"Chat": "julialuxel"
+			},
+			"Biggest catch": {
+				"Fish": "🐉 dragon",
+				"Weight in lbs": 13.02,
+				"Catchtype": "Normal",
+				"Date": "2023-12-31 19:44:56 UTC",
+				"Chat": "julialuxel"
+			},
+			"Smallest catch": {
+				"Fish": "🐉 dragon",
+				"Weight in lbs": 13.02,
+				"Catchtype": "Normal",
+				"Date": "2023-12-31 19:44:56 UTC",
+				"Chat": "julialuxel",
+				"Record": [
+					"🥇 Smallest 🐉 dragon record in channel julialuxel !"
+				]
+			}
+		},
+		"fish 🐟": {
+			"Caught in total": {
+				"Total": 5,
+				"Per chat": {
+					"julialuxel": 5
+				}
+			},
+			"Caught per year": {
+				"2024": {
+					"Total": 5,
+					"Per chat": {
+						"julialuxel": 5
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 5,
+					"Per chat": {
+						"julialuxel": 5
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🐟 fish",
+				"Weight in lbs": 1.71,
+				"Catchtype": "Normal",
+				"Date": "2024-01-02 14:03:36 UTC",
+				"Chat": "julialuxel"
+			},
+			"Last catch": {
+				"Fish": "🐟 fish",
+				"Weight in lbs": 10.45,
+				"Catchtype": "Normal",
+				"Date": "2024-01-11 02:38:10 UTC",
+				"Chat": "julialuxel"
+			},
+			"Biggest catch": {
+				"Fish": "🐟 fish",
+				"Weight in lbs": 15.42,
+				"Catchtype": "Normal",
+				"Date": "2024-01-10 17:58:27 UTC",
+				"Chat": "julialuxel"
+			},
+			"Smallest catch": {
+				"Fish": "🐟 fish",
+				"Weight in lbs": 1.71,
+				"Catchtype": "Normal",
+				"Date": "2024-01-02 14:03:36 UTC",
+				"Chat": "julialuxel"
+			}
+		},
+		"hook 🪝": {
+			"Caught in total": {
+				"Total": 2,
+				"Per chat": {
+					"julialuxel": 2
+				}
+			},
+			"Caught per year": {
+				"2023": {
+					"Total": 1,
+					"Per chat": {
+						"julialuxel": 1
+					}
+				},
+				"2024": {
+					"Total": 1,
+					"Per chat": {
+						"julialuxel": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 2,
+					"Per chat": {
+						"julialuxel": 2
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🪝 hook",
+				"Weight in lbs": 2.43,
+				"Catchtype": "Normal",
+				"Date": "2023-12-31 04:54:08 UTC",
+				"Chat": "julialuxel"
+			},
+			"Last catch": {
+				"Fish": "🪝 hook",
+				"Weight in lbs": 0.65,
+				"Catchtype": "Normal",
+				"Date": "2024-01-07 19:33:58 UTC",
+				"Chat": "julialuxel"
+			},
+			"Biggest catch": {
+				"Fish": "🪝 hook",
+				"Weight in lbs": 2.43,
+				"Catchtype": "Normal",
+				"Date": "2023-12-31 04:54:08 UTC",
+				"Chat": "julialuxel"
+			},
+			"Smallest catch": {
+				"Fish": "🪝 hook",
+				"Weight in lbs": 0.65,
+				"Catchtype": "Normal",
+				"Date": "2024-01-07 19:33:58 UTC",
+				"Chat": "julialuxel"
+			}
+		},
+		"iceskate ⛸️": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"julialuxel": 1
+				}
+			},
+			"Caught per year": {
+				"2024": {
+					"Total": 1,
+					"Per chat": {
+						"julialuxel": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"julialuxel": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "⛸️ iceskate",
+				"Weight in lbs": 0.62,
+				"Catchtype": "Normal",
+				"Date": "2024-01-07 02:21:01 UTC",
+				"Chat": "julialuxel"
+			},
+			"Last catch": {
+				"Fish": "⛸️ iceskate",
+				"Weight in lbs": 0.62,
+				"Catchtype": "Normal",
+				"Date": "2024-01-07 02:21:01 UTC",
+				"Chat": "julialuxel"
+			},
+			"Biggest catch": {
+				"Fish": "⛸️ iceskate",
+				"Weight in lbs": 0.62,
+				"Catchtype": "Normal",
+				"Date": "2024-01-07 02:21:01 UTC",
+				"Chat": "julialuxel",
+				"Record": [
+					"🥇 Biggest ⛸️ iceskate record in channel julialuxel !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "⛸️ iceskate",
+				"Weight in lbs": 0.62,
+				"Catchtype": "Normal",
+				"Date": "2024-01-07 02:21:01 UTC",
+				"Chat": "julialuxel",
+				"Record": [
+					"🥇 Smallest ⛸️ iceskate record in channel julialuxel !"
+				]
+			}
+		},
+		"lure 🎏": {
+			"Caught in total": {
+				"Total": 4,
+				"Per chat": {
+					"julialuxel": 4
+				}
+			},
+			"Caught per year": {
+				"2023": {
+					"Total": 2,
+					"Per chat": {
+						"julialuxel": 2
+					}
+				},
+				"2024": {
+					"Total": 2,
+					"Per chat": {
+						"julialuxel": 2
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 4,
+					"Per chat": {
+						"julialuxel": 4
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🎏 lure",
+				"Weight in lbs": 0.48,
+				"Catchtype": "Normal",
+				"Date": "2023-12-26 01:53:50 UTC",
+				"Chat": "julialuxel"
+			},
+			"Last catch": {
+				"Fish": "🎏 lure",
+				"Weight in lbs": 1.88,
+				"Catchtype": "Normal",
+				"Date": "2024-01-10 21:57:57 UTC",
+				"Chat": "julialuxel"
+			},
+			"Biggest catch": {
+				"Fish": "🎏 lure",
+				"Weight in lbs": 4.03,
+				"Catchtype": "Normal",
+				"Date": "2023-12-30 14:32:52 UTC",
+				"Chat": "julialuxel",
+				"Record": [
+					"🥇 Biggest 🎏 lure record in channel julialuxel !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "🎏 lure",
+				"Weight in lbs": 0.4,
+				"Catchtype": "Normal",
+				"Date": "2024-01-09 04:47:06 UTC",
+				"Chat": "julialuxel"
+			}
+		},
+		"mushroom 🍄": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"julialuxel": 1
+				}
+			},
+			"Caught per year": {
+				"2024": {
+					"Total": 1,
+					"Per chat": {
+						"julialuxel": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"julialuxel": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🍄 mushroom",
+				"Weight in lbs": 5.19,
+				"Catchtype": "Normal",
+				"Date": "2024-01-05 19:43:14 UTC",
+				"Chat": "julialuxel"
+			},
+			"Last catch": {
+				"Fish": "🍄 mushroom",
+				"Weight in lbs": 5.19,
+				"Catchtype": "Normal",
+				"Date": "2024-01-05 19:43:14 UTC",
+				"Chat": "julialuxel"
+			},
+			"Biggest catch": {
+				"Fish": "🍄 mushroom",
+				"Weight in lbs": 5.19,
+				"Catchtype": "Normal",
+				"Date": "2024-01-05 19:43:14 UTC",
+				"Chat": "julialuxel"
+			},
+			"Smallest catch": {
+				"Fish": "🍄 mushroom",
+				"Weight in lbs": 5.19,
+				"Catchtype": "Normal",
+				"Date": "2024-01-05 19:43:14 UTC",
+				"Chat": "julialuxel",
+				"Record": [
+					"🥇 Smallest 🍄 mushroom record in channel julialuxel !"
+				]
+			}
+		},
+		"otter 🦦": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"julialuxel": 1
+				}
+			},
+			"Caught per year": {
+				"2024": {
+					"Total": 1,
+					"Per chat": {
+						"julialuxel": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"julialuxel": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🦦 otter",
+				"Weight in lbs": 15.66,
+				"Catchtype": "Normal",
+				"Date": "2024-01-11 15:49:02 UTC",
+				"Chat": "julialuxel"
+			},
+			"Last catch": {
+				"Fish": "🦦 otter",
+				"Weight in lbs": 15.66,
+				"Catchtype": "Normal",
+				"Date": "2024-01-11 15:49:02 UTC",
+				"Chat": "julialuxel"
+			},
+			"Biggest catch": {
+				"Fish": "🦦 otter",
+				"Weight in lbs": 15.66,
+				"Catchtype": "Normal",
+				"Date": "2024-01-11 15:49:02 UTC",
+				"Chat": "julialuxel",
+				"Record": [
+					"🥇 Biggest 🦦 otter record in channel julialuxel !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "🦦 otter",
+				"Weight in lbs": 15.66,
+				"Catchtype": "Normal",
+				"Date": "2024-01-11 15:49:02 UTC",
+				"Chat": "julialuxel"
+			}
+		},
+		"oyster 🦪": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"julialuxel": 1
+				}
+			},
+			"Caught per year": {
+				"2024": {
+					"Total": 1,
+					"Per chat": {
+						"julialuxel": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"julialuxel": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🦪 oyster",
+				"Weight in lbs": 20.41,
+				"Catchtype": "Normal",
+				"Date": "2024-01-08 03:50:57 UTC",
+				"Chat": "julialuxel"
+			},
+			"Last catch": {
+				"Fish": "🦪 oyster",
+				"Weight in lbs": 20.41,
+				"Catchtype": "Normal",
+				"Date": "2024-01-08 03:50:57 UTC",
+				"Chat": "julialuxel"
+			},
+			"Biggest catch": {
+				"Fish": "🦪 oyster",
+				"Weight in lbs": 20.41,
+				"Catchtype": "Normal",
+				"Date": "2024-01-08 03:50:57 UTC",
+				"Chat": "julialuxel"
+			},
+			"Smallest catch": {
+				"Fish": "🦪 oyster",
+				"Weight in lbs": 20.41,
+				"Catchtype": "Normal",
+				"Date": "2024-01-08 03:50:57 UTC",
+				"Chat": "julialuxel"
+			}
+		},
+		"plankton 🦠": {
+			"Caught in total": {
+				"Total": 2,
+				"Per chat": {
+					"julialuxel": 2
+				}
+			},
+			"Caught per year": {
+				"2023": {
+					"Total": 1,
+					"Per chat": {
+						"julialuxel": 1
+					}
+				},
+				"2024": {
+					"Total": 1,
+					"Per chat": {
+						"julialuxel": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 2,
+					"Per chat": {
+						"julialuxel": 2
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🦠 plankton",
+				"Weight in lbs": 16.73,
+				"Catchtype": "Normal",
+				"Date": "2023-12-30 15:16:35 UTC",
+				"Chat": "julialuxel"
+			},
+			"Last catch": {
+				"Fish": "🦠 plankton",
+				"Weight in lbs": 16.85,
+				"Catchtype": "Normal",
+				"Date": "2024-01-03 03:52:07 UTC",
+				"Chat": "julialuxel"
+			},
+			"Biggest catch": {
+				"Fish": "🦠 plankton",
+				"Weight in lbs": 16.85,
+				"Catchtype": "Normal",
+				"Date": "2024-01-03 03:52:07 UTC",
+				"Chat": "julialuxel",
+				"Record": [
+					"🥇 Biggest 🦠 plankton record in channel julialuxel !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "🦠 plankton",
+				"Weight in lbs": 16.73,
+				"Catchtype": "Normal",
+				"Date": "2023-12-30 15:16:35 UTC",
+				"Chat": "julialuxel"
+			}
+		},
+		"sauropod 🦕": {
+			"Caught in total": {
+				"Total": 2,
+				"Per chat": {
+					"julialuxel": 2
+				}
+			},
+			"Caught per year": {
+				"2024": {
+					"Total": 2,
+					"Per chat": {
+						"julialuxel": 2
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 2,
+					"Per chat": {
+						"julialuxel": 2
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🦕 sauropod",
+				"Weight in lbs": 129.42,
+				"Catchtype": "Normal",
+				"Date": "2024-01-03 13:49:53 UTC",
+				"Chat": "julialuxel"
+			},
+			"Last catch": {
+				"Fish": "🦕 sauropod",
+				"Weight in lbs": 241.63,
+				"Catchtype": "Normal",
+				"Date": "2024-01-10 01:45:42 UTC",
+				"Chat": "julialuxel"
+			},
+			"Biggest catch": {
+				"Fish": "🦕 sauropod",
+				"Weight in lbs": 241.63,
+				"Catchtype": "Normal",
+				"Date": "2024-01-10 01:45:42 UTC",
+				"Chat": "julialuxel",
+				"Record": [
+					"🥇 Biggest 🦕 sauropod record in channel julialuxel !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "🦕 sauropod",
+				"Weight in lbs": 129.42,
+				"Catchtype": "Normal",
+				"Date": "2024-01-03 13:49:53 UTC",
+				"Chat": "julialuxel"
+			}
+		},
+		"shrimp 🦐": {
+			"Caught in total": {
+				"Total": 2,
+				"Per chat": {
+					"julialuxel": 2
+				}
+			},
+			"Caught per year": {
+				"2024": {
+					"Total": 2,
+					"Per chat": {
+						"julialuxel": 2
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 2,
+					"Per chat": {
+						"julialuxel": 2
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🦐 shrimp",
+				"Weight in lbs": 21.55,
+				"Catchtype": "Normal",
+				"Date": "2024-01-07 21:10:41 UTC",
+				"Chat": "julialuxel"
+			},
+			"Last catch": {
+				"Fish": "🦐 shrimp",
+				"Weight in lbs": 24.49,
+				"Catchtype": "Normal",
+				"Date": "2024-01-08 15:33:59 UTC",
+				"Chat": "julialuxel"
+			},
+			"Biggest catch": {
+				"Fish": "🦐 shrimp",
+				"Weight in lbs": 24.49,
+				"Catchtype": "Normal",
+				"Date": "2024-01-08 15:33:59 UTC",
+				"Chat": "julialuxel"
+			},
+			"Smallest catch": {
+				"Fish": "🦐 shrimp",
+				"Weight in lbs": 21.55,
+				"Catchtype": "Normal",
+				"Date": "2024-01-07 21:10:41 UTC",
+				"Chat": "julialuxel"
+			}
+		},
+		"teddybear 🧸": {
+			"Caught in total": {
+				"Total": 2,
+				"Per chat": {
+					"julialuxel": 2
+				}
+			},
+			"Caught per year": {
+				"2024": {
+					"Total": 2,
+					"Per chat": {
+						"julialuxel": 2
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 2,
+					"Per chat": {
+						"julialuxel": 2
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🧸 teddybear",
+				"Weight in lbs": 2.65,
+				"Catchtype": "Normal",
+				"Date": "2024-01-06 00:04:06 UTC",
+				"Chat": "julialuxel"
+			},
+			"Last catch": {
+				"Fish": "🧸 teddybear",
+				"Weight in lbs": 0.94,
+				"Catchtype": "Normal",
+				"Date": "2024-01-08 02:45:55 UTC",
+				"Chat": "julialuxel"
+			},
+			"Biggest catch": {
+				"Fish": "🧸 teddybear",
+				"Weight in lbs": 2.65,
+				"Catchtype": "Normal",
+				"Date": "2024-01-06 00:04:06 UTC",
+				"Chat": "julialuxel"
+			},
+			"Smallest catch": {
+				"Fish": "🧸 teddybear",
+				"Weight in lbs": 0.94,
+				"Catchtype": "Normal",
+				"Date": "2024-01-08 02:45:55 UTC",
+				"Chat": "julialuxel",
+				"Record": [
+					"🥇 Smallest 🧸 teddybear record in channel julialuxel !"
+				]
+			}
+		}
+	},
+	"Fish they never saw": [
+		"8ball 🎱",
+		"acorn 🌰",
+		"athleticshoe 👟",
+		"balletshoes 🩰",
+		"bat 🦇",
+		"beaver 🦫",
+		"beveragebox 🧃",
+		"bird 🐦",
+		"blackbird 🐦‍⬛",
+		"blackcat 🐈‍⬛",
+		"bobber 🪀",
+		"briefs 🩲",
+		"brownmushroom 🍄‍🟫",
+		"cannedfood 🥫",
+		"carpentrysaw 🪚",
+		"coat 🧥",
+		"compass 🧭",
+		"crown 👑",
+		"cucumber 🥒",
+		"dagger 🗡️",
+		"darksunglasses 🕶️",
+		"duck 🦆",
+		"emptynest 🪹",
+		"feather 🪶",
+		"frog 🐸",
+		"gloves 🧤",
+		"goose 🪿",
+		"grass 🌾",
+		"icecube 🧊",
+		"iphone 📱",
+		"jellyfish 🪼",
+		"leaf 🍃",
+		"lizard 🦎",
+		"lobster 🦞",
+		"log 🪵",
+		"malegenie 🧞‍♂",
+		"mapleleaf 🍁",
+		"mermaid 🧜‍♀️",
+		"moose 🫎",
+		"nestwitheggs 🪺",
+		"octopus 🐙",
+		"oildrum 🛢️",
+		"owl 🦉",
+		"penguin 🐧",
+		"polarbear 🐻‍❄",
+		"rat 🐀",
+		"rock 🪨",
+		"rose 🌹",
+		"sandal 👡",
+		"sandwich 🥪",
+		"scarf 🧣",
+		"seal 🦭",
+		"seaweed 🌿",
+		"shamrock ☘️",
+		"shark 🦈",
+		"shell 🐚",
+		"shoppingcart 🛒",
+		"skull 💀",
+		"slotmachine 🎰",
+		"snail 🐌",
+		"snake 🐍",
+		"socks 🧦",
+		"spider 🕷️",
+		"sponge 🧽",
+		"squid 🦑",
+		"squirrel 🐿️",
+		"sunflower 🌻",
+		"swan 🦢",
+		"thongsandal 🩴",
+		"tropicalfish 🐠",
+		"tulip 🌷",
+		"turtle 🐢",
+		"umbrella ☂️",
+		"whale 🐳",
+		"whale2 🐋",
+		"wiltedflower 🥀",
+		"wireline 🧵",
+		"womanshat 👒",
+		"worm 🪱",
+		"zombie 🧟"
+	],
+	"Total fish not seen": 80,
+	"Some info": [
+		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
+		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
+		"The records at the top and the records per fish type will only show records from channels which have their own leaderboards.",
+		"The players biggest or smallest catch of a fish type can be nothing, if the player only caught the fish through catches which do not show the weight in the catch message.",
+		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
+		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
+	],
+	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+}

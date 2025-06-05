@@ -191,12 +191,12 @@ func getWeightRecords2(params LeaderboardParams, limit int) (map[int]data.FishIn
 			return recordWeight, err
 		}
 
-		fishInfo.Player, _, fishInfo.Verified, err = PlayerStuff(fishInfo.PlayerID, params, pool)
+		fishInfo.Player, _, fishInfo.Verified, _, err = PlayerStuff(fishInfo.PlayerID, params, pool)
 		if err != nil {
 			return recordWeight, err
 		}
 
-		fishInfo.Type, err = FishStuff(fishInfo.TypeName, params, pool)
+		fishInfo.Type, err = FishStuff(fishInfo.TypeName, params)
 		if err != nil {
 			return recordWeight, err
 		}

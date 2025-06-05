@@ -131,7 +131,7 @@ func getRarestFish(params LeaderboardParams) (map[string]data.FishInfo, error) {
 				return globalFishTypesCount, err
 			}
 
-			fishInfo.Type, err = FishStuff(fishInfo.TypeName, params, pool)
+			fishInfo.Type, err = FishStuff(fishInfo.TypeName, params)
 			if err != nil {
 				return globalFishTypesCount, err
 			}
@@ -284,7 +284,7 @@ func writeRare(filePath string, fishCaught map[string]data.FishInfo, oldCountRec
 	_, _ = fmt.Fprintf(file, "\n_Last updated at %s_", time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC"))
 
 	// This has to be here, because im not getting the rank directly from the query
-	err = writeRawString(filePath, fishCaught)
+	err = writeRaw(filePath, fishCaught)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Path", filePath).

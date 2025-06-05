@@ -1,8 +1,6 @@
 package leaderboards
 
 import (
-	"context"
-	"database/sql"
 	"encoding/json"
 	"fmt"
 	"gofish/data"
@@ -11,70 +9,29 @@ import (
 	"path/filepath"
 	"sort"
 	"strings"
-	"time"
-
-	"github.com/jackc/pgx/v5/pgxpool"
 )
 
-// Store the players in a map, for their verified status, their current name and when they started fishing
-// useful when updating all the leaderboards at once; firstfishdate is ignored on some boards where you already get date
-// the first fishdate only matters if the player fished on supi, would be better to get min(date) from fish for the player
-// firstfishdate is set for when the player first was added and is never updated afterwards,
-// so the player might have fished earlier in a chat which wasnt covered for example or during a downtime
-// and also, firstfishdate could also be when the player first did + bag
-func PlayerStuff(playerID int, params LeaderboardParams, pool *pgxpool.Pool) (string, time.Time, bool, error) {
+// to print whatever struct / map as a json file
+func writeRaw(filePath string, data any) error {
 
-	var name string
-	var firstfishdate time.Time
-	var verified sql.NullBool
+	// because for the leaderboards, the filepath used ends with .md
+	// need to change that and replace with json
+	filePath = strings.TrimSuffix(filePath, filepath.Ext(filePath))
 
-	if _, ok := params.Players[playerID]; !ok {
-		err := pool.QueryRow(context.Background(), "SELECT name, firstfishdate, verified FROM playerdata WHERE playerid = $1", playerID).Scan(&name, &firstfishdate, &verified)
-		if err != nil {
-			logs.Logs().Error().Err(err).
-				Int("PlayerID", playerID).
-				Str("Chat", params.ChatName).
-				Str("Board", params.LeaderboardType).
-				Msg("Error retrieving player name for id")
-			return name, firstfishdate, verified.Bool, err
-		}
+	file, err := os.Create(filePath + ".json")
+	if err != nil {
+		return err
+	}
+	defer file.Close()
 
-		params.Players[playerID] = data.FishInfo{
-			Player:   name,
-			Date:     firstfishdate,
-			Verified: verified.Bool,
-		}
-	} else {
-		name = params.Players[playerID].Player
-		firstfishdate = params.Players[playerID].Date
-		verified.Bool = params.Players[playerID].Verified
+	bytes, err := json.MarshalIndent(data, "", "\t")
+	if err != nil {
+		return err
 	}
 
-	return name, firstfishdate, verified.Bool, nil
-}
+	_, _ = fmt.Fprintf(file, "%s", bytes)
 
-// because some fish had different emotes on supibot, i always get the latest emoji from fishinfo
-func FishStuff(fishName string, params LeaderboardParams, pool *pgxpool.Pool) (string, error) {
-	var emoji string
-
-	if _, ok := params.FishTypes[fishName]; !ok {
-		err := pool.QueryRow(context.Background(), "SELECT fishtype FROM fishinfo WHERE fishname = $1", fishName).Scan(&emoji)
-		if err != nil {
-			logs.Logs().Error().Err(err).
-				Str("FishName", fishName).
-				Str("Chat", params.ChatName).
-				Str("Board", params.LeaderboardType).
-				Msg("Error retrieving fish type for fish name")
-			return emoji, err
-		}
-
-		params.FishTypes[fishName] = emoji
-
-	} else {
-		emoji = params.FishTypes[fishName]
-	}
-
-	return emoji, nil
+	return nil
 }
 
 func getJsonBoard(filePath string) (map[int]data.FishInfo, error) {
@@ -114,26 +71,6 @@ func getJsonBoard(filePath string) (map[int]data.FishInfo, error) {
 	return oldBoard, nil
 }
 
-func writeRaw(filePath string, board map[int]data.FishInfo) error {
-
-	filePath = strings.TrimSuffix(filePath, filepath.Ext(filePath))
-
-	file, err := os.Create(filePath + ".json")
-	if err != nil {
-		return err
-	}
-	defer file.Close()
-
-	bytes, err := json.MarshalIndent(board, "", "\t")
-	if err != nil {
-		return err
-	}
-
-	_, _ = fmt.Fprintf(file, "%s", bytes)
-
-	return nil
-}
-
 func getJsonBoardString(filePath string) (map[string]data.FishInfo, error) {
 
 	oldBoard := make(map[string]data.FishInfo)
@@ -169,26 +106,6 @@ func getJsonBoardString(filePath string) (map[string]data.FishInfo, error) {
 	}
 
 	return oldBoard, nil
-}
-
-func writeRawString(filePath string, board map[string]data.FishInfo) error {
-
-	filePath = strings.TrimSuffix(filePath, filepath.Ext(filePath))
-
-	file, err := os.Create(filePath + ".json")
-	if err != nil {
-		return err
-	}
-	defer file.Close()
-
-	bytes, err := json.MarshalIndent(board, "", "\t")
-	if err != nil {
-		return err
-	}
-
-	_, _ = fmt.Fprintf(file, "%s", bytes)
-
-	return nil
 }
 
 func sortMapIntFishInfo(somemap map[int]data.FishInfo, whattosort string) []int {
@@ -234,29 +151,6 @@ func sortMapStringFishInfo(somemap map[string]data.FishInfo, whattosort string) 
 		sort.SliceStable(blee, func(i, j int) bool { return blee[i] < blee[j] })
 		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].TypeName < somemap[blee[j]].TypeName })
 		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Count > somemap[blee[j]].Count })
-	default:
-		logs.Logs().Warn().
-			Str("WhatToSort", whattosort).
-			Msg("idk what to do :(")
-	}
-
-	return blee
-}
-
-// for nameasc and countdesc (only used for playerprofiles)
-func sortMapString(somemap map[string]int, whattosort string) []string {
-
-	blee := make([]string, 0, len(somemap))
-	for whatever := range somemap {
-		blee = append(blee, whatever)
-	}
-
-	switch whattosort {
-	case "countdesc":
-		sort.SliceStable(blee, func(i, j int) bool { return blee[i] < blee[j] })
-		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]] > somemap[blee[j]] })
-	case "nameasc":
-		sort.SliceStable(blee, func(i, j int) bool { return blee[i] < blee[j] })
 	default:
 		logs.Logs().Warn().
 			Str("WhatToSort", whattosort).
@@ -376,21 +270,6 @@ func didFishMapChange(params LeaderboardParams, oldBoard map[string]data.FishInf
 		}
 	}
 	return mapsarethesame
-}
-
-func CatchtypeNames() map[string]string {
-
-	CatchTypesPlayerProfile := map[string]string{
-		"normal":       "Normal",
-		"egg":          "Hatched egg",
-		"release":      "Release bonus",
-		"jumped":       "Jumped bonus",
-		"mouth":        "Mouth bonus",
-		"squirrel":     "Squirrel",
-		"squirrelfail": "Squirrel fail", // the squirrels i added manually because bread forgor to update game and you werent supposed to catch them
-	}
-
-	return CatchTypesPlayerProfile
 }
 
 func Ranks(rank int) string {

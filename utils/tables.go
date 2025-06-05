@@ -71,7 +71,8 @@ func EnsureTableExists(pool *pgxpool.Pool, tableName string) error {
 					fishname VARCHAR PRIMARY KEY,
 					fishtype VARCHAR,
 					oldemojis VARCHAR [],
-					shiny VARCHAR []
+					shiny VARCHAR [],
+					tags VARCHAR []
 				)
 			`, tableName))
 			if err != nil {

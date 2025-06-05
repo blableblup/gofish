@@ -132,7 +132,7 @@ func getShinies(params LeaderboardParams) (map[int]data.FishInfo, error) {
 			return Shinies, err
 		}
 
-		fishInfo.Player, _, fishInfo.Verified, err = PlayerStuff(fishInfo.PlayerID, params, pool)
+		fishInfo.Player, _, fishInfo.Verified, _, err = PlayerStuff(fishInfo.PlayerID, params, pool)
 		if err != nil {
 			return Shinies, err
 		}

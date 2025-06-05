@@ -133,7 +133,7 @@ func getTrophies(params LeaderboardParams) (map[int]data.FishInfo, error) {
 		}
 
 		// date and verified arent needed here
-		fishInfo.Player, _, _, err = PlayerStuff(fishInfo.PlayerID, params, pool)
+		fishInfo.Player, _, _, _, err = PlayerStuff(fishInfo.PlayerID, params, pool)
 		if err != nil {
 			return playerCounts, err
 		}
