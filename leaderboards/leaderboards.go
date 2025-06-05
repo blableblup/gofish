@@ -78,7 +78,7 @@ func Leaderboards(pool *pgxpool.Pool, leaderboards string, chatNames string, dat
 		"fishweek":      {hasGlobal: false, GlobalOnly: false, Tournament: true, Function: processFishweek},
 		"trophy":        {hasGlobal: false, GlobalOnly: false, Tournament: true, Function: processTrophy},
 		"records":       {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processChannelRecords},
-		"unique":        {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processUniqueFish},
+		"uniquefish":    {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processUniqueFish},
 		"typesmall":     {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processTypeSmall},
 		"type":          {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processType},
 		"count":         {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processCount},
@@ -86,9 +86,9 @@ func Leaderboards(pool *pgxpool.Pool, leaderboards string, chatNames string, dat
 		"weight2":       {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processWeight2},
 		"averageweight": {hasGlobal: true, GlobalOnly: true, Tournament: false, Function: processAverageWeight},
 		"rare":          {hasGlobal: true, GlobalOnly: true, Tournament: false, Function: RunCountFishTypesGlobal},
-		"stats":         {hasGlobal: true, GlobalOnly: true, Tournament: false, Function: RunChatStatsGlobal},
+		"chats":         {hasGlobal: true, GlobalOnly: true, Tournament: false, Function: RunChatStatsGlobal},
 		"shiny":         {hasGlobal: true, GlobalOnly: true, Tournament: false, Function: processShinies},
-		"players":       {hasGlobal: true, GlobalOnly: true, Tournament: false, Function: GetPlayerProfiles}}
+		"profiles":      {hasGlobal: true, GlobalOnly: true, Tournament: false, Function: GetPlayerProfiles}}
 
 	for _, leaderboard := range leaderboardList {
 
