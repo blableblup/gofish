@@ -2,12 +2,12 @@
 	"Name": "gorillapark",
 	"Progress": null,
 	"Records": [
-		"14th most fish seen in channel psp1g !",
-		"16th biggest fish record in channel psp1g !",
-		"9th most fish caught in channel wuh6 !",
-		"11th most fish seen in channel wuh6 !",
+		"15th most fish seen in channel psp1g !",
+		"17th biggest fish record in channel psp1g !",
+		"8th most fish caught in channel wuh6 !",
+		"9th most fish seen in channel wuh6 !",
 		"7th biggest fish record in channel wuh6 !",
-		"9th place on tournament leaderboard in channel wuh6 !"
+		"8th place on tournament leaderboard in channel wuh6 !"
 	],
 	"Other accomplishments": {
 		"Accomplishments": null,
@@ -1335,7 +1335,10 @@
 				"Weight in lbs": 95.15,
 				"Catchtype": "Normal",
 				"Date": "2025-05-04 23:53:54 UTC",
-				"Chat": "wuh6"
+				"Chat": "wuh6",
+				"Record": [
+					"🥇 Biggest 🪸 coral record in channel wuh6 !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🪸 coral",
@@ -1762,7 +1765,10 @@
 				"Weight in lbs": 3.4,
 				"Catchtype": "Normal",
 				"Date": "2025-05-29 17:44:18 UTC",
-				"Chat": "wuh6"
+				"Chat": "wuh6",
+				"Record": [
+					"🥇 Smallest 🐉 dragon record in channel wuh6 !"
+				]
 			}
 		},
 		"duck 🦆": {
@@ -4787,5 +4793,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

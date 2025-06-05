@@ -1,7 +1,11 @@
 {
 	"Name": "stofeyxd",
 	"Progress": null,
-	"Records": null,
+	"Records": [
+		"12th most fish caught in channel aquaismissing !",
+		"11th most fish seen in channel aquaismissing !",
+		"11th biggest fish record in channel aquaismissing !"
+	],
 	"Other accomplishments": {
 		"Accomplishments": null,
 		"Shinies": null
@@ -451,7 +455,10 @@
 				"Weight in lbs": 22.91,
 				"Catchtype": "Normal",
 				"Date": "2025-04-28 08:38:27 UTC",
-				"Chat": "aquaismissing"
+				"Chat": "aquaismissing",
+				"Record": [
+					"🥇 Biggest 🗡️ dagger record in channel aquaismissing !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🗡️ dagger",
@@ -847,7 +854,10 @@
 				"Weight in lbs": 0.53,
 				"Catchtype": "Normal",
 				"Date": "2025-05-05 09:19:54 UTC",
-				"Chat": "aquaismissing"
+				"Chat": "aquaismissing",
+				"Record": [
+					"🥇 Smallest 🐠 tropicalfish record in channel aquaismissing !"
+				]
 			}
 		},
 		"turtle 🐢": {
@@ -1002,5 +1012,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

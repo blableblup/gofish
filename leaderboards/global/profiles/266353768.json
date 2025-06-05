@@ -2,22 +2,21 @@
 	"Name": "leanmeister",
 	"Progress": null,
 	"Records": [
-		"8th most fish caught in channel breadworms !",
-		"4th most fish seen in channel breadworms !",
+		"6th most fish caught in channel breadworms !",
+		"🥉 Third most fish seen in channel breadworms !",
 		"12th biggest fish record in channel breadworms !",
 		"🥇 Most points on tournament leaderboard in channel breadworms !",
 		"8th most fish caught globally 🌐 !",
 		"5th most fish seen globally 🌐 !",
-		"20th biggest fish record globally 🌐 !",
 		"🥉 Third most points on tournament leaderboard in channel julialuxel !",
 		"🥈 Second most fish caught in channel swormbeard !",
 		"🥈 Second most fish seen in channel swormbeard !",
 		"6th biggest fish record in channel swormbeard !",
 		"🥇 Most points on tournament leaderboard in channel swormbeard !",
-		"7th most fish caught in channel vaiastol !",
-		"6th most fish seen in channel vaiastol !",
+		"6th most fish caught in channel vaiastol !",
+		"🥉 Third most fish seen in channel vaiastol !",
 		"4th biggest fish record in channel vaiastol !",
-		"7th place on tournament leaderboard in channel vaiastol !"
+		"🥉 Third most points on tournament leaderboard in channel vaiastol !"
 	],
 	"Other accomplishments": {
 		"Accomplishments": null,
@@ -1644,7 +1643,10 @@
 				"Weight in lbs": 95.45,
 				"Catchtype": "Normal",
 				"Date": "2025-04-26 23:25:57 UTC",
-				"Chat": "vaiastol"
+				"Chat": "vaiastol",
+				"Record": [
+					"🥇 Biggest 🪸 coral record in channel vaiastol !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🪸 coral",
@@ -3424,10 +3426,7 @@
 				"Weight in lbs": 255.87,
 				"Catchtype": "Normal",
 				"Date": "2025-03-18 07:27:42 UTC",
-				"Chat": "breadworms",
-				"Record": [
-					"🥇 Biggest 🫎 moose record in channel breadworms !"
-				]
+				"Chat": "breadworms"
 			},
 			"Smallest catch": {
 				"Fish": "🫎 moose",
@@ -6253,5 +6252,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

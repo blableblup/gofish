@@ -4,8 +4,8 @@
 		"🌟 Has found all the treasures from legendary pirate Red Avery: 👑 crown 🗡️ dagger 🧭 compass !"
 	],
 	"Records": [
-		"16th most fish caught globally 🌐 !",
-		"13th most fish seen globally 🌐 !",
+		"14th most fish caught globally 🌐 !",
+		"16th most fish seen globally 🌐 !",
 		"🥇 Most fish caught in channel omie !",
 		"🥇 Most fish seen in channel omie !",
 		"🥈 Second biggest fish record in channel omie !",
@@ -213,16 +213,16 @@
 			"Chat": "omie"
 		},
 		{
-			"Fish": "🍄‍🟫 brownmushroom",
-			"Weight in lbs": 10.89,
-			"Catchtype": "Normal",
+			"Fish": "🐟 fish",
+			"Weight in lbs": 0.1,
+			"Catchtype": "Mouth bonus",
 			"Date": "2025-05-30 15:28:48 UTC",
 			"Chat": "omie"
 		},
 		{
-			"Fish": "🐟 fish",
-			"Weight in lbs": 0.1,
-			"Catchtype": "Mouth bonus",
+			"Fish": "🍄‍🟫 brownmushroom",
+			"Weight in lbs": 10.89,
+			"Catchtype": "Normal",
 			"Date": "2025-05-30 15:28:48 UTC",
 			"Chat": "omie"
 		},
@@ -855,7 +855,10 @@
 				"Weight in lbs": 0.28,
 				"Catchtype": "Normal",
 				"Date": "2025-05-04 03:08:47 UTC",
-				"Chat": "omie"
+				"Chat": "omie",
+				"Record": [
+					"🥇 Smallest 🍄‍🟫 brownmushroom record in channel omie !"
+				]
 			}
 		},
 		"candy 🍬": {
@@ -1081,7 +1084,6 @@
 				"Date": "2025-02-14 04:44:30 UTC",
 				"Chat": "omie",
 				"Record": [
-					"🥇 Smallest 🧥 coat record globally 🌐 !",
 					"🥇 Smallest 🧥 coat record in channel omie !"
 				]
 			}
@@ -1263,10 +1265,7 @@
 				"Weight in lbs": 0.32,
 				"Catchtype": "Normal",
 				"Date": "2024-11-26 23:13:22 UTC",
-				"Chat": "omie",
-				"Record": [
-					"🥇 Smallest 🪸 coral record in channel omie !"
-				]
+				"Chat": "omie"
 			}
 		},
 		"crab 🦀": {
@@ -1739,10 +1738,7 @@
 				"Weight in lbs": 3.7,
 				"Catchtype": "Normal",
 				"Date": "2025-02-22 23:20:50 UTC",
-				"Chat": "omie",
-				"Record": [
-					"🥇 Smallest 🦆 duck record in channel omie !"
-				]
+				"Chat": "omie"
 			}
 		},
 		"emptynest 🪹": {
@@ -1913,7 +1909,10 @@
 				"Weight in lbs": 0.1,
 				"Catchtype": "Mouth bonus",
 				"Date": "2025-05-30 15:28:48 UTC",
-				"Chat": "omie"
+				"Chat": "omie",
+				"Record": [
+					"🥇 Smallest 🐟 fish record in channel omie !"
+				]
 			}
 		},
 		"frog 🐸": {
@@ -2416,7 +2415,10 @@
 				"Weight in lbs": 0.07,
 				"Catchtype": "Normal",
 				"Date": "2025-05-20 02:55:23 UTC",
-				"Chat": "omie"
+				"Chat": "omie",
+				"Record": [
+					"🥇 Smallest 🍃 leaf record in channel omie !"
+				]
 			}
 		},
 		"lizard 🦎": {
@@ -2888,10 +2890,7 @@
 				"Weight in lbs": 129.22,
 				"Catchtype": "Normal",
 				"Date": "2025-03-04 06:13:47 UTC",
-				"Chat": "omie",
-				"Record": [
-					"🥇 Biggest 🐙 octopus record in channel omie !"
-				]
+				"Chat": "omie"
 			},
 			"Smallest catch": {
 				"Fish": "🐙 octopus",
@@ -3020,7 +3019,10 @@
 				"Weight in lbs": 0.14,
 				"Catchtype": "Normal",
 				"Date": "2025-05-02 23:26:41 UTC",
-				"Chat": "omie"
+				"Chat": "omie",
+				"Record": [
+					"🥇 Smallest 🦪 oyster record in channel omie !"
+				]
 			}
 		},
 		"penguin 🐧": {
@@ -4008,10 +4010,7 @@
 				"Weight in lbs": 0.06,
 				"Catchtype": "Normal",
 				"Date": "2024-10-24 12:06:54 UTC",
-				"Chat": "omie",
-				"Record": [
-					"🥇 Smallest 🐌 snail record in channel omie !"
-				]
+				"Chat": "omie"
 			}
 		},
 		"snake 🐍": {
@@ -5074,5 +5073,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

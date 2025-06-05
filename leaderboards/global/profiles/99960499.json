@@ -3,7 +3,7 @@
 	"Progress": null,
 	"Records": [
 		"🥇 Most fish caught in channel aquaismissing !",
-		"🥇 Most fish seen in channel aquaismissing !",
+		"🥈 Second most fish seen in channel aquaismissing !",
 		"4th biggest fish record in channel aquaismissing !"
 	],
 	"Other accomplishments": {
@@ -698,10 +698,7 @@
 				"Weight in lbs": 28.04,
 				"Catchtype": "Normal",
 				"Date": "2024-11-29 15:35:14 UTC",
-				"Chat": "aquaismissing",
-				"Record": [
-					"🥇 Biggest 🦪 oyster record in channel aquaismissing !"
-				]
+				"Chat": "aquaismissing"
 			},
 			"Smallest catch": {
 				"Fish": "🦪 oyster",
@@ -1191,10 +1188,7 @@
 				"Weight in lbs": 1.53,
 				"Catchtype": "Normal",
 				"Date": "2025-03-30 22:00:30 UTC",
-				"Chat": "aquaismissing",
-				"Record": [
-					"🥇 Smallest 🐠 tropicalfish record in channel aquaismissing !"
-				]
+				"Chat": "aquaismissing"
 			}
 		},
 		"umbrella ☂️": {
@@ -1397,5 +1391,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

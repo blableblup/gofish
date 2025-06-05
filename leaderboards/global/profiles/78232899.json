@@ -3,13 +3,13 @@
 	"Progress": null,
 	"Records": [
 		"13th most fish seen globally 🌐 !",
-		"9th most fish caught in channel psp1g !",
-		"10th most fish seen in channel psp1g !",
-		"19th place on tournament leaderboard in channel psp1g !",
-		"8th most fish caught in channel wuh6 !",
-		"8th most fish seen in channel wuh6 !",
+		"8th most fish caught in channel psp1g !",
+		"8th most fish seen in channel psp1g !",
+		"15th place on tournament leaderboard in channel psp1g !",
+		"10th most fish caught in channel wuh6 !",
+		"11th most fish seen in channel wuh6 !",
 		"11th biggest fish record in channel wuh6 !",
-		"12th place on tournament leaderboard in channel wuh6 !"
+		"13th place on tournament leaderboard in channel wuh6 !"
 	],
 	"Other accomplishments": {
 		"Accomplishments": null,
@@ -3389,14 +3389,20 @@
 				"Weight in lbs": 2.83,
 				"Catchtype": "Normal",
 				"Date": "2025-05-27 10:56:25 UTC",
-				"Chat": "psp1g"
+				"Chat": "psp1g",
+				"Record": [
+					"🥇 Biggest 👡 sandal record in channel psp1g !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "👡 sandal",
 				"Weight in lbs": 0.38,
 				"Catchtype": "Normal",
 				"Date": "2025-05-26 12:52:13 UTC",
-				"Chat": "psp1g"
+				"Chat": "psp1g",
+				"Record": [
+					"🥇 Smallest 👡 sandal record in channel psp1g !"
+				]
 			}
 		},
 		"sandwich 🥪": {
@@ -3801,7 +3807,10 @@
 				"Weight in lbs": 5.92,
 				"Catchtype": "Normal",
 				"Date": "2025-05-25 17:38:47 UTC",
-				"Chat": "psp1g"
+				"Chat": "psp1g",
+				"Record": [
+					"🥇 Biggest 🐚 shell record in channel psp1g !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐚 shell",
@@ -4979,5 +4988,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

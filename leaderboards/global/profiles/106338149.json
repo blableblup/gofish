@@ -2,9 +2,9 @@
 	"Name": "cptblack_",
 	"Progress": null,
 	"Records": [
-		"9th most fish caught in channel jellyuh !",
+		"8th most fish caught in channel jellyuh !",
 		"9th most fish seen in channel jellyuh !",
-		"8th biggest fish record in channel jellyuh !"
+		"9th biggest fish record in channel jellyuh !"
 	],
 	"Other accomplishments": {
 		"Accomplishments": null,
@@ -317,7 +317,10 @@
 				"Weight in lbs": 0.82,
 				"Catchtype": "Normal",
 				"Date": "2025-05-13 07:14:51 UTC",
-				"Chat": "jellyuh"
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Smallest 🐡 blowfish record in channel jellyuh !"
+				]
 			}
 		},
 		"boot 👢": {
@@ -417,7 +420,10 @@
 				"Weight in lbs": 9.56,
 				"Catchtype": "Normal",
 				"Date": "2025-05-09 03:44:38 UTC",
-				"Chat": "jellyuh"
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Biggest 🩲 briefs record in channel jellyuh !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🩲 briefs",
@@ -521,10 +527,7 @@
 				"Weight in lbs": 17.82,
 				"Catchtype": "Normal",
 				"Date": "2025-04-16 07:55:37 UTC",
-				"Chat": "jellyuh",
-				"Record": [
-					"🥇 Biggest 🪸 coral record in channel jellyuh !"
-				]
+				"Chat": "jellyuh"
 			},
 			"Smallest catch": {
 				"Fish": "🪸 coral",
@@ -898,7 +901,10 @@
 				"Weight in lbs": 0.02,
 				"Catchtype": "Normal",
 				"Date": "2025-04-30 02:28:22 UTC",
-				"Chat": "jellyuh"
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Smallest 🎏 lure record in channel jellyuh !"
+				]
 			}
 		},
 		"octopus 🐙": {
@@ -1359,10 +1365,7 @@
 				"Weight in lbs": 150.06,
 				"Catchtype": "Normal",
 				"Date": "2025-02-24 03:41:43 UTC",
-				"Chat": "jellyuh",
-				"Record": [
-					"🥇 Biggest 🐋 whale2 record in channel jellyuh !"
-				]
+				"Chat": "jellyuh"
 			},
 			"Smallest catch": {
 				"Fish": "🐋 whale2",
@@ -1463,5 +1466,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

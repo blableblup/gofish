@@ -5,7 +5,11 @@
 		"6th most fish caught in channel dizzy !",
 		"6th most fish seen in channel dizzy !",
 		"🥉 Third biggest fish record in channel dizzy !",
-		"5th place on tournament leaderboard in channel dizzy !"
+		"5th place on tournament leaderboard in channel dizzy !",
+		"🥈 Second most fish caught in channel ryanpotat !",
+		"🥈 Second most fish seen in channel ryanpotat !",
+		"🥇 Biggest fish record in channel ryanpotat !",
+		"🥈 Second most points on tournament leaderboard in channel ryanpotat !"
 	],
 	"Other accomplishments": {
 		"Accomplishments": null,
@@ -1736,14 +1740,20 @@
 				"Weight in lbs": 5.05,
 				"Catchtype": "Normal",
 				"Date": "2024-12-23 18:12:05 UTC",
-				"Chat": "ryanpotat"
+				"Chat": "ryanpotat",
+				"Record": [
+					"🥇 Biggest 🪺 nestwitheggs record in channel ryanpotat !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🪺 nestwitheggs",
 				"Weight in lbs": 5.05,
 				"Catchtype": "Normal",
 				"Date": "2024-12-23 18:12:05 UTC",
-				"Chat": "ryanpotat"
+				"Chat": "ryanpotat",
+				"Record": [
+					"🥇 Smallest 🪺 nestwitheggs record in channel ryanpotat !"
+				]
 			}
 		},
 		"octopus 🐙": {
@@ -2655,10 +2665,7 @@
 				"Weight in lbs": 0.06,
 				"Catchtype": "Normal",
 				"Date": "2024-11-08 12:15:27 UTC",
-				"Chat": "dizzy",
-				"Record": [
-					"🥇 Smallest 🐌 snail record in channel dizzy !"
-				]
+				"Chat": "dizzy"
 			}
 		},
 		"snake 🐍": {
@@ -3430,5 +3437,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

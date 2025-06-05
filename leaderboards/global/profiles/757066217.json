@@ -1,7 +1,10 @@
 {
 	"Name": "mxrio41",
 	"Progress": null,
-	"Records": null,
+	"Records": [
+		"🥇 Most fish caught in channel yopego !",
+		"🥇 Most fish seen in channel yopego !"
+	],
 	"Other accomplishments": {
 		"Accomplishments": null,
 		"Shinies": null
@@ -294,7 +297,10 @@
 				"Weight in lbs": 23.57,
 				"Catchtype": "Normal",
 				"Date": "2024-10-16 12:00:16 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Biggest 🐡 blowfish record in channel yopego !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐡 blowfish",
@@ -398,14 +404,20 @@
 				"Weight in lbs": 5.43,
 				"Catchtype": "Normal",
 				"Date": "2024-10-07 19:21:27 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Biggest 🦀 crab record in channel yopego !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🦀 crab",
 				"Weight in lbs": 1.24,
 				"Catchtype": "Normal",
 				"Date": "2024-10-25 21:25:36 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Smallest 🦀 crab record in channel yopego !"
+				]
 			}
 		},
 		"dagger 🗡️": {
@@ -450,7 +462,10 @@
 				"Weight in lbs": 37.62,
 				"Catchtype": "Normal",
 				"Date": "2024-10-15 23:13:49 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Biggest 🗡️ dagger record in channel yopego !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🗡️ dagger",
@@ -554,7 +569,10 @@
 				"Weight in lbs": 3.56,
 				"Catchtype": "Normal",
 				"Date": "2024-10-23 21:10:21 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Biggest 🪝 hook record in channel yopego !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🪝 hook",
@@ -606,7 +624,10 @@
 				"Weight in lbs": 4.64,
 				"Catchtype": "Normal",
 				"Date": "2024-11-04 03:53:16 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Biggest 🎏 lure record in channel yopego !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🎏 lure",
@@ -658,14 +679,20 @@
 				"Weight in lbs": 33.68,
 				"Catchtype": "Normal",
 				"Date": "2024-10-20 20:39:44 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Biggest 🪨 rock record in channel yopego !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🪨 rock",
 				"Weight in lbs": 33.68,
 				"Catchtype": "Normal",
 				"Date": "2024-10-20 20:39:44 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Smallest 🪨 rock record in channel yopego !"
+				]
 			}
 		},
 		"shell 🐚": {
@@ -762,7 +789,10 @@
 				"Weight in lbs": 18.75,
 				"Catchtype": "Normal",
 				"Date": "2024-11-04 07:04:41 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Biggest 🦐 shrimp record in channel yopego !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🦐 shrimp",
@@ -821,7 +851,10 @@
 				"Weight in lbs": 1.27,
 				"Catchtype": "Normal",
 				"Date": "2024-10-15 19:47:50 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Smallest 💀 skull record in channel yopego !"
+				]
 			}
 		},
 		"snail 🐌": {
@@ -866,7 +899,10 @@
 				"Weight in lbs": 8.69,
 				"Catchtype": "Normal",
 				"Date": "2024-10-26 07:39:22 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Biggest 🐌 snail record in channel yopego !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐌 snail",
@@ -925,7 +961,10 @@
 				"Weight in lbs": 0.08,
 				"Catchtype": "Normal",
 				"Date": "2024-10-17 22:12:49 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Smallest 🐍 snake record in channel yopego !"
+				]
 			}
 		},
 		"socks 🧦": {
@@ -970,7 +1009,10 @@
 				"Weight in lbs": 1.53,
 				"Catchtype": "Normal",
 				"Date": "2024-10-16 21:05:11 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Biggest 🧦 socks record in channel yopego !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🧦 socks",
@@ -1133,7 +1175,10 @@
 				"Weight in lbs": 0.76,
 				"Catchtype": "Normal",
 				"Date": "2024-11-04 07:34:54 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Smallest 🐢 turtle record in channel yopego !"
+				]
 			}
 		}
 	},
@@ -1231,5 +1276,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

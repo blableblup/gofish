@@ -1,7 +1,11 @@
 {
 	"Name": "osnyatsky",
 	"Progress": null,
-	"Records": null,
+	"Records": [
+		"🥈 Second most fish caught in channel pokirule !",
+		"🥈 Second most fish seen in channel pokirule !",
+		"🥈 Second biggest fish record in channel pokirule !"
+	],
 	"Other accomplishments": {
 		"Accomplishments": null,
 		"Shinies": null
@@ -491,7 +495,10 @@
 				"Weight in lbs": 1.76,
 				"Catchtype": "Normal",
 				"Date": "2025-01-06 19:54:33 UTC",
-				"Chat": "pokirule"
+				"Chat": "pokirule",
+				"Record": [
+					"🥇 Biggest 👢 boot record in channel pokirule !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "👢 boot",
@@ -661,7 +668,10 @@
 				"Weight in lbs": 0.02,
 				"Catchtype": "Normal",
 				"Date": "2025-01-07 17:44:22 UTC",
-				"Chat": "pokirule"
+				"Chat": "pokirule",
+				"Record": [
+					"🥇 Smallest 🥫 cannedfood record in channel pokirule !"
+				]
 			}
 		},
 		"cockroach 🪳": {
@@ -1724,7 +1734,10 @@
 				"Weight in lbs": 9.57,
 				"Catchtype": "Normal",
 				"Date": "2025-01-07 23:14:44 UTC",
-				"Chat": "pokirule"
+				"Chat": "pokirule",
+				"Record": [
+					"🥇 Smallest 🐙 octopus record in channel pokirule !"
+				]
 			}
 		},
 		"oyster 🦪": {
@@ -1890,7 +1903,10 @@
 				"Weight in lbs": 1.97,
 				"Catchtype": "Normal",
 				"Date": "2024-12-25 08:31:40 UTC",
-				"Chat": "pokirule"
+				"Chat": "pokirule",
+				"Record": [
+					"🥇 Biggest 🥪 sandwich record in channel pokirule !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🥪 sandwich",
@@ -2232,7 +2248,10 @@
 				"Weight in lbs": 30.91,
 				"Catchtype": "Normal",
 				"Date": "2025-01-08 21:50:50 UTC",
-				"Chat": "pokirule"
+				"Chat": "pokirule",
+				"Record": [
+					"🥇 Biggest 🦐 shrimp record in channel pokirule !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🦐 shrimp",
@@ -3182,7 +3201,10 @@
 				"Weight in lbs": 10.4,
 				"Catchtype": "Normal",
 				"Date": "2025-01-08 18:07:55 UTC",
-				"Chat": "pokirule"
+				"Chat": "pokirule",
+				"Record": [
+					"🥇 Biggest 🪱 worm record in channel pokirule !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🪱 worm",
@@ -3304,5 +3326,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

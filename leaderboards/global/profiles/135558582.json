@@ -3,8 +3,8 @@
 	"Progress": null,
 	"Records": [
 		"4th biggest fish record globally 🌐 !",
-		"5th most fish caught in channel jellyuh !",
-		"5th most fish seen in channel jellyuh !",
+		"🥉 Third most fish caught in channel jellyuh !",
+		"🥉 Third most fish seen in channel jellyuh !",
 		"🥇 Biggest fish record in channel jellyuh !",
 		"🥇 Most points on tournament leaderboard in channel jellyuh !"
 	],
@@ -942,7 +942,10 @@
 				"Weight in lbs": 269.98,
 				"Catchtype": "Normal",
 				"Date": "2025-05-19 21:19:50 UTC",
-				"Chat": "jellyuh"
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Biggest 🐉 dragon record in channel jellyuh !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐉 dragon",
@@ -2232,7 +2235,10 @@
 				"Weight in lbs": 1.97,
 				"Catchtype": "Normal",
 				"Date": "2025-05-10 02:39:04 UTC",
-				"Chat": "jellyuh"
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Biggest 🧦 socks record in channel jellyuh !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🧦 socks",
@@ -2501,7 +2507,10 @@
 				"Weight in lbs": 152.1,
 				"Catchtype": "Normal",
 				"Date": "2025-04-25 23:03:06 UTC",
-				"Chat": "jellyuh"
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Biggest 🐋 whale2 record in channel jellyuh !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐋 whale2",
@@ -2634,5 +2643,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

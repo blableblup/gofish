@@ -2,8 +2,8 @@
 	"Name": "vaiastol",
 	"Progress": null,
 	"Records": [
-		"20th most fish caught globally 🌐 !",
-		"17th most fish seen globally 🌐 !",
+		"18th most fish caught globally 🌐 !",
+		"20th most fish seen globally 🌐 !",
 		"7th biggest fish record globally 🌐 !",
 		"🥇 Most fish caught in channel vaiastol !",
 		"🥈 Second most fish seen in channel vaiastol !",
@@ -860,7 +860,10 @@
 				"Weight in lbs": 2.86,
 				"Catchtype": "Hatched egg",
 				"Date": "2025-05-22 14:52:45 UTC",
-				"Chat": "vaiastol"
+				"Chat": "vaiastol",
+				"Record": [
+					"🥇 Biggest 🐦 bird record in channel vaiastol !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐦 bird",
@@ -925,7 +928,10 @@
 				"Weight in lbs": 0.16,
 				"Catchtype": "Hatched egg",
 				"Date": "2025-05-18 10:43:38 UTC",
-				"Chat": "vaiastol"
+				"Chat": "vaiastol",
+				"Record": [
+					"🥇 Smallest 🐦‍⬛ blackbird record in channel vaiastol !"
+				]
 			}
 		},
 		"blowfish 🐡": {
@@ -1499,10 +1505,7 @@
 				"Weight in lbs": 60.38,
 				"Catchtype": "Normal",
 				"Date": "2024-09-19 04:57:44 UTC",
-				"Chat": "vaiastol",
-				"Record": [
-					"🥇 Biggest 🪸 coral record in channel vaiastol !"
-				]
+				"Chat": "vaiastol"
 			},
 			"Smallest catch": {
 				"Fish": "🪸 coral",
@@ -2567,7 +2570,10 @@
 				"Weight in lbs": 0.05,
 				"Catchtype": "Normal",
 				"Date": "2025-04-30 23:57:39 UTC",
-				"Chat": "vaiastol"
+				"Chat": "vaiastol",
+				"Record": [
+					"🥇 Smallest 🦎 lizard record in channel vaiastol !"
+				]
 			}
 		},
 		"lobster 🦞": {
@@ -3460,10 +3466,7 @@
 				"Weight in lbs": 3.86,
 				"Catchtype": "Normal",
 				"Date": "2025-04-06 12:31:04 UTC",
-				"Chat": "vaiastol",
-				"Record": [
-					"🥇 Biggest ☘️ shamrock record in channel vaiastol !"
-				]
+				"Chat": "vaiastol"
 			},
 			"Smallest catch": {
 				"Fish": "☘️ shamrock",
@@ -4307,10 +4310,7 @@
 				"Weight in lbs": 1.14,
 				"Catchtype": "Hatched egg",
 				"Date": "2024-10-28 23:35:23 UTC",
-				"Chat": "vaiastol",
-				"Record": [
-					"🥇 Biggest 🦢 swan record in channel vaiastol !"
-				]
+				"Chat": "vaiastol"
 			},
 			"Smallest catch": {
 				"Fish": "🦢 swan",
@@ -4543,10 +4543,7 @@
 				"Weight in lbs": 0.15,
 				"Catchtype": "Normal",
 				"Date": "2025-03-30 04:19:53 UTC",
-				"Chat": "vaiastol",
-				"Record": [
-					"🥇 Smallest 🌷 tulip record in channel vaiastol !"
-				]
+				"Chat": "vaiastol"
 			}
 		},
 		"turtle 🐢": {
@@ -4997,5 +4994,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

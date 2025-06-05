@@ -7,10 +7,10 @@
 		"💐 Has seen all the flowers: 🌹 rose 🌻 sunflower 🌷 tulip 🥀 wiltedflower !"
 	],
 	"Records": [
-		"15th most fish caught in channel breadworms !",
+		"16th most fish caught in channel breadworms !",
 		"🥇 Most fish seen in channel breadworms !",
 		"10th biggest fish record in channel breadworms !",
-		"14th place on tournament leaderboard in channel breadworms !",
+		"15th place on tournament leaderboard in channel breadworms !",
 		"🥇 Most fish seen globally 🌐 !",
 		"17th biggest fish record globally 🌐 !"
 	],
@@ -205,16 +205,16 @@
 			"Chat": "breadworms"
 		},
 		{
-			"Fish": "🪳 cockroach",
-			"Weight in lbs": 19.07,
-			"Catchtype": "Normal",
+			"Fish": "🐙 octopus",
+			"Weight in lbs": 0.9,
+			"Catchtype": "Mouth bonus",
 			"Date": "2025-05-17 11:28:42 UTC",
 			"Chat": "breadworms"
 		},
 		{
-			"Fish": "🐙 octopus",
-			"Weight in lbs": 0.9,
-			"Catchtype": "Mouth bonus",
+			"Fish": "🪳 cockroach",
+			"Weight in lbs": 19.07,
+			"Catchtype": "Normal",
 			"Date": "2025-05-17 11:28:42 UTC",
 			"Chat": "breadworms"
 		},
@@ -3880,8 +3880,7 @@
 				"Date": "2023-12-19 23:47:32 UTC",
 				"Chat": "breadworms",
 				"Record": [
-					"🥇 Biggest 🪨 rock record in channel breadworms !",
-					"🥇 Biggest 🪨 rock record globally 🌐 !"
+					"🥇 Biggest 🪨 rock record in channel breadworms !"
 				]
 			},
 			"Smallest catch": {
@@ -6028,5 +6027,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

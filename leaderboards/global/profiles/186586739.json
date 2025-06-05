@@ -2,11 +2,11 @@
 	"Name": "commanda_u",
 	"Progress": null,
 	"Records": [
+		"🥇 Biggest fish record in channel deme !",
 		"15th most fish caught in channel psp1g !",
 		"15th most fish seen in channel psp1g !",
-		"17th biggest fish record in channel psp1g !",
-		"20th place on tournament leaderboard in channel psp1g !",
-		"15th most fish caught in channel wuh6 !",
+		"18th biggest fish record in channel psp1g !",
+		"16th most fish caught in channel wuh6 !",
 		"15th most fish seen in channel wuh6 !",
 		"17th biggest fish record in channel wuh6 !"
 	],
@@ -3548,7 +3548,10 @@
 				"Weight in lbs": 1.64,
 				"Catchtype": "Normal",
 				"Date": "2025-05-31 10:40:40 UTC",
-				"Chat": "deme"
+				"Chat": "deme",
+				"Record": [
+					"🥇 Smallest 🦑 squid record in channel deme !"
+				]
 			}
 		},
 		"sunflower 🌻": {
@@ -4258,5 +4261,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

@@ -1,7 +1,11 @@
 {
 	"Name": "tipicogato",
 	"Progress": null,
-	"Records": null,
+	"Records": [
+		"🥇 Most fish caught in channel xriggby !",
+		"🥇 Most fish seen in channel xriggby !",
+		"🥇 Biggest fish record in channel xriggby !"
+	],
 	"Other accomplishments": {
 		"Accomplishments": null,
 		"Shinies": null
@@ -403,14 +407,20 @@
 				"Weight in lbs": 0.61,
 				"Catchtype": "Normal",
 				"Date": "2024-11-22 23:40:38 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Biggest 👢 boot record in channel xriggby !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "👢 boot",
 				"Weight in lbs": 0.61,
 				"Catchtype": "Normal",
 				"Date": "2024-11-22 23:40:38 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Smallest 👢 boot record in channel xriggby !"
+				]
 			}
 		},
 		"cannedfood 🥫": {
@@ -559,7 +569,10 @@
 				"Weight in lbs": 88.51,
 				"Catchtype": "Normal",
 				"Date": "2024-10-04 23:18:08 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Biggest 🪸 coral record in channel xriggby !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🪸 coral",
@@ -611,14 +624,20 @@
 				"Weight in lbs": 9.13,
 				"Catchtype": "Normal",
 				"Date": "2024-10-11 05:48:45 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Biggest 🦀 crab record in channel xriggby !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🦀 crab",
 				"Weight in lbs": 2.73,
 				"Catchtype": "Normal",
 				"Date": "2024-10-13 16:57:28 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Smallest 🦀 crab record in channel xriggby !"
+				]
 			}
 		},
 		"crocodile 🐊": {
@@ -663,14 +682,20 @@
 				"Weight in lbs": 28.5,
 				"Catchtype": "Normal",
 				"Date": "2024-11-13 23:22:21 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Biggest 🐊 crocodile record in channel xriggby !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐊 crocodile",
 				"Weight in lbs": 10.82,
 				"Catchtype": "Normal",
 				"Date": "2024-10-16 23:14:40 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Smallest 🐊 crocodile record in channel xriggby !"
+				]
 			}
 		},
 		"crown 👑": {
@@ -715,14 +740,20 @@
 				"Weight in lbs": 30.28,
 				"Catchtype": "Normal",
 				"Date": "2024-10-19 22:02:42 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Biggest 👑 crown record in channel xriggby !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "👑 crown",
 				"Weight in lbs": 30.28,
 				"Catchtype": "Normal",
 				"Date": "2024-10-19 22:02:42 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Smallest 👑 crown record in channel xriggby !"
+				]
 			}
 		},
 		"dagger 🗡️": {
@@ -767,14 +798,20 @@
 				"Weight in lbs": 36.79,
 				"Catchtype": "Normal",
 				"Date": "2024-11-10 02:41:17 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Biggest 🗡️ dagger record in channel xriggby !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🗡️ dagger",
 				"Weight in lbs": 36.79,
 				"Catchtype": "Normal",
 				"Date": "2024-11-10 02:41:17 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Smallest 🗡️ dagger record in channel xriggby !"
+				]
 			}
 		},
 		"darksunglasses 🕶️": {
@@ -819,14 +856,20 @@
 				"Weight in lbs": 8.51,
 				"Catchtype": "Normal",
 				"Date": "2024-09-19 01:37:22 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Biggest 🕶️ darksunglasses record in channel xriggby !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🕶️ darksunglasses",
 				"Weight in lbs": 8.51,
 				"Catchtype": "Normal",
 				"Date": "2024-09-19 01:37:22 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Smallest 🕶️ darksunglasses record in channel xriggby !"
+				]
 			}
 		},
 		"fish 🐟": {
@@ -874,14 +917,20 @@
 				"Weight in lbs": 15.66,
 				"Catchtype": "Normal",
 				"Date": "2024-10-23 02:32:49 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Biggest 🐟 fish record in channel xriggby !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐟 fish",
 				"Weight in lbs": 1.43,
 				"Catchtype": "Normal",
 				"Date": "2024-10-27 05:26:50 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Smallest 🐟 fish record in channel xriggby !"
+				]
 			}
 		},
 		"frog 🐸": {
@@ -926,14 +975,20 @@
 				"Weight in lbs": 4.76,
 				"Catchtype": "Normal",
 				"Date": "2024-09-28 21:45:31 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Biggest 🐸 frog record in channel xriggby !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐸 frog",
 				"Weight in lbs": 4.76,
 				"Catchtype": "Normal",
 				"Date": "2024-09-28 21:45:31 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Smallest 🐸 frog record in channel xriggby !"
+				]
 			}
 		},
 		"gloves 🧤": {
@@ -1085,14 +1140,20 @@
 				"Weight in lbs": 14.12,
 				"Catchtype": "Normal",
 				"Date": "2024-10-06 01:37:10 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Biggest 🪼 jellyfish record in channel xriggby !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🪼 jellyfish",
 				"Weight in lbs": 14.12,
 				"Catchtype": "Normal",
 				"Date": "2024-10-06 01:37:10 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Smallest 🪼 jellyfish record in channel xriggby !"
+				]
 			}
 		},
 		"lobster 🦞": {
@@ -1137,14 +1198,20 @@
 				"Weight in lbs": 50.49,
 				"Catchtype": "Normal",
 				"Date": "2024-11-01 20:58:17 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Biggest 🦞 lobster record in channel xriggby !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🦞 lobster",
 				"Weight in lbs": 23.61,
 				"Catchtype": "Normal",
 				"Date": "2024-11-13 04:50:56 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Smallest 🦞 lobster record in channel xriggby !"
+				]
 			}
 		},
 		"lure 🎏": {
@@ -1192,7 +1259,10 @@
 				"Weight in lbs": 3.76,
 				"Catchtype": "Normal",
 				"Date": "2024-10-14 00:12:49 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Biggest 🎏 lure record in channel xriggby !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🎏 lure",
@@ -1252,7 +1322,10 @@
 				"Weight in lbs": 16.38,
 				"Catchtype": "Normal",
 				"Date": "2024-12-16 01:30:43 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Biggest 🍄 mushroom record in channel xriggby !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🍄 mushroom",
@@ -1307,7 +1380,10 @@
 				"Weight in lbs": 119.78,
 				"Catchtype": "Normal",
 				"Date": "2024-09-21 17:32:06 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Biggest 🐙 octopus record in channel xriggby !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐙 octopus",
@@ -1369,7 +1445,10 @@
 				"Weight in lbs": 16.61,
 				"Catchtype": "Normal",
 				"Date": "2024-12-09 00:52:12 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Smallest 🦪 oyster record in channel xriggby !"
+				]
 			}
 		},
 		"seaweed 🌿": {
@@ -1414,14 +1493,20 @@
 				"Weight in lbs": 0.72,
 				"Catchtype": "Normal",
 				"Date": "2024-10-25 03:12:55 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Biggest 🌿 seaweed record in channel xriggby !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🌿 seaweed",
 				"Weight in lbs": 0.66,
 				"Catchtype": "Normal",
 				"Date": "2024-10-12 03:44:59 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Smallest 🌿 seaweed record in channel xriggby !"
+				]
 			}
 		},
 		"shell 🐚": {
@@ -1469,14 +1554,20 @@
 				"Weight in lbs": 2.11,
 				"Catchtype": "Normal",
 				"Date": "2024-11-28 22:05:01 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Biggest 🐚 shell record in channel xriggby !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐚 shell",
 				"Weight in lbs": 0.35,
 				"Catchtype": "Normal",
 				"Date": "2024-10-12 07:53:18 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Smallest 🐚 shell record in channel xriggby !"
+				]
 			}
 		},
 		"shrimp 🦐": {
@@ -1524,14 +1615,20 @@
 				"Weight in lbs": 15.89,
 				"Catchtype": "Normal",
 				"Date": "2024-10-13 21:00:50 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Biggest 🦐 shrimp record in channel xriggby !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🦐 shrimp",
 				"Weight in lbs": 11.26,
 				"Catchtype": "Normal",
 				"Date": "2024-10-19 14:30:46 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Smallest 🦐 shrimp record in channel xriggby !"
+				]
 			}
 		},
 		"skull 💀": {
@@ -1636,14 +1733,20 @@
 				"Weight in lbs": 3.49,
 				"Catchtype": "Normal",
 				"Date": "2024-10-06 04:54:07 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Biggest 🐍 snake record in channel xriggby !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐍 snake",
 				"Weight in lbs": 3.49,
 				"Catchtype": "Normal",
 				"Date": "2024-10-06 04:54:07 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Smallest 🐍 snake record in channel xriggby !"
+				]
 			}
 		},
 		"socks 🧦": {
@@ -1688,14 +1791,20 @@
 				"Weight in lbs": 0.5,
 				"Catchtype": "Normal",
 				"Date": "2024-09-25 03:35:39 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Biggest 🧦 socks record in channel xriggby !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🧦 socks",
 				"Weight in lbs": 0.39,
 				"Catchtype": "Normal",
 				"Date": "2024-11-29 01:16:23 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Smallest 🧦 socks record in channel xriggby !"
+				]
 			}
 		},
 		"spider 🕷️": {
@@ -1740,7 +1849,10 @@
 				"Weight in lbs": 8.15,
 				"Catchtype": "Normal",
 				"Date": "2024-09-21 18:27:18 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Biggest 🕷️ spider record in channel xriggby !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🕷️ spider",
@@ -1844,14 +1956,20 @@
 				"Weight in lbs": 43.83,
 				"Catchtype": "Normal",
 				"Date": "2024-11-09 04:16:33 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Biggest 🦑 squid record in channel xriggby !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🦑 squid",
 				"Weight in lbs": 43.83,
 				"Catchtype": "Normal",
 				"Date": "2024-11-09 04:16:33 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Smallest 🦑 squid record in channel xriggby !"
+				]
 			}
 		},
 		"teddybear 🧸": {
@@ -1948,14 +2066,20 @@
 				"Weight in lbs": 1.34,
 				"Catchtype": "Normal",
 				"Date": "2024-09-27 22:22:50 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Biggest 🩴 thongsandal record in channel xriggby !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🩴 thongsandal",
 				"Weight in lbs": 1.34,
 				"Catchtype": "Normal",
 				"Date": "2024-09-27 22:22:50 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Smallest 🩴 thongsandal record in channel xriggby !"
+				]
 			}
 		},
 		"turtle 🐢": {
@@ -2000,14 +2124,20 @@
 				"Weight in lbs": 39.92,
 				"Catchtype": "Normal",
 				"Date": "2024-10-22 23:42:18 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Biggest 🐢 turtle record in channel xriggby !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐢 turtle",
 				"Weight in lbs": 17.35,
 				"Catchtype": "Normal",
 				"Date": "2024-10-19 07:11:07 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Smallest 🐢 turtle record in channel xriggby !"
+				]
 			}
 		},
 		"whale2 🐋": {
@@ -2052,14 +2182,20 @@
 				"Weight in lbs": 122.08,
 				"Catchtype": "Normal",
 				"Date": "2024-11-23 01:48:09 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Biggest 🐋 whale2 record in channel xriggby !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐋 whale2",
 				"Weight in lbs": 115.96,
 				"Catchtype": "Normal",
 				"Date": "2024-10-08 23:59:26 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 Smallest 🐋 whale2 record in channel xriggby !"
+				]
 			}
 		},
 		"worm 🪱": {
@@ -2193,5 +2329,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

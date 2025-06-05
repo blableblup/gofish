@@ -1,7 +1,11 @@
 {
 	"Name": "xopowosidim667",
 	"Progress": null,
-	"Records": null,
+	"Records": [
+		"5th most fish caught in channel e1llas !",
+		"5th most fish seen in channel e1llas !",
+		"6th biggest fish record in channel e1llas !"
+	],
 	"Other accomplishments": {
 		"Accomplishments": null,
 		"Shinies": null
@@ -551,7 +555,10 @@
 				"Weight in lbs": 0.95,
 				"Catchtype": "Normal",
 				"Date": "2024-12-08 11:30:05 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 Biggest 🧤 gloves record in channel e1llas !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🧤 gloves",
@@ -765,14 +772,20 @@
 				"Weight in lbs": 17.18,
 				"Catchtype": "Normal",
 				"Date": "2024-12-10 11:11:08 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 Biggest 🦦 otter record in channel e1llas !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🦦 otter",
 				"Weight in lbs": 3.16,
 				"Catchtype": "Normal",
 				"Date": "2024-12-18 10:11:04 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 Smallest 🦦 otter record in channel e1llas !"
+				]
 			}
 		},
 		"shell 🐚": {
@@ -817,7 +830,10 @@
 				"Weight in lbs": 3.95,
 				"Catchtype": "Normal",
 				"Date": "2024-12-29 08:24:54 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 Biggest 🐚 shell record in channel e1llas !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐚 shell",
@@ -928,5 +944,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

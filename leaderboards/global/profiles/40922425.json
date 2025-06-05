@@ -1,7 +1,9 @@
 {
 	"Name": "obama",
 	"Progress": null,
-	"Records": null,
+	"Records": [
+		"19th most fish caught in channel vaiastol !"
+	],
 	"Other accomplishments": {
 		"Accomplishments": null,
 		"Shinies": null
@@ -1067,7 +1069,10 @@
 				"Weight in lbs": 29.11,
 				"Catchtype": "Normal",
 				"Date": "2025-05-26 22:11:41 UTC",
-				"Chat": "vaiastol"
+				"Chat": "vaiastol",
+				"Record": [
+					"🥇 Biggest 🧽 sponge record in channel vaiastol !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🧽 sponge",
@@ -1275,5 +1280,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

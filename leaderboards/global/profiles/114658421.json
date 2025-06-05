@@ -2,8 +2,9 @@
 	"Name": "wowitsdub",
 	"Progress": null,
 	"Records": [
+		"7th biggest fish record in channel psp1g !",
 		"7th most fish caught in channel wuh6 !",
-		"6th most fish seen in channel wuh6 !",
+		"5th most fish seen in channel wuh6 !",
 		"15th biggest fish record in channel wuh6 !",
 		"7th place on tournament leaderboard in channel wuh6 !"
 	],
@@ -520,7 +521,10 @@
 				"Weight in lbs": 5.28,
 				"Catchtype": "Normal",
 				"Date": "2025-05-16 18:25:22 UTC",
-				"Chat": "wuh6"
+				"Chat": "wuh6",
+				"Record": [
+					"🥇 Smallest 🧃 beveragebox record in channel wuh6 !"
+				]
 			}
 		},
 		"bird 🐦": {
@@ -1340,10 +1344,7 @@
 				"Weight in lbs": 4.4,
 				"Catchtype": "Normal",
 				"Date": "2025-04-06 19:25:33 UTC",
-				"Chat": "wuh6",
-				"Record": [
-					"🥇 Smallest 🐉 dragon record in channel wuh6 !"
-				]
+				"Chat": "wuh6"
 			}
 		},
 		"duck 🦆": {
@@ -2096,10 +2097,7 @@
 				"Weight in lbs": 63.56,
 				"Catchtype": "Jumped bonus",
 				"Date": "2025-03-21 09:54:48 UTC",
-				"Chat": "wuh6",
-				"Record": [
-					"🥇 Biggest 🦞 lobster record in channel wuh6 !"
-				]
+				"Chat": "wuh6"
 			},
 			"Smallest catch": {
 				"Fish": "🦞 lobster",
@@ -2151,7 +2149,10 @@
 				"Weight in lbs": 14.9,
 				"Catchtype": "Normal",
 				"Date": "2025-05-21 11:27:21 UTC",
-				"Chat": "wuh6"
+				"Chat": "wuh6",
+				"Record": [
+					"🥇 Biggest 🪵 log record in channel wuh6 !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🪵 log",
@@ -4357,5 +4358,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

@@ -2,7 +2,7 @@
 	"Name": "gimmeschmoneys",
 	"Progress": null,
 	"Records": [
-		"🥈 Second most fish caught in channel dizzy !",
+		"🥉 Third most fish caught in channel dizzy !",
 		"🥉 Third most fish seen in channel dizzy !",
 		"8th biggest fish record in channel dizzy !",
 		"🥉 Third most points on tournament leaderboard in channel dizzy !"
@@ -1689,7 +1689,10 @@
 				"Weight in lbs": 0.01,
 				"Catchtype": "Normal",
 				"Date": "2025-05-11 02:25:21 UTC",
-				"Chat": "dizzy"
+				"Chat": "dizzy",
+				"Record": [
+					"🥇 Smallest 🌾 grass record in channel dizzy !"
+				]
 			}
 		},
 		"hook 🪝": {
@@ -1914,14 +1917,22 @@
 				"Weight in lbs": 2,
 				"Catchtype": "Normal",
 				"Date": "2025-05-10 11:10:39 UTC",
-				"Chat": "dizzy"
+				"Chat": "dizzy",
+				"Record": [
+					"🥇 Biggest 🍃 leaf record in channel dizzy !",
+					"🥇 Biggest 🍃 leaf record globally 🌐 !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🍃 leaf",
 				"Weight in lbs": 0.01,
 				"Catchtype": "Normal",
 				"Date": "2025-05-24 22:56:28 UTC",
-				"Chat": "dizzy"
+				"Chat": "dizzy",
+				"Record": [
+					"🥇 Smallest 🍃 leaf record in channel dizzy !",
+					"🥇 Smallest 🍃 leaf record globally 🌐 !"
+				]
 			}
 		},
 		"lizard 🦎": {
@@ -2485,7 +2496,10 @@
 				"Weight in lbs": 2.9,
 				"Catchtype": "Normal",
 				"Date": "2025-05-15 21:16:02 UTC",
-				"Chat": "dizzy"
+				"Chat": "dizzy",
+				"Record": [
+					"🥇 Biggest 👡 sandal record in channel dizzy !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "👡 sandal",
@@ -2891,7 +2905,10 @@
 				"Weight in lbs": 5.9,
 				"Catchtype": "Normal",
 				"Date": "2025-05-03 20:58:43 UTC",
-				"Chat": "dizzy"
+				"Chat": "dizzy",
+				"Record": [
+					"🥇 Biggest 🐚 shell record in channel dizzy !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐚 shell",
@@ -3987,5 +4004,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

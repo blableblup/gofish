@@ -7,7 +7,9 @@
 		"🥇 Most fish caught in channel dizzy !",
 		"🥇 Most fish seen in channel dizzy !",
 		"🥇 Biggest fish record in channel dizzy !",
-		"🥇 Most points on tournament leaderboard in channel dizzy !"
+		"🥇 Most points on tournament leaderboard in channel dizzy !",
+		"19th most fish caught globally 🌐 !",
+		"20th most fish seen globally 🌐 !"
 	],
 	"Other accomplishments": {
 		"Accomplishments": null,
@@ -1903,7 +1905,10 @@
 				"Weight in lbs": 0.85,
 				"Catchtype": "Normal",
 				"Date": "2025-05-14 11:39:17 UTC",
-				"Chat": "dizzy"
+				"Chat": "dizzy",
+				"Record": [
+					"🥇 Biggest 🌾 grass record in channel dizzy !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🌾 grass",
@@ -3692,7 +3697,10 @@
 				"Weight in lbs": 0.05,
 				"Catchtype": "Normal",
 				"Date": "2025-04-29 15:31:46 UTC",
-				"Chat": "dizzy"
+				"Chat": "dizzy",
+				"Record": [
+					"🥇 Smallest 🐌 snail record in channel dizzy !"
+				]
 			}
 		},
 		"snake 🐍": {
@@ -4156,7 +4164,11 @@
 				"Weight in lbs": 0,
 				"Catchtype": "Normal",
 				"Date": "2025-04-24 11:49:44 UTC",
-				"Chat": "dizzy"
+				"Chat": "dizzy",
+				"Record": [
+					"🥇 Smallest 🌷 tulip record in channel dizzy !",
+					"🥇 Smallest 🌷 tulip record globally 🌐 !"
+				]
 			}
 		},
 		"turtle 🐢": {
@@ -4708,5 +4720,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

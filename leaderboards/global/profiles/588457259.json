@@ -6,14 +6,14 @@
 	],
 	"Records": [
 		"5th most fish caught globally 🌐 !",
-		"7th most fish seen globally 🌐 !",
+		"8th most fish seen globally 🌐 !",
 		"13th biggest fish record globally 🌐 !",
 		"🥇 Most fish caught in channel psp1g !",
 		"🥈 Second most fish seen in channel psp1g !",
 		"🥈 Second biggest fish record in channel psp1g !",
 		"🥇 Most points on tournament leaderboard in channel psp1g !",
 		"6th most fish caught in channel wuh6 !",
-		"5th most fish seen in channel wuh6 !",
+		"7th most fish seen in channel wuh6 !",
 		"5th biggest fish record in channel wuh6 !",
 		"6th place on tournament leaderboard in channel wuh6 !"
 	],
@@ -1192,7 +1192,10 @@
 				"Weight in lbs": 10.14,
 				"Catchtype": "Normal",
 				"Date": "2025-05-27 21:01:45 UTC",
-				"Chat": "psp1g"
+				"Chat": "psp1g",
+				"Record": [
+					"🥇 Biggest 🍄‍🟫 brownmushroom record in channel psp1g !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🍄‍🟫 brownmushroom",
@@ -1387,10 +1390,7 @@
 				"Weight in lbs": 5.91,
 				"Catchtype": "Normal",
 				"Date": "2025-03-03 00:25:24 UTC",
-				"Chat": "wuh6",
-				"Record": [
-					"🥇 Smallest 🧥 coat record in channel wuh6 !"
-				]
+				"Chat": "wuh6"
 			}
 		},
 		"cockroach 🪳": {
@@ -1722,20 +1722,14 @@
 				"Weight in lbs": 38.38,
 				"Catchtype": "Normal",
 				"Date": "2025-03-13 14:06:01 UTC",
-				"Chat": "wuh6",
-				"Record": [
-					"🥇 Biggest 👑 crown record in channel wuh6 !"
-				]
+				"Chat": "wuh6"
 			},
 			"Smallest catch": {
 				"Fish": "👑 crown",
 				"Weight in lbs": 38.38,
 				"Catchtype": "Normal",
 				"Date": "2025-03-13 14:06:01 UTC",
-				"Chat": "wuh6",
-				"Record": [
-					"🥇 Smallest 👑 crown record in channel wuh6 !"
-				]
+				"Chat": "wuh6"
 			}
 		},
 		"cucumber 🥒": {
@@ -2847,14 +2841,20 @@
 				"Weight in lbs": 1.74,
 				"Catchtype": "Normal",
 				"Date": "2025-05-25 03:02:04 UTC",
-				"Chat": "psp1g"
+				"Chat": "psp1g",
+				"Record": [
+					"🥇 Biggest 🍃 leaf record in channel psp1g !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🍃 leaf",
 				"Weight in lbs": 0.01,
 				"Catchtype": "Normal",
 				"Date": "2025-05-26 19:21:13 UTC",
-				"Chat": "psp1g"
+				"Chat": "psp1g",
+				"Record": [
+					"🥇 Smallest 🍃 leaf record in channel psp1g !"
+				]
 			}
 		},
 		"lizard 🦎": {
@@ -3787,10 +3787,7 @@
 				"Weight in lbs": 47.66,
 				"Catchtype": "Normal",
 				"Date": "2025-03-06 15:36:07 UTC",
-				"Chat": "wuh6",
-				"Record": [
-					"🥇 Biggest 🪨 rock record in channel wuh6 !"
-				]
+				"Chat": "wuh6"
 			},
 			"Smallest catch": {
 				"Fish": "🪨 rock",
@@ -5744,5 +5741,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

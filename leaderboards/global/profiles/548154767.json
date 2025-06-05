@@ -4,11 +4,11 @@
 		"🌟 Has encountered all the mythical fish: 🧞‍♂ malegenie 🧜‍♀️ mermaid 🦕 sauropod 🐉 dragon !"
 	],
 	"Records": [
+		"20th most fish seen globally 🌐 !",
 		"🥇 Most fish caught in channel julialuxel !",
 		"🥈 Second most fish seen in channel julialuxel !",
 		"4th biggest fish record in channel julialuxel !",
 		"🥈 Second most points on tournament leaderboard in channel julialuxel !",
-		"20th place on tournament leaderboard in channel psp1g !",
 		"🥈 Second most fish caught in channel vaiastol !",
 		"🥇 Most fish seen in channel vaiastol !",
 		"5th biggest fish record in channel vaiastol !",
@@ -488,10 +488,7 @@
 				"Weight in lbs": 1.83,
 				"Catchtype": "Normal",
 				"Date": "2024-10-10 10:31:24 UTC",
-				"Chat": "vaiastol",
-				"Record": [
-					"🥇 Biggest 👟 athleticshoe record in channel vaiastol !"
-				]
+				"Chat": "vaiastol"
 			},
 			"Smallest catch": {
 				"Fish": "👟 athleticshoe",
@@ -656,10 +653,7 @@
 				"Weight in lbs": 6.84,
 				"Catchtype": "Normal",
 				"Date": "2024-08-08 19:08:56 UTC",
-				"Chat": "vaiastol",
-				"Record": [
-					"🥇 Biggest 🧃 beveragebox record in channel vaiastol !"
-				]
+				"Chat": "vaiastol"
 			},
 			"Smallest catch": {
 				"Fish": "🧃 beveragebox",
@@ -1504,7 +1498,6 @@
 				"Date": "2024-08-09 18:09:50 UTC",
 				"Chat": "vaiastol",
 				"Record": [
-					"🥇 Biggest 🥒 cucumber record globally 🌐 !",
 					"🥇 Biggest 🥒 cucumber record in channel vaiastol !"
 				]
 			},
@@ -2756,14 +2749,20 @@
 				"Weight in lbs": 18.46,
 				"Catchtype": "Normal",
 				"Date": "2025-05-05 14:52:40 UTC",
-				"Chat": "vaiastol"
+				"Chat": "vaiastol",
+				"Record": [
+					"🥇 Biggest 🧜‍♀️ mermaid record in channel vaiastol !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🧜‍♀️ mermaid",
 				"Weight in lbs": 18.46,
 				"Catchtype": "Normal",
 				"Date": "2025-05-05 14:52:40 UTC",
-				"Chat": "vaiastol"
+				"Chat": "vaiastol",
+				"Record": [
+					"🥇 Smallest 🧜‍♀️ mermaid record in channel vaiastol !"
+				]
 			}
 		},
 		"mushroom 🍄": {
@@ -4058,10 +4057,7 @@
 				"Weight in lbs": 0.09,
 				"Catchtype": "Normal",
 				"Date": "2025-03-17 14:34:04 UTC",
-				"Chat": "vaiastol",
-				"Record": [
-					"🥇 Smallest 🐌 snail record in channel vaiastol !"
-				]
+				"Chat": "vaiastol"
 			}
 		},
 		"snake 🐍": {
@@ -5111,5 +5107,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

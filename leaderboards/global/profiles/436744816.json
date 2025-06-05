@@ -1,7 +1,11 @@
 {
 	"Name": "grumpo_",
 	"Progress": null,
-	"Records": null,
+	"Records": [
+		"🥇 Most fish caught in channel yopego !",
+		"🥈 Second most fish seen in channel yopego !",
+		"🥇 Biggest fish record in channel yopego !"
+	],
 	"Other accomplishments": {
 		"Accomplishments": null,
 		"Shinies": null
@@ -332,7 +336,10 @@
 				"Weight in lbs": 89.8,
 				"Catchtype": "Normal",
 				"Date": "2024-11-04 19:33:34 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Biggest 🐬 dolphin record in channel yopego !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐬 dolphin",
@@ -488,14 +495,20 @@
 				"Weight in lbs": 2.19,
 				"Catchtype": "Normal",
 				"Date": "2024-10-18 07:33:13 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Biggest 🪵 log record in channel yopego !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🪵 log",
 				"Weight in lbs": 2.19,
 				"Catchtype": "Normal",
 				"Date": "2024-10-18 07:33:13 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Smallest 🪵 log record in channel yopego !"
+				]
 			}
 		},
 		"lure 🎏": {
@@ -547,7 +560,10 @@
 				"Weight in lbs": 0.45,
 				"Catchtype": "Normal",
 				"Date": "2024-10-31 20:13:08 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Smallest 🎏 lure record in channel yopego !"
+				]
 			}
 		},
 		"mushroom 🍄": {
@@ -592,14 +608,20 @@
 				"Weight in lbs": 14.62,
 				"Catchtype": "Normal",
 				"Date": "2024-10-31 14:02:46 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Biggest 🍄 mushroom record in channel yopego !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🍄 mushroom",
 				"Weight in lbs": 14.62,
 				"Catchtype": "Normal",
 				"Date": "2024-10-31 14:02:46 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Smallest 🍄 mushroom record in channel yopego !"
+				]
 			}
 		},
 		"oyster 🦪": {
@@ -644,7 +666,10 @@
 				"Weight in lbs": 38.73,
 				"Catchtype": "Normal",
 				"Date": "2024-12-18 11:27:02 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Biggest 🦪 oyster record in channel yopego !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🦪 oyster",
@@ -755,7 +780,10 @@
 				"Weight in lbs": 0.69,
 				"Catchtype": "Normal",
 				"Date": "2024-10-19 10:05:49 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Smallest 🧦 socks record in channel yopego !"
+				]
 			}
 		},
 		"squid 🦑": {
@@ -956,7 +984,10 @@
 				"Weight in lbs": 82.95,
 				"Catchtype": "Normal",
 				"Date": "2024-11-04 15:04:24 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Biggest 🐳 whale record in channel yopego !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐳 whale",
@@ -1008,7 +1039,10 @@
 				"Weight in lbs": 126.17,
 				"Catchtype": "Normal",
 				"Date": "2024-11-23 19:15:16 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Biggest 🐋 whale2 record in channel yopego !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐋 whale2",
@@ -1115,5 +1149,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

@@ -1,7 +1,11 @@
 {
 	"Name": "gizei_",
 	"Progress": null,
-	"Records": null,
+	"Records": [
+		"5th most fish caught in channel yopego !",
+		"🥉 Third most fish seen in channel yopego !",
+		"🥉 Third biggest fish record in channel yopego !"
+	],
 	"Other accomplishments": {
 		"Accomplishments": null,
 		"Shinies": null
@@ -404,7 +408,10 @@
 				"Weight in lbs": 111.12,
 				"Catchtype": "Normal",
 				"Date": "2024-10-22 16:52:29 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Biggest 🐊 crocodile record in channel yopego !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐊 crocodile",
@@ -583,7 +590,10 @@
 				"Weight in lbs": 0.83,
 				"Catchtype": "Normal",
 				"Date": "2025-03-03 15:39:07 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Smallest 🐸 frog record in channel yopego !"
+				]
 			}
 		},
 		"hook 🪝": {
@@ -1188,7 +1198,10 @@
 				"Weight in lbs": 38.33,
 				"Catchtype": "Normal",
 				"Date": "2024-10-16 19:52:40 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Biggest 🦑 squid record in channel yopego !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🦑 squid",
@@ -1255,7 +1268,10 @@
 				"Weight in lbs": 4.59,
 				"Catchtype": "Normal",
 				"Date": "2024-10-23 15:11:13 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Smallest 🐠 tropicalfish record in channel yopego !"
+				]
 			}
 		},
 		"turtle 🐢": {
@@ -1622,5 +1638,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

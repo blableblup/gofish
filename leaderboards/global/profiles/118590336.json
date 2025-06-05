@@ -4,7 +4,7 @@
 	"Records": [
 		"7th most fish caught in channel jellyuh !",
 		"7th most fish seen in channel jellyuh !",
-		"7th biggest fish record in channel jellyuh !"
+		"5th biggest fish record in channel jellyuh !"
 	],
 	"Other accomplishments": {
 		"Accomplishments": null,
@@ -1169,7 +1169,10 @@
 				"Weight in lbs": 0.68,
 				"Catchtype": "Normal",
 				"Date": "2025-05-17 21:47:55 UTC",
-				"Chat": "jellyuh"
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Smallest 🦪 oyster record in channel jellyuh !"
+				]
 			}
 		},
 		"shamrock ☘️": {
@@ -1695,10 +1698,7 @@
 				"Weight in lbs": 7.87,
 				"Catchtype": "Normal",
 				"Date": "2025-03-13 02:38:45 UTC",
-				"Chat": "jellyuh",
-				"Record": [
-					"🥇 Smallest 🐠 tropicalfish record in channel jellyuh !"
-				]
+				"Chat": "jellyuh"
 			}
 		},
 		"turtle 🐢": {
@@ -1997,5 +1997,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

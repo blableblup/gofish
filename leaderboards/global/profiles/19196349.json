@@ -4,22 +4,24 @@
 		"🌟 Has found all the treasures from legendary pirate Red Avery: 👑 crown 🗡️ dagger 🧭 compass !"
 	],
 	"Records": [
-		"8th most fish caught in channel aquaismissing !",
-		"8th most fish seen in channel aquaismissing !",
+		"🥉 Third most fish caught in channel aquaismissing !",
+		"5th most fish seen in channel aquaismissing !",
 		"🥉 Third biggest fish record in channel aquaismissing !",
+		"🥇 Most points on tournament leaderboard in channel aquaismissing !",
 		"6th most fish caught globally 🌐 !",
-		"4th most fish seen globally 🌐 !",
+		"🥉 Third most fish seen globally 🌐 !",
+		"19th biggest fish record globally 🌐 !",
 		"4th most fish caught in channel psp1g !",
-		"5th most fish seen in channel psp1g !",
-		"12th biggest fish record in channel psp1g !",
+		"6th most fish seen in channel psp1g !",
+		"13th biggest fish record in channel psp1g !",
 		"🥈 Second most points on tournament leaderboard in channel psp1g !",
-		"15th most fish caught in channel vaiastol !",
+		"16th most fish caught in channel vaiastol !",
 		"16th most fish seen in channel vaiastol !",
-		"10th biggest fish record in channel vaiastol !",
+		"11th biggest fish record in channel vaiastol !",
 		"🥉 Third most fish caught in channel wuh6 !",
 		"🥈 Second most fish seen in channel wuh6 !",
-		"4th biggest fish record in channel wuh6 !",
-		"🥉 Third most points on tournament leaderboard in channel wuh6 !"
+		"🥉 Third biggest fish record in channel wuh6 !",
+		"🥈 Second most points on tournament leaderboard in channel wuh6 !"
 	],
 	"Other accomplishments": {
 		"Accomplishments": null,
@@ -1532,10 +1534,7 @@
 				"Weight in lbs": 7.06,
 				"Catchtype": "Normal",
 				"Date": "2025-01-02 15:27:35 UTC",
-				"Chat": "wuh6",
-				"Record": [
-					"🥇 Biggest 🧥 coat record in channel wuh6 !"
-				]
+				"Chat": "wuh6"
 			},
 			"Smallest catch": {
 				"Fish": "🧥 coat",
@@ -1961,7 +1960,11 @@
 				"Weight in lbs": 31.96,
 				"Catchtype": "Normal",
 				"Date": "2025-05-03 14:25:44 UTC",
-				"Chat": "wuh6"
+				"Chat": "wuh6",
+				"Record": [
+					"🥇 Biggest 🥒 cucumber record globally 🌐 !",
+					"🥇 Biggest 🥒 cucumber record in channel wuh6 !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🥒 cucumber",
@@ -2260,7 +2263,10 @@
 				"Weight in lbs": 10.61,
 				"Catchtype": "Normal",
 				"Date": "2025-05-07 19:58:52 UTC",
-				"Chat": "wuh6"
+				"Chat": "wuh6",
+				"Record": [
+					"🥇 Biggest 🦆 duck record in channel wuh6 !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🦆 duck",
@@ -3884,10 +3890,7 @@
 				"Weight in lbs": 0.17,
 				"Catchtype": "Normal",
 				"Date": "2025-04-04 15:42:50 UTC",
-				"Chat": "wuh6",
-				"Record": [
-					"🥇 Smallest 🦪 oyster record in channel wuh6 !"
-				]
+				"Chat": "wuh6"
 			}
 		},
 		"penguin 🐧": {
@@ -4766,7 +4769,11 @@
 				"Weight in lbs": 5.33,
 				"Catchtype": "Normal",
 				"Date": "2025-05-02 17:56:26 UTC",
-				"Chat": "wuh6"
+				"Chat": "wuh6",
+				"Record": [
+					"🥇 Smallest 🛒 shoppingcart record globally 🌐 !",
+					"🥇 Smallest 🛒 shoppingcart record in channel wuh6 !"
+				]
 			}
 		},
 		"shrimp 🦐": {
@@ -5041,7 +5048,10 @@
 				"Weight in lbs": 11.88,
 				"Catchtype": "Normal",
 				"Date": "2025-04-29 18:11:25 UTC",
-				"Chat": "wuh6"
+				"Chat": "wuh6",
+				"Record": [
+					"🥇 Biggest 🐌 snail record in channel wuh6 !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐌 snail",
@@ -5783,7 +5793,10 @@
 				"Weight in lbs": 246.6,
 				"Catchtype": "Normal",
 				"Date": "2025-05-01 20:31:22 UTC",
-				"Chat": "wuh6"
+				"Chat": "wuh6",
+				"Record": [
+					"🥇 Biggest 🐢 turtle record in channel wuh6 !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐢 turtle",
@@ -5918,7 +5931,10 @@
 				"Weight in lbs": 295.52,
 				"Catchtype": "Normal",
 				"Date": "2025-04-23 00:43:50 UTC",
-				"Chat": "wuh6"
+				"Chat": "wuh6",
+				"Record": [
+					"🥇 Biggest 🐳 whale record in channel wuh6 !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐳 whale",
@@ -6292,7 +6308,10 @@
 				"Weight in lbs": 1.62,
 				"Catchtype": "Normal",
 				"Date": "2025-05-15 13:38:16 UTC",
-				"Chat": "wuh6"
+				"Chat": "wuh6",
+				"Record": [
+					"🥇 Smallest 🧟 zombie record in channel wuh6 !"
+				]
 			}
 		}
 	},
@@ -6317,5 +6336,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

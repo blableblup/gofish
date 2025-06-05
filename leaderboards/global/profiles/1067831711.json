@@ -4,9 +4,9 @@
 		"🌟 Has found all the treasures from legendary pirate Red Avery: 👑 crown 🗡️ dagger 🧭 compass !"
 	],
 	"Records": [
-		"4th most fish caught in channel dizzy !",
+		"🥈 Second most fish caught in channel dizzy !",
 		"🥈 Second most fish seen in channel dizzy !",
-		"6th biggest fish record in channel dizzy !",
+		"5th biggest fish record in channel dizzy !",
 		"6th place on tournament leaderboard in channel dizzy !"
 	],
 	"Other accomplishments": {
@@ -516,7 +516,10 @@
 				"Weight in lbs": 0.12,
 				"Catchtype": "Normal",
 				"Date": "2025-05-09 13:29:12 UTC",
-				"Chat": "dizzy"
+				"Chat": "dizzy",
+				"Record": [
+					"🥇 Smallest 🦫 beaver record in channel dizzy !"
+				]
 			}
 		},
 		"blowfish 🐡": {
@@ -2211,14 +2214,20 @@
 				"Weight in lbs": 196.44,
 				"Catchtype": "Normal",
 				"Date": "2025-05-26 15:16:52 UTC",
-				"Chat": "dizzy"
+				"Chat": "dizzy",
+				"Record": [
+					"🥇 Biggest 🫎 moose record in channel dizzy !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🫎 moose",
 				"Weight in lbs": 93.97,
 				"Catchtype": "Normal",
 				"Date": "2025-05-17 14:35:24 UTC",
-				"Chat": "dizzy"
+				"Chat": "dizzy",
+				"Record": [
+					"🥇 Smallest 🫎 moose record in channel dizzy !"
+				]
 			}
 		},
 		"mushroom 🍄": {
@@ -4302,5 +4311,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

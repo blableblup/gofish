@@ -403,10 +403,7 @@
 				"Weight in lbs": 21.97,
 				"Catchtype": "Normal",
 				"Date": "2025-03-07 06:48:42 UTC",
-				"Chat": "jellyuh",
-				"Record": [
-					"🥇 Biggest 🐡 blowfish record in channel jellyuh !"
-				]
+				"Chat": "jellyuh"
 			},
 			"Smallest catch": {
 				"Fish": "🐡 blowfish",
@@ -995,10 +992,7 @@
 				"Weight in lbs": 37.27,
 				"Catchtype": "Normal",
 				"Date": "2025-03-30 03:49:53 UTC",
-				"Chat": "jellyuh",
-				"Record": [
-					"🥇 Smallest 🐉 dragon record in channel jellyuh !"
-				]
+				"Chat": "jellyuh"
 			}
 		},
 		"fish 🐟": {
@@ -1432,10 +1426,7 @@
 				"Weight in lbs": 0.05,
 				"Catchtype": "Normal",
 				"Date": "2025-03-08 07:49:48 UTC",
-				"Chat": "jellyuh",
-				"Record": [
-					"🥇 Smallest 🎏 lure record in channel jellyuh !"
-				]
+				"Chat": "jellyuh"
 			}
 		},
 		"mushroom 🍄": {
@@ -1539,10 +1530,7 @@
 				"Weight in lbs": 2.95,
 				"Catchtype": "Normal",
 				"Date": "2025-02-25 01:38:51 UTC",
-				"Chat": "jellyuh",
-				"Record": [
-					"🥇 Smallest 🐙 octopus record in channel jellyuh !"
-				]
+				"Chat": "jellyuh"
 			}
 		},
 		"otter 🦦": {
@@ -1652,10 +1640,7 @@
 				"Weight in lbs": 0.96,
 				"Catchtype": "Normal",
 				"Date": "2025-02-27 01:01:33 UTC",
-				"Chat": "jellyuh",
-				"Record": [
-					"🥇 Smallest 🦪 oyster record in channel jellyuh !"
-				]
+				"Chat": "jellyuh"
 			}
 		},
 		"plankton 🦠": {
@@ -1807,20 +1792,14 @@
 				"Weight in lbs": 239.34,
 				"Catchtype": "Normal",
 				"Date": "2025-02-19 22:11:04 UTC",
-				"Chat": "jellyuh",
-				"Record": [
-					"🥇 Biggest 🦕 sauropod record in channel jellyuh !"
-				]
+				"Chat": "jellyuh"
 			},
 			"Smallest catch": {
 				"Fish": "🦕 sauropod",
 				"Weight in lbs": 185.89,
 				"Catchtype": "Normal",
 				"Date": "2025-02-25 04:19:19 UTC",
-				"Chat": "jellyuh",
-				"Record": [
-					"🥇 Smallest 🦕 sauropod record in channel jellyuh !"
-				]
+				"Chat": "jellyuh"
 			}
 		},
 		"seal 🦭": {
@@ -2031,7 +2010,10 @@
 				"Weight in lbs": 0.09,
 				"Catchtype": "Normal",
 				"Date": "2025-05-25 02:40:40 UTC",
-				"Chat": "jellyuh"
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Smallest 🐚 shell record in channel jellyuh !"
+				]
 			}
 		},
 		"shoppingcart 🛒": {
@@ -2076,10 +2058,7 @@
 				"Weight in lbs": 6.23,
 				"Catchtype": "Normal",
 				"Date": "2025-02-23 20:58:02 UTC",
-				"Chat": "jellyuh",
-				"Record": [
-					"🥇 Biggest 🛒 shoppingcart record in channel jellyuh !"
-				]
+				"Chat": "jellyuh"
 			},
 			"Smallest catch": {
 				"Fish": "🛒 shoppingcart",
@@ -2186,14 +2165,20 @@
 				"Weight in lbs": 9.37,
 				"Catchtype": "Normal",
 				"Date": "2025-05-19 23:37:58 UTC",
-				"Chat": "jellyuh"
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Biggest 💀 skull record in channel jellyuh !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "💀 skull",
 				"Weight in lbs": 0.14,
 				"Catchtype": "Normal",
 				"Date": "2025-04-27 18:38:15 UTC",
-				"Chat": "jellyuh"
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Smallest 💀 skull record in channel jellyuh !"
+				]
 			}
 		},
 		"snail 🐌": {
@@ -2608,7 +2593,10 @@
 				"Weight in lbs": 187.81,
 				"Catchtype": "Normal",
 				"Date": "2025-05-26 23:51:28 UTC",
-				"Chat": "jellyuh"
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 Biggest 🐢 turtle record in channel jellyuh !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐢 turtle",
@@ -2844,5 +2832,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

@@ -4,13 +4,14 @@
 		"🌟 Has found all the treasures from legendary pirate Red Avery: 👑 crown 🗡️ dagger 🧭 compass !"
 	],
 	"Records": [
-		"8th most fish seen globally 🌐 !",
+		"20th most fish caught globally 🌐 !",
+		"7th most fish seen globally 🌐 !",
 		"🥇 Biggest fish record globally 🌐 !",
 		"19th most fish seen in channel psp1g !",
 		"🥈 Second most fish caught in channel wuh6 !",
 		"🥇 Most fish seen in channel wuh6 !",
 		"🥇 Biggest fish record in channel wuh6 !",
-		"🥈 Second most points on tournament leaderboard in channel wuh6 !"
+		"🥉 Third most points on tournament leaderboard in channel wuh6 !"
 	],
 	"Other accomplishments": {
 		"Accomplishments": null,
@@ -1308,7 +1309,11 @@
 				"Weight in lbs": 0.32,
 				"Catchtype": "Normal",
 				"Date": "2025-05-02 13:10:50 UTC",
-				"Chat": "wuh6"
+				"Chat": "wuh6",
+				"Record": [
+					"🥇 Smallest 🧥 coat record globally 🌐 !",
+					"🥇 Smallest 🧥 coat record in channel wuh6 !"
+				]
 			}
 		},
 		"cockroach 🪳": {
@@ -1482,7 +1487,10 @@
 				"Weight in lbs": 0.94,
 				"Catchtype": "Normal",
 				"Date": "2025-05-15 15:00:25 UTC",
-				"Chat": "wuh6"
+				"Chat": "wuh6",
+				"Record": [
+					"🥇 Smallest 🪸 coral record in channel wuh6 !"
+				]
 			}
 		},
 		"crab 🦀": {
@@ -1543,7 +1551,10 @@
 				"Weight in lbs": 0,
 				"Catchtype": "Normal",
 				"Date": "2025-05-05 21:10:25 UTC",
-				"Chat": "wuh6"
+				"Chat": "wuh6",
+				"Record": [
+					"🥇 Smallest 🦀 crab record in channel wuh6 !"
+				]
 			}
 		},
 		"crocodile 🐊": {
@@ -1656,7 +1667,10 @@
 				"Weight in lbs": 15.78,
 				"Catchtype": "Normal",
 				"Date": "2025-05-03 09:12:12 UTC",
-				"Chat": "wuh6"
+				"Chat": "wuh6",
+				"Record": [
+					"🥇 Smallest 👑 crown record in channel wuh6 !"
+				]
 			}
 		},
 		"cucumber 🥒": {
@@ -1827,7 +1841,10 @@
 				"Weight in lbs": 11.93,
 				"Catchtype": "Normal",
 				"Date": "2025-05-03 15:33:19 UTC",
-				"Chat": "wuh6"
+				"Chat": "wuh6",
+				"Record": [
+					"🥇 Biggest 🕶️ darksunglasses record in channel wuh6 !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🕶️ darksunglasses",
@@ -2913,7 +2930,10 @@
 				"Weight in lbs": 78.35,
 				"Catchtype": "Normal",
 				"Date": "2025-05-05 14:19:33 UTC",
-				"Chat": "wuh6"
+				"Chat": "wuh6",
+				"Record": [
+					"🥇 Biggest 🦞 lobster record in channel wuh6 !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🦞 lobster",
@@ -3215,7 +3235,6 @@
 				"Date": "2025-03-18 19:39:14 UTC",
 				"Chat": "wuh6",
 				"Record": [
-					"🥇 Biggest 🫎 moose record globally 🌐 !",
 					"🥇 Biggest 🫎 moose record in channel wuh6 !"
 				]
 			},
@@ -3762,17 +3781,18 @@
 				"Weight in lbs": 75.87,
 				"Catchtype": "Normal",
 				"Date": "2025-05-30 10:35:50 UTC",
-				"Chat": "wuh6"
+				"Chat": "wuh6",
+				"Record": [
+					"🥇 Biggest 🪨 rock record globally 🌐 !",
+					"🥇 Biggest 🪨 rock record in channel wuh6 !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🪨 rock",
 				"Weight in lbs": 1.46,
 				"Catchtype": "Normal",
 				"Date": "2025-04-11 18:42:04 UTC",
-				"Chat": "wuh6",
-				"Record": [
-					"🥇 Smallest 🪨 rock record in channel wuh6 !"
-				]
+				"Chat": "wuh6"
 			}
 		},
 		"sandal 👡": {
@@ -4444,10 +4464,7 @@
 				"Weight in lbs": 19.35,
 				"Catchtype": "Normal",
 				"Date": "2025-01-04 16:48:30 UTC",
-				"Chat": "wuh6",
-				"Record": [
-					"🥇 Biggest 🎰 slotmachine record in channel wuh6 !"
-				]
+				"Chat": "wuh6"
 			},
 			"Smallest catch": {
 				"Fish": "🎰 slotmachine",
@@ -5567,5 +5584,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

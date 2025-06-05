@@ -1,7 +1,11 @@
 {
 	"Name": "xx_sn1perpro420_xx",
 	"Progress": null,
-	"Records": null,
+	"Records": [
+		"🥉 Third most fish caught in channel yopego !",
+		"🥉 Third most fish seen in channel yopego !",
+		"5th biggest fish record in channel yopego !"
+	],
 	"Other accomplishments": {
 		"Accomplishments": null,
 		"Shinies": null
@@ -335,7 +339,10 @@
 				"Weight in lbs": 10.9,
 				"Catchtype": "Normal",
 				"Date": "2024-10-28 14:11:29 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Smallest 🐡 blowfish record in channel yopego !"
+				]
 			}
 		},
 		"cockroach 🪳": {
@@ -549,7 +556,10 @@
 				"Weight in lbs": 9.48,
 				"Catchtype": "Normal",
 				"Date": "2024-10-30 08:57:18 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Smallest 🗡️ dagger record in channel yopego !"
+				]
 			}
 		},
 		"duck 🦆": {
@@ -646,7 +656,10 @@
 				"Weight in lbs": 50.19,
 				"Catchtype": "Normal",
 				"Date": "2024-10-31 10:06:45 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Biggest 🐟 fish record in channel yopego !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐟 fish",
@@ -701,7 +714,10 @@
 				"Weight in lbs": 4.84,
 				"Catchtype": "Normal",
 				"Date": "2024-11-03 09:53:04 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Biggest 🐸 frog record in channel yopego !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐸 frog",
@@ -763,7 +779,10 @@
 				"Weight in lbs": 0.72,
 				"Catchtype": "Normal",
 				"Date": "2024-10-05 10:23:31 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Smallest 🪝 hook record in channel yopego !"
+				]
 			}
 		},
 		"lure 🎏": {
@@ -924,14 +943,20 @@
 				"Weight in lbs": 95.57,
 				"Catchtype": "Normal",
 				"Date": "2024-11-02 16:46:37 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Biggest 🦭 seal record in channel yopego !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🦭 seal",
 				"Weight in lbs": 95.57,
 				"Catchtype": "Normal",
 				"Date": "2024-11-02 16:46:37 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Smallest 🦭 seal record in channel yopego !"
+				]
 			}
 		},
 		"shell 🐚": {
@@ -1254,7 +1279,10 @@
 				"Weight in lbs": 21.45,
 				"Catchtype": "Normal",
 				"Date": "2024-10-30 09:29:51 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Biggest 🐠 tropicalfish record in channel yopego !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐠 tropicalfish",
@@ -1358,5 +1386,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

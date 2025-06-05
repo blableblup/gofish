@@ -1065,7 +1065,10 @@
 				"Weight in lbs": 0.07,
 				"Catchtype": "Normal",
 				"Date": "2025-05-24 18:34:35 UTC",
-				"Chat": "omie"
+				"Chat": "omie",
+				"Record": [
+					"🥇 Smallest 🪸 coral record in channel omie !"
+				]
 			}
 		},
 		"crab 🦀": {
@@ -1407,7 +1410,10 @@
 				"Weight in lbs": 0.41,
 				"Catchtype": "Normal",
 				"Date": "2025-05-23 09:49:40 UTC",
-				"Chat": "omie"
+				"Chat": "omie",
+				"Record": [
+					"🥇 Smallest 🦆 duck record in channel omie !"
+				]
 			}
 		},
 		"fish 🐟": {
@@ -2047,10 +2053,7 @@
 				"Weight in lbs": 4.94,
 				"Catchtype": "Normal",
 				"Date": "2024-12-11 02:03:15 UTC",
-				"Chat": "omie",
-				"Record": [
-					"🥇 Biggest 🎏 lure record in channel omie !"
-				]
+				"Chat": "omie"
 			},
 			"Smallest catch": {
 				"Fish": "🎏 lure",
@@ -2102,10 +2105,7 @@
 				"Weight in lbs": 117.55,
 				"Catchtype": "Normal",
 				"Date": "2025-04-03 13:28:34 UTC",
-				"Chat": "omie",
-				"Record": [
-					"🥇 Biggest 🫎 moose record in channel omie !"
-				]
+				"Chat": "omie"
 			},
 			"Smallest catch": {
 				"Fish": "🫎 moose",
@@ -2227,7 +2227,10 @@
 				"Weight in lbs": 137.71,
 				"Catchtype": "Normal",
 				"Date": "2025-05-05 12:02:49 UTC",
-				"Chat": "omie"
+				"Chat": "omie",
+				"Record": [
+					"🥇 Biggest 🐙 octopus record in channel omie !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐙 octopus",
@@ -2645,7 +2648,10 @@
 				"Weight in lbs": 0.02,
 				"Catchtype": "Normal",
 				"Date": "2025-04-25 16:14:49 UTC",
-				"Chat": "omie"
+				"Chat": "omie",
+				"Record": [
+					"🥇 Smallest 👡 sandal record in channel omie !"
+				]
 			}
 		},
 		"sauropod 🦕": {
@@ -4091,5 +4097,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

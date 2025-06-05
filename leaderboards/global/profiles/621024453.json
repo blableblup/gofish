@@ -1,7 +1,12 @@
 {
 	"Name": "d1fforr",
 	"Progress": null,
-	"Records": null,
+	"Records": [
+		"🥉 Third most fish caught in channel e1llas !",
+		"🥉 Third most fish seen in channel e1llas !",
+		"4th biggest fish record in channel e1llas !",
+		"4th place on tournament leaderboard in channel e1llas !"
+	],
 	"Other accomplishments": {
 		"Accomplishments": null,
 		"Shinies": null
@@ -411,14 +416,20 @@
 				"Weight in lbs": 1.2,
 				"Catchtype": "Normal",
 				"Date": "2024-12-13 16:11:21 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 Biggest 👢 boot record in channel e1llas !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "👢 boot",
 				"Weight in lbs": 0.08,
 				"Catchtype": "Normal",
 				"Date": "2024-12-19 07:41:49 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 Smallest 👢 boot record in channel e1llas !"
+				]
 			}
 		},
 		"cannedfood 🥫": {
@@ -463,7 +474,10 @@
 				"Weight in lbs": 1.12,
 				"Catchtype": "Normal",
 				"Date": "2024-12-20 22:15:48 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 Biggest 🥫 cannedfood record in channel e1llas !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🥫 cannedfood",
@@ -619,14 +633,20 @@
 				"Weight in lbs": 0.48,
 				"Catchtype": "Normal",
 				"Date": "2025-05-29 18:53:46 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 Biggest 🪶 feather record in channel e1llas !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🪶 feather",
 				"Weight in lbs": 0.48,
 				"Catchtype": "Normal",
 				"Date": "2025-05-29 18:53:46 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 Smallest 🪶 feather record in channel e1llas !"
+				]
 			}
 		},
 		"fish 🐟": {
@@ -684,7 +704,10 @@
 				"Weight in lbs": 1.03,
 				"Catchtype": "Normal",
 				"Date": "2024-12-21 18:20:02 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 Smallest 🐟 fish record in channel e1llas !"
+				]
 			}
 		},
 		"frog 🐸": {
@@ -729,14 +752,20 @@
 				"Weight in lbs": 4.84,
 				"Catchtype": "Normal",
 				"Date": "2024-12-28 20:22:24 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 Biggest 🐸 frog record in channel e1llas !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐸 frog",
 				"Weight in lbs": 0.39,
 				"Catchtype": "Normal",
 				"Date": "2024-12-24 13:07:20 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 Smallest 🐸 frog record in channel e1llas !"
+				]
 			}
 		},
 		"gloves 🧤": {
@@ -788,7 +817,10 @@
 				"Weight in lbs": 0.78,
 				"Catchtype": "Normal",
 				"Date": "2024-12-24 17:34:48 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 Smallest 🧤 gloves record in channel e1llas !"
+				]
 			}
 		},
 		"hook 🪝": {
@@ -839,7 +871,10 @@
 				"Weight in lbs": 3.15,
 				"Catchtype": "Normal",
 				"Date": "2025-05-14 12:34:21 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 Biggest 🪝 hook record in channel e1llas !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🪝 hook",
@@ -891,14 +926,20 @@
 				"Weight in lbs": 10.48,
 				"Catchtype": "Normal",
 				"Date": "2024-12-13 15:21:31 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 Biggest 🧊 icecube record in channel e1llas !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🧊 icecube",
 				"Weight in lbs": 3.47,
 				"Catchtype": "Normal",
 				"Date": "2024-12-16 08:17:13 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 Smallest 🧊 icecube record in channel e1llas !"
+				]
 			}
 		},
 		"lobster 🦞": {
@@ -943,7 +984,10 @@
 				"Weight in lbs": 56.04,
 				"Catchtype": "Normal",
 				"Date": "2025-05-29 08:01:44 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 Biggest 🦞 lobster record in channel e1llas !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🦞 lobster",
@@ -1001,14 +1045,20 @@
 				"Weight in lbs": 4.03,
 				"Catchtype": "Normal",
 				"Date": "2024-12-10 16:04:12 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 Biggest 🎏 lure record in channel e1llas !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🎏 lure",
 				"Weight in lbs": 0.04,
 				"Catchtype": "Normal",
 				"Date": "2025-05-07 21:10:59 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 Smallest 🎏 lure record in channel e1llas !"
+				]
 			}
 		},
 		"octopus 🐙": {
@@ -1059,7 +1109,10 @@
 				"Weight in lbs": 127.37,
 				"Catchtype": "Normal",
 				"Date": "2024-12-27 08:38:01 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 Biggest 🐙 octopus record in channel e1llas !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐙 octopus",
@@ -1124,7 +1177,10 @@
 				"Weight in lbs": 0.01,
 				"Catchtype": "Normal",
 				"Date": "2025-05-05 06:43:23 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 Smallest 🐚 shell record in channel e1llas !"
+				]
 			}
 		},
 		"snail 🐌": {
@@ -1280,7 +1336,10 @@
 				"Weight in lbs": 5.58,
 				"Catchtype": "Normal",
 				"Date": "2025-05-18 05:56:36 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 Smallest 🦑 squid record in channel e1llas !"
+				]
 			}
 		},
 		"turtle 🐢": {
@@ -1332,7 +1391,10 @@
 				"Weight in lbs": 4.31,
 				"Catchtype": "Normal",
 				"Date": "2025-05-09 23:36:18 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 Smallest 🐢 turtle record in channel e1llas !"
+				]
 			}
 		},
 		"whale2 🐋": {
@@ -1484,5 +1546,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

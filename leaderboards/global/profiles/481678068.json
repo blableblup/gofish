@@ -1070,10 +1070,7 @@
 				"Weight in lbs": 4,
 				"Catchtype": "Normal",
 				"Date": "2023-10-02 13:36:35 UTC",
-				"Chat": "psp1g",
-				"Record": [
-					"🥇 Biggest 🐚 shell record in channel psp1g !"
-				]
+				"Chat": "psp1g"
 			},
 			"Smallest catch": {
 				"Fish": "🐚 shell",
@@ -1441,5 +1438,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

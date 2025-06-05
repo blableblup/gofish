@@ -2,8 +2,8 @@
 	"Name": "ggmagician",
 	"Progress": null,
 	"Records": [
-		"11th most fish caught in channel aquaismissing !",
-		"10th most fish seen in channel aquaismissing !",
+		"12th most fish caught in channel aquaismissing !",
+		"11th most fish seen in channel aquaismissing !",
 		"6th biggest fish record in channel aquaismissing !"
 	],
 	"Other accomplishments": {
@@ -601,10 +601,7 @@
 				"Weight in lbs": 20.44,
 				"Catchtype": "Normal",
 				"Date": "2025-03-30 18:37:05 UTC",
-				"Chat": "aquaismissing",
-				"Record": [
-					"🥇 Biggest 🗡️ dagger record in channel aquaismissing !"
-				]
+				"Chat": "aquaismissing"
 			},
 			"Smallest catch": {
 				"Fish": "🗡️ dagger",
@@ -1126,7 +1123,10 @@
 				"Weight in lbs": 11.62,
 				"Catchtype": "Normal",
 				"Date": "2024-10-16 06:08:23 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Smallest 🦪 oyster record in channel yopego !"
+				]
 			}
 		},
 		"penguin 🐧": {
@@ -1439,7 +1439,10 @@
 				"Weight in lbs": 6.74,
 				"Catchtype": "Normal",
 				"Date": "2024-11-14 13:52:57 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 Biggest 🐍 snake record in channel yopego !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐍 snake",
@@ -1812,5 +1815,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }

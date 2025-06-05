@@ -2,7 +2,7 @@
 	"Name": "tetohasgone",
 	"Progress": null,
 	"Records": [
-		"14th most fish caught in channel aquaismissing !",
+		"15th most fish caught in channel aquaismissing !",
 		"17th most fish caught in channel ovrht !"
 	],
 	"Other accomplishments": {
@@ -1409,7 +1409,10 @@
 				"Weight in lbs": 1.16,
 				"Catchtype": "Normal",
 				"Date": "2024-12-20 06:40:44 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 Smallest 🐌 snail record in channel e1llas !"
+				]
 			}
 		},
 		"socks 🧦": {
@@ -1880,5 +1883,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-03 10:27:13 UTC"
+	"Profile last updated at": "2025-06-05 13:10:56 UTC"
 }
