@@ -20,6 +20,7 @@ type LeaderboardConfig struct {
 	GetFunction      func(LeaderboardParams) (map[string]data.FishInfo, error)
 	GetTitleFunction func(LeaderboardParams) string
 	GetQueryFunction func(LeaderboardParams) string
+	LimitField       string
 }
 
 // This is holding the flags (like -title and -path...)
@@ -117,34 +118,111 @@ func Leaderboards(pool *pgxpool.Pool, leaderboards string, chatNames string, dat
 	}
 
 	// map of all the boards
-	// averageweight, rare, stats, shiny are global only, dont need a chat specified, so if there is, they get skipped
-	// i do -chats all -board chatboards and then -chats global -board globalboards on sunday, and -chats all -board tourney for tournaments later
 	existingboards := map[string]LeaderboardConfig{
-		"fishweek":   {hasGlobal: false, GlobalOnly: false, Tournament: true, Function: processFishweek},
-		"trophy":     {hasGlobal: false, GlobalOnly: false, Tournament: true, Function: processTrophy},
-		"records":    {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processChannelRecords},
-		"uniquefish": {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processUniqueFish},
+		"trophy": {
+			hasGlobal:  false,
+			GlobalOnly: false,
+			Tournament: true,
+			Function:   processTrophy,
+		},
+
+		"fishweek": {
+			hasGlobal:  false,
+			GlobalOnly: false,
+			Tournament: true,
+			Function:   processFishweek,
+		},
+		"uniquefish": {
+			hasGlobal:  true,
+			GlobalOnly: false,
+			Tournament: false,
+			Function:   processUniqueFish,
+		},
+		"count": {
+			hasGlobal:  true,
+			GlobalOnly: false,
+			Tournament: false,
+			Function:   processCount,
+		},
 
 		"typefirst": {
-			hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processType,
-			GetFunction: getTypeRecords, GetTitleFunction: typeBoardTitles, GetQueryFunction: typeBoardSql,
+			hasGlobal:        true,
+			GlobalOnly:       false,
+			Tournament:       false,
+			Function:         processType,
+			GetFunction:      getTypeRecords,
+			GetTitleFunction: typeBoardTitles,
+			GetQueryFunction: typeBoardSql,
 		},
 		"typesmall": {
-			hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processType,
-			GetFunction: getTypeRecords, GetTitleFunction: typeBoardTitles, GetQueryFunction: typeBoardSql,
+			hasGlobal:        true,
+			GlobalOnly:       false,
+			Tournament:       false,
+			Function:         processType,
+			GetFunction:      getTypeRecords,
+			GetTitleFunction: typeBoardTitles,
+			GetQueryFunction: typeBoardSql,
 		},
-		"type": {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processType,
-			GetFunction: getTypeRecords, GetTitleFunction: typeBoardTitles, GetQueryFunction: typeBoardSql,
+		"type": {
+			hasGlobal:        true,
+			GlobalOnly:       false,
+			Tournament:       false,
+			Function:         processType,
+			GetFunction:      getTypeRecords,
+			GetTitleFunction: typeBoardTitles,
+			GetQueryFunction: typeBoardSql,
 		},
 
-		"count":         {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processCount},
-		"weight":        {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processWeight},
-		"weight2":       {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processWeight2},
-		"averageweight": {hasGlobal: true, GlobalOnly: true, Tournament: false, Function: processAverageWeight},
-		"rare":          {hasGlobal: true, GlobalOnly: true, Tournament: false, Function: RunCountFishTypesGlobal},
-		"chats":         {hasGlobal: true, GlobalOnly: true, Tournament: false, Function: RunChatStatsGlobal},
-		"shiny":         {hasGlobal: true, GlobalOnly: true, Tournament: false, Function: processShinies},
-		"profiles":      {hasGlobal: true, GlobalOnly: true, Tournament: false, Function: GetPlayerProfiles}}
+		"records": {
+			hasGlobal:  true,
+			GlobalOnly: false,
+			Tournament: false,
+			Function:   processChannelRecords,
+		},
+
+		"weight": {
+			hasGlobal:  true,
+			GlobalOnly: false,
+			Tournament: false,
+			Function:   processWeight,
+		},
+		"weight2": {
+			hasGlobal:  true,
+			GlobalOnly: false,
+			Tournament: false,
+			Function:   processWeight2,
+		},
+
+		"averageweight": {
+			hasGlobal:  true,
+			GlobalOnly: true,
+			Tournament: false,
+			Function:   processAverageWeight,
+		},
+		"rare": {
+			hasGlobal:  true,
+			GlobalOnly: true,
+			Tournament: false,
+			Function:   RunCountFishTypesGlobal,
+		},
+		"chats": {
+			hasGlobal:  true,
+			GlobalOnly: true,
+			Tournament: false,
+			Function:   RunChatStatsGlobal,
+		},
+		"shiny": {
+			hasGlobal:  true,
+			GlobalOnly: true,
+			Tournament: false,
+			Function:   processShinies,
+		},
+		"profiles": {
+			hasGlobal:  true,
+			GlobalOnly: true,
+			Tournament: false,
+			Function:   GetPlayerProfiles,
+		}}
 
 	leaderboardList := strings.Split(leaderboards, ",")
 

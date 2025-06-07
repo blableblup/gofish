@@ -106,7 +106,7 @@ func getChatStats(params LeaderboardParams) (map[string]data.FishInfo, error) {
 		and date > $2
 		group by chat`
 
-	results, err := ReturnFishSliceQuery(params, queryFishPerChat)
+	results, err := ReturnFishSliceQuery(params, queryFishPerChat, false)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Board", board).
@@ -150,7 +150,7 @@ func getChatStats(params LeaderboardParams) (map[string]data.FishInfo, error) {
 		) as subquery
 		group by chat`
 
-	results, err = ReturnFishSliceQuery(params, queryActiveFishers)
+	results, err = ReturnFishSliceQuery(params, queryActiveFishers, false)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Board", board).
@@ -173,7 +173,7 @@ func getChatStats(params LeaderboardParams) (map[string]data.FishInfo, error) {
 		and date > $2
 		group by chat`
 
-	results, err = ReturnFishSliceQuery(params, queryUniqueFishers)
+	results, err = ReturnFishSliceQuery(params, queryUniqueFishers, false)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Board", board).
@@ -193,7 +193,7 @@ func getChatStats(params LeaderboardParams) (map[string]data.FishInfo, error) {
 		and date > $2
 		group by chat`
 
-	results, err = ReturnFishSliceQuery(params, queryUniqueFish)
+	results, err = ReturnFishSliceQuery(params, queryUniqueFish, false)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Board", board).
@@ -221,7 +221,7 @@ func getChatStats(params LeaderboardParams) (map[string]data.FishInfo, error) {
     	) bub 
 		WHERE RANK = 1`
 
-	results, err = ReturnFishSliceQuery(params, queryChannelRecord)
+	results, err = ReturnFishSliceQuery(params, queryChannelRecord, false)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Board", board).
@@ -378,7 +378,7 @@ func writeChatStats(filePath string, chatStats map[string]data.FishInfo, oldChat
 		ranks := Ranks(rank)
 
 		_, _ = fmt.Fprintf(file, "| %s %s | %s %s | %s | %s | %s | %s | %s %s %s lbs, %s |",
-			ranks, changeEmoji, chatname, pfp, counts, activepl, uniquepl, uniquef, fishtype, fishname, fishweight, player)
+			ranks, changeEmoji, pfp, chatname, counts, activepl, uniquepl, uniquef, fishtype, fishname, fishweight, player)
 		_, err = fmt.Fprintln(file)
 		if err != nil {
 			return err

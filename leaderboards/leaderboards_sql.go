@@ -30,35 +30,27 @@ func ReturnFishSliceQueryValidPlayers(params LeaderboardParams, query string, va
 	return fishy, nil
 }
 
-// for the (global) leaderboards
-func ReturnFishSliceQuery(params LeaderboardParams, query string) ([]data.FishInfo, error) {
-	date2 := params.Date2
-	date := params.Date
-	pool := params.Pool
-
-	rows, err := pool.Query(context.Background(), query, date, date2)
-	if err != nil {
-		return []data.FishInfo{}, err
-	}
-
-	fishy, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
-	if err != nil && err != pgx.ErrNoRows {
-		return []data.FishInfo{}, err
-	}
-
-	return fishy, nil
-}
-
-// for the chat leaderboards
-func ReturnFishSliceQueryChats(params LeaderboardParams, query string) ([]data.FishInfo, error) {
+// for the leaderboards
+func ReturnFishSliceQuery(params LeaderboardParams, query string, chat bool) ([]data.FishInfo, error) {
 	chatName := params.ChatName
 	date2 := params.Date2
 	date := params.Date
 	pool := params.Pool
 
-	rows, err := pool.Query(context.Background(), query, chatName, date, date2)
-	if err != nil {
-		return []data.FishInfo{}, err
+	var rows pgx.Rows
+	var err error
+
+	if chat {
+		rows, err = pool.Query(context.Background(), query, chatName, date, date2)
+		if err != nil {
+			return []data.FishInfo{}, err
+		}
+
+	} else {
+		rows, err = pool.Query(context.Background(), query, date, date2)
+		if err != nil {
+			return []data.FishInfo{}, err
+		}
 	}
 
 	fishy, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])

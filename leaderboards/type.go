@@ -117,7 +117,7 @@ func getTypeRecords(params LeaderboardParams) (map[string]data.FishInfo, error) 
 
 		query := boardInfo.GetQueryFunction(params)
 
-		results, err = ReturnFishSliceQueryChats(params, query)
+		results, err = ReturnFishSliceQuery(params, query, true)
 		if err != nil {
 			logs.Logs().Error().Err(err).
 				Str("Board", board).
@@ -130,7 +130,7 @@ func getTypeRecords(params LeaderboardParams) (map[string]data.FishInfo, error) 
 
 		query := boardInfo.GetQueryFunction(params)
 
-		results, err = ReturnFishSliceQuery(params, query)
+		results, err = ReturnFishSliceQuery(params, query, false)
 		if err != nil {
 			logs.Logs().Error().Err(err).
 				Str("Board", board).
