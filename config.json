@@ -114,6 +114,11 @@
 			"checkfdata": true,
 			"board_enabled": true
 		},
+		"chellesorandom": {
+			"twitchid": "124376423",
+			"checkfdata": false,
+			"board_enabled": false
+		},
 		"coolishdanker": {
 			"twitchid": "440281017",
 			"logs_instances": [
@@ -288,6 +293,10 @@
 				{
 					"url": "https://logs.supa.codes",
 					"logs_added": "2024/12"
+				},
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2025/5"
 				}
 			],
 			"fishweek_limit": 10,
