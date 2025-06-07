@@ -51,6 +51,17 @@ func typeBoardTitles(params LeaderboardParams) string {
 		} else {
 			title = "### First fish per type caught globally\n"
 		}
+
+	case "typelast":
+		if chatName != "global" {
+			if strings.HasSuffix(chatName, "s") {
+				title = fmt.Sprintf("### Last fish per type caught in %s' chat\n", chatName)
+			} else {
+				title = fmt.Sprintf("### Last fish per type caught in %s's chat\n", chatName)
+			}
+		} else {
+			title = "### Last fish per type caught globally\n"
+		}
 	}
 
 	return title
@@ -160,6 +171,9 @@ func typeBoardSql(params LeaderboardParams) string {
 			)`
 		}
 
+	// if first or last catch of a type was a mouth bonus catch
+	// where the fish and the bonus were of the same type
+	// this can select two catches for one type
 	case "typefirst":
 		if chatName != "global" {
 			query = `
@@ -189,6 +203,37 @@ func typeBoardSql(params LeaderboardParams) string {
 			GROUP BY fishname
 			) AS sub
 			ON f.date = sub.min_date AND f.fishname = sub.fishname`
+		}
+
+	case "typelast":
+		if chatName != "global" {
+			query = `
+			SELECT f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid,
+			RANK() OVER (ORDER BY f.date ASC)
+			FROM fish f
+			JOIN (
+			SELECT MAX(date) AS max_date, fishname
+			FROM fish
+			WHERE chat = $1
+			AND date < $2
+			AND date > $3
+			GROUP BY fishname
+			) AS sub
+			ON f.date = sub.max_date AND f.fishname = sub.fishname`
+
+		} else {
+			query = `
+			SELECT f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid,
+			RANK() OVER (ORDER BY f.date ASC)
+			FROM fish f
+			JOIN (
+			SELECT MAX(date) AS max_date, fishname
+			FROM fish
+			WHERE date < $1
+			AND date > $2
+			GROUP BY fishname
+			) AS sub
+			ON f.date = sub.max_date AND f.fishname = sub.fishname`
 		}
 	}
 

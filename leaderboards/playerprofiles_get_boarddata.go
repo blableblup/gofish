@@ -345,6 +345,8 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 			}
 
 		}
+
+		// nothing for typelast ? maybe only if the catch was long ago
 	}
 
 	// also check if any valid player caught a shiny

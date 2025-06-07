@@ -145,6 +145,15 @@ func Leaderboards(pool *pgxpool.Pool, leaderboards string, chatNames string, dat
 			Function:   processCount,
 		},
 
+		"typelast": {
+			hasGlobal:        true,
+			GlobalOnly:       false,
+			Tournament:       false,
+			Function:         processType,
+			GetFunction:      getTypeRecords,
+			GetTitleFunction: typeBoardTitles,
+			GetQueryFunction: typeBoardSql,
+		},
 		"typefirst": {
 			hasGlobal:        true,
 			GlobalOnly:       false,

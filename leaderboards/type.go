@@ -201,7 +201,7 @@ func writeType(filePath string, recordType map[string]data.FishInfo, oldType map
 
 	var sortedTypes []string
 
-	if board != "typefirst" {
+	if board != "typefirst" && board != "typelast" {
 		sortedTypes = sortMapStringFishInfo(recordType, "weightdesc")
 	} else {
 		sortedTypes = sortMapStringFishInfo(recordType, "datedesc")
@@ -226,17 +226,20 @@ func writeType(filePath string, recordType map[string]data.FishInfo, oldType map
 			oldRank = info.Rank
 		}
 
-		changeEmoji := ChangeEmoji(rank, oldRank, found)
-
 		var fishweight string
 
-		weightDifference := weight - oldWeight
+		// dont show the weight change for typefirst and typelast
+		if board != "typefirst" && board != "typelast" {
+			weightDifference := weight - oldWeight
 
-		if weightDifference != 0 {
-			if weightDifference > 0 {
-				fishweight = fmt.Sprintf("%.2f (+%.2f)", weight, weightDifference)
+			if weightDifference != 0 {
+				if weightDifference > 0 {
+					fishweight = fmt.Sprintf("%.2f (+%.2f)", weight, weightDifference)
+				} else {
+					fishweight = fmt.Sprintf("%.2f (%.2f)", weight, weightDifference)
+				}
 			} else {
-				fishweight = fmt.Sprintf("%.2f (%.2f)", weight, weightDifference)
+				fishweight = fmt.Sprintf("%.2f", weight)
 			}
 		} else {
 			fishweight = fmt.Sprintf("%.2f", weight)
@@ -247,11 +250,12 @@ func writeType(filePath string, recordType map[string]data.FishInfo, oldType map
 			botIndicator = "*"
 		}
 
-		var ranks string
+		var ranks, changeEmoji string
 
-		// dont show the medals for typefirst
+		// dont show medals and changeemoji for typefirst and typelast
 		// because they are sorted by date
-		if board != "typefirst" {
+		if board != "typefirst" && board != "typelast" {
+			changeEmoji = ChangeEmoji(rank, oldRank, found)
 			ranks = Ranks(rank)
 		} else {
 			ranks = fmt.Sprintf("%d", rank)
@@ -267,7 +271,7 @@ func writeType(filePath string, recordType map[string]data.FishInfo, oldType map
 		}
 	}
 
-	if board != "typefirst" {
+	if board != "typefirst" && board != "typelast" {
 		_, _ = fmt.Fprint(file, "\n_If there are multiple records with the same weight, only the player who caught it first is displayed_\n")
 	}
 	_, _ = fmt.Fprintf(file, "\n_Last updated at %s_", time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC"))

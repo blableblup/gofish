@@ -214,16 +214,18 @@ func didPlayerMapsChange(params LeaderboardParams, oldBoard map[int]data.FishInf
 
 // For the fish leaderboards
 func didFishMapChange(params LeaderboardParams, oldBoard map[string]data.FishInfo, newBoard map[string]data.FishInfo) bool {
+	board := params.LeaderboardType
 	var mapsarethesame = true
 
 	for fishName := range newBoard {
 		_, exists := oldBoard[fishName]
 		if !exists {
 
-			if params.LeaderboardType != "rare" && params.LeaderboardType != "averageweight" {
+			// not logging typelast because that always has changes every week
+			if board != "rare" && board != "averageweight" && board != "typelast" {
 
 				logs.Logs().Info().
-					Str("Board", params.LeaderboardType).
+					Str("Board", board).
 					Str("Chat", newBoard[fishName].Chat).
 					Str("Date", newBoard[fishName].Date.Format("2006-01-02 15:04:05 UTC")).
 					Float64("Weight", newBoard[fishName].Weight).
@@ -239,10 +241,10 @@ func didFishMapChange(params LeaderboardParams, oldBoard map[string]data.FishInf
 
 			if oldBoard[fishName].Weight != newBoard[fishName].Weight {
 
-				if params.LeaderboardType != "rare" && params.LeaderboardType != "averageweight" {
+				if board != "rare" && board != "averageweight" && board != "typelast" {
 
 					logs.Logs().Info().
-						Str("Board", params.LeaderboardType).
+						Str("Board", board).
 						Str("Chat", newBoard[fishName].Chat).
 						Str("Date", newBoard[fishName].Date.Format("2006-01-02 15:04:05 UTC")).
 						Float64("WeightOld", oldBoard[fishName].Weight).
@@ -266,7 +268,7 @@ func didFishMapChange(params LeaderboardParams, oldBoard map[string]data.FishInf
 					mapsarethesame = false
 				}
 			}
-			// In case the emoji of a fish gets updated
+			// In case the emoji of a fish gets updated (?)
 			if oldBoard[fishName].Type != newBoard[fishName].Type {
 				mapsarethesame = false
 			}
