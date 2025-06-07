@@ -144,6 +144,8 @@ func sortMapStringFishInfo(somemap map[string]data.FishInfo, whattosort string) 
 	switch whattosort {
 	case "dateasc":
 		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Date.Before(somemap[blee[j]].Date) })
+	case "datedesc":
+		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Date.After(somemap[blee[j]].Date) })
 	case "weightdesc":
 		sort.SliceStable(blee, func(i, j int) bool { return blee[i] < blee[j] })
 		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].TypeName < somemap[blee[j]].TypeName })

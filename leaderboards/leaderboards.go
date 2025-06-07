@@ -1,6 +1,7 @@
 package leaderboards
 
 import (
+	"gofish/data"
 	"gofish/logs"
 	"gofish/utils"
 	"strings"
@@ -9,12 +10,16 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 
+// to store info about a leaderboard and its functions
 type LeaderboardConfig struct {
-	Name       string
-	hasGlobal  bool
-	GlobalOnly bool
-	Tournament bool
-	Function   func(LeaderboardParams)
+	Name             string
+	hasGlobal        bool
+	GlobalOnly       bool
+	Tournament       bool
+	Function         func(LeaderboardParams)
+	GetFunction      func(LeaderboardParams) (map[string]data.FishInfo, error)
+	GetTitleFunction func(LeaderboardParams) string
+	GetQueryFunction func(LeaderboardParams) string
 }
 
 // This is holding the flags (like -title and -path...)
@@ -33,6 +38,7 @@ type LeaderboardParams struct {
 	ChatName        string
 	Mode            string
 	LeaderboardType string
+	BoardInfo       LeaderboardConfig
 	Global          bool
 	Players         map[int]PlayerInfo
 	FishTypes       map[string]string
@@ -114,12 +120,23 @@ func Leaderboards(pool *pgxpool.Pool, leaderboards string, chatNames string, dat
 	// averageweight, rare, stats, shiny are global only, dont need a chat specified, so if there is, they get skipped
 	// i do -chats all -board chatboards and then -chats global -board globalboards on sunday, and -chats all -board tourney for tournaments later
 	existingboards := map[string]LeaderboardConfig{
-		"fishweek":      {hasGlobal: false, GlobalOnly: false, Tournament: true, Function: processFishweek},
-		"trophy":        {hasGlobal: false, GlobalOnly: false, Tournament: true, Function: processTrophy},
-		"records":       {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processChannelRecords},
-		"uniquefish":    {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processUniqueFish},
-		"typesmall":     {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processTypeSmall},
-		"type":          {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processType},
+		"fishweek":   {hasGlobal: false, GlobalOnly: false, Tournament: true, Function: processFishweek},
+		"trophy":     {hasGlobal: false, GlobalOnly: false, Tournament: true, Function: processTrophy},
+		"records":    {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processChannelRecords},
+		"uniquefish": {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processUniqueFish},
+
+		"typefirst": {
+			hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processType,
+			GetFunction: getTypeRecords, GetTitleFunction: typeBoardTitles, GetQueryFunction: typeBoardSql,
+		},
+		"typesmall": {
+			hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processType,
+			GetFunction: getTypeRecords, GetTitleFunction: typeBoardTitles, GetQueryFunction: typeBoardSql,
+		},
+		"type": {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processType,
+			GetFunction: getTypeRecords, GetTitleFunction: typeBoardTitles, GetQueryFunction: typeBoardSql,
+		},
+
 		"count":         {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processCount},
 		"weight":        {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processWeight},
 		"weight2":       {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processWeight2},
@@ -204,6 +221,8 @@ func processLeaderboard(config utils.Config, params LeaderboardParams, leaderboa
 				params.ChatName = chatName
 				params.Chat = chat
 
+				params.BoardInfo = board
+
 				processFunc := board.Function
 
 				if chatName != "global" {
@@ -261,6 +280,8 @@ func processLeaderboard(config utils.Config, params LeaderboardParams, leaderboa
 			params.LeaderboardType = leaderboard
 			params.ChatName = chatName
 			params.Chat = chat
+
+			params.BoardInfo = board
 
 			processFunc := board.Function
 
