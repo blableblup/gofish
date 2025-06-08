@@ -15,6 +15,7 @@ type BoardDataProfiles struct {
 	Trophy     map[int]data.FishInfo
 	Type       map[string]data.FishInfo
 	Typesmall  map[string]data.FishInfo
+	Typefirst  map[string]data.FishInfo
 }
 
 // get the data from the other leaderboards json files for all the chats and globally
@@ -25,7 +26,7 @@ func GetOtherBoardDataForPlayerProfiles(params LeaderboardParams) (map[string]*B
 
 	otherBoardsData := make(map[string]*BoardDataProfiles)
 
-	boardsToGetDataFrom := []string{"count", "uniquefish", "weight", "type", "typesmall", "trophy"}
+	boardsToGetDataFrom := []string{"count", "uniquefish", "weight", "type", "typesmall", "typefirst", "trophy"}
 
 	for chatName, chat := range config.Chat {
 
@@ -131,6 +132,20 @@ func GetOtherBoardDataForPlayerProfiles(params LeaderboardParams) (map[string]*B
 				}
 
 				otherBoardsData[chatName].Typesmall = boardData
+
+			case "typefirst":
+
+				boardData, err := getJsonBoardString(filePath)
+				if err != nil {
+					logs.Logs().Error().Err(err).
+						Str("Chat", chatName).
+						Str("Path", filePath).
+						Str("Board", boardName).
+						Msg("Error getting leaderboard")
+					return otherBoardsData, err
+				}
+
+				otherBoardsData[chatName].Typefirst = boardData
 
 			}
 		}
@@ -311,6 +326,27 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 			}
 
 		}
+		// update the record for the first per type
+		for fishName, fish := range otherBoardData[chatName].Typefirst {
+
+			playerID := otherBoardData[chatName].Typefirst[fishName].PlayerID
+
+			fishType := fmt.Sprintf("%s %s", fishName, fish.Type)
+
+			if _, ok := Profiles[playerID]; ok {
+
+				if Profiles[playerID].FishData[fishType].First.Date == otherBoardData[chatName].Typefirst[fishName].Date {
+
+					Profiles[playerID].FishData[fishType].First.Record = append(Profiles[playerID].FishData[fishType].First.Record,
+						fmt.Sprintf("🥇 First ever %s %s caught %s !", fish.Type, fishName, text))
+
+				}
+
+			}
+
+		}
+
+		// nothing for typelast ? maybe only if the catch was long ago
 	}
 
 	// also check if any valid player caught a shiny

@@ -1,12 +1,9 @@
 package leaderboards
 
 import (
-	"context"
 	"fmt"
 	"gofish/logs"
 	"sort"
-
-	"github.com/jackc/pgx/v5"
 )
 
 func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]string, validPlayers []int, fishLists map[string][]string) (map[int]*PlayerProfile, error) {
@@ -691,22 +688,4 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 	}
 
 	return Profiles, nil
-}
-
-func ReturnFishSliceQueryValidPlayers(params LeaderboardParams, query string, validPlayers []int) ([]ProfileFish, error) {
-	date2 := params.Date2
-	date := params.Date
-	pool := params.Pool
-
-	rows, err := pool.Query(context.Background(), query, validPlayers, date, date2)
-	if err != nil {
-		return []ProfileFish{}, err
-	}
-
-	fishy, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[ProfileFish])
-	if err != nil && err != pgx.ErrNoRows {
-		return []ProfileFish{}, err
-	}
-
-	return fishy, nil
 }

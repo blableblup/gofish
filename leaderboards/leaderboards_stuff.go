@@ -7,6 +7,7 @@ import (
 	"gofish/logs"
 	"os"
 	"path/filepath"
+	"regexp"
 	"sort"
 	"strings"
 )
@@ -143,6 +144,8 @@ func sortMapStringFishInfo(somemap map[string]data.FishInfo, whattosort string) 
 	switch whattosort {
 	case "dateasc":
 		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Date.Before(somemap[blee[j]].Date) })
+	case "datedesc":
+		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Date.After(somemap[blee[j]].Date) })
 	case "weightdesc":
 		sort.SliceStable(blee, func(i, j int) bool { return blee[i] < blee[j] })
 		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].TypeName < somemap[blee[j]].TypeName })
@@ -211,16 +214,18 @@ func didPlayerMapsChange(params LeaderboardParams, oldBoard map[int]data.FishInf
 
 // For the fish leaderboards
 func didFishMapChange(params LeaderboardParams, oldBoard map[string]data.FishInfo, newBoard map[string]data.FishInfo) bool {
+	board := params.LeaderboardType
 	var mapsarethesame = true
 
 	for fishName := range newBoard {
 		_, exists := oldBoard[fishName]
 		if !exists {
 
-			if params.LeaderboardType != "rare" && params.LeaderboardType != "averageweight" {
+			// not logging typelast because that always has changes every week
+			if board != "rare" && board != "averageweight" && board != "typelast" {
 
 				logs.Logs().Info().
-					Str("Board", params.LeaderboardType).
+					Str("Board", board).
 					Str("Chat", newBoard[fishName].Chat).
 					Str("Date", newBoard[fishName].Date.Format("2006-01-02 15:04:05 UTC")).
 					Float64("Weight", newBoard[fishName].Weight).
@@ -236,10 +241,10 @@ func didFishMapChange(params LeaderboardParams, oldBoard map[string]data.FishInf
 
 			if oldBoard[fishName].Weight != newBoard[fishName].Weight {
 
-				if params.LeaderboardType != "rare" && params.LeaderboardType != "averageweight" {
+				if board != "rare" && board != "averageweight" && board != "typelast" {
 
 					logs.Logs().Info().
-						Str("Board", params.LeaderboardType).
+						Str("Board", board).
 						Str("Chat", newBoard[fishName].Chat).
 						Str("Date", newBoard[fishName].Date.Format("2006-01-02 15:04:05 UTC")).
 						Float64("WeightOld", oldBoard[fishName].Weight).
@@ -263,7 +268,7 @@ func didFishMapChange(params LeaderboardParams, oldBoard map[string]data.FishInf
 					mapsarethesame = false
 				}
 			}
-			// In case the emoji of a fish gets updated
+			// In case the emoji of a fish gets updated (?)
 			if oldBoard[fishName].Type != newBoard[fishName].Type {
 				mapsarethesame = false
 			}
@@ -305,4 +310,11 @@ func ChangeEmoji(rank int, oldRank int, found bool) string {
 	}
 
 	return changeEmoji
+}
+
+// the date format for the leaderboards is YYYY-MM-DD
+// can also be YYYY-MM-DD HH:MM:SS
+func isValidDate(date string) bool {
+	re := regexp.MustCompile(`^\d{4}-\d{2}-\d{2}( \d{2}:\d{2}:\d{2})?$`)
+	return re.MatchString(date)
 }

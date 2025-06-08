@@ -7,8 +7,59 @@ import (
 	"gofish/logs"
 	"time"
 
+	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgxpool"
 )
+
+// for the profiles
+func ReturnFishSliceQueryValidPlayers(params LeaderboardParams, query string, validPlayers []int) ([]ProfileFish, error) {
+	date2 := params.Date2
+	date := params.Date
+	pool := params.Pool
+
+	rows, err := pool.Query(context.Background(), query, validPlayers, date, date2)
+	if err != nil {
+		return []ProfileFish{}, err
+	}
+
+	fishy, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[ProfileFish])
+	if err != nil && err != pgx.ErrNoRows {
+		return []ProfileFish{}, err
+	}
+
+	return fishy, nil
+}
+
+// for the leaderboards
+func ReturnFishSliceQuery(params LeaderboardParams, query string, chat bool) ([]data.FishInfo, error) {
+	chatName := params.ChatName
+	date2 := params.Date2
+	date := params.Date
+	pool := params.Pool
+
+	var rows pgx.Rows
+	var err error
+
+	if chat {
+		rows, err = pool.Query(context.Background(), query, chatName, date, date2)
+		if err != nil {
+			return []data.FishInfo{}, err
+		}
+
+	} else {
+		rows, err = pool.Query(context.Background(), query, date, date2)
+		if err != nil {
+			return []data.FishInfo{}, err
+		}
+	}
+
+	fishy, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
+	if err != nil && err != pgx.ErrNoRows {
+		return []data.FishInfo{}, err
+	}
+
+	return fishy, nil
+}
 
 // Store the players in a map, for their verified status, their current name and when they started fishing
 // useful when updating all the leaderboards at once; firstfishdate is ignored on some boards where you already get date
@@ -37,23 +88,23 @@ func PlayerStuff(playerID int, params LeaderboardParams, pool *pgxpool.Pool) (st
 		}
 
 		if twitchID.Valid {
-			params.Players[playerID] = data.FishInfo{
-				Player:   name,
-				Date:     firstfishdate,
-				Verified: verified.Bool,
-				TwitchID: int(twitchID.Int64),
+			params.Players[playerID] = PlayerInfo{
+				CurrentName: name,
+				Date:        firstfishdate,
+				Verified:    verified.Bool,
+				TwitchID:    int(twitchID.Int64),
 			}
 		} else {
-			params.Players[playerID] = data.FishInfo{
-				Player:   name,
-				Date:     firstfishdate,
-				Verified: verified.Bool,
-				TwitchID: 0,
+			params.Players[playerID] = PlayerInfo{
+				CurrentName: name,
+				Date:        firstfishdate,
+				Verified:    verified.Bool,
+				TwitchID:    0,
 			}
 		}
 	}
 
-	return params.Players[playerID].Player, params.Players[playerID].Date, params.Players[playerID].Verified, params.Players[playerID].TwitchID, nil
+	return params.Players[playerID].CurrentName, params.Players[playerID].Date, params.Players[playerID].Verified, params.Players[playerID].TwitchID, nil
 }
 
 // because some fish had different emotes on supibot, i always get the latest emoji from fishinfo

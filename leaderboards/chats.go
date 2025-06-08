@@ -1,7 +1,6 @@
 package leaderboards
 
 import (
-	"context"
 	"fmt"
 	"gofish/data"
 	"gofish/logs"
@@ -73,163 +72,184 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 func getChatStats(params LeaderboardParams) (map[string]data.FishInfo, error) {
 	board := params.LeaderboardType
 	config := params.Config
-	date2 := params.Date2
-	pool := params.Pool
-	date := params.Date
 
 	chatStats := make(map[string]data.FishInfo)
+	chatStatsIDK := make(map[string]*data.FishInfo)
 
+	// add every chat in the config to the map first
 	for chatName := range config.Chat {
-		var chatInfo data.FishInfo
 
-		// ignoring chat checkfdata so that it shows all the chats even those with no log instances
 		if chatName == "global" || chatName == "default" {
 			continue
 		}
 
-		// Get the amount of fish caught per chat
-		err := pool.QueryRow(context.Background(), `
-				SELECT COUNT(*) AS fish_count
-				FROM fish
-				WHERE chat = $1
-				AND date < $2
-	  			AND date > $3
-				`, chatName, date, date2).Scan(&chatInfo.Count)
+		chatStatsIDK[chatName] = &data.FishInfo{
+			Count:    0,
+			MaxCount: 0,
+			FishId:   0,
+			ChatId:   0,
+			Player:   "",
+			PlayerID: 0,
+			Type:     "",
+			TypeName: "",
+			Weight:   0.0,
+			Chat:     chatName,
+			ChatPfp:  fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", chatName, chatName),
+		}
+	}
+
+	// total fish caught
+	queryFishPerChat := `
+		select count(*), chat
+		from fish
+		where date < $1
+		and date > $2
+		group by chat`
+
+	results, err := ReturnFishSliceQuery(params, queryFishPerChat, false)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Board", board).
+			Msg("Error querying fish database for fish count")
+		return chatStats, err
+	}
+
+	for _, result := range results {
+		chatStatsIDK[result.Chat].Count = result.Count
+	}
+
+	// active fishers who caught more than 10 fish
+	// for this params.Date2 needs to be changed
+	// to get the active fishers for last seven days
+
+	datecopy := params.Date2
+
+	// reparse date and then subtract 7 days from it
+	// and use that as date2
+	datetime, err := utils.ParseDate(params.Date)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Date", params.Date).
+			Str("Board", board).
+			Msg("Error parsing date into time.Time for active fishers")
+		return chatStats, err
+	}
+	pastDate := datetime.AddDate(0, 0, -7)
+
+	params.Date2 = pastDate.Format("2006-01-02")
+
+	queryActiveFishers := `
+		select count(*) as maxcount, chat
+		from (
+			select distinct playerid, chat
+			from fish
+			where date < $1
+			and date >= $2
+			group by playerid, chat
+			having count(*) > 10
+		) as subquery
+		group by chat`
+
+	results, err = ReturnFishSliceQuery(params, queryActiveFishers, false)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Board", board).
+			Msg("Error querying fish database for active fishers")
+		return chatStats, err
+	}
+
+	for _, result := range results {
+		chatStatsIDK[result.Chat].MaxCount = result.MaxCount
+	}
+
+	// change date2 back
+	params.Date2 = datecopy
+
+	// unique fishers
+	queryUniqueFishers := `
+		select count(distinct playerid) as fishid, chat
+		from fish
+		where date < $1
+		and date > $2
+		group by chat`
+
+	results, err = ReturnFishSliceQuery(params, queryUniqueFishers, false)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Board", board).
+			Msg("Error querying fish database for unique fishers")
+		return chatStats, err
+	}
+
+	for _, result := range results {
+		chatStatsIDK[result.Chat].FishId = result.FishId
+	}
+
+	// unique fish
+	queryUniqueFish := `
+		select count(distinct fishname) as chatid, chat
+		from fish
+		where date < $1
+		and date > $2
+		group by chat`
+
+	results, err = ReturnFishSliceQuery(params, queryUniqueFish, false)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Board", board).
+			Msg("Error querying fish database for unique fish")
+		return chatStats, err
+	}
+
+	for _, result := range results {
+		chatStatsIDK[result.Chat].ChatId = result.ChatId
+	}
+
+	// channel records
+	// if there are multiple channel records with same weight fish wont always be the same ? or idk
+	queryChannelRecord := `
+		SELECT bub.weight, bub.fishname as typename, bub.chat, bub.date, bub.catchtype, bub.playerid 
+		FROM (
+        SELECT fish.*, 
+        RANK() OVER (
+            PARTITION BY chat
+            ORDER BY weight DESC
+        )
+        FROM fish
+		WHERE date < $1
+	  	AND date > $2
+    	) bub 
+		WHERE RANK = 1`
+
+	results, err = ReturnFishSliceQuery(params, queryChannelRecord, false)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Board", board).
+			Msg("Error querying fish database for unique fish")
+		return chatStats, err
+	}
+
+	for _, result := range results {
+		chatStatsIDK[result.Chat].Weight = result.Weight
+
+		chatStatsIDK[result.Chat].Type, err = FishStuff(result.TypeName, params)
 		if err != nil {
-			logs.Logs().Error().Err(err).
-				Str("Chat", chatName).
-				Str("Board", board).
-				Msg("Error querying fish database for fish count")
 			return chatStats, err
 		}
 
-		// If no fish caught in chat, dont do the queries and set the stats here
-		if chatInfo.Count == 0 {
-			chatStats[chatName] = data.FishInfo{
-				Count:    0,
-				MaxCount: 0,
-				FishId:   0,
-				ChatId:   0,
-				Player:   "",
-				PlayerID: 0,
-				Type:     "",
-				TypeName: "",
-				Weight:   0.0,
-				Chat:     chatName,
-				ChatPfp:  fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", chatName, chatName),
-			}
-			continue
-		}
+		chatStatsIDK[result.Chat].TypeName = result.TypeName
 
-		// Get the active fishers for the last seven days (defined by date)
-		// For pastdate, the query should have >= else it will only be 6 days
-		datetime, err := utils.ParseDate(date)
-		if err != nil {
-			logs.Logs().Error().Err(err).
-				Str("Date", date).
-				Str("Chat", chatName).
-				Str("Board", board).
-				Msg("Error parsing date into time.Time for active fishers")
-			return chatStats, err
-		}
-		pastDate := datetime.AddDate(0, 0, -7)
+		chatStatsIDK[result.Chat].PlayerID = result.PlayerID
 
-		err = pool.QueryRow(context.Background(), `
-				SELECT COUNT(*) AS active_fishers_count
-				FROM (
-					SELECT DISTINCT playerid
-					FROM fish
-					WHERE chat = $1
-					AND date >= $2
-					AND date < $3
-					GROUP BY playerid
-					HAVING COUNT(*) > 10
-				) AS subquery
-				`, chatName, pastDate, datetime).Scan(&chatInfo.MaxCount)
-		if err != nil {
-			logs.Logs().Error().Err(err).
-				Str("Chat", chatName).
-				Str("Board", board).
-				Msg("Error querying fish database for active fishers")
-			return chatStats, err
-		}
-
-		// Get the unique fishers
-		err = pool.QueryRow(context.Background(), `
-				SELECT COUNT(*) AS unique_fishers_count
-				FROM (
-					SELECT DISTINCT playerid
-					FROM fish
-					WHERE chat = $1
-					AND date < $2
-	  				AND date > $3
-					GROUP BY playerid
-				) AS subquery
-				`, chatName, date, date2).Scan(&chatInfo.FishId)
-		if err != nil {
-			logs.Logs().Error().Err(err).
-				Str("Chat", chatName).
-				Str("Board", board).
-				Msg("Error querying fish database for unique fishers")
-			return chatStats, err
-		}
-
-		// Get the unique fish caught
-		err = pool.QueryRow(context.Background(), `
-				SELECT COUNT(*) AS unique_fish_count
-				FROM (
-					SELECT DISTINCT fishname
-					FROM fish
-					WHERE chat = $1
-					AND date < $2
-	  				AND date > $3
-					GROUP BY fishname
-				) AS subquery
-				`, chatName, date, date2).Scan(&chatInfo.ChatId)
-		if err != nil {
-			logs.Logs().Error().Err(err).
-				Str("Chat", chatName).
-				Str("Board", board).
-				Msg("Error querying fish database for unique fish caught")
-			return chatStats, err
-		}
-
-		// Get the channel record
-		err = pool.QueryRow(context.Background(), `
-				SELECT f.playerid, f.weight, f.fishname
-				FROM fish f
-				JOIN (
-					SELECT MAX(weight) AS max_weight
-					FROM fish
-					WHERE chat = $1
-					AND date < $2
-	  				AND date > $3
-				) max_weight_chat ON f.weight = max_weight_chat.max_weight
-				WHERE f.chat = $1;
-				`, chatName, date, date2).Scan(&chatInfo.PlayerID, &chatInfo.Weight, &chatInfo.TypeName)
-		if err != nil {
-			logs.Logs().Error().Err(err).
-				Str("Chat", chatName).
-				Str("Board", board).
-				Msg("Error querying fish database for channel record")
-			return chatStats, err
-		}
-
-		chatInfo.Player, _, _, _, err = PlayerStuff(chatInfo.PlayerID, params, pool)
+		chatStatsIDK[result.Chat].Player, _, _, _, err = PlayerStuff(result.PlayerID, params, params.Pool)
 		if err != nil {
 			return chatStats, err
 		}
+	}
 
-		chatInfo.Type, err = FishStuff(chatInfo.TypeName, params)
-		if err != nil {
-			return chatStats, err
-		}
-
-		chatInfo.ChatPfp = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", chatName, chatName)
-		chatInfo.Chat = chatName
-
-		// Update chatStats
-		chatStats[chatName] = chatInfo
+	// >_< ? change it back to the other map idk
+	for chat, stats := range chatStatsIDK {
+		chatStats[chat] = *stats
 	}
 
 	return chatStats, nil
@@ -268,6 +288,7 @@ func writeChatStats(filePath string, chatStats map[string]data.FishInfo, oldChat
 		pfp := chatStats[chat].ChatPfp
 		weight := chatStats[chat].Weight
 		fishtype := chatStats[chat].Type
+		fishname := chatStats[chat].TypeName
 		player := chatStats[chat].Player
 		chatname := chatStats[chat].Chat
 		activefishers := chatStats[chat].MaxCount
@@ -356,7 +377,8 @@ func writeChatStats(filePath string, chatStats map[string]data.FishInfo, oldChat
 
 		ranks := Ranks(rank)
 
-		_, _ = fmt.Fprintf(file, "| %s %s | %s %s | %s | %s | %s | %s | %s %s lbs, %s |", ranks, changeEmoji, chatname, pfp, counts, activepl, uniquepl, uniquef, fishtype, fishweight, player)
+		_, _ = fmt.Fprintf(file, "| %s %s | %s %s | %s | %s | %s | %s | %s %s %s lbs, %s |",
+			ranks, changeEmoji, pfp, chatname, counts, activepl, uniquepl, uniquef, fishtype, fishname, fishweight, player)
 		_, err = fmt.Fprintln(file)
 		if err != nil {
 			return err

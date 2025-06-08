@@ -4,24 +4,64 @@ import (
 	"gofish/data"
 	"gofish/logs"
 	"gofish/utils"
-	"regexp"
 	"strings"
 	"time"
 
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 
+// to store info about a leaderboard and its functions
+type LeaderboardConfig struct {
+	Name             string
+	hasGlobal        bool
+	GlobalOnly       bool
+	Tournament       bool
+	Function         func(LeaderboardParams)
+	GetFunction      func(LeaderboardParams) (map[string]data.FishInfo, error)
+	GetTitleFunction func(LeaderboardParams) string
+	GetQueryFunction func(LeaderboardParams) string
+	LimitField       string
+}
+
+// This is holding the flags (like -title and -path...)
+// players is to store the info about the players
+// to get their latest name, verified status and when they started fishing
+// fishtypes is to store the latest emoji for a fishname
+type LeaderboardParams struct {
+	Chat            utils.ChatInfo
+	Pool            *pgxpool.Pool
+	Config          utils.Config
+	Date            string
+	Date2           string
+	Title           string
+	Limit           string
+	Path            string
+	ChatName        string
+	Mode            string
+	LeaderboardType string
+	BoardInfo       LeaderboardConfig
+	Global          bool
+	Players         map[int]PlayerInfo
+	FishTypes       map[string]string
+	Catchtypenames  map[string]string
+}
+
+type PlayerInfo struct {
+	CurrentName string
+	TwitchID    int
+	Verified    bool
+	Date        time.Time
+}
+
 func Leaderboards(pool *pgxpool.Pool, leaderboards string, chatNames string, date string, date2 string, path string, title string, limit string, mode string) {
 
 	config := utils.LoadConfig()
 
-	leaderboardList := strings.Split(leaderboards, ",")
-
-	// So that you can make "past" boards for a date or for a time period (like 2023 boards)
-	// So if "date" is 2024-01-01 and "date2" is 2022-12-31 it will only count data for 2023
-	// If "date" is 2024-05-10 it will only count data up to 2024-05-09
-	// If "date2" is 2023-01-01 it will only count data after that date
-	// By default, "date" is the next day. So that it considers all data
+	// The date arguments for the leaderboards
+	// The date format for the leaderboards is YYYY-MM-DD
+	// but can also be YYYY-MM-DD HH:MM:SS
+	// date can also be "today"
+	// date and date2 are both > / < (unless specified else in the board)
 	if date == "" {
 		currentDate := time.Now().UTC()
 		nextDay := currentDate.AddDate(0, 0, 1)
@@ -33,6 +73,7 @@ func Leaderboards(pool *pgxpool.Pool, leaderboards string, chatNames string, dat
 			if !isValidDate(date) {
 				logs.Logs().Error().
 					Str("Date", date).
+					Str("Format", "YYYY-MM-DD (HH:MM:SS)").
 					Msg("Date is in the wrong format")
 				return
 			}
@@ -47,6 +88,7 @@ func Leaderboards(pool *pgxpool.Pool, leaderboards string, chatNames string, dat
 		if !isValidDate(date2) {
 			logs.Logs().Error().
 				Str("Date2", date2).
+				Str("Format", "YYYY-MM-DD (HH:MM:SS)").
 				Msg("Date2 is in the wrong format")
 			return
 		}
@@ -71,28 +113,127 @@ func Leaderboards(pool *pgxpool.Pool, leaderboards string, chatNames string, dat
 		Title:          title,
 		Limit:          limit,
 		Catchtypenames: Catchtypes,
-		Players:        make(map[int]data.FishInfo),
+		Players:        make(map[int]PlayerInfo),
 		FishTypes:      make(map[string]string),
 	}
 
 	// map of all the boards
-	// averageweight, rare, stats, shiny are global only, dont need a chat specified, so if there is, they get skipped
-	// i do -chats all -board chatboards and then -chats global -board globalboards on sunday, and -chats all -board tourney for tournaments later
 	existingboards := map[string]LeaderboardConfig{
-		"fishweek":      {hasGlobal: false, GlobalOnly: false, Tournament: true, Function: processFishweek},
-		"trophy":        {hasGlobal: false, GlobalOnly: false, Tournament: true, Function: processTrophy},
-		"records":       {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processChannelRecords},
-		"uniquefish":    {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processUniqueFish},
-		"typesmall":     {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processTypeSmall},
-		"type":          {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processType},
-		"count":         {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processCount},
-		"weight":        {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processWeight},
-		"weight2":       {hasGlobal: true, GlobalOnly: false, Tournament: false, Function: processWeight2},
-		"averageweight": {hasGlobal: true, GlobalOnly: true, Tournament: false, Function: processAverageWeight},
-		"rare":          {hasGlobal: true, GlobalOnly: true, Tournament: false, Function: RunCountFishTypesGlobal},
-		"chats":         {hasGlobal: true, GlobalOnly: true, Tournament: false, Function: RunChatStatsGlobal},
-		"shiny":         {hasGlobal: true, GlobalOnly: true, Tournament: false, Function: processShinies},
-		"profiles":      {hasGlobal: true, GlobalOnly: true, Tournament: false, Function: GetPlayerProfiles}}
+		"trophy": {
+			hasGlobal:  false,
+			GlobalOnly: false,
+			Tournament: true,
+			Function:   processTrophy,
+		},
+
+		"fishweek": {
+			hasGlobal:  false,
+			GlobalOnly: false,
+			Tournament: true,
+			Function:   processFishweek,
+		},
+		"uniquefish": {
+			hasGlobal:  true,
+			GlobalOnly: false,
+			Tournament: false,
+			Function:   processUniqueFish,
+		},
+		"count": {
+			hasGlobal:  true,
+			GlobalOnly: false,
+			Tournament: false,
+			Function:   processCount,
+		},
+
+		"typelast": {
+			hasGlobal:        true,
+			GlobalOnly:       false,
+			Tournament:       false,
+			Function:         processType,
+			GetFunction:      getTypeRecords,
+			GetTitleFunction: typeBoardTitles,
+			GetQueryFunction: typeBoardSql,
+		},
+		"typefirst": {
+			hasGlobal:        true,
+			GlobalOnly:       false,
+			Tournament:       false,
+			Function:         processType,
+			GetFunction:      getTypeRecords,
+			GetTitleFunction: typeBoardTitles,
+			GetQueryFunction: typeBoardSql,
+		},
+		"typesmall": {
+			hasGlobal:        true,
+			GlobalOnly:       false,
+			Tournament:       false,
+			Function:         processType,
+			GetFunction:      getTypeRecords,
+			GetTitleFunction: typeBoardTitles,
+			GetQueryFunction: typeBoardSql,
+		},
+		"type": {
+			hasGlobal:        true,
+			GlobalOnly:       false,
+			Tournament:       false,
+			Function:         processType,
+			GetFunction:      getTypeRecords,
+			GetTitleFunction: typeBoardTitles,
+			GetQueryFunction: typeBoardSql,
+		},
+
+		"records": {
+			hasGlobal:  true,
+			GlobalOnly: false,
+			Tournament: false,
+			Function:   processChannelRecords,
+		},
+
+		"weight": {
+			hasGlobal:  true,
+			GlobalOnly: false,
+			Tournament: false,
+			Function:   processWeight,
+		},
+		"weight2": {
+			hasGlobal:  true,
+			GlobalOnly: false,
+			Tournament: false,
+			Function:   processWeight2,
+		},
+
+		"averageweight": {
+			hasGlobal:  true,
+			GlobalOnly: true,
+			Tournament: false,
+			Function:   processAverageWeight,
+		},
+		"rare": {
+			hasGlobal:  true,
+			GlobalOnly: true,
+			Tournament: false,
+			Function:   RunCountFishTypesGlobal,
+		},
+		"chats": {
+			hasGlobal:  true,
+			GlobalOnly: true,
+			Tournament: false,
+			Function:   RunChatStatsGlobal,
+		},
+		"shiny": {
+			hasGlobal:  true,
+			GlobalOnly: true,
+			Tournament: false,
+			Function:   processShinies,
+		},
+		"profiles": {
+			hasGlobal:  true,
+			GlobalOnly: true,
+			Tournament: false,
+			Function:   GetPlayerProfiles,
+		}}
+
+	leaderboardList := strings.Split(leaderboards, ",")
 
 	for _, leaderboard := range leaderboardList {
 
@@ -167,6 +308,8 @@ func processLeaderboard(config utils.Config, params LeaderboardParams, leaderboa
 				params.ChatName = chatName
 				params.Chat = chat
 
+				params.BoardInfo = board
+
 				processFunc := board.Function
 
 				if chatName != "global" {
@@ -225,6 +368,8 @@ func processLeaderboard(config utils.Config, params LeaderboardParams, leaderboa
 			params.ChatName = chatName
 			params.Chat = chat
 
+			params.BoardInfo = board
+
 			processFunc := board.Function
 
 			if chatName != "global" {
@@ -250,39 +395,4 @@ func processLeaderboard(config utils.Config, params LeaderboardParams, leaderboa
 			}
 		}
 	}
-}
-
-type LeaderboardConfig struct {
-	Name       string
-	hasGlobal  bool
-	GlobalOnly bool
-	Tournament bool
-	Function   func(LeaderboardParams)
-}
-
-// This is holding the flags (like -title and -path...)
-// players is to store the info about the players
-// to get their latest name, verified status and when they started fishing
-// fishtypes is to store the latest emoji for a fishname
-type LeaderboardParams struct {
-	Chat            utils.ChatInfo
-	Pool            *pgxpool.Pool
-	Config          utils.Config
-	Date            string
-	Date2           string
-	Title           string
-	Limit           string
-	Path            string
-	ChatName        string
-	Mode            string
-	LeaderboardType string
-	Global          bool
-	Players         map[int]data.FishInfo
-	FishTypes       map[string]string
-	Catchtypenames  map[string]string
-}
-
-func isValidDate(date string) bool {
-	re := regexp.MustCompile(`^\d{4}-\d{2}-\d{2}( \d{2}:\d{2}:\d{2})?$`)
-	return re.MatchString(date)
 }
