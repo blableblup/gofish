@@ -1,8 +1,8 @@
 ### Players who have seen the most fish in psp1g's chat
-| Rank | Player | Fish Seen |
+| Rank | Player | Fish Caught |
 |------|--------|-----------|
 | 1 🥇  | huuuuuuuuuuuuuuuuuuuuuurz  | 79 |
-| 2 🥈  | nndiana*  | 77 (+3) |
+| 2 🥈  | nndiana*  | 77 |
 | 3 🥉  | caprisen_*  | 71 |
 | 3 🥉  | jr_mime  | 71 |
 | 5  | sandwichsundays*  | 70 |
@@ -13,11 +13,11 @@
 | 9  | pengeg  | 67 |
 | 11  | divra__  | 63 |
 | 12  | angus_lpc  | 62 |
+| 12 ⬆ | gorillapark  | 62 (+1) |
 | 12  | jemcs_  | 62 |
 | 12  | ratot  | 62 |
-| 15  | commanda_u  | 61 |
-| 15  | flunke_  | 61 |
-| 15  | gorillapark  | 61 |
+| 16 ⬇ | commanda_u  | 61 |
+| 16 ⬇ | flunke_  | 61 |
 | 18  | theevirus  | 60 |
 | 19  | eeziiii  | 58 |
 | 19  | veny2lbs  | 58 |
@@ -40,8 +40,6 @@
 | 36  | flovrek  | 50 |
 | 36  | seryxx  | 50 |
 
-_This does not include fish seen through 🎁 gifts or through releasing to another player during the winter events!_
+_Only showing fishers who caught >= 50 fish_
 
-_Only showing fishers who have seen >= 50 fish_
-
-_Last updated at 2025-06-01 09:15:16 UTC_
+_Last updated at 2025-06-08 09:47:44 UTC_

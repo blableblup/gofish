@@ -1,0 +1,65 @@
+### First fish per type caught in swormbeard's chat
+| Rank | Fish | Weight in lbs | Player | Date in UTC |
+|------|--------|-----------|---------|------|
+| 61  | 🫎 moose | 238.43 | derintu | 2025-03-23 20:14:40 |
+| 60  | 📱 iphone | 5.21 | fvkdylan | 2025-03-18 23:17:58 |
+| 59  | 🌾 grass | 0.23 | derintu | 2025-03-17 20:23:03 |
+| 58  | 🪚 carpentrysaw | 0.57 | derintu | 2025-03-17 16:55:26 |
+| 57  | ⛸️ iceskate | 0.84 | derintu | 2025-03-17 16:11:43 |
+| 56  | 🌷 tulip | 0.01 | derinturitierutz | 2025-03-16 16:56:15 |
+| 55  | 🍄‍🟫 brownmushroom | 18.54 | derintu | 2025-03-15 19:24:59 |
+| 54  | 👡 sandal | 1.24 | kishma9 | 2025-03-15 15:10:01 |
+| 53  | 🍃 leaf | 1.48 | kishma9 | 2025-03-14 22:12:25 |
+| 52  | 🦇 bat | 60.15 | kishma9 | 2025-03-14 00:11:12 |
+| 51  | 🦭 seal | 16.96 | leanmeister | 2024-11-28 20:27:17 |
+| 50  | 🥫 cannedfood | 1.73 | leanmeister | 2024-11-27 21:52:51 |
+| 49  | 👢 boot | 1.78 | leanmeister | 2024-11-25 23:27:07 |
+| 48  | 🦦 otter | 14.70 | leanmeister | 2024-11-23 20:16:01 |
+| 47  | 🍁 mapleleaf | 0.94 | leanmeister | 2024-11-14 23:08:37 |
+| 46  | 🪹 emptynest | 6.80 | lluuucy | 2024-11-07 15:57:21 |
+| 45  | 🪀 bobber | 0.00 | ninjaross | 2024-11-02 19:23:44 |
+| 44  | 🐦 bird | 2.81 | lluuucy | 2024-10-26 03:04:44 |
+| 43  | 🦑 squid | 7.81 | respirate_ | 2024-10-23 02:22:48 |
+| 42  | 🦀 crab | 2.67 | respirate_ | 2024-10-23 01:04:27 |
+| 41  | ☘️ shamrock | 0.39 | lluuucy | 2024-10-22 18:50:22 |
+| 40  | 🦎 lizard | 6.94 | lluuucy | 2024-10-17 15:55:25 |
+| 39  | 🪺 nestwitheggs | 10.58 | dayzedinndaydreams | 2024-10-14 19:42:06 |
+| 38  | 🦫 beaver | 22.77 | lluuucy | 2024-10-12 21:50:13 |
+| 37  | 🦆 duck | 3.99 | c_mgirl | 2024-10-07 02:07:17 |
+| 36  | 🌰 acorn | 0.31 | larvasisters | 2024-10-04 22:04:38 |
+| 35  | 👟 athleticshoe | 0.91 | respirate_ | 2024-09-08 17:15:35 |
+| 34  | 🧦 socks | 1.48 | respirate_ | 2024-09-07 23:49:45 |
+| 33  | 🪸 coral | 14.47 | respirate_ | 2024-09-01 18:32:43 |
+| 32  | 🪨 rock | 10.48 | respirate_ | 2024-08-31 22:32:13 |
+| 31  | 🕷️ spider | 11.42 | respirate_ | 2024-08-31 20:13:14 |
+| 30  | 🦕 sauropod | 202.40 | mitgliederversammlung | 2024-08-30 22:35:37 |
+| 29  | 🦈 shark | 29.43 | respirate_ | 2024-08-30 20:13:52 |
+| 28  | 🐠 tropicalfish | 3.54 | respirate_ | 2024-08-24 21:55:40 |
+| 27  | 🐌 snail | 7.79 | respirate_ | 2024-08-24 06:22:05 |
+| 26  | 🐢 turtle | 74.33 | respirate_ | 2024-08-21 23:01:53 |
+| 25  | 🐙 octopus | 45.25 | sicklymaidrobot | 2024-08-09 16:34:11 |
+| 23  | 🐍 snake | 17.10 | larvasisters | 2024-08-07 17:36:47 |
+| 22  | 🦪 oyster | 10.77 | dayzedinndaydreams | 2024-08-04 22:09:58 |
+| 21  | 🐳 whale | 208.05 | larvasisters | 2024-08-04 20:06:31 |
+| 20  | 🧃 beveragebox | 11.89 | dayzedinndaydreams | 2024-08-04 17:56:24 |
+| 19  | 🪝 hook | 2.15 | dayzedinndaydreams | 2024-08-03 19:12:22 |
+| 18  | 🌿 seaweed | 0.29 | ninjaross | 2024-08-03 17:36:41 |
+| 17  | 🍬 candy | 0.00 | derinturitierutz | 2024-08-03 15:45:42 |
+| 16  | 🐚 shell | 3.05 | derinturitierutz | 2024-08-03 15:41:08 |
+| 15  | 🩴 thongsandal | 0.65 | dayzedinndaydreams | 2024-08-03 15:29:46 |
+| 14  | 🩲 briefs | 6.30 | dayzedinndaydreams | 2024-08-02 22:34:26 |
+| 13  | 🦞 lobster | 17.05 | dayzedinndaydreams | 2024-08-02 21:57:16 |
+| 12  | 🪳 cockroach | 2.15 | sicklymaidrobot | 2024-08-02 21:50:26 |
+| 11  | 🐋 whale2 | 74.46 | derinturitierutz | 2024-08-02 20:58:00 |
+| 10  | 🎏 lure | 0.57 | dayzedinndaydreams | 2024-08-02 20:57:19 |
+| 9  | 🐟 fish | 31.03 | ninjaross | 2024-08-02 20:33:13 |
+| 8  | 💀 skull | 6.86 | dayzedinndaydreams | 2024-08-02 19:53:54 |
+| 7  | 🐬 dolphin | 53.42 | ninjaross | 2024-08-02 18:34:51 |
+| 6  | 🐡 blowfish | 32.43 | dayzedinndaydreams | 2024-08-02 18:20:24 |
+| 5  | 🐸 frog | 1.27 | c_mgirl | 2024-07-29 21:32:53 |
+| 4  | 🕶️ darksunglasses | 11.39 | respirate_ | 2024-07-29 07:01:49 |
+| 3  | 🧽 sponge | 6.19 | respirate_ | 2024-07-28 22:59:22 |
+| 2  | 🦐 shrimp | 3.14 | bapqo | 2024-07-28 22:59:12 |
+| 1  | 🐊 crocodile | 105.00 | julialuxel | 2024-07-28 22:59:00 |
+
+_Last updated at 2025-06-08 09:47:12 UTC_

@@ -14,7 +14,7 @@
 | 11  | 🐊 crocodile | 145.86 | nicestnarwhal | 2025-03-01 13:38:53 |
 | 12  | 🦭 seal | 133.82 | vaiastol | 2025-02-01 09:46:57 |
 | 13  | 🦪 oyster | 125.98 | julialuxel | 2024-12-28 19:05:43 |
-| 14  | 🐬 dolphin | 104.56 | leastsussyimposter | 2024-11-21 16:03:43 |
+| 14  | 🐬 dolphin | 109.90 (+5.34) | leanmeister | 2025-06-02 19:28:09 |
 | 15  | 🪸 coral | 95.45 | leanmeister | 2025-04-26 23:25:57 |
 | 16  | 🧟 zombie | 86.37 | yoimlee | 2024-08-12 16:32:24 |
 | 17  | 🛢️ oildrum | 68.03 | leastsussyimposter | 2024-08-05 01:05:17 |
@@ -31,7 +31,7 @@
 | 28  | 🦀 crab | 36.97 | julialuxel | 2024-08-29 02:39:38 |
 | 29  | 🥒 cucumber | 31.74 | hahppyy | 2024-08-09 18:09:50 |
 | 30  | 🐡 blowfish | 31.46 | yoimlee | 2024-08-30 16:54:37 |
-| 31  | 🧽 sponge | 29.11 (+1.41) | obama | 2025-05-26 22:11:41 |
+| 31  | 🧽 sponge | 29.11 | obama | 2025-05-26 22:11:41 |
 | 32  | 🧊 icecube | 26.42 | vaiastol | 2024-12-27 04:13:21 |
 | 33  | 🪳 cockroach | 25.91 | nicestnarwhal | 2025-02-23 14:10:51 |
 | 34  | 🐠 tropicalfish | 24.09 | leanmeister | 2025-03-17 19:53:33 |
@@ -54,11 +54,11 @@
 | 51  | 📱 iphone | 10.66 | pengeg | 2024-12-24 00:32:17 |
 | 52  | 🪹 emptynest | 10.57 | divra__ | 2025-04-12 21:36:49 |
 | 53  | 🪵 log | 10.26 | bubinga | 2024-11-05 20:58:54 |
-| 54 ⬆ | 🕶️ darksunglasses | 9.95 (+2.52) | tiaguitos97 | 2025-05-26 18:22:19 |
-| 55 ⬇ | 💀 skull | 9.87 | leanmeister | 2025-03-27 18:21:23 |
-| 56 ⬇ | 🎱 8ball | 9.50 | leastsussyimposter | 2025-01-06 22:09:55 |
-| 57 ⬇ | 🧃 beveragebox | 9.36 | nicestnarwhal | 2025-04-23 02:28:33 |
-| 58 ⬇ | 🦎 lizard | 7.98 | leastsussyimposter | 2024-12-24 22:04:56 |
+| 54  | 🕶️ darksunglasses | 9.95 | tiaguitos97 | 2025-05-26 18:22:19 |
+| 55  | 💀 skull | 9.87 | leanmeister | 2025-03-27 18:21:23 |
+| 56  | 🎱 8ball | 9.50 | leastsussyimposter | 2025-01-06 22:09:55 |
+| 57  | 🧃 beveragebox | 9.36 | nicestnarwhal | 2025-04-23 02:28:33 |
+| 58  | 🦎 lizard | 7.98 | leastsussyimposter | 2024-12-24 22:04:56 |
 | 59  | 🦆 duck | 6.56 | divra__ | 2024-11-02 04:38:35 |
 | 60  | 🥫 cannedfood | 5.92 | hahppyy | 2025-01-13 14:58:31 |
 | 61  | 🧵 wireline | 5.87 | vaiastol | 2025-03-13 07:44:35 |
@@ -75,13 +75,13 @@
 | 72  | 🥀 wiltedflower | 2.73 | hahppyy | 2025-01-02 18:42:06 |
 | 73  | ☂️ umbrella | 2.48 | hahppyy | 2025-02-17 22:19:26 |
 | 74  | 👡 sandal | 2.41 | hahppyy | 2025-03-20 18:39:52 |
-| 75 ⬆ | 👟 athleticshoe | 1.99 (+0.16) | n64seat | 2025-05-27 00:29:20 |
-| 76 ⬇ | 👢 boot | 1.97 | yoimlee | 2024-11-04 14:41:11 |
-| 77 ⬇ | 🧦 socks | 1.95 | divra__ | 2024-10-16 23:07:48 |
-| 78 ⬇ | 🍃 leaf | 1.92 | v6r_ | 2025-03-26 03:07:20 |
-| 79 ⬇ | 🩰 balletshoes | 1.89 | beebo8i | 2025-01-01 02:12:26 |
-| 80 ⬇ | 🩴 thongsandal | 1.87 | vaiastol | 2024-07-31 16:40:54 |
-| 81 ⬇ | ⛸️ iceskate | 1.84 | hahppyy | 2025-01-12 19:57:15 |
+| 75  | 👟 athleticshoe | 1.99 | n64seat | 2025-05-27 00:29:20 |
+| 76  | 👢 boot | 1.97 | yoimlee | 2024-11-04 14:41:11 |
+| 77  | 🧦 socks | 1.95 | divra__ | 2024-10-16 23:07:48 |
+| 78  | 🍃 leaf | 1.92 | v6r_ | 2025-03-26 03:07:20 |
+| 79  | 🩰 balletshoes | 1.89 | beebo8i | 2025-01-01 02:12:26 |
+| 80  | 🩴 thongsandal | 1.87 | vaiastol | 2024-07-31 16:40:54 |
+| 81  | ⛸️ iceskate | 1.84 | hahppyy | 2025-01-12 19:57:15 |
 | 82  | 🥪 sandwich | 1.73 | hahppyy | 2024-11-23 00:31:22 |
 | 83  | 🐦‍⬛ blackbird | 1.42 | vaiastol | 2025-04-11 08:37:47 |
 | 84  | 🌿 seaweed | 0.99 | misifearless | 2025-03-10 09:57:08 |
@@ -95,4 +95,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-06-01 09:16:52 UTC_
+_Last updated at 2025-06-08 09:49:50 UTC_

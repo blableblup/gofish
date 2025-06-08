@@ -11,7 +11,35 @@
 		"chat": "deme",
 		"fishid": 174256,
 		"chatid": 4,
+		"rank": 6
+	},
+	"coral": {
+		"player": "commanda_u",
+		"playerid": 1747,
+		"weight": 14.11,
+		"bot": "gofishgame",
+		"type": "🪸",
+		"typename": "coral",
+		"catchtype": "normal",
+		"date": "2025-06-02T08:53:33Z",
+		"chat": "deme",
+		"fishid": 177260,
+		"chatid": 17,
 		"rank": 4
+	},
+	"crab": {
+		"player": "naori_desu",
+		"playerid": 3774,
+		"weight": 1.23,
+		"bot": "gofishgame",
+		"type": "🦀",
+		"typename": "crab",
+		"catchtype": "normal",
+		"date": "2025-06-01T00:01:44Z",
+		"chat": "deme",
+		"fishid": 176979,
+		"chatid": 13,
+		"rank": 11
 	},
 	"crocodile": {
 		"player": "fantanium",
@@ -53,7 +81,21 @@
 		"chat": "deme",
 		"fishid": 175822,
 		"chatid": 9,
-		"rank": 5
+		"rank": 7
+	},
+	"frog": {
+		"player": "naori_desu",
+		"playerid": 3774,
+		"weight": 2.08,
+		"bot": "gofishgame",
+		"type": "🐸",
+		"typename": "frog",
+		"catchtype": "normal",
+		"date": "2025-06-04T20:47:52Z",
+		"chat": "deme",
+		"fishid": 177696,
+		"chatid": 18,
+		"rank": 9
 	},
 	"hook": {
 		"player": "fantanium",
@@ -67,7 +109,21 @@
 		"chat": "deme",
 		"fishid": 172638,
 		"chatid": 2,
-		"rank": 8
+		"rank": 12
+	},
+	"lure": {
+		"player": "aim1138",
+		"playerid": 3789,
+		"weight": 0.04,
+		"bot": "gofishgame",
+		"type": "🎏",
+		"typename": "lure",
+		"catchtype": "normal",
+		"date": "2025-06-01T00:43:22Z",
+		"chat": "deme",
+		"fishid": 176986,
+		"chatid": 14,
+		"rank": 13
 	},
 	"oyster": {
 		"player": "naori_desu",
@@ -95,7 +151,7 @@
 		"chat": "deme",
 		"fishid": 176530,
 		"chatid": 11,
-		"rank": 6
+		"rank": 8
 	},
 	"squid": {
 		"player": "commanda_u",
@@ -109,6 +165,20 @@
 		"chat": "deme",
 		"fishid": 176915,
 		"chatid": 12,
-		"rank": 7
+		"rank": 10
+	},
+	"tropicalfish": {
+		"player": "letter__n",
+		"playerid": 2963,
+		"weight": 9.37,
+		"bot": "gofishgame",
+		"type": "🐠",
+		"typename": "tropicalfish",
+		"catchtype": "normal",
+		"date": "2025-06-01T05:51:00Z",
+		"chat": "deme",
+		"fishid": 177011,
+		"chatid": 16,
+		"rank": 5
 	}
 }

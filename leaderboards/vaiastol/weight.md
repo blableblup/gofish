@@ -26,7 +26,7 @@
 | 23  | sandwichsundays | 🐊 crocodile | 122.88 | 2024-07-31 18:53:34 |
 | 24  | larvasisters | 🐋 whale2 | 114.20 | 2024-12-26 20:44:24 |
 | 25  | jr_mime | 🐙 octopus | 105.86 | 2024-08-24 13:55:32 |
-| 26  | garout | 🐢 turtle | 96.16 (+1.97) | 2025-05-17 15:01:32 |
+| 26  | garout | 🐢 turtle | 98.03 (+1.87) | 2025-06-03 21:43:29 |
 | 27  | fvkdylan | 🐬 dolphin | 90.12 | 2025-02-05 08:48:24 |
 | 28  | drpasu | 🐙 octopus | 89.12 | 2025-04-18 23:30:56 |
 | 29  | ermnest | 🦑 squid | 77.83 | 2024-10-02 09:12:01 |
@@ -43,4 +43,4 @@
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2025-05-18 09:20:34 UTC_
+_Last updated at 2025-06-08 09:48:46 UTC_

@@ -1,8 +1,8 @@
 ### Most fish caught in coolishdanker's chat
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
-| 1 🥇  | fenix8  | 50 |
-| 2 🥈  | destructionvibe  | 24 (+2) |
+| 1 🥇  | fenix8  | 51 (+1) |
+| 2 🥈  | destructionvibe  | 24 |
 | 3 🥉  | yxnggon  | 19 |
 | 4  | 04knight  | 18 |
 | 4  | copynine  | 18 |
@@ -15,4 +15,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-04-27 09:08:33 UTC_
+_Last updated at 2025-06-08 09:48:48 UTC_

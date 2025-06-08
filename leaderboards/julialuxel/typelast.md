@@ -1,0 +1,60 @@
+### Last fish per type caught in julialuxel's chat
+| Rank | Fish | Weight in lbs | Player | Date in UTC |
+|------|--------|-----------|---------|------|
+| 55  | 🐠 tropicalfish | 13.48 | julialuxel | 2025-05-08 03:22:34 |
+| 54  | 🐚 shell | 0.56 | c_mgirl | 2025-03-31 02:33:51 |
+| 53  | 🪳 cockroach | 2.77 | leanmeister | 2025-03-29 23:41:42 |
+| 52  | 🐍 snake | 17.81 | leanmeister | 2025-03-26 20:13:10 |
+| 51  | 🐢 turtle | 80.52 | julialuxel | 2025-03-16 17:21:06 |
+| 50  | 📱 iphone | 2.28 | julialuxel | 2025-03-16 00:00:13 |
+| 49  | 🎱 8ball | 2.75 | julialuxel | 2025-03-15 22:03:38 |
+| 48  | 🧵 wireline | 4.73 | julialuxel | 2025-03-15 00:39:39 |
+| 47  | 🪝 hook | 3.91 | bubinga | 2025-02-08 19:33:04 |
+| 46  | 🦦 otter | 8.37 | mitgliederversammlung | 2025-02-03 22:42:08 |
+| 45  | 🦐 shrimp | 27.27 | julialuxel | 2025-02-02 16:19:07 |
+| 44  | 🎏 lure | 0.00 | julialuxel | 2025-02-02 15:32:33 |
+| 43  | 🐟 fish | 4.23 | julialuxel | 2025-02-02 15:31:59 |
+| 42  | 🐋 whale2 | 31.87 | julialuxel | 2025-01-31 21:03:35 |
+| 41  | 🐬 dolphin | 43.45 | julialuxel | 2025-01-08 22:53:41 |
+| 40  | 🦀 crab | 4.95 | leanmeister | 2025-01-03 21:39:41 |
+| 39  | 🦞 lobster | 49.64 | julialuxel | 2024-12-29 04:36:47 |
+| 38  | 🦑 squid | 208.92 | julialuxel | 2024-12-29 01:57:03 |
+| 37  | 🐊 crocodile | 1.57 | julialuxel | 2024-12-24 07:09:10 |
+| 36  | 🪺 nestwitheggs | 2.18 | julialuxel | 2024-12-24 01:54:16 |
+| 35  | 🦫 beaver | 28.05 | julialuxel | 2024-10-04 20:54:33 |
+| 34  | 🌰 acorn | 1.34 | julialuxel | 2024-09-30 23:18:34 |
+| 33  | 🐦‍⬛ blackbird | 0.69 | ninjaross | 2024-05-04 18:16:52 |
+| 32  | ☘️ shamrock | 1.46 | hahppyy | 2024-04-02 15:48:36 |
+| 31  | 🪸 coral | 20.18 | lluuucy | 2024-04-01 18:43:48 |
+| 30  | 🐸 frog | 0.81 | dayzedinndaydreams | 2024-04-01 16:32:08 |
+| 29  | 💀 skull | 8.64 | julialuxel | 2024-04-01 16:11:26 |
+| 28  | 🦎 lizard | 0.93 | dayzedinndaydreams | 2024-04-01 15:56:16 |
+| 27  | 🦪 oyster | 20.43 | lluuucy | 2024-04-01 15:47:01 |
+| 26  | 🌿 seaweed | 0.42 | julialuxel | 2024-04-01 15:04:41 |
+| 25  | 🐙 octopus | 88.82 | lluuucy | 2024-04-01 13:37:16 |
+| 24  | 🐉 dragon | 211.91 | lluuucy | 2024-03-30 16:25:01 |
+| 23  | 🐌 snail | 0.67 | lluuucy | 2024-03-29 19:36:29 |
+| 22  | 🌹 rose | 0.94 | lluuucy | 2024-03-29 17:48:21 |
+| 21  | 🪀 bobber | 0.00 | ninjaross | 2024-03-29 17:10:35 |
+| 20  | 🧦 socks | 0.19 | lluuucy | 2024-03-12 14:48:51 |
+| 19  | 🍬 candy | 0.00 | lluuucy | 2024-02-29 18:14:45 |
+| 18  | 🐡 blowfish | 17.98 | lluuucy | 2024-02-29 16:26:42 |
+| 17  | 👢 boot | 1.80 | lluuucy | 2024-02-11 21:01:46 |
+| 16  | 🦈 shark | 183.97 | tucelli | 2024-02-04 14:44:44 |
+| 15  | 🪨 rock | 41.96 | hahppyy | 2024-02-01 13:41:58 |
+| 14  | 🥫 cannedfood | 1.90 | fallen_angels_1995 | 2024-01-25 13:31:20 |
+| 13  | 🦭 seal | 30.79 | hahppyy | 2024-01-24 20:22:39 |
+| 12  | 🦠 plankton | 4.71 | hahppyy | 2024-01-23 18:19:34 |
+| 11  | 🧤 gloves | 0.27 | hahppyy | 2024-01-16 10:58:25 |
+| 10  | 🧊 icecube | 8.17 | julialuxel | 2024-01-11 13:42:35 |
+| 9  | 🕷️ spider | 12.29 | julialuxel | 2024-01-10 12:18:48 |
+| 8  | 🦕 sauropod | 241.63 | toastyso | 2024-01-10 01:45:42 |
+| 7  | 🧸 teddybear | 0.94 | toastyso | 2024-01-08 02:45:55 |
+| 6  | 🐳 whale | 200.06 | hahppyy | 2024-01-07 09:31:34 |
+| 5  | ⛸️ iceskate | 0.62 | toastyso | 2024-01-07 02:21:01 |
+| 4  | 🍄 mushroom | 5.19 | toastyso | 2024-01-05 19:43:14 |
+| 3  | 👟 athleticshoe | 0.53 | supibot | 2024-01-04 18:43:39 |
+| 2  | 🐧 penguin | 29.49 | ryebreadward | 2024-01-01 00:28:42 |
+| 1  | 🧣 scarf | 0.37 | hahppyy | 2023-12-24 23:05:05 |
+
+_Last updated at 2025-06-08 09:47:12 UTC_

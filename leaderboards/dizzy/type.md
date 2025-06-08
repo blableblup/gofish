@@ -8,14 +8,14 @@
 | 5  | 🦈 shark | 256.96 | iam_glorp | 2024-12-23 14:36:55 |
 | 6  | 🐉 dragon | 250.51 | buhl00n | 2024-12-14 07:49:15 |
 | 7  | 🐍 snake | 232.81 | konsminator | 2024-11-16 12:54:23 |
-| 8 ⬆ | 🫎 moose | 196.44 (+102.47) | iam_glorp | 2025-05-26 15:16:52 |
-| 9 ⬇ | 🐙 octopus | 156.92 | konsminator | 2024-11-01 14:17:42 |
-| 10 ⬇ | 🐋 whale2 | 150.88 | thecobbler1 | 2024-10-31 19:21:13 |
-| 11 ⬇ | 🐊 crocodile | 148.84 | buhl00n | 2024-12-14 08:59:36 |
-| 12 ⬇ | 🦭 seal | 131.88 | wisteraeia | 2025-02-18 07:56:23 |
-| 13 ⬇ | 🦪 oyster | 120.17 | buhl00n | 2024-12-26 09:23:36 |
-| 14 ⬇ | 🐬 dolphin | 111.47 | iam_haunt | 2024-11-04 17:15:30 |
-| 15 ⬇ | 🐢 turtle | 99.60 | notnownico | 2025-02-01 14:22:39 |
+| 8  | 🫎 moose | 196.44 | iam_glorp | 2025-05-26 15:16:52 |
+| 9  | 🐙 octopus | 156.92 | konsminator | 2024-11-01 14:17:42 |
+| 10  | 🐋 whale2 | 150.88 | thecobbler1 | 2024-10-31 19:21:13 |
+| 11  | 🐊 crocodile | 148.84 | buhl00n | 2024-12-14 08:59:36 |
+| 12  | 🦭 seal | 131.88 | wisteraeia | 2025-02-18 07:56:23 |
+| 13  | 🦪 oyster | 120.17 | buhl00n | 2024-12-26 09:23:36 |
+| 14  | 🐬 dolphin | 111.47 | iam_haunt | 2024-11-04 17:15:30 |
+| 15  | 🐢 turtle | 99.60 | notnownico | 2025-02-01 14:22:39 |
 | 16  | 🧟 zombie | 92.30 | ofaisalz | 2024-12-16 10:40:05 |
 | 17  | 🦞 lobster | 92.11 | spanmer | 2024-10-22 00:09:41 |
 | 18  | 🪸 coral | 86.86 | rabituwu | 2024-10-22 06:25:51 |
@@ -24,7 +24,7 @@
 | 21  | 🧞‍♂ malegenie | 60.36 | tairaaaaa | 2024-10-31 12:12:01 |
 | 22  | 🛒 shoppingcart | 56.52 | buhl00n | 2025-01-02 17:13:58 |
 | 23  | 🗡️ dagger | 47.93 | juhjimmy | 2024-10-22 01:44:12 |
-| 24  | 🪨 rock | 45.46 | fvkdylan | 2025-03-08 02:55:57 |
+| 24  | 🪨 rock | 47.85 (+2.39) | buhl00n | 2025-06-07 06:22:40 |
 | 25  | 🦫 beaver | 43.66 | gimmeschmoneys | 2025-04-01 21:24:25 |
 | 26  | 🐸 frog | 42.05 | exo9 | 2024-10-29 22:15:02 |
 | 27  | 🐧 penguin | 40.98 | buhl00n | 2024-12-25 06:28:31 |
@@ -91,4 +91,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-06-01 09:17:03 UTC_
+_Last updated at 2025-06-08 09:49:00 UTC_

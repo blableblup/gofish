@@ -1,0 +1,60 @@
+### Last fish per type caught in d_egree's chat
+| Rank | Fish | Weight in lbs | Player | Date in UTC |
+|------|--------|-----------|---------|------|
+| 55  | 🐋 whale2 | 109.58 | benni900 | 2025-03-30 11:19:45 |
+| 54  | 🐸 frog | 1.41 | koromadeno_shogun | 2025-03-14 07:22:13 |
+| 53  | 🐟 fish | 3.43 | koromadeno_shogun | 2025-03-13 23:31:58 |
+| 52  | 🌿 seaweed | 0.23 | koromadeno_shogun | 2025-03-13 21:47:19 |
+| 51  | 📱 iphone | 7.64 | koromadeno_shogun | 2025-03-13 12:07:24 |
+| 50  | 🎱 8ball | 8.57 | koromadeno_shogun | 2025-03-13 10:05:29 |
+| 49  | 🎏 lure | 0.14 | benni900 | 2025-02-28 09:45:42 |
+| 48  | 🦑 squid | 45.78 | benni900 | 2025-02-26 23:20:12 |
+| 47  | 🥫 cannedfood | 0.65 | benni900 | 2025-02-26 15:56:27 |
+| 46  | 🦪 oyster | 16.42 | benni900 | 2025-02-26 10:42:25 |
+| 45  | 🐢 turtle | 43.82 | benni900 | 2025-02-25 23:52:45 |
+| 44  | 🍄 mushroom | 2.62 | benni900 | 2025-02-24 15:10:12 |
+| 43  | 🐳 whale | 46.58 | koromadeno_shogun | 2025-02-24 15:03:30 |
+| 42  | 🪝 hook | 1.31 | benni900 | 2025-02-24 14:39:44 |
+| 41  | 🦀 crab | 0.88 | benni900 | 2025-02-24 12:43:12 |
+| 40  | 🐉 dragon | 173.10 | benni900 | 2025-02-24 09:14:48 |
+| 39  | 🦠 plankton | 11.01 | benni900 | 2025-02-23 22:23:29 |
+| 38  | 🕷️ spider | 2.46 | benni900 | 2025-02-23 10:19:17 |
+| 37  | 🐚 shell | 0.88 | benni900 | 2025-02-23 08:25:04 |
+| 36  | 🐬 dolphin | 23.08 | benni900 | 2025-02-22 22:37:21 |
+| 35  | 🧊 icecube | 4.93 | benni900 | 2025-02-22 10:56:01 |
+| 34  | 🐙 octopus | 1.09 | benni900 | 2025-02-22 01:12:02 |
+| 33  | 🪳 cockroach | 8.70 | benni900 | 2025-02-21 15:20:20 |
+| 32  | 🐍 snake | 19.59 | benni900 | 2025-02-21 13:20:09 |
+| 31  | 🦕 sauropod | 58.88 | benni900 | 2025-02-21 10:11:36 |
+| 30  | 🦞 lobster | 40.87 | benni900 | 2025-02-20 22:49:55 |
+| 29  | 🦭 seal | 123.31 | benni900 | 2025-02-19 18:50:23 |
+| 28  | 🐊 crocodile | 26.13 | benni900 | 2025-02-18 16:09:25 |
+| 27  | 🦐 shrimp | 21.19 | benni900 | 2025-02-17 15:31:00 |
+| 26  | 👢 boot | 0.25 | benni900 | 2025-02-16 12:11:25 |
+| 25  | 🧤 gloves | 0.70 | benni900 | 2025-02-15 22:44:26 |
+| 24  | ☂️ umbrella | 2.19 | benni900 | 2025-02-15 18:47:16 |
+| 23  | 🍬 candy | 0.00 | mitgliederversammlung | 2025-02-15 17:15:16 |
+| 22  | 🦈 shark | 129.36 | benni900 | 2025-02-15 17:05:41 |
+| 21  | 🎰 slotmachine | 0.00 | koromadeno_shogun | 2024-12-25 19:04:19 |
+| 20  | 🦆 duck | 4.42 | koromadeno_shogun | 2024-10-26 07:07:16 |
+| 19  | 🪵 log | 4.69 | koromadeno_shogun | 2024-10-18 00:03:02 |
+| 18  | 🌰 acorn | 0.27 | koromadeno_shogun | 2024-10-01 00:03:29 |
+| 17  | 🍁 mapleleaf | 0.56 | koromadeno_shogun | 2024-09-30 23:22:41 |
+| 16  | ☘️ shamrock | 1.65 | koromadeno_shogun | 2024-09-29 21:59:37 |
+| 15  | 🦎 lizard | 2.49 | koromadeno_shogun | 2024-09-29 19:21:37 |
+| 14  | 🪀 bobber | 0.66 | koromadeno_shogun | 2024-09-26 22:24:15 |
+| 13  | 🪺 nestwitheggs | 2.60 | koromadeno_shogun | 2024-09-26 16:56:22 |
+| 12  | 🐡 blowfish | 23.13 | koromadeno_shogun | 2024-09-21 19:04:29 |
+| 11  | 🪸 coral | 8.15 | koromadeno_shogun | 2024-09-21 15:59:09 |
+| 10  | 💀 skull | 2.45 | koromadeno_shogun | 2024-09-18 16:03:12 |
+| 9  | 🩴 thongsandal | 1.63 | koromadeno_shogun | 2024-09-16 19:47:21 |
+| 8  | 🥒 cucumber | 6.47 | koromadeno_shogun | 2024-09-15 15:03:32 |
+| 7  | 🧦 socks | 1.55 | koromadeno_shogun | 2024-09-14 16:58:29 |
+| 6  | 🗡️ dagger | 13.93 | koromadeno_shogun | 2024-09-09 15:45:49 |
+| 5  | 🕶️ darksunglasses | 5.20 | koromadeno_shogun | 2024-09-05 13:59:53 |
+| 4  | 🐌 snail | 1.26 | koromadeno_shogun | 2024-09-02 19:55:10 |
+| 3  | 🩰 balletshoes | 1.50 | islcfc | 2023-12-07 21:39:35 |
+| 2  | 🧃 beveragebox | 4.20 | ouacewi | 2023-09-26 20:27:31 |
+| 1  | 🐠 tropicalfish | 19.31 | shpeelerin* | 2023-09-11 14:04:53 |
+
+_Last updated at 2025-06-08 09:47:12 UTC_

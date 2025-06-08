@@ -1,11 +1,9 @@
 ### Players who have seen the most fish in ryanpotat's chat
-| Rank | Player | Fish Seen |
+| Rank | Player | Fish Caught |
 |------|--------|-----------|
-| 1 🥇  | n1nzin_  | 28 (+1) |
+| 1 🥇  | n1nzin_  | 29 (+1) |
 | 2 🥈  | lolspers  | 17 |
 
-_This does not include fish seen through 🎁 gifts or through releasing to another player during the winter events!_
+_Only showing fishers who caught >= 10 fish_
 
-_Only showing fishers who have seen >= 10 fish_
-
-_Last updated at 2025-06-01 09:15:15 UTC_
+_Last updated at 2025-06-08 09:47:43 UTC_
