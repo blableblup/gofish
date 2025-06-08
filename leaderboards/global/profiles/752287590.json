@@ -1637,7 +1637,11 @@
 				"Weight in lbs": 14.25,
 				"Catchtype": "Normal",
 				"Date": "2022-12-05 17:03:05 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🐍 snake caught in channel breadworms !",
+					"🥇 First ever 🐍 snake caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐍 snake",
@@ -2001,7 +2005,11 @@
 				"Weight in lbs": 2.79,
 				"Catchtype": "Normal",
 				"Date": "2022-12-13 07:36:18 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever ☂️ umbrella caught in channel breadworms !",
+					"🥇 First ever ☂️ umbrella caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "☂️ umbrella",
@@ -2154,5 +2162,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

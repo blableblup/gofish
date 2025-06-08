@@ -11,11 +11,11 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 20,
+		"Total": 21,
 		"Per chat": {
 			"psp1g": 3,
 			"tipicogato": 1,
-			"xriggby": 16
+			"xriggby": 17
 		}
 	},
 	"Fish caught per year": {
@@ -26,15 +26,21 @@
 				"tipicogato": 1,
 				"xriggby": 16
 			}
+		},
+		"2025": {
+			"Total": 1,
+			"Per chat": {
+				"xriggby": 1
+			}
 		}
 	},
 	"Fish caught per catchtype": {
 		"Normal": {
-			"Total": 20,
+			"Total": 21,
 			"Per chat": {
 				"psp1g": 3,
 				"tipicogato": 1,
-				"xriggby": 16
+				"xriggby": 17
 			}
 		}
 	},
@@ -77,10 +83,10 @@
 			"Chat": "tipicogato"
 		},
 		"xriggby": {
-			"Fish": "🐠 tropicalfish",
-			"Weight in lbs": 21.06,
+			"Fish": "🪸 coral",
+			"Weight in lbs": 19.67,
 			"Catchtype": "Normal",
-			"Date": "2024-12-09 05:02:20 UTC",
+			"Date": "2025-06-02 03:11:12 UTC",
 			"Chat": "xriggby"
 		}
 	},
@@ -158,6 +164,13 @@
 			"Chat": "xriggby"
 		},
 		{
+			"Fish": "🪸 coral",
+			"Weight in lbs": 19.67,
+			"Catchtype": "Normal",
+			"Date": "2025-06-02 03:11:12 UTC",
+			"Chat": "xriggby"
+		},
+		{
 			"Fish": "🦠 plankton",
 			"Weight in lbs": 15.84,
 			"Catchtype": "Normal",
@@ -170,16 +183,16 @@
 			"Catchtype": "Normal",
 			"Date": "2024-09-18 22:38:44 UTC",
 			"Chat": "psp1g"
-		},
-		{
-			"Fish": "🪸 coral",
-			"Weight in lbs": 15.64,
-			"Catchtype": "Normal",
-			"Date": "2024-10-13 06:16:55 UTC",
-			"Chat": "xriggby"
 		}
 	],
 	"Their overall last fish": [
+		{
+			"Fish": "🪸 coral",
+			"Weight in lbs": 19.67,
+			"Catchtype": "Normal",
+			"Date": "2025-06-02 03:11:12 UTC",
+			"Chat": "xriggby"
+		},
 		{
 			"Fish": "🐠 tropicalfish",
 			"Weight in lbs": 21.06,
@@ -242,13 +255,6 @@
 			"Catchtype": "Normal",
 			"Date": "2024-09-27 21:30:58 UTC",
 			"Chat": "xriggby"
-		},
-		{
-			"Fish": "🎏 lure",
-			"Weight in lbs": 3.15,
-			"Catchtype": "Normal",
-			"Date": "2024-09-27 02:56:06 UTC",
-			"Chat": "xriggby"
 		}
 	],
 	"Their last seen bag": {
@@ -294,9 +300,9 @@
 	"Data about each of their seen fish": {
 		"coral 🪸": {
 			"Caught in total": {
-				"Total": 1,
+				"Total": 2,
 				"Per chat": {
-					"xriggby": 1
+					"xriggby": 2
 				}
 			},
 			"Caught per year": {
@@ -305,13 +311,19 @@
 					"Per chat": {
 						"xriggby": 1
 					}
+				},
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"xriggby": 1
+					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 1,
+					"Total": 2,
 					"Per chat": {
-						"xriggby": 1
+						"xriggby": 2
 					}
 				}
 			},
@@ -324,16 +336,16 @@
 			},
 			"Last catch": {
 				"Fish": "🪸 coral",
-				"Weight in lbs": 15.64,
+				"Weight in lbs": 19.67,
 				"Catchtype": "Normal",
-				"Date": "2024-10-13 06:16:55 UTC",
+				"Date": "2025-06-02 03:11:12 UTC",
 				"Chat": "xriggby"
 			},
 			"Biggest catch": {
 				"Fish": "🪸 coral",
-				"Weight in lbs": 15.64,
+				"Weight in lbs": 19.67,
 				"Catchtype": "Normal",
-				"Date": "2024-10-13 06:16:55 UTC",
+				"Date": "2025-06-02 03:11:12 UTC",
 				"Chat": "xriggby"
 			},
 			"Smallest catch": {
@@ -372,7 +384,10 @@
 				"Weight in lbs": 104.78,
 				"Catchtype": "Normal",
 				"Date": "2024-11-06 03:24:11 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 First ever 🐬 dolphin caught in channel xriggby !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐬 dolphin",
@@ -757,7 +772,10 @@
 				"Weight in lbs": 0.96,
 				"Catchtype": "Normal",
 				"Date": "2024-09-24 22:59:03 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 First ever 🐚 shell caught in channel xriggby !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐚 shell",
@@ -809,7 +827,10 @@
 				"Weight in lbs": 1.4,
 				"Catchtype": "Normal",
 				"Date": "2024-09-17 01:01:37 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 First ever 💀 skull caught in channel xriggby !"
+				]
 			},
 			"Last catch": {
 				"Fish": "💀 skull",
@@ -864,7 +885,10 @@
 				"Weight in lbs": 11.44,
 				"Catchtype": "Normal",
 				"Date": "2024-09-20 18:30:31 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 First ever 🐌 snail caught in channel xriggby !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐌 snail",
@@ -977,7 +1001,10 @@
 				"Weight in lbs": 27.88,
 				"Catchtype": "Normal",
 				"Date": "2024-09-19 03:48:05 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 First ever 🧽 sponge caught in channel xriggby !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🧽 sponge",
@@ -1093,7 +1120,10 @@
 				"Weight in lbs": 90.7,
 				"Catchtype": "Normal",
 				"Date": "2024-10-12 19:14:06 UTC",
-				"Chat": "xriggby"
+				"Chat": "xriggby",
+				"Record": [
+					"🥇 First ever 🐳 whale caught in channel xriggby !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐳 whale",
@@ -1220,5 +1250,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

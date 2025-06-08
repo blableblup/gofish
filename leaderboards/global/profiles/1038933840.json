@@ -7,24 +7,24 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 18,
+		"Total": 22,
 		"Per chat": {
-			"vaiastol": 18
+			"vaiastol": 22
 		}
 	},
 	"Fish caught per year": {
 		"2025": {
-			"Total": 18,
+			"Total": 22,
 			"Per chat": {
-				"vaiastol": 18
+				"vaiastol": 22
 			}
 		}
 	},
 	"Fish caught per catchtype": {
 		"Normal": {
-			"Total": 18,
+			"Total": 22,
 			"Per chat": {
-				"vaiastol": 18
+				"vaiastol": 22
 			}
 		}
 	},
@@ -39,10 +39,10 @@
 	},
 	"Their last fish per chat": {
 		"vaiastol": {
-			"Fish": "🕷️ spider",
-			"Weight in lbs": 0.19,
+			"Fish": "🐟 fish",
+			"Weight in lbs": 3.61,
 			"Catchtype": "Normal",
-			"Date": "2025-05-31 00:54:12 UTC",
+			"Date": "2025-06-06 04:13:57 UTC",
 			"Chat": "vaiastol"
 		}
 	},
@@ -106,6 +106,13 @@
 			"Chat": "vaiastol"
 		},
 		{
+			"Fish": "🐟 fish",
+			"Weight in lbs": 12.04,
+			"Catchtype": "Normal",
+			"Date": "2025-06-04 01:46:43 UTC",
+			"Chat": "vaiastol"
+		},
+		{
 			"Fish": "🎏 lure",
 			"Weight in lbs": 3.76,
 			"Catchtype": "Normal",
@@ -113,21 +120,42 @@
 			"Chat": "vaiastol"
 		},
 		{
-			"Fish": "🪝 hook",
-			"Weight in lbs": 3.02,
-			"Catchtype": "Normal",
-			"Date": "2025-04-20 03:43:29 UTC",
-			"Chat": "vaiastol"
-		},
-		{
 			"Fish": "🐟 fish",
-			"Weight in lbs": 2.41,
+			"Weight in lbs": 3.61,
 			"Catchtype": "Normal",
-			"Date": "2025-05-28 14:38:15 UTC",
+			"Date": "2025-06-06 04:13:57 UTC",
 			"Chat": "vaiastol"
 		}
 	],
 	"Their overall last fish": [
+		{
+			"Fish": "🐟 fish",
+			"Weight in lbs": 3.61,
+			"Catchtype": "Normal",
+			"Date": "2025-06-06 04:13:57 UTC",
+			"Chat": "vaiastol"
+		},
+		{
+			"Fish": "🐠 tropicalfish",
+			"Weight in lbs": 2.32,
+			"Catchtype": "Normal",
+			"Date": "2025-06-05 16:21:47 UTC",
+			"Chat": "vaiastol"
+		},
+		{
+			"Fish": "🐟 fish",
+			"Weight in lbs": 12.04,
+			"Catchtype": "Normal",
+			"Date": "2025-06-04 01:46:43 UTC",
+			"Chat": "vaiastol"
+		},
+		{
+			"Fish": "🩴 thongsandal",
+			"Weight in lbs": 0.1,
+			"Catchtype": "Normal",
+			"Date": "2025-06-03 06:58:52 UTC",
+			"Chat": "vaiastol"
+		},
 		{
 			"Fish": "🕷️ spider",
 			"Weight in lbs": 0.19,
@@ -169,34 +197,6 @@
 			"Catchtype": "Normal",
 			"Date": "2025-05-26 11:03:07 UTC",
 			"Chat": "vaiastol"
-		},
-		{
-			"Fish": "🧦 socks",
-			"Weight in lbs": 0.43,
-			"Catchtype": "Normal",
-			"Date": "2025-05-24 02:33:56 UTC",
-			"Chat": "vaiastol"
-		},
-		{
-			"Fish": "🎏 lure",
-			"Weight in lbs": 0.9,
-			"Catchtype": "Normal",
-			"Date": "2025-05-22 13:21:32 UTC",
-			"Chat": "vaiastol"
-		},
-		{
-			"Fish": "🧦 socks",
-			"Weight in lbs": 0.06,
-			"Catchtype": "Normal",
-			"Date": "2025-05-19 21:53:33 UTC",
-			"Chat": "vaiastol"
-		},
-		{
-			"Fish": "🧦 socks",
-			"Weight in lbs": 0.67,
-			"Catchtype": "Normal",
-			"Date": "2025-04-28 20:01:59 UTC",
-			"Chat": "vaiastol"
 		}
 	],
 	"Their last seen bag": {
@@ -208,24 +208,34 @@
 			"🐟",
 			"🧦",
 			"🧦",
-			"🎏"
+			"🧦",
+			"🗡️",
+			"🎏",
+			"🧦",
+			"🐟",
+			"🪸",
+			"🩴",
+			"🐟",
+			"🐠"
 		],
-		"Date": "2025-05-23 12:46:17 UTC",
+		"Date": "2025-06-05 16:22:01 UTC",
 		"Chat": "vaiastol"
 	},
 	"Count of each item in that bag": {
 		"🎏": 1,
 		"🐙": 1,
-		"🐟": 1,
-		"🐠": 1,
+		"🐟": 3,
+		"🐠": 2,
 		"🐬": 1,
-		"🧦": 2,
-		"🪸": 1
+		"🗡️": 1,
+		"🧦": 4,
+		"🩴": 1,
+		"🪸": 2
 	},
 	"Fish seen in total": {
-		"Total": 10,
+		"Total": 11,
 		"Per chat": {
-			"vaiastol": 10
+			"vaiastol": 11
 		}
 	},
 	"Data about each of their seen fish": {
@@ -387,24 +397,24 @@
 		},
 		"fish 🐟": {
 			"Caught in total": {
-				"Total": 2,
+				"Total": 4,
 				"Per chat": {
-					"vaiastol": 2
+					"vaiastol": 4
 				}
 			},
 			"Caught per year": {
 				"2025": {
-					"Total": 2,
+					"Total": 4,
 					"Per chat": {
-						"vaiastol": 2
+						"vaiastol": 4
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 2,
+					"Total": 4,
 					"Per chat": {
-						"vaiastol": 2
+						"vaiastol": 4
 					}
 				}
 			},
@@ -417,9 +427,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐟 fish",
-				"Weight in lbs": 2.41,
+				"Weight in lbs": 3.61,
 				"Catchtype": "Normal",
-				"Date": "2025-05-28 14:38:15 UTC",
+				"Date": "2025-06-06 04:13:57 UTC",
 				"Chat": "vaiastol"
 			},
 			"Biggest catch": {
@@ -703,7 +713,7 @@
 				]
 			}
 		},
-		"tropicalfish 🐠": {
+		"thongsandal 🩴": {
 			"Caught in total": {
 				"Total": 1,
 				"Per chat": {
@@ -727,6 +737,58 @@
 				}
 			},
 			"First catch": {
+				"Fish": "🩴 thongsandal",
+				"Weight in lbs": 0.1,
+				"Catchtype": "Normal",
+				"Date": "2025-06-03 06:58:52 UTC",
+				"Chat": "vaiastol"
+			},
+			"Last catch": {
+				"Fish": "🩴 thongsandal",
+				"Weight in lbs": 0.1,
+				"Catchtype": "Normal",
+				"Date": "2025-06-03 06:58:52 UTC",
+				"Chat": "vaiastol"
+			},
+			"Biggest catch": {
+				"Fish": "🩴 thongsandal",
+				"Weight in lbs": 0.1,
+				"Catchtype": "Normal",
+				"Date": "2025-06-03 06:58:52 UTC",
+				"Chat": "vaiastol"
+			},
+			"Smallest catch": {
+				"Fish": "🩴 thongsandal",
+				"Weight in lbs": 0.1,
+				"Catchtype": "Normal",
+				"Date": "2025-06-03 06:58:52 UTC",
+				"Chat": "vaiastol"
+			}
+		},
+		"tropicalfish 🐠": {
+			"Caught in total": {
+				"Total": 2,
+				"Per chat": {
+					"vaiastol": 2
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 2,
+					"Per chat": {
+						"vaiastol": 2
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 2,
+					"Per chat": {
+						"vaiastol": 2
+					}
+				}
+			},
+			"First catch": {
 				"Fish": "🐠 tropicalfish",
 				"Weight in lbs": 21.9,
 				"Catchtype": "Normal",
@@ -735,9 +797,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐠 tropicalfish",
-				"Weight in lbs": 21.9,
+				"Weight in lbs": 2.32,
 				"Catchtype": "Normal",
-				"Date": "2025-04-27 19:39:36 UTC",
+				"Date": "2025-06-05 16:21:47 UTC",
 				"Chat": "vaiastol"
 			},
 			"Biggest catch": {
@@ -749,9 +811,9 @@
 			},
 			"Smallest catch": {
 				"Fish": "🐠 tropicalfish",
-				"Weight in lbs": 21.9,
+				"Weight in lbs": 2.32,
 				"Catchtype": "Normal",
-				"Date": "2025-04-27 19:39:36 UTC",
+				"Date": "2025-06-05 16:21:47 UTC",
 				"Chat": "vaiastol"
 			}
 		}
@@ -836,7 +898,6 @@
 		"sunflower 🌻",
 		"swan 🦢",
 		"teddybear 🧸",
-		"thongsandal 🩴",
 		"tulip 🌷",
 		"turtle 🐢",
 		"umbrella ☂️",
@@ -848,7 +909,7 @@
 		"worm 🪱",
 		"zombie 🧟"
 	],
-	"Total fish not seen": 90,
+	"Total fish not seen": 89,
 	"Some info": [
 		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
 		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
@@ -857,5 +918,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

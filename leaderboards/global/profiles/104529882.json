@@ -2,7 +2,7 @@
 	"Name": "poioce",
 	"Progress": null,
 	"Records": [
-		"🥉 Third most fish caught in channel jellyuh !",
+		"4th most fish caught in channel jellyuh !",
 		"5th most fish seen in channel jellyuh !",
 		"8th biggest fish record in channel jellyuh !"
 	],
@@ -909,7 +909,10 @@
 				"Weight in lbs": 1.31,
 				"Catchtype": "Normal",
 				"Date": "2025-03-27 02:26:12 UTC",
-				"Chat": "jellyuh"
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 First ever 🍃 leaf caught in channel jellyuh !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🍃 leaf",
@@ -1074,7 +1077,10 @@
 				"Weight in lbs": 7.23,
 				"Catchtype": "Normal",
 				"Date": "2025-03-04 19:18:26 UTC",
-				"Chat": "jellyuh"
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 First ever 🪵 log caught in channel jellyuh !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🪵 log",
@@ -1560,7 +1566,10 @@
 				"Weight in lbs": 0.6,
 				"Catchtype": "Normal",
 				"Date": "2025-03-19 13:49:40 UTC",
-				"Chat": "jellyuh"
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 First ever 🌿 seaweed caught in channel jellyuh !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🌿 seaweed",
@@ -2034,7 +2043,10 @@
 				"Weight in lbs": 4.39,
 				"Catchtype": "Normal",
 				"Date": "2025-03-01 18:53:12 UTC",
-				"Chat": "jellyuh"
+				"Chat": "jellyuh",
+				"Record": [
+					"🥇 First ever 🧽 sponge caught in channel jellyuh !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🧽 sponge",
@@ -2393,5 +2405,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

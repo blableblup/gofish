@@ -581,7 +581,11 @@
 				"Weight in lbs": 5.31,
 				"Catchtype": "Normal",
 				"Date": "2022-12-19 12:45:04 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🧭 compass caught in channel breadworms !",
+					"🥇 First ever 🧭 compass caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🧭 compass",
@@ -801,7 +805,11 @@
 				"Weight in lbs": 10.85,
 				"Catchtype": "Normal",
 				"Date": "2022-12-06 22:09:15 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🗡️ dagger caught in channel breadworms !",
+					"🥇 First ever 🗡️ dagger caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🗡️ dagger",
@@ -1663,7 +1671,11 @@
 				"Weight in lbs": 8.22,
 				"Catchtype": "Normal",
 				"Date": "2022-12-18 09:37:21 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🪨 rock caught in channel breadworms !",
+					"🥇 First ever 🪨 rock caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🪨 rock",
@@ -1771,7 +1783,11 @@
 				"Weight in lbs": 0.62,
 				"Catchtype": "Normal",
 				"Date": "2022-12-04 08:39:15 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🌿 seaweed caught in channel breadworms !",
+					"🥇 First ever 🌿 seaweed caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🌿 seaweed",
@@ -1881,7 +1897,11 @@
 				"Weight in lbs": 2.03,
 				"Catchtype": "Normal",
 				"Date": "2022-12-04 01:09:08 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🐚 shell caught in channel breadworms !",
+					"🥇 First ever 🐚 shell caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐚 shell",
@@ -1985,7 +2005,11 @@
 				"Weight in lbs": 4.29,
 				"Catchtype": "Normal",
 				"Date": "2022-12-04 13:25:44 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 💀 skull caught in channel breadworms !",
+					"🥇 First ever 💀 skull caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "💀 skull",
@@ -2685,5 +2709,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

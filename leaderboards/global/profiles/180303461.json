@@ -2077,7 +2077,10 @@
 				"Weight in lbs": 1.75,
 				"Catchtype": "Normal",
 				"Date": "2024-03-28 12:41:57 UTC",
-				"Chat": "psp1g"
+				"Chat": "psp1g",
+				"Record": [
+					"🥇 First ever 🌹 rose caught in channel psp1g !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🌹 rose",
@@ -3484,5 +3487,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

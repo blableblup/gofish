@@ -312,7 +312,7 @@
 			"🍬",
 			"🎏"
 		],
-		"Date": "2025-05-06 11:01:52 UTC",
+		"Date": "2025-06-05 09:31:06 UTC",
 		"Chat": "dizzy"
 	},
 	"Count of each item in that bag": {
@@ -1390,7 +1390,10 @@
 				"Weight in lbs": 0.4,
 				"Catchtype": "Normal",
 				"Date": "2024-10-20 21:13:11 UTC",
-				"Chat": "dizzy"
+				"Chat": "dizzy",
+				"Record": [
+					"🥇 First ever 🪝 hook caught in channel dizzy !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🪝 hook",
@@ -1674,7 +1677,10 @@
 				"Weight in lbs": 16.1,
 				"Catchtype": "Normal",
 				"Date": "2024-11-02 19:41:14 UTC",
-				"Chat": "ryanpotat"
+				"Chat": "ryanpotat",
+				"Record": [
+					"🥇 First ever 🍄 mushroom caught in channel ryanpotat !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🍄 mushroom",
@@ -1726,7 +1732,10 @@
 				"Weight in lbs": 5.05,
 				"Catchtype": "Normal",
 				"Date": "2024-12-23 18:12:05 UTC",
-				"Chat": "ryanpotat"
+				"Chat": "ryanpotat",
+				"Record": [
+					"🥇 First ever 🪺 nestwitheggs caught in channel ryanpotat !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🪺 nestwitheggs",
@@ -2056,7 +2065,10 @@
 				"Weight in lbs": 210.5,
 				"Catchtype": "Normal",
 				"Date": "2024-12-24 23:02:22 UTC",
-				"Chat": "dizzy"
+				"Chat": "dizzy",
+				"Record": [
+					"🥇 First ever 🐻‍❄ polarbear caught in channel dizzy !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐻‍❄ polarbear",
@@ -2374,7 +2386,10 @@
 				"Weight in lbs": 110.09,
 				"Catchtype": "Normal",
 				"Date": "2024-10-28 12:05:14 UTC",
-				"Chat": "ryanpotat"
+				"Chat": "ryanpotat",
+				"Record": [
+					"🥇 First ever 🦈 shark caught in channel ryanpotat !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🦈 shark",
@@ -2864,7 +2879,10 @@
 				"Weight in lbs": 14.22,
 				"Catchtype": "Normal",
 				"Date": "2024-10-20 22:04:18 UTC",
-				"Chat": "dizzy"
+				"Chat": "dizzy",
+				"Record": [
+					"🥇 First ever 🧽 sponge caught in channel dizzy !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🧽 sponge",
@@ -2919,7 +2937,10 @@
 				"Weight in lbs": 38.27,
 				"Catchtype": "Normal",
 				"Date": "2024-10-20 22:48:57 UTC",
-				"Chat": "dizzy"
+				"Chat": "dizzy",
+				"Record": [
+					"🥇 First ever 🦑 squid caught in channel dizzy !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🦑 squid",
@@ -3437,5 +3458,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

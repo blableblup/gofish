@@ -491,7 +491,11 @@
 				"Weight in lbs": 5.08,
 				"Catchtype": "Normal",
 				"Date": "2023-06-18 16:03:34 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🧃 beveragebox caught in channel breadworms !",
+					"🥇 First ever 🧃 beveragebox caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🧃 beveragebox",
@@ -732,7 +736,11 @@
 				"Weight in lbs": 10.18,
 				"Catchtype": "Normal",
 				"Date": "2023-06-24 22:57:55 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🩲 briefs caught in channel breadworms !",
+					"🥇 First ever 🩲 briefs caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🩲 briefs",
@@ -1969,7 +1977,11 @@
 				"Weight in lbs": 1.89,
 				"Catchtype": "Normal",
 				"Date": "2022-12-06 13:47:09 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever ⛸️ iceskate caught in channel breadworms !",
+					"🥇 First ever ⛸️ iceskate caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "⛸️ iceskate",
@@ -2323,7 +2335,11 @@
 				"Weight in lbs": 0.5,
 				"Catchtype": "Normal",
 				"Date": "2022-12-04 02:06:41 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🎏 lure caught in channel breadworms !",
+					"🥇 First ever 🎏 lure caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🎏 lure",
@@ -3100,7 +3116,11 @@
 				"Weight in lbs": 0.99,
 				"Catchtype": "Normal",
 				"Date": "2022-12-22 04:35:03 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🧣 scarf caught in channel breadworms !",
+					"🥇 First ever 🧣 scarf caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🧣 scarf",
@@ -4642,5 +4662,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

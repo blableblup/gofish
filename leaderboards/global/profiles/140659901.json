@@ -11,11 +11,11 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 441,
+		"Total": 442,
 		"Per chat": {
 			"6daves": 1,
 			"ajspyman": 1,
-			"breadworms": 437,
+			"breadworms": 438,
 			"dizzy": 1,
 			"xriggby": 1
 		}
@@ -44,9 +44,9 @@
 			}
 		},
 		"2025": {
-			"Total": 69,
+			"Total": 70,
 			"Per chat": {
-				"breadworms": 69
+				"breadworms": 70
 			}
 		}
 	},
@@ -58,11 +58,11 @@
 			}
 		},
 		"Normal": {
-			"Total": 425,
+			"Total": 426,
 			"Per chat": {
 				"6daves": 1,
 				"ajspyman": 1,
-				"breadworms": 421,
+				"breadworms": 422,
 				"dizzy": 1,
 				"xriggby": 1
 			}
@@ -128,9 +128,9 @@
 		},
 		"breadworms": {
 			"Fish": "🪝 hook",
-			"Weight in lbs": 0.68,
+			"Weight in lbs": 2.32,
 			"Catchtype": "Normal",
-			"Date": "2025-05-04 22:18:47 UTC",
+			"Date": "2025-06-02 22:04:06 UTC",
 			"Chat": "breadworms"
 		},
 		"dizzy": {
@@ -260,6 +260,13 @@
 	"Their overall last fish": [
 		{
 			"Fish": "🪝 hook",
+			"Weight in lbs": 2.32,
+			"Catchtype": "Normal",
+			"Date": "2025-06-02 22:04:06 UTC",
+			"Chat": "breadworms"
+		},
+		{
+			"Fish": "🪝 hook",
 			"Weight in lbs": 0.68,
 			"Catchtype": "Normal",
 			"Date": "2025-05-04 22:18:47 UTC",
@@ -320,13 +327,6 @@
 			"Catchtype": "Normal",
 			"Date": "2025-04-10 00:09:25 UTC",
 			"Chat": "breadworms"
-		},
-		{
-			"Fish": "🦞 lobster",
-			"Weight in lbs": 7.92,
-			"Catchtype": "Normal",
-			"Date": "2025-04-05 05:49:48 UTC",
-			"Chat": "breadworms"
 		}
 	],
 	"Their last seen bag": {
@@ -371,17 +371,17 @@
 			"🪀",
 			"🍬",
 			"🌷",
-			"🎏",
 			"🐚",
-			"🪝",
 			"🦈",
 			"🎀",
 			"🐦‍⬛",
 			"🪀",
 			"🦪",
-			"🫎"
+			"🫎",
+			"🪝",
+			"🐢"
 		],
-		"Date": "2025-05-04 18:44:45 UTC",
+		"Date": "2025-06-02 21:36:03 UTC",
 		"Chat": "breadworms"
 	},
 	"Count of each item in that bag": {
@@ -392,11 +392,11 @@
 		"🍁": 1,
 		"🍬": 4,
 		"🎀": 1,
-		"🎏": 1,
 		"🎱": 1,
 		"🐈‍⬛": 1,
 		"🐉": 1,
 		"🐚": 1,
+		"🐢": 1,
 		"🐦": 1,
 		"🐦‍⬛": 1,
 		"🐧": 1,
@@ -786,7 +786,11 @@
 				"Weight in lbs": 67.48,
 				"Catchtype": "Normal",
 				"Date": "2024-12-19 00:46:27 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🐈‍⬛ blackcat caught in channel breadworms !",
+					"🥇 First ever 🐈‍⬛ blackcat caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐈‍⬛ blackcat",
@@ -1922,10 +1926,10 @@
 		},
 		"hook 🪝": {
 			"Caught in total": {
-				"Total": 24,
+				"Total": 25,
 				"Per chat": {
 					"ajspyman": 1,
-					"breadworms": 23
+					"breadworms": 24
 				}
 			},
 			"Caught per year": {
@@ -1949,18 +1953,18 @@
 					}
 				},
 				"2025": {
-					"Total": 4,
+					"Total": 5,
 					"Per chat": {
-						"breadworms": 4
+						"breadworms": 5
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 22,
+					"Total": 23,
 					"Per chat": {
 						"ajspyman": 1,
-						"breadworms": 21
+						"breadworms": 22
 					}
 				},
 				"Release bonus": {
@@ -1979,9 +1983,9 @@
 			},
 			"Last catch": {
 				"Fish": "🪝 hook",
-				"Weight in lbs": 0.68,
+				"Weight in lbs": 2.32,
 				"Catchtype": "Normal",
-				"Date": "2025-05-04 22:18:47 UTC",
+				"Date": "2025-06-02 22:04:06 UTC",
 				"Chat": "breadworms"
 			},
 			"Biggest catch": {
@@ -3279,7 +3283,11 @@
 				"Weight in lbs": 43.66,
 				"Catchtype": "Normal",
 				"Date": "2022-12-19 14:23:04 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🦭 seal caught in channel breadworms !",
+					"🥇 First ever 🦭 seal caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🦭 seal",
@@ -4482,7 +4490,11 @@
 				"Weight in lbs": 97.19,
 				"Catchtype": "Normal",
 				"Date": "2022-12-05 22:54:57 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🐋 whale2 caught in channel breadworms !",
+					"🥇 First ever 🐋 whale2 caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐋 whale2",
@@ -4756,5 +4768,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

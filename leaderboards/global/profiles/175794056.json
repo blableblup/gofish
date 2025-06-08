@@ -3,17 +3,17 @@
 	"Progress": null,
 	"Records": [
 		"12th most fish caught in channel aquaismissing !",
-		"11th most fish seen in channel aquaismissing !",
-		"6th biggest fish record in channel aquaismissing !"
+		"10th most fish seen in channel aquaismissing !",
+		"4th biggest fish record in channel aquaismissing !"
 	],
 	"Other accomplishments": {
 		"Accomplishments": null,
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 43,
+		"Total": 44,
 		"Per chat": {
-			"aquaismissing": 15,
+			"aquaismissing": 16,
 			"psp1g": 6,
 			"wuh6": 18,
 			"yopego": 4
@@ -30,18 +30,18 @@
 			}
 		},
 		"2025": {
-			"Total": 21,
+			"Total": 22,
 			"Per chat": {
-				"aquaismissing": 5,
+				"aquaismissing": 6,
 				"wuh6": 16
 			}
 		}
 	},
 	"Fish caught per catchtype": {
 		"Normal": {
-			"Total": 43,
+			"Total": 44,
 			"Per chat": {
-				"aquaismissing": 15,
+				"aquaismissing": 16,
 				"psp1g": 6,
 				"wuh6": 18,
 				"yopego": 4
@@ -80,10 +80,10 @@
 	},
 	"Their last fish per chat": {
 		"aquaismissing": {
-			"Fish": "🗡️ dagger",
-			"Weight in lbs": 20.44,
+			"Fish": "🪸 coral",
+			"Weight in lbs": 98.94,
 			"Catchtype": "Normal",
-			"Date": "2025-03-30 18:37:05 UTC",
+			"Date": "2025-06-06 23:38:48 UTC",
 			"Chat": "aquaismissing"
 		},
 		"psp1g": {
@@ -110,10 +110,10 @@
 	},
 	"Their biggest fish per chat": {
 		"aquaismissing": {
-			"Fish": "🦭 seal",
-			"Weight in lbs": 93.61,
+			"Fish": "🪸 coral",
+			"Weight in lbs": 98.94,
 			"Catchtype": "Normal",
-			"Date": "2024-12-04 19:41:04 UTC",
+			"Date": "2025-06-06 23:38:48 UTC",
 			"Chat": "aquaismissing"
 		},
 		"psp1g": {
@@ -145,6 +145,13 @@
 			"Catchtype": "Normal",
 			"Date": "2024-12-26 20:50:21 UTC",
 			"Chat": "wuh6"
+		},
+		{
+			"Fish": "🪸 coral",
+			"Weight in lbs": 98.94,
+			"Catchtype": "Normal",
+			"Date": "2025-06-06 23:38:48 UTC",
+			"Chat": "aquaismissing"
 		},
 		{
 			"Fish": "🦭 seal",
@@ -201,16 +208,16 @@
 			"Catchtype": "Normal",
 			"Date": "2025-05-01 21:55:39 UTC",
 			"Chat": "wuh6"
-		},
-		{
-			"Fish": "🦐 shrimp",
-			"Weight in lbs": 31.29,
-			"Catchtype": "Normal",
-			"Date": "2024-10-13 22:51:40 UTC",
-			"Chat": "psp1g"
 		}
 	],
 	"Their overall last fish": [
+		{
+			"Fish": "🪸 coral",
+			"Weight in lbs": 98.94,
+			"Catchtype": "Normal",
+			"Date": "2025-06-06 23:38:48 UTC",
+			"Chat": "aquaismissing"
+		},
 		{
 			"Fish": "🐟 fish",
 			"Weight in lbs": 5.25,
@@ -273,13 +280,6 @@
 			"Catchtype": "Normal",
 			"Date": "2025-03-12 13:33:12 UTC",
 			"Chat": "wuh6"
-		},
-		{
-			"Fish": "🦪 oyster",
-			"Weight in lbs": 16.27,
-			"Catchtype": "Normal",
-			"Date": "2025-03-10 20:19:23 UTC",
-			"Chat": "wuh6"
 		}
 	],
 	"Their last seen bag": {
@@ -330,7 +330,7 @@
 	"Fish seen in total": {
 		"Total": 25,
 		"Per chat": {
-			"aquaismissing": 11,
+			"aquaismissing": 12,
 			"psp1g": 6,
 			"wuh6": 16,
 			"yopego": 4
@@ -457,8 +457,9 @@
 		},
 		"coral 🪸": {
 			"Caught in total": {
-				"Total": 1,
+				"Total": 2,
 				"Per chat": {
+					"aquaismissing": 1,
 					"yopego": 1
 				}
 			},
@@ -468,12 +469,19 @@
 					"Per chat": {
 						"yopego": 1
 					}
+				},
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"aquaismissing": 1
+					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 1,
+					"Total": 2,
 					"Per chat": {
+						"aquaismissing": 1,
 						"yopego": 1
 					}
 				}
@@ -487,17 +495,20 @@
 			},
 			"Last catch": {
 				"Fish": "🪸 coral",
-				"Weight in lbs": 15.89,
+				"Weight in lbs": 98.94,
 				"Catchtype": "Normal",
-				"Date": "2024-11-08 14:12:13 UTC",
-				"Chat": "yopego"
+				"Date": "2025-06-06 23:38:48 UTC",
+				"Chat": "aquaismissing"
 			},
 			"Biggest catch": {
 				"Fish": "🪸 coral",
-				"Weight in lbs": 15.89,
+				"Weight in lbs": 98.94,
 				"Catchtype": "Normal",
-				"Date": "2024-11-08 14:12:13 UTC",
-				"Chat": "yopego"
+				"Date": "2025-06-06 23:38:48 UTC",
+				"Chat": "aquaismissing",
+				"Record": [
+					"🥇 Biggest 🪸 coral record in channel aquaismissing !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🪸 coral",
@@ -587,7 +598,10 @@
 				"Weight in lbs": 20.44,
 				"Catchtype": "Normal",
 				"Date": "2025-03-30 18:37:05 UTC",
-				"Chat": "aquaismissing"
+				"Chat": "aquaismissing",
+				"Record": [
+					"🥇 First ever 🗡️ dagger caught in channel aquaismissing !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🗡️ dagger",
@@ -1704,7 +1718,10 @@
 				"Weight in lbs": 2.42,
 				"Catchtype": "Normal",
 				"Date": "2024-12-15 13:20:35 UTC",
-				"Chat": "aquaismissing"
+				"Chat": "aquaismissing",
+				"Record": [
+					"🥇 First ever 🪱 worm caught in channel aquaismissing !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🪱 worm",
@@ -1815,5 +1832,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

@@ -690,7 +690,10 @@
 				"Weight in lbs": 0.18,
 				"Catchtype": "Normal",
 				"Date": "2024-11-04 02:24:32 UTC",
-				"Chat": "omie"
+				"Chat": "omie",
+				"Record": [
+					"🥇 First ever 🧤 gloves caught in channel omie !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🧤 gloves",
@@ -797,7 +800,10 @@
 				"Weight in lbs": 8.82,
 				"Catchtype": "Normal",
 				"Date": "2024-11-02 09:13:20 UTC",
-				"Chat": "dizzy"
+				"Chat": "dizzy",
+				"Record": [
+					"🥇 First ever 🧊 icecube caught in channel dizzy !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🧊 icecube",
@@ -1540,7 +1546,10 @@
 				"Weight in lbs": 2.5,
 				"Catchtype": "Normal",
 				"Date": "2024-11-03 23:17:01 UTC",
-				"Chat": "omie"
+				"Chat": "omie",
+				"Record": [
+					"🥇 First ever 🧸 teddybear caught in channel omie !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🧸 teddybear",
@@ -1696,7 +1705,10 @@
 				"Weight in lbs": 56.98,
 				"Catchtype": "Normal",
 				"Date": "2024-10-22 05:18:07 UTC",
-				"Chat": "dizzy"
+				"Chat": "dizzy",
+				"Record": [
+					"🥇 First ever 🐳 whale caught in channel dizzy !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐳 whale",
@@ -1909,5 +1921,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

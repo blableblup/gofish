@@ -3,7 +3,7 @@
 	"Progress": null,
 	"Records": [
 		"7th most fish caught in channel vaiastol !",
-		"🥉 Third most fish seen in channel vaiastol !",
+		"4th most fish seen in channel vaiastol !",
 		"12th biggest fish record in channel vaiastol !",
 		"10th place on tournament leaderboard in channel vaiastol !"
 	],
@@ -12,10 +12,10 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 402,
+		"Total": 403,
 		"Per chat": {
 			"breadworms": 6,
-			"vaiastol": 396
+			"vaiastol": 397
 		}
 	},
 	"Fish caught per year": {
@@ -32,18 +32,18 @@
 			}
 		},
 		"2025": {
-			"Total": 173,
+			"Total": 174,
 			"Per chat": {
-				"vaiastol": 173
+				"vaiastol": 174
 			}
 		}
 	},
 	"Fish caught per catchtype": {
 		"Normal": {
-			"Total": 384,
+			"Total": 385,
 			"Per chat": {
 				"breadworms": 6,
-				"vaiastol": 378
+				"vaiastol": 379
 			}
 		},
 		"Release bonus": {
@@ -78,10 +78,10 @@
 			"Chat": "breadworms"
 		},
 		"vaiastol": {
-			"Fish": "🐚 shell",
-			"Weight in lbs": 1.59,
+			"Fish": "🦈 shark",
+			"Weight in lbs": 117.83,
 			"Catchtype": "Normal",
-			"Date": "2025-05-30 15:33:13 UTC",
+			"Date": "2025-06-06 13:00:25 UTC",
 			"Chat": "vaiastol"
 		}
 	},
@@ -159,21 +159,28 @@
 			"Chat": "vaiastol"
 		},
 		{
+			"Fish": "🦈 shark",
+			"Weight in lbs": 117.83,
+			"Catchtype": "Normal",
+			"Date": "2025-06-06 13:00:25 UTC",
+			"Chat": "vaiastol"
+		},
+		{
 			"Fish": "🐬 dolphin",
 			"Weight in lbs": 104.56,
 			"Catchtype": "Normal",
 			"Date": "2024-11-21 16:03:43 UTC",
 			"Chat": "vaiastol"
-		},
-		{
-			"Fish": "🐢 turtle",
-			"Weight in lbs": 99.28,
-			"Catchtype": "Normal",
-			"Date": "2024-12-30 11:09:23 UTC",
-			"Chat": "vaiastol"
 		}
 	],
 	"Their overall last fish": [
+		{
+			"Fish": "🦈 shark",
+			"Weight in lbs": 117.83,
+			"Catchtype": "Normal",
+			"Date": "2025-06-06 13:00:25 UTC",
+			"Chat": "vaiastol"
+		},
 		{
 			"Fish": "🐚 shell",
 			"Weight in lbs": 1.59,
@@ -236,13 +243,6 @@
 			"Catchtype": "Normal",
 			"Date": "2025-05-20 07:08:05 UTC",
 			"Chat": "vaiastol"
-		},
-		{
-			"Fish": "🐍 snake",
-			"Weight in lbs": 13.12,
-			"Catchtype": "Normal",
-			"Date": "2025-05-19 20:36:54 UTC",
-			"Chat": "vaiastol"
 		}
 	],
 	"Their last seen bag": {
@@ -300,9 +300,11 @@
 			"📱",
 			"🌷",
 			"🌷",
-			"🌷"
+			"🌷",
+			"🎏",
+			"🪝"
 		],
-		"Date": "2025-05-09 03:31:30 UTC",
+		"Date": "2025-06-03 15:37:03 UTC",
 		"Chat": "vaiastol"
 	},
 	"Count of each item in that bag": {
@@ -314,6 +316,7 @@
 		"🍄": 1,
 		"🍄‍🟫": 1,
 		"🎀": 1,
+		"🎏": 1,
 		"🎱": 1,
 		"🐉": 1,
 		"🐊": 1,
@@ -351,6 +354,7 @@
 		"🧟": 1,
 		"🧸": 1,
 		"🧽": 1,
+		"🪝": 1,
 		"🪨": 1,
 		"🪱": 1,
 		"🪳": 1,
@@ -515,7 +519,10 @@
 				"Weight in lbs": 5.48,
 				"Catchtype": "Normal",
 				"Date": "2024-09-25 11:37:08 UTC",
-				"Chat": "vaiastol"
+				"Chat": "vaiastol",
+				"Record": [
+					"🥇 First ever 🦫 beaver caught in channel vaiastol !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🦫 beaver",
@@ -1018,7 +1025,10 @@
 				"Weight in lbs": 9.57,
 				"Catchtype": "Normal",
 				"Date": "2024-07-31 15:46:23 UTC",
-				"Chat": "vaiastol"
+				"Chat": "vaiastol",
+				"Record": [
+					"🥇 First ever 🥒 cucumber caught in channel vaiastol !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🥒 cucumber",
@@ -1136,10 +1146,7 @@
 				"Weight in lbs": 104.56,
 				"Catchtype": "Normal",
 				"Date": "2024-11-21 16:03:43 UTC",
-				"Chat": "vaiastol",
-				"Record": [
-					"🥇 Biggest 🐬 dolphin record in channel vaiastol !"
-				]
+				"Chat": "vaiastol"
 			},
 			"Smallest catch": {
 				"Fish": "🐬 dolphin",
@@ -1486,7 +1493,10 @@
 				"Weight in lbs": 0.62,
 				"Catchtype": "Normal",
 				"Date": "2024-09-25 09:53:42 UTC",
-				"Chat": "vaiastol"
+				"Chat": "vaiastol",
+				"Record": [
+					"🥇 First ever 🦎 lizard caught in channel vaiastol !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🦎 lizard",
@@ -1541,7 +1551,10 @@
 				"Weight in lbs": 5.34,
 				"Catchtype": "Normal",
 				"Date": "2024-07-30 09:44:50 UTC",
-				"Chat": "vaiastol"
+				"Chat": "vaiastol",
+				"Record": [
+					"🥇 First ever 🦞 lobster caught in channel vaiastol !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🦞 lobster",
@@ -1593,7 +1606,10 @@
 				"Weight in lbs": 3.91,
 				"Catchtype": "Normal",
 				"Date": "2024-10-14 22:20:07 UTC",
-				"Chat": "vaiastol"
+				"Chat": "vaiastol",
+				"Record": [
+					"🥇 First ever 🪵 log caught in channel vaiastol !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🪵 log",
@@ -1831,7 +1847,10 @@
 				"Weight in lbs": 68.03,
 				"Catchtype": "Normal",
 				"Date": "2024-08-05 01:05:17 UTC",
-				"Chat": "vaiastol"
+				"Chat": "vaiastol",
+				"Record": [
+					"🥇 First ever 🛢️ oildrum caught in channel vaiastol !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🛢️ oildrum",
@@ -1895,7 +1914,10 @@
 				"Weight in lbs": 29.35,
 				"Catchtype": "Normal",
 				"Date": "2024-07-31 11:57:10 UTC",
-				"Chat": "vaiastol"
+				"Chat": "vaiastol",
+				"Record": [
+					"🥇 First ever 🦪 oyster caught in channel vaiastol !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🦪 oyster",
@@ -2257,9 +2279,9 @@
 		},
 		"shark 🦈": {
 			"Caught in total": {
-				"Total": 6,
+				"Total": 7,
 				"Per chat": {
-					"vaiastol": 6
+					"vaiastol": 7
 				}
 			},
 			"Caught per year": {
@@ -2270,17 +2292,17 @@
 					}
 				},
 				"2025": {
-					"Total": 5,
+					"Total": 6,
 					"Per chat": {
-						"vaiastol": 5
+						"vaiastol": 6
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 6,
+					"Total": 7,
 					"Per chat": {
-						"vaiastol": 6
+						"vaiastol": 7
 					}
 				}
 			},
@@ -2293,9 +2315,9 @@
 			},
 			"Last catch": {
 				"Fish": "🦈 shark",
-				"Weight in lbs": 210.14,
+				"Weight in lbs": 117.83,
 				"Catchtype": "Normal",
-				"Date": "2025-02-15 02:35:23 UTC",
+				"Date": "2025-06-06 13:00:25 UTC",
 				"Chat": "vaiastol"
 			},
 			"Biggest catch": {
@@ -3501,5 +3523,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

@@ -11,9 +11,9 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 217,
+		"Total": 220,
 		"Per chat": {
-			"dizzy": 216,
+			"dizzy": 219,
 			"julialuxel": 1
 		}
 	},
@@ -26,9 +26,9 @@
 			}
 		},
 		"2025": {
-			"Total": 31,
+			"Total": 34,
 			"Per chat": {
-				"dizzy": 31
+				"dizzy": 34
 			}
 		}
 	},
@@ -40,9 +40,9 @@
 			}
 		},
 		"Normal": {
-			"Total": 206,
+			"Total": 209,
 			"Per chat": {
-				"dizzy": 205,
+				"dizzy": 208,
 				"julialuxel": 1
 			}
 		},
@@ -71,10 +71,10 @@
 	},
 	"Their last fish per chat": {
 		"dizzy": {
-			"Fish": "🦎 lizard",
-			"Weight in lbs": 7.05,
+			"Fish": "🐟 fish",
+			"Weight in lbs": 0.54,
 			"Catchtype": "Normal",
-			"Date": "2025-05-27 18:14:00 UTC",
+			"Date": "2025-06-06 21:34:28 UTC",
 			"Chat": "dizzy"
 		},
 		"julialuxel": {
@@ -175,6 +175,27 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "🐟 fish",
+			"Weight in lbs": 0.54,
+			"Catchtype": "Normal",
+			"Date": "2025-06-06 21:34:28 UTC",
+			"Chat": "dizzy"
+		},
+		{
+			"Fish": "☘️ shamrock",
+			"Weight in lbs": 3.47,
+			"Catchtype": "Normal",
+			"Date": "2025-06-04 22:20:20 UTC",
+			"Chat": "dizzy"
+		},
+		{
+			"Fish": "🦎 lizard",
+			"Weight in lbs": 4.3,
+			"Catchtype": "Normal",
+			"Date": "2025-06-03 01:15:34 UTC",
+			"Chat": "dizzy"
+		},
+		{
 			"Fish": "🦎 lizard",
 			"Weight in lbs": 7.05,
 			"Catchtype": "Normal",
@@ -221,27 +242,6 @@
 			"Weight in lbs": 1.92,
 			"Catchtype": "Normal",
 			"Date": "2025-03-04 22:04:21 UTC",
-			"Chat": "dizzy"
-		},
-		{
-			"Fish": "🐸 frog",
-			"Weight in lbs": 1.12,
-			"Catchtype": "Normal",
-			"Date": "2025-03-04 16:26:56 UTC",
-			"Chat": "dizzy"
-		},
-		{
-			"Fish": "🐟 fish",
-			"Weight in lbs": 7.24,
-			"Catchtype": "Normal",
-			"Date": "2025-02-18 21:45:56 UTC",
-			"Chat": "dizzy"
-		},
-		{
-			"Fish": "🐟 fish",
-			"Weight in lbs": 1.25,
-			"Catchtype": "Normal",
-			"Date": "2025-02-10 16:35:17 UTC",
 			"Chat": "dizzy"
 		}
 	],
@@ -297,14 +297,17 @@
 			"🐟",
 			"🐟",
 			"🦐",
+			"☘️",
+			"🦎",
+			"🦎",
 			"☘️"
 		],
-		"Date": "2025-05-18 02:27:55 UTC",
+		"Date": "2025-06-06 17:53:57 UTC",
 		"Chat": "dizzy"
 	},
 	"Count of each item in that bag": {
 		"☂️": 1,
-		"☘️": 3,
+		"☘️": 4,
 		"🌰": 1,
 		"🌿": 1,
 		"🎏": 2,
@@ -331,7 +334,7 @@
 		"🦀": 1,
 		"🦆": 1,
 		"🦈": 1,
-		"🦎": 1,
+		"🦎": 3,
 		"🦐": 2,
 		"🦑": 1,
 		"🦕": 1,
@@ -1037,9 +1040,9 @@
 		},
 		"fish 🐟": {
 			"Caught in total": {
-				"Total": 35,
+				"Total": 36,
 				"Per chat": {
-					"dizzy": 35
+					"dizzy": 36
 				}
 			},
 			"Caught per year": {
@@ -1050,9 +1053,9 @@
 					}
 				},
 				"2025": {
-					"Total": 8,
+					"Total": 9,
 					"Per chat": {
-						"dizzy": 8
+						"dizzy": 9
 					}
 				}
 			},
@@ -1064,9 +1067,9 @@
 					}
 				},
 				"Normal": {
-					"Total": 34,
+					"Total": 35,
 					"Per chat": {
-						"dizzy": 34
+						"dizzy": 35
 					}
 				}
 			},
@@ -1079,9 +1082,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐟 fish",
-				"Weight in lbs": 15.29,
+				"Weight in lbs": 0.54,
 				"Catchtype": "Normal",
-				"Date": "2025-04-04 00:14:58 UTC",
+				"Date": "2025-06-06 21:34:28 UTC",
 				"Chat": "dizzy"
 			},
 			"Biggest catch": {
@@ -1093,9 +1096,9 @@
 			},
 			"Smallest catch": {
 				"Fish": "🐟 fish",
-				"Weight in lbs": 0.98,
+				"Weight in lbs": 0.54,
 				"Catchtype": "Normal",
-				"Date": "2025-01-22 16:25:24 UTC",
+				"Date": "2025-06-06 21:34:28 UTC",
 				"Chat": "dizzy"
 			}
 		},
@@ -1321,9 +1324,9 @@
 		},
 		"lizard 🦎": {
 			"Caught in total": {
-				"Total": 5,
+				"Total": 6,
 				"Per chat": {
-					"dizzy": 5
+					"dizzy": 6
 				}
 			},
 			"Caught per year": {
@@ -1334,17 +1337,17 @@
 					}
 				},
 				"2025": {
-					"Total": 3,
+					"Total": 4,
 					"Per chat": {
-						"dizzy": 3
+						"dizzy": 4
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 5,
+					"Total": 6,
 					"Per chat": {
-						"dizzy": 5
+						"dizzy": 6
 					}
 				}
 			},
@@ -1357,9 +1360,9 @@
 			},
 			"Last catch": {
 				"Fish": "🦎 lizard",
-				"Weight in lbs": 7.05,
+				"Weight in lbs": 4.3,
 				"Catchtype": "Normal",
-				"Date": "2025-05-27 18:14:00 UTC",
+				"Date": "2025-06-03 01:15:34 UTC",
 				"Chat": "dizzy"
 			},
 			"Biggest catch": {
@@ -1521,7 +1524,10 @@
 				"Weight in lbs": 9.75,
 				"Catchtype": "Normal",
 				"Date": "2025-01-10 21:07:22 UTC",
-				"Chat": "dizzy"
+				"Chat": "dizzy",
+				"Record": [
+					"🥇 First ever 🪺 nestwitheggs caught in channel dizzy !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🪺 nestwitheggs",
@@ -1911,24 +1917,24 @@
 		},
 		"shamrock ☘️": {
 			"Caught in total": {
-				"Total": 3,
+				"Total": 4,
 				"Per chat": {
-					"dizzy": 3
+					"dizzy": 4
 				}
 			},
 			"Caught per year": {
 				"2025": {
-					"Total": 3,
+					"Total": 4,
 					"Per chat": {
-						"dizzy": 3
+						"dizzy": 4
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 3,
+					"Total": 4,
 					"Per chat": {
-						"dizzy": 3
+						"dizzy": 4
 					}
 				}
 			},
@@ -1941,9 +1947,9 @@
 			},
 			"Last catch": {
 				"Fish": "☘️ shamrock",
-				"Weight in lbs": 0.05,
+				"Weight in lbs": 3.47,
 				"Catchtype": "Normal",
-				"Date": "2025-05-14 01:05:20 UTC",
+				"Date": "2025-06-04 22:20:20 UTC",
 				"Chat": "dizzy"
 			},
 			"Biggest catch": {
@@ -2692,7 +2698,10 @@
 				"Weight in lbs": 1.77,
 				"Catchtype": "Normal",
 				"Date": "2024-12-21 01:33:53 UTC",
-				"Chat": "dizzy"
+				"Chat": "dizzy",
+				"Record": [
+					"🥇 First ever 🥀 wiltedflower caught in channel dizzy !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🥀 wiltedflower",
@@ -2784,5 +2793,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

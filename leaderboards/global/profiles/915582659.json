@@ -1347,7 +1347,10 @@
 				"Weight in lbs": 0,
 				"Catchtype": "Release bonus",
 				"Date": "2023-08-29 14:00:22 UTC",
-				"Chat": "psp1g"
+				"Chat": "psp1g",
+				"Record": [
+					"🥇 First ever 🎰 slotmachine caught in channel psp1g !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🎰 slotmachine",
@@ -1811,5 +1814,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

@@ -2,9 +2,9 @@
 	"Name": "ninjaross",
 	"Progress": null,
 	"Records": [
-		"14th most fish caught in channel breadworms !",
+		"15th most fish caught in channel breadworms !",
 		"12th most fish seen in channel breadworms !",
-		"19th biggest fish record in channel breadworms !",
+		"20th biggest fish record in channel breadworms !",
 		"20th place on tournament leaderboard in channel breadworms !",
 		"5th most fish caught in channel swormbeard !",
 		"7th most fish seen in channel swormbeard !",
@@ -575,7 +575,11 @@
 				"Weight in lbs": 0.08,
 				"Catchtype": "Normal",
 				"Date": "2022-12-13 05:11:17 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🩰 balletshoes caught in channel breadworms !",
+					"🥇 First ever 🩰 balletshoes caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🩰 balletshoes",
@@ -789,7 +793,10 @@
 				"Weight in lbs": 0.69,
 				"Catchtype": "Hatched egg",
 				"Date": "2024-05-04 18:16:52 UTC",
-				"Chat": "julialuxel"
+				"Chat": "julialuxel",
+				"Record": [
+					"🥇 First ever 🐦‍⬛ blackbird caught in channel julialuxel !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐦‍⬛ blackbird",
@@ -1923,7 +1930,11 @@
 				"Weight in lbs": 0.06,
 				"Catchtype": "Normal",
 				"Date": "2022-12-13 10:55:49 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🪶 feather caught in channel breadworms !",
+					"🥇 First ever 🪶 feather caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🪶 feather",
@@ -3184,7 +3195,11 @@
 				"Weight in lbs": 205.85,
 				"Catchtype": "Normal",
 				"Date": "2022-12-23 14:02:31 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🐻‍❄ polarbear caught in channel breadworms !",
+					"🥇 First ever 🐻‍❄ polarbear caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐻‍❄ polarbear",
@@ -4347,7 +4362,11 @@
 				"Weight in lbs": 1.68,
 				"Catchtype": "Normal",
 				"Date": "2022-12-04 14:35:11 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🧽 sponge caught in channel breadworms !",
+					"🥇 First ever 🧽 sponge caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🧽 sponge",
@@ -5149,5 +5168,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

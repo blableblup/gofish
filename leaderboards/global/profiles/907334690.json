@@ -6,7 +6,7 @@
 		"20th most fish seen globally 🌐 !",
 		"9th most fish caught in channel swormbeard !",
 		"🥉 Third biggest fish record in channel swormbeard !",
-		"19th most fish caught in channel vaiastol !",
+		"20th most fish caught in channel vaiastol !",
 		"18th most fish seen in channel vaiastol !"
 	],
 	"Other accomplishments": {
@@ -452,7 +452,7 @@
 			"🎏",
 			"🌰"
 		],
-		"Date": "2025-05-29 03:57:22 UTC",
+		"Date": "2025-06-05 22:18:59 UTC",
 		"Chat": "breadworms"
 	},
 	"Count of each item in that bag": {
@@ -736,7 +736,10 @@
 				"Weight in lbs": 71.28,
 				"Catchtype": "Normal",
 				"Date": "2024-03-28 23:57:24 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🦇 bat caught in channel breadworms !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🦇 bat",
@@ -1687,7 +1690,10 @@
 				"Weight in lbs": 12.16,
 				"Catchtype": "Normal",
 				"Date": "2024-06-05 20:25:47 UTC",
-				"Chat": "d_egree"
+				"Chat": "d_egree",
+				"Record": [
+					"🥇 First ever 🕶️ darksunglasses caught in channel d_egree !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🕶️ darksunglasses",
@@ -4254,7 +4260,10 @@
 				"Weight in lbs": 0,
 				"Catchtype": "Squirrel",
 				"Date": "2024-12-21 19:36:22 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🐿️ squirrel caught in channel breadworms !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐿️ squirrel",
@@ -4868,5 +4877,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

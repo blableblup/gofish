@@ -481,7 +481,10 @@
 				"Weight in lbs": 2.19,
 				"Catchtype": "Normal",
 				"Date": "2024-10-18 07:33:13 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 First ever 🪵 log caught in channel yopego !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🪵 log",
@@ -594,7 +597,10 @@
 				"Weight in lbs": 14.62,
 				"Catchtype": "Normal",
 				"Date": "2024-10-31 14:02:46 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 First ever 🍄 mushroom caught in channel yopego !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🍄 mushroom",
@@ -970,7 +976,10 @@
 				"Weight in lbs": 82.95,
 				"Catchtype": "Normal",
 				"Date": "2024-11-04 15:04:24 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 First ever 🐳 whale caught in channel yopego !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐳 whale",
@@ -1149,5 +1158,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

@@ -2127,7 +2127,10 @@
 				"Weight in lbs": 0.8,
 				"Catchtype": "Normal",
 				"Date": "2024-12-24 03:21:39 UTC",
-				"Chat": "vaiastol"
+				"Chat": "vaiastol",
+				"Record": [
+					"🥇 First ever ⛸️ iceskate caught in channel vaiastol !"
+				]
 			},
 			"Last catch": {
 				"Fish": "⛸️ iceskate",
@@ -2876,7 +2879,10 @@
 				"Weight in lbs": 18.81,
 				"Catchtype": "Normal",
 				"Date": "2024-12-25 04:04:34 UTC",
-				"Chat": "vaiastol"
+				"Chat": "vaiastol",
+				"Record": [
+					"🥇 First ever 🐧 penguin caught in channel vaiastol !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐧 penguin",
@@ -4549,7 +4555,10 @@
 				"Weight in lbs": 5.52,
 				"Catchtype": "Normal",
 				"Date": "2024-09-25 02:25:15 UTC",
-				"Chat": "vaiastol"
+				"Chat": "vaiastol",
+				"Record": [
+					"🥇 First ever 🧵 wireline caught in channel vaiastol !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🧵 wireline",
@@ -4773,5 +4782,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

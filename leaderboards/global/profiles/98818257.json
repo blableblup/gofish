@@ -484,7 +484,11 @@
 				"Weight in lbs": 7.11,
 				"Catchtype": "Normal",
 				"Date": "2024-03-28 00:11:52 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🎱 8ball caught in channel breadworms !",
+					"🥇 First ever 🎱 8ball caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🎱 8ball",
@@ -696,7 +700,10 @@
 				"Weight in lbs": 60.15,
 				"Catchtype": "Normal",
 				"Date": "2025-03-14 00:11:12 UTC",
-				"Chat": "swormbeard"
+				"Chat": "swormbeard",
+				"Record": [
+					"🥇 First ever 🦇 bat caught in channel swormbeard !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🦇 bat",
@@ -760,7 +767,11 @@
 				"Weight in lbs": 17.95,
 				"Catchtype": "Normal",
 				"Date": "2024-03-28 01:58:22 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🦫 beaver caught in channel breadworms !",
+					"🥇 First ever 🦫 beaver caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🦫 beaver",
@@ -812,7 +823,11 @@
 				"Weight in lbs": 3.16,
 				"Catchtype": "Hatched egg",
 				"Date": "2024-04-09 23:37:18 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🐦‍⬛ blackbird caught in channel breadworms !",
+					"🥇 First ever 🐦‍⬛ blackbird caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐦‍⬛ blackbird",
@@ -1994,7 +2009,11 @@
 				"Weight in lbs": 1.69,
 				"Catchtype": "Normal",
 				"Date": "2024-03-28 11:24:06 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🪹 emptynest caught in channel breadworms !",
+					"🥇 First ever 🪹 emptynest caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🪹 emptynest",
@@ -2587,7 +2606,11 @@
 				"Weight in lbs": 1.48,
 				"Catchtype": "Normal",
 				"Date": "2025-03-14 22:12:25 UTC",
-				"Chat": "swormbeard"
+				"Chat": "swormbeard",
+				"Record": [
+					"🥇 First ever 🍃 leaf caught globally 🌐 !",
+					"🥇 First ever 🍃 leaf caught in channel swormbeard !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🍃 leaf",
@@ -3528,7 +3551,11 @@
 				"Weight in lbs": 1.24,
 				"Catchtype": "Normal",
 				"Date": "2025-03-15 15:10:01 UTC",
-				"Chat": "swormbeard"
+				"Chat": "swormbeard",
+				"Record": [
+					"🥇 First ever 👡 sandal caught globally 🌐 !",
+					"🥇 First ever 👡 sandal caught in channel swormbeard !"
+				]
 			},
 			"Last catch": {
 				"Fish": "👡 sandal",
@@ -5213,5 +5240,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

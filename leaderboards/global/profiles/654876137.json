@@ -1348,7 +1348,11 @@
 				"Weight in lbs": 4.32,
 				"Catchtype": "Normal",
 				"Date": "2023-06-18 17:37:30 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🕶️ darksunglasses caught in channel breadworms !",
+					"🥇 First ever 🕶️ darksunglasses caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🕶️ darksunglasses",
@@ -1643,7 +1647,11 @@
 				"Weight in lbs": 0.16,
 				"Catchtype": "Normal",
 				"Date": "2022-12-04 01:13:02 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🐟 fish caught in channel breadworms !",
+					"🥇 First ever 🐟 fish caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐟 fish",
@@ -1913,7 +1921,11 @@
 				"Weight in lbs": 21.15,
 				"Catchtype": "Normal",
 				"Date": "2023-06-17 05:51:12 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🪼 jellyfish caught in channel breadworms !",
+					"🥇 First ever 🪼 jellyfish caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🪼 jellyfish",
@@ -2316,7 +2328,11 @@
 				"Weight in lbs": 204.3,
 				"Catchtype": "Normal",
 				"Date": "2023-08-23 01:40:04 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🛢️ oildrum caught in channel breadworms !",
+					"🥇 First ever 🛢️ oildrum caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🛢️ oildrum",
@@ -2368,7 +2384,11 @@
 				"Weight in lbs": 3.31,
 				"Catchtype": "Normal",
 				"Date": "2022-12-29 01:59:51 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🦦 otter caught in channel breadworms !",
+					"🥇 First ever 🦦 otter caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🦦 otter",
@@ -3660,7 +3680,11 @@
 				"Weight in lbs": 13.81,
 				"Catchtype": "Normal",
 				"Date": "2022-12-04 22:25:46 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🐠 tropicalfish caught in channel breadworms !",
+					"🥇 First ever 🐠 tropicalfish caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐠 tropicalfish",
@@ -3836,7 +3860,11 @@
 				"Weight in lbs": 70.36,
 				"Catchtype": "Normal",
 				"Date": "2022-12-04 05:15:09 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🐳 whale caught in channel breadworms !",
+					"🥇 First ever 🐳 whale caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐳 whale",
@@ -4136,5 +4164,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

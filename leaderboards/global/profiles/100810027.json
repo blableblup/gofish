@@ -869,7 +869,10 @@
 				"Weight in lbs": 28.59,
 				"Catchtype": "Normal",
 				"Date": "2023-08-24 05:30:28 UTC",
-				"Chat": "psp1g"
+				"Chat": "psp1g",
+				"Record": [
+					"🥇 First ever 🥒 cucumber caught in channel psp1g !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🥒 cucumber",
@@ -1456,7 +1459,10 @@
 				"Weight in lbs": 70.24,
 				"Catchtype": "Normal",
 				"Date": "2023-08-24 13:28:05 UTC",
-				"Chat": "psp1g"
+				"Chat": "psp1g",
+				"Record": [
+					"🥇 First ever 🪨 rock caught in channel psp1g !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🪨 rock",
@@ -1667,7 +1673,10 @@
 				"Weight in lbs": 37.53,
 				"Catchtype": "Normal",
 				"Date": "2023-08-24 10:38:53 UTC",
-				"Chat": "psp1g"
+				"Chat": "psp1g",
+				"Record": [
+					"🥇 First ever 🦈 shark caught in channel psp1g !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🦈 shark",
@@ -2559,5 +2568,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

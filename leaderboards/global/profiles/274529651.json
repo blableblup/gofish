@@ -273,7 +273,10 @@
 				"Weight in lbs": 25.12,
 				"Catchtype": "Normal",
 				"Date": "2024-12-01 21:24:56 UTC",
-				"Chat": "aquaismissing"
+				"Chat": "aquaismissing",
+				"Record": [
+					"🥇 First ever 🐡 blowfish caught in channel aquaismissing !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐡 blowfish",
@@ -328,7 +331,10 @@
 				"Weight in lbs": 104.06,
 				"Catchtype": "Normal",
 				"Date": "2024-11-29 21:58:16 UTC",
-				"Chat": "aquaismissing"
+				"Chat": "aquaismissing",
+				"Record": [
+					"🥇 First ever 🐊 crocodile caught in channel aquaismissing !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐊 crocodile",
@@ -539,7 +545,10 @@
 				"Weight in lbs": 59.3,
 				"Catchtype": "Normal",
 				"Date": "2024-11-28 10:34:33 UTC",
-				"Chat": "aquaismissing"
+				"Chat": "aquaismissing",
+				"Record": [
+					"🥇 First ever 🦞 lobster caught in channel aquaismissing !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🦞 lobster",
@@ -646,7 +655,10 @@
 				"Weight in lbs": 79.92,
 				"Catchtype": "Normal",
 				"Date": "2024-11-28 12:39:38 UTC",
-				"Chat": "aquaismissing"
+				"Chat": "aquaismissing",
+				"Record": [
+					"🥇 First ever 🐙 octopus caught in channel aquaismissing !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐙 octopus",
@@ -753,7 +765,10 @@
 				"Weight in lbs": 129.15,
 				"Catchtype": "Normal",
 				"Date": "2024-12-01 11:08:35 UTC",
-				"Chat": "aquaismissing"
+				"Chat": "aquaismissing",
+				"Record": [
+					"🥇 First ever 🦭 seal caught in channel aquaismissing !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🦭 seal",
@@ -915,7 +930,10 @@
 				"Weight in lbs": 11.68,
 				"Catchtype": "Normal",
 				"Date": "2024-11-28 22:39:04 UTC",
-				"Chat": "aquaismissing"
+				"Chat": "aquaismissing",
+				"Record": [
+					"🥇 First ever 🐢 turtle caught in channel aquaismissing !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐢 turtle",
@@ -1038,5 +1056,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

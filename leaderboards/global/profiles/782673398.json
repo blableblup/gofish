@@ -385,7 +385,10 @@
 				"Weight in lbs": 14.33,
 				"Catchtype": "Normal",
 				"Date": "2024-12-21 15:19:24 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 First ever 🪳 cockroach caught in channel e1llas !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🪳 cockroach",
@@ -489,7 +492,10 @@
 				"Weight in lbs": 3.66,
 				"Catchtype": "Normal",
 				"Date": "2024-12-07 13:05:40 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 First ever 🐸 frog caught in channel e1llas !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐸 frog",
@@ -541,7 +547,10 @@
 				"Weight in lbs": 0.95,
 				"Catchtype": "Normal",
 				"Date": "2024-12-08 11:30:05 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 First ever 🧤 gloves caught in channel e1llas !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🧤 gloves",
@@ -654,7 +663,10 @@
 				"Weight in lbs": 54.97,
 				"Catchtype": "Normal",
 				"Date": "2024-12-15 14:53:40 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 First ever 🦞 lobster caught in channel e1llas !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🦞 lobster",
@@ -758,7 +770,10 @@
 				"Weight in lbs": 17.18,
 				"Catchtype": "Normal",
 				"Date": "2024-12-10 11:11:08 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 First ever 🦦 otter caught in channel e1llas !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🦦 otter",
@@ -816,7 +831,10 @@
 				"Weight in lbs": 3.6,
 				"Catchtype": "Normal",
 				"Date": "2024-12-18 14:08:48 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 First ever 🐚 shell caught in channel e1llas !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐚 shell",
@@ -944,5 +962,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

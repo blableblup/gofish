@@ -311,7 +311,10 @@
 				"Weight in lbs": 4.78,
 				"Catchtype": "Normal",
 				"Date": "2024-09-25 01:29:47 UTC",
-				"Chat": "vaiastol"
+				"Chat": "vaiastol",
+				"Record": [
+					"🥇 First ever 🎱 8ball caught in channel vaiastol !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🎱 8ball",
@@ -525,7 +528,10 @@
 				"Weight in lbs": 0,
 				"Catchtype": "Release bonus",
 				"Date": "2024-09-25 19:45:22 UTC",
-				"Chat": "vaiastol"
+				"Chat": "vaiastol",
+				"Record": [
+					"🥇 First ever 🍬 candy caught in channel vaiastol !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🍬 candy",
@@ -1364,7 +1370,10 @@
 				"Weight in lbs": 14.55,
 				"Catchtype": "Normal",
 				"Date": "2024-11-03 21:26:26 UTC",
-				"Chat": "vaiastol"
+				"Chat": "vaiastol",
+				"Record": [
+					"🥇 First ever 🍄 mushroom caught in channel vaiastol !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🍄 mushroom",
@@ -1572,7 +1581,10 @@
 				"Weight in lbs": 2.36,
 				"Catchtype": "Normal",
 				"Date": "2024-11-02 16:00:20 UTC",
-				"Chat": "vaiastol"
+				"Chat": "vaiastol",
+				"Record": [
+					"🥇 First ever 🦠 plankton caught in channel vaiastol !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🦠 plankton",
@@ -2459,7 +2471,10 @@
 				"Weight in lbs": 0.89,
 				"Catchtype": "Normal",
 				"Date": "2024-09-13 22:05:28 UTC",
-				"Chat": "vaiastol"
+				"Chat": "vaiastol",
+				"Record": [
+					"🥇 First ever 👒 womanshat caught in channel vaiastol !"
+				]
 			},
 			"Last catch": {
 				"Fish": "👒 womanshat",
@@ -2556,5 +2571,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

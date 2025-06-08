@@ -11,9 +11,9 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 228,
+		"Total": 229,
 		"Per chat": {
-			"breadworms": 145,
+			"breadworms": 146,
 			"dizzy": 30,
 			"swormbeard": 11,
 			"vaiastol": 42
@@ -28,9 +28,9 @@
 			}
 		},
 		"2025": {
-			"Total": 202,
+			"Total": 203,
 			"Per chat": {
-				"breadworms": 144,
+				"breadworms": 145,
 				"dizzy": 5,
 				"swormbeard": 11,
 				"vaiastol": 42
@@ -45,9 +45,9 @@
 			}
 		},
 		"Normal": {
-			"Total": 213,
+			"Total": 214,
 			"Per chat": {
-				"breadworms": 132,
+				"breadworms": 133,
 				"dizzy": 29,
 				"swormbeard": 11,
 				"vaiastol": 41
@@ -95,9 +95,9 @@
 	"Their last fish per chat": {
 		"breadworms": {
 			"Fish": "🐋 whale2",
-			"Weight in lbs": 88.7,
+			"Weight in lbs": 133.78,
 			"Catchtype": "Normal",
-			"Date": "2025-05-22 01:17:37 UTC",
+			"Date": "2025-06-05 21:32:31 UTC",
 			"Chat": "breadworms"
 		},
 		"dizzy": {
@@ -182,6 +182,13 @@
 			"Chat": "dizzy"
 		},
 		{
+			"Fish": "🐋 whale2",
+			"Weight in lbs": 133.78,
+			"Catchtype": "Normal",
+			"Date": "2025-06-05 21:32:31 UTC",
+			"Chat": "breadworms"
+		},
+		{
 			"Fish": "🦈 shark",
 			"Weight in lbs": 110.36,
 			"Catchtype": "Normal",
@@ -215,16 +222,16 @@
 			"Catchtype": "Normal",
 			"Date": "2025-05-22 01:17:37 UTC",
 			"Chat": "breadworms"
-		},
-		{
-			"Fish": "🐢 turtle",
-			"Weight in lbs": 88,
-			"Catchtype": "Normal",
-			"Date": "2025-03-16 05:52:19 UTC",
-			"Chat": "breadworms"
 		}
 	],
 	"Their overall last fish": [
+		{
+			"Fish": "🐋 whale2",
+			"Weight in lbs": 133.78,
+			"Catchtype": "Normal",
+			"Date": "2025-06-05 21:32:31 UTC",
+			"Chat": "breadworms"
+		},
 		{
 			"Fish": "🐋 whale2",
 			"Weight in lbs": 88.7,
@@ -286,13 +293,6 @@
 			"Weight in lbs": 15.65,
 			"Catchtype": "Normal",
 			"Date": "2025-04-15 03:32:47 UTC",
-			"Chat": "breadworms"
-		},
-		{
-			"Fish": "🦪 oyster",
-			"Weight in lbs": 7.67,
-			"Catchtype": "Normal",
-			"Date": "2025-04-15 01:59:48 UTC",
 			"Chat": "breadworms"
 		}
 	],
@@ -1339,7 +1339,10 @@
 				"Weight in lbs": 5.21,
 				"Catchtype": "Normal",
 				"Date": "2025-03-18 23:17:58 UTC",
-				"Chat": "swormbeard"
+				"Chat": "swormbeard",
+				"Record": [
+					"🥇 First ever 📱 iphone caught in channel swormbeard !"
+				]
 			},
 			"Last catch": {
 				"Fish": "📱 iphone",
@@ -1978,10 +1981,7 @@
 				"Weight in lbs": 45.46,
 				"Catchtype": "Normal",
 				"Date": "2025-03-08 02:55:57 UTC",
-				"Chat": "dizzy",
-				"Record": [
-					"🥇 Biggest 🪨 rock record in channel dizzy !"
-				]
+				"Chat": "dizzy"
 			},
 			"Smallest catch": {
 				"Fish": "🪨 rock",
@@ -2885,9 +2885,9 @@
 		},
 		"whale2 🐋": {
 			"Caught in total": {
-				"Total": 9,
+				"Total": 10,
 				"Per chat": {
-					"breadworms": 8,
+					"breadworms": 9,
 					"dizzy": 1
 				}
 			},
@@ -2899,17 +2899,17 @@
 					}
 				},
 				"2025": {
-					"Total": 8,
+					"Total": 9,
 					"Per chat": {
-						"breadworms": 8
+						"breadworms": 9
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 9,
+					"Total": 10,
 					"Per chat": {
-						"breadworms": 8,
+						"breadworms": 9,
 						"dizzy": 1
 					}
 				}
@@ -2923,16 +2923,16 @@
 			},
 			"Last catch": {
 				"Fish": "🐋 whale2",
-				"Weight in lbs": 88.7,
+				"Weight in lbs": 133.78,
 				"Catchtype": "Normal",
-				"Date": "2025-05-22 01:17:37 UTC",
+				"Date": "2025-06-05 21:32:31 UTC",
 				"Chat": "breadworms"
 			},
 			"Biggest catch": {
 				"Fish": "🐋 whale2",
-				"Weight in lbs": 88.7,
+				"Weight in lbs": 133.78,
 				"Catchtype": "Normal",
-				"Date": "2025-05-22 01:17:37 UTC",
+				"Date": "2025-06-05 21:32:31 UTC",
 				"Chat": "breadworms"
 			},
 			"Smallest catch": {
@@ -3111,5 +3111,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

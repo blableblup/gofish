@@ -12,10 +12,10 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 172,
+		"Total": 173,
 		"Per chat": {
 			"psp1g": 68,
-			"vaiastol": 104
+			"vaiastol": 105
 		}
 	},
 	"Fish caught per year": {
@@ -33,18 +33,18 @@
 			}
 		},
 		"2025": {
-			"Total": 53,
+			"Total": 54,
 			"Per chat": {
-				"vaiastol": 53
+				"vaiastol": 54
 			}
 		}
 	},
 	"Fish caught per catchtype": {
 		"Normal": {
-			"Total": 169,
+			"Total": 170,
 			"Per chat": {
 				"psp1g": 68,
-				"vaiastol": 101
+				"vaiastol": 102
 			}
 		},
 		"Release bonus": {
@@ -79,10 +79,10 @@
 			"Chat": "psp1g"
 		},
 		"vaiastol": {
-			"Fish": "🎏 lure",
-			"Weight in lbs": 2.86,
+			"Fish": "🪝 hook",
+			"Weight in lbs": 1.18,
 			"Catchtype": "Normal",
-			"Date": "2025-05-26 10:22:05 UTC",
+			"Date": "2025-06-07 11:31:33 UTC",
 			"Chat": "vaiastol"
 		}
 	},
@@ -176,6 +176,13 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "🪝 hook",
+			"Weight in lbs": 1.18,
+			"Catchtype": "Normal",
+			"Date": "2025-06-07 11:31:33 UTC",
+			"Chat": "vaiastol"
+		},
+		{
 			"Fish": "🎏 lure",
 			"Weight in lbs": 2.86,
 			"Catchtype": "Normal",
@@ -236,13 +243,6 @@
 			"Weight in lbs": 1.16,
 			"Catchtype": "Normal",
 			"Date": "2025-05-16 14:05:55 UTC",
-			"Chat": "vaiastol"
-		},
-		{
-			"Fish": "🐟 fish",
-			"Weight in lbs": 15.12,
-			"Catchtype": "Normal",
-			"Date": "2025-05-16 12:56:55 UTC",
 			"Chat": "vaiastol"
 		}
 	],
@@ -953,7 +953,10 @@
 				"Weight in lbs": 7.43,
 				"Catchtype": "Normal",
 				"Date": "2024-09-13 19:48:24 UTC",
-				"Chat": "vaiastol"
+				"Chat": "vaiastol",
+				"Record": [
+					"🥇 First ever 🕶️ darksunglasses caught in channel vaiastol !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🕶️ darksunglasses",
@@ -1377,10 +1380,10 @@
 		},
 		"hook 🪝": {
 			"Caught in total": {
-				"Total": 13,
+				"Total": 14,
 				"Per chat": {
 					"psp1g": 6,
-					"vaiastol": 7
+					"vaiastol": 8
 				}
 			},
 			"Caught per year": {
@@ -1398,18 +1401,18 @@
 					}
 				},
 				"2025": {
-					"Total": 3,
+					"Total": 4,
 					"Per chat": {
-						"vaiastol": 3
+						"vaiastol": 4
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 13,
+					"Total": 14,
 					"Per chat": {
 						"psp1g": 6,
-						"vaiastol": 7
+						"vaiastol": 8
 					}
 				}
 			},
@@ -1422,9 +1425,9 @@
 			},
 			"Last catch": {
 				"Fish": "🪝 hook",
-				"Weight in lbs": 3.95,
+				"Weight in lbs": 1.18,
 				"Catchtype": "Normal",
-				"Date": "2025-05-19 12:50:57 UTC",
+				"Date": "2025-06-07 11:31:33 UTC",
 				"Chat": "vaiastol"
 			},
 			"Biggest catch": {
@@ -2952,7 +2955,10 @@
 				"Weight in lbs": 86.37,
 				"Catchtype": "Normal",
 				"Date": "2024-08-12 16:32:24 UTC",
-				"Chat": "vaiastol"
+				"Chat": "vaiastol",
+				"Record": [
+					"🥇 First ever 🧟 zombie caught in channel vaiastol !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🧟 zombie",
@@ -3046,5 +3052,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

@@ -7,9 +7,9 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 44,
+		"Total": 45,
 		"Per chat": {
-			"psp1g": 44
+			"psp1g": 45
 		}
 	},
 	"Fish caught per year": {
@@ -26,17 +26,17 @@
 			}
 		},
 		"2025": {
-			"Total": 16,
+			"Total": 17,
 			"Per chat": {
-				"psp1g": 16
+				"psp1g": 17
 			}
 		}
 	},
 	"Fish caught per catchtype": {
 		"Normal": {
-			"Total": 44,
+			"Total": 45,
 			"Per chat": {
-				"psp1g": 44
+				"psp1g": 45
 			}
 		}
 	},
@@ -51,10 +51,10 @@
 	},
 	"Their last fish per chat": {
 		"psp1g": {
-			"Fish": "🎏 lure",
-			"Weight in lbs": 0.38,
+			"Fish": "🐉 dragon",
+			"Weight in lbs": 61.04,
 			"Catchtype": "Normal",
-			"Date": "2025-05-29 15:21:57 UTC",
+			"Date": "2025-06-01 14:15:18 UTC",
 			"Chat": "psp1g"
 		}
 	},
@@ -104,6 +104,13 @@
 			"Chat": "psp1g"
 		},
 		{
+			"Fish": "🐉 dragon",
+			"Weight in lbs": 61.04,
+			"Catchtype": "Normal",
+			"Date": "2025-06-01 14:15:18 UTC",
+			"Chat": "psp1g"
+		},
+		{
 			"Fish": "🐬 dolphin",
 			"Weight in lbs": 43.99,
 			"Catchtype": "Normal",
@@ -130,16 +137,16 @@
 			"Catchtype": "Normal",
 			"Date": "2025-05-06 18:45:34 UTC",
 			"Chat": "psp1g"
-		},
-		{
-			"Fish": "🪸 coral",
-			"Weight in lbs": 20.19,
-			"Catchtype": "Normal",
-			"Date": "2023-10-24 20:48:02 UTC",
-			"Chat": "psp1g"
 		}
 	],
 	"Their overall last fish": [
+		{
+			"Fish": "🐉 dragon",
+			"Weight in lbs": 61.04,
+			"Catchtype": "Normal",
+			"Date": "2025-06-01 14:15:18 UTC",
+			"Chat": "psp1g"
+		},
 		{
 			"Fish": "🎏 lure",
 			"Weight in lbs": 0.38,
@@ -201,13 +208,6 @@
 			"Weight in lbs": 106.56,
 			"Catchtype": "Normal",
 			"Date": "2025-05-20 14:37:34 UTC",
-			"Chat": "psp1g"
-		},
-		{
-			"Fish": "🪝 hook",
-			"Weight in lbs": 2.94,
-			"Catchtype": "Normal",
-			"Date": "2025-05-14 01:16:46 UTC",
 			"Chat": "psp1g"
 		}
 	],
@@ -576,24 +576,24 @@
 		},
 		"dragon 🐉": {
 			"Caught in total": {
-				"Total": 1,
+				"Total": 2,
 				"Per chat": {
-					"psp1g": 1
+					"psp1g": 2
 				}
 			},
 			"Caught per year": {
 				"2025": {
-					"Total": 1,
+					"Total": 2,
 					"Per chat": {
-						"psp1g": 1
+						"psp1g": 2
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 1,
+					"Total": 2,
 					"Per chat": {
-						"psp1g": 1
+						"psp1g": 2
 					}
 				}
 			},
@@ -606,9 +606,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐉 dragon",
-				"Weight in lbs": 106.56,
+				"Weight in lbs": 61.04,
 				"Catchtype": "Normal",
-				"Date": "2025-05-20 14:37:34 UTC",
+				"Date": "2025-06-01 14:15:18 UTC",
 				"Chat": "psp1g"
 			},
 			"Biggest catch": {
@@ -620,9 +620,9 @@
 			},
 			"Smallest catch": {
 				"Fish": "🐉 dragon",
-				"Weight in lbs": 106.56,
+				"Weight in lbs": 61.04,
 				"Catchtype": "Normal",
-				"Date": "2025-05-20 14:37:34 UTC",
+				"Date": "2025-06-01 14:15:18 UTC",
 				"Chat": "psp1g"
 			}
 		},
@@ -1430,5 +1430,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

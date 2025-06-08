@@ -2,7 +2,7 @@
 	"Name": "d1fforr",
 	"Progress": null,
 	"Records": [
-		"🥉 Third most fish caught in channel e1llas !",
+		"🥈 Second most fish caught in channel e1llas !",
 		"🥉 Third most fish seen in channel e1llas !",
 		"4th biggest fish record in channel e1llas !",
 		"4th place on tournament leaderboard in channel e1llas !"
@@ -12,9 +12,9 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 52,
+		"Total": 65,
 		"Per chat": {
-			"e1llas": 52
+			"e1llas": 65
 		}
 	},
 	"Fish caught per year": {
@@ -25,17 +25,17 @@
 			}
 		},
 		"2025": {
-			"Total": 27,
+			"Total": 40,
 			"Per chat": {
-				"e1llas": 27
+				"e1llas": 40
 			}
 		}
 	},
 	"Fish caught per catchtype": {
 		"Normal": {
-			"Total": 51,
+			"Total": 64,
 			"Per chat": {
-				"e1llas": 51
+				"e1llas": 64
 			}
 		},
 		"Release bonus": {
@@ -56,10 +56,10 @@
 	},
 	"Their last fish per chat": {
 		"e1llas": {
-			"Fish": "🪶 feather",
-			"Weight in lbs": 0.48,
+			"Fish": "🎏 lure",
+			"Weight in lbs": 0.54,
 			"Catchtype": "Normal",
-			"Date": "2025-05-29 18:53:46 UTC",
+			"Date": "2025-06-07 14:09:36 UTC",
 			"Chat": "e1llas"
 		}
 	},
@@ -81,6 +81,20 @@
 			"Chat": "e1llas"
 		},
 		{
+			"Fish": "🦈 shark",
+			"Weight in lbs": 103.26,
+			"Catchtype": "Normal",
+			"Date": "2025-06-01 12:30:16 UTC",
+			"Chat": "e1llas"
+		},
+		{
+			"Fish": "🐬 dolphin",
+			"Weight in lbs": 97.9,
+			"Catchtype": "Normal",
+			"Date": "2025-06-01 17:39:10 UTC",
+			"Chat": "e1llas"
+		},
+		{
 			"Fish": "🐋 whale2",
 			"Weight in lbs": 82.05,
 			"Catchtype": "Normal",
@@ -95,6 +109,13 @@
 			"Chat": "e1llas"
 		},
 		{
+			"Fish": "🐋 whale2",
+			"Weight in lbs": 54.14,
+			"Catchtype": "Normal",
+			"Date": "2025-06-01 14:17:20 UTC",
+			"Chat": "e1llas"
+		},
+		{
 			"Fish": "🦞 lobster",
 			"Weight in lbs": 46.57,
 			"Catchtype": "Normal",
@@ -106,6 +127,13 @@
 			"Weight in lbs": 42.76,
 			"Catchtype": "Normal",
 			"Date": "2025-05-29 17:58:06 UTC",
+			"Chat": "e1llas"
+		},
+		{
+			"Fish": "🐊 crocodile",
+			"Weight in lbs": 40.72,
+			"Catchtype": "Normal",
+			"Date": "2025-06-06 18:11:19 UTC",
 			"Chat": "e1llas"
 		},
 		{
@@ -114,105 +142,77 @@
 			"Catchtype": "Normal",
 			"Date": "2024-12-26 18:56:16 UTC",
 			"Chat": "e1llas"
-		},
-		{
-			"Fish": "🐙 octopus",
-			"Weight in lbs": 37.78,
-			"Catchtype": "Normal",
-			"Date": "2025-05-17 07:50:33 UTC",
-			"Chat": "e1llas"
-		},
-		{
-			"Fish": "🐋 whale2",
-			"Weight in lbs": 25.75,
-			"Catchtype": "Normal",
-			"Date": "2025-04-30 09:39:54 UTC",
-			"Chat": "e1llas"
-		},
-		{
-			"Fish": "🐟 fish",
-			"Weight in lbs": 13.89,
-			"Catchtype": "Normal",
-			"Date": "2024-12-27 13:03:33 UTC",
-			"Chat": "e1llas"
-		},
-		{
-			"Fish": "🐡 blowfish",
-			"Weight in lbs": 13.46,
-			"Catchtype": "Normal",
-			"Date": "2025-05-13 20:22:39 UTC",
-			"Chat": "e1llas"
 		}
 	],
 	"Their overall last fish": [
 		{
-			"Fish": "🪶 feather",
-			"Weight in lbs": 0.48,
-			"Catchtype": "Normal",
-			"Date": "2025-05-29 18:53:46 UTC",
-			"Chat": "e1llas"
-		},
-		{
-			"Fish": "🐢 turtle",
-			"Weight in lbs": 42.76,
-			"Catchtype": "Normal",
-			"Date": "2025-05-29 17:58:06 UTC",
-			"Chat": "e1llas"
-		},
-		{
 			"Fish": "🎏 lure",
-			"Weight in lbs": 1.38,
+			"Weight in lbs": 0.54,
 			"Catchtype": "Normal",
-			"Date": "2025-05-29 15:24:34 UTC",
+			"Date": "2025-06-07 14:09:36 UTC",
 			"Chat": "e1llas"
 		},
 		{
-			"Fish": "🐌 snail",
-			"Weight in lbs": 7.67,
+			"Fish": "🩴 thongsandal",
+			"Weight in lbs": 1.46,
 			"Catchtype": "Normal",
-			"Date": "2025-05-29 09:36:55 UTC",
+			"Date": "2025-06-06 22:15:29 UTC",
 			"Chat": "e1llas"
 		},
 		{
-			"Fish": "🦞 lobster",
-			"Weight in lbs": 56.04,
+			"Fish": "🐊 crocodile",
+			"Weight in lbs": 40.72,
 			"Catchtype": "Normal",
-			"Date": "2025-05-29 08:01:44 UTC",
-			"Chat": "e1llas"
-		},
-		{
-			"Fish": "🦞 lobster",
-			"Weight in lbs": 46.57,
-			"Catchtype": "Normal",
-			"Date": "2025-05-28 17:11:53 UTC",
-			"Chat": "e1llas"
-		},
-		{
-			"Fish": "🦑 squid",
-			"Weight in lbs": 5.58,
-			"Catchtype": "Normal",
-			"Date": "2025-05-18 05:56:36 UTC",
+			"Date": "2025-06-06 18:11:19 UTC",
 			"Chat": "e1llas"
 		},
 		{
 			"Fish": "🐙 octopus",
-			"Weight in lbs": 37.78,
+			"Weight in lbs": 31.16,
 			"Catchtype": "Normal",
-			"Date": "2025-05-17 07:50:33 UTC",
+			"Date": "2025-06-05 16:32:56 UTC",
+			"Chat": "e1llas"
+		},
+		{
+			"Fish": "🦑 squid",
+			"Weight in lbs": 33.98,
+			"Catchtype": "Normal",
+			"Date": "2025-06-04 05:03:43 UTC",
 			"Chat": "e1llas"
 		},
 		{
 			"Fish": "🎏 lure",
-			"Weight in lbs": 2.78,
+			"Weight in lbs": 0.44,
 			"Catchtype": "Normal",
-			"Date": "2025-05-16 17:28:24 UTC",
+			"Date": "2025-06-03 05:55:15 UTC",
+			"Chat": "e1llas"
+		},
+		{
+			"Fish": "💀 skull",
+			"Weight in lbs": 7.46,
+			"Catchtype": "Normal",
+			"Date": "2025-06-02 16:57:05 UTC",
 			"Chat": "e1llas"
 		},
 		{
 			"Fish": "🐚 shell",
-			"Weight in lbs": 2.02,
+			"Weight in lbs": 1.49,
 			"Catchtype": "Normal",
-			"Date": "2025-05-16 15:01:03 UTC",
+			"Date": "2025-06-01 22:23:16 UTC",
+			"Chat": "e1llas"
+		},
+		{
+			"Fish": "🐬 dolphin",
+			"Weight in lbs": 97.9,
+			"Catchtype": "Normal",
+			"Date": "2025-06-01 17:39:10 UTC",
+			"Chat": "e1llas"
+		},
+		{
+			"Fish": "🐋 whale2",
+			"Weight in lbs": 54.14,
+			"Catchtype": "Normal",
+			"Date": "2025-06-01 14:17:20 UTC",
 			"Chat": "e1llas"
 		}
 	],
@@ -232,49 +232,56 @@
 			"🐸",
 			"🦀",
 			"🐸",
-			"🐚",
 			"🦀",
-			"🐚",
 			"🐬",
 			"🐋",
 			"🐟",
-			"🐚",
-			"🧽",
 			"🐌",
 			"🐢",
-			"🐚",
 			"🐋",
 			"🐡",
-			"🪝",
-			"🐚",
-			"🐚",
-			"🐚",
 			"🐙",
-			"🦑"
+			"🦑",
+			"🦞",
+			"🦞",
+			"🐌",
+			"🐢",
+			"🪶",
+			"🦈",
+			"🐋",
+			"🐬",
+			"🐚",
+			"💀",
+			"🦑",
+			"🐙",
+			"🐊"
 		],
-		"Date": "2025-05-18 15:10:43 UTC",
+		"Date": "2025-06-06 20:42:43 UTC",
 		"Chat": "e1llas"
 	},
 	"Count of each item in that bag": {
-		"🐋": 3,
-		"🐌": 1,
-		"🐙": 2,
-		"🐚": 7,
+		"🐊": 1,
+		"🐋": 4,
+		"🐌": 2,
+		"🐙": 3,
+		"🐚": 1,
 		"🐟": 4,
 		"🐡": 1,
-		"🐢": 1,
-		"🐬": 2,
+		"🐢": 2,
+		"🐬": 3,
 		"🐸": 5,
+		"💀": 1,
 		"🦀": 3,
-		"🦑": 1,
-		"🧽": 1,
+		"🦈": 1,
+		"🦑": 2,
+		"🦞": 2,
 		"🪀": 1,
-		"🪝": 1
+		"🪶": 1
 	},
 	"Fish seen in total": {
-		"Total": 21,
+		"Total": 25,
 		"Per chat": {
-			"e1llas": 21
+			"e1llas": 25
 		}
 	},
 	"Data about each of their seen fish": {
@@ -358,7 +365,10 @@
 				"Weight in lbs": 0,
 				"Catchtype": "Release bonus",
 				"Date": "2024-12-19 12:39:54 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 First ever 🪀 bobber caught in channel e1llas !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🪀 bobber",
@@ -402,7 +412,10 @@
 				"Weight in lbs": 1.2,
 				"Catchtype": "Normal",
 				"Date": "2024-12-13 16:11:21 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 First ever 👢 boot caught in channel e1llas !"
+				]
 			},
 			"Last catch": {
 				"Fish": "👢 boot",
@@ -539,7 +552,7 @@
 				"Chat": "e1llas"
 			}
 		},
-		"dolphin 🐬": {
+		"crocodile 🐊": {
 			"Caught in total": {
 				"Total": 1,
 				"Per chat": {
@@ -547,7 +560,7 @@
 				}
 			},
 			"Caught per year": {
-				"2024": {
+				"2025": {
 					"Total": 1,
 					"Per chat": {
 						"e1llas": 1
@@ -563,6 +576,64 @@
 				}
 			},
 			"First catch": {
+				"Fish": "🐊 crocodile",
+				"Weight in lbs": 40.72,
+				"Catchtype": "Normal",
+				"Date": "2025-06-06 18:11:19 UTC",
+				"Chat": "e1llas"
+			},
+			"Last catch": {
+				"Fish": "🐊 crocodile",
+				"Weight in lbs": 40.72,
+				"Catchtype": "Normal",
+				"Date": "2025-06-06 18:11:19 UTC",
+				"Chat": "e1llas"
+			},
+			"Biggest catch": {
+				"Fish": "🐊 crocodile",
+				"Weight in lbs": 40.72,
+				"Catchtype": "Normal",
+				"Date": "2025-06-06 18:11:19 UTC",
+				"Chat": "e1llas"
+			},
+			"Smallest catch": {
+				"Fish": "🐊 crocodile",
+				"Weight in lbs": 40.72,
+				"Catchtype": "Normal",
+				"Date": "2025-06-06 18:11:19 UTC",
+				"Chat": "e1llas"
+			}
+		},
+		"dolphin 🐬": {
+			"Caught in total": {
+				"Total": 2,
+				"Per chat": {
+					"e1llas": 2
+				}
+			},
+			"Caught per year": {
+				"2024": {
+					"Total": 1,
+					"Per chat": {
+						"e1llas": 1
+					}
+				},
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"e1llas": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 2,
+					"Per chat": {
+						"e1llas": 2
+					}
+				}
+			},
+			"First catch": {
 				"Fish": "🐬 dolphin",
 				"Weight in lbs": 38.62,
 				"Catchtype": "Normal",
@@ -571,17 +642,20 @@
 			},
 			"Last catch": {
 				"Fish": "🐬 dolphin",
-				"Weight in lbs": 38.62,
+				"Weight in lbs": 97.9,
 				"Catchtype": "Normal",
-				"Date": "2024-12-26 18:56:16 UTC",
+				"Date": "2025-06-01 17:39:10 UTC",
 				"Chat": "e1llas"
 			},
 			"Biggest catch": {
 				"Fish": "🐬 dolphin",
-				"Weight in lbs": 38.62,
+				"Weight in lbs": 97.9,
 				"Catchtype": "Normal",
-				"Date": "2024-12-26 18:56:16 UTC",
-				"Chat": "e1llas"
+				"Date": "2025-06-01 17:39:10 UTC",
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 Biggest 🐬 dolphin record in channel e1llas !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐬 dolphin",
@@ -619,7 +693,10 @@
 				"Weight in lbs": 0.48,
 				"Catchtype": "Normal",
 				"Date": "2025-05-29 18:53:46 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 First ever 🪶 feather caught in channel e1llas !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🪶 feather",
@@ -825,9 +902,9 @@
 		},
 		"hook 🪝": {
 			"Caught in total": {
-				"Total": 3,
+				"Total": 4,
 				"Per chat": {
-					"e1llas": 3
+					"e1llas": 4
 				}
 			},
 			"Caught per year": {
@@ -838,17 +915,17 @@
 					}
 				},
 				"2025": {
-					"Total": 2,
+					"Total": 3,
 					"Per chat": {
-						"e1llas": 2
+						"e1llas": 3
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 3,
+					"Total": 4,
 					"Per chat": {
-						"e1llas": 3
+						"e1llas": 4
 					}
 				}
 			},
@@ -861,9 +938,9 @@
 			},
 			"Last catch": {
 				"Fish": "🪝 hook",
-				"Weight in lbs": 3.15,
+				"Weight in lbs": 0.22,
 				"Catchtype": "Normal",
-				"Date": "2025-05-14 12:34:21 UTC",
+				"Date": "2025-06-01 08:16:54 UTC",
 				"Chat": "e1llas"
 			},
 			"Biggest catch": {
@@ -878,9 +955,9 @@
 			},
 			"Smallest catch": {
 				"Fish": "🪝 hook",
-				"Weight in lbs": 1.91,
+				"Weight in lbs": 0.22,
 				"Catchtype": "Normal",
-				"Date": "2025-05-01 16:33:11 UTC",
+				"Date": "2025-06-01 08:16:54 UTC",
 				"Chat": "e1llas"
 			}
 		},
@@ -912,7 +989,10 @@
 				"Weight in lbs": 10.48,
 				"Catchtype": "Normal",
 				"Date": "2024-12-13 15:21:31 UTC",
-				"Chat": "e1llas"
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 First ever 🧊 icecube caught in channel e1llas !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🧊 icecube",
@@ -999,9 +1079,9 @@
 		},
 		"lure 🎏": {
 			"Caught in total": {
-				"Total": 7,
+				"Total": 10,
 				"Per chat": {
-					"e1llas": 7
+					"e1llas": 10
 				}
 			},
 			"Caught per year": {
@@ -1012,17 +1092,17 @@
 					}
 				},
 				"2025": {
-					"Total": 5,
+					"Total": 8,
 					"Per chat": {
-						"e1llas": 5
+						"e1llas": 8
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 7,
+					"Total": 10,
 					"Per chat": {
-						"e1llas": 7
+						"e1llas": 10
 					}
 				}
 			},
@@ -1035,9 +1115,9 @@
 			},
 			"Last catch": {
 				"Fish": "🎏 lure",
-				"Weight in lbs": 1.38,
+				"Weight in lbs": 0.54,
 				"Catchtype": "Normal",
-				"Date": "2025-05-29 15:24:34 UTC",
+				"Date": "2025-06-07 14:09:36 UTC",
 				"Chat": "e1llas"
 			},
 			"Biggest catch": {
@@ -1063,9 +1143,9 @@
 		},
 		"octopus 🐙": {
 			"Caught in total": {
-				"Total": 2,
+				"Total": 3,
 				"Per chat": {
-					"e1llas": 2
+					"e1llas": 3
 				}
 			},
 			"Caught per year": {
@@ -1076,17 +1156,17 @@
 					}
 				},
 				"2025": {
-					"Total": 1,
+					"Total": 2,
 					"Per chat": {
-						"e1llas": 1
+						"e1llas": 2
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 2,
+					"Total": 3,
 					"Per chat": {
-						"e1llas": 2
+						"e1llas": 3
 					}
 				}
 			},
@@ -1099,9 +1179,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐙 octopus",
-				"Weight in lbs": 37.78,
+				"Weight in lbs": 31.16,
 				"Catchtype": "Normal",
-				"Date": "2025-05-17 07:50:33 UTC",
+				"Date": "2025-06-05 16:32:56 UTC",
 				"Chat": "e1llas"
 			},
 			"Biggest catch": {
@@ -1109,24 +1189,76 @@
 				"Weight in lbs": 127.37,
 				"Catchtype": "Normal",
 				"Date": "2024-12-27 08:38:01 UTC",
-				"Chat": "e1llas",
-				"Record": [
-					"🥇 Biggest 🐙 octopus record in channel e1llas !"
-				]
+				"Chat": "e1llas"
 			},
 			"Smallest catch": {
 				"Fish": "🐙 octopus",
-				"Weight in lbs": 37.78,
+				"Weight in lbs": 31.16,
 				"Catchtype": "Normal",
-				"Date": "2025-05-17 07:50:33 UTC",
+				"Date": "2025-06-05 16:32:56 UTC",
 				"Chat": "e1llas"
+			}
+		},
+		"shark 🦈": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"e1llas": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"e1llas": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"e1llas": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🦈 shark",
+				"Weight in lbs": 103.26,
+				"Catchtype": "Normal",
+				"Date": "2025-06-01 12:30:16 UTC",
+				"Chat": "e1llas"
+			},
+			"Last catch": {
+				"Fish": "🦈 shark",
+				"Weight in lbs": 103.26,
+				"Catchtype": "Normal",
+				"Date": "2025-06-01 12:30:16 UTC",
+				"Chat": "e1llas"
+			},
+			"Biggest catch": {
+				"Fish": "🦈 shark",
+				"Weight in lbs": 103.26,
+				"Catchtype": "Normal",
+				"Date": "2025-06-01 12:30:16 UTC",
+				"Chat": "e1llas"
+			},
+			"Smallest catch": {
+				"Fish": "🦈 shark",
+				"Weight in lbs": 103.26,
+				"Catchtype": "Normal",
+				"Date": "2025-06-01 12:30:16 UTC",
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 Smallest 🦈 shark record in channel e1llas !"
+				]
 			}
 		},
 		"shell 🐚": {
 			"Caught in total": {
-				"Total": 7,
+				"Total": 8,
 				"Per chat": {
-					"e1llas": 7
+					"e1llas": 8
 				}
 			},
 			"Caught per year": {
@@ -1137,17 +1269,17 @@
 					}
 				},
 				"2025": {
-					"Total": 6,
+					"Total": 7,
 					"Per chat": {
-						"e1llas": 6
+						"e1llas": 7
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 7,
+					"Total": 8,
 					"Per chat": {
-						"e1llas": 7
+						"e1llas": 8
 					}
 				}
 			},
@@ -1160,9 +1292,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐚 shell",
-				"Weight in lbs": 2.02,
+				"Weight in lbs": 1.49,
 				"Catchtype": "Normal",
-				"Date": "2025-05-16 15:01:03 UTC",
+				"Date": "2025-06-01 22:23:16 UTC",
 				"Chat": "e1llas"
 			},
 			"Biggest catch": {
@@ -1181,6 +1313,58 @@
 				"Record": [
 					"🥇 Smallest 🐚 shell record in channel e1llas !"
 				]
+			}
+		},
+		"skull 💀": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"e1llas": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"e1llas": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"e1llas": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "💀 skull",
+				"Weight in lbs": 7.46,
+				"Catchtype": "Normal",
+				"Date": "2025-06-02 16:57:05 UTC",
+				"Chat": "e1llas"
+			},
+			"Last catch": {
+				"Fish": "💀 skull",
+				"Weight in lbs": 7.46,
+				"Catchtype": "Normal",
+				"Date": "2025-06-02 16:57:05 UTC",
+				"Chat": "e1llas"
+			},
+			"Biggest catch": {
+				"Fish": "💀 skull",
+				"Weight in lbs": 7.46,
+				"Catchtype": "Normal",
+				"Date": "2025-06-02 16:57:05 UTC",
+				"Chat": "e1llas"
+			},
+			"Smallest catch": {
+				"Fish": "💀 skull",
+				"Weight in lbs": 7.46,
+				"Catchtype": "Normal",
+				"Date": "2025-06-02 16:57:05 UTC",
+				"Chat": "e1llas"
 			}
 		},
 		"snail 🐌": {
@@ -1289,6 +1473,61 @@
 		},
 		"squid 🦑": {
 			"Caught in total": {
+				"Total": 2,
+				"Per chat": {
+					"e1llas": 2
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 2,
+					"Per chat": {
+						"e1llas": 2
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 2,
+					"Per chat": {
+						"e1llas": 2
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🦑 squid",
+				"Weight in lbs": 5.58,
+				"Catchtype": "Normal",
+				"Date": "2025-05-18 05:56:36 UTC",
+				"Chat": "e1llas"
+			},
+			"Last catch": {
+				"Fish": "🦑 squid",
+				"Weight in lbs": 33.98,
+				"Catchtype": "Normal",
+				"Date": "2025-06-04 05:03:43 UTC",
+				"Chat": "e1llas"
+			},
+			"Biggest catch": {
+				"Fish": "🦑 squid",
+				"Weight in lbs": 33.98,
+				"Catchtype": "Normal",
+				"Date": "2025-06-04 05:03:43 UTC",
+				"Chat": "e1llas"
+			},
+			"Smallest catch": {
+				"Fish": "🦑 squid",
+				"Weight in lbs": 5.58,
+				"Catchtype": "Normal",
+				"Date": "2025-05-18 05:56:36 UTC",
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 Smallest 🦑 squid record in channel e1llas !"
+				]
+			}
+		},
+		"thongsandal 🩴": {
+			"Caught in total": {
 				"Total": 1,
 				"Per chat": {
 					"e1llas": 1
@@ -1311,34 +1550,40 @@
 				}
 			},
 			"First catch": {
-				"Fish": "🦑 squid",
-				"Weight in lbs": 5.58,
+				"Fish": "🩴 thongsandal",
+				"Weight in lbs": 1.46,
 				"Catchtype": "Normal",
-				"Date": "2025-05-18 05:56:36 UTC",
-				"Chat": "e1llas"
+				"Date": "2025-06-06 22:15:29 UTC",
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 First ever 🩴 thongsandal caught in channel e1llas !"
+				]
 			},
 			"Last catch": {
-				"Fish": "🦑 squid",
-				"Weight in lbs": 5.58,
+				"Fish": "🩴 thongsandal",
+				"Weight in lbs": 1.46,
 				"Catchtype": "Normal",
-				"Date": "2025-05-18 05:56:36 UTC",
+				"Date": "2025-06-06 22:15:29 UTC",
 				"Chat": "e1llas"
 			},
 			"Biggest catch": {
-				"Fish": "🦑 squid",
-				"Weight in lbs": 5.58,
+				"Fish": "🩴 thongsandal",
+				"Weight in lbs": 1.46,
 				"Catchtype": "Normal",
-				"Date": "2025-05-18 05:56:36 UTC",
-				"Chat": "e1llas"
-			},
-			"Smallest catch": {
-				"Fish": "🦑 squid",
-				"Weight in lbs": 5.58,
-				"Catchtype": "Normal",
-				"Date": "2025-05-18 05:56:36 UTC",
+				"Date": "2025-06-06 22:15:29 UTC",
 				"Chat": "e1llas",
 				"Record": [
-					"🥇 Smallest 🦑 squid record in channel e1llas !"
+					"🥇 Biggest 🩴 thongsandal record in channel e1llas !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "🩴 thongsandal",
+				"Weight in lbs": 1.46,
+				"Catchtype": "Normal",
+				"Date": "2025-06-06 22:15:29 UTC",
+				"Chat": "e1llas",
+				"Record": [
+					"🥇 Smallest 🩴 thongsandal record in channel e1llas !"
 				]
 			}
 		},
@@ -1399,9 +1644,9 @@
 		},
 		"whale2 🐋": {
 			"Caught in total": {
-				"Total": 3,
+				"Total": 4,
 				"Per chat": {
-					"e1llas": 3
+					"e1llas": 4
 				}
 			},
 			"Caught per year": {
@@ -1412,17 +1657,17 @@
 					}
 				},
 				"2025": {
-					"Total": 2,
+					"Total": 3,
 					"Per chat": {
-						"e1llas": 2
+						"e1llas": 3
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 3,
+					"Total": 4,
 					"Per chat": {
-						"e1llas": 3
+						"e1llas": 4
 					}
 				}
 			},
@@ -1435,9 +1680,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐋 whale2",
-				"Weight in lbs": 82.05,
+				"Weight in lbs": 54.14,
 				"Catchtype": "Normal",
-				"Date": "2025-05-13 15:29:31 UTC",
+				"Date": "2025-06-01 14:17:20 UTC",
 				"Chat": "e1llas"
 			},
 			"Biggest catch": {
@@ -1475,7 +1720,6 @@
 		"cockroach 🪳",
 		"compass 🧭",
 		"coral 🪸",
-		"crocodile 🐊",
 		"crown 👑",
 		"cucumber 🥒",
 		"dagger 🗡️",
@@ -1514,10 +1758,8 @@
 		"seal 🦭",
 		"seaweed 🌿",
 		"shamrock ☘️",
-		"shark 🦈",
 		"shoppingcart 🛒",
 		"shrimp 🦐",
-		"skull 💀",
 		"slotmachine 🎰",
 		"snake 🐍",
 		"socks 🧦",
@@ -1526,7 +1768,6 @@
 		"sunflower 🌻",
 		"swan 🦢",
 		"teddybear 🧸",
-		"thongsandal 🩴",
 		"tropicalfish 🐠",
 		"tulip 🌷",
 		"umbrella ☂️",
@@ -1537,7 +1778,7 @@
 		"worm 🪱",
 		"zombie 🧟"
 	],
-	"Total fish not seen": 79,
+	"Total fish not seen": 75,
 	"Some info": [
 		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
 		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
@@ -1546,5 +1787,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

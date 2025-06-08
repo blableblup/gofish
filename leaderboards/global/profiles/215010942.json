@@ -386,7 +386,10 @@
 				"Weight in lbs": 1.72,
 				"Catchtype": "Normal",
 				"Date": "2024-09-25 02:20:04 UTC",
-				"Chat": "omie"
+				"Chat": "omie",
+				"Record": [
+					"🥇 First ever 🎱 8ball caught in channel omie !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🎱 8ball",
@@ -490,7 +493,10 @@
 				"Weight in lbs": 10.75,
 				"Catchtype": "Hatched egg",
 				"Date": "2024-12-19 22:23:58 UTC",
-				"Chat": "omie"
+				"Chat": "omie",
+				"Record": [
+					"🥇 First ever 🐦 bird caught in channel omie !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐦 bird",
@@ -948,7 +954,10 @@
 				"Weight in lbs": 5.58,
 				"Catchtype": "Normal",
 				"Date": "2024-09-30 12:01:28 UTC",
-				"Chat": "omie"
+				"Chat": "omie",
+				"Record": [
+					"🥇 First ever 🪹 emptynest caught in channel omie !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🪹 emptynest",
@@ -1165,7 +1174,10 @@
 				"Weight in lbs": 0.1,
 				"Catchtype": "Normal",
 				"Date": "2024-09-27 12:43:19 UTC",
-				"Chat": "omie"
+				"Chat": "omie",
+				"Record": [
+					"🥇 First ever 📱 iphone caught in channel omie !"
+				]
 			},
 			"Last catch": {
 				"Fish": "📱 iphone",
@@ -1330,7 +1342,10 @@
 				"Weight in lbs": 1.63,
 				"Catchtype": "Normal",
 				"Date": "2024-09-28 01:56:09 UTC",
-				"Chat": "omie"
+				"Chat": "omie",
+				"Record": [
+					"🥇 First ever 🪺 nestwitheggs caught in channel omie !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🪺 nestwitheggs",
@@ -1492,7 +1507,10 @@
 				"Weight in lbs": 1.02,
 				"Catchtype": "Normal",
 				"Date": "2024-08-06 10:53:33 UTC",
-				"Chat": "omie"
+				"Chat": "omie",
+				"Record": [
+					"🥇 First ever 🪨 rock caught in channel omie !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🪨 rock",
@@ -2224,5 +2242,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

@@ -21,7 +21,7 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 739,
+		"Total": 740,
 		"Per chat": {
 			"breadworms": 552,
 			"d_egree": 1,
@@ -29,7 +29,7 @@
 			"julialuxel": 76,
 			"psp1g": 6,
 			"swormbeard": 4,
-			"vaiastol": 96,
+			"vaiastol": 97,
 			"wuh6": 1
 		}
 	},
@@ -54,12 +54,12 @@
 			}
 		},
 		"2025": {
-			"Total": 111,
+			"Total": 112,
 			"Per chat": {
 				"breadworms": 59,
 				"julialuxel": 13,
 				"swormbeard": 2,
-				"vaiastol": 36,
+				"vaiastol": 37,
 				"wuh6": 1
 			}
 		}
@@ -72,7 +72,7 @@
 			}
 		},
 		"Normal": {
-			"Total": 712,
+			"Total": 713,
 			"Per chat": {
 				"breadworms": 533,
 				"d_egree": 1,
@@ -80,7 +80,7 @@
 				"julialuxel": 73,
 				"psp1g": 6,
 				"swormbeard": 4,
-				"vaiastol": 91,
+				"vaiastol": 92,
 				"wuh6": 1
 			}
 		},
@@ -201,10 +201,10 @@
 			"Chat": "swormbeard"
 		},
 		"vaiastol": {
-			"Fish": "🐙 octopus",
-			"Weight in lbs": 85.54,
+			"Fish": "🐡 blowfish",
+			"Weight in lbs": 23.9,
 			"Catchtype": "Normal",
-			"Date": "2025-05-08 21:14:43 UTC",
+			"Date": "2025-06-03 03:59:35 UTC",
 			"Chat": "vaiastol"
 		},
 		"wuh6": {
@@ -347,6 +347,13 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "🐡 blowfish",
+			"Weight in lbs": 23.9,
+			"Catchtype": "Normal",
+			"Date": "2025-06-03 03:59:35 UTC",
+			"Chat": "vaiastol"
+		},
+		{
 			"Fish": "🐙 octopus",
 			"Weight in lbs": 85.54,
 			"Catchtype": "Normal",
@@ -407,13 +414,6 @@
 			"Weight in lbs": 5.98,
 			"Catchtype": "Normal",
 			"Date": "2025-04-28 02:18:09 UTC",
-			"Chat": "breadworms"
-		},
-		{
-			"Fish": "🐍 snake",
-			"Weight in lbs": 5.99,
-			"Catchtype": "Normal",
-			"Date": "2025-04-24 03:07:17 UTC",
 			"Chat": "breadworms"
 		}
 	],
@@ -524,7 +524,7 @@
 			"julialuxel": 33,
 			"psp1g": 4,
 			"swormbeard": 4,
-			"vaiastol": 31,
+			"vaiastol": 32,
 			"wuh6": 1
 		}
 	},
@@ -933,9 +933,10 @@
 		},
 		"blowfish 🐡": {
 			"Caught in total": {
-				"Total": 9,
+				"Total": 10,
 				"Per chat": {
-					"breadworms": 9
+					"breadworms": 9,
+					"vaiastol": 1
 				}
 			},
 			"Caught per year": {
@@ -950,13 +951,20 @@
 					"Per chat": {
 						"breadworms": 1
 					}
+				},
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"vaiastol": 1
+					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 9,
+					"Total": 10,
 					"Per chat": {
-						"breadworms": 9
+						"breadworms": 9,
+						"vaiastol": 1
 					}
 				}
 			},
@@ -969,17 +977,17 @@
 			},
 			"Last catch": {
 				"Fish": "🐡 blowfish",
-				"Weight in lbs": 7.22,
+				"Weight in lbs": 23.9,
 				"Catchtype": "Normal",
-				"Date": "2024-05-02 14:50:35 UTC",
-				"Chat": "breadworms"
+				"Date": "2025-06-03 03:59:35 UTC",
+				"Chat": "vaiastol"
 			},
 			"Biggest catch": {
 				"Fish": "🐡 blowfish",
-				"Weight in lbs": 23.41,
+				"Weight in lbs": 23.9,
 				"Catchtype": "Normal",
-				"Date": "2023-08-25 03:09:25 UTC",
-				"Chat": "breadworms"
+				"Date": "2025-06-03 03:59:35 UTC",
+				"Chat": "vaiastol"
 			},
 			"Smallest catch": {
 				"Fish": "🐡 blowfish",
@@ -2377,7 +2385,10 @@
 				"Weight in lbs": 8.17,
 				"Catchtype": "Normal",
 				"Date": "2024-01-11 13:42:35 UTC",
-				"Chat": "julialuxel"
+				"Chat": "julialuxel",
+				"Record": [
+					"🥇 First ever 🧊 icecube caught in channel julialuxel !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🧊 icecube",
@@ -3085,7 +3096,10 @@
 				"Weight in lbs": 24.33,
 				"Catchtype": "Normal",
 				"Date": "2024-12-26 01:45:22 UTC",
-				"Chat": "vaiastol"
+				"Chat": "vaiastol",
+				"Record": [
+					"🥇 First ever 🐻‍❄ polarbear caught in channel vaiastol !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐻‍❄ polarbear",
@@ -4892,5 +4906,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

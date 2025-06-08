@@ -10,7 +10,7 @@
 		"🥈 Second biggest fish record in channel breadworms !",
 		"11th place on tournament leaderboard in channel breadworms !",
 		"12th most fish caught globally 🌐 !",
-		"16th most fish seen globally 🌐 !",
+		"17th most fish seen globally 🌐 !",
 		"5th biggest fish record globally 🌐 !",
 		"6th most fish caught in channel julialuxel !",
 		"7th biggest fish record in channel julialuxel !",
@@ -665,7 +665,11 @@
 				"Weight in lbs": 0.92,
 				"Catchtype": "Normal",
 				"Date": "2023-02-04 21:56:01 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 👟 athleticshoe caught in channel breadworms !",
+					"🥇 First ever 👟 athleticshoe caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "👟 athleticshoe",
@@ -1441,7 +1445,11 @@
 				"Weight in lbs": 0.77,
 				"Catchtype": "Normal",
 				"Date": "2023-06-25 11:03:12 UTC",
-				"Chat": "breadworms"
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🥫 cannedfood caught in channel breadworms !",
+					"🥇 First ever 🥫 cannedfood caught globally 🌐 !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🥫 cannedfood",
@@ -3140,7 +3148,10 @@
 				"Weight in lbs": 22.03,
 				"Catchtype": "Normal",
 				"Date": "2025-05-06 17:17:48 UTC",
-				"Chat": "vaiastol"
+				"Chat": "vaiastol",
+				"Record": [
+					"🥇 First ever 🫎 moose caught in channel vaiastol !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🫎 moose",
@@ -5659,5 +5670,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

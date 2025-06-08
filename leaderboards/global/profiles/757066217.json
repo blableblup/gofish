@@ -283,7 +283,10 @@
 				"Weight in lbs": 23.57,
 				"Catchtype": "Normal",
 				"Date": "2024-10-16 12:00:16 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 First ever 🐡 blowfish caught in channel yopego !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐡 blowfish",
@@ -390,7 +393,10 @@
 				"Weight in lbs": 5.43,
 				"Catchtype": "Normal",
 				"Date": "2024-10-07 19:21:27 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 First ever 🦀 crab caught in channel yopego !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🦀 crab",
@@ -448,7 +454,10 @@
 				"Weight in lbs": 37.62,
 				"Catchtype": "Normal",
 				"Date": "2024-10-15 23:13:49 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 First ever 🗡️ dagger caught in channel yopego !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🗡️ dagger",
@@ -610,7 +619,10 @@
 				"Weight in lbs": 1.8,
 				"Catchtype": "Normal",
 				"Date": "2024-10-15 22:06:13 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 First ever 🎏 lure caught in channel yopego !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🎏 lure",
@@ -665,7 +677,10 @@
 				"Weight in lbs": 33.68,
 				"Catchtype": "Normal",
 				"Date": "2024-10-20 20:39:44 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 First ever 🪨 rock caught in channel yopego !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🪨 rock",
@@ -723,7 +738,10 @@
 				"Weight in lbs": 2.77,
 				"Catchtype": "Normal",
 				"Date": "2024-10-07 19:54:09 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 First ever 🐚 shell caught in channel yopego !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐚 shell",
@@ -830,7 +848,10 @@
 				"Weight in lbs": 1.27,
 				"Catchtype": "Normal",
 				"Date": "2024-10-15 19:47:50 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 First ever 💀 skull caught in channel yopego !"
+				]
 			},
 			"Last catch": {
 				"Fish": "💀 skull",
@@ -940,7 +961,10 @@
 				"Weight in lbs": 0.08,
 				"Catchtype": "Normal",
 				"Date": "2024-10-17 22:12:49 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 First ever 🐍 snake caught in channel yopego !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐍 snake",
@@ -995,7 +1019,10 @@
 				"Weight in lbs": 1.53,
 				"Catchtype": "Normal",
 				"Date": "2024-10-16 21:05:11 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 First ever 🧦 socks caught in channel yopego !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🧦 socks",
@@ -1102,7 +1129,10 @@
 				"Weight in lbs": 16.06,
 				"Catchtype": "Normal",
 				"Date": "2024-10-16 13:47:54 UTC",
-				"Chat": "yopego"
+				"Chat": "yopego",
+				"Record": [
+					"🥇 First ever 🐠 tropicalfish caught in channel yopego !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐠 tropicalfish",
@@ -1276,5 +1306,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

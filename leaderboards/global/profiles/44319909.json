@@ -421,7 +421,10 @@
 				"Weight in lbs": 14.09,
 				"Catchtype": "Normal",
 				"Date": "2023-08-22 12:37:05 UTC",
-				"Chat": "psp1g"
+				"Chat": "psp1g",
+				"Record": [
+					"🥇 First ever 🐡 blowfish caught in channel psp1g !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐡 blowfish",
@@ -746,7 +749,10 @@
 				"Weight in lbs": 79.51,
 				"Catchtype": "Normal",
 				"Date": "2023-08-21 19:47:54 UTC",
-				"Chat": "psp1g"
+				"Chat": "psp1g",
+				"Record": [
+					"🥇 First ever 🐊 crocodile caught in channel psp1g !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐊 crocodile",
@@ -905,7 +911,10 @@
 				"Weight in lbs": 179.78,
 				"Catchtype": "Normal",
 				"Date": "2023-08-23 17:54:02 UTC",
-				"Chat": "psp1g"
+				"Chat": "psp1g",
+				"Record": [
+					"🥇 First ever 🐉 dragon caught in channel psp1g !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐉 dragon",
@@ -1992,7 +2001,10 @@
 				"Weight in lbs": 206.99,
 				"Catchtype": "Normal",
 				"Date": "2023-08-22 13:54:02 UTC",
-				"Chat": "psp1g"
+				"Chat": "psp1g",
+				"Record": [
+					"🥇 First ever 🐳 whale caught in channel psp1g !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐳 whale",
@@ -2096,7 +2108,10 @@
 				"Weight in lbs": 9,
 				"Catchtype": "Normal",
 				"Date": "2023-08-24 01:59:04 UTC",
-				"Chat": "psp1g"
+				"Chat": "psp1g",
+				"Record": [
+					"🥇 First ever 👒 womanshat caught in channel psp1g !"
+				]
 			},
 			"Last catch": {
 				"Fish": "👒 womanshat",
@@ -2198,5 +2213,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

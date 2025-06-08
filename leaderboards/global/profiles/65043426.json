@@ -7,9 +7,9 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 80,
+		"Total": 81,
 		"Per chat": {
-			"psp1g": 80
+			"psp1g": 81
 		}
 	},
 	"Fish caught per year": {
@@ -26,17 +26,17 @@
 			}
 		},
 		"2025": {
-			"Total": 5,
+			"Total": 6,
 			"Per chat": {
-				"psp1g": 5
+				"psp1g": 6
 			}
 		}
 	},
 	"Fish caught per catchtype": {
 		"Normal": {
-			"Total": 77,
+			"Total": 78,
 			"Per chat": {
-				"psp1g": 77
+				"psp1g": 78
 			}
 		},
 		"Release bonus": {
@@ -57,10 +57,10 @@
 	},
 	"Their last fish per chat": {
 		"psp1g": {
-			"Fish": "🐍 snake",
-			"Weight in lbs": 5.05,
+			"Fish": "🪝 hook",
+			"Weight in lbs": 3.82,
 			"Catchtype": "Normal",
-			"Date": "2025-05-25 14:01:55 UTC",
+			"Date": "2025-06-01 12:15:46 UTC",
 			"Chat": "psp1g"
 		}
 	},
@@ -147,6 +147,13 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "🪝 hook",
+			"Weight in lbs": 3.82,
+			"Catchtype": "Normal",
+			"Date": "2025-06-01 12:15:46 UTC",
+			"Chat": "psp1g"
+		},
+		{
 			"Fish": "🐍 snake",
 			"Weight in lbs": 5.05,
 			"Catchtype": "Normal",
@@ -207,13 +214,6 @@
 			"Weight in lbs": 100.96,
 			"Catchtype": "Normal",
 			"Date": "2023-11-08 14:06:28 UTC",
-			"Chat": "psp1g"
-		},
-		{
-			"Fish": "🐟 fish",
-			"Weight in lbs": 37.06,
-			"Catchtype": "Normal",
-			"Date": "2023-11-03 12:54:06 UTC",
 			"Chat": "psp1g"
 		}
 	],
@@ -863,9 +863,9 @@
 		},
 		"hook 🪝": {
 			"Caught in total": {
-				"Total": 5,
+				"Total": 6,
 				"Per chat": {
-					"psp1g": 5
+					"psp1g": 6
 				}
 			},
 			"Caught per year": {
@@ -874,13 +874,19 @@
 					"Per chat": {
 						"psp1g": 5
 					}
+				},
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"psp1g": 1
+					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 3,
+					"Total": 4,
 					"Per chat": {
-						"psp1g": 3
+						"psp1g": 4
 					}
 				},
 				"Release bonus": {
@@ -899,16 +905,16 @@
 			},
 			"Last catch": {
 				"Fish": "🪝 hook",
-				"Weight in lbs": 0,
-				"Catchtype": "Release bonus",
-				"Date": "2023-10-23 13:19:21 UTC",
+				"Weight in lbs": 3.82,
+				"Catchtype": "Normal",
+				"Date": "2025-06-01 12:15:46 UTC",
 				"Chat": "psp1g"
 			},
 			"Biggest catch": {
 				"Fish": "🪝 hook",
-				"Weight in lbs": 2.97,
+				"Weight in lbs": 3.82,
 				"Catchtype": "Normal",
-				"Date": "2023-09-22 10:28:44 UTC",
+				"Date": "2025-06-01 12:15:46 UTC",
 				"Chat": "psp1g"
 			},
 			"Smallest catch": {
@@ -2006,5 +2012,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

@@ -11,24 +11,24 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 44,
+		"Total": 45,
 		"Per chat": {
-			"vaiastol": 44
+			"vaiastol": 45
 		}
 	},
 	"Fish caught per year": {
 		"2025": {
-			"Total": 44,
+			"Total": 45,
 			"Per chat": {
-				"vaiastol": 44
+				"vaiastol": 45
 			}
 		}
 	},
 	"Fish caught per catchtype": {
 		"Normal": {
-			"Total": 44,
+			"Total": 45,
 			"Per chat": {
-				"vaiastol": 44
+				"vaiastol": 45
 			}
 		}
 	},
@@ -43,10 +43,10 @@
 	},
 	"Their last fish per chat": {
 		"vaiastol": {
-			"Fish": "🩴 thongsandal",
-			"Weight in lbs": 0.97,
+			"Fish": "🐍 snake",
+			"Weight in lbs": 18.71,
 			"Catchtype": "Normal",
-			"Date": "2025-05-28 19:15:36 UTC",
+			"Date": "2025-06-06 06:43:52 UTC",
 			"Chat": "vaiastol"
 		}
 	},
@@ -133,6 +133,13 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "🐍 snake",
+			"Weight in lbs": 18.71,
+			"Catchtype": "Normal",
+			"Date": "2025-06-06 06:43:52 UTC",
+			"Chat": "vaiastol"
+		},
+		{
 			"Fish": "🩴 thongsandal",
 			"Weight in lbs": 0.97,
 			"Catchtype": "Normal",
@@ -193,13 +200,6 @@
 			"Weight in lbs": 9.59,
 			"Catchtype": "Normal",
 			"Date": "2025-04-08 04:16:48 UTC",
-			"Chat": "vaiastol"
-		},
-		{
-			"Fish": "🐟 fish",
-			"Weight in lbs": 0.13,
-			"Catchtype": "Normal",
-			"Date": "2025-04-07 22:57:47 UTC",
 			"Chat": "vaiastol"
 		}
 	],
@@ -1096,24 +1096,24 @@
 		},
 		"snake 🐍": {
 			"Caught in total": {
-				"Total": 1,
+				"Total": 2,
 				"Per chat": {
-					"vaiastol": 1
+					"vaiastol": 2
 				}
 			},
 			"Caught per year": {
 				"2025": {
-					"Total": 1,
+					"Total": 2,
 					"Per chat": {
-						"vaiastol": 1
+						"vaiastol": 2
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 1,
+					"Total": 2,
 					"Per chat": {
-						"vaiastol": 1
+						"vaiastol": 2
 					}
 				}
 			},
@@ -1126,16 +1126,16 @@
 			},
 			"Last catch": {
 				"Fish": "🐍 snake",
-				"Weight in lbs": 1.37,
+				"Weight in lbs": 18.71,
 				"Catchtype": "Normal",
-				"Date": "2025-03-05 16:16:52 UTC",
+				"Date": "2025-06-06 06:43:52 UTC",
 				"Chat": "vaiastol"
 			},
 			"Biggest catch": {
 				"Fish": "🐍 snake",
-				"Weight in lbs": 1.37,
+				"Weight in lbs": 18.71,
 				"Catchtype": "Normal",
-				"Date": "2025-03-05 16:16:52 UTC",
+				"Date": "2025-06-06 06:43:52 UTC",
 				"Chat": "vaiastol"
 			},
 			"Smallest catch": {
@@ -1445,5 +1445,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

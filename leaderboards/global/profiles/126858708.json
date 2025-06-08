@@ -11,9 +11,9 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 57,
+		"Total": 58,
 		"Per chat": {
-			"coolishdanker": 50,
+			"coolishdanker": 51,
 			"dizzy": 7
 		}
 	},
@@ -25,18 +25,18 @@
 			}
 		},
 		"2025": {
-			"Total": 52,
+			"Total": 53,
 			"Per chat": {
-				"coolishdanker": 50,
+				"coolishdanker": 51,
 				"dizzy": 2
 			}
 		}
 	},
 	"Fish caught per catchtype": {
 		"Normal": {
-			"Total": 57,
+			"Total": 58,
 			"Per chat": {
-				"coolishdanker": 50,
+				"coolishdanker": 51,
 				"dizzy": 7
 			}
 		}
@@ -59,10 +59,10 @@
 	},
 	"Their last fish per chat": {
 		"coolishdanker": {
-			"Fish": "🦪 oyster",
-			"Weight in lbs": 28.17,
+			"Fish": "🐟 fish",
+			"Weight in lbs": 13.19,
 			"Catchtype": "Normal",
-			"Date": "2025-03-22 07:37:59 UTC",
+			"Date": "2025-06-01 13:32:20 UTC",
 			"Chat": "coolishdanker"
 		},
 		"dizzy": {
@@ -164,6 +164,13 @@
 	"Their overall last fish": [
 		{
 			"Fish": "🐟 fish",
+			"Weight in lbs": 13.19,
+			"Catchtype": "Normal",
+			"Date": "2025-06-01 13:32:20 UTC",
+			"Chat": "coolishdanker"
+		},
+		{
+			"Fish": "🐟 fish",
 			"Weight in lbs": 12.2,
 			"Catchtype": "Normal",
 			"Date": "2025-05-29 11:46:47 UTC",
@@ -223,13 +230,6 @@
 			"Weight in lbs": 48.06,
 			"Catchtype": "Normal",
 			"Date": "2025-02-15 21:26:01 UTC",
-			"Chat": "coolishdanker"
-		},
-		{
-			"Fish": "🪳 cockroach",
-			"Weight in lbs": 6.71,
-			"Catchtype": "Normal",
-			"Date": "2025-02-06 07:40:56 UTC",
 			"Chat": "coolishdanker"
 		}
 	],
@@ -528,7 +528,10 @@
 				"Weight in lbs": 2.83,
 				"Catchtype": "Normal",
 				"Date": "2025-01-10 23:37:36 UTC",
-				"Chat": "coolishdanker"
+				"Chat": "coolishdanker",
+				"Record": [
+					"🥇 First ever 🦀 crab caught in channel coolishdanker !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🦀 crab",
@@ -658,9 +661,9 @@
 		},
 		"fish 🐟": {
 			"Caught in total": {
-				"Total": 5,
+				"Total": 6,
 				"Per chat": {
-					"coolishdanker": 3,
+					"coolishdanker": 4,
 					"dizzy": 2
 				}
 			},
@@ -672,18 +675,18 @@
 					}
 				},
 				"2025": {
-					"Total": 4,
+					"Total": 5,
 					"Per chat": {
-						"coolishdanker": 3,
+						"coolishdanker": 4,
 						"dizzy": 1
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 5,
+					"Total": 6,
 					"Per chat": {
-						"coolishdanker": 3,
+						"coolishdanker": 4,
 						"dizzy": 2
 					}
 				}
@@ -697,10 +700,10 @@
 			},
 			"Last catch": {
 				"Fish": "🐟 fish",
-				"Weight in lbs": 12.2,
+				"Weight in lbs": 13.19,
 				"Catchtype": "Normal",
-				"Date": "2025-05-29 11:46:47 UTC",
-				"Chat": "dizzy"
+				"Date": "2025-06-01 13:32:20 UTC",
+				"Chat": "coolishdanker"
 			},
 			"Biggest catch": {
 				"Fish": "🐟 fish",
@@ -745,7 +748,10 @@
 				"Weight in lbs": 1.79,
 				"Catchtype": "Normal",
 				"Date": "2025-01-09 21:16:43 UTC",
-				"Chat": "coolishdanker"
+				"Chat": "coolishdanker",
+				"Record": [
+					"🥇 First ever 🐸 frog caught in channel coolishdanker !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐸 frog",
@@ -1126,7 +1132,10 @@
 				"Weight in lbs": 15.31,
 				"Catchtype": "Normal",
 				"Date": "2025-01-09 22:21:18 UTC",
-				"Chat": "coolishdanker"
+				"Chat": "coolishdanker",
+				"Record": [
+					"🥇 First ever 🦦 otter caught in channel coolishdanker !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🦦 otter",
@@ -1181,7 +1190,10 @@
 				"Weight in lbs": 4.7,
 				"Catchtype": "Normal",
 				"Date": "2025-01-14 01:00:43 UTC",
-				"Chat": "coolishdanker"
+				"Chat": "coolishdanker",
+				"Record": [
+					"🥇 First ever 🦪 oyster caught in channel coolishdanker !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🦪 oyster",
@@ -1233,7 +1245,10 @@
 				"Weight in lbs": 108.4,
 				"Catchtype": "Normal",
 				"Date": "2025-01-10 07:58:40 UTC",
-				"Chat": "coolishdanker"
+				"Chat": "coolishdanker",
+				"Record": [
+					"🥇 First ever 🦭 seal caught in channel coolishdanker !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🦭 seal",
@@ -1502,7 +1517,10 @@
 				"Weight in lbs": 24.23,
 				"Catchtype": "Normal",
 				"Date": "2025-01-13 04:27:26 UTC",
-				"Chat": "coolishdanker"
+				"Chat": "coolishdanker",
+				"Record": [
+					"🥇 First ever 🐢 turtle caught in channel coolishdanker !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐢 turtle",
@@ -1554,7 +1572,10 @@
 				"Weight in lbs": 57.74,
 				"Catchtype": "Normal",
 				"Date": "2025-01-13 06:38:53 UTC",
-				"Chat": "coolishdanker"
+				"Chat": "coolishdanker",
+				"Record": [
+					"🥇 First ever 🐳 whale caught in channel coolishdanker !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐳 whale",
@@ -1609,7 +1630,10 @@
 				"Weight in lbs": 91.8,
 				"Catchtype": "Normal",
 				"Date": "2025-01-10 01:46:04 UTC",
-				"Chat": "coolishdanker"
+				"Chat": "coolishdanker",
+				"Record": [
+					"🥇 First ever 🐋 whale2 caught in channel coolishdanker !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐋 whale2",
@@ -1775,5 +1799,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

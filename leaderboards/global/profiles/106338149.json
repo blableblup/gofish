@@ -11,24 +11,24 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 56,
+		"Total": 57,
 		"Per chat": {
-			"jellyuh": 56
+			"jellyuh": 57
 		}
 	},
 	"Fish caught per year": {
 		"2025": {
-			"Total": 56,
+			"Total": 57,
 			"Per chat": {
-				"jellyuh": 56
+				"jellyuh": 57
 			}
 		}
 	},
 	"Fish caught per catchtype": {
 		"Normal": {
-			"Total": 56,
+			"Total": 57,
 			"Per chat": {
-				"jellyuh": 56
+				"jellyuh": 57
 			}
 		}
 	},
@@ -43,10 +43,10 @@
 	},
 	"Their last fish per chat": {
 		"jellyuh": {
-			"Fish": "🎏 lure",
-			"Weight in lbs": 0.43,
+			"Fish": "🐠 tropicalfish",
+			"Weight in lbs": 7.22,
 			"Catchtype": "Normal",
-			"Date": "2025-05-21 02:59:48 UTC",
+			"Date": "2025-06-03 04:57:31 UTC",
 			"Chat": "jellyuh"
 		}
 	},
@@ -133,6 +133,13 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "🐠 tropicalfish",
+			"Weight in lbs": 7.22,
+			"Catchtype": "Normal",
+			"Date": "2025-06-03 04:57:31 UTC",
+			"Chat": "jellyuh"
+		},
+		{
 			"Fish": "🎏 lure",
 			"Weight in lbs": 0.43,
 			"Catchtype": "Normal",
@@ -193,13 +200,6 @@
 			"Weight in lbs": 8.37,
 			"Catchtype": "Normal",
 			"Date": "2025-05-04 08:44:48 UTC",
-			"Chat": "jellyuh"
-		},
-		{
-			"Fish": "🐡 blowfish",
-			"Weight in lbs": 17.27,
-			"Catchtype": "Normal",
-			"Date": "2025-05-04 07:28:21 UTC",
 			"Chat": "jellyuh"
 		}
 	],
@@ -262,9 +262,9 @@
 		"🪸": 1
 	},
 	"Fish seen in total": {
-		"Total": 21,
+		"Total": 22,
 		"Per chat": {
-			"jellyuh": 21
+			"jellyuh": 22
 		}
 	},
 	"Data about each of their seen fish": {
@@ -1271,6 +1271,58 @@
 				"Chat": "jellyuh"
 			}
 		},
+		"tropicalfish 🐠": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"jellyuh": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"jellyuh": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🐠 tropicalfish",
+				"Weight in lbs": 7.22,
+				"Catchtype": "Normal",
+				"Date": "2025-06-03 04:57:31 UTC",
+				"Chat": "jellyuh"
+			},
+			"Last catch": {
+				"Fish": "🐠 tropicalfish",
+				"Weight in lbs": 7.22,
+				"Catchtype": "Normal",
+				"Date": "2025-06-03 04:57:31 UTC",
+				"Chat": "jellyuh"
+			},
+			"Biggest catch": {
+				"Fish": "🐠 tropicalfish",
+				"Weight in lbs": 7.22,
+				"Catchtype": "Normal",
+				"Date": "2025-06-03 04:57:31 UTC",
+				"Chat": "jellyuh"
+			},
+			"Smallest catch": {
+				"Fish": "🐠 tropicalfish",
+				"Weight in lbs": 7.22,
+				"Catchtype": "Normal",
+				"Date": "2025-06-03 04:57:31 UTC",
+				"Chat": "jellyuh"
+			}
+		},
 		"whale 🐳": {
 			"Caught in total": {
 				"Total": 2,
@@ -1447,7 +1499,6 @@
 		"swan 🦢",
 		"teddybear 🧸",
 		"thongsandal 🩴",
-		"tropicalfish 🐠",
 		"tulip 🌷",
 		"turtle 🐢",
 		"umbrella ☂️",
@@ -1457,7 +1508,7 @@
 		"worm 🪱",
 		"zombie 🧟"
 	],
-	"Total fish not seen": 79,
+	"Total fish not seen": 78,
 	"Some info": [
 		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
 		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
@@ -1466,5 +1517,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

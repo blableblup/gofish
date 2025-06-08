@@ -12,9 +12,9 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 296,
+		"Total": 297,
 		"Per chat": {
-			"dizzy": 296
+			"dizzy": 297
 		}
 	},
 	"Fish caught per year": {
@@ -25,9 +25,9 @@
 			}
 		},
 		"2025": {
-			"Total": 110,
+			"Total": 111,
 			"Per chat": {
-				"dizzy": 110
+				"dizzy": 111
 			}
 		}
 	},
@@ -39,9 +39,9 @@
 			}
 		},
 		"Normal": {
-			"Total": 288,
+			"Total": 289,
 			"Per chat": {
-				"dizzy": 288
+				"dizzy": 289
 			}
 		},
 		"Release bonus": {
@@ -62,10 +62,10 @@
 	},
 	"Their last fish per chat": {
 		"dizzy": {
-			"Fish": "🦐 shrimp",
-			"Weight in lbs": 0.95,
+			"Fish": "🐸 frog",
+			"Weight in lbs": 2.53,
 			"Catchtype": "Normal",
-			"Date": "2025-05-31 21:46:12 UTC",
+			"Date": "2025-06-06 22:14:18 UTC",
 			"Chat": "dizzy"
 		}
 	},
@@ -152,6 +152,13 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "🐸 frog",
+			"Weight in lbs": 2.53,
+			"Catchtype": "Normal",
+			"Date": "2025-06-06 22:14:18 UTC",
+			"Chat": "dizzy"
+		},
+		{
 			"Fish": "🦐 shrimp",
 			"Weight in lbs": 0.95,
 			"Catchtype": "Normal",
@@ -213,13 +220,6 @@
 			"Catchtype": "Normal",
 			"Date": "2025-05-17 19:28:50 UTC",
 			"Chat": "dizzy"
-		},
-		{
-			"Fish": "🐢 turtle",
-			"Weight in lbs": 12.56,
-			"Catchtype": "Normal",
-			"Date": "2025-05-16 08:55:59 UTC",
-			"Chat": "dizzy"
 		}
 	],
 	"Their last seen bag": {
@@ -269,7 +269,6 @@
 			"🐳",
 			"🧊",
 			"🐻‍❄️",
-			"🪀",
 			"🐉",
 			"🦪",
 			"🦪",
@@ -291,12 +290,10 @@
 			"🐸",
 			"🐸",
 			"🐌",
-			"🐟",
 			"🐸",
 			"🐌",
 			"🌷",
 			"🌷",
-			"🐟",
 			"🐌",
 			"🌷",
 			"🐌",
@@ -315,17 +312,15 @@
 			"🐌",
 			"🐌",
 			"🐸",
-			"🦐",
 			"🐌",
 			"🐢",
-			"🦐",
-			"🐟",
-			"🦐",
 			"☘️",
 			"🐍",
-			"🐟"
+			"🐍",
+			"🐢",
+			"🦐"
 		],
-		"Date": "2025-05-23 11:55:15 UTC",
+		"Date": "2025-06-06 01:08:25 UTC",
 		"Chat": "dizzy"
 	},
 	"Count of each item in that bag": {
@@ -339,13 +334,12 @@
 		"🐊": 1,
 		"🐋": 2,
 		"🐌": 7,
-		"🐍": 2,
+		"🐍": 3,
 		"🐙": 2,
 		"🐚": 2,
-		"🐟": 4,
 		"🐠": 1,
 		"🐡": 1,
-		"🐢": 1,
+		"🐢": 2,
 		"🐦": 1,
 		"🐬": 5,
 		"🐳": 2,
@@ -357,7 +351,7 @@
 		"🔔": 1,
 		"🥪": 1,
 		"🦎": 2,
-		"🦐": 3,
+		"🦐": 1,
 		"🦑": 3,
 		"🦕": 2,
 		"🦞": 2,
@@ -369,7 +363,6 @@
 		"🧟": 1,
 		"🧭": 1,
 		"🧸": 2,
-		"🪀": 1,
 		"🪸": 4
 	},
 	"Fish seen in total": {
@@ -1209,9 +1202,9 @@
 		},
 		"frog 🐸": {
 			"Caught in total": {
-				"Total": 18,
+				"Total": 19,
 				"Per chat": {
-					"dizzy": 18
+					"dizzy": 19
 				}
 			},
 			"Caught per year": {
@@ -1222,17 +1215,17 @@
 					}
 				},
 				"2025": {
-					"Total": 10,
+					"Total": 11,
 					"Per chat": {
-						"dizzy": 10
+						"dizzy": 11
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 18,
+					"Total": 19,
 					"Per chat": {
-						"dizzy": 18
+						"dizzy": 19
 					}
 				}
 			},
@@ -1245,9 +1238,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐸 frog",
-				"Weight in lbs": 1.12,
+				"Weight in lbs": 2.53,
 				"Catchtype": "Normal",
-				"Date": "2025-05-13 14:02:32 UTC",
+				"Date": "2025-06-06 22:14:18 UTC",
 				"Chat": "dizzy"
 			},
 			"Biggest catch": {
@@ -3197,5 +3190,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

@@ -7,9 +7,9 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 560,
+		"Total": 562,
 		"Per chat": {
-			"breadworms": 560
+			"breadworms": 562
 		}
 	},
 	"Fish caught per year": {
@@ -20,9 +20,9 @@
 			}
 		},
 		"2025": {
-			"Total": 168,
+			"Total": 170,
 			"Per chat": {
-				"breadworms": 168
+				"breadworms": 170
 			}
 		}
 	},
@@ -34,9 +34,9 @@
 			}
 		},
 		"Normal": {
-			"Total": 536,
+			"Total": 538,
 			"Per chat": {
-				"breadworms": 536
+				"breadworms": 538
 			}
 		},
 		"Release bonus": {
@@ -57,10 +57,10 @@
 	},
 	"Their last fish per chat": {
 		"breadworms": {
-			"Fish": "🧟 zombie",
-			"Weight in lbs": 81.82,
+			"Fish": "🦞 lobster",
+			"Weight in lbs": 39.84,
 			"Catchtype": "Normal",
-			"Date": "2025-05-27 06:16:11 UTC",
+			"Date": "2025-06-04 03:55:42 UTC",
 			"Chat": "breadworms"
 		}
 	},
@@ -147,6 +147,20 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "🦞 lobster",
+			"Weight in lbs": 39.84,
+			"Catchtype": "Normal",
+			"Date": "2025-06-04 03:55:42 UTC",
+			"Chat": "breadworms"
+		},
+		{
+			"Fish": "🐡 blowfish",
+			"Weight in lbs": 1.64,
+			"Catchtype": "Normal",
+			"Date": "2025-06-03 06:34:08 UTC",
+			"Chat": "breadworms"
+		},
+		{
 			"Fish": "🧟 zombie",
 			"Weight in lbs": 81.82,
 			"Catchtype": "Normal",
@@ -201,20 +215,6 @@
 			"Catchtype": "Normal",
 			"Date": "2025-05-14 23:08:40 UTC",
 			"Chat": "breadworms"
-		},
-		{
-			"Fish": "🌿 seaweed",
-			"Weight in lbs": 0.6,
-			"Catchtype": "Normal",
-			"Date": "2025-05-14 21:58:04 UTC",
-			"Chat": "breadworms"
-		},
-		{
-			"Fish": "🐟 fish",
-			"Weight in lbs": 1.49,
-			"Catchtype": "Normal",
-			"Date": "2025-05-14 08:11:39 UTC",
-			"Chat": "breadworms"
 		}
 	],
 	"Their last seen bag": {
@@ -229,16 +229,18 @@
 			"🦕",
 			"🐉",
 			"🪝",
-			"🎏"
+			"🐡",
+			"🦞"
 		],
-		"Date": "2025-05-25 08:00:25 UTC",
+		"Date": "2025-06-04 05:49:45 UTC",
 		"Chat": "breadworms"
 	},
 	"Count of each item in that bag": {
-		"🎏": 1,
 		"🐉": 2,
+		"🐡": 1,
 		"📑": 1,
 		"🦕": 6,
+		"🦞": 1,
 		"🪝": 1
 	},
 	"Fish seen in total": {
@@ -409,9 +411,9 @@
 		},
 		"blowfish 🐡": {
 			"Caught in total": {
-				"Total": 7,
+				"Total": 8,
 				"Per chat": {
-					"breadworms": 7
+					"breadworms": 8
 				}
 			},
 			"Caught per year": {
@@ -422,17 +424,17 @@
 					}
 				},
 				"2025": {
-					"Total": 3,
+					"Total": 4,
 					"Per chat": {
-						"breadworms": 3
+						"breadworms": 4
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 7,
+					"Total": 8,
 					"Per chat": {
-						"breadworms": 7
+						"breadworms": 8
 					}
 				}
 			},
@@ -445,9 +447,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐡 blowfish",
-				"Weight in lbs": 19.28,
+				"Weight in lbs": 1.64,
 				"Catchtype": "Normal",
-				"Date": "2025-05-06 23:50:06 UTC",
+				"Date": "2025-06-03 06:34:08 UTC",
 				"Chat": "breadworms"
 			},
 			"Biggest catch": {
@@ -1479,9 +1481,9 @@
 		},
 		"lobster 🦞": {
 			"Caught in total": {
-				"Total": 9,
+				"Total": 10,
 				"Per chat": {
-					"breadworms": 9
+					"breadworms": 10
 				}
 			},
 			"Caught per year": {
@@ -1492,17 +1494,17 @@
 					}
 				},
 				"2025": {
-					"Total": 4,
+					"Total": 5,
 					"Per chat": {
-						"breadworms": 4
+						"breadworms": 5
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 9,
+					"Total": 10,
 					"Per chat": {
-						"breadworms": 9
+						"breadworms": 10
 					}
 				}
 			},
@@ -1515,9 +1517,9 @@
 			},
 			"Last catch": {
 				"Fish": "🦞 lobster",
-				"Weight in lbs": 34.96,
+				"Weight in lbs": 39.84,
 				"Catchtype": "Normal",
-				"Date": "2025-04-01 10:35:17 UTC",
+				"Date": "2025-06-04 03:55:42 UTC",
 				"Chat": "breadworms"
 			},
 			"Biggest catch": {
@@ -3461,5 +3463,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

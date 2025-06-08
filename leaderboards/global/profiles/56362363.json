@@ -3,7 +3,7 @@
 	"Progress": null,
 	"Records": [
 		"20th most fish caught in channel breadworms !",
-		"18th biggest fish record in channel breadworms !",
+		"19th biggest fish record in channel breadworms !",
 		"19th place on tournament leaderboard in channel breadworms !",
 		"5th most fish caught in channel julialuxel !",
 		"10th biggest fish record in channel julialuxel !"
@@ -2044,7 +2044,10 @@
 				"Weight in lbs": 12.93,
 				"Catchtype": "Normal",
 				"Date": "2023-12-25 23:00:20 UTC",
-				"Chat": "julialuxel"
+				"Chat": "julialuxel",
+				"Record": [
+					"🥇 First ever 🍄 mushroom caught in channel julialuxel !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🍄 mushroom",
@@ -2385,7 +2388,10 @@
 				"Weight in lbs": 8.47,
 				"Catchtype": "Normal",
 				"Date": "2023-12-28 19:01:10 UTC",
-				"Chat": "julialuxel"
+				"Chat": "julialuxel",
+				"Record": [
+					"🥇 First ever 🦠 plankton caught in channel julialuxel !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🦠 plankton",
@@ -2724,7 +2730,10 @@
 				"Weight in lbs": 53.14,
 				"Catchtype": "Normal",
 				"Date": "2023-12-28 17:37:42 UTC",
-				"Chat": "julialuxel"
+				"Chat": "julialuxel",
+				"Record": [
+					"🥇 First ever 🦭 seal caught in channel julialuxel !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🦭 seal",
@@ -4048,5 +4057,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }

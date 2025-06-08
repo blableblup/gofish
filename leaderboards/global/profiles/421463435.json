@@ -362,7 +362,10 @@
 				"Weight in lbs": 8.75,
 				"Catchtype": "Normal",
 				"Date": "2024-07-30 17:36:07 UTC",
-				"Chat": "ovrht"
+				"Chat": "ovrht",
+				"Record": [
+					"🥇 First ever 🩲 briefs caught in channel ovrht !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🩲 briefs",
@@ -785,7 +788,10 @@
 				"Weight in lbs": 0.99,
 				"Catchtype": "Normal",
 				"Date": "2023-10-11 16:57:38 UTC",
-				"Chat": "ovrht"
+				"Chat": "ovrht",
+				"Record": [
+					"🥇 First ever 🐸 frog caught in channel ovrht !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐸 frog",
@@ -901,7 +907,10 @@
 				"Weight in lbs": 6.55,
 				"Catchtype": "Normal",
 				"Date": "2024-01-08 16:21:33 UTC",
-				"Chat": "ovrht"
+				"Chat": "ovrht",
+				"Record": [
+					"🥇 First ever 🧊 icecube caught in channel ovrht !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🧊 icecube",
@@ -959,7 +968,10 @@
 				"Weight in lbs": 0.41,
 				"Catchtype": "Normal",
 				"Date": "2024-06-19 21:46:38 UTC",
-				"Chat": "ovrht"
+				"Chat": "ovrht",
+				"Record": [
+					"🥇 First ever 🪼 jellyfish caught in channel ovrht !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🪼 jellyfish",
@@ -1121,7 +1133,10 @@
 				"Weight in lbs": 87.89,
 				"Catchtype": "Normal",
 				"Date": "2023-10-15 07:05:23 UTC",
-				"Chat": "ovrht"
+				"Chat": "ovrht",
+				"Record": [
+					"🥇 First ever 🐙 octopus caught in channel ovrht !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🐙 octopus",
@@ -1332,7 +1347,10 @@
 				"Weight in lbs": 120.41,
 				"Catchtype": "Normal",
 				"Date": "2024-01-05 21:04:10 UTC",
-				"Chat": "ovrht"
+				"Chat": "ovrht",
+				"Record": [
+					"🥇 First ever 🦭 seal caught in channel ovrht !"
+				]
 			},
 			"Last catch": {
 				"Fish": "🦭 seal",
@@ -1859,5 +1877,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-05 13:10:56 UTC"
+	"Profile last updated at": "2025-06-08 09:57:27 UTC"
 }
