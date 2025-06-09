@@ -15,7 +15,6 @@ func processType(params LeaderboardParams) {
 	boardInfo := params.BoardInfo
 	chatName := params.ChatName
 	global := params.Global
-	title := params.Title
 	path := params.Path
 	mode := params.Mode
 
@@ -69,7 +68,9 @@ func processType(params LeaderboardParams) {
 		return
 	}
 
-	if title == "" {
+	var title string
+
+	if params.Title == "" {
 		title = boardInfo.GetTitleFunction(params)
 	} else {
 		title = fmt.Sprintf("%s\n", title)

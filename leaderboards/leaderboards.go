@@ -12,15 +12,19 @@ import (
 
 // to store info about a leaderboard and its functions
 type LeaderboardConfig struct {
-	Name             string
-	hasGlobal        bool
-	GlobalOnly       bool
-	Tournament       bool
-	Function         func(LeaderboardParams)
+	Name       string
+	hasGlobal  bool
+	GlobalOnly bool
+	Tournament bool
+
+	Function func(LeaderboardParams)
+
 	GetFunction      func(LeaderboardParams) (map[string]data.FishInfo, error)
+	GetFunctionInt   func(LeaderboardParams, int) (map[int]data.FishInfo, error)
 	GetTitleFunction func(LeaderboardParams) string
 	GetQueryFunction func(LeaderboardParams) string
-	LimitField       string
+	// a map, because some boards need multiple queries
+	GetQueryFunctionMap func(LeaderboardParams) map[string]string
 }
 
 // This is holding the flags (like -title and -path...)
@@ -127,22 +131,31 @@ func Leaderboards(pool *pgxpool.Pool, leaderboards string, chatNames string, dat
 		},
 
 		"fishweek": {
-			hasGlobal:  false,
-			GlobalOnly: false,
-			Tournament: true,
-			Function:   processFishweek,
+			hasGlobal:           false,
+			GlobalOnly:          false,
+			Tournament:          true,
+			Function:            processCount,
+			GetFunctionInt:      getCount,
+			GetTitleFunction:    countBoardTitles,
+			GetQueryFunctionMap: countBoardSql,
 		},
 		"uniquefish": {
-			hasGlobal:  true,
-			GlobalOnly: false,
-			Tournament: false,
-			Function:   processUniqueFish,
+			hasGlobal:           true,
+			GlobalOnly:          false,
+			Tournament:          false,
+			Function:            processCount,
+			GetFunctionInt:      getCount,
+			GetTitleFunction:    countBoardTitles,
+			GetQueryFunctionMap: countBoardSql,
 		},
 		"count": {
-			hasGlobal:  true,
-			GlobalOnly: false,
-			Tournament: false,
-			Function:   processCount,
+			hasGlobal:           true,
+			GlobalOnly:          false,
+			Tournament:          false,
+			Function:            processCount,
+			GetFunctionInt:      getCount,
+			GetTitleFunction:    countBoardTitles,
+			GetQueryFunctionMap: countBoardSql,
 		},
 
 		"typelast": {
