@@ -109,6 +109,26 @@ func getJsonBoardString(filePath string) (map[string]data.FishInfo, error) {
 	return oldBoard, nil
 }
 
+func sortMapStringInt(somemap map[string]int, whattosort string) []string {
+
+	blee := make([]string, 0, len(somemap))
+	for whatever := range somemap {
+		blee = append(blee, whatever)
+	}
+
+	switch whattosort {
+	case "nameasc":
+		sort.SliceStable(blee, func(i, j int) bool { return blee[i] < blee[j] })
+
+	default:
+		logs.Logs().Warn().
+			Str("WhatToSort", whattosort).
+			Msg("idk what to do :(")
+	}
+
+	return blee
+}
+
 func sortMapIntFishInfo(somemap map[int]data.FishInfo, whattosort string) []int {
 
 	blee := make([]int, 0, len(somemap))

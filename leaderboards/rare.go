@@ -7,7 +7,6 @@ import (
 	"gofish/logs"
 	"os"
 	"path/filepath"
-	"sort"
 	"strings"
 	"time"
 )
@@ -248,27 +247,10 @@ func writeRare(filePath string, fishCaught map[string]data.FishInfo, oldCountRec
 
 		_, _ = fmt.Fprintf(file, "| %s %s | %s %s | %s |", ranks, changeEmoji, Emoji, FishName, counts)
 
-		// Turn the map to a slice
-		ChatCountsSlice := make([]struct {
-			chat  string
-			count int
-		}, 0, 2)
+		sortedChatCounts := sortMapStringInt(ChatCounts, "nameasc")
 
-		for k, v := range ChatCounts {
-			ChatCountsSlice = append(ChatCountsSlice, struct {
-				chat  string
-				count int
-			}{k, v})
-		}
-
-		// Sort per-channel counts by channel
-		sort.Slice(ChatCountsSlice, func(i, j int) bool {
-			return ChatCountsSlice[i].chat < ChatCountsSlice[j].chat
-		})
-
-		// Print the count for each chat
-		for _, count := range ChatCountsSlice {
-			_, _ = fmt.Fprintf(file, " %s %d ", count.chat, count.count)
+		for _, chat := range sortedChatCounts {
+			_, _ = fmt.Fprintf(file, " %s %d ", chat, ChatCounts[chat])
 		}
 		_, _ = fmt.Fprint(file, "|")
 
