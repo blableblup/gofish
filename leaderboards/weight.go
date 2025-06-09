@@ -19,17 +19,15 @@ func processWeight(params LeaderboardParams) {
 	chatName := params.ChatName
 	config := params.Config
 	global := params.Global
-	title := params.Title
 	limit := params.Limit
 	chat := params.Chat
 	path := params.Path
 	mode := params.Mode
 
-	var filePath, titleweight string
-	var weightlimit float64
+	var filePath string
 
 	if path == "" {
-		filePath = filepath.Join("leaderboards", chatName, "weight.md")
+		filePath = filepath.Join("leaderboards", chatName, board+".md")
 	} else {
 		if !strings.HasSuffix(path, ".md") {
 			path += ".md"
@@ -46,6 +44,8 @@ func processWeight(params LeaderboardParams) {
 			Msg("Error reading old leaderboard")
 		return
 	}
+
+	var weightlimit float64
 
 	if limit == "" {
 		weightlimit = chat.Weightlimit
@@ -92,21 +92,23 @@ func processWeight(params LeaderboardParams) {
 		return
 	}
 
-	if title == "" {
+	var title string
+
+	if params.Title == "" {
 		if !global {
 			if strings.HasSuffix(chatName, "s") {
-				titleweight = fmt.Sprintf("### Biggest fish caught per player in %s' chat\n", chatName)
+				title = fmt.Sprintf("### Biggest fish caught per player in %s' chat\n", chatName)
 			} else {
-				titleweight = fmt.Sprintf("### Biggest fish caught per player in %s's chat\n", chatName)
+				title = fmt.Sprintf("### Biggest fish caught per player in %s's chat\n", chatName)
 			}
 		} else {
-			titleweight = "### Biggest fish caught per player globally\n"
+			title = "### Biggest fish caught per player globally\n"
 		}
 	} else {
-		titleweight = fmt.Sprintf("%s\n", title)
+		title = fmt.Sprintf("%s\n", title)
 	}
 
-	err = writeWeight(filePath, recordWeight, oldRecordWeight, titleweight, global, board, weightlimit)
+	err = writeWeight(filePath, recordWeight, oldRecordWeight, title, global, board, weightlimit)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Board", board).
@@ -148,7 +150,7 @@ func getWeightRecords(params LeaderboardParams, weightlimit float64) (map[int]da
 	// Query the database to get the biggest fish per player for the specific chat or globally
 	if !global {
 		rows, err = pool.Query(context.Background(), `
-		SELECT f.playerid, f.weight, f.fishname, f.bot, f.chat AS chatname, f.date, f.catchtype, f.fishid, f.chatid,
+		SELECT f.playerid, f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid,
 		RANK() OVER (ORDER BY f.weight DESC)
 		FROM fish f
 		JOIN (
@@ -167,10 +169,9 @@ func getWeightRecords(params LeaderboardParams, weightlimit float64) (map[int]da
 				Msg("Error querying database")
 			return recordWeight, err
 		}
-		defer rows.Close()
 	} else {
 		rows, err = pool.Query(context.Background(), `
-		SELECT f.playerid, f.weight, f.fishname, f.bot, f.chat AS chatname, f.date, f.catchtype, f.fishid, f.chatid,
+		SELECT f.playerid, f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid,
 		RANK() OVER (ORDER BY f.weight DESC)
 		FROM fish f
 		JOIN (
@@ -188,45 +189,35 @@ func getWeightRecords(params LeaderboardParams, weightlimit float64) (map[int]da
 				Msg("Error querying database")
 			return recordWeight, err
 		}
-		defer rows.Close()
 	}
 
-	for rows.Next() {
-		var fishInfo data.FishInfo
+	results, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
+	if err != nil && err != pgx.ErrNoRows {
+		logs.Logs().Error().Err(err).
+			Str("Chat", chatName).
+			Str("Board", board).
+			Msg("Error collecting rows")
+		return recordWeight, err
+	}
 
-		if err := rows.Scan(&fishInfo.PlayerID, &fishInfo.Weight, &fishInfo.TypeName, &fishInfo.Bot,
-			&fishInfo.Chat, &fishInfo.Date, &fishInfo.CatchType, &fishInfo.FishId, &fishInfo.ChatId, &fishInfo.Rank); err != nil {
-			logs.Logs().Error().Err(err).
-				Str("Chat", chatName).
-				Str("Board", board).
-				Msg("Error scanning row for biggest fish")
-			return recordWeight, err
-		}
+	for _, result := range results {
 
-		fishInfo.Player, _, fishInfo.Verified, _, err = PlayerStuff(fishInfo.PlayerID, params, pool)
+		result.Player, _, result.Verified, _, err = PlayerStuff(result.PlayerID, params, pool)
 		if err != nil {
 			return recordWeight, err
 		}
 
-		fishInfo.Type, err = FishStuff(fishInfo.TypeName, params)
+		result.Type, err = FishStuff(result.TypeName, params)
 		if err != nil {
 			return recordWeight, err
 		}
 
 		if global {
-			fishInfo.ChatPfp = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", fishInfo.Chat, fishInfo.Chat)
+			result.ChatPfp = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", result.Chat, result.Chat)
 		}
 
-		recordWeight[fishInfo.PlayerID] = fishInfo
+		recordWeight[result.PlayerID] = result
 
-	}
-
-	if err := rows.Err(); err != nil {
-		logs.Logs().Error().Err(err).
-			Str("Board", board).
-			Str("Chat", chatName).
-			Msg("Error iterating over query results")
-		return recordWeight, err
 	}
 
 	return recordWeight, nil

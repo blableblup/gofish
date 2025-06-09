@@ -30,7 +30,7 @@ func ReturnFishSliceQueryValidPlayers(params LeaderboardParams, query string, va
 	return fishy, nil
 }
 
-// for the leaderboards
+// for some leaderboards
 func ReturnFishSliceQuery(params LeaderboardParams, query string, chat bool) ([]data.FishInfo, error) {
 	chatName := params.ChatName
 	date2 := params.Date2
