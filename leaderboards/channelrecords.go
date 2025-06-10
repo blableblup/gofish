@@ -133,14 +133,13 @@ func getRecords(params LeaderboardParams, weightlimit float64) (map[int]data.Fis
 	date := params.Date
 
 	recordFish := make(map[int]data.FishInfo)
-	var err error
+	var rows pgx.Rows
 
 	for {
-		var fishInfo data.FishInfo
 
 		if global {
-			err := pool.QueryRow(context.Background(), `
-		SELECT f.playerid, f.weight, f.fishname, f.bot, f.chat AS chatname, f.date, f.catchtype, f.fishid, f.chatid
+			rows, _ = pool.Query(context.Background(), `
+		SELECT f.playerid, f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid
 		FROM fish f
 		JOIN (
 			SELECT min(date) AS min_date
@@ -148,20 +147,11 @@ func getRecords(params LeaderboardParams, weightlimit float64) (map[int]data.Fis
 			WHERE weight >= $1
 			AND date < $2
 	  		AND date > $3
-		) min_fish ON f.date = min_fish.min_date`, weightlimit, date, date2).Scan(&fishInfo.PlayerID, &fishInfo.Weight, &fishInfo.TypeName, &fishInfo.Bot,
-				&fishInfo.Chat, &fishInfo.Date, &fishInfo.CatchType, &fishInfo.FishId, &fishInfo.ChatId)
-			if err != nil && err != pgx.ErrNoRows {
-				logs.Logs().Error().Err(err).
-					Str("Chat", chatName).
-					Str("Board", board).
-					Msg("Error querying fish database for channel record")
-				return nil, err
-			} else if err == pgx.ErrNoRows {
-				break
-			}
+		) min_fish ON f.date = min_fish.min_date`, weightlimit, date, date2)
+
 		} else {
-			err := pool.QueryRow(context.Background(), `
-		SELECT f.playerid, f.weight, f.fishname, f.bot, f.chat AS chatname, f.date, f.catchtype, f.fishid, f.chatid
+			rows, _ = pool.Query(context.Background(), `
+		SELECT f.playerid, f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid
 		FROM fish f
 		JOIN (
 			SELECT min(date) AS min_date
@@ -170,36 +160,38 @@ func getRecords(params LeaderboardParams, weightlimit float64) (map[int]data.Fis
 			AND date < $2
 	  		AND date > $3
 			AND chat = $4
-		) min_fish ON f.date = min_fish.min_date`, weightlimit, date, date2, chatName).Scan(&fishInfo.PlayerID, &fishInfo.Weight, &fishInfo.TypeName, &fishInfo.Bot,
-				&fishInfo.Chat, &fishInfo.Date, &fishInfo.CatchType, &fishInfo.FishId, &fishInfo.ChatId)
-			if err != nil && err != pgx.ErrNoRows {
-				logs.Logs().Error().Err(err).
-					Str("Chat", chatName).
-					Str("Board", board).
-					Msg("Error querying fish database for channel record")
-				return nil, err
-			} else if err == pgx.ErrNoRows {
-				break
-			}
+		) min_fish ON f.date = min_fish.min_date`, weightlimit, date, date2, chatName)
+
 		}
 
-		fishInfo.Player, _, fishInfo.Verified, _, err = PlayerStuff(fishInfo.PlayerID, params, pool)
+		result, err := pgx.CollectExactlyOneRow(rows, pgx.RowToStructByNameLax[data.FishInfo])
+		if err != nil && err != pgx.ErrNoRows {
+			logs.Logs().Error().Err(err).
+				Str("Chat", chatName).
+				Str("Board", board).
+				Msg("Error querying fish database for channel record")
+			return nil, err
+		} else if err == pgx.ErrNoRows {
+			break
+		}
+
+		result.Player, _, result.Verified, _, err = PlayerStuff(result.PlayerID, params, pool)
 		if err != nil {
 			return recordFish, err
 		}
 
-		fishInfo.Type, err = FishStuff(fishInfo.TypeName, params)
+		result.Type, err = FishStuff(result.TypeName, params)
 		if err != nil {
 			return recordFish, err
 		}
 
 		if global {
-			fishInfo.ChatPfp = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", fishInfo.Chat, fishInfo.Chat)
+			result.ChatPfp = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", result.Chat, result.Chat)
 		}
 
 		// A new channel record can never be 0.001 lbs bigger than the last one so this should never skip any records
-		weightlimit = fishInfo.Weight + 0.001
-		recordFish[fishInfo.FishId] = fishInfo
+		weightlimit = result.Weight + 0.001
+		recordFish[result.FishId] = result
 	}
 
 	return recordFish, nil

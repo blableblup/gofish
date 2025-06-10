@@ -9,6 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 	"time"
+
+	"github.com/jackc/pgx/v5"
 )
 
 func processShinies(params LeaderboardParams) {
@@ -104,7 +106,7 @@ func getShinies(params LeaderboardParams) (map[int]data.FishInfo, error) {
 
 	// This will work if there are multiple shinies for the same fishtype
 	rows, err := pool.Query(context.Background(), `
-		select f.fishid, f.chatid, f.fishtype, f.fishname, f.weight, f.catchtype, f.playerid, f.date, f.bot, f.chat 
+		select f.fishid, f.chatid, f.fishtype as type, f.fishname as typename, f.weight, f.catchtype, f.playerid, f.date, f.bot, f.chat 
 		from fish f
 		join(
 		select shiny
@@ -119,36 +121,27 @@ func getShinies(params LeaderboardParams) (map[int]data.FishInfo, error) {
 			Msg("Error querying database")
 		return Shinies, err
 	}
-	defer rows.Close()
 
-	for rows.Next() {
-		var fishInfo data.FishInfo
+	results, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
+	if err != nil && err != pgx.ErrNoRows {
+		logs.Logs().Error().Err(err).
+			Str("Board", board).
+			Msg("Error collecting rows")
+		return Shinies, err
+	}
 
-		if err := rows.Scan(&fishInfo.FishId, &fishInfo.ChatId, &fishInfo.Type, &fishInfo.TypeName, &fishInfo.Weight, &fishInfo.CatchType,
-			&fishInfo.PlayerID, &fishInfo.Date, &fishInfo.Bot, &fishInfo.Chat); err != nil {
-			logs.Logs().Error().Err(err).
-				Str("Board", board).
-				Msg("Error scanning row")
-			return Shinies, err
-		}
+	for _, result := range results {
 
-		fishInfo.Player, _, fishInfo.Verified, _, err = PlayerStuff(fishInfo.PlayerID, params, pool)
+		result.Player, _, result.Verified, _, err = PlayerStuff(result.PlayerID, params, pool)
 		if err != nil {
 			return Shinies, err
 		}
 
-		fishInfo.ChatPfp = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", fishInfo.Chat, fishInfo.Chat)
-		fishInfo.Type = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/shiny/%s.png)", fishInfo.Type, fishInfo.Type)
+		result.ChatPfp = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", result.Chat, result.Chat)
+		result.Type = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/shiny/%s.png)", result.Type, result.Type)
 
-		Shinies[fishInfo.FishId] = fishInfo
+		Shinies[result.FishId] = result
 
-	}
-
-	if err := rows.Err(); err != nil {
-		logs.Logs().Error().Err(err).
-			Str("Board", board).
-			Msg("Error iterating over query results")
-		return Shinies, err
 	}
 
 	return Shinies, nil
