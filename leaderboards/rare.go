@@ -9,6 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 	"time"
+
+	"github.com/jackc/pgx/v5"
 )
 
 func RunCountFishTypesGlobal(params LeaderboardParams) {
@@ -81,87 +83,60 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 
 func getRarestFish(params LeaderboardParams) (map[string]data.FishInfo, error) {
 	board := params.LeaderboardType
-	config := params.Config
 	date2 := params.Date2
 	pool := params.Pool
 	date := params.Date
 
 	globalFishTypesCount := make(map[string]data.FishInfo)
 
-	// Process all chats
-	for chatName, chat := range config.Chat {
-		if !chat.CheckFData {
-			if chatName != "global" && chatName != "default" {
-				logs.Logs().Warn().
-					Str("Board", board).
-					Str("Chat", chatName).
-					Msg("Skipping chat because checkfdata is false")
-			}
-			continue
-		}
-
-		// Query the database to get the count of each fish type caught in the chat
-		rows, err := pool.Query(context.Background(), `
-				SELECT fishname, COUNT(*) AS type_count
+	// Query the database to get the count of each fish type caught in the chat
+	rows, err := pool.Query(context.Background(), `
+				SELECT fishname as typename, COUNT(*), chat
 				FROM fish
-				WHERE chat = $1
-				AND date < $2
-				AND date > $3
-				GROUP BY fishname
-				`, chatName, date, date2)
+				WHERE date < $1
+				AND date > $2
+				GROUP BY fishname, chat
+				`, date, date2)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Board", board).
+			Msg("Error querying database for rarest fish")
+		return globalFishTypesCount, err
+	}
+
+	results, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
+	if err != nil && err != pgx.ErrNoRows {
+		logs.Logs().Error().Err(err).
+			Str("Board", board).
+			Msg("Error collecting rows")
+		return globalFishTypesCount, err
+	}
+
+	for _, result := range results {
+
+		result.Type, err = FishStuff(result.TypeName, params)
 		if err != nil {
-			logs.Logs().Error().Err(err).
-				Str("Chat", chatName).
-				Str("Board", board).
-				Msg("Error querying database for rarest fish")
 			return globalFishTypesCount, err
 		}
-		defer rows.Close()
 
-		// Iterate through the query results and store fish type count for each chat
-		for rows.Next() {
-			var fishInfo data.FishInfo
+		pfp := fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", result.Chat, result.Chat)
+		existingFishInfo, exists := globalFishTypesCount[result.TypeName]
+		if exists {
+			existingFishInfo.Count += result.Count
 
-			if err := rows.Scan(&fishInfo.TypeName, &fishInfo.Count); err != nil {
-				logs.Logs().Error().Err(err).
-					Str("Chat", chatName).
-					Str("Board", board).
-					Msg("Error scanning row for rarest fish")
-				return globalFishTypesCount, err
+			if existingFishInfo.ChatCounts == nil {
+				existingFishInfo.ChatCounts = make(map[string]int)
 			}
+			existingFishInfo.ChatCounts[pfp] += result.Count
 
-			fishInfo.Type, err = FishStuff(fishInfo.TypeName, params)
-			if err != nil {
-				return globalFishTypesCount, err
+			globalFishTypesCount[result.TypeName] = existingFishInfo
+		} else {
+			globalFishTypesCount[result.TypeName] = data.FishInfo{
+				Count:      result.Count,
+				TypeName:   result.TypeName,
+				Type:       result.Type,
+				ChatCounts: map[string]int{pfp: result.Count},
 			}
-
-			pfp := fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", chatName, chatName)
-			existingFishInfo, exists := globalFishTypesCount[fishInfo.TypeName]
-			if exists {
-				existingFishInfo.Count += fishInfo.Count
-
-				if existingFishInfo.ChatCounts == nil {
-					existingFishInfo.ChatCounts = make(map[string]int)
-				}
-				existingFishInfo.ChatCounts[pfp] += fishInfo.Count
-
-				globalFishTypesCount[fishInfo.TypeName] = existingFishInfo
-			} else {
-				globalFishTypesCount[fishInfo.TypeName] = data.FishInfo{
-					Count:      fishInfo.Count,
-					TypeName:   fishInfo.TypeName,
-					Type:       fishInfo.Type,
-					ChatCounts: map[string]int{pfp: fishInfo.Count},
-				}
-			}
-		}
-
-		if err = rows.Err(); err != nil {
-			logs.Logs().Error().Err(err).
-				Str("Board", board).
-				Str("Chat", chatName).
-				Msg("Error iterating over rows")
-			return globalFishTypesCount, err
 		}
 	}
 
