@@ -6,7 +6,6 @@ import (
 	"gofish/logs"
 	"os"
 	"path/filepath"
-	"strings"
 	"time"
 )
 
@@ -15,19 +14,9 @@ func processType(params LeaderboardParams) {
 	boardInfo := params.BoardInfo
 	chatName := params.ChatName
 	global := params.Global
-	path := params.Path
 	mode := params.Mode
 
-	var filePath string
-
-	if path == "" {
-		filePath = filepath.Join("leaderboards", chatName, board+".md")
-	} else {
-		if !strings.HasSuffix(path, ".md") {
-			path += ".md"
-		}
-		filePath = filepath.Join("leaderboards", chatName, path)
-	}
+	filePath := returnPath(params)
 
 	oldType, err := getJsonBoardString(filePath)
 	if err != nil {
@@ -73,7 +62,7 @@ func processType(params LeaderboardParams) {
 	if params.Title == "" {
 		title = boardInfo.GetTitleFunction(params)
 	} else {
-		title = fmt.Sprintf("%s\n", title)
+		title = fmt.Sprintf("%s\n", params.Title)
 	}
 
 	err = writeType(filePath, recordType, oldType, board, title, global)

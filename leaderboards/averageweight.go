@@ -9,7 +9,6 @@ import (
 	"os"
 	"path/filepath"
 	"sort"
-	"strings"
 	"time"
 
 	"github.com/jackc/pgx/v5"
@@ -19,19 +18,9 @@ func processAverageWeight(params LeaderboardParams) {
 	board := params.LeaderboardType
 	chatName := params.ChatName
 	title := params.Title
-	path := params.Path
 	mode := params.Mode
 
-	var filePath string
-
-	if path == "" {
-		filePath = filepath.Join("leaderboards", "global", "averageweight.md")
-	} else {
-		if !strings.HasSuffix(path, ".md") {
-			path += ".md"
-		}
-		filePath = filepath.Join("leaderboards", "global", path)
-	}
+	filePath := returnPath(params)
 
 	oldWeights, err := getJsonBoardString(filePath)
 	if err != nil {

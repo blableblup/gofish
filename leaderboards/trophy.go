@@ -15,19 +15,9 @@ func processTrophy(params LeaderboardParams) {
 	board := params.LeaderboardType
 	chatName := params.ChatName
 	title := params.Title
-	path := params.Path
 	mode := params.Mode
 
-	var filePath, titletrophies string
-
-	if path == "" {
-		filePath = filepath.Join("leaderboards", chatName, "trophy.md")
-	} else {
-		if !strings.HasSuffix(path, ".md") {
-			path += ".md"
-		}
-		filePath = filepath.Join("leaderboards", chatName, path)
-	}
+	filePath := returnPath(params)
 
 	oldTrophy, err := getJsonBoard(filePath)
 	if err != nil {
@@ -56,6 +46,8 @@ func processTrophy(params LeaderboardParams) {
 			Msg("Not updating board because there are no changes")
 		return
 	}
+
+	var titletrophies string
 
 	if title == "" {
 		if strings.HasSuffix(chatName, "s") {

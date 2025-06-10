@@ -7,25 +7,14 @@ import (
 	"gofish/utils"
 	"os"
 	"path/filepath"
-	"strings"
 	"time"
 )
 
 func RunChatStatsGlobal(params LeaderboardParams) {
 	board := params.LeaderboardType
 	title := params.Title
-	path := params.Path
 
-	var filePath, titlestats string
-
-	if path == "" {
-		filePath = filepath.Join("leaderboards", "global", "chats.md")
-	} else {
-		if !strings.HasSuffix(path, ".md") {
-			path += ".md"
-		}
-		filePath = filepath.Join("leaderboards", "global", path)
-	}
+	filePath := returnPath(params)
 
 	oldChatStats, err := getJsonBoardString(filePath)
 	if err != nil {
@@ -50,6 +39,8 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 	logs.Logs().Info().
 		Str("Board", board).
 		Msg("Updating leaderboard")
+
+	var titlestats string
 
 	if title == "" {
 		titlestats = "### Chat leaderboard\n"

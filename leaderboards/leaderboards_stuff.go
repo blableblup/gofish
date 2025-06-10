@@ -12,6 +12,26 @@ import (
 	"strings"
 )
 
+// name of the md file is by default name of the board in leaderboardconfig
+func returnPath(params LeaderboardParams) string {
+	board := params.LeaderboardType
+	chatName := params.ChatName
+	path := params.Path
+
+	var filePath string
+
+	if path == "" {
+		filePath = filepath.Join("leaderboards", chatName, board+".md")
+	} else {
+		if !strings.HasSuffix(path, ".md") {
+			path += ".md"
+		}
+		filePath = filepath.Join("leaderboards", chatName, path)
+	}
+
+	return filePath
+}
+
 // to print whatever struct / map as a json file
 func writeRaw(filePath string, data any) error {
 

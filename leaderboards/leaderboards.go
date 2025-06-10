@@ -25,6 +25,11 @@ type LeaderboardConfig struct {
 	GetQueryFunction func(LeaderboardParams) string
 	// a map, because some boards need multiple queries
 	GetQueryFunctionMap func(LeaderboardParams) map[string]string
+
+	// to not update profiles with all the other boards
+	// profiles should be run after them because that is using the json data from the other boards
+	// if run with the other boards, the data for the board records will be old and wrong
+	IsProfiles bool
 }
 
 // This is holding the flags (like -title and -path...)
@@ -244,6 +249,8 @@ func Leaderboards(pool *pgxpool.Pool, leaderboards string, chatNames string, dat
 			GlobalOnly: true,
 			Tournament: false,
 			Function:   GetPlayerProfiles,
+
+			IsProfiles: true,
 		}}
 
 	leaderboardList := strings.Split(leaderboards, ",")
@@ -284,7 +291,7 @@ func Leaderboards(pool *pgxpool.Pool, leaderboards string, chatNames string, dat
 
 		case "globalboards":
 			for boardname, board := range existingboards {
-				if board.GlobalOnly {
+				if board.GlobalOnly && !board.IsProfiles {
 					processLeaderboard(config, params, boardname, board)
 				}
 			}
@@ -292,7 +299,9 @@ func Leaderboards(pool *pgxpool.Pool, leaderboards string, chatNames string, dat
 		case "all":
 			for boardname, board := range existingboards {
 
-				processLeaderboard(config, params, boardname, board)
+				if !board.IsProfiles {
+					processLeaderboard(config, params, boardname, board)
+				}
 			}
 		}
 	}

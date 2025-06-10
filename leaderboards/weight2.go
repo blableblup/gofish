@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"gofish/data"
 	"gofish/logs"
-	"path/filepath"
 	"strconv"
 	"strings"
 
@@ -22,19 +21,9 @@ func processWeight2(params LeaderboardParams) {
 	global := params.Global
 	limit := params.Limit
 	chat := params.Chat
-	path := params.Path
 	mode := params.Mode
 
-	var filePath string
-
-	if path == "" {
-		filePath = filepath.Join("leaderboards", chatName, board+".md")
-	} else {
-		if !strings.HasSuffix(path, ".md") {
-			path += ".md"
-		}
-		filePath = filepath.Join("leaderboards", chatName, path)
-	}
+	filePath := returnPath(params)
 
 	oldRecordWeight, err := getJsonBoard(filePath)
 	if err != nil {
@@ -106,7 +95,7 @@ func processWeight2(params LeaderboardParams) {
 			title = fmt.Sprintf("### %d biggest fish caught globally\n", rowlimit)
 		}
 	} else {
-		title = fmt.Sprintf("%s\n", title)
+		title = fmt.Sprintf("%s\n", params.Title)
 	}
 
 	notlimit := 0.0 // Because the limit for this board is in the title but the func still needs a limit

@@ -8,7 +8,6 @@ import (
 	"os"
 	"path/filepath"
 	"strconv"
-	"strings"
 	"time"
 
 	"github.com/jackc/pgx/v5"
@@ -22,19 +21,9 @@ func processCount(params LeaderboardParams) {
 	config := params.Config
 	limit := params.Limit
 	chat := params.Chat
-	path := params.Path
 	mode := params.Mode
 
-	var filePath string
-
-	if path == "" {
-		filePath = filepath.Join("leaderboards", chatName, board+".md")
-	} else {
-		if !strings.HasSuffix(path, ".md") {
-			path += ".md"
-		}
-		filePath = filepath.Join("leaderboards", chatName, path)
-	}
+	filePath := returnPath(params)
 
 	oldCountRecord, err := getJsonBoard(filePath)
 	if err != nil {
@@ -112,7 +101,7 @@ func processCount(params LeaderboardParams) {
 	if params.Title == "" {
 		title = boardInfo.GetTitleFunction(params)
 	} else {
-		title = fmt.Sprintf("%s\n", title)
+		title = fmt.Sprintf("%s\n", params.Title)
 	}
 
 	logs.Logs().Info().

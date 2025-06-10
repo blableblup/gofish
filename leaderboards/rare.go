@@ -7,7 +7,6 @@ import (
 	"gofish/logs"
 	"os"
 	"path/filepath"
-	"strings"
 	"time"
 
 	"github.com/jackc/pgx/v5"
@@ -16,19 +15,9 @@ import (
 func RunCountFishTypesGlobal(params LeaderboardParams) {
 	board := params.LeaderboardType
 	title := params.Title
-	path := params.Path
 	mode := params.Mode
 
-	var filePath, titlerare string
-
-	if path == "" {
-		filePath = filepath.Join("leaderboards", "global", "rare.md")
-	} else {
-		if !strings.HasSuffix(path, ".md") {
-			path += ".md"
-		}
-		filePath = filepath.Join("leaderboards", "global", path)
-	}
+	filePath := returnPath(params)
 
 	oldCount, err := getJsonBoardString(filePath)
 	if err != nil {
@@ -57,6 +46,8 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 			Msg("Not updating board because there are no changes")
 		return
 	}
+
+	var titlerare string
 
 	if title == "" {
 		titlerare = "### How many times a fish has been caught\n"

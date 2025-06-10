@@ -21,19 +21,9 @@ func processWeight(params LeaderboardParams) {
 	global := params.Global
 	limit := params.Limit
 	chat := params.Chat
-	path := params.Path
 	mode := params.Mode
 
-	var filePath string
-
-	if path == "" {
-		filePath = filepath.Join("leaderboards", chatName, board+".md")
-	} else {
-		if !strings.HasSuffix(path, ".md") {
-			path += ".md"
-		}
-		filePath = filepath.Join("leaderboards", chatName, path)
-	}
+	filePath := returnPath(params)
 
 	oldRecordWeight, err := getJsonBoard(filePath)
 	if err != nil {
@@ -105,7 +95,7 @@ func processWeight(params LeaderboardParams) {
 			title = "### Biggest fish caught per player globally\n"
 		}
 	} else {
-		title = fmt.Sprintf("%s\n", title)
+		title = fmt.Sprintf("%s\n", params.Title)
 	}
 
 	err = writeWeight(filePath, recordWeight, oldRecordWeight, title, global, board, weightlimit)

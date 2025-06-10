@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"gofish/data"
 	"gofish/logs"
-	"path/filepath"
 	"strconv"
 	"strings"
 
@@ -21,19 +20,8 @@ func processChannelRecords(params LeaderboardParams) {
 	limit := params.Limit
 	mode := params.Mode
 	chat := params.Chat
-	path := params.Path
 
-	var filePath, titlerecords string
-	var weightlimit float64
-
-	if path == "" {
-		filePath = filepath.Join("leaderboards", chatName, "records.md")
-	} else {
-		if !strings.HasSuffix(path, ".md") {
-			path += ".md"
-		}
-		filePath = filepath.Join("leaderboards", chatName, path)
-	}
+	filePath := returnPath(params)
 
 	oldChannelRecords, err := getJsonBoard(filePath)
 	if err != nil {
@@ -43,6 +31,8 @@ func processChannelRecords(params LeaderboardParams) {
 			Msg("Error reading old leaderboard")
 		return
 	}
+
+	var weightlimit float64
 
 	if limit == "" {
 		weightlimit = chat.WeightlimitRecords
@@ -79,6 +69,8 @@ func processChannelRecords(params LeaderboardParams) {
 			Msg("Not updating board because there are no changes")
 		return
 	}
+
+	var titlerecords string
 
 	if title == "" {
 		if global {

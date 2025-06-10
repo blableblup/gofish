@@ -7,7 +7,6 @@ import (
 	"gofish/logs"
 	"os"
 	"path/filepath"
-	"strings"
 	"time"
 
 	"github.com/jackc/pgx/v5"
@@ -17,19 +16,9 @@ func processShinies(params LeaderboardParams) {
 	board := params.LeaderboardType
 	chatName := params.ChatName
 	title := params.Title
-	path := params.Path
 	mode := params.Mode
 
-	var filePath string
-
-	if path == "" {
-		filePath = filepath.Join("leaderboards", "global", "shiny.md")
-	} else {
-		if !strings.HasSuffix(path, ".md") {
-			path += ".md"
-		}
-		filePath = filepath.Join("leaderboards", "global", path)
-	}
+	filePath := returnPath(params)
 
 	oldShinies, err := getJsonBoard(filePath)
 	if err != nil {
