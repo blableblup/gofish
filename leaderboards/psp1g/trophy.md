@@ -1,8 +1,8 @@
 ### Leaderboard for the weekly tournaments in psp1g's chat
 | Rank | Player | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points |
 |------|--------|-------------|------------------|------------------|--------|
-| 1 🥇 | nndiana | 33 (+1) | 32 (+2) | 11 | 136.5 (+5.0) |
-| 2 🥈 | bubinga | 25 (+2) | 12 | 9 | 91.5 (+6.0) |
+| 1 🥇 | nndiana | 33 | 32 | 11 | 136.5 |
+| 2 🥈 | bubinga | 25 | 12 | 9 | 91.5 |
 | 3 🥉 | huuuuuuuuuuuuuuuuuuuuuurz | 8 | 10 | 9 | 38.5 |
 | 4 | benciee | 7 | 11 | 2 | 33.0 |
 | 5 | iflya320 | 6 | 3 | 2 | 22.0 |
@@ -15,10 +15,10 @@
 | 12 | caprisen_ | 2 | 2 | 8 | 12.0 |
 | 13 | cale4 | 3 | 0 | 5 | 11.5 |
 | 14 | jr_mime | 2 | 4 | 2 | 11.0 |
-| 15 | fonuwu | 3 | 0 | 1 | 9.5 |
-| 15 ⬆| mazzo_tv | 0 | 6 (+1) | 7 | 9.5 (+1.0) |
-| 15 ⬆| ratot | 1 | 4 | 5 (+3) | 9.5 (+1.5) |
-| 18 ⬇| pengeg | 2 | 3 | 0 | 9.0 |
+| 14 ⬆| mazzo_tv | 0 | 7 (+1) | 8 (+1) | 11.0 (+1.5) |
+| 16 ⬇| ratot | 1 | 5 (+1) | 5 | 10.5 (+1.0) |
+| 17 ⬇| fonuwu | 3 | 0 | 1 | 9.5 |
+| 18 | pengeg | 2 | 3 | 0 | 9.0 |
 | 19 | sandwichsundays | 1 | 2 | 4 | 7.0 |
 | 19 | thasbe | 2 | 1 | 0 | 7.0 |
 | 21 | commanda_u | 1 | 0 | 4 | 5.0 |
@@ -36,4 +36,4 @@
 | 32 | gorillapark | 0 | 0 | 1 | 0.5 |
 | 32 | starducc | 0 | 0 | 1 | 0.5 |
 
-_Last updated at 2025-06-04 08:41:14 UTC_
+_Last updated at 2025-06-11 15:12:11 UTC_

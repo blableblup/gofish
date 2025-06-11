@@ -32,7 +32,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"chatid": 7,
 		"maxcount": 7,
-		"rank": 5
+		"rank": 6
 	},
 	"3002": {
 		"player": "hamoodhabibee",
@@ -69,16 +69,16 @@
 		"date": "0001-01-01T00:00:00Z",
 		"fishid": 3,
 		"maxcount": 2,
-		"rank": 6
+		"rank": 7
 	},
 	"3086": {
 		"player": "gimmeschmoneys",
 		"playerid": 3086,
-		"weight": 41,
+		"weight": 47.5,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 10,
+		"fishid": 12,
 		"chatid": 9,
-		"maxcount": 4,
+		"maxcount": 5,
 		"rank": 3
 	},
 	"3108": {
@@ -109,7 +109,7 @@
 		"fishid": 3,
 		"chatid": 2,
 		"maxcount": 4,
-		"rank": 4
+		"rank": 5
 	},
 	"3164": {
 		"player": "ben_vincent",
@@ -140,11 +140,12 @@
 	"3448": {
 		"player": "iam_glorp",
 		"playerid": 3448,
-		"weight": 10,
+		"weight": 14.5,
 		"date": "0001-01-01T00:00:00Z",
-		"chatid": 8,
-		"maxcount": 4,
-		"rank": 6
+		"fishid": 1,
+		"chatid": 9,
+		"maxcount": 5,
+		"rank": 4
 	},
 	"64": {
 		"player": "julialuxel",

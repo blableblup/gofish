@@ -1,14 +1,14 @@
 ### Leaderboard for the weekly tournaments in breadworms' chat
 | Rank | Player | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points |
 |------|--------|-------------|------------------|------------------|--------|
-| 1 🥇 | leanmeister | 50 (+1) | 15 (+1) | 6 (+1) | 168.0 (+4.5) |
-| 2 🥈 | lluuucy | 24 | 52 (+1) | 30 | 139.0 (+1.0) |
+| 1 🥇 | leanmeister | 50 | 15 | 6 | 168.0 |
+| 2 🥈 | lluuucy | 24 | 54 (+2) | 31 (+1) | 141.5 (+2.5) |
 | 3 🥉 | puzzlow | 35 | 15 | 14 | 127.0 |
 | 4 | osnyatsky | 31 | 24 | 6 | 120.0 |
 | 5 | osnyisdead | 30 | 21 | 3 | 112.5 |
 | 6 | derinturitierutz | 33 | 5 | 13 | 110.5 |
-| 7 ⬆| destin357 | 16 (+2) | 16 (+1) | 6 | 67.0 (+7.0) |
-| 8 ⬇| qu4ttromila | 11 | 19 | 20 | 62.0 |
+| 7 | destin357 | 16 | 16 | 6 | 67.0 |
+| 8 | qu4ttromila | 11 | 19 | 20 | 62.0 |
 | 9 | kishma9 | 11 | 18 | 9 | 55.5 |
 | 10 | miiiiisho | 8 | 21 | 14 | 52.0 |
 | 11 | dayzedinndaydreams | 10 | 10 | 12 | 46.0 |
@@ -16,8 +16,8 @@
 | 13 | sicklymaidrobot | 5 | 10 | 26 | 38.0 |
 | 14 | comiqq | 5 | 12 | 9 | 31.5 |
 | 15 | fishingalt | 4 | 7 | 9 | 23.5 |
-| 16 | derintu | 1 | 10 | 11 (+2) | 18.5 (+1.0) |
-| 17 ⬇| c_mgirl | 3 | 3 | 11 | 17.5 |
+| 16 | derintu | 1 | 10 | 11 | 18.5 |
+| 17 | c_mgirl | 3 | 3 | 11 | 17.5 |
 | 18 | booty_bread | 4 | 2 | 6 | 17.0 |
 | 19 | ryebreadward | 3 | 3 | 6 | 15.0 |
 | 20 | ninjaross | 2 | 2 | 10 | 13.0 |
@@ -45,4 +45,4 @@
 | 40 | mochi_uygqzidbjizjkbehuiw | 0 | 0 | 1 | 0.5 |
 | 40 | niiy | 0 | 0 | 1 | 0.5 |
 
-_Last updated at 2025-06-04 08:41:14 UTC_
+_Last updated at 2025-06-11 15:12:11 UTC_
