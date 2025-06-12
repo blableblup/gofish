@@ -3,7 +3,6 @@ package leaderboards
 import (
 	"context"
 	"fmt"
-	"gofish/data"
 	"gofish/logs"
 	"os"
 	"path/filepath"
@@ -72,17 +71,17 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 	}
 }
 
-func getRarestFish(params LeaderboardParams) (map[string]data.FishInfo, error) {
+func getRarestFish(params LeaderboardParams) (map[string]BoardData, error) {
 	board := params.LeaderboardType
 	date2 := params.Date2
 	pool := params.Pool
 	date := params.Date
 
-	globalFishTypesCount := make(map[string]data.FishInfo)
+	globalFishTypesCount := make(map[string]BoardData)
 
 	// Query the database to get the count of each fish type caught in the chat
 	rows, err := pool.Query(context.Background(), `
-				SELECT fishname as typename, COUNT(*), chat
+				SELECT fishname, COUNT(*), chat
 				FROM fish
 				WHERE date < $1
 				AND date > $2
@@ -95,7 +94,7 @@ func getRarestFish(params LeaderboardParams) (map[string]data.FishInfo, error) {
 		return globalFishTypesCount, err
 	}
 
-	results, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
+	results, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[BoardData])
 	if err != nil && err != pgx.ErrNoRows {
 		logs.Logs().Error().Err(err).
 			Str("Board", board).
@@ -105,13 +104,13 @@ func getRarestFish(params LeaderboardParams) (map[string]data.FishInfo, error) {
 
 	for _, result := range results {
 
-		result.Type, err = FishStuff(result.TypeName, params)
+		result.FishType, err = FishStuff(result.FishName, params)
 		if err != nil {
 			return globalFishTypesCount, err
 		}
 
 		pfp := fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", result.Chat, result.Chat)
-		existingFishInfo, exists := globalFishTypesCount[result.TypeName]
+		existingFishInfo, exists := globalFishTypesCount[result.FishName]
 		if exists {
 			existingFishInfo.Count += result.Count
 
@@ -120,12 +119,12 @@ func getRarestFish(params LeaderboardParams) (map[string]data.FishInfo, error) {
 			}
 			existingFishInfo.ChatCounts[pfp] += result.Count
 
-			globalFishTypesCount[result.TypeName] = existingFishInfo
+			globalFishTypesCount[result.FishName] = existingFishInfo
 		} else {
-			globalFishTypesCount[result.TypeName] = data.FishInfo{
+			globalFishTypesCount[result.FishName] = BoardData{
 				Count:      result.Count,
-				TypeName:   result.TypeName,
-				Type:       result.Type,
+				FishName:   result.FishName,
+				FishType:   result.FishType,
 				ChatCounts: map[string]int{pfp: result.Count},
 			}
 		}
@@ -134,7 +133,7 @@ func getRarestFish(params LeaderboardParams) (map[string]data.FishInfo, error) {
 	return globalFishTypesCount, nil
 }
 
-func writeRare(filePath string, fishCaught map[string]data.FishInfo, oldCountRecord map[string]data.FishInfo, title string) error {
+func writeRare(filePath string, fishCaught map[string]BoardData, oldCountRecord map[string]BoardData, title string) error {
 
 	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
 		return err
@@ -170,7 +169,7 @@ func writeRare(filePath string, fishCaught map[string]data.FishInfo, oldCountRec
 	for _, FishName := range sortedPlayers {
 		Count := fishCaught[FishName].Count
 		ChatCounts := fishCaught[FishName].ChatCounts
-		Emoji := fishCaught[FishName].Type
+		Emoji := fishCaught[FishName].FishType
 
 		if Count != prevCount {
 			rank += occupiedRanks[rank]

@@ -1,7 +1,6 @@
 package leaderboards
 
 import (
-	"gofish/data"
 	"gofish/logs"
 	"gofish/utils"
 	"strings"
@@ -9,6 +8,45 @@ import (
 
 	"github.com/jackc/pgx/v5/pgxpool"
 )
+
+// struct to scan all the board data into
+type BoardData struct {
+	// for the player
+	ProfileLink string `json:"profile_link,omitempty"`
+	Player      string `json:"player,omitempty"`
+	PlayerID    int    `json:"playerid,omitempty"`
+	TwitchID    int    `json:"twitchid,omitempty"`
+	Verified    bool   `json:"verified,omitempty"`
+
+	// for fishes
+	Weight    float64   `json:"weight,omitempty"`
+	Bot       string    `json:"bot,omitempty"`
+	FishType  string    `json:"fishtype,omitempty"`
+	FishName  string    `json:"fishname,omitempty"`
+	CatchType string    `json:"catchtype,omitempty"`
+	Chat      string    `json:"chat,omitempty"`
+	ChatPfp   string    `json:"chatpfp,omitempty"`
+	FishId    int       `json:"fishid,omitempty"`
+	ChatId    int       `json:"chatid,omitempty"`
+	Date      time.Time `json:"date,omitempty"`
+
+	// idk
+	Count       int                `json:"count,omitempty"`
+	ChatCounts  map[string]int     `json:"chatcounts,omitempty"`
+	ChatWeights map[string]float64 `json:"chatweights,omitempty"`
+
+	// for chats board
+	ActiveFishers int `json:"activefishers,omitempty"`
+	UniqueFishers int `json:"uniquefishers,omitempty"`
+	UniqueFish    int `json:"uniquefish,omitempty"`
+
+	// for trophy board
+	Trophies int `json:"trophies,omitempty"`
+	Silver   int `json:"silver,omitempty"`
+	Bronze   int `json:"bronze,omitempty"`
+
+	Rank int `json:"rank,omitempty"`
+}
 
 // to store info about a leaderboard and its functions
 type LeaderboardConfig struct {
@@ -19,8 +57,8 @@ type LeaderboardConfig struct {
 
 	Function func(LeaderboardParams)
 
-	GetFunction      func(LeaderboardParams) (map[string]data.FishInfo, error)
-	GetFunctionInt   func(LeaderboardParams, int) (map[int]data.FishInfo, error)
+	GetFunction      func(LeaderboardParams) (map[string]BoardData, error)
+	GetFunctionInt   func(LeaderboardParams, int) (map[int]BoardData, error)
 	GetTitleFunction func(LeaderboardParams) string
 	GetQueryFunction func(LeaderboardParams) string
 	// a map, because some boards need multiple queries

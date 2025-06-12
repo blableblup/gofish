@@ -3,7 +3,6 @@ package leaderboards
 import (
 	"context"
 	"fmt"
-	"gofish/data"
 	"gofish/logs"
 	"strconv"
 	"strings"
@@ -116,7 +115,7 @@ func processChannelRecords(params LeaderboardParams) {
 // Select the first fish above the weightlimit -> then select the first fish above that fishes weight -> ...
 // Do this until there are no bigger fish anymore (if there is the error pgx.ErrNoRows)
 // This will only show the oldest fish if there are multiple channel records with the same weight
-func getRecords(params LeaderboardParams, weightlimit float64) (map[int]data.FishInfo, error) {
+func getRecords(params LeaderboardParams, weightlimit float64) (map[int]BoardData, error) {
 	board := params.LeaderboardType
 	chatName := params.ChatName
 	global := params.Global
@@ -124,14 +123,14 @@ func getRecords(params LeaderboardParams, weightlimit float64) (map[int]data.Fis
 	pool := params.Pool
 	date := params.Date
 
-	recordFish := make(map[int]data.FishInfo)
+	recordFish := make(map[int]BoardData)
 	var rows pgx.Rows
 
 	for {
 
 		if global {
 			rows, _ = pool.Query(context.Background(), `
-		SELECT f.playerid, f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid
+		SELECT f.playerid, f.weight, f.fishname, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid
 		FROM fish f
 		JOIN (
 			SELECT min(date) AS min_date
@@ -143,7 +142,7 @@ func getRecords(params LeaderboardParams, weightlimit float64) (map[int]data.Fis
 
 		} else {
 			rows, _ = pool.Query(context.Background(), `
-		SELECT f.playerid, f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid
+		SELECT f.playerid, f.weight, f.fishname, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid
 		FROM fish f
 		JOIN (
 			SELECT min(date) AS min_date
@@ -156,7 +155,7 @@ func getRecords(params LeaderboardParams, weightlimit float64) (map[int]data.Fis
 
 		}
 
-		result, err := pgx.CollectExactlyOneRow(rows, pgx.RowToStructByNameLax[data.FishInfo])
+		result, err := pgx.CollectExactlyOneRow(rows, pgx.RowToStructByNameLax[BoardData])
 		if err != nil && err != pgx.ErrNoRows {
 			logs.Logs().Error().Err(err).
 				Str("Chat", chatName).
@@ -172,7 +171,7 @@ func getRecords(params LeaderboardParams, weightlimit float64) (map[int]data.Fis
 			return recordFish, err
 		}
 
-		result.Type, err = FishStuff(result.TypeName, params)
+		result.FishType, err = FishStuff(result.FishName, params)
 		if err != nil {
 			return recordFish, err
 		}

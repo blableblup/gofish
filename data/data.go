@@ -418,7 +418,7 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 				SELECT COUNT(*) FROM `+tableName+`
 				WHERE date <= $1::timestamp AND date >= $2::timestamp
 				AND weight = $3 AND player = $4 AND chat = $5 AND fishtype = $6
-				`, fish.Date.Add(time.Second*5), fish.Date.Add(time.Second*-5), fish.Weight, fish.Player, fish.Chat, fish.Type).Scan(&count)
+				`, fish.Date.Add(time.Second*5), fish.Date.Add(time.Second*-5), fish.Weight, fish.Player, fish.Chat, fish.FishType).Scan(&count)
 				if err != nil {
 					logs.Logs().Error().Err(err).
 						Str("Table", tableName).
@@ -446,22 +446,22 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			chatID := lastChatIDs[fish.Chat]
 
 			// get the fishname for the fishtype and store it
-			if _, ok := fishNames[fish.Type]; !ok {
-				fishName, err := GetFishName(pool, fishinfotable, fish.Type)
+			if _, ok := fishNames[fish.FishType]; !ok {
+				fishName, err := GetFishName(pool, fishinfotable, fish.FishType)
 				if err != nil {
 					logs.Logs().Error().Err(err).
-						Str("Type", fish.Type).
+						Str("Type", fish.FishType).
 						Msg("Error getting fish name")
 					return err
 				}
 
-				fishNames[fish.Type] = fishName
+				fishNames[fish.FishType] = fishName
 			}
 
-			fishName := fishNames[fish.Type]
+			fishName := fishNames[fish.FishType]
 
 			query := fmt.Sprintf("INSERT INTO %s (chatid, fishtype, fishname, weight, catchtype, player, playerid, date, bot, chat, url) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)", tableName)
-			_, err = tx.Exec(context.Background(), query, chatID, fish.Type, fishName, fish.Weight, fish.CatchType, fish.Player, playerID, fish.Date, fish.Bot, fish.Chat, fish.Url)
+			_, err = tx.Exec(context.Background(), query, chatID, fish.FishType, fishName, fish.Weight, fish.CatchType, fish.Player, playerID, fish.Date, fish.Bot, fish.Chat, fish.Url)
 			if err != nil {
 				logs.Logs().Error().Err(err).
 					Str("Query", query).

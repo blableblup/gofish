@@ -2,7 +2,6 @@ package leaderboards
 
 import (
 	"fmt"
-	"gofish/data"
 	"gofish/logs"
 	"gofish/utils"
 	"os"
@@ -60,12 +59,12 @@ func RunChatStatsGlobal(params LeaderboardParams) {
 	}
 }
 
-func getChatStats(params LeaderboardParams) (map[string]data.FishInfo, error) {
+func getChatStats(params LeaderboardParams) (map[string]BoardData, error) {
 	board := params.LeaderboardType
 	config := params.Config
 
-	chatStats := make(map[string]data.FishInfo)
-	chatStatsIDK := make(map[string]*data.FishInfo)
+	chatStats := make(map[string]BoardData)
+	chatStatsIDK := make(map[string]*BoardData)
 
 	// add every chat in the config to the map first
 	for chatName := range config.Chat {
@@ -74,18 +73,18 @@ func getChatStats(params LeaderboardParams) (map[string]data.FishInfo, error) {
 			continue
 		}
 
-		chatStatsIDK[chatName] = &data.FishInfo{
-			Count:    0,
-			MaxCount: 0,
-			FishId:   0,
-			ChatId:   0,
-			Player:   "",
-			PlayerID: 0,
-			Type:     "",
-			TypeName: "",
-			Weight:   0.0,
-			Chat:     chatName,
-			ChatPfp:  fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", chatName, chatName),
+		chatStatsIDK[chatName] = &BoardData{
+			Count:         0,
+			ActiveFishers: 0,
+			UniqueFishers: 0,
+			UniqueFish:    0,
+			Player:        "",
+			PlayerID:      0,
+			FishType:      "",
+			FishName:      "",
+			Weight:        0.0,
+			Chat:          chatName,
+			ChatPfp:       fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", chatName, chatName),
 		}
 	}
 
@@ -130,7 +129,7 @@ func getChatStats(params LeaderboardParams) (map[string]data.FishInfo, error) {
 	params.Date2 = pastDate.Format("2006-01-02")
 
 	queryActiveFishers := `
-		select count(*) as maxcount, chat
+		select count(*) as activefishers, chat
 		from (
 			select distinct playerid, chat
 			from fish
@@ -150,7 +149,7 @@ func getChatStats(params LeaderboardParams) (map[string]data.FishInfo, error) {
 	}
 
 	for _, result := range results {
-		chatStatsIDK[result.Chat].MaxCount = result.MaxCount
+		chatStatsIDK[result.Chat].ActiveFishers = result.ActiveFishers
 	}
 
 	// change date2 back
@@ -158,7 +157,7 @@ func getChatStats(params LeaderboardParams) (map[string]data.FishInfo, error) {
 
 	// unique fishers
 	queryUniqueFishers := `
-		select count(distinct playerid) as fishid, chat
+		select count(distinct playerid) as uniquefishers, chat
 		from fish
 		where date < $1
 		and date > $2
@@ -173,12 +172,12 @@ func getChatStats(params LeaderboardParams) (map[string]data.FishInfo, error) {
 	}
 
 	for _, result := range results {
-		chatStatsIDK[result.Chat].FishId = result.FishId
+		chatStatsIDK[result.Chat].UniqueFishers = result.UniqueFishers
 	}
 
 	// unique fish
 	queryUniqueFish := `
-		select count(distinct fishname) as chatid, chat
+		select count(distinct fishname) as uniquefish, chat
 		from fish
 		where date < $1
 		and date > $2
@@ -193,13 +192,13 @@ func getChatStats(params LeaderboardParams) (map[string]data.FishInfo, error) {
 	}
 
 	for _, result := range results {
-		chatStatsIDK[result.Chat].ChatId = result.ChatId
+		chatStatsIDK[result.Chat].UniqueFish = result.UniqueFish
 	}
 
 	// channel records
 	// if there are multiple channel records with same weight fish wont always be the same ? or idk
 	queryChannelRecord := `
-		SELECT bub.weight, bub.fishname as typename, bub.chat, bub.date, bub.catchtype, bub.playerid 
+		SELECT bub.weight, bub.fishname, bub.chat, bub.date, bub.catchtype, bub.playerid 
 		FROM (
         SELECT fish.*, 
         RANK() OVER (
@@ -223,12 +222,12 @@ func getChatStats(params LeaderboardParams) (map[string]data.FishInfo, error) {
 	for _, result := range results {
 		chatStatsIDK[result.Chat].Weight = result.Weight
 
-		chatStatsIDK[result.Chat].Type, err = FishStuff(result.TypeName, params)
+		chatStatsIDK[result.Chat].FishType, err = FishStuff(result.FishName, params)
 		if err != nil {
 			return chatStats, err
 		}
 
-		chatStatsIDK[result.Chat].TypeName = result.TypeName
+		chatStatsIDK[result.Chat].FishName = result.FishName
 
 		chatStatsIDK[result.Chat].PlayerID = result.PlayerID
 
@@ -246,7 +245,7 @@ func getChatStats(params LeaderboardParams) (map[string]data.FishInfo, error) {
 	return chatStats, nil
 }
 
-func writeChatStats(filePath string, chatStats map[string]data.FishInfo, oldChatStats map[string]data.FishInfo, title string) error {
+func writeChatStats(filePath string, chatStats map[string]BoardData, oldChatStats map[string]BoardData, title string) error {
 
 	// Ensure that the directory exists before attempting to create the file
 	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
@@ -278,13 +277,13 @@ func writeChatStats(filePath string, chatStats map[string]data.FishInfo, oldChat
 		count := chatStats[chat].Count
 		pfp := chatStats[chat].ChatPfp
 		weight := chatStats[chat].Weight
-		fishtype := chatStats[chat].Type
-		fishname := chatStats[chat].TypeName
+		fishtype := chatStats[chat].FishType
+		fishname := chatStats[chat].FishName
 		player := chatStats[chat].Player
 		chatname := chatStats[chat].Chat
-		activefishers := chatStats[chat].MaxCount
-		uniquefishers := chatStats[chat].FishId
-		uniquefish := chatStats[chat].ChatId
+		activefishers := chatStats[chat].ActiveFishers
+		uniquefishers := chatStats[chat].UniqueFishers
+		uniquefish := chatStats[chat].UniqueFish
 
 		// Increment rank only if the count has changed
 		if count != prevCount {
@@ -316,9 +315,9 @@ func writeChatStats(filePath string, chatStats map[string]data.FishInfo, oldChat
 			oldRank = oldChatInfo.Rank
 			oldCount = oldChatInfo.Count
 			oldWeight = oldChatInfo.Weight
-			oldActive = oldChatInfo.MaxCount
-			oldUnique = oldChatInfo.FishId
-			oldUniquef = oldChatInfo.ChatId
+			oldActive = oldChatInfo.ActiveFishers
+			oldUnique = oldChatInfo.UniqueFishers
+			oldUniquef = oldChatInfo.UniqueFish
 		}
 
 		changeEmoji := ChangeEmoji(rank, oldRank, found)

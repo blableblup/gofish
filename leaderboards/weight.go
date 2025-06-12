@@ -3,7 +3,6 @@ package leaderboards
 import (
 	"context"
 	"fmt"
-	"gofish/data"
 	"gofish/logs"
 	"os"
 	"path/filepath"
@@ -125,7 +124,7 @@ func processWeight(params LeaderboardParams) {
 	}
 }
 
-func getWeightRecords(params LeaderboardParams, weightlimit float64) (map[int]data.FishInfo, error) {
+func getWeightRecords(params LeaderboardParams, weightlimit float64) (map[int]BoardData, error) {
 	board := params.LeaderboardType
 	chatName := params.ChatName
 	global := params.Global
@@ -133,14 +132,14 @@ func getWeightRecords(params LeaderboardParams, weightlimit float64) (map[int]da
 	pool := params.Pool
 	date := params.Date
 
-	recordWeight := make(map[int]data.FishInfo)
+	recordWeight := make(map[int]BoardData)
 	var rows pgx.Rows
 	var err error
 
 	// Query the database to get the biggest fish per player for the specific chat or globally
 	if !global {
 		rows, err = pool.Query(context.Background(), `
-		SELECT f.playerid, f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid,
+		SELECT f.playerid, f.weight, f.fishname, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid,
 		RANK() OVER (ORDER BY f.weight DESC)
 		FROM fish f
 		JOIN (
@@ -161,7 +160,7 @@ func getWeightRecords(params LeaderboardParams, weightlimit float64) (map[int]da
 		}
 	} else {
 		rows, err = pool.Query(context.Background(), `
-		SELECT f.playerid, f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid,
+		SELECT f.playerid, f.weight, f.fishname, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid,
 		RANK() OVER (ORDER BY f.weight DESC)
 		FROM fish f
 		JOIN (
@@ -181,7 +180,7 @@ func getWeightRecords(params LeaderboardParams, weightlimit float64) (map[int]da
 		}
 	}
 
-	results, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
+	results, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[BoardData])
 	if err != nil && err != pgx.ErrNoRows {
 		logs.Logs().Error().Err(err).
 			Str("Chat", chatName).
@@ -197,7 +196,7 @@ func getWeightRecords(params LeaderboardParams, weightlimit float64) (map[int]da
 			return recordWeight, err
 		}
 
-		result.Type, err = FishStuff(result.TypeName, params)
+		result.FishType, err = FishStuff(result.FishName, params)
 		if err != nil {
 			return recordWeight, err
 		}
@@ -213,7 +212,7 @@ func getWeightRecords(params LeaderboardParams, weightlimit float64) (map[int]da
 	return recordWeight, nil
 }
 
-func writeWeight(filePath string, recordWeight map[int]data.FishInfo, oldRecordWeight map[int]data.FishInfo, title string, global bool, board string, weightlimit float64) error {
+func writeWeight(filePath string, recordWeight map[int]BoardData, oldRecordWeight map[int]BoardData, title string, global bool, board string, weightlimit float64) error {
 
 	// Ensure that the directory exists before attempting to create the file
 	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
@@ -251,8 +250,8 @@ func writeWeight(filePath string, recordWeight map[int]data.FishInfo, oldRecordW
 
 	for _, playerID := range sortedWeightRecords {
 		weight := recordWeight[playerID].Weight
-		fishType := recordWeight[playerID].Type
-		fishName := recordWeight[playerID].TypeName
+		fishType := recordWeight[playerID].FishType
+		fishName := recordWeight[playerID].FishName
 		rank := recordWeight[playerID].Rank
 		player := recordWeight[playerID].Player
 		date := recordWeight[playerID].Date

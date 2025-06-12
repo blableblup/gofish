@@ -3,7 +3,6 @@ package leaderboards
 import (
 	"context"
 	"fmt"
-	"gofish/data"
 	"gofish/logs"
 	"gofish/utils"
 	"os"
@@ -72,14 +71,14 @@ func processAverageWeight(params LeaderboardParams) {
 	}
 }
 
-func getAverageWeights(params LeaderboardParams) (map[string]data.FishInfo, error) {
+func getAverageWeights(params LeaderboardParams) (map[string]BoardData, error) {
 	board := params.LeaderboardType
 	config := params.Config
 	date2 := params.Date2
 	date := params.Date
 	pool := params.Pool
 
-	Weights := make(map[string]data.FishInfo)
+	Weights := make(map[string]BoardData)
 	var rows pgx.Rows
 	var err error
 
@@ -138,9 +137,9 @@ func getAverageWeights(params LeaderboardParams) (map[string]data.FishInfo, erro
 		}
 
 		for rows.Next() {
-			var fishInfo data.FishInfo
+			var fishInfo BoardData
 
-			if err := rows.Scan(&fishInfo.TypeName, &fishInfo.Weight); err != nil {
+			if err := rows.Scan(&fishInfo.FishName, &fishInfo.Weight); err != nil {
 				logs.Logs().Error().Err(err).
 					Str("Chat", chatName).
 					Str("Board", board).
@@ -148,7 +147,7 @@ func getAverageWeights(params LeaderboardParams) (map[string]data.FishInfo, erro
 				return Weights, err
 			}
 
-			fishInfo.Type, err = FishStuff(fishInfo.TypeName, params)
+			fishInfo.FishType, err = FishStuff(fishInfo.FishName, params)
 			if err != nil {
 				return Weights, err
 			}
@@ -159,7 +158,7 @@ func getAverageWeights(params LeaderboardParams) (map[string]data.FishInfo, erro
 			}
 
 			// If chat is global, store as weight. If not, store as chatweights
-			existingFishInfo, exists := Weights[fishInfo.TypeName]
+			existingFishInfo, exists := Weights[fishInfo.FishName]
 			if exists {
 
 				if chatName != "global" {
@@ -171,20 +170,20 @@ func getAverageWeights(params LeaderboardParams) (map[string]data.FishInfo, erro
 					existingFishInfo.Weight = fishInfo.Weight
 				}
 
-				Weights[fishInfo.TypeName] = existingFishInfo
+				Weights[fishInfo.FishName] = existingFishInfo
 			} else {
 
 				if chatName != "global" {
-					Weights[fishInfo.TypeName] = data.FishInfo{
-						TypeName:    fishInfo.TypeName,
-						Type:        fishInfo.Type,
+					Weights[fishInfo.FishName] = BoardData{
+						FishName:    fishInfo.FishName,
+						FishType:    fishInfo.FishType,
 						ChatWeights: map[string]float64{pfp: fishInfo.Weight},
 					}
 				} else {
-					Weights[fishInfo.TypeName] = data.FishInfo{
+					Weights[fishInfo.FishName] = BoardData{
 						Weight:   fishInfo.Weight,
-						TypeName: fishInfo.TypeName,
-						Type:     fishInfo.Type,
+						FishName: fishInfo.FishName,
+						FishType: fishInfo.FishType,
 					}
 				}
 
@@ -203,7 +202,7 @@ func getAverageWeights(params LeaderboardParams) (map[string]data.FishInfo, erro
 	return Weights, nil
 }
 
-func writeAverageWeight(filePath string, Weights map[string]data.FishInfo, oldWeights map[string]data.FishInfo, title string) error {
+func writeAverageWeight(filePath string, Weights map[string]BoardData, oldWeights map[string]BoardData, title string) error {
 
 	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
 		return err
@@ -239,7 +238,7 @@ func writeAverageWeight(filePath string, Weights map[string]data.FishInfo, oldWe
 	for _, FishName := range sortedFish {
 		Weight := Weights[FishName].Weight
 		ChatWeights := Weights[FishName].ChatWeights
-		Emoji := Weights[FishName].Type
+		Emoji := Weights[FishName].FishType
 
 		if Weight != prevWeight {
 			rank += occupiedRanks[rank]

@@ -3,7 +3,6 @@ package leaderboards
 import (
 	"context"
 	"fmt"
-	"gofish/data"
 	"gofish/logs"
 	"os"
 	"path/filepath"
@@ -123,7 +122,7 @@ func processCount(params LeaderboardParams) {
 	}
 }
 
-func getCount(params LeaderboardParams, countlimit int) (map[int]data.FishInfo, error) {
+func getCount(params LeaderboardParams, countlimit int) (map[int]BoardData, error) {
 	board := params.LeaderboardType
 	boardInfo := params.BoardInfo
 	chatName := params.ChatName
@@ -132,7 +131,7 @@ func getCount(params LeaderboardParams, countlimit int) (map[int]data.FishInfo, 
 	pool := params.Pool
 	date := params.Date
 
-	fishCaught := make(map[int]data.FishInfo)
+	fishCaught := make(map[int]BoardData)
 	var rows pgx.Rows
 	var err error
 
@@ -158,7 +157,7 @@ func getCount(params LeaderboardParams, countlimit int) (map[int]data.FishInfo, 
 		}
 	}
 
-	results, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
+	results, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[BoardData])
 	if err != nil && err != pgx.ErrNoRows {
 		logs.Logs().Error().Err(err).
 			Str("Chat", chatName).
@@ -200,7 +199,7 @@ func getCount(params LeaderboardParams, countlimit int) (map[int]data.FishInfo, 
 			return fishCaught, err
 		}
 
-		results, err = pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
+		results, err = pgx.CollectRows(rows, pgx.RowToStructByNameLax[BoardData])
 		if err != nil && err != pgx.ErrNoRows {
 			logs.Logs().Error().Err(err).
 				Str("Chat", chatName).
@@ -230,7 +229,7 @@ func getCount(params LeaderboardParams, countlimit int) (map[int]data.FishInfo, 
 	return fishCaught, nil
 }
 
-func writeCount(filePath string, fishCaught map[int]data.FishInfo, oldCountRecord map[int]data.FishInfo, title string, global bool, board string, countlimit int) error {
+func writeCount(filePath string, fishCaught map[int]BoardData, oldCountRecord map[int]BoardData, title string, global bool, board string, countlimit int) error {
 
 	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
 		return err
@@ -281,7 +280,7 @@ func writeCount(filePath string, fishCaught map[int]data.FishInfo, oldCountRecor
 		Player := fishCaught[playerID].Player
 		Count := fishCaught[playerID].Count
 		ChatCounts := fishCaught[playerID].ChatCounts
-		FishName := fishCaught[playerID].TypeName
+		FishName := fishCaught[playerID].FishName
 
 		// Increment rank only if the count has changed
 		if Count != prevCount {

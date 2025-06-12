@@ -3,7 +3,6 @@ package leaderboards
 import (
 	"context"
 	"fmt"
-	"gofish/data"
 	"gofish/logs"
 	"os"
 	"path/filepath"
@@ -85,17 +84,17 @@ func processShinies(params LeaderboardParams) {
 	}
 }
 
-func getShinies(params LeaderboardParams) (map[int]data.FishInfo, error) {
+func getShinies(params LeaderboardParams) (map[int]BoardData, error) {
 	board := params.LeaderboardType
 	date2 := params.Date2
 	date := params.Date
 	pool := params.Pool
 
-	Shinies := make(map[int]data.FishInfo)
+	Shinies := make(map[int]BoardData)
 
 	// This will work if there are multiple shinies for the same fishtype
 	rows, err := pool.Query(context.Background(), `
-		select f.fishid, f.chatid, f.fishtype as type, f.fishname as typename, f.weight, f.catchtype, f.playerid, f.date, f.bot, f.chat 
+		select f.fishid, f.chatid, f.fishtype, f.fishname, f.weight, f.catchtype, f.playerid, f.date, f.bot, f.chat 
 		from fish f
 		join(
 		select shiny
@@ -111,7 +110,7 @@ func getShinies(params LeaderboardParams) (map[int]data.FishInfo, error) {
 		return Shinies, err
 	}
 
-	results, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
+	results, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[BoardData])
 	if err != nil && err != pgx.ErrNoRows {
 		logs.Logs().Error().Err(err).
 			Str("Board", board).
@@ -127,7 +126,7 @@ func getShinies(params LeaderboardParams) (map[int]data.FishInfo, error) {
 		}
 
 		result.ChatPfp = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", result.Chat, result.Chat)
-		result.Type = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/shiny/%s.png)", result.Type, result.Type)
+		result.FishType = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/shiny/%s.png)", result.FishType, result.FishType)
 
 		Shinies[result.FishId] = result
 
@@ -136,7 +135,7 @@ func getShinies(params LeaderboardParams) (map[int]data.FishInfo, error) {
 	return Shinies, nil
 }
 
-func writeFishList(filePath string, fishy map[int]data.FishInfo, oldFishy map[int]data.FishInfo, title string, global bool, board string, weightlimit float64) error {
+func writeFishList(filePath string, fishy map[int]BoardData, oldFishy map[int]BoardData, title string, global bool, board string, weightlimit float64) error {
 
 	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
 		return err
@@ -190,7 +189,7 @@ func writeFishList(filePath string, fishy map[int]data.FishInfo, oldFishy map[in
 		}
 
 		_, _ = fmt.Fprintf(file, "| %d %s | %s%s | %s %s | %v | %s |",
-			rank, changeEmoji, fishy[fishid].Player, botIndicator, fishy[fishid].Type, fishy[fishid].TypeName, fishy[fishid].Weight, fishy[fishid].Date.Format("2006-01-02 15:04:05"))
+			rank, changeEmoji, fishy[fishid].Player, botIndicator, fishy[fishid].FishType, fishy[fishid].FishName, fishy[fishid].Weight, fishy[fishid].Date.Format("2006-01-02 15:04:05"))
 		if global {
 			_, _ = fmt.Fprintf(file, " %s |", fishy[fishid].ChatPfp)
 		}

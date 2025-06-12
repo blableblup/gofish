@@ -3,7 +3,6 @@ package leaderboards
 import (
 	"context"
 	"fmt"
-	"gofish/data"
 	"gofish/logs"
 	"strconv"
 	"strings"
@@ -126,7 +125,7 @@ func processWeight2(params LeaderboardParams) {
 	}
 }
 
-func getWeightRecords2(params LeaderboardParams, limit int) (map[int]data.FishInfo, error) {
+func getWeightRecords2(params LeaderboardParams, limit int) (map[int]BoardData, error) {
 	board := params.LeaderboardType
 	chatName := params.ChatName
 	global := params.Global
@@ -134,13 +133,13 @@ func getWeightRecords2(params LeaderboardParams, limit int) (map[int]data.FishIn
 	pool := params.Pool
 	date := params.Date
 
-	recordWeight := make(map[int]data.FishInfo)
+	recordWeight := make(map[int]BoardData)
 	var rows pgx.Rows
 	var err error
 
 	if !global {
 		rows, err = pool.Query(context.Background(), `
-		SELECT playerid, weight, fishname as typename, bot, chat, date, catchtype, fishid, chatid,
+		SELECT playerid, weight, fishname, bot, chat, date, catchtype, fishid, chatid,
 		RANK() OVER (ORDER BY weight DESC)
 		FROM fish 
 		WHERE chat = $1
@@ -156,7 +155,7 @@ func getWeightRecords2(params LeaderboardParams, limit int) (map[int]data.FishIn
 		}
 	} else {
 		rows, err = pool.Query(context.Background(), `
-		SELECT playerid, weight, fishname as typename, bot, chat, date, catchtype, fishid, chatid,
+		SELECT playerid, weight, fishname, bot, chat, date, catchtype, fishid, chatid,
 		RANK() OVER (ORDER BY weight DESC)
 		FROM fish 
 		WHERE date < $1
@@ -171,7 +170,7 @@ func getWeightRecords2(params LeaderboardParams, limit int) (map[int]data.FishIn
 		}
 	}
 
-	results, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
+	results, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[BoardData])
 	if err != nil && err != pgx.ErrNoRows {
 		logs.Logs().Error().Err(err).
 			Str("Chat", chatName).
@@ -187,7 +186,7 @@ func getWeightRecords2(params LeaderboardParams, limit int) (map[int]data.FishIn
 			return recordWeight, err
 		}
 
-		result.Type, err = FishStuff(result.TypeName, params)
+		result.FishType, err = FishStuff(result.FishName, params)
 		if err != nil {
 			return recordWeight, err
 		}
