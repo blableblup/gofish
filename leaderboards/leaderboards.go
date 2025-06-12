@@ -30,6 +30,8 @@ type BoardData struct {
 	ChatId    int       `json:"chatid,omitempty"`
 	Date      time.Time `json:"date,omitempty"`
 
+	TotalWeight float64 `json:"totalweight,omitempty"`
+
 	// idk
 	Count       int                `json:"count,omitempty"`
 	ChatCounts  map[string]int     `json:"chatcounts,omitempty"`
@@ -256,6 +258,12 @@ func Leaderboards(pool *pgxpool.Pool, leaderboards string, chatNames string, dat
 			GlobalOnly: false,
 			Tournament: false,
 			Function:   processWeight2,
+		},
+		"weighttotal": {
+			hasGlobal:  true,
+			GlobalOnly: false,
+			Tournament: false,
+			Function:   processWeightTotal,
 		},
 
 		"averageweight": {

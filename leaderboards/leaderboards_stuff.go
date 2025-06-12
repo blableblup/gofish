@@ -161,6 +161,9 @@ func sortMapIntFishInfo(somemap map[int]BoardData, whattosort string) []int {
 	case "weightdesc":
 		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Player < somemap[blee[j]].Player })
 		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Weight > somemap[blee[j]].Weight })
+	case "totalweightdesc":
+		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Player < somemap[blee[j]].Player })
+		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].TotalWeight > somemap[blee[j]].TotalWeight })
 	case "countdesc":
 		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Player < somemap[blee[j]].Player })
 		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Count > somemap[blee[j]].Count })
