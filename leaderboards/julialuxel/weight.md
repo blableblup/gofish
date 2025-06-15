@@ -13,7 +13,8 @@
 | 10  | ryebreadward | 🦕 sauropod | 89.88 | 2024-01-04 08:28:06 |
 | 11  | puzzlow | 🦑 squid | 89.25 | 2024-01-04 20:01:34 |
 | 12  | vinfg1 | 🦭 seal | 63.07 | 2024-01-11 12:58:29 |
+| 13 🆕 | mangos4u | 🐉 dragon | 61.28 | 2025-06-14 02:17:12 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2025-05-25 10:46:11 UTC_
+_Last updated at 2025-06-15 13:38:39 UTC_

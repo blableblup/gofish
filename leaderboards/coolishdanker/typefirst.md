@@ -1,6 +1,7 @@
 ### First fish per type caught in coolishdanker's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 32  | 🌿 seaweed | 0.41 | fenix8 | 2025-06-09 11:06:52 |
 | 31  | 🧽 sponge | 3.08 | kidnamedzan | 2025-02-16 21:07:25 |
 | 30  | 🪳 cockroach | 6.71 | fenix8 | 2025-02-06 07:40:56 |
 | 29  | 🩰 balletshoes | 1.36 | jaial | 2025-01-28 02:17:23 |
@@ -33,4 +34,4 @@
 | 2  | 🦦 otter | 15.31 | fenix8 | 2025-01-09 22:21:18 |
 | 1  | 🐸 frog | 1.79 | fenix8 | 2025-01-09 21:16:43 |
 
-_Last updated at 2025-06-08 09:47:12 UTC_
+_Last updated at 2025-06-15 13:37:38 UTC_

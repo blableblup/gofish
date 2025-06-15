@@ -89,4 +89,4 @@
 | 2  | 🪝 hook | 0.40 | lolspers | 2024-10-20 21:13:11 |
 | 1  | 🎏 lure | 0.16 | burnend | 2024-10-20 21:13:00 |
 
-_Last updated at 2025-06-08 09:47:13 UTC_
+_Last updated at 2025-06-15 13:32:03 UTC_

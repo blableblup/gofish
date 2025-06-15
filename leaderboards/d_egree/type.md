@@ -48,13 +48,14 @@
 | 45  | ☘️ shamrock | 1.65 | koromadeno_shogun | 2024-09-29 21:59:37 |
 | 46  | 🩴 thongsandal | 1.63 | koromadeno_shogun | 2024-09-16 19:47:21 |
 | 47  | 🩰 balletshoes | 1.50 | islcfc | 2023-12-07 21:39:35 |
-| 48  | 🐌 snail | 1.26 | koromadeno_shogun | 2024-09-02 19:55:10 |
-| 49  | 🥫 cannedfood | 1.13 | benni900 | 2025-02-24 14:01:06 |
-| 50  | 🌿 seaweed | 0.78 | larvasisters | 2024-06-01 20:46:09 |
-| 51  | 🧤 gloves | 0.70 | benni900 | 2025-02-15 22:44:26 |
-| 52  | 🍁 mapleleaf | 0.56 | koromadeno_shogun | 2024-09-30 23:22:41 |
-| 53  | 👢 boot | 0.25 | benni900 | 2025-02-16 12:11:25 |
+| 48 🆕 | 🍃 leaf | 1.38 | koromadeno_shogun | 2025-06-13 12:43:36 |
+| 49 ⬇ | 🐌 snail | 1.26 | koromadeno_shogun | 2024-09-02 19:55:10 |
+| 50 ⬇ | 🥫 cannedfood | 1.13 | benni900 | 2025-02-24 14:01:06 |
+| 51 ⬇ | 🌿 seaweed | 0.78 | larvasisters | 2024-06-01 20:46:09 |
+| 52 ⬇ | 🧤 gloves | 0.70 | benni900 | 2025-02-15 22:44:26 |
+| 53 ⬇ | 🍁 mapleleaf | 0.56 | koromadeno_shogun | 2024-09-30 23:22:41 |
+| 54 ⬇ | 👢 boot | 0.25 | benni900 | 2025-02-16 12:11:25 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-04-13 10:23:26 UTC_
+_Last updated at 2025-06-15 13:38:06 UTC_

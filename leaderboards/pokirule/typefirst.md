@@ -1,6 +1,7 @@
 ### First fish per type caught in pokirule's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 44  | 🧃 beveragebox | 10.04 | larvasisters | 2025-06-12 04:24:59 |
 | 43  | 👢 boot | 1.76 | osnyatsky | 2025-01-06 19:54:33 |
 | 42  | 🥫 cannedfood | 4.34 | osnyisdead | 2025-01-02 00:49:39 |
 | 41  | ⛸️ iceskate | 0.25 | osnyisdead | 2025-01-02 00:18:53 |
@@ -45,4 +46,4 @@
 | 2  | 🐟 fish | 18.70 | osnyisdead | 2024-10-01 00:57:38 |
 | 1  | 🐸 frog | 4.68 | osnyisdead | 2024-09-30 22:45:01 |
 
-_Last updated at 2025-06-08 09:47:13 UTC_
+_Last updated at 2025-06-15 13:37:38 UTC_

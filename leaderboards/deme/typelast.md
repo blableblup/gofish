@@ -1,10 +1,12 @@
 ### Last fish per type caught in deme's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
-| 13  | 🐸 frog | 2.08 | naori_desu | 2025-06-04 20:47:52 |
-| 12  | 🪸 coral | 14.11 | commanda_u | 2025-06-02 08:53:33 |
-| 11  | 🐠 tropicalfish | 9.37 | letter__n | 2025-06-01 05:51:00 |
-| 10  | 🐟 fish | 13.96 | aim1138 | 2025-06-01 01:50:28 |
+| 15  | 🐚 shell | 0.68 | naori_desu | 2025-06-14 10:37:55 |
+| 14  | 🧽 sponge | 7.74 | larvasisters | 2025-06-12 19:31:22 |
+| 13  | 🐟 fish | 10.41 | naori_desu | 2025-06-12 07:50:37 |
+| 12  | 🐸 frog | 2.08 | naori_desu | 2025-06-04 20:47:52 |
+| 11  | 🪸 coral | 14.11 | commanda_u | 2025-06-02 08:53:33 |
+| 10  | 🐠 tropicalfish | 9.37 | letter__n | 2025-06-01 05:51:00 |
 | 9  | 🎏 lure | 0.04 | aim1138 | 2025-06-01 00:43:22 |
 | 8  | 🦀 crab | 1.23 | naori_desu | 2025-06-01 00:01:44 |
 | 7  | 🦑 squid | 1.64 | commanda_u | 2025-05-31 10:40:40 |
@@ -15,4 +17,4 @@
 | 2  | 🐡 blowfish | 8.96 | commanda_u | 2025-05-18 21:28:28 |
 | 1  | 🐊 crocodile | 45.42 | fantanium | 2025-05-12 16:37:44 |
 
-_Last updated at 2025-06-08 09:48:47 UTC_
+_Last updated at 2025-06-15 13:36:26 UTC_

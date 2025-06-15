@@ -1,6 +1,7 @@
 ### Last fish per type caught in yopego's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 45  | 🪱 worm | 0.44 | larvasisters | 2025-06-12 07:25:38 |
 | 44  | 🐳 whale | 67.71 | sequally | 2025-03-03 18:51:11 |
 | 43  | 🐸 frog | 0.83 | gizei_ | 2025-03-03 15:39:07 |
 | 42  | 🦪 oyster | 38.73 | grumpo_ | 2024-12-18 11:27:02 |
@@ -46,4 +47,4 @@
 | 2  | 🦆 duck | 1.83 | cornstarch1g | 2024-10-07 19:38:57 |
 | 1  | 🪀 bobber | 0.00 | yopego | 2024-10-05 14:35:43 |
 
-_Last updated at 2025-06-08 09:47:12 UTC_
+_Last updated at 2025-06-15 13:36:26 UTC_

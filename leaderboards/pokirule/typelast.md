@@ -1,6 +1,7 @@
 ### Last fish per type caught in pokirule's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 44  | 🧃 beveragebox | 10.04 | larvasisters | 2025-06-12 04:24:59 |
 | 43  | 🥫 cannedfood | 1.06 | osnyatsky | 2025-01-08 23:20:44 |
 | 42  | 🦑 squid | 25.79 | osnyisdead | 2025-01-08 23:20:22 |
 | 41  | 🐚 shell | 2.33 | osnyatsky | 2025-01-08 22:28:20 |
@@ -45,4 +46,4 @@
 | 2  | 🧽 sponge | 16.50 | osnyisdead | 2024-10-01 19:50:36 |
 | 1  | 🧦 socks | 1.03 | osnyisdead | 2024-10-01 17:44:35 |
 
-_Last updated at 2025-06-08 09:47:12 UTC_
+_Last updated at 2025-06-15 13:36:26 UTC_

@@ -1,11 +1,11 @@
 ### Smallest fish per type caught in ryanpotat's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
-| 1 🥇 ⬆ | 🦈 shark | 110.09 | lolspers | 2024-10-28 12:05:14 |
-| 2 🥈 ⬆ | 🦭 seal | 90.62 | n1nzin_ | 2024-11-19 15:41:36 |
-| 3 🥉 ⬆ | 🐉 dragon | 86.01 | n1nzin_ | 2024-11-23 12:36:57 |
-| 4 ⬆ | 🐊 crocodile | 83.85 | respirate_ | 2024-10-02 21:06:55 |
-| 5 ⬇ | 🦕 sauropod | 60.59 (-117.05) | n1nzin_ | 2025-06-06 09:40:27 |
+| 1 🥇  | 🦈 shark | 110.09 | lolspers | 2024-10-28 12:05:14 |
+| 2 🥈  | 🦭 seal | 90.62 | n1nzin_ | 2024-11-19 15:41:36 |
+| 3 🥉  | 🐉 dragon | 86.01 | n1nzin_ | 2024-11-23 12:36:57 |
+| 4  | 🐊 crocodile | 83.85 | respirate_ | 2024-10-02 21:06:55 |
+| 5  | 🦕 sauropod | 60.59 | n1nzin_ | 2025-06-06 09:40:27 |
 | 6  | 🐋 whale2 | 55.60 | n1nzin_ | 2024-11-16 13:00:49 |
 | 7  | 🐢 turtle | 55.18 | lolspers | 2024-12-24 21:32:04 |
 | 8  | 🦞 lobster | 39.29 | n1nzin_ | 2024-12-08 01:52:20 |
@@ -31,8 +31,8 @@
 | 28  | 🐟 fish | 0.72 | n1nzin_ | 2024-11-29 11:20:08 |
 | 29  | 🦀 crab | 0.71 | n1nzin_ | 2024-11-23 10:16:04 |
 | 30  | 🪳 cockroach | 0.53 | n1nzin_ | 2024-11-20 12:33:42 |
-| 31  | 🎏 lure | 0.43 | n1nzin_ | 2024-11-14 19:28:22 |
-| 32  | 🐸 frog | 0.31 | lolspers | 2024-12-23 20:41:41 |
+| 31 ⬆ | 🐸 frog | 0.31 | lolspers | 2024-12-23 20:41:41 |
+| 32 ⬇ | 🎏 lure | 0.28 (-0.15) | larvasisters | 2025-06-12 18:38:21 |
 | 33  | 🪝 hook | 0.11 | n1nzin_ | 2024-12-07 13:24:30 |
 | 33  | 🐚 shell | 0.11 | 6daves | 2024-10-29 20:33:19 |
 | 35  | 🌿 seaweed | 0.09 | n1nzin_ | 2024-11-14 11:50:50 |
@@ -40,4 +40,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-06-08 09:48:32 UTC_
+_Last updated at 2025-06-15 13:36:48 UTC_

@@ -24,7 +24,7 @@
 | 21  | 🧞‍♂ malegenie | 60.36 | tairaaaaa | 2024-10-31 12:12:01 |
 | 22  | 🛒 shoppingcart | 56.52 | buhl00n | 2025-01-02 17:13:58 |
 | 23  | 🗡️ dagger | 47.93 | juhjimmy | 2024-10-22 01:44:12 |
-| 24  | 🪨 rock | 47.85 (+2.39) | buhl00n | 2025-06-07 06:22:40 |
+| 24  | 🪨 rock | 47.85 | buhl00n | 2025-06-07 06:22:40 |
 | 25  | 🦫 beaver | 43.66 | gimmeschmoneys | 2025-04-01 21:24:25 |
 | 26  | 🐸 frog | 42.05 | exo9 | 2024-10-29 22:15:02 |
 | 27  | 🐧 penguin | 40.98 | buhl00n | 2024-12-25 06:28:31 |
@@ -91,4 +91,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-06-08 09:49:00 UTC_
+_Last updated at 2025-06-15 13:32:23 UTC_

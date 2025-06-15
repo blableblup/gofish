@@ -61,4 +61,4 @@
 | 2  | 👑 crown | 1.16 | alenakuz03 | 2023-10-19 10:36:49 |
 | 1  | 🧟 zombie | 109.08 | ovrht | 2023-10-13 17:00:56 |
 
-_Last updated at 2025-06-08 09:47:11 UTC_
+_Last updated at 2025-06-15 13:32:04 UTC_

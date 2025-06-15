@@ -1,8 +1,8 @@
 ### Players who have seen the most fish in dizzy's chat
 | Rank | Player | Fish Seen |
 |------|--------|-----------|
-| 1 🥇  | buhl00n  | 76 |
-| 2 🥈  | iam_glorp  | 70 |
+| 1 🥇  | buhl00n  | 78 (+2) |
+| 2 🥈  | iam_glorp  | 71 (+1) |
 | 3 🥉  | gimmeschmoneys  | 62 |
 | 4  | ben_vincent  | 60 |
 | 5  | iam_haunt  | 58 |
@@ -22,23 +22,23 @@
 | 19  | burnend  | 38 |
 | 20  | aceleju  | 36 |
 | 20  | kyonuwu  | 36 |
-| 22 ⬆ | lilzomme  | 35 (+2) |
+| 22  | lilzomme  | 35 |
 | 22  | mousee93  | 35 |
-| 24 ⬇ | kukkuri  | 34 |
-| 25 ⬇ | wisteraeia  | 33 |
+| 24  | kukkuri  | 34 |
+| 25  | wisteraeia  | 33 |
 | 26  | feuha  | 32 |
 | 27  | 777pancake  | 31 |
 | 27  | paperboat99  | 31 |
-| 29  | icejamx  | 30 |
-| 29  | whoop_ee  | 30 |
+| 27 ⬆ | whoop_ee  | 31 (+1) |
+| 30 ⬇ | icejamx  | 30 |
 | 31  | silent11d5  | 27 |
 | 32  | respirate_  | 26 |
 | 32  | ruusui  | 26 |
 | 34  | youngstercal  | 25 |
-| 35 ⬆ | buffyo  | 24 (+1) |
+| 35  | buffyo  | 24 |
 | 35  | rougep1rate  | 24 |
-| 37 ⬇ | maccat1337  | 23 |
-| 37 ⬇ | popfizzgg  | 23 |
+| 37  | maccat1337  | 23 |
+| 37  | popfizzgg  | 23 |
 | 39  | dizzy  | 22 |
 | 39  | mitsu_skidz  | 22 |
 | 41  | fvkdylan  | 21 |
@@ -52,4 +52,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2025-06-01 09:15:17 UTC_
+_Last updated at 2025-06-15 13:36:24 UTC_

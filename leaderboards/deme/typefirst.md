@@ -1,6 +1,8 @@
 ### First fish per type caught in deme's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 15  | 🐚 shell | 0.68 | naori_desu | 2025-06-14 10:37:55 |
+| 14  | 🧽 sponge | 7.74 | larvasisters | 2025-06-12 19:31:22 |
 | 13  | 🐸 frog | 2.08 | naori_desu | 2025-06-04 20:47:52 |
 | 12  | 🪸 coral | 14.11 | commanda_u | 2025-06-02 08:53:33 |
 | 11  | 🐠 tropicalfish | 9.37 | letter__n | 2025-06-01 05:51:00 |
@@ -15,4 +17,4 @@
 | 2  | 🪝 hook | 0.32 | fantanium | 2025-05-12 07:45:38 |
 | 1  | 🐬 dolphin | 69.74 | commanda_u | 2025-05-11 22:35:17 |
 
-_Last updated at 2025-06-08 09:49:50 UTC_
+_Last updated at 2025-06-15 13:37:39 UTC_

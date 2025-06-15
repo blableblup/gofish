@@ -32,21 +32,21 @@
 | 29  | 🦐 shrimp | 32.97 | huuuuuuuuuuuuuuuuuuuuuurz | 2025-02-13 12:48:49 |
 | 30  | 🥒 cucumber | 31.96 | bubinga | 2025-05-03 14:25:44 |
 | 31  | 🗡️ dagger | 28.97 | wadupcaprise | 2025-04-01 13:47:22 |
-| 32  | 🧊 icecube | 27.54 | jr_mime | 2024-12-28 15:51:20 |
-| 33  | 🐠 tropicalfish | 26.16 | wowitsdub | 2025-03-24 19:49:25 |
-| 34  | 🐡 blowfish | 25.72 | iflya320 | 2025-05-05 13:57:35 |
+| 32 ⬆ | 🐡 blowfish | 27.71 (+1.99) | iflya320 | 2025-06-12 15:51:26 |
+| 33 ⬇ | 🧊 icecube | 27.54 | jr_mime | 2024-12-28 15:51:20 |
+| 34 ⬇ | 🐠 tropicalfish | 26.16 | wowitsdub | 2025-03-24 19:49:25 |
 | 35  | 🪳 cockroach | 25.42 | nndiana | 2025-01-05 07:04:19 |
-| 36 ⬆ | 🧽 sponge | 24.28 (+6.48) | iflya320 | 2025-06-03 11:55:22 |
-| 37 ⬇ | 🕷️ spider | 23.83 | wowitsdub | 2025-02-20 15:12:47 |
-| 38 ⬇ | 🎰 slotmachine | 23.62 | iflya320 | 2025-05-09 15:39:34 |
-| 39 ⬇ | 🍄‍🟫 brownmushroom | 21.92 | gorillapark | 2025-01-18 00:47:17 |
-| 40 ⬆ | 🪼 jellyfish | 21.73 (+6.57) | eeziiii | 2025-06-07 12:44:52 |
-| 41 ⬇ | 🦠 plankton | 21.44 | eeziiii | 2025-02-09 08:46:23 |
-| 42 ⬇ | 🦦 otter | 19.91 | wowitsdub | 2025-02-12 19:55:33 |
-| 43 ⬇ | 🪱 worm | 19.86 | bubinga | 2025-04-17 08:57:57 |
-| 44 ⬇ | 🧭 compass | 18.59 | lobuhtomy | 2024-12-24 15:38:26 |
-| 45 ⬇ | 🍄 mushroom | 17.60 | iflya320 | 2025-03-30 15:29:44 |
-| 46 ⬇ | 🪀 bobber | 15.44 | wuh6 | 2024-12-25 02:55:50 |
+| 36  | 🧽 sponge | 24.28 | iflya320 | 2025-06-03 11:55:22 |
+| 37  | 🕷️ spider | 23.83 | wowitsdub | 2025-02-20 15:12:47 |
+| 38  | 🎰 slotmachine | 23.62 | iflya320 | 2025-05-09 15:39:34 |
+| 39  | 🍄‍🟫 brownmushroom | 21.92 | gorillapark | 2025-01-18 00:47:17 |
+| 40  | 🪼 jellyfish | 21.73 | eeziiii | 2025-06-07 12:44:52 |
+| 41  | 🦠 plankton | 21.44 | eeziiii | 2025-02-09 08:46:23 |
+| 42  | 🦦 otter | 19.91 | wowitsdub | 2025-02-12 19:55:33 |
+| 43  | 🪱 worm | 19.86 | bubinga | 2025-04-17 08:57:57 |
+| 44  | 🧭 compass | 18.59 | lobuhtomy | 2024-12-24 15:38:26 |
+| 45  | 🍄 mushroom | 17.60 | iflya320 | 2025-03-30 15:29:44 |
+| 46  | 🪀 bobber | 15.44 | wuh6 | 2024-12-25 02:55:50 |
 | 47  | 🪵 log | 14.90 | wowitsdub | 2025-05-21 11:27:21 |
 | 48  | 🕶️ darksunglasses | 11.93 | eeziiii | 2025-05-03 15:33:19 |
 | 49  | 🐌 snail | 11.88 | bubinga | 2025-04-29 18:11:25 |
@@ -60,10 +60,10 @@
 | 57  | 🦆 duck | 10.61 | bubinga | 2025-05-07 19:58:52 |
 | 58  | 🩲 briefs | 10.02 | theevirus | 2025-05-28 20:51:58 |
 | 59  | 💀 skull | 9.98 | huuuuuuuuuuuuuuuuuuuuuurz | 2025-04-11 09:10:15 |
-| 60 ⬆ | 🧃 beveragebox | 9.92 (+1.24) | theevirus | 2025-06-06 20:22:12 |
-| 61 ⬇ | 🐦 bird | 8.94 | iflya320 | 2025-04-05 11:05:15 |
+| 60  | 🧃 beveragebox | 9.92 | theevirus | 2025-06-06 20:22:12 |
+| 61  | 🐦 bird | 8.94 | iflya320 | 2025-04-05 11:05:15 |
 | 62  | 🦎 lizard | 7.98 | benciee | 2024-12-21 21:30:22 |
-| 63  | 🐚 shell | 5.84 | wowitsdub | 2025-04-01 15:02:09 |
+| 63  | 🐚 shell | 5.92 (+0.08) | gorillapark | 2025-06-12 01:25:11 |
 | 64  | 🥫 cannedfood | 5.82 | theevirus | 2025-03-07 18:57:44 |
 | 65  | 🎏 lure | 5.67 | eeziiii | 2025-01-25 22:20:23 |
 | 66  | 🦢 swan | 5.64 | huuuuuuuuuuuuuuuuuuuuuurz | 2024-12-31 10:19:24 |
@@ -83,7 +83,7 @@
 | 79  | 🍃 leaf | 1.97 | theevirus | 2025-03-27 02:16:28 |
 | 81  | 🩰 balletshoes | 1.90 | bubinga | 2024-12-14 16:58:36 |
 | 82  | 🥪 sandwich | 1.83 | bubinga | 2024-12-16 11:35:24 |
-| 83  | 🩴 thongsandal | 1.80 (+0.16) | iflya320 | 2025-06-07 22:02:10 |
+| 83  | 🩴 thongsandal | 1.80 | iflya320 | 2025-06-07 22:02:10 |
 | 84  | 🧞‍♂ malegenie | 1.10 | eeziiii | 2025-02-16 11:13:46 |
 | 85  | 🌿 seaweed | 1.00 | iflya320 | 2024-12-14 23:52:21 |
 | 86  | 🌾 grass | 0.99 | bubinga | 2025-03-23 15:56:42 |
@@ -94,4 +94,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-06-08 09:49:45 UTC_
+_Last updated at 2025-06-15 13:38:38 UTC_

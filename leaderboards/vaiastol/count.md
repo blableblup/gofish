@@ -1,28 +1,28 @@
 ### Most fish caught in vaiastol's chat
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
-| 1 🥇  | vaiastol  | 2022 (+17) |
-| 2 🥈  | hahppyy  | 1211 (+6) |
-| 3 🥉  | eelacy  | 641 (+6) |
-| 4  | divra__  | 605 (+6) |
-| 5 ⬆ | leanmeister  | 489 (+13) |
-| 6 ⬇ | nicestnarwhal  | 483 |
-| 7  | leastsussyimposter  | 397 (+1) |
+| 1 🥇  | vaiastol  | 2055 (+33) |
+| 2 🥈  | hahppyy  | 1224 (+13) |
+| 3 🥉  | eelacy  | 643 (+2) |
+| 4  | divra__  | 608 (+3) |
+| 5  | leanmeister  | 490 (+1) |
+| 6  | nicestnarwhal  | 483 |
+| 7  | leastsussyimposter  | 399 (+2) |
 | 8  | pengeg  | 237 |
 | 9  | dayzedinndaydreams  | 232 |
-| 10  | garout  | 180 (+8) |
+| 10  | garout  | 207 (+27) |
 | 11  | milesdotcom  | 137 |
 | 12  | beebo8i  | 120 |
-| 13  | yoimlee  | 105 (+1) |
-| 14  | julialuxel  | 97 (+1) |
+| 13  | yoimlee  | 105 |
+| 14  | julialuxel  | 97 |
 | 15  | tiaguitos97  | 79 |
 | 16  | bubinga  | 55 |
-| 17  | rird_  | 45 (+1) |
+| 17  | rird_  | 45 |
 | 18  | fvkdylan  | 42 |
-| 19  | obama  | 32 (+2) |
-| 20 ⬇ | larvasisters  | 30 |
-| 21  | houseofleaves*  | 27 |
-| 22  | redreignss  | 22 (+4) |
+| 19  | obama  | 34 (+2) |
+| 20  | larvasisters  | 30 |
+| 21 ⬆ | redreignss  | 28 (+6) |
+| 22 ⬇ | houseofleaves*  | 27 |
 | 23  | cyaniderx  | 17 |
 | 23  | devroyalty  | 17 |
 | 23  | jr_mime  | 17 |
@@ -38,4 +38,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-06-08 09:48:49 UTC_
+_Last updated at 2025-06-15 13:36:20 UTC_

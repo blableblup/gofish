@@ -24,34 +24,34 @@
 | 21  | 🍄‍🟫 brownmushroom | 0.28 | osnyisdead | 2025-01-14 02:54:02 |
 | 21  | 🪼 jellyfish | 0.28 | dayzedinndaydreams | 2024-08-14 19:13:07 |
 | 23  | 🧭 compass | 0.25 | breadworms | 2025-01-02 17:10:06 |
-| 24  | 🧃 beveragebox | 0.21 | qu4ttromila | 2023-07-09 11:25:41 |
 | 24  | 🐊 crocodile | 0.21 | suavvvvv | 2024-03-05 17:44:44 |
-| 26  | 🕶️ darksunglasses | 0.19 | leanmeister | 2023-09-03 10:41:13 |
-| 27  | 🦢 swan | 0.17 | lluuucy | 2024-07-15 15:39:04 |
-| 28  | 🦭 seal | 0.15 | dayzedinndaydreams | 2024-01-28 16:20:04 |
-| 29  | 🥒 cucumber | 0.14 | puzzlow | 2023-08-17 12:35:10 |
-| 30  | 🎱 8ball | 0.13 | gstaman911 | 2025-03-13 03:26:38 |
-| 31  | 🐦 bird | 0.12 | idini | 2025-01-11 08:43:38 |
-| 31  | 🦦 otter | 0.12 | qu4ttromila | 2024-03-10 17:13:08 |
-| 31  | 🦠 plankton | 0.12 | paras220 | 2024-01-24 08:49:07 |
-| 34  | 🩲 briefs | 0.11 | derinturitierutz | 2024-07-31 17:15:58 |
-| 34  | 🪹 emptynest | 0.11 | dougiefresh_83 | 2025-04-09 06:41:33 |
-| 34  | 🥀 wiltedflower | 0.11 | ninjaross | 2024-12-22 11:28:27 |
-| 37  | 🧣 scarf | 0.10 | ryebreadward | 2023-12-25 05:27:44 |
-| 38  | 🐬 dolphin | 0.09 | fishingalt | 2023-12-22 20:00:52 |
-| 38  | 🍄 mushroom | 0.09 | miiiiisho | 2024-01-24 19:44:13 |
-| 38  | 🌻 sunflower | 0.09 | divra__ | 2024-06-22 14:36:26 |
-| 41  | 🐧 penguin | 0.08 | bapqo | 2024-12-24 06:23:03 |
-| 41  | 🦈 shark | 0.08 | sussy_amonge | 2023-05-06 16:00:04 |
-| 43  | 🧸 teddybear | 0.07 | sicklymaidrobot | 2024-02-13 07:14:29 |
-| 43  | 👒 womanshat | 0.07 | breadworms | 2024-02-21 05:05:28 |
-| 45  | 🐦‍⬛ blackbird | 0.06 | paras220 | 2024-07-07 04:33:58 |
-| 45  | 🦕 sauropod | 0.06 | dayzedinndaydreams | 2023-06-23 01:50:15 |
-| 45  | 🌷 tulip | 0.06 | qu4ttromila | 2025-03-15 12:00:08 |
-| 48  | 🦞 lobster | 0.05 | derinturitierutz | 2023-09-27 05:33:15 |
-| 49  | 🪺 nestwitheggs | 0.04 | idini | 2024-12-21 20:55:47 |
-| 49  | 🌹 rose | 0.04 | qu4ttromila | 2024-03-28 21:07:44 |
-| 49  | 🧽 sponge | 0.04 | osnyisdead | 2024-09-19 13:45:06 |
+| 25 ⬆ | 🕶️ darksunglasses | 0.19 | leanmeister | 2023-09-03 10:41:13 |
+| 26 ⬆ | 🦢 swan | 0.17 | lluuucy | 2024-07-15 15:39:04 |
+| 27 ⬆ | 🦭 seal | 0.15 | dayzedinndaydreams | 2024-01-28 16:20:04 |
+| 28 ⬆ | 🥒 cucumber | 0.14 | puzzlow | 2023-08-17 12:35:10 |
+| 29 ⬆ | 🎱 8ball | 0.13 | gstaman911 | 2025-03-13 03:26:38 |
+| 30 ⬆ | 🐦 bird | 0.12 | idini | 2025-01-11 08:43:38 |
+| 30 ⬆ | 🦦 otter | 0.12 | qu4ttromila | 2024-03-10 17:13:08 |
+| 30 ⬆ | 🦠 plankton | 0.12 | paras220 | 2024-01-24 08:49:07 |
+| 33 ⬆ | 🩲 briefs | 0.11 | derinturitierutz | 2024-07-31 17:15:58 |
+| 33 ⬆ | 🪹 emptynest | 0.11 | dougiefresh_83 | 2025-04-09 06:41:33 |
+| 33 ⬆ | 🥀 wiltedflower | 0.11 | ninjaross | 2024-12-22 11:28:27 |
+| 36 ⬆ | 🧣 scarf | 0.10 | ryebreadward | 2023-12-25 05:27:44 |
+| 37 ⬆ | 🐬 dolphin | 0.09 | fishingalt | 2023-12-22 20:00:52 |
+| 37 ⬆ | 🍄 mushroom | 0.09 | miiiiisho | 2024-01-24 19:44:13 |
+| 37 ⬆ | 🌻 sunflower | 0.09 | divra__ | 2024-06-22 14:36:26 |
+| 40 ⬆ | 🐧 penguin | 0.08 | bapqo | 2024-12-24 06:23:03 |
+| 40 ⬆ | 🦈 shark | 0.08 | sussy_amonge | 2023-05-06 16:00:04 |
+| 42 ⬆ | 🧸 teddybear | 0.07 | sicklymaidrobot | 2024-02-13 07:14:29 |
+| 42 ⬆ | 👒 womanshat | 0.07 | breadworms | 2024-02-21 05:05:28 |
+| 44 ⬆ | 🐦‍⬛ blackbird | 0.06 | paras220 | 2024-07-07 04:33:58 |
+| 44 ⬆ | 🦕 sauropod | 0.06 | dayzedinndaydreams | 2023-06-23 01:50:15 |
+| 44 ⬆ | 🌷 tulip | 0.06 | qu4ttromila | 2025-03-15 12:00:08 |
+| 47 ⬆ | 🦞 lobster | 0.05 | derinturitierutz | 2023-09-27 05:33:15 |
+| 48 ⬇ | 🧃 beveragebox | 0.04 (-0.17) | larvasisters | 2025-06-12 04:57:02 |
+| 48 ⬆ | 🪺 nestwitheggs | 0.04 | idini | 2024-12-21 20:55:47 |
+| 48 ⬆ | 🌹 rose | 0.04 | qu4ttromila | 2024-03-28 21:07:44 |
+| 48 ⬆ | 🧽 sponge | 0.04 | osnyisdead | 2024-09-19 13:45:06 |
 | 52  | 🐙 octopus | 0.03 | qu4ttromila | 2023-08-30 11:27:07 |
 | 52  | 🐠 tropicalfish | 0.03 | respirate_ | 2024-07-24 04:15:04 |
 | 52  | 🐋 whale2 | 0.03 | sicklymaidrobot | 2023-04-09 17:38:12 |
@@ -103,4 +103,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-05-25 10:47:01 UTC_
+_Last updated at 2025-06-15 13:37:01 UTC_

@@ -102,4 +102,4 @@
 | 2  | 🐸 frog | 4.76 | miiiiisho | 2022-12-04 01:04:30 |
 | 1  | 🦐 shrimp | 29.58 | lagggm* | 2022-12-04 00:58:55 |
 
-_Last updated at 2025-06-08 09:47:13 UTC_
+_Last updated at 2025-06-15 13:32:02 UTC_

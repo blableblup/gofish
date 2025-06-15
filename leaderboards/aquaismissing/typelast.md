@@ -1,24 +1,24 @@
 ### Last fish per type caught in aquaismissing's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
-| 46  | 🐚 shell | 0.44 | underpaidchatter | 2025-06-07 21:24:09 |
-| 45  | 🪸 coral | 98.94 | ggmagician | 2025-06-06 23:38:48 |
-| 44  | 🐡 blowfish | 1.13 | stofeyxd | 2025-06-06 14:14:23 |
-| 43  | 🧃 beveragebox | 4.42 | aquaismissing | 2025-06-04 09:00:50 |
-| 42  | 🎏 lure | 1.68 | stofeyxd | 2025-06-03 07:56:19 |
-| 41  | 🦪 oyster | 34.71 | aquaismissing | 2025-05-29 22:53:07 |
-| 40  | 🦐 shrimp | 19.09 | likedom_ | 2025-05-29 22:36:09 |
-| 39  | 🦀 crab | 0.44 | kam3l_ | 2025-05-29 16:41:02 |
-| 38  | 🦑 squid | 48.36 | kargalay | 2025-05-28 19:02:28 |
-| 37  | 🐢 turtle | 11.25 | likedom_ | 2025-05-27 11:10:04 |
-| 36  | 🌿 seaweed | 0.46 | stiiiiles | 2025-05-26 17:58:26 |
-| 35  | 🐟 fish | 7.12 | kam3l_ | 2025-05-26 17:57:12 |
-| 34  | 🦞 lobster | 36.05 | beepisla | 2025-05-26 17:55:20 |
-| 33  | 🐊 crocodile | 79.05 | stofeyxd | 2025-05-26 11:41:35 |
-| 32  | 🐋 whale2 | 82.22 | ojack18 | 2025-05-24 21:21:30 |
-| 31  | 🪝 hook | 2.98 | stofeyxd | 2025-05-15 17:05:49 |
-| 30  | 🐠 tropicalfish | 21.41 | stofeyxd | 2025-05-12 18:51:39 |
-| 29  | 💀 skull | 2.60 | underpaidchatter | 2025-05-11 22:49:33 |
+| 46  | 🦀 crab | 7.93 | stofeyxd | 2025-06-13 22:32:30 |
+| 45  | 🪸 coral | 5.08 | kargalay | 2025-06-12 23:55:37 |
+| 44  | 🐟 fish | 9.93 | larvasisters | 2025-06-12 02:03:12 |
+| 43  | 💀 skull | 1.16 | kibab_7 | 2025-06-11 10:58:59 |
+| 42  | 🐚 shell | 0.44 | underpaidchatter | 2025-06-07 21:24:09 |
+| 41  | 🐡 blowfish | 1.13 | stofeyxd | 2025-06-06 14:14:23 |
+| 40  | 🧃 beveragebox | 4.42 | aquaismissing | 2025-06-04 09:00:50 |
+| 39  | 🎏 lure | 1.68 | stofeyxd | 2025-06-03 07:56:19 |
+| 38  | 🦪 oyster | 34.71 | aquaismissing | 2025-05-29 22:53:07 |
+| 37  | 🦐 shrimp | 19.09 | likedom_ | 2025-05-29 22:36:09 |
+| 36  | 🦑 squid | 48.36 | kargalay | 2025-05-28 19:02:28 |
+| 35  | 🐢 turtle | 11.25 | likedom_ | 2025-05-27 11:10:04 |
+| 34  | 🌿 seaweed | 0.46 | stiiiiles | 2025-05-26 17:58:26 |
+| 33  | 🦞 lobster | 36.05 | beepisla | 2025-05-26 17:55:20 |
+| 32  | 🐊 crocodile | 79.05 | stofeyxd | 2025-05-26 11:41:35 |
+| 31  | 🐋 whale2 | 82.22 | ojack18 | 2025-05-24 21:21:30 |
+| 30  | 🪝 hook | 2.98 | stofeyxd | 2025-05-15 17:05:49 |
+| 29  | 🐠 tropicalfish | 21.41 | stofeyxd | 2025-05-12 18:51:39 |
 | 28  | 🪨 rock | 21.29 | bubinga | 2025-04-28 20:44:15 |
 | 27  | 🐍 snake | 9.32 | flovrek | 2025-04-28 18:48:02 |
 | 26  | 🗡️ dagger | 22.91 | stofeyxd | 2025-04-28 08:38:27 |
@@ -48,4 +48,4 @@
 | 2  | 🥪 sandwich | 0.71 | aquaismissing | 2024-12-02 05:35:34 |
 | 1  | 🦕 sauropod | 73.83 | aistyrax3 | 2024-12-01 17:06:31 |
 
-_Last updated at 2025-06-08 09:48:47 UTC_
+_Last updated at 2025-06-15 13:36:27 UTC_

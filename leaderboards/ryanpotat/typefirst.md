@@ -39,4 +39,4 @@
 | 2  | 🐊 crocodile | 83.85 | respirate_ | 2024-10-02 21:06:55 |
 | 1  | 🪳 cockroach | 1.92 | ryanpotat | 2023-12-09 03:32:47 |
 
-_Last updated at 2025-06-08 09:47:12 UTC_
+_Last updated at 2025-06-15 13:32:03 UTC_

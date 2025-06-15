@@ -61,12 +61,12 @@
 | 58  | 🎱 8ball | 10.82 | 0_asd | 2024-03-31 10:49:57 |
 | 59  | 🪺 nestwitheggs | 10.31 | syxtuh | 2024-06-27 08:05:10 |
 | 60  | 🩲 briefs | 10.20 | alvanissdev | 2023-09-18 12:21:36 |
-| 61 ⬆ | 🍄‍🟫 brownmushroom | 10.14 (+1.56) | nndiana | 2025-05-27 21:01:45 |
-| 62 ⬇ | 🐦 bird | 9.22 | zwockel01 | 2024-07-04 11:25:35 |
+| 61  | 🍄‍🟫 brownmushroom | 10.14 | nndiana | 2025-05-27 21:01:45 |
+| 62  | 🐦 bird | 9.22 | zwockel01 | 2024-07-04 11:25:35 |
 | 63  | 🧵 wireline | 6.00 | ocrw | 2024-06-20 15:30:46 |
-| 64  | 🐚 shell | 5.92 (+0.52) | mazzo_tv | 2025-05-25 17:38:47 |
-| 65  | 🎏 lure | 5.00 (+0.01) | flovrek | 2025-05-31 14:12:56 |
-| 66 ⬇ | 🪝 hook | 4.99 | thedraingangceo* | 2023-08-24 20:19:25 |
+| 64  | 🐚 shell | 5.92 | mazzo_tv | 2025-05-25 17:38:47 |
+| 65  | 🎏 lure | 5.00 | flovrek | 2025-05-31 14:12:56 |
+| 66  | 🪝 hook | 4.99 | thedraingangceo* | 2023-08-24 20:19:25 |
 | 67  | 🥫 cannedfood | 4.91 | huuuuuuuuuuuuuuuuuuuuuurz | 2024-01-22 08:44:29 |
 | 68  | 🌰 acorn | 4.00 | bubinga | 2024-09-26 10:53:14 |
 | 68  | ☘️ shamrock | 4.00 | divra__ | 2024-06-30 02:15:28 |
@@ -77,7 +77,7 @@
 | 74  | 🩴 thongsandal | 2.94 | bubinga | 2024-08-13 10:17:43 |
 | 75  | 🌷 tulip | 2.93 | iflya320 | 2024-12-04 16:22:17 |
 | 76  | 🌹 rose | 2.88 | zwockel01 | 2024-04-11 08:51:47 |
-| 77  | 👡 sandal | 2.83 (+0.19) | mazzo_tv | 2025-05-27 10:56:25 |
+| 77  | 👡 sandal | 2.83 | mazzo_tv | 2025-05-27 10:56:25 |
 | 78  | 🩰 balletshoes | 2.00 | tomsi1g | 2023-09-01 09:27:04 |
 | 78  | 👢 boot | 2.00 | thegovernment5g | 2024-01-03 19:04:05 |
 | 78  | 🧦 socks | 2.00 | manmanboy_ | 2023-09-16 12:22:22 |
@@ -86,15 +86,15 @@
 | 82  | 🥪 sandwich | 1.98 | ovrht | 2023-10-26 12:50:25 |
 | 84  | ⛸️ iceskate | 1.96 | pookiesnowman | 2023-12-24 05:51:00 |
 | 85  | 🍬 candy | 1.89 | flunke_ | 2024-07-07 12:23:18 |
-| 86 ⬆ | 🍃 leaf | 1.74 (+1.11) | nndiana | 2025-05-25 03:02:04 |
-| 87 ⬇ | 🦢 swan | 1.26 | mazzo_tv | 2024-07-08 06:43:22 |
-| 88 ⬇ | 🪶 feather | 1.00 | shadowraider247 | 2024-09-15 13:12:58 |
-| 88 ⬇ | 🧤 gloves | 1.00 | kubo7 | 2024-01-27 18:51:58 |
-| 90 ⬇ | 🍁 mapleleaf | 0.99 | flunke_ | 2024-10-22 20:57:20 |
-| 91 ⬇ | 🧣 scarf | 0.92 | blazeblitzzz | 2024-02-01 23:11:44 |
-| 92 ⬇ | 🐿️ squirrel | 0.90 | iflya320 | 2024-12-04 11:13:44 |
-| 93 🆕 | 🌾 grass | 0.40 | nndiana | 2025-05-29 23:08:55 |
+| 86  | 🍃 leaf | 1.74 | nndiana | 2025-05-25 03:02:04 |
+| 87  | 🦢 swan | 1.26 | mazzo_tv | 2024-07-08 06:43:22 |
+| 88  | 🪶 feather | 1.00 | shadowraider247 | 2024-09-15 13:12:58 |
+| 88  | 🧤 gloves | 1.00 | kubo7 | 2024-01-27 18:51:58 |
+| 90  | 🍁 mapleleaf | 0.99 | flunke_ | 2024-10-22 20:57:20 |
+| 91  | 🧣 scarf | 0.92 | blazeblitzzz | 2024-02-01 23:11:44 |
+| 92  | 🐿️ squirrel | 0.90 | iflya320 | 2024-12-04 11:13:44 |
+| 93  | 🌾 grass | 0.40 | nndiana | 2025-05-29 23:08:55 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-06-01 09:16:41 UTC_
+_Last updated at 2025-06-15 13:32:44 UTC_

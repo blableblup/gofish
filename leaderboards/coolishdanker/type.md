@@ -32,7 +32,8 @@
 | 29  | 👢 boot | 1.58 | fenix8 | 2025-02-03 15:38:30 |
 | 30  | 🩰 balletshoes | 1.36 | jaial | 2025-01-28 02:17:23 |
 | 31  | 🧤 gloves | 0.55 | yxnggon | 2025-01-10 11:12:39 |
+| 32 🆕 | 🌿 seaweed | 0.41 | fenix8 | 2025-06-09 11:06:52 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-04-13 10:23:18 UTC_
+_Last updated at 2025-06-15 13:38:20 UTC_

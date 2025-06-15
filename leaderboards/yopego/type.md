@@ -42,8 +42,9 @@
 | 39  | 🦆 duck | 1.83 | cornstarch1g | 2024-10-07 19:38:57 |
 | 40  | 🧦 socks | 1.53 | mxrio41 | 2024-10-16 21:05:11 |
 | 41  | 🌿 seaweed | 0.98 | sequally | 2024-11-03 07:22:33 |
-| 42  | 🥫 cannedfood | 0.23 | grumvald | 2024-12-04 11:13:52 |
+| 42 🆕 | 🪱 worm | 0.44 | larvasisters | 2025-06-12 07:25:38 |
+| 43 ⬇ | 🥫 cannedfood | 0.23 | grumvald | 2024-12-04 11:13:52 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-06-01 09:17:10 UTC_
+_Last updated at 2025-06-15 13:38:33 UTC_

@@ -9,8 +9,8 @@
 | 6  | 🫎 moose | 278.16 | fvkdylan | 2025-04-27 13:58:41 |
 | 7  | 🐻‍❄ polarbear | 272.28 | larvasisters | 2025-01-02 19:01:21 |
 | 8  | 🐍 snake | 271.95 | miiiiisho | 2024-01-09 01:20:50 |
-| 9  | 🛢️ oildrum | 251.70 | osnyisdead | 2024-08-14 01:03:37 |
-| 10  | 🐢 turtle | 251.35 | bussinongnocap | 2023-06-17 05:29:50 |
+| 9 ⬆ | 🐢 turtle | 255.00 (+3.65) | leanmeister | 2025-06-13 20:52:39 |
+| 10 ⬇ | 🛢️ oildrum | 251.70 | osnyisdead | 2024-08-14 01:03:37 |
 | 11  | 🐙 octopus | 198.60 | derinturitierutz | 2023-12-27 14:54:34 |
 | 12  | 🐋 whale2 | 159.84 | osnyatsky | 2023-10-17 15:40:41 |
 | 13  | 🐊 crocodile | 149.98 | kishma9 | 2024-08-27 00:54:05 |
@@ -38,7 +38,7 @@
 | 35  | 🐡 blowfish | 35.66 | crazytown_bananapants | 2023-08-24 09:30:28 |
 | 36  | 🛒 shoppingcart | 34.05 | derinturitierutz | 2025-01-01 18:01:51 |
 | 37  | 🕷️ spider | 32.71 | leanmeister | 2025-04-02 10:24:56 |
-| 38  | 🥒 cucumber | 31.72 | kishma9 | 2023-06-26 12:35:30 |
+| 38  | 🥒 cucumber | 31.92 (+0.20) | destin357 | 2025-06-09 10:41:23 |
 | 39  | 🧽 sponge | 29.73 | dayzedinndaydreams | 2023-08-24 08:42:37 |
 | 40  | 🧊 icecube | 29.34 | dougiefresh_83 | 2024-12-31 21:24:39 |
 | 41  | 🐠 tropicalfish | 28.79 | c_mgirl | 2025-03-28 16:25:42 |
@@ -59,9 +59,9 @@
 | 56  | 🕶️ darksunglasses | 12.51 | dayzedinndaydreams | 2024-07-26 16:49:35 |
 | 57  | 🧸 teddybear | 11.98 | destin357 | 2025-02-26 03:30:12 |
 | 58  | 🐦 bird | 11.96 | julialuxel | 2024-04-25 00:21:16 |
-| 59  | 👒 womanshat | 11.85 | sussy_amonge | 2023-08-23 21:47:21 |
-| 60  | 🧃 beveragebox | 11.62 | derinturitierutz | 2024-08-04 15:51:12 |
-| 60  | 🧥 coat | 11.62 | derinturitierutz | 2025-03-25 12:20:39 |
+| 59 ⬆ | 🧃 beveragebox | 11.87 (+0.25) | leanmeister | 2025-06-12 05:56:46 |
+| 60 ⬇ | 👒 womanshat | 11.85 | sussy_amonge | 2023-08-23 21:47:21 |
+| 61 ⬇ | 🧥 coat | 11.62 | derinturitierutz | 2025-03-25 12:20:39 |
 | 62  | 🪹 emptynest | 10.99 | fvkdylan | 2025-03-15 04:16:42 |
 | 63  | 🪺 nestwitheggs | 10.84 | osnyatsky | 2024-03-30 13:50:46 |
 | 64  | 🦎 lizard | 10.61 | sussy_amonge | 2023-06-04 08:16:33 |
@@ -103,4 +103,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-05-25 10:45:41 UTC_
+_Last updated at 2025-06-15 13:37:44 UTC_

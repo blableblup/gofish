@@ -58,7 +58,7 @@
 | 37  | 🍄 mushroom | 9.60 | nv6y4 | 2024-12-15 10:13:32 |
 | 36  | 🥪 sandwich | 1.34 | theevirus | 2024-12-15 04:54:07 |
 | 35  | 🦭 seal | 47.76 | nndiana | 2024-12-15 04:16:02 |
-| 34  | 👒 womanshat | 11.04 | eveningstarss_ | 2024-12-15 02:23:05 |
+| 34  | 👒 womanshat | 11.04 | morningstar_hc | 2024-12-15 02:23:05 |
 | 33  | ☘️ shamrock | 1.85 | creepycode | 2024-12-15 01:52:38 |
 | 32  | 🦑 squid | 50.69 | sandwichsundays | 2024-12-15 01:29:42 |
 | 31  | 🪀 bobber | 0.00 | ratot | 2024-12-14 23:59:35 |
@@ -93,4 +93,4 @@
 | 2  | 🪝 hook | 1.91 | commanda_u | 2024-12-14 15:55:38 |
 | 1  | 🐚 shell | 3.49 | jukkii | 2024-12-14 15:55:11 |
 
-_Last updated at 2025-06-08 09:47:12 UTC_
+_Last updated at 2025-06-15 13:32:03 UTC_

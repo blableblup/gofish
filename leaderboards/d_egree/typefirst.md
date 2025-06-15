@@ -1,6 +1,7 @@
 ### First fish per type caught in d_egree's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 56  | 🍃 leaf | 1.38 | koromadeno_shogun | 2025-06-13 12:43:36 |
 | 55  | 🍄 mushroom | 2.62 | benni900 | 2025-02-24 15:10:12 |
 | 54  | 🐉 dragon | 173.10 | benni900 | 2025-02-24 09:14:48 |
 | 53  | 🧊 icecube | 6.66 | benni900 | 2025-02-21 16:16:42 |
@@ -57,4 +58,4 @@
 | 2  | 🎏 lure | 0.18 | shpeelerin* | 2023-09-04 15:52:09 |
 | 1  | 🐡 blowfish | 14.40 | d_egree | 2023-09-04 14:50:53 |
 
-_Last updated at 2025-06-08 09:47:13 UTC_
+_Last updated at 2025-06-15 13:37:38 UTC_

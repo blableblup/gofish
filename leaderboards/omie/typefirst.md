@@ -1,6 +1,7 @@
 ### First fish per type caught in omie's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 87  | 🧃 beveragebox | 11.41 | chestnutbank | 2025-06-12 21:42:37 |
 | 86  | 👡 sandal | 0.43 | v6r_ | 2025-03-20 20:43:29 |
 | 85  | 🫎 moose | 21.07 | solahh__ | 2025-03-20 05:45:14 |
 | 84  | 🍃 leaf | 1.24 | v6r_ | 2025-03-19 21:20:00 |
@@ -88,4 +89,4 @@
 | 2  | 🐡 blowfish | 15.39 | ritaaww | 2024-08-03 21:47:08 |
 | 1  | 🦞 lobster | 28.99 | aliveleader | 2024-08-03 21:45:17 |
 
-_Last updated at 2025-06-08 09:47:13 UTC_
+_Last updated at 2025-06-15 13:37:38 UTC_

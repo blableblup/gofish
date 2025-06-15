@@ -62,4 +62,4 @@
 | 2  | 🦐 shrimp | 3.14 | bapqo | 2024-07-28 22:59:12 |
 | 1  | 🐊 crocodile | 105.00 | julialuxel | 2024-07-28 22:59:00 |
 
-_Last updated at 2025-06-08 09:47:12 UTC_
+_Last updated at 2025-06-15 13:32:02 UTC_

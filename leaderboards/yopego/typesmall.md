@@ -38,12 +38,13 @@
 | 35  | 🐋 whale2 | 0.56 | ohnarpissquel | 2024-10-31 11:08:17 |
 | 36  | 🐟 fish | 0.54 | kr1nxx_ | 2024-10-20 08:25:50 |
 | 37  | 🎏 lure | 0.45 | grumpo_ | 2024-10-31 20:13:08 |
-| 38  | 🦎 lizard | 0.41 | yopego | 2024-10-24 07:02:02 |
-| 39  | 🥫 cannedfood | 0.23 | grumvald | 2024-12-04 11:13:52 |
-| 40  | 🐍 snake | 0.08 | mxrio41 | 2024-10-17 22:12:49 |
-| 41  | 🦞 lobster | 0.07 | kr1nxx_ | 2024-10-26 07:41:36 |
-| 42  | 🐚 shell | 0.04 | femboy_falcon | 2024-10-23 17:45:43 |
+| 38 🆕 | 🪱 worm | 0.44 | larvasisters | 2025-06-12 07:25:38 |
+| 39 ⬇ | 🦎 lizard | 0.41 | yopego | 2024-10-24 07:02:02 |
+| 40 ⬇ | 🥫 cannedfood | 0.23 | grumvald | 2024-12-04 11:13:52 |
+| 41 ⬇ | 🐍 snake | 0.08 | mxrio41 | 2024-10-17 22:12:49 |
+| 42 ⬇ | 🦞 lobster | 0.07 | kr1nxx_ | 2024-10-26 07:41:36 |
+| 43 ⬇ | 🐚 shell | 0.04 | femboy_falcon | 2024-10-23 17:45:43 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-06-01 09:16:10 UTC_
+_Last updated at 2025-06-15 13:36:52 UTC_

@@ -1,6 +1,7 @@
 ### First fish per type caught in e1llas' chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 49  | 🪼 jellyfish | 14.11 | envtt | 2025-06-11 18:50:00 |
 | 48  | 👒 womanshat | 7.56 | envtt | 2025-06-07 19:30:11 |
 | 47  | 🩴 thongsandal | 1.46 | d1fforr | 2025-06-06 22:15:29 |
 | 46  | 🪶 feather | 0.48 | d1fforr | 2025-05-29 18:53:46 |
@@ -50,4 +51,4 @@
 | 2  | 🐬 dolphin | 12.25 | e1llas | 2024-12-06 14:32:12 |
 | 1  | 🐟 fish | 5.77 | koenheylen | 2024-12-06 14:27:27 |
 
-_Last updated at 2025-06-08 09:49:50 UTC_
+_Last updated at 2025-06-15 13:37:38 UTC_

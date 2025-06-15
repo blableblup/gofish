@@ -1,6 +1,7 @@
 ### First fish per type caught in vaiastol's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 92  | 🌻 sunflower | 2.54 | garout | 2025-06-08 14:38:14 |
 | 91  | 🫎 moose | 22.03 | dayzedinndaydreams | 2025-05-06 17:17:48 |
 | 90  | 🧜‍♀️ mermaid | 18.46 | hahppyy | 2025-05-05 14:52:40 |
 | 89  | 🐦‍⬛ blackbird | 1.42 | vaiastol | 2025-04-11 08:37:47 |
@@ -93,4 +94,4 @@
 | 2  | 🦀 crab | 2.81 | jr_mime | 2024-07-28 10:52:00 |
 | 1  | 🐸 frog | 1.70 | mitgliederversammlung | 2024-07-28 00:20:07 |
 
-_Last updated at 2025-06-08 09:47:13 UTC_
+_Last updated at 2025-06-15 13:37:38 UTC_

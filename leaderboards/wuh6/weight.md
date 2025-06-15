@@ -11,10 +11,10 @@
 | 8  | huuuuuuuuuuuuuuuuuuuuuurz | 🐉 dragon | 281.30 | 2025-03-10 06:15:06 |
 | 9  | sandwichsundays | 🦕 sauropod | 271.44 | 2025-01-03 06:42:24 |
 | 10  | teddbearcs | 🐳 whale | 271.14 | 2025-01-03 16:31:20 |
-| 11 ⬆ | veny2lbs | 🐉 dragon | 267.37 (+17.89) | 2025-06-05 08:11:58 |
-| 12 ⬇ | mazzo_tv | 🦑 squid | 253.17 | 2025-01-15 22:25:34 |
-| 13 ⬇ | lobuhtomy | 🐉 dragon | 252.53 | 2025-05-13 07:18:49 |
-| 14 ⬇ | tdillar | 🦑 squid | 250.19 | 2025-01-10 04:31:34 |
+| 11  | veny2lbs | 🐉 dragon | 267.37 | 2025-06-05 08:11:58 |
+| 12  | mazzo_tv | 🦑 squid | 253.17 | 2025-01-15 22:25:34 |
+| 13  | lobuhtomy | 🐉 dragon | 252.53 | 2025-05-13 07:18:49 |
+| 14  | tdillar | 🦑 squid | 250.19 | 2025-01-10 04:31:34 |
 | 15  | wowitsdub | 🫎 moose | 246.84 | 2025-03-26 10:46:39 |
 | 16  | caprisen_ | 🦑 squid | 246.59 | 2025-01-09 06:18:03 |
 | 17  | commanda_u | 🦑 squid | 225.75 | 2025-03-29 10:06:31 |
@@ -54,8 +54,8 @@
 | 51  | adamery | 🦑 squid | 73.15 | 2025-03-30 20:12:07 |
 | 52  | ojack18 | 🐋 whale2 | 67.07 | 2025-05-18 16:26:59 |
 | 53  | kakireki | 🦭 seal | 65.06 | 2024-12-15 15:01:09 |
-| 54  | eveningstarss_ | 🐙 octopus | 55.13 | 2024-12-15 08:49:41 |
+| 54  | morningstar_hc | 🐙 octopus | 55.13 | 2024-12-15 08:49:41 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2025-06-08 09:48:46 UTC_
+_Last updated at 2025-06-15 13:38:40 UTC_
