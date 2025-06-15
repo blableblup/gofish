@@ -5,12 +5,13 @@ import (
 	"database/sql"
 	"fmt"
 	"gofish/logs"
+	"io"
+	"net/http"
 	"regexp"
 	"time"
 
 	"github.com/jackc/pgx/v5/pgconn"
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/valyala/fasthttp"
 )
 
 func GetFishDataFromURL(url string, chatName string, data string, pool *pgxpool.Pool, latestCatchDate time.Time, latestBagDate time.Time, latestTournamentDate time.Time) ([]FishInfo, error) {
@@ -27,31 +28,25 @@ func GetFishDataFromURL(url string, chatName string, data string, pool *pgxpool.
 
 	for range maxRetries {
 
-		req := fasthttp.AcquireRequest()
-		req.SetRequestURI(url)
-		defer fasthttp.ReleaseRequest(req)
-
-		resp := fasthttp.AcquireResponse()
-		defer fasthttp.ReleaseResponse(resp)
-
-		if err := fasthttp.Do(req, resp); err != nil {
-			logs.Logs().Error().Err(err).
+		resp, err := http.Get(url)
+		if err != nil {
+			logs.Logs().Error().
 				Str("URL", url).
 				Str("Chat", chatName).
-				Msg("Error fetching fish data from URL")
+				Msg("Error fetching fish data from url")
 			time.Sleep(retryDelay)
 			continue
 		}
 
-		if resp.StatusCode() != fasthttp.StatusOK {
+		if resp.StatusCode != http.StatusOK {
 			// Since 404 can just mean that noone fished in that month for the very small chats, this doesnt have to count as an error
 			// Just make sure that the chat actually doesnt have logs
 			// The chat could also be banned or might have been renamed or might have been removed from the justlog instance
-			if resp.StatusCode() != 404 {
+			if resp.StatusCode != 404 {
 				logs.Logs().Error().
 					Str("URL", url).
 					Str("Chat", chatName).
-					Int("HTTP Code", resp.StatusCode()).
+					Int("HTTP Code", resp.StatusCode).
 					Msg("Unexpected HTTP status code")
 				time.Sleep(retryDelay)
 				continue
@@ -59,13 +54,24 @@ func GetFishDataFromURL(url string, chatName string, data string, pool *pgxpool.
 				logs.Logs().Warn().
 					Str("URL", url).
 					Str("Chat", chatName).
-					Int("HTTP Code", resp.StatusCode()).
+					Int("HTTP Code", resp.StatusCode).
 					Msg("No logs for chat")
 				return fishData, nil
 			}
 		}
 
-		textContent := string(resp.Body())
+		body, err := io.ReadAll(resp.Body)
+		if err != nil {
+			logs.Logs().Error().
+				Str("URL", url).
+				Str("Chat", chatName).
+				Msg("Error reading response body")
+			time.Sleep(retryDelay)
+			continue
+		}
+		resp.Body.Close()
+
+		textContent := string(body)
 
 		// Dont check every pattern depending on "data"
 		var patterns []*regexp.Regexp
