@@ -216,6 +216,26 @@
 			"Chat": "omie"
 		}
 	],
+	"Combined weight of all caught fish": {
+		"Total": 12742.11,
+		"Per chat": {
+			"omie": 12742.11
+		}
+	},
+	"Combined weight of all caught fish per year": {
+		"2024": {
+			"Total": 3126.13,
+			"Per chat": {
+				"omie": 3126.13
+			}
+		},
+		"2025": {
+			"Total": 9615.98,
+			"Per chat": {
+				"omie": 9615.98
+			}
+		}
+	},
 	"Their last seen bag": {
 		"Bag": [
 			"📑",
@@ -2516,11 +2536,7 @@
 				"Weight in lbs": 5.94,
 				"Catchtype": "Normal",
 				"Date": "2025-04-02 22:15:33 UTC",
-				"Chat": "omie",
-				"Record": [
-					"🥇 Biggest 🐚 shell record globally 🌐 !",
-					"🥇 Biggest 🐚 shell record in channel omie !"
-				]
+				"Chat": "omie"
 			},
 			"Smallest catch": {
 				"Fish": "🐚 shell",
@@ -3614,5 +3630,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-08 09:57:27 UTC"
+	"Profile last updated at": "2025-06-15 14:18:01 UTC"
 }

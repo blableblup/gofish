@@ -22,9 +22,9 @@
 		]
 	},
 	"Fish caught in total": {
-		"Total": 1796,
+		"Total": 1801,
 		"Per chat": {
-			"omie": 1796
+			"omie": 1801
 		}
 	},
 	"Fish caught per year": {
@@ -35,9 +35,9 @@
 			}
 		},
 		"2025": {
-			"Total": 746,
+			"Total": 751,
 			"Per chat": {
-				"omie": 746
+				"omie": 751
 			}
 		}
 	},
@@ -61,15 +61,15 @@
 			}
 		},
 		"Normal": {
-			"Total": 1681,
+			"Total": 1685,
 			"Per chat": {
-				"omie": 1681
+				"omie": 1685
 			}
 		},
 		"Release bonus": {
-			"Total": 78,
+			"Total": 79,
 			"Per chat": {
-				"omie": 78
+				"omie": 79
 			}
 		}
 	},
@@ -84,10 +84,10 @@
 	},
 	"Their last fish per chat": {
 		"omie": {
-			"Fish": "🍬 candy",
-			"Weight in lbs": 0,
-			"Catchtype": "Release bonus",
-			"Date": "2025-06-07 21:24:39 UTC",
+			"Fish": "🐠 tropicalfish",
+			"Weight in lbs": 5.06,
+			"Catchtype": "Normal",
+			"Date": "2025-06-14 22:20:25 UTC",
 			"Chat": "omie"
 		}
 	},
@@ -174,6 +174,41 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "🐠 tropicalfish",
+			"Weight in lbs": 5.06,
+			"Catchtype": "Normal",
+			"Date": "2025-06-14 22:20:25 UTC",
+			"Chat": "omie"
+		},
+		{
+			"Fish": "🐟 fish",
+			"Weight in lbs": 12.5,
+			"Catchtype": "Normal",
+			"Date": "2025-06-14 21:41:21 UTC",
+			"Chat": "omie"
+		},
+		{
+			"Fish": "🪀 bobber",
+			"Weight in lbs": 0,
+			"Catchtype": "Release bonus",
+			"Date": "2025-06-14 19:39:46 UTC",
+			"Chat": "omie"
+		},
+		{
+			"Fish": "🪨 rock",
+			"Weight in lbs": 45.14,
+			"Catchtype": "Normal",
+			"Date": "2025-06-14 19:39:32 UTC",
+			"Chat": "omie"
+		},
+		{
+			"Fish": "🪝 hook",
+			"Weight in lbs": 2.74,
+			"Catchtype": "Normal",
+			"Date": "2025-06-08 12:37:17 UTC",
+			"Chat": "omie"
+		},
+		{
 			"Fish": "🍬 candy",
 			"Weight in lbs": 0,
 			"Catchtype": "Release bonus",
@@ -207,43 +242,28 @@
 			"Catchtype": "Normal",
 			"Date": "2025-06-05 18:29:51 UTC",
 			"Chat": "omie"
-		},
-		{
-			"Fish": "🦐 shrimp",
-			"Weight in lbs": 5.03,
-			"Catchtype": "Normal",
-			"Date": "2025-06-05 17:00:34 UTC",
-			"Chat": "omie"
-		},
-		{
-			"Fish": "🦈 shark",
-			"Weight in lbs": 41.3,
-			"Catchtype": "Normal",
-			"Date": "2025-06-03 20:46:12 UTC",
-			"Chat": "omie"
-		},
-		{
-			"Fish": "🦀 crab",
-			"Weight in lbs": 3.27,
-			"Catchtype": "Normal",
-			"Date": "2025-06-02 14:58:03 UTC",
-			"Chat": "omie"
-		},
-		{
-			"Fish": "🦞 lobster",
-			"Weight in lbs": 34.62,
-			"Catchtype": "Normal",
-			"Date": "2025-05-31 10:21:02 UTC",
-			"Chat": "omie"
-		},
-		{
-			"Fish": "🐊 crocodile",
-			"Weight in lbs": 54.87,
-			"Catchtype": "Normal",
-			"Date": "2025-05-30 07:20:38 UTC",
-			"Chat": "omie"
 		}
 	],
+	"Combined weight of all caught fish": {
+		"Total": 38324.1,
+		"Per chat": {
+			"omie": 38324.1
+		}
+	},
+	"Combined weight of all caught fish per year": {
+		"2024": {
+			"Total": 22466.12,
+			"Per chat": {
+				"omie": 22466.12
+			}
+		},
+		"2025": {
+			"Total": 15857.98,
+			"Per chat": {
+				"omie": 15857.98
+			}
+		}
+	},
 	"Their last seen bag": {
 		"Bag": [
 			"🧦",
@@ -329,7 +349,6 @@
 			"🎱",
 			"🌷",
 			"🌷",
-			"🌷",
 			"🍃",
 			"🫎",
 			"🍄‍🟫",
@@ -337,10 +356,10 @@
 			"👡",
 			"🌾",
 			"🎏",
-			"🍃",
-			"🐊"
+			"🪝",
+			"🪀"
 		],
-		"Date": "2025-06-07 12:46:39 UTC",
+		"Date": "2025-06-14 19:40:00 UTC",
 		"Chat": "omie"
 	},
 	"Count of each item in that bag": {
@@ -349,10 +368,10 @@
 		"☘️": 1,
 		"⛸️": 1,
 		"🌰": 1,
-		"🌷": 3,
+		"🌷": 2,
 		"🌾": 1,
 		"🌿": 1,
-		"🍃": 2,
+		"🍃": 1,
 		"🍄": 1,
 		"🍄‍🟫": 1,
 		"🍪": 1,
@@ -360,7 +379,7 @@
 		"🎏": 1,
 		"🎱": 2,
 		"🐉": 1,
-		"🐊": 2,
+		"🐊": 1,
 		"🐋": 1,
 		"🐌": 1,
 		"🐍": 1,
@@ -408,6 +427,8 @@
 		"🩰": 2,
 		"🩲": 1,
 		"🩴": 2,
+		"🪀": 1,
+		"🪝": 1,
 		"🪨": 1,
 		"🪱": 1,
 		"🪳": 1,
@@ -711,9 +732,9 @@
 		},
 		"bobber 🪀": {
 			"Caught in total": {
-				"Total": 25,
+				"Total": 26,
 				"Per chat": {
-					"omie": 25
+					"omie": 26
 				}
 			},
 			"Caught per year": {
@@ -724,9 +745,9 @@
 					}
 				},
 				"2025": {
-					"Total": 7,
+					"Total": 8,
 					"Per chat": {
-						"omie": 7
+						"omie": 8
 					}
 				}
 			},
@@ -738,9 +759,9 @@
 					}
 				},
 				"Release bonus": {
-					"Total": 22,
+					"Total": 23,
 					"Per chat": {
-						"omie": 22
+						"omie": 23
 					}
 				}
 			},
@@ -758,7 +779,7 @@
 				"Fish": "🪀 bobber",
 				"Weight in lbs": 0,
 				"Catchtype": "Release bonus",
-				"Date": "2025-05-04 13:04:35 UTC",
+				"Date": "2025-06-14 19:39:46 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -1623,9 +1644,9 @@
 		},
 		"fish 🐟": {
 			"Caught in total": {
-				"Total": 261,
+				"Total": 262,
 				"Per chat": {
-					"omie": 261
+					"omie": 262
 				}
 			},
 			"Caught per year": {
@@ -1636,9 +1657,9 @@
 					}
 				},
 				"2025": {
-					"Total": 105,
+					"Total": 106,
 					"Per chat": {
-						"omie": 105
+						"omie": 106
 					}
 				}
 			},
@@ -1650,9 +1671,9 @@
 					}
 				},
 				"Normal": {
-					"Total": 257,
+					"Total": 258,
 					"Per chat": {
-						"omie": 257
+						"omie": 258
 					}
 				}
 			},
@@ -1665,9 +1686,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐟 fish",
-				"Weight in lbs": 11.74,
+				"Weight in lbs": 12.5,
 				"Catchtype": "Normal",
-				"Date": "2025-05-28 02:34:37 UTC",
+				"Date": "2025-06-14 21:41:21 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -1873,9 +1894,9 @@
 		},
 		"hook 🪝": {
 			"Caught in total": {
-				"Total": 117,
+				"Total": 118,
 				"Per chat": {
-					"omie": 117
+					"omie": 118
 				}
 			},
 			"Caught per year": {
@@ -1886,9 +1907,9 @@
 					}
 				},
 				"2025": {
-					"Total": 44,
+					"Total": 45,
 					"Per chat": {
-						"omie": 44
+						"omie": 45
 					}
 				}
 			},
@@ -1900,9 +1921,9 @@
 					}
 				},
 				"Normal": {
-					"Total": 101,
+					"Total": 102,
 					"Per chat": {
-						"omie": 101
+						"omie": 102
 					}
 				},
 				"Release bonus": {
@@ -1921,9 +1942,9 @@
 			},
 			"Last catch": {
 				"Fish": "🪝 hook",
-				"Weight in lbs": 0,
-				"Catchtype": "Release bonus",
-				"Date": "2025-05-24 17:51:19 UTC",
+				"Weight in lbs": 2.74,
+				"Catchtype": "Normal",
+				"Date": "2025-06-08 12:37:17 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -2986,9 +3007,9 @@
 		},
 		"rock 🪨": {
 			"Caught in total": {
-				"Total": 12,
+				"Total": 13,
 				"Per chat": {
-					"omie": 12
+					"omie": 13
 				}
 			},
 			"Caught per year": {
@@ -2999,17 +3020,17 @@
 					}
 				},
 				"2025": {
-					"Total": 2,
+					"Total": 3,
 					"Per chat": {
-						"omie": 2
+						"omie": 3
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 12,
+					"Total": 13,
 					"Per chat": {
-						"omie": 12
+						"omie": 13
 					}
 				}
 			},
@@ -3022,9 +3043,9 @@
 			},
 			"Last catch": {
 				"Fish": "🪨 rock",
-				"Weight in lbs": 21.1,
+				"Weight in lbs": 45.14,
 				"Catchtype": "Normal",
-				"Date": "2025-03-10 21:54:55 UTC",
+				"Date": "2025-06-14 19:39:32 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -4297,9 +4318,9 @@
 		},
 		"tropicalfish 🐠": {
 			"Caught in total": {
-				"Total": 23,
+				"Total": 24,
 				"Per chat": {
-					"omie": 23
+					"omie": 24
 				}
 			},
 			"Caught per year": {
@@ -4310,17 +4331,17 @@
 					}
 				},
 				"2025": {
-					"Total": 5,
+					"Total": 6,
 					"Per chat": {
-						"omie": 5
+						"omie": 6
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 23,
+					"Total": 24,
 					"Per chat": {
-						"omie": 23
+						"omie": 24
 					}
 				}
 			},
@@ -4336,9 +4357,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐠 tropicalfish",
-				"Weight in lbs": 8.78,
+				"Weight in lbs": 5.06,
 				"Catchtype": "Normal",
-				"Date": "2025-05-04 13:04:12 UTC",
+				"Date": "2025-06-14 22:20:25 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -5010,5 +5031,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-08 09:57:27 UTC"
+	"Profile last updated at": "2025-06-15 14:18:01 UTC"
 }

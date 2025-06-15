@@ -5,7 +5,7 @@
 		"6th most fish caught in channel dizzy !",
 		"6th most fish seen in channel dizzy !",
 		"🥉 Third biggest fish record in channel dizzy !",
-		"5th place on tournament leaderboard in channel dizzy !",
+		"6th place on tournament leaderboard in channel dizzy !",
 		"🥈 Second most fish caught in channel ryanpotat !",
 		"🥈 Second most fish seen in channel ryanpotat !",
 		"🥇 Biggest fish record in channel ryanpotat !",
@@ -245,6 +245,28 @@
 			"Chat": "dizzy"
 		}
 	],
+	"Combined weight of all caught fish": {
+		"Total": 9905.33,
+		"Per chat": {
+			"dizzy": 9329.23,
+			"ryanpotat": 576.1
+		}
+	},
+	"Combined weight of all caught fish per year": {
+		"2024": {
+			"Total": 9350.41,
+			"Per chat": {
+				"dizzy": 8774.31,
+				"ryanpotat": 576.1
+			}
+		},
+		"2025": {
+			"Total": 554.92,
+			"Per chat": {
+				"dizzy": 554.92
+			}
+		}
+	},
 	"Their last seen bag": {
 		"Bag": [
 			"🧽",
@@ -3458,5 +3480,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-08 09:57:27 UTC"
+	"Profile last updated at": "2025-06-15 14:18:01 UTC"
 }

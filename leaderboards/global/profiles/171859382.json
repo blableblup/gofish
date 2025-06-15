@@ -205,6 +205,26 @@
 			"Chat": "psp1g"
 		}
 	],
+	"Combined weight of all caught fish": {
+		"Total": 1012.71,
+		"Per chat": {
+			"psp1g": 1012.71
+		}
+	},
+	"Combined weight of all caught fish per year": {
+		"2023": {
+			"Total": 403.24,
+			"Per chat": {
+				"psp1g": 403.24
+			}
+		},
+		"2024": {
+			"Total": 609.47,
+			"Per chat": {
+				"psp1g": 609.47
+			}
+		}
+	},
 	"Their last seen bag": {
 		"Bag": [
 			"🐟",
@@ -265,7 +285,7 @@
 			"💀",
 			"🐟"
 		],
-		"Date": "2024-12-06 17:10:01 UTC",
+		"Date": "2025-06-12 11:05:20 UTC",
 		"Chat": "psp1g"
 	},
 	"Count of each item in that bag": {
@@ -1846,5 +1866,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-08 09:57:27 UTC"
+	"Profile last updated at": "2025-06-15 14:18:01 UTC"
 }

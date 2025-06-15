@@ -7,9 +7,9 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 56,
+		"Total": 58,
 		"Per chat": {
-			"dizzy": 56
+			"dizzy": 58
 		}
 	},
 	"Fish caught per year": {
@@ -20,17 +20,17 @@
 			}
 		},
 		"2025": {
-			"Total": 6,
+			"Total": 8,
 			"Per chat": {
-				"dizzy": 6
+				"dizzy": 8
 			}
 		}
 	},
 	"Fish caught per catchtype": {
 		"Normal": {
-			"Total": 56,
+			"Total": 58,
 			"Per chat": {
-				"dizzy": 56
+				"dizzy": 58
 			}
 		}
 	},
@@ -45,10 +45,10 @@
 	},
 	"Their last fish per chat": {
 		"dizzy": {
-			"Fish": "🦐 shrimp",
-			"Weight in lbs": 3.62,
+			"Fish": "🐟 fish",
+			"Weight in lbs": 1.73,
 			"Catchtype": "Normal",
-			"Date": "2025-03-21 13:22:29 UTC",
+			"Date": "2025-06-10 14:51:54 UTC",
 			"Chat": "dizzy"
 		}
 	},
@@ -135,6 +135,20 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "🐟 fish",
+			"Weight in lbs": 1.73,
+			"Catchtype": "Normal",
+			"Date": "2025-06-10 14:51:54 UTC",
+			"Chat": "dizzy"
+		},
+		{
+			"Fish": "🐌 snail",
+			"Weight in lbs": 1.98,
+			"Catchtype": "Normal",
+			"Date": "2025-06-08 17:57:03 UTC",
+			"Chat": "dizzy"
+		},
+		{
 			"Fish": "🦐 shrimp",
 			"Weight in lbs": 3.62,
 			"Catchtype": "Normal",
@@ -189,22 +203,28 @@
 			"Catchtype": "Normal",
 			"Date": "2024-12-10 16:38:33 UTC",
 			"Chat": "dizzy"
-		},
-		{
-			"Fish": "🦐 shrimp",
-			"Weight in lbs": 15.55,
-			"Catchtype": "Normal",
-			"Date": "2024-12-07 10:21:07 UTC",
-			"Chat": "dizzy"
-		},
-		{
-			"Fish": "🦞 lobster",
-			"Weight in lbs": 24.06,
-			"Catchtype": "Normal",
-			"Date": "2024-12-03 15:18:27 UTC",
-			"Chat": "dizzy"
 		}
 	],
+	"Combined weight of all caught fish": {
+		"Total": 778.77,
+		"Per chat": {
+			"dizzy": 778.77
+		}
+	},
+	"Combined weight of all caught fish per year": {
+		"2024": {
+			"Total": 682,
+			"Per chat": {
+				"dizzy": 682
+			}
+		},
+		"2025": {
+			"Total": 96.77,
+			"Per chat": {
+				"dizzy": 96.77
+			}
+		}
+	},
 	"Their last seen bag": {
 		"Bag": [
 			"🕷️",
@@ -265,9 +285,9 @@
 		"🪸": 3
 	},
 	"Fish seen in total": {
-		"Total": 30,
+		"Total": 31,
 		"Per chat": {
-			"dizzy": 30
+			"dizzy": 31
 		}
 	},
 	"Data about each of their seen fish": {
@@ -689,9 +709,9 @@
 		},
 		"fish 🐟": {
 			"Caught in total": {
-				"Total": 7,
+				"Total": 8,
 				"Per chat": {
-					"dizzy": 7
+					"dizzy": 8
 				}
 			},
 			"Caught per year": {
@@ -702,17 +722,17 @@
 					}
 				},
 				"2025": {
-					"Total": 1,
+					"Total": 2,
 					"Per chat": {
-						"dizzy": 1
+						"dizzy": 2
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 7,
+					"Total": 8,
 					"Per chat": {
-						"dizzy": 7
+						"dizzy": 8
 					}
 				}
 			},
@@ -725,9 +745,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐟 fish",
-				"Weight in lbs": 12.82,
+				"Weight in lbs": 1.73,
 				"Catchtype": "Normal",
-				"Date": "2025-03-18 10:36:26 UTC",
+				"Date": "2025-06-10 14:51:54 UTC",
 				"Chat": "dizzy"
 			},
 			"Biggest catch": {
@@ -739,9 +759,9 @@
 			},
 			"Smallest catch": {
 				"Fish": "🐟 fish",
-				"Weight in lbs": 6.43,
+				"Weight in lbs": 1.73,
 				"Catchtype": "Normal",
-				"Date": "2024-10-23 01:53:38 UTC",
+				"Date": "2025-06-10 14:51:54 UTC",
 				"Chat": "dizzy"
 			}
 		},
@@ -1531,6 +1551,58 @@
 				"Chat": "dizzy"
 			}
 		},
+		"snail 🐌": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"dizzy": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"dizzy": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"dizzy": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🐌 snail",
+				"Weight in lbs": 1.98,
+				"Catchtype": "Normal",
+				"Date": "2025-06-08 17:57:03 UTC",
+				"Chat": "dizzy"
+			},
+			"Last catch": {
+				"Fish": "🐌 snail",
+				"Weight in lbs": 1.98,
+				"Catchtype": "Normal",
+				"Date": "2025-06-08 17:57:03 UTC",
+				"Chat": "dizzy"
+			},
+			"Biggest catch": {
+				"Fish": "🐌 snail",
+				"Weight in lbs": 1.98,
+				"Catchtype": "Normal",
+				"Date": "2025-06-08 17:57:03 UTC",
+				"Chat": "dizzy"
+			},
+			"Smallest catch": {
+				"Fish": "🐌 snail",
+				"Weight in lbs": 1.98,
+				"Catchtype": "Normal",
+				"Date": "2025-06-08 17:57:03 UTC",
+				"Chat": "dizzy"
+			}
+		},
 		"snake 🐍": {
 			"Caught in total": {
 				"Total": 1,
@@ -1908,7 +1980,6 @@
 		"shark 🦈",
 		"shoppingcart 🛒",
 		"slotmachine 🎰",
-		"snail 🐌",
 		"squid 🦑",
 		"squirrel 🐿️",
 		"sunflower 🌻",
@@ -1925,7 +1996,7 @@
 		"worm 🪱",
 		"zombie 🧟"
 	],
-	"Total fish not seen": 70,
+	"Total fish not seen": 69,
 	"Some info": [
 		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
 		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
@@ -1934,5 +2005,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-08 09:57:27 UTC"
+	"Profile last updated at": "2025-06-15 14:18:01 UTC"
 }

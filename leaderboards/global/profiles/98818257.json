@@ -9,7 +9,7 @@
 		"9th biggest fish record in channel breadworms !",
 		"9th place on tournament leaderboard in channel breadworms !",
 		"15th most fish caught globally 🌐 !",
-		"11th most fish seen globally 🌐 !",
+		"12th most fish seen globally 🌐 !",
 		"16th biggest fish record globally 🌐 !",
 		"8th most fish caught in channel swormbeard !",
 		"8th most fish seen in channel swormbeard !",
@@ -315,6 +315,38 @@
 			"Chat": "breadworms"
 		}
 	],
+	"Combined weight of all caught fish": {
+		"Total": 53036.21,
+		"Per chat": {
+			"breadworms": 52490.28,
+			"jellyuh": 45.02,
+			"julialuxel": 2.86,
+			"swormbeard": 498.05
+		}
+	},
+	"Combined weight of all caught fish per year": {
+		"2023": {
+			"Total": 45367.94,
+			"Per chat": {
+				"breadworms": 45365.08,
+				"julialuxel": 2.86
+			}
+		},
+		"2024": {
+			"Total": 5455.95,
+			"Per chat": {
+				"breadworms": 5455.95
+			}
+		},
+		"2025": {
+			"Total": 2212.32,
+			"Per chat": {
+				"breadworms": 1669.25,
+				"jellyuh": 45.02,
+				"swormbeard": 498.05
+			}
+		}
+	},
 	"Their last seen bag": {
 		"Bag": [
 			"🦕",
@@ -1684,10 +1716,7 @@
 				"Weight in lbs": 31.72,
 				"Catchtype": "Normal",
 				"Date": "2023-06-26 12:35:30 UTC",
-				"Chat": "breadworms",
-				"Record": [
-					"🥇 Biggest 🥒 cucumber record in channel breadworms !"
-				]
+				"Chat": "breadworms"
 			},
 			"Smallest catch": {
 				"Fish": "🥒 cucumber",
@@ -5240,5 +5269,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-08 09:57:27 UTC"
+	"Profile last updated at": "2025-06-15 14:18:01 UTC"
 }

@@ -11,9 +11,9 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 35,
+		"Total": 36,
 		"Per chat": {
-			"aquaismissing": 35
+			"aquaismissing": 36
 		}
 	},
 	"Fish caught per year": {
@@ -24,17 +24,17 @@
 			}
 		},
 		"2025": {
-			"Total": 14,
+			"Total": 15,
 			"Per chat": {
-				"aquaismissing": 14
+				"aquaismissing": 15
 			}
 		}
 	},
 	"Fish caught per catchtype": {
 		"Normal": {
-			"Total": 35,
+			"Total": 36,
 			"Per chat": {
-				"aquaismissing": 35
+				"aquaismissing": 36
 			}
 		}
 	},
@@ -49,10 +49,10 @@
 	},
 	"Their last fish per chat": {
 		"aquaismissing": {
-			"Fish": "🪝 hook",
-			"Weight in lbs": 0.9,
+			"Fish": "🐟 fish",
+			"Weight in lbs": 15.48,
 			"Catchtype": "Normal",
-			"Date": "2025-04-14 08:38:24 UTC",
+			"Date": "2025-06-11 09:04:35 UTC",
 			"Chat": "aquaismissing"
 		}
 	},
@@ -131,13 +131,20 @@
 		},
 		{
 			"Fish": "🐟 fish",
-			"Weight in lbs": 15.42,
+			"Weight in lbs": 15.48,
 			"Catchtype": "Normal",
-			"Date": "2025-02-19 06:01:08 UTC",
+			"Date": "2025-06-11 09:04:35 UTC",
 			"Chat": "aquaismissing"
 		}
 	],
 	"Their overall last fish": [
+		{
+			"Fish": "🐟 fish",
+			"Weight in lbs": 15.48,
+			"Catchtype": "Normal",
+			"Date": "2025-06-11 09:04:35 UTC",
+			"Chat": "aquaismissing"
+		},
 		{
 			"Fish": "🪝 hook",
 			"Weight in lbs": 0.9,
@@ -200,15 +207,28 @@
 			"Catchtype": "Normal",
 			"Date": "2025-02-19 03:48:50 UTC",
 			"Chat": "aquaismissing"
-		},
-		{
-			"Fish": "🐋 whale2",
-			"Weight in lbs": 90.65,
-			"Catchtype": "Normal",
-			"Date": "2025-02-14 12:32:00 UTC",
-			"Chat": "aquaismissing"
 		}
 	],
+	"Combined weight of all caught fish": {
+		"Total": 521.7,
+		"Per chat": {
+			"aquaismissing": 521.7
+		}
+	},
+	"Combined weight of all caught fish per year": {
+		"2024": {
+			"Total": 223.77,
+			"Per chat": {
+				"aquaismissing": 223.77
+			}
+		},
+		"2025": {
+			"Total": 297.93,
+			"Per chat": {
+				"aquaismissing": 297.93
+			}
+		}
+	},
 	"Their last seen bag": {
 		"Bag": [
 			"🐟",
@@ -386,9 +406,9 @@
 		},
 		"fish 🐟": {
 			"Caught in total": {
-				"Total": 6,
+				"Total": 7,
 				"Per chat": {
-					"aquaismissing": 6
+					"aquaismissing": 7
 				}
 			},
 			"Caught per year": {
@@ -399,17 +419,17 @@
 					}
 				},
 				"2025": {
-					"Total": 2,
+					"Total": 3,
 					"Per chat": {
-						"aquaismissing": 2
+						"aquaismissing": 3
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 6,
+					"Total": 7,
 					"Per chat": {
-						"aquaismissing": 6
+						"aquaismissing": 7
 					}
 				}
 			},
@@ -425,16 +445,16 @@
 			},
 			"Last catch": {
 				"Fish": "🐟 fish",
-				"Weight in lbs": 2.96,
+				"Weight in lbs": 15.48,
 				"Catchtype": "Normal",
-				"Date": "2025-03-28 23:59:34 UTC",
+				"Date": "2025-06-11 09:04:35 UTC",
 				"Chat": "aquaismissing"
 			},
 			"Biggest catch": {
 				"Fish": "🐟 fish",
-				"Weight in lbs": 15.42,
+				"Weight in lbs": 15.48,
 				"Catchtype": "Normal",
-				"Date": "2025-02-19 06:01:08 UTC",
+				"Date": "2025-06-11 09:04:35 UTC",
 				"Chat": "aquaismissing"
 			},
 			"Smallest catch": {
@@ -1400,5 +1420,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-08 09:57:27 UTC"
+	"Profile last updated at": "2025-06-15 14:18:01 UTC"
 }

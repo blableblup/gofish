@@ -18,11 +18,11 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 2149,
+		"Total": 2188,
 		"Per chat": {
 			"breadworms": 4,
 			"psp1g": 399,
-			"wuh6": 1746
+			"wuh6": 1785
 		}
 	},
 	"Fish caught per year": {
@@ -35,10 +35,10 @@
 			}
 		},
 		"2025": {
-			"Total": 1481,
+			"Total": 1520,
 			"Per chat": {
 				"psp1g": 3,
-				"wuh6": 1478
+				"wuh6": 1517
 			}
 		}
 	},
@@ -56,18 +56,18 @@
 			}
 		},
 		"Mouth bonus": {
-			"Total": 6,
+			"Total": 7,
 			"Per chat": {
 				"psp1g": 1,
-				"wuh6": 5
+				"wuh6": 6
 			}
 		},
 		"Normal": {
-			"Total": 2051,
+			"Total": 2089,
 			"Per chat": {
 				"breadworms": 4,
 				"psp1g": 385,
-				"wuh6": 1662
+				"wuh6": 1700
 			}
 		},
 		"Release bonus": {
@@ -118,9 +118,9 @@
 		},
 		"wuh6": {
 			"Fish": "🐟 fish",
-			"Weight in lbs": 14.26,
+			"Weight in lbs": 9.34,
 			"Catchtype": "Normal",
-			"Date": "2025-06-07 15:54:52 UTC",
+			"Date": "2025-06-14 17:00:12 UTC",
 			"Chat": "wuh6"
 		}
 	},
@@ -222,75 +222,100 @@
 	"Their overall last fish": [
 		{
 			"Fish": "🐟 fish",
-			"Weight in lbs": 14.26,
+			"Weight in lbs": 9.34,
 			"Catchtype": "Normal",
-			"Date": "2025-06-07 15:54:52 UTC",
+			"Date": "2025-06-14 17:00:12 UTC",
+			"Chat": "wuh6"
+		},
+		{
+			"Fish": "🐚 shell",
+			"Weight in lbs": 3.4,
+			"Catchtype": "Normal",
+			"Date": "2025-06-14 14:19:59 UTC",
 			"Chat": "wuh6"
 		},
 		{
 			"Fish": "🐟 fish",
-			"Weight in lbs": 11.5,
+			"Weight in lbs": 8.19,
 			"Catchtype": "Normal",
-			"Date": "2025-06-07 15:15:04 UTC",
+			"Date": "2025-06-14 13:29:54 UTC",
 			"Chat": "wuh6"
 		},
 		{
-			"Fish": "🦐 shrimp",
-			"Weight in lbs": 3.67,
+			"Fish": "🐋 whale2",
+			"Weight in lbs": 29.03,
 			"Catchtype": "Normal",
-			"Date": "2025-06-07 14:31:09 UTC",
+			"Date": "2025-06-14 12:50:21 UTC",
 			"Chat": "wuh6"
 		},
 		{
-			"Fish": "🩲 briefs",
-			"Weight in lbs": 8.77,
+			"Fish": "🐙 octopus",
+			"Weight in lbs": 119.42,
 			"Catchtype": "Normal",
-			"Date": "2025-06-07 13:17:30 UTC",
+			"Date": "2025-06-14 11:03:43 UTC",
 			"Chat": "wuh6"
 		},
 		{
-			"Fish": "🪼 jellyfish",
-			"Weight in lbs": 21.73,
+			"Fish": "🧽 sponge",
+			"Weight in lbs": 13.8,
 			"Catchtype": "Normal",
-			"Date": "2025-06-07 12:44:52 UTC",
+			"Date": "2025-06-13 22:15:43 UTC",
 			"Chat": "wuh6"
 		},
 		{
-			"Fish": "🐍 snake",
-			"Weight in lbs": 4.38,
+			"Fish": "🐟 fish",
+			"Weight in lbs": 2.76,
 			"Catchtype": "Normal",
-			"Date": "2025-06-07 11:12:16 UTC",
+			"Date": "2025-06-13 20:33:20 UTC",
 			"Chat": "wuh6"
 		},
 		{
-			"Fish": "🪸 coral",
-			"Weight in lbs": 17.34,
+			"Fish": "🐊 crocodile",
+			"Weight in lbs": 35.8,
 			"Catchtype": "Normal",
-			"Date": "2025-06-07 10:41:53 UTC",
-			"Chat": "wuh6"
-		},
-		{
-			"Fish": "🐢 turtle",
-			"Weight in lbs": 45.84,
-			"Catchtype": "Normal",
-			"Date": "2025-06-07 10:01:42 UTC",
+			"Date": "2025-06-13 19:49:14 UTC",
 			"Chat": "wuh6"
 		},
 		{
 			"Fish": "🦞 lobster",
-			"Weight in lbs": 12.15,
+			"Weight in lbs": 26.74,
 			"Catchtype": "Normal",
-			"Date": "2025-06-07 02:18:49 UTC",
+			"Date": "2025-06-12 00:50:21 UTC",
 			"Chat": "wuh6"
 		},
 		{
-			"Fish": "🦈 shark",
-			"Weight in lbs": 108.84,
+			"Fish": "🪝 hook",
+			"Weight in lbs": 0.98,
 			"Catchtype": "Normal",
-			"Date": "2025-06-06 22:14:49 UTC",
+			"Date": "2025-06-11 20:18:04 UTC",
 			"Chat": "wuh6"
 		}
 	],
+	"Combined weight of all caught fish": {
+		"Total": 43097.8,
+		"Per chat": {
+			"breadworms": 52.61,
+			"psp1g": 7946.79,
+			"wuh6": 35098.4
+		}
+	},
+	"Combined weight of all caught fish per year": {
+		"2024": {
+			"Total": 13611.93,
+			"Per chat": {
+				"breadworms": 52.61,
+				"psp1g": 7925.05,
+				"wuh6": 5634.27
+			}
+		},
+		"2025": {
+			"Total": 29485.87,
+			"Per chat": {
+				"psp1g": 21.74,
+				"wuh6": 29464.13
+			}
+		}
+	},
 	"Their last seen bag": {
 		"Bag": [
 			"💀",
@@ -315,7 +340,6 @@
 			"🧤",
 			"🦭",
 			"📱",
-			"🌰",
 			"🌰",
 			"🌰",
 			"🐧",
@@ -383,20 +407,19 @@
 			"🪀",
 			"🍬",
 			"🍬",
-			"🧦",
 			"🪀",
 			"🧃",
+			"🩲",
 			"🎏",
-			"🪸",
-			"🩲"
+			"🧽"
 		],
-		"Date": "2025-06-07 14:54:54 UTC",
+		"Date": "2025-06-13 22:15:57 UTC",
 		"Chat": "wuh6"
 	},
 	"Count of each item in that bag": {
 		"☂️": 1,
 		"⛸️": 8,
-		"🌰": 4,
+		"🌰": 3,
 		"🌷": 1,
 		"🍁": 1,
 		"🍪": 1,
@@ -425,14 +448,13 @@
 		"🧣": 6,
 		"🧤": 1,
 		"🧥": 1,
-		"🧦": 1,
 		"🧭": 1,
 		"🧸": 4,
+		"🧽": 1,
 		"🩰": 1,
 		"🩲": 1,
 		"🪀": 9,
 		"🪵": 1,
-		"🪸": 1,
 		"🪿": 1,
 		"🫎": 2
 	},
@@ -834,10 +856,10 @@
 		},
 		"blowfish 🐡": {
 			"Caught in total": {
-				"Total": 24,
+				"Total": 25,
 				"Per chat": {
 					"psp1g": 9,
-					"wuh6": 15
+					"wuh6": 16
 				}
 			},
 			"Caught per year": {
@@ -848,19 +870,19 @@
 					}
 				},
 				"2025": {
-					"Total": 16,
+					"Total": 17,
 					"Per chat": {
 						"psp1g": 1,
-						"wuh6": 15
+						"wuh6": 16
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 24,
+					"Total": 25,
 					"Per chat": {
 						"psp1g": 9,
-						"wuh6": 15
+						"wuh6": 16
 					}
 				}
 			},
@@ -873,9 +895,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐡 blowfish",
-				"Weight in lbs": 7.35,
+				"Weight in lbs": 13.16,
 				"Catchtype": "Normal",
-				"Date": "2025-06-05 06:22:19 UTC",
+				"Date": "2025-06-11 14:05:33 UTC",
 				"Chat": "wuh6"
 			},
 			"Biggest catch": {
@@ -1372,10 +1394,10 @@
 		},
 		"cockroach 🪳": {
 			"Caught in total": {
-				"Total": 36,
+				"Total": 37,
 				"Per chat": {
 					"psp1g": 8,
-					"wuh6": 28
+					"wuh6": 29
 				}
 			},
 			"Caught per year": {
@@ -1387,19 +1409,19 @@
 					}
 				},
 				"2025": {
-					"Total": 28,
+					"Total": 29,
 					"Per chat": {
 						"psp1g": 1,
-						"wuh6": 27
+						"wuh6": 28
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 36,
+					"Total": 37,
 					"Per chat": {
 						"psp1g": 8,
-						"wuh6": 28
+						"wuh6": 29
 					}
 				}
 			},
@@ -1412,9 +1434,9 @@
 			},
 			"Last catch": {
 				"Fish": "🪳 cockroach",
-				"Weight in lbs": 0.8,
+				"Weight in lbs": 5.97,
 				"Catchtype": "Normal",
-				"Date": "2025-06-05 11:32:34 UTC",
+				"Date": "2025-06-09 17:42:52 UTC",
 				"Chat": "wuh6"
 			},
 			"Biggest catch": {
@@ -1486,10 +1508,10 @@
 		},
 		"coral 🪸": {
 			"Caught in total": {
-				"Total": 17,
+				"Total": 18,
 				"Per chat": {
 					"psp1g": 9,
-					"wuh6": 8
+					"wuh6": 9
 				}
 			},
 			"Caught per year": {
@@ -1500,18 +1522,18 @@
 					}
 				},
 				"2025": {
-					"Total": 8,
+					"Total": 9,
 					"Per chat": {
-						"wuh6": 8
+						"wuh6": 9
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 17,
+					"Total": 18,
 					"Per chat": {
 						"psp1g": 9,
-						"wuh6": 8
+						"wuh6": 9
 					}
 				}
 			},
@@ -1524,9 +1546,9 @@
 			},
 			"Last catch": {
 				"Fish": "🪸 coral",
-				"Weight in lbs": 17.34,
+				"Weight in lbs": 6.84,
 				"Catchtype": "Normal",
-				"Date": "2025-06-07 10:41:53 UTC",
+				"Date": "2025-06-08 17:23:08 UTC",
 				"Chat": "wuh6"
 			},
 			"Biggest catch": {
@@ -1613,10 +1635,10 @@
 		},
 		"crocodile 🐊": {
 			"Caught in total": {
-				"Total": 50,
+				"Total": 53,
 				"Per chat": {
 					"psp1g": 8,
-					"wuh6": 42
+					"wuh6": 45
 				}
 			},
 			"Caught per year": {
@@ -1628,18 +1650,18 @@
 					}
 				},
 				"2025": {
-					"Total": 36,
+					"Total": 39,
 					"Per chat": {
-						"wuh6": 36
+						"wuh6": 39
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 50,
+					"Total": 53,
 					"Per chat": {
 						"psp1g": 8,
-						"wuh6": 42
+						"wuh6": 45
 					}
 				}
 			},
@@ -1652,9 +1674,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐊 crocodile",
-				"Weight in lbs": 41.5,
+				"Weight in lbs": 35.8,
 				"Catchtype": "Normal",
-				"Date": "2025-05-19 14:05:05 UTC",
+				"Date": "2025-06-13 19:49:14 UTC",
 				"Chat": "wuh6"
 			},
 			"Biggest catch": {
@@ -1666,9 +1688,9 @@
 			},
 			"Smallest catch": {
 				"Fish": "🐊 crocodile",
-				"Weight in lbs": 8.56,
+				"Weight in lbs": 0.63,
 				"Catchtype": "Normal",
-				"Date": "2024-12-26 16:00:45 UTC",
+				"Date": "2025-06-10 20:11:39 UTC",
 				"Chat": "wuh6"
 			}
 		},
@@ -1910,11 +1932,11 @@
 		},
 		"dolphin 🐬": {
 			"Caught in total": {
-				"Total": 47,
+				"Total": 49,
 				"Per chat": {
 					"breadworms": 1,
 					"psp1g": 12,
-					"wuh6": 34
+					"wuh6": 36
 				}
 			},
 			"Caught per year": {
@@ -1927,19 +1949,19 @@
 					}
 				},
 				"2025": {
-					"Total": 29,
+					"Total": 31,
 					"Per chat": {
-						"wuh6": 29
+						"wuh6": 31
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 47,
+					"Total": 49,
 					"Per chat": {
 						"breadworms": 1,
 						"psp1g": 12,
-						"wuh6": 34
+						"wuh6": 36
 					}
 				}
 			},
@@ -1952,9 +1974,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐬 dolphin",
-				"Weight in lbs": 21.08,
+				"Weight in lbs": 48.89,
 				"Catchtype": "Normal",
-				"Date": "2025-05-10 14:13:41 UTC",
+				"Date": "2025-06-11 19:44:02 UTC",
 				"Chat": "wuh6"
 			},
 			"Biggest catch": {
@@ -1974,10 +1996,10 @@
 		},
 		"dragon 🐉": {
 			"Caught in total": {
-				"Total": 9,
+				"Total": 10,
 				"Per chat": {
 					"psp1g": 1,
-					"wuh6": 8
+					"wuh6": 9
 				}
 			},
 			"Caught per year": {
@@ -1989,18 +2011,18 @@
 					}
 				},
 				"2025": {
-					"Total": 7,
+					"Total": 8,
 					"Per chat": {
-						"wuh6": 7
+						"wuh6": 8
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 9,
+					"Total": 10,
 					"Per chat": {
 						"psp1g": 1,
-						"wuh6": 8
+						"wuh6": 9
 					}
 				}
 			},
@@ -2013,9 +2035,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐉 dragon",
-				"Weight in lbs": 228.76,
+				"Weight in lbs": 82.35,
 				"Catchtype": "Normal",
-				"Date": "2025-05-23 21:30:28 UTC",
+				"Date": "2025-06-09 12:56:21 UTC",
 				"Chat": "wuh6"
 			},
 			"Biggest catch": {
@@ -2200,10 +2222,10 @@
 		},
 		"fish 🐟": {
 			"Caught in total": {
-				"Total": 271,
+				"Total": 277,
 				"Per chat": {
 					"psp1g": 48,
-					"wuh6": 223
+					"wuh6": 229
 				}
 			},
 			"Caught per year": {
@@ -2215,18 +2237,18 @@
 					}
 				},
 				"2025": {
-					"Total": 186,
+					"Total": 192,
 					"Per chat": {
-						"wuh6": 186
+						"wuh6": 192
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 271,
+					"Total": 277,
 					"Per chat": {
 						"psp1g": 48,
-						"wuh6": 223
+						"wuh6": 229
 					}
 				}
 			},
@@ -2239,9 +2261,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐟 fish",
-				"Weight in lbs": 14.26,
+				"Weight in lbs": 9.34,
 				"Catchtype": "Normal",
-				"Date": "2025-06-07 15:54:52 UTC",
+				"Date": "2025-06-14 17:00:12 UTC",
 				"Chat": "wuh6"
 			},
 			"Biggest catch": {
@@ -2497,10 +2519,10 @@
 		},
 		"hook 🪝": {
 			"Caught in total": {
-				"Total": 181,
+				"Total": 185,
 				"Per chat": {
 					"psp1g": 24,
-					"wuh6": 157
+					"wuh6": 161
 				}
 			},
 			"Caught per year": {
@@ -2512,10 +2534,10 @@
 					}
 				},
 				"2025": {
-					"Total": 129,
+					"Total": 133,
 					"Per chat": {
 						"psp1g": 1,
-						"wuh6": 128
+						"wuh6": 132
 					}
 				}
 			},
@@ -2534,10 +2556,10 @@
 					}
 				},
 				"Normal": {
-					"Total": 156,
+					"Total": 160,
 					"Per chat": {
 						"psp1g": 18,
-						"wuh6": 138
+						"wuh6": 142
 					}
 				},
 				"Release bonus": {
@@ -2557,9 +2579,9 @@
 			},
 			"Last catch": {
 				"Fish": "🪝 hook",
-				"Weight in lbs": 0.12,
-				"Catchtype": "Mouth bonus",
-				"Date": "2025-06-06 08:23:59 UTC",
+				"Weight in lbs": 0.98,
+				"Catchtype": "Normal",
+				"Date": "2025-06-11 20:18:04 UTC",
 				"Chat": "wuh6"
 			},
 			"Biggest catch": {
@@ -2942,10 +2964,10 @@
 		},
 		"lobster 🦞": {
 			"Caught in total": {
-				"Total": 66,
+				"Total": 69,
 				"Per chat": {
 					"psp1g": 13,
-					"wuh6": 53
+					"wuh6": 56
 				}
 			},
 			"Caught per year": {
@@ -2957,18 +2979,18 @@
 					}
 				},
 				"2025": {
-					"Total": 49,
+					"Total": 52,
 					"Per chat": {
-						"wuh6": 49
+						"wuh6": 52
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 66,
+					"Total": 69,
 					"Per chat": {
 						"psp1g": 13,
-						"wuh6": 53
+						"wuh6": 56
 					}
 				}
 			},
@@ -2981,9 +3003,9 @@
 			},
 			"Last catch": {
 				"Fish": "🦞 lobster",
-				"Weight in lbs": 12.15,
+				"Weight in lbs": 26.74,
 				"Catchtype": "Normal",
-				"Date": "2025-06-07 02:18:49 UTC",
+				"Date": "2025-06-12 00:50:21 UTC",
 				"Chat": "wuh6"
 			},
 			"Biggest catch": {
@@ -3058,11 +3080,11 @@
 		},
 		"lure 🎏": {
 			"Caught in total": {
-				"Total": 144,
+				"Total": 146,
 				"Per chat": {
 					"breadworms": 1,
 					"psp1g": 26,
-					"wuh6": 117
+					"wuh6": 119
 				}
 			},
 			"Caught per year": {
@@ -3075,9 +3097,9 @@
 					}
 				},
 				"2025": {
-					"Total": 109,
+					"Total": 111,
 					"Per chat": {
-						"wuh6": 109
+						"wuh6": 111
 					}
 				}
 			},
@@ -3095,11 +3117,11 @@
 					}
 				},
 				"Normal": {
-					"Total": 115,
+					"Total": 117,
 					"Per chat": {
 						"breadworms": 1,
 						"psp1g": 22,
-						"wuh6": 92
+						"wuh6": 94
 					}
 				},
 				"Release bonus": {
@@ -3119,9 +3141,9 @@
 			},
 			"Last catch": {
 				"Fish": "🎏 lure",
-				"Weight in lbs": 0,
-				"Catchtype": "Release bonus",
-				"Date": "2025-06-06 08:24:09 UTC",
+				"Weight in lbs": 1.82,
+				"Catchtype": "Normal",
+				"Date": "2025-06-10 10:17:41 UTC",
 				"Chat": "wuh6"
 			},
 			"Biggest catch": {
@@ -3430,10 +3452,10 @@
 		},
 		"octopus 🐙": {
 			"Caught in total": {
-				"Total": 47,
+				"Total": 50,
 				"Per chat": {
 					"psp1g": 8,
-					"wuh6": 39
+					"wuh6": 42
 				}
 			},
 			"Caught per year": {
@@ -3445,18 +3467,18 @@
 					}
 				},
 				"2025": {
-					"Total": 37,
+					"Total": 40,
 					"Per chat": {
-						"wuh6": 37
+						"wuh6": 40
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 47,
+					"Total": 50,
 					"Per chat": {
 						"psp1g": 8,
-						"wuh6": 39
+						"wuh6": 42
 					}
 				}
 			},
@@ -3469,9 +3491,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐙 octopus",
-				"Weight in lbs": 129.19,
+				"Weight in lbs": 119.42,
 				"Catchtype": "Normal",
-				"Date": "2025-06-02 17:12:18 UTC",
+				"Date": "2025-06-14 11:03:43 UTC",
 				"Chat": "wuh6"
 			},
 			"Biggest catch": {
@@ -3917,10 +3939,10 @@
 		},
 		"sauropod 🦕": {
 			"Caught in total": {
-				"Total": 19,
+				"Total": 20,
 				"Per chat": {
 					"psp1g": 5,
-					"wuh6": 14
+					"wuh6": 15
 				}
 			},
 			"Caught per year": {
@@ -3932,18 +3954,18 @@
 					}
 				},
 				"2025": {
-					"Total": 12,
+					"Total": 13,
 					"Per chat": {
-						"wuh6": 12
+						"wuh6": 13
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 19,
+					"Total": 20,
 					"Per chat": {
 						"psp1g": 5,
-						"wuh6": 14
+						"wuh6": 15
 					}
 				}
 			},
@@ -3956,9 +3978,9 @@
 			},
 			"Last catch": {
 				"Fish": "🦕 sauropod",
-				"Weight in lbs": 201.81,
+				"Weight in lbs": 112.84,
 				"Catchtype": "Normal",
-				"Date": "2025-05-21 15:51:31 UTC",
+				"Date": "2025-06-08 18:02:23 UTC",
 				"Chat": "wuh6"
 			},
 			"Biggest catch": {
@@ -4102,10 +4124,10 @@
 		},
 		"seaweed 🌿": {
 			"Caught in total": {
-				"Total": 16,
+				"Total": 17,
 				"Per chat": {
 					"psp1g": 1,
-					"wuh6": 15
+					"wuh6": 16
 				}
 			},
 			"Caught per year": {
@@ -4117,9 +4139,9 @@
 					}
 				},
 				"2025": {
-					"Total": 13,
+					"Total": 14,
 					"Per chat": {
-						"wuh6": 13
+						"wuh6": 14
 					}
 				}
 			},
@@ -4131,10 +4153,10 @@
 					}
 				},
 				"Normal": {
-					"Total": 14,
+					"Total": 15,
 					"Per chat": {
 						"psp1g": 1,
-						"wuh6": 13
+						"wuh6": 14
 					}
 				}
 			},
@@ -4147,9 +4169,9 @@
 			},
 			"Last catch": {
 				"Fish": "🌿 seaweed",
-				"Weight in lbs": 0.98,
+				"Weight in lbs": 0.41,
 				"Catchtype": "Normal",
-				"Date": "2025-06-03 11:01:48 UTC",
+				"Date": "2025-06-09 15:00:53 UTC",
 				"Chat": "wuh6"
 			},
 			"Biggest catch": {
@@ -4293,10 +4315,10 @@
 		},
 		"shell 🐚": {
 			"Caught in total": {
-				"Total": 136,
+				"Total": 139,
 				"Per chat": {
 					"psp1g": 24,
-					"wuh6": 112
+					"wuh6": 115
 				}
 			},
 			"Caught per year": {
@@ -4308,18 +4330,24 @@
 					}
 				},
 				"2025": {
-					"Total": 98,
+					"Total": 101,
 					"Per chat": {
-						"wuh6": 98
+						"wuh6": 101
 					}
 				}
 			},
 			"Caught per catchtype": {
+				"Mouth bonus": {
+					"Total": 1,
+					"Per chat": {
+						"wuh6": 1
+					}
+				},
 				"Normal": {
-					"Total": 136,
+					"Total": 138,
 					"Per chat": {
 						"psp1g": 24,
-						"wuh6": 112
+						"wuh6": 114
 					}
 				}
 			},
@@ -4332,9 +4360,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐚 shell",
-				"Weight in lbs": 2.1,
+				"Weight in lbs": 3.4,
 				"Catchtype": "Normal",
-				"Date": "2025-05-31 13:42:50 UTC",
+				"Date": "2025-06-14 14:19:59 UTC",
 				"Chat": "wuh6"
 			},
 			"Biggest catch": {
@@ -4786,10 +4814,10 @@
 		},
 		"sponge 🧽": {
 			"Caught in total": {
-				"Total": 13,
+				"Total": 14,
 				"Per chat": {
 					"psp1g": 3,
-					"wuh6": 10
+					"wuh6": 11
 				}
 			},
 			"Caught per year": {
@@ -4800,18 +4828,18 @@
 					}
 				},
 				"2025": {
-					"Total": 10,
+					"Total": 11,
 					"Per chat": {
-						"wuh6": 10
+						"wuh6": 11
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 13,
+					"Total": 14,
 					"Per chat": {
 						"psp1g": 3,
-						"wuh6": 10
+						"wuh6": 11
 					}
 				}
 			},
@@ -4824,9 +4852,9 @@
 			},
 			"Last catch": {
 				"Fish": "🧽 sponge",
-				"Weight in lbs": 8.56,
+				"Weight in lbs": 13.8,
 				"Catchtype": "Normal",
-				"Date": "2025-06-05 20:02:20 UTC",
+				"Date": "2025-06-13 22:15:43 UTC",
 				"Chat": "wuh6"
 			},
 			"Biggest catch": {
@@ -5034,10 +5062,10 @@
 		},
 		"tropicalfish 🐠": {
 			"Caught in total": {
-				"Total": 25,
+				"Total": 28,
 				"Per chat": {
 					"psp1g": 11,
-					"wuh6": 14
+					"wuh6": 17
 				}
 			},
 			"Caught per year": {
@@ -5048,18 +5076,18 @@
 					}
 				},
 				"2025": {
-					"Total": 14,
+					"Total": 17,
 					"Per chat": {
-						"wuh6": 14
+						"wuh6": 17
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 25,
+					"Total": 28,
 					"Per chat": {
 						"psp1g": 11,
-						"wuh6": 14
+						"wuh6": 17
 					}
 				}
 			},
@@ -5072,9 +5100,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐠 tropicalfish",
-				"Weight in lbs": 5.2,
+				"Weight in lbs": 8.46,
 				"Catchtype": "Normal",
-				"Date": "2025-05-12 19:15:58 UTC",
+				"Date": "2025-06-11 18:40:53 UTC",
 				"Chat": "wuh6"
 			},
 			"Biggest catch": {
@@ -5328,10 +5356,10 @@
 		},
 		"whale2 🐋": {
 			"Caught in total": {
-				"Total": 71,
+				"Total": 74,
 				"Per chat": {
 					"psp1g": 9,
-					"wuh6": 62
+					"wuh6": 65
 				}
 			},
 			"Caught per year": {
@@ -5343,18 +5371,18 @@
 					}
 				},
 				"2025": {
-					"Total": 54,
+					"Total": 57,
 					"Per chat": {
-						"wuh6": 54
+						"wuh6": 57
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 71,
+					"Total": 74,
 					"Per chat": {
 						"psp1g": 9,
-						"wuh6": 62
+						"wuh6": 65
 					}
 				}
 			},
@@ -5367,9 +5395,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐋 whale2",
-				"Weight in lbs": 140.62,
+				"Weight in lbs": 29.03,
 				"Catchtype": "Normal",
-				"Date": "2025-05-23 10:04:56 UTC",
+				"Date": "2025-06-14 12:50:21 UTC",
 				"Chat": "wuh6"
 			},
 			"Biggest catch": {
@@ -5650,5 +5678,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-08 09:57:27 UTC"
+	"Profile last updated at": "2025-06-15 14:18:01 UTC"
 }

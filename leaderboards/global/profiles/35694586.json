@@ -7,9 +7,9 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 562,
+		"Total": 564,
 		"Per chat": {
-			"breadworms": 562
+			"breadworms": 564
 		}
 	},
 	"Fish caught per year": {
@@ -20,9 +20,9 @@
 			}
 		},
 		"2025": {
-			"Total": 170,
+			"Total": 172,
 			"Per chat": {
-				"breadworms": 170
+				"breadworms": 172
 			}
 		}
 	},
@@ -34,9 +34,9 @@
 			}
 		},
 		"Normal": {
-			"Total": 538,
+			"Total": 540,
 			"Per chat": {
-				"breadworms": 538
+				"breadworms": 540
 			}
 		},
 		"Release bonus": {
@@ -57,10 +57,10 @@
 	},
 	"Their last fish per chat": {
 		"breadworms": {
-			"Fish": "🦞 lobster",
-			"Weight in lbs": 39.84,
+			"Fish": "🎏 lure",
+			"Weight in lbs": 3.74,
 			"Catchtype": "Normal",
-			"Date": "2025-06-04 03:55:42 UTC",
+			"Date": "2025-06-10 21:41:13 UTC",
 			"Chat": "breadworms"
 		}
 	},
@@ -147,6 +147,20 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "🎏 lure",
+			"Weight in lbs": 3.74,
+			"Catchtype": "Normal",
+			"Date": "2025-06-10 21:41:13 UTC",
+			"Chat": "breadworms"
+		},
+		{
+			"Fish": "🪳 cockroach",
+			"Weight in lbs": 1.42,
+			"Catchtype": "Normal",
+			"Date": "2025-06-10 00:07:17 UTC",
+			"Chat": "breadworms"
+		},
+		{
 			"Fish": "🦞 lobster",
 			"Weight in lbs": 39.84,
 			"Catchtype": "Normal",
@@ -201,22 +215,28 @@
 			"Catchtype": "Normal",
 			"Date": "2025-05-14 23:21:28 UTC",
 			"Chat": "breadworms"
-		},
-		{
-			"Fish": "🍬 candy",
-			"Weight in lbs": 0,
-			"Catchtype": "Release bonus",
-			"Date": "2025-05-14 23:08:50 UTC",
-			"Chat": "breadworms"
-		},
-		{
-			"Fish": "🧦 socks",
-			"Weight in lbs": 1.39,
-			"Catchtype": "Normal",
-			"Date": "2025-05-14 23:08:40 UTC",
-			"Chat": "breadworms"
 		}
 	],
+	"Combined weight of all caught fish": {
+		"Total": 10755.18,
+		"Per chat": {
+			"breadworms": 10755.18
+		}
+	},
+	"Combined weight of all caught fish per year": {
+		"2024": {
+			"Total": 6763.22,
+			"Per chat": {
+				"breadworms": 6763.22
+			}
+		},
+		"2025": {
+			"Total": 3991.96,
+			"Per chat": {
+				"breadworms": 3991.96
+			}
+		}
+	},
 	"Their last seen bag": {
 		"Bag": [
 			"📑",
@@ -739,9 +759,9 @@
 		},
 		"cockroach 🪳": {
 			"Caught in total": {
-				"Total": 10,
+				"Total": 11,
 				"Per chat": {
-					"breadworms": 10
+					"breadworms": 11
 				}
 			},
 			"Caught per year": {
@@ -752,17 +772,17 @@
 					}
 				},
 				"2025": {
-					"Total": 2,
+					"Total": 3,
 					"Per chat": {
-						"breadworms": 2
+						"breadworms": 3
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 10,
+					"Total": 11,
 					"Per chat": {
-						"breadworms": 10
+						"breadworms": 11
 					}
 				}
 			},
@@ -775,9 +795,9 @@
 			},
 			"Last catch": {
 				"Fish": "🪳 cockroach",
-				"Weight in lbs": 10.39,
+				"Weight in lbs": 1.42,
 				"Catchtype": "Normal",
-				"Date": "2025-04-08 07:46:33 UTC",
+				"Date": "2025-06-10 00:07:17 UTC",
 				"Chat": "breadworms"
 			},
 			"Biggest catch": {
@@ -1591,9 +1611,9 @@
 		},
 		"lure 🎏": {
 			"Caught in total": {
-				"Total": 38,
+				"Total": 39,
 				"Per chat": {
-					"breadworms": 38
+					"breadworms": 39
 				}
 			},
 			"Caught per year": {
@@ -1604,17 +1624,17 @@
 					}
 				},
 				"2025": {
-					"Total": 9,
+					"Total": 10,
 					"Per chat": {
-						"breadworms": 9
+						"breadworms": 10
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 33,
+					"Total": 34,
 					"Per chat": {
-						"breadworms": 33
+						"breadworms": 34
 					}
 				},
 				"Release bonus": {
@@ -1633,9 +1653,9 @@
 			},
 			"Last catch": {
 				"Fish": "🎏 lure",
-				"Weight in lbs": 2.88,
+				"Weight in lbs": 3.74,
 				"Catchtype": "Normal",
-				"Date": "2025-05-20 01:49:55 UTC",
+				"Date": "2025-06-10 21:41:13 UTC",
 				"Chat": "breadworms"
 			},
 			"Biggest catch": {
@@ -3463,5 +3483,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-08 09:57:27 UTC"
+	"Profile last updated at": "2025-06-15 14:18:01 UTC"
 }

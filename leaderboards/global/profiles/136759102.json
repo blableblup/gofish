@@ -3,7 +3,7 @@
 	"Progress": null,
 	"Records": [
 		"16th most fish caught in channel jellyuh !",
-		"13th most fish seen in channel jellyuh !",
+		"14th most fish seen in channel jellyuh !",
 		"10th biggest fish record in channel jellyuh !"
 	],
 	"Other accomplishments": {
@@ -245,6 +245,33 @@
 			"Chat": "jellyuh"
 		}
 	],
+	"Combined weight of all caught fish": {
+		"Total": 482.79,
+		"Per chat": {
+			"jellyuh": 232.38,
+			"psp1g": 250.41
+		}
+	},
+	"Combined weight of all caught fish per year": {
+		"2023": {
+			"Total": 30.24,
+			"Per chat": {
+				"psp1g": 30.24
+			}
+		},
+		"2024": {
+			"Total": 220.17,
+			"Per chat": {
+				"psp1g": 220.17
+			}
+		},
+		"2025": {
+			"Total": 232.38,
+			"Per chat": {
+				"jellyuh": 232.38
+			}
+		}
+	},
 	"Their last seen bag": {
 		"Bag": [
 			"🐸",
@@ -1416,5 +1443,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-08 09:57:27 UTC"
+	"Profile last updated at": "2025-06-15 14:18:01 UTC"
 }

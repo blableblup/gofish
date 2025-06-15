@@ -11,9 +11,9 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 220,
+		"Total": 221,
 		"Per chat": {
-			"dizzy": 219,
+			"dizzy": 220,
 			"julialuxel": 1
 		}
 	},
@@ -26,9 +26,9 @@
 			}
 		},
 		"2025": {
-			"Total": 34,
+			"Total": 35,
 			"Per chat": {
-				"dizzy": 34
+				"dizzy": 35
 			}
 		}
 	},
@@ -40,9 +40,9 @@
 			}
 		},
 		"Normal": {
-			"Total": 209,
+			"Total": 210,
 			"Per chat": {
-				"dizzy": 208,
+				"dizzy": 209,
 				"julialuxel": 1
 			}
 		},
@@ -71,10 +71,10 @@
 	},
 	"Their last fish per chat": {
 		"dizzy": {
-			"Fish": "🐟 fish",
-			"Weight in lbs": 0.54,
+			"Fish": "🐸 frog",
+			"Weight in lbs": 0.39,
 			"Catchtype": "Normal",
-			"Date": "2025-06-06 21:34:28 UTC",
+			"Date": "2025-06-10 02:20:51 UTC",
 			"Chat": "dizzy"
 		},
 		"julialuxel": {
@@ -175,6 +175,13 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "🐸 frog",
+			"Weight in lbs": 0.39,
+			"Catchtype": "Normal",
+			"Date": "2025-06-10 02:20:51 UTC",
+			"Chat": "dizzy"
+		},
+		{
 			"Fish": "🐟 fish",
 			"Weight in lbs": 0.54,
 			"Catchtype": "Normal",
@@ -236,15 +243,30 @@
 			"Catchtype": "Normal",
 			"Date": "2025-03-10 17:46:59 UTC",
 			"Chat": "dizzy"
-		},
-		{
-			"Fish": "🐸 frog",
-			"Weight in lbs": 1.92,
-			"Catchtype": "Normal",
-			"Date": "2025-03-04 22:04:21 UTC",
-			"Chat": "dizzy"
 		}
 	],
+	"Combined weight of all caught fish": {
+		"Total": 3934.14,
+		"Per chat": {
+			"dizzy": 3915.3,
+			"julialuxel": 18.84
+		}
+	},
+	"Combined weight of all caught fish per year": {
+		"2024": {
+			"Total": 3542.07,
+			"Per chat": {
+				"dizzy": 3523.23,
+				"julialuxel": 18.84
+			}
+		},
+		"2025": {
+			"Total": 392.07,
+			"Per chat": {
+				"dizzy": 392.07
+			}
+		}
+	},
 	"Their last seen bag": {
 		"Bag": [
 			"🐸",
@@ -1104,9 +1126,9 @@
 		},
 		"frog 🐸": {
 			"Caught in total": {
-				"Total": 18,
+				"Total": 19,
 				"Per chat": {
-					"dizzy": 18
+					"dizzy": 19
 				}
 			},
 			"Caught per year": {
@@ -1117,17 +1139,17 @@
 					}
 				},
 				"2025": {
-					"Total": 4,
+					"Total": 5,
 					"Per chat": {
-						"dizzy": 4
+						"dizzy": 5
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 18,
+					"Total": 19,
 					"Per chat": {
-						"dizzy": 18
+						"dizzy": 19
 					}
 				}
 			},
@@ -1140,9 +1162,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐸 frog",
-				"Weight in lbs": 1.92,
+				"Weight in lbs": 0.39,
 				"Catchtype": "Normal",
-				"Date": "2025-03-04 22:04:21 UTC",
+				"Date": "2025-06-10 02:20:51 UTC",
 				"Chat": "dizzy"
 			},
 			"Biggest catch": {
@@ -2793,5 +2815,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-08 09:57:27 UTC"
+	"Profile last updated at": "2025-06-15 14:18:01 UTC"
 }

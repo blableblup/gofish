@@ -12,10 +12,10 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 403,
+		"Total": 405,
 		"Per chat": {
 			"breadworms": 6,
-			"vaiastol": 397
+			"vaiastol": 399
 		}
 	},
 	"Fish caught per year": {
@@ -32,18 +32,18 @@
 			}
 		},
 		"2025": {
-			"Total": 174,
+			"Total": 176,
 			"Per chat": {
-				"vaiastol": 174
+				"vaiastol": 176
 			}
 		}
 	},
 	"Fish caught per catchtype": {
 		"Normal": {
-			"Total": 385,
+			"Total": 387,
 			"Per chat": {
 				"breadworms": 6,
-				"vaiastol": 379
+				"vaiastol": 381
 			}
 		},
 		"Release bonus": {
@@ -78,10 +78,10 @@
 			"Chat": "breadworms"
 		},
 		"vaiastol": {
-			"Fish": "🦈 shark",
-			"Weight in lbs": 117.83,
+			"Fish": "🐟 fish",
+			"Weight in lbs": 10.51,
 			"Catchtype": "Normal",
-			"Date": "2025-06-06 13:00:25 UTC",
+			"Date": "2025-06-11 23:11:54 UTC",
 			"Chat": "vaiastol"
 		}
 	},
@@ -175,6 +175,20 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "🐟 fish",
+			"Weight in lbs": 10.51,
+			"Catchtype": "Normal",
+			"Date": "2025-06-11 23:11:54 UTC",
+			"Chat": "vaiastol"
+		},
+		{
+			"Fish": "🐟 fish",
+			"Weight in lbs": 8.64,
+			"Catchtype": "Normal",
+			"Date": "2025-06-11 08:09:01 UTC",
+			"Chat": "vaiastol"
+		},
+		{
 			"Fish": "🦈 shark",
 			"Weight in lbs": 117.83,
 			"Catchtype": "Normal",
@@ -229,22 +243,35 @@
 			"Catchtype": "Normal",
 			"Date": "2025-05-20 22:50:33 UTC",
 			"Chat": "vaiastol"
-		},
-		{
-			"Fish": "🕷️ spider",
-			"Weight in lbs": 19.56,
-			"Catchtype": "Normal",
-			"Date": "2025-05-20 14:07:06 UTC",
-			"Chat": "vaiastol"
-		},
-		{
-			"Fish": "🪸 coral",
-			"Weight in lbs": 6.74,
-			"Catchtype": "Normal",
-			"Date": "2025-05-20 07:08:05 UTC",
-			"Chat": "vaiastol"
 		}
 	],
+	"Combined weight of all caught fish": {
+		"Total": 6681.9,
+		"Per chat": {
+			"breadworms": 17.91,
+			"vaiastol": 6663.99
+		}
+	},
+	"Combined weight of all caught fish per year": {
+		"2023": {
+			"Total": 17.91,
+			"Per chat": {
+				"breadworms": 17.91
+			}
+		},
+		"2024": {
+			"Total": 3680.03,
+			"Per chat": {
+				"vaiastol": 3680.03
+			}
+		},
+		"2025": {
+			"Total": 2983.96,
+			"Per chat": {
+				"vaiastol": 2983.96
+			}
+		}
+	},
 	"Their last seen bag": {
 		"Bag": [
 			"🦀",
@@ -1213,10 +1240,10 @@
 		},
 		"fish 🐟": {
 			"Caught in total": {
-				"Total": 80,
+				"Total": 82,
 				"Per chat": {
 					"breadworms": 2,
-					"vaiastol": 78
+					"vaiastol": 80
 				}
 			},
 			"Caught per year": {
@@ -1233,18 +1260,18 @@
 					}
 				},
 				"2025": {
-					"Total": 35,
+					"Total": 37,
 					"Per chat": {
-						"vaiastol": 35
+						"vaiastol": 37
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 80,
+					"Total": 82,
 					"Per chat": {
 						"breadworms": 2,
-						"vaiastol": 78
+						"vaiastol": 80
 					}
 				}
 			},
@@ -1257,9 +1284,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐟 fish",
-				"Weight in lbs": 15.02,
+				"Weight in lbs": 10.51,
 				"Catchtype": "Normal",
-				"Date": "2025-05-22 11:58:44 UTC",
+				"Date": "2025-06-11 23:11:54 UTC",
 				"Chat": "vaiastol"
 			},
 			"Biggest catch": {
@@ -3523,5 +3550,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-08 09:57:27 UTC"
+	"Profile last updated at": "2025-06-15 14:18:01 UTC"
 }

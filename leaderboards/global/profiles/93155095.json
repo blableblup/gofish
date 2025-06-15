@@ -12,10 +12,10 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 652,
+		"Total": 654,
 		"Per chat": {
 			"psp1g": 11,
-			"vaiastol": 641
+			"vaiastol": 643
 		}
 	},
 	"Fish caught per year": {
@@ -33,9 +33,9 @@
 			}
 		},
 		"2025": {
-			"Total": 635,
+			"Total": 637,
 			"Per chat": {
-				"vaiastol": 635
+				"vaiastol": 637
 			}
 		}
 	},
@@ -47,10 +47,10 @@
 			}
 		},
 		"Normal": {
-			"Total": 623,
+			"Total": 625,
 			"Per chat": {
 				"psp1g": 11,
-				"vaiastol": 612
+				"vaiastol": 614
 			}
 		},
 		"Release bonus": {
@@ -85,10 +85,10 @@
 			"Chat": "psp1g"
 		},
 		"vaiastol": {
-			"Fish": "🎏 lure",
-			"Weight in lbs": 3.22,
+			"Fish": "🦎 lizard",
+			"Weight in lbs": 4.74,
 			"Catchtype": "Normal",
-			"Date": "2025-06-06 21:27:41 UTC",
+			"Date": "2025-06-13 01:50:41 UTC",
 			"Chat": "vaiastol"
 		}
 	},
@@ -182,6 +182,20 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "🦎 lizard",
+			"Weight in lbs": 4.74,
+			"Catchtype": "Normal",
+			"Date": "2025-06-13 01:50:41 UTC",
+			"Chat": "vaiastol"
+		},
+		{
+			"Fish": "🎰 slotmachine",
+			"Weight in lbs": 8.73,
+			"Catchtype": "Normal",
+			"Date": "2025-06-11 22:41:07 UTC",
+			"Chat": "vaiastol"
+		},
+		{
 			"Fish": "🎏 lure",
 			"Weight in lbs": 3.22,
 			"Catchtype": "Normal",
@@ -236,22 +250,36 @@
 			"Catchtype": "Normal",
 			"Date": "2025-05-27 23:16:46 UTC",
 			"Chat": "vaiastol"
-		},
-		{
-			"Fish": "🦐 shrimp",
-			"Weight in lbs": 2.55,
-			"Catchtype": "Normal",
-			"Date": "2025-05-25 23:50:12 UTC",
-			"Chat": "vaiastol"
-		},
-		{
-			"Fish": "🐸 frog",
-			"Weight in lbs": 1.6,
-			"Catchtype": "Normal",
-			"Date": "2025-05-25 18:24:48 UTC",
-			"Chat": "vaiastol"
 		}
 	],
+	"Combined weight of all caught fish": {
+		"Total": 8361.81,
+		"Per chat": {
+			"psp1g": 202.2,
+			"vaiastol": 8159.61
+		}
+	},
+	"Combined weight of all caught fish per year": {
+		"2023": {
+			"Total": 69.83,
+			"Per chat": {
+				"psp1g": 69.83
+			}
+		},
+		"2024": {
+			"Total": 294.54,
+			"Per chat": {
+				"psp1g": 132.37,
+				"vaiastol": 162.17
+			}
+		},
+		"2025": {
+			"Total": 7997.44,
+			"Per chat": {
+				"vaiastol": 7997.44
+			}
+		}
+	},
 	"Their last seen bag": {
 		"Bag": [
 			"🗡️",
@@ -1185,10 +1213,7 @@
 				"Weight in lbs": 0.38,
 				"Catchtype": "Normal",
 				"Date": "2025-02-22 13:05:41 UTC",
-				"Chat": "vaiastol",
-				"Record": [
-					"🥇 Smallest 🐬 dolphin record in channel vaiastol !"
-				]
+				"Chat": "vaiastol"
 			}
 		},
 		"dragon 🐉": {
@@ -1643,24 +1668,24 @@
 		},
 		"lizard 🦎": {
 			"Caught in total": {
-				"Total": 32,
+				"Total": 33,
 				"Per chat": {
-					"vaiastol": 32
+					"vaiastol": 33
 				}
 			},
 			"Caught per year": {
 				"2025": {
-					"Total": 32,
+					"Total": 33,
 					"Per chat": {
-						"vaiastol": 32
+						"vaiastol": 33
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 32,
+					"Total": 33,
 					"Per chat": {
-						"vaiastol": 32
+						"vaiastol": 33
 					}
 				}
 			},
@@ -1673,9 +1698,9 @@
 			},
 			"Last catch": {
 				"Fish": "🦎 lizard",
-				"Weight in lbs": 6.56,
+				"Weight in lbs": 4.74,
 				"Catchtype": "Normal",
-				"Date": "2025-05-17 04:29:17 UTC",
+				"Date": "2025-06-13 01:50:41 UTC",
 				"Chat": "vaiastol"
 			},
 			"Biggest catch": {
@@ -2740,20 +2765,26 @@
 		},
 		"slotmachine 🎰": {
 			"Caught in total": {
-				"Total": 1,
+				"Total": 2,
 				"Per chat": {
-					"vaiastol": 1
+					"vaiastol": 2
 				}
 			},
 			"Caught per year": {
 				"2025": {
-					"Total": 1,
+					"Total": 2,
 					"Per chat": {
-						"vaiastol": 1
+						"vaiastol": 2
 					}
 				}
 			},
 			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"vaiastol": 1
+					}
+				},
 				"Release bonus": {
 					"Total": 1,
 					"Per chat": {
@@ -2770,16 +2801,27 @@
 			},
 			"Last catch": {
 				"Fish": "🎰 slotmachine",
-				"Weight in lbs": 0,
-				"Catchtype": "Release bonus",
-				"Date": "2025-06-05 14:42:41 UTC",
+				"Weight in lbs": 8.73,
+				"Catchtype": "Normal",
+				"Date": "2025-06-11 22:41:07 UTC",
 				"Chat": "vaiastol"
 			},
 			"Biggest catch": {
-				"Weight in lbs": 0
+				"Fish": "🎰 slotmachine",
+				"Weight in lbs": 8.73,
+				"Catchtype": "Normal",
+				"Date": "2025-06-11 22:41:07 UTC",
+				"Chat": "vaiastol"
 			},
 			"Smallest catch": {
-				"Weight in lbs": 0
+				"Fish": "🎰 slotmachine",
+				"Weight in lbs": 8.73,
+				"Catchtype": "Normal",
+				"Date": "2025-06-11 22:41:07 UTC",
+				"Chat": "vaiastol",
+				"Record": [
+					"🥇 Smallest 🎰 slotmachine record in channel vaiastol !"
+				]
 			}
 		},
 		"snail 🐌": {
@@ -3528,5 +3570,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-08 09:57:27 UTC"
+	"Profile last updated at": "2025-06-15 14:18:01 UTC"
 }

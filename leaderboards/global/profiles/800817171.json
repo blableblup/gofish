@@ -11,10 +11,10 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 229,
+		"Total": 232,
 		"Per chat": {
-			"breadworms": 146,
-			"dizzy": 30,
+			"breadworms": 148,
+			"dizzy": 31,
 			"swormbeard": 11,
 			"vaiastol": 42
 		}
@@ -28,10 +28,10 @@
 			}
 		},
 		"2025": {
-			"Total": 203,
+			"Total": 206,
 			"Per chat": {
-				"breadworms": 145,
-				"dizzy": 5,
+				"breadworms": 147,
+				"dizzy": 6,
 				"swormbeard": 11,
 				"vaiastol": 42
 			}
@@ -45,10 +45,10 @@
 			}
 		},
 		"Normal": {
-			"Total": 214,
+			"Total": 217,
 			"Per chat": {
-				"breadworms": 133,
-				"dizzy": 29,
+				"breadworms": 135,
+				"dizzy": 30,
 				"swormbeard": 11,
 				"vaiastol": 41
 			}
@@ -94,17 +94,17 @@
 	},
 	"Their last fish per chat": {
 		"breadworms": {
-			"Fish": "🐋 whale2",
-			"Weight in lbs": 133.78,
+			"Fish": "🕶️ darksunglasses",
+			"Weight in lbs": 7.35,
 			"Catchtype": "Normal",
-			"Date": "2025-06-05 21:32:31 UTC",
+			"Date": "2025-06-11 18:31:30 UTC",
 			"Chat": "breadworms"
 		},
 		"dizzy": {
-			"Fish": "🐠 tropicalfish",
-			"Weight in lbs": 5.4,
+			"Fish": "🐚 shell",
+			"Weight in lbs": 2.21,
 			"Catchtype": "Normal",
-			"Date": "2025-03-08 18:58:02 UTC",
+			"Date": "2025-06-10 14:59:59 UTC",
 			"Chat": "dizzy"
 		},
 		"swormbeard": {
@@ -189,6 +189,13 @@
 			"Chat": "breadworms"
 		},
 		{
+			"Fish": "🐊 crocodile",
+			"Weight in lbs": 123.19,
+			"Catchtype": "Normal",
+			"Date": "2025-06-10 16:13:31 UTC",
+			"Chat": "breadworms"
+		},
+		{
 			"Fish": "🦈 shark",
 			"Weight in lbs": 110.36,
 			"Catchtype": "Normal",
@@ -215,16 +222,30 @@
 			"Catchtype": "Normal",
 			"Date": "2025-02-05 08:48:24 UTC",
 			"Chat": "vaiastol"
-		},
-		{
-			"Fish": "🐋 whale2",
-			"Weight in lbs": 88.7,
-			"Catchtype": "Normal",
-			"Date": "2025-05-22 01:17:37 UTC",
-			"Chat": "breadworms"
 		}
 	],
 	"Their overall last fish": [
+		{
+			"Fish": "🕶️ darksunglasses",
+			"Weight in lbs": 7.35,
+			"Catchtype": "Normal",
+			"Date": "2025-06-11 18:31:30 UTC",
+			"Chat": "breadworms"
+		},
+		{
+			"Fish": "🐊 crocodile",
+			"Weight in lbs": 123.19,
+			"Catchtype": "Normal",
+			"Date": "2025-06-10 16:13:31 UTC",
+			"Chat": "breadworms"
+		},
+		{
+			"Fish": "🐚 shell",
+			"Weight in lbs": 2.21,
+			"Catchtype": "Normal",
+			"Date": "2025-06-10 14:59:59 UTC",
+			"Chat": "dizzy"
+		},
 		{
 			"Fish": "🐋 whale2",
 			"Weight in lbs": 133.78,
@@ -273,29 +294,35 @@
 			"Catchtype": "Normal",
 			"Date": "2025-04-27 13:58:41 UTC",
 			"Chat": "breadworms"
-		},
-		{
-			"Fish": "🐸 frog",
-			"Weight in lbs": 3.87,
-			"Catchtype": "Normal",
-			"Date": "2025-04-27 12:11:58 UTC",
-			"Chat": "breadworms"
-		},
-		{
-			"Fish": "🐋 whale2",
-			"Weight in lbs": 18.24,
-			"Catchtype": "Normal",
-			"Date": "2025-04-19 21:49:12 UTC",
-			"Chat": "breadworms"
-		},
-		{
-			"Fish": "🦀 crab",
-			"Weight in lbs": 15.65,
-			"Catchtype": "Normal",
-			"Date": "2025-04-15 03:32:47 UTC",
-			"Chat": "breadworms"
 		}
 	],
+	"Combined weight of all caught fish": {
+		"Total": 4659.94,
+		"Per chat": {
+			"breadworms": 3317.32,
+			"dizzy": 683.67,
+			"swormbeard": 59.72,
+			"vaiastol": 599.23
+		}
+	},
+	"Combined weight of all caught fish per year": {
+		"2024": {
+			"Total": 535.75,
+			"Per chat": {
+				"breadworms": 1.16,
+				"dizzy": 534.59
+			}
+		},
+		"2025": {
+			"Total": 4124.19,
+			"Per chat": {
+				"breadworms": 3316.16,
+				"dizzy": 149.08,
+				"swormbeard": 59.72,
+				"vaiastol": 599.23
+			}
+		}
+	},
 	"Their last seen bag": {
 		"Bag": [
 			"🦑",
@@ -343,9 +370,9 @@
 		"🫎": 1
 	},
 	"Fish seen in total": {
-		"Total": 48,
+		"Total": 49,
 		"Per chat": {
-			"breadworms": 36,
+			"breadworms": 37,
 			"dizzy": 21,
 			"swormbeard": 8,
 			"vaiastol": 20
@@ -896,26 +923,26 @@
 		},
 		"crocodile 🐊": {
 			"Caught in total": {
-				"Total": 5,
+				"Total": 6,
 				"Per chat": {
-					"breadworms": 4,
+					"breadworms": 5,
 					"vaiastol": 1
 				}
 			},
 			"Caught per year": {
 				"2025": {
-					"Total": 5,
+					"Total": 6,
 					"Per chat": {
-						"breadworms": 4,
+						"breadworms": 5,
 						"vaiastol": 1
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 5,
+					"Total": 6,
 					"Per chat": {
-						"breadworms": 4,
+						"breadworms": 5,
 						"vaiastol": 1
 					}
 				}
@@ -929,16 +956,16 @@
 			},
 			"Last catch": {
 				"Fish": "🐊 crocodile",
-				"Weight in lbs": 65.07,
+				"Weight in lbs": 123.19,
 				"Catchtype": "Normal",
-				"Date": "2025-05-09 07:23:01 UTC",
+				"Date": "2025-06-10 16:13:31 UTC",
 				"Chat": "breadworms"
 			},
 			"Biggest catch": {
 				"Fish": "🐊 crocodile",
-				"Weight in lbs": 65.71,
+				"Weight in lbs": 123.19,
 				"Catchtype": "Normal",
-				"Date": "2025-03-19 00:55:35 UTC",
+				"Date": "2025-06-10 16:13:31 UTC",
 				"Chat": "breadworms"
 			},
 			"Smallest catch": {
@@ -999,6 +1026,58 @@
 				"Catchtype": "Normal",
 				"Date": "2024-10-24 13:57:25 UTC",
 				"Chat": "dizzy"
+			}
+		},
+		"darksunglasses 🕶️": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"breadworms": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"breadworms": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"breadworms": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🕶️ darksunglasses",
+				"Weight in lbs": 7.35,
+				"Catchtype": "Normal",
+				"Date": "2025-06-11 18:31:30 UTC",
+				"Chat": "breadworms"
+			},
+			"Last catch": {
+				"Fish": "🕶️ darksunglasses",
+				"Weight in lbs": 7.35,
+				"Catchtype": "Normal",
+				"Date": "2025-06-11 18:31:30 UTC",
+				"Chat": "breadworms"
+			},
+			"Biggest catch": {
+				"Fish": "🕶️ darksunglasses",
+				"Weight in lbs": 7.35,
+				"Catchtype": "Normal",
+				"Date": "2025-06-11 18:31:30 UTC",
+				"Chat": "breadworms"
+			},
+			"Smallest catch": {
+				"Fish": "🕶️ darksunglasses",
+				"Weight in lbs": 7.35,
+				"Catchtype": "Normal",
+				"Date": "2025-06-11 18:31:30 UTC",
+				"Chat": "breadworms"
 			}
 		},
 		"dolphin 🐬": {
@@ -2259,10 +2338,10 @@
 		},
 		"shell 🐚": {
 			"Caught in total": {
-				"Total": 8,
+				"Total": 9,
 				"Per chat": {
 					"breadworms": 6,
-					"dizzy": 2
+					"dizzy": 3
 				}
 			},
 			"Caught per year": {
@@ -2273,18 +2352,19 @@
 					}
 				},
 				"2025": {
-					"Total": 6,
+					"Total": 7,
 					"Per chat": {
-						"breadworms": 6
+						"breadworms": 6,
+						"dizzy": 1
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 8,
+					"Total": 9,
 					"Per chat": {
 						"breadworms": 6,
-						"dizzy": 2
+						"dizzy": 3
 					}
 				}
 			},
@@ -2297,10 +2377,10 @@
 			},
 			"Last catch": {
 				"Fish": "🐚 shell",
-				"Weight in lbs": 1.71,
+				"Weight in lbs": 2.21,
 				"Catchtype": "Normal",
-				"Date": "2025-04-08 15:15:42 UTC",
-				"Chat": "breadworms"
+				"Date": "2025-06-10 14:59:59 UTC",
+				"Chat": "dizzy"
 			},
 			"Biggest catch": {
 				"Fish": "🐚 shell",
@@ -3064,7 +3144,6 @@
 		"compass 🧭",
 		"crown 👑",
 		"cucumber 🥒",
-		"darksunglasses 🕶️",
 		"dragon 🐉",
 		"duck 🦆",
 		"feather 🪶",
@@ -3102,7 +3181,7 @@
 		"womanshat 👒",
 		"zombie 🧟"
 	],
-	"Total fish not seen": 52,
+	"Total fish not seen": 51,
 	"Some info": [
 		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
 		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
@@ -3111,5 +3190,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-08 09:57:27 UTC"
+	"Profile last updated at": "2025-06-15 14:18:01 UTC"
 }

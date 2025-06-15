@@ -4,7 +4,7 @@
 		"🌟 Has found all the treasures from legendary pirate Red Avery: 👑 crown 🗡️ dagger 🧭 compass !"
 	],
 	"Records": [
-		"🥈 Second most fish caught in channel breadworms !",
+		"🥉 Third most fish caught in channel breadworms !",
 		"11th most fish seen in channel breadworms !",
 		"🥉 Third biggest fish record in channel breadworms !",
 		"13th place on tournament leaderboard in channel breadworms !",
@@ -295,6 +295,38 @@
 			"Chat": "breadworms"
 		}
 	],
+	"Combined weight of all caught fish": {
+		"Total": 77005.24,
+		"Per chat": {
+			"breadworms": 76674.96,
+			"julialuxel": 156.97,
+			"swormbeard": 173.31
+		}
+	},
+	"Combined weight of all caught fish per year": {
+		"2023": {
+			"Total": 52988.56,
+			"Per chat": {
+				"breadworms": 52833.58,
+				"julialuxel": 154.98
+			}
+		},
+		"2024": {
+			"Total": 23012.63,
+			"Per chat": {
+				"breadworms": 22839.07,
+				"julialuxel": 1.99,
+				"swormbeard": 171.57
+			}
+		},
+		"2025": {
+			"Total": 1004.05,
+			"Per chat": {
+				"breadworms": 1002.31,
+				"swormbeard": 1.74
+			}
+		}
+	},
 	"Their last seen bag": {
 		"Bag": [
 			"🕶️",
@@ -4960,5 +4992,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-08 09:57:27 UTC"
+	"Profile last updated at": "2025-06-15 14:18:01 UTC"
 }

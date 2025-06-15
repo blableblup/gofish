@@ -312,6 +312,37 @@
 			"Chat": "breadworms"
 		}
 	],
+	"Combined weight of all caught fish": {
+		"Total": 55583.07,
+		"Per chat": {
+			"breadworms": 54621.25,
+			"psp1g": 454.41,
+			"swormbeard": 507.41
+		}
+	},
+	"Combined weight of all caught fish per year": {
+		"2023": {
+			"Total": 43515.01,
+			"Per chat": {
+				"breadworms": 43060.6,
+				"psp1g": 454.41
+			}
+		},
+		"2024": {
+			"Total": 9590.28,
+			"Per chat": {
+				"breadworms": 9287,
+				"swormbeard": 303.28
+			}
+		},
+		"2025": {
+			"Total": 2477.78,
+			"Per chat": {
+				"breadworms": 2273.65,
+				"swormbeard": 204.13
+			}
+		}
+	},
 	"Their last seen bag": {
 		"Bag": [
 			"🦆",
@@ -782,10 +813,7 @@
 				"Weight in lbs": 11.62,
 				"Catchtype": "Normal",
 				"Date": "2024-08-04 15:51:12 UTC",
-				"Chat": "breadworms",
-				"Record": [
-					"🥇 Biggest 🧃 beveragebox record in channel breadworms !"
-				]
+				"Chat": "breadworms"
 			},
 			"Smallest catch": {
 				"Fish": "🧃 beveragebox",
@@ -6185,5 +6213,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-08 09:57:27 UTC"
+	"Profile last updated at": "2025-06-15 14:18:01 UTC"
 }

@@ -11,9 +11,9 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 58,
+		"Total": 59,
 		"Per chat": {
-			"coolishdanker": 51,
+			"coolishdanker": 52,
 			"dizzy": 7
 		}
 	},
@@ -25,18 +25,18 @@
 			}
 		},
 		"2025": {
-			"Total": 53,
+			"Total": 54,
 			"Per chat": {
-				"coolishdanker": 51,
+				"coolishdanker": 52,
 				"dizzy": 2
 			}
 		}
 	},
 	"Fish caught per catchtype": {
 		"Normal": {
-			"Total": 58,
+			"Total": 59,
 			"Per chat": {
-				"coolishdanker": 51,
+				"coolishdanker": 52,
 				"dizzy": 7
 			}
 		}
@@ -59,10 +59,10 @@
 	},
 	"Their last fish per chat": {
 		"coolishdanker": {
-			"Fish": "🐟 fish",
-			"Weight in lbs": 13.19,
+			"Fish": "🌿 seaweed",
+			"Weight in lbs": 0.41,
 			"Catchtype": "Normal",
-			"Date": "2025-06-01 13:32:20 UTC",
+			"Date": "2025-06-09 11:06:52 UTC",
 			"Chat": "coolishdanker"
 		},
 		"dizzy": {
@@ -163,6 +163,13 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "🌿 seaweed",
+			"Weight in lbs": 0.41,
+			"Catchtype": "Normal",
+			"Date": "2025-06-09 11:06:52 UTC",
+			"Chat": "coolishdanker"
+		},
+		{
 			"Fish": "🐟 fish",
 			"Weight in lbs": 13.19,
 			"Catchtype": "Normal",
@@ -224,15 +231,30 @@
 			"Catchtype": "Normal",
 			"Date": "2025-02-16 19:36:58 UTC",
 			"Chat": "coolishdanker"
-		},
-		{
-			"Fish": "🐢 turtle",
-			"Weight in lbs": 48.06,
-			"Catchtype": "Normal",
-			"Date": "2025-02-15 21:26:01 UTC",
-			"Chat": "coolishdanker"
 		}
 	],
+	"Combined weight of all caught fish": {
+		"Total": 957.4,
+		"Per chat": {
+			"coolishdanker": 916.02,
+			"dizzy": 41.38
+		}
+	},
+	"Combined weight of all caught fish per year": {
+		"2024": {
+			"Total": 22.06,
+			"Per chat": {
+				"dizzy": 22.06
+			}
+		},
+		"2025": {
+			"Total": 935.34,
+			"Per chat": {
+				"coolishdanker": 916.02,
+				"dizzy": 19.32
+			}
+		}
+	},
 	"Their last seen bag": {
 		"Bag": [
 			"🐬",
@@ -326,9 +348,9 @@
 		"🪱": 1
 	},
 	"Fish seen in total": {
-		"Total": 25,
+		"Total": 26,
 		"Per chat": {
-			"coolishdanker": 23,
+			"coolishdanker": 24,
 			"dizzy": 5
 		}
 	},
@@ -1272,6 +1294,67 @@
 				"Chat": "coolishdanker"
 			}
 		},
+		"seaweed 🌿": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"coolishdanker": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"coolishdanker": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"coolishdanker": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🌿 seaweed",
+				"Weight in lbs": 0.41,
+				"Catchtype": "Normal",
+				"Date": "2025-06-09 11:06:52 UTC",
+				"Chat": "coolishdanker",
+				"Record": [
+					"🥇 First ever 🌿 seaweed caught in channel coolishdanker !"
+				]
+			},
+			"Last catch": {
+				"Fish": "🌿 seaweed",
+				"Weight in lbs": 0.41,
+				"Catchtype": "Normal",
+				"Date": "2025-06-09 11:06:52 UTC",
+				"Chat": "coolishdanker"
+			},
+			"Biggest catch": {
+				"Fish": "🌿 seaweed",
+				"Weight in lbs": 0.41,
+				"Catchtype": "Normal",
+				"Date": "2025-06-09 11:06:52 UTC",
+				"Chat": "coolishdanker",
+				"Record": [
+					"🥇 Biggest 🌿 seaweed record in channel coolishdanker !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "🌿 seaweed",
+				"Weight in lbs": 0.41,
+				"Catchtype": "Normal",
+				"Date": "2025-06-09 11:06:52 UTC",
+				"Chat": "coolishdanker",
+				"Record": [
+					"🥇 Smallest 🌿 seaweed record in channel coolishdanker !"
+				]
+			}
+		},
 		"shell 🐚": {
 			"Caught in total": {
 				"Total": 5,
@@ -1767,7 +1850,6 @@
 		"sandwich 🥪",
 		"sauropod 🦕",
 		"scarf 🧣",
-		"seaweed 🌿",
 		"shamrock ☘️",
 		"shark 🦈",
 		"shoppingcart 🛒",
@@ -1790,7 +1872,7 @@
 		"womanshat 👒",
 		"zombie 🧟"
 	],
-	"Total fish not seen": 75,
+	"Total fish not seen": 74,
 	"Some info": [
 		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
 		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
@@ -1799,5 +1881,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-08 09:57:27 UTC"
+	"Profile last updated at": "2025-06-15 14:18:01 UTC"
 }

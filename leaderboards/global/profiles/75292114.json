@@ -11,9 +11,9 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 245,
+		"Total": 248,
 		"Per chat": {
-			"jellyuh": 245
+			"jellyuh": 248
 		}
 	},
 	"Fish caught per year": {
@@ -24,17 +24,17 @@
 			}
 		},
 		"2025": {
-			"Total": 244,
+			"Total": 247,
 			"Per chat": {
-				"jellyuh": 244
+				"jellyuh": 247
 			}
 		}
 	},
 	"Fish caught per catchtype": {
 		"Normal": {
-			"Total": 239,
+			"Total": 242,
 			"Per chat": {
-				"jellyuh": 239
+				"jellyuh": 242
 			}
 		},
 		"Release bonus": {
@@ -55,10 +55,10 @@
 	},
 	"Their last fish per chat": {
 		"jellyuh": {
-			"Fish": "💀 skull",
-			"Weight in lbs": 1.52,
+			"Fish": "🐸 frog",
+			"Weight in lbs": 1.05,
 			"Catchtype": "Normal",
-			"Date": "2025-06-06 17:37:33 UTC",
+			"Date": "2025-06-14 18:06:52 UTC",
 			"Chat": "jellyuh"
 		}
 	},
@@ -145,6 +145,27 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "🐸 frog",
+			"Weight in lbs": 1.05,
+			"Catchtype": "Normal",
+			"Date": "2025-06-14 18:06:52 UTC",
+			"Chat": "jellyuh"
+		},
+		{
+			"Fish": "🐟 fish",
+			"Weight in lbs": 2.01,
+			"Catchtype": "Normal",
+			"Date": "2025-06-13 17:48:50 UTC",
+			"Chat": "jellyuh"
+		},
+		{
+			"Fish": "🌿 seaweed",
+			"Weight in lbs": 0.3,
+			"Catchtype": "Normal",
+			"Date": "2025-06-13 16:10:28 UTC",
+			"Chat": "jellyuh"
+		},
+		{
 			"Fish": "💀 skull",
 			"Weight in lbs": 1.52,
 			"Catchtype": "Normal",
@@ -192,29 +213,28 @@
 			"Catchtype": "Release bonus",
 			"Date": "2025-06-02 04:03:22 UTC",
 			"Chat": "jellyuh"
-		},
-		{
-			"Fish": "🦞 lobster",
-			"Weight in lbs": 8,
-			"Catchtype": "Normal",
-			"Date": "2025-06-02 01:08:05 UTC",
-			"Chat": "jellyuh"
-		},
-		{
-			"Fish": "🪝 hook",
-			"Weight in lbs": 2.07,
-			"Catchtype": "Normal",
-			"Date": "2025-06-01 02:56:49 UTC",
-			"Chat": "jellyuh"
-		},
-		{
-			"Fish": "🪸 coral",
-			"Weight in lbs": 5.8,
-			"Catchtype": "Normal",
-			"Date": "2025-05-30 18:28:47 UTC",
-			"Chat": "jellyuh"
 		}
 	],
+	"Combined weight of all caught fish": {
+		"Total": 5851.3,
+		"Per chat": {
+			"jellyuh": 5851.3
+		}
+	},
+	"Combined weight of all caught fish per year": {
+		"2024": {
+			"Total": 2.08,
+			"Per chat": {
+				"jellyuh": 2.08
+			}
+		},
+		"2025": {
+			"Total": 5849.22,
+			"Per chat": {
+				"jellyuh": 5849.22
+			}
+		}
+	},
 	"Their last seen bag": {
 		"Bag": [
 			"📑",
@@ -316,9 +336,9 @@
 			"🐟",
 			"🐙",
 			"🐸",
-			"💀"
+			"🐟"
 		],
-		"Date": "2025-06-07 15:21:01 UTC",
+		"Date": "2025-06-14 18:01:16 UTC",
 		"Chat": "jellyuh"
 	},
 	"Count of each item in that bag": {
@@ -331,14 +351,14 @@
 		"🐌": 1,
 		"🐍": 6,
 		"🐙": 5,
-		"🐟": 5,
+		"🐟": 6,
 		"🐠": 2,
 		"🐡": 2,
 		"🐢": 11,
 		"🐬": 3,
 		"🐳": 2,
 		"🐸": 6,
-		"💀": 2,
+		"💀": 1,
 		"📑": 1,
 		"🗡️": 1,
 		"🦀": 1,
@@ -997,24 +1017,24 @@
 		},
 		"fish 🐟": {
 			"Caught in total": {
-				"Total": 30,
+				"Total": 31,
 				"Per chat": {
-					"jellyuh": 30
+					"jellyuh": 31
 				}
 			},
 			"Caught per year": {
 				"2025": {
-					"Total": 30,
+					"Total": 31,
 					"Per chat": {
-						"jellyuh": 30
+						"jellyuh": 31
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 30,
+					"Total": 31,
 					"Per chat": {
-						"jellyuh": 30
+						"jellyuh": 31
 					}
 				}
 			},
@@ -1027,9 +1047,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐟 fish",
-				"Weight in lbs": 5.7,
+				"Weight in lbs": 2.01,
 				"Catchtype": "Normal",
-				"Date": "2025-06-05 03:33:40 UTC",
+				"Date": "2025-06-13 17:48:50 UTC",
 				"Chat": "jellyuh"
 			},
 			"Biggest catch": {
@@ -1049,24 +1069,24 @@
 		},
 		"frog 🐸": {
 			"Caught in total": {
-				"Total": 11,
+				"Total": 12,
 				"Per chat": {
-					"jellyuh": 11
+					"jellyuh": 12
 				}
 			},
 			"Caught per year": {
 				"2025": {
-					"Total": 11,
+					"Total": 12,
 					"Per chat": {
-						"jellyuh": 11
+						"jellyuh": 12
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 11,
+					"Total": 12,
 					"Per chat": {
-						"jellyuh": 11
+						"jellyuh": 12
 					}
 				}
 			},
@@ -1079,9 +1099,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐸 frog",
-				"Weight in lbs": 1.54,
+				"Weight in lbs": 1.05,
 				"Catchtype": "Normal",
-				"Date": "2025-06-06 03:54:28 UTC",
+				"Date": "2025-06-14 18:06:52 UTC",
 				"Chat": "jellyuh"
 			},
 			"Biggest catch": {
@@ -1865,24 +1885,24 @@
 		},
 		"seaweed 🌿": {
 			"Caught in total": {
-				"Total": 4,
+				"Total": 5,
 				"Per chat": {
-					"jellyuh": 4
+					"jellyuh": 5
 				}
 			},
 			"Caught per year": {
 				"2025": {
-					"Total": 4,
+					"Total": 5,
 					"Per chat": {
-						"jellyuh": 4
+						"jellyuh": 5
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 4,
+					"Total": 5,
 					"Per chat": {
-						"jellyuh": 4
+						"jellyuh": 5
 					}
 				}
 			},
@@ -1895,9 +1915,9 @@
 			},
 			"Last catch": {
 				"Fish": "🌿 seaweed",
-				"Weight in lbs": 0.78,
+				"Weight in lbs": 0.3,
 				"Catchtype": "Normal",
-				"Date": "2025-05-17 21:47:20 UTC",
+				"Date": "2025-06-13 16:10:28 UTC",
 				"Chat": "jellyuh"
 			},
 			"Biggest catch": {
@@ -2180,10 +2200,7 @@
 				"Weight in lbs": 9.37,
 				"Catchtype": "Normal",
 				"Date": "2025-05-19 23:37:58 UTC",
-				"Chat": "jellyuh",
-				"Record": [
-					"🥇 Biggest 💀 skull record in channel jellyuh !"
-				]
+				"Chat": "jellyuh"
 			},
 			"Smallest catch": {
 				"Fish": "💀 skull",
@@ -2850,5 +2867,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-08 09:57:27 UTC"
+	"Profile last updated at": "2025-06-15 14:18:01 UTC"
 }
