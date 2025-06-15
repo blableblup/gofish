@@ -10,32 +10,26 @@ import (
 )
 
 type FishInfo struct {
-	Player               string             `json:"player,omitempty"`
-	PlayerID             int                `json:"playerid,omitempty"`
-	TwitchID             int                `json:"twitchid,omitempty"`
-	Weight               float64            `json:"weight,omitempty"`
-	TotalWeight          float64            `json:"totalweight,omitempty"`
-	Bot                  string             `json:"bot,omitempty"`
-	Bag                  []string           `json:"bag,omitempty"`
-	Type                 string             `json:"type,omitempty"`
-	TypeName             string             `json:"typename,omitempty"`
-	CatchType            string             `json:"catchtype,omitempty"`
-	Date                 time.Time          `json:"date,omitempty"`
-	Chat                 string             `json:"chat,omitempty"`
-	Url                  string             `json:"url,omitempty"`
-	ChatPfp              string             `json:"chatpfp,omitempty"`
-	Line                 string             `json:"line,omitempty"`
-	FishPlacement        int                `json:"fishplacement,omitempty"`
-	WeightPlacement      int                `json:"weightplacement,omitempty"`
-	BiggestFishPlacement int                `json:"biggestfishplacement,omitempty"`
-	FishId               int                `json:"fishid,omitempty"`
-	ChatId               int                `json:"chatid,omitempty"`
-	Count                int                `json:"count,omitempty"`
-	MaxCount             int                `json:"maxcount,omitempty"`
-	ChatCounts           map[string]int     `json:"chatcounts,omitempty"`
-	ChatWeights          map[string]float64 `json:"chatweights,omitempty"`
-	Verified             bool               `json:"verified,omitempty"`
-	Rank                 int                `json:"rank,omitempty"`
+	Player    string  `json:"player,omitempty"`
+	PlayerID  int     `json:"playerid,omitempty"`
+	Weight    float64 `json:"weight,omitempty"`
+	FishType  string  `json:"fishtype,omitempty"`
+	FishName  string  `json:"fishname,omitempty"`
+	CatchType string  `json:"catchtype,omitempty"`
+
+	Bag []string `json:"bag,omitempty"`
+
+	// for tournament results
+	FishPlacement        int     `json:"fishplacement,omitempty"`
+	Count                int     `json:"count,omitempty"`
+	WeightPlacement      int     `json:"weightplacement,omitempty"`
+	TotalWeight          float64 `json:"totalweight,omitempty"`
+	BiggestFishPlacement int     `json:"biggestfishplacement,omitempty"`
+
+	Date time.Time `json:"date,omitempty"`
+	Chat string    `json:"chat,omitempty"`
+	Url  string    `json:"url,omitempty"`
+	Bot  string    `json:"bot,omitempty"`
 }
 
 var TournamentPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): [@👥]\s?(\w+), (📣 The results are in!|Last week[.][.][.]) You caught 🪣 (\d+) fish: (.*?)[!.] Together they weighed .*? ([\d.]+) lbs: (.*?)[!.] Your biggest catch weighed .*? ([\d.]+) lbs: (.*?)[!.]`)
@@ -121,7 +115,7 @@ func extractInfoFromNormalPattern(match []string) FishInfo {
 		Date:      date,
 		Bot:       bot,
 		Player:    player,
-		Type:      fishType,
+		FishType:  fishType,
 		Weight:    weight,
 		CatchType: catchtype,
 	}
@@ -148,7 +142,7 @@ func extractInfoFromMouthPattern(match []string) FishInfo {
 		Date:      date,
 		Bot:       bot,
 		Player:    player,
-		Type:      fishType,
+		FishType:  fishType,
 		Weight:    weight,
 		CatchType: catchtype,
 	}
@@ -176,7 +170,7 @@ func extractInfoFromReleasePattern(match []string) FishInfo {
 		Date:      date,
 		Bot:       bot,
 		Player:    player,
-		Type:      fishType,
+		FishType:  fishType,
 		Weight:    weight,
 		CatchType: catchtype,
 	}
@@ -203,7 +197,7 @@ func extractInfoFromSquirrelPattern(match []string) FishInfo {
 		Date:      date,
 		Bot:       bot,
 		Player:    player,
-		Type:      fishType,
+		FishType:  fishType,
 		Weight:    weight,
 		CatchType: catchtype,
 	}

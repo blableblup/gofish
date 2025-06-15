@@ -3,31 +3,21 @@ package leaderboards
 import (
 	"context"
 	"fmt"
-	"gofish/data"
 	"gofish/logs"
 	"os"
 	"path/filepath"
-	"strings"
 	"time"
+
+	"github.com/jackc/pgx/v5"
 )
 
 func processShinies(params LeaderboardParams) {
 	board := params.LeaderboardType
 	chatName := params.ChatName
 	title := params.Title
-	path := params.Path
 	mode := params.Mode
 
-	var filePath string
-
-	if path == "" {
-		filePath = filepath.Join("leaderboards", "global", "shiny.md")
-	} else {
-		if !strings.HasSuffix(path, ".md") {
-			path += ".md"
-		}
-		filePath = filepath.Join("leaderboards", "global", path)
-	}
+	filePath := returnPath(params)
 
 	oldShinies, err := getJsonBoard(filePath)
 	if err != nil {
@@ -94,13 +84,13 @@ func processShinies(params LeaderboardParams) {
 	}
 }
 
-func getShinies(params LeaderboardParams) (map[int]data.FishInfo, error) {
+func getShinies(params LeaderboardParams) (map[int]BoardData, error) {
 	board := params.LeaderboardType
 	date2 := params.Date2
 	date := params.Date
 	pool := params.Pool
 
-	Shinies := make(map[int]data.FishInfo)
+	Shinies := make(map[int]BoardData)
 
 	// This will work if there are multiple shinies for the same fishtype
 	rows, err := pool.Query(context.Background(), `
@@ -119,42 +109,33 @@ func getShinies(params LeaderboardParams) (map[int]data.FishInfo, error) {
 			Msg("Error querying database")
 		return Shinies, err
 	}
-	defer rows.Close()
 
-	for rows.Next() {
-		var fishInfo data.FishInfo
+	results, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[BoardData])
+	if err != nil && err != pgx.ErrNoRows {
+		logs.Logs().Error().Err(err).
+			Str("Board", board).
+			Msg("Error collecting rows")
+		return Shinies, err
+	}
 
-		if err := rows.Scan(&fishInfo.FishId, &fishInfo.ChatId, &fishInfo.Type, &fishInfo.TypeName, &fishInfo.Weight, &fishInfo.CatchType,
-			&fishInfo.PlayerID, &fishInfo.Date, &fishInfo.Bot, &fishInfo.Chat); err != nil {
-			logs.Logs().Error().Err(err).
-				Str("Board", board).
-				Msg("Error scanning row")
-			return Shinies, err
-		}
+	for _, result := range results {
 
-		fishInfo.Player, _, fishInfo.Verified, _, err = PlayerStuff(fishInfo.PlayerID, params, pool)
+		result.Player, _, result.Verified, _, err = PlayerStuff(result.PlayerID, params, pool)
 		if err != nil {
 			return Shinies, err
 		}
 
-		fishInfo.ChatPfp = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", fishInfo.Chat, fishInfo.Chat)
-		fishInfo.Type = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/shiny/%s.png)", fishInfo.Type, fishInfo.Type)
+		result.ChatPfp = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", result.Chat, result.Chat)
+		result.FishType = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/shiny/%s.png)", result.FishType, result.FishType)
 
-		Shinies[fishInfo.FishId] = fishInfo
+		Shinies[result.FishId] = result
 
-	}
-
-	if err := rows.Err(); err != nil {
-		logs.Logs().Error().Err(err).
-			Str("Board", board).
-			Msg("Error iterating over query results")
-		return Shinies, err
 	}
 
 	return Shinies, nil
 }
 
-func writeFishList(filePath string, fishy map[int]data.FishInfo, oldFishy map[int]data.FishInfo, title string, global bool, board string, weightlimit float64) error {
+func writeFishList(filePath string, fishy map[int]BoardData, oldFishy map[int]BoardData, title string, global bool, board string, weightlimit float64) error {
 
 	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
 		return err
@@ -208,7 +189,7 @@ func writeFishList(filePath string, fishy map[int]data.FishInfo, oldFishy map[in
 		}
 
 		_, _ = fmt.Fprintf(file, "| %d %s | %s%s | %s %s | %v | %s |",
-			rank, changeEmoji, fishy[fishid].Player, botIndicator, fishy[fishid].Type, fishy[fishid].TypeName, fishy[fishid].Weight, fishy[fishid].Date.Format("2006-01-02 15:04:05"))
+			rank, changeEmoji, fishy[fishid].Player, botIndicator, fishy[fishid].FishType, fishy[fishid].FishName, fishy[fishid].Weight, fishy[fishid].Date.Format("2006-01-02 15:04:05"))
 		if global {
 			_, _ = fmt.Fprintf(file, " %s |", fishy[fishid].ChatPfp)
 		}

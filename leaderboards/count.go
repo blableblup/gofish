@@ -3,13 +3,10 @@ package leaderboards
 import (
 	"context"
 	"fmt"
-	"gofish/data"
 	"gofish/logs"
 	"os"
 	"path/filepath"
-	"sort"
 	"strconv"
-	"strings"
 	"time"
 
 	"github.com/jackc/pgx/v5"
@@ -17,26 +14,15 @@ import (
 
 func processCount(params LeaderboardParams) {
 	board := params.LeaderboardType
+	boardInfo := params.BoardInfo
 	chatName := params.ChatName
 	global := params.Global
 	config := params.Config
-	title := params.Title
 	limit := params.Limit
 	chat := params.Chat
-	path := params.Path
 	mode := params.Mode
 
-	var filePath, titletotalcount string
-	var countlimit int
-
-	if path == "" {
-		filePath = filepath.Join("leaderboards", chatName, "count.md")
-	} else {
-		if !strings.HasSuffix(path, ".md") {
-			path += ".md"
-		}
-		filePath = filepath.Join("leaderboards", chatName, path)
-	}
+	filePath := returnPath(params)
 
 	oldCountRecord, err := getJsonBoard(filePath)
 	if err != nil {
@@ -48,11 +34,35 @@ func processCount(params LeaderboardParams) {
 		return
 	}
 
+	var countlimit int
+
 	if limit == "" {
-		countlimit = chat.Totalcountlimit
-		if countlimit == 0 {
-			countlimit = config.Chat["default"].Totalcountlimit
+		// idk how else to access the different limits per board through the config? whatever
+		switch board {
+		default:
+			logs.Logs().Warn().
+				Str("Board", board).
+				Msg("NO LIMIT for board defined!")
+
+		case "count":
+			countlimit = chat.Totalcountlimit
+			if countlimit == 0 {
+				countlimit = config.Chat["default"].Totalcountlimit
+			}
+
+		case "fishweek":
+			countlimit = chat.Fishweeklimit
+			if countlimit == 0 {
+				countlimit = config.Chat["default"].Fishweeklimit
+			}
+
+		case "uniquefish":
+			countlimit = chat.Uniquelimit
+			if countlimit == 0 {
+				countlimit = config.Chat["default"].Uniquelimit
+			}
 		}
+
 	} else {
 		countlimit, err = strconv.Atoi(limit)
 		if err != nil {
@@ -65,7 +75,7 @@ func processCount(params LeaderboardParams) {
 		}
 	}
 
-	fishCaught, err := getCount(params, countlimit)
+	fishCaught, err := boardInfo.GetFunctionInt(params, countlimit)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Chat", chatName).
@@ -85,18 +95,12 @@ func processCount(params LeaderboardParams) {
 		return
 	}
 
-	if title == "" {
-		if !global {
-			if strings.HasSuffix(chatName, "s") {
-				titletotalcount = fmt.Sprintf("### Most fish caught in %s' chat\n", chatName)
-			} else {
-				titletotalcount = fmt.Sprintf("### Most fish caught in %s's chat\n", chatName)
-			}
-		} else {
-			titletotalcount = "### Most fish caught globally\n"
-		}
+	var title string
+
+	if params.Title == "" {
+		title = boardInfo.GetTitleFunction(params)
 	} else {
-		titletotalcount = fmt.Sprintf("%s\n", title)
+		title = fmt.Sprintf("%s\n", params.Title)
 	}
 
 	logs.Logs().Info().
@@ -104,7 +108,7 @@ func processCount(params LeaderboardParams) {
 		Str("Chat", chatName).
 		Msg("Updating leaderboard")
 
-	err = writeCount(filePath, fishCaught, oldCountRecord, titletotalcount, global, board, countlimit)
+	err = writeCount(filePath, fishCaught, oldCountRecord, title, global, board, countlimit)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Board", board).
@@ -118,27 +122,23 @@ func processCount(params LeaderboardParams) {
 	}
 }
 
-func getCount(params LeaderboardParams, countlimit int) (map[int]data.FishInfo, error) {
+func getCount(params LeaderboardParams, countlimit int) (map[int]BoardData, error) {
 	board := params.LeaderboardType
+	boardInfo := params.BoardInfo
 	chatName := params.ChatName
 	global := params.Global
 	date2 := params.Date2
 	pool := params.Pool
 	date := params.Date
 
-	fishCaught := make(map[int]data.FishInfo)
+	fishCaught := make(map[int]BoardData)
 	var rows pgx.Rows
 	var err error
 
+	queries := boardInfo.GetQueryFunctionMap(params)
+
 	if !global {
-		rows, err = pool.Query(context.Background(), `
-		SELECT playerid, COUNT(*) AS fish_count
-		FROM fish
-		WHERE chat = $1
-		AND date < $2
-		AND date > $3
-		GROUP BY playerid
-		HAVING COUNT(*) >= $4`, chatName, date, date2, countlimit)
+		rows, err = pool.Query(context.Background(), queries["1"], chatName, date, date2, countlimit)
 		if err != nil {
 			logs.Logs().Error().Err(err).
 				Str("Chat", chatName).
@@ -146,15 +146,8 @@ func getCount(params LeaderboardParams, countlimit int) (map[int]data.FishInfo, 
 				Msg("Error querying database")
 			return fishCaught, err
 		}
-		defer rows.Close()
 	} else {
-		rows, err = pool.Query(context.Background(), `
-		SELECT playerid, COUNT(*) AS fish_count
-		FROM fish
-		WHERE date < $1
-		AND date > $2
-		GROUP BY playerid
-		HAVING COUNT(*) >= $3`, date, date2, countlimit)
+		rows, err = pool.Query(context.Background(), queries["1"], date, date2, countlimit)
 		if err != nil {
 			logs.Logs().Error().Err(err).
 				Str("Chat", chatName).
@@ -162,49 +155,42 @@ func getCount(params LeaderboardParams, countlimit int) (map[int]data.FishInfo, 
 				Msg("Error querying database")
 			return fishCaught, err
 		}
-		defer rows.Close()
 	}
 
-	for rows.Next() {
-		var fishInfo data.FishInfo
+	results, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[BoardData])
+	if err != nil && err != pgx.ErrNoRows {
+		logs.Logs().Error().Err(err).
+			Str("Chat", chatName).
+			Str("Board", board).
+			Msg("Error collecting rows")
+		return fishCaught, err
+	}
 
-		if err := rows.Scan(&fishInfo.PlayerID, &fishInfo.Count); err != nil {
-			logs.Logs().Error().Err(err).
-				Str("Chat", chatName).
-				Str("Board", board).
-				Msg("Error scanning row for fish count")
-			return fishCaught, err
-		}
+	var players []int
 
-		fishInfo.Player, fishInfo.Date, fishInfo.Verified, _, err = PlayerStuff(fishInfo.PlayerID, params, pool)
+	for _, result := range results {
+
+		result.Player, result.Date, result.Verified, _, err = PlayerStuff(result.PlayerID, params, pool)
 		if err != nil {
 			return fishCaught, err
 		}
 
-		if fishInfo.Date.Before(time.Date(2023, time.September, 14, 0, 0, 0, 0, time.UTC)) {
-			fishInfo.Bot = "supibot"
+		// because fishweek gets bot from the query
+		// to see when that tournemant week result happened
+		if board != "fishweek" {
+			if result.Date.Before(time.Date(2023, time.September, 14, 0, 0, 0, 0, time.UTC)) {
+				result.Bot = "supibot"
+			}
 		}
 
-		fishCaught[fishInfo.PlayerID] = fishInfo
-	}
+		players = append(players, result.PlayerID)
 
-	if err = rows.Err(); err != nil {
-		logs.Logs().Error().Err(err).
-			Str("Board", board).
-			Str("Chat", chatName).
-			Msg("Error iterating over rows")
-		return fishCaught, err
+		fishCaught[result.PlayerID] = result
 	}
 
 	if global {
 		// Get the fish caught per chat for the chatters above the countlimit
-		rows, err = pool.Query(context.Background(), `
-		select playerid, chat, count(*)
-		from fish
-		where date < $1
-		and date > $2
-		group by playerid, chat
-		order by count desc`, date, date2)
+		rows, err = pool.Query(context.Background(), queries["2"], players, date, date2)
 		if err != nil {
 			logs.Logs().Error().Err(err).
 				Str("Board", board).
@@ -212,46 +198,38 @@ func getCount(params LeaderboardParams, countlimit int) (map[int]data.FishInfo, 
 				Msg("Error querying database")
 			return fishCaught, err
 		}
-		defer rows.Close()
 
-		for rows.Next() {
-			var fishInfo data.FishInfo
+		results, err = pgx.CollectRows(rows, pgx.RowToStructByNameLax[BoardData])
+		if err != nil && err != pgx.ErrNoRows {
+			logs.Logs().Error().Err(err).
+				Str("Chat", chatName).
+				Str("Board", board).
+				Msg("Error collecting rows")
+			return fishCaught, err
+		}
 
-			if err := rows.Scan(&fishInfo.PlayerID, &fishInfo.Chat, &fishInfo.Count); err != nil {
-				logs.Logs().Error().Err(err).
-					Str("Chat", chatName).
-					Str("Board", board).
-					Msg("Error scanning row for fish caught")
-				return fishCaught, err
-			}
+		for _, result := range results {
 
-			pfp := fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", fishInfo.Chat, fishInfo.Chat)
+			pfp := fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", result.Chat, result.Chat)
 
-			existingFishInfo, exists := fishCaught[fishInfo.PlayerID]
+			existingFishInfo, exists := fishCaught[result.PlayerID]
 			if exists {
 
 				if existingFishInfo.ChatCounts == nil {
 					existingFishInfo.ChatCounts = make(map[string]int)
 				}
-				existingFishInfo.ChatCounts[pfp] += fishInfo.Count
+				existingFishInfo.ChatCounts[pfp] += result.Count
 
-				fishCaught[fishInfo.PlayerID] = existingFishInfo
+				fishCaught[result.PlayerID] = existingFishInfo
 			}
 		}
 
-		if err = rows.Err(); err != nil {
-			logs.Logs().Error().Err(err).
-				Str("Board", board).
-				Str("Chat", chatName).
-				Msg("Error iterating over rows")
-			return fishCaught, err
-		}
 	}
 
 	return fishCaught, nil
 }
 
-func writeCount(filePath string, fishCaught map[int]data.FishInfo, oldCountRecord map[int]data.FishInfo, title string, global bool, board string, countlimit int) error {
+func writeCount(filePath string, fishCaught map[int]BoardData, oldCountRecord map[int]BoardData, title string, global bool, board string, countlimit int) error {
 
 	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
 		return err
@@ -270,7 +248,7 @@ func writeCount(filePath string, fishCaught map[int]data.FishInfo, oldCountRecor
 
 	prefix := "| Rank | Player | Fish Caught |"
 
-	if board == "unique" || board == "uniqueglobal" {
+	if board == "uniquefish" {
 		prefix = "| Rank | Player | Fish Seen |"
 	}
 
@@ -302,7 +280,7 @@ func writeCount(filePath string, fishCaught map[int]data.FishInfo, oldCountRecor
 		Player := fishCaught[playerID].Player
 		Count := fishCaught[playerID].Count
 		ChatCounts := fishCaught[playerID].ChatCounts
-		FishName := fishCaught[playerID].TypeName
+		FishName := fishCaught[playerID].FishName
 
 		// Increment rank only if the count has changed
 		if Count != prevCount {
@@ -313,12 +291,12 @@ func writeCount(filePath string, fishCaught map[int]data.FishInfo, oldCountRecor
 			occupiedRanks[rank]++
 		}
 
-		// Store the rank
-		if ranksksk, ok := fishCaught[playerID]; ok {
+		// update the rank
+		if copy, ok := fishCaught[playerID]; ok {
 
-			ranksksk.Rank = rank
+			copy.Rank = rank
 
-			fishCaught[playerID] = ranksksk
+			fishCaught[playerID] = copy
 		}
 
 		var found bool
@@ -351,27 +329,10 @@ func writeCount(filePath string, fishCaught map[int]data.FishInfo, oldCountRecor
 
 		_, _ = fmt.Fprintf(file, "| %s %s | %s%s %s | %s |", ranks, changeEmoji, Player, botIndicator, FishName, counts)
 		if global {
-			// Turn the map to a slice
-			ChatCountsSlice := make([]struct {
-				chat  string
-				count int
-			}, 0, 2)
+			sortedChatCounts := sortMapStringInt(ChatCounts, "nameasc")
 
-			for k, v := range ChatCounts {
-				ChatCountsSlice = append(ChatCountsSlice, struct {
-					chat  string
-					count int
-				}{k, v})
-			}
-
-			// Sort per-channel counts by channel
-			sort.Slice(ChatCountsSlice, func(i, j int) bool {
-				return ChatCountsSlice[i].chat < ChatCountsSlice[j].chat
-			})
-
-			// Print the count for each chat
-			for _, count := range ChatCountsSlice {
-				_, _ = fmt.Fprintf(file, " %s %d ", count.chat, count.count)
+			for _, chat := range sortedChatCounts {
+				_, _ = fmt.Fprintf(file, " %s %d ", chat, ChatCounts[chat])
 			}
 			_, _ = fmt.Fprint(file, "|")
 		}
@@ -384,7 +345,7 @@ func writeCount(filePath string, fishCaught map[int]data.FishInfo, oldCountRecor
 		prevRank = rank
 	}
 
-	if board == "unique" || board == "uniqueglobal" {
+	if board == "uniquefish" {
 		_, _ = fmt.Fprint(file, "\n_This does not include fish seen through 🎁 gifts or through releasing to another player during the winter events!_\n")
 		_, _ = fmt.Fprintf(file, "\n_Only showing fishers who have seen >= %d fish_\n", countlimit)
 	} else {

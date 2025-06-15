@@ -3,7 +3,6 @@ package leaderboards
 import (
 	"context"
 	"database/sql"
-	"gofish/data"
 	"gofish/logs"
 	"time"
 
@@ -30,8 +29,8 @@ func ReturnFishSliceQueryValidPlayers(params LeaderboardParams, query string, va
 	return fishy, nil
 }
 
-// for the leaderboards
-func ReturnFishSliceQuery(params LeaderboardParams, query string, chat bool) ([]data.FishInfo, error) {
+// for some leaderboards
+func ReturnFishSliceQuery(params LeaderboardParams, query string, chat bool) ([]BoardData, error) {
 	chatName := params.ChatName
 	date2 := params.Date2
 	date := params.Date
@@ -43,19 +42,19 @@ func ReturnFishSliceQuery(params LeaderboardParams, query string, chat bool) ([]
 	if chat {
 		rows, err = pool.Query(context.Background(), query, chatName, date, date2)
 		if err != nil {
-			return []data.FishInfo{}, err
+			return []BoardData{}, err
 		}
 
 	} else {
 		rows, err = pool.Query(context.Background(), query, date, date2)
 		if err != nil {
-			return []data.FishInfo{}, err
+			return []BoardData{}, err
 		}
 	}
 
-	fishy, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[data.FishInfo])
+	fishy, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[BoardData])
 	if err != nil && err != pgx.ErrNoRows {
-		return []data.FishInfo{}, err
+		return []BoardData{}, err
 	}
 
 	return fishy, nil

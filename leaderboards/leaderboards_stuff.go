@@ -3,7 +3,6 @@ package leaderboards
 import (
 	"encoding/json"
 	"fmt"
-	"gofish/data"
 	"gofish/logs"
 	"os"
 	"path/filepath"
@@ -11,6 +10,26 @@ import (
 	"sort"
 	"strings"
 )
+
+// name of the md file is by default name of the board in leaderboardconfig
+func returnPath(params LeaderboardParams) string {
+	board := params.LeaderboardType
+	chatName := params.ChatName
+	path := params.Path
+
+	var filePath string
+
+	if path == "" {
+		filePath = filepath.Join("leaderboards", chatName, board+".md")
+	} else {
+		if !strings.HasSuffix(path, ".md") {
+			path += ".md"
+		}
+		filePath = filepath.Join("leaderboards", chatName, path)
+	}
+
+	return filePath
+}
 
 // to print whatever struct / map as a json file
 func writeRaw(filePath string, data any) error {
@@ -35,46 +54,9 @@ func writeRaw(filePath string, data any) error {
 	return nil
 }
 
-func getJsonBoard(filePath string) (map[int]data.FishInfo, error) {
+func getJsonBoard(filePath string) (map[int]BoardData, error) {
 
-	oldBoard := make(map[int]data.FishInfo)
-
-	filePath = strings.TrimSuffix(filePath, filepath.Ext(filePath))
-
-	wd, err := os.Getwd()
-	if err != nil {
-		logs.Logs().Error().Err(err).
-			Str("FilePath", filePath).
-			Msg("Error getting current working directory")
-		return oldBoard, err
-	}
-
-	rawboard := filepath.Join(wd, filePath+".json")
-
-	// This doesnt have to count as an error, because the board could be new
-	file, err := os.Open(rawboard)
-	if err != nil {
-		logs.Logs().Error().Err(err).
-			Str("FilePath", filePath).
-			Msg("Error opening json board")
-		return oldBoard, nil
-	}
-	defer file.Close()
-
-	err = json.NewDecoder(file).Decode(&oldBoard)
-	if err != nil {
-		logs.Logs().Error().Err(err).
-			Str("FilePath", filePath).
-			Msg("Error parsing raw board file")
-		return oldBoard, err
-	}
-
-	return oldBoard, nil
-}
-
-func getJsonBoardString(filePath string) (map[string]data.FishInfo, error) {
-
-	oldBoard := make(map[string]data.FishInfo)
+	oldBoard := make(map[int]BoardData)
 
 	filePath = strings.TrimSuffix(filePath, filepath.Ext(filePath))
 
@@ -109,7 +91,64 @@ func getJsonBoardString(filePath string) (map[string]data.FishInfo, error) {
 	return oldBoard, nil
 }
 
-func sortMapIntFishInfo(somemap map[int]data.FishInfo, whattosort string) []int {
+func getJsonBoardString(filePath string) (map[string]BoardData, error) {
+
+	oldBoard := make(map[string]BoardData)
+
+	filePath = strings.TrimSuffix(filePath, filepath.Ext(filePath))
+
+	wd, err := os.Getwd()
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("FilePath", filePath).
+			Msg("Error getting current working directory")
+		return oldBoard, err
+	}
+
+	rawboard := filepath.Join(wd, filePath+".json")
+
+	// This doesnt have to count as an error, because the board could be new
+	file, err := os.Open(rawboard)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("FilePath", filePath).
+			Msg("Error opening json board")
+		return oldBoard, nil
+	}
+	defer file.Close()
+
+	err = json.NewDecoder(file).Decode(&oldBoard)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("FilePath", filePath).
+			Msg("Error parsing raw board file")
+		return oldBoard, err
+	}
+
+	return oldBoard, nil
+}
+
+func sortMapStringInt(somemap map[string]int, whattosort string) []string {
+
+	blee := make([]string, 0, len(somemap))
+	for whatever := range somemap {
+		blee = append(blee, whatever)
+	}
+
+	switch whattosort {
+	case "nameasc":
+		sort.SliceStable(blee, func(i, j int) bool { return blee[i] < blee[j] })
+
+	default:
+		logs.Logs().Warn().
+			Str("WhatToSort", whattosort).
+			Msg("idk what to do :(")
+	}
+
+	return blee
+}
+
+func sortMapIntFishInfo(somemap map[int]BoardData, whattosort string) []int {
 
 	blee := make([]int, 0, len(somemap))
 	for whatever := range somemap {
@@ -122,6 +161,9 @@ func sortMapIntFishInfo(somemap map[int]data.FishInfo, whattosort string) []int 
 	case "weightdesc":
 		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Player < somemap[blee[j]].Player })
 		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Weight > somemap[blee[j]].Weight })
+	case "totalweightdesc":
+		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Player < somemap[blee[j]].Player })
+		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].TotalWeight > somemap[blee[j]].TotalWeight })
 	case "countdesc":
 		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Player < somemap[blee[j]].Player })
 		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Count > somemap[blee[j]].Count })
@@ -134,7 +176,7 @@ func sortMapIntFishInfo(somemap map[int]data.FishInfo, whattosort string) []int 
 	return blee
 }
 
-func sortMapStringFishInfo(somemap map[string]data.FishInfo, whattosort string) []string {
+func sortMapStringFishInfo(somemap map[string]BoardData, whattosort string) []string {
 
 	blee := make([]string, 0, len(somemap))
 	for whatever := range somemap {
@@ -148,11 +190,14 @@ func sortMapStringFishInfo(somemap map[string]data.FishInfo, whattosort string) 
 		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Date.After(somemap[blee[j]].Date) })
 	case "weightdesc":
 		sort.SliceStable(blee, func(i, j int) bool { return blee[i] < blee[j] })
-		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].TypeName < somemap[blee[j]].TypeName })
+		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].FishName < somemap[blee[j]].FishName })
 		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Weight > somemap[blee[j]].Weight })
+	case "totalweightdesc":
+		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Player < somemap[blee[j]].Player })
+		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].TotalWeight > somemap[blee[j]].TotalWeight })
 	case "countdesc":
 		sort.SliceStable(blee, func(i, j int) bool { return blee[i] < blee[j] })
-		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].TypeName < somemap[blee[j]].TypeName })
+		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].FishName < somemap[blee[j]].FishName })
 		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Count > somemap[blee[j]].Count })
 	default:
 		logs.Logs().Warn().
@@ -164,7 +209,7 @@ func sortMapStringFishInfo(somemap map[string]data.FishInfo, whattosort string) 
 }
 
 // If maps are same length, check if the player renamed or has an updated record
-func didPlayerMapsChange(params LeaderboardParams, oldBoard map[int]data.FishInfo, newBoard map[int]data.FishInfo) bool {
+func didPlayerMapsChange(params LeaderboardParams, oldBoard map[int]BoardData, newBoard map[int]BoardData) bool {
 	var mapsarethesame = true
 
 	for playerID := range newBoard {
@@ -177,8 +222,8 @@ func didPlayerMapsChange(params LeaderboardParams, oldBoard map[int]data.FishInf
 					Str("Date", newBoard[playerID].Date.Format("2006-01-02 15:04:05 UTC")).
 					Float64("Weight", newBoard[playerID].Weight).
 					Str("CatchType", newBoard[playerID].CatchType).
-					Str("FishName", newBoard[playerID].TypeName).
-					Str("FishType", newBoard[playerID].Type).
+					Str("FishName", newBoard[playerID].FishName).
+					Str("FishType", newBoard[playerID].FishType).
 					Str("Player", newBoard[playerID].Player).
 					Msg("New weight record")
 			}
@@ -197,8 +242,8 @@ func didPlayerMapsChange(params LeaderboardParams, oldBoard map[int]data.FishInf
 						Float64("WeightOld", oldBoard[playerID].Weight).
 						Float64("Weight", newBoard[playerID].Weight).
 						Str("CatchType", newBoard[playerID].CatchType).
-						Str("FishName", newBoard[playerID].TypeName).
-						Str("FishType", newBoard[playerID].Type).
+						Str("FishName", newBoard[playerID].FishName).
+						Str("FishType", newBoard[playerID].FishType).
 						Str("Player", newBoard[playerID].Player).
 						Msg("Updated weight record")
 				}
@@ -213,7 +258,7 @@ func didPlayerMapsChange(params LeaderboardParams, oldBoard map[int]data.FishInf
 }
 
 // For the fish leaderboards
-func didFishMapChange(params LeaderboardParams, oldBoard map[string]data.FishInfo, newBoard map[string]data.FishInfo) bool {
+func didFishMapChange(params LeaderboardParams, oldBoard map[string]BoardData, newBoard map[string]BoardData) bool {
 	board := params.LeaderboardType
 	var mapsarethesame = true
 
@@ -230,8 +275,8 @@ func didFishMapChange(params LeaderboardParams, oldBoard map[string]data.FishInf
 					Str("Date", newBoard[fishName].Date.Format("2006-01-02 15:04:05 UTC")).
 					Float64("Weight", newBoard[fishName].Weight).
 					Str("CatchType", newBoard[fishName].CatchType).
-					Str("FishName", newBoard[fishName].TypeName).
-					Str("FishType", newBoard[fishName].Type).
+					Str("FishName", newBoard[fishName].FishName).
+					Str("FishType", newBoard[fishName].FishType).
 					Str("Player", newBoard[fishName].Player).
 					Msg("New fish record")
 			}
@@ -250,8 +295,8 @@ func didFishMapChange(params LeaderboardParams, oldBoard map[string]data.FishInf
 						Float64("WeightOld", oldBoard[fishName].Weight).
 						Float64("Weight", newBoard[fishName].Weight).
 						Str("CatchType", newBoard[fishName].CatchType).
-						Str("FishName", newBoard[fishName].TypeName).
-						Str("FishType", newBoard[fishName].Type).
+						Str("FishName", newBoard[fishName].FishName).
+						Str("FishType", newBoard[fishName].FishType).
 						Str("Player", newBoard[fishName].Player).
 						Msg("Updated fish record")
 				}
@@ -269,7 +314,7 @@ func didFishMapChange(params LeaderboardParams, oldBoard map[string]data.FishInf
 				}
 			}
 			// In case the emoji of a fish gets updated (?)
-			if oldBoard[fishName].Type != newBoard[fishName].Type {
+			if oldBoard[fishName].FishType != newBoard[fishName].FishType {
 				mapsarethesame = false
 			}
 		}

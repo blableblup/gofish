@@ -2,20 +2,19 @@ package leaderboards
 
 import (
 	"fmt"
-	"gofish/data"
 	"gofish/logs"
 	"path/filepath"
 	"sort"
 )
 
 type BoardDataProfiles struct {
-	Count      map[int]data.FishInfo
-	Uniquefish map[int]data.FishInfo
-	Weight     map[int]data.FishInfo
-	Trophy     map[int]data.FishInfo
-	Type       map[string]data.FishInfo
-	Typesmall  map[string]data.FishInfo
-	Typefirst  map[string]data.FishInfo
+	Count      map[int]BoardData
+	Uniquefish map[int]BoardData
+	Weight     map[int]BoardData
+	Trophy     map[int]BoardData
+	Type       map[string]BoardData
+	Typesmall  map[string]BoardData
+	Typefirst  map[string]BoardData
 }
 
 // get the data from the other leaderboards json files for all the chats and globally
@@ -36,11 +35,11 @@ func GetOtherBoardDataForPlayerProfiles(params LeaderboardParams) (map[string]*B
 
 		if _, ok := otherBoardsData[chatName]; !ok {
 			otherBoardsData[chatName] = &BoardDataProfiles{
-				Count:      make(map[int]data.FishInfo),
-				Uniquefish: make(map[int]data.FishInfo),
-				Weight:     make(map[int]data.FishInfo),
-				Type:       make(map[string]data.FishInfo),
-				Typesmall:  make(map[string]data.FishInfo),
+				Count:      make(map[int]BoardData),
+				Uniquefish: make(map[int]BoardData),
+				Weight:     make(map[int]BoardData),
+				Type:       make(map[string]BoardData),
+				Typesmall:  make(map[string]BoardData),
 			}
 		}
 
@@ -292,14 +291,14 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 
 			playerID := otherBoardData[chatName].Type[fishName].PlayerID
 
-			fishType := fmt.Sprintf("%s %s", fishName, fish.Type)
+			fishType := fmt.Sprintf("%s %s", fishName, fish.FishType)
 
 			if _, ok := Profiles[playerID]; ok {
 
 				if Profiles[playerID].FishData[fishType].Biggest.Date == otherBoardData[chatName].Type[fishName].Date {
 
 					Profiles[playerID].FishData[fishType].Biggest.Record = append(Profiles[playerID].FishData[fishType].Biggest.Record,
-						fmt.Sprintf("🥇 Biggest %s %s record %s !", fish.Type, fishName, text))
+						fmt.Sprintf("🥇 Biggest %s %s record %s !", fish.FishType, fishName, text))
 
 				}
 
@@ -312,14 +311,14 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 
 			playerID := otherBoardData[chatName].Typesmall[fishName].PlayerID
 
-			fishType := fmt.Sprintf("%s %s", fishName, fish.Type)
+			fishType := fmt.Sprintf("%s %s", fishName, fish.FishType)
 
 			if _, ok := Profiles[playerID]; ok {
 
 				if Profiles[playerID].FishData[fishType].Smallest.Date == otherBoardData[chatName].Typesmall[fishName].Date {
 
 					Profiles[playerID].FishData[fishType].Smallest.Record = append(Profiles[playerID].FishData[fishType].Smallest.Record,
-						fmt.Sprintf("🥇 Smallest %s %s record %s !", fish.Type, fishName, text))
+						fmt.Sprintf("🥇 Smallest %s %s record %s !", fish.FishType, fishName, text))
 
 				}
 
@@ -331,14 +330,14 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 
 			playerID := otherBoardData[chatName].Typefirst[fishName].PlayerID
 
-			fishType := fmt.Sprintf("%s %s", fishName, fish.Type)
+			fishType := fmt.Sprintf("%s %s", fishName, fish.FishType)
 
 			if _, ok := Profiles[playerID]; ok {
 
 				if Profiles[playerID].FishData[fishType].First.Date == otherBoardData[chatName].Typefirst[fishName].Date {
 
 					Profiles[playerID].FishData[fishType].First.Record = append(Profiles[playerID].FishData[fishType].First.Record,
-						fmt.Sprintf("🥇 First ever %s %s caught %s !", fish.Type, fishName, text))
+						fmt.Sprintf("🥇 First ever %s %s caught %s !", fish.FishType, fishName, text))
 
 				}
 
@@ -378,7 +377,7 @@ func GetTheShiniesForPlayerProfiles(params LeaderboardParams, Profiles map[int]*
 
 			// because that board returns a different struct
 			profileFish := ProfileFish{
-				Fish:       fmt.Sprintf("%s %s", fish.Type, fish.TypeName),
+				Fish:       fmt.Sprintf("%s %s", fish.FishType, fish.FishName),
 				Weight:     fish.Weight,
 				CatchType:  fish.CatchType,
 				DateString: fish.Date.Format("2006-01-02 15:04:05 UTC"),

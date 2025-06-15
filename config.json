@@ -111,6 +111,7 @@
 					"logs_added": "2024/5"
 				}
 			],
+			"weighttotal_limit": 1800,
 			"checkfdata": true,
 			"board_enabled": true
 		},
@@ -158,6 +159,7 @@
 		"default": {
 			"playercount_limit": 20,
 			"fishweek_limit": 20,
+			"weighttotal_limit": 200,
 			"weight_limit": 200,
 			"weight_limit_records": 200,
 			"totalcount_limit": 100,
@@ -223,6 +225,7 @@
 				}
 			],
 			"fishweek_limit": 20,
+			"weighttotal_limit": 500,
 			"weight_limit": 100,
 			"totalcount_limit": 30,
 			"unique_limit": 20,
@@ -270,6 +273,8 @@
 			"board_enabled": false
 		},
 		"global": {
+			"weightmouth_limit": 150,
+			"weighttotal_limit": 5400,
 			"weight_limit": 270,
 			"totalcount_limit": 300,
 			"unique_limit": 60,
@@ -489,6 +494,7 @@
 					"logs_added": "2024/6"
 				}
 			],
+			"weighttotal_limit": 1800,
 			"checkfdata": true,
 			"board_enabled": true
 		},

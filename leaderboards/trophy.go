@@ -3,7 +3,6 @@ package leaderboards
 import (
 	"context"
 	"fmt"
-	"gofish/data"
 	"gofish/logs"
 	"os"
 	"path/filepath"
@@ -15,19 +14,9 @@ func processTrophy(params LeaderboardParams) {
 	board := params.LeaderboardType
 	chatName := params.ChatName
 	title := params.Title
-	path := params.Path
 	mode := params.Mode
 
-	var filePath, titletrophies string
-
-	if path == "" {
-		filePath = filepath.Join("leaderboards", chatName, "trophy.md")
-	} else {
-		if !strings.HasSuffix(path, ".md") {
-			path += ".md"
-		}
-		filePath = filepath.Join("leaderboards", chatName, path)
-	}
+	filePath := returnPath(params)
 
 	oldTrophy, err := getJsonBoard(filePath)
 	if err != nil {
@@ -57,6 +46,8 @@ func processTrophy(params LeaderboardParams) {
 		return
 	}
 
+	var titletrophies string
+
 	if title == "" {
 		if strings.HasSuffix(chatName, "s") {
 			titletrophies = fmt.Sprintf("### Leaderboard for the weekly tournaments in %s' chat\n", chatName)
@@ -82,14 +73,14 @@ func processTrophy(params LeaderboardParams) {
 	}
 }
 
-func getTrophies(params LeaderboardParams) (map[int]data.FishInfo, error) {
+func getTrophies(params LeaderboardParams) (map[int]BoardData, error) {
 	board := params.LeaderboardType
 	chatName := params.ChatName
 	date2 := params.Date2
 	pool := params.Pool
 	date := params.Date
 
-	playerCounts := make(map[int]data.FishInfo)
+	playerCounts := make(map[int]BoardData)
 
 	query := fmt.Sprintf(`
 	SELECT 
@@ -122,9 +113,9 @@ func getTrophies(params LeaderboardParams) (map[int]data.FishInfo, error) {
 	defer rows.Close()
 
 	for rows.Next() {
-		var fishInfo data.FishInfo
+		var fishInfo BoardData
 
-		if err := rows.Scan(&fishInfo.PlayerID, &fishInfo.FishId, &fishInfo.ChatId, &fishInfo.MaxCount); err != nil {
+		if err := rows.Scan(&fishInfo.PlayerID, &fishInfo.Trophies, &fishInfo.Silver, &fishInfo.Bronze); err != nil {
 			logs.Logs().Error().Err(err).
 				Str("Chat", chatName).
 				Str("Board", board).
@@ -138,9 +129,8 @@ func getTrophies(params LeaderboardParams) (map[int]data.FishInfo, error) {
 			return playerCounts, err
 		}
 
-		fishInfo.Weight = float64(fishInfo.FishId)*3 + float64(fishInfo.ChatId) + float64(fishInfo.MaxCount)*0.5
+		fishInfo.Weight = float64(fishInfo.Trophies)*3 + float64(fishInfo.Silver) + float64(fishInfo.Bronze)*0.5
 
-		// Fishid = trophies, chatid = silvermedals, maxcount = bronzemedals, weight = points
 		playerCounts[fishInfo.PlayerID] = fishInfo
 	}
 
@@ -155,7 +145,7 @@ func getTrophies(params LeaderboardParams) (map[int]data.FishInfo, error) {
 	return playerCounts, nil
 }
 
-func writeTrophy(filePath string, playerCounts map[int]data.FishInfo, oldTrophy map[int]data.FishInfo, title string) error {
+func writeTrophy(filePath string, playerCounts map[int]BoardData, oldTrophy map[int]BoardData, title string) error {
 
 	// Ensure that the directory exists before attempting to create the file
 	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
@@ -184,6 +174,9 @@ func writeTrophy(filePath string, playerCounts map[int]data.FishInfo, oldTrophy 
 	occupiedRanks := make(map[int]int)
 
 	for _, playerID := range sortedPlayers {
+		trophies := playerCounts[playerID].Trophies
+		silver := playerCounts[playerID].Silver
+		bronze := playerCounts[playerID].Bronze
 		points := playerCounts[playerID].Weight
 		player := playerCounts[playerID].Player
 
@@ -207,37 +200,37 @@ func writeTrophy(filePath string, playerCounts map[int]data.FishInfo, oldTrophy 
 		var found bool
 
 		oldRank := -1
-		oldtrophies := playerCounts[playerID].FishId
-		oldsilver := playerCounts[playerID].ChatId
-		oldbronze := playerCounts[playerID].MaxCount
+		oldtrophies := trophies
+		oldsilver := silver
+		oldbronze := bronze
 		oldpoints := points
 		if info, ok := oldTrophy[playerID]; ok {
 			found = true
 			oldRank = info.Rank
-			oldtrophies = oldTrophy[playerID].FishId
-			oldsilver = oldTrophy[playerID].ChatId
-			oldbronze = oldTrophy[playerID].MaxCount
+			oldtrophies = oldTrophy[playerID].Trophies
+			oldsilver = oldTrophy[playerID].Silver
+			oldbronze = oldTrophy[playerID].Bronze
 			oldpoints = oldTrophy[playerID].Weight
 		}
 
 		changeEmoji := ChangeEmoji(rank, oldRank, found)
 
-		trophiesDifference := playerCounts[playerID].FishId - oldtrophies
-		silverDifference := playerCounts[playerID].ChatId - oldsilver
-		bronzeDifference := playerCounts[playerID].MaxCount - oldbronze
+		trophiesDifference := trophies - oldtrophies
+		silverDifference := silver - oldsilver
+		bronzeDifference := bronze - oldbronze
 		pointsDifference := points - oldpoints
 
-		trophyCount := fmt.Sprintf("%d", playerCounts[playerID].FishId)
+		trophyCount := fmt.Sprintf("%d", trophies)
 		if trophiesDifference > 0 {
 			trophyCount += fmt.Sprintf(" (+%d)", trophiesDifference)
 		}
 
-		silverCount := fmt.Sprintf("%d", playerCounts[playerID].ChatId)
+		silverCount := fmt.Sprintf("%d", silver)
 		if silverDifference > 0 {
 			silverCount += fmt.Sprintf(" (+%d)", silverDifference)
 		}
 
-		bronzeCount := fmt.Sprintf("%d", playerCounts[playerID].MaxCount)
+		bronzeCount := fmt.Sprintf("%d", bronze)
 		if bronzeDifference > 0 {
 			bronzeCount += fmt.Sprintf(" (+%d)", bronzeDifference)
 		}

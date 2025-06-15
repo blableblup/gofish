@@ -1,7 +1,6 @@
 package leaderboards
 
 import (
-	"gofish/data"
 	"gofish/logs"
 	"gofish/utils"
 	"strings"
@@ -10,17 +9,72 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 
+// struct to scan all the board data into
+type BoardData struct {
+	// for the player
+	ProfileLink string `json:"profile_link,omitempty"`
+	Player      string `json:"player,omitempty"`
+	PlayerID    int    `json:"playerid,omitempty"`
+	TwitchID    int    `json:"twitchid,omitempty"`
+	Verified    bool   `json:"verified,omitempty"`
+
+	// for fishes
+	Weight    float64   `json:"weight,omitempty"`
+	Bot       string    `json:"bot,omitempty"`
+	FishType  string    `json:"fishtype,omitempty"`
+	FishName  string    `json:"fishname,omitempty"`
+	CatchType string    `json:"catchtype,omitempty"`
+	Chat      string    `json:"chat,omitempty"`
+	ChatPfp   string    `json:"chatpfp,omitempty"`
+	FishId    int       `json:"fishid,omitempty"`
+	ChatId    int       `json:"chatid,omitempty"`
+	Date      time.Time `json:"date,omitempty"`
+
+	// for mouth fishes
+	WeightMouth   float64 `json:"weightmouth,omitempty"`
+	FishTypeMouth string  `json:"fishtypemouth,omitempty"`
+	FishNameMouth string  `json:"fishnamemouth,omitempty"`
+
+	TotalWeight float64 `json:"totalweight,omitempty"`
+
+	// idk
+	Count       int                `json:"count,omitempty"`
+	ChatCounts  map[string]int     `json:"chatcounts,omitempty"`
+	ChatWeights map[string]float64 `json:"chatweights,omitempty"`
+
+	// for chats board
+	ActiveFishers int `json:"activefishers,omitempty"`
+	UniqueFishers int `json:"uniquefishers,omitempty"`
+	UniqueFish    int `json:"uniquefish,omitempty"`
+
+	// for trophy board
+	Trophies int `json:"trophies,omitempty"`
+	Silver   int `json:"silver,omitempty"`
+	Bronze   int `json:"bronze,omitempty"`
+
+	Rank int `json:"rank,omitempty"`
+}
+
 // to store info about a leaderboard and its functions
 type LeaderboardConfig struct {
-	Name             string
-	hasGlobal        bool
-	GlobalOnly       bool
-	Tournament       bool
-	Function         func(LeaderboardParams)
-	GetFunction      func(LeaderboardParams) (map[string]data.FishInfo, error)
+	Name       string
+	hasGlobal  bool
+	GlobalOnly bool
+	Tournament bool
+
+	Function func(LeaderboardParams)
+
+	GetFunction      func(LeaderboardParams) (map[string]BoardData, error)
+	GetFunctionInt   func(LeaderboardParams, int) (map[int]BoardData, error)
 	GetTitleFunction func(LeaderboardParams) string
 	GetQueryFunction func(LeaderboardParams) string
-	LimitField       string
+	// a map, because some boards need multiple queries
+	GetQueryFunctionMap func(LeaderboardParams) map[string]string
+
+	// to not update profiles with all the other boards
+	// profiles should be run after them because that is using the json data from the other boards
+	// if run with the other boards, the data for the board records will be old and wrong
+	IsProfiles bool
 }
 
 // This is holding the flags (like -title and -path...)
@@ -127,22 +181,31 @@ func Leaderboards(pool *pgxpool.Pool, leaderboards string, chatNames string, dat
 		},
 
 		"fishweek": {
-			hasGlobal:  false,
-			GlobalOnly: false,
-			Tournament: true,
-			Function:   processFishweek,
+			hasGlobal:           false,
+			GlobalOnly:          false,
+			Tournament:          true,
+			Function:            processCount,
+			GetFunctionInt:      getCount,
+			GetTitleFunction:    countBoardTitles,
+			GetQueryFunctionMap: countBoardSql,
 		},
 		"uniquefish": {
-			hasGlobal:  true,
-			GlobalOnly: false,
-			Tournament: false,
-			Function:   processUniqueFish,
+			hasGlobal:           true,
+			GlobalOnly:          false,
+			Tournament:          false,
+			Function:            processCount,
+			GetFunctionInt:      getCount,
+			GetTitleFunction:    countBoardTitles,
+			GetQueryFunctionMap: countBoardSql,
 		},
 		"count": {
-			hasGlobal:  true,
-			GlobalOnly: false,
-			Tournament: false,
-			Function:   processCount,
+			hasGlobal:           true,
+			GlobalOnly:          false,
+			Tournament:          false,
+			Function:            processCount,
+			GetFunctionInt:      getCount,
+			GetTitleFunction:    countBoardTitles,
+			GetQueryFunctionMap: countBoardSql,
 		},
 
 		"typelast": {
@@ -201,6 +264,18 @@ func Leaderboards(pool *pgxpool.Pool, leaderboards string, chatNames string, dat
 			Tournament: false,
 			Function:   processWeight2,
 		},
+		"weighttotal": {
+			hasGlobal:  true,
+			GlobalOnly: false,
+			Tournament: false,
+			Function:   processWeightTotal,
+		},
+		"weightmouth": {
+			hasGlobal:  true,
+			GlobalOnly: true,
+			Tournament: false,
+			Function:   processWeightMouth,
+		},
 
 		"averageweight": {
 			hasGlobal:  true,
@@ -231,6 +306,8 @@ func Leaderboards(pool *pgxpool.Pool, leaderboards string, chatNames string, dat
 			GlobalOnly: true,
 			Tournament: false,
 			Function:   GetPlayerProfiles,
+
+			IsProfiles: true,
 		}}
 
 	leaderboardList := strings.Split(leaderboards, ",")
@@ -271,7 +348,7 @@ func Leaderboards(pool *pgxpool.Pool, leaderboards string, chatNames string, dat
 
 		case "globalboards":
 			for boardname, board := range existingboards {
-				if board.GlobalOnly {
+				if board.GlobalOnly && !board.IsProfiles {
 					processLeaderboard(config, params, boardname, board)
 				}
 			}
@@ -279,7 +356,9 @@ func Leaderboards(pool *pgxpool.Pool, leaderboards string, chatNames string, dat
 		case "all":
 			for boardname, board := range existingboards {
 
-				processLeaderboard(config, params, boardname, board)
+				if !board.IsProfiles {
+					processLeaderboard(config, params, boardname, board)
+				}
 			}
 		}
 	}

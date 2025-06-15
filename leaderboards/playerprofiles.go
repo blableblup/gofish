@@ -44,6 +44,9 @@ type PlayerProfile struct {
 	BiggestFish []ProfileFish `json:"Their overall biggest fish"`
 	LastFish    []ProfileFish `json:"Their overall last fish"`
 
+	TotalWeight     *TotalChatStructFloat            `json:"Combined weight of all caught fish"`
+	TotalWeightYear map[string]*TotalChatStructFloat `json:"Combined weight of all caught fish per year"`
+
 	Bag       ProfileBag     `json:"Their last seen bag"`
 	BagCounts map[string]int `json:"Count of each item in that bag"`
 
@@ -63,6 +66,12 @@ type PlayerProfile struct {
 type TotalChatStruct struct {
 	Total int
 	Chat  map[string]int `json:"Per chat"`
+}
+
+// for total weight and per chat
+type TotalChatStructFloat struct {
+	Total float64
+	Chat  map[string]float64 `json:"Per chat"`
 }
 
 // all the structs for the progress thingys

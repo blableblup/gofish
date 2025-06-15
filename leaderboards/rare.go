@@ -3,31 +3,20 @@ package leaderboards
 import (
 	"context"
 	"fmt"
-	"gofish/data"
 	"gofish/logs"
 	"os"
 	"path/filepath"
-	"sort"
-	"strings"
 	"time"
+
+	"github.com/jackc/pgx/v5"
 )
 
 func RunCountFishTypesGlobal(params LeaderboardParams) {
 	board := params.LeaderboardType
 	title := params.Title
-	path := params.Path
 	mode := params.Mode
 
-	var filePath, titlerare string
-
-	if path == "" {
-		filePath = filepath.Join("leaderboards", "global", "rare.md")
-	} else {
-		if !strings.HasSuffix(path, ".md") {
-			path += ".md"
-		}
-		filePath = filepath.Join("leaderboards", "global", path)
-	}
+	filePath := returnPath(params)
 
 	oldCount, err := getJsonBoardString(filePath)
 	if err != nil {
@@ -57,6 +46,8 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 		return
 	}
 
+	var titlerare string
+
 	if title == "" {
 		titlerare = "### How many times a fish has been caught\n"
 	} else {
@@ -80,96 +71,69 @@ func RunCountFishTypesGlobal(params LeaderboardParams) {
 	}
 }
 
-func getRarestFish(params LeaderboardParams) (map[string]data.FishInfo, error) {
+func getRarestFish(params LeaderboardParams) (map[string]BoardData, error) {
 	board := params.LeaderboardType
-	config := params.Config
 	date2 := params.Date2
 	pool := params.Pool
 	date := params.Date
 
-	globalFishTypesCount := make(map[string]data.FishInfo)
+	globalFishTypesCount := make(map[string]BoardData)
 
-	// Process all chats
-	for chatName, chat := range config.Chat {
-		if !chat.CheckFData {
-			if chatName != "global" && chatName != "default" {
-				logs.Logs().Warn().
-					Str("Board", board).
-					Str("Chat", chatName).
-					Msg("Skipping chat because checkfdata is false")
-			}
-			continue
-		}
-
-		// Query the database to get the count of each fish type caught in the chat
-		rows, err := pool.Query(context.Background(), `
-				SELECT fishname, COUNT(*) AS type_count
+	// Query the database to get the count of each fish type caught in the chat
+	rows, err := pool.Query(context.Background(), `
+				SELECT fishname, COUNT(*), chat
 				FROM fish
-				WHERE chat = $1
-				AND date < $2
-				AND date > $3
-				GROUP BY fishname
-				`, chatName, date, date2)
+				WHERE date < $1
+				AND date > $2
+				GROUP BY fishname, chat
+				`, date, date2)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Board", board).
+			Msg("Error querying database for rarest fish")
+		return globalFishTypesCount, err
+	}
+
+	results, err := pgx.CollectRows(rows, pgx.RowToStructByNameLax[BoardData])
+	if err != nil && err != pgx.ErrNoRows {
+		logs.Logs().Error().Err(err).
+			Str("Board", board).
+			Msg("Error collecting rows")
+		return globalFishTypesCount, err
+	}
+
+	for _, result := range results {
+
+		result.FishType, err = FishStuff(result.FishName, params)
 		if err != nil {
-			logs.Logs().Error().Err(err).
-				Str("Chat", chatName).
-				Str("Board", board).
-				Msg("Error querying database for rarest fish")
 			return globalFishTypesCount, err
 		}
-		defer rows.Close()
 
-		// Iterate through the query results and store fish type count for each chat
-		for rows.Next() {
-			var fishInfo data.FishInfo
+		pfp := fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", result.Chat, result.Chat)
+		existingFishInfo, exists := globalFishTypesCount[result.FishName]
+		if exists {
+			existingFishInfo.Count += result.Count
 
-			if err := rows.Scan(&fishInfo.TypeName, &fishInfo.Count); err != nil {
-				logs.Logs().Error().Err(err).
-					Str("Chat", chatName).
-					Str("Board", board).
-					Msg("Error scanning row for rarest fish")
-				return globalFishTypesCount, err
+			if existingFishInfo.ChatCounts == nil {
+				existingFishInfo.ChatCounts = make(map[string]int)
 			}
+			existingFishInfo.ChatCounts[pfp] += result.Count
 
-			fishInfo.Type, err = FishStuff(fishInfo.TypeName, params)
-			if err != nil {
-				return globalFishTypesCount, err
+			globalFishTypesCount[result.FishName] = existingFishInfo
+		} else {
+			globalFishTypesCount[result.FishName] = BoardData{
+				Count:      result.Count,
+				FishName:   result.FishName,
+				FishType:   result.FishType,
+				ChatCounts: map[string]int{pfp: result.Count},
 			}
-
-			pfp := fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", chatName, chatName)
-			existingFishInfo, exists := globalFishTypesCount[fishInfo.TypeName]
-			if exists {
-				existingFishInfo.Count += fishInfo.Count
-
-				if existingFishInfo.ChatCounts == nil {
-					existingFishInfo.ChatCounts = make(map[string]int)
-				}
-				existingFishInfo.ChatCounts[pfp] += fishInfo.Count
-
-				globalFishTypesCount[fishInfo.TypeName] = existingFishInfo
-			} else {
-				globalFishTypesCount[fishInfo.TypeName] = data.FishInfo{
-					Count:      fishInfo.Count,
-					TypeName:   fishInfo.TypeName,
-					Type:       fishInfo.Type,
-					ChatCounts: map[string]int{pfp: fishInfo.Count},
-				}
-			}
-		}
-
-		if err = rows.Err(); err != nil {
-			logs.Logs().Error().Err(err).
-				Str("Board", board).
-				Str("Chat", chatName).
-				Msg("Error iterating over rows")
-			return globalFishTypesCount, err
 		}
 	}
 
 	return globalFishTypesCount, nil
 }
 
-func writeRare(filePath string, fishCaught map[string]data.FishInfo, oldCountRecord map[string]data.FishInfo, title string) error {
+func writeRare(filePath string, fishCaught map[string]BoardData, oldCountRecord map[string]BoardData, title string) error {
 
 	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
 		return err
@@ -205,7 +169,7 @@ func writeRare(filePath string, fishCaught map[string]data.FishInfo, oldCountRec
 	for _, FishName := range sortedPlayers {
 		Count := fishCaught[FishName].Count
 		ChatCounts := fishCaught[FishName].ChatCounts
-		Emoji := fishCaught[FishName].Type
+		Emoji := fishCaught[FishName].FishType
 
 		if Count != prevCount {
 			rank += occupiedRanks[rank]
@@ -248,27 +212,10 @@ func writeRare(filePath string, fishCaught map[string]data.FishInfo, oldCountRec
 
 		_, _ = fmt.Fprintf(file, "| %s %s | %s %s | %s |", ranks, changeEmoji, Emoji, FishName, counts)
 
-		// Turn the map to a slice
-		ChatCountsSlice := make([]struct {
-			chat  string
-			count int
-		}, 0, 2)
+		sortedChatCounts := sortMapStringInt(ChatCounts, "nameasc")
 
-		for k, v := range ChatCounts {
-			ChatCountsSlice = append(ChatCountsSlice, struct {
-				chat  string
-				count int
-			}{k, v})
-		}
-
-		// Sort per-channel counts by channel
-		sort.Slice(ChatCountsSlice, func(i, j int) bool {
-			return ChatCountsSlice[i].chat < ChatCountsSlice[j].chat
-		})
-
-		// Print the count for each chat
-		for _, count := range ChatCountsSlice {
-			_, _ = fmt.Fprintf(file, " %s %d ", count.chat, count.count)
+		for _, chat := range sortedChatCounts {
+			_, _ = fmt.Fprintf(file, " %s %d ", chat, ChatCounts[chat])
 		}
 		_, _ = fmt.Fprint(file, "|")
 

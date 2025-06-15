@@ -84,7 +84,7 @@ func typeBoardSql(params LeaderboardParams) string {
 	case "type":
 		if chatName != "global" {
 			query = `
-			SELECT f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid,
+			SELECT f.weight, f.fishname, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid,
 			RANK() OVER (ORDER BY f.weight DESC)
 			FROM fish f
 			JOIN (
@@ -106,7 +106,7 @@ func typeBoardSql(params LeaderboardParams) string {
 			)`
 		} else {
 			query = `
-			SELECT f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid,
+			SELECT f.weight, f.fishname, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid,
 			RANK() OVER (ORDER BY f.weight DESC)
 			FROM fish f
 			JOIN (
@@ -129,7 +129,7 @@ func typeBoardSql(params LeaderboardParams) string {
 	case "typesmall":
 		if chatName != "global" {
 			query = `
-			SELECT f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid,
+			SELECT f.weight, f.fishname, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid,
 			RANK() OVER (ORDER BY f.weight DESC)
 			FROM fish f
 			JOIN (
@@ -151,7 +151,7 @@ func typeBoardSql(params LeaderboardParams) string {
 			)`
 		} else {
 			query = `
-			SELECT f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid,
+			SELECT f.weight, f.fishname, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid,
 			RANK() OVER (ORDER BY f.weight DESC)
 			FROM fish f
 			JOIN (
@@ -177,7 +177,7 @@ func typeBoardSql(params LeaderboardParams) string {
 	case "typefirst":
 		if chatName != "global" {
 			query = `
-			SELECT f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid,
+			SELECT f.weight, f.fishname, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid,
 			RANK() OVER (ORDER BY f.date ASC)
 			FROM fish f
 			JOIN (
@@ -192,7 +192,7 @@ func typeBoardSql(params LeaderboardParams) string {
 
 		} else {
 			query = `
-			SELECT f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid,
+			SELECT f.weight, f.fishname, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid,
 			RANK() OVER (ORDER BY f.date ASC)
 			FROM fish f
 			JOIN (
@@ -208,7 +208,7 @@ func typeBoardSql(params LeaderboardParams) string {
 	case "typelast":
 		if chatName != "global" {
 			query = `
-			SELECT f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid,
+			SELECT f.weight, f.fishname, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid,
 			RANK() OVER (ORDER BY f.date ASC)
 			FROM fish f
 			JOIN (
@@ -223,7 +223,7 @@ func typeBoardSql(params LeaderboardParams) string {
 
 		} else {
 			query = `
-			SELECT f.weight, f.fishname as typename, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid,
+			SELECT f.weight, f.fishname, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid,
 			RANK() OVER (ORDER BY f.date ASC)
 			FROM fish f
 			JOIN (

@@ -116,8 +116,8 @@ func GetFishDataFromURL(url string, chatName string, data string, pool *pgxpool.
 
 				if fish.Date.After(latestCatchDate) {
 					// Because Jellyfish used to be a bttv emote
-					if fish.Type == "Jellyfish" {
-						fish.Type = "🪼"
+					if fish.FishType == "Jellyfish" {
+						fish.FishType = "🪼"
 					}
 
 					fishData = append(fishData, fish)

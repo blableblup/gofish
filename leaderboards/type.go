@@ -2,11 +2,9 @@ package leaderboards
 
 import (
 	"fmt"
-	"gofish/data"
 	"gofish/logs"
 	"os"
 	"path/filepath"
-	"strings"
 	"time"
 )
 
@@ -15,20 +13,9 @@ func processType(params LeaderboardParams) {
 	boardInfo := params.BoardInfo
 	chatName := params.ChatName
 	global := params.Global
-	title := params.Title
-	path := params.Path
 	mode := params.Mode
 
-	var filePath string
-
-	if path == "" {
-		filePath = filepath.Join("leaderboards", chatName, board+".md")
-	} else {
-		if !strings.HasSuffix(path, ".md") {
-			path += ".md"
-		}
-		filePath = filepath.Join("leaderboards", chatName, path)
-	}
+	filePath := returnPath(params)
 
 	oldType, err := getJsonBoardString(filePath)
 	if err != nil {
@@ -69,10 +56,12 @@ func processType(params LeaderboardParams) {
 		return
 	}
 
-	if title == "" {
+	var title string
+
+	if params.Title == "" {
 		title = boardInfo.GetTitleFunction(params)
 	} else {
-		title = fmt.Sprintf("%s\n", title)
+		title = fmt.Sprintf("%s\n", params.Title)
 	}
 
 	err = writeType(filePath, recordType, oldType, board, title, global)
@@ -102,15 +91,15 @@ func processType(params LeaderboardParams) {
 	}
 }
 
-func getTypeRecords(params LeaderboardParams) (map[string]data.FishInfo, error) {
+func getTypeRecords(params LeaderboardParams) (map[string]BoardData, error) {
 	board := params.LeaderboardType
 	boardInfo := params.BoardInfo
 	chatName := params.ChatName
 	global := params.Global
 	pool := params.Pool
 
-	recordType := make(map[string]data.FishInfo)
-	var results []data.FishInfo
+	recordType := make(map[string]BoardData)
+	var results []BoardData
 	var err error
 
 	if !global {
@@ -147,7 +136,7 @@ func getTypeRecords(params LeaderboardParams) (map[string]data.FishInfo, error) 
 			return recordType, err
 		}
 
-		result.Type, err = FishStuff(result.TypeName, params)
+		result.FishType, err = FishStuff(result.FishName, params)
 		if err != nil {
 			return recordType, err
 		}
@@ -156,13 +145,13 @@ func getTypeRecords(params LeaderboardParams) (map[string]data.FishInfo, error) 
 			result.ChatPfp = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", result.Chat, result.Chat)
 		}
 
-		recordType[result.TypeName] = result
+		recordType[result.FishName] = result
 	}
 
 	return recordType, nil
 }
 
-func writeType(filePath string, recordType map[string]data.FishInfo, oldType map[string]data.FishInfo, board string, title string, global bool) error {
+func writeType(filePath string, recordType map[string]BoardData, oldType map[string]BoardData, board string, title string, global bool) error {
 
 	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
 		return err
@@ -210,8 +199,8 @@ func writeType(filePath string, recordType map[string]data.FishInfo, oldType map
 	for _, fishName := range sortedTypes {
 		weight := recordType[fishName].Weight
 		player := recordType[fishName].Player
-		fishName := recordType[fishName].TypeName
-		fishType := recordType[fishName].Type
+		fishName := recordType[fishName].FishName
+		fishType := recordType[fishName].FishType
 		rank := recordType[fishName].Rank
 		date := recordType[fishName].Date
 
