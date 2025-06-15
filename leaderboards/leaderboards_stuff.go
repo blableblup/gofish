@@ -233,6 +233,10 @@ func didPlayerMapsChange(params LeaderboardParams, oldBoard map[int]BoardData, n
 				mapsarethesame = false
 			}
 
+			if oldBoard[playerID].TotalWeight != newBoard[playerID].TotalWeight {
+				mapsarethesame = false
+			}
+
 			if oldBoard[playerID].Weight != newBoard[playerID].Weight {
 				if params.LeaderboardType == "weight" || params.LeaderboardType == "weightglobal" {
 					logs.Logs().Info().
