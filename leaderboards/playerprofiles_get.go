@@ -3,6 +3,7 @@ package leaderboards
 import (
 	"fmt"
 	"gofish/logs"
+	"gofish/utils"
 	"sort"
 )
 
@@ -81,6 +82,48 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 
 		Profiles[playerID].CountYear[year].Chat[chat] = count
 		Profiles[playerID].CountYear[year].Total = Profiles[playerID].CountYear[year].Total + count
+	}
+
+	// sum of weight per year per chat and total
+	queryWeights := `
+	select round(sum(weight::numeric), 2) as weight,
+	playerid,
+	chat,
+	to_char(date_trunc('year', date), 'YYYY') as chatpfp
+	from fish
+	where playerid = any($1)
+	and date < $2
+	and date > $3
+	group by playerid, chat, chatpfp`
+
+	weightresults, err := ReturnFishSliceQueryValidPlayers(params, queryWeights, validPlayers)
+	if err != nil {
+		return Profiles, err
+	}
+
+	for _, result := range weightresults {
+		playerID := result.PlayerID
+		weight := result.Weight
+		year := result.ChatPfp
+		chat := result.Chat
+
+		if Profiles[playerID].TotalWeight == nil {
+			Profiles[playerID].TotalWeight = &TotalChatStructFloat{
+				Chat: make(map[string]float64)}
+
+			Profiles[playerID].TotalWeightYear = make(map[string]*TotalChatStructFloat)
+		}
+
+		Profiles[playerID].TotalWeight.Total = utils.RoundFloat(Profiles[playerID].TotalWeight.Total+weight, 2)
+		Profiles[playerID].TotalWeight.Chat[chat] = utils.RoundFloat(Profiles[playerID].TotalWeight.Chat[chat]+weight, 2)
+
+		if _, ok := Profiles[playerID].TotalWeightYear[year]; !ok {
+			Profiles[playerID].TotalWeightYear[year] = &TotalChatStructFloat{
+				Chat: make(map[string]float64)}
+		}
+
+		Profiles[playerID].TotalWeightYear[year].Total = utils.RoundFloat(Profiles[playerID].TotalWeightYear[year].Total+weight, 2)
+		Profiles[playerID].TotalWeightYear[year].Chat[chat] = utils.RoundFloat(Profiles[playerID].TotalWeightYear[year].Chat[chat]+weight, 2)
 	}
 
 	// The last seen bag
