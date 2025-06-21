@@ -47,6 +47,7 @@ var JumpedPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2
 
 var BirdPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), Huh[?][!] 🪺 is hatching![.][.][.] It's a [✨🪽🫧] \s*(\S+)\s* [✨🪽🫧]! It weighs ([\d.]+) lbs`)
 var SquirrelPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), You toss your 🌰! 🫴 Huh[?][!] A [✨🫧] 🐿️ [✨🫧] chased after it! It went into @(\w+)'s bag!`)
+var JarCatch = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), 🙆 "Hey kid, catch!" You got a [✨🫧] \s*(\S+)\s* [✨🫧]! It weighs ([\d.]+) lbs`)
 
 var BagPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): [@👥]\s?(\w+), Your (bag|collection): (.+)`)
 
@@ -72,6 +73,8 @@ func extractFishDataFromPatterns(textContent string, patterns []*regexp.Regexp) 
 				extractFunc = extractInfoFromNormalPattern
 			case SquirrelPattern:
 				extractFunc = extractInfoFromSquirrelPattern
+			case JarCatch:
+				extractFunc = extractInfoFromNormalPattern
 			case BagPattern:
 				extractFunc = extractInfoFromBagPattern
 			case TournamentPattern:
@@ -100,6 +103,10 @@ func extractInfoFromNormalPattern(match []string) FishInfo {
 
 	if strings.Contains(strings.ToLower(match[0]), "hatch") {
 		catchtype = "egg"
+	}
+
+	if strings.Contains(strings.ToLower(match[0]), "kid") {
+		catchtype = "jar"
 	}
 
 	date, err := utils.ParseDate(dateStr)

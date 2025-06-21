@@ -84,6 +84,7 @@ func GetFishDataFromURL(url string, chatName string, data string, pool *pgxpool.
 				JumpedPattern,
 				BirdPattern,
 				SquirrelPattern,
+				JarCatch,
 				BagPattern,
 				TournamentPattern,
 			}
@@ -95,6 +96,7 @@ func GetFishDataFromURL(url string, chatName string, data string, pool *pgxpool.
 				JumpedPattern,
 				BirdPattern,
 				SquirrelPattern,
+				JarCatch,
 				BagPattern,
 			}
 		case "t":

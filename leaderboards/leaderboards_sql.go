@@ -278,6 +278,9 @@ func CatchtypeNames(pool *pgxpool.Pool) (map[string]string, error) {
 			CatchtypeNames[catchtype] = "Squirrel fail"
 			// the squirrels i added manually because bread forgor to update game and you werent supposed to catch them
 
+		case "jar":
+			CatchtypeNames[catchtype] = "Jar"
+
 		}
 	}
 
