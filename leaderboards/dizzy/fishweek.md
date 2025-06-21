@@ -15,17 +15,17 @@
 | 12  | gofishgamer  | 51 |
 | 12  | rabituwu  | 51 |
 | 14  | vagdi  | 46 |
-| 15 🆕 | hamoodhabibee  | 43 |
-| 16 ⬇ | icejamx  | 42 |
-| 17 ⬇ | burnend  | 41 |
-| 18 ⬇ | notnownico  | 40 |
-| 19 ⬇ | exo9  | 34 |
-| 19 ⬇ | ofaisalz  | 34 |
-| 21 ⬇ | tairaaaaa  | 28 |
-| 22 ⬇ | remer_2  | 22 |
-| 22 ⬇ | simplydrack  | 22 |
-| 24 ⬇ | dizzy  | 21 |
+| 15  | hamoodhabibee  | 43 |
+| 16  | icejamx  | 42 |
+| 17  | burnend  | 41 |
+| 18  | notnownico  | 40 |
+| 19  | exo9  | 34 |
+| 19  | ofaisalz  | 34 |
+| 21  | tairaaaaa  | 28 |
+| 22  | remer_2  | 22 |
+| 22  | simplydrack  | 22 |
+| 24  | dizzy  | 21 |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2025-03-26 11:14:58 UTC_
+_Last updated at 2025-06-21 11:30:31 UTC_

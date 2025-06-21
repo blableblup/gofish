@@ -4,8 +4,8 @@
 		"playerid": 1449,
 		"weight": 3.5,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 1,
-		"maxcount": 1,
+		"trophies": 1,
+		"bronze": 1,
 		"rank": 12
 	},
 	"1853": {
@@ -13,8 +13,8 @@
 		"playerid": 1853,
 		"weight": 7,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 2,
-		"chatid": 1,
+		"trophies": 2,
+		"silver": 1,
 		"rank": 10
 	},
 	"248": {
@@ -22,7 +22,7 @@
 		"playerid": 248,
 		"weight": 3,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 1,
+		"trophies": 1,
 		"rank": 13
 	},
 	"2989": {
@@ -30,8 +30,8 @@
 		"playerid": 2989,
 		"weight": 10.5,
 		"date": "0001-01-01T00:00:00Z",
-		"chatid": 7,
-		"maxcount": 7,
+		"silver": 7,
+		"bronze": 7,
 		"rank": 6
 	},
 	"3002": {
@@ -39,9 +39,9 @@
 		"playerid": 3002,
 		"weight": 7.5,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 1,
-		"chatid": 2,
-		"maxcount": 5,
+		"trophies": 1,
+		"silver": 2,
+		"bronze": 5,
 		"rank": 8
 	},
 	"3003": {
@@ -49,8 +49,8 @@
 		"playerid": 3003,
 		"weight": 1.5,
 		"date": "0001-01-01T00:00:00Z",
-		"chatid": 1,
-		"maxcount": 1,
+		"silver": 1,
+		"bronze": 1,
 		"rank": 15
 	},
 	"3007": {
@@ -58,8 +58,8 @@
 		"playerid": 3007,
 		"weight": 5,
 		"date": "0001-01-01T00:00:00Z",
-		"chatid": 3,
-		"maxcount": 4,
+		"silver": 3,
+		"bronze": 4,
 		"rank": 11
 	},
 	"3067": {
@@ -67,18 +67,18 @@
 		"playerid": 3067,
 		"weight": 10,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 3,
-		"maxcount": 2,
+		"trophies": 3,
+		"bronze": 2,
 		"rank": 7
 	},
 	"3086": {
 		"player": "gimmeschmoneys",
 		"playerid": 3086,
-		"weight": 47.5,
+		"weight": 54.5,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 12,
-		"chatid": 9,
-		"maxcount": 5,
+		"trophies": 14,
+		"silver": 10,
+		"bronze": 5,
 		"rank": 3
 	},
 	"3108": {
@@ -86,19 +86,19 @@
 		"playerid": 3108,
 		"weight": 7.5,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 1,
-		"chatid": 3,
-		"maxcount": 3,
+		"trophies": 1,
+		"silver": 3,
+		"bronze": 3,
 		"rank": 8
 	},
 	"3121": {
 		"player": "buhl00n",
 		"playerid": 3121,
-		"weight": 161,
+		"weight": 163.5,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 47,
-		"chatid": 18,
-		"maxcount": 4,
+		"trophies": 47,
+		"silver": 20,
+		"bronze": 5,
 		"rank": 1
 	},
 	"3143": {
@@ -106,9 +106,9 @@
 		"playerid": 3143,
 		"weight": 13,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 3,
-		"chatid": 2,
-		"maxcount": 4,
+		"trophies": 3,
+		"silver": 2,
+		"bronze": 4,
 		"rank": 5
 	},
 	"3164": {
@@ -116,9 +116,9 @@
 		"playerid": 3164,
 		"weight": 57,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 15,
-		"chatid": 10,
-		"maxcount": 4,
+		"trophies": 15,
+		"silver": 10,
+		"bronze": 4,
 		"rank": 2
 	},
 	"3179": {
@@ -126,7 +126,7 @@
 		"playerid": 3179,
 		"weight": 1,
 		"date": "0001-01-01T00:00:00Z",
-		"maxcount": 2,
+		"bronze": 2,
 		"rank": 16
 	},
 	"3238": {
@@ -134,7 +134,7 @@
 		"playerid": 3238,
 		"weight": 3,
 		"date": "0001-01-01T00:00:00Z",
-		"chatid": 3,
+		"silver": 3,
 		"rank": 13
 	},
 	"3448": {
@@ -142,9 +142,9 @@
 		"playerid": 3448,
 		"weight": 14.5,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 1,
-		"chatid": 9,
-		"maxcount": 5,
+		"trophies": 1,
+		"silver": 9,
+		"bronze": 5,
 		"rank": 4
 	},
 	"64": {
@@ -152,7 +152,7 @@
 		"playerid": 64,
 		"weight": 0.5,
 		"date": "0001-01-01T00:00:00Z",
-		"maxcount": 1,
+		"bronze": 1,
 		"rank": 17
 	}
 }

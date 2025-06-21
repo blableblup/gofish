@@ -1,8 +1,8 @@
 ### Leaderboard for the weekly tournaments in breadworms' chat
 | Rank | Player | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points |
 |------|--------|-------------|------------------|------------------|--------|
-| 1 🥇 | leanmeister | 50 | 15 | 6 | 168.0 |
-| 2 🥈 | lluuucy | 24 | 54 (+2) | 31 (+1) | 141.5 (+2.5) |
+| 1 🥇 | leanmeister | 51 (+1) | 16 (+1) | 7 (+1) | 172.5 (+4.5) |
+| 2 🥈 | lluuucy | 24 | 55 (+1) | 32 (+1) | 143.0 (+1.5) |
 | 3 🥉 | puzzlow | 35 | 15 | 14 | 127.0 |
 | 4 | osnyatsky | 31 | 24 | 6 | 120.0 |
 | 5 | osnyisdead | 30 | 21 | 3 | 112.5 |
@@ -45,4 +45,4 @@
 | 40 | mochi_uygqzidbjizjkbehuiw | 0 | 0 | 1 | 0.5 |
 | 40 | niiy | 0 | 0 | 1 | 0.5 |
 
-_Last updated at 2025-06-11 15:12:11 UTC_
+_Last updated at 2025-06-21 11:30:31 UTC_

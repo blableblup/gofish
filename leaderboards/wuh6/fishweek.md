@@ -11,9 +11,9 @@
 | 8  | mazzo_tv  | 59 |
 | 9  | sandwichsundays  | 57 |
 | 10  | wowitsdub  | 54 |
+| 11 ⬆ | gorillapark  | 52 (+1) |
 | 11  | lobuhtomy  | 52 |
-| 12  | caprisen_  | 51 |
-| 12  | gorillapark  | 51 |
+| 13 ⬇ | caprisen_  | 51 |
 | 14  | veny2lbs  | 47 |
 | 15  | zwockel01  | 40 |
 | 16  | flovrek  | 24 |
@@ -24,4 +24,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-05-28 11:41:32 UTC_
+_Last updated at 2025-06-21 11:30:31 UTC_

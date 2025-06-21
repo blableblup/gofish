@@ -1,7 +1,7 @@
 ### Leaderboard for the weekly tournaments in psp1g's chat
 | Rank | Player | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points |
 |------|--------|-------------|------------------|------------------|--------|
-| 1 🥇 | nndiana | 33 | 32 | 11 | 136.5 |
+| 1 🥇 | nndiana | 34 (+1) | 34 (+2) | 11 | 141.5 (+5.0) |
 | 2 🥈 | bubinga | 25 | 12 | 9 | 91.5 |
 | 3 🥉 | huuuuuuuuuuuuuuuuuuuuuurz | 8 | 10 | 9 | 38.5 |
 | 4 | benciee | 7 | 11 | 2 | 33.0 |
@@ -15,25 +15,26 @@
 | 12 | caprisen_ | 2 | 2 | 8 | 12.0 |
 | 13 | cale4 | 3 | 0 | 5 | 11.5 |
 | 14 | jr_mime | 2 | 4 | 2 | 11.0 |
-| 14 ⬆| mazzo_tv | 0 | 7 (+1) | 8 (+1) | 11.0 (+1.5) |
-| 16 ⬇| ratot | 1 | 5 (+1) | 5 | 10.5 (+1.0) |
-| 17 ⬇| fonuwu | 3 | 0 | 1 | 9.5 |
+| 14 | mazzo_tv | 0 | 7 | 8 | 11.0 |
+| 16 | ratot | 1 | 5 | 5 | 10.5 |
+| 17 | fonuwu | 3 | 0 | 1 | 9.5 |
 | 18 | pengeg | 2 | 3 | 0 | 9.0 |
+| 19 🆕| jayayseaohbee | 2 | 1 | 0 | 7.0 |
 | 19 | sandwichsundays | 1 | 2 | 4 | 7.0 |
 | 19 | thasbe | 2 | 1 | 0 | 7.0 |
-| 21 | commanda_u | 1 | 0 | 4 | 5.0 |
-| 21 | divra__ | 1 | 2 | 0 | 5.0 |
-| 21 | hahppyy | 1 | 1 | 2 | 5.0 |
-| 24 | veny2lbs | 1 | 0 | 2 | 4.0 |
-| 25 | creepycode | 0 | 3 | 0 | 3.0 |
-| 25 | popfizzgg | 1 | 0 | 0 | 3.0 |
-| 25 | zsipe | 0 | 3 | 0 | 3.0 |
-| 28 | supibot | 0 | 2 | 1 | 2.5 |
-| 29 | yopego | 0 | 2 | 0 | 2.0 |
-| 30 | crunch_sack | 0 | 0 | 3 | 1.5 |
-| 31 | xd_2k | 0 | 1 | 0 | 1.0 |
-| 32 | eeziiii | 0 | 0 | 1 | 0.5 |
-| 32 | gorillapark | 0 | 0 | 1 | 0.5 |
-| 32 | starducc | 0 | 0 | 1 | 0.5 |
+| 22 ⬇| commanda_u | 1 | 0 | 4 | 5.0 |
+| 22 ⬇| divra__ | 1 | 2 | 0 | 5.0 |
+| 22 ⬇| hahppyy | 1 | 1 | 2 | 5.0 |
+| 25 ⬇| veny2lbs | 1 | 0 | 2 | 4.0 |
+| 26 ⬇| creepycode | 0 | 3 | 0 | 3.0 |
+| 26 ⬇| popfizzgg | 1 | 0 | 0 | 3.0 |
+| 26 ⬇| zsipe | 0 | 3 | 0 | 3.0 |
+| 29 ⬇| supibot | 0 | 2 | 1 | 2.5 |
+| 30 ⬇| yopego | 0 | 2 | 0 | 2.0 |
+| 31 ⬇| crunch_sack | 0 | 0 | 3 | 1.5 |
+| 32 ⬇| xd_2k | 0 | 1 | 0 | 1.0 |
+| 33 ⬇| eeziiii | 0 | 0 | 1 | 0.5 |
+| 33 ⬇| gorillapark | 0 | 0 | 1 | 0.5 |
+| 33 ⬇| starducc | 0 | 0 | 1 | 0.5 |
 
-_Last updated at 2025-06-11 15:12:11 UTC_
+_Last updated at 2025-06-21 11:30:31 UTC_

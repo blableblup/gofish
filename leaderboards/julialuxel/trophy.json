@@ -4,7 +4,7 @@
 		"playerid": 1310,
 		"weight": 27,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 9,
+		"trophies": 9,
 		"rank": 2
 	},
 	"135": {
@@ -12,9 +12,9 @@
 		"playerid": 135,
 		"weight": 14,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 3,
-		"chatid": 4,
-		"maxcount": 2,
+		"trophies": 3,
+		"silver": 4,
+		"bronze": 2,
 		"rank": 3
 	},
 	"2668": {
@@ -22,9 +22,9 @@
 		"playerid": 2668,
 		"weight": 12,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 2,
-		"chatid": 5,
-		"maxcount": 2,
+		"trophies": 2,
+		"silver": 5,
+		"bronze": 2,
 		"rank": 4
 	},
 	"56": {
@@ -32,7 +32,7 @@
 		"playerid": 56,
 		"weight": 9,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 3,
+		"trophies": 3,
 		"rank": 5
 	},
 	"64": {
@@ -40,8 +40,8 @@
 		"playerid": 64,
 		"weight": 51.5,
 		"date": "0001-01-01T00:00:00Z",
-		"fishid": 17,
-		"maxcount": 1,
+		"trophies": 17,
+		"bronze": 1,
 		"rank": 1
 	}
 }

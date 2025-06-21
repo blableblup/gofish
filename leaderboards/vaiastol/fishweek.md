@@ -9,11 +9,11 @@
 | 6  | pengeg  | 52 |
 | 7  | nicestnarwhal  | 47 |
 | 8  | julialuxel  | 40 |
-| 8 ⬆ | leanmeister  | 40 (+4) |
-| 10 ⬇ | dayzedinndaydreams  | 38 |
+| 8  | leanmeister  | 40 |
+| 10  | dayzedinndaydreams  | 38 |
 | 11  | leastsussyimposter  | 26 |
 | 12  | milesdotcom  | 13 |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-05-28 11:41:32 UTC_
+_Last updated at 2025-06-21 11:30:31 UTC_

@@ -55,4 +55,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2025-05-28 11:41:32 UTC_
+_Last updated at 2025-06-21 11:30:31 UTC_
