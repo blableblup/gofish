@@ -21,7 +21,7 @@ type PlayerProfile struct {
 	Verified sql.NullBool `json:"-"`
 
 	Progress []string
-	Records  []string
+	Records  []string `json:"Noteable records"`
 	// right now shiny is the only other achievment
 	Other OtherAchievements `json:"Other accomplishments"`
 

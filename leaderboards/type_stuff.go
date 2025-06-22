@@ -95,6 +95,7 @@ func typeBoardSql(params LeaderboardParams) string {
 				AND date > $3
 				AND catchtype != 'release'
 				AND catchtype != 'squirrel'
+				AND catchtype != 'sonnythrow'
 				GROUP BY fishname
 			) AS sub
 			ON f.fishname = sub.fishname AND f.weight = sub.max_weight
@@ -102,7 +103,7 @@ func typeBoardSql(params LeaderboardParams) string {
 			AND f.date = (
 				SELECT MIN(date)
 				FROM fish
-				WHERE fishname = sub.fishname AND weight = sub.max_weight AND chat = $1 AND catchtype != 'release' AND catchtype != 'squirrel'
+				WHERE fishname = sub.fishname AND weight = sub.max_weight AND chat = $1 AND catchtype != 'release' AND catchtype != 'squirrel' AND catchtype != 'sonnythrow'
 			)`
 		} else {
 			query = `
@@ -116,13 +117,14 @@ func typeBoardSql(params LeaderboardParams) string {
 				AND date > $2
 				AND catchtype != 'release'
 				AND catchtype != 'squirrel'
+				AND catchtype != 'sonnythrow'
 				GROUP BY fishname
 			) AS sub
 			ON f.fishname = sub.fishname AND f.weight = sub.max_weight
 			AND f.date = (
 				SELECT MIN(date)
 				FROM fish
-				WHERE fishname = sub.fishname AND weight = sub.max_weight AND catchtype != 'release' AND catchtype != 'squirrel'
+				WHERE fishname = sub.fishname AND weight = sub.max_weight AND catchtype != 'release' AND catchtype != 'squirrel' AND catchtype != 'sonnythrow'
 			)`
 		}
 
@@ -140,6 +142,7 @@ func typeBoardSql(params LeaderboardParams) string {
 				AND date > $3
 				AND catchtype != 'release'
 				AND catchtype != 'squirrel'
+				AND catchtype != 'sonnythrow'
 				GROUP BY fishname
 			) AS sub
 			ON f.fishname = sub.fishname AND f.weight = sub.min_weight
@@ -147,7 +150,7 @@ func typeBoardSql(params LeaderboardParams) string {
 			AND f.date = (
 				SELECT MIN(date)
 				FROM fish
-				WHERE fishname = sub.fishname AND weight = sub.min_weight AND chat = $1 AND catchtype != 'release' AND catchtype != 'squirrel'
+				WHERE fishname = sub.fishname AND weight = sub.min_weight AND chat = $1 AND catchtype != 'release' AND catchtype != 'squirrel' AND catchtype != 'sonnythrow'
 			)`
 		} else {
 			query = `
@@ -161,13 +164,14 @@ func typeBoardSql(params LeaderboardParams) string {
 				AND date > $2
 				AND catchtype != 'release'
 				AND catchtype != 'squirrel'
+				AND catchtype != 'sonnythrow'
 				GROUP BY fishname
 			) AS sub
 			ON f.fishname = sub.fishname AND f.weight = sub.min_weight
 			AND f.date = (
 				SELECT MIN(date)
 				FROM fish
-				WHERE fishname = sub.fishname AND weight = sub.min_weight AND catchtype != 'release' AND catchtype != 'squirrel'
+				WHERE fishname = sub.fishname AND weight = sub.min_weight AND catchtype != 'release' AND catchtype != 'squirrel' AND catchtype != 'sonnythrow'
 			)`
 		}
 

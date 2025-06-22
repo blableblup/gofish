@@ -433,10 +433,10 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 		WHERE playerid = any($1)
 		AND date < $2
 		AND date > $3
-		AND catchtype != 'release' AND catchtype != 'squirrel'
+		AND catchtype != 'release' AND catchtype != 'squirrel' AND catchtype != 'sonnythrow'
 		GROUP BY playerid, chat
 		) AS sub
-		ON f.playerid = sub.playerid AND f.weight = sub.max_weight AND f.chat = sub.chat AND f.catchtype != 'release' AND f.catchtype != 'squirrel'
+		ON f.playerid = sub.playerid AND f.weight = sub.max_weight AND f.chat = sub.chat AND f.catchtype != 'release' AND f.catchtype != 'squirrel' AND catchtype != 'sonnythrow'
 		WHERE f.playerid = any($1)
 		ORDER BY date desc`
 
@@ -536,10 +536,10 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 		WHERE playerid = any($1)
 		AND date < $2 
 		AND date > $3
-		AND catchtype != 'release' AND catchtype != 'squirrel'
+		AND catchtype != 'release' AND catchtype != 'squirrel' AND catchtype != 'sonnythrow'
 		GROUP BY playerid, fishname
 		) AS sub
-		ON f.playerid = sub.playerid AND f.weight = sub.max_weight AND f.fishname = sub.fishname AND f.catchtype != 'release' AND f.catchtype != 'squirrel'
+		ON f.playerid = sub.playerid AND f.weight = sub.max_weight AND f.fishname = sub.fishname AND f.catchtype != 'release' AND f.catchtype != 'squirrel' AND catchtype != 'sonnythrow'
 		WHERE f.playerid = any($1)
 		ORDER BY date desc`
 
@@ -568,10 +568,10 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 		WHERE playerid = any($1)
 		AND date < $2 
 		AND date > $3
-		AND catchtype != 'release' AND catchtype != 'squirrel'
+		AND catchtype != 'release' AND catchtype != 'squirrel' AND catchtype != 'sonnythrow'
 		GROUP BY playerid, fishname
 		) AS sub
-		ON f.playerid = sub.playerid AND f.weight = sub.min_weight AND f.fishname = sub.fishname AND f.catchtype != 'release' AND f.catchtype != 'squirrel'
+		ON f.playerid = sub.playerid AND f.weight = sub.min_weight AND f.fishname = sub.fishname AND f.catchtype != 'release' AND f.catchtype != 'squirrel' AND catchtype != 'sonnythrow'
 		WHERE f.playerid = any($1)
 		ORDER BY date desc`
 
