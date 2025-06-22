@@ -1,6 +1,8 @@
 ### First fish per type caught in breadworms' chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 102  | 🪰 fly | 0.07 | destin357 | 2025-06-21 23:33:39 |
+| 101  | 🫙 jar | 0.00 | breadworms | 2025-06-21 06:11:57 |
 | 100  | 🍃 leaf | 0.02 | gstaman911 | 2025-03-18 07:30:37 |
 | 99  | 🌾 grass | 0.06 | gstaman911 | 2025-03-18 06:16:11 |
 | 98  | 👡 sandal | 2.97 | fishingalt | 2025-03-16 15:45:17 |
@@ -102,4 +104,4 @@
 | 2  | 🐸 frog | 4.76 | miiiiisho | 2022-12-04 01:04:30 |
 | 1  | 🦐 shrimp | 29.58 | lagggm* | 2022-12-04 00:58:55 |
 
-_Last updated at 2025-06-15 13:32:02 UTC_
+_Last updated at 2025-06-22 09:30:10 UTC_

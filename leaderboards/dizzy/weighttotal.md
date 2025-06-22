@@ -1,21 +1,21 @@
 ### Total weight of all fish caught per player in dizzy's chat
 | Rank | Player | Total Weight in lbs |
 |------|--------|---------|
-| 1 🥇  | buhl00n | 33418.79 (+437.52) |
-| 2 🥈  | iam_glorp | 18569.49 (+320.50) |
+| 1 🥇  | buhl00n | 33481.77 (+62.98) |
+| 2 🥈  | iam_glorp | 18834.38 (+264.89) |
 | 3 🥉  | ben_vincent | 15763.67 |
-| 4  | gimmeschmoneys | 13720.59 (+741.38) |
+| 4  | gimmeschmoneys | 13937.58 (+216.99) |
 | 5  | iam_haunt | 10603.67 |
 | 6  | lolspers | 9329.23 |
 | 7  | spanmer | 7651.11 |
 | 8  | konsminator | 7261.34 |
 | 9  | ofaisalz | 5660.89 |
 | 10  | vagdi | 4514.72 |
-| 11  | hamoodhabibee | 4067.47 |
-| 12  | notnownico | 3915.30 (+0.39) |
+| 11  | hamoodhabibee | 4106.74 (+39.27) |
+| 12  | notnownico | 3915.30 |
 | 13  | rabituwu | 3852.81 |
 | 14  | ssenario | 3239.08 |
-| 15  | mousee93 | 3068.21 (+8.63) |
+| 15  | mousee93 | 3077.24 (+9.03) |
 | 16  | tairaaaaa | 3029.17 |
 | 17  | simplydrack | 2924.31 |
 | 18  | exo9* | 2557.89 |
@@ -30,25 +30,25 @@
 | 27  | silent11d5 | 1522.15 |
 | 28  | 777pancake | 1348.14 |
 | 29  | icejamx | 1339.90 |
-| 30  | buffyo | 1269.40 (+10.90) |
+| 30  | buffyo | 1269.40 |
 | 31  | dizzy | 1237.00 |
-| 32 ⬆ | popfizzgg | 1225.59 (+254.02) |
-| 33 ⬇ | respirate_ | 1106.18 |
-| 34 ⬇ | feuha | 1095.98 |
-| 35 ⬇ | maccat1337 | 1082.63 |
-| 36 ⬇ | youngstercal | 1063.77 |
-| 37 ⬇ | ruusui | 1004.92 |
-| 38 ⬇ | mitsu_skidz | 996.38 |
+| 32  | popfizzgg | 1225.59 |
+| 33  | respirate_ | 1106.18 |
+| 34  | feuha | 1095.98 |
+| 35  | maccat1337 | 1082.63 |
+| 36  | youngstercal | 1063.77 |
+| 37  | ruusui | 1004.92 |
+| 38  | mitsu_skidz | 996.38 |
 | 39  | deadl3gs | 797.56 |
-| 40  | whoop_ee | 778.77 (+3.71) |
+| 40  | whoop_ee | 780.13 (+1.36) |
 | 41  | gigi | 697.38 |
 | 42  | rougep1rate | 694.24 |
 | 43  | reallyxtra | 687.13 |
-| 44  | fvkdylan | 683.67 (+2.21) |
+| 44  | fvkdylan | 683.67 |
 | 45  | gizbart | 669.18 |
 | 46  | shheedy | 636.46 |
 | 47  | avrwhy | 631.67 |
-| 48  | nocer2k | 628.12 (+32.71) |
+| 48  | nocer2k | 628.12 |
 | 49  | remer_2 | 573.61 |
 | 50  | gofishgamer | 515.52 |
 | 51  | notcanopus | 508.72 |
@@ -56,4 +56,4 @@
 
 _Only showing fishers with a total weight of >= 500 lbs_
 
-_Last updated at 2025-06-15 13:52:37 UTC_
+_Last updated at 2025-06-22 09:28:54 UTC_

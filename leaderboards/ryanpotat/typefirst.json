@@ -1,4 +1,32 @@
 {
+	"8ball": {
+		"player": "kubo7",
+		"playerid": 776,
+		"weight": 0.32,
+		"bot": "gofishgame",
+		"fishtype": "🎱",
+		"fishname": "8ball",
+		"catchtype": "normal",
+		"chat": "ryanpotat",
+		"fishid": 180366,
+		"chatid": 108,
+		"date": "2025-06-21T10:46:42Z",
+		"rank": 41
+	},
+	"bat": {
+		"player": "chestnutbank",
+		"playerid": 3005,
+		"weight": 10.41,
+		"bot": "gofishgame",
+		"fishtype": "🦇",
+		"fishname": "bat",
+		"catchtype": "normal",
+		"chat": "ryanpotat",
+		"fishid": 180303,
+		"chatid": 104,
+		"date": "2025-06-21T08:15:06Z",
+		"rank": 39
+	},
 	"bobber": {
 		"player": "lolspers",
 		"playerid": 2989,
@@ -208,6 +236,34 @@
 		"date": "2024-11-25T11:35:31Z",
 		"rank": 30
 	},
+	"iphone": {
+		"player": "chestnutbank",
+		"playerid": 3005,
+		"weight": 0.45,
+		"bot": "gofishgame",
+		"fishtype": "📱",
+		"fishname": "iphone",
+		"catchtype": "normal",
+		"chat": "ryanpotat",
+		"fishid": 180287,
+		"chatid": 103,
+		"date": "2025-06-21T07:23:01Z",
+		"rank": 38
+	},
+	"lizard": {
+		"player": "chestnutbank",
+		"playerid": 3005,
+		"weight": 0.7,
+		"bot": "gofishgame",
+		"fishtype": "🦎",
+		"fishname": "lizard",
+		"catchtype": "normal",
+		"chat": "ryanpotat",
+		"fishid": 180653,
+		"chatid": 109,
+		"date": "2025-06-21T22:04:30Z",
+		"rank": 42
+	},
 	"lobster": {
 		"player": "n1nzin_",
 		"playerid": 3447,
@@ -361,6 +417,20 @@
 		"chatid": 20,
 		"date": "2024-11-14T11:50:50Z",
 		"rank": 16
+	},
+	"shamrock": {
+		"player": "chestnutbank",
+		"playerid": 3005,
+		"weight": 3.63,
+		"bot": "gofishgame",
+		"fishtype": "☘️",
+		"fishname": "shamrock",
+		"catchtype": "normal",
+		"chat": "ryanpotat",
+		"fishid": 180332,
+		"chatid": 106,
+		"date": "2025-06-21T09:38:32Z",
+		"rank": 40
 	},
 	"shark": {
 		"player": "lolspers",

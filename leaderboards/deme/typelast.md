@@ -1,6 +1,8 @@
 ### Last fish per type caught in deme's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 17  | 🧦 socks | 1.27 | letter__n | 2025-06-20 11:52:46 |
+| 16  | 🦐 shrimp | 4.54 | gofishgamer | 2025-06-19 08:10:57 |
 | 15  | 🐚 shell | 0.68 | naori_desu | 2025-06-14 10:37:55 |
 | 14  | 🧽 sponge | 7.74 | larvasisters | 2025-06-12 19:31:22 |
 | 13  | 🐟 fish | 10.41 | naori_desu | 2025-06-12 07:50:37 |
@@ -17,4 +19,4 @@
 | 2  | 🐡 blowfish | 8.96 | commanda_u | 2025-05-18 21:28:28 |
 | 1  | 🐊 crocodile | 45.42 | fantanium | 2025-05-12 16:37:44 |
 
-_Last updated at 2025-06-15 13:36:26 UTC_
+_Last updated at 2025-06-22 09:30:09 UTC_

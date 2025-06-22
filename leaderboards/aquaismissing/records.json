@@ -4,38 +4,51 @@
 		"playerid": 3477,
 		"weight": 104.06,
 		"bot": "gofishgame",
-		"type": "🐊",
-		"typename": "crocodile",
+		"fishtype": "🐊",
+		"fishname": "crocodile",
 		"catchtype": "normal",
-		"date": "2024-11-29T21:58:16Z",
 		"chat": "aquaismissing",
 		"fishid": 125983,
-		"chatid": 72
+		"chatid": 72,
+		"date": "2024-11-29T21:58:16Z"
 	},
 	"126528": {
 		"player": "poggu_",
 		"playerid": 3477,
 		"weight": 129.15,
 		"bot": "gofishgame",
-		"type": "🦭",
-		"typename": "seal",
+		"fishtype": "🦭",
+		"fishname": "seal",
 		"catchtype": "normal",
-		"date": "2024-12-01T11:08:35Z",
 		"chat": "aquaismissing",
 		"fishid": 126528,
-		"chatid": 83
+		"chatid": 83,
+		"date": "2024-12-01T11:08:35Z"
 	},
 	"153862": {
 		"player": "likedom_",
 		"playerid": 2792,
 		"weight": 134.56,
 		"bot": "gofishgame",
-		"type": "🐋",
-		"typename": "whale2",
+		"fishtype": "🐋",
+		"fishname": "whale2",
 		"catchtype": "normal",
-		"date": "2025-03-11T15:57:11Z",
 		"chat": "aquaismissing",
 		"fishid": 153862,
-		"chatid": 369
+		"chatid": 369,
+		"date": "2025-03-11T15:57:11Z"
+	},
+	"179791": {
+		"player": "velantix",
+		"playerid": 454,
+		"weight": 152.06,
+		"bot": "gofishgame",
+		"fishtype": "🦕",
+		"fishname": "sauropod",
+		"catchtype": "normal",
+		"chat": "aquaismissing",
+		"fishid": 179791,
+		"chatid": 481,
+		"date": "2025-06-19T15:19:36Z"
 	}
 }

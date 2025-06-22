@@ -25,7 +25,7 @@
 		"fishid": 172638,
 		"chatid": 2,
 		"date": "2025-05-12T07:45:38Z",
-		"rank": 20
+		"rank": 22
 	},
 	"172739": {
 		"player": "fantanium",
@@ -67,7 +67,7 @@
 		"fishid": 174769,
 		"chatid": 5,
 		"date": "2025-05-21T07:08:13Z",
-		"rank": 16
+		"rank": 17
 	},
 	"175076": {
 		"player": "commanda_u",
@@ -151,7 +151,7 @@
 		"fishid": 176530,
 		"chatid": 11,
 		"date": "2025-05-28T23:50:55Z",
-		"rank": 14
+		"rank": 15
 	},
 	"176915": {
 		"player": "commanda_u",
@@ -165,7 +165,7 @@
 		"fishid": 176915,
 		"chatid": 12,
 		"date": "2025-05-31T10:40:40Z",
-		"rank": 17
+		"rank": 18
 	},
 	"176979": {
 		"player": "naori_desu",
@@ -179,7 +179,7 @@
 		"fishid": 176979,
 		"chatid": 13,
 		"date": "2025-06-01T00:01:44Z",
-		"rank": 18
+		"rank": 20
 	},
 	"176986": {
 		"player": "aim1138",
@@ -193,7 +193,7 @@
 		"fishid": 176986,
 		"chatid": 14,
 		"date": "2025-06-01T00:43:22Z",
-		"rank": 21
+		"rank": 23
 	},
 	"176996": {
 		"player": "aim1138",
@@ -249,7 +249,7 @@
 		"fishid": 177696,
 		"chatid": 18,
 		"date": "2025-06-04T20:47:52Z",
-		"rank": 15
+		"rank": 16
 	},
 	"178986": {
 		"player": "naori_desu",
@@ -291,6 +291,34 @@
 		"fishid": 179458,
 		"chatid": 21,
 		"date": "2025-06-14T10:37:55Z",
+		"rank": 21
+	},
+	"179728": {
+		"player": "gofishgamer",
+		"playerid": 2944,
+		"weight": 4.54,
+		"bot": "gofishgame",
+		"fishtype": "🦐",
+		"fishname": "shrimp",
+		"catchtype": "normal",
+		"chat": "deme",
+		"fishid": 179728,
+		"chatid": 22,
+		"date": "2025-06-19T08:10:57Z",
+		"rank": 14
+	},
+	"179999": {
+		"player": "letter__n",
+		"playerid": 2963,
+		"weight": 1.27,
+		"bot": "gofishgame",
+		"fishtype": "🧦",
+		"fishname": "socks",
+		"catchtype": "normal",
+		"chat": "deme",
+		"fishid": 179999,
+		"chatid": 23,
+		"date": "2025-06-20T11:52:46Z",
 		"rank": 19
 	}
 }

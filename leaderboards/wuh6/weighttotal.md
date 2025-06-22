@@ -1,25 +1,25 @@
 ### Total weight of all fish caught per player in wuh6's chat
 | Rank | Player | Total Weight in lbs |
 |------|--------|---------|
-| 1 🥇  | iflya320 | 40222.10 (+2001.68) |
-| 2 🥈 ⬆ | eeziiii | 35098.40 (+915.43) |
-| 3 🥉 ⬇ | bubinga | 34912.28 (+76.25) |
-| 4  | huuuuuuuuuuuuuuuuuuuuuurz | 28767.93 (+523.49) |
-| 5  | theevirus | 25142.31 (+579.83) |
-| 6  | nndiana* | 22357.92 (+34.74) |
-| 7  | wowitsdub | 18294.78 (+482.83) |
-| 8  | gorillapark | 16699.72 (+1323.79) |
-| 9  | veny2lbs | 12938.21 (+504.66) |
+| 1 🥇  | iflya320 | 40683.22 (+461.12) |
+| 2 🥈  | eeziiii | 35345.72 (+247.32) |
+| 3 🥉  | bubinga | 35214.95 (+302.67) |
+| 4  | huuuuuuuuuuuuuuuuuuuuuurz | 29197.80 (+429.87) |
+| 5  | theevirus | 25658.52 (+516.21) |
+| 6  | nndiana* | 22529.06 (+171.14) |
+| 7  | wowitsdub | 18786.50 (+491.72) |
+| 8  | gorillapark | 17442.20 (+742.48) |
+| 9  | veny2lbs | 13110.21 (+172.00) |
 | 10  | mazzo_tv | 11711.79 |
-| 11  | lobuhtomy | 8824.18 (+161.67) |
-| 12  | sandwichsundays* | 8273.24 (+7.85) |
-| 13  | bluberry | 5897.45 (+8.30) |
-| 14 ⬆ | caprisen_* | 4618.95 (+257.18) |
-| 15 ⬇ | commanda_u | 4603.13 (+2.08) |
-| 16  | flovrek | 3364.50 |
+| 11  | lobuhtomy | 9258.05 (+433.87) |
+| 12  | sandwichsundays* | 8293.23 (+19.99) |
+| 13  | bluberry | 5921.39 (+23.94) |
+| 14 ⬆ | commanda_u | 4792.01 (+188.88) |
+| 15 ⬇ | caprisen_* | 4619.60 (+0.65) |
+| 16  | flovrek | 3364.59 (+0.09) |
 | 17  | teddbearcs | 2938.09 |
 | 18  | benciee | 2934.61 |
-| 19  | thetaxmen | 2207.04 |
+| 19  | thetaxmen | 2208.30 (+1.26) |
 | 20  | glorianeq | 1452.88 |
 | 21  | jr_mime | 1362.00 |
 | 22  | zwockel01 | 1342.63 |
@@ -28,16 +28,16 @@
 | 25  | nv6y4 | 1013.17 |
 | 26  | bcarw | 944.82 |
 | 27  | tdillar | 920.32 |
-| 28 ⬆ | flvx_flux* | 843.01 (+315.69) |
-| 29 ⬇ | wuh6 | 801.10 |
-| 30 ⬇ | ratot | 751.54 (+1.62) |
-| 31 ⬆ | turboyy | 736.05 (+21.98) |
-| 32 ⬇ | funnywhitecat6* | 735.92 (+2.80) |
-| 33 ⬇ | lluuucy | 723.46 |
-| 34 ⬇ | onarrrrrrrr | 715.67 |
-| 35 ⬇ | kalechap | 672.11 |
-| 36 ⬇ | araqs | 665.83 |
-| 37 ⬇ | supibot | 564.23 |
+| 28  | flvx_flux* | 867.37 (+24.36) |
+| 29  | wuh6 | 801.10 |
+| 30  | ratot | 751.54 |
+| 31  | turboyy | 736.05 |
+| 32  | funnywhitecat6* | 735.92 |
+| 33 ⬆ | kalechap | 735.54 (+63.43) |
+| 34 ⬇ | lluuucy | 723.46 |
+| 35 ⬇ | onarrrrrrrr | 715.67 |
+| 36  | araqs | 665.83 |
+| 37  | supibot | 564.23 |
 | 38  | ocrw | 483.02 |
 | 39  | ggmagician | 416.90 |
 | 40  | cotovelo3 | 364.10 |
@@ -48,4 +48,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2025-06-15 13:52:36 UTC_
+_Last updated at 2025-06-22 09:28:53 UTC_

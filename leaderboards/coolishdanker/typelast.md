@@ -1,6 +1,7 @@
 ### Last fish per type caught in coolishdanker's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 33  | 🐠 tropicalfish | 20.89 | digital_red_panda | 2025-06-21 15:28:53 |
 | 32  | 🐬 dolphin | 31.65 | larvasisters | 2025-06-13 03:19:51 |
 | 31  | 🌿 seaweed | 0.41 | fenix8 | 2025-06-09 11:06:52 |
 | 30  | 🐟 fish | 13.19 | fenix8 | 2025-06-01 13:32:20 |
@@ -34,4 +35,4 @@
 | 2  | 🐳 whale | 8.92 | turkld | 2025-01-18 18:50:12 |
 | 1  | 🐋 whale2 | 72.01 | turkld | 2025-01-18 15:03:21 |
 
-_Last updated at 2025-06-15 13:36:26 UTC_
+_Last updated at 2025-06-22 09:30:08 UTC_

@@ -23,65 +23,65 @@
 | 20  | 🐧 penguin | 1.25 | lolspers | 2024-12-27 16:22:53 |
 | 21  | 🪹 emptynest | 1.22 | gofishgamer | 2024-10-26 05:42:31 |
 | 22  | 🎱 8ball | 1.18 | exo9 | 2024-12-21 03:14:13 |
-| 23  | 🪨 rock | 1.13 | tairaaaaa | 2024-11-08 06:26:30 |
-| 24  | 🐉 dragon | 1.07 | buhl00n | 2025-06-05 10:12:52 |
-| 25  | 🪺 nestwitheggs | 1.04 | gimmeschmoneys | 2025-04-12 17:37:29 |
-| 26  | 🍄‍🟫 brownmushroom | 0.85 | buhl00n | 2025-02-17 02:04:02 |
-| 27  | 🐬 dolphin | 0.70 | gimmeschmoneys | 2024-10-24 22:43:17 |
-| 28  | 🥒 cucumber | 0.68 | bomster | 2024-10-23 14:47:11 |
-| 29  | 🪚 carpentrysaw | 0.60 | gimmeschmoneys | 2025-02-26 01:33:52 |
-| 30  | 🐋 whale2 | 0.57 | simplydrack | 2024-11-13 17:30:44 |
-| 31  | 🧵 wireline | 0.55 | lolspers | 2024-12-23 11:44:05 |
-| 32  | 🐊 crocodile | 0.52 | buhl00n | 2025-01-15 13:35:10 |
-| 32  | 🦪 oyster | 0.52 | lolspers | 2024-12-02 16:11:16 |
-| 34  | 🍄 mushroom | 0.43 | sugur | 2024-12-14 02:50:07 |
-| 35  | 🌰 acorn | 0.42 | gofishgamer | 2024-10-21 19:37:57 |
-| 36  | 🪀 bobber | 0.40 | simplydrack | 2024-11-16 18:02:12 |
-| 37  | 🪸 coral | 0.38 | gimmeschmoneys | 2024-11-05 18:03:53 |
-| 38  | 🦦 otter | 0.36 | 777pancake | 2024-12-03 20:33:11 |
-| 39  | 🧭 compass | 0.33 | iam_glorp | 2024-12-24 14:31:20 |
-| 40  | 🧸 teddybear | 0.29 | ben_vincent | 2025-01-19 01:12:45 |
-| 41  | 🧣 scarf | 0.27 | iam_glorp | 2024-12-27 16:04:59 |
-| 41  | 🩴 thongsandal | 0.27 | kyonuwu | 2025-05-01 23:17:21 |
-| 43  | 🦑 squid | 0.25 | buhl00n | 2025-01-07 10:50:45 |
-| 44  | 🦭 seal | 0.23 | konsminator | 2024-11-09 10:13:48 |
-| 45  | 📱 iphone | 0.22 | ofaisalz | 2025-03-13 11:56:50 |
-| 46  | 🩰 balletshoes | 0.20 | vagdi | 2024-11-02 13:27:29 |
-| 47  | 🐙 octopus | 0.16 | sugur | 2024-12-03 18:55:54 |
-| 48  | 🥪 sandwich | 0.15 | kronos43 | 2024-10-31 23:27:47 |
-| 49  | 🐠 tropicalfish | 0.14 | ben_vincent | 2024-11-16 17:32:54 |
-| 50  | 👡 sandal | 0.13 | exo9 | 2025-04-03 05:50:53 |
-| 50  | 🪱 worm | 0.13 | ben_vincent | 2025-01-13 01:28:45 |
-| 52  | 🦫 beaver | 0.12 | iam_glorp | 2025-05-09 13:29:12 |
-| 52  | 🐢 turtle | 0.12 | konsminator | 2024-11-19 19:10:21 |
-| 54  | ⛸️ iceskate | 0.11 | buhl00n | 2024-12-27 09:40:43 |
-| 54  | 🦈 shark | 0.11 | ben_vincent | 2025-01-06 16:35:06 |
-| 56  | 🍬 candy | 0.10 | buhl00n | 2025-03-13 06:49:02 |
-| 56  | 🪶 feather | 0.10 | polypollux | 2024-10-31 21:22:58 |
-| 56  | 🧽 sponge | 0.10 | gimmeschmoneys | 2025-04-13 20:02:52 |
-| 59  | 🐡 blowfish | 0.09 | iam_glorp | 2025-02-18 11:17:36 |
-| 60  | 🦞 lobster | 0.08 | burnend | 2025-04-13 19:07:57 |
-| 60  | 🥀 wiltedflower | 0.08 | iam_glorp | 2024-12-22 09:00:03 |
-| 62 ⬆ | 🦎 lizard | 0.07 | gimmeschmoneys | 2025-04-12 14:12:38 |
-| 63 ⬆ | 🕷️ spider | 0.06 | whoop_ee | 2024-10-22 08:42:20 |
-| 64 ⬆ | 👟 athleticshoe | 0.05 | burnend | 2024-10-31 15:58:05 |
-| 64 ⬆ | 🐌 snail | 0.05 | buhl00n | 2025-04-29 15:31:46 |
-| 66 ⬆ | 👢 boot | 0.04 | buhl00n | 2024-11-10 23:05:58 |
-| 66 ⬆ | ☘️ shamrock | 0.04 | hamoodhabibee | 2025-03-21 02:07:28 |
-| 68 ⬇ | 💀 skull | 0.03 (-0.05) | mousee93 | 2025-06-08 17:08:30 |
-| 68 ⬆ | ☂️ umbrella | 0.03 | burnend | 2024-11-05 19:26:50 |
-| 70  | 🪳 cockroach | 0.02 | kaynsirplayer | 2024-10-24 01:24:09 |
-| 70  | 🐟 fish | 0.02 | buhl00n | 2025-02-03 13:23:14 |
-| 70  | 🧤 gloves | 0.02 | yenjay_ | 2024-12-15 08:12:47 |
-| 70  | 🧊 icecube | 0.02 | vagdi | 2024-11-03 18:13:26 |
-| 70  | 🐍 snake | 0.02 | lolspers | 2024-10-24 17:43:32 |
-| 75  | 🥫 cannedfood | 0.01 | konsminator | 2024-11-02 17:40:20 |
-| 75  | 🦀 crab | 0.01 | konsminator | 2024-11-10 17:08:53 |
-| 75  | 🌾 grass | 0.01 | gimmeschmoneys | 2025-05-11 02:25:21 |
-| 75  | 🍃 leaf | 0.01 | gimmeschmoneys | 2025-05-24 22:56:28 |
-| 75  | 🌿 seaweed | 0.01 | gimmeschmoneys | 2024-10-23 00:29:08 |
-| 75  | 🦐 shrimp | 0.01 | notnownico | 2025-01-25 15:44:29 |
-| 75  | 🧦 socks | 0.01 | ben_vincent | 2024-10-25 06:07:02 |
+| 23 ⬆ | 🐉 dragon | 1.07 | buhl00n | 2025-06-05 10:12:52 |
+| 24 ⬆ | 🪺 nestwitheggs | 1.04 | gimmeschmoneys | 2025-04-12 17:37:29 |
+| 25 ⬆ | 🍄‍🟫 brownmushroom | 0.85 | buhl00n | 2025-02-17 02:04:02 |
+| 26 ⬆ | 🐬 dolphin | 0.70 | gimmeschmoneys | 2024-10-24 22:43:17 |
+| 27 ⬆ | 🥒 cucumber | 0.68 | bomster | 2024-10-23 14:47:11 |
+| 28 ⬆ | 🪚 carpentrysaw | 0.60 | gimmeschmoneys | 2025-02-26 01:33:52 |
+| 29 ⬆ | 🐋 whale2 | 0.57 | simplydrack | 2024-11-13 17:30:44 |
+| 30 ⬆ | 🧵 wireline | 0.55 | lolspers | 2024-12-23 11:44:05 |
+| 31 ⬆ | 🐊 crocodile | 0.52 | buhl00n | 2025-01-15 13:35:10 |
+| 31 ⬆ | 🦪 oyster | 0.52 | lolspers | 2024-12-02 16:11:16 |
+| 33 ⬆ | 🍄 mushroom | 0.43 | sugur | 2024-12-14 02:50:07 |
+| 34 ⬆ | 🌰 acorn | 0.42 | gofishgamer | 2024-10-21 19:37:57 |
+| 35 ⬆ | 🪀 bobber | 0.40 | simplydrack | 2024-11-16 18:02:12 |
+| 36 ⬆ | 🪸 coral | 0.38 | gimmeschmoneys | 2024-11-05 18:03:53 |
+| 37 ⬆ | 🦦 otter | 0.36 | 777pancake | 2024-12-03 20:33:11 |
+| 38 ⬆ | 🧭 compass | 0.33 | iam_glorp | 2024-12-24 14:31:20 |
+| 39 ⬆ | 🧸 teddybear | 0.29 | ben_vincent | 2025-01-19 01:12:45 |
+| 40 ⬆ | 🧣 scarf | 0.27 | iam_glorp | 2024-12-27 16:04:59 |
+| 40 ⬆ | 🩴 thongsandal | 0.27 | kyonuwu | 2025-05-01 23:17:21 |
+| 42 ⬆ | 🦑 squid | 0.25 | buhl00n | 2025-01-07 10:50:45 |
+| 43 ⬆ | 🦭 seal | 0.23 | konsminator | 2024-11-09 10:13:48 |
+| 44 ⬆ | 📱 iphone | 0.22 | ofaisalz | 2025-03-13 11:56:50 |
+| 45 ⬆ | 🩰 balletshoes | 0.20 | vagdi | 2024-11-02 13:27:29 |
+| 46 ⬆ | 🐙 octopus | 0.16 | sugur | 2024-12-03 18:55:54 |
+| 47 ⬆ | 🥪 sandwich | 0.15 | kronos43 | 2024-10-31 23:27:47 |
+| 48 ⬆ | 🐠 tropicalfish | 0.14 | ben_vincent | 2024-11-16 17:32:54 |
+| 49 ⬆ | 👡 sandal | 0.13 | exo9 | 2025-04-03 05:50:53 |
+| 49 ⬆ | 🪱 worm | 0.13 | ben_vincent | 2025-01-13 01:28:45 |
+| 51 ⬆ | 🦫 beaver | 0.12 | iam_glorp | 2025-05-09 13:29:12 |
+| 51 ⬆ | 🐢 turtle | 0.12 | konsminator | 2024-11-19 19:10:21 |
+| 53 ⬆ | ⛸️ iceskate | 0.11 | buhl00n | 2024-12-27 09:40:43 |
+| 53 ⬆ | 🦈 shark | 0.11 | ben_vincent | 2025-01-06 16:35:06 |
+| 55 ⬆ | 🍬 candy | 0.10 | buhl00n | 2025-03-13 06:49:02 |
+| 55 ⬆ | 🪶 feather | 0.10 | polypollux | 2024-10-31 21:22:58 |
+| 55 ⬆ | 🧽 sponge | 0.10 | gimmeschmoneys | 2025-04-13 20:02:52 |
+| 58 ⬆ | 🐡 blowfish | 0.09 | iam_glorp | 2025-02-18 11:17:36 |
+| 59 ⬆ | 🦞 lobster | 0.08 | burnend | 2025-04-13 19:07:57 |
+| 59 ⬆ | 🥀 wiltedflower | 0.08 | iam_glorp | 2024-12-22 09:00:03 |
+| 61 ⬆ | 🦎 lizard | 0.07 | gimmeschmoneys | 2025-04-12 14:12:38 |
+| 62 ⬆ | 🕷️ spider | 0.06 | whoop_ee | 2024-10-22 08:42:20 |
+| 63 ⬆ | 👟 athleticshoe | 0.05 | burnend | 2024-10-31 15:58:05 |
+| 63 ⬆ | 🐌 snail | 0.05 | buhl00n | 2025-04-29 15:31:46 |
+| 65 ⬆ | 👢 boot | 0.04 | buhl00n | 2024-11-10 23:05:58 |
+| 65 ⬆ | ☘️ shamrock | 0.04 | hamoodhabibee | 2025-03-21 02:07:28 |
+| 67 ⬆ | 💀 skull | 0.03 | mousee93 | 2025-06-08 17:08:30 |
+| 67 ⬆ | ☂️ umbrella | 0.03 | burnend | 2024-11-05 19:26:50 |
+| 69 ⬆ | 🪳 cockroach | 0.02 | kaynsirplayer | 2024-10-24 01:24:09 |
+| 69 ⬆ | 🐟 fish | 0.02 | buhl00n | 2025-02-03 13:23:14 |
+| 69 ⬆ | 🧤 gloves | 0.02 | yenjay_ | 2024-12-15 08:12:47 |
+| 69 ⬆ | 🧊 icecube | 0.02 | vagdi | 2024-11-03 18:13:26 |
+| 69 ⬆ | 🐍 snake | 0.02 | lolspers | 2024-10-24 17:43:32 |
+| 74 ⬆ | 🥫 cannedfood | 0.01 | konsminator | 2024-11-02 17:40:20 |
+| 74 ⬆ | 🦀 crab | 0.01 | konsminator | 2024-11-10 17:08:53 |
+| 74 ⬆ | 🌾 grass | 0.01 | gimmeschmoneys | 2025-05-11 02:25:21 |
+| 74 ⬆ | 🍃 leaf | 0.01 | gimmeschmoneys | 2025-05-24 22:56:28 |
+| 74 ⬇ | 🪨 rock | 0.01 (-1.12) | buhl00n | 2025-06-19 22:00:46 |
+| 74 ⬆ | 🌿 seaweed | 0.01 | gimmeschmoneys | 2024-10-23 00:29:08 |
+| 74 ⬆ | 🦐 shrimp | 0.01 | notnownico | 2025-01-25 15:44:29 |
+| 74 ⬆ | 🧦 socks | 0.01 | ben_vincent | 2024-10-25 06:07:02 |
 | 82  | 🐸 frog | 0.00 | flunke_ | 2024-10-26 08:30:21 |
 | 82  | 🪝 hook | 0.00 | aceleju | 2024-10-24 21:22:57 |
 | 82  | 🎏 lure | 0.00 | buhl00n | 2024-11-05 19:10:06 |
@@ -91,4 +91,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-06-15 13:37:18 UTC_
+_Last updated at 2025-06-22 09:30:30 UTC_

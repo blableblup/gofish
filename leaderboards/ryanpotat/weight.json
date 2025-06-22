@@ -11,7 +11,7 @@
 		"fishid": 106030,
 		"chatid": 2,
 		"date": "2024-10-02T21:06:55Z",
-		"rank": 3
+		"rank": 4
 	},
 	"2989": {
 		"player": "lolspers",
@@ -39,7 +39,7 @@
 		"fishid": 179218,
 		"chatid": 100,
 		"date": "2025-06-13T07:30:38Z",
-		"rank": 4
+		"rank": 5
 	},
 	"3447": {
 		"player": "n1nzin_",
@@ -53,6 +53,20 @@
 		"fishid": 125566,
 		"chatid": 58,
 		"date": "2024-11-28T16:07:15Z",
+		"rank": 3
+	},
+	"776": {
+		"player": "kubo7",
+		"playerid": 776,
+		"weight": 123.15,
+		"bot": "gofishgame",
+		"fishtype": "🐋",
+		"fishname": "whale2",
+		"catchtype": "normal",
+		"chat": "ryanpotat",
+		"fishid": 180343,
+		"chatid": 107,
+		"date": "2025-06-21T09:59:30Z",
 		"rank": 2
 	}
 }

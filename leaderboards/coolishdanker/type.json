@@ -11,7 +11,7 @@
 		"fishid": 151270,
 		"chatid": 207,
 		"date": "2025-01-28T02:17:23Z",
-		"rank": 30
+		"rank": 31
 	},
 	"boot": {
 		"player": "fenix8",
@@ -25,7 +25,7 @@
 		"fishid": 151336,
 		"chatid": 222,
 		"date": "2025-02-03T15:38:30Z",
-		"rank": 29
+		"rank": 30
 	},
 	"cannedfood": {
 		"player": "yxnggon",
@@ -39,7 +39,7 @@
 		"fishid": 151091,
 		"chatid": 69,
 		"date": "2025-01-14T06:02:31Z",
-		"rank": 28
+		"rank": 29
 	},
 	"cockroach": {
 		"player": "zaaatar",
@@ -53,7 +53,7 @@
 		"fishid": 157386,
 		"chatid": 243,
 		"date": "2025-03-21T07:31:11Z",
-		"rank": 21
+		"rank": 22
 	},
 	"crab": {
 		"player": "destructionvibe",
@@ -67,7 +67,7 @@
 		"fishid": 151217,
 		"chatid": 183,
 		"date": "2025-01-20T22:28:39Z",
-		"rank": 27
+		"rank": 28
 	},
 	"crocodile": {
 		"player": "yxnggon",
@@ -109,7 +109,7 @@
 		"fishid": 151467,
 		"chatid": 236,
 		"date": "2025-02-16T23:01:32Z",
-		"rank": 14
+		"rank": 15
 	},
 	"frog": {
 		"player": "stevetheastronaut",
@@ -123,7 +123,7 @@
 		"fishid": 151128,
 		"chatid": 98,
 		"date": "2025-01-17T02:04:49Z",
-		"rank": 22
+		"rank": 23
 	},
 	"gloves": {
 		"player": "yxnggon",
@@ -137,7 +137,7 @@
 		"fishid": 151022,
 		"chatid": 16,
 		"date": "2025-01-10T11:12:39Z",
-		"rank": 31
+		"rank": 32
 	},
 	"hook": {
 		"player": "destructionvibe",
@@ -151,7 +151,7 @@
 		"fishid": 151057,
 		"chatid": 42,
 		"date": "2025-01-12T14:37:28Z",
-		"rank": 24
+		"rank": 25
 	},
 	"icecube": {
 		"player": "kidnamedzan",
@@ -165,7 +165,7 @@
 		"fishid": 151196,
 		"chatid": 162,
 		"date": "2025-01-19T20:31:47Z",
-		"rank": 18
+		"rank": 19
 	},
 	"lobster": {
 		"player": "04knight",
@@ -193,7 +193,7 @@
 		"fishid": 151107,
 		"chatid": 83,
 		"date": "2025-01-14T16:49:05Z",
-		"rank": 23
+		"rank": 24
 	},
 	"mushroom": {
 		"player": "jaial",
@@ -207,7 +207,7 @@
 		"fishid": 151135,
 		"chatid": 104,
 		"date": "2025-01-17T13:23:32Z",
-		"rank": 15
+		"rank": 16
 	},
 	"octopus": {
 		"player": "digital_red_panda",
@@ -235,7 +235,7 @@
 		"fishid": 151175,
 		"chatid": 142,
 		"date": "2025-01-18T21:29:05Z",
-		"rank": 16
+		"rank": 17
 	},
 	"oyster": {
 		"player": "copynine",
@@ -263,7 +263,7 @@
 		"fishid": 151154,
 		"chatid": 121,
 		"date": "2025-01-18T16:13:17Z",
-		"rank": 17
+		"rank": 18
 	},
 	"seal": {
 		"player": "kidnamedzan",
@@ -291,7 +291,7 @@
 		"fishid": 178394,
 		"chatid": 249,
 		"date": "2025-06-09T11:06:52Z",
-		"rank": 32
+		"rank": 33
 	},
 	"shell": {
 		"player": "fenix8",
@@ -305,7 +305,7 @@
 		"fishid": 151233,
 		"chatid": 198,
 		"date": "2025-01-23T20:49:32Z",
-		"rank": 25
+		"rank": 26
 	},
 	"shrimp": {
 		"player": "digital_red_panda",
@@ -347,7 +347,7 @@
 		"fishid": 151078,
 		"chatid": 57,
 		"date": "2025-01-13T23:06:22Z",
-		"rank": 13
+		"rank": 14
 	},
 	"sponge": {
 		"player": "kidnamedzan",
@@ -361,7 +361,7 @@
 		"fishid": 151464,
 		"chatid": 235,
 		"date": "2025-02-16T21:07:25Z",
-		"rank": 26
+		"rank": 27
 	},
 	"squid": {
 		"player": "fenix8",
@@ -389,7 +389,21 @@
 		"fishid": 151165,
 		"chatid": 132,
 		"date": "2025-01-18T18:43:20Z",
-		"rank": 20
+		"rank": 21
+	},
+	"tropicalfish": {
+		"player": "digital_red_panda",
+		"playerid": 3613,
+		"weight": 20.89,
+		"bot": "gofishgame",
+		"fishtype": "🐠",
+		"fishname": "tropicalfish",
+		"catchtype": "normal",
+		"chat": "coolishdanker",
+		"fishid": 180484,
+		"chatid": 251,
+		"date": "2025-06-21T15:28:53Z",
+		"rank": 13
 	},
 	"turtle": {
 		"player": "kidnamedzan",
@@ -445,6 +459,6 @@
 		"fishid": 151073,
 		"chatid": 52,
 		"date": "2025-01-13T15:03:18Z",
-		"rank": 19
+		"rank": 20
 	}
 }

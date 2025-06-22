@@ -1,60 +1,60 @@
 ### Most fish caught in psp1g's chat
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
-| 1 🥇  | nndiana*  | 2915 (+49) |
-| 2 🥈  | caprisen_*  | 2092 (+1) |
+| 1 🥇  | nndiana*  | 2942 (+27) |
+| 2 🥈  | caprisen_*  | 2092 |
 | 3 🥉  | huuuuuuuuuuuuuuuuuuuuuurz  | 1907 |
-| 4  | bubinga  | 1868 (+24) |
+| 4  | bubinga  | 1903 (+35) |
 | 5  | sandwichsundays*  | 1507 |
 | 6  | iflya320  | 1334 |
 | 7  | jr_mime  | 1215 |
-| 8  | mazzo_tv  | 1145 (+14) |
+| 8  | mazzo_tv  | 1149 (+4) |
 | 9  | pengeg  | 1101 |
 | 10  | zwockel01  | 974 |
 | 11  | benciee  | 963 |
 | 12  | lobuhtomy  | 933 |
 | 13  | jemcs_  | 895 |
-| 14  | angus_lpc  | 843 |
-| 15  | commanda_u  | 763 (+1) |
-| 16  | veny2lbs  | 725 |
+| 14  | angus_lpc  | 844 (+1) |
+| 15  | commanda_u  | 764 (+1) |
+| 16  | veny2lbs  | 726 (+1) |
 | 17  | amu1g  | 724 |
 | 18  | theevirus  | 722 |
-| 19  | ratot  | 658 (+5) |
-| 20 ⬆ | gorillapark  | 622 (+8) |
-| 21 ⬇ | flunke_  | 621 (+2) |
+| 19  | ratot  | 666 (+8) |
+| 20  | gorillapark  | 625 (+3) |
+| 21  | flunke_  | 623 (+2) |
 | 22  | wisdom_frog  | 527 |
 | 23  | deogen01  | 502 |
-| 24  | markenzy01  | 477 (+12) |
+| 24  | markenzy01  | 479 (+2) |
 | 25  | divra__  | 428 |
 | 26  | quinrayy  | 424 |
 | 27  | maksmusz*  | 411 |
+| 28 ⬆ | eeziiii  | 400 (+1) |
 | 28  | fonuwu  | 400 |
-| 29  | eeziiii  | 399 |
 | 30  | velantix*  | 394 |
 | 31  | creepycode*  | 388 |
 | 32  | noconcept_  | 385 |
 | 33  | seryxx  | 384 |
 | 34  | faslker  | 374 |
-| 35 ⬆ | bluberry  | 357 (+17) |
-| 36 ⬇ | copperx9  | 346 |
+| 35  | bluberry  | 363 (+6) |
+| 36  | copperx9  | 346 |
 | 37  | eng0_  | 300 |
 | 38  | euxoa  | 297 |
-| 39  | popfizzgg  | 296 (+3) |
+| 39  | popfizzgg  | 296 |
 | 40  | onarrrrrrrr  | 289 |
 | 41  | kaspu222  | 278 |
 | 42  | qxxick_  | 276 |
 | 43  | glorianeq  | 261 |
 | 44  | hahppyy  | 255 |
-| 45  | flovrek  | 248 (+3) |
-| 46 ⬆ | llikotesnecil  | 244 (+6) |
-| 47 ⬇ | tdillar  | 243 |
+| 45  | flovrek  | 248 |
+| 46  | llikotesnecil  | 244 |
+| 47  | tdillar  | 243 |
 | 48  | kalechap  | 233 |
 | 49  | cale4  | 230 |
-| 50  | jeejee_jjl  | 227 (+1) |
+| 50  | jeejee_jjl  | 227 |
 | 51  | cappo7117  | 213 |
 | 52  | thetaxmen  | 212 |
+| 53 ⬆ | bartohehe  | 208 (+1) |
 | 53  | ocram1g  | 208 |
-| 54  | bartohehe  | 207 |
 | 55  | jami1g  | 202 |
 | 56  | trendymirror  | 200 |
 | 57  | alvanissdev  | 196 |
@@ -65,26 +65,26 @@
 | 62  | satic____  | 175 |
 | 63  | quton  | 173 |
 | 64  | crunch_sack  | 166 |
-| 65  | yopego  | 162 |
+| 65  | yopego  | 163 (+1) |
+| 66 ⬆ | dankunite*  | 160 (+3) |
 | 66  | f_i_o_r  | 160 |
-| 67  | syxtuh  | 159 |
-| 68  | kubo7  | 158 |
-| 68  | ttecnk  | 158 |
-| 70  | dankunite*  | 157 (+3) |
-| 71 ⬇ | thasbe  | 154 |
+| 68 ⬇ | syxtuh  | 159 |
+| 69 ⬇ | kubo7  | 158 |
+| 69 ⬇ | ttecnk  | 158 |
+| 71  | thasbe  | 154 |
 | 72  | adziooooo  | 150 |
 | 73  | asthmaa  | 147 |
 | 74  | bcarw  | 142 |
-| 75  | obscurecharmling  | 138 |
+| 75  | obscurecharmling  | 140 (+2) |
 | 76  | milchfunky*  | 137 |
-| 77  | vibepill  | 136 |
-| 78  | uni1g  | 135 |
-| 79  | brunodestar  | 134 |
-| 79  | wowitsdub  | 134 |
-| 81 ⬆ | hydronix  | 131 (+4) |
-| 82 ⬇ | eskibroyo  | 130 |
-| 82 ⬇ | rttvname  | 130 |
-| 82 ⬇ | sunflowerrr8  | 130 |
+| 76 ⬆ | wowitsdub  | 137 (+3) |
+| 78 ⬇ | vibepill  | 136 |
+| 79 ⬇ | uni1g  | 135 |
+| 80 ⬇ | brunodestar  | 134 |
+| 81  | hydronix  | 133 (+2) |
+| 82  | eskibroyo  | 130 |
+| 82  | rttvname  | 130 |
+| 82  | sunflowerrr8  | 130 |
 | 85  | benlol_l*  | 126 |
 | 85  | ovrht  | 126 |
 | 87  | chow_peepohappy*  | 125 |
@@ -106,4 +106,4 @@
 
 _Only showing fishers who caught >= 100 fish_
 
-_Last updated at 2025-06-15 13:36:20 UTC_
+_Last updated at 2025-06-22 09:28:57 UTC_

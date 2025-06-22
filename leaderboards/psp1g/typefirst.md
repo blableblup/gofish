@@ -1,6 +1,7 @@
 ### First fish per type caught in psp1g's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 94  | 🫙 jar | 0.00 | bubinga | 2025-06-21 08:49:52 |
 | 93  | 🌾 grass | 0.40 | nndiana | 2025-05-29 23:08:55 |
 | 92  | 🫎 moose | 128.06 | ratot | 2025-05-24 20:19:25 |
 | 91  | 🍃 leaf | 0.63 | sandwichsundays | 2025-05-22 20:36:24 |
@@ -95,4 +96,4 @@
 | 2  | 🦞 lobster | 36.18 | psp1g | 2023-08-21 01:23:40 |
 | 1  | 🐟 fish | 13.12 | dayzedinndaydreams | 2023-08-21 01:11:17 |
 
-_Last updated at 2025-06-15 13:32:02 UTC_
+_Last updated at 2025-06-22 09:30:10 UTC_

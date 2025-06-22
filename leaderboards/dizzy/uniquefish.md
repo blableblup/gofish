@@ -1,9 +1,9 @@
 ### Players who have seen the most fish in dizzy's chat
 | Rank | Player | Fish Seen |
 |------|--------|-----------|
-| 1 🥇  | buhl00n  | 78 (+2) |
-| 2 🥈  | iam_glorp  | 71 (+1) |
-| 3 🥉  | gimmeschmoneys  | 62 |
+| 1 🥇  | buhl00n  | 79 (+1) |
+| 2 🥈  | iam_glorp  | 72 (+1) |
+| 3 🥉  | gimmeschmoneys  | 63 (+1) |
 | 4  | ben_vincent  | 60 |
 | 5  | iam_haunt  | 58 |
 | 6  | lolspers  | 54 |
@@ -29,8 +29,8 @@
 | 26  | feuha  | 32 |
 | 27  | 777pancake  | 31 |
 | 27  | paperboat99  | 31 |
-| 27 ⬆ | whoop_ee  | 31 (+1) |
-| 30 ⬇ | icejamx  | 30 |
+| 27  | whoop_ee  | 31 |
+| 30  | icejamx  | 30 |
 | 31  | silent11d5  | 27 |
 | 32  | respirate_  | 26 |
 | 32  | ruusui  | 26 |
@@ -52,4 +52,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2025-06-15 13:36:24 UTC_
+_Last updated at 2025-06-22 09:28:52 UTC_

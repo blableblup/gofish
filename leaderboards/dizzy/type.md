@@ -62,7 +62,7 @@
 | 59  | 🧥 coat | 6.78 | iam_glorp | 2025-02-18 01:35:25 |
 | 60  | 🐚 shell | 5.90 | gimmeschmoneys | 2025-05-03 20:58:43 |
 | 61  | 🥫 cannedfood | 5.88 | gimmeschmoneys | 2025-03-02 04:38:49 |
-| 62  | 🧵 wireline | 5.66 | hamoodhabibee | 2025-03-15 23:00:16 |
+| 62  | 🧵 wireline | 5.77 (+0.11) | iam_glorp | 2025-06-21 00:07:05 |
 | 63  | 🐦 bird | 5.18 | hamoodhabibee | 2025-04-21 22:06:03 |
 | 64  | 🧃 beveragebox | 5.17 | lilzomme | 2024-10-24 20:56:03 |
 | 65  | 🎏 lure | 4.97 | rougep1rate | 2025-02-02 21:36:15 |
@@ -91,4 +91,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-06-15 13:32:23 UTC_
+_Last updated at 2025-06-22 09:29:16 UTC_

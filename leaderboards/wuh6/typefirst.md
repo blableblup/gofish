@@ -1,6 +1,8 @@
 ### First fish per type caught in wuh6's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 93  | 🌻 sunflower | 0.66 | wowitsdub | 2025-06-21 13:30:30 |
+| 92  | 🫙 jar | 5.51 | gorillapark | 2025-06-21 00:01:46 |
 | 91  | 🕶️ darksunglasses | 11.93 | eeziiii | 2025-05-03 15:33:19 |
 | 90  | 🪼 jellyfish | 5.00 | bubinga | 2025-05-01 18:38:59 |
 | 89  | 🩲 briefs | 3.85 | iflya320 | 2025-04-26 22:01:22 |
@@ -93,4 +95,4 @@
 | 2  | 🪝 hook | 1.91 | commanda_u | 2024-12-14 15:55:38 |
 | 1  | 🐚 shell | 3.49 | jukkii | 2024-12-14 15:55:11 |
 
-_Last updated at 2025-06-15 13:32:03 UTC_
+_Last updated at 2025-06-22 09:30:10 UTC_

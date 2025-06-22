@@ -5,7 +5,7 @@
 | 2 🥈  | 🦕 sauropod | 88.30 | rainedparade | 2025-05-31 23:01:19 |
 | 3 🥉  | 🧟 zombie | 49.41 | rainedparade | 2025-01-25 17:01:30 |
 | 4  | 🫎 moose | 26.84 | rainedparade | 2025-03-17 19:54:46 |
-| 5  | 🥒 cucumber | 18.76 | rainedparade | 2025-05-26 19:35:02 |
+| 5  | 🥒 cucumber | 16.53 (-2.23) | rainedparade | 2025-06-21 01:39:31 |
 | 6  | 🪼 jellyfish | 12.12 | e1d2f3 | 2025-05-09 01:13:37 |
 | 7  | 🐉 dragon | 10.94 | rainedparade | 2025-05-25 01:21:35 |
 | 8  | 👒 womanshat | 9.46 | rainedparade | 2025-01-25 17:36:59 |
@@ -18,8 +18,8 @@
 | 15  | 🐧 penguin | 6.42 | pompadourdelinquent | 2025-03-02 23:02:22 |
 | 16  | 🛒 shoppingcart | 6.23 | miyabwah | 2025-02-23 20:58:02 |
 | 17  | 🧊 icecube | 4.69 | miyabwah | 2025-02-28 19:19:01 |
-| 18 ⬆ | 🪨 rock | 3.55 | rainedparade | 2025-04-03 03:36:41 |
-| 19 ⬇ | 🕶️ darksunglasses | 3.50 (-1.13) | rainedparade | 2025-06-13 23:48:41 |
+| 18  | 🪨 rock | 3.55 | rainedparade | 2025-04-03 03:36:41 |
+| 19  | 🕶️ darksunglasses | 3.50 | rainedparade | 2025-06-13 23:48:41 |
 | 20  | 🦫 beaver | 2.87 | goopy777 | 2025-03-24 09:30:01 |
 | 21  | 🍄 mushroom | 2.38 | avalidu5ername | 2025-03-10 04:18:56 |
 | 22  | 🧸 teddybear | 2.37 | rainedparade | 2025-02-28 00:29:01 |
@@ -77,4 +77,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-06-15 13:37:26 UTC_
+_Last updated at 2025-06-22 09:30:24 UTC_

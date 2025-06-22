@@ -8,15 +8,17 @@
 | 5  | 🐠 tropicalfish | 9.37 | letter__n | 2025-06-01 05:51:00 |
 | 6  | 🐡 blowfish | 8.96 | commanda_u | 2025-05-18 21:28:28 |
 | 7  | 🐟 fish | 8.03 | naori_desu | 2025-05-25 10:55:38 |
-| 8 🆕 | 🧽 sponge | 7.74 | larvasisters | 2025-06-12 19:31:22 |
-| 9 ⬇ | 💀 skull | 2.96 | naori_desu | 2025-05-28 23:50:55 |
-| 10 ⬇ | 🐸 frog | 2.08 | naori_desu | 2025-06-04 20:47:52 |
-| 11 ⬇ | 🦑 squid | 1.64 | commanda_u | 2025-05-31 10:40:40 |
-| 12 ⬇ | 🦀 crab | 1.23 | naori_desu | 2025-06-01 00:01:44 |
-| 13 🆕 | 🐚 shell | 0.68 | naori_desu | 2025-06-14 10:37:55 |
-| 14 ⬇ | 🪝 hook | 0.32 | fantanium | 2025-05-12 07:45:38 |
-| 15 ⬇ | 🎏 lure | 0.04 | aim1138 | 2025-06-01 00:43:22 |
+| 8  | 🧽 sponge | 7.74 | larvasisters | 2025-06-12 19:31:22 |
+| 9 🆕 | 🦐 shrimp | 4.54 | gofishgamer | 2025-06-19 08:10:57 |
+| 10 ⬇ | 💀 skull | 2.96 | naori_desu | 2025-05-28 23:50:55 |
+| 11 ⬇ | 🐸 frog | 2.08 | naori_desu | 2025-06-04 20:47:52 |
+| 12 ⬇ | 🦑 squid | 1.64 | commanda_u | 2025-05-31 10:40:40 |
+| 13 🆕 | 🧦 socks | 1.27 | letter__n | 2025-06-20 11:52:46 |
+| 14 ⬇ | 🦀 crab | 1.23 | naori_desu | 2025-06-01 00:01:44 |
+| 15 ⬇ | 🐚 shell | 0.68 | naori_desu | 2025-06-14 10:37:55 |
+| 16 ⬇ | 🪝 hook | 0.32 | fantanium | 2025-05-12 07:45:38 |
+| 17 ⬇ | 🎏 lure | 0.04 | aim1138 | 2025-06-01 00:43:22 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-06-15 13:36:49 UTC_
+_Last updated at 2025-06-22 09:30:52 UTC_

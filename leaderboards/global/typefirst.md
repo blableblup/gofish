@@ -1,6 +1,8 @@
 ### First fish per type caught globally
 | Rank | Fish | Weight in lbs | Player | Date in UTC | Chat |
 |------|--------|-----------|---------|------|-------|
+| 102  | 🪰 fly | 0.07 | destin357 | 2025-06-21 23:33:39 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 101  | 🫙 jar | 5.51 | gorillapark | 2025-06-21 00:01:46 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png) |
 | 100  | 🌾 grass | 0.23 | derintu | 2025-03-17 20:23:03 | ![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png) |
 | 99  | 👡 sandal | 1.24 | kishma9 | 2025-03-15 15:10:01 | ![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png) |
 | 98  | 🫎 moose | 11.39 | sandwichsundays | 2025-03-15 01:53:32 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png) |
@@ -102,4 +104,4 @@
 | 2  | 🐸 frog | 4.76 | miiiiisho | 2022-12-04 01:04:30 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 1  | 🦐 shrimp | 29.58 | lagggm* | 2022-12-04 00:58:55 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 
-_Last updated at 2025-06-15 13:32:02 UTC_
+_Last updated at 2025-06-22 09:30:10 UTC_

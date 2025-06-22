@@ -54,10 +54,10 @@
 | 51  | 📱 iphone | 10.66 | pengeg | 2024-12-24 00:32:17 |
 | 52  | 🪹 emptynest | 10.57 | divra__ | 2025-04-12 21:36:49 |
 | 53  | 🪵 log | 10.26 | bubinga | 2024-11-05 20:58:54 |
-| 54  | 🕶️ darksunglasses | 9.95 | tiaguitos97 | 2025-05-26 18:22:19 |
-| 55  | 💀 skull | 9.87 | leanmeister | 2025-03-27 18:21:23 |
-| 56  | 🎱 8ball | 9.50 | leastsussyimposter | 2025-01-06 22:09:55 |
-| 57  | 🧃 beveragebox | 9.36 | nicestnarwhal | 2025-04-23 02:28:33 |
+| 54 ⬆ | 🧃 beveragebox | 10.20 (+0.84) | dayzedinndaydreams | 2025-06-20 12:08:11 |
+| 55 ⬇ | 🕶️ darksunglasses | 9.95 | tiaguitos97 | 2025-05-26 18:22:19 |
+| 56 ⬇ | 💀 skull | 9.87 | leanmeister | 2025-03-27 18:21:23 |
+| 57 ⬇ | 🎱 8ball | 9.50 | leastsussyimposter | 2025-01-06 22:09:55 |
 | 58  | 🦎 lizard | 7.98 | leastsussyimposter | 2024-12-24 22:04:56 |
 | 59  | 🦆 duck | 6.56 | divra__ | 2024-11-02 04:38:35 |
 | 60  | 🥫 cannedfood | 5.92 | hahppyy | 2025-01-13 14:58:31 |
@@ -71,29 +71,29 @@
 | 68  | 🌰 acorn | 3.94 | divra__ | 2024-10-03 20:49:22 |
 | 69  | 🦢 swan | 3.86 | divra__ | 2025-05-06 23:44:45 |
 | 70  | 🌷 tulip | 2.98 | eelacy | 2025-03-18 02:28:33 |
-| 71 🆕 | 🌻 sunflower | 2.94 | vaiastol | 2025-06-10 19:21:56 |
-| 72 ⬇ | 🐦 bird | 2.86 | vaiastol | 2025-05-22 14:52:45 |
-| 73 ⬇ | 🥀 wiltedflower | 2.73 | hahppyy | 2025-01-02 18:42:06 |
-| 74 ⬇ | ☂️ umbrella | 2.48 | hahppyy | 2025-02-17 22:19:26 |
-| 75 ⬇ | 👡 sandal | 2.41 | hahppyy | 2025-03-20 18:39:52 |
-| 76 ⬇ | 👟 athleticshoe | 1.99 | n64seat | 2025-05-27 00:29:20 |
-| 77 ⬇ | 👢 boot | 1.97 | yoimlee | 2024-11-04 14:41:11 |
-| 78 ⬇ | 🧦 socks | 1.95 | divra__ | 2024-10-16 23:07:48 |
-| 79 ⬇ | 🍃 leaf | 1.92 | v6r_ | 2025-03-26 03:07:20 |
-| 80 ⬇ | 🩰 balletshoes | 1.89 | beebo8i | 2025-01-01 02:12:26 |
-| 81 ⬇ | 🩴 thongsandal | 1.87 | vaiastol | 2024-07-31 16:40:54 |
-| 82 ⬇ | ⛸️ iceskate | 1.84 | hahppyy | 2025-01-12 19:57:15 |
-| 83 ⬇ | 🥪 sandwich | 1.73 | hahppyy | 2024-11-23 00:31:22 |
-| 84 ⬇ | 🐦‍⬛ blackbird | 1.42 | vaiastol | 2025-04-11 08:37:47 |
-| 85 ⬇ | 🌿 seaweed | 0.99 | misifearless | 2025-03-10 09:57:08 |
-| 86 ⬇ | 🪚 carpentrysaw | 0.97 | hahppyy | 2025-01-05 13:24:59 |
-| 87 ⬇ | 🧤 gloves | 0.95 | hahppyy | 2024-11-02 16:18:30 |
-| 88 ⬇ | 🐿️ squirrel | 0.90 | creepycode | 2024-12-04 03:46:23 |
-| 89 ⬇ | 🪶 feather | 0.88 | milesdotcom | 2024-10-21 19:36:21 |
-| 90 ⬇ | 🍁 mapleleaf | 0.84 | divra__ | 2024-09-27 22:38:30 |
-| 91 ⬇ | 🍬 candy | 0.81 | hahppyy | 2025-01-03 15:22:18 |
-| 92 ⬇ | 🌾 grass | 0.79 | leanmeister | 2025-03-20 20:23:59 |
+| 71  | 🌻 sunflower | 2.94 | vaiastol | 2025-06-10 19:21:56 |
+| 72  | 🐦 bird | 2.86 | vaiastol | 2025-05-22 14:52:45 |
+| 73  | 🥀 wiltedflower | 2.73 | hahppyy | 2025-01-02 18:42:06 |
+| 74  | ☂️ umbrella | 2.48 | hahppyy | 2025-02-17 22:19:26 |
+| 75  | 👡 sandal | 2.41 | hahppyy | 2025-03-20 18:39:52 |
+| 76  | 👟 athleticshoe | 1.99 | n64seat | 2025-05-27 00:29:20 |
+| 77  | 👢 boot | 1.97 | yoimlee | 2024-11-04 14:41:11 |
+| 78  | 🧦 socks | 1.95 | divra__ | 2024-10-16 23:07:48 |
+| 79  | 🍃 leaf | 1.92 | v6r_ | 2025-03-26 03:07:20 |
+| 80  | 🩰 balletshoes | 1.89 | beebo8i | 2025-01-01 02:12:26 |
+| 81  | 🩴 thongsandal | 1.87 | vaiastol | 2024-07-31 16:40:54 |
+| 82  | ⛸️ iceskate | 1.84 | hahppyy | 2025-01-12 19:57:15 |
+| 83  | 🥪 sandwich | 1.73 | hahppyy | 2024-11-23 00:31:22 |
+| 84  | 🐦‍⬛ blackbird | 1.42 | vaiastol | 2025-04-11 08:37:47 |
+| 85  | 🌿 seaweed | 0.99 | misifearless | 2025-03-10 09:57:08 |
+| 86  | 🪚 carpentrysaw | 0.97 | hahppyy | 2025-01-05 13:24:59 |
+| 87  | 🧤 gloves | 0.95 | hahppyy | 2024-11-02 16:18:30 |
+| 88  | 🐿️ squirrel | 0.90 | creepycode | 2024-12-04 03:46:23 |
+| 89  | 🪶 feather | 0.88 | milesdotcom | 2024-10-21 19:36:21 |
+| 90  | 🍁 mapleleaf | 0.84 | divra__ | 2024-09-27 22:38:30 |
+| 91  | 🍬 candy | 0.81 | hahppyy | 2025-01-03 15:22:18 |
+| 92  | 🌾 grass | 0.79 | leanmeister | 2025-03-20 20:23:59 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-06-15 13:38:19 UTC_
+_Last updated at 2025-06-22 09:29:05 UTC_

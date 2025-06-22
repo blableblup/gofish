@@ -1,6 +1,8 @@
 ### First fish per type caught in aquaismissing's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 48  | 🎰 slotmachine | 0.00 | flovrek | 2025-06-21 15:05:16 |
+| 47  | 🛢️ oildrum | 37.07 | rustezzz | 2025-06-21 00:09:40 |
 | 46  | 🧃 beveragebox | 4.42 | aquaismissing | 2025-06-04 09:00:50 |
 | 45  | 🪨 rock | 21.29 | bubinga | 2025-04-28 20:44:15 |
 | 44  | 🪸 coral | 22.57 | bubinga | 2025-03-30 19:43:14 |
@@ -48,4 +50,4 @@
 | 2  | 🪝 hook | 0.88 | vladik4il | 2024-11-26 16:02:08 |
 | 1  | 🧦 socks | 0.82 | aquaismissing | 2024-11-26 15:51:47 |
 
-_Last updated at 2025-06-15 13:32:03 UTC_
+_Last updated at 2025-06-22 09:30:09 UTC_

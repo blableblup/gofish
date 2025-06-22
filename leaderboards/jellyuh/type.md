@@ -26,25 +26,25 @@
 | 23  | 🦀 crab | 35.87 | rainedparade | 2025-05-09 05:06:10 |
 | 24  | 🦫 beaver | 33.44 | goopy777 | 2025-03-17 05:33:26 |
 | 25  | 🐧 penguin | 32.40 | goopy777 | 2025-03-02 23:26:33 |
-| 26  | 🦐 shrimp | 30.77 | rainedparade | 2025-05-21 03:13:07 |
+| 26  | 🦐 shrimp | 31.11 (+0.34) | maavva | 2025-06-19 06:04:55 |
 | 27  | 🪳 cockroach | 22.79 | rainedparade | 2025-05-03 02:44:50 |
 | 28  | 🐡 blowfish | 21.98 | piz_z | 2025-05-12 17:44:07 |
-| 29  | 🐠 tropicalfish | 21.61 | rainedparade | 2025-03-11 21:19:37 |
+| 29  | 🐠 tropicalfish | 21.72 (+0.11) | rainedparade | 2025-06-20 05:18:16 |
 | 30  | 🍄‍🟫 brownmushroom | 21.03 | goopy777 | 2025-01-14 07:15:13 |
 | 30  | 🦠 plankton | 21.03 | rainedparade | 2025-02-25 05:17:44 |
 | 32  | 🕷️ spider | 19.95 | rainedparade | 2025-01-29 09:22:19 |
 | 33  | 🥒 cucumber | 18.76 | rainedparade | 2025-05-26 19:35:02 |
 | 34  | 🍄 mushroom | 17.56 | hello0d | 2025-02-17 14:35:51 |
 | 35  | 🦦 otter | 15.72 | miyabwah | 2025-03-13 22:24:36 |
-| 36 ⬆ | 🧽 sponge | 15.29 (+1.76) | rainedparade | 2025-06-13 02:44:39 |
-| 37 ⬇ | 🪀 bobber | 15.21 | rainedparade | 2025-03-16 18:04:07 |
+| 36  | 🧽 sponge | 15.29 | rainedparade | 2025-06-13 02:44:39 |
+| 37  | 🪀 bobber | 15.21 | rainedparade | 2025-03-16 18:04:07 |
 | 38  | 🪼 jellyfish | 12.12 | e1d2f3 | 2025-05-09 01:13:37 |
 | 39  | 🐌 snail | 11.30 | rainedparade | 2025-04-06 18:41:03 |
 | 40  | 📱 iphone | 10.59 | rainedparade | 2025-03-16 00:27:44 |
-| 41  | 🕶️ darksunglasses | 10.01 (+0.45) | jellyuh | 2025-06-12 08:56:32 |
-| 42 ⬆ | 💀 skull | 9.88 (+0.51) | larvasisters | 2025-06-12 02:52:55 |
-| 43 ⬇ | 🩲 briefs | 9.56 | cptblack_ | 2025-05-09 03:44:38 |
-| 44 ⬇ | 👒 womanshat | 9.46 | rainedparade | 2025-01-25 17:36:59 |
+| 41  | 🕶️ darksunglasses | 10.01 | jellyuh | 2025-06-12 08:56:32 |
+| 42  | 💀 skull | 9.88 | larvasisters | 2025-06-12 02:52:55 |
+| 43  | 🩲 briefs | 9.56 | cptblack_ | 2025-05-09 03:44:38 |
+| 44  | 👒 womanshat | 9.46 | rainedparade | 2025-01-25 17:36:59 |
 | 45  | 🧊 icecube | 9.30 | rainedparade | 2025-02-24 17:25:34 |
 | 46  | 🎱 8ball | 8.42 | teeto | 2025-03-20 22:25:41 |
 | 47  | 🪱 worm | 7.94 | miyabwah | 2025-02-25 05:58:02 |
@@ -77,4 +77,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-06-15 13:38:03 UTC_
+_Last updated at 2025-06-22 09:29:09 UTC_
