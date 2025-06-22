@@ -1,10 +1,10 @@
 {
 	"Name": "sandwichsundays",
 	"Progress": null,
-	"Records": [
-		"11th most fish seen globally 🌐 !",
+	"Noteable records": [
+		"12th most fish seen globally 🌐 !",
 		"5th most fish caught in channel psp1g !",
-		"5th most fish seen in channel psp1g !",
+		"6th most fish seen in channel psp1g !",
 		"11th biggest fish record in channel psp1g !",
 		"19th place on tournament leaderboard in channel psp1g !",
 		"12th most fish caught in channel wuh6 !",
@@ -27,12 +27,12 @@
 		]
 	},
 	"Fish caught in total": {
-		"Total": 1891,
+		"Total": 1893,
 		"Per chat": {
 			"breadworms": 4,
 			"psp1g": 1507,
 			"vaiastol": 8,
-			"wuh6": 372
+			"wuh6": 374
 		}
 	},
 	"Fish caught per year": {
@@ -52,10 +52,10 @@
 			}
 		},
 		"2025": {
-			"Total": 252,
+			"Total": 254,
 			"Per chat": {
 				"psp1g": 4,
-				"wuh6": 248
+				"wuh6": 250
 			}
 		}
 	},
@@ -73,12 +73,12 @@
 			}
 		},
 		"Normal": {
-			"Total": 1810,
+			"Total": 1812,
 			"Per chat": {
 				"breadworms": 4,
 				"psp1g": 1447,
 				"vaiastol": 8,
-				"wuh6": 351
+				"wuh6": 353
 			}
 		},
 		"Release bonus": {
@@ -142,10 +142,10 @@
 			"Chat": "vaiastol"
 		},
 		"wuh6": {
-			"Fish": "🎏 lure",
-			"Weight in lbs": 2.13,
+			"Fish": "🐢 turtle",
+			"Weight in lbs": 0.36,
 			"Catchtype": "Normal",
-			"Date": "2025-06-14 00:19:10 UTC",
+			"Date": "2025-06-20 03:48:12 UTC",
 			"Chat": "wuh6"
 		}
 	},
@@ -253,6 +253,20 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "🐢 turtle",
+			"Weight in lbs": 0.36,
+			"Catchtype": "Normal",
+			"Date": "2025-06-20 03:48:12 UTC",
+			"Chat": "wuh6"
+		},
+		{
+			"Fish": "🦀 crab",
+			"Weight in lbs": 19.63,
+			"Catchtype": "Normal",
+			"Date": "2025-06-19 03:58:18 UTC",
+			"Chat": "wuh6"
+		},
+		{
 			"Fish": "🎏 lure",
 			"Weight in lbs": 2.13,
 			"Catchtype": "Normal",
@@ -307,29 +321,15 @@
 			"Catchtype": "Normal",
 			"Date": "2025-06-05 03:25:59 UTC",
 			"Chat": "wuh6"
-		},
-		{
-			"Fish": "🍄‍🟫 brownmushroom",
-			"Weight in lbs": 10.83,
-			"Catchtype": "Normal",
-			"Date": "2025-06-03 03:47:15 UTC",
-			"Chat": "wuh6"
-		},
-		{
-			"Fish": "🐚 shell",
-			"Weight in lbs": 4.36,
-			"Catchtype": "Normal",
-			"Date": "2025-06-02 02:22:42 UTC",
-			"Chat": "wuh6"
 		}
 	],
 	"Combined weight of all caught fish": {
-		"Total": 39528.28,
+		"Total": 39548.27,
 		"Per chat": {
 			"breadworms": 77.87,
 			"psp1g": 30922.85,
 			"vaiastol": 254.32,
-			"wuh6": 8273.24
+			"wuh6": 8293.23
 		}
 	},
 	"Combined weight of all caught fish per year": {
@@ -349,10 +349,10 @@
 			}
 		},
 		"2025": {
-			"Total": 5950.94,
+			"Total": 5970.93,
 			"Per chat": {
 				"psp1g": 120.7,
-				"wuh6": 5830.24
+				"wuh6": 5850.23
 			}
 		}
 	},
@@ -434,11 +434,12 @@
 			"🪚",
 			"🍬",
 			"🍬",
-			"🎏",
-			"🍬"
+			"🍬",
+			"🪝",
+			"🎏"
 		],
-		"Date": "2025-05-22 20:36:05 UTC",
-		"Chat": "psp1g"
+		"Date": "2025-06-21 00:44:27 UTC",
+		"Chat": "wuh6"
 	},
 	"Count of each item in that bag": {
 		"![SabaPing](https://raw.githubusercontent.com/blableblup/gofish/main/images/shiny/SabaPing.png)": 1,
@@ -450,7 +451,8 @@
 		"📑": 1,
 		"🧦": 33,
 		"🪀": 2,
-		"🪚": 1
+		"🪚": 1,
+		"🪝": 1
 	},
 	"Fish seen in total": {
 		"Total": 81,
@@ -1377,10 +1379,10 @@
 		},
 		"crab 🦀": {
 			"Caught in total": {
-				"Total": 57,
+				"Total": 58,
 				"Per chat": {
 					"psp1g": 43,
-					"wuh6": 14
+					"wuh6": 15
 				}
 			},
 			"Caught per year": {
@@ -1398,18 +1400,18 @@
 					}
 				},
 				"2025": {
-					"Total": 12,
+					"Total": 13,
 					"Per chat": {
-						"wuh6": 12
+						"wuh6": 13
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 57,
+					"Total": 58,
 					"Per chat": {
 						"psp1g": 43,
-						"wuh6": 14
+						"wuh6": 15
 					}
 				}
 			},
@@ -1422,9 +1424,9 @@
 			},
 			"Last catch": {
 				"Fish": "🦀 crab",
-				"Weight in lbs": 0.76,
+				"Weight in lbs": 19.63,
 				"Catchtype": "Normal",
-				"Date": "2025-02-20 19:22:09 UTC",
+				"Date": "2025-06-19 03:58:18 UTC",
 				"Chat": "wuh6"
 			},
 			"Biggest catch": {
@@ -4874,11 +4876,11 @@
 		},
 		"turtle 🐢": {
 			"Caught in total": {
-				"Total": 66,
+				"Total": 67,
 				"Per chat": {
 					"psp1g": 51,
 					"vaiastol": 1,
-					"wuh6": 14
+					"wuh6": 15
 				}
 			},
 			"Caught per year": {
@@ -4897,19 +4899,19 @@
 					}
 				},
 				"2025": {
-					"Total": 7,
+					"Total": 8,
 					"Per chat": {
-						"wuh6": 7
+						"wuh6": 8
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 66,
+					"Total": 67,
 					"Per chat": {
 						"psp1g": 51,
 						"vaiastol": 1,
-						"wuh6": 14
+						"wuh6": 15
 					}
 				}
 			},
@@ -4922,9 +4924,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐢 turtle",
-				"Weight in lbs": 1.06,
+				"Weight in lbs": 0.36,
 				"Catchtype": "Normal",
-				"Date": "2025-06-05 04:19:37 UTC",
+				"Date": "2025-06-20 03:48:12 UTC",
 				"Chat": "wuh6"
 			},
 			"Biggest catch": {
@@ -4936,9 +4938,9 @@
 			},
 			"Smallest catch": {
 				"Fish": "🐢 turtle",
-				"Weight in lbs": 1.06,
+				"Weight in lbs": 0.36,
 				"Catchtype": "Normal",
-				"Date": "2025-06-05 04:19:37 UTC",
+				"Date": "2025-06-20 03:48:12 UTC",
 				"Chat": "wuh6"
 			}
 		},
@@ -5322,12 +5324,16 @@
 	},
 	"Fish they never saw": [
 		"bat 🦇",
+		"bilberries 🫐",
 		"bird 🐦",
 		"blackbird 🐦‍⬛",
 		"blackcat 🐈‍⬛",
+		"caterpillar 🐛",
 		"coat 🧥",
 		"compass 🧭",
+		"fly 🪰",
 		"iphone 📱",
+		"jar 🫙",
 		"mapleleaf 🍁",
 		"mermaid 🧜‍♀️",
 		"owl 🦉",
@@ -5335,13 +5341,14 @@
 		"rose 🌹",
 		"scarf 🧣",
 		"shoppingcart 🛒",
+		"spiderweb 🕸️",
 		"squirrel 🐿️",
 		"swan 🦢",
 		"tulip 🌷",
 		"wiltedflower 🥀",
 		"womanshat 👒"
 	],
-	"Total fish not seen": 19,
+	"Total fish not seen": 24,
 	"Some info": [
 		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
 		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
@@ -5350,5 +5357,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-15 14:18:01 UTC"
+	"Profile last updated at": "2025-06-22 09:55:21 UTC"
 }

@@ -3,20 +3,21 @@
 	"Progress": [
 		"⭐ Has gotten a letter ✉️ ! (Received: 2024-12-24 10:49:35 UTC)"
 	],
-	"Records": [
-		"16th most fish seen in channel breadworms !"
+	"Noteable records": [
+		"14th most fish seen in channel breadworms !"
 	],
 	"Other accomplishments": {
 		"Accomplishments": null,
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 442,
+		"Total": 456,
 		"Per chat": {
 			"6daves": 1,
 			"ajspyman": 1,
-			"breadworms": 438,
+			"breadworms": 451,
 			"dizzy": 1,
+			"omie": 1,
 			"xriggby": 1
 		}
 	},
@@ -44,9 +45,10 @@
 			}
 		},
 		"2025": {
-			"Total": 70,
+			"Total": 84,
 			"Per chat": {
-				"breadworms": 70
+				"breadworms": 83,
+				"omie": 1
 			}
 		}
 	},
@@ -58,19 +60,26 @@
 			}
 		},
 		"Normal": {
-			"Total": 426,
+			"Total": 438,
 			"Per chat": {
 				"6daves": 1,
 				"ajspyman": 1,
-				"breadworms": 422,
+				"breadworms": 433,
 				"dizzy": 1,
+				"omie": 1,
 				"xriggby": 1
 			}
 		},
 		"Release bonus": {
-			"Total": 11,
+			"Total": 12,
 			"Per chat": {
-				"breadworms": 11
+				"breadworms": 12
+			}
+		},
+		"Sonny throw": {
+			"Total": 1,
+			"Per chat": {
+				"breadworms": 1
 			}
 		}
 	},
@@ -103,6 +112,13 @@
 			"Date": "2024-10-22 04:08:11 UTC",
 			"Chat": "dizzy"
 		},
+		"omie": {
+			"Fish": "🎏 lure",
+			"Weight in lbs": 0.37,
+			"Catchtype": "Normal",
+			"Date": "2025-06-18 23:45:39 UTC",
+			"Chat": "omie"
+		},
 		"xriggby": {
 			"Fish": "🐢 turtle",
 			"Weight in lbs": 31.45,
@@ -127,10 +143,10 @@
 			"Chat": "ajspyman"
 		},
 		"breadworms": {
-			"Fish": "🪝 hook",
-			"Weight in lbs": 2.32,
+			"Fish": "🐟 fish",
+			"Weight in lbs": 3.99,
 			"Catchtype": "Normal",
-			"Date": "2025-06-02 22:04:06 UTC",
+			"Date": "2025-06-21 23:53:47 UTC",
 			"Chat": "breadworms"
 		},
 		"dizzy": {
@@ -139,6 +155,13 @@
 			"Catchtype": "Normal",
 			"Date": "2024-10-22 04:08:11 UTC",
 			"Chat": "dizzy"
+		},
+		"omie": {
+			"Fish": "🎏 lure",
+			"Weight in lbs": 0.37,
+			"Catchtype": "Normal",
+			"Date": "2025-06-18 23:45:39 UTC",
+			"Chat": "omie"
 		},
 		"xriggby": {
 			"Fish": "🐢 turtle",
@@ -176,6 +199,13 @@
 			"Catchtype": "Normal",
 			"Date": "2024-10-22 04:08:11 UTC",
 			"Chat": "dizzy"
+		},
+		"omie": {
+			"Fish": "🎏 lure",
+			"Weight in lbs": 0.37,
+			"Catchtype": "Normal",
+			"Date": "2025-06-18 23:45:39 UTC",
+			"Chat": "omie"
 		},
 		"xriggby": {
 			"Fish": "🐢 turtle",
@@ -259,83 +289,84 @@
 	],
 	"Their overall last fish": [
 		{
-			"Fish": "🪝 hook",
-			"Weight in lbs": 2.32,
+			"Fish": "🐟 fish",
+			"Weight in lbs": 3.99,
 			"Catchtype": "Normal",
-			"Date": "2025-06-02 22:04:06 UTC",
+			"Date": "2025-06-21 23:53:47 UTC",
+			"Chat": "breadworms"
+		},
+		{
+			"Fish": "☘️ shamrock",
+			"Weight in lbs": 2.88,
+			"Catchtype": "Normal",
+			"Date": "2025-06-21 23:08:12 UTC",
+			"Chat": "breadworms"
+		},
+		{
+			"Fish": "🦎 lizard",
+			"Weight in lbs": 1.66,
+			"Catchtype": "Normal",
+			"Date": "2025-06-21 16:53:05 UTC",
 			"Chat": "breadworms"
 		},
 		{
 			"Fish": "🪝 hook",
-			"Weight in lbs": 0.68,
-			"Catchtype": "Normal",
-			"Date": "2025-05-04 22:18:47 UTC",
-			"Chat": "breadworms"
-		},
-		{
-			"Fish": "🐌 snail",
-			"Weight in lbs": 1.95,
-			"Catchtype": "Normal",
-			"Date": "2025-05-04 19:22:09 UTC",
-			"Chat": "breadworms"
-		},
-		{
-			"Fish": "🫎 moose",
-			"Weight in lbs": 109.3,
-			"Catchtype": "Normal",
-			"Date": "2025-05-04 18:44:20 UTC",
-			"Chat": "breadworms"
-		},
-		{
-			"Fish": "🦪 oyster",
-			"Weight in lbs": 33.28,
-			"Catchtype": "Normal",
-			"Date": "2025-04-26 22:48:34 UTC",
-			"Chat": "breadworms"
-		},
-		{
-			"Fish": "🐋 whale2",
-			"Weight in lbs": 1.26,
-			"Catchtype": "Normal",
-			"Date": "2025-04-19 21:40:26 UTC",
-			"Chat": "breadworms"
-		},
-		{
-			"Fish": "🐬 dolphin",
-			"Weight in lbs": 82.4,
-			"Catchtype": "Normal",
-			"Date": "2025-04-19 04:03:59 UTC",
-			"Chat": "breadworms"
-		},
-		{
-			"Fish": "🐊 crocodile",
-			"Weight in lbs": 45.99,
-			"Catchtype": "Normal",
-			"Date": "2025-04-11 03:39:40 UTC",
-			"Chat": "breadworms"
-		},
-		{
-			"Fish": "🪀 bobber",
 			"Weight in lbs": 0,
 			"Catchtype": "Release bonus",
-			"Date": "2025-04-10 00:09:39 UTC",
+			"Date": "2025-06-21 07:22:13 UTC",
 			"Chat": "breadworms"
 		},
 		{
-			"Fish": "🐋 whale2",
-			"Weight in lbs": 14.01,
+			"Fish": "🦐 shrimp",
+			"Weight in lbs": 2.34,
 			"Catchtype": "Normal",
-			"Date": "2025-04-10 00:09:25 UTC",
+			"Date": "2025-06-21 07:22:06 UTC",
+			"Chat": "breadworms"
+		},
+		{
+			"Fish": "🫙 jar",
+			"Weight in lbs": 0,
+			"Catchtype": "Sonny throw",
+			"Date": "2025-06-21 06:11:57 UTC",
+			"Chat": "breadworms"
+		},
+		{
+			"Fish": "☘️ shamrock",
+			"Weight in lbs": 0.01,
+			"Catchtype": "Normal",
+			"Date": "2025-06-21 06:09:24 UTC",
+			"Chat": "breadworms"
+		},
+		{
+			"Fish": "🐍 snake",
+			"Weight in lbs": 2.42,
+			"Catchtype": "Normal",
+			"Date": "2025-06-21 04:08:20 UTC",
+			"Chat": "breadworms"
+		},
+		{
+			"Fish": "🎱 8ball",
+			"Weight in lbs": 9.56,
+			"Catchtype": "Normal",
+			"Date": "2025-06-21 00:50:33 UTC",
+			"Chat": "breadworms"
+		},
+		{
+			"Fish": "🧵 wireline",
+			"Weight in lbs": 2.23,
+			"Catchtype": "Normal",
+			"Date": "2025-06-21 00:03:43 UTC",
 			"Chat": "breadworms"
 		}
 	],
 	"Combined weight of all caught fish": {
-		"Total": 9508.65,
+		"Total": 9566.94,
 		"Per chat": {
 			"6daves": 8.72,
 			"ajspyman": 0.34,
-			"breadworms": 9466.81,
+			"breadworms": 9524.73,
 			"dizzy": 1.33,
+			"omie": 0.37,
 			"xriggby": 31.45
 		}
 	},
@@ -363,9 +394,10 @@
 			}
 		},
 		"2025": {
-			"Total": 1872.23,
+			"Total": 1930.52,
 			"Per chat": {
-				"breadworms": 1872.23
+				"breadworms": 1930.15,
+				"omie": 0.37
 			}
 		}
 	},
@@ -418,21 +450,32 @@
 			"🪀",
 			"🦪",
 			"🫎",
-			"🪝",
-			"🐢"
+			"🐢",
+			"🌾",
+			"👡",
+			"🍃",
+			"🎏",
+			"🧵",
+			"🎱",
+			"☘️",
+			"🫙"
 		],
-		"Date": "2025-06-02 21:36:03 UTC",
+		"Date": "2025-06-21 23:08:08 UTC",
 		"Chat": "breadworms"
 	},
 	"Count of each item in that bag": {
+		"☘️": 1,
 		"⛸️": 1,
 		"✉️": 1,
 		"🌰": 4,
 		"🌷": 1,
+		"🌾": 1,
 		"🍁": 1,
+		"🍃": 1,
 		"🍬": 4,
 		"🎀": 1,
-		"🎱": 1,
+		"🎏": 1,
+		"🎱": 2,
 		"🐈‍⬛": 1,
 		"🐉": 1,
 		"🐚": 1,
@@ -441,6 +484,7 @@
 		"🐦‍⬛": 1,
 		"🐧": 1,
 		"🐳": 1,
+		"👡": 1,
 		"📑": 1,
 		"📱": 2,
 		"🗡️": 1,
@@ -457,28 +501,29 @@
 		"🧜‍♀️": 1,
 		"🧟": 1,
 		"🧣": 1,
-		"🧵": 1,
+		"🧵": 2,
 		"🪀": 5,
-		"🪝": 1,
 		"🪼": 1,
-		"🫎": 1
+		"🫎": 1,
+		"🫙": 1
 	},
 	"Fish seen in total": {
-		"Total": 73,
+		"Total": 74,
 		"Per chat": {
 			"6daves": 1,
 			"ajspyman": 1,
-			"breadworms": 73,
+			"breadworms": 74,
 			"dizzy": 1,
+			"omie": 1,
 			"xriggby": 1
 		}
 	},
 	"Data about each of their seen fish": {
 		"8ball 🎱": {
 			"Caught in total": {
-				"Total": 6,
+				"Total": 7,
 				"Per chat": {
-					"breadworms": 6
+					"breadworms": 7
 				}
 			},
 			"Caught per year": {
@@ -489,17 +534,17 @@
 					}
 				},
 				"2025": {
-					"Total": 1,
+					"Total": 2,
 					"Per chat": {
-						"breadworms": 1
+						"breadworms": 2
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 6,
+					"Total": 7,
 					"Per chat": {
-						"breadworms": 6
+						"breadworms": 7
 					}
 				}
 			},
@@ -512,16 +557,16 @@
 			},
 			"Last catch": {
 				"Fish": "🎱 8ball",
-				"Weight in lbs": 9.2,
+				"Weight in lbs": 9.56,
 				"Catchtype": "Normal",
-				"Date": "2025-03-13 04:33:19 UTC",
+				"Date": "2025-06-21 00:50:33 UTC",
 				"Chat": "breadworms"
 			},
 			"Biggest catch": {
 				"Fish": "🎱 8ball",
-				"Weight in lbs": 9.2,
+				"Weight in lbs": 9.56,
 				"Catchtype": "Normal",
-				"Date": "2025-03-13 04:33:19 UTC",
+				"Date": "2025-06-21 00:50:33 UTC",
 				"Chat": "breadworms"
 			},
 			"Smallest catch": {
@@ -1341,9 +1386,9 @@
 		},
 		"coral 🪸": {
 			"Caught in total": {
-				"Total": 5,
+				"Total": 6,
 				"Per chat": {
-					"breadworms": 5
+					"breadworms": 6
 				}
 			},
 			"Caught per year": {
@@ -1364,13 +1409,19 @@
 					"Per chat": {
 						"breadworms": 2
 					}
+				},
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"breadworms": 1
+					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 5,
+					"Total": 6,
 					"Per chat": {
-						"breadworms": 5
+						"breadworms": 6
 					}
 				}
 			},
@@ -1383,9 +1434,9 @@
 			},
 			"Last catch": {
 				"Fish": "🪸 coral",
-				"Weight in lbs": 36,
+				"Weight in lbs": 15.75,
 				"Catchtype": "Normal",
-				"Date": "2024-07-24 04:14:46 UTC",
+				"Date": "2025-06-20 03:43:49 UTC",
 				"Chat": "breadworms"
 			},
 			"Biggest catch": {
@@ -1832,9 +1883,9 @@
 		},
 		"fish 🐟": {
 			"Caught in total": {
-				"Total": 62,
+				"Total": 63,
 				"Per chat": {
-					"breadworms": 62
+					"breadworms": 63
 				}
 			},
 			"Caught per year": {
@@ -1857,17 +1908,17 @@
 					}
 				},
 				"2025": {
-					"Total": 7,
+					"Total": 8,
 					"Per chat": {
-						"breadworms": 7
+						"breadworms": 8
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 62,
+					"Total": 63,
 					"Per chat": {
-						"breadworms": 62
+						"breadworms": 63
 					}
 				}
 			},
@@ -1880,9 +1931,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐟 fish",
-				"Weight in lbs": 16.46,
+				"Weight in lbs": 3.99,
 				"Catchtype": "Normal",
-				"Date": "2025-03-21 02:17:45 UTC",
+				"Date": "2025-06-21 23:53:47 UTC",
 				"Chat": "breadworms"
 			},
 			"Biggest catch": {
@@ -1902,9 +1953,9 @@
 		},
 		"frog 🐸": {
 			"Caught in total": {
-				"Total": 5,
+				"Total": 6,
 				"Per chat": {
-					"breadworms": 5
+					"breadworms": 6
 				}
 			},
 			"Caught per year": {
@@ -1925,13 +1976,19 @@
 					"Per chat": {
 						"breadworms": 1
 					}
+				},
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"breadworms": 1
+					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 5,
+					"Total": 6,
 					"Per chat": {
-						"breadworms": 5
+						"breadworms": 6
 					}
 				}
 			},
@@ -1944,9 +2001,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐸 frog",
-				"Weight in lbs": 0.68,
+				"Weight in lbs": 2.31,
 				"Catchtype": "Normal",
-				"Date": "2024-03-31 23:22:28 UTC",
+				"Date": "2025-06-20 23:01:34 UTC",
 				"Chat": "breadworms"
 			},
 			"Biggest catch": {
@@ -1966,10 +2023,10 @@
 		},
 		"hook 🪝": {
 			"Caught in total": {
-				"Total": 25,
+				"Total": 26,
 				"Per chat": {
 					"ajspyman": 1,
-					"breadworms": 24
+					"breadworms": 25
 				}
 			},
 			"Caught per year": {
@@ -1993,9 +2050,9 @@
 					}
 				},
 				"2025": {
-					"Total": 5,
+					"Total": 6,
 					"Per chat": {
-						"breadworms": 5
+						"breadworms": 6
 					}
 				}
 			},
@@ -2008,9 +2065,9 @@
 					}
 				},
 				"Release bonus": {
-					"Total": 2,
+					"Total": 3,
 					"Per chat": {
-						"breadworms": 2
+						"breadworms": 3
 					}
 				}
 			},
@@ -2023,9 +2080,9 @@
 			},
 			"Last catch": {
 				"Fish": "🪝 hook",
-				"Weight in lbs": 2.32,
-				"Catchtype": "Normal",
-				"Date": "2025-06-02 22:04:06 UTC",
+				"Weight in lbs": 0,
+				"Catchtype": "Release bonus",
+				"Date": "2025-06-21 07:22:13 UTC",
 				"Chat": "breadworms"
 			},
 			"Biggest catch": {
@@ -2205,6 +2262,53 @@
 				"Chat": "breadworms"
 			}
 		},
+		"jar 🫙": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"breadworms": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"breadworms": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Sonny throw": {
+					"Total": 1,
+					"Per chat": {
+						"breadworms": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🫙 jar",
+				"Weight in lbs": 0,
+				"Catchtype": "Sonny throw",
+				"Date": "2025-06-21 06:11:57 UTC",
+				"Chat": "breadworms",
+				"Record": [
+					"🥇 First ever 🫙 jar caught in channel breadworms !"
+				]
+			},
+			"Last catch": {
+				"Fish": "🫙 jar",
+				"Weight in lbs": 0,
+				"Catchtype": "Sonny throw",
+				"Date": "2025-06-21 06:11:57 UTC",
+				"Chat": "breadworms"
+			},
+			"Biggest catch": {
+				"Weight in lbs": 0
+			},
+			"Smallest catch": {
+				"Weight in lbs": 0
+			}
+		},
 		"jellyfish 🪼": {
 			"Caught in total": {
 				"Total": 1,
@@ -2259,9 +2363,9 @@
 		},
 		"lizard 🦎": {
 			"Caught in total": {
-				"Total": 9,
+				"Total": 10,
 				"Per chat": {
-					"breadworms": 9
+					"breadworms": 10
 				}
 			},
 			"Caught per year": {
@@ -2272,17 +2376,17 @@
 					}
 				},
 				"2025": {
-					"Total": 3,
+					"Total": 4,
 					"Per chat": {
-						"breadworms": 3
+						"breadworms": 4
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 9,
+					"Total": 10,
 					"Per chat": {
-						"breadworms": 9
+						"breadworms": 10
 					}
 				}
 			},
@@ -2295,9 +2399,9 @@
 			},
 			"Last catch": {
 				"Fish": "🦎 lizard",
-				"Weight in lbs": 4.15,
+				"Weight in lbs": 1.66,
 				"Catchtype": "Normal",
-				"Date": "2025-03-15 14:03:32 UTC",
+				"Date": "2025-06-21 16:53:05 UTC",
 				"Chat": "breadworms"
 			},
 			"Biggest catch": {
@@ -2433,9 +2537,10 @@
 		},
 		"lure 🎏": {
 			"Caught in total": {
-				"Total": 27,
+				"Total": 28,
 				"Per chat": {
-					"breadworms": 27
+					"breadworms": 27,
+					"omie": 1
 				}
 			},
 			"Caught per year": {
@@ -2452,17 +2557,19 @@
 					}
 				},
 				"2025": {
-					"Total": 1,
+					"Total": 2,
 					"Per chat": {
-						"breadworms": 1
+						"breadworms": 1,
+						"omie": 1
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 22,
+					"Total": 23,
 					"Per chat": {
-						"breadworms": 22
+						"breadworms": 22,
+						"omie": 1
 					}
 				},
 				"Release bonus": {
@@ -2481,10 +2588,10 @@
 			},
 			"Last catch": {
 				"Fish": "🎏 lure",
-				"Weight in lbs": 1.75,
+				"Weight in lbs": 0.37,
 				"Catchtype": "Normal",
-				"Date": "2025-03-17 02:22:37 UTC",
-				"Chat": "breadworms"
+				"Date": "2025-06-18 23:45:39 UTC",
+				"Chat": "omie"
 			},
 			"Biggest catch": {
 				"Fish": "🎏 lure",
@@ -3417,9 +3524,9 @@
 		},
 		"shamrock ☘️": {
 			"Caught in total": {
-				"Total": 7,
+				"Total": 9,
 				"Per chat": {
-					"breadworms": 7
+					"breadworms": 9
 				}
 			},
 			"Caught per year": {
@@ -3430,17 +3537,17 @@
 					}
 				},
 				"2025": {
-					"Total": 1,
+					"Total": 3,
 					"Per chat": {
-						"breadworms": 1
+						"breadworms": 3
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 7,
+					"Total": 9,
 					"Per chat": {
-						"breadworms": 7
+						"breadworms": 9
 					}
 				}
 			},
@@ -3453,9 +3560,9 @@
 			},
 			"Last catch": {
 				"Fish": "☘️ shamrock",
-				"Weight in lbs": 2.7,
+				"Weight in lbs": 2.88,
 				"Catchtype": "Normal",
-				"Date": "2025-03-15 12:23:30 UTC",
+				"Date": "2025-06-21 23:08:12 UTC",
 				"Chat": "breadworms"
 			},
 			"Biggest catch": {
@@ -3467,9 +3574,9 @@
 			},
 			"Smallest catch": {
 				"Fish": "☘️ shamrock",
-				"Weight in lbs": 0.06,
+				"Weight in lbs": 0.01,
 				"Catchtype": "Normal",
-				"Date": "2024-03-28 08:28:22 UTC",
+				"Date": "2025-06-21 06:09:24 UTC",
 				"Chat": "breadworms"
 			}
 		},
@@ -3603,9 +3710,9 @@
 		},
 		"shrimp 🦐": {
 			"Caught in total": {
-				"Total": 18,
+				"Total": 19,
 				"Per chat": {
-					"breadworms": 18
+					"breadworms": 19
 				}
 			},
 			"Caught per year": {
@@ -3628,17 +3735,17 @@
 					}
 				},
 				"2025": {
-					"Total": 4,
+					"Total": 5,
 					"Per chat": {
-						"breadworms": 4
+						"breadworms": 5
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 18,
+					"Total": 19,
 					"Per chat": {
-						"breadworms": 18
+						"breadworms": 19
 					}
 				}
 			},
@@ -3651,9 +3758,9 @@
 			},
 			"Last catch": {
 				"Fish": "🦐 shrimp",
-				"Weight in lbs": 0.2,
+				"Weight in lbs": 2.34,
 				"Catchtype": "Normal",
-				"Date": "2025-03-31 05:45:01 UTC",
+				"Date": "2025-06-21 07:22:06 UTC",
 				"Chat": "breadworms"
 			},
 			"Biggest catch": {
@@ -3833,9 +3940,9 @@
 		},
 		"snake 🐍": {
 			"Caught in total": {
-				"Total": 7,
+				"Total": 9,
 				"Per chat": {
-					"breadworms": 7
+					"breadworms": 9
 				}
 			},
 			"Caught per year": {
@@ -3844,13 +3951,19 @@
 					"Per chat": {
 						"breadworms": 7
 					}
+				},
+				"2025": {
+					"Total": 2,
+					"Per chat": {
+						"breadworms": 2
+					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 7,
+					"Total": 9,
 					"Per chat": {
-						"breadworms": 7
+						"breadworms": 9
 					}
 				}
 			},
@@ -3863,16 +3976,16 @@
 			},
 			"Last catch": {
 				"Fish": "🐍 snake",
-				"Weight in lbs": 3.86,
+				"Weight in lbs": 2.42,
 				"Catchtype": "Normal",
-				"Date": "2024-09-28 06:30:13 UTC",
+				"Date": "2025-06-21 04:08:20 UTC",
 				"Chat": "breadworms"
 			},
 			"Biggest catch": {
 				"Fish": "🐍 snake",
-				"Weight in lbs": 8.55,
+				"Weight in lbs": 14.77,
 				"Catchtype": "Normal",
-				"Date": "2024-09-27 00:50:56 UTC",
+				"Date": "2025-06-20 17:23:18 UTC",
 				"Chat": "breadworms"
 			},
 			"Smallest catch": {
@@ -4560,9 +4673,9 @@
 		},
 		"wireline 🧵": {
 			"Caught in total": {
-				"Total": 6,
+				"Total": 7,
 				"Per chat": {
-					"breadworms": 6
+					"breadworms": 7
 				}
 			},
 			"Caught per year": {
@@ -4571,13 +4684,19 @@
 					"Per chat": {
 						"breadworms": 6
 					}
+				},
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"breadworms": 1
+					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 6,
+					"Total": 7,
 					"Per chat": {
-						"breadworms": 6
+						"breadworms": 7
 					}
 				}
 			},
@@ -4590,9 +4709,9 @@
 			},
 			"Last catch": {
 				"Fish": "🧵 wireline",
-				"Weight in lbs": 3.76,
+				"Weight in lbs": 2.23,
 				"Catchtype": "Normal",
-				"Date": "2024-12-23 16:37:59 UTC",
+				"Date": "2025-06-21 00:03:43 UTC",
 				"Chat": "breadworms"
 			},
 			"Biggest catch": {
@@ -4774,13 +4893,16 @@
 		"athleticshoe 👟",
 		"balletshoes 🩰",
 		"beveragebox 🧃",
+		"bilberries 🫐",
 		"briefs 🩲",
 		"brownmushroom 🍄‍🟫",
+		"caterpillar 🐛",
 		"coat 🧥",
 		"crown 👑",
 		"darksunglasses 🕶️",
 		"emptynest 🪹",
 		"feather 🪶",
+		"fly 🪰",
 		"gloves 🧤",
 		"goose 🪿",
 		"grass 🌾",
@@ -4793,13 +4915,14 @@
 		"sandal 👡",
 		"sandwich 🥪",
 		"shoppingcart 🛒",
+		"spiderweb 🕸️",
 		"squirrel 🐿️",
 		"swan 🦢",
 		"thongsandal 🩴",
 		"umbrella ☂️",
 		"wiltedflower 🥀"
 	],
-	"Total fish not seen": 27,
+	"Total fish not seen": 31,
 	"Some info": [
 		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
 		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
@@ -4808,5 +4931,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-15 14:18:01 UTC"
+	"Profile last updated at": "2025-06-22 09:55:21 UTC"
 }

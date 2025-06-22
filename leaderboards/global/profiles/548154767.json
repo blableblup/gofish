@@ -3,7 +3,7 @@
 	"Progress": [
 		"🌟 Has encountered all the mythical fish: 🧞‍♂ malegenie 🧜‍♀️ mermaid 🦕 sauropod 🐉 dragon !"
 	],
-	"Records": [
+	"Noteable records": [
 		"🥇 Most fish caught in channel julialuxel !",
 		"🥈 Second most fish seen in channel julialuxel !",
 		"4th biggest fish record in channel julialuxel !",
@@ -18,11 +18,11 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 1578,
+		"Total": 1580,
 		"Per chat": {
 			"julialuxel": 99,
 			"psp1g": 255,
-			"vaiastol": 1224
+			"vaiastol": 1226
 		}
 	},
 	"Fish caught per year": {
@@ -42,9 +42,9 @@
 			}
 		},
 		"2025": {
-			"Total": 541,
+			"Total": 543,
 			"Per chat": {
-				"vaiastol": 541
+				"vaiastol": 543
 			}
 		}
 	},
@@ -56,11 +56,11 @@
 			}
 		},
 		"Normal": {
-			"Total": 1533,
+			"Total": 1535,
 			"Per chat": {
 				"julialuxel": 97,
 				"psp1g": 245,
-				"vaiastol": 1191
+				"vaiastol": 1193
 			}
 		},
 		"Release bonus": {
@@ -111,10 +111,10 @@
 			"Chat": "psp1g"
 		},
 		"vaiastol": {
-			"Fish": "🦑 squid",
-			"Weight in lbs": 82.48,
+			"Fish": "🦐 shrimp",
+			"Weight in lbs": 6.05,
 			"Catchtype": "Normal",
-			"Date": "2025-06-14 23:17:32 UTC",
+			"Date": "2025-06-19 21:55:09 UTC",
 			"Chat": "vaiastol"
 		}
 	},
@@ -215,6 +215,20 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "🦐 shrimp",
+			"Weight in lbs": 6.05,
+			"Catchtype": "Normal",
+			"Date": "2025-06-19 21:55:09 UTC",
+			"Chat": "vaiastol"
+		},
+		{
+			"Fish": "🐌 snail",
+			"Weight in lbs": 4.48,
+			"Catchtype": "Normal",
+			"Date": "2025-06-19 14:02:41 UTC",
+			"Chat": "vaiastol"
+		},
+		{
 			"Fish": "🦑 squid",
 			"Weight in lbs": 82.48,
 			"Catchtype": "Normal",
@@ -269,28 +283,14 @@
 			"Catchtype": "Normal",
 			"Date": "2025-06-12 22:55:16 UTC",
 			"Chat": "vaiastol"
-		},
-		{
-			"Fish": "🪳 cockroach",
-			"Weight in lbs": 4.39,
-			"Catchtype": "Normal",
-			"Date": "2025-06-11 22:51:44 UTC",
-			"Chat": "vaiastol"
-		},
-		{
-			"Fish": "🪝 hook",
-			"Weight in lbs": 0,
-			"Catchtype": "Release bonus",
-			"Date": "2025-06-10 23:28:12 UTC",
-			"Chat": "vaiastol"
 		}
 	],
 	"Combined weight of all caught fish": {
-		"Total": 31422.65,
+		"Total": 31433.18,
 		"Per chat": {
 			"julialuxel": 1737.5,
 			"psp1g": 5331.35,
-			"vaiastol": 24353.8
+			"vaiastol": 24364.33
 		}
 	},
 	"Combined weight of all caught fish per year": {
@@ -310,9 +310,9 @@
 			}
 		},
 		"2025": {
-			"Total": 12107.85,
+			"Total": 12118.38,
 			"Per chat": {
-				"vaiastol": 12107.85
+				"vaiastol": 12118.38
 			}
 		}
 	},
@@ -3910,11 +3910,11 @@
 		},
 		"shrimp 🦐": {
 			"Caught in total": {
-				"Total": 60,
+				"Total": 61,
 				"Per chat": {
 					"julialuxel": 3,
 					"psp1g": 12,
-					"vaiastol": 45
+					"vaiastol": 46
 				}
 			},
 			"Caught per year": {
@@ -3927,19 +3927,19 @@
 					}
 				},
 				"2025": {
-					"Total": 18,
+					"Total": 19,
 					"Per chat": {
-						"vaiastol": 18
+						"vaiastol": 19
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 60,
+					"Total": 61,
 					"Per chat": {
 						"julialuxel": 3,
 						"psp1g": 12,
-						"vaiastol": 45
+						"vaiastol": 46
 					}
 				}
 			},
@@ -3952,9 +3952,9 @@
 			},
 			"Last catch": {
 				"Fish": "🦐 shrimp",
-				"Weight in lbs": 28.45,
+				"Weight in lbs": 6.05,
 				"Catchtype": "Normal",
-				"Date": "2025-05-16 16:43:27 UTC",
+				"Date": "2025-06-19 21:55:09 UTC",
 				"Chat": "vaiastol"
 			},
 			"Biggest catch": {
@@ -4082,10 +4082,10 @@
 		},
 		"snail 🐌": {
 			"Caught in total": {
-				"Total": 21,
+				"Total": 22,
 				"Per chat": {
 					"psp1g": 3,
-					"vaiastol": 18
+					"vaiastol": 19
 				}
 			},
 			"Caught per year": {
@@ -4097,18 +4097,18 @@
 					}
 				},
 				"2025": {
-					"Total": 8,
+					"Total": 9,
 					"Per chat": {
-						"vaiastol": 8
+						"vaiastol": 9
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 21,
+					"Total": 22,
 					"Per chat": {
 						"psp1g": 3,
-						"vaiastol": 18
+						"vaiastol": 19
 					}
 				}
 			},
@@ -4121,9 +4121,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐌 snail",
-				"Weight in lbs": 0.33,
+				"Weight in lbs": 4.48,
 				"Catchtype": "Normal",
-				"Date": "2025-03-20 12:20:52 UTC",
+				"Date": "2025-06-19 14:02:41 UTC",
 				"Chat": "vaiastol"
 			},
 			"Biggest catch": {
@@ -5179,15 +5179,19 @@
 	},
 	"Fish they never saw": [
 		"bat 🦇",
+		"bilberries 🫐",
 		"bird 🐦",
 		"blackbird 🐦‍⬛",
 		"brownmushroom 🍄‍🟫",
+		"caterpillar 🐛",
 		"coat 🧥",
 		"compass 🧭",
 		"crown 👑",
 		"emptynest 🪹",
+		"fly 🪰",
 		"goose 🪿",
 		"grass 🌾",
+		"jar 🫙",
 		"leaf 🍃",
 		"mapleleaf 🍁",
 		"moose 🫎",
@@ -5197,13 +5201,14 @@
 		"rat 🐀",
 		"rose 🌹",
 		"shoppingcart 🛒",
+		"spiderweb 🕸️",
 		"squirrel 🐿️",
 		"sunflower 🌻",
 		"swan 🦢",
 		"wireline 🧵",
 		"zombie 🧟"
 	],
-	"Total fish not seen": 24,
+	"Total fish not seen": 29,
 	"Some info": [
 		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
 		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
@@ -5212,5 +5217,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-15 14:18:01 UTC"
+	"Profile last updated at": "2025-06-22 09:55:21 UTC"
 }

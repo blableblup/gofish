@@ -1,15 +1,15 @@
 {
 	"Name": "houseofleaves",
 	"Progress": null,
-	"Records": null,
+	"Noteable records": null,
 	"Other accomplishments": {
 		"Accomplishments": null,
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 294,
+		"Total": 295,
 		"Per chat": {
-			"breadworms": 265,
+			"breadworms": 266,
 			"psp1g": 1,
 			"swormbeard": 1,
 			"vaiastol": 27
@@ -32,9 +32,9 @@
 			}
 		},
 		"2025": {
-			"Total": 46,
+			"Total": 47,
 			"Per chat": {
-				"breadworms": 44,
+				"breadworms": 45,
 				"vaiastol": 2
 			}
 		}
@@ -47,9 +47,9 @@
 			}
 		},
 		"Normal": {
-			"Total": 282,
+			"Total": 283,
 			"Per chat": {
-				"breadworms": 253,
+				"breadworms": 254,
 				"psp1g": 1,
 				"swormbeard": 1,
 				"vaiastol": 27
@@ -94,10 +94,10 @@
 	},
 	"Their last fish per chat": {
 		"breadworms": {
-			"Fish": "🐢 turtle",
-			"Weight in lbs": 65.97,
+			"Fish": "🦞 lobster",
+			"Weight in lbs": 8.41,
 			"Catchtype": "Normal",
-			"Date": "2025-06-03 12:44:44 UTC",
+			"Date": "2025-06-21 12:49:22 UTC",
 			"Chat": "breadworms"
 		},
 		"psp1g": {
@@ -226,6 +226,13 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "🦞 lobster",
+			"Weight in lbs": 8.41,
+			"Catchtype": "Normal",
+			"Date": "2025-06-21 12:49:22 UTC",
+			"Chat": "breadworms"
+		},
+		{
 			"Fish": "🐢 turtle",
 			"Weight in lbs": 65.97,
 			"Catchtype": "Normal",
@@ -287,19 +294,12 @@
 			"Catchtype": "Normal",
 			"Date": "2025-05-24 00:12:26 UTC",
 			"Chat": "breadworms"
-		},
-		{
-			"Fish": "🦀 crab",
-			"Weight in lbs": 1.32,
-			"Catchtype": "Normal",
-			"Date": "2025-05-23 23:38:33 UTC",
-			"Chat": "breadworms"
 		}
 	],
 	"Combined weight of all caught fish": {
-		"Total": 5311.04,
+		"Total": 5319.45,
 		"Per chat": {
-			"breadworms": 4926.46,
+			"breadworms": 4934.87,
 			"psp1g": 3.64,
 			"swormbeard": 4.94,
 			"vaiastol": 376
@@ -322,9 +322,9 @@
 			}
 		},
 		"2025": {
-			"Total": 530.1,
+			"Total": 538.51,
 			"Per chat": {
-				"breadworms": 506.08,
+				"breadworms": 514.49,
 				"vaiastol": 24.02
 			}
 		}
@@ -348,10 +348,9 @@
 			"🪝",
 			"🐌",
 			"🪝",
-			"🐟",
-			"🪳"
+			"🐟"
 		],
-		"Date": "2025-05-28 23:05:31 UTC",
+		"Date": "2025-06-20 10:17:26 UTC",
 		"Chat": "breadworms"
 	},
 	"Count of each item in that bag": {
@@ -364,8 +363,7 @@
 		"🗡️": 1,
 		"🧽": 4,
 		"🪀": 3,
-		"🪝": 2,
-		"🪳": 1
+		"🪝": 2
 	},
 	"Fish seen in total": {
 		"Total": 52,
@@ -1709,9 +1707,9 @@
 		},
 		"lobster 🦞": {
 			"Caught in total": {
-				"Total": 8,
+				"Total": 9,
 				"Per chat": {
-					"breadworms": 7,
+					"breadworms": 8,
 					"vaiastol": 1
 				}
 			},
@@ -1723,18 +1721,18 @@
 					}
 				},
 				"2025": {
-					"Total": 3,
+					"Total": 4,
 					"Per chat": {
-						"breadworms": 2,
+						"breadworms": 3,
 						"vaiastol": 1
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 8,
+					"Total": 9,
 					"Per chat": {
-						"breadworms": 7,
+						"breadworms": 8,
 						"vaiastol": 1
 					}
 				}
@@ -1748,10 +1746,10 @@
 			},
 			"Last catch": {
 				"Fish": "🦞 lobster",
-				"Weight in lbs": 23.9,
+				"Weight in lbs": 8.41,
 				"Catchtype": "Normal",
-				"Date": "2025-05-11 15:57:01 UTC",
-				"Chat": "vaiastol"
+				"Date": "2025-06-21 12:49:22 UTC",
+				"Chat": "breadworms"
 			},
 			"Biggest catch": {
 				"Fish": "🦞 lobster",
@@ -3306,6 +3304,7 @@
 		"balletshoes 🩰",
 		"bat 🦇",
 		"beaver 🦫",
+		"bilberries 🫐",
 		"blackbird 🐦‍⬛",
 		"blackcat 🐈‍⬛",
 		"boot 👢",
@@ -3313,14 +3312,17 @@
 		"brownmushroom 🍄‍🟫",
 		"cannedfood 🥫",
 		"carpentrysaw 🪚",
+		"caterpillar 🐛",
 		"coat 🧥",
 		"compass 🧭",
 		"crown 👑",
 		"feather 🪶",
+		"fly 🪰",
 		"goose 🪿",
 		"grass 🌾",
 		"icecube 🧊",
 		"iceskate ⛸️",
+		"jar 🫙",
 		"leaf 🍃",
 		"lizard 🦎",
 		"malegenie 🧞‍♂",
@@ -3341,6 +3343,7 @@
 		"seaweed 🌿",
 		"shoppingcart 🛒",
 		"slotmachine 🎰",
+		"spiderweb 🕸️",
 		"squirrel 🐿️",
 		"sunflower 🌻",
 		"swan 🦢",
@@ -3351,7 +3354,7 @@
 		"womanshat 👒",
 		"zombie 🧟"
 	],
-	"Total fish not seen": 48,
+	"Total fish not seen": 53,
 	"Some info": [
 		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
 		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
@@ -3360,5 +3363,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-15 14:18:01 UTC"
+	"Profile last updated at": "2025-06-22 09:55:21 UTC"
 }

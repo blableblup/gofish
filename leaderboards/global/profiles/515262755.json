@@ -1,19 +1,19 @@
 {
 	"Name": "velantix",
 	"Progress": null,
-	"Records": [
-		"9th most fish caught in channel aquaismissing !",
-		"8th most fish seen in channel aquaismissing !",
-		"6th biggest fish record in channel aquaismissing !"
+	"Noteable records": [
+		"8th most fish caught in channel aquaismissing !",
+		"7th most fish seen in channel aquaismissing !",
+		"🥇 Biggest fish record in channel aquaismissing !"
 	],
 	"Other accomplishments": {
 		"Accomplishments": null,
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 412,
+		"Total": 413,
 		"Per chat": {
-			"aquaismissing": 18,
+			"aquaismissing": 19,
 			"psp1g": 394
 		}
 	},
@@ -32,17 +32,17 @@
 			}
 		},
 		"2025": {
-			"Total": 13,
+			"Total": 14,
 			"Per chat": {
-				"aquaismissing": 13
+				"aquaismissing": 14
 			}
 		}
 	},
 	"Fish caught per catchtype": {
 		"Normal": {
-			"Total": 399,
+			"Total": 400,
 			"Per chat": {
-				"aquaismissing": 17,
+				"aquaismissing": 18,
 				"psp1g": 382
 			}
 		},
@@ -72,10 +72,10 @@
 	},
 	"Their last fish per chat": {
 		"aquaismissing": {
-			"Fish": "🐟 fish",
-			"Weight in lbs": 12.05,
+			"Fish": "🦕 sauropod",
+			"Weight in lbs": 152.06,
 			"Catchtype": "Normal",
-			"Date": "2025-05-13 15:23:31 UTC",
+			"Date": "2025-06-19 15:19:36 UTC",
 			"Chat": "aquaismissing"
 		},
 		"psp1g": {
@@ -88,10 +88,10 @@
 	},
 	"Their biggest fish per chat": {
 		"aquaismissing": {
-			"Fish": "🐊 crocodile",
-			"Weight in lbs": 94.1,
+			"Fish": "🦕 sauropod",
+			"Weight in lbs": 152.06,
 			"Catchtype": "Normal",
-			"Date": "2025-02-09 20:10:49 UTC",
+			"Date": "2025-06-19 15:19:36 UTC",
 			"Chat": "aquaismissing"
 		},
 		"psp1g": {
@@ -116,6 +116,13 @@
 			"Catchtype": "Normal",
 			"Date": "2024-05-31 00:17:45 UTC",
 			"Chat": "psp1g"
+		},
+		{
+			"Fish": "🦕 sauropod",
+			"Weight in lbs": 152.06,
+			"Catchtype": "Normal",
+			"Date": "2025-06-19 15:19:36 UTC",
+			"Chat": "aquaismissing"
 		},
 		{
 			"Fish": "🐋 whale2",
@@ -165,16 +172,16 @@
 			"Catchtype": "Normal",
 			"Date": "2024-11-03 14:23:41 UTC",
 			"Chat": "psp1g"
-		},
-		{
-			"Fish": "🐋 whale2",
-			"Weight in lbs": 97.12,
-			"Catchtype": "Normal",
-			"Date": "2024-12-12 06:04:04 UTC",
-			"Chat": "psp1g"
 		}
 	],
 	"Their overall last fish": [
+		{
+			"Fish": "🦕 sauropod",
+			"Weight in lbs": 152.06,
+			"Catchtype": "Normal",
+			"Date": "2025-06-19 15:19:36 UTC",
+			"Chat": "aquaismissing"
+		},
 		{
 			"Fish": "🐟 fish",
 			"Weight in lbs": 12.05,
@@ -237,19 +244,12 @@
 			"Catchtype": "Normal",
 			"Date": "2025-02-09 20:10:49 UTC",
 			"Chat": "aquaismissing"
-		},
-		{
-			"Fish": "🐊 crocodile",
-			"Weight in lbs": 63.68,
-			"Catchtype": "Normal",
-			"Date": "2025-02-04 14:40:31 UTC",
-			"Chat": "aquaismissing"
 		}
 	],
 	"Combined weight of all caught fish": {
-		"Total": 6511.35,
+		"Total": 6663.41,
 		"Per chat": {
-			"aquaismissing": 344.32,
+			"aquaismissing": 496.38,
 			"psp1g": 6167.03
 		}
 	},
@@ -268,9 +268,9 @@
 			}
 		},
 		"2025": {
-			"Total": 321.34,
+			"Total": 473.4,
 			"Per chat": {
-				"aquaismissing": 321.34
+				"aquaismissing": 473.4
 			}
 		}
 	},
@@ -333,7 +333,7 @@
 			"🪝",
 			"🐟"
 		],
-		"Date": "2025-05-13 15:23:37 UTC",
+		"Date": "2025-06-19 15:41:14 UTC",
 		"Chat": "aquaismissing"
 	},
 	"Count of each item in that bag": {
@@ -343,9 +343,9 @@
 		"🪝": 1
 	},
 	"Fish seen in total": {
-		"Total": 52,
+		"Total": 53,
 		"Per chat": {
-			"aquaismissing": 13,
+			"aquaismissing": 14,
 			"psp1g": 52
 		}
 	},
@@ -2163,6 +2163,61 @@
 				"Chat": "psp1g"
 			}
 		},
+		"sauropod 🦕": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"aquaismissing": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"aquaismissing": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"aquaismissing": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🦕 sauropod",
+				"Weight in lbs": 152.06,
+				"Catchtype": "Normal",
+				"Date": "2025-06-19 15:19:36 UTC",
+				"Chat": "aquaismissing"
+			},
+			"Last catch": {
+				"Fish": "🦕 sauropod",
+				"Weight in lbs": 152.06,
+				"Catchtype": "Normal",
+				"Date": "2025-06-19 15:19:36 UTC",
+				"Chat": "aquaismissing"
+			},
+			"Biggest catch": {
+				"Fish": "🦕 sauropod",
+				"Weight in lbs": 152.06,
+				"Catchtype": "Normal",
+				"Date": "2025-06-19 15:19:36 UTC",
+				"Chat": "aquaismissing",
+				"Record": [
+					"🥇 Biggest 🦕 sauropod record in channel aquaismissing !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "🦕 sauropod",
+				"Weight in lbs": 152.06,
+				"Catchtype": "Normal",
+				"Date": "2025-06-19 15:19:36 UTC",
+				"Chat": "aquaismissing"
+			}
+		},
 		"seal 🦭": {
 			"Caught in total": {
 				"Total": 1,
@@ -3215,20 +3270,24 @@
 		"acorn 🌰",
 		"athleticshoe 👟",
 		"bat 🦇",
+		"bilberries 🫐",
 		"bird 🐦",
 		"blackbird 🐦‍⬛",
 		"blackcat 🐈‍⬛",
 		"brownmushroom 🍄‍🟫",
 		"carpentrysaw 🪚",
+		"caterpillar 🐛",
 		"coat 🧥",
 		"compass 🧭",
 		"crown 👑",
 		"duck 🦆",
 		"emptynest 🪹",
+		"fly 🪰",
 		"goose 🪿",
 		"grass 🌾",
 		"iceskate ⛸️",
 		"iphone 📱",
+		"jar 🫙",
 		"leaf 🍃",
 		"log 🪵",
 		"malegenie 🧞‍♂",
@@ -3245,11 +3304,11 @@
 		"rose 🌹",
 		"sandal 👡",
 		"sandwich 🥪",
-		"sauropod 🦕",
 		"scarf 🧣",
 		"shamrock ☘️",
 		"shoppingcart 🛒",
 		"slotmachine 🎰",
+		"spiderweb 🕸️",
 		"squirrel 🐿️",
 		"sunflower 🌻",
 		"swan 🦢",
@@ -3260,7 +3319,7 @@
 		"womanshat 👒",
 		"zombie 🧟"
 	],
-	"Total fish not seen": 48,
+	"Total fish not seen": 52,
 	"Some info": [
 		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
 		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
@@ -3269,5 +3328,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-15 14:18:01 UTC"
+	"Profile last updated at": "2025-06-22 09:55:21 UTC"
 }

@@ -1,7 +1,7 @@
 {
 	"Name": "lolspers",
 	"Progress": null,
-	"Records": [
+	"Noteable records": [
 		"6th most fish caught in channel dizzy !",
 		"6th most fish seen in channel dizzy !",
 		"🥉 Third biggest fish record in channel dizzy !",
@@ -16,10 +16,10 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 524,
+		"Total": 525,
 		"Per chat": {
 			"dizzy": 503,
-			"ryanpotat": 21
+			"ryanpotat": 22
 		}
 	},
 	"Fish caught per year": {
@@ -31,18 +31,19 @@
 			}
 		},
 		"2025": {
-			"Total": 78,
+			"Total": 79,
 			"Per chat": {
-				"dizzy": 78
+				"dizzy": 78,
+				"ryanpotat": 1
 			}
 		}
 	},
 	"Fish caught per catchtype": {
 		"Normal": {
-			"Total": 501,
+			"Total": 502,
 			"Per chat": {
 				"dizzy": 481,
-				"ryanpotat": 20
+				"ryanpotat": 21
 			}
 		},
 		"Release bonus": {
@@ -78,10 +79,10 @@
 			"Chat": "dizzy"
 		},
 		"ryanpotat": {
-			"Fish": "🐙 octopus",
-			"Weight in lbs": 48.27,
+			"Fish": "📱 iphone",
+			"Weight in lbs": 0.48,
 			"Catchtype": "Normal",
-			"Date": "2024-12-27 16:58:22 UTC",
+			"Date": "2025-06-21 22:43:08 UTC",
 			"Chat": "ryanpotat"
 		}
 	},
@@ -175,6 +176,13 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "📱 iphone",
+			"Weight in lbs": 0.48,
+			"Catchtype": "Normal",
+			"Date": "2025-06-21 22:43:08 UTC",
+			"Chat": "ryanpotat"
+		},
+		{
 			"Fish": "🎏 lure",
 			"Weight in lbs": 0,
 			"Catchtype": "Release bonus",
@@ -236,20 +244,13 @@
 			"Catchtype": "Normal",
 			"Date": "2025-03-29 16:58:55 UTC",
 			"Chat": "dizzy"
-		},
-		{
-			"Fish": "🐌 snail",
-			"Weight in lbs": 0.94,
-			"Catchtype": "Normal",
-			"Date": "2025-03-29 16:27:36 UTC",
-			"Chat": "dizzy"
 		}
 	],
 	"Combined weight of all caught fish": {
-		"Total": 9905.33,
+		"Total": 9905.81,
 		"Per chat": {
 			"dizzy": 9329.23,
-			"ryanpotat": 576.1
+			"ryanpotat": 576.58
 		}
 	},
 	"Combined weight of all caught fish per year": {
@@ -261,9 +262,10 @@
 			}
 		},
 		"2025": {
-			"Total": 554.92,
+			"Total": 555.4,
 			"Per chat": {
-				"dizzy": 554.92
+				"dizzy": 554.92,
+				"ryanpotat": 0.48
 			}
 		}
 	},
@@ -334,8 +336,8 @@
 			"🍬",
 			"🎏"
 		],
-		"Date": "2025-06-05 09:31:06 UTC",
-		"Chat": "dizzy"
+		"Date": "2025-06-21 14:33:43 UTC",
+		"Chat": "ryanpotat"
 	},
 	"Count of each item in that bag": {
 		"☂️": 1,
@@ -395,10 +397,10 @@
 		"🪺": 1
 	},
 	"Fish seen in total": {
-		"Total": 55,
+		"Total": 56,
 		"Per chat": {
 			"dizzy": 54,
-			"ryanpotat": 17
+			"ryanpotat": 18
 		}
 	},
 	"Data about each of their seen fish": {
@@ -1489,6 +1491,61 @@
 				"Catchtype": "Normal",
 				"Date": "2024-11-04 15:25:23 UTC",
 				"Chat": "dizzy"
+			}
+		},
+		"iphone 📱": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"ryanpotat": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"ryanpotat": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"ryanpotat": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "📱 iphone",
+				"Weight in lbs": 0.48,
+				"Catchtype": "Normal",
+				"Date": "2025-06-21 22:43:08 UTC",
+				"Chat": "ryanpotat"
+			},
+			"Last catch": {
+				"Fish": "📱 iphone",
+				"Weight in lbs": 0.48,
+				"Catchtype": "Normal",
+				"Date": "2025-06-21 22:43:08 UTC",
+				"Chat": "ryanpotat"
+			},
+			"Biggest catch": {
+				"Fish": "📱 iphone",
+				"Weight in lbs": 0.48,
+				"Catchtype": "Normal",
+				"Date": "2025-06-21 22:43:08 UTC",
+				"Chat": "ryanpotat",
+				"Record": [
+					"🥇 Biggest 📱 iphone record in channel ryanpotat !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "📱 iphone",
+				"Weight in lbs": 0.48,
+				"Catchtype": "Normal",
+				"Date": "2025-06-21 22:43:08 UTC",
+				"Chat": "ryanpotat"
 			}
 		},
 		"lizard 🦎": {
@@ -3430,12 +3487,14 @@
 		"athleticshoe 👟",
 		"bat 🦇",
 		"beveragebox 🧃",
+		"bilberries 🫐",
 		"bird 🐦",
 		"blackbird 🐦‍⬛",
 		"blackcat 🐈‍⬛",
 		"briefs 🩲",
 		"brownmushroom 🍄‍🟫",
 		"carpentrysaw 🪚",
+		"caterpillar 🐛",
 		"coat 🧥",
 		"crown 👑",
 		"cucumber 🥒",
@@ -3443,10 +3502,11 @@
 		"dragon 🐉",
 		"emptynest 🪹",
 		"feather 🪶",
+		"fly 🪰",
 		"goose 🪿",
 		"grass 🌾",
 		"iceskate ⛸️",
-		"iphone 📱",
+		"jar 🫙",
 		"jellyfish 🪼",
 		"leaf 🍃",
 		"log 🪵",
@@ -3462,6 +3522,7 @@
 		"sandwich 🥪",
 		"scarf 🧣",
 		"shoppingcart 🛒",
+		"spiderweb 🕸️",
 		"squirrel 🐿️",
 		"sunflower 🌻",
 		"swan 🦢",
@@ -3471,7 +3532,7 @@
 		"womanshat 👒",
 		"zombie 🧟"
 	],
-	"Total fish not seen": 45,
+	"Total fish not seen": 49,
 	"Some info": [
 		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
 		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
@@ -3480,5 +3541,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-15 14:18:01 UTC"
+	"Profile last updated at": "2025-06-22 09:55:21 UTC"
 }

@@ -1,15 +1,15 @@
 {
 	"Name": "bartohehe",
 	"Progress": null,
-	"Records": null,
+	"Noteable records": null,
 	"Other accomplishments": {
 		"Accomplishments": null,
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 207,
+		"Total": 208,
 		"Per chat": {
-			"psp1g": 207
+			"psp1g": 208
 		}
 	},
 	"Fish caught per year": {
@@ -26,9 +26,9 @@
 			}
 		},
 		"2025": {
-			"Total": 1,
+			"Total": 2,
 			"Per chat": {
-				"psp1g": 1
+				"psp1g": 2
 			}
 		}
 	},
@@ -40,9 +40,9 @@
 			}
 		},
 		"Normal": {
-			"Total": 200,
+			"Total": 201,
 			"Per chat": {
-				"psp1g": 200
+				"psp1g": 201
 			}
 		},
 		"Release bonus": {
@@ -63,10 +63,10 @@
 	},
 	"Their last fish per chat": {
 		"psp1g": {
-			"Fish": "🐟 fish",
-			"Weight in lbs": 4.93,
+			"Fish": "🦐 shrimp",
+			"Weight in lbs": 10.74,
 			"Catchtype": "Normal",
-			"Date": "2025-05-12 20:30:05 UTC",
+			"Date": "2025-06-19 21:36:11 UTC",
 			"Chat": "psp1g"
 		}
 	},
@@ -153,6 +153,13 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "🦐 shrimp",
+			"Weight in lbs": 10.74,
+			"Catchtype": "Normal",
+			"Date": "2025-06-19 21:36:11 UTC",
+			"Chat": "psp1g"
+		},
+		{
 			"Fish": "🐟 fish",
 			"Weight in lbs": 4.93,
 			"Catchtype": "Normal",
@@ -214,19 +221,12 @@
 			"Catchtype": "Normal",
 			"Date": "2024-10-21 09:09:45 UTC",
 			"Chat": "psp1g"
-		},
-		{
-			"Fish": "🐟 fish",
-			"Weight in lbs": 4.97,
-			"Catchtype": "Normal",
-			"Date": "2024-10-16 12:41:01 UTC",
-			"Chat": "psp1g"
 		}
 	],
 	"Combined weight of all caught fish": {
-		"Total": 3006.08,
+		"Total": 3016.82,
 		"Per chat": {
-			"psp1g": 3006.08
+			"psp1g": 3016.82
 		}
 	},
 	"Combined weight of all caught fish per year": {
@@ -243,9 +243,9 @@
 			}
 		},
 		"2025": {
-			"Total": 4.93,
+			"Total": 15.67,
 			"Per chat": {
-				"psp1g": 4.93
+				"psp1g": 15.67
 			}
 		}
 	},
@@ -2264,9 +2264,9 @@
 		},
 		"shrimp 🦐": {
 			"Caught in total": {
-				"Total": 4,
+				"Total": 5,
 				"Per chat": {
-					"psp1g": 4
+					"psp1g": 5
 				}
 			},
 			"Caught per year": {
@@ -2275,13 +2275,19 @@
 					"Per chat": {
 						"psp1g": 4
 					}
+				},
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"psp1g": 1
+					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 4,
+					"Total": 5,
 					"Per chat": {
-						"psp1g": 4
+						"psp1g": 5
 					}
 				}
 			},
@@ -2294,9 +2300,9 @@
 			},
 			"Last catch": {
 				"Fish": "🦐 shrimp",
-				"Weight in lbs": 1.44,
+				"Weight in lbs": 10.74,
 				"Catchtype": "Normal",
-				"Date": "2024-07-01 11:33:46 UTC",
+				"Date": "2025-06-19 21:36:11 UTC",
 				"Chat": "psp1g"
 			},
 			"Biggest catch": {
@@ -3002,22 +3008,26 @@
 		"athleticshoe 👟",
 		"bat 🦇",
 		"beaver 🦫",
+		"bilberries 🫐",
 		"blackbird 🐦‍⬛",
 		"blackcat 🐈‍⬛",
 		"boot 👢",
 		"brownmushroom 🍄‍🟫",
 		"cannedfood 🥫",
 		"carpentrysaw 🪚",
+		"caterpillar 🐛",
 		"coat 🧥",
 		"compass 🧭",
 		"crown 👑",
 		"darksunglasses 🕶️",
 		"feather 🪶",
+		"fly 🪰",
 		"gloves 🧤",
 		"goose 🪿",
 		"grass 🌾",
 		"icecube 🧊",
 		"iceskate ⛸️",
+		"jar 🫙",
 		"jellyfish 🪼",
 		"leaf 🍃",
 		"log 🪵",
@@ -3038,6 +3048,7 @@
 		"scarf 🧣",
 		"shoppingcart 🛒",
 		"slotmachine 🎰",
+		"spiderweb 🕸️",
 		"squirrel 🐿️",
 		"sunflower 🌻",
 		"swan 🦢",
@@ -3049,7 +3060,7 @@
 		"worm 🪱",
 		"zombie 🧟"
 	],
-	"Total fish not seen": 50,
+	"Total fish not seen": 55,
 	"Some info": [
 		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
 		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
@@ -3058,5 +3069,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-15 14:18:01 UTC"
+	"Profile last updated at": "2025-06-22 09:55:21 UTC"
 }

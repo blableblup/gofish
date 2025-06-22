@@ -1,15 +1,18 @@
 {
 	"Name": "kubo7",
 	"Progress": null,
-	"Records": null,
+	"Noteable records": [
+		"🥈 Second biggest fish record in channel ryanpotat !"
+	],
 	"Other accomplishments": {
 		"Accomplishments": null,
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 158,
+		"Total": 160,
 		"Per chat": {
-			"psp1g": 158
+			"psp1g": 158,
+			"ryanpotat": 2
 		}
 	},
 	"Fish caught per year": {
@@ -24,13 +27,20 @@
 			"Per chat": {
 				"psp1g": 85
 			}
+		},
+		"2025": {
+			"Total": 2,
+			"Per chat": {
+				"ryanpotat": 2
+			}
 		}
 	},
 	"Fish caught per catchtype": {
 		"Normal": {
-			"Total": 156,
+			"Total": 158,
 			"Per chat": {
-				"psp1g": 156
+				"psp1g": 156,
+				"ryanpotat": 2
 			}
 		},
 		"Release bonus": {
@@ -47,6 +57,13 @@
 			"Catchtype": "Normal",
 			"Date": "2023-09-23 21:44:20 UTC",
 			"Chat": "psp1g"
+		},
+		"ryanpotat": {
+			"Fish": "🐋 whale2",
+			"Weight in lbs": 123.15,
+			"Catchtype": "Normal",
+			"Date": "2025-06-21 09:59:30 UTC",
+			"Chat": "ryanpotat"
 		}
 	},
 	"Their last fish per chat": {
@@ -56,6 +73,13 @@
 			"Catchtype": "Normal",
 			"Date": "2024-10-27 21:18:21 UTC",
 			"Chat": "psp1g"
+		},
+		"ryanpotat": {
+			"Fish": "🎱 8ball",
+			"Weight in lbs": 0.32,
+			"Catchtype": "Normal",
+			"Date": "2025-06-21 10:46:42 UTC",
+			"Chat": "ryanpotat"
 		}
 	},
 	"Their biggest fish per chat": {
@@ -65,6 +89,13 @@
 			"Catchtype": "Normal",
 			"Date": "2024-07-08 20:51:12 UTC",
 			"Chat": "psp1g"
+		},
+		"ryanpotat": {
+			"Fish": "🐋 whale2",
+			"Weight in lbs": 123.15,
+			"Catchtype": "Normal",
+			"Date": "2025-06-21 09:59:30 UTC",
+			"Chat": "ryanpotat"
 		}
 	},
 	"Their overall biggest fish": [
@@ -74,6 +105,13 @@
 			"Catchtype": "Normal",
 			"Date": "2024-07-08 20:51:12 UTC",
 			"Chat": "psp1g"
+		},
+		{
+			"Fish": "🐋 whale2",
+			"Weight in lbs": 123.15,
+			"Catchtype": "Normal",
+			"Date": "2025-06-21 09:59:30 UTC",
+			"Chat": "ryanpotat"
 		},
 		{
 			"Fish": "🐊 crocodile",
@@ -130,16 +168,23 @@
 			"Catchtype": "Normal",
 			"Date": "2024-03-20 19:08:10 UTC",
 			"Chat": "psp1g"
-		},
-		{
-			"Fish": "🦞 lobster",
-			"Weight in lbs": 59.4,
-			"Catchtype": "Normal",
-			"Date": "2024-01-24 11:31:49 UTC",
-			"Chat": "psp1g"
 		}
 	],
 	"Their overall last fish": [
+		{
+			"Fish": "🎱 8ball",
+			"Weight in lbs": 0.32,
+			"Catchtype": "Normal",
+			"Date": "2025-06-21 10:46:42 UTC",
+			"Chat": "ryanpotat"
+		},
+		{
+			"Fish": "🐋 whale2",
+			"Weight in lbs": 123.15,
+			"Catchtype": "Normal",
+			"Date": "2025-06-21 09:59:30 UTC",
+			"Chat": "ryanpotat"
+		},
 		{
 			"Fish": "🐠 tropicalfish",
 			"Weight in lbs": 1.41,
@@ -195,26 +240,13 @@
 			"Catchtype": "Normal",
 			"Date": "2024-08-18 00:20:06 UTC",
 			"Chat": "psp1g"
-		},
-		{
-			"Fish": "🐚 shell",
-			"Weight in lbs": 3.99,
-			"Catchtype": "Normal",
-			"Date": "2024-08-06 11:35:32 UTC",
-			"Chat": "psp1g"
-		},
-		{
-			"Fish": "🥒 cucumber",
-			"Weight in lbs": 31.21,
-			"Catchtype": "Normal",
-			"Date": "2024-08-02 21:29:59 UTC",
-			"Chat": "psp1g"
 		}
 	],
 	"Combined weight of all caught fish": {
-		"Total": 2473.29,
+		"Total": 2596.76,
 		"Per chat": {
-			"psp1g": 2473.29
+			"psp1g": 2473.29,
+			"ryanpotat": 123.47
 		}
 	},
 	"Combined weight of all caught fish per year": {
@@ -228,6 +260,12 @@
 			"Total": 1524.55,
 			"Per chat": {
 				"psp1g": 1524.55
+			}
+		},
+		"2025": {
+			"Total": 123.47,
+			"Per chat": {
+				"ryanpotat": 123.47
 			}
 		}
 	},
@@ -313,8 +351,8 @@
 			"🦐",
 			"🐠"
 		],
-		"Date": "2025-05-01 22:12:14 UTC",
-		"Chat": "vaiastol"
+		"Date": "2025-06-21 09:50:36 UTC",
+		"Chat": "ryanpotat"
 	},
 	"Count of each item in that bag": {
 		"🎏": 1,
@@ -354,12 +392,74 @@
 		"🪸": 4
 	},
 	"Fish seen in total": {
-		"Total": 35,
+		"Total": 36,
 		"Per chat": {
-			"psp1g": 35
+			"psp1g": 35,
+			"ryanpotat": 2
 		}
 	},
 	"Data about each of their seen fish": {
+		"8ball 🎱": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"ryanpotat": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"ryanpotat": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"ryanpotat": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🎱 8ball",
+				"Weight in lbs": 0.32,
+				"Catchtype": "Normal",
+				"Date": "2025-06-21 10:46:42 UTC",
+				"Chat": "ryanpotat",
+				"Record": [
+					"🥇 First ever 🎱 8ball caught in channel ryanpotat !"
+				]
+			},
+			"Last catch": {
+				"Fish": "🎱 8ball",
+				"Weight in lbs": 0.32,
+				"Catchtype": "Normal",
+				"Date": "2025-06-21 10:46:42 UTC",
+				"Chat": "ryanpotat"
+			},
+			"Biggest catch": {
+				"Fish": "🎱 8ball",
+				"Weight in lbs": 0.32,
+				"Catchtype": "Normal",
+				"Date": "2025-06-21 10:46:42 UTC",
+				"Chat": "ryanpotat",
+				"Record": [
+					"🥇 Biggest 🎱 8ball record in channel ryanpotat !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "🎱 8ball",
+				"Weight in lbs": 0.32,
+				"Catchtype": "Normal",
+				"Date": "2025-06-21 10:46:42 UTC",
+				"Chat": "ryanpotat",
+				"Record": [
+					"🥇 Smallest 🎱 8ball record in channel ryanpotat !"
+				]
+			}
+		},
 		"blowfish 🐡": {
 			"Caught in total": {
 				"Total": 3,
@@ -2196,9 +2296,10 @@
 		},
 		"whale2 🐋": {
 			"Caught in total": {
-				"Total": 2,
+				"Total": 3,
 				"Per chat": {
-					"psp1g": 2
+					"psp1g": 2,
+					"ryanpotat": 1
 				}
 			},
 			"Caught per year": {
@@ -2207,13 +2308,20 @@
 					"Per chat": {
 						"psp1g": 2
 					}
+				},
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"ryanpotat": 1
+					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 2,
+					"Total": 3,
 					"Per chat": {
-						"psp1g": 2
+						"psp1g": 2,
+						"ryanpotat": 1
 					}
 				}
 			},
@@ -2226,17 +2334,20 @@
 			},
 			"Last catch": {
 				"Fish": "🐋 whale2",
-				"Weight in lbs": 73.08,
+				"Weight in lbs": 123.15,
 				"Catchtype": "Normal",
-				"Date": "2023-12-18 23:09:58 UTC",
-				"Chat": "psp1g"
+				"Date": "2025-06-21 09:59:30 UTC",
+				"Chat": "ryanpotat"
 			},
 			"Biggest catch": {
 				"Fish": "🐋 whale2",
-				"Weight in lbs": 73.08,
+				"Weight in lbs": 123.15,
 				"Catchtype": "Normal",
-				"Date": "2023-12-18 23:09:58 UTC",
-				"Chat": "psp1g"
+				"Date": "2025-06-21 09:59:30 UTC",
+				"Chat": "ryanpotat",
+				"Record": [
+					"🥇 Biggest 🐋 whale2 record in channel ryanpotat !"
+				]
 			},
 			"Smallest catch": {
 				"Fish": "🐋 whale2",
@@ -2306,13 +2417,13 @@
 		}
 	},
 	"Fish they never saw": [
-		"8ball 🎱",
 		"acorn 🌰",
 		"athleticshoe 👟",
 		"balletshoes 🩰",
 		"bat 🦇",
 		"beaver 🦫",
 		"beveragebox 🧃",
+		"bilberries 🫐",
 		"bird 🐦",
 		"blackbird 🐦‍⬛",
 		"blackcat 🐈‍⬛",
@@ -2321,6 +2432,7 @@
 		"brownmushroom 🍄‍🟫",
 		"candy 🍬",
 		"carpentrysaw 🪚",
+		"caterpillar 🐛",
 		"coat 🧥",
 		"compass 🧭",
 		"crown 👑",
@@ -2330,11 +2442,13 @@
 		"duck 🦆",
 		"emptynest 🪹",
 		"feather 🪶",
+		"fly 🪰",
 		"goose 🪿",
 		"grass 🌾",
 		"icecube 🧊",
 		"iceskate ⛸️",
 		"iphone 📱",
+		"jar 🫙",
 		"jellyfish 🪼",
 		"leaf 🍃",
 		"lizard 🦎",
@@ -2362,6 +2476,7 @@
 		"slotmachine 🎰",
 		"snake 🐍",
 		"socks 🧦",
+		"spiderweb 🕸️",
 		"squirrel 🐿️",
 		"sunflower 🌻",
 		"swan 🦢",
@@ -2372,7 +2487,7 @@
 		"womanshat 👒",
 		"zombie 🧟"
 	],
-	"Total fish not seen": 65,
+	"Total fish not seen": 69,
 	"Some info": [
 		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
 		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
@@ -2381,5 +2496,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-15 14:18:01 UTC"
+	"Profile last updated at": "2025-06-22 09:55:21 UTC"
 }

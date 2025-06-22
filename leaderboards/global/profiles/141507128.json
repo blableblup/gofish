@@ -1,15 +1,15 @@
 {
 	"Name": "lunecker",
 	"Progress": null,
-	"Records": null,
+	"Noteable records": null,
 	"Other accomplishments": {
 		"Accomplishments": null,
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 26,
+		"Total": 28,
 		"Per chat": {
-			"psp1g": 26
+			"psp1g": 28
 		}
 	},
 	"Fish caught per year": {
@@ -26,17 +26,17 @@
 			}
 		},
 		"2025": {
-			"Total": 5,
+			"Total": 7,
 			"Per chat": {
-				"psp1g": 5
+				"psp1g": 7
 			}
 		}
 	},
 	"Fish caught per catchtype": {
 		"Normal": {
-			"Total": 26,
+			"Total": 28,
 			"Per chat": {
-				"psp1g": 26
+				"psp1g": 28
 			}
 		}
 	},
@@ -51,10 +51,10 @@
 	},
 	"Their last fish per chat": {
 		"psp1g": {
-			"Fish": "🦪 oyster",
-			"Weight in lbs": 22.79,
+			"Fish": "🦞 lobster",
+			"Weight in lbs": 26.19,
 			"Catchtype": "Normal",
-			"Date": "2025-06-08 22:11:03 UTC",
+			"Date": "2025-06-20 13:39:35 UTC",
 			"Chat": "psp1g"
 		}
 	},
@@ -111,6 +111,13 @@
 			"Chat": "psp1g"
 		},
 		{
+			"Fish": "🦞 lobster",
+			"Weight in lbs": 26.19,
+			"Catchtype": "Normal",
+			"Date": "2025-06-20 13:39:35 UTC",
+			"Chat": "psp1g"
+		},
+		{
 			"Fish": "🐡 blowfish",
 			"Weight in lbs": 23.58,
 			"Catchtype": "Normal",
@@ -130,16 +137,23 @@
 			"Catchtype": "Normal",
 			"Date": "2024-07-14 13:06:23 UTC",
 			"Chat": "psp1g"
-		},
-		{
-			"Fish": "🦐 shrimp",
-			"Weight in lbs": 17.4,
-			"Catchtype": "Normal",
-			"Date": "2024-11-16 15:09:16 UTC",
-			"Chat": "psp1g"
 		}
 	],
 	"Their overall last fish": [
+		{
+			"Fish": "🦞 lobster",
+			"Weight in lbs": 26.19,
+			"Catchtype": "Normal",
+			"Date": "2025-06-20 13:39:35 UTC",
+			"Chat": "psp1g"
+		},
+		{
+			"Fish": "🕷️ spider",
+			"Weight in lbs": 2.56,
+			"Catchtype": "Normal",
+			"Date": "2025-06-20 12:57:25 UTC",
+			"Chat": "psp1g"
+		},
 		{
 			"Fish": "🦪 oyster",
 			"Weight in lbs": 22.79,
@@ -195,26 +209,12 @@
 			"Catchtype": "Normal",
 			"Date": "2024-11-10 13:11:15 UTC",
 			"Chat": "psp1g"
-		},
-		{
-			"Fish": "🥫 cannedfood",
-			"Weight in lbs": 0.91,
-			"Catchtype": "Normal",
-			"Date": "2024-11-09 14:50:18 UTC",
-			"Chat": "psp1g"
-		},
-		{
-			"Fish": "🐟 fish",
-			"Weight in lbs": 8.55,
-			"Catchtype": "Normal",
-			"Date": "2024-10-27 16:38:05 UTC",
-			"Chat": "psp1g"
 		}
 	],
 	"Combined weight of all caught fish": {
-		"Total": 449.68,
+		"Total": 478.43,
 		"Per chat": {
-			"psp1g": 449.68
+			"psp1g": 478.43
 		}
 	},
 	"Combined weight of all caught fish per year": {
@@ -231,9 +231,9 @@
 			}
 		},
 		"2025": {
-			"Total": 117.43,
+			"Total": 146.18,
 			"Per chat": {
-				"psp1g": 117.43
+				"psp1g": 146.18
 			}
 		}
 	},
@@ -261,9 +261,10 @@
 			"🐙",
 			"🐟",
 			"💀",
-			"🦐"
+			"🦐",
+			"🦪"
 		],
-		"Date": "2025-05-25 23:51:17 UTC",
+		"Date": "2025-06-20 12:45:11 UTC",
 		"Chat": "psp1g"
 	},
 	"Count of each item in that bag": {
@@ -278,7 +279,7 @@
 		"🥫": 2,
 		"🦐": 3,
 		"🦞": 2,
-		"🦪": 1,
+		"🦪": 2,
 		"🧽": 1,
 		"🪝": 1,
 		"🪱": 1,
@@ -287,9 +288,9 @@
 		"🪼": 1
 	},
 	"Fish seen in total": {
-		"Total": 19,
+		"Total": 20,
 		"Per chat": {
-			"psp1g": 19
+			"psp1g": 20
 		}
 	},
 	"Data about each of their seen fish": {
@@ -769,9 +770,9 @@
 		},
 		"lobster 🦞": {
 			"Caught in total": {
-				"Total": 2,
+				"Total": 3,
 				"Per chat": {
-					"psp1g": 2
+					"psp1g": 3
 				}
 			},
 			"Caught per year": {
@@ -780,13 +781,19 @@
 					"Per chat": {
 						"psp1g": 2
 					}
+				},
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"psp1g": 1
+					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 2,
+					"Total": 3,
 					"Per chat": {
-						"psp1g": 2
+						"psp1g": 3
 					}
 				}
 			},
@@ -799,9 +806,9 @@
 			},
 			"Last catch": {
 				"Fish": "🦞 lobster",
-				"Weight in lbs": 45.26,
+				"Weight in lbs": 26.19,
 				"Catchtype": "Normal",
-				"Date": "2024-10-03 16:39:41 UTC",
+				"Date": "2025-06-20 13:39:35 UTC",
 				"Chat": "psp1g"
 			},
 			"Biggest catch": {
@@ -813,9 +820,9 @@
 			},
 			"Smallest catch": {
 				"Fish": "🦞 lobster",
-				"Weight in lbs": 32.76,
+				"Weight in lbs": 26.19,
 				"Catchtype": "Normal",
-				"Date": "2024-02-16 21:42:57 UTC",
+				"Date": "2025-06-20 13:39:35 UTC",
 				"Chat": "psp1g"
 			}
 		},
@@ -1143,6 +1150,58 @@
 				"Chat": "psp1g"
 			}
 		},
+		"spider 🕷️": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"psp1g": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"psp1g": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"psp1g": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🕷️ spider",
+				"Weight in lbs": 2.56,
+				"Catchtype": "Normal",
+				"Date": "2025-06-20 12:57:25 UTC",
+				"Chat": "psp1g"
+			},
+			"Last catch": {
+				"Fish": "🕷️ spider",
+				"Weight in lbs": 2.56,
+				"Catchtype": "Normal",
+				"Date": "2025-06-20 12:57:25 UTC",
+				"Chat": "psp1g"
+			},
+			"Biggest catch": {
+				"Fish": "🕷️ spider",
+				"Weight in lbs": 2.56,
+				"Catchtype": "Normal",
+				"Date": "2025-06-20 12:57:25 UTC",
+				"Chat": "psp1g"
+			},
+			"Smallest catch": {
+				"Fish": "🕷️ spider",
+				"Weight in lbs": 2.56,
+				"Catchtype": "Normal",
+				"Date": "2025-06-20 12:57:25 UTC",
+				"Chat": "psp1g"
+			}
+		},
 		"sponge 🧽": {
 			"Caught in total": {
 				"Total": 1,
@@ -1308,6 +1367,7 @@
 		"bat 🦇",
 		"beaver 🦫",
 		"beveragebox 🧃",
+		"bilberries 🫐",
 		"bird 🐦",
 		"blackbird 🐦‍⬛",
 		"blackcat 🐈‍⬛",
@@ -1317,6 +1377,7 @@
 		"brownmushroom 🍄‍🟫",
 		"candy 🍬",
 		"carpentrysaw 🪚",
+		"caterpillar 🐛",
 		"coat 🧥",
 		"compass 🧭",
 		"crab 🦀",
@@ -1328,6 +1389,7 @@
 		"duck 🦆",
 		"emptynest 🪹",
 		"feather 🪶",
+		"fly 🪰",
 		"frog 🐸",
 		"gloves 🧤",
 		"goose 🪿",
@@ -1335,6 +1397,7 @@
 		"icecube 🧊",
 		"iceskate ⛸️",
 		"iphone 📱",
+		"jar 🫙",
 		"leaf 🍃",
 		"lizard 🦎",
 		"log 🪵",
@@ -1366,7 +1429,7 @@
 		"snail 🐌",
 		"snake 🐍",
 		"socks 🧦",
-		"spider 🕷️",
+		"spiderweb 🕸️",
 		"squid 🦑",
 		"squirrel 🐿️",
 		"sunflower 🌻",
@@ -1383,7 +1446,7 @@
 		"womanshat 👒",
 		"zombie 🧟"
 	],
-	"Total fish not seen": 81,
+	"Total fish not seen": 85,
 	"Some info": [
 		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
 		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
@@ -1392,5 +1455,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-15 14:18:01 UTC"
+	"Profile last updated at": "2025-06-22 09:55:21 UTC"
 }

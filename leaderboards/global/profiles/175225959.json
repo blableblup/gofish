@@ -1,7 +1,7 @@
 {
 	"Name": "yopego",
 	"Progress": null,
-	"Records": [
+	"Noteable records": [
 		"4th most fish caught in channel yopego !",
 		"7th biggest fish record in channel yopego !"
 	],
@@ -10,10 +10,10 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 215,
+		"Total": 216,
 		"Per chat": {
 			"breadworms": 38,
-			"psp1g": 162,
+			"psp1g": 163,
 			"yopego": 15
 		}
 	},
@@ -31,14 +31,20 @@
 				"psp1g": 20,
 				"yopego": 15
 			}
+		},
+		"2025": {
+			"Total": 1,
+			"Per chat": {
+				"psp1g": 1
+			}
 		}
 	},
 	"Fish caught per catchtype": {
 		"Normal": {
-			"Total": 204,
+			"Total": 205,
 			"Per chat": {
 				"breadworms": 37,
-				"psp1g": 154,
+				"psp1g": 155,
 				"yopego": 13
 			}
 		},
@@ -83,10 +89,10 @@
 			"Chat": "breadworms"
 		},
 		"psp1g": {
-			"Fish": "🐟 fish",
-			"Weight in lbs": 4.56,
+			"Fish": "☘️ shamrock",
+			"Weight in lbs": 0.95,
 			"Catchtype": "Normal",
-			"Date": "2024-10-01 08:03:09 UTC",
+			"Date": "2025-06-21 09:58:52 UTC",
 			"Chat": "psp1g"
 		},
 		"yopego": {
@@ -194,6 +200,13 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "☘️ shamrock",
+			"Weight in lbs": 0.95,
+			"Catchtype": "Normal",
+			"Date": "2025-06-21 09:58:52 UTC",
+			"Chat": "psp1g"
+		},
+		{
 			"Fish": "🐟 fish",
 			"Weight in lbs": 1.99,
 			"Catchtype": "Normal",
@@ -255,20 +268,13 @@
 			"Catchtype": "Normal",
 			"Date": "2024-10-09 08:30:16 UTC",
 			"Chat": "yopego"
-		},
-		{
-			"Fish": "🌰 acorn",
-			"Weight in lbs": 1.91,
-			"Catchtype": "Normal",
-			"Date": "2024-10-08 15:22:07 UTC",
-			"Chat": "yopego"
 		}
 	],
 	"Combined weight of all caught fish": {
-		"Total": 3557.84,
+		"Total": 3558.79,
 		"Per chat": {
 			"breadworms": 874.56,
-			"psp1g": 2509.59,
+			"psp1g": 2510.54,
 			"yopego": 173.69
 		}
 	},
@@ -285,6 +291,12 @@
 			"Per chat": {
 				"psp1g": 280.37,
 				"yopego": 173.69
+			}
+		},
+		"2025": {
+			"Total": 0.95,
+			"Per chat": {
+				"psp1g": 0.95
 			}
 		}
 	},
@@ -335,13 +347,15 @@
 			"🪀",
 			"🌰",
 			"🪝",
-			"🐟"
+			"🐟",
+			"☘️"
 		],
-		"Date": "2024-11-04 21:00:37 UTC",
-		"Chat": "yopego"
+		"Date": "2025-06-21 09:59:41 UTC",
+		"Chat": "psp1g"
 	},
 	"Count of each item in that bag": {
 		"☂️": 1,
+		"☘️": 1,
 		"🌰": 1,
 		"🎏": 1,
 		"🐉": 1,
@@ -385,10 +399,10 @@
 		"🪸": 1
 	},
 	"Fish seen in total": {
-		"Total": 43,
+		"Total": 44,
 		"Per chat": {
 			"breadworms": 19,
-			"psp1g": 39,
+			"psp1g": 40,
 			"yopego": 8
 		}
 	},
@@ -1912,6 +1926,58 @@
 				"Chat": "psp1g"
 			}
 		},
+		"shamrock ☘️": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"psp1g": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"psp1g": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"psp1g": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "☘️ shamrock",
+				"Weight in lbs": 0.95,
+				"Catchtype": "Normal",
+				"Date": "2025-06-21 09:58:52 UTC",
+				"Chat": "psp1g"
+			},
+			"Last catch": {
+				"Fish": "☘️ shamrock",
+				"Weight in lbs": 0.95,
+				"Catchtype": "Normal",
+				"Date": "2025-06-21 09:58:52 UTC",
+				"Chat": "psp1g"
+			},
+			"Biggest catch": {
+				"Fish": "☘️ shamrock",
+				"Weight in lbs": 0.95,
+				"Catchtype": "Normal",
+				"Date": "2025-06-21 09:58:52 UTC",
+				"Chat": "psp1g"
+			},
+			"Smallest catch": {
+				"Fish": "☘️ shamrock",
+				"Weight in lbs": 0.95,
+				"Catchtype": "Normal",
+				"Date": "2025-06-21 09:58:52 UTC",
+				"Chat": "psp1g"
+			}
+		},
 		"shark 🦈": {
 			"Caught in total": {
 				"Total": 2,
@@ -2798,6 +2864,7 @@
 	"Fish they never saw": [
 		"bat 🦇",
 		"beveragebox 🧃",
+		"bilberries 🫐",
 		"bird 🐦",
 		"blackbird 🐦‍⬛",
 		"blackcat 🐈‍⬛",
@@ -2805,6 +2872,7 @@
 		"briefs 🩲",
 		"brownmushroom 🍄‍🟫",
 		"carpentrysaw 🪚",
+		"caterpillar 🐛",
 		"coat 🧥",
 		"compass 🧭",
 		"crown 👑",
@@ -2812,12 +2880,14 @@
 		"duck 🦆",
 		"emptynest 🪹",
 		"feather 🪶",
+		"fly 🪰",
 		"gloves 🧤",
 		"goose 🪿",
 		"grass 🌾",
 		"icecube 🧊",
 		"iceskate ⛸️",
 		"iphone 📱",
+		"jar 🫙",
 		"jellyfish 🪼",
 		"leaf 🍃",
 		"log 🪵",
@@ -2840,9 +2910,9 @@
 		"scarf 🧣",
 		"seal 🦭",
 		"seaweed 🌿",
-		"shamrock ☘️",
 		"shoppingcart 🛒",
 		"slotmachine 🎰",
+		"spiderweb 🕸️",
 		"squirrel 🐿️",
 		"sunflower 🌻",
 		"swan 🦢",
@@ -2854,7 +2924,7 @@
 		"worm 🪱",
 		"zombie 🧟"
 	],
-	"Total fish not seen": 57,
+	"Total fish not seen": 61,
 	"Some info": [
 		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
 		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
@@ -2863,5 +2933,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-15 14:18:01 UTC"
+	"Profile last updated at": "2025-06-22 09:55:22 UTC"
 }

@@ -1,32 +1,32 @@
 {
 	"Name": "mousee93",
 	"Progress": null,
-	"Records": [
-		"20th most fish caught in channel dizzy !"
+	"Noteable records": [
+		"18th most fish caught in channel dizzy !"
 	],
 	"Other accomplishments": {
 		"Accomplishments": null,
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 129,
+		"Total": 131,
 		"Per chat": {
-			"dizzy": 129
+			"dizzy": 131
 		}
 	},
 	"Fish caught per year": {
 		"2025": {
-			"Total": 129,
+			"Total": 131,
 			"Per chat": {
-				"dizzy": 129
+				"dizzy": 131
 			}
 		}
 	},
 	"Fish caught per catchtype": {
 		"Normal": {
-			"Total": 127,
+			"Total": 129,
 			"Per chat": {
-				"dizzy": 127
+				"dizzy": 129
 			}
 		},
 		"Release bonus": {
@@ -47,10 +47,10 @@
 	},
 	"Their last fish per chat": {
 		"dizzy": {
-			"Fish": "🎏 lure",
-			"Weight in lbs": 0,
-			"Catchtype": "Release bonus",
-			"Date": "2025-06-12 20:48:17 UTC",
+			"Fish": "🐚 shell",
+			"Weight in lbs": 3.55,
+			"Catchtype": "Normal",
+			"Date": "2025-06-21 14:59:20 UTC",
 			"Chat": "dizzy"
 		}
 	},
@@ -137,6 +137,20 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "🐚 shell",
+			"Weight in lbs": 3.55,
+			"Catchtype": "Normal",
+			"Date": "2025-06-21 14:59:20 UTC",
+			"Chat": "dizzy"
+		},
+		{
+			"Fish": "🕷️ spider",
+			"Weight in lbs": 5.48,
+			"Catchtype": "Normal",
+			"Date": "2025-06-20 21:11:43 UTC",
+			"Chat": "dizzy"
+		},
+		{
 			"Fish": "🎏 lure",
 			"Weight in lbs": 0,
 			"Catchtype": "Release bonus",
@@ -191,33 +205,19 @@
 			"Catchtype": "Normal",
 			"Date": "2025-06-05 11:26:04 UTC",
 			"Chat": "dizzy"
-		},
-		{
-			"Fish": "🐚 shell",
-			"Weight in lbs": 3.92,
-			"Catchtype": "Normal",
-			"Date": "2025-06-04 23:06:14 UTC",
-			"Chat": "dizzy"
-		},
-		{
-			"Fish": "🦪 oyster",
-			"Weight in lbs": 21.84,
-			"Catchtype": "Normal",
-			"Date": "2025-06-04 21:20:21 UTC",
-			"Chat": "dizzy"
 		}
 	],
 	"Combined weight of all caught fish": {
-		"Total": 3068.21,
+		"Total": 3077.24,
 		"Per chat": {
-			"dizzy": 3068.21
+			"dizzy": 3077.24
 		}
 	},
 	"Combined weight of all caught fish per year": {
 		"2025": {
-			"Total": 3068.21,
+			"Total": 3077.24,
 			"Per chat": {
-				"dizzy": 3068.21
+				"dizzy": 3077.24
 			}
 		}
 	},
@@ -1517,24 +1517,24 @@
 		},
 		"shell 🐚": {
 			"Caught in total": {
-				"Total": 10,
+				"Total": 11,
 				"Per chat": {
-					"dizzy": 10
+					"dizzy": 11
 				}
 			},
 			"Caught per year": {
 				"2025": {
-					"Total": 10,
+					"Total": 11,
 					"Per chat": {
-						"dizzy": 10
+						"dizzy": 11
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 10,
+					"Total": 11,
 					"Per chat": {
-						"dizzy": 10
+						"dizzy": 11
 					}
 				}
 			},
@@ -1547,9 +1547,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐚 shell",
-				"Weight in lbs": 3.92,
+				"Weight in lbs": 3.55,
 				"Catchtype": "Normal",
-				"Date": "2025-06-04 23:06:14 UTC",
+				"Date": "2025-06-21 14:59:20 UTC",
 				"Chat": "dizzy"
 			},
 			"Biggest catch": {
@@ -1832,24 +1832,24 @@
 		},
 		"spider 🕷️": {
 			"Caught in total": {
-				"Total": 2,
+				"Total": 3,
 				"Per chat": {
-					"dizzy": 2
+					"dizzy": 3
 				}
 			},
 			"Caught per year": {
 				"2025": {
-					"Total": 2,
+					"Total": 3,
 					"Per chat": {
-						"dizzy": 2
+						"dizzy": 3
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 2,
+					"Total": 3,
 					"Per chat": {
-						"dizzy": 2
+						"dizzy": 3
 					}
 				}
 			},
@@ -1862,16 +1862,16 @@
 			},
 			"Last catch": {
 				"Fish": "🕷️ spider",
-				"Weight in lbs": 4.63,
+				"Weight in lbs": 5.48,
 				"Catchtype": "Normal",
-				"Date": "2025-04-15 21:06:55 UTC",
+				"Date": "2025-06-20 21:11:43 UTC",
 				"Chat": "dizzy"
 			},
 			"Biggest catch": {
 				"Fish": "🕷️ spider",
-				"Weight in lbs": 4.63,
+				"Weight in lbs": 5.48,
 				"Catchtype": "Normal",
-				"Date": "2025-04-15 21:06:55 UTC",
+				"Date": "2025-06-20 21:11:43 UTC",
 				"Chat": "dizzy"
 			},
 			"Smallest catch": {
@@ -2203,6 +2203,7 @@
 		"bat 🦇",
 		"beaver 🦫",
 		"beveragebox 🧃",
+		"bilberries 🫐",
 		"bird 🐦",
 		"blackbird 🐦‍⬛",
 		"blackcat 🐈‍⬛",
@@ -2211,6 +2212,7 @@
 		"candy 🍬",
 		"cannedfood 🥫",
 		"carpentrysaw 🪚",
+		"caterpillar 🐛",
 		"compass 🧭",
 		"crown 👑",
 		"cucumber 🥒",
@@ -2218,12 +2220,14 @@
 		"duck 🦆",
 		"emptynest 🪹",
 		"feather 🪶",
+		"fly 🪰",
 		"gloves 🧤",
 		"goose 🪿",
 		"grass 🌾",
 		"icecube 🧊",
 		"iceskate ⛸️",
 		"iphone 📱",
+		"jar 🫙",
 		"jellyfish 🪼",
 		"leaf 🍃",
 		"lizard 🦎",
@@ -2249,6 +2253,7 @@
 		"shamrock ☘️",
 		"shoppingcart 🛒",
 		"slotmachine 🎰",
+		"spiderweb 🕸️",
 		"sponge 🧽",
 		"squirrel 🐿️",
 		"sunflower 🌻",
@@ -2262,7 +2267,7 @@
 		"worm 🪱",
 		"zombie 🧟"
 	],
-	"Total fish not seen": 65,
+	"Total fish not seen": 70,
 	"Some info": [
 		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
 		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
@@ -2271,5 +2276,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-15 14:18:01 UTC"
+	"Profile last updated at": "2025-06-22 09:55:21 UTC"
 }

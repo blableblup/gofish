@@ -1,7 +1,7 @@
 {
 	"Name": "envtt",
 	"Progress": null,
-	"Records": [
+	"Noteable records": [
 		"🥇 Most fish caught in channel e1llas !",
 		"🥇 Most fish seen in channel e1llas !",
 		"🥈 Second biggest fish record in channel e1llas !",
@@ -12,24 +12,24 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 100,
+		"Total": 102,
 		"Per chat": {
-			"e1llas": 100
+			"e1llas": 102
 		}
 	},
 	"Fish caught per year": {
 		"2025": {
-			"Total": 100,
+			"Total": 102,
 			"Per chat": {
-				"e1llas": 100
+				"e1llas": 102
 			}
 		}
 	},
 	"Fish caught per catchtype": {
 		"Normal": {
-			"Total": 100,
+			"Total": 102,
 			"Per chat": {
-				"e1llas": 100
+				"e1llas": 102
 			}
 		}
 	},
@@ -44,10 +44,10 @@
 	},
 	"Their last fish per chat": {
 		"e1llas": {
-			"Fish": "🎏 lure",
-			"Weight in lbs": 1.03,
+			"Fish": "🐟 fish",
+			"Weight in lbs": 11.26,
 			"Catchtype": "Normal",
-			"Date": "2025-06-14 20:37:40 UTC",
+			"Date": "2025-06-21 12:17:07 UTC",
 			"Chat": "e1llas"
 		}
 	},
@@ -134,6 +134,20 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "🐟 fish",
+			"Weight in lbs": 11.26,
+			"Catchtype": "Normal",
+			"Date": "2025-06-21 12:17:07 UTC",
+			"Chat": "e1llas"
+		},
+		{
+			"Fish": "🐟 fish",
+			"Weight in lbs": 1.7,
+			"Catchtype": "Normal",
+			"Date": "2025-06-20 10:12:53 UTC",
+			"Chat": "e1llas"
+		},
+		{
 			"Fish": "🎏 lure",
 			"Weight in lbs": 1.03,
 			"Catchtype": "Normal",
@@ -188,33 +202,19 @@
 			"Catchtype": "Normal",
 			"Date": "2025-06-09 15:13:29 UTC",
 			"Chat": "e1llas"
-		},
-		{
-			"Fish": "🐙 octopus",
-			"Weight in lbs": 54.99,
-			"Catchtype": "Normal",
-			"Date": "2025-06-09 10:18:37 UTC",
-			"Chat": "e1llas"
-		},
-		{
-			"Fish": "👒 womanshat",
-			"Weight in lbs": 7.56,
-			"Catchtype": "Normal",
-			"Date": "2025-06-07 19:30:11 UTC",
-			"Chat": "e1llas"
 		}
 	],
 	"Combined weight of all caught fish": {
-		"Total": 1911.34,
+		"Total": 1924.3,
 		"Per chat": {
-			"e1llas": 1911.34
+			"e1llas": 1924.3
 		}
 	},
 	"Combined weight of all caught fish per year": {
 		"2025": {
-			"Total": 1911.34,
+			"Total": 1924.3,
 			"Per chat": {
-				"e1llas": 1911.34
+				"e1llas": 1924.3
 			}
 		}
 	},
@@ -897,24 +897,24 @@
 		},
 		"fish 🐟": {
 			"Caught in total": {
-				"Total": 5,
+				"Total": 7,
 				"Per chat": {
-					"e1llas": 5
+					"e1llas": 7
 				}
 			},
 			"Caught per year": {
 				"2025": {
-					"Total": 5,
+					"Total": 7,
 					"Per chat": {
-						"e1llas": 5
+						"e1llas": 7
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 5,
+					"Total": 7,
 					"Per chat": {
-						"e1llas": 5
+						"e1llas": 7
 					}
 				}
 			},
@@ -927,9 +927,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐟 fish",
-				"Weight in lbs": 6.12,
+				"Weight in lbs": 11.26,
 				"Catchtype": "Normal",
-				"Date": "2025-06-05 08:13:24 UTC",
+				"Date": "2025-06-21 12:17:07 UTC",
 				"Chat": "e1llas"
 			},
 			"Biggest catch": {
@@ -944,9 +944,9 @@
 			},
 			"Smallest catch": {
 				"Fish": "🐟 fish",
-				"Weight in lbs": 3.03,
+				"Weight in lbs": 1.7,
 				"Catchtype": "Normal",
-				"Date": "2025-05-28 08:59:03 UTC",
+				"Date": "2025-06-20 10:12:53 UTC",
 				"Chat": "e1llas"
 			}
 		},
@@ -2177,6 +2177,7 @@
 		"balletshoes 🩰",
 		"bat 🦇",
 		"beaver 🦫",
+		"bilberries 🫐",
 		"bird 🐦",
 		"blackbird 🐦‍⬛",
 		"blackcat 🐈‍⬛",
@@ -2186,6 +2187,7 @@
 		"candy 🍬",
 		"cannedfood 🥫",
 		"carpentrysaw 🪚",
+		"caterpillar 🐛",
 		"coat 🧥",
 		"compass 🧭",
 		"crown 👑",
@@ -2194,12 +2196,14 @@
 		"duck 🦆",
 		"emptynest 🪹",
 		"feather 🪶",
+		"fly 🪰",
 		"gloves 🧤",
 		"goose 🪿",
 		"grass 🌾",
 		"icecube 🧊",
 		"iceskate ⛸️",
 		"iphone 📱",
+		"jar 🫙",
 		"leaf 🍃",
 		"lizard 🦎",
 		"log 🪵",
@@ -2226,6 +2230,7 @@
 		"shamrock ☘️",
 		"shoppingcart 🛒",
 		"slotmachine 🎰",
+		"spiderweb 🕸️",
 		"squirrel 🐿️",
 		"sunflower 🌻",
 		"swan 🦢",
@@ -2239,7 +2244,7 @@
 		"worm 🪱",
 		"zombie 🧟"
 	],
-	"Total fish not seen": 67,
+	"Total fish not seen": 72,
 	"Some info": [
 		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
 		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
@@ -2248,5 +2253,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-15 14:18:01 UTC"
+	"Profile last updated at": "2025-06-22 09:55:21 UTC"
 }

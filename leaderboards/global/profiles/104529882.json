@@ -1,7 +1,7 @@
 {
 	"Name": "poioce",
 	"Progress": null,
-	"Records": [
+	"Noteable records": [
 		"4th most fish caught in channel jellyuh !",
 		"5th most fish seen in channel jellyuh !",
 		"8th biggest fish record in channel jellyuh !"
@@ -11,24 +11,24 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 123,
+		"Total": 124,
 		"Per chat": {
-			"jellyuh": 123
+			"jellyuh": 124
 		}
 	},
 	"Fish caught per year": {
 		"2025": {
-			"Total": 123,
+			"Total": 124,
 			"Per chat": {
-				"jellyuh": 123
+				"jellyuh": 124
 			}
 		}
 	},
 	"Fish caught per catchtype": {
 		"Normal": {
-			"Total": 122,
+			"Total": 123,
 			"Per chat": {
-				"jellyuh": 122
+				"jellyuh": 123
 			}
 		},
 		"Release bonus": {
@@ -49,10 +49,10 @@
 	},
 	"Their last fish per chat": {
 		"jellyuh": {
-			"Fish": "🐟 fish",
-			"Weight in lbs": 14.66,
+			"Fish": "🐊 crocodile",
+			"Weight in lbs": 59.48,
 			"Catchtype": "Normal",
-			"Date": "2025-06-09 12:57:11 UTC",
+			"Date": "2025-06-20 22:32:43 UTC",
 			"Chat": "jellyuh"
 		}
 	},
@@ -130,14 +130,21 @@
 			"Chat": "jellyuh"
 		},
 		{
-			"Fish": "🦈 shark",
-			"Weight in lbs": 56.17,
+			"Fish": "🐊 crocodile",
+			"Weight in lbs": 59.48,
 			"Catchtype": "Normal",
-			"Date": "2025-05-08 14:29:36 UTC",
+			"Date": "2025-06-20 22:32:43 UTC",
 			"Chat": "jellyuh"
 		}
 	],
 	"Their overall last fish": [
+		{
+			"Fish": "🐊 crocodile",
+			"Weight in lbs": 59.48,
+			"Catchtype": "Normal",
+			"Date": "2025-06-20 22:32:43 UTC",
+			"Chat": "jellyuh"
+		},
 		{
 			"Fish": "🐟 fish",
 			"Weight in lbs": 14.66,
@@ -200,26 +207,19 @@
 			"Catchtype": "Normal",
 			"Date": "2025-05-17 02:41:43 UTC",
 			"Chat": "jellyuh"
-		},
-		{
-			"Fish": "🎏 lure",
-			"Weight in lbs": 0,
-			"Catchtype": "Release bonus",
-			"Date": "2025-05-13 03:25:43 UTC",
-			"Chat": "jellyuh"
 		}
 	],
 	"Combined weight of all caught fish": {
-		"Total": 1946.98,
+		"Total": 2006.46,
 		"Per chat": {
-			"jellyuh": 1946.98
+			"jellyuh": 2006.46
 		}
 	},
 	"Combined weight of all caught fish per year": {
 		"2025": {
-			"Total": 1946.98,
+			"Total": 2006.46,
 			"Per chat": {
-				"jellyuh": 1946.98
+				"jellyuh": 2006.46
 			}
 		}
 	},
@@ -278,7 +278,6 @@
 			"🦎",
 			"🌿",
 			"☘️",
-			"🌿",
 			"🦎",
 			"🐟",
 			"🐟",
@@ -324,17 +323,18 @@
 			"🪝",
 			"🐟",
 			"🐚",
-			"🐟"
+			"🐟",
+			"🐊"
 		],
-		"Date": "2025-06-09 14:29:06 UTC",
+		"Date": "2025-06-20 22:32:56 UTC",
 		"Chat": "jellyuh"
 	},
 	"Count of each item in that bag": {
 		"☘️": 4,
-		"🌿": 2,
+		"🌿": 1,
 		"🍃": 1,
 		"🍄": 1,
-		"🐊": 6,
+		"🐊": 7,
 		"🐋": 2,
 		"🐌": 3,
 		"🐍": 2,
@@ -632,24 +632,24 @@
 		},
 		"crocodile 🐊": {
 			"Caught in total": {
-				"Total": 6,
+				"Total": 7,
 				"Per chat": {
-					"jellyuh": 6
+					"jellyuh": 7
 				}
 			},
 			"Caught per year": {
 				"2025": {
-					"Total": 6,
+					"Total": 7,
 					"Per chat": {
-						"jellyuh": 6
+						"jellyuh": 7
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 6,
+					"Total": 7,
 					"Per chat": {
-						"jellyuh": 6
+						"jellyuh": 7
 					}
 				}
 			},
@@ -662,9 +662,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐊 crocodile",
-				"Weight in lbs": 77.46,
+				"Weight in lbs": 59.48,
 				"Catchtype": "Normal",
-				"Date": "2025-05-21 03:26:44 UTC",
+				"Date": "2025-06-20 22:32:43 UTC",
 				"Chat": "jellyuh"
 			},
 			"Biggest catch": {
@@ -2353,6 +2353,7 @@
 		"bat 🦇",
 		"beaver 🦫",
 		"beveragebox 🧃",
+		"bilberries 🫐",
 		"bird 🐦",
 		"blackbird 🐦‍⬛",
 		"blackcat 🐈‍⬛",
@@ -2362,6 +2363,7 @@
 		"candy 🍬",
 		"cannedfood 🥫",
 		"carpentrysaw 🪚",
+		"caterpillar 🐛",
 		"coat 🧥",
 		"compass 🧭",
 		"coral 🪸",
@@ -2373,12 +2375,14 @@
 		"duck 🦆",
 		"emptynest 🪹",
 		"feather 🪶",
+		"fly 🪰",
 		"gloves 🧤",
 		"goose 🪿",
 		"grass 🌾",
 		"icecube 🧊",
 		"iceskate ⛸️",
 		"iphone 📱",
+		"jar 🫙",
 		"jellyfish 🪼",
 		"malegenie 🧞‍♂",
 		"mapleleaf 🍁",
@@ -2398,6 +2402,7 @@
 		"shoppingcart 🛒",
 		"skull 💀",
 		"slotmachine 🎰",
+		"spiderweb 🕸️",
 		"squirrel 🐿️",
 		"sunflower 🌻",
 		"swan 🦢",
@@ -2411,7 +2416,7 @@
 		"womanshat 👒",
 		"zombie 🧟"
 	],
-	"Total fish not seen": 63,
+	"Total fish not seen": 68,
 	"Some info": [
 		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
 		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
@@ -2420,5 +2425,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-15 14:18:01 UTC"
+	"Profile last updated at": "2025-06-22 09:55:21 UTC"
 }

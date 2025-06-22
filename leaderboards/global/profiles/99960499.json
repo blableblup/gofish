@@ -1,19 +1,19 @@
 {
 	"Name": "rustezzz",
 	"Progress": null,
-	"Records": [
+	"Noteable records": [
 		"🥇 Most fish caught in channel aquaismissing !",
-		"🥈 Second most fish seen in channel aquaismissing !",
-		"5th biggest fish record in channel aquaismissing !"
+		"🥇 Most fish seen in channel aquaismissing !",
+		"7th biggest fish record in channel aquaismissing !"
 	],
 	"Other accomplishments": {
 		"Accomplishments": null,
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 36,
+		"Total": 37,
 		"Per chat": {
-			"aquaismissing": 36
+			"aquaismissing": 37
 		}
 	},
 	"Fish caught per year": {
@@ -24,17 +24,17 @@
 			}
 		},
 		"2025": {
-			"Total": 15,
+			"Total": 16,
 			"Per chat": {
-				"aquaismissing": 15
+				"aquaismissing": 16
 			}
 		}
 	},
 	"Fish caught per catchtype": {
 		"Normal": {
-			"Total": 36,
+			"Total": 37,
 			"Per chat": {
-				"aquaismissing": 36
+				"aquaismissing": 37
 			}
 		}
 	},
@@ -49,10 +49,10 @@
 	},
 	"Their last fish per chat": {
 		"aquaismissing": {
-			"Fish": "🐟 fish",
-			"Weight in lbs": 15.48,
+			"Fish": "🛢️ oildrum",
+			"Weight in lbs": 37.07,
 			"Catchtype": "Normal",
-			"Date": "2025-06-11 09:04:35 UTC",
+			"Date": "2025-06-21 00:09:40 UTC",
 			"Chat": "aquaismissing"
 		}
 	},
@@ -102,6 +102,13 @@
 			"Chat": "aquaismissing"
 		},
 		{
+			"Fish": "🛢️ oildrum",
+			"Weight in lbs": 37.07,
+			"Catchtype": "Normal",
+			"Date": "2025-06-21 00:09:40 UTC",
+			"Chat": "aquaismissing"
+		},
+		{
 			"Fish": "🦑 squid",
 			"Weight in lbs": 29.49,
 			"Catchtype": "Normal",
@@ -128,16 +135,16 @@
 			"Catchtype": "Normal",
 			"Date": "2025-01-04 22:01:57 UTC",
 			"Chat": "aquaismissing"
-		},
-		{
-			"Fish": "🐟 fish",
-			"Weight in lbs": 15.48,
-			"Catchtype": "Normal",
-			"Date": "2025-06-11 09:04:35 UTC",
-			"Chat": "aquaismissing"
 		}
 	],
 	"Their overall last fish": [
+		{
+			"Fish": "🛢️ oildrum",
+			"Weight in lbs": 37.07,
+			"Catchtype": "Normal",
+			"Date": "2025-06-21 00:09:40 UTC",
+			"Chat": "aquaismissing"
+		},
 		{
 			"Fish": "🐟 fish",
 			"Weight in lbs": 15.48,
@@ -200,19 +207,12 @@
 			"Catchtype": "Normal",
 			"Date": "2025-02-19 06:01:08 UTC",
 			"Chat": "aquaismissing"
-		},
-		{
-			"Fish": "🪝 hook",
-			"Weight in lbs": 3.01,
-			"Catchtype": "Normal",
-			"Date": "2025-02-19 03:48:50 UTC",
-			"Chat": "aquaismissing"
 		}
 	],
 	"Combined weight of all caught fish": {
-		"Total": 521.7,
+		"Total": 558.77,
 		"Per chat": {
-			"aquaismissing": 521.7
+			"aquaismissing": 558.77
 		}
 	},
 	"Combined weight of all caught fish per year": {
@@ -223,9 +223,9 @@
 			}
 		},
 		"2025": {
-			"Total": 297.93,
+			"Total": 335,
 			"Per chat": {
-				"aquaismissing": 297.93
+				"aquaismissing": 335
 			}
 		}
 	},
@@ -288,9 +288,9 @@
 		"🪝": 1
 	},
 	"Fish seen in total": {
-		"Total": 19,
+		"Total": 20,
 		"Per chat": {
-			"aquaismissing": 19
+			"aquaismissing": 20
 		}
 	},
 	"Data about each of their seen fish": {
@@ -677,6 +677,67 @@
 				"Catchtype": "Normal",
 				"Date": "2024-12-31 00:45:48 UTC",
 				"Chat": "aquaismissing"
+			}
+		},
+		"oildrum 🛢️": {
+			"Caught in total": {
+				"Total": 1,
+				"Per chat": {
+					"aquaismissing": 1
+				}
+			},
+			"Caught per year": {
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"aquaismissing": 1
+					}
+				}
+			},
+			"Caught per catchtype": {
+				"Normal": {
+					"Total": 1,
+					"Per chat": {
+						"aquaismissing": 1
+					}
+				}
+			},
+			"First catch": {
+				"Fish": "🛢️ oildrum",
+				"Weight in lbs": 37.07,
+				"Catchtype": "Normal",
+				"Date": "2025-06-21 00:09:40 UTC",
+				"Chat": "aquaismissing",
+				"Record": [
+					"🥇 First ever 🛢️ oildrum caught in channel aquaismissing !"
+				]
+			},
+			"Last catch": {
+				"Fish": "🛢️ oildrum",
+				"Weight in lbs": 37.07,
+				"Catchtype": "Normal",
+				"Date": "2025-06-21 00:09:40 UTC",
+				"Chat": "aquaismissing"
+			},
+			"Biggest catch": {
+				"Fish": "🛢️ oildrum",
+				"Weight in lbs": 37.07,
+				"Catchtype": "Normal",
+				"Date": "2025-06-21 00:09:40 UTC",
+				"Chat": "aquaismissing",
+				"Record": [
+					"🥇 Biggest 🛢️ oildrum record in channel aquaismissing !"
+				]
+			},
+			"Smallest catch": {
+				"Fish": "🛢️ oildrum",
+				"Weight in lbs": 37.07,
+				"Catchtype": "Normal",
+				"Date": "2025-06-21 00:09:40 UTC",
+				"Chat": "aquaismissing",
+				"Record": [
+					"🥇 Smallest 🛢️ oildrum record in channel aquaismissing !"
+				]
 			}
 		},
 		"oyster 🦪": {
@@ -1336,6 +1397,7 @@
 		"bat 🦇",
 		"beaver 🦫",
 		"beveragebox 🧃",
+		"bilberries 🫐",
 		"bird 🐦",
 		"blackbird 🐦‍⬛",
 		"blackcat 🐈‍⬛",
@@ -1346,6 +1408,7 @@
 		"candy 🍬",
 		"cannedfood 🥫",
 		"carpentrysaw 🪚",
+		"caterpillar 🐛",
 		"coat 🧥",
 		"cockroach 🪳",
 		"compass 🧭",
@@ -1360,12 +1423,14 @@
 		"duck 🦆",
 		"emptynest 🪹",
 		"feather 🪶",
+		"fly 🪰",
 		"gloves 🧤",
 		"goose 🪿",
 		"grass 🌾",
 		"icecube 🧊",
 		"iceskate ⛸️",
 		"iphone 📱",
+		"jar 🫙",
 		"jellyfish 🪼",
 		"leaf 🍃",
 		"lizard 🦎",
@@ -1377,7 +1442,6 @@
 		"mushroom 🍄",
 		"nestwitheggs 🪺",
 		"octopus 🐙",
-		"oildrum 🛢️",
 		"otter 🦦",
 		"owl 🦉",
 		"penguin 🐧",
@@ -1398,6 +1462,7 @@
 		"snake 🐍",
 		"socks 🧦",
 		"spider 🕷️",
+		"spiderweb 🕸️",
 		"squirrel 🐿️",
 		"sunflower 🌻",
 		"swan 🦢",
@@ -1411,7 +1476,7 @@
 		"worm 🪱",
 		"zombie 🧟"
 	],
-	"Total fish not seen": 81,
+	"Total fish not seen": 85,
 	"Some info": [
 		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
 		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
@@ -1420,5 +1485,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-15 14:18:01 UTC"
+	"Profile last updated at": "2025-06-22 09:55:21 UTC"
 }

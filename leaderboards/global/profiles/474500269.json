@@ -1,7 +1,7 @@
 {
 	"Name": "gigi",
 	"Progress": null,
-	"Records": [
+	"Noteable records": [
 		"19th biggest fish record in channel dizzy !"
 	],
 	"Other accomplishments": {
@@ -124,14 +124,14 @@
 			"Fish": "🐟 fish",
 			"Weight in lbs": 15.39,
 			"Catchtype": "Normal",
-			"Date": "2024-10-23 11:40:38 UTC",
+			"Date": "2024-11-09 17:59:53 UTC",
 			"Chat": "dizzy"
 		},
 		{
 			"Fish": "🐟 fish",
 			"Weight in lbs": 15.39,
 			"Catchtype": "Normal",
-			"Date": "2024-11-09 17:59:53 UTC",
+			"Date": "2024-10-23 11:40:38 UTC",
 			"Chat": "dizzy"
 		}
 	],
@@ -1314,6 +1314,7 @@
 		"bat 🦇",
 		"beaver 🦫",
 		"beveragebox 🧃",
+		"bilberries 🫐",
 		"bird 🐦",
 		"blackbird 🐦‍⬛",
 		"blackcat 🐈‍⬛",
@@ -1323,6 +1324,7 @@
 		"candy 🍬",
 		"cannedfood 🥫",
 		"carpentrysaw 🪚",
+		"caterpillar 🐛",
 		"coat 🧥",
 		"compass 🧭",
 		"coral 🪸",
@@ -1335,12 +1337,14 @@
 		"duck 🦆",
 		"emptynest 🪹",
 		"feather 🪶",
+		"fly 🪰",
 		"gloves 🧤",
 		"goose 🪿",
 		"grass 🌾",
 		"icecube 🧊",
 		"iceskate ⛸️",
 		"iphone 📱",
+		"jar 🫙",
 		"jellyfish 🪼",
 		"leaf 🍃",
 		"lizard 🦎",
@@ -1373,6 +1377,7 @@
 		"snail 🐌",
 		"socks 🧦",
 		"spider 🕷️",
+		"spiderweb 🕸️",
 		"squirrel 🐿️",
 		"sunflower 🌻",
 		"swan 🦢",
@@ -1388,7 +1393,7 @@
 		"worm 🪱",
 		"zombie 🧟"
 	],
-	"Total fish not seen": 80,
+	"Total fish not seen": 85,
 	"Some info": [
 		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
 		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
@@ -1397,5 +1402,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-15 14:18:01 UTC"
+	"Profile last updated at": "2025-06-22 09:55:21 UTC"
 }

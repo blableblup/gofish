@@ -1,16 +1,16 @@
 {
 	"Name": "flvx_flux",
 	"Progress": null,
-	"Records": null,
+	"Noteable records": null,
 	"Other accomplishments": {
 		"Accomplishments": null,
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 71,
+		"Total": 73,
 		"Per chat": {
 			"psp1g": 23,
-			"wuh6": 48
+			"wuh6": 50
 		}
 	},
 	"Fish caught per year": {
@@ -27,18 +27,18 @@
 			}
 		},
 		"2025": {
-			"Total": 48,
+			"Total": 50,
 			"Per chat": {
-				"wuh6": 48
+				"wuh6": 50
 			}
 		}
 	},
 	"Fish caught per catchtype": {
 		"Normal": {
-			"Total": 69,
+			"Total": 71,
 			"Per chat": {
 				"psp1g": 23,
-				"wuh6": 46
+				"wuh6": 48
 			}
 		},
 		"Release bonus": {
@@ -73,10 +73,10 @@
 			"Chat": "psp1g"
 		},
 		"wuh6": {
-			"Fish": "🐙 octopus",
-			"Weight in lbs": 18.44,
+			"Fish": "🐡 blowfish",
+			"Weight in lbs": 18.74,
 			"Catchtype": "Normal",
-			"Date": "2025-06-13 18:51:19 UTC",
+			"Date": "2025-06-20 04:08:54 UTC",
 			"Chat": "wuh6"
 		}
 	},
@@ -170,6 +170,20 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "🐡 blowfish",
+			"Weight in lbs": 18.74,
+			"Catchtype": "Normal",
+			"Date": "2025-06-20 04:08:54 UTC",
+			"Chat": "wuh6"
+		},
+		{
+			"Fish": "🐙 octopus",
+			"Weight in lbs": 5.62,
+			"Catchtype": "Normal",
+			"Date": "2025-06-19 14:28:41 UTC",
+			"Chat": "wuh6"
+		},
+		{
 			"Fish": "🐙 octopus",
 			"Weight in lbs": 18.44,
 			"Catchtype": "Normal",
@@ -224,27 +238,13 @@
 			"Catchtype": "Normal",
 			"Date": "2025-06-13 09:46:40 UTC",
 			"Chat": "wuh6"
-		},
-		{
-			"Fish": "💀 skull",
-			"Weight in lbs": 8.91,
-			"Catchtype": "Normal",
-			"Date": "2025-06-13 09:02:20 UTC",
-			"Chat": "wuh6"
-		},
-		{
-			"Fish": "🐠 tropicalfish",
-			"Weight in lbs": 1.12,
-			"Catchtype": "Normal",
-			"Date": "2025-06-13 08:05:57 UTC",
-			"Chat": "wuh6"
 		}
 	],
 	"Combined weight of all caught fish": {
-		"Total": 1134.33,
+		"Total": 1158.69,
 		"Per chat": {
 			"psp1g": 291.32,
-			"wuh6": 843.01
+			"wuh6": 867.37
 		}
 	},
 	"Combined weight of all caught fish per year": {
@@ -261,9 +261,9 @@
 			}
 		},
 		"2025": {
-			"Total": 843.01,
+			"Total": 867.37,
 			"Per chat": {
-				"wuh6": 843.01
+				"wuh6": 867.37
 			}
 		}
 	},
@@ -303,29 +303,29 @@
 			"🐋",
 			"🐙",
 			"🐠",
-			"🩴",
 			"🐍",
-			"🩴",
-			"🎏"
+			"🎏",
+			"🐙",
+			"🐙",
+			"🐡"
 		],
-		"Date": "2025-06-13 16:20:04 UTC",
-		"Chat": "psp1g"
+		"Date": "2025-06-20 04:09:03 UTC",
+		"Chat": "wuh6"
 	},
 	"Count of each item in that bag": {
 		"🎏": 1,
 		"🐋": 1,
 		"🐍": 1,
-		"🐙": 4,
+		"🐙": 6,
 		"🐚": 2,
 		"🐠": 5,
-		"🐡": 2,
+		"🐡": 3,
 		"🐬": 6,
 		"🗡️": 1,
 		"🦈": 1,
 		"🦐": 1,
 		"🦑": 4,
 		"🦦": 1,
-		"🩴": 2,
 		"🪸": 5,
 		"🪼": 1
 	},
@@ -339,24 +339,24 @@
 	"Data about each of their seen fish": {
 		"blowfish 🐡": {
 			"Caught in total": {
-				"Total": 2,
+				"Total": 3,
 				"Per chat": {
-					"wuh6": 2
+					"wuh6": 3
 				}
 			},
 			"Caught per year": {
 				"2025": {
-					"Total": 2,
+					"Total": 3,
 					"Per chat": {
-						"wuh6": 2
+						"wuh6": 3
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 2,
+					"Total": 3,
 					"Per chat": {
-						"wuh6": 2
+						"wuh6": 3
 					}
 				}
 			},
@@ -369,16 +369,16 @@
 			},
 			"Last catch": {
 				"Fish": "🐡 blowfish",
-				"Weight in lbs": 17.58,
+				"Weight in lbs": 18.74,
 				"Catchtype": "Normal",
-				"Date": "2025-06-02 02:09:35 UTC",
+				"Date": "2025-06-20 04:08:54 UTC",
 				"Chat": "wuh6"
 			},
 			"Biggest catch": {
 				"Fish": "🐡 blowfish",
-				"Weight in lbs": 17.58,
+				"Weight in lbs": 18.74,
 				"Catchtype": "Normal",
-				"Date": "2025-06-02 02:09:35 UTC",
+				"Date": "2025-06-20 04:08:54 UTC",
 				"Chat": "wuh6"
 			},
 			"Smallest catch": {
@@ -801,24 +801,24 @@
 		},
 		"octopus 🐙": {
 			"Caught in total": {
-				"Total": 5,
+				"Total": 6,
 				"Per chat": {
-					"wuh6": 5
+					"wuh6": 6
 				}
 			},
 			"Caught per year": {
 				"2025": {
-					"Total": 5,
+					"Total": 6,
 					"Per chat": {
-						"wuh6": 5
+						"wuh6": 6
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 5,
+					"Total": 6,
 					"Per chat": {
-						"wuh6": 5
+						"wuh6": 6
 					}
 				}
 			},
@@ -831,9 +831,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐙 octopus",
-				"Weight in lbs": 18.44,
+				"Weight in lbs": 5.62,
 				"Catchtype": "Normal",
-				"Date": "2025-06-13 18:51:19 UTC",
+				"Date": "2025-06-19 14:28:41 UTC",
 				"Chat": "wuh6"
 			},
 			"Biggest catch": {
@@ -845,9 +845,9 @@
 			},
 			"Smallest catch": {
 				"Fish": "🐙 octopus",
-				"Weight in lbs": 18.44,
+				"Weight in lbs": 5.62,
 				"Catchtype": "Normal",
-				"Date": "2025-06-13 18:51:19 UTC",
+				"Date": "2025-06-19 14:28:41 UTC",
 				"Chat": "wuh6"
 			}
 		},
@@ -1629,6 +1629,7 @@
 		"bat 🦇",
 		"beaver 🦫",
 		"beveragebox 🧃",
+		"bilberries 🫐",
 		"bird 🐦",
 		"blackbird 🐦‍⬛",
 		"blackcat 🐈‍⬛",
@@ -1639,6 +1640,7 @@
 		"candy 🍬",
 		"cannedfood 🥫",
 		"carpentrysaw 🪚",
+		"caterpillar 🐛",
 		"coat 🧥",
 		"cockroach 🪳",
 		"compass 🧭",
@@ -1651,6 +1653,7 @@
 		"duck 🦆",
 		"emptynest 🪹",
 		"feather 🪶",
+		"fly 🪰",
 		"frog 🐸",
 		"gloves 🧤",
 		"goose 🪿",
@@ -1658,6 +1661,7 @@
 		"icecube 🧊",
 		"iceskate ⛸️",
 		"iphone 📱",
+		"jar 🫙",
 		"leaf 🍃",
 		"lizard 🦎",
 		"lobster 🦞",
@@ -1685,6 +1689,7 @@
 		"shoppingcart 🛒",
 		"slotmachine 🎰",
 		"snail 🐌",
+		"spiderweb 🕸️",
 		"sponge 🧽",
 		"squirrel 🐿️",
 		"sunflower 🌻",
@@ -1700,7 +1705,7 @@
 		"worm 🪱",
 		"zombie 🧟"
 	],
-	"Total fish not seen": 77,
+	"Total fish not seen": 82,
 	"Some info": [
 		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
 		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
@@ -1709,5 +1714,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-15 14:18:01 UTC"
+	"Profile last updated at": "2025-06-22 09:55:21 UTC"
 }

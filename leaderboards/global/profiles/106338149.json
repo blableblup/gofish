@@ -1,7 +1,7 @@
 {
 	"Name": "cptblack_",
 	"Progress": null,
-	"Records": [
+	"Noteable records": [
 		"8th most fish caught in channel jellyuh !",
 		"9th most fish seen in channel jellyuh !",
 		"9th biggest fish record in channel jellyuh !"
@@ -11,24 +11,24 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 60,
+		"Total": 61,
 		"Per chat": {
-			"jellyuh": 60
+			"jellyuh": 61
 		}
 	},
 	"Fish caught per year": {
 		"2025": {
-			"Total": 60,
+			"Total": 61,
 			"Per chat": {
-				"jellyuh": 60
+				"jellyuh": 61
 			}
 		}
 	},
 	"Fish caught per catchtype": {
 		"Normal": {
-			"Total": 60,
+			"Total": 61,
 			"Per chat": {
-				"jellyuh": 60
+				"jellyuh": 61
 			}
 		}
 	},
@@ -43,10 +43,10 @@
 	},
 	"Their last fish per chat": {
 		"jellyuh": {
-			"Fish": "🧽 sponge",
-			"Weight in lbs": 13.86,
+			"Fish": "🎏 lure",
+			"Weight in lbs": 0.04,
 			"Catchtype": "Normal",
-			"Date": "2025-06-13 04:08:12 UTC",
+			"Date": "2025-06-19 00:39:52 UTC",
 			"Chat": "jellyuh"
 		}
 	},
@@ -133,6 +133,13 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "🎏 lure",
+			"Weight in lbs": 0.04,
+			"Catchtype": "Normal",
+			"Date": "2025-06-19 00:39:52 UTC",
+			"Chat": "jellyuh"
+		},
+		{
 			"Fish": "🧽 sponge",
 			"Weight in lbs": 13.86,
 			"Catchtype": "Normal",
@@ -194,26 +201,19 @@
 			"Catchtype": "Normal",
 			"Date": "2025-05-12 05:59:56 UTC",
 			"Chat": "jellyuh"
-		},
-		{
-			"Fish": "🩲 briefs",
-			"Weight in lbs": 9.56,
-			"Catchtype": "Normal",
-			"Date": "2025-05-09 03:44:38 UTC",
-			"Chat": "jellyuh"
 		}
 	],
 	"Combined weight of all caught fish": {
-		"Total": 1362.07,
+		"Total": 1362.11,
 		"Per chat": {
-			"jellyuh": 1362.07
+			"jellyuh": 1362.11
 		}
 	},
 	"Combined weight of all caught fish per year": {
 		"2025": {
-			"Total": 1362.07,
+			"Total": 1362.11,
 			"Per chat": {
-				"jellyuh": 1362.07
+				"jellyuh": 1362.11
 			}
 		}
 	},
@@ -868,24 +868,24 @@
 		},
 		"lure 🎏": {
 			"Caught in total": {
-				"Total": 8,
+				"Total": 9,
 				"Per chat": {
-					"jellyuh": 8
+					"jellyuh": 9
 				}
 			},
 			"Caught per year": {
 				"2025": {
-					"Total": 8,
+					"Total": 9,
 					"Per chat": {
-						"jellyuh": 8
+						"jellyuh": 9
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 8,
+					"Total": 9,
 					"Per chat": {
-						"jellyuh": 8
+						"jellyuh": 9
 					}
 				}
 			},
@@ -898,9 +898,9 @@
 			},
 			"Last catch": {
 				"Fish": "🎏 lure",
-				"Weight in lbs": 0.43,
+				"Weight in lbs": 0.04,
 				"Catchtype": "Normal",
-				"Date": "2025-05-21 02:59:48 UTC",
+				"Date": "2025-06-19 00:39:52 UTC",
 				"Chat": "jellyuh"
 			},
 			"Biggest catch": {
@@ -1554,6 +1554,7 @@
 		"bat 🦇",
 		"beaver 🦫",
 		"beveragebox 🧃",
+		"bilberries 🫐",
 		"bird 🐦",
 		"blackbird 🐦‍⬛",
 		"blackcat 🐈‍⬛",
@@ -1561,6 +1562,7 @@
 		"brownmushroom 🍄‍🟫",
 		"candy 🍬",
 		"carpentrysaw 🪚",
+		"caterpillar 🐛",
 		"coat 🧥",
 		"cockroach 🪳",
 		"compass 🧭",
@@ -1573,12 +1575,14 @@
 		"duck 🦆",
 		"emptynest 🪹",
 		"feather 🪶",
+		"fly 🪰",
 		"frog 🐸",
 		"goose 🪿",
 		"grass 🌾",
 		"icecube 🧊",
 		"iceskate ⛸️",
 		"iphone 📱",
+		"jar 🫙",
 		"jellyfish 🪼",
 		"leaf 🍃",
 		"lizard 🦎",
@@ -1610,6 +1614,7 @@
 		"skull 💀",
 		"slotmachine 🎰",
 		"snail 🐌",
+		"spiderweb 🕸️",
 		"squirrel 🐿️",
 		"sunflower 🌻",
 		"swan 🦢",
@@ -1624,7 +1629,7 @@
 		"worm 🪱",
 		"zombie 🧟"
 	],
-	"Total fish not seen": 76,
+	"Total fish not seen": 81,
 	"Some info": [
 		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
 		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
@@ -1633,5 +1638,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-15 14:18:01 UTC"
+	"Profile last updated at": "2025-06-22 09:55:21 UTC"
 }

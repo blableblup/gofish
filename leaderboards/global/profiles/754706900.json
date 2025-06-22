@@ -1,7 +1,7 @@
 {
 	"Name": "rainedparade",
 	"Progress": null,
-	"Records": [
+	"Noteable records": [
 		"🥇 Most fish caught in channel jellyuh !",
 		"🥇 Most fish seen in channel jellyuh !",
 		"6th biggest fish record in channel jellyuh !",
@@ -12,24 +12,24 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 329,
+		"Total": 332,
 		"Per chat": {
-			"jellyuh": 329
+			"jellyuh": 332
 		}
 	},
 	"Fish caught per year": {
 		"2025": {
-			"Total": 329,
+			"Total": 332,
 			"Per chat": {
-				"jellyuh": 329
+				"jellyuh": 332
 			}
 		}
 	},
 	"Fish caught per catchtype": {
 		"Normal": {
-			"Total": 319,
+			"Total": 322,
 			"Per chat": {
-				"jellyuh": 319
+				"jellyuh": 322
 			}
 		},
 		"Release bonus": {
@@ -50,10 +50,10 @@
 	},
 	"Their last fish per chat": {
 		"jellyuh": {
-			"Fish": "🦐 shrimp",
-			"Weight in lbs": 10.92,
+			"Fish": "🥒 cucumber",
+			"Weight in lbs": 16.53,
 			"Catchtype": "Normal",
-			"Date": "2025-06-14 22:55:01 UTC",
+			"Date": "2025-06-21 01:39:31 UTC",
 			"Chat": "jellyuh"
 		}
 	},
@@ -140,6 +140,27 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "🥒 cucumber",
+			"Weight in lbs": 16.53,
+			"Catchtype": "Normal",
+			"Date": "2025-06-21 01:39:31 UTC",
+			"Chat": "jellyuh"
+		},
+		{
+			"Fish": "🐠 tropicalfish",
+			"Weight in lbs": 21.72,
+			"Catchtype": "Normal",
+			"Date": "2025-06-20 05:18:16 UTC",
+			"Chat": "jellyuh"
+		},
+		{
+			"Fish": "🐢 turtle",
+			"Weight in lbs": 28.26,
+			"Catchtype": "Normal",
+			"Date": "2025-06-20 03:45:06 UTC",
+			"Chat": "jellyuh"
+		},
+		{
 			"Fish": "🦐 shrimp",
 			"Weight in lbs": 10.92,
 			"Catchtype": "Normal",
@@ -187,40 +208,19 @@
 			"Catchtype": "Normal",
 			"Date": "2025-06-13 15:50:22 UTC",
 			"Chat": "jellyuh"
-		},
-		{
-			"Fish": "🪳 cockroach",
-			"Weight in lbs": 9.69,
-			"Catchtype": "Normal",
-			"Date": "2025-06-13 05:29:37 UTC",
-			"Chat": "jellyuh"
-		},
-		{
-			"Fish": "🧽 sponge",
-			"Weight in lbs": 15.29,
-			"Catchtype": "Normal",
-			"Date": "2025-06-13 02:44:39 UTC",
-			"Chat": "jellyuh"
-		},
-		{
-			"Fish": "🐢 turtle",
-			"Weight in lbs": 66.13,
-			"Catchtype": "Normal",
-			"Date": "2025-06-13 00:40:08 UTC",
-			"Chat": "jellyuh"
 		}
 	],
 	"Combined weight of all caught fish": {
-		"Total": 6544.92,
+		"Total": 6611.43,
 		"Per chat": {
-			"jellyuh": 6544.92
+			"jellyuh": 6611.43
 		}
 	},
 	"Combined weight of all caught fish per year": {
 		"2025": {
-			"Total": 6544.92,
+			"Total": 6611.43,
 			"Per chat": {
-				"jellyuh": 6544.92
+				"jellyuh": 6611.43
 			}
 		}
 	},
@@ -278,44 +278,45 @@
 			"🪝",
 			"🦪",
 			"🦕",
-			"🦐",
-			"🦐",
 			"💀",
-			"🕷️",
 			"🦀",
 			"🐡",
 			"🐢",
 			"🧽",
-			"🪳"
+			"🐢",
+			"🕶️",
+			"🦪",
+			"🎏",
+			"🐋",
+			"🦐"
 		],
-		"Date": "2025-06-13 16:15:43 UTC",
+		"Date": "2025-06-19 23:25:49 UTC",
 		"Chat": "jellyuh"
 	},
 	"Count of each item in that bag": {
+		"🎏": 1,
 		"🐉": 1,
 		"🐊": 15,
-		"🐋": 7,
+		"🐋": 8,
 		"🐡": 1,
-		"🐢": 1,
+		"🐢": 2,
 		"🐬": 11,
 		"🐳": 1,
 		"💀": 2,
 		"📑": 1,
-		"🕶️": 2,
-		"🕷️": 1,
+		"🕶️": 3,
 		"🗡️": 1,
 		"🥪": 1,
 		"🦀": 1,
-		"🦐": 2,
+		"🦐": 1,
 		"🦕": 3,
 		"🦦": 1,
-		"🦪": 1,
+		"🦪": 2,
 		"🦭": 2,
 		"🧽": 1,
 		"🩲": 1,
 		"🪀": 1,
-		"🪝": 2,
-		"🪳": 1
+		"🪝": 2
 	},
 	"Fish seen in total": {
 		"Total": 58,
@@ -978,24 +979,24 @@
 		},
 		"cucumber 🥒": {
 			"Caught in total": {
-				"Total": 1,
+				"Total": 2,
 				"Per chat": {
-					"jellyuh": 1
+					"jellyuh": 2
 				}
 			},
 			"Caught per year": {
 				"2025": {
-					"Total": 1,
+					"Total": 2,
 					"Per chat": {
-						"jellyuh": 1
+						"jellyuh": 2
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 1,
+					"Total": 2,
 					"Per chat": {
-						"jellyuh": 1
+						"jellyuh": 2
 					}
 				}
 			},
@@ -1011,9 +1012,9 @@
 			},
 			"Last catch": {
 				"Fish": "🥒 cucumber",
-				"Weight in lbs": 18.76,
+				"Weight in lbs": 16.53,
 				"Catchtype": "Normal",
-				"Date": "2025-05-26 19:35:02 UTC",
+				"Date": "2025-06-21 01:39:31 UTC",
 				"Chat": "jellyuh"
 			},
 			"Biggest catch": {
@@ -1028,9 +1029,9 @@
 			},
 			"Smallest catch": {
 				"Fish": "🥒 cucumber",
-				"Weight in lbs": 18.76,
+				"Weight in lbs": 16.53,
 				"Catchtype": "Normal",
-				"Date": "2025-05-26 19:35:02 UTC",
+				"Date": "2025-06-21 01:39:31 UTC",
 				"Chat": "jellyuh",
 				"Record": [
 					"🥇 Smallest 🥒 cucumber record in channel jellyuh !"
@@ -2625,10 +2626,7 @@
 				"Weight in lbs": 30.77,
 				"Catchtype": "Normal",
 				"Date": "2025-05-21 03:13:07 UTC",
-				"Chat": "jellyuh",
-				"Record": [
-					"🥇 Biggest 🦐 shrimp record in channel jellyuh !"
-				]
+				"Chat": "jellyuh"
 			},
 			"Smallest catch": {
 				"Fish": "🦐 shrimp",
@@ -3089,24 +3087,24 @@
 		},
 		"tropicalfish 🐠": {
 			"Caught in total": {
-				"Total": 5,
+				"Total": 6,
 				"Per chat": {
-					"jellyuh": 5
+					"jellyuh": 6
 				}
 			},
 			"Caught per year": {
 				"2025": {
-					"Total": 5,
+					"Total": 6,
 					"Per chat": {
-						"jellyuh": 5
+						"jellyuh": 6
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 5,
+					"Total": 6,
 					"Per chat": {
-						"jellyuh": 5
+						"jellyuh": 6
 					}
 				}
 			},
@@ -3122,16 +3120,16 @@
 			},
 			"Last catch": {
 				"Fish": "🐠 tropicalfish",
-				"Weight in lbs": 10.54,
+				"Weight in lbs": 21.72,
 				"Catchtype": "Normal",
-				"Date": "2025-03-21 05:17:45 UTC",
+				"Date": "2025-06-20 05:18:16 UTC",
 				"Chat": "jellyuh"
 			},
 			"Biggest catch": {
 				"Fish": "🐠 tropicalfish",
-				"Weight in lbs": 21.61,
+				"Weight in lbs": 21.72,
 				"Catchtype": "Normal",
-				"Date": "2025-03-11 21:19:37 UTC",
+				"Date": "2025-06-20 05:18:16 UTC",
 				"Chat": "jellyuh",
 				"Record": [
 					"🥇 Biggest 🐠 tropicalfish record in channel jellyuh !"
@@ -3147,24 +3145,24 @@
 		},
 		"turtle 🐢": {
 			"Caught in total": {
-				"Total": 10,
+				"Total": 11,
 				"Per chat": {
-					"jellyuh": 10
+					"jellyuh": 11
 				}
 			},
 			"Caught per year": {
 				"2025": {
-					"Total": 10,
+					"Total": 11,
 					"Per chat": {
-						"jellyuh": 10
+						"jellyuh": 11
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 10,
+					"Total": 11,
 					"Per chat": {
-						"jellyuh": 10
+						"jellyuh": 11
 					}
 				}
 			},
@@ -3177,9 +3175,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐢 turtle",
-				"Weight in lbs": 60.11,
+				"Weight in lbs": 28.26,
 				"Catchtype": "Normal",
-				"Date": "2025-06-13 17:37:45 UTC",
+				"Date": "2025-06-20 03:45:06 UTC",
 				"Chat": "jellyuh"
 			},
 			"Biggest catch": {
@@ -3540,19 +3538,23 @@
 		"bat 🦇",
 		"beaver 🦫",
 		"beveragebox 🧃",
+		"bilberries 🫐",
 		"bird 🐦",
 		"blackbird 🐦‍⬛",
 		"blackcat 🐈‍⬛",
 		"boot 👢",
 		"carpentrysaw 🪚",
+		"caterpillar 🐛",
 		"coat 🧥",
 		"compass 🧭",
 		"crown 👑",
 		"emptynest 🪹",
 		"feather 🪶",
+		"fly 🪰",
 		"goose 🪿",
 		"grass 🌾",
 		"iceskate ⛸️",
+		"jar 🫙",
 		"jellyfish 🪼",
 		"leaf 🍃",
 		"lizard 🦎",
@@ -3570,6 +3572,7 @@
 		"scarf 🧣",
 		"shamrock ☘️",
 		"slotmachine 🎰",
+		"spiderweb 🕸️",
 		"squirrel 🐿️",
 		"sunflower 🌻",
 		"swan 🦢",
@@ -3578,7 +3581,7 @@
 		"umbrella ☂️",
 		"wiltedflower 🥀"
 	],
-	"Total fish not seen": 42,
+	"Total fish not seen": 47,
 	"Some info": [
 		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
 		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
@@ -3587,5 +3590,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-15 14:18:01 UTC"
+	"Profile last updated at": "2025-06-22 09:55:22 UTC"
 }

@@ -1,8 +1,9 @@
 {
 	"Name": "gofishgamer",
 	"Progress": null,
-	"Records": [
+	"Noteable records": [
 		"6th most fish caught in channel omie !",
+		"8th most fish seen in channel omie !",
 		"9th biggest fish record in channel omie !"
 	],
 	"Other accomplishments": {
@@ -10,12 +11,13 @@
 		"Shinies": null
 	},
 	"Fish caught in total": {
-		"Total": 228,
+		"Total": 240,
 		"Per chat": {
 			"ajspyman": 5,
-			"breadworms": 2,
+			"breadworms": 3,
+			"deme": 1,
 			"dizzy": 69,
-			"omie": 112,
+			"omie": 122,
 			"psp1g": 40
 		}
 	},
@@ -30,10 +32,11 @@
 			}
 		},
 		"2025": {
-			"Total": 27,
+			"Total": 39,
 			"Per chat": {
-				"breadworms": 2,
-				"omie": 25
+				"breadworms": 3,
+				"deme": 1,
+				"omie": 35
 			}
 		}
 	},
@@ -45,12 +48,13 @@
 			}
 		},
 		"Normal": {
-			"Total": 220,
+			"Total": 232,
 			"Per chat": {
 				"ajspyman": 5,
-				"breadworms": 1,
+				"breadworms": 2,
+				"deme": 1,
 				"dizzy": 67,
-				"omie": 110,
+				"omie": 120,
 				"psp1g": 37
 			}
 		},
@@ -77,6 +81,13 @@
 			"Catchtype": "Normal",
 			"Date": "2025-06-12 00:58:38 UTC",
 			"Chat": "breadworms"
+		},
+		"deme": {
+			"Fish": "🦐 shrimp",
+			"Weight in lbs": 4.54,
+			"Catchtype": "Normal",
+			"Date": "2025-06-19 08:10:57 UTC",
+			"Chat": "deme"
 		},
 		"dizzy": {
 			"Fish": "🐍 snake",
@@ -109,11 +120,18 @@
 			"Chat": "ajspyman"
 		},
 		"breadworms": {
-			"Fish": "🐦 bird",
-			"Weight in lbs": 0.78,
-			"Catchtype": "Hatched egg",
-			"Date": "2025-06-12 01:00:12 UTC",
+			"Fish": "🪺 nestwitheggs",
+			"Weight in lbs": 2.33,
+			"Catchtype": "Normal",
+			"Date": "2025-06-20 20:50:12 UTC",
 			"Chat": "breadworms"
+		},
+		"deme": {
+			"Fish": "🦐 shrimp",
+			"Weight in lbs": 4.54,
+			"Catchtype": "Normal",
+			"Date": "2025-06-19 08:10:57 UTC",
+			"Chat": "deme"
 		},
 		"dizzy": {
 			"Fish": "🐟 fish",
@@ -123,10 +141,10 @@
 			"Chat": "dizzy"
 		},
 		"omie": {
-			"Fish": "🐟 fish",
-			"Weight in lbs": 5.15,
+			"Fish": "🦐 shrimp",
+			"Weight in lbs": 2.47,
 			"Catchtype": "Normal",
-			"Date": "2025-06-14 22:37:52 UTC",
+			"Date": "2025-06-21 22:52:11 UTC",
 			"Chat": "omie"
 		},
 		"psp1g": {
@@ -146,11 +164,18 @@
 			"Chat": "ajspyman"
 		},
 		"breadworms": {
-			"Fish": "☘️ shamrock",
-			"Weight in lbs": 2.25,
+			"Fish": "🪺 nestwitheggs",
+			"Weight in lbs": 2.33,
 			"Catchtype": "Normal",
-			"Date": "2025-06-12 00:58:38 UTC",
+			"Date": "2025-06-20 20:50:12 UTC",
 			"Chat": "breadworms"
+		},
+		"deme": {
+			"Fish": "🦐 shrimp",
+			"Weight in lbs": 4.54,
+			"Catchtype": "Normal",
+			"Date": "2025-06-19 08:10:57 UTC",
+			"Chat": "deme"
 		},
 		"dizzy": {
 			"Fish": "🐢 turtle",
@@ -248,83 +273,84 @@
 	],
 	"Their overall last fish": [
 		{
-			"Fish": "🐟 fish",
-			"Weight in lbs": 5.15,
-			"Catchtype": "Normal",
-			"Date": "2025-06-14 22:37:52 UTC",
-			"Chat": "omie"
-		},
-		{
-			"Fish": "🐢 turtle",
-			"Weight in lbs": 2.17,
-			"Catchtype": "Normal",
-			"Date": "2025-06-14 19:57:35 UTC",
-			"Chat": "omie"
-		},
-		{
-			"Fish": "🐟 fish",
-			"Weight in lbs": 4.46,
-			"Catchtype": "Normal",
-			"Date": "2025-06-14 08:03:01 UTC",
-			"Chat": "omie"
-		},
-		{
-			"Fish": "🦎 lizard",
-			"Weight in lbs": 7.86,
-			"Catchtype": "Normal",
-			"Date": "2025-06-13 22:30:37 UTC",
-			"Chat": "omie"
-		},
-		{
 			"Fish": "🦐 shrimp",
-			"Weight in lbs": 1.12,
+			"Weight in lbs": 2.47,
 			"Catchtype": "Normal",
-			"Date": "2025-06-13 21:28:51 UTC",
-			"Chat": "omie"
-		},
-		{
-			"Fish": "🦎 lizard",
-			"Weight in lbs": 1.42,
-			"Catchtype": "Normal",
-			"Date": "2025-06-13 05:11:47 UTC",
-			"Chat": "omie"
-		},
-		{
-			"Fish": "🐍 snake",
-			"Weight in lbs": 5.72,
-			"Catchtype": "Normal",
-			"Date": "2025-06-13 04:31:59 UTC",
-			"Chat": "omie"
-		},
-		{
-			"Fish": "🐟 fish",
-			"Weight in lbs": 0.79,
-			"Catchtype": "Normal",
-			"Date": "2025-06-13 01:28:19 UTC",
+			"Date": "2025-06-21 22:52:11 UTC",
 			"Chat": "omie"
 		},
 		{
 			"Fish": "☘️ shamrock",
-			"Weight in lbs": 1.82,
+			"Weight in lbs": 0.1,
 			"Catchtype": "Normal",
-			"Date": "2025-06-13 00:21:36 UTC",
+			"Date": "2025-06-21 22:14:35 UTC",
+			"Chat": "omie"
+		},
+		{
+			"Fish": "🦐 shrimp",
+			"Weight in lbs": 0.97,
+			"Catchtype": "Normal",
+			"Date": "2025-06-21 21:39:03 UTC",
+			"Chat": "omie"
+		},
+		{
+			"Fish": "🦎 lizard",
+			"Weight in lbs": 0.07,
+			"Catchtype": "Normal",
+			"Date": "2025-06-21 10:37:35 UTC",
+			"Chat": "omie"
+		},
+		{
+			"Fish": "🐍 snake",
+			"Weight in lbs": 3.06,
+			"Catchtype": "Normal",
+			"Date": "2025-06-21 09:54:39 UTC",
+			"Chat": "omie"
+		},
+		{
+			"Fish": "🪹 emptynest",
+			"Weight in lbs": 8.08,
+			"Catchtype": "Normal",
+			"Date": "2025-06-21 09:24:34 UTC",
+			"Chat": "omie"
+		},
+		{
+			"Fish": "🎱 8ball",
+			"Weight in lbs": 0.27,
+			"Catchtype": "Normal",
+			"Date": "2025-06-21 08:45:26 UTC",
+			"Chat": "omie"
+		},
+		{
+			"Fish": "🧵 wireline",
+			"Weight in lbs": 0.55,
+			"Catchtype": "Normal",
+			"Date": "2025-06-21 07:47:43 UTC",
 			"Chat": "omie"
 		},
 		{
 			"Fish": "🐟 fish",
-			"Weight in lbs": 4.54,
+			"Weight in lbs": 3.28,
 			"Catchtype": "Normal",
-			"Date": "2025-06-12 23:35:25 UTC",
+			"Date": "2025-06-21 06:59:35 UTC",
 			"Chat": "omie"
+		},
+		{
+			"Fish": "🪺 nestwitheggs",
+			"Weight in lbs": 2.33,
+			"Catchtype": "Normal",
+			"Date": "2025-06-20 20:50:12 UTC",
+			"Chat": "breadworms"
 		}
 	],
 	"Combined weight of all caught fish": {
-		"Total": 2012.8,
+		"Total": 2039.64,
 		"Per chat": {
 			"ajspyman": 106.97,
-			"breadworms": 3.03,
+			"breadworms": 5.36,
+			"deme": 4.54,
 			"dizzy": 515.52,
-			"omie": 821.04,
+			"omie": 841.01,
 			"psp1g": 566.24
 		}
 	},
@@ -339,10 +365,11 @@
 			}
 		},
 		"2025": {
-			"Total": 224.63,
+			"Total": 251.47,
 			"Per chat": {
-				"breadworms": 3.03,
-				"omie": 221.6
+				"breadworms": 5.36,
+				"deme": 4.54,
+				"omie": 241.57
 			}
 		}
 	},
@@ -414,44 +441,61 @@
 			"🦐",
 			"🦎",
 			"🐟",
-			"🐢"
+			"🐢",
+			"🐟",
+			"🦐",
+			"🐢",
+			"🪺",
+			"🐟",
+			"🧵",
+			"🎱",
+			"🪹",
+			"🐍",
+			"🦎",
+			"🦐",
+			"☘️",
+			"🦐"
 		],
-		"Date": "2025-06-14 19:59:17 UTC",
+		"Date": "2025-06-21 23:33:52 UTC",
 		"Chat": "omie"
 	},
 	"Count of each item in that bag": {
-		"☘️": 3,
+		"☘️": 4,
 		"🍬": 1,
 		"🎏": 3,
-		"🐍": 6,
-		"🐟": 16,
-		"🐢": 7,
+		"🎱": 1,
+		"🐍": 7,
+		"🐟": 18,
+		"🐢": 8,
 		"🐦": 1,
 		"🐸": 8,
 		"📄": 1,
 		"📱": 1,
-		"🦎": 5,
-		"🦐": 6,
-		"🧵": 2,
+		"🦎": 6,
+		"🦐": 9,
+		"🧵": 3,
 		"🪀": 4,
-		"🪹": 3
+		"🪹": 4,
+		"🪺": 1
 	},
 	"Fish seen in total": {
 		"Total": 22,
 		"Per chat": {
 			"ajspyman": 5,
-			"breadworms": 2,
+			"breadworms": 3,
+			"deme": 1,
 			"dizzy": 11,
-			"omie": 19,
+			"omie": 20,
 			"psp1g": 10
 		}
 	},
 	"Data about each of their seen fish": {
 		"8ball 🎱": {
 			"Caught in total": {
-				"Total": 1,
+				"Total": 2,
 				"Per chat": {
-					"ajspyman": 1
+					"ajspyman": 1,
+					"omie": 1
 				}
 			},
 			"Caught per year": {
@@ -460,13 +504,20 @@
 					"Per chat": {
 						"ajspyman": 1
 					}
+				},
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"omie": 1
+					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 1,
+					"Total": 2,
 					"Per chat": {
-						"ajspyman": 1
+						"ajspyman": 1,
+						"omie": 1
 					}
 				}
 			},
@@ -479,10 +530,10 @@
 			},
 			"Last catch": {
 				"Fish": "🎱 8ball",
-				"Weight in lbs": 11.85,
+				"Weight in lbs": 0.27,
 				"Catchtype": "Normal",
-				"Date": "2024-09-27 00:37:53 UTC",
-				"Chat": "ajspyman"
+				"Date": "2025-06-21 08:45:26 UTC",
+				"Chat": "omie"
 			},
 			"Biggest catch": {
 				"Fish": "🎱 8ball",
@@ -493,10 +544,13 @@
 			},
 			"Smallest catch": {
 				"Fish": "🎱 8ball",
-				"Weight in lbs": 11.85,
+				"Weight in lbs": 0.27,
 				"Catchtype": "Normal",
-				"Date": "2024-09-27 00:37:53 UTC",
-				"Chat": "ajspyman"
+				"Date": "2025-06-21 08:45:26 UTC",
+				"Chat": "omie",
+				"Record": [
+					"🥇 Smallest 🎱 8ball record in channel omie !"
+				]
 			}
 		},
 		"acorn 🌰": {
@@ -795,10 +849,10 @@
 		},
 		"emptynest 🪹": {
 			"Caught in total": {
-				"Total": 9,
+				"Total": 10,
 				"Per chat": {
 					"dizzy": 5,
-					"omie": 3,
+					"omie": 4,
 					"psp1g": 1
 				}
 			},
@@ -810,14 +864,20 @@
 						"omie": 3,
 						"psp1g": 1
 					}
+				},
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"omie": 1
+					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 9,
+					"Total": 10,
 					"Per chat": {
 						"dizzy": 5,
-						"omie": 3,
+						"omie": 4,
 						"psp1g": 1
 					}
 				}
@@ -831,10 +891,10 @@
 			},
 			"Last catch": {
 				"Fish": "🪹 emptynest",
-				"Weight in lbs": 5.66,
+				"Weight in lbs": 8.08,
 				"Catchtype": "Normal",
-				"Date": "2024-10-29 20:58:26 UTC",
-				"Chat": "psp1g"
+				"Date": "2025-06-21 09:24:34 UTC",
+				"Chat": "omie"
 			},
 			"Biggest catch": {
 				"Fish": "🪹 emptynest",
@@ -859,10 +919,10 @@
 		},
 		"fish 🐟": {
 			"Caught in total": {
-				"Total": 50,
+				"Total": 51,
 				"Per chat": {
 					"dizzy": 21,
-					"omie": 22,
+					"omie": 23,
 					"psp1g": 7
 				}
 			},
@@ -876,18 +936,18 @@
 					}
 				},
 				"2025": {
-					"Total": 6,
+					"Total": 7,
 					"Per chat": {
-						"omie": 6
+						"omie": 7
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 50,
+					"Total": 51,
 					"Per chat": {
 						"dizzy": 21,
-						"omie": 22,
+						"omie": 23,
 						"psp1g": 7
 					}
 				}
@@ -901,9 +961,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐟 fish",
-				"Weight in lbs": 5.15,
+				"Weight in lbs": 3.28,
 				"Catchtype": "Normal",
-				"Date": "2025-06-14 22:37:52 UTC",
+				"Date": "2025-06-21 06:59:35 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -1097,10 +1157,10 @@
 		},
 		"lizard 🦎": {
 			"Caught in total": {
-				"Total": 19,
+				"Total": 20,
 				"Per chat": {
 					"dizzy": 4,
-					"omie": 14,
+					"omie": 15,
 					"psp1g": 1
 				}
 			},
@@ -1114,18 +1174,18 @@
 					}
 				},
 				"2025": {
-					"Total": 4,
+					"Total": 5,
 					"Per chat": {
-						"omie": 4
+						"omie": 5
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 19,
+					"Total": 20,
 					"Per chat": {
 						"dizzy": 4,
-						"omie": 14,
+						"omie": 15,
 						"psp1g": 1
 					}
 				}
@@ -1139,9 +1199,9 @@
 			},
 			"Last catch": {
 				"Fish": "🦎 lizard",
-				"Weight in lbs": 7.86,
+				"Weight in lbs": 0.07,
 				"Catchtype": "Normal",
-				"Date": "2025-06-13 22:30:37 UTC",
+				"Date": "2025-06-21 10:37:35 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -1156,9 +1216,9 @@
 			},
 			"Smallest catch": {
 				"Fish": "🦎 lizard",
-				"Weight in lbs": 0.43,
+				"Weight in lbs": 0.07,
 				"Catchtype": "Normal",
-				"Date": "2024-10-06 22:38:20 UTC",
+				"Date": "2025-06-21 10:37:35 UTC",
 				"Chat": "omie"
 			}
 		},
@@ -1225,8 +1285,9 @@
 		},
 		"nestwitheggs 🪺": {
 			"Caught in total": {
-				"Total": 1,
+				"Total": 2,
 				"Per chat": {
+					"breadworms": 1,
 					"omie": 1
 				}
 			},
@@ -1236,12 +1297,19 @@
 					"Per chat": {
 						"omie": 1
 					}
+				},
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"breadworms": 1
+					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 1,
+					"Total": 2,
 					"Per chat": {
+						"breadworms": 1,
 						"omie": 1
 					}
 				}
@@ -1255,10 +1323,10 @@
 			},
 			"Last catch": {
 				"Fish": "🪺 nestwitheggs",
-				"Weight in lbs": 8.56,
+				"Weight in lbs": 2.33,
 				"Catchtype": "Normal",
-				"Date": "2024-10-22 22:47:19 UTC",
-				"Chat": "omie"
+				"Date": "2025-06-20 20:50:12 UTC",
+				"Chat": "breadworms"
 			},
 			"Biggest catch": {
 				"Fish": "🪺 nestwitheggs",
@@ -1269,35 +1337,35 @@
 			},
 			"Smallest catch": {
 				"Fish": "🪺 nestwitheggs",
-				"Weight in lbs": 8.56,
+				"Weight in lbs": 2.33,
 				"Catchtype": "Normal",
-				"Date": "2024-10-22 22:47:19 UTC",
-				"Chat": "omie"
+				"Date": "2025-06-20 20:50:12 UTC",
+				"Chat": "breadworms"
 			}
 		},
 		"shamrock ☘️": {
 			"Caught in total": {
-				"Total": 3,
+				"Total": 4,
 				"Per chat": {
 					"breadworms": 1,
-					"omie": 2
+					"omie": 3
 				}
 			},
 			"Caught per year": {
 				"2025": {
-					"Total": 3,
+					"Total": 4,
 					"Per chat": {
 						"breadworms": 1,
-						"omie": 2
+						"omie": 3
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 3,
+					"Total": 4,
 					"Per chat": {
 						"breadworms": 1,
-						"omie": 2
+						"omie": 3
 					}
 				}
 			},
@@ -1310,9 +1378,9 @@
 			},
 			"Last catch": {
 				"Fish": "☘️ shamrock",
-				"Weight in lbs": 1.82,
+				"Weight in lbs": 0.1,
 				"Catchtype": "Normal",
-				"Date": "2025-06-13 00:21:36 UTC",
+				"Date": "2025-06-21 22:14:35 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -1324,10 +1392,13 @@
 			},
 			"Smallest catch": {
 				"Fish": "☘️ shamrock",
-				"Weight in lbs": 0.82,
+				"Weight in lbs": 0.1,
 				"Catchtype": "Normal",
-				"Date": "2025-06-12 20:34:19 UTC",
-				"Chat": "omie"
+				"Date": "2025-06-21 22:14:35 UTC",
+				"Chat": "omie",
+				"Record": [
+					"🥇 Smallest ☘️ shamrock record in channel omie !"
+				]
 			}
 		},
 		"shell 🐚": {
@@ -1384,11 +1455,12 @@
 		},
 		"shrimp 🦐": {
 			"Caught in total": {
-				"Total": 28,
+				"Total": 31,
 				"Per chat": {
 					"ajspyman": 1,
+					"deme": 1,
 					"dizzy": 8,
-					"omie": 14,
+					"omie": 16,
 					"psp1g": 5
 				}
 			},
@@ -1403,19 +1475,21 @@
 					}
 				},
 				"2025": {
-					"Total": 5,
+					"Total": 8,
 					"Per chat": {
-						"omie": 5
+						"deme": 1,
+						"omie": 7
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 28,
+					"Total": 31,
 					"Per chat": {
 						"ajspyman": 1,
+						"deme": 1,
 						"dizzy": 8,
-						"omie": 14,
+						"omie": 16,
 						"psp1g": 5
 					}
 				}
@@ -1429,9 +1503,9 @@
 			},
 			"Last catch": {
 				"Fish": "🦐 shrimp",
-				"Weight in lbs": 1.12,
+				"Weight in lbs": 2.47,
 				"Catchtype": "Normal",
-				"Date": "2025-06-13 21:28:51 UTC",
+				"Date": "2025-06-21 22:52:11 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -1503,10 +1577,10 @@
 		},
 		"snake 🐍": {
 			"Caught in total": {
-				"Total": 26,
+				"Total": 27,
 				"Per chat": {
 					"dizzy": 10,
-					"omie": 12,
+					"omie": 13,
 					"psp1g": 4
 				}
 			},
@@ -1520,18 +1594,18 @@
 					}
 				},
 				"2025": {
-					"Total": 3,
+					"Total": 4,
 					"Per chat": {
-						"omie": 3
+						"omie": 4
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 26,
+					"Total": 27,
 					"Per chat": {
 						"dizzy": 10,
-						"omie": 12,
+						"omie": 13,
 						"psp1g": 4
 					}
 				}
@@ -1545,9 +1619,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐍 snake",
-				"Weight in lbs": 5.72,
+				"Weight in lbs": 3.06,
 				"Catchtype": "Normal",
-				"Date": "2025-06-13 04:31:59 UTC",
+				"Date": "2025-06-21 09:54:39 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -1619,11 +1693,11 @@
 		},
 		"turtle 🐢": {
 			"Caught in total": {
-				"Total": 20,
+				"Total": 21,
 				"Per chat": {
 					"ajspyman": 1,
 					"dizzy": 5,
-					"omie": 6,
+					"omie": 7,
 					"psp1g": 8
 				}
 			},
@@ -1638,19 +1712,19 @@
 					}
 				},
 				"2025": {
-					"Total": 3,
+					"Total": 4,
 					"Per chat": {
-						"omie": 3
+						"omie": 4
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 20,
+					"Total": 21,
 					"Per chat": {
 						"ajspyman": 1,
 						"dizzy": 5,
-						"omie": 6,
+						"omie": 7,
 						"psp1g": 8
 					}
 				}
@@ -1664,9 +1738,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐢 turtle",
-				"Weight in lbs": 2.17,
+				"Weight in lbs": 1.12,
 				"Catchtype": "Normal",
-				"Date": "2025-06-14 19:57:35 UTC",
+				"Date": "2025-06-19 18:38:10 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -1686,9 +1760,9 @@
 		},
 		"wireline 🧵": {
 			"Caught in total": {
-				"Total": 2,
+				"Total": 3,
 				"Per chat": {
-					"omie": 2
+					"omie": 3
 				}
 			},
 			"Caught per year": {
@@ -1697,13 +1771,19 @@
 					"Per chat": {
 						"omie": 2
 					}
+				},
+				"2025": {
+					"Total": 1,
+					"Per chat": {
+						"omie": 1
+					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 2,
+					"Total": 3,
 					"Per chat": {
-						"omie": 2
+						"omie": 3
 					}
 				}
 			},
@@ -1719,9 +1799,9 @@
 			},
 			"Last catch": {
 				"Fish": "🧵 wireline",
-				"Weight in lbs": 3.92,
+				"Weight in lbs": 0.55,
 				"Catchtype": "Normal",
-				"Date": "2024-09-26 00:04:22 UTC",
+				"Date": "2025-06-21 07:47:43 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -1733,9 +1813,9 @@
 			},
 			"Smallest catch": {
 				"Fish": "🧵 wireline",
-				"Weight in lbs": 2.51,
+				"Weight in lbs": 0.55,
 				"Catchtype": "Normal",
-				"Date": "2024-09-25 21:38:19 UTC",
+				"Date": "2025-06-21 07:47:43 UTC",
 				"Chat": "omie"
 			}
 		}
@@ -1745,6 +1825,7 @@
 		"balletshoes 🩰",
 		"bat 🦇",
 		"beveragebox 🧃",
+		"bilberries 🫐",
 		"blackbird 🐦‍⬛",
 		"blackcat 🐈‍⬛",
 		"blowfish 🐡",
@@ -1753,6 +1834,7 @@
 		"brownmushroom 🍄‍🟫",
 		"cannedfood 🥫",
 		"carpentrysaw 🪚",
+		"caterpillar 🐛",
 		"coat 🧥",
 		"cockroach 🪳",
 		"compass 🧭",
@@ -1767,11 +1849,13 @@
 		"dragon 🐉",
 		"duck 🦆",
 		"feather 🪶",
+		"fly 🪰",
 		"gloves 🧤",
 		"goose 🪿",
 		"grass 🌾",
 		"icecube 🧊",
 		"iceskate ⛸️",
+		"jar 🫙",
 		"jellyfish 🪼",
 		"leaf 🍃",
 		"lobster 🦞",
@@ -1803,6 +1887,7 @@
 		"slotmachine 🎰",
 		"snail 🐌",
 		"socks 🧦",
+		"spiderweb 🕸️",
 		"sponge 🧽",
 		"squid 🦑",
 		"squirrel 🐿️",
@@ -1820,7 +1905,7 @@
 		"worm 🪱",
 		"zombie 🧟"
 	],
-	"Total fish not seen": 78,
+	"Total fish not seen": 83,
 	"Some info": [
 		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
 		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
@@ -1829,5 +1914,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-15 14:18:01 UTC"
+	"Profile last updated at": "2025-06-22 09:55:21 UTC"
 }

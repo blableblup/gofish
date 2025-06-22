@@ -1,7 +1,7 @@
 {
 	"Name": "ritaaww",
 	"Progress": null,
-	"Records": [
+	"Noteable records": [
 		"🥈 Second most fish caught in channel omie !",
 		"🥈 Second most fish seen in channel omie !",
 		"🥉 Third biggest fish record in channel omie !",
@@ -22,9 +22,9 @@
 		]
 	},
 	"Fish caught in total": {
-		"Total": 1801,
+		"Total": 1802,
 		"Per chat": {
-			"omie": 1801
+			"omie": 1802
 		}
 	},
 	"Fish caught per year": {
@@ -35,9 +35,9 @@
 			}
 		},
 		"2025": {
-			"Total": 751,
+			"Total": 752,
 			"Per chat": {
-				"omie": 751
+				"omie": 752
 			}
 		}
 	},
@@ -61,9 +61,9 @@
 			}
 		},
 		"Normal": {
-			"Total": 1685,
+			"Total": 1686,
 			"Per chat": {
-				"omie": 1685
+				"omie": 1686
 			}
 		},
 		"Release bonus": {
@@ -84,10 +84,10 @@
 	},
 	"Their last fish per chat": {
 		"omie": {
-			"Fish": "🐠 tropicalfish",
-			"Weight in lbs": 5.06,
+			"Fish": "🐚 shell",
+			"Weight in lbs": 1.57,
 			"Catchtype": "Normal",
-			"Date": "2025-06-14 22:20:25 UTC",
+			"Date": "2025-06-19 19:59:42 UTC",
 			"Chat": "omie"
 		}
 	},
@@ -174,6 +174,13 @@
 	],
 	"Their overall last fish": [
 		{
+			"Fish": "🐚 shell",
+			"Weight in lbs": 1.57,
+			"Catchtype": "Normal",
+			"Date": "2025-06-19 19:59:42 UTC",
+			"Chat": "omie"
+		},
+		{
 			"Fish": "🐠 tropicalfish",
 			"Weight in lbs": 5.06,
 			"Catchtype": "Normal",
@@ -223,13 +230,6 @@
 			"Chat": "omie"
 		},
 		{
-			"Fish": "🦪 oyster",
-			"Weight in lbs": 7.62,
-			"Catchtype": "Mouth bonus",
-			"Date": "2025-06-07 12:45:42 UTC",
-			"Chat": "omie"
-		},
-		{
 			"Fish": "🐢 turtle",
 			"Weight in lbs": 11.13,
 			"Catchtype": "Normal",
@@ -237,17 +237,17 @@
 			"Chat": "omie"
 		},
 		{
-			"Fish": "🐊 crocodile",
-			"Weight in lbs": 38.49,
-			"Catchtype": "Normal",
-			"Date": "2025-06-05 18:29:51 UTC",
+			"Fish": "🦪 oyster",
+			"Weight in lbs": 7.62,
+			"Catchtype": "Mouth bonus",
+			"Date": "2025-06-07 12:45:42 UTC",
 			"Chat": "omie"
 		}
 	],
 	"Combined weight of all caught fish": {
-		"Total": 38324.1,
+		"Total": 38325.67,
 		"Per chat": {
-			"omie": 38324.1
+			"omie": 38325.67
 		}
 	},
 	"Combined weight of all caught fish per year": {
@@ -258,9 +258,9 @@
 			}
 		},
 		"2025": {
-			"Total": 15857.98,
+			"Total": 15859.55,
 			"Per chat": {
-				"omie": 15857.98
+				"omie": 15859.55
 			}
 		}
 	},
@@ -3577,9 +3577,9 @@
 		},
 		"shell 🐚": {
 			"Caught in total": {
-				"Total": 92,
+				"Total": 93,
 				"Per chat": {
-					"omie": 92
+					"omie": 93
 				}
 			},
 			"Caught per year": {
@@ -3590,17 +3590,17 @@
 					}
 				},
 				"2025": {
-					"Total": 35,
+					"Total": 36,
 					"Per chat": {
-						"omie": 35
+						"omie": 36
 					}
 				}
 			},
 			"Caught per catchtype": {
 				"Normal": {
-					"Total": 92,
+					"Total": 93,
 					"Per chat": {
-						"omie": 92
+						"omie": 93
 					}
 				}
 			},
@@ -3616,9 +3616,9 @@
 			},
 			"Last catch": {
 				"Fish": "🐚 shell",
-				"Weight in lbs": 3.24,
+				"Weight in lbs": 1.57,
 				"Catchtype": "Normal",
-				"Date": "2025-05-20 19:30:45 UTC",
+				"Date": "2025-06-19 19:59:42 UTC",
 				"Chat": "omie"
 			},
 			"Biggest catch": {
@@ -4999,17 +4999,21 @@
 		"balletshoes 🩰",
 		"bat 🦇",
 		"beveragebox 🧃",
+		"bilberries 🫐",
 		"blackbird 🐦‍⬛",
 		"blackcat 🐈‍⬛",
 		"carpentrysaw 🪚",
+		"caterpillar 🐛",
 		"coat 🧥",
 		"compass 🧭",
 		"crown 👑",
 		"dagger 🗡️",
 		"darksunglasses 🕶️",
 		"duck 🦆",
+		"fly 🪰",
 		"goose 🪿",
 		"iphone 📱",
+		"jar 🫙",
 		"malegenie 🧞‍♂",
 		"mapleleaf 🍁",
 		"mermaid 🧜‍♀️",
@@ -5018,11 +5022,12 @@
 		"rat 🐀",
 		"rose 🌹",
 		"shoppingcart 🛒",
+		"spiderweb 🕸️",
 		"squirrel 🐿️",
 		"sunflower 🌻",
 		"swan 🦢"
 	],
-	"Total fish not seen": 26,
+	"Total fish not seen": 31,
 	"Some info": [
 		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
 		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
@@ -5031,5 +5036,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-15 14:18:01 UTC"
+	"Profile last updated at": "2025-06-22 09:55:22 UTC"
 }

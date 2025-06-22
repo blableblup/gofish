@@ -1,7 +1,7 @@
 {
 	"Name": "tairaaaaa",
 	"Progress": null,
-	"Records": [
+	"Noteable records": [
 		"15th most fish caught in channel dizzy !",
 		"14th most fish seen in channel dizzy !",
 		"20th biggest fish record in channel dizzy !"
@@ -1556,10 +1556,7 @@
 				"Weight in lbs": 1.13,
 				"Catchtype": "Normal",
 				"Date": "2024-11-08 06:26:30 UTC",
-				"Chat": "dizzy",
-				"Record": [
-					"🥇 Smallest 🪨 rock record in channel dizzy !"
-				]
+				"Chat": "dizzy"
 			}
 		},
 		"sauropod 🦕": {
@@ -2610,6 +2607,7 @@
 		"bat 🦇",
 		"beaver 🦫",
 		"beveragebox 🧃",
+		"bilberries 🫐",
 		"bird 🐦",
 		"blackbird 🐦‍⬛",
 		"blackcat 🐈‍⬛",
@@ -2617,6 +2615,7 @@
 		"brownmushroom 🍄‍🟫",
 		"candy 🍬",
 		"carpentrysaw 🪚",
+		"caterpillar 🐛",
 		"coat 🧥",
 		"compass 🧭",
 		"crown 👑",
@@ -2625,11 +2624,13 @@
 		"dragon 🐉",
 		"duck 🦆",
 		"emptynest 🪹",
+		"fly 🪰",
 		"gloves 🧤",
 		"goose 🪿",
 		"grass 🌾",
 		"icecube 🧊",
 		"iceskate ⛸️",
+		"jar 🫙",
 		"jellyfish 🪼",
 		"leaf 🍃",
 		"lizard 🦎",
@@ -2652,6 +2653,7 @@
 		"shamrock ☘️",
 		"shoppingcart 🛒",
 		"slotmachine 🎰",
+		"spiderweb 🕸️",
 		"squirrel 🐿️",
 		"sunflower 🌻",
 		"swan 🦢",
@@ -2662,7 +2664,7 @@
 		"wireline 🧵",
 		"zombie 🧟"
 	],
-	"Total fish not seen": 57,
+	"Total fish not seen": 62,
 	"Some info": [
 		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.",
 		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.",
@@ -2671,5 +2673,5 @@
 		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.",
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once."
 	],
-	"Profile last updated at": "2025-06-15 14:18:01 UTC"
+	"Profile last updated at": "2025-06-22 09:55:21 UTC"
 }
