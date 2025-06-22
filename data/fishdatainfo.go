@@ -47,7 +47,10 @@ var JumpedPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2
 
 var BirdPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), Huh[?][!] 🪺 is hatching![.][.][.] It's a [✨🪽🫧] \s*(\S+)\s* [✨🪽🫧]! It weighs ([\d.]+) lbs`)
 var SquirrelPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), You toss your 🌰! 🫴 Huh[?][!] A [✨🫧] 🐿️ [✨🫧] chased after it! It went into @(\w+)'s bag!`)
-var JarCatch = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), 🙆 "Hey kid, catch!" You got a [✨🫧] \s*(\S+)\s* [✨🫧]! It weighs ([\d.]+) lbs`)
+
+// the one which shows weight was the original one and bread changed it
+var SonnyThrowWeight = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), 🙆 "Hey kid, catch!" You got a [✨🫧] \s*(\S+)\s* [✨🫧]! It weighs ([\d.]+) lbs`)
+var SonnyThrow = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), Huh[?] 🙆 "Hey kid, catch!" 🤲 He gave you a \s*(\S+)\s*! Awesome`)
 
 var BagPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): [@👥]\s?(\w+), Your (bag|collection): (.+)`)
 
@@ -73,7 +76,9 @@ func extractFishDataFromPatterns(textContent string, patterns []*regexp.Regexp) 
 				extractFunc = extractInfoFromNormalPattern
 			case SquirrelPattern:
 				extractFunc = extractInfoFromSquirrelPattern
-			case JarCatch:
+			case SonnyThrowWeight:
+				extractFunc = extractInfoFromNormalPattern
+			case SonnyThrow:
 				extractFunc = extractInfoFromNormalPattern
 			case BagPattern:
 				extractFunc = extractInfoFromBagPattern
@@ -94,19 +99,24 @@ func extractInfoFromNormalPattern(match []string) FishInfo {
 	bot := match[2]
 	player := match[3]
 	fishType := match[4]
-	weight, _ := strconv.ParseFloat(match[5], 64)
 	catchtype := "normal"
+	weight := 0.0
 
-	if strings.Contains(strings.ToLower(match[0]), "jumped") {
+	if strings.Contains(match[0], "jumped") {
 		catchtype = "jumped"
 	}
 
-	if strings.Contains(strings.ToLower(match[0]), "hatch") {
+	if strings.Contains(match[0], "hatch") {
 		catchtype = "egg"
 	}
 
-	if strings.Contains(strings.ToLower(match[0]), "kid") {
-		catchtype = "jar"
+	// only parse the weight if the catch is NOT sonny throw catch
+	// sonny catches werent supposed to have weight, but the original catches showed it
+	// so the weight of all original catches is 0 lbs
+	if strings.Contains(match[0], "kid") {
+		catchtype = "sonnythrow"
+	} else {
+		weight, _ = strconv.ParseFloat(match[5], 64)
 	}
 
 	date, err := utils.ParseDate(dateStr)
