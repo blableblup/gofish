@@ -203,6 +203,7 @@ func GetInstances() {
 	}
 
 	logs.Logs().Info().
+		Int("Channels in config", len(config.Chat)).
 		Msg("Updated config")
 }
 

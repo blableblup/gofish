@@ -377,6 +377,36 @@
 			"checkfdata": true,
 			"board_enabled": false
 		},
+		"larvasisters": {
+			"twitchid": "907334690",
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2025/6"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2025/6"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
+		"leanmeister": {
+			"twitchid": "266353768",
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2025/6"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2025/6"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
 		"lifeless": {
 			"twitchid": "494931569",
 			"checkfdata": false,
@@ -438,6 +468,21 @@
 				{
 					"url": "https://logs.susgee.dev",
 					"logs_added": "2024/5"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
+		"n1nzin_": {
+			"twitchid": "732688584",
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2025/6"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2025/6"
 				}
 			],
 			"checkfdata": true,
@@ -529,7 +574,7 @@
 				},
 				{
 					"url": "https://logs.flake.sh",
-					"logs_added": "no logs added found"
+					"logs_added": "2025/5"
 				},
 				{
 					"url": "https://logs.jimmyboy.dev",
