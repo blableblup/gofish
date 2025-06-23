@@ -23,7 +23,6 @@ func GetInstances() {
 		return
 	}
 
-	// If a lot of instances are down it wont find all the channels
 	logs.Logs().Info().
 		Int("Down", instancesapi.InstancesStats.Down).
 		Int("Up", instancesapi.InstancesStats.Count).
@@ -50,7 +49,7 @@ func GetInstances() {
 					instanceswhichhavechannel[chatName] = append(instanceswhichhavechannel[chatName], instance)
 				} else if channel.Name != chatName && channel.UserID == chat.TwitchID {
 					// if the channel renamed
-					logs.Logs().Warn().
+					logs.Logs().Error().
 						Str("Chat in config", chatName).
 						Str("Chat in API", channel.Name).
 						Str("TwitchID", channel.UserID).

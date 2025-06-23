@@ -204,6 +204,29 @@
 			"checkfdata": true,
 			"board_enabled": true
 		},
+		"devroyalty": {
+			"twitchid": "189456668",
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "no logs added found"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "no logs added found"
+				},
+				{
+					"url": "https://logs.susgee.dev",
+					"logs_added": "no logs added found"
+				},
+				{
+					"url": "https://logs.jimmyboy.dev",
+					"logs_added": "no logs added found"
+				}
+			],
+			"checkfdata": false,
+			"board_enabled": false
+		},
 		"dizzy": {
 			"twitchid": "108005221",
 			"logs_instances": [
@@ -380,6 +403,21 @@
 				}
 			],
 			"checkfdata": true,
+			"board_enabled": false
+		},
+		"mowogan": {
+			"twitchid": "460854933",
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2025/6"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2025/6"
+				}
+			],
+			"checkfdata": false,
 			"board_enabled": false
 		},
 		"mylifeislul": {
