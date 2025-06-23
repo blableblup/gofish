@@ -224,7 +224,7 @@
 					"logs_added": "no logs added found"
 				}
 			],
-			"checkfdata": false,
+			"checkfdata": true,
 			"board_enabled": false
 		},
 		"dizzy": {
@@ -417,7 +417,7 @@
 					"logs_added": "2025/6"
 				}
 			],
-			"checkfdata": false,
+			"checkfdata": true,
 			"board_enabled": false
 		},
 		"mylifeislul": {
