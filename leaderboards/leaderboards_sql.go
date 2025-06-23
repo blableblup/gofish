@@ -136,11 +136,17 @@ func FishStuff(fishName string, params LeaderboardParams) (string, error) {
 func GetAllFishNames(params LeaderboardParams) ([]string, error) {
 	board := params.LeaderboardType
 	chatName := params.ChatName
+	date2 := params.Date2
+	date := params.Date
 	pool := params.Pool
 
 	var fishes []string
 
-	err := pool.QueryRow(context.Background(), `select array_agg(fishname) from fishinfo`).Scan(&fishes)
+	err := pool.QueryRow(context.Background(), `
+	select array_agg(distinct fishname) 
+	from fish
+	where date < $1
+	and date > $2`, date, date2).Scan(&fishes)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Chat", chatName).
