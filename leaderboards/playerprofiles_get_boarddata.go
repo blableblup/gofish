@@ -379,7 +379,7 @@ func GetTheShiniesForPlayerProfiles(params LeaderboardParams, Profiles map[int]*
 			profileFish := ProfileFish{
 				Fish:       fmt.Sprintf("%s %s", fish.FishType, fish.FishName),
 				Weight:     fish.Weight,
-				CatchType:  fish.CatchType,
+				CatchType:  params.Catchtypenames[fish.CatchType],
 				DateString: fish.Date.Format("2006-01-02 15:04:05 UTC"),
 				Chat:       fish.Chat,
 			}

@@ -139,6 +139,10 @@ func sortMapStringInt(somemap map[string]int, whattosort string) []string {
 	case "nameasc":
 		sort.SliceStable(blee, func(i, j int) bool { return blee[i] < blee[j] })
 
+	case "countdesc":
+		sort.SliceStable(blee, func(i, j int) bool { return blee[i] < blee[j] })
+		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]] > somemap[blee[j]] })
+
 	default:
 		logs.Logs().Warn().
 			Str("WhatToSort", whattosort).

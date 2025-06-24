@@ -3,7 +3,6 @@ package leaderboards
 import (
 	"context"
 	"database/sql"
-	"fmt"
 	"gofish/logs"
 	"gofish/utils"
 	"path/filepath"
@@ -53,6 +52,8 @@ type PlayerProfile struct {
 	FishSeen      []string         `json:"-"`
 	FishSeenTotal *TotalChatStruct `json:"Fish seen in total"`
 
+	// most recent newest fish ?
+
 	FishData map[string]*ProfileFishData `json:"Data about each of their seen fish"`
 
 	FishNotSeen      []string `json:"Fish they never saw"`
@@ -100,7 +101,7 @@ type FlowerProgress struct {
 	FLowerCount   int
 }
 
-// can maybe eventually add the big mammals from big as progress (?)
+// add elisbugs
 
 type OtherAchievements struct {
 	Other      []string      `json:"Accomplishments"`
@@ -259,7 +260,7 @@ func GetPlayerProfiles(params LeaderboardParams) {
 		return
 	}
 
-	// for the website ?
+	// the nameID file for the website
 	// but i want to only update a players profile if they fished in last seven days hmmmmm
 	// so the nameID file will always only have the players i just updated the profiles for ??
 	type nameID struct {
@@ -414,90 +415,4 @@ func GetValidPlayers(params LeaderboardParams, limit int) ([]int, error) {
 	}
 
 	return validPlayers, nil
-}
-
-func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string, fishLists map[string][]string) error {
-
-	filePath := filepath.Join("leaderboards", "global", "profiles", fmt.Sprintf("%d", Profile.TwitchID)+".json")
-
-	// update the progress
-
-	// stars glow is for the rarer stuff
-	// and the normal star for less rare things or unfinished stuff
-
-	// this means that they caught them atleast once
-	// doesnt mean that they still have them in their bag
-	if Profile.MythicalFish.HasAllOriginalMythicalFish {
-		baseText := "🌟 Has encountered all the mythical fish:"
-		for _, fish := range fishLists["mythic"] {
-			baseText = baseText + " " + EmojisForFish[fish] + " " + fish
-		}
-		baseText = baseText + " !"
-		Profile.Progress = append(Profile.Progress, baseText)
-	}
-
-	if Profile.Treasures.HasAllRedAveryTreasure {
-		baseText := "🌟 Has found all the treasures from legendary pirate Red Avery:"
-		for _, fish := range fishLists["r.a.treasure"] {
-			baseText = baseText + " " + EmojisForFish[fish] + " " + fish
-		}
-		baseText = baseText + " !"
-		Profile.Progress = append(Profile.Progress, baseText)
-	}
-
-	if Profile.Birds.HasAllBirds {
-		baseText := "🌟 Has seen all the birds:"
-		for _, fish := range fishLists["bird"] {
-			baseText = baseText + " " + EmojisForFish[fish] + " " + fish
-		}
-		baseText = baseText + " !"
-		Profile.Progress = append(Profile.Progress, baseText)
-	}
-
-	// received means when it first appeared in their bag
-	if Profile.SonnyDay.HasLetter {
-		Profile.Progress = append(Profile.Progress,
-			fmt.Sprintf("⭐ Has gotten a letter ✉️ ! (Received: %s UTC)", Profile.SonnyDay.LetterInBagReceived.Format("2006-01-02 15:04:05")))
-	}
-
-	// no star, since it isnt really rare
-	// just means you've been at acorn pond all four seasons
-	if Profile.Flowers.HasAllFlowers {
-		baseText := "💐 Has seen all the flowers:"
-		for _, fish := range fishLists["flower"] {
-			baseText = baseText + " " + EmojisForFish[fish] + " " + fish
-		}
-		baseText = baseText + " !"
-		Profile.Progress = append(Profile.Progress, baseText)
-	}
-
-	// add some notes to the bottom
-	Profile.InfoBottom = append(Profile.InfoBottom,
-		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.")
-
-	Profile.InfoBottom = append(Profile.InfoBottom,
-		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.")
-
-	Profile.InfoBottom = append(Profile.InfoBottom,
-		"The records at the top and the records per fish type will only show records from channels which have their own leaderboards.")
-
-	Profile.InfoBottom = append(Profile.InfoBottom,
-		"The players biggest or smallest catch of a fish type can be nothing, if the player only caught the fish through catches which do not show the weight in the catch message.")
-
-	Profile.InfoBottom = append(Profile.InfoBottom,
-		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.")
-
-	Profile.InfoBottom = append(Profile.InfoBottom,
-		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once.")
-
-	// update the last updated
-	Profile.LastUpdated = time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC")
-
-	// print it
-	err := writeRaw(filePath, Profile)
-	if err != nil {
-		return err
-	}
-
-	return nil
 }
