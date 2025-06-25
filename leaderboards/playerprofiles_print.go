@@ -10,6 +10,7 @@ import (
 
 	"github.com/olekukonko/tablewriter"
 	"github.com/olekukonko/tablewriter/renderer"
+	"github.com/olekukonko/tablewriter/tw"
 )
 
 func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string, fishLists map[string][]string) error {
@@ -110,7 +111,7 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 	}
 	defer file.Close()
 
-	_, _ = fmt.Fprintf(file, "# %s\n", Profile.Name)
+	_, _ = fmt.Fprintf(file, "# 🎣 %s\n", Profile.Name)
 
 	PrintSliceMD(Profile.Progress, "## Progress", file)
 
@@ -125,7 +126,7 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 	_, _ = fmt.Fprintln(file)
 
 	if Profile.Other.HasShiny {
-		err = PrintTableMD(Profile.Other.ShinyCatch, []string{"Fish", "Weight in lbs", "Catchtype", "Date", "Chat"}, "", "slice", file)
+		err = PrintTableMD(Profile.Other.ShinyCatch, []string{"Fish", "Weight in lbs", "Catchtype", "Date", "Chat"}, "", "profilefishslice", file)
 		if err != nil {
 			return err
 		}
@@ -133,6 +134,18 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 	}
 
 	_, _ = fmt.Fprintln(file, "\n## Data for their fish caught")
+
+	err = PrintTableMD(Profile.Count.Total, []string{"Total fish caught"}, "", "notslice", file)
+	if err != nil {
+		return err
+	}
+
+	_, _ = fmt.Fprintln(file)
+
+	err = PrintTableMD(Profile.Count, []string{"Rank", "Chat", "Fish caught"}, "Fish caught per chat", "totalchat", file)
+	if err != nil {
+		return err
+	}
 
 	// ...
 
@@ -156,19 +169,22 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 	}
 	_, _ = fmt.Fprintln(file)
 
-	err = PrintTableMD(Profile.BiggestFish, []string{"Fish", "Weight in lbs", "Catchtype", "Date", "Chat"}, "Overall biggest fish", "slice", file)
+	err = PrintTableMD(Profile.BiggestFish, []string{"Fish", "Weight in lbs", "Catchtype", "Date", "Chat"}, "Overall biggest fish", "profilefishslice", file)
 	if err != nil {
 		return err
 	}
 	_, _ = fmt.Fprintln(file)
 
-	err = PrintTableMD(Profile.LastFish, []string{"Fish", "Weight in lbs", "Catchtype", "Date", "Chat"}, "Overall last fish", "slice", file)
+	err = PrintTableMD(Profile.LastFish, []string{"Fish", "Weight in lbs", "Catchtype", "Date", "Chat"}, "Overall last fish", "profilefishslice", file)
 	if err != nil {
 		return err
 	}
 	_, _ = fmt.Fprintln(file)
 
 	_, _ = fmt.Fprintln(file, "\n## Their last seen bag")
+
+	// make bag less long and make it how it would look like in twitch chat
+	// but maxwidth in table config makes shiny have its own row
 
 	err = PrintTableMD(Profile.Bag, []string{"Bag", "Date", "Chat"}, "", "notslice", file)
 	if err != nil {
@@ -177,16 +193,19 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 
 	_, _ = fmt.Fprintln(file)
 
-	err = PrintTableMD(Profile.BagCounts, []string{"Item", "Count"}, "Count of each item in that bag", "mapstringint", file)
+	_, _ = fmt.Fprintln(file, "\n## Their fish seen")
+
+	err = PrintTableMD(Profile.FishSeenTotal.Total, []string{"Total fish seen"}, "", "notslice", file)
 	if err != nil {
 		return err
 	}
 
 	_, _ = fmt.Fprintln(file)
 
-	_, _ = fmt.Fprintln(file, "\n## Their fish seen")
-
-	// ...
+	err = PrintTableMD(Profile.FishSeenTotal, []string{"Rank", "Chat", "Fish seen"}, "Fish seen per chat", "totalchat", file)
+	if err != nil {
+		return err
+	}
 
 	_, _ = fmt.Fprintln(file, "\n## Data about each of their seen fish")
 
@@ -196,15 +215,32 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 
 	for _, fish := range Profile.FishSeen {
 
+		fishType := fmt.Sprintf("%s %s", fish, EmojisForFish[fish])
+
 		_, _ = fmt.Fprintf(file, "\n## %s %s", EmojisForFish[fish], fish)
+
+		_, _ = fmt.Fprintln(file)
+
+		err = PrintTableMD(Profile.FishData[fishType].TotalCount.Total, []string{"Caught in total"}, "", "notslice", file)
+		if err != nil {
+			return err
+		}
+
+		_, _ = fmt.Fprintln(file)
+
+		err = PrintTableMD(Profile.FishData[fishType].TotalCount, []string{"Rank", "Chat", "Fish caught"}, "Fish caught per chat", "totalchat", file)
+		if err != nil {
+			return err
+		}
+
+		_, _ = fmt.Fprintln(file)
 
 		// ...
 
-		// panic here
-		// err = PrintTableMD(Profile.FishData[fish], []string{fish, "Weight in lbs", "Catchtype", "Date", "Chat"}, "", "profilefishdata", file)
-		// if err != nil {
-		// 	return err
-		// }
+		err = PrintTableMD(Profile.FishData[fishType], []string{EmojisForFish[fish], "Weight in lbs", "Catchtype", "Date", "Chat"}, "", "profilefishdata", file)
+		if err != nil {
+			return err
+		}
 
 		_, _ = fmt.Fprintln(file)
 	}
@@ -230,10 +266,19 @@ func PrintTableMD(data any, header []string, title string, what string, file *os
 		_, _ = fmt.Fprintln(file, title)
 	}
 
-	// problems:
-	// all the headers are in capslock
-	// for profilefish, keeps adding one row for []records field, but that is empty most of the time ??ßß??? idk
 	table := tablewriter.NewTable(file,
+		tablewriter.WithConfig(tablewriter.Config{
+			Header: tw.CellConfig{
+				Alignment:  tw.CellAlignment{Global: tw.AlignLeft},
+				Formatting: tw.CellFormatting{AutoFormat: tw.Off},
+			},
+			Row: tw.CellConfig{
+				Alignment: tw.CellAlignment{Global: tw.AlignLeft},
+			},
+			Footer: tw.CellConfig{
+				Alignment: tw.CellAlignment{Global: tw.AlignRight},
+			},
+		}),
 		tablewriter.WithRenderer(renderer.NewMarkdown()),
 	)
 
@@ -245,15 +290,22 @@ func PrintTableMD(data any, header []string, title string, what string, file *os
 	default:
 		logs.Logs().Error().Msg("IDK WHAT TO DO PrintTableMD")
 
-	case "slice":
-		// if data is a slice
-		err = table.Bulk(data)
-		if err != nil {
-			return err
+	case "profilefishslice":
+		for _, fish := range data.([]ProfileFish) {
+			err = table.Append(
+				fish.Fish,
+				fish.Weight,
+				fish.CatchType,
+				fish.DateString,
+				fish.Chat,
+			)
+			if err != nil {
+				return err
+			}
 		}
 
 	case "notslice":
-		// if data isnt ?
+
 		err = table.Append(data)
 		if err != nil {
 			return err
@@ -270,45 +322,70 @@ func PrintTableMD(data any, header []string, title string, what string, file *os
 		sort.SliceStable(slice, func(i, j int) bool { return slice[i] < slice[j] })
 
 		for _, stuff := range slice {
-			err = table.Append(data.(map[string]ProfileFish)[stuff])
+			err = table.Append(
+				data.(map[string]ProfileFish)[stuff].Fish,
+				data.(map[string]ProfileFish)[stuff].Weight,
+				data.(map[string]ProfileFish)[stuff].CatchType,
+				data.(map[string]ProfileFish)[stuff].DateString,
+				data.(map[string]ProfileFish)[stuff].Chat,
+			)
 			if err != nil {
 				return err
 			}
 		}
 
-	case "mapstringint":
+	case "totalchat":
 
-		// sort them by count
-		sortedCounts := sortMapStringInt(data.(map[string]int), "countdesc")
+		rank := 1
+		prevRank := 1
+		prevCount := -1
+		occupiedRanks := make(map[int]int)
 
-		for _, item := range sortedCounts {
-			err = table.Append(item, data.(map[string]int)[item])
+		// sort them by count and rank them
+		sortedCounts := sortMapStringInt(data.(*TotalChatStruct).Chat, "countdesc")
+
+		for _, chat := range sortedCounts {
+
+			if data.(*TotalChatStruct).Chat[chat] != prevCount {
+				rank += occupiedRanks[rank]
+				occupiedRanks[rank] = 1
+			} else {
+				rank = prevRank
+				occupiedRanks[rank]++
+			}
+
+			err = table.Append(rank, chat, data.(*TotalChatStruct).Chat[chat])
 			if err != nil {
 				return err
 			}
+
+			prevCount = data.(*TotalChatStruct).Chat[chat]
+			prevRank = rank
 		}
+
+	case "totalchatmap":
 
 	case "profilefishdata":
 
-		err = table.Append("First catch", data.(*ProfileFishData).First)
-		if err != nil {
-			return err
-		}
+		fishBlock := []ProfileFish{
+			data.(*ProfileFishData).First,
+			data.(*ProfileFishData).Last,
+			data.(*ProfileFishData).Biggest,
+			data.(*ProfileFishData).Smallest}
 
-		err = table.Append("Last catch", data.(*ProfileFishData).Last)
-		if err != nil {
-			return err
-		}
+		things := []string{
+			"First catch",
+			"Last catch",
+			"Biggest catch",
+			"Smallest catch"}
 
-		if data.(*ProfileFishData).Biggest.Fish != "" {
-			err = table.Append("Biggest catch", data.(*ProfileFishData).Biggest)
-			if err != nil {
-				return err
-			}
-		}
+		for i, fish := range fishBlock {
 
-		if data.(*ProfileFishData).Smallest.Fish != "" {
-			err = table.Append("Smallest catch", data.(*ProfileFishData).Smallest)
+			err = table.Append(things[i],
+				fish.Weight,
+				fish.CatchType,
+				fish.DateString,
+				fish.Chat)
 			if err != nil {
 				return err
 			}
