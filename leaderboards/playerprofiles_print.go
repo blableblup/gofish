@@ -6,6 +6,7 @@ import (
 	"os"
 	"path/filepath"
 	"sort"
+	"strings"
 	"time"
 
 	"github.com/olekukonko/tablewriter"
@@ -142,28 +143,61 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 
 	_, _ = fmt.Fprintln(file)
 
-	err = PrintTableMD(Profile.Count, []string{"Rank", "Chat", "Fish caught"}, "Fish caught per chat", "totalchat", file)
+	err = PrintTableMD(Profile.Count, []string{"-", "Chat", "Fish caught"}, "Fish caught per chat", "totalchat", file)
 	if err != nil {
 		return err
 	}
 
-	// ...
+	_, _ = fmt.Fprintln(file)
+
+	err = PrintTableMD(Profile.CountYear, []string{"-", "Year", "Count", "Chat"}, "Fish caught per year", "totalchatmap", file)
+	if err != nil {
+		return err
+	}
+
+	_, _ = fmt.Fprintln(file)
+
+	err = PrintTableMD(Profile.CountCatchtype, []string{"-", "Catchtype", "Count", "Chat"}, "Fish caught per catchtype", "totalchatmap", file)
+	if err != nil {
+		return err
+	}
+
+	_, _ = fmt.Fprintln(file)
+
+	err = PrintTableMD(Profile.TotalWeight.Total, []string{"Total weight of all caught fish in lbs"}, "", "notslice", file)
+	if err != nil {
+		return err
+	}
+
+	_, _ = fmt.Fprintln(file)
+
+	err = PrintTableMD(Profile.TotalWeight, []string{"-", "Chat", "Total weight in lbs"}, "Total weight per chat", "totalchatfloat", file)
+	if err != nil {
+		return err
+	}
+
+	_, _ = fmt.Fprintln(file)
+
+	err = PrintTableMD(Profile.TotalWeightYear, []string{"-", "Year", "Total weight in lbs", "Chat"}, "Total weight per year", "totalchatmapfloat", file)
+	if err != nil {
+		return err
+	}
 
 	_, _ = fmt.Fprintln(file, "\n## First, biggest and last fish")
 
-	err = PrintTableMD(Profile.FirstFishChat, []string{"Fish", "Weight in lbs", "Catchtype", "Date", "Chat"}, "First ever fish caught per chat", "mapstringprofilefish", file)
+	err = PrintTableMD(Profile.FirstFishChat, []string{"Chat", "Fish", "Weight in lbs", "Catchtype", "Date"}, "First ever fish caught per chat", "mapstringprofilefish", file)
 	if err != nil {
 		return err
 	}
 	_, _ = fmt.Fprintln(file)
 
-	err = PrintTableMD(Profile.LastFishChat, []string{"Fish", "Weight in lbs", "Catchtype", "Date", "Chat"}, "Last fish caught per chat", "mapstringprofilefish", file)
+	err = PrintTableMD(Profile.LastFishChat, []string{"Chat", "Fish", "Weight in lbs", "Catchtype", "Date"}, "Last fish caught per chat", "mapstringprofilefish", file)
 	if err != nil {
 		return err
 	}
 	_, _ = fmt.Fprintln(file)
 
-	err = PrintTableMD(Profile.BiggestFishChat, []string{"Fish", "Weight in lbs", "Catchtype", "Date", "Chat"}, "Biggest fish caught per chat", "mapstringprofilefish", file)
+	err = PrintTableMD(Profile.BiggestFishChat, []string{"Chat", "Fish", "Weight in lbs", "Catchtype", "Date"}, "Biggest fish caught per chat", "mapstringprofilefish", file)
 	if err != nil {
 		return err
 	}
@@ -183,9 +217,6 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 
 	_, _ = fmt.Fprintln(file, "\n## Their last seen bag")
 
-	// make bag less long and make it how it would look like in twitch chat
-	// but maxwidth in table config makes shiny have its own row
-
 	err = PrintTableMD(Profile.Bag, []string{"Bag", "Date", "Chat"}, "", "notslice", file)
 	if err != nil {
 		return err
@@ -202,7 +233,7 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 
 	_, _ = fmt.Fprintln(file)
 
-	err = PrintTableMD(Profile.FishSeenTotal, []string{"Rank", "Chat", "Fish seen"}, "Fish seen per chat", "totalchat", file)
+	err = PrintTableMD(Profile.FishSeenTotal, []string{"-", "Chat", "Fish seen"}, "Fish seen per chat", "totalchat", file)
 	if err != nil {
 		return err
 	}
@@ -228,14 +259,26 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 
 		_, _ = fmt.Fprintln(file)
 
-		err = PrintTableMD(Profile.FishData[fishType].TotalCount, []string{"Rank", "Chat", "Fish caught"}, "Fish caught per chat", "totalchat", file)
+		err = PrintTableMD(Profile.FishData[fishType].TotalCount, []string{EmojisForFish[fish], "Chat", "Fish caught"}, "Fish caught per chat", "totalchat", file)
 		if err != nil {
 			return err
 		}
 
 		_, _ = fmt.Fprintln(file)
 
-		// ...
+		err = PrintTableMD(Profile.FishData[fishType].CountYear, []string{EmojisForFish[fish], "Year", "Count", "Chat"}, "Fish caught per year", "totalchatmap", file)
+		if err != nil {
+			return err
+		}
+
+		_, _ = fmt.Fprintln(file)
+
+		err = PrintTableMD(Profile.FishData[fishType].CountCatchtype, []string{EmojisForFish[fish], "Catchtype", "Count", "Chat"}, "Fish caught per catchtype", "totalchatmap", file)
+		if err != nil {
+			return err
+		}
+
+		_, _ = fmt.Fprintln(file)
 
 		err = PrintTableMD(Profile.FishData[fishType], []string{EmojisForFish[fish], "Weight in lbs", "Catchtype", "Date", "Chat"}, "", "profilefishdata", file)
 		if err != nil {
@@ -274,9 +317,6 @@ func PrintTableMD(data any, header []string, title string, what string, file *os
 			},
 			Row: tw.CellConfig{
 				Alignment: tw.CellAlignment{Global: tw.AlignLeft},
-			},
-			Footer: tw.CellConfig{
-				Alignment: tw.CellAlignment{Global: tw.AlignRight},
 			},
 		}),
 		tablewriter.WithRenderer(renderer.NewMarkdown()),
@@ -323,11 +363,11 @@ func PrintTableMD(data any, header []string, title string, what string, file *os
 
 		for _, stuff := range slice {
 			err = table.Append(
+				data.(map[string]ProfileFish)[stuff].Chat,
 				data.(map[string]ProfileFish)[stuff].Fish,
 				data.(map[string]ProfileFish)[stuff].Weight,
 				data.(map[string]ProfileFish)[stuff].CatchType,
 				data.(map[string]ProfileFish)[stuff].DateString,
-				data.(map[string]ProfileFish)[stuff].Chat,
 			)
 			if err != nil {
 				return err
@@ -363,7 +403,153 @@ func PrintTableMD(data any, header []string, title string, what string, file *os
 			prevRank = rank
 		}
 
+	case "totalchatfloat":
+
+		rank := 1
+		prevRank := 1
+		prevWeight := 0.0
+		occupiedRanks := make(map[int]int)
+
+		// sort them by weight and rank them
+		slice := make([]string, 0, len(data.(*TotalChatStructFloat).Chat))
+		for chat := range data.(*TotalChatStructFloat).Chat {
+			slice = append(slice, chat)
+		}
+
+		sort.SliceStable(slice, func(i, j int) bool {
+			return data.(*TotalChatStructFloat).Chat[slice[i]] > data.(*TotalChatStructFloat).Chat[slice[j]]
+		})
+
+		for _, chat := range slice {
+
+			if data.(*TotalChatStructFloat).Chat[chat] != prevWeight {
+				rank += occupiedRanks[rank]
+				occupiedRanks[rank] = 1
+			} else {
+				rank = prevRank
+				occupiedRanks[rank]++
+			}
+
+			err = table.Append(rank, chat, data.(*TotalChatStructFloat).Chat[chat])
+			if err != nil {
+				return err
+			}
+
+			prevWeight = data.(*TotalChatStructFloat).Chat[chat]
+			prevRank = rank
+		}
+
 	case "totalchatmap":
+
+		// sort the year first
+		sortedCounts := make([]string, 0, len(data.(map[string]*TotalChatStruct)))
+		for chat := range data.(map[string]*TotalChatStruct) {
+			sortedCounts = append(sortedCounts, chat)
+		}
+
+		// by name if its year
+		// by count if its catchtype
+		if strings.Contains(title, "year") {
+			sort.SliceStable(sortedCounts, func(i, j int) bool {
+				return sortedCounts[i] < sortedCounts[j]
+			})
+		} else {
+			sort.SliceStable(sortedCounts, func(i, j int) bool {
+				return data.(map[string]*TotalChatStruct)[sortedCounts[i]].Total > data.(map[string]*TotalChatStruct)[sortedCounts[j]].Total
+			})
+		}
+
+		rank := 1
+		prevRank := 1
+		prevCount := -1
+		occupiedRanks := make(map[int]int)
+
+		for _, year := range sortedCounts {
+
+			if data.(map[string]*TotalChatStruct)[year].Total != prevCount {
+				rank += occupiedRanks[rank]
+				occupiedRanks[rank] = 1
+			} else {
+				rank = prevRank
+				occupiedRanks[rank]++
+			}
+
+			// need to sort and append the chats and their counts
+			sortedYearCounts := sortMapStringInt(data.(map[string]*TotalChatStruct)[year].Chat, "countdesc")
+
+			var chats string
+
+			for _, chat := range sortedYearCounts {
+				chats = chats + fmt.Sprintf("%s: %d ", chat, data.(map[string]*TotalChatStruct)[year].Chat[chat])
+			}
+
+			err = table.Append(
+				rank,
+				year,
+				data.(map[string]*TotalChatStruct)[year].Total,
+				chats)
+			if err != nil {
+				return err
+			}
+
+			prevCount = data.(map[string]*TotalChatStruct)[year].Total
+			prevRank = rank
+		}
+
+	case "totalchatmapfloat":
+
+		// sort the year first
+		sortedCounts := make([]string, 0, len(data.(map[string]*TotalChatStructFloat)))
+		for chat := range data.(map[string]*TotalChatStructFloat) {
+			sortedCounts = append(sortedCounts, chat)
+		}
+
+		sort.SliceStable(sortedCounts, func(i, j int) bool {
+			return sortedCounts[i] < sortedCounts[j]
+		})
+
+		rank := 1
+		prevRank := 1
+		prevWeight := 0.0
+		occupiedRanks := make(map[int]int)
+
+		for _, year := range sortedCounts {
+
+			if data.(map[string]*TotalChatStructFloat)[year].Total != prevWeight {
+				rank += occupiedRanks[rank]
+				occupiedRanks[rank] = 1
+			} else {
+				rank = prevRank
+				occupiedRanks[rank]++
+			}
+
+			sortedYearCounts := make([]string, 0, len(data.(map[string]*TotalChatStructFloat)[year].Chat))
+			for chat := range data.(map[string]*TotalChatStructFloat)[year].Chat {
+				sortedYearCounts = append(sortedYearCounts, chat)
+			}
+
+			sort.SliceStable(sortedYearCounts, func(i, j int) bool {
+				return data.(map[string]*TotalChatStructFloat)[year].Chat[sortedYearCounts[i]] > data.(map[string]*TotalChatStructFloat)[year].Chat[sortedYearCounts[j]]
+			})
+
+			var chats string
+
+			for _, chat := range sortedYearCounts {
+				chats = chats + fmt.Sprintf("%s: %.2f ", chat, data.(map[string]*TotalChatStructFloat)[year].Chat[chat])
+			}
+
+			err = table.Append(
+				rank,
+				year,
+				data.(map[string]*TotalChatStructFloat)[year].Total,
+				chats)
+			if err != nil {
+				return err
+			}
+
+			prevWeight = data.(map[string]*TotalChatStructFloat)[year].Total
+			prevRank = rank
+		}
 
 	case "profilefishdata":
 
