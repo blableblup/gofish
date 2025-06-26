@@ -371,3 +371,22 @@ func isValidDate(date string) bool {
 	re := regexp.MustCompile(`^\d{4}-\d{2}-\d{2}( \d{2}:\d{2}:\d{2})?$`)
 	return re.MatchString(date)
 }
+
+func changeRankThingy(rank int) string {
+
+	if rank < 14 && rank > 10 {
+		return "th"
+	}
+
+	// % is modulo idk
+	switch rank % 10 {
+	case 1:
+		return "st"
+	case 2:
+		return "nd"
+	case 3:
+		return "rd"
+	default:
+		return "th"
+	}
+}

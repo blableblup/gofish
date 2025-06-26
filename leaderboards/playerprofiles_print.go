@@ -81,7 +81,7 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 		"The players biggest or smallest catch of a fish type can be nothing, if the player only caught the fish through catches which do not show the weight in the catch message.")
 
 	Profile.InfoBottom = append(Profile.InfoBottom,
-		"Release bonus and jumped bonus catches and normal squirrels will show a weight of 0, even though they have a weight, but it is not shown in the catch message.")
+		"Catches which do not show their weight in the catch message will show a weight of 0, even though they have a weight.")
 
 	Profile.InfoBottom = append(Profile.InfoBottom,
 		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once.")
@@ -134,7 +134,7 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 		_, _ = fmt.Fprintln(file)
 	}
 
-	_, _ = fmt.Fprintln(file, "\n## Data for their fish caught")
+	_, _ = fmt.Fprintln(file, "\n## Data for their fish caught 🪣")
 
 	err = PrintTableMD(Profile.Count.Total, []string{"Total fish caught"}, "", "notslice", file)
 	if err != nil {
@@ -183,7 +183,7 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 		return err
 	}
 
-	_, _ = fmt.Fprintln(file, "\n## First, biggest and last fish")
+	_, _ = fmt.Fprintln(file, "\n## First, biggest and last fish ⚖️")
 
 	err = PrintTableMD(Profile.FirstFishChat, []string{"Chat", "Fish", "Weight in lbs", "Catchtype", "Date"}, "First ever fish caught per chat", "mapstringprofilefish", file)
 	if err != nil {
@@ -215,7 +215,7 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 	}
 	_, _ = fmt.Fprintln(file)
 
-	_, _ = fmt.Fprintln(file, "\n## Their last seen bag")
+	_, _ = fmt.Fprintln(file, "\n## Their last seen bag 🎒")
 
 	err = PrintTableMD(Profile.Bag, []string{"Bag", "Date", "Chat"}, "", "notslice", file)
 	if err != nil {
@@ -285,7 +285,25 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 			return err
 		}
 
-		_, _ = fmt.Fprintln(file)
+		fishBlock := []ProfileFish{
+			Profile.FishData[fishType].First,
+			Profile.FishData[fishType].Last,
+			Profile.FishData[fishType].Biggest,
+			Profile.FishData[fishType].Smallest,
+		}
+
+		var fishRecords []string
+
+		for _, fish := range fishBlock {
+			if len(fish.Record) != 0 {
+				fishRecords = append(fishRecords, fish.Record...)
+			}
+		}
+
+		if len(fishRecords) != 0 {
+			PrintSliceMD(fishRecords, "", file)
+		}
+
 	}
 
 	PrintSliceMD(Profile.FishNotSeen, "## Fish they never saw", file)
@@ -312,11 +330,17 @@ func PrintTableMD(data any, header []string, title string, what string, file *os
 	table := tablewriter.NewTable(file,
 		tablewriter.WithConfig(tablewriter.Config{
 			Header: tw.CellConfig{
-				Alignment:  tw.CellAlignment{Global: tw.AlignLeft},
-				Formatting: tw.CellFormatting{AutoFormat: tw.Off},
+				Alignment: tw.CellAlignment{
+					Global: tw.AlignLeft,
+				},
+				Formatting: tw.CellFormatting{
+					AutoFormat: tw.Off,
+				},
 			},
 			Row: tw.CellConfig{
-				Alignment: tw.CellAlignment{Global: tw.AlignLeft},
+				Alignment: tw.CellAlignment{
+					Global: tw.AlignLeft,
+				},
 			},
 		}),
 		tablewriter.WithRenderer(renderer.NewMarkdown()),
@@ -557,7 +581,8 @@ func PrintTableMD(data any, header []string, title string, what string, file *os
 			data.(*ProfileFishData).First,
 			data.(*ProfileFishData).Last,
 			data.(*ProfileFishData).Biggest,
-			data.(*ProfileFishData).Smallest}
+			data.(*ProfileFishData).Smallest,
+		}
 
 		things := []string{
 			"First catch",
@@ -589,17 +614,15 @@ func PrintTableMD(data any, header []string, title string, what string, file *os
 
 func PrintSliceMD(data any, header string, file *os.File) {
 
-	_, _ = fmt.Fprint(file, header)
+	if len(data.([]string)) != 0 {
+		_, _ = fmt.Fprint(file, header)
 
-	_, _ = fmt.Fprintln(file)
+		_, _ = fmt.Fprintln(file)
 
-	if len(data.([]string)) == 0 {
-		_, _ = fmt.Fprintln(file, "\n* /")
-
-	} else {
 		for _, row := range data.([]string) {
 			_, _ = fmt.Fprintln(file, "\n* ", row)
 		}
+
 	}
 
 }

@@ -6,6 +6,7 @@ import (
 	"gofish/logs"
 	"gofish/utils"
 	"path/filepath"
+	"sort"
 	"strconv"
 	"sync"
 	"time"
@@ -260,9 +261,6 @@ func GetPlayerProfiles(params LeaderboardParams) {
 		return
 	}
 
-	// the nameID file for the website
-	// but i want to only update a players profile if they fished in last seven days hmmmmm
-	// so the nameID file will always only have the players i just updated the profiles for ??
 	type nameID struct {
 		Name string
 		ID   int
@@ -300,6 +298,11 @@ func GetPlayerProfiles(params LeaderboardParams) {
 	}
 
 	wg.Wait()
+
+	// Sort nameids by name
+	sort.SliceStable(nameIDs, func(i, j int) bool {
+		return nameIDs[i].Name < nameIDs[j].Name
+	})
 
 	// print out the json file with the names and their ids
 	err = writeRaw(filepath.Join("leaderboards", "global", "profiles", "nameID"), nameIDs)

@@ -171,8 +171,7 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 	sort.SliceStable(blee, func(i, j int) bool { return blee[i] < blee[j] })
 
 	// for count, uniquefish, weight, trophy update their record if they are rank <= the limit on that board
-	// could also jsut remove it ? ?
-	ranklimit := 20
+	ranklimit := 100
 
 	for _, chatName := range blee {
 
@@ -189,12 +188,14 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 
 			if rank <= ranklimit {
 
+				ranksuffix := changeRankThingy(rank)
+
 				// only update Records if they are in the map
 				if _, ok := Profiles[playerID]; ok {
 					switch rank {
 					default:
 						Profiles[playerID].Records = append(Profiles[playerID].Records,
-							fmt.Sprintf("%dth most fish caught %s !", rank, text))
+							fmt.Sprintf("%d%s most fish caught %s !", rank, ranksuffix, text))
 					case 1:
 						Profiles[playerID].Records = append(Profiles[playerID].Records,
 							fmt.Sprintf("🥇 Most fish caught %s !", text))
@@ -215,11 +216,13 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 			rank := otherBoardData[chatName].Uniquefish[playerID].Rank
 			if rank <= ranklimit {
 
+				ranksuffix := changeRankThingy(rank)
+
 				if _, ok := Profiles[playerID]; ok {
 					switch rank {
 					default:
 						Profiles[playerID].Records = append(Profiles[playerID].Records,
-							fmt.Sprintf("%dth most fish seen %s !", rank, text))
+							fmt.Sprintf("%d%s most fish seen %s !", rank, ranksuffix, text))
 					case 1:
 						Profiles[playerID].Records = append(Profiles[playerID].Records,
 							fmt.Sprintf("🥇 Most fish seen %s !", text))
@@ -240,11 +243,13 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 			rank := otherBoardData[chatName].Weight[playerID].Rank
 			if rank <= ranklimit {
 
+				ranksuffix := changeRankThingy(rank)
+
 				if _, ok := Profiles[playerID]; ok {
 					switch rank {
 					default:
 						Profiles[playerID].Records = append(Profiles[playerID].Records,
-							fmt.Sprintf("%dth biggest fish record %s !", rank, text))
+							fmt.Sprintf("%d%s biggest fish record %s !", rank, ranksuffix, text))
 					case 1:
 						Profiles[playerID].Records = append(Profiles[playerID].Records,
 							fmt.Sprintf("🥇 Biggest fish record %s !", text))
@@ -264,11 +269,13 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 			rank := otherBoardData[chatName].Trophy[playerID].Rank
 			if rank <= ranklimit {
 
+				ranksuffix := changeRankThingy(rank)
+
 				if _, ok := Profiles[playerID]; ok {
 					switch rank {
 					default:
 						Profiles[playerID].Records = append(Profiles[playerID].Records,
-							fmt.Sprintf("%dth place on tournament leaderboard %s !", rank, text))
+							fmt.Sprintf("%d%s place on tournament leaderboard %s !", rank, ranksuffix, text))
 					case 1:
 						Profiles[playerID].Records = append(Profiles[playerID].Records,
 							fmt.Sprintf("🥇 Most points on tournament leaderboard %s !", text))
@@ -295,7 +302,7 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 
 			if _, ok := Profiles[playerID]; ok {
 
-				if Profiles[playerID].FishData[fishType].Biggest.Date == otherBoardData[chatName].Type[fishName].Date {
+				if Profiles[playerID].FishData[fishType].Biggest.Date.Equal(otherBoardData[chatName].Type[fishName].Date) {
 
 					Profiles[playerID].FishData[fishType].Biggest.Record = append(Profiles[playerID].FishData[fishType].Biggest.Record,
 						fmt.Sprintf("🥇 Biggest %s %s record %s !", fish.FishType, fishName, text))
@@ -315,7 +322,7 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 
 			if _, ok := Profiles[playerID]; ok {
 
-				if Profiles[playerID].FishData[fishType].Smallest.Date == otherBoardData[chatName].Typesmall[fishName].Date {
+				if Profiles[playerID].FishData[fishType].Smallest.Date.Equal(otherBoardData[chatName].Typesmall[fishName].Date) {
 
 					Profiles[playerID].FishData[fishType].Smallest.Record = append(Profiles[playerID].FishData[fishType].Smallest.Record,
 						fmt.Sprintf("🥇 Smallest %s %s record %s !", fish.FishType, fishName, text))
@@ -334,7 +341,7 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 
 			if _, ok := Profiles[playerID]; ok {
 
-				if Profiles[playerID].FishData[fishType].First.Date == otherBoardData[chatName].Typefirst[fishName].Date {
+				if Profiles[playerID].FishData[fishType].First.Date.Equal(otherBoardData[chatName].Typefirst[fishName].Date) {
 
 					Profiles[playerID].FishData[fishType].First.Record = append(Profiles[playerID].FishData[fishType].First.Record,
 						fmt.Sprintf("🥇 First ever %s %s caught %s !", fish.FishType, fishName, text))
