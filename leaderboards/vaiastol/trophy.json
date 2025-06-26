@@ -2,11 +2,11 @@
 	"1135": {
 		"player": "vaiastol",
 		"playerid": 1135,
-		"weight": 160,
+		"weight": 162,
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 48,
-		"silver": 9,
-		"bronze": 14,
+		"silver": 10,
+		"bronze": 16,
 		"rank": 1
 	},
 	"1280": {
@@ -46,7 +46,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"silver": 3,
 		"bronze": 2,
-		"rank": 10
+		"rank": 11
 	},
 	"3535": {
 		"player": "nicestnarwhal",
@@ -61,20 +61,21 @@
 	"3555": {
 		"player": "garout",
 		"playerid": 3555,
-		"weight": 9,
+		"weight": 11.5,
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 1,
-		"silver": 5,
-		"bronze": 2,
+		"silver": 7,
+		"bronze": 3,
 		"rank": 8
 	},
 	"3717": {
 		"player": "redreignss",
 		"playerid": 3717,
-		"weight": 1,
+		"weight": 10,
 		"date": "0001-01-01T00:00:00Z",
+		"trophies": 3,
 		"silver": 1,
-		"rank": 13
+		"rank": 9
 	},
 	"56": {
 		"player": "dayzedinndaydreams",
@@ -102,7 +103,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"silver": 4,
 		"bronze": 4,
-		"rank": 9
+		"rank": 10
 	},
 	"756": {
 		"player": "pengeg",
@@ -111,7 +112,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"silver": 1,
 		"bronze": 2,
-		"rank": 12
+		"rank": 13
 	},
 	"785": {
 		"player": "yoimlee",
@@ -120,6 +121,6 @@
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 1,
 		"bronze": 1,
-		"rank": 11
+		"rank": 12
 	}
 }

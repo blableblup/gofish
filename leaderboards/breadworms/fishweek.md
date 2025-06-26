@@ -48,11 +48,11 @@
 | 43  | globcob  | 25 |
 | 43  | wisco9ers  | 25 |
 | 47  | rocketpol*  | 24 |
-| 48  | divra__  | 22 |
-| 48  | larvasisters  | 22 |
+| 48  | larvasisters  | 23 (+1) |
+| 49 ⬇ | divra__  | 22 |
 | 50  | veggesh  | 21 |
 | 51  | realtechnine  | 20 |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2025-06-21 11:30:31 UTC_
+_Last updated at 2025-06-26 17:21:05 UTC_
