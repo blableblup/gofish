@@ -1,6 +1,8 @@
 ### First fish per type caught in julialuxel's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 57  | 🫙 jar | 0.41 | larvasisters | 2025-06-23 00:51:13 |
+| 56  | 🦇 bat | 1.83 | leanmeister | 2025-06-23 00:48:59 |
 | 55  | 🧵 wireline | 4.73 | julialuxel | 2025-03-15 00:39:39 |
 | 54  | 🎱 8ball | 9.03 | julialuxel | 2025-03-14 23:02:31 |
 | 53  | 🪺 nestwitheggs | 2.18 | julialuxel | 2024-12-24 01:54:16 |
@@ -57,4 +59,4 @@
 | 2  | 🧸 teddybear | 11.20 | hahppyy | 2023-12-23 12:43:06 |
 | 1  | 🪝 hook | 2.20 | hahppyy | 2023-12-23 11:58:15 |
 
-_Last updated at 2025-06-15 13:32:03 UTC_
+_Last updated at 2025-06-29 09:30:52 UTC_

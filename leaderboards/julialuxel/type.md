@@ -32,7 +32,7 @@
 | 29  | 🎱 8ball | 9.03 | julialuxel | 2025-03-14 23:02:31 |
 | 30  | 💀 skull | 8.64 | julialuxel | 2024-04-01 16:11:26 |
 | 31  | 🧊 icecube | 8.17 | julialuxel | 2024-01-11 13:42:35 |
-| 32  | 🦎 lizard | 5.71 | lluuucy | 2024-03-29 19:01:01 |
+| 32  | 🦎 lizard | 6.26 (+0.55) | fvkdylan | 2025-06-22 21:33:08 |
 | 33  | 📱 iphone | 5.63 | gawblemachine | 2024-10-17 19:29:24 |
 | 34  | 🦀 crab | 4.95 | leanmeister | 2025-01-03 21:39:41 |
 | 35  | 🧵 wireline | 4.73 | julialuxel | 2025-03-15 00:39:39 |
@@ -44,17 +44,20 @@
 | 41  | 🪺 nestwitheggs | 2.18 | julialuxel | 2024-12-24 01:54:16 |
 | 42  | 👢 boot | 1.95 | hahppyy | 2024-01-18 23:38:03 |
 | 43  | 🥫 cannedfood | 1.90 | fallen_angels_1995 | 2024-01-25 13:31:20 |
-| 44  | 🌰 acorn | 1.34 | julialuxel | 2024-09-30 23:18:34 |
-| 45  | 🌹 rose | 0.94 | suavvvvv | 2024-03-29 17:01:59 |
-| 46  | 🧤 gloves | 0.86 | hahppyy | 2023-12-25 20:21:08 |
-| 47  | 🐦‍⬛ blackbird | 0.69 | ninjaross | 2024-05-04 18:16:52 |
-| 48  | 🐌 snail | 0.67 | lluuucy | 2024-03-29 19:36:29 |
-| 49  | ⛸️ iceskate | 0.62 | toastyso | 2024-01-07 02:21:01 |
-| 50  | 👟 athleticshoe | 0.53 | supibot | 2024-01-04 18:43:39 |
-| 51  | 🌿 seaweed | 0.42 | julialuxel | 2024-04-01 15:04:41 |
-| 52  | 🧣 scarf | 0.37 | hahppyy | 2023-12-24 23:05:05 |
-| 53  | 🧦 socks | 0.19 | lluuucy | 2024-03-12 14:48:51 |
+| 44 🆕 | 🦇 bat | 1.83 | leanmeister | 2025-06-23 00:48:59 |
+| 45 ⬇ | 🌰 acorn | 1.34 | julialuxel | 2024-09-30 23:18:34 |
+| 46 ⬆ | 🐌 snail | 1.17 (+0.50) | fvkdylan | 2025-06-22 23:18:13 |
+| 47 ⬇ | 🌹 rose | 0.94 | suavvvvv | 2024-03-29 17:01:59 |
+| 48 ⬇ | 🧤 gloves | 0.86 | hahppyy | 2023-12-25 20:21:08 |
+| 49 ⬇ | 🐦‍⬛ blackbird | 0.69 | ninjaross | 2024-05-04 18:16:52 |
+| 50 ⬇ | ⛸️ iceskate | 0.62 | toastyso | 2024-01-07 02:21:01 |
+| 51 🆕 | 🪀 bobber | 0.61 | lluuucy | 2025-06-23 01:43:25 |
+| 52 ⬇ | 👟 athleticshoe | 0.53 | supibot | 2024-01-04 18:43:39 |
+| 53 ⬇ | 🌿 seaweed | 0.42 | julialuxel | 2024-04-01 15:04:41 |
+| 54 🆕 | 🫙 jar | 0.41 | larvasisters | 2025-06-23 00:51:13 |
+| 55 ⬇ | 🧣 scarf | 0.37 | hahppyy | 2023-12-24 23:05:05 |
+| 56 ⬇ | 🧦 socks | 0.19 | lluuucy | 2024-03-12 14:48:51 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-06-15 13:32:17 UTC_
+_Last updated at 2025-06-29 09:29:34 UTC_

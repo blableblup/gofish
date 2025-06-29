@@ -8,10 +8,10 @@
 | 5  | destructionvibe | 378.66 |
 | 6  | kidnamedzan | 337.82 |
 | 7  | xmrsamx | 254.30 |
-| 8 ⬆ | digital_red_panda | 248.21 (+20.89) |
-| 9 ⬇ | turkld | 228.21 |
+| 8  | digital_red_panda | 248.21 |
+| 9  | turkld | 228.21 |
 | 10  | 04knight | 209.62 |
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2025-06-22 09:28:53 UTC_
+_Last updated at 2025-06-29 09:30:49 UTC_

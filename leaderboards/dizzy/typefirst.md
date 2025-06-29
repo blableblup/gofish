@@ -1,6 +1,11 @@
 ### First fish per type caught in dizzy's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 93  | 🛢️ oildrum | 39.41 | lolspers | 2025-06-28 00:12:52 |
+| 92  | 🪻 lupine | 0.79 | buhl00n | 2025-06-27 04:34:06 |
+| 91  | 🪿 goose | 2.39 | lolspers | 2025-06-23 20:31:03 |
+| 90  | 🕸️ spiderweb | 0.07 | iam_glorp | 2025-06-22 19:31:56 |
+| 89  | 🌻 sunflower | 2.96 | iam_glorp | 2025-06-22 15:44:34 |
 | 88  | 🫙 jar | 0.00 | buhl00n | 2025-06-21 11:32:23 |
 | 87  | 🫎 moose | 93.97 | iam_glorp | 2025-05-17 14:35:24 |
 | 86  | 🌾 grass | 0.74 | gimmeschmoneys | 2025-05-05 21:58:58 |
@@ -90,4 +95,4 @@
 | 2  | 🪝 hook | 0.40 | lolspers | 2024-10-20 21:13:11 |
 | 1  | 🎏 lure | 0.16 | burnend | 2024-10-20 21:13:00 |
 
-_Last updated at 2025-06-22 09:30:10 UTC_
+_Last updated at 2025-06-29 09:30:51 UTC_

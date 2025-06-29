@@ -29,10 +29,10 @@
 | 26  | 🎱 8ball | 8.57 | koromadeno_shogun | 2025-03-13 10:05:29 |
 | 27  | 🕷️ spider | 8.24 | benni900 | 2025-02-22 00:07:51 |
 | 28  | 📱 iphone | 7.64 | koromadeno_shogun | 2025-03-13 12:07:24 |
-| 29  | 🪀 bobber | 7.41 | koromadeno_shogun | 2024-09-26 20:19:46 |
-| 30  | 🧊 icecube | 6.66 | benni900 | 2025-02-21 16:16:42 |
-| 31  | 🥒 cucumber | 6.47 | koromadeno_shogun | 2024-09-15 15:03:32 |
-| 32  | 🦎 lizard | 6.46 | koromadeno_shogun | 2024-09-27 00:13:01 |
+| 29 ⬆ | 🦎 lizard | 7.47 (+1.01) | koromadeno_shogun | 2025-06-24 09:22:24 |
+| 30 ⬇ | 🪀 bobber | 7.41 | koromadeno_shogun | 2024-09-26 20:19:46 |
+| 31 ⬇ | 🧊 icecube | 6.66 | benni900 | 2025-02-21 16:16:42 |
+| 32 ⬇ | 🥒 cucumber | 6.47 | koromadeno_shogun | 2024-09-15 15:03:32 |
 | 33  | 🐸 frog | 4.72 | koromadeno_shogun | 2024-09-22 11:51:06 |
 | 34  | 🪵 log | 4.69 | koromadeno_shogun | 2024-10-18 00:03:02 |
 | 35  | 🎏 lure | 4.29 | riki482 | 2025-02-19 19:48:40 |
@@ -48,14 +48,15 @@
 | 45  | ☘️ shamrock | 1.65 | koromadeno_shogun | 2024-09-29 21:59:37 |
 | 46  | 🩴 thongsandal | 1.63 | koromadeno_shogun | 2024-09-16 19:47:21 |
 | 47  | 🩰 balletshoes | 1.50 | islcfc | 2023-12-07 21:39:35 |
-| 48 🆕 | 🍃 leaf | 1.38 | koromadeno_shogun | 2025-06-13 12:43:36 |
-| 49 ⬇ | 🐌 snail | 1.26 | koromadeno_shogun | 2024-09-02 19:55:10 |
-| 50 ⬇ | 🥫 cannedfood | 1.13 | benni900 | 2025-02-24 14:01:06 |
-| 51 ⬇ | 🌿 seaweed | 0.78 | larvasisters | 2024-06-01 20:46:09 |
-| 52 ⬇ | 🧤 gloves | 0.70 | benni900 | 2025-02-15 22:44:26 |
-| 53 ⬇ | 🍁 mapleleaf | 0.56 | koromadeno_shogun | 2024-09-30 23:22:41 |
-| 54 ⬇ | 👢 boot | 0.25 | benni900 | 2025-02-16 12:11:25 |
+| 48  | 🍃 leaf | 1.38 | koromadeno_shogun | 2025-06-13 12:43:36 |
+| 49  | 🐌 snail | 1.26 | koromadeno_shogun | 2024-09-02 19:55:10 |
+| 50  | 🥫 cannedfood | 1.13 | benni900 | 2025-02-24 14:01:06 |
+| 51  | 🌿 seaweed | 0.78 | larvasisters | 2024-06-01 20:46:09 |
+| 52  | 🧤 gloves | 0.70 | benni900 | 2025-02-15 22:44:26 |
+| 53  | 🍁 mapleleaf | 0.56 | koromadeno_shogun | 2024-09-30 23:22:41 |
+| 54  | 👢 boot | 0.25 | benni900 | 2025-02-16 12:11:25 |
+| 55 🆕 | 🧵 wireline | 0.01 | koromadeno_shogun | 2025-06-22 20:28:56 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-06-15 13:38:06 UTC_
+_Last updated at 2025-06-29 09:29:01 UTC_

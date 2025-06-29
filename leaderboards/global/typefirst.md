@@ -1,6 +1,16 @@
 ### First fish per type caught globally
 | Rank | Fish | Weight in lbs | Player | Date in UTC | Chat |
 |------|--------|-----------|---------|------|-------|
+| 112  | 🪲 beetle | 0.47 | qu4ttromila | 2025-06-25 10:39:09 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 111  | 🪁 kite | 6.08 | mazzo_tv | 2025-06-24 22:32:10 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
+| 110  | 🪻 lupine | 1.35 | ytp_dl | 2025-06-24 21:21:35 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 109  | 🦋 butterfly | 0.18 | destin357 | 2025-06-24 10:01:52 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 108  | 🐝 bee | 1.27 | mangos4u | 2025-06-23 22:34:30 | ![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png) |
+| 107  | 🍇 crowberries | 0.64 | larvasisters | 2025-06-22 19:00:17 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png) |
+| 106  | 🐜 ant | 0.67 | eeziiii | 2025-06-22 18:01:41 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png) |
+| 105  | 🕸️ spiderweb | 0.03 | wowitsdub | 2025-06-22 09:22:48 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png) |
+| 104  | 🐛 caterpillar | 0.47 | lluuucy | 2025-06-22 07:39:00 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 103  | 🫐 bilberries | 0.01 | larvasisters | 2025-06-22 00:11:05 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 102  | 🪰 fly | 0.07 | destin357 | 2025-06-21 23:33:39 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 101  | 🫙 jar | 5.51 | gorillapark | 2025-06-21 00:01:46 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png) |
 | 100  | 🌾 grass | 0.23 | derintu | 2025-03-17 20:23:03 | ![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png) |
@@ -104,4 +114,4 @@
 | 2  | 🐸 frog | 4.76 | miiiiisho | 2022-12-04 01:04:30 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 1  | 🦐 shrimp | 29.58 | lagggm* | 2022-12-04 00:58:55 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 
-_Last updated at 2025-06-22 09:30:10 UTC_
+_Last updated at 2025-06-29 09:30:52 UTC_

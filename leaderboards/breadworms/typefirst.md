@@ -1,6 +1,16 @@
 ### First fish per type caught in breadworms' chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 112  | 🪁 kite | 4.38 | derinturitierutz | 2025-06-26 12:58:18 |
+| 111  | 🐜 ant | 0.33 | derintu | 2025-06-25 11:16:14 |
+| 110  | 🪲 beetle | 0.47 | qu4ttromila | 2025-06-25 10:39:09 |
+| 109  | 🪻 lupine | 1.35 | ytp_dl | 2025-06-24 21:21:35 |
+| 108  | 🐝 bee | 1.25 | lluuucy | 2025-06-24 11:19:51 |
+| 107  | 🦋 butterfly | 0.18 | destin357 | 2025-06-24 10:01:52 |
+| 106  | 🍇 crowberries | 0.79 | derinturitierutz | 2025-06-23 19:30:00 |
+| 105  | 🕸️ spiderweb | 0.10 | larvasisters | 2025-06-22 16:54:56 |
+| 104  | 🐛 caterpillar | 0.47 | lluuucy | 2025-06-22 07:39:00 |
+| 103  | 🫐 bilberries | 0.01 | larvasisters | 2025-06-22 00:11:05 |
 | 102  | 🪰 fly | 0.07 | destin357 | 2025-06-21 23:33:39 |
 | 101  | 🫙 jar | 0.00 | breadworms | 2025-06-21 06:11:57 |
 | 100  | 🍃 leaf | 0.02 | gstaman911 | 2025-03-18 07:30:37 |
@@ -104,4 +114,4 @@
 | 2  | 🐸 frog | 4.76 | miiiiisho | 2022-12-04 01:04:30 |
 | 1  | 🦐 shrimp | 29.58 | lagggm* | 2022-12-04 00:58:55 |
 
-_Last updated at 2025-06-22 09:30:10 UTC_
+_Last updated at 2025-06-29 09:30:51 UTC_

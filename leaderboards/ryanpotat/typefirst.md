@@ -1,6 +1,10 @@
 ### First fish per type caught in ryanpotat's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 46  | 🌻 sunflower | 0.43 | respirate_ | 2025-06-23 08:28:34 |
+| 45  | 🫙 jar | 0.02 | n1nzin_ | 2025-06-23 03:56:08 |
+| 44  | 🐌 snail | 0.12 | respirate_ | 2025-06-22 19:13:28 |
+| 43  | 🧵 wireline | 0.03 | chestnutbank | 2025-06-22 02:04:57 |
 | 42  | 🦎 lizard | 0.70 | chestnutbank | 2025-06-21 22:04:30 |
 | 41  | 🎱 8ball | 0.32 | kubo7 | 2025-06-21 10:46:42 |
 | 40  | ☘️ shamrock | 3.63 | chestnutbank | 2025-06-21 09:38:32 |
@@ -44,4 +48,4 @@
 | 2  | 🐊 crocodile | 83.85 | respirate_ | 2024-10-02 21:06:55 |
 | 1  | 🪳 cockroach | 1.92 | ryanpotat | 2023-12-09 03:32:47 |
 
-_Last updated at 2025-06-22 09:30:09 UTC_
+_Last updated at 2025-06-29 09:30:51 UTC_

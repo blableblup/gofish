@@ -1,41 +1,43 @@
 ### Last fish per type caught in julialuxel's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
-| 55  | 🐉 dragon | 61.28 | mangos4u | 2025-06-14 02:17:12 |
-| 54  | 🦑 squid | 26.70 | julialuxel | 2025-06-14 02:13:01 |
-| 53  | 🪝 hook | 0.00 | julialuxel | 2025-06-14 01:18:00 |
-| 52  | 🐋 whale2 | 59.28 | julialuxel | 2025-06-14 01:11:23 |
-| 51  | 🐠 tropicalfish | 13.48 | julialuxel | 2025-05-08 03:22:34 |
-| 50  | 🐚 shell | 0.56 | c_mgirl | 2025-03-31 02:33:51 |
-| 49  | 🪳 cockroach | 2.77 | leanmeister | 2025-03-29 23:41:42 |
-| 48  | 🐍 snake | 17.81 | leanmeister | 2025-03-26 20:13:10 |
-| 47  | 🐢 turtle | 80.52 | julialuxel | 2025-03-16 17:21:06 |
-| 46  | 📱 iphone | 2.28 | julialuxel | 2025-03-16 00:00:13 |
-| 45  | 🎱 8ball | 2.75 | julialuxel | 2025-03-15 22:03:38 |
-| 44  | 🧵 wireline | 4.73 | julialuxel | 2025-03-15 00:39:39 |
-| 43  | 🦦 otter | 8.37 | mitgliederversammlung | 2025-02-03 22:42:08 |
-| 42  | 🦐 shrimp | 27.27 | julialuxel | 2025-02-02 16:19:07 |
-| 41  | 🎏 lure | 0.00 | julialuxel | 2025-02-02 15:32:33 |
-| 40  | 🐟 fish | 4.23 | julialuxel | 2025-02-02 15:31:59 |
-| 39  | 🐬 dolphin | 43.45 | julialuxel | 2025-01-08 22:53:41 |
-| 38  | 🦀 crab | 4.95 | leanmeister | 2025-01-03 21:39:41 |
-| 37  | 🦞 lobster | 49.64 | julialuxel | 2024-12-29 04:36:47 |
-| 36  | 🐊 crocodile | 1.57 | julialuxel | 2024-12-24 07:09:10 |
-| 35  | 🪺 nestwitheggs | 2.18 | julialuxel | 2024-12-24 01:54:16 |
-| 34  | 🦫 beaver | 28.05 | julialuxel | 2024-10-04 20:54:33 |
-| 33  | 🌰 acorn | 1.34 | julialuxel | 2024-09-30 23:18:34 |
-| 32  | 🐦‍⬛ blackbird | 0.69 | ninjaross | 2024-05-04 18:16:52 |
-| 31  | ☘️ shamrock | 1.46 | hahppyy | 2024-04-02 15:48:36 |
-| 30  | 🪸 coral | 20.18 | lluuucy | 2024-04-01 18:43:48 |
-| 29  | 🐸 frog | 0.81 | dayzedinndaydreams | 2024-04-01 16:32:08 |
-| 28  | 💀 skull | 8.64 | julialuxel | 2024-04-01 16:11:26 |
-| 27  | 🦎 lizard | 0.93 | dayzedinndaydreams | 2024-04-01 15:56:16 |
-| 26  | 🦪 oyster | 20.43 | lluuucy | 2024-04-01 15:47:01 |
-| 25  | 🌿 seaweed | 0.42 | julialuxel | 2024-04-01 15:04:41 |
-| 24  | 🐙 octopus | 88.82 | lluuucy | 2024-04-01 13:37:16 |
-| 23  | 🐌 snail | 0.67 | lluuucy | 2024-03-29 19:36:29 |
-| 22  | 🌹 rose | 0.94 | lluuucy | 2024-03-29 17:48:21 |
-| 21  | 🪀 bobber | 0.00 | ninjaross | 2024-03-29 17:10:35 |
+| 57  | 🦫 beaver | 16.20 | julialuxel | 2025-06-27 03:30:59 |
+| 56  | 🪀 bobber | 0.61 | lluuucy | 2025-06-23 01:43:25 |
+| 55  | 🎱 8ball | 0.40 | julialuxel | 2025-06-23 01:25:19 |
+| 54  | 🫙 jar | 0.41 | larvasisters | 2025-06-23 00:51:13 |
+| 53  | 🐟 fish | 2.44 | fvkdylan | 2025-06-23 00:49:32 |
+| 52  | 🦇 bat | 1.83 | leanmeister | 2025-06-23 00:48:59 |
+| 51  | 🐢 turtle | 30.13 | julialuxel | 2025-06-23 00:30:28 |
+| 50  | 🐌 snail | 1.17 | fvkdylan | 2025-06-22 23:18:13 |
+| 49  | 🦎 lizard | 6.26 | fvkdylan | 2025-06-22 21:33:08 |
+| 48  | 🐉 dragon | 61.28 | mangos4u | 2025-06-14 02:17:12 |
+| 47  | 🦑 squid | 26.70 | julialuxel | 2025-06-14 02:13:01 |
+| 46  | 🪝 hook | 0.00 | julialuxel | 2025-06-14 01:18:00 |
+| 45  | 🐋 whale2 | 59.28 | julialuxel | 2025-06-14 01:11:23 |
+| 44  | 🐠 tropicalfish | 13.48 | julialuxel | 2025-05-08 03:22:34 |
+| 43  | 🐚 shell | 0.56 | c_mgirl | 2025-03-31 02:33:51 |
+| 42  | 🪳 cockroach | 2.77 | leanmeister | 2025-03-29 23:41:42 |
+| 41  | 🐍 snake | 17.81 | leanmeister | 2025-03-26 20:13:10 |
+| 40  | 📱 iphone | 2.28 | julialuxel | 2025-03-16 00:00:13 |
+| 39  | 🧵 wireline | 4.73 | julialuxel | 2025-03-15 00:39:39 |
+| 38  | 🦦 otter | 8.37 | mitgliederversammlung | 2025-02-03 22:42:08 |
+| 37  | 🦐 shrimp | 27.27 | julialuxel | 2025-02-02 16:19:07 |
+| 36  | 🎏 lure | 0.00 | julialuxel | 2025-02-02 15:32:33 |
+| 35  | 🐬 dolphin | 43.45 | julialuxel | 2025-01-08 22:53:41 |
+| 34  | 🦀 crab | 4.95 | leanmeister | 2025-01-03 21:39:41 |
+| 33  | 🦞 lobster | 49.64 | julialuxel | 2024-12-29 04:36:47 |
+| 32  | 🐊 crocodile | 1.57 | julialuxel | 2024-12-24 07:09:10 |
+| 31  | 🪺 nestwitheggs | 2.18 | julialuxel | 2024-12-24 01:54:16 |
+| 30  | 🌰 acorn | 1.34 | julialuxel | 2024-09-30 23:18:34 |
+| 29  | 🐦‍⬛ blackbird | 0.69 | ninjaross | 2024-05-04 18:16:52 |
+| 28  | ☘️ shamrock | 1.46 | hahppyy | 2024-04-02 15:48:36 |
+| 27  | 🪸 coral | 20.18 | lluuucy | 2024-04-01 18:43:48 |
+| 26  | 🐸 frog | 0.81 | dayzedinndaydreams | 2024-04-01 16:32:08 |
+| 25  | 💀 skull | 8.64 | julialuxel | 2024-04-01 16:11:26 |
+| 24  | 🦪 oyster | 20.43 | lluuucy | 2024-04-01 15:47:01 |
+| 23  | 🌿 seaweed | 0.42 | julialuxel | 2024-04-01 15:04:41 |
+| 22  | 🐙 octopus | 88.82 | lluuucy | 2024-04-01 13:37:16 |
+| 21  | 🌹 rose | 0.94 | lluuucy | 2024-03-29 17:48:21 |
 | 20  | 🧦 socks | 0.19 | lluuucy | 2024-03-12 14:48:51 |
 | 19  | 🍬 candy | 0.00 | lluuucy | 2024-02-29 18:14:45 |
 | 18  | 🐡 blowfish | 17.98 | lluuucy | 2024-02-29 16:26:42 |
@@ -57,4 +59,4 @@
 | 2  | 🐧 penguin | 29.49 | ryebreadward | 2024-01-01 00:28:42 |
 | 1  | 🧣 scarf | 0.37 | hahppyy | 2023-12-24 23:05:05 |
 
-_Last updated at 2025-06-15 13:36:26 UTC_
+_Last updated at 2025-06-29 09:29:38 UTC_

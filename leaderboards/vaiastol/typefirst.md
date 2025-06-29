@@ -1,6 +1,8 @@
 ### First fish per type caught in vaiastol's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 95  | 🪰 fly | 0.10 | hahppyy | 2025-06-25 08:02:09 |
+| 94  | 🐛 caterpillar | 0.42 | leanmeister | 2025-06-22 19:10:14 |
 | 93  | 🫙 jar | 0.00 | vaiastol | 2025-06-21 07:23:41 |
 | 92  | 🌻 sunflower | 2.54 | garout | 2025-06-08 14:38:14 |
 | 91  | 🫎 moose | 22.03 | dayzedinndaydreams | 2025-05-06 17:17:48 |
@@ -95,4 +97,4 @@
 | 2  | 🦀 crab | 2.81 | jr_mime | 2024-07-28 10:52:00 |
 | 1  | 🐸 frog | 1.70 | mitgliederversammlung | 2024-07-28 00:20:07 |
 
-_Last updated at 2025-06-22 09:30:09 UTC_
+_Last updated at 2025-06-29 09:30:52 UTC_

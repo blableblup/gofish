@@ -1,6 +1,14 @@
 ### First fish per type caught in wuh6's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 101  | 🪁 kite | 10.69 | lobuhtomy | 2025-06-27 14:43:50 |
+| 100  | 🪰 fly | 0.25 | iflya320 | 2025-06-23 17:24:11 |
+| 99  | 🍇 crowberries | 0.64 | larvasisters | 2025-06-22 19:00:17 |
+| 98  | 🐜 ant | 0.67 | eeziiii | 2025-06-22 18:01:41 |
+| 97  | 🐛 caterpillar | 0.45 | huuuuuuuuuuuuuuuuuuuuuurz | 2025-06-22 15:07:36 |
+| 96  | 🫐 bilberries | 0.95 | bubinga | 2025-06-22 12:09:29 |
+| 95  | 🦇 bat | 8.68 | ocrw | 2025-06-22 10:12:16 |
+| 94  | 🕸️ spiderweb | 0.03 | wowitsdub | 2025-06-22 09:22:48 |
 | 93  | 🌻 sunflower | 0.66 | wowitsdub | 2025-06-21 13:30:30 |
 | 92  | 🫙 jar | 5.51 | gorillapark | 2025-06-21 00:01:46 |
 | 91  | 🕶️ darksunglasses | 11.93 | eeziiii | 2025-05-03 15:33:19 |
@@ -95,4 +103,4 @@
 | 2  | 🪝 hook | 1.91 | commanda_u | 2024-12-14 15:55:38 |
 | 1  | 🐚 shell | 3.49 | jukkii | 2024-12-14 15:55:11 |
 
-_Last updated at 2025-06-22 09:30:10 UTC_
+_Last updated at 2025-06-29 09:30:51 UTC_
