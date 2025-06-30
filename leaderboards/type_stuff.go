@@ -20,47 +20,56 @@ func typeBoardTitles(params LeaderboardParams) string {
 		title = "### no title >____<!\n"
 
 	case "type":
+		title = "### Biggest fish per type caught"
+
 		if chatName != "global" {
 			if strings.HasSuffix(chatName, "s") {
-				title = fmt.Sprintf("### Biggest fish per type caught in %s' chat\n", chatName)
+				title = fmt.Sprintf("%s in %s' chat\n", title, chatName)
 			} else {
-				title = fmt.Sprintf("### Biggest fish per type caught in %s's chat\n", chatName)
+				title = fmt.Sprintf("%s in %s's chat\n", title, chatName)
 			}
 		} else {
-			title = "### Biggest fish per type caught globally\n"
+			title = fmt.Sprintf("%s globally\n", title)
 		}
 
 	case "typesmall":
+
+		title = "### Smallest fish per type caught"
+
 		if chatName != "global" {
 			if strings.HasSuffix(chatName, "s") {
-				title = fmt.Sprintf("### Smallest fish per type caught in %s' chat\n", chatName)
+				title = fmt.Sprintf("%s in %s' chat\n", title, chatName)
 			} else {
-				title = fmt.Sprintf("### Smallest fish per type caught in %s's chat\n", chatName)
+				title = fmt.Sprintf("%s in %s's chat\n", title, chatName)
 			}
 		} else {
-			title = "### Smallest fish per type caught globally\n"
+			title = fmt.Sprintf("%s globally\n", title)
 		}
 
 	case "typefirst":
+		title = "### First time a fish was caught"
+
 		if chatName != "global" {
 			if strings.HasSuffix(chatName, "s") {
-				title = fmt.Sprintf("### First fish per type caught in %s' chat\n", chatName)
+				title = fmt.Sprintf("%s in %s' chat\n", title, chatName)
 			} else {
-				title = fmt.Sprintf("### First fish per type caught in %s's chat\n", chatName)
+				title = fmt.Sprintf("%s in %s's chat\n", title, chatName)
 			}
 		} else {
-			title = "### First fish per type caught globally\n"
+			title = fmt.Sprintf("%s globally\n", title)
 		}
 
 	case "typelast":
+		title = "### Last time a fish was caught"
+
 		if chatName != "global" {
 			if strings.HasSuffix(chatName, "s") {
-				title = fmt.Sprintf("### Last fish per type caught in %s' chat\n", chatName)
+				title = fmt.Sprintf("%s in %s' chat\n", title, chatName)
 			} else {
-				title = fmt.Sprintf("### Last fish per type caught in %s's chat\n", chatName)
+				title = fmt.Sprintf("%s in %s's chat\n", title, chatName)
 			}
 		} else {
-			title = "### Last fish per type caught globally\n"
+			title = fmt.Sprintf("%s globally\n", title)
 		}
 	}
 

@@ -72,7 +72,7 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 		"If there are multiple catches with the same weight for biggest and smallest fish per type, it will only show the first catch with that weight.")
 
 	Profile.InfoBottom = append(Profile.InfoBottom,
-		"If the player has multiple catches as biggest / smallest fish per type records in different channels they wont show. It will only show if their current biggest or smallest fish per type is a record.")
+		"If the player has multiple catches as fish type records in different channels they wont show. It will only show if one of their current catches is a record.")
 
 	Profile.InfoBottom = append(Profile.InfoBottom,
 		"The records at the top and the records per fish type will only show records from channels which have their own leaderboards.")
@@ -82,9 +82,6 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 
 	Profile.InfoBottom = append(Profile.InfoBottom,
 		"Catches which do not show their weight in the catch message will show a weight of 0, even though they have a weight.")
-
-	Profile.InfoBottom = append(Profile.InfoBottom,
-		"For the progress, the profile does not check if the player still has the fish in their bag. The player needs to have caught them atleast once.")
 
 	// update the last updated
 	Profile.LastUpdated = time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC")
@@ -114,7 +111,7 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 
 	_, _ = fmt.Fprintf(file, "# 🎣 %s\n", Profile.Name)
 
-	PrintSliceMD(Profile.Progress, "## Progress", file)
+	PrintSliceMD(Profile.Progress, "## Accomplishments", file)
 
 	_, _ = fmt.Fprintln(file)
 
@@ -122,7 +119,7 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 
 	_, _ = fmt.Fprintln(file)
 
-	PrintSliceMD(Profile.Other.Other, "## Other accomplishments", file)
+	PrintSliceMD(Profile.Other.Other, "## Other stuff", file)
 
 	_, _ = fmt.Fprintln(file)
 
