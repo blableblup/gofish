@@ -131,6 +131,8 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 		_, _ = fmt.Fprintln(file)
 	}
 
+	_, _ = fmt.Fprintln(file, "---------------")
+
 	_, _ = fmt.Fprintln(file, "\n## Data for their fish caught 🪣")
 
 	err = PrintTableMD(Profile.Count.Total, []string{"Total fish caught"}, "", "notslice", file)
@@ -140,21 +142,21 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 
 	_, _ = fmt.Fprintln(file)
 
-	err = PrintTableMD(Profile.Count, []string{"-", "Chat", "Fish caught"}, "Fish caught per chat", "totalchat", file)
+	err = PrintTableMD(Profile.Count, []string{"-", "Chat", "Fish caught"}, "### Fish caught per chat", "totalchat", file)
 	if err != nil {
 		return err
 	}
 
 	_, _ = fmt.Fprintln(file)
 
-	err = PrintTableMD(Profile.CountYear, []string{"-", "Year", "Count", "Chat"}, "Fish caught per year", "totalchatmap", file)
+	err = PrintTableMD(Profile.CountYear, []string{"-", "Year", "Count", "Chat"}, "### Fish caught per year", "totalchatmap", file)
 	if err != nil {
 		return err
 	}
 
 	_, _ = fmt.Fprintln(file)
 
-	err = PrintTableMD(Profile.CountCatchtype, []string{"-", "Catchtype", "Count", "Chat"}, "Fish caught per catchtype", "totalchatmap", file)
+	err = PrintTableMD(Profile.CountCatchtype, []string{"-", "Catchtype", "Count", "Chat"}, "### Fish caught per catchtype", "totalchatmap", file)
 	if err != nil {
 		return err
 	}
@@ -168,49 +170,52 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 
 	_, _ = fmt.Fprintln(file)
 
-	err = PrintTableMD(Profile.TotalWeight, []string{"-", "Chat", "Total weight in lbs"}, "Total weight per chat", "totalchatfloat", file)
+	err = PrintTableMD(Profile.TotalWeight, []string{"-", "Chat", "Total weight in lbs"}, "### Total weight per chat", "totalchatfloat", file)
 	if err != nil {
 		return err
 	}
 
 	_, _ = fmt.Fprintln(file)
 
-	err = PrintTableMD(Profile.TotalWeightYear, []string{"-", "Year", "Total weight in lbs", "Chat"}, "Total weight per year", "totalchatmapfloat", file)
+	err = PrintTableMD(Profile.TotalWeightYear, []string{"-", "Year", "Total weight in lbs", "Chat"}, "### Total weight per year", "totalchatmapfloat", file)
 	if err != nil {
 		return err
 	}
+
+	_, _ = fmt.Fprintln(file, "---------------")
 
 	_, _ = fmt.Fprintln(file, "\n## First, biggest and last fish ⚖️")
 
-	err = PrintTableMD(Profile.FirstFishChat, []string{"Chat", "Fish", "Weight in lbs", "Catchtype", "Date"}, "First ever fish caught per chat", "mapstringprofilefish", file)
+	err = PrintTableMD(Profile.FirstFishChat, []string{"Chat", "Fish", "Weight in lbs", "Catchtype", "Date"}, "### First ever fish caught per chat", "mapstringprofilefish", file)
 	if err != nil {
 		return err
 	}
 	_, _ = fmt.Fprintln(file)
 
-	err = PrintTableMD(Profile.LastFishChat, []string{"Chat", "Fish", "Weight in lbs", "Catchtype", "Date"}, "Last fish caught per chat", "mapstringprofilefish", file)
+	err = PrintTableMD(Profile.LastFishChat, []string{"Chat", "Fish", "Weight in lbs", "Catchtype", "Date"}, "### Last fish caught per chat", "mapstringprofilefish", file)
 	if err != nil {
 		return err
 	}
 	_, _ = fmt.Fprintln(file)
 
-	err = PrintTableMD(Profile.BiggestFishChat, []string{"Chat", "Fish", "Weight in lbs", "Catchtype", "Date"}, "Biggest fish caught per chat", "mapstringprofilefish", file)
+	err = PrintTableMD(Profile.BiggestFishChat, []string{"Chat", "Fish", "Weight in lbs", "Catchtype", "Date"}, "### Biggest fish caught per chat", "mapstringprofilefish", file)
 	if err != nil {
 		return err
 	}
 	_, _ = fmt.Fprintln(file)
 
-	err = PrintTableMD(Profile.BiggestFish, []string{"Fish", "Weight in lbs", "Catchtype", "Date", "Chat"}, "Overall biggest fish", "profilefishslice", file)
+	err = PrintTableMD(Profile.BiggestFish, []string{"Fish", "Weight in lbs", "Catchtype", "Date", "Chat"}, "### Overall biggest fish", "profilefishslice", file)
 	if err != nil {
 		return err
 	}
 	_, _ = fmt.Fprintln(file)
 
-	err = PrintTableMD(Profile.LastFish, []string{"Fish", "Weight in lbs", "Catchtype", "Date", "Chat"}, "Overall last fish", "profilefishslice", file)
+	err = PrintTableMD(Profile.LastFish, []string{"Fish", "Weight in lbs", "Catchtype", "Date", "Chat"}, "### Overall last fish", "profilefishslice", file)
 	if err != nil {
 		return err
 	}
-	_, _ = fmt.Fprintln(file)
+
+	_, _ = fmt.Fprintln(file, "\n---------------")
 
 	_, _ = fmt.Fprintln(file, "\n## Their last seen bag 🎒")
 
@@ -219,7 +224,7 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 		return err
 	}
 
-	_, _ = fmt.Fprintln(file)
+	_, _ = fmt.Fprintln(file, "\n---------------")
 
 	_, _ = fmt.Fprintln(file, "\n## Their fish seen")
 
@@ -230,10 +235,12 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 
 	_, _ = fmt.Fprintln(file)
 
-	err = PrintTableMD(Profile.FishSeenTotal, []string{"-", "Chat", "Fish seen"}, "Fish seen per chat", "totalchat", file)
+	err = PrintTableMD(Profile.FishSeenTotal, []string{"-", "Chat", "Fish seen"}, "### Fish seen per chat", "totalchat", file)
 	if err != nil {
 		return err
 	}
+
+	_, _ = fmt.Fprintln(file, "---------------")
 
 	_, _ = fmt.Fprintln(file, "\n## Data about each of their seen fish")
 
@@ -256,21 +263,21 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 
 		_, _ = fmt.Fprintln(file)
 
-		err = PrintTableMD(Profile.FishData[fishType].TotalCount, []string{EmojisForFish[fish], "Chat", "Fish caught"}, "Fish caught per chat", "totalchat", file)
+		err = PrintTableMD(Profile.FishData[fishType].TotalCount, []string{EmojisForFish[fish], "Chat", "Fish caught"}, "### Fish caught per chat", "totalchat", file)
 		if err != nil {
 			return err
 		}
 
 		_, _ = fmt.Fprintln(file)
 
-		err = PrintTableMD(Profile.FishData[fishType].CountYear, []string{EmojisForFish[fish], "Year", "Count", "Chat"}, "Fish caught per year", "totalchatmap", file)
+		err = PrintTableMD(Profile.FishData[fishType].CountYear, []string{EmojisForFish[fish], "Year", "Count", "Chat"}, "### Fish caught per year", "totalchatmap", file)
 		if err != nil {
 			return err
 		}
 
 		_, _ = fmt.Fprintln(file)
 
-		err = PrintTableMD(Profile.FishData[fishType].CountCatchtype, []string{EmojisForFish[fish], "Catchtype", "Count", "Chat"}, "Fish caught per catchtype", "totalchatmap", file)
+		err = PrintTableMD(Profile.FishData[fishType].CountCatchtype, []string{EmojisForFish[fish], "Catchtype", "Count", "Chat"}, "### Fish caught per catchtype", "totalchatmap", file)
 		if err != nil {
 			return err
 		}
@@ -301,13 +308,15 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 			PrintSliceMD(fishRecords, "", file)
 		}
 
+		_, _ = fmt.Fprintln(file, "---------------")
+
 	}
 
 	PrintSliceMD(Profile.FishNotSeen, "## Fish they never saw", file)
 
 	_, _ = fmt.Fprintf(file, "\nIn total %d fish never seen", len(Profile.FishNotSeen))
 
-	_, _ = fmt.Fprintln(file)
+	_, _ = fmt.Fprintln(file, "\n\n---------------")
 
 	PrintSliceMD(Profile.InfoBottom, "## Some info", file)
 
