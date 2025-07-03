@@ -2,10 +2,10 @@
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
 | 1 🥇  | buhl00n  | 133 |
-| 2 🥈  | iam_haunt  | 96 |
-| 3 🥉  | gimmeschmoneys  | 95 |
-| 4  | iam_glorp  | 93 |
-| 5  | lolspers  | 83 |
+| 2 🥈 ⬆ | lolspers  | 115 (+32) |
+| 3 🥉 ⬇ | iam_haunt  | 96 |
+| 4 ⬇ | gimmeschmoneys  | 95 |
+| 5 ⬇ | iam_glorp  | 93 |
 | 6  | ben_vincent  | 74 |
 | 7  | spanmer  | 71 |
 | 8  | aceleju  | 64 |
@@ -28,4 +28,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2025-06-21 11:30:31 UTC_
+_Last updated at 2025-07-03 14:44:49 UTC_

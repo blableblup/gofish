@@ -18,41 +18,41 @@
 | 15  | bussinongnocap  | 108 |
 | 16  | dayzedinndaydreams  | 93 |
 | 17  | crazytown_bananapants  | 89 |
-| 18  | supibot  | 88 |
-| 19  | comiqq  | 84 |
-| 20  | gstaman911  | 80 |
-| 21  | miiiiisho  | 79 |
-| 22  | derintu  | 78 |
+| 17 ⬆ | derintu  | 89 (+11) |
+| 19 ⬇ | supibot  | 88 |
+| 20 ⬇ | comiqq  | 84 |
+| 21 ⬇ | gstaman911  | 80 |
+| 22 ⬇ | miiiiisho  | 79 |
 | 23  | respirate_  | 74 |
-| 24  | booty_bread  | 60 |
-| 25  | receipts  | 56 |
-| 26  | bk207*  | 53 |
-| 27  | hmsmob*  | 52 |
-| 27  | kaasppeerr  | 52 |
-| 29  | bapqo  | 49 |
-| 30  | osnyatsky  | 47 |
-| 31  | paras220  | 46 |
-| 32  | ninjaross  | 44 |
-| 33  | ouacewi  | 43 |
-| 34  | houseofleaves  | 42 |
-| 35  | c_mgirl  | 40 |
-| 36  | fvkdylan  | 39 |
-| 37  | idini  | 36 |
-| 38  | julialuxel  | 34 |
-| 39  | islcfc*  | 33 |
-| 40  | jr_mime  | 32 |
-| 41  | fallen_angels_1995  | 28 |
-| 42  | dougiefresh_83  | 27 |
-| 43  | breadworms  | 25 |
-| 43  | carmirror  | 25 |
-| 43  | globcob  | 25 |
-| 43  | wisco9ers  | 25 |
-| 47  | rocketpol*  | 24 |
-| 48  | larvasisters  | 23 (+1) |
-| 49 ⬇ | divra__  | 22 |
+| 24 ⬆ | larvasisters  | 66 (+43) |
+| 25 ⬇ | booty_bread  | 60 |
+| 26 ⬇ | receipts  | 56 |
+| 27 ⬇ | bk207*  | 53 |
+| 28 ⬇ | hmsmob*  | 52 |
+| 28 ⬇ | kaasppeerr  | 52 |
+| 30 ⬇ | bapqo  | 49 |
+| 31 ⬇ | osnyatsky  | 47 |
+| 32 ⬇ | paras220  | 46 |
+| 33 ⬇ | ninjaross  | 44 |
+| 34 ⬇ | ouacewi  | 43 |
+| 35 ⬇ | houseofleaves  | 42 |
+| 36 ⬇ | c_mgirl  | 40 |
+| 37 ⬇ | fvkdylan  | 39 |
+| 38 ⬇ | idini  | 36 |
+| 39 ⬇ | julialuxel  | 34 |
+| 40 ⬇ | islcfc*  | 33 |
+| 41 ⬇ | jr_mime  | 32 |
+| 42 ⬇ | fallen_angels_1995  | 28 |
+| 43  | breadworms  | 27 (+2) |
+| 43 ⬇ | dougiefresh_83  | 27 |
+| 45 ⬇ | carmirror  | 25 |
+| 45 ⬇ | globcob  | 25 |
+| 45 ⬇ | wisco9ers  | 25 |
+| 48 ⬇ | rocketpol*  | 24 |
+| 49  | divra__  | 22 |
 | 50  | veggesh  | 21 |
 | 51  | realtechnine  | 20 |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2025-06-26 17:21:05 UTC_
+_Last updated at 2025-07-03 14:44:49 UTC_

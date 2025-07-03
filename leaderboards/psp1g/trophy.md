@@ -1,8 +1,8 @@
 ### Leaderboard for the weekly tournaments in psp1g's chat
 | Rank | Player | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points |
 |------|--------|-------------|------------------|------------------|--------|
-| 1 🥇 | nndiana | 35 (+1) | 35 (+1) | 12 (+1) | 146.0 (+4.5) |
-| 2 🥈 | bubinga | 26 (+1) | 13 (+1) | 9 | 95.5 (+4.0) |
+| 1 🥇 | nndiana | 38 (+3) | 35 | 12 | 155.0 (+9.0) |
+| 2 🥈 | bubinga | 26 | 15 (+2) | 10 (+1) | 98.0 (+2.5) |
 | 3 🥉 | huuuuuuuuuuuuuuuuuuuuuurz | 8 | 10 | 9 | 38.5 |
 | 4 | benciee | 7 | 11 | 2 | 33.0 |
 | 5 | iflya320 | 6 | 3 | 2 | 22.0 |
@@ -32,9 +32,10 @@
 | 29 | supibot | 0 | 2 | 1 | 2.5 |
 | 30 | yopego | 0 | 2 | 0 | 2.0 |
 | 31 | crunch_sack | 0 | 0 | 3 | 1.5 |
+| 32 🆕| r1cz4rd | 0 | 0 | 2 | 1.0 |
 | 32 | xd_2k | 0 | 1 | 0 | 1.0 |
-| 33 | eeziiii | 0 | 0 | 1 | 0.5 |
-| 33 | gorillapark | 0 | 0 | 1 | 0.5 |
-| 33 | starducc | 0 | 0 | 1 | 0.5 |
+| 34 ⬇| eeziiii | 0 | 0 | 1 | 0.5 |
+| 34 ⬇| gorillapark | 0 | 0 | 1 | 0.5 |
+| 34 ⬇| starducc | 0 | 0 | 1 | 0.5 |
 
-_Last updated at 2025-06-26 17:21:05 UTC_
+_Last updated at 2025-07-03 14:44:49 UTC_

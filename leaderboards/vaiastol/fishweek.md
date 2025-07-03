@@ -12,9 +12,9 @@
 | 8  | leanmeister  | 40 |
 | 10  | dayzedinndaydreams  | 38 |
 | 11  | leastsussyimposter  | 26 |
-| 12 🆕 | redreignss  | 20 |
-| 13 ⬇ | milesdotcom  | 13 |
+| 12  | redreignss  | 24 (+4) |
+| 13  | milesdotcom  | 13 |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-06-26 17:21:05 UTC_
+_Last updated at 2025-07-03 14:44:49 UTC_
