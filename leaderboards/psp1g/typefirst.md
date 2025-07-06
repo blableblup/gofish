@@ -1,6 +1,7 @@
-### First fish per type caught in psp1g's chat
+### First time a fish was caught in psp1g's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 98  | 🐛 caterpillar | 0.03 | ratot | 2025-06-30 15:05:57 |
 | 97  | 🪻 lupine | 1.46 | mazzo_tv | 2025-06-25 08:50:26 |
 | 96  | 🪁 kite | 6.08 | mazzo_tv | 2025-06-24 22:32:10 |
 | 95  | 🪰 fly | 0.14 | nndiana | 2025-06-22 14:06:56 |
@@ -99,4 +100,4 @@
 | 2  | 🦞 lobster | 36.18 | psp1g | 2023-08-21 01:23:40 |
 | 1  | 🐟 fish | 13.12 | dayzedinndaydreams | 2023-08-21 01:11:17 |
 
-_Last updated at 2025-06-29 09:30:51 UTC_
+_Last updated at 2025-07-06 08:34:12 UTC_

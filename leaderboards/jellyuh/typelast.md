@@ -1,44 +1,45 @@
-### Last fish per type caught in jellyuh's chat
+### Last time a fish was caught in jellyuh's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
-| 75  | 🦞 lobster | 63.72 | pompadourdelinquent | 2025-06-28 23:36:36 |
-| 74  | 🎏 lure | 0.00 | miyabwah | 2025-06-28 22:10:27 |
-| 73  | 🪀 bobber | 0.00 | rainedparade | 2025-06-28 22:09:43 |
-| 72  | 🐬 dolphin | 28.06 | miyabwah | 2025-06-28 21:56:32 |
-| 71  | 🪝 hook | 1.55 | pompadourdelinquent | 2025-06-28 21:29:20 |
-| 70  | 🐊 crocodile | 0.48 | rainedparade | 2025-06-27 18:07:07 |
-| 69  | 🥪 sandwich | 1.09 | pompadourdelinquent | 2025-06-27 14:57:01 |
-| 68  | 🧃 beveragebox | 2.05 | cptblack_ | 2025-06-27 08:48:11 |
-| 67  | 🦀 crab | 0.07 | yaykaiza | 2025-06-27 03:41:08 |
-| 66  | 🐚 shell | 0.65 | cptblack_ | 2025-06-27 01:32:27 |
-| 65  | 🦈 shark | 40.07 | rainedparade | 2025-06-26 18:41:15 |
-| 64  | 🐡 blowfish | 1.14 | cptblack_ | 2025-06-26 07:37:24 |
-| 63  | 🐟 fish | 7.47 | cptblack_ | 2025-06-26 04:24:44 |
-| 62  | 🦐 shrimp | 21.96 | cptblack_ | 2025-06-25 04:36:51 |
-| 61  | 💀 skull | 5.47 | e1d2f3 | 2025-06-25 03:24:52 |
-| 60  | 🐋 whale2 | 50.76 | cptblack_ | 2025-06-25 03:24:34 |
-| 59  | 🧦 socks | 1.28 | yaykaiza | 2025-06-21 17:05:28 |
-| 58  | 🥒 cucumber | 16.53 | rainedparade | 2025-06-21 01:39:31 |
-| 57  | 🐸 frog | 1.05 | pompadourdelinquent | 2025-06-20 21:12:52 |
-| 56  | 🐠 tropicalfish | 21.72 | rainedparade | 2025-06-20 05:18:16 |
-| 55  | 🐢 turtle | 28.26 | rainedparade | 2025-06-20 03:45:06 |
-| 54  | 🧽 sponge | 14.46 | blitzrailgun | 2025-06-19 08:08:49 |
-| 53  | 🌿 seaweed | 0.55 | cerealapii | 2025-06-19 04:32:51 |
-| 52  | 🦪 oyster | 32.78 | rainedparade | 2025-06-14 16:03:41 |
-| 51  | 🕶️ darksunglasses | 3.50 | rainedparade | 2025-06-13 23:48:41 |
-| 50  | 🪳 cockroach | 6.02 | rainedparade | 2025-06-13 15:50:22 |
-| 49  | 🦑 squid | 36.57 | cptblack_ | 2025-06-12 04:48:53 |
-| 48  | 🕷️ spider | 2.95 | rainedparade | 2025-06-11 22:44:37 |
-| 47  | 🐉 dragon | 174.31 | pompadourdelinquent | 2025-06-11 02:06:07 |
-| 46  | 🐳 whale | 13.74 | pompadourdelinquent | 2025-06-09 23:55:58 |
-| 45  | 🐙 octopus | 51.64 | miyabwah | 2025-06-06 03:22:18 |
-| 44  | 🪨 rock | 35.11 | e1d2f3 | 2025-06-06 01:27:07 |
-| 43  | 🦕 sauropod | 156.61 | rainedparade | 2025-06-05 22:31:55 |
-| 42  | 🍄‍🟫 brownmushroom | 8.43 | hello0d | 2025-06-05 16:23:55 |
-| 41  | 🪸 coral | 89.90 | blitzrailgun | 2025-06-04 07:05:23 |
-| 40  | 🗡️ dagger | 36.80 | infinitemario00 | 2025-06-03 04:57:26 |
-| 39  | 🍬 candy | 0.00 | miyabwah | 2025-06-02 04:03:22 |
-| 38  | 🐌 snail | 1.42 | rainedparade | 2025-05-17 23:19:13 |
+| 76  | 🦞 lobster | 39.56 | jakthejanitor | 2025-07-05 22:21:59 |
+| 75  | 🐢 turtle | 39.44 | pompadourdelinquent | 2025-07-05 18:18:35 |
+| 74  | 🪝 hook | 2.97 | yaykaiza | 2025-07-05 09:16:44 |
+| 73  | 🐚 shell | 1.43 | e1d2f3 | 2025-07-05 07:03:31 |
+| 72  | 🐟 fish | 9.90 | jakthejanitor | 2025-07-05 05:32:31 |
+| 71  | 🦀 crab | 2.91 | poioce | 2025-07-05 05:04:06 |
+| 70  | 🐌 snail | 7.82 | jakthejanitor | 2025-07-05 04:20:49 |
+| 69  | 🎏 lure | 1.38 | cptblack_ | 2025-07-04 08:21:29 |
+| 68  | 🧽 sponge | 20.19 | pxxchy_dreams | 2025-07-03 23:36:55 |
+| 67  | 🐸 frog | 2.38 | yaykaiza | 2025-07-03 06:33:32 |
+| 66  | 🪻 lupine | 1.41 | poioce | 2025-07-03 03:45:04 |
+| 65  | 🐠 tropicalfish | 8.57 | cerealapii | 2025-07-03 03:34:13 |
+| 64  | 🦐 shrimp | 30.52 | pompadourdelinquent | 2025-07-02 09:07:56 |
+| 63  | 🕷️ spider | 6.92 | yaykaiza | 2025-07-02 06:32:13 |
+| 62  | 🐙 octopus | 57.03 | cerealapii | 2025-07-02 02:07:16 |
+| 61  | 🦑 squid | 11.70 | yaykaiza | 2025-07-01 20:15:10 |
+| 60  | 🪸 coral | 18.20 | cerealapii | 2025-07-01 04:12:27 |
+| 59  | 🦪 oyster | 23.65 | miyabwah | 2025-06-29 01:50:05 |
+| 58  | 🪀 bobber | 0.00 | rainedparade | 2025-06-28 22:09:43 |
+| 57  | 🐬 dolphin | 28.06 | miyabwah | 2025-06-28 21:56:32 |
+| 56  | 🐊 crocodile | 0.48 | rainedparade | 2025-06-27 18:07:07 |
+| 55  | 🥪 sandwich | 1.09 | pompadourdelinquent | 2025-06-27 14:57:01 |
+| 54  | 🧃 beveragebox | 2.05 | cptblack_ | 2025-06-27 08:48:11 |
+| 53  | 🦈 shark | 40.07 | rainedparade | 2025-06-26 18:41:15 |
+| 52  | 🐡 blowfish | 1.14 | cptblack_ | 2025-06-26 07:37:24 |
+| 51  | 💀 skull | 5.47 | e1d2f3 | 2025-06-25 03:24:52 |
+| 50  | 🐋 whale2 | 50.76 | cptblack_ | 2025-06-25 03:24:34 |
+| 49  | 🧦 socks | 1.28 | yaykaiza | 2025-06-21 17:05:28 |
+| 48  | 🥒 cucumber | 16.53 | rainedparade | 2025-06-21 01:39:31 |
+| 47  | 🌿 seaweed | 0.55 | cerealapii | 2025-06-19 04:32:51 |
+| 46  | 🕶️ darksunglasses | 3.50 | rainedparade | 2025-06-13 23:48:41 |
+| 45  | 🪳 cockroach | 6.02 | rainedparade | 2025-06-13 15:50:22 |
+| 44  | 🐉 dragon | 174.31 | pompadourdelinquent | 2025-06-11 02:06:07 |
+| 43  | 🐳 whale | 13.74 | pompadourdelinquent | 2025-06-09 23:55:58 |
+| 42  | 🪨 rock | 35.11 | e1d2f3 | 2025-06-06 01:27:07 |
+| 41  | 🦕 sauropod | 156.61 | rainedparade | 2025-06-05 22:31:55 |
+| 40  | 🍄‍🟫 brownmushroom | 8.43 | hello0d | 2025-06-05 16:23:55 |
+| 39  | 🗡️ dagger | 36.80 | infinitemario00 | 2025-06-03 04:57:26 |
+| 38  | 🍬 candy | 0.00 | miyabwah | 2025-06-02 04:03:22 |
 | 37  | 🩲 briefs | 7.09 | rainedparade | 2025-05-16 19:20:52 |
 | 36  | 🩴 thongsandal | 1.10 | i_xerrax | 2025-05-09 04:15:30 |
 | 35  | 🐍 snake | 16.39 | rileygud | 2025-05-09 03:52:45 |
@@ -77,4 +78,4 @@
 | 2  | 🪶 feather | 0.43 | jellyuh | 2025-01-02 09:31:14 |
 | 1  | 🧣 scarf | 0.16 | goopy777 | 2024-12-29 00:40:05 |
 
-_Last updated at 2025-06-29 09:29:38 UTC_
+_Last updated at 2025-07-06 08:34:03 UTC_

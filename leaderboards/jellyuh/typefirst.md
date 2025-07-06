@@ -1,6 +1,7 @@
-### First fish per type caught in jellyuh's chat
+### First time a fish was caught in jellyuh's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 76  | 🪻 lupine | 1.82 | poioce | 2025-07-02 09:16:59 |
 | 75  | 🧃 beveragebox | 2.05 | cptblack_ | 2025-06-27 08:48:11 |
 | 74  | 🥒 cucumber | 18.76 | rainedparade | 2025-05-26 19:35:02 |
 | 73  | 🪼 jellyfish | 12.12 | e1d2f3 | 2025-05-09 01:13:37 |
@@ -77,4 +78,4 @@
 | 2  | 🐸 frog | 1.79 | goopy777 | 2024-12-20 03:52:32 |
 | 1  | 🥫 cannedfood | 1.17 | a_validu5ername | 2024-12-20 03:46:14 |
 
-_Last updated at 2025-06-29 09:30:51 UTC_
+_Last updated at 2025-07-06 08:34:12 UTC_

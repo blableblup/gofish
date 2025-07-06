@@ -1,6 +1,8 @@
-### First fish per type caught in aquaismissing's chat
+### First time a fish was caught in aquaismissing's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 51  | 🥒 cucumber | 16.88 | buck101_ | 2025-07-04 11:13:46 |
+| 50  | 🪼 jellyfish | 9.74 | levante22t | 2025-06-30 22:06:29 |
 | 49  | 🐉 dragon | 135.54 | rustezzz | 2025-06-28 18:52:37 |
 | 48  | 🎰 slotmachine | 0.00 | flovrek | 2025-06-21 15:05:16 |
 | 47  | 🛢️ oildrum | 37.07 | rustezzz | 2025-06-21 00:09:40 |
@@ -51,4 +53,4 @@
 | 2  | 🪝 hook | 0.88 | vladik4il | 2024-11-26 16:02:08 |
 | 1  | 🧦 socks | 0.82 | aquaismissing | 2024-11-26 15:51:47 |
 
-_Last updated at 2025-06-29 09:30:51 UTC_
+_Last updated at 2025-07-06 08:34:11 UTC_

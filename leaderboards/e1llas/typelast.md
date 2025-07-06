@@ -1,12 +1,12 @@
-### Last fish per type caught in e1llas' chat
+### Last time a fish was caught in e1llas' chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
-| 53  | 🐟 fish | 2.58 | envtt | 2025-06-28 18:42:04 |
-| 52  | 🦎 lizard | 2.15 | envtt | 2025-06-28 15:26:24 |
-| 51  | 🪀 bobber | 0.00 | envtt | 2025-06-28 10:53:00 |
-| 50  | ☘️ shamrock | 0.21 | envtt | 2025-06-28 07:00:59 |
-| 49  | 🐢 turtle | 99.02 | envtt | 2025-06-26 17:19:44 |
-| 48  | 🦐 shrimp | 5.71 | envtt | 2025-06-26 12:39:29 |
+| 53  | 🐟 fish | 0.31 | e1llas | 2025-07-02 00:20:50 |
+| 52  | 🦎 lizard | 5.42 | e1llas | 2025-07-01 22:47:03 |
+| 51  | 🦐 shrimp | 3.79 | envtt | 2025-06-30 18:42:57 |
+| 50  | 🐢 turtle | 99.52 | envtt | 2025-06-30 15:11:35 |
+| 49  | 🪀 bobber | 0.00 | envtt | 2025-06-28 10:53:00 |
+| 48  | ☘️ shamrock | 0.21 | envtt | 2025-06-28 07:00:59 |
 | 47  | 🪝 hook | 2.24 | d1fforr | 2025-06-24 17:03:36 |
 | 46  | 🧵 wireline | 0.50 | envtt | 2025-06-24 08:17:06 |
 | 45  | 📱 iphone | 0.89 | e1llas | 2025-06-23 16:14:57 |
@@ -55,4 +55,4 @@
 | 2  | 🧊 icecube | 3.47 | d1fforr | 2024-12-16 08:17:13 |
 | 1  | 🪱 worm | 6.55 | mersuf | 2024-12-15 14:45:59 |
 
-_Last updated at 2025-06-29 09:29:38 UTC_
+_Last updated at 2025-07-06 08:34:02 UTC_

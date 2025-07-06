@@ -1,11 +1,11 @@
-### Last fish per type caught in julialuxel's chat
+### Last time a fish was caught in julialuxel's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
-| 57  | 🦫 beaver | 16.20 | julialuxel | 2025-06-27 03:30:59 |
-| 56  | 🪀 bobber | 0.61 | lluuucy | 2025-06-23 01:43:25 |
-| 55  | 🎱 8ball | 0.40 | julialuxel | 2025-06-23 01:25:19 |
-| 54  | 🫙 jar | 0.41 | larvasisters | 2025-06-23 00:51:13 |
-| 53  | 🐟 fish | 2.44 | fvkdylan | 2025-06-23 00:49:32 |
+| 57  | 🐟 fish | 0.46 | julialuxel | 2025-07-03 04:54:44 |
+| 56  | 🦫 beaver | 16.20 | julialuxel | 2025-06-27 03:30:59 |
+| 55  | 🪀 bobber | 0.61 | lluuucy | 2025-06-23 01:43:25 |
+| 54  | 🎱 8ball | 0.40 | julialuxel | 2025-06-23 01:25:19 |
+| 53  | 🫙 jar | 0.41 | larvasisters | 2025-06-23 00:51:13 |
 | 52  | 🦇 bat | 1.83 | leanmeister | 2025-06-23 00:48:59 |
 | 51  | 🐢 turtle | 30.13 | julialuxel | 2025-06-23 00:30:28 |
 | 50  | 🐌 snail | 1.17 | fvkdylan | 2025-06-22 23:18:13 |
@@ -59,4 +59,4 @@
 | 2  | 🐧 penguin | 29.49 | ryebreadward | 2024-01-01 00:28:42 |
 | 1  | 🧣 scarf | 0.37 | hahppyy | 2023-12-24 23:05:05 |
 
-_Last updated at 2025-06-29 09:29:38 UTC_
+_Last updated at 2025-07-06 08:34:03 UTC_

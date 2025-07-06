@@ -1,6 +1,8 @@
-### First fish per type caught in wuh6's chat
+### First time a fish was caught in wuh6's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 103  | 🦗 cricket | 0.05 | theevirus | 2025-07-04 01:48:57 |
+| 102  | 🪻 lupine | 0.20 | lobuhtomy | 2025-06-30 05:38:59 |
 | 101  | 🪁 kite | 10.69 | lobuhtomy | 2025-06-27 14:43:50 |
 | 100  | 🪰 fly | 0.25 | iflya320 | 2025-06-23 17:24:11 |
 | 99  | 🍇 crowberries | 0.64 | larvasisters | 2025-06-22 19:00:17 |
@@ -37,7 +39,7 @@
 | 68  | 🧣 scarf | 0.65 | ocrw | 2024-12-23 20:39:13 |
 | 67  | 🐧 penguin | 15.79 | mazzo_tv | 2024-12-23 19:19:06 |
 | 66  | ⛸️ iceskate | 1.07 | wowitsdub | 2024-12-23 17:31:49 |
-| 65  | 🧭 compass | 1.09 | nv6y4 | 2024-12-23 16:27:50 |
+| 65  | 🧭 compass | 1.09 | 21h6c | 2024-12-23 16:27:50 |
 | 64  | 🐻‍❄ polarbear | 0.65 | bubinga | 2024-12-23 15:40:15 |
 | 63  | 🐀 rat | 30.71 | jr_mime | 2024-12-23 14:09:01 |
 | 62  | 🐿️ squirrel | 0.00 | lobuhtomy | 2024-12-21 20:01:28 |
@@ -65,7 +67,7 @@
 | 40  | 🐡 blowfish | 10.92 | ratot | 2024-12-15 13:26:57 |
 | 39  | 🍬 candy | 0.00 | bubinga | 2024-12-15 12:33:04 |
 | 38  | 🪱 worm | 0.06 | huuuuuuuuuuuuuuuuuuuuuurz | 2024-12-15 10:50:19 |
-| 37  | 🍄 mushroom | 9.60 | nv6y4 | 2024-12-15 10:13:32 |
+| 37  | 🍄 mushroom | 9.60 | 21h6c | 2024-12-15 10:13:32 |
 | 36  | 🥪 sandwich | 1.34 | theevirus | 2024-12-15 04:54:07 |
 | 35  | 🦭 seal | 47.76 | nndiana | 2024-12-15 04:16:02 |
 | 34  | 👒 womanshat | 11.04 | morningstar_hc | 2024-12-15 02:23:05 |
@@ -103,4 +105,4 @@
 | 2  | 🪝 hook | 1.91 | commanda_u | 2024-12-14 15:55:38 |
 | 1  | 🐚 shell | 3.49 | jukkii | 2024-12-14 15:55:11 |
 
-_Last updated at 2025-06-29 09:30:51 UTC_
+_Last updated at 2025-07-06 08:34:11 UTC_

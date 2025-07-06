@@ -17,8 +17,8 @@
 | 14  | 🪸 coral | 89.90 | blitzrailgun | 2025-06-04 07:05:23 |
 | 15  | 🦭 seal | 86.64 | pompadourdelinquent | 2025-01-26 03:04:32 |
 | 16  | 🧟 zombie | 83.97 | rainedparade | 2025-01-25 05:40:47 |
-| 17 ⬆ | 🦞 lobster | 63.72 (+4.16) | pompadourdelinquent | 2025-06-28 23:36:36 |
-| 18 ⬇ | 🛒 shoppingcart | 60.16 | rainedparade | 2025-05-02 16:58:31 |
+| 17  | 🦞 lobster | 63.72 | pompadourdelinquent | 2025-06-28 23:36:36 |
+| 18  | 🛒 shoppingcart | 60.16 | rainedparade | 2025-05-02 16:58:31 |
 | 19  | 🐟 fish | 54.83 | doggo143 | 2025-03-04 03:36:25 |
 | 20  | 🪨 rock | 47.85 | miyabwah | 2025-03-25 02:11:38 |
 | 21  | 🗡️ dagger | 44.64 | e1d2f3 | 2025-03-20 05:32:27 |
@@ -32,11 +32,11 @@
 | 29  | 🐠 tropicalfish | 21.72 | rainedparade | 2025-06-20 05:18:16 |
 | 30  | 🍄‍🟫 brownmushroom | 21.03 | goopy777 | 2025-01-14 07:15:13 |
 | 30  | 🦠 plankton | 21.03 | rainedparade | 2025-02-25 05:17:44 |
-| 32  | 🕷️ spider | 19.95 | rainedparade | 2025-01-29 09:22:19 |
-| 33  | 🥒 cucumber | 18.76 | rainedparade | 2025-05-26 19:35:02 |
-| 34  | 🍄 mushroom | 17.56 | hello0d | 2025-02-17 14:35:51 |
-| 35  | 🦦 otter | 15.72 | miyabwah | 2025-03-13 22:24:36 |
-| 36  | 🧽 sponge | 15.29 | rainedparade | 2025-06-13 02:44:39 |
+| 32 ⬆ | 🧽 sponge | 20.19 (+4.90) | pxxchy_dreams | 2025-07-03 23:36:55 |
+| 33 ⬇ | 🕷️ spider | 19.95 | rainedparade | 2025-01-29 09:22:19 |
+| 34 ⬇ | 🥒 cucumber | 18.76 | rainedparade | 2025-05-26 19:35:02 |
+| 35 ⬇ | 🍄 mushroom | 17.56 | hello0d | 2025-02-17 14:35:51 |
+| 36 ⬇ | 🦦 otter | 15.72 | miyabwah | 2025-03-13 22:24:36 |
 | 37  | 🪀 bobber | 15.21 | rainedparade | 2025-03-16 18:04:07 |
 | 38  | 🪼 jellyfish | 12.12 | e1d2f3 | 2025-05-09 01:13:37 |
 | 39  | 🐌 snail | 11.30 | rainedparade | 2025-04-06 18:41:03 |
@@ -62,20 +62,21 @@
 | 59  | 👡 sandal | 2.68 | poioce | 2025-04-07 01:37:30 |
 | 60  | 🧸 teddybear | 2.37 | rainedparade | 2025-02-28 00:29:01 |
 | 61  | 🌷 tulip | 2.36 | hello0d | 2025-03-21 18:32:56 |
-| 62 🆕 | 🧃 beveragebox | 2.05 | cptblack_ | 2025-06-27 08:48:11 |
-| 63 ⬇ | 🧦 socks | 1.97 | pompadourdelinquent | 2025-05-10 02:39:04 |
-| 64 ⬇ | 👢 boot | 1.65 | miyabwah | 2025-03-20 06:30:08 |
-| 65 ⬇ | 🥪 sandwich | 1.48 | rainedparade | 2025-05-17 18:51:56 |
-| 66 ⬇ | 🍃 leaf | 1.31 | poioce | 2025-03-27 02:26:12 |
-| 67 ⬇ | 🩴 thongsandal | 1.10 | i_xerrax | 2025-05-09 04:15:30 |
-| 68 ⬇ | 🧤 gloves | 0.95 | jellyuh | 2025-02-19 05:34:02 |
-| 69 ⬇ | 🌿 seaweed | 0.86 | rainedparade | 2025-05-16 22:37:52 |
-| 70 ⬇ | 🩰 balletshoes | 0.52 | rainedparade | 2025-01-25 04:09:12 |
-| 71 ⬇ | 🪶 feather | 0.43 | jellyuh | 2025-01-02 09:31:14 |
-| 72 ⬇ | ⛸️ iceskate | 0.33 | hello0d | 2025-01-12 16:12:14 |
-| 73 ⬇ | 🧣 scarf | 0.16 | goopy777 | 2024-12-29 00:40:05 |
-| 74 ⬇ | ☂️ umbrella | 0.11 | e1d2f3 | 2025-01-30 06:43:56 |
+| 62  | 🧃 beveragebox | 2.05 | cptblack_ | 2025-06-27 08:48:11 |
+| 63  | 🧦 socks | 1.97 | pompadourdelinquent | 2025-05-10 02:39:04 |
+| 64 🆕 | 🪻 lupine | 1.82 | poioce | 2025-07-02 09:16:59 |
+| 65 ⬇ | 👢 boot | 1.65 | miyabwah | 2025-03-20 06:30:08 |
+| 66 ⬇ | 🥪 sandwich | 1.48 | rainedparade | 2025-05-17 18:51:56 |
+| 67 ⬇ | 🍃 leaf | 1.31 | poioce | 2025-03-27 02:26:12 |
+| 68 ⬇ | 🩴 thongsandal | 1.10 | i_xerrax | 2025-05-09 04:15:30 |
+| 69 ⬇ | 🧤 gloves | 0.95 | jellyuh | 2025-02-19 05:34:02 |
+| 70 ⬇ | 🌿 seaweed | 0.86 | rainedparade | 2025-05-16 22:37:52 |
+| 71 ⬇ | 🩰 balletshoes | 0.52 | rainedparade | 2025-01-25 04:09:12 |
+| 72 ⬇ | 🪶 feather | 0.43 | jellyuh | 2025-01-02 09:31:14 |
+| 73 ⬇ | ⛸️ iceskate | 0.33 | hello0d | 2025-01-12 16:12:14 |
+| 74 ⬇ | 🧣 scarf | 0.16 | goopy777 | 2024-12-29 00:40:05 |
+| 75 ⬇ | ☂️ umbrella | 0.11 | e1d2f3 | 2025-01-30 06:43:56 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-06-29 09:29:05 UTC_
+_Last updated at 2025-07-06 08:36:20 UTC_

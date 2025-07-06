@@ -295,7 +295,7 @@
 		"rank": 30
 	},
 	"compass": {
-		"player": "nv6y4",
+		"player": "21h6c",
 		"playerid": 959,
 		"weight": 1.09,
 		"bot": "gofishgame",
@@ -335,6 +335,20 @@
 		"chatid": 63,
 		"date": "2024-12-14T21:19:26Z",
 		"rank": 26
+	},
+	"cricket": {
+		"player": "theevirus",
+		"playerid": 2187,
+		"weight": 0.05,
+		"bot": "gofishgame",
+		"fishtype": "🦗",
+		"fishname": "cricket",
+		"catchtype": "normal",
+		"chat": "wuh6",
+		"fishid": 184849,
+		"chatid": 16964,
+		"date": "2025-07-04T01:48:57Z",
+		"rank": 103
 	},
 	"crocodile": {
 		"player": "drecklo",
@@ -730,6 +744,21 @@
 		"date": "2024-12-15T18:50:38Z",
 		"rank": 44
 	},
+	"lupine": {
+		"player": "lobuhtomy",
+		"playerid": 599,
+		"verified": true,
+		"weight": 0.2,
+		"bot": "gofishgame",
+		"fishtype": "🪻",
+		"fishname": "lupine",
+		"catchtype": "normal",
+		"chat": "wuh6",
+		"fishid": 183920,
+		"chatid": 16662,
+		"date": "2025-06-30T05:38:59Z",
+		"rank": 102
+	},
 	"lure": {
 		"player": "tdillar",
 		"playerid": 742,
@@ -773,7 +802,7 @@
 		"rank": 81
 	},
 	"mushroom": {
-		"player": "nv6y4",
+		"player": "21h6c",
 		"playerid": 959,
 		"weight": 9.6,
 		"bot": "gofishgame",

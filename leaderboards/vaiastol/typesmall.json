@@ -25,7 +25,7 @@
 		"fishid": 103503,
 		"chatid": 675,
 		"date": "2024-09-25T23:23:39Z",
-		"rank": 83
+		"rank": 82
 	},
 	"athleticshoe": {
 		"player": "cyaniderx",
@@ -210,7 +210,7 @@
 		"fishid": 120361,
 		"chatid": 1945,
 		"date": "2024-11-10T18:29:03Z",
-		"rank": 75
+		"rank": 74
 	},
 	"cannedfood": {
 		"player": "nicestnarwhal",
@@ -224,7 +224,7 @@
 		"fishid": 139860,
 		"chatid": 3280,
 		"date": "2025-01-08T13:23:38Z",
-		"rank": 83
+		"rank": 82
 	},
 	"carpentrysaw": {
 		"player": "vaiastol",
@@ -296,7 +296,7 @@
 		"fishid": 114472,
 		"chatid": 1571,
 		"date": "2024-10-26T17:19:25Z",
-		"rank": 79
+		"rank": 78
 	},
 	"crab": {
 		"player": "eelacy",
@@ -414,16 +414,15 @@
 	"emptynest": {
 		"player": "vaiastol",
 		"playerid": 1135,
-		"weight": 0.08,
 		"bot": "gofishgame",
 		"fishtype": "🪹",
 		"fishname": "emptynest",
 		"catchtype": "normal",
 		"chat": "vaiastol",
-		"fishid": 155887,
-		"chatid": 5197,
-		"date": "2025-03-16T20:48:24Z",
-		"rank": 65
+		"fishid": 184548,
+		"chatid": 7909,
+		"date": "2025-07-02T18:53:36Z",
+		"rank": 94
 	},
 	"feather": {
 		"player": "garout",
@@ -437,7 +436,7 @@
 		"fishid": 147340,
 		"chatid": 4125,
 		"date": "2025-02-12T20:51:20Z",
-		"rank": 70
+		"rank": 69
 	},
 	"fish": {
 		"player": "julialuxel",
@@ -481,7 +480,7 @@
 		"fishid": 140955,
 		"chatid": 3426,
 		"date": "2025-01-12T20:37:36Z",
-		"rank": 68
+		"rank": 67
 	},
 	"gloves": {
 		"player": "vaiastol",
@@ -538,7 +537,7 @@
 		"fishid": 139968,
 		"chatid": 3301,
 		"date": "2025-01-08T21:50:10Z",
-		"rank": 75
+		"rank": 74
 	},
 	"iceskate": {
 		"player": "vaiastol",
@@ -552,7 +551,7 @@
 		"fishid": 138320,
 		"chatid": 3080,
 		"date": "2025-01-03T11:53:37Z",
-		"rank": 79
+		"rank": 78
 	},
 	"iphone": {
 		"player": "obama",
@@ -566,7 +565,7 @@
 		"fishid": 180646,
 		"chatid": 7722,
 		"date": "2025-06-21T21:52:04Z",
-		"rank": 75
+		"rank": 74
 	},
 	"jellyfish": {
 		"player": "cyaniderx",
@@ -608,7 +607,7 @@
 		"fishid": 169880,
 		"chatid": 6766,
 		"date": "2025-04-30T23:57:39Z",
-		"rank": 74
+		"rank": 73
 	},
 	"lobster": {
 		"player": "eelacy",
@@ -851,7 +850,7 @@
 		"fishid": 165886,
 		"chatid": 6279,
 		"date": "2025-04-14T05:02:31Z",
-		"rank": 83
+		"rank": 82
 	},
 	"sandal": {
 		"player": "leanmeister",
@@ -922,7 +921,7 @@
 		"fishid": 102164,
 		"chatid": 562,
 		"date": "2024-09-19T13:16:37Z",
-		"rank": 83
+		"rank": 82
 	},
 	"shamrock": {
 		"player": "eelacy",
@@ -964,7 +963,7 @@
 		"fishid": 94214,
 		"chatid": 139,
 		"date": "2024-08-07T23:21:39Z",
-		"rank": 79
+		"rank": 78
 	},
 	"shoppingcart": {
 		"player": "beebo8i",
@@ -1034,7 +1033,7 @@
 		"fishid": 169941,
 		"chatid": 6773,
 		"date": "2025-05-01T12:09:11Z",
-		"rank": 79
+		"rank": 78
 	},
 	"snake": {
 		"player": "garout",
@@ -1048,7 +1047,7 @@
 		"fishid": 162914,
 		"chatid": 6073,
 		"date": "2025-04-08T13:35:10Z",
-		"rank": 75
+		"rank": 74
 	},
 	"socks": {
 		"player": "redreignss",
@@ -1062,7 +1061,7 @@
 		"fishid": 174464,
 		"chatid": 7247,
 		"date": "2025-05-19T21:53:33Z",
-		"rank": 70
+		"rank": 69
 	},
 	"spider": {
 		"player": "redreignss",
@@ -1078,6 +1077,20 @@
 		"date": "2025-05-31T00:54:12Z",
 		"rank": 52
 	},
+	"spiderweb": {
+		"player": "vaiastol",
+		"playerid": 1135,
+		"weight": 0.02,
+		"bot": "gofishgame",
+		"fishtype": "🕸️",
+		"fishname": "spiderweb",
+		"catchtype": "normal",
+		"chat": "vaiastol",
+		"fishid": 185066,
+		"chatid": 7963,
+		"date": "2025-07-05T00:02:49Z",
+		"rank": 82
+	},
 	"sponge": {
 		"player": "jr_mime",
 		"playerid": 686,
@@ -1090,7 +1103,7 @@
 		"fishid": 93279,
 		"chatid": 66,
 		"date": "2024-08-02T17:19:54Z",
-		"rank": 70
+		"rank": 69
 	},
 	"squid": {
 		"player": "verypeppy",
@@ -1202,7 +1215,7 @@
 		"fishid": 172813,
 		"chatid": 7044,
 		"date": "2025-05-12T23:15:34Z",
-		"rank": 68
+		"rank": 67
 	},
 	"turtle": {
 		"player": "leastsussyimposter",
@@ -1287,7 +1300,7 @@
 		"fishid": 181321,
 		"chatid": 7757,
 		"date": "2025-06-23T01:25:16Z",
-		"rank": 70
+		"rank": 69
 	},
 	"womanshat": {
 		"player": "milesdotcom",

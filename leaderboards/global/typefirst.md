@@ -1,6 +1,7 @@
-### First fish per type caught globally
+### First time a fish was caught globally
 | Rank | Fish | Weight in lbs | Player | Date in UTC | Chat |
 |------|--------|-----------|---------|------|-------|
+| 113  | 🦗 cricket | 0.03 | leanmeister | 2025-07-04 00:29:09 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 112  | 🪲 beetle | 0.47 | qu4ttromila | 2025-06-25 10:39:09 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 111  | 🪁 kite | 6.08 | mazzo_tv | 2025-06-24 22:32:10 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
 | 110  | 🪻 lupine | 1.35 | ytp_dl | 2025-06-24 21:21:35 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
@@ -114,4 +115,4 @@
 | 2  | 🐸 frog | 4.76 | miiiiisho | 2022-12-04 01:04:30 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 1  | 🦐 shrimp | 29.58 | lagggm* | 2022-12-04 00:58:55 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 
-_Last updated at 2025-06-29 09:30:52 UTC_
+_Last updated at 2025-07-06 08:34:12 UTC_

@@ -52,7 +52,7 @@
 		"fishid": 183412,
 		"chatid": 344,
 		"date": "2025-06-28T10:53:00Z",
-		"rank": 51
+		"rank": 49
 	},
 	"boot": {
 		"player": "envtt",
@@ -223,17 +223,17 @@
 		"rank": 21
 	},
 	"fish": {
-		"player": "envtt",
-		"playerid": 3724,
-		"weight": 2.58,
+		"player": "e1llas",
+		"playerid": 2821,
+		"weight": 0.31,
 		"bot": "gofishgame",
 		"fishtype": "🐟",
 		"fishname": "fish",
 		"catchtype": "normal",
 		"chat": "e1llas",
-		"fishid": 183713,
-		"chatid": 346,
-		"date": "2025-06-28T18:42:04Z",
+		"fishid": 184319,
+		"chatid": 352,
+		"date": "2025-07-02T00:20:50Z",
 		"rank": 53
 	},
 	"frog": {
@@ -321,17 +321,17 @@
 		"rank": 34
 	},
 	"lizard": {
-		"player": "envtt",
-		"playerid": 3724,
-		"weight": 2.15,
+		"player": "e1llas",
+		"playerid": 2821,
+		"weight": 5.42,
 		"bot": "gofishgame",
 		"fishtype": "🦎",
 		"fishname": "lizard",
 		"catchtype": "normal",
 		"chat": "e1llas",
-		"fishid": 183488,
-		"chatid": 345,
-		"date": "2025-06-28T15:26:24Z",
+		"fishid": 184302,
+		"chatid": 351,
+		"date": "2025-07-01T22:47:03Z",
 		"rank": 52
 	},
 	"lobster": {
@@ -486,7 +486,7 @@
 		"fishid": 183375,
 		"chatid": 343,
 		"date": "2025-06-28T07:00:59Z",
-		"rank": 50
+		"rank": 48
 	},
 	"shark": {
 		"player": "d1fforr",
@@ -519,16 +519,16 @@
 	"shrimp": {
 		"player": "envtt",
 		"playerid": 3724,
-		"weight": 5.71,
+		"weight": 3.79,
 		"bot": "gofishgame",
 		"fishtype": "🦐",
 		"fishname": "shrimp",
 		"catchtype": "normal",
 		"chat": "e1llas",
-		"fishid": 182795,
-		"chatid": 337,
-		"date": "2025-06-26T12:39:29Z",
-		"rank": 48
+		"fishid": 184055,
+		"chatid": 349,
+		"date": "2025-06-30T18:42:57Z",
+		"rank": 51
 	},
 	"skull": {
 		"player": "envtt",
@@ -659,16 +659,16 @@
 	"turtle": {
 		"player": "envtt",
 		"playerid": 3724,
-		"weight": 99.02,
+		"weight": 99.52,
 		"bot": "gofishgame",
 		"fishtype": "🐢",
 		"fishname": "turtle",
 		"catchtype": "normal",
 		"chat": "e1llas",
-		"fishid": 182884,
-		"chatid": 339,
-		"date": "2025-06-26T17:19:44Z",
-		"rank": 49
+		"fishid": 184009,
+		"chatid": 348,
+		"date": "2025-06-30T15:11:35Z",
+		"rank": 50
 	},
 	"umbrella": {
 		"player": "e1llas",
