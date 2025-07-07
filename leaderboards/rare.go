@@ -214,9 +214,16 @@ func writeRare(filePath string, fishCaught map[string]BoardData, oldCountRecord 
 
 		sortedChatCounts := sortMapStringInt(ChatCounts, "nameasc")
 
+		_, _ = fmt.Fprint(file, " <details>")
+
+		_, _ = fmt.Fprint(file, " <summary>Chat data</summary>")
+
 		for _, chat := range sortedChatCounts {
 			_, _ = fmt.Fprintf(file, " %s %d ", chat, ChatCounts[chat])
 		}
+
+		_, _ = fmt.Fprint(file, " </details>")
+
 		_, _ = fmt.Fprint(file, "|")
 
 		_, err = fmt.Fprintln(file)

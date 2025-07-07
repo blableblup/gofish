@@ -323,6 +323,11 @@ func printTotalWeight(filePath string, recordWeight map[int]BoardData, oldRecord
 		_, _ = fmt.Fprintf(file, "| %s %s | %s%s | %s |", ranks, changeEmoji, player, botIndicator, totalweight)
 
 		if global {
+
+			_, _ = fmt.Fprint(file, " <details>")
+
+			_, _ = fmt.Fprint(file, " <summary>Chat data</summary>")
+
 			ChatWeightsSlice := make([]struct {
 				chat   string
 				weight float64
@@ -342,6 +347,9 @@ func printTotalWeight(filePath string, recordWeight map[int]BoardData, oldRecord
 			for _, weight := range ChatWeightsSlice {
 				_, _ = fmt.Fprintf(file, " %s %.2f ", weight.chat, weight.weight)
 			}
+
+			_, _ = fmt.Fprint(file, " </details>")
+
 			_, _ = fmt.Fprint(file, "|")
 		}
 

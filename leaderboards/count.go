@@ -329,11 +329,19 @@ func writeCount(filePath string, fishCaught map[int]BoardData, oldCountRecord ma
 
 		_, _ = fmt.Fprintf(file, "| %s %s | %s%s %s | %s |", ranks, changeEmoji, Player, botIndicator, FishName, counts)
 		if global {
+
+			_, _ = fmt.Fprint(file, " <details>")
+
+			_, _ = fmt.Fprint(file, " <summary>Chat data</summary>")
+
 			sortedChatCounts := sortMapStringInt(ChatCounts, "nameasc")
 
 			for _, chat := range sortedChatCounts {
 				_, _ = fmt.Fprintf(file, " %s %d ", chat, ChatCounts[chat])
 			}
+
+			_, _ = fmt.Fprint(file, " </details>")
+
 			_, _ = fmt.Fprint(file, "|")
 		}
 		_, err = fmt.Fprintln(file)

@@ -4,7 +4,6 @@ import (
 	"context"
 	"fmt"
 	"gofish/logs"
-	"gofish/utils"
 	"os"
 	"path/filepath"
 	"sort"
@@ -94,9 +93,6 @@ func getAverageWeights(params LeaderboardParams) (map[string]BoardData, error) {
 		}
 
 		// Query the database to get the average weight of each fish type per chat and globally
-		// Dont get it for fish you get from releases because they have no weight
-		// The three original squirrels which were caught did have a weight, for them i changed the catchtype to be "squirrelfail"
-		// But all the following squirrels dont show their weight in the catch so ignore them aswell
 		if chatName != "global" {
 			rows, err = pool.Query(context.Background(), `
 				SELECT fishname, ROUND(AVG(weight::numeric), 2)
@@ -106,6 +102,7 @@ func getAverageWeights(params LeaderboardParams) (map[string]BoardData, error) {
 				AND date > $3
 				AND catchtype != 'release'
 				AND catchtype != 'squirrel'
+				AND catchtype != 'sonnythrow'
 				GROUP BY fishname
 				`, chatName, date, date2)
 			if err != nil {
@@ -124,6 +121,7 @@ func getAverageWeights(params LeaderboardParams) (map[string]BoardData, error) {
 			AND date > $2
 			AND catchtype != 'release'
 			AND catchtype != 'squirrel'
+			AND catchtype != 'sonnythrow'
 			GROUP BY fishname
 			`, date, date2)
 			if err != nil {
@@ -274,17 +272,20 @@ func writeAverageWeight(filePath string, Weights map[string]BoardData, oldWeight
 
 		weightDifference := Weight - oldWeight
 		if weightDifference != 0 {
-			weightDifference = utils.RoundFloat(weightDifference, 2)
 			if weightDifference > 0 {
-				weights = fmt.Sprintf("%v (+%v)", Weight, weightDifference)
+				weights = fmt.Sprintf("%.2f (+%.2f)", Weight, weightDifference)
 			} else {
-				weights = fmt.Sprintf("%v (%v)", Weight, weightDifference)
+				weights = fmt.Sprintf("%.2f (%.2f)", Weight, weightDifference)
 			}
 		} else {
-			weights = fmt.Sprintf("%v", Weight)
+			weights = fmt.Sprintf("%.2f", Weight)
 		}
 
 		_, _ = fmt.Fprintf(file, "| %s %s | %s %s | %s |", ranks, changeEmoji, Emoji, FishName, weights)
+
+		_, _ = fmt.Fprint(file, " <details>")
+
+		_, _ = fmt.Fprint(file, " <summary>Chat data</summary>")
 
 		ChatWeightsSlice := make([]struct {
 			chat   string
@@ -305,6 +306,9 @@ func writeAverageWeight(filePath string, Weights map[string]BoardData, oldWeight
 		for _, weight := range ChatWeightsSlice {
 			_, _ = fmt.Fprintf(file, " %s %v ", weight.chat, weight.weight)
 		}
+
+		_, _ = fmt.Fprint(file, " </details>")
+
 		_, _ = fmt.Fprint(file, "|")
 
 		_, err = fmt.Fprintln(file)
