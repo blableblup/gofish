@@ -25,21 +25,21 @@
 		"fishid": 177260,
 		"chatid": 17,
 		"date": "2025-06-02T08:53:33Z",
-		"rank": 11
+		"rank": 9
 	},
 	"crab": {
-		"player": "naori_desu",
-		"playerid": 3774,
-		"weight": 1.23,
+		"player": "ellafy",
+		"playerid": 2863,
+		"weight": 0.89,
 		"bot": "gofishgame",
 		"fishtype": "🦀",
 		"fishname": "crab",
 		"catchtype": "normal",
 		"chat": "deme",
-		"fishid": 176979,
-		"chatid": 13,
-		"date": "2025-06-01T00:01:44Z",
-		"rank": 8
+		"fishid": 186439,
+		"chatid": 24,
+		"date": "2025-07-11T09:10:57Z",
+		"rank": 16
 	},
 	"crocodile": {
 		"player": "fantanium",
@@ -81,7 +81,7 @@
 		"fishid": 178986,
 		"chatid": 19,
 		"date": "2025-06-12T07:50:37Z",
-		"rank": 13
+		"rank": 11
 	},
 	"frog": {
 		"player": "naori_desu",
@@ -95,7 +95,7 @@
 		"fishid": 177696,
 		"chatid": 18,
 		"date": "2025-06-04T20:47:52Z",
-		"rank": 12
+		"rank": 10
 	},
 	"hook": {
 		"player": "naori_desu",
@@ -112,18 +112,18 @@
 		"rank": 3
 	},
 	"lure": {
-		"player": "aim1138",
-		"playerid": 3789,
-		"weight": 0.04,
+		"player": "ellafy",
+		"playerid": 2863,
+		"weight": 1.98,
 		"bot": "gofishgame",
 		"fishtype": "🎏",
 		"fishname": "lure",
 		"catchtype": "normal",
 		"chat": "deme",
-		"fishid": 176986,
-		"chatid": 14,
-		"date": "2025-06-01T00:43:22Z",
-		"rank": 9
+		"fishid": 186616,
+		"chatid": 25,
+		"date": "2025-07-12T02:32:12Z",
+		"rank": 17
 	},
 	"oyster": {
 		"player": "naori_desu",
@@ -151,7 +151,7 @@
 		"fishid": 179458,
 		"chatid": 21,
 		"date": "2025-06-14T10:37:55Z",
-		"rank": 15
+		"rank": 13
 	},
 	"shrimp": {
 		"player": "gofishgamer",
@@ -165,7 +165,7 @@
 		"fishid": 179728,
 		"chatid": 22,
 		"date": "2025-06-19T08:10:57Z",
-		"rank": 16
+		"rank": 14
 	},
 	"skull": {
 		"player": "naori_desu",
@@ -193,7 +193,7 @@
 		"fishid": 179999,
 		"chatid": 23,
 		"date": "2025-06-20T11:52:46Z",
-		"rank": 17
+		"rank": 15
 	},
 	"sponge": {
 		"player": "larvasisters",
@@ -207,7 +207,7 @@
 		"fishid": 179099,
 		"chatid": 20,
 		"date": "2025-06-12T19:31:22Z",
-		"rank": 14
+		"rank": 12
 	},
 	"squid": {
 		"player": "commanda_u",
@@ -235,6 +235,6 @@
 		"fishid": 177011,
 		"chatid": 16,
 		"date": "2025-06-01T05:51:00Z",
-		"rank": 10
+		"rank": 8
 	}
 }

@@ -1,33 +1,33 @@
-### Last fish per type caught in ryanpotat's chat
+### Last time a fish was caught in ryanpotat's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
-| 46  | 🐢 turtle | 20.53 | chestnutbank | 2025-06-23 11:24:55 |
-| 45  | 🌻 sunflower | 1.53 | chestnutbank | 2025-06-23 09:57:01 |
-| 44  | ☘️ shamrock | 2.07 | chestnutbank | 2025-06-23 09:04:10 |
-| 43  | 🦎 lizard | 3.28 | respirate_ | 2025-06-23 08:59:44 |
-| 42  | 🐸 frog | 1.69 | respirate_ | 2025-06-23 07:18:04 |
-| 41  | 🐟 fish | 10.25 | chestnutbank | 2025-06-23 06:30:52 |
-| 40  | 🪀 bobber | 0.11 | n1nzin_ | 2025-06-23 06:10:37 |
-| 39  | 🌿 seaweed | 0.42 | respirate_ | 2025-06-23 04:19:08 |
-| 38  | 🫙 jar | 0.02 | n1nzin_ | 2025-06-23 03:56:08 |
-| 37  | 🧵 wireline | 0.48 | respirate_ | 2025-06-23 02:30:23 |
-| 36  | 📱 iphone | 0.88 | chestnutbank | 2025-06-23 02:22:46 |
-| 35  | 🐌 snail | 0.12 | respirate_ | 2025-06-22 19:13:28 |
-| 34  | 🦐 shrimp | 1.26 | n1nzin_ | 2025-06-22 08:09:03 |
-| 33  | 🎱 8ball | 0.32 | kubo7 | 2025-06-21 10:46:42 |
-| 32  | 🐋 whale2 | 123.15 | kubo7 | 2025-06-21 09:59:30 |
-| 31  | 🦇 bat | 10.41 | chestnutbank | 2025-06-21 08:15:06 |
-| 30  | 🐚 shell | 0.14 | chestnutbank | 2025-06-19 08:13:24 |
-| 29  | 🎏 lure | 0.00 | chestnutbank | 2025-06-13 07:34:18 |
-| 28  | 🦑 squid | 56.45 | chestnutbank | 2025-06-13 07:30:38 |
-| 27  | 🪳 cockroach | 5.85 | chestnutbank | 2025-06-13 00:40:30 |
-| 26  | 🕷️ spider | 10.15 | respirate_ | 2025-06-12 05:18:55 |
-| 25  | 🦕 sauropod | 60.59 | n1nzin_ | 2025-06-06 09:40:27 |
-| 24  | 🗡️ dagger | 18.87 | n1nzin_ | 2025-05-26 13:15:35 |
-| 23  | 🪝 hook | 0.41 | n1nzin_ | 2025-02-16 15:46:59 |
-| 22  | 🐬 dolphin | 66.22 | n1nzin_ | 2025-01-17 13:33:36 |
-| 21  | 🥫 cannedfood | 1.57 | n1nzin_ | 2024-12-28 14:33:07 |
-| 20  | 🐙 octopus | 48.27 | lolspers | 2024-12-27 16:58:22 |
+| 46  | 🐙 octopus | 97.47 | chestnutbank | 2025-07-11 09:17:01 |
+| 45  | 🪀 bobber | 0.00 | chestnutbank | 2025-07-11 07:31:44 |
+| 44  | 🐢 turtle | 20.53 | chestnutbank | 2025-06-23 11:24:55 |
+| 43  | 🌻 sunflower | 1.53 | chestnutbank | 2025-06-23 09:57:01 |
+| 42  | ☘️ shamrock | 2.07 | chestnutbank | 2025-06-23 09:04:10 |
+| 41  | 🦎 lizard | 3.28 | respirate_ | 2025-06-23 08:59:44 |
+| 40  | 🐸 frog | 1.69 | respirate_ | 2025-06-23 07:18:04 |
+| 39  | 🐟 fish | 10.25 | chestnutbank | 2025-06-23 06:30:52 |
+| 38  | 🌿 seaweed | 0.42 | respirate_ | 2025-06-23 04:19:08 |
+| 37  | 🫙 jar | 0.02 | n1nzin_ | 2025-06-23 03:56:08 |
+| 36  | 🧵 wireline | 0.48 | respirate_ | 2025-06-23 02:30:23 |
+| 35  | 📱 iphone | 0.88 | chestnutbank | 2025-06-23 02:22:46 |
+| 34  | 🐌 snail | 0.12 | respirate_ | 2025-06-22 19:13:28 |
+| 33  | 🦐 shrimp | 1.26 | n1nzin_ | 2025-06-22 08:09:03 |
+| 32  | 🎱 8ball | 0.32 | kubo7 | 2025-06-21 10:46:42 |
+| 31  | 🐋 whale2 | 123.15 | kubo7 | 2025-06-21 09:59:30 |
+| 30  | 🦇 bat | 10.41 | chestnutbank | 2025-06-21 08:15:06 |
+| 29  | 🐚 shell | 0.14 | chestnutbank | 2025-06-19 08:13:24 |
+| 28  | 🎏 lure | 0.00 | chestnutbank | 2025-06-13 07:34:18 |
+| 27  | 🦑 squid | 56.45 | chestnutbank | 2025-06-13 07:30:38 |
+| 26  | 🪳 cockroach | 5.85 | chestnutbank | 2025-06-13 00:40:30 |
+| 25  | 🕷️ spider | 10.15 | respirate_ | 2025-06-12 05:18:55 |
+| 24  | 🦕 sauropod | 60.59 | n1nzin_ | 2025-06-06 09:40:27 |
+| 23  | 🗡️ dagger | 18.87 | n1nzin_ | 2025-05-26 13:15:35 |
+| 22  | 🪝 hook | 0.41 | n1nzin_ | 2025-02-16 15:46:59 |
+| 21  | 🐬 dolphin | 66.22 | n1nzin_ | 2025-01-17 13:33:36 |
+| 20  | 🥫 cannedfood | 1.57 | n1nzin_ | 2024-12-28 14:33:07 |
 | 19  | 🪺 nestwitheggs | 5.05 | lolspers | 2024-12-23 18:12:05 |
 | 18  | 👢 boot | 1.15 | n1nzin_ | 2024-12-17 16:36:52 |
 | 17  | 🧤 gloves | 0.01 | n1nzin_ | 2024-12-17 10:26:23 |
@@ -48,4 +48,4 @@
 | 2  | 🦈 shark | 110.09 | lolspers | 2024-10-28 12:05:14 |
 | 1  | 🐊 crocodile | 83.85 | respirate_ | 2024-10-02 21:06:55 |
 
-_Last updated at 2025-06-29 09:29:37 UTC_
+_Last updated at 2025-07-13 09:12:46 UTC_

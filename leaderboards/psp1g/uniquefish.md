@@ -1,19 +1,19 @@
 ### Players who have seen the most fish in psp1g's chat
 | Rank | Player | Fish Seen |
 |------|--------|-----------|
-| 1 🥇  | nndiana*  | 81 (+2) |
-| 2 🥈 ⬇ | huuuuuuuuuuuuuuuuuuuuuurz  | 79 |
+| 1 🥇  | nndiana*  | 82 (+1) |
+| 2 🥈  | huuuuuuuuuuuuuuuuuuuuuurz  | 79 |
 | 3 🥉  | bubinga  | 73 |
-| 4  | mazzo_tv  | 72 (+1) |
-| 5 ⬇ | caprisen_*  | 71 |
-| 5 ⬇ | jr_mime  | 71 |
+| 4  | mazzo_tv  | 72 |
+| 5  | caprisen_*  | 71 |
+| 5  | jr_mime  | 71 |
 | 7  | sandwichsundays*  | 70 |
 | 8  | zwockel01  | 69 |
 | 9  | lobuhtomy  | 67 |
 | 9  | pengeg  | 67 |
-| 11  | ratot  | 65 (+2) |
-| 12 ⬇ | divra__  | 63 |
-| 12 ⬇ | gorillapark  | 63 |
+| 11  | ratot  | 65 |
+| 12  | gorillapark  | 64 (+1) |
+| 13 ⬇ | divra__  | 63 |
 | 14  | angus_lpc  | 62 |
 | 14  | jemcs_  | 62 |
 | 16  | commanda_u  | 61 |
@@ -31,12 +31,12 @@
 | 27  | markenzy01  | 54 |
 | 29  | euxoa  | 53 |
 | 30  | faslker  | 52 |
-| 30 ⬆ | flovrek  | 52 (+1) |
+| 30  | flovrek  | 52 |
 | 30  | noconcept_  | 52 |
 | 30  | popfizzgg  | 52 |
 | 30  | velantix*  | 52 |
-| 35 ⬇ | qxxick_  | 51 |
-| 35 ⬇ | wisdom_frog  | 51 |
+| 35  | qxxick_  | 51 |
+| 35  | wisdom_frog  | 51 |
 | 37  | bartohehe  | 50 |
 | 37  | seryxx  | 50 |
 
@@ -44,4 +44,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2025-07-06 08:35:24 UTC_
+_Last updated at 2025-07-13 09:12:45 UTC_

@@ -36,12 +36,12 @@
 | 33  | 🐡 blowfish | 26.96 | lolspers | 2025-06-28 19:50:29 |
 | 34  | 🦀 crab | 26.46 | spanmer | 2024-10-24 18:42:15 |
 | 35  | 🪳 cockroach | 25.73 | lolspers | 2024-12-03 18:51:45 |
-| 36 ⬆ | 🥒 cucumber | 24.43 (+4.39) | buhl00n | 2025-07-01 07:51:41 |
-| 37 ⬇ | 🪼 jellyfish | 21.72 | dizzy | 2024-10-23 12:11:29 |
-| 38 ⬇ | 🐠 tropicalfish | 21.64 | lolspers | 2024-11-18 16:47:19 |
-| 39 ⬇ | 🦠 plankton | 21.57 | burnend | 2024-11-09 02:19:31 |
-| 40 ⬇ | 🎰 slotmachine | 20.68 | gimmeschmoneys | 2024-11-10 22:16:40 |
-| 41 ⬇ | 🍄‍🟫 brownmushroom | 20.04 | buhl00n | 2025-01-05 17:28:41 |
+| 36  | 🥒 cucumber | 24.43 | buhl00n | 2025-07-01 07:51:41 |
+| 37 ⬆ | 🐠 tropicalfish | 21.77 (+0.13) | aceleju | 2025-07-08 08:01:59 |
+| 38 ⬇ | 🪼 jellyfish | 21.72 | dizzy | 2024-10-23 12:11:29 |
+| 39  | 🦠 plankton | 21.57 | burnend | 2024-11-09 02:19:31 |
+| 40  | 🎰 slotmachine | 20.68 | gimmeschmoneys | 2024-11-10 22:16:40 |
+| 41  | 🍄‍🟫 brownmushroom | 20.04 | buhl00n | 2025-01-05 17:28:41 |
 | 42  | 🦦 otter | 19.83 | ben_vincent | 2024-11-28 08:01:59 |
 | 43  | 🧭 compass | 19.24 | buhl00n | 2024-12-23 17:27:11 |
 | 44  | 🍄 mushroom | 17.90 | skixxmm | 2024-10-31 17:30:00 |
@@ -96,4 +96,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-07-06 08:35:41 UTC_
+_Last updated at 2025-07-13 09:14:35 UTC_

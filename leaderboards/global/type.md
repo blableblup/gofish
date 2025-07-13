@@ -4,8 +4,8 @@
 | 1 🥇  | 🦑 squid | 311.04 | eeziiii | 2024-12-25 06:20:38 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png) |
 | 2 🥈  | 🐳 whale | 303.81 | qu4ttromila | 2023-03-17 23:18:19 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 3 🥉  | 🐻‍❄ polarbear | 294.19 | mangos4u | 2025-03-25 15:07:02 | ![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png) |
-| 4 ⬆ | 🦕 sauropod | 293.25 (+7.16) | destin357 | 2025-07-04 04:02:27 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
-| 5 ⬇ | 🦈 shark | 288.27 | miiiiisho | 2024-02-01 22:00:13 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 4  | 🦕 sauropod | 293.25 | destin357 | 2025-07-04 04:02:27 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 5  | 🦈 shark | 288.27 | miiiiisho | 2024-02-01 22:00:13 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 6  | 🐉 dragon | 284.61 | sandwichsundays | 2024-05-27 23:48:53 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
 | 7  | 🫎 moose | 278.16 | fvkdylan | 2025-04-27 13:58:41 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 8  | 🐍 snake | 271.95 | miiiiisho | 2024-01-09 01:20:50 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
@@ -64,10 +64,10 @@
 | 61  | 🧥 coat | 11.62 | derinturitierutz | 2025-03-25 12:20:39 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 62  | 🪹 emptynest | 10.99 | fvkdylan | 2025-03-15 04:16:42 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 63  | 🪺 nestwitheggs | 10.98 | hahppyy | 2024-09-26 18:59:03 | ![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png) |
-| 64  | 💀 skull | 10.89 | 21h6c | 2024-10-12 08:17:27 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
-| 65  | 🦎 lizard | 10.84 | bosscrazymen | 2023-12-17 18:48:58 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
-| 66 ⬆ | 🩲 briefs | 10.69 (+0.01) | dougiefresh_83 | 2025-07-04 00:57:58 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
-| 66  | 🪁 kite | 10.69 | lobuhtomy | 2025-06-27 14:43:50 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png) |
+| 64 ⬆ | 🩲 briefs | 10.94 (+0.25) | derintu | 2025-07-10 13:16:26 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 65 ⬇ | 💀 skull | 10.89 | 21h6c | 2024-10-12 08:17:27 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
+| 66 ⬇ | 🦎 lizard | 10.84 | bosscrazymen | 2023-12-17 18:48:58 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
+| 67 ⬇ | 🪁 kite | 10.69 | lobuhtomy | 2025-06-27 14:43:50 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png) |
 | 68  | 🫙 jar | 8.81 | mangos4u | 2025-06-21 02:29:53 | ![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png) |
 | 69  | 🧵 wireline | 6.00 | ocrw | 2024-06-20 15:30:46 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
 | 70  | 🥫 cannedfood | 5.98 | leanmeister | 2025-01-07 20:29:27 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
@@ -96,7 +96,7 @@
 | 89  | 🍃 leaf | 2.00 | gimmeschmoneys | 2025-05-10 11:10:39 | ![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png) |
 | 89  | 🧦 socks | 2.00 | osnyatsky* | 2023-01-31 01:42:33 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 95  | 🌿 seaweed | 1.99 | angus_lpc | 2024-06-30 11:26:57 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
-| 96  | 🪻 lupine | 1.95 | buhl00n | 2025-06-27 10:37:31 | ![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png) |
+| 96  | 🪻 lupine | 1.98 (+0.03) | ytp_dl | 2025-07-10 15:36:58 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 97  | 🐝 bee | 1.27 | mangos4u | 2025-06-23 22:34:30 | ![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png) |
 | 98  | 🫐 bilberries | 1.06 | v6r_ | 2025-06-26 01:31:42 | ![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png) |
 | 99  | 🪶 feather | 1.00 | shadowraider247 | 2024-09-15 13:12:58 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png) |
@@ -113,8 +113,8 @@
 | 110  | 🪰 fly | 0.27 | fvkdylan | 2025-06-22 09:13:07 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 111  | 🦋 butterfly | 0.18 | destin357 | 2025-06-24 10:01:52 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 112  | 🕸️ spiderweb | 0.10 | larvasisters | 2025-06-22 16:54:56 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
-| 113 🆕 | 🦗 cricket | 0.05 | theevirus | 2025-07-04 01:48:57 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png) |
+| 113  | 🦗 cricket | 0.05 | theevirus | 2025-07-04 01:48:57 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png) |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-07-06 08:35:35 UTC_
+_Last updated at 2025-07-13 09:14:14 UTC_

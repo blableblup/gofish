@@ -1,29 +1,29 @@
 ### Most fish caught in vaiastol's chat
 | Rank | Player | Fish Caught |
 |------|--------|-----------|
-| 1 🥇  | vaiastol  | 2150 (+42) |
-| 2 🥈  | hahppyy  | 1255 (+15) |
-| 3 🥉  | eelacy  | 654 |
-| 4  | divra__  | 616 (+1) |
-| 5  | leanmeister  | 504 (+2) |
+| 1 🥇  | vaiastol  | 2175 (+25) |
+| 2 🥈  | hahppyy  | 1265 (+10) |
+| 3 🥉  | eelacy  | 657 (+3) |
+| 4  | divra__  | 621 (+5) |
+| 5  | leanmeister  | 505 (+1) |
 | 6  | nicestnarwhal  | 483 |
-| 7  | leastsussyimposter  | 427 (+22) |
-| 8  | garout  | 266 (+23) |
+| 7  | leastsussyimposter  | 433 (+6) |
+| 8  | garout  | 304 (+38) |
 | 9  | dayzedinndaydreams  | 239 |
 | 10  | pengeg  | 237 |
 | 11  | milesdotcom  | 137 |
-| 12  | beebo8i  | 120 |
-| 13  | yoimlee  | 109 (+1) |
-| 14  | julialuxel  | 100 (+2) |
-| 15 ⬆ | redreignss  | 88 (+15) |
-| 16 ⬇ | tiaguitos97  | 79 |
+| 12 ⬆ | redreignss  | 122 (+34) |
+| 13 ⬇ | beebo8i  | 120 |
+| 14 ⬇ | yoimlee  | 111 (+2) |
+| 15 ⬇ | julialuxel  | 102 (+2) |
+| 16  | tiaguitos97  | 80 (+1) |
 | 17  | bubinga  | 55 |
 | 18  | rird_  | 45 |
 | 19  | fvkdylan  | 42 |
-| 20  | obama  | 41 (+1) |
+| 19 ⬆ | obama  | 42 (+1) |
 | 21  | larvasisters  | 35 |
 | 22  | houseofleaves*  | 27 |
-| 23  | yespere  | 21 (+2) |
+| 23  | yespere  | 22 (+1) |
 | 24  | cyaniderx  | 17 |
 | 24  | devroyalty  | 17 |
 | 24  | jr_mime  | 17 |
@@ -38,4 +38,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-07-06 08:34:03 UTC_
+_Last updated at 2025-07-13 09:15:12 UTC_

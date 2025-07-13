@@ -17,14 +17,15 @@
 | 14  | maavva | 🦑 squid | 77.36 | 2025-03-21 04:58:54 |
 | 15  | jellyuh | 🐋 whale2 | 73.64 | 2025-04-27 06:02:58 |
 | 16  | wombatbrownies | 🐬 dolphin | 73.13 | 2025-04-17 03:04:00 |
-| 17  | fadingmemoriez | 🐙 octopus | 63.24 | 2025-01-02 07:08:13 |
-| 18  | deitydg | 🦑 squid | 62.57 | 2025-03-19 05:56:02 |
-| 19  | gamingwithmicah_ | 🐢 turtle | 61.58 | 2025-04-04 04:22:31 |
-| 20  | pxxchy_dreams | 🐳 whale | 58.93 | 2025-02-25 05:10:34 |
-| 21 🆕 | cerealapii | 🐙 octopus | 57.03 | 2025-07-02 02:07:16 |
-| 22 ⬇ | doggo143 | 🐟 fish | 54.83 | 2025-03-04 03:36:25 |
-| 23 ⬇ | embuhli | 🦞 lobster | 52.07 | 2025-04-22 04:24:18 |
+| 17 🆕 | yaykaiza | 🐳 whale | 70.58 | 2025-07-08 21:11:45 |
+| 18 ⬇ | fadingmemoriez | 🐙 octopus | 63.24 | 2025-01-02 07:08:13 |
+| 19 ⬇ | deitydg | 🦑 squid | 62.57 | 2025-03-19 05:56:02 |
+| 20 ⬇ | gamingwithmicah_ | 🐢 turtle | 61.58 | 2025-04-04 04:22:31 |
+| 21 ⬇ | pxxchy_dreams | 🐳 whale | 58.93 | 2025-02-25 05:10:34 |
+| 22 ⬇ | cerealapii | 🐙 octopus | 57.03 | 2025-07-02 02:07:16 |
+| 23 ⬇ | doggo143 | 🐟 fish | 54.83 | 2025-03-04 03:36:25 |
+| 24 ⬇ | embuhli | 🦞 lobster | 52.07 | 2025-04-22 04:24:18 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2025-07-06 08:34:10 UTC_
+_Last updated at 2025-07-13 09:15:16 UTC_

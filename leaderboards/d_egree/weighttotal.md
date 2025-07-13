@@ -3,8 +3,8 @@
 |------|--------|---------|
 | 1 🥇  | koromadeno_shogun | 2583.41 |
 | 2 🥈  | benni900* | 1727.18 |
-| 3 🥉  | mitgliederversammlung | 228.03 (+0.80) |
+| 3 🥉  | mitgliederversammlung | 228.03 |
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2025-07-06 08:36:38 UTC_
+_Last updated at 2025-07-13 09:15:17 UTC_

@@ -5,15 +5,15 @@
 | 2 🥈  | theevirus | 🦑 squid | 310.88 | 2025-01-12 16:16:12 |
 | 3 🥉  | bubinga | 🐳 whale | 295.52 | 2025-04-23 00:43:50 |
 | 4  | iflya320 | 🦑 squid | 291.50 | 2025-03-03 18:21:59 |
-| 5 ⬆ | lobuhtomy | 🦕 sauropod | 291.29 (+38.76) | 2025-07-02 09:16:35 |
-| 6 ⬇ | nndiana | 🦑 squid | 285.48 | 2024-12-28 02:37:19 |
-| 7 ⬇ | bluberry | 🐳 whale | 285.14 | 2025-04-14 17:16:48 |
-| 8 ⬇ | gorillapark | 🦑 squid | 281.65 | 2025-03-03 20:31:27 |
-| 9 ⬇ | huuuuuuuuuuuuuuuuuuuuuurz | 🐉 dragon | 281.30 | 2025-03-10 06:15:06 |
-| 10 ⬇ | sandwichsundays | 🦕 sauropod | 271.44 | 2025-01-03 06:42:24 |
-| 11 ⬇ | teddbearcs | 🐳 whale | 271.14 | 2025-01-03 16:31:20 |
-| 12 ⬇ | veny2lbs | 🐉 dragon | 267.37 | 2025-06-05 08:11:58 |
-| 13 ⬇ | mazzo_tv | 🦑 squid | 253.17 | 2025-01-15 22:25:34 |
+| 5  | lobuhtomy | 🦕 sauropod | 291.29 | 2025-07-02 09:16:35 |
+| 6  | nndiana | 🦑 squid | 285.48 | 2024-12-28 02:37:19 |
+| 7  | bluberry | 🐳 whale | 285.14 | 2025-04-14 17:16:48 |
+| 8  | gorillapark | 🦑 squid | 281.65 | 2025-03-03 20:31:27 |
+| 9  | huuuuuuuuuuuuuuuuuuuuuurz | 🐉 dragon | 281.30 | 2025-03-10 06:15:06 |
+| 10 ⬆ | veny2lbs | 🦕 sauropod | 276.08 (+8.71) | 2025-07-06 18:30:29 |
+| 11 ⬇ | sandwichsundays | 🦕 sauropod | 271.44 | 2025-01-03 06:42:24 |
+| 12 ⬇ | teddbearcs | 🐳 whale | 271.14 | 2025-01-03 16:31:20 |
+| 13  | mazzo_tv | 🦑 squid | 253.17 | 2025-01-15 22:25:34 |
 | 14  | tdillar | 🦑 squid | 250.19 | 2025-01-10 04:31:34 |
 | 15  | wowitsdub | 🫎 moose | 246.84 | 2025-03-26 10:46:39 |
 | 16  | caprisen_ | 🦑 squid | 246.59 | 2025-01-09 06:18:03 |
@@ -61,4 +61,4 @@
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2025-07-06 08:34:10 UTC_
+_Last updated at 2025-07-13 09:15:15 UTC_

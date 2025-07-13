@@ -8,11 +8,12 @@
 | 5  | respirate_ | 🐉 dragon | 239.97 | 2024-09-12 06:28:16 |
 | 6  | aliveleader | 🐉 dragon | 220.29 | 2024-08-09 13:02:52 |
 | 7  | sykelle | 🦈 shark | 210.87 | 2024-08-11 08:52:09 |
-| 8  | xddjenny | 🐬 dolphin | 96.16 | 2024-10-21 20:37:15 |
-| 9 ⬆ | gofishgamer | 🐢 turtle | 88.27 (+13.44) | 2025-06-12 03:01:47 |
-| 10 ⬇ | sussy_amonge | 🦑 squid | 83.19 | 2024-09-08 03:21:13 |
-| 11  | templart1 | 🐊 crocodile | 52.52 | 2024-09-10 18:38:07 |
+| 8 🆕 | chestnutbank | 🐢 turtle | 98.39 | 2025-07-08 02:42:26 |
+| 9 ⬇ | xddjenny | 🐬 dolphin | 96.16 | 2024-10-21 20:37:15 |
+| 10 ⬇ | gofishgamer | 🐢 turtle | 88.27 | 2025-06-12 03:01:47 |
+| 11 ⬇ | sussy_amonge | 🦑 squid | 83.19 | 2024-09-08 03:21:13 |
+| 12 ⬇ | templart1 | 🐊 crocodile | 52.52 | 2024-09-10 18:38:07 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2025-06-15 13:38:39 UTC_
+_Last updated at 2025-07-13 09:15:16 UTC_

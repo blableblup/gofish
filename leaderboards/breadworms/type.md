@@ -3,8 +3,8 @@
 |------|--------|-----------|---------|------|
 | 1 🥇  | 🦑 squid | 308.86 | lluuucy | 2024-12-24 02:34:50 |
 | 2 🥈  | 🐳 whale | 303.81 | qu4ttromila | 2023-03-17 23:18:19 |
-| 3 🥉 ⬆ | 🦕 sauropod | 293.25 (+7.16) | destin357 | 2025-07-04 04:02:27 |
-| 4 ⬇ | 🦈 shark | 288.27 | miiiiisho | 2024-02-01 22:00:13 |
+| 3 🥉  | 🦕 sauropod | 293.25 | destin357 | 2025-07-04 04:02:27 |
+| 4  | 🦈 shark | 288.27 | miiiiisho | 2024-02-01 22:00:13 |
 | 5  | 🐉 dragon | 284.43 | c_mgirl | 2024-12-10 21:13:14 |
 | 6  | 🫎 moose | 278.16 | fvkdylan | 2025-04-27 13:58:41 |
 | 7  | 🐻‍❄ polarbear | 272.28 | larvasisters | 2025-01-02 19:01:21 |
@@ -63,11 +63,11 @@
 | 60  | 👒 womanshat | 11.85 | sussy_amonge | 2023-08-23 21:47:21 |
 | 61  | 🧥 coat | 11.62 | derinturitierutz | 2025-03-25 12:20:39 |
 | 62  | 🪹 emptynest | 10.99 | fvkdylan | 2025-03-15 04:16:42 |
-| 63  | 🪺 nestwitheggs | 10.84 | osnyatsky | 2024-03-30 13:50:46 |
-| 64 ⬆ | 🩲 briefs | 10.69 (+0.26) | dougiefresh_83 | 2025-07-04 00:57:58 |
-| 65 ⬇ | 🦎 lizard | 10.61 | sussy_amonge | 2023-06-04 08:16:33 |
-| 66 ⬆ | 🪁 kite | 10.40 (+1.47) | larvasisters | 2025-06-30 14:44:29 |
-| 67 ⬇ | 💀 skull | 9.98 | bussinongnocap | 2023-05-14 05:29:15 |
+| 63 ⬆ | 🩲 briefs | 10.94 (+0.25) | derintu | 2025-07-10 13:16:26 |
+| 64 ⬇ | 🪺 nestwitheggs | 10.84 | osnyatsky | 2024-03-30 13:50:46 |
+| 65  | 🦎 lizard | 10.61 | sussy_amonge | 2023-06-04 08:16:33 |
+| 66  | 🪁 kite | 10.40 | larvasisters | 2025-06-30 14:44:29 |
+| 67  | 💀 skull | 9.98 | bussinongnocap | 2023-05-14 05:29:15 |
 | 68  | 🥫 cannedfood | 5.98 | leanmeister | 2025-01-07 20:29:27 |
 | 69  | 🧵 wireline | 5.95 | ninjaross | 2025-03-15 11:04:57 |
 | 70  | 🐚 shell | 5.92 | c_mgirl | 2025-04-01 04:02:00 |
@@ -84,7 +84,7 @@
 | 80  | 🥀 wiltedflower | 2.97 | c_mgirl | 2024-12-19 20:15:08 |
 | 82  | 🌹 rose | 2.96 | osnyatsky | 2024-03-28 12:12:36 |
 | 82  | 🥪 sandwich | 2.96 | qu4ttromila | 2023-05-29 08:10:17 |
-| 84  | 🌷 tulip | 2.85 | invfierno | 2025-04-26 01:03:44 |
+| 84  | 🌷 tulip | 2.85 | faeritual | 2025-04-26 01:03:44 |
 | 85  | 🌻 sunflower | 2.78 | fishingalt | 2024-06-18 10:20:11 |
 | 86  | 🍬 candy | 2.60 | 5c33* | 2022-12-19 03:20:33 |
 | 87  | 👟 athleticshoe | 2.00 | kishma9 | 2023-11-05 02:37:53 |
@@ -93,9 +93,9 @@
 | 90  | 🩰 balletshoes | 1.99 | qu4ttromila | 2024-04-19 07:41:11 |
 | 90  | ⛸️ iceskate | 1.99 | derinturitierutz | 2024-12-23 15:56:24 |
 | 92  | 👢 boot | 1.98 | derinturitierutz | 2023-12-30 12:35:00 |
-| 93  | 🍃 leaf | 1.97 | destin357 | 2025-04-04 08:54:35 |
-| 94  | 🌿 seaweed | 1.96 | dayzedinndaydreams | 2024-03-28 09:38:13 |
-| 95  | 🪻 lupine | 1.67 | derinturitierutz | 2025-06-26 14:06:27 |
+| 92 ⬆ | 🪻 lupine | 1.98 (+0.31) | ytp_dl | 2025-07-10 15:36:58 |
+| 94 ⬇ | 🍃 leaf | 1.97 | destin357 | 2025-04-04 08:54:35 |
+| 95 ⬇ | 🌿 seaweed | 1.96 | dayzedinndaydreams | 2024-03-28 09:38:13 |
 | 96  | 🐝 bee | 1.25 | lluuucy | 2025-06-24 11:19:51 |
 | 97  | 🍁 mapleleaf | 1.00 | fishingalt | 2024-09-28 20:29:04 |
 | 98  | 🪶 feather | 0.99 | osnyatsky* | 2023-08-24 01:31:11 |
@@ -109,11 +109,11 @@
 | 106  | 🪲 beetle | 0.47 | qu4ttromila | 2025-06-25 10:39:09 |
 | 107  | 🐜 ant | 0.33 | derintu | 2025-06-25 11:16:14 |
 | 108  | 🪰 fly | 0.27 | fvkdylan | 2025-06-22 09:13:07 |
-| 109  | 🦋 butterfly | 0.18 | destin357 | 2025-06-24 10:01:52 |
-| 110  | 🕸️ spiderweb | 0.10 | larvasisters | 2025-06-22 16:54:56 |
-| 111 🆕 | 🦗 cricket | 0.03 | leanmeister | 2025-07-04 00:29:09 |
-| 112 ⬇ | 🫐 bilberries | 0.01 | larvasisters | 2025-06-22 00:11:05 |
+| 109 ⬆ | 🫐 bilberries | 0.21 (+0.20) | respirate_ | 2025-07-11 04:22:15 |
+| 110 ⬇ | 🦋 butterfly | 0.18 | destin357 | 2025-06-24 10:01:52 |
+| 111 ⬇ | 🕸️ spiderweb | 0.10 | larvasisters | 2025-06-22 16:54:56 |
+| 112 ⬇ | 🦗 cricket | 0.03 | leanmeister | 2025-07-04 00:29:09 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-07-06 08:35:49 UTC_
+_Last updated at 2025-07-13 09:14:59 UTC_

@@ -39,7 +39,7 @@
 		"fishid": 150950,
 		"chatid": 36,
 		"date": "2025-01-02T07:08:13Z",
-		"rank": 17
+		"rank": 18
 	},
 	"3581": {
 		"player": "jellyuh",
@@ -137,7 +137,7 @@
 		"fishid": 151568,
 		"chatid": 391,
 		"date": "2025-02-25T05:10:34Z",
-		"rank": 20
+		"rank": 21
 	},
 	"3607": {
 		"player": "rainedparade",
@@ -207,7 +207,7 @@
 		"fishid": 152210,
 		"chatid": 513,
 		"date": "2025-03-04T03:36:25Z",
-		"rank": 22
+		"rank": 23
 	},
 	"3631": {
 		"player": "rileygud",
@@ -235,7 +235,7 @@
 		"fishid": 167745,
 		"chatid": 1113,
 		"date": "2025-04-22T04:24:18Z",
-		"rank": 23
+		"rank": 24
 	},
 	"3634": {
 		"player": "blitzrailgun",
@@ -291,7 +291,7 @@
 		"fishid": 156765,
 		"chatid": 788,
 		"date": "2025-03-19T05:56:02Z",
-		"rank": 18
+		"rank": 19
 	},
 	"3646": {
 		"player": "gamingwithmicah_",
@@ -305,7 +305,7 @@
 		"fishid": 161790,
 		"chatid": 985,
 		"date": "2025-04-04T04:22:31Z",
-		"rank": 19
+		"rank": 20
 	},
 	"3793": {
 		"player": "cerealapii",
@@ -319,6 +319,20 @@
 		"fishid": 184334,
 		"chatid": 1529,
 		"date": "2025-07-02T02:07:16Z",
-		"rank": 21
+		"rank": 22
+	},
+	"3804": {
+		"player": "yaykaiza",
+		"playerid": 3804,
+		"weight": 70.58,
+		"bot": "gofishgame",
+		"fishtype": "🐳",
+		"fishname": "whale",
+		"catchtype": "normal",
+		"chat": "jellyuh",
+		"fishid": 185924,
+		"chatid": 1567,
+		"date": "2025-07-08T21:11:45Z",
+		"rank": 17
 	}
 }

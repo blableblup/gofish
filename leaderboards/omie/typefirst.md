@@ -1,6 +1,8 @@
-### First fish per type caught in omie's chat
+### First time a fish was caught in omie's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 95  | 🪻 lupine | 1.55 | gofishgamer | 2025-07-09 01:36:40 |
+| 94  | 🪁 kite | 4.69 | gofishgamer | 2025-07-08 21:03:59 |
 | 93  | 🫐 bilberries | 1.06 | v6r_ | 2025-06-26 01:31:42 |
 | 92  | 🐝 bee | 1.27 | mangos4u | 2025-06-23 22:34:30 |
 | 91  | 🪰 fly | 0.16 | gofishgamer | 2025-06-23 20:20:06 |
@@ -95,4 +97,4 @@
 | 2  | 🐡 blowfish | 15.39 | ritaaww | 2024-08-03 21:47:08 |
 | 1  | 🦞 lobster | 28.99 | aliveleader | 2024-08-03 21:45:17 |
 
-_Last updated at 2025-06-29 09:30:51 UTC_
+_Last updated at 2025-07-13 09:15:15 UTC_

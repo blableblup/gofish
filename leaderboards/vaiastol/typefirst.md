@@ -1,6 +1,8 @@
 ### First time a fish was caught in vaiastol's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 98  | 🪁 kite | 3.47 | redreignss | 2025-07-09 14:49:09 |
+| 97  | 🪻 lupine | 1.90 | redreignss | 2025-07-09 13:30:55 |
 | 96  | 🕸️ spiderweb | 0.02 | vaiastol | 2025-07-05 00:02:49 |
 | 95  | 🪰 fly | 0.10 | hahppyy | 2025-06-25 08:02:09 |
 | 94  | 🐛 caterpillar | 0.42 | leanmeister | 2025-06-22 19:10:14 |
@@ -98,4 +100,4 @@
 | 2  | 🦀 crab | 2.81 | jr_mime | 2024-07-28 10:52:00 |
 | 1  | 🐸 frog | 1.70 | mitgliederversammlung | 2024-07-28 00:20:07 |
 
-_Last updated at 2025-07-06 08:34:12 UTC_
+_Last updated at 2025-07-13 09:15:14 UTC_

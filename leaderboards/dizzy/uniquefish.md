@@ -2,8 +2,8 @@
 | Rank | Player | Fish Seen |
 |------|--------|-----------|
 | 1 🥇  | buhl00n  | 82 |
-| 2 🥈  | iam_glorp  | 75 (+1) |
-| 3 🥉  | gimmeschmoneys  | 64 (+1) |
+| 2 🥈  | iam_glorp  | 75 |
+| 3 🥉  | gimmeschmoneys  | 64 |
 | 4  | ben_vincent  | 60 |
 | 5  | iam_haunt  | 58 |
 | 6  | lolspers  | 57 |
@@ -11,17 +11,17 @@
 | 8  | konsminator  | 49 |
 | 9  | spanmer  | 48 |
 | 10  | hamoodhabibee  | 47 |
+| 11 ⬆ | simplydrack  | 45 (+3) |
 | 11  | vagdi  | 45 |
-| 12  | notnownico  | 44 |
-| 12  | rabituwu  | 44 |
-| 14  | tairaaaaa  | 43 |
-| 15  | simplydrack  | 42 |
+| 13 ⬇ | notnownico  | 44 |
+| 13 ⬇ | rabituwu  | 44 |
+| 15 ⬇ | tairaaaaa  | 43 |
 | 16  | ssenario  | 40 |
 | 16  | sugur  | 40 |
 | 18  | exo9*  | 39 |
-| 19  | burnend  | 38 |
-| 19 ⬆ | kyonuwu  | 38 (+1) |
-| 21  | aceleju  | 36 |
+| 18 ⬆ | kyonuwu  | 39 (+1) |
+| 20 ⬇ | burnend  | 38 |
+| 21  | aceleju  | 37 (+1) |
 | 22  | lilzomme  | 35 |
 | 22  | mousee93  | 35 |
 | 24  | kukkuri  | 34 |
@@ -52,4 +52,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2025-07-06 08:35:24 UTC_
+_Last updated at 2025-07-13 09:12:44 UTC_

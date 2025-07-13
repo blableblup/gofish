@@ -25,7 +25,7 @@
 		"fishid": 172638,
 		"chatid": 2,
 		"date": "2025-05-12T07:45:38Z",
-		"rank": 22
+		"rank": 24
 	},
 	"172739": {
 		"player": "fantanium",
@@ -165,7 +165,7 @@
 		"fishid": 176915,
 		"chatid": 12,
 		"date": "2025-05-31T10:40:40Z",
-		"rank": 18
+		"rank": 19
 	},
 	"176979": {
 		"player": "naori_desu",
@@ -179,7 +179,7 @@
 		"fishid": 176979,
 		"chatid": 13,
 		"date": "2025-06-01T00:01:44Z",
-		"rank": 20
+		"rank": 21
 	},
 	"176986": {
 		"player": "aim1138",
@@ -193,7 +193,7 @@
 		"fishid": 176986,
 		"chatid": 14,
 		"date": "2025-06-01T00:43:22Z",
-		"rank": 23
+		"rank": 25
 	},
 	"176996": {
 		"player": "aim1138",
@@ -291,7 +291,7 @@
 		"fishid": 179458,
 		"chatid": 21,
 		"date": "2025-06-14T10:37:55Z",
-		"rank": 21
+		"rank": 23
 	},
 	"179728": {
 		"player": "gofishgamer",
@@ -319,6 +319,34 @@
 		"fishid": 179999,
 		"chatid": 23,
 		"date": "2025-06-20T11:52:46Z",
-		"rank": 19
+		"rank": 20
+	},
+	"186439": {
+		"player": "ellafy",
+		"playerid": 2863,
+		"weight": 0.89,
+		"bot": "gofishgame",
+		"fishtype": "🦀",
+		"fishname": "crab",
+		"catchtype": "normal",
+		"chat": "deme",
+		"fishid": 186439,
+		"chatid": 24,
+		"date": "2025-07-11T09:10:57Z",
+		"rank": 22
+	},
+	"186616": {
+		"player": "ellafy",
+		"playerid": 2863,
+		"weight": 1.98,
+		"bot": "gofishgame",
+		"fishtype": "🎏",
+		"fishname": "lure",
+		"catchtype": "normal",
+		"chat": "deme",
+		"fishid": 186616,
+		"chatid": 25,
+		"date": "2025-07-12T02:32:12Z",
+		"rank": 18
 	}
 }
