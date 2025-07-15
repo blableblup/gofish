@@ -10,6 +10,10 @@
 				{
 					"url": "https://logs.potat.app",
 					"logs_added": "2024/7"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2025/6"
 				}
 			],
 			"checkfdata": true,
@@ -17,7 +21,17 @@
 		},
 		"aaurie": {
 			"twitchid": "222788698",
-			"checkfdata": false,
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2025/7"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2025/7"
+				}
+			],
+			"checkfdata": true,
 			"board_enabled": false
 		},
 		"ajspyman": {
@@ -42,6 +56,10 @@
 				{
 					"url": "https://logs.susgee.dev",
 					"logs_added": "2024/5"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2025/6"
 				}
 			],
 			"checkfdata": true,
@@ -57,6 +75,10 @@
 				{
 					"url": "https://logs.spanix.team",
 					"logs_added": "2024/12"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2025/6"
 				}
 			],
 			"fishweek_limit": 10,
@@ -77,6 +99,10 @@
 				{
 					"url": "https://logs.potat.app",
 					"logs_added": "2025/1"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "no logs added found"
 				}
 			],
 			"checkfdata": true,
@@ -109,6 +135,10 @@
 				{
 					"url": "https://logs.supa.codes",
 					"logs_added": "2024/5"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2025/6"
 				}
 			],
 			"weighttotal_limit": 1800,
@@ -126,6 +156,10 @@
 				{
 					"url": "https://logs.spanix.team",
 					"logs_added": "2025/1"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2025/6"
 				}
 			],
 			"fishweek_limit": 10,
@@ -146,6 +180,10 @@
 				{
 					"url": "https://logs.spanix.team",
 					"logs_added": "2024/5"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2025/6"
 				}
 			],
 			"fishweek_limit": 10,
@@ -194,6 +232,10 @@
 				{
 					"url": "https://logs.potat.app",
 					"logs_added": "2025/5"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2025/6"
 				}
 			],
 			"fishweek_limit": 10,
@@ -222,6 +264,10 @@
 				{
 					"url": "https://logs.jimmyboy.dev",
 					"logs_added": "2025/6"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2025/6"
 				}
 			],
 			"checkfdata": true,
@@ -245,6 +291,10 @@
 				{
 					"url": "https://logs.jimmyboy.dev",
 					"logs_added": "2025/2"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2025/6"
 				}
 			],
 			"fishweek_limit": 20,
@@ -269,6 +319,10 @@
 				{
 					"url": "https://logs.susgee.dev",
 					"logs_added": "2025/1"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2025/6"
 				}
 			],
 			"fishweek_limit": 10,
@@ -290,6 +344,10 @@
 				{
 					"url": "https://logs.spanix.team",
 					"logs_added": "2024/9"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "no logs added found"
 				}
 			],
 			"checkfdata": true,
@@ -310,6 +368,10 @@
 				{
 					"url": "https://logs.spanix.team",
 					"logs_added": "no logs added found"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "no logs added found"
 				}
 			],
 			"checkfdata": true,
@@ -325,6 +387,10 @@
 				{
 					"url": "https://logs.spanix.team",
 					"logs_added": "2025/5"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2025/6"
 				}
 			],
 			"fishweek_limit": 10,
@@ -372,6 +438,10 @@
 				{
 					"url": "https://logs.potat.app",
 					"logs_added": "2025/4"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2025/6"
 				}
 			],
 			"checkfdata": true,
@@ -387,6 +457,10 @@
 				{
 					"url": "https://logs.potat.app",
 					"logs_added": "2025/6"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2025/6"
 				}
 			],
 			"checkfdata": true,
@@ -401,6 +475,10 @@
 				},
 				{
 					"url": "https://logs.potat.app",
+					"logs_added": "2025/6"
+				},
+				{
+					"url": "https://logxx.dev",
 					"logs_added": "2025/6"
 				}
 			],
@@ -430,6 +508,10 @@
 				{
 					"url": "https://logs.spanix.team",
 					"logs_added": "2024/9"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "no logs added found"
 				}
 			],
 			"checkfdata": true,
@@ -444,6 +526,10 @@
 				},
 				{
 					"url": "https://logs.potat.app",
+					"logs_added": "2025/6"
+				},
+				{
+					"url": "https://logxx.dev",
 					"logs_added": "2025/6"
 				}
 			],
@@ -472,6 +558,10 @@
 				{
 					"url": "https://logs.susgee.dev",
 					"logs_added": "2024/5"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2025/6"
 				}
 			],
 			"checkfdata": true,
@@ -487,6 +577,10 @@
 				{
 					"url": "https://logs.potat.app",
 					"logs_added": "2025/6"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2025/6"
 				}
 			],
 			"checkfdata": true,
@@ -501,6 +595,10 @@
 				},
 				{
 					"url": "https://logs.potat.app",
+					"logs_added": "2025/6"
+				},
+				{
+					"url": "https://logxx.dev",
 					"logs_added": "2025/6"
 				}
 			],
@@ -536,6 +634,10 @@
 				{
 					"url": "https://logs.potat.app",
 					"logs_added": "2024/9"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "no logs added found"
 				}
 			],
 			"checkfdata": true,
@@ -547,6 +649,10 @@
 				{
 					"url": "https://logs.spanix.team",
 					"logs_added": "2024/5"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "no logs added found"
 				}
 			],
 			"fishweek_limit": 10,
@@ -583,6 +689,10 @@
 				{
 					"url": "https://logs.jimmyboy.dev",
 					"logs_added": "2024/6"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2025/6"
 				}
 			],
 			"weighttotal_limit": 1800,
@@ -598,6 +708,10 @@
 				},
 				{
 					"url": "https://logs.potat.app",
+					"logs_added": "no logs added found"
+				},
+				{
+					"url": "https://logxx.dev",
 					"logs_added": "no logs added found"
 				}
 			],
@@ -626,6 +740,10 @@
 				{
 					"url": "https://logs.supa.codes",
 					"logs_added": "2024/10"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2025/6"
 				}
 			],
 			"fishweek_limit": 10,
@@ -641,6 +759,10 @@
 			"logs_instances": [
 				{
 					"url": "https://logs.spanix.team",
+					"logs_added": "no logs added found"
+				},
+				{
+					"url": "https://logxx.dev",
 					"logs_added": "no logs added found"
 				}
 			],
@@ -661,6 +783,10 @@
 				{
 					"url": "https://logs.potat.app",
 					"logs_added": "2024/8"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2025/6"
 				}
 			],
 			"checkfdata": true,
@@ -676,6 +802,10 @@
 				{
 					"url": "https://logs.spanix.team",
 					"logs_added": "2024/8"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "no logs added found"
 				}
 			],
 			"fishweek_limit": 10,
@@ -696,6 +826,10 @@
 				{
 					"url": "https://logs.potat.app",
 					"logs_added": "2024/11"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "no logs added found"
 				}
 			],
 			"checkfdata": true,
@@ -707,6 +841,14 @@
 				{
 					"url": "not public",
 					"logs_added": "2024/7"
+				},
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2025/2"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2025/6"
 				}
 			],
 			"fishweek_limit": 10,
@@ -726,6 +868,10 @@
 				{
 					"url": "https://logs.potat.app",
 					"logs_added": "2025/5"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2025/6"
 				}
 			],
 			"checkfdata": true,
@@ -745,6 +891,10 @@
 				{
 					"url": "https://logs.spanix.team",
 					"logs_added": "2025/4"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2025/6"
 				}
 			],
 			"fishweek_limit": 10,
@@ -768,6 +918,10 @@
 				{
 					"url": "https://logs.potat.app",
 					"logs_added": "2024/9"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "no logs added found"
 				}
 			],
 			"fishweek_limit": 10,
@@ -816,6 +970,10 @@
 				{
 					"url": "https://logs.susgee.dev",
 					"logs_added": "2023/12"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "no logs added found"
 				}
 			],
 			"checkfdata": true,
