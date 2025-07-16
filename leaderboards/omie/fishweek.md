@@ -6,7 +6,8 @@
 | 3 🥉  | solahh__  | 74 |
 | 4  | mangos4u  | 69 |
 | 5  | aliveleader  | 58 |
+| 6 🆕 | gofishgamer  | 27 |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-06-21 11:30:31 UTC_
+_Last updated at 2025-07-16 16:29:46 UTC_
