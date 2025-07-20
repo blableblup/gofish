@@ -1,6 +1,7 @@
-### First fish per type caught in dizzy's chat
+### First time a fish was caught in dizzy's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 94  | 🪁 kite | 3.58 | buhl00n | 2025-07-15 07:58:53 |
 | 93  | 🛢️ oildrum | 39.41 | lolspers | 2025-06-28 00:12:52 |
 | 92  | 🪻 lupine | 0.79 | buhl00n | 2025-06-27 04:34:06 |
 | 91  | 🪿 goose | 2.39 | lolspers | 2025-06-23 20:31:03 |
@@ -95,4 +96,4 @@
 | 2  | 🪝 hook | 0.40 | lolspers | 2024-10-20 21:13:11 |
 | 1  | 🎏 lure | 0.16 | burnend | 2024-10-20 21:13:00 |
 
-_Last updated at 2025-06-29 09:30:51 UTC_
+_Last updated at 2025-07-20 08:43:31 UTC_

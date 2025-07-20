@@ -7,7 +7,7 @@
 | 4  | 🐉 dragon | 141.56 | e1llas | 2025-05-01 13:04:55 |
 | 5  | 🐊 crocodile | 136.17 | jboy42o | 2025-05-12 14:12:14 |
 | 6  | 🐙 octopus | 129.14 | envtt | 2025-06-04 15:19:26 |
-| 7  | 🐢 turtle | 99.52 (+0.50) | envtt | 2025-06-30 15:11:35 |
+| 7  | 🐢 turtle | 99.52 | envtt | 2025-06-30 15:11:35 |
 | 8  | 🐬 dolphin | 97.90 | d1fforr | 2025-06-01 17:39:10 |
 | 9  | 🦑 squid | 76.95 | e1llas | 2025-05-16 01:44:24 |
 | 10  | 🐟 fish | 63.70 | envtt | 2025-05-20 14:20:40 |
@@ -34,13 +34,13 @@
 | 31  | 👒 womanshat | 7.56 | envtt | 2025-06-07 19:30:11 |
 | 32  | 🧃 beveragebox | 6.85 | envtt | 2025-05-09 16:07:17 |
 | 33  | 🪱 worm | 6.55 | mersuf | 2024-12-15 14:45:59 |
-| 34 ⬆ | 🦎 lizard | 5.42 (+3.27) | e1llas | 2025-07-01 22:47:03 |
-| 35 ⬇ | 🐸 frog | 4.84 | d1fforr | 2024-12-28 20:22:24 |
-| 36 ⬇ | 🎏 lure | 4.03 | d1fforr | 2024-12-10 16:04:12 |
-| 37 ⬇ | 🐚 shell | 3.95 | xopowosidim667 | 2024-12-29 08:24:54 |
-| 38 ⬇ | 🪝 hook | 3.15 | d1fforr | 2025-05-14 12:34:21 |
-| 39 ⬇ | 🦀 crab | 2.98 | waveheartz | 2025-01-01 11:22:12 |
-| 40 ⬇ | ☂️ umbrella | 2.86 | e1llas | 2025-05-13 06:13:22 |
+| 34  | 🦎 lizard | 5.62 (+0.20) | envtt | 2025-07-14 20:41:05 |
+| 35  | 🐸 frog | 4.84 | d1fforr | 2024-12-28 20:22:24 |
+| 36  | 🎏 lure | 4.03 | d1fforr | 2024-12-10 16:04:12 |
+| 37  | 🐚 shell | 3.95 | xopowosidim667 | 2024-12-29 08:24:54 |
+| 38  | 🪝 hook | 3.15 | d1fforr | 2025-05-14 12:34:21 |
+| 39  | 🦀 crab | 2.98 | waveheartz | 2025-01-01 11:22:12 |
+| 40  | ☂️ umbrella | 2.86 | e1llas | 2025-05-13 06:13:22 |
 | 41  | 🧦 socks | 1.92 | waveheartz | 2024-12-30 23:00:36 |
 | 42  | 🥪 sandwich | 1.81 | icreateandestroythisworld | 2025-05-20 18:45:51 |
 | 43  | 🩰 balletshoes | 1.52 | e1llas | 2025-05-06 09:59:25 |
@@ -57,4 +57,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-07-06 08:35:57 UTC_
+_Last updated at 2025-07-20 08:42:57 UTC_

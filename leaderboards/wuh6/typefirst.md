@@ -1,6 +1,7 @@
 ### First time a fish was caught in wuh6's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 104  | 🧜‍♀️ mermaid | 66.61 | veny2lbs | 2025-07-14 13:55:25 |
 | 103  | 🦗 cricket | 0.05 | theevirus | 2025-07-04 01:48:57 |
 | 102  | 🪻 lupine | 0.20 | lobuhtomy | 2025-06-30 05:38:59 |
 | 101  | 🪁 kite | 10.69 | lobuhtomy | 2025-06-27 14:43:50 |
@@ -105,4 +106,4 @@
 | 2  | 🪝 hook | 1.91 | commanda_u | 2024-12-14 15:55:38 |
 | 1  | 🐚 shell | 3.49 | jukkii | 2024-12-14 15:55:11 |
 
-_Last updated at 2025-07-06 08:34:11 UTC_
+_Last updated at 2025-07-20 08:43:29 UTC_

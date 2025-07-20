@@ -1,7 +1,7 @@
 ### Players who have seen the most fish in psp1g's chat
 | Rank | Player | Fish Seen |
 |------|--------|-----------|
-| 1 🥇  | nndiana*  | 82 (+1) |
+| 1 🥇  | nndiana*  | 82 |
 | 2 🥈  | huuuuuuuuuuuuuuuuuuuuuurz  | 79 |
 | 3 🥉  | bubinga  | 73 |
 | 4  | mazzo_tv  | 72 |
@@ -12,8 +12,8 @@
 | 9  | lobuhtomy  | 67 |
 | 9  | pengeg  | 67 |
 | 11  | ratot  | 65 |
-| 12  | gorillapark  | 64 (+1) |
-| 13 ⬇ | divra__  | 63 |
+| 12  | gorillapark  | 64 |
+| 13  | divra__  | 63 |
 | 14  | angus_lpc  | 62 |
 | 14  | jemcs_  | 62 |
 | 16  | commanda_u  | 61 |
@@ -21,12 +21,12 @@
 | 18  | theevirus  | 60 |
 | 19  | eeziiii  | 58 |
 | 19  | veny2lbs  | 58 |
+| 21 ⬆ | bluberry  | 57 (+2) |
 | 21  | iflya320  | 57 |
-| 22  | amu1g  | 56 |
-| 22  | benciee  | 56 |
-| 22  | creepycode*  | 56 |
-| 22  | deogen01  | 56 |
-| 26  | bluberry  | 55 |
+| 23 ⬇ | amu1g  | 56 |
+| 23 ⬇ | benciee  | 56 |
+| 23 ⬇ | creepycode*  | 56 |
+| 23 ⬇ | deogen01  | 56 |
 | 27  | maksmusz*  | 54 |
 | 27  | markenzy01  | 54 |
 | 29  | euxoa  | 53 |
@@ -44,4 +44,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2025-07-13 09:12:45 UTC_
+_Last updated at 2025-07-20 08:43:28 UTC_

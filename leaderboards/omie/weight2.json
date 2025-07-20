@@ -81,7 +81,7 @@
 		"fishid": 116448,
 		"chatid": 1085,
 		"date": "2024-10-31T22:04:45Z",
-		"rank": 80
+		"rank": 81
 	},
 	"117257": {
 		"player": "v6r_",
@@ -319,7 +319,7 @@
 		"fishid": 134984,
 		"chatid": 2662,
 		"date": "2024-12-24T22:12:22Z",
-		"rank": 98
+		"rank": 99
 	},
 	"135069": {
 		"player": "v6r_",
@@ -333,7 +333,7 @@
 		"fishid": 135069,
 		"chatid": 2674,
 		"date": "2024-12-25T02:11:33Z",
-		"rank": 82
+		"rank": 83
 	},
 	"135645": {
 		"player": "solahh__",
@@ -361,7 +361,7 @@
 		"fishid": 135740,
 		"chatid": 2735,
 		"date": "2024-12-26T14:50:35Z",
-		"rank": 95
+		"rank": 96
 	},
 	"135835": {
 		"player": "ritaaww",
@@ -431,7 +431,7 @@
 		"fishid": 137844,
 		"chatid": 2891,
 		"date": "2025-01-01T22:19:35Z",
-		"rank": 93
+		"rank": 94
 	},
 	"138118": {
 		"player": "ritaaww",
@@ -445,7 +445,7 @@
 		"fishid": 138118,
 		"chatid": 2908,
 		"date": "2025-01-02T19:30:46Z",
-		"rank": 83
+		"rank": 84
 	},
 	"138145": {
 		"player": "ritaaww",
@@ -459,7 +459,7 @@
 		"fishid": 138145,
 		"chatid": 2913,
 		"date": "2025-01-02T20:44:04Z",
-		"rank": 81
+		"rank": 82
 	},
 	"138277": {
 		"player": "mangos4u",
@@ -515,7 +515,7 @@
 		"fishid": 138773,
 		"chatid": 2956,
 		"date": "2025-01-04T19:42:47Z",
-		"rank": 89
+		"rank": 90
 	},
 	"139225": {
 		"player": "v6r_",
@@ -585,7 +585,7 @@
 		"fishid": 140584,
 		"chatid": 3170,
 		"date": "2025-01-11T02:03:30Z",
-		"rank": 84
+		"rank": 85
 	},
 	"141026": {
 		"player": "solahh__",
@@ -655,7 +655,7 @@
 		"fishid": 144192,
 		"chatid": 3576,
 		"date": "2025-01-27T22:12:11Z",
-		"rank": 94
+		"rank": 95
 	},
 	"144225": {
 		"player": "v6r_",
@@ -669,7 +669,7 @@
 		"fishid": 144225,
 		"chatid": 3582,
 		"date": "2025-01-28T02:58:23Z",
-		"rank": 92
+		"rank": 93
 	},
 	"144534": {
 		"player": "v6r_",
@@ -823,7 +823,7 @@
 		"fishid": 149635,
 		"chatid": 4129,
 		"date": "2025-02-24T00:50:22Z",
-		"rank": 91
+		"rank": 92
 	},
 	"149831": {
 		"player": "v6r_",
@@ -837,7 +837,7 @@
 		"fishid": 149831,
 		"chatid": 4161,
 		"date": "2025-02-25T06:37:01Z",
-		"rank": 90
+		"rank": 91
 	},
 	"149833": {
 		"player": "v6r_",
@@ -893,7 +893,7 @@
 		"fishid": 151718,
 		"chatid": 4274,
 		"date": "2025-03-01T22:12:09Z",
-		"rank": 87
+		"rank": 88
 	},
 	"151920": {
 		"player": "ritaaww",
@@ -949,7 +949,7 @@
 		"fishid": 156933,
 		"chatid": 4902,
 		"date": "2025-03-19T17:52:32Z",
-		"rank": 85
+		"rank": 86
 	},
 	"157331": {
 		"player": "solahh__",
@@ -1006,20 +1006,6 @@
 		"chatid": 5054,
 		"date": "2025-03-24T13:59:07Z",
 		"rank": 15
-	},
-	"158743": {
-		"player": "solahh__",
-		"playerid": 3487,
-		"weight": 153.65,
-		"bot": "gofishgame",
-		"fishtype": "🦑",
-		"fishname": "squid",
-		"catchtype": "normal",
-		"chat": "omie",
-		"fishid": 158743,
-		"chatid": 5077,
-		"date": "2025-03-24T21:27:06Z",
-		"rank": 100
 	},
 	"158751": {
 		"player": "ritaaww",
@@ -1187,7 +1173,7 @@
 		"fishid": 176158,
 		"chatid": 6579,
 		"date": "2025-05-27T01:30:19Z",
-		"rank": 86
+		"rank": 87
 	},
 	"176991": {
 		"player": "solahh__",
@@ -1201,7 +1187,7 @@
 		"fishid": 176991,
 		"chatid": 6632,
 		"date": "2025-06-01T01:10:29Z",
-		"rank": 88
+		"rank": 89
 	},
 	"178049": {
 		"player": "mangos4u",
@@ -1258,6 +1244,20 @@
 		"chatid": 7309,
 		"date": "2025-07-10T23:42:44Z",
 		"rank": 13
+	},
+	"188547": {
+		"player": "v6r_",
+		"playerid": 2941,
+		"weight": 170.19,
+		"bot": "gofishgame",
+		"fishtype": "🦕",
+		"fishname": "sauropod",
+		"catchtype": "normal",
+		"chat": "omie",
+		"fishid": 188547,
+		"chatid": 7445,
+		"date": "2025-07-19T21:52:11Z",
+		"rank": 80
 	},
 	"93913": {
 		"player": "ritaaww",
@@ -1327,7 +1327,7 @@
 		"fishid": 95005,
 		"chatid": 176,
 		"date": "2024-08-11T18:54:51Z",
-		"rank": 96
+		"rank": 97
 	},
 	"95386": {
 		"player": "aliveleader",
@@ -1369,7 +1369,7 @@
 		"fishid": 96104,
 		"chatid": 245,
 		"date": "2024-08-17T10:01:25Z",
-		"rank": 99
+		"rank": 100
 	},
 	"96859": {
 		"player": "aliveleader",
@@ -1383,7 +1383,7 @@
 		"fishid": 96859,
 		"chatid": 265,
 		"date": "2024-08-21T19:22:50Z",
-		"rank": 97
+		"rank": 98
 	},
 	"96860": {
 		"player": "ritaaww",

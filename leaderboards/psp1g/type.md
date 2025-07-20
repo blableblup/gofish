@@ -4,8 +4,8 @@
 | 1 🥇  | 🐳 whale | 303.51 | huuuuuuuuuuuuuuuuuuuuuurz | 2024-01-05 01:43:59 |
 | 2 🥈  | 🐉 dragon | 284.61 | sandwichsundays | 2024-05-27 23:48:53 |
 | 3 🥉  | 🦑 squid | 280.48 | huuuuuuuuuuuuuuuuuuuuuurz | 2024-01-22 06:22:38 |
-| 4 ⬆ | 🦕 sauropod | 278.92 (+11.11) | bluberry | 2025-07-09 20:27:34 |
-| 5 ⬇ | 🐍 snake | 269.95 | caprisen_ | 2024-11-27 05:57:58 |
+| 4  | 🦕 sauropod | 278.92 | bluberry | 2025-07-09 20:27:34 |
+| 5  | 🐍 snake | 269.95 | caprisen_ | 2024-11-27 05:57:58 |
 | 6  | 🐢 turtle | 254.30 | yopego | 2023-09-12 11:49:45 |
 | 7  | 🦈 shark | 249.45 | divra__ | 2023-12-28 00:26:48 |
 | 8  | 🛢️ oildrum | 248.25 | sandwichsundays | 2024-08-21 02:57:22 |
@@ -59,10 +59,10 @@
 | 56  | 🧊 icecube | 10.85 | angus_lpc | 2024-12-05 14:00:23 |
 | 57  | 🦎 lizard | 10.84 | bosscrazymen | 2023-12-17 18:48:58 |
 | 58  | 🎱 8ball | 10.82 | 0_asd | 2024-03-31 10:49:57 |
-| 59  | 🪺 nestwitheggs | 10.58 | mazzo_tv | 2025-06-24 09:42:08 |
-| 60  | 🩲 briefs | 10.20 | alvanissdev | 2023-09-18 12:21:36 |
-| 61  | 🍄‍🟫 brownmushroom | 10.14 | nndiana | 2025-05-27 21:01:45 |
-| 62  | 🪁 kite | 9.98 | nndiana | 2025-07-03 01:46:55 |
+| 59 ⬆ | 🪁 kite | 10.68 (+0.70) | bluberry | 2025-07-13 06:00:03 |
+| 60 ⬇ | 🪺 nestwitheggs | 10.58 | mazzo_tv | 2025-06-24 09:42:08 |
+| 61 ⬇ | 🩲 briefs | 10.20 | alvanissdev | 2023-09-18 12:21:36 |
+| 62 ⬇ | 🍄‍🟫 brownmushroom | 10.14 | nndiana | 2025-05-27 21:01:45 |
 | 63  | 🐦 bird | 9.22 | zwockel01 | 2024-07-04 11:25:35 |
 | 64  | 🧵 wireline | 6.00 | ocrw | 2024-06-20 15:30:46 |
 | 65  | 🐚 shell | 5.92 | mazzo_tv | 2025-05-25 17:38:47 |
@@ -102,4 +102,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-07-13 09:14:04 UTC_
+_Last updated at 2025-07-20 08:43:15 UTC_

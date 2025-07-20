@@ -56,15 +56,15 @@
 | 53  | 🪵 log | 15.28 | comiqq | 2024-05-16 17:26:45 |
 | 54  | 🐌 snail | 14.24 | yliathim* | 2022-12-05 13:25:16 |
 | 55  | 🎱 8ball | 12.85 | qu4ttromila | 2024-03-28 16:36:34 |
-| 56  | 🕶️ darksunglasses | 12.51 | dayzedinndaydreams | 2024-07-26 16:49:35 |
+| 56  | 🕶️ darksunglasses | 12.71 (+0.20) | chestnutbank | 2025-07-18 23:46:14 |
 | 57  | 🧸 teddybear | 11.98 | destin357 | 2025-02-26 03:30:12 |
 | 58  | 🐦 bird | 11.96 | julialuxel | 2024-04-25 00:21:16 |
 | 59  | 🧃 beveragebox | 11.87 | leanmeister | 2025-06-12 05:56:46 |
 | 60  | 👒 womanshat | 11.85 | sussy_amonge | 2023-08-23 21:47:21 |
 | 61  | 🧥 coat | 11.62 | derinturitierutz | 2025-03-25 12:20:39 |
 | 62  | 🪹 emptynest | 10.99 | fvkdylan | 2025-03-15 04:16:42 |
-| 63 ⬆ | 🩲 briefs | 10.94 (+0.25) | derintu | 2025-07-10 13:16:26 |
-| 64 ⬇ | 🪺 nestwitheggs | 10.84 | osnyatsky | 2024-03-30 13:50:46 |
+| 63  | 🩲 briefs | 10.94 | derintu | 2025-07-10 13:16:26 |
+| 64  | 🪺 nestwitheggs | 10.84 | osnyatsky | 2024-03-30 13:50:46 |
 | 65  | 🦎 lizard | 10.61 | sussy_amonge | 2023-06-04 08:16:33 |
 | 66  | 🪁 kite | 10.40 | larvasisters | 2025-06-30 14:44:29 |
 | 67  | 💀 skull | 9.98 | bussinongnocap | 2023-05-14 05:29:15 |
@@ -93,9 +93,9 @@
 | 90  | 🩰 balletshoes | 1.99 | qu4ttromila | 2024-04-19 07:41:11 |
 | 90  | ⛸️ iceskate | 1.99 | derinturitierutz | 2024-12-23 15:56:24 |
 | 92  | 👢 boot | 1.98 | derinturitierutz | 2023-12-30 12:35:00 |
-| 92 ⬆ | 🪻 lupine | 1.98 (+0.31) | ytp_dl | 2025-07-10 15:36:58 |
-| 94 ⬇ | 🍃 leaf | 1.97 | destin357 | 2025-04-04 08:54:35 |
-| 95 ⬇ | 🌿 seaweed | 1.96 | dayzedinndaydreams | 2024-03-28 09:38:13 |
+| 92  | 🪻 lupine | 1.98 | ytp_dl | 2025-07-10 15:36:58 |
+| 94  | 🍃 leaf | 1.97 | destin357 | 2025-04-04 08:54:35 |
+| 95  | 🌿 seaweed | 1.96 | dayzedinndaydreams | 2024-03-28 09:38:13 |
 | 96  | 🐝 bee | 1.25 | lluuucy | 2025-06-24 11:19:51 |
 | 97  | 🍁 mapleleaf | 1.00 | fishingalt | 2024-09-28 20:29:04 |
 | 98  | 🪶 feather | 0.99 | osnyatsky* | 2023-08-24 01:31:11 |
@@ -109,11 +109,11 @@
 | 106  | 🪲 beetle | 0.47 | qu4ttromila | 2025-06-25 10:39:09 |
 | 107  | 🐜 ant | 0.33 | derintu | 2025-06-25 11:16:14 |
 | 108  | 🪰 fly | 0.27 | fvkdylan | 2025-06-22 09:13:07 |
-| 109 ⬆ | 🫐 bilberries | 0.21 (+0.20) | respirate_ | 2025-07-11 04:22:15 |
-| 110 ⬇ | 🦋 butterfly | 0.18 | destin357 | 2025-06-24 10:01:52 |
-| 111 ⬇ | 🕸️ spiderweb | 0.10 | larvasisters | 2025-06-22 16:54:56 |
-| 112 ⬇ | 🦗 cricket | 0.03 | leanmeister | 2025-07-04 00:29:09 |
+| 109 ⬆ | 🦗 cricket | 0.24 (+0.21) | respirate_ | 2025-07-18 00:38:53 |
+| 110 ⬇ | 🫐 bilberries | 0.21 | respirate_ | 2025-07-11 04:22:15 |
+| 111 ⬇ | 🦋 butterfly | 0.18 | destin357 | 2025-06-24 10:01:52 |
+| 112 ⬇ | 🕸️ spiderweb | 0.10 | larvasisters | 2025-06-22 16:54:56 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-07-13 09:14:59 UTC_
+_Last updated at 2025-07-20 08:42:54 UTC_

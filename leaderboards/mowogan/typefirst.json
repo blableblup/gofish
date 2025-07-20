@@ -82,6 +82,34 @@
 		"date": "2025-06-23T17:16:26Z",
 		"rank": 3
 	},
+	"cannedfood": {
+		"player": "konsminator",
+		"playerid": 3143,
+		"weight": 0.88,
+		"bot": "gofishgame",
+		"fishtype": "🥫",
+		"fishname": "cannedfood",
+		"catchtype": "normal",
+		"chat": "mowogan",
+		"fishid": 187889,
+		"chatid": 190,
+		"date": "2025-07-16T18:47:45Z",
+		"rank": 42
+	},
+	"cockroach": {
+		"player": "konsminator",
+		"playerid": 3143,
+		"weight": 23.36,
+		"bot": "gofishgame",
+		"fishtype": "🪳",
+		"fishname": "cockroach",
+		"catchtype": "normal",
+		"chat": "mowogan",
+		"fishid": 188337,
+		"chatid": 205,
+		"date": "2025-07-18T22:26:38Z",
+		"rank": 45
+	},
 	"coral": {
 		"player": "konsminator",
 		"playerid": 3143,
@@ -318,6 +346,34 @@
 		"chatid": 45,
 		"date": "2025-06-26T16:51:05Z",
 		"rank": 23
+	},
+	"rock": {
+		"player": "mowogan",
+		"playerid": 3811,
+		"weight": 22.08,
+		"bot": "gofishgame",
+		"fishtype": "🪨",
+		"fishname": "rock",
+		"catchtype": "normal",
+		"chat": "mowogan",
+		"fishid": 188095,
+		"chatid": 197,
+		"date": "2025-07-17T17:34:05Z",
+		"rank": 43
+	},
+	"sauropod": {
+		"player": "mowogan",
+		"playerid": 3811,
+		"weight": 169.46,
+		"bot": "gofishgame",
+		"fishtype": "🦕",
+		"fishname": "sauropod",
+		"catchtype": "normal",
+		"chat": "mowogan",
+		"fishid": 188241,
+		"chatid": 201,
+		"date": "2025-07-18T12:23:56Z",
+		"rank": 44
 	},
 	"seaweed": {
 		"player": "konsminator",

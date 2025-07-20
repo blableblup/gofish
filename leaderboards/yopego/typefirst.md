@@ -1,6 +1,7 @@
-### First fish per type caught in yopego's chat
+### First time a fish was caught in yopego's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 46  | ☘️ shamrock | 3.04 | yopego | 2025-07-16 11:18:40 |
 | 45  | 🪱 worm | 0.44 | larvasisters | 2025-06-12 07:25:38 |
 | 44  | 🥫 cannedfood | 0.23 | grumvald | 2024-12-04 11:13:52 |
 | 43  | 🦕 sauropod | 113.93 | jasonnguyenv12 | 2024-11-09 08:53:13 |
@@ -47,4 +48,4 @@
 | 2  | 🐟 fish | 9.97 | gizei_ | 2024-10-05 12:35:06 |
 | 1  | 🪝 hook | 0.72 | xx_sn1perpro420_xx | 2024-10-05 10:23:31 |
 
-_Last updated at 2025-06-15 13:37:39 UTC_
+_Last updated at 2025-07-20 08:43:30 UTC_

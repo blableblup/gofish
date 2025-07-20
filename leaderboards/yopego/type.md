@@ -37,14 +37,15 @@
 | 34  | 🎏 lure | 4.64 | mxrio41 | 2024-11-04 03:53:16 |
 | 35  | 🪝 hook | 3.56 | mxrio41 | 2024-10-23 21:10:21 |
 | 36  | 🐚 shell | 3.39 | jr_mime | 2024-10-25 15:21:34 |
-| 37  | 🪵 log | 2.19 | grumpo_ | 2024-10-18 07:33:13 |
-| 38  | 🌰 acorn | 1.91 | yopego | 2024-10-08 15:22:07 |
-| 39  | 🦆 duck | 1.83 | cornstarch1g | 2024-10-07 19:38:57 |
-| 40  | 🧦 socks | 1.53 | mxrio41 | 2024-10-16 21:05:11 |
-| 41  | 🌿 seaweed | 0.98 | sequally | 2024-11-03 07:22:33 |
-| 42 🆕 | 🪱 worm | 0.44 | larvasisters | 2025-06-12 07:25:38 |
-| 43 ⬇ | 🥫 cannedfood | 0.23 | grumvald | 2024-12-04 11:13:52 |
+| 37 🆕 | ☘️ shamrock | 3.04 | yopego | 2025-07-16 11:18:40 |
+| 38 ⬇ | 🪵 log | 2.19 | grumpo_ | 2024-10-18 07:33:13 |
+| 39 ⬇ | 🌰 acorn | 1.91 | yopego | 2024-10-08 15:22:07 |
+| 40 ⬇ | 🦆 duck | 1.83 | cornstarch1g | 2024-10-07 19:38:57 |
+| 41 ⬇ | 🧦 socks | 1.53 | mxrio41 | 2024-10-16 21:05:11 |
+| 42 ⬇ | 🌿 seaweed | 0.98 | sequally | 2024-11-03 07:22:33 |
+| 43 ⬇ | 🪱 worm | 0.44 | larvasisters | 2025-06-12 07:25:38 |
+| 44 ⬇ | 🥫 cannedfood | 0.23 | grumvald | 2024-12-04 11:13:52 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-06-15 13:38:33 UTC_
+_Last updated at 2025-07-20 08:42:37 UTC_

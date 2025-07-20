@@ -3,31 +3,31 @@
 |------|--------|-----------|
 | 1 🥇  | derinturitierutz  | 99 |
 | 2 🥈  | fishingalt  | 98 |
-| 3 🥉  | leanmeister  | 95 |
-| 4  | lluuucy  | 89 |
-| 5 ⬆ | destin357  | 83 (+1) |
-| 5 ⬆ | larvasisters  | 83 (+1) |
+| 3 🥉  | leanmeister  | 96 (+1) |
+| 4  | lluuucy  | 91 (+2) |
+| 5  | destin357  | 83 |
+| 5  | larvasisters  | 83 |
 | 5  | miiiiisho  | 83 |
 | 8  | qu4ttromila  | 81 |
 | 9  | c_mgirl  | 79 |
 | 10  | booty_bread  | 77 |
 | 10  | kishma9  | 77 |
+| 12 ⬆ | breadworms  | 76 (+1) |
 | 12  | dayzedinndaydreams  | 76 |
-| 13  | breadworms  | 75 |
-| 13 ⬆ | dougiefresh_83*  | 75 (+2) |
-| 13  | sicklymaidrobot  | 75 |
-| 16 ⬇ | ninjaross*  | 74 |
-| 16 ⬇ | osnyisdead  | 74 |
-| 18 ⬇ | osnyatsky*  | 73 |
-| 18 ⬇ | puzzlow  | 73 |
+| 14 ⬇ | dougiefresh_83*  | 75 |
+| 14 ⬇ | sicklymaidrobot  | 75 |
+| 16  | ninjaross*  | 74 |
+| 16  | osnyisdead  | 74 |
+| 18  | osnyatsky*  | 73 |
+| 18  | puzzlow  | 73 |
 | 20  | paras220  | 72 |
-| 21 ⬆ | derintu  | 69 (+4) |
-| 22 ⬇ | crazytown_bananapants  | 67 |
-| 22  | gstaman911  | 67 (+1) |
-| 22 ⬆ | respirate_  | 67 (+3) |
-| 25 ⬇ | ryebreadward  | 65 |
-| 26 ⬇ | julialuxel  | 64 |
-| 26 ⬇ | mitgliederversammlung  | 64 |
+| 21  | derintu  | 69 |
+| 22  | respirate_  | 68 (+1) |
+| 23 ⬇ | crazytown_bananapants  | 67 |
+| 23 ⬇ | gstaman911  | 67 |
+| 25  | ryebreadward  | 65 |
+| 26  | julialuxel  | 64 |
+| 26  | mitgliederversammlung  | 64 |
 | 28  | sussy_amonge  | 62 |
 | 29  | gawblemachine  | 61 |
 | 30  | kaasppeerr  | 60 |
@@ -46,4 +46,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2025-07-13 09:12:45 UTC_
+_Last updated at 2025-07-20 08:43:28 UTC_

@@ -1,7 +1,7 @@
 ### Players who have seen the most fish in dizzy's chat
 | Rank | Player | Fish Seen |
 |------|--------|-----------|
-| 1 🥇  | buhl00n  | 82 |
+| 1 🥇  | buhl00n  | 83 (+1) |
 | 2 🥈  | iam_glorp  | 75 |
 | 3 🥉  | gimmeschmoneys  | 64 |
 | 4  | ben_vincent  | 60 |
@@ -11,17 +11,17 @@
 | 8  | konsminator  | 49 |
 | 9  | spanmer  | 48 |
 | 10  | hamoodhabibee  | 47 |
-| 11 ⬆ | simplydrack  | 45 (+3) |
+| 11  | simplydrack  | 45 |
 | 11  | vagdi  | 45 |
-| 13 ⬇ | notnownico  | 44 |
-| 13 ⬇ | rabituwu  | 44 |
-| 15 ⬇ | tairaaaaa  | 43 |
+| 13  | notnownico  | 44 |
+| 13  | rabituwu  | 44 |
+| 15  | tairaaaaa  | 43 |
+| 16 ⬆ | kyonuwu  | 40 (+1) |
 | 16  | ssenario  | 40 |
 | 16  | sugur  | 40 |
-| 18  | exo9*  | 39 |
-| 18 ⬆ | kyonuwu  | 39 (+1) |
-| 20 ⬇ | burnend  | 38 |
-| 21  | aceleju  | 37 (+1) |
+| 19 ⬇ | exo9*  | 39 |
+| 20  | burnend  | 38 |
+| 21  | aceleju  | 37 |
 | 22  | lilzomme  | 35 |
 | 22  | mousee93  | 35 |
 | 24  | kukkuri  | 34 |
@@ -36,11 +36,11 @@
 | 32  | ruusui  | 26 |
 | 34  | youngstercal  | 25 |
 | 35  | buffyo  | 24 |
+| 35 ⬆ | mitsu_skidz  | 24 (+2) |
 | 35  | rougep1rate  | 24 |
-| 37  | maccat1337  | 23 |
-| 37  | popfizzgg  | 23 |
-| 39  | dizzy  | 22 |
-| 39  | mitsu_skidz  | 22 |
+| 38 ⬆ | dizzy  | 23 (+1) |
+| 38 ⬇ | maccat1337  | 23 |
+| 38 ⬇ | popfizzgg  | 23 |
 | 41  | fvkdylan  | 21 |
 | 41  | reallyxtra  | 21 |
 | 43  | gigi  | 20 |
@@ -52,4 +52,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2025-07-13 09:12:44 UTC_
+_Last updated at 2025-07-20 08:43:28 UTC_

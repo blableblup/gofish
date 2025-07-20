@@ -236,7 +236,7 @@
 		"fishtypemouth": "🐙",
 		"fishnamemouth": "octopus",
 		"totalweight": 157.41,
-		"rank": 39
+		"rank": 40
 	},
 	"2025-01-15 15:14:04 UTC": {
 		"player": "leanmeister",
@@ -372,7 +372,7 @@
 		"fishtypemouth": "🌿",
 		"fishnamemouth": "seaweed",
 		"totalweight": 154.26,
-		"rank": 40
+		"rank": 41
 	},
 	"2025-03-25 07:08:43 UTC": {
 		"player": "leanmeister",
@@ -392,7 +392,7 @@
 		"fishtypemouth": "🦞",
 		"fishnamemouth": "lobster",
 		"totalweight": 150.58999999999997,
-		"rank": 42
+		"rank": 43
 	},
 	"2025-03-27 09:50:32 UTC": {
 		"player": "lobuhtomy",
@@ -528,7 +528,7 @@
 		"fishtypemouth": "🐋",
 		"fishnamemouth": "whale2",
 		"totalweight": 151.19,
-		"rank": 41
+		"rank": 42
 	},
 	"2025-04-15 03:54:50 UTC": {
 		"player": "destin357",
@@ -815,5 +815,24 @@
 		"fishnamemouth": "tropicalfish",
 		"totalweight": 246.79,
 		"rank": 12
+	},
+	"2025-07-18 21:26:06 UTC": {
+		"player": "nndiana",
+		"playerid": 269,
+		"weight": 96.89,
+		"bot": "gofishgame",
+		"fishtype": "🐳",
+		"fishname": "whale",
+		"catchtype": "normal",
+		"chat": "psp1g",
+		"chatpfp": "![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)",
+		"fishid": 188327,
+		"chatid": 63248,
+		"date": "2025-07-18T21:26:06Z",
+		"weightmouth": 61.02,
+		"fishtypemouth": "🐳",
+		"fishnamemouth": "whale",
+		"totalweight": 157.91,
+		"rank": 39
 	}
 }

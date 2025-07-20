@@ -12,7 +12,7 @@
 		"fishid": 150640,
 		"chatid": 16,
 		"date": "2024-10-08T15:22:07Z",
-		"rank": 38
+		"rank": 39
 	},
 	"beaver": {
 		"player": "yopego",
@@ -69,7 +69,7 @@
 		"fishid": 150832,
 		"chatid": 152,
 		"date": "2024-12-04T11:13:52Z",
-		"rank": 43
+		"rank": 44
 	},
 	"cockroach": {
 		"player": "kr1nxx_",
@@ -181,7 +181,7 @@
 		"fishid": 150638,
 		"chatid": 14,
 		"date": "2024-10-07T19:38:57Z",
-		"rank": 39
+		"rank": 40
 	},
 	"emptynest": {
 		"player": "bubinga",
@@ -280,7 +280,7 @@
 		"fishid": 150688,
 		"chatid": 49,
 		"date": "2024-10-18T07:33:13Z",
-		"rank": 37
+		"rank": 38
 	},
 	"lure": {
 		"player": "mxrio41",
@@ -392,7 +392,22 @@
 		"fishid": 150778,
 		"chatid": 121,
 		"date": "2024-11-03T07:22:33Z",
-		"rank": 41
+		"rank": 42
+	},
+	"shamrock": {
+		"player": "yopego",
+		"playerid": 159,
+		"verified": true,
+		"weight": 3.04,
+		"bot": "gofishgame",
+		"fishtype": "☘️",
+		"fishname": "shamrock",
+		"catchtype": "normal",
+		"chat": "yopego",
+		"fishid": 187759,
+		"chatid": 160,
+		"date": "2025-07-16T11:18:40Z",
+		"rank": 37
 	},
 	"shark": {
 		"player": "jasonnguyenv12",
@@ -490,7 +505,7 @@
 		"fishid": 150681,
 		"chatid": 43,
 		"date": "2024-10-16T21:05:11Z",
-		"rank": 40
+		"rank": 41
 	},
 	"spider": {
 		"player": "jasonnguyenv12",
@@ -603,6 +618,6 @@
 		"fishid": 178981,
 		"chatid": 158,
 		"date": "2025-06-12T07:25:38Z",
-		"rank": 42
+		"rank": 43
 	}
 }

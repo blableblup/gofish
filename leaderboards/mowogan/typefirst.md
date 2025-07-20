@@ -1,6 +1,10 @@
 ### First time a fish was caught in mowogan's chat
 | Rank | Fish | Weight in lbs | Player | Date in UTC |
 |------|--------|-----------|---------|------|
+| 45  | 🪳 cockroach | 23.36 | konsminator | 2025-07-18 22:26:38 |
+| 44  | 🦕 sauropod | 169.46 | mowogan | 2025-07-18 12:23:56 |
+| 43  | 🪨 rock | 22.08 | mowogan | 2025-07-17 17:34:05 |
+| 42  | 🥫 cannedfood | 0.88 | konsminator | 2025-07-16 18:47:45 |
 | 41  | 🐉 dragon | 199.76 | mowogan | 2025-07-12 13:41:01 |
 | 40  | 🐋 whale2 | 2.40 | mowogan | 2025-07-09 12:41:10 |
 | 39  | 🕷️ spider | 2.15 | konsminator | 2025-07-08 17:49:48 |
@@ -43,4 +47,4 @@
 | 2  | 🎱 8ball | 0.79 | konsminator | 2025-06-23 16:25:30 |
 | 1  | 🪝 hook | 2.28 | mowogan | 2025-06-23 16:00:57 |
 
-_Last updated at 2025-07-15 10:52:17 UTC_
+_Last updated at 2025-07-20 08:43:30 UTC_
