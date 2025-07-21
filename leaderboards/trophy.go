@@ -4,10 +4,7 @@ import (
 	"context"
 	"fmt"
 	"gofish/logs"
-	"os"
-	"path/filepath"
 	"strings"
-	"time"
 )
 
 func processTrophy(params LeaderboardParams) {
@@ -147,24 +144,7 @@ func getTrophies(params LeaderboardParams) (map[int]BoardData, error) {
 
 func writeTrophy(filePath string, playerCounts map[int]BoardData, oldTrophy map[int]BoardData, title string) error {
 
-	// Ensure that the directory exists before attempting to create the file
-	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
-		return err
-	}
-
-	file, err := os.Create(filePath)
-	if err != nil {
-		return err
-	}
-	defer file.Close()
-
-	_, err = fmt.Fprintf(file, "%s", title)
-	if err != nil {
-		return err
-	}
-
-	_, _ = fmt.Fprintln(file, "| Rank | Player | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points |")
-	_, _ = fmt.Fprintln(file, "|------|--------|-------------|------------------|------------------|--------|")
+	header := []string{"Rank", "Player", "Trophies 🏆", "Silver Medals 🥈", "Bronze Medals 🥉", "Points"}
 
 	sortedPlayers := sortMapIntFishInfo(playerCounts, "weightdesc")
 
@@ -172,6 +152,8 @@ func writeTrophy(filePath string, playerCounts map[int]BoardData, oldTrophy map[
 	prevRank := 1
 	prevPoints := -1.0
 	occupiedRanks := make(map[int]int)
+
+	var data [][]string
 
 	for _, playerID := range sortedPlayers {
 		trophies := playerCounts[playerID].Trophies
@@ -242,16 +224,24 @@ func writeTrophy(filePath string, playerCounts map[int]BoardData, oldTrophy map[
 
 		ranks := Ranks(rank)
 
-		_, err = fmt.Fprintf(file, "| %s %s| %s | %s | %s | %s | %s |\n", ranks, changeEmoji, player, trophyCount, silverCount, bronzeCount, newpoints)
-		if err != nil {
-			return err
+		row := []string{
+			fmt.Sprintf("%s %s", ranks, changeEmoji),
+			player, trophyCount, silverCount, bronzeCount, newpoints,
 		}
+
+		data = append(data, row)
 
 		prevPoints = points
 		prevRank = rank
 	}
 
-	_, _ = fmt.Fprintf(file, "\n_Last updated at %s_", time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC"))
+	err := writeBoard(filePath, title, header, data, []string{})
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Path", filePath).
+			Msg("Error writing leaderboard")
+		return err
+	}
 
 	// This has to be here, because im not getting the rank directly from the query
 	err = writeRaw(filePath, playerCounts)

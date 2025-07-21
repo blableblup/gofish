@@ -3,9 +3,6 @@ package leaderboards
 import (
 	"fmt"
 	"gofish/logs"
-	"os"
-	"path/filepath"
-	"time"
 )
 
 func processType(params LeaderboardParams) {
@@ -153,39 +150,10 @@ func getTypeRecords(params LeaderboardParams) (map[string]BoardData, error) {
 
 func writeType(filePath string, recordType map[string]BoardData, oldType map[string]BoardData, board string, title string, global bool) error {
 
-	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
-		return err
-	}
+	header := []string{"Rank", "Fish", "Weight in lbs", "Player", "Date in UTC"}
 
-	file, err := os.Create(filePath)
-	if err != nil {
-		return err
-	}
-	defer file.Close()
-
-	_, err = fmt.Fprintf(file, "%s", title)
-	if err != nil {
-		return err
-	}
-
-	_, err = fmt.Fprintln(file, "| Rank | Fish | Weight in lbs | Player | Date in UTC |"+func() string {
-		if global {
-			return " Chat |"
-		}
-		return ""
-	}())
-	if err != nil {
-		return err
-	}
-
-	_, err = fmt.Fprintln(file, "|------|--------|-----------|---------|------|"+func() string {
-		if global {
-			return "-------|"
-		}
-		return ""
-	}())
-	if err != nil {
-		return err
+	if global {
+		header = append(header, "Chat")
 	}
 
 	var sortedTypes []string
@@ -195,6 +163,8 @@ func writeType(filePath string, recordType map[string]BoardData, oldType map[str
 	} else {
 		sortedTypes = sortMapStringFishInfo(recordType, "datedesc")
 	}
+
+	var data [][]string
 
 	for _, fishName := range sortedTypes {
 		weight := recordType[fishName].Weight
@@ -250,20 +220,34 @@ func writeType(filePath string, recordType map[string]BoardData, oldType map[str
 			ranks = fmt.Sprintf("%d", rank)
 		}
 
-		_, _ = fmt.Fprintf(file, "| %s %s | %s %s | %s | %s%s | %s |", ranks, changeEmoji, fishType, fishName, fishweight, player, botIndicator, date.Format("2006-01-02 15:04:05"))
+		row := []string{
+			fmt.Sprintf("%s %s", ranks, changeEmoji),
+			fmt.Sprintf("%s %s", fishType, fishName),
+			fishweight,
+			fmt.Sprintf("%s%s", player, botIndicator),
+			date.Format("2006-01-02 15:04:05"),
+		}
+
 		if global {
-			_, _ = fmt.Fprintf(file, " %s |", recordType[fishName].ChatPfp)
+			row = append(row, recordType[fishName].ChatPfp)
 		}
-		_, err = fmt.Fprintln(file)
-		if err != nil {
-			return err
-		}
+
+		data = append(data, row)
 	}
 
+	var notes []string
+
 	if board != "typefirst" && board != "typelast" {
-		_, _ = fmt.Fprint(file, "\n_If there are multiple records with the same weight, only the player who caught it first is displayed_\n")
+		notes = append(notes, "If there are multiple records with the same weight, only the player who caught it first is displayed")
 	}
-	_, _ = fmt.Fprintf(file, "\n_Last updated at %s_", time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC"))
+
+	err := writeBoard(filePath, title, header, data, notes)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Path", filePath).
+			Msg("Error writing leaderboard")
+		return err
+	}
 
 	return nil
 }

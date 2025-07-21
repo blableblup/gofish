@@ -4,8 +4,6 @@ import (
 	"context"
 	"fmt"
 	"gofish/logs"
-	"os"
-	"path/filepath"
 	"sort"
 	"strconv"
 	"strings"
@@ -230,35 +228,10 @@ func getTotalWeight(params LeaderboardParams, limit float64) (map[int]BoardData,
 
 func printTotalWeight(filePath string, recordWeight map[int]BoardData, oldRecordWeight map[int]BoardData, title string, global bool, weightlimit float64) error {
 
-	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
-		return err
-	}
+	header := []string{"Rank", "Player", "Total Weight in lbs"}
 
-	file, err := os.Create(filePath)
-	if err != nil {
-		return err
-	}
-	defer file.Close()
-
-	_, err = fmt.Fprintf(file, "%s", title)
-	if err != nil {
-		return err
-	}
-
-	_, _ = fmt.Fprintln(file, "| Rank | Player | Total Weight in lbs |"+func() string {
-		if global {
-			return " Chat |"
-		}
-		return ""
-	}())
-	_, err = fmt.Fprintln(file, "|------|--------|---------|"+func() string {
-		if global {
-			return "-------|"
-		}
-		return ""
-	}())
-	if err != nil {
-		return err
+	if global {
+		header = append(header, "Chat")
 	}
 
 	rank := 1
@@ -267,6 +240,8 @@ func printTotalWeight(filePath string, recordWeight map[int]BoardData, oldRecord
 	occupiedRanks := make(map[int]int)
 
 	sortedWeightRecords := sortMapIntFishInfo(recordWeight, "totalweightdesc")
+
+	var data [][]string
 
 	for _, playerID := range sortedWeightRecords {
 		chatweights := recordWeight[playerID].ChatWeights
@@ -320,13 +295,19 @@ func printTotalWeight(filePath string, recordWeight map[int]BoardData, oldRecord
 
 		ranks := Ranks(rank)
 
-		_, _ = fmt.Fprintf(file, "| %s %s | %s%s | %s |", ranks, changeEmoji, player, botIndicator, totalweight)
+		row := []string{
+			fmt.Sprintf("%s %s", ranks, changeEmoji),
+			fmt.Sprintf("%s%s", player, botIndicator),
+			totalweight,
+		}
 
 		if global {
 
-			_, _ = fmt.Fprint(file, " <details>")
+			var globalrow string
 
-			_, _ = fmt.Fprint(file, " <summary>Chat data</summary>")
+			globalrow = globalrow + " <details>"
+
+			globalrow = globalrow + " <summary>Chat data</summary>"
 
 			ChatWeightsSlice := make([]struct {
 				chat   string
@@ -345,27 +326,32 @@ func printTotalWeight(filePath string, recordWeight map[int]BoardData, oldRecord
 			})
 
 			for _, weight := range ChatWeightsSlice {
-				_, _ = fmt.Fprintf(file, " %s %.2f ", weight.chat, weight.weight)
+				globalrow = globalrow + fmt.Sprintf(" %s %.2f", weight.chat, weight.weight)
 			}
 
-			_, _ = fmt.Fprint(file, " </details>")
+			globalrow = globalrow + " </details>"
 
-			_, _ = fmt.Fprint(file, "|")
+			row = append(row, globalrow)
 		}
 
-		_, err = fmt.Fprintln(file)
-		if err != nil {
-			return err
-		}
+		data = append(data, row)
 
 		prevWeight = weight
 		prevRank = rank
 
 	}
 
-	_, _ = fmt.Fprintf(file, "\n_Only showing fishers with a total weight of >= %v lbs_\n", weightlimit)
+	notes := []string{
+		fmt.Sprintf("Only showing fishers with a total weight of >= %v lbs", weightlimit),
+	}
 
-	_, _ = fmt.Fprintf(file, "\n_Last updated at %s_", time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC"))
+	err := writeBoard(filePath, title, header, data, notes)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Path", filePath).
+			Msg("Error writing leaderboard")
+		return err
+	}
 
 	// This has to be here, because im not getting the rank directly from the query
 	err = writeRaw(filePath, recordWeight)

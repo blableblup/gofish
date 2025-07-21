@@ -4,10 +4,7 @@ import (
 	"context"
 	"fmt"
 	"gofish/logs"
-	"os"
-	"path/filepath"
 	"strconv"
-	"time"
 
 	"github.com/jackc/pgx/v5"
 )
@@ -156,27 +153,7 @@ func getWeightMouth(params LeaderboardParams, limit float64) (map[string]BoardDa
 
 func printWeightMouth(filePath string, recordWeight map[string]BoardData, oldRecordWeight map[string]BoardData, title string, weightlimit float64) error {
 
-	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
-		return err
-	}
-
-	file, err := os.Create(filePath)
-	if err != nil {
-		return err
-	}
-	defer file.Close()
-
-	_, err = fmt.Fprintf(file, "%s", title)
-	if err != nil {
-		return err
-	}
-
-	_, _ = fmt.Fprintln(file, "| Rank | Player | Normal fish | Mouth bonus | Combined Weight | Date in UTC | Chat |")
-
-	_, err = fmt.Fprintln(file, "|------|--------|---------|---------|---------|---------|---------|")
-	if err != nil {
-		return err
-	}
+	header := []string{"Rank", "Player", "Normal Fish", "Mouth Bonus", "Combined Weight", "Date in UTC", "Chat"}
 
 	rank := 1
 	prevRank := 1
@@ -184,6 +161,8 @@ func printWeightMouth(filePath string, recordWeight map[string]BoardData, oldRec
 	occupiedRanks := make(map[int]int)
 
 	sortedWeightRecords := sortMapStringFishInfo(recordWeight, "totalweightdesc")
+
+	var data [][]string
 
 	for _, date := range sortedWeightRecords {
 		weight := recordWeight[date].Weight
@@ -231,22 +210,33 @@ func printWeightMouth(filePath string, recordWeight map[string]BoardData, oldRec
 
 		ranks := Ranks(rank)
 
-		_, _ = fmt.Fprintf(file, "| %s %s | %s%s | %s %s %.2f | %s %s %.2f | %.2f | %s | %s |",
-			ranks, changeEmoji, player, botIndicator, fishType, fishName, weight, fishTypemouth, fishNamemouth, weightmouth, totalweight, date, chatpfp)
-
-		_, err = fmt.Fprintln(file)
-		if err != nil {
-			return err
+		row := []string{
+			fmt.Sprintf("%s %s", ranks, changeEmoji),
+			fmt.Sprintf("%s%s", player, botIndicator),
+			fmt.Sprintf("%s %s %.2f", fishType, fishName, weight),
+			fmt.Sprintf("%s %s %.2f", fishTypemouth, fishNamemouth, weightmouth),
+			fmt.Sprintf("%.2f", totalweight),
+			date, chatpfp,
 		}
+
+		data = append(data, row)
 
 		prevWeight = weight
 		prevRank = rank
 
 	}
 
-	_, _ = fmt.Fprintf(file, "\n_Only showing catches with a total weight greater than >= %v lbs_\n", weightlimit)
+	notes := []string{
+		fmt.Sprintf("Only showing catches with a total weight greater than >= %v lbs", weightlimit),
+	}
 
-	_, _ = fmt.Fprintf(file, "\n_Last updated at %s_", time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC"))
+	err := writeBoard(filePath, title, header, data, notes)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Path", filePath).
+			Msg("Error writing leaderboard")
+		return err
+	}
 
 	// This has to be here, because im not getting the rank directly from the query
 	err = writeRaw(filePath, recordWeight)

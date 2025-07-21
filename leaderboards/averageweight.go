@@ -4,10 +4,7 @@ import (
 	"context"
 	"fmt"
 	"gofish/logs"
-	"os"
-	"path/filepath"
 	"sort"
-	"time"
 
 	"github.com/jackc/pgx/v5"
 )
@@ -202,29 +199,7 @@ func getAverageWeights(params LeaderboardParams) (map[string]BoardData, error) {
 
 func writeAverageWeight(filePath string, Weights map[string]BoardData, oldWeights map[string]BoardData, title string) error {
 
-	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
-		return err
-	}
-
-	file, err := os.Create(filePath)
-	if err != nil {
-		return err
-	}
-	defer file.Close()
-
-	_, err = fmt.Fprintf(file, "%s", title)
-	if err != nil {
-		return err
-	}
-
-	prefix := "| Rank | Fish | Weight in lbs | Chat |"
-
-	_, _ = fmt.Fprintln(file, prefix)
-
-	_, err = fmt.Fprintln(file, "|------|--------|-----------|-------|")
-	if err != nil {
-		return err
-	}
+	header := []string{"Rank", "Fish", "Weight in lbs", "Chat"}
 
 	sortedFish := sortMapStringFishInfo(Weights, "weightdesc")
 
@@ -232,6 +207,8 @@ func writeAverageWeight(filePath string, Weights map[string]BoardData, oldWeight
 	prevRank := 1
 	prevWeight := 0.0
 	occupiedRanks := make(map[int]int)
+
+	var data [][]string
 
 	for _, FishName := range sortedFish {
 		Weight := Weights[FishName].Weight
@@ -281,11 +258,17 @@ func writeAverageWeight(filePath string, Weights map[string]BoardData, oldWeight
 			weights = fmt.Sprintf("%.2f", Weight)
 		}
 
-		_, _ = fmt.Fprintf(file, "| %s %s | %s %s | %s |", ranks, changeEmoji, Emoji, FishName, weights)
+		row := []string{
+			fmt.Sprintf("%s %s", ranks, changeEmoji),
+			fmt.Sprintf("%s %s", Emoji, FishName),
+			weights,
+		}
 
-		_, _ = fmt.Fprint(file, " <details>")
+		var globalrow string
 
-		_, _ = fmt.Fprint(file, " <summary>Chat data</summary>")
+		globalrow = globalrow + " <details>"
+
+		globalrow = globalrow + " <summary>Chat data</summary>"
 
 		ChatWeightsSlice := make([]struct {
 			chat   string
@@ -304,23 +287,26 @@ func writeAverageWeight(filePath string, Weights map[string]BoardData, oldWeight
 		})
 
 		for _, weight := range ChatWeightsSlice {
-			_, _ = fmt.Fprintf(file, " %s %v ", weight.chat, weight.weight)
+			globalrow = globalrow + fmt.Sprintf(" %s %v", weight.chat, weight.weight)
 		}
 
-		_, _ = fmt.Fprint(file, " </details>")
+		globalrow = globalrow + " </details>"
 
-		_, _ = fmt.Fprint(file, "|")
+		row = append(row, globalrow)
 
-		_, err = fmt.Fprintln(file)
-		if err != nil {
-			return err
-		}
+		data = append(data, row)
 
 		prevWeight = Weight
 		prevRank = rank
 	}
 
-	_, _ = fmt.Fprintf(file, "\n_Last updated at %s_", time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC"))
+	err := writeBoard(filePath, title, header, data, []string{})
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Path", filePath).
+			Msg("Error writing leaderboard")
+		return err
+	}
 
 	// This has to be here, because im not getting the rank directly from the query
 	err = writeRaw(filePath, Weights)

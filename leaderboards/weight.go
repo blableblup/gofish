@@ -4,11 +4,8 @@ import (
 	"context"
 	"fmt"
 	"gofish/logs"
-	"os"
-	"path/filepath"
 	"strconv"
 	"strings"
-	"time"
 
 	"github.com/jackc/pgx/v5"
 )
@@ -214,39 +211,15 @@ func getWeightRecords(params LeaderboardParams, weightlimit float64) (map[int]Bo
 
 func writeWeight(filePath string, recordWeight map[int]BoardData, oldRecordWeight map[int]BoardData, title string, global bool, board string, weightlimit float64) error {
 
-	// Ensure that the directory exists before attempting to create the file
-	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
-		return err
-	}
+	header := []string{"Rank", "Player", "Fish", "Weight in lbs", "Date in UTC"}
 
-	file, err := os.Create(filePath)
-	if err != nil {
-		return err
-	}
-	defer file.Close()
-
-	_, err = fmt.Fprintf(file, "%s", title)
-	if err != nil {
-		return err
-	}
-
-	_, _ = fmt.Fprintln(file, "| Rank | Player | Fish | Weight in lbs | Date in UTC |"+func() string {
-		if global {
-			return " Chat |"
-		}
-		return ""
-	}())
-	_, err = fmt.Fprintln(file, "|------|--------|-----------|---------|-----|"+func() string {
-		if global {
-			return "-------|"
-		}
-		return ""
-	}())
-	if err != nil {
-		return err
+	if global {
+		header = append(header, "Chat")
 	}
 
 	sortedWeightRecords := sortMapIntFishInfo(recordWeight, "weightdesc")
+
+	var data [][]string
 
 	for _, playerID := range sortedWeightRecords {
 		weight := recordWeight[playerID].Weight
@@ -286,23 +259,35 @@ func writeWeight(filePath string, recordWeight map[int]BoardData, oldRecordWeigh
 
 		ranks := Ranks(rank)
 
-		// Write the leaderboard row
-		_, _ = fmt.Fprintf(file, "| %s %s | %s%s | %s %s | %s | %s |", ranks, changeEmoji, player, botIndicator, fishType, fishName, fishweight, date.Format("2006-01-02 15:04:05"))
-		if global {
-			_, _ = fmt.Fprintf(file, " %s |", recordWeight[playerID].ChatPfp)
-		}
-		_, err = fmt.Fprintln(file)
-		if err != nil {
-			return err
+		row := []string{
+			fmt.Sprintf("%s %s", ranks, changeEmoji),
+			fmt.Sprintf("%s%s", player, botIndicator),
+			fmt.Sprintf("%s %s", fishType, fishName),
+			fishweight,
+			date.Format("2006-01-02 15:04:05"),
 		}
 
+		if global {
+			row = append(row, recordWeight[playerID].ChatPfp)
+		}
+
+		data = append(data, row)
+
 	}
+
+	var notes []string
 
 	if board == "weight" || board == "weightglobal" {
-		_, _ = fmt.Fprintf(file, "\n_Only showing fish weighing >= %v lbs_\n", weightlimit)
+		notes = append(notes, fmt.Sprintf("Only showing fish weighing >= %v lbs", weightlimit))
 	}
 
-	_, _ = fmt.Fprintf(file, "\n_Last updated at %s_", time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC"))
+	err := writeBoard(filePath, title, header, data, notes)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Path", filePath).
+			Msg("Error writing leaderboard")
+		return err
+	}
 
 	return nil
 }

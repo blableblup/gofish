@@ -9,6 +9,11 @@ import (
 	"regexp"
 	"sort"
 	"strings"
+	"time"
+
+	"github.com/olekukonko/tablewriter"
+	"github.com/olekukonko/tablewriter/renderer"
+	"github.com/olekukonko/tablewriter/tw"
 )
 
 // name of the md file is by default name of the board in leaderboardconfig
@@ -29,6 +34,59 @@ func returnPath(params LeaderboardParams) string {
 	}
 
 	return filePath
+}
+
+func writeBoard(filePath string, title string, header []string, data [][]string, notes []string) error {
+
+	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
+		return err
+	}
+
+	file, err := os.Create(filePath)
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+
+	_, _ = fmt.Fprintln(file, title)
+
+	table := tablewriter.NewTable(file,
+		tablewriter.WithConfig(tablewriter.Config{
+			Header: tw.CellConfig{
+				Alignment: tw.CellAlignment{
+					Global: tw.AlignLeft,
+				},
+				Formatting: tw.CellFormatting{
+					AutoFormat: tw.Off,
+				},
+			},
+			Row: tw.CellConfig{
+				Alignment: tw.CellAlignment{
+					Global: tw.AlignLeft,
+				},
+			},
+		}),
+		tablewriter.WithRenderer(renderer.NewMarkdown()),
+	)
+
+	table.Header(header)
+
+	for _, row := range data {
+		table.Append(row)
+	}
+
+	err = table.Render()
+	if err != nil {
+		return err
+	}
+
+	for _, note := range notes {
+		_, _ = fmt.Fprintf(file, "\n_%s_\n", note)
+	}
+
+	_, _ = fmt.Fprintf(file, "\n_Last updated at %s_", time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC"))
+
+	return nil
 }
 
 // to print whatever struct / map as a json file

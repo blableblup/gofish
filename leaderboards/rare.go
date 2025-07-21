@@ -4,9 +4,6 @@ import (
 	"context"
 	"fmt"
 	"gofish/logs"
-	"os"
-	"path/filepath"
-	"time"
 
 	"github.com/jackc/pgx/v5"
 )
@@ -135,29 +132,7 @@ func getRarestFish(params LeaderboardParams) (map[string]BoardData, error) {
 
 func writeRare(filePath string, fishCaught map[string]BoardData, oldCountRecord map[string]BoardData, title string) error {
 
-	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
-		return err
-	}
-
-	file, err := os.Create(filePath)
-	if err != nil {
-		return err
-	}
-	defer file.Close()
-
-	_, err = fmt.Fprintf(file, "%s", title)
-	if err != nil {
-		return err
-	}
-
-	prefix := "| Rank | Fish | Times Caught | Chat |"
-
-	_, _ = fmt.Fprintln(file, prefix)
-
-	_, err = fmt.Fprintln(file, "|------|--------|-----------|-------|")
-	if err != nil {
-		return err
-	}
+	header := []string{"Rank", "Fish", "Times Caught", "Chat"}
 
 	sortedPlayers := sortMapStringFishInfo(fishCaught, "countdesc")
 
@@ -165,6 +140,8 @@ func writeRare(filePath string, fishCaught map[string]BoardData, oldCountRecord 
 	prevRank := 1
 	prevCount := -1
 	occupiedRanks := make(map[int]int)
+
+	var data [][]string
 
 	for _, FishName := range sortedPlayers {
 		Count := fishCaught[FishName].Count
@@ -210,32 +187,41 @@ func writeRare(filePath string, fishCaught map[string]BoardData, oldCountRecord 
 
 		ranks := Ranks(rank)
 
-		_, _ = fmt.Fprintf(file, "| %s %s | %s %s | %s |", ranks, changeEmoji, Emoji, FishName, counts)
+		row := []string{
+			fmt.Sprintf("%s %s", ranks, changeEmoji),
+			fmt.Sprintf("%s %s", Emoji, FishName),
+			counts,
+		}
 
 		sortedChatCounts := sortMapStringInt(ChatCounts, "nameasc")
 
-		_, _ = fmt.Fprint(file, " <details>")
+		var globalrow string
 
-		_, _ = fmt.Fprint(file, " <summary>Chat data</summary>")
+		globalrow = globalrow + " <details>"
+
+		globalrow = globalrow + " <summary>Chat data</summary>"
 
 		for _, chat := range sortedChatCounts {
-			_, _ = fmt.Fprintf(file, " %s %d ", chat, ChatCounts[chat])
+			globalrow = globalrow + fmt.Sprintf(" %s %d", chat, ChatCounts[chat])
 		}
 
-		_, _ = fmt.Fprint(file, " </details>")
+		globalrow = globalrow + " </details>"
 
-		_, _ = fmt.Fprint(file, "|")
+		row = append(row, globalrow)
 
-		_, err = fmt.Fprintln(file)
-		if err != nil {
-			return err
-		}
+		data = append(data, row)
 
 		prevCount = Count
 		prevRank = rank
 	}
 
-	_, _ = fmt.Fprintf(file, "\n_Last updated at %s_", time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC"))
+	err := writeBoard(filePath, title, header, data, []string{})
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Path", filePath).
+			Msg("Error writing leaderboard")
+		return err
+	}
 
 	// This has to be here, because im not getting the rank directly from the query
 	err = writeRaw(filePath, fishCaught)

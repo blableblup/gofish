@@ -4,8 +4,6 @@ import (
 	"context"
 	"fmt"
 	"gofish/logs"
-	"os"
-	"path/filepath"
 	"strconv"
 	"time"
 
@@ -231,42 +229,14 @@ func getCount(params LeaderboardParams, countlimit int) (map[int]BoardData, erro
 
 func writeCount(filePath string, fishCaught map[int]BoardData, oldCountRecord map[int]BoardData, title string, global bool, board string, countlimit int) error {
 
-	if err := os.MkdirAll(filepath.Dir(filePath), 0755); err != nil {
-		return err
-	}
-
-	file, err := os.Create(filePath)
-	if err != nil {
-		return err
-	}
-	defer file.Close()
-
-	_, err = fmt.Fprintf(file, "%s", title)
-	if err != nil {
-		return err
-	}
-
-	prefix := "| Rank | Player | Fish Caught |"
+	header := []string{"Rank", "Player", "Fish caught"}
 
 	if board == "uniquefish" {
-		prefix = "| Rank | Player | Fish Seen |"
+		header = []string{"Rank", "Player", "Fish seen"}
 	}
 
-	_, _ = fmt.Fprintln(file, prefix+func() string {
-		if global {
-			return " Chat |"
-		}
-		return ""
-	}())
-
-	_, err = fmt.Fprintln(file, "|------|--------|-----------|"+func() string {
-		if global {
-			return "-------|"
-		}
-		return ""
-	}())
-	if err != nil {
-		return err
+	if global {
+		header = append(header, "Chat")
 	}
 
 	sortedPlayers := sortMapIntFishInfo(fishCaught, "countdesc")
@@ -276,11 +246,12 @@ func writeCount(filePath string, fishCaught map[int]BoardData, oldCountRecord ma
 	prevCount := -1
 	occupiedRanks := make(map[int]int)
 
+	var data [][]string
+
 	for _, playerID := range sortedPlayers {
 		Player := fishCaught[playerID].Player
 		Count := fishCaught[playerID].Count
 		ChatCounts := fishCaught[playerID].ChatCounts
-		FishName := fishCaught[playerID].FishName
 
 		// Increment rank only if the count has changed
 		if Count != prevCount {
@@ -327,40 +298,54 @@ func writeCount(filePath string, fishCaught map[int]BoardData, oldCountRecord ma
 
 		ranks := Ranks(rank)
 
-		_, _ = fmt.Fprintf(file, "| %s %s | %s%s %s | %s |", ranks, changeEmoji, Player, botIndicator, FishName, counts)
+		row := []string{
+			fmt.Sprintf("%s %s", ranks, changeEmoji),
+			fmt.Sprintf("%s%s", Player, botIndicator),
+			counts}
+
 		if global {
 
-			_, _ = fmt.Fprint(file, " <details>")
+			var globalrow string
 
-			_, _ = fmt.Fprint(file, " <summary>Chat data</summary>")
+			globalrow = globalrow + " <details>"
+
+			globalrow = globalrow + " <summary>Chat data</summary>"
 
 			sortedChatCounts := sortMapStringInt(ChatCounts, "nameasc")
 
 			for _, chat := range sortedChatCounts {
-				_, _ = fmt.Fprintf(file, " %s %d ", chat, ChatCounts[chat])
+				globalrow = globalrow + fmt.Sprintf(" %s %d", chat, ChatCounts[chat])
 			}
 
-			_, _ = fmt.Fprint(file, " </details>")
+			globalrow = globalrow + " </details>"
 
-			_, _ = fmt.Fprint(file, "|")
+			row = append(row, globalrow)
 		}
-		_, err = fmt.Fprintln(file)
-		if err != nil {
-			return err
-		}
+
+		data = append(data, row)
 
 		prevCount = Count
 		prevRank = rank
 	}
 
+	var notes []string
+
 	if board == "uniquefish" {
-		_, _ = fmt.Fprint(file, "\n_This does not include fish seen through 🎁 gifts or through releasing to another player during the winter events!_\n")
-		_, _ = fmt.Fprintf(file, "\n_Only showing fishers who have seen >= %d fish_\n", countlimit)
+
+		notes = append(notes, "This does not include fish seen through 🎁 gifts or through releasing to another player during the winter events!",
+			fmt.Sprintf("Only showing fishers who have seen >= %d fish", countlimit))
+
 	} else {
-		_, _ = fmt.Fprintf(file, "\n_Only showing fishers who caught >= %d fish_\n", countlimit)
+		notes = append(notes, fmt.Sprintf("Only showing fishers who caught >= %d fish", countlimit))
 	}
 
-	_, _ = fmt.Fprintf(file, "\n_Last updated at %s_", time.Now().In(time.UTC).Format("2006-01-02 15:04:05 UTC"))
+	err := writeBoard(filePath, title, header, data, notes)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Path", filePath).
+			Msg("Error writing leaderboard")
+		return err
+	}
 
 	// This has to be here, because im not getting the rank directly from the query
 	err = writeRaw(filePath, fishCaught)
@@ -368,7 +353,7 @@ func writeCount(filePath string, fishCaught map[int]BoardData, oldCountRecord ma
 		logs.Logs().Error().Err(err).
 			Str("Path", filePath).
 			Msg("Error writing raw leaderboard")
-		return nil
+		return err
 	} else {
 		logs.Logs().Info().
 			Str("Path", filePath).
