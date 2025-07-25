@@ -186,19 +186,13 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 
 	_, _ = fmt.Fprintln(file, "\n## First, biggest and last fish ⚖️")
 
-	err = PrintTableMD(Profile.FirstFishChat, []string{"Chat", "Fish", "Weight in lbs", "Catchtype", "Date"}, "### First ever fish caught per chat", "mapstringprofilefish", false, file)
+	err = PrintTableMD(Profile.FirstFish, []string{"Fish", "Weight in lbs", "Catchtype", "Date", "Chat"}, "### First ever fish caught", "profilefish", false, file)
 	if err != nil {
 		return err
 	}
 	_, _ = fmt.Fprintln(file)
 
-	err = PrintTableMD(Profile.LastFishChat, []string{"Chat", "Fish", "Weight in lbs", "Catchtype", "Date"}, "### Last fish caught per chat", "mapstringprofilefish", false, file)
-	if err != nil {
-		return err
-	}
-	_, _ = fmt.Fprintln(file)
-
-	err = PrintTableMD(Profile.BiggestFishChat, []string{"Chat", "Fish", "Weight in lbs", "Catchtype", "Date"}, "### Biggest fish caught per chat", "mapstringprofilefish", false, file)
+	err = PrintTableMD(Profile.FirstFishChat, []string{"Chat", "Fish", "Weight in lbs", "Catchtype", "Date"}, "First ever fish caught per chat", "mapstringprofilefish", true, file)
 	if err != nil {
 		return err
 	}
@@ -210,7 +204,19 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 	}
 	_, _ = fmt.Fprintln(file)
 
+	err = PrintTableMD(Profile.BiggestFishChat, []string{"Chat", "Fish", "Weight in lbs", "Catchtype", "Date"}, "Biggest fish caught per chat", "mapstringprofilefish", true, file)
+	if err != nil {
+		return err
+	}
+	_, _ = fmt.Fprintln(file)
+
 	err = PrintTableMD(Profile.LastFish, []string{"Fish", "Weight in lbs", "Catchtype", "Date", "Chat"}, "### Overall last fish", "profilefishslice", false, file)
+	if err != nil {
+		return err
+	}
+	_, _ = fmt.Fprintln(file)
+
+	err = PrintTableMD(Profile.LastFishChat, []string{"Chat", "Fish", "Weight in lbs", "Catchtype", "Date"}, "Last fish caught per chat", "mapstringprofilefish", true, file)
 	if err != nil {
 		return err
 	}
@@ -393,6 +399,21 @@ func PrintTableMD(data any, header []string, title string, what string, hide boo
 			if err != nil {
 				return err
 			}
+		}
+
+	case "profilefish":
+
+		fish := data.(ProfileFish)
+
+		err = table.Append(
+			fish.Fish,
+			fish.Weight,
+			fish.CatchType,
+			fish.DateString,
+			fish.Chat,
+		)
+		if err != nil {
+			return err
 		}
 
 	case "notslice":

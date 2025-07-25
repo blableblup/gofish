@@ -37,12 +37,14 @@ type PlayerProfile struct {
 	CountYear      map[string]*TotalChatStruct `json:"Fish caught per year"`
 	CountCatchtype map[string]*TotalChatStruct `json:"Fish caught per catchtype"`
 
-	FirstFishChat   map[string]ProfileFish `json:"Their first fish per chat"`
-	LastFishChat    map[string]ProfileFish `json:"Their last fish per chat"`
+	FirstFish     ProfileFish            `json:"First ever fish caught"`
+	FirstFishChat map[string]ProfileFish `json:"Their first fish per chat"`
+
+	BiggestFish     []ProfileFish          `json:"Their overall biggest fish"`
 	BiggestFishChat map[string]ProfileFish `json:"Their biggest fish per chat"`
 
-	BiggestFish []ProfileFish `json:"Their overall biggest fish"`
-	LastFish    []ProfileFish `json:"Their overall last fish"`
+	LastFish     []ProfileFish          `json:"Their overall last fish"`
+	LastFishChat map[string]ProfileFish `json:"Their last fish per chat"`
 
 	TotalWeight     *TotalChatStructFloat            `json:"Combined weight of all caught fish"`
 	TotalWeightYear map[string]*TotalChatStructFloat `json:"Combined weight of all caught fish per year"`

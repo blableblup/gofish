@@ -492,6 +492,14 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 		fish.Fish = fmt.Sprintf("%s %s", EmojisForFish[fish.FishName], fish.FishName)
 
 		Profiles[fish.PlayerID].FirstFishChat[fish.Chat] = fish
+
+		if Profiles[fish.PlayerID].FirstFish.Fish == "" {
+			Profiles[fish.PlayerID].FirstFish = fish
+		}
+
+		if fish.Date.Before(Profiles[fish.PlayerID].FirstFish.Date) {
+			Profiles[fish.PlayerID].FirstFish = fish
+		}
 	}
 
 	queryLastFishChat := `	
