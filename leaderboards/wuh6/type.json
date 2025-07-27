@@ -208,7 +208,7 @@
 		"fishid": 142126,
 		"chatid": 5116,
 		"date": "2025-01-18T00:47:17Z",
-		"rank": 40
+		"rank": 41
 	},
 	"candy": {
 		"player": "thetaxmen",
@@ -311,17 +311,17 @@
 		"rank": 45
 	},
 	"coral": {
-		"player": "gorillapark",
-		"playerid": 1344,
-		"weight": 95.15,
+		"player": "iflya320",
+		"playerid": 2609,
+		"weight": 96.28,
 		"bot": "gofishgame",
 		"fishtype": "🪸",
 		"fishname": "coral",
 		"catchtype": "normal",
 		"chat": "wuh6",
-		"fishid": 170715,
-		"chatid": 13293,
-		"date": "2025-05-04T23:53:54Z",
+		"fishid": 189566,
+		"chatid": 18214,
+		"date": "2025-07-24T10:27:48Z",
 		"rank": 18
 	},
 	"crab": {
@@ -666,16 +666,16 @@
 	"jellyfish": {
 		"player": "eeziiii",
 		"playerid": 2578,
-		"weight": 21.73,
+		"weight": 22.93,
 		"bot": "gofishgame",
 		"fishtype": "🪼",
 		"fishname": "jellyfish",
-		"catchtype": "normal",
+		"catchtype": "jumped",
 		"chat": "wuh6",
-		"fishid": 178119,
-		"chatid": 15250,
-		"date": "2025-06-07T12:44:52Z",
-		"rank": 41
+		"fishid": 189121,
+		"chatid": 18095,
+		"date": "2025-07-22T05:57:22Z",
+		"rank": 40
 	},
 	"kite": {
 		"player": "huuuuuuuuuuuuuuuuuuuuuurz",
@@ -1144,18 +1144,18 @@
 		"rank": 39
 	},
 	"snail": {
-		"player": "bubinga",
-		"playerid": 2339,
-		"weight": 11.88,
+		"player": "iflya320",
+		"playerid": 2609,
+		"weight": 11.93,
 		"bot": "gofishgame",
 		"fishtype": "🐌",
 		"fishname": "snail",
 		"catchtype": "normal",
 		"chat": "wuh6",
-		"fishid": 169616,
-		"chatid": 12986,
-		"date": "2025-04-29T18:11:25Z",
-		"rank": 50
+		"fishid": 189223,
+		"chatid": 18131,
+		"date": "2025-07-22T17:25:11Z",
+		"rank": 49
 	},
 	"snake": {
 		"player": "nndiana",
@@ -1214,18 +1214,19 @@
 		"rank": 103
 	},
 	"sponge": {
-		"player": "bubinga",
-		"playerid": 2339,
-		"weight": 25.67,
+		"player": "huuuuuuuuuuuuuuuuuuuuuurz",
+		"playerid": 164,
+		"verified": true,
+		"weight": 27.29,
 		"bot": "gofishgame",
 		"fishtype": "🧽",
 		"fishname": "sponge",
 		"catchtype": "normal",
 		"chat": "wuh6",
-		"fishid": 184923,
-		"chatid": 16987,
-		"date": "2025-07-04T11:42:22Z",
-		"rank": 36
+		"fishid": 189154,
+		"chatid": 18102,
+		"date": "2025-07-22T10:20:39Z",
+		"rank": 35
 	},
 	"squid": {
 		"player": "eeziiii",
@@ -1310,7 +1311,7 @@
 		"fishid": 158724,
 		"chatid": 10209,
 		"date": "2025-03-24T19:49:25Z",
-		"rank": 35
+		"rank": 36
 	},
 	"tulip": {
 		"player": "lobuhtomy",

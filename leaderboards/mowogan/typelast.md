@@ -1,50 +1,56 @@
 ### Last time a fish was caught in mowogan's chat
-| Rank | Fish | Weight in lbs | Player | Date in UTC |
-|------|--------|-----------|---------|------|
-| 45  | 🐌 snail | 0.37 | mowogan | 2025-07-19 21:29:43 |
-| 44  | 🦀 crab | 1.09 | konsminator | 2025-07-19 19:47:54 |
-| 43  | 🦐 shrimp | 13.45 | konsminator | 2025-07-19 19:12:16 |
-| 42  | 🦕 sauropod | 186.25 | mowogan | 2025-07-19 18:25:12 |
-| 41  | 🐚 shell | 2.41 | mowogan | 2025-07-19 14:51:33 |
-| 40  | 💀 skull | 7.26 | konsminator | 2025-07-19 13:36:08 |
-| 39  | 🧽 sponge | 4.66 | konsminator | 2025-07-19 12:54:00 |
-| 38  | 🪸 coral | 85.86 | mowogan | 2025-07-18 23:01:00 |
-| 37  | 🪳 cockroach | 23.36 | konsminator | 2025-07-18 22:26:38 |
-| 36  | 🐟 fish | 12.70 | mowogan | 2025-07-18 13:05:12 |
-| 35  | 🦞 lobster | 9.66 | konsminator | 2025-07-18 12:34:36 |
-| 34  | 🐙 octopus | 77.27 | mowogan | 2025-07-18 10:21:50 |
-| 33  | 🪝 hook | 0.48 | konsminator | 2025-07-17 18:43:55 |
-| 32  | 🪨 rock | 22.08 | mowogan | 2025-07-17 17:34:05 |
-| 31  | 🐠 tropicalfish | 5.15 | konsminator | 2025-07-17 09:49:40 |
-| 30  | 🐬 dolphin | 12.87 | mowogan | 2025-07-17 09:43:06 |
-| 29  | 🐉 dragon | 4.66 | mowogan | 2025-07-16 22:47:06 |
-| 28  | 🥫 cannedfood | 0.88 | konsminator | 2025-07-16 18:47:45 |
-| 27  | 🗡️ dagger | 17.76 | mowogan | 2025-07-16 18:04:22 |
-| 26  | 🐊 crocodile | 98.07 | konsminator | 2025-07-16 13:44:05 |
-| 25  | 🎏 lure | 0.19 | konsminator | 2025-07-16 13:01:10 |
-| 24  | 🌿 seaweed | 0.18 | konsminator | 2025-07-16 07:26:01 |
-| 23  | 🐸 frog | 3.32 | konsminator | 2025-07-12 15:39:05 |
-| 22  | 🪀 bobber | 0.00 | konsminator | 2025-07-12 13:19:25 |
-| 21  | 🐡 blowfish | 17.50 | mowogan | 2025-07-12 03:03:00 |
-| 20  | 🐋 whale2 | 37.31 | mowogan | 2025-07-11 08:59:35 |
-| 19  | 🩴 thongsandal | 1.29 | konsminator | 2025-07-11 05:28:10 |
-| 18  | 🦈 shark | 199.30 | konsminator | 2025-07-09 09:13:35 |
-| 17  | 🕷️ spider | 2.15 | konsminator | 2025-07-08 17:49:48 |
-| 16  | 🦑 squid | 84.01 | konsminator | 2025-07-08 10:14:10 |
-| 15  | 🧦 socks | 0.61 | konsminator | 2025-07-06 21:00:23 |
-| 14  | 🎱 8ball | 0.50 | mowogan | 2025-07-05 19:59:47 |
-| 13  | 🧵 wireline | 0.27 | mowogan | 2025-07-05 17:11:14 |
-| 12  | 🦫 beaver | 36.80 | mowogan | 2025-07-05 05:48:06 |
-| 11  | ☘️ shamrock | 1.99 | mowogan | 2025-07-05 04:57:42 |
-| 10  | 🐢 turtle | 14.26 | mowogan | 2025-07-05 03:46:38 |
-| 9  | 🦎 lizard | 0.96 | mowogan | 2025-07-04 23:48:18 |
-| 8  | 🌻 sunflower | 2.71 | mowogan | 2025-07-04 06:28:42 |
-| 7  | 🐍 snake | 3.34 | mowogan | 2025-07-04 02:32:42 |
-| 6  | 🦪 oyster | 29.21 | konsminator | 2025-06-29 06:32:29 |
-| 5  | 📱 iphone | 0.04 | konsminator | 2025-06-25 21:19:55 |
-| 4  | 🪹 emptynest | 2.51 | konsminator | 2025-06-25 12:07:06 |
-| 3  | 🪺 nestwitheggs | 0.94 | konsminator | 2025-06-24 16:34:13 |
-| 2  | 🐜 ant | 0.12 | n1nzin_ | 2025-06-24 12:10:54 |
-| 1  | 🍬 candy | 0.02 | konsminator | 2025-06-23 17:16:26 |
 
-_Last updated at 2025-07-20 08:43:33 UTC_
+| Rank | Fish             | Weight in lbs | Player      | Date in UTC         |
+|:-----|:-----------------|:--------------|:------------|:--------------------|
+| 50   | 🧽 sponge        | 9.35          | mowogan     | 2025-07-26 22:19:50 |
+| 49   | 🎏 lure          | 2.22          | mowogan     | 2025-07-26 21:35:36 |
+| 48   | 🪳 cockroach     | 24.93         | konsminator | 2025-07-26 20:42:15 |
+| 47   | 🕷️ spider         | 8.74          | mowogan     | 2025-07-26 18:57:12 |
+| 46   | 🐟 fish          | 4.75          | mowogan     | 2025-07-26 18:16:02 |
+| 45   | 🦑 squid         | 24.59         | konsminator | 2025-07-26 06:02:11 |
+| 44   | 💀 skull         | 6.05          | mowogan     | 2025-07-25 23:12:59 |
+| 43   | 🐌 snail         | 3.62          | mowogan     | 2025-07-25 22:03:42 |
+| 42   | 🪸 coral         | 1.36          | mowogan     | 2025-07-25 18:26:59 |
+| 41   | 🪝 hook          | 1.99          | konsminator | 2025-07-25 13:14:29 |
+| 40   | 🐢 turtle        | 45.68         | konsminator | 2025-07-25 10:38:01 |
+| 39   | 🦞 lobster       | 54.23         | konsminator | 2025-07-25 09:35:42 |
+| 38   | 🦀 crab          | 2.22          | mowogan     | 2025-07-24 22:30:22 |
+| 37   | 🐙 octopus       | 107.76        | mowogan     | 2025-07-24 20:18:34 |
+| 36   | 🐠 tropicalfish  | 16.07         | mowogan     | 2025-07-24 16:02:31 |
+| 35   | 🐬 dolphin       | 54.18         | mowogan     | 2025-07-24 14:00:40 |
+| 34   | 🐡 blowfish      | 12.65         | mowogan     | 2025-07-24 12:54:07 |
+| 33   | 🪼 jellyfish     | 16.07         | mowogan     | 2025-07-24 06:18:34 |
+| 32   | 🐊 crocodile     | 10.67         | mowogan     | 2025-07-23 15:16:57 |
+| 31   | 🦐 shrimp        | 15.69         | konsminator | 2025-07-23 06:11:14 |
+| 30   | 🐚 shell         | 0.08          | mowogan     | 2025-07-23 04:19:50 |
+| 29   | 🥒 cucumber      | 3.57          | konsminator | 2025-07-22 10:09:39 |
+| 28   | 🐋 whale2        | 2.42          | konsminator | 2025-07-22 08:18:39 |
+| 27   | 🌿 seaweed       | 0.32          | konsminator | 2025-07-21 15:49:35 |
+| 26   | 🕶️ darksunglasses | 2.07          | mowogan     | 2025-07-21 12:36:33 |
+| 25   | 🩰 balletshoes   | 0.19          | konsminator | 2025-07-21 10:55:56 |
+| 24   | 🪶 feather       | 0.28          | konsminator | 2025-07-21 06:25:25 |
+| 23   | 🐸 frog          | 3.17          | mowogan     | 2025-07-20 20:51:10 |
+| 22   | 🧦 socks         | 0.21          | mowogan     | 2025-07-20 17:37:36 |
+| 21   | 🦕 sauropod      | 186.25        | mowogan     | 2025-07-19 18:25:12 |
+| 20   | 🪨 rock          | 22.08         | mowogan     | 2025-07-17 17:34:05 |
+| 19   | 🐉 dragon        | 4.66          | mowogan     | 2025-07-16 22:47:06 |
+| 18   | 🥫 cannedfood    | 0.88          | konsminator | 2025-07-16 18:47:45 |
+| 17   | 🗡️ dagger         | 17.76         | mowogan     | 2025-07-16 18:04:22 |
+| 16   | 🪀 bobber        | 0.00          | konsminator | 2025-07-12 13:19:25 |
+| 15   | 🩴 thongsandal   | 1.29          | konsminator | 2025-07-11 05:28:10 |
+| 14   | 🦈 shark         | 199.30        | konsminator | 2025-07-09 09:13:35 |
+| 13   | 🎱 8ball         | 0.50          | mowogan     | 2025-07-05 19:59:47 |
+| 12   | 🧵 wireline      | 0.27          | mowogan     | 2025-07-05 17:11:14 |
+| 11   | 🦫 beaver        | 36.80         | mowogan     | 2025-07-05 05:48:06 |
+| 10   | ☘️ shamrock       | 1.99          | mowogan     | 2025-07-05 04:57:42 |
+| 9    | 🦎 lizard        | 0.96          | mowogan     | 2025-07-04 23:48:18 |
+| 8    | 🌻 sunflower     | 2.71          | mowogan     | 2025-07-04 06:28:42 |
+| 7    | 🐍 snake         | 3.34          | mowogan     | 2025-07-04 02:32:42 |
+| 6    | 🦪 oyster        | 29.21         | konsminator | 2025-06-29 06:32:29 |
+| 5    | 📱 iphone        | 0.04          | konsminator | 2025-06-25 21:19:55 |
+| 4    | 🪹 emptynest     | 2.51          | konsminator | 2025-06-25 12:07:06 |
+| 3    | 🪺 nestwitheggs  | 0.94          | konsminator | 2025-06-24 16:34:13 |
+| 2    | 🐜 ant           | 0.12          | n1nzin_     | 2025-06-24 12:10:54 |
+| 1    | 🍬 candy         | 0.02          | konsminator | 2025-06-23 17:16:26 |
+
+_Last updated at 2025-07-27 09:39:06 UTC_

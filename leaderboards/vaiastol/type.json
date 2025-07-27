@@ -71,7 +71,7 @@
 		"rank": 26
 	},
 	"beveragebox": {
-		"player": "dayzedinndaydreams",
+		"player": "dazedforevermore",
 		"playerid": 56,
 		"verified": true,
 		"weight": 10.2,
@@ -209,7 +209,7 @@
 		"fishid": 138358,
 		"chatid": 3088,
 		"date": "2025-01-03T15:22:18Z",
-		"rank": 93
+		"rank": 94
 	},
 	"cannedfood": {
 		"player": "hahppyy",
@@ -252,7 +252,7 @@
 		"fishid": 181160,
 		"chatid": 7739,
 		"date": "2025-06-22T19:10:14Z",
-		"rank": 96
+		"rank": 97
 	},
 	"cockroach": {
 		"player": "nicestnarwhal",
@@ -467,7 +467,7 @@
 		"fishid": 182393,
 		"chatid": 7779,
 		"date": "2025-06-25T08:02:09Z",
-		"rank": 97
+		"rank": 98
 	},
 	"frog": {
 		"player": "divra__",
@@ -511,7 +511,7 @@
 		"fishid": 157265,
 		"chatid": 5342,
 		"date": "2025-03-20T20:23:59Z",
-		"rank": 94
+		"rank": 95
 	},
 	"hook": {
 		"player": "yoimlee",
@@ -581,7 +581,7 @@
 		"fishid": 188049,
 		"chatid": 8221,
 		"date": "2025-07-17T13:01:15Z",
-		"rank": 95
+		"rank": 96
 	},
 	"jellyfish": {
 		"player": "julialuxel",
@@ -724,7 +724,7 @@
 		"fishid": 104226,
 		"chatid": 743,
 		"date": "2024-09-27T22:38:30Z",
-		"rank": 92
+		"rank": 93
 	},
 	"mermaid": {
 		"player": "hahppyy",
@@ -741,7 +741,7 @@
 		"rank": 41
 	},
 	"moose": {
-		"player": "dayzedinndaydreams",
+		"player": "dazedforevermore",
 		"playerid": 56,
 		"verified": true,
 		"weight": 22.03,
@@ -825,6 +825,20 @@
 		"chatid": 3889,
 		"date": "2025-02-03T02:46:56Z",
 		"rank": 43
+	},
+	"owl": {
+		"player": "eelacy",
+		"playerid": 1280,
+		"weight": 0.85,
+		"bot": "gofishgame",
+		"fishtype": "🦉",
+		"fishname": "owl",
+		"catchtype": "egg",
+		"chat": "vaiastol",
+		"fishid": 188961,
+		"chatid": 8311,
+		"date": "2025-07-21T13:58:54Z",
+		"rank": 92
 	},
 	"oyster": {
 		"player": "julialuxel",
@@ -927,7 +941,7 @@
 		"rank": 85
 	},
 	"sauropod": {
-		"player": "dayzedinndaydreams",
+		"player": "dazedforevermore",
 		"playerid": 56,
 		"verified": true,
 		"weight": 264.89,
@@ -1083,7 +1097,7 @@
 		"rank": 47
 	},
 	"snake": {
-		"player": "dayzedinndaydreams",
+		"player": "dazedforevermore",
 		"playerid": 56,
 		"verified": true,
 		"weight": 270.4,
@@ -1138,7 +1152,7 @@
 		"fishid": 185066,
 		"chatid": 7963,
 		"date": "2025-07-05T00:02:49Z",
-		"rank": 98
+		"rank": 99
 	},
 	"sponge": {
 		"player": "obama",
@@ -1297,7 +1311,7 @@
 		"rank": 75
 	},
 	"whale": {
-		"player": "dayzedinndaydreams",
+		"player": "dazedforevermore",
 		"playerid": 56,
 		"verified": true,
 		"weight": 300.47,
