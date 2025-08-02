@@ -381,12 +381,12 @@
 			"twitchid": "605882414",
 			"logs_instances": [
 				{
-					"url": "https://logs.supa.codes",
-					"logs_added": "2024/12"
-				},
-				{
 					"url": "https://logs.spanix.team",
 					"logs_added": "2025/5"
+				},
+				{
+					"url": "https://logs.supa.codes",
+					"logs_added": "2024/12"
 				},
 				{
 					"url": "https://logxx.dev",
@@ -531,6 +531,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2025/6"
+				},
+				{
+					"url": "https://logs.susgee.dev",
+					"logs_added": "2025/7"
 				}
 			],
 			"fishweek_limit": 10,
@@ -895,6 +899,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2025/6"
+				},
+				{
+					"url": "https://logs.susgee.dev",
+					"logs_added": "2025/7"
 				}
 			],
 			"fishweek_limit": 10,
