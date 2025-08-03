@@ -12,14 +12,14 @@
 | 8     | konsminator        | 49        |
 | 9     | spanmer            | 48        |
 | 10    | hamoodhabibee      | 47        |
-| 11    | simplydrack        | 46 (+1)   |
-| 12 ⬇  | vagdi              | 45        |
+| 10 ⬆  | simplydrack        | 47 (+1)   |
+| 12    | vagdi              | 45        |
 | 13    | notnownico         | 44        |
 | 13    | rabituwu           | 44        |
 | 15    | tairaaaaa          | 43        |
-| 16    | kyonuwu            | 41 (+1)   |
-| 17 ⬇  | ssenario           | 40        |
-| 17 ⬇  | sugur              | 40        |
+| 16    | kyonuwu            | 41        |
+| 17    | ssenario           | 40        |
+| 17    | sugur              | 40        |
 | 19    | exo9*              | 39        |
 | 20    | burnend            | 38        |
 | 21    | aceleju            | 37        |
@@ -32,9 +32,9 @@
 | 27    | paperboat99        | 31        |
 | 27    | whoop_ee           | 31        |
 | 30    | icejamx            | 30        |
-| 31    | silent11d5         | 27        |
-| 32    | respirate_         | 26        |
-| 32    | ruusui             | 26        |
+| 31 ⬆  | respirate_         | 29 (+3)   |
+| 32 ⬇  | silent11d5         | 27        |
+| 33 ⬇  | ruusui             | 26        |
 | 34    | youngstercal       | 25        |
 | 35    | buffyo             | 24        |
 | 35    | mitsu_skidz        | 24        |
@@ -53,4 +53,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2025-07-27 09:39:04 UTC_
+_Last updated at 2025-08-03 09:10:55 UTC_

@@ -3,7 +3,7 @@
 | Rank  | Player            | Total Weight in lbs |
 |:------|:------------------|:--------------------|
 | 1 🥇  | fenix8            | 916.02              |
-| 2 🥈  | jaial             | 431.25 (+6.21)      |
+| 2 🥈  | jaial             | 431.25              |
 | 3 🥉  | copynine          | 384.58              |
 | 4     | yxnggon           | 379.59              |
 | 5     | destructionvibe   | 378.66              |
@@ -15,4 +15,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2025-07-27 09:39:03 UTC_
+_Last updated at 2025-08-03 09:09:30 UTC_

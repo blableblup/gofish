@@ -9,24 +9,24 @@
 | 5     | 🐊 crocodile     | 33.21         | jasonnguyenv12     | 2024-11-03 05:26:58 |
 | 6     | 🦈 shark         | 30.05         | jasonnguyenv12     | 2024-11-07 14:57:19 |
 | 7     | 🐙 octopus       | 17.45         | jasonnguyenv12     | 2024-10-31 19:53:45 |
-| 8     | 🦫 beaver        | 15.04         | yopego             | 2024-10-05 12:37:58 |
-| 9     | 🧽 sponge        | 14.81         | druidvhs           | 2024-10-15 19:38:19 |
-| 10    | 🍄 mushroom      | 14.62         | grumpo_            | 2024-10-31 14:02:46 |
-| 11    | 🕶️ darksunglasses | 11.83         | sosweetstar_vthree | 2024-10-24 19:00:50 |
-| 12    | 🦪 oyster        | 11.62         | ggmagician         | 2024-10-16 06:08:23 |
-| 13    | 🕷️ spider         | 11.16         | jasonnguyenv12     | 2024-11-07 14:21:14 |
-| 14    | 🐡 blowfish      | 10.90         | xx_sn1perpro420_xx | 2024-10-28 14:11:29 |
-| 15    | 🗡️ dagger         | 9.48          | xx_sn1perpro420_xx | 2024-10-30 08:57:18 |
-| 16    | 🪹 emptynest     | 9.14          | bubinga            | 2024-10-15 12:55:27 |
+| 8 ⬆   | 🧽 sponge        | 14.81         | druidvhs           | 2024-10-15 19:38:19 |
+| 9 ⬆   | 🍄 mushroom      | 14.62         | grumpo_            | 2024-10-31 14:02:46 |
+| 10 ⬆  | 🕶️ darksunglasses | 11.83         | sosweetstar_vthree | 2024-10-24 19:00:50 |
+| 11 ⬆  | 🦪 oyster        | 11.62         | ggmagician         | 2024-10-16 06:08:23 |
+| 12 ⬆  | 🕷️ spider         | 11.16         | jasonnguyenv12     | 2024-11-07 14:21:14 |
+| 13 ⬆  | 🐡 blowfish      | 10.90         | xx_sn1perpro420_xx | 2024-10-28 14:11:29 |
+| 14 ⬆  | 🗡️ dagger         | 9.48          | xx_sn1perpro420_xx | 2024-10-30 08:57:18 |
+| 15 ⬆  | 🪹 emptynest     | 9.14          | bubinga            | 2024-10-15 12:55:27 |
+| 16 ⬇  | 🦫 beaver        | 7.32 (-7.72)  | yopego             | 2025-07-31 06:21:00 |
 | 17    | 🪳 cockroach     | 6.04          | sequally           | 2024-11-11 15:22:03 |
 | 18    | 🩲 briefs        | 5.27          | ohnarpissquel      | 2024-10-29 19:17:15 |
 | 19    | 🦑 squid         | 5.15          | kr1nxx_            | 2024-10-19 06:00:42 |
 | 20    | 🐠 tropicalfish  | 4.59          | gizei_             | 2024-10-23 15:11:13 |
-| 21 ⬆  | 🐬 dolphin       | 3.04          | 07moki             | 2024-10-15 11:32:31 |
-| 21 ⬆  | ☘️ shamrock       | 3.04          | yopego             | 2025-07-16 11:18:40 |
-| 23 ⬆  | 🪸 coral         | 2.27          | wafelel1337        | 2024-10-16 05:21:28 |
-| 24 ⬆  | 🪵 log           | 2.19          | grumpo_            | 2024-10-18 07:33:13 |
-| 25 ⬇  | 🦐 shrimp        | 1.92 (-1.89)  | yopego             | 2025-07-25 11:09:45 |
+| 21    | 🐬 dolphin       | 3.04          | 07moki             | 2024-10-15 11:32:31 |
+| 21    | ☘️ shamrock       | 3.04          | yopego             | 2025-07-16 11:18:40 |
+| 23    | 🪸 coral         | 2.27          | wafelel1337        | 2024-10-16 05:21:28 |
+| 24    | 🪵 log           | 2.19          | grumpo_            | 2024-10-18 07:33:13 |
+| 25    | 🦐 shrimp        | 1.92          | yopego             | 2025-07-25 11:09:45 |
 | 26    | 🌰 acorn         | 1.91          | yopego             | 2024-10-08 15:22:07 |
 | 27    | 🦆 duck          | 1.83          | cornstarch1g       | 2024-10-07 19:38:57 |
 | 28    | 💀 skull         | 1.27          | mxrio41            | 2024-10-15 19:47:50 |
@@ -41,7 +41,7 @@
 | 37    | 🐟 fish          | 0.54          | kr1nxx_            | 2024-10-20 08:25:50 |
 | 38    | 🎏 lure          | 0.45          | grumpo_            | 2024-10-31 20:13:08 |
 | 39    | 🪱 worm          | 0.44          | larvasisters       | 2025-06-12 07:25:38 |
-| 40    | 🦎 lizard        | 0.41          | yopego             | 2024-10-24 07:02:02 |
+| 40    | 🦎 lizard        | 0.32 (-0.09)  | yopego             | 2025-07-30 16:43:19 |
 | 41    | 🥫 cannedfood    | 0.23          | grumvald           | 2024-12-04 11:13:52 |
 | 42    | 🐍 snake         | 0.08          | mxrio41            | 2024-10-17 22:12:49 |
 | 43    | 🦞 lobster       | 0.07          | kr1nxx_            | 2024-10-26 07:41:36 |
@@ -49,4 +49,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-07-27 09:39:12 UTC_
+_Last updated at 2025-08-03 09:09:50 UTC_

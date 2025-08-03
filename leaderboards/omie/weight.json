@@ -67,7 +67,7 @@
 		"fishid": 100521,
 		"chatid": 365,
 		"date": "2024-09-10T18:38:07Z",
-		"rank": 12
+		"rank": 13
 	},
 	"2885": {
 		"player": "xddjenny",
@@ -81,7 +81,7 @@
 		"fishid": 111928,
 		"chatid": 801,
 		"date": "2024-10-21T20:37:15Z",
-		"rank": 10
+		"rank": 11
 	},
 	"2941": {
 		"player": "v6r_",
@@ -100,15 +100,15 @@
 	"2944": {
 		"player": "gofishgamer",
 		"playerid": 2944,
-		"weight": 102.46,
+		"weight": 115.7,
 		"bot": "gofishgame",
-		"fishtype": "🦕",
-		"fishname": "sauropod",
+		"fishtype": "🐊",
+		"fishname": "crocodile",
 		"catchtype": "normal",
 		"chat": "omie",
-		"fishid": 188898,
-		"chatid": 7489,
-		"date": "2025-07-21T08:28:08Z",
+		"fishid": 191407,
+		"chatid": 7741,
+		"date": "2025-08-02T22:27:29Z",
 		"rank": 8
 	},
 	"3005": {
@@ -153,6 +153,20 @@
 		"date": "2025-01-26T02:26:54Z",
 		"rank": 4
 	},
+	"3570": {
+		"player": "dominoswifi",
+		"playerid": 3570,
+		"weight": 97.68,
+		"bot": "gofishgame",
+		"fishtype": "🦞",
+		"fishname": "lobster",
+		"catchtype": "normal",
+		"chat": "omie",
+		"fishid": 190616,
+		"chatid": 7644,
+		"date": "2025-07-29T22:41:07Z",
+		"rank": 10
+	},
 	"4": {
 		"player": "sussy_amonge",
 		"playerid": 4,
@@ -166,6 +180,6 @@
 		"fishid": 100042,
 		"chatid": 338,
 		"date": "2024-09-08T03:21:13Z",
-		"rank": 11
+		"rank": 12
 	}
 }

@@ -37,7 +37,7 @@
 | 33    | 🐡 blowfish      | 35.81         | bluberry                  | 2024-08-13 06:51:36 |
 | 34    | 🕷️ spider         | 31.29         | huuuuuuuuuuuuuuuuuuuuuurz | 2023-09-28 06:38:06 |
 | 35    | 🥒 cucumber      | 31.24         | divra__                   | 2024-06-07 00:44:07 |
-| 36    | 🧽 sponge        | 29.89 (+0.11) | nndiana                   | 2025-07-24 04:14:09 |
+| 36    | 🧽 sponge        | 29.89         | nndiana                   | 2025-07-24 04:14:09 |
 | 37    | 🪳 cockroach     | 25.94         | release1g                 | 2024-01-25 01:54:30 |
 | 38    | 🎰 slotmachine   | 24.99         | theevirus                 | 2024-10-03 20:36:11 |
 | 39    | 🦠 plankton      | 21.99         | nndiana                   | 2023-12-26 04:58:23 |
@@ -62,7 +62,7 @@
 | 58    | 🎱 8ball         | 10.82         | 0_asd                     | 2024-03-31 10:49:57 |
 | 59    | 🪁 kite          | 10.68         | bluberry                  | 2025-07-13 06:00:03 |
 | 60    | 🪺 nestwitheggs  | 10.58         | mazzo_tv                  | 2025-06-24 09:42:08 |
-| 61    | 🩲 briefs        | 10.49 (+0.29) | jayayseaohbee             | 2025-07-24 11:51:44 |
+| 61    | 🩲 briefs        | 10.49         | jayayseaohbee             | 2025-07-24 11:51:44 |
 | 62    | 🍄‍🟫 brownmushroom | 10.14         | nndiana                   | 2025-05-27 21:01:45 |
 | 63    | 🐦 bird          | 9.22          | zwockel01                 | 2024-07-04 11:25:35 |
 | 64    | 🧵 wireline      | 6.00          | ocrw                      | 2024-06-20 15:30:46 |
@@ -96,11 +96,11 @@
 | 92    | 🍁 mapleleaf     | 0.99          | flunke_                   | 2024-10-22 20:57:20 |
 | 93    | 🧣 scarf         | 0.92          | blazeblitzzz              | 2024-02-01 23:11:44 |
 | 94    | 🐿️ squirrel       | 0.90          | iflya320                  | 2024-12-04 11:13:44 |
-| 95    | 🌾 grass         | 0.87          | jayayseaohbee             | 2025-06-28 19:21:42 |
-| 96    | 🫙 jar           | 0.73          | ratot                     | 2025-06-23 23:21:36 |
+| 95 ⬆  | 🫙 jar           | 0.89 (+0.16)  | thetaxmen                 | 2025-07-30 11:19:48 |
+| 96 ⬇  | 🌾 grass         | 0.87          | jayayseaohbee             | 2025-06-28 19:21:42 |
 | 97    | 🪰 fly           | 0.14          | nndiana                   | 2025-06-22 14:06:56 |
 | 98    | 🐛 caterpillar   | 0.03          | ratot                     | 2025-06-30 15:05:57 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-07-27 09:40:38 UTC_
+_Last updated at 2025-08-03 09:09:02 UTC_

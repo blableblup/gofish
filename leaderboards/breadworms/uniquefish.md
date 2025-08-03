@@ -19,16 +19,16 @@
 | 14    | sicklymaidrobot       | 75        |
 | 16    | ninjaross*            | 74        |
 | 16    | osnyisdead            | 74        |
+| 18 ⬆  | derintu               | 73 (+2)   |
 | 18    | osnyatsky*            | 73        |
 | 18    | puzzlow               | 73        |
-| 20    | paras220              | 72        |
-| 21    | derintu               | 71 (+2)   |
-| 22    | respirate_            | 70 (+2)   |
+| 21 ⬇  | paras220              | 72        |
+| 22    | respirate_            | 71 (+1)   |
 | 23    | crazytown_bananapants | 67        |
 | 23    | gstaman911            | 67        |
-| 25 ⬆  | julialuxel            | 65 (+1)   |
+| 25    | julialuxel            | 65        |
 | 25    | ryebreadward          | 65        |
-| 27 ⬇  | mitgliederversammlung | 64        |
+| 27    | mitgliederversammlung | 64        |
 | 28    | sussy_amonge          | 62        |
 | 29    | gawblemachine         | 61        |
 | 30    | kaasppeerr            | 60        |
@@ -47,4 +47,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2025-07-27 09:39:04 UTC_
+_Last updated at 2025-08-03 09:10:54 UTC_

@@ -50,13 +50,13 @@
 | 46    | 🧭 compass       | 12.25         | vaiastol           | 2024-12-25 03:46:12 |
 | 47    | 🐌 snail         | 11.90         | leastsussyimposter | 2024-08-28 17:02:48 |
 | 48    | 🧸 teddybear     | 11.77         | eelacy             | 2025-02-28 20:45:50 |
-| 49    | 🪺 nestwitheggs  | 10.98         | hahppyy            | 2024-09-26 18:59:03 |
-| 50    | 🪱 worm          | 10.90         | divra__            | 2025-01-25 21:04:34 |
-| 51    | 📱 iphone        | 10.66         | pengeg             | 2024-12-24 00:32:17 |
-| 52    | 🪹 emptynest     | 10.57         | divra__            | 2025-04-12 21:36:49 |
-| 53    | 🪵 log           | 10.26         | bubinga            | 2024-11-05 20:58:54 |
-| 54    | 🧃 beveragebox   | 10.20         | dazedforevermore   | 2025-06-20 12:08:11 |
-| 55    | 🕶️ darksunglasses | 9.95          | tiaguitos97        | 2025-05-26 18:22:19 |
+| 49 ⬆  | 🕶️ darksunglasses | 11.59 (+1.64) | hahppyy            | 2025-07-28 14:28:31 |
+| 50 ⬇  | 🪺 nestwitheggs  | 10.98         | hahppyy            | 2024-09-26 18:59:03 |
+| 51 ⬇  | 🪱 worm          | 10.90         | divra__            | 2025-01-25 21:04:34 |
+| 52    | 🪹 emptynest     | 10.68 (+0.11) | vaiastol           | 2025-08-01 02:29:38 |
+| 53 ⬇  | 📱 iphone        | 10.66         | pengeg             | 2024-12-24 00:32:17 |
+| 54 ⬇  | 🪵 log           | 10.26         | bubinga            | 2024-11-05 20:58:54 |
+| 55 ⬇  | 🧃 beveragebox   | 10.20         | dazedforevermore   | 2025-06-20 12:08:11 |
 | 56    | 💀 skull         | 9.87          | leanmeister        | 2025-03-27 18:21:23 |
 | 57    | 🎱 8ball         | 9.50          | leastsussyimposter | 2025-01-06 22:09:55 |
 | 58    | 🦎 lizard        | 7.98          | leastsussyimposter | 2024-12-24 22:04:56 |
@@ -93,15 +93,15 @@
 | 89    | 🧤 gloves        | 0.95          | hahppyy            | 2024-11-02 16:18:30 |
 | 90    | 🐿️ squirrel       | 0.90          | creepycode         | 2024-12-04 03:46:23 |
 | 91    | 🪶 feather       | 0.88          | milesdotcom        | 2024-10-21 19:36:21 |
-| 92 🆕 | 🦉 owl           | 0.85          | eelacy             | 2025-07-21 13:58:54 |
-| 93 ⬇  | 🍁 mapleleaf     | 0.84          | divra__            | 2024-09-27 22:38:30 |
-| 94 ⬇  | 🍬 candy         | 0.81          | hahppyy            | 2025-01-03 15:22:18 |
-| 95 ⬇  | 🌾 grass         | 0.79          | leanmeister        | 2025-03-20 20:23:59 |
-| 96 ⬇  | 🫙 jar           | 0.50          | obama              | 2025-07-17 13:01:15 |
-| 97 ⬇  | 🐛 caterpillar   | 0.42          | leanmeister        | 2025-06-22 19:10:14 |
-| 98 ⬇  | 🪰 fly           | 0.10          | hahppyy            | 2025-06-25 08:02:09 |
-| 99 ⬇  | 🕸️ spiderweb      | 0.02          | vaiastol           | 2025-07-05 00:02:49 |
+| 92    | 🦉 owl           | 0.85          | eelacy             | 2025-07-21 13:58:54 |
+| 93    | 🍁 mapleleaf     | 0.84          | divra__            | 2024-09-27 22:38:30 |
+| 94    | 🍬 candy         | 0.81          | hahppyy            | 2025-01-03 15:22:18 |
+| 95    | 🌾 grass         | 0.79          | leanmeister        | 2025-03-20 20:23:59 |
+| 96    | 🫙 jar           | 0.50          | obama              | 2025-07-17 13:01:15 |
+| 97    | 🐛 caterpillar   | 0.42          | leanmeister        | 2025-06-22 19:10:14 |
+| 98    | 🪰 fly           | 0.10          | hahppyy            | 2025-06-25 08:02:09 |
+| 99    | 🕸️ spiderweb      | 0.02          | vaiastol           | 2025-07-05 00:02:49 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-07-27 09:40:20 UTC_
+_Last updated at 2025-08-03 09:08:33 UTC_
