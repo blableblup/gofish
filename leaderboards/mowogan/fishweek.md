@@ -3,8 +3,8 @@
 | Rank  | Player      | Fish caught |
 |:------|:------------|:------------|
 | 1 🥇  | konsminator | 44          |
-| 2 🥈  | mowogan     | 21 (+1)     |
+| 2 🥈  | mowogan     | 33 (+12)    |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-07-23 14:45:01 UTC_
+_Last updated at 2025-08-06 15:53:19 UTC_
