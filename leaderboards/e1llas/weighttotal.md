@@ -2,7 +2,7 @@
 
 | Rank  | Player     | Total Weight in lbs |
 |:------|:-----------|:--------------------|
-| 1 🥇  | envtt      | 2325.75 (+12.77)    |
+| 1 🥇  | envtt      | 2325.75             |
 | 2 🥈  | e1llas     | 1546.04             |
 | 3 🥉  | d1fforr    | 992.25              |
 | 4     | jboy42o    | 598.47              |
@@ -10,4 +10,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2025-08-03 09:09:29 UTC_
+_Last updated at 2025-08-10 09:05:25 UTC_

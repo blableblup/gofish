@@ -13,6 +13,19 @@
 		"date": "2025-05-18T21:28:28Z",
 		"rank": 4
 	},
+	"candy": {
+		"player": "bubinga",
+		"playerid": 2339,
+		"bot": "gofishgame",
+		"fishtype": "🍬",
+		"fishname": "candy",
+		"catchtype": "release",
+		"chat": "deme",
+		"fishid": 192311,
+		"chatid": 27,
+		"date": "2025-08-09T07:12:21Z",
+		"rank": 19
+	},
 	"coral": {
 		"player": "commanda_u",
 		"playerid": 1747,
@@ -180,6 +193,20 @@
 		"chatid": 8,
 		"date": "2025-05-23T23:26:41Z",
 		"rank": 6
+	},
+	"snake": {
+		"player": "bubinga",
+		"playerid": 2339,
+		"weight": 12.63,
+		"bot": "gofishgame",
+		"fishtype": "🐍",
+		"fishname": "snake",
+		"catchtype": "normal",
+		"chat": "deme",
+		"fishid": 192310,
+		"chatid": 26,
+		"date": "2025-08-09T07:12:10Z",
+		"rank": 18
 	},
 	"socks": {
 		"player": "letter__n",

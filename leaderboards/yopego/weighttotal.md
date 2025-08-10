@@ -4,7 +4,7 @@
 |:------|:--------------------|:--------------------|
 | 1 🥇  | grumpo_             | 515.81              |
 | 2 🥈  | gizei_              | 346.38              |
-| 3 🥉  | yopego              | 297.19 (+7.64)      |
+| 3 🥉  | yopego              | 304.80 (+7.61)      |
 | 4     | xx_sn1perpro420_xx* | 260.75              |
 | 5     | jasonnguyenv12      | 253.32              |
 | 6     | mxrio41             | 242.17              |
@@ -12,4 +12,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2025-08-03 09:09:30 UTC_
+_Last updated at 2025-08-10 09:05:25 UTC_

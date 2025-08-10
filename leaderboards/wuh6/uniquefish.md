@@ -5,13 +5,13 @@
 | 1 🥇  | eeziiii                   | 87        |
 | 2 🥈  | iflya320                  | 85        |
 | 3 🥉  | bubinga                   | 83        |
-| 4     | huuuuuuuuuuuuuuuuuuuuuurz | 80        |
+| 4     | huuuuuuuuuuuuuuuuuuuuuurz | 81 (+1)   |
 | 5     | theevirus                 | 76        |
 | 6     | wowitsdub                 | 74        |
 | 7     | veny2lbs                  | 73        |
-| 8     | nndiana*                  | 71        |
+| 8     | nndiana*                  | 72 (+1)   |
 | 9     | lobuhtomy                 | 66        |
-| 10    | gorillapark               | 64 (+1)   |
+| 10    | gorillapark               | 64        |
 | 11    | commanda_u                | 51        |
 | 12    | mazzo_tv                  | 50        |
 | 13    | bluberry                  | 49        |
@@ -23,9 +23,9 @@
 | 18    | teddbearcs                | 39        |
 | 20    | benciee                   | 35        |
 | 20    | jr_mime                   | 35        |
-| 22 ⬆  | flvx_flux*                | 31 (+2)   |
-| 22    | zwockel01                 | 31        |
-| 24 ⬇  | ratot                     | 29        |
+| 22    | flvx_flux*                | 32 (+1)   |
+| 23 ⬇  | zwockel01                 | 31        |
+| 24    | ratot                     | 29        |
 | 25    | wadupcaprise              | 27        |
 | 26    | ocrw                      | 26        |
 | 27    | wuh6                      | 25        |
@@ -34,10 +34,11 @@
 | 30    | 21h6c                     | 23        |
 | 30    | funnywhitecat6*           | 23        |
 | 30    | onarrrrrrrr               | 23        |
+| 33 🆕 | ewpert1                   | 20        |
 | 33    | supibot                   | 20        |
 
 _This does not include fish seen through 🎁 gifts or through releasing to another player during the winter events!_
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2025-08-03 09:10:55 UTC_
+_Last updated at 2025-08-10 09:06:49 UTC_

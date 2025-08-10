@@ -2,7 +2,7 @@
 
 | Rank  | Player             | Fish seen |
 |:------|:-------------------|:----------|
-| 1 🥇  | buhl00n            | 83        |
+| 1 🥇  | buhl00n            | 85 (+2)   |
 | 2 🥈  | iam_glorp          | 75        |
 | 3 🥉  | gimmeschmoneys     | 64        |
 | 4     | ben_vincent        | 60        |
@@ -12,7 +12,7 @@
 | 8     | konsminator        | 49        |
 | 9     | spanmer            | 48        |
 | 10    | hamoodhabibee      | 47        |
-| 10 ⬆  | simplydrack        | 47 (+1)   |
+| 10    | simplydrack        | 47        |
 | 12    | vagdi              | 45        |
 | 13    | notnownico         | 44        |
 | 13    | rabituwu           | 44        |
@@ -23,8 +23,8 @@
 | 19    | exo9*              | 39        |
 | 20    | burnend            | 38        |
 | 21    | aceleju            | 37        |
-| 22    | lilzomme           | 35        |
-| 22    | mousee93           | 35        |
+| 22    | mousee93           | 36 (+1)   |
+| 23 ⬇  | lilzomme           | 35        |
 | 24    | kukkuri            | 34        |
 | 25    | wisteraeia         | 33        |
 | 26    | feuha              | 32        |
@@ -32,9 +32,9 @@
 | 27    | paperboat99        | 31        |
 | 27    | whoop_ee           | 31        |
 | 30    | icejamx            | 30        |
-| 31 ⬆  | respirate_         | 29 (+3)   |
-| 32 ⬇  | silent11d5         | 27        |
-| 33 ⬇  | ruusui             | 26        |
+| 31    | respirate_         | 29        |
+| 32    | silent11d5         | 27        |
+| 33    | ruusui             | 26        |
 | 34    | youngstercal       | 25        |
 | 35    | buffyo             | 24        |
 | 35    | mitsu_skidz        | 24        |
@@ -53,4 +53,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2025-08-03 09:10:55 UTC_
+_Last updated at 2025-08-10 09:06:48 UTC_

@@ -55,6 +55,20 @@
 		"date": "2025-06-26T14:01:29Z",
 		"rank": 22
 	},
+	"blackbird": {
+		"player": "konsminator",
+		"playerid": 3143,
+		"weight": 1.28,
+		"bot": "gofishgame",
+		"fishtype": "🐦‍⬛",
+		"fishname": "blackbird",
+		"catchtype": "egg",
+		"chat": "mowogan",
+		"fishid": 192228,
+		"chatid": 393,
+		"date": "2025-08-08T15:44:29Z",
+		"rank": 53
+	},
 	"blowfish": {
 		"player": "konsminator",
 		"playerid": 3143,
@@ -291,6 +305,20 @@
 		"chatid": 14,
 		"date": "2025-06-23T23:32:09Z",
 		"rank": 12
+	},
+	"grass": {
+		"player": "mowogan",
+		"playerid": 3811,
+		"weight": 0.2,
+		"bot": "gofishgame",
+		"fishtype": "🌾",
+		"fishname": "grass",
+		"catchtype": "normal",
+		"chat": "mowogan",
+		"fishid": 192353,
+		"chatid": 400,
+		"date": "2025-08-09T14:57:20Z",
+		"rank": 54
 	},
 	"hook": {
 		"player": "mowogan",
@@ -681,6 +709,20 @@
 		"chatid": 4,
 		"date": "2025-06-23T17:46:49Z",
 		"rank": 4
+	},
+	"whale": {
+		"player": "konsminator",
+		"playerid": 3143,
+		"weight": 154.77,
+		"bot": "gofishgame",
+		"fishtype": "🐳",
+		"fishname": "whale",
+		"catchtype": "normal",
+		"chat": "mowogan",
+		"fishid": 192038,
+		"chatid": 384,
+		"date": "2025-08-07T08:39:55Z",
+		"rank": 52
 	},
 	"whale2": {
 		"player": "mowogan",

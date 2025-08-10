@@ -2,6 +2,9 @@
 
 | Rank | Fish             | Weight in lbs | Player      | Date in UTC         |
 |:-----|:-----------------|:--------------|:------------|:--------------------|
+| 54   | 🌾 grass         | 0.20          | mowogan     | 2025-08-09 14:57:20 |
+| 53   | 🐦‍⬛ blackbird     | 1.28          | konsminator | 2025-08-08 15:44:29 |
+| 52   | 🐳 whale         | 154.77        | konsminator | 2025-08-07 08:39:55 |
 | 51   | 🎰 slotmachine   | 0.00          | konsminator | 2025-07-29 16:00:32 |
 | 50   | 🪼 jellyfish     | 16.07         | mowogan     | 2025-07-24 06:18:34 |
 | 49   | 🥒 cucumber      | 3.06          | mowogan     | 2025-07-21 16:26:56 |
@@ -54,4 +57,4 @@
 | 2    | 🎱 8ball         | 0.79          | konsminator | 2025-06-23 16:25:30 |
 | 1    | 🪝 hook          | 2.28          | mowogan     | 2025-06-23 16:00:57 |
 
-_Last updated at 2025-08-03 09:09:41 UTC_
+_Last updated at 2025-08-10 09:05:26 UTC_

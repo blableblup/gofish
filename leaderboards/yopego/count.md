@@ -2,7 +2,7 @@
 
 | Rank  | Player              | Fish caught |
 |:------|:--------------------|:------------|
-| 1 🥇  | yopego              | 28 (+3)     |
+| 1 🥇  | yopego              | 30 (+2)     |
 | 2 🥈  | grumpo_             | 22          |
 | 2 🥈  | mxrio41             | 22          |
 | 4     | xx_sn1perpro420_xx* | 17          |
@@ -12,4 +12,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-08-03 09:09:39 UTC_
+_Last updated at 2025-08-10 09:04:03 UTC_

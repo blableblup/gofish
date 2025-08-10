@@ -14,7 +14,7 @@
 | 10    | 🦑 squid        | 73.22         | desxyne       | 2025-07-12 23:13:36 |
 | 11    | 🐬 dolphin      | 67.04         | dom1torii     | 2025-03-06 23:54:11 |
 | 12    | 🦞 lobster      | 59.30         | poggu_        | 2024-11-28 10:34:33 |
-| 13    | 🦈 shark        | 46.64         | yyaaaaaaaas   | 2025-02-05 04:06:13 |
+| 13    | 🦈 shark        | 47.04 (+0.40) | rustezzz      | 2025-08-08 05:38:01 |
 | 14    | 🪨 rock         | 45.07         | stofeyxd      | 2025-07-12 17:43:38 |
 | 15    | 🦀 crab         | 38.55         | bubinga       | 2025-07-10 16:04:33 |
 | 16    | 🛢️ oildrum       | 37.07         | rustezzz      | 2025-06-21 00:09:40 |
@@ -24,12 +24,12 @@
 | 20    | 🐡 blowfish     | 25.12         | poggu_        | 2024-12-01 21:24:56 |
 | 21    | 🧽 sponge       | 25.02         | kargalay      | 2025-06-28 22:06:35 |
 | 22    | 🗡️ dagger        | 22.91         | stofeyxd      | 2025-04-28 08:38:27 |
-| 23 ⬆  | 🥒 cucumber     | 22.55 (+5.67) | aistyrax3     | 2025-07-21 18:32:01 |
-| 24 ⬇  | 🐠 tropicalfish | 21.97         | mishashto     | 2024-12-10 22:11:34 |
-| 25 ⬇  | 🪼 jellyfish    | 21.95         | rustezzz      | 2025-07-10 11:28:52 |
-| 26 ⬇  | 🪳 cockroach    | 20.97         | dom1torii     | 2025-02-21 18:48:18 |
-| 27 ⬇  | 🐟 fish         | 19.73         | dom1torii     | 2025-03-16 00:14:09 |
-| 28 ⬇  | 🕷️ spider        | 17.79         | aquaismissing | 2024-12-10 11:21:57 |
+| 23    | 🥒 cucumber     | 22.55         | aistyrax3     | 2025-07-21 18:32:01 |
+| 24    | 🐠 tropicalfish | 21.97         | mishashto     | 2024-12-10 22:11:34 |
+| 25    | 🪼 jellyfish    | 21.95         | rustezzz      | 2025-07-10 11:28:52 |
+| 26    | 🪳 cockroach    | 20.97         | dom1torii     | 2025-02-21 18:48:18 |
+| 27    | 🐟 fish         | 19.73         | dom1torii     | 2025-03-16 00:14:09 |
+| 28    | 🕷️ spider        | 17.79         | aquaismissing | 2024-12-10 11:21:57 |
 | 29    | 🦠 plankton     | 15.80         | mishashto     | 2024-12-11 05:17:21 |
 | 30    | 🍄 mushroom     | 15.17         | kaczer1       | 2024-12-25 16:19:59 |
 | 31    | 🦦 otter        | 12.83         | likedom_      | 2025-02-19 09:21:54 |
@@ -54,4 +54,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-07-27 09:41:24 UTC_
+_Last updated at 2025-08-10 09:04:05 UTC_

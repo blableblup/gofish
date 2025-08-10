@@ -50,28 +50,28 @@
 | 46    | 🧭 compass       | 12.25         | vaiastol           | 2024-12-25 03:46:12 |
 | 47    | 🐌 snail         | 11.90         | leastsussyimposter | 2024-08-28 17:02:48 |
 | 48    | 🧸 teddybear     | 11.77         | eelacy             | 2025-02-28 20:45:50 |
-| 49 ⬆  | 🕶️ darksunglasses | 11.59 (+1.64) | hahppyy            | 2025-07-28 14:28:31 |
-| 50 ⬇  | 🪺 nestwitheggs  | 10.98         | hahppyy            | 2024-09-26 18:59:03 |
-| 51 ⬇  | 🪱 worm          | 10.90         | divra__            | 2025-01-25 21:04:34 |
-| 52    | 🪹 emptynest     | 10.68 (+0.11) | vaiastol           | 2025-08-01 02:29:38 |
-| 53 ⬇  | 📱 iphone        | 10.66         | pengeg             | 2024-12-24 00:32:17 |
-| 54 ⬇  | 🪵 log           | 10.26         | bubinga            | 2024-11-05 20:58:54 |
-| 55 ⬇  | 🧃 beveragebox   | 10.20         | dazedforevermore   | 2025-06-20 12:08:11 |
+| 49    | 🕶️ darksunglasses | 11.59         | hahppyy            | 2025-07-28 14:28:31 |
+| 50    | 🪺 nestwitheggs  | 10.98         | hahppyy            | 2024-09-26 18:59:03 |
+| 51    | 🪱 worm          | 10.90         | divra__            | 2025-01-25 21:04:34 |
+| 52    | 🪹 emptynest     | 10.68         | vaiastol           | 2025-08-01 02:29:38 |
+| 53    | 📱 iphone        | 10.66         | pengeg             | 2024-12-24 00:32:17 |
+| 54    | 🪵 log           | 10.26         | bubinga            | 2024-11-05 20:58:54 |
+| 55    | 🧃 beveragebox   | 10.20         | dazedforevermore   | 2025-06-20 12:08:11 |
 | 56    | 💀 skull         | 9.87          | leanmeister        | 2025-03-27 18:21:23 |
 | 57    | 🎱 8ball         | 9.50          | leastsussyimposter | 2025-01-06 22:09:55 |
-| 58    | 🦎 lizard        | 7.98          | leastsussyimposter | 2024-12-24 22:04:56 |
-| 59    | 🦆 duck          | 6.56          | divra__            | 2024-11-02 04:38:35 |
-| 60    | 🥫 cannedfood    | 5.92          | hahppyy            | 2025-01-13 14:58:31 |
-| 61    | 🧵 wireline      | 5.87          | vaiastol           | 2025-03-13 07:44:35 |
-| 62    | 🐚 shell         | 5.60          | v6r_               | 2025-04-02 06:07:49 |
-| 63    | 👒 womanshat     | 5.54          | hahppyy            | 2024-11-02 04:51:56 |
-| 64    | 🩲 briefs        | 5.42          | pengeg             | 2024-08-04 21:14:04 |
-| 65    | 🎏 lure          | 4.97          | vaiastol           | 2025-02-06 22:37:25 |
-| 66    | ☘️ shamrock       | 4.00          | garout             | 2025-06-26 17:47:50 |
-| 67    | 🪝 hook          | 3.95          | yoimlee            | 2025-05-19 12:50:57 |
-| 68    | 🌰 acorn         | 3.94          | divra__            | 2024-10-03 20:49:22 |
-| 69    | 🦢 swan          | 3.86          | divra__            | 2025-05-06 23:44:45 |
-| 70    | 🪁 kite          | 3.47          | redreignss         | 2025-07-09 14:49:09 |
+| 58 ⬆  | 🪁 kite          | 8.74 (+5.27)  | garout             | 2025-08-06 23:32:14 |
+| 59 ⬇  | 🦎 lizard        | 7.98          | leastsussyimposter | 2024-12-24 22:04:56 |
+| 60 ⬇  | 🦆 duck          | 6.56          | divra__            | 2024-11-02 04:38:35 |
+| 61 ⬇  | 🥫 cannedfood    | 5.92          | hahppyy            | 2025-01-13 14:58:31 |
+| 62 ⬇  | 🧵 wireline      | 5.87          | vaiastol           | 2025-03-13 07:44:35 |
+| 63 ⬇  | 🐚 shell         | 5.60          | v6r_               | 2025-04-02 06:07:49 |
+| 64 ⬇  | 👒 womanshat     | 5.54          | hahppyy            | 2024-11-02 04:51:56 |
+| 65 ⬇  | 🩲 briefs        | 5.42          | pengeg             | 2024-08-04 21:14:04 |
+| 66 ⬇  | 🎏 lure          | 4.97          | vaiastol           | 2025-02-06 22:37:25 |
+| 67 ⬇  | ☘️ shamrock       | 4.00          | garout             | 2025-06-26 17:47:50 |
+| 68 ⬇  | 🪝 hook          | 3.95          | yoimlee            | 2025-05-19 12:50:57 |
+| 69 ⬇  | 🌰 acorn         | 3.94          | divra__            | 2024-10-03 20:49:22 |
+| 70 ⬇  | 🦢 swan          | 3.86          | divra__            | 2025-05-06 23:44:45 |
 | 71    | 🌷 tulip         | 2.98          | eelacy             | 2025-03-18 02:28:33 |
 | 72    | 🌻 sunflower     | 2.94          | vaiastol           | 2025-06-10 19:21:56 |
 | 73    | 🐦 bird          | 2.86          | vaiastol           | 2025-05-22 14:52:45 |
@@ -104,4 +104,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-08-03 09:08:33 UTC_
+_Last updated at 2025-08-10 09:04:32 UTC_
