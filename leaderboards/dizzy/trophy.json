@@ -23,7 +23,7 @@
 		"weight": 3,
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 1,
-		"rank": 13
+		"rank": 14
 	},
 	"2989": {
 		"player": "lolspers",
@@ -52,7 +52,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"silver": 1,
 		"bronze": 1,
-		"rank": 15
+		"rank": 16
 	},
 	"3007": {
 		"player": "spanmer",
@@ -128,7 +128,7 @@
 		"weight": 1,
 		"date": "0001-01-01T00:00:00Z",
 		"bronze": 2,
-		"rank": 16
+		"rank": 17
 	},
 	"3238": {
 		"player": "notnownico",
@@ -136,7 +136,7 @@
 		"weight": 3,
 		"date": "0001-01-01T00:00:00Z",
 		"silver": 3,
-		"rank": 13
+		"rank": 14
 	},
 	"3448": {
 		"player": "iam_glorp",
@@ -151,9 +151,10 @@
 	"64": {
 		"player": "julialuxel",
 		"playerid": 64,
-		"weight": 0.5,
+		"weight": 3.5,
 		"date": "0001-01-01T00:00:00Z",
+		"silver": 3,
 		"bronze": 1,
-		"rank": 17
+		"rank": 12
 	}
 }

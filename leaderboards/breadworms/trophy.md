@@ -16,7 +16,7 @@
 | 12    | sussy_amonge              | 12          | 4                | 7                | 43.5        |
 | 13    | sicklymaidrobot           | 5           | 10               | 26               | 38.0        |
 | 14    | comiqq                    | 5           | 12               | 9                | 31.5        |
-| 15    | derintu                   | 3           | 10               | 16 (+1)          | 27.0 (+0.5) |
+| 15    | derintu                   | 3           | 13 (+3)          | 16               | 30.0 (+3.0) |
 | 16    | fishingalt                | 4           | 8                | 10               | 25.0        |
 | 17    | c_mgirl                   | 3           | 3                | 11               | 17.5        |
 | 18    | booty_bread               | 4           | 2                | 6                | 17.0        |
@@ -47,4 +47,4 @@
 | 41    | mochi_uygqzidbjizjkbehuiw | 0           | 0                | 1                | 0.5         |
 | 41    | niiy                      | 0           | 0                | 1                | 0.5         |
 
-_Last updated at 2025-08-06 15:53:19 UTC_
+_Last updated at 2025-08-13 21:19:14 UTC_
