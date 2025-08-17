@@ -81,7 +81,7 @@
 		"fishid": 116448,
 		"chatid": 1085,
 		"date": "2024-10-31T22:04:45Z",
-		"rank": 91
+		"rank": 92
 	},
 	"117257": {
 		"player": "v6r_",
@@ -95,7 +95,7 @@
 		"fishid": 117257,
 		"chatid": 1130,
 		"date": "2024-11-02T08:33:46Z",
-		"rank": 88
+		"rank": 89
 	},
 	"118922": {
 		"player": "mangos4u",
@@ -123,7 +123,7 @@
 		"fishid": 119386,
 		"chatid": 1324,
 		"date": "2024-11-07T23:02:14Z",
-		"rank": 89
+		"rank": 90
 	},
 	"121621": {
 		"player": "ritaaww",
@@ -137,7 +137,7 @@
 		"fishid": 121621,
 		"chatid": 1448,
 		"date": "2024-11-14T18:01:07Z",
-		"rank": 87
+		"rank": 88
 	},
 	"122278": {
 		"player": "ritaaww",
@@ -319,7 +319,7 @@
 		"fishid": 135069,
 		"chatid": 2674,
 		"date": "2024-12-25T02:11:33Z",
-		"rank": 93
+		"rank": 94
 	},
 	"135645": {
 		"player": "solahh__",
@@ -403,7 +403,7 @@
 		"fishid": 138118,
 		"chatid": 2908,
 		"date": "2025-01-02T19:30:46Z",
-		"rank": 94
+		"rank": 95
 	},
 	"138145": {
 		"player": "ritaaww",
@@ -417,7 +417,7 @@
 		"fishid": 138145,
 		"chatid": 2913,
 		"date": "2025-01-02T20:44:04Z",
-		"rank": 92
+		"rank": 93
 	},
 	"138277": {
 		"player": "mangos4u",
@@ -445,7 +445,7 @@
 		"fishid": 138293,
 		"chatid": 2927,
 		"date": "2025-01-03T07:59:36Z",
-		"rank": 85
+		"rank": 86
 	},
 	"138558": {
 		"player": "v6r_",
@@ -460,20 +460,6 @@
 		"chatid": 2944,
 		"date": "2025-01-04T07:04:39Z",
 		"rank": 22
-	},
-	"138773": {
-		"player": "v6r_",
-		"playerid": 2941,
-		"weight": 160.12,
-		"bot": "gofishgame",
-		"fishtype": "🦕",
-		"fishname": "sauropod",
-		"catchtype": "normal",
-		"chat": "omie",
-		"fishid": 138773,
-		"chatid": 2956,
-		"date": "2025-01-04T19:42:47Z",
-		"rank": 100
 	},
 	"139225": {
 		"player": "v6r_",
@@ -543,7 +529,7 @@
 		"fishid": 140584,
 		"chatid": 3170,
 		"date": "2025-01-11T02:03:30Z",
-		"rank": 95
+		"rank": 96
 	},
 	"141026": {
 		"player": "solahh__",
@@ -795,7 +781,7 @@
 		"fishid": 151718,
 		"chatid": 4274,
 		"date": "2025-03-01T22:12:09Z",
-		"rank": 98
+		"rank": 99
 	},
 	"151920": {
 		"player": "ritaaww",
@@ -851,7 +837,7 @@
 		"fishid": 156933,
 		"chatid": 4902,
 		"date": "2025-03-19T17:52:32Z",
-		"rank": 96
+		"rank": 97
 	},
 	"157331": {
 		"player": "solahh__",
@@ -1075,7 +1061,7 @@
 		"fishid": 176158,
 		"chatid": 6579,
 		"date": "2025-05-27T01:30:19Z",
-		"rank": 97
+		"rank": 98
 	},
 	"176991": {
 		"player": "solahh__",
@@ -1089,7 +1075,7 @@
 		"fishid": 176991,
 		"chatid": 6632,
 		"date": "2025-06-01T01:10:29Z",
-		"rank": 99
+		"rank": 100
 	},
 	"178049": {
 		"player": "mangos4u",
@@ -1159,7 +1145,7 @@
 		"fishid": 188547,
 		"chatid": 7445,
 		"date": "2025-07-19T21:52:11Z",
-		"rank": 90
+		"rank": 91
 	},
 	"188664": {
 		"player": "v6r_",
@@ -1301,6 +1287,20 @@
 		"date": "2025-08-04T21:15:23Z",
 		"rank": 53
 	},
+	"192522": {
+		"player": "v6r_",
+		"playerid": 2941,
+		"weight": 175.29,
+		"bot": "gofishgame",
+		"fishtype": "🐳",
+		"fishname": "whale",
+		"catchtype": "normal",
+		"chat": "omie",
+		"fishid": 192522,
+		"chatid": 7911,
+		"date": "2025-08-10T22:11:58Z",
+		"rank": 85
+	},
 	"93913": {
 		"player": "ritaaww",
 		"playerid": 2813,
@@ -1369,7 +1369,7 @@
 		"fishid": 95386,
 		"chatid": 206,
 		"date": "2024-08-13T19:08:21Z",
-		"rank": 86
+		"rank": 87
 	},
 	"95702": {
 		"player": "aliveleader",

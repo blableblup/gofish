@@ -10,13 +10,13 @@
 | 6     | goopy777            | 34        |
 | 7     | teeto               | 30        |
 | 8     | e1d2f3              | 29        |
-| 9     | cptblack_           | 28 (+1)   |
+| 9     | cptblack_           | 28        |
 | 10    | crunch_sack         | 20        |
 | 10    | wombatbrownies      | 20        |
 | 12    | fadingmemoriez      | 14        |
-| 13    | pxxchy_dreams       | 13        |
-| 13 ⬆  | yaykaiza            | 13 (+1)   |
-| 15 ⬇  | jellyuh             | 12        |
+| 12 ⬆  | yaykaiza            | 14 (+1)   |
+| 14 ⬇  | pxxchy_dreams       | 13        |
+| 15    | jellyuh             | 12        |
 | 16    | piz_z               | 11        |
 | 17    | akasamoyed          | 10        |
 | 17    | blitzrailgun        | 10        |
@@ -27,4 +27,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2025-08-10 09:06:47 UTC_
+_Last updated at 2025-08-17 10:06:04 UTC_

@@ -11,19 +11,19 @@
 | 5     | miiiiisho             | 83        |
 | 8     | qu4ttromila           | 81        |
 | 9     | c_mgirl               | 79        |
-| 10    | booty_bread           | 77        |
-| 10    | kishma9               | 77        |
+| 10    | kishma9               | 78 (+1)   |
+| 11 ⬇  | booty_bread           | 77        |
 | 12    | breadworms            | 76        |
 | 12    | dazedforevermore      | 76        |
-| 14    | dougiefresh_83*       | 75        |
-| 14    | sicklymaidrobot       | 75        |
+| 12 ⬆  | dougiefresh_83*       | 76 (+1)   |
+| 15 ⬇  | sicklymaidrobot       | 75        |
 | 16    | ninjaross*            | 74        |
 | 16    | osnyisdead            | 74        |
-| 18 ⬆  | derintu               | 73 (+2)   |
+| 18    | derintu               | 73        |
 | 18    | osnyatsky*            | 73        |
 | 18    | puzzlow               | 73        |
-| 21 ⬇  | paras220              | 72        |
-| 22    | respirate_            | 71 (+1)   |
+| 21    | paras220              | 72        |
+| 22    | respirate_            | 71        |
 | 23    | crazytown_bananapants | 67        |
 | 23    | gstaman911            | 67        |
 | 25    | julialuxel            | 65        |
@@ -47,4 +47,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2025-08-03 09:10:54 UTC_
+_Last updated at 2025-08-17 10:06:03 UTC_

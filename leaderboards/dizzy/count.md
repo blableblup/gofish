@@ -2,24 +2,24 @@
 
 | Rank  | Player         | Fish caught |
 |:------|:---------------|:------------|
-| 1 🥇  | buhl00n        | 2318 (+18)  |
-| 2 🥈  | gimmeschmoneys | 1072 (+1)   |
-| 3 🥉  | iam_glorp      | 1046 (+1)   |
+| 1 🥇  | buhl00n        | 2327 (+9)   |
+| 2 🥈  | gimmeschmoneys | 1073 (+1)   |
+| 3 🥉  | iam_glorp      | 1050 (+4)   |
 | 4     | ben_vincent    | 773         |
 | 5     | lolspers       | 620         |
 | 6     | iam_haunt      | 535         |
 | 7     | spanmer        | 366         |
 | 8     | konsminator    | 326         |
-| 9     | ofaisalz       | 308 (+1)    |
+| 9     | ofaisalz       | 310 (+2)    |
 | 10    | rabituwu       | 243         |
 | 11    | notnownico     | 226         |
 | 12    | vagdi          | 213         |
-| 13    | hamoodhabibee  | 205 (+1)    |
-| 14    | simplydrack    | 183 (+3)    |
+| 13    | hamoodhabibee  | 205         |
+| 14    | simplydrack    | 183         |
 | 15    | ssenario       | 171         |
 | 16    | tairaaaaa      | 166         |
-| 17    | mousee93       | 149 (+4)    |
-| 18    | kyonuwu        | 140 (+1)    |
+| 17    | mousee93       | 153 (+4)    |
+| 18    | kyonuwu        | 140         |
 | 19    | burnend        | 133         |
 | 20    | sugur          | 132         |
 | 21    | exo9*          | 130         |
@@ -56,4 +56,4 @@
 
 _Only showing fishers who caught >= 30 fish_
 
-_Last updated at 2025-08-10 09:04:02 UTC_
+_Last updated at 2025-08-17 10:04:42 UTC_

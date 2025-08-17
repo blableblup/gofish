@@ -80,13 +80,13 @@
 | 76    | ☘️ shamrock       | 3.99          | destin357             | 2025-06-21 21:51:55 |
 | 77    | 🌰 acorn         | 3.91          | fishingalt            | 2024-09-25 12:59:56 |
 | 78    | 🪿 goose         | 3.41          | julialuxel            | 2025-01-15 04:08:39 |
+| 79 ⬆  | 🌻 sunflower     | 2.99 (+0.21)  | kishma9               | 2025-08-13 23:02:21 |
 | 79    | ☂️ umbrella       | 2.99          | vaiastol              | 2024-07-14 15:25:04 |
-| 80    | 👡 sandal        | 2.97          | fishingalt            | 2025-03-16 15:45:17 |
-| 80    | 🥀 wiltedflower  | 2.97          | c_mgirl               | 2024-12-19 20:15:08 |
-| 82    | 🌹 rose          | 2.96          | osnyatsky             | 2024-03-28 12:12:36 |
-| 82    | 🥪 sandwich      | 2.96          | qu4ttromila           | 2023-05-29 08:10:17 |
-| 84    | 🌷 tulip         | 2.85          | faeritual             | 2025-04-26 01:03:44 |
-| 85    | 🌻 sunflower     | 2.78          | fishingalt            | 2024-06-18 10:20:11 |
+| 81 ⬇  | 👡 sandal        | 2.97          | fishingalt            | 2025-03-16 15:45:17 |
+| 81 ⬇  | 🥀 wiltedflower  | 2.97          | c_mgirl               | 2024-12-19 20:15:08 |
+| 83 ⬇  | 🌹 rose          | 2.96          | osnyatsky             | 2024-03-28 12:12:36 |
+| 83 ⬇  | 🥪 sandwich      | 2.96          | qu4ttromila           | 2023-05-29 08:10:17 |
+| 85 ⬇  | 🌷 tulip         | 2.85          | faeritual             | 2025-04-26 01:03:44 |
 | 86    | 🍬 candy         | 2.60          | 5c33*                 | 2022-12-19 03:20:33 |
 | 87    | 👟 athleticshoe  | 2.00          | kishma9               | 2023-11-05 02:37:53 |
 | 87    | 🧦 socks         | 2.00          | osnyatsky*            | 2023-01-31 01:42:33 |
@@ -117,4 +117,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-07-27 09:40:56 UTC_
+_Last updated at 2025-08-17 10:05:00 UTC_

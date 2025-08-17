@@ -30,7 +30,7 @@
 | 26    | 🐸 frog          | 42.05         | exo9           | 2024-10-29 22:15:02 |
 | 27    | 🐧 penguin       | 40.98         | buhl00n        | 2024-12-25 06:28:31 |
 | 28    | 🛢️ oildrum        | 39.41         | lolspers       | 2025-06-28 00:12:52 |
-| 29    | 🦀 crab          | 36.71 (+1.22) | julialuxel     | 2025-08-08 23:56:56 |
+| 29    | 🦀 crab          | 36.71         | julialuxel     | 2025-08-08 23:56:56 |
 | 30    | 🦐 shrimp        | 32.70         | buhl00n        | 2025-03-15 18:13:06 |
 | 31    | 🕷️ spider         | 32.34         | vagdi          | 2024-11-03 11:38:24 |
 | 32    | 🧊 icecube       | 28.67         | ben_vincent    | 2024-12-31 18:30:07 |
@@ -94,8 +94,9 @@
 | 90    | 🪚 carpentrysaw  | 0.86          | gimmeschmoneys | 2025-02-01 18:11:04 |
 | 91    | 🌾 grass         | 0.85          | buhl00n        | 2025-05-14 11:39:17 |
 | 92    | 🧣 scarf         | 0.75          | exo9           | 2024-12-25 05:19:42 |
-| 93    | 🕸️ spiderweb      | 0.07          | iam_glorp      | 2025-06-22 19:31:56 |
+| 93 🆕 | 🦗 cricket       | 0.25          | iam_glorp      | 2025-08-11 03:39:03 |
+| 94 ⬇  | 🕸️ spiderweb      | 0.07          | iam_glorp      | 2025-06-22 19:31:56 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-08-10 09:04:14 UTC_
+_Last updated at 2025-08-17 10:05:53 UTC_

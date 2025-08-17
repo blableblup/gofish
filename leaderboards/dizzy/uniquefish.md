@@ -2,8 +2,8 @@
 
 | Rank  | Player             | Fish seen |
 |:------|:-------------------|:----------|
-| 1 🥇  | buhl00n            | 85 (+2)   |
-| 2 🥈  | iam_glorp          | 75        |
+| 1 🥇  | buhl00n            | 85        |
+| 2 🥈  | iam_glorp          | 77 (+2)   |
 | 3 🥉  | gimmeschmoneys     | 64        |
 | 4     | ben_vincent        | 60        |
 | 5     | iam_haunt          | 58        |
@@ -23,8 +23,8 @@
 | 19    | exo9*              | 39        |
 | 20    | burnend            | 38        |
 | 21    | aceleju            | 37        |
-| 22    | mousee93           | 36 (+1)   |
-| 23 ⬇  | lilzomme           | 35        |
+| 22    | mousee93           | 36        |
+| 23    | lilzomme           | 35        |
 | 24    | kukkuri            | 34        |
 | 25    | wisteraeia         | 33        |
 | 26    | feuha              | 32        |
@@ -53,4 +53,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2025-08-10 09:06:48 UTC_
+_Last updated at 2025-08-17 10:06:04 UTC_
