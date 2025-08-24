@@ -11,11 +11,11 @@
 | 6     | nicestnarwhal      | 52        |
 | 8     | dazedforevermore   | 49        |
 | 9     | pengeg             | 47        |
-| 10    | garout             | 46 (+4)   |
-| 11 ⬇  | milesdotcom        | 42        |
+| 10    | garout             | 46        |
+| 11    | milesdotcom        | 42        |
 | 12    | yoimlee            | 39        |
 | 13    | redreignss         | 38        |
-| 14    | julialuxel         | 36        |
+| 14    | julialuxel         | 37 (+1)   |
 | 15    | beebo8i            | 34        |
 | 16    | tiaguitos97        | 30        |
 | 17    | bubinga            | 25        |
@@ -28,4 +28,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2025-08-17 10:06:04 UTC_
+_Last updated at 2025-08-24 09:03:39 UTC_

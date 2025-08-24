@@ -4,7 +4,7 @@
 |:------|:--------------------------|:----------|
 | 1 🥇  | nndiana*                  | 82        |
 | 2 🥈  | huuuuuuuuuuuuuuuuuuuuuurz | 79        |
-| 3 🥉  | bubinga                   | 74 (+1)   |
+| 3 🥉  | bubinga                   | 74        |
 | 4     | mazzo_tv                  | 72        |
 | 5     | caprisen_*                | 71        |
 | 5     | jr_mime                   | 71        |
@@ -20,17 +20,17 @@
 | 16    | commanda_u                | 61        |
 | 16    | flunke_                   | 61        |
 | 18    | theevirus                 | 60        |
+| 19 ⬆  | bluberry                  | 58 (+1)   |
 | 19    | eeziiii                   | 58        |
 | 19    | veny2lbs                  | 58        |
-| 21    | bluberry                  | 57        |
-| 21    | iflya320                  | 57        |
+| 22 ⬇  | iflya320                  | 57        |
 | 23    | amu1g                     | 56        |
 | 23    | benciee                   | 56        |
 | 23    | creepycode*               | 56        |
 | 23    | deogen01                  | 56        |
-| 27    | jayayseaohbee             | 55 (+1)   |
-| 28 ⬇  | maksmusz*                 | 54        |
-| 28 ⬇  | markenzy01                | 54        |
+| 27    | jayayseaohbee             | 55        |
+| 28    | maksmusz*                 | 54        |
+| 28    | markenzy01                | 54        |
 | 30    | euxoa                     | 53        |
 | 31    | faslker                   | 52        |
 | 31    | flovrek                   | 52        |
@@ -46,4 +46,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2025-08-10 09:06:49 UTC_
+_Last updated at 2025-08-24 09:03:40 UTC_

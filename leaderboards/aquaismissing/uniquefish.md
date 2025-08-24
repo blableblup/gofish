@@ -3,13 +3,13 @@
 | Rank  | Player        | Fish seen |
 |:------|:--------------|:----------|
 | 1 🥇  | rustezzz      | 26        |
-| 2 🥈  | bubinga       | 21        |
+| 2 🥈  | bubinga       | 22 (+1)   |
 | 3 🥉  | likedom_      | 20        |
 | 4     | stofeyxd*     | 19        |
 | 5     | aquaismissing | 18        |
 | 6     | yyaaaaaaaas   | 17        |
 | 7     | kaitechpl     | 16        |
-| 7 ⬆   | velantix*     | 16 (+1)   |
+| 7     | velantix*     | 16        |
 | 9     | dom1torii     | 14        |
 | 10    | poggu_        | 13        |
 | 11    | aistyrax3     | 12        |
@@ -23,4 +23,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2025-08-17 10:06:04 UTC_
+_Last updated at 2025-08-24 09:03:40 UTC_

@@ -7,7 +7,7 @@
 | 3 🥉  | 🐉 dragon        | 269.98         | pompadourdelinquent | 2025-05-19 21:19:50 |
 | 4     | 🦕 sauropod      | 256.91         | goopy777            | 2025-05-22 06:19:27 |
 | 5     | 🐍 snake         | 229.58         | miyabwah            | 2025-02-17 05:17:00 |
-| 6     | 🦈 shark         | 197.37 (+0.73) | rainedparade        | 2025-07-28 02:55:28 |
+| 6     | 🦈 shark         | 203.37 (+6.00) | teeto               | 2025-08-23 18:51:35 |
 | 7     | 🫎 moose         | 196.42         | crunch_sack         | 2025-03-26 05:51:36 |
 | 8     | 🐢 turtle        | 187.81         | miyabwah            | 2025-05-26 23:51:28 |
 | 9     | 🐋 whale2        | 152.10         | pompadourdelinquent | 2025-04-25 23:03:06 |
@@ -81,4 +81,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-08-03 09:09:27 UTC_
+_Last updated at 2025-08-24 09:05:02 UTC_

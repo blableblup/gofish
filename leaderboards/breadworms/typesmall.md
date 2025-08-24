@@ -18,7 +18,7 @@
 | 14    | 🐝 bee           | 1.25          | lluuucy               | 2025-06-24 11:19:51 |
 | 15    | 🐉 dragon        | 0.94          | lluuucy               | 2023-03-05 17:11:41 |
 | 16    | 🍇 crowberries   | 0.79          | derinturitierutz      | 2025-06-23 19:30:00 |
-| 17    | 🧟 zombie        | 0.61          | dazedforevermore      | 2023-07-07 21:49:48 |
+| 17    | 🧟 zombie        | 0.57 (-0.04)  | destin357             | 2025-08-18 07:29:39 |
 | 18    | 🗡️ dagger         | 0.56          | respirate_            | 2024-08-26 22:03:27 |
 | 19    | 🦆 duck          | 0.48          | osnyatsky*            | 2023-07-25 17:55:46 |
 | 20    | 🪲 beetle        | 0.47          | qu4ttromila           | 2025-06-25 10:39:09 |
@@ -117,4 +117,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-07-27 09:40:01 UTC_
+_Last updated at 2025-08-24 09:03:48 UTC_

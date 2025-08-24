@@ -137,7 +137,7 @@
 		"fishtypemouth": "🐙",
 		"fishnamemouth": "octopus",
 		"totalweight": 160.01999999999998,
-		"rank": 41
+		"rank": 42
 	},
 	"2024-05-09 11:58:09 UTC": {
 		"player": "booty_bread",
@@ -236,7 +236,7 @@
 		"fishtypemouth": "🐙",
 		"fishnamemouth": "octopus",
 		"totalweight": 157.41,
-		"rank": 45
+		"rank": 46
 	},
 	"2025-01-15 15:14:04 UTC": {
 		"player": "leanmeister",
@@ -372,7 +372,7 @@
 		"fishtypemouth": "🌿",
 		"fishnamemouth": "seaweed",
 		"totalweight": 154.26,
-		"rank": 46
+		"rank": 47
 	},
 	"2025-03-25 07:08:43 UTC": {
 		"player": "leanmeister",
@@ -392,7 +392,7 @@
 		"fishtypemouth": "🦞",
 		"fishnamemouth": "lobster",
 		"totalweight": 150.58999999999997,
-		"rank": 48
+		"rank": 49
 	},
 	"2025-03-27 09:50:32 UTC": {
 		"player": "lobuhtomy",
@@ -528,7 +528,7 @@
 		"fishtypemouth": "🐋",
 		"fishnamemouth": "whale2",
 		"totalweight": 151.19,
-		"rank": 47
+		"rank": 48
 	},
 	"2025-04-15 03:54:50 UTC": {
 		"player": "destin357",
@@ -547,7 +547,7 @@
 		"fishtypemouth": "🪳",
 		"fishnamemouth": "cockroach",
 		"totalweight": 158.29,
-		"rank": 43
+		"rank": 44
 	},
 	"2025-04-15 07:04:27 UTC": {
 		"player": "destin357",
@@ -680,7 +680,7 @@
 		"fishtypemouth": "🕷️",
 		"fishnamemouth": "spider",
 		"totalweight": 159.47000000000003,
-		"rank": 42
+		"rank": 43
 	},
 	"2025-05-11 10:52:51 UTC": {
 		"player": "bubinga",
@@ -833,7 +833,7 @@
 		"fishtypemouth": "🐳",
 		"fishnamemouth": "whale",
 		"totalweight": 157.91,
-		"rank": 44
+		"rank": 45
 	},
 	"2025-07-23 18:46:23 UTC": {
 		"player": "nndiana",
@@ -929,5 +929,24 @@
 		"fishnamemouth": "sauropod",
 		"totalweight": 272.88,
 		"rank": 12
+	},
+	"2025-08-23 21:12:29 UTC": {
+		"player": "v6r_",
+		"playerid": 2941,
+		"weight": 131.04,
+		"bot": "gofishgame",
+		"fishtype": "🐋",
+		"fishname": "whale2",
+		"catchtype": "normal",
+		"chat": "omie",
+		"chatpfp": "![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)",
+		"fishid": 194504,
+		"chatid": 8103,
+		"date": "2025-08-23T21:12:29Z",
+		"weightmouth": 31.54,
+		"fishtypemouth": "🐢",
+		"fishnamemouth": "turtle",
+		"totalweight": 162.57999999999998,
+		"rank": 41
 	}
 }

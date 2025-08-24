@@ -2,9 +2,9 @@
 
 | Rank   | Player        | Total Weight in lbs |
 |:-------|:--------------|:--------------------|
-| 1 🥇   | rustezzz      | 1150.81 (+19.28)    |
-| 2 🥈 ⬆ | velantix*     | 799.48 (+89.65)     |
-| 3 🥉 ⬇ | bubinga       | 750.04 (+6.77)      |
+| 1 🥇   | rustezzz      | 1153.95 (+3.14)     |
+| 2 🥈 ⬆ | bubinga       | 851.80 (+101.76)    |
+| 3 🥉 ⬇ | velantix*     | 801.23 (+1.75)      |
 | 4      | poggu_        | 706.03              |
 | 5      | stofeyxd*     | 645.89              |
 | 6      | aquaismissing | 484.15              |
@@ -19,4 +19,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2025-08-17 10:06:03 UTC_
+_Last updated at 2025-08-24 09:03:38 UTC_

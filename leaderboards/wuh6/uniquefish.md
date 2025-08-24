@@ -4,15 +4,15 @@
 |:------|:--------------------------|:----------|
 | 1 🥇  | eeziiii                   | 87        |
 | 2 🥈  | iflya320                  | 85        |
-| 3 🥉  | bubinga                   | 84 (+1)   |
+| 3 🥉  | bubinga                   | 84        |
 | 4     | huuuuuuuuuuuuuuuuuuuuuurz | 81        |
 | 5     | theevirus                 | 76        |
-| 6     | wowitsdub                 | 74        |
-| 7     | veny2lbs                  | 73        |
+| 6 ⬆   | veny2lbs                  | 75 (+2)   |
+| 6     | wowitsdub                 | 75 (+1)   |
 | 8     | nndiana*                  | 72        |
-| 9     | lobuhtomy                 | 66        |
-| 10    | gorillapark               | 64        |
-| 11    | commanda_u                | 54 (+3)   |
+| 9     | lobuhtomy                 | 67 (+1)   |
+| 10    | gorillapark               | 65 (+1)   |
+| 11    | commanda_u                | 55 (+1)   |
 | 12    | mazzo_tv                  | 50        |
 | 13    | bluberry                  | 49        |
 | 13    | caprisen_*                | 49        |
@@ -23,22 +23,22 @@
 | 18    | teddbearcs                | 39        |
 | 20    | benciee                   | 35        |
 | 20    | jr_mime                   | 35        |
-| 22    | flvx_flux*                | 32        |
+| 22    | flvx_flux*                | 33 (+1)   |
 | 23    | zwockel01                 | 31        |
+| 24 ⬆  | ocrw                      | 29 (+1)   |
 | 24    | ratot                     | 29        |
-| 25 ⬆  | ocrw                      | 28 (+2)   |
-| 26 ⬇  | wadupcaprise              | 27        |
-| 27    | wuh6                      | 25        |
-| 28    | araqs                     | 24        |
-| 28    | turboyy                   | 24        |
-| 30    | 21h6c                     | 23        |
-| 30    | funnywhitecat6*           | 23        |
-| 30    | onarrrrrrrr               | 23        |
-| 33    | supibot                   | 22 (+2)   |
-| 34 ⬇  | ewpert1                   | 20        |
+| 26    | wadupcaprise              | 27        |
+| 27 ⬆  | supibot                   | 26 (+4)   |
+| 27 ⬆  | turboyy                   | 26 (+2)   |
+| 29 ⬇  | wuh6                      | 25        |
+| 30 ⬇  | araqs                     | 24        |
+| 31 ⬇  | 21h6c                     | 23        |
+| 31 ⬇  | funnywhitecat6*           | 23        |
+| 31 ⬇  | onarrrrrrrr               | 23        |
+| 34    | ewpert1                   | 22 (+2)   |
 
 _This does not include fish seen through 🎁 gifts or through releasing to another player during the winter events!_
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2025-08-17 10:06:04 UTC_
+_Last updated at 2025-08-24 09:03:39 UTC_

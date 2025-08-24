@@ -8,17 +8,17 @@
 | 4     | 🐻‍❄ polarbear     | 24.33         | julialuxel         | 2024-12-26 01:45:22 |
 | 5     | 🫎 moose         | 22.03         | dazedforevermore   | 2025-05-06 17:17:48 |
 | 6     | 🧜‍♀️ mermaid       | 18.46         | hahppyy            | 2025-05-05 14:52:40 |
-| 7 ⬆   | 🦕 sauropod      | 9.53          | verypeppy          | 2025-03-01 22:51:51 |
-| 8 ⬆   | 🎰 slotmachine   | 8.73          | eelacy             | 2025-06-11 22:41:07 |
-| 9 ⬆   | 🗡️ dagger         | 8.61          | hahppyy            | 2024-10-06 20:00:32 |
-| 10 ⬆  | 🧭 compass       | 7.53          | julialuxel         | 2024-12-25 19:32:21 |
-| 11 ⬆  | 🐳 whale         | 5.96          | julialuxel         | 2024-12-30 18:25:59 |
-| 12 ⬆  | 🦭 seal          | 5.80          | pengeg             | 2024-12-28 12:10:08 |
-| 13 ⬆  | 🛒 shoppingcart  | 5.58          | beebo8i            | 2025-01-01 18:41:52 |
-| 14 ⬇  | 🪼 jellyfish     | 4.96 (-7.37)  | hahppyy            | 2025-08-13 15:15:47 |
+| 7     | 🦕 sauropod      | 9.53          | verypeppy          | 2025-03-01 22:51:51 |
+| 8     | 🎰 slotmachine   | 8.73          | eelacy             | 2025-06-11 22:41:07 |
+| 9     | 🗡️ dagger         | 8.61          | hahppyy            | 2024-10-06 20:00:32 |
+| 10    | 🧭 compass       | 7.53          | julialuxel         | 2024-12-25 19:32:21 |
+| 11    | 🐳 whale         | 5.96          | julialuxel         | 2024-12-30 18:25:59 |
+| 12    | 🦭 seal          | 5.80          | pengeg             | 2024-12-28 12:10:08 |
+| 13    | 🛒 shoppingcart  | 5.58          | beebo8i            | 2025-01-01 18:41:52 |
+| 14    | 🪼 jellyfish     | 4.96          | hahppyy            | 2025-08-13 15:15:47 |
 | 15    | 🪵 log           | 3.91          | leastsussyimposter | 2024-10-14 22:20:07 |
-| 16 ⬆  | 🍄‍🟫 brownmushroom | 2.94          | julialuxel         | 2025-01-06 10:52:27 |
-| 17 ⬇  | 🕶️ darksunglasses | 2.89 (-0.57)  | yoimlee            | 2025-08-16 15:14:59 |
+| 16    | 🍄‍🟫 brownmushroom | 2.94          | julialuxel         | 2025-01-06 10:52:27 |
+| 17    | 🕶️ darksunglasses | 2.89          | yoimlee            | 2025-08-16 15:14:59 |
 | 18    | 🪁 kite          | 2.67          | garout             | 2025-07-27 01:22:16 |
 | 19    | 🦈 shark         | 2.19          | carmirror          | 2025-02-07 21:53:16 |
 | 20    | 🥒 cucumber      | 1.94          | dazedforevermore   | 2024-08-07 18:39:10 |
@@ -61,13 +61,13 @@
 | 55    | 🕷️ spider         | 0.19          | redreignss         | 2025-05-31 00:54:12 |
 | 58    | 🦫 beaver        | 0.16          | pengeg             | 2024-10-15 04:52:16 |
 | 58    | 🐦‍⬛ blackbird     | 0.16          | vaiastol           | 2025-05-18 10:43:38 |
-| 60    | 🧃 beveragebox   | 0.14          | hahppyy            | 2024-10-12 15:43:23 |
-| 61    | 🪳 cockroach     | 0.13          | yespere            | 2025-05-19 14:53:42 |
-| 61    | 🌻 sunflower     | 0.13          | vaiastol           | 2025-06-10 15:17:32 |
-| 61    | 🐢 turtle        | 0.13          | leastsussyimposter | 2024-12-30 21:37:56 |
-| 64    | 🪀 bobber        | 0.12          | hahppyy            | 2025-06-22 21:06:20 |
-| 64    | 🪱 worm          | 0.12          | eelacy             | 2025-02-21 07:31:57 |
-| 66    | 🌾 grass         | 0.11          | redreignss         | 2025-07-23 15:07:23 |
+| 60 ⬆  | 🪳 cockroach     | 0.13          | yespere            | 2025-05-19 14:53:42 |
+| 60 ⬆  | 🌻 sunflower     | 0.13          | vaiastol           | 2025-06-10 15:17:32 |
+| 60 ⬆  | 🐢 turtle        | 0.13          | leastsussyimposter | 2024-12-30 21:37:56 |
+| 63 ⬆  | 🪀 bobber        | 0.12          | hahppyy            | 2025-06-22 21:06:20 |
+| 63 ⬆  | 🪱 worm          | 0.12          | eelacy             | 2025-02-21 07:31:57 |
+| 65 ⬇  | 🧃 beveragebox   | 0.11 (-0.03)  | julialuxel         | 2025-08-23 19:10:32 |
+| 65 ⬆  | 🌾 grass         | 0.11          | redreignss         | 2025-07-23 15:07:23 |
 | 67    | 👢 boot          | 0.10          | hahppyy            | 2025-02-26 02:17:51 |
 | 67    | 🩴 thongsandal   | 0.10          | milesdotcom        | 2024-09-11 19:56:17 |
 | 69    | 🪰 fly           | 0.08          | julialuxel         | 2025-06-26 08:20:55 |
@@ -104,4 +104,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-08-17 10:06:35 UTC_
+_Last updated at 2025-08-24 09:03:53 UTC_
