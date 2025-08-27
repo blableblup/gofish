@@ -13,8 +13,8 @@
 | 9     | sicklymaidrobot       | 123         |
 | 9     | sussy_amonge          | 123         |
 | 11    | qu4ttromila           | 122         |
+| 12    | chubby_________       | 112         |
 | 12    | lazuli672*            | 112         |
-| 12    | lluuucy               | 112         |
 | 14    | ryebreadward          | 110         |
 | 15    | bussinongnocap        | 108         |
 | 16    | dazedforevermore      | 93          |
@@ -57,4 +57,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2025-07-23 14:42:36 UTC_
+_Last updated at 2025-08-27 18:01:58 UTC_
