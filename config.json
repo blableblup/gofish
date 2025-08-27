@@ -487,7 +487,17 @@
 		},
 		"lifeless": {
 			"twitchid": "494931569",
-			"checkfdata": false,
+			"logs_instances": [
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "no logs added found"
+				},
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "no logs added found"
+				}
+			],
+			"checkfdata": true,
 			"board_enabled": false
 		},
 		"miagooper": {
@@ -946,6 +956,14 @@
 				{
 					"url": "not public",
 					"logs_added": "2024/10"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2024/10"
+				},
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "no logs added found"
 				}
 			],
 			"fishweek_limit": 10,

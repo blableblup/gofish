@@ -261,6 +261,10 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 	datesusgee, _ := utils.ParseDate("2024-07-01 00:00:00")
 	datesusgee2, _ := utils.ParseDate("2024-03-31 00:00:00")
 
+	// logxx had times not in utc in early august 2025
+	datelogxx, _ := utils.ParseDate("2025-08-01 00:00:00")
+	datelogxx2, _ := utils.ParseDate("2025-08-06 16:00:00")
+
 	loc, err := time.LoadLocation("Europe/Berlin")
 	if err != nil {
 		logs.Logs().Error().Err(err).
@@ -309,6 +313,13 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			} else if fish.Date.Before(datesusgee) && fish.Date.After(datesusgee2) {
 
 				fish.Date = fish.Date.Add(time.Hour * -4)
+			}
+		}
+
+		// for logxx add 2 hours
+		if strings.Contains(fish.Url, "logxx") {
+			if fish.Date.Before(datelogxx2) && fish.Date.After(datelogxx) {
+				fish.Date = fish.Date.Add(time.Hour * 2)
 			}
 		}
 
