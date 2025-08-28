@@ -50,6 +50,15 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 		Profile.Progress = append(Profile.Progress, baseText)
 	}
 
+	if Profile.Bugs.HasAllBugs {
+		baseText := "🌟 Has seen all the bugs:"
+		for _, fish := range fishLists["bug"] {
+			baseText = baseText + " " + EmojisForFish[fish] + " " + fish
+		}
+		baseText = baseText + " !"
+		Profile.Progress = append(Profile.Progress, baseText)
+	}
+
 	// received means when it first appeared in their bag
 	if Profile.SonnyDay.HasLetter {
 		Profile.Progress = append(Profile.Progress,
@@ -57,7 +66,7 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 	}
 
 	// no star, since it isnt really rare
-	// just means you've been at acorn pond all four seasons
+	// just means you've been at acorn pond all four seasons + at big
 	if Profile.Flowers.HasAllFlowers {
 		baseText := "💐 Has seen all the flowers:"
 		for _, fish := range fishLists["flower"] {

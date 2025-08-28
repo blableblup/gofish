@@ -22,7 +22,7 @@ type PlayerProfile struct {
 
 	Progress []string
 	Records  []string `json:"Noteable records"`
-	// right now shiny is the only other achievment
+
 	Other OtherAchievements `json:"Other accomplishments"`
 
 	Stars        int                  `json:"-"`
@@ -32,6 +32,7 @@ type PlayerProfile struct {
 	MythicalFish MythicalFishProgress `json:"-"`
 	Birds        BirdProgress         `json:"-"`
 	Flowers      FlowerProgress       `json:"-"`
+	Bugs         BugsProgress
 
 	Count          *TotalChatStruct            `json:"Fish caught in total"`
 	CountYear      map[string]*TotalChatStruct `json:"Fish caught per year"`
@@ -104,7 +105,10 @@ type FlowerProgress struct {
 	FLowerCount   int
 }
 
-// add elisbugs
+type BugsProgress struct {
+	HasAllBugs bool
+	BugCount   int
+}
 
 type OtherAchievements struct {
 	Other      []string      `json:"Accomplishments"`
@@ -216,7 +220,7 @@ func GetPlayerProfiles(params LeaderboardParams) {
 	}
 
 	// Get the names of all the shinies in the db
-	// this is only for if a player has a shiny in their bag so that it shows the emote
+	// this is only to check if a player has a shiny in their bag so that it shows the emote
 	// if a shiny is in any other table on the profile, it will not show the shiny but the emote of the fishname instead
 	allShinies, err := GetAllShinies(params)
 	if err != nil {
@@ -225,9 +229,9 @@ func GetPlayerProfiles(params LeaderboardParams) {
 
 	fishLists["shiny"] = allShinies
 
-	// Get the treasures, the mythical fish, the birds, the flowers
+	// Get the treasures, the mythical fish, the birds, the flowers, the buggs
 
-	tags := []string{"r.a.treasure", "mythic", "bird", "flower"}
+	tags := []string{"r.a.treasure", "mythic", "bird", "flower", "bug"}
 
 	for _, tag := range tags {
 

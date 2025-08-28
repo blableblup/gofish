@@ -726,6 +726,20 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 				}
 			}
 		}
+
+		// for bugs
+		for _, bug := range fishLists["bug"] {
+			if fish.FishName == bug {
+				Profiles[fish.PlayerID].Bugs.BugCount++
+
+				if Profiles[fish.PlayerID].Bugs.BugCount == len(fishLists["bug"]) {
+					Profiles[fish.PlayerID].Bugs.HasAllBugs = true
+
+					HowManyPlayersHaveRecords["bug"]++
+					PlayersWithRecordsPlayerIDs["bug"] = append(PlayersWithRecordsPlayerIDs["bug"], fish.PlayerID)
+				}
+			}
+		}
 	}
 
 	// debug log, need to do -mode force for this to show all of the records,
