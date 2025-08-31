@@ -22,24 +22,25 @@
 		"chat": "aaurie",
 		"chatpfp": "![aaurie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aaurie.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 268,
-		"uniquefishers": 53,
+		"count": 295,
+		"uniquefishers": 54,
 		"uniquefish": 46,
 		"rank": 15
 	},
 	"ajspyman": {
-		"player": "respirate_",
-		"playerid": 2525,
-		"weight": 91.06,
-		"fishtype": "🐬",
-		"fishname": "dolphin",
+		"player": "gofishgamer",
+		"playerid": 2944,
+		"weight": 215.79,
+		"fishtype": "🐉",
+		"fishname": "dragon",
 		"chat": "ajspyman",
 		"chatpfp": "![ajspyman](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ajspyman.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 21,
+		"count": 92,
+		"activefishers": 3,
 		"uniquefishers": 7,
-		"uniquefish": 12,
-		"rank": 24
+		"uniquefish": 33,
+		"rank": 20
 	},
 	"aquaismissing": {
 		"player": "velantix",
@@ -50,7 +51,7 @@
 		"chat": "aquaismissing",
 		"chatpfp": "![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 613,
+		"count": 619,
 		"uniquefishers": 74,
 		"uniquefish": 51,
 		"rank": 9
@@ -68,7 +69,7 @@
 		"rank": 35
 	},
 	"breadworms": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"weight": 308.86,
 		"fishtype": "🦑",
@@ -76,10 +77,10 @@
 		"chat": "breadworms",
 		"chatpfp": "![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 73105,
-		"activefishers": 2,
+		"count": 73634,
+		"activefishers": 10,
 		"uniquefishers": 323,
-		"uniquefish": 113,
+		"uniquefish": 121,
 		"rank": 1
 	},
 	"chellesorandom": {
@@ -111,9 +112,9 @@
 		"chat": "d_egree",
 		"chatpfp": "![d_egree](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/d_egree.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 299,
+		"count": 306,
 		"uniquefishers": 13,
-		"uniquefish": 58,
+		"uniquefish": 61,
 		"rank": 14
 	},
 	"deme": {
@@ -128,7 +129,7 @@
 		"count": 31,
 		"uniquefishers": 10,
 		"uniquefish": 20,
-		"rank": 22
+		"rank": 23
 	},
 	"devroyalty": {
 		"chat": "devroyalty",
@@ -145,9 +146,10 @@
 		"chat": "dizzy",
 		"chatpfp": "![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 12953,
+		"count": 13066,
+		"activefishers": 3,
 		"uniquefishers": 501,
-		"uniquefish": 95,
+		"uniquefish": 102,
 		"rank": 4
 	},
 	"e1llas": {
@@ -199,9 +201,9 @@
 		"chat": "jellyuh",
 		"chatpfp": "![jellyuh](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/jellyuh.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 1627,
+		"count": 1634,
 		"uniquefishers": 46,
-		"uniquefish": 77,
+		"uniquefish": 78,
 		"rank": 7
 	},
 	"julialuxel": {
@@ -213,9 +215,9 @@
 		"chat": "julialuxel",
 		"chatpfp": "![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 353,
+		"count": 354,
 		"uniquefishers": 31,
-		"uniquefish": 57,
+		"uniquefish": 58,
 		"rank": 13
 	},
 	"keeki_chan": {
@@ -281,11 +283,11 @@
 		"chat": "mowogan",
 		"chatpfp": "![mowogan](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/mowogan.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 463,
-		"activefishers": 1,
-		"uniquefishers": 4,
-		"uniquefish": 55,
-		"rank": 11
+		"count": 534,
+		"activefishers": 3,
+		"uniquefishers": 5,
+		"uniquefish": 57,
+		"rank": 10
 	},
 	"mylifeislul": {
 		"player": "larvasisters",
@@ -324,10 +326,10 @@
 		"chat": "omie",
 		"chatpfp": "![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 8104,
+		"count": 8276,
 		"activefishers": 3,
 		"uniquefishers": 37,
-		"uniquefish": 96,
+		"uniquefish": 105,
 		"rank": 6
 	},
 	"ovrht": {
@@ -381,10 +383,10 @@
 		"chat": "psp1g",
 		"chatpfp": "![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 64821,
-		"activefishers": 6,
-		"uniquefishers": 2725,
-		"uniquefish": 98,
+		"count": 65014,
+		"activefishers": 5,
+		"uniquefishers": 2732,
+		"uniquefish": 105,
 		"rank": 2
 	},
 	"retrorelaxo": {
@@ -436,10 +438,10 @@
 		"chat": "swormbeard",
 		"chatpfp": "![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 483,
-		"uniquefishers": 20,
-		"uniquefish": 60,
-		"rank": 10
+		"count": 490,
+		"uniquefishers": 21,
+		"uniquefish": 63,
+		"rank": 11
 	},
 	"tipicogato": {
 		"player": "iapaja",
@@ -453,7 +455,7 @@
 		"count": 27,
 		"uniquefishers": 4,
 		"uniquefish": 21,
-		"rank": 23
+		"rank": 24
 	},
 	"vaiastol": {
 		"player": "vaiastol",
@@ -464,10 +466,10 @@
 		"chat": "vaiastol",
 		"chatpfp": "![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 8657,
-		"activefishers": 1,
-		"uniquefishers": 55,
-		"uniquefish": 99,
+		"count": 8787,
+		"activefishers": 2,
+		"uniquefishers": 56,
+		"uniquefish": 101,
 		"rank": 5
 	},
 	"wiihxhx": {
@@ -482,7 +484,7 @@
 		"count": 42,
 		"uniquefishers": 8,
 		"uniquefish": 21,
-		"rank": 21
+		"rank": 22
 	},
 	"wuh6": {
 		"player": "eeziiii",
@@ -493,10 +495,10 @@
 		"chat": "wuh6",
 		"chatpfp": "![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 19644,
-		"activefishers": 9,
+		"count": 20189,
+		"activefishers": 12,
 		"uniquefishers": 104,
-		"uniquefish": 104,
+		"uniquefish": 114,
 		"rank": 3
 	},
 	"xriggby": {
@@ -511,7 +513,7 @@
 		"count": 76,
 		"uniquefishers": 5,
 		"uniquefish": 32,
-		"rank": 20
+		"rank": 21
 	},
 	"yopego": {
 		"player": "grumpo_",

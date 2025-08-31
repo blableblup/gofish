@@ -2,6 +2,8 @@
 
 | Rank | Fish             | Weight in lbs | Player      | Date in UTC         |
 |:-----|:-----------------|:--------------|:------------|:--------------------|
+| 57   | 🧋 bubbleteacup  | 1.33          | konsminator | 2025-08-25 13:51:43 |
+| 56   | 🪁 kite          | 10.29         | mowogan     | 2025-08-24 06:08:37 |
 | 55   | 🪻 lupine        | 1.89          | mowogan     | 2025-08-11 09:00:17 |
 | 54   | 🌾 grass         | 0.20          | mowogan     | 2025-08-09 14:57:20 |
 | 53   | 🐦‍⬛ blackbird     | 1.28          | konsminator | 2025-08-08 15:44:29 |
@@ -58,4 +60,4 @@
 | 2    | 🎱 8ball         | 0.79          | konsminator | 2025-06-23 16:25:30 |
 | 1    | 🪝 hook          | 2.28          | mowogan     | 2025-06-23 16:00:57 |
 
-_Last updated at 2025-08-17 10:04:40 UTC_
+_Last updated at 2025-08-31 07:53:24 UTC_

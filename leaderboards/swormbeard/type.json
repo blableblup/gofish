@@ -1,6 +1,6 @@
 {
 	"acorn": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 3.63,
@@ -26,7 +26,7 @@
 		"fishid": 111041,
 		"chatid": 115,
 		"date": "2024-09-08T17:15:35Z",
-		"rank": 55
+		"rank": 56
 	},
 	"bat": {
 		"player": "kishma9",
@@ -74,7 +74,7 @@
 		"rank": 26
 	},
 	"bird": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 2.81,
@@ -162,6 +162,20 @@
 		"date": "2025-03-15T19:24:59Z",
 		"rank": 21
 	},
+	"butterfly": {
+		"player": "derintu",
+		"playerid": 3638,
+		"weight": 0.03,
+		"bot": "gofishgame",
+		"fishtype": "🦋",
+		"fishname": "butterfly",
+		"catchtype": "normal",
+		"chat": "swormbeard",
+		"fishid": 196128,
+		"chatid": 489,
+		"date": "2025-08-29T20:53:43Z",
+		"rank": 62
+	},
 	"cannedfood": {
 		"player": "leanmeister",
 		"playerid": 135,
@@ -189,7 +203,7 @@
 		"fishid": 156211,
 		"chatid": 398,
 		"date": "2025-03-17T16:55:26Z",
-		"rank": 58
+		"rank": 59
 	},
 	"cockroach": {
 		"player": "sicklymaidrobot",
@@ -293,7 +307,7 @@
 		"rank": 40
 	},
 	"emptynest": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 6.8,
@@ -349,7 +363,7 @@
 		"fishid": 156268,
 		"chatid": 406,
 		"date": "2025-03-17T20:23:03Z",
-		"rank": 59
+		"rank": 60
 	},
 	"hook": {
 		"player": "respirate_",
@@ -377,7 +391,7 @@
 		"fishid": 156196,
 		"chatid": 395,
 		"date": "2025-03-17T16:11:43Z",
-		"rank": 56
+		"rank": 57
 	},
 	"iphone": {
 		"player": "fvkdylan",
@@ -392,6 +406,20 @@
 		"chatid": 437,
 		"date": "2025-03-18T23:17:58Z",
 		"rank": 36
+	},
+	"jar": {
+		"player": "derintu",
+		"playerid": 3638,
+		"weight": 1.53,
+		"bot": "gofishgame",
+		"fishtype": "🫙",
+		"fishname": "jar",
+		"catchtype": "normal",
+		"chat": "swormbeard",
+		"fishid": 196110,
+		"chatid": 487,
+		"date": "2025-08-29T19:43:05Z",
+		"rank": 52
 	},
 	"leaf": {
 		"player": "derintu",
@@ -408,7 +436,7 @@
 		"rank": 49
 	},
 	"lizard": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 7.49,
@@ -464,7 +492,7 @@
 		"fishid": 121656,
 		"chatid": 240,
 		"date": "2024-11-14T23:08:37Z",
-		"rank": 54
+		"rank": 55
 	},
 	"moose": {
 		"player": "derintu",
@@ -610,7 +638,7 @@
 		"fishid": 111030,
 		"chatid": 104,
 		"date": "2024-09-02T19:38:53Z",
-		"rank": 53
+		"rank": 54
 	},
 	"shamrock": {
 		"player": "derinturitierutz",
@@ -707,8 +735,8 @@
 		"fishname": "snake",
 		"catchtype": "normal",
 		"chat": "swormbeard",
-		"fishid": 110983,
-		"chatid": 57,
+		"fishid": 110982,
+		"chatid": 56,
 		"date": "2024-08-07T17:36:47Z",
 		"rank": 22
 	},
@@ -724,7 +752,7 @@
 		"fishid": 111040,
 		"chatid": 114,
 		"date": "2024-09-07T23:49:45Z",
-		"rank": 52
+		"rank": 53
 	},
 	"spider": {
 		"player": "respirate_",
@@ -739,6 +767,20 @@
 		"chatid": 91,
 		"date": "2024-08-31T20:13:14Z",
 		"rank": 27
+	},
+	"spiderweb": {
+		"player": "respirate_",
+		"playerid": 2525,
+		"weight": 0.06,
+		"bot": "gofishgame",
+		"fishtype": "🕸️",
+		"fishname": "spiderweb",
+		"catchtype": "normal",
+		"chat": "swormbeard",
+		"fishid": 196076,
+		"chatid": 484,
+		"date": "2025-08-29T17:16:52Z",
+		"rank": 61
 	},
 	"sponge": {
 		"player": "respirate_",
@@ -782,7 +824,7 @@
 		"fishid": 110948,
 		"chatid": 22,
 		"date": "2024-08-03T15:29:46Z",
-		"rank": 57
+		"rank": 58
 	},
 	"tropicalfish": {
 		"player": "derintu",
@@ -811,10 +853,10 @@
 		"fishid": 155813,
 		"chatid": 379,
 		"date": "2025-03-16T16:56:15Z",
-		"rank": 60
+		"rank": 63
 	},
 	"turtle": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 95.26,

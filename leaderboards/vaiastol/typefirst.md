@@ -2,6 +2,8 @@
 
 | Rank | Fish             | Weight in lbs | Player                | Date in UTC         |
 |:-----|:-----------------|:--------------|:----------------------|:--------------------|
+| 101  | 🦟 mosquito      | 0.31          | larvasisters          | 2025-08-28 20:59:25 |
+| 100  | 🧋 bubbleteacup  | 7.16          | garout                | 2025-08-28 11:52:35 |
 | 99   | 🦉 owl           | 0.85          | eelacy                | 2025-07-21 13:58:54 |
 | 98   | 🪁 kite          | 3.47          | redreignss            | 2025-07-09 14:49:09 |
 | 97   | 🪻 lupine        | 1.90          | redreignss            | 2025-07-09 13:30:55 |
@@ -102,4 +104,4 @@
 | 2    | 🦀 crab          | 2.81          | jr_mime               | 2024-07-28 10:52:00 |
 | 1    | 🐸 frog          | 1.70          | mitgliederversammlung | 2024-07-28 00:20:07 |
 
-_Last updated at 2025-07-27 09:38:58 UTC_
+_Last updated at 2025-08-31 07:53:23 UTC_

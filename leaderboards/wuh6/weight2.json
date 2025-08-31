@@ -67,7 +67,7 @@
 		"fishid": 131418,
 		"chatid": 392,
 		"date": "2024-12-16T23:15:52Z",
-		"rank": 99
+		"rank": 100
 	},
 	"131551": {
 		"player": "mazzo_tv",
@@ -109,7 +109,7 @@
 		"fishid": 135101,
 		"chatid": 2109,
 		"date": "2024-12-25T04:06:32Z",
-		"rank": 96
+		"rank": 97
 	},
 	"135122": {
 		"player": "sandwichsundays",
@@ -939,7 +939,7 @@
 		"fishid": 172319,
 		"chatid": 13755,
 		"date": "2025-05-10T20:47:27Z",
-		"rank": 98
+		"rank": 99
 	},
 	"172879": {
 		"player": "lobuhtomy",
@@ -1053,20 +1053,6 @@
 		"chatid": 15133,
 		"date": "2025-06-05T08:11:58Z",
 		"rank": 34
-	},
-	"178828": {
-		"player": "iflya320",
-		"playerid": 2609,
-		"weight": 234.83,
-		"bot": "gofishgame",
-		"fishtype": "🐳",
-		"fishname": "whale",
-		"catchtype": "normal",
-		"chat": "wuh6",
-		"fishid": 178828,
-		"chatid": 15483,
-		"date": "2025-06-11T17:38:25Z",
-		"rank": 100
 	},
 	"180533": {
 		"player": "gorillapark",
@@ -1322,7 +1308,7 @@
 		"fishid": 190724,
 		"chatid": 18489,
 		"date": "2025-07-30T11:56:20Z",
-		"rank": 97
+		"rank": 98
 	},
 	"190754": {
 		"player": "nndiana",
@@ -1350,7 +1336,7 @@
 		"fishid": 191342,
 		"chatid": 18637,
 		"date": "2025-08-02T17:24:24Z",
-		"rank": 95
+		"rank": 96
 	},
 	"193013": {
 		"player": "lobuhtomy",
@@ -1408,5 +1394,19 @@
 		"chatid": 19395,
 		"date": "2025-08-19T15:11:42Z",
 		"rank": 84
+	},
+	"194802": {
+		"player": "theevirus",
+		"playerid": 2187,
+		"weight": 237.98,
+		"bot": "gofishgame",
+		"fishtype": "🐳",
+		"fishname": "whale",
+		"catchtype": "normal",
+		"chat": "wuh6",
+		"fishid": 194802,
+		"chatid": 19735,
+		"date": "2025-08-25T12:21:44Z",
+		"rank": 95
 	}
 }

@@ -40,18 +40,19 @@
 | 36    | sicklymaidrobot  | 🦈 shark 162.95     | 🐍 snake 10.10        | 173.05          | 2024-03-27 20:25:00 UTC | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)   |
 | 37    | destin357        | 🐳 whale 168.74     | 🪳 cockroach 4.19     | 172.93          | 2025-07-26 01:08:47 UTC | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)   |
 | 38    | miiiiisho        | 🐙 octopus 170.74   | 🎏 lure 1.93          | 172.67          | 2024-01-02 18:32:24 UTC | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)   |
-| 39    | destin357        | 🦕 sauropod 162.03  | 🐌 snail 2.81         | 164.84          | 2025-04-24 10:11:33 UTC | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)   |
-| 40    | v6r_             | 🐉 dragon 161.13    | 🐚 shell 1.79         | 162.92          | 2025-03-01 22:12:09 UTC | ![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)               |
-| 41 🆕 | v6r_             | 🐋 whale2 131.04    | 🐢 turtle 31.54       | 162.58          | 2025-08-23 21:12:29 UTC | ![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)               |
-| 42 ⬇  | miiiiisho        | 🐊 crocodile 84.06  | 🐙 octopus 75.96      | 160.02          | 2024-04-29 15:58:42 UTC | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)   |
-| 43 ⬇  | bubinga          | 🐉 dragon 148.86    | 🕷️ spider 10.61        | 159.47          | 2025-05-08 11:54:25 UTC | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)               |
-| 44 ⬇  | destin357        | 🐉 dragon 149.50    | 🪳 cockroach 8.79     | 158.29          | 2025-04-15 03:54:50 UTC | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)   |
-| 45 ⬇  | nndiana          | 🐳 whale 96.89      | 🐳 whale 61.02        | 157.91          | 2025-07-18 21:26:06 UTC | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)             |
-| 46 ⬇  | bubinga          | 🐊 crocodile 148.42 | 🐙 octopus 8.99       | 157.41          | 2024-12-25 18:55:16 UTC | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)               |
-| 47 ⬇  | leanmeister      | 🦈 shark 154.04     | 🌿 seaweed 0.22       | 154.26          | 2025-03-25 05:46:04 UTC | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)   |
-| 48 ⬇  | bubinga          | 🦕 sauropod 101.69  | 🐋 whale2 49.50       | 151.19          | 2025-04-07 07:20:23 UTC | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)               |
-| 49 ⬇  | leanmeister      | 🐋 whale2 129.01    | 🦞 lobster 21.58      | 150.59          | 2025-03-25 07:08:43 UTC | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)   |
+| 39 🆕 | destin357        | 🐊 crocodile 98.41  | 🦑 squid 72.55        | 170.96          | 2025-08-24 07:44:32 UTC | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)   |
+| 40 ⬇  | destin357        | 🦕 sauropod 162.03  | 🐌 snail 2.81         | 164.84          | 2025-04-24 10:11:33 UTC | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)   |
+| 41 ⬇  | v6r_             | 🐉 dragon 161.13    | 🐚 shell 1.79         | 162.92          | 2025-03-01 22:12:09 UTC | ![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)               |
+| 42 ⬇  | v6r_             | 🐋 whale2 131.04    | 🐢 turtle 31.54       | 162.58          | 2025-08-23 21:12:29 UTC | ![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)               |
+| 43 ⬇  | miiiiisho        | 🐊 crocodile 84.06  | 🐙 octopus 75.96      | 160.02          | 2024-04-29 15:58:42 UTC | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)   |
+| 44 ⬇  | bubinga          | 🐉 dragon 148.86    | 🕷️ spider 10.61        | 159.47          | 2025-05-08 11:54:25 UTC | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)               |
+| 45 ⬇  | destin357        | 🐉 dragon 149.50    | 🪳 cockroach 8.79     | 158.29          | 2025-04-15 03:54:50 UTC | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)   |
+| 46 ⬇  | nndiana          | 🐳 whale 96.89      | 🐳 whale 61.02        | 157.91          | 2025-07-18 21:26:06 UTC | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)             |
+| 47 ⬇  | bubinga          | 🐊 crocodile 148.42 | 🐙 octopus 8.99       | 157.41          | 2024-12-25 18:55:16 UTC | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)               |
+| 48 ⬇  | leanmeister      | 🦈 shark 154.04     | 🌿 seaweed 0.22       | 154.26          | 2025-03-25 05:46:04 UTC | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)   |
+| 49 ⬇  | bubinga          | 🦕 sauropod 101.69  | 🐋 whale2 49.50       | 151.19          | 2025-04-07 07:20:23 UTC | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)               |
+| 50 ⬇  | leanmeister      | 🐋 whale2 129.01    | 🦞 lobster 21.58      | 150.59          | 2025-03-25 07:08:43 UTC | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)   |
 
 _Only showing catches with a total weight greater than >= 150 lbs_
 
-_Last updated at 2025-08-24 09:09:23 UTC_
+_Last updated at 2025-08-31 07:59:20 UTC_

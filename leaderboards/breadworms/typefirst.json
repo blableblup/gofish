@@ -101,7 +101,7 @@
 		"rank": 76
 	},
 	"bee": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 1.25,
@@ -231,6 +231,21 @@
 		"date": "2023-08-05T11:49:02Z",
 		"rank": 69
 	},
+	"bone": {
+		"player": "breadworms",
+		"playerid": 26,
+		"verified": true,
+		"weight": 11.35,
+		"bot": "gofishgame",
+		"fishtype": "🦴",
+		"fishname": "bone",
+		"catchtype": "normal",
+		"chat": "breadworms",
+		"fishid": 195238,
+		"chatid": 73284,
+		"date": "2025-08-26T23:00:52Z",
+		"rank": 119
+	},
 	"boot": {
 		"player": "crinche",
 		"playerid": 10,
@@ -274,6 +289,20 @@
 		"date": "2025-01-05T10:24:56Z",
 		"rank": 96
 	},
+	"bubbleteacup": {
+		"player": "fishingalt",
+		"playerid": 1459,
+		"weight": 10.01,
+		"bot": "gofishgame",
+		"fishtype": "🧋",
+		"fishname": "bubbleteacup",
+		"catchtype": "normal",
+		"chat": "breadworms",
+		"fishid": 194836,
+		"chatid": 73174,
+		"date": "2025-08-25T14:19:42Z",
+		"rank": 115
+	},
 	"butterfly": {
 		"player": "destin357",
 		"playerid": 3537,
@@ -287,6 +316,21 @@
 		"chatid": 70194,
 		"date": "2025-06-24T10:01:52Z",
 		"rank": 107
+	},
+	"cactus": {
+		"player": "breadworms",
+		"playerid": 26,
+		"verified": true,
+		"weight": 0.19,
+		"bot": "gofishgame",
+		"fishtype": "🌵",
+		"fishname": "cactus",
+		"catchtype": "normal",
+		"chat": "breadworms",
+		"fishid": 195216,
+		"chatid": 73274,
+		"date": "2025-08-26T21:41:29Z",
+		"rank": 118
 	},
 	"candy": {
 		"player": "5c33",
@@ -333,7 +377,7 @@
 		"rank": 95
 	},
 	"caterpillar": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 0.47,
@@ -780,6 +824,21 @@
 		"date": "2025-06-26T12:58:18Z",
 		"rank": 112
 	},
+	"ladybug": {
+		"player": "breadworms",
+		"playerid": 26,
+		"verified": true,
+		"weight": 0.19,
+		"bot": "gofishgame",
+		"fishtype": "🐞",
+		"fishname": "ladybug",
+		"catchtype": "normal",
+		"chat": "breadworms",
+		"fishid": 195509,
+		"chatid": 73357,
+		"date": "2025-08-27T17:17:18Z",
+		"rank": 120
+	},
 	"leaf": {
 		"player": "gstaman911",
 		"playerid": 3529,
@@ -921,6 +980,20 @@
 		"chatid": 64120,
 		"date": "2025-03-16T14:42:36Z",
 		"rank": 97
+	},
+	"mosquito": {
+		"player": "c_mgirl",
+		"playerid": 1369,
+		"weight": 0.24,
+		"bot": "gofishgame",
+		"fishtype": "🦟",
+		"fishname": "mosquito",
+		"catchtype": "normal",
+		"chat": "breadworms",
+		"fishid": 195132,
+		"chatid": 73248,
+		"date": "2025-08-26T17:30:35Z",
+		"rank": 117
 	},
 	"mushroom": {
 		"player": "mitgliederversammlung",
@@ -1098,7 +1171,7 @@
 		"rank": 40
 	},
 	"rose": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 2.29,
@@ -1125,6 +1198,21 @@
 		"chatid": 64130,
 		"date": "2025-03-16T15:45:17Z",
 		"rank": 98
+	},
+	"sanddollar": {
+		"player": "kishma9",
+		"playerid": 80,
+		"verified": true,
+		"weight": 0.32,
+		"bot": "gofishgame",
+		"fishtype": "🍥",
+		"fishname": "sanddollar",
+		"catchtype": "normal",
+		"chat": "breadworms",
+		"fishid": 194837,
+		"chatid": 73175,
+		"date": "2025-08-25T14:20:34Z",
+		"rank": 116
 	},
 	"sandwich": {
 		"player": "lagggm",
@@ -1167,6 +1255,20 @@
 		"chatid": 1130,
 		"date": "2022-12-22T04:35:03Z",
 		"rank": 51
+	},
+	"scorpion": {
+		"player": "fishingalt",
+		"playerid": 1459,
+		"weight": 0.92,
+		"bot": "gofishgame",
+		"fishtype": "🦂",
+		"fishname": "scorpion",
+		"catchtype": "normal",
+		"chat": "breadworms",
+		"fishid": 195679,
+		"chatid": 73409,
+		"date": "2025-08-28T08:12:44Z",
+		"rank": 121
 	},
 	"seal": {
 		"player": "breadworms",
@@ -1421,8 +1523,23 @@
 		"date": "2024-06-01T13:45:19Z",
 		"rank": 82
 	},
+	"sunscreenbottle": {
+		"player": "kishma9",
+		"playerid": 80,
+		"verified": true,
+		"weight": 11.12,
+		"bot": "gofishgame",
+		"fishtype": "🧴",
+		"fishname": "sunscreenbottle",
+		"catchtype": "normal",
+		"chat": "breadworms",
+		"fishid": 194660,
+		"chatid": 73138,
+		"date": "2025-08-24T22:23:00Z",
+		"rank": 114
+	},
 	"swan": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 0.17,
@@ -1568,7 +1685,7 @@
 		"rank": 89
 	},
 	"wireline": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 0.66,

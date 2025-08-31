@@ -1,42 +1,42 @@
 {
 	"106266": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 132.02,
 		"bot": "gofishgame",
-		"type": "🐊",
-		"typename": "crocodile",
+		"fishtype": "🐊",
+		"fishname": "crocodile",
 		"catchtype": "normal",
-		"date": "2024-10-03T16:47:23Z",
 		"chat": "d_egree",
 		"fishid": 106266,
-		"chatid": 144
+		"chatid": 144,
+		"date": "2024-10-03T16:47:23Z"
 	},
 	"149676": {
 		"player": "benni900",
 		"playerid": 228,
 		"weight": 173.1,
 		"bot": "gofishgame",
-		"type": "🐉",
-		"typename": "dragon",
+		"fishtype": "🐉",
+		"fishname": "dragon",
 		"catchtype": "normal",
-		"date": "2025-02-24T09:14:48Z",
 		"chat": "d_egree",
 		"fishid": 149676,
-		"chatid": 245
+		"chatid": 245,
+		"date": "2025-02-24T09:14:48Z"
 	},
 	"163758": {
 		"player": "ouacewi",
 		"playerid": 79,
+		"verified": true,
 		"weight": 103.03,
 		"bot": "gofishgame",
-		"type": "🐋",
-		"typename": "whale2",
+		"fishtype": "🐋",
+		"fishname": "whale2",
 		"catchtype": "normal",
-		"date": "2023-09-30T09:48:54Z",
 		"chat": "d_egree",
 		"fishid": 163758,
 		"chatid": 275,
-		"verified": true
+		"date": "2023-09-30T09:48:54Z"
 	}
 }

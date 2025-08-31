@@ -1,6 +1,6 @@
 {
 	"8ball": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 8.57,
 		"bot": "gofishgame",
@@ -14,7 +14,7 @@
 		"rank": 26
 	},
 	"acorn": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 2.94,
 		"bot": "gofishgame",
@@ -41,6 +41,20 @@
 		"date": "2023-12-07T21:39:35Z",
 		"rank": 47
 	},
+	"bee": {
+		"player": "kohrro",
+		"playerid": 2887,
+		"weight": 0.02,
+		"bot": "gofishgame",
+		"fishtype": "🐝",
+		"fishname": "bee",
+		"catchtype": "normal",
+		"chat": "d_egree",
+		"fishid": 196362,
+		"chatid": 306,
+		"date": "2025-08-30T18:04:31Z",
+		"rank": 58
+	},
 	"beveragebox": {
 		"player": "ouacewi",
 		"playerid": 79,
@@ -57,7 +71,7 @@
 		"rank": 36
 	},
 	"blowfish": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 23.13,
 		"bot": "gofishgame",
@@ -71,7 +85,7 @@
 		"rank": 17
 	},
 	"bobber": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 7.41,
 		"bot": "gofishgame",
@@ -96,7 +110,7 @@
 		"fishid": 148134,
 		"chatid": 187,
 		"date": "2025-02-16T12:11:25Z",
-		"rank": 54
+		"rank": 57
 	},
 	"cannedfood": {
 		"player": "benni900",
@@ -111,6 +125,20 @@
 		"chatid": 247,
 		"date": "2025-02-24T14:01:06Z",
 		"rank": 50
+	},
+	"caterpillar": {
+		"player": "kohrro",
+		"playerid": 2887,
+		"weight": 0.81,
+		"bot": "gofishgame",
+		"fishtype": "🐛",
+		"fishname": "caterpillar",
+		"catchtype": "normal",
+		"chat": "d_egree",
+		"fishid": 196340,
+		"chatid": 304,
+		"date": "2025-08-30T15:54:03Z",
+		"rank": 52
 	},
 	"cockroach": {
 		"player": "benni900",
@@ -127,7 +155,7 @@
 		"rank": 20
 	},
 	"coral": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 47.35,
 		"bot": "gofishgame",
@@ -155,7 +183,7 @@
 		"rank": 40
 	},
 	"crocodile": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 132.02,
 		"bot": "gofishgame",
@@ -169,7 +197,7 @@
 		"rank": 2
 	},
 	"cucumber": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 6.47,
 		"bot": "gofishgame",
@@ -183,7 +211,7 @@
 		"rank": 32
 	},
 	"dagger": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 13.93,
 		"bot": "gofishgame",
@@ -211,7 +239,7 @@
 		"rank": 23
 	},
 	"dolphin": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 72.65,
 		"bot": "gofishgame",
@@ -239,7 +267,7 @@
 		"rank": 1
 	},
 	"duck": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 10.39,
 		"bot": "gofishgame",
@@ -253,7 +281,7 @@
 		"rank": 24
 	},
 	"fish": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 40.87,
 		"bot": "gofishgame",
@@ -267,7 +295,7 @@
 		"rank": 15
 	},
 	"frog": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 4.72,
 		"bot": "gofishgame",
@@ -292,7 +320,7 @@
 		"fishid": 147984,
 		"chatid": 183,
 		"date": "2025-02-15T22:44:26Z",
-		"rank": 52
+		"rank": 54
 	},
 	"hook": {
 		"player": "larvasisters",
@@ -323,7 +351,7 @@
 		"rank": 31
 	},
 	"iphone": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 7.64,
 		"bot": "gofishgame",
@@ -336,8 +364,36 @@
 		"date": "2025-03-13T12:07:24Z",
 		"rank": 28
 	},
+	"jar": {
+		"player": "kohrro",
+		"playerid": 2887,
+		"weight": 0.95,
+		"bot": "gofishgame",
+		"fishtype": "🫙",
+		"fishname": "jar",
+		"catchtype": "normal",
+		"chat": "d_egree",
+		"fishid": 196309,
+		"chatid": 303,
+		"date": "2025-08-30T14:10:11Z",
+		"rank": 51
+	},
+	"ladybug": {
+		"player": "kohrro",
+		"playerid": 2887,
+		"weight": 0.36,
+		"bot": "gofishgame",
+		"fishtype": "🐞",
+		"fishname": "ladybug",
+		"catchtype": "normal",
+		"chat": "d_egree",
+		"fishid": 196296,
+		"chatid": 302,
+		"date": "2025-08-30T13:10:00Z",
+		"rank": 56
+	},
 	"leaf": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 1.38,
 		"bot": "gofishgame",
@@ -351,7 +407,7 @@
 		"rank": 48
 	},
 	"lizard": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 7.47,
 		"bot": "gofishgame",
@@ -379,7 +435,7 @@
 		"rank": 14
 	},
 	"log": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 4.69,
 		"bot": "gofishgame",
@@ -407,7 +463,7 @@
 		"rank": 35
 	},
 	"mapleleaf": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 0.56,
 		"bot": "gofishgame",
@@ -418,7 +474,7 @@
 		"fishid": 105291,
 		"chatid": 133,
 		"date": "2024-09-30T23:22:41Z",
-		"rank": 53
+		"rank": 55
 	},
 	"mushroom": {
 		"player": "benni900",
@@ -435,7 +491,7 @@
 		"rank": 41
 	},
 	"nestwitheggs": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 2.6,
 		"bot": "gofishgame",
@@ -449,7 +505,7 @@
 		"rank": 42
 	},
 	"octopus": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 97.11,
 		"bot": "gofishgame",
@@ -463,7 +519,7 @@
 		"rank": 7
 	},
 	"oyster": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 27.65,
 		"bot": "gofishgame",
@@ -530,10 +586,10 @@
 		"fishid": 81746,
 		"chatid": 2,
 		"date": "2024-06-01T20:46:09Z",
-		"rank": 51
+		"rank": 53
 	},
 	"shamrock": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 1.65,
 		"bot": "gofishgame",
@@ -590,7 +646,7 @@
 		"rank": 19
 	},
 	"skull": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 8.96,
 		"bot": "gofishgame",
@@ -604,7 +660,7 @@
 		"rank": 25
 	},
 	"snail": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 1.26,
 		"bot": "gofishgame",
@@ -618,7 +674,7 @@
 		"rank": 49
 	},
 	"snake": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 58.59,
 		"bot": "gofishgame",
@@ -632,7 +688,7 @@
 		"rank": 12
 	},
 	"socks": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 1.82,
 		"bot": "gofishgame",
@@ -660,7 +716,7 @@
 		"rank": 27
 	},
 	"squid": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 78.9,
 		"bot": "gofishgame",
@@ -674,7 +730,7 @@
 		"rank": 10
 	},
 	"thongsandal": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 1.63,
 		"bot": "gofishgame",
@@ -702,7 +758,7 @@
 		"rank": 21
 	},
 	"turtle": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 89.56,
 		"bot": "gofishgame",
@@ -730,7 +786,7 @@
 		"rank": 43
 	},
 	"whale": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 96.95,
 		"bot": "gofishgame",
@@ -758,7 +814,7 @@
 		"rank": 6
 	},
 	"wireline": {
-		"player": "koromadeno_shogun",
+		"player": "kohrro",
 		"playerid": 2887,
 		"weight": 0.01,
 		"bot": "gofishgame",
@@ -769,6 +825,6 @@
 		"fishid": 181211,
 		"chatid": 288,
 		"date": "2025-06-22T20:28:56Z",
-		"rank": 55
+		"rank": 59
 	}
 }

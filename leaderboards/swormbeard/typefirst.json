@@ -43,7 +43,7 @@
 		"rank": 52
 	},
 	"beaver": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 22.77,
@@ -73,7 +73,7 @@
 		"rank": 20
 	},
 	"bird": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 2.81,
@@ -158,6 +158,20 @@
 		"chatid": 356,
 		"date": "2025-03-15T19:24:59Z",
 		"rank": 55
+	},
+	"butterfly": {
+		"player": "derintu",
+		"playerid": 3638,
+		"weight": 0.03,
+		"bot": "gofishgame",
+		"fishtype": "🦋",
+		"fishname": "butterfly",
+		"catchtype": "normal",
+		"chat": "swormbeard",
+		"fishid": 196128,
+		"chatid": 489,
+		"date": "2025-08-29T20:53:43Z",
+		"rank": 64
 	},
 	"candy": {
 		"player": "derinturitierutz",
@@ -303,7 +317,7 @@
 		"rank": 37
 	},
 	"emptynest": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 6.8,
@@ -402,6 +416,20 @@
 		"date": "2025-03-18T23:17:58Z",
 		"rank": 60
 	},
+	"jar": {
+		"player": "chestnutbank",
+		"playerid": 3005,
+		"weight": 1.18,
+		"bot": "gofishgame",
+		"fishtype": "🫙",
+		"fishname": "jar",
+		"catchtype": "normal",
+		"chat": "swormbeard",
+		"fishid": 196106,
+		"chatid": 486,
+		"date": "2025-08-29T19:24:40Z",
+		"rank": 63
+	},
 	"leaf": {
 		"player": "kishma9",
 		"playerid": 80,
@@ -418,7 +446,7 @@
 		"rank": 53
 	},
 	"lizard": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 6.94,
@@ -625,7 +653,7 @@
 		"rank": 18
 	},
 	"shamrock": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 0.39,
@@ -720,8 +748,8 @@
 		"fishname": "snake",
 		"catchtype": "normal",
 		"chat": "swormbeard",
-		"fishid": 110983,
-		"chatid": 57,
+		"fishid": 110982,
+		"chatid": 56,
 		"date": "2024-08-07T17:36:47Z",
 		"rank": 23
 	},
@@ -752,6 +780,20 @@
 		"chatid": 91,
 		"date": "2024-08-31T20:13:14Z",
 		"rank": 31
+	},
+	"spiderweb": {
+		"player": "respirate_",
+		"playerid": 2525,
+		"weight": 0.06,
+		"bot": "gofishgame",
+		"fishtype": "🕸️",
+		"fishname": "spiderweb",
+		"catchtype": "normal",
+		"chat": "swormbeard",
+		"fishid": 196076,
+		"chatid": 484,
+		"date": "2025-08-29T17:16:52Z",
+		"rank": 62
 	},
 	"sponge": {
 		"player": "respirate_",

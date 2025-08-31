@@ -88,7 +88,7 @@
 		"rank": 28
 	},
 	"blowfish": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 17.98,
@@ -103,7 +103,7 @@
 		"rank": 17
 	},
 	"bobber": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 0.61,
@@ -118,7 +118,7 @@
 		"rank": 54
 	},
 	"boot": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 1.8,
@@ -133,7 +133,7 @@
 		"rank": 16
 	},
 	"candy": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"bot": "gofishgame",
@@ -176,7 +176,7 @@
 		"rank": 41
 	},
 	"coral": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 20.18,
@@ -438,7 +438,7 @@
 		"rank": 30
 	},
 	"octopus": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 88.82,
@@ -468,7 +468,7 @@
 		"rank": 37
 	},
 	"oyster": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 20.43,
@@ -525,7 +525,7 @@
 		"rank": 14
 	},
 	"rose": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 0.94,
@@ -698,7 +698,7 @@
 		"rank": 40
 	},
 	"socks": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 0.19,
@@ -829,5 +829,20 @@
 		"chatid": 328,
 		"date": "2025-03-15T00:39:39Z",
 		"rank": 38
+	},
+	"worm": {
+		"player": "kishma9",
+		"playerid": 80,
+		"verified": true,
+		"weight": 0.99,
+		"bot": "gofishgame",
+		"fishtype": "🪱",
+		"fishname": "worm",
+		"catchtype": "normal",
+		"chat": "julialuxel",
+		"fishid": 195832,
+		"chatid": 354,
+		"date": "2025-08-28T18:53:36Z",
+		"rank": 58
 	}
 }

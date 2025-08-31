@@ -93,14 +93,14 @@
 | 89    | vaiastol              | 🐳 whale     | 161.62        | 2025-03-06 08:50:42 |
 | 90    | divra__               | 🐙 octopus   | 160.48        | 2024-11-01 17:07:43 |
 | 91    | leastsussyimposter    | 🐳 whale     | 159.44        | 2025-01-13 22:00:29 |
-| 92    | beebo8i               | 🦈 shark     | 158.47        | 2025-01-04 14:47:57 |
-| 93    | vaiastol              | 🦑 squid     | 157.87        | 2025-01-20 01:57:09 |
-| 94    | dazedforevermore      | 🦕 sauropod  | 157.39        | 2024-12-02 17:12:38 |
-| 95    | leastsussyimposter    | 🦈 shark     | 156.91        | 2025-01-30 11:40:36 |
-| 96    | dazedforevermore      | 🐳 whale     | 155.63        | 2024-08-18 19:13:43 |
-| 97    | hahppyy               | 🦈 shark     | 154.14        | 2025-03-06 19:24:40 |
-| 98    | redreignss            | 🦈 shark     | 151.62        | 2025-06-18 23:44:40 |
-| 99    | hahppyy               | 🦕 sauropod  | 150.74        | 2025-04-03 19:59:08 |
-| 100   | hahppyy               | 🐙 octopus   | 150.71        | 2024-11-01 03:50:08 |
+| 92 🆕 | obama                 | 🐳 whale     | 158.52        | 2025-08-26 17:17:37 |
+| 93 ⬇  | beebo8i               | 🦈 shark     | 158.47        | 2025-01-04 14:47:57 |
+| 94 ⬇  | vaiastol              | 🦑 squid     | 157.87        | 2025-01-20 01:57:09 |
+| 95 ⬇  | dazedforevermore      | 🦕 sauropod  | 157.39        | 2024-12-02 17:12:38 |
+| 96 ⬇  | leastsussyimposter    | 🦈 shark     | 156.91        | 2025-01-30 11:40:36 |
+| 97 ⬇  | dazedforevermore      | 🐳 whale     | 155.63        | 2024-08-18 19:13:43 |
+| 98 ⬇  | hahppyy               | 🦈 shark     | 154.14        | 2025-03-06 19:24:40 |
+| 99 ⬇  | redreignss            | 🦈 shark     | 151.62        | 2025-06-18 23:44:40 |
+| 100 ⬇ | hahppyy               | 🦕 sauropod  | 150.74        | 2025-04-03 19:59:08 |
 
-_Last updated at 2025-07-27 09:39:00 UTC_
+_Last updated at 2025-08-31 07:56:14 UTC_

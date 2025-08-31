@@ -244,7 +244,7 @@
 		"rank": 28
 	},
 	"fish": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 6.49,
@@ -358,7 +358,7 @@
 		"rank": 57
 	},
 	"lizard": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 5.71,
@@ -446,7 +446,7 @@
 		"rank": 10
 	},
 	"otter": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 1.55,
@@ -476,7 +476,7 @@
 		"rank": 33
 	},
 	"penguin": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 35.92,
@@ -589,7 +589,7 @@
 		"rank": 46
 	},
 	"shamrock": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 0.12,
@@ -663,7 +663,7 @@
 		"rank": 47
 	},
 	"snail": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 0.67,
@@ -692,7 +692,7 @@
 		"rank": 39
 	},
 	"socks": {
-		"player": "lluuucy",
+		"player": "chubby_________",
 		"playerid": 21,
 		"verified": true,
 		"weight": 0.19,
@@ -821,5 +821,20 @@
 		"chatid": 328,
 		"date": "2025-03-15T00:39:39Z",
 		"rank": 55
+	},
+	"worm": {
+		"player": "kishma9",
+		"playerid": 80,
+		"verified": true,
+		"weight": 0.99,
+		"bot": "gofishgame",
+		"fishtype": "🪱",
+		"fishname": "worm",
+		"catchtype": "normal",
+		"chat": "julialuxel",
+		"fishid": 195832,
+		"chatid": 354,
+		"date": "2025-08-28T18:53:36Z",
+		"rank": 58
 	}
 }

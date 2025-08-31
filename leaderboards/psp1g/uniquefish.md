@@ -4,31 +4,31 @@
 |:------|:--------------------------|:----------|
 | 1 🥇  | nndiana*                  | 82        |
 | 2 🥈  | huuuuuuuuuuuuuuuuuuuuuurz | 79        |
-| 3 🥉  | bubinga                   | 74        |
+| 3 🥉  | bubinga                   | 75 (+1)   |
 | 4     | mazzo_tv                  | 72        |
 | 5     | caprisen_*                | 71        |
 | 5     | jr_mime                   | 71        |
 | 7     | sandwichsundays*          | 70        |
 | 8     | zwockel01                 | 69        |
+| 9 ⬆   | gorillapark               | 67 (+2)   |
 | 9     | lobuhtomy                 | 67        |
 | 9     | pengeg                    | 67        |
-| 11    | gorillapark               | 65        |
-| 11    | ratot                     | 65        |
+| 12 ⬇  | ratot                     | 65        |
 | 13    | divra__                   | 63        |
 | 14    | angus_lpc                 | 62        |
 | 14    | jemcs_                    | 62        |
+| 16 ⬆  | bluberry                  | 61 (+3)   |
 | 16    | commanda_u                | 61        |
 | 16    | flunke_                   | 61        |
-| 18    | theevirus                 | 60        |
-| 19 ⬆  | bluberry                  | 58 (+1)   |
-| 19    | eeziiii                   | 58        |
-| 19    | veny2lbs                  | 58        |
-| 22 ⬇  | iflya320                  | 57        |
-| 23    | amu1g                     | 56        |
-| 23    | benciee                   | 56        |
-| 23    | creepycode*               | 56        |
-| 23    | deogen01                  | 56        |
-| 27    | jayayseaohbee             | 55        |
+| 19 ⬇  | theevirus                 | 60        |
+| 20 ⬇  | eeziiii                   | 58        |
+| 20 ⬆  | jayayseaohbee             | 58 (+3)   |
+| 20 ⬇  | veny2lbs                  | 58        |
+| 23 ⬇  | iflya320                  | 57        |
+| 24 ⬇  | amu1g                     | 56        |
+| 24 ⬇  | benciee                   | 56        |
+| 24 ⬇  | creepycode*               | 56        |
+| 24 ⬇  | deogen01                  | 56        |
 | 28    | maksmusz*                 | 54        |
 | 28    | markenzy01                | 54        |
 | 30    | euxoa                     | 53        |
@@ -46,4 +46,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2025-08-24 09:03:40 UTC_
+_Last updated at 2025-08-31 07:53:31 UTC_
