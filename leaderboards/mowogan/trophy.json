@@ -1,20 +1,30 @@
 {
+	"2989": {
+		"player": "lolspers",
+		"playerid": 2989,
+		"weight": 6.5,
+		"date": "0001-01-01T00:00:00Z",
+		"trophies": 2,
+		"bronze": 1,
+		"rank": 3
+	},
 	"3143": {
 		"player": "konsminator",
 		"playerid": 3143,
-		"weight": 40,
+		"weight": 43,
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 11,
-		"silver": 7,
+		"silver": 10,
 		"rank": 1
 	},
 	"3811": {
 		"player": "mowogan",
 		"playerid": 3811,
-		"weight": 34,
+		"weight": 38,
 		"date": "0001-01-01T00:00:00Z",
-		"trophies": 8,
+		"trophies": 9,
 		"silver": 10,
+		"bronze": 2,
 		"rank": 2
 	}
 }

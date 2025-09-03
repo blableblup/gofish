@@ -6,9 +6,9 @@
 | 2 🥈  | eeziiii                   | 132         |
 | 3 🥉  | iflya320                  | 130         |
 | 4     | huuuuuuuuuuuuuuuuuuuuuurz | 97          |
-| 5     | nndiana                   | 80          |
-| 6     | theevirus                 | 75          |
-| 7     | lobuhtomy                 | 73          |
+| 5 ⬆   | lobuhtomy                 | 91 (+18)    |
+| 6 ⬇   | nndiana                   | 80          |
+| 7 ⬇   | theevirus                 | 75          |
 | 8     | teddbearcs                | 66          |
 | 9     | mazzo_tv                  | 59          |
 | 10    | sandwichsundays           | 57          |
@@ -25,4 +25,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-08-27 18:01:58 UTC_
+_Last updated at 2025-09-03 21:58:23 UTC_
