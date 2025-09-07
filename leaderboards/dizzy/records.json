@@ -4,64 +4,64 @@
 		"playerid": 248,
 		"weight": 228.11,
 		"bot": "gofishgame",
-		"type": "🦕",
-		"typename": "sauropod",
+		"fishtype": "🦕",
+		"fishname": "sauropod",
 		"catchtype": "normal",
-		"date": "2024-10-21T05:19:15Z",
 		"chat": "dizzy",
 		"fishid": 111456,
-		"chatid": 208
+		"chatid": 208,
+		"date": "2024-10-21T05:19:15Z"
 	},
 	"115121": {
 		"player": "dizzy",
 		"playerid": 2883,
 		"weight": 230.91,
 		"bot": "gofishgame",
-		"type": "🐳",
-		"typename": "whale",
+		"fishtype": "🐳",
+		"fishname": "whale",
 		"catchtype": "normal",
-		"date": "2024-10-28T06:05:36Z",
 		"chat": "dizzy",
 		"fishid": 115121,
-		"chatid": 2283
+		"chatid": 2283,
+		"date": "2024-10-28T06:05:36Z"
 	},
 	"116760": {
-		"player": "vagdi",
+		"player": "heavener6",
 		"playerid": 3067,
 		"weight": 249.37,
 		"bot": "gofishgame",
-		"type": "🐳",
-		"typename": "whale",
+		"fishtype": "🐳",
+		"fishname": "whale",
 		"catchtype": "normal",
-		"date": "2024-11-01T12:46:25Z",
 		"chat": "dizzy",
 		"fishid": 116760,
-		"chatid": 2969
+		"chatid": 2969,
+		"date": "2024-11-01T12:46:25Z"
 	},
 	"119770": {
 		"player": "konsminator",
 		"playerid": 3143,
 		"weight": 267.89,
 		"bot": "gofishgame",
-		"type": "🦕",
-		"typename": "sauropod",
+		"fishtype": "🦕",
+		"fishname": "sauropod",
 		"catchtype": "normal",
-		"date": "2024-11-09T05:50:16Z",
 		"chat": "dizzy",
 		"fishid": 119770,
-		"chatid": 4125
+		"chatid": 4125,
+		"date": "2024-11-09T05:50:16Z"
 	},
 	"129066": {
 		"player": "buhl00n",
 		"playerid": 3121,
 		"weight": 291.32,
 		"bot": "gofishgame",
-		"type": "🐳",
-		"typename": "whale",
+		"fishtype": "🐳",
+		"fishname": "whale",
 		"catchtype": "normal",
-		"date": "2024-12-09T16:08:37Z",
 		"chat": "dizzy",
 		"fishid": 129066,
-		"chatid": 6925
+		"chatid": 6925,
+		"date": "2024-12-09T16:08:37Z"
 	}
 }

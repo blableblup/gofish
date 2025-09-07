@@ -2,10 +2,10 @@
 
 | Rank  | Player                | Total Weight in lbs |
 |:------|:----------------------|:--------------------|
-| 1 🥇  | kohrro                | 2586.28 (+2.87)     |
+| 1 🥇  | kohrro                | 2597.41 (+11.13)    |
 | 2 🥈  | benni900*             | 1727.18             |
 | 3 🥉  | mitgliederversammlung | 228.03              |
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2025-08-31 07:56:11 UTC_
+_Last updated at 2025-09-07 09:09:29 UTC_

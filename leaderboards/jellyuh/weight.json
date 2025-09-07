@@ -235,7 +235,7 @@
 		"fishid": 167745,
 		"chatid": 1113,
 		"date": "2025-04-22T04:24:18Z",
-		"rank": 24
+		"rank": 25
 	},
 	"3634": {
 		"player": "blitzrailgun",
@@ -334,5 +334,19 @@
 		"chatid": 1578,
 		"date": "2025-07-13T22:49:46Z",
 		"rank": 11
+	},
+	"3821": {
+		"player": "jakthejanitor",
+		"playerid": 3821,
+		"weight": 54.36,
+		"bot": "gofishgame",
+		"fishtype": "🐋",
+		"fishname": "whale2",
+		"catchtype": "normal",
+		"chat": "jellyuh",
+		"fishid": 197716,
+		"chatid": 1639,
+		"date": "2025-09-06T20:03:27Z",
+		"rank": 24
 	}
 }

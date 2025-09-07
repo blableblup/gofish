@@ -2,25 +2,25 @@
 
 | Rank  | Player         | Total Weight in lbs |
 |:------|:---------------|:--------------------|
-| 1 🥇  | buhl00n        | 35797.57 (+204.69)  |
-| 2 🥈  | iam_glorp      | 19063.57 (+95.51)   |
+| 1 🥇  | buhl00n        | 36303.72 (+506.15)  |
+| 2 🥈  | keplepn3       | 19064.53 (+0.96)    |
 | 3 🥉  | ben_vincent    | 15763.67            |
-| 4     | gimmeschmoneys | 15143.39 (+15.05)   |
+| 4     | gimmeschmoneys | 15143.39            |
 | 5     | lolspers       | 13439.95            |
 | 6     | iam_haunt      | 10603.67            |
 | 7     | spanmer        | 7651.11             |
 | 8     | konsminator    | 7261.34             |
 | 9     | ofaisalz       | 5717.49             |
-| 10    | vagdi          | 4514.72             |
-| 11    | hamoodhabibee  | 4126.38 (+0.20)     |
-| 12    | notnownico     | 4063.73 (+129.71)   |
+| 10    | heavener6      | 4516.16 (+1.44)     |
+| 11    | hamoodhabibee  | 4126.89 (+0.51)     |
+| 12    | notnownico     | 4077.79 (+14.06)    |
 | 13    | rabituwu       | 3852.81             |
 | 14    | simplydrack    | 3834.86             |
-| 15    | mousee93       | 3612.99 (+34.19)    |
+| 15    | mousee93       | 3612.99             |
 | 16    | ssenario       | 3239.08             |
 | 17    | tairaaaaa      | 3040.98             |
 | 18    | exo9*          | 2557.89             |
-| 19    | kyonuwu        | 2466.27             |
+| 19    | kyonuwu        | 2469.51 (+3.24)     |
 | 20    | wisteraeia     | 2460.76             |
 | 21    | aceleju        | 2420.95             |
 | 22    | lilzomme       | 2345.96             |
@@ -34,16 +34,16 @@
 | 30    | icejamx        | 1339.90             |
 | 31    | buffyo         | 1269.40             |
 | 32    | popfizzgg      | 1225.59             |
-| 33    | respirate_     | 1216.49             |
+| 33    | respirate_     | 1216.81 (+0.32)     |
 | 34    | julialuxel     | 1135.30             |
 | 35    | maccat1337     | 1100.36             |
 | 36    | feuha          | 1095.98             |
-| 37    | youngstercal   | 1071.10 (+7.33)     |
+| 37    | youngstercal   | 1071.10             |
 | 38    | ruusui         | 1004.92             |
 | 39    | mitsu_skidz    | 996.38              |
-| 40    | deadl3gs       | 797.56              |
-| 41    | whoop_ee       | 781.58              |
-| 42    | fvkdylan       | 775.18              |
+| 40 ⬆  | fvkdylan       | 829.41 (+54.23)     |
+| 41 ⬇  | deadl3gs       | 797.56              |
+| 42 ⬇  | whoop_ee       | 782.03 (+0.45)      |
 | 43    | gigi           | 697.38              |
 | 44    | rougep1rate    | 694.24              |
 | 45    | reallyxtra     | 687.13              |
@@ -58,4 +58,4 @@
 
 _Only showing fishers with a total weight of >= 500 lbs_
 
-_Last updated at 2025-08-31 07:56:12 UTC_
+_Last updated at 2025-09-07 09:09:29 UTC_

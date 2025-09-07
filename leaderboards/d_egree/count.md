@@ -2,10 +2,10 @@
 
 | Rank  | Player                | Fish caught |
 |:------|:----------------------|:------------|
-| 1 🥇  | kohrro                | 188 (+7)    |
+| 1 🥇  | kohrro                | 192 (+4)    |
 | 2 🥈  | benni900*             | 76          |
 | 3 🥉  | mitgliederversammlung | 16          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-08-31 07:53:32 UTC_
+_Last updated at 2025-09-07 09:11:02 UTC_

@@ -2,7 +2,7 @@
 
 | Rank  | Player          | Total Weight in lbs |
 |:------|:----------------|:--------------------|
-| 1 🥇  | julialuxel      | 1831.49             |
+| 1 🥇  | julialuxel      | 1847.38 (+15.89)    |
 | 2 🥈  | hahppyy         | 1737.50             |
 | 3 🥉  | toastyso        | 826.18              |
 | 4     | chubby_________ | 753.32              |
@@ -11,4 +11,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2025-08-31 07:56:12 UTC_
+_Last updated at 2025-09-07 09:09:30 UTC_

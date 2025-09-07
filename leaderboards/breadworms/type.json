@@ -129,7 +129,7 @@
 		"fishid": 182432,
 		"chatid": 70382,
 		"date": "2025-06-25T10:39:09Z",
-		"rank": 113
+		"rank": 114
 	},
 	"beveragebox": {
 		"player": "leanmeister",
@@ -158,7 +158,7 @@
 		"fishid": 186390,
 		"chatid": 71487,
 		"date": "2025-07-11T04:22:15Z",
-		"rank": 118
+		"rank": 119
 	},
 	"bird": {
 		"player": "julialuxel",
@@ -319,7 +319,7 @@
 		"fishid": 196156,
 		"chatid": 73536,
 		"date": "2025-08-29T23:15:05Z",
-		"rank": 116
+		"rank": 117
 	},
 	"cactus": {
 		"player": "ytp_dl",
@@ -476,7 +476,7 @@
 		"fishid": 188171,
 		"chatid": 71993,
 		"date": "2025-07-18T00:38:53Z",
-		"rank": 117
+		"rank": 118
 	},
 	"crocodile": {
 		"player": "kishma9",
@@ -664,7 +664,7 @@
 		"fishid": 180869,
 		"chatid": 69848,
 		"date": "2025-06-22T09:13:07Z",
-		"rank": 115
+		"rank": 116
 	},
 	"frog": {
 		"player": "vaiastol",
@@ -784,19 +784,18 @@
 		"rank": 23
 	},
 	"jar": {
-		"player": "derinturitierutz",
-		"playerid": 126,
-		"verified": true,
-		"weight": 2.27,
+		"player": "fishingalt",
+		"playerid": 1459,
+		"weight": 2.6,
 		"bot": "gofishgame",
 		"fishtype": "🫙",
 		"fishname": "jar",
-		"catchtype": "normal",
+		"catchtype": "jumped",
 		"chat": "breadworms",
-		"fishid": 195784,
-		"chatid": 73454,
-		"date": "2025-08-28T15:35:08Z",
-		"rank": 91
+		"fishid": 196515,
+		"chatid": 73656,
+		"date": "2025-08-31T09:09:47Z",
+		"rank": 90
 	},
 	"jellyfish": {
 		"player": "sicklymaidrobot",
@@ -828,19 +827,18 @@
 		"rank": 68
 	},
 	"ladybug": {
-		"player": "breadworms",
-		"playerid": 26,
-		"verified": true,
-		"weight": 0.19,
+		"player": "derintu",
+		"playerid": 3638,
+		"weight": 0.37,
 		"bot": "gofishgame",
 		"fishtype": "🐞",
 		"fishname": "ladybug",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 195509,
-		"chatid": 73357,
-		"date": "2025-08-27T17:17:18Z",
-		"rank": 119
+		"fishid": 196678,
+		"chatid": 73720,
+		"date": "2025-08-31T20:38:14Z",
+		"rank": 115
 	},
 	"leaf": {
 		"player": "destin357",
@@ -987,18 +985,19 @@
 		"rank": 6
 	},
 	"mosquito": {
-		"player": "kohrro",
-		"playerid": 2887,
-		"weight": 0.45,
+		"player": "chubby_________",
+		"playerid": 21,
+		"verified": true,
+		"weight": 0.55,
 		"bot": "gofishgame",
 		"fishtype": "🦟",
 		"fishname": "mosquito",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 195814,
-		"chatid": 73463,
-		"date": "2025-08-28T17:46:54Z",
-		"rank": 114
+		"fishid": 196602,
+		"chatid": 73688,
+		"date": "2025-08-31T15:30:07Z",
+		"rank": 113
 	},
 	"mushroom": {
 		"player": "comiqq",

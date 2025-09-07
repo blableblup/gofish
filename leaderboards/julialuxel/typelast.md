@@ -2,34 +2,34 @@
 
 | Rank | Fish            | Weight in lbs | Player                | Date in UTC         |
 |:-----|:----------------|:--------------|:----------------------|:--------------------|
-| 58   | 🪱 worm         | 0.99          | kishma9               | 2025-08-28 18:53:36 |
-| 57   | 🐳 whale        | 7.50          | gawblemachine         | 2025-07-25 18:24:11 |
-| 56   | 🐟 fish         | 0.46          | julialuxel            | 2025-07-03 04:54:44 |
-| 55   | 🦫 beaver       | 16.20         | julialuxel            | 2025-06-27 03:30:59 |
-| 54   | 🪀 bobber       | 0.61          | chubby_________       | 2025-06-23 01:43:25 |
-| 53   | 🎱 8ball        | 0.40          | julialuxel            | 2025-06-23 01:25:19 |
-| 52   | 🫙 jar          | 0.41          | larvasisters          | 2025-06-23 00:51:13 |
-| 51   | 🦇 bat          | 1.83          | leanmeister           | 2025-06-23 00:48:59 |
-| 50   | 🐢 turtle       | 30.13         | julialuxel            | 2025-06-23 00:30:28 |
-| 49   | 🐌 snail        | 1.17          | fvkdylan              | 2025-06-22 23:18:13 |
-| 48   | 🦎 lizard       | 6.26          | fvkdylan              | 2025-06-22 21:33:08 |
-| 47   | 🐉 dragon       | 61.28         | mangos4u              | 2025-06-14 02:17:12 |
-| 46   | 🦑 squid        | 26.70         | julialuxel            | 2025-06-14 02:13:01 |
-| 45   | 🪝 hook         | 0.00          | julialuxel            | 2025-06-14 01:18:00 |
-| 44   | 🐋 whale2       | 59.28         | julialuxel            | 2025-06-14 01:11:23 |
-| 43   | 🐠 tropicalfish | 13.48         | julialuxel            | 2025-05-08 03:22:34 |
-| 42   | 🐚 shell        | 0.56          | c_mgirl               | 2025-03-31 02:33:51 |
-| 41   | 🪳 cockroach    | 2.77          | leanmeister           | 2025-03-29 23:41:42 |
-| 40   | 🐍 snake        | 17.81         | leanmeister           | 2025-03-26 20:13:10 |
-| 39   | 📱 iphone       | 2.28          | julialuxel            | 2025-03-16 00:00:13 |
-| 38   | 🧵 wireline     | 4.73          | julialuxel            | 2025-03-15 00:39:39 |
-| 37   | 🦦 otter        | 8.37          | mitgliederversammlung | 2025-02-03 22:42:08 |
-| 36   | 🦐 shrimp       | 27.27         | julialuxel            | 2025-02-02 16:19:07 |
-| 35   | 🎏 lure         | 0.00          | julialuxel            | 2025-02-02 15:32:33 |
-| 34   | 🐬 dolphin      | 43.45         | julialuxel            | 2025-01-08 22:53:41 |
-| 33   | 🦀 crab         | 4.95          | leanmeister           | 2025-01-03 21:39:41 |
-| 32   | 🦞 lobster      | 49.64         | julialuxel            | 2024-12-29 04:36:47 |
-| 31   | 🐊 crocodile    | 1.57          | julialuxel            | 2024-12-24 07:09:10 |
+| 58   | 🐊 crocodile    | 15.89         | julialuxel            | 2025-09-06 02:09:40 |
+| 57   | 🪱 worm         | 0.99          | kishma9               | 2025-08-28 18:53:36 |
+| 56   | 🐳 whale        | 7.50          | gawblemachine         | 2025-07-25 18:24:11 |
+| 55   | 🐟 fish         | 0.46          | julialuxel            | 2025-07-03 04:54:44 |
+| 54   | 🦫 beaver       | 16.20         | julialuxel            | 2025-06-27 03:30:59 |
+| 53   | 🪀 bobber       | 0.61          | chubby_________       | 2025-06-23 01:43:25 |
+| 52   | 🎱 8ball        | 0.40          | julialuxel            | 2025-06-23 01:25:19 |
+| 51   | 🫙 jar          | 0.41          | larvasisters          | 2025-06-23 00:51:13 |
+| 50   | 🦇 bat          | 1.83          | leanmeister           | 2025-06-23 00:48:59 |
+| 49   | 🐢 turtle       | 30.13         | julialuxel            | 2025-06-23 00:30:28 |
+| 48   | 🐌 snail        | 1.17          | fvkdylan              | 2025-06-22 23:18:13 |
+| 47   | 🦎 lizard       | 6.26          | fvkdylan              | 2025-06-22 21:33:08 |
+| 46   | 🐉 dragon       | 61.28         | mangos4u              | 2025-06-14 02:17:12 |
+| 45   | 🦑 squid        | 26.70         | julialuxel            | 2025-06-14 02:13:01 |
+| 44   | 🪝 hook         | 0.00          | julialuxel            | 2025-06-14 01:18:00 |
+| 43   | 🐋 whale2       | 59.28         | julialuxel            | 2025-06-14 01:11:23 |
+| 42   | 🐠 tropicalfish | 13.48         | julialuxel            | 2025-05-08 03:22:34 |
+| 41   | 🐚 shell        | 0.56          | c_mgirl               | 2025-03-31 02:33:51 |
+| 40   | 🪳 cockroach    | 2.77          | leanmeister           | 2025-03-29 23:41:42 |
+| 39   | 🐍 snake        | 17.81         | leanmeister           | 2025-03-26 20:13:10 |
+| 38   | 📱 iphone       | 2.28          | julialuxel            | 2025-03-16 00:00:13 |
+| 37   | 🧵 wireline     | 4.73          | julialuxel            | 2025-03-15 00:39:39 |
+| 36   | 🦦 otter        | 8.37          | mitgliederversammlung | 2025-02-03 22:42:08 |
+| 35   | 🦐 shrimp       | 27.27         | julialuxel            | 2025-02-02 16:19:07 |
+| 34   | 🎏 lure         | 0.00          | julialuxel            | 2025-02-02 15:32:33 |
+| 33   | 🐬 dolphin      | 43.45         | julialuxel            | 2025-01-08 22:53:41 |
+| 32   | 🦀 crab         | 4.95          | leanmeister           | 2025-01-03 21:39:41 |
+| 31   | 🦞 lobster      | 49.64         | julialuxel            | 2024-12-29 04:36:47 |
 | 30   | 🪺 nestwitheggs | 2.18          | julialuxel            | 2024-12-24 01:54:16 |
 | 29   | 🌰 acorn        | 1.34          | julialuxel            | 2024-09-30 23:18:34 |
 | 28   | 🐦‍⬛ blackbird    | 0.69          | ninjaross             | 2024-05-04 18:16:52 |
@@ -61,4 +61,4 @@
 | 2    | 🐧 penguin      | 29.49         | ryebreadward          | 2024-01-01 00:28:42 |
 | 1    | 🧣 scarf        | 0.37          | hahppyy               | 2023-12-24 23:05:05 |
 
-_Last updated at 2025-08-31 07:53:33 UTC_
+_Last updated at 2025-09-07 09:11:04 UTC_

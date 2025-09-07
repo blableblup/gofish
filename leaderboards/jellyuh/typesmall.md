@@ -50,36 +50,36 @@
 | 46    | 🐙 octopus       | 0.45          | rainedparade        | 2025-05-31 21:47:34 |
 | 47    | 🪶 feather       | 0.43          | jellyuh             | 2025-01-02 09:31:14 |
 | 48    | 🧽 sponge        | 0.42          | rainedparade        | 2025-05-14 23:03:07 |
-| 49 🆕 | 🫙 jar           | 0.40          | teeto               | 2025-08-30 18:26:46 |
-| 50 ⬇  | 🦑 squid         | 0.39          | goopy777            | 2025-01-31 00:48:21 |
-| 51 ⬇  | 🪀 bobber        | 0.35          | miyabwah            | 2025-01-28 00:17:58 |
-| 52 ⬇  | 🍄‍🟫 brownmushroom | 0.32          | miyabwah            | 2025-02-04 03:28:39 |
-| 53 ⬇  | 🦎 lizard        | 0.28          | poioce              | 2025-03-21 08:54:20 |
-| 54 ⬇  | 🕷️ spider         | 0.24          | cptblack_           | 2025-07-21 03:04:53 |
-| 55 ⬇  | 🐍 snake         | 0.23          | rainedparade        | 2025-03-17 17:09:44 |
-| 56 ⬇  | 👢 boot          | 0.20          | cptblack_           | 2025-02-05 05:52:59 |
-| 57 ⬇  | 🧵 wireline      | 0.17          | goopy777            | 2024-12-27 03:16:21 |
-| 58 ⬇  | 🦞 lobster       | 0.16          | hello0d             | 2025-02-16 09:22:31 |
-| 58 ⬇  | 🧣 scarf         | 0.16          | goopy777            | 2024-12-29 00:40:05 |
-| 60 ⬇  | 🌷 tulip         | 0.15          | hello0d             | 2025-03-17 18:30:17 |
-| 61 ⬇  | 💀 skull         | 0.14          | miyabwah            | 2025-04-27 18:38:15 |
-| 62 ⬇  | 🧤 gloves        | 0.12          | cptblack_           | 2025-02-17 05:56:20 |
-| 62 ⬇  | 🐌 snail         | 0.12          | poioce              | 2025-04-09 03:14:28 |
-| 64 ⬇  | ☂️ umbrella       | 0.11          | e1d2f3              | 2025-01-30 06:43:56 |
-| 65 ⬇  | 🐸 frog          | 0.10          | pompadourdelinquent | 2025-07-17 15:39:18 |
-| 66 ⬇  | 🐚 shell         | 0.09          | miyabwah            | 2025-05-25 02:40:40 |
-| 67 ⬇  | 🐟 fish          | 0.08          | hello0d             | 2025-03-01 19:16:27 |
-| 68 ⬇  | 🌿 seaweed       | 0.05          | poioce              | 2025-03-20 09:26:12 |
-| 69 ⬇  | ⛸️ iceskate       | 0.04          | pompadourdelinquent | 2025-01-07 04:48:07 |
-| 69 ⬇  | 🍃 leaf          | 0.04          | teeto               | 2025-03-28 22:50:41 |
-| 69 ⬇  | ☘️ shamrock       | 0.04          | miyabwah            | 2025-01-26 07:15:25 |
-| 72 ⬇  | 🪝 hook          | 0.03          | poioce              | 2025-02-27 13:32:30 |
-| 73 ⬇  | 🦀 crab          | 0.01          | maurgauna           | 2025-04-16 03:20:53 |
-| 73 ⬇  | 🧦 socks         | 0.01          | miyabwah            | 2025-03-11 06:41:19 |
-| 73 ⬇  | 🩴 thongsandal   | 0.01          | yaykaiza            | 2025-08-22 00:59:19 |
-| 76 ⬇  | 🥫 cannedfood    | 0.00          | angelboygone        | 2025-02-05 04:52:10 |
-| 76 ⬇  | 🎏 lure          | 0.00          | pompadourdelinquent | 2025-07-15 21:38:09 |
+| 49    | 🫙 jar           | 0.40          | teeto               | 2025-08-30 18:26:46 |
+| 50    | 🦑 squid         | 0.39          | goopy777            | 2025-01-31 00:48:21 |
+| 51    | 🪀 bobber        | 0.35          | miyabwah            | 2025-01-28 00:17:58 |
+| 52    | 🍄‍🟫 brownmushroom | 0.32          | miyabwah            | 2025-02-04 03:28:39 |
+| 53    | 🦎 lizard        | 0.28          | poioce              | 2025-03-21 08:54:20 |
+| 54    | 🕷️ spider         | 0.24          | cptblack_           | 2025-07-21 03:04:53 |
+| 55    | 🐍 snake         | 0.23          | rainedparade        | 2025-03-17 17:09:44 |
+| 56    | 👢 boot          | 0.20          | cptblack_           | 2025-02-05 05:52:59 |
+| 57    | 🧵 wireline      | 0.17          | goopy777            | 2024-12-27 03:16:21 |
+| 58    | 🦞 lobster       | 0.16          | hello0d             | 2025-02-16 09:22:31 |
+| 58    | 🧣 scarf         | 0.16          | goopy777            | 2024-12-29 00:40:05 |
+| 60    | 🌷 tulip         | 0.15          | hello0d             | 2025-03-17 18:30:17 |
+| 61    | 💀 skull         | 0.14          | miyabwah            | 2025-04-27 18:38:15 |
+| 62    | 🧤 gloves        | 0.12          | cptblack_           | 2025-02-17 05:56:20 |
+| 62    | 🐌 snail         | 0.12          | poioce              | 2025-04-09 03:14:28 |
+| 64    | ☂️ umbrella       | 0.11          | e1d2f3              | 2025-01-30 06:43:56 |
+| 65    | 🐸 frog          | 0.10          | pompadourdelinquent | 2025-07-17 15:39:18 |
+| 66    | 🐚 shell         | 0.09          | miyabwah            | 2025-05-25 02:40:40 |
+| 67    | 🐟 fish          | 0.07 (-0.01)  | pompadourdelinquent | 2025-09-01 01:12:53 |
+| 68    | 🌿 seaweed       | 0.05          | poioce              | 2025-03-20 09:26:12 |
+| 69    | ⛸️ iceskate       | 0.04          | pompadourdelinquent | 2025-01-07 04:48:07 |
+| 69    | 🍃 leaf          | 0.04          | teeto               | 2025-03-28 22:50:41 |
+| 69    | ☘️ shamrock       | 0.04          | miyabwah            | 2025-01-26 07:15:25 |
+| 72    | 🪝 hook          | 0.03          | poioce              | 2025-02-27 13:32:30 |
+| 73    | 🦀 crab          | 0.01          | maurgauna           | 2025-04-16 03:20:53 |
+| 73    | 🧦 socks         | 0.01          | miyabwah            | 2025-03-11 06:41:19 |
+| 73    | 🩴 thongsandal   | 0.01          | yaykaiza            | 2025-08-22 00:59:19 |
+| 76    | 🥫 cannedfood    | 0.00          | angelboygone        | 2025-02-05 04:52:10 |
+| 76    | 🎏 lure          | 0.00          | pompadourdelinquent | 2025-07-15 21:38:09 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-08-31 07:53:38 UTC_
+_Last updated at 2025-09-07 09:09:45 UTC_
