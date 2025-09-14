@@ -2,9 +2,9 @@
 
 | Rank  | Player         | Fish caught |
 |:------|:---------------|:------------|
-| 1 🥇  | buhl00n        | 2448 (+51)  |
+| 1 🥇  | buhl00n        | 2448        |
 | 2 🥈  | gimmeschmoneys | 1086        |
-| 3 🥉  | keplepn3       | 1085 (+2)   |
+| 3 🥉  | keplepn3       | 1085        |
 | 4     | ben_vincent    | 773         |
 | 5     | lolspers       | 620         |
 | 6     | iam_haunt      | 535         |
@@ -12,14 +12,14 @@
 | 8     | konsminator    | 326         |
 | 9     | ofaisalz       | 310         |
 | 10    | rabituwu       | 243         |
-| 11    | notnownico     | 231 (+1)    |
-| 12    | heavener6      | 214 (+1)    |
-| 13    | hamoodhabibee  | 208 (+1)    |
+| 11    | notnownico     | 231         |
+| 12    | heavener6      | 214         |
+| 13    | hamoodhabibee  | 208         |
 | 14    | simplydrack    | 183         |
 | 15    | ssenario       | 171         |
 | 16    | tairaaaaa      | 166         |
-| 17    | mousee93       | 156         |
-| 18    | kyonuwu        | 143 (+1)    |
+| 17    | mousee93       | 158 (+2)    |
+| 18    | kyonuwu        | 143         |
 | 19    | sugur          | 134         |
 | 20    | burnend        | 133         |
 | 21    | exo9*          | 130         |
@@ -32,9 +32,9 @@
 | 28    | gofishgamer    | 69          |
 | 28    | icejamx        | 69          |
 | 30    | silent11d5     | 65          |
-| 31    | respirate_     | 63 (+1)     |
-| 32 ⬇  | 777pancake     | 62          |
-| 32 ⬆  | whoop_ee       | 62 (+1)     |
+| 31    | respirate_     | 63          |
+| 32    | 777pancake     | 62          |
+| 32    | whoop_ee       | 62          |
 | 34    | ruusui         | 58          |
 | 35    | buffyo         | 54          |
 | 36    | mitsu_skidz    | 50          |
@@ -47,7 +47,7 @@
 | 43    | nocer2k        | 38          |
 | 44    | gigi           | 37          |
 | 44    | gizbart        | 37          |
-| 46    | fvkdylan       | 33 (+1)     |
+| 46    | fvkdylan       | 33          |
 | 47    | ahxle          | 31          |
 | 47    | anothercull    | 31          |
 | 47    | avrwhy         | 31          |
@@ -56,4 +56,4 @@
 
 _Only showing fishers who caught >= 30 fish_
 
-_Last updated at 2025-09-07 09:11:03 UTC_
+_Last updated at 2025-09-14 09:38:03 UTC_

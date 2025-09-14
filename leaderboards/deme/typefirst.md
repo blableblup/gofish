@@ -2,6 +2,8 @@
 
 | Rank | Fish            | Weight in lbs | Player          | Date in UTC         |
 |:-----|:----------------|:--------------|:----------------|:--------------------|
+| 24   | 🪳 cockroach    | 2.09          | soopyboo32      | 2025-09-11 10:23:24 |
+| 23   | 🐢 turtle       | 60.53         | soopyboo32      | 2025-09-07 18:25:15 |
 | 22   | 🦞 lobster      | 25.62         | soopyboo32      | 2025-09-02 07:45:07 |
 | 21   | 🌿 seaweed      | 0.85          | flummoxedfungus | 2025-09-01 14:48:19 |
 | 20   | 🩲 briefs       | 8.74          | bubinga         | 2025-08-14 10:48:02 |
@@ -25,4 +27,4 @@
 | 2    | 🪝 hook         | 0.32          | fantanium       | 2025-05-12 07:45:38 |
 | 1    | 🐬 dolphin      | 69.74         | commanda_u      | 2025-05-11 22:35:17 |
 
-_Last updated at 2025-09-07 09:09:37 UTC_
+_Last updated at 2025-09-14 09:38:04 UTC_

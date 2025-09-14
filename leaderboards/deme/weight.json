@@ -4,13 +4,27 @@
 		"playerid": 1747,
 		"weight": 89.33,
 		"bot": "gofishgame",
-		"type": "🐬",
-		"typename": "dolphin",
+		"fishtype": "🐬",
+		"fishname": "dolphin",
 		"catchtype": "normal",
-		"date": "2025-05-22T11:55:44Z",
 		"chat": "deme",
 		"fishid": 175076,
 		"chatid": 6,
+		"date": "2025-05-22T11:55:44Z",
 		"rank": 1
+	},
+	"3932": {
+		"player": "soopyboo32",
+		"playerid": 3932,
+		"weight": 84.19,
+		"bot": "gofishgame",
+		"fishtype": "🐊",
+		"fishname": "crocodile",
+		"catchtype": "normal",
+		"chat": "deme",
+		"fishid": 198719,
+		"chatid": 54,
+		"date": "2025-09-12T15:51:25Z",
+		"rank": 2
 	}
 }

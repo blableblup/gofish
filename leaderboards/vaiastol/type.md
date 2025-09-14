@@ -64,14 +64,14 @@
 | 60    | 🦎 lizard        | 7.98          | leastsussyimposter | 2024-12-24 22:04:56 |
 | 61    | 🧋 bubbleteacup  | 7.16          | garout             | 2025-08-28 11:52:35 |
 | 62    | 🦆 duck          | 6.56          | divra__            | 2024-11-02 04:38:35 |
-| 63 ⬆  | ☘️ shamrock       | 5.98 (+1.98)  | vaiastol           | 2025-09-03 16:31:17 |
-| 64 ⬇  | 🥫 cannedfood    | 5.92          | hahppyy            | 2025-01-13 14:58:31 |
-| 65 ⬇  | 🧵 wireline      | 5.87          | vaiastol           | 2025-03-13 07:44:35 |
-| 66 ⬇  | 🐚 shell         | 5.60          | v6r_               | 2025-04-02 06:07:49 |
-| 67 ⬇  | 👒 womanshat     | 5.54          | hahppyy            | 2024-11-02 04:51:56 |
-| 68 ⬇  | 🎏 lure          | 4.97          | vaiastol           | 2025-02-06 22:37:25 |
+| 63    | ☘️ shamrock       | 5.98          | vaiastol           | 2025-09-03 16:31:17 |
+| 64    | 🥫 cannedfood    | 5.92          | hahppyy            | 2025-01-13 14:58:31 |
+| 65    | 🧵 wireline      | 5.87          | vaiastol           | 2025-03-13 07:44:35 |
+| 66    | 🐚 shell         | 5.60          | v6r_               | 2025-04-02 06:07:49 |
+| 67    | 👒 womanshat     | 5.54          | hahppyy            | 2024-11-02 04:51:56 |
+| 68    | 🎏 lure          | 4.97          | vaiastol           | 2025-02-06 22:37:25 |
+| 69 ⬆  | 🌰 acorn         | 3.95 (+0.01)  | vaiastol           | 2025-09-09 08:28:55 |
 | 69    | 🪝 hook          | 3.95          | yoimlee            | 2025-05-19 12:50:57 |
-| 70    | 🌰 acorn         | 3.94          | divra__            | 2024-10-03 20:49:22 |
 | 71    | 🦢 swan          | 3.86          | divra__            | 2025-05-06 23:44:45 |
 | 72    | 🌷 tulip         | 2.98          | eelacy             | 2025-03-18 02:28:33 |
 | 73    | 🌻 sunflower     | 2.94          | vaiastol           | 2025-06-10 19:21:56 |
@@ -106,4 +106,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-09-07 09:11:55 UTC_
+_Last updated at 2025-09-14 09:36:54 UTC_

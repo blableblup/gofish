@@ -13,13 +13,13 @@
 | 9     | breadworms            | 83        |
 | 9     | miiiiisho             | 83        |
 | 11    | qu4ttromila           | 82        |
-| 12    | derintu               | 81 (+2)   |
-| 13 ⬆  | dougiefresh_83*       | 78 (+2)   |
-| 14 ⬇  | booty_bread           | 77        |
-| 15 ⬇  | dazedforevermore      | 76        |
-| 16    | sicklymaidrobot       | 75        |
-| 17    | ninjaross*            | 74        |
-| 17    | osnyisdead            | 74        |
+| 12    | derintu               | 81        |
+| 13    | dougiefresh_83*       | 79 (+1)   |
+| 14    | booty_bread           | 77        |
+| 15    | dazedforevermore      | 76        |
+| 15 ⬆  | osnyisdead            | 76 (+2)   |
+| 17 ⬇  | sicklymaidrobot       | 75        |
+| 18 ⬇  | ninjaross*            | 74        |
 | 19    | osnyatsky*            | 73        |
 | 19    | puzzlow               | 73        |
 | 21    | paras220              | 72        |
@@ -29,10 +29,10 @@
 | 25    | julialuxel            | 65        |
 | 25    | ryebreadward          | 65        |
 | 27    | mitgliederversammlung | 64        |
-| 28    | gawblemachine         | 63 (+1)   |
-| 29 ⬇  | sussy_amonge          | 62        |
+| 28    | gawblemachine         | 63        |
+| 29    | sussy_amonge          | 62        |
+| 30 ⬆  | comiqq                | 60 (+1)   |
 | 30    | kaasppeerr            | 60        |
-| 31    | comiqq                | 59        |
 | 32    | idini                 | 56        |
 | 32    | wisco9ers*            | 56        |
 | 34    | divra__               | 55        |
@@ -42,10 +42,10 @@
 | 38    | bapqo                 | 52        |
 | 39    | houseofleaves*        | 51        |
 | 39    | osnyatsky*            | 51        |
-| 39 ⬆  | ytp_dl*               | 51 (+1)   |
+| 39    | ytp_dl*               | 51        |
 
 _This does not include fish seen through 🎁 gifts or through releasing to another player during the winter events!_
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2025-09-07 09:11:00 UTC_
+_Last updated at 2025-09-14 09:36:20 UTC_
