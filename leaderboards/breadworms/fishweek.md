@@ -47,14 +47,15 @@
 | 43    | fallen_angels_1995    | 28          |
 | 44    | breadworms            | 27          |
 | 44    | dougiefresh_83        | 27          |
-| 46    | carmirror             | 25          |
-| 46    | globcob               | 25          |
-| 46    | wisco9ers             | 25          |
-| 49    | rocketpol*            | 24          |
-| 50    | divra__               | 22          |
-| 51    | veggesh               | 21          |
-| 52    | realtechnine          | 20          |
+| 44 🆕 | ytp_dl                | 27          |
+| 47 ⬇  | carmirror             | 25          |
+| 47 ⬇  | globcob               | 25          |
+| 47 ⬇  | wisco9ers             | 25          |
+| 50 ⬇  | rocketpol*            | 24          |
+| 51 ⬇  | divra__               | 22          |
+| 52 ⬇  | veggesh               | 21          |
+| 53 ⬇  | realtechnine          | 20          |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2025-08-27 18:01:58 UTC_
+_Last updated at 2025-09-18 09:27:01 UTC_
