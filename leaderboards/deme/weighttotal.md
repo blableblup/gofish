@@ -1,9 +1,9 @@
 ### Total weight of all fish caught per player in deme's chat
 
-| Rank    | Player     | Total Weight in lbs |
-|:--------|:-----------|:--------------------|
-| 1 🥇 🆕 | commanda_u | 207.16              |
+| Rank  | Player     | Total Weight in lbs |
+|:------|:-----------|:--------------------|
+| 1 🥇  | commanda_u | 207.16              |
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2025-09-14 09:38:01 UTC_
+_Last updated at 2025-09-21 08:54:48 UTC_

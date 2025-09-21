@@ -12,8 +12,8 @@
 | 8     | mitgliederversammlung | 350.98              |
 | 9     | ninjaross*            | 344.37              |
 | 10    | larvasisters          | 304.87              |
-| 11    | gawblemachine         | 251.24              |
+| 11    | gawblemachine         | 262.20 (+10.96)     |
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2025-09-14 09:38:01 UTC_
+_Last updated at 2025-09-21 08:54:47 UTC_

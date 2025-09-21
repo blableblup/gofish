@@ -77,11 +77,11 @@
 | 73    | 🧵 wireline        | 5.95          | ninjaross               | 2025-03-15 11:04:57 |
 | 74    | 🐚 shell           | 5.92          | c_mgirl                 | 2025-04-01 04:02:00 |
 | 75    | 🦉 owl             | 5.90          | c_mgirl                 | 2024-10-20 16:28:24 |
-| 76    | 🎏 lure            | 5.76          | fishingalt              | 2024-01-13 13:04:30 |
-| 77    | 🪝 hook            | 4.98          | sussy_amonge            | 2022-12-15 17:37:01 |
-| 78    | 🐦‍⬛ blackbird       | 4.85          | qu4ttromila             | 2024-04-25 00:23:08 |
-| 79    | 🦢 swan            | 4.40          | fishingalt              | 2025-03-30 15:28:03 |
-| 80    | ☘️ shamrock         | 3.99          | destin357               | 2025-06-21 21:51:55 |
+| 76 ⬆  | ☘️ shamrock         | 5.81 (+1.82)  | osnyisdead              | 2025-09-20 23:40:02 |
+| 77 ⬇  | 🎏 lure            | 5.76          | fishingalt              | 2024-01-13 13:04:30 |
+| 78 ⬇  | 🪝 hook            | 4.98          | sussy_amonge            | 2022-12-15 17:37:01 |
+| 79 ⬇  | 🐦‍⬛ blackbird       | 4.85          | qu4ttromila             | 2024-04-25 00:23:08 |
+| 80 ⬇  | 🦢 swan            | 4.40          | fishingalt              | 2025-03-30 15:28:03 |
 | 81    | 🌰 acorn           | 3.91          | fishingalt              | 2024-09-25 12:59:56 |
 | 82    | 🪿 goose           | 3.41          | julialuxel              | 2025-01-15 04:08:39 |
 | 83    | 🌻 sunflower       | 2.99          | kishma9                 | 2025-08-13 23:02:21 |
@@ -101,7 +101,7 @@
 | 97    | 👢 boot            | 1.98          | derinturitierutz        | 2023-12-30 12:35:00 |
 | 97    | 🪻 lupine          | 1.98          | ytp_dl                  | 2025-07-10 15:36:58 |
 | 99    | 🍃 leaf            | 1.97          | destin357               | 2025-04-04 08:54:35 |
-| 100   | 🌿 seaweed         | 1.96          | dazedforevermore        | 2024-03-28 09:38:13 |
+| 99 ⬆  | 🌿 seaweed         | 1.97 (+0.01)  | comiqq                  | 2025-09-20 16:29:43 |
 | 101   | 🐝 bee             | 1.25          | chubby_________         | 2025-06-24 11:19:51 |
 | 102   | 🦂 scorpion        | 1.16          | destin357               | 2025-08-30 11:50:51 |
 | 103   | 🐛 caterpillar     | 1.02          | fishingalt              | 2025-08-30 11:34:52 |
@@ -125,4 +125,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-09-14 09:37:58 UTC_
+_Last updated at 2025-09-21 08:57:05 UTC_

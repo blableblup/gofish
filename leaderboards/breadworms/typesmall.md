@@ -7,20 +7,20 @@
 | 3 🥉  | 🐻‍❄ polarbear       | 14.96         | derintu               | 2025-03-25 15:00:46 |
 | 4     | 🛒 shoppingcart    | 14.53         | leanmeister           | 2025-02-02 15:33:00 |
 | 5     | 🛢️ oildrum          | 13.36         | islcfc                | 2024-07-12 03:25:59 |
-| 6     | 🐀 rat             | 8.62          | derinturitierutz      | 2025-03-14 09:24:02 |
-| 7     | 🧞‍♂ malegenie       | 3.22          | osnyatsky             | 2024-02-11 00:58:17 |
-| 8     | 🦉 owl             | 3.20          | dougiefresh_83        | 2025-04-12 07:16:46 |
+| 6 ⬆   | 🧞‍♂ malegenie       | 3.22          | osnyatsky             | 2024-02-11 00:58:17 |
+| 7 ⬆   | 🦉 owl             | 3.20          | dougiefresh_83        | 2025-04-12 07:16:46 |
+| 8 ⬇   | 🐀 rat             | 3.13 (-5.49)  | derinturitierutz      | 2025-09-19 07:25:43 |
 | 9     | 👑 crown           | 3.10          | osnyatsky*            | 2023-06-12 13:09:46 |
 | 10    | 🧜‍♀️ mermaid         | 2.65          | kishma9               | 2023-12-04 11:12:58 |
 | 11    | 🦴 bone            | 1.97          | derinturitierutz      | 2025-08-28 05:53:44 |
 | 12    | 🧥 coat            | 1.85          | gstaman911            | 2025-01-01 13:14:00 |
-| 13    | 🦇 bat             | 1.62          | derintu               | 2025-06-22 08:01:41 |
-| 14    | 🪿 goose           | 1.43          | qu4ttromila           | 2025-02-03 02:10:08 |
-| 15    | 🧴 sunscreenbottle | 1.40          | fishingalt            | 2025-08-26 18:53:00 |
-| 16    | 🧋 bubbleteacup    | 1.03          | derinturitierutz      | 2025-08-25 16:20:37 |
-| 17    | 🐉 dragon          | 0.94          | chubby_________       | 2023-03-05 17:11:41 |
-| 18    | 🦂 scorpion        | 0.92          | fishingalt            | 2025-08-28 08:12:44 |
-| 19    | 🍇 crowberries     | 0.79          | derinturitierutz      | 2025-06-23 19:30:00 |
+| 13 ⬆  | 🪿 goose           | 1.43          | qu4ttromila           | 2025-02-03 02:10:08 |
+| 14 ⬆  | 🧴 sunscreenbottle | 1.40          | fishingalt            | 2025-08-26 18:53:00 |
+| 15 ⬆  | 🧋 bubbleteacup    | 1.03          | derinturitierutz      | 2025-08-25 16:20:37 |
+| 16 ⬆  | 🐉 dragon          | 0.94          | chubby_________       | 2023-03-05 17:11:41 |
+| 17 ⬆  | 🦂 scorpion        | 0.92          | fishingalt            | 2025-08-28 08:12:44 |
+| 18 ⬆  | 🍇 crowberries     | 0.79          | derinturitierutz      | 2025-06-23 19:30:00 |
+| 19 ⬇  | 🦇 bat             | 0.76 (-0.86)  | breadworms            | 2025-09-19 13:35:33 |
 | 20    | 🧟 zombie          | 0.57          | destin357             | 2025-08-18 07:29:39 |
 | 21    | 🗡️ dagger           | 0.56          | respirate_            | 2024-08-26 22:03:27 |
 | 22    | 🦆 duck            | 0.48          | osnyatsky*            | 2023-07-25 17:55:46 |
@@ -37,25 +37,25 @@
 | 33    | 🍥 sanddollar      | 0.17          | c_mgirl               | 2025-08-26 16:13:12 |
 | 33    | 🦢 swan            | 0.17          | chubby_________       | 2024-07-15 15:39:04 |
 | 35    | 🦭 seal            | 0.15          | dazedforevermore      | 2024-01-28 16:20:04 |
-| 36 ⬆  | 🐦 bird            | 0.12          | idini                 | 2025-01-11 08:43:38 |
-| 36 ⬆  | 🪁 kite            | 0.12          | destin357             | 2025-06-29 13:18:44 |
-| 36 ⬆  | 🦦 otter           | 0.12          | qu4ttromila           | 2024-03-10 17:13:08 |
-| 36 ⬆  | 🦠 plankton        | 0.12          | paras220              | 2024-01-24 08:49:07 |
-| 40 ⬆  | 🩲 briefs          | 0.11          | derinturitierutz      | 2024-07-31 17:15:58 |
-| 40 ⬆  | 🪹 emptynest       | 0.11          | dougiefresh_83        | 2025-04-09 06:41:33 |
-| 40 ⬆  | 🥀 wiltedflower    | 0.11          | ninjaross             | 2024-12-22 11:28:27 |
-| 43 ⬆  | 🧣 scarf           | 0.10          | ryebreadward          | 2023-12-25 05:27:44 |
-| 44 ⬆  | 🎱 8ball           | 0.09          | c_mgirl               | 2025-06-22 14:50:22 |
-| 44 ⬆  | 🐝 bee             | 0.09          | c_mgirl               | 2025-08-26 20:24:32 |
-| 44 ⬆  | 🐬 dolphin         | 0.09          | fishingalt            | 2023-12-22 20:00:52 |
-| 44 ⬆  | 🍄 mushroom        | 0.09          | miiiiisho             | 2024-01-24 19:44:13 |
-| 44 ⬆  | 🌻 sunflower       | 0.09          | divra__               | 2024-06-22 14:36:26 |
-| 49 ⬆  | 🪻 lupine          | 0.08          | breadworms            | 2025-08-26 18:57:21 |
-| 49 ⬆  | 🐧 penguin         | 0.08          | bapqo                 | 2024-12-24 06:23:03 |
-| 49 ⬆  | 🦈 shark           | 0.08          | sussy_amonge          | 2023-05-06 16:00:04 |
-| 52 ⬇  | 🥒 cucumber        | 0.07 (-0.07)  | twemoji               | 2025-09-09 14:26:45 |
-| 52 ⬆  | 🧸 teddybear       | 0.07          | sicklymaidrobot       | 2024-02-13 07:14:29 |
-| 52 ⬆  | 👒 womanshat       | 0.07          | breadworms            | 2024-02-21 05:05:28 |
+| 36    | 🐦 bird            | 0.12          | idini                 | 2025-01-11 08:43:38 |
+| 36    | 🪁 kite            | 0.12          | destin357             | 2025-06-29 13:18:44 |
+| 36    | 🦦 otter           | 0.12          | qu4ttromila           | 2024-03-10 17:13:08 |
+| 36    | 🦠 plankton        | 0.12          | paras220              | 2024-01-24 08:49:07 |
+| 40    | 🩲 briefs          | 0.11          | derinturitierutz      | 2024-07-31 17:15:58 |
+| 40    | 🪹 emptynest       | 0.11          | dougiefresh_83        | 2025-04-09 06:41:33 |
+| 40    | 🥀 wiltedflower    | 0.11          | ninjaross             | 2024-12-22 11:28:27 |
+| 43    | 🧣 scarf           | 0.10          | ryebreadward          | 2023-12-25 05:27:44 |
+| 44    | 🐝 bee             | 0.09          | c_mgirl               | 2025-08-26 20:24:32 |
+| 44    | 🐬 dolphin         | 0.09          | fishingalt            | 2023-12-22 20:00:52 |
+| 44    | 🍄 mushroom        | 0.09          | miiiiisho             | 2024-01-24 19:44:13 |
+| 44    | 🌻 sunflower       | 0.09          | divra__               | 2024-06-22 14:36:26 |
+| 48 ⬆  | 🪻 lupine          | 0.08          | breadworms            | 2025-08-26 18:57:21 |
+| 48 ⬆  | 🐧 penguin         | 0.08          | bapqo                 | 2024-12-24 06:23:03 |
+| 48 ⬆  | 🦈 shark           | 0.08          | sussy_amonge          | 2023-05-06 16:00:04 |
+| 51 ⬇  | 🎱 8ball           | 0.07 (-0.02)  | derinturitierutz      | 2025-09-20 08:09:23 |
+| 51 ⬆  | 🥒 cucumber        | 0.07          | twemoji               | 2025-09-09 14:26:45 |
+| 51 ⬆  | 🧸 teddybear       | 0.07          | sicklymaidrobot       | 2024-02-13 07:14:29 |
+| 51 ⬆  | 👒 womanshat       | 0.07          | breadworms            | 2024-02-21 05:05:28 |
 | 55    | 🐦‍⬛ blackbird       | 0.06          | paras220              | 2024-07-07 04:33:58 |
 | 55    | 🦕 sauropod        | 0.06          | dazedforevermore      | 2023-06-23 01:50:15 |
 | 55    | 🌷 tulip           | 0.06          | qu4ttromila           | 2025-03-15 12:00:08 |
@@ -125,4 +125,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-09-14 09:39:03 UTC_
+_Last updated at 2025-09-21 08:55:41 UTC_

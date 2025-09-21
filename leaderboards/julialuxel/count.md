@@ -3,7 +3,7 @@
 | Rank  | Player           | Fish caught |
 |:------|:-----------------|:------------|
 | 1 🥇  | hahppyy          | 99          |
-| 2 🥈  | julialuxel       | 84 (+1)     |
+| 2 🥈  | julialuxel       | 85 (+1)     |
 | 3 🥉  | toastyso         | 35          |
 | 4     | chubby_________  | 30          |
 | 5     | ryebreadward     | 14          |
@@ -11,4 +11,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-09-07 09:11:03 UTC_
+_Last updated at 2025-09-21 08:54:45 UTC_

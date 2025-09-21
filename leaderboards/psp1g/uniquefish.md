@@ -2,10 +2,10 @@
 
 | Rank  | Player                    | Fish seen |
 |:------|:--------------------------|:----------|
-| 1 🥇  | nndiana*                  | 82        |
+| 1 🥇  | nndiana*                  | 86 (+4)   |
 | 2 🥈  | huuuuuuuuuuuuuuuuuuuuuurz | 79        |
-| 3 🥉  | bubinga                   | 76 (+1)   |
-| 4     | mazzo_tv                  | 72        |
+| 3 🥉  | bubinga                   | 76        |
+| 4     | mazzo_tv                  | 73 (+1)   |
 | 5     | caprisen_*                | 71        |
 | 5     | jr_mime                   | 71        |
 | 7     | sandwichsundays*          | 70        |
@@ -14,14 +14,14 @@
 | 9     | lobuhtomy                 | 67        |
 | 9     | pengeg                    | 67        |
 | 12    | ratot                     | 65        |
-| 13    | divra__                   | 63        |
-| 14    | angus_lpc                 | 62        |
-| 14    | bluberry                  | 62        |
-| 14    | jemcs_                    | 62        |
-| 17    | commanda_u                | 61        |
-| 17    | flunke_                   | 61        |
-| 17 ⬆  | jayayseaohbee             | 61 (+1)   |
-| 20 ⬇  | theevirus                 | 60        |
+| 13 ⬆  | bluberry                  | 64 (+2)   |
+| 13 ⬆  | jayayseaohbee             | 64 (+3)   |
+| 15 ⬇  | divra__                   | 63        |
+| 16 ⬇  | angus_lpc                 | 62        |
+| 16 ⬇  | jemcs_                    | 62        |
+| 18 ⬇  | commanda_u                | 61        |
+| 18 ⬇  | flunke_                   | 61        |
+| 20    | theevirus                 | 60        |
 | 21    | eeziiii                   | 58        |
 | 21    | veny2lbs                  | 58        |
 | 23    | iflya320                  | 57        |
@@ -29,8 +29,8 @@
 | 24    | benciee                   | 56        |
 | 24    | creepycode*               | 56        |
 | 24    | deogen01                  | 56        |
-| 28    | maksmusz*                 | 54        |
-| 28    | markenzy01                | 54        |
+| 28    | markenzy01                | 55 (+1)   |
+| 29 ⬇  | maksmusz*                 | 54        |
 | 30    | euxoa                     | 53        |
 | 31    | faslker                   | 52        |
 | 31    | flovrek                   | 52        |
@@ -46,4 +46,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2025-09-14 09:36:20 UTC_
+_Last updated at 2025-09-21 08:54:43 UTC_

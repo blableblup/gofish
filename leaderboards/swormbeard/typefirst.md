@@ -2,6 +2,7 @@
 
 | Rank | Fish             | Weight in lbs | Player                | Date in UTC         |
 |:-----|:-----------------|:--------------|:----------------------|:--------------------|
+| 65   | 🎱 8ball         | 0.49          | chestnutbank          | 2025-09-20 21:33:38 |
 | 64   | 🦋 butterfly     | 0.03          | derintu               | 2025-08-29 20:53:43 |
 | 63   | 🫙 jar           | 1.18          | chestnutbank          | 2025-08-29 19:24:40 |
 | 62   | 🕸️ spiderweb      | 0.06          | respirate_            | 2025-08-29 17:16:52 |
@@ -66,4 +67,4 @@
 | 2    | 🦐 shrimp        | 3.14          | bapqo                 | 2024-07-28 22:59:12 |
 | 1    | 🐊 crocodile     | 105.00        | julialuxel            | 2024-07-28 22:59:00 |
 
-_Last updated at 2025-08-31 07:53:24 UTC_
+_Last updated at 2025-09-21 08:56:20 UTC_

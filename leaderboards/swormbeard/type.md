@@ -52,19 +52,20 @@
 | 49    | 🍃 leaf          | 1.87          | derintu               | 2025-03-17 18:45:36 |
 | 50    | 👢 boot          | 1.78          | leanmeister           | 2024-11-25 23:27:07 |
 | 51    | 🥫 cannedfood    | 1.73          | leanmeister           | 2024-11-27 21:52:51 |
-| 52 🆕 | 🫙 jar           | 1.53          | derintu               | 2025-08-29 19:43:05 |
-| 53 ⬇  | 🧦 socks         | 1.48          | respirate_            | 2024-09-07 23:49:45 |
-| 54 ⬇  | 🌿 seaweed       | 0.98          | respirate_            | 2024-09-02 19:38:53 |
-| 55 ⬇  | 🍁 mapleleaf     | 0.94          | leanmeister           | 2024-11-14 23:08:37 |
-| 56 ⬇  | 👟 athleticshoe  | 0.91          | respirate_            | 2024-09-08 17:15:35 |
-| 57 ⬇  | ⛸️ iceskate       | 0.84          | derintu               | 2025-03-17 16:11:43 |
-| 58 ⬇  | 🩴 thongsandal   | 0.65          | dazedforevermore      | 2024-08-03 15:29:46 |
-| 59 ⬇  | 🪚 carpentrysaw  | 0.57          | derintu               | 2025-03-17 16:55:26 |
-| 60 ⬇  | 🌾 grass         | 0.23          | derintu               | 2025-03-17 20:23:03 |
-| 61 🆕 | 🕸️ spiderweb      | 0.06          | respirate_            | 2025-08-29 17:16:52 |
-| 62 🆕 | 🦋 butterfly     | 0.03          | derintu               | 2025-08-29 20:53:43 |
-| 63 ⬇  | 🌷 tulip         | 0.01          | derinturitierutz      | 2025-03-16 16:56:15 |
+| 52    | 🫙 jar           | 1.53          | derintu               | 2025-08-29 19:43:05 |
+| 53    | 🧦 socks         | 1.48          | respirate_            | 2024-09-07 23:49:45 |
+| 54    | 🌿 seaweed       | 0.98          | respirate_            | 2024-09-02 19:38:53 |
+| 55    | 🍁 mapleleaf     | 0.94          | leanmeister           | 2024-11-14 23:08:37 |
+| 56    | 👟 athleticshoe  | 0.91          | respirate_            | 2024-09-08 17:15:35 |
+| 57    | ⛸️ iceskate       | 0.84          | derintu               | 2025-03-17 16:11:43 |
+| 58    | 🩴 thongsandal   | 0.65          | dazedforevermore      | 2024-08-03 15:29:46 |
+| 59    | 🪚 carpentrysaw  | 0.57          | derintu               | 2025-03-17 16:55:26 |
+| 60 🆕 | 🎱 8ball         | 0.49          | chestnutbank          | 2025-09-20 21:33:38 |
+| 61 ⬇  | 🌾 grass         | 0.23          | derintu               | 2025-03-17 20:23:03 |
+| 62 ⬇  | 🕸️ spiderweb      | 0.06          | respirate_            | 2025-08-29 17:16:52 |
+| 63 ⬇  | 🦋 butterfly     | 0.03          | derintu               | 2025-08-29 20:53:43 |
+| 64 ⬇  | 🌷 tulip         | 0.01          | derinturitierutz      | 2025-03-16 16:56:15 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-08-31 07:55:16 UTC_
+_Last updated at 2025-09-21 08:56:31 UTC_

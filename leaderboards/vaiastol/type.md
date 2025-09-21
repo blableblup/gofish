@@ -70,40 +70,41 @@
 | 66    | 🐚 shell         | 5.60          | v6r_               | 2025-04-02 06:07:49 |
 | 67    | 👒 womanshat     | 5.54          | hahppyy            | 2024-11-02 04:51:56 |
 | 68    | 🎏 lure          | 4.97          | vaiastol           | 2025-02-06 22:37:25 |
-| 69 ⬆  | 🌰 acorn         | 3.95 (+0.01)  | vaiastol           | 2025-09-09 08:28:55 |
+| 69    | 🌰 acorn         | 3.95          | vaiastol           | 2025-09-09 08:28:55 |
 | 69    | 🪝 hook          | 3.95          | yoimlee            | 2025-05-19 12:50:57 |
 | 71    | 🦢 swan          | 3.86          | divra__            | 2025-05-06 23:44:45 |
-| 72    | 🌷 tulip         | 2.98          | eelacy             | 2025-03-18 02:28:33 |
-| 73    | 🌻 sunflower     | 2.94          | vaiastol           | 2025-06-10 19:21:56 |
-| 74    | 🐦 bird          | 2.86          | vaiastol           | 2025-05-22 14:52:45 |
-| 75    | 🥀 wiltedflower  | 2.73          | hahppyy            | 2025-01-02 18:42:06 |
-| 76    | ☂️ umbrella       | 2.48          | hahppyy            | 2025-02-17 22:19:26 |
-| 77    | 👡 sandal        | 2.41          | hahppyy            | 2025-03-20 18:39:52 |
-| 78    | 👟 athleticshoe  | 1.99          | n64seat            | 2025-05-27 00:29:20 |
-| 79    | 👢 boot          | 1.97          | yoimlee            | 2024-11-04 14:41:11 |
-| 80    | 🧦 socks         | 1.95          | divra__            | 2024-10-16 23:07:48 |
-| 81    | 🍃 leaf          | 1.92          | v6r_               | 2025-03-26 03:07:20 |
-| 82    | 🪻 lupine        | 1.90          | redreignss         | 2025-07-09 13:30:55 |
-| 83    | 🩰 balletshoes   | 1.89          | beebo8i            | 2025-01-01 02:12:26 |
-| 84    | 🩴 thongsandal   | 1.87          | vaiastol           | 2024-07-31 16:40:54 |
-| 85    | ⛸️ iceskate       | 1.84          | hahppyy            | 2025-01-12 19:57:15 |
-| 86    | 🥪 sandwich      | 1.73          | hahppyy            | 2024-11-23 00:31:22 |
-| 87    | 🐦‍⬛ blackbird     | 1.42          | vaiastol           | 2025-04-11 08:37:47 |
-| 88    | 🫙 jar           | 0.99          | larvasisters       | 2025-08-28 19:53:42 |
-| 88    | 🌿 seaweed       | 0.99          | misifearless       | 2025-03-10 09:57:08 |
-| 90    | 🪚 carpentrysaw  | 0.97          | hahppyy            | 2025-01-05 13:24:59 |
-| 91    | 🧤 gloves        | 0.95          | hahppyy            | 2024-11-02 16:18:30 |
-| 92    | 🐿️ squirrel       | 0.90          | creepycode         | 2024-12-04 03:46:23 |
-| 93    | 🪶 feather       | 0.88          | milesdotcom        | 2024-10-21 19:36:21 |
-| 94    | 🦉 owl           | 0.85          | eelacy             | 2025-07-21 13:58:54 |
-| 95    | 🍁 mapleleaf     | 0.84          | divra__            | 2024-09-27 22:38:30 |
-| 96    | 🍬 candy         | 0.81          | hahppyy            | 2025-01-03 15:22:18 |
-| 97    | 🌾 grass         | 0.79          | leanmeister        | 2025-03-20 20:23:59 |
-| 98    | 🐛 caterpillar   | 0.42          | leanmeister        | 2025-06-22 19:10:14 |
-| 99    | 🦟 mosquito      | 0.31          | larvasisters       | 2025-08-28 20:59:25 |
-| 100   | 🪰 fly           | 0.10          | hahppyy            | 2025-06-25 08:02:09 |
-| 101   | 🕸️ spiderweb      | 0.02          | vaiastol           | 2025-07-05 00:02:49 |
+| 72 🆕 | 🦇 bat           | 3.74          | garout             | 2025-09-20 20:16:28 |
+| 73 ⬇  | 🌷 tulip         | 2.98          | eelacy             | 2025-03-18 02:28:33 |
+| 74 ⬇  | 🌻 sunflower     | 2.94          | vaiastol           | 2025-06-10 19:21:56 |
+| 75 ⬇  | 🐦 bird          | 2.86          | vaiastol           | 2025-05-22 14:52:45 |
+| 76 ⬇  | 🥀 wiltedflower  | 2.73          | hahppyy            | 2025-01-02 18:42:06 |
+| 77 ⬇  | ☂️ umbrella       | 2.48          | hahppyy            | 2025-02-17 22:19:26 |
+| 78 ⬇  | 👡 sandal        | 2.41          | hahppyy            | 2025-03-20 18:39:52 |
+| 79 ⬇  | 👟 athleticshoe  | 1.99          | n64seat            | 2025-05-27 00:29:20 |
+| 80 ⬇  | 👢 boot          | 1.97          | yoimlee            | 2024-11-04 14:41:11 |
+| 81 ⬇  | 🧦 socks         | 1.95          | divra__            | 2024-10-16 23:07:48 |
+| 82 ⬇  | 🍃 leaf          | 1.92          | v6r_               | 2025-03-26 03:07:20 |
+| 83 ⬇  | 🪻 lupine        | 1.90          | redreignss         | 2025-07-09 13:30:55 |
+| 84 ⬇  | 🩰 balletshoes   | 1.89          | beebo8i            | 2025-01-01 02:12:26 |
+| 85 ⬇  | 🩴 thongsandal   | 1.87          | vaiastol           | 2024-07-31 16:40:54 |
+| 86 ⬇  | ⛸️ iceskate       | 1.84          | hahppyy            | 2025-01-12 19:57:15 |
+| 87 ⬇  | 🥪 sandwich      | 1.73          | hahppyy            | 2024-11-23 00:31:22 |
+| 88 ⬇  | 🐦‍⬛ blackbird     | 1.42          | vaiastol           | 2025-04-11 08:37:47 |
+| 89 ⬇  | 🫙 jar           | 0.99          | larvasisters       | 2025-08-28 19:53:42 |
+| 89 ⬇  | 🌿 seaweed       | 0.99          | misifearless       | 2025-03-10 09:57:08 |
+| 91 ⬇  | 🪚 carpentrysaw  | 0.97          | hahppyy            | 2025-01-05 13:24:59 |
+| 92 ⬇  | 🧤 gloves        | 0.95          | hahppyy            | 2024-11-02 16:18:30 |
+| 93 ⬇  | 🐿️ squirrel       | 0.90          | creepycode         | 2024-12-04 03:46:23 |
+| 94 ⬇  | 🪶 feather       | 0.88          | milesdotcom        | 2024-10-21 19:36:21 |
+| 95 ⬇  | 🦉 owl           | 0.85          | eelacy             | 2025-07-21 13:58:54 |
+| 96 ⬇  | 🍁 mapleleaf     | 0.84          | divra__            | 2024-09-27 22:38:30 |
+| 97 ⬇  | 🍬 candy         | 0.81          | hahppyy            | 2025-01-03 15:22:18 |
+| 98 ⬇  | 🌾 grass         | 0.79          | leanmeister        | 2025-03-20 20:23:59 |
+| 99 ⬇  | 🐛 caterpillar   | 0.42          | leanmeister        | 2025-06-22 19:10:14 |
+| 100 ⬇ | 🦟 mosquito      | 0.31          | larvasisters       | 2025-08-28 20:59:25 |
+| 101 ⬇ | 🪰 fly           | 0.10          | hahppyy            | 2025-06-25 08:02:09 |
+| 102 ⬇ | 🕸️ spiderweb      | 0.02          | vaiastol           | 2025-07-05 00:02:49 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-09-14 09:36:54 UTC_
+_Last updated at 2025-09-21 08:57:43 UTC_

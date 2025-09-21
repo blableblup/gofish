@@ -13,26 +13,26 @@
 | 9     | 🐳 whale         | 7.80          | hello0d             | 2025-02-10 07:07:45 |
 | 10    | 🦆 duck          | 7.71          | rainedparade        | 2025-02-24 08:22:44 |
 | 11    | 🪵 log           | 7.23          | poioce              | 2025-03-04 19:18:26 |
-| 12    | 🩲 briefs        | 7.09          | rainedparade        | 2025-05-16 19:20:52 |
-| 13    | 🪺 nestwitheggs  | 6.84          | pompadourdelinquent | 2025-03-17 17:00:42 |
-| 14    | 🐧 penguin       | 6.42          | pompadourdelinquent | 2025-03-02 23:02:22 |
-| 15    | 🛒 shoppingcart  | 6.23          | miyabwah            | 2025-02-23 20:58:02 |
-| 16    | 🧊 icecube       | 4.69          | miyabwah            | 2025-02-28 19:19:01 |
-| 17    | 🪼 jellyfish     | 3.80          | yaykaiza            | 2025-08-12 02:19:51 |
-| 18    | 🪨 rock          | 3.55          | rainedparade        | 2025-04-03 03:36:41 |
-| 19    | 🕶️ darksunglasses | 3.50          | rainedparade        | 2025-06-13 23:48:41 |
-| 20    | 🦫 beaver        | 2.87          | goopy777            | 2025-03-24 09:30:01 |
-| 21    | 🍄 mushroom      | 2.38          | avalidu5ername      | 2025-03-10 04:18:56 |
-| 22    | 🧸 teddybear     | 2.37          | rainedparade        | 2025-02-28 00:29:01 |
-| 23    | 📱 iphone        | 2.15          | teeto               | 2025-03-14 06:29:06 |
-| 24    | 🦦 otter         | 2.14          | miyabwah            | 2025-02-22 07:13:44 |
-| 25    | 🧃 beveragebox   | 2.05          | cptblack_           | 2025-06-27 08:48:11 |
-| 26    | 🦈 shark         | 2.02          | teeto               | 2025-04-01 02:19:02 |
-| 27    | 🐋 whale2        | 1.45          | rainedparade        | 2025-01-06 20:19:03 |
-| 28    | 🪻 lupine        | 1.41          | poioce              | 2025-07-03 03:45:04 |
-| 29    | 🗡️ dagger         | 1.40          | rainedparade        | 2025-03-12 02:52:01 |
-| 30    | 🐬 dolphin       | 1.33          | poioce              | 2025-05-20 02:32:13 |
-| 31    | 🥪 sandwich      | 1.09          | pompadourdelinquent | 2025-06-27 14:57:01 |
+| 12 ⬆  | 🪺 nestwitheggs  | 6.84          | pompadourdelinquent | 2025-03-17 17:00:42 |
+| 13 ⬆  | 🐧 penguin       | 6.42          | pompadourdelinquent | 2025-03-02 23:02:22 |
+| 14 ⬆  | 🛒 shoppingcart  | 6.23          | miyabwah            | 2025-02-23 20:58:02 |
+| 15 ⬆  | 🧊 icecube       | 4.69          | miyabwah            | 2025-02-28 19:19:01 |
+| 16 ⬆  | 🪼 jellyfish     | 3.80          | yaykaiza            | 2025-08-12 02:19:51 |
+| 17 ⬆  | 🪨 rock          | 3.55          | rainedparade        | 2025-04-03 03:36:41 |
+| 18 ⬆  | 🕶️ darksunglasses | 3.50          | rainedparade        | 2025-06-13 23:48:41 |
+| 19 ⬆  | 🦫 beaver        | 2.87          | goopy777            | 2025-03-24 09:30:01 |
+| 20 ⬆  | 🍄 mushroom      | 2.38          | avalidu5ername      | 2025-03-10 04:18:56 |
+| 21 ⬆  | 🧸 teddybear     | 2.37          | rainedparade        | 2025-02-28 00:29:01 |
+| 22 ⬆  | 📱 iphone        | 2.15          | teeto               | 2025-03-14 06:29:06 |
+| 23 ⬆  | 🦦 otter         | 2.14          | miyabwah            | 2025-02-22 07:13:44 |
+| 24 ⬆  | 🧃 beveragebox   | 2.05          | cptblack_           | 2025-06-27 08:48:11 |
+| 25 ⬆  | 🦈 shark         | 2.02          | teeto               | 2025-04-01 02:19:02 |
+| 26 ⬆  | 🐋 whale2        | 1.45          | rainedparade        | 2025-01-06 20:19:03 |
+| 27 ⬆  | 🪻 lupine        | 1.41          | poioce              | 2025-07-03 03:45:04 |
+| 28 ⬆  | 🗡️ dagger         | 1.40          | rainedparade        | 2025-03-12 02:52:01 |
+| 29 ⬆  | 🐬 dolphin       | 1.33          | poioce              | 2025-05-20 02:32:13 |
+| 30 ⬆  | 🥪 sandwich      | 1.09          | pompadourdelinquent | 2025-06-27 14:57:01 |
+| 31 ⬇  | 🩲 briefs        | 1.04 (-6.05)  | yaykaiza            | 2025-09-19 21:23:15 |
 | 32    | 🐠 tropicalfish  | 1.00          | goopy777            | 2025-05-10 06:04:49 |
 | 33    | 🐢 turtle        | 0.94          | teeto               | 2025-03-26 22:14:55 |
 | 34    | 👡 sandal        | 0.91          | rainedparade        | 2025-04-15 02:59:56 |
@@ -68,7 +68,7 @@
 | 64    | ☂️ umbrella       | 0.11          | e1d2f3              | 2025-01-30 06:43:56 |
 | 65    | 🐸 frog          | 0.10          | pompadourdelinquent | 2025-07-17 15:39:18 |
 | 66    | 🐚 shell         | 0.09          | miyabwah            | 2025-05-25 02:40:40 |
-| 67    | 🐟 fish          | 0.07 (-0.01)  | pompadourdelinquent | 2025-09-01 01:12:53 |
+| 67    | 🐟 fish          | 0.07          | pompadourdelinquent | 2025-09-01 01:12:53 |
 | 68    | 🌿 seaweed       | 0.05          | poioce              | 2025-03-20 09:26:12 |
 | 69    | ⛸️ iceskate       | 0.04          | pompadourdelinquent | 2025-01-07 04:48:07 |
 | 69    | 🍃 leaf          | 0.04          | teeto               | 2025-03-28 22:50:41 |
@@ -82,4 +82,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-09-07 09:09:45 UTC_
+_Last updated at 2025-09-21 08:54:57 UTC_
