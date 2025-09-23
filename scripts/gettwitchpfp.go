@@ -11,9 +11,9 @@ import (
 	"path/filepath"
 )
 
-// Save the pfps for channels in the config which dont have a file with their name in /images/players, or save them for all the chats again if mode is "all"
-// I rescale the pfps manually, yes can be in html probably better to save the pfp at full resolution and do width and height idk?
-// for html ...ChatPfp = fmt.Sprintf("<img src='https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png' alt='%s' width='25' height='25'/>", chatName, chatName)
+// Save the pfps for channels in the config which dont have a file with their name in /images/players
+// or save them for all the chats again if mode is "all"
+// i rescale the pfps afterwards to make them 25x25
 func GetTwitchPFPs(mode string) {
 
 	config := utils.LoadConfig()

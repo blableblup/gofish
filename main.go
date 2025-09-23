@@ -38,7 +38,7 @@ func main() {
 	date2 := flag.String("dt2", "", "Second date for the leaderboards. If you want to get boards for a time period")
 	path := flag.String("path", "", "Give the board a custom name. But you should only do one board at a time with this. Else it will get overwritten.")
 
-	// For the rename player script
+	// For the rename FISH script
 	renamePairs := flag.String("rename", "", "Comma-separated list of oldName:newName pairs")
 
 	flag.Parse()
