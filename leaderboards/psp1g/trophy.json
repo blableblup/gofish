@@ -21,11 +21,11 @@
 	"1317": {
 		"player": "mazzo_tv",
 		"playerid": 1317,
-		"weight": 18,
+		"weight": 19.5,
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 2,
 		"silver": 8,
-		"bronze": 8,
+		"bronze": 11,
 		"rank": 9
 	},
 	"1344": {
@@ -123,6 +123,14 @@
 		"bronze": 4,
 		"rank": 23
 	},
+	"1846": {
+		"player": "llikotesnecil",
+		"playerid": 1846,
+		"weight": 0.5,
+		"date": "0001-01-01T00:00:00Z",
+		"bronze": 1,
+		"rank": 36
+	},
 	"200": {
 		"player": "thasbe",
 		"playerid": 200,
@@ -208,10 +216,10 @@
 	"269": {
 		"player": "nndiana",
 		"playerid": 269,
-		"weight": 199.5,
+		"weight": 202.5,
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 49,
-		"silver": 45,
+		"silver": 48,
 		"bronze": 15,
 		"rank": 1
 	},
@@ -226,9 +234,9 @@
 	"3794": {
 		"player": "jayayseaohbee",
 		"playerid": 3794,
-		"weight": 65.5,
+		"weight": 74.5,
 		"date": "0001-01-01T00:00:00Z",
-		"trophies": 17,
+		"trophies": 20,
 		"silver": 13,
 		"bronze": 3,
 		"rank": 3
