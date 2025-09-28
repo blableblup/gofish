@@ -52,7 +52,7 @@
 		"fishid": 198506,
 		"chatid": 51,
 		"date": "2025-09-11T10:23:24Z",
-		"rank": 19
+		"rank": 18
 	},
 	"coral": {
 		"player": "commanda_u",
@@ -94,7 +94,7 @@
 		"fishid": 198719,
 		"chatid": 54,
 		"date": "2025-09-12T15:51:25Z",
-		"rank": 22
+		"rank": 21
 	},
 	"dolphin": {
 		"player": "commanda_u",
@@ -122,7 +122,7 @@
 		"fishid": 198661,
 		"chatid": 53,
 		"date": "2025-09-12T05:49:03Z",
-		"rank": 21
+		"rank": 20
 	},
 	"frog": {
 		"player": "deoza",
@@ -136,21 +136,21 @@
 		"fishid": 198131,
 		"chatid": 46,
 		"date": "2025-09-09T02:01:02Z",
-		"rank": 17
+		"rank": 16
 	},
 	"hook": {
-		"player": "flummoxedfungus",
-		"playerid": 3926,
-		"weight": 1.33,
+		"player": "defirence",
+		"playerid": 2406,
+		"weight": 1.67,
 		"bot": "gofishgame",
 		"fishtype": "🪝",
 		"fishname": "hook",
 		"catchtype": "normal",
 		"chat": "deme",
-		"fishid": 197890,
-		"chatid": 44,
-		"date": "2025-09-07T21:03:52Z",
-		"rank": 16
+		"fishid": 201430,
+		"chatid": 58,
+		"date": "2025-09-23T19:56:43Z",
+		"rank": 24
 	},
 	"lobster": {
 		"player": "soopyboo32",
@@ -167,17 +167,17 @@
 		"rank": 12
 	},
 	"lure": {
-		"player": "soopyboo32",
-		"playerid": 3932,
-		"weight": 1.66,
+		"player": "hopeless_bun",
+		"playerid": 3956,
+		"weight": 0.68,
 		"bot": "gofishgame",
 		"fishtype": "🎏",
 		"fishname": "lure",
 		"catchtype": "normal",
 		"chat": "deme",
-		"fishid": 198880,
-		"chatid": 55,
-		"date": "2025-09-13T16:37:35Z",
+		"fishid": 201429,
+		"chatid": 57,
+		"date": "2025-09-23T19:53:49Z",
 		"rank": 23
 	},
 	"oyster": {
@@ -220,7 +220,7 @@
 		"fishid": 198509,
 		"chatid": 52,
 		"date": "2025-09-11T11:05:37Z",
-		"rank": 20
+		"rank": 19
 	},
 	"shrimp": {
 		"player": "flummoxedfungus",
@@ -234,7 +234,7 @@
 		"fishid": 199534,
 		"chatid": 56,
 		"date": "2025-09-17T17:59:22Z",
-		"rank": 24
+		"rank": 22
 	},
 	"skull": {
 		"player": "deoza",
@@ -332,6 +332,20 @@
 		"fishid": 198188,
 		"chatid": 48,
 		"date": "2025-09-09T12:07:33Z",
-		"rank": 18
+		"rank": 17
+	},
+	"whale2": {
+		"player": "aim1138",
+		"playerid": 3789,
+		"weight": 2.81,
+		"bot": "gofishgame",
+		"fishtype": "🐋",
+		"fishname": "whale2",
+		"catchtype": "normal",
+		"chat": "deme",
+		"fishid": 201552,
+		"chatid": 59,
+		"date": "2025-09-24T11:44:21Z",
+		"rank": 25
 	}
 }

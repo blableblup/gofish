@@ -2,66 +2,66 @@
 
 | Rank  | Player                    | Fish caught |
 |:------|:--------------------------|:------------|
-| 1 🥇  | iflya320                  | 3370 (+32)  |
-| 2 🥈  | eeziiii                   | 2385 (+37)  |
-| 3 🥉  | bubinga                   | 2247 (+41)  |
-| 4     | theevirus                 | 1936 (+57)  |
-| 5     | huuuuuuuuuuuuuuuuuuuuuurz | 1854 (+71)  |
-| 6     | wowitsdub                 | 1423 (+37)  |
-| 7     | gorillapark               | 1165        |
-| 8     | nndiana*                  | 1103 (+19)  |
-| 9     | lobuhtomy                 | 1070 (+75)  |
-| 10    | veny2lbs                  | 792 (+13)   |
+| 1 🥇  | iflya320                  | 3438 (+68)  |
+| 2 🥈  | eeziiii                   | 2468 (+83)  |
+| 3 🥉  | bubinga                   | 2316 (+69)  |
+| 4     | theevirus                 | 2023 (+87)  |
+| 5     | huuuuuuuuuuuuuuuuuuuuuurz | 1929 (+75)  |
+| 6     | wowitsdub                 | 1451 (+28)  |
+| 7 ⬆   | lobuhtomy                 | 1181 (+111) |
+| 8 ⬇   | gorillapark               | 1165        |
+| 9 ⬇   | nndiana*                  | 1121 (+18)  |
+| 10    | veny2lbs                  | 810 (+18)   |
 | 11    | mazzo_tv                  | 533         |
-| 12    | sandwichsundays*          | 389         |
-| 13    | caprisen_*                | 325 (+8)    |
-| 14    | commanda_u                | 289 (+6)    |
+| 12    | sandwichsundays*          | 392 (+3)    |
+| 13    | caprisen_*                | 346 (+21)   |
+| 14    | commanda_u                | 291 (+2)    |
 | 15    | bluberry                  | 258         |
-| 16    | flovrek                   | 232 (+3)    |
+| 16    | flovrek                   | 233 (+1)    |
 | 17    | thetaxmen                 | 144         |
-| 18    | teddbearcs                | 141         |
-| 19    | flvx_flux*                | 134 (+1)    |
+| 18 ⬆  | flvx_flux*                | 143 (+9)    |
+| 19 ⬇  | teddbearcs                | 141         |
 | 20    | benciee                   | 130         |
-| 21    | jr_mime                   | 125 (+1)    |
-| 22    | glorianeq                 | 98          |
-| 23    | zwockel01                 | 95          |
-| 24    | ewpert1                   | 89 (+5)     |
-| 25 ⬆  | ranctious                 | 84 (+48)    |
-| 26 ⬇  | supibot                   | 82 (+3)     |
-| 27 ⬇  | ocrw                      | 70 (+5)     |
-| 28 ⬇  | wadupcaprise              | 65          |
-| 29 ⬇  | ratot                     | 62          |
-| 30 ⬇  | wuh6                      | 61 (+2)     |
-| 31    | bcarw                     | 58 (+7)     |
-| 32 ⬇  | turboyy                   | 55          |
-| 33 ⬇  | 21h6c                     | 46          |
-| 34 ⬇  | funnywhitecat6*           | 45          |
-| 35 ⬇  | cotovelo3                 | 41          |
-| 35 ⬇  | onarrrrrrrr               | 41          |
-| 37 ⬇  | araqs                     | 37          |
-| 38 ⬆  | magicbluesword            | 34 (+8)     |
-| 38    | tdillar                   | 34          |
-| 40 ⬆  | feelsaceman               | 31 (+8)     |
-| 41 ⬆  | ceriise__                 | 30 (+15)    |
-| 42 ⬇  | llikotesnecil             | 29 (+3)     |
-| 43 ⬇  | kalechap                  | 24          |
-| 44 ⬇  | creepycode*               | 21          |
-| 44 ⬇  | flunke_                   | 21          |
-| 46 ⬇  | ggmagician                | 19          |
-| 47 ⬇  | chubby_________           | 18          |
-| 48 ⬇  | drecklo                   | 16 (+1)     |
-| 49    | xd_2k                     | 13          |
-| 50 ⬆  | bcarbot                   | 12 (+2)     |
-| 50    | mrsmalvic                 | 12 (+1)     |
-| 52 ⬇  | streamelements            | 11          |
-| 53 🆕 | baerlings                 | 10          |
-| 53 ⬇  | cozysocks398              | 10          |
-| 53 ⬇  | gwincyy                   | 10          |
-| 53 ⬇  | nightbot                  | 10          |
-| 53 ⬇  | ratatas_*                 | 10          |
-| 53 ⬇  | titustaranis              | 10          |
-| 53 ⬇  | wiihxhx                   | 10          |
+| 21    | jr_mime                   | 129 (+4)    |
+| 22 ⬆  | ranctious                 | 120 (+36)   |
+| 23 ⬆  | ewpert1                   | 109 (+20)   |
+| 24 ⬇  | glorianeq                 | 98          |
+| 25 ⬇  | zwockel01                 | 95          |
+| 26    | supibot                   | 91 (+9)     |
+| 27    | ocrw                      | 80 (+10)    |
+| 28 ⬆  | wuh6                      | 71 (+10)    |
+| 29 ⬆  | bcarw                     | 66 (+8)     |
+| 30 ⬇  | wadupcaprise              | 65          |
+| 31 ⬇  | ratot                     | 62          |
+| 32 ⬆  | ceriise__                 | 56 (+26)    |
+| 33 ⬇  | turboyy                   | 55          |
+| 34 ⬆  | feelsaceman               | 51 (+20)    |
+| 35 ⬇  | 21h6c                     | 46          |
+| 35 ⬇  | funnywhitecat6*           | 46 (+1)     |
+| 37 ⬆  | magicbluesword            | 44 (+10)    |
+| 38 ⬇  | cotovelo3                 | 41          |
+| 38 ⬇  | onarrrrrrrr               | 41          |
+| 40 ⬇  | araqs                     | 37          |
+| 41 ⬇  | tdillar                   | 34          |
+| 42    | llikotesnecil             | 31 (+2)     |
+| 43    | kalechap                  | 24          |
+| 44    | creepycode*               | 21          |
+| 44    | flunke_                   | 21          |
+| 46    | ggmagician                | 19          |
+| 47    | chubby_________           | 18          |
+| 48    | drecklo                   | 17 (+1)     |
+| 49 ⬆  | streamelements            | 15 (+4)     |
+| 50    | mrsmalvic                 | 14 (+2)     |
+| 51 ⬇  | bcarbot                   | 13 (+1)     |
+| 51 ⬇  | xd_2k                     | 13          |
+| 53    | wiihxhx                   | 12 (+2)     |
+| 54 ⬇  | baerlings                 | 11 (+1)     |
+| 54 ⬇  | nightbot                  | 11 (+1)     |
+| 56 ⬇  | cozysocks398              | 10          |
+| 56 ⬇  | gwincyy                   | 10          |
+| 56 ⬇  | ratatas_*                 | 10          |
+| 56 ⬇  | titustaranis              | 10          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-09-21 08:54:45 UTC_
+_Last updated at 2025-09-28 09:39:27 UTC_

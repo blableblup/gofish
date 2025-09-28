@@ -2,31 +2,31 @@
 
 | Rank  | Player                | Fish caught |
 |:------|:----------------------|:------------|
-| 1 🥇  | vaiastol              | 2623 (+48)  |
-| 2 🥈  | hahppyy               | 1389 (+24)  |
+| 1 🥇  | vaiastol              | 2691 (+68)  |
+| 2 🥈  | hahppyy               | 1403 (+14)  |
 | 3 🥉  | eelacy                | 683         |
 | 4     | divra__               | 642         |
 | 5     | leanmeister           | 507         |
-| 6 ⬆   | garout                | 490 (+28)   |
-| 7 ⬇   | nicestnarwhal         | 484         |
-| 8     | leastsussyimposter    | 453 (+1)    |
+| 6     | garout                | 501 (+11)   |
+| 7     | nicestnarwhal         | 484         |
+| 8     | leastsussyimposter    | 453         |
 | 9     | dazedforevermore      | 251         |
 | 10    | pengeg                | 237         |
 | 11    | redreignss            | 207         |
-| 12    | yoimlee               | 144 (+4)    |
+| 12    | yoimlee               | 144         |
 | 13    | milesdotcom           | 137         |
 | 14    | beebo8i               | 120         |
-| 15    | julialuxel            | 108         |
-| 16    | tiaguitos97           | 84 (+1)     |
-| 17    | bubinga               | 55          |
-| 18    | obama                 | 53 (+1)     |
-| 19    | rird_                 | 45          |
-| 20    | fvkdylan              | 42          |
-| 21 ⬆  | gstaman911            | 41 (+15)    |
-| 22 ⬇  | larvasisters          | 37          |
-| 23 ⬇  | yespere               | 32          |
-| 24 ⬇  | houseofleaves*        | 28          |
-| 25    | cyaniderx             | 23 (+1)     |
+| 15    | julialuxel            | 109 (+1)    |
+| 16    | tiaguitos97           | 85 (+1)     |
+| 17 ⬆  | gstaman911            | 61 (+20)    |
+| 18 ⬇  | bubinga               | 55          |
+| 19 ⬇  | obama                 | 53          |
+| 20 ⬇  | rird_                 | 45          |
+| 21 ⬇  | fvkdylan              | 42          |
+| 22    | larvasisters          | 37          |
+| 23    | yespere               | 33 (+1)     |
+| 24    | houseofleaves*        | 28          |
+| 25    | cyaniderx             | 23          |
 | 26    | devroyalty            | 17          |
 | 26    | jr_mime               | 17          |
 | 28    | drpasu                | 16          |
@@ -40,4 +40,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-09-21 08:54:44 UTC_
+_Last updated at 2025-09-28 09:39:27 UTC_

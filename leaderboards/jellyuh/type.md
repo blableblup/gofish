@@ -29,8 +29,8 @@
 | 25    | 🦫 beaver        | 33.44         | goopy777            | 2025-03-17 05:33:26 |
 | 26    | 🐧 penguin       | 32.40         | goopy777            | 2025-03-02 23:26:33 |
 | 27    | 🦐 shrimp        | 31.11         | maavva              | 2025-06-19 06:04:55 |
-| 28    | 🪳 cockroach     | 22.79         | rainedparade        | 2025-05-03 02:44:50 |
-| 29    | 🐡 blowfish      | 21.98         | piz_z               | 2025-05-12 17:44:07 |
+| 28 ⬆  | 🐡 blowfish      | 24.17 (+2.19) | jakthejanitor       | 2025-09-25 00:07:02 |
+| 29 ⬇  | 🪳 cockroach     | 22.79         | rainedparade        | 2025-05-03 02:44:50 |
 | 30    | 🐠 tropicalfish  | 21.72         | rainedparade        | 2025-06-20 05:18:16 |
 | 31    | 🍄‍🟫 brownmushroom | 21.03         | goopy777            | 2025-01-14 07:15:13 |
 | 31    | 🦠 plankton      | 21.03         | rainedparade        | 2025-02-25 05:17:44 |
@@ -40,7 +40,7 @@
 | 36    | 🍄 mushroom      | 17.56         | hello0d             | 2025-02-17 14:35:51 |
 | 37    | 🦦 otter         | 15.72         | miyabwah            | 2025-03-13 22:24:36 |
 | 38    | 🪀 bobber        | 15.21         | rainedparade        | 2025-03-16 18:04:07 |
-| 39    | 🪼 jellyfish     | 12.49 (+0.37) | cptblack_           | 2025-08-27 04:51:37 |
+| 39    | 🪼 jellyfish     | 12.49         | cptblack_           | 2025-08-27 04:51:37 |
 | 40    | 🐌 snail         | 11.30         | rainedparade        | 2025-04-06 18:41:03 |
 | 41    | 📱 iphone        | 10.59         | rainedparade        | 2025-03-16 00:27:44 |
 | 42    | 🕶️ darksunglasses | 10.01         | jellyuh             | 2025-06-12 08:56:32 |
@@ -75,11 +75,11 @@
 | 71    | 🌿 seaweed       | 0.91          | e1d2f3              | 2025-07-07 22:56:49 |
 | 72    | 🩰 balletshoes   | 0.52          | rainedparade        | 2025-01-25 04:09:12 |
 | 73    | 🪶 feather       | 0.43          | jellyuh             | 2025-01-02 09:31:14 |
-| 74 🆕 | 🫙 jar           | 0.40          | teeto               | 2025-08-30 18:26:46 |
-| 75 ⬇  | ⛸️ iceskate       | 0.33          | hello0d             | 2025-01-12 16:12:14 |
-| 76 ⬇  | ☂️ umbrella       | 0.32          | cerealapii          | 2025-07-07 06:37:28 |
-| 77 ⬇  | 🧣 scarf         | 0.16          | goopy777            | 2024-12-29 00:40:05 |
+| 74    | 🫙 jar           | 0.40          | teeto               | 2025-08-30 18:26:46 |
+| 75    | ⛸️ iceskate       | 0.33          | hello0d             | 2025-01-12 16:12:14 |
+| 76    | ☂️ umbrella       | 0.32          | cerealapii          | 2025-07-07 06:37:28 |
+| 77    | 🧣 scarf         | 0.16          | goopy777            | 2024-12-29 00:40:05 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-08-31 07:56:03 UTC_
+_Last updated at 2025-09-28 09:41:14 UTC_

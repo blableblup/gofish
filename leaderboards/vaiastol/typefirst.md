@@ -2,6 +2,7 @@
 
 | Rank | Fish             | Weight in lbs | Player                | Date in UTC         |
 |:-----|:-----------------|:--------------|:----------------------|:--------------------|
+| 103  | 🌹 rose          | 1.70          | vaiastol              | 2025-09-22 02:43:38 |
 | 102  | 🦇 bat           | 3.74          | garout                | 2025-09-20 20:16:28 |
 | 101  | 🦟 mosquito      | 0.31          | larvasisters          | 2025-08-28 20:59:25 |
 | 100  | 🧋 bubbleteacup  | 7.16          | garout                | 2025-08-28 11:52:35 |
@@ -105,4 +106,4 @@
 | 2    | 🦀 crab          | 2.81          | jr_mime               | 2024-07-28 10:52:00 |
 | 1    | 🐸 frog          | 1.70          | mitgliederversammlung | 2024-07-28 00:20:07 |
 
-_Last updated at 2025-09-21 08:56:20 UTC_
+_Last updated at 2025-09-28 09:39:14 UTC_

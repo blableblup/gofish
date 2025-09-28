@@ -3,21 +3,21 @@
 | Rank  | Player             | Fish seen |
 |:------|:-------------------|:----------|
 | 1 🥇  | hahppyy            | 78        |
-| 2 🥈  | vaiastol           | 72        |
+| 2 🥈  | vaiastol           | 74 (+2)   |
 | 3 🥉  | leanmeister        | 60        |
-| 4 ⬆   | garout             | 56 (+6)   |
-| 5 ⬇   | eelacy             | 55        |
-| 6 ⬇   | leastsussyimposter | 54        |
-| 7 ⬇   | divra__            | 53        |
-| 8 ⬇   | nicestnarwhal      | 52        |
+| 4     | garout             | 57 (+1)   |
+| 5     | eelacy             | 55        |
+| 6     | leastsussyimposter | 54        |
+| 7     | divra__            | 53        |
+| 8     | nicestnarwhal      | 52        |
 | 9     | dazedforevermore   | 49        |
 | 10    | pengeg             | 47        |
 | 11    | milesdotcom        | 42        |
-| 12    | yoimlee            | 41 (+1)   |
+| 12    | yoimlee            | 41        |
 | 13    | redreignss         | 38        |
 | 14    | julialuxel         | 37        |
 | 15    | beebo8i            | 34        |
-| 16    | tiaguitos97        | 31 (+1)   |
+| 16    | tiaguitos97        | 32 (+1)   |
 | 17    | obama              | 29        |
 | 18    | bubinga            | 25        |
 | 19    | larvasisters       | 24        |
@@ -28,4 +28,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2025-09-21 08:54:43 UTC_
+_Last updated at 2025-09-28 09:39:16 UTC_

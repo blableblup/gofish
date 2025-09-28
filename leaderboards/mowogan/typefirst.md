@@ -2,6 +2,9 @@
 
 | Rank | Fish             | Weight in lbs | Player      | Date in UTC         |
 |:-----|:-----------------|:--------------|:------------|:--------------------|
+| 61   | 🌰 acorn         | 2.52          | lolspers    | 2025-09-22 11:59:13 |
+| 60   | 🍁 mapleleaf     | 0.51          | mowogan     | 2025-09-22 11:12:18 |
+| 59   | 🌹 rose          | 0.60          | lolspers    | 2025-09-21 08:22:09 |
 | 58   | 🩲 briefs        | 4.92          | konsminator | 2025-09-04 06:14:32 |
 | 57   | 🧋 bubbleteacup  | 1.33          | konsminator | 2025-08-25 13:51:43 |
 | 56   | 🪁 kite          | 10.29         | mowogan     | 2025-08-24 06:08:37 |
@@ -61,4 +64,4 @@
 | 2    | 🎱 8ball         | 0.79          | konsminator | 2025-06-23 16:25:30 |
 | 1    | 🪝 hook          | 2.28          | mowogan     | 2025-06-23 16:00:57 |
 
-_Last updated at 2025-09-07 09:09:37 UTC_
+_Last updated at 2025-09-28 09:39:14 UTC_

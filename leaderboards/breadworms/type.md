@@ -44,7 +44,7 @@
 | 40    | 🧊 icecube         | 29.34         | dougiefresh_83          | 2024-12-31 21:24:39 |
 | 41    | 🐠 tropicalfish    | 28.79         | c_mgirl                 | 2025-03-28 16:25:42 |
 | 42    | 🪳 cockroach       | 26.79         | fishingalt              | 2025-03-02 15:50:28 |
-| 43    | 🎰 slotmachine     | 23.35         | gstaman911              | 2025-03-15 03:53:22 |
+| 43    | 🎰 slotmachine     | 23.53 (+0.18) | notcomiq                | 2025-09-26 16:23:00 |
 | 44    | 🦠 plankton        | 22.00         | osnyatsky               | 2024-01-03 09:00:25 |
 | 45    | 🍄‍🟫 brownmushroom   | 21.97         | chubby_________         | 2025-02-05 02:10:22 |
 | 46    | 🪼 jellyfish       | 21.87         | sicklymaidrobot         | 2023-08-04 03:47:25 |
@@ -77,11 +77,11 @@
 | 73    | 🧵 wireline        | 5.95          | ninjaross               | 2025-03-15 11:04:57 |
 | 74    | 🐚 shell           | 5.92          | c_mgirl                 | 2025-04-01 04:02:00 |
 | 75    | 🦉 owl             | 5.90          | c_mgirl                 | 2024-10-20 16:28:24 |
-| 76 ⬆  | ☘️ shamrock         | 5.81 (+1.82)  | osnyisdead              | 2025-09-20 23:40:02 |
-| 77 ⬇  | 🎏 lure            | 5.76          | fishingalt              | 2024-01-13 13:04:30 |
-| 78 ⬇  | 🪝 hook            | 4.98          | sussy_amonge            | 2022-12-15 17:37:01 |
-| 79 ⬇  | 🐦‍⬛ blackbird       | 4.85          | qu4ttromila             | 2024-04-25 00:23:08 |
-| 80 ⬇  | 🦢 swan            | 4.40          | fishingalt              | 2025-03-30 15:28:03 |
+| 76    | ☘️ shamrock         | 5.81          | osnyisdead              | 2025-09-20 23:40:02 |
+| 77    | 🎏 lure            | 5.76          | fishingalt              | 2024-01-13 13:04:30 |
+| 78    | 🪝 hook            | 4.98          | sussy_amonge            | 2022-12-15 17:37:01 |
+| 79    | 🐦‍⬛ blackbird       | 4.85          | qu4ttromila             | 2024-04-25 00:23:08 |
+| 80    | 🦢 swan            | 4.40          | fishingalt              | 2025-03-30 15:28:03 |
 | 81    | 🌰 acorn           | 3.91          | fishingalt              | 2024-09-25 12:59:56 |
 | 82    | 🪿 goose           | 3.41          | julialuxel              | 2025-01-15 04:08:39 |
 | 83    | 🌻 sunflower       | 2.99          | kishma9                 | 2025-08-13 23:02:21 |
@@ -101,7 +101,7 @@
 | 97    | 👢 boot            | 1.98          | derinturitierutz        | 2023-12-30 12:35:00 |
 | 97    | 🪻 lupine          | 1.98          | ytp_dl                  | 2025-07-10 15:36:58 |
 | 99    | 🍃 leaf            | 1.97          | destin357               | 2025-04-04 08:54:35 |
-| 99 ⬆  | 🌿 seaweed         | 1.97 (+0.01)  | comiqq                  | 2025-09-20 16:29:43 |
+| 99    | 🌿 seaweed         | 1.97          | comiqq                  | 2025-09-20 16:29:43 |
 | 101   | 🐝 bee             | 1.25          | chubby_________         | 2025-06-24 11:19:51 |
 | 102   | 🦂 scorpion        | 1.16          | destin357               | 2025-08-30 11:50:51 |
 | 103   | 🐛 caterpillar     | 1.02          | fishingalt              | 2025-08-30 11:34:52 |
@@ -125,4 +125,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-09-21 08:57:05 UTC_
+_Last updated at 2025-09-28 09:41:56 UTC_

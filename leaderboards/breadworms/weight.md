@@ -53,19 +53,20 @@
 | 49    | doublehelicalstructure*   | 🦕 sauropod  | 235.33        | 2023-02-07 14:43:35 |
 | 50    | houseofleaves             | 🦕 sauropod  | 234.27        | 2024-10-06 06:12:34 |
 | 51    | bapqo                     | 🐉 dragon    | 233.48        | 2024-03-10 18:29:29 |
-| 52    | supibot                   | 🦕 sauropod  | 231.47        | 2023-12-30 02:14:20 |
-| 53    | wispmode                  | 🐳 whale     | 230.99        | 2024-01-02 16:58:48 |
-| 54    | konsminator               | 🐍 snake     | 229.00        | 2024-11-05 14:28:25 |
-| 55    | mochi_uygqzidbjizjkbehuiw | 🐳 whale     | 222.73        | 2024-01-07 13:54:46 |
-| 56    | hansworthelias            | 🦕 sauropod  | 221.23        | 2024-10-18 08:54:02 |
-| 57    | fallen_angels_1995        | 🐳 whale     | 219.76        | 2024-02-24 12:26:34 |
-| 58    | mitgliederversammlung     | 🦕 sauropod  | 219.52        | 2024-11-08 15:07:01 |
-| 59    | lazuli672*                | 🦈 shark     | 215.97        | 2023-07-09 23:11:02 |
-| 60    | realtechnine              | 🦕 sauropod  | 214.11        | 2023-02-14 20:12:23 |
-| 61    | divra__                   | 🐳 whale     | 213.23        | 2024-04-16 16:17:28 |
-| 62    | notparasfishalt*          | 🐉 dragon    | 207.18        | 2023-06-05 03:16:42 |
-| 63    | veggesh                   | 🦈 shark     | 206.22        | 2024-02-25 22:40:19 |
+| 52 🆕 | notcomiq                  | 🐉 dragon    | 231.53        | 2025-09-26 21:09:13 |
+| 53 ⬇  | supibot                   | 🦕 sauropod  | 231.47        | 2023-12-30 02:14:20 |
+| 54 ⬇  | wispmode                  | 🐳 whale     | 230.99        | 2024-01-02 16:58:48 |
+| 55 ⬇  | konsminator               | 🐍 snake     | 229.00        | 2024-11-05 14:28:25 |
+| 56 ⬇  | mochi_uygqzidbjizjkbehuiw | 🐳 whale     | 222.73        | 2024-01-07 13:54:46 |
+| 57 ⬇  | hansworthelias            | 🦕 sauropod  | 221.23        | 2024-10-18 08:54:02 |
+| 58 ⬇  | fallen_angels_1995        | 🐳 whale     | 219.76        | 2024-02-24 12:26:34 |
+| 59 ⬇  | mitgliederversammlung     | 🦕 sauropod  | 219.52        | 2024-11-08 15:07:01 |
+| 60 ⬇  | lazuli672*                | 🦈 shark     | 215.97        | 2023-07-09 23:11:02 |
+| 61 ⬇  | realtechnine              | 🦕 sauropod  | 214.11        | 2023-02-14 20:12:23 |
+| 62 ⬇  | divra__                   | 🐳 whale     | 213.23        | 2024-04-16 16:17:28 |
+| 63 ⬇  | notparasfishalt*          | 🐉 dragon    | 207.18        | 2023-06-05 03:16:42 |
+| 64 ⬇  | veggesh                   | 🦈 shark     | 206.22        | 2024-02-25 22:40:19 |
 
 _Only showing fish weighing >= 200 lbs_
 
-_Last updated at 2025-08-31 07:56:13 UTC_
+_Last updated at 2025-09-28 09:39:21 UTC_

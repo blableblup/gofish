@@ -2,10 +2,10 @@
 
 | Rank  | Player      | Total Weight in lbs |
 |:------|:------------|:--------------------|
-| 1 🥇  | mowogan     | 5307.22 (+191.90)   |
-| 2 🥈  | konsminator | 4779.36 (+4.96)     |
-| 3 🥉  | lolspers    | 1143.55 (+96.92)    |
+| 1 🥇  | mowogan     | 5570.01 (+262.79)   |
+| 2 🥈  | konsminator | 4858.62 (+79.26)    |
+| 3 🥉  | lolspers    | 1146.67 (+3.12)     |
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2025-09-21 08:54:47 UTC_
+_Last updated at 2025-09-28 09:39:26 UTC_
