@@ -2,8 +2,8 @@
 
 | Rank  | Player                | Total Weight in lbs |
 |:------|:----------------------|:--------------------|
-| 1 🥇  | derintu               | 1431.14 (+10.76)    |
-| 2 🥈  | chubby_________       | 1071.26 (+0.65)     |
+| 1 🥇  | derintu               | 1674.53 (+243.39)   |
+| 2 🥈  | chubby_________       | 1071.26             |
 | 3 🥉  | leanmeister           | 1041.44             |
 | 4     | respirate_            | 985.00              |
 | 5     | derinturitierutz      | 507.41              |
@@ -16,4 +16,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2025-09-28 09:39:26 UTC_
+_Last updated at 2025-10-05 08:45:00 UTC_

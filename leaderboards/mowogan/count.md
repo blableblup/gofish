@@ -2,10 +2,10 @@
 
 | Rank  | Player      | Fish caught |
 |:------|:------------|:------------|
-| 1 🥇  | mowogan     | 301 (+11)   |
-| 2 🥈  | konsminator | 259 (+4)    |
-| 3 🥉  | lolspers    | 35 (+2)     |
+| 1 🥇  | mowogan     | 315 (+14)   |
+| 2 🥈  | konsminator | 265 (+6)    |
+| 3 🥉  | lolspers    | 40 (+5)     |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-09-28 09:39:26 UTC_
+_Last updated at 2025-10-05 08:45:01 UTC_

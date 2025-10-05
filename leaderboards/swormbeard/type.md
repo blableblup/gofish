@@ -10,7 +10,7 @@
 | 6     | 🐊 crocodile     | 105.00        | julialuxel            | 2024-07-28 22:59:00 |
 | 7     | 🦈 shark         | 103.86        | derintu               | 2025-03-22 19:45:15 |
 | 8     | 🐬 dolphin       | 101.18        | gawblemachine         | 2024-08-07 17:37:10 |
-| 9     | 🐢 turtle        | 95.26         | chubby_________       | 2024-10-15 20:41:05 |
+| 9     | 🐢 turtle        | 98.61 (+3.35) | derintu               | 2025-10-01 15:10:47 |
 | 10    | 🐙 octopus       | 77.19         | respirate_            | 2024-08-23 18:20:38 |
 | 11    | 🦇 bat           | 60.15         | kishma9               | 2025-03-14 00:11:12 |
 | 12    | 🦞 lobster       | 54.45         | respirate_            | 2024-08-31 19:32:16 |
@@ -59,13 +59,14 @@
 | 56    | 👟 athleticshoe  | 0.91          | respirate_            | 2024-09-08 17:15:35 |
 | 57    | ⛸️ iceskate       | 0.84          | derintu               | 2025-03-17 16:11:43 |
 | 58    | 🩴 thongsandal   | 0.65          | dazedforevermore      | 2024-08-03 15:29:46 |
-| 59    | 🪚 carpentrysaw  | 0.57          | derintu               | 2025-03-17 16:55:26 |
-| 60 🆕 | 🎱 8ball         | 0.49          | chestnutbank          | 2025-09-20 21:33:38 |
-| 61 ⬇  | 🌾 grass         | 0.23          | derintu               | 2025-03-17 20:23:03 |
-| 62 ⬇  | 🕸️ spiderweb      | 0.06          | respirate_            | 2025-08-29 17:16:52 |
-| 63 ⬇  | 🦋 butterfly     | 0.03          | derintu               | 2025-08-29 20:53:43 |
-| 64 ⬇  | 🌷 tulip         | 0.01          | derinturitierutz      | 2025-03-16 16:56:15 |
+| 59 🆕 | 🌹 rose          | 0.63          | derintu               | 2025-10-03 20:20:52 |
+| 60 ⬇  | 🪚 carpentrysaw  | 0.57          | derintu               | 2025-03-17 16:55:26 |
+| 61 ⬇  | 🎱 8ball         | 0.49          | chestnutbank          | 2025-09-20 21:33:38 |
+| 62 ⬇  | 🌾 grass         | 0.23          | derintu               | 2025-03-17 20:23:03 |
+| 63 ⬇  | 🕸️ spiderweb      | 0.06          | respirate_            | 2025-08-29 17:16:52 |
+| 64 ⬇  | 🦋 butterfly     | 0.03          | derintu               | 2025-08-29 20:53:43 |
+| 65 ⬇  | 🌷 tulip         | 0.01          | derinturitierutz      | 2025-03-16 16:56:15 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-09-21 08:56:31 UTC_
+_Last updated at 2025-10-05 08:45:48 UTC_

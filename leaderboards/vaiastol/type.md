@@ -35,13 +35,13 @@
 | 31    | 🧽 sponge        | 29.11         | obama              | 2025-05-26 22:11:41 |
 | 32    | 🧊 icecube       | 26.42         | vaiastol           | 2024-12-27 04:13:21 |
 | 33    | 🪳 cockroach     | 25.91         | nicestnarwhal      | 2025-02-23 14:10:51 |
-| 34    | 🐠 tropicalfish  | 24.09         | leanmeister        | 2025-03-17 19:53:33 |
-| 35    | 🕷️ spider         | 23.39         | beebo8i            | 2025-01-18 20:55:49 |
-| 36    | 🪼 jellyfish     | 22.92         | hahppyy            | 2025-08-29 15:15:49 |
-| 37    | 🫎 moose         | 22.03         | dazedforevermore   | 2025-05-06 17:17:48 |
-| 38    | 🦠 plankton      | 21.87         | vaiastol           | 2025-02-16 12:59:13 |
-| 39    | 🍄‍🟫 brownmushroom | 21.32         | vaiastol           | 2025-01-05 18:34:29 |
-| 40    | 🎰 slotmachine   | 19.86         | bubinga            | 2024-08-16 16:26:37 |
+| 34 ⬆  | 🎰 slotmachine   | 25.00 (+5.14) | garout             | 2025-09-30 20:33:44 |
+| 35 ⬇  | 🐠 tropicalfish  | 24.09         | leanmeister        | 2025-03-17 19:53:33 |
+| 36 ⬇  | 🕷️ spider         | 23.39         | beebo8i            | 2025-01-18 20:55:49 |
+| 37 ⬇  | 🪼 jellyfish     | 22.92         | hahppyy            | 2025-08-29 15:15:49 |
+| 38 ⬇  | 🫎 moose         | 22.03         | dazedforevermore   | 2025-05-06 17:17:48 |
+| 39 ⬇  | 🦠 plankton      | 21.87         | vaiastol           | 2025-02-16 12:59:13 |
+| 40 ⬇  | 🍄‍🟫 brownmushroom | 21.32         | vaiastol           | 2025-01-05 18:34:29 |
 | 41    | 🧜‍♀️ mermaid       | 18.46         | hahppyy            | 2025-05-05 14:52:40 |
 | 42    | 🍄 mushroom      | 16.35         | leastsussyimposter | 2025-02-02 17:03:11 |
 | 43    | 🦦 otter         | 15.94         | hahppyy            | 2025-02-03 02:46:56 |
@@ -50,7 +50,7 @@
 | 46    | 🧭 compass       | 12.25         | vaiastol           | 2024-12-25 03:46:12 |
 | 47    | 🐌 snail         | 11.90         | leastsussyimposter | 2024-08-28 17:02:48 |
 | 48    | 🧸 teddybear     | 11.77         | eelacy             | 2025-02-28 20:45:50 |
-| 49    | 🕶️ darksunglasses | 11.63 (+0.04) | yespere            | 2025-09-22 04:31:24 |
+| 49    | 🕶️ darksunglasses | 11.63         | yespere            | 2025-09-22 04:31:24 |
 | 50    | 🪺 nestwitheggs  | 10.98         | hahppyy            | 2024-09-26 18:59:03 |
 | 51    | 🪱 worm          | 10.90         | divra__            | 2025-01-25 21:04:34 |
 | 52    | 🪹 emptynest     | 10.68         | vaiastol           | 2025-08-01 02:29:38 |
@@ -88,24 +88,24 @@
 | 84    | 🩰 balletshoes   | 1.89          | beebo8i            | 2025-01-01 02:12:26 |
 | 85    | 🩴 thongsandal   | 1.87          | vaiastol           | 2024-07-31 16:40:54 |
 | 86    | ⛸️ iceskate       | 1.84          | hahppyy            | 2025-01-12 19:57:15 |
-| 87 🆕 | 🌹 rose          | 1.76          | vaiastol           | 2025-09-24 03:46:59 |
-| 88 ⬇  | 🥪 sandwich      | 1.73          | hahppyy            | 2024-11-23 00:31:22 |
-| 89 ⬇  | 🐦‍⬛ blackbird     | 1.42          | vaiastol           | 2025-04-11 08:37:47 |
-| 90 ⬇  | 🫙 jar           | 0.99          | larvasisters       | 2025-08-28 19:53:42 |
-| 90 ⬇  | 🌿 seaweed       | 0.99          | misifearless       | 2025-03-10 09:57:08 |
-| 92 ⬇  | 🪚 carpentrysaw  | 0.97          | hahppyy            | 2025-01-05 13:24:59 |
-| 93 ⬇  | 🧤 gloves        | 0.95          | hahppyy            | 2024-11-02 16:18:30 |
-| 94 ⬇  | 🐿️ squirrel       | 0.90          | creepycode         | 2024-12-04 03:46:23 |
-| 95 ⬇  | 🪶 feather       | 0.88          | milesdotcom        | 2024-10-21 19:36:21 |
-| 96    | 🍁 mapleleaf     | 0.86 (+0.02)  | vaiastol           | 2025-09-27 03:40:40 |
-| 97 ⬇  | 🦉 owl           | 0.85          | eelacy             | 2025-07-21 13:58:54 |
-| 98 ⬇  | 🍬 candy         | 0.81          | hahppyy            | 2025-01-03 15:22:18 |
-| 99 ⬇  | 🌾 grass         | 0.79          | leanmeister        | 2025-03-20 20:23:59 |
-| 100 ⬇ | 🐛 caterpillar   | 0.42          | leanmeister        | 2025-06-22 19:10:14 |
-| 101 ⬇ | 🦟 mosquito      | 0.31          | larvasisters       | 2025-08-28 20:59:25 |
-| 102 ⬇ | 🪰 fly           | 0.10          | hahppyy            | 2025-06-25 08:02:09 |
-| 103 ⬇ | 🕸️ spiderweb      | 0.02          | vaiastol           | 2025-07-05 00:02:49 |
+| 87    | 🌹 rose          | 1.78 (+0.02)  | gstaman911         | 2025-10-03 11:26:11 |
+| 88    | 🥪 sandwich      | 1.73          | hahppyy            | 2024-11-23 00:31:22 |
+| 89    | 🐦‍⬛ blackbird     | 1.42          | vaiastol           | 2025-04-11 08:37:47 |
+| 90    | 🫙 jar           | 0.99          | larvasisters       | 2025-08-28 19:53:42 |
+| 90    | 🌿 seaweed       | 0.99          | misifearless       | 2025-03-10 09:57:08 |
+| 92    | 🪚 carpentrysaw  | 0.97          | hahppyy            | 2025-01-05 13:24:59 |
+| 92 ⬆  | 🍁 mapleleaf     | 0.97 (+0.11)  | gstaman911         | 2025-10-04 12:33:44 |
+| 94 ⬇  | 🧤 gloves        | 0.95          | hahppyy            | 2024-11-02 16:18:30 |
+| 95 ⬇  | 🐿️ squirrel       | 0.90          | creepycode         | 2024-12-04 03:46:23 |
+| 96 ⬇  | 🪶 feather       | 0.88          | milesdotcom        | 2024-10-21 19:36:21 |
+| 97    | 🦉 owl           | 0.85          | eelacy             | 2025-07-21 13:58:54 |
+| 98    | 🍬 candy         | 0.81          | hahppyy            | 2025-01-03 15:22:18 |
+| 99    | 🌾 grass         | 0.79          | leanmeister        | 2025-03-20 20:23:59 |
+| 100   | 🐛 caterpillar   | 0.42          | leanmeister        | 2025-06-22 19:10:14 |
+| 101   | 🦟 mosquito      | 0.31          | larvasisters       | 2025-08-28 20:59:25 |
+| 102   | 🪰 fly           | 0.10          | hahppyy            | 2025-06-25 08:02:09 |
+| 103   | 🕸️ spiderweb      | 0.02          | vaiastol           | 2025-07-05 00:02:49 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-09-28 09:41:30 UTC_
+_Last updated at 2025-10-05 08:45:21 UTC_

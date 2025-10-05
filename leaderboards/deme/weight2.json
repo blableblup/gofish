@@ -25,7 +25,7 @@
 		"fishid": 172638,
 		"chatid": 2,
 		"date": "2025-05-12T07:45:38Z",
-		"rank": 55
+		"rank": 56
 	},
 	"172739": {
 		"player": "fantanium",
@@ -193,7 +193,7 @@
 		"fishid": 176986,
 		"chatid": 14,
 		"date": "2025-06-01T00:43:22Z",
-		"rank": 58
+		"rank": 59
 	},
 	"176996": {
 		"player": "aim1138",
@@ -374,7 +374,7 @@
 		"fishid": 192311,
 		"chatid": 27,
 		"date": "2025-08-09T07:12:21Z",
-		"rank": 59
+		"rank": 60
 	},
 	"192342": {
 		"player": "bubinga",
@@ -388,7 +388,7 @@
 		"fishid": 192342,
 		"chatid": 28,
 		"date": "2025-08-09T12:58:16Z",
-		"rank": 54
+		"rank": 55
 	},
 	"193088": {
 		"player": "bubinga",
@@ -500,7 +500,7 @@
 		"fishid": 196896,
 		"chatid": 36,
 		"date": "2025-09-02T06:01:46Z",
-		"rank": 57
+		"rank": 58
 	},
 	"196901": {
 		"player": "soopyboo32",
@@ -584,7 +584,7 @@
 		"fishid": 197748,
 		"chatid": 42,
 		"date": "2025-09-06T22:53:29Z",
-		"rank": 56
+		"rank": 57
 	},
 	"197863": {
 		"player": "soopyboo32",
@@ -640,7 +640,7 @@
 		"fishid": 198131,
 		"chatid": 46,
 		"date": "2025-09-09T02:01:02Z",
-		"rank": 53
+		"rank": 54
 	},
 	"198136": {
 		"player": "lunecker",
@@ -823,5 +823,19 @@
 		"chatid": 59,
 		"date": "2025-09-24T11:44:21Z",
 		"rank": 29
+	},
+	"202990": {
+		"player": "hopeless_bun",
+		"playerid": 3956,
+		"weight": 0.68,
+		"bot": "gofishgame",
+		"fishtype": "🪝",
+		"fishname": "hook",
+		"catchtype": "normal",
+		"chat": "deme",
+		"fishid": 202990,
+		"chatid": 60,
+		"date": "2025-09-29T09:35:06Z",
+		"rank": 51
 	}
 }

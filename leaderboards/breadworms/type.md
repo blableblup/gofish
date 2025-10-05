@@ -44,13 +44,13 @@
 | 40    | 🧊 icecube         | 29.34         | dougiefresh_83          | 2024-12-31 21:24:39 |
 | 41    | 🐠 tropicalfish    | 28.79         | c_mgirl                 | 2025-03-28 16:25:42 |
 | 42    | 🪳 cockroach       | 26.79         | fishingalt              | 2025-03-02 15:50:28 |
-| 43    | 🎰 slotmachine     | 23.53 (+0.18) | notcomiq                | 2025-09-26 16:23:00 |
+| 43    | 🎰 slotmachine     | 23.53         | notcomiq                | 2025-09-26 16:23:00 |
 | 44    | 🦠 plankton        | 22.00         | osnyatsky               | 2024-01-03 09:00:25 |
 | 45    | 🍄‍🟫 brownmushroom   | 21.97         | chubby_________         | 2025-02-05 02:10:22 |
 | 46    | 🪼 jellyfish       | 21.87         | sicklymaidrobot         | 2023-08-04 03:47:25 |
 | 47    | 🧭 compass         | 21.26         | destin357               | 2025-03-25 13:46:19 |
 | 48    | 🦦 otter           | 19.78         | dazedforevermore        | 2024-02-17 10:37:23 |
-| 49    | 🪱 worm            | 18.95         | derinturitierutz        | 2023-10-15 10:38:50 |
+| 49    | 🪱 worm            | 18.97 (+0.02) | comiqq                  | 2025-10-01 10:45:25 |
 | 50    | 🍄 mushroom        | 17.85         | comiqq                  | 2024-02-22 05:08:00 |
 | 51    | 🦆 duck            | 15.69         | derinturitierutz        | 2023-11-04 14:31:09 |
 | 52    | 🪀 bobber          | 15.60         | osnyisdead              | 2024-09-27 00:16:38 |
@@ -125,4 +125,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-09-28 09:41:56 UTC_
+_Last updated at 2025-10-05 08:46:02 UTC_

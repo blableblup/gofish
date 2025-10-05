@@ -21,9 +21,9 @@
 | 17    | aistyrax3       | 🦕 sauropod  | 73.83         | 2024-12-01 17:06:31 |
 | 18    | desxyne         | 🦑 squid     | 73.22         | 2025-07-12 23:13:36 |
 | 19    | tautautautautau | 🐢 turtle    | 59.69         | 2025-03-11 22:09:33 |
-| 20    | giriglock       | 🦞 lobster   | 58.02         | 2025-05-24 00:29:21 |
+| 20    | girlgiock       | 🦞 lobster   | 58.02         | 2025-05-24 00:29:21 |
 | 21    | beepisla        | 🦑 squid     | 50.31         | 2025-01-14 21:39:57 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2025-09-28 09:39:23 UTC_
+_Last updated at 2025-10-05 08:45:07 UTC_

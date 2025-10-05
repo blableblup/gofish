@@ -10,15 +10,15 @@
 | 6     | iam_haunt      | 535         |
 | 7     | spanmer        | 366         |
 | 8     | konsminator    | 326         |
-| 9     | ofaisalz       | 313 (+1)    |
+| 9     | ofaisalz       | 313         |
 | 10    | rabituwu       | 243         |
 | 11    | notnownico     | 232         |
-| 12    | heavener6      | 214         |
-| 13    | hamoodhabibee  | 209 (+1)    |
+| 12    | heavener6      | 216 (+2)    |
+| 13    | hamoodhabibee  | 209         |
 | 14    | simplydrack    | 183         |
 | 15    | ssenario       | 171         |
 | 16    | tairaaaaa      | 166         |
-| 17    | mousee93       | 161 (+1)    |
+| 17    | mousee93       | 163 (+2)    |
 | 18    | kyonuwu        | 143         |
 | 19    | sugur          | 134         |
 | 20    | burnend        | 133         |
@@ -56,4 +56,4 @@
 
 _Only showing fishers who caught >= 30 fish_
 
-_Last updated at 2025-09-28 09:39:27 UTC_
+_Last updated at 2025-10-05 08:45:00 UTC_

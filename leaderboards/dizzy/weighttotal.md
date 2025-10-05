@@ -10,13 +10,13 @@
 | 6     | iam_haunt      | 10603.67            |
 | 7     | spanmer        | 7651.11             |
 | 8     | konsminator    | 7261.34             |
-| 9     | ofaisalz       | 5722.47 (+4.97)     |
-| 10    | heavener6      | 4516.16             |
-| 11    | hamoodhabibee  | 4136.68 (+9.79)     |
+| 9     | ofaisalz       | 5722.47             |
+| 10    | heavener6      | 4527.40 (+11.24)    |
+| 11    | hamoodhabibee  | 4136.68             |
 | 12    | notnownico     | 4087.64             |
-| 13    | rabituwu       | 3852.81             |
-| 14    | simplydrack    | 3834.86             |
-| 15    | mousee93       | 3752.31 (+8.13)     |
+| 13 ⬆  | mousee93       | 3877.84 (+125.53)   |
+| 14 ⬇  | rabituwu       | 3852.81             |
+| 15 ⬇  | simplydrack    | 3834.86             |
 | 16    | ssenario       | 3239.08             |
 | 17    | tairaaaaa      | 3040.98             |
 | 18    | exo9*          | 2557.89             |
@@ -58,4 +58,4 @@
 
 _Only showing fishers with a total weight of >= 500 lbs_
 
-_Last updated at 2025-09-28 09:39:25 UTC_
+_Last updated at 2025-10-05 08:44:58 UTC_

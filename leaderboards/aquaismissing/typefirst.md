@@ -2,6 +2,7 @@
 
 | Rank | Fish            | Weight in lbs | Player        | Date in UTC         |
 |:-----|:----------------|:--------------|:--------------|:--------------------|
+| 55   | 🌰 acorn        | 3.14          | glorpiusbot   | 2025-10-03 14:12:03 |
 | 54   | 🩴 thongsandal  | 1.76          | kam3l_        | 2025-09-27 08:44:11 |
 | 53   | 🦎 lizard       | 7.57          | bubinga       | 2025-09-24 07:03:29 |
 | 52   | 🧵 wireline     | 0.37          | glorpiusbot   | 2025-09-19 09:56:00 |
@@ -57,4 +58,4 @@
 | 2    | 🪝 hook         | 0.88          | vladik4il     | 2024-11-26 16:02:08 |
 | 1    | 🧦 socks        | 0.82          | aquaismissing | 2024-11-26 15:51:47 |
 
-_Last updated at 2025-09-28 09:39:14 UTC_
+_Last updated at 2025-10-05 08:45:12 UTC_
