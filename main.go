@@ -137,6 +137,13 @@ func main() {
 
 		scripts.MergePlayers(pool)
 
+	case "mergettables":
+		logs.Logs().Info().
+			Str("Program", *program).
+			Msg("Start")
+
+		scripts.MergeTTables(pool)
+
 	case "pfps":
 		logs.Logs().Info().
 			Str("Program", *program).

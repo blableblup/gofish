@@ -79,27 +79,31 @@ func getTrophies(params LeaderboardParams) (map[int]BoardData, error) {
 
 	playerCounts := make(map[int]BoardData)
 
-	query := fmt.Sprintf(`
+	query := `
 	SELECT 
 		playerid,
 		SUM(CASE WHEN placement IN (1) THEN 1 ELSE 0 END) AS trophycount,
 		SUM(CASE WHEN placement IN (2) THEN 1 ELSE 0 END) AS silvercount,
 		SUM(CASE WHEN placement IN (3) THEN 1 ELSE 0 END) AS bronzecount
 	FROM (
-		SELECT playerid, placement1 AS placement, date FROM tournaments%s
+		SELECT playerid, placement1 AS placement, date, chat FROM tournaments
+		WHERE chat = $1
 		UNION ALL
-		SELECT playerid, placement2 AS placement, date FROM tournaments%s
+		SELECT playerid, placement2 AS placement, date, chat FROM tournaments
+		WHERE chat = $1
 		UNION ALL
-		SELECT playerid, placement3 AS placement, date FROM tournaments%s
+		SELECT playerid, placement3 AS placement, date, chat FROM tournaments
+		WHERE chat = $1
 	) AS all_placements
-	WHERE date < $1
-	AND date > $2
+	WHERE chat = $1
+	AND date < $2
+	AND date > $3
 	GROUP BY playerid
 	HAVING (SUM(CASE WHEN placement IN (1) THEN 1 ELSE 0 END) + 
 			SUM(CASE WHEN placement IN (2) THEN 1 ELSE 0 END) +
-			SUM(CASE WHEN placement IN (3) THEN 1 ELSE 0 END)) > 0`, chatName, chatName, chatName)
+			SUM(CASE WHEN placement IN (3) THEN 1 ELSE 0 END)) > 0`
 
-	rows, err := pool.Query(context.Background(), query, date, date2)
+	rows, err := pool.Query(context.Background(), query, chatName, date, date2)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Chat", chatName).

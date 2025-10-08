@@ -135,17 +135,18 @@ func countBoardSql(params LeaderboardParams) map[string]string {
 
 	case "fishweek":
 		if chatName != "global" {
-			query["1"] = fmt.Sprintf(`
+			query["1"] = `
 			SELECT t.playerid, t.fishcaught as count, t.bot
-			FROM tournaments%s t
+			FROM tournaments t
 			JOIN (
 				SELECT playerid, MAX(fishcaught) AS max_count
-				FROM tournaments%s
-				WHERE date < $2
+				FROM tournaments
+				WHERE chat = $1
+				AND date < $2
 				AND date > $3
 				GROUP BY playerid
 			) max_t ON t.playerid = max_t.playerid AND t.fishcaught = max_t.max_count
-			WHERE t.chat = $1 AND max_count >= $4`, chatName, chatName)
+			WHERE t.chat = $1 AND max_count >= $4`
 
 		} else {
 			query["1"] = `bubi`

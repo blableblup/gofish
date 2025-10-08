@@ -147,7 +147,7 @@ func ProcessFishDataForChat(urls []string, chatName string, data string, Chat ut
 				Str("Chat", chatName).
 				Msg("Error while retrieving latest bag date for chat")
 		}
-		latestTournamentDate, err = getLatestCatchDateFromDatabase(ctx, pool, chatName, "tournaments"+chatName)
+		latestTournamentDate, err = getLatestCatchDateFromDatabase(ctx, pool, chatName, "tournaments")
 		if err != nil {
 			logs.Logs().Fatal().Err(err).
 				Str("Chat", chatName).
@@ -203,6 +203,7 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 	tableNameBag := "bag"
 	fishinfotable := "fishinfo"
 	playerdatatable := "playerdata"
+	tournamenttable := "tournaments"
 
 	CheckTables := []string{fishinfotable, tableName, tableNameBag, playerdatatable}
 
@@ -222,7 +223,6 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 
 	// to store some stuff
 	fishNames := make(map[string]string)
-	didwealreadycheckiftableexists := make(map[string]bool)
 	possiblePlayersForPlayer := make(map[string][]playerdata.PossiblePlayer)
 
 	for chatName, chat := range config.Chat {
@@ -514,23 +514,10 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			}
 			newBagCounts[fish.Chat]++
 
-		// Insert the tournament result into the chats tournament table
+		// Insert the tournament result into the tournament table
 		case "result":
 
-			// This is here so that you dont create tables for chats with no tournament results
-			tableNameTournament := "tournaments" + fish.Chat
-			if _, ok := didwealreadycheckiftableexists[tableNameTournament]; !ok {
-				if err := utils.EnsureTableExists(pool, tableNameTournament); err != nil {
-					logs.Logs().Error().Err(err).
-						Str("Table", tableNameTournament).
-						Str("Chat", fish.Chat).
-						Msg("Error ensuring table exists")
-					return err
-				}
-				didwealreadycheckiftableexists[tableNameTournament] = true
-			}
-
-			// Always checks if the result is already in the db, because you can do +checkin multiple times
+			// check if that exact result is already in the db in the week before the results date
 			// There is a bug where it will show the checkin result of the previous week if noone checked in, have to manually delete those
 			// It appeared here:
 			// jellyuh: jan 2025 - march 2025 (4+?)
@@ -538,17 +525,18 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			// omie: end of aug 2024 (2), mid oct 2024 (2)
 			// julia: dec 2023 - jan 2024 (7), because i didnt update the times of the older results to be in utc
 			// ryanpotat: dec 2024 - feb 2025 (2)
+			// mowogan: 2025
 			// For bread some results (7) get readded in may 2023 because she kept updating the results and format
 			var count int
 			err := tx.QueryRow(context.Background(), `
-			SELECT COUNT(*) FROM `+tableNameTournament+`
+			SELECT COUNT(*) FROM `+tournamenttable+`
 			WHERE date >= $1::timestamp AND date <= $2::timestamp
-			AND player = $3 AND fishcaught = $4 AND placement1 = $5 AND totalweight = $6 AND placement2 = $7 AND biggestfish = $8 AND placement3 = $9
+			AND player = $3 AND fishcaught = $4 AND placement1 = $5 AND totalweight = $6 AND placement2 = $7 AND biggestfish = $8 AND placement3 = $9 AND chat = $10
 		`, fish.Date.Add(time.Hour*-168), fish.Date, fish.Player, fish.Count, fish.FishPlacement, fish.TotalWeight, fish.WeightPlacement,
-				fish.Weight, fish.BiggestFishPlacement).Scan(&count)
+				fish.Weight, fish.BiggestFishPlacement, fish.Chat).Scan(&count)
 			if err != nil {
 				logs.Logs().Error().Err(err).
-					Str("Table", tableNameTournament).
+					Str("Table", tournamenttable).
 					Str("Chat", fish.Chat).
 					Msg("Error counting existing results")
 				return err
@@ -557,12 +545,12 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 				continue
 			}
 
-			query := fmt.Sprintf("INSERT INTO %s ( player, playerid, fishcaught, placement1, totalweight, placement2, biggestfish, placement3, date, bot, chat, url) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)", tableNameTournament)
+			query := fmt.Sprintf("INSERT INTO %s ( player, playerid, fishcaught, placement1, totalweight, placement2, biggestfish, placement3, date, bot, chat, url) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)", tournamenttable)
 			_, err = tx.Exec(context.Background(), query, fish.Player, playerID, fish.Count, fish.FishPlacement, fish.TotalWeight,
 				fish.WeightPlacement, fish.Weight, fish.BiggestFishPlacement, fish.Date, fish.Bot, fish.Chat, fish.Url)
 			if err != nil {
 				logs.Logs().Error().Err(err).
-					Str("Table", tableNameTournament).
+					Str("Table", tournamenttable).
 					Str("Chat", fish.Chat).
 					Str("Query", query).
 					Msg("Error inserting tournament data")
