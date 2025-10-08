@@ -102,18 +102,18 @@ func extractInfoFromNormalPattern(match []string) FishInfo {
 	catchtype := "normal"
 	weight := 0.0
 
-	if strings.Contains(match[0], "jumped") {
+	if strings.Contains(match[0], "...Got it! 🥍") {
 		catchtype = "jumped"
 	}
 
-	if strings.Contains(match[0], "hatch") {
+	if strings.Contains(match[0], "🪺 is hatching!...") {
 		catchtype = "egg"
 	}
 
 	// only parse the weight if the catch is NOT sonny throw catch
 	// sonny catches werent supposed to have weight, but the original catches showed it
 	// so the weight of all original catches is 0 lbs
-	if strings.Contains(match[0], "kid") {
+	if strings.Contains(match[0], "🙆") {
 		catchtype = "sonnythrow"
 	} else {
 		weight, _ = strconv.ParseFloat(match[5], 64)
