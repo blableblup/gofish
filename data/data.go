@@ -235,11 +235,11 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 
 	// First need to check fish . Date, because not all instances were always in utc
 
-	// Checking logs when there is daylight savings can add fish again which are already in the db
-	// cant do anything about that, because the time changes messing up the logs at that point, need to delete manually
-	// the logs are normal until the time changes and then the older and newer messages overlap
+	// Checking older logs when there is daylight savings can add fish again which are already in the db
+	// idk, i delete those
 	// https://logs.ivr.fi/channel/psp1g/2023/10/29 compare to https://logs.nadeko.net/channel/psp1g/2023/10/29
-	// for march no fish get added again
+	// there is also 1 fish for vaia + 2 for psp in october 2024 where this happens on oct27 for logxx
+	// and also for bread and psp chats in march 2024 its 12 catches for logxx
 
 	// Time can be inconsistent between channels in same instance:
 	// https://logs.ivr.fi/channel/d_egree/user/gofishgame/2024/6 ahead of spanix by 2 hours https://logs.spanix.team/channel/d_egree/user/gofishgame/2024/6?
@@ -254,16 +254,19 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 	// but their tournament results i didnt change the times ! bags was rechecked anyways so didnt matter
 
 	// Fishids of the fish added from when i rechecked all the instances for all the chats: 163725 - 165222
+	// this was in early 2025
 
-	datelogsivr, _ := utils.ParseDate("2024-06-06 00:00:00")
 	// When logs ivr started using utc in the logs, seems to be the same for potat and spanix i think ?
 	// i found this date by comparing psp chat fish logs from nadeko and ivr; nadeko should be in utc
+	datelogsivr, _ := utils.ParseDate("2024-06-06 00:00:00")
+
 	datesusgee, _ := utils.ParseDate("2024-07-01 00:00:00")
 	datesusgee2, _ := utils.ParseDate("2024-03-31 00:00:00")
 
-	// logxx had times not in utc in early august 2025
-	datelogxx, _ := utils.ParseDate("2025-08-01 00:00:00")
-	datelogxx2, _ := utils.ParseDate("2025-08-06 16:00:00")
+	// logxx had times not in utc before august 2025 (i think)
+	datelogxx, _ := utils.ParseDate("2025-08-07 00:00:00")
+	datelogxx2, _ := utils.ParseDate("2025-03-30 00:00:00")
+	datelogxx3, _ := utils.ParseDate("2024-10-27 00:00:00")
 
 	loc, err := time.LoadLocation("Europe/Berlin")
 	if err != nil {
@@ -316,10 +319,16 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			}
 		}
 
-		// for logxx add 2 hours
+		// for logxx add 2 / 1 hours (idk?)
 		if strings.Contains(fish.Url, "logxx") {
-			if fish.Date.Before(datelogxx2) && fish.Date.After(datelogxx) {
+			if fish.Date.Before(datelogxx) && fish.Date.After(datelogxx2) {
 				fish.Date = fish.Date.Add(time.Hour * 2)
+			} else if fish.Date.Before(datelogxx2) && fish.Date.After(datelogxx3) {
+				fish.Date = fish.Date.Add(time.Hour * 1)
+			} else if fish.Date.Before(datelogxx3) && fish.Date.After(datesusgee2) {
+				fish.Date = fish.Date.Add(time.Hour * 2)
+			} else if fish.Date.Before(datesusgee2) {
+				fish.Date = fish.Date.Add(time.Hour * 1)
 			}
 		}
 
@@ -526,6 +535,7 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			// julia: dec 2023 - jan 2024 (7), because i didnt update the times of the older results to be in utc
 			// ryanpotat: dec 2024 - feb 2025 (2)
 			// mowogan: 2025
+			// aaurie: 2025
 			// For bread some results (7) get readded in may 2023 because she kept updating the results and format
 			var count int
 			err := tx.QueryRow(context.Background(), `

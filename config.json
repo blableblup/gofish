@@ -13,7 +13,7 @@
 				},
 				{
 					"url": "https://logxx.dev",
-					"logs_added": "2025/6"
+					"logs_added": "2025/4"
 				}
 			],
 			"checkfdata": true,
@@ -23,16 +23,21 @@
 			"twitchid": "222788698",
 			"logs_instances": [
 				{
-					"url": "https://logs.spanix.team",
-					"logs_added": "2025/7"
+					"url": "https://logxx.dev",
+					"logs_added": "2025/3"
 				},
 				{
-					"url": "https://logxx.dev",
+					"url": "https://logs.spanix.team",
 					"logs_added": "2025/7"
 				}
 			],
+			"fishweek_limit": 10,
+			"weight_limit": 50,
+			"weight_limit_records": 100,
+			"totalcount_limit": 10,
+			"unique_limit": 10,
 			"checkfdata": true,
-			"board_enabled": false
+			"board_enabled": true
 		},
 		"ajspyman": {
 			"twitchid": "93949130",
@@ -62,8 +67,13 @@
 					"logs_added": "2025/6"
 				}
 			],
+			"fishweek_limit": 10,
+			"weight_limit": 50,
+			"weight_limit_records": 100,
+			"totalcount_limit": 10,
+			"unique_limit": 10,
 			"checkfdata": true,
-			"board_enabled": false
+			"board_enabled": true
 		},
 		"aquaismissing": {
 			"twitchid": "782127507",
@@ -78,7 +88,7 @@
 				},
 				{
 					"url": "https://logxx.dev",
-					"logs_added": "2025/6"
+					"logs_added": "2025/1"
 				}
 			],
 			"fishweek_limit": 10,
@@ -138,7 +148,7 @@
 				},
 				{
 					"url": "https://logxx.dev",
-					"logs_added": "2025/6"
+					"logs_added": "2024/3"
 				}
 			],
 			"weighttotal_limit": 1800,
@@ -159,7 +169,7 @@
 				},
 				{
 					"url": "https://logxx.dev",
-					"logs_added": "2025/6"
+					"logs_added": "2025/3"
 				}
 			],
 			"fishweek_limit": 10,
@@ -183,7 +193,7 @@
 				},
 				{
 					"url": "https://logxx.dev",
-					"logs_added": "2025/6"
+					"logs_added": "2025/3"
 				}
 			],
 			"fishweek_limit": 10,
@@ -235,7 +245,7 @@
 				},
 				{
 					"url": "https://logxx.dev",
-					"logs_added": "2025/6"
+					"logs_added": "2025/5"
 				}
 			],
 			"fishweek_limit": 10,
@@ -294,7 +304,7 @@
 				},
 				{
 					"url": "https://logxx.dev",
-					"logs_added": "2025/6"
+					"logs_added": "2024/10"
 				}
 			],
 			"fishweek_limit": 20,
@@ -322,7 +332,7 @@
 				},
 				{
 					"url": "https://logxx.dev",
-					"logs_added": "2025/6"
+					"logs_added": "2025/3"
 				}
 			],
 			"fishweek_limit": 10,
@@ -390,7 +400,7 @@
 				},
 				{
 					"url": "https://logxx.dev",
-					"logs_added": "2025/6"
+					"logs_added": "2025/3"
 				}
 			],
 			"fishweek_limit": 10,
@@ -489,11 +499,11 @@
 			"twitchid": "494931569",
 			"logs_instances": [
 				{
-					"url": "https://logxx.dev",
+					"url": "https://logs.spanix.team",
 					"logs_added": "no logs added found"
 				},
 				{
-					"url": "https://logs.spanix.team",
+					"url": "https://logxx.dev",
 					"logs_added": "no logs added found"
 				}
 			],
@@ -539,12 +549,12 @@
 					"logs_added": "2025/6"
 				},
 				{
-					"url": "https://logxx.dev",
-					"logs_added": "2025/6"
-				},
-				{
 					"url": "https://logs.susgee.dev",
 					"logs_added": "2025/7"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2025/6"
 				}
 			],
 			"fishweek_limit": 10,
@@ -613,7 +623,7 @@
 				},
 				{
 					"url": "https://logxx.dev",
-					"logs_added": "2025/6"
+					"logs_added": "2025/3"
 				}
 			],
 			"fishweek_limit": 10,
@@ -706,7 +716,7 @@
 				},
 				{
 					"url": "https://logxx.dev",
-					"logs_added": "2025/6"
+					"logs_added": "2024/3"
 				}
 			],
 			"weighttotal_limit": 1800,
@@ -757,7 +767,7 @@
 				},
 				{
 					"url": "https://logxx.dev",
-					"logs_added": "2025/6"
+					"logs_added": "2025/3"
 				}
 			],
 			"fishweek_limit": 10,
@@ -878,10 +888,6 @@
 				{
 					"url": "https://logs.potat.app",
 					"logs_added": "2025/5"
-				},
-				{
-					"url": "https://logxx.dev",
-					"logs_added": "2025/6"
 				}
 			],
 			"checkfdata": true,
@@ -899,12 +905,12 @@
 					"logs_added": "2025/4"
 				},
 				{
-					"url": "https://logxx.dev",
-					"logs_added": "2024/12"
-				},
-				{
 					"url": "https://logs.susgee.dev",
 					"logs_added": "2025/7"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2024/12"
 				}
 			],
 			"fishweek_limit": 10,
