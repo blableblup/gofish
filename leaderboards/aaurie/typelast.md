@@ -1,0 +1,74 @@
+### Last time a fish was caught in aaurie's chat
+
+| Rank | Fish             | Weight in lbs | Player            | Date in UTC         |
+|:-----|:-----------------|:--------------|:------------------|:--------------------|
+| 68   | 🕷️ spider         | 2.36          | amatusz           | 2025-10-11 05:11:07 |
+| 67   | 🌰 acorn         | 0.49          | aaurie            | 2025-10-11 05:10:38 |
+| 66   | 🐍 snake         | 10.38         | jeffbethyname69   | 2025-10-11 04:45:29 |
+| 65   | 🐡 blowfish      | 4.34          | bluezebra17       | 2025-10-11 04:12:08 |
+| 64   | 🌹 rose          | 0.36          | mademooselle      | 2025-10-11 03:06:44 |
+| 63   | 🐋 whale2        | 91.47         | curiouscorvidae   | 2025-10-11 03:05:19 |
+| 62   | 🪸 coral         | 4.35          | jeffbethyname69   | 2025-10-11 01:05:38 |
+| 61   | 🐉 dragon        | 12.52         | jonysays          | 2025-10-11 01:04:20 |
+| 60   | 🦀 crab          | 1.50          | abelito75         | 2025-10-11 01:03:53 |
+| 59   | 🐠 tropicalfish  | 3.88          | amatusz           | 2025-10-10 06:59:27 |
+| 58   | 🗡️ dagger         | 38.82         | curiouscorvidae   | 2025-10-10 06:49:48 |
+| 57   | 🎏 lure          | 2.24          | boogie310_        | 2025-10-10 02:24:58 |
+| 56   | 🪝 hook          | 2.48          | allstarmathlete   | 2025-10-10 02:00:20 |
+| 55   | 🐙 octopus       | 107.76        | amatusz           | 2025-10-07 05:41:32 |
+| 54   | 🐟 fish          | 1.68          | jah_alexander     | 2025-10-07 04:59:08 |
+| 53   | 🦞 lobster       | 27.67         | wildturky82       | 2025-10-07 02:21:28 |
+| 52   | 🍁 mapleleaf     | 0.82          | mademooselle      | 2025-10-06 07:00:34 |
+| 51   | 🌿 seaweed       | 0.78          | otaku_feis        | 2025-10-06 06:51:49 |
+| 50   | 🐚 shell         | 1.25          | jeffbethyname69   | 2025-10-06 02:45:03 |
+| 49   | 🪨 rock          | 41.19         | amatusz           | 2025-10-04 07:24:10 |
+| 48   | 🦐 shrimp        | 1.98          | mademooselle      | 2025-09-30 06:16:20 |
+| 47   | 🦈 shark         | 42.08         | allspice_boatrace | 2025-09-29 02:24:56 |
+| 46   | 🦑 squid         | 17.67         | jeffbethyname69   | 2025-09-27 07:00:04 |
+| 45   | 🧦 socks         | 0.76          | jeffbethyname69   | 2025-09-27 01:32:15 |
+| 44   | 🍬 candy         | 0.00          | abelito75         | 2025-09-27 01:13:43 |
+| 43   | 🛢️ oildrum        | 160.83        | dolp_fin          | 2025-09-23 04:48:26 |
+| 42   | 🐬 dolphin       | 17.19         | jeffbethyname69   | 2025-09-22 05:06:42 |
+| 41   | 🪀 bobber        | 0.00          | dolp_fin          | 2025-09-22 02:58:37 |
+| 40   | 🪳 cockroach     | 18.74         | dolp_fin          | 2025-09-22 02:18:33 |
+| 39   | 🦪 oyster        | 30.03         | curiouscorvidae   | 2025-09-20 03:41:41 |
+| 38   | 🐊 crocodile     | 141.43        | twofistedtales    | 2025-09-19 02:20:33 |
+| 37   | 🧽 sponge        | 5.20          | nyaamestar        | 2025-09-14 19:31:32 |
+| 36   | 🐳 whale         | 77.05         | jeffbethyname69   | 2025-09-12 03:53:58 |
+| 35   | 💀 skull         | 0.15          | onekitty78        | 2025-09-12 03:41:53 |
+| 34   | 🩲 briefs        | 2.58          | rjthebooger       | 2025-09-06 07:35:03 |
+| 33   | 🦫 beaver        | 19.66         | aaurie            | 2025-09-06 06:36:31 |
+| 32   | 🐢 turtle        | 6.98          | jeffbethyname69   | 2025-09-06 01:34:30 |
+| 31   | 🪼 jellyfish     | 2.10          | twofistedtales    | 2025-09-05 06:19:28 |
+| 30   | 🕶️ darksunglasses | 1.95          | jeffbethyname69   | 2025-08-30 01:35:48 |
+| 29   | 🐌 snail         | 0.28          | aaurie            | 2025-08-25 03:12:06 |
+| 28   | 🩴 thongsandal   | 1.69          | blackberryking00  | 2025-08-25 03:04:17 |
+| 27   | 🥒 cucumber      | 18.24         | jeffbethyname69   | 2025-08-22 03:53:30 |
+| 26   | ☘️ shamrock       | 1.50          | aaurie            | 2025-08-15 21:53:38 |
+| 25   | 🐸 frog          | 2.91          | amatusz           | 2025-08-15 06:07:49 |
+| 24   | 🥪 sandwich      | 0.31          | amatusz           | 2025-08-15 03:47:35 |
+| 23   | 🧃 beveragebox   | 10.85         | preemalone        | 2025-08-09 02:59:38 |
+| 22   | 🌻 sunflower     | 2.35          | aaurie            | 2025-08-09 01:41:23 |
+| 21   | 🪵 log           | 11.18         | abelito75         | 2025-08-04 03:34:44 |
+| 20   | 🪶 feather       | 0.02          | bluezebra17       | 2025-08-04 03:34:08 |
+| 19   | ☂️ umbrella       | 2.97          | rjthebooger       | 2025-08-02 01:10:31 |
+| 18   | 🦎 lizard        | 6.45          | nalls             | 2025-08-01 04:59:24 |
+| 17   | 🦕 sauropod      | 168.65        | lor_starcutter    | 2025-07-28 01:26:06 |
+| 16   | 🦆 duck          | 10.04         | mirzaasjad_       | 2025-07-21 07:24:28 |
+| 15   | 👒 womanshat     | 5.69          | amatusz           | 2025-07-07 03:54:58 |
+| 14   | 🧜‍♀️ mermaid       | 80.38         | dolp_fin          | 2025-06-10 05:18:43 |
+| 13   | 🦦 otter         | 9.65          | boogie310_        | 2025-05-27 02:58:28 |
+| 12   | 🧞‍♂ malegenie     | 104.01        | dolp_fin          | 2025-05-27 01:57:20 |
+| 11   | 🪱 worm          | 1.03          | mavv1s            | 2025-05-27 01:54:32 |
+| 10   | 🌷 tulip         | 0.98          | aaurie            | 2025-05-09 01:19:27 |
+| 9    | 👑 crown         | 29.03         | guy_farting420    | 2025-05-04 22:41:55 |
+| 8    | 🩰 balletshoes   | 0.38          | victorvondoom313  | 2025-04-28 01:54:30 |
+| 7    | 🎱 8ball         | 2.22          | mademooselle      | 2025-04-01 04:29:50 |
+| 6    | 🥫 cannedfood    | 0.97          | sp1ritsave57      | 2025-03-29 07:30:03 |
+| 5    | 👢 boot          | 1.07          | dwaynepounder     | 2025-03-29 04:53:47 |
+| 4    | 🧵 wireline      | 0.04          | nalls             | 2025-03-22 04:41:42 |
+| 3    | 🦭 seal          | 72.79         | abelito75         | 2025-03-22 02:25:55 |
+| 2    | 🧸 teddybear     | 1.95          | jeffbethyname69   | 2025-03-21 21:47:38 |
+| 1    | 🧤 gloves        | 0.63          | herbemoji         | 2025-03-11 00:55:22 |
+
+_Last updated at 2025-10-12 08:39:39 UTC_

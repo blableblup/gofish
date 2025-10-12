@@ -16,7 +16,7 @@
 | 12    | 🗡️ dagger         | 37.62         | mxrio41            | 2024-10-15 23:13:49 |
 | 13    | 🪨 rock          | 33.68         | mxrio41            | 2024-10-20 20:39:44 |
 | 14    | 🦈 shark         | 30.05         | jasonnguyenv12     | 2024-11-07 14:57:19 |
-| 15    | 🦫 beaver        | 29.69 (+1.11) | yopego             | 2025-07-26 20:39:56 |
+| 15    | 🦫 beaver        | 29.69         | yopego             | 2025-07-26 20:39:56 |
 | 16    | 🐙 octopus       | 25.58         | gizei_             | 2024-11-02 20:07:59 |
 | 17    | 🪸 coral         | 23.99         | jasonnguyenv12     | 2024-11-12 11:16:55 |
 | 18    | 🐡 blowfish      | 23.57         | mxrio41            | 2024-10-16 12:00:16 |
@@ -44,9 +44,9 @@
 | 40    | 🦆 duck          | 1.83          | cornstarch1g       | 2024-10-07 19:38:57 |
 | 41    | 🧦 socks         | 1.53          | mxrio41            | 2024-10-16 21:05:11 |
 | 42    | 🌿 seaweed       | 0.98          | sequally           | 2024-11-03 07:22:33 |
-| 43    | 🪱 worm          | 0.44          | larvasisters       | 2025-06-12 07:25:38 |
+| 43    | 🪱 worm          | 0.44          | larvaew            | 2025-06-12 07:25:38 |
 | 44    | 🥫 cannedfood    | 0.23          | grumvald           | 2024-12-04 11:13:52 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-07-27 09:41:18 UTC_
+_Last updated at 2025-10-12 08:41:18 UTC_

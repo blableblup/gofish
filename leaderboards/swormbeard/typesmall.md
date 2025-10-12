@@ -36,37 +36,37 @@
 | 32    | 🥫 cannedfood    | 1.73          | leanmeister           | 2024-11-27 21:52:51 |
 | 33    | 🐌 snail         | 1.52          | derinturitierutz      | 2025-03-17 18:46:09 |
 | 34    | 🐬 dolphin       | 0.97          | fvkdylan              | 2025-09-01 22:03:11 |
-| 35    | 🍁 mapleleaf     | 0.94          | leanmeister           | 2024-11-14 23:08:37 |
-| 36    | 👟 athleticshoe  | 0.91          | respirate_            | 2024-09-08 17:15:35 |
-| 37    | ⛸️ iceskate       | 0.84          | derintu               | 2025-03-17 16:11:43 |
-| 38    | 🪺 nestwitheggs  | 0.69          | leanmeister           | 2025-03-15 19:07:45 |
-| 39    | 🩴 thongsandal   | 0.65          | dazedforevermore      | 2024-08-03 15:29:46 |
-| 40    | 🪚 carpentrysaw  | 0.57          | derintu               | 2025-03-17 16:55:26 |
-| 40    | 🫙 jar           | 0.57          | respirate_            | 2025-08-29 19:44:36 |
-| 42    | 🐢 turtle        | 0.54          | derinturitierutz      | 2025-03-15 20:44:53 |
-| 43    | 🎱 8ball         | 0.49          | chestnutbank          | 2025-09-20 21:33:38 |
-| 44    | 🐟 fish          | 0.36          | leanmeister           | 2024-11-16 01:01:38 |
-| 45    | 👢 boot          | 0.35          | leanmeister           | 2024-11-27 21:07:52 |
-| 46    | 🎏 lure          | 0.34          | dazedforevermore      | 2024-08-03 16:41:10 |
-| 47    | 🍃 leaf          | 0.32          | derintu               | 2025-03-17 22:31:58 |
-| 48    | 🦎 lizard        | 0.29          | chubby_________       | 2024-11-19 17:16:38 |
-| 49    | 💀 skull         | 0.26          | sicklymaidrobot       | 2024-08-06 10:23:20 |
-| 50    | 👡 sandal        | 0.23          | derintu               | 2025-03-17 21:45:17 |
-| 51 🆕 | 🌹 rose          | 0.22          | derintu               | 2025-10-01 17:07:07 |
-| 52 ⬇  | 🌾 grass         | 0.18          | derinturitierutz      | 2025-03-18 09:12:59 |
-| 52 ⬇  | 🪝 hook          | 0.18          | leanmeister           | 2024-11-27 18:49:59 |
-| 54 ⬇  | 🌿 seaweed       | 0.15          | leanmeister           | 2025-03-15 22:25:08 |
-| 55 ⬇  | 🐸 frog          | 0.14          | kishma9               | 2025-03-15 16:26:23 |
-| 56 ⬇  | 🧦 socks         | 0.11          | larvasisters          | 2024-11-01 20:23:07 |
-| 57 ⬇  | 🦐 shrimp        | 0.10          | fvkdylan              | 2025-03-14 22:17:46 |
-| 58 ⬇  | 🐍 snake         | 0.07          | chubby_________       | 2024-11-04 21:26:38 |
-| 59 ⬇  | 🕸️ spiderweb      | 0.06          | respirate_            | 2025-08-29 17:16:52 |
-| 60 ⬇  | 🦋 butterfly     | 0.03          | derintu               | 2025-08-29 20:53:43 |
-| 61 ⬇  | 🌰 acorn         | 0.01          | chubby_________       | 2024-11-30 18:15:35 |
-| 61 ⬇  | ☘️ shamrock       | 0.01          | leanmeister           | 2024-11-15 22:59:26 |
-| 61 ⬇  | 🐚 shell         | 0.01          | respirate_            | 2024-09-02 20:16:01 |
-| 61 ⬇  | 🌷 tulip         | 0.01          | derinturitierutz      | 2025-03-16 16:56:15 |
+| 35 ⬆  | 👟 athleticshoe  | 0.91          | respirate_            | 2024-09-08 17:15:35 |
+| 36 ⬆  | ⛸️ iceskate       | 0.84          | derintu               | 2025-03-17 16:11:43 |
+| 37 ⬆  | 🪺 nestwitheggs  | 0.69          | leanmeister           | 2025-03-15 19:07:45 |
+| 38 ⬆  | 🩴 thongsandal   | 0.65          | dazedforevermore      | 2024-08-03 15:29:46 |
+| 39 ⬆  | 🪚 carpentrysaw  | 0.57          | derintu               | 2025-03-17 16:55:26 |
+| 39 ⬆  | 🫙 jar           | 0.57          | respirate_            | 2025-08-29 19:44:36 |
+| 41 ⬆  | 🐢 turtle        | 0.54          | derinturitierutz      | 2025-03-15 20:44:53 |
+| 42 ⬆  | 🎱 8ball         | 0.49          | chestnutbank          | 2025-09-20 21:33:38 |
+| 43 ⬆  | 👢 boot          | 0.35          | leanmeister           | 2024-11-27 21:07:52 |
+| 44 ⬆  | 🎏 lure          | 0.34          | dazedforevermore      | 2024-08-03 16:41:10 |
+| 45 ⬇  | 🐟 fish          | 0.33 (-0.03)  | derintu               | 2025-10-09 20:19:26 |
+| 46 ⬆  | 🍃 leaf          | 0.32          | derintu               | 2025-03-17 22:31:58 |
+| 47 ⬆  | 🦎 lizard        | 0.29          | chubby_________       | 2024-11-19 17:16:38 |
+| 48 ⬆  | 💀 skull         | 0.26          | sicklymaidrobot       | 2024-08-06 10:23:20 |
+| 49 ⬆  | 👡 sandal        | 0.23          | derintu               | 2025-03-17 21:45:17 |
+| 50 ⬆  | 🌹 rose          | 0.22          | derintu               | 2025-10-01 17:07:07 |
+| 51 ⬆  | 🌾 grass         | 0.18          | derinturitierutz      | 2025-03-18 09:12:59 |
+| 51 ⬆  | 🪝 hook          | 0.18          | leanmeister           | 2024-11-27 18:49:59 |
+| 53 ⬆  | 🌿 seaweed       | 0.15          | leanmeister           | 2025-03-15 22:25:08 |
+| 54 ⬆  | 🐸 frog          | 0.14          | kishma9               | 2025-03-15 16:26:23 |
+| 55 ⬇  | 🍁 mapleleaf     | 0.11 (-0.83)  | derintu               | 2025-10-06 16:52:02 |
+| 55 ⬆  | 🧦 socks         | 0.11          | larvaew               | 2024-11-01 20:23:07 |
+| 57    | 🦐 shrimp        | 0.10          | fvkdylan              | 2025-03-14 22:17:46 |
+| 58    | 🐍 snake         | 0.07          | chubby_________       | 2024-11-04 21:26:38 |
+| 59    | 🕸️ spiderweb      | 0.06          | respirate_            | 2025-08-29 17:16:52 |
+| 60    | 🦋 butterfly     | 0.03          | derintu               | 2025-08-29 20:53:43 |
+| 61    | 🌰 acorn         | 0.01          | chubby_________       | 2024-11-30 18:15:35 |
+| 61    | ☘️ shamrock       | 0.01          | leanmeister           | 2024-11-15 22:59:26 |
+| 61    | 🐚 shell         | 0.01          | respirate_            | 2024-09-02 20:16:01 |
+| 61    | 🌷 tulip         | 0.01          | derinturitierutz      | 2025-03-16 16:56:15 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-10-05 08:44:21 UTC_
+_Last updated at 2025-10-12 08:41:25 UTC_

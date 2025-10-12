@@ -20,7 +20,7 @@
 | 102  | 🪻 lupine          | 0.20          | lobuhtomy                 | 2025-06-30 05:38:59 |
 | 101  | 🪁 kite            | 10.69         | lobuhtomy                 | 2025-06-27 14:43:50 |
 | 100  | 🪰 fly             | 0.25          | iflya320                  | 2025-06-23 17:24:11 |
-| 99   | 🍇 crowberries     | 0.64          | larvasisters              | 2025-06-22 19:00:17 |
+| 99   | 🍇 crowberries     | 0.64          | larvaew                   | 2025-06-22 19:00:17 |
 | 98   | 🐜 ant             | 0.67          | eeziiii                   | 2025-06-22 18:01:41 |
 | 97   | 🐛 caterpillar     | 0.45          | huuuuuuuuuuuuuuuuuuuuuurz | 2025-06-22 15:07:36 |
 | 96   | 🫐 bilberries      | 0.95          | bubinga                   | 2025-06-22 12:09:29 |
@@ -120,4 +120,4 @@
 | 2    | 🪝 hook            | 1.91          | commanda_u                | 2024-12-14 15:55:38 |
 | 1    | 🐚 shell           | 3.49          | jukkii                    | 2024-12-14 15:55:11 |
 
-_Last updated at 2025-09-21 08:56:19 UTC_
+_Last updated at 2025-10-12 08:39:48 UTC_

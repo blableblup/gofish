@@ -2,7 +2,7 @@
 
 | Rank  | Player         | Total Weight in lbs |
 |:------|:---------------|:--------------------|
-| 1 🥇  | buhl00n        | 36303.72            |
+| 1 🥇  | buhl00n        | 36311.72 (+8.00)    |
 | 2 🥈  | keplepn3       | 19064.53            |
 | 3 🥉  | ben_vincent    | 15763.67            |
 | 4     | gimmeschmoneys | 15143.39            |
@@ -11,12 +11,12 @@
 | 7     | spanmer        | 7651.11             |
 | 8     | konsminator    | 7261.34             |
 | 9     | ofaisalz       | 5722.47             |
-| 10    | heavener6      | 4527.40 (+11.24)    |
+| 10    | heavener6      | 4571.58 (+44.18)    |
 | 11    | hamoodhabibee  | 4136.68             |
 | 12    | notnownico     | 4087.64             |
-| 13 ⬆  | mousee93       | 3877.84 (+125.53)   |
-| 14 ⬇  | rabituwu       | 3852.81             |
-| 15 ⬇  | simplydrack    | 3834.86             |
+| 13    | mousee93       | 3895.10 (+17.26)    |
+| 14    | rabituwu       | 3852.81             |
+| 15    | simplydrack    | 3834.86             |
 | 16    | ssenario       | 3239.08             |
 | 17    | tairaaaaa      | 3040.98             |
 | 18    | exo9*          | 2557.89             |
@@ -39,8 +39,8 @@
 | 35    | maccat1337     | 1100.36             |
 | 36    | feuha          | 1095.98             |
 | 37    | youngstercal   | 1071.10             |
-| 38    | ruusui         | 1004.92             |
-| 39    | mitsu_skidz    | 996.38              |
+| 38 ⬆  | mitsu_skidz    | 1016.10 (+19.72)    |
+| 39 ⬇  | ruusui         | 1004.92             |
 | 40    | fvkdylan       | 829.41              |
 | 41    | deadl3gs       | 797.56              |
 | 42    | whoop_ee       | 786.15              |
@@ -58,4 +58,4 @@
 
 _Only showing fishers with a total weight of >= 500 lbs_
 
-_Last updated at 2025-10-05 08:44:58 UTC_
+_Last updated at 2025-10-12 08:39:42 UTC_

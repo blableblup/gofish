@@ -2,20 +2,20 @@
 
 | Rank  | Player                | Fish seen |
 |:------|:----------------------|:----------|
-| 1 🥇  | derinturitierutz      | 110 (+1)  |
-| 1 🥇  | fishingalt            | 110 (+1)  |
+| 1 🥇  | derinturitierutz      | 110       |
+| 1 🥇  | fishingalt            | 110       |
 | 3 🥉  | leanmeister           | 96        |
 | 4     | chubby_________       | 95        |
 | 5     | destin357             | 90        |
-| 6     | kishma9               | 88        |
-| 6     | larvasisters          | 88        |
+| 6     | larvaew               | 89 (+1)   |
+| 7 ⬇   | kishma9               | 88        |
 | 8     | c_mgirl               | 85        |
 | 8     | derintu               | 85        |
 | 10    | breadworms            | 83        |
 | 10    | miiiiisho             | 83        |
 | 10    | qu4ttromila           | 83        |
 | 13    | dougiefresh_83*       | 79        |
-| 14    | osnyisdead            | 78        |
+| 13 ⬆  | osnyisdead            | 79 (+1)   |
 | 15    | booty_bread           | 77        |
 | 16    | dazedforevermore      | 76        |
 | 17    | sicklymaidrobot       | 75        |
@@ -32,8 +32,8 @@
 | 28    | mitgliederversammlung | 64        |
 | 29    | gawblemachine         | 63        |
 | 30    | sussy_amonge          | 62        |
-| 31    | kaasppeerr            | 60        |
-| 31    | ytp_dl*               | 60        |
+| 31    | ytp_dl*               | 61 (+1)   |
+| 32 ⬇  | kaasppeerr            | 60        |
 | 33    | idini                 | 56        |
 | 33    | wisco9ers*            | 56        |
 | 35    | divra__               | 55        |
@@ -48,4 +48,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2025-10-05 08:45:10 UTC_
+_Last updated at 2025-10-12 08:39:43 UTC_

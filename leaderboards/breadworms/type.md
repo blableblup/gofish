@@ -8,7 +8,7 @@
 | 4     | 🦈 shark           | 288.27        | miiiiisho               | 2024-02-01 22:00:13 |
 | 5     | 🐉 dragon          | 284.43        | c_mgirl                 | 2024-12-10 21:13:14 |
 | 6     | 🫎 moose           | 278.16        | fvkdylan                | 2025-04-27 13:58:41 |
-| 7     | 🐻‍❄ polarbear       | 272.28        | larvasisters            | 2025-01-02 19:01:21 |
+| 7     | 🐻‍❄ polarbear       | 272.28        | larvaew                 | 2025-01-02 19:01:21 |
 | 8     | 🐍 snake           | 271.95        | miiiiisho               | 2024-01-09 01:20:50 |
 | 9     | 🐢 turtle          | 255.00        | leanmeister             | 2025-06-13 20:52:39 |
 | 10    | 🛢️ oildrum          | 251.70        | osnyisdead              | 2024-08-14 01:03:37 |
@@ -44,13 +44,13 @@
 | 40    | 🧊 icecube         | 29.34         | dougiefresh_83          | 2024-12-31 21:24:39 |
 | 41    | 🐠 tropicalfish    | 28.79         | c_mgirl                 | 2025-03-28 16:25:42 |
 | 42    | 🪳 cockroach       | 26.79         | fishingalt              | 2025-03-02 15:50:28 |
-| 43    | 🎰 slotmachine     | 23.53         | notcomiq                | 2025-09-26 16:23:00 |
+| 43    | 🎰 slotmachine     | 23.53         | comiiiiiq               | 2025-09-26 16:23:00 |
 | 44    | 🦠 plankton        | 22.00         | osnyatsky               | 2024-01-03 09:00:25 |
 | 45    | 🍄‍🟫 brownmushroom   | 21.97         | chubby_________         | 2025-02-05 02:10:22 |
 | 46    | 🪼 jellyfish       | 21.87         | sicklymaidrobot         | 2023-08-04 03:47:25 |
 | 47    | 🧭 compass         | 21.26         | destin357               | 2025-03-25 13:46:19 |
 | 48    | 🦦 otter           | 19.78         | dazedforevermore        | 2024-02-17 10:37:23 |
-| 49    | 🪱 worm            | 18.97 (+0.02) | comiqq                  | 2025-10-01 10:45:25 |
+| 49    | 🪱 worm            | 18.97         | comiqq                  | 2025-10-01 10:45:25 |
 | 50    | 🍄 mushroom        | 17.85         | comiqq                  | 2024-02-22 05:08:00 |
 | 51    | 🦆 duck            | 15.69         | derinturitierutz        | 2023-11-04 14:31:09 |
 | 52    | 🪀 bobber          | 15.60         | osnyisdead              | 2024-09-27 00:16:38 |
@@ -69,7 +69,7 @@
 | 65    | 🩲 briefs          | 10.94         | derintu                 | 2025-07-10 13:16:26 |
 | 66    | 🪺 nestwitheggs    | 10.84         | osnyatsky               | 2024-03-30 13:50:46 |
 | 67    | 🦎 lizard          | 10.61         | sussy_amonge            | 2023-06-04 08:16:33 |
-| 68    | 🪁 kite            | 10.40         | larvasisters            | 2025-06-30 14:44:29 |
+| 68    | 🪁 kite            | 10.40         | larvaew                 | 2025-06-30 14:44:29 |
 | 69    | 🧋 bubbleteacup    | 10.01         | fishingalt              | 2025-08-25 14:19:42 |
 | 70    | 💀 skull           | 9.98          | bussinongnocap          | 2023-05-14 05:29:15 |
 | 71    | 🌵 cactus          | 9.40          | ytp_dl                  | 2025-08-28 10:33:48 |
@@ -77,7 +77,7 @@
 | 73    | 🧵 wireline        | 5.95          | ninjaross               | 2025-03-15 11:04:57 |
 | 74    | 🐚 shell           | 5.92          | c_mgirl                 | 2025-04-01 04:02:00 |
 | 75    | 🦉 owl             | 5.90          | c_mgirl                 | 2024-10-20 16:28:24 |
-| 76    | ☘️ shamrock         | 5.81          | osnyisdead              | 2025-09-20 23:40:02 |
+| 76    | ☘️ shamrock         | 5.82 (+0.01)  | derintu                 | 2025-10-08 08:09:37 |
 | 77    | 🎏 lure            | 5.76          | fishingalt              | 2024-01-13 13:04:30 |
 | 78    | 🪝 hook            | 4.98          | sussy_amonge            | 2022-12-15 17:37:01 |
 | 79    | 🐦‍⬛ blackbird       | 4.85          | qu4ttromila             | 2024-04-25 00:23:08 |
@@ -125,4 +125,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-10-05 08:46:02 UTC_
+_Last updated at 2025-10-12 08:40:57 UTC_

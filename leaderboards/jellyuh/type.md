@@ -29,8 +29,8 @@
 | 25    | 🦫 beaver        | 33.44         | goopy777            | 2025-03-17 05:33:26 |
 | 26    | 🐧 penguin       | 32.40         | goopy777            | 2025-03-02 23:26:33 |
 | 27    | 🦐 shrimp        | 31.11         | maavva              | 2025-06-19 06:04:55 |
-| 28 ⬆  | 🐡 blowfish      | 24.17 (+2.19) | jakthejanitor       | 2025-09-25 00:07:02 |
-| 29 ⬇  | 🪳 cockroach     | 22.79         | rainedparade        | 2025-05-03 02:44:50 |
+| 28    | 🐡 blowfish      | 28.84 (+4.67) | cerealapii          | 2025-10-09 04:03:16 |
+| 29    | 🪳 cockroach     | 22.79         | rainedparade        | 2025-05-03 02:44:50 |
 | 30    | 🐠 tropicalfish  | 21.72         | rainedparade        | 2025-06-20 05:18:16 |
 | 31    | 🍄‍🟫 brownmushroom | 21.03         | goopy777            | 2025-01-14 07:15:13 |
 | 31    | 🦠 plankton      | 21.03         | rainedparade        | 2025-02-25 05:17:44 |
@@ -44,7 +44,7 @@
 | 40    | 🐌 snail         | 11.30         | rainedparade        | 2025-04-06 18:41:03 |
 | 41    | 📱 iphone        | 10.59         | rainedparade        | 2025-03-16 00:27:44 |
 | 42    | 🕶️ darksunglasses | 10.01         | jellyuh             | 2025-06-12 08:56:32 |
-| 43    | 💀 skull         | 9.88          | larvasisters        | 2025-06-12 02:52:55 |
+| 43    | 💀 skull         | 9.88          | larvaew             | 2025-06-12 02:52:55 |
 | 44    | 🩲 briefs        | 9.56          | cptblack_           | 2025-05-09 03:44:38 |
 | 45    | 👒 womanshat     | 9.46          | rainedparade        | 2025-01-25 17:36:59 |
 | 46    | 🧊 icecube       | 9.30          | rainedparade        | 2025-02-24 17:25:34 |
@@ -61,25 +61,26 @@
 | 57    | 🎏 lure          | 4.44          | goopy777            | 2025-02-03 12:24:24 |
 | 58    | 🪝 hook          | 3.96          | miyabwah            | 2025-03-20 20:27:21 |
 | 59    | ☘️ shamrock       | 3.44          | goopy777            | 2025-03-20 05:32:55 |
-| 60    | 👡 sandal        | 2.68          | poioce              | 2025-04-07 01:37:30 |
-| 61    | 🧸 teddybear     | 2.37          | rainedparade        | 2025-02-28 00:29:01 |
-| 62    | 🌷 tulip         | 2.36          | hello0d             | 2025-03-21 18:32:56 |
-| 63    | 🧃 beveragebox   | 2.05          | cptblack_           | 2025-06-27 08:48:11 |
-| 64    | 🧦 socks         | 1.97          | pompadourdelinquent | 2025-05-10 02:39:04 |
-| 65    | 🪻 lupine        | 1.82          | poioce              | 2025-07-02 09:16:59 |
-| 66    | 👢 boot          | 1.65          | miyabwah            | 2025-03-20 06:30:08 |
-| 67    | 🥪 sandwich      | 1.48          | rainedparade        | 2025-05-17 18:51:56 |
-| 68    | 🍃 leaf          | 1.31          | poioce              | 2025-03-27 02:26:12 |
-| 69    | 🩴 thongsandal   | 1.10          | i_xerrax            | 2025-05-09 04:15:30 |
-| 70    | 🧤 gloves        | 0.95          | jellyuh             | 2025-02-19 05:34:02 |
-| 71    | 🌿 seaweed       | 0.91          | e1d2f3              | 2025-07-07 22:56:49 |
-| 72    | 🩰 balletshoes   | 0.52          | rainedparade        | 2025-01-25 04:09:12 |
-| 73    | 🪶 feather       | 0.43          | jellyuh             | 2025-01-02 09:31:14 |
-| 74    | 🫙 jar           | 0.40          | teeto               | 2025-08-30 18:26:46 |
-| 75    | ⛸️ iceskate       | 0.33          | hello0d             | 2025-01-12 16:12:14 |
-| 76    | ☂️ umbrella       | 0.32          | cerealapii          | 2025-07-07 06:37:28 |
-| 77    | 🧣 scarf         | 0.16          | goopy777            | 2024-12-29 00:40:05 |
+| 60 🆕 | 🌰 acorn         | 3.38          | dougiefresh_83      | 2025-10-09 04:17:57 |
+| 61 ⬇  | 👡 sandal        | 2.68          | poioce              | 2025-04-07 01:37:30 |
+| 62 ⬇  | 🧸 teddybear     | 2.37          | rainedparade        | 2025-02-28 00:29:01 |
+| 63 ⬇  | 🌷 tulip         | 2.36          | hello0d             | 2025-03-21 18:32:56 |
+| 64 ⬇  | 🧃 beveragebox   | 2.05          | cptblack_           | 2025-06-27 08:48:11 |
+| 65 ⬇  | 🧦 socks         | 1.97          | pompadourdelinquent | 2025-05-10 02:39:04 |
+| 66 ⬇  | 🪻 lupine        | 1.82          | poioce              | 2025-07-02 09:16:59 |
+| 67 ⬇  | 👢 boot          | 1.65          | miyabwah            | 2025-03-20 06:30:08 |
+| 68 ⬇  | 🥪 sandwich      | 1.48          | rainedparade        | 2025-05-17 18:51:56 |
+| 69 ⬇  | 🍃 leaf          | 1.31          | poioce              | 2025-03-27 02:26:12 |
+| 70 ⬇  | 🩴 thongsandal   | 1.10          | i_xerrax            | 2025-05-09 04:15:30 |
+| 71 ⬇  | 🧤 gloves        | 0.95          | jellyuh             | 2025-02-19 05:34:02 |
+| 72 ⬇  | 🌿 seaweed       | 0.91          | e1d2f3              | 2025-07-07 22:56:49 |
+| 73 ⬇  | 🩰 balletshoes   | 0.52          | rainedparade        | 2025-01-25 04:09:12 |
+| 74 ⬇  | 🪶 feather       | 0.43          | jellyuh             | 2025-01-02 09:31:14 |
+| 75 ⬇  | 🫙 jar           | 0.40          | teeto               | 2025-08-30 18:26:46 |
+| 76 ⬇  | ⛸️ iceskate       | 0.33          | hello0d             | 2025-01-12 16:12:14 |
+| 77 ⬇  | ☂️ umbrella       | 0.32          | cerealapii          | 2025-07-07 06:37:28 |
+| 78 ⬇  | 🧣 scarf         | 0.16          | goopy777            | 2024-12-29 00:40:05 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-09-28 09:41:14 UTC_
+_Last updated at 2025-10-12 08:39:53 UTC_

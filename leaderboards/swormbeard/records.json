@@ -2,42 +2,42 @@
 	"110927": {
 		"player": "julialuxel",
 		"playerid": 64,
+		"verified": true,
 		"weight": 105,
 		"bot": "gofishgame",
-		"type": "🐊",
-		"typename": "crocodile",
+		"fishtype": "🐊",
+		"fishname": "crocodile",
 		"catchtype": "normal",
-		"date": "2024-07-28T22:59:00Z",
 		"chat": "swormbeard",
 		"fishid": 110927,
 		"chatid": 1,
-		"verified": true
+		"date": "2024-07-28T22:59:00Z"
 	},
 	"110972": {
-		"player": "larvasisters",
+		"player": "larvaew",
 		"playerid": 1212,
 		"weight": 208.05,
 		"bot": "gofishgame",
-		"type": "🐳",
-		"typename": "whale",
+		"fishtype": "🐳",
+		"fishname": "whale",
 		"catchtype": "normal",
-		"date": "2024-08-04T20:06:31Z",
 		"chat": "swormbeard",
 		"fishid": 110972,
-		"chatid": 46
+		"chatid": 46,
+		"date": "2024-08-04T20:06:31Z"
 	},
 	"155079": {
 		"player": "kishma9",
 		"playerid": 80,
+		"verified": true,
 		"weight": 243.37,
 		"bot": "gofishgame",
-		"type": "🦑",
-		"typename": "squid",
+		"fishtype": "🦑",
+		"fishname": "squid",
 		"catchtype": "normal",
-		"date": "2025-03-14T20:12:15Z",
 		"chat": "swormbeard",
 		"fishid": 155079,
 		"chatid": 311,
-		"verified": true
+		"date": "2025-03-14T20:12:15Z"
 	}
 }

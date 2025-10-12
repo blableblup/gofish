@@ -23,9 +23,9 @@
 | 19    | 🦑 squid         | 5.15          | kr1nxx_            | 2024-10-19 06:00:42 |
 | 20    | 🐠 tropicalfish  | 4.59          | gizei_             | 2024-10-23 15:11:13 |
 | 21    | 🐬 dolphin       | 3.04          | 07moki             | 2024-10-15 11:32:31 |
-| 22 ⬆  | 🪸 coral         | 2.27          | wafelel1337        | 2024-10-16 05:21:28 |
-| 23 ⬆  | 🪵 log           | 2.19          | grumpo_            | 2024-10-18 07:33:13 |
-| 24 ⬇  | ☘️ shamrock       | 1.97 (-1.07)  | yopego             | 2025-08-08 06:49:10 |
+| 22    | 🪸 coral         | 2.27          | wafelel1337        | 2024-10-16 05:21:28 |
+| 23    | 🪵 log           | 2.19          | grumpo_            | 2024-10-18 07:33:13 |
+| 24    | ☘️ shamrock       | 1.97          | yopego             | 2025-08-08 06:49:10 |
 | 25    | 🦐 shrimp        | 1.92          | yopego             | 2025-07-25 11:09:45 |
 | 26    | 🌰 acorn         | 1.91          | yopego             | 2024-10-08 15:22:07 |
 | 27    | 🦆 duck          | 1.83          | cornstarch1g       | 2024-10-07 19:38:57 |
@@ -40,7 +40,7 @@
 | 36    | 🐋 whale2        | 0.56          | ohnarpissquel      | 2024-10-31 11:08:17 |
 | 37    | 🐟 fish          | 0.54          | kr1nxx_            | 2024-10-20 08:25:50 |
 | 38    | 🎏 lure          | 0.45          | grumpo_            | 2024-10-31 20:13:08 |
-| 39    | 🪱 worm          | 0.44          | larvasisters       | 2025-06-12 07:25:38 |
+| 39    | 🪱 worm          | 0.44          | larvaew            | 2025-06-12 07:25:38 |
 | 40    | 🦎 lizard        | 0.32          | yopego             | 2025-07-30 16:43:19 |
 | 41    | 🥫 cannedfood    | 0.23          | grumvald           | 2024-12-04 11:13:52 |
 | 42    | 🐍 snake         | 0.08          | mxrio41            | 2024-10-17 22:12:49 |
@@ -49,4 +49,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-08-10 09:06:00 UTC_
+_Last updated at 2025-10-12 08:42:40 UTC_

@@ -20,7 +20,7 @@
 | 10   | 🩲 briefs       | 8.74          | bubinga         | 2025-08-14 10:48:02 |
 | 9    | 🍬 candy        | 0.00          | bubinga         | 2025-08-09 07:12:21 |
 | 8    | 🐍 snake        | 12.63         | bubinga         | 2025-08-09 07:12:10 |
-| 7    | 🧽 sponge       | 7.74          | larvasisters    | 2025-06-12 19:31:22 |
+| 7    | 🧽 sponge       | 7.74          | larvaew         | 2025-06-12 19:31:22 |
 | 6    | 🪸 coral        | 14.11         | commanda_u      | 2025-06-02 08:53:33 |
 | 5    | 🐠 tropicalfish | 9.37          | letter__n       | 2025-06-01 05:51:00 |
 | 4    | 🦑 squid        | 1.64          | commanda_u      | 2025-05-31 10:40:40 |
@@ -28,4 +28,4 @@
 | 2    | 🐬 dolphin      | 89.33         | commanda_u      | 2025-05-22 11:55:44 |
 | 1    | 🐡 blowfish     | 8.96          | commanda_u      | 2025-05-18 21:28:28 |
 
-_Last updated at 2025-10-05 08:43:34 UTC_
+_Last updated at 2025-10-12 08:39:40 UTC_

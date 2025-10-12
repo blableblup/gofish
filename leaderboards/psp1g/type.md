@@ -69,7 +69,7 @@
 | 65    | 🧋 bubbleteacup    | 6.90          | gorillapark               | 2025-08-24 23:06:18 |
 | 66    | 🧵 wireline        | 6.00          | ocrw                      | 2024-06-20 15:30:46 |
 | 67    | 🐚 shell           | 5.92          | mazzo_tv                  | 2025-05-25 17:38:47 |
-| 68    | ☘️ shamrock         | 5.80 (+0.02)  | bluberry                  | 2025-10-04 06:05:00 |
+| 68    | ☘️ shamrock         | 5.86 (+0.06)  | flovrek                   | 2025-10-06 06:50:46 |
 | 69    | 🎏 lure            | 5.00          | flovrek                   | 2025-05-31 14:12:56 |
 | 70    | 🪝 hook            | 4.99          | thedraingangceo*          | 2023-08-24 20:19:25 |
 | 71    | 🥫 cannedfood      | 4.91          | huuuuuuuuuuuuuuuuuuuuuurz | 2024-01-22 08:44:29 |
@@ -111,4 +111,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-10-05 08:46:18 UTC_
+_Last updated at 2025-10-12 08:40:49 UTC_

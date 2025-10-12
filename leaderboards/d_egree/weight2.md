@@ -99,8 +99,8 @@
 | 95    | kohrro                | 🦪 oyster        | 12.74         | 2024-09-03 13:48:42 |
 | 96    | kohrro                | 🐟 fish          | 12.52         | 2024-09-26 23:38:38 |
 | 97    | kohrro                | 🐍 snake         | 12.47         | 2024-09-16 18:21:02 |
-| 98    | larvasisters          | 🕶️ darksunglasses | 12.16         | 2024-06-05 20:25:47 |
+| 98    | larvaew               | 🕶️ darksunglasses | 12.16         | 2024-06-05 20:25:47 |
 | 99    | ethanolo              | 🐟 fish          | 11.95         | 2023-09-15 07:31:18 |
 | 100   | kohrro                | 🐢 turtle        | 11.46         | 2024-09-03 11:54:07 |
 
-_Last updated at 2025-08-31 07:56:14 UTC_
+_Last updated at 2025-10-12 08:39:41 UTC_

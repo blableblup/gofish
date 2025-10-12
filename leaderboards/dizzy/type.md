@@ -26,8 +26,8 @@
 | 22    | 🛒 shoppingcart  | 56.52         | buhl00n        | 2025-01-02 17:13:58 |
 | 23    | 🗡️ dagger         | 47.93         | juhjimmy       | 2024-10-22 01:44:12 |
 | 24    | 🪨 rock          | 47.85         | buhl00n        | 2025-06-07 06:22:40 |
-| 25    | 🦫 beaver        | 43.66         | gimmeschmoneys | 2025-04-01 21:24:25 |
-| 26    | 🐸 frog          | 42.05         | exo9           | 2024-10-29 22:15:02 |
+| 25 ⬆  | 🐸 frog          | 44.18 (+2.13) | heavener6      | 2025-10-06 12:28:47 |
+| 26 ⬇  | 🦫 beaver        | 43.66         | gimmeschmoneys | 2025-04-01 21:24:25 |
 | 27    | 🐧 penguin       | 40.98         | buhl00n        | 2024-12-25 06:28:31 |
 | 28    | 🛢️ oildrum        | 39.41         | lolspers       | 2025-06-28 00:12:52 |
 | 29    | 🦀 crab          | 36.71         | julialuxel     | 2025-08-08 23:56:56 |
@@ -100,12 +100,12 @@
 | 96    | 🐜 ant           | 0.75          | keplepn3       | 2025-08-27 03:51:58 |
 | 96    | 🧣 scarf         | 0.75          | exo9           | 2024-12-25 05:19:42 |
 | 98    | 🦟 mosquito      | 0.60          | buhl00n        | 2025-08-29 20:32:58 |
-| 99 🆕 | 🐞 ladybug       | 0.32          | buhl00n        | 2025-08-31 11:08:30 |
-| 100 ⬇ | 🪰 fly           | 0.28          | buhl00n        | 2025-08-28 16:09:13 |
-| 101 ⬇ | 🦗 cricket       | 0.25          | keplepn3       | 2025-08-11 03:39:03 |
-| 102 ⬇ | 🦋 butterfly     | 0.10          | gimmeschmoneys | 2025-08-29 10:25:57 |
-| 103 ⬇ | 🕸️ spiderweb      | 0.08          | keplepn3       | 2025-08-27 06:14:33 |
+| 99    | 🐞 ladybug       | 0.32          | buhl00n        | 2025-08-31 11:08:30 |
+| 100   | 🪰 fly           | 0.28          | buhl00n        | 2025-08-28 16:09:13 |
+| 101   | 🦗 cricket       | 0.25          | keplepn3       | 2025-08-11 03:39:03 |
+| 102   | 🦋 butterfly     | 0.10          | gimmeschmoneys | 2025-08-29 10:25:57 |
+| 103   | 🕸️ spiderweb      | 0.08          | keplepn3       | 2025-08-27 06:14:33 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-09-07 09:12:04 UTC_
+_Last updated at 2025-10-12 08:40:37 UTC_

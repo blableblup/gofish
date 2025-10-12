@@ -2,9 +2,9 @@
 
 | Rank   | Player           | Fish seen |
 |:-------|:-----------------|:----------|
+| 1 🥇 ⬆ | derintu          | 31 (+3)   |
 | 1 🥇   | respirate_       | 31        |
-| 2 🥈 ⬆ | derintu          | 28 (+1)   |
-| 2 🥈   | leanmeister      | 28        |
+| 3 🥉 ⬇ | leanmeister      | 28        |
 | 4      | dazedforevermore | 18        |
 | 5      | derinturitierutz | 17        |
 | 6      | chubby_________  | 15        |
@@ -15,4 +15,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2025-10-05 08:45:11 UTC_
+_Last updated at 2025-10-12 08:39:44 UTC_

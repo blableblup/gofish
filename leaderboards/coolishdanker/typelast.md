@@ -3,10 +3,10 @@
 | Rank | Fish            | Weight in lbs | Player            | Date in UTC         |
 |:-----|:----------------|:--------------|:------------------|:--------------------|
 | 33   | 🕷️ spider        | 6.21          | jaial             | 2025-07-25 17:24:50 |
-| 32   | 🐠 tropicalfish | 20.89         | digital_red_panda | 2025-06-21 15:28:53 |
-| 31   | 🐬 dolphin      | 31.65         | larvasisters      | 2025-06-13 03:19:51 |
-| 30   | 🌿 seaweed      | 0.41          | fenix8            | 2025-06-09 11:06:52 |
-| 29   | 🐟 fish         | 13.19         | fenix8            | 2025-06-01 13:32:20 |
+| 32   | 🐟 fish         | 1.14          | fenix8            | 2025-06-24 10:37:05 |
+| 31   | 🐠 tropicalfish | 20.89         | digital_red_panda | 2025-06-21 15:28:53 |
+| 30   | 🐬 dolphin      | 31.65         | larvaew           | 2025-06-13 03:19:51 |
+| 29   | 🌿 seaweed      | 0.41          | fenix8            | 2025-06-09 11:06:52 |
 | 28   | 🐚 shell        | 2.46          | destructionvibe   | 2025-04-22 23:25:26 |
 | 27   | 🪳 cockroach    | 4.18          | destructionvibe   | 2025-04-20 21:47:29 |
 | 26   | 🦑 squid        | 62.36         | destructionvibe   | 2025-04-18 00:19:36 |
@@ -36,4 +36,4 @@
 | 2    | 🐳 whale        | 8.92          | turkld            | 2025-01-18 18:50:12 |
 | 1    | 🐋 whale2       | 72.01         | turkld            | 2025-01-18 15:03:21 |
 
-_Last updated at 2025-07-27 09:39:06 UTC_
+_Last updated at 2025-10-12 08:39:38 UTC_

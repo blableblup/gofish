@@ -2,7 +2,7 @@
 
 | Rank  | Player                    | Fish seen |
 |:------|:--------------------------|:----------|
-| 1 🥇  | nndiana*                  | 88 (+1)   |
+| 1 🥇  | nndiana*                  | 88        |
 | 2 🥈  | huuuuuuuuuuuuuuuuuuuuuurz | 79        |
 | 3 🥉  | bubinga                   | 77        |
 | 4     | mazzo_tv                  | 74        |
@@ -37,14 +37,14 @@
 | 31    | noconcept_                | 52        |
 | 31    | popfizzgg                 | 52        |
 | 31    | velantix*                 | 52        |
+| 36 ⬆  | llikotesnecil             | 51 (+1)   |
 | 36    | qxxick_                   | 51        |
 | 36    | wisdom_frog               | 51        |
-| 38    | bartohehe                 | 50        |
-| 38    | llikotesnecil             | 50        |
-| 38    | seryxx                    | 50        |
+| 39 ⬇  | bartohehe                 | 50        |
+| 39 ⬇  | seryxx                    | 50        |
 
 _This does not include fish seen through 🎁 gifts or through releasing to another player during the winter events!_
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2025-10-05 08:45:10 UTC_
+_Last updated at 2025-10-12 08:39:43 UTC_

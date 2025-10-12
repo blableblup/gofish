@@ -48,18 +48,18 @@
 | 44    | 🦇 bat          | 1.83          | leanmeister        | 2025-06-23 00:48:59 |
 | 45    | 🌰 acorn        | 1.34          | julialuxel         | 2024-09-30 23:18:34 |
 | 46    | 🐌 snail        | 1.17          | fvkdylan           | 2025-06-22 23:18:13 |
-| 47 🆕 | 🪱 worm         | 0.99          | kishma9            | 2025-08-28 18:53:36 |
-| 48 ⬇  | 🌹 rose         | 0.94          | suavvvvv           | 2024-03-29 17:01:59 |
-| 49 ⬇  | 🧤 gloves       | 0.86          | hahppyy            | 2023-12-25 20:21:08 |
-| 50 ⬇  | 🐦‍⬛ blackbird    | 0.69          | ninjaross          | 2024-05-04 18:16:52 |
-| 51 ⬇  | ⛸️ iceskate      | 0.62          | toastyso           | 2024-01-07 02:21:01 |
-| 52 ⬇  | 🪀 bobber       | 0.61          | chubby_________    | 2025-06-23 01:43:25 |
-| 53 ⬇  | 👟 athleticshoe | 0.53          | supibot            | 2024-01-04 18:43:39 |
-| 54 ⬇  | 🌿 seaweed      | 0.42          | julialuxel         | 2024-04-01 15:04:41 |
-| 55 ⬇  | 🫙 jar          | 0.41          | larvasisters       | 2025-06-23 00:51:13 |
-| 56 ⬇  | 🧣 scarf        | 0.37          | hahppyy            | 2023-12-24 23:05:05 |
-| 57 ⬇  | 🧦 socks        | 0.19          | chubby_________    | 2024-03-12 14:48:51 |
+| 47    | 🪱 worm         | 0.99          | kishma9            | 2025-08-28 18:53:36 |
+| 48    | 🌹 rose         | 0.94          | suavvvvv           | 2024-03-29 17:01:59 |
+| 49    | 🧤 gloves       | 0.86          | hahppyy            | 2023-12-25 20:21:08 |
+| 50    | 🐦‍⬛ blackbird    | 0.69          | ninjaross          | 2024-05-04 18:16:52 |
+| 51    | ⛸️ iceskate      | 0.62          | toastyso           | 2024-01-07 02:21:01 |
+| 52    | 🪀 bobber       | 0.61          | chubby_________    | 2025-06-23 01:43:25 |
+| 53    | 👟 athleticshoe | 0.53          | supibot            | 2024-01-04 18:43:39 |
+| 54    | 🌿 seaweed      | 0.42          | julialuxel         | 2024-04-01 15:04:41 |
+| 55    | 🫙 jar          | 0.41          | larvaew            | 2025-06-23 00:51:13 |
+| 56    | 🧣 scarf        | 0.37          | hahppyy            | 2023-12-24 23:05:05 |
+| 57    | 🧦 socks        | 0.19          | chubby_________    | 2024-03-12 14:48:51 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-08-31 07:56:06 UTC_
+_Last updated at 2025-10-12 08:40:12 UTC_

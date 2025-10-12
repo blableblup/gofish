@@ -9,7 +9,7 @@
 | 54   | 🐳 whale        | 7.50          | gawblemachine         | 2025-07-25 18:24:11 |
 | 53   | 🐟 fish         | 0.46          | julialuxel            | 2025-07-03 04:54:44 |
 | 52   | 🦫 beaver       | 16.20         | julialuxel            | 2025-06-27 03:30:59 |
-| 51   | 🫙 jar          | 0.41          | larvasisters          | 2025-06-23 00:51:13 |
+| 51   | 🫙 jar          | 0.41          | larvaew               | 2025-06-23 00:51:13 |
 | 50   | 🦇 bat          | 1.83          | leanmeister           | 2025-06-23 00:48:59 |
 | 49   | 🐢 turtle       | 30.13         | julialuxel            | 2025-06-23 00:30:28 |
 | 48   | 🐌 snail        | 1.17          | fvkdylan              | 2025-06-22 23:18:13 |
@@ -61,4 +61,4 @@
 | 2    | 🐧 penguin      | 29.49         | ryebreadward          | 2024-01-01 00:28:42 |
 | 1    | 🧣 scarf        | 0.37          | hahppyy               | 2023-12-24 23:05:05 |
 
-_Last updated at 2025-09-28 09:39:11 UTC_
+_Last updated at 2025-10-12 08:39:38 UTC_

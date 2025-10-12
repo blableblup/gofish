@@ -2,28 +2,28 @@
 
 | Rank  | Player                | Fish caught |
 |:------|:----------------------|:------------|
-| 1 🥇  | vaiastol              | 2756 (+65)  |
-| 2 🥈  | hahppyy               | 1418 (+15)  |
+| 1 🥇  | vaiastol              | 2821 (+65)  |
+| 2 🥈  | hahppyy               | 1428 (+10)  |
 | 3 🥉  | eelacy                | 683         |
 | 4     | divra__               | 642         |
-| 5 ⬆   | garout                | 551 (+50)   |
-| 6 ⬇   | leanmeister           | 507         |
+| 5     | garout                | 565 (+14)   |
+| 6     | leanmeister           | 507         |
 | 7     | nicestnarwhal         | 484         |
-| 8     | leastsussyimposter    | 453         |
+| 8     | leastsussyimposter    | 456 (+3)    |
 | 9     | dazedforevermore      | 251         |
 | 10    | pengeg                | 237         |
 | 11    | redreignss            | 207         |
-| 12    | yoimlee               | 145 (+1)    |
+| 12    | yoimlee               | 145         |
 | 13    | milesdotcom           | 137         |
 | 14    | beebo8i               | 120         |
-| 15    | julialuxel            | 109         |
-| 16    | tiaguitos97           | 91 (+6)     |
-| 17    | gstaman911            | 80 (+19)    |
+| 15 ⬆  | gstaman911            | 110 (+30)   |
+| 16 ⬇  | julialuxel            | 109         |
+| 17 ⬇  | tiaguitos97           | 98 (+7)     |
 | 18    | bubinga               | 55          |
-| 19    | obama                 | 53          |
+| 19    | obama                 | 54 (+1)     |
 | 20    | rird_                 | 45          |
 | 21    | fvkdylan              | 42          |
-| 22    | larvasisters          | 37          |
+| 22    | larvaew               | 37          |
 | 23    | yespere               | 33          |
 | 24    | houseofleaves*        | 28          |
 | 25    | cyaniderx             | 23          |
@@ -40,4 +40,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-10-05 08:45:00 UTC_
+_Last updated at 2025-10-12 08:39:47 UTC_

@@ -32,7 +32,7 @@
 | 39   | 🪺 nestwitheggs  | 10.58         | dazedforevermore      | 2024-10-14 19:42:06 |
 | 38   | 🦫 beaver        | 22.77         | chubby_________       | 2024-10-12 21:50:13 |
 | 37   | 🦆 duck          | 3.99          | c_mgirl               | 2024-10-07 02:07:17 |
-| 36   | 🌰 acorn         | 0.31          | larvasisters          | 2024-10-04 22:04:38 |
+| 36   | 🌰 acorn         | 0.31          | larvaew               | 2024-10-04 22:04:38 |
 | 35   | 👟 athleticshoe  | 0.91          | respirate_            | 2024-09-08 17:15:35 |
 | 34   | 🧦 socks         | 1.48          | respirate_            | 2024-09-07 23:49:45 |
 | 33   | 🪸 coral         | 14.47         | respirate_            | 2024-09-01 18:32:43 |
@@ -44,9 +44,9 @@
 | 27   | 🐌 snail         | 7.79          | respirate_            | 2024-08-24 06:22:05 |
 | 26   | 🐢 turtle        | 74.33         | respirate_            | 2024-08-21 23:01:53 |
 | 25   | 🐙 octopus       | 45.25         | sicklymaidrobot       | 2024-08-09 16:34:11 |
-| 23   | 🐍 snake         | 17.10         | larvasisters          | 2024-08-07 17:36:47 |
+| 23   | 🐍 snake         | 17.10         | larvaew               | 2024-08-07 17:36:47 |
 | 22   | 🦪 oyster        | 10.77         | dazedforevermore      | 2024-08-04 22:09:58 |
-| 21   | 🐳 whale         | 208.05        | larvasisters          | 2024-08-04 20:06:31 |
+| 21   | 🐳 whale         | 208.05        | larvaew               | 2024-08-04 20:06:31 |
 | 20   | 🧃 beveragebox   | 11.89         | dazedforevermore      | 2024-08-04 17:56:24 |
 | 19   | 🪝 hook          | 2.15          | dazedforevermore      | 2024-08-03 19:12:22 |
 | 18   | 🌿 seaweed       | 0.29          | ninjaross             | 2024-08-03 17:36:41 |
@@ -68,4 +68,4 @@
 | 2    | 🦐 shrimp        | 3.14          | bapqo                 | 2024-07-28 22:59:12 |
 | 1    | 🐊 crocodile     | 105.00        | julialuxel            | 2024-07-28 22:59:00 |
 
-_Last updated at 2025-10-05 08:45:13 UTC_
+_Last updated at 2025-10-12 08:39:48 UTC_
