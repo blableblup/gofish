@@ -21,6 +21,8 @@ type PossiblePlayer struct {
 	OldNames  []string
 }
 
+// idk maybe rework entire function idk
+
 // This is finding all the players who used that players name before in the db
 // There can be problems if a players first and lastseen cant be found in the db
 // And when checking new logs from a long time ago, this cant find the twitchID for the players who renamed
@@ -184,6 +186,11 @@ func FindAllThePossiblePlayers(pool *pgxpool.Pool, player string, firstFishDate 
 				possiblePlayers = append(possiblePlayers, newplayer)
 			}
 		} else {
+
+			// ⚠️ can check the logs page like this: https://logs.ivr.fi/channel/psp1g/2025/10/17?raw=true
+			// and then search for the players name to get their user-id
+			// instead of adding players without their twitchid
+
 			// the player is added to the db with null as their twitchid
 			playerID, err := AddNewPlayer(apiID, player, firstFishDate, firstFishChat, pool)
 			if err != nil {
@@ -209,6 +216,11 @@ func FindAllThePossiblePlayers(pool *pgxpool.Pool, player string, firstFishDate 
 		}
 
 	} else {
+		// ⚠️⚠️⚠️
+		// need to also rename players here
+		// so that this also renames if player name was used before
+		// idk idk
+
 		// If all the possible players last catch was more than 6 months ago and the twitchids are different from the current player
 		// add the player as a new entry (the player took a name which was used by other players before)
 		// if the player isnt new, return all the possible players and go over them in data
