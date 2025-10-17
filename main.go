@@ -144,6 +144,14 @@ func main() {
 
 		scripts.MergeTTables(pool)
 
+	case "notmatch":
+
+		logs.Logs().Info().
+			Str("Program", *program).
+			Msg("Start")
+
+		scripts.CheckWhoDidntGetRenamedOops(pool)
+
 	case "pfps":
 		logs.Logs().Info().
 			Str("Program", *program).
