@@ -2,9 +2,9 @@
 
 | Rank  | Player      | Fish seen |
 |:------|:------------|:----------|
-| 1 🥇  | v6r_        | 96        |
+| 1 🥇  | v6r_        | 97 (+1)   |
 | 2 🥈  | mangos4u    | 89        |
-| 3 🥉  | ritaaww     | 78 (+1)   |
+| 3 🥉  | ritaaww     | 79 (+1)   |
 | 4     | solahh__    | 75        |
 | 5     | gofishgamer | 49        |
 | 6     | aliveleader | 36        |
@@ -16,4 +16,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2025-10-12 08:39:43 UTC_
+_Last updated at 2025-10-19 08:49:48 UTC_

@@ -22,7 +22,7 @@
 | 18    | 🐡 blowfish      | 23.57         | mxrio41            | 2024-10-16 12:00:16 |
 | 19    | 🐠 tropicalfish  | 21.45         | xx_sn1perpro420_xx | 2024-10-30 09:29:51 |
 | 20    | 🦐 shrimp        | 18.75         | mxrio41            | 2024-11-04 07:04:41 |
-| 21    | 🪳 cockroach     | 16.23         | kr1nxx_            | 2024-10-27 08:49:13 |
+| 21    | 🪳 cockroach     | 16.23         | jasonnguyenv12     | 2024-10-27 08:49:13 |
 | 22    | 🧽 sponge        | 14.81         | druidvhs           | 2024-10-15 19:38:19 |
 | 23    | 🍄 mushroom      | 14.62         | grumpo_            | 2024-10-31 14:02:46 |
 | 24    | 🕶️ darksunglasses | 11.83         | sosweetstar_vthree | 2024-10-24 19:00:50 |
@@ -49,4 +49,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-10-12 08:41:18 UTC_
+_Last updated at 2025-10-19 08:48:23 UTC_

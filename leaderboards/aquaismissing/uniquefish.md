@@ -2,7 +2,7 @@
 
 | Rank  | Player        | Fish seen |
 |:------|:--------------|:----------|
-| 1 🥇  | rustezzz      | 27        |
+| 1 🥇  | rustezzz      | 28 (+1)   |
 | 2 🥈  | bubinga       | 23        |
 | 3 🥉  | likedom_      | 20        |
 | 4     | stofeyxd*     | 19        |
@@ -18,11 +18,11 @@
 | 13    | kaczer1       | 12        |
 | 15    | kam3l_        | 11        |
 | 16    | desxyne       | 10        |
-| 16 🆕 | glorpiusbot   | 10        |
+| 16    | glorpiusbot   | 10        |
 | 16    | vigilworld*   | 10        |
 
 _This does not include fish seen through 🎁 gifts or through releasing to another player during the winter events!_
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2025-10-05 08:45:10 UTC_
+_Last updated at 2025-10-19 08:49:46 UTC_

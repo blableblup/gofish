@@ -37,7 +37,7 @@
 | 14   | 🩲 briefs        | 5.27          | ohnarpissquel      | 2024-10-29 19:17:15 |
 | 13   | 🐡 blowfish      | 10.90         | xx_sn1perpro420_xx | 2024-10-28 14:11:29 |
 | 12   | 🧦 socks         | 1.40          | wafelel1337        | 2024-10-26 18:02:58 |
-| 11   | 🦞 lobster       | 0.07          | kr1nxx_            | 2024-10-26 07:41:36 |
+| 11   | 🦞 lobster       | 0.07          | jasonnguyenv12     | 2024-10-26 07:41:36 |
 | 10   | 🐌 snail         | 8.69          | mxrio41            | 2024-10-26 07:39:22 |
 | 9    | 🦀 crab          | 1.24          | mxrio41            | 2024-10-25 21:25:36 |
 | 8    | 🕶️ darksunglasses | 11.83         | sosweetstar_vthree | 2024-10-24 19:00:50 |
@@ -49,4 +49,4 @@
 | 2    | 🦆 duck          | 1.83          | cornstarch1g       | 2024-10-07 19:38:57 |
 | 1    | 🪀 bobber        | 0.00          | yopego             | 2024-10-05 14:35:43 |
 
-_Last updated at 2025-10-12 08:39:39 UTC_
+_Last updated at 2025-10-19 08:49:55 UTC_

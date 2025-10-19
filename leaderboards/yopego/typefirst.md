@@ -16,7 +16,7 @@
 | 35   | 🍄 mushroom      | 14.62         | grumpo_            | 2024-10-31 14:02:46 |
 | 34   | 🐸 frog          | 1.39          | ohnarpissquel      | 2024-10-30 15:56:13 |
 | 33   | 🩲 briefs        | 5.27          | ohnarpissquel      | 2024-10-29 19:17:15 |
-| 32   | 🪳 cockroach     | 16.23         | kr1nxx_            | 2024-10-27 08:49:13 |
+| 32   | 🪳 cockroach     | 16.23         | jasonnguyenv12     | 2024-10-27 08:49:13 |
 | 31   | 🕶️ darksunglasses | 11.83         | sosweetstar_vthree | 2024-10-24 19:00:50 |
 | 30   | 🐊 crocodile     | 111.12        | gizei_             | 2024-10-22 16:52:29 |
 | 29   | 🪨 rock          | 33.68         | mxrio41            | 2024-10-20 20:39:44 |
@@ -49,4 +49,4 @@
 | 2    | 🐟 fish          | 9.97          | gizei_             | 2024-10-05 12:35:06 |
 | 1    | 🪝 hook          | 0.72          | xx_sn1perpro420_xx | 2024-10-05 10:23:31 |
 
-_Last updated at 2025-10-12 08:39:48 UTC_
+_Last updated at 2025-10-19 08:49:51 UTC_

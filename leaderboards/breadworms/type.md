@@ -76,8 +76,8 @@
 | 72    | 🥫 cannedfood      | 5.98          | leanmeister             | 2025-01-07 20:29:27 |
 | 73    | 🧵 wireline        | 5.95          | ninjaross               | 2025-03-15 11:04:57 |
 | 74    | 🐚 shell           | 5.92          | c_mgirl                 | 2025-04-01 04:02:00 |
-| 75    | 🦉 owl             | 5.90          | c_mgirl                 | 2024-10-20 16:28:24 |
-| 76    | ☘️ shamrock         | 5.82 (+0.01)  | derintu                 | 2025-10-08 08:09:37 |
+| 75 ⬆  | ☘️ shamrock         | 5.91 (+0.09)  | derintu                 | 2025-10-17 11:04:19 |
+| 76 ⬇  | 🦉 owl             | 5.90          | c_mgirl                 | 2024-10-20 16:28:24 |
 | 77    | 🎏 lure            | 5.76          | fishingalt              | 2024-01-13 13:04:30 |
 | 78    | 🪝 hook            | 4.98          | sussy_amonge            | 2022-12-15 17:37:01 |
 | 79    | 🐦‍⬛ blackbird       | 4.85          | qu4ttromila             | 2024-04-25 00:23:08 |
@@ -125,4 +125,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-10-12 08:40:57 UTC_
+_Last updated at 2025-10-19 08:49:44 UTC_

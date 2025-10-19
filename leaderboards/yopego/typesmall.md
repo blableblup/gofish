@@ -20,7 +20,7 @@
 | 16    | 🦫 beaver        | 7.32          | yopego             | 2025-07-31 06:21:00 |
 | 17    | 🪳 cockroach     | 6.04          | sequally           | 2024-11-11 15:22:03 |
 | 18    | 🩲 briefs        | 5.27          | ohnarpissquel      | 2024-10-29 19:17:15 |
-| 19    | 🦑 squid         | 5.15          | kr1nxx_            | 2024-10-19 06:00:42 |
+| 19    | 🦑 squid         | 5.15          | jasonnguyenv12     | 2024-10-19 06:00:42 |
 | 20    | 🐠 tropicalfish  | 4.59          | gizei_             | 2024-10-23 15:11:13 |
 | 21    | 🐬 dolphin       | 3.04          | 07moki             | 2024-10-15 11:32:31 |
 | 22    | 🪸 coral         | 2.27          | wafelel1337        | 2024-10-16 05:21:28 |
@@ -38,15 +38,15 @@
 | 34    | 🪝 hook          | 0.72          | xx_sn1perpro420_xx | 2024-10-05 10:23:31 |
 | 35    | 🧦 socks         | 0.69          | grumpo_            | 2024-10-19 10:05:49 |
 | 36    | 🐋 whale2        | 0.56          | ohnarpissquel      | 2024-10-31 11:08:17 |
-| 37    | 🐟 fish          | 0.54          | kr1nxx_            | 2024-10-20 08:25:50 |
+| 37    | 🐟 fish          | 0.54          | jasonnguyenv12     | 2024-10-20 08:25:50 |
 | 38    | 🎏 lure          | 0.45          | grumpo_            | 2024-10-31 20:13:08 |
 | 39    | 🪱 worm          | 0.44          | larvaew            | 2025-06-12 07:25:38 |
 | 40    | 🦎 lizard        | 0.32          | yopego             | 2025-07-30 16:43:19 |
 | 41    | 🥫 cannedfood    | 0.23          | grumvald           | 2024-12-04 11:13:52 |
 | 42    | 🐍 snake         | 0.08          | mxrio41            | 2024-10-17 22:12:49 |
-| 43    | 🦞 lobster       | 0.07          | kr1nxx_            | 2024-10-26 07:41:36 |
+| 43    | 🦞 lobster       | 0.07          | jasonnguyenv12     | 2024-10-26 07:41:36 |
 | 44    | 🐚 shell         | 0.04          | femboy_falcon      | 2024-10-23 17:45:43 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-10-12 08:42:40 UTC_
+_Last updated at 2025-10-19 08:50:24 UTC_

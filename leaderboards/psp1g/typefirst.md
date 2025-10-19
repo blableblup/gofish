@@ -88,7 +88,7 @@
 | 23   | ☂️ umbrella         | 0.56          | revielum                  | 2023-08-22 09:25:57 |
 | 22   | 🩰 balletshoes     | 0.74          | yopego                    | 2023-08-22 09:21:21 |
 | 21   | 🥪 sandwich        | 0.43          | seryxx                    | 2023-08-22 09:12:39 |
-| 20   | 🕷️ spider           | 0.62          | notalium                  | 2023-08-22 02:14:21 |
+| 20   | 🕷️ spider           | 0.62          | luka_stepbacks            | 2023-08-22 02:14:21 |
 | 19   | 🐙 octopus         | 87.11         | psp1g                     | 2023-08-21 21:55:25 |
 | 18   | 🐊 crocodile       | 79.51         | sl3id3r                   | 2023-08-21 19:47:54 |
 | 17   | 🐬 dolphin         | 7.82          | faslker                   | 2023-08-21 13:32:22 |
@@ -109,4 +109,4 @@
 | 2    | 🦞 lobster         | 36.18         | psp1g                     | 2023-08-21 01:23:40 |
 | 1    | 🐟 fish            | 13.12         | dazedforevermore          | 2023-08-21 01:11:17 |
 
-_Last updated at 2025-09-14 09:38:04 UTC_
+_Last updated at 2025-10-19 08:49:50 UTC_

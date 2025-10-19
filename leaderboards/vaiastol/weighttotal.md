@@ -2,27 +2,27 @@
 
 | Rank  | Player                | Total Weight in lbs |
 |:------|:----------------------|:--------------------|
-| 1 🥇  | vaiastol              | 36329.41 (+353.29)  |
-| 2 🥈  | hahppyy               | 27988.55 (+329.37)  |
+| 1 🥇  | vaiastol              | 36712.13 (+382.72)  |
+| 2 🥈  | hahppyy               | 28297.33 (+308.78)  |
 | 3 🥉  | nicestnarwhal         | 9929.13             |
 | 4     | leanmeister           | 9660.42             |
 | 5     | divra__               | 9176.73             |
-| 6 ⬆   | garout                | 8741.28 (+39.98)    |
-| 7 ⬇   | eelacy                | 8729.36             |
-| 8     | leastsussyimposter    | 7633.38 (+135.56)   |
-| 9     | dazedforevermore      | 5597.05             |
+| 6     | garout                | 8964.01 (+222.73)   |
+| 7     | eelacy                | 8729.36             |
+| 8     | leastsussyimposter    | 7743.23 (+109.85)   |
+| 9     | dazedforevermore      | 5597.59 (+0.54)     |
 | 10    | pengeg                | 4975.48             |
 | 11    | redreignss            | 4886.23             |
 | 12    | julialuxel            | 4536.16             |
 | 13    | milesdotcom           | 2546.43             |
-| 14    | yoimlee               | 2465.96             |
-| 15    | tiaguitos97           | 2202.26 (+154.93)   |
+| 14    | yoimlee               | 2478.04 (+12.08)    |
+| 15    | tiaguitos97           | 2209.32 (+7.06)     |
 | 16    | beebo8i               | 1966.17             |
-| 17    | bubinga               | 1215.75             |
-| 18 ⬆  | gstaman911            | 1178.47 (+418.01)   |
-| 19 ⬇  | mitgliederversammlung | 879.55              |
-| 20 ⬇  | rird_                 | 785.35              |
-| 21    | obama                 | 721.41 (+2.25)      |
+| 17 ⬆  | gstaman911            | 1319.16 (+140.69)   |
+| 18 ⬇  | bubinga               | 1215.75             |
+| 19    | mitgliederversammlung | 879.55              |
+| 20    | rird_                 | 785.35              |
+| 21    | obama                 | 721.41              |
 | 22    | fvkdylan              | 599.23              |
 | 23    | verypeppy             | 568.49              |
 | 24    | drpasu                | 461.84              |
@@ -41,4 +41,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2025-10-12 08:39:42 UTC_
+_Last updated at 2025-10-19 08:49:49 UTC_
