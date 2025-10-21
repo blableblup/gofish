@@ -8,14 +8,14 @@
 | 4     | lobuhtomy                 | 111         |
 | 5     | huuuuuuuuuuuuuuuuuuuuuurz | 97          |
 | 6     | theevirus                 | 87          |
-| 7 ⬆   | ranctious                 | 85 (+37)    |
-| 8 ⬇   | nndiana                   | 80          |
-| 9 ⬇   | gorillapark               | 67          |
-| 10 ⬇  | teddbearcs                | 66          |
-| 11 ⬇  | mazzo_tv                  | 59          |
-| 12 ⬇  | sandwichsundays           | 57          |
-| 13 ⬇  | wowitsdub                 | 54          |
-| 14 ⬇  | caprisen_                 | 51          |
+| 7     | ranctious                 | 86 (+1)     |
+| 8     | nndiana                   | 80          |
+| 9     | gorillapark               | 67          |
+| 10    | teddbearcs                | 66          |
+| 11    | mazzo_tv                  | 59          |
+| 12    | sandwichsundays           | 57          |
+| 13    | wowitsdub                 | 54          |
+| 14    | caprisen_                 | 51          |
 | 15    | veny2lbs                  | 47          |
 | 16    | zwockel01                 | 40          |
 | 17    | flovrek                   | 24          |
@@ -28,4 +28,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-10-15 12:34:55 UTC_
+_Last updated at 2025-10-21 11:38:04 UTC_

@@ -13,11 +13,11 @@
 | 9     | sicklymaidrobot       | 123         |
 | 9     | sussy_amonge          | 123         |
 | 11    | qu4ttromila           | 122         |
-| 12    | chubby_________       | 112         |
-| 12    | lazuli672*            | 112         |
-| 14    | ryebreadward          | 110         |
-| 15 ⬆  | derintu               | 109 (+8)    |
-| 16 ⬇  | bussinongnocap        | 108         |
+| 12 ⬆  | derintu               | 120 (+11)   |
+| 13 ⬇  | chubby_________       | 112         |
+| 13 ⬇  | lazuli672*            | 112         |
+| 15 ⬇  | ryebreadward          | 110         |
+| 16    | bussinongnocap        | 108         |
 | 17    | dazedforevermore      | 93          |
 | 18    | comiqq                | 92          |
 | 19    | crazytown_bananapants | 89          |
@@ -61,4 +61,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2025-10-15 12:34:55 UTC_
+_Last updated at 2025-10-21 11:38:04 UTC_
