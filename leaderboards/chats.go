@@ -341,7 +341,7 @@ func writeChatStats(filePath string, chatStats map[string]BoardData, oldChatStat
 		uniquefdiff := uniquefish - oldUniquef
 		if uniquefdiff > 0 {
 			uniquef = fmt.Sprintf("%d (+%d)", uniquefish, uniquefdiff)
-		} else if uniquediff < 0 {
+		} else if uniquefdiff < 0 {
 			uniquef = fmt.Sprintf("%d (%d)", uniquefish, uniquefdiff)
 		} else {
 			uniquef = fmt.Sprintf("%d", uniquefish)
