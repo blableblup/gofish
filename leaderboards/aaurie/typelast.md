@@ -2,15 +2,15 @@
 
 | Rank | Fish             | Weight in lbs | Player            | Date in UTC         |
 |:-----|:-----------------|:--------------|:------------------|:--------------------|
-| 68   | 🪸 coral         | 15.67         | blackberryking00  | 2025-10-15 21:56:04 |
-| 67   | 🎏 lure          | 3.41          | jeffbethyname69   | 2025-10-14 06:19:49 |
-| 66   | 🐡 blowfish      | 13.53         | amatusz           | 2025-10-14 05:24:19 |
-| 65   | 🐍 snake         | 15.24         | onetriforce       | 2025-10-14 03:42:22 |
-| 64   | 💀 skull         | 0.02          | wildturky82       | 2025-10-14 03:42:07 |
-| 63   | 🐳 whale         | 241.98        | jeffbethyname69   | 2025-10-14 03:26:14 |
-| 62   | 🪝 hook          | 0.49          | amatusz           | 2025-10-14 02:24:15 |
-| 61   | 🐠 tropicalfish  | 16.71         | jeffbethyname69   | 2025-10-13 02:59:17 |
-| 60   | 🐟 fish          | 19.37         | norstargik        | 2025-10-13 02:21:30 |
+| 68   | 🐟 fish          | 14.11         | amatusz           | 2025-10-20 23:22:03 |
+| 67   | 🪸 coral         | 9.19          | jeffbethyname69   | 2025-10-20 23:20:54 |
+| 66   | 🎏 lure          | 3.41          | jeffbethyname69   | 2025-10-14 06:19:49 |
+| 65   | 🐡 blowfish      | 13.53         | amatusz           | 2025-10-14 05:24:19 |
+| 64   | 🐍 snake         | 15.24         | onetriforce       | 2025-10-14 03:42:22 |
+| 63   | 💀 skull         | 0.02          | wildturky82       | 2025-10-14 03:42:07 |
+| 62   | 🐳 whale         | 241.98        | jeffbethyname69   | 2025-10-14 03:26:14 |
+| 61   | 🪝 hook          | 0.49          | amatusz           | 2025-10-14 02:24:15 |
+| 60   | 🐠 tropicalfish  | 16.71         | jeffbethyname69   | 2025-10-13 02:59:17 |
 | 59   | 🕷️ spider         | 10.37         | jeffbethyname69   | 2025-10-13 01:47:16 |
 | 58   | 🍬 candy         | 0.00          | boogie310_        | 2025-10-13 01:32:19 |
 | 57   | 🌰 acorn         | 0.49          | aaurie            | 2025-10-11 05:10:38 |
@@ -71,4 +71,4 @@
 | 2    | 🧸 teddybear     | 1.95          | jeffbethyname69   | 2025-03-21 21:47:38 |
 | 1    | 🧤 gloves        | 0.63          | herbemoji         | 2025-03-11 00:55:22 |
 
-_Last updated at 2025-10-19 08:49:55 UTC_
+_Last updated at 2025-10-26 09:34:15 UTC_

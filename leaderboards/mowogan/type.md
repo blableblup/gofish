@@ -33,7 +33,7 @@
 | 29    | 🕷️ spider         | 9.80          | konsminator | 2025-08-30 10:25:36 |
 | 30    | 💀 skull         | 9.73          | konsminator | 2025-08-27 17:00:44 |
 | 31    | 🐌 snail         | 9.53          | mowogan     | 2025-07-07 03:33:51 |
-| 32    | 🦎 lizard        | 7.54 (+0.24)  | mowogan     | 2025-10-07 22:49:46 |
+| 32    | 🦎 lizard        | 7.54          | mowogan     | 2025-10-07 22:49:46 |
 | 33    | 🧋 bubbleteacup  | 6.08          | konsminator | 2025-08-29 12:17:31 |
 | 34    | ☘️ shamrock       | 5.93          | mowogan     | 2025-10-01 00:55:54 |
 | 35    | 🩲 briefs        | 4.92          | konsminator | 2025-09-04 06:14:32 |
@@ -45,14 +45,14 @@
 | 41    | 🪝 hook          | 2.68          | konsminator | 2025-08-21 19:29:17 |
 | 42    | 🪹 emptynest     | 2.51          | konsminator | 2025-06-25 12:07:06 |
 | 43    | 🕶️ darksunglasses | 2.07          | mowogan     | 2025-07-21 12:36:33 |
-| 44    | 🧦 socks         | 1.96          | n1nzin_     | 2025-06-23 18:21:06 |
-| 45    | 🩴 thongsandal   | 1.95          | konsminator | 2025-07-03 15:33:07 |
-| 46    | 🪻 lupine        | 1.89          | mowogan     | 2025-08-11 09:00:17 |
-| 47    | 🪀 bobber        | 1.40          | konsminator | 2025-09-20 15:19:46 |
-| 48    | 🐦‍⬛ blackbird     | 1.28          | konsminator | 2025-08-08 15:44:29 |
-| 49    | 🌿 seaweed       | 0.96          | mowogan     | 2025-07-29 02:25:16 |
-| 50    | 🪺 nestwitheggs  | 0.94          | konsminator | 2025-06-24 16:34:13 |
-| 51    | 🌹 rose          | 0.90          | mowogan     | 2025-10-03 16:18:40 |
+| 44 ⬆  | 🌹 rose          | 1.99 (+1.09)  | lolspers    | 2025-10-23 12:15:28 |
+| 45 ⬇  | 🧦 socks         | 1.96          | n1nzin_     | 2025-06-23 18:21:06 |
+| 46 ⬇  | 🩴 thongsandal   | 1.95          | konsminator | 2025-07-03 15:33:07 |
+| 47 ⬇  | 🪻 lupine        | 1.89          | mowogan     | 2025-08-11 09:00:17 |
+| 48 ⬇  | 🪀 bobber        | 1.40          | konsminator | 2025-09-20 15:19:46 |
+| 49 ⬇  | 🐦‍⬛ blackbird     | 1.28          | konsminator | 2025-08-08 15:44:29 |
+| 50 ⬇  | 🌿 seaweed       | 0.96          | mowogan     | 2025-07-29 02:25:16 |
+| 51 ⬇  | 🪺 nestwitheggs  | 0.94          | konsminator | 2025-06-24 16:34:13 |
 | 52    | 🥫 cannedfood    | 0.88          | konsminator | 2025-07-16 18:47:45 |
 | 52    | 🍁 mapleleaf     | 0.88          | mowogan     | 2025-10-02 05:21:46 |
 | 54    | 🌾 grass         | 0.83          | mowogan     | 2025-08-10 07:37:40 |
@@ -66,4 +66,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-10-12 08:39:55 UTC_
+_Last updated at 2025-10-26 09:33:03 UTC_

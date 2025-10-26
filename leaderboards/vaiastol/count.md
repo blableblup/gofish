@@ -2,29 +2,29 @@
 
 | Rank  | Player                | Fish caught |
 |:------|:----------------------|:------------|
-| 1 🥇  | vaiastol              | 2878 (+57)  |
-| 2 🥈  | hahppyy               | 1444 (+16)  |
+| 1 🥇  | vaiastol              | 2938 (+60)  |
+| 2 🥈  | hahppyy               | 1454 (+10)  |
 | 3 🥉  | eelacy                | 683         |
 | 4     | divra__               | 642         |
-| 5     | garout                | 613 (+48)   |
+| 5     | garout                | 627 (+14)   |
 | 6     | leanmeister           | 507         |
 | 7     | nicestnarwhal         | 484         |
-| 8     | leastsussyimposter    | 458 (+2)    |
-| 9     | dazedforevermore      | 252 (+1)    |
+| 8     | leastsussyimposter    | 461 (+3)    |
+| 9     | dazedforevermore      | 252         |
 | 10    | pengeg                | 237         |
 | 11    | redreignss            | 207         |
-| 12    | yoimlee               | 146 (+1)    |
-| 13    | milesdotcom           | 137         |
-| 14 ⬆  | gstaman911            | 126 (+16)   |
-| 15 ⬇  | beebo8i               | 120         |
+| 12    | yoimlee               | 148 (+2)    |
+| 13 ⬆  | gstaman911            | 142 (+16)   |
+| 14 ⬇  | milesdotcom           | 137         |
+| 15    | beebo8i               | 120         |
 | 16    | julialuxel            | 109         |
-| 17    | tiaguitos97           | 99 (+1)     |
+| 17    | tiaguitos97           | 99          |
 | 18    | bubinga               | 55          |
-| 19    | obama                 | 54          |
+| 18 ⬆  | obama                 | 55 (+1)     |
 | 20    | rird_                 | 45          |
 | 21    | fvkdylan              | 42          |
 | 22    | larvaew               | 37          |
-| 23    | yespere               | 33          |
+| 23    | esmeohmy              | 34 (+1)     |
 | 24    | houseofleaves*        | 28          |
 | 25    | cyaniderx             | 23          |
 | 26    | devroyalty            | 17          |
@@ -40,4 +40,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-10-19 08:51:34 UTC_
+_Last updated at 2025-10-26 09:30:44 UTC_

@@ -13,8 +13,8 @@
 | 8     | e1d2f3              | 29        |
 | 10    | wombatbrownies      | 21        |
 | 11    | crunch_sack         | 20        |
-| 12    | jakthejanitor       | 18 (+2)   |
-| 13 ⬇  | yaykaiza            | 16        |
+| 12    | jakthejanitor       | 19 (+1)   |
+| 13    | yaykaiza            | 16        |
 | 14    | fadingmemoriez      | 14        |
 | 15    | jellyuh             | 13        |
 | 15    | pxxchy_dreams       | 13        |
@@ -28,4 +28,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2025-10-19 08:49:48 UTC_
+_Last updated at 2025-10-26 09:34:13 UTC_

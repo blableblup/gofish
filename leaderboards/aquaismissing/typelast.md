@@ -2,12 +2,12 @@
 
 | Rank | Fish            | Weight in lbs | Player           | Date in UTC         |
 |:-----|:----------------|:--------------|:-----------------|:--------------------|
-| 55   | 🐸 frog         | 0.06          | glorpiusbot      | 2025-10-14 22:49:58 |
-| 54   | 🐊 crocodile    | 42.34         | rustezzz         | 2025-10-14 22:49:31 |
-| 53   | 🦐 shrimp       | 23.56         | aquaismissing    | 2025-10-14 00:44:42 |
-| 52   | 🎏 lure         | 0.00          | glorpiusbot      | 2025-10-14 00:42:04 |
-| 51   | 🪝 hook         | 0.00          | glorpiusbot      | 2025-10-12 22:17:22 |
-| 50   | 🐟 fish         | 13.83         | rustezzz         | 2025-10-12 22:14:43 |
+| 55   | 🐟 fish         | 1.11          | glorpiusbot      | 2025-10-19 22:00:24 |
+| 54   | 🐸 frog         | 0.06          | glorpiusbot      | 2025-10-14 22:49:58 |
+| 53   | 🐊 crocodile    | 42.34         | rustezzz         | 2025-10-14 22:49:31 |
+| 52   | 🦐 shrimp       | 23.56         | aquaismissing    | 2025-10-14 00:44:42 |
+| 51   | 🎏 lure         | 0.00          | glorpiusbot      | 2025-10-14 00:42:04 |
+| 50   | 🪝 hook         | 0.00          | glorpiusbot      | 2025-10-12 22:17:22 |
 | 49   | 🌰 acorn        | 2.33          | glorpiusbot      | 2025-10-12 14:27:08 |
 | 48   | 🦑 squid        | 54.60         | bubinga          | 2025-10-05 14:50:21 |
 | 47   | 🦎 lizard       | 7.19          | glorpiusbot      | 2025-10-02 21:54:20 |
@@ -58,4 +58,4 @@
 | 2    | 🧊 icecube      | 3.69          | yyaaaaaaaas      | 2024-12-29 11:00:14 |
 | 1    | 🥪 sandwich     | 0.71          | aquaismissing    | 2024-12-02 05:35:34 |
 
-_Last updated at 2025-10-19 08:49:53 UTC_
+_Last updated at 2025-10-26 09:34:15 UTC_

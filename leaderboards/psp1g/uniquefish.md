@@ -2,7 +2,7 @@
 
 | Rank  | Player                    | Fish seen |
 |:------|:--------------------------|:----------|
-| 1 🥇  | nndiana*                  | 89 (+1)   |
+| 1 🥇  | nndiana*                  | 89        |
 | 2 🥈  | huuuuuuuuuuuuuuuuuuuuuurz | 79        |
 | 3 🥉  | bubinga                   | 77        |
 | 4     | mazzo_tv                  | 74        |
@@ -13,9 +13,9 @@
 | 9     | gorillapark               | 67        |
 | 9     | lobuhtomy                 | 67        |
 | 9     | pengeg                    | 67        |
-| 12    | jayayseaohbee             | 66 (+1)   |
-| 13 ⬇  | bluberry                  | 65        |
-| 13 ⬇  | ratot                     | 65        |
+| 12    | jayayseaohbee             | 66        |
+| 13    | bluberry                  | 65        |
+| 13    | ratot                     | 65        |
 | 15    | divra__                   | 63        |
 | 16    | angus_lpc                 | 62        |
 | 16    | jemcs_                    | 62        |
@@ -34,17 +34,19 @@
 | 30    | euxoa                     | 53        |
 | 31    | faslker                   | 52        |
 | 31    | flovrek                   | 52        |
-| 31 ⬆  | llikotesnecil             | 52 (+1)   |
+| 31    | llikotesnecil             | 52        |
 | 31    | noconcept_                | 52        |
 | 31    | popfizzgg                 | 52        |
 | 31    | velantix*                 | 52        |
-| 37 ⬇  | qxxick_                   | 51        |
-| 37 ⬇  | wisdom_frog               | 51        |
+| 37    | qxxick_                   | 51        |
+| 37    | wisdom_frog               | 51        |
 | 39    | bartohehe                 | 50        |
+| 39 🆕 | joshuabzz                 | 50        |
+| 39 🆕 | r1cz4rd                   | 50        |
 | 39    | seryxx                    | 50        |
 
 _This does not include fish seen through 🎁 gifts or through releasing to another player during the winter events!_
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2025-10-19 08:49:47 UTC_
+_Last updated at 2025-10-26 09:34:12 UTC_

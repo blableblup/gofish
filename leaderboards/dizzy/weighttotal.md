@@ -2,7 +2,7 @@
 
 | Rank  | Player         | Total Weight in lbs |
 |:------|:---------------|:--------------------|
-| 1 🥇  | buhl00n        | 36320.57 (+8.85)    |
+| 1 🥇  | buhl00n        | 36334.22 (+13.65)   |
 | 2 🥈  | keplepn3       | 19064.53            |
 | 3 🥉  | ben_vincent    | 15763.67            |
 | 4     | gimmeschmoneys | 15143.39            |
@@ -11,16 +11,16 @@
 | 7     | spanmer        | 7651.11             |
 | 8     | konsminator    | 7261.34             |
 | 9     | ofaisalz       | 5722.47             |
-| 10    | heavener6      | 4672.50 (+100.92)   |
-| 11    | hamoodhabibee  | 4136.68             |
+| 10    | heavener6      | 4757.20 (+84.70)    |
+| 11    | hamoodhabibee  | 4201.44 (+64.76)    |
 | 12    | notnownico     | 4087.64             |
 | 13    | mousee93       | 3895.10             |
 | 14    | rabituwu       | 3852.81             |
 | 15    | simplydrack    | 3834.86             |
 | 16    | ssenario       | 3239.08             |
 | 17    | tairaaaaa      | 3040.98             |
-| 18    | exo9*          | 2568.26 (+10.37)    |
-| 19    | kyonuwu        | 2469.51             |
+| 18    | exo9*          | 2568.26             |
+| 19    | kyonuwu        | 2480.03 (+10.52)    |
 | 20    | wisteraeia     | 2460.76             |
 | 21    | aceleju        | 2420.95             |
 | 22    | lilzomme       | 2345.96             |
@@ -58,4 +58,4 @@
 
 _Only showing fishers with a total weight of >= 500 lbs_
 
-_Last updated at 2025-10-19 08:49:48 UTC_
+_Last updated at 2025-10-26 09:34:00 UTC_

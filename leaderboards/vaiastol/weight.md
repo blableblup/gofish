@@ -30,13 +30,13 @@
 | 26    | sandwichsundays       | 🐊 crocodile | 122.88        | 2024-07-31 18:53:34 |
 | 27    | larvaew               | 🐋 whale2    | 114.20        | 2024-12-26 20:44:24 |
 | 28    | jr_mime               | 🐙 octopus   | 105.86        | 2024-08-24 13:55:32 |
-| 29    | gstaman911            | 🐢 turtle    | 96.31 (+3.38) | 2025-10-10 11:07:10 |
+| 29    | gstaman911            | 🐢 turtle    | 96.31         | 2025-10-10 11:07:10 |
 | 30    | fvkdylan              | 🐬 dolphin   | 90.12         | 2025-02-05 08:48:24 |
 | 31    | drpasu                | 🐙 octopus   | 89.12         | 2025-04-18 23:30:56 |
 | 32    | ermnest               | 🦑 squid     | 77.83         | 2024-10-02 09:12:01 |
 | 33    | choplueys             | 🐬 dolphin   | 77.20         | 2024-08-30 17:40:32 |
 | 34    | devroyalty            | 🐊 crocodile | 75.86         | 2025-03-09 17:41:10 |
-| 35    | yespere               | 🐢 turtle    | 72.61         | 2025-04-08 17:36:03 |
+| 35    | esmeohmy              | 🐢 turtle    | 72.61         | 2025-04-08 17:36:03 |
 | 36    | cyaniderx             | 🐢 turtle    | 63.80         | 2025-02-10 21:06:42 |
 | 37    | emotion_01            | 🐋 whale2    | 63.17         | 2024-08-09 15:15:43 |
 | 38    | sulypert              | 🐙 octopus   | 61.78         | 2024-09-29 18:05:30 |
@@ -46,4 +46,4 @@
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2025-10-12 08:39:45 UTC_
+_Last updated at 2025-10-26 09:34:19 UTC_
