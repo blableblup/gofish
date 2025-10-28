@@ -1,17 +1,51 @@
 package scripts
 
 import (
+	"bufio"
 	"context"
 	"gofish/logs"
-	"gofish/playerdata"
+	"os"
+	"path/filepath"
+	"runtime"
+	"strings"
 	"time"
 
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 
+// verified players should have the twitchids instead for renames
+// but this was only run once anyways
+func ReadVerifiedPlayers() []string {
+	verifiedPlayers := make([]string, 0)
+
+	_, filename, _, _ := runtime.Caller(0)
+	dir := filepath.Dir(filename)
+
+	verifiedPath := filepath.Join(dir, "verified.txt")
+
+	file, err := os.Open(verifiedPath)
+	if err != nil {
+		logs.Logs().Error().Err(err).Msg("Error opening file")
+		return verifiedPlayers
+	}
+	defer file.Close()
+
+	scanner := bufio.NewScanner(file)
+	for scanner.Scan() {
+		verifiedPlayers = append(verifiedPlayers, strings.TrimSpace(scanner.Text()))
+	}
+
+	if err := scanner.Err(); err != nil {
+		logs.Logs().Error().Err(err).Msg("Error reading file")
+		return verifiedPlayers
+	}
+
+	return verifiedPlayers
+}
+
 func VerifiedPlayers(pool *pgxpool.Pool) {
 
-	verifiedPlayers := playerdata.ReadVerifiedPlayers()
+	verifiedPlayers := ReadVerifiedPlayers()
 
 	tx, err := pool.Begin(context.Background())
 	if err != nil {
