@@ -7,8 +7,8 @@
 | 3 🥉  | iflya320                  | 130         |
 | 4     | lobuhtomy                 | 111         |
 | 5     | huuuuuuuuuuuuuuuuuuuuuurz | 97          |
+| 6 ⬆   | ranctious                 | 87 (+1)     |
 | 6     | theevirus                 | 87          |
-| 7     | ranctious                 | 86 (+1)     |
 | 8     | nndiana                   | 80          |
 | 9     | gorillapark               | 67          |
 | 10    | teddbearcs                | 66          |
@@ -28,4 +28,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-10-21 11:38:04 UTC_
+_Last updated at 2025-10-28 18:33:10 UTC_

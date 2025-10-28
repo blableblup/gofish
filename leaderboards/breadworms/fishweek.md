@@ -5,18 +5,18 @@
 | 1 🥇  | derinturitierutz      | 183         |
 | 2 🥈  | fishingalt            | 176         |
 | 3 🥉  | destin357             | 155         |
+| 4 ⬆   | derintu               | 150 (+30)   |
 | 4     | osnyatsky             | 150         |
-| 5     | puzzlow               | 141         |
-| 6     | leanmeister           | 139         |
-| 6     | osnyisdead            | 139         |
-| 8     | kishma9               | 137         |
-| 9     | sicklymaidrobot       | 123         |
-| 9     | sussy_amonge          | 123         |
-| 11    | qu4ttromila           | 122         |
-| 12 ⬆  | derintu               | 120 (+11)   |
-| 13 ⬇  | chubby_________       | 112         |
-| 13 ⬇  | lazuli672*            | 112         |
-| 15 ⬇  | ryebreadward          | 110         |
+| 6 ⬇   | puzzlow               | 141         |
+| 7 ⬇   | leanmeister           | 139         |
+| 7 ⬇   | osnyisdead            | 139         |
+| 9 ⬇   | kishma9               | 137         |
+| 10 ⬇  | sicklymaidrobot       | 123         |
+| 10 ⬇  | sussy_amonge          | 123         |
+| 12 ⬇  | qu4ttromila           | 122         |
+| 13    | chubby_________       | 112         |
+| 13    | lazuli672*            | 112         |
+| 15    | ryebreadward          | 110         |
 | 16    | bussinongnocap        | 108         |
 | 17    | dazedforevermore      | 93          |
 | 18    | comiqq                | 92          |
@@ -45,12 +45,12 @@
 | 41    | idini                 | 36          |
 | 42    | chestnutbank          | 34          |
 | 42    | julialuxel            | 34          |
-| 44    | islcfc*               | 33          |
-| 45    | jr_mime               | 32          |
-| 46    | fallen_angels_1995    | 28          |
-| 47    | breadworms            | 27          |
-| 47    | dougiefresh_83        | 27          |
-| 47    | ytp_dl                | 27          |
+| 42 ⬆  | ytp_dl                | 34 (+7)     |
+| 45 ⬇  | islcfc*               | 33          |
+| 46 ⬇  | jr_mime               | 32          |
+| 47 ⬇  | fallen_angels_1995    | 28          |
+| 48 ⬇  | breadworms            | 27          |
+| 48 ⬇  | dougiefresh_83        | 27          |
 | 50    | globcob               | 25          |
 | 50    | whitecardrifting      | 25          |
 | 50    | wisco9ers             | 25          |
@@ -61,4 +61,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2025-10-21 11:38:04 UTC_
+_Last updated at 2025-10-28 18:33:10 UTC_
