@@ -114,6 +114,23 @@ func main() {
 			return
 		}
 
+	case "renamedchannel":
+		logs.Logs().Info().
+			Str("Rename pairs", *renamePairs).
+			Str("Database", *database).
+			Str("Program", *program).
+			Msg("Start")
+		namePairs, err := scripts.ProcessRenamePairs(*renamePairs)
+		if err != nil {
+			logs.Logs().Error().Err(err).Msg("Error processing channel rename pairs")
+			return
+		}
+		err = scripts.UpdateChannelName(pool, namePairs)
+		if err != nil {
+			logs.Logs().Error().Err(err).Msg("Error updating channel name")
+			return
+		}
+
 	case "verified":
 		logs.Logs().Info().
 			Str("Database", *database).
