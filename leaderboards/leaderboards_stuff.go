@@ -448,3 +448,23 @@ func changeRankThingy(rank int) string {
 		return "th"
 	}
 }
+
+// these catches i dont see the weight in the logs
+// so they get ignored for some sql selections
+func ReturnCatchtypeWithNoWeight() []string {
+
+	CatchtypeWithNoWeight := []string{"release", "releasepumpkin", "squirrel", "sonnythrow"}
+
+	return CatchtypeWithNoWeight
+}
+
+func ConstructIgnoredCatchtypeSQL() string {
+
+	var ignoredCatchtypes string
+
+	for _, catchtype := range ReturnCatchtypeWithNoWeight() {
+		ignoredCatchtypes = ignoredCatchtypes + fmt.Sprintf("AND catchtype != '%s' ", catchtype)
+	}
+
+	return ignoredCatchtypes
+}

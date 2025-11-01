@@ -18,6 +18,8 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 	HowManyPlayersHaveRecords := make(map[string]int)
 	PlayersWithRecordsPlayerIDs := make(map[string][]int)
 
+	ignoredCatchtypes := ConstructIgnoredCatchtypeSQL()
+
 	// The count per year per chat
 	queryCountYearChat := `
 		select count(*), 
@@ -424,7 +426,7 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 	// For biggest and smallest ignore the fish which i dont see the weight of in the catch message (squirrels and release bonus fish)
 	// Also for biggest and smallest im ordering by date desc, so that as the rows are being read, if someone caught that weight multiple times
 	// it should always end up printing the oldest one with that weight on the profile
-	queryBiggestFishChat := `
+	queryBiggestFishChat := fmt.Sprintf(`
 		SELECT f.weight, f.fishname, f.chat, f.date, f.catchtype, f.playerid
 		FROM fish f
 		JOIN (
@@ -433,12 +435,12 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 		WHERE playerid = any($1)
 		AND date < $2
 		AND date > $3
-		AND catchtype != 'release' AND catchtype != 'squirrel' AND catchtype != 'sonnythrow'
+		%s
 		GROUP BY playerid, chat
 		) AS sub
-		ON f.playerid = sub.playerid AND f.weight = sub.max_weight AND f.chat = sub.chat AND f.catchtype != 'release' AND f.catchtype != 'squirrel' AND catchtype != 'sonnythrow'
+		ON f.playerid = sub.playerid AND f.weight = sub.max_weight AND f.chat = sub.chat %s
 		WHERE f.playerid = any($1)
-		ORDER BY date desc`
+		ORDER BY date desc`, ignoredCatchtypes, ignoredCatchtypes)
 
 	fishes, err = ReturnFishSliceQueryValidPlayers(params, queryBiggestFishChat, validPlayers)
 	if err != nil {
@@ -535,7 +537,7 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 	}
 
 	// Get the biggest, smallest, last and first fish per fishtype
-	queryBiggestFishPerType := ` 
+	queryBiggestFishPerType := fmt.Sprintf(` 
 		SELECT f.weight, f.fishname, f.chat, f.date, f.catchtype, f.playerid
 		FROM fish f
 		JOIN (
@@ -544,12 +546,12 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 		WHERE playerid = any($1)
 		AND date < $2 
 		AND date > $3
-		AND catchtype != 'release' AND catchtype != 'squirrel' AND catchtype != 'sonnythrow'
+		%s
 		GROUP BY playerid, fishname
 		) AS sub
-		ON f.playerid = sub.playerid AND f.weight = sub.max_weight AND f.fishname = sub.fishname AND f.catchtype != 'release' AND f.catchtype != 'squirrel' AND catchtype != 'sonnythrow'
+		ON f.playerid = sub.playerid AND f.weight = sub.max_weight AND f.fishname = sub.fishname %s
 		WHERE f.playerid = any($1)
-		ORDER BY date desc`
+		ORDER BY date desc`, ignoredCatchtypes, ignoredCatchtypes)
 
 	fishes, err = ReturnFishSliceQueryValidPlayers(params, queryBiggestFishPerType, validPlayers)
 	if err != nil {
@@ -567,7 +569,7 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 		Profiles[fish.PlayerID].FishData[fmt.Sprintf("%s %s", fish.FishName, EmojisForFish[fish.FishName])].Biggest = fish
 	}
 
-	querySmallestFishPerType := `
+	querySmallestFishPerType := fmt.Sprintf(`
 		SELECT f.weight, f.fishname, f.chat, f.date, f.catchtype, f.playerid
 		FROM fish f
 		JOIN (
@@ -576,12 +578,12 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 		WHERE playerid = any($1)
 		AND date < $2 
 		AND date > $3
-		AND catchtype != 'release' AND catchtype != 'squirrel' AND catchtype != 'sonnythrow'
+		%s
 		GROUP BY playerid, fishname
 		) AS sub
-		ON f.playerid = sub.playerid AND f.weight = sub.min_weight AND f.fishname = sub.fishname AND f.catchtype != 'release' AND f.catchtype != 'squirrel' AND catchtype != 'sonnythrow'
+		ON f.playerid = sub.playerid AND f.weight = sub.min_weight AND f.fishname = sub.fishname %s
 		WHERE f.playerid = any($1)
-		ORDER BY date desc`
+		ORDER BY date desc`, ignoredCatchtypes, ignoredCatchtypes)
 
 	fishes, err = ReturnFishSliceQueryValidPlayers(params, querySmallestFishPerType, validPlayers)
 	if err != nil {

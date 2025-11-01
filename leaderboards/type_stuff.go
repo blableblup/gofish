@@ -91,8 +91,11 @@ func typeBoardSql(params LeaderboardParams) string {
 
 	// for type and typesmall, ingore the catchtypes i dont see the weight of in the catch
 	case "type":
+
+		ignoredCatchtypes := ConstructIgnoredCatchtypeSQL()
+
 		if chatName != "global" {
-			query = `
+			query = fmt.Sprintf(`
 			SELECT f.weight, f.fishname, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid,
 			RANK() OVER (ORDER BY f.weight DESC)
 			FROM fish f
@@ -102,9 +105,7 @@ func typeBoardSql(params LeaderboardParams) string {
 				WHERE chat = $1
 				AND date < $2
 				AND date > $3
-				AND catchtype != 'release'
-				AND catchtype != 'squirrel'
-				AND catchtype != 'sonnythrow'
+				%s
 				GROUP BY fishname
 			) AS sub
 			ON f.fishname = sub.fishname AND f.weight = sub.max_weight
@@ -112,10 +113,10 @@ func typeBoardSql(params LeaderboardParams) string {
 			AND f.date = (
 				SELECT MIN(date)
 				FROM fish
-				WHERE fishname = sub.fishname AND weight = sub.max_weight AND chat = $1 AND catchtype != 'release' AND catchtype != 'squirrel' AND catchtype != 'sonnythrow'
-			)`
+				WHERE fishname = sub.fishname AND weight = sub.max_weight AND chat = $1 %s
+			)`, ignoredCatchtypes, ignoredCatchtypes)
 		} else {
-			query = `
+			query = fmt.Sprintf(`
 			SELECT f.weight, f.fishname, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid,
 			RANK() OVER (ORDER BY f.weight DESC)
 			FROM fish f
@@ -124,22 +125,23 @@ func typeBoardSql(params LeaderboardParams) string {
 				FROM fish 
 				WHERE date < $1
 				AND date > $2
-				AND catchtype != 'release'
-				AND catchtype != 'squirrel'
-				AND catchtype != 'sonnythrow'
+				%s
 				GROUP BY fishname
 			) AS sub
 			ON f.fishname = sub.fishname AND f.weight = sub.max_weight
 			AND f.date = (
 				SELECT MIN(date)
 				FROM fish
-				WHERE fishname = sub.fishname AND weight = sub.max_weight AND catchtype != 'release' AND catchtype != 'squirrel' AND catchtype != 'sonnythrow'
-			)`
+				WHERE fishname = sub.fishname AND weight = sub.max_weight %s
+			)`, ignoredCatchtypes, ignoredCatchtypes)
 		}
 
 	case "typesmall":
+
+		ignoredCatchtypes := ConstructIgnoredCatchtypeSQL()
+
 		if chatName != "global" {
-			query = `
+			query = fmt.Sprintf(`
 			SELECT f.weight, f.fishname, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid,
 			RANK() OVER (ORDER BY f.weight DESC)
 			FROM fish f
@@ -149,9 +151,7 @@ func typeBoardSql(params LeaderboardParams) string {
 				WHERE chat = $1
 				AND date < $2
 				AND date > $3
-				AND catchtype != 'release'
-				AND catchtype != 'squirrel'
-				AND catchtype != 'sonnythrow'
+				%s
 				GROUP BY fishname
 			) AS sub
 			ON f.fishname = sub.fishname AND f.weight = sub.min_weight
@@ -159,10 +159,10 @@ func typeBoardSql(params LeaderboardParams) string {
 			AND f.date = (
 				SELECT MIN(date)
 				FROM fish
-				WHERE fishname = sub.fishname AND weight = sub.min_weight AND chat = $1 AND catchtype != 'release' AND catchtype != 'squirrel' AND catchtype != 'sonnythrow'
-			)`
+				WHERE fishname = sub.fishname AND weight = sub.min_weight AND chat = $1 %s
+			)`, ignoredCatchtypes, ignoredCatchtypes)
 		} else {
-			query = `
+			query = fmt.Sprintf(`
 			SELECT f.weight, f.fishname, f.bot, f.chat, f.date, f.catchtype, f.fishid, f.chatid, f.playerid,
 			RANK() OVER (ORDER BY f.weight DESC)
 			FROM fish f
@@ -171,17 +171,15 @@ func typeBoardSql(params LeaderboardParams) string {
 				FROM fish 
 				WHERE date < $1
 				AND date > $2
-				AND catchtype != 'release'
-				AND catchtype != 'squirrel'
-				AND catchtype != 'sonnythrow'
+				%s
 				GROUP BY fishname
 			) AS sub
 			ON f.fishname = sub.fishname AND f.weight = sub.min_weight
 			AND f.date = (
 				SELECT MIN(date)
 				FROM fish
-				WHERE fishname = sub.fishname AND weight = sub.min_weight AND catchtype != 'release' AND catchtype != 'squirrel' AND catchtype != 'sonnythrow'
-			)`
+				WHERE fishname = sub.fishname AND weight = sub.min_weight %s
+			)`, ignoredCatchtypes, ignoredCatchtypes)
 		}
 
 	// if first or last catch of a type was a mouth bonus catch

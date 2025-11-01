@@ -78,6 +78,27 @@ func getAverageWeights(params LeaderboardParams) (map[string]BoardData, error) {
 	var rows pgx.Rows
 	var err error
 
+	ignoredCatchtypes := ConstructIgnoredCatchtypeSQL()
+
+	query := fmt.Sprintf(`
+				SELECT fishname, ROUND(AVG(weight::numeric), 2)
+				FROM fish
+				WHERE chat = $1
+				AND date < $2
+				AND date > $3
+				%s
+				GROUP BY fishname
+				`, ignoredCatchtypes)
+
+	queryGlobal := fmt.Sprintf(`
+			SELECT fishname, ROUND(AVG(weight::numeric), 2)
+			FROM fish
+			WHERE date < $1
+			AND date > $2
+			%s
+			GROUP BY fishname
+			`, ignoredCatchtypes)
+
 	for chatName, chat := range config.Chat {
 		if !chat.CheckFData && chatName != "global" {
 			if chatName != "default" {
@@ -91,17 +112,7 @@ func getAverageWeights(params LeaderboardParams) (map[string]BoardData, error) {
 
 		// Query the database to get the average weight of each fish type per chat and globally
 		if chatName != "global" {
-			rows, err = pool.Query(context.Background(), `
-				SELECT fishname, ROUND(AVG(weight::numeric), 2)
-				FROM fish
-				WHERE chat = $1
-				AND date < $2
-				AND date > $3
-				AND catchtype != 'release'
-				AND catchtype != 'squirrel'
-				AND catchtype != 'sonnythrow'
-				GROUP BY fishname
-				`, chatName, date, date2)
+			rows, err = pool.Query(context.Background(), query, chatName, date, date2)
 			if err != nil {
 				logs.Logs().Error().Err(err).
 					Str("Chat", chatName).
@@ -111,16 +122,7 @@ func getAverageWeights(params LeaderboardParams) (map[string]BoardData, error) {
 			}
 			defer rows.Close()
 		} else {
-			rows, err = pool.Query(context.Background(), `
-			SELECT fishname, ROUND(AVG(weight::numeric), 2)
-			FROM fish
-			WHERE date < $1
-			AND date > $2
-			AND catchtype != 'release'
-			AND catchtype != 'squirrel'
-			AND catchtype != 'sonnythrow'
-			GROUP BY fishname
-			`, date, date2)
+			rows, err = pool.Query(context.Background(), queryGlobal, date, date2)
 			if err != nil {
 				logs.Logs().Error().Err(err).
 					Str("Chat", chatName).
