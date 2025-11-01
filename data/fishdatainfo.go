@@ -42,7 +42,9 @@ var TournamentPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:
 var NormalPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): [@👥]\s?(\w+), You caught a [✨🫧] \s*(\S+)\s* [✨🫧]! It weighs ([\d.]+) lbs[.]`)
 var MouthPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): [@👥]\s?(\w+), You caught a [✨🫧] \s*(\S+)\s* [✨🫧]! It weighs ([\d.]+) lbs[.] And![.][.][.] \s*(\S+)\s* \(([\d.]+) lbs\) was in its mouth!`)
 
-var ReleasePattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): [@👥]\s?(\w+), Bye bye \s*(\S+)\s*[!] 🫳🌊 [.][.][.]Huh[?] ✨ Something is (glimmering|sparkling|glittering) in the ocean[.][.][.] 🥍 \s*(\S+)\s* Got it!`)
+var ReleasePattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): [@👥]\s?(\w+), Bye bye \s*(\S+)\s*[!] (🫳🌊|🫴🌅) [.][.][.]Huh[?] ✨ Something is (glimmering|sparkling|glittering) in the ocean[.][.][.] 🥍 \s*(\S+)\s* Got it!`)
+var ReleasePatternPumpkin = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), Bye bye 🎃[!] 🫳🌊 [.][.][.]Huh[?] There was a 🕯️ inside of its hollow interior!`)
+
 var JumpedPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): [@👥]\s?(\w+), Huh[?][!] ✨ Something jumped out of the water to snatch your rare candy! [.][.][.]Got it! 🥍 \s*(\S+)\s* ([\d.]+) lbs`)
 
 var BirdPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), Huh[?][!] 🪺 is hatching![.][.][.] It's a [✨🪽🫧] \s*(\S+)\s* [✨🪽🫧]! It weighs ([\d.]+) lbs`)
@@ -65,6 +67,8 @@ func extractFishDataFromPatterns(textContent string, patterns []*regexp.Regexp) 
 			var extractFunc func([]string) FishInfo
 			switch pattern {
 			case ReleasePattern:
+				extractFunc = extractInfoFromReleasePattern
+			case ReleasePatternPumpkin:
 				extractFunc = extractInfoFromReleasePattern
 			case NormalPattern:
 				extractFunc = extractInfoFromNormalPattern
@@ -169,8 +173,16 @@ func extractInfoFromReleasePattern(match []string) FishInfo {
 	dateStr := match[1]
 	bot := match[2]
 	player := match[3]
-	fishType := match[6]
-	catchtype := "release"
+
+	var fishType, catchtype string
+
+	if strings.Contains(match[0], "There was a 🕯️ inside of its hollow interior!") {
+		fishType = "🕯️"
+		catchtype = "releasepumpkin"
+	} else {
+		fishType = match[7]
+		catchtype = "release"
+	}
 
 	weight := 0.0
 

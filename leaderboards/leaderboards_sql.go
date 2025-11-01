@@ -271,6 +271,9 @@ func CatchtypeNames(pool *pgxpool.Pool) (map[string]string, error) {
 		case "release":
 			CatchtypeNames[catchtype] = "Release bonus"
 
+		case "releasepumpkin":
+			CatchtypeNames[catchtype] = "Pumpkin release bonus"
+
 		case "jumped":
 			CatchtypeNames[catchtype] = "Jumped bonus"
 

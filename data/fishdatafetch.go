@@ -80,6 +80,7 @@ func GetFishDataFromURL(url string, chatName string, data string, pool *pgxpool.
 			patterns = []*regexp.Regexp{
 				MouthPattern,
 				ReleasePattern,
+				ReleasePatternPumpkin,
 				NormalPattern,
 				JumpedPattern,
 				BirdPattern,
@@ -93,6 +94,7 @@ func GetFishDataFromURL(url string, chatName string, data string, pool *pgxpool.
 			patterns = []*regexp.Regexp{
 				MouthPattern,
 				ReleasePattern,
+				ReleasePatternPumpkin,
 				NormalPattern,
 				JumpedPattern,
 				BirdPattern,
