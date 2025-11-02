@@ -2,16 +2,30 @@
 	"2525": {
 		"player": "respirate_",
 		"playerid": 2525,
-		"weight": 83.85,
+		"weight": 88.75,
 		"bot": "gofishgame",
-		"fishtype": "🐊",
-		"fishname": "crocodile",
+		"fishtype": "🐋",
+		"fishname": "whale2",
 		"catchtype": "normal",
 		"chat": "ryanpotat",
-		"fishid": 106030,
-		"chatid": 2,
-		"date": "2024-10-02T21:06:55Z",
-		"rank": 5
+		"fishid": 211608,
+		"chatid": 147,
+		"date": "2025-10-31T06:12:46Z",
+		"rank": 6
+	},
+	"2944": {
+		"player": "gofishgamer",
+		"playerid": 2944,
+		"weight": 239.03,
+		"bot": "gofishgame",
+		"fishtype": "🦕",
+		"fishname": "sauropod",
+		"catchtype": "normal",
+		"chat": "ryanpotat",
+		"fishid": 211751,
+		"chatid": 156,
+		"date": "2025-10-31T16:15:24Z",
+		"rank": 1
 	},
 	"2989": {
 		"player": "lolspers",
@@ -25,21 +39,21 @@
 		"fishid": 117089,
 		"chatid": 11,
 		"date": "2024-11-01T23:50:00Z",
-		"rank": 1
+		"rank": 2
 	},
 	"3005": {
 		"player": "chestnutbank",
 		"playerid": 3005,
-		"weight": 97.47,
+		"weight": 147.43,
 		"bot": "gofishgame",
-		"fishtype": "🐙",
-		"fishname": "octopus",
+		"fishtype": "🐊",
+		"fishname": "crocodile",
 		"catchtype": "normal",
 		"chat": "ryanpotat",
-		"fishid": 186440,
-		"chatid": 138,
-		"date": "2025-07-11T09:17:01Z",
-		"rank": 4
+		"fishid": 211726,
+		"chatid": 154,
+		"date": "2025-10-31T14:54:20Z",
+		"rank": 3
 	},
 	"3447": {
 		"player": "n1nzin_",
@@ -53,7 +67,7 @@
 		"fishid": 125566,
 		"chatid": 58,
 		"date": "2024-11-28T16:07:15Z",
-		"rank": 3
+		"rank": 5
 	},
 	"776": {
 		"player": "kubo7",
@@ -67,6 +81,6 @@
 		"fishid": 180343,
 		"chatid": 107,
 		"date": "2025-06-21T09:59:30Z",
-		"rank": 2
+		"rank": 4
 	}
 }

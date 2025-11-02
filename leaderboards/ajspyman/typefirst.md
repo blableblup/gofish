@@ -2,6 +2,10 @@
 
 | Rank | Fish            | Weight in lbs | Player       | Date in UTC         |
 |:-----|:----------------|:--------------|:-------------|:--------------------|
+| 44   | 🦕 sauropod     | 246.44        | respirate_   | 2025-10-31 02:48:20 |
+| 43   | 🐸 frog         | 4.12          | chestnutbank | 2025-10-31 02:11:19 |
+| 42   | 🐦 bird         | 2.32          | chestnutbank | 2025-10-31 02:06:20 |
+| 41   | 🦎 lizard       | 3.93          | chestnutbank | 2025-10-31 01:23:53 |
 | 40   | 🪹 emptynest    | 8.17          | chestnutbank | 2025-09-22 00:16:00 |
 | 39   | 🪺 nestwitheggs | 6.28          | chestnutbank | 2025-09-21 21:39:34 |
 | 38   | 🦇 bat          | 5.23          | respirate_   | 2025-09-21 17:43:29 |
@@ -43,4 +47,4 @@
 | 2    | 🐟 fish         | 9.95          | juliilan     | 2024-05-22 23:39:16 |
 | 1    | 🪝 hook         | 0.34          | breadworms   | 2024-05-15 14:30:25 |
 
-_Last updated at 2025-10-12 08:39:48 UTC_
+_Last updated at 2025-11-02 08:32:40 UTC_

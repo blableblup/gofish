@@ -11,7 +11,7 @@
 		"fishid": 174256,
 		"chatid": 4,
 		"date": "2025-05-18T21:28:28Z",
-		"rank": 10
+		"rank": 11
 	},
 	"briefs": {
 		"player": "bubinga",
@@ -25,7 +25,7 @@
 		"fishid": 193088,
 		"chatid": 29,
 		"date": "2025-08-14T10:48:02Z",
-		"rank": 11
+		"rank": 12
 	},
 	"cockroach": {
 		"player": "soopyboo32",
@@ -39,7 +39,7 @@
 		"fishid": 198506,
 		"chatid": 51,
 		"date": "2025-09-11T10:23:24Z",
-		"rank": 18
+		"rank": 19
 	},
 	"coral": {
 		"player": "commanda_u",
@@ -53,7 +53,7 @@
 		"fishid": 177260,
 		"chatid": 17,
 		"date": "2025-06-02T08:53:33Z",
-		"rank": 7
+		"rank": 8
 	},
 	"crab": {
 		"player": "ocrw",
@@ -67,7 +67,7 @@
 		"fishid": 197743,
 		"chatid": 41,
 		"date": "2025-09-06T22:19:17Z",
-		"rank": 16
+		"rank": 17
 	},
 	"crocodile": {
 		"player": "soopyboo32",
@@ -81,7 +81,7 @@
 		"fishid": 198719,
 		"chatid": 54,
 		"date": "2025-09-12T15:51:25Z",
-		"rank": 2
+		"rank": 3
 	},
 	"dolphin": {
 		"player": "commanda_u",
@@ -95,7 +95,7 @@
 		"fishid": 175076,
 		"chatid": 6,
 		"date": "2025-05-22T11:55:44Z",
-		"rank": 1
+		"rank": 2
 	},
 	"fish": {
 		"player": "bubinga",
@@ -109,7 +109,7 @@
 		"fishid": 193147,
 		"chatid": 31,
 		"date": "2025-08-14T15:36:54Z",
-		"rank": 6
+		"rank": 7
 	},
 	"frog": {
 		"player": "naori_desu",
@@ -123,7 +123,7 @@
 		"fishid": 177696,
 		"chatid": 18,
 		"date": "2025-06-04T20:47:52Z",
-		"rank": 19
+		"rank": 20
 	},
 	"hook": {
 		"player": "naori_desu",
@@ -137,7 +137,7 @@
 		"fishid": 174769,
 		"chatid": 5,
 		"date": "2025-05-21T07:08:13Z",
-		"rank": 20
+		"rank": 21
 	},
 	"lobster": {
 		"player": "soopyboo32",
@@ -151,7 +151,7 @@
 		"fishid": 196901,
 		"chatid": 37,
 		"date": "2025-09-02T07:45:07Z",
-		"rank": 5
+		"rank": 6
 	},
 	"lure": {
 		"player": "ellafy",
@@ -165,7 +165,7 @@
 		"fishid": 186616,
 		"chatid": 25,
 		"date": "2025-07-12T02:32:12Z",
-		"rank": 21
+		"rank": 22
 	},
 	"oyster": {
 		"player": "naori_desu",
@@ -179,7 +179,7 @@
 		"fishid": 175092,
 		"chatid": 7,
 		"date": "2025-05-22T12:53:05Z",
-		"rank": 4
+		"rank": 5
 	},
 	"seaweed": {
 		"player": "flummoxedfungus",
@@ -193,7 +193,21 @@
 		"fishid": 196792,
 		"chatid": 35,
 		"date": "2025-09-01T14:48:19Z",
-		"rank": 24
+		"rank": 25
+	},
+	"shark": {
+		"player": "respirate_",
+		"playerid": 2525,
+		"weight": 101.3,
+		"bot": "gofishgame",
+		"fishtype": "🦈",
+		"fishname": "shark",
+		"catchtype": "normal",
+		"chat": "deme",
+		"fishid": 211847,
+		"chatid": 62,
+		"date": "2025-10-31T21:13:55Z",
+		"rank": 1
 	},
 	"shell": {
 		"player": "defirence",
@@ -207,7 +221,7 @@
 		"fishid": 196908,
 		"chatid": 38,
 		"date": "2025-09-02T09:45:59Z",
-		"rank": 17
+		"rank": 18
 	},
 	"shrimp": {
 		"player": "flummoxedfungus",
@@ -221,7 +235,7 @@
 		"fishid": 199534,
 		"chatid": 56,
 		"date": "2025-09-17T17:59:22Z",
-		"rank": 14
+		"rank": 15
 	},
 	"skull": {
 		"player": "deoza",
@@ -235,7 +249,7 @@
 		"fishid": 197741,
 		"chatid": 39,
 		"date": "2025-09-06T22:16:19Z",
-		"rank": 13
+		"rank": 14
 	},
 	"snake": {
 		"player": "bubinga",
@@ -249,7 +263,7 @@
 		"fishid": 192310,
 		"chatid": 26,
 		"date": "2025-08-09T07:12:10Z",
-		"rank": 8
+		"rank": 9
 	},
 	"socks": {
 		"player": "letter__n",
@@ -263,7 +277,7 @@
 		"fishid": 179999,
 		"chatid": 23,
 		"date": "2025-06-20T11:52:46Z",
-		"rank": 23
+		"rank": 24
 	},
 	"sponge": {
 		"player": "larvaew",
@@ -277,7 +291,7 @@
 		"fishid": 179099,
 		"chatid": 20,
 		"date": "2025-06-12T19:31:22Z",
-		"rank": 12
+		"rank": 13
 	},
 	"squid": {
 		"player": "commanda_u",
@@ -291,7 +305,7 @@
 		"fishid": 176915,
 		"chatid": 12,
 		"date": "2025-05-31T10:40:40Z",
-		"rank": 22
+		"rank": 23
 	},
 	"tropicalfish": {
 		"player": "letter__n",
@@ -305,7 +319,7 @@
 		"fishid": 177011,
 		"chatid": 16,
 		"date": "2025-06-01T05:51:00Z",
-		"rank": 9
+		"rank": 10
 	},
 	"turtle": {
 		"player": "soopyboo32",
@@ -319,7 +333,7 @@
 		"fishid": 197863,
 		"chatid": 43,
 		"date": "2025-09-07T18:25:15Z",
-		"rank": 3
+		"rank": 4
 	},
 	"whale2": {
 		"player": "aim1138",
@@ -333,6 +347,6 @@
 		"fishid": 201552,
 		"chatid": 59,
 		"date": "2025-09-24T11:44:21Z",
-		"rank": 15
+		"rank": 16
 	}
 }

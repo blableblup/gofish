@@ -2,22 +2,22 @@
 
 | Rank  | Player                | Fish seen |
 |:------|:----------------------|:----------|
-| 1 🥇  | derinturitierutz      | 110       |
-| 1 🥇  | fishingalt            | 110       |
+| 1 🥇  | derinturitierutz      | 113 (+3)  |
+| 1 🥇  | fishingalt            | 113 (+3)  |
 | 3 🥉  | leanmeister           | 96        |
 | 4     | chubby_________       | 95        |
-| 5     | destin357             | 90        |
-| 6     | larvaew               | 89        |
-| 7     | kishma9               | 88        |
-| 8     | c_mgirl               | 85        |
-| 8     | derintu               | 85        |
-| 10    | breadworms            | 84        |
-| 11    | miiiiisho             | 83        |
-| 11    | qu4ttromila           | 83        |
-| 13    | dougiefresh_83*       | 80        |
-| 14    | osnyisdead            | 79        |
+| 5 ⬆   | kishma9               | 91 (+3)   |
+| 6 ⬇   | destin357             | 90        |
+| 6     | larvaew               | 90 (+1)   |
+| 8 ⬆   | breadworms            | 87 (+3)   |
+| 9 ⬇   | c_mgirl               | 86 (+1)   |
+| 9 ⬆   | qu4ttromila           | 86 (+3)   |
+| 11 ⬇  | derintu               | 85        |
+| 12 ⬇  | miiiiisho             | 83        |
+| 12 ⬆  | osnyisdead            | 83 (+4)   |
+| 14 ⬇  | dougiefresh_83*       | 81 (+1)   |
 | 15    | booty_bread           | 77        |
-| 16    | dazedforevermore      | 76        |
+| 15 ⬆  | dazedforevermore      | 77 (+1)   |
 | 17    | sicklymaidrobot       | 75        |
 | 18    | ninjaross*            | 74        |
 | 19    | osnyatsky*            | 73        |
@@ -31,8 +31,8 @@
 | 25    | ryebreadward          | 65        |
 | 28    | mitgliederversammlung | 64        |
 | 29    | gawblemachine         | 63        |
-| 30    | sussy_amonge          | 62        |
-| 30 ⬆  | ytp_dl*               | 62 (+1)   |
+| 29 ⬆  | ytp_dl*               | 63 (+1)   |
+| 31 ⬇  | sussy_amonge          | 62        |
 | 32    | kaasppeerr            | 60        |
 | 33    | idini                 | 56        |
 | 33    | wisco9ers*            | 56        |
@@ -48,4 +48,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2025-10-26 09:34:12 UTC_
+_Last updated at 2025-11-02 08:30:56 UTC_

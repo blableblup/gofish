@@ -10,15 +10,15 @@
 | 6     | yyaaaaaaaas      | 27          |
 | 7     | kaitechpl        | 26          |
 | 7     | velantix*        | 26          |
+| 9 ⬆   | glorpiusbot      | 23 (+2)     |
 | 9     | poggu_           | 23          |
-| 10    | glorpiusbot      | 21 (+1)     |
-| 11    | aistyrax3        | 19          |
-| 11    | dom1torii        | 19          |
-| 13    | kaczer1          | 18          |
-| 14    | kam3l_           | 17          |
-| 14    | kargalay         | 17          |
-| 16    | ggmagician       | 16          |
-| 17    | desxyne          | 14          |
+| 11 ⬆  | desxyne          | 20 (+6)     |
+| 12 ⬇  | aistyrax3        | 19          |
+| 12 ⬇  | dom1torii        | 19          |
+| 14 ⬇  | kaczer1          | 18          |
+| 15 ⬇  | kam3l_           | 17          |
+| 15 ⬇  | kargalay         | 17          |
+| 17 ⬇  | ggmagician       | 16          |
 | 18    | vigilworld*      | 13          |
 | 19    | tetohasgone      | 12          |
 | 20    | buck101_         | 11          |
@@ -29,4 +29,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-10-26 09:30:44 UTC_
+_Last updated at 2025-11-02 08:32:38 UTC_

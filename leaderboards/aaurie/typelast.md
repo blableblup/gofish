@@ -2,32 +2,32 @@
 
 | Rank | Fish             | Weight in lbs | Player            | Date in UTC         |
 |:-----|:-----------------|:--------------|:------------------|:--------------------|
-| 68   | 🐟 fish          | 14.11         | amatusz           | 2025-10-20 23:22:03 |
-| 67   | 🪸 coral         | 9.19          | jeffbethyname69   | 2025-10-20 23:20:54 |
-| 66   | 🎏 lure          | 3.41          | jeffbethyname69   | 2025-10-14 06:19:49 |
-| 65   | 🐡 blowfish      | 13.53         | amatusz           | 2025-10-14 05:24:19 |
-| 64   | 🐍 snake         | 15.24         | onetriforce       | 2025-10-14 03:42:22 |
-| 63   | 💀 skull         | 0.02          | wildturky82       | 2025-10-14 03:42:07 |
-| 62   | 🐳 whale         | 241.98        | jeffbethyname69   | 2025-10-14 03:26:14 |
-| 61   | 🪝 hook          | 0.49          | amatusz           | 2025-10-14 02:24:15 |
-| 60   | 🐠 tropicalfish  | 16.71         | jeffbethyname69   | 2025-10-13 02:59:17 |
-| 59   | 🕷️ spider         | 10.37         | jeffbethyname69   | 2025-10-13 01:47:16 |
-| 58   | 🍬 candy         | 0.00          | boogie310_        | 2025-10-13 01:32:19 |
-| 57   | 🌰 acorn         | 0.49          | aaurie            | 2025-10-11 05:10:38 |
-| 56   | 🌹 rose          | 0.36          | mademooselle      | 2025-10-11 03:06:44 |
-| 55   | 🐋 whale2        | 91.47         | curiouscorvidae   | 2025-10-11 03:05:19 |
-| 54   | 🐉 dragon        | 12.52         | jonysays          | 2025-10-11 01:04:20 |
-| 53   | 🦀 crab          | 1.50          | abelito75         | 2025-10-11 01:03:53 |
-| 52   | 🗡️ dagger         | 38.82         | curiouscorvidae   | 2025-10-10 06:49:48 |
-| 51   | 🐙 octopus       | 107.76        | amatusz           | 2025-10-07 05:41:32 |
-| 50   | 🦞 lobster       | 27.67         | wildturky82       | 2025-10-07 02:21:28 |
-| 49   | 🍁 mapleleaf     | 0.82          | mademooselle      | 2025-10-06 07:00:34 |
-| 48   | 🌿 seaweed       | 0.78          | otaku_feis        | 2025-10-06 06:51:49 |
-| 47   | 🐚 shell         | 1.25          | jeffbethyname69   | 2025-10-06 02:45:03 |
-| 46   | 🪨 rock          | 41.19         | amatusz           | 2025-10-04 07:24:10 |
-| 45   | 🦐 shrimp        | 1.98          | mademooselle      | 2025-09-30 06:16:20 |
-| 44   | 🦈 shark         | 42.08         | allspice_boatrace | 2025-09-29 02:24:56 |
-| 43   | 🦑 squid         | 17.67         | jeffbethyname69   | 2025-09-27 07:00:04 |
+| 68   | 🦑 squid         | 28.08         | rustnroll         | 2025-10-31 06:54:42 |
+| 67   | 🎏 lure          | 2.40          | jeffbethyname69   | 2025-10-31 06:49:42 |
+| 66   | 🐙 octopus       | 139.34        | jeffbethyname69   | 2025-10-31 03:03:20 |
+| 65   | 💀 skull         | 1.14          | guy_farting420    | 2025-10-31 01:36:27 |
+| 64   | 🪨 rock          | 38.88         | jeffbethyname69   | 2025-10-29 05:18:45 |
+| 63   | 🕷️ spider         | 4.31          | amatusz           | 2025-10-29 02:40:40 |
+| 62   | 🐚 shell         | 2.03          | curiouscorvidae   | 2025-10-29 01:27:06 |
+| 61   | 🐋 whale2        | 69.25         | blackberryking00  | 2025-10-27 06:47:06 |
+| 60   | 🐟 fish          | 17.30         | jeffbethyname69   | 2025-10-27 03:41:54 |
+| 59   | 🪸 coral         | 9.19          | jeffbethyname69   | 2025-10-20 23:20:54 |
+| 58   | 🐡 blowfish      | 13.53         | amatusz           | 2025-10-14 05:24:19 |
+| 57   | 🐍 snake         | 15.24         | onetriforce       | 2025-10-14 03:42:22 |
+| 56   | 🐳 whale         | 241.98        | jeffbethyname69   | 2025-10-14 03:26:14 |
+| 55   | 🪝 hook          | 0.49          | amatusz           | 2025-10-14 02:24:15 |
+| 54   | 🐠 tropicalfish  | 16.71         | jeffbethyname69   | 2025-10-13 02:59:17 |
+| 53   | 🍬 candy         | 0.00          | boogie310_        | 2025-10-13 01:32:19 |
+| 52   | 🌰 acorn         | 0.49          | aaurie            | 2025-10-11 05:10:38 |
+| 51   | 🌹 rose          | 0.36          | mademooselle      | 2025-10-11 03:06:44 |
+| 50   | 🐉 dragon        | 12.52         | jonysays          | 2025-10-11 01:04:20 |
+| 49   | 🦀 crab          | 1.50          | abelito75         | 2025-10-11 01:03:53 |
+| 48   | 🗡️ dagger         | 38.82         | curiouscorvidae   | 2025-10-10 06:49:48 |
+| 47   | 🦞 lobster       | 27.67         | wildturky82       | 2025-10-07 02:21:28 |
+| 46   | 🍁 mapleleaf     | 0.82          | mademooselle      | 2025-10-06 07:00:34 |
+| 45   | 🌿 seaweed       | 0.78          | otaku_feis        | 2025-10-06 06:51:49 |
+| 44   | 🦐 shrimp        | 1.98          | mademooselle      | 2025-09-30 06:16:20 |
+| 43   | 🦈 shark         | 42.08         | allspice_boatrace | 2025-09-29 02:24:56 |
 | 42   | 🧦 socks         | 0.76          | jeffbethyname69   | 2025-09-27 01:32:15 |
 | 41   | 🛢️ oildrum        | 160.83        | dolp_fin          | 2025-09-23 04:48:26 |
 | 40   | 🐬 dolphin       | 17.19         | jeffbethyname69   | 2025-09-22 05:06:42 |
@@ -71,4 +71,4 @@
 | 2    | 🧸 teddybear     | 1.95          | jeffbethyname69   | 2025-03-21 21:47:38 |
 | 1    | 🧤 gloves        | 0.63          | herbemoji         | 2025-03-11 00:55:22 |
 
-_Last updated at 2025-10-26 09:34:15 UTC_
+_Last updated at 2025-11-02 08:32:34 UTC_

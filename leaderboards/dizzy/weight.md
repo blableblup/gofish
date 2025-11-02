@@ -10,7 +10,7 @@
 | 6     | simplydrack               | 🐉 dragon    | 259.85        | 2025-07-28 14:57:09 |
 | 7     | ofaisalz                  | 🦑 squid     | 258.62        | 2025-02-05 00:19:52 |
 | 8     | popfizzgg                 | 🐳 whale     | 254.02        | 2025-06-11 02:01:04 |
-| 9     | heavener6                 | 🐳 whale     | 249.37        | 2024-11-01 12:46:25 |
+| 9     | vagdy                     | 🐳 whale     | 249.37        | 2024-11-01 12:46:25 |
 | 10    | gimmeschmoneys            | 🐉 dragon    | 247.27        | 2024-11-07 01:30:12 |
 | 11    | iam_haunt                 | 🐳 whale     | 238.41        | 2024-11-17 07:42:58 |
 | 12    | dizzy                     | 🐳 whale     | 230.91        | 2024-10-28 06:05:36 |
@@ -64,4 +64,4 @@
 
 _Only showing fish weighing >= 100 lbs_
 
-_Last updated at 2025-09-07 09:09:28 UTC_
+_Last updated at 2025-11-02 08:34:24 UTC_

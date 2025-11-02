@@ -12,12 +12,13 @@
 | 8     | likedom_      | 394.68              |
 | 9     | aistyrax3     | 390.17              |
 | 10    | ggmagician    | 352.90              |
-| 11    | kaitechpl     | 335.44              |
-| 12    | yyaaaaaaaas   | 254.07              |
-| 13    | kargalay      | 231.57              |
-| 14    | ojack18       | 218.50              |
-| 15    | buck101_      | 200.63              |
+| 11 🆕 | desxyne       | 348.65              |
+| 12 ⬇  | kaitechpl     | 335.44              |
+| 13 ⬇  | yyaaaaaaaas   | 254.07              |
+| 14 ⬇  | kargalay      | 231.57              |
+| 15 ⬇  | ojack18       | 218.50              |
+| 16 ⬇  | buck101_      | 200.63              |
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2025-10-26 09:34:00 UTC_
+_Last updated at 2025-11-02 08:34:32 UTC_

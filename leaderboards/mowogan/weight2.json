@@ -1357,20 +1357,6 @@
 		"date": "2025-10-11T19:58:13Z",
 		"rank": 51
 	},
-	"209339": {
-		"player": "mowogan",
-		"playerid": 3811,
-		"weight": 33.12,
-		"bot": "gofishgame",
-		"fishtype": "🦫",
-		"fishname": "beaver",
-		"catchtype": "normal",
-		"chat": "mowogan",
-		"fishid": 209339,
-		"chatid": 673,
-		"date": "2025-10-21T11:32:28Z",
-		"rank": 100
-	},
 	"209713": {
 		"player": "lolspers",
 		"playerid": 2989,
@@ -1398,5 +1384,19 @@
 		"chatid": 694,
 		"date": "2025-10-23T17:18:49Z",
 		"rank": 50
+	},
+	"210371": {
+		"player": "mowogan",
+		"playerid": 3811,
+		"weight": 34.05,
+		"bot": "gofishgame",
+		"fishtype": "🦫",
+		"fishname": "beaver",
+		"catchtype": "normal",
+		"chat": "mowogan",
+		"fishid": 210371,
+		"chatid": 712,
+		"date": "2025-10-26T09:23:16Z",
+		"rank": 100
 	}
 }

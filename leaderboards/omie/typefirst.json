@@ -41,6 +41,20 @@
 		"date": "2025-08-28T22:58:45Z",
 		"rank": 103
 	},
+	"apple": {
+		"player": "mangos4u",
+		"playerid": 3142,
+		"weight": 0.89,
+		"bot": "gofishgame",
+		"fishtype": "🍎",
+		"fishname": "apple",
+		"catchtype": "normal",
+		"chat": "omie",
+		"fishid": 211866,
+		"chatid": 9269,
+		"date": "2025-10-31T21:54:05Z",
+		"rank": 111
+	},
 	"athleticshoe": {
 		"player": "v6r_",
 		"playerid": 2941,
@@ -235,6 +249,19 @@
 		"chatid": 8231,
 		"date": "2025-08-29T02:41:42Z",
 		"rank": 105
+	},
+	"candle": {
+		"player": "v6r_",
+		"playerid": 2941,
+		"bot": "gofishgame",
+		"fishtype": "🕯️",
+		"fishname": "candle",
+		"catchtype": "releasepumpkin",
+		"chat": "omie",
+		"fishid": 211519,
+		"chatid": 9251,
+		"date": "2025-10-30T22:19:10Z",
+		"rank": 110
 	},
 	"candy": {
 		"player": "aliveleader",
@@ -949,6 +976,20 @@
 		"chatid": 2602,
 		"date": "2024-12-23T16:03:38Z",
 		"rank": 72
+	},
+	"pumpkin": {
+		"player": "mangos4u",
+		"playerid": 3142,
+		"weight": 2.65,
+		"bot": "gofishgame",
+		"fishtype": "🎃",
+		"fishname": "pumpkin",
+		"catchtype": "normal",
+		"chat": "omie",
+		"fishid": 211388,
+		"chatid": 9246,
+		"date": "2025-10-30T15:12:23Z",
+		"rank": 109
 	},
 	"rock": {
 		"player": "sykelle",

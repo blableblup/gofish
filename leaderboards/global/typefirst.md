@@ -2,6 +2,10 @@
 
 | Rank | Fish               | Weight in lbs | Player                  | Date in UTC         | Chat                                                                                                  |
 |:-----|:-------------------|:--------------|:------------------------|:--------------------|:------------------------------------------------------------------------------------------------------|
+| 125  | 🍱 tacklebox       | 0.53          | ocrw                    | 2025-10-31 20:56:05 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)             |
+| 124  | 🍎 apple           | 0.40          | c_mgirl                 | 2025-10-30 04:57:14 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 123  | 🕯️ candle           | 0.00          | breadworms              | 2025-10-30 01:36:45 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 122  | 🎃 pumpkin         | 3.70          | breadworms              | 2025-10-30 01:36:18 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 121  | 🦂 scorpion        | 0.92          | fishingalt              | 2025-08-28 08:12:44 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 120  | 🐞 ladybug         | 0.19          | breadworms              | 2025-08-27 17:17:18 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 119  | 🦴 bone            | 13.26         | gofishgamer             | 2025-08-26 22:11:54 | ![ajspyman](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ajspyman.png)     |
@@ -124,4 +128,4 @@
 | 2    | 🐸 frog            | 4.76          | miiiiisho               | 2022-12-04 01:04:30 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 1    | 🦐 shrimp          | 29.58         | lagggm*                 | 2022-12-04 00:58:55 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 
-_Last updated at 2025-10-12 08:38:16 UTC_
+_Last updated at 2025-11-02 08:32:39 UTC_

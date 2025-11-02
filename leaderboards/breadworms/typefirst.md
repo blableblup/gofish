@@ -2,6 +2,10 @@
 
 | Rank | Fish               | Weight in lbs | Player                  | Date in UTC         |
 |:-----|:-------------------|:--------------|:------------------------|:--------------------|
+| 125  | 🍱 tacklebox       | 2.13          | derinturitierutz        | 2025-11-01 12:30:09 |
+| 124  | 🍎 apple           | 0.40          | c_mgirl                 | 2025-10-30 04:57:14 |
+| 123  | 🕯️ candle           | 0.00          | breadworms              | 2025-10-30 01:36:45 |
+| 122  | 🎃 pumpkin         | 3.70          | breadworms              | 2025-10-30 01:36:18 |
 | 121  | 🦂 scorpion        | 0.92          | fishingalt              | 2025-08-28 08:12:44 |
 | 120  | 🐞 ladybug         | 0.19          | breadworms              | 2025-08-27 17:17:18 |
 | 119  | 🦴 bone            | 11.35         | breadworms              | 2025-08-26 23:00:52 |
@@ -124,4 +128,4 @@
 | 2    | 🐸 frog            | 4.76          | miiiiisho               | 2022-12-04 01:04:30 |
 | 1    | 🦐 shrimp          | 29.58         | lagggm*                 | 2022-12-04 00:58:55 |
 
-_Last updated at 2025-10-12 08:39:47 UTC_
+_Last updated at 2025-11-02 08:32:39 UTC_

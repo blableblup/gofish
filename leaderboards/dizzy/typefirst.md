@@ -40,7 +40,7 @@
 | 68   | 👢 boot          | 0.40          | konsminator      | 2024-11-02 16:56:32 |
 | 67   | 👑 crown         | 23.44         | simplydrack      | 2024-11-02 11:32:08 |
 | 66   | 🦭 seal          | 54.88         | gimmeschmoneys   | 2024-11-02 10:48:32 |
-| 65   | 🧤 gloves        | 0.17          | heavener6        | 2024-11-02 09:44:37 |
+| 65   | 🧤 gloves        | 0.17          | vagdy            | 2024-11-02 09:44:37 |
 | 64   | 🧊 icecube       | 8.82          | silent11d5       | 2024-11-02 09:13:20 |
 | 63   | 🧸 teddybear     | 9.41          | iam_haunt        | 2024-11-02 07:17:33 |
 | 62   | 🦠 plankton      | 2.22          | spanmer          | 2024-11-01 07:45:27 |
@@ -62,7 +62,7 @@
 | 46   | 🪹 emptynest     | 2.54          | gofishgamer      | 2024-10-23 06:13:37 |
 | 45   | 🧃 beveragebox   | 1.46          | sugur            | 2024-10-23 06:10:52 |
 | 44   | 🕶️ darksunglasses | 9.87          | gimmeschmoneys   | 2024-10-22 11:25:00 |
-| 43   | 🥒 cucumber      | 3.26          | heavener6        | 2024-10-22 08:42:14 |
+| 43   | 🥒 cucumber      | 3.26          | vagdy            | 2024-10-22 08:42:14 |
 | 42   | 🩴 thongsandal   | 1.15          | ssenario         | 2024-10-22 06:23:52 |
 | 41   | 🐳 whale         | 56.98         | silent11d5       | 2024-10-22 05:18:07 |
 | 40   | 🪶 feather       | 0.70          | squishyuh        | 2024-10-21 19:23:19 |
@@ -106,4 +106,4 @@
 | 2    | 🪝 hook          | 0.40          | lolspers         | 2024-10-20 21:13:11 |
 | 1    | 🎏 lure          | 0.16          | burnend          | 2024-10-20 21:13:00 |
 
-_Last updated at 2025-09-07 09:09:36 UTC_
+_Last updated at 2025-11-02 08:32:39 UTC_

@@ -14,16 +14,16 @@
 | 9     | spanmer            | 48        |
 | 11    | simplydrack        | 47        |
 | 12    | notnownico         | 46        |
-| 13    | heavener6          | 45        |
+| 13    | vagdy              | 45        |
 | 14    | rabituwu           | 44        |
 | 15    | tairaaaaa          | 43        |
 | 16    | kyonuwu            | 41        |
 | 16    | sugur              | 41        |
-| 18 ⬆  | exo9*              | 40 (+1)   |
+| 18    | exo9*              | 40        |
 | 18    | ssenario           | 40        |
 | 20    | burnend            | 38        |
 | 21    | aceleju            | 37        |
-| 22    | mousee93           | 36        |
+| 21 ⬆  | mousee93           | 37 (+1)   |
 | 23    | lilzomme           | 35        |
 | 24    | kukkuri            | 34        |
 | 25    | wisteraeia         | 33        |
@@ -53,4 +53,4 @@ _This does not include fish seen through 🎁 gifts or through releasing to anot
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2025-10-19 08:49:47 UTC_
+_Last updated at 2025-11-02 08:30:55 UTC_

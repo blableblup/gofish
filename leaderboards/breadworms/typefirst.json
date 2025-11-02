@@ -42,6 +42,20 @@
 		"date": "2025-06-25T11:16:14Z",
 		"rank": 111
 	},
+	"apple": {
+		"player": "c_mgirl",
+		"playerid": 1369,
+		"weight": 0.4,
+		"bot": "gofishgame",
+		"fishtype": "🍎",
+		"fishname": "apple",
+		"catchtype": "normal",
+		"chat": "breadworms",
+		"fishid": 211205,
+		"chatid": 77168,
+		"date": "2025-10-30T04:57:14Z",
+		"rank": 124
+	},
 	"athleticshoe": {
 		"player": "dazedforevermore",
 		"playerid": 56,
@@ -331,6 +345,20 @@
 		"chatid": 73274,
 		"date": "2025-08-26T21:41:29Z",
 		"rank": 118
+	},
+	"candle": {
+		"player": "breadworms",
+		"playerid": 26,
+		"verified": true,
+		"bot": "gofishgame",
+		"fishtype": "🕯️",
+		"fishname": "candle",
+		"catchtype": "releasepumpkin",
+		"chat": "breadworms",
+		"fishid": 211188,
+		"chatid": 77166,
+		"date": "2025-10-30T01:36:45Z",
+		"rank": 123
 	},
 	"candy": {
 		"player": "5c33",
@@ -1142,6 +1170,21 @@
 		"date": "2022-12-23T14:02:31Z",
 		"rank": 52
 	},
+	"pumpkin": {
+		"player": "breadworms",
+		"playerid": 26,
+		"verified": true,
+		"weight": 3.7,
+		"bot": "gofishgame",
+		"fishtype": "🎃",
+		"fishname": "pumpkin",
+		"catchtype": "normal",
+		"chat": "breadworms",
+		"fishid": 211187,
+		"chatid": 77165,
+		"date": "2025-10-30T01:36:18Z",
+		"rank": 122
+	},
 	"rat": {
 		"player": "fishingalt",
 		"playerid": 1459,
@@ -1552,6 +1595,21 @@
 		"chatid": 50596,
 		"date": "2024-07-15T15:39:04Z",
 		"rank": 83
+	},
+	"tacklebox": {
+		"player": "derinturitierutz",
+		"playerid": 126,
+		"verified": true,
+		"weight": 2.13,
+		"bot": "gofishgame",
+		"fishtype": "🍱",
+		"fishname": "tacklebox",
+		"catchtype": "normal",
+		"chat": "breadworms",
+		"fishid": 212052,
+		"chatid": 77413,
+		"date": "2025-11-01T12:30:09Z",
+		"rank": 125
 	},
 	"teddybear": {
 		"player": "mitgliederversammlung",

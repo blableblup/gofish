@@ -4,20 +4,20 @@
 		"playerid": 1685,
 		"date": "2024-01-08T13:59:47Z",
 		"totalweight": 218.5,
-		"rank": 14
+		"rank": 15
 	},
 	"1907": {
 		"player": "ggmagician",
 		"playerid": 1907,
 		"date": "2024-02-01T20:10:16Z",
-		"totalweight": 352.9000000000001,
+		"totalweight": 352.9,
 		"rank": 10
 	},
 	"2339": {
 		"player": "bubinga",
 		"playerid": 2339,
 		"date": "2024-04-23T14:28:46Z",
-		"totalweight": 933.0899999999999,
+		"totalweight": 933.0899999999997,
 		"rank": 2
 	},
 	"2792": {
@@ -45,7 +45,7 @@
 		"player": "rustezzz",
 		"playerid": 3472,
 		"date": "2024-11-26T16:04:25Z",
-		"totalweight": 1301.1900000000005,
+		"totalweight": 1301.19,
 		"rank": 1
 	},
 	"3477": {
@@ -59,21 +59,21 @@
 		"player": "kaitechpl",
 		"playerid": 3515,
 		"date": "2024-12-13T19:20:46Z",
-		"totalweight": 335.4400000000001,
-		"rank": 11
+		"totalweight": 335.44000000000005,
+		"rank": 12
 	},
 	"3531": {
 		"player": "yyaaaaaaaas",
 		"playerid": 3531,
 		"date": "2024-12-26T18:34:11Z",
-		"totalweight": 254.07000000000005,
-		"rank": 12
+		"totalweight": 254.07,
+		"rank": 13
 	},
 	"3542": {
 		"player": "dom1torii",
 		"playerid": 3542,
 		"date": "2025-01-08T01:35:11Z",
-		"totalweight": 458.74,
+		"totalweight": 458.74000000000007,
 		"rank": 7
 	},
 	"3561": {
@@ -81,21 +81,28 @@
 		"playerid": 3561,
 		"date": "2025-02-09T16:38:31Z",
 		"totalweight": 231.57,
-		"rank": 13
+		"rank": 14
+	},
+	"3572": {
+		"player": "desxyne",
+		"playerid": 3572,
+		"date": "2025-02-17T20:38:17Z",
+		"totalweight": 348.65,
+		"rank": 11
 	},
 	"3818": {
 		"player": "buck101_",
 		"playerid": 3818,
 		"date": "2025-06-28T22:28:02Z",
 		"totalweight": 200.63,
-		"rank": 15
+		"rank": 16
 	},
 	"454": {
 		"player": "velantix",
 		"playerid": 454,
 		"bot": "supibot",
 		"date": "2023-08-26T11:35:49Z",
-		"totalweight": 801.2300000000001,
+		"totalweight": 801.2299999999999,
 		"rank": 3
 	},
 	"479": {
@@ -103,7 +110,7 @@
 		"playerid": 479,
 		"bot": "supibot",
 		"date": "2023-08-27T21:23:31Z",
-		"totalweight": 663.8199999999999,
+		"totalweight": 663.82,
 		"rank": 5
 	}
 }

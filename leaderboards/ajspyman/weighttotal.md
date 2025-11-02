@@ -2,10 +2,10 @@
 
 | Rank  | Player       | Total Weight in lbs |
 |:------|:-------------|:--------------------|
-| 1 🥇  | respirate_   | 490.41              |
-| 2 🥈  | gofishgamer  | 435.35              |
-| 3 🥉  | chestnutbank | 369.86              |
+| 1 🥇  | respirate_   | 737.05 (+246.64)    |
+| 2 🥈  | gofishgamer  | 436.29 (+0.94)      |
+| 3 🥉  | chestnutbank | 380.23 (+10.37)     |
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2025-10-26 09:33:59 UTC_
+_Last updated at 2025-11-02 08:34:32 UTC_

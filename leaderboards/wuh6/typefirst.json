@@ -41,6 +41,34 @@
 		"date": "2025-06-22T18:01:41Z",
 		"rank": 98
 	},
+	"apple": {
+		"player": "bubinga",
+		"playerid": 2339,
+		"weight": 2.51,
+		"bot": "gofishgame",
+		"fishtype": "🍎",
+		"fishname": "apple",
+		"catchtype": "normal",
+		"chat": "wuh6",
+		"fishid": 211449,
+		"chatid": 24897,
+		"date": "2025-10-30T18:14:34Z",
+		"rank": 121
+	},
+	"athleticshoe": {
+		"player": "drecklo",
+		"playerid": 2570,
+		"weight": 1.92,
+		"bot": "gofishgame",
+		"fishtype": "👟",
+		"fishname": "athleticshoe",
+		"catchtype": "normal",
+		"chat": "wuh6",
+		"fishid": 211436,
+		"chatid": 24888,
+		"date": "2025-10-30T17:34:18Z",
+		"rank": 120
+	},
 	"balletshoes": {
 		"player": "bubinga",
 		"playerid": 2339,
@@ -293,6 +321,19 @@
 		"chatid": 19916,
 		"date": "2025-08-27T12:16:51Z",
 		"rank": 109
+	},
+	"candle": {
+		"player": "bcarbot",
+		"playerid": 2338,
+		"bot": "gofishgame",
+		"fishtype": "🕯️",
+		"fishname": "candle",
+		"catchtype": "releasepumpkin",
+		"chat": "wuh6",
+		"fishid": 211265,
+		"chatid": 24790,
+		"date": "2025-10-30T10:43:17Z",
+		"rank": 119
 	},
 	"candy": {
 		"player": "bubinga",
@@ -1055,6 +1096,20 @@
 		"date": "2024-12-23T15:40:15Z",
 		"rank": 64
 	},
+	"pumpkin": {
+		"player": "bcarbot",
+		"playerid": 2338,
+		"weight": 2.34,
+		"bot": "gofishgame",
+		"fishtype": "🎃",
+		"fishname": "pumpkin",
+		"catchtype": "normal",
+		"chat": "wuh6",
+		"fishid": 211223,
+		"chatid": 24785,
+		"date": "2025-10-30T07:13:57Z",
+		"rank": 118
+	},
 	"rat": {
 		"player": "jr_mime",
 		"playerid": 686,
@@ -1461,6 +1516,20 @@
 		"chatid": 3076,
 		"date": "2024-12-31T10:19:24Z",
 		"rank": 70
+	},
+	"tacklebox": {
+		"player": "ocrw",
+		"playerid": 2656,
+		"weight": 0.53,
+		"bot": "gofishgame",
+		"fishtype": "🍱",
+		"fishname": "tacklebox",
+		"catchtype": "normal",
+		"chat": "wuh6",
+		"fishid": 211838,
+		"chatid": 25012,
+		"date": "2025-10-31T20:56:05Z",
+		"rank": 122
 	},
 	"teddybear": {
 		"player": "jesefs",
