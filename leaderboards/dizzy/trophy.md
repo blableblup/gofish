@@ -8,7 +8,7 @@
 | 4     | lolspers       | 3           | 7                | 7                | 19.5   |
 | 5     | keplepn3       | 1           | 9                | 5                | 14.5   |
 | 6     | konsminator    | 3           | 2                | 4                | 13.0   |
-| 7     | heavener6      | 3           | 0                | 2                | 10.0   |
+| 7     | vagdy          | 3           | 0                | 2                | 10.0   |
 | 8     | hamoodhabibee  | 1           | 2                | 5                | 7.5    |
 | 8     | iam_haunt      | 1           | 3                | 3                | 7.5    |
 | 10    | aceleju        | 2           | 1                | 0                | 7.0    |
@@ -20,4 +20,4 @@
 | 16    | kyonuwu        | 0           | 1                | 1                | 1.5    |
 | 17    | ofaisalz       | 0           | 0                | 2                | 1.0    |
 
-_Last updated at 2025-09-03 21:58:23 UTC_
+_Last updated at 2025-11-04 18:28:50 UTC_

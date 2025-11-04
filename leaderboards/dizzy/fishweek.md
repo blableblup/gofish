@@ -15,7 +15,7 @@
 | 11    | ssenario       | 53          |
 | 12    | gofishgamer    | 51          |
 | 12    | rabituwu       | 51          |
-| 14    | heavener6      | 46          |
+| 14    | vagdy          | 46          |
 | 15    | hamoodhabibee  | 43          |
 | 16    | icejamx        | 42          |
 | 17    | burnend        | 41          |
@@ -29,4 +29,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2025-09-03 21:58:23 UTC_
+_Last updated at 2025-11-04 18:28:51 UTC_
