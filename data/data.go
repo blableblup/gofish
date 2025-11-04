@@ -205,7 +205,13 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 	playerdatatable := "playerdata"
 	tournamenttable := "tournaments"
 
-	CheckTables := []string{fishinfotable, tableName, tableNameBag, playerdatatable}
+	CheckTables := []string{
+		fishinfotable,
+		tableName,
+		tableNameBag,
+		playerdatatable,
+		tournamenttable,
+	}
 
 	for _, table := range CheckTables {
 		if err := utils.EnsureTableExists(pool, table); err != nil {
@@ -431,6 +437,10 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			// [2024-01-20 12:48:45] #psp1g gofishgame: @norque69, You caught a ✨ 🦪 ✨! It weighs 15.93 lbs. (30m cooldown after a catch) logs.nadeko.net
 			// If someone gets the same fish from releasing in between ten seconds and one of the catches wasnt logged, this would skip that catch though
 			// Because fishtype, weight (0 lbs), player and chat would be the same and the date would fall in between that date range
+
+			// for the 2024 winter gifts, only one of the candys or acorns gets added to the db
+			// when checking in mode a
+			// because the others all have identical date, weight, player, chat, fishtype
 			if mode == "a" {
 
 				var count int

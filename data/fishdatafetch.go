@@ -87,6 +87,8 @@ func GetFishDataFromURL(url string, chatName string, data string, pool *pgxpool.
 				SquirrelPattern,
 				SonnyThrowWeight,
 				SonnyThrow,
+				WinterGift,
+				BellGift,
 				BagPattern,
 				TournamentPattern,
 			}
@@ -101,6 +103,8 @@ func GetFishDataFromURL(url string, chatName string, data string, pool *pgxpool.
 				SquirrelPattern,
 				SonnyThrowWeight,
 				SonnyThrow,
+				WinterGift,
+				BellGift,
 				BagPattern,
 			}
 		case "t":

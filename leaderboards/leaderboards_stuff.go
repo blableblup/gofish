@@ -453,7 +453,14 @@ func changeRankThingy(rank int) string {
 // so they get ignored for some sql selections
 func ReturnCatchtypeWithNoWeight() []string {
 
-	CatchtypeWithNoWeight := []string{"release", "releasepumpkin", "squirrel", "sonnythrow"}
+	CatchtypeWithNoWeight := []string{
+		"release",
+		"releasepumpkin",
+		"squirrel",
+		"sonnythrow",
+		"giftwinter2024",
+		"giftbell",
+	}
 
 	return CatchtypeWithNoWeight
 }

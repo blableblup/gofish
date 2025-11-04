@@ -7,6 +7,7 @@ import (
 	"strconv"
 	"strings"
 	"time"
+	"unicode"
 )
 
 type FishInfo struct {
@@ -54,10 +55,11 @@ var SquirrelPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d
 var SonnyThrowWeight = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), 🙆 "Hey kid, catch!" You got a [✨🫧] \s*(\S+)\s* [✨🫧]! It weighs ([\d.]+) lbs`)
 var SonnyThrow = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), Huh[?] 🙆 "Hey kid, catch!" 🤲 He gave you a \s*(\S+)\s*! Awesome`)
 
-var BagPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): [@👥]\s?(\w+), Your (bag|collection): (.+)`)
+// the gifts from winter 2024
+var WinterGift = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), You open it, and[.][.][.] [(](\S+) added to bag![)]`)
+var BellGift = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), 🎅 Heya there! Take this and play with me, (won't ya[?]|wontcha[?]) [(]🔔 added to bag![)]`)
 
-// var WinterGift = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), You open it, and[.][.][.] [(](\S+) added to bag![)]`)
-// could add them ?
+var BagPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): [@👥]\s?(\w+), Your (bag|collection): (.+)`)
 
 func extractFishDataFromPatterns(textContent string, patterns []*regexp.Regexp) []FishInfo {
 	var fishCatches []FishInfo
@@ -65,6 +67,7 @@ func extractFishDataFromPatterns(textContent string, patterns []*regexp.Regexp) 
 	for _, pattern := range patterns {
 		for _, match := range pattern.FindAllStringSubmatch(textContent, -1) {
 			var extractFunc func([]string) FishInfo
+			var extractFuncSlice func([]string) []FishInfo
 			switch pattern {
 			case ReleasePattern:
 				extractFunc = extractInfoFromReleasePattern
@@ -84,13 +87,21 @@ func extractFishDataFromPatterns(textContent string, patterns []*regexp.Regexp) 
 				extractFunc = extractInfoFromNormalPattern
 			case SonnyThrow:
 				extractFunc = extractInfoFromNormalPattern
+			case WinterGift:
+				extractFuncSlice = extractInfoFromWinterGift
+			case BellGift:
+				extractFunc = extractInfoFromReleasePattern
 			case BagPattern:
 				extractFunc = extractInfoFromBagPattern
 			case TournamentPattern:
 				extractFunc = extractInfoFromTData
 			}
 
-			fishCatches = append(fishCatches, extractFunc(match))
+			if pattern != WinterGift {
+				fishCatches = append(fishCatches, extractFunc(match))
+			} else {
+				fishCatches = append(fishCatches, extractFuncSlice(match)...)
+			}
 
 		}
 	}
@@ -179,6 +190,9 @@ func extractInfoFromReleasePattern(match []string) FishInfo {
 	if strings.Contains(match[0], "There was a 🕯️ inside of its hollow interior!") {
 		fishType = "🕯️"
 		catchtype = "releasepumpkin"
+	} else if strings.Contains(match[0], "🎅 Heya there!") {
+		fishType = "🔔"
+		catchtype = "giftbell"
 	} else {
 		fishType = match[7]
 		catchtype = "release"
@@ -230,6 +244,62 @@ func extractInfoFromSquirrelPattern(match []string) FishInfo {
 		Weight:    weight,
 		CatchType: catchtype,
 	}
+}
+
+func extractInfoFromWinterGift(match []string) []FishInfo {
+	dateStr := match[1]
+	bot := match[2]
+	player := match[3]
+	catchtype := "giftwinter2024"
+
+	date, err := utils.ParseDate(dateStr)
+	if err != nil {
+		logs.Logs().Fatal().Err(err).
+			Str("Player", player).
+			Str("Date", dateStr).
+			Msgf("Error parsing date for fish")
+	}
+
+	stuff := strings.Split(match[4], "")
+
+	var gifts []FishInfo
+
+	for _, gift := range stuff {
+
+		// because the ✉️ is two things
+		// and gets split idk it is U+2709 U+FE0F
+
+		var skipthingy bool
+
+		for _, runeidk := range gift {
+			// this is to skip the U+FE0F thing
+			if unicode.IsMark(runeidk) {
+				skipthingy = true
+			}
+		}
+
+		if skipthingy {
+			continue
+		}
+
+		if gift == "✉" {
+			gift = "✉️"
+		}
+
+		fish := FishInfo{
+			Date:      date,
+			Bot:       bot,
+			Player:    player,
+			FishType:  gift,
+			Weight:    0.0,
+			CatchType: catchtype,
+		}
+
+		gifts = append(gifts, fish)
+	}
+
+	return gifts
+
 }
 
 func extractInfoFromBagPattern(match []string) FishInfo {
