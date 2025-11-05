@@ -25,8 +25,6 @@ type PlayerProfile struct {
 
 	Other OtherAchievements `json:"Other accomplishments"`
 
-	Stars        int                  `json:"-"`
-	StarsGlow    int                  `json:"-"`
 	Treasures    TreasureProgress     `json:"-"`
 	SonnyDay     SonnyDayProgress     `json:"-"`
 	MythicalFish MythicalFishProgress `json:"-"`
@@ -55,8 +53,6 @@ type PlayerProfile struct {
 
 	FishSeen      []string         `json:"-"`
 	FishSeenTotal *TotalChatStruct `json:"Fish seen in total"`
-
-	// most recent newest fish ?
 
 	FishData map[string]*ProfileFishData `json:"Data about each of their seen fish"`
 
@@ -111,9 +107,18 @@ type BugsProgress struct {
 }
 
 type OtherAchievements struct {
-	Other      []string      `json:"Accomplishments"`
-	HasShiny   bool          `json:"-"`
-	ShinyCatch []ProfileFish `json:"Shinies"`
+	HasOtherStuff bool
+	HasShiny      bool
+	ShinyMessage  []string
+	ShinyCatch    []ProfileFish
+	HasPresents   bool
+	Gifts         map[string]WinterGifts
+}
+
+type WinterGifts struct {
+	Presents []string
+	Date     string
+	Chat     string
 }
 
 // different struct for bag so that it doesnt show weight

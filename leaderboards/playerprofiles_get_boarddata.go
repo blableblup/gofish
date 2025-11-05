@@ -396,7 +396,8 @@ func GetTheShiniesForPlayerProfiles(params LeaderboardParams, Profiles map[int]*
 			Profiles[fish.PlayerID].Other.HasShiny = true
 
 			// update the achievment
-			Profiles[fish.PlayerID].Other.Other = append(Profiles[fish.PlayerID].Other.Other, "Has caught a shiny !")
+			Profiles[fish.PlayerID].Other.HasOtherStuff = true
+			Profiles[fish.PlayerID].Other.ShinyMessage = append(Profiles[fish.PlayerID].Other.ShinyMessage, "Has caught a shiny !")
 
 		}
 	}

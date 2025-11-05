@@ -332,7 +332,7 @@ func writeCount(filePath string, fishCaught map[int]BoardData, oldCountRecord ma
 
 	if board == "uniquefish" {
 
-		notes = append(notes, "This does not include fish seen through 🎁 gifts or through releasing to another player during the winter events!",
+		notes = append(notes, "This does not include fish seen through gifting to another player during the winter events!",
 			fmt.Sprintf("Only showing fishers who have seen >= %d fish", countlimit))
 
 	} else {

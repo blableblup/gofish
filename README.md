@@ -21,4 +21,4 @@
 
 * Some gaps I know about which weren't filled with data from other instances: Small gap for [logs.spanix.team](https://logs.spanix.team/channel/omie/user/gofishgame/2025/1) from 2025-01-21 05:18:08 to 2025-01-23 01:32:54. Week 2025-04-20/26 in logs.spanix but idk when extactly.
 
-* Fish seen through gifts 🎁 and through releasing to another player during the winter events were not added to the database.
+* Fish seen through gifting to another player during the winter events were not added to the database.

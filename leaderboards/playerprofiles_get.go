@@ -183,35 +183,6 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 		}
 	}
 
-	// The first seen bag which had the ✉️ letter in it
-	queryFirstSeenLetterBag := `
-		select bag, chat, date, b.playerid
-		from bag b
-		join
-		(
-		select min(date) as min_date, playerid
-		from bag
-		where playerid = any($1)
-		and date < $2
-	  	and date > $3
-		and '✉️' = any(bag)
-		group by playerid
-		) bag on b.playerid = bag.playerid and b.date = bag.min_date`
-
-	letterbags, err := ReturnFishSliceQueryValidPlayers(params, queryFirstSeenLetterBag, validPlayers)
-	if err != nil {
-		return Profiles, err
-	}
-
-	for _, bag := range letterbags {
-		Profiles[bag.PlayerID].SonnyDay.HasLetter = true
-		Profiles[bag.PlayerID].SonnyDay.LetterInBagReceived = bag.Date
-		Profiles[bag.PlayerID].Stars++
-
-		HowManyPlayersHaveRecords["letter"]++
-		PlayersWithRecordsPlayerIDs["letter"] = append(PlayersWithRecordsPlayerIDs["letter"], bag.PlayerID)
-	}
-
 	// The fish type caught count per year per chat per catchtype
 	queryFishTypesCaughtCountYearChat := `
 		select count(*),
@@ -359,6 +330,58 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 			return Profiles[fishu.PlayerID].FishNotSeen[i] < Profiles[fishu.PlayerID].FishNotSeen[j]
 		})
 
+	}
+
+	queryWinterGifts := `
+		SELECT weight, fishname, chat, date, catchtype, playerid 
+		FROM fish
+		WHERE playerid = any($1)
+		AND date < $2
+	  	AND date > $3
+		and catchtype like 'giftwinter%'
+		order by date desc
+	`
+
+	wintergifts, err := ReturnFishSliceQueryValidPlayers(params, queryWinterGifts, validPlayers)
+	if err != nil {
+		return Profiles, err
+	}
+
+	for _, fishu := range wintergifts {
+
+		if Profiles[fishu.PlayerID].Other.Gifts == nil {
+			Profiles[fishu.PlayerID].Other.HasOtherStuff = true
+			Profiles[fishu.PlayerID].Other.HasPresents = true
+			Profiles[fishu.PlayerID].Other.Gifts = make(map[string]WinterGifts)
+		}
+
+		fishu.DateString = fishu.Date.Format("2006-01-02 15:04:05 UTC")
+
+		if fishu.FishName == "letter" {
+			Profiles[fishu.PlayerID].SonnyDay.HasLetter = true
+			Profiles[fishu.PlayerID].SonnyDay.LetterInBagReceived = fishu.Date
+
+			HowManyPlayersHaveRecords["letter"]++
+			PlayersWithRecordsPlayerIDs["letter"] = append(PlayersWithRecordsPlayerIDs["letter"], fishu.PlayerID)
+		}
+
+		fishu.Fish = fmt.Sprintf("%s %s", EmojisForFish[fishu.FishName], fishu.FishName)
+
+		year := fmt.Sprintf("%d", fishu.Date.Year())
+
+		var Presents WinterGifts
+
+		// this can be weird, when someone has multiple winter presents
+		// and they release them
+		// date and chat can be wrong
+		// and year if they keep the gift in their bag for multiple years
+
+		Presents.Chat = fishu.Chat
+		Presents.Date = fishu.DateString
+		Presents.Presents = Profiles[fishu.PlayerID].Other.Gifts[year].Presents
+		Presents.Presents = append(Presents.Presents, fishu.Fish)
+
+		Profiles[fishu.PlayerID].Other.Gifts[year] = Presents
 	}
 
 	// The 10 biggest fish per player
@@ -671,7 +694,6 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 
 				if Profiles[fish.PlayerID].Treasures.RedAveryTreasureCount == len(fishLists["r.a.treasure"]) {
 					Profiles[fish.PlayerID].Treasures.HasAllRedAveryTreasure = true
-					Profiles[fish.PlayerID].StarsGlow++
 
 					HowManyPlayersHaveRecords["r.a.treasure"]++
 					PlayersWithRecordsPlayerIDs["r.a.treasure"] = append(PlayersWithRecordsPlayerIDs["r.a.treasure"], fish.PlayerID)
@@ -688,7 +710,6 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 
 				if Profiles[fish.PlayerID].MythicalFish.OriginalMythicalFishCount == len(fishLists["mythic"]) {
 					Profiles[fish.PlayerID].MythicalFish.HasAllOriginalMythicalFish = true
-					Profiles[fish.PlayerID].StarsGlow++
 
 					HowManyPlayersHaveRecords["mythic"]++
 					PlayersWithRecordsPlayerIDs["mythic"] = append(PlayersWithRecordsPlayerIDs["mythic"], fish.PlayerID)
@@ -705,7 +726,6 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 
 				if Profiles[fish.PlayerID].Birds.BirdCount == len(fishLists["bird"]) {
 					Profiles[fish.PlayerID].Birds.HasAllBirds = true
-					Profiles[fish.PlayerID].StarsGlow++
 
 					HowManyPlayersHaveRecords["bird"]++
 					PlayersWithRecordsPlayerIDs["bird"] = append(PlayersWithRecordsPlayerIDs["bird"], fish.PlayerID)

@@ -290,6 +290,12 @@ func CatchtypeNames(pool *pgxpool.Pool) (map[string]string, error) {
 		case "sonnythrow":
 			CatchtypeNames[catchtype] = "Sonny throw"
 
+		case "giftbell":
+			CatchtypeNames[catchtype] = "Bell gift (2024)"
+
+		case "giftwinter2024":
+			CatchtypeNames[catchtype] = "Winter present (2024)"
+
 		}
 	}
 

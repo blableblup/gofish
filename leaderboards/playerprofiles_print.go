@@ -18,9 +18,6 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 
 	// update the progress
 
-	// stars glow is for the rarer stuff
-	// and the normal star for less rare things or unfinished stuff
-
 	// this means that they caught them atleast once
 	// doesnt mean that they still have them in their bag
 	if Profile.MythicalFish.HasAllOriginalMythicalFish {
@@ -65,8 +62,6 @@ func PrintPlayerProfile(Profile *PlayerProfile, EmojisForFish map[string]string,
 			fmt.Sprintf("⭐ Has gotten a letter ✉️ ! (Received: %s UTC)", Profile.SonnyDay.LetterInBagReceived.Format("2006-01-02 15:04:05")))
 	}
 
-	// no star, since it isnt really rare
-	// just means you've been at acorn pond all four seasons + at big
 	if Profile.Flowers.HasAllFlowers {
 		baseText := "💐 Has seen all the flowers:"
 		for _, fish := range fishLists["flower"] {
@@ -128,17 +123,46 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 
 	_, _ = fmt.Fprintln(file)
 
-	PrintSliceMD(Profile.Other.Other, "## Other stuff", file)
-
-	_, _ = fmt.Fprintln(file)
+	if Profile.Other.HasOtherStuff {
+		_, _ = fmt.Fprintln(file, "## Other stuff")
+	}
 
 	if Profile.Other.HasShiny {
+		PrintSliceMD(Profile.Other.ShinyMessage, "", file)
+		_, _ = fmt.Fprintln(file)
+
 		err = PrintTableMD(Profile.Other.ShinyCatch, []string{"Fish", "Weight in lbs", "Catchtype", "Date", "Chat"}, "", "profilefishslice", false, file)
 		if err != nil {
 			return err
 		}
 		_, _ = fmt.Fprintln(file)
 	}
+
+	if Profile.Other.HasPresents {
+
+		for year := range Profile.Other.Gifts {
+
+			_, _ = fmt.Fprint(file, "<details>")
+
+			_, _ = fmt.Fprintf(file, "\n<summary>🎁 Winter Gifts for %s</summary>", year)
+
+			_, _ = fmt.Fprintln(file)
+
+			for _, present := range Profile.Other.Gifts[year].Presents {
+				_, _ = fmt.Fprint(file, present+" ")
+			}
+
+			_, _ = fmt.Fprintf(file, "\n\nReceived at %s in chat %s from 🎅", Profile.Other.Gifts[year].Date, Profile.Other.Gifts[year].Chat)
+
+			_, _ = fmt.Fprintln(file)
+
+			_, _ = fmt.Fprint(file, "\n</details>")
+
+			_, _ = fmt.Fprintln(file)
+		}
+	}
+
+	_, _ = fmt.Fprintln(file)
 
 	_, _ = fmt.Fprintln(file, "---------------")
 
