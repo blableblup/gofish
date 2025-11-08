@@ -16,29 +16,28 @@ func main() {
 	multi := flag.Bool("multi", false, "To also log to a file")
 	pathlog := flag.String("pathlog", "", "If multi is selected, can give the file a different name")
 
-	program := flag.String("p", "", "Program name: boards, data, renamed, verified, pattern")
+	program := flag.String("p", "", "Name of the thing to run")
 	database := flag.String("database", "default", "What databse to connect to. Connects to whatever is named 'default' in sqlconfig.json by default.")
 
 	// For both boards and data
-	mode := flag.String("mode", "", "Modes are different for each program")
+	mode := flag.String("mode", "", "Modes")
 	chatNames := flag.String("chats", "", "Comma-separated list of chat names")
 
 	// Flags for data program
 	numMonths := flag.Int("months", 1, "Number of past months for url")
-	db := flag.String("db", "", "Database to update: fish (f) and tournament results (t)")
-	// To select another justlog instance for a chat if it has one
-	logInstance := flag.String("instance", "0", "Can select another justlog instance for a chat")
+	db := flag.String("db", "", "What data to check")
+	logInstance := flag.String("instance", "0", "Can select another justlog instance for the chats")
 	// This flag is also used for the boards as "date"
 	monthYear := flag.String("dt", "", "Specific month and year for data (yyyy/mm). For the boards, this needs to be yyyy-mm-dd")
 
 	// Flags for boards program
-	title := flag.String("title", "", "Pass a custom title to the board.")
-	limit := flag.String("limit", "", "Custom weight/count limit for the boards")
+	title := flag.String("title", "", "Custom title for board(s)")
+	limit := flag.String("limit", "", "Custom limit for some boards")
 	leaderboard := flag.String("board", "", "Comma-separated list of leaderboards")
-	date2 := flag.String("dt2", "", "Second date for the leaderboards. If you want to get boards for a time period")
-	path := flag.String("path", "", "Give the board a custom name. But you should only do one board at a time with this. Else it will get overwritten.")
+	date2 := flag.String("dt2", "", "Second date for the leaderboards")
+	path := flag.String("path", "", "Different file name for board")
 
-	// For the rename FISH script
+	// to rename fish or channels
 	renamePairs := flag.String("rename", "", "Comma-separated list of oldName:newName pairs")
 
 	flag.Parse()
