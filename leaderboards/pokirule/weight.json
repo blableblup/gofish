@@ -4,13 +4,13 @@
 		"playerid": 125,
 		"weight": 129.04,
 		"bot": "gofishgame",
-		"type": "🐋",
-		"typename": "whale2",
+		"fishtype": "🐋",
+		"fishname": "whale",
 		"catchtype": "normal",
-		"date": "2025-01-08T09:11:26Z",
 		"chat": "pokirule",
 		"fishid": 139816,
 		"chatid": 198,
+		"date": "2025-01-08T09:11:26Z",
 		"rank": 2
 	},
 	"2701": {
@@ -18,13 +18,13 @@
 		"playerid": 2701,
 		"weight": 284.82,
 		"bot": "gofishgame",
-		"type": "🦑",
-		"typename": "squid",
+		"fishtype": "🦑",
+		"fishname": "squid",
 		"catchtype": "normal",
-		"date": "2024-12-25T03:45:28Z",
 		"chat": "pokirule",
 		"fishid": 135093,
 		"chatid": 103,
+		"date": "2024-12-25T03:45:28Z",
 		"rank": 1
 	}
 }

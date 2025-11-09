@@ -4,25 +4,25 @@
 		"playerid": 1310,
 		"weight": 200.06,
 		"bot": "gofishgame",
-		"type": "🐳",
-		"typename": "whale",
+		"fishtype": "🐳",
+		"fishname": "bluewhale",
 		"catchtype": "normal",
-		"date": "2024-01-07T09:31:34Z",
 		"chat": "julialuxel",
 		"fishid": 52955,
-		"chatid": 129
+		"chatid": 129,
+		"date": "2024-01-07T09:31:34Z"
 	},
 	"53602": {
 		"player": "toastyso",
 		"playerid": 2668,
 		"weight": 241.63,
 		"bot": "gofishgame",
-		"type": "🦕",
-		"typename": "sauropod",
+		"fishtype": "🦕",
+		"fishname": "sauropod",
 		"catchtype": "normal",
-		"date": "2024-01-10T01:45:42Z",
 		"chat": "julialuxel",
 		"fishid": 53602,
-		"chatid": 154
+		"chatid": 154,
+		"date": "2024-01-10T01:45:42Z"
 	}
 }

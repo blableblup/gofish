@@ -21,16 +21,16 @@
 | 17    | 🧵 wireline     | 5.77          | osnyisdead | 2024-12-19 09:12:45 |
 | 18    | 🪀 bobber       | 5.27          | osnyisdead | 2024-12-23 13:46:32 |
 | 19    | 🪹 emptynest    | 4.04          | osnyisdead | 2024-12-22 00:23:36 |
-| 20    | 🐋 whale2       | 3.58          | osnyisdead | 2024-12-25 09:19:54 |
+| 20    | 🐋 whale        | 3.58          | osnyisdead | 2024-12-25 09:19:54 |
 | 21    | 🐧 penguin      | 3.16          | osnyisdead | 2025-01-01 22:50:23 |
 | 22    | ☂️ umbrella      | 2.43          | osnyisdead | 2024-10-31 18:58:16 |
 | 23    | 🥪 sandwich     | 1.97          | osnyatsky  | 2024-12-25 08:31:40 |
 | 24    | 👢 boot         | 1.76          | osnyatsky  | 2025-01-06 19:54:33 |
 | 25    | 🦐 shrimp       | 1.24          | osnyisdead | 2024-12-21 05:09:02 |
-| 26    | 🐳 whale        | 1.05          | osnyisdead | 2024-12-27 09:11:26 |
+| 26    | 🐳 bluewhale    | 1.05          | osnyisdead | 2024-12-27 09:11:26 |
 | 27    | 🧦 socks        | 1.03          | osnyisdead | 2024-10-01 17:44:35 |
 | 28    | 🐸 frog         | 0.80          | osnyisdead | 2024-12-22 15:04:14 |
-| 29    | ☘️ shamrock      | 0.65          | osnyisdead | 2024-12-22 01:12:55 |
+| 29    | ☘️ clover        | 0.65          | osnyisdead | 2024-12-22 01:12:55 |
 | 30    | 🥀 wiltedflower | 0.56          | osnyisdead | 2024-12-23 02:34:52 |
 | 31    | 🧸 teddybear    | 0.46          | osnyisdead | 2024-11-13 16:38:50 |
 | 32    | 🧤 gloves       | 0.36          | osnyisdead | 2024-11-07 14:56:08 |
@@ -49,4 +49,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-10-12 08:42:22 UTC_
+_Last updated at 2025-11-09 07:40:45 UTC_

@@ -4,77 +4,77 @@
 		"playerid": 2525,
 		"weight": 239.97,
 		"bot": "gofishgame",
-		"type": "🐉",
-		"typename": "dragon",
+		"fishtype": "🐉",
+		"fishname": "dragon",
 		"catchtype": "normal",
-		"date": "2024-09-12T06:28:16Z",
 		"chat": "omie",
 		"fishid": 100829,
-		"chatid": 373
+		"chatid": 373,
+		"date": "2024-09-12T06:28:16Z"
 	},
 	"103417": {
 		"player": "ritaaww",
 		"playerid": 2813,
 		"weight": 244.55,
 		"bot": "gofishgame",
-		"type": "🦕",
-		"typename": "sauropod",
+		"fishtype": "🦕",
+		"fishname": "sauropod",
 		"catchtype": "normal",
-		"date": "2024-09-25T20:22:24Z",
 		"chat": "omie",
 		"fishid": 103417,
-		"chatid": 419
+		"chatid": 419,
+		"date": "2024-09-25T20:22:24Z"
 	},
 	"110492": {
 		"player": "ritaaww",
 		"playerid": 2813,
 		"weight": 268.76,
 		"bot": "gofishgame",
-		"type": "🐉",
-		"typename": "dragon",
+		"fishtype": "🐉",
+		"fishname": "dragon",
 		"catchtype": "normal",
-		"date": "2024-10-18T13:27:48Z",
 		"chat": "omie",
 		"fishid": 110492,
-		"chatid": 752
+		"chatid": 752,
+		"date": "2024-10-18T13:27:48Z"
 	},
 	"145547": {
 		"player": "v6r_",
 		"playerid": 2941,
 		"weight": 290.44,
 		"bot": "gofishgame",
-		"type": "🐳",
-		"typename": "whale",
+		"fishtype": "🐳",
+		"fishname": "bluewhale",
 		"catchtype": "normal",
-		"date": "2025-02-03T09:08:17Z",
 		"chat": "omie",
 		"fishid": 145547,
-		"chatid": 3739
+		"chatid": 3739,
+		"date": "2025-02-03T09:08:17Z"
 	},
 	"158977": {
 		"player": "mangos4u",
 		"playerid": 3142,
 		"weight": 294.19,
 		"bot": "gofishgame",
-		"type": "🐻‍❄",
-		"typename": "polarbear",
+		"fishtype": "🐻‍❄",
+		"fishname": "polarbear",
 		"catchtype": "normal",
-		"date": "2025-03-25T15:07:02Z",
 		"chat": "omie",
 		"fishid": 158977,
-		"chatid": 5109
+		"chatid": 5109,
+		"date": "2025-03-25T15:07:02Z"
 	},
 	"94573": {
 		"player": "aliveleader",
 		"playerid": 2812,
 		"weight": 220.29,
 		"bot": "gofishgame",
-		"type": "🐉",
-		"typename": "dragon",
+		"fishtype": "🐉",
+		"fishname": "dragon",
 		"catchtype": "normal",
-		"date": "2024-08-09T13:02:52Z",
 		"chat": "omie",
 		"fishid": 94573,
-		"chatid": 121
+		"chatid": 121,
+		"date": "2024-08-09T13:02:52Z"
 	}
 }

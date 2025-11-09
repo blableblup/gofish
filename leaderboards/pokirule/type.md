@@ -5,9 +5,9 @@
 | 1 🥇  | 🦑 squid        | 284.82        | osnyisdead | 2024-12-25 03:45:28 |
 | 2 🥈  | 🦈 shark        | 158.26        | osnyisdead | 2024-12-27 12:28:11 |
 | 3 🥉  | 🐊 crocodile    | 145.09        | osnyisdead | 2024-12-28 18:01:40 |
-| 4     | 🐋 whale2       | 129.04        | osnyatsky  | 2025-01-08 09:11:26 |
+| 4     | 🐋 whale        | 129.04        | osnyatsky  | 2025-01-08 09:11:26 |
 | 5     | 🐙 octopus      | 92.45         | osnyisdead | 2024-10-01 17:06:07 |
-| 6     | 🐳 whale        | 84.72         | osnyatsky  | 2025-01-06 08:36:17 |
+| 6     | 🐳 bluewhale    | 84.72         | osnyatsky  | 2025-01-06 08:36:17 |
 | 7     | 🐢 turtle       | 70.87         | osnyisdead | 2025-01-01 20:06:35 |
 | 8     | 🦭 seal         | 62.93         | osnyisdead | 2025-01-02 21:58:11 |
 | 9     | 🐬 dolphin      | 60.96         | osnyisdead | 2024-12-24 04:35:31 |
@@ -35,7 +35,7 @@
 | 31    | 🪹 emptynest    | 4.04          | osnyisdead | 2024-12-22 00:23:36 |
 | 32    | 🪝 hook         | 3.99          | osnyisdead | 2024-12-26 14:03:30 |
 | 33    | 🐚 shell        | 3.91          | osnyisdead | 2025-01-08 17:43:18 |
-| 34    | ☘️ shamrock      | 3.19          | osnyisdead | 2024-12-22 08:52:15 |
+| 34    | ☘️ clover        | 3.19          | osnyisdead | 2024-12-22 08:52:15 |
 | 35    | ☂️ umbrella      | 2.43          | osnyisdead | 2024-10-31 18:58:16 |
 | 36    | 🎏 lure         | 2.01          | osnyatsky  | 2025-01-07 21:44:32 |
 | 37    | 🥪 sandwich     | 1.97          | osnyatsky  | 2024-12-25 08:31:40 |
@@ -49,4 +49,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-10-12 08:40:43 UTC_
+_Last updated at 2025-11-09 07:42:52 UTC_

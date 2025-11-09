@@ -82,6 +82,20 @@
 		"date": "2024-12-28T14:33:07Z",
 		"rank": 17
 	},
+	"clover": {
+		"player": "chestnutbank",
+		"playerid": 3005,
+		"weight": 2.07,
+		"bot": "gofishgame",
+		"fishtype": "☘️",
+		"fishname": "clover",
+		"catchtype": "normal",
+		"chat": "ryanpotat",
+		"fishid": 181420,
+		"chatid": 134,
+		"date": "2025-06-23T09:04:10Z",
+		"rank": 34
+	},
 	"cockroach": {
 		"player": "chestnutbank",
 		"playerid": 3005,
@@ -319,20 +333,6 @@
 		"date": "2025-06-13T07:34:18Z",
 		"rank": 22
 	},
-	"mushroom": {
-		"player": "lolspers",
-		"playerid": 2989,
-		"weight": 16.1,
-		"bot": "gofishgame",
-		"fishtype": "🍄",
-		"fishname": "mushroom",
-		"catchtype": "normal",
-		"chat": "ryanpotat",
-		"fishid": 117528,
-		"chatid": 12,
-		"date": "2024-11-02T19:41:14Z",
-		"rank": 1
-	},
 	"nestwitheggs": {
 		"player": "lolspers",
 		"playerid": 2989,
@@ -346,6 +346,20 @@
 		"chatid": 78,
 		"date": "2024-12-23T18:12:05Z",
 		"rank": 16
+	},
+	"oceanplant": {
+		"player": "lolspers",
+		"playerid": 2989,
+		"weight": 16.1,
+		"bot": "gofishgame",
+		"fishtype": "🍄",
+		"fishname": "oceanplant",
+		"catchtype": "normal",
+		"chat": "ryanpotat",
+		"fishid": 117528,
+		"chatid": 12,
+		"date": "2024-11-02T19:41:14Z",
+		"rank": 1
 	},
 	"octopus": {
 		"player": "chestnutbank",
@@ -458,20 +472,6 @@
 		"chatid": 125,
 		"date": "2025-06-23T04:19:08Z",
 		"rank": 31
-	},
-	"shamrock": {
-		"player": "chestnutbank",
-		"playerid": 3005,
-		"weight": 2.07,
-		"bot": "gofishgame",
-		"fishtype": "☘️",
-		"fishname": "shamrock",
-		"catchtype": "normal",
-		"chat": "ryanpotat",
-		"fishid": 181420,
-		"chatid": 134,
-		"date": "2025-06-23T09:04:10Z",
-		"rank": 34
 	},
 	"shark": {
 		"player": "respirate_",
@@ -641,13 +641,13 @@
 		"date": "2025-06-23T11:24:55Z",
 		"rank": 36
 	},
-	"whale2": {
+	"whale": {
 		"player": "gofishgamer",
 		"playerid": 2944,
 		"weight": 121.91,
 		"bot": "gofishgame",
 		"fishtype": "🐋",
-		"fishname": "whale2",
+		"fishname": "whale",
 		"catchtype": "normal",
 		"chat": "ryanpotat",
 		"fishid": 211660,

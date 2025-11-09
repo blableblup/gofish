@@ -5,11 +5,11 @@
 | 1 🥇  | 🦕 sauropod     | 241.63        | toastyso           | 2024-01-10 01:45:42 |
 | 2 🥈  | 🐉 dragon       | 211.91        | chubby_________    | 2024-03-30 16:25:01 |
 | 3 🥉  | 🦑 squid        | 208.92        | julialuxel         | 2024-12-29 01:57:03 |
-| 4     | 🐳 whale        | 200.06        | hahppyy            | 2024-01-07 09:31:34 |
+| 4     | 🐳 bluewhale    | 200.06        | hahppyy            | 2024-01-07 09:31:34 |
 | 5     | 🦈 shark        | 183.97        | tucelli            | 2024-02-04 14:44:44 |
 | 6     | 🐙 octopus      | 115.11        | supibot            | 2024-01-04 17:03:52 |
 | 7     | 🦭 seal         | 109.26        | hahppyy            | 2024-01-13 18:01:21 |
-| 8     | 🐋 whale2       | 105.06        | dazedforevermore   | 2024-05-19 08:17:56 |
+| 8     | 🐋 whale        | 105.06        | dazedforevermore   | 2024-05-19 08:17:56 |
 | 9     | 🐬 dolphin      | 96.78         | lazuli672          | 2024-12-31 22:33:51 |
 | 10    | 🐊 crocodile    | 90.80         | toastyso           | 2024-01-06 22:18:16 |
 | 11    | 🐢 turtle       | 80.52         | julialuxel         | 2025-03-16 17:21:06 |
@@ -28,7 +28,7 @@
 | 24    | 🪳 cockroach    | 18.84         | notnownico         | 2024-12-06 00:32:24 |
 | 25    | 🦠 plankton     | 16.85         | toastyso           | 2024-01-03 03:52:07 |
 | 26    | 🦦 otter        | 15.66         | toastyso           | 2024-01-11 15:49:02 |
-| 27    | 🍄 mushroom     | 14.18         | puzzlow            | 2024-01-04 19:15:17 |
+| 27    | 🍄 oceanplant   | 14.18         | puzzlow            | 2024-01-04 19:15:17 |
 | 28    | 🧸 teddybear    | 11.20         | hahppyy            | 2023-12-23 12:43:06 |
 | 29    | 🎱 8ball        | 9.03          | julialuxel         | 2025-03-14 23:02:31 |
 | 30    | 💀 skull        | 8.64          | julialuxel         | 2024-04-01 16:11:26 |
@@ -40,7 +40,7 @@
 | 36    | 🐸 frog         | 4.25          | chubby_________    | 2024-02-11 21:39:37 |
 | 37    | 🎏 lure         | 4.03          | toastyso           | 2023-12-30 14:32:52 |
 | 38    | 🪝 hook         | 3.91          | bubinga            | 2025-02-08 19:33:04 |
-| 39    | ☘️ shamrock      | 3.85          | gawblemachine      | 2024-04-01 15:08:27 |
+| 39    | ☘️ clover        | 3.85          | gawblemachine      | 2024-04-01 15:08:27 |
 | 40    | 🐚 shell        | 3.29          | hahppyy            | 2024-01-10 01:19:04 |
 | 41    | 🪺 nestwitheggs | 2.18          | julialuxel         | 2024-12-24 01:54:16 |
 | 42    | 👢 boot         | 1.95          | hahppyy            | 2024-01-18 23:38:03 |
@@ -51,10 +51,10 @@
 | 47    | 🪱 worm         | 0.99          | kishma9            | 2025-08-28 18:53:36 |
 | 48    | 🌹 rose         | 0.94          | suavvvvv           | 2024-03-29 17:01:59 |
 | 49    | 🧤 gloves       | 0.86          | hahppyy            | 2023-12-25 20:21:08 |
-| 50    | 🐦‍⬛ blackbird    | 0.69          | ninjaross          | 2024-05-04 18:16:52 |
+| 50    | 🐦‍⬛ robin        | 0.69          | ninjaross          | 2024-05-04 18:16:52 |
 | 51    | ⛸️ iceskate      | 0.62          | toastyso           | 2024-01-07 02:21:01 |
 | 52    | 🪀 bobber       | 0.61          | chubby_________    | 2025-06-23 01:43:25 |
-| 53    | 👟 athleticshoe | 0.53          | supibot            | 2024-01-04 18:43:39 |
+| 53    | 👟 sneaker      | 0.53          | supibot            | 2024-01-04 18:43:39 |
 | 54    | 🌿 seaweed      | 0.42          | julialuxel         | 2024-04-01 15:04:41 |
 | 55    | 🫙 jar          | 0.41          | larvaew            | 2025-06-23 00:51:13 |
 | 56    | 🧣 scarf        | 0.37          | hahppyy            | 2023-12-24 23:05:05 |
@@ -62,4 +62,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-10-12 08:40:12 UTC_
+_Last updated at 2025-11-09 07:44:13 UTC_

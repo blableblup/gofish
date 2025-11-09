@@ -2,42 +2,42 @@
 	"35277": {
 		"player": "ovrht",
 		"playerid": 202,
+		"verified": true,
 		"weight": 232.65,
 		"bot": "gofishgame",
-		"type": "🐳",
-		"typename": "whale",
+		"fishtype": "🐳",
+		"fishname": "bluewhale",
 		"catchtype": "normal",
-		"date": "2023-10-14T17:46:23Z",
 		"chat": "ovrht",
 		"fishid": 35277,
 		"chatid": 52,
-		"verified": true
+		"date": "2023-10-14T17:46:23Z"
 	},
 	"47356": {
 		"player": "alenakuz03",
 		"playerid": 2660,
 		"weight": 236.79,
 		"bot": "gofishgame",
-		"type": "🐉",
-		"typename": "dragon",
+		"fishtype": "🐉",
+		"fishname": "dragon",
 		"catchtype": "normal",
-		"date": "2023-12-19T18:47:04Z",
 		"chat": "ovrht",
 		"fishid": 47356,
-		"chatid": 266
+		"chatid": 266,
+		"date": "2023-12-19T18:47:04Z"
 	},
 	"94939": {
 		"player": "ovrht",
 		"playerid": 202,
+		"verified": true,
 		"weight": 287.76,
 		"bot": "gofishgame",
-		"type": "🐳",
-		"typename": "whale",
+		"fishtype": "🐳",
+		"fishname": "bluewhale",
 		"catchtype": "normal",
-		"date": "2024-08-11T09:56:21Z",
 		"chat": "ovrht",
 		"fishid": 94939,
 		"chatid": 628,
-		"verified": true
+		"date": "2024-08-11T09:56:21Z"
 	}
 }

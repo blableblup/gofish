@@ -32,7 +32,7 @@
 		"weight": 103.03,
 		"bot": "gofishgame",
 		"fishtype": "🐋",
-		"fishname": "whale2",
+		"fishname": "whale",
 		"catchtype": "normal",
 		"chat": "d_egree",
 		"fishid": 163758,
@@ -51,5 +51,18 @@
 		"fishid": 212131,
 		"chatid": 359,
 		"date": "2025-11-01T16:50:51Z"
+	},
+	"212891": {
+		"player": "chestnutbank",
+		"playerid": 3005,
+		"weight": 278.07,
+		"bot": "gofishgame",
+		"fishtype": "🦕",
+		"fishname": "sauropod",
+		"catchtype": "normal",
+		"chat": "d_egree",
+		"fishid": 212891,
+		"chatid": 447,
+		"date": "2025-11-03T18:45:59Z"
 	}
 }

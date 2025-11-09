@@ -29,20 +29,6 @@
 		"date": "2024-09-30T23:18:34Z",
 		"rank": 45
 	},
-	"athleticshoe": {
-		"player": "supibot",
-		"playerid": 1461,
-		"weight": 0.53,
-		"bot": "gofishgame",
-		"fishtype": "👟",
-		"fishname": "athleticshoe",
-		"catchtype": "normal",
-		"chat": "julialuxel",
-		"fishid": 52273,
-		"chatid": 108,
-		"date": "2024-01-04T18:43:39Z",
-		"rank": 53
-	},
 	"bat": {
 		"player": "leanmeister",
 		"playerid": 135,
@@ -73,20 +59,6 @@
 		"date": "2024-10-04T20:54:33Z",
 		"rank": 18
 	},
-	"blackbird": {
-		"player": "ninjaross",
-		"playerid": 14,
-		"weight": 0.69,
-		"bot": "gofishgame",
-		"fishtype": "🐦‍⬛",
-		"fishname": "blackbird",
-		"catchtype": "egg",
-		"chat": "julialuxel",
-		"fishid": 76330,
-		"chatid": 283,
-		"date": "2024-05-04T18:16:52Z",
-		"rank": 50
-	},
 	"blowfish": {
 		"player": "toastyso",
 		"playerid": 2668,
@@ -100,6 +72,20 @@
 		"chatid": 45,
 		"date": "2023-12-27T10:41:27Z",
 		"rank": 23
+	},
+	"bluewhale": {
+		"player": "hahppyy",
+		"playerid": 1310,
+		"weight": 200.06,
+		"bot": "gofishgame",
+		"fishtype": "🐳",
+		"fishname": "bluewhale",
+		"catchtype": "normal",
+		"chat": "julialuxel",
+		"fishid": 52955,
+		"chatid": 129,
+		"date": "2024-01-07T09:31:34Z",
+		"rank": 4
 	},
 	"bobber": {
 		"player": "chubby_________",
@@ -143,6 +129,20 @@
 		"chatid": 217,
 		"date": "2024-01-25T13:31:20Z",
 		"rank": 43
+	},
+	"clover": {
+		"player": "gawblemachine",
+		"playerid": 2125,
+		"weight": 3.85,
+		"bot": "gofishgame",
+		"fishtype": "☘️",
+		"fishname": "clover",
+		"catchtype": "normal",
+		"chat": "julialuxel",
+		"fishid": 70496,
+		"chatid": 270,
+		"date": "2024-04-01T15:08:27Z",
+		"rank": 39
 	},
 	"cockroach": {
 		"player": "notnownico",
@@ -388,21 +388,6 @@
 		"date": "2023-12-30T14:32:52Z",
 		"rank": 37
 	},
-	"mushroom": {
-		"player": "puzzlow",
-		"playerid": 90,
-		"verified": true,
-		"weight": 14.18,
-		"bot": "gofishgame",
-		"fishtype": "🍄",
-		"fishname": "mushroom",
-		"catchtype": "normal",
-		"chat": "julialuxel",
-		"fishid": 52276,
-		"chatid": 109,
-		"date": "2024-01-04T19:15:17Z",
-		"rank": 27
-	},
 	"nestwitheggs": {
 		"player": "julialuxel",
 		"playerid": 64,
@@ -417,6 +402,21 @@
 		"chatid": 305,
 		"date": "2024-12-24T01:54:16Z",
 		"rank": 41
+	},
+	"oceanplant": {
+		"player": "puzzlow",
+		"playerid": 90,
+		"verified": true,
+		"weight": 14.18,
+		"bot": "gofishgame",
+		"fishtype": "🍄",
+		"fishname": "oceanplant",
+		"catchtype": "normal",
+		"chat": "julialuxel",
+		"fishid": 52276,
+		"chatid": 109,
+		"date": "2024-01-04T19:15:17Z",
+		"rank": 27
 	},
 	"octopus": {
 		"player": "supibot",
@@ -489,6 +489,20 @@
 		"chatid": 90,
 		"date": "2024-01-03T03:52:07Z",
 		"rank": 25
+	},
+	"robin": {
+		"player": "ninjaross",
+		"playerid": 14,
+		"weight": 0.69,
+		"bot": "gofishgame",
+		"fishtype": "🐦‍⬛",
+		"fishname": "robin",
+		"catchtype": "egg",
+		"chat": "julialuxel",
+		"fishid": 76330,
+		"chatid": 283,
+		"date": "2024-05-04T18:16:52Z",
+		"rank": 50
 	},
 	"rock": {
 		"player": "hahppyy",
@@ -575,20 +589,6 @@
 		"date": "2024-04-01T15:04:41Z",
 		"rank": 54
 	},
-	"shamrock": {
-		"player": "gawblemachine",
-		"playerid": 2125,
-		"weight": 3.85,
-		"bot": "gofishgame",
-		"fishtype": "☘️",
-		"fishname": "shamrock",
-		"catchtype": "normal",
-		"chat": "julialuxel",
-		"fishid": 70496,
-		"chatid": 270,
-		"date": "2024-04-01T15:08:27Z",
-		"rank": 39
-	},
 	"shark": {
 		"player": "tucelli",
 		"playerid": 2672,
@@ -673,6 +673,20 @@
 		"chatid": 214,
 		"date": "2024-01-24T16:47:43Z",
 		"rank": 19
+	},
+	"sneaker": {
+		"player": "supibot",
+		"playerid": 1461,
+		"weight": 0.53,
+		"bot": "gofishgame",
+		"fishtype": "👟",
+		"fishname": "sneaker",
+		"catchtype": "normal",
+		"chat": "julialuxel",
+		"fishid": 52273,
+		"chatid": 108,
+		"date": "2024-01-04T18:43:39Z",
+		"rank": 53
 	},
 	"socks": {
 		"player": "chubby_________",
@@ -764,27 +778,13 @@
 		"rank": 11
 	},
 	"whale": {
-		"player": "hahppyy",
-		"playerid": 1310,
-		"weight": 200.06,
-		"bot": "gofishgame",
-		"fishtype": "🐳",
-		"fishname": "whale",
-		"catchtype": "normal",
-		"chat": "julialuxel",
-		"fishid": 52955,
-		"chatid": 129,
-		"date": "2024-01-07T09:31:34Z",
-		"rank": 4
-	},
-	"whale2": {
 		"player": "dazedforevermore",
 		"playerid": 56,
 		"verified": true,
 		"weight": 105.06,
 		"bot": "gofishgame",
 		"fishtype": "🐋",
-		"fishname": "whale2",
+		"fishname": "whale",
 		"catchtype": "normal",
 		"chat": "julialuxel",
 		"fishid": 79058,

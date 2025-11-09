@@ -5,20 +5,20 @@
 | 1 🥇  | rustezzz         | 64          |
 | 2 🥈  | bubinga          | 47          |
 | 3 🥉  | aquaismissing    | 34          |
+| 4 ⬆   | glorpiusbot      | 32 (+9)     |
 | 4     | stofeyxd*        | 32          |
-| 5     | likedom_         | 31          |
-| 6     | yyaaaaaaaas      | 27          |
-| 7     | kaitechpl        | 26          |
-| 7     | velantix*        | 26          |
-| 9 ⬆   | glorpiusbot      | 23 (+2)     |
-| 9     | poggu_           | 23          |
-| 11 ⬆  | desxyne          | 20 (+6)     |
-| 12 ⬇  | aistyrax3        | 19          |
-| 12 ⬇  | dom1torii        | 19          |
-| 14 ⬇  | kaczer1          | 18          |
-| 15 ⬇  | kam3l_           | 17          |
-| 15 ⬇  | kargalay         | 17          |
-| 17 ⬇  | ggmagician       | 16          |
+| 6 ⬇   | likedom_         | 31          |
+| 7 ⬆   | desxyne          | 29 (+9)     |
+| 8 ⬇   | yyaaaaaaaas      | 27          |
+| 9 ⬇   | kaitechpl        | 26          |
+| 9 ⬇   | velantix*        | 26          |
+| 11 ⬇  | poggu_           | 23          |
+| 12    | dom1torii        | 20 (+1)     |
+| 13 ⬇  | aistyrax3        | 19          |
+| 14    | kaczer1          | 18          |
+| 14 ⬆  | kam3l_           | 18 (+1)     |
+| 16 ⬇  | kargalay         | 17          |
+| 17    | ggmagician       | 16          |
 | 18    | vigilworld*      | 13          |
 | 19    | tetohasgone      | 12          |
 | 20    | buck101_         | 11          |
@@ -29,4 +29,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-11-02 08:32:38 UTC_
+_Last updated at 2025-11-09 07:45:13 UTC_

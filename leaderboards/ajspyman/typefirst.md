@@ -4,12 +4,12 @@
 |:-----|:----------------|:--------------|:-------------|:--------------------|
 | 44   | 🦕 sauropod     | 246.44        | respirate_   | 2025-10-31 02:48:20 |
 | 43   | 🐸 frog         | 4.12          | chestnutbank | 2025-10-31 02:11:19 |
-| 42   | 🐦 bird         | 2.32          | chestnutbank | 2025-10-31 02:06:20 |
+| 42   | 🐦 cardinal     | 2.32          | chestnutbank | 2025-10-31 02:06:20 |
 | 41   | 🦎 lizard       | 3.93          | chestnutbank | 2025-10-31 01:23:53 |
 | 40   | 🪹 emptynest    | 8.17          | chestnutbank | 2025-09-22 00:16:00 |
 | 39   | 🪺 nestwitheggs | 6.28          | chestnutbank | 2025-09-21 21:39:34 |
 | 38   | 🦇 bat          | 5.23          | respirate_   | 2025-09-21 17:43:29 |
-| 37   | ☘️ shamrock      | 3.41          | chestnutbank | 2025-09-20 03:48:10 |
+| 37   | ☘️ clover        | 3.41          | chestnutbank | 2025-09-20 03:48:10 |
 | 36   | 📱 iphone       | 0.88          | chestnutbank | 2025-09-19 23:16:33 |
 | 35   | 🧵 wireline     | 0.38          | respirate_   | 2025-09-19 22:11:04 |
 | 34   | 🐙 octopus      | 75.23         | ajspyman     | 2025-09-19 21:52:10 |
@@ -31,7 +31,7 @@
 | 18   | 🦈 shark        | 115.62        | respirate_   | 2025-08-25 04:54:55 |
 | 17   | 💀 skull        | 5.94          | chestnutbank | 2025-08-25 02:38:36 |
 | 16   | 🐠 tropicalfish | 1.72          | gofishgamer  | 2025-08-25 01:49:02 |
-| 15   | 🥒 cucumber     | 29.13         | chestnutbank | 2025-08-25 00:42:18 |
+| 15   | 🥒 seacucumber  | 29.13         | chestnutbank | 2025-08-25 00:42:18 |
 | 14   | 🦞 lobster      | 9.12          | respirate_   | 2025-08-25 00:40:51 |
 | 13   | 🦀 crab         | 35.83         | gofishgamer  | 2025-08-24 23:37:07 |
 | 12   | 🦑 squid        | 22.58         | chestnutbank | 2025-07-09 04:10:52 |
@@ -47,4 +47,4 @@
 | 2    | 🐟 fish         | 9.95          | juliilan     | 2024-05-22 23:39:16 |
 | 1    | 🪝 hook         | 0.34          | breadworms   | 2024-05-15 14:30:25 |
 
-_Last updated at 2025-11-02 08:32:40 UTC_
+_Last updated at 2025-11-09 07:45:15 UTC_

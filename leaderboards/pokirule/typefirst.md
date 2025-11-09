@@ -2,29 +2,30 @@
 
 | Rank | Fish            | Weight in lbs | Player     | Date in UTC         |
 |:-----|:----------------|:--------------|:-----------|:--------------------|
-| 44   | 🧃 beveragebox  | 10.04         | larvaew    | 2025-06-12 04:24:59 |
-| 43   | 👢 boot         | 1.76          | osnyatsky  | 2025-01-06 19:54:33 |
-| 42   | 🥫 cannedfood   | 4.34          | osnyisdead | 2025-01-02 00:49:39 |
-| 41   | ⛸️ iceskate      | 0.25          | osnyisdead | 2025-01-02 00:18:53 |
-| 40   | 🦈 shark        | 119.03        | osnyisdead | 2024-12-26 23:32:18 |
-| 39   | 🐳 whale        | 13.99         | osnyisdead | 2024-12-26 12:55:00 |
-| 38   | 🦭 seal         | 59.77         | osnyisdead | 2024-12-25 21:50:50 |
-| 37   | 🥪 sandwich     | 1.97          | osnyatsky  | 2024-12-25 08:31:40 |
-| 36   | 🐌 snail        | 8.38          | osnyisdead | 2024-12-24 18:43:50 |
-| 35   | 🐧 penguin      | 25.00         | osnyisdead | 2024-12-24 13:32:05 |
-| 34   | 🐍 snake        | 11.95         | osnyisdead | 2024-12-24 08:19:00 |
-| 33   | 🪱 worm         | 9.03          | osnyisdead | 2024-12-24 06:39:42 |
-| 32   | 🦞 lobster      | 35.97         | osnyisdead | 2024-12-23 18:36:22 |
-| 31   | 🍬 candy        | 0.22          | osnyisdead | 2024-12-23 13:13:40 |
-| 30   | 🥀 wiltedflower | 0.56          | osnyisdead | 2024-12-23 02:34:52 |
-| 29   | 🪀 bobber       | 0.00          | osnyisdead | 2024-12-22 13:27:32 |
-| 28   | ☘️ shamrock      | 0.65          | osnyisdead | 2024-12-22 01:12:55 |
-| 27   | 🪹 emptynest    | 4.04          | osnyisdead | 2024-12-22 00:23:36 |
-| 26   | 🪺 nestwitheggs | 9.38          | osnyisdead | 2024-12-21 04:31:32 |
-| 25   | 🐢 turtle       | 9.49          | osnyisdead | 2024-12-21 03:47:03 |
-| 24   | 📱 iphone       | 0.26          | osnyisdead | 2024-12-21 00:29:30 |
-| 23   | 🐋 whale2       | 31.97         | osnyisdead | 2024-12-20 19:59:18 |
-| 22   | 🧊 icecube      | 0.10          | osnyisdead | 2024-12-20 18:34:55 |
+| 45   | 🧃 beveragebox  | 10.04         | larvaew    | 2025-06-12 04:24:59 |
+| 44   | 👢 boot         | 1.76          | osnyatsky  | 2025-01-06 19:54:33 |
+| 43   | 🥫 cannedfood   | 4.34          | osnyisdead | 2025-01-02 00:49:39 |
+| 42   | ⛸️ iceskate      | 0.25          | osnyisdead | 2025-01-02 00:18:53 |
+| 41   | 🦈 shark        | 119.03        | osnyisdead | 2024-12-26 23:32:18 |
+| 40   | 🐳 bluewhale    | 13.99         | osnyisdead | 2024-12-26 12:55:00 |
+| 39   | 🦭 seal         | 59.77         | osnyisdead | 2024-12-25 21:50:50 |
+| 38   | 🥪 sandwich     | 1.97          | osnyatsky  | 2024-12-25 08:31:40 |
+| 37   | 🐌 snail        | 8.38          | osnyisdead | 2024-12-24 18:43:50 |
+| 36   | 🐧 penguin      | 25.00         | osnyisdead | 2024-12-24 13:32:05 |
+| 35   | 🐍 snake        | 11.95         | osnyisdead | 2024-12-24 08:19:00 |
+| 34   | 🪱 worm         | 9.03          | osnyisdead | 2024-12-24 06:39:42 |
+| 33   | 🦞 lobster      | 35.97         | osnyisdead | 2024-12-23 18:36:22 |
+| 32   | 🍬 candy        | 0.22          | osnyisdead | 2024-12-23 13:13:40 |
+| 31   | 🥀 wiltedflower | 0.56          | osnyisdead | 2024-12-23 02:34:52 |
+| 30   | 🪀 bobber       | 0.00          | osnyisdead | 2024-12-22 13:27:32 |
+| 29   | ☘️ clover        | 0.65          | osnyisdead | 2024-12-22 01:12:55 |
+| 28   | 🪹 emptynest    | 4.04          | osnyisdead | 2024-12-22 00:23:36 |
+| 27   | 🪺 nestwitheggs | 9.38          | osnyisdead | 2024-12-21 04:31:32 |
+| 26   | 🐢 turtle       | 9.49          | osnyisdead | 2024-12-21 03:47:03 |
+| 25   | 📱 iphone       | 0.26          | osnyisdead | 2024-12-21 00:29:30 |
+| 24   | 🐋 whale        | 31.97         | osnyisdead | 2024-12-20 19:59:18 |
+| 23   | 🧊 icecube      | 0.10          | osnyisdead | 2024-12-20 18:34:55 |
+| 22   | 🔔 bell         | 0.00          | osnyisdead | 2024-12-20 17:17:36 |
 | 21   | 🦎 lizard       | 0.11          | osnyisdead | 2024-12-20 12:06:10 |
 | 20   | 🎱 8ball        | 6.92          | osnyisdead | 2024-12-19 09:52:13 |
 | 19   | 🧵 wireline     | 5.77          | osnyisdead | 2024-12-19 09:12:45 |
@@ -47,4 +48,4 @@
 | 2    | 🐟 fish         | 18.70         | osnyisdead | 2024-10-01 00:57:38 |
 | 1    | 🐸 frog         | 4.68          | osnyisdead | 2024-09-30 22:45:01 |
 
-_Last updated at 2025-10-12 08:39:47 UTC_
+_Last updated at 2025-11-09 07:45:14 UTC_

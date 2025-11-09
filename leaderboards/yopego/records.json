@@ -4,38 +4,51 @@
 		"playerid": 677,
 		"weight": 111.12,
 		"bot": "gofishgame",
-		"type": "🐊",
-		"typename": "crocodile",
+		"fishtype": "🐊",
+		"fishname": "crocodile",
 		"catchtype": "normal",
-		"date": "2024-10-22T16:52:29Z",
 		"chat": "yopego",
 		"fishid": 150705,
-		"chatid": 60
+		"chatid": 60,
+		"date": "2024-10-22T16:52:29Z"
 	},
 	"150807": {
 		"player": "jasonnguyenv12",
-		"playerid": 3591,
+		"playerid": 1087,
 		"weight": 113.93,
 		"bot": "gofishgame",
-		"type": "🦕",
-		"typename": "sauropod",
+		"fishtype": "🦕",
+		"fishname": "sauropod",
 		"catchtype": "normal",
-		"date": "2024-11-09T08:53:13Z",
 		"chat": "yopego",
 		"fishid": 150807,
-		"chatid": 141
+		"chatid": 141,
+		"date": "2024-11-09T08:53:13Z"
 	},
 	"150824": {
 		"player": "grumpo_",
 		"playerid": 3587,
 		"weight": 126.17,
 		"bot": "gofishgame",
-		"type": "🐋",
-		"typename": "whale2",
+		"fishtype": "🐋",
+		"fishname": "whale",
 		"catchtype": "normal",
-		"date": "2024-11-23T19:15:16Z",
 		"chat": "yopego",
 		"fishid": 150824,
-		"chatid": 149
+		"chatid": 149,
+		"date": "2024-11-23T19:15:16Z"
+	},
+	"213682": {
+		"player": "respirate_",
+		"playerid": 2525,
+		"weight": 170.29,
+		"bot": "gofishgame",
+		"fishtype": "🐍",
+		"fishname": "snake",
+		"catchtype": "normal",
+		"chat": "yopego",
+		"fishid": 213682,
+		"chatid": 207,
+		"date": "2025-11-05T11:06:34Z"
 	}
 }

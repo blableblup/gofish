@@ -8,15 +8,15 @@
 | 4     | osnyisdead | 🦈 shark        | 158.26        | 2024-12-27 12:28:11 |
 | 5     | osnyisdead | 🦑 squid        | 157.86        | 2024-12-26 21:57:37 |
 | 6     | osnyisdead | 🐊 crocodile    | 145.09        | 2024-12-28 18:01:40 |
-| 7     | osnyatsky  | 🐋 whale2       | 129.04        | 2025-01-08 09:11:26 |
+| 7     | osnyatsky  | 🐋 whale        | 129.04        | 2025-01-08 09:11:26 |
 | 8     | osnyisdead | 🐊 crocodile    | 128.00        | 2024-12-24 15:55:05 |
-| 9     | osnyisdead | 🐋 whale2       | 123.43        | 2024-12-26 15:33:36 |
+| 9     | osnyisdead | 🐋 whale        | 123.43        | 2024-12-26 15:33:36 |
 | 10    | osnyisdead | 🐊 crocodile    | 120.95        | 2024-12-24 09:35:41 |
 | 11    | osnyisdead | 🦈 shark        | 119.03        | 2024-12-26 23:32:18 |
 | 12    | osnyisdead | 🐊 crocodile    | 109.18        | 2024-12-25 07:58:04 |
-| 13    | osnyisdead | 🐋 whale2       | 96.86         | 2024-12-24 10:37:41 |
+| 13    | osnyisdead | 🐋 whale        | 96.86         | 2024-12-24 10:37:41 |
 | 14    | osnyisdead | 🐙 octopus      | 92.45         | 2024-10-01 17:06:07 |
-| 15    | osnyatsky  | 🐳 whale        | 84.72         | 2025-01-06 08:36:17 |
+| 15    | osnyatsky  | 🐳 bluewhale    | 84.72         | 2025-01-06 08:36:17 |
 | 16    | osnyisdead | 🐢 turtle       | 70.87         | 2025-01-01 20:06:35 |
 | 17    | osnyisdead | 🐊 crocodile    | 69.34         | 2025-01-07 14:20:06 |
 | 18    | osnyisdead | 🐢 turtle       | 66.77         | 2025-01-07 21:38:55 |
@@ -38,9 +38,9 @@
 | 34    | osnyisdead | 🦑 squid        | 33.54         | 2024-10-01 22:53:59 |
 | 35    | osnyisdead | 🦞 lobster      | 32.50         | 2024-12-25 00:36:05 |
 | 36    | osnyisdead | 🐊 crocodile    | 32.16         | 2024-10-24 19:52:27 |
-| 37    | osnyisdead | 🐋 whale2       | 31.97         | 2024-12-20 19:59:18 |
+| 37    | osnyisdead | 🐋 whale        | 31.97         | 2024-12-20 19:59:18 |
 | 38    | osnyisdead | 🐙 octopus      | 31.76         | 2024-12-23 18:02:28 |
-| 39    | osnyisdead | 🐋 whale2       | 31.62         | 2024-12-26 19:48:19 |
+| 39    | osnyisdead | 🐋 whale        | 31.62         | 2024-12-26 19:48:19 |
 | 40    | osnyisdead | 🐙 octopus      | 31.21         | 2024-12-25 10:44:31 |
 | 41    | osnyatsky  | 🦐 shrimp       | 30.91         | 2025-01-08 21:50:50 |
 | 42    | osnyisdead | 🦪 oyster       | 29.01         | 2024-12-27 11:32:45 |
@@ -54,7 +54,7 @@
 | 50    | osnyisdead | 🦐 shrimp       | 22.15         | 2024-12-23 20:19:57 |
 | 51    | osnyisdead | 🦞 lobster      | 22.12         | 2025-01-08 22:19:01 |
 | 52    | osnyisdead | 🦪 oyster       | 22.10         | 2024-11-07 18:02:49 |
-| 53    | osnyisdead | 🐋 whale2       | 20.37         | 2024-12-24 07:24:33 |
+| 53    | osnyisdead | 🐋 whale        | 20.37         | 2024-12-24 07:24:33 |
 | 54    | osnyisdead | 🦐 shrimp       | 19.03         | 2025-01-08 16:19:43 |
 | 55    | osnyisdead | 🐟 fish         | 18.75         | 2024-12-23 19:27:13 |
 | 56    | osnyisdead | 🐟 fish         | 18.70         | 2024-10-01 00:57:38 |
@@ -70,19 +70,19 @@
 | 66    | osnyisdead | 🐟 fish         | 14.60         | 2025-01-06 16:55:38 |
 | 67    | osnyisdead | 🐟 fish         | 14.38         | 2024-11-14 17:13:02 |
 | 68    | osnyatsky  | 🐟 fish         | 14.16         | 2025-01-06 22:55:34 |
-| 69    | osnyisdead | 🐳 whale        | 13.99         | 2024-12-26 12:55:00 |
+| 69    | osnyisdead | 🐳 bluewhale    | 13.99         | 2024-12-26 12:55:00 |
 | 70    | osnyisdead | 🐢 turtle       | 13.23         | 2024-12-26 00:24:56 |
 | 71    | osnyisdead | 🦪 oyster       | 12.70         | 2025-01-07 18:29:50 |
 | 72    | osnyisdead | 🐧 penguin      | 12.14         | 2024-12-25 23:45:28 |
 | 73    | osnyisdead | 🐟 fish         | 11.98         | 2025-01-06 08:04:41 |
 | 74    | osnyisdead | 🐍 snake        | 11.95         | 2024-12-24 08:19:00 |
 | 75    | osnyisdead | 🧸 teddybear    | 10.90         | 2025-01-08 20:47:55 |
-| 76    | osnyisdead | 🐋 whale2       | 10.82         | 2024-12-25 22:35:20 |
+| 76    | osnyisdead | 🐋 whale        | 10.82         | 2024-12-25 22:35:20 |
 | 77    | osnyisdead | 🦐 shrimp       | 10.69         | 2024-12-27 21:11:00 |
 | 78    | osnyatsky  | 🪱 worm         | 10.40         | 2025-01-08 18:07:55 |
 | 79    | larvaew    | 🧃 beveragebox  | 10.04         | 2025-06-12 04:24:59 |
 | 80    | osnyatsky  | 🐟 fish         | 9.81          | 2024-12-23 19:00:46 |
-| 81    | osnyisdead | 🐳 whale        | 9.78          | 2024-12-29 14:38:54 |
+| 81    | osnyisdead | 🐳 bluewhale    | 9.78          | 2024-12-29 14:38:54 |
 | 82    | osnyisdead | 🐌 snail        | 9.62          | 2024-12-25 15:27:25 |
 | 83    | osnyatsky  | 🐙 octopus      | 9.57          | 2025-01-07 23:14:44 |
 | 84    | osnyatsky  | 🧊 icecube      | 9.51          | 2025-01-06 17:00:49 |
@@ -103,4 +103,4 @@
 | 99    | osnyisdead | 🦎 lizard       | 7.09          | 2024-12-22 08:16:44 |
 | 100   | osnyisdead | 🐌 snail        | 6.97          | 2024-12-27 14:09:53 |
 
-_Last updated at 2025-10-12 08:39:40 UTC_
+_Last updated at 2025-11-09 07:44:57 UTC_

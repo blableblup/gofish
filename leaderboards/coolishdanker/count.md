@@ -2,7 +2,7 @@
 
 | Rank  | Player            | Fish caught |
 |:------|:------------------|:------------|
-| 1 🥇  | fenix8            | 53 (+1)     |
+| 1 🥇  | fenix8            | 53          |
 | 2 🥈  | destructionvibe   | 24          |
 | 3 🥉  | jaial             | 19          |
 | 3 🥉  | yxnggon           | 19          |
@@ -16,4 +16,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-10-12 08:39:47 UTC_
+_Last updated at 2025-11-09 07:45:13 UTC_

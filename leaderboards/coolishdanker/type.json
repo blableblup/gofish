@@ -13,6 +13,20 @@
 		"date": "2025-01-28T02:17:23Z",
 		"rank": 31
 	},
+	"bluewhale": {
+		"player": "fenix8",
+		"playerid": 3360,
+		"weight": 57.74,
+		"bot": "gofishgame",
+		"fishtype": "🐳",
+		"fishname": "bluewhale",
+		"catchtype": "normal",
+		"chat": "coolishdanker",
+		"fishid": 151071,
+		"chatid": 50,
+		"date": "2025-01-13T06:38:53Z",
+		"rank": 7
+	},
 	"boot": {
 		"player": "fenix8",
 		"playerid": 3360,
@@ -195,13 +209,13 @@
 		"date": "2025-01-14T16:49:05Z",
 		"rank": 24
 	},
-	"mushroom": {
+	"oceanplant": {
 		"player": "jaial",
 		"playerid": 3616,
 		"weight": 17.15,
 		"bot": "gofishgame",
 		"fishtype": "🍄",
-		"fishname": "mushroom",
+		"fishname": "oceanplant",
 		"catchtype": "normal",
 		"chat": "coolishdanker",
 		"fishid": 151135,
@@ -420,26 +434,12 @@
 		"rank": 8
 	},
 	"whale": {
-		"player": "fenix8",
-		"playerid": 3360,
-		"weight": 57.74,
-		"bot": "gofishgame",
-		"fishtype": "🐳",
-		"fishname": "whale",
-		"catchtype": "normal",
-		"chat": "coolishdanker",
-		"fishid": 151071,
-		"chatid": 50,
-		"date": "2025-01-13T06:38:53Z",
-		"rank": 7
-	},
-	"whale2": {
 		"player": "yxnggon",
 		"playerid": 3615,
 		"weight": 146.22,
 		"bot": "gofishgame",
 		"fishtype": "🐋",
-		"fishname": "whale2",
+		"fishname": "whale",
 		"catchtype": "normal",
 		"chat": "coolishdanker",
 		"fishid": 151089,

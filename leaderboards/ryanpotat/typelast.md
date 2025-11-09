@@ -7,7 +7,7 @@
 | 46   | 🐊 crocodile    | 147.43        | chestnutbank | 2025-10-31 14:54:20 |
 | 45   | 🐟 fish         | 7.66          | gofishgamer  | 2025-10-31 14:54:11 |
 | 44   | 🦈 shark        | 2.11          | respirate_   | 2025-10-31 11:24:29 |
-| 43   | 🐋 whale2       | 121.91        | gofishgamer  | 2025-10-31 10:56:54 |
+| 43   | 🐋 whale        | 121.91        | gofishgamer  | 2025-10-31 10:56:54 |
 | 42   | 🐬 dolphin      | 20.59         | chestnutbank | 2025-10-31 05:42:32 |
 | 41   | 🪝 hook         | 2.42          | chestnutbank | 2025-10-31 04:39:51 |
 | 40   | 🦞 lobster      | 22.83         | respirate_   | 2025-10-31 03:49:14 |
@@ -16,7 +16,7 @@
 | 37   | 🪀 bobber       | 0.00          | chestnutbank | 2025-07-11 07:31:44 |
 | 36   | 🐢 turtle       | 20.53         | chestnutbank | 2025-06-23 11:24:55 |
 | 35   | 🌻 sunflower    | 1.53          | chestnutbank | 2025-06-23 09:57:01 |
-| 34   | ☘️ shamrock      | 2.07          | chestnutbank | 2025-06-23 09:04:10 |
+| 34   | ☘️ clover        | 2.07          | chestnutbank | 2025-06-23 09:04:10 |
 | 33   | 🦎 lizard       | 3.28          | respirate_   | 2025-06-23 08:59:44 |
 | 32   | 🐸 frog         | 1.69          | respirate_   | 2025-06-23 07:18:04 |
 | 31   | 🌿 seaweed      | 0.42          | respirate_   | 2025-06-23 04:19:08 |
@@ -49,6 +49,6 @@
 | 4    | 💀 skull        | 9.90          | n1nzin_      | 2024-11-18 08:43:42 |
 | 3    | 🧸 teddybear    | 2.99          | n1nzin_      | 2024-11-17 15:46:37 |
 | 2    | 🪸 coral        | 2.75          | lolspers     | 2024-11-06 20:30:17 |
-| 1    | 🍄 mushroom     | 16.10         | lolspers     | 2024-11-02 19:41:14 |
+| 1    | 🍄 oceanplant   | 16.10         | lolspers     | 2024-11-02 19:41:14 |
 
-_Last updated at 2025-11-02 08:32:34 UTC_
+_Last updated at 2025-11-09 07:45:01 UTC_

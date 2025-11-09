@@ -4,25 +4,25 @@
 		"playerid": 3446,
 		"weight": 119.78,
 		"bot": "gofishgame",
-		"type": "🐙",
-		"typename": "octopus",
+		"fishtype": "🐙",
+		"fishname": "octopus",
 		"catchtype": "normal",
-		"date": "2024-09-21T17:32:06Z",
 		"chat": "xriggby",
 		"fishid": 150602,
-		"chatid": 12
+		"chatid": 12,
+		"date": "2024-09-21T17:32:06Z"
 	},
 	"150823": {
 		"player": "tipicogato",
 		"playerid": 3446,
 		"weight": 122.08,
 		"bot": "gofishgame",
-		"type": "🐋",
-		"typename": "whale2",
+		"fishtype": "🐋",
+		"fishname": "whale",
 		"catchtype": "normal",
-		"date": "2024-11-23T01:48:09Z",
 		"chat": "xriggby",
 		"fishid": 150823,
-		"chatid": 68
+		"chatid": 68,
+		"date": "2024-11-23T01:48:09Z"
 	}
 }

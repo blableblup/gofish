@@ -2,12 +2,12 @@
 
 | Rank  | Player      | Fish seen |
 |:------|:------------|:----------|
-| 1 🥇  | konsminator | 52 (+2)   |
+| 1 🥇  | konsminator | 52        |
 | 2 🥈  | mowogan     | 49        |
 | 3 🥉  | lolspers    | 23        |
 
-_This does not include fish seen through 🎁 gifts or through releasing to another player during the winter events!_
+_This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2025-11-02 08:30:55 UTC_
+_Last updated at 2025-11-09 07:44:58 UTC_

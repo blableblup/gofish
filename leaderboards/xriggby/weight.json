@@ -4,13 +4,13 @@
 		"playerid": 2925,
 		"weight": 104.78,
 		"bot": "gofishgame",
-		"type": "🐬",
-		"typename": "dolphin",
+		"fishtype": "🐬",
+		"fishname": "dolphin",
 		"catchtype": "normal",
-		"date": "2024-11-06T03:24:11Z",
 		"chat": "xriggby",
 		"fishid": 150796,
 		"chatid": 61,
+		"date": "2024-11-06T03:24:11Z",
 		"rank": 2
 	},
 	"3446": {
@@ -18,13 +18,13 @@
 		"playerid": 3446,
 		"weight": 122.08,
 		"bot": "gofishgame",
-		"type": "🐋",
-		"typename": "whale2",
+		"fishtype": "🐋",
+		"fishname": "whale",
 		"catchtype": "normal",
-		"date": "2024-11-23T01:48:09Z",
 		"chat": "xriggby",
 		"fishid": 150823,
 		"chatid": 68,
+		"date": "2024-11-23T01:48:09Z",
 		"rank": 1
 	}
 }

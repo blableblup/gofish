@@ -13,6 +13,19 @@
 		"date": "2024-12-19T09:52:13Z",
 		"rank": 20
 	},
+	"bell": {
+		"player": "osnyisdead",
+		"playerid": 2701,
+		"bot": "gofishgame",
+		"fishtype": "🔔",
+		"fishname": "bell",
+		"catchtype": "giftbell",
+		"chat": "pokirule",
+		"fishid": 213088,
+		"chatid": 217,
+		"date": "2024-12-20T17:17:36Z",
+		"rank": 22
+	},
 	"beveragebox": {
 		"player": "larvaew",
 		"playerid": 1212,
@@ -25,7 +38,21 @@
 		"fishid": 178944,
 		"chatid": 216,
 		"date": "2025-06-12T04:24:59Z",
-		"rank": 44
+		"rank": 45
+	},
+	"bluewhale": {
+		"player": "osnyisdead",
+		"playerid": 2701,
+		"weight": 13.99,
+		"bot": "gofishgame",
+		"fishtype": "🐳",
+		"fishname": "bluewhale",
+		"catchtype": "normal",
+		"chat": "pokirule",
+		"fishid": 135693,
+		"chatid": 124,
+		"date": "2024-12-26T12:55:00Z",
+		"rank": 40
 	},
 	"bobber": {
 		"player": "osnyisdead",
@@ -38,7 +65,7 @@
 		"fishid": 133702,
 		"chatid": 67,
 		"date": "2024-12-22T13:27:32Z",
-		"rank": 29
+		"rank": 30
 	},
 	"boot": {
 		"player": "osnyatsky",
@@ -52,7 +79,7 @@
 		"fishid": 139427,
 		"chatid": 182,
 		"date": "2025-01-06T19:54:33Z",
-		"rank": 43
+		"rank": 44
 	},
 	"candy": {
 		"player": "osnyisdead",
@@ -66,7 +93,7 @@
 		"fishid": 134149,
 		"chatid": 75,
 		"date": "2024-12-23T13:13:40Z",
-		"rank": 31
+		"rank": 32
 	},
 	"cannedfood": {
 		"player": "osnyisdead",
@@ -80,7 +107,21 @@
 		"fishid": 137884,
 		"chatid": 163,
 		"date": "2025-01-02T00:49:39Z",
-		"rank": 42
+		"rank": 43
+	},
+	"clover": {
+		"player": "osnyisdead",
+		"playerid": 2701,
+		"weight": 0.65,
+		"bot": "gofishgame",
+		"fishtype": "☘️",
+		"fishname": "clover",
+		"catchtype": "normal",
+		"chat": "pokirule",
+		"fishid": 133535,
+		"chatid": 59,
+		"date": "2024-12-22T01:12:55Z",
+		"rank": 29
 	},
 	"cockroach": {
 		"player": "osnyisdead",
@@ -150,7 +191,7 @@
 		"fishid": 133526,
 		"chatid": 58,
 		"date": "2024-12-22T00:23:36Z",
-		"rank": 27
+		"rank": 28
 	},
 	"fish": {
 		"player": "osnyisdead",
@@ -220,7 +261,7 @@
 		"fishid": 132802,
 		"chatid": 44,
 		"date": "2024-12-20T18:34:55Z",
-		"rank": 22
+		"rank": 23
 	},
 	"iceskate": {
 		"player": "osnyisdead",
@@ -234,7 +275,7 @@
 		"fishid": 137876,
 		"chatid": 162,
 		"date": "2025-01-02T00:18:53Z",
-		"rank": 41
+		"rank": 42
 	},
 	"iphone": {
 		"player": "osnyisdead",
@@ -248,7 +289,7 @@
 		"fishid": 132929,
 		"chatid": 47,
 		"date": "2024-12-21T00:29:30Z",
-		"rank": 24
+		"rank": 25
 	},
 	"lizard": {
 		"player": "osnyisdead",
@@ -276,7 +317,7 @@
 		"fishid": 134353,
 		"chatid": 82,
 		"date": "2024-12-23T18:36:22Z",
-		"rank": 32
+		"rank": 33
 	},
 	"lure": {
 		"player": "osnyisdead",
@@ -304,7 +345,7 @@
 		"fishid": 133032,
 		"chatid": 52,
 		"date": "2024-12-21T04:31:32Z",
-		"rank": 26
+		"rank": 27
 	},
 	"octopus": {
 		"player": "osnyisdead",
@@ -346,7 +387,7 @@
 		"fishid": 134740,
 		"chatid": 96,
 		"date": "2024-12-24T13:32:05Z",
-		"rank": 35
+		"rank": 36
 	},
 	"sandwich": {
 		"player": "osnyatsky",
@@ -360,7 +401,7 @@
 		"fishid": 135170,
 		"chatid": 107,
 		"date": "2024-12-25T08:31:40Z",
-		"rank": 37
+		"rank": 38
 	},
 	"seal": {
 		"player": "osnyisdead",
@@ -374,21 +415,7 @@
 		"fishid": 135452,
 		"chatid": 118,
 		"date": "2024-12-25T21:50:50Z",
-		"rank": 38
-	},
-	"shamrock": {
-		"player": "osnyisdead",
-		"playerid": 2701,
-		"weight": 0.65,
-		"bot": "gofishgame",
-		"fishtype": "☘️",
-		"fishname": "shamrock",
-		"catchtype": "normal",
-		"chat": "pokirule",
-		"fishid": 133535,
-		"chatid": 59,
-		"date": "2024-12-22T01:12:55Z",
-		"rank": 28
+		"rank": 39
 	},
 	"shark": {
 		"player": "osnyisdead",
@@ -402,7 +429,7 @@
 		"fishid": 135925,
 		"chatid": 132,
 		"date": "2024-12-26T23:32:18Z",
-		"rank": 40
+		"rank": 41
 	},
 	"shell": {
 		"player": "osnyisdead",
@@ -444,7 +471,7 @@
 		"fishid": 134893,
 		"chatid": 101,
 		"date": "2024-12-24T18:43:50Z",
-		"rank": 36
+		"rank": 37
 	},
 	"snake": {
 		"player": "osnyisdead",
@@ -458,7 +485,7 @@
 		"fishid": 134643,
 		"chatid": 92,
 		"date": "2024-12-24T08:19:00Z",
-		"rank": 34
+		"rank": 35
 	},
 	"socks": {
 		"player": "osnyisdead",
@@ -528,7 +555,7 @@
 		"fishid": 133014,
 		"chatid": 51,
 		"date": "2024-12-21T03:47:03Z",
-		"rank": 25
+		"rank": 26
 	},
 	"umbrella": {
 		"player": "osnyisdead",
@@ -547,30 +574,16 @@
 	"whale": {
 		"player": "osnyisdead",
 		"playerid": 2701,
-		"weight": 13.99,
-		"bot": "gofishgame",
-		"fishtype": "🐳",
-		"fishname": "whale",
-		"catchtype": "normal",
-		"chat": "pokirule",
-		"fishid": 135693,
-		"chatid": 124,
-		"date": "2024-12-26T12:55:00Z",
-		"rank": 39
-	},
-	"whale2": {
-		"player": "osnyisdead",
-		"playerid": 2701,
 		"weight": 31.97,
 		"bot": "gofishgame",
 		"fishtype": "🐋",
-		"fishname": "whale2",
+		"fishname": "whale",
 		"catchtype": "normal",
 		"chat": "pokirule",
 		"fishid": 132832,
 		"chatid": 46,
 		"date": "2024-12-20T19:59:18Z",
-		"rank": 23
+		"rank": 24
 	},
 	"wiltedflower": {
 		"player": "osnyisdead",
@@ -584,7 +597,7 @@
 		"fishid": 134014,
 		"chatid": 72,
 		"date": "2024-12-23T02:34:52Z",
-		"rank": 30
+		"rank": 31
 	},
 	"wireline": {
 		"player": "osnyisdead",
@@ -612,6 +625,6 @@
 		"fishid": 134622,
 		"chatid": 90,
 		"date": "2024-12-24T06:39:42Z",
-		"rank": 33
+		"rank": 34
 	}
 }

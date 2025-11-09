@@ -83,6 +83,20 @@
 		"date": "2024-12-04T12:00:47Z",
 		"rank": 30
 	},
+	"clover": {
+		"player": "respirate_",
+		"playerid": 2525,
+		"weight": 0.72,
+		"bot": "gofishgame",
+		"fishtype": "☘️",
+		"fishname": "clover",
+		"catchtype": "normal",
+		"chat": "ryanpotat",
+		"fishid": 181329,
+		"chatid": 119,
+		"date": "2025-06-23T01:54:42Z",
+		"rank": 31
+	},
 	"cockroach": {
 		"player": "n1nzin_",
 		"playerid": 3447,
@@ -321,20 +335,6 @@
 		"date": "2025-06-12T18:38:21Z",
 		"rank": 39
 	},
-	"mushroom": {
-		"player": "lolspers",
-		"playerid": 2989,
-		"weight": 16.1,
-		"bot": "gofishgame",
-		"fishtype": "🍄",
-		"fishname": "mushroom",
-		"catchtype": "normal",
-		"chat": "ryanpotat",
-		"fishid": 117528,
-		"chatid": 12,
-		"date": "2024-11-02T19:41:14Z",
-		"rank": 11
-	},
 	"nestwitheggs": {
 		"player": "lolspers",
 		"playerid": 2989,
@@ -348,6 +348,20 @@
 		"chatid": 78,
 		"date": "2024-12-23T18:12:05Z",
 		"rank": 16
+	},
+	"oceanplant": {
+		"player": "lolspers",
+		"playerid": 2989,
+		"weight": 16.1,
+		"bot": "gofishgame",
+		"fishtype": "🍄",
+		"fishname": "oceanplant",
+		"catchtype": "normal",
+		"chat": "ryanpotat",
+		"fishid": 117528,
+		"chatid": 12,
+		"date": "2024-11-02T19:41:14Z",
+		"rank": 11
 	},
 	"octopus": {
 		"player": "n1nzin_",
@@ -460,20 +474,6 @@
 		"chatid": 20,
 		"date": "2024-11-14T11:50:50Z",
 		"rank": 45
-	},
-	"shamrock": {
-		"player": "respirate_",
-		"playerid": 2525,
-		"weight": 0.72,
-		"bot": "gofishgame",
-		"fishtype": "☘️",
-		"fishname": "shamrock",
-		"catchtype": "normal",
-		"chat": "ryanpotat",
-		"fishid": 181329,
-		"chatid": 119,
-		"date": "2025-06-23T01:54:42Z",
-		"rank": 31
 	},
 	"shark": {
 		"player": "respirate_",
@@ -643,13 +643,13 @@
 		"date": "2025-06-23T11:24:55Z",
 		"rank": 7
 	},
-	"whale2": {
+	"whale": {
 		"player": "n1nzin_",
 		"playerid": 3447,
 		"weight": 55.6,
 		"bot": "gofishgame",
 		"fishtype": "🐋",
-		"fishname": "whale2",
+		"fishname": "whale",
 		"catchtype": "normal",
 		"chat": "ryanpotat",
 		"fishid": 122089,

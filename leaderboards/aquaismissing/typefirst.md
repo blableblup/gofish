@@ -2,11 +2,13 @@
 
 | Rank | Fish            | Weight in lbs | Player        | Date in UTC         |
 |:-----|:----------------|:--------------|:--------------|:--------------------|
+| 57   | 🎃 pumpkin      | 3.61          | glorpiusbot   | 2025-11-03 17:12:45 |
+| 56   | 🎱 8ball        | 0.38          | glorpiusbot   | 2025-11-03 00:29:03 |
 | 55   | 🌰 acorn        | 3.14          | glorpiusbot   | 2025-10-03 14:12:03 |
 | 54   | 🩴 thongsandal  | 1.76          | kam3l_        | 2025-09-27 08:44:11 |
 | 53   | 🦎 lizard       | 7.57          | bubinga       | 2025-09-24 07:03:29 |
 | 52   | 🧵 wireline     | 0.37          | glorpiusbot   | 2025-09-19 09:56:00 |
-| 51   | 🥒 cucumber     | 16.88         | buck101_      | 2025-07-04 11:13:46 |
+| 51   | 🥒 seacucumber  | 16.88         | buck101_      | 2025-07-04 11:13:46 |
 | 50   | 🪼 jellyfish    | 9.74          | ievantee      | 2025-06-30 22:06:29 |
 | 49   | 🐉 dragon       | 135.54        | rustezzz      | 2025-06-28 18:52:37 |
 | 48   | 🎰 slotmachine  | 0.00          | flovrek       | 2025-06-21 15:05:16 |
@@ -15,7 +17,7 @@
 | 45   | 🪨 rock         | 21.29         | bubinga       | 2025-04-28 20:44:15 |
 | 44   | 🪸 coral        | 22.57         | bubinga       | 2025-03-30 19:43:14 |
 | 43   | 🗡️ dagger        | 20.44         | ggmagician    | 2025-03-30 18:37:05 |
-| 42   | 🐳 whale        | 88.80         | vigilworld    | 2025-02-23 19:30:19 |
+| 42   | 🐳 bluewhale    | 88.80         | vigilworld    | 2025-02-23 19:30:19 |
 | 41   | 🩰 balletshoes  | 1.25          | delfino921    | 2025-02-22 23:48:09 |
 | 40   | 🐍 snake        | 29.64         | dom1torii     | 2025-02-20 23:26:35 |
 | 39   | 🦈 shark        | 46.64         | yyaaaaaaaas   | 2025-02-05 04:06:13 |
@@ -26,11 +28,11 @@
 | 34   | 🦠 plankton     | 15.80         | mishashto     | 2024-12-11 05:17:21 |
 | 33   | ☂️ umbrella      | 1.80          | likedom_      | 2024-12-10 18:28:18 |
 | 32   | 🕷️ spider        | 17.79         | aquaismissing | 2024-12-10 11:21:57 |
-| 31   | 🍄 mushroom     | 1.20          | tetohasgone   | 2024-12-10 06:29:31 |
+| 31   | 🍄 oceanplant   | 1.20          | tetohasgone   | 2024-12-10 06:29:31 |
 | 30   | 🦦 otter        | 9.19          | aquaismissing | 2024-12-10 03:53:30 |
 | 29   | 🧤 gloves       | 0.67          | yureedtv      | 2024-12-08 13:58:18 |
 | 28   | 🐬 dolphin      | 17.51         | mrboringcom   | 2024-12-05 02:30:17 |
-| 27   | 🐋 whale2       | 94.60         | likedom_      | 2024-12-02 07:42:34 |
+| 27   | 🐋 whale        | 94.60         | likedom_      | 2024-12-02 07:42:34 |
 | 26   | 🥪 sandwich     | 0.71          | aquaismissing | 2024-12-02 05:35:34 |
 | 25   | 🧊 icecube      | 4.82          | likedom_      | 2024-12-02 05:21:01 |
 | 24   | 🐡 blowfish     | 25.12         | poggu_        | 2024-12-01 21:24:56 |
@@ -58,4 +60,4 @@
 | 2    | 🪝 hook         | 0.88          | vladik4il     | 2024-11-26 16:02:08 |
 | 1    | 🧦 socks        | 0.82          | aquaismissing | 2024-11-26 15:51:47 |
 
-_Last updated at 2025-10-05 08:45:12 UTC_
+_Last updated at 2025-11-09 07:45:15 UTC_

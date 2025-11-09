@@ -69,20 +69,6 @@
 		"date": "2025-08-27T00:36:51Z",
 		"rank": 15
 	},
-	"bird": {
-		"player": "chestnutbank",
-		"playerid": 3005,
-		"weight": 2.32,
-		"bot": "gofishgame",
-		"fishtype": "🐦",
-		"fishname": "bird",
-		"catchtype": "egg",
-		"chat": "ajspyman",
-		"fishid": 211574,
-		"chatid": 124,
-		"date": "2025-10-31T02:06:20Z",
-		"rank": 41
-	},
 	"bobber": {
 		"player": "gofishgamer",
 		"playerid": 2944,
@@ -125,6 +111,20 @@
 		"date": "2025-08-27T03:08:20Z",
 		"rank": 17
 	},
+	"cardinal": {
+		"player": "chestnutbank",
+		"playerid": 3005,
+		"weight": 2.32,
+		"bot": "gofishgame",
+		"fishtype": "🐦",
+		"fishname": "cardinal",
+		"catchtype": "egg",
+		"chat": "ajspyman",
+		"fishid": 211574,
+		"chatid": 124,
+		"date": "2025-10-31T02:06:20Z",
+		"rank": 41
+	},
 	"caterpillar": {
 		"player": "respirate_",
 		"playerid": 2525,
@@ -138,6 +138,20 @@
 		"chatid": 90,
 		"date": "2025-08-28T17:05:28Z",
 		"rank": 24
+	},
+	"clover": {
+		"player": "respirate_",
+		"playerid": 2525,
+		"weight": 0.66,
+		"bot": "gofishgame",
+		"fishtype": "☘️",
+		"fishname": "clover",
+		"catchtype": "normal",
+		"chat": "ajspyman",
+		"fishid": 200860,
+		"chatid": 116,
+		"date": "2025-09-21T23:53:33Z",
+		"rank": 34
 	},
 	"crab": {
 		"player": "gofishgamer",
@@ -166,20 +180,6 @@
 		"chatid": 78,
 		"date": "2025-08-27T16:18:19Z",
 		"rank": 21
-	},
-	"cucumber": {
-		"player": "chestnutbank",
-		"playerid": 3005,
-		"weight": 29.13,
-		"bot": "gofishgame",
-		"fishtype": "🥒",
-		"fishname": "cucumber",
-		"catchtype": "normal",
-		"chat": "ajspyman",
-		"fishid": 194693,
-		"chatid": 24,
-		"date": "2025-08-25T00:42:18Z",
-		"rank": 5
 	},
 	"dolphin": {
 		"player": "larvaew",
@@ -419,19 +419,19 @@
 		"date": "2025-10-31T02:48:20Z",
 		"rank": 44
 	},
-	"shamrock": {
-		"player": "respirate_",
-		"playerid": 2525,
-		"weight": 0.66,
+	"seacucumber": {
+		"player": "chestnutbank",
+		"playerid": 3005,
+		"weight": 29.13,
 		"bot": "gofishgame",
-		"fishtype": "☘️",
-		"fishname": "shamrock",
+		"fishtype": "🥒",
+		"fishname": "seacucumber",
 		"catchtype": "normal",
 		"chat": "ajspyman",
-		"fishid": 200860,
-		"chatid": 116,
-		"date": "2025-09-21T23:53:33Z",
-		"rank": 34
+		"fishid": 194693,
+		"chatid": 24,
+		"date": "2025-08-25T00:42:18Z",
+		"rank": 5
 	},
 	"shark": {
 		"player": "respirate_",

@@ -4,38 +4,38 @@
 		"playerid": 457,
 		"weight": 268.92,
 		"bot": "gofishgame",
-		"type": "🦕",
-		"typename": "sauropod",
+		"fishtype": "🦕",
+		"fishname": "sauropod",
 		"catchtype": "normal",
-		"date": "2024-12-15T05:53:55Z",
 		"chat": "wuh6",
 		"fishid": 130905,
-		"chatid": 118
+		"chatid": 118,
+		"date": "2024-12-15T05:53:55Z"
 	},
 	"131193": {
 		"player": "nndiana",
 		"playerid": 269,
 		"weight": 271.1,
 		"bot": "gofishgame",
-		"type": "🐳",
-		"typename": "whale",
+		"fishtype": "🐳",
+		"fishname": "bluewhale",
 		"catchtype": "normal",
-		"date": "2024-12-16T03:14:55Z",
 		"chat": "wuh6",
 		"fishid": 131193,
-		"chatid": 269
+		"chatid": 269,
+		"date": "2024-12-16T03:14:55Z"
 	},
 	"135129": {
 		"player": "eeziiii",
 		"playerid": 2578,
 		"weight": 311.04,
 		"bot": "gofishgame",
-		"type": "🦑",
-		"typename": "squid",
+		"fishtype": "🦑",
+		"fishname": "squid",
 		"catchtype": "normal",
-		"date": "2024-12-25T06:20:38Z",
 		"chat": "wuh6",
 		"fishid": 135129,
-		"chatid": 2121
+		"chatid": 2121,
+		"date": "2024-12-25T06:20:38Z"
 	}
 }

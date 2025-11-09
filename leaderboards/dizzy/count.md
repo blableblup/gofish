@@ -2,27 +2,27 @@
 
 | Rank  | Player         | Fish caught |
 |:------|:---------------|:------------|
-| 1 🥇  | buhl00n        | 2456 (+2)   |
-| 2 🥈  | gimmeschmoneys | 1086        |
-| 3 🥉  | keplepn3       | 1085        |
-| 4     | ben_vincent    | 773         |
+| 1 🥇  | buhl00n        | 2463        |
+| 2 🥈  | keplepn3       | 1092        |
+| 3 🥉  | gimmeschmoneys | 1090        |
+| 4     | ben_vincent    | 776         |
 | 5     | lolspers       | 620         |
-| 6     | iam_haunt      | 535         |
+| 6     | iam_haunt      | 536         |
 | 7     | spanmer        | 366         |
 | 8     | konsminator    | 326         |
-| 9     | ofaisalz       | 313         |
+| 9     | ofaisalz       | 319 (+1)    |
 | 10    | rabituwu       | 243         |
 | 11    | notnownico     | 232         |
-| 12    | vagdy          | 226 (+1)    |
+| 12    | vagdy          | 227 (+1)    |
 | 13    | hamoodhabibee  | 210         |
 | 14    | simplydrack    | 183         |
 | 15    | ssenario       | 171         |
-| 16    | tairaaaaa      | 166         |
-| 17    | mousee93       | 165 (+1)    |
+| 16    | tairaaaaa      | 169         |
+| 17    | mousee93       | 165         |
 | 18    | kyonuwu        | 144         |
-| 19    | sugur          | 134         |
-| 20    | burnend        | 133         |
-| 21    | exo9*          | 131         |
+| 19    | sugur          | 137         |
+| 20    | exo9*          | 135         |
+| 21    | burnend        | 133         |
 | 22    | aceleju        | 120         |
 | 23    | kukkuri        | 110         |
 | 24    | paperboat99    | 105         |
@@ -41,19 +41,19 @@
 | 37    | popfizzgg      | 48          |
 | 37    | rougep1rate    | 48          |
 | 39    | maccat1337     | 47          |
-| 40    | youngstercal   | 42          |
+| 39    | youngstercal   | 47          |
 | 41    | dizzy          | 41          |
 | 42    | deadl3gs       | 40          |
 | 43    | nocer2k        | 38          |
+| 44    | ahxle          | 37          |
 | 44    | gigi           | 37          |
 | 44    | gizbart        | 37          |
-| 46    | fvkdylan       | 33          |
-| 47    | ahxle          | 31          |
-| 47    | anothercull    | 31          |
-| 47    | avrwhy         | 31          |
-| 47    | reallyxtra     | 31          |
-| 47    | yadduh         | 31          |
+| 47    | anothercull    | 34          |
+| 48    | fvkdylan       | 33          |
+| 49    | avrwhy         | 31          |
+| 49    | reallyxtra     | 31          |
+| 49    | yadduh         | 31          |
 
 _Only showing fishers who caught >= 30 fish_
 
-_Last updated at 2025-11-02 08:32:38 UTC_
+_Last updated at 2025-11-09 07:45:13 UTC_

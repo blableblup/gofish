@@ -3,28 +3,28 @@
 | Rank | Fish             | Weight in lbs | Player              | Date in UTC         |
 |:-----|:-----------------|:--------------|:--------------------|:--------------------|
 | 68   | 🌹 rose          | 0.36          | mademooselle        | 2025-10-11 03:06:44 |
-| 67   | 🍁 mapleleaf     | 0.82          | mademooselle        | 2025-10-06 07:00:34 |
+| 67   | 🍁 leaf          | 0.82          | mademooselle        | 2025-10-06 07:00:34 |
 | 66   | 🌰 acorn         | 0.01          | aaurie              | 2025-10-04 06:13:57 |
 | 65   | 🛢️ oildrum        | 59.51         | jeffbethyname69     | 2025-08-11 03:23:15 |
 | 64   | 🪵 log           | 11.18         | abelito75           | 2025-08-04 03:34:44 |
 | 63   | 🧃 beveragebox   | 2.48          | dolp_fin            | 2025-07-11 22:58:52 |
 | 62   | 🕶️ darksunglasses | 4.65          | dolp_fin            | 2025-07-11 01:58:28 |
-| 61   | 👒 womanshat     | 5.69          | amatusz             | 2025-07-07 03:54:58 |
+| 61   | 👒 hat           | 5.69          | amatusz             | 2025-07-07 03:54:58 |
 | 60   | 🧜‍♀️ mermaid       | 80.38         | dolp_fin            | 2025-06-10 05:18:43 |
 | 59   | 🌻 sunflower     | 0.79          | aaurie              | 2025-06-03 03:11:27 |
-| 58   | 🧞‍♂ malegenie     | 104.01        | dolp_fin            | 2025-05-27 01:57:20 |
+| 58   | 🧞‍♂ genie         | 104.01        | dolp_fin            | 2025-05-27 01:57:20 |
 | 57   | 🍬 candy         | 0.00          | aaurie              | 2025-05-26 10:50:53 |
 | 56   | ☂️ umbrella       | 1.89          | hashmeer_           | 2025-05-17 23:55:55 |
 | 55   | 🩴 thongsandal   | 1.28          | yourdadscameraroll  | 2025-05-10 06:38:16 |
-| 54   | 🥒 cucumber      | 0.51          | preemalone          | 2025-05-09 02:55:03 |
+| 54   | 🥒 seacucumber   | 0.51          | preemalone          | 2025-05-09 02:55:03 |
 | 53   | 🩲 briefs        | 4.90          | darkbingus          | 2025-05-06 06:56:33 |
 | 52   | 🪼 jellyfish     | 8.71          | dolp_fin            | 2025-05-03 05:29:51 |
 | 51   | 🪶 feather       | 0.44          | wildturky82         | 2025-04-28 04:05:13 |
 | 50   | 🩰 balletshoes   | 0.38          | victorvondoom313    | 2025-04-28 01:54:30 |
 | 49   | 🥪 sandwich      | 1.59          | guy_farting420      | 2025-04-16 13:29:07 |
-| 48   | 🐳 whale         | 208.86        | boogie310_          | 2025-04-15 05:22:19 |
+| 48   | 🐳 bluewhale     | 208.86        | boogie310_          | 2025-04-15 05:22:19 |
 | 47   | 👑 crown         | 38.17         | allspice_boatrace   | 2025-04-08 01:50:15 |
-| 46   | ☘️ shamrock       | 1.46          | aaurie              | 2025-04-05 03:48:04 |
+| 46   | ☘️ clover         | 1.46          | aaurie              | 2025-04-05 03:48:04 |
 | 45   | 🦫 beaver        | 15.30         | slimdoggiedog       | 2025-03-29 03:22:14 |
 | 44   | 🦎 lizard        | 7.66          | aaurie              | 2025-03-29 01:03:36 |
 | 43   | 🦈 shark         | 24.47         | vahdthenpc          | 2025-03-28 00:24:36 |
@@ -65,10 +65,10 @@
 | 8    | 🎏 lure          | 0.95          | hashmeer_           | 2025-03-07 04:23:51 |
 | 7    | 🐍 snake         | 14.55         | boogie310_          | 2025-03-07 04:19:26 |
 | 6    | 🐟 fish          | 3.53          | rustnroll           | 2025-03-07 04:15:16 |
-| 5    | 🐋 whale2        | 117.85        | rustnroll           | 2025-03-07 02:11:09 |
+| 5    | 🐋 whale         | 117.85        | rustnroll           | 2025-03-07 02:11:09 |
 | 4    | 🦞 lobster       | 43.26         | jeffbethyname69     | 2025-03-07 02:11:00 |
 | 3    | 🌿 seaweed       | 0.49          | goodtubbaa          | 2025-03-07 02:10:18 |
 | 2    | 🪝 hook          | 1.12          | aaurie              | 2025-03-07 01:01:14 |
 | 1    | 🐠 tropicalfish  | 21.11         | dwaynepounder       | 2025-03-06 08:02:47 |
 
-_Last updated at 2025-10-12 08:39:48 UTC_
+_Last updated at 2025-11-09 07:45:14 UTC_

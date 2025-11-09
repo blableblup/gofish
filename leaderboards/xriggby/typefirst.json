@@ -1,4 +1,18 @@
 {
+	"bluewhale": {
+		"player": "xriggby",
+		"playerid": 2925,
+		"weight": 90.7,
+		"bot": "gofishgame",
+		"fishtype": "🐳",
+		"fishname": "bluewhale",
+		"catchtype": "normal",
+		"chat": "xriggby",
+		"fishid": 150654,
+		"chatid": 35,
+		"date": "2024-10-12T19:14:06Z",
+		"rank": 22
+	},
 	"boot": {
 		"player": "tipicogato",
 		"playerid": 3446,
@@ -195,13 +209,13 @@
 		"date": "2024-09-19T03:28:16Z",
 		"rank": 5
 	},
-	"mushroom": {
+	"oceanplant": {
 		"player": "tipicogato",
 		"playerid": 3446,
 		"weight": 16.38,
 		"bot": "gofishgame",
 		"fishtype": "🍄",
-		"fishname": "mushroom",
+		"fishname": "oceanplant",
 		"catchtype": "normal",
 		"chat": "xriggby",
 		"fishid": 150871,
@@ -421,26 +435,12 @@
 		"rank": 1
 	},
 	"whale": {
-		"player": "xriggby",
-		"playerid": 2925,
-		"weight": 90.7,
-		"bot": "gofishgame",
-		"fishtype": "🐳",
-		"fishname": "whale",
-		"catchtype": "normal",
-		"chat": "xriggby",
-		"fishid": 150654,
-		"chatid": 35,
-		"date": "2024-10-12T19:14:06Z",
-		"rank": 22
-	},
-	"whale2": {
 		"player": "tipicogato",
 		"playerid": 3446,
 		"weight": 115.96,
 		"bot": "gofishgame",
 		"fishtype": "🐋",
-		"fishname": "whale2",
+		"fishname": "whale",
 		"catchtype": "normal",
 		"chat": "xriggby",
 		"fishid": 150641,

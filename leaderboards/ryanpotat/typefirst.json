@@ -82,6 +82,20 @@
 		"date": "2024-10-28T12:10:33Z",
 		"rank": 5
 	},
+	"clover": {
+		"player": "chestnutbank",
+		"playerid": 3005,
+		"weight": 3.63,
+		"bot": "gofishgame",
+		"fishtype": "☘️",
+		"fishname": "clover",
+		"catchtype": "normal",
+		"chat": "ryanpotat",
+		"fishid": 180332,
+		"chatid": 106,
+		"date": "2025-06-21T09:38:32Z",
+		"rank": 40
+	},
 	"cockroach": {
 		"player": "ryanpotat",
 		"playerid": 2113,
@@ -320,20 +334,6 @@
 		"date": "2024-11-11T23:52:30Z",
 		"rank": 12
 	},
-	"mushroom": {
-		"player": "lolspers",
-		"playerid": 2989,
-		"weight": 16.1,
-		"bot": "gofishgame",
-		"fishtype": "🍄",
-		"fishname": "mushroom",
-		"catchtype": "normal",
-		"chat": "ryanpotat",
-		"fishid": 117528,
-		"chatid": 12,
-		"date": "2024-11-02T19:41:14Z",
-		"rank": 10
-	},
 	"nestwitheggs": {
 		"player": "lolspers",
 		"playerid": 2989,
@@ -347,6 +347,20 @@
 		"chatid": 78,
 		"date": "2024-12-23T18:12:05Z",
 		"rank": 35
+	},
+	"oceanplant": {
+		"player": "lolspers",
+		"playerid": 2989,
+		"weight": 16.1,
+		"bot": "gofishgame",
+		"fishtype": "🍄",
+		"fishname": "oceanplant",
+		"catchtype": "normal",
+		"chat": "ryanpotat",
+		"fishid": 117528,
+		"chatid": 12,
+		"date": "2024-11-02T19:41:14Z",
+		"rank": 10
 	},
 	"octopus": {
 		"player": "n1nzin_",
@@ -459,20 +473,6 @@
 		"chatid": 20,
 		"date": "2024-11-14T11:50:50Z",
 		"rank": 16
-	},
-	"shamrock": {
-		"player": "chestnutbank",
-		"playerid": 3005,
-		"weight": 3.63,
-		"bot": "gofishgame",
-		"fishtype": "☘️",
-		"fishname": "shamrock",
-		"catchtype": "normal",
-		"chat": "ryanpotat",
-		"fishid": 180332,
-		"chatid": 106,
-		"date": "2025-06-21T09:38:32Z",
-		"rank": 40
 	},
 	"shark": {
 		"player": "lolspers",
@@ -642,13 +642,13 @@
 		"date": "2024-11-23T08:54:30Z",
 		"rank": 27
 	},
-	"whale2": {
+	"whale": {
 		"player": "n1nzin_",
 		"playerid": 3447,
 		"weight": 55.6,
 		"bot": "gofishgame",
 		"fishtype": "🐋",
-		"fishname": "whale2",
+		"fishname": "whale",
 		"catchtype": "normal",
 		"chat": "ryanpotat",
 		"fishid": 122089,

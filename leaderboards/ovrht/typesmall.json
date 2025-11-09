@@ -1,19 +1,4 @@
 {
-	"athleticshoe": {
-		"player": "ovrht",
-		"playerid": 202,
-		"verified": true,
-		"weight": 0.22,
-		"bot": "gofishgame",
-		"fishtype": "👟",
-		"fishname": "athleticshoe",
-		"catchtype": "normal",
-		"chat": "ovrht",
-		"fishid": 36871,
-		"chatid": 131,
-		"date": "2023-10-23T18:40:23Z",
-		"rank": 43
-	},
 	"balletshoes": {
 		"player": "ovrht",
 		"playerid": 202,
@@ -57,6 +42,20 @@
 		"chatid": 103,
 		"date": "2023-10-19T12:32:17Z",
 		"rank": 20
+	},
+	"bluewhale": {
+		"player": "alizuh",
+		"playerid": 2819,
+		"weight": 52.95,
+		"bot": "gofishgame",
+		"fishtype": "🐳",
+		"fishname": "bluewhale",
+		"catchtype": "normal",
+		"chat": "ovrht",
+		"fishid": 96571,
+		"chatid": 689,
+		"date": "2024-08-19T14:23:04Z",
+		"rank": 1
 	},
 	"boot": {
 		"player": "alenakuz03",
@@ -185,20 +184,6 @@
 		"date": "2023-10-19T10:36:49Z",
 		"rank": 29
 	},
-	"cucumber": {
-		"player": "alizuh",
-		"playerid": 2819,
-		"weight": 12.9,
-		"bot": "gofishgame",
-		"fishtype": "🥒",
-		"fishname": "cucumber",
-		"catchtype": "normal",
-		"chat": "ovrht",
-		"fishid": 100729,
-		"chatid": 846,
-		"date": "2024-09-11T19:17:54Z",
-		"rank": 6
-	},
 	"dagger": {
 		"player": "kvgch",
 		"playerid": 2832,
@@ -226,6 +211,20 @@
 		"chatid": 511,
 		"date": "2024-07-26T14:54:04Z",
 		"rank": 24
+	},
+	"deadbody": {
+		"player": "alenakuz03",
+		"playerid": 2660,
+		"weight": 3.2,
+		"bot": "gofishgame",
+		"fishtype": "🧟",
+		"fishname": "deadbody",
+		"catchtype": "normal",
+		"chat": "ovrht",
+		"fishid": 35076,
+		"chatid": 38,
+		"date": "2023-10-13T16:29:52Z",
+		"rank": 22
 	},
 	"dolphin": {
 		"player": "k1lk4_",
@@ -314,6 +313,20 @@
 		"date": "2024-01-21T18:36:53Z",
 		"rank": 47
 	},
+	"hat": {
+		"player": "alizuh",
+		"playerid": 2819,
+		"weight": 5.54,
+		"bot": "gofishgame",
+		"fishtype": "👒",
+		"fishname": "hat",
+		"catchtype": "normal",
+		"chat": "ovrht",
+		"fishid": 96126,
+		"chatid": 667,
+		"date": "2024-08-17T11:42:53Z",
+		"rank": 15
+	},
 	"hook": {
 		"player": "nightbot",
 		"playerid": 874,
@@ -398,13 +411,13 @@
 		"date": "2024-05-24T18:27:15Z",
 		"rank": 56
 	},
-	"mushroom": {
+	"oceanplant": {
 		"player": "wizzyy6",
 		"playerid": 2664,
 		"weight": 2.61,
 		"bot": "gofishgame",
 		"fishtype": "🍄",
-		"fishname": "mushroom",
+		"fishname": "oceanplant",
 		"catchtype": "normal",
 		"chat": "ovrht",
 		"fishid": 66723,
@@ -539,6 +552,20 @@
 		"date": "2024-02-07T19:38:41Z",
 		"rank": 38
 	},
+	"seacucumber": {
+		"player": "alizuh",
+		"playerid": 2819,
+		"weight": 12.9,
+		"bot": "gofishgame",
+		"fishtype": "🥒",
+		"fishname": "seacucumber",
+		"catchtype": "normal",
+		"chat": "ovrht",
+		"fishid": 100729,
+		"chatid": 846,
+		"date": "2024-09-11T19:17:54Z",
+		"rank": 6
+	},
 	"seal": {
 		"player": "ovrht",
 		"playerid": 202,
@@ -653,6 +680,21 @@
 		"date": "2024-08-06T16:06:52Z",
 		"rank": 35
 	},
+	"sneaker": {
+		"player": "ovrht",
+		"playerid": 202,
+		"verified": true,
+		"weight": 0.22,
+		"bot": "gofishgame",
+		"fishtype": "👟",
+		"fishname": "sneaker",
+		"catchtype": "normal",
+		"chat": "ovrht",
+		"fishid": 36871,
+		"chatid": 131,
+		"date": "2023-10-23T18:40:23Z",
+		"rank": 43
+	},
 	"socks": {
 		"player": "kordex_s",
 		"playerid": 2896,
@@ -753,47 +795,19 @@
 		"rank": 19
 	},
 	"whale": {
-		"player": "alizuh",
-		"playerid": 2819,
-		"weight": 52.95,
-		"bot": "gofishgame",
-		"fishtype": "🐳",
-		"fishname": "whale",
-		"catchtype": "normal",
-		"chat": "ovrht",
-		"fishid": 96571,
-		"chatid": 689,
-		"date": "2024-08-19T14:23:04Z",
-		"rank": 1
-	},
-	"whale2": {
 		"player": "ovrht",
 		"playerid": 202,
 		"verified": true,
 		"weight": 11.89,
 		"bot": "gofishgame",
 		"fishtype": "🐋",
-		"fishname": "whale2",
+		"fishname": "whale",
 		"catchtype": "normal",
 		"chat": "ovrht",
 		"fishid": 99509,
 		"chatid": 803,
 		"date": "2024-09-05T09:17:07Z",
 		"rank": 8
-	},
-	"womanshat": {
-		"player": "alizuh",
-		"playerid": 2819,
-		"weight": 5.54,
-		"bot": "gofishgame",
-		"fishtype": "👒",
-		"fishname": "womanshat",
-		"catchtype": "normal",
-		"chat": "ovrht",
-		"fishid": 96126,
-		"chatid": 667,
-		"date": "2024-08-17T11:42:53Z",
-		"rank": 15
 	},
 	"worm": {
 		"player": "ovrht",
@@ -809,19 +823,5 @@
 		"chatid": 250,
 		"date": "2023-12-04T06:08:48Z",
 		"rank": 32
-	},
-	"zombie": {
-		"player": "alenakuz03",
-		"playerid": 2660,
-		"weight": 3.2,
-		"bot": "gofishgame",
-		"fishtype": "🧟",
-		"fishname": "zombie",
-		"catchtype": "normal",
-		"chat": "ovrht",
-		"fishid": 35076,
-		"chatid": 38,
-		"date": "2023-10-13T16:29:52Z",
-		"rank": 22
 	}
 }

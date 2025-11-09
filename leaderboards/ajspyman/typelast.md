@@ -5,14 +5,14 @@
 | 44   | 🦕 sauropod     | 246.44        | respirate_   | 2025-10-31 02:48:20 |
 | 43   | 🎱 8ball        | 0.44          | gofishgamer  | 2025-10-31 02:23:14 |
 | 42   | 🐸 frog         | 4.12          | chestnutbank | 2025-10-31 02:11:19 |
-| 41   | 🐦 bird         | 2.32          | chestnutbank | 2025-10-31 02:06:20 |
+| 41   | 🐦 cardinal     | 2.32          | chestnutbank | 2025-10-31 02:06:20 |
 | 40   | 🪀 bobber       | 0.50          | gofishgamer  | 2025-10-31 01:50:44 |
 | 39   | 🦟 mosquito     | 0.20          | respirate_   | 2025-10-31 01:24:32 |
 | 38   | 🦎 lizard       | 3.93          | chestnutbank | 2025-10-31 01:23:53 |
 | 37   | 🐟 fish         | 6.98          | respirate_   | 2025-09-22 07:05:54 |
 | 36   | 🦐 shrimp       | 5.58          | respirate_   | 2025-09-22 02:13:45 |
 | 35   | 🪹 emptynest    | 8.17          | chestnutbank | 2025-09-22 00:16:00 |
-| 34   | ☘️ shamrock      | 0.66          | respirate_   | 2025-09-21 23:53:33 |
+| 34   | ☘️ clover        | 0.66          | respirate_   | 2025-09-21 23:53:33 |
 | 33   | 🐙 octopus      | 6.28          | gofishgamer  | 2025-09-21 22:18:40 |
 | 32   | 🪺 nestwitheggs | 6.28          | chestnutbank | 2025-09-21 21:39:34 |
 | 31   | 🧵 wireline     | 0.35          | chestnutbank | 2025-09-21 18:44:11 |
@@ -41,10 +41,10 @@
 | 8    | 🦈 shark        | 210.58        | respirate_   | 2025-08-25 06:09:26 |
 | 7    | 💀 skull        | 5.94          | chestnutbank | 2025-08-25 02:38:36 |
 | 6    | 🐠 tropicalfish | 1.72          | gofishgamer  | 2025-08-25 01:49:02 |
-| 5    | 🥒 cucumber     | 29.13         | chestnutbank | 2025-08-25 00:42:18 |
+| 5    | 🥒 seacucumber  | 29.13         | chestnutbank | 2025-08-25 00:42:18 |
 | 4    | 🦀 crab         | 35.83         | gofishgamer  | 2025-08-24 23:37:07 |
 | 3    | 🦑 squid        | 22.58         | chestnutbank | 2025-07-09 04:10:52 |
 | 2    | 🐬 dolphin      | 24.58         | larvaew      | 2025-06-14 00:05:22 |
 | 1    | 🧽 sponge       | 8.21          | ajspyman     | 2024-06-02 12:34:25 |
 
-_Last updated at 2025-11-02 08:32:34 UTC_
+_Last updated at 2025-11-09 07:45:01 UTC_

@@ -7,22 +7,22 @@
 | 3 🥉  | likedom_      | 20        |
 | 4     | stofeyxd*     | 19        |
 | 5     | aquaismissing | 18        |
+| 6 ⬆   | desxyne       | 17 (+2)   |
 | 6     | yyaaaaaaaas   | 17        |
-| 7     | kaitechpl     | 16        |
-| 7     | velantix*     | 16        |
-| 9 ⬆   | desxyne       | 15 (+5)   |
-| 10 ⬇  | aistyrax3     | 14        |
-| 10 ⬇  | dom1torii     | 14        |
-| 12 ⬇  | kargalay      | 13        |
-| 12 ⬇  | poggu_        | 13        |
-| 14 ⬇  | ggmagician    | 12        |
-| 14 ⬇  | kaczer1       | 12        |
-| 16    | glorpiusbot   | 11 (+1)   |
-| 16 ⬇  | kam3l_        | 11        |
-| 18 ⬇  | vigilworld*   | 10        |
+| 8 ⬇   | kaitechpl     | 16        |
+| 8 ⬇   | velantix*     | 16        |
+| 10    | dom1torii     | 15 (+1)   |
+| 10 ⬆  | glorpiusbot   | 15 (+4)   |
+| 12 ⬇  | aistyrax3     | 14        |
+| 13 ⬇  | kargalay      | 13        |
+| 13 ⬇  | poggu_        | 13        |
+| 15 ⬇  | ggmagician    | 12        |
+| 15 ⬇  | kaczer1       | 12        |
+| 17 ⬇  | kam3l_        | 11        |
+| 18    | vigilworld*   | 10        |
 
-_This does not include fish seen through 🎁 gifts or through releasing to another player during the winter events!_
+_This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2025-11-02 08:30:55 UTC_
+_Last updated at 2025-11-09 07:44:58 UTC_

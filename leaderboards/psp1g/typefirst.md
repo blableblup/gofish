@@ -2,6 +2,7 @@
 
 | Rank | Fish               | Weight in lbs | Player                    | Date in UTC         |
 |:-----|:-------------------|:--------------|:--------------------------|:--------------------|
+| 110  | 🍱 tacklebox       | 3.84          | bubinga                   | 2025-11-02 17:33:24 |
 | 109  | 🕯️ candle           | 0.00          | mazzo_tv                  | 2025-10-30 20:45:34 |
 | 108  | 🍎 apple           | 0.26          | mazzo_tv                  | 2025-10-30 11:35:46 |
 | 107  | 🎃 pumpkin         | 5.87          | bubinga                   | 2025-10-30 10:25:06 |
@@ -12,7 +13,7 @@
 | 102  | 🌵 cactus          | 2.71          | ratatas_                  | 2025-08-29 10:38:01 |
 | 101  | 🍥 sanddollar      | 0.77          | bubinga                   | 2025-08-25 07:57:19 |
 | 100  | 🧴 sunscreenbottle | 10.74         | jayayseaohbee             | 2025-08-24 23:25:58 |
-| 99   | 🧋 bubbleteacup    | 6.90          | gorillapark               | 2025-08-24 23:06:18 |
+| 99   | 🧋 bobacup         | 6.90          | gorillapark               | 2025-08-24 23:06:18 |
 | 98   | 🐛 caterpillar     | 0.03          | ratot                     | 2025-06-30 15:05:57 |
 | 97   | 🪻 lupine          | 1.46          | mazzo_tv                  | 2025-06-25 08:50:26 |
 | 96   | 🪁 kite            | 6.08          | mazzo_tv                  | 2025-06-24 22:32:10 |
@@ -20,17 +21,17 @@
 | 94   | 🫙 jar             | 0.00          | bubinga                   | 2025-06-21 08:49:52 |
 | 93   | 🌾 grass           | 0.40          | nndiana                   | 2025-05-29 23:08:55 |
 | 92   | 🫎 moose           | 128.06        | ratot                     | 2025-05-24 20:19:25 |
-| 91   | 🍃 leaf            | 0.63          | sandwichsundays           | 2025-05-22 20:36:24 |
+| 91   | 🍃 deadleaves      | 0.63          | sandwichsundays           | 2025-05-22 20:36:24 |
 | 90   | 👡 sandal          | 2.64          | mazzo_tv                  | 2025-05-06 17:36:17 |
-| 89   | 🍄‍🟫 brownmushroom   | 7.00          | mazzo_tv                  | 2025-05-06 11:55:03 |
+| 89   | 🍄‍🟫 mushroom        | 7.00          | mazzo_tv                  | 2025-05-06 11:55:03 |
 | 88   | 🥀 wiltedflower    | 2.26          | flunke_                   | 2024-12-05 12:01:01 |
 | 87   | 🐿️ squirrel         | 0.90          | iflya320                  | 2024-12-04 11:13:44 |
-| 86   | 🍁 mapleleaf       | 0.14          | lobuhtomy                 | 2024-09-25 11:27:07 |
+| 86   | 🍁 leaf            | 0.14          | lobuhtomy                 | 2024-09-25 11:27:07 |
 | 85   | 🌰 acorn           | 2.16          | mazzo_tv                  | 2024-09-25 07:32:03 |
 | 84   | 🌷 tulip           | 0.33          | bcarw                     | 2024-09-16 11:49:20 |
 | 83   | 🦢 swan            | 1.26          | mazzo_tv                  | 2024-07-08 06:43:22 |
-| 82   | 🐦‍⬛ blackbird       | 3.30          | nndiana                   | 2024-06-19 11:48:28 |
-| 81   | 🐦 bird            | 2.71          | huuuuuuuuuuuuuuuuuuuuuurz | 2024-06-19 07:48:00 |
+| 82   | 🐦‍⬛ robin           | 3.30          | nndiana                   | 2024-06-19 11:48:28 |
+| 81   | 🐦 cardinal        | 2.71          | huuuuuuuuuuuuuuuuuuuuuurz | 2024-06-19 07:48:00 |
 | 80   | 🌻 sunflower       | 2.10          | syxtuh                    | 2024-06-18 10:07:29 |
 | 79   | 🛢️ oildrum          | 139.15        | xveso                     | 2024-05-25 03:06:15 |
 | 78   | 🪹 emptynest       | 7.31          | huuuuuuuuuuuuuuuuuuuuuurz | 2024-04-11 07:27:06 |
@@ -39,7 +40,7 @@
 | 75   | 🧵 wireline        | 1.12          | popfizzgg                 | 2024-03-28 23:06:05 |
 | 74   | 🦇 bat             | 77.36         | gorillapark               | 2024-03-28 22:52:34 |
 | 73   | 🌹 rose            | 1.75          | amu1g                     | 2024-03-28 12:41:57 |
-| 72   | ☘️ shamrock         | 1.50          | zwockel01                 | 2024-03-28 12:20:00 |
+| 72   | ☘️ clover           | 1.50          | zwockel01                 | 2024-03-28 12:20:00 |
 | 71   | 🪺 nestwitheggs    | 3.80          | nndiana                   | 2024-03-28 04:12:45 |
 | 70   | 📱 iphone          | 59.71         | jr_mime                   | 2024-03-28 00:49:03 |
 | 69   | 🐻‍❄ polarbear       | 48.30         | nndiana                   | 2024-02-22 16:32:33 |
@@ -52,12 +53,12 @@
 | 62   | 🧸 teddybear       | 2.38          | sandwichsundays           | 2023-12-23 04:11:13 |
 | 61   | 🦭 seal            | 88.34         | satic____                 | 2023-12-23 03:45:30 |
 | 60   | 👢 boot            | 1.00          | jeejee_jjl                | 2023-12-23 03:25:54 |
-| 59   | 🧞‍♂ malegenie       | 15.58         | angus_lpc                 | 2023-10-01 15:43:42 |
+| 59   | 🧞‍♂ genie           | 15.58         | angus_lpc                 | 2023-10-01 15:43:42 |
 | 58   | 🦎 lizard          | 1.24          | sandwichsundays           | 2023-10-01 15:34:32 |
 | 57   | 🦦 otter           | 16.69         | caprisen_                 | 2023-10-01 15:17:23 |
 | 56   | 🦠 plankton        | 6.57          | zsipe                     | 2023-10-01 13:54:01 |
-| 55   | 👟 athleticshoe    | 0.11          | norque69                  | 2023-10-01 13:36:32 |
-| 54   | 🍄 mushroom        | 4.39          | vetti1g                   | 2023-10-01 12:14:48 |
+| 55   | 👟 sneaker         | 0.11          | norque69                  | 2023-10-01 13:36:32 |
+| 54   | 🍄 oceanplant      | 4.39          | vetti1g                   | 2023-10-01 12:14:48 |
 | 53   | 🪱 worm            | 0.89          | huuuuuuuuuuuuuuuuuuuuuurz | 2023-08-31 07:37:54 |
 | 52   | 🎰 slotmachine     | 0.00          | squirtyraccoon            | 2023-08-29 14:00:22 |
 | 51   | 🪼 jellyfish       | 9.74          | donklugurtha*             | 2023-08-25 06:11:58 |
@@ -67,10 +68,10 @@
 | 47   | 👑 crown           | 54.40         | dydrmxd*                  | 2023-08-24 11:26:37 |
 | 46   | 🦈 shark           | 37.53         | thasbe                    | 2023-08-24 10:38:53 |
 | 45   | 🧃 beveragebox     | 10.03         | chrisslov*                | 2023-08-24 07:56:52 |
-| 44   | 🥒 cucumber        | 28.59         | thasbe                    | 2023-08-24 05:30:28 |
-| 43   | 👒 womanshat       | 9.00          | sl3id3r                   | 2023-08-24 01:59:04 |
+| 44   | 🥒 seacucumber     | 28.59         | thasbe                    | 2023-08-24 05:30:28 |
+| 43   | 👒 hat             | 9.00          | sl3id3r                   | 2023-08-24 01:59:04 |
 | 42   | 🪵 log             | 8.10          | flashpointnew*            | 2023-08-23 22:58:23 |
-| 41   | 🧟 zombie          | 89.82         | reapex_1                  | 2023-08-23 22:45:34 |
+| 41   | 🧟 deadbody        | 89.82         | reapex_1                  | 2023-08-23 22:45:34 |
 | 40   | 🦆 duck            | 5.94          | hennnnni                  | 2023-08-23 21:58:02 |
 | 39   | 🪶 feather         | 0.30          | cutepengu*                | 2023-08-23 18:38:25 |
 | 38   | 🐉 dragon          | 179.78        | sl3id3r                   | 2023-08-23 17:54:02 |
@@ -81,11 +82,11 @@
 | 33   | 🩴 thongsandal     | 0.79          | osnyatsky*                | 2023-08-22 22:59:22 |
 | 32   | 🩲 briefs          | 3.55          | osnyatsky*                | 2023-08-22 22:10:13 |
 | 31   | 🗡️ dagger           | 39.11         | huuuuuuuuuuuuuuuuuuuuuurz | 2023-08-22 13:57:47 |
-| 30   | 🐳 whale           | 206.99        | sl3id3r                   | 2023-08-22 13:54:02 |
+| 30   | 🐳 bluewhale       | 206.99        | sl3id3r                   | 2023-08-22 13:54:02 |
 | 29   | 🐡 blowfish        | 14.09         | sl3id3r                   | 2023-08-22 12:37:05 |
 | 28   | 🪸 coral           | 11.90         | donkfaruk*                | 2023-08-22 12:26:27 |
 | 27   | 🐠 tropicalfish    | 11.88         | donkfaruk*                | 2023-08-22 11:44:33 |
-| 26   | 🐋 whale2          | 99.69         | alvanissdev               | 2023-08-22 10:38:27 |
+| 26   | 🐋 whale           | 99.69         | alvanissdev               | 2023-08-22 10:38:27 |
 | 25   | 🐢 turtle          | 4.52          | p4ttiie*                  | 2023-08-22 10:35:09 |
 | 24   | 🧽 sponge          | 10.22         | seryxx                    | 2023-08-22 10:05:29 |
 | 23   | ☂️ umbrella         | 0.56          | revielum                  | 2023-08-22 09:25:57 |
@@ -112,4 +113,4 @@
 | 2    | 🦞 lobster         | 36.18         | psp1g                     | 2023-08-21 01:23:40 |
 | 1    | 🐟 fish            | 13.12         | dazedforevermore          | 2023-08-21 01:11:17 |
 
-_Last updated at 2025-11-02 08:32:38 UTC_
+_Last updated at 2025-11-09 07:45:15 UTC_
