@@ -263,6 +263,23 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 		return err
 	}
 
+	_, _ = fmt.Fprint(file, "\n<details>")
+
+	_, _ = fmt.Fprint(file, "\n<summary>Count of each item in their bag</summary>")
+
+	_, _ = fmt.Fprintln(file)
+
+	for _, fish := range Profile.BagCountsSorted {
+
+		_, _ = fmt.Fprintln(file)
+
+		_, _ = fmt.Fprintf(file, "* %s %d", fish, Profile.BagCounts[fish])
+
+		_, _ = fmt.Fprintln(file)
+	}
+
+	_, _ = fmt.Fprint(file, "\n</details>\n")
+
 	_, _ = fmt.Fprintln(file, "\n---------------")
 
 	_, _ = fmt.Fprintln(file, "\n## Their fish seen")

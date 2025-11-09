@@ -161,6 +161,17 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 		Profiles[lastBag.PlayerID].BagCounts = make(map[string]int)
 		for n, ItemInBag := range Profiles[lastBag.PlayerID].Bag.Bag {
 
+			// change jellyfish for older fishers who never did +bag after it was changed
+			// but could also just update this in the db idk
+			var isjellyfish bool
+			if ItemInBag == "Jellyfish" {
+				isjellyfish = true
+
+				jellyfishEmoji := EmojisForFish["jellyfish"]
+				Profiles[lastBag.PlayerID].Bag.Bag[n] = jellyfishEmoji
+				Profiles[lastBag.PlayerID].BagCounts[jellyfishEmoji]++
+			}
+
 			var isashiny bool
 			for _, shiny := range fishLists["shiny"] {
 				if ItemInBag == shiny {
@@ -169,18 +180,17 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 
 					// Change the item to the shiny emoji
 					shinyEmoji := fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/shiny/%s.png)", ItemInBag, ItemInBag)
-
 					Profiles[lastBag.PlayerID].Bag.Bag[n] = shinyEmoji
-
 					Profiles[lastBag.PlayerID].BagCounts[shinyEmoji]++
 				}
 			}
 
-			// Dont count the item again if it is a shiny
-			if !isashiny {
+			if !isashiny && !isjellyfish {
 				Profiles[lastBag.PlayerID].BagCounts[ItemInBag]++
 			}
 		}
+
+		Profiles[lastBag.PlayerID].BagCountsSorted = sortMapStringInt(Profiles[lastBag.PlayerID].BagCounts, "countdesc")
 	}
 
 	// The fish type caught count per year per chat per catchtype
@@ -332,6 +342,7 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 
 	}
 
+	// order by fishid asc so that the order of them matches the order in the log message
 	queryWinterGifts := `
 		SELECT weight, fishname, chat, date, catchtype, playerid 
 		FROM fish
@@ -339,7 +350,7 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 		AND date < $2
 	  	AND date > $3
 		and catchtype like 'giftwinter%'
-		order by date desc
+		order by fishid asc
 	`
 
 	wintergifts, err := ReturnFishSliceQueryValidPlayers(params, queryWinterGifts, validPlayers)

@@ -48,8 +48,9 @@ type PlayerProfile struct {
 	TotalWeight     *TotalChatStructFloat            `json:"Combined weight of all caught fish"`
 	TotalWeightYear map[string]*TotalChatStructFloat `json:"Combined weight of all caught fish per year"`
 
-	Bag       ProfileBag     `json:"Their last seen bag"`
-	BagCounts map[string]int `json:"Count of each item in that bag"`
+	Bag             ProfileBag     `json:"Their last seen bag"`
+	BagCounts       map[string]int `json:"Count of each item in that bag"`
+	BagCountsSorted []string
 
 	FishSeen      []string         `json:"-"`
 	FishSeenTotal *TotalChatStruct `json:"Fish seen in total"`
