@@ -108,7 +108,8 @@ func getWeightMouth(params LeaderboardParams, limit float64) (map[string]BoardDa
 		and date < $1
 		and date > $2
 		) m on f.date = m.date
-		where f.weight + m.weight >= $3`, date, date2, limit)
+		where f.weight + m.weight >= $3
+		and f.catchtype != 'mouth'`, date, date2, limit)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Board", board).
