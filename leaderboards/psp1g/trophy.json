@@ -21,12 +21,12 @@
 	"1317": {
 		"player": "mazzo_tv",
 		"playerid": 1317,
-		"weight": 21.5,
+		"weight": 22.5,
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 2,
 		"silver": 9,
-		"bronze": 13,
-		"rank": 7
+		"bronze": 15,
+		"rank": 6
 	},
 	"1344": {
 		"player": "gorillapark",
@@ -112,7 +112,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 4,
 		"bronze": 2,
-		"rank": 14
+		"rank": 15
 	},
 	"1747": {
 		"player": "commanda_u",
@@ -211,16 +211,16 @@
 		"trophies": 6,
 		"silver": 3,
 		"bronze": 2,
-		"rank": 6
+		"rank": 7
 	},
 	"269": {
 		"player": "nndiana",
 		"playerid": 269,
-		"weight": 236.5,
+		"weight": 241,
 		"date": "0001-01-01T00:00:00Z",
-		"trophies": 58,
-		"silver": 54,
-		"bronze": 17,
+		"trophies": 59,
+		"silver": 55,
+		"bronze": 18,
 		"rank": 1
 	},
 	"3740": {
@@ -235,10 +235,10 @@
 	"3794": {
 		"player": "jayayseaohbee",
 		"playerid": 3794,
-		"weight": 88,
+		"weight": 95,
 		"date": "0001-01-01T00:00:00Z",
-		"trophies": 24,
-		"silver": 14,
+		"trophies": 26,
+		"silver": 15,
 		"bronze": 4,
 		"rank": 3
 	},
@@ -250,7 +250,7 @@
 		"trophies": 1,
 		"silver": 3,
 		"bronze": 14,
-		"rank": 14
+		"rank": 15
 	},
 	"3992": {
 		"player": "tomokomot",
@@ -360,11 +360,11 @@
 	"913": {
 		"player": "ratot",
 		"playerid": 913,
-		"weight": 12.5,
+		"weight": 13.5,
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 1,
-		"silver": 6,
+		"silver": 7,
 		"bronze": 7,
-		"rank": 16
+		"rank": 13
 	}
 }
