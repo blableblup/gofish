@@ -13,12 +13,27 @@ import (
 // custom error idk
 var ErrNoPlayerFound = errors.New("no player found")
 
-// this is for current name for id: https://api.ivr.fi/v2/twitch/user?id=
-
-func MakeApiRequestForPlayerToApiIVR(player string) ([]map[string]interface{}, error) {
+// what can be id or name
+func MakeApiRequestForPlayerToApiIVR(player string, twitchID int, what string) ([]map[string]interface{}, error) {
 
 	var userdata []map[string]interface{}
-	url := fmt.Sprintf("https://api.ivr.fi/v2/twitch/user?login=%s", player)
+
+	var url string
+
+	// maybe instead of getting the same userdata two times
+	// store it somewhere ?
+	switch what {
+
+	case "id":
+		url = fmt.Sprintf("https://api.ivr.fi/v2/twitch/user?id=%d", twitchID)
+
+	case "name":
+		url = fmt.Sprintf("https://api.ivr.fi/v2/twitch/user?login=%s", player)
+
+	default:
+		logs.Logs().Fatal().Msg("MakeApiRequestForPlayerToApiIVR")
+	}
+
 	response, err := http.Get(url)
 	if err != nil {
 		logs.Logs().Error().Err(err).
@@ -69,7 +84,7 @@ func MakeApiRequestForPlayerToApiIVR(player string) ([]map[string]interface{}, e
 
 func GetTwitchID(player string) (int, error) {
 
-	userdata, err := MakeApiRequestForPlayerToApiIVR(player)
+	userdata, err := MakeApiRequestForPlayerToApiIVR(player, 0, "name")
 	if err != nil {
 		return 0, err
 	}
@@ -86,8 +101,20 @@ func GetTwitchID(player string) (int, error) {
 	return id, nil
 }
 
+func GetCurrentName(twitchID int) (string, error) {
+
+	userdata, err := MakeApiRequestForPlayerToApiIVR("", twitchID, "id")
+	if err != nil {
+		return "", err
+	}
+
+	name := userdata[0]["login"].(string)
+
+	return name, nil
+}
+
 func GetTwitchPFP(player string) (string, error) {
-	userdata, err := MakeApiRequestForPlayerToApiIVR(player)
+	userdata, err := MakeApiRequestForPlayerToApiIVR(player, 0, "name")
 	if err != nil {
 		return "", err
 	}

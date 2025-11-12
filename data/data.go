@@ -279,6 +279,7 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Msg("Error going over all the players")
+		return err
 	}
 
 	for _, fish := range allFish {
