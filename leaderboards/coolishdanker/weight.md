@@ -10,9 +10,10 @@
 | 6     | copynine          | 🦭 seal      | 91.48         | 2025-01-18 16:05:08 |
 | 7     | destructionvibe   | 🐊 crocodile | 79.13         | 2025-01-14 05:16:20 |
 | 8     | turkld            | 🐋 whale     | 72.01         | 2025-01-18 15:03:21 |
-| 9     | digital_red_panda | 🐬 dolphin   | 55.85         | 2025-01-13 05:45:15 |
-| 10    | 04knight          | 🦑 squid     | 50.84         | 2025-01-12 07:54:38 |
+| 9 🆕  | respirate_        | 🐬 dolphin   | 71.55         | 2025-11-10 00:12:59 |
+| 10 ⬇  | digital_red_panda | 🐬 dolphin   | 55.85         | 2025-01-13 05:45:15 |
+| 11 ⬇  | 04knight          | 🦑 squid     | 50.84         | 2025-01-12 07:54:38 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2025-11-09 07:45:18 UTC_
+_Last updated at 2025-11-16 09:48:54 UTC_

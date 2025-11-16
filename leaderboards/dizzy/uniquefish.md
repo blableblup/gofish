@@ -15,7 +15,7 @@
 | 11    | simplydrack        | 47        |
 | 12    | notnownico         | 46        |
 | 12    | tairaaaaa          | 46        |
-| 14    | vagdy              | 45        |
+| 12 ⬆  | vagdy              | 46 (+1)   |
 | 15    | exo9*              | 44        |
 | 15    | rabituwu           | 44        |
 | 17    | sugur              | 43        |
@@ -55,4 +55,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2025-11-09 07:44:58 UTC_
+_Last updated at 2025-11-16 09:48:48 UTC_

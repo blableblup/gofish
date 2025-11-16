@@ -2,6 +2,9 @@
 
 | Rank | Fish             | Weight in lbs | Player         | Date in UTC         |
 |:-----|:-----------------|:--------------|:---------------|:--------------------|
+| 59   | 🎰 slotmachine   | 0.00          | gofishgamer    | 2025-11-14 03:01:46 |
+| 58   | 🐳 bluewhale     | 61.03         | respirate_     | 2025-11-14 02:00:36 |
+| 57   | 🦭 seal          | 54.69         | gofishgamer    | 2025-11-10 05:08:30 |
 | 56   | 🍁 leaf          | 1.88          | gofishgamer    | 2025-11-05 11:48:59 |
 | 55   | 🦫 beaver        | 26.30         | e1llas         | 2025-07-24 14:31:39 |
 | 54   | 🌻 sunflower     | 0.10          | e1llas         | 2025-07-23 17:42:30 |
@@ -59,4 +62,4 @@
 | 2    | 🐬 dolphin       | 12.25         | e1llas         | 2024-12-06 14:32:12 |
 | 1    | 🐟 fish          | 5.77          | koenheylen     | 2024-12-06 14:27:27 |
 
-_Last updated at 2025-11-09 07:45:15 UTC_
+_Last updated at 2025-11-16 09:48:59 UTC_

@@ -354,16 +354,16 @@
 	"2570": {
 		"player": "drecklo",
 		"playerid": 2570,
-		"weight": 80.86,
+		"weight": 86.88,
 		"bot": "gofishgame",
-		"fishtype": "🐊",
-		"fishname": "crocodile",
+		"fishtype": "🦈",
+		"fishname": "shark",
 		"catchtype": "normal",
 		"chat": "wuh6",
-		"fishid": 131520,
-		"chatid": 423,
-		"date": "2024-12-17T08:12:34Z",
-		"rank": 57
+		"fishid": 215845,
+		"chatid": 26188,
+		"date": "2025-11-15T17:33:03Z",
+		"rank": 52
 	},
 	"2571": {
 		"player": "bcarw",
@@ -559,7 +559,7 @@
 		"fishid": 150086,
 		"chatid": 8069,
 		"date": "2025-02-26T15:30:11Z",
-		"rank": 54
+		"rank": 55
 	},
 	"3579": {
 		"player": "wadupcaprise",
@@ -643,7 +643,7 @@
 		"fishid": 183219,
 		"chatid": 16488,
 		"date": "2025-06-27T17:04:49Z",
-		"rank": 56
+		"rank": 57
 	},
 	"3815": {
 		"player": "ceriise__",
@@ -713,7 +713,7 @@
 		"fishid": 209209,
 		"chatid": 24046,
 		"date": "2025-10-20T19:22:00Z",
-		"rank": 53
+		"rank": 54
 	},
 	"3969": {
 		"player": "pikausha",
@@ -727,7 +727,7 @@
 		"fishid": 209436,
 		"chatid": 24149,
 		"date": "2025-10-21T20:20:51Z",
-		"rank": 52
+		"rank": 53
 	},
 	"442": {
 		"player": "flvx_flux",
@@ -855,7 +855,7 @@
 		"fishid": 182870,
 		"chatid": 16394,
 		"date": "2025-06-26T16:46:02Z",
-		"rank": 55
+		"rank": 56
 	},
 	"864": {
 		"player": "bluberry",
@@ -870,6 +870,20 @@
 		"chatid": 11889,
 		"date": "2025-04-14T17:16:48Z",
 		"rank": 10
+	},
+	"874": {
+		"player": "nightbot",
+		"playerid": 874,
+		"weight": 50.39,
+		"bot": "gofishgame",
+		"fishtype": "🐢",
+		"fishname": "turtle",
+		"catchtype": "normal",
+		"chat": "wuh6",
+		"fishid": 215175,
+		"chatid": 25991,
+		"date": "2025-11-12T10:27:43Z",
+		"rank": 67
 	},
 	"901": {
 		"player": "thetaxmen",

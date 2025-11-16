@@ -2,6 +2,7 @@
 
 | Rank | Fish             | Weight in lbs | Player                | Date in UTC         |
 |:-----|:-----------------|:--------------|:----------------------|:--------------------|
+| 68   | 🧤 gloves        | 0.74          | derintu               | 2025-11-12 18:47:14 |
 | 67   | 🍎 apple         | 2.35          | derinturitierutz      | 2025-10-30 18:11:25 |
 | 66   | 🌹 rose          | 0.22          | derintu               | 2025-10-01 17:07:07 |
 | 65   | 🎱 8ball         | 0.49          | chestnutbank          | 2025-09-20 21:33:38 |
@@ -69,4 +70,4 @@
 | 2    | 🦐 shrimp        | 3.14          | bapqo                 | 2024-07-28 22:59:12 |
 | 1    | 🐊 crocodile     | 105.00        | julialuxel            | 2024-07-28 22:59:00 |
 
-_Last updated at 2025-11-09 07:45:14 UTC_
+_Last updated at 2025-11-16 09:48:58 UTC_

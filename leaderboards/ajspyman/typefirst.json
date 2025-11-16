@@ -69,6 +69,20 @@
 		"date": "2025-08-27T00:36:51Z",
 		"rank": 27
 	},
+	"blowfish": {
+		"player": "respirate_",
+		"playerid": 2525,
+		"weight": 1.09,
+		"bot": "gofishgame",
+		"fishtype": "🐡",
+		"fishname": "blowfish",
+		"catchtype": "normal",
+		"chat": "ajspyman",
+		"fishid": 214834,
+		"chatid": 136,
+		"date": "2025-11-10T18:35:24Z",
+		"rank": 47
+	},
 	"bobber": {
 		"player": "gofishgamer",
 		"playerid": 2944,
@@ -96,6 +110,20 @@
 		"chatid": 56,
 		"date": "2025-08-26T22:11:54Z",
 		"rank": 26
+	},
+	"boot": {
+		"player": "chestnutbank",
+		"playerid": 3005,
+		"weight": 0.54,
+		"bot": "gofishgame",
+		"fishtype": "👢",
+		"fishname": "boot",
+		"catchtype": "normal",
+		"chat": "ajspyman",
+		"fishid": 214915,
+		"chatid": 147,
+		"date": "2025-11-11T01:04:38Z",
+		"rank": 50
 	},
 	"butterfly": {
 		"player": "gofishgamer",
@@ -152,6 +180,20 @@
 		"chatid": 102,
 		"date": "2025-09-20T03:48:10Z",
 		"rank": 37
+	},
+	"coral": {
+		"player": "chestnutbank",
+		"playerid": 3005,
+		"weight": 16.88,
+		"bot": "gofishgame",
+		"fishtype": "🪸",
+		"fishname": "coral",
+		"catchtype": "normal",
+		"chat": "ajspyman",
+		"fishid": 214672,
+		"chatid": 134,
+		"date": "2025-11-09T23:18:52Z",
+		"rank": 46
 	},
 	"crab": {
 		"player": "gofishgamer",
@@ -406,6 +448,20 @@
 		"date": "2025-09-19T21:52:10Z",
 		"rank": 34
 	},
+	"plankton": {
+		"player": "gofishgamer",
+		"playerid": 2944,
+		"weight": 21.43,
+		"bot": "gofishgame",
+		"fishtype": "🦠",
+		"fishname": "plankton",
+		"catchtype": "normal",
+		"chat": "ajspyman",
+		"fishid": 214914,
+		"chatid": 146,
+		"date": "2025-11-11T00:57:18Z",
+		"rank": 49
+	},
 	"sauropod": {
 		"player": "respirate_",
 		"playerid": 2525,
@@ -489,6 +545,34 @@
 		"chatid": 27,
 		"date": "2025-08-25T02:38:36Z",
 		"rank": 17
+	},
+	"snake": {
+		"player": "respirate_",
+		"playerid": 2525,
+		"weight": 186.97,
+		"bot": "gofishgame",
+		"fishtype": "🐍",
+		"fishname": "snake",
+		"catchtype": "normal",
+		"chat": "ajspyman",
+		"fishid": 214916,
+		"chatid": 148,
+		"date": "2025-11-11T01:10:13Z",
+		"rank": 51
+	},
+	"socks": {
+		"player": "chestnutbank",
+		"playerid": 3005,
+		"weight": 1.52,
+		"bot": "gofishgame",
+		"fishtype": "🧦",
+		"fishname": "socks",
+		"catchtype": "normal",
+		"chat": "ajspyman",
+		"fishid": 214864,
+		"chatid": 138,
+		"date": "2025-11-10T20:53:06Z",
+		"rank": 48
 	},
 	"spider": {
 		"player": "chestnutbank",
@@ -587,6 +671,20 @@
 		"chatid": 12,
 		"date": "2024-10-07T19:25:19Z",
 		"rank": 9
+	},
+	"whale": {
+		"player": "gofishgamer",
+		"playerid": 2944,
+		"weight": 92.04,
+		"bot": "gofishgame",
+		"fishtype": "🐋",
+		"fishname": "whale",
+		"catchtype": "normal",
+		"chat": "ajspyman",
+		"fishid": 214648,
+		"chatid": 129,
+		"date": "2025-11-09T21:19:46Z",
+		"rank": 45
 	},
 	"wireline": {
 		"player": "respirate_",

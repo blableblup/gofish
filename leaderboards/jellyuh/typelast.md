@@ -2,22 +2,22 @@
 
 | Rank | Fish             | Weight in lbs | Player              | Date in UTC         |
 |:-----|:-----------------|:--------------|:--------------------|:--------------------|
-| 80   | 🦠 plankton      | 1.71          | jakthejanitor       | 2025-11-07 19:16:04 |
-| 79   | 🦈 shark         | 90.90         | teeto               | 2025-11-05 17:03:02 |
-| 78   | 🦪 oyster        | 9.72          | cerealapii          | 2025-11-05 05:55:40 |
-| 77   | 🐙 octopus       | 22.42         | miyabwah            | 2025-11-04 20:25:53 |
-| 76   | 🦦 otter         | 8.52          | jakthejanitor       | 2025-11-04 18:03:19 |
-| 75   | 👟 sneaker       | 0.51          | cptblack_           | 2025-11-03 05:59:06 |
-| 74   | 🐡 blowfish      | 20.17         | jakthejanitor       | 2025-10-31 19:58:24 |
-| 73   | 🪸 coral         | 22.68         | cptblack_           | 2025-10-30 07:40:42 |
-| 72   | 🪨 rock          | 41.57         | jakthejanitor       | 2025-10-29 18:47:49 |
-| 71   | 🦐 shrimp        | 11.81         | miyabwah            | 2025-10-28 08:40:52 |
-| 70   | 🐍 snake         | 18.51         | jakthejanitor       | 2025-10-28 01:14:31 |
-| 69   | 🐋 whale         | 110.19        | jakthejanitor       | 2025-10-27 15:02:34 |
-| 68   | 🗡️ dagger         | 0.06          | jakthejanitor       | 2025-10-23 09:44:47 |
-| 67   | 🐸 frog          | 2.07          | jakthejanitor       | 2025-10-18 09:54:25 |
-| 66   | 🦑 squid         | 74.07         | miyabwah            | 2025-10-17 06:25:02 |
-| 65   | 🧦 socks         | 1.01          | jakthejanitor       | 2025-10-14 22:11:09 |
+| 80   | 🦠 plankton      | 15.30         | jakthejanitor       | 2025-11-15 23:26:57 |
+| 79   | 🧦 socks         | 0.76          | jakthejanitor       | 2025-11-14 05:53:21 |
+| 78   | 🦈 shark         | 90.90         | teeto               | 2025-11-05 17:03:02 |
+| 77   | 🦪 oyster        | 9.72          | cerealapii          | 2025-11-05 05:55:40 |
+| 76   | 🐙 octopus       | 22.42         | miyabwah            | 2025-11-04 20:25:53 |
+| 75   | 🦦 otter         | 8.52          | jakthejanitor       | 2025-11-04 18:03:19 |
+| 74   | 👟 sneaker       | 0.51          | cptblack_           | 2025-11-03 05:59:06 |
+| 73   | 🐡 blowfish      | 20.17         | jakthejanitor       | 2025-10-31 19:58:24 |
+| 72   | 🪸 coral         | 22.68         | cptblack_           | 2025-10-30 07:40:42 |
+| 71   | 🪨 rock          | 41.57         | jakthejanitor       | 2025-10-29 18:47:49 |
+| 70   | 🦐 shrimp        | 11.81         | miyabwah            | 2025-10-28 08:40:52 |
+| 69   | 🐍 snake         | 18.51         | jakthejanitor       | 2025-10-28 01:14:31 |
+| 68   | 🐋 whale         | 110.19        | jakthejanitor       | 2025-10-27 15:02:34 |
+| 67   | 🗡️ dagger         | 0.06          | jakthejanitor       | 2025-10-23 09:44:47 |
+| 66   | 🐸 frog          | 2.07          | jakthejanitor       | 2025-10-18 09:54:25 |
+| 65   | 🦑 squid         | 74.07         | miyabwah            | 2025-10-17 06:25:02 |
 | 64   | 🧟 deadbody      | 26.65         | jakthejanitor       | 2025-10-14 11:48:58 |
 | 63   | 🎏 lure          | 0.54          | cerealapii          | 2025-10-14 01:23:18 |
 | 62   | 🦆 duck          | 1.34          | jakthejanitor       | 2025-10-12 22:21:17 |
@@ -83,4 +83,4 @@
 | 2    | 🪶 feather       | 0.43          | jellyuh             | 2025-01-02 09:31:14 |
 | 1    | 🧣 scarf         | 0.16          | goopy777            | 2024-12-29 00:40:05 |
 
-_Last updated at 2025-11-09 07:45:01 UTC_
+_Last updated at 2025-11-16 09:48:52 UTC_

@@ -23,8 +23,8 @@
 | 19    | 👑 crown         | 38.17         | allspice_boatrace | 2025-04-08 01:50:15 |
 | 20    | 🦫 beaver        | 37.56         | aaurie            | 2025-07-25 03:29:55 |
 | 21    | 🦪 oyster        | 37.32         | guy_farting420    | 2025-04-26 17:13:05 |
-| 22 ⬆  | 🐟 fish          | 33.98 (+4.97) | boogie310_        | 2025-11-03 04:36:15 |
-| 23 ⬇  | 🦐 shrimp        | 32.35         | jeffbethyname69   | 2025-04-18 01:22:50 |
+| 22    | 🐟 fish          | 33.98         | boogie310_        | 2025-11-03 04:36:15 |
+| 23    | 🦐 shrimp        | 32.35         | jeffbethyname69   | 2025-04-18 01:22:50 |
 | 24    | 🧽 sponge        | 28.32         | allspice_boatrace | 2025-07-04 02:50:18 |
 | 25    | 🥒 seacucumber   | 26.20         | allspice_boatrace | 2025-07-19 03:15:35 |
 | 26    | 🐡 blowfish      | 25.82         | dolp_fin          | 2025-08-02 04:19:30 |
@@ -53,23 +53,23 @@
 | 49    | 🪀 bobber        | 3.28          | aaurie            | 2025-03-15 09:26:37 |
 | 50    | ☘️ clover         | 3.14          | aaurie            | 2025-06-24 05:07:24 |
 | 51    | ☂️ umbrella       | 2.97          | rjthebooger       | 2025-08-02 01:10:31 |
-| 52 ⬆  | 🌰 acorn         | 2.78 (+2.29)  | aaurie            | 2025-11-07 08:33:28 |
-| 53 ⬇  | 🎱 8ball         | 2.72          | slimdoggiedog     | 2025-03-15 00:25:09 |
-| 54 ⬇  | 🌷 tulip         | 2.63          | slimdoggiedog     | 2025-03-15 09:26:32 |
-| 55 ⬇  | 🧵 wireline      | 2.54          | slimdoggiedog     | 2025-03-14 22:20:30 |
-| 56 ⬇  | 🌻 sunflower     | 2.35          | aaurie            | 2025-08-09 01:41:23 |
-| 57 ⬇  | 👢 boot          | 1.99          | allspice_boatrace | 2025-03-11 03:04:55 |
-| 57 ⬇  | 🧦 socks         | 1.99          | hywod_jablowme    | 2025-06-20 02:41:32 |
-| 59 ⬇  | 🥪 sandwich      | 1.93          | dolp_fin          | 2025-04-28 03:19:54 |
-| 60 ⬇  | 🩴 thongsandal   | 1.69          | blackberryking00  | 2025-08-25 03:04:17 |
-| 61 ⬇  | 🥫 cannedfood    | 1.61          | onetriforce       | 2025-03-11 05:16:42 |
-| 62 ⬇  | 🌿 seaweed       | 0.96          | jeffbethyname69   | 2025-05-04 01:37:21 |
-| 63 ⬇  | 🍁 leaf          | 0.82          | mademooselle      | 2025-10-06 07:00:34 |
-| 64 ⬇  | 🪶 feather       | 0.65          | zageratedpay      | 2025-04-28 04:20:46 |
-| 65 ⬇  | 🧤 gloves        | 0.63          | herbemoji         | 2025-03-11 00:55:22 |
-| 66    | 🩰 balletshoes   | 0.38          | victorvondoom313  | 2025-04-28 01:54:30 |
-| 67    | 🌹 rose          | 0.36          | mademooselle      | 2025-10-11 03:06:44 |
+| 52    | 🌰 acorn         | 2.78          | aaurie            | 2025-11-07 08:33:28 |
+| 53    | 🎱 8ball         | 2.72          | slimdoggiedog     | 2025-03-15 00:25:09 |
+| 54    | 🌷 tulip         | 2.63          | slimdoggiedog     | 2025-03-15 09:26:32 |
+| 55    | 🧵 wireline      | 2.54          | slimdoggiedog     | 2025-03-14 22:20:30 |
+| 56    | 🌻 sunflower     | 2.35          | aaurie            | 2025-08-09 01:41:23 |
+| 57    | 👢 boot          | 1.99          | allspice_boatrace | 2025-03-11 03:04:55 |
+| 57    | 🧦 socks         | 1.99          | hywod_jablowme    | 2025-06-20 02:41:32 |
+| 59    | 🥪 sandwich      | 1.93          | dolp_fin          | 2025-04-28 03:19:54 |
+| 60    | 🩴 thongsandal   | 1.69          | blackberryking00  | 2025-08-25 03:04:17 |
+| 61    | 🥫 cannedfood    | 1.61          | onetriforce       | 2025-03-11 05:16:42 |
+| 62 ⬆  | 🌹 rose          | 1.00 (+0.64)  | aaurie            | 2025-11-11 03:51:10 |
+| 63 ⬇  | 🌿 seaweed       | 0.96          | jeffbethyname69   | 2025-05-04 01:37:21 |
+| 64 ⬇  | 🍁 leaf          | 0.82          | mademooselle      | 2025-10-06 07:00:34 |
+| 65 ⬇  | 🪶 feather       | 0.65          | zageratedpay      | 2025-04-28 04:20:46 |
+| 66 ⬇  | 🧤 gloves        | 0.63          | herbemoji         | 2025-03-11 00:55:22 |
+| 67 ⬇  | 🩰 balletshoes   | 0.38          | victorvondoom313  | 2025-04-28 01:54:30 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-11-09 07:42:55 UTC_
+_Last updated at 2025-11-16 09:49:28 UTC_

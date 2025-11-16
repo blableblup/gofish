@@ -5,102 +5,102 @@
 | 1 🥇  | respirate_   | 🦕 sauropod     | 246.44        | 2025-10-31 02:48:20 |
 | 2 🥈  | gofishgamer  | 🐉 dragon       | 215.79        | 2025-08-25 06:51:21 |
 | 3 🥉  | respirate_   | 🦈 shark        | 210.58        | 2025-08-25 06:09:26 |
-| 4     | chestnutbank | 🐢 turtle       | 177.81        | 2025-08-25 06:17:25 |
-| 5     | respirate_   | 🦈 shark        | 115.62        | 2025-08-25 04:54:55 |
-| 6     | respirate_   | 🐬 dolphin      | 91.06         | 2024-10-02 20:34:54 |
-| 7     | gofishgamer  | 🐢 turtle       | 82.50         | 2024-10-07 19:25:19 |
-| 8     | ajspyman     | 🐙 octopus      | 75.23         | 2025-09-19 21:52:10 |
-| 9     | chestnutbank | 🦞 lobster      | 57.66         | 2025-08-25 07:22:06 |
-| 10    | gofishgamer  | 🦀 crab         | 35.83         | 2025-08-24 23:37:07 |
-| 11    | chestnutbank | 🥒 seacucumber  | 29.13         | 2025-08-25 00:42:18 |
-| 12    | larvaew      | 🐬 dolphin      | 24.58         | 2025-06-14 00:05:22 |
-| 13    | chestnutbank | 🦑 squid        | 22.58         | 2025-07-09 04:10:52 |
-| 14    | ajspyman     | 🦐 shrimp       | 19.15         | 2024-05-23 00:43:16 |
-| 15    | ajspyman     | 🐊 crocodile    | 17.23         | 2025-02-06 23:21:23 |
-| 16    | chestnutbank | 🐊 crocodile    | 17.09         | 2025-08-27 04:21:48 |
-| 17    | gofishgamer  | 🦴 bone         | 14.18         | 2025-08-27 20:03:16 |
-| 18    | gofishgamer  | 🐊 crocodile    | 13.40         | 2025-08-27 16:18:19 |
-| 19    | gofishgamer  | 🦴 bone         | 13.26         | 2025-08-26 22:11:54 |
-| 20    | chestnutbank | 🐢 turtle       | 12.66         | 2025-09-20 06:31:09 |
-| 21    | ajspyman     | 🐟 fish         | 12.60         | 2024-06-03 00:18:21 |
-| 22    | respirate_   | 🐢 turtle       | 12.34         | 2025-09-20 06:31:08 |
-| 23    | gofishgamer  | 🎱 8ball        | 11.85         | 2024-09-27 00:37:53 |
-| 24    | respirate_   | 🐟 fish         | 10.85         | 2025-09-21 21:36:08 |
-| 25    | ajspyman     | 🧽 sponge       | 10.68         | 2024-05-25 14:53:18 |
-| 26    | juliilan     | 🐟 fish         | 9.95          | 2024-05-22 23:39:16 |
-| 27    | respirate_   | 🦞 lobster      | 9.12          | 2025-08-25 00:40:51 |
-| 28    | ajspyman     | 🧽 sponge       | 8.21          | 2024-06-02 12:34:25 |
-| 29    | chestnutbank | 🪹 emptynest    | 8.17          | 2025-09-22 00:16:00 |
-| 30    | gofishgamer  | 🦴 bone         | 8.03          | 2025-08-27 04:03:50 |
-| 31    | respirate_   | 🐟 fish         | 6.98          | 2025-09-22 07:05:54 |
-| 32    | gofishgamer  | 🐊 crocodile    | 6.82          | 2025-08-27 00:37:37 |
-| 33    | chestnutbank | 🐟 fish         | 6.51          | 2025-09-22 06:54:28 |
-| 34    | chestnutbank | 🪺 nestwitheggs | 6.28          | 2025-09-21 21:39:34 |
-| 34    | gofishgamer  | 🐙 octopus      | 6.28          | 2025-09-21 22:18:40 |
-| 36    | ajspyman     | 🧽 sponge       | 6.26          | 2024-05-29 02:06:26 |
-| 37    | chestnutbank | 💀 skull        | 5.94          | 2025-08-25 02:38:36 |
-| 38    | chestnutbank | 🕷️ spider        | 5.75          | 2025-08-25 06:52:04 |
-| 39    | respirate_   | 🦐 shrimp       | 5.58          | 2025-09-22 02:13:45 |
-| 40    | respirate_   | 🐟 fish         | 5.39          | 2025-09-20 21:41:30 |
-| 41    | chestnutbank | 🕷️ spider        | 5.27          | 2025-08-25 14:33:48 |
-| 42    | respirate_   | 🦇 bat          | 5.23          | 2025-09-21 17:43:29 |
-| 43    | gofishgamer  | 🦐 shrimp       | 4.79          | 2024-11-08 22:14:06 |
-| 44    | ajspyman     | 🎏 lure         | 4.46          | 2025-01-22 23:10:17 |
-| 45    | gofishgamer  | 🪀 bobber       | 4.26          | 2024-09-27 01:37:11 |
-| 46    | chestnutbank | 🐸 frog         | 4.12          | 2025-10-31 02:11:19 |
-| 47    | chestnutbank | 🦎 lizard       | 3.93          | 2025-10-31 01:23:53 |
-| 48    | gofishgamer  | 🌰 acorn        | 3.57          | 2024-10-15 00:01:44 |
-| 49    | juliilan     | 🎏 lure         | 3.53          | 2024-05-25 23:23:35 |
-| 50    | chestnutbank | ☘️ clover        | 3.41          | 2025-09-20 03:48:10 |
-| 51    | gofishgamer  | 🐟 fish         | 3.23          | 2025-08-27 21:05:09 |
-| 52    | respirate_   | 🐚 shell        | 2.95          | 2025-08-25 07:23:17 |
-| 53    | gofishgamer  | 🐟 fish         | 2.79          | 2025-08-25 06:06:35 |
-| 54    | respirate_   | 🐟 fish         | 2.74          | 2025-09-20 03:23:05 |
-| 55    | chestnutbank | 🐦 cardinal     | 2.32          | 2025-10-31 02:06:20 |
-| 56    | juliilan     | 🐟 fish         | 2.18          | 2024-05-23 15:25:52 |
-| 57    | chestnutbank | 🎏 lure         | 1.74          | 2025-08-25 04:44:16 |
-| 58    | gofishgamer  | 🐠 tropicalfish | 1.72          | 2025-08-25 01:49:02 |
-| 59    | respirate_   | 🐟 fish         | 1.66          | 2025-09-20 00:53:15 |
-| 60    | gofishgamer  | 🫙 jar          | 1.52          | 2025-08-26 23:15:27 |
-| 61    | respirate_   | 🫙 jar          | 1.17          | 2025-08-28 16:01:30 |
-| 62    | chestnutbank | 🫙 jar          | 1.16          | 2025-08-26 18:51:53 |
-| 63    | chestnutbank | 🪀 bobber       | 1.08          | 2025-09-21 17:35:27 |
-| 64    | respirate_   | 🪻 lupine       | 0.97          | 2025-08-26 19:08:16 |
-| 65    | chestnutbank | 🐝 bee          | 0.93          | 2025-08-27 00:36:51 |
-| 66    | gofishgamer  | 🫙 jar          | 0.91          | 2025-08-28 16:40:38 |
-| 67    | chestnutbank | 📱 iphone       | 0.90          | 2025-09-20 11:11:36 |
-| 68    | respirate_   | 🩴 thongsandal  | 0.89          | 2025-08-25 17:10:22 |
-| 69    | chestnutbank | 📱 iphone       | 0.88          | 2025-09-19 23:16:33 |
-| 70    | gofishgamer  | 🫙 jar          | 0.86          | 2025-08-26 16:39:59 |
-| 71    | respirate_   | 🪻 lupine       | 0.76          | 2025-08-26 15:15:53 |
-| 72    | chestnutbank | 🦟 mosquito     | 0.66          | 2025-08-26 19:52:09 |
-| 72    | respirate_   | ☘️ clover        | 0.66          | 2025-09-21 23:53:33 |
-| 74    | gofishgamer  | 🪱 worm         | 0.65          | 2025-08-27 02:58:35 |
-| 75    | respirate_   | 🦟 mosquito     | 0.57          | 2025-08-26 22:03:47 |
-| 76    | respirate_   | 🪀 bobber       | 0.56          | 2025-09-19 22:56:41 |
-| 77    | respirate_   | 🧵 wireline     | 0.54          | 2025-09-21 07:43:43 |
-| 78    | respirate_   | 🎏 lure         | 0.53          | 2024-09-26 23:54:22 |
-| 79    | chestnutbank | 🫙 jar          | 0.52          | 2025-08-26 22:30:42 |
-| 80    | chestnutbank | 🪀 bobber       | 0.50          | 2025-09-19 22:02:14 |
-| 80    | gofishgamer  | 🪀 bobber       | 0.50          | 2025-10-31 01:50:44 |
-| 82    | chestnutbank | 🕷️ spider        | 0.46          | 2025-08-27 03:04:56 |
-| 83    | gofishgamer  | 🪻 lupine       | 0.45          | 2025-08-26 15:32:30 |
-| 84    | chestnutbank | 🫙 jar          | 0.44          | 2025-08-26 16:35:48 |
-| 84    | gofishgamer  | 🎱 8ball        | 0.44          | 2025-10-31 02:23:14 |
-| 86    | gofishgamer  | 🪻 lupine       | 0.43          | 2025-08-26 20:34:26 |
-| 87    | respirate_   | 🫙 jar          | 0.42          | 2025-08-26 16:46:45 |
-| 88    | gofishgamer  | 🫙 jar          | 0.41          | 2025-08-26 18:49:39 |
-| 89    | chestnutbank | 🫙 jar          | 0.40          | 2025-08-27 16:18:36 |
-| 90    | chestnutbank | 🐟 fish         | 0.38          | 2025-08-28 15:33:09 |
-| 90    | respirate_   | 🧵 wireline     | 0.38          | 2025-09-19 22:11:04 |
-| 92    | respirate_   | 🪝 hook         | 0.37          | 2025-08-27 14:58:28 |
-| 93    | respirate_   | 🫙 jar          | 0.36          | 2025-08-27 20:00:56 |
-| 93    | respirate_   | 🐛 caterpillar  | 0.36          | 2025-08-28 17:05:28 |
-| 95    | chestnutbank | 🧵 wireline     | 0.35          | 2025-09-21 18:44:11 |
-| 96    | breadworms   | 🪝 hook         | 0.34          | 2024-05-15 14:30:25 |
-| 96    | chestnutbank | 🫙 jar          | 0.34          | 2025-08-27 01:51:15 |
-| 96    | gofishgamer  | 🐜 ant          | 0.34          | 2025-08-27 14:50:01 |
-| 99    | gofishgamer  | 🦟 mosquito     | 0.31          | 2025-08-31 17:17:15 |
-| 100   | respirate_   | 🫙 jar          | 0.30          | 2025-08-27 02:08:19 |
+| 4 🆕  | respirate_   | 🐍 snake        | 186.97        | 2025-11-11 01:10:13 |
+| 5 ⬇   | chestnutbank | 🐢 turtle       | 177.81        | 2025-08-25 06:17:25 |
+| 6 🆕  | respirate_   | 🐉 dragon       | 168.93        | 2025-11-10 23:23:47 |
+| 7 🆕  | respirate_   | 🐋 whale        | 131.89        | 2025-11-11 00:31:41 |
+| 8 ⬇   | respirate_   | 🦈 shark        | 115.62        | 2025-08-25 04:54:55 |
+| 9 🆕  | gofishgamer  | 🐋 whale        | 92.04         | 2025-11-09 21:19:46 |
+| 10 ⬇  | respirate_   | 🐬 dolphin      | 91.06         | 2024-10-02 20:34:54 |
+| 11 🆕 | respirate_   | 🐊 crocodile    | 89.52         | 2025-11-10 21:48:47 |
+| 12 ⬇  | gofishgamer  | 🐢 turtle       | 82.50         | 2024-10-07 19:25:19 |
+| 13 ⬇  | ajspyman     | 🐙 octopus      | 75.23         | 2025-09-19 21:52:10 |
+| 14 ⬇  | chestnutbank | 🦞 lobster      | 57.66         | 2025-08-25 07:22:06 |
+| 15 ⬇  | gofishgamer  | 🦀 crab         | 35.83         | 2025-08-24 23:37:07 |
+| 16 🆕 | chestnutbank | 🐟 fish         | 33.62         | 2025-11-10 21:40:05 |
+| 17 🆕 | chestnutbank | 🐙 octopus      | 30.86         | 2025-11-09 22:26:58 |
+| 18 🆕 | respirate_   | 🦕 sauropod     | 30.41         | 2025-11-09 22:42:47 |
+| 19 ⬇  | chestnutbank | 🥒 seacucumber  | 29.13         | 2025-08-25 00:42:18 |
+| 20 ⬇  | larvaew      | 🐬 dolphin      | 24.58         | 2025-06-14 00:05:22 |
+| 21 ⬇  | chestnutbank | 🦑 squid        | 22.58         | 2025-07-09 04:10:52 |
+| 22 🆕 | gofishgamer  | 🦠 plankton     | 21.43         | 2025-11-11 00:57:18 |
+| 23 ⬇  | ajspyman     | 🦐 shrimp       | 19.15         | 2024-05-23 00:43:16 |
+| 24 🆕 | chestnutbank | 🐠 tropicalfish | 18.27         | 2025-11-10 18:36:22 |
+| 25 🆕 | chestnutbank | 🐬 dolphin      | 17.69         | 2025-11-10 23:31:07 |
+| 26 ⬇  | ajspyman     | 🐊 crocodile    | 17.23         | 2025-02-06 23:21:23 |
+| 27 ⬇  | chestnutbank | 🐊 crocodile    | 17.09         | 2025-08-27 04:21:48 |
+| 28 🆕 | chestnutbank | 🪸 coral        | 16.88         | 2025-11-09 23:18:52 |
+| 29 ⬇  | gofishgamer  | 🦴 bone         | 14.18         | 2025-08-27 20:03:16 |
+| 30 ⬇  | gofishgamer  | 🐊 crocodile    | 13.40         | 2025-08-27 16:18:19 |
+| 31 ⬇  | gofishgamer  | 🦴 bone         | 13.26         | 2025-08-26 22:11:54 |
+| 32 ⬇  | chestnutbank | 🐢 turtle       | 12.66         | 2025-09-20 06:31:09 |
+| 33 ⬇  | ajspyman     | 🐟 fish         | 12.60         | 2024-06-03 00:18:21 |
+| 34 ⬇  | respirate_   | 🐢 turtle       | 12.34         | 2025-09-20 06:31:08 |
+| 35 ⬇  | gofishgamer  | 🎱 8ball        | 11.85         | 2024-09-27 00:37:53 |
+| 36 ⬇  | respirate_   | 🐟 fish         | 10.85         | 2025-09-21 21:36:08 |
+| 37 🆕 | gofishgamer  | 🐠 tropicalfish | 10.71         | 2025-11-09 22:18:57 |
+| 38 ⬇  | ajspyman     | 🧽 sponge       | 10.68         | 2024-05-25 14:53:18 |
+| 39 ⬇  | juliilan     | 🐟 fish         | 9.95          | 2024-05-22 23:39:16 |
+| 40 ⬇  | respirate_   | 🦞 lobster      | 9.12          | 2025-08-25 00:40:51 |
+| 41 ⬇  | ajspyman     | 🧽 sponge       | 8.21          | 2024-06-02 12:34:25 |
+| 42 ⬇  | chestnutbank | 🪹 emptynest    | 8.17          | 2025-09-22 00:16:00 |
+| 43 ⬇  | gofishgamer  | 🦴 bone         | 8.03          | 2025-08-27 04:03:50 |
+| 44 🆕 | respirate_   | 🦑 squid        | 7.28          | 2025-11-15 10:05:29 |
+| 45 ⬇  | respirate_   | 🐟 fish         | 6.98          | 2025-09-22 07:05:54 |
+| 46 ⬇  | gofishgamer  | 🐊 crocodile    | 6.82          | 2025-08-27 00:37:37 |
+| 47 ⬇  | chestnutbank | 🐟 fish         | 6.51          | 2025-09-22 06:54:28 |
+| 48 ⬇  | chestnutbank | 🪺 nestwitheggs | 6.28          | 2025-09-21 21:39:34 |
+| 48 ⬇  | gofishgamer  | 🐙 octopus      | 6.28          | 2025-09-21 22:18:40 |
+| 50 ⬇  | ajspyman     | 🧽 sponge       | 6.26          | 2024-05-29 02:06:26 |
+| 51 ⬇  | chestnutbank | 💀 skull        | 5.94          | 2025-08-25 02:38:36 |
+| 52 ⬇  | chestnutbank | 🕷️ spider        | 5.75          | 2025-08-25 06:52:04 |
+| 53 ⬇  | respirate_   | 🦐 shrimp       | 5.58          | 2025-09-22 02:13:45 |
+| 54 ⬇  | respirate_   | 🐟 fish         | 5.39          | 2025-09-20 21:41:30 |
+| 55 ⬇  | chestnutbank | 🕷️ spider        | 5.27          | 2025-08-25 14:33:48 |
+| 56 ⬇  | respirate_   | 🦇 bat          | 5.23          | 2025-09-21 17:43:29 |
+| 57 🆕 | gofishgamer  | 💀 skull        | 5.12          | 2025-11-10 18:31:14 |
+| 58 ⬇  | gofishgamer  | 🦐 shrimp       | 4.79          | 2024-11-08 22:14:06 |
+| 59 ⬇  | ajspyman     | 🎏 lure         | 4.46          | 2025-01-22 23:10:17 |
+| 60 ⬇  | gofishgamer  | 🪀 bobber       | 4.26          | 2024-09-27 01:37:11 |
+| 61 ⬇  | chestnutbank | 🐸 frog         | 4.12          | 2025-10-31 02:11:19 |
+| 62 ⬇  | chestnutbank | 🦎 lizard       | 3.93          | 2025-10-31 01:23:53 |
+| 63 🆕 | chestnutbank | 🐚 shell        | 3.89          | 2025-11-15 10:11:24 |
+| 64 ⬇  | gofishgamer  | 🌰 acorn        | 3.57          | 2024-10-15 00:01:44 |
+| 65 ⬇  | juliilan     | 🎏 lure         | 3.53          | 2024-05-25 23:23:35 |
+| 66 ⬇  | chestnutbank | ☘️ clover        | 3.41          | 2025-09-20 03:48:10 |
+| 67 ⬇  | gofishgamer  | 🐟 fish         | 3.23          | 2025-08-27 21:05:09 |
+| 68 ⬇  | respirate_   | 🐚 shell        | 2.95          | 2025-08-25 07:23:17 |
+| 69 ⬇  | gofishgamer  | 🐟 fish         | 2.79          | 2025-08-25 06:06:35 |
+| 70 ⬇  | respirate_   | 🐟 fish         | 2.74          | 2025-09-20 03:23:05 |
+| 71 ⬇  | chestnutbank | 🐦 cardinal     | 2.32          | 2025-10-31 02:06:20 |
+| 72 🆕 | gofishgamer  | 🐠 tropicalfish | 2.27          | 2025-11-09 22:56:56 |
+| 73 🆕 | gofishgamer  | 🎏 lure         | 2.18          | 2025-11-10 21:43:33 |
+| 73 ⬇  | juliilan     | 🐟 fish         | 2.18          | 2024-05-23 15:25:52 |
+| 75 🆕 | gofishgamer  | 🐟 fish         | 2.09          | 2025-11-10 23:26:01 |
+| 76 ⬇  | chestnutbank | 🎏 lure         | 1.74          | 2025-08-25 04:44:16 |
+| 77 🆕 | chestnutbank | 🎏 lure         | 1.72          | 2025-11-09 21:13:41 |
+| 77 ⬇  | gofishgamer  | 🐠 tropicalfish | 1.72          | 2025-08-25 01:49:02 |
+| 79 ⬇  | respirate_   | 🐟 fish         | 1.66          | 2025-09-20 00:53:15 |
+| 80 🆕 | chestnutbank | 🧦 socks        | 1.52          | 2025-11-10 20:53:06 |
+| 80 ⬇  | gofishgamer  | 🫙 jar          | 1.52          | 2025-08-26 23:15:27 |
+| 82 ⬇  | respirate_   | 🫙 jar          | 1.17          | 2025-08-28 16:01:30 |
+| 83 ⬇  | chestnutbank | 🫙 jar          | 1.16          | 2025-08-26 18:51:53 |
+| 84 🆕 | respirate_   | 🐡 blowfish     | 1.09          | 2025-11-10 18:35:24 |
+| 85 ⬇  | chestnutbank | 🪀 bobber       | 1.08          | 2025-09-21 17:35:27 |
+| 86 ⬇  | respirate_   | 🪻 lupine       | 0.97          | 2025-08-26 19:08:16 |
+| 87 ⬇  | chestnutbank | 🐝 bee          | 0.93          | 2025-08-27 00:36:51 |
+| 88 ⬇  | gofishgamer  | 🫙 jar          | 0.91          | 2025-08-28 16:40:38 |
+| 89 ⬇  | chestnutbank | 📱 iphone       | 0.90          | 2025-09-20 11:11:36 |
+| 90 ⬇  | respirate_   | 🩴 thongsandal  | 0.89          | 2025-08-25 17:10:22 |
+| 91 ⬇  | chestnutbank | 📱 iphone       | 0.88          | 2025-09-19 23:16:33 |
+| 92 ⬇  | gofishgamer  | 🫙 jar          | 0.86          | 2025-08-26 16:39:59 |
+| 93 ⬇  | respirate_   | 🪻 lupine       | 0.76          | 2025-08-26 15:15:53 |
+| 94 ⬇  | chestnutbank | 🦟 mosquito     | 0.66          | 2025-08-26 19:52:09 |
+| 94 ⬇  | respirate_   | ☘️ clover        | 0.66          | 2025-09-21 23:53:33 |
+| 96 ⬇  | gofishgamer  | 🪱 worm         | 0.65          | 2025-08-27 02:58:35 |
+| 97 ⬇  | respirate_   | 🦟 mosquito     | 0.57          | 2025-08-26 22:03:47 |
+| 98 ⬇  | respirate_   | 🪀 bobber       | 0.56          | 2025-09-19 22:56:41 |
+| 99 🆕 | chestnutbank | 👢 boot         | 0.54          | 2025-11-11 01:04:38 |
+| 99 ⬇  | respirate_   | 🧵 wireline     | 0.54          | 2025-09-21 07:43:43 |
 
-_Last updated at 2025-11-09 07:44:56 UTC_
+_Last updated at 2025-11-16 09:48:46 UTC_
