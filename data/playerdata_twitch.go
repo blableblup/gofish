@@ -31,7 +31,7 @@ func MakeApiRequestForPlayerToApiIVR(player string, twitchID int, what string) (
 		url = fmt.Sprintf("https://api.ivr.fi/v2/twitch/user?login=%s", player)
 
 	default:
-		logs.Logs().Fatal().Msg("MakeApiRequestForPlayerToApiIVR")
+		logs.Logs().Fatal().Msg("MakeApiRequestForPlayerToApiIVR no what defined!!!!!")
 	}
 
 	response, err := http.Get(url)
