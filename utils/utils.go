@@ -19,14 +19,29 @@ func Confirm(prompt string) (bool, error) {
 			return false, err
 		}
 		input = strings.TrimSpace(strings.ToLower(input))
-		if input == "y" {
+		switch input {
+		case "y":
 			return true, nil
-		} else if input == "n" {
+		case "n":
 			return false, nil
-		} else {
+		default:
 			logs.Logs().Warn().Msgf("Invalid input '%s'. Use 'y' or 'n'", input)
 		}
 	}
+}
+
+func ScanAndReturn() (string, error) {
+
+	scanner := bufio.NewScanner(os.Stdin)
+
+	scanner.Scan()
+	err := scanner.Err()
+	if err != nil {
+		return "", err
+	}
+	response := scanner.Text()
+
+	return response, nil
 }
 
 func ParseDate(dateStr string) (time.Time, error) {

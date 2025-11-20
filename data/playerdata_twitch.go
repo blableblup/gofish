@@ -14,14 +14,12 @@ import (
 var ErrNoPlayerFound = errors.New("no player found")
 
 // what can be id or name
-func MakeApiRequestForPlayerToApiIVR(player string, twitchID int, what string) ([]map[string]interface{}, error) {
+func MakeApiRequestForPlayerToApiIVR(player string, twitchID int, what string) ([]map[string]any, error) {
 
-	var userdata []map[string]interface{}
+	var userdata []map[string]any
 
 	var url string
 
-	// maybe instead of getting the same userdata two times
-	// store it somewhere ?
 	switch what {
 
 	case "id":
@@ -82,35 +80,25 @@ func MakeApiRequestForPlayerToApiIVR(player string, twitchID int, what string) (
 	return userdata, nil
 }
 
-func GetTwitchID(player string) (int, error) {
-
-	userdata, err := MakeApiRequestForPlayerToApiIVR(player, 0, "name")
-	if err != nil {
-		return 0, err
-	}
+func GetTwitchID(userdata []map[string]any) (int, error) {
 
 	id, err := strconv.Atoi(userdata[0]["id"].(string))
 	if err != nil {
 		logs.Logs().Error().Err(err).
+			Interface("userdata", userdata).
 			Str("ID", userdata[0]["id"].(string)).
-			Str("Player", player).
-			Msg("Error converting id to int")
+			Msg("Error converting id to int for userdata")
 		return 0, err
 	}
 
 	return id, nil
 }
 
-func GetCurrentName(twitchID int) (string, error) {
-
-	userdata, err := MakeApiRequestForPlayerToApiIVR("", twitchID, "id")
-	if err != nil {
-		return "", err
-	}
+func GetCurrentName(userdata []map[string]any) string {
 
 	name := userdata[0]["login"].(string)
 
-	return name, nil
+	return name
 }
 
 func GetTwitchPFP(player string) (string, error) {

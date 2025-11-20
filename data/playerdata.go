@@ -3,6 +3,8 @@ package data
 import (
 	"context"
 	"gofish/logs"
+	"gofish/utils"
+	"strconv"
 	"time"
 
 	"github.com/jackc/pgx/v5"
@@ -34,13 +36,19 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 
 	confirmedPlayers := make(map[string][]PlayerData)
 
-	playersFishingDate, err := GetAllThePlayerNamesAndWhenTheyFished(fishes, pool)
+	playersFishingDate, firstFishChats, err := GetAllThePlayerNamesAndWhenTheyFished(fishes, pool)
 	if err != nil {
 		return confirmedPlayers, err
 	}
 
+	logs.Logs().Info().Msg("Going over all the players for playerids.....")
+
 	for player := range playersFishingDate {
 
+		// this still doesnt work if a player name was used by different players in the past
+		// all the fish will just go to the fisher who is currently using that name
+		// but since im not rechecking ALL the logs anytime soon
+		// this shouldnt be bad ?
 		if len(playersFishingDate[player]) > 1 {
 			logs.Logs().Warn().
 				Str("Player", player).
@@ -52,18 +60,50 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 		// range over the dates here idk
 
 		// try to get their twitchID
-		twitchID, err := GetTwitchID(player)
+		var twitchID int
+		userdata, err := MakeApiRequestForPlayerToApiIVR(player, 0, "name")
 		if err != nil && err != ErrNoPlayerFound {
+
 			logs.Logs().Error().Err(err).
 				Str("Player", player).
-				Msg("Error getting twitchID for player")
+				Msg("Error doing api ivr thing")
 			return confirmedPlayers, err
+
 		} else if err == ErrNoPlayerFound {
+
 			logs.Logs().Warn().
 				Str("Player", player).
-				Msg("Cannot get twitchID for player!!!!!")
+				Msg("Cannnnnnnnnnnnnnnt get twitchID for player!!!!!")
+
+			logs.Logs().Warn().Msg("WHAT IS THEIR TWITCHID? TYPE IT BELOW: ")
 			// check the logs page manually idk
 			// like this : https://logs.joinuv.com/channel/breadworms/2025/10/26/?json=true
+
+			twitchIDString, err := utils.ScanAndReturn()
+			if err != nil {
+				logs.Logs().Error().Err(err).
+					Str("Player", player).
+					Msg("Error reading the thing for twitchID")
+				return confirmedPlayers, err
+			}
+
+			twitchID, err = strconv.Atoi(twitchIDString)
+			if err != nil {
+				logs.Logs().Error().Err(err).
+					Str("twitchID", twitchIDString).
+					Msg("Error converting twitchID to int")
+				return confirmedPlayers, err
+			}
+
+		} else if err == nil {
+
+			twitchID, err = GetTwitchID(userdata)
+			if err != nil {
+				logs.Logs().Error().Err(err).
+					Str("Player", player).
+					Msg("Error getting twitchID for player")
+				return confirmedPlayers, err
+			}
 		}
 
 		// check if there is already a player with that id in db
@@ -84,15 +124,7 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 
 		if TwitchIDExists {
 
-			var currentName string
-
-			currentName, err = GetCurrentName(twitchID)
-			if err != nil {
-				logs.Logs().Error().Err(err).
-					Int("twitchID", twitchID).
-					Msg("Error getting current name for twitchID")
-				return confirmedPlayers, err
-			}
+			currentName := GetCurrentName(userdata)
 
 			if currentName != DBData.Name {
 
@@ -115,15 +147,13 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 		} else {
 
 			var firstFishDate time.Time
-			// var firstFishChat string
-			// ?
 
 			// idk if this is more than 1 dates
 			for _, dates := range playersFishingDate[player] {
 				firstFishDate = dates.LowestDate
 			}
 
-			playerID, err = AddNewPlayer(twitchID, player, firstFishDate, "", pool)
+			playerID, err = AddNewPlayer(twitchID, player, firstFishDate, firstFishChats[player], pool)
 			if err != nil {
 				logs.Logs().Error().Err(err).
 					Str("Player", player).
@@ -134,15 +164,29 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 
 		// add/remove 6 months from the highest / lowest date
 		// tis is 7 * 24 * 4 * 6 idk 4032 hours
+		// and idk if this is more than 1 date
+		var confirmedDateEdited []Dates
+
+		for _, confirmedDate := range playersFishingDate[player] {
+
+			newDates := Dates{
+				HighestDate: confirmedDate.HighestDate.Add(time.Hour * 4032),
+				LowestDate:  confirmedDate.LowestDate.Add(time.Hour * -4032),
+			}
+
+			confirmedDateEdited = append(confirmedDateEdited, newDates)
+		}
 
 		dataPlayer := PlayerData{
 			TwitchID:       twitchID,
 			PlayerID:       playerID,
-			confirmedDates: playersFishingDate[player],
+			confirmedDates: confirmedDateEdited,
 		}
 
 		confirmedPlayers[player] = append(confirmedPlayers[player], dataPlayer)
 	}
+
+	logs.Logs().Info().Msg("Finished going over all the players..")
 
 	return confirmedPlayers, nil
 }
@@ -166,14 +210,22 @@ func CheckForTwitchIDInDB(twitchID int, pool *pgxpool.Pool) (PlayerDataInDB, boo
 	return DBData, true, nil
 }
 
-func GetAllThePlayerNamesAndWhenTheyFished(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Dates, error) {
+func GetAllThePlayerNamesAndWhenTheyFished(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Dates, map[string]string, error) {
 
 	playersFishingDate := make(map[string][]Dates)
 	playersFishingFish := make(map[string][]FishInfo)
+	firstFishChats := make(map[string]string)
 	var err error
 
 	// first add the player to the map and get the fish that name caught
 	for _, fish := range fishes {
+
+		// the fish are sorted by date ascending, so this will be first fish chat
+		// if the player name was used by different players in the checked data this can be wrong
+		// if they are new
+		if _, ok := firstFishChats[fish.Player]; !ok {
+			firstFishChats[fish.Player] = fish.Chat
+		}
 
 		playersFishingFish[fish.Player] = append(playersFishingFish[fish.Player], fish)
 	}
@@ -182,11 +234,11 @@ func GetAllThePlayerNamesAndWhenTheyFished(fishes []FishInfo, pool *pgxpool.Pool
 
 		playersFishingDate[player], err = AllTheDaysAPlayerFished(playersFishingFish[player], pool)
 		if err != nil {
-			return playersFishingDate, err
+			return playersFishingDate, firstFishChats, err
 		}
 	}
 
-	return playersFishingDate, nil
+	return playersFishingDate, firstFishChats, nil
 }
 
 func AllTheDaysAPlayerFished(fishes []FishInfo, pool *pgxpool.Pool) ([]Dates, error) {
@@ -238,7 +290,7 @@ func AllTheDaysAPlayerFished(fishes []FishInfo, pool *pgxpool.Pool) ([]Dates, er
 
 	}
 
-	// if the player never stopped fishing for more than 6 months in the ckecked data
+	// if the player never stopped fishing for more than 6 months in the checked data
 	// or if the thing was reset
 	if len(days) == 0 || resetAtleastOnce {
 		newDays := Dates{
