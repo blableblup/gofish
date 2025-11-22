@@ -34,14 +34,14 @@ type PlayerDataInDB struct {
 
 func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]PlayerData, error) {
 
+	logs.Logs().Info().Msg("Going over all the players for playerids.....")
+
 	confirmedPlayers := make(map[string][]PlayerData)
 
 	playersFishingDate, firstFishChats, err := GetAllThePlayerNamesAndWhenTheyFished(fishes, pool)
 	if err != nil {
 		return confirmedPlayers, err
 	}
-
-	logs.Logs().Info().Msg("Going over all the players for playerids.....")
 
 	for player := range playersFishingDate {
 
@@ -152,6 +152,9 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 			for _, dates := range playersFishingDate[player] {
 				firstFishDate = dates.LowestDate
 			}
+			// also: this firstfishdate wont be the exact date of their first fish
+			// it will be the year month day witouth the hh:mm:ss
+			// but idk im not using that for anything
 
 			playerID, err = AddNewPlayer(twitchID, player, firstFishDate, firstFishChats[player], pool)
 			if err != nil {
@@ -268,7 +271,7 @@ func AllTheDaysAPlayerFished(fishes []FishInfo, pool *pgxpool.Pool) ([]Dates, er
 		}
 
 		// if diff above 6 months; this could be a different player using that name
-		months, years, err := DiffBetweenTwoDates(lastDay, day, pool)
+		months, years, err := DiffBetweenTwoDates(day, lastDay, pool)
 		if err != nil {
 			return days, err
 		}

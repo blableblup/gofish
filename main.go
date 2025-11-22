@@ -121,13 +121,6 @@ func main() {
 			Msg("Start")
 		scripts.VerifiedPlayers(pool)
 
-	case "mergetwitchids":
-		logs.Logs().Info().
-			Str("Program", *program).
-			Msg("Start")
-
-		scripts.MergePlayers(pool)
-
 	case "mergettables":
 		logs.Logs().Info().
 			Str("Program", *program).
