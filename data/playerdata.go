@@ -73,7 +73,8 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 
 			logs.Logs().Warn().
 				Str("Player", player).
-				Msg("Cannnnnnnnnnnnnnnt get twitchID for player!!!!!")
+				Interface("Fishing dates", playersFishingDate[player]).
+				Msg("Cant get twitchID for player!!!!!")
 
 			logs.Logs().Warn().Msg("WHAT IS THEIR TWITCHID? TYPE IT BELOW: ")
 			// check the logs page manually idk
@@ -124,21 +125,20 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 
 		if TwitchIDExists {
 
-			currentName := GetCurrentName(userdata)
+			// only rename if the player name is in api idk
+			if len(userdata) != 0 {
+				currentName := GetCurrentName(userdata)
 
-			if currentName != DBData.Name {
+				if currentName != DBData.Name {
 
-				// this would now always rename a player when checking the logs (in mode "a")
-				// even when they havent fished or did +bag
-
-				// before this i was only renaming the player if they actually fished
-				err = RenamePlayer(currentName, DBData.Name, twitchID, DBData.PlayerID, pool)
-				if err != nil {
-					logs.Logs().Error().Err(err).
-						Str("Player", player).
-						Int("twitchID", twitchID).
-						Msg("Error renaming player")
-					return confirmedPlayers, err
+					err = RenamePlayer(currentName, DBData.Name, twitchID, DBData.PlayerID, pool)
+					if err != nil {
+						logs.Logs().Error().Err(err).
+							Str("Player", player).
+							Int("twitchID", twitchID).
+							Msg("Error renaming player")
+						return confirmedPlayers, err
+					}
 				}
 			}
 
@@ -189,7 +189,9 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 		confirmedPlayers[player] = append(confirmedPlayers[player], dataPlayer)
 	}
 
-	logs.Logs().Info().Msg("Finished going over all the players..")
+	logs.Logs().Info().
+		Int("Amount of players", len(confirmedPlayers)).
+		Msg("Finished..")
 
 	return confirmedPlayers, nil
 }
