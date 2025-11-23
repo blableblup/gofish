@@ -1,10 +1,9 @@
 package data
 
 import (
-	"bufio"
 	"context"
 	"gofish/logs"
-	"os"
+	"gofish/utils"
 
 	"github.com/jackc/pgx/v5/pgxpool"
 )
@@ -75,26 +74,22 @@ func addFishType(pool *pgxpool.Pool, fishinfotable string, fishType string) (str
 	logs.Logs().Info().Msgf("Unknown fish type '%s' detected. Is it a new fish type, a shiny or a different emote for an existing fish type?", fishType)
 	logs.Logs().Info().Msg("Use new/shiny/emote: ")
 
-	scanner := bufio.NewScanner(os.Stdin)
-
 	for {
-		scanner.Scan()
-		err := scanner.Err()
+
+		response, err := utils.ScanAndReturn()
 		if err != nil {
 			return fishType, err
 		}
-		response := scanner.Text()
 
 		switch response {
 		case "new":
 			// Add the new fish into the database
 			logs.Logs().Info().Msgf("Enter the fishname for the new fish '%s': ", fishType)
-			scanner.Scan()
-			err = scanner.Err()
+			var fishName string
+			fishName, err = utils.ScanAndReturn()
 			if err != nil {
 				return fishType, err
 			}
-			fishName := scanner.Text()
 
 			_, err := pool.Exec(context.Background(), "INSERT INTO "+fishinfotable+" (fishname, fishtype) VALUES ($1, $2)", fishName, fishType)
 			if err != nil {
@@ -108,12 +103,11 @@ func addFishType(pool *pgxpool.Pool, fishinfotable string, fishType string) (str
 		case "shiny":
 			// Add the shiny to the fishType and return the actual fishType
 			logs.Logs().Info().Msgf("Enter the fishname for the shiny '%s': ", fishType)
-			scanner.Scan()
-			err = scanner.Err()
+			var fishName string
+			fishName, err = utils.ScanAndReturn()
 			if err != nil {
 				return fishType, err
 			}
-			fishName := scanner.Text()
 
 			_, err := pool.Exec(context.Background(), "UPDATE "+fishinfotable+" SET shiny = array_append(shiny, $1) WHERE fishname = $2", fishType, fishName)
 			if err != nil {
@@ -132,22 +126,19 @@ func addFishType(pool *pgxpool.Pool, fishinfotable string, fishType string) (str
 		case "emote":
 			// Check if the emote is new/old for an existing fish
 			logs.Logs().Info().Msgf("Enter the fishname for the emote '%s': ", fishType)
-			scanner.Scan()
-			err = scanner.Err()
+			var fishName string
+			fishName, err = utils.ScanAndReturn()
 			if err != nil {
 				return fishType, err
 			}
-			fishName := scanner.Text()
 
 			logs.Logs().Info().Msg("Is the emote new or old? Type new/old")
 
 			for {
-				scanner.Scan()
-				err := scanner.Err()
+				response, err = utils.ScanAndReturn()
 				if err != nil {
 					return fishType, err
 				}
-				response := scanner.Text()
 
 				switch response {
 				case "new":

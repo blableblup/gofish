@@ -2,8 +2,8 @@ package scripts
 
 import (
 	"fmt"
+	"gofish/data"
 	"gofish/logs"
-	"gofish/playerdata"
 	"gofish/utils"
 	"io"
 	"net/http"
@@ -47,7 +47,7 @@ func GetTwitchPFPs(mode string) {
 		defer file.Close()
 
 		// Get the pfp link from api, make the request, save the pfp to the file
-		pfp, err := playerdata.GetTwitchPFP(chatName)
+		pfp, err := data.GetTwitchPFP(chatName)
 		if err != nil {
 			continue
 		}

@@ -137,28 +137,20 @@ func main() {
 			Msg("Start")
 		scripts.VerifiedPlayers(pool)
 
-	case "updatetwitchids":
-		logs.Logs().Info().
-			Str("Database", *database).
-			Str("Program", *program).
-			Str("Mode", *mode).
-			Msg("Start")
-
-		scripts.UpdateTwitchIDs(pool, *mode)
-
-	case "mergetwitchids":
-		logs.Logs().Info().
-			Str("Program", *program).
-			Msg("Start")
-
-		scripts.MergePlayers(pool)
-
 	case "mergettables":
 		logs.Logs().Info().
 			Str("Program", *program).
 			Msg("Start")
 
 		scripts.MergeTTables(pool)
+
+	case "notmatch":
+
+		logs.Logs().Info().
+			Str("Program", *program).
+			Msg("Start")
+
+		scripts.CheckWhoDidntGetRenamedOops(pool)
 
 	case "pfps":
 		logs.Logs().Info().
