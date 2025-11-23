@@ -12,14 +12,14 @@
 | 8     | 🐀 rat             | 3.13          | derinturitierutz      | 2025-09-19 07:25:43 |
 | 9     | 👑 crown           | 3.10          | osnyatsky*            | 2023-06-12 13:09:46 |
 | 10    | 🧜‍♀️ mermaid         | 2.65          | kishma9               | 2023-12-04 11:12:58 |
-| 11 ⬆  | 🦴 bone            | 1.97          | derinturitierutz      | 2025-08-28 05:53:44 |
-| 12 ⬆  | 🧥 coat            | 1.85          | gstaman911            | 2025-01-01 13:14:00 |
-| 13 ⬆  | 🪿 goose           | 1.43          | qu4ttromila           | 2025-02-03 02:10:08 |
-| 14 ⬆  | 🧴 sunscreenbottle | 1.40          | fishingalt            | 2025-08-26 18:53:00 |
-| 15 ⬆  | 🧋 bobacup         | 1.03          | derinturitierutz      | 2025-08-25 16:20:37 |
-| 16 ⬆  | 🐉 dragon          | 0.94          | chubby_________       | 2023-03-05 17:11:41 |
-| 17 ⬆  | 🦂 scorpion        | 0.92          | fishingalt            | 2025-08-28 08:12:44 |
-| 18 ⬇  | 🍱 tacklebox       | 0.81 (-1.32)  | fishingalt            | 2025-11-04 13:24:20 |
+| 11    | 🦴 bone            | 1.97          | derinturitierutz      | 2025-08-28 05:53:44 |
+| 12    | 🧥 coat            | 1.85          | gstaman911            | 2025-01-01 13:14:00 |
+| 13    | 🪿 goose           | 1.43          | qu4ttromila           | 2025-02-03 02:10:08 |
+| 14    | 🧴 sunscreenbottle | 1.40          | fishingalt            | 2025-08-26 18:53:00 |
+| 15    | 🧋 bobacup         | 1.03          | derinturitierutz      | 2025-08-25 16:20:37 |
+| 16    | 🐉 dragon          | 0.94          | chubby_________       | 2023-03-05 17:11:41 |
+| 17    | 🦂 scorpion        | 0.92          | fishingalt            | 2025-08-28 08:12:44 |
+| 18    | 🍱 tacklebox       | 0.81          | fishingalt            | 2025-11-04 13:24:20 |
 | 19    | 🍇 crowberries     | 0.79          | derinturitierutz      | 2025-06-23 19:30:00 |
 | 20    | 🦇 bat             | 0.76          | breadworms            | 2025-09-19 13:35:33 |
 | 21    | 🧟 deadbody        | 0.57          | destin357             | 2025-08-18 07:29:39 |
@@ -35,7 +35,7 @@
 | 31    | 🐊 crocodile       | 0.21          | suavvvvv              | 2024-03-05 17:44:44 |
 | 32    | 🌵 cactus          | 0.19          | breadworms            | 2025-08-26 21:41:29 |
 | 32    | 🕶️ darksunglasses   | 0.19          | leanmeister           | 2023-09-03 10:41:13 |
-| 34    | 🍥 sanddollar      | 0.17          | c_mgirl               | 2025-08-26 16:13:12 |
+| 34    | 🍥 sanddollar      | 0.17          | cimgu                 | 2025-08-26 16:13:12 |
 | 34    | 🦢 swan            | 0.17          | chubby_________       | 2024-07-15 15:39:04 |
 | 36    | 🦭 seal            | 0.15          | dazedforevermore      | 2024-01-28 16:20:04 |
 | 37    | 🐦 cardinal        | 0.12          | idini                 | 2025-01-11 08:43:38 |
@@ -46,7 +46,7 @@
 | 41    | 🪹 emptynest       | 0.11          | dougiefresh_83        | 2025-04-09 06:41:33 |
 | 41    | 🥀 wiltedflower    | 0.11          | ninjaross             | 2024-12-22 11:28:27 |
 | 44    | 🧣 scarf           | 0.10          | ryebreadward          | 2023-12-25 05:27:44 |
-| 45    | 🐝 bee             | 0.09          | c_mgirl               | 2025-08-26 20:24:32 |
+| 45    | 🐝 bee             | 0.09          | cimgu                 | 2025-08-26 20:24:32 |
 | 45    | 🐬 dolphin         | 0.09          | fishingalt            | 2023-12-22 20:00:52 |
 | 45    | 🍄 oceanplant      | 0.09          | miiiiisho             | 2024-01-24 19:44:13 |
 | 45    | 🌻 sunflower       | 0.09          | divra__               | 2024-06-22 14:36:26 |
@@ -128,4 +128,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-11-09 07:41:10 UTC_
+_Last updated at 2025-11-23 10:49:17 UTC_

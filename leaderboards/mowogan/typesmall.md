@@ -33,12 +33,12 @@
 | 29    | 🥫 cannedfood    | 0.88          | konsminator | 2025-07-16 18:47:45 |
 | 30    | 🦞 lobster       | 0.73          | mowogan     | 2025-08-14 15:28:42 |
 | 31    | 🦫 beaver        | 0.65          | mowogan     | 2025-10-20 11:42:36 |
-| 32    | 🐸 frog          | 0.59          | konsminator | 2025-07-20 17:37:42 |
-| 33    | 🦀 crab          | 0.51          | mowogan     | 2025-07-29 04:18:54 |
-| 34    | 🎱 8ball         | 0.50          | mowogan     | 2025-07-05 19:59:47 |
-| 35    | 🍁 leaf          | 0.49          | konsminator | 2025-10-28 12:36:33 |
-| 36    | 🌹 rose          | 0.38          | mowogan     | 2025-09-28 19:31:58 |
-| 37    | 🐌 snail         | 0.37          | mowogan     | 2025-07-19 21:29:43 |
+| 32 ⬆  | 🦀 crab          | 0.51          | mowogan     | 2025-07-29 04:18:54 |
+| 33 ⬆  | 🎱 8ball         | 0.50          | mowogan     | 2025-07-05 19:59:47 |
+| 34 ⬆  | 🍁 leaf          | 0.49          | konsminator | 2025-10-28 12:36:33 |
+| 35 ⬆  | 🌹 rose          | 0.38          | mowogan     | 2025-09-28 19:31:58 |
+| 36 ⬆  | 🐌 snail         | 0.37          | mowogan     | 2025-07-19 21:29:43 |
+| 37 ⬇  | 🐸 frog          | 0.36 (-0.23)  | konsminator | 2025-11-16 23:19:37 |
 | 38    | 🩴 thongsandal   | 0.32          | konsminator | 2025-07-03 17:33:40 |
 | 39    | 🪀 bobber        | 0.31          | mowogan     | 2025-09-20 06:08:42 |
 | 40    | 🪶 feather       | 0.28          | konsminator | 2025-07-21 06:25:25 |
@@ -66,4 +66,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-11-09 07:41:13 UTC_
+_Last updated at 2025-11-23 10:49:03 UTC_

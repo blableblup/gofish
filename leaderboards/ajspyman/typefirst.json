@@ -139,6 +139,19 @@
 		"date": "2025-08-27T01:48:21Z",
 		"rank": 29
 	},
+	"candy": {
+		"player": "chestnutbank",
+		"playerid": 3005,
+		"bot": "gofishgame",
+		"fishtype": "🍬",
+		"fishname": "candy",
+		"catchtype": "release",
+		"chat": "ajspyman",
+		"fishid": 216739,
+		"chatid": 157,
+		"date": "2025-11-20T06:45:27Z",
+		"rank": 53
+	},
 	"cardinal": {
 		"player": "chestnutbank",
 		"playerid": 3005,
@@ -448,6 +461,20 @@
 		"date": "2025-09-19T21:52:10Z",
 		"rank": 34
 	},
+	"otter": {
+		"player": "chestnutbank",
+		"playerid": 3005,
+		"weight": 11.58,
+		"bot": "gofishgame",
+		"fishtype": "🦦",
+		"fishname": "otter",
+		"catchtype": "normal",
+		"chat": "ajspyman",
+		"fishid": 216265,
+		"chatid": 156,
+		"date": "2025-11-17T18:08:20Z",
+		"rank": 52
+	},
 	"plankton": {
 		"player": "gofishgamer",
 		"playerid": 2944,
@@ -545,6 +572,19 @@
 		"chatid": 27,
 		"date": "2025-08-25T02:38:36Z",
 		"rank": 17
+	},
+	"slotmachine": {
+		"player": "chestnutbank",
+		"playerid": 3005,
+		"bot": "gofishgame",
+		"fishtype": "🎰",
+		"fishname": "slotmachine",
+		"catchtype": "release",
+		"chat": "ajspyman",
+		"fishid": 216740,
+		"chatid": 158,
+		"date": "2025-11-20T06:45:45Z",
+		"rank": 54
 	},
 	"snake": {
 		"player": "respirate_",

@@ -4,7 +4,7 @@
 |:------|:------------|:----------|
 | 1 🥇  | v6r_        | 102       |
 | 2 🥈  | mangos4u    | 96        |
-| 3 🥉  | ritaaww     | 85        |
+| 3 🥉  | ritaaww     | 86 (+1)   |
 | 4     | solahh__    | 78        |
 | 5     | gofishgamer | 49        |
 | 6     | aliveleader | 36        |
@@ -16,4 +16,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2025-11-09 07:44:58 UTC_
+_Last updated at 2025-11-23 10:47:10 UTC_

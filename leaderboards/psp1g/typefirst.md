@@ -10,7 +10,7 @@
 | 105  | 🦟 mosquito        | 0.34          | bluberry                  | 2025-08-30 20:49:06 |
 | 104  | 🕸️ spiderweb        | 0.03          | bluberry                  | 2025-08-30 06:27:36 |
 | 103  | 🐜 ant             | 0.49          | cotovelo3                 | 2025-08-29 10:48:45 |
-| 102  | 🌵 cactus          | 2.71          | ratatas_                  | 2025-08-29 10:38:01 |
+| 102  | 🌵 cactus          | 2.71          | ratatas1g                 | 2025-08-29 10:38:01 |
 | 101  | 🍥 sanddollar      | 0.77          | bubinga                   | 2025-08-25 07:57:19 |
 | 100  | 🧴 sunscreenbottle | 10.74         | jayayseaohbee             | 2025-08-24 23:25:58 |
 | 99   | 🧋 bobacup         | 6.90          | gorillapark               | 2025-08-24 23:06:18 |
@@ -70,7 +70,7 @@
 | 45   | 🧃 beveragebox     | 10.03         | chrisslov*                | 2023-08-24 07:56:52 |
 | 44   | 🥒 seacucumber     | 28.59         | thasbe                    | 2023-08-24 05:30:28 |
 | 43   | 👒 hat             | 9.00          | sl3id3r                   | 2023-08-24 01:59:04 |
-| 42   | 🪵 log             | 8.10          | flashpointnew*            | 2023-08-23 22:58:23 |
+| 42   | 🪵 log             | 8.10          | flaspoint_*               | 2023-08-23 22:58:23 |
 | 41   | 🧟 deadbody        | 89.82         | reapex_1                  | 2023-08-23 22:45:34 |
 | 40   | 🦆 duck            | 5.94          | hennnnni                  | 2023-08-23 21:58:02 |
 | 39   | 🪶 feather         | 0.30          | cutepengu*                | 2023-08-23 18:38:25 |
@@ -113,4 +113,4 @@
 | 2    | 🦞 lobster         | 36.18         | psp1g                     | 2023-08-21 01:23:40 |
 | 1    | 🐟 fish            | 13.12         | dazedforevermore          | 2023-08-21 01:11:17 |
 
-_Last updated at 2025-11-09 07:45:15 UTC_
+_Last updated at 2025-11-23 10:47:14 UTC_

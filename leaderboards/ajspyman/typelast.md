@@ -2,31 +2,34 @@
 
 | Rank | Fish            | Weight in lbs | Player       | Date in UTC         |
 |:-----|:----------------|:--------------|:-------------|:--------------------|
-| 51   | 🐚 shell        | 3.89          | chestnutbank | 2025-11-15 10:11:24 |
-| 50   | 🦑 squid        | 7.28          | respirate_   | 2025-11-15 10:05:29 |
-| 49   | 🐟 fish         | 0.26          | chestnutbank | 2025-11-11 21:17:46 |
-| 48   | 🐍 snake        | 186.97        | respirate_   | 2025-11-11 01:10:13 |
-| 47   | 👢 boot         | 0.54          | chestnutbank | 2025-11-11 01:04:38 |
-| 46   | 🦠 plankton     | 21.43         | gofishgamer  | 2025-11-11 00:57:18 |
-| 45   | 🐋 whale        | 131.89        | respirate_   | 2025-11-11 00:31:41 |
-| 44   | 🐬 dolphin      | 17.69         | chestnutbank | 2025-11-10 23:31:07 |
-| 43   | 🐉 dragon       | 168.93        | respirate_   | 2025-11-10 23:23:47 |
-| 42   | 🐊 crocodile    | 89.52         | respirate_   | 2025-11-10 21:48:47 |
-| 41   | 🎏 lure         | 2.18          | gofishgamer  | 2025-11-10 21:43:33 |
-| 40   | 🧦 socks        | 1.52          | chestnutbank | 2025-11-10 20:53:06 |
-| 39   | 🐠 tropicalfish | 18.27         | chestnutbank | 2025-11-10 18:36:22 |
-| 38   | 🐡 blowfish     | 1.09          | respirate_   | 2025-11-10 18:35:24 |
-| 37   | 💀 skull        | 5.12          | gofishgamer  | 2025-11-10 18:31:14 |
-| 36   | 🪸 coral        | 16.88         | chestnutbank | 2025-11-09 23:18:52 |
-| 35   | 🦕 sauropod     | 30.41         | respirate_   | 2025-11-09 22:42:47 |
-| 34   | 🐙 octopus      | 30.86         | chestnutbank | 2025-11-09 22:26:58 |
-| 33   | 🎱 8ball        | 0.44          | gofishgamer  | 2025-10-31 02:23:14 |
-| 32   | 🐸 frog         | 4.12          | chestnutbank | 2025-10-31 02:11:19 |
-| 31   | 🐦 cardinal     | 2.32          | chestnutbank | 2025-10-31 02:06:20 |
-| 30   | 🪀 bobber       | 0.50          | gofishgamer  | 2025-10-31 01:50:44 |
-| 29   | 🦟 mosquito     | 0.20          | respirate_   | 2025-10-31 01:24:32 |
-| 28   | 🦎 lizard       | 3.93          | chestnutbank | 2025-10-31 01:23:53 |
-| 27   | 🦐 shrimp       | 5.58          | respirate_   | 2025-09-22 02:13:45 |
+| 54   | 🎰 slotmachine  | 0.00          | chestnutbank | 2025-11-20 06:45:45 |
+| 53   | 🍬 candy        | 0.00          | chestnutbank | 2025-11-20 06:45:27 |
+| 52   | 🦦 otter        | 11.58         | chestnutbank | 2025-11-17 18:08:20 |
+| 51   | 🐟 fish         | 18.88         | chestnutbank | 2025-11-17 09:29:14 |
+| 50   | 🐠 tropicalfish | 12.29         | chestnutbank | 2025-11-16 09:54:40 |
+| 49   | 🦐 shrimp       | 20.41         | respirate_   | 2025-11-16 09:46:39 |
+| 48   | 🐚 shell        | 3.89          | chestnutbank | 2025-11-15 10:11:24 |
+| 47   | 🦑 squid        | 7.28          | respirate_   | 2025-11-15 10:05:29 |
+| 46   | 🐍 snake        | 186.97        | respirate_   | 2025-11-11 01:10:13 |
+| 45   | 👢 boot         | 0.54          | chestnutbank | 2025-11-11 01:04:38 |
+| 44   | 🦠 plankton     | 21.43         | gofishgamer  | 2025-11-11 00:57:18 |
+| 43   | 🐋 whale        | 131.89        | respirate_   | 2025-11-11 00:31:41 |
+| 42   | 🐬 dolphin      | 17.69         | chestnutbank | 2025-11-10 23:31:07 |
+| 41   | 🐉 dragon       | 168.93        | respirate_   | 2025-11-10 23:23:47 |
+| 40   | 🐊 crocodile    | 89.52         | respirate_   | 2025-11-10 21:48:47 |
+| 39   | 🎏 lure         | 2.18          | gofishgamer  | 2025-11-10 21:43:33 |
+| 38   | 🧦 socks        | 1.52          | chestnutbank | 2025-11-10 20:53:06 |
+| 37   | 🐡 blowfish     | 1.09          | respirate_   | 2025-11-10 18:35:24 |
+| 36   | 💀 skull        | 5.12          | gofishgamer  | 2025-11-10 18:31:14 |
+| 35   | 🪸 coral        | 16.88         | chestnutbank | 2025-11-09 23:18:52 |
+| 34   | 🦕 sauropod     | 30.41         | respirate_   | 2025-11-09 22:42:47 |
+| 33   | 🐙 octopus      | 30.86         | chestnutbank | 2025-11-09 22:26:58 |
+| 32   | 🎱 8ball        | 0.44          | gofishgamer  | 2025-10-31 02:23:14 |
+| 31   | 🐸 frog         | 4.12          | chestnutbank | 2025-10-31 02:11:19 |
+| 30   | 🐦 cardinal     | 2.32          | chestnutbank | 2025-10-31 02:06:20 |
+| 29   | 🪀 bobber       | 0.50          | gofishgamer  | 2025-10-31 01:50:44 |
+| 28   | 🦟 mosquito     | 0.20          | respirate_   | 2025-10-31 01:24:32 |
+| 27   | 🦎 lizard       | 3.93          | chestnutbank | 2025-10-31 01:23:53 |
 | 26   | 🪹 emptynest    | 8.17          | chestnutbank | 2025-09-22 00:16:00 |
 | 25   | ☘️ clover        | 0.66          | respirate_   | 2025-09-21 23:53:33 |
 | 24   | 🪺 nestwitheggs | 6.28          | chestnutbank | 2025-09-21 21:39:34 |
@@ -54,4 +57,4 @@
 | 2    | 🦀 crab         | 35.83         | gofishgamer  | 2025-08-24 23:37:07 |
 | 1    | 🧽 sponge       | 8.21          | ajspyman     | 2024-06-02 12:34:25 |
 
-_Last updated at 2025-11-16 09:48:52 UTC_
+_Last updated at 2025-11-23 10:46:59 UTC_

@@ -49,11 +49,11 @@
 | 45    | 🦴 bone            | 14.98         | v6r_         | 2025-08-29 19:42:35 |
 | 46    | 🪵 log             | 14.85         | ritaaww      | 2024-10-31 23:51:11 |
 | 47    | 🍄‍🟫 mushroom        | 13.01         | v6r_         | 2025-01-06 08:29:20 |
-| 48 ⬆  | 🪱 worm            | 12.81 (+0.84) | mangos4u     | 2025-11-10 13:39:43 |
-| 49 ⬇  | 🕶️ darksunglasses   | 12.08         | mangos4u     | 2025-08-13 15:55:14 |
+| 48    | 🪱 worm            | 12.81         | mangos4u     | 2025-11-10 13:39:43 |
+| 49    | 🕶️ darksunglasses   | 12.08         | mangos4u     | 2025-08-13 15:55:14 |
 | 50    | 🧴 sunscreenbottle | 11.71         | v6r_         | 2025-08-25 14:03:05 |
-| 51    | 🧃 beveragebox     | 11.41         | chestnutbank | 2025-06-12 21:42:37 |
-| 52    | 🧸 teddybear       | 11.37         | mangos4u     | 2025-02-24 02:39:47 |
+| 51 ⬆  | 🧸 teddybear       | 11.42 (+0.05) | v6r_         | 2025-11-21 03:47:26 |
+| 52 ⬇  | 🧃 beveragebox     | 11.41         | chestnutbank | 2025-06-12 21:42:37 |
 | 53    | 🐌 snail           | 11.28         | v6r_         | 2025-08-03 01:24:26 |
 | 54    | 🐦 cardinal        | 10.75         | sykelle      | 2024-12-19 22:23:58 |
 | 55    | 🩲 briefs          | 10.62         | solahh__     | 2025-08-20 00:40:43 |
@@ -114,4 +114,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-11-16 09:50:33 UTC_
+_Last updated at 2025-11-23 10:45:02 UTC_

@@ -25,7 +25,7 @@
 		"fishid": 172638,
 		"chatid": 2,
 		"date": "2025-05-12T07:45:38Z",
-		"rank": 60
+		"rank": 62
 	},
 	"172739": {
 		"player": "fantanium",
@@ -193,7 +193,7 @@
 		"fishid": 176986,
 		"chatid": 14,
 		"date": "2025-06-01T00:43:22Z",
-		"rank": 63
+		"rank": 65
 	},
 	"176996": {
 		"player": "aim1138",
@@ -291,7 +291,7 @@
 		"fishid": 179458,
 		"chatid": 21,
 		"date": "2025-06-14T10:37:55Z",
-		"rank": 53
+		"rank": 54
 	},
 	"179728": {
 		"player": "gofishgamer",
@@ -374,7 +374,7 @@
 		"fishid": 192311,
 		"chatid": 27,
 		"date": "2025-08-09T07:12:21Z",
-		"rank": 64
+		"rank": 66
 	},
 	"192342": {
 		"player": "bubinga",
@@ -388,7 +388,7 @@
 		"fishid": 192342,
 		"chatid": 28,
 		"date": "2025-08-09T12:58:16Z",
-		"rank": 59
+		"rank": 61
 	},
 	"193088": {
 		"player": "bubinga",
@@ -486,7 +486,7 @@
 		"fishid": 196792,
 		"chatid": 35,
 		"date": "2025-09-01T14:48:19Z",
-		"rank": 52
+		"rank": 53
 	},
 	"196896": {
 		"player": "soopyboo32",
@@ -500,7 +500,7 @@
 		"fishid": 196896,
 		"chatid": 36,
 		"date": "2025-09-02T06:01:46Z",
-		"rank": 62
+		"rank": 64
 	},
 	"196901": {
 		"player": "soopyboo32",
@@ -584,7 +584,7 @@
 		"fishid": 197748,
 		"chatid": 42,
 		"date": "2025-09-06T22:53:29Z",
-		"rank": 61
+		"rank": 63
 	},
 	"197863": {
 		"player": "soopyboo32",
@@ -640,7 +640,7 @@
 		"fishid": 198131,
 		"chatid": 46,
 		"date": "2025-09-09T02:01:02Z",
-		"rank": 58
+		"rank": 59
 	},
 	"198136": {
 		"player": "lunecker",
@@ -794,7 +794,7 @@
 		"fishid": 201429,
 		"chatid": 57,
 		"date": "2025-09-23T19:53:49Z",
-		"rank": 53
+		"rank": 54
 	},
 	"201430": {
 		"player": "defirence",
@@ -836,7 +836,7 @@
 		"fishid": 202990,
 		"chatid": 60,
 		"date": "2025-09-29T09:35:06Z",
-		"rank": 53
+		"rank": 54
 	},
 	"208110": {
 		"player": "commanda_u",
@@ -850,7 +850,7 @@
 		"fishid": 208110,
 		"chatid": 61,
 		"date": "2025-10-15T19:49:16Z",
-		"rank": 56
+		"rank": 57
 	},
 	"211847": {
 		"player": "respirate_",
@@ -878,7 +878,7 @@
 		"fishid": 212038,
 		"chatid": 63,
 		"date": "2025-11-01T11:50:34Z",
-		"rank": 57
+		"rank": 58
 	},
 	"215158": {
 		"player": "bubinga",
@@ -893,5 +893,33 @@
 		"chatid": 64,
 		"date": "2025-11-12T09:09:30Z",
 		"rank": 1
+	},
+	"216159": {
+		"player": "gofishgamer",
+		"playerid": 2944,
+		"weight": 0.53,
+		"bot": "gofishgame",
+		"fishtype": "🎏",
+		"fishname": "lure",
+		"catchtype": "normal",
+		"chat": "deme",
+		"fishid": 216159,
+		"chatid": 65,
+		"date": "2025-11-17T04:20:57Z",
+		"rank": 59
+	},
+	"216170": {
+		"player": "gofishgamer",
+		"playerid": 2944,
+		"weight": 0.87,
+		"bot": "gofishgame",
+		"fishtype": "🦀",
+		"fishname": "crab",
+		"catchtype": "normal",
+		"chat": "deme",
+		"fishid": 216170,
+		"chatid": 66,
+		"date": "2025-11-17T07:00:31Z",
+		"rank": 52
 	}
 }

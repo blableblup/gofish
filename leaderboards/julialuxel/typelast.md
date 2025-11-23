@@ -19,7 +19,7 @@
 | 45   | 🪝 hook         | 0.00          | julialuxel            | 2025-06-14 01:18:00 |
 | 44   | 🐋 whale        | 59.28         | julialuxel            | 2025-06-14 01:11:23 |
 | 43   | 🐠 tropicalfish | 13.48         | julialuxel            | 2025-05-08 03:22:34 |
-| 42   | 🐚 shell        | 0.56          | c_mgirl               | 2025-03-31 02:33:51 |
+| 42   | 🐚 shell        | 0.56          | cimgu                 | 2025-03-31 02:33:51 |
 | 41   | 🪳 cockroach    | 2.77          | leanmeister           | 2025-03-29 23:41:42 |
 | 40   | 🐍 snake        | 17.81         | leanmeister           | 2025-03-26 20:13:10 |
 | 39   | 📱 iphone       | 2.28          | julialuxel            | 2025-03-16 00:00:13 |
@@ -62,4 +62,4 @@
 | 2    | 🐧 penguin      | 29.49         | ryebreadward          | 2024-01-01 00:28:42 |
 | 1    | 🧣 scarf        | 0.37          | hahppyy               | 2023-12-24 23:05:05 |
 
-_Last updated at 2025-11-09 07:45:00 UTC_
+_Last updated at 2025-11-23 10:46:58 UTC_

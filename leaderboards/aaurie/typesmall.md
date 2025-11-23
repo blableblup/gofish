@@ -14,12 +14,12 @@
 | 10    | 🐉 dragon        | 12.52         | jonysays           | 2025-10-11 01:04:20 |
 | 11    | 🪵 log           | 11.18         | abelito75          | 2025-08-04 03:34:44 |
 | 12    | 🦦 otter         | 9.65          | boogie310_         | 2025-05-27 02:58:28 |
-| 13    | 🐙 octopus       | 7.85          | preemalone         | 2025-07-04 03:56:53 |
+| 13    | 🐙 octopus       | 7.25 (-0.60)  | gofishgamer        | 2025-11-18 23:02:49 |
 | 14    | 🐋 whale         | 6.76          | bluezebra17        | 2025-07-05 05:35:40 |
 | 15    | 👒 hat           | 5.69          | amatusz            | 2025-07-07 03:54:58 |
 | 16    | 🪨 rock          | 4.25          | jeffbethyname69    | 2025-08-08 02:14:50 |
-| 17    | 🐊 crocodile     | 3.68          | jeffbethyname69    | 2025-06-21 04:32:31 |
-| 18    | 🦑 squid         | 3.44          | boogie310_         | 2025-04-01 01:15:13 |
+| 17 ⬆  | 🦑 squid         | 3.44          | boogie310_         | 2025-04-01 01:15:13 |
+| 18 ⬇  | 🐊 crocodile     | 2.92 (-0.76)  | gofishgamer        | 2025-11-19 08:09:23 |
 | 19    | 🪀 bobber        | 2.66          | mademooselle       | 2025-03-15 02:57:35 |
 | 20    | 🩲 briefs        | 2.58          | rjthebooger        | 2025-09-06 07:35:03 |
 | 21    | 🐬 dolphin       | 2.50          | amatusz            | 2025-08-22 02:24:12 |
@@ -34,22 +34,22 @@
 | 30    | 🦆 duck          | 1.42          | herbemoji          | 2025-03-13 04:34:56 |
 | 31    | 🐢 turtle        | 1.11          | guy_farting420     | 2025-03-14 02:22:46 |
 | 32    | 👢 boot          | 1.07          | dwaynepounder      | 2025-03-29 04:53:47 |
-| 33    | 🪱 worm          | 1.03          | mavv1s             | 2025-05-27 01:54:32 |
-| 34    | 🐍 snake         | 0.91          | slimdoggiedog      | 2025-03-28 04:43:35 |
-| 35    | 🍁 leaf          | 0.82          | mademooselle       | 2025-10-06 07:00:34 |
-| 36    | 🎱 8ball         | 0.66          | nalls              | 2025-03-28 01:16:07 |
-| 36    | 🦞 lobster       | 0.66          | mavv1s             | 2025-05-27 06:17:00 |
-| 38    | 🧤 gloves        | 0.63          | herbemoji          | 2025-03-11 00:55:22 |
-| 39    | 🌻 sunflower     | 0.55          | aaurie             | 2025-06-09 01:41:18 |
-| 40    | 🥒 seacucumber   | 0.51          | preemalone         | 2025-05-09 02:55:03 |
-| 41    | 🦎 lizard        | 0.45          | slimdoggiedog      | 2025-04-19 04:53:59 |
-| 41    | 🦐 shrimp        | 0.45          | boogie310_         | 2025-04-01 00:18:42 |
-| 43    | 🩰 balletshoes   | 0.38          | victorvondoom313   | 2025-04-28 01:54:30 |
-| 44    | 🌹 rose          | 0.36          | mademooselle       | 2025-10-11 03:06:44 |
-| 45    | 🪸 coral         | 0.33          | rustnroll          | 2025-05-30 00:13:40 |
-| 46    | 🥪 sandwich      | 0.30          | eldiabloskillet    | 2025-08-04 03:34:38 |
-| 47    | 🗡️ dagger         | 0.25          | bluezebra17        | 2025-05-12 06:19:37 |
-| 48    | 🐠 tropicalfish  | 0.24          | bluezebra17        | 2025-05-06 06:40:43 |
+| 33 ⬆  | 🐍 snake         | 0.91          | slimdoggiedog      | 2025-03-28 04:43:35 |
+| 34 ⬆  | 🍁 leaf          | 0.82          | mademooselle       | 2025-10-06 07:00:34 |
+| 35 ⬆  | 🎱 8ball         | 0.66          | nalls              | 2025-03-28 01:16:07 |
+| 35 ⬆  | 🦞 lobster       | 0.66          | mavv1s             | 2025-05-27 06:17:00 |
+| 37 ⬆  | 🧤 gloves        | 0.63          | herbemoji          | 2025-03-11 00:55:22 |
+| 38 ⬆  | 🌻 sunflower     | 0.55          | aaurie             | 2025-06-09 01:41:18 |
+| 39 ⬆  | 🥒 seacucumber   | 0.51          | preemalone         | 2025-05-09 02:55:03 |
+| 40 ⬆  | 🦎 lizard        | 0.45          | slimdoggiedog      | 2025-04-19 04:53:59 |
+| 40 ⬆  | 🦐 shrimp        | 0.45          | boogie310_         | 2025-04-01 00:18:42 |
+| 42 ⬆  | 🩰 balletshoes   | 0.38          | victorvondoom313   | 2025-04-28 01:54:30 |
+| 43 ⬆  | 🌹 rose          | 0.36          | mademooselle       | 2025-10-11 03:06:44 |
+| 44 ⬆  | 🪸 coral         | 0.33          | rustnroll          | 2025-05-30 00:13:40 |
+| 45 ⬆  | 🥪 sandwich      | 0.30          | eldiabloskillet    | 2025-08-04 03:34:38 |
+| 46 ⬆  | 🗡️ dagger         | 0.25          | bluezebra17        | 2025-05-12 06:19:37 |
+| 47 ⬆  | 🐠 tropicalfish  | 0.24          | bluezebra17        | 2025-05-06 06:40:43 |
+| 47 ⬇  | 🪱 worm          | 0.24 (-0.79)  | gofishgamer        | 2025-11-21 00:17:56 |
 | 49    | 🐸 frog          | 0.21          | dolp_fin           | 2025-05-24 04:11:36 |
 | 49    | 🕷️ spider         | 0.21          | mavv1s             | 2025-05-05 06:55:02 |
 | 51    | 🧽 sponge        | 0.16          | allspice_boatrace  | 2025-06-23 02:54:57 |
@@ -72,4 +72,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-11-09 07:40:48 UTC_
+_Last updated at 2025-11-23 10:47:19 UTC_

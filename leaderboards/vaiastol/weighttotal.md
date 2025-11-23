@@ -2,23 +2,23 @@
 
 | Rank  | Player                | Total Weight in lbs |
 |:------|:----------------------|:--------------------|
-| 1 🥇  | vaiastol              | 38410.15 (+249.31)  |
-| 2 🥈  | hahppyy               | 28847.21 (+50.20)   |
+| 1 🥇  | vaiastol              | 39410.02 (+999.87)  |
+| 2 🥈  | hahppyy               | 29225.45 (+378.24)  |
 | 3 🥉  | nicestnarwhal         | 9929.13             |
-| 4     | garout                | 9813.26 (+54.17)    |
+| 4     | garout                | 9849.59 (+36.33)    |
 | 5     | leanmeister           | 9660.42             |
 | 6     | divra__               | 9176.73             |
-| 7     | eelacy                | 8737.49 (+8.13)     |
+| 7     | eelacy                | 8910.07 (+172.58)   |
 | 8     | leastsussyimposter    | 7823.94             |
 | 9     | dazedforevermore      | 5597.59             |
 | 10    | pengeg                | 4975.48             |
 | 11    | redreignss            | 4886.23             |
 | 12    | julialuxel            | 4536.16             |
-| 13    | yoimlee               | 2650.73             |
+| 13    | yoimlee               | 2727.70 (+76.97)    |
 | 14    | milesdotcom           | 2546.43             |
-| 15    | tiaguitos97           | 2221.75 (+12.43)    |
+| 15    | tiaguitos97           | 2274.06 (+52.31)    |
 | 16    | beebo8i               | 1966.17             |
-| 17    | gstaman911            | 1454.39 (+23.22)    |
+| 17    | gstaman911            | 1454.39             |
 | 18    | bubinga               | 1215.75             |
 | 19    | mitgliederversammlung | 879.55              |
 | 20    | rird_                 | 813.71              |
@@ -42,4 +42,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2025-11-16 09:48:56 UTC_
+_Last updated at 2025-11-23 10:49:33 UTC_

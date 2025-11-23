@@ -2,6 +2,9 @@
 
 | Rank | Fish            | Weight in lbs | Player       | Date in UTC         |
 |:-----|:----------------|:--------------|:-------------|:--------------------|
+| 54   | 🎰 slotmachine  | 0.00          | chestnutbank | 2025-11-20 06:45:45 |
+| 53   | 🍬 candy        | 0.00          | chestnutbank | 2025-11-20 06:45:27 |
+| 52   | 🦦 otter        | 11.58         | chestnutbank | 2025-11-17 18:08:20 |
 | 51   | 🐍 snake        | 186.97        | respirate_   | 2025-11-11 01:10:13 |
 | 50   | 👢 boot         | 0.54          | chestnutbank | 2025-11-11 01:04:38 |
 | 49   | 🦠 plankton     | 21.43         | gofishgamer  | 2025-11-11 00:57:18 |
@@ -54,4 +57,4 @@
 | 2    | 🐟 fish         | 9.95          | juliilan     | 2024-05-22 23:39:16 |
 | 1    | 🪝 hook         | 0.34          | breadworms   | 2024-05-15 14:30:25 |
 
-_Last updated at 2025-11-16 09:48:59 UTC_
+_Last updated at 2025-11-23 10:47:14 UTC_

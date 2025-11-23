@@ -6,7 +6,7 @@
 | 2 🥈  | dazedforevermore          | 🦑 squid     | 307.60        | 2023-12-31 16:04:05 |
 | 3 🥉  | sicklymaidrobot           | 🦑 squid     | 306.97        | 2023-12-28 00:11:01 |
 | 4     | qu4ttromila               | 🐳 bluewhale | 303.81        | 2023-03-17 23:18:19 |
-| 5     | c_mgirl                   | 🐳 bluewhale | 303.56        | 2025-02-09 04:29:50 |
+| 5     | cimgu                     | 🐳 bluewhale | 303.56        | 2025-02-09 04:29:50 |
 | 6     | osnyatsky                 | 🐳 bluewhale | 302.88        | 2023-11-18 02:05:57 |
 | 7     | derinturitierutz          | 🐳 bluewhale | 301.87        | 2023-11-22 19:42:11 |
 | 8     | fishingalt                | 🦕 sauropod  | 300.31        | 2025-10-31 08:38:14 |
@@ -27,7 +27,7 @@
 | 23    | dougiefresh_83            | 🐳 bluewhale | 283.40        | 2024-07-24 04:02:39 |
 | 24    | breadworms                | 🐳 bluewhale | 282.85        | 2023-09-26 01:07:47 |
 | 25    | jr_mime                   | 🦑 squid     | 282.46        | 2023-12-25 15:56:15 |
-| 26    | 5c33*                     | 🐉 dragon    | 281.63        | 2023-02-15 13:14:09 |
+| 26    | 5pic3*                    | 🐉 dragon    | 281.63        | 2023-02-15 13:14:09 |
 | 27    | sussy_amonge              | 🐉 dragon    | 278.70        | 2023-08-19 07:18:50 |
 | 28    | fvkdylan                  | 🫎 moose     | 278.16        | 2025-04-27 13:58:41 |
 | 29    | respirate_                | 🐳 bluewhale | 277.53        | 2024-09-01 04:28:56 |
@@ -64,10 +64,10 @@
 | 60    | lazuli672*                | 🦈 shark     | 215.97        | 2023-07-09 23:11:02 |
 | 61    | realtechnine              | 🦕 sauropod  | 214.11        | 2023-02-14 20:12:23 |
 | 62    | divra__                   | 🐳 bluewhale | 213.23        | 2024-04-16 16:17:28 |
-| 63 🆕 | ytp_dl                    | 🦕 sauropod  | 212.14        | 2025-11-08 14:21:59 |
-| 64 ⬇  | notparasfishalt*          | 🐉 dragon    | 207.18        | 2023-06-05 03:16:42 |
-| 65 ⬇  | veggesh                   | 🦈 shark     | 206.22        | 2024-02-25 22:40:19 |
+| 63    | ytp_dl                    | 🦕 sauropod  | 212.14        | 2025-11-08 14:21:59 |
+| 64    | notparasfishalt*          | 🐉 dragon    | 207.18        | 2023-06-05 03:16:42 |
+| 65    | veggesh                   | 🦈 shark     | 206.22        | 2024-02-25 22:40:19 |
 
 _Only showing fish weighing >= 200 lbs_
 
-_Last updated at 2025-11-09 07:45:17 UTC_
+_Last updated at 2025-11-23 10:49:27 UTC_

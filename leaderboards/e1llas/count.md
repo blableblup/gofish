@@ -5,14 +5,14 @@
 | 1 🥇  | envtt          | 136         |
 | 2 🥈  | e1llas         | 77          |
 | 3 🥉  | d1fforr        | 68          |
-| 4 🆕  | gofishgamer    | 38          |
-| 5 🆕  | chestnutbank   | 36          |
-| 6 ⬇   | jboy42o        | 30          |
-| 6 🆕  | respirate_     | 30          |
-| 8 ⬇   | xopowosidim667 | 21          |
-| 9 ⬇   | mersuf         | 17          |
-| 10 ⬇  | koenheylen     | 11          |
+| 4     | gofishgamer    | 43 (+5)     |
+| 5     | chestnutbank   | 42 (+6)     |
+| 6     | respirate_     | 36 (+6)     |
+| 7 ⬇   | jboy42o        | 30          |
+| 8     | xopowosidim667 | 21          |
+| 9     | mersufy        | 17          |
+| 10    | koenheylen     | 11          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-11-16 09:48:49 UTC_
+_Last updated at 2025-11-23 10:46:56 UTC_
