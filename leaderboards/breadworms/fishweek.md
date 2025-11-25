@@ -28,20 +28,20 @@
 | 24    | respirate_            | 74          |
 | 25    | larvaew               | 66          |
 | 26    | booty_bread           | 60          |
-| 26 ⬆  | selmaself             | 60 (+12)    |
-| 28 ⬇  | twemoji               | 57          |
-| 29 ⬇  | receipts              | 56          |
-| 30 ⬇  | bk207*                | 53          |
-| 31 ⬇  | hmsmob*               | 52          |
-| 31 ⬇  | kaasppeerr            | 52          |
-| 33 ⬇  | bapqo                 | 49          |
+| 26    | selmaself             | 60          |
+| 28    | twemoji               | 57          |
+| 29    | receipts              | 56          |
+| 30    | bk207*                | 53          |
+| 31    | hmsmob*               | 52          |
+| 31    | kaasppeerr            | 52          |
+| 33    | bapqo                 | 49          |
 | 34    | osnyatsky             | 47          |
 | 35    | paras220              | 46          |
 | 36    | whitecardrifting      | 45          |
 | 37    | ninjaross             | 44          |
 | 38    | ouacewi               | 43          |
 | 39    | houseofleaves         | 42          |
-| 40    | c_mgirl               | 40          |
+| 40    | cimgu                 | 40          |
 | 41    | fvkdylan              | 39          |
 | 42    | idini                 | 36          |
 | 43    | chestnutbank          | 34          |
@@ -61,4 +61,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2025-11-18 12:53:47 UTC_
+_Last updated at 2025-11-25 21:23:39 UTC_

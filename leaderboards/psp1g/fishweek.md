@@ -35,13 +35,13 @@
 | 31    | glorianeq                 | 32          |
 | 32    | restartmikel              | 31          |
 | 33    | noconcept_                | 29          |
-| 34    | 21h6c                     | 28          |
+| 34    | qyxuu                     | 28          |
 | 35    | creepycode                | 26          |
 | 36    | angus_lpc                 | 24          |
 | 36    | seryxx                    | 24          |
-| 38 🆕 | kevinlukejager            | 23          |
-| 39 ⬇  | afju*                     | 21          |
+| 38    | kevinlukejager            | 23          |
+| 39    | afju*                     | 21          |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2025-11-11 18:51:44 UTC_
+_Last updated at 2025-11-25 21:23:39 UTC_

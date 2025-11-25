@@ -2,23 +2,23 @@
 
 | Rank  | Player                    | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points       |
 |:------|:--------------------------|:------------|:-----------------|:-----------------|:-------------|
-| 1 🥇  | chubby_________           | 32          | 65               | 38               | 180.0        |
+| 1 🥇  | chubby_________           | 32          | 65               | 40 (+2)          | 181.0 (+1.0) |
 | 2 🥈  | leanmeister               | 51          | 16               | 12               | 175.0        |
-| 3 🥉  | osnyisdead                | 42          | 33 (+3)          | 8                | 163.0 (+3.0) |
+| 3 🥉  | osnyisdead                | 43 (+1)     | 35 (+2)          | 8                | 168.0 (+5.0) |
 | 4     | puzzlow                   | 35          | 15               | 14               | 127.0        |
 | 5     | destin357                 | 32          | 21               | 7                | 120.5        |
 | 6     | osnyatsky                 | 31          | 24               | 6                | 120.0        |
 | 7     | derinturitierutz          | 35          | 7                | 15               | 119.5        |
-| 8 ⬆   | derintu                   | 12 (+3)     | 22               | 18               | 67.0 (+9.0)  |
-| 9 ⬇   | qu4ttromila               | 11          | 19               | 20               | 62.0         |
+| 8     | derintu                   | 14 (+2)     | 23 (+1)          | 18               | 74.0 (+7.0)  |
+| 9     | qu4ttromila               | 11          | 19               | 20               | 62.0         |
 | 10    | kishma9                   | 11          | 19               | 11               | 57.5         |
 | 11    | miiiiisho                 | 8           | 21               | 14               | 52.0         |
 | 12    | dazedforevermore          | 10          | 10               | 12               | 46.0         |
 | 13    | sussy_amonge              | 12          | 4                | 7                | 43.5         |
 | 14    | sicklymaidrobot           | 5           | 10               | 26               | 38.0         |
 | 15    | comiqq                    | 5           | 14               | 13               | 35.5         |
-| 16    | fishingalt                | 5           | 9                | 12               | 30.0         |
-| 17    | c_mgirl                   | 3           | 3                | 11               | 17.5         |
+| 16    | fishingalt                | 5           | 9                | 13 (+1)          | 30.5 (+0.5)  |
+| 17    | cimgu                     | 3           | 3                | 11               | 17.5         |
 | 18    | booty_bread               | 4           | 2                | 6                | 17.0         |
 | 19    | ryebreadward              | 3           | 3                | 6                | 15.0         |
 | 20    | ninjaross                 | 2           | 2                | 10               | 13.0         |
@@ -43,13 +43,13 @@
 | 39    | breadworms                | 0           | 0                | 4                | 2.0          |
 | 39    | bussinongnocap            | 0           | 1                | 2                | 2.0          |
 | 41    | kaasppeerr                | 0           | 0                | 3                | 1.5          |
-| 41 🆕 | selmaself                 | 0           | 0                | 3                | 1.5          |
-| 43 ⬇  | bapqo                     | 0           | 0                | 2                | 1.0          |
-| 43 ⬇  | gawblemachine             | 0           | 1                | 0                | 1.0          |
-| 45 ⬇  | hansworthelias            | 0           | 0                | 1                | 0.5          |
-| 45 ⬇  | jr_mime                   | 0           | 0                | 1                | 0.5          |
-| 45 ⬇  | mochi_uygqzidbjizjkbehuiw | 0           | 0                | 1                | 0.5          |
-| 45 ⬇  | niiy                      | 0           | 0                | 1                | 0.5          |
-| 45 ⬇  | ytp_dl                    | 0           | 0                | 1                | 0.5          |
+| 41    | selmaself                 | 0           | 0                | 3                | 1.5          |
+| 43    | bapqo                     | 0           | 0                | 2                | 1.0          |
+| 43    | gawblemachine             | 0           | 1                | 0                | 1.0          |
+| 45    | hansworthelias            | 0           | 0                | 1                | 0.5          |
+| 45    | jr_mime                   | 0           | 0                | 1                | 0.5          |
+| 45    | mochi_uygqzidbjizjkbehuiw | 0           | 0                | 1                | 0.5          |
+| 45    | niiy                      | 0           | 0                | 1                | 0.5          |
+| 45    | ytp_dl                    | 0           | 0                | 1                | 0.5          |
 
-_Last updated at 2025-11-18 12:53:47 UTC_
+_Last updated at 2025-11-25 21:23:39 UTC_
