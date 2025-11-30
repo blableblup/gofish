@@ -2,7 +2,7 @@
 
 | Rank  | Player         | Fish caught |
 |:------|:---------------|:------------|
-| 1 🥇  | buhl00n        | 2467 (+3)   |
+| 1 🥇  | buhl00n        | 2467        |
 | 2 🥈  | keplepn3       | 1092        |
 | 3 🥉  | gimmeschmoneys | 1090        |
 | 4     | ben_vincent    | 776         |
@@ -10,24 +10,24 @@
 | 6     | iam_haunt      | 536         |
 | 7     | spanmer        | 366         |
 | 8     | konsminator    | 326         |
-| 9     | ofaisalz       | 320 (+1)    |
+| 9     | ofaisalz       | 322 (+2)    |
 | 10    | rabituwu       | 243         |
-| 11    | notnownico     | 232         |
-| 12    | vagdy          | 231 (+3)    |
+| 11 ⬆  | vagdy          | 239 (+8)    |
+| 12 ⬇  | notnownico     | 232         |
 | 13    | hamoodhabibee  | 210         |
 | 14    | simplydrack    | 183         |
 | 15    | ssenario       | 171         |
 | 16    | tairaaaaa      | 169         |
-| 17    | mousee93       | 167 (+1)    |
-| 18    | kyonuwu        | 145 (+1)    |
+| 17    | mousee93       | 167         |
+| 18    | kyonuwu        | 145         |
 | 19    | sugur          | 137         |
 | 20    | exo9*          | 135         |
 | 21    | burnend        | 133         |
 | 22    | aceleju        | 120         |
 | 23    | kukkuri        | 110         |
+| 24 ⬆  | lilzomme       | 105 (+1)    |
 | 24    | paperboat99    | 105         |
 | 24    | wisteraeia     | 105         |
-| 26    | lilzomme       | 104         |
 | 27    | feuha          | 77          |
 | 28    | gofishgamer    | 69          |
 | 28    | icejamx        | 69          |
@@ -56,4 +56,4 @@
 
 _Only showing fishers who caught >= 30 fish_
 
-_Last updated at 2025-11-23 10:46:58 UTC_
+_Last updated at 2025-11-30 10:13:17 UTC_

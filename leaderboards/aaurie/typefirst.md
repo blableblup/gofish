@@ -2,6 +2,10 @@
 
 | Rank | Fish             | Weight in lbs | Player              | Date in UTC         |
 |:-----|:-----------------|:--------------|:--------------------|:--------------------|
+| 72   | 🧊 icecube       | 1.45          | bluezebra17         | 2025-11-29 07:49:36 |
+| 71   | 🦠 plankton      | 14.46         | gofishgamer         | 2025-11-28 07:15:42 |
+| 70   | 🕯️ candle         | 0.00          | gofishgamer         | 2025-11-26 07:42:13 |
+| 69   | 🎃 pumpkin       | 2.12          | gofishgamer         | 2025-11-26 07:36:18 |
 | 68   | 🌹 rose          | 0.36          | mademooselle        | 2025-10-11 03:06:44 |
 | 67   | 🍁 leaf          | 0.82          | mademooselle        | 2025-10-06 07:00:34 |
 | 66   | 🌰 acorn         | 0.01          | aaurie              | 2025-10-04 06:13:57 |
@@ -71,4 +75,4 @@
 | 2    | 🪝 hook          | 1.12          | aaurie              | 2025-03-07 01:01:14 |
 | 1    | 🐠 tropicalfish  | 21.11         | dwaynepounder       | 2025-03-06 08:02:47 |
 
-_Last updated at 2025-11-09 07:45:14 UTC_
+_Last updated at 2025-11-30 10:13:30 UTC_

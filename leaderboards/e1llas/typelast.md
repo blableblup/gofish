@@ -2,29 +2,29 @@
 
 | Rank | Fish             | Weight in lbs | Player                    | Date in UTC         |
 |:-----|:-----------------|:--------------|:--------------------------|:--------------------|
-| 59   | 🐸 frog          | 3.25          | chestnutbank              | 2025-11-17 04:33:42 |
-| 58   | 🐳 bluewhale     | 254.78        | respirate_                | 2025-11-17 02:59:06 |
-| 57   | 🦠 plankton      | 10.32         | chestnutbank              | 2025-11-17 01:08:51 |
-| 56   | 🐚 shell         | 2.50          | gofishgamer               | 2025-11-17 01:04:09 |
-| 55   | 🦭 seal          | 28.14         | respirate_                | 2025-11-17 01:04:03 |
-| 54   | 🎏 lure          | 0.42          | chestnutbank              | 2025-11-16 08:01:21 |
-| 53   | 🧦 socks         | 0.88          | gofishgamer               | 2025-11-16 07:56:52 |
-| 52   | 🐟 fish          | 17.19         | chestnutbank              | 2025-11-16 06:33:10 |
-| 51   | 🦐 shrimp        | 12.14         | respirate_                | 2025-11-16 06:33:04 |
-| 50   | 🐋 whale         | 124.97        | chestnutbank              | 2025-11-16 05:53:25 |
-| 49   | 🕷️ spider         | 8.55          | gofishgamer               | 2025-11-16 05:45:40 |
-| 48   | 🐡 blowfish      | 17.98         | chestnutbank              | 2025-11-16 04:47:07 |
-| 47   | 🦪 oyster        | 9.60          | respirate_                | 2025-11-16 04:43:37 |
-| 46   | 🐙 octopus       | 101.74        | gofishgamer               | 2025-11-15 08:11:38 |
-| 45   | ☂️ umbrella       | 2.30          | gofishgamer               | 2025-11-15 07:09:32 |
-| 44   | 🪝 hook          | 1.16          | chestnutbank              | 2025-11-15 07:02:47 |
-| 43   | 🦀 crab          | 2.57          | chestnutbank              | 2025-11-15 06:02:15 |
-| 42   | 🦈 shark         | 127.05        | respirate_                | 2025-11-15 06:01:43 |
-| 41   | 🧤 gloves        | 0.11          | chestnutbank              | 2025-11-15 05:22:31 |
-| 40   | 🐍 snake         | 195.57        | respirate_                | 2025-11-15 02:39:23 |
-| 39   | 🪳 cockroach     | 22.54         | gofishgamer               | 2025-11-15 02:28:26 |
-| 38   | 🪸 coral         | 18.55         | chestnutbank              | 2025-11-14 09:49:41 |
-| 37   | 🐢 turtle        | 74.93         | respirate_                | 2025-11-14 08:46:36 |
+| 59   | 🐢 turtle        | 29.46         | envtt                     | 2025-11-23 18:08:43 |
+| 58   | 🐸 frog          | 3.25          | chestnutbank              | 2025-11-17 04:33:42 |
+| 57   | 🐳 bluewhale     | 254.78        | respirate_                | 2025-11-17 02:59:06 |
+| 56   | 🦠 plankton      | 10.32         | chestnutbank              | 2025-11-17 01:08:51 |
+| 55   | 🐚 shell         | 2.50          | gofishgamer               | 2025-11-17 01:04:09 |
+| 54   | 🦭 seal          | 28.14         | respirate_                | 2025-11-17 01:04:03 |
+| 53   | 🎏 lure          | 0.42          | chestnutbank              | 2025-11-16 08:01:21 |
+| 52   | 🧦 socks         | 0.88          | gofishgamer               | 2025-11-16 07:56:52 |
+| 51   | 🐟 fish          | 17.19         | chestnutbank              | 2025-11-16 06:33:10 |
+| 50   | 🦐 shrimp        | 12.14         | respirate_                | 2025-11-16 06:33:04 |
+| 49   | 🐋 whale         | 124.97        | chestnutbank              | 2025-11-16 05:53:25 |
+| 48   | 🕷️ spider         | 8.55          | gofishgamer               | 2025-11-16 05:45:40 |
+| 47   | 🐡 blowfish      | 17.98         | chestnutbank              | 2025-11-16 04:47:07 |
+| 46   | 🦪 oyster        | 9.60          | respirate_                | 2025-11-16 04:43:37 |
+| 45   | 🐙 octopus       | 101.74        | gofishgamer               | 2025-11-15 08:11:38 |
+| 44   | ☂️ umbrella       | 2.30          | gofishgamer               | 2025-11-15 07:09:32 |
+| 43   | 🪝 hook          | 1.16          | chestnutbank              | 2025-11-15 07:02:47 |
+| 42   | 🦀 crab          | 2.57          | chestnutbank              | 2025-11-15 06:02:15 |
+| 41   | 🦈 shark         | 127.05        | respirate_                | 2025-11-15 06:01:43 |
+| 40   | 🧤 gloves        | 0.11          | chestnutbank              | 2025-11-15 05:22:31 |
+| 39   | 🐍 snake         | 195.57        | respirate_                | 2025-11-15 02:39:23 |
+| 38   | 🪳 cockroach     | 22.54         | gofishgamer               | 2025-11-15 02:28:26 |
+| 37   | 🪸 coral         | 18.55         | chestnutbank              | 2025-11-14 09:49:41 |
 | 36   | 🐉 dragon        | 8.25          | respirate_                | 2025-11-14 08:08:36 |
 | 35   | 🐠 tropicalfish  | 15.93         | gofishgamer               | 2025-11-14 04:22:25 |
 | 34   | 🦕 sauropod      | 123.46        | chestnutbank              | 2025-11-14 03:51:28 |
@@ -62,4 +62,4 @@
 | 2    | 🧊 icecube       | 3.47          | d1fforr                   | 2024-12-16 08:17:13 |
 | 1    | 🪱 worm          | 6.55          | mersufy                   | 2024-12-15 14:45:59 |
 
-_Last updated at 2025-11-23 10:46:58 UTC_
+_Last updated at 2025-11-30 10:13:29 UTC_

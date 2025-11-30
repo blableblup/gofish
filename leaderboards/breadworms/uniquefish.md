@@ -7,12 +7,12 @@
 | 3 🥉  | chubby_________       | 99        |
 | 3 🥉  | leanmeister           | 99        |
 | 5     | larvaew               | 96        |
-| 6     | derintu               | 95 (+2)   |
+| 6     | derintu               | 95        |
 | 7     | cimgu                 | 92        |
 | 8     | breadworms            | 91        |
 | 8     | kishma9               | 91        |
-| 10    | destin357             | 90        |
-| 10    | qu4ttromila           | 90        |
+| 8 ⬆   | qu4ttromila           | 91 (+1)   |
+| 11 ⬇  | destin357             | 90        |
 | 12    | osnyisdead            | 86        |
 | 13    | dazedforevermore      | 85        |
 | 14    | dougiefresh_83*       | 83        |
@@ -20,13 +20,13 @@
 | 16    | booty_bread           | 77        |
 | 16    | ninjaross*            | 77        |
 | 18    | sicklymaidrobot       | 75        |
-| 19    | osnyatsky*            | 73        |
-| 19    | puzzlow               | 73        |
-| 21    | paras220              | 72        |
-| 21    | respirate_            | 72        |
-| 23 ⬆  | ytp_dl*               | 71 (+3)   |
-| 24 ⬇  | gstaman911            | 70        |
-| 25 ⬇  | julialuxel            | 68        |
+| 18 ⬆  | ytp_dl*               | 75 (+4)   |
+| 20 ⬇  | osnyatsky*            | 73        |
+| 20 ⬇  | puzzlow               | 73        |
+| 22 ⬇  | paras220              | 72        |
+| 22 ⬇  | respirate_            | 72        |
+| 24    | gstaman911            | 70        |
+| 25    | julialuxel            | 68        |
 | 26    | crazytown_bananapants | 67        |
 | 27    | gawblemachine         | 66        |
 | 28    | comiqq                | 65        |
@@ -43,10 +43,11 @@
 | 38    | lazuli672*            | 53        |
 | 40    | houseofleaves*        | 51        |
 | 40    | osnyatsky*            | 51        |
+| 42 🆕 | twemoji               | 50        |
 | 42    | whitecardrifting      | 50        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2025-11-23 10:47:11 UTC_
+_Last updated at 2025-11-30 10:13:15 UTC_

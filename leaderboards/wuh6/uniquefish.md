@@ -6,13 +6,13 @@
 | 2 🥈  | bubinga                   | 104       |
 | 3 🥉  | iflya320                  | 103       |
 | 4     | theevirus                 | 102       |
-| 5     | huuuuuuuuuuuuuuuuuuuuuurz | 92        |
-| 5 ⬆   | lobuhtomy                 | 92 (+1)   |
+| 5     | lobuhtomy                 | 93 (+1)   |
+| 6 ⬇   | huuuuuuuuuuuuuuuuuuuuuurz | 92        |
 | 7     | wowitsdub                 | 89        |
 | 8     | nndiana*                  | 88        |
-| 9     | veny2lbs                  | 81        |
-| 10    | gorillapark               | 80        |
-| 11    | ranctious                 | 70 (+2)   |
+| 9     | veny2lbs                  | 82 (+1)   |
+| 10    | gorillapark               | 81 (+1)   |
+| 11    | ranctious                 | 71 (+1)   |
 | 12    | caprisen_*                | 59        |
 | 12    | mazzo_tv                  | 59        |
 | 14    | commanda_u                | 57        |
@@ -21,8 +21,8 @@
 | 17    | sandwichsundays*          | 48        |
 | 17    | supibot                   | 48        |
 | 17    | thetaxmen                 | 48        |
-| 20    | ewpert1                   | 44 (+1)   |
-| 21 ⬇  | teddbearcs                | 43        |
+| 20    | ewpert1                   | 44        |
+| 21    | teddbearcs                | 43        |
 | 22    | glorianeq                 | 42        |
 | 23    | flvx_flux*                | 41        |
 | 24    | bcarw                     | 40        |
@@ -48,4 +48,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2025-11-23 10:47:10 UTC_
+_Last updated at 2025-11-30 10:13:14 UTC_

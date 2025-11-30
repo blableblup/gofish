@@ -2,6 +2,7 @@
 
 | Rank | Fish            | Weight in lbs | Player      | Date in UTC         |
 |:-----|:----------------|:--------------|:------------|:--------------------|
+| 48   | 🦦 otter        | 18.37         | gofishgamer | 2025-11-29 06:18:44 |
 | 47   | 🦠 plankton     | 12.30         | gofishgamer | 2025-11-21 09:24:51 |
 | 46   | 🦕 sauropod     | 58.55         | gofishgamer | 2025-11-21 08:44:32 |
 | 45   | 🧃 beveragebox  | 10.04         | larvaew     | 2025-06-12 04:24:59 |
@@ -50,4 +51,4 @@
 | 2    | 🐟 fish         | 18.70         | osnyisdead  | 2024-10-01 00:57:38 |
 | 1    | 🐸 frog         | 4.68          | osnyisdead  | 2024-09-30 22:45:01 |
 
-_Last updated at 2025-11-23 10:47:14 UTC_
+_Last updated at 2025-11-30 10:13:30 UTC_

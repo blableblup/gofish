@@ -139,6 +139,19 @@
 		"date": "2025-05-06T06:56:33Z",
 		"rank": 53
 	},
+	"candle": {
+		"player": "gofishgamer",
+		"playerid": 2944,
+		"bot": "gofishgame",
+		"fishtype": "🕯️",
+		"fishname": "candle",
+		"catchtype": "releasepumpkin",
+		"chat": "aaurie",
+		"fishid": 218090,
+		"chatid": 1586,
+		"date": "2025-11-26T07:42:13Z",
+		"rank": 70
+	},
 	"candy": {
 		"player": "aaurie",
 		"playerid": 2519,
@@ -418,6 +431,20 @@
 		"date": "2025-03-07T01:01:14Z",
 		"rank": 2
 	},
+	"icecube": {
+		"player": "bluezebra17",
+		"playerid": 3848,
+		"weight": 1.45,
+		"bot": "gofishgame",
+		"fishtype": "🧊",
+		"fishname": "icecube",
+		"catchtype": "normal",
+		"chat": "aaurie",
+		"fishid": 218680,
+		"chatid": 1598,
+		"date": "2025-11-29T07:49:36Z",
+		"rank": 72
+	},
 	"jellyfish": {
 		"player": "dolp_fin",
 		"playerid": 3839,
@@ -571,6 +598,34 @@
 		"chatid": 482,
 		"date": "2025-03-11T04:27:08Z",
 		"rank": 21
+	},
+	"plankton": {
+		"player": "gofishgamer",
+		"playerid": 2944,
+		"weight": 14.46,
+		"bot": "gofishgame",
+		"fishtype": "🦠",
+		"fishname": "plankton",
+		"catchtype": "normal",
+		"chat": "aaurie",
+		"fishid": 218505,
+		"chatid": 1593,
+		"date": "2025-11-28T07:15:42Z",
+		"rank": 71
+	},
+	"pumpkin": {
+		"player": "gofishgamer",
+		"playerid": 2944,
+		"weight": 2.12,
+		"bot": "gofishgame",
+		"fishtype": "🎃",
+		"fishname": "pumpkin",
+		"catchtype": "normal",
+		"chat": "aaurie",
+		"fishid": 218087,
+		"chatid": 1585,
+		"date": "2025-11-26T07:36:18Z",
+		"rank": 69
 	},
 	"rock": {
 		"player": "rustnroll",

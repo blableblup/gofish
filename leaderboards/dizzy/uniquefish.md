@@ -13,9 +13,9 @@
 | 9     | hamoodhabibee      | 48        |
 | 9     | spanmer            | 48        |
 | 11    | simplydrack        | 47        |
-| 12    | notnownico         | 46        |
-| 12    | tairaaaaa          | 46        |
-| 12 ⬆  | vagdy              | 46 (+1)   |
+| 11 ⬆  | vagdy              | 47 (+1)   |
+| 13 ⬇  | notnownico         | 46        |
+| 13 ⬇  | tairaaaaa          | 46        |
 | 15    | exo9*              | 44        |
 | 15    | rabituwu           | 44        |
 | 17    | sugur              | 43        |
@@ -55,4 +55,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2025-11-16 09:48:48 UTC_
+_Last updated at 2025-11-30 10:13:15 UTC_
