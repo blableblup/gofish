@@ -7,14 +7,13 @@ import (
 	"gofish/logs"
 	"io"
 	"net/http"
-	"regexp"
 	"time"
 
 	"github.com/jackc/pgx/v5/pgconn"
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 
-func GetFishDataFromURL(url string, chatName string, data string, pool *pgxpool.Pool, latestCatchDate time.Time, latestBagDate time.Time, latestTournamentDate time.Time) ([]FishInfo, error) {
+func GetFishDataFromURL(url string, chatName string, catches []FishCatch, pool *pgxpool.Pool, latestCatchDate time.Time, latestBagDate time.Time, latestTournamentDate time.Time) ([]FishInfo, error) {
 	var fishData []FishInfo
 
 	// retry 3 times after 20 seconds
@@ -73,47 +72,7 @@ func GetFishDataFromURL(url string, chatName string, data string, pool *pgxpool.
 
 		textContent := string(body)
 
-		// Dont check every pattern depending on "data"
-		var patterns []*regexp.Regexp
-		switch data {
-		case "all":
-			patterns = []*regexp.Regexp{
-				MouthPattern,
-				ReleasePattern,
-				ReleasePatternPumpkin,
-				NormalPattern,
-				JumpedPattern,
-				BirdPattern,
-				SquirrelPattern,
-				SonnyThrowWeight,
-				SonnyThrow,
-				WinterGift,
-				BellGift,
-				BagPattern,
-				TournamentPattern,
-			}
-		case "f":
-			patterns = []*regexp.Regexp{
-				MouthPattern,
-				ReleasePattern,
-				ReleasePatternPumpkin,
-				NormalPattern,
-				JumpedPattern,
-				BirdPattern,
-				SquirrelPattern,
-				SonnyThrowWeight,
-				SonnyThrow,
-				WinterGift,
-				BellGift,
-				BagPattern,
-			}
-		case "t":
-			patterns = []*regexp.Regexp{
-				TournamentPattern,
-			}
-		}
-
-		fishCatches := extractFishDataFromPatterns(textContent, patterns)
+		fishCatches := extractFishDataFromPatterns(textContent, catches)
 
 		for _, fish := range fishCatches {
 			// Update the url and the name of the chat here

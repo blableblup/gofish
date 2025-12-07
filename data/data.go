@@ -14,30 +14,16 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 
-func GetData(pool *pgxpool.Pool, chatNames string, data string, numMonths int, monthYear string, logInstance string, mode string) {
+func GetFishData(pool *pgxpool.Pool, chatNames string, catches string, numMonths int, monthYear string, logInstance string, mode string) {
 
 	config := utils.LoadConfig()
-
-	switch data {
-	case "f":
-		GetFishData(config, pool, chatNames, data, numMonths, monthYear, logInstance, mode)
-	case "t":
-		GetFishData(config, pool, chatNames, data, numMonths, monthYear, logInstance, mode)
-	case "all":
-		GetFishData(config, pool, chatNames, data, numMonths, monthYear, logInstance, mode)
-	default:
-		logs.Logs().Warn().
-			Str("DB", data).
-			Msg("That does not exist")
-	}
-}
-
-func GetFishData(config utils.Config, pool *pgxpool.Pool, chatNames string, data string, numMonths int, monthYear string, logInstance string, mode string) {
 
 	var wg sync.WaitGroup
 	fishChan := make(chan []FishInfo)
 
 	logs.Logs().Info().Msgf("Checking new data")
+
+	fishCatches := returnTheCatchPatterns(catches)
 
 	switch chatNames {
 	case "all":
@@ -56,7 +42,7 @@ func GetFishData(config utils.Config, pool *pgxpool.Pool, chatNames string, data
 			go func(chatName string, chat utils.ChatInfo) {
 				defer wg.Done()
 				urls := CreateURL(chatName, chat, numMonths, monthYear, logInstance)
-				fishData := ProcessFishDataForChat(urls, chatName, data, chat, pool, mode)
+				fishData := ProcessFishDataForChat(urls, chatName, fishCatches, chat, pool, mode)
 				fishChan <- fishData
 
 			}(chatName, chat)
@@ -86,7 +72,7 @@ func GetFishData(config utils.Config, pool *pgxpool.Pool, chatNames string, data
 			go func(chatName string, chat utils.ChatInfo) {
 				defer wg.Done()
 				urls := CreateURL(chatName, chat, numMonths, monthYear, logInstance)
-				fishData := ProcessFishDataForChat(urls, chatName, data, chat, pool, mode)
+				fishData := ProcessFishDataForChat(urls, chatName, fishCatches, chat, pool, mode)
 				fishChan <- fishData
 
 			}(chatName, chat)
@@ -116,7 +102,7 @@ func GetFishData(config utils.Config, pool *pgxpool.Pool, chatNames string, data
 
 }
 
-func ProcessFishDataForChat(urls []string, chatName string, data string, Chat utils.ChatInfo, pool *pgxpool.Pool, mode string) []FishInfo {
+func ProcessFishDataForChat(urls []string, chatName string, fishCatches []FishCatch, Chat utils.ChatInfo, pool *pgxpool.Pool, mode string) []FishInfo {
 	var allFish []FishInfo
 	var wg sync.WaitGroup
 	var mu sync.Mutex
@@ -158,7 +144,7 @@ func ProcessFishDataForChat(urls []string, chatName string, data string, Chat ut
 		wg.Add(1)
 		go func(url string) {
 			defer wg.Done()
-			fishData, err := GetFishDataFromURL(url, chatName, data, pool, latestCatchDate, latestBagDate, latestTournamentDate)
+			fishData, err := GetFishDataFromURL(url, chatName, fishCatches, pool, latestCatchDate, latestBagDate, latestTournamentDate)
 			if err != nil {
 				logs.Logs().Error().Err(err).
 					Msg("Error fetching data")

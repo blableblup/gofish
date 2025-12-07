@@ -25,7 +25,7 @@ func main() {
 
 	// Flags for data program
 	numMonths := flag.Int("months", 1, "Number of past months for url")
-	db := flag.String("db", "", "What data to check")
+	catches := flag.String("catches", "all", "the catches")
 	logInstance := flag.String("instance", "0", "Can select another justlog instance for the chats")
 	// This flag is also used for the boards as "date"
 	monthYear := flag.String("dt", "", "Specific month and year for data (yyyy/mm). For the boards, this needs to be yyyy-mm-dd")
@@ -91,10 +91,10 @@ func main() {
 			Str("Chats", *chatNames).
 			Str("Date", *monthYear).
 			Str("Mode", *mode).
-			Str("DB", *db).
+			Str("Catches", *catches).
 			Msg("Start")
 
-		data.GetData(pool, *chatNames, *db, *numMonths, *monthYear, *logInstance, *mode)
+		data.GetFishData(pool, *chatNames, *catches, *numMonths, *monthYear, *logInstance, *mode)
 
 	case "renamedfish":
 		logs.Logs().Info().

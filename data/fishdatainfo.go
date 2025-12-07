@@ -33,6 +33,13 @@ type FishInfo struct {
 	Bot  string    `json:"bot,omitempty"`
 }
 
+type FishCatch struct {
+	Pattern          *regexp.Regexp
+	Type             string
+	ExtractFunc      func([]string) FishInfo
+	ExtractFuncSlice func([]string) []FishInfo
+}
+
 var TournamentPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): [@👥]\s?(\w+), (📣 The results are in!|Last week[.][.][.]) You caught 🪣 (\d+) fish: (.*?)[!.] Together they weighed .*? ([\d.]+) lbs: (.*?)[!.] Your biggest catch weighed .*? ([\d.]+) lbs: (.*?)[!.]`)
 
 // The shinies and old jellyfish can have a space in front and behind them idk why
@@ -61,52 +68,96 @@ var BellGift = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] 
 
 var BagPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): [@👥]\s?(\w+), Your (bag|collection): (.+)`)
 
-func extractFishDataFromPatterns(textContent string, patterns []*regexp.Regexp) []FishInfo {
-	var fishCatches []FishInfo
+func allTheCatchPatterns() map[string]FishCatch {
 
-	for _, pattern := range patterns {
-		for _, match := range pattern.FindAllStringSubmatch(textContent, -1) {
-			var extractFunc func([]string) FishInfo
-			var extractFuncSlice func([]string) []FishInfo
-			switch pattern {
-			case ReleasePattern:
-				extractFunc = extractInfoFromReleasePattern
-			case ReleasePatternPumpkin:
-				extractFunc = extractInfoFromReleasePattern
-			case NormalPattern:
-				extractFunc = extractInfoFromNormalPattern
-			case MouthPattern:
-				extractFunc = extractInfoFromMouthPattern
-			case JumpedPattern:
-				extractFunc = extractInfoFromNormalPattern
-			case BirdPattern:
-				extractFunc = extractInfoFromNormalPattern
-			case SquirrelPattern:
-				extractFunc = extractInfoFromSquirrelPattern
-			case SonnyThrowWeight:
-				extractFunc = extractInfoFromNormalPattern
-			case SonnyThrow:
-				extractFunc = extractInfoFromNormalPattern
-			case WinterGift:
-				extractFuncSlice = extractInfoFromWinterGift
-			case BellGift:
-				extractFunc = extractInfoFromReleasePattern
-			case BagPattern:
-				extractFunc = extractInfoFromBagPattern
-			case TournamentPattern:
-				extractFunc = extractInfoFromTData
+	catches := map[string]FishCatch{
+		"normal":           {Pattern: NormalPattern, Type: "fish", ExtractFunc: extractInfoFromNormalPattern},
+		"mouth":            {Pattern: MouthPattern, Type: "fish", ExtractFunc: extractInfoFromMouthPattern},
+		"release":          {Pattern: ReleasePattern, Type: "fish", ExtractFunc: extractInfoFromReleasePattern},
+		"releasepumpkin":   {Pattern: ReleasePatternPumpkin, Type: "fish", ExtractFunc: extractInfoFromReleasePattern},
+		"jumped":           {Pattern: JumpedPattern, Type: "fish", ExtractFunc: extractInfoFromNormalPattern},
+		"bird":             {Pattern: BirdPattern, Type: "fish", ExtractFunc: extractInfoFromNormalPattern},
+		"squirrel":         {Pattern: SquirrelPattern, Type: "fish", ExtractFunc: extractInfoFromSquirrelPattern},
+		"sonnythrow":       {Pattern: SonnyThrow, Type: "fish", ExtractFunc: extractInfoFromNormalPattern},
+		"sonnythrowweight": {Pattern: SonnyThrowWeight, Type: "fish", ExtractFunc: extractInfoFromNormalPattern},
+		"wintergift":       {Pattern: WinterGift, Type: "fish", ExtractFuncSlice: extractInfoFromWinterGift},
+		"bellgift":         {Pattern: BellGift, Type: "fish", ExtractFunc: extractInfoFromReleasePattern},
+
+		"bag": {Pattern: BagPattern, Type: "bag", ExtractFunc: extractInfoFromBagPattern},
+
+		"tournament": {Pattern: TournamentPattern, Type: "tourney", ExtractFunc: extractInfoFromTData},
+	}
+
+	return catches
+}
+
+func returnTheCatchPatterns(selectedCatches string) []FishCatch {
+	var catches []FishCatch
+
+	allCatches := allTheCatchPatterns()
+
+	switch selectedCatches {
+	case "all":
+
+		for _, catch := range allCatches {
+			catches = append(catches, catch)
+		}
+
+	case "fish":
+
+		for _, catch := range allCatches {
+			if catch.Type == "fish" {
+				catches = append(catches, catch)
 			}
+		}
 
-			if pattern != WinterGift {
-				fishCatches = append(fishCatches, extractFunc(match))
+	case "tourney":
+
+		for _, catch := range allCatches {
+			if catch.Type == "tourney" {
+				catches = append(catches, catch)
+			}
+		}
+
+	default:
+
+		catchesSplit := strings.Split(selectedCatches, ",")
+
+		// to only check some catches
+		for _, catch := range catchesSplit {
+
+			catchh, ja := allCatches[catch]
+
+			if ja {
+				catches = append(catches, catchh)
 			} else {
-				fishCatches = append(fishCatches, extractFuncSlice(match)...)
+				logs.Logs().Fatal().
+					Str("Catch", catch).
+					Msg("idk what catch this is :(")
 			}
-
 		}
 	}
 
-	return fishCatches
+	return catches
+}
+
+func extractFishDataFromPatterns(textContent string, catches []FishCatch) []FishInfo {
+	var fishys []FishInfo
+
+	for _, catch := range catches {
+
+		for _, match := range catch.Pattern.FindAllStringSubmatch(textContent, -1) {
+
+			if catch.Pattern != WinterGift {
+				fishys = append(fishys, catch.ExtractFunc(match))
+			} else {
+				fishys = append(fishys, catch.ExtractFuncSlice(match)...)
+			}
+		}
+
+	}
+
+	return fishys
 }
 
 func extractInfoFromNormalPattern(match []string) FishInfo {
