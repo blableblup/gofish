@@ -89,19 +89,19 @@
 | 84    | ⛸️ iceskate       | 0.03          | vaiastol           | 2025-01-03 11:53:37 |
 | 84    | 🐚 shell         | 0.03          | leastsussyimposter | 2024-08-07 23:21:39 |
 | 84    | 🐌 snail         | 0.03          | garout             | 2025-05-01 12:09:11 |
-| 88 ⬆  | 🌰 acorn         | 0.02          | leastsussyimposter | 2024-09-25 23:23:39 |
-| 88 ⬆  | 🥫 cannedfood    | 0.02          | nicestnarwhal      | 2025-01-08 13:23:38 |
-| 88 ⬆  | 🐸 frog          | 0.02          | vaiastol           | 2025-11-15 22:28:26 |
-| 88 ⬇  | 🦎 lizard        | 0.02 (-0.01)  | vaiastol           | 2025-11-18 23:50:02 |
-| 88 ⬆  | 🪨 rock          | 0.02          | yoimlee            | 2025-04-14 05:02:31 |
-| 88 ⬆  | 🌿 seaweed       | 0.02          | leastsussyimposter | 2024-09-19 13:16:37 |
-| 88 ⬆  | 🕸️ spiderweb      | 0.02          | vaiastol           | 2025-07-05 00:02:49 |
-| 95    | ☘️ clover         | 0.01          | eelacy             | 2025-03-22 09:54:23 |
-| 95    | 🦀 crab          | 0.01          | eelacy             | 2025-02-24 14:56:28 |
-| 95    | 🪚 icesaw        | 0.01          | vaiastol           | 2025-01-21 23:39:41 |
-| 95    | 🎏 lure          | 0.01          | hahppyy            | 2024-11-20 09:09:11 |
-| 95    | 🦐 shrimp        | 0.01          | vaiastol           | 2025-03-23 16:20:22 |
-| 95    | 🐍 snake         | 0.01          | vaiastol           | 2025-07-13 17:43:09 |
+| 88    | 🌰 acorn         | 0.02          | leastsussyimposter | 2024-09-25 23:23:39 |
+| 88    | 🥫 cannedfood    | 0.02          | nicestnarwhal      | 2025-01-08 13:23:38 |
+| 88    | 🦎 lizard        | 0.02          | vaiastol           | 2025-11-18 23:50:02 |
+| 88    | 🪨 rock          | 0.02          | yoimlee            | 2025-04-14 05:02:31 |
+| 88    | 🌿 seaweed       | 0.02          | leastsussyimposter | 2024-09-19 13:16:37 |
+| 88    | 🕸️ spiderweb      | 0.02          | vaiastol           | 2025-07-05 00:02:49 |
+| 94 ⬆  | ☘️ clover         | 0.01          | eelacy             | 2025-03-22 09:54:23 |
+| 94 ⬆  | 🦀 crab          | 0.01          | eelacy             | 2025-02-24 14:56:28 |
+| 94 ⬇  | 🐸 frog          | 0.01 (-0.01)  | vaiastol           | 2025-12-04 23:36:42 |
+| 94 ⬆  | 🪚 icesaw        | 0.01          | vaiastol           | 2025-01-21 23:39:41 |
+| 94 ⬆  | 🎏 lure          | 0.01          | hahppyy            | 2024-11-20 09:09:11 |
+| 94 ⬆  | 🦐 shrimp        | 0.01          | vaiastol           | 2025-03-23 16:20:22 |
+| 94 ⬆  | 🐍 snake         | 0.01          | vaiastol           | 2025-07-13 17:43:09 |
 | 101   | 🪹 emptynest     | 0.00          | vaiastol           | 2025-07-02 18:53:36 |
 | 101   | 🐟 fish          | 0.00          | vaiastol           | 2025-08-28 15:38:36 |
 | 101   | 🧤 gloves        | 0.00          | vaiastol           | 2025-02-28 22:53:41 |
@@ -110,4 +110,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-11-23 10:48:02 UTC_
+_Last updated at 2025-12-07 09:34:05 UTC_

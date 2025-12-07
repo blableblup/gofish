@@ -27,6 +27,20 @@
 		"date": "2024-11-22T23:40:38Z",
 		"rank": 29
 	},
+	"cannedfood": {
+		"player": "chestnutbank",
+		"playerid": 3005,
+		"weight": 1.87,
+		"bot": "gofishgame",
+		"fishtype": "🥫",
+		"fishname": "cannedfood",
+		"catchtype": "normal",
+		"chat": "xriggby",
+		"fishid": 219799,
+		"chatid": 92,
+		"date": "2025-12-04T03:41:02Z",
+		"rank": 35
+	},
 	"coral": {
 		"player": "tipicogato",
 		"playerid": 3446,
@@ -265,6 +279,20 @@
 		"date": "2024-10-12T03:44:59Z",
 		"rank": 21
 	},
+	"shark": {
+		"player": "respirate_",
+		"playerid": 2525,
+		"weight": 86.01,
+		"bot": "gofishgame",
+		"fishtype": "🦈",
+		"fishname": "shark",
+		"catchtype": "normal",
+		"chat": "xriggby",
+		"fishid": 219634,
+		"chatid": 86,
+		"date": "2025-12-03T07:53:53Z",
+		"rank": 34
+	},
 	"shell": {
 		"player": "xriggby",
 		"playerid": 2925,
@@ -447,5 +475,19 @@
 		"chatid": 29,
 		"date": "2024-10-08T23:59:26Z",
 		"rank": 19
+	},
+	"worm": {
+		"player": "respirate_",
+		"playerid": 2525,
+		"weight": 4.02,
+		"bot": "gofishgame",
+		"fishtype": "🪱",
+		"fishname": "worm",
+		"catchtype": "normal",
+		"chat": "xriggby",
+		"fishid": 219469,
+		"chatid": 80,
+		"date": "2025-12-02T08:33:43Z",
+		"rank": 33
 	}
 }

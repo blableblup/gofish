@@ -2,6 +2,8 @@
 
 | Rank | Fish            | Weight in lbs | Player       | Date in UTC         |
 |:-----|:----------------|:--------------|:-------------|:--------------------|
+| 56   | 👟 sneaker      | 0.35          | respirate_   | 2025-12-06 06:45:24 |
+| 55   | 🧸 teddybear    | 3.10          | chestnutbank | 2025-12-04 05:58:20 |
 | 54   | 🎰 slotmachine  | 0.00          | chestnutbank | 2025-11-20 06:45:45 |
 | 53   | 🍬 candy        | 0.00          | chestnutbank | 2025-11-20 06:45:27 |
 | 52   | 🦦 otter        | 11.58         | chestnutbank | 2025-11-17 18:08:20 |
@@ -57,4 +59,4 @@
 | 2    | 🐟 fish         | 9.95          | juliilan     | 2024-05-22 23:39:16 |
 | 1    | 🪝 hook         | 0.34          | breadworms   | 2024-05-15 14:30:25 |
 
-_Last updated at 2025-11-23 10:47:14 UTC_
+_Last updated at 2025-12-07 09:33:04 UTC_

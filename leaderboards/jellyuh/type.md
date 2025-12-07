@@ -60,10 +60,10 @@
 | 56    | 🐸 frog          | 5.00          | pompadourdelinquent | 2025-01-11 09:22:58 |
 | 57    | 🎏 lure          | 4.44          | goopy777            | 2025-02-03 12:24:24 |
 | 58    | 🪝 hook          | 3.96          | miyabwah            | 2025-03-20 20:27:21 |
-| 59    | ☘️ clover         | 3.44          | goopy777            | 2025-03-20 05:32:55 |
-| 60    | 🌰 acorn         | 3.38          | dougiefresh_83      | 2025-10-09 04:17:57 |
-| 61    | 👡 sandal        | 2.68          | poioce              | 2025-04-07 01:37:30 |
-| 62    | 🧸 teddybear     | 2.37          | rainedparade        | 2025-02-28 00:29:01 |
+| 59 ⬆  | 🧸 teddybear     | 3.73 (+1.36)  | jakthejanitor       | 2025-12-05 15:20:58 |
+| 60 ⬇  | ☘️ clover         | 3.44          | goopy777            | 2025-03-20 05:32:55 |
+| 61 ⬇  | 🌰 acorn         | 3.38          | dougiefresh_83      | 2025-10-09 04:17:57 |
+| 62 ⬇  | 👡 sandal        | 2.68          | poioce              | 2025-04-07 01:37:30 |
 | 63    | 🌷 tulip         | 2.36          | hello0d             | 2025-03-21 18:32:56 |
 | 64    | 🧃 beveragebox   | 2.05          | cptblack_           | 2025-06-27 08:48:11 |
 | 65    | 🧦 socks         | 1.97          | pompadourdelinquent | 2025-05-10 02:39:04 |
@@ -75,13 +75,13 @@
 | 71    | 🧤 gloves        | 0.95          | jellyuh             | 2025-02-19 05:34:02 |
 | 72    | 🌿 seaweed       | 0.91          | e1d2f3              | 2025-07-07 22:56:49 |
 | 73    | 🩰 balletshoes   | 0.52          | rainedparade        | 2025-01-25 04:09:12 |
-| 74 🆕 | 👟 sneaker       | 0.51          | cptblack_           | 2025-11-03 05:59:06 |
-| 75 ⬇  | 🪶 feather       | 0.43          | jellyuh             | 2025-01-02 09:31:14 |
-| 76 ⬇  | 🫙 jar           | 0.40          | teeto               | 2025-08-30 18:26:46 |
-| 77 ⬇  | ⛸️ iceskate       | 0.33          | hello0d             | 2025-01-12 16:12:14 |
-| 78 ⬇  | ☂️ umbrella       | 0.32          | cerealapii          | 2025-07-07 06:37:28 |
-| 79 ⬇  | 🧣 scarf         | 0.16          | goopy777            | 2024-12-29 00:40:05 |
+| 74    | 👟 sneaker       | 0.51          | cptblack_           | 2025-11-03 05:59:06 |
+| 75    | 🪶 feather       | 0.43          | jellyuh             | 2025-01-02 09:31:14 |
+| 76    | 🫙 jar           | 0.40          | teeto               | 2025-08-30 18:26:46 |
+| 77    | ⛸️ iceskate       | 0.33          | hello0d             | 2025-01-12 16:12:14 |
+| 78    | ☂️ umbrella       | 0.32          | cerealapii          | 2025-07-07 06:37:28 |
+| 79    | 🧣 scarf         | 0.16          | goopy777            | 2024-12-29 00:40:05 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-11-09 07:43:57 UTC_
+_Last updated at 2025-12-07 09:37:12 UTC_

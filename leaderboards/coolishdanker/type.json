@@ -112,17 +112,17 @@
 		"rank": 6
 	},
 	"fish": {
-		"player": "kidnamedzan",
-		"playerid": 3621,
-		"weight": 18.73,
+		"player": "chestnutbank",
+		"playerid": 3005,
+		"weight": 18.93,
 		"bot": "gofishgame",
 		"fishtype": "🐟",
 		"fishname": "fish",
 		"catchtype": "normal",
 		"chat": "coolishdanker",
-		"fishid": 151467,
-		"chatid": 236,
-		"date": "2025-02-16T23:01:32Z",
+		"fishid": 219638,
+		"chatid": 267,
+		"date": "2025-12-03T08:32:49Z",
 		"rank": 15
 	},
 	"frog": {
@@ -305,7 +305,7 @@
 		"fishid": 178394,
 		"chatid": 249,
 		"date": "2025-06-09T11:06:52Z",
-		"rank": 33
+		"rank": 34
 	},
 	"shell": {
 		"player": "fenix8",
@@ -334,6 +334,20 @@
 		"chatid": 148,
 		"date": "2025-01-19T06:52:01Z",
 		"rank": 11
+	},
+	"skull": {
+		"player": "chestnutbank",
+		"playerid": 3005,
+		"weight": 0.44,
+		"bot": "gofishgame",
+		"fishtype": "💀",
+		"fishname": "skull",
+		"catchtype": "normal",
+		"chat": "coolishdanker",
+		"fishid": 219635,
+		"chatid": 266,
+		"date": "2025-12-03T07:57:17Z",
+		"rank": 33
 	},
 	"snake": {
 		"player": "jaial",

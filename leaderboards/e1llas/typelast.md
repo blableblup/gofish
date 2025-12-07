@@ -2,16 +2,16 @@
 
 | Rank | Fish             | Weight in lbs | Player                    | Date in UTC         |
 |:-----|:-----------------|:--------------|:--------------------------|:--------------------|
-| 59   | 🐢 turtle        | 29.46         | envtt                     | 2025-11-23 18:08:43 |
-| 58   | 🐸 frog          | 3.25          | chestnutbank              | 2025-11-17 04:33:42 |
-| 57   | 🐳 bluewhale     | 254.78        | respirate_                | 2025-11-17 02:59:06 |
-| 56   | 🦠 plankton      | 10.32         | chestnutbank              | 2025-11-17 01:08:51 |
-| 55   | 🐚 shell         | 2.50          | gofishgamer               | 2025-11-17 01:04:09 |
-| 54   | 🦭 seal          | 28.14         | respirate_                | 2025-11-17 01:04:03 |
-| 53   | 🎏 lure          | 0.42          | chestnutbank              | 2025-11-16 08:01:21 |
-| 52   | 🧦 socks         | 0.88          | gofishgamer               | 2025-11-16 07:56:52 |
-| 51   | 🐟 fish          | 17.19         | chestnutbank              | 2025-11-16 06:33:10 |
-| 50   | 🦐 shrimp        | 12.14         | respirate_                | 2025-11-16 06:33:04 |
+| 59   | 🐟 fish          | 5.11          | e1llas                    | 2025-12-01 15:52:04 |
+| 58   | 🦐 shrimp        | 1.90          | envtt                     | 2025-12-01 15:49:16 |
+| 57   | 🐢 turtle        | 29.46         | envtt                     | 2025-11-23 18:08:43 |
+| 56   | 🐸 frog          | 3.25          | chestnutbank              | 2025-11-17 04:33:42 |
+| 55   | 🐳 bluewhale     | 254.78        | respirate_                | 2025-11-17 02:59:06 |
+| 54   | 🦠 plankton      | 10.32         | chestnutbank              | 2025-11-17 01:08:51 |
+| 53   | 🐚 shell         | 2.50          | gofishgamer               | 2025-11-17 01:04:09 |
+| 52   | 🦭 seal          | 28.14         | respirate_                | 2025-11-17 01:04:03 |
+| 51   | 🎏 lure          | 0.42          | chestnutbank              | 2025-11-16 08:01:21 |
+| 50   | 🧦 socks         | 0.88          | gofishgamer               | 2025-11-16 07:56:52 |
 | 49   | 🐋 whale         | 124.97        | chestnutbank              | 2025-11-16 05:53:25 |
 | 48   | 🕷️ spider         | 8.55          | gofishgamer               | 2025-11-16 05:45:40 |
 | 47   | 🐡 blowfish      | 17.98         | chestnutbank              | 2025-11-16 04:47:07 |
@@ -62,4 +62,4 @@
 | 2    | 🧊 icecube       | 3.47          | d1fforr                   | 2024-12-16 08:17:13 |
 | 1    | 🪱 worm          | 6.55          | mersufy                   | 2024-12-15 14:45:59 |
 
-_Last updated at 2025-11-30 10:13:29 UTC_
+_Last updated at 2025-12-07 09:33:09 UTC_

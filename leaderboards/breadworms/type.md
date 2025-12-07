@@ -2,7 +2,7 @@
 
 | Rank  | Fish               | Weight in lbs | Player                  | Date in UTC         |
 |:------|:-------------------|:--------------|:------------------------|:--------------------|
-| 1 🥇  | 🦑 squid           | 308.86        | chubby_________         | 2024-12-24 02:34:50 |
+| 1 🥇  | 🦑 squid           | 308.86        | lluuuuucy               | 2024-12-24 02:34:50 |
 | 2 🥈  | 🐳 bluewhale       | 303.81        | qu4ttromila             | 2023-03-17 23:18:19 |
 | 3 🥉  | 🦕 sauropod        | 300.31        | fishingalt              | 2025-10-31 08:38:14 |
 | 4     | 🦈 shark           | 288.27        | miiiiisho               | 2024-02-01 22:00:13 |
@@ -47,7 +47,7 @@
 | 43    | 🎃 pumpkin         | 23.53         | larvaew                 | 2025-11-04 09:29:12 |
 | 43    | 🎰 slotmachine     | 23.53         | comiiiiiq               | 2025-09-26 16:23:00 |
 | 45    | 🦠 plankton        | 22.00         | osnyatsky               | 2024-01-03 09:00:25 |
-| 46    | 🍄‍🟫 mushroom        | 21.97         | chubby_________         | 2025-02-05 02:10:22 |
+| 46    | 🍄‍🟫 mushroom        | 21.97         | lluuuuucy               | 2025-02-05 02:10:22 |
 | 47    | 🪼 jellyfish       | 21.87         | sicklymaidrobot         | 2023-08-04 03:47:25 |
 | 48    | 🧭 compass         | 21.26         | destin357               | 2025-03-25 13:46:19 |
 | 49    | 🦦 otter           | 19.78         | dazedforevermore        | 2024-02-17 10:37:23 |
@@ -107,18 +107,18 @@
 | 103   | 👢 boot            | 1.98          | derinturitierutz        | 2023-12-30 12:35:00 |
 | 103   | 🪻 lupine          | 1.98          | ytp_dl                  | 2025-07-10 15:36:58 |
 | 105   | 🌿 seaweed         | 1.97          | comiqq                  | 2025-09-20 16:29:43 |
-| 106   | 🐝 bee             | 1.25          | chubby_________         | 2025-06-24 11:19:51 |
+| 106   | 🐝 bee             | 1.25          | lluuuuucy               | 2025-06-24 11:19:51 |
 | 107   | 🦂 scorpion        | 1.16          | destin357               | 2025-08-30 11:50:51 |
 | 108   | 🐛 caterpillar     | 1.02          | fishingalt              | 2025-08-30 11:34:52 |
 | 109   | 🪶 feather         | 0.99          | osnyatsky*              | 2023-08-24 01:31:11 |
 | 109   | 🧤 gloves          | 0.99          | sicklymaidrobot         | 2024-02-23 12:41:32 |
-| 109   | 🌾 grass           | 0.99          | chubby_________         | 2025-04-10 10:13:43 |
+| 109   | 🌾 grass           | 0.99          | lluuuuucy               | 2025-04-10 10:13:43 |
 | 109   | 🧣 scarf           | 0.99          | osnyatsky*              | 2022-12-22 04:35:03 |
 | 113   | 🪚 icesaw          | 0.95          | osnyisdead              | 2025-02-12 04:45:11 |
 | 114   | 🍥 sanddollar      | 0.85          | derinturitierutz        | 2025-08-26 12:01:59 |
 | 115   | 🍇 crowberries     | 0.79          | derinturitierutz        | 2025-06-23 19:30:00 |
 | 116   | 🐜 ant             | 0.74          | derinturitierutz        | 2025-08-30 16:52:57 |
-| 117   | 🦟 mosquito        | 0.55          | chubby_________         | 2025-08-31 15:30:07 |
+| 117   | 🦟 mosquito        | 0.55          | lluuuuucy               | 2025-08-31 15:30:07 |
 | 118   | 🪲 beetle          | 0.47          | qu4ttromila             | 2025-06-25 10:39:09 |
 | 119   | 🐞 ladybug         | 0.37          | derintu                 | 2025-08-31 20:38:14 |
 | 120   | 🪰 fly             | 0.27          | fvkdylan                | 2025-06-22 09:13:07 |
@@ -128,4 +128,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-11-23 10:45:37 UTC_
+_Last updated at 2025-12-07 09:37:31 UTC_

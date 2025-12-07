@@ -11,7 +11,7 @@
 		"fishid": 100647,
 		"chatid": 45311,
 		"date": "2024-09-11T12:27:14Z",
-		"rank": 85
+		"rank": 86
 	},
 	"100918": {
 		"player": "bubinga",
@@ -53,7 +53,7 @@
 		"fishid": 101983,
 		"chatid": 46111,
 		"date": "2024-09-18T10:30:35Z",
-		"rank": 96
+		"rank": 98
 	},
 	"102170": {
 		"player": "gorillapark",
@@ -96,21 +96,7 @@
 		"fishid": 106797,
 		"chatid": 48503,
 		"date": "2024-10-04T13:10:49Z",
-		"rank": 62
-	},
-	"106861": {
-		"player": "theevirus",
-		"playerid": 2187,
-		"weight": 254.1,
-		"bot": "gofishgame",
-		"fishtype": "🐉",
-		"fishname": "dragon",
-		"catchtype": "normal",
-		"chat": "psp1g",
-		"fishid": 106861,
-		"chatid": 48548,
-		"date": "2024-10-04T16:40:25Z",
-		"rank": 100
+		"rank": 63
 	},
 	"109185": {
 		"player": "ratot",
@@ -124,7 +110,7 @@
 		"fishid": 109185,
 		"chatid": 49791,
 		"date": "2024-10-13T01:47:46Z",
-		"rank": 91
+		"rank": 93
 	},
 	"110594": {
 		"player": "commanda_u",
@@ -166,7 +152,7 @@
 		"fishid": 112334,
 		"chatid": 51266,
 		"date": "2024-10-22T20:29:56Z",
-		"rank": 59
+		"rank": 60
 	},
 	"112423": {
 		"player": "glorianeq",
@@ -180,7 +166,7 @@
 		"fishid": 112423,
 		"chatid": 51311,
 		"date": "2024-10-23T00:19:56Z",
-		"rank": 95
+		"rank": 97
 	},
 	"112650": {
 		"player": "popfizzgg",
@@ -194,7 +180,7 @@
 		"fishid": 112650,
 		"chatid": 51352,
 		"date": "2024-10-23T09:50:31Z",
-		"rank": 83
+		"rank": 84
 	},
 	"113116": {
 		"player": "huuuuuuuuuuuuuuuuuuuuuurz",
@@ -223,7 +209,7 @@
 		"fishid": 113691,
 		"chatid": 51689,
 		"date": "2024-10-25T07:25:55Z",
-		"rank": 64
+		"rank": 65
 	},
 	"116318": {
 		"player": "nndiana",
@@ -294,7 +280,7 @@
 		"fishid": 118249,
 		"chatid": 53008,
 		"date": "2024-11-04T11:04:49Z",
-		"rank": 75
+		"rank": 76
 	},
 	"123557": {
 		"player": "huuuuuuuuuuuuuuuuuuuuuurz",
@@ -379,7 +365,7 @@
 		"fishid": 125734,
 		"chatid": 55942,
 		"date": "2024-11-29T04:28:46Z",
-		"rank": 79
+		"rank": 80
 	},
 	"126297": {
 		"player": "theevirus",
@@ -393,7 +379,7 @@
 		"fishid": 126297,
 		"chatid": 56217,
 		"date": "2024-11-30T20:06:05Z",
-		"rank": 73
+		"rank": 74
 	},
 	"126946": {
 		"player": "bubinga",
@@ -407,7 +393,7 @@
 		"fishid": 126946,
 		"chatid": 56491,
 		"date": "2024-12-02T17:55:44Z",
-		"rank": 58
+		"rank": 59
 	},
 	"127756": {
 		"player": "caprisen_",
@@ -449,7 +435,7 @@
 		"fishid": 130142,
 		"chatid": 57984,
 		"date": "2024-12-12T21:44:17Z",
-		"rank": 92
+		"rank": 94
 	},
 	"171191": {
 		"player": "wowitsdub",
@@ -477,7 +463,7 @@
 		"fishid": 172065,
 		"chatid": 59741,
 		"date": "2025-05-09T22:08:28Z",
-		"rank": 66
+		"rank": 67
 	},
 	"177468": {
 		"player": "markenzy01",
@@ -561,7 +547,7 @@
 		"fishid": 195422,
 		"chatid": 64933,
 		"date": "2025-08-27T12:02:54Z",
-		"rank": 68
+		"rank": 69
 	},
 	"198559": {
 		"player": "nndiana",
@@ -617,7 +603,35 @@
 		"fishid": 214271,
 		"chatid": 68281,
 		"date": "2025-11-08T00:20:40Z",
-		"rank": 63
+		"rank": 64
+	},
+	"219166": {
+		"player": "nndiana",
+		"playerid": 269,
+		"weight": 255.69,
+		"bot": "gofishgame",
+		"fishtype": "🐍",
+		"fishname": "snake",
+		"catchtype": "normal",
+		"chat": "psp1g",
+		"fishid": 219166,
+		"chatid": 69286,
+		"date": "2025-12-01T04:58:10Z",
+		"rank": 92
+	},
+	"219972": {
+		"player": "nndiana",
+		"playerid": 269,
+		"weight": 267.56,
+		"bot": "gofishgame",
+		"fishtype": "🐳",
+		"fishname": "bluewhale",
+		"catchtype": "normal",
+		"chat": "psp1g",
+		"fishid": 219972,
+		"chatid": 69474,
+		"date": "2025-12-04T21:18:07Z",
+		"rank": 55
 	},
 	"28821": {
 		"player": "yopego",
@@ -632,7 +646,7 @@
 		"fishid": 28821,
 		"chatid": 3957,
 		"date": "2023-09-12T11:49:45Z",
-		"rank": 98
+		"rank": 100
 	},
 	"36395": {
 		"player": "6blmue",
@@ -648,20 +662,6 @@
 		"date": "2023-10-20T04:12:07Z",
 		"rank": 44
 	},
-	"40864": {
-		"player": "caprisen_",
-		"playerid": 500,
-		"weight": 254.16,
-		"bot": "gofishgame",
-		"fishtype": "🐳",
-		"fishname": "bluewhale",
-		"catchtype": "normal",
-		"chat": "psp1g",
-		"fishid": 40864,
-		"chatid": 11560,
-		"date": "2023-11-15T00:11:41Z",
-		"rank": 99
-	},
 	"42596": {
 		"player": "sandwichsundays",
 		"playerid": 457,
@@ -674,7 +674,7 @@
 		"fishid": 42596,
 		"chatid": 12741,
 		"date": "2023-11-22T21:34:03Z",
-		"rank": 94
+		"rank": 96
 	},
 	"43496": {
 		"player": "wisdom_frog",
@@ -716,7 +716,7 @@
 		"fishid": 45839,
 		"chatid": 14767,
 		"date": "2023-12-11T02:05:10Z",
-		"rank": 69
+		"rank": 70
 	},
 	"47154": {
 		"player": "caprisen_",
@@ -744,7 +744,7 @@
 		"fishid": 48442,
 		"chatid": 15960,
 		"date": "2023-12-23T20:46:07Z",
-		"rank": 77
+		"rank": 78
 	},
 	"50699": {
 		"player": "pengeg",
@@ -758,7 +758,7 @@
 		"fishid": 50699,
 		"chatid": 16915,
 		"date": "2023-12-30T04:49:16Z",
-		"rank": 57
+		"rank": 58
 	},
 	"52350": {
 		"player": "huuuuuuuuuuuuuuuuuuuuuurz",
@@ -787,7 +787,7 @@
 		"fishid": 54360,
 		"chatid": 18578,
 		"date": "2024-01-14T20:35:33Z",
-		"rank": 87
+		"rank": 88
 	},
 	"54816": {
 		"player": "nndiana",
@@ -845,7 +845,7 @@
 		"fishid": 56276,
 		"chatid": 19608,
 		"date": "2024-01-22T18:06:06Z",
-		"rank": 61
+		"rank": 62
 	},
 	"57457": {
 		"player": "quinrayy",
@@ -859,7 +859,7 @@
 		"fishid": 57457,
 		"chatid": 20235,
 		"date": "2024-01-27T23:27:52Z",
-		"rank": 60
+		"rank": 61
 	},
 	"58367": {
 		"player": "quinrayy",
@@ -873,7 +873,7 @@
 		"fishid": 58367,
 		"chatid": 20684,
 		"date": "2024-02-01T00:00:10Z",
-		"rank": 76
+		"rank": 77
 	},
 	"60638": {
 		"player": "pengeg",
@@ -887,7 +887,7 @@
 		"fishid": 60638,
 		"chatid": 21838,
 		"date": "2024-02-13T08:09:30Z",
-		"rank": 93
+		"rank": 95
 	},
 	"61852": {
 		"player": "faslker",
@@ -972,7 +972,7 @@
 		"fishid": 73136,
 		"chatid": 27146,
 		"date": "2024-04-16T10:42:19Z",
-		"rank": 97
+		"rank": 99
 	},
 	"74211": {
 		"player": "jemcs_",
@@ -986,7 +986,7 @@
 		"fishid": 74211,
 		"chatid": 27634,
 		"date": "2024-04-22T23:03:08Z",
-		"rank": 55
+		"rank": 56
 	},
 	"75048": {
 		"player": "commanda_u",
@@ -1042,7 +1042,7 @@
 		"fishid": 78073,
 		"chatid": 30067,
 		"date": "2024-05-14T13:09:03Z",
-		"rank": 71
+		"rank": 72
 	},
 	"78177": {
 		"player": "huuuuuuuuuuuuuuuuuuuuuurz",
@@ -1057,7 +1057,7 @@
 		"fishid": 78177,
 		"chatid": 30140,
 		"date": "2024-05-15T08:25:49Z",
-		"rank": 65
+		"rank": 66
 	},
 	"78840": {
 		"player": "angus_lpc",
@@ -1087,7 +1087,7 @@
 		"fishid": 78863,
 		"chatid": 30649,
 		"date": "2024-05-18T10:19:21Z",
-		"rank": 88
+		"rank": 89
 	},
 	"80801": {
 		"player": "sandwichsundays",
@@ -1115,7 +1115,7 @@
 		"fishid": 81329,
 		"chatid": 32406,
 		"date": "2024-05-30T05:27:02Z",
-		"rank": 89
+		"rank": 90
 	},
 	"81633": {
 		"player": "fonuwu",
@@ -1143,7 +1143,7 @@
 		"fishid": 85599,
 		"chatid": 35318,
 		"date": "2024-06-23T00:33:09Z",
-		"rank": 74
+		"rank": 75
 	},
 	"87156": {
 		"player": "zwockel01",
@@ -1158,7 +1158,7 @@
 		"fishid": 87156,
 		"chatid": 36538,
 		"date": "2024-06-30T09:13:54Z",
-		"rank": 56
+		"rank": 57
 	},
 	"88078": {
 		"player": "commanda_u",
@@ -1172,7 +1172,7 @@
 		"fishid": 88078,
 		"chatid": 37263,
 		"date": "2024-07-04T20:19:58Z",
-		"rank": 67
+		"rank": 68
 	},
 	"88392": {
 		"player": "nndiana",
@@ -1214,7 +1214,7 @@
 		"fishid": 90356,
 		"chatid": 38944,
 		"date": "2024-07-16T10:42:15Z",
-		"rank": 82
+		"rank": 83
 	},
 	"90715": {
 		"player": "huuuuuuuuuuuuuuuuuuuuuurz",
@@ -1243,7 +1243,7 @@
 		"fishid": 90871,
 		"chatid": 39311,
 		"date": "2024-07-19T04:30:18Z",
-		"rank": 78
+		"rank": 79
 	},
 	"91974": {
 		"player": "lobuhtomy",
@@ -1288,7 +1288,7 @@
 		"fishid": 92339,
 		"chatid": 40205,
 		"date": "2024-07-27T23:46:16Z",
-		"rank": 80
+		"rank": 81
 	},
 	"93864": {
 		"player": "nndiana",
@@ -1302,7 +1302,7 @@
 		"fishid": 93864,
 		"chatid": 41179,
 		"date": "2024-08-06T04:06:27Z",
-		"rank": 70
+		"rank": 71
 	},
 	"95138": {
 		"player": "nndiana",
@@ -1316,7 +1316,7 @@
 		"fishid": 95138,
 		"chatid": 41868,
 		"date": "2024-08-12T14:43:28Z",
-		"rank": 81
+		"rank": 82
 	},
 	"95267": {
 		"player": "bubinga",
@@ -1344,7 +1344,7 @@
 		"fishid": 95694,
 		"chatid": 42200,
 		"date": "2024-08-15T05:54:54Z",
-		"rank": 90
+		"rank": 91
 	},
 	"96697": {
 		"player": "nndiana",
@@ -1358,7 +1358,7 @@
 		"fishid": 96697,
 		"chatid": 42943,
 		"date": "2024-08-20T13:26:00Z",
-		"rank": 86
+		"rank": 87
 	},
 	"97363": {
 		"player": "bubinga",
@@ -1372,7 +1372,7 @@
 		"fishid": 97363,
 		"chatid": 43449,
 		"date": "2024-08-24T20:46:03Z",
-		"rank": 72
+		"rank": 73
 	},
 	"99641": {
 		"player": "commanda_u",
@@ -1386,7 +1386,7 @@
 		"fishid": 99641,
 		"chatid": 44730,
 		"date": "2024-09-05T20:51:58Z",
-		"rank": 84
+		"rank": 85
 	},
 	"99742": {
 		"player": "iflya320",

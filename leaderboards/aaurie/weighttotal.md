@@ -2,19 +2,19 @@
 
 | Rank  | Player            | Total Weight in lbs |
 |:------|:------------------|:--------------------|
-| 1 🥇  | jeffbethyname69   | 5098.47 (+14.67)    |
+| 1 🥇  | jeffbethyname69   | 5176.07 (+77.60)    |
 | 2 🥈  | dolp_fin          | 3823.00             |
-| 3 🥉  | boogie310_        | 1826.55 (+16.22)    |
-| 4     | allspice_boatrace | 1638.77             |
-| 5     | aaurie            | 1100.07 (+5.58)     |
-| 6     | amatusz           | 986.53 (+3.03)      |
-| 7     | gofishgamer       | 938.82 (+212.64)    |
-| 8     | bluezebra17       | 626.08 (+1.45)      |
-| 9     | preemalone        | 551.40              |
-| 10    | abelito75         | 525.33              |
-| 11    | guy_farting420    | 506.86              |
+| 3 🥉  | boogie310_        | 1829.94 (+3.39)     |
+| 4     | allspice_boatrace | 1640.05 (+1.28)     |
+| 5 ⬆   | gofishgamer       | 1572.61 (+633.79)   |
+| 6 ⬇   | aaurie            | 1101.22 (+1.15)     |
+| 7 ⬇   | amatusz           | 1021.98 (+35.45)    |
+| 8     | bluezebra17       | 626.08              |
+| 9     | preemalone        | 552.11 (+0.71)      |
+| 10    | abelito75         | 529.74 (+4.41)      |
+| 11    | guy_farting420    | 510.96 (+4.10)      |
 | 12    | rustnroll         | 493.79              |
-| 13    | curiouscorvidae   | 470.20 (+0.98)      |
+| 13    | curiouscorvidae   | 470.20              |
 | 14    | lor_starcutter    | 453.38              |
 | 15    | dwaynepounder     | 438.31              |
 | 16    | slimdoggiedog     | 438.27              |
@@ -29,4 +29,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2025-11-30 10:13:27 UTC_
+_Last updated at 2025-12-07 09:35:35 UTC_

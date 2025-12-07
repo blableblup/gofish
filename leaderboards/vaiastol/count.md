@@ -2,23 +2,23 @@
 
 | Rank  | Player                | Fish caught |
 |:------|:----------------------|:------------|
-| 1 🥇  | vaiastol              | 3207 (+24)  |
-| 2 🥈  | hahppyy               | 1505 (+9)   |
-| 3 🥉  | eelacy                | 703 (+3)    |
-| 4     | garout                | 676 (+5)    |
+| 1 🥇  | vaiastol              | 3250 (+43)  |
+| 2 🥈  | hahppyy               | 1509 (+4)   |
+| 3 🥉  | eelacy                | 705 (+2)    |
+| 4     | garout                | 687 (+11)   |
 | 5     | divra__               | 642         |
 | 6     | leanmeister           | 507         |
 | 7     | nicestnarwhal         | 484         |
-| 8     | leastsussyimposter    | 469 (+1)    |
-| 9     | dazedforevermore      | 252         |
+| 8     | leastsussyimposter    | 471 (+2)    |
+| 9     | dazedforevermore      | 253 (+1)    |
 | 10    | pengeg                | 242         |
 | 11    | redreignss            | 207         |
-| 12 ⬆  | gstaman911            | 155 (+5)    |
-| 13 ⬇  | yoimlee               | 154 (+2)    |
+| 12    | gstaman911            | 157 (+2)    |
+| 13    | yoimlee               | 155 (+1)    |
 | 14    | milesdotcom           | 137         |
 | 15    | beebo8i               | 120         |
 | 16    | julialuxel            | 109         |
-| 17    | tiaguitos97           | 104 (+1)    |
+| 17    | tiaguitos97           | 104         |
 | 18    | bubinga               | 55          |
 | 18    | obama                 | 55          |
 | 20    | rird_                 | 46          |
@@ -40,4 +40,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-11-30 10:13:17 UTC_
+_Last updated at 2025-12-07 09:35:37 UTC_

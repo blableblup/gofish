@@ -23,11 +23,11 @@
 | 19    | fadingmemoriez      | 🐙 octopus   | 63.24         | 2025-01-02 07:08:13 |
 | 20    | deitydg             | 🦑 squid     | 62.57         | 2025-03-19 05:56:02 |
 | 21    | gamingwithmicah_    | 🐢 turtle    | 61.58         | 2025-04-04 04:22:31 |
-| 22    | pxxchy_dreams       | 🐳 bluewhale | 58.93         | 2025-02-25 05:10:34 |
-| 23    | cerealapii          | 🐙 octopus   | 57.03         | 2025-07-02 02:07:16 |
+| 22 ⬆  | cerealapii          | 🦕 sauropod  | 59.41 (+2.38) | 2025-11-30 05:02:22 |
+| 23 ⬇  | pxxchy_dreams       | 🐳 bluewhale | 58.93         | 2025-02-25 05:10:34 |
 | 24    | doggo143            | 🐟 fish      | 54.83         | 2025-03-04 03:36:25 |
 | 25    | embuhli             | 🦞 lobster   | 52.07         | 2025-04-22 04:24:18 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2025-11-09 07:45:18 UTC_
+_Last updated at 2025-12-07 09:33:03 UTC_

@@ -16,7 +16,7 @@
 | 12    | 🐙 octopus      | 22.20         | digital_red_panda | 2025-01-11 04:23:22 |
 | 13    | 🐠 tropicalfish | 20.89         | digital_red_panda | 2025-06-21 15:28:53 |
 | 14    | 🕷️ spider        | 18.94         | yxnggon           | 2025-01-13 23:06:22 |
-| 15    | 🐟 fish         | 18.73         | kidnamedzan       | 2025-02-16 23:01:32 |
+| 15    | 🐟 fish         | 18.93 (+0.20) | chestnutbank      | 2025-12-03 08:32:49 |
 | 16    | 🍄 oceanplant   | 17.15         | jaial             | 2025-01-17 13:23:32 |
 | 17    | 🦦 otter        | 17.09         | kidnamedzan       | 2025-01-18 21:29:05 |
 | 18    | 🦠 plankton     | 16.67         | kidnamedzan       | 2025-01-18 16:13:17 |
@@ -34,8 +34,9 @@
 | 30    | 👢 boot         | 1.58          | fenix8            | 2025-02-03 15:38:30 |
 | 31    | 🩰 balletshoes  | 1.36          | jaial             | 2025-01-28 02:17:23 |
 | 32    | 🧤 gloves       | 0.55          | yxnggon           | 2025-01-10 11:12:39 |
-| 33    | 🌿 seaweed      | 0.41          | fenix8            | 2025-06-09 11:06:52 |
+| 33 🆕 | 💀 skull        | 0.44          | chestnutbank      | 2025-12-03 07:57:17 |
+| 34 ⬇  | 🌿 seaweed      | 0.41          | fenix8            | 2025-06-09 11:06:52 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-11-09 07:44:08 UTC_
+_Last updated at 2025-12-07 09:37:06 UTC_

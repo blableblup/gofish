@@ -2,9 +2,9 @@
 
 | Rank  | Player       | Total Weight in lbs |
 |:------|:-------------|:--------------------|
-| 1 🥇  | envtt        | 2355.21 (+29.46)    |
+| 1 🥇  | envtt        | 2357.11 (+1.90)     |
 | 2 🥈  | respirate_   | 1845.48             |
-| 3 🥉  | e1llas       | 1546.04             |
+| 3 🥉  | e1llas       | 1551.15 (+5.11)     |
 | 4     | d1fforr      | 992.25              |
 | 5     | chestnutbank | 842.46              |
 | 6     | gofishgamer  | 764.16              |
@@ -13,4 +13,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2025-11-30 10:13:27 UTC_
+_Last updated at 2025-12-07 09:35:34 UTC_

@@ -123,7 +123,7 @@
 		"fishid": 214915,
 		"chatid": 147,
 		"date": "2025-11-11T01:04:38Z",
-		"rank": 45
+		"rank": 43
 	},
 	"butterfly": {
 		"player": "respirate_",
@@ -150,7 +150,7 @@
 		"fishid": 216739,
 		"chatid": 157,
 		"date": "2025-11-20T06:45:27Z",
-		"rank": 53
+		"rank": 49
 	},
 	"cardinal": {
 		"player": "chestnutbank",
@@ -234,7 +234,7 @@
 		"fishid": 214879,
 		"chatid": 141,
 		"date": "2025-11-10T21:48:47Z",
-		"rank": 40
+		"rank": 39
 	},
 	"dolphin": {
 		"player": "chestnutbank",
@@ -248,7 +248,7 @@
 		"fishid": 214900,
 		"chatid": 144,
 		"date": "2025-11-10T23:31:07Z",
-		"rank": 42
+		"rank": 41
 	},
 	"dragon": {
 		"player": "respirate_",
@@ -262,7 +262,7 @@
 		"fishid": 214898,
 		"chatid": 142,
 		"date": "2025-11-10T23:23:47Z",
-		"rank": 41
+		"rank": 40
 	},
 	"emptynest": {
 		"player": "chestnutbank",
@@ -279,17 +279,17 @@
 		"rank": 26
 	},
 	"fish": {
-		"player": "chestnutbank",
-		"playerid": 3005,
-		"weight": 18.88,
+		"player": "respirate_",
+		"playerid": 2525,
+		"weight": 16.55,
 		"bot": "gofishgame",
 		"fishtype": "🐟",
 		"fishname": "fish",
 		"catchtype": "normal",
 		"chat": "ajspyman",
-		"fishid": 216183,
-		"chatid": 155,
-		"date": "2025-11-17T09:29:14Z",
+		"fishid": 219817,
+		"chatid": 159,
+		"date": "2025-12-04T05:58:02Z",
 		"rank": 51
 	},
 	"fly": {
@@ -405,18 +405,18 @@
 		"rank": 7
 	},
 	"lure": {
-		"player": "gofishgamer",
-		"playerid": 2944,
-		"weight": 2.18,
+		"player": "chestnutbank",
+		"playerid": 3005,
+		"weight": 0.32,
 		"bot": "gofishgame",
 		"fishtype": "🎏",
 		"fishname": "lure",
 		"catchtype": "normal",
 		"chat": "ajspyman",
-		"fishid": 214878,
-		"chatid": 140,
-		"date": "2025-11-10T21:43:33Z",
-		"rank": 39
+		"fishid": 220245,
+		"chatid": 164,
+		"date": "2025-12-06T07:20:02Z",
+		"rank": 56
 	},
 	"mosquito": {
 		"player": "respirate_",
@@ -472,21 +472,21 @@
 		"fishid": 216265,
 		"chatid": 156,
 		"date": "2025-11-17T18:08:20Z",
-		"rank": 52
+		"rank": 48
 	},
 	"plankton": {
 		"player": "gofishgamer",
 		"playerid": 2944,
-		"weight": 21.43,
+		"weight": 3.2,
 		"bot": "gofishgame",
 		"fishtype": "🦠",
 		"fishname": "plankton",
 		"catchtype": "normal",
 		"chat": "ajspyman",
-		"fishid": 214914,
-		"chatid": 146,
-		"date": "2025-11-11T00:57:18Z",
-		"rank": 44
+		"fishid": 220243,
+		"chatid": 162,
+		"date": "2025-12-06T06:44:38Z",
+		"rank": 54
 	},
 	"sauropod": {
 		"player": "respirate_",
@@ -542,21 +542,21 @@
 		"fishid": 215776,
 		"chatid": 151,
 		"date": "2025-11-15T10:11:24Z",
-		"rank": 48
+		"rank": 46
 	},
 	"shrimp": {
-		"player": "respirate_",
-		"playerid": 2525,
-		"weight": 20.41,
+		"player": "chestnutbank",
+		"playerid": 3005,
+		"weight": 19.76,
 		"bot": "gofishgame",
 		"fishtype": "🦐",
 		"fishname": "shrimp",
 		"catchtype": "normal",
 		"chat": "ajspyman",
-		"fishid": 215975,
-		"chatid": 152,
-		"date": "2025-11-16T09:46:39Z",
-		"rank": 49
+		"fishid": 220241,
+		"chatid": 161,
+		"date": "2025-12-06T06:27:13Z",
+		"rank": 53
 	},
 	"skull": {
 		"player": "gofishgamer",
@@ -583,7 +583,7 @@
 		"fishid": 216740,
 		"chatid": 158,
 		"date": "2025-11-20T06:45:45Z",
-		"rank": 54
+		"rank": 50
 	},
 	"snake": {
 		"player": "respirate_",
@@ -597,7 +597,21 @@
 		"fishid": 214916,
 		"chatid": 148,
 		"date": "2025-11-11T01:10:13Z",
-		"rank": 46
+		"rank": 44
+	},
+	"sneaker": {
+		"player": "respirate_",
+		"playerid": 2525,
+		"weight": 0.35,
+		"bot": "gofishgame",
+		"fishtype": "👟",
+		"fishname": "sneaker",
+		"catchtype": "normal",
+		"chat": "ajspyman",
+		"fishid": 220244,
+		"chatid": 163,
+		"date": "2025-12-06T06:45:24Z",
+		"rank": 55
 	},
 	"socks": {
 		"player": "chestnutbank",
@@ -667,7 +681,21 @@
 		"fishid": 215774,
 		"chatid": 150,
 		"date": "2025-11-15T10:05:29Z",
-		"rank": 47
+		"rank": 45
+	},
+	"teddybear": {
+		"player": "chestnutbank",
+		"playerid": 3005,
+		"weight": 3.1,
+		"bot": "gofishgame",
+		"fishtype": "🧸",
+		"fishname": "teddybear",
+		"catchtype": "normal",
+		"chat": "ajspyman",
+		"fishid": 219818,
+		"chatid": 160,
+		"date": "2025-12-04T05:58:20Z",
+		"rank": 52
 	},
 	"thongsandal": {
 		"player": "respirate_",
@@ -695,7 +723,7 @@
 		"fishid": 215981,
 		"chatid": 154,
 		"date": "2025-11-16T09:54:40Z",
-		"rank": 50
+		"rank": 47
 	},
 	"turtle": {
 		"player": "chestnutbank",
@@ -723,7 +751,7 @@
 		"fishid": 214907,
 		"chatid": 145,
 		"date": "2025-11-11T00:31:41Z",
-		"rank": 43
+		"rank": 42
 	},
 	"wireline": {
 		"player": "chestnutbank",

@@ -2,32 +2,32 @@
 
 | Rank | Fish            | Weight in lbs | Player      | Date in UTC         |
 |:-----|:----------------|:--------------|:------------|:--------------------|
-| 48   | 🪝 hook         | 2.44          | gofishgamer | 2025-11-29 08:53:23 |
-| 47   | 🐟 fish         | 8.14          | gofishgamer | 2025-11-29 08:13:56 |
-| 46   | 🧤 gloves       | 0.73          | gofishgamer | 2025-11-29 07:24:55 |
-| 45   | 🦦 otter        | 18.37         | gofishgamer | 2025-11-29 06:18:44 |
-| 44   | 👢 boot         | 1.87          | gofishgamer | 2025-11-29 02:02:32 |
-| 43   | 🦠 plankton     | 12.30         | gofishgamer | 2025-11-21 09:24:51 |
-| 42   | 🦕 sauropod     | 58.55         | gofishgamer | 2025-11-21 08:44:32 |
-| 41   | 🧃 beveragebox  | 10.04         | larvaew     | 2025-06-12 04:24:59 |
-| 40   | 🥫 cannedfood   | 1.06          | osnyatsky   | 2025-01-08 23:20:44 |
-| 39   | 🦑 squid        | 25.79         | osnyisdead  | 2025-01-08 23:20:22 |
-| 38   | 🐚 shell        | 2.33          | osnyatsky   | 2025-01-08 22:28:20 |
-| 37   | 🦞 lobster      | 22.12         | osnyisdead  | 2025-01-08 22:19:01 |
-| 36   | 🦐 shrimp       | 30.91         | osnyatsky   | 2025-01-08 21:50:50 |
-| 35   | 🧸 teddybear    | 10.90         | osnyisdead  | 2025-01-08 20:47:55 |
-| 34   | 🐢 turtle       | 8.88          | osnyisdead  | 2025-01-08 19:23:57 |
-| 33   | 🪱 worm         | 10.40         | osnyatsky   | 2025-01-08 18:07:55 |
-| 32   | 🦪 oyster       | 6.03          | osnyisdead  | 2025-01-08 15:35:46 |
-| 31   | 🐋 whale        | 129.04        | osnyatsky   | 2025-01-08 09:11:26 |
-| 30   | 🐙 octopus      | 9.57          | osnyatsky   | 2025-01-07 23:14:44 |
-| 29   | 🎏 lure         | 2.01          | osnyatsky   | 2025-01-07 21:44:32 |
-| 28   | 🐊 crocodile    | 69.34         | osnyisdead  | 2025-01-07 14:20:06 |
-| 27   | 🦀 crab         | 4.91          | osnyisdead  | 2025-01-06 22:56:02 |
-| 26   | ⛸️ iceskate      | 0.92          | osnyisdead  | 2025-01-06 22:25:55 |
-| 25   | 🧊 icecube      | 9.51          | osnyatsky   | 2025-01-06 17:00:49 |
-| 24   | 🍬 candy        | 0.00          | osnyatsky   | 2025-01-06 08:36:32 |
-| 23   | 🐳 bluewhale    | 84.72         | osnyatsky   | 2025-01-06 08:36:17 |
+| 48   | 🐳 bluewhale    | 292.52        | gofishgamer | 2025-12-01 10:26:47 |
+| 47   | 🎏 lure         | 3.86          | gofishgamer | 2025-12-01 09:30:20 |
+| 46   | 🦪 oyster       | 31.14         | gofishgamer | 2025-12-01 08:43:56 |
+| 45   | 🥫 cannedfood   | 1.94          | gofishgamer | 2025-12-01 08:02:17 |
+| 44   | 🐚 shell        | 2.88          | gofishgamer | 2025-12-01 07:18:07 |
+| 43   | 🪱 worm         | 1.87          | gofishgamer | 2025-12-01 06:45:50 |
+| 42   | 🧸 teddybear    | 11.72         | gofishgamer | 2025-12-01 05:43:58 |
+| 41   | 🦀 crab         | 1.42          | gofishgamer | 2025-12-01 05:02:42 |
+| 40   | 🪝 hook         | 2.44          | gofishgamer | 2025-11-29 08:53:23 |
+| 39   | 🐟 fish         | 8.14          | gofishgamer | 2025-11-29 08:13:56 |
+| 38   | 🧤 gloves       | 0.73          | gofishgamer | 2025-11-29 07:24:55 |
+| 37   | 🦦 otter        | 18.37         | gofishgamer | 2025-11-29 06:18:44 |
+| 36   | 👢 boot         | 1.87          | gofishgamer | 2025-11-29 02:02:32 |
+| 35   | 🦠 plankton     | 12.30         | gofishgamer | 2025-11-21 09:24:51 |
+| 34   | 🦕 sauropod     | 58.55         | gofishgamer | 2025-11-21 08:44:32 |
+| 33   | 🧃 beveragebox  | 10.04         | larvaew     | 2025-06-12 04:24:59 |
+| 32   | 🦑 squid        | 25.79         | osnyisdead  | 2025-01-08 23:20:22 |
+| 31   | 🦞 lobster      | 22.12         | osnyisdead  | 2025-01-08 22:19:01 |
+| 30   | 🦐 shrimp       | 30.91         | osnyatsky   | 2025-01-08 21:50:50 |
+| 29   | 🐢 turtle       | 8.88          | osnyisdead  | 2025-01-08 19:23:57 |
+| 28   | 🐋 whale        | 129.04        | osnyatsky   | 2025-01-08 09:11:26 |
+| 27   | 🐙 octopus      | 9.57          | osnyatsky   | 2025-01-07 23:14:44 |
+| 26   | 🐊 crocodile    | 69.34         | osnyisdead  | 2025-01-07 14:20:06 |
+| 25   | ⛸️ iceskate      | 0.92          | osnyisdead  | 2025-01-06 22:25:55 |
+| 24   | 🧊 icecube      | 9.51          | osnyatsky   | 2025-01-06 17:00:49 |
+| 23   | 🍬 candy        | 0.00          | osnyatsky   | 2025-01-06 08:36:32 |
 | 22   | 🦭 seal         | 62.93         | osnyisdead  | 2025-01-02 21:58:11 |
 | 21   | 🐌 snail        | 7.92          | osnyisdead  | 2025-01-02 20:36:48 |
 | 20   | 🐧 penguin      | 3.16          | osnyisdead  | 2025-01-01 22:50:23 |
@@ -51,4 +51,4 @@
 | 2    | 🧽 sponge       | 16.50         | osnyisdead  | 2024-10-01 19:50:36 |
 | 1    | 🧦 socks        | 1.03          | osnyisdead  | 2024-10-01 17:44:35 |
 
-_Last updated at 2025-11-30 10:13:28 UTC_
+_Last updated at 2025-12-07 09:33:09 UTC_
