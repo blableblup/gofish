@@ -261,6 +261,10 @@ func sortMapStringFishInfo(somemap map[string]BoardData, whattosort string) []st
 		sort.SliceStable(blee, func(i, j int) bool { return blee[i] < blee[j] })
 		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].FishName < somemap[blee[j]].FishName })
 		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Count > somemap[blee[j]].Count })
+	case "countasc":
+		sort.SliceStable(blee, func(i, j int) bool { return blee[i] < blee[j] })
+		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].FishName < somemap[blee[j]].FishName })
+		sort.SliceStable(blee, func(i, j int) bool { return somemap[blee[i]].Count < somemap[blee[j]].Count })
 	default:
 		logs.Logs().Warn().
 			Str("WhatToSort", whattosort).
