@@ -3,12 +3,24 @@ package leaderboards
 import (
 	"fmt"
 	"gofish/logs"
+	"path/filepath"
 	"strconv"
 )
 
 func GetTheShiniesForWrappeds(params LeaderboardParams, Wrappeds map[int]*Wrapped, year string) (map[int]*Wrapped, error) {
 
 	Shinies, err := getShinies(params)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Chat", params.ChatName).
+			Str("Board", params.LeaderboardType).
+			Msg("Error getting shinies for player profiles")
+		return Wrappeds, err
+	}
+
+	filePath := filepath.Join("leaderboards", "global", "shiny")
+
+	currentShinies, err := getJsonBoard(filePath)
 	if err != nil {
 		logs.Logs().Error().Err(err).
 			Str("Chat", params.ChatName).
@@ -27,15 +39,33 @@ func GetTheShiniesForWrappeds(params LeaderboardParams, Wrappeds map[int]*Wrappe
 		return Wrappeds, err
 	}
 
+	// count the shinies before doing this
+	shinyCountYear := make(map[string]int)
+
+	for _, shiny := range Shinies {
+		shinyCountYear[shiny.FishName] = shinyCountYear[shiny.FishName] + 1
+	}
+
+	shinyCountAllTime := make(map[string]int)
+
+	for _, shiny := range currentShinies {
+		shinyCountAllTime[shiny.FishName] = shinyCountAllTime[shiny.FishName] + 1
+	}
+
 	for _, fish := range Shinies {
 
 		if _, ok := Wrappeds[fish.PlayerID]; ok {
 
 			// check if this was in the year of the wrapped
 			if fish.Date.Year() == yearInt {
-				fishy := fmt.Sprintf("%s shiny %s", fish.FishType, fish.FishName)
 
-				Wrappeds[fish.PlayerID].RarestFish = append(Wrappeds[fish.PlayerID].RarestFish, fishy)
+				rareFish := RareFish{
+					Fish:         fmt.Sprintf("%s shiny %s", fish.FishType, fish.FishName),
+					CountYear:    shinyCountYear[fish.FishName],
+					CountAllTime: shinyCountAllTime[fish.FishName],
+				}
+
+				Wrappeds[fish.PlayerID].RarestFish = append(Wrappeds[fish.PlayerID].RarestFish, rareFish)
 			}
 		}
 	}
@@ -45,18 +75,32 @@ func GetTheShiniesForWrappeds(params LeaderboardParams, Wrappeds map[int]*Wrappe
 
 func GetRarestFishForWrappeds(params LeaderboardParams, Wrappeds map[int]*Wrapped, EmojisForFish map[string]string) (map[int]*Wrapped, error) {
 
-	rarestFish, err := GetRarestFishBoard(params)
+	rarestFishBoard, err := GetRarestFishBoard(params)
 	if err != nil {
 		return Wrappeds, err
 	}
 
+	currentRarestFishBoard, err := GetCurrentRarestFishBoard()
+	if err != nil {
+		return Wrappeds, err
+	}
+
+	rarestFishSorted := sortMapStringFishInfo(rarestFishBoard, "countasc")
+
 	for _, wrapped := range Wrappeds {
 
-		for _, rareFish := range rarestFish {
+		for _, rareFish := range rarestFishSorted {
 
 			for _, seenFish := range wrapped.FishSeen {
 				if rareFish == seenFish && len(wrapped.RarestFish) < 5 {
-					wrapped.RarestFish = append(wrapped.RarestFish, fmt.Sprintf("%s %s", EmojisForFish[rareFish], rareFish))
+
+					rareFish := RareFish{
+						Fish:         fmt.Sprintf("%s %s", EmojisForFish[rareFish], rareFish),
+						CountYear:    rarestFishBoard[rareFish].Count,
+						CountAllTime: currentRarestFishBoard[rareFish].Count,
+					}
+
+					wrapped.RarestFish = append(wrapped.RarestFish, rareFish)
 				}
 			}
 		}
@@ -65,9 +109,7 @@ func GetRarestFishForWrappeds(params LeaderboardParams, Wrappeds map[int]*Wrappe
 	return Wrappeds, nil
 }
 
-func GetRarestFishBoard(params LeaderboardParams) ([]string, error) {
-
-	var rarestFish []string
+func GetRarestFishBoard(params LeaderboardParams) (map[string]BoardData, error) {
 
 	// get the rarest fish board for that year
 	boardData, err := getRarestFish(params)
@@ -76,10 +118,26 @@ func GetRarestFishBoard(params LeaderboardParams) ([]string, error) {
 			Str("Chat", "global").
 			Str("Board", "rare").
 			Msg("Error getting leaderboard")
-		return rarestFish, err
+		return boardData, err
 	}
 
-	rarestFish = sortMapStringFishInfo(boardData, "countasc")
+	return boardData, nil
+}
 
-	return rarestFish, nil
+// current is the last updated one from leaderboards
+func GetCurrentRarestFishBoard() (map[string]BoardData, error) {
+
+	filePath := filepath.Join("leaderboards", "global", "rare")
+
+	currentBoardData, err := getJsonBoardString(filePath)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Chat", "global").
+			Str("Board", "rare").
+			Msg("Error getting leaderboard")
+		return currentBoardData, err
+	}
+
+	return currentBoardData, nil
+
 }

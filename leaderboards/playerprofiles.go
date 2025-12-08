@@ -142,11 +142,16 @@ type ProfileFish struct {
 	Chat       string   `json:"Chat,omitempty"`
 	Record     []string `json:"Record,omitempty"`
 
+	// these are for wrapped
+	Rank        int `json:"Rank,omitempty"`
+	RankAllTime int `json:"RankAllTime,omitempty"`
+
 	// these are to scan the data into the struct
 	// but arent printed out in the end
 	Bag      []string  `json:"-"`
 	Count    int       `json:"-"`
 	PlayerID int       `json:"-"`
+	FishID   int       `json:"-"`
 	FishName string    `json:"-"`
 	ChatPfp  string    `json:"-"`
 	Url      string    `json:"-"`

@@ -14,18 +14,43 @@ import (
 )
 
 type Wrapped struct {
-	Year string
+	Year string `json:"Year"`
 
-	Name     string
-	PlayerID int
-	TwitchID int
-	Verified sql.NullBool
+	Name     string       `json:"Name"`
+	PlayerID int          `json:"-"`
+	TwitchID int          `json:"-"`
+	Verified sql.NullBool `json:"-"`
 
-	BiggestFish    []ProfileFish
-	MostCaughtFish []string
-	RarestFish     []string
-	FishSeen       []string
-	Count          *TotalChatStruct
+	BiggestFish        []ProfileFish
+	MostCaughtFish     []CaughtFish
+	RarestFish         []RareFish
+	FishSeen           []string `json:"-"`
+	FishSeenCount      int
+	FishSeenPercentile float64
+	Count              *TotalChatStructPercentile
+	FishLocations      []Location
+}
+
+type TotalChatStructPercentile struct {
+	Total      int
+	Percentile float64
+	ChatCounts map[string]*TotalChatStructPercentile `json:"ChatCounts,omitempty"`
+}
+
+type CaughtFish struct {
+	Fish  string
+	Count int
+}
+
+type RareFish struct {
+	Fish         string
+	CountYear    int
+	CountAllTime int
+}
+
+type Location struct {
+	Location   string
+	Percentage float64
 }
 
 func GetWrapped(params LeaderboardParams) {
@@ -45,6 +70,7 @@ func GetWrapped(params LeaderboardParams) {
 			logs.Logs().Error().Err(err).
 				Str("Limit", limit).
 				Msg("Error converting limit to int")
+			return
 		}
 	}
 
