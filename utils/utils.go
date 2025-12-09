@@ -37,6 +37,8 @@ func ScanAndReturn() (string, error) {
 	scanner.Scan()
 	err := scanner.Err()
 	if err != nil {
+		logs.Logs().Error().Err(err).
+			Msg("Error scanning what you typed")
 		return "", err
 	}
 	response := scanner.Text()
