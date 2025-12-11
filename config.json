@@ -155,6 +155,11 @@
 			"checkfdata": true,
 			"board_enabled": true
 		},
+		"buhl00n": {
+			"twitchid": "428208278",
+			"checkfdata": false,
+			"board_enabled": false
+		},
 		"chellesorandom": {
 			"twitchid": "124376423",
 			"checkfdata": false,
@@ -888,6 +893,10 @@
 				{
 					"url": "https://logs.potat.app",
 					"logs_added": "2025/5"
+				},
+				{
+					"url": "https://logs.susgee.dev",
+					"logs_added": "2025/12"
 				}
 			],
 			"checkfdata": true,
