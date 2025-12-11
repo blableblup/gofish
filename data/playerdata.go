@@ -43,7 +43,19 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 		return confirmedPlayers, err
 	}
 
+	// to not get rate limited from the thingy
+	var playerCount int
+	pause := time.Second * 60
+
 	for player := range playersFishingDate {
+
+		playerCount++
+		if playerCount == 200 {
+			playerCount = 0
+			logs.Logs().Info().
+				Msg("Pausing going over the players ....")
+			time.Sleep(pause)
+		}
 
 		// this still doesnt work if a player name was used by different players in the past
 		// all the fish will just go to the fisher who is currently using that name
