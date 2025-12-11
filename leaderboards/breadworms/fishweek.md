@@ -14,8 +14,8 @@
 | 10    | sicklymaidrobot       | 123         |
 | 10    | sussy_amonge          | 123         |
 | 12    | qu4ttromila           | 122         |
-| 13    | chubby_________       | 112         |
 | 13    | lazuli672*            | 112         |
+| 13    | lluuuuucy             | 112         |
 | 15    | ryebreadward          | 110         |
 | 16    | bussinongnocap        | 108         |
 | 17    | dazedforevermore      | 93          |
@@ -37,16 +37,16 @@
 | 33    | bapqo                 | 49          |
 | 34    | osnyatsky             | 47          |
 | 35    | paras220              | 46          |
-| 35 ⬆  | ytp_dl                | 46 (+12)    |
-| 37 ⬇  | whitecardrifting      | 45          |
-| 38 ⬇  | ninjaross             | 44          |
-| 39 ⬇  | ouacewi               | 43          |
-| 40 ⬇  | houseofleaves         | 42          |
-| 41 ⬇  | cimgu                 | 40          |
-| 42 ⬇  | fvkdylan              | 39          |
-| 43 ⬇  | idini                 | 36          |
-| 44 ⬇  | chestnutbank          | 34          |
-| 44 ⬇  | julialuxel            | 34          |
+| 35    | ytp_dl                | 46          |
+| 37    | whitecardrifting      | 45          |
+| 38    | ninjaross             | 44          |
+| 39    | ouacewi               | 43          |
+| 40    | houseofleaves         | 42          |
+| 41    | cimgu                 | 40          |
+| 42    | fvkdylan              | 39          |
+| 43    | idini                 | 36          |
+| 44    | chestnutbank          | 34          |
+| 44    | julialuxel            | 34          |
 | 46    | islcfc*               | 33          |
 | 47    | jr_mime               | 32          |
 | 48    | fallen_angels_1995    | 28          |
@@ -61,4 +61,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2025-12-02 21:15:42 UTC_
+_Last updated at 2025-12-11 12:52:16 UTC_

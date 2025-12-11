@@ -2,14 +2,14 @@
 
 | Rank  | Player                    | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points       |
 |:------|:--------------------------|:------------|:-----------------|:-----------------|:-------------|
-| 1 🥇  | chubby_________           | 32          | 66 (+1)          | 40               | 182.0 (+1.0) |
+| 1 🥇  | lluuuuucy                 | 35 (+3)     | 66               | 40               | 191.0 (+9.0) |
 | 2 🥈  | leanmeister               | 51          | 16               | 12               | 175.0        |
-| 3 🥉  | osnyisdead                | 43          | 35               | 11 (+3)          | 169.5 (+1.5) |
+| 3 🥉  | osnyisdead                | 43          | 37 (+2)          | 11               | 171.5 (+2.0) |
 | 4     | puzzlow                   | 35          | 15               | 14               | 127.0        |
 | 5     | destin357                 | 32          | 21               | 7                | 120.5        |
 | 6     | osnyatsky                 | 31          | 24               | 6                | 120.0        |
 | 7     | derinturitierutz          | 35          | 7                | 15               | 119.5        |
-| 8     | derintu                   | 17 (+3)     | 23               | 18               | 83.0 (+9.0)  |
+| 8     | derintu                   | 17          | 23               | 18               | 83.0         |
 | 9     | qu4ttromila               | 11          | 19               | 20               | 62.0         |
 | 10    | kishma9                   | 11          | 19               | 11               | 57.5         |
 | 11    | miiiiisho                 | 8           | 21               | 14               | 52.0         |
@@ -38,18 +38,18 @@
 | 34    | crazytown_bananapants     | 1           | 0                | 1                | 3.5          |
 | 35    | divra__                   | 1           | 0                | 0                | 3.0          |
 | 35    | receipts                  | 0           | 2                | 2                | 3.0          |
-| 37    | houseofleaves             | 0           | 2                | 1                | 2.5          |
-| 37 ⬆  | selmaself                 | 0           | 1 (+1)           | 3                | 2.5 (+1.0)   |
-| 37    | twemoji                   | 0           | 2                | 1                | 2.5          |
-| 40 ⬇  | breadworms                | 0           | 0                | 4                | 2.0          |
-| 40 ⬇  | bussinongnocap            | 0           | 1                | 2                | 2.0          |
-| 42 ⬇  | kaasppeerr                | 0           | 0                | 3                | 1.5          |
-| 42 ⬆  | ytp_dl                    | 0           | 1 (+1)           | 1                | 1.5 (+1.0)   |
-| 44 ⬇  | bapqo                     | 0           | 0                | 2                | 1.0          |
-| 44 ⬇  | gawblemachine             | 0           | 1                | 0                | 1.0          |
-| 46 ⬇  | hansworthelias            | 0           | 0                | 1                | 0.5          |
-| 46 ⬇  | jr_mime                   | 0           | 0                | 1                | 0.5          |
-| 46 ⬇  | mochi_uygqzidbjizjkbehuiw | 0           | 0                | 1                | 0.5          |
-| 46 ⬇  | niiy                      | 0           | 0                | 1                | 0.5          |
+| 35 ⬆  | twemoji                   | 0           | 2                | 2 (+1)           | 3.0 (+0.5)   |
+| 38 ⬇  | houseofleaves             | 0           | 2                | 1                | 2.5          |
+| 38 ⬇  | selmaself                 | 0           | 1                | 3                | 2.5          |
+| 40    | breadworms                | 0           | 0                | 4                | 2.0          |
+| 40    | bussinongnocap            | 0           | 1                | 2                | 2.0          |
+| 42    | kaasppeerr                | 0           | 0                | 3                | 1.5          |
+| 42    | ytp_dl                    | 0           | 1                | 1                | 1.5          |
+| 44    | bapqo                     | 0           | 0                | 2                | 1.0          |
+| 44    | gawblemachine             | 0           | 1                | 0                | 1.0          |
+| 46    | hansworthelias            | 0           | 0                | 1                | 0.5          |
+| 46    | jr_mime                   | 0           | 0                | 1                | 0.5          |
+| 46    | mochi_uygqzidbjizjkbehuiw | 0           | 0                | 1                | 0.5          |
+| 46    | niiy                      | 0           | 0                | 1                | 0.5          |
 
-_Last updated at 2025-12-02 21:15:42 UTC_
+_Last updated at 2025-12-11 12:52:17 UTC_

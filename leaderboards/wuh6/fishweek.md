@@ -6,9 +6,9 @@
 | 2 🥈  | eeziiii                   | 132         |
 | 3 🥉  | iflya320                  | 130         |
 | 4     | lobuhtomy                 | 111         |
-| 5 ⬆   | ranctious                 | 106 (+19)   |
-| 6 ⬇   | huuuuuuuuuuuuuuuuuuuuuurz | 97          |
-| 7 ⬇   | theevirus                 | 87          |
+| 5     | ranctious                 | 106         |
+| 6     | huuuuuuuuuuuuuuuuuuuuuurz | 97          |
+| 7     | theevirus                 | 87          |
 | 8     | nndiana                   | 80          |
 | 9     | gorillapark               | 67          |
 | 10    | teddbearcs                | 66          |
@@ -23,9 +23,9 @@
 | 19    | wuh6                      | 18          |
 | 20    | magicbluesword            | 12          |
 | 21    | ceriise__                 | 11          |
-| 21    | chubby_________           | 11          |
+| 21    | lluuuuucy                 | 11          |
 | 23    | commanda_u                | 10          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-11-11 18:51:44 UTC_
+_Last updated at 2025-12-11 12:52:16 UTC_
