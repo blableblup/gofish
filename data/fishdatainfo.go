@@ -62,9 +62,10 @@ var SquirrelPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d
 var SonnyThrowWeight = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), 🙆 "Hey kid, catch!" You got a [✨🫧] \s*(\S+)\s* [✨🫧]! It weighs ([\d.]+) lbs`)
 var SonnyThrow = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), Huh[?] 🙆 "Hey kid, catch!" 🤲 He gave you a \s*(\S+)\s*! Awesome`)
 
-// the gifts from winter 2024
+// the gifts from winter
 var WinterGift = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), You open it, and[.][.][.] [(](\S+) added to bag![)]`)
 var BellGift = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), 🎅 Heya there! Take this and play with me, (won't ya[?]|wontcha[?]) [(]🔔 added to bag![)]`)
+var BellGift2025 = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), Huh[?] You pick up a 🔔 that was lying around[.] Who's that running away[?] 🏃‍➡️`)
 
 var BagPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): [@👥]\s?(\w+), Your (bag|collection): (.+)`)
 
@@ -82,6 +83,7 @@ func allTheCatchPatterns() map[string]FishCatch {
 		"sonnythrowweight": {Pattern: SonnyThrowWeight, Type: "fish", ExtractFunc: extractInfoFromNormalPattern},
 		"wintergift":       {Pattern: WinterGift, Type: "fish", ExtractFuncSlice: extractInfoFromWinterGift},
 		"bellgift":         {Pattern: BellGift, Type: "fish", ExtractFunc: extractInfoFromReleasePattern},
+		"bellgift2025":     {Pattern: BellGift2025, Type: "fish", ExtractFunc: extractInfoFromReleasePattern},
 
 		"bag": {Pattern: BagPattern, Type: "bag", ExtractFunc: extractInfoFromBagPattern},
 
@@ -238,13 +240,20 @@ func extractInfoFromReleasePattern(match []string) FishInfo {
 
 	var fishType, catchtype string
 
-	if strings.Contains(match[0], "There was a 🕯️ inside of its hollow interior!") {
+	switch {
+	case strings.Contains(match[0], "There was a 🕯️ inside of its hollow interior!"):
 		fishType = "🕯️"
 		catchtype = "releasepumpkin"
-	} else if strings.Contains(match[0], "🎅 Heya there!") {
+
+	case strings.Contains(match[0], "🎅 Heya there!"):
 		fishType = "🔔"
 		catchtype = "giftbell"
-	} else {
+
+	case strings.Contains(match[0], "You pick up a 🔔"):
+		fishType = "🔔"
+		catchtype = "giftbell"
+
+	default:
 		fishType = match[7]
 		catchtype = "release"
 	}
