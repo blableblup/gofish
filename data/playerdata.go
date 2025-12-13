@@ -39,8 +39,8 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 
 	confirmedPlayers := make(map[string][]PlayerData)
 
-	// playersfishingdate should include the chats with the dates
-	// so that i now which logs page to open
+	// playersfishingdate should include the urls with the dates
+	// so that i now which logs page to open for which day for the raw page
 	// so should be map[string]map[string][]Dates
 	playersFishingDate, firstFishChats, err := GetAllThePlayerNamesAndWhenTheyFished(fishes, pool)
 	if err != nil {
@@ -72,13 +72,15 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 
 		for _, dates := range playersFishingDate[player] {
 
-			// check now if highest date is more than 6 months away
+			// check now if highest date in the checked data is more than 6 months away
 			months, years, err := DiffBetweenTwoDates(time.Now(), dates.HighestDate, pool)
 			if err != nil {
 				return confirmedPlayers, err
 			}
 
 			var twitchID int
+			var playerInApi bool
+			var userData []map[string]any
 
 			if months >= 6 || years != 0 {
 
@@ -91,7 +93,7 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 
 			} else {
 
-				twitchID, err = PlayerRecent(player, dates, pool)
+				twitchID, userData, playerInApi, err = PlayerRecent(player, dates, pool)
 				if err != nil {
 					return confirmedPlayers, err
 				}
@@ -99,10 +101,7 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 
 			// now check if there is already a player in the db with that twitchid
 
-			var DBData PlayerDataInDB
-			var TwitchIDExists bool
-
-			DBData, TwitchIDExists, err = CheckForTwitchIDInDB(twitchID, pool)
+			DBData, TwitchIDExists, err := CheckForTwitchIDInDB(twitchID, pool)
 			if err != nil {
 				logs.Logs().Error().Err(err).
 					Str("Player", player).
@@ -114,9 +113,8 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 
 			if TwitchIDExists {
 
-				// idk this needs to be fixed
-				if len(userdata) != 0 {
-					currentName := GetCurrentName(userdata)
+				if playerInApi {
+					currentName := GetCurrentName(userData)
 
 					if currentName != DBData.Name {
 
@@ -129,6 +127,12 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 							return confirmedPlayers, err
 						}
 					}
+				} else {
+					// the player name could be an old name
+					// since im now checking the ambience
+					// someone could have not caught a fish with their old name and renamed
+					// when checking old logs
+					// ...
 				}
 
 				playerID = DBData.PlayerID
@@ -175,9 +179,10 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 	return confirmedPlayers, nil
 }
 
-func PlayerRecent(player string, dates Dates, pool *pgxpool.Pool) (int, error) {
+func PlayerRecent(player string, dates Dates, pool *pgxpool.Pool) (int, []map[string]any, bool, error) {
 
 	var twitchID int
+	var playerInApi bool
 
 	userdata, err := MakeApiRequestForPlayerToApiIVR(player, 0, "name")
 	if err != nil && err != ErrNoPlayerFound {
@@ -185,7 +190,7 @@ func PlayerRecent(player string, dates Dates, pool *pgxpool.Pool) (int, error) {
 		logs.Logs().Error().Err(err).
 			Str("Player", player).
 			Msg("Error doing api ivr thing")
-		return 0, err
+		return 0, userdata, false, err
 
 	} else if err == ErrNoPlayerFound {
 
@@ -195,7 +200,7 @@ func PlayerRecent(player string, dates Dates, pool *pgxpool.Pool) (int, error) {
 		// check for players who have that name as current name first
 		playersNameDB, err := GetPlayersForPlayerName(player, pool)
 		if err != nil {
-			return 0, err
+			return 0, userdata, false, err
 		}
 
 		var foundAPlayer bool
@@ -204,12 +209,12 @@ func PlayerRecent(player string, dates Dates, pool *pgxpool.Pool) (int, error) {
 
 			lastSeen, _, err := PlayerDates(pool, playerName.PlayerID, player)
 			if err != nil {
-				return 0, err
+				return 0, userdata, false, err
 			}
 
 			months, years, err := DiffBetweenTwoDates(time.Now(), lastSeen, pool)
 			if err != nil {
-				return 0, err
+				return 0, userdata, false, err
 			}
 
 			if months < 6 && years == 0 {
@@ -224,19 +229,19 @@ func PlayerRecent(player string, dates Dates, pool *pgxpool.Pool) (int, error) {
 			// if no player found, check for players who have that name as an oldname
 			playersOldNameDB, err := GetPlayersForOldName(player, pool)
 			if err != nil {
-				return 0, err
+				return 0, userdata, false, err
 			}
 
 			for _, oldPlayer := range playersOldNameDB {
 
 				lastSeen, _, err := PlayerDates(pool, oldPlayer.PlayerID, player)
 				if err != nil {
-					return 0, err
+					return 0, userdata, false, err
 				}
 
 				months, years, err := DiffBetweenTwoDates(time.Now(), lastSeen, pool)
 				if err != nil {
-					return 0, err
+					return 0, userdata, false, err
 				}
 
 				if months < 6 && years == 0 {
@@ -255,8 +260,9 @@ func PlayerRecent(player string, dates Dates, pool *pgxpool.Pool) (int, error) {
 			logs.Logs().Error().Err(err).
 				Str("Player", player).
 				Msg("Error getting twitchID for player")
-			return 0, err
+			return 0, userdata, false, err
 		}
+		playerInApi = true
 	}
 
 	if twitchID == 0 {
@@ -269,7 +275,7 @@ func PlayerRecent(player string, dates Dates, pool *pgxpool.Pool) (int, error) {
 		// ...
 	}
 
-	return twitchID, nil
+	return twitchID, userdata, playerInApi, nil
 }
 
 func CheckForTwitchIDInDB(twitchID int, pool *pgxpool.Pool) (PlayerDataInDB, bool, error) {
