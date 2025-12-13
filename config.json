@@ -157,7 +157,13 @@
 		},
 		"buhl00n": {
 			"twitchid": "428208278",
-			"checkfdata": false,
+			"logs_instances": [
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2025/12"
+				}
+			],
+			"checkfdata": true,
 			"board_enabled": false
 		},
 		"chellesorandom": {
