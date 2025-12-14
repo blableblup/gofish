@@ -3,7 +3,7 @@
 | Rank  | Player                | Total Weight in lbs |
 |:------|:----------------------|:--------------------|
 | 1 🥇  | gofishgamer           | 3323.99             |
-| 2 🥈  | kohrro                | 2600.44             |
+| 2 🥈  | kohrro                | 2984.53 (+384.09)   |
 | 3 🥉  | respirate_            | 2297.04             |
 | 4     | chestnutbank          | 2103.13             |
 | 5     | benni900*             | 1727.18             |
@@ -11,4 +11,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2025-12-07 09:35:34 UTC_
+_Last updated at 2025-12-14 09:55:49 UTC_

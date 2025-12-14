@@ -2,9 +2,9 @@
 
 | Rank  | Player             | Fish seen |
 |:------|:-------------------|:----------|
-| 1 🥇  | hahppyy            | 85        |
+| 1 🥇  | hahppyy            | 86 (+1)   |
 | 2 🥈  | vaiastol           | 77        |
-| 3 🥉  | garout             | 64        |
+| 3 🥉  | garout             | 65 (+1)   |
 | 4     | leanmeister        | 60        |
 | 5     | leastsussyimposter | 59        |
 | 6     | eelacy             | 55        |
@@ -14,9 +14,9 @@
 | 9     | pengeg             | 49        |
 | 11    | milesdotcom        | 42        |
 | 12    | yoimlee            | 41        |
-| 13    | redreignss         | 38        |
-| 13 ⬆  | tiaguitos97        | 38 (+1)   |
-| 15 ⬇  | julialuxel         | 37        |
+| 13    | tiaguitos97        | 39 (+1)   |
+| 14 ⬇  | redreignss         | 38        |
+| 15    | julialuxel         | 37        |
 | 16    | beebo8i            | 34        |
 | 17    | obama              | 29        |
 | 18    | larvaew            | 27        |
@@ -28,4 +28,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2025-11-16 09:48:49 UTC_
+_Last updated at 2025-12-14 09:55:52 UTC_

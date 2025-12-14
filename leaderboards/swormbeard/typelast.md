@@ -2,6 +2,8 @@
 
 | Rank | Fish             | Weight in lbs | Player                | Date in UTC         |
 |:-----|:-----------------|:--------------|:----------------------|:--------------------|
+| 69   | 🧵 wireline      | 0.53          | leanmeister           | 2025-12-13 18:13:39 |
+| 68   | 🔔 bell          | 0.00          | gawblemachine         | 2025-12-13 13:14:15 |
 | 67   | 🎏 lure          | 1.74          | lluuuuucy             | 2025-12-05 21:46:23 |
 | 66   | 🦐 shrimp        | 12.73         | lluuuuucy             | 2025-12-05 19:14:29 |
 | 65   | 🐊 crocodile     | 136.84        | lluuuuucy             | 2025-12-05 18:07:42 |
@@ -70,4 +72,4 @@
 | 2    | 🩴 thongsandal   | 0.65          | dazedforevermore      | 2024-08-03 15:29:46 |
 | 1    | 🕶️ darksunglasses | 11.39         | respirate_            | 2024-07-29 07:01:49 |
 
-_Last updated at 2025-12-07 09:33:09 UTC_
+_Last updated at 2025-12-14 09:51:02 UTC_

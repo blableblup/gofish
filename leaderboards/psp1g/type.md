@@ -31,7 +31,7 @@
 | 27    | 🐻‍❄ polarbear       | 48.30         | nndiana                   | 2024-02-22 16:32:33 |
 | 28    | 🗡️ dagger           | 47.98         | hahppyy                   | 2024-03-16 21:42:51 |
 | 29    | 🐸 frog            | 47.43         | noconcept_                | 2023-11-06 23:41:42 |
-| 30    | 🦫 beaver          | 43.07         | ratot                     | 2024-06-24 13:37:47 |
+| 30    | 🦫 beaver          | 43.46 (+0.39) | bananenshak3              | 2025-12-13 23:47:30 |
 | 31    | 🐧 penguin         | 41.06         | nndiana                   | 2024-01-01 20:51:08 |
 | 32    | 🦀 crab            | 38.88         | d1ma1g*                   | 2023-09-03 11:19:10 |
 | 33    | 🐡 blowfish        | 35.81         | bluberry                  | 2024-08-13 06:51:36 |
@@ -53,12 +53,12 @@
 | 49    | 🪵 log             | 13.04         | bcarw                     | 2024-05-27 19:44:46 |
 | 50    | 🕶️ darksunglasses   | 12.90         | themeatball               | 2024-09-29 20:03:22 |
 | 51    | 🧃 beveragebox     | 12.83         | huuuuuuuuuuuuuuuuuuuuuurz | 2023-09-27 10:52:21 |
-| 52 ⬆  | 🧸 teddybear       | 11.99 (+0.08) | joshuabzz                 | 2025-12-04 01:11:30 |
-| 53 ⬇  | 👒 hat             | 11.98         | ttecnk                    | 2023-10-08 10:06:14 |
-| 54 ⬇  | 🐌 snail           | 11.97         | sandwichsundays           | 2024-07-09 03:04:06 |
-| 54 ⬇  | 🧴 sunscreenbottle | 11.97         | joshuabzz                 | 2025-08-26 23:53:43 |
+| 52    | 🧸 teddybear       | 11.99         | joshuabzz                 | 2025-12-04 01:11:30 |
+| 53    | 👒 hat             | 11.98         | ttecnk                    | 2023-10-08 10:06:14 |
+| 54    | 🐌 snail           | 11.97         | sandwichsundays           | 2024-07-09 03:04:06 |
+| 54    | 🧴 sunscreenbottle | 11.97         | joshuabzz                 | 2025-08-26 23:53:43 |
 | 56    | 🪹 emptynest       | 10.91         | veny2lbs                  | 2024-09-28 03:04:09 |
-| 57    | 💀 skull           | 10.89         | qyxuu                     | 2024-10-12 08:17:27 |
+| 57    | 💀 skull           | 10.89         | avhsty                    | 2024-10-12 08:17:27 |
 | 58    | 🧊 icecube         | 10.85         | angus_lpc                 | 2024-12-05 14:00:23 |
 | 59    | 🦎 lizard          | 10.84         | bosscrazymen              | 2023-12-17 18:48:58 |
 | 60    | 🎱 8ball           | 10.82         | 0_asd                     | 2024-03-31 10:49:57 |
@@ -114,4 +114,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-12-07 09:36:49 UTC_
+_Last updated at 2025-12-14 09:55:27 UTC_

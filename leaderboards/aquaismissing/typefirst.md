@@ -2,6 +2,7 @@
 
 | Rank | Fish            | Weight in lbs | Player        | Date in UTC         |
 |:-----|:----------------|:--------------|:--------------|:--------------------|
+| 60   | 👒 hat          | 10.81         | syberiak_     | 2025-12-07 20:20:18 |
 | 59   | 🕸️ spiderweb     | 0.32          | respirate_    | 2025-11-26 07:41:24 |
 | 58   | 🍬 candy        | 0.00          | chestnutbank  | 2025-11-26 01:18:30 |
 | 57   | 🎃 pumpkin      | 3.61          | glorpiusbot   | 2025-11-03 17:12:45 |
@@ -62,4 +63,4 @@
 | 2    | 🪝 hook         | 0.88          | vladik4il     | 2024-11-26 16:02:08 |
 | 1    | 🧦 socks        | 0.82          | aquaismissing | 2024-11-26 15:51:47 |
 
-_Last updated at 2025-11-30 10:13:30 UTC_
+_Last updated at 2025-12-14 09:55:53 UTC_

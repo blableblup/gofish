@@ -39,7 +39,7 @@
 		"fishid": 198506,
 		"chatid": 51,
 		"date": "2025-09-11T10:23:24Z",
-		"rank": 20
+		"rank": 21
 	},
 	"coral": {
 		"player": "commanda_u",
@@ -67,7 +67,7 @@
 		"fishid": 197743,
 		"chatid": 41,
 		"date": "2025-09-06T22:19:17Z",
-		"rank": 18
+		"rank": 19
 	},
 	"crocodile": {
 		"player": "soopyboo32",
@@ -123,7 +123,7 @@
 		"fishid": 177696,
 		"chatid": 18,
 		"date": "2025-06-04T20:47:52Z",
-		"rank": 21
+		"rank": 22
 	},
 	"hook": {
 		"player": "naori_desu",
@@ -137,7 +137,7 @@
 		"fishid": 174769,
 		"chatid": 5,
 		"date": "2025-05-21T07:08:13Z",
-		"rank": 22
+		"rank": 23
 	},
 	"lobster": {
 		"player": "soopyboo32",
@@ -165,21 +165,35 @@
 		"fishid": 186616,
 		"chatid": 25,
 		"date": "2025-07-12T02:32:12Z",
-		"rank": 23
+		"rank": 24
 	},
 	"oyster": {
-		"player": "naori_desu",
-		"playerid": 3774,
-		"weight": 32.44,
+		"player": "respirate_",
+		"playerid": 2525,
+		"weight": 34.47,
 		"bot": "gofishgame",
 		"fishtype": "🦪",
 		"fishname": "oyster",
 		"catchtype": "normal",
 		"chat": "deme",
-		"fishid": 175092,
-		"chatid": 7,
-		"date": "2025-05-22T12:53:05Z",
+		"fishid": 221002,
+		"chatid": 69,
+		"date": "2025-12-09T21:51:49Z",
 		"rank": 6
+	},
+	"plankton": {
+		"player": "respirate_",
+		"playerid": 2525,
+		"weight": 6.14,
+		"bot": "gofishgame",
+		"fishtype": "🦠",
+		"fishname": "plankton",
+		"catchtype": "normal",
+		"chat": "deme",
+		"fishid": 220639,
+		"chatid": 67,
+		"date": "2025-12-08T01:53:15Z",
+		"rank": 15
 	},
 	"seal": {
 		"player": "bubinga",
@@ -207,7 +221,7 @@
 		"fishid": 196792,
 		"chatid": 35,
 		"date": "2025-09-01T14:48:19Z",
-		"rank": 26
+		"rank": 27
 	},
 	"shark": {
 		"player": "respirate_",
@@ -224,18 +238,18 @@
 		"rank": 2
 	},
 	"shell": {
-		"player": "defirence",
-		"playerid": 2406,
-		"weight": 2.41,
+		"player": "respirate_",
+		"playerid": 2525,
+		"weight": 2.51,
 		"bot": "gofishgame",
 		"fishtype": "🐚",
 		"fishname": "shell",
 		"catchtype": "normal",
 		"chat": "deme",
-		"fishid": 196908,
-		"chatid": 38,
-		"date": "2025-09-02T09:45:59Z",
-		"rank": 19
+		"fishid": 220980,
+		"chatid": 68,
+		"date": "2025-12-09T19:58:57Z",
+		"rank": 20
 	},
 	"shrimp": {
 		"player": "flummoxedfungus",
@@ -249,7 +263,7 @@
 		"fishid": 199534,
 		"chatid": 56,
 		"date": "2025-09-17T17:59:22Z",
-		"rank": 16
+		"rank": 17
 	},
 	"skull": {
 		"player": "deoza",
@@ -263,7 +277,7 @@
 		"fishid": 197741,
 		"chatid": 39,
 		"date": "2025-09-06T22:16:19Z",
-		"rank": 15
+		"rank": 16
 	},
 	"snake": {
 		"player": "bubinga",
@@ -291,7 +305,7 @@
 		"fishid": 179999,
 		"chatid": 23,
 		"date": "2025-06-20T11:52:46Z",
-		"rank": 25
+		"rank": 26
 	},
 	"sponge": {
 		"player": "larvaew",
@@ -319,7 +333,7 @@
 		"fishid": 176915,
 		"chatid": 12,
 		"date": "2025-05-31T10:40:40Z",
-		"rank": 24
+		"rank": 25
 	},
 	"tropicalfish": {
 		"player": "letter__n",
@@ -361,6 +375,6 @@
 		"fishid": 201552,
 		"chatid": 59,
 		"date": "2025-09-24T11:44:21Z",
-		"rank": 17
+		"rank": 18
 	}
 }

@@ -48,8 +48,8 @@
 | 44    | 🩲 briefs        | 9.56          | cptblack_           | 2025-05-09 03:44:38 |
 | 45    | 👒 hat           | 9.46          | rainedparade        | 2025-01-25 17:36:59 |
 | 46    | 🧊 icecube       | 9.30          | rainedparade        | 2025-02-24 17:25:34 |
-| 47    | 🎱 8ball         | 8.42          | teeto               | 2025-03-20 22:25:41 |
-| 48    | 🪱 worm          | 7.94          | miyabwah            | 2025-02-25 05:58:02 |
+| 47 ⬆  | 🪱 worm          | 9.09 (+1.15)  | jakthejanitor       | 2025-12-10 03:07:34 |
+| 48 ⬇  | 🎱 8ball         | 8.42          | teeto               | 2025-03-20 22:25:41 |
 | 49    | 🦆 duck          | 7.71          | rainedparade        | 2025-02-24 08:22:44 |
 | 50    | 🪵 log           | 7.23          | poioce              | 2025-03-04 19:18:26 |
 | 51    | 🪺 nestwitheggs  | 6.84          | pompadourdelinquent | 2025-03-17 17:00:42 |
@@ -60,10 +60,10 @@
 | 56    | 🐸 frog          | 5.00          | pompadourdelinquent | 2025-01-11 09:22:58 |
 | 57    | 🎏 lure          | 4.44          | goopy777            | 2025-02-03 12:24:24 |
 | 58    | 🪝 hook          | 3.96          | miyabwah            | 2025-03-20 20:27:21 |
-| 59 ⬆  | 🧸 teddybear     | 3.73 (+1.36)  | jakthejanitor       | 2025-12-05 15:20:58 |
-| 60 ⬇  | ☘️ clover         | 3.44          | goopy777            | 2025-03-20 05:32:55 |
-| 61 ⬇  | 🌰 acorn         | 3.38          | dougiefresh_83      | 2025-10-09 04:17:57 |
-| 62 ⬇  | 👡 sandal        | 2.68          | poioce              | 2025-04-07 01:37:30 |
+| 59    | 🧸 teddybear     | 3.73          | jakthejanitor       | 2025-12-05 15:20:58 |
+| 60    | ☘️ clover         | 3.44          | goopy777            | 2025-03-20 05:32:55 |
+| 61    | 🌰 acorn         | 3.38          | dougiefresh_83      | 2025-10-09 04:17:57 |
+| 62    | 👡 sandal        | 2.68          | poioce              | 2025-04-07 01:37:30 |
 | 63    | 🌷 tulip         | 2.36          | hello0d             | 2025-03-21 18:32:56 |
 | 64    | 🧃 beveragebox   | 2.05          | cptblack_           | 2025-06-27 08:48:11 |
 | 65    | 🧦 socks         | 1.97          | pompadourdelinquent | 2025-05-10 02:39:04 |
@@ -84,4 +84,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-12-07 09:37:12 UTC_
+_Last updated at 2025-12-14 09:54:25 UTC_

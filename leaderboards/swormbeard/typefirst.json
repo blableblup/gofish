@@ -72,6 +72,19 @@
 		"date": "2024-10-12T21:50:13Z",
 		"rank": 38
 	},
+	"bell": {
+		"player": "gawblemachine",
+		"playerid": 2125,
+		"bot": "gofishgame",
+		"fishtype": "🔔",
+		"fishname": "bell",
+		"catchtype": "giftbell",
+		"chat": "swormbeard",
+		"fishid": 222145,
+		"chatid": 651,
+		"date": "2025-12-13T13:14:15Z",
+		"rank": 69
+	},
 	"beveragebox": {
 		"player": "dazedforevermore",
 		"playerid": 56,
@@ -966,5 +979,20 @@
 		"chatid": 14,
 		"date": "2024-08-02T20:58:00Z",
 		"rank": 11
+	},
+	"wireline": {
+		"player": "leanmeister",
+		"playerid": 135,
+		"verified": true,
+		"weight": 0.53,
+		"bot": "gofishgame",
+		"fishtype": "🧵",
+		"fishname": "wireline",
+		"catchtype": "normal",
+		"chat": "swormbeard",
+		"fishid": 222239,
+		"chatid": 652,
+		"date": "2025-12-13T18:13:39Z",
+		"rank": 70
 	}
 }

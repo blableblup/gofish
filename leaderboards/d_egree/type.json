@@ -53,7 +53,7 @@
 		"fishid": 196362,
 		"chatid": 306,
 		"date": "2025-08-30T18:04:31Z",
-		"rank": 65
+		"rank": 66
 	},
 	"beveragebox": {
 		"player": "ouacewi",
@@ -124,7 +124,7 @@
 		"fishid": 214498,
 		"chatid": 616,
 		"date": "2025-11-09T02:35:13Z",
-		"rank": 62
+		"rank": 63
 	},
 	"cactus": {
 		"player": "kohrro",
@@ -264,7 +264,7 @@
 		"fishid": 100336,
 		"chatid": 42,
 		"date": "2024-09-09T15:45:49Z",
-		"rank": 24
+		"rank": 25
 	},
 	"darksunglasses": {
 		"player": "larvaew",
@@ -278,7 +278,7 @@
 		"fishid": 82423,
 		"chatid": 6,
 		"date": "2024-06-05T20:25:47Z",
-		"rank": 25
+		"rank": 26
 	},
 	"deadleaves": {
 		"player": "kohrro",
@@ -334,7 +334,7 @@
 		"fishid": 99244,
 		"chatid": 24,
 		"date": "2024-09-03T14:58:44Z",
-		"rank": 26
+		"rank": 27
 	},
 	"fish": {
 		"player": "kohrro",
@@ -446,7 +446,7 @@
 		"fishid": 196296,
 		"chatid": 302,
 		"date": "2025-08-30T13:10:00Z",
-		"rank": 63
+		"rank": 64
 	},
 	"leaf": {
 		"player": "chestnutbank",
@@ -530,7 +530,7 @@
 		"fishid": 196517,
 		"chatid": 308,
 		"date": "2025-08-31T09:15:37Z",
-		"rank": 63
+		"rank": 64
 	},
 	"nestwitheggs": {
 		"player": "kohrro",
@@ -740,7 +740,7 @@
 		"fishid": 99047,
 		"chatid": 11,
 		"date": "2024-09-02T16:31:59Z",
-		"rank": 27
+		"rank": 28
 	},
 	"snail": {
 		"player": "kohrro",
@@ -785,18 +785,18 @@
 		"rank": 51
 	},
 	"spider": {
-		"player": "gofishgamer",
-		"playerid": 2944,
-		"weight": 8.58,
+		"player": "kohrro",
+		"playerid": 2887,
+		"weight": 19.94,
 		"bot": "gofishgame",
 		"fishtype": "🕷️",
 		"fishname": "spider",
 		"catchtype": "normal",
 		"chat": "d_egree",
-		"fishid": 214237,
-		"chatid": 558,
-		"date": "2025-11-07T21:17:52Z",
-		"rank": 28
+		"fishid": 221615,
+		"chatid": 634,
+		"date": "2025-12-12T00:20:48Z",
+		"rank": 23
 	},
 	"spiderweb": {
 		"player": "gofishgamer",
@@ -866,7 +866,7 @@
 		"fishid": 163732,
 		"chatid": 268,
 		"date": "2023-09-11T14:04:53Z",
-		"rank": 23
+		"rank": 24
 	},
 	"turtle": {
 		"player": "kohrro",
@@ -913,15 +913,15 @@
 	"wireline": {
 		"player": "kohrro",
 		"playerid": 2887,
-		"weight": 0.01,
+		"weight": 0.56,
 		"bot": "gofishgame",
 		"fishtype": "🧵",
 		"fishname": "wireline",
 		"catchtype": "normal",
 		"chat": "d_egree",
-		"fishid": 181211,
-		"chatid": 288,
-		"date": "2025-06-22T20:28:56Z",
-		"rank": 66
+		"fishid": 221641,
+		"chatid": 636,
+		"date": "2025-12-12T01:46:38Z",
+		"rank": 62
 	}
 }

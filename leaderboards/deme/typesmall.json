@@ -39,7 +39,7 @@
 		"fishid": 198506,
 		"chatid": 51,
 		"date": "2025-09-11T10:23:24Z",
-		"rank": 17
+		"rank": 18
 	},
 	"coral": {
 		"player": "commanda_u",
@@ -67,7 +67,7 @@
 		"fishid": 216170,
 		"chatid": 66,
 		"date": "2025-11-17T07:00:31Z",
-		"rank": 19
+		"rank": 20
 	},
 	"crocodile": {
 		"player": "fantanium",
@@ -109,7 +109,7 @@
 		"fishid": 208110,
 		"chatid": 61,
 		"date": "2025-10-15T19:49:16Z",
-		"rank": 22
+		"rank": 23
 	},
 	"frog": {
 		"player": "deoza",
@@ -123,7 +123,7 @@
 		"fishid": 198131,
 		"chatid": 46,
 		"date": "2025-09-09T02:01:02Z",
-		"rank": 23
+		"rank": 24
 	},
 	"hook": {
 		"player": "soopyboo32",
@@ -137,7 +137,7 @@
 		"fishid": 196896,
 		"chatid": 36,
 		"date": "2025-09-02T06:01:46Z",
-		"rank": 25
+		"rank": 26
 	},
 	"lobster": {
 		"player": "soopyboo32",
@@ -165,7 +165,7 @@
 		"fishid": 176986,
 		"chatid": 14,
 		"date": "2025-06-01T00:43:22Z",
-		"rank": 26
+		"rank": 27
 	},
 	"oyster": {
 		"player": "naori_desu",
@@ -180,6 +180,20 @@
 		"chatid": 7,
 		"date": "2025-05-22T12:53:05Z",
 		"rank": 5
+	},
+	"plankton": {
+		"player": "respirate_",
+		"playerid": 2525,
+		"weight": 6.14,
+		"bot": "gofishgame",
+		"fishtype": "🦠",
+		"fishname": "plankton",
+		"catchtype": "normal",
+		"chat": "deme",
+		"fishid": 220639,
+		"chatid": 67,
+		"date": "2025-12-08T01:53:15Z",
+		"rank": 14
 	},
 	"seal": {
 		"player": "bubinga",
@@ -207,7 +221,7 @@
 		"fishid": 196792,
 		"chatid": 35,
 		"date": "2025-09-01T14:48:19Z",
-		"rank": 20
+		"rank": 21
 	},
 	"shark": {
 		"player": "respirate_",
@@ -235,7 +249,7 @@
 		"fishid": 179458,
 		"chatid": 21,
 		"date": "2025-06-14T10:37:55Z",
-		"rank": 21
+		"rank": 22
 	},
 	"shrimp": {
 		"player": "gofishgamer",
@@ -249,7 +263,7 @@
 		"fishid": 179728,
 		"chatid": 22,
 		"date": "2025-06-19T08:10:57Z",
-		"rank": 14
+		"rank": 15
 	},
 	"skull": {
 		"player": "naori_desu",
@@ -263,7 +277,7 @@
 		"fishid": 176530,
 		"chatid": 11,
 		"date": "2025-05-28T23:50:55Z",
-		"rank": 15
+		"rank": 16
 	},
 	"snake": {
 		"player": "bubinga",
@@ -291,7 +305,7 @@
 		"fishid": 197748,
 		"chatid": 42,
 		"date": "2025-09-06T22:53:29Z",
-		"rank": 24
+		"rank": 25
 	},
 	"sponge": {
 		"player": "larvaew",
@@ -319,7 +333,7 @@
 		"fishid": 176915,
 		"chatid": 12,
 		"date": "2025-05-31T10:40:40Z",
-		"rank": 18
+		"rank": 19
 	},
 	"tropicalfish": {
 		"player": "letter__n",
@@ -361,6 +375,6 @@
 		"fishid": 201552,
 		"chatid": 59,
 		"date": "2025-09-24T11:44:21Z",
-		"rank": 16
+		"rank": 17
 	}
 }

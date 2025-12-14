@@ -8,14 +8,14 @@
 | 4     | destructionvibe   | 14        |
 | 5     | copynine          | 13        |
 | 5     | kidnamedzan       | 13        |
+| 7 ⬆   | chestnutbank      | 12 (+2)   |
 | 7     | digital_red_panda | 12        |
 | 7     | yxnggon           | 12        |
-| 9     | stevetheastronaut | 11        |
-| 10 🆕 | chestnutbank      | 10        |
-| 10    | xmrsamx           | 10        |
+| 10 ⬇  | stevetheastronaut | 11        |
+| 11 ⬇  | xmrsamx           | 10        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2025-12-07 09:33:08 UTC_
+_Last updated at 2025-12-14 09:55:51 UTC_

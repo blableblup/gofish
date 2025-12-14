@@ -11,7 +11,7 @@
 		"fishid": 200035,
 		"chatid": 94,
 		"date": "2025-09-19T21:52:10Z",
-		"rank": 4
+		"rank": 7
 	},
 	"2525": {
 		"player": "respirate_",
@@ -54,5 +54,47 @@
 		"chatid": 32,
 		"date": "2025-08-25T06:17:25Z",
 		"rank": 3
+	},
+	"4144": {
+		"player": "nottachasm",
+		"playerid": 4144,
+		"weight": 78.34,
+		"bot": "gofishgame",
+		"fishtype": "🐢",
+		"fishname": "turtle",
+		"catchtype": "normal",
+		"chat": "ajspyman",
+		"fishid": 221243,
+		"chatid": 234,
+		"date": "2025-12-11T04:26:47Z",
+		"rank": 5
+	},
+	"4145": {
+		"player": "acornpond",
+		"playerid": 4145,
+		"weight": 96.9,
+		"bot": "gofishgame",
+		"fishtype": "🐢",
+		"fishname": "turtle",
+		"catchtype": "normal",
+		"chat": "ajspyman",
+		"fishid": 222042,
+		"chatid": 383,
+		"date": "2025-12-13T07:54:15Z",
+		"rank": 4
+	},
+	"4146": {
+		"player": "gofishgames",
+		"playerid": 4146,
+		"weight": 78.23,
+		"bot": "gofishgame",
+		"fishtype": "🐢",
+		"fishname": "turtle",
+		"catchtype": "normal",
+		"chat": "ajspyman",
+		"fishid": 221302,
+		"chatid": 255,
+		"date": "2025-12-11T08:10:44Z",
+		"rank": 6
 	}
 }

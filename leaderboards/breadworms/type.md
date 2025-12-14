@@ -95,7 +95,7 @@
 | 90    | 🥀 wiltedflower    | 2.97          | cimgu                   | 2024-12-19 20:15:08 |
 | 92    | 🌹 rose            | 2.96          | osnyatsky               | 2024-03-28 12:12:36 |
 | 92    | 🥪 sandwich        | 2.96          | qu4ttromila             | 2023-05-29 08:10:17 |
-| 94    | 🍎 apple           | 2.92          | twemoji                 | 2025-11-04 23:27:16 |
+| 94    | 🍎 apple           | 2.92          | notomji                 | 2025-11-04 23:27:16 |
 | 95    | 🌷 tulip           | 2.85          | delicatefragileprincess | 2025-04-26 01:03:44 |
 | 96    | 🫙 jar             | 2.60          | fishingalt              | 2025-08-31 09:09:47 |
 | 97    | 🍱 tacklebox       | 2.13          | derinturitierutz        | 2025-11-01 12:30:09 |
@@ -128,4 +128,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-12-07 09:37:31 UTC_
+_Last updated at 2025-12-14 09:55:15 UTC_

@@ -11,7 +11,7 @@
 		"fishid": 200405,
 		"chatid": 494,
 		"date": "2025-09-20T21:33:38Z",
-		"rank": 64
+		"rank": 65
 	},
 	"acorn": {
 		"player": "derintu",
@@ -173,7 +173,7 @@
 		"fishid": 196128,
 		"chatid": 489,
 		"date": "2025-08-29T20:53:43Z",
-		"rank": 67
+		"rank": 68
 	},
 	"candy": {
 		"player": "chestnutbank",
@@ -418,7 +418,7 @@
 		"fishid": 156268,
 		"chatid": 406,
 		"date": "2025-03-17T20:23:03Z",
-		"rank": 65
+		"rank": 66
 	},
 	"hook": {
 		"player": "chestnutbank",
@@ -799,8 +799,8 @@
 		"fishname": "snake",
 		"catchtype": "normal",
 		"chat": "swormbeard",
-		"fishid": 110982,
-		"chatid": 56,
+		"fishid": 110983,
+		"chatid": 57,
 		"date": "2024-08-07T17:36:47Z",
 		"rank": 22
 	},
@@ -858,7 +858,7 @@
 		"fishid": 196076,
 		"chatid": 484,
 		"date": "2025-08-29T17:16:52Z",
-		"rank": 66
+		"rank": 67
 	},
 	"sponge": {
 		"player": "whitecardrifting",
@@ -931,7 +931,7 @@
 		"fishid": 155813,
 		"chatid": 379,
 		"date": "2025-03-16T16:56:15Z",
-		"rank": 68
+		"rank": 69
 	},
 	"turtle": {
 		"player": "derintu",
@@ -960,5 +960,20 @@
 		"chatid": 117,
 		"date": "2024-09-08T18:56:18Z",
 		"rank": 5
+	},
+	"wireline": {
+		"player": "leanmeister",
+		"playerid": 135,
+		"verified": true,
+		"weight": 0.53,
+		"bot": "gofishgame",
+		"fishtype": "🧵",
+		"fishname": "wireline",
+		"catchtype": "normal",
+		"chat": "swormbeard",
+		"fishid": 222239,
+		"chatid": 652,
+		"date": "2025-12-13T18:13:39Z",
+		"rank": 63
 	}
 }

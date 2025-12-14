@@ -2,6 +2,7 @@
 
 | Rank | Fish            | Weight in lbs | Player            | Date in UTC         |
 |:-----|:----------------|:--------------|:------------------|:--------------------|
+| 35   | 🦈 shark        | 228.20        | chestnutbank      | 2025-12-08 01:09:55 |
 | 34   | 💀 skull        | 0.44          | chestnutbank      | 2025-12-03 07:57:17 |
 | 33   | 🐠 tropicalfish | 20.89         | digital_red_panda | 2025-06-21 15:28:53 |
 | 32   | 🌿 seaweed      | 0.41          | fenix8            | 2025-06-09 11:06:52 |
@@ -37,4 +38,4 @@
 | 2    | 🦦 otter        | 15.31         | fenix8            | 2025-01-09 22:21:18 |
 | 1    | 🐸 frog         | 1.79          | fenix8            | 2025-01-09 21:16:43 |
 
-_Last updated at 2025-12-07 09:33:05 UTC_
+_Last updated at 2025-12-14 09:55:52 UTC_

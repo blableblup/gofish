@@ -2,6 +2,8 @@
 
 | Rank | Fish             | Weight in lbs | Player                | Date in UTC         |
 |:-----|:-----------------|:--------------|:----------------------|:--------------------|
+| 70   | 🧵 wireline      | 0.53          | leanmeister           | 2025-12-13 18:13:39 |
+| 69   | 🔔 bell          | 0.00          | gawblemachine         | 2025-12-13 13:14:15 |
 | 68   | 🧤 gloves        | 0.74          | derintu               | 2025-11-12 18:47:14 |
 | 67   | 🍎 apple         | 2.35          | derinturitierutz      | 2025-10-30 18:11:25 |
 | 66   | 🌹 rose          | 0.22          | derintu               | 2025-10-01 17:07:07 |
@@ -70,4 +72,4 @@
 | 2    | 🦐 shrimp        | 3.14          | bapqo                 | 2024-07-28 22:59:12 |
 | 1    | 🐊 crocodile     | 105.00        | julialuxel            | 2024-07-28 22:59:00 |
 
-_Last updated at 2025-12-07 09:33:05 UTC_
+_Last updated at 2025-12-14 09:55:54 UTC_

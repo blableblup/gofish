@@ -39,7 +39,7 @@
 		"fishid": 182023,
 		"chatid": 22,
 		"date": "2025-06-24T12:10:54Z",
-		"rank": 61
+		"rank": 62
 	},
 	"balletshoes": {
 		"player": "konsminator",
@@ -53,7 +53,7 @@
 		"fishid": 188921,
 		"chatid": 239,
 		"date": "2025-07-21T10:55:56Z",
-		"rank": 59
+		"rank": 60
 	},
 	"beaver": {
 		"player": "mowogan",
@@ -151,7 +151,7 @@
 		"fishid": 193011,
 		"chatid": 426,
 		"date": "2025-08-13T19:47:32Z",
-		"rank": 59
+		"rank": 60
 	},
 	"cannedfood": {
 		"player": "konsminator",
@@ -319,7 +319,7 @@
 		"fishid": 188879,
 		"chatid": 237,
 		"date": "2025-07-21T06:25:25Z",
-		"rank": 58
+		"rank": 59
 	},
 	"fish": {
 		"player": "konsminator",
@@ -389,7 +389,7 @@
 		"fishid": 200208,
 		"chatid": 581,
 		"date": "2025-09-20T10:57:09Z",
-		"rank": 57
+		"rank": 58
 	},
 	"jellyfish": {
 		"player": "mowogan",
@@ -839,6 +839,20 @@
 		"date": "2025-08-01T13:20:48Z",
 		"rank": 7
 	},
+	"wiltedflower": {
+		"player": "lolspers",
+		"playerid": 2989,
+		"weight": 0.79,
+		"bot": "gofishgame",
+		"fishtype": "🥀",
+		"fishname": "wiltedflower",
+		"catchtype": "normal",
+		"chat": "mowogan",
+		"fishid": 222314,
+		"chatid": 768,
+		"date": "2025-12-13T21:25:45Z",
+		"rank": 55
+	},
 	"wireline": {
 		"player": "mowogan",
 		"playerid": 3811,
@@ -851,6 +865,6 @@
 		"fishid": 181678,
 		"chatid": 8,
 		"date": "2025-06-23T19:26:16Z",
-		"rank": 56
+		"rank": 57
 	}
 }

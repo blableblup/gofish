@@ -2,6 +2,7 @@
 
 | Rank | Fish             | Weight in lbs | Player              | Date in UTC         |
 |:-----|:-----------------|:--------------|:--------------------|:--------------------|
+| 74   | 🛒 shoppingcart  | 68.75         | metalxml            | 2025-12-08 04:30:22 |
 | 73   | 🎰 slotmachine   | 0.00          | jeffbethyname69     | 2025-12-06 01:55:20 |
 | 72   | 🧊 icecube       | 1.45          | bluezebra17         | 2025-11-29 07:49:36 |
 | 71   | 🦠 plankton      | 14.46         | gofishgamer         | 2025-11-28 07:15:42 |
@@ -76,4 +77,4 @@
 | 2    | 🪝 hook          | 1.12          | aaurie              | 2025-03-07 01:01:14 |
 | 1    | 🐠 tropicalfish  | 21.11         | dwaynepounder       | 2025-03-06 08:02:47 |
 
-_Last updated at 2025-12-07 09:33:04 UTC_
+_Last updated at 2025-12-14 09:55:53 UTC_

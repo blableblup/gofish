@@ -2,12 +2,13 @@
 
 | Rank | Fish             | Weight in lbs | Player            | Date in UTC         |
 |:-----|:-----------------|:--------------|:------------------|:--------------------|
-| 73   | 🐟 fish          | 6.22          | amatusz           | 2025-12-06 03:24:07 |
-| 72   | 🎰 slotmachine   | 0.00          | jeffbethyname69   | 2025-12-06 01:55:20 |
-| 71   | 🦐 shrimp        | 29.23         | amatusz           | 2025-12-05 11:07:15 |
-| 70   | 🦦 otter         | 12.49         | jeffbethyname69   | 2025-12-05 04:29:00 |
-| 69   | 🪝 hook          | 1.93          | abelito75         | 2025-12-05 04:02:00 |
-| 68   | 🎏 lure          | 4.10          | guy_farting420    | 2025-12-05 02:29:06 |
+| 74   | 🎏 lure          | 2.94          | jeffbethyname69   | 2025-12-12 03:43:35 |
+| 73   | 🛒 shoppingcart  | 68.75         | metalxml          | 2025-12-08 04:30:22 |
+| 72   | 🐟 fish          | 6.22          | amatusz           | 2025-12-06 03:24:07 |
+| 71   | 🎰 slotmachine   | 0.00          | jeffbethyname69   | 2025-12-06 01:55:20 |
+| 70   | 🦐 shrimp        | 29.23         | amatusz           | 2025-12-05 11:07:15 |
+| 69   | 🦦 otter         | 12.49         | jeffbethyname69   | 2025-12-05 04:29:00 |
+| 68   | 🪝 hook          | 1.93          | abelito75         | 2025-12-05 04:02:00 |
 | 67   | 🦀 crab          | 1.28          | allspice_boatrace | 2025-12-05 02:07:31 |
 | 66   | 🐋 whale         | 63.80         | jeffbethyname69   | 2025-12-05 01:37:21 |
 | 65   | 🍬 candy         | 0.00          | jeffbethyname69   | 2025-12-05 01:32:52 |
@@ -76,4 +77,4 @@
 | 2    | 🎱 8ball         | 2.22          | mademooselle      | 2025-04-01 04:29:50 |
 | 1    | 🧵 wireline      | 0.04          | nalls             | 2025-03-22 04:41:42 |
 
-_Last updated at 2025-12-07 09:33:10 UTC_
+_Last updated at 2025-12-14 09:51:02 UTC_

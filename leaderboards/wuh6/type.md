@@ -44,8 +44,8 @@
 | 40    | 🪼 jellyfish       | 22.93         | eeziiii                   | 2025-07-22 05:57:22 |
 | 41    | 🎃 pumpkin         | 22.41         | nndiana                   | 2025-11-02 05:09:21 |
 | 42    | 🍄‍🟫 mushroom        | 21.92         | gorillapark               | 2025-01-18 00:47:17 |
-| 43    | 🦠 plankton        | 21.82 (+0.04) | iflya320                  | 2025-11-28 10:54:25 |
-| 44    | 🦦 otter           | 19.94 (+0.03) | eeziiii                   | 2025-11-24 15:41:04 |
+| 43    | 🦠 plankton        | 21.82         | iflya320                  | 2025-11-28 10:54:25 |
+| 44    | 🦦 otter           | 19.94         | eeziiii                   | 2025-11-24 15:41:04 |
 | 45    | 🪱 worm            | 19.86         | bubinga                   | 2025-04-17 08:57:57 |
 | 46    | 🧭 compass         | 18.59         | lobuhtomy                 | 2024-12-24 15:38:26 |
 | 47    | 🦴 bone            | 18.36         | supibot                   | 2025-08-30 08:22:14 |
@@ -58,13 +58,13 @@
 | 54    | 👒 hat             | 11.92         | bcarw                     | 2025-11-05 00:26:47 |
 | 55    | 🧸 teddybear       | 11.53         | bubinga                   | 2025-02-11 20:24:44 |
 | 56    | 📱 iphone          | 11.49         | supibot                   | 2024-12-19 11:50:57 |
-| 57    | 🪹 emptynest       | 10.84         | iflya320                  | 2025-02-27 11:11:29 |
-| 58    | 🪺 nestwitheggs    | 10.81         | veny2lbs                  | 2024-12-20 00:59:54 |
+| 57 ⬆  | 🪺 nestwitheggs    | 10.94 (+0.13) | feelsaceman               | 2025-12-12 13:24:57 |
+| 58 ⬇  | 🪹 emptynest       | 10.84         | iflya320                  | 2025-02-27 11:11:29 |
 | 59    | 🪁 kite            | 10.79         | huuuuuuuuuuuuuuuuuuuuuurz | 2025-07-13 01:08:24 |
 | 60    | 🧥 coat            | 10.72         | iflya320                  | 2025-05-02 13:12:42 |
 | 61    | 🎱 8ball           | 10.70         | zwockel01                 | 2024-12-24 12:24:07 |
 | 62    | 🧃 beveragebox     | 10.67         | lobuhtomy                 | 2025-08-22 18:21:04 |
-| 63    | 🦆 duck            | 10.64 (+0.03) | gorillapark               | 2025-11-28 21:45:54 |
+| 63    | 🦆 duck            | 10.64         | gorillapark               | 2025-11-28 21:45:54 |
 | 64    | 🩲 briefs          | 10.41         | eeziiii                   | 2025-08-14 11:00:29 |
 | 65    | 💀 skull           | 10.00         | gorillapark               | 2025-09-08 12:57:49 |
 | 66    | 🦎 lizard          | 9.29          | bcarw                     | 2025-11-04 19:59:08 |
@@ -125,4 +125,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-11-30 10:15:17 UTC_
+_Last updated at 2025-12-14 09:54:04 UTC_

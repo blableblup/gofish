@@ -2,6 +2,18 @@
 
 | Rank | Fish            | Weight in lbs | Player       | Date in UTC         |
 |:-----|:----------------|:--------------|:-------------|:--------------------|
+| 68   | 🔔 bell         | 0.00          | respirate_   | 2025-12-13 14:37:38 |
+| 67   | 🍄 oceanplant   | 6.25          | acornpond    | 2025-12-11 22:57:03 |
+| 66   | 🧤 gloves       | 0.88          | gofishgames  | 2025-12-11 22:17:35 |
+| 65   | 🐿️ squirrel      | 0.00          | gofishgamer  | 2025-12-11 07:02:29 |
+| 64   | 🦫 beaver       | 20.02         | gofishgamer  | 2025-12-11 03:36:21 |
+| 63   | 🌿 seaweed      | 0.07          | acornpond    | 2025-12-11 02:58:03 |
+| 62   | 🥀 wiltedflower | 2.74          | nottachasm   | 2025-12-11 02:55:53 |
+| 61   | 🐌 snail        | 1.40          | gofishgames  | 2025-12-11 02:12:14 |
+| 60   | 🐈‍⬛ blackcat     | 2.95          | gofishgamer  | 2025-12-11 00:16:12 |
+| 59   | 🦪 oyster       | 21.45         | gofishgamer  | 2025-12-09 22:24:46 |
+| 58   | 🪳 cockroach    | 20.90         | respirate_   | 2025-12-08 05:03:55 |
+| 57   | 🧊 icecube      | 4.53          | gofishgamer  | 2025-12-08 01:53:34 |
 | 56   | 👟 sneaker      | 0.35          | respirate_   | 2025-12-06 06:45:24 |
 | 55   | 🧸 teddybear    | 3.10          | chestnutbank | 2025-12-04 05:58:20 |
 | 54   | 🎰 slotmachine  | 0.00          | chestnutbank | 2025-11-20 06:45:45 |
@@ -59,4 +71,4 @@
 | 2    | 🐟 fish         | 9.95          | juliilan     | 2024-05-22 23:39:16 |
 | 1    | 🪝 hook         | 0.34          | breadworms   | 2024-05-15 14:30:25 |
 
-_Last updated at 2025-12-07 09:33:04 UTC_
+_Last updated at 2025-12-14 09:55:53 UTC_
