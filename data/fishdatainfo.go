@@ -62,8 +62,10 @@ var SquirrelPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d
 var SonnyThrowWeight = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), 🙆 "Hey kid, catch!" You got a [✨🫧] \s*(\S+)\s* [✨🫧]! It weighs ([\d.]+) lbs`)
 var SonnyThrow = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), Huh[?] 🙆 "Hey kid, catch!" 🤲 He gave you a \s*(\S+)\s*! Awesome`)
 
-// the gifts from winter
-var WinterGift = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), You open it, and[.][.][.] [(](\S+) added to bag![)]`)
+// winter event stuff
+var WinterPresent2024 = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), Huh[?] This was addressed to you[.] [(]🎁 added to bag![)]`)
+var WinterPresent = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), Huh[?] You find a 🎁 addressed to you[.] You wonder who it's from[.]`)
+var WinterPresentOpening2024 = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), You open it, and[.][.][.] [(](\S+) added to bag![)]`)
 var BellGift = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), 🎅 Heya there! Take this and play with me, (won't ya[?]|wontcha[?]) [(]🔔 added to bag![)]`)
 var BellGift2025 = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), Huh[?] You pick up a 🔔 that was lying around[.] Who's that running away[?] 🏃‍➡️`)
 
@@ -72,18 +74,20 @@ var BagPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\
 func allTheCatchPatterns() map[string]FishCatch {
 
 	catches := map[string]FishCatch{
-		"normal":           {Pattern: NormalPattern, Type: "fish", ExtractFunc: extractInfoFromNormalPattern},
-		"mouth":            {Pattern: MouthPattern, Type: "fish", ExtractFunc: extractInfoFromMouthPattern},
-		"release":          {Pattern: ReleasePattern, Type: "fish", ExtractFunc: extractInfoFromReleasePattern},
-		"releasepumpkin":   {Pattern: ReleasePatternPumpkin, Type: "fish", ExtractFunc: extractInfoFromReleasePattern},
-		"jumped":           {Pattern: JumpedPattern, Type: "fish", ExtractFunc: extractInfoFromNormalPattern},
-		"bird":             {Pattern: BirdPattern, Type: "fish", ExtractFunc: extractInfoFromNormalPattern},
-		"squirrel":         {Pattern: SquirrelPattern, Type: "fish", ExtractFunc: extractInfoFromSquirrelPattern},
-		"sonnythrow":       {Pattern: SonnyThrow, Type: "fish", ExtractFunc: extractInfoFromNormalPattern},
-		"sonnythrowweight": {Pattern: SonnyThrowWeight, Type: "fish", ExtractFunc: extractInfoFromNormalPattern},
-		"wintergift":       {Pattern: WinterGift, Type: "fish", ExtractFuncSlice: extractInfoFromWinterGift},
-		"bellgift":         {Pattern: BellGift, Type: "fish", ExtractFunc: extractInfoFromReleasePattern},
-		"bellgift2025":     {Pattern: BellGift2025, Type: "fish", ExtractFunc: extractInfoFromReleasePattern},
+		"normal":               {Pattern: NormalPattern, Type: "fish", ExtractFunc: extractInfoFromNormalPattern},
+		"mouth":                {Pattern: MouthPattern, Type: "fish", ExtractFunc: extractInfoFromMouthPattern},
+		"release":              {Pattern: ReleasePattern, Type: "fish", ExtractFunc: extractInfoFromReleasePattern},
+		"releasepumpkin":       {Pattern: ReleasePatternPumpkin, Type: "fish", ExtractFunc: extractInfoFromReleasePattern},
+		"jumped":               {Pattern: JumpedPattern, Type: "fish", ExtractFunc: extractInfoFromNormalPattern},
+		"bird":                 {Pattern: BirdPattern, Type: "fish", ExtractFunc: extractInfoFromNormalPattern},
+		"squirrel":             {Pattern: SquirrelPattern, Type: "fish", ExtractFunc: extractInfoFromSquirrelPattern},
+		"sonnythrow":           {Pattern: SonnyThrow, Type: "fish", ExtractFunc: extractInfoFromNormalPattern},
+		"sonnythrowweight":     {Pattern: SonnyThrowWeight, Type: "fish", ExtractFunc: extractInfoFromNormalPattern},
+		"winterpresentopening": {Pattern: WinterPresentOpening2024, Type: "fish", ExtractFuncSlice: extractInfoFromWinterGift},
+		"winterpresent":        {Pattern: WinterPresent, Type: "fish", ExtractFunc: extractInfoFromReleasePattern},
+		"winterpresent2024":    {Pattern: WinterPresent2024, Type: "fish", ExtractFunc: extractInfoFromReleasePattern},
+		"bellgift":             {Pattern: BellGift, Type: "fish", ExtractFunc: extractInfoFromReleasePattern},
+		"bellgift2025":         {Pattern: BellGift2025, Type: "fish", ExtractFunc: extractInfoFromReleasePattern},
 
 		"bag": {Pattern: BagPattern, Type: "bag", ExtractFunc: extractInfoFromBagPattern},
 
@@ -150,7 +154,7 @@ func extractFishDataFromPatterns(textContent string, catches []FishCatch) []Fish
 
 		for _, match := range catch.Pattern.FindAllStringSubmatch(textContent, -1) {
 
-			if catch.Pattern != WinterGift {
+			if catch.Pattern != WinterPresentOpening2024 {
 				fishys = append(fishys, catch.ExtractFunc(match))
 			} else {
 				fishys = append(fishys, catch.ExtractFuncSlice(match)...)
@@ -252,6 +256,14 @@ func extractInfoFromReleasePattern(match []string) FishInfo {
 	case strings.Contains(match[0], "You pick up a 🔔"):
 		fishType = "🔔"
 		catchtype = "giftbell"
+
+	case strings.Contains(match[0], "This was addressed to you"):
+		fishType = "🎁"
+		catchtype = "giftpresent"
+
+	case strings.Contains(match[0], "You find a 🎁 addressed to you"):
+		fishType = "🎁"
+		catchtype = "giftpresent"
 
 	default:
 		fishType = match[7]
