@@ -29,7 +29,7 @@
 | 25    | larvaew               | 66          |
 | 26    | booty_bread           | 60          |
 | 26    | selmaself             | 60          |
-| 28    | twemoji               | 57          |
+| 28    | notomji               | 57          |
 | 29    | receipts              | 56          |
 | 30    | bk207*                | 53          |
 | 31    | hmsmob*               | 52          |
@@ -61,4 +61,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2025-12-11 12:52:16 UTC_
+_Last updated at 2025-12-16 17:44:53 UTC_

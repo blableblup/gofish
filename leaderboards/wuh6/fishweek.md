@@ -5,8 +5,8 @@
 | 1 🥇  | bubinga                   | 143         |
 | 2 🥈  | eeziiii                   | 132         |
 | 3 🥉  | iflya320                  | 130         |
-| 4     | lobuhtomy                 | 111         |
-| 5     | ranctious                 | 106         |
+| 4 ⬆   | ranctious                 | 115 (+9)    |
+| 5 ⬇   | lobuhtomy                 | 111         |
 | 6     | huuuuuuuuuuuuuuuuuuuuuurz | 97          |
 | 7     | theevirus                 | 87          |
 | 8     | nndiana                   | 80          |
@@ -28,4 +28,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-12-11 12:52:16 UTC_
+_Last updated at 2025-12-16 17:44:53 UTC_
