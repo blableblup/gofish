@@ -322,7 +322,7 @@ func extractInfoFromWinterGift(match []string) []FishInfo {
 	dateStr := match[1]
 	bot := match[2]
 	player := match[3]
-	catchtype := "giftwinter2024"
+	catchtype := "giftwinter"
 
 	date, err := utils.ParseDate(dateStr)
 	if err != nil {
@@ -338,7 +338,7 @@ func extractInfoFromWinterGift(match []string) []FishInfo {
 
 	for _, gift := range stuff {
 
-		// because the ✉️ is two things
+		// because the ✉️ and 🕯️ is two things
 		// and gets split idk it is U+2709 U+FE0F
 
 		var skipthingy bool
@@ -356,6 +356,10 @@ func extractInfoFromWinterGift(match []string) []FishInfo {
 
 		if gift == "✉" {
 			gift = "✉️"
+		}
+
+		if gift == "🕯" {
+			gift = "🕯️"
 		}
 
 		fish := FishInfo{

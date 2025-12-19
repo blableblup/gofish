@@ -113,13 +113,14 @@ type OtherAchievements struct {
 	ShinyMessage  []string
 	ShinyCatch    []ProfileFish
 	HasPresents   bool
-	Gifts         map[string]WinterGifts
+	Gifts         map[string][]WinterGifts
 }
 
 type WinterGifts struct {
-	Presents []string
-	Date     string
-	Chat     string
+	Presents   []string
+	DateOpened string
+	Chat       string
+	// could add when the gift was received ?
 }
 
 // different struct for bag so that it doesnt show weight

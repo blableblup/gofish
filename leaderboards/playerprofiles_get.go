@@ -342,15 +342,20 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 
 	}
 
-	// order by fishid asc so that the order of them matches the order in the log message
+	// with this the order of the gifts in the present dont match the log message
 	queryWinterGifts := `
-		SELECT weight, fishname, chat, date, catchtype, playerid 
-		FROM fish
-		WHERE playerid = any($1)
-		AND date < $2
-	  	AND date > $3
-		and catchtype like 'giftwinter%'
-		order by fishid asc
+		select array_agg(f.fishname) as bag, f.playerid, dates.date, f.chat
+		from fish f
+		join (
+		select distinct(date)
+		from fish
+		where catchtype = 'giftwinter'
+		and playerid = any($1)
+		and date < $2
+	  	and date > $3
+		) as dates
+		on f.date = dates.date
+		group by playerid, dates.date, f.chat
 	`
 
 	wintergifts, err := ReturnFishSliceQueryValidPlayers(params, queryWinterGifts, validPlayers)
@@ -363,36 +368,35 @@ func GetThePlayerProfiles(params LeaderboardParams, EmojisForFish map[string]str
 		if Profiles[fishu.PlayerID].Other.Gifts == nil {
 			Profiles[fishu.PlayerID].Other.HasOtherStuff = true
 			Profiles[fishu.PlayerID].Other.HasPresents = true
-			Profiles[fishu.PlayerID].Other.Gifts = make(map[string]WinterGifts)
+			Profiles[fishu.PlayerID].Other.Gifts = make(map[string][]WinterGifts)
 		}
 
 		fishu.DateString = fishu.Date.Format("2006-01-02 15:04:05 UTC")
 
-		if fishu.FishName == "letter" {
-			Profiles[fishu.PlayerID].SonnyDay.HasLetter = true
-			Profiles[fishu.PlayerID].SonnyDay.LetterInBagReceived = fishu.Date
+		var Presents WinterGifts
 
-			HowManyPlayersHaveRecords["letter"]++
-			PlayersWithRecordsPlayerIDs["letter"] = append(PlayersWithRecordsPlayerIDs["letter"], fishu.PlayerID)
+		for _, fish := range fishu.Bag {
+
+			if fish == "letter" {
+				Profiles[fishu.PlayerID].SonnyDay.HasLetter = true
+				Profiles[fishu.PlayerID].SonnyDay.LetterInBagReceived = fishu.Date
+
+				HowManyPlayersHaveRecords["letter"]++
+				PlayersWithRecordsPlayerIDs["letter"] = append(PlayersWithRecordsPlayerIDs["letter"], fishu.PlayerID)
+			}
+
+			fish = fmt.Sprintf("%s %s", EmojisForFish[fish], fish)
+
+			Presents.Presents = append(Presents.Presents, fish)
 		}
-
-		fishu.Fish = fmt.Sprintf("%s %s", EmojisForFish[fishu.FishName], fishu.FishName)
 
 		year := fmt.Sprintf("%d", fishu.Date.Year())
 
-		var Presents WinterGifts
-
-		// this can be weird, when someone has multiple winter presents
-		// and they release them
-		// date and chat can be wrong
-		// and year if they keep the gift in their bag for multiple years
-
 		Presents.Chat = fishu.Chat
-		Presents.Date = fishu.DateString
-		Presents.Presents = Profiles[fishu.PlayerID].Other.Gifts[year].Presents
-		Presents.Presents = append(Presents.Presents, fishu.Fish)
+		Presents.DateOpened = fishu.DateString
 
-		Profiles[fishu.PlayerID].Other.Gifts[year] = Presents
+		// players can have multiple presents per year if they just dont open theirs or get it later
+		Profiles[fishu.PlayerID].Other.Gifts[year] = append(Profiles[fishu.PlayerID].Other.Gifts[year], Presents)
 	}
 
 	// The 10 biggest fish per player

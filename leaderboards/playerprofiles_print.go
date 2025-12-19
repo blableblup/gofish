@@ -144,15 +144,24 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 
 			_, _ = fmt.Fprint(file, "<details>")
 
-			_, _ = fmt.Fprintf(file, "\n<summary>🎁 Winter Gifts for %s</summary>", year)
+			_, _ = fmt.Fprintf(file, "\n<summary>🎁 Winter Gifts from Misty for %s</summary>", year)
 
 			_, _ = fmt.Fprintln(file)
+			_, _ = fmt.Fprintln(file)
 
-			for _, present := range Profile.Other.Gifts[year].Presents {
-				_, _ = fmt.Fprint(file, present+" ")
+			for i, presents := range Profile.Other.Gifts[year] {
+
+				for _, present := range presents.Presents {
+					_, _ = fmt.Fprint(file, present+" ")
+				}
+
+				_, _ = fmt.Fprintf(file, "\n\nOpened at %s in chat %s", presents.DateOpened, presents.Chat)
+
+				if i+1 < (len(Profile.Other.Gifts[year])) {
+					_, _ = fmt.Fprintln(file)
+					_, _ = fmt.Fprintln(file)
+				}
 			}
-
-			_, _ = fmt.Fprintf(file, "\n\nReceived at %s in chat %s from 🎅", Profile.Other.Gifts[year].Date, Profile.Other.Gifts[year].Chat)
 
 			_, _ = fmt.Fprintln(file)
 

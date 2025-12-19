@@ -458,8 +458,9 @@ func ReturnCatchtypeWithNoWeight() []string {
 		"releasepumpkin",
 		"squirrel",
 		"sonnythrow",
-		"giftwinter2024",
+		"giftwinter",
 		"giftbell",
+		"giftpresent",
 	}
 
 	return CatchtypeWithNoWeight
