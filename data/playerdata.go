@@ -14,10 +14,7 @@ type PlayerData struct {
 	PlayerID int
 	TwitchID int
 
-	confirmedDates []Dates
-	// this is array, because a player can use one of their names multiple times
-	// but since confirmedPlayers is map[string][]PlayerData can also just append player again ?
-	// i would need to range over the players and then append dates to that idk
+	confirmedDates Dates
 }
 
 type Dates struct {
@@ -164,7 +161,7 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 			dataPlayer := PlayerData{
 				TwitchID:       twitchID,
 				PlayerID:       playerID,
-				confirmedDates: []Dates{datesEdited},
+				confirmedDates: datesEdited,
 			}
 
 			confirmedPlayers[player] = append(confirmedPlayers[player], dataPlayer)
@@ -221,6 +218,13 @@ func PlayerRecent(player string, dates Dates, pool *pgxpool.Pool) (int, []map[st
 				// if its not more than 6 months ago, it has to be this player
 				twitchID = playerName.TwitchID
 				foundAPlayer = true
+
+				logs.Logs().Info().
+					Str("Player", player).
+					Int("TwitchID", twitchID).
+					Int("PlayerID", playerName.PlayerID).
+					Msg("Found player as current name")
+
 				break
 			}
 		}
@@ -247,6 +251,13 @@ func PlayerRecent(player string, dates Dates, pool *pgxpool.Pool) (int, []map[st
 				if months < 6 && years == 0 {
 
 					twitchID = oldPlayer.TwitchID
+
+					logs.Logs().Info().
+						Str("Player", player).
+						Int("TwitchID", twitchID).
+						Int("PlayerID", oldPlayer.PlayerID).
+						Msg("Found player as old name")
+
 					break
 				}
 			}

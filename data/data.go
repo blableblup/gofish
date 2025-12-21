@@ -336,13 +336,11 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 
 		for _, maybePlayer := range confirmedPlayers[fish.Player] {
 
-			for _, dates := range maybePlayer.confirmedDates {
-				// this could be weird; since here im checking the dates after updating the dates
-				// and for the confirmed players im getting the dates before updating
-				if fish.Date.Before(dates.HighestDate) && fish.Date.After(dates.LowestDate) {
-					playerID = maybePlayer.PlayerID
-					break
-				}
+			// this could be weird; since here im checking the dates after updating the dates
+			// and for the confirmed players im getting the dates before updating
+			if fish.Date.Before(maybePlayer.confirmedDates.HighestDate) && fish.Date.After(maybePlayer.confirmedDates.LowestDate) {
+				playerID = maybePlayer.PlayerID
+				break
 			}
 
 		}
