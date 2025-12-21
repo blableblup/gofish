@@ -2,7 +2,7 @@
 
 | Rank  | Player                | Fish caught |
 |:------|:----------------------|:------------|
-| 1 🥇  | kohrro                | 204 (+11)   |
+| 1 🥇  | kohrro                | 214 (+10)   |
 | 2 🥈  | gofishgamer           | 110         |
 | 3 🥉  | respirate_            | 106         |
 | 4     | chestnutbank          | 105         |
@@ -11,4 +11,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-12-14 09:51:04 UTC_
+_Last updated at 2025-12-21 10:05:47 UTC_

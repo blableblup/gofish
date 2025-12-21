@@ -2,33 +2,33 @@
 
 | Rank | Fish             | Weight in lbs | Player            | Date in UTC         |
 |:-----|:-----------------|:--------------|:------------------|:--------------------|
-| 74   | 🎏 lure          | 2.94          | jeffbethyname69   | 2025-12-12 03:43:35 |
-| 73   | 🛒 shoppingcart  | 68.75         | metalxml          | 2025-12-08 04:30:22 |
-| 72   | 🐟 fish          | 6.22          | amatusz           | 2025-12-06 03:24:07 |
-| 71   | 🎰 slotmachine   | 0.00          | jeffbethyname69   | 2025-12-06 01:55:20 |
-| 70   | 🦐 shrimp        | 29.23         | amatusz           | 2025-12-05 11:07:15 |
-| 69   | 🦦 otter         | 12.49         | jeffbethyname69   | 2025-12-05 04:29:00 |
-| 68   | 🪝 hook          | 1.93          | abelito75         | 2025-12-05 04:02:00 |
-| 67   | 🦀 crab          | 1.28          | allspice_boatrace | 2025-12-05 02:07:31 |
-| 66   | 🐋 whale         | 63.80         | jeffbethyname69   | 2025-12-05 01:37:21 |
-| 65   | 🍬 candy         | 0.00          | jeffbethyname69   | 2025-12-05 01:32:52 |
-| 64   | 🐳 bluewhale     | 93.79         | gofishgamer       | 2025-12-04 05:50:29 |
-| 63   | 🐌 snail         | 8.34          | gofishgamer       | 2025-12-03 10:14:26 |
-| 62   | 🦑 squid         | 26.19         | gofishgamer       | 2025-12-03 09:22:58 |
-| 61   | 🌿 seaweed       | 0.40          | gofishgamer       | 2025-12-03 07:07:05 |
-| 60   | 🦈 shark         | 166.73        | gofishgamer       | 2025-12-03 06:19:24 |
-| 59   | 🦞 lobster       | 49.68         | gofishgamer       | 2025-12-02 10:19:58 |
-| 58   | 🦭 seal          | 109.45        | gofishgamer       | 2025-12-02 09:31:53 |
-| 57   | 🐢 turtle        | 43.28         | gofishgamer       | 2025-12-02 01:19:10 |
-| 56   | 🥫 cannedfood    | 0.71          | preemalone        | 2025-12-01 03:23:31 |
-| 55   | 🐬 dolphin       | 44.69         | onetriforce       | 2025-12-01 03:23:27 |
-| 54   | 💀 skull         | 0.21          | gofishgamer       | 2025-11-30 05:10:14 |
-| 53   | 🧊 icecube       | 1.45          | bluezebra17       | 2025-11-29 07:49:36 |
-| 52   | 🕷️ spider         | 14.67         | jeffbethyname69   | 2025-11-29 02:49:26 |
-| 51   | 👢 boot          | 0.12          | gofishgamer       | 2025-11-29 00:50:22 |
-| 50   | 🪳 cockroach     | 13.18         | gofishgamer       | 2025-11-28 08:11:10 |
-| 49   | 🦠 plankton      | 14.46         | gofishgamer       | 2025-11-28 07:15:42 |
-| 48   | 🐚 shell         | 2.03          | gofishgamer       | 2025-11-27 04:40:36 |
+| 74   | 🎏 lure          | 2.59          | 11piecemcnugget   | 2025-12-20 05:19:26 |
+| 73   | 🦀 crab          | 1.41          | allspice_boatrace | 2025-12-20 04:35:22 |
+| 72   | 🪝 hook          | 1.53          | jeffbethyname69   | 2025-12-20 04:23:47 |
+| 71   | 🐚 shell         | 3.89          | dluith            | 2025-12-20 04:21:42 |
+| 70   | 🦐 shrimp        | 23.03         | eb_____           | 2025-12-19 01:59:40 |
+| 69   | 🕷️ spider         | 4.89          | commondab         | 2025-12-19 01:48:07 |
+| 68   | 🛒 shoppingcart  | 68.75         | metalxml          | 2025-12-08 04:30:22 |
+| 67   | 🐟 fish          | 6.22          | amatusz           | 2025-12-06 03:24:07 |
+| 66   | 🎰 slotmachine   | 0.00          | jeffbethyname69   | 2025-12-06 01:55:20 |
+| 65   | 🦦 otter         | 12.49         | jeffbethyname69   | 2025-12-05 04:29:00 |
+| 64   | 🐋 whale         | 63.80         | jeffbethyname69   | 2025-12-05 01:37:21 |
+| 63   | 🍬 candy         | 0.00          | jeffbethyname69   | 2025-12-05 01:32:52 |
+| 62   | 🐳 bluewhale     | 93.79         | gofishgamer       | 2025-12-04 05:50:29 |
+| 61   | 🐌 snail         | 8.34          | gofishgamer       | 2025-12-03 10:14:26 |
+| 60   | 🦑 squid         | 26.19         | gofishgamer       | 2025-12-03 09:22:58 |
+| 59   | 🌿 seaweed       | 0.40          | gofishgamer       | 2025-12-03 07:07:05 |
+| 58   | 🦈 shark         | 166.73        | gofishgamer       | 2025-12-03 06:19:24 |
+| 57   | 🦞 lobster       | 49.68         | gofishgamer       | 2025-12-02 10:19:58 |
+| 56   | 🦭 seal          | 109.45        | gofishgamer       | 2025-12-02 09:31:53 |
+| 55   | 🐢 turtle        | 43.28         | gofishgamer       | 2025-12-02 01:19:10 |
+| 54   | 🥫 cannedfood    | 0.71          | preemalone        | 2025-12-01 03:23:31 |
+| 53   | 🐬 dolphin       | 44.69         | onetriforce       | 2025-12-01 03:23:27 |
+| 52   | 💀 skull         | 0.21          | gofishgamer       | 2025-11-30 05:10:14 |
+| 51   | 🧊 icecube       | 1.45          | bluezebra17       | 2025-11-29 07:49:36 |
+| 50   | 👢 boot          | 0.12          | gofishgamer       | 2025-11-29 00:50:22 |
+| 49   | 🪳 cockroach     | 13.18         | gofishgamer       | 2025-11-28 08:11:10 |
+| 48   | 🦠 plankton      | 14.46         | gofishgamer       | 2025-11-28 07:15:42 |
 | 47   | 🕯️ candle         | 0.00          | gofishgamer       | 2025-11-26 07:42:13 |
 | 46   | 🎃 pumpkin       | 2.12          | gofishgamer       | 2025-11-26 07:36:18 |
 | 45   | 🐸 frog          | 1.35          | naatatpotato      | 2025-11-25 05:01:05 |
@@ -77,4 +77,4 @@
 | 2    | 🎱 8ball         | 2.22          | mademooselle      | 2025-04-01 04:29:50 |
 | 1    | 🧵 wireline      | 0.04          | nalls             | 2025-03-22 04:41:42 |
 
-_Last updated at 2025-12-14 09:51:02 UTC_
+_Last updated at 2025-12-21 10:06:03 UTC_

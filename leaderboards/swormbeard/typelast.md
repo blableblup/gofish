@@ -2,23 +2,23 @@
 
 | Rank | Fish             | Weight in lbs | Player                | Date in UTC         |
 |:-----|:-----------------|:--------------|:----------------------|:--------------------|
-| 69   | 🧵 wireline      | 0.53          | leanmeister           | 2025-12-13 18:13:39 |
-| 68   | 🔔 bell          | 0.00          | gawblemachine         | 2025-12-13 13:14:15 |
-| 67   | 🎏 lure          | 1.74          | lluuuuucy             | 2025-12-05 21:46:23 |
-| 66   | 🦐 shrimp        | 12.73         | lluuuuucy             | 2025-12-05 19:14:29 |
-| 65   | 🐊 crocodile     | 136.84        | lluuuuucy             | 2025-12-05 18:07:42 |
-| 64   | 🪸 coral         | 0.03          | lluuuuucy             | 2025-12-02 18:07:24 |
-| 63   | 🐟 fish          | 11.01         | lluuuuucy             | 2025-12-02 01:03:37 |
-| 62   | 🦫 beaver        | 23.52         | lluuuuucy             | 2025-11-28 18:42:54 |
-| 61   | 🐢 turtle        | 97.00         | lluuuuucy             | 2025-11-28 17:03:48 |
-| 60   | 🌹 rose          | 0.81          | lluuuuucy             | 2025-11-26 17:34:28 |
-| 59   | 🐌 snail         | 6.78          | ytp_dl                | 2025-11-26 16:55:15 |
-| 58   | 🦕 sauropod      | 250.28        | chestnutbank          | 2025-11-21 00:21:40 |
-| 57   | 🦑 squid         | 39.85         | chestnutbank          | 2025-11-20 08:24:59 |
-| 56   | 🥫 cannedfood    | 1.56          | chestnutbank          | 2025-11-20 07:45:11 |
-| 55   | 🦪 oyster        | 17.44         | chestnutbank          | 2025-11-20 07:05:41 |
-| 54   | 🍬 candy         | 0.53          | chestnutbank          | 2025-11-20 07:00:16 |
-| 53   | 🪝 hook          | 3.94          | chestnutbank          | 2025-11-20 05:38:30 |
+| 69   | 🪝 hook          | 0.92          | derintu               | 2025-12-20 21:25:19 |
+| 68   | 🐟 fish          | 2.68          | derintu               | 2025-12-20 20:43:39 |
+| 67   | 🧵 wireline      | 0.53          | leanmeister           | 2025-12-13 18:13:39 |
+| 66   | 🔔 bell          | 0.00          | gawblemachine         | 2025-12-13 13:14:15 |
+| 65   | 🎏 lure          | 1.74          | lluuuuucy             | 2025-12-05 21:46:23 |
+| 64   | 🦐 shrimp        | 12.73         | lluuuuucy             | 2025-12-05 19:14:29 |
+| 63   | 🐊 crocodile     | 136.84        | lluuuuucy             | 2025-12-05 18:07:42 |
+| 62   | 🪸 coral         | 0.03          | lluuuuucy             | 2025-12-02 18:07:24 |
+| 61   | 🦫 beaver        | 23.52         | lluuuuucy             | 2025-11-28 18:42:54 |
+| 60   | 🐢 turtle        | 97.00         | lluuuuucy             | 2025-11-28 17:03:48 |
+| 59   | 🌹 rose          | 0.81          | lluuuuucy             | 2025-11-26 17:34:28 |
+| 58   | 🐌 snail         | 6.78          | ytp_dl                | 2025-11-26 16:55:15 |
+| 57   | 🦕 sauropod      | 250.28        | chestnutbank          | 2025-11-21 00:21:40 |
+| 56   | 🦑 squid         | 39.85         | chestnutbank          | 2025-11-20 08:24:59 |
+| 55   | 🥫 cannedfood    | 1.56          | chestnutbank          | 2025-11-20 07:45:11 |
+| 54   | 🦪 oyster        | 17.44         | chestnutbank          | 2025-11-20 07:05:41 |
+| 53   | 🍬 candy         | 0.53          | chestnutbank          | 2025-11-20 07:00:16 |
 | 52   | 🦞 lobster       | 56.83         | chestnutbank          | 2025-11-20 05:03:14 |
 | 51   | 🐚 shell         | 2.06          | chestnutbank          | 2025-11-20 04:19:19 |
 | 50   | 💀 skull         | 7.63          | chestnutbank          | 2025-11-19 09:22:37 |
@@ -72,4 +72,4 @@
 | 2    | 🩴 thongsandal   | 0.65          | dazedforevermore      | 2024-08-03 15:29:46 |
 | 1    | 🕶️ darksunglasses | 11.39         | respirate_            | 2024-07-29 07:01:49 |
 
-_Last updated at 2025-12-14 09:51:02 UTC_
+_Last updated at 2025-12-21 10:06:02 UTC_

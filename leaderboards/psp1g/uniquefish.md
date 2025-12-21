@@ -2,11 +2,11 @@
 
 | Rank  | Player                    | Fish seen |
 |:------|:--------------------------|:----------|
-| 1 🥇  | nndiana*                  | 91        |
+| 1 🥇  | nndiana*                  | 94 (+3)   |
 | 2 🥈  | bubinga                   | 85        |
-| 3 🥉  | mazzo_tv                  | 81 (+1)   |
-| 4 ⬆   | jayayseaohbee             | 80 (+2)   |
-| 5 ⬇   | huuuuuuuuuuuuuuuuuuuuuurz | 79        |
+| 3 🥉  | mazzo_tv                  | 83 (+2)   |
+| 4     | jayayseaohbee             | 80        |
+| 5     | huuuuuuuuuuuuuuuuuuuuuurz | 79        |
 | 6     | caprisen_*                | 71        |
 | 6     | jr_mime                   | 71        |
 | 8     | sandwichsundays*          | 70        |
@@ -21,34 +21,35 @@
 | 16    | jemcs_                    | 62        |
 | 18    | commanda_u                | 61        |
 | 18    | flunke_                   | 61        |
-| 20    | theevirus                 | 60        |
-| 21    | eeziiii                   | 58        |
-| 21 ⬆  | joshuabzz                 | 58 (+1)   |
-| 21    | veny2lbs                  | 58        |
-| 24 ⬇  | iflya320                  | 57        |
-| 25    | amu1g                     | 56        |
-| 25    | benciee                   | 56        |
-| 25    | creepycode*               | 56        |
-| 25    | deogen01                  | 56        |
-| 25    | markenzy01                | 56        |
-| 30 🆕 | lunecker                  | 55        |
-| 31 ⬆  | feelsaceman               | 54 (+1)   |
-| 31 ⬇  | llikotesnecil             | 54        |
-| 31 ⬇  | maksmusz*                 | 54        |
-| 34 ⬇  | euxoa                     | 53        |
-| 35 ⬇  | faslker                   | 52        |
-| 35 ⬇  | flovrek                   | 52        |
-| 35 ⬇  | noconcept_                | 52        |
-| 35 ⬇  | popfizzgg                 | 52        |
-| 35 ⬇  | r1cz4rd                   | 52        |
-| 35 ⬇  | velantix*                 | 52        |
-| 41 ⬇  | qxxick_                   | 51        |
-| 41 ⬇  | wisdom_frog               | 51        |
-| 43 ⬇  | bartohehe                 | 50        |
-| 43 ⬇  | seryxx                    | 50        |
+| 18 ⬆  | llikotesnecil             | 61 (+7)   |
+| 18 ⬆  | theevirus                 | 61 (+1)   |
+| 22 ⬇  | joshuabzz                 | 60 (+2)   |
+| 23 ⬇  | eeziiii                   | 58        |
+| 23 ⬇  | veny2lbs                  | 58        |
+| 25 ⬇  | iflya320                  | 57        |
+| 25    | markenzy01                | 57 (+1)   |
+| 27 ⬇  | amu1g                     | 56        |
+| 27 ⬇  | benciee                   | 56        |
+| 27 ⬇  | creepycode*               | 56        |
+| 27 ⬇  | deogen01                  | 56        |
+| 31    | feelsaceman               | 55 (+1)   |
+| 31 ⬇  | lunecker                  | 55        |
+| 33 ⬇  | maksmusz*                 | 54        |
+| 34    | euxoa                     | 53        |
+| 34 ⬆  | r1cz4rd                   | 53 (+1)   |
+| 36 ⬇  | faslker                   | 52        |
+| 36 ⬇  | flovrek                   | 52        |
+| 36 ⬇  | noconcept_                | 52        |
+| 36 ⬇  | popfizzgg                 | 52        |
+| 36 ⬇  | velantix*                 | 52        |
+| 41 🆕 | blu_inx                   | 51        |
+| 41    | qxxick_                   | 51        |
+| 41    | wisdom_frog               | 51        |
+| 44 ⬇  | bartohehe                 | 50        |
+| 44 ⬇  | seryxx                    | 50        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2025-12-14 09:55:51 UTC_
+_Last updated at 2025-12-21 10:06:01 UTC_

@@ -84,30 +84,30 @@
 | 80    | 🩴 thongsandal   | 0.05          | garout             | 2025-08-25 18:31:37 |
 | 81    | 🍬 candy         | 0.04          | hahppyy            | 2024-11-10 18:29:03 |
 | 81    | 🧊 icecube       | 0.04          | leanmeister        | 2025-01-08 21:50:10 |
-| 81    | 📱 iphone        | 0.04          | obama              | 2025-06-21 21:52:04 |
-| 84    | 🪸 coral         | 0.03          | hahppyy            | 2024-10-26 17:19:25 |
-| 84    | ⛸️ iceskate       | 0.03          | vaiastol           | 2025-01-03 11:53:37 |
-| 84    | 🐚 shell         | 0.03          | leastsussyimposter | 2024-08-07 23:21:39 |
-| 84    | 🐌 snail         | 0.03          | garout             | 2025-05-01 12:09:11 |
-| 88    | 🌰 acorn         | 0.02          | leastsussyimposter | 2024-09-25 23:23:39 |
-| 88    | 🥫 cannedfood    | 0.02          | nicestnarwhal      | 2025-01-08 13:23:38 |
-| 88    | 🦎 lizard        | 0.02          | vaiastol           | 2025-11-18 23:50:02 |
-| 88    | 🪨 rock          | 0.02          | yoimlee            | 2025-04-14 05:02:31 |
-| 88    | 🌿 seaweed       | 0.02          | leastsussyimposter | 2024-09-19 13:16:37 |
-| 88    | 🕸️ spiderweb      | 0.02          | vaiastol           | 2025-07-05 00:02:49 |
-| 94 ⬆  | ☘️ clover         | 0.01          | eelacy             | 2025-03-22 09:54:23 |
-| 94 ⬆  | 🦀 crab          | 0.01          | eelacy             | 2025-02-24 14:56:28 |
-| 94 ⬇  | 🐸 frog          | 0.01 (-0.01)  | vaiastol           | 2025-12-04 23:36:42 |
-| 94 ⬆  | 🪚 icesaw        | 0.01          | vaiastol           | 2025-01-21 23:39:41 |
-| 94 ⬆  | 🎏 lure          | 0.01          | hahppyy            | 2024-11-20 09:09:11 |
-| 94 ⬆  | 🦐 shrimp        | 0.01          | vaiastol           | 2025-03-23 16:20:22 |
-| 94 ⬆  | 🐍 snake         | 0.01          | vaiastol           | 2025-07-13 17:43:09 |
-| 101   | 🪹 emptynest     | 0.00          | vaiastol           | 2025-07-02 18:53:36 |
-| 101   | 🐟 fish          | 0.00          | vaiastol           | 2025-08-28 15:38:36 |
-| 101   | 🧤 gloves        | 0.00          | vaiastol           | 2025-02-28 22:53:41 |
-| 101   | 🪝 hook          | 0.00          | hahppyy            | 2025-10-01 14:33:27 |
-| 101   | 🍁 leaf          | 0.00          | garout             | 2025-10-13 19:50:38 |
+| 83 ⬆  | 🪸 coral         | 0.03          | hahppyy            | 2024-10-26 17:19:25 |
+| 83 ⬆  | ⛸️ iceskate       | 0.03          | vaiastol           | 2025-01-03 11:53:37 |
+| 83 ⬇  | 📱 iphone        | 0.03 (-0.01)  | tiaguitos97        | 2025-12-20 13:41:07 |
+| 83 ⬆  | 🐌 snail         | 0.03          | garout             | 2025-05-01 12:09:11 |
+| 87 ⬆  | 🌰 acorn         | 0.02          | leastsussyimposter | 2024-09-25 23:23:39 |
+| 87 ⬆  | 🥫 cannedfood    | 0.02          | nicestnarwhal      | 2025-01-08 13:23:38 |
+| 87 ⬆  | 🦎 lizard        | 0.02          | vaiastol           | 2025-11-18 23:50:02 |
+| 87 ⬆  | 🪨 rock          | 0.02          | yoimlee            | 2025-04-14 05:02:31 |
+| 87 ⬆  | 🌿 seaweed       | 0.02          | leastsussyimposter | 2024-09-19 13:16:37 |
+| 87 ⬆  | 🕸️ spiderweb      | 0.02          | vaiastol           | 2025-07-05 00:02:49 |
+| 93 ⬆  | ☘️ clover         | 0.01          | eelacy             | 2025-03-22 09:54:23 |
+| 93 ⬆  | 🦀 crab          | 0.01          | eelacy             | 2025-02-24 14:56:28 |
+| 93 ⬆  | 🐸 frog          | 0.01          | vaiastol           | 2025-12-04 23:36:42 |
+| 93 ⬆  | 🪚 icesaw        | 0.01          | vaiastol           | 2025-01-21 23:39:41 |
+| 93 ⬆  | 🎏 lure          | 0.01          | hahppyy            | 2024-11-20 09:09:11 |
+| 93 ⬆  | 🦐 shrimp        | 0.01          | vaiastol           | 2025-03-23 16:20:22 |
+| 93 ⬆  | 🐍 snake         | 0.01          | vaiastol           | 2025-07-13 17:43:09 |
+| 100 ⬆ | 🪹 emptynest     | 0.00          | vaiastol           | 2025-07-02 18:53:36 |
+| 100 ⬆ | 🐟 fish          | 0.00          | vaiastol           | 2025-08-28 15:38:36 |
+| 100 ⬆ | 🧤 gloves        | 0.00          | vaiastol           | 2025-02-28 22:53:41 |
+| 100 ⬆ | 🪝 hook          | 0.00          | hahppyy            | 2025-10-01 14:33:27 |
+| 100 ⬆ | 🍁 leaf          | 0.00          | garout             | 2025-10-13 19:50:38 |
+| 100 ⬇ | 🐚 shell         | 0.00 (-0.03)  | ryakarr            | 2025-12-18 18:40:03 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-12-07 09:34:05 UTC_
+_Last updated at 2025-12-21 10:07:33 UTC_

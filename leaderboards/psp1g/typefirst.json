@@ -99,6 +99,19 @@
 		"date": "2024-03-28T23:27:11Z",
 		"rank": 76
 	},
+	"bell": {
+		"player": "mazzo_tv",
+		"playerid": 1317,
+		"bot": "gofishgame",
+		"fishtype": "🔔",
+		"fishname": "bell",
+		"catchtype": "giftbell",
+		"chat": "psp1g",
+		"fishid": 223028,
+		"chatid": 70133,
+		"date": "2025-12-14T09:38:24Z",
+		"rank": 111
+	},
 	"beveragebox": {
 		"player": "chrisslov",
 		"playerid": 217,
@@ -324,6 +337,19 @@
 		"chatid": 15951,
 		"date": "2023-12-23T19:44:42Z",
 		"rank": 64
+	},
+	"cookie": {
+		"player": "nndiana",
+		"playerid": 269,
+		"bot": "gofishgame",
+		"fishtype": "🍪",
+		"fishname": "cookie",
+		"catchtype": "giftwinter",
+		"chat": "psp1g",
+		"fishid": 225640,
+		"chatid": 70387,
+		"date": "2025-12-18T05:39:11Z",
+		"rank": 113
 	},
 	"coral": {
 		"player": "donkfaruk",
@@ -743,6 +769,19 @@
 		"date": "2024-09-25T11:27:07Z",
 		"rank": 86
 	},
+	"letter": {
+		"player": "llikotesnecil",
+		"playerid": 1846,
+		"bot": "gofishgame",
+		"fishtype": "✉️",
+		"fishname": "letter",
+		"catchtype": "giftwinter",
+		"chat": "psp1g",
+		"fishid": 226292,
+		"chatid": 70534,
+		"date": "2025-12-20T02:37:58Z",
+		"rank": 114
+	},
 	"lizard": {
 		"player": "sandwichsundays",
 		"playerid": 457,
@@ -998,6 +1037,19 @@
 		"chatid": 22971,
 		"date": "2024-02-22T16:32:33Z",
 		"rank": 69
+	},
+	"present": {
+		"player": "mazzo_tv",
+		"playerid": 1317,
+		"bot": "gofishgame",
+		"fishtype": "🎁",
+		"fishname": "present",
+		"catchtype": "giftpresent",
+		"chat": "psp1g",
+		"fishid": 223387,
+		"chatid": 70210,
+		"date": "2025-12-15T06:42:54Z",
+		"rank": 112
 	},
 	"pumpkin": {
 		"player": "bubinga",
@@ -1576,5 +1628,18 @@
 		"chatid": 2109,
 		"date": "2023-08-31T07:37:54Z",
 		"rank": 53
+	},
+	"wrappingpaper": {
+		"player": "llikotesnecil",
+		"playerid": 1846,
+		"bot": "gofishgame",
+		"fishtype": "🎀",
+		"fishname": "wrappingpaper",
+		"catchtype": "giftwinter",
+		"chat": "psp1g",
+		"fishid": 226289,
+		"chatid": 70531,
+		"date": "2025-12-20T02:37:58Z",
+		"rank": 114
 	}
 }

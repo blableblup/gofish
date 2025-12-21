@@ -38,7 +38,7 @@
 		"fishid": 178944,
 		"chatid": 216,
 		"date": "2025-06-12T04:24:59Z",
-		"rank": 45
+		"rank": 46
 	},
 	"bluewhale": {
 		"player": "osnyisdead",
@@ -52,7 +52,7 @@
 		"fishid": 135693,
 		"chatid": 124,
 		"date": "2024-12-26T12:55:00Z",
-		"rank": 40
+		"rank": 41
 	},
 	"bobber": {
 		"player": "osnyisdead",
@@ -79,7 +79,7 @@
 		"fishid": 139427,
 		"chatid": 182,
 		"date": "2025-01-06T19:54:33Z",
-		"rank": 44
+		"rank": 45
 	},
 	"candy": {
 		"player": "osnyisdead",
@@ -107,7 +107,7 @@
 		"fishid": 137884,
 		"chatid": 163,
 		"date": "2025-01-02T00:49:39Z",
-		"rank": 43
+		"rank": 44
 	},
 	"clover": {
 		"player": "osnyisdead",
@@ -275,7 +275,7 @@
 		"fishid": 137876,
 		"chatid": 162,
 		"date": "2025-01-02T00:18:53Z",
-		"rank": 42
+		"rank": 43
 	},
 	"iphone": {
 		"player": "osnyisdead",
@@ -373,7 +373,7 @@
 		"fishid": 218670,
 		"chatid": 221,
 		"date": "2025-11-29T06:18:44Z",
-		"rank": 48
+		"rank": 49
 	},
 	"oyster": {
 		"player": "osnyisdead",
@@ -401,7 +401,7 @@
 		"fishid": 134740,
 		"chatid": 96,
 		"date": "2024-12-24T13:32:05Z",
-		"rank": 36
+		"rank": 37
 	},
 	"plankton": {
 		"player": "gofishgamer",
@@ -415,7 +415,20 @@
 		"fishid": 217001,
 		"chatid": 219,
 		"date": "2025-11-21T09:24:51Z",
-		"rank": 47
+		"rank": 48
+	},
+	"present": {
+		"player": "osnyisdead",
+		"playerid": 2701,
+		"bot": "gofishgame",
+		"fishtype": "🎁",
+		"fishname": "present",
+		"catchtype": "giftpresent",
+		"chat": "pokirule",
+		"fishid": 224005,
+		"chatid": 234,
+		"date": "2024-12-24T09:35:05Z",
+		"rank": 36
 	},
 	"sandwich": {
 		"player": "osnyatsky",
@@ -429,7 +442,7 @@
 		"fishid": 135170,
 		"chatid": 107,
 		"date": "2024-12-25T08:31:40Z",
-		"rank": 38
+		"rank": 39
 	},
 	"sauropod": {
 		"player": "gofishgamer",
@@ -443,7 +456,7 @@
 		"fishid": 216995,
 		"chatid": 218,
 		"date": "2025-11-21T08:44:32Z",
-		"rank": 46
+		"rank": 47
 	},
 	"seal": {
 		"player": "osnyisdead",
@@ -457,7 +470,7 @@
 		"fishid": 135452,
 		"chatid": 118,
 		"date": "2024-12-25T21:50:50Z",
-		"rank": 39
+		"rank": 40
 	},
 	"shark": {
 		"player": "osnyisdead",
@@ -471,7 +484,7 @@
 		"fishid": 135925,
 		"chatid": 132,
 		"date": "2024-12-26T23:32:18Z",
-		"rank": 41
+		"rank": 42
 	},
 	"shell": {
 		"player": "osnyisdead",
@@ -513,7 +526,7 @@
 		"fishid": 134893,
 		"chatid": 101,
 		"date": "2024-12-24T18:43:50Z",
-		"rank": 37
+		"rank": 38
 	},
 	"snake": {
 		"player": "osnyisdead",

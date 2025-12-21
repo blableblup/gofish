@@ -2,21 +2,21 @@
 
 | Rank  | Player                | Total Weight in lbs |
 |:------|:----------------------|:--------------------|
-| 1 🥇  | vaiastol              | 40292.29 (+348.84)  |
-| 2 🥈  | hahppyy               | 29368.41 (+6.48)    |
-| 3 🥉  | garout                | 10657.73 (+281.42)  |
+| 1 🥇  | vaiastol              | 40879.38 (+587.09)  |
+| 2 🥈  | hahppyy               | 29432.88 (+64.47)   |
+| 3 🥉  | garout                | 10955.11 (+297.38)  |
 | 4     | nicestnarwhal         | 9929.13             |
 | 5     | leanmeister           | 9660.42             |
-| 6     | divra__               | 9176.73             |
-| 7     | eelacy                | 9163.44 (+126.75)   |
-| 8     | leastsussyimposter    | 8048.11 (+120.21)   |
+| 6 ⬆   | eelacy                | 9378.90 (+215.46)   |
+| 7 ⬇   | divra__               | 9176.73             |
+| 8     | leastsussyimposter    | 8213.95 (+165.84)   |
 | 9     | dazedforevermore      | 5601.42             |
 | 10    | pengeg                | 4975.48             |
 | 11    | redreignss            | 4886.23             |
 | 12    | julialuxel            | 4536.16             |
-| 13    | yoimlee               | 2730.62             |
+| 13    | yoimlee               | 2732.98 (+2.36)     |
 | 14    | milesdotcom           | 2546.43             |
-| 15    | tiaguitos97           | 2279.93 (+0.04)     |
+| 15    | tiaguitos97           | 2285.87 (+5.94)     |
 | 16    | beebo8i               | 1966.17             |
 | 17    | gstaman911            | 1477.92             |
 | 18    | bubinga               | 1215.75             |
@@ -42,4 +42,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2025-12-14 09:55:48 UTC_
+_Last updated at 2025-12-21 10:08:31 UTC_

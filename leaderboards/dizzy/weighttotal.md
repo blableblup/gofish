@@ -10,8 +10,8 @@
 | 6     | iam_haunt      | 10603.67            |
 | 7     | spanmer        | 7651.11             |
 | 8     | konsminator    | 7261.34             |
-| 9     | ofaisalz       | 5746.05             |
-| 10    | vagdy          | 5316.91 (+108.96)   |
+| 9     | ofaisalz       | 5750.93 (+4.88)     |
+| 10    | vagdy          | 5318.19 (+1.28)     |
 | 11    | hamoodhabibee  | 4201.44             |
 | 12    | notnownico     | 4087.64             |
 | 13    | mousee93       | 4037.14             |
@@ -23,7 +23,7 @@
 | 19    | exo9*          | 2568.26             |
 | 20    | wisteraeia     | 2460.76             |
 | 21    | aceleju        | 2420.95             |
-| 22    | zommie__       | 2348.42 (+0.27)     |
+| 22    | zommie__       | 2408.92 (+60.50)    |
 | 23    | burnend        | 2236.67             |
 | 24    | paperboat99    | 2232.83             |
 | 25    | sugur          | 2141.79             |
@@ -40,7 +40,7 @@
 | 36    | feuha          | 1095.98             |
 | 37    | youngstercal   | 1071.10             |
 | 38    | mitsu_skidz    | 1016.10             |
-| 39    | ruusui         | 1004.92             |
+| 39    | depravias      | 1004.92             |
 | 40    | fvkdylan       | 829.41              |
 | 41    | deadl3gs       | 797.56              |
 | 42    | whoop_ee       | 786.15              |
@@ -52,10 +52,10 @@
 | 48    | avrwhy         | 631.68              |
 | 49    | nocer2k        | 628.12              |
 | 50    | remer_2        | 573.61              |
-| 51    | gofishgamer    | 515.52              |
+| 51    | gofishgamer    | 549.40 (+33.88)     |
 | 52    | notcanopus     | 508.72              |
 | 53    | yadduh         | 502.09              |
 
 _Only showing fishers with a total weight of >= 500 lbs_
 
-_Last updated at 2025-12-14 09:55:49 UTC_
+_Last updated at 2025-12-21 10:08:32 UTC_

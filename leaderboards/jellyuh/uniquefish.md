@@ -7,11 +7,11 @@
 | 3 🥉  | pompadourdelinquent | 43        |
 | 4     | hello0d             | 39        |
 | 5     | poioce              | 38        |
-| 6     | goopy777            | 34        |
+| 6     | goopy777            | 35 (+1)   |
 | 7     | teeto               | 31        |
 | 8     | cptblack_           | 30        |
 | 9     | e1d2f3              | 29        |
-| 10    | jakthejanitor       | 27 (+1)   |
+| 10    | jakthejanitor       | 27        |
 | 11    | wombatbrownies      | 21        |
 | 12    | crunch_sack         | 20        |
 | 13    | yaykaiza            | 16        |
@@ -28,4 +28,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2025-12-14 09:55:50 UTC_
+_Last updated at 2025-12-21 10:06:01 UTC_

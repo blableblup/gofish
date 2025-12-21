@@ -38,7 +38,7 @@
 		"fishid": 178944,
 		"chatid": 216,
 		"date": "2025-06-12T04:24:59Z",
-		"rank": 33
+		"rank": 34
 	},
 	"bluewhale": {
 		"player": "gofishgamer",
@@ -52,7 +52,7 @@
 		"fishid": 219214,
 		"chatid": 233,
 		"date": "2025-12-01T10:26:47Z",
-		"rank": 48
+		"rank": 49
 	},
 	"bobber": {
 		"player": "osnyisdead",
@@ -80,7 +80,7 @@
 		"fishid": 218650,
 		"chatid": 220,
 		"date": "2025-11-29T02:02:32Z",
-		"rank": 36
+		"rank": 37
 	},
 	"candy": {
 		"player": "osnyatsky",
@@ -93,7 +93,7 @@
 		"fishid": 139272,
 		"chatid": 174,
 		"date": "2025-01-06T08:36:32Z",
-		"rank": 23
+		"rank": 24
 	},
 	"cannedfood": {
 		"player": "gofishgamer",
@@ -107,7 +107,7 @@
 		"fishid": 219190,
 		"chatid": 230,
 		"date": "2025-12-01T08:02:17Z",
-		"rank": 45
+		"rank": 46
 	},
 	"clover": {
 		"player": "osnyisdead",
@@ -149,7 +149,7 @@
 		"fishid": 219168,
 		"chatid": 226,
 		"date": "2025-12-01T05:02:42Z",
-		"rank": 41
+		"rank": 42
 	},
 	"crocodile": {
 		"player": "osnyisdead",
@@ -163,7 +163,7 @@
 		"fishid": 139603,
 		"chatid": 189,
 		"date": "2025-01-07T14:20:06Z",
-		"rank": 26
+		"rank": 27
 	},
 	"dolphin": {
 		"player": "osnyisdead",
@@ -177,7 +177,7 @@
 		"fishid": 136593,
 		"chatid": 153,
 		"date": "2024-12-28T21:13:35Z",
-		"rank": 19
+		"rank": 20
 	},
 	"emptynest": {
 		"player": "osnyisdead",
@@ -205,7 +205,7 @@
 		"fishid": 218683,
 		"chatid": 223,
 		"date": "2025-11-29T08:13:56Z",
-		"rank": 39
+		"rank": 40
 	},
 	"frog": {
 		"player": "osnyisdead",
@@ -233,7 +233,7 @@
 		"fishid": 218677,
 		"chatid": 222,
 		"date": "2025-11-29T07:24:55Z",
-		"rank": 38
+		"rank": 39
 	},
 	"hook": {
 		"player": "gofishgamer",
@@ -247,7 +247,7 @@
 		"fishid": 218688,
 		"chatid": 224,
 		"date": "2025-11-29T08:53:23Z",
-		"rank": 40
+		"rank": 41
 	},
 	"icecube": {
 		"player": "osnyatsky",
@@ -261,7 +261,7 @@
 		"fishid": 139384,
 		"chatid": 179,
 		"date": "2025-01-06T17:00:49Z",
-		"rank": 24
+		"rank": 25
 	},
 	"iceskate": {
 		"player": "osnyisdead",
@@ -275,7 +275,7 @@
 		"fishid": 139466,
 		"chatid": 184,
 		"date": "2025-01-06T22:25:55Z",
-		"rank": 25
+		"rank": 26
 	},
 	"iphone": {
 		"player": "osnyisdead",
@@ -317,7 +317,7 @@
 		"fishid": 139977,
 		"chatid": 212,
 		"date": "2025-01-08T22:19:01Z",
-		"rank": 31
+		"rank": 32
 	},
 	"lure": {
 		"player": "gofishgamer",
@@ -331,7 +331,7 @@
 		"fishid": 219203,
 		"chatid": 232,
 		"date": "2025-12-01T09:30:20Z",
-		"rank": 47
+		"rank": 48
 	},
 	"nestwitheggs": {
 		"player": "osnyisdead",
@@ -359,7 +359,7 @@
 		"fishid": 139729,
 		"chatid": 196,
 		"date": "2025-01-07T23:14:44Z",
-		"rank": 27
+		"rank": 28
 	},
 	"otter": {
 		"player": "gofishgamer",
@@ -373,7 +373,7 @@
 		"fishid": 218670,
 		"chatid": 221,
 		"date": "2025-11-29T06:18:44Z",
-		"rank": 37
+		"rank": 38
 	},
 	"oyster": {
 		"player": "gofishgamer",
@@ -387,7 +387,7 @@
 		"fishid": 219195,
 		"chatid": 231,
 		"date": "2025-12-01T08:43:56Z",
-		"rank": 46
+		"rank": 47
 	},
 	"penguin": {
 		"player": "osnyisdead",
@@ -401,7 +401,7 @@
 		"fishid": 137860,
 		"chatid": 160,
 		"date": "2025-01-01T22:50:23Z",
-		"rank": 20
+		"rank": 21
 	},
 	"plankton": {
 		"player": "gofishgamer",
@@ -415,7 +415,20 @@
 		"fishid": 217001,
 		"chatid": 219,
 		"date": "2025-11-21T09:24:51Z",
-		"rank": 35
+		"rank": 36
+	},
+	"present": {
+		"player": "osnyisdead",
+		"playerid": 2701,
+		"bot": "gofishgame",
+		"fishtype": "🎁",
+		"fishname": "present",
+		"catchtype": "giftpresent",
+		"chat": "pokirule",
+		"fishid": 224005,
+		"chatid": 234,
+		"date": "2024-12-24T09:35:05Z",
+		"rank": 16
 	},
 	"sandwich": {
 		"player": "osnyatsky",
@@ -429,7 +442,7 @@
 		"fishid": 135170,
 		"chatid": 107,
 		"date": "2024-12-25T08:31:40Z",
-		"rank": 16
+		"rank": 17
 	},
 	"sauropod": {
 		"player": "gofishgamer",
@@ -443,7 +456,7 @@
 		"fishid": 216995,
 		"chatid": 218,
 		"date": "2025-11-21T08:44:32Z",
-		"rank": 34
+		"rank": 35
 	},
 	"seal": {
 		"player": "osnyisdead",
@@ -457,7 +470,7 @@
 		"fishid": 138176,
 		"chatid": 170,
 		"date": "2025-01-02T21:58:11Z",
-		"rank": 22
+		"rank": 23
 	},
 	"shark": {
 		"player": "osnyisdead",
@@ -471,7 +484,7 @@
 		"fishid": 136067,
 		"chatid": 142,
 		"date": "2024-12-27T12:28:11Z",
-		"rank": 17
+		"rank": 18
 	},
 	"shell": {
 		"player": "gofishgamer",
@@ -485,7 +498,7 @@
 		"fishid": 219187,
 		"chatid": 229,
 		"date": "2025-12-01T07:18:07Z",
-		"rank": 44
+		"rank": 45
 	},
 	"shrimp": {
 		"player": "osnyatsky",
@@ -499,7 +512,7 @@
 		"fishid": 139969,
 		"chatid": 211,
 		"date": "2025-01-08T21:50:50Z",
-		"rank": 30
+		"rank": 31
 	},
 	"snail": {
 		"player": "osnyisdead",
@@ -513,7 +526,7 @@
 		"fishid": 138144,
 		"chatid": 169,
 		"date": "2025-01-02T20:36:48Z",
-		"rank": 21
+		"rank": 22
 	},
 	"snake": {
 		"player": "osnyisdead",
@@ -527,7 +540,7 @@
 		"fishid": 136562,
 		"chatid": 152,
 		"date": "2024-12-28T19:42:45Z",
-		"rank": 18
+		"rank": 19
 	},
 	"socks": {
 		"player": "osnyisdead",
@@ -569,7 +582,7 @@
 		"fishid": 139996,
 		"chatid": 214,
 		"date": "2025-01-08T23:20:22Z",
-		"rank": 32
+		"rank": 33
 	},
 	"teddybear": {
 		"player": "gofishgamer",
@@ -583,7 +596,7 @@
 		"fishid": 219174,
 		"chatid": 227,
 		"date": "2025-12-01T05:43:58Z",
-		"rank": 42
+		"rank": 43
 	},
 	"turtle": {
 		"player": "osnyisdead",
@@ -597,7 +610,7 @@
 		"fishid": 139931,
 		"chatid": 207,
 		"date": "2025-01-08T19:23:57Z",
-		"rank": 29
+		"rank": 30
 	},
 	"umbrella": {
 		"player": "osnyisdead",
@@ -625,7 +638,7 @@
 		"fishid": 139816,
 		"chatid": 198,
 		"date": "2025-01-08T09:11:26Z",
-		"rank": 28
+		"rank": 29
 	},
 	"wiltedflower": {
 		"player": "osnyisdead",
@@ -667,6 +680,6 @@
 		"fishid": 219182,
 		"chatid": 228,
 		"date": "2025-12-01T06:45:50Z",
-		"rank": 43
+		"rank": 44
 	}
 }

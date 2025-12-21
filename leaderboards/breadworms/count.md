@@ -3,64 +3,64 @@
 | Rank  | Player                  | Fish caught |
 |:------|:------------------------|:------------|
 | 1 🥇  | osnyatsky*              | 5070        |
-| 2 🥈  | lluuuuucy               | 4911 (+53)  |
+| 2 🥈  | lluuuuucy               | 4978 (+67)  |
 | 3 🥉  | sicklymaidrobot         | 3850        |
 | 4     | puzzlow                 | 3760        |
-| 5     | leanmeister             | 3273 (+2)   |
-| 6     | qu4ttromila             | 3188 (+11)  |
-| 7     | destin357               | 3131        |
-| 8     | derinturitierutz        | 3110 (+7)   |
-| 9     | miiiiisho               | 3061 (+10)  |
-| 10    | osnyisdead              | 3035 (+78)  |
-| 11    | kishma9                 | 2724 (+3)   |
-| 12    | dazedforevermore        | 2685 (+5)   |
+| 5     | leanmeister             | 3277 (+4)   |
+| 6     | qu4ttromila             | 3193 (+5)   |
+| 7 ⬆   | osnyisdead              | 3146 (+111) |
+| 8 ⬇   | destin357               | 3131        |
+| 9 ⬇   | derinturitierutz        | 3127 (+17)  |
+| 10 ⬇  | miiiiisho               | 3063 (+2)   |
+| 11    | kishma9                 | 2725 (+1)   |
+| 12    | dazedforevermore        | 2691 (+6)   |
 | 13    | sussy_amonge            | 2230        |
-| 14    | derintu                 | 2116 (+7)   |
+| 14    | derintu                 | 2155 (+39)  |
 | 15    | booty_bread             | 2053        |
-| 16    | ninjaross*              | 1684        |
-| 17    | fishingalt              | 1662 (+7)   |
-| 18    | dougiefresh_83*         | 1238 (+18)  |
+| 16 ⬆  | fishingalt              | 1698 (+36)  |
+| 17 ⬇  | ninjaross*              | 1685 (+1)   |
+| 18    | dougiefresh_83*         | 1252 (+14)  |
+| 19 ⬆  | cimgu                   | 1070 (+35)  |
 | 19    | paras220                | 1070        |
-| 20    | comiqq                  | 1047        |
-| 21    | cimgu                   | 1035 (+18)  |
-| 22 ⬆  | gstaman911              | 994 (+30)   |
-| 23 ⬇  | ouacewi                 | 967         |
-| 24 ⬆  | larvaew                 | 965 (+20)   |
-| 25 ⬇  | ryebreadward            | 957         |
+| 21 ⬇  | comiqq                  | 1047        |
+| 22    | gstaman911              | 1024 (+30)  |
+| 23 ⬆  | larvaew                 | 1007 (+42)  |
+| 24 ⬇  | ouacewi                 | 967         |
+| 25    | ryebreadward            | 957         |
 | 26    | crazytown_bananapants   | 938         |
-| 27    | respirate_              | 809 (+1)    |
+| 27    | respirate_              | 809         |
 | 28    | bussinongnocap          | 797         |
-| 29    | ytp_dl*                 | 682 (+23)   |
+| 29    | ytp_dl*                 | 715 (+33)   |
 | 30    | kaasppeerr              | 627         |
-| 31    | julialuxel              | 619         |
-| 31    | xth49*                  | 619         |
-| 33    | breadworms              | 603 (+17)   |
+| 31    | julialuxel              | 620 (+1)    |
+| 32 ⬇  | xth49*                  | 619         |
+| 33    | breadworms              | 616 (+13)   |
 | 34    | trident1011             | 579         |
 | 35    | idini                   | 574         |
 | 36    | islcfc*                 | 569         |
 | 37    | xz_xz                   | 567         |
 | 38    | mitgliederversammlung   | 471         |
-| 39    | gawblemachine           | 424 (+3)    |
+| 39    | gawblemachine           | 440 (+16)   |
 | 40    | lazuli672*              | 406         |
 | 41    | doublehelicalstructure* | 399         |
 | 42    | suavvvvv                | 397         |
 | 43    | kildofris*              | 395         |
-| 44    | bapqo                   | 390         |
+| 44    | bapqo                   | 391 (+1)    |
 | 45    | wisco9ers*              | 371         |
-| 46    | osnyatsky*              | 367 (+1)    |
+| 46    | osnyatsky*              | 367         |
 | 47    | divra__                 | 318         |
 | 48    | realtechnine            | 302         |
-| 49    | whitecardrifting        | 289 (+2)    |
-| 50    | crinche*                | 284         |
-| 51    | houseofleaves*          | 274         |
-| 52    | notomji                 | 271 (+8)    |
-| 53    | selmaself               | 253         |
-| 54 ⬆  | fvkdylan                | 244 (+23)   |
-| 55 ⬇  | supibot                 | 242         |
+| 49    | whitecardrifting        | 292 (+3)    |
+| 50 ⬆  | notomji                 | 288 (+17)   |
+| 51 ⬇  | crinche*                | 284         |
+| 52 ⬆  | fvkdylan                | 274 (+30)   |
+| 52 ⬇  | houseofleaves*          | 274         |
+| 54 ⬇  | selmaself               | 253         |
+| 55    | supibot                 | 242         |
 | 56    | chestnutbank            | 220         |
 | 57    | vaiastol                | 214         |
 | 58    | hmsmob*                 | 203         |
-| 59    | wispmode                | 199 (+1)    |
+| 59    | wispmode                | 199         |
 | 60    | delicatefragileprincess | 181         |
 | 61    | yliathim*               | 179         |
 | 62    | 5pic3*                  | 159         |
@@ -76,4 +76,4 @@
 
 _Only showing fishers who caught >= 100 fish_
 
-_Last updated at 2025-12-14 09:51:04 UTC_
+_Last updated at 2025-12-21 10:05:49 UTC_

@@ -2,19 +2,20 @@
 
 | Rank | Fish            | Weight in lbs | Player      | Date in UTC         |
 |:-----|:----------------|:--------------|:------------|:--------------------|
-| 48   | 🦦 otter        | 18.37         | gofishgamer | 2025-11-29 06:18:44 |
-| 47   | 🦠 plankton     | 12.30         | gofishgamer | 2025-11-21 09:24:51 |
-| 46   | 🦕 sauropod     | 58.55         | gofishgamer | 2025-11-21 08:44:32 |
-| 45   | 🧃 beveragebox  | 10.04         | larvaew     | 2025-06-12 04:24:59 |
-| 44   | 👢 boot         | 1.76          | osnyatsky   | 2025-01-06 19:54:33 |
-| 43   | 🥫 cannedfood   | 4.34          | osnyisdead  | 2025-01-02 00:49:39 |
-| 42   | ⛸️ iceskate      | 0.25          | osnyisdead  | 2025-01-02 00:18:53 |
-| 41   | 🦈 shark        | 119.03        | osnyisdead  | 2024-12-26 23:32:18 |
-| 40   | 🐳 bluewhale    | 13.99         | osnyisdead  | 2024-12-26 12:55:00 |
-| 39   | 🦭 seal         | 59.77         | osnyisdead  | 2024-12-25 21:50:50 |
-| 38   | 🥪 sandwich     | 1.97          | osnyatsky   | 2024-12-25 08:31:40 |
-| 37   | 🐌 snail        | 8.38          | osnyisdead  | 2024-12-24 18:43:50 |
-| 36   | 🐧 penguin      | 25.00         | osnyisdead  | 2024-12-24 13:32:05 |
+| 49   | 🦦 otter        | 18.37         | gofishgamer | 2025-11-29 06:18:44 |
+| 48   | 🦠 plankton     | 12.30         | gofishgamer | 2025-11-21 09:24:51 |
+| 47   | 🦕 sauropod     | 58.55         | gofishgamer | 2025-11-21 08:44:32 |
+| 46   | 🧃 beveragebox  | 10.04         | larvaew     | 2025-06-12 04:24:59 |
+| 45   | 👢 boot         | 1.76          | osnyatsky   | 2025-01-06 19:54:33 |
+| 44   | 🥫 cannedfood   | 4.34          | osnyisdead  | 2025-01-02 00:49:39 |
+| 43   | ⛸️ iceskate      | 0.25          | osnyisdead  | 2025-01-02 00:18:53 |
+| 42   | 🦈 shark        | 119.03        | osnyisdead  | 2024-12-26 23:32:18 |
+| 41   | 🐳 bluewhale    | 13.99         | osnyisdead  | 2024-12-26 12:55:00 |
+| 40   | 🦭 seal         | 59.77         | osnyisdead  | 2024-12-25 21:50:50 |
+| 39   | 🥪 sandwich     | 1.97          | osnyatsky   | 2024-12-25 08:31:40 |
+| 38   | 🐌 snail        | 8.38          | osnyisdead  | 2024-12-24 18:43:50 |
+| 37   | 🐧 penguin      | 25.00         | osnyisdead  | 2024-12-24 13:32:05 |
+| 36   | 🎁 present      | 0.00          | osnyisdead  | 2024-12-24 09:35:05 |
 | 35   | 🐍 snake        | 11.95         | osnyisdead  | 2024-12-24 08:19:00 |
 | 34   | 🪱 worm         | 9.03          | osnyisdead  | 2024-12-24 06:39:42 |
 | 33   | 🦞 lobster      | 35.97         | osnyisdead  | 2024-12-23 18:36:22 |
@@ -51,4 +52,4 @@
 | 2    | 🐟 fish         | 18.70         | osnyisdead  | 2024-10-01 00:57:38 |
 | 1    | 🐸 frog         | 4.68          | osnyisdead  | 2024-09-30 22:45:01 |
 
-_Last updated at 2025-11-30 10:13:30 UTC_
+_Last updated at 2025-12-21 10:08:30 UTC_

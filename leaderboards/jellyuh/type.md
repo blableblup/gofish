@@ -32,10 +32,10 @@
 | 28    | 🐡 blowfish      | 28.84         | cerealapii          | 2025-10-09 04:03:16 |
 | 29    | 🪳 cockroach     | 22.79         | rainedparade        | 2025-05-03 02:44:50 |
 | 30    | 🐠 tropicalfish  | 21.72         | rainedparade        | 2025-06-20 05:18:16 |
-| 31    | 🍄‍🟫 mushroom      | 21.03         | goopy777            | 2025-01-14 07:15:13 |
-| 31    | 🦠 plankton      | 21.03         | rainedparade        | 2025-02-25 05:17:44 |
-| 33    | 🧽 sponge        | 20.19         | pxxchy_dreams       | 2025-07-03 23:36:55 |
-| 34    | 🕷️ spider         | 19.95         | rainedparade        | 2025-01-29 09:22:19 |
+| 31 ⬆  | 🕷️ spider         | 21.37 (+1.42) | jakthejanitor       | 2025-12-16 21:31:07 |
+| 32 ⬇  | 🍄‍🟫 mushroom      | 21.03         | goopy777            | 2025-01-14 07:15:13 |
+| 32 ⬇  | 🦠 plankton      | 21.03         | rainedparade        | 2025-02-25 05:17:44 |
+| 34 ⬇  | 🧽 sponge        | 20.19         | pxxchy_dreams       | 2025-07-03 23:36:55 |
 | 35    | 🥒 seacucumber   | 18.76         | rainedparade        | 2025-05-26 19:35:02 |
 | 36    | 🍄 oceanplant    | 17.56         | hello0d             | 2025-02-17 14:35:51 |
 | 37    | 🦦 otter         | 15.72         | miyabwah            | 2025-03-13 22:24:36 |
@@ -48,8 +48,8 @@
 | 44    | 🩲 briefs        | 9.56          | cptblack_           | 2025-05-09 03:44:38 |
 | 45    | 👒 hat           | 9.46          | rainedparade        | 2025-01-25 17:36:59 |
 | 46    | 🧊 icecube       | 9.30          | rainedparade        | 2025-02-24 17:25:34 |
-| 47 ⬆  | 🪱 worm          | 9.09 (+1.15)  | jakthejanitor       | 2025-12-10 03:07:34 |
-| 48 ⬇  | 🎱 8ball         | 8.42          | teeto               | 2025-03-20 22:25:41 |
+| 47    | 🪱 worm          | 9.09          | jakthejanitor       | 2025-12-10 03:07:34 |
+| 48    | 🎱 8ball         | 8.42          | teeto               | 2025-03-20 22:25:41 |
 | 49    | 🦆 duck          | 7.71          | rainedparade        | 2025-02-24 08:22:44 |
 | 50    | 🪵 log           | 7.23          | poioce              | 2025-03-04 19:18:26 |
 | 51    | 🪺 nestwitheggs  | 6.84          | pompadourdelinquent | 2025-03-17 17:00:42 |
@@ -84,4 +84,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-12-14 09:54:25 UTC_
+_Last updated at 2025-12-21 10:04:58 UTC_

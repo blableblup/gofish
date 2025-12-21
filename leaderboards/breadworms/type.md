@@ -42,10 +42,10 @@
 | 38    | 🥒 seacucumber     | 31.92         | destin357               | 2025-06-09 10:41:23 |
 | 39    | 🧽 sponge          | 29.73         | dazedforevermore        | 2023-08-24 08:42:37 |
 | 40    | 🧊 icecube         | 29.34         | dougiefresh_83          | 2024-12-31 21:24:39 |
-| 41    | 🐠 tropicalfish    | 28.79         | cimgu                   | 2025-03-28 16:25:42 |
-| 42    | 🪳 cockroach       | 26.79         | fishingalt              | 2025-03-02 15:50:28 |
-| 43    | 🎃 pumpkin         | 23.53         | larvaew                 | 2025-11-04 09:29:12 |
-| 43    | 🎰 slotmachine     | 23.53         | comiiiiiq               | 2025-09-26 16:23:00 |
+| 41 ⬆  | 🎰 slotmachine     | 29.00 (+5.47) | ritualofreanimation     | 2025-12-19 21:38:16 |
+| 42 ⬇  | 🐠 tropicalfish    | 28.79         | cimgu                   | 2025-03-28 16:25:42 |
+| 43 ⬇  | 🪳 cockroach       | 26.79         | fishingalt              | 2025-03-02 15:50:28 |
+| 44 ⬇  | 🎃 pumpkin         | 23.53         | larvaew                 | 2025-11-04 09:29:12 |
 | 45    | 🦠 plankton        | 22.00         | osnyatsky               | 2024-01-03 09:00:25 |
 | 46    | 🍄‍🟫 mushroom        | 21.97         | lluuuuucy               | 2025-02-05 02:10:22 |
 | 47    | 🪼 jellyfish       | 21.87         | sicklymaidrobot         | 2023-08-04 03:47:25 |
@@ -128,4 +128,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-12-14 09:55:15 UTC_
+_Last updated at 2025-12-21 10:05:35 UTC_

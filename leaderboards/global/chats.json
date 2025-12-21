@@ -22,8 +22,8 @@
 		"chat": "aaurie",
 		"chatpfp": "![aaurie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aaurie.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 1642,
-		"uniquefishers": 124,
+		"count": 1650,
+		"uniquefishers": 126,
 		"uniquefish": 74,
 		"rank": 8
 	},
@@ -36,11 +36,11 @@
 		"chat": "ajspyman",
 		"chatpfp": "![ajspyman](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ajspyman.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 405,
+		"count": 560,
 		"activefishers": 6,
 		"uniquefishers": 10,
-		"uniquefish": 68,
-		"rank": 15
+		"uniquefish": 78,
+		"rank": 14
 	},
 	"aquaismissing": {
 		"player": "respirate_",
@@ -51,8 +51,8 @@
 		"chat": "aquaismissing",
 		"chatpfp": "![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 869,
-		"uniquefishers": 82,
+		"count": 873,
+		"uniquefishers": 83,
 		"uniquefish": 60,
 		"rank": 10
 	},
@@ -77,26 +77,26 @@
 		"chat": "breadworms",
 		"chatpfp": "![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 79848,
-		"activefishers": 10,
+		"count": 80398,
+		"activefishers": 15,
 		"uniquefishers": 333,
-		"uniquefish": 129,
+		"uniquefish": 131,
 		"rank": 1
 	},
 	"buhl00n": {
-		"player": "vagdy",
-		"playerid": 3067,
-		"weight": 72.93,
-		"fishtype": "🐢",
-		"fishname": "turtle",
+		"player": "gimmeschmoneys",
+		"playerid": 3086,
+		"weight": 116.62,
+		"fishtype": "🐋",
+		"fishname": "whale",
 		"chat": "buhl00n",
 		"chatpfp": "![buhl00n](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/buhl00n.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 31,
-		"activefishers": 1,
+		"count": 154,
+		"activefishers": 3,
 		"uniquefishers": 3,
-		"uniquefish": 15,
-		"rank": 25
+		"uniquefish": 36,
+		"rank": 21
 	},
 	"chellesorandom": {
 		"chat": "chellesorandom",
@@ -127,8 +127,7 @@
 		"chat": "d_egree",
 		"chatpfp": "![d_egree](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/d_egree.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 643,
-		"activefishers": 1,
+		"count": 653,
 		"uniquefishers": 16,
 		"uniquefish": 68,
 		"rank": 13
@@ -145,7 +144,7 @@
 		"count": 69,
 		"uniquefishers": 23,
 		"uniquefish": 28,
-		"rank": 22
+		"rank": 23
 	},
 	"dev0p_": {
 		"chat": "dev0p_",
@@ -162,9 +161,9 @@
 		"chat": "dizzy",
 		"chatpfp": "![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 13265,
+		"count": 13284,
 		"uniquefishers": 501,
-		"uniquefish": 107,
+		"uniquefish": 108,
 		"rank": 4
 	},
 	"e1llas": {
@@ -179,7 +178,7 @@
 		"count": 499,
 		"uniquefishers": 19,
 		"uniquefish": 59,
-		"rank": 14
+		"rank": 15
 	},
 	"esellaaa": {
 		"chat": "esellaaa",
@@ -224,9 +223,9 @@
 		"chat": "jellyuh",
 		"chatpfp": "![jellyuh](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/jellyuh.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 1721,
-		"uniquefishers": 45,
-		"uniquefish": 80,
+		"count": 1726,
+		"uniquefishers": 46,
+		"uniquefish": 81,
 		"rank": 7
 	},
 	"julialuxel": {
@@ -314,8 +313,9 @@
 		"chat": "mowogan",
 		"chatpfp": "![mowogan](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/mowogan.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 768,
-		"uniquefishers": 9,
+		"count": 800,
+		"activefishers": 1,
+		"uniquefishers": 10,
 		"uniquefish": 62,
 		"rank": 11
 	},
@@ -356,10 +356,10 @@
 		"chat": "omie",
 		"chatpfp": "![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 9936,
+		"count": 10084,
 		"activefishers": 2,
-		"uniquefishers": 38,
-		"uniquefish": 115,
+		"uniquefishers": 39,
+		"uniquefish": 118,
 		"rank": 6
 	},
 	"ovrht": {
@@ -399,9 +399,9 @@
 		"chat": "pokirule",
 		"chatpfp": "![pokirule](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/pokirule.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 233,
+		"count": 234,
 		"uniquefishers": 4,
-		"uniquefish": 48,
+		"uniquefish": 49,
 		"rank": 18
 	},
 	"psp1g": {
@@ -413,10 +413,10 @@
 		"chat": "psp1g",
 		"chatpfp": "![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 70106,
-		"activefishers": 14,
-		"uniquefishers": 2831,
-		"uniquefish": 110,
+		"count": 70584,
+		"activefishers": 12,
+		"uniquefishers": 2832,
+		"uniquefish": 115,
 		"rank": 2
 	},
 	"retrorelaxo": {
@@ -476,7 +476,7 @@
 		"chat": "swormbeard",
 		"chatpfp": "![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 652,
+		"count": 654,
 		"uniquefishers": 24,
 		"uniquefish": 69,
 		"rank": 12
@@ -493,7 +493,7 @@
 		"count": 38,
 		"uniquefishers": 6,
 		"uniquefish": 25,
-		"rank": 24
+		"rank": 25
 	},
 	"vaiastol": {
 		"player": "vaiastol",
@@ -504,10 +504,10 @@
 		"chat": "vaiastol",
 		"chatpfp": "![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 10390,
-		"activefishers": 2,
-		"uniquefishers": 59,
-		"uniquefish": 109,
+		"count": 10588,
+		"activefishers": 7,
+		"uniquefishers": 61,
+		"uniquefish": 111,
 		"rank": 5
 	},
 	"wiihxhx": {
@@ -522,7 +522,7 @@
 		"count": 56,
 		"uniquefishers": 11,
 		"uniquefish": 28,
-		"rank": 23
+		"rank": 24
 	},
 	"wuh6": {
 		"player": "eeziiii",
@@ -533,10 +533,10 @@
 		"chat": "wuh6",
 		"chatpfp": "![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 28230,
-		"activefishers": 12,
-		"uniquefishers": 123,
-		"uniquefish": 126,
+		"count": 29110,
+		"activefishers": 13,
+		"uniquefishers": 124,
+		"uniquefish": 128,
 		"rank": 3
 	},
 	"xriggby": {
@@ -551,7 +551,7 @@
 		"count": 94,
 		"uniquefishers": 7,
 		"uniquefish": 35,
-		"rank": 21
+		"rank": 22
 	},
 	"yopego": {
 		"player": "respirate_",

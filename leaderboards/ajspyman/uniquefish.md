@@ -2,15 +2,15 @@
 
 | Rank  | Player       | Fish seen |
 |:------|:-------------|:----------|
-| 1 🥇  | chestnutbank | 42 (+6)   |
-| 2 🥈  | respirate_   | 41 (+12)  |
-| 3 🥉  | gofishgamer  | 36 (+12)  |
-| 4 🆕  | gofishgames  | 18        |
-| 5 🆕  | acornpond    | 16        |
-| 6 🆕  | nottachasm   | 15        |
+| 1 🥇  | chestnutbank | 52 (+10)  |
+| 2 🥈  | respirate_   | 51 (+10)  |
+| 3 🥉  | gofishgamer  | 42 (+6)   |
+| 4     | gofishgames  | 26 (+8)   |
+| 5 ⬆   | nottachasm   | 23 (+8)   |
+| 6 ⬇   | acornpond    | 21 (+5)   |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2025-12-14 09:55:50 UTC_
+_Last updated at 2025-12-21 10:06:01 UTC_

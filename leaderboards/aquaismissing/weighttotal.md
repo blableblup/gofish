@@ -10,12 +10,12 @@
 | 6     | poggu_        | 706.03              |
 | 7     | stofeyxd*     | 663.82              |
 | 8     | aquaismissing | 597.01              |
-| 9     | desxyne       | 560.55              |
-| 10    | dom1torii     | 466.41 (+4.91)      |
+| 9     | desxyne       | 571.86 (+11.31)     |
+| 10    | dom1torii     | 466.41              |
 | 11    | aistyrax3     | 396.89              |
 | 12    | likedom_      | 394.68              |
-| 13    | glorpiusbot   | 390.67              |
-| 14    | ggmagician    | 354.29 (+1.39)      |
+| 13    | glorpiusbot   | 391.27 (+0.60)      |
+| 14    | ggmagician    | 354.29              |
 | 15    | kaitechpl     | 335.44              |
 | 16    | yyaaaaaaaas   | 254.07              |
 | 17    | kargalay      | 231.57              |
@@ -24,4 +24,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2025-12-14 09:55:48 UTC_
+_Last updated at 2025-12-21 10:08:32 UTC_
