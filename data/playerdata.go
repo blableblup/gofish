@@ -3,7 +3,10 @@ package data
 import (
 	"context"
 	"database/sql"
+	"fmt"
 	"gofish/logs"
+	"slices"
+	"strings"
 	"time"
 
 	"github.com/jackc/pgx/v5"
@@ -36,10 +39,7 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 
 	confirmedPlayers := make(map[string][]PlayerData)
 
-	// playersfishingdate should include the urls with the dates
-	// so that i now which logs page to open for which day for the raw page
-	// so should be map[string]map[string][]Dates
-	playersFishingDate, firstFishChats, err := GetAllThePlayerNamesAndWhenTheyFished(fishes, pool)
+	playersFishingDate, playerURLs, firstFishChats, err := GetAllThePlayerNamesAndWhenTheyFished(fishes, pool)
 	if err != nil {
 		return confirmedPlayers, err
 	}
@@ -83,14 +83,27 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 
 				// if it is more than 6 months away
 				// check raw logs page
+				var found bool
 
-				// also: need to not rename a player again for their old names
+				twitchID, found, err = PlayerNotRecent(player, dates, playerURLs[player])
+				if err != nil {
+					return confirmedPlayers, err
+				}
 
-				// ...
+				if !found {
+					// now if twitchid isnt found....
+					// check again if there are players who used name as current name
+					// or old name
+					// because they opted out of justlog
+					// but this could mean that if the name is now being used by someone else
+					// this will be wrong
+					// and if they arent in db before
+					// i cant do anything
+				}
 
 			} else {
 
-				twitchID, userData, playerInApi, err = PlayerRecent(player, dates, pool)
+				twitchID, userData, playerInApi, err = PlayerRecent(player, dates, playerURLs[player], pool)
 				if err != nil {
 					return confirmedPlayers, err
 				}
@@ -111,6 +124,7 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 			if TwitchIDExists {
 
 				if playerInApi {
+					// if the name is different from current name for twitchid rename player in playerdata
 					currentName := GetCurrentName(userData)
 
 					if currentName != DBData.Name {
@@ -124,12 +138,40 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 							return confirmedPlayers, err
 						}
 					}
+
 				} else {
-					// the player name could be an old name
-					// since im now checking the ambience
-					// someone could have not caught a fish with their old name and renamed
-					// when checking old logs
-					// ...
+					// check current name for twitchid to see if it is old name
+					userData, err = MakeApiRequestForPlayerToApiIVR("", twitchID, "id")
+					if err != nil {
+						logs.Logs().Error().Err(err).
+							Str("Player", player).
+							Int("twitchID", twitchID).
+							Msg("Error getting current name for twitchid player")
+						return confirmedPlayers, err
+					}
+
+					currentName := GetCurrentName(userData)
+
+					if currentName != player {
+						// append the name to the players old names (if it doesnt already exist there)
+						// this doesnt append the name again, if the player used their old name multiple times though
+						var oldNameExists bool
+
+						if slices.Contains(DBData.OldNames, player) {
+							oldNameExists = true
+						}
+
+						if !oldNameExists {
+							err = AppendOldName(DBData.Name, player, twitchID, DBData.PlayerID, pool)
+							if err != nil {
+								logs.Logs().Error().Err(err).
+									Str("Player", player).
+									Int("twitchID", twitchID).
+									Msg("Error adding old name for player")
+								return confirmedPlayers, err
+							}
+						}
+					}
 				}
 
 				playerID = DBData.PlayerID
@@ -176,7 +218,7 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 	return confirmedPlayers, nil
 }
 
-func PlayerRecent(player string, dates Dates, pool *pgxpool.Pool) (int, []map[string]any, bool, error) {
+func PlayerRecent(player string, dates Dates, urls map[time.Time][]string, pool *pgxpool.Pool) (int, []map[string]any, bool, error) {
 
 	var twitchID int
 	var playerInApi bool
@@ -283,10 +325,91 @@ func PlayerRecent(player string, dates Dates, pool *pgxpool.Pool) (int, []map[st
 			Str("Player", player).
 			Msg("No player found for recent player!")
 
-		// ...
+		var found bool
+
+		twitchID, found, err = PlayerNotRecent(player, dates, urls)
+		if err != nil {
+			return twitchID, userdata, playerInApi, err
+		}
+
+		if !found {
+			logs.Logs().Error().
+				Str("Player", player).
+				Msg("Cant find recent player in raw logs aswell!!!!!")
+			// idk how this can happen
+		}
+
 	}
 
 	return twitchID, userdata, playerInApi, nil
+}
+
+func PlayerNotRecent(player string, dates Dates, playerURLs map[time.Time][]string) (int, bool, error) {
+
+	if len(playerURLs[dates.HighestDate]) == 0 {
+		logs.Logs().Error().
+			Str("Player", player).
+			Str("Date", dates.HighestDate.Format("2006-01-2 15:04:05")).
+			Msg("No URL for date for player for raw logs page!!!!")
+	}
+
+	// twitchid should be the same between instances
+	// else this can be weird
+	// also only need to check either highest or lowest date
+	// since both should be same player
+	// because they cant be more than 6 months apart
+	// because that is being checked in another function
+
+	day := dates.HighestDate.Day()
+	month := dates.HighestDate.Month()
+	year := dates.HighestDate.Year()
+
+	var twitchID int
+	var thereIsTwitchID bool
+
+	for _, instance := range playerURLs[dates.HighestDate] {
+
+		// change the url to be of the channel instead of from the bot
+		urlSplit := strings.Split(instance, "/")
+
+		instanceURL := fmt.Sprintf("%s/%s/%s/%s/%s", urlSplit[0], urlSplit[1], urlSplit[2], urlSplit[3], urlSplit[4])
+
+		url := fmt.Sprintf("%s/%d/%d/%d?raw=true", instanceURL, year, month, day)
+
+		var foundTwitchID bool
+		var err error
+
+		twitchID, foundTwitchID, err = CheckRawLogsForPlayer(player, url)
+		if err != nil {
+			logs.Logs().Error().Err(err).
+				Str("URL", url).
+				Str("Player", player).
+				Msg("Error checking raw logs twitch page for player!!!")
+			return twitchID, thereIsTwitchID, err
+		}
+
+		if !foundTwitchID {
+			logs.Logs().Warn().
+				Str("URL", url).
+				Str("Player", player).
+				Msg("Couldnt find twitchID for player in URL")
+			continue
+		} else if foundTwitchID {
+
+			thereIsTwitchID = true
+			break
+		}
+
+	}
+
+	if !thereIsTwitchID {
+		// can check manually in db ?
+		logs.Logs().Error().
+			Str("Player", player).
+			Msg("Couldnt find twitchID for player in all raw logs URLs!!!!!!")
+	}
+
+	return twitchID, thereIsTwitchID, nil
 }
 
 func CheckForTwitchIDInDB(twitchID int, pool *pgxpool.Pool) (PlayerDataInDB, bool, error) {
@@ -423,11 +546,12 @@ func PlayerDates(pool *pgxpool.Pool, playerID int, player string) (time.Time, ti
 	return lastseen.Time, firstseen.Time, nil
 }
 
-func GetAllThePlayerNamesAndWhenTheyFished(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Dates, map[string]string, error) {
+func GetAllThePlayerNamesAndWhenTheyFished(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Dates, map[string]map[time.Time][]string, map[string]string, error) {
 
 	playersFishingDate := make(map[string][]Dates)
 	playersFishingFish := make(map[string][]FishInfo)
 	firstFishChats := make(map[string]string)
+	playerURLs := make(map[string]map[time.Time][]string)
 	var err error
 
 	// first add the player to the map and get the fish that name caught
@@ -445,20 +569,25 @@ func GetAllThePlayerNamesAndWhenTheyFished(fishes []FishInfo, pool *pgxpool.Pool
 
 	for player := range playersFishingFish {
 
-		playersFishingDate[player], err = AllTheDaysAPlayerFished(playersFishingFish[player], pool)
+		playersFishingDate[player], playerURLs[player], err = AllTheDaysAPlayerFished(playersFishingFish[player], pool)
 		if err != nil {
-			return playersFishingDate, firstFishChats, err
+			return playersFishingDate, playerURLs, firstFishChats, err
 		}
 	}
 
-	return playersFishingDate, firstFishChats, nil
+	return playersFishingDate, playerURLs, firstFishChats, nil
 }
 
-func AllTheDaysAPlayerFished(fishes []FishInfo, pool *pgxpool.Pool) ([]Dates, error) {
+func AllTheDaysAPlayerFished(fishes []FishInfo, pool *pgxpool.Pool) ([]Dates, map[time.Time][]string, error) {
 
 	var days []Dates
 
 	oneday := (time.Hour * 24)
+
+	// to store from which instance the fish came from
+	// it is []string since there are multiple instances for a chat
+	// but this only stores one url per day though ?
+	playerURLs := make(map[time.Time][]string)
 
 	var highestDay, lowestDay, lastDay time.Time
 	var resetAtleastOnce bool
@@ -469,21 +598,24 @@ func AllTheDaysAPlayerFished(fishes []FishInfo, pool *pgxpool.Pool) ([]Dates, er
 		lastDay = day
 
 		if len(days) == 0 {
+			playerURLs[day] = append(playerURLs[day], fish.Url)
 			highestDay = day
 			lowestDay = day
 		} else {
 			if day.Before(lowestDay) {
 				lowestDay = day
+				playerURLs[day] = append(playerURLs[day], fish.Url)
 			}
 			if day.After(highestDay) {
 				highestDay = day
+				playerURLs[day] = append(playerURLs[day], fish.Url)
 			}
 		}
 
 		// if diff above 6 months; this could be a different player using that name
 		months, years, err := DiffBetweenTwoDates(day, lastDay, pool)
 		if err != nil {
-			return days, err
+			return days, playerURLs, err
 		}
 
 		if months > 6 || years > 0 {
@@ -514,7 +646,7 @@ func AllTheDaysAPlayerFished(fishes []FishInfo, pool *pgxpool.Pool) ([]Dates, er
 		days = append(days, newDays)
 	}
 
-	return days, nil
+	return days, playerURLs, nil
 }
 
 // years and months is positive if day / $1 is the higher day
@@ -595,6 +727,33 @@ func RenamePlayer(newName string, oldName string, twitchid int, playerid int, po
 		Int("TwitchID", twitchid).
 		Int("PlayerID", playerid).
 		Msg("Renamed player")
+
+	return nil
+}
+
+func AppendOldName(player string, oldName string, twitchID int, playerID int, pool *pgxpool.Pool) error {
+
+	_, err := pool.Exec(context.Background(), `
+			UPDATE playerdata
+			SET oldnames = array_append(oldnames, $1)
+			WHERE twitchid = $2		
+			`, oldName, twitchID)
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Str("Player", player).
+			Str("OldName", oldName).
+			Int("TwitchID", twitchID).
+			Int("PlayerID", playerID).
+			Msg("Error updating player data for name")
+		return err
+	}
+
+	logs.Logs().Info().
+		Str("Player", player).
+		Str("OldName", oldName).
+		Int("TwitchID", twitchID).
+		Int("PlayerID", playerID).
+		Msg("Added old name for player")
 
 	return nil
 }
