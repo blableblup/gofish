@@ -97,8 +97,18 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 					// because they opted out of justlog
 					// but this could mean that if the name is now being used by someone else
 					// this will be wrong
-					// and if they arent in db before
-					// i cant do anything
+					twitchID, found, err = PlayerCheckNo6Months(player, dates, pool)
+					if err != nil {
+						return confirmedPlayers, err
+					}
+
+					if !found {
+						// idk
+						logs.Logs().Error().
+							Str("Player", player).
+							Interface("Dates", dates).
+							Msg("Cant find anyone for player :(")
+					}
 				}
 
 			} else {
@@ -140,19 +150,8 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 					}
 
 				} else {
-					// check current name for twitchid to see if it is old name
-					userData, err = MakeApiRequestForPlayerToApiIVR("", twitchID, "id")
-					if err != nil {
-						logs.Logs().Error().Err(err).
-							Str("Player", player).
-							Int("twitchID", twitchID).
-							Msg("Error getting current name for twitchid player")
-						return confirmedPlayers, err
-					}
-
-					currentName := GetCurrentName(userData)
-
-					if currentName != player {
+					// check current name for player in db to see if it is old name
+					if player != DBData.Name {
 						// append the name to the players old names (if it doesnt already exist there)
 						// this doesnt append the name again, if the player used their old name multiple times though
 						var oldNameExists bool
@@ -388,14 +387,7 @@ func PlayerNotRecent(player string, dates Dates, playerURLs map[time.Time][]stri
 			return twitchID, thereIsTwitchID, err
 		}
 
-		if !foundTwitchID {
-			logs.Logs().Warn().
-				Str("URL", url).
-				Str("Player", player).
-				Msg("Couldnt find twitchID for player in URL")
-			continue
-		} else if foundTwitchID {
-
+		if foundTwitchID {
 			thereIsTwitchID = true
 			break
 		}
@@ -410,6 +402,69 @@ func PlayerNotRecent(player string, dates Dates, playerURLs map[time.Time][]stri
 	}
 
 	return twitchID, thereIsTwitchID, nil
+}
+
+func PlayerCheckNo6Months(player string, dates Dates, pool *pgxpool.Pool) (int, bool, error) {
+
+	playersNameDB, err := GetPlayersForPlayerName(player, pool)
+	if err != nil {
+		return 0, false, err
+	}
+
+	var foundAPlayer bool
+	var twitchID int
+
+	for _, playerName := range playersNameDB {
+
+		lastSeen, firstSeen, err := PlayerDates(pool, playerName.PlayerID, player)
+		if err != nil {
+			return 0, false, err
+		}
+
+		if firstSeen.Before(dates.LowestDate.Add(time.Second*1)) && lastSeen.After(dates.HighestDate.Add(time.Second*-1)) {
+			twitchID = playerName.TwitchID
+			foundAPlayer = true
+
+			logs.Logs().Info().
+				Str("Player", player).
+				Int("TwitchID", twitchID).
+				Int("PlayerID", playerName.PlayerID).
+				Msg("Found player as current name")
+
+			break
+		}
+	}
+
+	if !foundAPlayer {
+
+		playersOldNameDB, err := GetPlayersForOldName(player, pool)
+		if err != nil {
+			return 0, false, err
+		}
+
+		for _, oldPlayer := range playersOldNameDB {
+
+			lastSeen, firstSeen, err := PlayerDates(pool, oldPlayer.PlayerID, player)
+			if err != nil {
+				return 0, false, err
+			}
+
+			if firstSeen.Before(dates.LowestDate.Add(time.Second*1)) && lastSeen.After(dates.HighestDate.Add(time.Second*-1)) {
+				twitchID = oldPlayer.TwitchID
+				foundAPlayer = true
+
+				logs.Logs().Info().
+					Str("Player", player).
+					Int("TwitchID", twitchID).
+					Int("PlayerID", oldPlayer.PlayerID).
+					Msg("Found player as current name")
+
+				break
+			}
+		}
+	}
+
+	return twitchID, foundAPlayer, nil
 }
 
 func CheckForTwitchIDInDB(twitchID int, pool *pgxpool.Pool) (PlayerDataInDB, bool, error) {
@@ -586,7 +641,7 @@ func AllTheDaysAPlayerFished(fishes []FishInfo, pool *pgxpool.Pool) ([]Dates, ma
 
 	// to store from which instance the fish came from
 	// it is []string since there are multiple instances for a chat
-	// but this only stores one url per day though ?
+	// this can add multiple urls from same instance for same day
 	playerURLs := make(map[time.Time][]string)
 
 	var highestDay, lowestDay, lastDay time.Time
