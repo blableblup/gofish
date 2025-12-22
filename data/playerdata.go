@@ -419,8 +419,8 @@ func PlayerCheckNo6Months(player string, dates Dates, pool *pgxpool.Pool) (int, 
 			return 0, false, err
 		}
 
-		// add / remove a second so that this is true for their first / last fish
-		if firstSeen.Before(dates.LowestDate.Add(time.Second*1)) && lastSeen.After(dates.HighestDate.Add(time.Second*-1)) {
+		// add / remove 6 months from their last and firstseen
+		if dates.LowestDate.After(firstSeen.Add(time.Hour*-4032)) && dates.HighestDate.Before(lastSeen.Add(time.Hour*4032)) {
 			twitchID = playerName.TwitchID
 			foundAPlayer = true
 
@@ -448,7 +448,7 @@ func PlayerCheckNo6Months(player string, dates Dates, pool *pgxpool.Pool) (int, 
 				return 0, false, err
 			}
 
-			if firstSeen.Before(dates.LowestDate.Add(time.Second*1)) && lastSeen.After(dates.HighestDate.Add(time.Second*-1)) {
+			if dates.LowestDate.After(firstSeen.Add(time.Hour*-4032)) && dates.HighestDate.Before(lastSeen.Add(time.Hour*4032)) {
 				twitchID = oldPlayer.TwitchID
 				foundAPlayer = true
 
@@ -456,7 +456,7 @@ func PlayerCheckNo6Months(player string, dates Dates, pool *pgxpool.Pool) (int, 
 					Str("Player", player).
 					Int("TwitchID", twitchID).
 					Int("PlayerID", oldPlayer.PlayerID).
-					Msg("Found player as current name")
+					Msg("Found player as old name")
 
 				break
 			}
