@@ -109,7 +109,7 @@ func ProcessFishDataForChat(urls []string, chatName string, fishCatches []FishCa
 
 	fishChan := make(chan FishInfo)
 
-	var latestCatchDate, latestBagDate, latestTournamentDate time.Time
+	var latestCatchDate, latestBagDate, latestTournamentDate, latestAmbienceDate time.Time
 
 	ctx := context.Background()
 
@@ -138,13 +138,19 @@ func ProcessFishDataForChat(urls []string, chatName string, fishCatches []FishCa
 				Str("Chat", chatName).
 				Msg("Error while retrieving latest tournament result date for chat")
 		}
+		latestAmbienceDate, err = getLatestCatchDateFromDatabase(ctx, pool, chatName, "ambience")
+		if err != nil {
+			logs.Logs().Fatal().Err(err).
+				Str("Chat", chatName).
+				Msg("Error while retrieving latest tournament result date for chat")
+		}
 	}
 
 	for _, url := range urls {
 		wg.Add(1)
 		go func(url string) {
 			defer wg.Done()
-			fishData, err := GetFishDataFromURL(url, chatName, fishCatches, pool, latestCatchDate, latestBagDate, latestTournamentDate)
+			fishData, err := GetFishDataFromURL(url, chatName, fishCatches, pool, latestCatchDate, latestBagDate, latestTournamentDate, latestAmbienceDate)
 			if err != nil {
 				logs.Logs().Error().Err(err).
 					Msg("Error fetching data")
@@ -189,6 +195,8 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 	fishinfotable := "fishinfo"
 	playerdatatable := "playerdata"
 	tournamenttable := "tournaments"
+	ambienceinfotable := "ambienceinfo"
+	ambiencetable := "ambience"
 
 	CheckTables := []string{
 		fishinfotable,
@@ -196,6 +204,8 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 		tableNameBag,
 		playerdatatable,
 		tournamenttable,
+		ambienceinfotable,
+		ambiencetable,
 	}
 
 	for _, table := range CheckTables {
@@ -211,15 +221,18 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 	newBagCounts := make(map[string]int)
 	newFishCounts := make(map[string]int)
 	newResultCounts := make(map[string]int)
+	newAmbienceCounts := make(map[string]int)
 
 	// to store some stuff
 	fishNames := make(map[string]string)
+	locationsForAmbience := make(map[string]string)
 
 	for chatName, chat := range config.Chat {
 		if chat.CheckFData {
 			newBagCounts[chatName] = 0
 			newFishCounts[chatName] = 0
 			newResultCounts[chatName] = 0
+			newAmbienceCounts[chatName] = 0
 		}
 	}
 
@@ -511,6 +524,53 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			}
 
 			newResultCounts[fish.Chat]++
+
+		case "ambient":
+
+			// fishtype = ambience from the logs, fishname = location
+			if _, ok := locationsForAmbience[fish.FishType]; !ok {
+				fishName, err := ReturnFishLocation(pool, ambienceinfotable, fish.FishType)
+				if err != nil {
+					logs.Logs().Error().Err(err).
+						Str("Ambience", fish.FishType).
+						Msg("Error getting location")
+					return err
+				}
+
+				locationsForAmbience[fish.FishType] = fishName
+			}
+
+			fishName := fishNames[fish.FishType]
+
+			if mode == "a" {
+
+				var count int
+				err := tx.QueryRow(context.Background(), `
+				SELECT COUNT(*) FROM `+ambiencetable+`
+				WHERE date <= $1::timestamp AND date >= $2::timestamp
+				AND player = $3 AND chat = $4 AND ambience = $5
+				`, fish.Date.Add(time.Second*5), fish.Date.Add(time.Second*-5), fish.Player, fish.Chat, fish.FishType).Scan(&count)
+				if err != nil {
+					logs.Logs().Error().Err(err).
+						Str("Table", ambiencetable).
+						Msg("Error checking if ambience exists")
+					return err
+				}
+				if count > 0 {
+					continue
+				}
+			}
+
+			query := fmt.Sprintf("INSERT INTO %s (ambience, location, player, playerid, date, bot, chat, url) VALUES ($1, $2, $3, $4, $5, $6, $7, $8)", ambiencetable)
+			_, err = tx.Exec(context.Background(), query, fish.FishType, fishName, fish.Player, playerID, fish.Date, fish.Bot, fish.Chat, fish.Url)
+			if err != nil {
+				logs.Logs().Error().Err(err).
+					Str("Query", query).
+					Msg("Error inserting ambience data")
+				return err
+			}
+
+			newAmbienceCounts[fish.Chat]++
 		}
 	}
 
@@ -521,7 +581,7 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 	}
 
 	// Log the fish / bags / results
-	newCounts := []map[string]int{newFishCounts, newBagCounts, newResultCounts}
+	newCounts := []map[string]int{newFishCounts, newBagCounts, newResultCounts, newAmbienceCounts}
 	var things string
 	somenumber := 0
 
@@ -535,6 +595,8 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			things = "bags"
 		case 3:
 			things = "results"
+		case 4:
+			things = "ambience"
 		}
 
 		var noNewCounts []string

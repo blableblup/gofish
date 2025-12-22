@@ -71,9 +71,13 @@ var BellGift2025 = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2}
 
 var BagPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): [@👥]\s?(\w+), Your (bag|collection): (.+)`)
 
+var AmbientPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): [@👥]\s?(\w+), (.+) [(]30s cooldown[)]`)
+
 func allTheCatchPatterns() map[string]FishCatch {
 
 	catches := map[string]FishCatch{
+		"ambient": {Pattern: AmbientPattern, Type: "ambient", ExtractFunc: extractInfoFromAmbientPattern},
+
 		"normal":               {Pattern: NormalPattern, Type: "fish", ExtractFunc: extractInfoFromNormalPattern},
 		"mouth":                {Pattern: MouthPattern, Type: "fish", ExtractFunc: extractInfoFromMouthPattern},
 		"release":              {Pattern: ReleasePattern, Type: "fish", ExtractFunc: extractInfoFromReleasePattern},
@@ -401,6 +405,29 @@ func extractInfoFromBagPattern(match []string) FishInfo {
 		Player:    player,
 		Bag:       bag,
 		CatchType: catchtype,
+	}
+}
+
+func extractInfoFromAmbientPattern(match []string) FishInfo {
+	dateStr := match[1]
+	bot := match[2]
+	player := match[3]
+	fishType := match[4]
+
+	date, err := utils.ParseDate(dateStr)
+	if err != nil {
+		logs.Logs().Fatal().Err(err).
+			Str("Player", player).
+			Str("Date", dateStr).
+			Msgf("Error parsing date for ambient pattern")
+	}
+
+	return FishInfo{
+		Date:      date,
+		Bot:       bot,
+		Player:    player,
+		FishType:  fishType,
+		CatchType: "ambient",
 	}
 }
 

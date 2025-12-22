@@ -301,11 +301,20 @@ func Leaderboards(pool *pgxpool.Pool, leaderboards string, chatNames string, dat
 			Tournament: false,
 			Function:   processShinies,
 		},
+
 		"profiles": {
 			hasGlobal:  true,
 			GlobalOnly: true,
 			Tournament: false,
 			Function:   GetPlayerProfiles,
+
+			IsProfiles: true,
+		},
+		"wrapped": {
+			hasGlobal:  true,
+			GlobalOnly: true,
+			Tournament: false,
+			Function:   GetWrapped,
 
 			IsProfiles: true,
 		}}

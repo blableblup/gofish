@@ -13,7 +13,7 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 
-func GetFishDataFromURL(url string, chatName string, catches []FishCatch, pool *pgxpool.Pool, latestCatchDate time.Time, latestBagDate time.Time, latestTournamentDate time.Time) ([]FishInfo, error) {
+func GetFishDataFromURL(url string, chatName string, catches []FishCatch, pool *pgxpool.Pool, latestCatchDate time.Time, latestBagDate time.Time, latestTournamentDate time.Time, latestAmbienceDate time.Time) ([]FishInfo, error) {
 	var fishData []FishInfo
 
 	// retry 3 times after 20 seconds
@@ -107,6 +107,13 @@ func GetFishDataFromURL(url string, chatName string, catches []FishCatch, pool *
 
 					fishData = append(fishData, fish)
 				}
+
+			case "ambient":
+				if fish.Date.After(latestAmbienceDate) {
+
+					fishData = append(fishData, fish)
+				}
+
 			}
 		}
 
