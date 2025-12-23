@@ -118,6 +118,7 @@ func ProcessFishDataForChat(urls []string, chatName string, fishCatches []FishCa
 		latestCatchDate = time.Time{}
 		latestBagDate = time.Time{}
 		latestTournamentDate = time.Time{}
+		latestAmbienceDate = time.Time{}
 	} else {
 		var err error
 		latestCatchDate, err = getLatestCatchDateFromDatabase(ctx, pool, chatName, "fish")
@@ -142,7 +143,7 @@ func ProcessFishDataForChat(urls []string, chatName string, fishCatches []FishCa
 		if err != nil {
 			logs.Logs().Fatal().Err(err).
 				Str("Chat", chatName).
-				Msg("Error while retrieving latest tournament result date for chat")
+				Msg("Error while retrieving latest ambience date for chat")
 		}
 	}
 
@@ -225,7 +226,9 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 
 	// to store some stuff
 	fishNames := make(map[string]string)
+	ambienceNames := make(map[string]string)
 	locationsForAmbience := make(map[string]string)
+	sublocationsForLocation := make(map[string]string)
 
 	for chatName, chat := range config.Chat {
 		if chat.CheckFData {
@@ -286,6 +289,10 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			Msg("Error going over all the players")
 		return err
 	}
+
+	logs.Logs().Info().
+		Int("Fish", len(allFish)).
+		Msg("Going over all new fish data.....")
 
 	for _, fish := range allFish {
 
@@ -527,9 +534,9 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 
 		case "ambient":
 
-			// fishtype = ambience from the logs, fishname = location
+			// fishtype = ambience from the logs
 			if _, ok := locationsForAmbience[fish.FishType]; !ok {
-				fishName, err := ReturnFishLocation(pool, ambienceinfotable, fish.FishType)
+				ambienceName, location, subLocation, err := ReturnFishLocation(pool, ambienceinfotable, fish.FishType)
 				if err != nil {
 					logs.Logs().Error().Err(err).
 						Str("Ambience", fish.FishType).
@@ -537,10 +544,14 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 					return err
 				}
 
-				locationsForAmbience[fish.FishType] = fishName
+				ambienceNames[fish.FishType] = ambienceName
+				locationsForAmbience[fish.FishType] = ambienceName
+				sublocationsForLocation[location] = subLocation
 			}
 
-			fishName := fishNames[fish.FishType]
+			ambienceName := ambienceNames[fish.FishType]
+			location := locationsForAmbience[fish.FishType]
+			subLocation := sublocationsForLocation[location]
 
 			if mode == "a" {
 
@@ -561,8 +572,8 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 				}
 			}
 
-			query := fmt.Sprintf("INSERT INTO %s (ambience, location, player, playerid, date, bot, chat, url) VALUES ($1, $2, $3, $4, $5, $6, $7, $8)", ambiencetable)
-			_, err = tx.Exec(context.Background(), query, fish.FishType, fishName, fish.Player, playerID, fish.Date, fish.Bot, fish.Chat, fish.Url)
+			query := fmt.Sprintf("INSERT INTO %s (ambience, ambiencename, location, sublocation, player, playerid, date, bot, chat, url) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)", ambiencetable)
+			_, err = tx.Exec(context.Background(), query, fish.FishType, ambienceName, location, subLocation, fish.Player, playerID, fish.Date, fish.Bot, fish.Chat, fish.Url)
 			if err != nil {
 				logs.Logs().Error().Err(err).
 					Str("Query", query).

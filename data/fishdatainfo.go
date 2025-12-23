@@ -71,6 +71,10 @@ var BellGift2025 = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2}
 
 var BagPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): [@👥]\s?(\w+), Your (bag|collection): (.+)`)
 
+// problems : on supi there was the other fishing which this pattern parses aswell
+// [2022-12-13 03:26:56] #breadworms supibot: 👥 kitsen_, No luck... 16 cm away (30s cooldown)
+// and then also on gofishgame, the bot can @ multiple fishers
+// [2025-12-15 12:44:11] #wuh6 gofishgame: @rancbot, @huuuuuuuuuuuuuuuuuuuuuurz, 🌲🪧 Peaceful... (30s cooldown)
 var AmbientPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): [@👥]\s?(\w+), (.+) [(]30s cooldown[)]`)
 
 func allTheCatchPatterns() map[string]FishCatch {

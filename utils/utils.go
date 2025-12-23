@@ -16,6 +16,7 @@ func Confirm(prompt string) (bool, error) {
 	for {
 		input, err := reader.ReadString('\n')
 		if err != nil {
+			logs.Logs().Error().Err(err).Msg("Error reading input for confirm func")
 			return false, err
 		}
 		input = strings.TrimSpace(strings.ToLower(input))
