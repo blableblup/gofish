@@ -34,10 +34,11 @@ type FishInfo struct {
 }
 
 type FishCatch struct {
-	Pattern          *regexp.Regexp
-	Type             string
-	ExtractFunc      func([]string) FishInfo
-	ExtractFuncSlice func([]string) []FishInfo
+	Pattern              *regexp.Regexp
+	Type                 string
+	ExtractFunc          func([]string) FishInfo
+	ExtractFuncSlice     func([]string) []FishInfo
+	ExtractFuncSliceBool func([]string) ([]FishInfo, bool)
 }
 
 var TournamentPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): [@👥]\s?(\w+), (📣 The results are in!|Last week[.][.][.]) You caught 🪣 (\d+) fish: (.*?)[!.] Together they weighed .*? ([\d.]+) lbs: (.*?)[!.] Your biggest catch weighed .*? ([\d.]+) lbs: (.*?)[!.]`)
@@ -71,16 +72,12 @@ var BellGift2025 = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2}
 
 var BagPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): [@👥]\s?(\w+), Your (bag|collection): (.+)`)
 
-// problems : on supi there was the other fishing which this pattern parses aswell
-// [2022-12-13 03:26:56] #breadworms supibot: 👥 kitsen_, No luck... 16 cm away (30s cooldown)
-// and then also on gofishgame, the bot can @ multiple fishers
-// [2025-12-15 12:44:11] #wuh6 gofishgame: @rancbot, @huuuuuuuuuuuuuuuuuuuuuurz, 🌲🪧 Peaceful... (30s cooldown)
 var AmbientPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): [@👥]\s?(\w+), (.+) [(]30s cooldown[)]`)
 
 func allTheCatchPatterns() map[string]FishCatch {
 
 	catches := map[string]FishCatch{
-		"ambient": {Pattern: AmbientPattern, Type: "ambient", ExtractFunc: extractInfoFromAmbientPattern},
+		"ambient": {Pattern: AmbientPattern, Type: "ambient", ExtractFuncSliceBool: extractInfoFromAmbientPattern},
 
 		"normal":               {Pattern: NormalPattern, Type: "fish", ExtractFunc: extractInfoFromNormalPattern},
 		"mouth":                {Pattern: MouthPattern, Type: "fish", ExtractFunc: extractInfoFromMouthPattern},
@@ -162,10 +159,19 @@ func extractFishDataFromPatterns(textContent string, catches []FishCatch) []Fish
 
 		for _, match := range catch.Pattern.FindAllStringSubmatch(textContent, -1) {
 
-			if catch.Pattern != WinterPresentOpening2024 {
-				fishys = append(fishys, catch.ExtractFunc(match))
-			} else {
+			switch catch.Pattern {
+			case WinterPresentOpening2024:
 				fishys = append(fishys, catch.ExtractFuncSlice(match)...)
+
+			case AmbientPattern:
+				ambiences, yes := catch.ExtractFuncSliceBool(match)
+
+				if yes {
+					fishys = append(fishys, ambiences...)
+				}
+
+			default:
+				fishys = append(fishys, catch.ExtractFunc(match))
 			}
 		}
 
@@ -412,11 +418,10 @@ func extractInfoFromBagPattern(match []string) FishInfo {
 	}
 }
 
-func extractInfoFromAmbientPattern(match []string) FishInfo {
+func extractInfoFromAmbientPattern(match []string) ([]FishInfo, bool) {
 	dateStr := match[1]
 	bot := match[2]
 	player := match[3]
-	fishType := match[4]
 
 	date, err := utils.ParseDate(dateStr)
 	if err != nil {
@@ -426,13 +431,71 @@ func extractInfoFromAmbientPattern(match []string) FishInfo {
 			Msgf("Error parsing date for ambient pattern")
 	}
 
-	return FishInfo{
-		Date:      date,
-		Bot:       bot,
-		Player:    player,
-		FishType:  fishType,
-		CatchType: "ambient",
+	// to skip the other fishing game in supibot logs
+	if strings.Contains(match[0], "No luck...") {
+		return []FishInfo{}, false
 	}
+
+	var ambiences []FishInfo
+
+	var ambience string
+
+	// check if there are other fishers in same log message
+	if strings.Contains(match[4], "@") {
+
+		splitThing := strings.Split(match[4], ",")
+
+		// the ambient message is always the last thing
+		for i, thing := range splitThing {
+
+			if i+1 == len(splitThing) {
+				ambience = strings.TrimPrefix(thing, " ")
+			}
+		}
+
+		// add the first @ed player
+		ambiences = append(ambiences, FishInfo{
+			Date:      date,
+			Bot:       bot,
+			Player:    player,
+			FishType:  ambience,
+			CatchType: "ambient",
+		})
+
+		var playerMatch = regexp.MustCompile(`@(\w+),`)
+
+		players := playerMatch.FindAllStringSubmatch(match[4], -1)
+
+		// and then the other ones
+		for i, moreplayer := range players {
+
+			if i == 0 {
+				continue
+			}
+
+			ambiences = append(ambiences, FishInfo{
+				Date:      date,
+				Bot:       bot,
+				Player:    moreplayer[0],
+				FishType:  ambience,
+				CatchType: "ambient",
+			})
+		}
+
+	} else {
+
+		ambience = match[4]
+
+		ambiences = append(ambiences, FishInfo{
+			Date:      date,
+			Bot:       bot,
+			Player:    player,
+			FishType:  ambience,
+			CatchType: "ambient",
+		})
+	}
+
+	return ambiences, true
 }
 
 func extractInfoFromTData(match []string) FishInfo {
