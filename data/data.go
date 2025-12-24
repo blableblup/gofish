@@ -396,6 +396,9 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			// because the others all have identical date, weight, player, chat, fishtype
 			if mode == "a" {
 
+				// replace all the count in mode a with select exists mebi for better performance ?
+				// select exists (select 1 from `+tableName+` WHERE date <= $1::timestamp AND date >= $2::timestamp AND weight = $3 AND player = $4 AND chat = $5 AND fishtype = $6)
+
 				var count int
 				err := tx.QueryRow(context.Background(), `
 				SELECT COUNT(*) FROM `+tableName+`
@@ -545,7 +548,7 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 				}
 
 				ambienceNames[fish.FishType] = ambienceName
-				locationsForAmbience[fish.FishType] = ambienceName
+				locationsForAmbience[fish.FishType] = location
 				sublocationsForLocation[location] = subLocation
 			}
 

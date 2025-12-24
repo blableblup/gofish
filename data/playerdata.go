@@ -1,6 +1,7 @@
 package data
 
 import (
+	"database/sql"
 	"fmt"
 	"gofish/logs"
 	"slices"
@@ -25,10 +26,13 @@ type Dates struct {
 // all the data about the player in my playerdata table
 type PlayerDataInDB struct {
 	PlayerID int
-	TwitchID int
+	TwitchID sql.NullInt64
 	Name     string
 	OldNames []string
 }
+
+// some twitchids
+// 212b_ 212003898
 
 func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]PlayerData, error) {
 
@@ -50,7 +54,7 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 	for player := range playersFishingDate {
 
 		playerCount++
-		if playerCount == 200 {
+		if playerCount == 100 {
 			playerCount = 0
 			logs.Logs().Info().
 				Msg("Pausing going over the players ....")
@@ -74,6 +78,7 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 				return confirmedPlayers, err
 			}
 
+			// find twitchid for player name
 			var twitchID int
 			var playerInApi bool
 			var userData []map[string]any
@@ -133,7 +138,9 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 			if TwitchIDExists {
 
 				if playerInApi {
-					// if the name is different from current name for twitchid rename player in playerdata
+					// playerinapi means that there was a player in twitchapi for the player name
+					// now only need to check if need to update player name in playerdata
+					// because it cant be an old name since they are using it rn
 					currentName := GetCurrentName(userData)
 
 					if currentName != DBData.Name {
@@ -149,24 +156,64 @@ func ConfirmWhoIsWho(fishes []FishInfo, pool *pgxpool.Pool) (map[string][]Player
 					}
 
 				} else {
-					// check current name for player in db to see if it is old name
-					if player != DBData.Name {
-						// append the name to the players old names (if it doesnt already exist there)
-						// this doesnt append the name again, if the player used their old name multiple times though
-						var oldNameExists bool
 
-						if slices.Contains(DBData.OldNames, player) {
-							oldNameExists = true
-						}
+					// check current name for twitchid
+					userData, err := MakeApiRequestForPlayerToApiIVR("", twitchID, "id")
+					if err != nil && err != ErrNoPlayerFound {
 
-						if !oldNameExists {
-							err = AppendOldName(DBData.Name, player, twitchID, DBData.PlayerID, pool)
+						logs.Logs().Error().Err(err).
+							Str("Player", player).
+							Msg("Error doing api ivr thing")
+						return confirmedPlayers, err
+
+					}
+
+					// there can be no player found for twitchid if they were nuked ? or deleted account i guess
+					if err == nil {
+
+						currentName := GetCurrentName(userData)
+
+						var renamed bool
+
+						if currentName != DBData.Name {
+
+							renamed = true
+
+							err = RenamePlayer(currentName, DBData.Name, twitchID, DBData.PlayerID, pool)
 							if err != nil {
 								logs.Logs().Error().Err(err).
 									Str("Player", player).
 									Int("twitchID", twitchID).
-									Msg("Error adding old name for player")
+									Msg("Error renaming player")
 								return confirmedPlayers, err
+							}
+
+						}
+
+						if player != currentName {
+
+							if renamed {
+								// add this to old names if they were renamed
+								DBData.OldNames = append(DBData.OldNames, DBData.Name)
+							}
+
+							// append the name to the players old names (if it doesnt already exist there)
+							// this doesnt append the name again, if the player used their old name multiple times though
+							var oldNameExists bool
+
+							if slices.Contains(DBData.OldNames, player) {
+								oldNameExists = true
+							}
+
+							if !oldNameExists {
+								err = AppendOldName(DBData.Name, player, twitchID, DBData.PlayerID, pool)
+								if err != nil {
+									logs.Logs().Error().Err(err).
+										Str("Player", player).
+										Int("twitchID", twitchID).
+										Msg("Error adding old name for player")
+									return confirmedPlayers, err
+								}
 							}
 						}
 					}
@@ -256,7 +303,7 @@ func PlayerRecent(player string, dates Dates, urls map[time.Time][]string, pool 
 
 			if months < 6 && years == 0 {
 				// if its not more than 6 months ago, it has to be this player
-				twitchID = playerName.TwitchID
+				twitchID = int(playerName.TwitchID.Int64)
 				foundAPlayer = true
 
 				logs.Logs().Info().
@@ -290,7 +337,7 @@ func PlayerRecent(player string, dates Dates, urls map[time.Time][]string, pool 
 
 				if months < 6 && years == 0 {
 
-					twitchID = oldPlayer.TwitchID
+					twitchID = int(oldPlayer.TwitchID.Int64)
 
 					logs.Logs().Info().
 						Str("Player", player).
@@ -421,7 +468,7 @@ func PlayerCheckNo6Months(player string, dates Dates, pool *pgxpool.Pool) (int, 
 
 		// add / remove 6 months from their last and firstseen
 		if dates.LowestDate.After(firstSeen.Add(time.Hour*-4032)) && dates.HighestDate.Before(lastSeen.Add(time.Hour*4032)) {
-			twitchID = playerName.TwitchID
+			twitchID = int(playerName.TwitchID.Int64)
 			foundAPlayer = true
 
 			logs.Logs().Info().
@@ -449,7 +496,7 @@ func PlayerCheckNo6Months(player string, dates Dates, pool *pgxpool.Pool) (int, 
 			}
 
 			if dates.LowestDate.After(firstSeen.Add(time.Hour*-4032)) && dates.HighestDate.Before(lastSeen.Add(time.Hour*4032)) {
-				twitchID = oldPlayer.TwitchID
+				twitchID = int(oldPlayer.TwitchID.Int64)
 				foundAPlayer = true
 
 				logs.Logs().Info().
