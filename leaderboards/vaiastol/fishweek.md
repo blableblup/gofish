@@ -12,10 +12,11 @@
 | 8     | julialuxel         | 40          |
 | 8     | leanmeister        | 40          |
 | 10    | dazedforevermore   | 38          |
-| 11 ⬆  | redreignss         | 37 (+13)    |
-| 12 ⬇  | leastsussyimposter | 26          |
+| 11    | redreignss         | 37          |
+| 12    | leastsussyimposter | 26          |
 | 13    | milesdotcom        | 13          |
+| 13 🆕 | proswift           | 13          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-07-23 14:42:36 UTC_
+_Last updated at 2025-12-26 21:49:58 UTC_
