@@ -28,7 +28,7 @@ type Wrapped struct {
 	FishSeenCount      int
 	FishSeenPercentile float64
 	Count              *TotalChatStructPercentile
-	FishLocations      []Location
+	FishLocations      map[string]*Location
 }
 
 type TotalChatStructPercentile struct {
@@ -49,8 +49,16 @@ type RareFish struct {
 }
 
 type Location struct {
-	Location   string
+	Count      int
 	Percentage float64
+	Ambiences  []*Ambience
+}
+
+type Ambience struct {
+	Ambience    string
+	SubLocation string
+	Count       int
+	Percentage  float64
 }
 
 func GetWrapped(params LeaderboardParams) {
@@ -162,6 +170,7 @@ func GetWrapped(params LeaderboardParams) {
 		Str("Board", board).
 		Str("Date", params.Date).
 		Str("Date2", params.Date2).
+		Int("Players", len(validPlayers)).
 		Msg("Done updating wrappeds")
 
 }

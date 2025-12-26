@@ -170,6 +170,43 @@ func GetTheWrappeds(params LeaderboardParams, EmojisForFish map[string]string, v
 		Wrappeds[fishOfTypeCaught.PlayerID].MostCaughtFish = append(Wrappeds[fishOfTypeCaught.PlayerID].MostCaughtFish, caughtFish)
 	}
 
+	queryLocationsAmbience := `
+	select count(*), location as url, sublocation as fishname, ambiencename as chatpfp, playerid
+	from ambience
+	where playerid = any($1)
+	and date < $2
+	and date > $3
+	group by location, sublocation, ambiencename, playerid
+	`
+
+	locationsAmbience, err := ReturnFishSliceQueryValidPlayers(params, queryLocationsAmbience, validPlayers)
+	if err != nil {
+		return Wrappeds, err
+	}
+
+	for _, ambiences := range locationsAmbience {
+
+		if Wrappeds[ambiences.PlayerID].FishLocations == nil {
+			Wrappeds[ambiences.PlayerID].FishLocations = make(map[string]*Location)
+		}
+
+		if _, ok := Wrappeds[ambiences.PlayerID].FishLocations[ambiences.Url]; !ok {
+			Wrappeds[ambiences.PlayerID].FishLocations[ambiences.Url] = &Location{}
+		}
+
+		ambience := &Ambience{
+			Ambience:    ambiences.ChatPfp,
+			SubLocation: ambiences.FishName,
+			Count:       ambiences.Count,
+		}
+
+		Wrappeds[ambiences.PlayerID].FishLocations[ambiences.Url].Count = Wrappeds[ambiences.PlayerID].FishLocations[ambiences.Url].Count + ambiences.Count
+
+		Wrappeds[ambiences.PlayerID].FishLocations[ambiences.Url].Ambiences = append(Wrappeds[ambiences.PlayerID].FishLocations[ambiences.Url].Ambiences, ambience)
+	}
+
+	Wrappeds = CalculatePercentageWrappedLocationsAmbience(Wrappeds)
+
 	return Wrappeds, nil
 }
 
@@ -228,6 +265,37 @@ func CalculatePercentileWrappedFishCaught(Wrappeds map[int]*Wrapped, fishCaughtD
 				wrapped.Count.Percentile = (float64(d+1) / float64(totalLength)) * 100.00
 			}
 		}
+	}
+
+	return Wrappeds
+}
+
+func CalculatePercentageWrappedLocationsAmbience(Wrappeds map[int]*Wrapped) map[int]*Wrapped {
+
+	for _, wrapped := range Wrappeds {
+		Locations := wrapped.FishLocations
+
+		var totalLocation int
+
+		totalAmbience := make(map[string]int)
+
+		for location, data := range Locations {
+			totalLocation = totalLocation + data.Count
+
+			for _, ambience := range data.Ambiences {
+				totalAmbience[location] = totalAmbience[location] + ambience.Count
+			}
+		}
+
+		for location, data := range Locations {
+
+			data.Percentage = (float64(data.Count) / float64(totalLocation)) * 100
+
+			for _, ambience := range data.Ambiences {
+				ambience.Percentage = (float64(ambience.Count) / float64(totalAmbience[location])) * 100
+			}
+		}
+
 	}
 
 	return Wrappeds

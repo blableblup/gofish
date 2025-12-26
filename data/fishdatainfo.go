@@ -111,7 +111,10 @@ func returnTheCatchPatterns(selectedCatches string) []FishCatch {
 	case "all":
 
 		for _, catch := range allCatches {
-			catches = append(catches, catch)
+			// temporary
+			if catch.Type != "ambient" {
+				catches = append(catches, catch)
+			}
 		}
 
 	case "fish":
