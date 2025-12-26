@@ -10,7 +10,6 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgconn"
 	"github.com/jackc/pgx/v5/pgxpool"
 )
@@ -180,7 +179,7 @@ func ProcessFishDataForChat(urls []string, chatName string, fishCatches []FishCa
 
 func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.Config, mode string) error {
 
-	// Start the transaction and batch to insert the data
+	// Start the transaction to insert the data
 	// maybe include adding/renaming players, adding fish, creating the tables in the transaction or ?
 	tx, err := pool.Begin(context.Background())
 	if err != nil {
@@ -190,7 +189,11 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 	}
 	defer tx.Rollback(context.Background())
 
-	batch := &pgx.Batch{}
+	// not doing batch with pgx.batch because that isnt adding the data right away
+	// so when im running in mode a and there is missing data it can get added multiple times for each instance
+	// and for tournament results it can add same result again
+	// since you can do +checkin for same result multiple times
+	// but maybe there is a fix to this idk idk
 
 	tableName := "fish"
 	tableNameBag := "bag"
@@ -218,8 +221,6 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			return err
 		}
 	}
-
-	var newData int
 
 	lastChatIDs := make(map[string]int)
 	newBagCounts := make(map[string]int)
@@ -446,10 +447,13 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			fishName := fishNames[fish.FishType]
 
 			query := fmt.Sprintf("INSERT INTO %s (chatid, fishtype, fishname, weight, catchtype, player, playerid, date, bot, chat, url) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)", tableName)
-			batch.Queue(query, chatID, fish.FishType, fishName, fish.Weight, fish.CatchType, fish.Player, playerID, fish.Date, fish.Bot, fish.Chat, fish.Url)
+			_, err = tx.Exec(context.Background(), query, chatID, fish.FishType, fishName, fish.Weight, fish.CatchType, fish.Player, playerID, fish.Date, fish.Bot, fish.Chat, fish.Url)
+			if err != nil {
+				logs.Logs().Error().Err(err).
+					Msg("Error inserting fish")
+			}
 
 			newFishCounts[fish.Chat]++
-			newData++
 
 		// Add the bag into the table for bags
 		case "bag":
@@ -473,10 +477,13 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			}
 
 			query := fmt.Sprintf("INSERT INTO %s (bag, player, playerid, date, bot, chat, url) VALUES ($1, $2, $3, $4, $5, $6, $7)", tableNameBag)
-			batch.Queue(query, fish.Bag, fish.Player, playerID, fish.Date, fish.Bot, fish.Chat, fish.Url)
+			_, err = tx.Exec(context.Background(), query, fish.Bag, fish.Player, playerID, fish.Date, fish.Bot, fish.Chat, fish.Url)
+			if err != nil {
+				logs.Logs().Error().Err(err).
+					Msg("Error inserting bag")
+			}
 
 			newBagCounts[fish.Chat]++
-			newData++
 
 		// Insert the tournament result into the tournament table
 		case "result":
@@ -511,11 +518,14 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			}
 
 			query := fmt.Sprintf("INSERT INTO %s ( player, playerid, fishcaught, placement1, totalweight, placement2, biggestfish, placement3, date, bot, chat, url) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)", tournamenttable)
-			batch.Queue(query, fish.Player, playerID, fish.Count, fish.FishPlacement,
+			_, err = tx.Exec(context.Background(), query, fish.Player, playerID, fish.Count, fish.FishPlacement,
 				fish.TotalWeight, fish.WeightPlacement, fish.Weight, fish.BiggestFishPlacement, fish.Date, fish.Bot, fish.Chat, fish.Url)
+			if err != nil {
+				logs.Logs().Error().Err(err).
+					Msg("Error inserting tournament result")
+			}
 
 			newResultCounts[fish.Chat]++
-			newData++
 
 		case "ambient":
 
@@ -558,34 +568,14 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			}
 
 			query := fmt.Sprintf("INSERT INTO %s (ambience, ambiencename, location, sublocation, player, playerid, date, bot, chat, url) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)", ambiencetable)
-			batch.Queue(query, fish.FishType, ambienceName, location, subLocation, fish.Player, playerID, fish.Date, fish.Bot, fish.Chat, fish.Url)
+			_, err = tx.Exec(context.Background(), query, fish.FishType, ambienceName, location, subLocation, fish.Player, playerID, fish.Date, fish.Bot, fish.Chat, fish.Url)
+			if err != nil {
+				logs.Logs().Error().Err(err).
+					Msg("Error inserting ambience")
+			}
 
 			newAmbienceCounts[fish.Chat]++
-			newData++
 		}
-	}
-
-	// because this is now sent here and not in tx.exec
-	// this means that if something gets checked for first time in mode a with all instances
-	// this will just add everything; since its not being added to db right away i think
-	// idk if this is good
-	results := tx.SendBatch(context.Background(), batch)
-
-	for i := range newData {
-		_, err := results.Exec()
-		if err != nil {
-			logs.Logs().Error().Err(err).
-				Int("Batch", i).
-				Msg("Error in batch")
-			return err
-		}
-	}
-
-	err = results.Close()
-	if err != nil {
-		logs.Logs().Error().Err(err).
-			Msg("Error closing batch results")
-		return err
 	}
 
 	if err := tx.Commit(context.Background()); err != nil {
