@@ -467,16 +467,12 @@ func extractInfoFromAmbientPattern(match []string) ([]FishInfo, bool) {
 		players := playerMatch.FindAllStringSubmatch(match[4], -1)
 
 		// and then the other ones
-		for i, moreplayer := range players {
-
-			if i == 0 {
-				continue
-			}
+		for _, moreplayer := range players {
 
 			ambiences = append(ambiences, FishInfo{
 				Date:      date,
 				Bot:       bot,
-				Player:    moreplayer[0],
+				Player:    moreplayer[1],
 				FishType:  ambience,
 				CatchType: "ambient",
 			})

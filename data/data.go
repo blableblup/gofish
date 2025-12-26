@@ -10,6 +10,7 @@ import (
 	"sync"
 	"time"
 
+	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgconn"
 	"github.com/jackc/pgx/v5/pgxpool"
 )
@@ -179,10 +180,8 @@ func ProcessFishDataForChat(urls []string, chatName string, fishCatches []FishCa
 
 func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.Config, mode string) error {
 
-	// Start the transaction to insert the data
+	// Start the transaction and batch to insert the data
 	// maybe include adding/renaming players, adding fish, creating the tables in the transaction or ?
-	// could batch all the inserts with pgx.batch
-	// this would be faster, but i dont know how to see what query failed if there is an error
 	tx, err := pool.Begin(context.Background())
 	if err != nil {
 		logs.Logs().Error().Err(err).
@@ -190,6 +189,8 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 		return err
 	}
 	defer tx.Rollback(context.Background())
+
+	batch := &pgx.Batch{}
 
 	tableName := "fish"
 	tableNameBag := "bag"
@@ -217,6 +218,8 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			return err
 		}
 	}
+
+	var newData int
 
 	lastChatIDs := make(map[string]int)
 	newBagCounts := make(map[string]int)
@@ -396,23 +399,19 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			// because the others all have identical date, weight, player, chat, fishtype
 			if mode == "a" {
 
-				// replace all the count in mode a with select exists mebi for better performance ?
-				// select exists (select 1 from `+tableName+` WHERE date <= $1::timestamp AND date >= $2::timestamp AND weight = $3 AND player = $4 AND chat = $5 AND fishtype = $6)
-
-				var count int
+				var exists bool
 				err := tx.QueryRow(context.Background(), `
-				SELECT COUNT(*) FROM `+tableName+`
-				WHERE date <= $1::timestamp AND date >= $2::timestamp
-				AND weight = $3 AND player = $4 AND chat = $5 AND fishtype = $6
-				`, fish.Date.Add(time.Second*5), fish.Date.Add(time.Second*-5), fish.Weight, fish.Player, fish.Chat, fish.FishType).Scan(&count)
+				select exists (select 1 from `+tableName+` 
+				WHERE date <= $1::timestamp AND date >= $2::timestamp AND weight = $3 AND player = $4 AND chat = $5 AND fishtype = $6)
+				`, fish.Date.Add(time.Second*5), fish.Date.Add(time.Second*-5), fish.Weight, fish.Player, fish.Chat, fish.FishType).Scan(&exists)
 				if err != nil {
 					logs.Logs().Error().Err(err).
 						Str("Table", tableName).
 						Msg("Error checking if fish exists")
 					return err
 				}
-				if count > 0 {
-					continue // Skip that fish
+				if exists {
+					continue
 				}
 			}
 
@@ -447,47 +446,37 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			fishName := fishNames[fish.FishType]
 
 			query := fmt.Sprintf("INSERT INTO %s (chatid, fishtype, fishname, weight, catchtype, player, playerid, date, bot, chat, url) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)", tableName)
-			_, err = tx.Exec(context.Background(), query, chatID, fish.FishType, fishName, fish.Weight, fish.CatchType, fish.Player, playerID, fish.Date, fish.Bot, fish.Chat, fish.Url)
-			if err != nil {
-				logs.Logs().Error().Err(err).
-					Str("Query", query).
-					Msg("Error inserting fish data")
-				return err
-			}
+			batch.Queue(query, chatID, fish.FishType, fishName, fish.Weight, fish.CatchType, fish.Player, playerID, fish.Date, fish.Bot, fish.Chat, fish.Url)
 
 			newFishCounts[fish.Chat]++
+			newData++
 
 		// Add the bag into the table for bags
 		case "bag":
 
 			if mode == "a" {
 
-				var count int
+				var exists bool
 				err := tx.QueryRow(context.Background(), `
-				SELECT COUNT(*) FROM `+tableNameBag+`
-				WHERE date <= $1::timestamp AND date >= $2::timestamp
-				AND player = $3 AND chat = $4 AND bag = $5
-				`, fish.Date.Add(time.Second*5), fish.Date.Add(time.Second*-5), fish.Player, fish.Chat, fish.Bag).Scan(&count)
+				select exists (select 1 from `+tableNameBag+` 
+				WHERE date <= $1::timestamp AND date >= $2::timestamp AND player = $3 AND chat = $4 AND bag = $5)
+				`, fish.Date.Add(time.Second*5), fish.Date.Add(time.Second*-5), fish.Player, fish.Chat, fish.Bag).Scan(&exists)
 				if err != nil {
 					logs.Logs().Error().Err(err).
 						Str("Table", tableNameBag).
 						Msg("Error checking if bag exists")
 					return err
 				}
-				if count > 0 {
-					continue // Skip that bag
+				if exists {
+					continue
 				}
 			}
 
 			query := fmt.Sprintf("INSERT INTO %s (bag, player, playerid, date, bot, chat, url) VALUES ($1, $2, $3, $4, $5, $6, $7)", tableNameBag)
-			_, err = tx.Exec(context.Background(), query, fish.Bag, fish.Player, playerID, fish.Date, fish.Bot, fish.Chat, fish.Url)
-			if err != nil {
-				logs.Logs().Error().Err(err).
-					Str("Query", query).
-					Msg("Error inserting bag data")
-				return err
-			}
+			batch.Queue(query, fish.Bag, fish.Player, playerID, fish.Date, fish.Bot, fish.Chat, fish.Url)
+
 			newBagCounts[fish.Chat]++
+			newData++
 
 		// Insert the tournament result into the tournament table
 		case "result":
@@ -503,37 +492,30 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			// mowogan: 2025
 			// aaurie: 2025
 			// For bread some results (7) get readded in may 2023 because she kept updating the results and format
-			var count int
+			var exists bool
 			err := tx.QueryRow(context.Background(), `
-			SELECT COUNT(*) FROM `+tournamenttable+`
+			select exists (select 1 from `+tournamenttable+`
 			WHERE date >= $1::timestamp AND date <= $2::timestamp
-			AND player = $3 AND fishcaught = $4 AND placement1 = $5 AND totalweight = $6 AND placement2 = $7 AND biggestfish = $8 AND placement3 = $9 AND chat = $10
+			AND player = $3 AND fishcaught = $4 AND placement1 = $5 AND totalweight = $6 AND placement2 = $7 AND biggestfish = $8 AND placement3 = $9 AND chat = $10)
 		`, fish.Date.Add(time.Hour*-168), fish.Date, fish.Player, fish.Count, fish.FishPlacement, fish.TotalWeight, fish.WeightPlacement,
-				fish.Weight, fish.BiggestFishPlacement, fish.Chat).Scan(&count)
+				fish.Weight, fish.BiggestFishPlacement, fish.Chat).Scan(&exists)
 			if err != nil {
 				logs.Logs().Error().Err(err).
 					Str("Table", tournamenttable).
 					Str("Chat", fish.Chat).
-					Msg("Error counting existing results")
+					Msg("Error checking existing results")
 				return err
 			}
-			if count > 0 {
+			if exists {
 				continue
 			}
 
 			query := fmt.Sprintf("INSERT INTO %s ( player, playerid, fishcaught, placement1, totalweight, placement2, biggestfish, placement3, date, bot, chat, url) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)", tournamenttable)
-			_, err = tx.Exec(context.Background(), query, fish.Player, playerID, fish.Count, fish.FishPlacement, fish.TotalWeight,
-				fish.WeightPlacement, fish.Weight, fish.BiggestFishPlacement, fish.Date, fish.Bot, fish.Chat, fish.Url)
-			if err != nil {
-				logs.Logs().Error().Err(err).
-					Str("Table", tournamenttable).
-					Str("Chat", fish.Chat).
-					Str("Query", query).
-					Msg("Error inserting tournament data")
-				return err
-			}
+			batch.Queue(query, fish.Player, playerID, fish.Count, fish.FishPlacement,
+				fish.TotalWeight, fish.WeightPlacement, fish.Weight, fish.BiggestFishPlacement, fish.Date, fish.Bot, fish.Chat, fish.Url)
 
 			newResultCounts[fish.Chat]++
+			newData++
 
 		case "ambient":
 
@@ -558,34 +540,52 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 
 			if mode == "a" {
 
-				var count int
+				var exists bool
 				err := tx.QueryRow(context.Background(), `
-				SELECT COUNT(*) FROM `+ambiencetable+`
+				select exists (select 1 from `+ambiencetable+`
 				WHERE date <= $1::timestamp AND date >= $2::timestamp
-				AND player = $3 AND chat = $4 AND ambience = $5
-				`, fish.Date.Add(time.Second*5), fish.Date.Add(time.Second*-5), fish.Player, fish.Chat, fish.FishType).Scan(&count)
+				AND player = $3 AND chat = $4 AND ambience = $5)
+				`, fish.Date.Add(time.Second*5), fish.Date.Add(time.Second*-5), fish.Player, fish.Chat, fish.FishType).Scan(&exists)
 				if err != nil {
 					logs.Logs().Error().Err(err).
 						Str("Table", ambiencetable).
 						Msg("Error checking if ambience exists")
 					return err
 				}
-				if count > 0 {
+				if exists {
 					continue
 				}
 			}
 
 			query := fmt.Sprintf("INSERT INTO %s (ambience, ambiencename, location, sublocation, player, playerid, date, bot, chat, url) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)", ambiencetable)
-			_, err = tx.Exec(context.Background(), query, fish.FishType, ambienceName, location, subLocation, fish.Player, playerID, fish.Date, fish.Bot, fish.Chat, fish.Url)
-			if err != nil {
-				logs.Logs().Error().Err(err).
-					Str("Query", query).
-					Msg("Error inserting ambience data")
-				return err
-			}
+			batch.Queue(query, fish.FishType, ambienceName, location, subLocation, fish.Player, playerID, fish.Date, fish.Bot, fish.Chat, fish.Url)
 
 			newAmbienceCounts[fish.Chat]++
+			newData++
 		}
+	}
+
+	// because this is now sent here and not in tx.exec
+	// this means that if something gets checked for first time in mode a with all instances
+	// this will just add everything; since its not being added to db right away i think
+	// idk if this is good
+	results := tx.SendBatch(context.Background(), batch)
+
+	for i := range newData {
+		_, err := results.Exec()
+		if err != nil {
+			logs.Logs().Error().Err(err).
+				Int("Batch", i).
+				Msg("Error in batch")
+			return err
+		}
+	}
+
+	err = results.Close()
+	if err != nil {
+		logs.Logs().Error().Err(err).
+			Msg("Error closing batch results")
+		return err
 	}
 
 	if err := tx.Commit(context.Background()); err != nil {
