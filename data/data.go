@@ -232,7 +232,7 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 	fishNames := make(map[string]string)
 	ambienceNames := make(map[string]string)
 	locationsForAmbience := make(map[string]string)
-	sublocationsForLocation := make(map[string]string)
+	sublocationsForAmbience := make(map[string]string)
 
 	for chatName, chat := range config.Chat {
 		if chat.CheckFData {
@@ -541,12 +541,12 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 
 				ambienceNames[fish.FishType] = ambienceName
 				locationsForAmbience[fish.FishType] = location
-				sublocationsForLocation[location] = subLocation
+				sublocationsForAmbience[fish.FishType] = subLocation
 			}
 
 			ambienceName := ambienceNames[fish.FishType]
 			location := locationsForAmbience[fish.FishType]
-			subLocation := sublocationsForLocation[location]
+			subLocation := sublocationsForAmbience[fish.FishType]
 
 			if mode == "a" {
 

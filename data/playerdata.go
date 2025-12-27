@@ -382,6 +382,11 @@ func PlayerRecent(player string, dates Dates, urls map[time.Time][]string, pool 
 				Str("Player", player).
 				Msg("Cant find recent player in raw logs aswell!!!!!")
 			// idk how this can happen
+		} else {
+			logs.Logs().Info().
+				Str("Player", player).
+				Int("TwitchID", twitchID).
+				Msg("Found recent player in raw logs")
 		}
 
 	}
