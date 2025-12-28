@@ -18,7 +18,7 @@
 | 14    | rustnroll         | 🐙 octopus      | 124.17        | 2025-03-17 03:55:34 |
 | 15    | hashmeer_         | 🐙 octopus      | 123.72        | 2025-04-04 17:59:37 |
 | 16    | aaurie            | 🐊 crocodile    | 121.92        | 2025-03-08 07:10:45 |
-| 17    | dmag573           | 🐉 dragon       | 120.67        | 2025-04-08 05:35:20 |
+| 17    | theshadows86      | 🐉 dragon       | 120.67        | 2025-04-08 05:35:20 |
 | 18    | curiouscorvidae   | 🦭 seal         | 103.37        | 2025-11-17 02:49:01 |
 | 19    | zharan_keating    | 🐙 octopus      | 96.52         | 2025-09-15 03:43:26 |
 | 20    | sanfordthegrey    | 🐬 dolphin      | 96.28         | 2025-04-04 01:46:16 |
@@ -31,15 +31,15 @@
 | 27    | frostytangent     | 🐊 crocodile    | 77.06         | 2025-05-23 04:28:33 |
 | 28    | ratlover2244      | 🦕 sauropod     | 73.51         | 2025-03-11 05:49:46 |
 | 29    | blackberryking00  | 🐋 whale        | 69.25         | 2025-10-27 06:47:06 |
-| 30 🆕 | metalxml          | 🛒 shoppingcart | 68.75         | 2025-12-08 04:30:22 |
-| 31 ⬇  | midwestbaddie574  | 🦑 squid        | 62.59         | 2025-08-15 03:23:42 |
-| 32 ⬇  | jah_alexander     | 🪸 coral        | 60.80         | 2025-08-12 03:57:19 |
-| 33 ⬇  | brody5020         | 🦑 squid        | 60.29         | 2025-04-08 05:20:51 |
-| 34 ⬇  | slimdoggiedog     | 🐢 turtle       | 58.86         | 2025-03-17 03:26:26 |
-| 35 ⬇  | nobrockudvn       | 🦞 lobster      | 56.21         | 2025-08-02 03:46:23 |
-| 36 ⬇  | one_guy_123       | 🦞 lobster      | 53.50         | 2025-09-27 02:41:50 |
-| 37 ⬇  | dirvish           | 🐊 crocodile    | 50.24         | 2025-03-22 03:31:44 |
+| 30    | metalxml          | 🛒 shoppingcart | 68.75         | 2025-12-08 04:30:22 |
+| 31    | midwestbaddie574  | 🦑 squid        | 62.59         | 2025-08-15 03:23:42 |
+| 32    | jah_alexander     | 🪸 coral        | 60.80         | 2025-08-12 03:57:19 |
+| 33    | brody5020         | 🦑 squid        | 60.29         | 2025-04-08 05:20:51 |
+| 34    | slimdoggiedog     | 🐢 turtle       | 58.86         | 2025-03-17 03:26:26 |
+| 35    | nobrockudvn       | 🦞 lobster      | 56.21         | 2025-08-02 03:46:23 |
+| 36    | one_guy_123       | 🦞 lobster      | 53.50         | 2025-09-27 02:41:50 |
+| 37    | dirvish           | 🐊 crocodile    | 50.24         | 2025-03-22 03:31:44 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2025-12-14 09:55:44 UTC_
+_Last updated at 2025-12-28 10:37:47 UTC_

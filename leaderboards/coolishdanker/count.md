@@ -2,7 +2,7 @@
 
 | Rank  | Player            | Fish caught |
 |:------|:------------------|:------------|
-| 1 🥇  | fenix8            | 55 (+1)     |
+| 1 🥇  | fenix8            | 55          |
 | 2 🥈  | destructionvibe   | 24          |
 | 3 🥉  | jaial             | 19          |
 | 3 🥉  | yxnggon           | 19          |
@@ -11,10 +11,10 @@
 | 5     | kidnamedzan       | 18          |
 | 5     | turkld            | 18          |
 | 9     | digital_red_panda | 17          |
-| 10 ⬆  | chestnutbank      | 14 (+2)     |
+| 10    | chestnutbank      | 14          |
 | 10    | xmrsamx           | 14          |
-| 12 ⬇  | stevetheastronaut | 13          |
+| 12    | stevethewingman   | 13          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-12-14 09:51:05 UTC_
+_Last updated at 2025-12-28 10:37:51 UTC_

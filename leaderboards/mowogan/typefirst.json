@@ -194,6 +194,20 @@
 		"date": "2025-07-18T22:26:38Z",
 		"rank": 45
 	},
+	"compass": {
+		"player": "gofishgamer",
+		"playerid": 2944,
+		"weight": 11.08,
+		"bot": "gofishgame",
+		"fishtype": "🧭",
+		"fishname": "compass",
+		"catchtype": "normal",
+		"chat": "mowogan",
+		"fishid": 227584,
+		"chatid": 850,
+		"date": "2025-12-24T04:22:06Z",
+		"rank": 65
+	},
 	"coral": {
 		"player": "konsminator",
 		"playerid": 3143,
@@ -376,6 +390,34 @@
 		"date": "2025-06-23T16:00:57Z",
 		"rank": 1
 	},
+	"icecube": {
+		"player": "gibbbons",
+		"playerid": 4150,
+		"weight": 10.64,
+		"bot": "gofishgame",
+		"fishtype": "🧊",
+		"fishname": "icecube",
+		"catchtype": "normal",
+		"chat": "mowogan",
+		"fishid": 227447,
+		"chatid": 840,
+		"date": "2025-12-23T19:03:45Z",
+		"rank": 64
+	},
+	"iceskate": {
+		"player": "chestnutbank",
+		"playerid": 3005,
+		"weight": 0.81,
+		"bot": "gofishgame",
+		"fishtype": "⛸️",
+		"fishname": "iceskate",
+		"catchtype": "normal",
+		"chat": "mowogan",
+		"fishid": 228639,
+		"chatid": 884,
+		"date": "2025-12-27T01:20:45Z",
+		"rank": 68
+	},
 	"iphone": {
 		"player": "n1nzin_",
 		"playerid": 3447,
@@ -529,6 +571,20 @@
 		"date": "2025-06-26T16:51:05Z",
 		"rank": 23
 	},
+	"penguin": {
+		"player": "gofishgamer",
+		"playerid": 2944,
+		"weight": 39.64,
+		"bot": "gofishgame",
+		"fishtype": "🐧",
+		"fishname": "penguin",
+		"catchtype": "normal",
+		"chat": "mowogan",
+		"fishid": 227984,
+		"chatid": 865,
+		"date": "2025-12-25T06:34:43Z",
+		"rank": 67
+	},
 	"robin": {
 		"player": "konsminator",
 		"playerid": 3143,
@@ -598,6 +654,20 @@
 		"chatid": 247,
 		"date": "2025-07-21T16:26:56Z",
 		"rank": 49
+	},
+	"seal": {
+		"player": "gofishgamer",
+		"playerid": 2944,
+		"weight": 38.3,
+		"bot": "gofishgame",
+		"fishtype": "🦭",
+		"fishname": "seal",
+		"catchtype": "normal",
+		"chat": "mowogan",
+		"fishid": 227135,
+		"chatid": 823,
+		"date": "2025-12-22T22:53:23Z",
+		"rank": 63
 	},
 	"seaweed": {
 		"player": "konsminator",
@@ -863,5 +933,19 @@
 		"chatid": 8,
 		"date": "2025-06-23T19:26:16Z",
 		"rank": 7
+	},
+	"worm": {
+		"player": "gofishgamer",
+		"playerid": 2944,
+		"weight": 10.99,
+		"bot": "gofishgame",
+		"fishtype": "🪱",
+		"fishname": "worm",
+		"catchtype": "normal",
+		"chat": "mowogan",
+		"fishid": 227969,
+		"chatid": 864,
+		"date": "2025-12-25T05:25:21Z",
+		"rank": 66
 	}
 }

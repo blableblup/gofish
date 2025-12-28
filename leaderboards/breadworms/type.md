@@ -11,7 +11,7 @@
 | 7     | 🐻‍❄ polarbear       | 272.28        | larvaew                 | 2025-01-02 19:01:21 |
 | 8     | 🐍 snake           | 271.95        | miiiiisho               | 2024-01-09 01:20:50 |
 | 9     | 🐢 turtle          | 255.00        | leanmeister             | 2025-06-13 20:52:39 |
-| 10    | 🛢️ oildrum          | 251.70        | osnyisdead              | 2024-08-14 01:03:37 |
+| 10    | 🛢️ oildrum         | 251.70        | osnyisdead              | 2024-08-14 01:03:37 |
 | 11    | 🐙 octopus         | 198.60        | derinturitierutz        | 2023-12-27 14:54:34 |
 | 12    | 🐋 whale           | 159.84        | osnyatsky               | 2023-10-17 15:40:41 |
 | 13    | 🐊 crocodile       | 149.98        | kishma9                 | 2024-08-27 00:54:05 |
@@ -31,21 +31,21 @@
 | 27    | 🐈‍⬛ blackcat        | 67.48         | breadworms              | 2024-12-19 00:46:27 |
 | 28    | 🦐 shrimp          | 67.05         | 5pic3*                  | 2022-12-05 10:26:58 |
 | 29    | 🐟 fish            | 63.56         | konsminator             | 2024-11-03 06:20:44 |
-| 30    | 🗡️ dagger           | 47.73         | xz_xz                   | 2023-08-20 06:54:51 |
+| 30    | 🗡️ dagger          | 47.73         | xz_xz                   | 2023-08-20 06:54:51 |
 | 31    | 🐸 frog            | 47.16         | vaiastol                | 2024-09-08 14:39:42 |
 | 32    | 🦫 beaver          | 43.98         | bapqo                   | 2024-06-20 02:32:08 |
 | 33    | 🐧 penguin         | 41.60         | osnyatsky*              | 2022-12-26 11:29:32 |
 | 34    | 🦀 crab            | 38.91         | bussinongnocap          | 2023-09-05 06:10:03 |
-| 35    | 🐡 blowfish        | 35.66         | crazytown_bananapants   | 2023-08-24 09:30:28 |
-| 36    | 🛒 shoppingcart    | 34.05         | derinturitierutz        | 2025-01-01 18:01:51 |
-| 37    | 🕷️ spider           | 32.71         | leanmeister             | 2025-04-02 10:24:56 |
+| 35 ⬆  | 🛒 shoppingcart    | 37.06 (+3.01) | lluuuuucy               | 2025-12-24 16:14:34 |
+| 36 ⬇  | 🐡 blowfish        | 35.66         | crazytown_bananapants   | 2023-08-24 09:30:28 |
+| 37    | 🕷️ spider          | 32.71         | leanmeister             | 2025-04-02 10:24:56 |
 | 38    | 🥒 seacucumber     | 31.92         | destin357               | 2025-06-09 10:41:23 |
 | 39    | 🧽 sponge          | 29.73         | dazedforevermore        | 2023-08-24 08:42:37 |
 | 40    | 🧊 icecube         | 29.34         | dougiefresh_83          | 2024-12-31 21:24:39 |
-| 41 ⬆  | 🎰 slotmachine     | 29.00 (+5.47) | ritualofreanimation     | 2025-12-19 21:38:16 |
-| 42 ⬇  | 🐠 tropicalfish    | 28.79         | cimgu                   | 2025-03-28 16:25:42 |
-| 43 ⬇  | 🪳 cockroach       | 26.79         | fishingalt              | 2025-03-02 15:50:28 |
-| 44 ⬇  | 🎃 pumpkin         | 23.53         | larvaew                 | 2025-11-04 09:29:12 |
+| 41    | 🎰 slotmachine     | 29.00         | ritualofreanimation     | 2025-12-19 21:38:16 |
+| 42    | 🐠 tropicalfish    | 28.79         | cimgu                   | 2025-03-28 16:25:42 |
+| 43    | 🪳 cockroach       | 26.79         | fishingalt              | 2025-03-02 15:50:28 |
+| 44    | 🎃 pumpkin         | 23.53         | larvaew                 | 2025-11-04 09:29:12 |
 | 45    | 🦠 plankton        | 22.00         | osnyatsky               | 2024-01-03 09:00:25 |
 | 46    | 🍄‍🟫 mushroom        | 21.97         | lluuuuucy               | 2025-02-05 02:10:22 |
 | 47    | 🪼 jellyfish       | 21.87         | sicklymaidrobot         | 2023-08-04 03:47:25 |
@@ -59,7 +59,7 @@
 | 55    | 🦴 bone            | 14.50         | destin357               | 2025-08-28 15:22:01 |
 | 56    | 🐌 snail           | 14.24         | yliathim*               | 2022-12-05 13:25:16 |
 | 57    | 🎱 8ball           | 12.85         | qu4ttromila             | 2024-03-28 16:36:34 |
-| 58    | 🕶️ darksunglasses   | 12.80         | kishma9                 | 2025-08-25 00:11:30 |
+| 58    | 🕶️ darksunglasses  | 12.80         | kishma9                 | 2025-08-25 00:11:30 |
 | 59    | 🧸 teddybear       | 11.98         | destin357               | 2025-02-26 03:30:12 |
 | 60    | 🐦 cardinal        | 11.96         | julialuxel              | 2024-04-25 00:21:16 |
 | 61    | 🧃 beveragebox     | 11.87         | leanmeister             | 2025-06-12 05:56:46 |
@@ -78,7 +78,7 @@
 | 74    | 🍬 candy           | 5.97          | fishingalt              | 2025-11-04 09:33:33 |
 | 75    | 🧵 wireline        | 5.95          | ninjaross               | 2025-03-15 11:04:57 |
 | 76    | 🐚 shell           | 5.92          | cimgu                   | 2025-04-01 04:02:00 |
-| 77    | ☘️ clover           | 5.91          | derintu                 | 2025-10-17 11:04:19 |
+| 77    | ☘️ clover          | 5.91          | derintu                 | 2025-10-17 11:04:19 |
 | 78    | 🦉 owl             | 5.90          | cimgu                   | 2024-10-20 16:28:24 |
 | 79    | 🎏 lure            | 5.76          | fishingalt              | 2024-01-13 13:04:30 |
 | 80    | 🪝 hook            | 4.98          | sussy_amonge            | 2022-12-15 17:37:01 |
@@ -87,9 +87,9 @@
 | 83    | 🌰 acorn           | 3.98          | derintu                 | 2025-11-02 13:14:52 |
 | 84    | 🍁 leaf            | 3.87          | dazedforevermore        | 2025-11-04 21:35:08 |
 | 85    | 🪿 goose           | 3.41          | julialuxel              | 2025-01-15 04:08:39 |
-| 86    | 🕸️ spiderweb        | 3.38          | breadworms              | 2025-11-01 14:36:33 |
+| 86    | 🕸️ spiderweb       | 3.38          | breadworms              | 2025-11-01 14:36:33 |
 | 87    | 🌻 sunflower       | 2.99          | kishma9                 | 2025-08-13 23:02:21 |
-| 87    | ☂️ umbrella         | 2.99          | vaiastol                | 2024-07-14 15:25:04 |
+| 87    | ☂️ umbrella        | 2.99          | vaiastol                | 2024-07-14 15:25:04 |
 | 89    | 🍃 deadleaves      | 2.98          | ytp_dl                  | 2025-11-05 19:05:46 |
 | 90    | 👡 sandal          | 2.97          | fishingalt              | 2025-03-16 15:45:17 |
 | 90    | 🥀 wiltedflower    | 2.97          | cimgu                   | 2024-12-19 20:15:08 |
@@ -103,7 +103,7 @@
 | 98    | 🧦 socks           | 2.00          | osnyatsky*              | 2023-01-31 01:42:33 |
 | 98    | 🩴 thongsandal     | 2.00          | qu4ttromila             | 2023-08-26 15:36:36 |
 | 101   | 🩰 balletshoes     | 1.99          | qu4ttromila             | 2024-04-19 07:41:11 |
-| 101   | ⛸️ iceskate         | 1.99          | derinturitierutz        | 2024-12-23 15:56:24 |
+| 101   | ⛸️ iceskate        | 1.99          | derinturitierutz        | 2024-12-23 15:56:24 |
 | 103   | 👢 boot            | 1.98          | derinturitierutz        | 2023-12-30 12:35:00 |
 | 103   | 🪻 lupine          | 1.98          | ytp_dl                  | 2025-07-10 15:36:58 |
 | 105   | 🌿 seaweed         | 1.97          | comiqq                  | 2025-09-20 16:29:43 |
@@ -128,4 +128,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-12-21 10:05:35 UTC_
+_Last updated at 2025-12-28 10:42:01 UTC_

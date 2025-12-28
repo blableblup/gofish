@@ -2,10 +2,15 @@
 
 | Rank | Fish             | Weight in lbs | Player       | Date in UTC         |
 |:-----|:-----------------|:--------------|:-------------|:--------------------|
-| 78   | 🕯️ candle         | 0.00          | chestnutbank | 2025-12-18 03:56:48 |
-| 75   | 🍪 cookie        | 0.00          | respirate_   | 2025-12-18 03:55:46 |
+| 83   | 🧭 compass       | 4.10          | acornpond    | 2025-12-26 21:18:43 |
+| 82   | 🐧 penguin       | 12.30         | nottachasm   | 2025-12-24 05:22:35 |
+| 81   | 🧣 scarf         | 0.09          | chestnutbank | 2025-12-24 01:00:38 |
+| 80   | ⛸️ iceskate      | 1.56          | nottachasm   | 2025-12-23 23:18:44 |
+| 79   | 🪚 icesaw        | 0.57          | chestnutbank | 2025-12-23 20:29:22 |
+| 78   | 🕯️ candle        | 0.00          | chestnutbank | 2025-12-18 03:56:48 |
 | 75   | 🎀 wrappingpaper | 0.00          | respirate_   | 2025-12-18 03:55:46 |
-| 75   | ✉️ letter         | 0.00          | respirate_   | 2025-12-18 03:55:46 |
+| 75   | 🍪 cookie        | 0.00          | respirate_   | 2025-12-18 03:55:46 |
+| 75   | ✉️ letter        | 0.00          | respirate_   | 2025-12-18 03:55:46 |
 | 74   | 🦭 seal          | 20.69         | gofishgamer  | 2025-12-16 09:29:43 |
 | 73   | 🐳 bluewhale     | 183.48        | gofishgamer  | 2025-12-16 08:03:05 |
 | 72   | 🍄‍🟫 mushroom      | 10.37         | gofishgames  | 2025-12-16 06:47:29 |
@@ -15,7 +20,7 @@
 | 68   | 🔔 bell          | 0.00          | respirate_   | 2025-12-13 14:37:38 |
 | 67   | 🍄 oceanplant    | 6.25          | acornpond    | 2025-12-11 22:57:03 |
 | 66   | 🧤 gloves        | 0.88          | gofishgames  | 2025-12-11 22:17:35 |
-| 65   | 🐿️ squirrel       | 0.00          | gofishgamer  | 2025-12-11 07:02:29 |
+| 65   | 🐿️ squirrel      | 0.00          | gofishgamer  | 2025-12-11 07:02:29 |
 | 64   | 🦫 beaver        | 20.02         | gofishgamer  | 2025-12-11 03:36:21 |
 | 63   | 🌿 seaweed       | 0.07          | acornpond    | 2025-12-11 02:58:03 |
 | 62   | 🥀 wiltedflower  | 2.74          | nottachasm   | 2025-12-11 02:55:53 |
@@ -43,7 +48,7 @@
 | 40   | 🪹 emptynest     | 8.17          | chestnutbank | 2025-09-22 00:16:00 |
 | 39   | 🪺 nestwitheggs  | 6.28          | chestnutbank | 2025-09-21 21:39:34 |
 | 38   | 🦇 bat           | 5.23          | respirate_   | 2025-09-21 17:43:29 |
-| 37   | ☘️ clover         | 3.41          | chestnutbank | 2025-09-20 03:48:10 |
+| 37   | ☘️ clover        | 3.41          | chestnutbank | 2025-09-20 03:48:10 |
 | 36   | 📱 iphone        | 0.88          | chestnutbank | 2025-09-19 23:16:33 |
 | 35   | 🧵 wireline      | 0.38          | respirate_   | 2025-09-19 22:11:04 |
 | 34   | 🐙 octopus       | 75.23         | ajspyman     | 2025-09-19 21:52:10 |
@@ -52,7 +57,7 @@
 | 31   | 🪰 fly           | 0.05          | respirate_   | 2025-08-27 11:29:58 |
 | 30   | 🪱 worm          | 0.65          | gofishgamer  | 2025-08-27 02:58:35 |
 | 29   | 🦋 butterfly     | 0.26          | gofishgamer  | 2025-08-27 01:48:21 |
-| 28   | 🕸️ spiderweb      | 0.05          | respirate_   | 2025-08-27 00:41:03 |
+| 28   | 🕸️ spiderweb     | 0.05          | respirate_   | 2025-08-27 00:41:03 |
 | 27   | 🐝 bee           | 0.93          | chestnutbank | 2025-08-27 00:36:51 |
 | 26   | 🦴 bone          | 13.26         | gofishgamer  | 2025-08-26 22:11:54 |
 | 25   | 🦟 mosquito      | 0.19          | chestnutbank | 2025-08-26 17:40:54 |
@@ -60,7 +65,7 @@
 | 23   | 🪻 lupine        | 0.76          | respirate_   | 2025-08-26 15:15:53 |
 | 22   | 🩴 thongsandal   | 0.89          | respirate_   | 2025-08-25 17:10:22 |
 | 21   | 🐚 shell         | 2.95          | respirate_   | 2025-08-25 07:23:17 |
-| 20   | 🕷️ spider         | 5.75          | chestnutbank | 2025-08-25 06:52:04 |
+| 20   | 🕷️ spider        | 5.75          | chestnutbank | 2025-08-25 06:52:04 |
 | 19   | 🐉 dragon        | 215.79        | gofishgamer  | 2025-08-25 06:51:21 |
 | 18   | 🦈 shark         | 115.62        | respirate_   | 2025-08-25 04:54:55 |
 | 17   | 💀 skull         | 5.94          | chestnutbank | 2025-08-25 02:38:36 |
@@ -81,4 +86,4 @@
 | 2    | 🐟 fish          | 9.95          | juliilan     | 2024-05-22 23:39:16 |
 | 1    | 🪝 hook          | 0.34          | breadworms   | 2024-05-15 14:30:25 |
 
-_Last updated at 2025-12-21 10:08:28 UTC_
+_Last updated at 2025-12-28 10:37:55 UTC_

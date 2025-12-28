@@ -28,7 +28,7 @@
 | 24    | 🐟 fish            | 61.35         | huuuuuuuuuuuuuuuuuuuuuurz | 2025-01-03 12:13:18 |
 | 25    | 🦐 shrimp          | 58.63         | bubinga                   | 2025-08-25 21:31:19 |
 | 26    | 🐀 rat             | 54.57         | theevirus                 | 2024-12-23 19:12:05 |
-| 27    | 🗡️ dagger           | 46.27         | feelsaceman               | 2025-08-02 13:25:15 |
+| 27    | 🗡️ dagger          | 46.27         | feelsaceman               | 2025-08-02 13:25:15 |
 | 28    | 🦫 beaver          | 43.97         | theevirus                 | 2025-10-18 15:26:06 |
 | 29    | 🐸 frog            | 43.36         | ranctious                 | 2025-10-16 12:03:03 |
 | 30    | 🎰 slotmachine     | 42.00         | iflya320                  | 2025-10-28 19:16:30 |
@@ -40,7 +40,7 @@
 | 36    | 🧊 icecube         | 27.54         | jr_mime                   | 2024-12-28 15:51:20 |
 | 37    | 🐠 tropicalfish    | 26.16         | wowitsdub                 | 2025-03-24 19:49:25 |
 | 38    | 🪳 cockroach       | 25.81         | ranctious                 | 2025-11-12 22:03:46 |
-| 39    | 🕷️ spider           | 23.83         | wowitsdub                 | 2025-02-20 15:12:47 |
+| 39    | 🕷️ spider          | 23.83         | wowitsdub                 | 2025-02-20 15:12:47 |
 | 40    | 🪼 jellyfish       | 22.93         | eeziiii                   | 2025-07-22 05:57:22 |
 | 41    | 🎃 pumpkin         | 22.41         | nndiana                   | 2025-11-02 05:09:21 |
 | 42    | 🍄‍🟫 mushroom        | 21.92         | gorillapark               | 2025-01-18 00:47:17 |
@@ -53,13 +53,13 @@
 | 49    | 🧞‍♂ genie           | 16.68         | feelsaceman               | 2025-10-06 14:20:46 |
 | 50    | 🪀 bobber          | 15.44         | wuh6                      | 2024-12-25 02:55:50 |
 | 51    | 🪵 log             | 14.90         | wowitsdub                 | 2025-05-21 11:27:21 |
-| 52    | 🕶️ darksunglasses   | 12.23         | huuuuuuuuuuuuuuuuuuuuuurz | 2025-07-28 11:49:10 |
+| 52    | 🕶️ darksunglasses  | 12.23         | huuuuuuuuuuuuuuuuuuuuuurz | 2025-07-28 11:49:10 |
 | 53    | 🐌 snail           | 11.93         | iflya320                  | 2025-07-22 17:25:11 |
 | 54    | 👒 hat             | 11.92         | bcarw                     | 2025-11-05 00:26:47 |
 | 55    | 🧸 teddybear       | 11.53         | bubinga                   | 2025-02-11 20:24:44 |
 | 56    | 📱 iphone          | 11.49         | supibot                   | 2024-12-19 11:50:57 |
-| 57 ⬆  | 🪺 nestwitheggs    | 10.94 (+0.13) | feelsaceman               | 2025-12-12 13:24:57 |
-| 58 ⬇  | 🪹 emptynest       | 10.84         | iflya320                  | 2025-02-27 11:11:29 |
+| 57    | 🪺 nestwitheggs    | 10.94         | feelsaceman               | 2025-12-12 13:24:57 |
+| 58    | 🪹 emptynest       | 10.88 (+0.04) | rancbot                   | 2025-12-22 12:45:49 |
 | 59    | 🪁 kite            | 10.79         | huuuuuuuuuuuuuuuuuuuuuurz | 2025-07-13 01:08:24 |
 | 60    | 🧥 coat            | 10.72         | iflya320                  | 2025-05-02 13:12:42 |
 | 61    | 🎱 8ball           | 10.70         | zwockel01                 | 2024-12-24 12:24:07 |
@@ -73,7 +73,7 @@
 | 69    | 🐦 cardinal        | 8.94          | iflya320                  | 2025-04-05 11:05:15 |
 | 70    | 🦇 bat             | 8.68          | ocrw                      | 2025-06-22 10:12:16 |
 | 71    | 🧴 sunscreenbottle | 6.65          | ewpert1                   | 2025-08-26 14:36:48 |
-| 72    | ☘️ clover           | 5.98          | lobuhtomy                 | 2025-09-19 16:26:42 |
+| 72    | ☘️ clover          | 5.98          | lobuhtomy                 | 2025-09-19 16:26:42 |
 | 73    | 🐚 shell           | 5.92          | gorillapark               | 2025-06-12 01:25:11 |
 | 74    | 🥫 cannedfood      | 5.82          | theevirus                 | 2025-03-07 18:57:44 |
 | 75    | 🎏 lure            | 5.67          | eeziiii                   | 2025-01-25 22:20:23 |
@@ -85,17 +85,17 @@
 | 81    | 🌰 acorn           | 4.00          | bcarw                     | 2025-10-09 16:49:05 |
 | 82    | 🐦‍⬛ robin           | 3.98          | glorianeq                 | 2025-04-09 14:51:25 |
 | 83    | 🍱 tacklebox       | 3.70          | bcarw                     | 2025-11-03 16:18:54 |
-| 84    | 🕸️ spiderweb        | 3.66          | bcarw                     | 2025-11-02 00:08:11 |
+| 84    | 🕸️ spiderweb       | 3.66          | bcarw                     | 2025-11-02 00:08:11 |
 | 85    | 🪿 goose           | 3.49          | wuh6                      | 2024-12-27 18:55:27 |
 | 86    | 👡 sandal          | 2.99          | eeziiii                   | 2025-04-03 19:02:08 |
 | 87    | 🍃 deadleaves      | 2.98          | iflya320                  | 2025-10-31 21:26:01 |
 | 87    | 🌷 tulip           | 2.98          | lobuhtomy                 | 2025-03-17 14:23:51 |
-| 87    | ☂️ umbrella         | 2.98          | veny2lbs                  | 2025-08-22 17:36:52 |
+| 87    | ☂️ umbrella        | 2.98          | veny2lbs                  | 2025-08-22 17:36:52 |
 | 90    | 🌻 sunflower       | 2.92          | iflya320                  | 2025-06-27 15:38:21 |
-| 91    | 🥀 wiltedflower    | 2.82          | lobuhtomy                 | 2024-12-22 14:25:26 |
+| 91    | 🥀 wiltedflower    | 2.87 (+0.05)  | iflya350                  | 2025-12-23 17:51:23 |
 | 92    | 🍎 apple           | 2.51          | bubinga                   | 2025-10-30 18:14:34 |
 | 92    | 🍁 leaf            | 2.51          | bubinga                   | 2025-11-02 15:37:50 |
-| 94    | ⛸️ iceskate         | 2.00          | eeziiii                   | 2024-12-31 04:54:11 |
+| 94    | ⛸️ iceskate        | 2.00          | eeziiii                   | 2024-12-31 04:54:11 |
 | 94    | 🧦 socks           | 2.00          | theevirus                 | 2025-08-02 16:04:28 |
 | 96    | 👢 boot            | 1.99          | nndiana                   | 2025-01-07 20:55:21 |
 | 96    | 🥪 sandwich        | 1.99          | huuuuuuuuuuuuuuuuuuuuuurz | 2025-08-13 05:41:48 |
@@ -125,4 +125,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-12-14 09:54:04 UTC_
+_Last updated at 2025-12-28 10:42:26 UTC_

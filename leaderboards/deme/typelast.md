@@ -11,7 +11,7 @@
 | 22   | 🪝 hook         | 0.65          | desidejro       | 2025-11-01 11:50:34 |
 | 21   | 🦈 shark        | 101.30        | respirate_      | 2025-10-31 21:13:55 |
 | 20   | 🐟 fish         | 0.67          | commanda_u      | 2025-10-15 19:49:16 |
-| 19   | 🐋 whale        | 2.81          | aim1138         | 2025-09-24 11:44:21 |
+| 19   | 🐋 whale        | 2.81          | aimuuwu         | 2025-09-24 11:44:21 |
 | 18   | 🦐 shrimp       | 5.07          | flummoxedfungus | 2025-09-17 17:59:22 |
 | 17   | 🐊 crocodile    | 84.19         | soopyboo32      | 2025-09-12 15:51:25 |
 | 16   | 🪳 cockroach    | 2.09          | soopyboo32      | 2025-09-11 10:23:24 |
@@ -31,4 +31,4 @@
 | 2    | 🐬 dolphin      | 89.33         | commanda_u      | 2025-05-22 11:55:44 |
 | 1    | 🐡 blowfish     | 8.96          | commanda_u      | 2025-05-18 21:28:28 |
 
-_Last updated at 2025-12-14 09:51:02 UTC_
+_Last updated at 2025-12-28 10:42:53 UTC_

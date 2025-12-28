@@ -2,8 +2,8 @@
 
 | Rank  | Player           | Fish caught |
 |:------|:-----------------|:------------|
-| 1 🥇  | derintu          | 177 (+2)    |
-| 2 🥈  | lluuuuucy        | 139         |
+| 1 🥇  | derintu          | 192 (+15)   |
+| 2 🥈  | lluuuuucy        | 140 (+1)    |
 | 3 🥉  | leanmeister      | 77          |
 | 4     | respirate_       | 63          |
 | 5     | derinturitierutz | 32          |
@@ -16,4 +16,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-12-21 10:05:47 UTC_
+_Last updated at 2025-12-28 10:37:51 UTC_

@@ -7,11 +7,11 @@
 | 3 🥉  | pompadourdelinquent | 43        |
 | 4     | hello0d             | 39        |
 | 5     | poioce              | 38        |
-| 6     | goopy777            | 35 (+1)   |
+| 6     | goopy777            | 35        |
 | 7     | teeto               | 31        |
 | 8     | cptblack_           | 30        |
 | 9     | e1d2f3              | 29        |
-| 10    | jakthejanitor       | 27        |
+| 9 ⬆   | jakthejanitor       | 29 (+2)   |
 | 11    | wombatbrownies      | 21        |
 | 12    | crunch_sack         | 20        |
 | 13    | yaykaiza            | 16        |
@@ -22,10 +22,10 @@
 | 18    | akasamoyed          | 11        |
 | 18    | piz_z               | 11        |
 | 20    | blitzrailgun        | 10        |
-| 20    | maurgauna           | 10        |
+| 20    | jollygana           | 10        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2025-12-21 10:06:01 UTC_
+_Last updated at 2025-12-28 10:37:52 UTC_

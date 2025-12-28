@@ -5,7 +5,7 @@
 | 131  | 🍊 orange          | 0.00          | notomji                 | 2025-12-18 03:39:22 |
 | 130  | 🍱 tacklebox       | 2.13          | derinturitierutz        | 2025-11-01 12:30:09 |
 | 129  | 🍎 apple           | 0.40          | cimgu                   | 2025-10-30 04:57:14 |
-| 128  | 🕯️ candle           | 0.00          | breadworms              | 2025-10-30 01:36:45 |
+| 128  | 🕯️ candle          | 0.00          | breadworms              | 2025-10-30 01:36:45 |
 | 127  | 🎃 pumpkin         | 3.70          | breadworms              | 2025-10-30 01:36:18 |
 | 126  | 🦂 scorpion        | 0.92          | fishingalt              | 2025-08-28 08:12:44 |
 | 125  | 🐞 ladybug         | 0.19          | breadworms              | 2025-08-27 17:17:18 |
@@ -23,7 +23,7 @@
 | 113  | 🐝 bee             | 1.25          | lluuuuucy               | 2025-06-24 11:19:51 |
 | 112  | 🦋 butterfly       | 0.18          | destin357               | 2025-06-24 10:01:52 |
 | 111  | 🍇 crowberries     | 0.79          | derinturitierutz        | 2025-06-23 19:30:00 |
-| 110  | 🕸️ spiderweb        | 0.10          | larvaew                 | 2025-06-22 16:54:56 |
+| 110  | 🕸️ spiderweb       | 0.10          | larvaew                 | 2025-06-22 16:54:56 |
 | 109  | 🐛 caterpillar     | 0.47          | lluuuuucy               | 2025-06-22 07:39:00 |
 | 108  | 🫐 bilberries      | 0.01          | larvaew                 | 2025-06-22 00:11:05 |
 | 107  | 🪰 fly             | 0.07          | destin357               | 2025-06-21 23:33:39 |
@@ -37,12 +37,12 @@
 | 99   | 🛒 shoppingcart    | 34.05         | derinturitierutz        | 2025-01-01 18:01:51 |
 | 98   | 🧥 coat            | 1.85          | gstaman911              | 2025-01-01 13:14:00 |
 | 97   | 🪿 goose           | 2.44          | leanmeister             | 2024-12-31 17:08:06 |
+| 94   | ✉️ letter          | 0.00          | derinturitierutz        | 2024-12-24 10:24:51 |
 | 94   | 🎀 wrappingpaper   | 0.00          | derinturitierutz        | 2024-12-24 10:24:51 |
 | 94   | 🍪 cookie          | 0.00          | derinturitierutz        | 2024-12-24 10:24:51 |
-| 94   | ✉️ letter           | 0.00          | derinturitierutz        | 2024-12-24 10:24:51 |
 | 93   | 🎁 present         | 0.00          | breadworms              | 2024-12-24 09:32:34 |
 | 92   | 🐀 rat             | 75.78         | fishingalt              | 2024-12-23 14:44:14 |
-| 91   | 🐿️ squirrel         | 0.00          | larvaew                 | 2024-12-21 19:36:22 |
+| 91   | 🐿️ squirrel        | 0.00          | larvaew                 | 2024-12-21 19:36:22 |
 | 90   | 🔔 bell            | 0.00          | leanmeister             | 2024-12-20 14:49:29 |
 | 89   | 🥀 wiltedflower    | 2.97          | cimgu                   | 2024-12-19 20:15:08 |
 | 88   | 🐈‍⬛ blackcat        | 67.48         | breadworms              | 2024-12-19 00:46:27 |
@@ -59,15 +59,15 @@
 | 77   | 🪺 nestwitheggs    | 9.42          | miiiiisho               | 2024-03-28 04:15:03 |
 | 76   | 🦫 beaver          | 17.95         | kishma9                 | 2024-03-28 01:58:22 |
 | 75   | 🌹 rose            | 2.29          | lluuuuucy               | 2024-03-28 01:11:25 |
-| 74   | ☘️ clover           | 3.12          | derinturitierutz        | 2024-03-28 00:59:39 |
+| 74   | ☘️ clover          | 3.12          | derinturitierutz        | 2024-03-28 00:59:39 |
 | 73   | 🧵 wireline        | 0.66          | lluuuuucy               | 2024-03-28 00:26:26 |
 | 72   | 🎱 8ball           | 7.11          | kishma9                 | 2024-03-28 00:11:52 |
 | 71   | 📱 iphone          | 2.49          | fishingalt              | 2024-03-28 00:02:47 |
-| 70   | 🛢️ oildrum          | 204.30        | sussy_amonge            | 2023-08-23 01:40:04 |
+| 70   | 🛢️ oildrum         | 204.30        | sussy_amonge            | 2023-08-23 01:40:04 |
 | 69   | 🪀 bobber          | 0.00          | derinturitierutz        | 2023-08-05 11:49:02 |
 | 68   | 🥫 cannedfood      | 0.77          | dazedforevermore        | 2023-06-25 11:03:12 |
 | 67   | 🩲 briefs          | 10.18         | osnyatsky*              | 2023-06-24 22:57:55 |
-| 66   | 🕶️ darksunglasses   | 4.32          | sussy_amonge            | 2023-06-18 17:37:30 |
+| 66   | 🕶️ darksunglasses  | 4.32          | sussy_amonge            | 2023-06-18 17:37:30 |
 | 65   | 🧃 beveragebox     | 5.08          | osnyatsky*              | 2023-06-18 16:03:34 |
 | 64   | 🩴 thongsandal     | 0.11          | booty_bread             | 2023-06-17 09:59:31 |
 | 63   | 🪼 jellyfish       | 21.15         | sussy_amonge            | 2023-06-17 05:51:12 |
@@ -91,18 +91,18 @@
 | 45   | 👢 boot            | 1.61          | crinche*                | 2022-12-19 21:06:42 |
 | 44   | 🦭 seal            | 43.66         | breadworms              | 2022-12-19 14:23:04 |
 | 43   | 🧭 compass         | 5.31          | yliathim*               | 2022-12-19 12:45:04 |
-| 42   | 🧤 gloves          | 0.98          | kildofris*              | 2022-12-19 08:09:30 |
+| 42   | 🧤 gloves          | 0.98          | kmskildo*               | 2022-12-19 08:09:30 |
 | 41   | 🍬 candy           | 2.60          | 5pic3*                  | 2022-12-19 03:20:33 |
 | 40   | 🪨 rock            | 8.22          | yliathim*               | 2022-12-18 09:37:21 |
 | 39   | 🪳 cockroach       | 6.18          | lagggm*                 | 2022-12-17 03:52:45 |
 | 38   | 🪱 worm            | 18.40         | crinche*                | 2022-12-13 23:29:37 |
 | 37   | 🪶 feather         | 0.06          | ninjaross*              | 2022-12-13 10:55:49 |
-| 36   | ☂️ umbrella         | 2.79          | kadaris4h*              | 2022-12-13 07:36:18 |
+| 36   | ☂️ umbrella        | 2.79          | kadaris4h*              | 2022-12-13 07:36:18 |
 | 35   | 🩰 balletshoes     | 0.08          | ninjaross*              | 2022-12-13 05:11:17 |
 | 34   | 🥒 seacucumber     | 4.95          | apulanta_*              | 2022-12-13 03:58:24 |
-| 33   | 🗡️ dagger           | 10.85         | yliathim*               | 2022-12-06 22:09:15 |
-| 32   | ⛸️ iceskate         | 1.89          | osnyatsky*              | 2022-12-06 13:47:09 |
-| 31   | 🕷️ spider           | 30.98         | 03h7*                   | 2022-12-05 22:59:07 |
+| 33   | 🗡️ dagger          | 10.85         | yliathim*               | 2022-12-06 22:09:15 |
+| 32   | ⛸️ iceskate        | 1.89          | osnyatsky*              | 2022-12-06 13:47:09 |
+| 31   | 🕷️ spider          | 30.98         | 03h7*                   | 2022-12-05 22:59:07 |
 | 30   | 🐋 whale           | 97.19         | breadworms              | 2022-12-05 22:54:57 |
 | 29   | 🧜‍♀️ mermaid         | 95.70         | mitgliederversammlung   | 2022-12-05 21:30:37 |
 | 28   | 🐍 snake           | 14.25         | kadaris4h*              | 2022-12-05 17:03:05 |
@@ -116,7 +116,7 @@
 | 20   | 🐉 dragon          | 29.19         | miiiiisho               | 2022-12-04 11:11:06 |
 | 19   | 🧦 socks           | 0.03          | bobbysan__*             | 2022-12-04 09:01:38 |
 | 18   | 🌿 seaweed         | 0.62          | yliathim*               | 2022-12-04 08:39:15 |
-| 17   | 🦀 crab            | 2.69          | kildofris*              | 2022-12-04 06:25:04 |
+| 17   | 🦀 crab            | 2.69          | kmskildo*               | 2022-12-04 06:25:04 |
 | 16   | 🐳 bluewhale       | 70.36         | sussy_amonge            | 2022-12-04 05:15:09 |
 | 15   | 🪸 coral           | 5.10          | bobbysan__*             | 2022-12-04 04:58:31 |
 | 14   | 🐊 crocodile       | 136.38        | miiiiisho               | 2022-12-04 04:57:53 |
@@ -134,4 +134,4 @@
 | 2    | 🐸 frog            | 4.76          | miiiiisho               | 2022-12-04 01:04:30 |
 | 1    | 🦐 shrimp          | 29.58         | lagggm*                 | 2022-12-04 00:58:55 |
 
-_Last updated at 2025-12-21 10:08:28 UTC_
+_Last updated at 2025-12-28 10:37:56 UTC_
