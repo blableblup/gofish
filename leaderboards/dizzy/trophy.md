@@ -3,7 +3,7 @@
 | Rank  | Player         | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points |
 |:------|:---------------|:------------|:-----------------|:-----------------|:-------|
 | 1 🥇  | buhl00n        | 53          | 20               | 5                | 181.5  |
-| 2 🥈  | ben_vincent    | 15          | 10               | 4                | 57.0   |
+| 2 🥈  | nolifeben1     | 15          | 10               | 4                | 57.0   |
 | 3 🥉  | gimmeschmoneys | 14          | 10               | 5                | 54.5   |
 | 4     | lolspers       | 3           | 7                | 7                | 19.5   |
 | 5     | vagdy          | 6           | 0                | 2                | 19.0   |
@@ -20,4 +20,4 @@
 | 16    | kyonuwu        | 0           | 1                | 1                | 1.5    |
 | 17    | ofaisalz       | 0           | 0                | 2                | 1.0    |
 
-_Last updated at 2025-12-26 21:49:58 UTC_
+_Last updated at 2025-12-30 17:36:13 UTC_

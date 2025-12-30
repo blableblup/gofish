@@ -2,14 +2,14 @@
 
 | Rank  | Player                    | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points       |
 |:------|:--------------------------|:------------|:-----------------|:-----------------|:-------------|
-| 1 🥇  | lluuuuucy                 | 36          | 71 (+3)          | 40               | 199.0 (+3.0) |
-| 2 🥈  | osnyisdead                | 48 (+3)     | 38               | 11               | 187.5 (+9.0) |
+| 1 🥇  | lluuuuucy                 | 36          | 73 (+2)          | 40               | 201.0 (+2.0) |
+| 2 🥈  | osnyisdead                | 50 (+2)     | 39 (+1)          | 11               | 194.5 (+7.0) |
 | 3 🥉  | leanmeister               | 51          | 16               | 12               | 175.0        |
 | 4     | puzzlow                   | 35          | 15               | 14               | 127.0        |
 | 5     | destin357                 | 32          | 21               | 7                | 120.5        |
 | 6     | osnyatsky                 | 31          | 24               | 6                | 120.0        |
 | 7     | derinturitierutz          | 35          | 7                | 15               | 119.5        |
-| 8     | derintu                   | 17          | 23               | 18               | 83.0         |
+| 8     | derintu                   | 17          | 23               | 19 (+1)          | 83.5 (+0.5)  |
 | 9     | qu4ttromila               | 11          | 19               | 22               | 63.0         |
 | 10    | kishma9                   | 11          | 19               | 11               | 57.5         |
 | 11    | miiiiisho                 | 8           | 21               | 14               | 52.0         |
@@ -17,17 +17,17 @@
 | 13    | sussy_amonge              | 12          | 4                | 7                | 43.5         |
 | 14    | sicklymaidrobot           | 5           | 10               | 26               | 38.0         |
 | 15    | comiqq                    | 5           | 14               | 13               | 35.5         |
-| 16    | fishingalt                | 5           | 9                | 13               | 30.5         |
+| 16    | fishingalt                | 5           | 9                | 15 (+2)          | 31.5 (+1.0)  |
 | 17    | cimgu                     | 3           | 3                | 11               | 17.5         |
 | 18    | booty_bread               | 4           | 2                | 6                | 17.0         |
 | 19    | ryebreadward              | 3           | 3                | 6                | 15.0         |
 | 20    | ninjaross                 | 2           | 2                | 10               | 13.0         |
-| 21    | dougiefresh_83            | 2           | 2                | 4                | 10.0         |
-| 21    | respirate_                | 2           | 2                | 4                | 10.0         |
-| 23    | idini                     | 1           | 1                | 10               | 9.0          |
-| 24 ⬆  | gstaman911                | 0           | 4                | 7 (+2)           | 7.5 (+1.0)   |
-| 24    | whitecardrifting          | 1           | 1                | 7                | 7.5          |
-| 26 ⬇  | larvaew                   | 1           | 2                | 4                | 7.0          |
+| 21 ⬆  | gstaman911                | 1 (+1)      | 4                | 7                | 10.5 (+3.0)  |
+| 22 ⬇  | dougiefresh_83            | 2           | 2                | 4                | 10.0         |
+| 22 ⬇  | respirate_                | 2           | 2                | 4                | 10.0         |
+| 24 ⬇  | idini                     | 1           | 1                | 10               | 9.0          |
+| 25 ⬇  | wcd0                      | 1           | 1                | 7                | 7.5          |
+| 26    | larvaew                   | 1           | 2                | 4                | 7.0          |
 | 27    | comiiiiiq                 | 2           | 0                | 0                | 6.0          |
 | 27    | lazuli672                 | 2           | 0                | 0                | 6.0          |
 | 29    | julialuxel                | 1           | 2                | 0                | 5.0          |
@@ -40,7 +40,7 @@
 | 35    | notomji                   | 0           | 2                | 2                | 3.0          |
 | 35    | receipts                  | 0           | 2                | 2                | 3.0          |
 | 38    | houseofleaves             | 0           | 2                | 1                | 2.5          |
-| 38    | selmaself                 | 0           | 1                | 3                | 2.5          |
+| 38    | pinksynthesis28           | 0           | 1                | 3                | 2.5          |
 | 40    | breadworms                | 0           | 0                | 4                | 2.0          |
 | 40    | bussinongnocap            | 0           | 1                | 2                | 2.0          |
 | 42    | kaasppeerr                | 0           | 0                | 3                | 1.5          |
@@ -52,4 +52,4 @@
 | 46    | mochi_uygqzidbjizjkbehuiw | 0           | 0                | 1                | 0.5          |
 | 46    | niiy                      | 0           | 0                | 1                | 0.5          |
 
-_Last updated at 2025-12-26 21:49:58 UTC_
+_Last updated at 2025-12-30 17:36:13 UTC_

@@ -34,18 +34,19 @@
 | 30    | amu1g                     | 37          |
 | 30    | commanda_u                | 37          |
 | 30    | pengeg                    | 37          |
-| 33 🆕 | disappointingtrash        | 36          |
-| 34 ⬇  | divra__                   | 33          |
-| 35 ⬇  | glorianeq                 | 32          |
-| 36 ⬇  | restartmikel              | 31          |
-| 37 ⬇  | noconcept_                | 29          |
-| 38 ⬇  | avhsty                    | 28          |
-| 39 ⬇  | creepycode                | 26          |
-| 40 ⬇  | angus_lpc                 | 24          |
-| 40 ⬇  | seryxx                    | 24          |
-| 42 ⬇  | kevinlukejager            | 23          |
-| 43 ⬇  | afju*                     | 21          |
+| 33    | disappointingtrash        | 36          |
+| 34    | divra__                   | 33          |
+| 35    | glorianeq                 | 32          |
+| 36    | restartmikel              | 31          |
+| 37    | noconcept_                | 29          |
+| 38    | avhsty                    | 28          |
+| 39    | creepycode                | 26          |
+| 40    | angus_lpc                 | 24          |
+| 40    | seryxx                    | 24          |
+| 42    | kevinlukejager            | 23          |
+| 43 🆕 | bananenshak3              | 22          |
+| 44 ⬇  | afju*                     | 21          |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2025-12-26 21:49:58 UTC_
+_Last updated at 2025-12-30 17:36:13 UTC_

@@ -1,23 +1,23 @@
 ### Leaderboard for the weekly tournaments in wuh6's chat
 
-| Rank  | Player                    | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points      |
-|:------|:--------------------------|:------------|:-----------------|:-----------------|:------------|
-| 1 🥇  | iflya320                  | 44          | 28               | 9                | 164.5       |
-| 2 🥈  | bubinga                   | 19          | 27 (+1)          | 23               | 95.5 (+1.0) |
-| 3 🥉  | eeziiii                   | 18          | 21               | 23               | 86.5        |
-| 4     | theevirus                 | 13          | 17               | 27               | 69.5        |
-| 5     | ranctious                 | 18 (+2)     | 8                | 1                | 62.5 (+6.0) |
-| 6     | huuuuuuuuuuuuuuuuuuuuuurz | 12 (+1)     | 11 (+1)          | 23 (+1)          | 58.5 (+4.5) |
-| 7     | lobuhtomy                 | 11          | 10 (+1)          | 12               | 49.0 (+1.0) |
-| 8     | gorillapark               | 6           | 8                | 10 (+2)          | 31.0 (+1.0) |
-| 9     | wowitsdub                 | 6           | 5                | 9                | 27.5        |
-| 10    | nndiana                   | 6           | 5                | 6                | 26.0        |
-| 11    | veny2lbs                  | 3           | 2                | 6                | 14.0        |
-| 12    | bluberry                  | 1           | 0                | 0                | 3.0         |
-| 13    | sandwichsundays           | 0           | 2                | 1                | 2.5         |
-| 14    | flvx_flux                 | 0           | 1                | 1                | 1.5         |
-| 15    | caprisen_                 | 0           | 1                | 0                | 1.0         |
-| 15    | mazzo_tv                  | 0           | 0                | 2                | 1.0         |
-| 17    | teddbearcs                | 0           | 0                | 1                | 0.5         |
+| Rank  | Player                    | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points       |
+|:------|:--------------------------|:------------|:-----------------|:-----------------|:-------------|
+| 1 🥇  | iflya320                  | 44          | 29 (+1)          | 9                | 165.5 (+1.0) |
+| 2 🥈  | bubinga                   | 21 (+2)     | 27               | 24 (+1)          | 102.0 (+6.5) |
+| 3 🥉  | eeziiii                   | 18          | 21               | 23               | 86.5         |
+| 4     | theevirus                 | 13          | 17               | 27               | 69.5         |
+| 5     | ranctious                 | 19 (+1)     | 10 (+2)          | 1                | 67.5 (+5.0)  |
+| 6     | huuuuuuuuuuuuuuuuuuuuuurz | 12          | 11               | 23               | 58.5         |
+| 7     | lobuhtomy                 | 11          | 10               | 12               | 49.0         |
+| 8     | gorillapark               | 6           | 8                | 11 (+1)          | 31.5 (+0.5)  |
+| 9     | wowitsdub                 | 6           | 5                | 10 (+1)          | 28.0 (+0.5)  |
+| 10    | nndiana                   | 6           | 5                | 6                | 26.0         |
+| 11    | veny2lbs                  | 3           | 2                | 6                | 14.0         |
+| 12    | bluberry                  | 1           | 0                | 0                | 3.0          |
+| 13    | sandwichsundays           | 0           | 2                | 1                | 2.5          |
+| 14    | flvx_flux                 | 0           | 1                | 1                | 1.5          |
+| 15    | caprisen_                 | 0           | 1                | 0                | 1.0          |
+| 15    | mazzo_tv                  | 0           | 0                | 2                | 1.0          |
+| 17    | teddbearcs                | 0           | 0                | 1                | 0.5          |
 
-_Last updated at 2025-12-26 21:49:58 UTC_
+_Last updated at 2025-12-30 17:36:13 UTC_

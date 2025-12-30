@@ -28,7 +28,7 @@
 | 24    | respirate_            | 74          |
 | 25    | larvaew               | 66          |
 | 26    | booty_bread           | 60          |
-| 26    | selmaself             | 60          |
+| 26    | pinksynthesis28       | 60          |
 | 28    | notomji               | 57          |
 | 29    | receipts              | 56          |
 | 30    | bk207*                | 53          |
@@ -38,7 +38,7 @@
 | 34    | osnyatsky             | 47          |
 | 35    | paras220              | 46          |
 | 35    | ytp_dl                | 46          |
-| 37    | whitecardrifting      | 45          |
+| 37    | wcd0                  | 45          |
 | 38    | ninjaross             | 44          |
 | 39    | ouacewi               | 43          |
 | 40    | houseofleaves         | 42          |
@@ -49,7 +49,7 @@
 | 44    | julialuxel            | 34          |
 | 46    | islcfc*               | 33          |
 | 47    | jr_mime               | 32          |
-| 48    | fallen_angels_1995    | 28          |
+| 48    | death_nd_decay        | 28          |
 | 49    | breadworms            | 27          |
 | 49    | dougiefresh_83        | 27          |
 | 51    | globcob               | 25          |
@@ -61,4 +61,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2025-12-16 17:44:53 UTC_
+_Last updated at 2025-12-30 17:36:13 UTC_

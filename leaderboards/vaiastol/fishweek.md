@@ -8,15 +8,15 @@
 | 4     | garout             | 64          |
 | 5     | hahppyy            | 53          |
 | 6     | pengeg             | 52          |
-| 7     | nicestnarwhal      | 47          |
+| 7     | narwhaiv           | 47          |
 | 8     | julialuxel         | 40          |
 | 8     | leanmeister        | 40          |
 | 10    | dazedforevermore   | 38          |
 | 11    | redreignss         | 37          |
 | 12    | leastsussyimposter | 26          |
 | 13    | milesdotcom        | 13          |
-| 13 🆕 | proswift           | 13          |
+| 13    | proswift           | 13          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-12-26 21:49:58 UTC_
+_Last updated at 2025-12-30 17:36:13 UTC_
