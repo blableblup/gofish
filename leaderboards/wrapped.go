@@ -33,6 +33,7 @@ type Wrapped struct {
 
 type TotalChatStructPercentile struct {
 	Total      int
+	Percentage float64 `json:"Percentage,omitempty"`
 	Percentile float64
 	ChatCounts map[string]*TotalChatStructPercentile `json:"ChatCounts,omitempty"`
 }
@@ -51,6 +52,7 @@ type RareFish struct {
 type Location struct {
 	Count      int
 	Percentage float64
+	Percentile float64
 	Ambiences  []*Ambience
 }
 

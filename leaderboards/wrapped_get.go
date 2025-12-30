@@ -167,7 +167,9 @@ func GetTheWrappeds(params LeaderboardParams, EmojisForFish map[string]string, v
 			Fish:  fmt.Sprintf("%s %s", emoji, fishOfTypeCaught.FishName),
 		}
 
-		Wrappeds[fishOfTypeCaught.PlayerID].MostCaughtFish = append(Wrappeds[fishOfTypeCaught.PlayerID].MostCaughtFish, caughtFish)
+		if len(Wrappeds[fishOfTypeCaught.PlayerID].MostCaughtFish) < 5 {
+			Wrappeds[fishOfTypeCaught.PlayerID].MostCaughtFish = append(Wrappeds[fishOfTypeCaught.PlayerID].MostCaughtFish, caughtFish)
+		}
 	}
 
 	queryLocationsAmbience := `
@@ -244,6 +246,8 @@ func CalculatePercentileWrappedFishCaught(Wrappeds map[int]*Wrapped, fishCaughtD
 						wrapped.Count.ChatCounts[chat].Percentile = (float64(d+1) / float64(totalLength)) * 100.00
 					}
 				}
+
+				wrapped.Count.ChatCounts[chat].Percentage = float64(wrapped.Count.ChatCounts[chat].Total) / float64(wrapped.Count.Total) * 100
 			}
 		}
 	}
@@ -272,6 +276,8 @@ func CalculatePercentileWrappedFishCaught(Wrappeds map[int]*Wrapped, fishCaughtD
 
 func CalculatePercentageWrappedLocationsAmbience(Wrappeds map[int]*Wrapped) map[int]*Wrapped {
 
+	totalTotalLocation := make(map[string][]int)
+
 	for _, wrapped := range Wrappeds {
 		Locations := wrapped.FishLocations
 
@@ -285,6 +291,8 @@ func CalculatePercentageWrappedLocationsAmbience(Wrappeds map[int]*Wrapped) map[
 			for _, ambience := range data.Ambiences {
 				totalAmbience[location] = totalAmbience[location] + ambience.Count
 			}
+
+			totalTotalLocation[location] = append(totalTotalLocation[location], data.Count)
 		}
 
 		for location, data := range Locations {
@@ -294,6 +302,27 @@ func CalculatePercentageWrappedLocationsAmbience(Wrappeds map[int]*Wrapped) map[
 			for _, ambience := range data.Ambiences {
 				ambience.Percentage = (float64(ambience.Count) / float64(totalAmbience[location])) * 100
 			}
+		}
+
+	}
+
+	for _, data := range totalTotalLocation {
+		sort.SliceStable(data, func(i, j int) bool { return data[i] > data[j] })
+	}
+
+	for _, wrapped := range Wrappeds {
+
+		Locations := wrapped.FishLocations
+
+		for location, data := range Locations {
+
+			for d, locationTotal := range totalTotalLocation[location] {
+
+				if locationTotal == data.Count {
+					data.Percentile = float64(d+1) / float64(len(totalTotalLocation[location])) * 100
+				}
+			}
+
 		}
 
 	}
