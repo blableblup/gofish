@@ -125,6 +125,9 @@ func GetRarestFishBoard(params LeaderboardParams) (map[string]BoardData, error) 
 }
 
 // current is the last updated one from leaderboards
+// need to update the board before updating the wrappeds
+// else can maybe look weird
+// also with shiny !!!!!
 func GetCurrentRarestFishBoard() (map[string]BoardData, error) {
 
 	filePath := filepath.Join("leaderboards", "global", "rare")

@@ -9,6 +9,7 @@ import (
 	"path/filepath"
 	"strconv"
 	"sync"
+	"time"
 
 	"github.com/jackc/pgx/v5"
 )
@@ -120,7 +121,9 @@ func GetWrapped(params LeaderboardParams) {
 		return
 	}
 
-	year := fmt.Sprintf("%d", datetime.Year())
+	// remove one day, because it will be like this
+	// date = 2026-01-01 and date 2 = 2025-01-01
+	year := fmt.Sprintf("%d", datetime.Add(time.Hour*-24).Year())
 
 	Wrappeds, err := GetTheWrappeds(params, FishWithEmoji, validPlayers, year)
 	if err != nil {
@@ -194,7 +197,7 @@ func GetValidPlayersWrapped(params LeaderboardParams, limit int) ([]int, error) 
 		(
 		select playerid, count(*) from fish
 		where date < $2
-		and date >= $3
+		and date > $3
 		group by playerid
 		) bla on bla.playerid = f.playerid
 		group by f.playerid, bla.count
