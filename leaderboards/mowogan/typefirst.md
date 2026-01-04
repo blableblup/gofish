@@ -2,6 +2,9 @@
 
 | Rank | Fish              | Weight in lbs | Player       | Date in UTC         |
 |:-----|:------------------|:--------------|:-------------|:--------------------|
+| 71   | 🦦 otter          | 17.00         | gibbbons     | 2026-01-03 22:14:26 |
+| 70   | 🍄‍🟫 mushroom       | 11.88         | gofishgamer  | 2026-01-03 04:18:02 |
+| 69   | 🪚 icesaw         | 0.00          | gofishgamer  | 2025-12-28 10:04:36 |
 | 68   | ⛸️ iceskate       | 0.81          | chestnutbank | 2025-12-27 01:20:45 |
 | 67   | 🐧 penguin        | 39.64         | gofishgamer  | 2025-12-25 06:34:43 |
 | 66   | 🪱 worm           | 10.99         | gofishgamer  | 2025-12-25 05:25:21 |
@@ -71,4 +74,4 @@
 | 2    | 🎱 8ball          | 0.79          | konsminator  | 2025-06-23 16:25:30 |
 | 1    | 🪝 hook           | 2.28          | mowogan      | 2025-06-23 16:00:57 |
 
-_Last updated at 2025-12-28 10:37:56 UTC_
+_Last updated at 2026-01-04 10:15:31 UTC_

@@ -24,7 +24,7 @@
 | 20    | 🧊 icecube      | 10.35         | kidnamedzan       | 2025-01-19 20:31:47 |
 | 21    | 🪱 worm         | 10.34         | 04knight          | 2025-01-13 15:03:18 |
 | 22    | 🧸 teddybear    | 10.05         | laptop_battery    | 2025-01-18 18:43:20 |
-| 23    | 🪳 cockroach    | 7.66          | klvid             | 2025-03-21 07:31:11 |
+| 23    | 🪳 cockroach    | 7.66          | culvid            | 2025-03-21 07:31:11 |
 | 24    | 🐸 frog         | 4.94          | stevethewingman   | 2025-01-17 02:04:49 |
 | 25    | 🎏 lure         | 4.46          | kidnamedzan       | 2025-01-14 16:49:05 |
 | 26    | 🪝 hook         | 3.94          | destructionvibe   | 2025-01-12 14:37:28 |
@@ -40,4 +40,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-12-28 10:41:43 UTC_
+_Last updated at 2026-01-04 10:16:53 UTC_

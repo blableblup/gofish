@@ -32,7 +32,7 @@
 | 43   | 🦀 crab           | 2.37          | chestnutbank          | 2025-11-19 08:15:55 |
 | 42   | 🧤 gloves         | 0.74          | derintu               | 2025-11-12 18:47:14 |
 | 41   | 👢 boot           | 0.60          | derintu               | 2025-11-12 18:13:19 |
-| 40   | 🧽 sponge         | 13.63         | whitecardrifting      | 2025-11-07 00:53:25 |
+| 40   | 🧽 sponge         | 13.63         | wcd0                  | 2025-11-07 00:53:25 |
 | 39   | 🦎 lizard         | 5.46          | derintu               | 2025-11-01 19:47:22 |
 | 38   | 🌰 acorn          | 0.47          | derintu               | 2025-11-01 18:18:08 |
 | 37   | 🐸 frog           | 0.24          | derintu               | 2025-10-31 18:19:48 |
@@ -73,4 +73,4 @@
 | 2    | 🩴 thongsandal    | 0.65          | dazedforevermore      | 2024-08-03 15:29:46 |
 | 1    | 🕶️ darksunglasses | 11.39         | respirate_            | 2024-07-29 07:01:49 |
 
-_Last updated at 2025-12-28 10:42:52 UTC_
+_Last updated at 2026-01-04 10:15:31 UTC_

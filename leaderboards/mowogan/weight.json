@@ -2,16 +2,16 @@
 	"2525": {
 		"player": "respirate_",
 		"playerid": 2525,
-		"weight": 91.98,
+		"weight": 136.85,
 		"bot": "gofishgame",
-		"fishtype": "🦭",
-		"fishname": "seal",
+		"fishtype": "🐳",
+		"fishname": "bluewhale",
 		"catchtype": "normal",
 		"chat": "mowogan",
-		"fishid": 227193,
-		"chatid": 826,
-		"date": "2025-12-23T02:10:50Z",
-		"rank": 6
+		"fishid": 230330,
+		"chatid": 927,
+		"date": "2026-01-01T10:19:23Z",
+		"rank": 5
 	},
 	"2944": {
 		"player": "gofishgamer",
@@ -53,7 +53,7 @@
 		"fishid": 220674,
 		"chatid": 761,
 		"date": "2025-12-08T05:53:26Z",
-		"rank": 5
+		"rank": 6
 	},
 	"3143": {
 		"player": "konsminator",
@@ -82,5 +82,19 @@
 		"chatid": 373,
 		"date": "2025-08-04T12:30:58Z",
 		"rank": 2
+	},
+	"4150": {
+		"player": "gibbbons",
+		"playerid": 4150,
+		"weight": 50.63,
+		"bot": "gofishgame",
+		"fishtype": "🦞",
+		"fishname": "lobster",
+		"catchtype": "normal",
+		"chat": "mowogan",
+		"fishid": 229510,
+		"chatid": 912,
+		"date": "2025-12-29T15:51:10Z",
+		"rank": 7
 	}
 }

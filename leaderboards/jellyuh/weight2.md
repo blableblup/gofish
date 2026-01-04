@@ -21,86 +21,86 @@
 | 17    | goopy777            | 🦑 squid     | 211.08        | 2025-02-21 01:01:44 |
 | 18    | hello0d             | 🐳 bluewhale | 205.61        | 2025-02-01 07:52:52 |
 | 19    | teeto               | 🦈 shark     | 203.37        | 2025-08-23 18:51:35 |
-| 20    | crunch_sack         | 🦑 squid     | 198.61        | 2025-04-20 19:08:36 |
-| 21    | hello0d             | 🐉 dragon    | 198.35        | 2025-03-08 07:54:38 |
-| 22    | rainedparade        | 🦈 shark     | 197.37        | 2025-07-28 02:55:28 |
-| 23    | rainedparade        | 🦈 shark     | 196.64        | 2025-03-25 00:46:13 |
-| 24    | crunch_sack         | 🫎 moose     | 196.42        | 2025-03-26 05:51:36 |
-| 25    | pompadourdelinquent | 🦑 squid     | 190.73        | 2025-01-02 09:31:00 |
-| 26    | poioce              | 🫎 moose     | 190.00        | 2025-04-30 05:33:46 |
-| 27    | miyabwah            | 🐢 turtle    | 187.81        | 2025-05-26 23:51:28 |
-| 28    | miyabwah            | 🦕 sauropod  | 185.89        | 2025-02-25 04:19:19 |
-| 29    | pompadourdelinquent | 🐉 dragon    | 181.08        | 2025-02-06 07:05:50 |
-| 30    | pompadourdelinquent | 🐉 dragon    | 174.31        | 2025-06-11 02:06:07 |
-| 31    | rainedparade        | 🦑 squid     | 172.11        | 2025-03-17 01:40:34 |
-| 32    | miyabwah            | 🐉 dragon    | 168.66        | 2025-02-10 04:22:55 |
-| 33    | miyabwah            | 🦑 squid     | 165.01        | 2025-02-01 06:16:29 |
-| 34    | miyabwah            | 🐍 snake     | 164.62        | 2025-02-09 15:33:46 |
-| 35    | teeto               | 🐳 bluewhale | 162.51        | 2025-03-07 09:11:27 |
-| 36    | rainedparade        | 🦕 sauropod  | 156.61        | 2025-06-05 22:31:55 |
-| 37    | pompadourdelinquent | 🐋 whale     | 152.10        | 2025-04-25 23:03:06 |
-| 38    | cptblack_           | 🐋 whale     | 150.06        | 2025-02-24 03:41:43 |
-| 39    | miyabwah            | 🐊 crocodile | 149.60        | 2025-03-04 17:34:24 |
-| 40    | miyabwah            | 🐊 crocodile | 146.84        | 2025-04-04 01:15:34 |
-| 41    | hello0d             | 🦈 shark     | 144.11        | 2025-02-03 13:01:52 |
-| 42    | rainedparade        | 🐊 crocodile | 141.35        | 2025-02-27 22:08:19 |
-| 43    | cptblack_           | 🐋 whale     | 141.22        | 2025-03-19 02:43:19 |
-| 44    | poioce              | 🐊 crocodile | 139.70        | 2025-03-02 10:35:29 |
-| 45    | miyabwah            | 🐊 crocodile | 139.62        | 2025-03-05 15:04:09 |
-| 46    | miyabwah            | 🐋 whale     | 138.53        | 2025-03-19 18:40:38 |
-| 47    | miyabwah            | 🐉 dragon    | 135.07        | 2025-06-02 21:26:12 |
-| 48    | miyabwah            | 🐋 whale     | 130.63        | 2025-03-02 06:25:41 |
-| 49    | pompadourdelinquent | 🦑 squid     | 129.95        | 2025-03-02 01:40:58 |
-| 50    | cptblack_           | 🐋 whale     | 129.40        | 2025-02-27 04:37:28 |
-| 51    | cptblack_           | 🐋 whale     | 129.05        | 2025-03-17 02:40:45 |
-| 52    | pompadourdelinquent | 🦑 squid     | 121.54        | 2025-03-03 08:23:53 |
-| 53    | rainedparade        | 🐊 crocodile | 120.16        | 2025-03-25 23:22:05 |
-| 54    | rainedparade        | 🐙 octopus   | 118.72        | 2025-04-05 02:35:19 |
-| 55    | miyabwah            | 🐊 crocodile | 118.57        | 2025-03-17 19:49:07 |
-| 56    | cptblack_           | 🐳 bluewhale | 118.11        | 2025-04-29 04:44:10 |
-| 57    | rainedparade        | 🐊 crocodile | 117.56        | 2025-05-22 05:26:53 |
-| 58    | crunch_sack         | 🦈 shark     | 116.61        | 2025-02-12 02:42:58 |
-| 59    | miyabwah            | 🐋 whale     | 116.07        | 2025-03-07 19:01:34 |
-| 60    | piz_z               | 🐋 whale     | 112.26        | 2025-05-05 04:04:12 |
-| 61    | cptblack_           | 🐳 bluewhale | 111.82        | 2025-02-17 04:00:26 |
-| 62    | goopy777            | 🦈 shark     | 111.26        | 2025-07-20 08:33:37 |
-| 63    | jakthejanitor       | 🐋 whale     | 111.04        | 2025-09-14 04:23:12 |
-| 64    | jakthejanitor       | 🐋 whale     | 110.19        | 2025-10-27 15:02:34 |
-| 65    | pompadourdelinquent | 🐬 dolphin   | 107.79        | 2025-02-08 09:49:40 |
-| 66    | rainedparade        | 🦕 sauropod  | 106.09        | 2025-05-13 02:56:25 |
-| 67    | miyabwah            | 🐋 whale     | 105.36        | 2025-03-17 19:04:59 |
-| 68    | rainedparade        | 🐋 whale     | 105.05        | 2025-04-01 03:17:43 |
-| 69    | yaykaiza            | 🪸 coral     | 98.94         | 2025-07-13 22:49:46 |
-| 70    | rainedparade        | 🐋 whale     | 98.55         | 2025-03-14 17:29:40 |
-| 71    | e1d2f3              | 🐊 crocodile | 97.62         | 2025-02-15 06:50:41 |
-| 72    | yaykaiza            | 🐙 octopus   | 96.59         | 2025-08-06 20:46:59 |
-| 73    | cptblack_           | 🐉 dragon    | 96.30         | 2025-07-08 11:35:09 |
-| 74    | poioce              | 🐊 crocodile | 95.20         | 2025-03-02 06:39:40 |
-| 75    | hello0d             | 🐢 turtle    | 94.89         | 2025-03-22 16:45:06 |
-| 76    | pompadourdelinquent | 🐊 crocodile | 94.06         | 2025-05-31 01:38:29 |
-| 77    | pompadourdelinquent | 🦇 bat       | 93.73         | 2025-03-17 05:09:16 |
-| 78    | poioce              | 🦑 squid     | 91.79         | 2025-04-15 04:59:35 |
-| 79 🆕 | teeto               | 🦈 shark     | 90.90         | 2025-11-05 17:03:02 |
-| 80 ⬇  | blitzrailgun        | 🪸 coral     | 89.90         | 2025-06-04 07:05:23 |
-| 81 ⬇  | wombatbrownies      | 🐊 crocodile | 88.68         | 2025-08-17 03:07:36 |
-| 82 ⬇  | pompadourdelinquent | 🦈 shark     | 88.63         | 2024-12-28 03:12:36 |
-| 83 ⬇  | rainedparade        | 🦕 sauropod  | 88.30         | 2025-05-31 23:01:19 |
-| 84 ⬇  | miyabwah            | 🐊 crocodile | 86.70         | 2025-04-03 00:51:26 |
-| 85 ⬇  | pompadourdelinquent | 🦭 seal      | 86.64         | 2025-01-26 03:04:32 |
-| 86 ⬇  | cptblack_           | 🐙 octopus   | 85.83         | 2025-05-07 02:04:56 |
-| 87 ⬇  | poioce              | 🦈 shark     | 85.70         | 2025-02-18 15:36:51 |
-| 88 ⬇  | e1d2f3              | 🐋 whale     | 84.94         | 2025-02-08 03:39:02 |
-| 89 ⬇  | miyabwah            | 🐊 crocodile | 84.23         | 2025-02-27 04:01:01 |
-| 89 ⬇  | rileygud            | 🐬 dolphin   | 84.23         | 2025-05-29 03:41:40 |
-| 91 ⬇  | rainedparade        | 🧟 deadbody  | 83.97         | 2025-01-25 05:40:47 |
-| 92 ⬇  | rainedparade        | 🦈 shark     | 83.21         | 2025-04-03 17:13:05 |
-| 93 ⬇  | pompadourdelinquent | 🐬 dolphin   | 83.00         | 2025-03-04 00:07:14 |
-| 94 ⬇  | miyabwah            | 🦑 squid     | 82.96         | 2025-03-09 05:44:05 |
-| 95 ⬇  | rainedparade        | 🐬 dolphin   | 82.13         | 2025-05-25 04:48:41 |
-| 96 ⬇  | rainedparade        | 🐬 dolphin   | 82.02         | 2025-02-07 00:05:46 |
-| 97 ⬇  | goopy777            | 🦭 seal      | 81.87         | 2025-03-09 03:23:32 |
-| 98 ⬇  | rainedparade        | 🐬 dolphin   | 80.46         | 2025-05-03 17:03:58 |
-| 99 ⬇  | teeto               | 🐢 turtle    | 80.40         | 2025-03-16 04:01:27 |
-| 100 ⬇ | teeto               | 🐋 whale     | 79.91         | 2025-03-07 05:04:01 |
+| 20 🆕 | respirate_          | 🐳 bluewhale | 200.79        | 2025-12-29 13:50:56 |
+| 21 ⬇  | crunch_sack         | 🦑 squid     | 198.61        | 2025-04-20 19:08:36 |
+| 22 ⬇  | hello0d             | 🐉 dragon    | 198.35        | 2025-03-08 07:54:38 |
+| 23 ⬇  | rainedparade        | 🦈 shark     | 197.37        | 2025-07-28 02:55:28 |
+| 24 ⬇  | rainedparade        | 🦈 shark     | 196.64        | 2025-03-25 00:46:13 |
+| 25 ⬇  | crunch_sack         | 🫎 moose     | 196.42        | 2025-03-26 05:51:36 |
+| 26 ⬇  | pompadourdelinquent | 🦑 squid     | 190.73        | 2025-01-02 09:31:00 |
+| 27 ⬇  | poioce              | 🫎 moose     | 190.00        | 2025-04-30 05:33:46 |
+| 28 ⬇  | miyabwah            | 🐢 turtle    | 187.81        | 2025-05-26 23:51:28 |
+| 29 ⬇  | miyabwah            | 🦕 sauropod  | 185.89        | 2025-02-25 04:19:19 |
+| 30 ⬇  | pompadourdelinquent | 🐉 dragon    | 181.08        | 2025-02-06 07:05:50 |
+| 31 ⬇  | pompadourdelinquent | 🐉 dragon    | 174.31        | 2025-06-11 02:06:07 |
+| 32 ⬇  | rainedparade        | 🦑 squid     | 172.11        | 2025-03-17 01:40:34 |
+| 33 ⬇  | miyabwah            | 🐉 dragon    | 168.66        | 2025-02-10 04:22:55 |
+| 34 ⬇  | miyabwah            | 🦑 squid     | 165.01        | 2025-02-01 06:16:29 |
+| 35 ⬇  | miyabwah            | 🐍 snake     | 164.62        | 2025-02-09 15:33:46 |
+| 36 ⬇  | teeto               | 🐳 bluewhale | 162.51        | 2025-03-07 09:11:27 |
+| 37 ⬇  | rainedparade        | 🦕 sauropod  | 156.61        | 2025-06-05 22:31:55 |
+| 38 ⬇  | pompadourdelinquent | 🐋 whale     | 152.10        | 2025-04-25 23:03:06 |
+| 39 ⬇  | cptblack_           | 🐋 whale     | 150.06        | 2025-02-24 03:41:43 |
+| 40 ⬇  | miyabwah            | 🐊 crocodile | 149.60        | 2025-03-04 17:34:24 |
+| 41 ⬇  | miyabwah            | 🐊 crocodile | 146.84        | 2025-04-04 01:15:34 |
+| 42 ⬇  | hello0d             | 🦈 shark     | 144.11        | 2025-02-03 13:01:52 |
+| 43 ⬇  | rainedparade        | 🐊 crocodile | 141.35        | 2025-02-27 22:08:19 |
+| 44 ⬇  | cptblack_           | 🐋 whale     | 141.22        | 2025-03-19 02:43:19 |
+| 45 ⬇  | poioce              | 🐊 crocodile | 139.70        | 2025-03-02 10:35:29 |
+| 46 ⬇  | miyabwah            | 🐊 crocodile | 139.62        | 2025-03-05 15:04:09 |
+| 47 ⬇  | miyabwah            | 🐋 whale     | 138.53        | 2025-03-19 18:40:38 |
+| 48 ⬇  | miyabwah            | 🐉 dragon    | 135.07        | 2025-06-02 21:26:12 |
+| 49 ⬇  | miyabwah            | 🐋 whale     | 130.63        | 2025-03-02 06:25:41 |
+| 50 ⬇  | pompadourdelinquent | 🦑 squid     | 129.95        | 2025-03-02 01:40:58 |
+| 51 ⬇  | cptblack_           | 🐋 whale     | 129.40        | 2025-02-27 04:37:28 |
+| 52 ⬇  | cptblack_           | 🐋 whale     | 129.05        | 2025-03-17 02:40:45 |
+| 53 ⬇  | pompadourdelinquent | 🦑 squid     | 121.54        | 2025-03-03 08:23:53 |
+| 54 ⬇  | rainedparade        | 🐊 crocodile | 120.16        | 2025-03-25 23:22:05 |
+| 55 ⬇  | rainedparade        | 🐙 octopus   | 118.72        | 2025-04-05 02:35:19 |
+| 56 ⬇  | miyabwah            | 🐊 crocodile | 118.57        | 2025-03-17 19:49:07 |
+| 57 ⬇  | cptblack_           | 🐳 bluewhale | 118.11        | 2025-04-29 04:44:10 |
+| 58 ⬇  | rainedparade        | 🐊 crocodile | 117.56        | 2025-05-22 05:26:53 |
+| 59 ⬇  | crunch_sack         | 🦈 shark     | 116.61        | 2025-02-12 02:42:58 |
+| 60 ⬇  | miyabwah            | 🐋 whale     | 116.07        | 2025-03-07 19:01:34 |
+| 61 ⬇  | piz_z               | 🐋 whale     | 112.26        | 2025-05-05 04:04:12 |
+| 62 ⬇  | cptblack_           | 🐳 bluewhale | 111.82        | 2025-02-17 04:00:26 |
+| 63 ⬇  | goopy777            | 🦈 shark     | 111.26        | 2025-07-20 08:33:37 |
+| 64 ⬇  | jakthejanitor       | 🐋 whale     | 111.04        | 2025-09-14 04:23:12 |
+| 65 ⬇  | jakthejanitor       | 🐋 whale     | 110.19        | 2025-10-27 15:02:34 |
+| 66 ⬇  | pompadourdelinquent | 🐬 dolphin   | 107.79        | 2025-02-08 09:49:40 |
+| 67 ⬇  | rainedparade        | 🦕 sauropod  | 106.09        | 2025-05-13 02:56:25 |
+| 68 ⬇  | miyabwah            | 🐋 whale     | 105.36        | 2025-03-17 19:04:59 |
+| 69 ⬇  | rainedparade        | 🐋 whale     | 105.05        | 2025-04-01 03:17:43 |
+| 70 🆕 | gofishgamer         | 🐋 whale     | 103.93        | 2026-01-01 04:59:38 |
+| 71 🆕 | gofishgamer         | 🦪 oyster    | 101.44        | 2026-01-01 01:57:41 |
+| 72 ⬇  | yaykaiza            | 🪸 coral     | 98.94         | 2025-07-13 22:49:46 |
+| 73 ⬇  | rainedparade        | 🐋 whale     | 98.55         | 2025-03-14 17:29:40 |
+| 74 ⬇  | e1d2f3              | 🐊 crocodile | 97.62         | 2025-02-15 06:50:41 |
+| 75 ⬇  | yaykaiza            | 🐙 octopus   | 96.59         | 2025-08-06 20:46:59 |
+| 76 ⬇  | cptblack_           | 🐉 dragon    | 96.30         | 2025-07-08 11:35:09 |
+| 77 ⬇  | poioce              | 🐊 crocodile | 95.20         | 2025-03-02 06:39:40 |
+| 78 ⬇  | hello0d             | 🐢 turtle    | 94.89         | 2025-03-22 16:45:06 |
+| 79 ⬇  | pompadourdelinquent | 🐊 crocodile | 94.06         | 2025-05-31 01:38:29 |
+| 80 ⬇  | pompadourdelinquent | 🦇 bat       | 93.73         | 2025-03-17 05:09:16 |
+| 81 ⬇  | poioce              | 🦑 squid     | 91.79         | 2025-04-15 04:59:35 |
+| 82 ⬇  | teeto               | 🦈 shark     | 90.90         | 2025-11-05 17:03:02 |
+| 83 ⬇  | blitzrailgun        | 🪸 coral     | 89.90         | 2025-06-04 07:05:23 |
+| 84 ⬇  | wombatbrownies      | 🐊 crocodile | 88.68         | 2025-08-17 03:07:36 |
+| 85 ⬇  | pompadourdelinquent | 🦈 shark     | 88.63         | 2024-12-28 03:12:36 |
+| 86 ⬇  | rainedparade        | 🦕 sauropod  | 88.30         | 2025-05-31 23:01:19 |
+| 87 ⬇  | miyabwah            | 🐊 crocodile | 86.70         | 2025-04-03 00:51:26 |
+| 88 ⬇  | pompadourdelinquent | 🦭 seal      | 86.64         | 2025-01-26 03:04:32 |
+| 89 ⬇  | cptblack_           | 🐙 octopus   | 85.83         | 2025-05-07 02:04:56 |
+| 90 ⬇  | poioce              | 🦈 shark     | 85.70         | 2025-02-18 15:36:51 |
+| 91 ⬇  | e1d2f3              | 🐋 whale     | 84.94         | 2025-02-08 03:39:02 |
+| 92 ⬇  | miyabwah            | 🐊 crocodile | 84.23         | 2025-02-27 04:01:01 |
+| 92 ⬇  | rileygud            | 🐬 dolphin   | 84.23         | 2025-05-29 03:41:40 |
+| 94 ⬇  | rainedparade        | 🧟 deadbody  | 83.97         | 2025-01-25 05:40:47 |
+| 95 ⬇  | rainedparade        | 🦈 shark     | 83.21         | 2025-04-03 17:13:05 |
+| 96 ⬇  | pompadourdelinquent | 🐬 dolphin   | 83.00         | 2025-03-04 00:07:14 |
+| 97 ⬇  | miyabwah            | 🦑 squid     | 82.96         | 2025-03-09 05:44:05 |
+| 98 ⬇  | rainedparade        | 🐬 dolphin   | 82.13         | 2025-05-25 04:48:41 |
+| 99 ⬇  | rainedparade        | 🐬 dolphin   | 82.02         | 2025-02-07 00:05:46 |
+| 100 ⬇ | goopy777            | 🦭 seal      | 81.87         | 2025-03-09 03:23:32 |
 
-_Last updated at 2025-11-09 07:44:56 UTC_
+_Last updated at 2026-01-04 10:15:28 UTC_

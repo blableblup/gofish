@@ -14,7 +14,7 @@
 | 10    | osnyisdead                | 🐳 bluewhale | 298.16        | 2024-09-21 23:30:04 |
 | 11    | kishma9                   | 🐳 bluewhale | 297.37        | 2023-06-01 11:12:39 |
 | 12    | islcfc*                   | 🐳 bluewhale | 296.57        | 2023-02-25 05:52:30 |
-| 13    | whitecardrifting          | 🐳 bluewhale | 295.37        | 2025-10-04 18:09:08 |
+| 13    | wcd0                      | 🐳 bluewhale | 295.37        | 2025-10-04 18:09:08 |
 | 14    | leanmeister               | 🦑 squid     | 294.63        | 2024-12-24 09:47:20 |
 | 15    | puzzlow                   | 🐳 bluewhale | 292.04        | 2023-12-08 05:04:14 |
 | 16    | derintu                   | 🐳 bluewhale | 289.11        | 2025-03-27 15:03:12 |
@@ -71,4 +71,4 @@
 
 _Only showing fish weighing >= 200 lbs_
 
-_Last updated at 2025-12-28 10:37:46 UTC_
+_Last updated at 2026-01-04 10:15:24 UTC_

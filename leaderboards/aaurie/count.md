@@ -6,20 +6,20 @@
 | 2 🥈  | dolp_fin           | 197         |
 | 3 🥉  | boogie310_         | 124         |
 | 4     | aaurie             | 102         |
-| 5     | gofishgamer        | 70          |
+| 5     | gofishgamer        | 71 (+1)     |
 | 6     | allspice_boatrace  | 67          |
-| 7     | amatusz            | 59 (+1)     |
+| 7     | amatusz            | 62 (+3)     |
 | 8     | slimdoggiedog      | 42          |
 | 9     | rjthebooger        | 39          |
 | 10    | bluezebra17        | 38          |
 | 11    | abelito75          | 37          |
 | 12    | guy_farting420     | 36          |
-| 13    | rustnroll          | 32          |
+| 13    | rustnroll          | 33 (+1)     |
 | 14    | preemalone         | 30          |
 | 14    | victorvondoom313   | 30          |
 | 16    | dwaynepounder      | 28          |
 | 16    | mademooselle       | 28          |
-| 18    | curiouscorvidae    | 26          |
+| 18    | curiouscorvidae    | 27 (+1)     |
 | 19    | brody5020          | 23          |
 | 20    | meinmestar         | 22          |
 | 21    | eldiabloskillet    | 21          |
@@ -33,4 +33,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-12-28 10:37:51 UTC_
+_Last updated at 2026-01-04 10:13:52 UTC_

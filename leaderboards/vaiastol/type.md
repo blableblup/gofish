@@ -15,7 +15,7 @@
 | 11    | 🐊 crocodile      | 145.86        | narwhaiv           | 2025-03-01 13:38:53 |
 | 12    | 🦭 seal           | 133.82        | vaiastol           | 2025-02-01 09:46:57 |
 | 13    | 🦪 oyster         | 125.98        | julialuxel         | 2024-12-28 19:05:43 |
-| 14    | 🧞‍♂ genie          | 119.98        | whitecardrifting   | 2025-11-01 20:23:46 |
+| 14    | 🧞‍♂ genie          | 119.98        | wcd0               | 2025-11-01 20:23:46 |
 | 15    | 🧟 deadbody       | 119.06        | tiaguitos97        | 2025-10-06 18:05:35 |
 | 16    | 🐬 dolphin        | 109.90        | leanmeister        | 2025-06-02 19:28:09 |
 | 17    | 🪸 coral          | 95.45         | leanmeister        | 2025-04-26 23:25:57 |
@@ -110,4 +110,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-12-28 10:40:45 UTC_
+_Last updated at 2026-01-04 10:15:50 UTC_

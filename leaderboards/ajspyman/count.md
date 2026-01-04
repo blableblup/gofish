@@ -2,13 +2,13 @@
 
 | Rank   | Player       | Fish caught |
 |:-------|:-------------|:------------|
-| 1 🥇   | chestnutbank | 149 (+12)   |
-| 2 🥈   | respirate_   | 144 (+17)   |
-| 3 🥉 ⬆ | acornpond    | 119 (+52)   |
-| 4 ⬇    | gofishgamer  | 111 (+3)    |
-| 5      | gofishgames  | 110 (+55)   |
-| 6      | nottachasm   | 105 (+53)   |
+| 1 🥇 ⬆ | acornpond    | 170 (+51)   |
+| 2 🥈 ⬆ | gofishgames  | 160 (+50)   |
+| 3 🥉 ⬆ | nottachasm   | 154 (+49)   |
+| 4 ⬇    | chestnutbank | 152 (+3)    |
+| 5 ⬇    | respirate_   | 144         |
+| 6 ⬇    | gofishgamer  | 116 (+5)    |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-12-28 10:37:51 UTC_
+_Last updated at 2026-01-04 10:13:52 UTC_

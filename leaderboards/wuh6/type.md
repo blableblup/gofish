@@ -45,9 +45,9 @@
 | 41    | 🎃 pumpkin         | 22.41         | nndiana                   | 2025-11-02 05:09:21 |
 | 42    | 🍄‍🟫 mushroom        | 21.92         | gorillapark               | 2025-01-18 00:47:17 |
 | 43    | 🦠 plankton        | 21.82         | iflya320                  | 2025-11-28 10:54:25 |
-| 44    | 🦦 otter           | 19.94         | eeziiii                   | 2025-11-24 15:41:04 |
-| 45    | 🪱 worm            | 19.86         | bubinga                   | 2025-04-17 08:57:57 |
-| 46    | 🧭 compass         | 18.59         | lobuhtomy                 | 2024-12-24 15:38:26 |
+| 44 ⬆  | 🧭 compass         | 21.26 (+2.67) | rancbot                   | 2026-01-01 14:41:39 |
+| 45 ⬇  | 🦦 otter           | 19.94         | eeziiii                   | 2025-11-24 15:41:04 |
+| 46 ⬇  | 🪱 worm            | 19.86         | bubinga                   | 2025-04-17 08:57:57 |
 | 47    | 🦴 bone            | 18.36         | supibot                   | 2025-08-30 08:22:14 |
 | 48    | 🍄 oceanplant      | 17.60         | iflya320                  | 2025-03-30 15:29:44 |
 | 49    | 🧞‍♂ genie           | 16.68         | feelsaceman               | 2025-10-06 14:20:46 |
@@ -56,10 +56,10 @@
 | 52    | 🕶️ darksunglasses  | 12.23         | huuuuuuuuuuuuuuuuuuuuuurz | 2025-07-28 11:49:10 |
 | 53    | 🐌 snail           | 11.93         | iflya320                  | 2025-07-22 17:25:11 |
 | 54    | 👒 hat             | 11.92         | bcarw                     | 2025-11-05 00:26:47 |
-| 55    | 🧸 teddybear       | 11.53         | bubinga                   | 2025-02-11 20:24:44 |
+| 54 ⬆  | 🧸 teddybear       | 11.92 (+0.39) | bubinga                   | 2025-12-30 00:20:22 |
 | 56    | 📱 iphone          | 11.49         | supibot                   | 2024-12-19 11:50:57 |
 | 57    | 🪺 nestwitheggs    | 10.94         | feelsaceman               | 2025-12-12 13:24:57 |
-| 58    | 🪹 emptynest       | 10.88 (+0.04) | rancbot                   | 2025-12-22 12:45:49 |
+| 58    | 🪹 emptynest       | 10.88         | rancbot                   | 2025-12-22 12:45:49 |
 | 59    | 🪁 kite            | 10.79         | huuuuuuuuuuuuuuuuuuuuuurz | 2025-07-13 01:08:24 |
 | 60    | 🧥 coat            | 10.72         | iflya320                  | 2025-05-02 13:12:42 |
 | 61    | 🎱 8ball           | 10.70         | zwockel01                 | 2024-12-24 12:24:07 |
@@ -92,7 +92,7 @@
 | 87    | 🌷 tulip           | 2.98          | lobuhtomy                 | 2025-03-17 14:23:51 |
 | 87    | ☂️ umbrella        | 2.98          | veny2lbs                  | 2025-08-22 17:36:52 |
 | 90    | 🌻 sunflower       | 2.92          | iflya320                  | 2025-06-27 15:38:21 |
-| 91    | 🥀 wiltedflower    | 2.87 (+0.05)  | iflya350                  | 2025-12-23 17:51:23 |
+| 91    | 🥀 wiltedflower    | 2.87          | iflya350                  | 2025-12-23 17:51:23 |
 | 92    | 🍎 apple           | 2.51          | bubinga                   | 2025-10-30 18:14:34 |
 | 92    | 🍁 leaf            | 2.51          | bubinga                   | 2025-11-02 15:37:50 |
 | 94    | ⛸️ iceskate        | 2.00          | eeziiii                   | 2024-12-31 04:54:11 |
@@ -125,4 +125,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-12-28 10:42:26 UTC_
+_Last updated at 2026-01-04 10:15:57 UTC_
