@@ -76,8 +76,7 @@ func GetInstances() {
 			continue
 		}
 
-		// Warn if the instance from the config cant be found in the API
-		// This will always log for logs.joinuv and the private instance for vaia
+		// Warn if the instance from the config cant be found in the API idk
 		for _, existinginstance := range configinstancesslice {
 			if !slices.Contains(instanceswhichhavechannel[chatName], strings.TrimPrefix(existinginstance.URL, "https://")) {
 				logs.Logs().Warn().
@@ -112,7 +111,7 @@ func GetInstances() {
 					firstOfMonth := time.Date(timevar.Year(), timevar.Month()-time.Month(i), 1, 0, 0, 0, 0, time.UTC)
 					year, month, _ := firstOfMonth.Date()
 
-					url := fmt.Sprintf("https://%s/channel/%s/user/gofishgame/%d/%d", instance, chatName, year, month)
+					url := fmt.Sprintf("https://%s/channel/%s/userid/951349582/%d/%d", instance, chatName, year, month)
 					response, err := http.Get(url)
 					if err != nil {
 						logs.Logs().Error().Err(err).
