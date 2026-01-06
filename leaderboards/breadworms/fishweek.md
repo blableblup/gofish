@@ -32,33 +32,34 @@
 | 28    | notomji               | 57          |
 | 29    | receipts              | 56          |
 | 30    | bk207*                | 53          |
-| 31    | hmsmob*               | 52          |
-| 31    | kaasppeerr            | 52          |
-| 33    | bapqo                 | 49          |
-| 34    | osnyatsky             | 47          |
-| 35    | paras220              | 46          |
-| 35    | ytp_dl                | 46          |
-| 37    | wcd0                  | 45          |
-| 38    | ninjaross             | 44          |
-| 39    | ouacewi               | 43          |
-| 40    | houseofleaves         | 42          |
-| 41    | cimgu                 | 40          |
-| 42    | fvkdylan              | 39          |
-| 43    | idini                 | 36          |
-| 44    | chestnutbank          | 34          |
-| 44    | julialuxel            | 34          |
-| 46    | islcfc*               | 33          |
-| 47    | jr_mime               | 32          |
-| 48    | death_nd_decay        | 28          |
-| 49    | breadworms            | 27          |
-| 49    | dougiefresh_83        | 27          |
-| 51    | globcob               | 25          |
-| 51    | wisco9ers             | 25          |
-| 53    | rocketpol*            | 24          |
-| 54    | divra__               | 22          |
-| 55    | veggesh               | 21          |
-| 56    | realtechnine          | 20          |
+| 30 🆕 | esvelles              | 53          |
+| 32 ⬇  | hmsmob*               | 52          |
+| 32 ⬇  | kaasppeerr            | 52          |
+| 34 ⬇  | bapqo                 | 49          |
+| 35 ⬇  | osnyatsky             | 47          |
+| 36 ⬇  | paras220              | 46          |
+| 36 ⬇  | ytp_dl                | 46          |
+| 38 ⬇  | wcd0                  | 45          |
+| 39 ⬇  | ninjaross             | 44          |
+| 40 ⬇  | ouacewi               | 43          |
+| 41 ⬇  | houseofleaves         | 42          |
+| 42 ⬇  | cimgu                 | 40          |
+| 43 ⬇  | fvkdylan              | 39          |
+| 44 ⬇  | idini                 | 36          |
+| 45 ⬇  | chestnutbank          | 34          |
+| 45 ⬇  | julialuxel            | 34          |
+| 47 ⬇  | islcfc*               | 33          |
+| 48 ⬇  | jr_mime               | 32          |
+| 49 ⬇  | death_nd_decay        | 28          |
+| 50 ⬇  | breadworms            | 27          |
+| 50 ⬇  | dougiefresh_83        | 27          |
+| 52 ⬇  | globcob               | 25          |
+| 52 ⬇  | wisco9ers             | 25          |
+| 54 ⬇  | rocketpol*            | 24          |
+| 55 ⬇  | divra__               | 22          |
+| 56 ⬇  | veggesh               | 21          |
+| 57 ⬇  | realtechnine          | 20          |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2025-12-30 17:36:13 UTC_
+_Last updated at 2026-01-06 18:14:56 UTC_

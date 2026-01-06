@@ -14,9 +14,10 @@
 | 10    | dazedforevermore   | 38          |
 | 11    | redreignss         | 37          |
 | 12    | leastsussyimposter | 26          |
-| 13    | milesdotcom        | 13          |
-| 13    | proswift           | 13          |
+| 13    | proswift           | 14 (+1)     |
+| 14 ⬇  | milesdotcom        | 13          |
+| 15 🆕 | ryakarr            | 10          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-12-30 17:36:13 UTC_
+_Last updated at 2026-01-06 18:14:56 UTC_
