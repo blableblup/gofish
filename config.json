@@ -215,6 +215,17 @@
 			"checkfdata": true,
 			"board_enabled": true
 		},
+		"de_log": {
+			"twitchid": "232948059",
+			"logs_instances": [
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2026/1"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
 		"default": {
 			"playercount_limit": 20,
 			"fishweek_limit": 20,
@@ -359,6 +370,17 @@
 			"checkfdata": false,
 			"board_enabled": false
 		},
+		"evelynmcnugget": {
+			"twitchid": "173120776",
+			"logs_instances": [
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2026/1"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
 		"forsengosling": {
 			"twitchid": "788787727",
 			"logs_instances": [
@@ -436,6 +458,10 @@
 				{
 					"url": "https://logs.spanix.team",
 					"logs_added": "2024/9"
+				},
+				{
+					"url": "https://logs.tlosdev.com",
+					"logs_added": "2026/1"
 				}
 			],
 			"fishweek_limit": 10,
@@ -597,6 +623,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2025/6"
+				},
+				{
+					"url": "https://logs.mrchuw.com.br",
+					"logs_added": "2024/7"
 				}
 			],
 			"checkfdata": true,
@@ -771,6 +801,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2025/3"
+				},
+				{
+					"url": "https://logs.tlosdev.com",
+					"logs_added": "2026/1"
 				}
 			],
 			"fishweek_limit": 10,
