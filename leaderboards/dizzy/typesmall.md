@@ -2,7 +2,7 @@
 
 | Rank  | Fish              | Weight in lbs | Player         | Date in UTC         |
 |:------|:------------------|:--------------|:---------------|:--------------------|
-| 1 🥇  | 🫎 moose          | 93.97         | no_yellow2026  | 2025-05-17 14:35:24 |
+| 1 🥇  | 🫎 moose          | 93.97         | glorp_fishing  | 2025-05-17 14:35:24 |
 | 2 🥈  | 🐻‍❄ polarbear      | 65.33         | ofaisalz       | 2024-12-31 17:15:21 |
 | 3 🥉  | 🛢️ oildrum        | 39.41         | lolspers       | 2025-06-28 00:12:52 |
 | 4     | 👑 crown          | 23.44         | simplydrack    | 2024-11-02 11:32:08 |
@@ -16,7 +16,7 @@
 | 12    | 🪁 kite           | 3.58          | buhl00n        | 2025-07-15 07:58:53 |
 | 13    | 🐳 bluewhale      | 2.92          | rougep1rate    | 2024-11-21 14:33:47 |
 | 14    | 🪿 goose          | 2.39          | lolspers       | 2025-06-23 20:31:03 |
-| 15    | 🪵 log            | 2.37          | no_yellow2026  | 2025-01-02 22:28:34 |
+| 15    | 🪵 log            | 2.37          | glorp_fishing  | 2025-01-02 22:28:34 |
 | 16    | 🕶️ darksunglasses | 2.34          | jdxl           | 2024-10-27 06:29:42 |
 | 17    | 🗡️ dagger         | 1.91          | exo9           | 2024-10-22 03:57:43 |
 | 18    | 👒 hat            | 1.60          | nolifeben1     | 2024-12-15 18:54:20 |
@@ -41,13 +41,13 @@
 | 37    | 🪀 bobber         | 0.40          | simplydrack    | 2024-11-16 18:02:12 |
 | 38    | 🪸 coral          | 0.38          | gimmeschmoneys | 2024-11-05 18:03:53 |
 | 39    | 🦦 otter          | 0.36          | 777pancake     | 2024-12-03 20:33:11 |
-| 40    | 🧭 compass        | 0.33          | no_yellow2026  | 2024-12-24 14:31:20 |
+| 40    | 🧭 compass        | 0.33          | glorp_fishing  | 2024-12-24 14:31:20 |
 | 41    | 🐞 ladybug        | 0.32          | buhl00n        | 2025-08-31 11:08:30 |
 | 42    | 🧸 teddybear      | 0.29          | nolifeben1     | 2025-01-19 01:12:45 |
 | 42    | 🧵 wireline       | 0.29          | ofaisalz       | 2025-07-10 17:51:58 |
-| 44    | 🧣 scarf          | 0.27          | no_yellow2026  | 2024-12-27 16:04:59 |
+| 44    | 🧣 scarf          | 0.27          | glorp_fishing  | 2024-12-27 16:04:59 |
 | 44    | 🩴 thongsandal    | 0.27          | kyonuwu        | 2025-05-01 23:17:21 |
-| 46    | 🦗 cricket        | 0.25          | no_yellow2026  | 2025-08-11 03:39:03 |
+| 46    | 🦗 cricket        | 0.25          | glorp_fishing  | 2025-08-11 03:39:03 |
 | 46    | 🦑 squid          | 0.25          | buhl00n        | 2025-01-07 10:50:45 |
 | 48    | 🦭 seal           | 0.23          | konsminator    | 2024-11-09 10:13:48 |
 | 49    | 📱 iphone         | 0.22          | ofaisalz       | 2025-03-13 11:56:50 |
@@ -56,7 +56,7 @@
 | 52    | 🥪 sandwich       | 0.15          | kronos43       | 2024-10-31 23:27:47 |
 | 53    | 🐠 tropicalfish   | 0.14          | nolifeben1     | 2024-11-16 17:32:54 |
 | 54    | 👡 sandal         | 0.13          | exo9           | 2025-04-03 05:50:53 |
-| 55    | 🦫 beaver         | 0.12          | no_yellow2026  | 2025-05-09 13:29:12 |
+| 55    | 🦫 beaver         | 0.12          | glorp_fishing  | 2025-05-09 13:29:12 |
 | 55    | 🐢 turtle         | 0.12          | konsminator    | 2024-11-19 19:10:21 |
 | 57    | 🐛 caterpillar    | 0.11          | buhl00n        | 2025-08-28 07:34:09 |
 | 57    | ⛸️ iceskate       | 0.11          | buhl00n        | 2024-12-27 09:40:43 |
@@ -64,12 +64,12 @@
 | 57    | 🦈 shark          | 0.11          | nolifeben1     | 2025-01-06 16:35:06 |
 | 61    | 🍬 candy          | 0.10          | buhl00n        | 2025-03-13 06:49:02 |
 | 61    | 🧽 sponge         | 0.10          | gimmeschmoneys | 2025-04-13 20:02:52 |
-| 63    | 🐡 blowfish       | 0.09          | no_yellow2026  | 2025-02-18 11:17:36 |
+| 63    | 🐡 blowfish       | 0.09          | glorp_fishing  | 2025-02-18 11:17:36 |
 | 63    | 🪶 feather        | 0.09          | buhl00n        | 2025-09-05 02:04:51 |
-| 63    | 🪰 fly            | 0.09          | no_yellow2026  | 2025-08-29 13:18:14 |
+| 63    | 🪰 fly            | 0.09          | glorp_fishing  | 2025-08-29 13:18:14 |
 | 66    | 🎱 8ball          | 0.08          | simplydrack    | 2025-07-14 20:50:19 |
 | 66    | 🦞 lobster        | 0.08          | burnend        | 2025-04-13 19:07:57 |
-| 66    | 🥀 wiltedflower   | 0.08          | no_yellow2026  | 2024-12-22 09:00:03 |
+| 66    | 🥀 wiltedflower   | 0.08          | glorp_fishing  | 2024-12-22 09:00:03 |
 | 69    | 🕷️ spider         | 0.06          | whoop_ee       | 2024-10-22 08:42:20 |
 | 70    | 🐜 ant            | 0.05          | buhl00n        | 2025-08-31 10:06:18 |
 | 70    | 🐌 snail          | 0.05          | buhl00n        | 2025-04-29 15:31:46 |
@@ -108,4 +108,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-12-28 10:38:55 UTC_
+_Last updated at 2026-01-11 10:24:40 UTC_

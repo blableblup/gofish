@@ -2,105 +2,105 @@
 
 | Rank  | Player                | Fish         | Weight in lbs | Date in UTC         |
 |:------|:----------------------|:-------------|:--------------|:--------------------|
-| 1 🥇  | chestnutbank          | 🦕 sauropod  | 250.28        | 2025-11-21 00:21:40 |
+| 1 🥇  | elisworm              | 🦕 sauropod  | 250.28        | 2025-11-21 00:21:40 |
 | 2 🥈  | kishma9               | 🦑 squid     | 243.37        | 2025-03-14 20:12:15 |
 | 3 🥉  | derintu               | 🫎 moose     | 238.43        | 2025-03-23 20:14:40 |
-| 4 🆕  | derintu               | 🐳 bluewhale | 212.18        | 2025-12-25 21:49:45 |
-| 5 ⬇   | larvaew               | 🐳 bluewhale | 208.05        | 2024-08-04 20:06:31 |
-| 6 ⬇   | derinturitierutz      | 🐳 bluewhale | 206.65        | 2024-08-05 19:56:13 |
-| 7 🆕  | derintu               | 🐳 bluewhale | 203.07        | 2025-12-25 18:25:30 |
-| 8 ⬇   | mitgliederversammlung | 🦕 sauropod  | 202.40        | 2024-08-30 22:35:37 |
-| 9 ⬇   | leanmeister           | 🦑 squid     | 184.28        | 2025-03-15 00:53:07 |
-| 10 ⬇  | respirate_            | 🐋 whale     | 140.34        | 2024-09-08 18:56:18 |
-| 11 ⬇  | lluuuuucy             | 🐊 crocodile | 136.84        | 2025-12-05 18:07:42 |
-| 12 ⬇  | chestnutbank          | 🐊 crocodile | 126.32        | 2025-11-19 07:02:59 |
-| 13 🆕 | derintu               | 🦈 shark     | 118.39        | 2025-12-25 19:34:08 |
-| 14 🆕 | derintu               | 🐋 whale     | 105.30        | 2025-12-26 19:38:12 |
-| 15 ⬇  | julialuxel            | 🐊 crocodile | 105.00        | 2024-07-28 22:59:00 |
-| 16 ⬇  | derintu               | 🦈 shark     | 103.86        | 2025-03-22 19:45:15 |
-| 17 ⬇  | mitgliederversammlung | 🐋 whale     | 101.29        | 2024-08-30 04:24:01 |
-| 18 ⬇  | gawblemachine         | 🐬 dolphin   | 101.18        | 2024-08-07 17:37:10 |
-| 19 ⬇  | dazedforevermore      | 🐬 dolphin   | 100.81        | 2024-08-02 22:34:26 |
-| 20 ⬇  | ninjaross             | 🐬 dolphin   | 99.98         | 2024-08-02 19:41:23 |
-| 21 ⬇  | leanmeister           | 🦑 squid     | 99.92         | 2025-03-17 22:07:31 |
-| 22 ⬇  | derintu               | 🦈 shark     | 99.86         | 2025-03-23 21:23:47 |
-| 23 ⬇  | derintu               | 🐢 turtle    | 98.61         | 2025-10-01 15:10:47 |
-| 24 ⬇  | lluuuuucy             | 🐢 turtle    | 97.00         | 2025-11-28 17:03:48 |
-| 25 ⬇  | lluuuuucy             | 🐢 turtle    | 95.26         | 2024-10-15 20:41:05 |
-| 26 ⬇  | derintu               | 🐢 turtle    | 89.30         | 2025-10-03 15:36:28 |
-| 27 ⬇  | derintu               | 🐢 turtle    | 88.46         | 2025-10-11 17:04:05 |
-| 28 ⬇  | respirate_            | 🐬 dolphin   | 87.36         | 2024-09-01 19:07:10 |
-| 29 ⬇  | derintu               | 🐊 crocodile | 86.36         | 2025-03-15 17:08:06 |
-| 30 ⬇  | lluuuuucy             | 🐢 turtle    | 85.17         | 2024-11-30 18:48:17 |
-| 31 ⬇  | derintu               | 🐢 turtle    | 84.11         | 2025-10-12 18:19:52 |
-| 32 ⬇  | derintu               | 🦑 squid     | 83.39         | 2025-03-18 16:06:57 |
-| 33 ⬇  | leanmeister           | 🐢 turtle    | 81.38         | 2024-11-14 21:09:06 |
-| 34 ⬇  | lluuuuucy             | 🐢 turtle    | 81.09         | 2024-10-26 18:34:06 |
-| 35 ⬇  | respirate_            | 🐋 whale     | 79.35         | 2024-09-01 19:53:33 |
-| 36 ⬇  | derintu               | 🐊 crocodile | 79.03         | 2025-03-22 16:33:03 |
-| 37 ⬇  | respirate_            | 🐙 octopus   | 77.19         | 2024-08-23 18:20:38 |
-| 38 ⬇  | leanmeister           | 🐊 crocodile | 76.13         | 2025-03-15 00:22:03 |
-| 39 ⬇  | derinturitierutz      | 🐢 turtle    | 76.08         | 2025-03-15 21:20:55 |
-| 40 ⬇  | kishma9               | 🦑 squid     | 75.17         | 2025-03-14 19:33:14 |
-| 41 ⬇  | derinturitierutz      | 🐋 whale     | 74.46         | 2024-08-02 20:58:00 |
-| 42 ⬇  | derintu               | 🐋 whale     | 74.42         | 2025-03-16 17:00:29 |
-| 43 ⬇  | respirate_            | 🐢 turtle    | 74.33         | 2024-08-21 23:01:53 |
-| 44 ⬇  | gawblemachine         | 🐋 whale     | 73.70         | 2024-08-04 18:19:45 |
-| 45 ⬇  | derintu               | 🦈 shark     | 72.52         | 2025-03-23 18:33:51 |
-| 46 ⬇  | derintu               | 🐊 crocodile | 72.20         | 2025-03-23 17:55:59 |
-| 47 ⬇  | derintu               | 🐢 turtle    | 71.79         | 2025-11-01 17:03:07 |
-| 48 ⬇  | gawblemachine         | 🐋 whale     | 66.55         | 2024-08-04 19:17:32 |
-| 49 ⬇  | derinturitierutz      | 🐋 whale     | 65.01         | 2025-10-30 21:59:38 |
-| 50 ⬇  | leanmeister           | 🐢 turtle    | 60.39         | 2024-11-15 17:48:47 |
-| 51 ⬇  | lluuuuucy             | 🐢 turtle    | 60.19         | 2024-11-16 19:03:15 |
-| 52 ⬇  | kishma9               | 🦇 bat       | 60.15         | 2025-03-14 00:11:12 |
-| 53 🆕 | derintu               | 🦈 shark     | 59.68         | 2025-12-24 20:21:56 |
-| 54 ⬇  | derinturitierutz      | 🐢 turtle    | 59.66         | 2025-03-15 19:35:14 |
-| 55 ⬇  | leanmeister           | 🐢 turtle    | 58.31         | 2024-11-13 20:26:51 |
-| 55 ⬇  | leanmeister           | 🐢 turtle    | 58.31         | 2024-11-13 20:26:51 |
-| 57 ⬇  | chestnutbank          | 🦞 lobster   | 56.83         | 2025-11-20 05:03:14 |
-| 58 ⬇  | dazedforevermore      | 🐬 dolphin   | 55.97         | 2024-08-03 20:25:34 |
-| 59 ⬇  | derintu               | 🦑 squid     | 55.87         | 2025-03-22 20:23:17 |
-| 60 ⬇  | derintu               | 🦑 squid     | 55.12         | 2025-03-15 16:35:57 |
-| 61 ⬇  | respirate_            | 🦞 lobster   | 54.45         | 2024-08-31 19:32:16 |
-| 62 ⬇  | leanmeister           | 🐙 octopus   | 53.64         | 2024-11-28 19:04:20 |
-| 63 ⬇  | ninjaross             | 🐬 dolphin   | 53.42         | 2024-08-02 18:34:51 |
-| 64 ⬇  | larvaew               | 🐙 octopus   | 52.91         | 2024-11-01 22:55:35 |
-| 65 ⬇  | leanmeister           | 🐟 fish      | 48.56         | 2025-03-17 20:26:37 |
-| 66 ⬇  | dazedforevermore      | 🐊 crocodile | 48.33         | 2024-08-09 17:29:38 |
-| 67 ⬇  | derintu               | 🐬 dolphin   | 47.38         | 2025-03-18 19:22:25 |
-| 68 ⬇  | derintu               | 🐢 turtle    | 46.42         | 2025-10-13 15:34:13 |
-| 69 ⬇  | sicklymaidrobot       | 🐙 octopus   | 45.25         | 2024-08-09 16:34:11 |
-| 70 ⬇  | lluuuuucy             | 🐢 turtle    | 43.32         | 2024-11-14 19:05:43 |
-| 71 🆕 | derintu               | 🐢 turtle    | 42.89         | 2025-12-24 19:18:48 |
-| 72 ⬇  | derintu               | 🐟 fish      | 42.69         | 2025-03-16 21:10:16 |
-| 73 ⬇  | sicklymaidrobot       | 🦞 lobster   | 42.53         | 2024-08-05 01:49:18 |
-| 74 ⬇  | respirate_            | 🐊 crocodile | 41.47         | 2024-09-01 18:00:28 |
-| 75 ⬇  | sicklymaidrobot       | 🪨 rock      | 41.20         | 2024-09-04 23:11:31 |
-| 76 ⬇  | chestnutbank          | 🦑 squid     | 39.85         | 2025-11-20 08:24:59 |
-| 77 ⬇  | derintu               | 🐢 turtle    | 38.67         | 2025-10-03 19:39:17 |
-| 78 ⬇  | dazedforevermore      | 🦫 beaver    | 37.92         | 2025-03-14 22:02:31 |
-| 79 ⬇  | chestnutbank          | 🦪 oyster    | 37.79         | 2025-11-19 06:28:03 |
-| 80 ⬇  | lluuuuucy             | 🐢 turtle    | 37.40         | 2024-11-20 18:39:22 |
-| 81 ⬇  | kishma9               | 🦭 seal      | 36.84         | 2025-03-15 18:10:47 |
-| 82 ⬇  | ninjaross             | 🐢 turtle    | 36.15         | 2024-11-29 19:07:42 |
-| 83 ⬇  | derintu               | 🐢 turtle    | 36.02         | 2025-10-11 18:05:50 |
-| 84 ⬇  | derintu               | 🐊 crocodile | 35.30         | 2025-03-18 16:45:50 |
-| 85 ⬇  | respirate_            | 🐋 whale     | 33.82         | 2024-09-08 21:08:56 |
-| 86 ⬇  | derintu               | 🐢 turtle    | 33.63         | 2025-03-22 17:13:48 |
-| 87 ⬇  | derintu               | 🐢 turtle    | 33.37         | 2025-10-08 17:30:49 |
-| 88 ⬇  | dazedforevermore      | 🐡 blowfish  | 32.43         | 2024-08-02 18:20:24 |
-| 89 ⬇  | leanmeister           | 🦐 shrimp    | 31.35         | 2024-11-27 20:25:23 |
-| 90 ⬇  | ninjaross             | 🐟 fish      | 31.03         | 2024-08-02 20:33:13 |
-| 91 ⬇  | chestnutbank          | 🐢 turtle    | 29.60         | 2025-11-19 03:09:22 |
-| 92 ⬇  | respirate_            | 🦈 shark     | 29.43         | 2024-08-30 20:13:52 |
-| 93 ⬇  | leanmeister           | 🐟 fish      | 29.16         | 2025-03-16 20:35:16 |
-| 94 ⬇  | lluuuuucy             | 🦫 beaver    | 27.00         | 2024-11-16 21:52:33 |
-| 95 ⬇  | derintu               | 🐢 turtle    | 26.83         | 2025-10-24 17:47:11 |
-| 96 ⬇  | ninjaross             | 🦪 oyster    | 26.47         | 2024-11-29 20:00:15 |
-| 97 ⬇  | respirate_            | 🐋 whale     | 26.24         | 2024-08-30 17:27:10 |
-| 98 ⬇  | respirate_            | 🐬 dolphin   | 25.78         | 2024-10-28 20:43:08 |
-| 99 ⬇  | lluuuuucy             | 🦫 beaver    | 24.39         | 2025-11-26 18:13:22 |
-| 100 ⬇ | destin357             | 🦪 oyster    | 23.86         | 2025-03-22 16:23:38 |
+| 4     | derintu               | 🐳 bluewhale | 212.18        | 2025-12-25 21:49:45 |
+| 5     | larvaew               | 🐳 bluewhale | 208.05        | 2024-08-04 20:06:31 |
+| 6     | derinturitierutz      | 🐳 bluewhale | 206.65        | 2024-08-05 19:56:13 |
+| 7     | derintu               | 🐳 bluewhale | 203.07        | 2025-12-25 18:25:30 |
+| 8     | mitgliederversammlung | 🦕 sauropod  | 202.40        | 2024-08-30 22:35:37 |
+| 9     | leanmeister           | 🦑 squid     | 184.28        | 2025-03-15 00:53:07 |
+| 10    | respirate_            | 🐋 whale     | 140.34        | 2024-09-08 18:56:18 |
+| 11    | lluuuuucy             | 🐊 crocodile | 136.84        | 2025-12-05 18:07:42 |
+| 12    | elisworm              | 🐊 crocodile | 126.32        | 2025-11-19 07:02:59 |
+| 13    | derintu               | 🦈 shark     | 118.39        | 2025-12-25 19:34:08 |
+| 14    | derintu               | 🐋 whale     | 105.30        | 2025-12-26 19:38:12 |
+| 15    | julialuxel            | 🐊 crocodile | 105.00        | 2024-07-28 22:59:00 |
+| 16    | derintu               | 🦈 shark     | 103.86        | 2025-03-22 19:45:15 |
+| 17    | mitgliederversammlung | 🐋 whale     | 101.29        | 2024-08-30 04:24:01 |
+| 18    | gawblemachine         | 🐬 dolphin   | 101.18        | 2024-08-07 17:37:10 |
+| 19    | dazedforevermore      | 🐬 dolphin   | 100.81        | 2024-08-02 22:34:26 |
+| 20    | ninjaross             | 🐬 dolphin   | 99.98         | 2024-08-02 19:41:23 |
+| 21    | leanmeister           | 🦑 squid     | 99.92         | 2025-03-17 22:07:31 |
+| 22    | derintu               | 🦈 shark     | 99.86         | 2025-03-23 21:23:47 |
+| 23    | derintu               | 🐢 turtle    | 98.61         | 2025-10-01 15:10:47 |
+| 24    | lluuuuucy             | 🐢 turtle    | 97.00         | 2025-11-28 17:03:48 |
+| 25    | lluuuuucy             | 🐢 turtle    | 95.26         | 2024-10-15 20:41:05 |
+| 26    | derintu               | 🐢 turtle    | 89.30         | 2025-10-03 15:36:28 |
+| 27    | derintu               | 🐢 turtle    | 88.46         | 2025-10-11 17:04:05 |
+| 28    | respirate_            | 🐬 dolphin   | 87.36         | 2024-09-01 19:07:10 |
+| 29    | derintu               | 🐊 crocodile | 86.36         | 2025-03-15 17:08:06 |
+| 30    | lluuuuucy             | 🐢 turtle    | 85.17         | 2024-11-30 18:48:17 |
+| 31    | derintu               | 🐢 turtle    | 84.11         | 2025-10-12 18:19:52 |
+| 32    | derintu               | 🦑 squid     | 83.39         | 2025-03-18 16:06:57 |
+| 33    | leanmeister           | 🐢 turtle    | 81.38         | 2024-11-14 21:09:06 |
+| 34    | lluuuuucy             | 🐢 turtle    | 81.09         | 2024-10-26 18:34:06 |
+| 35    | respirate_            | 🐋 whale     | 79.35         | 2024-09-01 19:53:33 |
+| 36    | derintu               | 🐊 crocodile | 79.03         | 2025-03-22 16:33:03 |
+| 37    | respirate_            | 🐙 octopus   | 77.19         | 2024-08-23 18:20:38 |
+| 38    | leanmeister           | 🐊 crocodile | 76.13         | 2025-03-15 00:22:03 |
+| 39    | derinturitierutz      | 🐢 turtle    | 76.08         | 2025-03-15 21:20:55 |
+| 40    | kishma9               | 🦑 squid     | 75.17         | 2025-03-14 19:33:14 |
+| 41    | derinturitierutz      | 🐋 whale     | 74.46         | 2024-08-02 20:58:00 |
+| 42    | derintu               | 🐋 whale     | 74.42         | 2025-03-16 17:00:29 |
+| 43    | respirate_            | 🐢 turtle    | 74.33         | 2024-08-21 23:01:53 |
+| 44    | gawblemachine         | 🐋 whale     | 73.70         | 2024-08-04 18:19:45 |
+| 45    | derintu               | 🦈 shark     | 72.52         | 2025-03-23 18:33:51 |
+| 46    | derintu               | 🐊 crocodile | 72.20         | 2025-03-23 17:55:59 |
+| 47    | derintu               | 🐢 turtle    | 71.79         | 2025-11-01 17:03:07 |
+| 48    | gawblemachine         | 🐋 whale     | 66.55         | 2024-08-04 19:17:32 |
+| 49    | derinturitierutz      | 🐋 whale     | 65.01         | 2025-10-30 21:59:38 |
+| 50    | leanmeister           | 🐢 turtle    | 60.39         | 2024-11-15 17:48:47 |
+| 51    | lluuuuucy             | 🐢 turtle    | 60.19         | 2024-11-16 19:03:15 |
+| 52    | kishma9               | 🦇 bat       | 60.15         | 2025-03-14 00:11:12 |
+| 53    | derintu               | 🦈 shark     | 59.68         | 2025-12-24 20:21:56 |
+| 54    | derinturitierutz      | 🐢 turtle    | 59.66         | 2025-03-15 19:35:14 |
+| 55    | leanmeister           | 🐢 turtle    | 58.31         | 2024-11-13 20:26:51 |
+| 55    | leanmeister           | 🐢 turtle    | 58.31         | 2024-11-13 20:26:51 |
+| 57    | elisworm              | 🦞 lobster   | 56.83         | 2025-11-20 05:03:14 |
+| 58    | dazedforevermore      | 🐬 dolphin   | 55.97         | 2024-08-03 20:25:34 |
+| 59    | derintu               | 🦑 squid     | 55.87         | 2025-03-22 20:23:17 |
+| 60    | derintu               | 🦑 squid     | 55.12         | 2025-03-15 16:35:57 |
+| 61    | respirate_            | 🦞 lobster   | 54.45         | 2024-08-31 19:32:16 |
+| 62    | leanmeister           | 🐙 octopus   | 53.64         | 2024-11-28 19:04:20 |
+| 63    | ninjaross             | 🐬 dolphin   | 53.42         | 2024-08-02 18:34:51 |
+| 64    | larvaew               | 🐙 octopus   | 52.91         | 2024-11-01 22:55:35 |
+| 65    | leanmeister           | 🐟 fish      | 48.56         | 2025-03-17 20:26:37 |
+| 66    | dazedforevermore      | 🐊 crocodile | 48.33         | 2024-08-09 17:29:38 |
+| 67    | derintu               | 🐬 dolphin   | 47.38         | 2025-03-18 19:22:25 |
+| 68    | derintu               | 🐢 turtle    | 46.42         | 2025-10-13 15:34:13 |
+| 69    | sicklymaidrobot       | 🐙 octopus   | 45.25         | 2024-08-09 16:34:11 |
+| 70    | lluuuuucy             | 🐢 turtle    | 43.32         | 2024-11-14 19:05:43 |
+| 71    | derintu               | 🐢 turtle    | 42.89         | 2025-12-24 19:18:48 |
+| 72    | derintu               | 🐟 fish      | 42.69         | 2025-03-16 21:10:16 |
+| 73    | sicklymaidrobot       | 🦞 lobster   | 42.53         | 2024-08-05 01:49:18 |
+| 74    | respirate_            | 🐊 crocodile | 41.47         | 2024-09-01 18:00:28 |
+| 75    | sicklymaidrobot       | 🪨 rock      | 41.20         | 2024-09-04 23:11:31 |
+| 76    | elisworm              | 🦑 squid     | 39.85         | 2025-11-20 08:24:59 |
+| 77    | derintu               | 🐢 turtle    | 38.67         | 2025-10-03 19:39:17 |
+| 78    | dazedforevermore      | 🦫 beaver    | 37.92         | 2025-03-14 22:02:31 |
+| 79    | elisworm              | 🦪 oyster    | 37.79         | 2025-11-19 06:28:03 |
+| 80    | lluuuuucy             | 🐢 turtle    | 37.40         | 2024-11-20 18:39:22 |
+| 81    | kishma9               | 🦭 seal      | 36.84         | 2025-03-15 18:10:47 |
+| 82    | ninjaross             | 🐢 turtle    | 36.15         | 2024-11-29 19:07:42 |
+| 83    | derintu               | 🐢 turtle    | 36.02         | 2025-10-11 18:05:50 |
+| 84    | derintu               | 🐊 crocodile | 35.30         | 2025-03-18 16:45:50 |
+| 85    | respirate_            | 🐋 whale     | 33.82         | 2024-09-08 21:08:56 |
+| 86    | derintu               | 🐢 turtle    | 33.63         | 2025-03-22 17:13:48 |
+| 87    | derintu               | 🐢 turtle    | 33.37         | 2025-10-08 17:30:49 |
+| 88    | dazedforevermore      | 🐡 blowfish  | 32.43         | 2024-08-02 18:20:24 |
+| 89    | leanmeister           | 🦐 shrimp    | 31.35         | 2024-11-27 20:25:23 |
+| 90    | ninjaross             | 🐟 fish      | 31.03         | 2024-08-02 20:33:13 |
+| 91    | elisworm              | 🐢 turtle    | 29.60         | 2025-11-19 03:09:22 |
+| 92    | respirate_            | 🦈 shark     | 29.43         | 2024-08-30 20:13:52 |
+| 93    | leanmeister           | 🐟 fish      | 29.16         | 2025-03-16 20:35:16 |
+| 94    | lluuuuucy             | 🦫 beaver    | 27.00         | 2024-11-16 21:52:33 |
+| 95    | derintu               | 🐢 turtle    | 26.83         | 2025-10-24 17:47:11 |
+| 96    | ninjaross             | 🦪 oyster    | 26.47         | 2024-11-29 20:00:15 |
+| 97    | respirate_            | 🐋 whale     | 26.24         | 2024-08-30 17:27:10 |
+| 98    | respirate_            | 🐬 dolphin   | 25.78         | 2024-10-28 20:43:08 |
+| 99    | lluuuuucy             | 🦫 beaver    | 24.39         | 2025-11-26 18:13:22 |
+| 100   | destin357             | 🦪 oyster    | 23.86         | 2025-03-22 16:23:38 |
 
-_Last updated at 2025-12-28 10:37:49 UTC_
+_Last updated at 2026-01-11 10:27:56 UTC_

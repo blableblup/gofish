@@ -3,7 +3,7 @@
 | Rank  | Player             | Fish seen |
 |:------|:-------------------|:----------|
 | 1 🥇  | buhl00n            | 99        |
-| 2 🥈  | no_yellow2026      | 87        |
+| 2 🥈  | glorp_fishing      | 87        |
 | 3 🥉  | gimmeschmoneys     | 73        |
 | 4     | nolifeben1         | 63        |
 | 5     | iam_haunt          | 59        |
@@ -55,4 +55,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2025-12-28 10:37:54 UTC_
+_Last updated at 2026-01-11 10:27:55 UTC_

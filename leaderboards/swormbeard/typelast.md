@@ -21,15 +21,15 @@
 | 54   | 🦫 beaver         | 23.52         | lluuuuucy             | 2025-11-28 18:42:54 |
 | 53   | 🌹 rose           | 0.81          | lluuuuucy             | 2025-11-26 17:34:28 |
 | 52   | 🐌 snail          | 6.78          | ytp_dl                | 2025-11-26 16:55:15 |
-| 51   | 🦕 sauropod       | 250.28        | chestnutbank          | 2025-11-21 00:21:40 |
-| 50   | 🦑 squid          | 39.85         | chestnutbank          | 2025-11-20 08:24:59 |
-| 49   | 🦪 oyster         | 17.44         | chestnutbank          | 2025-11-20 07:05:41 |
-| 48   | 🍬 candy          | 0.53          | chestnutbank          | 2025-11-20 07:00:16 |
-| 47   | 🦞 lobster        | 56.83         | chestnutbank          | 2025-11-20 05:03:14 |
-| 46   | 🐚 shell          | 2.06          | chestnutbank          | 2025-11-20 04:19:19 |
-| 45   | 💀 skull          | 7.63          | chestnutbank          | 2025-11-19 09:22:37 |
-| 44   | 🪳 cockroach      | 8.13          | chestnutbank          | 2025-11-19 08:48:20 |
-| 43   | 🦀 crab           | 2.37          | chestnutbank          | 2025-11-19 08:15:55 |
+| 51   | 🦕 sauropod       | 250.28        | elisworm              | 2025-11-21 00:21:40 |
+| 50   | 🦑 squid          | 39.85         | elisworm              | 2025-11-20 08:24:59 |
+| 49   | 🦪 oyster         | 17.44         | elisworm              | 2025-11-20 07:05:41 |
+| 48   | 🍬 candy          | 0.53          | elisworm              | 2025-11-20 07:00:16 |
+| 47   | 🦞 lobster        | 56.83         | elisworm              | 2025-11-20 05:03:14 |
+| 46   | 🐚 shell          | 2.06          | elisworm              | 2025-11-20 04:19:19 |
+| 45   | 💀 skull          | 7.63          | elisworm              | 2025-11-19 09:22:37 |
+| 44   | 🪳 cockroach      | 8.13          | elisworm              | 2025-11-19 08:48:20 |
+| 43   | 🦀 crab           | 2.37          | elisworm              | 2025-11-19 08:15:55 |
 | 42   | 🧤 gloves         | 0.74          | derintu               | 2025-11-12 18:47:14 |
 | 41   | 👢 boot           | 0.60          | derintu               | 2025-11-12 18:13:19 |
 | 40   | 🧽 sponge         | 13.63         | wcd0                  | 2025-11-07 00:53:25 |
@@ -40,7 +40,7 @@
 | 35   | 🍃 deadleaves     | 1.50          | derinturitierutz      | 2025-10-30 20:57:07 |
 | 34   | 🍎 apple          | 2.35          | derinturitierutz      | 2025-10-30 18:11:25 |
 | 33   | ☘️ clover         | 5.85          | derintu               | 2025-10-14 18:12:22 |
-| 32   | 🎱 8ball          | 0.49          | chestnutbank          | 2025-09-20 21:33:38 |
+| 32   | 🎱 8ball          | 0.49          | elisworm              | 2025-09-20 21:33:38 |
 | 31   | 🦇 bat            | 10.96         | gawblemachine         | 2025-09-19 19:35:47 |
 | 30   | 🫙 jar            | 1.38          | derintu               | 2025-08-29 22:02:53 |
 | 29   | 🦋 butterfly      | 0.03          | derintu               | 2025-08-29 20:53:43 |
@@ -73,4 +73,4 @@
 | 2    | 🩴 thongsandal    | 0.65          | dazedforevermore      | 2024-08-03 15:29:46 |
 | 1    | 🕶️ darksunglasses | 11.39         | respirate_            | 2024-07-29 07:01:49 |
 
-_Last updated at 2026-01-04 10:15:31 UTC_
+_Last updated at 2026-01-11 10:24:32 UTC_

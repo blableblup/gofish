@@ -6,7 +6,7 @@
 | 2 🥈  | lluuuuucy             | 1416.38             |
 | 3 🥉  | leanmeister           | 1041.97             |
 | 4     | respirate_            | 985.00              |
-| 5     | chestnutbank          | 635.41              |
+| 5     | elisworm              | 635.41              |
 | 6     | derinturitierutz      | 599.67              |
 | 7     | kishma9               | 498.05              |
 | 8     | dazedforevermore      | 426.64              |
@@ -17,4 +17,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-01-04 10:15:30 UTC_
+_Last updated at 2026-01-11 10:27:57 UTC_

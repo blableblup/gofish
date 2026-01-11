@@ -11,10 +11,10 @@
 | 5     | kidnamedzan       | 18          |
 | 5     | turkld            | 18          |
 | 9     | digital_red_panda | 17          |
-| 10    | chestnutbank      | 14          |
+| 10    | elisworm          | 14          |
 | 10    | xmrsamx           | 14          |
 | 12    | stevethewingman   | 13          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-12-28 10:37:51 UTC_
+_Last updated at 2026-01-11 10:24:32 UTC_

@@ -2,25 +2,25 @@
 
 | Rank | Fish              | Weight in lbs | Player            | Date in UTC         |
 |:-----|:------------------|:--------------|:------------------|:--------------------|
-| 75   | 🎏 lure           | 4.89          | amatusz           | 2026-01-03 07:20:24 |
-| 74   | 🍄‍🟫 mushroom       | 15.75         | respirate_        | 2026-01-02 16:35:14 |
-| 73   | 🦑 squid          | 270.99        | gofishgamer       | 2026-01-01 03:36:14 |
-| 72   | 🪨 rock           | 5.33          | respirate_        | 2026-01-01 03:18:47 |
-| 71   | 🐚 shell          | 2.90          | norstargik        | 2025-12-30 03:48:12 |
-| 70   | 🧸 teddybear      | 5.52          | amatusz           | 2025-12-30 03:47:16 |
-| 69   | 🐍 snake          | 175.01        | curiouscorvidae   | 2025-12-30 02:22:21 |
-| 68   | 🦪 oyster         | 11.73         | rustnroll         | 2025-12-29 02:41:16 |
-| 67   | 🐬 dolphin        | 25.34         | yankinmypizzle    | 2025-12-29 02:37:30 |
-| 66   | 🦭 seal           | 57.86         | amatusz           | 2025-12-29 02:13:33 |
-| 65   | 🦞 lobster        | 9.64          | amatusz           | 2025-12-26 04:32:12 |
-| 64   | 🦀 crab           | 1.41          | allspice_boatrace | 2025-12-20 04:35:22 |
-| 63   | 🪝 hook           | 1.53          | jeffbethyname69   | 2025-12-20 04:23:47 |
-| 62   | 🦐 shrimp         | 23.03         | eb_____           | 2025-12-19 01:59:40 |
-| 61   | 🕷️ spider         | 4.89          | commondab         | 2025-12-19 01:48:07 |
-| 60   | 🛒 shoppingcart   | 68.75         | metalxml          | 2025-12-08 04:30:22 |
-| 59   | 🐟 fish           | 6.22          | amatusz           | 2025-12-06 03:24:07 |
-| 58   | 🎰 slotmachine    | 0.00          | jeffbethyname69   | 2025-12-06 01:55:20 |
-| 57   | 🦦 otter          | 12.49         | jeffbethyname69   | 2025-12-05 04:29:00 |
+| 75   | 🦞 lobster        | 44.11         | jeffbethyname69   | 2026-01-10 03:10:55 |
+| 74   | 🦦 otter          | 12.60         | twofistedtales    | 2026-01-09 06:38:51 |
+| 73   | 🦑 squid          | 26.45         | amatusz           | 2026-01-09 02:41:03 |
+| 72   | 🐟 fish           | 14.43         | boogie310_        | 2026-01-09 01:52:26 |
+| 71   | 🎏 lure           | 4.89          | amatusz           | 2026-01-03 07:20:24 |
+| 70   | 🍄‍🟫 mushroom       | 15.75         | respirate_        | 2026-01-02 16:35:14 |
+| 69   | 🪨 rock           | 5.33          | respirate_        | 2026-01-01 03:18:47 |
+| 68   | 🐚 shell          | 2.90          | norstargik        | 2025-12-30 03:48:12 |
+| 67   | 🧸 teddybear      | 5.52          | amatusz           | 2025-12-30 03:47:16 |
+| 66   | 🐍 snake          | 175.01        | curiouscorvidae   | 2025-12-30 02:22:21 |
+| 65   | 🦪 oyster         | 11.73         | rustnroll         | 2025-12-29 02:41:16 |
+| 64   | 🐬 dolphin        | 25.34         | yankinmypizzle    | 2025-12-29 02:37:30 |
+| 63   | 🦭 seal           | 57.86         | amatusz           | 2025-12-29 02:13:33 |
+| 62   | 🦀 crab           | 1.41          | allspice_boatrace | 2025-12-20 04:35:22 |
+| 61   | 🪝 hook           | 1.53          | jeffbethyname69   | 2025-12-20 04:23:47 |
+| 60   | 🦐 shrimp         | 23.03         | eb_____           | 2025-12-19 01:59:40 |
+| 59   | 🕷️ spider         | 4.89          | commondab         | 2025-12-19 01:48:07 |
+| 58   | 🛒 shoppingcart   | 68.75         | metalxml          | 2025-12-08 04:30:22 |
+| 57   | 🎰 slotmachine    | 0.00          | jeffbethyname69   | 2025-12-06 01:55:20 |
 | 56   | 🐋 whale          | 63.80         | jeffbethyname69   | 2025-12-05 01:37:21 |
 | 55   | 🍬 candy          | 0.00          | jeffbethyname69   | 2025-12-05 01:32:52 |
 | 54   | 🐳 bluewhale      | 93.79         | gofishgamer       | 2025-12-04 05:50:29 |
@@ -78,4 +78,4 @@
 | 2    | 🎱 8ball          | 2.22          | mademooselle      | 2025-04-01 04:29:50 |
 | 1    | 🧵 wireline       | 0.04          | nalls             | 2025-03-22 04:41:42 |
 
-_Last updated at 2026-01-04 10:15:31 UTC_
+_Last updated at 2026-01-11 10:24:33 UTC_

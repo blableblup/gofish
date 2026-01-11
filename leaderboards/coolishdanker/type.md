@@ -2,7 +2,7 @@
 
 | Rank  | Fish            | Weight in lbs | Player            | Date in UTC         |
 |:------|:----------------|:--------------|:------------------|:--------------------|
-| 1 🥇  | 🦈 shark        | 228.20        | chestnutbank      | 2025-12-08 01:09:55 |
+| 1 🥇  | 🦈 shark        | 228.20        | elisworm          | 2025-12-08 01:09:55 |
 | 2 🥈  | 🐍 snake        | 156.42        | jaial             | 2025-01-28 01:14:58 |
 | 3 🥉  | 🐋 whale        | 146.22        | yxnggon           | 2025-01-14 04:42:08 |
 | 4     | 🦭 seal         | 123.29        | kidnamedzan       | 2025-01-20 18:27:13 |
@@ -17,7 +17,7 @@
 | 13    | 🐙 octopus      | 22.20         | digital_red_panda | 2025-01-11 04:23:22 |
 | 14    | 🐠 tropicalfish | 20.89         | digital_red_panda | 2025-06-21 15:28:53 |
 | 15    | 🕷️ spider       | 18.94         | yxnggon           | 2025-01-13 23:06:22 |
-| 16    | 🐟 fish         | 18.93         | chestnutbank      | 2025-12-03 08:32:49 |
+| 16    | 🐟 fish         | 18.93         | elisworm          | 2025-12-03 08:32:49 |
 | 17    | 🍄 oceanplant   | 17.15         | jaial             | 2025-01-17 13:23:32 |
 | 18    | 🦦 otter        | 17.09         | kidnamedzan       | 2025-01-18 21:29:05 |
 | 19    | 🦠 plankton     | 16.67         | kidnamedzan       | 2025-01-18 16:13:17 |
@@ -35,9 +35,9 @@
 | 31    | 👢 boot         | 1.58          | fenix8            | 2025-02-03 15:38:30 |
 | 32    | 🩰 balletshoes  | 1.36          | jaial             | 2025-01-28 02:17:23 |
 | 33    | 🧤 gloves       | 0.55          | yxnggon           | 2025-01-10 11:12:39 |
-| 34    | 💀 skull        | 0.44          | chestnutbank      | 2025-12-03 07:57:17 |
+| 34    | 💀 skull        | 0.44          | elisworm          | 2025-12-03 07:57:17 |
 | 35    | 🌿 seaweed      | 0.41          | fenix8            | 2025-06-09 11:06:52 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-01-04 10:16:53 UTC_
+_Last updated at 2026-01-11 10:27:17 UTC_

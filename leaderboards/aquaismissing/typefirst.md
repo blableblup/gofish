@@ -2,9 +2,11 @@
 
 | Rank | Fish            | Weight in lbs | Player        | Date in UTC         |
 |:-----|:----------------|:--------------|:--------------|:--------------------|
+| 62   | 🦫 beaver       | 9.76          | glorpiusbot   | 2026-01-07 15:53:54 |
+| 61   | ☘️ clover       | 3.98          | glorpiusbot   | 2026-01-05 15:05:34 |
 | 60   | 👒 hat          | 10.81         | syberiak_     | 2025-12-07 20:20:18 |
 | 59   | 🕸️ spiderweb    | 0.32          | respirate_    | 2025-11-26 07:41:24 |
-| 58   | 🍬 candy        | 0.00          | chestnutbank  | 2025-11-26 01:18:30 |
+| 58   | 🍬 candy        | 0.00          | elisworm      | 2025-11-26 01:18:30 |
 | 57   | 🎃 pumpkin      | 3.61          | glorpiusbot   | 2025-11-03 17:12:45 |
 | 56   | 🎱 8ball        | 0.38          | glorpiusbot   | 2025-11-03 00:29:03 |
 | 55   | 🌰 acorn        | 3.14          | glorpiusbot   | 2025-10-03 14:12:03 |
@@ -63,4 +65,4 @@
 | 2    | 🪝 hook         | 0.88          | vladik4il     | 2024-11-26 16:02:08 |
 | 1    | 🧦 socks        | 0.82          | aquaismissing | 2024-11-26 15:51:47 |
 
-_Last updated at 2025-12-28 10:37:56 UTC_
+_Last updated at 2026-01-11 10:26:12 UTC_

@@ -8,8 +8,8 @@
 | 4     | destructionvibe   | 14        |
 | 5     | copynine          | 13        |
 | 5     | kidnamedzan       | 13        |
-| 7     | chestnutbank      | 12        |
 | 7     | digital_red_panda | 12        |
+| 7     | elisworm          | 12        |
 | 7     | yxnggon           | 12        |
 | 10    | stevethewingman   | 11        |
 | 11    | xmrsamx           | 10        |
@@ -18,4 +18,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2025-12-28 10:37:52 UTC_
+_Last updated at 2026-01-11 10:27:55 UTC_

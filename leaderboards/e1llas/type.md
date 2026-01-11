@@ -6,7 +6,7 @@
 | 2 🥈  | 🦕 sauropod       | 240.64        | e1llas         | 2025-05-07 06:20:12 |
 | 3 🥉  | 🐍 snake          | 195.57        | respirate_     | 2025-11-15 02:39:23 |
 | 4     | 🦈 shark          | 192.62        | gofishgamer    | 2025-11-10 01:42:09 |
-| 5     | 🐉 dragon         | 150.37        | chestnutbank   | 2025-11-14 00:16:28 |
+| 5     | 🐉 dragon         | 150.37        | elisworm       | 2025-11-14 00:16:28 |
 | 6     | 🐋 whale          | 149.38        | envtt          | 2025-06-12 13:09:59 |
 | 7     | 🐊 crocodile      | 136.17        | jboy42o        | 2025-05-12 14:12:14 |
 | 8     | 🐙 octopus        | 129.14        | envtt          | 2025-06-04 15:19:26 |
@@ -25,7 +25,7 @@
 | 21    | 🦫 beaver         | 26.30         | e1llas         | 2025-07-24 14:31:39 |
 | 22    | 🪸 coral          | 22.74         | e1llas         | 2025-05-12 13:17:05 |
 | 23    | 🪳 cockroach      | 22.54         | gofishgamer    | 2025-11-15 02:28:26 |
-| 24    | 🦠 plankton       | 20.89         | chestnutbank   | 2025-11-10 01:09:27 |
+| 24    | 🦠 plankton       | 20.89         | elisworm       | 2025-11-10 01:09:27 |
 | 25    | 🐠 tropicalfish   | 19.15         | respirate_     | 2025-11-11 06:03:12 |
 | 26    | 🦦 otter          | 17.18         | xopowosidim667 | 2024-12-10 11:11:08 |
 | 27    | 🕷️ spider         | 14.69         | gofishgamer    | 2025-11-15 05:55:59 |
@@ -63,4 +63,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-12-28 10:42:09 UTC_
+_Last updated at 2026-01-11 10:26:56 UTC_

@@ -6,7 +6,7 @@
 | 2 🥈  | e1llas         | 36        |
 | 3 🥉  | dlfforr        | 26        |
 | 4     | gofishgamer    | 24        |
-| 5     | chestnutbank   | 21        |
+| 5     | elisworm       | 21        |
 | 6     | jboy42o        | 18        |
 | 6     | respirate_     | 18        |
 | 8     | mersufy        | 11        |
@@ -17,4 +17,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2025-12-28 10:37:53 UTC_
+_Last updated at 2026-01-11 10:27:54 UTC_

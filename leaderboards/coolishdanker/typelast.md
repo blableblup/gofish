@@ -3,18 +3,18 @@
 | Rank | Fish            | Weight in lbs | Player            | Date in UTC         |
 |:-----|:----------------|:--------------|:------------------|:--------------------|
 | 35   | 🎏 lure         | 0.59          | fenix8            | 2025-12-09 17:54:46 |
-| 34   | 🦈 shark        | 228.20        | chestnutbank      | 2025-12-08 01:09:55 |
-| 33   | 🦞 lobster      | 8.62          | chestnutbank      | 2025-12-08 00:06:27 |
-| 32   | 🦀 crab         | 2.05          | chestnutbank      | 2025-12-04 07:18:39 |
-| 31   | 🪝 hook         | 0.88          | chestnutbank      | 2025-12-03 10:05:12 |
-| 30   | 🐟 fish         | 18.93         | chestnutbank      | 2025-12-03 08:32:49 |
-| 29   | 💀 skull        | 0.44          | chestnutbank      | 2025-12-03 07:57:17 |
-| 28   | 🐊 crocodile    | 44.40         | chestnutbank      | 2025-12-03 06:58:56 |
-| 27   | 🐢 turtle       | 5.19          | chestnutbank      | 2025-12-03 06:19:10 |
-| 26   | 👢 boot         | 1.43          | chestnutbank      | 2025-12-02 09:30:36 |
-| 25   | 🦪 oyster       | 18.05         | chestnutbank      | 2025-12-02 08:36:36 |
-| 24   | 🐚 shell        | 1.59          | chestnutbank      | 2025-12-02 07:29:13 |
-| 23   | 🧸 teddybear    | 8.04          | chestnutbank      | 2025-12-02 06:13:19 |
+| 34   | 🦈 shark        | 228.20        | elisworm          | 2025-12-08 01:09:55 |
+| 33   | 🦞 lobster      | 8.62          | elisworm          | 2025-12-08 00:06:27 |
+| 32   | 🦀 crab         | 2.05          | elisworm          | 2025-12-04 07:18:39 |
+| 31   | 🪝 hook         | 0.88          | elisworm          | 2025-12-03 10:05:12 |
+| 30   | 🐟 fish         | 18.93         | elisworm          | 2025-12-03 08:32:49 |
+| 29   | 💀 skull        | 0.44          | elisworm          | 2025-12-03 07:57:17 |
+| 28   | 🐊 crocodile    | 44.40         | elisworm          | 2025-12-03 06:58:56 |
+| 27   | 🐢 turtle       | 5.19          | elisworm          | 2025-12-03 06:19:10 |
+| 26   | 👢 boot         | 1.43          | elisworm          | 2025-12-02 09:30:36 |
+| 25   | 🦪 oyster       | 18.05         | elisworm          | 2025-12-02 08:36:36 |
+| 24   | 🐚 shell        | 1.59          | elisworm          | 2025-12-02 07:29:13 |
+| 23   | 🧸 teddybear    | 8.04          | elisworm          | 2025-12-02 06:13:19 |
 | 22   | 🐬 dolphin      | 71.55         | respirate_        | 2025-11-10 00:12:59 |
 | 21   | 🐋 whale        | 13.10         | respirate_        | 2025-11-09 21:42:45 |
 | 20   | 🕷️ spider       | 6.21          | jaial             | 2025-07-25 17:24:50 |
@@ -38,4 +38,4 @@
 | 2    | 🦦 otter        | 17.09         | kidnamedzan       | 2025-01-18 21:29:05 |
 | 1    | 🐳 bluewhale    | 8.92          | turkld            | 2025-01-18 18:50:12 |
 
-_Last updated at 2025-12-28 10:42:52 UTC_
+_Last updated at 2026-01-11 10:24:33 UTC_

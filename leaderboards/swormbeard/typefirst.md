@@ -8,9 +8,9 @@
 | 68   | 🧤 gloves         | 0.74          | derintu               | 2025-11-12 18:47:14 |
 | 67   | 🍎 apple          | 2.35          | derinturitierutz      | 2025-10-30 18:11:25 |
 | 66   | 🌹 rose           | 0.22          | derintu               | 2025-10-01 17:07:07 |
-| 65   | 🎱 8ball          | 0.49          | chestnutbank          | 2025-09-20 21:33:38 |
+| 65   | 🎱 8ball          | 0.49          | elisworm              | 2025-09-20 21:33:38 |
 | 64   | 🦋 butterfly      | 0.03          | derintu               | 2025-08-29 20:53:43 |
-| 63   | 🫙 jar            | 1.18          | chestnutbank          | 2025-08-29 19:24:40 |
+| 63   | 🫙 jar            | 1.18          | elisworm              | 2025-08-29 19:24:40 |
 | 62   | 🕸️ spiderweb      | 0.06          | respirate_            | 2025-08-29 17:16:52 |
 | 61   | 🫎 moose          | 238.43        | derintu               | 2025-03-23 20:14:40 |
 | 60   | 📱 iphone         | 5.21          | fvkdylan              | 2025-03-18 23:17:58 |
@@ -73,4 +73,4 @@
 | 2    | 🦐 shrimp         | 3.14          | bapqo                 | 2024-07-28 22:59:12 |
 | 1    | 🐊 crocodile      | 105.00        | julialuxel            | 2024-07-28 22:59:00 |
 
-_Last updated at 2025-12-28 10:37:55 UTC_
+_Last updated at 2026-01-11 10:26:12 UTC_

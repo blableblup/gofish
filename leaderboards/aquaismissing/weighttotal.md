@@ -4,17 +4,17 @@
 |:------|:--------------|:--------------------|
 | 1 🥇  | respirate_    | 1681.68             |
 | 2 🥈  | rustezzz      | 1405.01             |
-| 3 🥉  | chestnutbank  | 1310.16             |
-| 4     | bubinga       | 1297.13 (+105.40)   |
+| 3 🥉  | elisworm      | 1310.16             |
+| 4     | bubinga       | 1297.13             |
 | 5     | velantix*     | 801.23              |
 | 6     | poggu_        | 706.03              |
 | 7     | stofeyxd*     | 663.82              |
-| 8 ⬆   | desxyne       | 604.55 (+14.30)     |
-| 9 ⬇   | aquaismissing | 597.01              |
-| 10 ⬆  | glorpiusbot   | 498.38 (+106.37)    |
-| 11 ⬇  | dom1torii     | 466.41              |
-| 12 ⬇  | aistyrax3     | 423.39 (+24.72)     |
-| 13 ⬇  | likedom_      | 394.68              |
+| 8     | desxyne       | 604.55              |
+| 9     | aquaismissing | 597.01              |
+| 10    | glorpiusbot   | 523.15 (+24.77)     |
+| 11    | dom1torii     | 466.41              |
+| 12    | aistyrax3     | 423.39              |
+| 13    | likedom_      | 394.68              |
 | 14    | ggmagician    | 354.29              |
 | 15    | kaitechpl     | 335.44              |
 | 16    | yyaaaaaaaas   | 254.07              |
@@ -24,4 +24,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-01-04 10:15:30 UTC_
+_Last updated at 2026-01-11 10:27:57 UTC_

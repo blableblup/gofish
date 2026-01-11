@@ -28,7 +28,7 @@
 | 24    | 🧃 beveragebox    | 2.05          | cptblack_           | 2025-06-27 08:48:11 |
 | 25    | 🦈 shark          | 2.02          | teeto               | 2025-04-01 02:19:02 |
 | 26    | 🪻 lupine         | 1.41          | poioce              | 2025-07-03 03:45:04 |
-| 27    | 🐋 whale          | 1.40          | chestnutbank        | 2025-12-26 04:17:05 |
+| 27    | 🐋 whale          | 1.40          | elisworm            | 2025-12-26 04:17:05 |
 | 28    | 🦆 duck           | 1.34          | jakthejanitor       | 2025-10-12 22:21:17 |
 | 29    | 🐬 dolphin        | 1.33          | poioce              | 2025-05-20 02:32:13 |
 | 30    | 🥪 sandwich       | 1.09          | pompadourdelinquent | 2025-06-27 14:57:01 |
@@ -73,9 +73,9 @@
 | 69    | 🌿 seaweed        | 0.05          | poioce              | 2025-03-20 09:26:12 |
 | 70    | ☘️ clover         | 0.04          | miyabwah            | 2025-01-26 07:15:25 |
 | 70    | 🍃 deadleaves     | 0.04          | teeto               | 2025-03-28 22:50:41 |
-| 72 ⬆  | 🪝 hook           | 0.03          | poioce              | 2025-02-27 13:32:30 |
-| 73 ⬇  | ⛸️ iceskate       | 0.02 (-0.02)  | respirate_          | 2026-01-01 13:36:06 |
-| 73 ⬆  | 👟 sneaker        | 0.02          | jakthejanitor       | 2025-11-02 00:45:49 |
+| 72    | 🪝 hook           | 0.03          | poioce              | 2025-02-27 13:32:30 |
+| 73    | ⛸️ iceskate       | 0.02          | respirate_          | 2026-01-01 13:36:06 |
+| 73    | 👟 sneaker        | 0.02          | jakthejanitor       | 2025-11-02 00:45:49 |
 | 75    | 🦀 crab           | 0.01          | jollygana           | 2025-04-16 03:20:53 |
 | 75    | 🧦 socks          | 0.01          | miyabwah            | 2025-03-11 06:41:19 |
 | 75    | 🩴 thongsandal    | 0.01          | yaykaiza            | 2025-08-22 00:59:19 |
@@ -84,4 +84,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-01-04 10:14:19 UTC_
+_Last updated at 2026-01-11 10:25:12 UTC_

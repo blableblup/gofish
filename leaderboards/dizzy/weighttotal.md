@@ -3,14 +3,14 @@
 | Rank  | Player         | Total Weight in lbs |
 |:------|:---------------|:--------------------|
 | 1 🥇  | buhl00n        | 36377.93            |
-| 2 🥈  | no_yellow2026  | 19064.53            |
+| 2 🥈  | glorp_fishing  | 19064.53            |
 | 3 🥉  | nolifeben1     | 15763.67            |
 | 4     | gimmeschmoneys | 15143.39            |
 | 5     | lolspers       | 13439.95            |
 | 6     | iam_haunt      | 10603.67            |
 | 7     | spanmer        | 7651.11             |
 | 8     | konsminator    | 7261.34             |
-| 9     | ofaisalz       | 5762.78 (+2.87)     |
+| 9     | ofaisalz       | 5762.78             |
 | 10    | vagdy          | 5318.19             |
 | 11    | hamoodhabibee  | 4201.44             |
 | 12    | notnownico     | 4087.64             |
@@ -19,7 +19,7 @@
 | 15    | simplydrack    | 3834.86             |
 | 16    | ssenario       | 3239.08             |
 | 17    | tairaaaaa      | 3040.98             |
-| 18    | kyonuwu        | 2715.91             |
+| 18    | kyonuwu        | 2801.77 (+85.86)    |
 | 19    | exo9*          | 2568.26             |
 | 20    | wisteraeia     | 2460.76             |
 | 21    | aceleju        | 2420.95             |
@@ -58,4 +58,4 @@
 
 _Only showing fishers with a total weight of >= 500 lbs_
 
-_Last updated at 2026-01-04 10:15:30 UTC_
+_Last updated at 2026-01-11 10:27:57 UTC_

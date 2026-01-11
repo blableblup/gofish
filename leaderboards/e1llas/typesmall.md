@@ -2,10 +2,10 @@
 
 | Rank  | Fish              | Weight in lbs | Player         | Date in UTC         |
 |:------|:------------------|:--------------|:---------------|:--------------------|
-| 1 🥇  | 🦕 sauropod       | 123.46        | chestnutbank   | 2025-11-14 03:51:28 |
+| 1 🥇  | 🦕 sauropod       | 123.46        | elisworm       | 2025-11-14 03:51:28 |
 | 2 🥈  | 🐳 bluewhale      | 61.03         | respirate_     | 2025-11-14 02:00:36 |
 | 3 🥉  | 🦫 beaver         | 26.30         | e1llas         | 2025-07-24 14:31:39 |
-| 4     | 🦭 seal           | 18.65         | chestnutbank   | 2025-11-12 08:24:52 |
+| 4     | 🦭 seal           | 18.65         | elisworm       | 2025-11-12 08:24:52 |
 | 5     | 🗡️ dagger         | 16.77         | envtt          | 2025-05-03 10:53:46 |
 | 6     | 🥒 seacucumber    | 14.36         | mersufy        | 2025-05-03 17:06:56 |
 | 7     | 🪼 jellyfish      | 14.11         | envtt          | 2025-06-11 18:50:00 |
@@ -27,7 +27,7 @@
 | 23    | 🐠 tropicalfish   | 2.86          | dlfforr        | 2025-06-14 18:32:10 |
 | 24    | 🦞 lobster        | 2.77          | e1llas         | 2025-05-18 04:47:38 |
 | 25    | 🐋 whale          | 2.09          | mersufy        | 2025-08-01 18:34:25 |
-| 26    | 🦠 plankton       | 2.08          | chestnutbank   | 2025-11-11 05:32:02 |
+| 26    | 🦠 plankton       | 2.08          | elisworm       | 2025-11-11 05:32:02 |
 | 27    | 🍁 leaf           | 1.88          | gofishgamer    | 2025-11-05 11:48:59 |
 | 28    | 🐡 blowfish       | 1.71          | envtt          | 2025-06-10 21:06:43 |
 | 29    | 🩰 balletshoes    | 1.52          | e1llas         | 2025-05-06 09:59:25 |
@@ -51,9 +51,9 @@
 | 46    | 🐍 snake          | 0.21          | envtt          | 2025-05-22 17:40:02 |
 | 46    | 🧽 sponge         | 0.21          | mersufy        | 2025-05-25 20:47:08 |
 | 49    | 🌿 seaweed        | 0.13          | jboy42o        | 2025-05-14 07:44:18 |
-| 50    | 🧤 gloves         | 0.11          | chestnutbank   | 2025-11-15 05:22:31 |
+| 50    | 🧤 gloves         | 0.11          | elisworm       | 2025-11-15 05:22:31 |
 | 51    | 🌻 sunflower      | 0.10          | e1llas         | 2025-07-23 17:42:30 |
-| 52    | 🪝 hook           | 0.09          | chestnutbank   | 2025-11-12 02:05:32 |
+| 52    | 🪝 hook           | 0.09          | elisworm       | 2025-11-12 02:05:32 |
 | 52    | 🦐 shrimp         | 0.09          | envtt          | 2025-06-25 18:32:04 |
 | 54    | 👢 boot           | 0.08          | dlfforr        | 2024-12-19 07:41:49 |
 | 54    | 🦀 crab           | 0.08          | envtt          | 2025-06-04 18:22:19 |
@@ -63,4 +63,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-12-28 10:38:16 UTC_
+_Last updated at 2026-01-11 10:26:00 UTC_

@@ -20,7 +20,7 @@
 | 16    | derintu                   | 🐳 bluewhale | 289.11        | 2025-03-27 15:03:12 |
 | 17    | miiiiisho                 | 🦈 shark     | 288.27        | 2024-02-01 22:00:13 |
 | 18    | comiqq                    | 🐳 bluewhale | 288.19        | 2024-03-24 15:49:44 |
-| 19    | chestnutbank              | 🐳 bluewhale | 287.68        | 2025-07-14 04:43:03 |
+| 19    | elisworm                  | 🐳 bluewhale | 287.68        | 2025-07-14 04:43:03 |
 | 20    | paras220                  | 🐳 bluewhale | 287.47        | 2023-09-08 03:21:48 |
 | 21    | ryebreadward              | 🐳 bluewhale | 287.28        | 2024-03-27 09:33:32 |
 | 22    | ninjaross                 | 🐳 bluewhale | 287.26        | 2025-04-22 07:47:19 |
@@ -71,4 +71,4 @@
 
 _Only showing fish weighing >= 200 lbs_
 
-_Last updated at 2026-01-04 10:15:24 UTC_
+_Last updated at 2026-01-11 10:26:11 UTC_
