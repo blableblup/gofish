@@ -7,7 +7,7 @@
 | 3 🥉  | gimmeschmoneys | 14          | 10               | 5                | 54.5   |
 | 4     | lolspers       | 3           | 7                | 7                | 19.5   |
 | 5     | vagdy          | 6           | 0                | 2                | 19.0   |
-| 6     | no_yellow2026  | 1           | 9                | 5                | 14.5   |
+| 6     | glorp_fishing  | 1           | 9                | 5                | 14.5   |
 | 7     | konsminator    | 3           | 2                | 4                | 13.0   |
 | 8     | hamoodhabibee  | 1           | 2                | 5                | 7.5    |
 | 8     | iam_haunt      | 1           | 3                | 3                | 7.5    |
@@ -20,4 +20,4 @@
 | 16    | kyonuwu        | 0           | 1                | 1                | 1.5    |
 | 17    | ofaisalz       | 0           | 0                | 2                | 1.0    |
 
-_Last updated at 2025-12-30 17:36:13 UTC_
+_Last updated at 2026-01-14 15:55:37 UTC_

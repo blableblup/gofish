@@ -43,7 +43,7 @@
 		"weight": 0.5,
 		"date": "0001-01-01T00:00:00Z",
 		"bronze": 1,
-		"rank": 41
+		"rank": 42
 	},
 	"1449": {
 		"player": "popfizzgg",
@@ -70,7 +70,7 @@
 		"trophies": 4,
 		"silver": 1,
 		"bronze": 2,
-		"rank": 14
+		"rank": 15
 	},
 	"159": {
 		"player": "yopego",
@@ -139,7 +139,7 @@
 		"weight": 0.5,
 		"date": "0001-01-01T00:00:00Z",
 		"bronze": 1,
-		"rank": 41
+		"rank": 42
 	},
 	"200": {
 		"player": "thasbe",
@@ -197,6 +197,14 @@
 		"bronze": 1,
 		"rank": 23
 	},
+	"2465": {
+		"player": "deatron",
+		"playerid": 2465,
+		"weight": 1,
+		"date": "0001-01-01T00:00:00Z",
+		"silver": 1,
+		"rank": 40
+	},
 	"2476": {
 		"player": "xd_2k",
 		"playerid": 2476,
@@ -211,7 +219,7 @@
 		"weight": 0.5,
 		"date": "0001-01-01T00:00:00Z",
 		"bronze": 1,
-		"rank": 41
+		"rank": 42
 	},
 	"2609": {
 		"player": "iflya320",
@@ -226,11 +234,11 @@
 	"269": {
 		"player": "nndiana",
 		"playerid": 269,
-		"weight": 269,
+		"weight": 271,
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 65,
-		"silver": 62,
-		"bronze": 24,
+		"silver": 63,
+		"bronze": 26,
 		"rank": 1
 	},
 	"3740": {
@@ -246,10 +254,10 @@
 	"3794": {
 		"player": "jayayseaohbee",
 		"playerid": 3794,
-		"weight": 104.5,
+		"weight": 105.5,
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 27,
-		"silver": 20,
+		"silver": 21,
 		"bronze": 7,
 		"rank": 3
 	},
@@ -276,21 +284,21 @@
 	"4037": {
 		"player": "rottarded",
 		"playerid": 4037,
-		"weight": 15,
+		"weight": 18,
 		"date": "0001-01-01T00:00:00Z",
-		"trophies": 3,
+		"trophies": 4,
 		"silver": 3,
 		"bronze": 6,
-		"rank": 12
+		"rank": 11
 	},
 	"4099": {
 		"player": "blu_inx",
 		"playerid": 4099,
-		"weight": 29.5,
+		"weight": 30,
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 8,
 		"silver": 5,
-		"bronze": 1,
+		"bronze": 2,
 		"rank": 7
 	},
 	"4135": {
@@ -320,7 +328,7 @@
 		"trophies": 4,
 		"silver": 2,
 		"bronze": 2,
-		"rank": 12
+		"rank": 14
 	},
 	"487": {
 		"player": "zsipe",
@@ -357,7 +365,7 @@
 		"trophies": 3,
 		"silver": 3,
 		"bronze": 11,
-		"rank": 11
+		"rank": 12
 	},
 	"686": {
 		"player": "jr_mime",
@@ -376,7 +384,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 4,
 		"silver": 2,
-		"rank": 14
+		"rank": 15
 	},
 	"756": {
 		"player": "pengeg",
@@ -390,11 +398,11 @@
 	"913": {
 		"player": "ratot",
 		"playerid": 913,
-		"weight": 13.5,
+		"weight": 17,
 		"date": "0001-01-01T00:00:00Z",
-		"trophies": 1,
+		"trophies": 2,
 		"silver": 7,
-		"bronze": 7,
-		"rank": 16
+		"bronze": 8,
+		"rank": 13
 	}
 }

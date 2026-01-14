@@ -6,7 +6,7 @@
 | 2 🥈  | lolspers       | 115         |
 | 3 🥉  | iam_haunt      | 96          |
 | 4     | gimmeschmoneys | 95          |
-| 5     | no_yellow2026  | 93          |
+| 5     | glorp_fishing  | 93          |
 | 6     | nolifeben1     | 74          |
 | 7     | spanmer        | 71          |
 | 8     | aceleju        | 64          |
@@ -29,4 +29,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2025-12-30 17:36:13 UTC_
+_Last updated at 2026-01-14 15:55:37 UTC_
