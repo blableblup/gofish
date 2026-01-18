@@ -19,7 +19,7 @@
 | 15    | simplydrack    | 3834.86             |
 | 16    | ssenario       | 3239.08             |
 | 17    | tairaaaaa      | 3040.98             |
-| 18    | kyonuwu        | 2801.77 (+85.86)    |
+| 18    | kyonuwu        | 2801.77             |
 | 19    | exo9*          | 2568.26             |
 | 20    | wisteraeia     | 2460.76             |
 | 21    | aceleju        | 2420.95             |
@@ -58,4 +58,4 @@
 
 _Only showing fishers with a total weight of >= 500 lbs_
 
-_Last updated at 2026-01-11 10:27:57 UTC_
+_Last updated at 2026-01-18 09:36:16 UTC_

@@ -45,9 +45,9 @@
 | 41    | 🎃 pumpkin         | 22.41         | nndiana                   | 2025-11-02 05:09:21 |
 | 42    | 🍄‍🟫 mushroom        | 21.92         | gorillapark               | 2025-01-18 00:47:17 |
 | 43    | 🦠 plankton        | 21.82         | iflya320                  | 2025-11-28 10:54:25 |
-| 44 ⬆  | 🧭 compass         | 21.26 (+2.67) | rancbot                   | 2026-01-01 14:41:39 |
-| 45 ⬇  | 🦦 otter           | 19.94         | eeziiii                   | 2025-11-24 15:41:04 |
-| 46 ⬇  | 🪱 worm            | 19.86         | bubinga                   | 2025-04-17 08:57:57 |
+| 44    | 🧭 compass         | 21.26         | rancbot                   | 2026-01-01 14:41:39 |
+| 45    | 🦦 otter           | 19.94         | eeziiii                   | 2025-11-24 15:41:04 |
+| 46    | 🪱 worm            | 19.86         | bubinga                   | 2025-04-17 08:57:57 |
 | 47    | 🦴 bone            | 18.36         | supibot                   | 2025-08-30 08:22:14 |
 | 48    | 🍄 oceanplant      | 17.60         | iflya320                  | 2025-03-30 15:29:44 |
 | 49    | 🧞‍♂ genie           | 16.68         | feelsaceman               | 2025-10-06 14:20:46 |
@@ -56,7 +56,7 @@
 | 52    | 🕶️ darksunglasses  | 12.23         | huuuuuuuuuuuuuuuuuuuuuurz | 2025-07-28 11:49:10 |
 | 53    | 🐌 snail           | 11.93         | iflya320                  | 2025-07-22 17:25:11 |
 | 54    | 👒 hat             | 11.92         | bcarw                     | 2025-11-05 00:26:47 |
-| 54 ⬆  | 🧸 teddybear       | 11.92 (+0.39) | bubinga                   | 2025-12-30 00:20:22 |
+| 54    | 🧸 teddybear       | 11.92         | bubinga                   | 2025-12-30 00:20:22 |
 | 56    | 📱 iphone          | 11.49         | supibot                   | 2024-12-19 11:50:57 |
 | 57    | 🪺 nestwitheggs    | 10.94         | feelsaceman               | 2025-12-12 13:24:57 |
 | 58    | 🪹 emptynest       | 10.88         | rancbot                   | 2025-12-22 12:45:49 |
@@ -106,13 +106,13 @@
 | 102   | 🩰 balletshoes     | 1.90          | bubinga                   | 2024-12-14 16:58:36 |
 | 103   | 🐝 bee             | 1.31          | eeziiii                   | 2025-08-30 14:18:01 |
 | 104   | 🌿 seaweed         | 1.00          | iflya320                  | 2024-12-14 23:52:21 |
+| 105 ⬆ | 🧤 gloves          | 0.99 (+0.08)  | theevirus                 | 2026-01-16 01:07:47 |
 | 105   | 🌾 grass           | 0.99          | bubinga                   | 2025-03-23 15:56:42 |
-| 106   | 🐛 caterpillar     | 0.97          | theevirus                 | 2025-08-28 23:20:18 |
-| 107   | 🧣 scarf           | 0.96          | thetaxmen                 | 2025-01-03 00:50:02 |
-| 108   | 🫐 bilberries      | 0.95          | bubinga                   | 2025-06-22 12:09:29 |
-| 108   | 🪚 icesaw          | 0.95          | glorianeq                 | 2025-01-08 21:18:20 |
-| 110   | 🪶 feather         | 0.94          | womenfeet                 | 2025-02-15 18:29:30 |
-| 111   | 🧤 gloves          | 0.91          | eeziiii                   | 2025-01-25 18:14:34 |
+| 107 ⬇ | 🐛 caterpillar     | 0.97          | theevirus                 | 2025-08-28 23:20:18 |
+| 108 ⬇ | 🧣 scarf           | 0.96          | thetaxmen                 | 2025-01-03 00:50:02 |
+| 109 ⬇ | 🫐 bilberries      | 0.95          | bubinga                   | 2025-06-22 12:09:29 |
+| 109 ⬇ | 🪚 icesaw          | 0.95          | glorianeq                 | 2025-01-08 21:18:20 |
+| 111 ⬇ | 🪶 feather         | 0.94          | womenfeet                 | 2025-02-15 18:29:30 |
 | 112   | 🐜 ant             | 0.82          | theevirus                 | 2025-08-31 05:49:08 |
 | 113   | 🍥 sanddollar      | 0.71          | gorillapark               | 2025-08-25 15:23:54 |
 | 114   | 🦂 scorpion        | 0.65          | iflya320                  | 2025-08-31 17:46:24 |
@@ -125,4 +125,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-01-04 10:15:57 UTC_
+_Last updated at 2026-01-18 09:38:35 UTC_

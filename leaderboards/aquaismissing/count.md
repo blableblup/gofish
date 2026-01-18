@@ -6,9 +6,9 @@
 | 2 🥈  | rustezzz      | 67          |
 | 3 🥉  | bubinga       | 56          |
 | 3 🥉  | elisworm      | 56          |
-| 5     | glorpiusbot   | 47 (+6)     |
+| 5     | glorpiusbot   | 49 (+2)     |
 | 6     | desxyne       | 38          |
-| 7     | aquaismissing | 36          |
+| 7     | aquaismissing | 37 (+1)     |
 | 8     | stofeyxd*     | 32          |
 | 9     | likedom_      | 31          |
 | 10    | aistyrax3     | 27          |
@@ -17,12 +17,12 @@
 | 12    | velantix*     | 26          |
 | 14    | poggu_        | 23          |
 | 15    | dom1torii     | 22          |
-| 16    | kam3l_        | 20 (+1)     |
+| 16    | kam3l_        | 20          |
 | 17    | kaczer1       | 18          |
 | 18    | ggmagician    | 17          |
 | 18    | kargalay      | 17          |
 | 20    | vigilsync*    | 13          |
-| 21    | tetohasgone   | 12          |
+| 21    | helloimteto   | 12          |
 | 22    | buck101_      | 11          |
 | 22    | ievantee      | 11          |
 | 22    | ojack18       | 11          |
@@ -31,4 +31,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-01-11 10:24:32 UTC_
+_Last updated at 2026-01-18 09:37:57 UTC_

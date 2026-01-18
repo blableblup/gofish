@@ -33,7 +33,7 @@
 | 34   | 🦠 plankton     | 15.80         | mishashto     | 2024-12-11 05:17:21 |
 | 33   | ☂️ umbrella     | 1.80          | likedom_      | 2024-12-10 18:28:18 |
 | 32   | 🕷️ spider       | 17.79         | aquaismissing | 2024-12-10 11:21:57 |
-| 31   | 🍄 oceanplant   | 1.20          | tetohasgone   | 2024-12-10 06:29:31 |
+| 31   | 🍄 oceanplant   | 1.20          | helloimteto   | 2024-12-10 06:29:31 |
 | 30   | 🦦 otter        | 9.19          | aquaismissing | 2024-12-10 03:53:30 |
 | 29   | 🧤 gloves       | 0.67          | yureedtv      | 2024-12-08 13:58:18 |
 | 28   | 🐬 dolphin      | 17.51         | mrboringcom   | 2024-12-05 02:30:17 |
@@ -55,7 +55,7 @@
 | 12   | 🐚 shell        | 1.75          | kaczer1       | 2024-11-27 19:01:04 |
 | 11   | 🐠 tropicalfish | 3.72          | duduckcs      | 2024-11-27 13:32:06 |
 | 10   | 🐸 frog         | 3.27          | kaczer1       | 2024-11-26 18:30:39 |
-| 9    | 🦀 crab         | 0.74          | tetohasgone   | 2024-11-26 18:17:43 |
+| 9    | 🦀 crab         | 0.74          | helloimteto   | 2024-11-26 18:17:43 |
 | 8    | 💀 skull        | 1.42          | zarpcallum    | 2024-11-26 17:29:51 |
 | 7    | 🐌 snail        | 1.13          | likedom_      | 2024-11-26 16:48:58 |
 | 6    | 🌿 seaweed      | 0.80          | zarpcallum    | 2024-11-26 16:46:13 |
@@ -65,4 +65,4 @@
 | 2    | 🪝 hook         | 0.88          | vladik4il     | 2024-11-26 16:02:08 |
 | 1    | 🧦 socks        | 0.82          | aquaismissing | 2024-11-26 15:51:47 |
 
-_Last updated at 2026-01-11 10:26:12 UTC_
+_Last updated at 2026-01-18 09:37:59 UTC_

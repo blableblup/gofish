@@ -96,8 +96,8 @@
 | 92    | 🥪 sandwich        | 1.98          | ovrht                     | 2023-10-26 12:50:25 |
 | 92    | 👟 sneaker         | 1.98          | jeejee_jjl                | 2023-10-18 11:56:32 |
 | 94    | ⛸️ iceskate        | 1.96          | pookiesnowman             | 2023-12-24 05:51:00 |
+| 95 ⬆  | 🍬 candy           | 1.93 (+0.04)  | bananenshak3              | 2026-01-14 18:46:31 |
 | 95    | 🍃 deadleaves      | 1.93          | bubinga                   | 2025-11-03 00:39:15 |
-| 96    | 🍬 candy           | 1.89          | flunke_                   | 2024-07-07 12:23:18 |
 | 97    | 🪻 lupine          | 1.80          | nndiana                   | 2025-09-01 13:32:55 |
 | 98    | 🍁 leaf            | 1.69          | jayayseaohbee             | 2025-10-31 19:07:51 |
 | 99    | 🦢 swan            | 1.26          | mazzo_tv                  | 2024-07-08 06:43:22 |
@@ -110,12 +110,12 @@
 | 106   | 🌾 grass           | 0.87          | jayayseaohbee             | 2025-06-28 19:21:42 |
 | 107   | 🍥 sanddollar      | 0.77          | bubinga                   | 2025-08-25 07:57:19 |
 | 108   | 🐜 ant             | 0.62          | bluberry                  | 2025-08-31 21:59:07 |
-| 108 ⬆ | 🪿 goose           | 0.62 (+0.50)  | llikotesnecil             | 2026-01-05 01:54:01 |
-| 110 ⬇ | 🦟 mosquito        | 0.34          | bluberry                  | 2025-08-30 20:49:06 |
-| 111 ⬇ | 🦗 cricket         | 0.19          | jayayseaohbee             | 2025-09-11 02:05:57 |
-| 112 ⬇ | 🪰 fly             | 0.14          | nndiana                   | 2025-06-22 14:06:56 |
+| 108   | 🪿 goose           | 0.62          | llikotesnecil             | 2026-01-05 01:54:01 |
+| 110   | 🦟 mosquito        | 0.34          | bluberry                  | 2025-08-30 20:49:06 |
+| 111   | 🦗 cricket         | 0.19          | jayayseaohbee             | 2025-09-11 02:05:57 |
+| 112   | 🪰 fly             | 0.14          | nndiana                   | 2025-06-22 14:06:56 |
 | 113   | 🐛 caterpillar     | 0.05          | jayayseaohbee             | 2025-08-31 00:03:26 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-01-11 10:27:07 UTC_
+_Last updated at 2026-01-18 09:39:04 UTC_

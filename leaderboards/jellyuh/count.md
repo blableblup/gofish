@@ -6,11 +6,11 @@
 | 2 🥈  | miyabwah            | 267         |
 | 3 🥉  | pompadourdelinquent | 144         |
 | 4     | poioce              | 132         |
-| 5     | goopy777            | 122 (+1)    |
+| 5     | goopy777            | 126 (+4)    |
 | 6     | cptblack_           | 90          |
 | 7     | hello0d             | 89          |
 | 8     | teeto               | 88          |
-| 9     | jakthejanitor       | 66 (+2)     |
+| 9     | jakthejanitor       | 70 (+4)     |
 | 10    | e1d2f3              | 58          |
 | 11    | wombatbrownies      | 42          |
 | 12    | crunch_sack         | 40          |
@@ -29,4 +29,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-01-11 10:24:32 UTC_
+_Last updated at 2026-01-18 09:37:56 UTC_

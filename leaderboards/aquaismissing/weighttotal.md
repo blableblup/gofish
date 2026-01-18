@@ -9,9 +9,9 @@
 | 5     | velantix*     | 801.23              |
 | 6     | poggu_        | 706.03              |
 | 7     | stofeyxd*     | 663.82              |
-| 8     | desxyne       | 604.55              |
-| 9     | aquaismissing | 597.01              |
-| 10    | glorpiusbot   | 523.15 (+24.77)     |
+| 8 ⬆   | aquaismissing | 605.19 (+8.18)      |
+| 9 ⬇   | desxyne       | 604.55              |
+| 10    | glorpiusbot   | 578.27 (+55.12)     |
 | 11    | dom1torii     | 466.41              |
 | 12    | aistyrax3     | 423.39              |
 | 13    | likedom_      | 394.68              |
@@ -24,4 +24,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-01-11 10:27:57 UTC_
+_Last updated at 2026-01-18 09:36:15 UTC_

@@ -5,7 +5,7 @@
 | 1 🥇  | derintu          | 38        |
 | 2 🥈  | respirate_       | 31        |
 | 3 🥉  | leanmeister      | 29        |
-| 4     | lluuuuucy        | 20        |
+| 4     | lluuuuucy        | 21 (+1)   |
 | 5     | derinturitierutz | 19        |
 | 6     | dazedforevermore | 18        |
 | 7     | elisworm         | 17        |
@@ -16,4 +16,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2026-01-11 10:27:54 UTC_
+_Last updated at 2026-01-18 09:36:14 UTC_

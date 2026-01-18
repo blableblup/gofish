@@ -4,7 +4,7 @@
 |:------|:---------------|:------------|
 | 1 🥇  | envtt          | 138         |
 | 2 🥈  | e1llas         | 78          |
-| 3 🥉  | dlfforr        | 68          |
+| 3 🥉  | d1fforr        | 68          |
 | 4     | gofishgamer    | 43          |
 | 5     | elisworm       | 42          |
 | 6     | respirate_     | 36          |
@@ -15,4 +15,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-01-11 10:24:31 UTC_
+_Last updated at 2026-01-18 09:37:56 UTC_

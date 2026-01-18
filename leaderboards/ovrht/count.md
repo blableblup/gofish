@@ -18,10 +18,10 @@
 | 14    | k1lk4_            | 17          |
 | 14    | wenlygga          | 17          |
 | 16    | ewwwedd           | 13          |
+| 17    | helloimteto       | 11          |
 | 17    | kvgch             | 11          |
 | 17    | pelmee44ka        | 11          |
-| 17    | tetohasgone       | 11          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-11-09 07:45:13 UTC_
+_Last updated at 2026-01-18 09:37:57 UTC_
