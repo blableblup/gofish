@@ -19,34 +19,34 @@
 | 14    | sandwichsundays           | 65          |
 | 16    | xd_2k                     | 64          |
 | 17    | ratot                     | 63          |
+| 18 ⬆  | kevinlukejager            | 59 (+36)    |
 | 18    | lobuhtomy                 | 59          |
 | 18    | veny2lbs                  | 59          |
-| 20    | eeziiii                   | 54          |
-| 21    | thasbe                    | 48          |
-| 22    | trendymirror              | 47          |
-| 22    | yopego                    | 47          |
-| 24    | wowitsdub                 | 46          |
-| 25    | jemcs_                    | 45          |
-| 26    | joshuabzz                 | 44          |
-| 27    | r1cz4rd                   | 42          |
-| 27    | zwockel01                 | 42          |
-| 29    | theevirus                 | 41          |
-| 30    | amu1g                     | 37          |
-| 30    | commanda_u                | 37          |
-| 30    | pengeg                    | 37          |
-| 33    | disappointingtrash        | 36          |
-| 34    | divra__                   | 33          |
-| 35    | glorianeq                 | 32          |
-| 36    | restartmikel              | 31          |
-| 37    | noconcept_                | 29          |
-| 38    | avhsty                    | 28          |
-| 39    | creepycode                | 26          |
-| 40    | angus_lpc                 | 24          |
-| 40    | seryxx                    | 24          |
-| 42    | kevinlukejager            | 23          |
-| 43 🆕 | bananenshak3              | 22          |
-| 44 ⬇  | afju*                     | 21          |
+| 21 ⬇  | eeziiii                   | 54          |
+| 22 ⬇  | thasbe                    | 48          |
+| 23 ⬇  | trendymirror              | 47          |
+| 23 ⬇  | yopego                    | 47          |
+| 25 ⬇  | wowitsdub                 | 46          |
+| 26 ⬇  | jemcs_                    | 45          |
+| 27 ⬇  | joshuabzz                 | 44          |
+| 28 ⬇  | r1cz4rd                   | 42          |
+| 28 ⬇  | zwockel01                 | 42          |
+| 30 ⬇  | theevirus                 | 41          |
+| 31 ⬇  | amu1g                     | 37          |
+| 31 ⬇  | commanda_u                | 37          |
+| 31 ⬇  | pengeg                    | 37          |
+| 34 ⬇  | disappointingtrash        | 36          |
+| 35 ⬇  | divra__                   | 33          |
+| 36 ⬇  | glorianeq                 | 32          |
+| 37 ⬇  | restartmikel              | 31          |
+| 38 ⬇  | noconcept_                | 29          |
+| 39 ⬇  | avhsty                    | 28          |
+| 40 ⬆  | bananenshak3              | 27 (+5)     |
+| 41 ⬇  | creepycode                | 26          |
+| 42 ⬇  | angus_lpc                 | 24          |
+| 42 ⬇  | seryxx                    | 24          |
+| 44    | afju*                     | 21          |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2025-12-30 17:36:13 UTC_
+_Last updated at 2026-01-21 08:33:39 UTC_

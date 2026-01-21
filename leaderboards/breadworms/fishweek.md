@@ -25,14 +25,14 @@
 | 21    | gstaman911            | 80          |
 | 22    | comiiiiiq             | 79          |
 | 22    | miiiiisho             | 79          |
-| 24    | respirate_            | 74          |
-| 25    | larvaew               | 66          |
-| 26    | booty_bread           | 60          |
-| 26    | pinksynthesis28       | 60          |
-| 28 ⬆  | esvelles              | 59 (+6)     |
-| 29 ⬇  | notomji               | 57          |
-| 30 ⬇  | receipts              | 56          |
-| 31 ⬇  | bk207*                | 53          |
+| 24 ⬆  | esvelles              | 77 (+18)    |
+| 25 ⬇  | respirate_            | 74          |
+| 26 ⬇  | larvaew               | 66          |
+| 27 ⬇  | booty_bread           | 60          |
+| 27 ⬇  | pinksynthesis28       | 60          |
+| 29    | notomji               | 57          |
+| 30    | receipts              | 56          |
+| 31    | bk207*                | 53          |
 | 32    | hmsmob*               | 52          |
 | 32    | kaasppeerr            | 52          |
 | 34    | bapqo                 | 49          |
@@ -62,4 +62,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2026-01-14 15:55:37 UTC_
+_Last updated at 2026-01-21 08:33:39 UTC_

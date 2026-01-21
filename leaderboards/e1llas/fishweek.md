@@ -5,8 +5,8 @@
 | 1 🥇  | envtt   | 17          |
 | 2 🥈  | e1llas  | 12          |
 | 3 🥉  | jboy42o | 11          |
-| 4     | dlfforr | 10          |
+| 4     | d1fforr | 10          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2025-12-30 17:36:13 UTC_
+_Last updated at 2026-01-21 08:33:39 UTC_
