@@ -2,6 +2,7 @@
 
 | Rank | Fish              | Weight in lbs | Player                | Date in UTC         |
 |:-----|:------------------|:--------------|:----------------------|:--------------------|
+| 72   | ☂️ umbrella       | 1.09          | pinksynthesis28       | 2026-01-24 22:59:13 |
 | 71   | 🪱 worm           | 0.84          | derintu               | 2025-12-25 20:43:40 |
 | 70   | 🧵 wireline       | 0.53          | leanmeister           | 2025-12-13 18:13:39 |
 | 69   | 🔔 bell           | 0.00          | gawblemachine         | 2025-12-13 13:14:15 |
@@ -73,4 +74,4 @@
 | 2    | 🦐 shrimp         | 3.14          | bapqo                 | 2024-07-28 22:59:12 |
 | 1    | 🐊 crocodile      | 105.00        | julialuxel            | 2024-07-28 22:59:00 |
 
-_Last updated at 2026-01-11 10:26:12 UTC_
+_Last updated at 2026-01-25 09:35:08 UTC_

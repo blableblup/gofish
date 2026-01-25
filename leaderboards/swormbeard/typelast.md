@@ -2,32 +2,33 @@
 
 | Rank | Fish              | Weight in lbs | Player                | Date in UTC         |
 |:-----|:------------------|:--------------|:----------------------|:--------------------|
-| 70   | 🎏 lure           | 3.94          | pinksynthesis28       | 2026-01-16 20:07:33 |
-| 69   | 🐍 snake          | 210.75        | pinksynthesis28       | 2026-01-16 18:57:54 |
-| 68   | 🦪 oyster         | 43.25         | ytp_dl                | 2026-01-16 18:22:07 |
-| 67   | 🦞 lobster        | 23.36         | pinksynthesis28       | 2026-01-16 18:21:32 |
-| 66   | 🕷️ spider         | 23.80         | pinksynthesis28       | 2026-01-16 17:19:47 |
-| 65   | 🐚 shell          | 1.35          | pinksynthesis28       | 2026-01-14 20:58:51 |
-| 64   | 🥫 cannedfood     | 1.56          | pinksynthesis28       | 2026-01-13 22:41:28 |
-| 63   | 🐋 whale          | 105.30        | derintu               | 2025-12-26 19:38:12 |
-| 62   | 🪝 hook           | 2.97          | derintu               | 2025-12-26 18:23:36 |
-| 61   | 🐳 bluewhale      | 212.18        | derintu               | 2025-12-25 21:49:45 |
-| 60   | 🪱 worm           | 0.84          | derintu               | 2025-12-25 20:43:40 |
-| 59   | 🦈 shark          | 118.39        | derintu               | 2025-12-25 19:34:08 |
-| 58   | 🐢 turtle         | 42.89         | derintu               | 2025-12-24 19:18:48 |
-| 57   | 🐬 dolphin        | 17.61         | lluuuuucy             | 2025-12-23 23:58:44 |
-| 56   | 🐟 fish           | 14.17         | gawblemachine         | 2025-12-23 20:13:00 |
-| 55   | 🧵 wireline       | 0.53          | leanmeister           | 2025-12-13 18:13:39 |
-| 54   | 🔔 bell           | 0.00          | gawblemachine         | 2025-12-13 13:14:15 |
-| 53   | 🦐 shrimp         | 12.73         | lluuuuucy             | 2025-12-05 19:14:29 |
-| 52   | 🐊 crocodile      | 136.84        | lluuuuucy             | 2025-12-05 18:07:42 |
-| 51   | 🪸 coral          | 0.03          | lluuuuucy             | 2025-12-02 18:07:24 |
-| 50   | 🦫 beaver         | 23.52         | lluuuuucy             | 2025-11-28 18:42:54 |
-| 49   | 🌹 rose           | 0.81          | lluuuuucy             | 2025-11-26 17:34:28 |
-| 48   | 🐌 snail          | 6.78          | ytp_dl                | 2025-11-26 16:55:15 |
-| 47   | 🦕 sauropod       | 250.28        | elisworm              | 2025-11-21 00:21:40 |
-| 46   | 🦑 squid          | 39.85         | elisworm              | 2025-11-20 08:24:59 |
-| 45   | 🍬 candy          | 0.53          | elisworm              | 2025-11-20 07:00:16 |
+| 71   | ☂️ umbrella       | 1.09          | pinksynthesis28       | 2026-01-24 22:59:13 |
+| 70   | 🐚 shell          | 3.75          | pinksynthesis28       | 2026-01-24 22:14:26 |
+| 69   | 🦞 lobster        | 34.54         | pinksynthesis28       | 2026-01-24 19:54:31 |
+| 68   | 🪝 hook           | 0.31          | pinksynthesis28       | 2026-01-24 19:12:55 |
+| 67   | 🍬 candy          | 0.00          | pinksynthesis28       | 2026-01-23 22:43:40 |
+| 66   | 🕷️ spider         | 5.63          | pinksynthesis28       | 2026-01-23 19:56:11 |
+| 65   | 🎏 lure           | 3.94          | pinksynthesis28       | 2026-01-16 20:07:33 |
+| 64   | 🐍 snake          | 210.75        | pinksynthesis28       | 2026-01-16 18:57:54 |
+| 63   | 🦪 oyster         | 43.25         | ytp_dl                | 2026-01-16 18:22:07 |
+| 62   | 🥫 cannedfood     | 1.56          | pinksynthesis28       | 2026-01-13 22:41:28 |
+| 61   | 🐋 whale          | 105.30        | derintu               | 2025-12-26 19:38:12 |
+| 60   | 🐳 bluewhale      | 212.18        | derintu               | 2025-12-25 21:49:45 |
+| 59   | 🪱 worm           | 0.84          | derintu               | 2025-12-25 20:43:40 |
+| 58   | 🦈 shark          | 118.39        | derintu               | 2025-12-25 19:34:08 |
+| 57   | 🐢 turtle         | 42.89         | derintu               | 2025-12-24 19:18:48 |
+| 56   | 🐬 dolphin        | 17.61         | lluuuuucy             | 2025-12-23 23:58:44 |
+| 55   | 🐟 fish           | 14.17         | gawblemachine         | 2025-12-23 20:13:00 |
+| 54   | 🧵 wireline       | 0.53          | leanmeister           | 2025-12-13 18:13:39 |
+| 53   | 🔔 bell           | 0.00          | gawblemachine         | 2025-12-13 13:14:15 |
+| 52   | 🦐 shrimp         | 12.73         | lluuuuucy             | 2025-12-05 19:14:29 |
+| 51   | 🐊 crocodile      | 136.84        | lluuuuucy             | 2025-12-05 18:07:42 |
+| 50   | 🪸 coral          | 0.03          | lluuuuucy             | 2025-12-02 18:07:24 |
+| 49   | 🦫 beaver         | 23.52         | lluuuuucy             | 2025-11-28 18:42:54 |
+| 48   | 🌹 rose           | 0.81          | lluuuuucy             | 2025-11-26 17:34:28 |
+| 47   | 🐌 snail          | 6.78          | ytp_dl                | 2025-11-26 16:55:15 |
+| 46   | 🦕 sauropod       | 250.28        | elisworm              | 2025-11-21 00:21:40 |
+| 45   | 🦑 squid          | 39.85         | elisworm              | 2025-11-20 08:24:59 |
 | 44   | 💀 skull          | 7.63          | elisworm              | 2025-11-19 09:22:37 |
 | 43   | 🪳 cockroach      | 8.13          | elisworm              | 2025-11-19 08:48:20 |
 | 42   | 🦀 crab           | 2.37          | elisworm              | 2025-11-19 08:15:55 |
@@ -73,4 +74,4 @@
 | 2    | 🩴 thongsandal    | 0.65          | dazedforevermore      | 2024-08-03 15:29:46 |
 | 1    | 🕶️ darksunglasses | 11.39         | respirate_            | 2024-07-29 07:01:49 |
 
-_Last updated at 2026-01-18 09:37:58 UTC_
+_Last updated at 2026-01-25 09:35:06 UTC_

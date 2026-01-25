@@ -2,42 +2,42 @@
 
 | Rank | Fish              | Weight in lbs | Player            | Date in UTC         |
 |:-----|:------------------|:--------------|:------------------|:--------------------|
-| 75   | 🪝 hook           | 2.42          | boogie310_        | 2026-01-16 02:37:05 |
-| 74   | 🦀 crab           | 2.88          | norstargik        | 2026-01-16 02:34:35 |
-| 73   | 👢 boot           | 1.98          | curiouscorvidae   | 2026-01-16 00:42:41 |
-| 72   | 🐡 blowfish       | 3.40          | amatusz           | 2026-01-13 05:24:46 |
-| 71   | 🐟 fish           | 6.86          | amatusz           | 2026-01-13 02:41:11 |
-| 70   | 🐚 shell          | 3.77          | curiouscorvidae   | 2026-01-13 02:13:58 |
-| 69   | 🦐 shrimp         | 11.17         | forceghostleia    | 2026-01-12 04:58:47 |
-| 68   | 🕷️ spider         | 14.51         | amatusz           | 2026-01-12 03:24:46 |
-| 67   | 🦞 lobster        | 44.11         | jeffbethyname69   | 2026-01-10 03:10:55 |
-| 66   | 🦦 otter          | 12.60         | twofistedtales    | 2026-01-09 06:38:51 |
-| 65   | 🦑 squid          | 26.45         | amatusz           | 2026-01-09 02:41:03 |
-| 64   | 🎏 lure           | 4.89          | amatusz           | 2026-01-03 07:20:24 |
-| 63   | 🍄‍🟫 mushroom       | 15.75         | respirate_        | 2026-01-02 16:35:14 |
-| 62   | 🪨 rock           | 5.33          | respirate_        | 2026-01-01 03:18:47 |
-| 61   | 🧸 teddybear      | 5.52          | amatusz           | 2025-12-30 03:47:16 |
-| 60   | 🐍 snake          | 175.01        | curiouscorvidae   | 2025-12-30 02:22:21 |
-| 59   | 🦪 oyster         | 11.73         | rustnroll         | 2025-12-29 02:41:16 |
-| 58   | 🐬 dolphin        | 25.34         | yankinmypizzle    | 2025-12-29 02:37:30 |
-| 57   | 🦭 seal           | 57.86         | amatusz           | 2025-12-29 02:13:33 |
-| 56   | 🛒 shoppingcart   | 68.75         | metalxml          | 2025-12-08 04:30:22 |
-| 55   | 🎰 slotmachine    | 0.00          | jeffbethyname69   | 2025-12-06 01:55:20 |
-| 54   | 🐋 whale          | 63.80         | jeffbethyname69   | 2025-12-05 01:37:21 |
-| 53   | 🍬 candy          | 0.00          | jeffbethyname69   | 2025-12-05 01:32:52 |
-| 52   | 🐳 bluewhale      | 93.79         | gofishgamer       | 2025-12-04 05:50:29 |
-| 51   | 🐌 snail          | 8.34          | gofishgamer       | 2025-12-03 10:14:26 |
-| 50   | 🌿 seaweed        | 0.40          | gofishgamer       | 2025-12-03 07:07:05 |
-| 49   | 🦈 shark          | 166.73        | gofishgamer       | 2025-12-03 06:19:24 |
-| 48   | 🐢 turtle         | 43.28         | gofishgamer       | 2025-12-02 01:19:10 |
-| 47   | 🥫 cannedfood     | 0.71          | preemalone        | 2025-12-01 03:23:31 |
-| 46   | 💀 skull          | 0.21          | gofishgamer       | 2025-11-30 05:10:14 |
-| 45   | 🧊 icecube        | 1.45          | bluezebra17       | 2025-11-29 07:49:36 |
-| 44   | 🪳 cockroach      | 13.18         | gofishgamer       | 2025-11-28 08:11:10 |
-| 43   | 🦠 plankton       | 14.46         | gofishgamer       | 2025-11-28 07:15:42 |
-| 42   | 🕯️ candle         | 0.00          | gofishgamer       | 2025-11-26 07:42:13 |
-| 41   | 🎃 pumpkin        | 2.12          | gofishgamer       | 2025-11-26 07:36:18 |
-| 40   | 🐸 frog           | 1.35          | naatatpotato      | 2025-11-25 05:01:05 |
+| 75   | 🐟 fish           | 5.81          | amatusz           | 2026-01-24 05:34:25 |
+| 74   | 🐌 snail          | 0.29          | aaurie            | 2026-01-24 03:54:18 |
+| 73   | 🐍 snake          | 3.11          | jeffbethyname69   | 2026-01-24 02:56:21 |
+| 72   | 🥫 cannedfood     | 1.11          | curiouscorvidae   | 2026-01-24 02:18:48 |
+| 71   | 🪳 cockroach      | 1.98          | amatusz           | 2026-01-23 08:41:56 |
+| 70   | 🐸 frog           | 3.90          | blazedrider69     | 2026-01-23 03:41:39 |
+| 69   | 🪝 hook           | 2.56          | curiouscorvidae   | 2026-01-23 03:35:27 |
+| 68   | 🐚 shell          | 2.89          | forceghostleia    | 2026-01-20 08:00:13 |
+| 67   | 🦪 oyster         | 4.27          | amatusz           | 2026-01-20 04:24:09 |
+| 66   | 🦀 crab           | 0.62          | yankinmypizzle    | 2026-01-20 03:46:48 |
+| 65   | 👢 boot           | 1.98          | curiouscorvidae   | 2026-01-16 00:42:41 |
+| 64   | 🐡 blowfish       | 3.40          | amatusz           | 2026-01-13 05:24:46 |
+| 63   | 🦐 shrimp         | 11.17         | forceghostleia    | 2026-01-12 04:58:47 |
+| 62   | 🕷️ spider         | 14.51         | amatusz           | 2026-01-12 03:24:46 |
+| 61   | 🦞 lobster        | 44.11         | jeffbethyname69   | 2026-01-10 03:10:55 |
+| 60   | 🦦 otter          | 12.60         | twofistedtales    | 2026-01-09 06:38:51 |
+| 59   | 🦑 squid          | 26.45         | amatusz           | 2026-01-09 02:41:03 |
+| 58   | 🎏 lure           | 4.89          | amatusz           | 2026-01-03 07:20:24 |
+| 57   | 🍄‍🟫 mushroom       | 15.75         | respirate_        | 2026-01-02 16:35:14 |
+| 56   | 🪨 rock           | 5.33          | respirate_        | 2026-01-01 03:18:47 |
+| 55   | 🧸 teddybear      | 5.52          | amatusz           | 2025-12-30 03:47:16 |
+| 54   | 🐬 dolphin        | 25.34         | yankinmypizzle    | 2025-12-29 02:37:30 |
+| 53   | 🦭 seal           | 57.86         | amatusz           | 2025-12-29 02:13:33 |
+| 52   | 🛒 shoppingcart   | 68.75         | metalxml          | 2025-12-08 04:30:22 |
+| 51   | 🎰 slotmachine    | 0.00          | jeffbethyname69   | 2025-12-06 01:55:20 |
+| 50   | 🐋 whale          | 63.80         | jeffbethyname69   | 2025-12-05 01:37:21 |
+| 49   | 🍬 candy          | 0.00          | jeffbethyname69   | 2025-12-05 01:32:52 |
+| 48   | 🐳 bluewhale      | 93.79         | gofishgamer       | 2025-12-04 05:50:29 |
+| 47   | 🌿 seaweed        | 0.40          | gofishgamer       | 2025-12-03 07:07:05 |
+| 46   | 🦈 shark          | 166.73        | gofishgamer       | 2025-12-03 06:19:24 |
+| 45   | 🐢 turtle         | 43.28         | gofishgamer       | 2025-12-02 01:19:10 |
+| 44   | 💀 skull          | 0.21          | gofishgamer       | 2025-11-30 05:10:14 |
+| 43   | 🧊 icecube        | 1.45          | bluezebra17       | 2025-11-29 07:49:36 |
+| 42   | 🦠 plankton       | 14.46         | gofishgamer       | 2025-11-28 07:15:42 |
+| 41   | 🕯️ candle         | 0.00          | gofishgamer       | 2025-11-26 07:42:13 |
+| 40   | 🎃 pumpkin        | 2.12          | gofishgamer       | 2025-11-26 07:36:18 |
 | 39   | 🧤 gloves         | 0.30          | onekitty78        | 2025-11-25 03:40:32 |
 | 38   | 🪶 feather        | 0.88          | allspice_boatrace | 2025-11-22 05:30:19 |
 | 37   | 🪱 worm           | 0.24          | gofishgamer       | 2025-11-21 00:17:56 |
@@ -78,4 +78,4 @@
 | 2    | 🎱 8ball          | 2.22          | mademooselle      | 2025-04-01 04:29:50 |
 | 1    | 🧵 wireline       | 0.04          | nalls             | 2025-03-22 04:41:42 |
 
-_Last updated at 2026-01-18 09:37:58 UTC_
+_Last updated at 2026-01-25 09:35:05 UTC_

@@ -39,7 +39,7 @@
 | 35    | 🧽 sponge          | 28.10         | theevirus                 | 2025-08-16 14:35:03 |
 | 36    | 🧊 icecube         | 27.54         | jr_mime                   | 2024-12-28 15:51:20 |
 | 37    | 🐠 tropicalfish    | 26.16         | wowitsdub                 | 2025-03-24 19:49:25 |
-| 38    | 🪳 cockroach       | 25.81         | ranctious                 | 2025-11-12 22:03:46 |
+| 38    | 🪳 cockroach       | 25.86 (+0.05) | huuuuuuuuuuuuuuuuuuuuuurz | 2026-01-23 18:07:53 |
 | 39    | 🕷️ spider          | 23.83         | wowitsdub                 | 2025-02-20 15:12:47 |
 | 40    | 🪼 jellyfish       | 22.93         | eeziiii                   | 2025-07-22 05:57:22 |
 | 41    | 🎃 pumpkin         | 22.41         | nndiana                   | 2025-11-02 05:09:21 |
@@ -49,7 +49,7 @@
 | 45    | 🦦 otter           | 19.94         | eeziiii                   | 2025-11-24 15:41:04 |
 | 46    | 🪱 worm            | 19.86         | bubinga                   | 2025-04-17 08:57:57 |
 | 47    | 🦴 bone            | 18.36         | supibot                   | 2025-08-30 08:22:14 |
-| 48    | 🍄 oceanplant      | 17.60         | iflya320                  | 2025-03-30 15:29:44 |
+| 48    | 🍄 oceanplant      | 17.73 (+0.13) | rancbot                   | 2026-01-23 13:19:18 |
 | 49    | 🧞‍♂ genie           | 16.68         | feelsaceman               | 2025-10-06 14:20:46 |
 | 50    | 🪀 bobber          | 15.44         | wuh6                      | 2024-12-25 02:55:50 |
 | 51    | 🪵 log             | 14.90         | wowitsdub                 | 2025-05-21 11:27:21 |
@@ -106,13 +106,13 @@
 | 102   | 🩰 balletshoes     | 1.90          | bubinga                   | 2024-12-14 16:58:36 |
 | 103   | 🐝 bee             | 1.31          | eeziiii                   | 2025-08-30 14:18:01 |
 | 104   | 🌿 seaweed         | 1.00          | iflya320                  | 2024-12-14 23:52:21 |
-| 105 ⬆ | 🧤 gloves          | 0.99 (+0.08)  | theevirus                 | 2026-01-16 01:07:47 |
+| 105   | 🧤 gloves          | 0.99          | theevirus                 | 2026-01-16 01:07:47 |
 | 105   | 🌾 grass           | 0.99          | bubinga                   | 2025-03-23 15:56:42 |
-| 107 ⬇ | 🐛 caterpillar     | 0.97          | theevirus                 | 2025-08-28 23:20:18 |
-| 108 ⬇ | 🧣 scarf           | 0.96          | thetaxmen                 | 2025-01-03 00:50:02 |
-| 109 ⬇ | 🫐 bilberries      | 0.95          | bubinga                   | 2025-06-22 12:09:29 |
-| 109 ⬇ | 🪚 icesaw          | 0.95          | glorianeq                 | 2025-01-08 21:18:20 |
-| 111 ⬇ | 🪶 feather         | 0.94          | womenfeet                 | 2025-02-15 18:29:30 |
+| 107   | 🐛 caterpillar     | 0.97          | theevirus                 | 2025-08-28 23:20:18 |
+| 108   | 🧣 scarf           | 0.96          | thetaxmen                 | 2025-01-03 00:50:02 |
+| 109   | 🫐 bilberries      | 0.95          | bubinga                   | 2025-06-22 12:09:29 |
+| 109   | 🪚 icesaw          | 0.95          | glorianeq                 | 2025-01-08 21:18:20 |
+| 111   | 🪶 feather         | 0.94          | womenfeet                 | 2025-02-15 18:29:30 |
 | 112   | 🐜 ant             | 0.82          | theevirus                 | 2025-08-31 05:49:08 |
 | 113   | 🍥 sanddollar      | 0.71          | gorillapark               | 2025-08-25 15:23:54 |
 | 114   | 🦂 scorpion        | 0.65          | iflya320                  | 2025-08-31 17:46:24 |
@@ -125,4 +125,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-01-18 09:38:35 UTC_
+_Last updated at 2026-01-25 09:34:08 UTC_

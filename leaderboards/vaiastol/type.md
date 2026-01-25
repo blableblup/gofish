@@ -54,7 +54,7 @@
 | 50    | 🎃 pumpkin        | 11.52         | larvaew            | 2025-10-30 19:19:40 |
 | 51    | 👒 hat            | 11.05         | tiaguitos97        | 2025-10-11 12:28:38 |
 | 52    | 🪺 nestwitheggs   | 10.98         | hahppyy            | 2024-09-26 18:59:03 |
-| 53    | 🪹 emptynest      | 10.97 (+0.01) | eelacy             | 2026-01-10 02:11:02 |
+| 53    | 🪹 emptynest      | 10.97         | eelacy             | 2026-01-10 02:11:02 |
 | 54    | 🪱 worm           | 10.90         | divra__            | 2025-01-25 21:04:34 |
 | 55    | 📱 iphone         | 10.66         | pengeg             | 2024-12-24 00:32:17 |
 | 56    | 🩲 briefs         | 10.61         | hahppyy            | 2025-08-13 14:44:49 |
@@ -79,28 +79,28 @@
 | 75    | 🌷 tulip          | 2.98          | eelacy             | 2025-03-18 02:28:33 |
 | 76    | 🌻 sunflower      | 2.94          | vaiastol           | 2025-06-10 19:21:56 |
 | 77    | ☂️ umbrella       | 2.84          | tiaguitos97        | 2025-10-06 22:42:15 |
-| 78    | 🥀 wiltedflower   | 2.73          | hahppyy            | 2025-01-02 18:42:06 |
+| 78    | 🥀 wiltedflower   | 2.82 (+0.09)  | garout             | 2026-01-24 18:58:36 |
 | 79    | 👡 sandal         | 2.41          | hahppyy            | 2025-03-20 18:39:52 |
 | 80    | 🍃 deadleaves     | 2.30          | hahppyy            | 2025-11-04 00:39:16 |
-| 81 ⬆  | 🦉 owl            | 2.08 (+1.23)  | respirate_         | 2026-01-05 08:05:41 |
-| 82 ⬇  | 👟 sneaker        | 1.99          | luvwiiseat         | 2025-05-27 00:29:20 |
-| 83 ⬇  | 👢 boot           | 1.97          | yoimlee            | 2024-11-04 14:41:11 |
-| 84 ⬇  | 🧦 socks          | 1.95          | divra__            | 2024-10-16 23:07:48 |
-| 85 ⬇  | 🌹 rose           | 1.92          | garout             | 2025-10-05 21:18:57 |
-| 86 ⬇  | 🪻 lupine         | 1.90          | redreignss         | 2025-07-09 13:30:55 |
-| 87 ⬇  | 🩰 balletshoes    | 1.89          | brontiiide         | 2025-01-01 02:12:26 |
-| 88 ⬇  | 🩴 thongsandal    | 1.87          | vaiastol           | 2024-07-31 16:40:54 |
-| 89 ⬇  | ⛸️ iceskate       | 1.84          | hahppyy            | 2025-01-12 19:57:15 |
-| 90 ⬇  | 🥪 sandwich       | 1.73          | hahppyy            | 2024-11-23 00:31:22 |
-| 91 ⬇  | 🍎 apple          | 1.57          | hahppyy            | 2025-10-31 20:59:46 |
-| 92 ⬇  | 🐦‍⬛ robin          | 1.42          | vaiastol           | 2025-04-11 08:37:47 |
-| 93 ⬇  | 🍁 leaf           | 1.23          | hahppyy            | 2025-11-03 02:06:31 |
-| 94 ⬇  | 🫙 jar            | 0.99          | larvaew            | 2025-08-28 19:53:42 |
-| 94 ⬇  | 🌿 seaweed        | 0.99          | misifearless       | 2025-03-10 09:57:08 |
-| 96 ⬇  | 🪚 icesaw         | 0.97          | hahppyy            | 2025-01-05 13:24:59 |
-| 97 ⬇  | 🧤 gloves         | 0.95          | hahppyy            | 2024-11-02 16:18:30 |
-| 98 ⬇  | 🐿️ squirrel       | 0.90          | creepycode         | 2024-12-04 03:46:23 |
-| 99 ⬇  | 🪶 feather        | 0.88          | milesdotcom        | 2024-10-21 19:36:21 |
+| 81    | 🦉 owl            | 2.08          | respirate_         | 2026-01-05 08:05:41 |
+| 82    | 👟 sneaker        | 1.99          | luvwiiseat         | 2025-05-27 00:29:20 |
+| 83    | 👢 boot           | 1.97          | yoimlee            | 2024-11-04 14:41:11 |
+| 84    | 🧦 socks          | 1.95          | divra__            | 2024-10-16 23:07:48 |
+| 85    | 🌹 rose           | 1.92          | garout             | 2025-10-05 21:18:57 |
+| 86    | 🪻 lupine         | 1.90          | redreignss         | 2025-07-09 13:30:55 |
+| 87    | 🩰 balletshoes    | 1.89          | brontiiide         | 2025-01-01 02:12:26 |
+| 88    | 🩴 thongsandal    | 1.87          | vaiastol           | 2024-07-31 16:40:54 |
+| 89    | ⛸️ iceskate       | 1.84          | hahppyy            | 2025-01-12 19:57:15 |
+| 90    | 🥪 sandwich       | 1.73          | hahppyy            | 2024-11-23 00:31:22 |
+| 91    | 🍎 apple          | 1.57          | hahppyy            | 2025-10-31 20:59:46 |
+| 92    | 🐦‍⬛ robin          | 1.42          | vaiastol           | 2025-04-11 08:37:47 |
+| 93    | 🍁 leaf           | 1.23          | hahppyy            | 2025-11-03 02:06:31 |
+| 94    | 🫙 jar            | 0.99          | larvaew            | 2025-08-28 19:53:42 |
+| 94    | 🌿 seaweed        | 0.99          | misifearless       | 2025-03-10 09:57:08 |
+| 96    | 🪚 icesaw         | 0.97          | hahppyy            | 2025-01-05 13:24:59 |
+| 97    | 🧤 gloves         | 0.95          | hahppyy            | 2024-11-02 16:18:30 |
+| 98    | 🐿️ squirrel       | 0.90          | creepycode         | 2024-12-04 03:46:23 |
+| 99    | 🪶 feather        | 0.88          | milesdotcom        | 2024-10-21 19:36:21 |
 | 100   | 🍬 candy          | 0.81          | hahppyy            | 2025-01-03 15:22:18 |
 | 101   | 🌾 grass          | 0.79          | leanmeister        | 2025-03-20 20:23:59 |
 | 102   | 🐛 caterpillar    | 0.42          | leanmeister        | 2025-06-22 19:10:14 |
@@ -110,4 +110,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-01-11 10:26:44 UTC_
+_Last updated at 2026-01-25 09:34:00 UTC_

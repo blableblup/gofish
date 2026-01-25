@@ -45,10 +45,10 @@
 | 40    | 🐠 tropicalfish    | 21.99         | quinrayy                  | 2024-01-26 11:23:46 |
 | 42    | 🪼 jellyfish       | 21.95         | sandwichsundays           | 2024-07-05 19:59:19 |
 | 43    | 🍄‍🟫 mushroom        | 21.67         | blu_inx                   | 2025-12-27 23:07:28 |
-| 44    | 🦦 otter           | 19.88         | angus_lpc                 | 2024-01-01 10:54:04 |
+| 44    | 🦦 otter           | 19.96 (+0.08) | blu_inx                   | 2026-01-24 08:49:59 |
 | 45    | 🎃 pumpkin         | 19.80         | feelsaceman               | 2025-10-31 08:34:30 |
 | 46    | 🪱 worm            | 19.17         | caprisen_                 | 2023-10-18 12:29:31 |
-| 47    | 🍄 oceanplant      | 17.81         | awdssawd                  | 2024-12-08 11:55:26 |
+| 47    | 🍄 oceanplant      | 17.89 (+0.08) | deatron                   | 2026-01-19 19:50:16 |
 | 48    | 🧭 compass         | 17.75         | poppari38                 | 2024-01-01 22:13:11 |
 | 49    | 🦆 duck            | 15.55         | sameone                   | 2023-09-07 09:03:09 |
 | 50    | 🪀 bobber          | 14.82         | jemcs_                    | 2024-03-28 22:56:08 |
@@ -96,7 +96,7 @@
 | 92    | 🥪 sandwich        | 1.98          | ovrht                     | 2023-10-26 12:50:25 |
 | 92    | 👟 sneaker         | 1.98          | jeejee_jjl                | 2023-10-18 11:56:32 |
 | 94    | ⛸️ iceskate        | 1.96          | pookiesnowman             | 2023-12-24 05:51:00 |
-| 95 ⬆  | 🍬 candy           | 1.93 (+0.04)  | bananenshak3              | 2026-01-14 18:46:31 |
+| 95    | 🍬 candy           | 1.93          | bananenshak3              | 2026-01-14 18:46:31 |
 | 95    | 🍃 deadleaves      | 1.93          | bubinga                   | 2025-11-03 00:39:15 |
 | 97    | 🪻 lupine          | 1.80          | nndiana                   | 2025-09-01 13:32:55 |
 | 98    | 🍁 leaf            | 1.69          | jayayseaohbee             | 2025-10-31 19:07:51 |
@@ -118,4 +118,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-01-18 09:39:04 UTC_
+_Last updated at 2026-01-25 09:34:53 UTC_

@@ -15,9 +15,9 @@
 | 11    | osnyisdead            | 91        |
 | 12    | destin357             | 90        |
 | 13    | dougiefresh_83*       | 87        |
-| 14    | dazedforevermore      | 86        |
-| 14 ⬆  | ytp_dl*               | 86 (+1)   |
-| 16 ⬇  | miiiiisho             | 85        |
+| 13 ⬆  | ytp_dl*               | 87 (+1)   |
+| 15 ⬇  | dazedforevermore      | 86        |
+| 16    | miiiiisho             | 85        |
 | 17    | ninjaross*            | 78        |
 | 18    | booty_bread           | 77        |
 | 19    | gstaman911            | 75        |
@@ -32,9 +32,9 @@
 | 28    | comiqq                | 65        |
 | 28    | ryebreadward          | 65        |
 | 30    | mitgliederversammlung | 64        |
+| 31 ⬆  | notomji               | 62 (+1)   |
 | 31    | sussy_amonge          | 62        |
-| 32 ⬆  | notomji               | 61 (+2)   |
-| 33 ⬇  | kaasppeerr            | 60        |
+| 33    | kaasppeerr            | 60        |
 | 34    | bapqo                 | 56        |
 | 34    | idini                 | 56        |
 | 34    | wisco9ers*            | 56        |
@@ -43,12 +43,13 @@
 | 39    | fvkdylan              | 54        |
 | 40    | bussinongnocap        | 53        |
 | 40    | lazuli672*            | 53        |
-| 42    | wcd0                  | 52 (+1)   |
-| 43 ⬇  | houseofleaves*        | 51        |
-| 43 ⬇  | osnyatsky*            | 51        |
+| 42    | wcd0                  | 52        |
+| 43    | houseofleaves*        | 51        |
+| 43    | osnyatsky*            | 51        |
+| 45 🆕 | pinksynthesis28       | 50        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-01-18 09:36:13 UTC_
+_Last updated at 2026-01-25 09:35:03 UTC_

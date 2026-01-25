@@ -27,7 +27,7 @@
 		"fishid": 110934,
 		"chatid": 8,
 		"date": "2024-08-02T18:20:24Z",
-		"rank": 90
+		"rank": 91
 	},
 	"110935": {
 		"player": "ninjaross",
@@ -69,7 +69,7 @@
 		"fishid": 110938,
 		"chatid": 12,
 		"date": "2024-08-02T20:33:13Z",
-		"rank": 92
+		"rank": 93
 	},
 	"110940": {
 		"player": "derinturitierutz",
@@ -287,7 +287,7 @@
 		"fishid": 111006,
 		"chatid": 80,
 		"date": "2024-08-30T17:27:10Z",
-		"rank": 99
+		"rank": 100
 	},
 	"111010": {
 		"player": "respirate_",
@@ -301,7 +301,7 @@
 		"fishid": 111010,
 		"chatid": 84,
 		"date": "2024-08-30T20:13:52Z",
-		"rank": 94
+		"rank": 95
 	},
 	"111012": {
 		"player": "mitgliederversammlung",
@@ -415,7 +415,7 @@
 		"fishid": 111046,
 		"chatid": 120,
 		"date": "2024-09-08T21:08:56Z",
-		"rank": 87
+		"rank": 88
 	},
 	"111061": {
 		"player": "lluuuuucy",
@@ -446,20 +446,6 @@
 		"chatid": 159,
 		"date": "2024-10-26T18:34:06Z",
 		"rank": 35
-	},
-	"115309": {
-		"player": "respirate_",
-		"playerid": 2525,
-		"weight": 25.78,
-		"bot": "gofishgame",
-		"fishtype": "🐬",
-		"fishname": "dolphin",
-		"catchtype": "normal",
-		"chat": "swormbeard",
-		"fishid": 115309,
-		"chatid": 165,
-		"date": "2024-10-28T20:43:08Z",
-		"rank": 100
 	},
 	"117062": {
 		"player": "larvaew",
@@ -563,7 +549,7 @@
 		"fishid": 125313,
 		"chatid": 277,
 		"date": "2024-11-27T20:25:23Z",
-		"rank": 91
+		"rank": 92
 	},
 	"125630": {
 		"player": "leanmeister",
@@ -606,7 +592,7 @@
 		"fishid": 125964,
 		"chatid": 286,
 		"date": "2024-11-29T20:00:15Z",
-		"rank": 98
+		"rank": 99
 	},
 	"126263": {
 		"player": "lluuuuucy",
@@ -813,7 +799,7 @@
 		"fishid": 155885,
 		"chatid": 388,
 		"date": "2025-03-16T20:35:16Z",
-		"rank": 95
+		"rank": 96
 	},
 	"155891": {
 		"player": "derintu",
@@ -927,7 +913,7 @@
 		"fishid": 157786,
 		"chatid": 441,
 		"date": "2025-03-22T17:13:48Z",
-		"rank": 88
+		"rank": 89
 	},
 	"157812": {
 		"player": "derintu",
@@ -1056,7 +1042,7 @@
 		"fishid": 165186,
 		"chatid": 481,
 		"date": "2024-11-16T21:52:33Z",
-		"rank": 96
+		"rank": 97
 	},
 	"203619": {
 		"player": "derintu",
@@ -1112,7 +1098,7 @@
 		"fishid": 205516,
 		"chatid": 518,
 		"date": "2025-10-08T17:30:49Z",
-		"rank": 89
+		"rank": 90
 	},
 	"207215": {
 		"player": "derintu",
@@ -1182,7 +1168,7 @@
 		"fishid": 210045,
 		"chatid": 578,
 		"date": "2025-10-24T17:47:11Z",
-		"rank": 97
+		"rank": 98
 	},
 	"211512": {
 		"player": "derinturitierutz",
@@ -1225,7 +1211,7 @@
 		"fishid": 216554,
 		"chatid": 618,
 		"date": "2025-11-19T03:09:22Z",
-		"rank": 93
+		"rank": 94
 	},
 	"216579": {
 		"player": "elisworm",
@@ -1438,5 +1424,19 @@
 		"chatid": 678,
 		"date": "2026-01-16T18:57:54Z",
 		"rank": 5
+	},
+	"236082": {
+		"player": "pinksynthesis28",
+		"playerid": 3984,
+		"weight": 34.54,
+		"bot": "gofishgame",
+		"fishtype": "🦞",
+		"fishname": "lobster",
+		"catchtype": "normal",
+		"chat": "swormbeard",
+		"fishid": 236082,
+		"chatid": 683,
+		"date": "2026-01-24T19:54:31Z",
+		"rank": 87
 	}
 }
