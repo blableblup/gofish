@@ -20,16 +20,16 @@
 | 16    | bussinongnocap        | 108         |
 | 17    | dazedforevermore      | 93          |
 | 18    | comiqq                | 92          |
-| 19    | crazytown_bananapants | 89          |
-| 20    | supibot               | 88          |
-| 21    | gstaman911            | 80          |
-| 22    | comiiiiiq             | 79          |
-| 22    | miiiiisho             | 79          |
-| 24 ⬆  | esvelles              | 77 (+18)    |
-| 25 ⬇  | respirate_            | 74          |
-| 26 ⬇  | larvaew               | 66          |
-| 27 ⬇  | booty_bread           | 60          |
-| 27 ⬇  | pinksynthesis28       | 60          |
+| 19 ⬆  | esvelles              | 90 (+13)    |
+| 20 ⬇  | crazytown_bananapants | 89          |
+| 21 ⬇  | supibot               | 88          |
+| 22 ⬇  | gstaman911            | 80          |
+| 23 ⬇  | comiiiiiq             | 79          |
+| 23 ⬇  | miiiiisho             | 79          |
+| 25    | respirate_            | 74          |
+| 26    | larvaew               | 66          |
+| 27    | booty_bread           | 60          |
+| 27    | pinksynthesis28       | 60          |
 | 29    | notomji               | 57          |
 | 30    | receipts              | 56          |
 | 31    | bk207*                | 53          |
@@ -62,4 +62,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2026-01-21 08:33:39 UTC_
+_Last updated at 2026-01-28 09:24:46 UTC_

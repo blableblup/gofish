@@ -5,7 +5,7 @@
 		"weight": 1,
 		"date": "0001-01-01T00:00:00Z",
 		"bronze": 2,
-		"rank": 15
+		"rank": 16
 	},
 	"1344": {
 		"player": "gorillapark",
@@ -40,11 +40,11 @@
 	"2187": {
 		"player": "theevirus",
 		"playerid": 2187,
-		"weight": 71.5,
+		"weight": 73.5,
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 13,
-		"silver": 19,
-		"bronze": 27,
+		"silver": 20,
+		"bronze": 29,
 		"rank": 5
 	},
 	"2219": {
@@ -70,11 +70,11 @@
 	"2578": {
 		"player": "eeziiii",
 		"playerid": 2578,
-		"weight": 88.5,
+		"weight": 90,
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 18,
-		"silver": 23,
-		"bronze": 23,
+		"silver": 24,
+		"bronze": 24,
 		"rank": 4
 	},
 	"2609": {
@@ -108,10 +108,10 @@
 	"3736": {
 		"player": "ranctious",
 		"playerid": 3736,
-		"weight": 92,
+		"weight": 99,
 		"date": "0001-01-01T00:00:00Z",
-		"trophies": 27,
-		"silver": 10,
+		"trophies": 29,
+		"silver": 11,
 		"bronze": 2,
 		"rank": 3
 	},
@@ -121,7 +121,7 @@
 		"weight": 1,
 		"date": "0001-01-01T00:00:00Z",
 		"bronze": 2,
-		"rank": 15
+		"rank": 16
 	},
 	"442": {
 		"player": "flvx_flux",
@@ -130,7 +130,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"silver": 1,
 		"bronze": 1,
-		"rank": 14
+		"rank": 15
 	},
 	"457": {
 		"player": "sandwichsundays",
@@ -139,15 +139,16 @@
 		"date": "0001-01-01T00:00:00Z",
 		"silver": 2,
 		"bronze": 1,
-		"rank": 13
+		"rank": 14
 	},
 	"500": {
 		"player": "caprisen_",
 		"playerid": 500,
-		"weight": 1,
+		"weight": 4,
 		"date": "0001-01-01T00:00:00Z",
+		"trophies": 1,
 		"silver": 1,
-		"rank": 15
+		"rank": 12
 	},
 	"599": {
 		"player": "lobuhtomy",
@@ -165,6 +166,6 @@
 		"weight": 3,
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 1,
-		"rank": 12
+		"rank": 13
 	}
 }
