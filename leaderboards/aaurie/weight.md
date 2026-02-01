@@ -3,23 +3,23 @@
 | Rank  | Player            | Fish            | Weight in lbs   | Date in UTC         |
 |:------|:------------------|:----------------|:----------------|:--------------------|
 | 1 🥇  | jeffbethyname69   | 🐳 bluewhale    | 271.57          | 2025-05-17 04:22:13 |
-| 2 🥈  | gofishgamer       | 🦑 squid        | 270.99 (+3.13)  | 2026-01-01 03:36:14 |
+| 2 🥈  | gofishgamer       | 🦑 squid        | 270.99          | 2026-01-01 03:36:14 |
 | 3 🥉  | dolp_fin          | 🦈 shark        | 209.34          | 2025-04-28 04:59:34 |
 | 4     | boogie310_        | 🐳 bluewhale    | 208.86          | 2025-04-15 05:22:19 |
-| 5     | guy_farting420    | 🦕 sauropod     | 184.10          | 2025-05-06 17:43:26 |
-| 6     | allspice_boatrace | 🐳 bluewhale    | 180.68          | 2025-07-07 00:45:19 |
-| 7 ⬆   | curiouscorvidae   | 🐍 snake        | 175.01 (+71.64) | 2025-12-30 02:22:21 |
-| 8 ⬇   | lor_starcutter    | 🦕 sauropod     | 168.65          | 2025-07-28 01:26:06 |
-| 9 ⬇   | crunch_sack       | 🦑 squid        | 157.86          | 2025-04-15 09:05:20 |
-| 10 ⬇  | twofistedtales    | 🐊 crocodile    | 141.43          | 2025-09-19 02:20:33 |
-| 11 ⬇  | preemalone        | 🐋 whale        | 139.51          | 2025-07-19 04:24:53 |
-| 12 ⬇  | amatusz           | 🐋 whale        | 135.88          | 2025-11-21 06:33:09 |
-| 13 ⬇  | yaboieb27         | 🐊 crocodile    | 134.04          | 2025-08-16 02:46:21 |
-| 14 ⬇  | bluezebra17       | 🐙 octopus      | 132.38          | 2025-07-11 07:14:57 |
-| 15 ⬇  | rustnroll         | 🐙 octopus      | 124.17          | 2025-03-17 03:55:34 |
-| 16 ⬇  | hashmeer_         | 🐙 octopus      | 123.72          | 2025-04-04 17:59:37 |
-| 17 ⬇  | aaurie            | 🐊 crocodile    | 121.92          | 2025-03-08 07:10:45 |
-| 18 ⬇  | theshadows86      | 🐉 dragon       | 120.67          | 2025-04-08 05:35:20 |
+| 5 ⬆   | amatusz           | 🦈 shark        | 192.99 (+57.11) | 2026-01-31 03:06:17 |
+| 6 ⬇   | guy_farting420    | 🦕 sauropod     | 184.10          | 2025-05-06 17:43:26 |
+| 7 ⬇   | allspice_boatrace | 🐳 bluewhale    | 180.68          | 2025-07-07 00:45:19 |
+| 8 ⬇   | curiouscorvidae   | 🐍 snake        | 175.01          | 2025-12-30 02:22:21 |
+| 9 ⬇   | lor_starcutter    | 🦕 sauropod     | 168.65          | 2025-07-28 01:26:06 |
+| 10 ⬇  | crunch_sack       | 🦑 squid        | 157.86          | 2025-04-15 09:05:20 |
+| 11 ⬇  | twofistedtales    | 🐊 crocodile    | 141.43          | 2025-09-19 02:20:33 |
+| 12 ⬇  | preemalone        | 🐋 whale        | 139.51          | 2025-07-19 04:24:53 |
+| 13    | yaboieb27         | 🐊 crocodile    | 134.04          | 2025-08-16 02:46:21 |
+| 14    | bluezebra17       | 🐙 octopus      | 132.38          | 2025-07-11 07:14:57 |
+| 15    | rustnroll         | 🐙 octopus      | 124.17          | 2025-03-17 03:55:34 |
+| 16    | hashmeer_         | 🐙 octopus      | 123.72          | 2025-04-04 17:59:37 |
+| 17    | aaurie            | 🐊 crocodile    | 121.92          | 2025-03-08 07:10:45 |
+| 18    | theshadows86      | 🐉 dragon       | 120.67          | 2025-04-08 05:35:20 |
 | 19    | zharan_keating    | 🐙 octopus      | 96.52           | 2025-09-15 03:43:26 |
 | 20    | sanfordthegrey    | 🐬 dolphin      | 96.28           | 2025-04-04 01:46:16 |
 | 21    | victorvondoom313  | 🐊 crocodile    | 95.52           | 2025-04-11 00:55:08 |
@@ -42,4 +42,4 @@
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2026-01-04 10:15:25 UTC_
+_Last updated at 2026-02-01 09:20:28 UTC_

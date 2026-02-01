@@ -47,27 +47,27 @@
 | 40    | 🧸 teddybear       | 0.19          | bubinga                   | 2025-02-19 12:45:58 |
 | 44    | 🌻 sunflower       | 0.16          | wowitsdub                 | 2025-07-26 11:33:10 |
 | 45    | 🪼 jellyfish       | 0.15          | wowitsdub                 | 2025-10-04 12:18:18 |
-| 45    | 🍄 oceanplant      | 0.15          | huuuuuuuuuuuuuuuuuuuuuurz | 2025-11-21 07:07:42 |
-| 47    | 🦋 butterfly       | 0.13          | supibot                   | 2025-08-31 15:50:10 |
-| 47    | 🦞 lobster         | 0.13          | theevirus                 | 2025-02-04 12:24:59 |
-| 49 ⬆  | 🦫 beaver          | 0.12          | iflya320                  | 2024-12-27 20:44:27 |
-| 49 ⬆  | 🪳 cockroach       | 0.12          | iflya320                  | 2025-05-19 14:16:50 |
-| 51 ⬆  | 🕶️ darksunglasses  | 0.11          | bubinga                   | 2025-07-15 16:35:28 |
-| 51 ⬆  | 🐞 ladybug         | 0.11          | supibot                   | 2025-08-30 07:21:45 |
-| 51 ⬇  | 🦠 plankton        | 0.11 (-0.02)  | theevirus                 | 2026-01-20 19:56:44 |
-| 51 ⬆  | 🐠 tropicalfish    | 0.11          | theevirus                 | 2025-04-09 12:45:59 |
-| 55    | 🐦‍⬛ robin           | 0.10          | huuuuuuuuuuuuuuuuuuuuuurz | 2025-03-24 11:53:50 |
-| 56    | 👒 hat             | 0.08          | ranctious                 | 2025-10-26 13:50:24 |
-| 56    | 🐙 octopus         | 0.08          | caprisen_                 | 2025-09-16 11:51:37 |
-| 56    | 👡 sandal          | 0.08          | theevirus                 | 2025-04-17 15:11:02 |
-| 56    | 🍥 sanddollar      | 0.08          | iflya320                  | 2025-08-25 15:38:48 |
-| 60    | 🪹 emptynest       | 0.07          | ranctious                 | 2025-09-20 22:11:34 |
-| 60    | 🪨 rock            | 0.07          | nndiana                   | 2025-11-02 19:49:10 |
-| 60    | 🩴 thongsandal     | 0.07          | gorillapark               | 2025-08-29 12:37:35 |
-| 60    | ☂️ umbrella        | 0.07          | bluberry                  | 2025-04-29 14:20:33 |
-| 64    | 🐜 ant             | 0.06          | theevirus                 | 2025-08-29 02:11:49 |
-| 64    | 🪻 lupine          | 0.06          | nndiana                   | 2025-08-31 16:37:50 |
-| 64    | 🧣 scarf           | 0.06          | bubinga                   | 2024-12-29 00:47:04 |
+| 46 ⬆  | 🦋 butterfly       | 0.13          | supibot                   | 2025-08-31 15:50:10 |
+| 46 ⬆  | 🦞 lobster         | 0.13          | theevirus                 | 2025-02-04 12:24:59 |
+| 48 ⬆  | 🦫 beaver          | 0.12          | iflya320                  | 2024-12-27 20:44:27 |
+| 48 ⬆  | 🪳 cockroach       | 0.12          | iflya320                  | 2025-05-19 14:16:50 |
+| 50 ⬆  | 🕶️ darksunglasses  | 0.11          | bubinga                   | 2025-07-15 16:35:28 |
+| 50 ⬆  | 🐞 ladybug         | 0.11          | supibot                   | 2025-08-30 07:21:45 |
+| 50 ⬆  | 🦠 plankton        | 0.11          | theevirus                 | 2026-01-20 19:56:44 |
+| 50 ⬆  | 🐠 tropicalfish    | 0.11          | theevirus                 | 2025-04-09 12:45:59 |
+| 54 ⬆  | 🐦‍⬛ robin           | 0.10          | huuuuuuuuuuuuuuuuuuuuuurz | 2025-03-24 11:53:50 |
+| 55 ⬆  | 👒 hat             | 0.08          | ranctious                 | 2025-10-26 13:50:24 |
+| 55 ⬆  | 🐙 octopus         | 0.08          | caprisen_                 | 2025-09-16 11:51:37 |
+| 55 ⬆  | 👡 sandal          | 0.08          | theevirus                 | 2025-04-17 15:11:02 |
+| 55 ⬆  | 🍥 sanddollar      | 0.08          | iflya320                  | 2025-08-25 15:38:48 |
+| 59 ⬆  | 🪹 emptynest       | 0.07          | ranctious                 | 2025-09-20 22:11:34 |
+| 59 ⬆  | 🪨 rock            | 0.07          | nndiana                   | 2025-11-02 19:49:10 |
+| 59 ⬆  | 🩴 thongsandal     | 0.07          | gorillapark               | 2025-08-29 12:37:35 |
+| 59 ⬆  | ☂️ umbrella        | 0.07          | bluberry                  | 2025-04-29 14:20:33 |
+| 63 ⬆  | 🐜 ant             | 0.06          | theevirus                 | 2025-08-29 02:11:49 |
+| 63 ⬆  | 🪻 lupine          | 0.06          | nndiana                   | 2025-08-31 16:37:50 |
+| 63 ⬇  | 🍄 oceanplant      | 0.06 (-0.09)  | huuuuuuuuuuuuuuuuuuuuuurz | 2026-01-29 11:12:29 |
+| 63 ⬆  | 🧣 scarf           | 0.06          | bubinga                   | 2024-12-29 00:47:04 |
 | 67    | 🪚 icesaw          | 0.05          | sandwichsundays           | 2025-01-05 17:09:48 |
 | 68    | 🐛 caterpillar     | 0.04          | lobuhtomy                 | 2025-08-27 12:38:24 |
 | 68    | 🪶 feather         | 0.04          | bubinga                   | 2024-12-15 20:15:50 |
@@ -125,4 +125,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-01-25 09:35:47 UTC_
+_Last updated at 2026-02-01 09:23:17 UTC_

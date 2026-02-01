@@ -2,15 +2,15 @@
 
 | Rank | Fish            | Weight in lbs | Player           | Date in UTC         |
 |:-----|:----------------|:--------------|:-----------------|:--------------------|
-| 62   | 🪳 cockroach    | 6.19          | bubinga          | 2026-01-24 17:09:59 |
-| 61   | 🦐 shrimp       | 0.06          | glorpiusbot      | 2026-01-24 17:09:39 |
-| 60   | 🐍 snake        | 8.35          | glorpiusbot      | 2026-01-18 21:36:41 |
-| 59   | 🦦 otter        | 0.41          | cute_ducc        | 2026-01-14 19:12:18 |
-| 58   | 🧊 icecube      | 8.18          | aquaismissing    | 2026-01-14 01:35:09 |
-| 57   | 🐢 turtle       | 53.30         | glorpiusbot      | 2026-01-12 19:38:18 |
-| 56   | 🐟 fish         | 1.82          | glorpiusbot      | 2026-01-12 00:08:40 |
-| 55   | ☘️ clover       | 2.30          | glorpiusbot      | 2026-01-08 18:24:46 |
-| 54   | 🦫 beaver       | 0.62          | glorpiusbot      | 2026-01-07 22:36:19 |
+| 62   | 🦫 beaver       | 40.70         | glorpiusbot      | 2026-01-31 04:38:00 |
+| 61   | 🪳 cockroach    | 24.51         | cute_ducc        | 2026-01-27 19:13:51 |
+| 60   | 🦐 shrimp       | 0.06          | glorpiusbot      | 2026-01-24 17:09:39 |
+| 59   | 🐍 snake        | 8.35          | glorpiusbot      | 2026-01-18 21:36:41 |
+| 58   | 🦦 otter        | 0.41          | cute_ducc        | 2026-01-14 19:12:18 |
+| 57   | 🧊 icecube      | 8.18          | aquaismissing    | 2026-01-14 01:35:09 |
+| 56   | 🐢 turtle       | 53.30         | glorpiusbot      | 2026-01-12 19:38:18 |
+| 55   | 🐟 fish         | 1.82          | glorpiusbot      | 2026-01-12 00:08:40 |
+| 54   | ☘️ clover       | 2.30          | glorpiusbot      | 2026-01-08 18:24:46 |
 | 53   | 🧤 gloves       | 0.92          | kam3l_           | 2026-01-04 23:11:52 |
 | 52   | 🪝 hook         | 1.39          | bubinga          | 2026-01-02 20:53:22 |
 | 51   | 🦭 seal         | 73.65         | bubinga          | 2026-01-01 23:18:37 |
@@ -65,4 +65,4 @@
 | 2    | 🧃 beveragebox  | 4.42          | aquaismissing    | 2025-06-04 09:00:50 |
 | 1    | 🩰 balletshoes  | 1.25          | delfino921       | 2025-02-22 23:48:09 |
 
-_Last updated at 2026-01-25 09:35:05 UTC_
+_Last updated at 2026-02-01 09:22:05 UTC_

@@ -25,7 +25,7 @@
 		"fishid": 230451,
 		"chatid": 81062,
 		"date": "2026-01-01T15:07:48Z",
-		"rank": 75
+		"rank": 74
 	},
 	"ant": {
 		"player": "derinturitierutz",
@@ -96,7 +96,7 @@
 		"fishid": 229351,
 		"chatid": 80847,
 		"date": "2025-12-29T05:14:30Z",
-		"rank": 74
+		"rank": 73
 	},
 	"bee": {
 		"player": "derinturitierutz",
@@ -185,32 +185,34 @@
 		"rank": 59
 	},
 	"blowfish": {
-		"player": "osnyisdead",
-		"playerid": 2701,
-		"weight": 15.65,
+		"player": "lluuuuucy",
+		"playerid": 21,
+		"verified": true,
+		"weight": 1.44,
 		"bot": "gofishgame",
 		"fishtype": "🐡",
 		"fishname": "blowfish",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 225434,
-		"chatid": 80167,
-		"date": "2025-12-17T17:12:53Z",
-		"rank": 67
+		"fishid": 237643,
+		"chatid": 82555,
+		"date": "2026-01-31T16:21:41Z",
+		"rank": 125
 	},
 	"bluewhale": {
-		"player": "ytp_dl",
-		"playerid": 112,
-		"weight": 109.79,
+		"player": "lluuuuucy",
+		"playerid": 21,
+		"verified": true,
+		"weight": 252.72,
 		"bot": "gofishgame",
 		"fishtype": "🐳",
 		"fishname": "bluewhale",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 235510,
-		"chatid": 82102,
-		"date": "2026-01-22T09:43:15Z",
-		"rank": 98
+		"fishid": 237386,
+		"chatid": 82507,
+		"date": "2026-01-30T15:19:31Z",
+		"rank": 107
 	},
 	"bobacup": {
 		"player": "feelsaceman",
@@ -227,17 +229,17 @@
 		"rank": 22
 	},
 	"bobber": {
-		"player": "esvelles",
-		"playerid": 3551,
+		"player": "osnyisdead",
+		"playerid": 2701,
 		"bot": "gofishgame",
 		"fishtype": "🪀",
 		"fishname": "bobber",
 		"catchtype": "release",
 		"chat": "breadworms",
-		"fishid": 235718,
-		"chatid": 82141,
-		"date": "2026-01-23T09:01:30Z",
-		"rank": 106
+		"fishid": 237650,
+		"chatid": 82558,
+		"date": "2026-01-31T16:36:51Z",
+		"rank": 127
 	},
 	"bone": {
 		"player": "fishingalt",
@@ -256,16 +258,16 @@
 	"boot": {
 		"player": "esvelles",
 		"playerid": 3551,
-		"weight": 0.21,
+		"weight": 0.14,
 		"bot": "gofishgame",
 		"fishtype": "👢",
 		"fishname": "boot",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 235535,
-		"chatid": 82107,
-		"date": "2026-01-22T11:51:13Z",
-		"rank": 99
+		"fishid": 237619,
+		"chatid": 82549,
+		"date": "2026-01-31T14:01:28Z",
+		"rank": 121
 	},
 	"briefs": {
 		"player": "notomji",
@@ -320,35 +322,34 @@
 		"fishid": 227912,
 		"chatid": 80615,
 		"date": "2025-12-25T01:52:55Z",
-		"rank": 72
+		"rank": 71
 	},
 	"candy": {
-		"player": "esvelles",
-		"playerid": 3551,
+		"player": "fishingalt",
+		"playerid": 1459,
 		"bot": "gofishgame",
 		"fishtype": "🍬",
 		"fishname": "candy",
 		"catchtype": "release",
 		"chat": "breadworms",
-		"fishid": 235994,
-		"chatid": 82181,
-		"date": "2026-01-24T12:41:03Z",
-		"rank": 119
+		"fishid": 237394,
+		"chatid": 82511,
+		"date": "2026-01-30T15:39:20Z",
+		"rank": 110
 	},
 	"cannedfood": {
-		"player": "booty_bread",
-		"playerid": 29,
-		"verified": true,
-		"weight": 1.65,
+		"player": "osnyisdead",
+		"playerid": 2701,
+		"weight": 0.98,
 		"bot": "gofishgame",
 		"fishtype": "🥫",
 		"fishname": "cannedfood",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 236005,
-		"chatid": 82186,
-		"date": "2026-01-24T13:33:38Z",
-		"rank": 120
+		"fishid": 237244,
+		"chatid": 82475,
+		"date": "2026-01-29T22:15:15Z",
+		"rank": 102
 	},
 	"cardinal": {
 		"player": "dougiefresh_83",
@@ -362,7 +363,7 @@
 		"fishid": 232920,
 		"chatid": 81519,
 		"date": "2026-01-12T01:54:27Z",
-		"rank": 89
+		"rank": 86
 	},
 	"caterpillar": {
 		"player": "fishingalt",
@@ -381,16 +382,16 @@
 	"clover": {
 		"player": "notomji",
 		"playerid": 3937,
-		"weight": 3.87,
+		"weight": 3.98,
 		"bot": "gofishgame",
 		"fishtype": "☘️",
 		"fishname": "clover",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 235936,
-		"chatid": 82165,
-		"date": "2026-01-24T04:32:02Z",
-		"rank": 113
+		"fishid": 237645,
+		"chatid": 82557,
+		"date": "2026-01-31T16:25:55Z",
+		"rank": 126
 	},
 	"coat": {
 		"player": "derinturitierutz",
@@ -408,18 +409,18 @@
 		"rank": 3
 	},
 	"cockroach": {
-		"player": "cimgu",
-		"playerid": 1369,
-		"weight": 0.95,
+		"player": "ytp_dl",
+		"playerid": 112,
+		"weight": 1.81,
 		"bot": "gofishgame",
 		"fishtype": "🪳",
 		"fishname": "cockroach",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 236040,
-		"chatid": 82198,
-		"date": "2026-01-24T16:09:24Z",
-		"rank": 129
+		"fishid": 237113,
+		"chatid": 82435,
+		"date": "2026-01-29T11:32:49Z",
+		"rank": 100
 	},
 	"compass": {
 		"player": "qu4ttromila",
@@ -434,7 +435,7 @@
 		"fishid": 230470,
 		"chatid": 81070,
 		"date": "2026-01-01T16:19:47Z",
-		"rank": 81
+		"rank": 80
 	},
 	"cookie": {
 		"player": "leanmeister",
@@ -448,7 +449,7 @@
 		"fishid": 230450,
 		"chatid": 81061,
 		"date": "2026-01-01T15:07:48Z",
-		"rank": 75
+		"rank": 74
 	},
 	"coral": {
 		"player": "osnyisdead",
@@ -462,21 +463,21 @@
 		"fishid": 226549,
 		"chatid": 80371,
 		"date": "2025-12-19T23:43:54Z",
-		"rank": 70
+		"rank": 69
 	},
 	"crab": {
-		"player": "esvelles",
-		"playerid": 3551,
-		"weight": 1.27,
+		"player": "osnyisdead",
+		"playerid": 2701,
+		"weight": 0.32,
 		"bot": "gofishgame",
 		"fishtype": "🦀",
 		"fishname": "crab",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 235975,
-		"chatid": 82173,
-		"date": "2026-01-24T10:58:09Z",
-		"rank": 117
+		"fishid": 237325,
+		"chatid": 82491,
+		"date": "2026-01-30T08:36:44Z",
+		"rank": 106
 	},
 	"cricket": {
 		"player": "respirate_",
@@ -493,18 +494,19 @@
 		"rank": 13
 	},
 	"crocodile": {
-		"player": "esvelles",
-		"playerid": 3551,
-		"weight": 77.04,
+		"player": "lluuuuucy",
+		"playerid": 21,
+		"verified": true,
+		"weight": 37.08,
 		"bot": "gofishgame",
 		"fishtype": "🐊",
 		"fishname": "crocodile",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 235311,
-		"chatid": 82051,
-		"date": "2026-01-21T13:43:12Z",
-		"rank": 95
+		"fishid": 237659,
+		"chatid": 82561,
+		"date": "2026-01-31T17:08:20Z",
+		"rank": 128
 	},
 	"crowberries": {
 		"player": "derinturitierutz",
@@ -593,18 +595,19 @@
 		"rank": 49
 	},
 	"dolphin": {
-		"player": "esvelles",
-		"playerid": 3551,
-		"weight": 46.27,
+		"player": "lluuuuucy",
+		"playerid": 21,
+		"verified": true,
+		"weight": 4.34,
 		"bot": "gofishgame",
 		"fishtype": "🐬",
 		"fishname": "dolphin",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 235733,
-		"chatid": 82143,
-		"date": "2026-01-23T09:54:56Z",
-		"rank": 107
+		"fishid": 237441,
+		"chatid": 82519,
+		"date": "2026-01-30T19:47:01Z",
+		"rank": 111
 	},
 	"dragon": {
 		"player": "cimgu",
@@ -646,7 +649,7 @@
 		"fishid": 234182,
 		"chatid": 81749,
 		"date": "2026-01-17T03:19:42Z",
-		"rank": 92
+		"rank": 88
 	},
 	"feather": {
 		"player": "larvaew",
@@ -663,18 +666,18 @@
 		"rank": 36
 	},
 	"fish": {
-		"player": "esvelles",
-		"playerid": 3551,
-		"weight": 1.2,
+		"player": "kohrro",
+		"playerid": 2887,
+		"weight": 5.47,
 		"bot": "gofishgame",
 		"fishtype": "🐟",
 		"fishname": "fish",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 236041,
-		"chatid": 82199,
-		"date": "2026-01-24T16:11:43Z",
-		"rank": 130
+		"fishid": 237734,
+		"chatid": 82568,
+		"date": "2026-01-31T23:51:31Z",
+		"rank": 133
 	},
 	"fly": {
 		"player": "lluuuuucy",
@@ -692,18 +695,18 @@
 		"rank": 26
 	},
 	"frog": {
-		"player": "gstaman911",
-		"playerid": 3529,
-		"weight": 2.82,
+		"player": "notomji",
+		"playerid": 3937,
+		"weight": 0.7,
 		"bot": "gofishgame",
 		"fishtype": "🐸",
 		"fishname": "frog",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 235757,
-		"chatid": 82146,
-		"date": "2026-01-23T12:06:09Z",
-		"rank": 109
+		"fishid": 237594,
+		"chatid": 82543,
+		"date": "2026-01-31T12:11:31Z",
+		"rank": 117
 	},
 	"genie": {
 		"player": "lazuli672",
@@ -720,32 +723,32 @@
 		"rank": 1
 	},
 	"gloves": {
-		"player": "pinksynthesis28",
-		"playerid": 3984,
-		"weight": 0.83,
+		"player": "esvelles",
+		"playerid": 3551,
+		"weight": 0.54,
 		"bot": "gofishgame",
 		"fishtype": "🧤",
 		"fishname": "gloves",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 235404,
-		"chatid": 82084,
-		"date": "2026-01-21T20:30:09Z",
+		"fishid": 236992,
+		"chatid": 82400,
+		"date": "2026-01-28T20:22:59Z",
 		"rank": 96
 	},
 	"goose": {
-		"player": "osnyisdead",
-		"playerid": 2701,
-		"weight": 1.75,
+		"player": "gstaman911",
+		"playerid": 3529,
+		"weight": 2.14,
 		"bot": "gofishgame",
 		"fishtype": "🪿",
 		"fishname": "goose",
 		"catchtype": "egg",
 		"chat": "breadworms",
-		"fishid": 232132,
-		"chatid": 81373,
-		"date": "2026-01-08T23:54:35Z",
-		"rank": 85
+		"fishid": 237083,
+		"chatid": 82426,
+		"date": "2026-01-29T07:49:21Z",
+		"rank": 99
 	},
 	"grass": {
 		"player": "comiiiiiq",
@@ -776,31 +779,33 @@
 		"rank": 40
 	},
 	"hook": {
-		"player": "esvelles",
-		"playerid": 3551,
+		"player": "booty_bread",
+		"playerid": 29,
+		"verified": true,
+		"weight": 0.49,
 		"bot": "gofishgame",
 		"fishtype": "🪝",
 		"fishname": "hook",
-		"catchtype": "release",
+		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 236030,
-		"chatid": 82194,
-		"date": "2026-01-24T15:21:27Z",
-		"rank": 125
+		"fishid": 237599,
+		"chatid": 82545,
+		"date": "2026-01-31T12:25:54Z",
+		"rank": 119
 	},
 	"icecube": {
-		"player": "osnyisdead",
-		"playerid": 2701,
-		"weight": 10.24,
+		"player": "esvelles",
+		"playerid": 3551,
+		"weight": 4.8,
 		"bot": "gofishgame",
 		"fishtype": "🧊",
 		"fishname": "icecube",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 235645,
-		"chatid": 82127,
-		"date": "2026-01-22T22:55:01Z",
-		"rank": 102
+		"fishid": 237629,
+		"chatid": 82552,
+		"date": "2026-01-31T15:10:58Z",
+		"rank": 123
 	},
 	"icesaw": {
 		"player": "osnyisdead",
@@ -814,7 +819,7 @@
 		"fishid": 232252,
 		"chatid": 81384,
 		"date": "2026-01-09T12:48:53Z",
-		"rank": 86
+		"rank": 83
 	},
 	"iceskate": {
 		"player": "osnyisdead",
@@ -828,7 +833,7 @@
 		"fishid": 232659,
 		"chatid": 81471,
 		"date": "2026-01-10T23:12:30Z",
-		"rank": 87
+		"rank": 84
 	},
 	"iphone": {
 		"player": "gawblemachine",
@@ -928,34 +933,35 @@
 		"fishid": 230452,
 		"chatid": 81063,
 		"date": "2026-01-01T15:07:48Z",
-		"rank": 75
+		"rank": 74
 	},
 	"lizard": {
-		"player": "gstaman911",
-		"playerid": 3529,
-		"weight": 1.67,
+		"player": "notomji",
+		"playerid": 3937,
+		"weight": 2.43,
 		"bot": "gofishgame",
 		"fishtype": "🦎",
 		"fishname": "lizard",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 236033,
-		"chatid": 82195,
-		"date": "2026-01-24T15:34:58Z",
-		"rank": 126
+		"fishid": 237388,
+		"chatid": 82508,
+		"date": "2026-01-30T15:25:31Z",
+		"rank": 108
 	},
 	"lobster": {
-		"player": "dougiefresh_83",
-		"playerid": 129,
-		"weight": 17.68,
+		"player": "lluuuuucy",
+		"playerid": 21,
+		"verified": true,
+		"weight": 52.13,
 		"bot": "gofishgame",
 		"fishtype": "🦞",
 		"fishname": "lobster",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 236113,
-		"chatid": 82200,
-		"date": "2026-01-24T23:34:00Z",
+		"fishid": 237666,
+		"chatid": 82565,
+		"date": "2026-01-31T17:43:41Z",
 		"rank": 131
 	},
 	"log": {
@@ -989,16 +995,16 @@
 	"lure": {
 		"player": "esvelles",
 		"playerid": 3551,
-		"weight": 1.08,
+		"weight": 1.45,
 		"bot": "gofishgame",
 		"fishtype": "🎏",
 		"fishname": "lure",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 236011,
-		"chatid": 82188,
-		"date": "2026-01-24T14:10:35Z",
-		"rank": 122
+		"fishid": 237596,
+		"chatid": 82544,
+		"date": "2026-01-31T12:21:42Z",
+		"rank": 118
 	},
 	"mermaid": {
 		"player": "leanmeister",
@@ -1056,49 +1062,49 @@
 		"fishid": 233404,
 		"chatid": 81598,
 		"date": "2026-01-14T01:25:35Z",
-		"rank": 91
+		"rank": 87
 	},
 	"nestwitheggs": {
 		"player": "notomji",
 		"playerid": 3937,
-		"weight": 5.26,
+		"weight": 9.69,
 		"bot": "gofishgame",
 		"fishtype": "🪺",
 		"fishname": "nestwitheggs",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 233383,
-		"chatid": 81595,
-		"date": "2026-01-13T23:01:13Z",
-		"rank": 90
+		"fishid": 237538,
+		"chatid": 82536,
+		"date": "2026-01-31T04:47:13Z",
+		"rank": 114
 	},
 	"oceanplant": {
 		"player": "esvelles",
 		"playerid": 3551,
-		"weight": 2.29,
+		"weight": 9.03,
 		"bot": "gofishgame",
 		"fishtype": "🍄",
 		"fishname": "oceanplant",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 235954,
-		"chatid": 82168,
-		"date": "2026-01-24T09:04:24Z",
-		"rank": 114
+		"fishid": 236949,
+		"chatid": 82388,
+		"date": "2026-01-28T15:11:18Z",
+		"rank": 93
 	},
 	"octopus": {
-		"player": "cimgu",
-		"playerid": 1369,
-		"weight": 63.03,
+		"player": "osnyisdead",
+		"playerid": 2701,
+		"weight": 46.91,
 		"bot": "gofishgame",
 		"fishtype": "🐙",
 		"fishname": "octopus",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 235663,
-		"chatid": 82133,
-		"date": "2026-01-23T02:14:26Z",
-		"rank": 103
+		"fishid": 237588,
+		"chatid": 82542,
+		"date": "2026-01-31T11:57:39Z",
+		"rank": 116
 	},
 	"oildrum": {
 		"player": "leanmeister",
@@ -1126,21 +1132,21 @@
 		"fishid": 225856,
 		"chatid": 80288,
 		"date": "2025-12-18T17:29:29Z",
-		"rank": 68
+		"rank": 67
 	},
 	"otter": {
 		"player": "ytp_dl",
 		"playerid": 112,
-		"weight": 0.29,
+		"weight": 6.19,
 		"bot": "gofishgame",
 		"fishtype": "🦦",
 		"fishname": "otter",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 235755,
-		"chatid": 82145,
-		"date": "2026-01-23T11:57:04Z",
-		"rank": 108
+		"fishid": 237665,
+		"chatid": 82564,
+		"date": "2026-01-31T17:41:26Z",
+		"rank": 130
 	},
 	"owl": {
 		"player": "dougiefresh_83",
@@ -1157,18 +1163,18 @@
 		"rank": 4
 	},
 	"oyster": {
-		"player": "esvelles",
-		"playerid": 3551,
-		"weight": 30.51,
+		"player": "osnyisdead",
+		"playerid": 2701,
+		"weight": 26.44,
 		"bot": "gofishgame",
 		"fishtype": "🦪",
 		"fishname": "oyster",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 235768,
-		"chatid": 82148,
-		"date": "2026-01-23T12:56:39Z",
-		"rank": 111
+		"fishid": 237258,
+		"chatid": 82479,
+		"date": "2026-01-29T23:40:14Z",
+		"rank": 103
 	},
 	"penguin": {
 		"player": "larvaew",
@@ -1182,21 +1188,21 @@
 		"fishid": 232664,
 		"chatid": 81473,
 		"date": "2026-01-10T23:30:05Z",
-		"rank": 88
+		"rank": 85
 	},
 	"plankton": {
-		"player": "wcd0",
-		"playerid": 2360,
-		"weight": 21.43,
+		"player": "esvelles",
+		"playerid": 3551,
+		"weight": 2.31,
 		"bot": "gofishgame",
 		"fishtype": "🦠",
 		"fishname": "plankton",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 236115,
-		"chatid": 82201,
-		"date": "2026-01-24T23:35:56Z",
-		"rank": 132
+		"fishid": 237389,
+		"chatid": 82509,
+		"date": "2026-01-30T15:26:18Z",
+		"rank": 109
 	},
 	"polarbear": {
 		"player": "derintu",
@@ -1282,7 +1288,7 @@
 		"fishid": 226541,
 		"chatid": 80363,
 		"date": "2025-12-19T21:29:02Z",
-		"rank": 69
+		"rank": 68
 	},
 	"rose": {
 		"player": "lluuuuucy",
@@ -1329,32 +1335,33 @@
 		"rank": 17
 	},
 	"sandwich": {
-		"player": "derintu",
-		"playerid": 3638,
-		"weight": 1.24,
+		"player": "larvaew",
+		"playerid": 1212,
+		"weight": 0.46,
 		"bot": "gofishgame",
 		"fishtype": "🥪",
 		"fishname": "sandwich",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 236023,
-		"chatid": 82192,
-		"date": "2026-01-24T15:12:00Z",
-		"rank": 123
+		"fishid": 236956,
+		"chatid": 82392,
+		"date": "2026-01-28T16:10:44Z",
+		"rank": 95
 	},
 	"sauropod": {
-		"player": "esvelles",
-		"playerid": 3551,
-		"weight": 79.34,
+		"player": "lluuuuucy",
+		"playerid": 21,
+		"verified": true,
+		"weight": 145.7,
 		"bot": "gofishgame",
 		"fishtype": "🦕",
 		"fishname": "sauropod",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 235591,
-		"chatid": 82113,
-		"date": "2026-01-22T17:25:37Z",
-		"rank": 100
+		"fishid": 236748,
+		"chatid": 82335,
+		"date": "2026-01-27T17:06:40Z",
+		"rank": 90
 	},
 	"scarf": {
 		"player": "feelsaceman",
@@ -1368,7 +1375,7 @@
 		"fishid": 230472,
 		"chatid": 81071,
 		"date": "2026-01-01T16:30:58Z",
-		"rank": 82
+		"rank": 81
 	},
 	"scorpion": {
 		"player": "ytp_dl",
@@ -1399,61 +1406,60 @@
 		"rank": 35
 	},
 	"seal": {
-		"player": "esvelles",
-		"playerid": 3551,
-		"weight": 119.55,
+		"player": "osnyisdead",
+		"playerid": 2701,
+		"weight": 56.83,
 		"bot": "gofishgame",
 		"fishtype": "🦭",
 		"fishname": "seal",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 235761,
-		"chatid": 82147,
-		"date": "2026-01-23T12:20:40Z",
-		"rank": 110
+		"fishid": 237474,
+		"chatid": 82528,
+		"date": "2026-01-30T22:22:06Z",
+		"rank": 112
 	},
 	"seaweed": {
 		"player": "gstaman911",
 		"playerid": 3529,
-		"weight": 0.32,
+		"weight": 0.18,
 		"bot": "gofishgame",
 		"fishtype": "🌿",
 		"fishname": "seaweed",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 235703,
-		"chatid": 82136,
-		"date": "2026-01-23T08:01:35Z",
-		"rank": 104
+		"fishid": 237505,
+		"chatid": 82533,
+		"date": "2026-01-31T01:14:42Z",
+		"rank": 113
 	},
 	"shark": {
 		"player": "ytp_dl",
 		"playerid": 112,
-		"weight": 46.06,
+		"weight": 108.9,
 		"bot": "gofishgame",
 		"fishtype": "🦈",
 		"fishname": "shark",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 235634,
-		"chatid": 82121,
-		"date": "2026-01-22T22:10:37Z",
-		"rank": 101
+		"fishid": 237319,
+		"chatid": 82488,
+		"date": "2026-01-30T07:10:45Z",
+		"rank": 105
 	},
 	"shell": {
-		"player": "lluuuuucy",
-		"playerid": 21,
-		"verified": true,
-		"weight": 0.35,
+		"player": "cimgu",
+		"playerid": 1369,
+		"weight": 0.29,
 		"bot": "gofishgame",
 		"fishtype": "🐚",
 		"fishname": "shell",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 236038,
-		"chatid": 82197,
-		"date": "2026-01-24T16:06:02Z",
-		"rank": 128
+		"fishid": 237278,
+		"chatid": 82483,
+		"date": "2026-01-30T02:05:33Z",
+		"rank": 104
 	},
 	"shoppingcart": {
 		"player": "osnyisdead",
@@ -1467,21 +1473,21 @@
 		"fishid": 230523,
 		"chatid": 81103,
 		"date": "2026-01-01T20:27:10Z",
-		"rank": 83
+		"rank": 82
 	},
 	"shrimp": {
 		"player": "esvelles",
 		"playerid": 3551,
-		"weight": 2.99,
+		"weight": 4.94,
 		"bot": "gofishgame",
 		"fishtype": "🦐",
 		"fishname": "shrimp",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 236029,
-		"chatid": 82193,
-		"date": "2026-01-24T15:21:16Z",
-		"rank": 124
+		"fishid": 237579,
+		"chatid": 82539,
+		"date": "2026-01-31T10:26:04Z",
+		"rank": 115
 	},
 	"skull": {
 		"player": "derintu",
@@ -1498,45 +1504,46 @@
 		"rank": 66
 	},
 	"slotmachine": {
-		"player": "notomji",
-		"playerid": 3937,
+		"player": "gstaman911",
+		"playerid": 3529,
+		"weight": 29,
 		"bot": "gofishgame",
 		"fishtype": "🎰",
 		"fishname": "slotmachine",
-		"catchtype": "release",
+		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 230591,
-		"chatid": 81129,
-		"date": "2026-01-02T00:04:46Z",
-		"rank": 84
+		"fishid": 237081,
+		"chatid": 82424,
+		"date": "2026-01-29T07:43:09Z",
+		"rank": 98
 	},
 	"snail": {
 		"player": "gstaman911",
 		"playerid": 3529,
-		"weight": 0.39,
+		"weight": 1.03,
 		"bot": "gofishgame",
 		"fishtype": "🐌",
 		"fishname": "snail",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 235711,
-		"chatid": 82138,
-		"date": "2026-01-23T08:31:42Z",
-		"rank": 105
+		"fishid": 237004,
+		"chatid": 82404,
+		"date": "2026-01-28T21:36:07Z",
+		"rank": 97
 	},
 	"snake": {
-		"player": "pinksynthesis28",
-		"playerid": 3984,
-		"weight": 207.34,
+		"player": "notomji",
+		"playerid": 3937,
+		"weight": 6.12,
 		"bot": "gofishgame",
 		"fishtype": "🐍",
 		"fishname": "snake",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 235974,
-		"chatid": 82172,
-		"date": "2026-01-24T10:57:37Z",
-		"rank": 116
+		"fishid": 237664,
+		"chatid": 82563,
+		"date": "2026-01-31T17:39:46Z",
+		"rank": 129
 	},
 	"sneaker": {
 		"player": "ytp_dl",
@@ -1567,18 +1574,18 @@
 		"rank": 54
 	},
 	"spider": {
-		"player": "osnyisdead",
-		"playerid": 2701,
-		"weight": 2.74,
+		"player": "esvelles",
+		"playerid": 3551,
+		"weight": 19.36,
 		"bot": "gofishgame",
 		"fishtype": "🕷️",
 		"fishname": "spider",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 235924,
-		"chatid": 82164,
-		"date": "2026-01-24T02:58:58Z",
-		"rank": 112
+		"fishid": 237611,
+		"chatid": 82547,
+		"date": "2026-01-31T13:21:42Z",
+		"rank": 120
 	},
 	"spiderweb": {
 		"player": "breadworms",
@@ -1611,18 +1618,19 @@
 		"rank": 56
 	},
 	"squid": {
-		"player": "osnyisdead",
-		"playerid": 2701,
-		"weight": 30.8,
+		"player": "lluuuuucy",
+		"playerid": 21,
+		"verified": true,
+		"weight": 5.76,
 		"bot": "gofishgame",
 		"fishtype": "🦑",
 		"fishname": "squid",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 236006,
-		"chatid": 82187,
-		"date": "2026-01-24T13:35:33Z",
-		"rank": 121
+		"fishid": 237623,
+		"chatid": 82550,
+		"date": "2026-01-31T14:28:31Z",
+		"rank": 122
 	},
 	"squirrel": {
 		"player": "cimgu",
@@ -1635,7 +1643,7 @@
 		"fishid": 227041,
 		"chatid": 80504,
 		"date": "2025-12-22T16:47:58Z",
-		"rank": 71
+		"rank": 70
 	},
 	"sunflower": {
 		"player": "kishma9",
@@ -1678,7 +1686,7 @@
 		"fishid": 234590,
 		"chatid": 81857,
 		"date": "2026-01-18T17:52:34Z",
-		"rank": 93
+		"rank": 89
 	},
 	"tacklebox": {
 		"player": "fishingalt",
@@ -1695,18 +1703,18 @@
 		"rank": 45
 	},
 	"teddybear": {
-		"player": "osnyisdead",
-		"playerid": 2701,
-		"weight": 10.89,
+		"player": "esvelles",
+		"playerid": 3551,
+		"weight": 10.56,
 		"bot": "gofishgame",
 		"fishtype": "🧸",
 		"fishname": "teddybear",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 235252,
-		"chatid": 82040,
-		"date": "2026-01-21T09:19:11Z",
-		"rank": 94
+		"fishid": 236908,
+		"chatid": 82380,
+		"date": "2026-01-28T11:08:34Z",
+		"rank": 92
 	},
 	"thongsandal": {
 		"player": "wcd0",
@@ -1735,7 +1743,7 @@
 		"fishid": 229157,
 		"chatid": 80833,
 		"date": "2025-12-28T14:13:26Z",
-		"rank": 73
+		"rank": 72
 	},
 	"tulip": {
 		"player": "delicatefragileprincess",
@@ -1752,60 +1760,60 @@
 		"rank": 5
 	},
 	"turtle": {
-		"player": "fvkdylan",
-		"playerid": 2881,
-		"weight": 25.78,
+		"player": "notomji",
+		"playerid": 3937,
+		"weight": 86.84,
 		"bot": "gofishgame",
 		"fishtype": "🐢",
 		"fishname": "turtle",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 236119,
-		"chatid": 82202,
-		"date": "2026-01-24T23:57:59Z",
-		"rank": 133
+		"fishid": 237730,
+		"chatid": 82567,
+		"date": "2026-01-31T23:42:31Z",
+		"rank": 132
 	},
 	"umbrella": {
 		"player": "derintu",
 		"playerid": 3638,
-		"weight": 2.84,
+		"weight": 1.31,
 		"bot": "gofishgame",
 		"fishtype": "☂️",
 		"fishname": "umbrella",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 236037,
-		"chatid": 82196,
-		"date": "2026-01-24T15:46:27Z",
-		"rank": 127
+		"fishid": 236955,
+		"chatid": 82391,
+		"date": "2026-01-28T16:09:55Z",
+		"rank": 94
 	},
 	"whale": {
-		"player": "esvelles",
-		"playerid": 3551,
-		"weight": 123.81,
+		"player": "ytp_dl",
+		"playerid": 112,
+		"weight": 130.98,
 		"bot": "gofishgame",
 		"fishtype": "🐋",
 		"fishname": "whale",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 235993,
-		"chatid": 82180,
-		"date": "2026-01-24T12:39:51Z",
-		"rank": 118
+		"fishid": 237636,
+		"chatid": 82554,
+		"date": "2026-01-31T15:41:45Z",
+		"rank": 124
 	},
 	"wiltedflower": {
 		"player": "gstaman911",
 		"playerid": 3529,
-		"weight": 2.44,
+		"weight": 0.16,
 		"bot": "gofishgame",
 		"fishtype": "🥀",
 		"fishname": "wiltedflower",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 235453,
-		"chatid": 82095,
-		"date": "2026-01-22T00:38:22Z",
-		"rank": 97
+		"fishid": 236872,
+		"chatid": 82373,
+		"date": "2026-01-28T05:52:17Z",
+		"rank": 91
 	},
 	"wireline": {
 		"player": "leanmeister",
@@ -1823,18 +1831,18 @@
 		"rank": 62
 	},
 	"worm": {
-		"player": "esvelles",
-		"playerid": 3551,
-		"weight": 5.02,
+		"player": "wcd0",
+		"playerid": 2360,
+		"weight": 8.17,
 		"bot": "gofishgame",
 		"fishtype": "🪱",
 		"fishname": "worm",
 		"catchtype": "normal",
 		"chat": "breadworms",
-		"fishid": 235964,
-		"chatid": 82170,
-		"date": "2026-01-24T09:52:33Z",
-		"rank": 115
+		"fishid": 237204,
+		"chatid": 82463,
+		"date": "2026-01-29T19:08:40Z",
+		"rank": 101
 	},
 	"wrappingpaper": {
 		"player": "leanmeister",
@@ -1848,6 +1856,6 @@
 		"fishid": 230449,
 		"chatid": 81060,
 		"date": "2026-01-01T15:07:48Z",
-		"rank": 75
+		"rank": 74
 	}
 }

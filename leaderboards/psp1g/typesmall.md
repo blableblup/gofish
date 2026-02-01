@@ -13,19 +13,19 @@
 | 9     | 🍱 tacklebox       | 3.84          | bubinga                   | 2025-11-02 17:33:24 |
 | 10    | 🧥 coat            | 2.93          | feelsaceman               | 2025-12-25 02:51:38 |
 | 11    | 🌵 cactus          | 2.71          | ratatas1g                 | 2025-08-29 10:38:01 |
-| 12 ⬆  | 🧟 deadbody        | 1.78          | em1ze                     | 2023-09-15 12:29:13 |
-| 13 ⬇  | 🍄‍🟫 mushroom        | 1.70 (-0.68)  | rottarded                 | 2026-01-16 21:09:17 |
-| 14    | 👑 crown           | 1.43          | thasbe                    | 2023-08-24 12:58:02 |
-| 15 ⬆  | 🦢 swan            | 1.26          | mazzo_tv                  | 2024-07-08 06:43:22 |
-| 16 ⬆  | 🎰 slotmachine     | 1.17          | caprisen_                 | 2024-08-10 10:15:56 |
-| 17 ⬆  | 🐿️ squirrel        | 0.90          | iflya320                  | 2024-12-04 11:13:44 |
-| 18 ⬆  | 🪁 kite            | 0.87          | jayayseaohbee             | 2025-06-29 14:35:21 |
-| 19 ⬆  | 🧞‍♂ genie           | 0.85          | cale4                     | 2024-01-15 22:48:00 |
-| 20 ⬆  | 🐉 dragon          | 0.83          | disappointingtrash        | 2025-12-07 22:30:59 |
-| 21 ⬆  | 🍥 sanddollar      | 0.77          | bubinga                   | 2025-08-25 07:57:19 |
-| 22 ⬆  | 🐧 penguin         | 0.63          | blu_inx                   | 2025-12-25 10:46:38 |
-| 23 ⬆  | 🐦‍⬛ robin           | 0.59          | jayayseaohbee             | 2025-07-24 21:02:17 |
-| 23 ⬇  | 🦈 shark           | 0.59 (-0.72)  | ratot                     | 2026-01-13 19:39:17 |
+| 12    | 🧟 deadbody        | 1.78          | em1ze                     | 2023-09-15 12:29:13 |
+| 13 ⬆  | 👑 crown           | 1.43          | thasbe                    | 2023-08-24 12:58:02 |
+| 14 ⬇  | 🍄‍🟫 mushroom        | 1.29 (-0.41)  | flunke_                   | 2026-01-31 20:44:54 |
+| 15    | 🦢 swan            | 1.26          | mazzo_tv                  | 2024-07-08 06:43:22 |
+| 16    | 🎰 slotmachine     | 1.17          | caprisen_                 | 2024-08-10 10:15:56 |
+| 17    | 🐿️ squirrel        | 0.90          | iflya320                  | 2024-12-04 11:13:44 |
+| 18    | 🪁 kite            | 0.87          | jayayseaohbee             | 2025-06-29 14:35:21 |
+| 19    | 🧞‍♂ genie           | 0.85          | cale4                     | 2024-01-15 22:48:00 |
+| 20    | 🐉 dragon          | 0.83          | disappointingtrash        | 2025-12-07 22:30:59 |
+| 21    | 🍥 sanddollar      | 0.77          | bubinga                   | 2025-08-25 07:57:19 |
+| 22    | 🐧 penguin         | 0.63          | blu_inx                   | 2025-12-25 10:46:38 |
+| 23    | 🐦‍⬛ robin           | 0.59          | jayayseaohbee             | 2025-07-24 21:02:17 |
+| 23    | 🦈 shark           | 0.59          | ratot                     | 2026-01-13 19:39:17 |
 | 25    | 🪺 nestwitheggs    | 0.57          | feelsaceman               | 2025-09-19 15:10:24 |
 | 26    | 🐜 ant             | 0.49          | cotovelo3                 | 2025-08-29 10:48:45 |
 | 27    | 🦕 sauropod        | 0.37          | bubinga                   | 2024-11-02 12:03:16 |
@@ -118,4 +118,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-01-18 09:37:17 UTC_
+_Last updated at 2026-02-01 09:22:17 UTC_

@@ -2,29 +2,29 @@
 
 | Rank  | Player                | Total Weight in lbs |
 |:------|:----------------------|:--------------------|
-| 1 🥇  | vaiastol              | 42866.28 (+445.71)  |
-| 2 🥈  | hahppyy               | 30048.61 (+156.32)  |
-| 3 🥉  | eelacy                | 12440.24 (+922.15)  |
-| 4     | garout                | 11388.38 (+179.84)  |
+| 1 🥇  | vaiastol              | 43183.79 (+317.51)  |
+| 2 🥈  | hahppyy               | 30057.57 (+8.96)    |
+| 3 🥉  | eelacy                | 13217.97 (+777.73)  |
+| 4     | garout                | 11388.46 (+0.08)    |
 | 5     | narwhaiv              | 9929.13             |
 | 6     | leanmeister           | 9660.42             |
-| 7     | divra__               | 9200.29             |
-| 8     | leastsussyimposter    | 8812.04 (+94.03)    |
+| 7 ⬆   | leastsussyimposter    | 9377.73 (+565.69)   |
+| 8 ⬇   | divra__               | 9200.29             |
 | 9     | dazedforevermore      | 5610.15             |
 | 10    | pengeg                | 4975.48             |
 | 11    | redreignss            | 4886.23             |
 | 12    | julialuxel            | 4536.16             |
-| 13    | yoimlee               | 2771.83             |
+| 13    | yoimlee               | 2778.31 (+6.48)     |
 | 14    | milesdotcom           | 2546.43             |
-| 15    | tiaguitos97           | 2319.20 (+3.01)     |
-| 16 ⬆  | proswift              | 2005.08 (+211.74)   |
-| 17 ⬇  | brontiiide            | 1966.17             |
-| 18    | gstaman911            | 1477.92             |
+| 15    | tiaguitos97           | 2319.20             |
+| 16    | proswift              | 2299.03 (+293.95)   |
+| 17    | brontiiide            | 1966.17             |
+| 18    | gstaman911            | 1485.18 (+7.26)     |
 | 19    | bubinga               | 1215.75             |
 | 20    | mitgliederversammlung | 898.18              |
-| 21 ⬆  | ryakarr               | 814.53 (+62.88)     |
-| 22 ⬇  | rird_                 | 813.71              |
-| 23    | obama                 | 721.70              |
+| 21    | ryakarr               | 840.46 (+25.93)     |
+| 22    | rird_                 | 813.71              |
+| 23    | obama                 | 724.24 (+2.54)      |
 | 24    | larvaew               | 648.16              |
 | 25    | fvkdylan              | 599.23              |
 | 26    | peppyow               | 568.49              |
@@ -45,4 +45,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-01-25 09:33:27 UTC_
+_Last updated at 2026-02-01 09:20:29 UTC_

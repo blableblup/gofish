@@ -15,9 +15,9 @@
 | 11    | gorillapark               | 67        |
 | 11    | lobuhtomy                 | 67        |
 | 11    | pengeg                    | 67        |
-| 14    | flunke_                   | 65        |
-| 14    | joshuabzz                 | 65        |
-| 14    | ratot                     | 65        |
+| 14    | joshuabzz                 | 66 (+1)   |
+| 15 ⬇  | flunke_                   | 65        |
+| 15 ⬇  | ratot                     | 65        |
 | 17    | feelsaceman               | 64        |
 | 17    | llikotesnecil             | 64        |
 | 19    | divra__                   | 63        |
@@ -26,11 +26,11 @@
 | 20    | theevirus                 | 62        |
 | 23    | commanda_u                | 61        |
 | 24    | eeziiii                   | 58        |
+| 24 ⬆  | lunecker                  | 58 (+1)   |
 | 24    | veny2lbs                  | 58        |
-| 26    | blu_inx                   | 57        |
-| 26    | iflya320                  | 57        |
-| 26    | lunecker                  | 57        |
-| 26    | markenzy01                | 57        |
+| 27 ⬇  | blu_inx                   | 57        |
+| 27 ⬇  | iflya320                  | 57        |
+| 27 ⬇  | markenzy01                | 57        |
 | 30    | amu1g                     | 56        |
 | 30    | benciee                   | 56        |
 | 30    | creepycode*               | 56        |
@@ -46,11 +46,11 @@
 | 42    | qxxick_                   | 51        |
 | 42    | wisdom_frog               | 51        |
 | 44    | bartohehe                 | 50        |
-| 44 🆕 | rottarded                 | 50        |
+| 44    | rottarded                 | 50        |
 | 44    | seryxx                    | 50        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-01-25 09:35:03 UTC_
+_Last updated at 2026-02-01 09:20:31 UTC_

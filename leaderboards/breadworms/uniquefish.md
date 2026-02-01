@@ -6,8 +6,8 @@
 | 2 🥈  | derinturitierutz      | 118       |
 | 3 🥉  | derintu               | 107       |
 | 4     | lluuuuucy             | 104       |
+| 5 ⬆   | larvaew               | 102 (+2)  |
 | 5     | leanmeister           | 102       |
-| 6     | larvaew               | 100       |
 | 7     | cimgu                 | 97        |
 | 8     | qu4ttromila           | 94        |
 | 9     | breadworms            | 93        |
@@ -15,8 +15,8 @@
 | 11    | osnyisdead            | 91        |
 | 12    | destin357             | 90        |
 | 13    | dougiefresh_83*       | 87        |
-| 13 ⬆  | ytp_dl*               | 87 (+1)   |
-| 15 ⬇  | dazedforevermore      | 86        |
+| 13    | ytp_dl*               | 87        |
+| 15    | dazedforevermore      | 86        |
 | 16    | miiiiisho             | 85        |
 | 17    | ninjaross*            | 78        |
 | 18    | booty_bread           | 77        |
@@ -32,7 +32,7 @@
 | 28    | comiqq                | 65        |
 | 28    | ryebreadward          | 65        |
 | 30    | mitgliederversammlung | 64        |
-| 31 ⬆  | notomji               | 62 (+1)   |
+| 31    | notomji               | 62        |
 | 31    | sussy_amonge          | 62        |
 | 33    | kaasppeerr            | 60        |
 | 34    | bapqo                 | 56        |
@@ -46,10 +46,10 @@
 | 42    | wcd0                  | 52        |
 | 43    | houseofleaves*        | 51        |
 | 43    | osnyatsky*            | 51        |
-| 45 🆕 | pinksynthesis28       | 50        |
+| 45    | pinksynthesis28       | 50        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-01-25 09:35:03 UTC_
+_Last updated at 2026-02-01 09:20:30 UTC_

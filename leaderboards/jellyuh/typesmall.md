@@ -6,7 +6,7 @@
 | 2 🥈  | 🛢️ oildrum        | 55.49         | goopy777            | 2025-07-18 05:08:04 |
 | 3 🥉  | 🫎 moose          | 26.84         | rainedparade        | 2025-03-17 19:54:46 |
 | 4     | 🧟 deadbody       | 26.65         | jakthejanitor       | 2025-10-14 11:48:58 |
-| 5     | 🦕 sauropod       | 23.89         | goopy777            | 2025-07-08 08:08:36 |
+| 5     | 🦕 sauropod       | 15.45 (-8.44) | jakthejanitor       | 2026-01-26 00:10:08 |
 | 6     | 🥒 seacucumber    | 14.55         | akasamoyed          | 2025-07-19 00:17:42 |
 | 7     | 🐉 dragon         | 10.94         | rainedparade        | 2025-05-25 01:21:35 |
 | 8     | 👒 hat            | 9.46          | rainedparade        | 2025-01-25 17:36:59 |
@@ -64,18 +64,18 @@
 | 60    | 🌷 tulip          | 0.15          | hello0d             | 2025-03-17 18:30:17 |
 | 61    | 💀 skull          | 0.14          | miyabwah            | 2025-04-27 18:38:15 |
 | 62    | 🐌 snail          | 0.12          | poioce              | 2025-04-09 03:14:28 |
-| 63 ⬆  | ☂️ umbrella       | 0.11          | e1d2f3              | 2025-01-30 06:43:56 |
-| 64 ⬆  | 🐚 shell          | 0.09          | miyabwah            | 2025-05-25 02:40:40 |
-| 65 ⬆  | 🐟 fish           | 0.07          | pompadourdelinquent | 2025-09-01 01:12:53 |
-| 66 ⬆  | 🗡️ dagger         | 0.06          | jakthejanitor       | 2025-10-23 09:44:47 |
-| 67 ⬆  | 🌿 seaweed        | 0.05          | poioce              | 2025-03-20 09:26:12 |
-| 68 ⬆  | ☘️ clover         | 0.04          | miyabwah            | 2025-01-26 07:15:25 |
-| 68 ⬆  | 🍃 deadleaves     | 0.04          | teeto               | 2025-03-28 22:50:41 |
-| 70 ⬆  | 🪝 hook           | 0.03          | poioce              | 2025-02-27 13:32:30 |
-| 71 ⬆  | 🐸 frog           | 0.02          | goopy777            | 2026-01-15 23:28:49 |
-| 71 ⬇  | 🧤 gloves         | 0.02 (-0.10)  | miyabwah            | 2026-01-21 21:52:20 |
-| 71 ⬆  | ⛸️ iceskate       | 0.02          | respirate_          | 2026-01-01 13:36:06 |
-| 71 ⬆  | 👟 sneaker        | 0.02          | jakthejanitor       | 2025-11-02 00:45:49 |
+| 63    | ☂️ umbrella       | 0.11          | e1d2f3              | 2025-01-30 06:43:56 |
+| 64    | 🐚 shell          | 0.09          | miyabwah            | 2025-05-25 02:40:40 |
+| 65    | 🐟 fish           | 0.07          | pompadourdelinquent | 2025-09-01 01:12:53 |
+| 66    | 🗡️ dagger         | 0.06          | jakthejanitor       | 2025-10-23 09:44:47 |
+| 67    | 🌿 seaweed        | 0.05          | poioce              | 2025-03-20 09:26:12 |
+| 68    | ☘️ clover         | 0.04          | miyabwah            | 2025-01-26 07:15:25 |
+| 68    | 🍃 deadleaves     | 0.04          | teeto               | 2025-03-28 22:50:41 |
+| 70    | 🪝 hook           | 0.03          | poioce              | 2025-02-27 13:32:30 |
+| 71    | 🐸 frog           | 0.02          | goopy777            | 2026-01-15 23:28:49 |
+| 71    | 🧤 gloves         | 0.02          | miyabwah            | 2026-01-21 21:52:20 |
+| 71    | ⛸️ iceskate       | 0.02          | respirate_          | 2026-01-01 13:36:06 |
+| 71    | 👟 sneaker        | 0.02          | jakthejanitor       | 2025-11-02 00:45:49 |
 | 75    | 🦀 crab           | 0.01          | jollygana           | 2025-04-16 03:20:53 |
 | 75    | 🧦 socks          | 0.01          | miyabwah            | 2025-03-11 06:41:19 |
 | 75    | 🩴 thongsandal    | 0.01          | yaykaiza            | 2025-08-22 00:59:19 |
@@ -84,4 +84,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-01-25 09:35:31 UTC_
+_Last updated at 2026-02-01 09:22:09 UTC_

@@ -4,9 +4,9 @@
 |:------|:-----------------|:------------|
 | 1 🥇  | respirate_       | 95          |
 | 2 🥈  | rustezzz         | 67          |
-| 3 🥉  | bubinga          | 57 (+1)     |
-| 4 ⬇   | elisworm         | 56          |
-| 5     | glorpiusbot      | 51 (+2)     |
+| 3 🥉  | bubinga          | 57          |
+| 4     | elisworm         | 56          |
+| 5     | glorpiusbot      | 52 (+1)     |
 | 6     | desxyne          | 38          |
 | 7     | aquaismissing    | 37          |
 | 8     | stofeyxd*        | 32          |
@@ -31,4 +31,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-01-25 09:35:04 UTC_
+_Last updated at 2026-02-01 09:20:31 UTC_
