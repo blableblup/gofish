@@ -6,7 +6,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 6,
 		"silver": 2,
-		"rank": 10
+		"rank": 11
 	},
 	"1310": {
 		"player": "hahppyy",
@@ -43,7 +43,7 @@
 		"weight": 0.5,
 		"date": "0001-01-01T00:00:00Z",
 		"bronze": 1,
-		"rank": 43
+		"rank": 44
 	},
 	"1449": {
 		"player": "popfizzgg",
@@ -65,12 +65,12 @@
 	"1515": {
 		"player": "lunecker",
 		"playerid": 1515,
-		"weight": 14.5,
+		"weight": 21,
 		"date": "0001-01-01T00:00:00Z",
-		"trophies": 4,
+		"trophies": 6,
 		"silver": 1,
-		"bronze": 3,
-		"rank": 15
+		"bronze": 4,
+		"rank": 9
 	},
 	"159": {
 		"player": "yopego",
@@ -139,7 +139,7 @@
 		"weight": 0.5,
 		"date": "0001-01-01T00:00:00Z",
 		"bronze": 1,
-		"rank": 43
+		"rank": 44
 	},
 	"200": {
 		"player": "thasbe",
@@ -176,7 +176,7 @@
 		"trophies": 7,
 		"silver": 11,
 		"bronze": 2,
-		"rank": 6
+		"rank": 7
 	},
 	"2339": {
 		"player": "bubinga",
@@ -219,7 +219,7 @@
 		"weight": 0.5,
 		"date": "0001-01-01T00:00:00Z",
 		"bronze": 1,
-		"rank": 43
+		"rank": 44
 	},
 	"2609": {
 		"player": "iflya320",
@@ -234,12 +234,20 @@
 	"269": {
 		"player": "nndiana",
 		"playerid": 269,
-		"weight": 285,
+		"weight": 289.5,
 		"date": "0001-01-01T00:00:00Z",
-		"trophies": 69,
-		"silver": 65,
-		"bronze": 26,
+		"trophies": 70,
+		"silver": 66,
+		"bronze": 27,
 		"rank": 1
+	},
+	"3736": {
+		"player": "ranctious",
+		"playerid": 3736,
+		"weight": 1,
+		"date": "0001-01-01T00:00:00Z",
+		"silver": 1,
+		"rank": 41
 	},
 	"3740": {
 		"player": "joshuabzz",
@@ -298,17 +306,17 @@
 		"trophies": 4,
 		"silver": 4,
 		"bronze": 6,
-		"rank": 11
+		"rank": 12
 	},
 	"4099": {
 		"player": "blu_inx",
 		"playerid": 4099,
-		"weight": 32,
+		"weight": 33.5,
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 8,
-		"silver": 6,
-		"bronze": 4,
-		"rank": 7
+		"silver": 7,
+		"bronze": 5,
+		"rank": 6
 	},
 	"4135": {
 		"player": "disappointingtrash",
@@ -337,7 +345,7 @@
 		"trophies": 4,
 		"silver": 2,
 		"bronze": 2,
-		"rank": 14
+		"rank": 15
 	},
 	"487": {
 		"player": "zsipe",
@@ -374,7 +382,7 @@
 		"trophies": 3,
 		"silver": 3,
 		"bronze": 11,
-		"rank": 12
+		"rank": 13
 	},
 	"686": {
 		"player": "jr_mime",
@@ -412,6 +420,6 @@
 		"trophies": 2,
 		"silver": 7,
 		"bronze": 8,
-		"rank": 13
+		"rank": 14
 	}
 }
