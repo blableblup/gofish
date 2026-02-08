@@ -4,9 +4,9 @@
 |:------|:----------------------|:----------|
 | 1 🥇  | fishingalt            | 121       |
 | 2 🥈  | derinturitierutz      | 118       |
-| 3 🥉  | derintu               | 107       |
+| 3 🥉  | derintu               | 108 (+1)  |
 | 4     | lluuuuucy             | 104       |
-| 5 ⬆   | larvaew               | 102 (+2)  |
+| 5     | larvaew               | 102       |
 | 5     | leanmeister           | 102       |
 | 7     | cimgu                 | 97        |
 | 8     | qu4ttromila           | 94        |
@@ -52,4 +52,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-02-01 09:20:30 UTC_
+_Last updated at 2026-02-08 09:25:40 UTC_

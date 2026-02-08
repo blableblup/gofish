@@ -59,22 +59,22 @@
 | 55    | 🧽 sponge         | 0.16          | allspice_boatrace  | 2025-06-23 02:54:57 |
 | 56    | 🪳 cockroach      | 0.14          | 21mtd              | 2025-05-23 06:12:47 |
 | 57    | 🩴 thongsandal    | 0.13          | victorvondoom313   | 2025-06-23 02:10:17 |
-| 58 ⬆  | 👢 boot           | 0.12          | gofishgamer        | 2025-11-29 00:50:22 |
-| 59 ⬆  | 🥫 cannedfood     | 0.11          | allspice_boatrace  | 2025-03-29 02:36:56 |
-| 60 ⬆  | 🐌 snail          | 0.06          | aaurie             | 2025-03-24 06:30:10 |
-| 60 ⬆  | 🌷 tulip          | 0.06          | aaurie             | 2025-04-14 04:00:42 |
-| 62 ⬆  | 🌿 seaweed        | 0.05          | darkbingus         | 2025-03-15 09:31:15 |
-| 62 ⬆  | 🧦 socks          | 0.05          | yourdadscameraroll | 2025-04-21 06:31:34 |
-| 64 ⬆  | 🧵 wireline       | 0.04          | nalls              | 2025-03-22 04:41:42 |
-| 65 ⬆  | 🪶 feather        | 0.02          | bluezebra17        | 2025-08-04 03:34:08 |
-| 65 ⬆  | 💀 skull          | 0.02          | wildturky82        | 2025-10-14 03:42:07 |
-| 67 ⬆  | 🌰 acorn          | 0.01          | aaurie             | 2025-10-04 06:13:57 |
-| 67 ⬆  | 🦀 crab           | 0.01          | jeffbethyname69    | 2025-05-12 05:03:42 |
-| 67 ⬆  | 🪝 hook           | 0.01          | mademooselle       | 2025-03-11 00:06:05 |
-| 67 ⬆  | 🎏 lure           | 0.01          | boogie310_         | 2025-03-14 05:15:15 |
-| 71 ⬇  | 🐟 fish           | 0.00 (-0.13)  | boogie310_         | 2026-01-31 06:48:50 |
-| 71 ⬆  | 🐚 shell          | 0.00          | dolp_fin           | 2025-09-26 06:29:42 |
+| 58 ⬆  | 🥫 cannedfood     | 0.11          | allspice_boatrace  | 2025-03-29 02:36:56 |
+| 59 ⬆  | 🐌 snail          | 0.06          | aaurie             | 2025-03-24 06:30:10 |
+| 59 ⬆  | 🌷 tulip          | 0.06          | aaurie             | 2025-04-14 04:00:42 |
+| 61 ⬆  | 🌿 seaweed        | 0.05          | darkbingus         | 2025-03-15 09:31:15 |
+| 61 ⬆  | 🧦 socks          | 0.05          | yourdadscameraroll | 2025-04-21 06:31:34 |
+| 63 ⬆  | 🧵 wireline       | 0.04          | nalls              | 2025-03-22 04:41:42 |
+| 64 ⬇  | 👢 boot           | 0.02 (-0.10)  | amatusz            | 2026-02-02 03:31:51 |
+| 64 ⬆  | 🪶 feather        | 0.02          | bluezebra17        | 2025-08-04 03:34:08 |
+| 64 ⬆  | 💀 skull          | 0.02          | wildturky82        | 2025-10-14 03:42:07 |
+| 67    | 🌰 acorn          | 0.01          | aaurie             | 2025-10-04 06:13:57 |
+| 67    | 🦀 crab           | 0.01          | jeffbethyname69    | 2025-05-12 05:03:42 |
+| 67    | 🪝 hook           | 0.01          | mademooselle       | 2025-03-11 00:06:05 |
+| 67    | 🎏 lure           | 0.01          | boogie310_         | 2025-03-14 05:15:15 |
+| 71    | 🐟 fish           | 0.00          | boogie310_         | 2026-01-31 06:48:50 |
+| 71    | 🐚 shell          | 0.00          | dolp_fin           | 2025-09-26 06:29:42 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-02-01 09:23:03 UTC_
+_Last updated at 2026-02-08 09:26:39 UTC_

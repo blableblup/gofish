@@ -53,30 +53,30 @@
 | 49    | 🐚 shell          | 3.58          | konsminator | 2025-07-29 06:18:48 |
 | 50    | 🐸 frog           | 3.57          | gofishgamer | 2025-12-30 10:11:34 |
 | 51    | 🪝 hook           | 3.37          | gibbbons    | 2026-01-18 01:16:59 |
-| 52    | 🥀 wiltedflower   | 2.72          | lolspers    | 2025-12-20 18:37:10 |
+| 52    | 🥀 wiltedflower   | 2.95 (+0.23)  | lolspers    | 2026-02-07 09:17:28 |
 | 53    | 🌻 sunflower      | 2.71          | mowogan     | 2025-07-04 06:28:42 |
 | 54    | 🕶️ darksunglasses | 2.07          | mowogan     | 2025-07-21 12:36:33 |
 | 55    | 🌹 rose           | 1.99          | lolspers    | 2025-10-23 12:15:28 |
-| 56 🆕 | 🐦 cardinal       | 1.98          | konsminator | 2026-01-31 07:46:25 |
-| 57 ⬇  | 🧦 socks          | 1.96          | n1nzin_     | 2025-06-23 18:21:06 |
-| 58 ⬇  | 🩴 thongsandal    | 1.95          | konsminator | 2025-07-03 15:33:07 |
-| 59 ⬇  | 🪻 lupine         | 1.89          | mowogan     | 2025-08-11 09:00:17 |
-| 60 ⬇  | 👢 boot           | 1.58          | v6r_        | 2026-01-11 01:41:10 |
-| 61 ⬇  | 🪀 bobber         | 1.40          | konsminator | 2025-09-20 15:19:46 |
-| 62 ⬇  | 🐦‍⬛ robin          | 1.28          | konsminator | 2025-08-08 15:44:29 |
-| 63 ⬇  | 🌿 seaweed        | 0.96          | mowogan     | 2025-07-29 02:25:16 |
-| 64 ⬇  | 🍁 leaf           | 0.88          | mowogan     | 2025-10-02 05:21:46 |
-| 65 ⬇  | 🌾 grass          | 0.83          | mowogan     | 2025-08-10 07:37:40 |
-| 66 ⬇  | ⛸️ iceskate       | 0.81          | elisworm    | 2025-12-27 01:20:45 |
-| 67 ⬇  | 🎱 8ball          | 0.79          | konsminator | 2025-06-23 16:25:30 |
-| 68 ⬇  | 🧵 wireline       | 0.46          | mowogan     | 2025-06-23 19:26:16 |
-| 69 ⬇  | 📱 iphone         | 0.32          | lolspers    | 2025-09-20 10:57:09 |
-| 70 ⬇  | 🪶 feather        | 0.28          | konsminator | 2025-07-21 06:25:25 |
-| 71 ⬇  | 🩰 balletshoes    | 0.19          | konsminator | 2025-07-21 10:55:56 |
-| 71 ⬇  | 🍬 candy          | 0.19          | konsminator | 2025-08-13 19:47:32 |
-| 73 ⬇  | 🐜 ant            | 0.12          | n1nzin_     | 2025-06-24 12:10:54 |
-| 74 ⬇  | 🪚 icesaw         | 0.00          | gofishgamer | 2025-12-28 10:04:36 |
+| 56    | 🐦 cardinal       | 1.98          | konsminator | 2026-01-31 07:46:25 |
+| 57    | 🧦 socks          | 1.96          | n1nzin_     | 2025-06-23 18:21:06 |
+| 58    | 🩴 thongsandal    | 1.95          | konsminator | 2025-07-03 15:33:07 |
+| 59    | 🪻 lupine         | 1.89          | mowogan     | 2025-08-11 09:00:17 |
+| 60    | 👢 boot           | 1.58          | v6r_        | 2026-01-11 01:41:10 |
+| 61    | 🪀 bobber         | 1.40          | konsminator | 2025-09-20 15:19:46 |
+| 62    | 🐦‍⬛ robin          | 1.28          | konsminator | 2025-08-08 15:44:29 |
+| 63    | 🌿 seaweed        | 0.96          | mowogan     | 2025-07-29 02:25:16 |
+| 64    | 🍁 leaf           | 0.88          | mowogan     | 2025-10-02 05:21:46 |
+| 65    | 🌾 grass          | 0.83          | mowogan     | 2025-08-10 07:37:40 |
+| 66    | ⛸️ iceskate       | 0.81          | elisworm    | 2025-12-27 01:20:45 |
+| 67    | 🎱 8ball          | 0.79          | konsminator | 2025-06-23 16:25:30 |
+| 68    | 🧵 wireline       | 0.46          | mowogan     | 2025-06-23 19:26:16 |
+| 69    | 📱 iphone         | 0.32          | lolspers    | 2025-09-20 10:57:09 |
+| 70    | 🪶 feather        | 0.28          | konsminator | 2025-07-21 06:25:25 |
+| 71    | 🩰 balletshoes    | 0.19          | konsminator | 2025-07-21 10:55:56 |
+| 71    | 🍬 candy          | 0.19          | konsminator | 2025-08-13 19:47:32 |
+| 73    | 🐜 ant            | 0.12          | n1nzin_     | 2025-06-24 12:10:54 |
+| 74    | 🪚 icesaw         | 0.00          | gofishgamer | 2025-12-28 10:04:36 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-02-01 09:20:45 UTC_
+_Last updated at 2026-02-08 09:28:46 UTC_

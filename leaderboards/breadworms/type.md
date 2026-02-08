@@ -31,18 +31,18 @@
 | 27    | 🐈‍⬛ blackcat        | 67.48          | breadworms              | 2024-12-19 00:46:27 |
 | 28    | 🦐 shrimp          | 67.05          | 5pic3*                  | 2022-12-05 10:26:58 |
 | 29    | 🐟 fish            | 63.56          | konsminator             | 2024-11-03 06:20:44 |
-| 30 ⬆  | 🛒 shoppingcart    | 60.59 (+23.53) | osnyisdead              | 2026-01-01 20:27:10 |
-| 31 ⬇  | 🗡️ dagger          | 47.73          | xz_xz                   | 2023-08-20 06:54:51 |
-| 32 ⬇  | 🐸 frog            | 47.16          | vaiastol                | 2024-09-08 14:39:42 |
-| 33 ⬇  | 🦫 beaver          | 43.98          | bapqo                   | 2024-06-20 02:32:08 |
-| 34 ⬇  | 🐧 penguin         | 41.60          | osnyatsky*              | 2022-12-26 11:29:32 |
-| 35 ⬇  | 🦀 crab            | 38.91          | bussinongnocap          | 2023-09-05 06:10:03 |
-| 36    | 🐡 blowfish        | 35.66          | crazytown_bananapants   | 2023-08-24 09:30:28 |
-| 37    | 🕷️ spider          | 32.71          | leanmeister             | 2025-04-02 10:24:56 |
-| 38    | 🥒 seacucumber     | 31.92          | destin357               | 2025-06-09 10:41:23 |
-| 39    | 🧽 sponge          | 29.73          | dazedforevermore        | 2023-08-24 08:42:37 |
-| 40    | 🧊 icecube         | 29.34          | dougiefresh_83          | 2024-12-31 21:24:39 |
-| 41    | 🎰 slotmachine     | 29.00          | ritualofreanimation     | 2025-12-19 21:38:16 |
+| 30    | 🛒 shoppingcart    | 60.59          | osnyisdead              | 2026-01-01 20:27:10 |
+| 31    | 🗡️ dagger          | 47.73          | xz_xz                   | 2023-08-20 06:54:51 |
+| 32    | 🐸 frog            | 47.16          | vaiastol                | 2024-09-08 14:39:42 |
+| 33 ⬆  | 🎰 slotmachine     | 47.00 (+18.00) | notomji                 | 2026-02-04 11:04:17 |
+| 34 ⬇  | 🦫 beaver          | 43.98          | bapqo                   | 2024-06-20 02:32:08 |
+| 35 ⬇  | 🐧 penguin         | 41.60          | osnyatsky*              | 2022-12-26 11:29:32 |
+| 36 ⬇  | 🦀 crab            | 38.91          | bussinongnocap          | 2023-09-05 06:10:03 |
+| 37 ⬇  | 🐡 blowfish        | 35.66          | crazytown_bananapants   | 2023-08-24 09:30:28 |
+| 38 ⬇  | 🕷️ spider          | 32.71          | leanmeister             | 2025-04-02 10:24:56 |
+| 39 ⬇  | 🥒 seacucumber     | 31.92          | destin357               | 2025-06-09 10:41:23 |
+| 40 ⬇  | 🧽 sponge          | 29.73          | dazedforevermore        | 2023-08-24 08:42:37 |
+| 41 ⬇  | 🧊 icecube         | 29.34          | dougiefresh_83          | 2024-12-31 21:24:39 |
 | 42    | 🐠 tropicalfish    | 28.79          | cimgu                   | 2025-03-28 16:25:42 |
 | 43    | 🪳 cockroach       | 26.79          | fishingalt              | 2025-03-02 15:50:28 |
 | 44    | 🎃 pumpkin         | 23.53          | larvaew                 | 2025-11-04 09:29:12 |
@@ -128,4 +128,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-01-04 10:17:00 UTC_
+_Last updated at 2026-02-08 09:27:58 UTC_

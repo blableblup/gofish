@@ -2,37 +2,37 @@
 
 | Rank | Fish              | Weight in lbs | Player              | Date in UTC         |
 |:-----|:------------------|:--------------|:--------------------|:--------------------|
-| 81   | 👢 boot           | 1.47          | miyabwah            | 2026-01-29 07:36:40 |
-| 80   | 🦕 sauropod       | 27.90         | jakthejanitor       | 2026-01-29 02:14:11 |
-| 79   | 🐟 fish           | 14.31         | jakthejanitor       | 2026-01-28 09:27:17 |
-| 78   | 🪝 hook           | 3.66          | goopy777            | 2026-01-27 01:57:56 |
-| 77   | 🕷️ spider         | 17.47         | jakthejanitor       | 2026-01-24 10:56:19 |
-| 76   | 🧤 gloves         | 0.02          | miyabwah            | 2026-01-21 21:52:20 |
-| 75   | 🎏 lure           | 0.14          | jakthejanitor       | 2026-01-18 23:13:45 |
-| 74   | 🦞 lobster        | 37.03         | jakthejanitor       | 2026-01-18 02:41:32 |
-| 73   | 🦐 shrimp         | 8.02          | jakthejanitor       | 2026-01-16 23:04:42 |
-| 72   | 🦭 seal           | 62.12         | goopy777            | 2026-01-16 21:50:28 |
-| 71   | 🐊 crocodile      | 90.64         | jakthejanitor       | 2026-01-16 20:43:37 |
-| 70   | 🐸 frog           | 0.02          | goopy777            | 2026-01-15 23:28:49 |
-| 69   | 🦪 oyster         | 19.18         | jakthejanitor       | 2026-01-15 23:28:33 |
-| 68   | 🐚 shell          | 3.45          | jakthejanitor       | 2026-01-13 10:04:07 |
-| 67   | 🧸 teddybear      | 6.13          | jakthejanitor       | 2026-01-10 19:12:22 |
-| 66   | 🦑 squid          | 233.83        | elisworm            | 2026-01-04 14:19:11 |
-| 65   | 🐍 snake          | 7.34          | gofishgamer         | 2026-01-04 03:13:28 |
-| 64   | 🐙 octopus        | 34.62         | goopy777            | 2026-01-04 01:09:44 |
-| 63   | 🥫 cannedfood     | 5.42          | elisworm            | 2026-01-03 11:30:33 |
-| 62   | 🐳 bluewhale      | 46.97         | elisworm            | 2026-01-03 04:27:10 |
-| 61   | ⛸️ iceskate       | 0.02          | respirate_          | 2026-01-01 13:36:06 |
-| 60   | 🐌 snail          | 10.17         | gofishgamer         | 2026-01-01 12:23:21 |
-| 59   | 🐢 turtle         | 50.15         | elisworm            | 2026-01-01 10:40:00 |
-| 58   | 🐋 whale          | 103.93        | gofishgamer         | 2026-01-01 04:59:38 |
-| 57   | 🪱 worm           | 2.31          | gofishgamer         | 2025-12-31 13:21:29 |
-| 56   | 🦀 crab           | 4.05          | elisworm            | 2025-12-30 03:39:15 |
-| 55   | 🍄 oceanplant     | 12.66         | jakthejanitor       | 2025-12-27 02:16:48 |
-| 54   | 🌰 acorn          | 0.00          | acornpond           | 2025-12-15 07:53:49 |
-| 53   | 🪸 coral          | 23.07         | miyabwah            | 2025-12-08 08:19:09 |
-| 52   | 💀 skull          | 9.83          | jakthejanitor       | 2025-12-08 08:15:51 |
-| 51   | 🦠 plankton       | 15.30         | jakthejanitor       | 2025-11-15 23:26:57 |
+| 81   | 🕷️ spider         | 14.20         | jakthejanitor       | 2026-02-06 01:04:31 |
+| 80   | 🦞 lobster        | 15.83         | jakthejanitor       | 2026-02-04 22:51:22 |
+| 79   | 🎏 lure           | 2.87          | miyabwah            | 2026-02-04 21:09:56 |
+| 78   | 🦠 plankton       | 5.42          | jakthejanitor       | 2026-02-04 12:18:50 |
+| 77   | 🐊 crocodile      | 0.28          | goopy777            | 2026-02-01 23:30:47 |
+| 76   | 🐢 turtle         | 19.62         | jakthejanitor       | 2026-02-01 13:44:07 |
+| 75   | 👢 boot           | 1.47          | miyabwah            | 2026-01-29 07:36:40 |
+| 74   | 🦕 sauropod       | 27.90         | jakthejanitor       | 2026-01-29 02:14:11 |
+| 73   | 🐟 fish           | 14.31         | jakthejanitor       | 2026-01-28 09:27:17 |
+| 72   | 🪝 hook           | 3.66          | goopy777            | 2026-01-27 01:57:56 |
+| 71   | 🧤 gloves         | 0.02          | miyabwah            | 2026-01-21 21:52:20 |
+| 70   | 🦐 shrimp         | 8.02          | jakthejanitor       | 2026-01-16 23:04:42 |
+| 69   | 🦭 seal           | 62.12         | goopy777            | 2026-01-16 21:50:28 |
+| 68   | 🐸 frog           | 0.02          | goopy777            | 2026-01-15 23:28:49 |
+| 67   | 🦪 oyster         | 19.18         | jakthejanitor       | 2026-01-15 23:28:33 |
+| 66   | 🐚 shell          | 3.45          | jakthejanitor       | 2026-01-13 10:04:07 |
+| 65   | 🧸 teddybear      | 6.13          | jakthejanitor       | 2026-01-10 19:12:22 |
+| 64   | 🦑 squid          | 233.83        | elisworm            | 2026-01-04 14:19:11 |
+| 63   | 🐍 snake          | 7.34          | gofishgamer         | 2026-01-04 03:13:28 |
+| 62   | 🐙 octopus        | 34.62         | goopy777            | 2026-01-04 01:09:44 |
+| 61   | 🥫 cannedfood     | 5.42          | elisworm            | 2026-01-03 11:30:33 |
+| 60   | 🐳 bluewhale      | 46.97         | elisworm            | 2026-01-03 04:27:10 |
+| 59   | ⛸️ iceskate       | 0.02          | respirate_          | 2026-01-01 13:36:06 |
+| 58   | 🐌 snail          | 10.17         | gofishgamer         | 2026-01-01 12:23:21 |
+| 57   | 🐋 whale          | 103.93        | gofishgamer         | 2026-01-01 04:59:38 |
+| 56   | 🪱 worm           | 2.31          | gofishgamer         | 2025-12-31 13:21:29 |
+| 55   | 🦀 crab           | 4.05          | elisworm            | 2025-12-30 03:39:15 |
+| 54   | 🍄 oceanplant     | 12.66         | jakthejanitor       | 2025-12-27 02:16:48 |
+| 53   | 🌰 acorn          | 0.00          | acornpond           | 2025-12-15 07:53:49 |
+| 52   | 🪸 coral          | 23.07         | miyabwah            | 2025-12-08 08:19:09 |
+| 51   | 💀 skull          | 9.83          | jakthejanitor       | 2025-12-08 08:15:51 |
 | 50   | 🧦 socks          | 0.76          | jakthejanitor       | 2025-11-14 05:53:21 |
 | 49   | 🦈 shark          | 90.90         | teeto               | 2025-11-05 17:03:02 |
 | 48   | 🦦 otter          | 8.52          | jakthejanitor       | 2025-11-04 18:03:19 |
@@ -84,4 +84,4 @@
 | 2    | 🪶 feather        | 0.43          | jellyuh             | 2025-01-02 09:31:14 |
 | 1    | 🧣 scarf          | 0.16          | goopy777            | 2024-12-29 00:40:05 |
 
-_Last updated at 2026-02-01 09:22:05 UTC_
+_Last updated at 2026-02-08 09:25:41 UTC_

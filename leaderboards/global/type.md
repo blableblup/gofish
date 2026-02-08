@@ -34,8 +34,8 @@
 | 30    | 🐟 fish            | 63.75         | adziooooo                 | 2023-10-27 22:15:11 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)           |
 | 31    | 🗡️ dagger          | 47.98         | hahppyy                   | 2024-03-16 21:42:51 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)           |
 | 32    | 🐸 frog            | 47.43         | noconcept_                | 2023-11-06 23:41:42 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)           |
-| 33    | 🦫 beaver          | 44.84         | vaiastol                  | 2024-10-19 16:31:30 | ![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)     |
-| 34    | 🎰 slotmachine     | 42.00         | iflya320                  | 2025-10-28 19:16:30 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)             |
+| 33 ⬆  | 🎰 slotmachine     | 47.00 (+5.00) | notomji                   | 2026-02-04 11:04:17 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 34 ⬇  | 🦫 beaver          | 44.84         | vaiastol                  | 2024-10-19 16:31:30 | ![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)     |
 | 35    | 🐧 penguin         | 41.98         | mangos4u                  | 2024-12-27 00:40:18 | ![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)             |
 | 36    | 🦀 crab            | 39.37         | huuuuuuuuuuuuuuuuuuuuuurz | 2025-03-31 19:21:43 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)             |
 | 37    | 🐡 blowfish        | 36.60         | huuuuuuuuuuuuuuuuuuuuuurz | 2025-10-09 05:13:02 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)             |
@@ -50,7 +50,7 @@
 | 46    | 🦠 plankton        | 22.00         | osnyatsky                 | 2024-01-03 09:00:25 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 47    | 🍄‍🟫 mushroom        | 21.97         | lluuuuucy                 | 2025-02-05 02:10:22 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 48    | 🧭 compass         | 21.26         | destin357                 | 2025-03-25 13:46:19 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
-| 49    | 🦦 otter           | 19.96 (+0.02) | blu_inx                   | 2026-01-24 08:49:59 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)           |
+| 49    | 🦦 otter           | 19.96         | blu_inx                   | 2026-01-24 08:49:59 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)           |
 | 50    | 🪱 worm            | 19.86         | bubinga                   | 2025-04-17 08:57:57 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)             |
 | 51    | 🦴 bone            | 19.39         | glorp_fishing             | 2025-08-30 19:11:07 | ![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)           |
 | 52    | 🍄 oceanplant      | 17.90         | skixxmm                   | 2024-10-31 17:30:00 | ![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)           |
@@ -129,4 +129,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-01-25 09:34:38 UTC_
+_Last updated at 2026-02-08 09:27:30 UTC_

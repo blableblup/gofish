@@ -58,4 +58,4 @@
 
 _Only showing fishers with a total weight of >= 500 lbs_
 
-_Last updated at 2026-02-01 09:20:29 UTC_
+_Last updated at 2026-02-08 09:28:59 UTC_

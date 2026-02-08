@@ -6,7 +6,7 @@
 | 2 🥈  | 🛢️ oildrum        | 55.49         | goopy777            | 2025-07-18 05:08:04 |
 | 3 🥉  | 🫎 moose          | 26.84         | rainedparade        | 2025-03-17 19:54:46 |
 | 4     | 🧟 deadbody       | 26.65         | jakthejanitor       | 2025-10-14 11:48:58 |
-| 5     | 🦕 sauropod       | 15.45 (-8.44) | jakthejanitor       | 2026-01-26 00:10:08 |
+| 5     | 🦕 sauropod       | 15.45         | jakthejanitor       | 2026-01-26 00:10:08 |
 | 6     | 🥒 seacucumber    | 14.55         | akasamoyed          | 2025-07-19 00:17:42 |
 | 7     | 🐉 dragon         | 10.94         | rainedparade        | 2025-05-25 01:21:35 |
 | 8     | 👒 hat            | 9.46          | rainedparade        | 2025-01-25 17:36:59 |
@@ -44,17 +44,17 @@
 | 40    | 🦠 plankton       | 0.58          | poioce              | 2025-02-15 11:24:31 |
 | 41    | 🪳 cockroach      | 0.57          | fadingmemoriez      | 2025-04-17 02:29:55 |
 | 42    | 🩰 balletshoes    | 0.52          | rainedparade        | 2025-01-25 04:09:12 |
-| 43    | 🐊 crocodile      | 0.48          | rainedparade        | 2025-06-27 18:07:07 |
-| 44    | 🦐 shrimp         | 0.47          | goopy777            | 2025-03-17 03:48:12 |
-| 44    | 🪱 worm           | 0.47          | jollygana           | 2025-03-03 06:16:18 |
-| 46    | 🐙 octopus        | 0.45          | rainedparade        | 2025-05-31 21:47:34 |
-| 47    | 🪶 feather        | 0.43          | jellyuh             | 2025-01-02 09:31:14 |
-| 48    | 🧽 sponge         | 0.42          | rainedparade        | 2025-05-14 23:03:07 |
-| 49    | 🫙 jar            | 0.40          | teeto               | 2025-08-30 18:26:46 |
-| 50    | 🦑 squid          | 0.39          | goopy777            | 2025-01-31 00:48:21 |
-| 51    | 🪀 bobber         | 0.35          | miyabwah            | 2025-01-28 00:17:58 |
-| 52    | 🍄‍🟫 mushroom       | 0.32          | miyabwah            | 2025-02-04 03:28:39 |
-| 53    | 🦎 lizard         | 0.28          | poioce              | 2025-03-21 08:54:20 |
+| 43 ⬆  | 🦐 shrimp         | 0.47          | goopy777            | 2025-03-17 03:48:12 |
+| 43 ⬆  | 🪱 worm           | 0.47          | jollygana           | 2025-03-03 06:16:18 |
+| 45 ⬆  | 🐙 octopus        | 0.45          | rainedparade        | 2025-05-31 21:47:34 |
+| 46 ⬆  | 🪶 feather        | 0.43          | jellyuh             | 2025-01-02 09:31:14 |
+| 47 ⬆  | 🧽 sponge         | 0.42          | rainedparade        | 2025-05-14 23:03:07 |
+| 48 ⬆  | 🫙 jar            | 0.40          | teeto               | 2025-08-30 18:26:46 |
+| 49 ⬆  | 🦑 squid          | 0.39          | goopy777            | 2025-01-31 00:48:21 |
+| 50 ⬆  | 🪀 bobber         | 0.35          | miyabwah            | 2025-01-28 00:17:58 |
+| 51 ⬆  | 🍄‍🟫 mushroom       | 0.32          | miyabwah            | 2025-02-04 03:28:39 |
+| 52 ⬇  | 🐊 crocodile      | 0.28 (-0.20)  | goopy777            | 2026-02-01 23:30:47 |
+| 52 ⬆  | 🦎 lizard         | 0.28          | poioce              | 2025-03-21 08:54:20 |
 | 54    | 🕷️ spider         | 0.24          | cptblack_           | 2025-07-21 03:04:53 |
 | 55    | 🐍 snake          | 0.23          | rainedparade        | 2025-03-17 17:09:44 |
 | 56    | 👢 boot           | 0.20          | cptblack_           | 2025-02-05 05:52:59 |
@@ -84,4 +84,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-02-01 09:22:09 UTC_
+_Last updated at 2026-02-08 09:26:48 UTC_
