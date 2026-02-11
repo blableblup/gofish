@@ -6,16 +6,17 @@
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 1,
 		"bronze": 2,
-		"rank": 33
+		"rank": 34
 	},
 	"112": {
 		"player": "ytp_dl",
 		"playerid": 112,
-		"weight": 3.5,
+		"weight": 8,
 		"date": "0001-01-01T00:00:00Z",
-		"silver": 2,
-		"bronze": 3,
-		"rank": 35
+		"trophies": 1,
+		"silver": 3,
+		"bronze": 4,
+		"rank": 27
 	},
 	"12": {
 		"player": "bussinongnocap",
@@ -24,7 +25,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"silver": 1,
 		"bronze": 2,
-		"rank": 42
+		"rank": 43
 	},
 	"1212": {
 		"player": "larvaew",
@@ -43,7 +44,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"silver": 2,
 		"bronze": 5,
-		"rank": 31
+		"rank": 32
 	},
 	"126": {
 		"player": "derinturitierutz",
@@ -61,7 +62,7 @@
 		"weight": 6,
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 2,
-		"rank": 28
+		"rank": 29
 	},
 	"128": {
 		"player": "mochi_uygqzidbjizjkbehuiw",
@@ -162,10 +163,10 @@
 	"21": {
 		"player": "lluuuuucy",
 		"playerid": 21,
-		"weight": 212,
+		"weight": 213,
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 39,
-		"silver": 75,
+		"silver": 76,
 		"bronze": 40,
 		"rank": 1
 	},
@@ -185,7 +186,7 @@
 		"trophies": 1,
 		"silver": 1,
 		"bronze": 7,
-		"rank": 27
+		"rank": 28
 	},
 	"2373": {
 		"player": "hansworthelias",
@@ -216,19 +217,19 @@
 	"26": {
 		"player": "breadworms",
 		"playerid": 26,
-		"weight": 2,
+		"weight": 2.5,
 		"date": "0001-01-01T00:00:00Z",
-		"bronze": 4,
-		"rank": 42
+		"bronze": 5,
+		"rank": 40
 	},
 	"2701": {
 		"player": "osnyisdead",
 		"playerid": 2701,
-		"weight": 209.5,
+		"weight": 210,
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 53,
 		"silver": 42,
-		"bronze": 17,
+		"bronze": 18,
 		"rank": 2
 	},
 	"2838": {
@@ -249,7 +250,7 @@
 		"trophies": 1,
 		"silver": 1,
 		"bronze": 1,
-		"rank": 31
+		"rank": 32
 	},
 	"2889": {
 		"player": "receipts",
@@ -258,7 +259,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"silver": 2,
 		"bronze": 2,
-		"rank": 37
+		"rank": 38
 	},
 	"29": {
 		"player": "booty_bread",
@@ -277,7 +278,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 1,
 		"silver": 1,
-		"rank": 33
+		"rank": 34
 	},
 	"3529": {
 		"player": "gstaman911",
@@ -302,9 +303,9 @@
 	"3551": {
 		"player": "esvelles",
 		"playerid": 3551,
-		"weight": 23.5,
+		"weight": 29.5,
 		"date": "0001-01-01T00:00:00Z",
-		"trophies": 6,
+		"trophies": 8,
 		"silver": 4,
 		"bronze": 3,
 		"rank": 17
@@ -330,11 +331,11 @@
 	"3937": {
 		"player": "notomji",
 		"playerid": 3937,
-		"weight": 3,
+		"weight": 4,
 		"date": "0001-01-01T00:00:00Z",
-		"silver": 2,
+		"silver": 3,
 		"bronze": 2,
-		"rank": 37
+		"rank": 34
 	},
 	"3951": {
 		"player": "comiiiiiq",
@@ -342,7 +343,7 @@
 		"weight": 6,
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 2,
-		"rank": 28
+		"rank": 29
 	},
 	"3984": {
 		"player": "pinksynthesis28",
@@ -398,7 +399,7 @@
 		"weight": 3,
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 1,
-		"rank": 37
+		"rank": 38
 	},
 	"58": {
 		"player": "qu4ttromila",
@@ -427,7 +428,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 1,
 		"silver": 2,
-		"rank": 30
+		"rank": 31
 	},
 	"686": {
 		"player": "jr_mime",
@@ -472,6 +473,6 @@
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 1,
 		"bronze": 1,
-		"rank": 35
+		"rank": 37
 	}
 }
