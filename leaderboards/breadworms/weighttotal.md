@@ -2,58 +2,58 @@
 
 | Rank  | Player                  | Total Weight in lbs |
 |:------|:------------------------|:--------------------|
-| 1 🥇  | lluuuuucy               | 93466.53 (+315.10)  |
+| 1 🥇  | lluuuuucy               | 95032.69 (+1566.16) |
 | 2 🥈  | osnyatsky*              | 91106.82            |
 | 3 🥉  | puzzlow                 | 78733.57            |
 | 4     | sicklymaidrobot         | 76674.96            |
-| 5     | osnyisdead              | 72580.08 (+353.65)  |
-| 6     | qu4ttromila             | 68814.59 (+289.87)  |
+| 5     | osnyisdead              | 73327.81 (+747.73)  |
+| 6     | qu4ttromila             | 69084.18 (+269.59)  |
 | 7     | leanmeister             | 67760.79            |
-| 8     | miiiiisho               | 62616.81            |
+| 8     | miiiiisho               | 62635.10 (+18.29)   |
 | 9     | destin357               | 59748.16            |
 | 10    | dazedforevermore        | 57246.65            |
 | 11    | derinturitierutz        | 57131.73            |
 | 12    | kishma9                 | 54524.46            |
 | 13    | sussy_amonge            | 52098.34            |
-| 14    | booty_bread             | 42140.65 (+37.31)   |
-| 15    | derintu                 | 33908.27 (+200.36)  |
+| 14    | booty_bread             | 42144.65 (+4.00)    |
+| 15    | derintu                 | 33997.55 (+89.28)   |
 | 16    | ninjaross*              | 32171.42            |
-| 17    | fishingalt              | 30850.92 (+88.38)   |
-| 18    | dougiefresh_83*         | 24439.39 (+176.03)  |
-| 19    | comiqq                  | 20900.39            |
-| 20    | cimgu                   | 20540.81 (+190.84)  |
+| 17    | fishingalt              | 30861.24 (+10.32)   |
+| 18    | dougiefresh_83*         | 24726.56 (+287.17)  |
+| 19 ⬆  | cimgu                   | 20923.77 (+382.96)  |
+| 20 ⬇  | comiqq                  | 20900.39            |
 | 21    | paras220                | 20261.98            |
-| 22 ⬆  | larvaew                 | 19231.41 (+272.40)  |
-| 23 ⬇  | ryebreadward            | 19103.99            |
+| 22    | larvaew                 | 19231.41            |
+| 23    | ryebreadward            | 19103.99            |
 | 24    | crazytown_bananapants   | 18176.45            |
-| 25 ⬆  | ytp_dl*                 | 16818.55 (+874.96)  |
-| 26    | gstaman911              | 16422.58 (+74.81)   |
-| 27 ⬇  | bussinongnocap          | 16404.64            |
+| 25    | ytp_dl*                 | 17788.91 (+970.36)  |
+| 26    | gstaman911              | 16444.53 (+21.95)   |
+| 27    | bussinongnocap          | 16404.64            |
 | 28    | respirate_              | 14595.42            |
 | 29    | julialuxel              | 14122.69            |
 | 30    | xth49*                  | 13595.84            |
 | 31    | trident1011             | 13141.95            |
 | 32    | xz_xz                   | 12457.40            |
 | 33    | islcfc*                 | 12393.14            |
-| 34 ⬆  | breadworms              | 11931.96 (+209.38)  |
-| 35 ⬇  | kaasppeerr              | 11754.04            |
-| 36    | idini                   | 11005.74            |
-| 37 ⬆  | esvelles                | 9790.90 (+1250.48)  |
-| 38 ⬇  | mitgliederversammlung   | 9718.17             |
-| 39 ⬇  | lazuli672*              | 8789.78             |
+| 34    | breadworms              | 11931.96            |
+| 35    | kaasppeerr              | 11754.04            |
+| 36 ⬆  | esvelles                | 11038.51 (+1247.61) |
+| 37 ⬇  | idini                   | 11005.74            |
+| 38    | mitgliederversammlung   | 9718.17             |
+| 39    | lazuli672*              | 8789.78             |
 | 40    | osnyatsky*              | 7723.42             |
-| 41    | doublehelicalstructure* | 7283.59             |
-| 42    | wcd0                    | 7006.64             |
+| 41 ⬆  | wcd0                    | 7301.10 (+294.46)   |
+| 42 ⬇  | doublehelicalstructure* | 7283.59             |
 | 43    | wisco9ers*              | 6585.86             |
 | 44    | gawblemachine           | 6380.65             |
 | 45    | ouacewi                 | 6173.19             |
 | 46    | fvkdylan                | 6166.82             |
 | 47    | realtechnine            | 6015.30             |
-| 48    | divra__                 | 5760.49             |
-| 49 ⬆  | notomji                 | 5666.86 (+187.23)   |
-| 50 ⬇  | bapqo                   | 5534.16             |
+| 48 ⬆  | kikyomushi              | 5996.47 (+329.61)   |
+| 49 ⬇  | divra__                 | 5760.49             |
+| 50    | bapqo                   | 5534.16             |
 | 51    | houseofleaves*          | 5099.36             |
-| 52    | pinksynthesis28         | 5000.89 (+0.87)     |
+| 52    | pinksynthesis28         | 5000.89             |
 | 53    | suavvvvv                | 4869.32             |
 | 54    | crinche*                | 4596.29             |
 | 55    | elisworm                | 4547.39             |
@@ -77,4 +77,4 @@
 
 _Only showing fishers with a total weight of >= 1800 lbs_
 
-_Last updated at 2026-02-08 09:29:00 UTC_
+_Last updated at 2026-02-15 10:04:17 UTC_

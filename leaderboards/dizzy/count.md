@@ -13,13 +13,13 @@
 | 9     | konsminator    | 326         |
 | 10    | vagdy          | 254         |
 | 11    | rabituwu       | 243         |
-| 12    | notnownico     | 232         |
+| 12    | notnownico     | 233 (+1)    |
 | 13    | hamoodhabibee  | 210         |
 | 14    | simplydrack    | 183         |
 | 15    | ssenario       | 171         |
 | 16    | tairaaaaa      | 170         |
 | 17    | mousee93       | 167         |
-| 18    | kyonuwu        | 147 (+1)    |
+| 18    | kyonuwu        | 147         |
 | 19    | sugur          | 138         |
 | 20    | exo9*          | 136         |
 | 21    | burnend        | 133         |
@@ -56,4 +56,4 @@
 
 _Only showing fishers who caught >= 30 fish_
 
-_Last updated at 2026-01-11 10:24:32 UTC_
+_Last updated at 2026-02-15 10:02:29 UTC_

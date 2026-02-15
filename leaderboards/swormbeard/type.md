@@ -10,7 +10,7 @@
 | 6     | 🦈 shark          | 188.18         | lluuuuucy        | 2026-01-31 22:52:23 |
 | 7     | 🐋 whale          | 140.34         | respirate_       | 2024-09-08 18:56:18 |
 | 8     | 🐊 crocodile      | 136.84         | lluuuuucy        | 2025-12-05 18:07:42 |
-| 9     | 🦭 seal           | 121.75 (+2.80) | lluuuuucy        | 2026-02-06 02:36:27 |
+| 9     | 🦭 seal           | 121.75         | lluuuuucy        | 2026-02-06 02:36:27 |
 | 10    | 🐬 dolphin        | 101.18         | gawblemachine    | 2024-08-07 17:37:10 |
 | 11    | 🐢 turtle         | 98.61          | derintu          | 2025-10-01 15:10:47 |
 | 12    | 🐙 octopus        | 77.19          | respirate_       | 2024-08-23 18:20:38 |
@@ -23,15 +23,15 @@
 | 19    | 🐡 blowfish       | 32.43          | dazedforevermore | 2024-08-02 18:20:24 |
 | 20    | 🦐 shrimp         | 31.35          | leanmeister      | 2024-11-27 20:25:23 |
 | 21    | 🕷️ spider         | 23.80          | pinksynthesis28  | 2026-01-16 17:19:47 |
-| 22    | 🐠 tropicalfish   | 18.72          | derintu          | 2025-03-16 22:33:02 |
-| 23    | 🍄‍🟫 mushroom       | 18.54          | derintu          | 2025-03-15 19:24:59 |
-| 24    | 🦦 otter          | 14.70          | leanmeister      | 2024-11-23 20:16:01 |
-| 25    | 🪸 coral          | 14.47          | respirate_       | 2024-09-01 18:32:43 |
-| 26    | 🧽 sponge         | 13.63          | wcd0             | 2025-11-07 00:53:25 |
-| 27    | 🧃 beveragebox    | 11.89          | dazedforevermore | 2024-08-04 17:56:24 |
-| 28    | 🕶️ darksunglasses | 11.39          | respirate_       | 2024-07-29 07:01:49 |
-| 29    | 🪺 nestwitheggs   | 10.58          | dazedforevermore | 2024-10-14 19:42:06 |
-| 30    | 🪳 cockroach      | 8.13           | elisworm         | 2025-11-19 08:48:20 |
+| 22 ⬆  | 🪳 cockroach      | 20.53 (+12.40) | pinksynthesis28  | 2026-02-14 08:06:27 |
+| 23 ⬇  | 🐠 tropicalfish   | 18.72          | derintu          | 2025-03-16 22:33:02 |
+| 24 ⬇  | 🍄‍🟫 mushroom       | 18.54          | derintu          | 2025-03-15 19:24:59 |
+| 25 ⬇  | 🦦 otter          | 14.70          | leanmeister      | 2024-11-23 20:16:01 |
+| 26 ⬇  | 🪸 coral          | 14.47          | respirate_       | 2024-09-01 18:32:43 |
+| 27 ⬇  | 🧽 sponge         | 13.63          | wcd0             | 2025-11-07 00:53:25 |
+| 28 ⬇  | 🧃 beveragebox    | 11.89          | dazedforevermore | 2024-08-04 17:56:24 |
+| 29 ⬇  | 🕶️ darksunglasses | 11.39          | respirate_       | 2024-07-29 07:01:49 |
+| 30 ⬇  | 🪺 nestwitheggs   | 10.58          | dazedforevermore | 2024-10-14 19:42:06 |
 | 31    | 🦎 lizard         | 7.92           | derintu          | 2025-10-17 18:26:30 |
 | 32    | 🐌 snail          | 7.79           | respirate_       | 2024-08-24 06:22:05 |
 | 33    | 💀 skull          | 7.63           | elisworm         | 2025-11-19 09:22:37 |
@@ -75,4 +75,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-02-08 09:28:42 UTC_
+_Last updated at 2026-02-15 10:02:35 UTC_

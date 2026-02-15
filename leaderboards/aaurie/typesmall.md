@@ -38,11 +38,11 @@
 | 34    | 🧊 icecube        | 1.45          | bluezebra17        | 2025-11-29 07:49:36 |
 | 35    | 🦆 duck           | 1.42          | herbemoji          | 2025-03-13 04:34:56 |
 | 36    | 🐢 turtle         | 1.11          | guy_farting420     | 2025-03-14 02:22:46 |
-| 37    | 🐍 snake          | 0.91          | slimdoggiedog      | 2025-03-28 04:43:35 |
-| 38    | 🍁 leaf           | 0.82          | mademooselle       | 2025-10-06 07:00:34 |
-| 39    | 🎱 8ball          | 0.66          | nalls              | 2025-03-28 01:16:07 |
-| 39    | 🦞 lobster        | 0.66          | mavv1s             | 2025-05-27 06:17:00 |
-| 41    | 🌻 sunflower      | 0.55          | aaurie             | 2025-06-09 01:41:18 |
+| 37 ⬆  | 🍁 leaf           | 0.82          | mademooselle       | 2025-10-06 07:00:34 |
+| 38 ⬆  | 🎱 8ball          | 0.66          | nalls              | 2025-03-28 01:16:07 |
+| 38 ⬆  | 🦞 lobster        | 0.66          | mavv1s             | 2025-05-27 06:17:00 |
+| 40 ⬆  | 🌻 sunflower      | 0.55          | aaurie             | 2025-06-09 01:41:18 |
+| 41 ⬇  | 🐍 snake          | 0.54 (-0.37)  | aaurie             | 2026-02-11 02:41:46 |
 | 42    | 🥒 seacucumber    | 0.51          | preemalone         | 2025-05-09 02:55:03 |
 | 43    | 🦎 lizard         | 0.45          | slimdoggiedog      | 2025-04-19 04:53:59 |
 | 43    | 🦐 shrimp         | 0.45          | boogie310_         | 2025-04-01 00:18:42 |
@@ -59,15 +59,15 @@
 | 55    | 🧽 sponge         | 0.16          | allspice_boatrace  | 2025-06-23 02:54:57 |
 | 56    | 🪳 cockroach      | 0.14          | 21mtd              | 2025-05-23 06:12:47 |
 | 57    | 🩴 thongsandal    | 0.13          | victorvondoom313   | 2025-06-23 02:10:17 |
-| 58 ⬆  | 🥫 cannedfood     | 0.11          | allspice_boatrace  | 2025-03-29 02:36:56 |
-| 59 ⬆  | 🐌 snail          | 0.06          | aaurie             | 2025-03-24 06:30:10 |
-| 59 ⬆  | 🌷 tulip          | 0.06          | aaurie             | 2025-04-14 04:00:42 |
-| 61 ⬆  | 🌿 seaweed        | 0.05          | darkbingus         | 2025-03-15 09:31:15 |
-| 61 ⬆  | 🧦 socks          | 0.05          | yourdadscameraroll | 2025-04-21 06:31:34 |
-| 63 ⬆  | 🧵 wireline       | 0.04          | nalls              | 2025-03-22 04:41:42 |
-| 64 ⬇  | 👢 boot           | 0.02 (-0.10)  | amatusz            | 2026-02-02 03:31:51 |
-| 64 ⬆  | 🪶 feather        | 0.02          | bluezebra17        | 2025-08-04 03:34:08 |
-| 64 ⬆  | 💀 skull          | 0.02          | wildturky82        | 2025-10-14 03:42:07 |
+| 58    | 🥫 cannedfood     | 0.11          | allspice_boatrace  | 2025-03-29 02:36:56 |
+| 59    | 🐌 snail          | 0.06          | aaurie             | 2025-03-24 06:30:10 |
+| 59    | 🌷 tulip          | 0.06          | aaurie             | 2025-04-14 04:00:42 |
+| 61    | 🌿 seaweed        | 0.05          | darkbingus         | 2025-03-15 09:31:15 |
+| 61    | 🧦 socks          | 0.05          | yourdadscameraroll | 2025-04-21 06:31:34 |
+| 63    | 🧵 wireline       | 0.04          | nalls              | 2025-03-22 04:41:42 |
+| 64    | 👢 boot           | 0.02          | amatusz            | 2026-02-02 03:31:51 |
+| 64    | 🪶 feather        | 0.02          | bluezebra17        | 2025-08-04 03:34:08 |
+| 64    | 💀 skull          | 0.02          | wildturky82        | 2025-10-14 03:42:07 |
 | 67    | 🌰 acorn          | 0.01          | aaurie             | 2025-10-04 06:13:57 |
 | 67    | 🦀 crab           | 0.01          | jeffbethyname69    | 2025-05-12 05:03:42 |
 | 67    | 🪝 hook           | 0.01          | mademooselle       | 2025-03-11 00:06:05 |
@@ -77,4 +77,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-02-08 09:26:39 UTC_
+_Last updated at 2026-02-15 10:01:58 UTC_

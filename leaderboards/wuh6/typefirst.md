@@ -58,13 +58,13 @@
 | 75   | 🌰 acorn           | 0.00          | jr_mime                   | 2024-12-28 15:37:56 |
 | 74   | 🪿 goose           | 1.30          | eeziiii                   | 2024-12-26 04:27:20 |
 | 73   | ✉️ letter          | 0.00          | huuuuuuuuuuuuuuuuuuuuuurz | 2024-12-24 12:05:46 |
-| 71   | 🎀 wrappingpaper   | 0.00          | eeziiii                   | 2024-12-24 10:31:21 |
 | 71   | 🍪 cookie          | 0.00          | eeziiii                   | 2024-12-24 10:31:21 |
+| 71   | 🎀 wrappingpaper   | 0.00          | eeziiii                   | 2024-12-24 10:31:21 |
 | 70   | 🎁 present         | 0.00          | eeziiii                   | 2024-12-24 10:27:17 |
 | 69   | 🧣 scarf           | 0.65          | ocrw                      | 2024-12-23 20:39:13 |
 | 68   | 🐧 penguin         | 15.79         | mazzo_tv                  | 2024-12-23 19:19:06 |
 | 67   | ⛸️ iceskate        | 1.07          | wowitsdub                 | 2024-12-23 17:31:49 |
-| 66   | 🧭 compass         | 1.09          | avhsty                    | 2024-12-23 16:27:50 |
+| 66   | 🧭 compass         | 1.09          | crtted                    | 2024-12-23 16:27:50 |
 | 65   | 🐻‍❄ polarbear       | 0.65          | bubinga                   | 2024-12-23 15:40:15 |
 | 64   | 🐀 rat             | 30.71         | jr_mime                   | 2024-12-23 14:09:01 |
 | 63   | 🐿️ squirrel        | 0.00          | lobuhtomy                 | 2024-12-21 20:01:28 |
@@ -93,7 +93,7 @@
 | 40   | 🐡 blowfish        | 10.92         | ratot                     | 2024-12-15 13:26:57 |
 | 39   | 🍬 candy           | 0.00          | bubinga                   | 2024-12-15 12:33:04 |
 | 38   | 🪱 worm            | 0.06          | huuuuuuuuuuuuuuuuuuuuuurz | 2024-12-15 10:50:19 |
-| 37   | 🍄 oceanplant      | 9.60          | avhsty                    | 2024-12-15 10:13:32 |
+| 37   | 🍄 oceanplant      | 9.60          | crtted                    | 2024-12-15 10:13:32 |
 | 36   | 🥪 sandwich        | 1.34          | theevirus                 | 2024-12-15 04:54:07 |
 | 35   | 🦭 seal            | 47.76         | nndiana                   | 2024-12-15 04:16:02 |
 | 34   | 👒 hat             | 11.04         | finalmorningstar          | 2024-12-15 02:23:05 |
@@ -131,4 +131,4 @@
 | 2    | 🪝 hook            | 1.91          | commanda_u                | 2024-12-14 15:55:38 |
 | 1    | 🐚 shell           | 3.49          | jukkii                    | 2024-12-14 15:55:11 |
 
-_Last updated at 2026-01-18 09:37:59 UTC_
+_Last updated at 2026-02-15 10:02:31 UTC_
