@@ -14,6 +14,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2025/4"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/1"
 				}
 			],
 			"checkfdata": true,
@@ -29,6 +33,10 @@
 				{
 					"url": "https://logs.spanix.team",
 					"logs_added": "2025/7"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/1"
 				}
 			],
 			"fishweek_limit": 10,
@@ -65,6 +73,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2025/6"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "no logs added found"
 				}
 			],
 			"fishweek_limit": 10,
@@ -89,6 +101,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2025/1"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/1"
 				}
 			],
 			"fishweek_limit": 10,
@@ -113,6 +129,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "no logs added found"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/2"
 				}
 			],
 			"checkfdata": true,
@@ -149,6 +169,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2024/3"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/1"
 				}
 			],
 			"weighttotal_limit": 1800,
@@ -161,6 +185,10 @@
 				{
 					"url": "https://logs.potat.app",
 					"logs_added": "2025/12"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/1"
 				}
 			],
 			"checkfdata": true,
@@ -181,6 +209,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2025/3"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "no logs added found"
 				}
 			],
 			"fishweek_limit": 10,
@@ -205,6 +237,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2025/3"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/2"
 				}
 			],
 			"fishweek_limit": 10,
@@ -221,6 +257,10 @@
 				{
 					"url": "https://logs.potat.app",
 					"logs_added": "2026/1"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/2"
 				}
 			],
 			"checkfdata": true,
@@ -268,6 +308,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2025/5"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "no logs added found"
 				}
 			],
 			"fishweek_limit": 10,
@@ -300,6 +344,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2025/6"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "no logs added found"
 				}
 			],
 			"checkfdata": true,
@@ -327,6 +375,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2024/10"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/1"
 				}
 			],
 			"fishweek_limit": 20,
@@ -355,6 +407,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2025/3"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/1"
 				}
 			],
 			"fishweek_limit": 10,
@@ -367,7 +423,13 @@
 		},
 		"esellaaa": {
 			"twitchid": "540703987",
-			"checkfdata": false,
+			"logs_instances": [
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/2"
+				}
+			],
+			"checkfdata": true,
 			"board_enabled": false
 		},
 		"everythingevelynnn": {
@@ -375,6 +437,10 @@
 			"logs_instances": [
 				{
 					"url": "https://logs.potat.app",
+					"logs_added": "2026/1"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
 					"logs_added": "2026/1"
 				}
 			],
@@ -390,6 +456,10 @@
 				},
 				{
 					"url": "https://logxx.dev",
+					"logs_added": "no logs added found"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
 					"logs_added": "no logs added found"
 				}
 			],
@@ -415,6 +485,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2025/10"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "no logs added found"
 				}
 			],
 			"checkfdata": true,
@@ -434,6 +508,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2025/3"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/1"
 				}
 			],
 			"fishweek_limit": 10,
@@ -462,6 +540,10 @@
 				{
 					"url": "https://logs.tlosdev.com",
 					"logs_added": "2026/1"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "no logs added found"
 				}
 			],
 			"fishweek_limit": 10,
@@ -489,6 +571,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2025/6"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "no logs added found"
 				}
 			],
 			"checkfdata": true,
@@ -508,6 +594,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2025/6"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "no logs added found"
 				}
 			],
 			"checkfdata": true,
@@ -527,6 +617,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2025/6"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "no logs added found"
 				}
 			],
 			"checkfdata": true,
@@ -541,6 +635,10 @@
 				},
 				{
 					"url": "https://logxx.dev",
+					"logs_added": "no logs added found"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
 					"logs_added": "no logs added found"
 				}
 			],
@@ -569,6 +667,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2025/9"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "no logs added found"
 				}
 			],
 			"checkfdata": true,
@@ -592,6 +694,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2025/6"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/1"
 				}
 			],
 			"fishweek_limit": 10,
@@ -627,6 +733,10 @@
 				{
 					"url": "https://logs.mrchuw.com.br",
 					"logs_added": "2024/7"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "no logs added found"
 				}
 			],
 			"checkfdata": true,
@@ -646,6 +756,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2025/6"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/1"
 				}
 			],
 			"checkfdata": true,
@@ -665,6 +779,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2025/3"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/1"
 				}
 			],
 			"fishweek_limit": 10,
@@ -703,6 +821,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2025/6"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "no logs added found"
 				}
 			],
 			"checkfdata": true,
@@ -718,6 +840,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2025/6"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "no logs added found"
 				}
 			],
 			"fishweek_limit": 10,
@@ -754,6 +880,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2024/3"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/1"
 				}
 			],
 			"weighttotal_limit": 1800,
@@ -773,6 +903,10 @@
 				},
 				{
 					"url": "https://logxx.dev",
+					"logs_added": "no logs added found"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
 					"logs_added": "no logs added found"
 				}
 			],
@@ -805,6 +939,10 @@
 				{
 					"url": "https://logs.tlosdev.com",
 					"logs_added": "2026/1"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "no logs added found"
 				}
 			],
 			"fishweek_limit": 10,
@@ -824,6 +962,10 @@
 				},
 				{
 					"url": "https://logxx.dev",
+					"logs_added": "no logs added found"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
 					"logs_added": "no logs added found"
 				}
 			],
@@ -848,6 +990,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2025/6"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "no logs added found"
 				}
 			],
 			"checkfdata": true,
@@ -867,6 +1013,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2025/3"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/1"
 				}
 			],
 			"fishweek_limit": 10,
@@ -891,6 +1041,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2025/3"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "no logs added found"
 				}
 			],
 			"checkfdata": true,
@@ -906,6 +1060,10 @@
 				{
 					"url": "https://logs.spanix.team",
 					"logs_added": "2025/2"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/1"
 				}
 			],
 			"fishweek_limit": 10,
@@ -929,6 +1087,10 @@
 				{
 					"url": "https://logs.susgee.dev",
 					"logs_added": "2025/12"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/1"
 				}
 			],
 			"checkfdata": true,
@@ -952,6 +1114,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2024/12"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/1"
 				}
 			],
 			"fishweek_limit": 10,
@@ -979,6 +1145,10 @@
 				{
 					"url": "https://logxx.dev",
 					"logs_added": "2025/3"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "no logs added found"
 				}
 			],
 			"fishweek_limit": 10,
@@ -998,6 +1168,10 @@
 				},
 				{
 					"url": "https://logs.spanix.team",
+					"logs_added": "no logs added found"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
 					"logs_added": "no logs added found"
 				}
 			],
@@ -1034,6 +1208,10 @@
 				},
 				{
 					"url": "https://logxx.dev",
+					"logs_added": "no logs added found"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
 					"logs_added": "no logs added found"
 				}
 			],
