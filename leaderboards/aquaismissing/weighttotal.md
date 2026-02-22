@@ -5,11 +5,11 @@
 | 1 🥇  | respirate_    | 1681.68             |
 | 2 🥈  | rustezzz      | 1405.01             |
 | 3 🥉  | elisworm      | 1310.16             |
-| 4     | bubinga       | 1304.32             |
+| 4     | bubinga       | 1305.03 (+0.71)     |
 | 5     | velantix*     | 801.23              |
 | 6     | poggu_        | 706.03              |
 | 7     | stofeyxd*     | 663.82              |
-| 8     | glorpiusbot   | 648.71              |
+| 8     | glorpiusbot   | 653.59 (+4.88)      |
 | 9     | aquaismissing | 605.19              |
 | 10    | desxyne       | 604.55              |
 | 11    | dom1torii     | 466.41              |
@@ -24,4 +24,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-02-15 10:04:18 UTC_
+_Last updated at 2026-02-22 10:24:35 UTC_

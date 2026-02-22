@@ -54,12 +54,12 @@
 | 50    | letter__n       | 🧦 socks        | 1.27          | 2025-06-20 11:52:46 |
 | 51    | naori_desu      | 🦀 crab         | 1.23          | 2025-06-01 00:01:44 |
 | 52    | lolgodnes       | 🎏 lure         | 1.20          | 2025-09-09 16:59:44 |
-| 53    | lunecker        | 🐚 shell        | 1.03          | 2025-09-09 03:19:33 |
+| 53    | luneckie        | 🐚 shell        | 1.03          | 2025-09-09 03:19:33 |
 | 54    | ellafy          | 🦀 crab         | 0.89          | 2025-07-11 09:10:57 |
 | 55    | gofishgamer     | 🦀 crab         | 0.87          | 2025-11-17 07:00:31 |
 | 56    | flummoxedfungus | 🌿 seaweed      | 0.85          | 2025-09-01 14:48:19 |
-| 57    | hopeless_bun    | 🪝 hook         | 0.68          | 2025-09-29 09:35:06 |
 | 57    | hopeless_bun    | 🎏 lure         | 0.68          | 2025-09-23 19:53:49 |
+| 57    | hopeless_bun    | 🪝 hook         | 0.68          | 2025-09-29 09:35:06 |
 | 57    | naori_desu      | 🐚 shell        | 0.68          | 2025-06-14 10:37:55 |
 | 60    | commanda_u      | 🐟 fish         | 0.67          | 2025-10-15 19:49:16 |
 | 61    | desidejro       | 🪝 hook         | 0.65          | 2025-11-01 11:50:34 |
@@ -72,4 +72,4 @@
 | 68    | aimuuwu         | 🎏 lure         | 0.04          | 2025-06-01 00:43:22 |
 | 69    | bubinga         | 🍬 candy        | 0.00          | 2025-08-09 07:12:21 |
 
-_Last updated at 2025-12-28 10:37:48 UTC_
+_Last updated at 2026-02-22 10:24:34 UTC_

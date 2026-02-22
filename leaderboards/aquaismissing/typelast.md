@@ -2,19 +2,19 @@
 
 | Rank | Fish            | Weight in lbs | Player           | Date in UTC         |
 |:-----|:----------------|:--------------|:-----------------|:--------------------|
-| 62   | 👢 boot         | 1.03          | kam3l_           | 2026-02-09 22:47:37 |
-| 61   | 🦎 lizard       | 5.84          | glorpiusbot      | 2026-02-06 18:06:10 |
-| 60   | 🐢 turtle       | 8.89          | glorpiusbot      | 2026-02-05 14:04:49 |
-| 59   | 🐟 fish         | 2.36          | glorpiusbot      | 2026-02-03 23:23:33 |
-| 58   | 🐍 snake        | 4.24          | glorpiusbot      | 2026-02-03 17:18:43 |
-| 57   | 🦫 beaver       | 40.70         | glorpiusbot      | 2026-01-31 04:38:00 |
-| 56   | 🪳 cockroach    | 24.51         | cute_ducc        | 2026-01-27 19:13:51 |
-| 55   | 🦐 shrimp       | 0.06          | glorpiusbot      | 2026-01-24 17:09:39 |
-| 54   | 🦦 otter        | 0.41          | cute_ducc        | 2026-01-14 19:12:18 |
-| 53   | 🧊 icecube      | 8.18          | aquaismissing    | 2026-01-14 01:35:09 |
-| 52   | ☘️ clover       | 2.30          | glorpiusbot      | 2026-01-08 18:24:46 |
-| 51   | 🧤 gloves       | 0.92          | kam3l_           | 2026-01-04 23:11:52 |
-| 50   | 🪝 hook         | 1.39          | bubinga          | 2026-01-02 20:53:22 |
+| 62   | 🪝 hook         | 0.71          | bubinga          | 2026-02-21 19:41:45 |
+| 61   | 🦎 lizard       | 4.88          | glorpiusbot      | 2026-02-21 19:31:20 |
+| 60   | 👢 boot         | 1.03          | kam3l_           | 2026-02-09 22:47:37 |
+| 59   | 🐢 turtle       | 8.89          | glorpiusbot      | 2026-02-05 14:04:49 |
+| 58   | 🐟 fish         | 2.36          | glorpiusbot      | 2026-02-03 23:23:33 |
+| 57   | 🐍 snake        | 4.24          | glorpiusbot      | 2026-02-03 17:18:43 |
+| 56   | 🦫 beaver       | 40.70         | glorpiusbot      | 2026-01-31 04:38:00 |
+| 55   | 🪳 cockroach    | 24.51         | cute_ducc        | 2026-01-27 19:13:51 |
+| 54   | 🦐 shrimp       | 0.06          | glorpiusbot      | 2026-01-24 17:09:39 |
+| 53   | 🦦 otter        | 0.41          | cute_ducc        | 2026-01-14 19:12:18 |
+| 52   | 🧊 icecube      | 8.18          | aquaismissing    | 2026-01-14 01:35:09 |
+| 51   | ☘️ clover       | 2.30          | glorpiusbot      | 2026-01-08 18:24:46 |
+| 50   | 🧤 gloves       | 0.92          | kam3l_           | 2026-01-04 23:11:52 |
 | 49   | 🦭 seal         | 73.65         | bubinga          | 2026-01-01 23:18:37 |
 | 48   | 🦠 plankton     | 2.49          | bubinga          | 2026-01-01 21:47:31 |
 | 47   | 🐬 dolphin      | 27.87         | bubinga          | 2026-01-01 20:27:44 |
@@ -65,4 +65,4 @@
 | 2    | 🧃 beveragebox  | 4.42          | aquaismissing    | 2025-06-04 09:00:50 |
 | 1    | 🩰 balletshoes  | 1.25          | delfino921       | 2025-02-22 23:48:09 |
 
-_Last updated at 2026-02-15 10:02:31 UTC_
+_Last updated at 2026-02-22 10:21:12 UTC_

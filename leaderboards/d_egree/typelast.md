@@ -2,40 +2,40 @@
 
 | Rank | Fish              | Weight in lbs | Player                | Date in UTC         |
 |:-----|:------------------|:--------------|:----------------------|:--------------------|
-| 68   | 🐟 fish           | 0.63          | kohrro                | 2025-12-16 15:23:01 |
-| 67   | 🐍 snake          | 5.33          | kohrro                | 2025-12-15 16:05:34 |
-| 66   | 🌰 acorn          | 0.00          | kohrro                | 2025-12-15 15:15:36 |
-| 65   | 🐢 turtle         | 52.01         | kohrro                | 2025-12-14 22:46:02 |
-| 64   | 🦎 lizard         | 1.85          | kohrro                | 2025-12-14 21:56:24 |
-| 63   | 📱 iphone         | 0.08          | kohrro                | 2025-12-13 18:31:15 |
-| 62   | 🪀 bobber         | 0.26          | kohrro                | 2025-12-13 16:55:26 |
-| 61   | 🕷️ spider         | 10.00         | kohrro                | 2025-12-13 15:24:36 |
-| 60   | 🦪 oyster         | 24.00         | kohrro                | 2025-12-12 17:48:21 |
-| 59   | 🦕 sauropod       | 160.09        | kohrro                | 2025-12-12 16:43:52 |
-| 58   | 🐳 bluewhale      | 164.44        | kohrro                | 2025-12-12 12:22:45 |
-| 57   | 🦐 shrimp         | 4.21          | kohrro                | 2025-12-12 11:49:13 |
-| 56   | 🧵 wireline       | 0.56          | kohrro                | 2025-12-12 01:46:38 |
-| 55   | 🎱 8ball          | 0.51          | kohrro                | 2025-12-12 01:14:17 |
-| 54   | 🐠 tropicalfish   | 4.54          | gofishgamer           | 2025-11-09 10:47:51 |
-| 53   | 🐸 frog           | 4.86          | elisworm              | 2025-11-09 07:55:30 |
-| 52   | 🐚 shell          | 1.48          | respirate_            | 2025-11-09 07:46:49 |
-| 51   | 🦑 squid          | 38.42         | elisworm              | 2025-11-09 07:20:11 |
-| 50   | 🪝 hook           | 1.04          | elisworm              | 2025-11-09 05:18:03 |
-| 49   | 🪳 cockroach      | 21.55         | respirate_            | 2025-11-09 05:07:03 |
-| 48   | 🥫 cannedfood     | 0.07          | elisworm              | 2025-11-09 04:31:16 |
-| 47   | 🦞 lobster        | 26.81         | gofishgamer           | 2025-11-09 02:39:29 |
-| 46   | 👢 boot           | 0.43          | elisworm              | 2025-11-09 02:35:13 |
-| 45   | 🦠 plankton       | 3.88          | respirate_            | 2025-11-09 00:13:17 |
-| 44   | 🪨 rock           | 36.06         | gofishgamer           | 2025-11-08 23:41:53 |
-| 43   | 🦈 shark          | 31.81         | gofishgamer           | 2025-11-08 22:43:18 |
-| 42   | 🪸 coral          | 9.74          | respirate_            | 2025-11-08 20:16:33 |
-| 41   | 🐋 whale          | 138.87        | respirate_            | 2025-11-08 19:24:00 |
-| 40   | 🐊 crocodile      | 26.11         | respirate_            | 2025-11-08 17:46:35 |
-| 39   | 🎏 lure           | 1.99          | elisworm              | 2025-11-08 16:13:34 |
-| 38   | 🍬 candy          | 0.00          | elisworm              | 2025-11-08 07:55:17 |
-| 37   | 🐡 blowfish       | 8.43          | gofishgamer           | 2025-11-08 07:28:49 |
-| 36   | 🦀 crab           | 1.66          | elisworm              | 2025-11-08 04:41:25 |
-| 35   | 🐙 octopus        | 58.47         | respirate_            | 2025-11-07 22:30:20 |
+| 68   | 🐙 octopus        | 29.75         | benni900              | 2026-02-20 17:08:56 |
+| 67   | 🐟 fish           | 0.63          | kohrro                | 2025-12-16 15:23:01 |
+| 66   | 🐍 snake          | 5.33          | kohrro                | 2025-12-15 16:05:34 |
+| 65   | 🌰 acorn          | 0.00          | kohrro                | 2025-12-15 15:15:36 |
+| 64   | 🐢 turtle         | 52.01         | kohrro                | 2025-12-14 22:46:02 |
+| 63   | 🦎 lizard         | 1.85          | kohrro                | 2025-12-14 21:56:24 |
+| 62   | 📱 iphone         | 0.08          | kohrro                | 2025-12-13 18:31:15 |
+| 61   | 🪀 bobber         | 0.26          | kohrro                | 2025-12-13 16:55:26 |
+| 60   | 🕷️ spider         | 10.00         | kohrro                | 2025-12-13 15:24:36 |
+| 59   | 🦪 oyster         | 24.00         | kohrro                | 2025-12-12 17:48:21 |
+| 58   | 🦕 sauropod       | 160.09        | kohrro                | 2025-12-12 16:43:52 |
+| 57   | 🐳 bluewhale      | 164.44        | kohrro                | 2025-12-12 12:22:45 |
+| 56   | 🦐 shrimp         | 4.21          | kohrro                | 2025-12-12 11:49:13 |
+| 55   | 🧵 wireline       | 0.56          | kohrro                | 2025-12-12 01:46:38 |
+| 54   | 🎱 8ball          | 0.51          | kohrro                | 2025-12-12 01:14:17 |
+| 53   | 🐠 tropicalfish   | 4.54          | gofishgamer           | 2025-11-09 10:47:51 |
+| 52   | 🐸 frog           | 4.86          | elisworm              | 2025-11-09 07:55:30 |
+| 51   | 🐚 shell          | 1.48          | respirate_            | 2025-11-09 07:46:49 |
+| 50   | 🦑 squid          | 38.42         | elisworm              | 2025-11-09 07:20:11 |
+| 49   | 🪝 hook           | 1.04          | elisworm              | 2025-11-09 05:18:03 |
+| 48   | 🪳 cockroach      | 21.55         | respirate_            | 2025-11-09 05:07:03 |
+| 47   | 🥫 cannedfood     | 0.07          | elisworm              | 2025-11-09 04:31:16 |
+| 46   | 🦞 lobster        | 26.81         | gofishgamer           | 2025-11-09 02:39:29 |
+| 45   | 👢 boot           | 0.43          | elisworm              | 2025-11-09 02:35:13 |
+| 44   | 🦠 plankton       | 3.88          | respirate_            | 2025-11-09 00:13:17 |
+| 43   | 🪨 rock           | 36.06         | gofishgamer           | 2025-11-08 23:41:53 |
+| 42   | 🦈 shark          | 31.81         | gofishgamer           | 2025-11-08 22:43:18 |
+| 41   | 🪸 coral          | 9.74          | respirate_            | 2025-11-08 20:16:33 |
+| 40   | 🐋 whale          | 138.87        | respirate_            | 2025-11-08 19:24:00 |
+| 39   | 🐊 crocodile      | 26.11         | respirate_            | 2025-11-08 17:46:35 |
+| 38   | 🎏 lure           | 1.99          | elisworm              | 2025-11-08 16:13:34 |
+| 37   | 🍬 candy          | 0.00          | elisworm              | 2025-11-08 07:55:17 |
+| 36   | 🐡 blowfish       | 8.43          | gofishgamer           | 2025-11-08 07:28:49 |
+| 35   | 🦀 crab           | 1.66          | elisworm              | 2025-11-08 04:41:25 |
 | 34   | 🦭 seal           | 76.48         | gofishgamer           | 2025-11-07 22:17:56 |
 | 33   | 🐬 dolphin        | 0.96          | respirate_            | 2025-11-07 04:15:03 |
 | 32   | 🍁 leaf           | 0.18          | gofishgamer           | 2025-11-05 18:11:18 |
@@ -71,4 +71,4 @@
 | 2    | 🩰 balletshoes    | 1.50          | islcfc                | 2023-12-07 21:39:35 |
 | 1    | 🧃 beveragebox    | 4.20          | ouacewi               | 2023-09-26 20:27:31 |
 
-_Last updated at 2026-01-11 10:24:33 UTC_
+_Last updated at 2026-02-22 10:21:12 UTC_

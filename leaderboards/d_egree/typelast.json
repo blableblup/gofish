@@ -11,7 +11,7 @@
 		"fishid": 221630,
 		"chatid": 635,
 		"date": "2025-12-12T01:14:17Z",
-		"rank": 55
+		"rank": 54
 	},
 	"acorn": {
 		"player": "kohrro",
@@ -24,7 +24,7 @@
 		"fishid": 223559,
 		"chatid": 649,
 		"date": "2025-12-15T15:15:36Z",
-		"rank": 66
+		"rank": 65
 	},
 	"balletshoes": {
 		"player": "islcfc",
@@ -81,7 +81,7 @@
 		"fishid": 214309,
 		"chatid": 581,
 		"date": "2025-11-08T07:28:49Z",
-		"rank": 37
+		"rank": 36
 	},
 	"bluewhale": {
 		"player": "kohrro",
@@ -95,7 +95,7 @@
 		"fishid": 221798,
 		"chatid": 638,
 		"date": "2025-12-12T12:22:45Z",
-		"rank": 58
+		"rank": 57
 	},
 	"bobber": {
 		"player": "kohrro",
@@ -109,7 +109,7 @@
 		"fishid": 222214,
 		"chatid": 642,
 		"date": "2025-12-13T16:55:26Z",
-		"rank": 62
+		"rank": 61
 	},
 	"boot": {
 		"player": "elisworm",
@@ -123,7 +123,7 @@
 		"fishid": 214498,
 		"chatid": 616,
 		"date": "2025-11-09T02:35:13Z",
-		"rank": 46
+		"rank": 45
 	},
 	"cactus": {
 		"player": "kohrro",
@@ -163,7 +163,7 @@
 		"fishid": 214318,
 		"chatid": 585,
 		"date": "2025-11-08T07:55:17Z",
-		"rank": 38
+		"rank": 37
 	},
 	"cannedfood": {
 		"player": "elisworm",
@@ -177,7 +177,7 @@
 		"fishid": 214511,
 		"chatid": 620,
 		"date": "2025-11-09T04:31:16Z",
-		"rank": 48
+		"rank": 47
 	},
 	"caterpillar": {
 		"player": "kohrro",
@@ -220,7 +220,7 @@
 		"fishid": 214514,
 		"chatid": 621,
 		"date": "2025-11-09T05:07:03Z",
-		"rank": 49
+		"rank": 48
 	},
 	"coral": {
 		"player": "respirate_",
@@ -234,7 +234,7 @@
 		"fishid": 214451,
 		"chatid": 604,
 		"date": "2025-11-08T20:16:33Z",
-		"rank": 42
+		"rank": 41
 	},
 	"crab": {
 		"player": "elisworm",
@@ -248,7 +248,7 @@
 		"fishid": 214296,
 		"chatid": 573,
 		"date": "2025-11-08T04:41:25Z",
-		"rank": 36
+		"rank": 35
 	},
 	"crocodile": {
 		"player": "respirate_",
@@ -262,7 +262,7 @@
 		"fishid": 214413,
 		"chatid": 601,
 		"date": "2025-11-08T17:46:35Z",
-		"rank": 40
+		"rank": 39
 	},
 	"dagger": {
 		"player": "kohrro",
@@ -360,7 +360,7 @@
 		"fishid": 223963,
 		"chatid": 653,
 		"date": "2025-12-16T15:23:01Z",
-		"rank": 68
+		"rank": 67
 	},
 	"frog": {
 		"player": "elisworm",
@@ -374,7 +374,7 @@
 		"fishid": 214535,
 		"chatid": 628,
 		"date": "2025-11-09T07:55:30Z",
-		"rank": 53
+		"rank": 52
 	},
 	"gloves": {
 		"player": "benni900",
@@ -402,7 +402,7 @@
 		"fishid": 214516,
 		"chatid": 623,
 		"date": "2025-11-09T05:18:03Z",
-		"rank": 50
+		"rank": 49
 	},
 	"icecube": {
 		"player": "benni900",
@@ -430,7 +430,7 @@
 		"fishid": 222249,
 		"chatid": 643,
 		"date": "2025-12-13T18:31:15Z",
-		"rank": 63
+		"rank": 62
 	},
 	"jar": {
 		"player": "kohrro",
@@ -486,7 +486,7 @@
 		"fishid": 223261,
 		"chatid": 646,
 		"date": "2025-12-14T21:56:24Z",
-		"rank": 64
+		"rank": 63
 	},
 	"lobster": {
 		"player": "gofishgamer",
@@ -500,7 +500,7 @@
 		"fishid": 214499,
 		"chatid": 617,
 		"date": "2025-11-09T02:39:29Z",
-		"rank": 47
+		"rank": 46
 	},
 	"log": {
 		"player": "kohrro",
@@ -528,7 +528,7 @@
 		"fishid": 214396,
 		"chatid": 599,
 		"date": "2025-11-08T16:13:34Z",
-		"rank": 39
+		"rank": 38
 	},
 	"mosquito": {
 		"player": "kohrro",
@@ -573,18 +573,18 @@
 		"rank": 17
 	},
 	"octopus": {
-		"player": "respirate_",
-		"playerid": 2525,
-		"weight": 58.47,
+		"player": "benni900",
+		"playerid": 228,
+		"weight": 29.75,
 		"bot": "gofishgame",
 		"fishtype": "🐙",
 		"fishname": "octopus",
 		"catchtype": "normal",
 		"chat": "d_egree",
-		"fishid": 214255,
-		"chatid": 562,
-		"date": "2025-11-07T22:30:20Z",
-		"rank": 35
+		"fishid": 242198,
+		"chatid": 654,
+		"date": "2026-02-20T17:08:56Z",
+		"rank": 68
 	},
 	"oyster": {
 		"player": "kohrro",
@@ -598,7 +598,7 @@
 		"fishid": 221857,
 		"chatid": 640,
 		"date": "2025-12-12T17:48:21Z",
-		"rank": 60
+		"rank": 59
 	},
 	"plankton": {
 		"player": "respirate_",
@@ -612,7 +612,7 @@
 		"fishid": 214490,
 		"chatid": 613,
 		"date": "2025-11-09T00:13:17Z",
-		"rank": 45
+		"rank": 44
 	},
 	"pumpkin": {
 		"player": "elisworm",
@@ -640,7 +640,7 @@
 		"fishid": 214486,
 		"chatid": 611,
 		"date": "2025-11-08T23:41:53Z",
-		"rank": 44
+		"rank": 43
 	},
 	"sauropod": {
 		"player": "kohrro",
@@ -654,7 +654,7 @@
 		"fishid": 221840,
 		"chatid": 639,
 		"date": "2025-12-12T16:43:52Z",
-		"rank": 59
+		"rank": 58
 	},
 	"seacucumber": {
 		"player": "kohrro",
@@ -710,7 +710,7 @@
 		"fishid": 214478,
 		"chatid": 609,
 		"date": "2025-11-08T22:43:18Z",
-		"rank": 43
+		"rank": 42
 	},
 	"shell": {
 		"player": "respirate_",
@@ -724,7 +724,7 @@
 		"fishid": 214534,
 		"chatid": 627,
 		"date": "2025-11-09T07:46:49Z",
-		"rank": 52
+		"rank": 51
 	},
 	"shrimp": {
 		"player": "kohrro",
@@ -738,7 +738,7 @@
 		"fishid": 221793,
 		"chatid": 637,
 		"date": "2025-12-12T11:49:13Z",
-		"rank": 57
+		"rank": 56
 	},
 	"skull": {
 		"player": "respirate_",
@@ -793,7 +793,7 @@
 		"fishid": 223581,
 		"chatid": 651,
 		"date": "2025-12-15T16:05:34Z",
-		"rank": 67
+		"rank": 66
 	},
 	"socks": {
 		"player": "kohrro",
@@ -821,7 +821,7 @@
 		"fishid": 222182,
 		"chatid": 641,
 		"date": "2025-12-13T15:24:36Z",
-		"rank": 61
+		"rank": 60
 	},
 	"spiderweb": {
 		"player": "gofishgamer",
@@ -849,7 +849,7 @@
 		"fishid": 214530,
 		"chatid": 625,
 		"date": "2025-11-09T07:20:11Z",
-		"rank": 51
+		"rank": 50
 	},
 	"tacklebox": {
 		"player": "elisworm",
@@ -891,7 +891,7 @@
 		"fishid": 214553,
 		"chatid": 630,
 		"date": "2025-11-09T10:47:51Z",
-		"rank": 54
+		"rank": 53
 	},
 	"turtle": {
 		"player": "kohrro",
@@ -905,7 +905,7 @@
 		"fishid": 223275,
 		"chatid": 647,
 		"date": "2025-12-14T22:46:02Z",
-		"rank": 65
+		"rank": 64
 	},
 	"umbrella": {
 		"player": "benni900",
@@ -933,7 +933,7 @@
 		"fishid": 214439,
 		"chatid": 603,
 		"date": "2025-11-08T19:24:00Z",
-		"rank": 41
+		"rank": 40
 	},
 	"wireline": {
 		"player": "kohrro",
@@ -947,6 +947,6 @@
 		"fishid": 221641,
 		"chatid": 636,
 		"date": "2025-12-12T01:46:38Z",
-		"rank": 56
+		"rank": 55
 	}
 }

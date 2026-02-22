@@ -7,30 +7,30 @@
 | 3 🥉  | mazzo_tv                  | 86        |
 | 4     | jayayseaohbee             | 82        |
 | 5     | huuuuuuuuuuuuuuuuuuuuuurz | 79        |
-| 6 ⬆   | bluberry                  | 71 (+1)   |
+| 6     | bluberry                  | 71        |
 | 6     | caprisen_*                | 71        |
 | 6     | jr_mime                   | 71        |
-| 9 ⬇   | sandwichsundays*          | 70        |
+| 9     | sandwichsundays*          | 70        |
 | 10    | zwockel01                 | 69        |
-| 11 ⬆  | feelsaceman               | 67 (+3)   |
+| 11    | feelsaceman               | 67        |
 | 11    | gorillapark               | 67        |
 | 11    | lobuhtomy                 | 67        |
 | 11    | pengeg                    | 67        |
-| 15 ⬇  | joshuabzz                 | 66        |
-| 15 ⬇  | llikotesnecil             | 66        |
-| 15 ⬇  | ratot                     | 66        |
-| 18 ⬇  | flunke_                   | 65        |
+| 15 ⬆  | flunke_                   | 66 (+1)   |
+| 15    | joshuabzz                 | 66        |
+| 15    | llikotesnecil             | 66        |
+| 15    | ratot                     | 66        |
 | 19    | divra__                   | 63        |
 | 19    | theevirus                 | 63        |
 | 21    | angus_lpc                 | 62        |
 | 21    | jemcs_                    | 62        |
 | 23    | commanda_u                | 61        |
-| 24    | lunecker                  | 60 (+2)   |
-| 25 ⬆  | blu_inx                   | 59 (+2)   |
-| 26 ⬇  | eeziiii                   | 58        |
-| 26 ⬇  | markenzy01                | 58        |
-| 26 ⬇  | veny2lbs                  | 58        |
-| 29 ⬇  | iflya320                  | 57        |
+| 24    | luneckie                  | 60        |
+| 25    | blu_inx                   | 59        |
+| 26    | eeziiii                   | 58        |
+| 26    | markenzy01                | 58        |
+| 26    | veny2lbs                  | 58        |
+| 29    | iflya320                  | 57        |
 | 30    | amu1g                     | 56        |
 | 30    | benciee                   | 56        |
 | 30    | creepycode*               | 56        |
@@ -44,13 +44,13 @@
 | 37    | popfizzgg                 | 52        |
 | 37    | velantix*                 | 52        |
 | 42    | qxxick_                   | 51        |
+| 42 ⬆  | rottarded                 | 51 (+1)   |
 | 42    | wisdom_frog               | 51        |
-| 44    | bartohehe                 | 50        |
-| 44    | rottarded                 | 50        |
-| 44    | seryxx                    | 50        |
+| 45 ⬇  | bartohehe                 | 50        |
+| 45 ⬇  | seryxx                    | 50        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-02-15 10:04:20 UTC_
+_Last updated at 2026-02-22 10:21:17 UTC_

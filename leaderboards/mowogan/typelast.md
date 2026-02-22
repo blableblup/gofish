@@ -2,27 +2,27 @@
 
 | Rank | Fish              | Weight in lbs | Player      | Date in UTC         |
 |:-----|:------------------|:--------------|:------------|:--------------------|
-| 77   | 🐙 octopus        | 1.60          | konsminator | 2026-02-14 17:43:15 |
-| 76   | 🐬 dolphin        | 81.31         | konsminator | 2026-02-14 15:53:41 |
-| 75   | 🦎 lizard         | 3.14          | lolspers    | 2026-02-14 14:33:54 |
-| 74   | 🐢 turtle         | 99.89         | lolspers    | 2026-02-14 08:06:19 |
-| 73   | 🦀 crab           | 1.04          | mowogan     | 2026-02-14 02:39:14 |
-| 72   | 🧊 icecube        | 9.05          | konsminator | 2026-02-13 17:54:50 |
-| 71   | 🦠 plankton       | 21.91         | konsminator | 2026-02-13 13:13:05 |
-| 70   | 🐟 fish           | 5.19          | konsminator | 2026-02-13 11:49:34 |
-| 69   | 🎏 lure           | 0.00          | lolspers    | 2026-02-12 22:46:59 |
-| 68   | 🪝 hook           | 0.00          | lolspers    | 2026-02-12 22:46:50 |
-| 67   | 🐊 crocodile      | 2.86          | mowogan     | 2026-02-12 21:47:28 |
-| 66   | 🐍 snake          | 6.76          | lolspers    | 2026-02-12 21:24:21 |
-| 65   | 🕷️ spider         | 10.37         | mowogan     | 2026-02-12 19:33:17 |
-| 64   | 🦞 lobster        | 60.72         | konsminator | 2026-02-12 19:12:16 |
-| 63   | 🦭 seal           | 1.89          | mowogan     | 2026-02-12 13:16:56 |
-| 62   | 🧸 teddybear      | 5.61          | konsminator | 2026-02-11 17:06:13 |
-| 61   | 🪱 worm           | 5.61          | konsminator | 2026-02-11 16:08:39 |
-| 60   | 🥫 cannedfood     | 1.71          | konsminator | 2026-02-11 10:31:45 |
-| 59   | ☘️ clover         | 2.66          | lolspers    | 2026-02-10 11:47:28 |
-| 58   | 🐚 shell          | 3.43          | konsminator | 2026-02-09 21:36:15 |
-| 57   | 🐋 whale          | 104.17        | konsminator | 2026-02-09 21:00:20 |
+| 77   | 🐟 fish           | 3.20          | mowogan     | 2026-02-21 22:01:17 |
+| 76   | 🦠 plankton       | 7.17          | konsminator | 2026-02-19 09:58:59 |
+| 75   | 🐋 whale          | 45.44         | konsminator | 2026-02-16 08:08:10 |
+| 74   | 🐬 dolphin        | 56.96         | konsminator | 2026-02-15 16:44:46 |
+| 73   | 🪝 hook           | 1.98          | konsminator | 2026-02-15 08:58:50 |
+| 72   | 🐙 octopus        | 1.60          | konsminator | 2026-02-14 17:43:15 |
+| 71   | 🦎 lizard         | 3.14          | lolspers    | 2026-02-14 14:33:54 |
+| 70   | 🐢 turtle         | 99.89         | lolspers    | 2026-02-14 08:06:19 |
+| 69   | 🦀 crab           | 1.04          | mowogan     | 2026-02-14 02:39:14 |
+| 68   | 🧊 icecube        | 9.05          | konsminator | 2026-02-13 17:54:50 |
+| 67   | 🎏 lure           | 0.00          | lolspers    | 2026-02-12 22:46:59 |
+| 66   | 🐊 crocodile      | 2.86          | mowogan     | 2026-02-12 21:47:28 |
+| 65   | 🐍 snake          | 6.76          | lolspers    | 2026-02-12 21:24:21 |
+| 64   | 🕷️ spider         | 10.37         | mowogan     | 2026-02-12 19:33:17 |
+| 63   | 🦞 lobster        | 60.72         | konsminator | 2026-02-12 19:12:16 |
+| 62   | 🦭 seal           | 1.89          | mowogan     | 2026-02-12 13:16:56 |
+| 61   | 🧸 teddybear      | 5.61          | konsminator | 2026-02-11 17:06:13 |
+| 60   | 🪱 worm           | 5.61          | konsminator | 2026-02-11 16:08:39 |
+| 59   | 🥫 cannedfood     | 1.71          | konsminator | 2026-02-11 10:31:45 |
+| 58   | ☘️ clover         | 2.66          | lolspers    | 2026-02-10 11:47:28 |
+| 57   | 🐚 shell          | 3.43          | konsminator | 2026-02-09 21:36:15 |
 | 56   | 🧟 deadbody       | 91.35         | konsminator | 2026-02-09 16:10:54 |
 | 55   | 🪵 log            | 11.34         | konsminator | 2026-02-09 12:57:57 |
 | 54   | 🦪 oyster         | 40.44         | mowogan     | 2026-02-09 09:14:17 |
@@ -80,4 +80,4 @@
 | 2    | 🌻 sunflower      | 2.71          | mowogan     | 2025-07-04 06:28:42 |
 | 1    | 🐜 ant            | 0.12          | n1nzin_     | 2025-06-24 12:10:54 |
 
-_Last updated at 2026-02-15 10:02:30 UTC_
+_Last updated at 2026-02-22 10:21:12 UTC_

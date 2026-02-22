@@ -9,11 +9,11 @@
 | 5     | 🥒 seacucumber  | 11.73         | desxyne       | 2025-09-23 11:04:26 |
 | 6     | 👒 hat          | 10.81         | syberiak_     | 2025-12-07 20:20:18 |
 | 7     | 🦕 sauropod     | 9.94          | stofeyxd      | 2025-07-06 23:39:50 |
-| 8 ⬆   | 🦞 lobster      | 6.79          | respirate_    | 2025-11-19 03:47:41 |
-| 9 ⬆   | 🪨 rock         | 6.66          | bubinga       | 2025-08-14 20:19:13 |
-| 10 ⬆  | 🧽 sponge       | 5.85          | kargalay      | 2025-09-30 23:41:50 |
-| 11 ⬇  | 🦎 lizard       | 5.84 (-1.35)  | glorpiusbot   | 2026-02-06 18:06:10 |
-| 12    | 🦭 seal         | 5.02          | poggu_        | 2024-12-02 08:54:27 |
+| 8     | 🦞 lobster      | 6.79          | respirate_    | 2025-11-19 03:47:41 |
+| 9     | 🪨 rock         | 6.66          | bubinga       | 2025-08-14 20:19:13 |
+| 10    | 🧽 sponge       | 5.85          | kargalay      | 2025-09-30 23:41:50 |
+| 11 ⬆  | 🦭 seal         | 5.02          | poggu_        | 2024-12-02 08:54:27 |
+| 12 ⬇  | 🦎 lizard       | 4.88 (-0.96)  | glorpiusbot   | 2026-02-21 19:31:20 |
 | 13    | 🗡️ dagger       | 4.80          | desxyne       | 2025-11-09 21:05:31 |
 | 14    | 🐉 dragon       | 4.72          | glorpiusbot   | 2025-08-16 14:21:11 |
 | 15    | 🧃 beveragebox  | 4.42          | aquaismissing | 2025-06-04 09:00:50 |
@@ -65,4 +65,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-02-08 09:26:26 UTC_
+_Last updated at 2026-02-22 10:22:24 UTC_

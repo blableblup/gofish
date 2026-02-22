@@ -15,29 +15,29 @@
 | 11    | 🌵 cactus          | 2.71          | ratatas1g                 | 2025-08-29 10:38:01 |
 | 12    | 🧟 deadbody        | 1.78          | em1ze                     | 2023-09-15 12:29:13 |
 | 13    | 👑 crown           | 1.43          | thasbe                    | 2023-08-24 12:58:02 |
-| 14 ⬆  | 🦢 swan            | 1.26          | mazzo_tv                  | 2024-07-08 06:43:22 |
-| 15 ⬆  | 🎰 slotmachine     | 1.17          | caprisen_                 | 2024-08-10 10:15:56 |
-| 16 ⬆  | 🐿️ squirrel        | 0.90          | iflya320                  | 2024-12-04 11:13:44 |
-| 17 ⬆  | 🪁 kite            | 0.87          | jayayseaohbee             | 2025-06-29 14:35:21 |
-| 18 ⬆  | 🧞‍♂ genie           | 0.85          | cale4                     | 2024-01-15 22:48:00 |
-| 19 ⬆  | 🐉 dragon          | 0.83          | disappointingtrash        | 2025-12-07 22:30:59 |
-| 20 ⬆  | 🍥 sanddollar      | 0.77          | bubinga                   | 2025-08-25 07:57:19 |
-| 21 ⬆  | 🐧 penguin         | 0.63          | blu_inx                   | 2025-12-25 10:46:38 |
-| 22 ⬆  | 🐦‍⬛ robin           | 0.59          | jayayseaohbee             | 2025-07-24 21:02:17 |
-| 22 ⬆  | 🦈 shark           | 0.59          | ratot                     | 2026-01-13 19:39:17 |
-| 24 ⬆  | 🪺 nestwitheggs    | 0.57          | feelsaceman               | 2025-09-19 15:10:24 |
-| 25 ⬆  | 🐜 ant             | 0.49          | cotovelo3                 | 2025-08-29 10:48:45 |
-| 26 ⬆  | 🦕 sauropod        | 0.37          | bubinga                   | 2024-11-02 12:03:16 |
-| 27 ⬆  | 🪵 log             | 0.36          | noconcept_                | 2023-11-26 11:51:47 |
-| 28 ⬆  | 🍎 apple           | 0.26          | mazzo_tv                  | 2025-10-30 11:35:46 |
-| 29 ⬆  | 🌾 grass           | 0.24          | cotovelo3                 | 2025-07-13 01:11:08 |
-| 29 ⬆  | 🌷 tulip           | 0.24          | iflya320                  | 2024-12-04 13:10:28 |
-| 31 ⬆  | 🐦 cardinal        | 0.23          | jayayseaohbee             | 2025-10-18 17:57:14 |
-| 32 ⬆  | 👡 sandal          | 0.20          | ratot                     | 2025-06-10 00:23:46 |
-| 33 ⬆  | 🐳 bluewhale       | 0.16          | euxoa                     | 2024-01-08 10:04:21 |
-| 33 ⬆  | 🗡️ dagger          | 0.16          | damon_okami               | 2023-10-22 09:29:35 |
-| 33 ⬆  | 🪨 rock            | 0.16          | benciee                   | 2024-11-23 15:13:22 |
-| 36 ⬇  | 🍄‍🟫 mushroom        | 0.14 (-1.15)  | bubinga                   | 2026-02-06 22:47:14 |
+| 14    | 🦢 swan            | 1.26          | mazzo_tv                  | 2024-07-08 06:43:22 |
+| 15    | 🎰 slotmachine     | 1.17          | caprisen_                 | 2024-08-10 10:15:56 |
+| 16    | 🐿️ squirrel        | 0.90          | iflya320                  | 2024-12-04 11:13:44 |
+| 17    | 🪁 kite            | 0.87          | jayayseaohbee             | 2025-06-29 14:35:21 |
+| 18    | 🧞‍♂ genie           | 0.85          | cale4                     | 2024-01-15 22:48:00 |
+| 19    | 🐉 dragon          | 0.83          | disappointingtrash        | 2025-12-07 22:30:59 |
+| 20    | 🍥 sanddollar      | 0.77          | bubinga                   | 2025-08-25 07:57:19 |
+| 21    | 🐧 penguin         | 0.63          | blu_inx                   | 2025-12-25 10:46:38 |
+| 22    | 🐦‍⬛ robin           | 0.59          | jayayseaohbee             | 2025-07-24 21:02:17 |
+| 22    | 🦈 shark           | 0.59          | ratot                     | 2026-01-13 19:39:17 |
+| 24    | 🪺 nestwitheggs    | 0.57          | feelsaceman               | 2025-09-19 15:10:24 |
+| 25    | 🐜 ant             | 0.49          | cotovelo3                 | 2025-08-29 10:48:45 |
+| 26    | 🦕 sauropod        | 0.37          | bubinga                   | 2024-11-02 12:03:16 |
+| 27    | 🪵 log             | 0.36          | noconcept_                | 2023-11-26 11:51:47 |
+| 28    | 🍎 apple           | 0.26          | mazzo_tv                  | 2025-10-30 11:35:46 |
+| 29    | 🌾 grass           | 0.24          | cotovelo3                 | 2025-07-13 01:11:08 |
+| 29    | 🌷 tulip           | 0.24          | iflya320                  | 2024-12-04 13:10:28 |
+| 31    | 🐦 cardinal        | 0.23          | jayayseaohbee             | 2025-10-18 17:57:14 |
+| 32    | 👡 sandal          | 0.20          | ratot                     | 2025-06-10 00:23:46 |
+| 33    | 🐳 bluewhale       | 0.16          | euxoa                     | 2024-01-08 10:04:21 |
+| 33    | 🗡️ dagger          | 0.16          | damon_okami               | 2023-10-22 09:29:35 |
+| 33    | 🪨 rock            | 0.16          | benciee                   | 2024-11-23 15:13:22 |
+| 36    | 🍄‍🟫 mushroom        | 0.14          | bubinga                   | 2026-02-06 22:47:14 |
 | 37    | 🦆 duck            | 0.13          | mazzo_tv                  | 2024-10-16 12:40:23 |
 | 37    | 🥀 wiltedflower    | 0.13          | jayayseaohbee             | 2025-12-12 16:10:02 |
 | 39    | 🦟 mosquito        | 0.12          | nndiana                   | 2025-09-18 19:23:10 |
@@ -68,7 +68,7 @@
 | 62    | 🐬 dolphin         | 0.04          | r1cz4rd                   | 2025-08-25 20:26:53 |
 | 62    | 🫙 jar             | 0.04          | bubinga                   | 2025-08-30 20:27:27 |
 | 62    | 🦑 squid           | 0.04          | sandwichsundays           | 2023-09-21 23:17:02 |
-| 67    | 🪀 bobber          | 0.03          | lunecker                  | 2025-10-20 14:46:13 |
+| 67    | 🪀 bobber          | 0.03          | luneckie                  | 2025-10-20 14:46:13 |
 | 67    | 🐛 caterpillar     | 0.03          | ratot                     | 2025-06-30 15:05:57 |
 | 67    | ⛸️ iceskate        | 0.03          | satic____                 | 2024-01-15 09:25:16 |
 | 67    | 🌹 rose            | 0.03          | huuuuuuuuuuuuuuuuuuuuuurz | 2024-04-19 08:55:53 |
@@ -118,4 +118,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-02-08 09:27:09 UTC_
+_Last updated at 2026-02-22 10:22:04 UTC_

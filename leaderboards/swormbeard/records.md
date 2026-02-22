@@ -1,13 +1,13 @@
 ### History of channel records in swormbeard's chat
 
-| #    | Player          | Fish         | Weight in lbs | Date in UTC         |
-|:-----|:----------------|:-------------|:--------------|:--------------------|
-| 5 🆕 | pinksynthesis28 | 🐍 snake     | 264.12        | 2026-01-27 22:36:16 |
-| 4    | elisworm        | 🦕 sauropod  | 250.28        | 2025-11-21 00:21:40 |
-| 3    | kishma9         | 🦑 squid     | 243.37        | 2025-03-14 20:12:15 |
-| 2    | larvaew         | 🐳 bluewhale | 208.05        | 2024-08-04 20:06:31 |
-| 1    | julialuxel      | 🐊 crocodile | 105           | 2024-07-28 22:59:00 |
+| #   | Player          | Fish         | Weight in lbs | Date in UTC         |
+|:----|:----------------|:-------------|:--------------|:--------------------|
+| 5   | pinksynthesis29 | 🐍 snake     | 264.12        | 2026-01-27 22:36:16 |
+| 4   | elisworm        | 🦕 sauropod  | 250.28        | 2025-11-21 00:21:40 |
+| 3   | kishma9         | 🦑 squid     | 243.37        | 2025-03-14 20:12:15 |
+| 2   | larvaew         | 🐳 bluewhale | 208.05        | 2024-08-04 20:06:31 |
+| 1   | julialuxel      | 🐊 crocodile | 105           | 2024-07-28 22:59:00 |
 
 _Only showing fish weighing >= 100 lbs_
 
-_Last updated at 2026-02-01 09:23:45 UTC_
+_Last updated at 2026-02-22 10:21:14 UTC_

@@ -6,33 +6,33 @@
 | 2 🥈  | iflya320                  | 107       |
 | 2 🥈  | theevirus                 | 107       |
 | 4     | bubinga                   | 106       |
-| 5     | lobuhtomy                 | 99        |
-| 6     | huuuuuuuuuuuuuuuuuuuuuurz | 95 (+1)   |
+| 5     | lobuhtomy                 | 101 (+2)  |
+| 6     | huuuuuuuuuuuuuuuuuuuuuurz | 96 (+1)   |
 | 7     | wowitsdub                 | 91        |
 | 8     | nndiana*                  | 90        |
-| 9     | ranctious                 | 87 (+2)   |
-| 10 ⬇  | gorillapark               | 85        |
+| 9     | ranctious                 | 87        |
+| 10    | gorillapark               | 85        |
 | 11    | veny2lbs                  | 82        |
-| 12    | caprisen_*                | 62 (+1)   |
+| 12    | caprisen_*                | 62        |
 | 13    | mazzo_tv                  | 60        |
 | 14    | commanda_u                | 58        |
 | 15    | bluberry                  | 54        |
 | 15    | supibot                   | 54        |
 | 17    | bcarw                     | 53        |
 | 18    | flovrek                   | 52        |
-| 19    | rancbot                   | 51 (+1)   |
+| 18 ⬆  | rancbot                   | 52 (+1)   |
 | 20    | sandwichsundays*          | 49        |
 | 20    | thetaxmen                 | 49        |
 | 22    | ewpert1                   | 48        |
 | 23    | ocrw                      | 47        |
-| 24    | feelsaceman               | 45 (+1)   |
-| 25 ⬇  | teddbearcs                | 44        |
+| 24    | feelsaceman               | 45        |
+| 25    | teddbearcs                | 44        |
 | 26    | glorianeq                 | 43        |
 | 27    | flvx_flux*                | 41        |
 | 28    | jr_mime                   | 40        |
 | 29    | benciee                   | 39        |
-| 30    | blu_inx                   | 36 (+1)   |
-| 31 ⬇  | zwockel01                 | 35        |
+| 30    | blu_inx                   | 37 (+1)   |
+| 31    | zwockel01                 | 35        |
 | 32    | wuh6                      | 34        |
 | 33    | ratot                     | 33        |
 | 34    | araqs                     | 29        |
@@ -53,4 +53,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-02-15 10:04:20 UTC_
+_Last updated at 2026-02-22 10:21:18 UTC_

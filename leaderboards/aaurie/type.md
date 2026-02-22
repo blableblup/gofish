@@ -35,46 +35,47 @@
 | 31    | 🕷️ spider         | 23.17         | boogie310_        | 2025-03-10 04:27:22 |
 | 32    | 🐠 tropicalfish   | 21.24         | dolp_fin          | 2025-04-19 01:01:40 |
 | 33    | 🦦 otter          | 19.26         | gofishgamer       | 2025-11-19 03:49:06 |
-| 34 ⬆  | 🦠 plankton       | 18.95 (+4.49) | blacklist_exe     | 2026-01-26 03:22:19 |
-| 35 ⬇  | 🪼 jellyfish      | 16.38         | jeffbethyname69   | 2025-07-11 01:54:09 |
-| 36 ⬇  | 🍄‍🟫 mushroom       | 15.75         | respirate_        | 2026-01-02 16:35:14 |
-| 37    | 🐌 snail          | 11.60         | boogie310_        | 2025-05-19 02:55:19 |
-| 38    | 🪵 log            | 11.18         | abelito75         | 2025-08-04 03:34:44 |
-| 39    | 🧃 beveragebox    | 10.85         | preemalone        | 2025-08-09 02:59:38 |
-| 40    | 🐸 frog           | 10.25         | eldiabloskillet   | 2025-05-27 01:25:32 |
-| 41    | 🦆 duck           | 10.04         | mirzaasjad_       | 2025-07-21 07:24:28 |
-| 42    | 💀 skull          | 10.00         | boogie310_        | 2025-09-05 06:52:36 |
-| 43    | 🪱 worm           | 9.73          | gofishgamer       | 2025-11-20 05:35:28 |
-| 44    | 🦎 lizard         | 7.66          | aaurie            | 2025-03-29 01:03:36 |
-| 45    | 🕶️ darksunglasses | 7.20          | boogie310_        | 2025-08-04 02:26:26 |
-| 46    | 🩲 briefs         | 7.07          | jeffbethyname69   | 2025-08-04 01:47:45 |
-| 47    | 🧸 teddybear      | 6.20          | aaurie            | 2025-03-10 00:33:21 |
-| 48    | 👒 hat            | 5.69          | amatusz           | 2025-07-07 03:54:58 |
-| 49    | 🎏 lure           | 4.89          | amatusz           | 2026-01-03 07:20:24 |
-| 50    | 🪝 hook           | 3.97          | gofishgamer       | 2025-11-19 05:50:35 |
-| 51    | 🐚 shell          | 3.93          | rjthebooger       | 2025-08-12 01:35:25 |
-| 52    | 🪀 bobber         | 3.28          | aaurie            | 2025-03-15 09:26:37 |
-| 53    | ☘️ clover         | 3.14          | aaurie            | 2025-06-24 05:07:24 |
-| 54    | ☂️ umbrella       | 2.97          | rjthebooger       | 2025-08-02 01:10:31 |
-| 55    | 🌰 acorn          | 2.78          | aaurie            | 2025-11-07 08:33:28 |
-| 56    | 🎱 8ball          | 2.72          | slimdoggiedog     | 2025-03-15 00:25:09 |
-| 57    | 🌷 tulip          | 2.63          | slimdoggiedog     | 2025-03-15 09:26:32 |
-| 58    | 🧵 wireline       | 2.54          | slimdoggiedog     | 2025-03-14 22:20:30 |
-| 59    | 🌻 sunflower      | 2.35          | aaurie            | 2025-08-09 01:41:23 |
-| 60    | 🎃 pumpkin        | 2.12          | gofishgamer       | 2025-11-26 07:36:18 |
-| 61    | 👢 boot           | 1.99          | allspice_boatrace | 2025-03-11 03:04:55 |
-| 61    | 🧦 socks          | 1.99          | 2_dark_davo       | 2025-06-20 02:41:32 |
-| 63    | 🥪 sandwich       | 1.93          | dolp_fin          | 2025-04-28 03:19:54 |
-| 64    | 🥫 cannedfood     | 1.70          | gofishgamer       | 2025-11-20 06:06:44 |
-| 65    | 🩴 thongsandal    | 1.69          | blackberryking00  | 2025-08-25 03:04:17 |
-| 66    | 🧊 icecube        | 1.45          | bluezebra17       | 2025-11-29 07:49:36 |
-| 67    | 🌹 rose           | 1.00          | aaurie            | 2025-11-11 03:51:10 |
-| 68    | 🌿 seaweed        | 0.96          | jeffbethyname69   | 2025-05-04 01:37:21 |
-| 69    | 🪶 feather        | 0.88          | allspice_boatrace | 2025-11-22 05:30:19 |
-| 70    | 🍁 leaf           | 0.82          | mademooselle      | 2025-10-06 07:00:34 |
-| 71    | 🧤 gloves         | 0.63          | herbemoji         | 2025-03-11 00:55:22 |
-| 72    | 🩰 balletshoes    | 0.38          | victorvondoom313  | 2025-04-28 01:54:30 |
+| 34    | 🦠 plankton       | 18.95         | blacklist_exe     | 2026-01-26 03:22:19 |
+| 35 🆕 | 🍄 oceanplant     | 17.09         | preemalone        | 2026-02-21 04:28:43 |
+| 36 ⬇  | 🪼 jellyfish      | 16.38         | jeffbethyname69   | 2025-07-11 01:54:09 |
+| 37 ⬇  | 🍄‍🟫 mushroom       | 15.75         | respirate_        | 2026-01-02 16:35:14 |
+| 38 ⬇  | 🐌 snail          | 11.60         | boogie310_        | 2025-05-19 02:55:19 |
+| 39 ⬇  | 🪵 log            | 11.18         | abelito75         | 2025-08-04 03:34:44 |
+| 40 ⬇  | 🧃 beveragebox    | 10.85         | preemalone        | 2025-08-09 02:59:38 |
+| 41 ⬇  | 🐸 frog           | 10.25         | eldiabloskillet   | 2025-05-27 01:25:32 |
+| 42 ⬇  | 🦆 duck           | 10.04         | mirzaasjad_       | 2025-07-21 07:24:28 |
+| 43 ⬇  | 💀 skull          | 10.00         | boogie310_        | 2025-09-05 06:52:36 |
+| 44 ⬇  | 🪱 worm           | 9.73          | gofishgamer       | 2025-11-20 05:35:28 |
+| 45 ⬇  | 🦎 lizard         | 7.66          | aaurie            | 2025-03-29 01:03:36 |
+| 46 ⬇  | 🕶️ darksunglasses | 7.20          | boogie310_        | 2025-08-04 02:26:26 |
+| 47 ⬇  | 🩲 briefs         | 7.07          | jeffbethyname69   | 2025-08-04 01:47:45 |
+| 48 ⬇  | 🧸 teddybear      | 6.20          | aaurie            | 2025-03-10 00:33:21 |
+| 49 ⬇  | 👒 hat            | 5.69          | amatusz           | 2025-07-07 03:54:58 |
+| 50 ⬆  | 🧊 icecube        | 5.62 (+4.17)  | mirzaasjad_       | 2026-02-16 06:13:34 |
+| 51 ⬇  | 🎏 lure           | 4.89          | amatusz           | 2026-01-03 07:20:24 |
+| 52 ⬇  | 🪝 hook           | 3.97          | gofishgamer       | 2025-11-19 05:50:35 |
+| 53 ⬇  | 🐚 shell          | 3.93          | rjthebooger       | 2025-08-12 01:35:25 |
+| 54 ⬇  | 🪀 bobber         | 3.28          | aaurie            | 2025-03-15 09:26:37 |
+| 55 ⬇  | ☘️ clover         | 3.14          | aaurie            | 2025-06-24 05:07:24 |
+| 56 ⬇  | ☂️ umbrella       | 2.97          | rjthebooger       | 2025-08-02 01:10:31 |
+| 57 ⬇  | 🌰 acorn          | 2.78          | aaurie            | 2025-11-07 08:33:28 |
+| 58 ⬇  | 🎱 8ball          | 2.72          | slimdoggiedog     | 2025-03-15 00:25:09 |
+| 59 ⬇  | 🌷 tulip          | 2.63          | slimdoggiedog     | 2025-03-15 09:26:32 |
+| 60 ⬇  | 🧵 wireline       | 2.54          | slimdoggiedog     | 2025-03-14 22:20:30 |
+| 61 ⬇  | 🌻 sunflower      | 2.35          | aaurie            | 2025-08-09 01:41:23 |
+| 62 ⬇  | 🎃 pumpkin        | 2.12          | gofishgamer       | 2025-11-26 07:36:18 |
+| 63 ⬇  | 👢 boot           | 1.99          | allspice_boatrace | 2025-03-11 03:04:55 |
+| 63 ⬇  | 🧦 socks          | 1.99          | 2_dark_davo       | 2025-06-20 02:41:32 |
+| 65 ⬇  | 🥪 sandwich       | 1.93          | dolp_fin          | 2025-04-28 03:19:54 |
+| 66 ⬇  | 🥫 cannedfood     | 1.70          | gofishgamer       | 2025-11-20 06:06:44 |
+| 67 ⬇  | 🩴 thongsandal    | 1.69          | blackberryking00  | 2025-08-25 03:04:17 |
+| 68 ⬇  | 🌹 rose           | 1.00          | aaurie            | 2025-11-11 03:51:10 |
+| 69 ⬇  | 🌿 seaweed        | 0.96          | jeffbethyname69   | 2025-05-04 01:37:21 |
+| 70 ⬇  | 🪶 feather        | 0.88          | allspice_boatrace | 2025-11-22 05:30:19 |
+| 71 ⬇  | 🍁 leaf           | 0.82          | mademooselle      | 2025-10-06 07:00:34 |
+| 72 ⬇  | 🧤 gloves         | 0.63          | herbemoji         | 2025-03-11 00:55:22 |
+| 73 ⬇  | 🩰 balletshoes    | 0.38          | victorvondoom313  | 2025-04-28 01:54:30 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-02-01 09:21:09 UTC_
+_Last updated at 2026-02-22 10:23:34 UTC_

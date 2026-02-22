@@ -4,9 +4,9 @@
 |:------|:-----------------|:------------|
 | 1 🥇  | respirate_       | 95          |
 | 2 🥈  | rustezzz         | 67          |
-| 3 🥉  | bubinga          | 58          |
-| 4     | elisworm         | 56          |
-| 4     | glorpiusbot      | 56          |
+| 3 🥉  | bubinga          | 59 (+1)     |
+| 4     | glorpiusbot      | 57 (+1)     |
+| 5 ⬇   | elisworm         | 56          |
 | 6     | desxyne          | 38          |
 | 7     | aquaismissing    | 37          |
 | 8     | stofeyxd*        | 32          |
@@ -17,7 +17,7 @@
 | 12    | velantix*        | 26          |
 | 14    | poggu_           | 23          |
 | 15    | dom1torii        | 22          |
-| 16    | kam3l_           | 21 (+1)     |
+| 16    | kam3l_           | 21          |
 | 17    | kaczer1          | 18          |
 | 18    | ggmagician       | 17          |
 | 18    | kargalay         | 17          |
@@ -31,4 +31,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-02-15 10:02:29 UTC_
+_Last updated at 2026-02-22 10:21:18 UTC_

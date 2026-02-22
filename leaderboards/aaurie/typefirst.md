@@ -2,6 +2,7 @@
 
 | Rank | Fish              | Weight in lbs | Player              | Date in UTC         |
 |:-----|:------------------|:--------------|:--------------------|:--------------------|
+| 76   | 🍄 oceanplant     | 17.09         | preemalone          | 2026-02-21 04:28:43 |
 | 75   | 🍄‍🟫 mushroom       | 15.75         | respirate_          | 2026-01-02 16:35:14 |
 | 74   | 🛒 shoppingcart   | 68.75         | metalxml            | 2025-12-08 04:30:22 |
 | 73   | 🎰 slotmachine    | 0.00          | jeffbethyname69     | 2025-12-06 01:55:20 |
@@ -78,4 +79,4 @@
 | 2    | 🪝 hook           | 1.12          | aaurie              | 2025-03-07 01:01:14 |
 | 1    | 🐠 tropicalfish   | 21.11         | dwaynepounder       | 2025-03-06 08:02:47 |
 
-_Last updated at 2026-01-04 10:15:32 UTC_
+_Last updated at 2026-02-22 10:21:13 UTC_

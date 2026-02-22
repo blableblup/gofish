@@ -2,68 +2,68 @@
 
 | Rank  | Player                    | Total Weight in lbs |
 |:------|:--------------------------|:--------------------|
-| 1 🥇  | nndiana*                  | 94700.11 (+1175.77) |
-| 2 🥈  | bubinga                   | 46780.46 (+121.60)  |
+| 1 🥇  | nndiana*                  | 95763.23 (+1063.12) |
+| 2 🥈  | bubinga                   | 46957.38 (+176.92)  |
 | 3 🥉  | caprisen_*                | 39108.19            |
 | 4     | huuuuuuuuuuuuuuuuuuuuuurz | 36340.60            |
 | 5     | sandwichsundays*          | 30922.85            |
-| 6     | mazzo_tv                  | 29447.46 (+4.67)    |
-| 7     | jayayseaohbee             | 24800.34 (+152.62)  |
+| 6     | mazzo_tv                  | 29771.52 (+324.06)  |
+| 7     | jayayseaohbee             | 25091.83 (+291.49)  |
 | 8     | jr_mime                   | 24478.38            |
 | 9     | pengeg                    | 23270.53            |
-| 10    | ratot                     | 19633.35 (+97.37)   |
+| 10    | ratot                     | 19996.76 (+363.41)  |
 | 11    | zwockel01                 | 19356.57            |
-| 12    | lobuhtomy                 | 18914.56            |
+| 12    | lobuhtomy                 | 19063.63 (+149.07)  |
 | 13    | benciee                   | 18306.09            |
 | 14    | angus_lpc                 | 17472.32            |
 | 15    | jemcs_                    | 16341.90            |
-| 16    | theevirus                 | 16123.73 (+146.03)  |
-| 17    | veny2lbs                  | 15756.66            |
-| 18    | commanda_u                | 15541.39            |
-| 19    | lunecker                  | 14745.45 (+1085.83) |
+| 16    | theevirus                 | 16128.48 (+4.75)    |
+| 17 ⬆  | luneckie                  | 15813.54 (+1068.09) |
+| 18 ⬇  | veny2lbs                  | 15756.66            |
+| 19 ⬇  | commanda_u                | 15541.39            |
 | 20    | iflya320                  | 13566.52            |
-| 21    | markenzy01                | 13426.38 (+15.48)   |
-| 22 ⬆  | bluberry                  | 13338.40 (+111.93)  |
-| 23 ⬇  | gorillapark               | 13333.16            |
+| 21 ⬆  | bluberry                  | 13452.82 (+114.42)  |
+| 22 ⬇  | markenzy01                | 13441.40 (+15.02)   |
+| 23    | gorillapark               | 13333.16            |
 | 24    | amu1g                     | 12936.97            |
-| 25    | blu_inx                   | 12122.58 (+259.21)  |
-| 26    | flunke_                   | 11858.04 (+679.57)  |
+| 25    | blu_inx                   | 12908.42 (+785.84)  |
+| 26    | flunke_                   | 11956.47 (+98.43)   |
 | 27    | deo7gen                   | 11116.37            |
-| 28    | joshuabzz                 | 10430.88 (+206.53)  |
+| 28    | joshuabzz                 | 10683.47 (+252.59)  |
 | 29    | wisdom_frog               | 10027.10            |
-| 30    | llikotesnecil             | 9168.13 (+149.49)   |
-| 31 ⬆  | feelsaceman               | 8888.87 (+220.63)   |
-| 32 ⬇  | fonuwu                    | 8738.22             |
-| 33    | maksmusz*                 | 8405.10             |
-| 34    | divra__                   | 8252.20             |
-| 35    | eeziiii                   | 8155.09             |
-| 36    | faslker                   | 7886.29             |
-| 37    | seryxx                    | 7826.68             |
-| 38    | quinrayy                  | 7728.01             |
-| 39 ⬆  | kevinlukejager            | 7705.38 (+822.43)   |
-| 40 ⬇  | r1cz4rd                   | 7518.53             |
-| 41 ⬇  | rottarded                 | 7357.23 (+19.62)    |
-| 42 ⬇  | noconcept_                | 7303.69             |
-| 43    | copperx9                  | 6333.87             |
-| 44    | euxoa                     | 6283.85             |
-| 45 ⬆  | disappointingtrash        | 6173.51 (+417.81)   |
-| 46 ⬇  | velantix*                 | 6167.03             |
-| 47 ⬇  | onarrrrrrrr               | 6047.16             |
-| 48 ⬇  | deatron                   | 6016.19 (+211.59)   |
+| 30    | llikotesnecil             | 9207.35 (+39.22)    |
+| 31    | feelsaceman               | 9084.67 (+195.80)   |
+| 32    | fonuwu                    | 8738.22             |
+| 33 ⬆  | kevinlukejager            | 8692.52 (+987.14)   |
+| 34 ⬇  | maksmusz*                 | 8405.10             |
+| 35 ⬇  | divra__                   | 8252.20             |
+| 36 ⬇  | eeziiii                   | 8155.09             |
+| 37 ⬇  | faslker                   | 7886.29             |
+| 38 ⬇  | seryxx                    | 7826.68             |
+| 39 ⬇  | quinrayy                  | 7728.01             |
+| 40    | r1cz4rd                   | 7518.53             |
+| 41    | rottarded                 | 7416.72 (+59.49)    |
+| 42    | noconcept_                | 7303.69             |
+| 43 ⬆  | disappointingtrash        | 6481.43 (+307.92)   |
+| 44 ⬆  | deatron                   | 6381.74 (+365.55)   |
+| 45 ⬇  | copperx9                  | 6333.87             |
+| 46 ⬇  | euxoa                     | 6283.85             |
+| 47 ⬇  | velantix*                 | 6167.03             |
+| 48 ⬇  | onarrrrrrrr               | 6047.16             |
 | 49    | glorianeq                 | 5689.07             |
 | 50    | creepycode*               | 5609.52             |
 | 51    | hahppyy                   | 5331.35             |
 | 52    | popfizzgg                 | 5328.26             |
-| 53 ⬆  | flovrek                   | 5271.45 (+44.10)    |
-| 54 ⬇  | pspisafemboy              | 5270.23             |
-| 55 ⬇  | eng0_                     | 5254.34             |
+| 53    | flovrek                   | 5274.04 (+2.59)     |
+| 54    | pspisafemboy              | 5273.79 (+3.56)     |
+| 55    | eng0_                     | 5254.34             |
 | 56    | qxxick_                   | 5063.56             |
 | 57    | kaspu222                  | 4975.92             |
 | 58    | jeejee_jjl                | 4961.76             |
 | 59    | cappo7117                 | 4956.66             |
 | 60    | alvanissdev               | 4749.70             |
 | 61    | trendymirror              | 4321.14             |
-| 62    | dankunite*                | 4242.46 (+11.37)    |
+| 62    | dankunite*                | 4242.46             |
 | 63    | kalechap                  | 4193.39             |
 | 64    | cale4                     | 4150.02             |
 | 65    | thetaxmen                 | 4108.16             |
@@ -84,14 +84,14 @@
 | 80    | benlol_l*                 | 3014.43             |
 | 81    | hydronix                  | 2932.68             |
 | 82    | ttecnk                    | 2885.44             |
-| 83 ⬆  | faal_lazarino*            | 2798.51 (+50.28)    |
-| 84 ⬇  | wowitsdub                 | 2777.75             |
+| 83    | faal_lazarino*            | 2830.74 (+32.23)    |
+| 84    | wowitsdub                 | 2777.75             |
 | 85    | milchfunky*               | 2714.70             |
 | 86    | obscurecharmling          | 2617.76             |
 | 87    | ovrht                     | 2617.20             |
 | 88    | eskibroyo                 | 2603.16             |
-| 89 ⬆  | garciaerik                | 2596.53 (+28.89)    |
-| 90 ⬇  | rttvname                  | 2577.50             |
+| 89    | garciaerik                | 2596.53             |
+| 90    | rttvname                  | 2577.50             |
 | 91    | yopego                    | 2535.09             |
 | 92    | kubo7                     | 2473.29             |
 | 93    | thasbe                    | 2464.44             |
@@ -107,15 +107,15 @@
 | 103   | cubedude20                | 2273.87             |
 | 104   | x8nkj                     | 2270.80             |
 | 105   | leibnoid*                 | 2241.41             |
-| 106   | wuh6                      | 2180.58             |
-| 107   | uni1g                     | 2139.96             |
-| 108 ⬆ | bananenshak3              | 2133.39 (+184.18)   |
-| 109 ⬇ | thelantzzz                | 2074.37             |
-| 110 ⬇ | keaton1g*                 | 2040.97             |
-| 111 ⬇ | evopheon                  | 1951.19             |
+| 106 ⬆ | bananenshak3              | 2186.55 (+53.16)    |
+| 107 ⬇ | wuh6                      | 2180.58             |
+| 108 ⬇ | uni1g                     | 2139.96             |
+| 109   | thelantzzz                | 2074.37             |
+| 110   | keaton1g*                 | 2040.97             |
+| 111   | evopheon                  | 1951.19             |
 | 112   | theskritsch               | 1889.04             |
 | 113   | reapex_1                  | 1848.92             |
 
 _Only showing fishers with a total weight of >= 1800 lbs_
 
-_Last updated at 2026-02-15 10:04:18 UTC_
+_Last updated at 2026-02-22 10:24:34 UTC_

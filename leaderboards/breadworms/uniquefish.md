@@ -6,9 +6,9 @@
 | 2 🥈  | derinturitierutz      | 118       |
 | 3 🥉  | derintu               | 108       |
 | 4     | lluuuuucy             | 104       |
-| 5     | larvaew               | 102       |
-| 5     | leanmeister           | 102       |
-| 7     | cimgu                 | 98 (+1)   |
+| 5     | larvaew               | 103 (+1)  |
+| 6 ⬇   | leanmeister           | 102       |
+| 7     | cimgu                 | 98        |
 | 8     | qu4ttromila           | 94        |
 | 9     | breadworms            | 93        |
 | 9     | kishma9               | 93        |
@@ -41,15 +41,15 @@
 | 37    | divra__               | 55        |
 | 37    | ouacewi               | 55        |
 | 39    | fvkdylan              | 54        |
-| 40    | bussinongnocap        | 53        |
-| 40    | lazuli672*            | 53        |
-| 40 ⬆  | wcd0                  | 53 (+1)   |
+| 39 ⬆  | wcd0                  | 54 (+1)   |
+| 41 ⬇  | bussinongnocap        | 53        |
+| 41 ⬇  | lazuli672*            | 53        |
 | 43    | houseofleaves*        | 51        |
 | 43    | osnyatsky*            | 51        |
-| 45    | pinksynthesis28       | 50        |
+| 45    | pinksynthesis29       | 50        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-02-15 10:04:19 UTC_
+_Last updated at 2026-02-22 10:21:17 UTC_

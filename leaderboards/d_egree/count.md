@@ -6,9 +6,9 @@
 | 2 🥈  | gofishgamer           | 110         |
 | 3 🥉  | respirate_            | 106         |
 | 4     | elisworm              | 105         |
-| 5     | benni900*             | 76          |
+| 5     | benni900*             | 77 (+1)     |
 | 6     | mitgliederversammlung | 16          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-01-11 10:24:32 UTC_
+_Last updated at 2026-02-22 10:21:19 UTC_

@@ -22,11 +22,11 @@
 | 18    | 🌰 acorn          | 3.38          | dougiefresh_83      | 2025-10-09 04:17:57 |
 | 19    | 🦫 beaver         | 2.87          | goopy777            | 2025-03-24 09:30:01 |
 | 20    | 🍄 oceanplant     | 2.38          | avalidu5ername      | 2025-03-10 04:18:56 |
-| 21    | 🧸 teddybear      | 2.37          | rainedparade        | 2025-02-28 00:29:01 |
-| 22    | 📱 iphone         | 2.15          | teeto               | 2025-03-14 06:29:06 |
-| 23    | 🦦 otter          | 2.14          | miyabwah            | 2025-02-22 07:13:44 |
-| 24    | 🧃 beveragebox    | 2.05          | cptblack_           | 2025-06-27 08:48:11 |
-| 25    | 🦈 shark          | 2.02          | teeto               | 2025-04-01 02:19:02 |
+| 21 ⬆  | 📱 iphone         | 2.15          | teeto               | 2025-03-14 06:29:06 |
+| 22 ⬆  | 🦦 otter          | 2.14          | miyabwah            | 2025-02-22 07:13:44 |
+| 23 ⬆  | 🧃 beveragebox    | 2.05          | cptblack_           | 2025-06-27 08:48:11 |
+| 24 ⬆  | 🦈 shark          | 2.02          | teeto               | 2025-04-01 02:19:02 |
+| 25 ⬇  | 🧸 teddybear      | 1.58 (-0.79)  | goopy777            | 2026-02-15 05:58:11 |
 | 26    | 🪻 lupine         | 1.41          | poioce              | 2025-07-03 03:45:04 |
 | 27    | 🐋 whale          | 1.40          | elisworm            | 2025-12-26 04:17:05 |
 | 28    | 🦆 duck           | 1.34          | jakthejanitor       | 2025-10-12 22:21:17 |
@@ -44,17 +44,17 @@
 | 40    | 🦠 plankton       | 0.58          | poioce              | 2025-02-15 11:24:31 |
 | 41    | 🪳 cockroach      | 0.57          | fadingmemoriez      | 2025-04-17 02:29:55 |
 | 42    | 🩰 balletshoes    | 0.52          | rainedparade        | 2025-01-25 04:09:12 |
-| 43 ⬆  | 🦐 shrimp         | 0.47          | goopy777            | 2025-03-17 03:48:12 |
-| 43 ⬆  | 🪱 worm           | 0.47          | jollygana           | 2025-03-03 06:16:18 |
-| 45 ⬆  | 🐙 octopus        | 0.45          | rainedparade        | 2025-05-31 21:47:34 |
-| 46 ⬆  | 🪶 feather        | 0.43          | jellyuh             | 2025-01-02 09:31:14 |
-| 47 ⬆  | 🧽 sponge         | 0.42          | rainedparade        | 2025-05-14 23:03:07 |
-| 48 ⬆  | 🫙 jar            | 0.40          | teeto               | 2025-08-30 18:26:46 |
-| 49 ⬆  | 🦑 squid          | 0.39          | goopy777            | 2025-01-31 00:48:21 |
-| 50 ⬆  | 🪀 bobber         | 0.35          | miyabwah            | 2025-01-28 00:17:58 |
-| 51 ⬆  | 🍄‍🟫 mushroom       | 0.32          | miyabwah            | 2025-02-04 03:28:39 |
-| 52 ⬇  | 🐊 crocodile      | 0.28 (-0.20)  | goopy777            | 2026-02-01 23:30:47 |
-| 52 ⬆  | 🦎 lizard         | 0.28          | poioce              | 2025-03-21 08:54:20 |
+| 43    | 🦐 shrimp         | 0.47          | goopy777            | 2025-03-17 03:48:12 |
+| 43    | 🪱 worm           | 0.47          | jollygana           | 2025-03-03 06:16:18 |
+| 45    | 🐙 octopus        | 0.45          | rainedparade        | 2025-05-31 21:47:34 |
+| 46    | 🪶 feather        | 0.43          | jellyuh             | 2025-01-02 09:31:14 |
+| 47    | 🧽 sponge         | 0.42          | rainedparade        | 2025-05-14 23:03:07 |
+| 48    | 🫙 jar            | 0.40          | teeto               | 2025-08-30 18:26:46 |
+| 49    | 🦑 squid          | 0.39          | goopy777            | 2025-01-31 00:48:21 |
+| 50    | 🪀 bobber         | 0.35          | miyabwah            | 2025-01-28 00:17:58 |
+| 51    | 🍄‍🟫 mushroom       | 0.32          | miyabwah            | 2025-02-04 03:28:39 |
+| 52    | 🐊 crocodile      | 0.28          | goopy777            | 2026-02-01 23:30:47 |
+| 52    | 🦎 lizard         | 0.28          | poioce              | 2025-03-21 08:54:20 |
 | 54    | 🕷️ spider         | 0.24          | cptblack_           | 2025-07-21 03:04:53 |
 | 55    | 🐍 snake          | 0.23          | rainedparade        | 2025-03-17 17:09:44 |
 | 56    | 👢 boot           | 0.20          | cptblack_           | 2025-02-05 05:52:59 |
@@ -84,4 +84,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-02-08 09:26:48 UTC_
+_Last updated at 2026-02-22 10:22:14 UTC_
