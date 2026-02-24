@@ -15,22 +15,22 @@
 | 10    | sussy_amonge          | 123         |
 | 12    | qu4ttromila           | 122         |
 | 13    | lazuli672*            | 112         |
-| 13    | lluuuuucy             | 112         |
+| 13    | lluuucy               | 112         |
 | 15    | ryebreadward          | 110         |
 | 16    | bussinongnocap        | 108         |
 | 17    | dazedforevermore      | 93          |
 | 18    | comiqq                | 92          |
-| 19 ⬆  | esvelles              | 90 (+13)    |
-| 20 ⬇  | crazytown_bananapants | 89          |
-| 21 ⬇  | supibot               | 88          |
-| 22 ⬇  | gstaman911            | 80          |
-| 23 ⬇  | comiiiiiq             | 79          |
-| 23 ⬇  | miiiiisho             | 79          |
+| 19    | esvelles              | 90          |
+| 20    | crazytown_bananapants | 89          |
+| 21    | supibot               | 88          |
+| 22    | gstaman911            | 80          |
+| 23    | comiiiiiq             | 79          |
+| 23    | miiiiisho             | 79          |
 | 25    | respirate_            | 74          |
 | 26    | larvaew               | 66          |
 | 27    | booty_bread           | 60          |
-| 27    | pinksynthesis28       | 60          |
-| 29    | notomji               | 57          |
+| 27    | pinksynthesis29       | 60          |
+| 29    | kikyomushi            | 57          |
 | 30    | receipts              | 56          |
 | 31    | bk207*                | 53          |
 | 32    | hmsmob*               | 52          |
@@ -62,4 +62,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2026-01-28 09:24:46 UTC_
+_Last updated at 2026-02-24 22:24:14 UTC_

@@ -3,7 +3,7 @@
 | Rank  | Player             | Fish caught |
 |:------|:-------------------|:------------|
 | 1 🥇  | vaiastol           | 87          |
-| 2 🥈  | eelacy             | 75 (+3)     |
+| 2 🥈  | eelacy             | 79 (+4)     |
 | 3 🥉  | divra__            | 70          |
 | 4     | garout             | 64          |
 | 5     | hahppyy            | 53          |
@@ -20,4 +20,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-02-11 18:31:46 UTC_
+_Last updated at 2026-02-24 22:24:14 UTC_
