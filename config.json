@@ -972,6 +972,25 @@
 			"checkfdata": true,
 			"board_enabled": false
 		},
+		"smoge7": {
+			"twitchid": "38596782",
+			"logs_instances": [
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2026/2"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2026/2"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/2"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
 		"sukoxi": {
 			"twitchid": "504059939",
 			"logs_instances": [
