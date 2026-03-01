@@ -28,7 +28,7 @@
 | 24    | 🪺 nestwitheggs | 2.18          | julialuxel            | 2024-12-24 01:54:16 |
 | 25    | 🦇 bat          | 1.83          | leanmeister           | 2025-06-23 00:48:59 |
 | 26    | 🐊 crocodile    | 1.57          | julialuxel            | 2024-12-24 07:09:10 |
-| 27    | 🦦 otter        | 1.55          | lluuuuucy             | 2023-12-23 15:04:03 |
+| 27    | 🦦 otter        | 1.55          | lluuucy               | 2023-12-23 15:04:03 |
 | 28    | 🌰 acorn        | 1.34          | julialuxel            | 2024-09-30 23:18:34 |
 | 29    | 🪱 worm         | 0.99          | kishma9               | 2025-08-28 18:53:36 |
 | 30    | 🌹 rose         | 0.94          | suavvvvv              | 2024-03-29 17:01:59 |
@@ -38,9 +38,9 @@
 | 34    | 🐸 frog         | 0.81          | dazedforevermore      | 2024-04-01 16:32:08 |
 | 35    | 🦐 shrimp       | 0.71          | julialuxel            | 2024-01-12 16:42:48 |
 | 36    | 🐦‍⬛ robin        | 0.69          | ninjaross             | 2024-05-04 18:16:52 |
-| 37    | ⛸️ iceskate      | 0.62          | toastyso              | 2024-01-07 02:21:01 |
+| 37    | ⛸️ iceskate     | 0.62          | toastyso              | 2024-01-07 02:21:01 |
 | 38    | 🐚 shell        | 0.56          | cimgu                 | 2025-03-31 02:33:51 |
-| 39    | 🕷️ spider        | 0.54          | hahppyy               | 2024-01-03 23:48:54 |
+| 39    | 🕷️ spider       | 0.54          | hahppyy               | 2024-01-03 23:48:54 |
 | 40    | 👟 sneaker      | 0.53          | supibot               | 2024-01-04 18:43:39 |
 | 41    | 🫙 jar          | 0.41          | larvaew               | 2025-06-23 00:51:13 |
 | 42    | 🪳 cockroach    | 0.38          | julialuxel            | 2024-01-03 13:55:10 |
@@ -48,12 +48,12 @@
 | 44    | 🧤 gloves       | 0.27          | hahppyy               | 2024-01-16 10:58:25 |
 | 45    | 🐌 snail        | 0.25          | fvkdylan              | 2025-06-22 22:05:56 |
 | 46    | 🪀 bobber       | 0.21          | leanmeister           | 2025-06-23 00:48:59 |
-| 47    | 🧦 socks        | 0.19          | lluuuuucy             | 2024-03-12 14:48:51 |
+| 47    | 🧦 socks        | 0.19          | lluuucy               | 2024-03-12 14:48:51 |
 | 48    | 🎏 lure         | 0.17          | mitgliederversammlung | 2024-06-03 15:39:18 |
 | 49    | 🪸 coral        | 0.16          | hahppyy               | 2024-02-01 06:14:37 |
 | 50    | 🐟 fish         | 0.14          | hahppyy               | 2024-01-15 06:53:09 |
 | 51    | 🪝 hook         | 0.13          | hahppyy               | 2024-01-11 15:39:26 |
-| 52    | ☘️ clover        | 0.12          | lluuuuucy             | 2024-03-29 18:19:02 |
+| 52    | ☘️ clover       | 0.12          | lluuucy               | 2024-03-29 18:19:02 |
 | 53    | 🦀 crab         | 0.10          | toastyso              | 2023-12-25 05:16:13 |
 | 54    | 🎱 8ball        | 0.06          | julialuxel            | 2025-09-21 02:20:23 |
 | 55    | 🥫 cannedfood   | 0.05          | hahppyy               | 2024-01-08 12:44:21 |
@@ -62,4 +62,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-12-07 09:34:20 UTC_
+_Last updated at 2026-03-01 09:45:35 UTC_

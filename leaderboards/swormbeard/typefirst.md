@@ -2,7 +2,7 @@
 
 | Rank | Fish              | Weight in lbs | Player                | Date in UTC         |
 |:-----|:------------------|:--------------|:----------------------|:--------------------|
-| 73   | 🧊 icecube        | 6.16          | lluuuuucy             | 2026-02-20 19:46:45 |
+| 73   | 🧊 icecube        | 6.16          | lluuucy               | 2026-02-20 19:46:45 |
 | 72   | ☂️ umbrella       | 1.09          | pinksynthesis29       | 2026-01-24 22:59:13 |
 | 71   | 🪱 worm           | 0.84          | derintu               | 2025-12-25 20:43:40 |
 | 70   | 🧵 wireline       | 0.53          | leanmeister           | 2025-12-13 18:13:39 |
@@ -29,15 +29,15 @@
 | 49   | 👢 boot           | 1.78          | leanmeister           | 2024-11-25 23:27:07 |
 | 48   | 🦦 otter          | 14.70         | leanmeister           | 2024-11-23 20:16:01 |
 | 47   | 🍁 leaf           | 0.94          | leanmeister           | 2024-11-14 23:08:37 |
-| 46   | 🪹 emptynest      | 6.80          | lluuuuucy             | 2024-11-07 15:57:21 |
+| 46   | 🪹 emptynest      | 6.80          | lluuucy               | 2024-11-07 15:57:21 |
 | 45   | 🪀 bobber         | 0.00          | ninjaross             | 2024-11-02 19:23:44 |
-| 44   | 🐦 cardinal       | 2.81          | lluuuuucy             | 2024-10-26 03:04:44 |
+| 44   | 🐦 cardinal       | 2.81          | lluuucy               | 2024-10-26 03:04:44 |
 | 43   | 🦑 squid          | 7.81          | respirate_            | 2024-10-23 02:22:48 |
 | 42   | 🦀 crab           | 2.67          | respirate_            | 2024-10-23 01:04:27 |
-| 41   | ☘️ clover         | 0.39          | lluuuuucy             | 2024-10-22 18:50:22 |
-| 40   | 🦎 lizard         | 6.94          | lluuuuucy             | 2024-10-17 15:55:25 |
+| 41   | ☘️ clover         | 0.39          | lluuucy               | 2024-10-22 18:50:22 |
+| 40   | 🦎 lizard         | 6.94          | lluuucy               | 2024-10-17 15:55:25 |
 | 39   | 🪺 nestwitheggs   | 10.58         | dazedforevermore      | 2024-10-14 19:42:06 |
-| 38   | 🦫 beaver         | 22.77         | lluuuuucy             | 2024-10-12 21:50:13 |
+| 38   | 🦫 beaver         | 22.77         | lluuucy               | 2024-10-12 21:50:13 |
 | 37   | 🦆 duck           | 3.99          | cimgu                 | 2024-10-07 02:07:17 |
 | 36   | 🌰 acorn          | 0.31          | larvaew               | 2024-10-04 22:04:38 |
 | 35   | 👟 sneaker        | 0.91          | respirate_            | 2024-09-08 17:15:35 |
@@ -75,4 +75,4 @@
 | 2    | 🦐 shrimp         | 3.14          | bapqo                 | 2024-07-28 22:59:12 |
 | 1    | 🐊 crocodile      | 105.00        | julialuxel            | 2024-07-28 22:59:00 |
 
-_Last updated at 2026-02-22 10:21:12 UTC_
+_Last updated at 2026-03-01 09:44:16 UTC_

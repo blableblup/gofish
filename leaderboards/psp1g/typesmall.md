@@ -50,9 +50,9 @@
 | 44    | 🪹 emptynest       | 0.09          | bubinga                   | 2024-10-08 18:25:51 |
 | 44    | 🪻 lupine          | 0.09          | cotovelo3                 | 2025-08-26 21:30:38 |
 | 48    | 🧭 compass         | 0.08          | obscurecharmling          | 2024-01-15 08:22:22 |
-| 48    | 🐙 octopus         | 0.08          | kalechap                  | 2024-10-28 05:41:37 |
 | 48    | 🧽 sponge          | 0.08          | velantix                  | 2024-07-04 20:13:01 |
-| 51    | 🪿 goose           | 0.07          | feelsaceman               | 2025-12-27 14:29:30 |
+| 50 ⬆  | 🪿 goose           | 0.07          | feelsaceman               | 2025-12-27 14:29:30 |
+| 50 ⬇  | 🐙 octopus         | 0.07 (-0.01)  | totallynotaboykisser      | 2026-02-23 09:55:52 |
 | 52    | 🍬 candy           | 0.06          | ocrw                      | 2025-10-31 19:19:02 |
 | 52    | 📱 iphone          | 0.06          | hahppyy                   | 2024-03-28 12:09:45 |
 | 52    | 🦠 plankton        | 0.06          | xkimi1337                 | 2023-10-01 17:27:35 |
@@ -118,4 +118,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-02-22 10:22:04 UTC_
+_Last updated at 2026-03-01 09:44:42 UTC_

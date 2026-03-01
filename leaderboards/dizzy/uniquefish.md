@@ -46,6 +46,7 @@
 | 42    | anothercull        | 22        |
 | 43    | fvkdylan           | 21        |
 | 43    | reallyxtra         | 21        |
+| 45 🆕 | avrwhy             | 20        |
 | 45    | gigi               | 20        |
 | 45    | nocer2k            | 20        |
 | 45    | omegalulow2onsteam | 20        |
@@ -55,4 +56,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-01-11 10:27:55 UTC_
+_Last updated at 2026-03-01 09:44:12 UTC_

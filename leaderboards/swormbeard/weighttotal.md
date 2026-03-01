@@ -3,10 +3,10 @@
 | Rank  | Player                | Total Weight in lbs |
 |:------|:----------------------|:--------------------|
 | 1 🥇  | derintu               | 3121.37             |
-| 2 🥈  | lluuuuucy             | 1891.94 (+9.43)     |
+| 2 🥈  | lluuucy               | 2090.14 (+198.20)   |
 | 3 🥉  | leanmeister           | 1041.97             |
-| 4 ⬆   | pinksynthesis29       | 1014.44 (+53.98)    |
-| 5 ⬇   | respirate_            | 985.00              |
+| 4     | pinksynthesis29       | 1014.61 (+0.17)     |
+| 5     | respirate_            | 985.00              |
 | 6     | elisworm              | 635.41              |
 | 7     | derinturitierutz      | 599.67              |
 | 8     | kishma9               | 498.05              |
@@ -18,4 +18,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-02-22 10:24:34 UTC_
+_Last updated at 2026-03-01 09:44:19 UTC_

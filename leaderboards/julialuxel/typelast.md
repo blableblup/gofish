@@ -35,17 +35,17 @@
 | 29   | 🌰 acorn        | 1.34          | julialuxel            | 2024-09-30 23:18:34 |
 | 28   | 🐦‍⬛ robin        | 0.69          | ninjaross             | 2024-05-04 18:16:52 |
 | 27   | ☘️ clover       | 1.46          | hahppyy               | 2024-04-02 15:48:36 |
-| 26   | 🪸 coral        | 20.18         | lluuuuucy             | 2024-04-01 18:43:48 |
+| 26   | 🪸 coral        | 20.18         | lluuucy               | 2024-04-01 18:43:48 |
 | 25   | 🐸 frog         | 0.81          | dazedforevermore      | 2024-04-01 16:32:08 |
 | 24   | 💀 skull        | 8.64          | julialuxel            | 2024-04-01 16:11:26 |
-| 23   | 🦪 oyster       | 20.43         | lluuuuucy             | 2024-04-01 15:47:01 |
+| 23   | 🦪 oyster       | 20.43         | lluuucy               | 2024-04-01 15:47:01 |
 | 22   | 🌿 seaweed      | 0.42          | julialuxel            | 2024-04-01 15:04:41 |
-| 21   | 🐙 octopus      | 88.82         | lluuuuucy             | 2024-04-01 13:37:16 |
-| 20   | 🌹 rose         | 0.94          | lluuuuucy             | 2024-03-29 17:48:21 |
-| 19   | 🧦 socks        | 0.19          | lluuuuucy             | 2024-03-12 14:48:51 |
-| 18   | 🍬 candy        | 0.00          | lluuuuucy             | 2024-02-29 18:14:45 |
-| 17   | 🐡 blowfish     | 17.98         | lluuuuucy             | 2024-02-29 16:26:42 |
-| 16   | 👢 boot         | 1.80          | lluuuuucy             | 2024-02-11 21:01:46 |
+| 21   | 🐙 octopus      | 88.82         | lluuucy               | 2024-04-01 13:37:16 |
+| 20   | 🌹 rose         | 0.94          | lluuucy               | 2024-03-29 17:48:21 |
+| 19   | 🧦 socks        | 0.19          | lluuucy               | 2024-03-12 14:48:51 |
+| 18   | 🍬 candy        | 0.00          | lluuucy               | 2024-02-29 18:14:45 |
+| 17   | 🐡 blowfish     | 17.98         | lluuucy               | 2024-02-29 16:26:42 |
+| 16   | 👢 boot         | 1.80          | lluuucy               | 2024-02-11 21:01:46 |
 | 15   | 🦈 shark        | 183.97        | tucelli               | 2024-02-04 14:44:44 |
 | 14   | 🪨 rock         | 41.96         | hahppyy               | 2024-02-01 13:41:58 |
 | 13   | 🥫 cannedfood   | 1.90          | death_nd_decay        | 2024-01-25 13:31:20 |
@@ -62,4 +62,4 @@
 | 2    | 🐧 penguin      | 29.49         | ryebreadward          | 2024-01-01 00:28:42 |
 | 1    | 🧣 scarf        | 0.37          | hahppyy               | 2023-12-24 23:05:05 |
 
-_Last updated at 2025-12-28 10:42:52 UTC_
+_Last updated at 2026-03-01 09:44:14 UTC_

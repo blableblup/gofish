@@ -2,7 +2,7 @@
 
 | #    | Player           | Fish         | Weight in lbs | Date in UTC         |
 |:-----|:-----------------|:-------------|:--------------|:--------------------|
-| 10   | lluuuuucy        | 🦑 squid     | 308.86        | 2024-12-24 02:34:50 |
+| 10   | lluuucy          | 🦑 squid     | 308.86        | 2024-12-24 02:34:50 |
 | 9    | dazedforevermore | 🦑 squid     | 307.6         | 2023-12-31 16:04:05 |
 | 8    | sicklymaidrobot  | 🦑 squid     | 306.97        | 2023-12-28 00:11:01 |
 | 7    | qu4ttromila      | 🐳 bluewhale | 303.81        | 2023-03-17 23:18:19 |
@@ -15,4 +15,4 @@
 
 _Only showing fish weighing >= 200 lbs_
 
-_Last updated at 2025-12-07 09:35:28 UTC_
+_Last updated at 2026-03-01 09:44:18 UTC_

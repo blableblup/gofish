@@ -40,7 +40,7 @@
 		"fishid": 211447,
 		"chatid": 584,
 		"date": "2025-10-30T18:11:25Z",
-		"rank": 50
+		"rank": 51
 	},
 	"bat": {
 		"player": "kishma9",
@@ -144,7 +144,7 @@
 		"fishid": 124760,
 		"chatid": 274,
 		"date": "2024-11-25T23:27:07Z",
-		"rank": 53
+		"rank": 54
 	},
 	"briefs": {
 		"player": "dazedforevermore",
@@ -204,7 +204,7 @@
 		"rank": 40
 	},
 	"cardinal": {
-		"player": "lluuuuucy",
+		"player": "lluuucy",
 		"playerid": 21,
 		"verified": true,
 		"weight": 2.81,
@@ -216,7 +216,7 @@
 		"fishid": 114042,
 		"chatid": 157,
 		"date": "2024-10-26T03:04:44Z",
-		"rank": 47
+		"rank": 48
 	},
 	"clover": {
 		"player": "derintu",
@@ -273,10 +273,10 @@
 		"fishid": 154223,
 		"chatid": 299,
 		"date": "2025-03-12T22:09:40Z",
-		"rank": 48
+		"rank": 49
 	},
 	"crocodile": {
-		"player": "lluuuuucy",
+		"player": "lluuucy",
 		"playerid": 21,
 		"verified": true,
 		"weight": 136.84,
@@ -316,7 +316,7 @@
 		"fishid": 156243,
 		"chatid": 403,
 		"date": "2025-03-17T18:45:36Z",
-		"rank": 52
+		"rank": 53
 	},
 	"dolphin": {
 		"player": "gawblemachine",
@@ -347,7 +347,7 @@
 		"rank": 43
 	},
 	"emptynest": {
-		"player": "lluuuuucy",
+		"player": "lluuucy",
 		"playerid": 21,
 		"verified": true,
 		"weight": 6.8,
@@ -434,7 +434,7 @@
 		"rank": 44
 	},
 	"icecube": {
-		"player": "lluuuuucy",
+		"player": "lluuucy",
 		"playerid": 21,
 		"verified": true,
 		"weight": 6.16,
@@ -474,7 +474,7 @@
 		"fishid": 156196,
 		"chatid": 395,
 		"date": "2025-03-17T16:11:43Z",
-		"rank": 60
+		"rank": 61
 	},
 	"iphone": {
 		"player": "fvkdylan",
@@ -502,7 +502,7 @@
 		"fishid": 196110,
 		"chatid": 487,
 		"date": "2025-08-29T19:43:05Z",
-		"rank": 54
+		"rank": 55
 	},
 	"leaf": {
 		"player": "larvaew",
@@ -516,7 +516,7 @@
 		"fishid": 211506,
 		"chatid": 590,
 		"date": "2025-10-30T21:27:22Z",
-		"rank": 58
+		"rank": 59
 	},
 	"lizard": {
 		"player": "derintu",
@@ -672,7 +672,7 @@
 		"fishid": 205550,
 		"chatid": 525,
 		"date": "2025-10-08T21:32:24Z",
-		"rank": 51
+		"rank": 52
 	},
 	"sandal": {
 		"player": "leanmeister",
@@ -687,7 +687,7 @@
 		"fishid": 156667,
 		"chatid": 432,
 		"date": "2025-03-18T21:15:42Z",
-		"rank": 49
+		"rank": 50
 	},
 	"sauropod": {
 		"player": "elisworm",
@@ -704,7 +704,7 @@
 		"rank": 2
 	},
 	"seal": {
-		"player": "lluuuuucy",
+		"player": "lluuucy",
 		"playerid": 21,
 		"verified": true,
 		"weight": 121.75,
@@ -730,10 +730,10 @@
 		"fishid": 111030,
 		"chatid": 104,
 		"date": "2024-09-02T19:38:53Z",
-		"rank": 57
+		"rank": 58
 	},
 	"shark": {
-		"player": "lluuuuucy",
+		"player": "lluuucy",
 		"playerid": 21,
 		"verified": true,
 		"weight": 188.18,
@@ -830,7 +830,7 @@
 		"fishid": 111041,
 		"chatid": 115,
 		"date": "2024-09-08T17:15:35Z",
-		"rank": 59
+		"rank": 60
 	},
 	"socks": {
 		"player": "respirate_",
@@ -844,7 +844,7 @@
 		"fishid": 111040,
 		"chatid": 114,
 		"date": "2024-09-07T23:49:45Z",
-		"rank": 55
+		"rank": 56
 	},
 	"spider": {
 		"player": "pinksynthesis29",
@@ -973,7 +973,7 @@
 		"fishid": 236108,
 		"chatid": 685,
 		"date": "2026-01-24T22:59:13Z",
-		"rank": 56
+		"rank": 57
 	},
 	"whale": {
 		"player": "respirate_",
@@ -1005,17 +1005,18 @@
 		"rank": 65
 	},
 	"worm": {
-		"player": "derintu",
-		"playerid": 3638,
-		"weight": 0.84,
+		"player": "lluuucy",
+		"playerid": 21,
+		"verified": true,
+		"weight": 3.36,
 		"bot": "gofishgame",
 		"fishtype": "🪱",
 		"fishname": "worm",
 		"catchtype": "normal",
 		"chat": "swormbeard",
-		"fishid": 228192,
-		"chatid": 667,
-		"date": "2025-12-25T20:43:40Z",
-		"rank": 60
+		"fishid": 242900,
+		"chatid": 732,
+		"date": "2026-02-23T18:04:52Z",
+		"rank": 47
 	}
 }

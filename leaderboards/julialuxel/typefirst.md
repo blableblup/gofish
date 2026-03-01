@@ -16,16 +16,16 @@
 | 48   | 🐦‍⬛ robin        | 0.69          | ninjaross        | 2024-05-04 18:16:52 |
 | 47   | 💀 skull        | 8.64          | julialuxel       | 2024-04-01 16:11:26 |
 | 46   | 🌿 seaweed      | 0.01          | hahppyy          | 2024-04-01 14:24:57 |
-| 45   | 🐌 snail        | 0.67          | lluuuuucy        | 2024-03-29 19:36:29 |
-| 44   | 🦎 lizard       | 5.71          | lluuuuucy        | 2024-03-29 19:01:01 |
-| 43   | ☘️ clover        | 0.12          | lluuuuucy        | 2024-03-29 18:19:02 |
+| 45   | 🐌 snail        | 0.67          | lluuucy          | 2024-03-29 19:36:29 |
+| 44   | 🦎 lizard       | 5.71          | lluuucy          | 2024-03-29 19:01:01 |
+| 43   | ☘️ clover       | 0.12          | lluuucy          | 2024-03-29 18:19:02 |
 | 42   | 🌹 rose         | 0.94          | suavvvvv         | 2024-03-29 17:01:59 |
-| 41   | 🧦 socks        | 0.19          | lluuuuucy        | 2024-03-12 14:48:51 |
+| 41   | 🧦 socks        | 0.19          | lluuucy          | 2024-03-12 14:48:51 |
 | 40   | 🪨 rock         | 41.96         | hahppyy          | 2024-02-01 13:41:58 |
 | 39   | 🐍 snake        | 24.30         | hahppyy          | 2024-01-24 16:47:43 |
 | 38   | 🦈 shark        | 72.09         | julialuxel       | 2024-01-12 15:15:53 |
 | 37   | 🧊 icecube      | 8.17          | julialuxel       | 2024-01-11 13:42:35 |
-| 36   | ⛸️ iceskate      | 0.62          | toastyso         | 2024-01-07 02:21:01 |
+| 36   | ⛸️ iceskate     | 0.62          | toastyso         | 2024-01-07 02:21:01 |
 | 35   | 🍬 candy        | 0.00          | toastyso         | 2024-01-05 23:58:33 |
 | 34   | 👟 sneaker      | 0.53          | supibot          | 2024-01-04 18:43:39 |
 | 33   | 🦪 oyster       | 37.55         | puzzlow          | 2024-01-04 18:20:12 |
@@ -41,7 +41,7 @@
 | 23   | 👢 boot         | 1.34          | hahppyy          | 2023-12-28 17:58:20 |
 | 22   | 🦭 seal         | 53.14         | ryebreadward     | 2023-12-28 17:37:42 |
 | 21   | 🐡 blowfish     | 18.91         | toastyso         | 2023-12-27 10:41:27 |
-| 20   | 🕷️ spider        | 15.31         | hahppyy          | 2023-12-26 22:23:58 |
+| 20   | 🕷️ spider       | 15.31         | hahppyy          | 2023-12-26 22:23:58 |
 | 19   | 🐬 dolphin      | 90.05         | sicklymaidrobot  | 2023-12-26 20:22:24 |
 | 18   | 🍄 oceanplant   | 12.93         | ryebreadward     | 2023-12-25 23:00:20 |
 | 17   | 🧤 gloves       | 0.86          | hahppyy          | 2023-12-25 20:21:08 |
@@ -52,14 +52,14 @@
 | 12   | 🥫 cannedfood   | 0.09          | hahppyy          | 2023-12-25 05:41:31 |
 | 11   | 🧣 scarf        | 0.37          | hahppyy          | 2023-12-24 23:05:05 |
 | 10   | 🐙 octopus      | 57.77         | julialuxel       | 2023-12-24 11:12:47 |
-| 9    | 🐟 fish         | 6.49          | lluuuuucy        | 2023-12-23 19:58:52 |
+| 9    | 🐟 fish         | 6.49          | lluuucy          | 2023-12-23 19:58:52 |
 | 8    | 🦀 crab         | 1.55          | hahppyy          | 2023-12-23 18:45:20 |
-| 7    | 🐧 penguin      | 35.92         | lluuuuucy        | 2023-12-23 18:45:06 |
+| 7    | 🐧 penguin      | 35.92         | lluuucy          | 2023-12-23 18:45:06 |
 | 6    | 🦞 lobster      | 17.60         | hahppyy          | 2023-12-23 16:39:19 |
-| 5    | 🦦 otter        | 1.55          | lluuuuucy        | 2023-12-23 15:04:03 |
+| 5    | 🦦 otter        | 1.55          | lluuucy          | 2023-12-23 15:04:03 |
 | 4    | 🎏 lure         | 2.57          | julialuxel       | 2023-12-23 13:45:29 |
 | 3    | 🦑 squid        | 2.36          | hahppyy          | 2023-12-23 13:34:32 |
 | 2    | 🧸 teddybear    | 11.20         | hahppyy          | 2023-12-23 12:43:06 |
 | 1    | 🪝 hook         | 2.20          | hahppyy          | 2023-12-23 11:58:15 |
 
-_Last updated at 2025-12-07 09:33:05 UTC_
+_Last updated at 2026-03-01 09:44:16 UTC_

@@ -2,12 +2,12 @@
 
 | Rank  | Player                | Fish seen |
 |:------|:----------------------|:----------|
-| 1 🥇  | fishingalt            | 121       |
+| 1 🥇  | fishingalt            | 122 (+1)  |
 | 2 🥈  | derinturitierutz      | 118       |
 | 3 🥉  | derintu               | 108       |
-| 4     | lluuuuucy             | 104       |
-| 5     | larvaew               | 103 (+1)  |
-| 6 ⬇   | leanmeister           | 102       |
+| 4     | lluuucy               | 104       |
+| 5     | larvaew               | 103       |
+| 6     | leanmeister           | 102       |
 | 7     | cimgu                 | 98        |
 | 8     | qu4ttromila           | 94        |
 | 9     | breadworms            | 93        |
@@ -41,9 +41,9 @@
 | 37    | divra__               | 55        |
 | 37    | ouacewi               | 55        |
 | 39    | fvkdylan              | 54        |
-| 39 ⬆  | wcd0                  | 54 (+1)   |
-| 41 ⬇  | bussinongnocap        | 53        |
-| 41 ⬇  | lazuli672*            | 53        |
+| 39    | wcd0                  | 54        |
+| 41    | bussinongnocap        | 53        |
+| 41    | lazuli672*            | 53        |
 | 43    | houseofleaves*        | 51        |
 | 43    | osnyatsky*            | 51        |
 | 45    | pinksynthesis29       | 50        |
@@ -52,4 +52,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-02-22 10:21:17 UTC_
+_Last updated at 2026-03-01 09:44:13 UTC_

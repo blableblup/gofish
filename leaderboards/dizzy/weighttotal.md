@@ -12,8 +12,8 @@
 | 8     | konsminator    | 7261.34             |
 | 9     | ofaisalz       | 5762.78             |
 | 10    | vagdy          | 5318.19             |
-| 11    | hamoodhabibee  | 4202.40 (+0.96)     |
-| 12    | notnownico     | 4093.26 (+2.98)     |
+| 11    | hamoodhabibee  | 4202.40             |
+| 12    | notnownico     | 4093.26             |
 | 13    | mousee93       | 4037.14             |
 | 14    | rabituwu       | 3852.81             |
 | 15    | simplydrack    | 3834.86             |
@@ -49,8 +49,8 @@
 | 45    | rougep1rate    | 694.24              |
 | 46    | reallyxtra     | 687.13              |
 | 47    | gizbart        | 677.47              |
-| 48    | shheedy        | 636.46              |
-| 49    | avrwhy         | 631.68              |
+| 48 ⬆  | avrwhy         | 636.86 (+5.18)      |
+| 49 ⬇  | shheedy        | 636.46              |
 | 50    | nocer2k        | 628.12              |
 | 51    | remer_2        | 573.61              |
 | 52    | notcanopus     | 508.72              |
@@ -58,4 +58,4 @@
 
 _Only showing fishers with a total weight of >= 500 lbs_
 
-_Last updated at 2026-02-22 10:24:34 UTC_
+_Last updated at 2026-03-01 09:44:19 UTC_

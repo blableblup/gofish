@@ -20,11 +20,11 @@
 | 116  | 🐜 ant             | 0.33          | derintu                 | 2025-06-25 11:16:14 |
 | 115  | 🪲 beetle          | 0.47          | qu4ttromila             | 2025-06-25 10:39:09 |
 | 114  | 🪻 lupine          | 1.35          | ytp_dl                  | 2025-06-24 21:21:35 |
-| 113  | 🐝 bee             | 1.25          | lluuuuucy               | 2025-06-24 11:19:51 |
+| 113  | 🐝 bee             | 1.25          | lluuucy                 | 2025-06-24 11:19:51 |
 | 112  | 🦋 butterfly       | 0.18          | destin357               | 2025-06-24 10:01:52 |
 | 111  | 🍇 crowberries     | 0.79          | derinturitierutz        | 2025-06-23 19:30:00 |
 | 110  | 🕸️ spiderweb       | 0.10          | larvaew                 | 2025-06-22 16:54:56 |
-| 109  | 🐛 caterpillar     | 0.47          | lluuuuucy               | 2025-06-22 07:39:00 |
+| 109  | 🐛 caterpillar     | 0.47          | lluuucy                 | 2025-06-22 07:39:00 |
 | 108  | 🫐 bilberries      | 0.01          | larvaew                 | 2025-06-22 00:11:05 |
 | 107  | 🪰 fly             | 0.07          | destin357               | 2025-06-21 23:33:39 |
 | 106  | 🫙 jar             | 0.00          | breadworms              | 2025-06-21 06:11:57 |
@@ -37,9 +37,9 @@
 | 99   | 🛒 shoppingcart    | 34.05         | derinturitierutz        | 2025-01-01 18:01:51 |
 | 98   | 🧥 coat            | 1.85          | gstaman911              | 2025-01-01 13:14:00 |
 | 97   | 🪿 goose           | 2.44          | leanmeister             | 2024-12-31 17:08:06 |
-| 94   | ✉️ letter          | 0.00          | derinturitierutz        | 2024-12-24 10:24:51 |
 | 94   | 🎀 wrappingpaper   | 0.00          | derinturitierutz        | 2024-12-24 10:24:51 |
 | 94   | 🍪 cookie          | 0.00          | derinturitierutz        | 2024-12-24 10:24:51 |
+| 94   | ✉️ letter          | 0.00          | derinturitierutz        | 2024-12-24 10:24:51 |
 | 93   | 🎁 present         | 0.00          | breadworms              | 2024-12-24 09:32:34 |
 | 92   | 🐀 rat             | 75.78         | fishingalt              | 2024-12-23 14:44:14 |
 | 91   | 🐿️ squirrel        | 0.00          | larvaew                 | 2024-12-21 19:36:22 |
@@ -50,7 +50,7 @@
 | 86   | 🍁 leaf            | 0.54          | osnyisdead              | 2024-09-25 13:32:48 |
 | 85   | 🌰 acorn           | 1.77          | osnyisdead              | 2024-09-25 02:42:18 |
 | 84   | 🌷 tulip           | 1.77          | bapqo                   | 2024-09-11 16:29:55 |
-| 83   | 🦢 swan            | 0.17          | lluuuuucy               | 2024-07-15 15:39:04 |
+| 83   | 🦢 swan            | 0.17          | lluuucy                 | 2024-07-15 15:39:04 |
 | 82   | 🌻 sunflower       | 1.35          | suavvvvv                | 2024-06-01 13:45:19 |
 | 81   | 🐦 cardinal        | 1.15          | bapqo                   | 2024-04-09 23:37:57 |
 | 80   | 🐦‍⬛ robin           | 3.16          | kishma9                 | 2024-04-09 23:37:18 |
@@ -58,9 +58,9 @@
 | 78   | 🪹 emptynest       | 1.69          | kishma9                 | 2024-03-28 11:24:06 |
 | 77   | 🪺 nestwitheggs    | 9.42          | miiiiisho               | 2024-03-28 04:15:03 |
 | 76   | 🦫 beaver          | 17.95         | kishma9                 | 2024-03-28 01:58:22 |
-| 75   | 🌹 rose            | 2.29          | lluuuuucy               | 2024-03-28 01:11:25 |
+| 75   | 🌹 rose            | 2.29          | lluuucy                 | 2024-03-28 01:11:25 |
 | 74   | ☘️ clover          | 3.12          | derinturitierutz        | 2024-03-28 00:59:39 |
-| 73   | 🧵 wireline        | 0.66          | lluuuuucy               | 2024-03-28 00:26:26 |
+| 73   | 🧵 wireline        | 0.66          | lluuucy                 | 2024-03-28 00:26:26 |
 | 72   | 🎱 8ball           | 7.11          | kishma9                 | 2024-03-28 00:11:52 |
 | 71   | 📱 iphone          | 2.49          | fishingalt              | 2024-03-28 00:02:47 |
 | 70   | 🛢️ oildrum         | 204.30        | sussy_amonge            | 2023-08-23 01:40:04 |
@@ -134,4 +134,4 @@
 | 2    | 🐸 frog            | 4.76          | miiiiisho               | 2022-12-04 01:04:30 |
 | 1    | 🦐 shrimp          | 29.58         | lagggm*                 | 2022-12-04 00:58:55 |
 
-_Last updated at 2026-02-15 10:02:32 UTC_
+_Last updated at 2026-03-01 09:44:16 UTC_

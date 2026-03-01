@@ -2,34 +2,34 @@
 
 | Rank | Fish              | Weight in lbs | Player      | Date in UTC         |
 |:-----|:------------------|:--------------|:------------|:--------------------|
-| 77   | 🐟 fish           | 3.20          | mowogan     | 2026-02-21 22:01:17 |
-| 76   | 🦠 plankton       | 7.17          | konsminator | 2026-02-19 09:58:59 |
-| 75   | 🐋 whale          | 45.44         | konsminator | 2026-02-16 08:08:10 |
-| 74   | 🐬 dolphin        | 56.96         | konsminator | 2026-02-15 16:44:46 |
-| 73   | 🪝 hook           | 1.98          | konsminator | 2026-02-15 08:58:50 |
-| 72   | 🐙 octopus        | 1.60          | konsminator | 2026-02-14 17:43:15 |
-| 71   | 🦎 lizard         | 3.14          | lolspers    | 2026-02-14 14:33:54 |
-| 70   | 🐢 turtle         | 99.89         | lolspers    | 2026-02-14 08:06:19 |
-| 69   | 🦀 crab           | 1.04          | mowogan     | 2026-02-14 02:39:14 |
-| 68   | 🧊 icecube        | 9.05          | konsminator | 2026-02-13 17:54:50 |
-| 67   | 🎏 lure           | 0.00          | lolspers    | 2026-02-12 22:46:59 |
-| 66   | 🐊 crocodile      | 2.86          | mowogan     | 2026-02-12 21:47:28 |
-| 65   | 🐍 snake          | 6.76          | lolspers    | 2026-02-12 21:24:21 |
-| 64   | 🕷️ spider         | 10.37         | mowogan     | 2026-02-12 19:33:17 |
-| 63   | 🦞 lobster        | 60.72         | konsminator | 2026-02-12 19:12:16 |
-| 62   | 🦭 seal           | 1.89          | mowogan     | 2026-02-12 13:16:56 |
-| 61   | 🧸 teddybear      | 5.61          | konsminator | 2026-02-11 17:06:13 |
-| 60   | 🪱 worm           | 5.61          | konsminator | 2026-02-11 16:08:39 |
-| 59   | 🥫 cannedfood     | 1.71          | konsminator | 2026-02-11 10:31:45 |
-| 58   | ☘️ clover         | 2.66          | lolspers    | 2026-02-10 11:47:28 |
-| 57   | 🐚 shell          | 3.43          | konsminator | 2026-02-09 21:36:15 |
-| 56   | 🧟 deadbody       | 91.35         | konsminator | 2026-02-09 16:10:54 |
-| 55   | 🪵 log            | 11.34         | konsminator | 2026-02-09 12:57:57 |
-| 54   | 🦪 oyster         | 40.44         | mowogan     | 2026-02-09 09:14:17 |
-| 53   | 🥀 wiltedflower   | 0.44          | mowogan     | 2026-02-08 06:17:18 |
-| 52   | 🦫 beaver         | 24.59         | mowogan     | 2026-02-06 22:58:37 |
-| 51   | 🐌 snail          | 0.26          | mowogan     | 2026-02-06 14:37:31 |
-| 50   | 🦐 shrimp         | 0.85          | konsminator | 2026-02-04 22:38:47 |
+| 77   | 🐢 turtle         | 62.70         | lolspers    | 2026-02-28 19:02:29 |
+| 76   | 🦐 shrimp         | 20.04         | konsminator | 2026-02-27 10:32:06 |
+| 75   | 🪝 hook           | 2.18          | mowogan     | 2026-02-26 06:18:23 |
+| 74   | 🐊 crocodile      | 39.59         | mowogan     | 2026-02-25 02:47:43 |
+| 73   | 🦎 lizard         | 4.34          | lolspers    | 2026-02-24 20:55:34 |
+| 72   | 🐟 fish           | 3.20          | mowogan     | 2026-02-21 22:01:17 |
+| 71   | 🦠 plankton       | 7.17          | konsminator | 2026-02-19 09:58:59 |
+| 70   | 🐋 whale          | 45.44         | konsminator | 2026-02-16 08:08:10 |
+| 69   | 🐬 dolphin        | 56.96         | konsminator | 2026-02-15 16:44:46 |
+| 68   | 🐙 octopus        | 1.60          | konsminator | 2026-02-14 17:43:15 |
+| 67   | 🦀 crab           | 1.04          | mowogan     | 2026-02-14 02:39:14 |
+| 66   | 🧊 icecube        | 9.05          | konsminator | 2026-02-13 17:54:50 |
+| 65   | 🎏 lure           | 0.00          | lolspers    | 2026-02-12 22:46:59 |
+| 64   | 🐍 snake          | 6.76          | lolspers    | 2026-02-12 21:24:21 |
+| 63   | 🕷️ spider         | 10.37         | mowogan     | 2026-02-12 19:33:17 |
+| 62   | 🦞 lobster        | 60.72         | konsminator | 2026-02-12 19:12:16 |
+| 61   | 🦭 seal           | 1.89          | mowogan     | 2026-02-12 13:16:56 |
+| 60   | 🧸 teddybear      | 5.61          | konsminator | 2026-02-11 17:06:13 |
+| 59   | 🪱 worm           | 5.61          | konsminator | 2026-02-11 16:08:39 |
+| 58   | 🥫 cannedfood     | 1.71          | konsminator | 2026-02-11 10:31:45 |
+| 57   | ☘️ clover         | 2.66          | lolspers    | 2026-02-10 11:47:28 |
+| 56   | 🐚 shell          | 3.43          | konsminator | 2026-02-09 21:36:15 |
+| 55   | 🧟 deadbody       | 91.35         | konsminator | 2026-02-09 16:10:54 |
+| 54   | 🪵 log            | 11.34         | konsminator | 2026-02-09 12:57:57 |
+| 53   | 🦪 oyster         | 40.44         | mowogan     | 2026-02-09 09:14:17 |
+| 52   | 🥀 wiltedflower   | 0.44          | mowogan     | 2026-02-08 06:17:18 |
+| 51   | 🦫 beaver         | 24.59         | mowogan     | 2026-02-06 22:58:37 |
+| 50   | 🐌 snail          | 0.26          | mowogan     | 2026-02-06 14:37:31 |
 | 49   | 🐸 frog           | 1.69          | konsminator | 2026-02-03 16:06:57 |
 | 48   | 🌿 seaweed        | 0.52          | mowogan     | 2026-02-02 11:12:01 |
 | 47   | 🐦 cardinal       | 1.98          | konsminator | 2026-01-31 07:46:25 |
@@ -80,4 +80,4 @@
 | 2    | 🌻 sunflower      | 2.71          | mowogan     | 2025-07-04 06:28:42 |
 | 1    | 🐜 ant            | 0.12          | n1nzin_     | 2025-06-24 12:10:54 |
 
-_Last updated at 2026-02-22 10:21:12 UTC_
+_Last updated at 2026-03-01 09:44:14 UTC_

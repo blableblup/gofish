@@ -9,7 +9,7 @@
 | 5     | larvaew               | 🐳 bluewhale | 208.05        | 2024-08-04 20:06:31 |
 | 6     | derinturitierutz      | 🐳 bluewhale | 206.65        | 2024-08-05 19:56:13 |
 | 7     | mitgliederversammlung | 🦕 sauropod  | 202.40        | 2024-08-30 22:35:37 |
-| 8     | lluuuuucy             | 🦈 shark     | 188.18        | 2026-01-31 22:52:23 |
+| 8     | lluuucy               | 🦈 shark     | 188.18        | 2026-01-31 22:52:23 |
 | 9     | leanmeister           | 🦑 squid     | 184.28        | 2025-03-15 00:53:07 |
 | 10    | respirate_            | 🐋 whale     | 140.34        | 2024-09-08 18:56:18 |
 | 11    | julialuxel            | 🐊 crocodile | 105.00        | 2024-07-28 22:59:00 |
@@ -19,4 +19,4 @@
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2026-02-22 10:21:16 UTC_
+_Last updated at 2026-03-01 09:47:17 UTC_

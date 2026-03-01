@@ -2,7 +2,8 @@
 
 | #    | Player           | Fish                                                                                                    | Weight in lbs | Date in UTC         | Chat                                                                                                  |
 |:-----|:-----------------|:--------------------------------------------------------------------------------------------------------|:--------------|:--------------------|:------------------------------------------------------------------------------------------------------|
-| 7 🆕 | joshuabzz        | ![OSFrog](https://raw.githubusercontent.com/blableblup/gofish/main/images/shiny/OSFrog.png) frog        | 0.12          | 2025-12-01 18:14:56 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)           |
+| 8 🆕 | blu_inx          | ![SabaPing](https://raw.githubusercontent.com/blableblup/gofish/main/images/shiny/SabaPing.png) fish    | 2.91          | 2026-02-28 16:27:43 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)             |
+| 7    | joshuabzz        | ![OSFrog](https://raw.githubusercontent.com/blableblup/gofish/main/images/shiny/OSFrog.png) frog        | 0.12          | 2025-12-01 18:14:56 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)           |
 | 6    | osnyisdead       | ![SabaPing](https://raw.githubusercontent.com/blableblup/gofish/main/images/shiny/SabaPing.png) fish    | 1.24          | 2025-10-19 09:08:36 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 5    | bubinga          | ![OSFrog](https://raw.githubusercontent.com/blableblup/gofish/main/images/shiny/OSFrog.png) frog        | 3.74          | 2025-08-02 07:39:21 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)             |
 | 4    | ritaaww          | ![HailHelix](https://raw.githubusercontent.com/blableblup/gofish/main/images/shiny/HailHelix.png) shell | 2.06          | 2025-01-11 01:30:41 | ![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)             |
@@ -10,4 +11,4 @@
 | 2    | derinturitierutz | ![HailHelix](https://raw.githubusercontent.com/blableblup/gofish/main/images/shiny/HailHelix.png) shell | 2.21          | 2023-10-01 21:24:45 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 1    | hennnnni         | ![HailHelix](https://raw.githubusercontent.com/blableblup/gofish/main/images/shiny/HailHelix.png) shell | 2.53          | 2023-09-03 01:20:45 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)           |
 
-_Last updated at 2025-12-07 09:51:10 UTC_
+_Last updated at 2026-03-01 09:47:56 UTC_

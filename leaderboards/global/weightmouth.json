@@ -137,7 +137,7 @@
 		"fishtypemouth": "🐙",
 		"fishnamemouth": "octopus",
 		"totalweight": 160.01999999999998,
-		"rank": 61
+		"rank": 62
 	},
 	"2024-05-09 11:58:09 UTC": {
 		"player": "booty_bread",
@@ -236,7 +236,7 @@
 		"fishtypemouth": "🐙",
 		"fishnamemouth": "octopus",
 		"totalweight": 157.41,
-		"rank": 65
+		"rank": 66
 	},
 	"2025-01-15 15:14:04 UTC": {
 		"player": "leanmeister",
@@ -275,7 +275,7 @@
 		"fishtypemouth": "🐚",
 		"fishnamemouth": "shell",
 		"totalweight": 162.92,
-		"rank": 57
+		"rank": 58
 	},
 	"2025-03-02 19:47:11 UTC": {
 		"player": "ritaaww",
@@ -372,7 +372,7 @@
 		"fishtypemouth": "🌿",
 		"fishnamemouth": "seaweed",
 		"totalweight": 154.26,
-		"rank": 67
+		"rank": 68
 	},
 	"2025-03-25 07:08:43 UTC": {
 		"player": "leanmeister",
@@ -392,7 +392,7 @@
 		"fishtypemouth": "🦞",
 		"fishnamemouth": "lobster",
 		"totalweight": 150.58999999999997,
-		"rank": 72
+		"rank": 73
 	},
 	"2025-03-27 09:50:32 UTC": {
 		"player": "lobuhtomy",
@@ -528,7 +528,7 @@
 		"fishtypemouth": "🐋",
 		"fishnamemouth": "whale",
 		"totalweight": 151.19,
-		"rank": 71
+		"rank": 72
 	},
 	"2025-04-15 03:54:50 UTC": {
 		"player": "destin357",
@@ -547,7 +547,7 @@
 		"fishtypemouth": "🪳",
 		"fishnamemouth": "cockroach",
 		"totalweight": 158.29,
-		"rank": 63
+		"rank": 64
 	},
 	"2025-04-15 07:04:27 UTC": {
 		"player": "destin357",
@@ -680,7 +680,7 @@
 		"fishtypemouth": "🕷️",
 		"fishnamemouth": "spider",
 		"totalweight": 159.47000000000003,
-		"rank": 62
+		"rank": 63
 	},
 	"2025-05-11 10:52:51 UTC": {
 		"player": "bubinga",
@@ -833,7 +833,7 @@
 		"fishtypemouth": "🐳",
 		"fishnamemouth": "bluewhale",
 		"totalweight": 157.91,
-		"rank": 64
+		"rank": 65
 	},
 	"2025-07-23 18:46:23 UTC": {
 		"player": "nndiana",
@@ -947,7 +947,7 @@
 		"fishtypemouth": "🐢",
 		"fishnamemouth": "turtle",
 		"totalweight": 162.57999999999998,
-		"rank": 58
+		"rank": 59
 	},
 	"2025-08-24 07:44:32 UTC": {
 		"player": "destin357",
@@ -985,7 +985,7 @@
 		"fishtypemouth": "🐙",
 		"fishnamemouth": "octopus",
 		"totalweight": 160.64,
-		"rank": 60
+		"rank": 61
 	},
 	"2025-10-05 19:20:29 UTC": {
 		"player": "bubinga",
@@ -1042,7 +1042,7 @@
 		"fishtypemouth": "🪝",
 		"fishnamemouth": "hook",
 		"totalweight": 151.21,
-		"rank": 70
+		"rank": 71
 	},
 	"2025-10-29 11:31:02 UTC": {
 		"player": "bubinga",
@@ -1175,7 +1175,7 @@
 		"fishtypemouth": "🍄",
 		"fishnamemouth": "oceanplant",
 		"totalweight": 161.41,
-		"rank": 59
+		"rank": 60
 	},
 	"2025-11-17 20:16:11 UTC": {
 		"player": "v6r_",
@@ -1234,7 +1234,7 @@
 		"fishtypemouth": "🐠",
 		"fishnamemouth": "tropicalfish",
 		"totalweight": 155.61,
-		"rank": 66
+		"rank": 67
 	},
 	"2025-11-29 12:54:09 UTC": {
 		"player": "v6r_",
@@ -1253,7 +1253,7 @@
 		"fishtypemouth": "🦪",
 		"fishnamemouth": "oyster",
 		"totalweight": 153.48999999999998,
-		"rank": 68
+		"rank": 69
 	},
 	"2025-12-20 18:32:54 UTC": {
 		"player": "bubinga",
@@ -1369,7 +1369,7 @@
 		"fishtypemouth": "💀",
 		"fishnamemouth": "skull",
 		"totalweight": 151.24,
-		"rank": 69
+		"rank": 70
 	},
 	"2026-02-10 20:27:11 UTC": {
 		"player": "dougiefresh_83",
@@ -1389,5 +1389,24 @@
 		"fishnamemouth": "lure",
 		"totalweight": 252.95,
 		"rank": 14
+	},
+	"2026-02-28 06:01:14 UTC": {
+		"player": "nndiana",
+		"playerid": 269,
+		"weight": 159.33,
+		"bot": "gofishgame",
+		"fishtype": "🦈",
+		"fishname": "shark",
+		"catchtype": "normal",
+		"chat": "psp1g",
+		"chatpfp": "![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)",
+		"fishid": 243671,
+		"chatid": 75021,
+		"date": "2026-02-28T06:01:14Z",
+		"weightmouth": 4.41,
+		"fishtypemouth": "🧊",
+		"fishnamemouth": "icecube",
+		"totalweight": 163.74,
+		"rank": 57
 	}
 }

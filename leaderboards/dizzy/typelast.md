@@ -2,13 +2,13 @@
 
 | Rank | Fish              | Weight in lbs | Player          | Date in UTC         |
 |:-----|:------------------|:--------------|:----------------|:--------------------|
-| 109  | 🐚 shell          | 1.02          | notnownico      | 2026-02-20 14:10:56 |
-| 108  | 🥫 cannedfood     | 1.96          | notnownico      | 2026-02-15 21:02:52 |
-| 107  | 🦐 shrimp         | 6.95          | a_wildmoose     | 2026-02-15 18:55:05 |
-| 106  | 🐟 fish           | 2.64          | notnownico      | 2026-02-14 14:25:29 |
-| 105  | 🪸 coral          | 9.83          | zelfarso        | 2026-02-05 18:15:37 |
-| 104  | 👢 boot           | 0.70          | baklavaandsushi | 2026-01-31 21:15:56 |
-| 103  | 🪱 worm           | 2.89          | mzrchy          | 2026-01-13 10:15:21 |
+| 109  | 🪱 worm           | 5.18          | avrwhy          | 2026-02-23 23:44:12 |
+| 108  | 🐚 shell          | 1.02          | notnownico      | 2026-02-20 14:10:56 |
+| 107  | 🥫 cannedfood     | 1.96          | notnownico      | 2026-02-15 21:02:52 |
+| 106  | 🦐 shrimp         | 6.95          | a_wildmoose     | 2026-02-15 18:55:05 |
+| 105  | 🐟 fish           | 2.64          | notnownico      | 2026-02-14 14:25:29 |
+| 104  | 🪸 coral          | 9.83          | zelfarso        | 2026-02-05 18:15:37 |
+| 103  | 👢 boot           | 0.70          | baklavaandsushi | 2026-01-31 21:15:56 |
 | 102  | 🐳 bluewhale      | 85.86         | kyonuwu         | 2026-01-07 23:29:26 |
 | 101  | 🐸 frog           | 1.63          | ofaisalz        | 2025-12-31 18:12:39 |
 | 100  | 🦑 squid          | 304.76        | gofishgamer     | 2025-12-22 05:46:17 |
@@ -98,8 +98,8 @@
 | 15   | 🐧 penguin        | 30.26         | buhl00n         | 2025-02-18 01:34:38 |
 | 14   | ☂️ umbrella       | 0.98          | glorp_fishing   | 2025-02-17 20:20:50 |
 | 13   | 👟 sneaker        | 1.36          | greenfatso      | 2025-01-27 07:33:19 |
-| 11   | 🍪 cookie         | 0.00          | anothercull     | 2025-01-15 01:31:55 |
 | 11   | 🎀 wrappingpaper  | 0.00          | anothercull     | 2025-01-15 01:31:55 |
+| 11   | 🍪 cookie         | 0.00          | anothercull     | 2025-01-15 01:31:55 |
 | 10   | 🎁 present        | 0.00          | anothercull     | 2025-01-15 01:31:08 |
 | 9    | 🥀 wiltedflower   | 2.28          | simplydrack     | 2025-01-06 17:07:07 |
 | 8    | 🛒 shoppingcart   | 56.52         | buhl00n         | 2025-01-02 17:13:58 |
@@ -111,4 +111,4 @@
 | 2    | 👑 crown          | 30.94         | glorp_fishing   | 2024-12-12 21:16:52 |
 | 1    | 🧞‍♂ genie          | 17.60         | feuha           | 2024-11-01 09:40:30 |
 
-_Last updated at 2026-02-22 10:21:12 UTC_
+_Last updated at 2026-03-01 09:44:14 UTC_

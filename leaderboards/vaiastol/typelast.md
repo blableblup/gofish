@@ -2,33 +2,33 @@
 
 | Rank | Fish              | Weight in lbs | Player             | Date in UTC         |
 |:-----|:------------------|:--------------|:-------------------|:--------------------|
-| 112  | 🦎 lizard         | 5.03          | eelacy             | 2026-02-21 23:07:43 |
-| 111  | 🎏 lure           | 0.00          | eelacy             | 2026-02-21 19:25:20 |
-| 110  | 🦐 shrimp         | 2.80          | eelacy             | 2026-02-21 19:25:15 |
-| 109  | 🦀 crab           | 1.20          | obama              | 2026-02-21 18:56:28 |
-| 108  | 🐍 snake          | 5.92          | eelacy             | 2026-02-21 18:46:44 |
-| 107  | 🐟 fish           | 13.35         | eelacy             | 2026-02-21 17:44:49 |
-| 106  | 🪱 worm           | 4.49          | proswift           | 2026-02-21 15:11:54 |
-| 105  | 🪹 emptynest      | 0.80          | eelacy             | 2026-02-21 13:32:09 |
-| 104  | 🦞 lobster        | 47.36         | leastsussyimposter | 2026-02-20 09:59:11 |
-| 103  | 🐢 turtle         | 4.69          | eelacy             | 2026-02-20 00:10:35 |
-| 102  | 🪺 nestwitheggs   | 1.04          | gstaman911         | 2026-02-19 03:49:26 |
-| 101  | 🐸 frog           | 0.58          | vaiastol           | 2026-02-18 02:27:59 |
-| 100  | 🦑 squid          | 23.94         | leastsussyimposter | 2026-02-17 20:19:16 |
-| 99   | ☘️ clover         | 1.94          | vaiastol           | 2026-02-17 19:17:31 |
-| 98   | 🐦 cardinal       | 0.84          | vaiastol           | 2026-02-16 19:54:52 |
-| 97   | 🌿 seaweed        | 0.27          | garout             | 2026-02-16 08:50:43 |
-| 96   | 🍬 candy          | 0.00          | eelacy             | 2026-02-16 03:18:55 |
-| 95   | 🪝 hook           | 0.00          | vaiastol           | 2026-02-15 03:45:05 |
-| 94   | 🪿 goose          | 2.05          | vaiastol           | 2026-02-13 19:22:51 |
-| 93   | 🥀 wiltedflower   | 1.88          | garout             | 2026-02-11 13:58:37 |
-| 92   | 🦦 otter          | 13.63         | tharawow           | 2026-02-11 11:51:40 |
-| 91   | 🪀 bobber         | 0.00          | eelacy             | 2026-02-09 13:24:38 |
-| 90   | 🦭 seal           | 11.85         | j4song             | 2026-02-04 15:13:37 |
-| 89   | 🥫 cannedfood     | 0.76          | proswift           | 2026-02-04 06:17:51 |
-| 88   | 🐚 shell          | 2.57          | leastsussyimposter | 2026-02-04 00:24:12 |
-| 87   | 🧤 gloves         | 0.61          | proswift           | 2026-02-03 15:27:48 |
-| 86   | 👢 boot           | 0.57          | proswift           | 2026-02-02 05:11:10 |
+| 112  | 🐍 snake          | 0.60          | vaiastol           | 2026-02-28 22:19:27 |
+| 111  | 🐢 turtle         | 16.71         | eelacy             | 2026-02-28 20:26:59 |
+| 110  | 🎏 lure           | 0.00          | garout             | 2026-02-28 19:41:02 |
+| 109  | 🪱 worm           | 9.67          | leastsussyimposter | 2026-02-28 19:40:11 |
+| 108  | 🐟 fish           | 4.18          | eelacy             | 2026-02-28 12:47:54 |
+| 107  | 🐸 frog           | 1.93          | eelacy             | 2026-02-28 10:07:56 |
+| 106  | 🦎 lizard         | 6.69          | eelacy             | 2026-02-28 02:54:08 |
+| 105  | 🐦 cardinal       | 3.64          | vaiastol           | 2026-02-28 01:18:34 |
+| 104  | 🍬 candy          | 0.00          | vaiastol           | 2026-02-28 01:17:28 |
+| 103  | ☘️ clover         | 2.67          | hahppyy            | 2026-02-27 22:36:01 |
+| 102  | 🦐 shrimp         | 5.32          | eelacy             | 2026-02-27 05:02:16 |
+| 101  | 🪺 nestwitheggs   | 7.31          | eelacy             | 2026-02-27 03:59:52 |
+| 100  | 🪹 emptynest      | 2.71          | vaiastol           | 2026-02-26 06:12:43 |
+| 99   | 🌿 seaweed        | 0.80          | gstaman911         | 2026-02-26 05:38:01 |
+| 98   | 🪝 hook           | 0.00          | vaiastol           | 2026-02-24 15:45:06 |
+| 97   | 🪀 bobber         | 0.00          | vaiastol           | 2026-02-24 15:44:46 |
+| 96   | 👢 boot           | 0.02          | obama              | 2026-02-22 19:13:14 |
+| 95   | 🦀 crab           | 1.20          | obama              | 2026-02-21 18:56:28 |
+| 94   | 🦞 lobster        | 47.36         | leastsussyimposter | 2026-02-20 09:59:11 |
+| 93   | 🦑 squid          | 23.94         | leastsussyimposter | 2026-02-17 20:19:16 |
+| 92   | 🪿 goose          | 2.05          | vaiastol           | 2026-02-13 19:22:51 |
+| 91   | 🥀 wiltedflower   | 1.88          | garout             | 2026-02-11 13:58:37 |
+| 90   | 🦦 otter          | 13.63         | tharawow           | 2026-02-11 11:51:40 |
+| 89   | 🦭 seal           | 11.85         | j4song             | 2026-02-04 15:13:37 |
+| 88   | 🥫 cannedfood     | 0.76          | proswift           | 2026-02-04 06:17:51 |
+| 87   | 🐚 shell          | 2.57          | leastsussyimposter | 2026-02-04 00:24:12 |
+| 86   | 🧤 gloves         | 0.61          | proswift           | 2026-02-03 15:27:48 |
 | 85   | 🐋 whale          | 129.20        | proswift           | 2026-02-02 04:29:03 |
 | 84   | 🐬 dolphin        | 52.61         | proswift           | 2026-02-02 02:32:33 |
 | 83   | 🐠 tropicalfish   | 20.55         | proswift           | 2026-02-01 18:30:11 |
@@ -54,10 +54,10 @@
 | 63   | 🪸 coral          | 16.06         | ryakarr            | 2025-12-19 22:53:43 |
 | 62   | 🐡 blowfish       | 8.30          | proswift           | 2025-12-19 20:04:21 |
 | 61   | 🧦 socks          | 1.58          | ryakarr            | 2025-12-19 02:43:10 |
-| 57   | 🍪 cookie         | 0.00          | vaiastol           | 2025-12-18 04:22:25 |
 | 57   | 🌰 acorn          | 0.00          | vaiastol           | 2025-12-18 04:22:25 |
 | 57   | ✉️ letter         | 0.00          | vaiastol           | 2025-12-18 04:22:25 |
 | 57   | 🎀 wrappingpaper  | 0.00          | vaiastol           | 2025-12-18 04:22:25 |
+| 57   | 🍪 cookie         | 0.00          | vaiastol           | 2025-12-18 04:22:25 |
 | 56   | 🐿️ squirrel       | 0.00          | garout             | 2025-12-15 19:10:04 |
 | 55   | 🎁 present        | 0.00          | vaiastol           | 2025-12-15 08:12:25 |
 | 54   | 🔔 bell           | 0.00          | vaiastol           | 2025-12-14 22:02:20 |
@@ -115,4 +115,4 @@
 | 2    | 🧭 compass        | 7.53          | julialuxel         | 2024-12-25 19:32:21 |
 | 1    | 🐈‍⬛ blackcat       | 60.23         | hahppyy            | 2024-12-19 10:38:55 |
 
-_Last updated at 2026-02-22 10:21:12 UTC_
+_Last updated at 2026-03-01 09:44:14 UTC_
