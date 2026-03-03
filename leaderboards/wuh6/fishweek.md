@@ -18,7 +18,7 @@
 | 14    | caprisen_                 | 51          |
 | 15    | veny2lbs                  | 47          |
 | 16    | zwockel01                 | 40          |
-| 17    | blu_inx                   | 34          |
+| 17    | blu_inx                   | 38 (+4)     |
 | 18    | flovrek                   | 24          |
 | 19    | bluberry                  | 21          |
 | 20    | wuh6                      | 18          |
@@ -29,4 +29,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-02-24 22:24:14 UTC_
+_Last updated at 2026-03-03 12:36:22 UTC_

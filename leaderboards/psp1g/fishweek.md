@@ -43,10 +43,11 @@
 | 39    | crtted                    | 28          |
 | 40    | bananenshak3              | 27          |
 | 41    | creepycode                | 26          |
-| 42    | angus_lpc                 | 24          |
-| 42    | seryxx                    | 24          |
-| 44    | afju*                     | 21          |
+| 41 🆕 | flunke_                   | 26          |
+| 43 ⬇  | angus_lpc                 | 24          |
+| 43 ⬇  | seryxx                    | 24          |
+| 45 ⬇  | afju*                     | 21          |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2026-02-24 22:24:14 UTC_
+_Last updated at 2026-03-03 12:36:22 UTC_
