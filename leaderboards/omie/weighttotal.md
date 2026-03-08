@@ -2,9 +2,9 @@
 
 | Rank  | Player       | Total Weight in lbs |
 |:------|:-------------|:--------------------|
-| 1 🥇  | v6r_         | 85807.61 (+793.77)  |
-| 2 🥈  | ritaaww      | 43000.39 (+38.05)   |
-| 3 🥉  | mangos4u     | 41160.58 (+453.19)  |
+| 1 🥇  | v6r_         | 86644.31 (+836.70)  |
+| 2 🥈  | ritaaww      | 43015.13 (+14.74)   |
+| 3 🥉  | mangos4u     | 41724.52 (+563.94)  |
 | 4     | solahh__     | 17173.20            |
 | 5     | gofishgamer  | 6138.52             |
 | 6     | respirate_   | 2777.34             |
@@ -18,4 +18,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-03-01 09:44:19 UTC_
+_Last updated at 2026-03-08 09:12:12 UTC_

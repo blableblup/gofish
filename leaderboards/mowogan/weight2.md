@@ -75,32 +75,32 @@
 | 71    | mowogan     | 🐙 octopus   | 71.30         | 2025-08-08 15:32:16 |
 | 72    | mowogan     | 🐢 turtle    | 70.58         | 2026-01-05 05:50:50 |
 | 73    | mowogan     | 🐊 crocodile | 70.13         | 2025-08-19 23:21:51 |
-| 74    | lolspers    | 🦑 squid     | 68.77         | 2025-08-28 17:15:42 |
-| 75    | konsminator | 🐋 whale     | 68.39         | 2025-07-20 16:01:39 |
-| 76    | lolspers    | 🐊 crocodile | 66.16         | 2025-09-08 13:21:37 |
-| 77    | mowogan     | 🐢 turtle    | 65.41         | 2025-12-28 18:32:29 |
-| 78    | elisworm    | 🐍 snake     | 65.17         | 2025-11-21 06:30:31 |
-| 79    | mowogan     | 🐬 dolphin   | 63.70         | 2025-08-30 10:25:32 |
-| 80    | konsminator | 🐢 turtle    | 63.39         | 2025-09-25 15:04:15 |
-| 81    | mowogan     | 🐢 turtle    | 62.94         | 2025-09-27 05:44:49 |
-| 82 🆕 | lolspers    | 🐢 turtle    | 62.70         | 2026-02-28 19:02:29 |
-| 83 ⬇  | lolspers    | 🦞 lobster   | 62.47         | 2025-09-09 08:35:01 |
-| 84 ⬇  | konsminator | 🦞 lobster   | 60.72         | 2026-02-12 19:12:16 |
-| 85 ⬇  | lolspers    | 🦞 lobster   | 60.70         | 2025-09-10 12:17:20 |
-| 86 ⬇  | mowogan     | 🐊 crocodile | 60.29         | 2025-07-23 00:26:25 |
-| 87 ⬇  | gofishgamer | 🐬 dolphin   | 60.01         | 2025-12-23 23:19:24 |
-| 88 ⬇  | konsminator | 🐢 turtle    | 59.90         | 2026-01-24 12:56:11 |
-| 89 ⬇  | konsminator | 🐬 dolphin   | 59.18         | 2025-09-01 13:54:18 |
-| 90 ⬇  | gofishgamer | 🦭 seal      | 58.76         | 2025-12-26 08:26:42 |
-| 91 ⬇  | konsminator | 🦞 lobster   | 58.33         | 2026-02-11 07:07:21 |
-| 92 ⬇  | mowogan     | 🐋 whale     | 57.74         | 2025-07-27 02:46:59 |
-| 93 ⬇  | mowogan     | 🐢 turtle    | 57.54         | 2026-01-18 07:46:50 |
-| 94 ⬇  | konsminator | 🐬 dolphin   | 57.37         | 2025-08-13 17:24:04 |
-| 95 ⬇  | konsminator | 🐬 dolphin   | 56.96         | 2026-02-15 16:44:46 |
-| 96 ⬇  | mowogan     | 🐙 octopus   | 55.94         | 2025-08-26 04:00:12 |
-| 97 ⬇  | mowogan     | 🐬 dolphin   | 55.04         | 2025-08-27 06:35:51 |
-| 98 ⬇  | elisworm    | 🐊 crocodile | 54.86         | 2025-12-26 02:55:21 |
-| 99 ⬇  | konsminator | 🦞 lobster   | 54.23         | 2025-07-25 09:35:42 |
-| 100 ⬇ | mowogan     | 🐬 dolphin   | 54.18         | 2025-07-24 14:00:40 |
+| 74 🆕 | lolspers    | 🐢 turtle    | 69.48         | 2026-03-05 09:33:35 |
+| 75 ⬇  | lolspers    | 🦑 squid     | 68.77         | 2025-08-28 17:15:42 |
+| 76 ⬇  | konsminator | 🐋 whale     | 68.39         | 2025-07-20 16:01:39 |
+| 77 ⬇  | lolspers    | 🐊 crocodile | 66.16         | 2025-09-08 13:21:37 |
+| 78 ⬇  | mowogan     | 🐢 turtle    | 65.41         | 2025-12-28 18:32:29 |
+| 79 ⬇  | elisworm    | 🐍 snake     | 65.17         | 2025-11-21 06:30:31 |
+| 80 ⬇  | mowogan     | 🐬 dolphin   | 63.70         | 2025-08-30 10:25:32 |
+| 81 ⬇  | konsminator | 🐢 turtle    | 63.39         | 2025-09-25 15:04:15 |
+| 82 ⬇  | mowogan     | 🐢 turtle    | 62.94         | 2025-09-27 05:44:49 |
+| 83 ⬇  | lolspers    | 🐢 turtle    | 62.70         | 2026-02-28 19:02:29 |
+| 84 ⬇  | lolspers    | 🦞 lobster   | 62.47         | 2025-09-09 08:35:01 |
+| 85 ⬇  | konsminator | 🦞 lobster   | 60.72         | 2026-02-12 19:12:16 |
+| 86 ⬇  | lolspers    | 🦞 lobster   | 60.70         | 2025-09-10 12:17:20 |
+| 87 ⬇  | mowogan     | 🐊 crocodile | 60.29         | 2025-07-23 00:26:25 |
+| 88 ⬇  | gofishgamer | 🐬 dolphin   | 60.01         | 2025-12-23 23:19:24 |
+| 89 ⬇  | konsminator | 🐢 turtle    | 59.90         | 2026-01-24 12:56:11 |
+| 90 ⬇  | konsminator | 🐬 dolphin   | 59.18         | 2025-09-01 13:54:18 |
+| 91 ⬇  | gofishgamer | 🦭 seal      | 58.76         | 2025-12-26 08:26:42 |
+| 92 ⬇  | konsminator | 🦞 lobster   | 58.33         | 2026-02-11 07:07:21 |
+| 93 ⬇  | mowogan     | 🐋 whale     | 57.74         | 2025-07-27 02:46:59 |
+| 94 ⬇  | mowogan     | 🐢 turtle    | 57.54         | 2026-01-18 07:46:50 |
+| 95 ⬇  | konsminator | 🐬 dolphin   | 57.37         | 2025-08-13 17:24:04 |
+| 96 ⬇  | konsminator | 🐬 dolphin   | 56.96         | 2026-02-15 16:44:46 |
+| 97 ⬇  | mowogan     | 🐙 octopus   | 55.94         | 2025-08-26 04:00:12 |
+| 98 ⬇  | mowogan     | 🐬 dolphin   | 55.04         | 2025-08-27 06:35:51 |
+| 99 ⬇  | elisworm    | 🐊 crocodile | 54.86         | 2025-12-26 02:55:21 |
+| 100 ⬇ | konsminator | 🦞 lobster   | 54.23         | 2025-07-25 09:35:42 |
 
-_Last updated at 2026-03-01 09:44:15 UTC_
+_Last updated at 2026-03-08 09:10:36 UTC_

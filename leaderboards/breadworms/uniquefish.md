@@ -2,7 +2,7 @@
 
 | Rank  | Player                | Fish seen |
 |:------|:----------------------|:----------|
-| 1 🥇  | fishingalt            | 122 (+1)  |
+| 1 🥇  | fishingalt            | 122       |
 | 2 🥈  | derinturitierutz      | 118       |
 | 3 🥉  | derintu               | 108       |
 | 4     | lluuucy               | 104       |
@@ -32,8 +32,8 @@
 | 28    | comiqq                | 65        |
 | 28    | ryebreadward          | 65        |
 | 30    | mitgliederversammlung | 64        |
-| 31    | kikyomushi            | 62        |
-| 31    | sussy_amonge          | 62        |
+| 31    | kikyomushi            | 63 (+1)   |
+| 32 ⬇  | sussy_amonge          | 62        |
 | 33    | kaasppeerr            | 60        |
 | 34    | bapqo                 | 56        |
 | 34    | idini                 | 56        |
@@ -52,4 +52,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-03-01 09:44:13 UTC_
+_Last updated at 2026-03-08 09:08:53 UTC_

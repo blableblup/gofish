@@ -65,42 +65,42 @@
 | 61    | lluuucy                   | 🐳 bluewhale | 292.12        | 2024-01-31 23:33:25 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
 | 62    | v6r_                      | 🐳 bluewhale | 292.06        | 2025-07-21 06:04:08 | ![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)                   |
 | 63    | puzzlow                   | 🐳 bluewhale | 292.04        | 2023-12-08 05:04:14 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 64    | wisdom_frog               | 🐳 bluewhale | 291.86        | 2023-11-26 23:37:57 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
-| 65    | jr_mime                   | 🦕 sauropod  | 291.85        | 2025-07-13 14:28:59 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
-| 66    | vaiastol                  | 🐳 bluewhale | 291.70        | 2025-01-28 01:20:20 | ![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)           |
-| 67    | qu4ttromila               | 🦑 squid     | 291.62        | 2025-01-28 15:56:36 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 68    | qu4ttromila               | 🐳 bluewhale | 291.52        | 2023-09-21 11:37:49 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 69    | iflya320                  | 🦑 squid     | 291.50        | 2025-03-03 18:21:59 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
-| 70    | osnyisdead                | 🐳 bluewhale | 291.49        | 2024-08-18 04:44:47 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 71    | puzzlow                   | 🐳 bluewhale | 291.47        | 2024-01-03 21:34:23 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 72    | buhl00n                   | 🐳 bluewhale | 291.32        | 2024-12-09 16:08:37 | ![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)                 |
-| 73    | lobuhtomy                 | 🦕 sauropod  | 291.29        | 2025-07-02 09:16:35 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
-| 74    | bubinga                   | 🐳 bluewhale | 291.28        | 2025-12-23 16:45:08 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
-| 75    | benciee                   | 🐳 bluewhale | 291.25        | 2024-11-01 01:04:04 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
-| 76    | osnyisdead                | 🐳 bluewhale | 290.96        | 2025-10-09 01:09:06 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 77    | kevinlukejager            | 🐳 bluewhale | 290.80        | 2026-01-05 13:20:18 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
-| 78    | v6r_                      | 🐳 bluewhale | 290.44        | 2025-02-03 09:08:17 | ![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)                   |
-| 79    | wowitsdub                 | 🐳 bluewhale | 290.06        | 2025-05-06 20:41:02 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
-| 80    | qu4ttromila               | 🐳 bluewhale | 289.87        | 2026-02-03 10:00:43 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 81    | nndiana                   | 🐳 bluewhale | 289.70        | 2024-07-06 12:25:46 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
-| 82    | leanmeister               | 🐳 bluewhale | 289.38        | 2025-04-04 19:52:25 | ![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)           |
-| 83    | theevirus                 | 🦑 squid     | 289.15        | 2024-12-28 15:30:37 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
-| 84    | derintu                   | 🐳 bluewhale | 289.11        | 2025-03-27 15:03:12 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 85    | bubinga                   | 🐳 bluewhale | 288.72        | 2025-03-31 12:26:55 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
-| 86    | vagdy                     | 🐳 bluewhale | 288.65        | 2026-01-11 22:18:50 | ![buhl00n](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/buhl00n.png)             |
-| 87    | miiiiisho                 | 🦈 shark     | 288.27        | 2024-02-01 22:00:13 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 88    | comiqq                    | 🐳 bluewhale | 288.19        | 2024-03-24 15:49:44 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 88    | lobuhtomy                 | 🐳 bluewhale | 288.19        | 2025-12-05 02:45:41 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
-| 90    | crunch_sack               | 🐳 bluewhale | 287.96        | 2024-03-31 05:58:07 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
-| 91    | caprisen_                 | 🐳 bluewhale | 287.82        | 2024-12-05 13:28:42 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
-| 92    | ovrht                     | 🐳 bluewhale | 287.76        | 2024-08-11 09:56:21 | ![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)                 |
-| 93    | elisworm                  | 🐳 bluewhale | 287.68        | 2025-07-14 04:43:03 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 94    | leanmeister               | 🐳 bluewhale | 287.63        | 2025-02-22 02:58:30 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 95    | qu4ttromila               | 🐳 bluewhale | 287.55        | 2023-07-23 10:03:48 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 96    | paras220                  | 🐳 bluewhale | 287.47        | 2023-09-08 03:21:48 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 97    | pompadourdelinquent       | 🦑 squid     | 287.32        | 2025-01-07 02:18:19 | ![jellyuh](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/jellyuh.png)             |
-| 98    | ryebreadward              | 🐳 bluewhale | 287.28        | 2024-03-27 09:33:32 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 99    | ninjaross                 | 🐳 bluewhale | 287.26        | 2025-04-22 07:47:19 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 100   | qu4ttromila               | 🐳 bluewhale | 287.01        | 2023-03-28 09:05:06 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 64 🆕 | osnyisdead                | 🐳 bluewhale | 291.88        | 2026-03-07 19:04:44 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 65 ⬇  | wisdom_frog               | 🐳 bluewhale | 291.86        | 2023-11-26 23:37:57 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
+| 66 ⬇  | jr_mime                   | 🦕 sauropod  | 291.85        | 2025-07-13 14:28:59 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
+| 67 ⬇  | vaiastol                  | 🐳 bluewhale | 291.70        | 2025-01-28 01:20:20 | ![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)           |
+| 68 ⬇  | qu4ttromila               | 🦑 squid     | 291.62        | 2025-01-28 15:56:36 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 69 ⬇  | qu4ttromila               | 🐳 bluewhale | 291.52        | 2023-09-21 11:37:49 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 70 ⬇  | iflya320                  | 🦑 squid     | 291.50        | 2025-03-03 18:21:59 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
+| 71 ⬇  | osnyisdead                | 🐳 bluewhale | 291.49        | 2024-08-18 04:44:47 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 72 ⬇  | puzzlow                   | 🐳 bluewhale | 291.47        | 2024-01-03 21:34:23 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 73 ⬇  | buhl00n                   | 🐳 bluewhale | 291.32        | 2024-12-09 16:08:37 | ![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)                 |
+| 74 ⬇  | lobuhtomy                 | 🦕 sauropod  | 291.29        | 2025-07-02 09:16:35 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
+| 75 ⬇  | bubinga                   | 🐳 bluewhale | 291.28        | 2025-12-23 16:45:08 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
+| 76 ⬇  | benciee                   | 🐳 bluewhale | 291.25        | 2024-11-01 01:04:04 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
+| 77 ⬇  | osnyisdead                | 🐳 bluewhale | 290.96        | 2025-10-09 01:09:06 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 78 ⬇  | kevinlukejager            | 🐳 bluewhale | 290.80        | 2026-01-05 13:20:18 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
+| 79 ⬇  | v6r_                      | 🐳 bluewhale | 290.44        | 2025-02-03 09:08:17 | ![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)                   |
+| 80 ⬇  | wowitsdub                 | 🐳 bluewhale | 290.06        | 2025-05-06 20:41:02 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
+| 81 ⬇  | qu4ttromila               | 🐳 bluewhale | 289.87        | 2026-02-03 10:00:43 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 82 ⬇  | nndiana                   | 🐳 bluewhale | 289.70        | 2024-07-06 12:25:46 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
+| 83 ⬇  | leanmeister               | 🐳 bluewhale | 289.38        | 2025-04-04 19:52:25 | ![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)           |
+| 84 ⬇  | theevirus                 | 🦑 squid     | 289.15        | 2024-12-28 15:30:37 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
+| 85 ⬇  | derintu                   | 🐳 bluewhale | 289.11        | 2025-03-27 15:03:12 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 86 ⬇  | bubinga                   | 🐳 bluewhale | 288.72        | 2025-03-31 12:26:55 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
+| 87 ⬇  | vagdy                     | 🐳 bluewhale | 288.65        | 2026-01-11 22:18:50 | ![buhl00n](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/buhl00n.png)             |
+| 88 ⬇  | miiiiisho                 | 🦈 shark     | 288.27        | 2024-02-01 22:00:13 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 89 ⬇  | comiqq                    | 🐳 bluewhale | 288.19        | 2024-03-24 15:49:44 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 89 ⬇  | lobuhtomy                 | 🐳 bluewhale | 288.19        | 2025-12-05 02:45:41 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
+| 91 ⬇  | crunch_sack               | 🐳 bluewhale | 287.96        | 2024-03-31 05:58:07 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
+| 92 ⬇  | caprisen_                 | 🐳 bluewhale | 287.82        | 2024-12-05 13:28:42 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
+| 93 ⬇  | ovrht                     | 🐳 bluewhale | 287.76        | 2024-08-11 09:56:21 | ![ovrht](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrht.png)                 |
+| 94 ⬇  | elisworm                  | 🐳 bluewhale | 287.68        | 2025-07-14 04:43:03 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 95 ⬇  | leanmeister               | 🐳 bluewhale | 287.63        | 2025-02-22 02:58:30 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 96 ⬇  | qu4ttromila               | 🐳 bluewhale | 287.55        | 2023-07-23 10:03:48 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 97 ⬇  | paras220                  | 🐳 bluewhale | 287.47        | 2023-09-08 03:21:48 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 98 ⬇  | pompadourdelinquent       | 🦑 squid     | 287.32        | 2025-01-07 02:18:19 | ![jellyuh](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/jellyuh.png)             |
+| 99 ⬇  | ryebreadward              | 🐳 bluewhale | 287.28        | 2024-03-27 09:33:32 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 100 ⬇ | ninjaross                 | 🐳 bluewhale | 287.26        | 2025-04-22 07:47:19 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
 
-_Last updated at 2026-03-01 09:44:15 UTC_
+_Last updated at 2026-03-08 09:10:36 UTC_

@@ -17,19 +17,19 @@
 | 13    | 🧜‍♀️ mermaid         | 139.02         | zwockel01                 | 2023-12-18 22:42:23 |
 | 14    | 🦭 seal            | 134.99         | luneckie                  | 2026-01-01 07:51:54 |
 | 15    | 🫎 moose           | 128.06         | ratot                     | 2025-05-24 20:19:25 |
-| 16    | 🦞 lobster         | 120.96         | ratot                     | 2024-11-28 01:35:49 |
+| 16    | 🦞 lobster         | 125.87 (+4.91) | rottarded                 | 2026-03-03 04:40:13 |
 | 17    | 🐬 dolphin         | 119.32         | nndiana                   | 2024-10-07 05:51:19 |
 | 18    | 🧟 deadbody        | 118.60         | asthmaa                   | 2023-10-26 13:48:29 |
 | 19    | 🦇 bat             | 117.16         | funnywhitecat12           | 2024-10-11 11:31:43 |
 | 20    | 🦪 oyster          | 114.43         | wisdom_frog               | 2023-12-28 02:26:26 |
 | 21    | 🪸 coral           | 99.92          | divra__                   | 2024-05-27 21:22:08 |
-| 22 ⬆  | 🐻‍❄ polarbear       | 74.33 (+26.03) | bubinga                   | 2026-02-27 10:16:09 |
-| 23 ⬇  | 🪨 rock            | 74.24          | caprisen_                 | 2023-10-15 09:18:51 |
-| 24 ⬇  | 👑 crown           | 73.08          | brunodestar               | 2023-08-31 04:01:22 |
-| 25 ⬇  | 🐟 fish            | 63.75          | adziooooo                 | 2023-10-27 22:15:11 |
-| 26 ⬇  | 📱 iphone          | 59.71          | jr_mime                   | 2024-03-28 00:49:03 |
-| 27 ⬇  | 🦐 shrimp          | 57.04          | squirtyraccoon            | 2023-08-27 10:26:59 |
-| 28 ⬇  | 🛒 shoppingcart    | 51.50          | deatron                   | 2025-12-24 19:24:29 |
+| 22    | 🐻‍❄ polarbear       | 74.33          | bubinga                   | 2026-02-27 10:16:09 |
+| 23    | 🪨 rock            | 74.24          | caprisen_                 | 2023-10-15 09:18:51 |
+| 24    | 👑 crown           | 73.08          | brunodestar               | 2023-08-31 04:01:22 |
+| 25    | 🐟 fish            | 63.75          | adziooooo                 | 2023-10-27 22:15:11 |
+| 26    | 📱 iphone          | 59.71          | jr_mime                   | 2024-03-28 00:49:03 |
+| 27    | 🦐 shrimp          | 57.04          | squirtyraccoon            | 2023-08-27 10:26:59 |
+| 28    | 🛒 shoppingcart    | 51.50          | deatron                   | 2025-12-24 19:24:29 |
 | 29    | 🗡️ dagger          | 47.98          | hahppyy                   | 2024-03-16 21:42:51 |
 | 30    | 🐸 frog            | 47.43          | noconcept_                | 2023-11-06 23:41:42 |
 | 31    | 🦫 beaver          | 43.46          | bananenshak3              | 2025-12-13 23:47:30 |
@@ -95,9 +95,9 @@
 | 91    | 🌿 seaweed         | 1.99           | angus_lpc                 | 2024-06-30 11:26:57 |
 | 92    | 🥪 sandwich        | 1.98           | ovrht                     | 2023-10-26 12:50:25 |
 | 92    | 👟 sneaker         | 1.98           | jeejee_jjl                | 2023-10-18 11:56:32 |
-| 94    | ⛸️ iceskate        | 1.96           | pookiesnowman             | 2023-12-24 05:51:00 |
-| 95    | 🍬 candy           | 1.93           | bananenshak3              | 2026-01-14 18:46:31 |
-| 95    | 🍃 deadleaves      | 1.93           | bubinga                   | 2025-11-03 00:39:15 |
+| 94 ⬆  | 🍃 deadleaves      | 1.97 (+0.04)   | jayayseaohbee             | 2026-03-06 20:06:45 |
+| 95 ⬇  | ⛸️ iceskate        | 1.96           | pookiesnowman             | 2023-12-24 05:51:00 |
+| 96 ⬇  | 🍬 candy           | 1.93           | bananenshak3              | 2026-01-14 18:46:31 |
 | 97    | 🪻 lupine          | 1.80           | nndiana                   | 2025-09-01 13:32:55 |
 | 98    | 🍁 leaf            | 1.69           | jayayseaohbee             | 2025-10-31 19:07:51 |
 | 99    | 🦢 swan            | 1.26           | mazzo_tv                  | 2024-07-08 06:43:22 |
@@ -106,8 +106,8 @@
 | 100   | 🪚 icesaw          | 1.00           | feelsaceman               | 2026-02-16 11:45:50 |
 | 103   | 🫙 jar             | 0.98           | jayayseaohbee             | 2025-08-30 23:01:22 |
 | 104   | 🧣 scarf           | 0.92           | blazeblitzzz              | 2024-02-01 23:11:44 |
+| 105 ⬆ | 🌾 grass           | 0.90 (+0.03)   | flunke_                   | 2026-03-02 09:30:18 |
 | 105   | 🐿️ squirrel        | 0.90           | iflya320                  | 2024-12-04 11:13:44 |
-| 106   | 🌾 grass           | 0.87           | jayayseaohbee             | 2025-06-28 19:21:42 |
 | 107   | 🍥 sanddollar      | 0.77           | bubinga                   | 2025-08-25 07:57:19 |
 | 108   | 🐜 ant             | 0.62           | bluberry                  | 2025-08-31 21:59:07 |
 | 108   | 🪿 goose           | 0.62           | llikotesnecil             | 2026-01-05 01:54:01 |
@@ -118,4 +118,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-03-01 09:46:22 UTC_
+_Last updated at 2026-03-08 09:11:44 UTC_

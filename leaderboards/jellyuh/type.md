@@ -54,21 +54,21 @@
 | 50    | 🪵 log            | 7.23          | poioce              | 2025-03-04 19:18:26 |
 | 51    | 🪺 nestwitheggs   | 6.84          | pompadourdelinquent | 2025-03-17 17:00:42 |
 | 52    | 🦎 lizard         | 6.79          | poioce              | 2025-03-24 03:18:24 |
-| 53 ⬆  | 🧸 teddybear      | 6.13 (+2.40)  | jakthejanitor       | 2026-01-10 19:12:22 |
-| 54 ⬇  | 🧵 wireline       | 5.61          | teeto               | 2025-03-19 14:17:43 |
-| 55 ⬇  | 🐚 shell          | 5.55          | rainedparade        | 2025-04-16 01:35:35 |
-| 56 ⬇  | 🥫 cannedfood     | 5.54          | hello0d             | 2025-01-17 18:54:35 |
-| 57 ⬇  | 🐸 frog           | 5.00          | pompadourdelinquent | 2025-01-11 09:22:58 |
-| 58 ⬇  | 🎏 lure           | 4.44          | goopy777            | 2025-02-03 12:24:24 |
-| 59 ⬇  | 🪝 hook           | 3.98          | jakthejanitor       | 2025-12-22 00:38:42 |
+| 53    | 🧸 teddybear      | 6.13          | jakthejanitor       | 2026-01-10 19:12:22 |
+| 54    | 🧵 wireline       | 5.61          | teeto               | 2025-03-19 14:17:43 |
+| 55    | 🐚 shell          | 5.55          | rainedparade        | 2025-04-16 01:35:35 |
+| 56    | 🥫 cannedfood     | 5.54          | hello0d             | 2025-01-17 18:54:35 |
+| 57    | 🐸 frog           | 5.00          | pompadourdelinquent | 2025-01-11 09:22:58 |
+| 58    | 🎏 lure           | 4.44          | goopy777            | 2025-02-03 12:24:24 |
+| 59    | 🪝 hook           | 3.98          | jakthejanitor       | 2025-12-22 00:38:42 |
 | 60    | ☘️ clover         | 3.44          | goopy777            | 2025-03-20 05:32:55 |
 | 61    | 🌰 acorn          | 3.38          | dougiefresh_83      | 2025-10-09 04:17:57 |
 | 62    | 👡 sandal         | 2.68          | poioce              | 2025-04-07 01:37:30 |
 | 63    | 🌷 tulip          | 2.36          | hello0d             | 2025-03-21 18:32:56 |
 | 64    | 🧃 beveragebox    | 2.05          | cptblack_           | 2025-06-27 08:48:11 |
 | 65    | 🧦 socks          | 1.97          | pompadourdelinquent | 2025-05-10 02:39:04 |
-| 66    | 🪻 lupine         | 1.82          | poioce              | 2025-07-02 09:16:59 |
-| 67    | 👢 boot           | 1.65          | miyabwah            | 2025-03-20 06:30:08 |
+| 66 ⬆  | 👢 boot           | 1.85 (+0.20)  | embuhli             | 2026-03-06 05:40:51 |
+| 67 ⬇  | 🪻 lupine         | 1.82          | poioce              | 2025-07-02 09:16:59 |
 | 68    | 🥪 sandwich       | 1.48          | rainedparade        | 2025-05-17 18:51:56 |
 | 69    | 🍃 deadleaves     | 1.31          | poioce              | 2025-03-27 02:26:12 |
 | 70    | 🩴 thongsandal    | 1.10          | i_xerrax            | 2025-05-09 04:15:30 |
@@ -84,4 +84,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-01-11 10:27:52 UTC_
+_Last updated at 2026-03-08 09:12:08 UTC_

@@ -30,50 +30,50 @@
 | 26    | 🦕 sauropod        | 0.37          | bubinga                   | 2024-11-02 12:03:16 |
 | 27    | 🪵 log             | 0.36          | noconcept_                | 2023-11-26 11:51:47 |
 | 28    | 🍎 apple           | 0.26          | mazzo_tv                  | 2025-10-30 11:35:46 |
-| 29    | 🌾 grass           | 0.24          | cotovelo3                 | 2025-07-13 01:11:08 |
 | 29    | 🌷 tulip           | 0.24          | iflya320                  | 2024-12-04 13:10:28 |
-| 31    | 🐦 cardinal        | 0.23          | jayayseaohbee             | 2025-10-18 17:57:14 |
-| 32    | 👡 sandal          | 0.20          | ratot                     | 2025-06-10 00:23:46 |
-| 33    | 🐳 bluewhale       | 0.16          | euxoa                     | 2024-01-08 10:04:21 |
-| 33    | 🗡️ dagger          | 0.16          | damon_okami               | 2023-10-22 09:29:35 |
-| 33    | 🪨 rock            | 0.16          | benciee                   | 2024-11-23 15:13:22 |
-| 36    | 🍄‍🟫 mushroom        | 0.14          | bubinga                   | 2026-02-06 22:47:14 |
-| 37    | 🦆 duck            | 0.13          | mazzo_tv                  | 2024-10-16 12:40:23 |
-| 37    | 🥀 wiltedflower    | 0.13          | jayayseaohbee             | 2025-12-12 16:10:02 |
-| 39    | 🦟 mosquito        | 0.12          | nndiana                   | 2025-09-18 19:23:10 |
-| 40    | 🐋 whale           | 0.11          | jayayseaohbee             | 2025-07-23 16:19:53 |
-| 40    | 🪱 worm            | 0.11          | didel_                    | 2024-02-07 14:05:51 |
-| 42    | 🪰 fly             | 0.10          | nndiana                   | 2025-08-31 07:39:22 |
-| 42    | 🎃 pumpkin         | 0.10          | nndiana                   | 2025-11-04 18:38:08 |
-| 44    | 🦫 beaver          | 0.09          | r1cz4rd                   | 2025-10-31 21:45:31 |
-| 44    | 🦗 cricket         | 0.09          | bubinga                   | 2025-09-12 00:13:14 |
-| 44    | 🪹 emptynest       | 0.09          | bubinga                   | 2024-10-08 18:25:51 |
-| 44    | 🪻 lupine          | 0.09          | cotovelo3                 | 2025-08-26 21:30:38 |
-| 48    | 🧭 compass         | 0.08          | obscurecharmling          | 2024-01-15 08:22:22 |
-| 48    | 🧽 sponge          | 0.08          | velantix                  | 2024-07-04 20:13:01 |
-| 50 ⬆  | 🪿 goose           | 0.07          | feelsaceman               | 2025-12-27 14:29:30 |
-| 50 ⬇  | 🐙 octopus         | 0.07 (-0.01)  | totallynotaboykisser      | 2026-02-23 09:55:52 |
-| 52    | 🍬 candy           | 0.06          | ocrw                      | 2025-10-31 19:19:02 |
-| 52    | 📱 iphone          | 0.06          | hahppyy                   | 2024-03-28 12:09:45 |
-| 52    | 🦠 plankton        | 0.06          | xkimi1337                 | 2023-10-01 17:27:35 |
-| 52    | 🥒 seacucumber     | 0.06          | gruble                    | 2023-10-19 13:14:09 |
-| 52    | 🐢 turtle          | 0.06          | wisdom_frog               | 2023-11-13 01:15:12 |
-| 57    | 🧃 beveragebox     | 0.05          | bluberry                  | 2024-07-25 05:55:05 |
-| 57    | 🪚 icesaw          | 0.05          | feelsaceman               | 2026-01-08 17:52:24 |
-| 57    | 🪼 jellyfish       | 0.05          | jemcs_                    | 2024-05-12 20:51:45 |
-| 57    | 🧣 scarf           | 0.05          | caprisen_                 | 2024-01-22 10:29:39 |
-| 57    | 🧸 teddybear       | 0.05          | huuuuuuuuuuuuuuuuuuuuuurz | 2024-11-15 07:52:38 |
-| 62    | 🐡 blowfish        | 0.04          | buzztv*                   | 2023-09-03 00:43:12 |
-| 62    | 🪳 cockroach       | 0.04          | milchfunky                | 2023-10-09 13:54:42 |
-| 62    | 🐬 dolphin         | 0.04          | r1cz4rd                   | 2025-08-25 20:26:53 |
-| 62    | 🫙 jar             | 0.04          | bubinga                   | 2025-08-30 20:27:27 |
-| 62    | 🦑 squid           | 0.04          | sandwichsundays           | 2023-09-21 23:17:02 |
-| 67    | 🪀 bobber          | 0.03          | luneckie                  | 2025-10-20 14:46:13 |
-| 67    | 🐛 caterpillar     | 0.03          | ratot                     | 2025-06-30 15:05:57 |
-| 67    | ⛸️ iceskate        | 0.03          | satic____                 | 2024-01-15 09:25:16 |
-| 67    | 🌹 rose            | 0.03          | huuuuuuuuuuuuuuuuuuuuuurz | 2024-04-19 08:55:53 |
-| 67    | 🕷️ spider          | 0.03          | jayayseaohbee             | 2025-08-30 20:33:00 |
-| 67    | 🌻 sunflower       | 0.03          | jayayseaohbee             | 2025-06-23 16:46:49 |
+| 30 ⬆  | 🐦 cardinal        | 0.23          | jayayseaohbee             | 2025-10-18 17:57:14 |
+| 31 ⬆  | 👡 sandal          | 0.20          | ratot                     | 2025-06-10 00:23:46 |
+| 32 ⬆  | 🐳 bluewhale       | 0.16          | euxoa                     | 2024-01-08 10:04:21 |
+| 32 ⬆  | 🗡️ dagger          | 0.16          | damon_okami               | 2023-10-22 09:29:35 |
+| 32 ⬆  | 🪨 rock            | 0.16          | benciee                   | 2024-11-23 15:13:22 |
+| 35 ⬆  | 🍄‍🟫 mushroom        | 0.14          | bubinga                   | 2026-02-06 22:47:14 |
+| 36 ⬆  | 🦆 duck            | 0.13          | mazzo_tv                  | 2024-10-16 12:40:23 |
+| 36 ⬆  | 🥀 wiltedflower    | 0.13          | jayayseaohbee             | 2025-12-12 16:10:02 |
+| 38 ⬆  | 🦟 mosquito        | 0.12          | nndiana                   | 2025-09-18 19:23:10 |
+| 39 ⬆  | 🐋 whale           | 0.11          | jayayseaohbee             | 2025-07-23 16:19:53 |
+| 39 ⬆  | 🪱 worm            | 0.11          | didel_                    | 2024-02-07 14:05:51 |
+| 41 ⬆  | 🪰 fly             | 0.10          | nndiana                   | 2025-08-31 07:39:22 |
+| 41 ⬆  | 🎃 pumpkin         | 0.10          | nndiana                   | 2025-11-04 18:38:08 |
+| 43 ⬆  | 🦫 beaver          | 0.09          | r1cz4rd                   | 2025-10-31 21:45:31 |
+| 43 ⬆  | 🦗 cricket         | 0.09          | bubinga                   | 2025-09-12 00:13:14 |
+| 43 ⬆  | 🪹 emptynest       | 0.09          | bubinga                   | 2024-10-08 18:25:51 |
+| 43 ⬆  | 🪻 lupine          | 0.09          | cotovelo3                 | 2025-08-26 21:30:38 |
+| 47 ⬆  | 🧭 compass         | 0.08          | obscurecharmling          | 2024-01-15 08:22:22 |
+| 47 ⬆  | 🧽 sponge          | 0.08          | velantix                  | 2024-07-04 20:13:01 |
+| 49 ⬆  | 🪿 goose           | 0.07          | feelsaceman               | 2025-12-27 14:29:30 |
+| 49 ⬆  | 🐙 octopus         | 0.07          | totallynotaboykisser      | 2026-02-23 09:55:52 |
+| 51 ⬆  | 🍬 candy           | 0.06          | ocrw                      | 2025-10-31 19:19:02 |
+| 51 ⬆  | 📱 iphone          | 0.06          | hahppyy                   | 2024-03-28 12:09:45 |
+| 51 ⬆  | 🦠 plankton        | 0.06          | xkimi1337                 | 2023-10-01 17:27:35 |
+| 51 ⬆  | 🥒 seacucumber     | 0.06          | gruble                    | 2023-10-19 13:14:09 |
+| 51 ⬆  | 🐢 turtle          | 0.06          | wisdom_frog               | 2023-11-13 01:15:12 |
+| 56 ⬆  | 🧃 beveragebox     | 0.05          | bluberry                  | 2024-07-25 05:55:05 |
+| 56 ⬆  | 🪚 icesaw          | 0.05          | feelsaceman               | 2026-01-08 17:52:24 |
+| 56 ⬆  | 🪼 jellyfish       | 0.05          | jemcs_                    | 2024-05-12 20:51:45 |
+| 56 ⬆  | 🧣 scarf           | 0.05          | caprisen_                 | 2024-01-22 10:29:39 |
+| 56 ⬆  | 🧸 teddybear       | 0.05          | huuuuuuuuuuuuuuuuuuuuuurz | 2024-11-15 07:52:38 |
+| 61 ⬆  | 🐡 blowfish        | 0.04          | buzztv*                   | 2023-09-03 00:43:12 |
+| 61 ⬆  | 🪳 cockroach       | 0.04          | milchfunky                | 2023-10-09 13:54:42 |
+| 61 ⬆  | 🐬 dolphin         | 0.04          | r1cz4rd                   | 2025-08-25 20:26:53 |
+| 61 ⬆  | 🫙 jar             | 0.04          | bubinga                   | 2025-08-30 20:27:27 |
+| 61 ⬆  | 🦑 squid           | 0.04          | sandwichsundays           | 2023-09-21 23:17:02 |
+| 66 ⬆  | 🪀 bobber          | 0.03          | luneckie                  | 2025-10-20 14:46:13 |
+| 66 ⬆  | 🐛 caterpillar     | 0.03          | ratot                     | 2025-06-30 15:05:57 |
+| 66 ⬇  | 🌾 grass           | 0.03 (-0.21)  | nndiana                   | 2026-03-05 01:08:02 |
+| 66 ⬆  | ⛸️ iceskate        | 0.03          | satic____                 | 2024-01-15 09:25:16 |
+| 66 ⬆  | 🌹 rose            | 0.03          | huuuuuuuuuuuuuuuuuuuuuurz | 2024-04-19 08:55:53 |
+| 66 ⬆  | 🕷️ spider          | 0.03          | jayayseaohbee             | 2025-08-30 20:33:00 |
+| 66 ⬆  | 🌻 sunflower       | 0.03          | jayayseaohbee             | 2025-06-23 16:46:49 |
 | 73    | 🪸 coral           | 0.02          | joshuabzz                 | 2025-10-23 19:22:23 |
 | 73    | ☂️ umbrella        | 0.02          | dubre__                   | 2023-10-17 15:21:16 |
 | 73    | 🧵 wireline        | 0.02          | ratot                     | 2025-06-21 16:22:54 |
@@ -118,4 +118,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-03-01 09:44:42 UTC_
+_Last updated at 2026-03-08 09:10:19 UTC_

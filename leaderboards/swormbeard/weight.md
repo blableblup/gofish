@@ -16,7 +16,8 @@
 | 12    | gawblemachine         | 🐬 dolphin   | 101.18        | 2024-08-07 17:37:10 |
 | 13    | dazedforevermore      | 🐬 dolphin   | 100.81        | 2024-08-02 22:34:26 |
 | 14    | ninjaross             | 🐬 dolphin   | 99.98         | 2024-08-02 19:41:23 |
+| 15 🆕 | ytp_dl                | 🐊 crocodile | 54.42         | 2026-03-04 19:14:29 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2026-03-01 09:47:17 UTC_
+_Last updated at 2026-03-08 09:10:34 UTC_

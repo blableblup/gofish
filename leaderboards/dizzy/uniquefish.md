@@ -12,10 +12,10 @@
 | 8     | konsminator        | 49        |
 | 9     | hamoodhabibee      | 48        |
 | 9     | spanmer            | 48        |
+| 11 ⬆  | notnownico         | 47 (+1)   |
 | 11    | simplydrack        | 47        |
 | 11    | tairaaaaa          | 47        |
 | 11    | vagdy              | 47        |
-| 14    | notnownico         | 46        |
 | 15    | exo9*              | 45        |
 | 16    | rabituwu           | 44        |
 | 16    | sugur              | 44        |
@@ -46,7 +46,7 @@
 | 42    | anothercull        | 22        |
 | 43    | fvkdylan           | 21        |
 | 43    | reallyxtra         | 21        |
-| 45 🆕 | avrwhy             | 20        |
+| 45    | avrwhy             | 20        |
 | 45    | gigi               | 20        |
 | 45    | nocer2k            | 20        |
 | 45    | omegalulow2onsteam | 20        |
@@ -56,4 +56,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-03-01 09:44:12 UTC_
+_Last updated at 2026-03-08 09:08:53 UTC_

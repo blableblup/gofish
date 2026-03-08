@@ -13,14 +13,14 @@
 | 9     | pengeg             | 50        |
 | 10    | dazedforevermore   | 49        |
 | 11    | tiaguitos97        | 43        |
-| 12    | milesdotcom        | 42        |
-| 12    | yoimlee            | 42        |
+| 11 ⬆  | yoimlee            | 43 (+1)   |
+| 13 ⬇  | milesdotcom        | 42        |
 | 14    | redreignss         | 38        |
 | 15    | julialuxel         | 37        |
 | 16    | brontiiide         | 34        |
 | 17    | proswift           | 31        |
-| 18    | obama              | 30 (+1)   |
-| 19 ⬇  | larvaew            | 29        |
+| 18    | obama              | 30        |
+| 19    | larvaew            | 29        |
 | 20    | bubinga            | 25        |
 | 21    | ryakarr            | 24        |
 | 22    | rird_              | 21        |
@@ -30,4 +30,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-03-01 09:44:13 UTC_
+_Last updated at 2026-03-08 09:08:54 UTC_

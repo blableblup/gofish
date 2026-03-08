@@ -12,23 +12,23 @@
 | 8     | 🦞 lobster      | 6.79          | respirate_    | 2025-11-19 03:47:41 |
 | 9     | 🪨 rock         | 6.66          | bubinga       | 2025-08-14 20:19:13 |
 | 10    | 🧽 sponge       | 5.85          | kargalay      | 2025-09-30 23:41:50 |
-| 11 ⬆  | 🦭 seal         | 5.02          | poggu_        | 2024-12-02 08:54:27 |
-| 12 ⬇  | 🦎 lizard       | 4.88 (-0.96)  | glorpiusbot   | 2026-02-21 19:31:20 |
+| 11    | 🦭 seal         | 5.02          | poggu_        | 2024-12-02 08:54:27 |
+| 12    | 🦎 lizard       | 4.88          | glorpiusbot   | 2026-02-21 19:31:20 |
 | 13    | 🗡️ dagger       | 4.80          | desxyne       | 2025-11-09 21:05:31 |
 | 14    | 🐉 dragon       | 4.72          | glorpiusbot   | 2025-08-16 14:21:11 |
 | 15    | 🧃 beveragebox  | 4.42          | aquaismissing | 2025-06-04 09:00:50 |
 | 16    | 🪼 jellyfish    | 3.90          | rustezzz      | 2025-08-28 22:22:42 |
 | 17    | 🦪 oyster       | 2.64          | sv_dea        | 2025-05-24 20:38:52 |
 | 18    | 🧊 icecube      | 2.43          | respirate_    | 2025-11-29 23:55:20 |
-| 19    | 🐢 turtle       | 2.31          | davidgodik_   | 2025-01-14 04:03:26 |
-| 20    | ☘️ clover       | 2.30          | glorpiusbot   | 2026-01-08 18:24:46 |
-| 21    | 🐋 whale        | 2.28          | yyaaaaaaaas   | 2024-12-29 15:40:53 |
-| 22    | 🕷️ spider       | 2.08          | likedom_      | 2024-12-11 01:52:38 |
-| 23    | 🐙 octopus      | 1.97          | respirate_    | 2025-11-21 03:34:05 |
-| 24    | 🪳 cockroach    | 1.90          | respirate_    | 2025-11-18 22:56:46 |
-| 25    | 🐊 crocodile    | 1.77          | gigxbit       | 2025-12-07 18:13:12 |
-| 26    | 🩴 thongsandal  | 1.76          | kam3l_        | 2025-09-27 08:44:11 |
-| 27    | 🌰 acorn        | 1.66          | flovrek       | 2025-10-07 11:19:37 |
+| 19 ⬆  | ☘️ clover       | 2.30          | glorpiusbot   | 2026-01-08 18:24:46 |
+| 20 ⬆  | 🐋 whale        | 2.28          | yyaaaaaaaas   | 2024-12-29 15:40:53 |
+| 21 ⬆  | 🕷️ spider       | 2.08          | likedom_      | 2024-12-11 01:52:38 |
+| 22 ⬆  | 🐙 octopus      | 1.97          | respirate_    | 2025-11-21 03:34:05 |
+| 23 ⬆  | 🪳 cockroach    | 1.90          | respirate_    | 2025-11-18 22:56:46 |
+| 24 ⬆  | 🐊 crocodile    | 1.77          | gigxbit       | 2025-12-07 18:13:12 |
+| 25 ⬆  | 🩴 thongsandal  | 1.76          | kam3l_        | 2025-09-27 08:44:11 |
+| 26 ⬆  | 🌰 acorn        | 1.66          | flovrek       | 2025-10-07 11:19:37 |
+| 27 ⬇  | 🐢 turtle       | 1.65 (-0.66)  | glorpiusbot   | 2026-03-02 19:42:46 |
 | 28    | 🐍 snake        | 1.29          | hibiki_x3     | 2025-09-18 12:34:26 |
 | 29    | 🩰 balletshoes  | 1.25          | delfino921    | 2025-02-22 23:48:09 |
 | 29    | 🪸 coral        | 1.25          | elisworm      | 2025-11-26 07:27:06 |
@@ -65,4 +65,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-02-22 10:22:24 UTC_
+_Last updated at 2026-03-08 09:09:44 UTC_

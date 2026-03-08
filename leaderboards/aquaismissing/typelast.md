@@ -2,42 +2,42 @@
 
 | Rank | Fish            | Weight in lbs | Player           | Date in UTC         |
 |:-----|:----------------|:--------------|:-----------------|:--------------------|
-| 62   | ☘️ clover       | 3.23          | glorpiusbot      | 2026-02-28 22:52:09 |
-| 61   | 🐢 turtle       | 85.85         | glorpiusbot      | 2026-02-27 23:52:27 |
-| 60   | 🐟 fish         | 2.93          | glorpiusbot      | 2026-02-27 18:55:03 |
-| 59   | 🦎 lizard       | 6.42          | glorpiusbot      | 2026-02-26 15:40:30 |
-| 58   | 🪝 hook         | 0.00          | glorpiusbot      | 2026-02-24 23:09:53 |
-| 57   | 👢 boot         | 1.03          | kam3l_           | 2026-02-09 22:47:37 |
-| 56   | 🐍 snake        | 4.24          | glorpiusbot      | 2026-02-03 17:18:43 |
-| 55   | 🦫 beaver       | 40.70         | glorpiusbot      | 2026-01-31 04:38:00 |
-| 54   | 🪳 cockroach    | 24.51         | cute_ducc        | 2026-01-27 19:13:51 |
-| 53   | 🦐 shrimp       | 0.06          | glorpiusbot      | 2026-01-24 17:09:39 |
-| 52   | 🦦 otter        | 0.41          | cute_ducc        | 2026-01-14 19:12:18 |
-| 51   | 🧊 icecube      | 8.18          | aquaismissing    | 2026-01-14 01:35:09 |
-| 50   | 🧤 gloves       | 0.92          | kam3l_           | 2026-01-04 23:11:52 |
-| 49   | 🦭 seal         | 73.65         | bubinga          | 2026-01-01 23:18:37 |
-| 48   | 🦠 plankton     | 2.49          | bubinga          | 2026-01-01 21:47:31 |
-| 47   | 🐬 dolphin      | 27.87         | bubinga          | 2026-01-01 20:27:44 |
-| 46   | 🎏 lure         | 2.23          | cute_ducc        | 2025-12-31 01:20:44 |
-| 45   | 🍄 oceanplant   | 11.87         | aistyrax3        | 2025-12-31 00:25:03 |
-| 44   | 🪱 worm         | 2.71          | aistyrax3        | 2025-12-30 22:02:51 |
-| 43   | 🐊 crocodile    | 5.44          | aistyrax3        | 2025-12-30 19:18:07 |
-| 42   | 🦀 crab         | 2.91          | aistyrax3        | 2025-12-28 17:06:19 |
-| 41   | 🐸 frog         | 4.78          | cute_ducc        | 2025-12-22 20:11:07 |
-| 40   | 🎱 8ball        | 0.74          | glorpiusbot      | 2025-12-22 01:06:01 |
-| 39   | 👒 hat          | 10.81         | syberiak_        | 2025-12-07 20:20:18 |
-| 38   | 🥪 sandwich     | 1.39          | ggmagician       | 2025-12-07 18:13:00 |
-| 37   | 🐙 octopus      | 29.33         | glorpiusbot      | 2025-12-06 04:32:58 |
-| 36   | ☂️ umbrella     | 2.65          | cute_ducc        | 2025-12-02 20:25:35 |
-| 35   | 🐳 bluewhale    | 294.49        | respirate_       | 2025-12-02 04:57:18 |
-| 34   | 🪸 coral        | 16.70         | respirate_       | 2025-12-02 04:11:24 |
-| 33   | 🌿 seaweed      | 0.16          | elisworm         | 2025-12-02 03:43:01 |
-| 32   | 🧦 socks        | 0.19          | respirate_       | 2025-12-02 03:38:45 |
-| 31   | 🪀 bobber       | 0.00          | elisworm         | 2025-12-02 03:13:43 |
-| 30   | 🥫 cannedfood   | 1.28          | elisworm         | 2025-12-01 18:55:23 |
-| 29   | 🦞 lobster      | 48.73         | elisworm         | 2025-12-01 10:51:05 |
-| 28   | 🐋 whale        | 84.66         | elisworm         | 2025-12-01 10:19:26 |
-| 27   | 🐚 shell        | 1.33          | respirate_       | 2025-12-01 09:59:48 |
+| 62   | 🐍 snake        | 9.28          | glorpiusbot      | 2026-03-05 20:57:13 |
+| 61   | 🐚 shell        | 1.21          | cute_ducc        | 2026-03-02 21:33:15 |
+| 60   | 🐢 turtle       | 1.65          | glorpiusbot      | 2026-03-02 19:42:46 |
+| 59   | ☘️ clover       | 3.23          | glorpiusbot      | 2026-02-28 22:52:09 |
+| 58   | 🐟 fish         | 2.93          | glorpiusbot      | 2026-02-27 18:55:03 |
+| 57   | 🦎 lizard       | 6.42          | glorpiusbot      | 2026-02-26 15:40:30 |
+| 56   | 🪝 hook         | 0.00          | glorpiusbot      | 2026-02-24 23:09:53 |
+| 55   | 👢 boot         | 1.03          | kam3l_           | 2026-02-09 22:47:37 |
+| 54   | 🦫 beaver       | 40.70         | glorpiusbot      | 2026-01-31 04:38:00 |
+| 53   | 🪳 cockroach    | 24.51         | cute_ducc        | 2026-01-27 19:13:51 |
+| 52   | 🦐 shrimp       | 0.06          | glorpiusbot      | 2026-01-24 17:09:39 |
+| 51   | 🦦 otter        | 0.41          | cute_ducc        | 2026-01-14 19:12:18 |
+| 50   | 🧊 icecube      | 8.18          | aquaismissing    | 2026-01-14 01:35:09 |
+| 49   | 🧤 gloves       | 0.92          | kam3l_           | 2026-01-04 23:11:52 |
+| 48   | 🦭 seal         | 73.65         | bubinga          | 2026-01-01 23:18:37 |
+| 47   | 🦠 plankton     | 2.49          | bubinga          | 2026-01-01 21:47:31 |
+| 46   | 🐬 dolphin      | 27.87         | bubinga          | 2026-01-01 20:27:44 |
+| 45   | 🎏 lure         | 2.23          | cute_ducc        | 2025-12-31 01:20:44 |
+| 44   | 🍄 oceanplant   | 11.87         | aistyrax3        | 2025-12-31 00:25:03 |
+| 43   | 🪱 worm         | 2.71          | aistyrax3        | 2025-12-30 22:02:51 |
+| 42   | 🐊 crocodile    | 5.44          | aistyrax3        | 2025-12-30 19:18:07 |
+| 41   | 🦀 crab         | 2.91          | aistyrax3        | 2025-12-28 17:06:19 |
+| 40   | 🐸 frog         | 4.78          | cute_ducc        | 2025-12-22 20:11:07 |
+| 39   | 🎱 8ball        | 0.74          | glorpiusbot      | 2025-12-22 01:06:01 |
+| 38   | 👒 hat          | 10.81         | syberiak_        | 2025-12-07 20:20:18 |
+| 37   | 🥪 sandwich     | 1.39          | ggmagician       | 2025-12-07 18:13:00 |
+| 36   | 🐙 octopus      | 29.33         | glorpiusbot      | 2025-12-06 04:32:58 |
+| 35   | ☂️ umbrella     | 2.65          | cute_ducc        | 2025-12-02 20:25:35 |
+| 34   | 🐳 bluewhale    | 294.49        | respirate_       | 2025-12-02 04:57:18 |
+| 33   | 🪸 coral        | 16.70         | respirate_       | 2025-12-02 04:11:24 |
+| 32   | 🌿 seaweed      | 0.16          | elisworm         | 2025-12-02 03:43:01 |
+| 31   | 🧦 socks        | 0.19          | respirate_       | 2025-12-02 03:38:45 |
+| 30   | 🪀 bobber       | 0.00          | elisworm         | 2025-12-02 03:13:43 |
+| 29   | 🥫 cannedfood   | 1.28          | elisworm         | 2025-12-01 18:55:23 |
+| 28   | 🦞 lobster      | 48.73         | elisworm         | 2025-12-01 10:51:05 |
+| 27   | 🐋 whale        | 84.66         | elisworm         | 2025-12-01 10:19:26 |
 | 26   | 🦈 shark        | 76.70         | respirate_       | 2025-12-01 09:24:00 |
 | 25   | 🦪 oyster       | 12.04         | elisworm         | 2025-12-01 07:49:35 |
 | 24   | 🕷️ spider       | 18.95         | respirate_       | 2025-11-30 10:16:35 |
@@ -65,4 +65,4 @@
 | 2    | 🧃 beveragebox  | 4.42          | aquaismissing    | 2025-06-04 09:00:50 |
 | 1    | 🩰 balletshoes  | 1.25          | delfino921       | 2025-02-22 23:48:09 |
 
-_Last updated at 2026-03-01 09:44:14 UTC_
+_Last updated at 2026-03-08 09:10:37 UTC_
