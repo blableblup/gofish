@@ -14,8 +14,8 @@
 | 9     | kishma9               | 93        |
 | 11    | osnyisdead            | 91        |
 | 12    | destin357             | 90        |
-| 13    | dougiefresh_83*       | 87        |
-| 13    | ytp_dl*               | 87        |
+| 13    | ytp_dl*               | 88 (+1)   |
+| 14 ⬇  | dougiefresh_83*       | 87        |
 | 15    | dazedforevermore      | 86        |
 | 16    | miiiiisho             | 85        |
 | 17    | ninjaross*            | 78        |
@@ -31,9 +31,9 @@
 | 27    | crazytown_bananapants | 67        |
 | 28    | comiqq                | 65        |
 | 28    | ryebreadward          | 65        |
+| 30 ⬆  | kikyomushi            | 64 (+1)   |
 | 30    | mitgliederversammlung | 64        |
-| 31    | kikyomushi            | 63 (+1)   |
-| 32 ⬇  | sussy_amonge          | 62        |
+| 32    | sussy_amonge          | 62        |
 | 33    | kaasppeerr            | 60        |
 | 34    | bapqo                 | 56        |
 | 34    | idini                 | 56        |
@@ -52,4 +52,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-03-08 09:08:53 UTC_
+_Last updated at 2026-03-15 09:23:27 UTC_

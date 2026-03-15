@@ -7,8 +7,8 @@
 | 3 🥉  | bubinga       | 26        |
 | 3 🥉  | elisworm      | 26        |
 | 5     | desxyne       | 21        |
-| 6     | glorpiusbot   | 20        |
-| 6     | likedom_      | 20        |
+| 5 ⬆   | glorpiusbot   | 21 (+1)   |
+| 7 ⬇   | likedom_      | 20        |
 | 8     | aquaismissing | 19        |
 | 8     | stofeyxd*     | 19        |
 | 10    | aistyrax3     | 18        |
@@ -17,14 +17,14 @@
 | 12    | velantix*     | 16        |
 | 14    | dom1torii     | 15        |
 | 15    | ggmagician    | 13        |
-| 15 ⬆  | kam3l_        | 13 (+1)   |
+| 15    | kam3l_        | 13        |
 | 15    | kargalay      | 13        |
 | 15    | poggu_        | 13        |
-| 19 ⬇  | kaczer1       | 12        |
+| 19    | kaczer1       | 12        |
 | 20    | vigilsync*    | 10        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2026-02-15 10:04:20 UTC_
+_Last updated at 2026-03-15 09:23:28 UTC_

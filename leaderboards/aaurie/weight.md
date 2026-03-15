@@ -33,13 +33,14 @@
 | 29    | blackberryking00  | 🐋 whale        | 69.25         | 2025-10-27 06:47:06 |
 | 30    | metalxml          | 🛒 shoppingcart | 68.75         | 2025-12-08 04:30:22 |
 | 31    | midwestbaddie574  | 🦑 squid        | 62.59         | 2025-08-15 03:23:42 |
-| 32    | jah_alexander     | 🪸 coral        | 60.80         | 2025-08-12 03:57:19 |
-| 33    | brody5020         | 🦑 squid        | 60.29         | 2025-04-08 05:20:51 |
-| 34    | slimdoggiedog     | 🐢 turtle       | 58.86         | 2025-03-17 03:26:26 |
-| 35    | nobrockudvn       | 🦞 lobster      | 56.21         | 2025-08-02 03:46:23 |
-| 36    | one_guy_123       | 🦞 lobster      | 53.50         | 2025-09-27 02:41:50 |
-| 37    | dirvish           | 🐊 crocodile    | 50.24         | 2025-03-22 03:31:44 |
+| 32 🆕 | themandog         | 🐬 dolphin      | 61.41         | 2026-03-09 04:41:11 |
+| 33 ⬇  | jah_alexander     | 🪸 coral        | 60.80         | 2025-08-12 03:57:19 |
+| 34 ⬇  | brody5020         | 🦑 squid        | 60.29         | 2025-04-08 05:20:51 |
+| 35 ⬇  | slimdoggiedog     | 🐢 turtle       | 58.86         | 2025-03-17 03:26:26 |
+| 36 ⬇  | nobrockudvn       | 🦞 lobster      | 56.21         | 2025-08-02 03:46:23 |
+| 37 ⬇  | one_guy_123       | 🦞 lobster      | 53.50         | 2025-09-27 02:41:50 |
+| 38 ⬇  | dirvish           | 🐊 crocodile    | 50.24         | 2025-03-22 03:31:44 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2026-03-08 09:10:34 UTC_
+_Last updated at 2026-03-15 09:23:25 UTC_

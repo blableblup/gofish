@@ -2,6 +2,7 @@
 
 | Rank | Fish              | Weight in lbs | Player           | Date in UTC         |
 |:-----|:------------------|:--------------|:-----------------|:--------------------|
+| 109  | 🦢 swan           | 1.44          | notnownico       | 2026-03-11 15:26:50 |
 | 108  | 🐞 ladybug        | 0.32          | buhl00n          | 2025-08-31 11:08:30 |
 | 107  | 🦴 bone           | 13.23         | glorp_fishing    | 2025-08-29 14:22:57 |
 | 106  | 🦋 butterfly      | 0.10          | gimmeschmoneys   | 2025-08-29 10:25:57 |
@@ -111,4 +112,4 @@
 | 2    | 🪝 hook           | 0.40          | lolspers         | 2024-10-20 21:13:11 |
 | 1    | 🎏 lure           | 0.16          | burnend          | 2024-10-20 21:13:00 |
 
-_Last updated at 2026-01-11 10:26:12 UTC_
+_Last updated at 2026-03-15 09:23:29 UTC_

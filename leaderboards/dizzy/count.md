@@ -12,9 +12,9 @@
 | 8     | ofaisalz       | 331         |
 | 9     | konsminator    | 326         |
 | 10    | vagdy          | 254         |
-| 11    | rabituwu       | 243         |
-| 12    | notnownico     | 236 (+1)    |
-| 13    | hamoodhabibee  | 212 (+1)    |
+| 11 ⬆  | notnownico     | 246 (+10)   |
+| 12 ⬇  | rabituwu       | 243         |
+| 13    | hamoodhabibee  | 212         |
 | 14    | simplydrack    | 183         |
 | 15    | ssenario       | 171         |
 | 16    | tairaaaaa      | 170         |
@@ -42,7 +42,7 @@
 | 37    | rougep1rate    | 48          |
 | 37    | youngstercal   | 48          |
 | 40    | maccat1337     | 47          |
-| 41    | dizzy          | 42 (+1)     |
+| 41    | dizzy          | 42          |
 | 42    | deadl3gs       | 40          |
 | 43    | ahxle          | 38          |
 | 43    | nocer2k        | 38          |
@@ -56,4 +56,4 @@
 
 _Only showing fishers who caught >= 30 fish_
 
-_Last updated at 2026-03-08 09:08:56 UTC_
+_Last updated at 2026-03-15 09:21:44 UTC_

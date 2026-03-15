@@ -50,13 +50,13 @@
 | 46    | 🩰 balletshoes    | 0.38          | victorvondoom313   | 2025-04-28 01:54:30 |
 | 47    | 🌹 rose           | 0.36          | mademooselle       | 2025-10-11 03:06:44 |
 | 48    | 🪸 coral          | 0.33          | rustnroll          | 2025-05-30 00:13:40 |
-| 49    | 🧤 gloves         | 0.30          | onekitty78         | 2025-11-25 03:40:32 |
 | 49    | 🥪 sandwich       | 0.30          | eldiabloskillet    | 2025-08-04 03:34:38 |
-| 51    | 🗡️ dagger         | 0.25          | bluezebra17        | 2025-05-12 06:19:37 |
-| 52    | 🐠 tropicalfish   | 0.24          | bluezebra17        | 2025-05-06 06:40:43 |
-| 52    | 🪱 worm           | 0.24          | gofishgamer        | 2025-11-21 00:17:56 |
-| 54    | 🐸 frog           | 0.21          | dolp_fin           | 2025-05-24 04:11:36 |
-| 54    | 🕷️ spider         | 0.21          | mavv1s             | 2025-05-05 06:55:02 |
+| 50 ⬆  | 🗡️ dagger         | 0.25          | bluezebra17        | 2025-05-12 06:19:37 |
+| 51 ⬆  | 🐠 tropicalfish   | 0.24          | bluezebra17        | 2025-05-06 06:40:43 |
+| 51 ⬆  | 🪱 worm           | 0.24          | gofishgamer        | 2025-11-21 00:17:56 |
+| 53 ⬆  | 🐸 frog           | 0.21          | dolp_fin           | 2025-05-24 04:11:36 |
+| 53 ⬆  | 🕷️ spider         | 0.21          | mavv1s             | 2025-05-05 06:55:02 |
+| 55 ⬇  | 🧤 gloves         | 0.20 (-0.10)  | elusivehiggsboson  | 2026-03-14 05:41:52 |
 | 56    | 🧽 sponge         | 0.16          | allspice_boatrace  | 2025-06-23 02:54:57 |
 | 57    | 🪳 cockroach      | 0.14          | 21mtd              | 2025-05-23 06:12:47 |
 | 58    | 🩴 thongsandal    | 0.13          | victorvondoom313   | 2025-06-23 02:10:17 |
@@ -78,4 +78,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-03-08 09:09:16 UTC_
+_Last updated at 2026-03-15 09:22:22 UTC_

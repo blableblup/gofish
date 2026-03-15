@@ -2,6 +2,7 @@
 
 | Rank | Fish            | Weight in lbs | Player        | Date in UTC         |
 |:-----|:----------------|:--------------|:--------------|:--------------------|
+| 63   | 🪺 nestwitheggs | 4.32          | glorpiusbot   | 2026-03-10 18:05:11 |
 | 62   | 🦫 beaver       | 9.76          | glorpiusbot   | 2026-01-07 15:53:54 |
 | 61   | ☘️ clover       | 3.98          | glorpiusbot   | 2026-01-05 15:05:34 |
 | 60   | 👒 hat          | 10.81         | syberiak_     | 2025-12-07 20:20:18 |
@@ -65,4 +66,4 @@
 | 2    | 🪝 hook         | 0.88          | vladik4il     | 2024-11-26 16:02:08 |
 | 1    | 🧦 socks        | 0.82          | aquaismissing | 2024-11-26 15:51:47 |
 
-_Last updated at 2026-01-18 09:37:59 UTC_
+_Last updated at 2026-03-15 09:23:29 UTC_

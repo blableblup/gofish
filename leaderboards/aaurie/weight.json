@@ -207,7 +207,7 @@
 		"fishid": 202382,
 		"chatid": 399,
 		"date": "2025-09-27T02:41:50Z",
-		"rank": 36
+		"rank": 37
 	},
 	"3852": {
 		"player": "nalls",
@@ -277,7 +277,7 @@
 		"fishid": 192717,
 		"chatid": 226,
 		"date": "2025-08-12T03:57:19Z",
-		"rank": 32
+		"rank": 33
 	},
 	"3861": {
 		"player": "nobrockudvn",
@@ -291,7 +291,7 @@
 		"fishid": 191228,
 		"chatid": 161,
 		"date": "2025-08-02T03:46:23Z",
-		"rank": 35
+		"rank": 36
 	},
 	"3862": {
 		"player": "slimdoggiedog",
@@ -305,7 +305,7 @@
 		"fishid": 206003,
 		"chatid": 557,
 		"date": "2025-03-17T03:26:26Z",
-		"rank": 34
+		"rank": 35
 	},
 	"3866": {
 		"player": "naatatpotato",
@@ -459,7 +459,7 @@
 		"fishid": 206037,
 		"chatid": 591,
 		"date": "2025-03-22T03:31:44Z",
-		"rank": 37
+		"rank": 38
 	},
 	"4063": {
 		"player": "brody5020",
@@ -473,7 +473,7 @@
 		"fishid": 206196,
 		"chatid": 748,
 		"date": "2025-04-08T05:20:51Z",
-		"rank": 33
+		"rank": 34
 	},
 	"4064": {
 		"player": "sanfordthegrey",
@@ -516,5 +516,19 @@
 		"chatid": 749,
 		"date": "2025-04-08T05:35:20Z",
 		"rank": 19
+	},
+	"4081": {
+		"player": "themandog",
+		"playerid": 4081,
+		"weight": 61.41,
+		"bot": "gofishgame",
+		"fishtype": "🐬",
+		"fishname": "dolphin",
+		"catchtype": "normal",
+		"chat": "aaurie",
+		"fishid": 245484,
+		"chatid": 1795,
+		"date": "2026-03-09T04:41:11Z",
+		"rank": 32
 	}
 }

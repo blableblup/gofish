@@ -9,9 +9,9 @@
 | 5     | jr_mime            | 🐋 whale     | 96.34         | 2024-10-31 12:20:17 |
 | 6     | xx_sn1perpro420_xx | 🦭 seal      | 95.57         | 2024-11-02 16:46:37 |
 | 7     | yopego             | 🐢 turtle    | 84.79         | 2024-10-05 21:41:21 |
-| 8     | funnywhitecat12    | 🐋 whale     | 73.85         | 2024-10-15 23:12:24 |
+| 8     | funnywhitecat6     | 🐋 whale     | 73.85         | 2024-10-15 23:12:24 |
 | 9     | sequally           | 🐳 bluewhale | 67.71         | 2025-03-03 18:51:11 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2025-11-23 10:49:28 UTC_
+_Last updated at 2026-03-15 09:23:26 UTC_

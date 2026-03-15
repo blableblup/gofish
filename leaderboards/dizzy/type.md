@@ -78,7 +78,7 @@
 | 73    | 🥀 wiltedflower   | 2.96          | buhl00n        | 2024-12-22 13:48:49 |
 | 75    | 👡 sandal         | 2.90          | gimmeschmoneys | 2025-05-15 21:16:02 |
 | 75    | 🌷 tulip          | 2.90          | glorp_fishing  | 2025-03-18 09:34:00 |
-| 77    | ☂️ umbrella       | 2.64          | notnownico     | 2024-12-15 23:09:15 |
+| 77    | ☂️ umbrella       | 2.69 (+0.05)  | notnownico     | 2026-03-12 22:52:31 |
 | 78    | 🪿 goose          | 2.39          | lolspers       | 2025-06-23 20:31:03 |
 | 79    | 🍃 deadleaves     | 2.00          | gimmeschmoneys | 2025-05-10 11:10:39 |
 | 80    | 👢 boot           | 1.99          | tunacrab       | 2024-11-02 22:57:50 |
@@ -90,22 +90,23 @@
 | 85    | 🪻 lupine         | 1.95          | buhl00n        | 2025-06-27 10:37:31 |
 | 87    | ⛸️ iceskate       | 1.92          | glorp_fishing  | 2024-12-23 16:00:58 |
 | 88    | 🥪 sandwich       | 1.91          | ofaisalz       | 2024-11-05 20:26:29 |
-| 89    | 🧤 gloves         | 0.99          | spanmer        | 2024-11-09 03:05:19 |
-| 89    | 🌿 seaweed        | 0.99          | lazybluedeer   | 2025-03-03 05:56:17 |
-| 91    | 🍬 candy          | 0.93          | spanmer        | 2024-11-17 16:32:54 |
-| 92    | 🪶 feather        | 0.92          | glorp_fishing  | 2025-01-30 09:09:36 |
-| 93    | 🪚 icesaw         | 0.86          | gimmeschmoneys | 2025-02-01 18:11:04 |
-| 94    | 🌾 grass          | 0.85          | buhl00n        | 2025-05-14 11:39:17 |
-| 95    | 🐛 caterpillar    | 0.84          | buhl00n        | 2025-08-30 01:52:14 |
-| 96    | 🐜 ant            | 0.75          | glorp_fishing  | 2025-08-27 03:51:58 |
-| 96    | 🧣 scarf          | 0.75          | exo9           | 2024-12-25 05:19:42 |
-| 98    | 🦟 mosquito       | 0.60          | buhl00n        | 2025-08-29 20:32:58 |
-| 99    | 🐞 ladybug        | 0.32          | buhl00n        | 2025-08-31 11:08:30 |
-| 100   | 🪰 fly            | 0.28          | buhl00n        | 2025-08-28 16:09:13 |
-| 101   | 🦗 cricket        | 0.25          | glorp_fishing  | 2025-08-11 03:39:03 |
-| 102   | 🦋 butterfly      | 0.10          | gimmeschmoneys | 2025-08-29 10:25:57 |
-| 103   | 🕸️ spiderweb      | 0.08          | glorp_fishing  | 2025-08-27 06:14:33 |
+| 89 🆕 | 🦢 swan           | 1.44          | notnownico     | 2026-03-11 15:26:50 |
+| 90 ⬇  | 🧤 gloves         | 0.99          | spanmer        | 2024-11-09 03:05:19 |
+| 90 ⬇  | 🌿 seaweed        | 0.99          | lazybluedeer   | 2025-03-03 05:56:17 |
+| 92 ⬇  | 🍬 candy          | 0.93          | spanmer        | 2024-11-17 16:32:54 |
+| 93 ⬇  | 🪶 feather        | 0.92          | glorp_fishing  | 2025-01-30 09:09:36 |
+| 94 ⬇  | 🪚 icesaw         | 0.86          | gimmeschmoneys | 2025-02-01 18:11:04 |
+| 95 ⬇  | 🌾 grass          | 0.85          | buhl00n        | 2025-05-14 11:39:17 |
+| 96 ⬇  | 🐛 caterpillar    | 0.84          | buhl00n        | 2025-08-30 01:52:14 |
+| 97 ⬇  | 🐜 ant            | 0.75          | glorp_fishing  | 2025-08-27 03:51:58 |
+| 97 ⬇  | 🧣 scarf          | 0.75          | exo9           | 2024-12-25 05:19:42 |
+| 99 ⬇  | 🦟 mosquito       | 0.60          | buhl00n        | 2025-08-29 20:32:58 |
+| 100 ⬇ | 🐞 ladybug        | 0.32          | buhl00n        | 2025-08-31 11:08:30 |
+| 101 ⬇ | 🪰 fly            | 0.28          | buhl00n        | 2025-08-28 16:09:13 |
+| 102 ⬇ | 🦗 cricket        | 0.25          | glorp_fishing  | 2025-08-11 03:39:03 |
+| 103 ⬇ | 🦋 butterfly      | 0.10          | gimmeschmoneys | 2025-08-29 10:25:57 |
+| 104 ⬇ | 🕸️ spiderweb      | 0.08          | glorp_fishing  | 2025-08-27 06:14:33 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-01-11 10:27:15 UTC_
+_Last updated at 2026-03-15 09:25:12 UTC_
