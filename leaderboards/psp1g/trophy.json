@@ -204,7 +204,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 3,
 		"bronze": 1,
-		"rank": 23
+		"rank": 24
 	},
 	"2465": {
 		"player": "deatron",
@@ -243,11 +243,11 @@
 	"269": {
 		"player": "nndiana",
 		"playerid": 269,
-		"weight": 311,
+		"weight": 314.5,
 		"date": "0001-01-01T00:00:00Z",
-		"trophies": 76,
+		"trophies": 77,
 		"silver": 68,
-		"bronze": 30,
+		"bronze": 31,
 		"rank": 1
 	},
 	"3736": {
@@ -331,12 +331,12 @@
 	"4135": {
 		"player": "disappointingtrash",
 		"playerid": 4135,
-		"weight": 8.5,
+		"weight": 11.5,
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 2,
-		"silver": 1,
+		"silver": 4,
 		"bronze": 3,
-		"rank": 25
+		"rank": 21
 	},
 	"457": {
 		"player": "sandwichsundays",
@@ -403,7 +403,7 @@
 		"trophies": 2,
 		"silver": 4,
 		"bronze": 2,
-		"rank": 22
+		"rank": 23
 	},
 	"693": {
 		"player": "noconcept_",
@@ -421,7 +421,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 2,
 		"silver": 3,
-		"rank": 24
+		"rank": 25
 	},
 	"913": {
 		"player": "ratot",
@@ -432,5 +432,13 @@
 		"silver": 7,
 		"bronze": 9,
 		"rank": 9
+	},
+	"993": {
+		"player": "ducksleazzy",
+		"playerid": 993,
+		"weight": 0.5,
+		"date": "0001-01-01T00:00:00Z",
+		"bronze": 1,
+		"rank": 45
 	}
 }
