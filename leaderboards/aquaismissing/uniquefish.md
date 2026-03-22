@@ -7,8 +7,8 @@
 | 3 🥉  | bubinga       | 26        |
 | 3 🥉  | elisworm      | 26        |
 | 5     | desxyne       | 21        |
-| 5 ⬆   | glorpiusbot   | 21 (+1)   |
-| 7 ⬇   | likedom_      | 20        |
+| 5     | glorpiusbot   | 21        |
+| 5 ⬆   | likedom_      | 21 (+1)   |
 | 8     | aquaismissing | 19        |
 | 8     | stofeyxd*     | 19        |
 | 10    | aistyrax3     | 18        |
@@ -27,4 +27,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2026-03-15 09:23:28 UTC_
+_Last updated at 2026-03-22 11:13:43 UTC_

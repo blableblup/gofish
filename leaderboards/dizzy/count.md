@@ -12,8 +12,8 @@
 | 8     | ofaisalz       | 331         |
 | 9     | konsminator    | 326         |
 | 10    | vagdy          | 254         |
-| 11 ⬆  | notnownico     | 246 (+10)   |
-| 12 ⬇  | rabituwu       | 243         |
+| 11    | notnownico     | 250 (+4)    |
+| 12    | rabituwu       | 243         |
 | 13    | hamoodhabibee  | 212         |
 | 14    | simplydrack    | 183         |
 | 15    | ssenario       | 171         |
@@ -56,4 +56,4 @@
 
 _Only showing fishers who caught >= 30 fish_
 
-_Last updated at 2026-03-15 09:21:44 UTC_
+_Last updated at 2026-03-22 11:10:10 UTC_

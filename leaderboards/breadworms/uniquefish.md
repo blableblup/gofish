@@ -12,10 +12,10 @@
 | 8     | qu4ttromila           | 94        |
 | 9     | breadworms            | 93        |
 | 9     | kishma9               | 93        |
-| 11    | osnyisdead            | 91        |
+| 11    | osnyisdead            | 92 (+1)   |
 | 12    | destin357             | 90        |
-| 13    | ytp_dl*               | 88 (+1)   |
-| 14 ⬇  | dougiefresh_83*       | 87        |
+| 13    | ytp_dl*               | 88        |
+| 14    | dougiefresh_83*       | 87        |
 | 15    | dazedforevermore      | 86        |
 | 16    | miiiiisho             | 85        |
 | 17    | ninjaross*            | 78        |
@@ -31,7 +31,7 @@
 | 27    | crazytown_bananapants | 67        |
 | 28    | comiqq                | 65        |
 | 28    | ryebreadward          | 65        |
-| 30 ⬆  | kikyomushi            | 64 (+1)   |
+| 30    | kikyomushi            | 64        |
 | 30    | mitgliederversammlung | 64        |
 | 32    | sussy_amonge          | 62        |
 | 33    | kaasppeerr            | 60        |
@@ -46,10 +46,11 @@
 | 41    | lazuli672*            | 53        |
 | 43    | houseofleaves*        | 51        |
 | 43    | osnyatsky*            | 51        |
+| 45 🆕 | esvelles              | 50        |
 | 45    | pinksynthesis29       | 50        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-03-15 09:23:27 UTC_
+_Last updated at 2026-03-22 11:13:43 UTC_

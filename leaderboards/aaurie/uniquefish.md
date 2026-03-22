@@ -10,13 +10,13 @@
 | 6     | allspice_boatrace | 30        |
 | 7     | aaurie            | 23        |
 | 8     | bluezebra17       | 22        |
+| 9 ⬆   | abelito75         | 21 (+1)   |
 | 9     | curiouscorvidae   | 21        |
-| 9 ⬆   | guy_farting420    | 21 (+1)   |
-| 11 ⬇  | abelito75         | 20        |
+| 9     | guy_farting420    | 21        |
 | 12    | dwaynepounder     | 19        |
 | 12    | victorvondoom313  | 19        |
-| 14    | rustnroll         | 18 (+1)   |
-| 15 ⬇  | preemalone        | 17        |
+| 14    | rustnroll         | 18        |
+| 15    | preemalone        | 17        |
 | 16    | eldiabloskillet   | 16        |
 | 17    | brody5020         | 14        |
 | 17    | meowinmestar      | 14        |
@@ -27,9 +27,10 @@
 | 23    | blackberryking00  | 11        |
 | 23    | ratlover2244      | 11        |
 | 25    | forceghostleia    | 10        |
+| 25 🆕 | onetriforce       | 10        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2026-03-15 09:23:27 UTC_
+_Last updated at 2026-03-22 11:13:42 UTC_

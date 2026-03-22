@@ -21,17 +21,17 @@
 | 17    | 🦞 lobster         | 111.52         | bubinga                   | 2025-07-04 14:28:23 |
 | 18    | 🪸 coral           | 96.28          | iflya320                  | 2025-07-24 10:27:48 |
 | 19    | 🐈‍⬛ blackcat        | 90.13          | thetaxmen                 | 2024-12-19 08:21:39 |
-| 20    | 🪨 rock            | 75.87          | eeziiii                   | 2025-05-30 10:35:50 |
-| 21    | 🛒 shoppingcart    | 73.36          | glorianeq                 | 2025-02-24 22:18:53 |
-| 22    | 👑 crown           | 69.03          | iflya320                  | 2025-05-07 13:47:40 |
-| 23    | 🧜‍♀️ mermaid         | 66.61          | veny2lbs                  | 2025-07-14 13:55:25 |
+| 20 ⬆  | 🧜‍♀️ mermaid         | 81.54 (+14.93) | eeziiii                   | 2026-03-19 14:33:58 |
+| 21 ⬇  | 🪨 rock            | 75.87          | eeziiii                   | 2025-05-30 10:35:50 |
+| 22 ⬇  | 🛒 shoppingcart    | 73.36          | glorianeq                 | 2025-02-24 22:18:53 |
+| 23 ⬇  | 👑 crown           | 69.03          | iflya320                  | 2025-05-07 13:47:40 |
 | 24    | 🐟 fish            | 61.35          | huuuuuuuuuuuuuuuuuuuuuurz | 2025-01-03 12:13:18 |
 | 25    | 🦐 shrimp          | 58.63          | bubinga                   | 2025-08-25 21:31:19 |
-| 26 ⬆  | 🎰 slotmachine     | 55.00 (+13.00) | wowitsdub                 | 2026-03-11 22:10:57 |
-| 27 ⬇  | 🐀 rat             | 54.57          | theevirus                 | 2024-12-23 19:12:05 |
-| 28 ⬇  | 🗡️ dagger          | 46.27          | feelsaceman               | 2025-08-02 13:25:15 |
-| 29 ⬇  | 🦫 beaver          | 43.97          | theevirus                 | 2025-10-18 15:26:06 |
-| 30 ⬇  | 🐸 frog            | 43.36          | ranctious                 | 2025-10-16 12:03:03 |
+| 26    | 🎰 slotmachine     | 55.00          | wowitsdub                 | 2026-03-11 22:10:57 |
+| 27    | 🐀 rat             | 54.57          | theevirus                 | 2024-12-23 19:12:05 |
+| 28    | 🗡️ dagger          | 46.27          | feelsaceman               | 2025-08-02 13:25:15 |
+| 29    | 🦫 beaver          | 43.97          | theevirus                 | 2025-10-18 15:26:06 |
+| 30    | 🐸 frog            | 43.36          | ranctious                 | 2025-10-16 12:03:03 |
 | 31    | 🐧 penguin         | 41.88          | theevirus                 | 2025-01-02 18:41:16 |
 | 32    | 🦀 crab            | 39.37          | huuuuuuuuuuuuuuuuuuuuuurz | 2025-03-31 19:21:43 |
 | 33    | 🐡 blowfish        | 36.60          | huuuuuuuuuuuuuuuuuuuuuurz | 2025-10-09 05:13:02 |
@@ -58,8 +58,8 @@
 | 54    | 👒 hat             | 11.92          | bcarw                     | 2025-11-05 00:26:47 |
 | 54    | 🧸 teddybear       | 11.92          | bubinga                   | 2025-12-30 00:20:22 |
 | 56    | 📱 iphone          | 11.49          | supibot                   | 2024-12-19 11:50:57 |
-| 57 ⬆  | 🪹 emptynest       | 10.95 (+0.07)  | iflya320                  | 2026-03-11 19:10:16 |
-| 58 ⬇  | 🪺 nestwitheggs    | 10.94          | feelsaceman               | 2025-12-12 13:24:57 |
+| 57    | 🪹 emptynest       | 10.95          | iflya320                  | 2026-03-11 19:10:16 |
+| 58    | 🪺 nestwitheggs    | 10.94          | feelsaceman               | 2025-12-12 13:24:57 |
 | 59    | 🪁 kite            | 10.79          | huuuuuuuuuuuuuuuuuuuuuurz | 2025-07-13 01:08:24 |
 | 60    | 🧥 coat            | 10.72          | iflya320                  | 2025-05-02 13:12:42 |
 | 61    | 🎱 8ball           | 10.70          | zwockel01                 | 2024-12-24 12:24:07 |
@@ -105,10 +105,10 @@
 | 101   | 🩴 thongsandal     | 1.95           | theevirus                 | 2025-08-27 14:13:53 |
 | 102   | 👟 sneaker         | 1.92           | drecklo                   | 2025-10-30 17:34:18 |
 | 103   | 🐝 bee             | 1.31           | eeziiii                   | 2025-08-30 14:18:01 |
-| 104 ⬆ | 🌾 grass           | 1.00 (+0.01)   | blu_inx                   | 2026-03-09 21:20:26 |
+| 104   | 🌾 grass           | 1.00           | blu_inx                   | 2026-03-09 21:20:26 |
 | 104   | 🌿 seaweed         | 1.00           | iflya320                  | 2024-12-14 23:52:21 |
-| 106 ⬇ | 🧤 gloves          | 0.99           | theevirus                 | 2026-01-16 01:07:47 |
-| 106 ⬇ | 🪚 icesaw          | 0.99           | lobuhtomy                 | 2026-02-17 16:37:37 |
+| 106   | 🧤 gloves          | 0.99           | theevirus                 | 2026-01-16 01:07:47 |
+| 106   | 🪚 icesaw          | 0.99           | lobuhtomy                 | 2026-02-17 16:37:37 |
 | 108   | 🐛 caterpillar     | 0.97           | theevirus                 | 2025-08-28 23:20:18 |
 | 109   | 🧣 scarf           | 0.96           | thetaxmen                 | 2025-01-03 00:50:02 |
 | 110   | 🫐 bilberries      | 0.95           | bubinga                   | 2025-06-22 12:09:29 |
@@ -125,4 +125,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-03-15 09:23:37 UTC_
+_Last updated at 2026-03-22 11:12:45 UTC_

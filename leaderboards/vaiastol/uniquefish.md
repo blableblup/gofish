@@ -17,8 +17,8 @@
 | 13    | milesdotcom        | 42        |
 | 14    | redreignss         | 38        |
 | 15    | julialuxel         | 37        |
-| 16    | brontiiide         | 34        |
-| 17    | proswift           | 33 (+2)   |
+| 16 ⬆  | proswift           | 36 (+3)   |
+| 17 ⬇  | brontiiide         | 34        |
 | 18    | obama              | 30        |
 | 19    | larvaew            | 29        |
 | 20    | bubinga            | 25        |
@@ -30,4 +30,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-03-15 09:23:28 UTC_
+_Last updated at 2026-03-22 11:13:43 UTC_

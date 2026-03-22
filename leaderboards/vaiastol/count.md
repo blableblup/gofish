@@ -2,10 +2,10 @@
 
 | Rank  | Player                | Fish caught |
 |:------|:----------------------|:------------|
-| 1 🥇  | vaiastol              | 3988 (+50)  |
-| 2 🥈  | hahppyy               | 1604        |
-| 3 🥉  | eelacy                | 1369 (+9)   |
-| 4     | garout                | 824 (+1)    |
+| 1 🥇  | vaiastol              | 4053 (+65)  |
+| 2 🥈  | hahppyy               | 1606 (+2)   |
+| 3 🥉  | eelacy                | 1389 (+20)  |
+| 4     | garout                | 826 (+2)    |
 | 5     | divra__               | 645         |
 | 6     | leastsussyimposter    | 553         |
 | 7     | leanmeister           | 507         |
@@ -13,10 +13,10 @@
 | 9     | dazedforevermore      | 255         |
 | 10    | pengeg                | 243         |
 | 11    | redreignss            | 207         |
-| 12    | gstaman911            | 167         |
+| 12    | gstaman911            | 168 (+1)    |
 | 13    | yoimlee               | 164         |
-| 14    | milesdotcom           | 137         |
-| 15    | proswift              | 128 (+7)    |
+| 14 ⬆  | proswift              | 141 (+13)   |
+| 15 ⬇  | milesdotcom           | 137         |
 | 16    | brontiiide            | 120         |
 | 17    | tiaguitos97           | 117         |
 | 18    | julialuxel            | 109         |
@@ -43,4 +43,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-03-15 09:21:43 UTC_
+_Last updated at 2026-03-22 11:10:09 UTC_

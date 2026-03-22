@@ -2,15 +2,15 @@
 
 | Rank  | Player              | Fish caught |
 |:------|:--------------------|:------------|
-| 1 🥇  | rainedparade        | 360 (+1)    |
-| 2 🥈  | miyabwah            | 275         |
+| 1 🥇  | rainedparade        | 361 (+1)    |
+| 2 🥈  | miyabwah            | 276 (+1)    |
 | 3 🥉  | pompadourdelinquent | 144         |
-| 4     | goopy777            | 139         |
+| 4     | goopy777            | 140 (+1)    |
 | 5     | poioce              | 132         |
-| 6     | jakthejanitor       | 103 (+5)    |
+| 6     | jakthejanitor       | 110 (+7)    |
 | 7     | cptblack_           | 91          |
 | 8     | hello0d             | 89          |
-| 9     | teeto               | 88          |
+| 8 ⬆   | teeto               | 89 (+1)     |
 | 10    | e1d2f3              | 58          |
 | 11    | wombatbrownies      | 42          |
 | 12    | crunch_sack         | 40          |
@@ -29,4 +29,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-03-15 09:21:43 UTC_
+_Last updated at 2026-03-22 11:10:10 UTC_

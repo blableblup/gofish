@@ -86,16 +86,16 @@
 	"2792": {
 		"player": "likedom_",
 		"playerid": 2792,
-		"weight": 134.56,
+		"weight": 144.89,
 		"bot": "gofishgame",
-		"fishtype": "🐋",
-		"fishname": "whale",
+		"fishtype": "🐊",
+		"fishname": "crocodile",
 		"catchtype": "normal",
 		"chat": "aquaismissing",
-		"fishid": 153862,
-		"chatid": 369,
-		"date": "2025-03-11T15:57:11Z",
-		"rank": 7
+		"fishid": 247090,
+		"chatid": 934,
+		"date": "2026-03-17T00:09:14Z",
+		"rank": 5
 	},
 	"3005": {
 		"player": "elisworm",
@@ -109,7 +109,7 @@
 		"fishid": 218059,
 		"chatid": 761,
 		"date": "2025-11-26T02:46:03Z",
-		"rank": 6
+		"rank": 7
 	},
 	"3469": {
 		"player": "aquaismissing",
@@ -193,7 +193,7 @@
 		"fishid": 141427,
 		"chatid": 249,
 		"date": "2025-01-14T21:39:57Z",
-		"rank": 25
+		"rank": 26
 	},
 	"3515": {
 		"player": "kaitechpl",
@@ -221,7 +221,7 @@
 		"fishid": 175503,
 		"chatid": 453,
 		"date": "2025-05-24T00:29:21Z",
-		"rank": 24
+		"rank": 25
 	},
 	"3542": {
 		"player": "dom1torii",
@@ -263,7 +263,7 @@
 		"fishid": 153952,
 		"chatid": 374,
 		"date": "2025-03-11T22:09:33Z",
-		"rank": 23
+		"rank": 24
 	},
 	"3572": {
 		"player": "desxyne",
@@ -277,7 +277,7 @@
 		"fishid": 211707,
 		"chatid": 661,
 		"date": "2025-10-31T13:33:34Z",
-		"rank": 5
+		"rank": 6
 	},
 	"3736": {
 		"player": "ranctious",
@@ -348,5 +348,19 @@
 		"chatid": 356,
 		"date": "2025-02-23T19:30:19Z",
 		"rank": 14
+	},
+	"629": {
+		"player": "nuflux",
+		"playerid": 629,
+		"weight": 59.93,
+		"bot": "gofishgame",
+		"fishtype": "🐙",
+		"fishname": "octopus",
+		"catchtype": "normal",
+		"chat": "aquaismissing",
+		"fishid": 247100,
+		"chatid": 935,
+		"date": "2026-03-17T01:16:05Z",
+		"rank": 23
 	}
 }
