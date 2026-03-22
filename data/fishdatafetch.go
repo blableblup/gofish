@@ -95,13 +95,20 @@ func GetFishDataFromURL(url string, chatName string, catches []FishCatch, pool *
 						fish.FishType = "🪼"
 					}
 
+					// DarkKnight was removed by twitch but was a shiny
+					if fish.FishType == "DarkKnight" {
+						fish.FishType = "DarkMode"
+					}
+
 					fishData = append(fishData, fish)
 				}
+
 			case "bag":
 				if fish.Date.After(latestBagDate) {
 
 					fishData = append(fishData, fish)
 				}
+
 			case "result":
 				if fish.Date.After(latestTournamentDate) {
 
