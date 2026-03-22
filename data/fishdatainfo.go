@@ -70,6 +70,9 @@ var WinterPresentOpening2024 = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}
 var BellGift = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), 🎅 Heya there! Take this and play with me, (won't ya[?]|wontcha[?]) [(]🔔 added to bag![)]`)
 var BellGift2025 = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), Huh[?] You pick up a 🔔 that was lying around[.] Who's that running away[?] 🏃‍➡️`)
 
+// new present on the train
+var SeatPresent = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): @(\w+), You return home to the docks[.] 🚞 [.][.][.]Huh[?] You find a 🎁 sitting conspicuously in your seat[.] It's addressed to you!`)
+
 var BagPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): [@👥]\s?(\w+), Your (bag|collection): (.+)`)
 
 var AmbientPattern = regexp.MustCompile(`\[(\d{4}-\d{2}-\d{1,2}\s\d{2}:\d{2}:\d{2})\] #\w+ (\w+): [@👥]\s?(\w+), (.+) [(]30s cooldown[)]`)
@@ -93,6 +96,7 @@ func allTheCatchPatterns() map[string]FishCatch {
 		"winterpresent2024":    {Pattern: WinterPresent2024, Type: "fish", ExtractFunc: extractInfoFromReleasePattern},
 		"bellgift":             {Pattern: BellGift, Type: "fish", ExtractFunc: extractInfoFromReleasePattern},
 		"bellgift2025":         {Pattern: BellGift2025, Type: "fish", ExtractFunc: extractInfoFromReleasePattern},
+		"seatpresent":          {Pattern: SeatPresent, Type: "fish", ExtractFunc: extractInfoFromReleasePattern},
 
 		"bag": {Pattern: BagPattern, Type: "bag", ExtractFunc: extractInfoFromBagPattern},
 
@@ -276,6 +280,10 @@ func extractInfoFromReleasePattern(match []string) FishInfo {
 		catchtype = "giftpresent"
 
 	case strings.Contains(match[0], "You find a 🎁 addressed to you"):
+		fishType = "🎁"
+		catchtype = "giftpresent"
+
+	case strings.Contains(match[0], "It's addressed to you!"):
 		fishType = "🎁"
 		catchtype = "giftpresent"
 
