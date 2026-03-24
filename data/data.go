@@ -451,6 +451,7 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			if err != nil {
 				logs.Logs().Error().Err(err).
 					Msg("Error inserting fish")
+				return err
 			}
 
 			newFishCounts[fish.Chat]++
@@ -481,6 +482,7 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			if err != nil {
 				logs.Logs().Error().Err(err).
 					Msg("Error inserting bag")
+				return err
 			}
 
 			newBagCounts[fish.Chat]++
@@ -523,6 +525,7 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			if err != nil {
 				logs.Logs().Error().Err(err).
 					Msg("Error inserting tournament result")
+				return err
 			}
 
 			newResultCounts[fish.Chat]++
@@ -572,6 +575,7 @@ func insertFishDataIntoDB(allFish []FishInfo, pool *pgxpool.Pool, config utils.C
 			if err != nil {
 				logs.Logs().Error().Err(err).
 					Msg("Error inserting ambience")
+				return err
 			}
 
 			newAmbienceCounts[fish.Chat]++
