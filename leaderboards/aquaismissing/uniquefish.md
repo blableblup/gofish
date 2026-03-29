@@ -6,9 +6,9 @@
 | 2 🥈  | rustezzz      | 29        |
 | 3 🥉  | bubinga       | 26        |
 | 3 🥉  | elisworm      | 26        |
-| 5     | desxyne       | 21        |
-| 5     | glorpiusbot   | 21        |
-| 5 ⬆   | likedom_      | 21 (+1)   |
+| 5     | glorpiusbot   | 22 (+1)   |
+| 6 ⬇   | desxyne       | 21        |
+| 6 ⬇   | likedom_      | 21        |
 | 8     | aquaismissing | 19        |
 | 8     | stofeyxd*     | 19        |
 | 10    | aistyrax3     | 18        |
@@ -27,4 +27,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2026-03-22 11:13:43 UTC_
+_Last updated at 2026-03-29 10:29:40 UTC_

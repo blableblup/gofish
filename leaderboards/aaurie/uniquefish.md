@@ -5,14 +5,14 @@
 | 1 🥇  | dolp_fin          | 41        |
 | 2 🥈  | jeffbethyname69   | 40        |
 | 3 🥉  | b00gie310         | 34        |
-| 4     | amatusz           | 32        |
-| 4     | gofishgamer       | 32        |
+| 4     | amatusz           | 33 (+1)   |
+| 5 ⬇   | gofishgamer       | 32        |
 | 6     | allspice_boatrace | 30        |
 | 7     | aaurie            | 23        |
 | 8     | bluezebra17       | 22        |
-| 9 ⬆   | abelito75         | 21 (+1)   |
-| 9     | curiouscorvidae   | 21        |
-| 9     | guy_farting420    | 21        |
+| 8 ⬆   | curiouscorvidae   | 22 (+1)   |
+| 10 ⬇  | abelito75         | 21        |
+| 10 ⬇  | guy_farting420    | 21        |
 | 12    | dwaynepounder     | 19        |
 | 12    | victorvondoom313  | 19        |
 | 14    | rustnroll         | 18        |
@@ -25,12 +25,12 @@
 | 21    | one_guy_123       | 12        |
 | 21    | rjthebooger       | 12        |
 | 23    | blackberryking00  | 11        |
+| 23 ⬆  | onetriforce       | 11 (+1)   |
 | 23    | ratlover2244      | 11        |
-| 25    | forceghostleia    | 10        |
-| 25 🆕 | onetriforce       | 10        |
+| 26 ⬇  | forceghostleia    | 10        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2026-03-22 11:13:42 UTC_
+_Last updated at 2026-03-29 10:29:39 UTC_

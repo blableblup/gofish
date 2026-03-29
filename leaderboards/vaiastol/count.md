@@ -2,10 +2,10 @@
 
 | Rank  | Player                | Fish caught |
 |:------|:----------------------|:------------|
-| 1 🥇  | vaiastol              | 4053 (+65)  |
-| 2 🥈  | hahppyy               | 1606 (+2)   |
-| 3 🥉  | eelacy                | 1389 (+20)  |
-| 4     | garout                | 826 (+2)    |
+| 1 🥇  | vaiastol              | 4121 (+68)  |
+| 2 🥈  | hahppyy               | 1609 (+3)   |
+| 3 🥉  | eelacy                | 1434 (+45)  |
+| 4     | garout                | 832 (+6)    |
 | 5     | divra__               | 645         |
 | 6     | leastsussyimposter    | 553         |
 | 7     | leanmeister           | 507         |
@@ -13,14 +13,14 @@
 | 9     | dazedforevermore      | 255         |
 | 10    | pengeg                | 243         |
 | 11    | redreignss            | 207         |
-| 12    | gstaman911            | 168 (+1)    |
-| 13    | yoimlee               | 164         |
-| 14 ⬆  | proswift              | 141 (+13)   |
-| 15 ⬇  | milesdotcom           | 137         |
+| 12 ⬆  | proswift              | 183 (+42)   |
+| 13 ⬇  | gstaman911            | 172 (+4)    |
+| 14 ⬇  | yoimlee               | 164         |
+| 15    | milesdotcom           | 137         |
 | 16    | brontiiide            | 120         |
 | 17    | tiaguitos97           | 117         |
 | 18    | julialuxel            | 109         |
-| 19    | obama                 | 59          |
+| 19    | obama                 | 60 (+1)     |
 | 20    | bubinga               | 55          |
 | 20    | ryakarr               | 55          |
 | 22    | rird_                 | 46          |
@@ -33,14 +33,15 @@
 | 28    | drpasu                | 17          |
 | 28    | jr_mime               | 17          |
 | 28    | mitgliederversammlung | 17          |
-| 32    | peppyow               | 16          |
-| 32    | respirate_            | 16          |
+| 28 ⬆  | respirate_            | 17 (+1)     |
+| 33 ⬇  | peppyow               | 16          |
 | 34    | ermnest               | 15          |
 | 34    | kaseyfart             | 15          |
 | 36    | creepycode*           | 13          |
 | 37    | nightmare_jpg         | 12          |
 | 37    | v6r_                  | 12          |
+| 39 🆕 | ash__meow             | 11          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-03-22 11:10:09 UTC_
+_Last updated at 2026-03-29 10:29:38 UTC_

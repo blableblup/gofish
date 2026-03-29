@@ -6,8 +6,8 @@
 | 118  | 🧥 coat            | 2.93          | feelsaceman               | 2025-12-25 02:51:38 |
 | 117  | 🛒 shoppingcart    | 51.50         | deatron                   | 2025-12-24 19:24:29 |
 | 116  | 🪿 goose           | 0.12          | blu_inx                   | 2025-12-23 17:17:16 |
-| 114  | 🎀 wrappingpaper   | 0.00          | llikotesnecil             | 2025-12-20 02:37:58 |
 | 114  | ✉️ letter          | 0.00          | llikotesnecil             | 2025-12-20 02:37:58 |
+| 114  | 🎀 wrappingpaper   | 0.00          | llikotesnecil             | 2025-12-20 02:37:58 |
 | 113  | 🍪 cookie          | 0.00          | nndiana                   | 2025-12-18 05:39:11 |
 | 112  | 🎁 present         | 0.00          | mazzo_tv                  | 2025-12-15 06:42:54 |
 | 111  | 🔔 bell            | 0.00          | mazzo_tv                  | 2025-12-14 09:38:24 |
@@ -15,13 +15,13 @@
 | 109  | 🕯️ candle          | 0.00          | mazzo_tv                  | 2025-10-30 20:45:34 |
 | 108  | 🍎 apple           | 0.26          | mazzo_tv                  | 2025-10-30 11:35:46 |
 | 107  | 🎃 pumpkin         | 5.87          | bubinga                   | 2025-10-30 10:25:06 |
-| 106  | 🦗 cricket         | 0.19          | jayayseaohbee             | 2025-09-11 02:05:57 |
+| 106  | 🦗 cricket         | 0.19          | jacobzzbzz                | 2025-09-11 02:05:57 |
 | 105  | 🦟 mosquito        | 0.34          | bluberry                  | 2025-08-30 20:49:06 |
 | 104  | 🕸️ spiderweb       | 0.03          | bluberry                  | 2025-08-30 06:27:36 |
 | 103  | 🐜 ant             | 0.49          | cotovelo3                 | 2025-08-29 10:48:45 |
 | 102  | 🌵 cactus          | 2.71          | ratatas1g                 | 2025-08-29 10:38:01 |
 | 101  | 🍥 sanddollar      | 0.77          | bubinga                   | 2025-08-25 07:57:19 |
-| 100  | 🧴 sunscreenbottle | 10.74         | jayayseaohbee             | 2025-08-24 23:25:58 |
+| 100  | 🧴 sunscreenbottle | 10.74         | jacobzzbzz                | 2025-08-24 23:25:58 |
 | 99   | 🧋 bobacup         | 6.90          | gorillapark               | 2025-08-24 23:06:18 |
 | 98   | 🐛 caterpillar     | 0.03          | ratot                     | 2025-06-30 15:05:57 |
 | 97   | 🪻 lupine          | 1.46          | mazzo_tv                  | 2025-06-25 08:50:26 |
@@ -122,4 +122,4 @@
 | 2    | 🦞 lobster         | 36.18         | psp1g                     | 2023-08-21 01:23:40 |
 | 1    | 🐟 fish            | 13.12         | dazedforevermore          | 2023-08-21 01:11:17 |
 
-_Last updated at 2026-02-01 09:23:44 UTC_
+_Last updated at 2026-03-29 10:29:40 UTC_

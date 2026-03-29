@@ -39,7 +39,7 @@
 		"fishid": 195467,
 		"chatid": 76,
 		"date": "2025-08-27T14:50:01Z",
-		"rank": 71
+		"rank": 72
 	},
 	"bat": {
 		"player": "respirate_",
@@ -58,15 +58,15 @@
 	"beaver": {
 		"player": "gofishgamer",
 		"playerid": 2944,
-		"weight": 36.16,
+		"weight": 38.23,
 		"bot": "gofishgame",
 		"fishtype": "🦫",
 		"fishname": "beaver",
 		"catchtype": "normal",
 		"chat": "ajspyman",
-		"fishid": 221349,
-		"chatid": 268,
-		"date": "2025-12-11T11:18:08Z",
+		"fishid": 249348,
+		"chatid": 1016,
+		"date": "2026-03-25T10:09:43Z",
 		"rank": 16
 	},
 	"bee": {
@@ -81,7 +81,7 @@
 		"fishid": 195257,
 		"chatid": 60,
 		"date": "2025-08-27T00:36:51Z",
-		"rank": 61
+		"rank": 62
 	},
 	"blackcat": {
 		"player": "gofishgamer",
@@ -109,7 +109,7 @@
 		"fishid": 214834,
 		"chatid": 136,
 		"date": "2025-11-10T18:35:24Z",
-		"rank": 57
+		"rank": 58
 	},
 	"bluewhale": {
 		"player": "gofishgames",
@@ -179,7 +179,7 @@
 		"fishid": 195276,
 		"chatid": 63,
 		"date": "2025-08-27T01:48:21Z",
-		"rank": 72
+		"rank": 73
 	},
 	"candy": {
 		"player": "nottachasm",
@@ -193,7 +193,7 @@
 		"fishid": 221185,
 		"chatid": 200,
 		"date": "2025-12-11T00:44:38Z",
-		"rank": 73
+		"rank": 74
 	},
 	"cannedfood": {
 		"player": "respirate_",
@@ -235,7 +235,7 @@
 		"fishid": 195804,
 		"chatid": 90,
 		"date": "2025-08-28T17:05:28Z",
-		"rank": 69
+		"rank": 70
 	},
 	"clover": {
 		"player": "gofishgamer",
@@ -389,7 +389,7 @@
 		"fishid": 195411,
 		"chatid": 72,
 		"date": "2025-08-27T11:29:58Z",
-		"rank": 74
+		"rank": 75
 	},
 	"frog": {
 		"player": "acornpond",
@@ -417,7 +417,21 @@
 		"fishid": 221572,
 		"chatid": 289,
 		"date": "2025-12-11T22:17:35Z",
-		"rank": 64
+		"rank": 65
+	},
+	"goose": {
+		"player": "acornpond",
+		"playerid": 4145,
+		"weight": 1.07,
+		"bot": "gofishgame",
+		"fishtype": "🪿",
+		"fishname": "goose",
+		"catchtype": "egg",
+		"chat": "ajspyman",
+		"fishid": 248596,
+		"chatid": 966,
+		"date": "2026-03-23T10:37:05Z",
+		"rank": 59
 	},
 	"hook": {
 		"player": "gofishgames",
@@ -459,7 +473,7 @@
 		"fishid": 230921,
 		"chatid": 902,
 		"date": "2026-01-03T02:36:53Z",
-		"rank": 60
+		"rank": 61
 	},
 	"iceskate": {
 		"player": "nottachasm",
@@ -478,16 +492,16 @@
 	"iphone": {
 		"player": "gofishgamer",
 		"playerid": 2944,
-		"weight": 1.06,
+		"weight": 1.2,
 		"bot": "gofishgame",
 		"fishtype": "📱",
 		"fishname": "iphone",
 		"catchtype": "normal",
 		"chat": "ajspyman",
-		"fishid": 222374,
-		"chatid": 407,
-		"date": "2025-12-14T00:19:42Z",
-		"rank": 58
+		"fishid": 248789,
+		"chatid": 975,
+		"date": "2026-03-24T00:08:27Z",
+		"rank": 57
 	},
 	"jar": {
 		"player": "gofishgamer",
@@ -543,7 +557,7 @@
 		"fishid": 195162,
 		"chatid": 50,
 		"date": "2025-08-26T19:08:16Z",
-		"rank": 59
+		"rank": 60
 	},
 	"lure": {
 		"player": "ajspyman",
@@ -571,7 +585,7 @@
 		"fishid": 195180,
 		"chatid": 51,
 		"date": "2025-08-26T19:52:09Z",
-		"rank": 66
+		"rank": 67
 	},
 	"mushroom": {
 		"player": "nottachasm",
@@ -725,7 +739,7 @@
 		"fishid": 227811,
 		"chatid": 663,
 		"date": "2025-12-24T20:17:11Z",
-		"rank": 65
+		"rank": 66
 	},
 	"seacucumber": {
 		"player": "elisworm",
@@ -767,7 +781,7 @@
 		"fishid": 223475,
 		"chatid": 448,
 		"date": "2025-12-15T10:33:52Z",
-		"rank": 62
+		"rank": 63
 	},
 	"shark": {
 		"player": "respirate_",
@@ -865,7 +879,7 @@
 		"fishid": 220244,
 		"chatid": 163,
 		"date": "2025-12-06T06:45:24Z",
-		"rank": 70
+		"rank": 71
 	},
 	"socks": {
 		"player": "acornpond",
@@ -907,7 +921,7 @@
 		"fishid": 195260,
 		"chatid": 62,
 		"date": "2025-08-27T00:41:03Z",
-		"rank": 74
+		"rank": 75
 	},
 	"sponge": {
 		"player": "ajspyman",
@@ -963,7 +977,7 @@
 		"fishid": 194881,
 		"chatid": 39,
 		"date": "2025-08-25T17:10:22Z",
-		"rank": 63
+		"rank": 64
 	},
 	"tropicalfish": {
 		"player": "elisworm",
@@ -1033,7 +1047,7 @@
 		"fishid": 200517,
 		"chatid": 109,
 		"date": "2025-09-21T07:43:43Z",
-		"rank": 68
+		"rank": 69
 	},
 	"worm": {
 		"player": "gofishgamer",
@@ -1047,6 +1061,6 @@
 		"fishid": 195289,
 		"chatid": 66,
 		"date": "2025-08-27T02:58:35Z",
-		"rank": 67
+		"rank": 68
 	}
 }

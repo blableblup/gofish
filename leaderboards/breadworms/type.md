@@ -67,8 +67,8 @@
 | 63    | 🧥 coat            | 11.62         | derinturitierutz      | 2025-03-25 12:20:39 |
 | 64    | 🧴 sunscreenbottle | 11.12         | kishma9               | 2025-08-24 22:23:00 |
 | 65    | 🪹 emptynest       | 10.99         | fvkdylan              | 2025-03-15 04:16:42 |
-| 66    | 🩲 briefs          | 10.94         | derintu               | 2025-07-10 13:16:26 |
-| 67    | 🪺 nestwitheggs    | 10.84         | osnyatsky             | 2024-03-30 13:50:46 |
+| 66 ⬆  | 🪺 nestwitheggs    | 10.95 (+0.11) | ytp_dl                | 2026-03-22 15:30:55 |
+| 67 ⬇  | 🩲 briefs          | 10.94         | derintu               | 2025-07-10 13:16:26 |
 | 68    | 🦎 lizard          | 10.61         | sussy_amonge          | 2023-06-04 08:16:33 |
 | 69    | 🪁 kite            | 10.40         | larvaew               | 2025-06-30 14:44:29 |
 | 70    | 🧋 bobacup         | 10.01         | fishingalt            | 2025-08-25 14:19:42 |
@@ -128,4 +128,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-03-01 09:46:56 UTC_
+_Last updated at 2026-03-29 10:28:39 UTC_

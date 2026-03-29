@@ -12,7 +12,7 @@
 | 8     | ofaisalz       | 331         |
 | 9     | konsminator    | 326         |
 | 10    | vagdy          | 254         |
-| 11    | notnownico     | 250 (+4)    |
+| 11    | notnownico     | 253 (+3)    |
 | 12    | rabituwu       | 243         |
 | 13    | hamoodhabibee  | 212         |
 | 14    | simplydrack    | 183         |
@@ -49,11 +49,11 @@
 | 45    | gigi           | 37          |
 | 45    | gizbart        | 37          |
 | 47    | anothercull    | 35          |
+| 48 ⬆  | avrwhy         | 33 (+1)     |
 | 48    | fvkdylan       | 33          |
-| 49    | avrwhy         | 32          |
 | 50    | reallyxtra     | 31          |
 | 50    | yadduh         | 31          |
 
 _Only showing fishers who caught >= 30 fish_
 
-_Last updated at 2026-03-22 11:10:10 UTC_
+_Last updated at 2026-03-29 10:29:38 UTC_

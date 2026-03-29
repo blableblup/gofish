@@ -11,7 +11,7 @@
 		"fishid": 226842,
 		"chatid": 874,
 		"date": "2025-12-22T01:06:01Z",
-		"rank": 58
+		"rank": 59
 	},
 	"acorn": {
 		"player": "glorpiusbot",
@@ -39,7 +39,7 @@
 		"fishid": 149468,
 		"chatid": 353,
 		"date": "2025-02-22T23:48:09Z",
-		"rank": 55
+		"rank": 56
 	},
 	"beaver": {
 		"player": "glorpiusbot",
@@ -100,16 +100,16 @@
 	"bobber": {
 		"player": "glorpiusbot",
 		"playerid": 3563,
-		"weight": 0.47,
+		"weight": 1.56,
 		"bot": "gofishgame",
 		"fishtype": "🪀",
 		"fishname": "bobber",
 		"catchtype": "normal",
 		"chat": "aquaismissing",
-		"fishid": 212811,
-		"chatid": 676,
-		"date": "2025-11-03T14:31:23Z",
-		"rank": 59
+		"fishid": 249223,
+		"chatid": 940,
+		"date": "2026-03-25T00:53:43Z",
+		"rank": 54
 	},
 	"boot": {
 		"player": "respirate_",
@@ -291,7 +291,7 @@
 		"fishid": 214608,
 		"chatid": 688,
 		"date": "2025-11-09T17:41:43Z",
-		"rank": 56
+		"rank": 57
 	},
 	"hat": {
 		"player": "syberiak_",
@@ -334,6 +334,20 @@
 		"chatid": 792,
 		"date": "2025-11-29T00:46:15Z",
 		"rank": 37
+	},
+	"iphone": {
+		"player": "glorpiusbot",
+		"playerid": 3563,
+		"weight": 0.43,
+		"bot": "gofishgame",
+		"fishtype": "📱",
+		"fishname": "iphone",
+		"catchtype": "normal",
+		"chat": "aquaismissing",
+		"fishid": 248686,
+		"chatid": 937,
+		"date": "2026-03-23T16:02:48Z",
+		"rank": 60
 	},
 	"jellyfish": {
 		"player": "rustezzz",
@@ -529,7 +543,7 @@
 		"fishid": 220536,
 		"chatid": 866,
 		"date": "2025-12-07T18:13:00Z",
-		"rank": 54
+		"rank": 55
 	},
 	"sauropod": {
 		"player": "velantix",
@@ -585,7 +599,7 @@
 		"fishid": 173295,
 		"chatid": 445,
 		"date": "2025-05-14T21:25:22Z",
-		"rank": 57
+		"rank": 58
 	},
 	"shark": {
 		"player": "respirate_",
@@ -711,7 +725,7 @@
 		"fishid": 218089,
 		"chatid": 768,
 		"date": "2025-11-26T07:41:24Z",
-		"rank": 61
+		"rank": 62
 	},
 	"sponge": {
 		"player": "kargalay",
@@ -837,7 +851,7 @@
 		"fishid": 199830,
 		"chatid": 629,
 		"date": "2025-09-19T09:56:00Z",
-		"rank": 60
+		"rank": 61
 	},
 	"worm": {
 		"player": "kaitechpl",

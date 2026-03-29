@@ -2,37 +2,37 @@
 
 | Rank | Fish              | Weight in lbs | Player          | Date in UTC         |
 |:-----|:------------------|:--------------|:----------------|:--------------------|
-| 110  | 🪳 cockroach      | 0.21          | notnownico      | 2026-03-19 16:52:40 |
-| 109  | 💀 skull          | 9.54          | notnownico      | 2026-03-19 14:11:27 |
-| 108  | 🐟 fish           | 1.70          | notnownico      | 2026-03-18 17:47:25 |
-| 107  | 🪝 hook           | 2.10          | notnownico      | 2026-03-16 14:51:09 |
-| 106  | 🐊 crocodile      | 133.44        | notnownico      | 2026-03-14 15:43:00 |
-| 105  | ☂️ umbrella       | 2.69          | notnownico      | 2026-03-12 22:52:31 |
-| 104  | 🦢 swan           | 1.44          | notnownico      | 2026-03-11 15:26:50 |
-| 103  | 🦞 lobster        | 28.29         | notnownico      | 2026-03-10 16:37:00 |
-| 102  | 🐬 dolphin        | 12.95         | notnownico      | 2026-03-10 13:05:24 |
-| 101  | 🍃 deadleaves     | 0.71          | notnownico      | 2026-03-05 12:54:12 |
-| 100  | 🦪 oyster         | 32.16         | hamoodhabibee   | 2026-03-04 20:31:00 |
-| 99   | 🧦 socks          | 1.91          | dizzy           | 2026-03-02 11:42:16 |
-| 98   | 🪱 worm           | 5.18          | avrwhy          | 2026-02-23 23:44:12 |
-| 97   | 🐚 shell          | 1.02          | notnownico      | 2026-02-20 14:10:56 |
-| 96   | 🥫 cannedfood     | 1.96          | notnownico      | 2026-02-15 21:02:52 |
-| 95   | 🦐 shrimp         | 6.95          | a_wildmoose     | 2026-02-15 18:55:05 |
-| 94   | 🪸 coral          | 9.83          | zelfarso        | 2026-02-05 18:15:37 |
-| 93   | 👢 boot           | 0.70          | baklavaandsushi | 2026-01-31 21:15:56 |
-| 92   | 🐳 bluewhale      | 85.86         | kyonuwu         | 2026-01-07 23:29:26 |
-| 91   | 🐸 frog           | 1.63          | ofaisalz        | 2025-12-31 18:12:39 |
-| 90   | 🦑 squid          | 304.76        | gofishgamer     | 2025-12-22 05:46:17 |
-| 89   | 🎱 8ball          | 0.99          | vagdy           | 2025-12-20 01:36:52 |
-| 88   | 🪻 lupine         | 1.12          | ofaisalz        | 2025-12-19 22:52:35 |
-| 87   | 🦎 lizard         | 0.29          | vagdy           | 2025-12-19 22:44:12 |
-| 86   | 🐢 turtle         | 76.25         | vagdy           | 2025-12-10 15:17:13 |
-| 85   | 🧸 teddybear      | 5.72          | vagdy           | 2025-12-09 17:05:00 |
-| 84   | 🍄 oceanplant     | 2.78          | vagdy           | 2025-12-08 15:25:30 |
-| 83   | 🦀 crab           | 1.71          | vagdy           | 2025-12-05 15:46:29 |
-| 82   | 🦈 shark          | 210.09        | kyonuwu         | 2025-12-02 21:48:52 |
-| 81   | 🦠 plankton       | 6.97          | vagdy           | 2025-12-01 19:54:31 |
-| 80   | 🎏 lure           | 2.19          | zommie__        | 2025-11-29 12:46:25 |
+| 110  | 🎏 lure           | 2.50          | avrwhy          | 2026-03-26 21:05:49 |
+| 109  | 🐢 turtle         | 66.30         | notnownico      | 2026-03-23 21:02:58 |
+| 108  | 💀 skull          | 8.02          | notnownico      | 2026-03-23 13:26:05 |
+| 107  | 🪳 cockroach      | 0.21          | notnownico      | 2026-03-19 16:52:40 |
+| 106  | 🐟 fish           | 1.70          | notnownico      | 2026-03-18 17:47:25 |
+| 105  | 🪝 hook           | 2.10          | notnownico      | 2026-03-16 14:51:09 |
+| 104  | 🐊 crocodile      | 133.44        | notnownico      | 2026-03-14 15:43:00 |
+| 103  | ☂️ umbrella       | 2.69          | notnownico      | 2026-03-12 22:52:31 |
+| 102  | 🦢 swan           | 1.44          | notnownico      | 2026-03-11 15:26:50 |
+| 101  | 🦞 lobster        | 28.29         | notnownico      | 2026-03-10 16:37:00 |
+| 100  | 🐬 dolphin        | 12.95         | notnownico      | 2026-03-10 13:05:24 |
+| 99   | 🍃 deadleaves     | 0.71          | notnownico      | 2026-03-05 12:54:12 |
+| 98   | 🦪 oyster         | 32.16         | hamoodhabibee   | 2026-03-04 20:31:00 |
+| 97   | 🧦 socks          | 1.91          | dizzy           | 2026-03-02 11:42:16 |
+| 96   | 🪱 worm           | 5.18          | avrwhy          | 2026-02-23 23:44:12 |
+| 95   | 🐚 shell          | 1.02          | notnownico      | 2026-02-20 14:10:56 |
+| 94   | 🥫 cannedfood     | 1.96          | notnownico      | 2026-02-15 21:02:52 |
+| 93   | 🦐 shrimp         | 6.95          | a_wildmoose     | 2026-02-15 18:55:05 |
+| 92   | 🪸 coral          | 9.83          | zelfarso        | 2026-02-05 18:15:37 |
+| 91   | 👢 boot           | 0.70          | baklavaandsushi | 2026-01-31 21:15:56 |
+| 90   | 🐳 bluewhale      | 85.86         | kyonuwu         | 2026-01-07 23:29:26 |
+| 89   | 🐸 frog           | 1.63          | ofaisalz        | 2025-12-31 18:12:39 |
+| 88   | 🦑 squid          | 304.76        | gofishgamer     | 2025-12-22 05:46:17 |
+| 87   | 🎱 8ball          | 0.99          | vagdy           | 2025-12-20 01:36:52 |
+| 86   | 🪻 lupine         | 1.12          | ofaisalz        | 2025-12-19 22:52:35 |
+| 85   | 🦎 lizard         | 0.29          | vagdy           | 2025-12-19 22:44:12 |
+| 84   | 🧸 teddybear      | 5.72          | vagdy           | 2025-12-09 17:05:00 |
+| 83   | 🍄 oceanplant     | 2.78          | vagdy           | 2025-12-08 15:25:30 |
+| 82   | 🦀 crab           | 1.71          | vagdy           | 2025-12-05 15:46:29 |
+| 81   | 🦈 shark          | 210.09        | kyonuwu         | 2025-12-02 21:48:52 |
+| 80   | 🦠 plankton       | 6.97          | vagdy           | 2025-12-01 19:54:31 |
 | 79   | 🐙 octopus        | 46.78         | vagdy           | 2025-11-25 17:58:14 |
 | 78   | 🦦 otter          | 4.26          | vagdy           | 2025-11-23 12:24:19 |
 | 77   | 🦕 sauropod       | 25.79         | kyonuwu         | 2025-11-22 18:53:44 |
@@ -112,4 +112,4 @@
 | 2    | 👑 crown          | 30.94         | glorp_fishing   | 2024-12-12 21:16:52 |
 | 1    | 🧞‍♂ genie          | 17.60         | feuha           | 2024-11-01 09:40:30 |
 
-_Last updated at 2026-03-22 11:13:42 UTC_
+_Last updated at 2026-03-29 10:26:17 UTC_

@@ -5,10 +5,10 @@
 | 1 🥇  | rainedparade        | 58        |
 | 2 🥈  | miyabwah            | 45        |
 | 3 🥉  | pompadourdelinquent | 43        |
-| 4 ⬆   | goopy777            | 39 (+1)   |
+| 4     | goopy777            | 39        |
 | 4     | hello0d             | 39        |
-| 6 ⬇   | poioce              | 38        |
-| 7     | jakthejanitor       | 36        |
+| 6     | poioce              | 38        |
+| 7     | jakthejanitor       | 37 (+1)   |
 | 8     | teeto               | 31        |
 | 9     | cptblack_           | 30        |
 | 10    | e1d2f3              | 29        |
@@ -29,4 +29,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2026-03-22 11:13:42 UTC_
+_Last updated at 2026-03-29 10:29:39 UTC_

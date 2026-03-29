@@ -17,7 +17,7 @@
 | 13    | 🦞 lobster      | 57.66         | elisworm    | 2025-08-25 07:22:06 |
 | 14    | 🦪 oyster       | 42.57         | acornpond   | 2025-12-23 03:42:02 |
 | 15    | 🐧 penguin      | 40.50         | gofishgames | 2025-12-25 07:32:04 |
-| 16    | 🦫 beaver       | 36.16         | gofishgamer | 2025-12-11 11:18:08 |
+| 16    | 🦫 beaver       | 38.23 (+2.07) | gofishgamer | 2026-03-25 10:09:43 |
 | 17    | 🦀 crab         | 35.83         | gofishgamer | 2025-08-24 23:37:07 |
 | 18    | 🐟 fish         | 33.62         | elisworm    | 2025-11-10 21:40:05 |
 | 19    | 🥒 seacucumber  | 29.13         | elisworm    | 2025-08-25 00:42:18 |
@@ -58,26 +58,27 @@
 | 54    | 🧦 socks        | 1.71          | acornpond   | 2025-12-13 21:13:06 |
 | 55    | 🫙 jar          | 1.52          | gofishgamer | 2025-08-26 23:15:27 |
 | 56    | 👢 boot         | 1.28          | respirate_  | 2025-12-11 21:02:14 |
-| 57    | 🐡 blowfish     | 1.09          | respirate_  | 2025-11-10 18:35:24 |
-| 58    | 📱 iphone       | 1.06          | gofishgamer | 2025-12-14 00:19:42 |
-| 59    | 🪻 lupine       | 0.97          | respirate_  | 2025-08-26 19:08:16 |
-| 60    | 🪚 icesaw       | 0.96          | gofishgames | 2026-01-03 02:36:53 |
-| 61    | 🐝 bee          | 0.93          | elisworm    | 2025-08-27 00:36:51 |
-| 62    | 🌿 seaweed      | 0.91          | nottachasm  | 2025-12-15 10:33:52 |
-| 63    | 🩴 thongsandal  | 0.89          | respirate_  | 2025-08-25 17:10:22 |
-| 64    | 🧤 gloves       | 0.88          | gofishgames | 2025-12-11 22:17:35 |
-| 65    | 🧣 scarf        | 0.76          | gofishgames | 2025-12-24 20:17:11 |
-| 66    | 🦟 mosquito     | 0.66          | elisworm    | 2025-08-26 19:52:09 |
-| 67    | 🪱 worm         | 0.65          | gofishgamer | 2025-08-27 02:58:35 |
-| 68    | 🧵 wireline     | 0.54          | respirate_  | 2025-09-21 07:43:43 |
-| 69    | 🐛 caterpillar  | 0.36          | respirate_  | 2025-08-28 17:05:28 |
-| 70    | 👟 sneaker      | 0.35          | respirate_  | 2025-12-06 06:45:24 |
-| 71    | 🐜 ant          | 0.34          | gofishgamer | 2025-08-27 14:50:01 |
-| 72    | 🦋 butterfly    | 0.26          | gofishgamer | 2025-08-27 01:48:21 |
-| 73    | 🍬 candy        | 0.06          | nottachasm  | 2025-12-11 00:44:38 |
-| 74    | 🪰 fly          | 0.05          | respirate_  | 2025-08-27 11:29:58 |
-| 74    | 🕸️ spiderweb    | 0.05          | respirate_  | 2025-08-27 00:41:03 |
+| 57 ⬆  | 📱 iphone       | 1.20 (+0.14)  | gofishgamer | 2026-03-24 00:08:27 |
+| 58 ⬇  | 🐡 blowfish     | 1.09          | respirate_  | 2025-11-10 18:35:24 |
+| 59 🆕 | 🪿 goose        | 1.07          | acornpond   | 2026-03-23 10:37:05 |
+| 60 ⬇  | 🪻 lupine       | 0.97          | respirate_  | 2025-08-26 19:08:16 |
+| 61 ⬇  | 🪚 icesaw       | 0.96          | gofishgames | 2026-01-03 02:36:53 |
+| 62 ⬇  | 🐝 bee          | 0.93          | elisworm    | 2025-08-27 00:36:51 |
+| 63 ⬇  | 🌿 seaweed      | 0.91          | nottachasm  | 2025-12-15 10:33:52 |
+| 64 ⬇  | 🩴 thongsandal  | 0.89          | respirate_  | 2025-08-25 17:10:22 |
+| 65 ⬇  | 🧤 gloves       | 0.88          | gofishgames | 2025-12-11 22:17:35 |
+| 66 ⬇  | 🧣 scarf        | 0.76          | gofishgames | 2025-12-24 20:17:11 |
+| 67 ⬇  | 🦟 mosquito     | 0.66          | elisworm    | 2025-08-26 19:52:09 |
+| 68 ⬇  | 🪱 worm         | 0.65          | gofishgamer | 2025-08-27 02:58:35 |
+| 69 ⬇  | 🧵 wireline     | 0.54          | respirate_  | 2025-09-21 07:43:43 |
+| 70 ⬇  | 🐛 caterpillar  | 0.36          | respirate_  | 2025-08-28 17:05:28 |
+| 71 ⬇  | 👟 sneaker      | 0.35          | respirate_  | 2025-12-06 06:45:24 |
+| 72 ⬇  | 🐜 ant          | 0.34          | gofishgamer | 2025-08-27 14:50:01 |
+| 73 ⬇  | 🦋 butterfly    | 0.26          | gofishgamer | 2025-08-27 01:48:21 |
+| 74 ⬇  | 🍬 candy        | 0.06          | nottachasm  | 2025-12-11 00:44:38 |
+| 75 ⬇  | 🪰 fly          | 0.05          | respirate_  | 2025-08-27 11:29:58 |
+| 75 ⬇  | 🕸️ spiderweb    | 0.05          | respirate_  | 2025-08-27 00:41:03 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-01-11 10:26:35 UTC_
+_Last updated at 2026-03-29 10:28:50 UTC_

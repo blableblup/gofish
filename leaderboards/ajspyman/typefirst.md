@@ -2,15 +2,16 @@
 
 | Rank | Fish             | Weight in lbs | Player      | Date in UTC         |
 |:-----|:-----------------|:--------------|:------------|:--------------------|
+| 84   | 🪿 goose         | 1.07          | acornpond   | 2026-03-23 10:37:05 |
 | 83   | 🧭 compass       | 4.10          | acornpond   | 2025-12-26 21:18:43 |
 | 82   | 🐧 penguin       | 12.30         | nottachasm  | 2025-12-24 05:22:35 |
 | 81   | 🧣 scarf         | 0.09          | elisworm    | 2025-12-24 01:00:38 |
 | 80   | ⛸️ iceskate      | 1.56          | nottachasm  | 2025-12-23 23:18:44 |
 | 79   | 🪚 icesaw        | 0.57          | elisworm    | 2025-12-23 20:29:22 |
 | 78   | 🕯️ candle        | 0.00          | elisworm    | 2025-12-18 03:56:48 |
+| 75   | 🎀 wrappingpaper | 0.00          | respirate_  | 2025-12-18 03:55:46 |
 | 75   | 🍪 cookie        | 0.00          | respirate_  | 2025-12-18 03:55:46 |
 | 75   | ✉️ letter        | 0.00          | respirate_  | 2025-12-18 03:55:46 |
-| 75   | 🎀 wrappingpaper | 0.00          | respirate_  | 2025-12-18 03:55:46 |
 | 74   | 🦭 seal          | 20.69         | gofishgamer | 2025-12-16 09:29:43 |
 | 73   | 🐳 bluewhale     | 183.48        | gofishgamer | 2025-12-16 08:03:05 |
 | 72   | 🍄‍🟫 mushroom      | 10.37         | gofishgames | 2025-12-16 06:47:29 |
@@ -86,4 +87,4 @@
 | 2    | 🐟 fish          | 9.95          | juliilan    | 2024-05-22 23:39:16 |
 | 1    | 🪝 hook          | 0.34          | breadworms  | 2024-05-15 14:30:25 |
 
-_Last updated at 2026-01-11 10:26:12 UTC_
+_Last updated at 2026-03-29 10:29:40 UTC_
