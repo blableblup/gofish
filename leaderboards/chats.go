@@ -102,6 +102,10 @@ func getChatStats(params LeaderboardParams) (map[string]BoardData, error) {
 	}
 
 	for _, result := range results {
+		// so that twich whispers doesnt show up here
+		if _, ok := chatStatsIDK[result.Chat]; !ok {
+			continue
+		}
 		chatStatsIDK[result.Chat].Count = result.Count
 	}
 
@@ -146,6 +150,9 @@ func getChatStats(params LeaderboardParams) (map[string]BoardData, error) {
 	}
 
 	for _, result := range results {
+		if _, ok := chatStatsIDK[result.Chat]; !ok {
+			continue
+		}
 		chatStatsIDK[result.Chat].ActiveFishers = result.ActiveFishers
 	}
 
@@ -169,6 +176,9 @@ func getChatStats(params LeaderboardParams) (map[string]BoardData, error) {
 	}
 
 	for _, result := range results {
+		if _, ok := chatStatsIDK[result.Chat]; !ok {
+			continue
+		}
 		chatStatsIDK[result.Chat].UniqueFishers = result.UniqueFishers
 	}
 
@@ -189,6 +199,9 @@ func getChatStats(params LeaderboardParams) (map[string]BoardData, error) {
 	}
 
 	for _, result := range results {
+		if _, ok := chatStatsIDK[result.Chat]; !ok {
+			continue
+		}
 		chatStatsIDK[result.Chat].UniqueFish = result.UniqueFish
 	}
 
@@ -217,6 +230,9 @@ func getChatStats(params LeaderboardParams) (map[string]BoardData, error) {
 	}
 
 	for _, result := range results {
+		if _, ok := chatStatsIDK[result.Chat]; !ok {
+			continue
+		}
 		chatStatsIDK[result.Chat].Weight = result.Weight
 
 		chatStatsIDK[result.Chat].FishType, err = FishStuff(result.FishName, params)

@@ -15,7 +15,9 @@
 
 ## About the data
 
-* The program parses the logs of gofishgame (or supibot for older data) and then inserts the fish and the tournament results into a postgresql database. Fish from Twitch whispers, from Discord and fish caught before the justlog instance was added to the chat are not included. (To see which chats are being covered look here: [config](https://github.com/blableblup/gofish/blob/main/config.json))
+* The program parses the logs of gofishgame (or supibot for older data) and then inserts the fish and the tournament results into a postgresql database. (To see which chats are being covered look here: [config](https://github.com/blableblup/gofish/blob/main/config.json)) 
+
+* Fish from Twitch whispers, from Discord and fish caught before the justlog instance was added to the chat are not included due to technical reasons. Some exceptions can be made. If the fish is very special (Shiny fish / close to world record weight ...) I can add it manually, if proof that the fish is real is provided.
 
 * The logs are probably not fully complete in most cases, but they should contain the vast majority of fish. 
 
