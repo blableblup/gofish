@@ -2,6 +2,7 @@
 
 | Rank | Fish            | Weight in lbs | Player        | Date in UTC         |
 |:-----|:----------------|:--------------|:--------------|:--------------------|
+| 65   | 🐦‍⬛ robin        | 0.51          | glorpiusbot   | 2026-04-01 00:35:37 |
 | 64   | 📱 iphone       | 0.43          | glorpiusbot   | 2026-03-23 16:02:48 |
 | 63   | 🪺 nestwitheggs | 4.32          | glorpiusbot   | 2026-03-10 18:05:11 |
 | 62   | 🦫 beaver       | 9.76          | glorpiusbot   | 2026-01-07 15:53:54 |
@@ -67,4 +68,4 @@
 | 2    | 🪝 hook         | 0.88          | vladik4il     | 2024-11-26 16:02:08 |
 | 1    | 🧦 socks        | 0.82          | aquaismissing | 2024-11-26 15:51:47 |
 
-_Last updated at 2026-03-29 10:29:40 UTC_
+_Last updated at 2026-04-05 09:53:54 UTC_

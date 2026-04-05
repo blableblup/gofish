@@ -2,18 +2,18 @@
 
 | Rank | Fish             | Weight in lbs | Player      | Date in UTC         |
 |:-----|:-----------------|:--------------|:------------|:--------------------|
-| 84   | 🐟 fish          | 0.38          | elisworm    | 2026-03-27 09:08:50 |
-| 83   | 🐢 turtle        | 83.99         | gofishgamer | 2026-03-27 09:08:36 |
-| 82   | 🐍 snake         | 5.30          | respirate_  | 2026-03-27 09:08:16 |
-| 81   | 🦎 lizard        | 6.20          | acornpond   | 2026-03-26 07:31:33 |
-| 80   | ☘️ clover        | 2.10          | gofishgamer | 2026-03-26 07:31:15 |
-| 79   | 🐸 frog          | 1.61          | respirate_  | 2026-03-26 07:30:55 |
-| 78   | 🍬 candy         | 0.00          | respirate_  | 2026-03-26 07:30:51 |
-| 77   | 🪹 emptynest     | 4.23          | elisworm    | 2026-03-25 12:11:13 |
-| 76   | 🦫 beaver        | 38.23         | gofishgamer | 2026-03-25 10:09:43 |
-| 75   | 🪺 nestwitheggs  | 7.68          | respirate_  | 2026-03-25 10:09:22 |
-| 74   | 🎏 lure          | 0.00          | elisworm    | 2026-03-25 08:06:28 |
-| 73   | 🦐 shrimp        | 1.22          | elisworm    | 2026-03-25 07:58:58 |
+| 84   | 🐟 fish          | 0.29          | acornpond   | 2026-03-30 08:17:47 |
+| 83   | 🐍 snake         | 3.26          | elisworm    | 2026-03-30 08:17:34 |
+| 82   | 🦐 shrimp        | 3.12          | gofishgamer | 2026-03-30 08:17:29 |
+| 81   | 🦎 lizard        | 0.04          | respirate_  | 2026-03-30 08:12:12 |
+| 80   | 🐢 turtle        | 83.99         | gofishgamer | 2026-03-27 09:08:36 |
+| 79   | ☘️ clover        | 2.10          | gofishgamer | 2026-03-26 07:31:15 |
+| 78   | 🐸 frog          | 1.61          | respirate_  | 2026-03-26 07:30:55 |
+| 77   | 🍬 candy         | 0.00          | respirate_  | 2026-03-26 07:30:51 |
+| 76   | 🪹 emptynest     | 4.23          | elisworm    | 2026-03-25 12:11:13 |
+| 75   | 🦫 beaver        | 38.23         | gofishgamer | 2026-03-25 10:09:43 |
+| 74   | 🪺 nestwitheggs  | 7.68          | respirate_  | 2026-03-25 10:09:22 |
+| 73   | 🎏 lure          | 0.00          | elisworm    | 2026-03-25 08:06:28 |
 | 72   | 🌿 seaweed       | 0.57          | respirate_  | 2026-03-24 23:49:37 |
 | 71   | 📱 iphone        | 0.23          | acornpond   | 2026-03-24 03:36:20 |
 | 70   | 🎱 8ball         | 0.02          | nottachasm  | 2026-03-24 03:15:57 |
@@ -44,11 +44,11 @@
 | 45   | 🦪 oyster        | 40.97         | nottachasm  | 2025-12-25 03:48:13 |
 | 44   | 🐬 dolphin       | 58.58         | acornpond   | 2025-12-23 07:51:57 |
 | 43   | 🦑 squid         | 102.87        | acornpond   | 2025-12-23 06:32:16 |
-| 38   | 🕯️ candle        | 0.00          | elisworm    | 2025-12-18 03:56:48 |
-| 38   | ✉️ letter        | 0.00          | elisworm    | 2025-12-18 03:56:48 |
-| 38   | 🎀 wrappingpaper | 0.00          | elisworm    | 2025-12-18 03:56:48 |
 | 38   | 🍪 cookie        | 0.00          | elisworm    | 2025-12-18 03:56:48 |
+| 38   | ✉️ letter        | 0.00          | elisworm    | 2025-12-18 03:56:48 |
 | 38   | 🌰 acorn         | 0.00          | elisworm    | 2025-12-18 03:56:48 |
+| 38   | 🎀 wrappingpaper | 0.00          | elisworm    | 2025-12-18 03:56:48 |
+| 38   | 🕯️ candle        | 0.00          | elisworm    | 2025-12-18 03:56:48 |
 | 37   | 🐀 rat           | 5.95          | gofishgames | 2025-12-16 03:33:42 |
 | 36   | 🐿️ squirrel      | 0.00          | gofishgames | 2025-12-15 21:33:08 |
 | 35   | 🥀 wiltedflower  | 1.20          | nottachasm  | 2025-12-15 09:30:58 |
@@ -87,4 +87,4 @@
 | 2    | 🥒 seacucumber   | 29.13         | elisworm    | 2025-08-25 00:42:18 |
 | 1    | 🧽 sponge        | 8.21          | ajspyman    | 2024-06-02 12:34:25 |
 
-_Last updated at 2026-03-29 10:26:17 UTC_
+_Last updated at 2026-04-05 09:53:53 UTC_

@@ -67,7 +67,7 @@
 		"fishid": 177596,
 		"chatid": 472,
 		"date": "2025-06-04T09:00:50Z",
-		"rank": 43
+		"rank": 44
 	},
 	"blowfish": {
 		"player": "poggu_",
@@ -277,7 +277,7 @@
 		"fishid": 126682,
 		"chatid": 89,
 		"date": "2024-12-01T20:21:52Z",
-		"rank": 41
+		"rank": 42
 	},
 	"gloves": {
 		"player": "artibuhn",
@@ -347,7 +347,7 @@
 		"fishid": 248686,
 		"chatid": 937,
 		"date": "2026-03-23T16:02:48Z",
-		"rank": 60
+		"rank": 61
 	},
 	"jellyfish": {
 		"player": "rustezzz",
@@ -375,7 +375,7 @@
 		"fishid": 201514,
 		"chatid": 636,
 		"date": "2025-09-24T07:03:29Z",
-		"rank": 40
+		"rank": 41
 	},
 	"lobster": {
 		"player": "rustezzz",
@@ -403,21 +403,21 @@
 		"fishid": 221685,
 		"chatid": 869,
 		"date": "2025-12-12T04:51:11Z",
-		"rank": 42
+		"rank": 43
 	},
 	"nestwitheggs": {
 		"player": "glorpiusbot",
 		"playerid": 3563,
-		"weight": 4.32,
+		"weight": 8.55,
 		"bot": "gofishgame",
 		"fishtype": "🪺",
 		"fishname": "nestwitheggs",
 		"catchtype": "normal",
 		"chat": "aquaismissing",
-		"fishid": 245788,
-		"chatid": 931,
-		"date": "2026-03-10T18:05:11Z",
-		"rank": 44
+		"fishid": 251618,
+		"chatid": 950,
+		"date": "2026-04-02T17:38:22Z",
+		"rank": 39
 	},
 	"oceanplant": {
 		"player": "kaczer1",
@@ -516,6 +516,20 @@
 		"chatid": 769,
 		"date": "2025-11-26T07:43:50Z",
 		"rank": 30
+	},
+	"robin": {
+		"player": "glorpiusbot",
+		"playerid": 3563,
+		"weight": 0.51,
+		"bot": "gofishgame",
+		"fishtype": "🐦‍⬛",
+		"fishname": "robin",
+		"catchtype": "egg",
+		"chat": "aquaismissing",
+		"fishid": 251122,
+		"chatid": 946,
+		"date": "2026-04-01T00:35:37Z",
+		"rank": 60
 	},
 	"rock": {
 		"player": "stofeyxd",
@@ -725,7 +739,7 @@
 		"fishid": 218089,
 		"chatid": 768,
 		"date": "2025-11-26T07:41:24Z",
-		"rank": 62
+		"rank": 63
 	},
 	"sponge": {
 		"player": "kargalay",
@@ -851,7 +865,7 @@
 		"fishid": 199830,
 		"chatid": 629,
 		"date": "2025-09-19T09:56:00Z",
-		"rank": 61
+		"rank": 62
 	},
 	"worm": {
 		"player": "kaitechpl",
@@ -865,6 +879,6 @@
 		"fishid": 144458,
 		"chatid": 277,
 		"date": "2025-01-29T11:34:20Z",
-		"rank": 39
+		"rank": 40
 	}
 }

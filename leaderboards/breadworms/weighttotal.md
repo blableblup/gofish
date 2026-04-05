@@ -2,53 +2,53 @@
 
 | Rank  | Player                  | Total Weight in lbs |
 |:------|:------------------------|:--------------------|
-| 1 🥇  | lluuucy                 | 97534.94 (+0.56)    |
+| 1 🥇  | lluuucy                 | 98095.24 (+560.30)  |
 | 2 🥈  | osnyatsky*              | 91106.82            |
 | 3 🥉  | puzzlow                 | 78733.57            |
-| 4 ⬆   | osnyisdead              | 77743.38 (+1153.11) |
-| 5 ⬇   | sicklymaidrobot         | 76674.96            |
-| 6     | qu4ttromila             | 69227.49 (+21.12)   |
+| 4     | osnyisdead              | 78337.83 (+594.45)  |
+| 5     | sicklymaidrobot         | 76674.96            |
+| 6     | qu4ttromila             | 69399.62 (+172.13)  |
 | 7     | leanmeister             | 67760.79            |
-| 8     | miiiiisho               | 62915.46 (+8.42)    |
-| 9     | destin357               | 59920.05 (+171.89)  |
+| 8     | miiiiisho               | 62915.46            |
+| 9     | destin357               | 60969.88 (+1049.83) |
 | 10    | dazedforevermore        | 57246.65            |
-| 11    | derinturitierutz        | 57148.13 (+16.40)   |
-| 12    | kishma9                 | 54539.83 (+15.37)   |
+| 11    | derinturitierutz        | 57148.13            |
+| 12    | kishma9                 | 54542.21 (+2.38)    |
 | 13    | sussy_amonge            | 52098.34            |
-| 14    | booty_bread             | 42594.02 (+18.51)   |
-| 15    | derintu                 | 34515.12 (+72.77)   |
+| 14    | booty_bread             | 42662.03 (+68.01)   |
+| 15    | derintu                 | 34614.60 (+99.48)   |
 | 16    | ninjaross*              | 32171.42            |
-| 17    | fishingalt              | 30927.98 (+33.71)   |
-| 18    | dougiefresh_83*         | 25718.49 (+240.78)  |
-| 19    | ytp_dl*                 | 21743.39 (+400.22)  |
-| 20    | cimgu                   | 21344.74 (+28.50)   |
+| 17    | fishingalt              | 30927.98            |
+| 18    | dougiefresh_83*         | 25824.06 (+105.57)  |
+| 19    | ytp_dl*                 | 21937.19 (+193.80)  |
+| 20    | cimgu                   | 21395.62 (+50.88)   |
 | 21    | comiqq                  | 20900.39            |
 | 22    | paras220                | 20261.98            |
-| 23    | larvaew                 | 19447.05 (+63.93)   |
-| 24    | ryebreadward            | 19103.99            |
-| 25 ⬆  | esvelles                | 18215.75 (+986.08)  |
-| 26 ⬇  | crazytown_bananapants   | 18176.45            |
-| 27    | gstaman911              | 16645.30 (+0.15)    |
+| 23    | larvaew                 | 19561.87 (+114.82)  |
+| 24 ⬆  | esvelles                | 19161.38 (+945.63)  |
+| 25 ⬇  | ryebreadward            | 19103.99            |
+| 26    | crazytown_bananapants   | 18176.45            |
+| 27    | gstaman911              | 16645.30            |
 | 28    | bussinongnocap          | 16404.64            |
 | 29    | respirate_              | 14595.42            |
 | 30    | julialuxel              | 14122.69            |
 | 31    | xth49*                  | 13595.84            |
 | 32    | trident1011             | 13141.95            |
-| 33 ⬆  | breadworms              | 12480.29 (+227.27)  |
-| 34 ⬇  | xz_xz                   | 12457.40            |
-| 35 ⬇  | islcfc*                 | 12393.14            |
+| 33    | breadworms              | 12510.98 (+30.69)   |
+| 34    | xz_xz                   | 12457.40            |
+| 35    | islcfc*                 | 12393.14            |
 | 36    | kaasppeerr              | 11754.04            |
-| 37    | idini                   | 11005.74            |
+| 37    | idini                   | 11044.84 (+39.10)   |
 | 38    | mitgliederversammlung   | 9718.17             |
 | 39    | lazuli672*              | 8789.78             |
-| 40    | wcd0                    | 8223.29 (+0.51)     |
+| 40    | wcd0                    | 8336.21 (+112.92)   |
 | 41    | osnyatsky*              | 7723.42             |
 | 42    | doublehelicalstructure* | 7283.59             |
-| 43    | kikyomushi              | 6947.45 (+38.66)    |
+| 43    | kikyomushi              | 7066.00 (+118.55)   |
 | 44    | wisco9ers*              | 6585.86             |
 | 45    | gawblemachine           | 6380.65             |
-| 46 ⬆  | fvkdylan                | 6174.19 (+7.37)     |
-| 47 ⬇  | ouacewi                 | 6173.19             |
+| 46    | fvkdylan                | 6174.19             |
+| 47    | ouacewi                 | 6173.19             |
 | 48    | realtechnine            | 6015.30             |
 | 49    | divra__                 | 5760.49             |
 | 50    | pinksynthesis29         | 5659.60             |
@@ -77,4 +77,4 @@
 
 _Only showing fishers with a total weight of >= 1800 lbs_
 
-_Last updated at 2026-03-29 10:26:16 UTC_
+_Last updated at 2026-04-05 09:53:46 UTC_

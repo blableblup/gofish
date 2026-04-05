@@ -4,17 +4,17 @@
 |:------|:----------------------|:----------|
 | 1 🥇  | fishingalt            | 122       |
 | 2 🥈  | derinturitierutz      | 118       |
-| 3 🥉  | derintu               | 109 (+1)  |
+| 3 🥉  | derintu               | 110 (+1)  |
 | 4     | lluuucy               | 104       |
 | 5     | larvaew               | 103       |
 | 6     | leanmeister           | 102       |
-| 7     | cimgu                 | 99 (+1)   |
+| 7     | cimgu                 | 100 (+1)  |
 | 8     | qu4ttromila           | 94        |
 | 9     | breadworms            | 93        |
 | 9     | kishma9               | 93        |
 | 11    | osnyisdead            | 92        |
 | 12    | destin357             | 90        |
-| 12 ⬆  | ytp_dl*               | 90 (+2)   |
+| 12    | ytp_dl*               | 90        |
 | 14    | dougiefresh_83*       | 87        |
 | 15    | dazedforevermore      | 86        |
 | 16    | miiiiisho             | 85        |
@@ -29,28 +29,28 @@
 | 25    | gawblemachine         | 69        |
 | 25    | julialuxel            | 69        |
 | 27    | crazytown_bananapants | 67        |
-| 27 ⬆  | kikyomushi            | 67 (+3)   |
-| 29 ⬇  | comiqq                | 65        |
-| 29 ⬇  | ryebreadward          | 65        |
-| 31 ⬇  | mitgliederversammlung | 64        |
+| 27    | kikyomushi            | 67        |
+| 29    | comiqq                | 65        |
+| 29    | ryebreadward          | 65        |
+| 31    | mitgliederversammlung | 64        |
 | 32    | sussy_amonge          | 62        |
+| 33 ⬆  | esvelles              | 60 (+2)   |
 | 33    | kaasppeerr            | 60        |
-| 34 ⬆  | esvelles              | 58 (+8)   |
-| 35 ⬇  | bapqo                 | 56        |
-| 35 ⬇  | idini                 | 56        |
-| 35 ⬇  | wisco9ers*            | 56        |
-| 38 ⬇  | divra__               | 55        |
-| 38 ⬇  | ouacewi               | 55        |
-| 40 ⬇  | fvkdylan              | 54        |
-| 40 ⬇  | wcd0                  | 54        |
-| 42 ⬇  | bussinongnocap        | 53        |
-| 42 ⬇  | lazuli672*            | 53        |
-| 44 ⬇  | houseofleaves*        | 51        |
-| 44 ⬇  | osnyatsky*            | 51        |
-| 46 ⬇  | pinksynthesis29       | 50        |
+| 35    | bapqo                 | 56        |
+| 35    | idini                 | 56        |
+| 35    | wisco9ers*            | 56        |
+| 38    | divra__               | 55        |
+| 38    | ouacewi               | 55        |
+| 40    | fvkdylan              | 54        |
+| 40    | wcd0                  | 54        |
+| 42    | bussinongnocap        | 53        |
+| 42    | lazuli672*            | 53        |
+| 44    | houseofleaves*        | 51        |
+| 44    | osnyatsky*            | 51        |
+| 46    | pinksynthesis29       | 50        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-03-29 10:29:39 UTC_
+_Last updated at 2026-04-05 09:53:48 UTC_

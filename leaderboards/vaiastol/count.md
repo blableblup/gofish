@@ -2,46 +2,48 @@
 
 | Rank  | Player                | Fish caught |
 |:------|:----------------------|:------------|
-| 1 🥇  | vaiastol              | 4121 (+68)  |
-| 2 🥈  | hahppyy               | 1609 (+3)   |
-| 3 🥉  | eelacy                | 1434 (+45)  |
-| 4     | garout                | 832 (+6)    |
+| 1 🥇  | vaiastol              | 4154 (+33)  |
+| 2 🥈  | hahppyy               | 1612 (+3)   |
+| 3 🥉  | eelacy                | 1445 (+11)  |
+| 4     | garout                | 845 (+13)   |
 | 5     | divra__               | 645         |
-| 6     | leastsussyimposter    | 553         |
+| 6     | leastsussyimposter    | 568 (+15)   |
 | 7     | leanmeister           | 507         |
 | 8     | narwhaiv              | 484         |
 | 9     | dazedforevermore      | 255         |
-| 10    | pengeg                | 243         |
-| 11    | redreignss            | 207         |
-| 12 ⬆  | proswift              | 183 (+42)   |
-| 13 ⬇  | gstaman911            | 172 (+4)    |
-| 14 ⬇  | yoimlee               | 164         |
+| 10 ⬆  | proswift              | 249 (+66)   |
+| 11 ⬇  | pengeg                | 243         |
+| 12 ⬇  | redreignss            | 207         |
+| 13    | gstaman911            | 172         |
+| 14    | yoimlee               | 165 (+1)    |
 | 15    | milesdotcom           | 137         |
 | 16    | brontiiide            | 120         |
 | 17    | tiaguitos97           | 117         |
 | 18    | julialuxel            | 109         |
-| 19    | obama                 | 60 (+1)     |
-| 20    | bubinga               | 55          |
-| 20    | ryakarr               | 55          |
+| 19 ⬆  | ryakarr               | 68 (+13)    |
+| 20 ⬇  | obama                 | 60          |
+| 21 ⬇  | bubinga               | 55          |
 | 22    | rird_                 | 46          |
 | 23    | larvaew               | 45          |
 | 24    | fvkdylan              | 42          |
 | 25    | esmeohmy              | 34          |
 | 26    | houseofleaves*        | 29          |
 | 27    | cyaniderx             | 23          |
-| 28    | dev0p_                | 17          |
-| 28    | drpasu                | 17          |
-| 28    | jr_mime               | 17          |
-| 28    | mitgliederversammlung | 17          |
-| 28 ⬆  | respirate_            | 17 (+1)     |
-| 33 ⬇  | peppyow               | 16          |
-| 34    | ermnest               | 15          |
-| 34    | kaseyfart             | 15          |
-| 36    | creepycode*           | 13          |
-| 37    | nightmare_jpg         | 12          |
-| 37    | v6r_                  | 12          |
-| 39 🆕 | ash__meow             | 11          |
+| 28 🆕 | thespecialone22       | 21          |
+| 29 ⬇  | dev0p_                | 17          |
+| 29 ⬇  | drpasu                | 17          |
+| 29 ⬇  | jr_mime               | 17          |
+| 29 ⬇  | mitgliederversammlung | 17          |
+| 29 ⬇  | respirate_            | 17          |
+| 34 ⬆  | ash__meow             | 16 (+5)     |
+| 34 ⬇  | peppyow               | 16          |
+| 36 ⬇  | ermnest               | 15          |
+| 36 ⬇  | kaseyfart             | 15          |
+| 38 ⬇  | creepycode*           | 13          |
+| 39 ⬇  | nightmare_jpg         | 12          |
+| 39 ⬇  | v6r_                  | 12          |
+| 41 🆕 | j4song                | 10          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-03-29 10:29:38 UTC_
+_Last updated at 2026-04-05 09:53:54 UTC_

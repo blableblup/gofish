@@ -6,20 +6,20 @@
 | 2 🥈  | 🦑 squid          | 270.99          | gofishgamer       | 2026-01-01 03:36:14 |
 | 3 🥉  | 🐉 dragon         | 267.29          | jeffbethyname69   | 2025-04-28 01:28:25 |
 | 4     | 🦈 shark          | 209.34          | dolp_fin          | 2025-04-28 04:59:34 |
-| 5     | 🦕 sauropod       | 203.35 (+19.25) | amatusz           | 2026-03-28 03:24:40 |
+| 5     | 🦕 sauropod       | 203.35          | amatusz           | 2026-03-28 03:24:40 |
 | 6     | 🐍 snake          | 175.01          | curiouscorvidae   | 2025-12-30 02:22:21 |
 | 7     | 🛢️ oildrum        | 160.83          | dolp_fin          | 2025-09-23 04:48:26 |
 | 8     | 🐋 whale          | 142.23          | dolp_fin          | 2025-04-26 04:44:55 |
 | 9     | 🐊 crocodile      | 141.43          | twofistedtales    | 2025-09-19 02:20:33 |
 | 10    | 🐙 octopus        | 139.34          | jeffbethyname69   | 2025-10-31 03:03:20 |
-| 11    | 🦭 seal           | 110.92          | amatusz           | 2026-02-27 03:32:47 |
-| 12    | 🧞‍♂ genie          | 104.01          | dolp_fin          | 2025-05-27 01:57:20 |
-| 13    | 🪸 coral          | 99.19           | jeffbethyname69   | 2025-08-25 05:01:37 |
-| 14    | 🐢 turtle         | 96.85           | aaurie            | 2025-05-12 04:04:56 |
-| 15    | 🐬 dolphin        | 96.28           | sanfordthegrey    | 2025-04-04 01:46:16 |
-| 16    | 🧜‍♀️ mermaid        | 80.38           | dolp_fin          | 2025-06-10 05:18:43 |
-| 17    | 🛒 shoppingcart   | 68.75           | metalxml          | 2025-12-08 04:30:22 |
-| 18    | 🦞 lobster        | 59.86           | jeffbethyname69   | 2025-06-07 02:27:29 |
+| 11 ⬆  | 🦞 lobster        | 111.38 (+51.52) | amatusz           | 2026-04-04 03:24:11 |
+| 12 ⬇  | 🦭 seal           | 110.92          | amatusz           | 2026-02-27 03:32:47 |
+| 13 ⬇  | 🧞‍♂ genie          | 104.01          | dolp_fin          | 2025-05-27 01:57:20 |
+| 14 ⬇  | 🪸 coral          | 99.19           | jeffbethyname69   | 2025-08-25 05:01:37 |
+| 15 ⬇  | 🐢 turtle         | 96.85           | aaurie            | 2025-05-12 04:04:56 |
+| 16 ⬇  | 🐬 dolphin        | 96.28           | sanfordthegrey    | 2025-04-04 01:46:16 |
+| 17 ⬇  | 🧜‍♀️ mermaid        | 80.38           | dolp_fin          | 2025-06-10 05:18:43 |
+| 18 ⬇  | 🛒 shoppingcart   | 68.75           | metalxml          | 2025-12-08 04:30:22 |
 | 19    | 🪨 rock           | 46.44           | rustnroll         | 2025-03-25 04:38:24 |
 | 20    | 🗡️ dagger         | 45.57           | wildturky82       | 2025-05-26 04:26:17 |
 | 21    | 👑 crown          | 38.17           | allspice_boatrace | 2025-04-08 01:50:15 |
@@ -78,4 +78,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-03-29 10:28:19 UTC_
+_Last updated at 2026-04-05 09:56:33 UTC_

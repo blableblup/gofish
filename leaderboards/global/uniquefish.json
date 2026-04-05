@@ -21,7 +21,7 @@
 		"count": 90,
 		"chatcounts": {
 			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 90,
-			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 13
+			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 17
 		},
 		"rank": 27
 	},
@@ -56,7 +56,7 @@
 			"![jellyuh](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/jellyuh.png)": 1,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 2,
 			"![keeki_chan](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/keeki_chan.png)": 1,
-			"![larvaew](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/larvaew.png)": 6,
+			"![larvaew](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/larvaew.png)": 10,
 			"![leanmeister](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/leanmeister.png)": 2,
 			"![mylifeislul](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/mylifeislul.png)": 1,
 			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 21,
@@ -178,15 +178,15 @@
 		"player": "cimgu",
 		"playerid": 1369,
 		"date": "2023-11-26T03:05:01Z",
-		"count": 100,
+		"count": 101,
 		"chatcounts": {
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 99,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 100,
 			"![evelyn_rawr](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/evelyn_rawr.png)": 4,
 			"![jellyuh](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/jellyuh.png)": 1,
 			"![julialuxel](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/julialuxel.png)": 1,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 8
 		},
-		"rank": 16
+		"rank": 15
 	},
 	"1377": {
 		"player": "ryebreadward",
@@ -268,8 +268,8 @@
 		"date": "2023-12-27T12:03:58Z",
 		"count": 60,
 		"chatcounts": {
-			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 54,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 33
+			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 55,
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 34
 		},
 		"rank": 85
 	},
@@ -561,9 +561,9 @@
 		"chatcounts": {
 			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 6,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 57,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 107
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 108
 		},
-		"rank": 6
+		"rank": 7
 	},
 	"269": {
 		"player": "nndiana",
@@ -596,7 +596,7 @@
 		"chatcounts": {
 			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 6,
 			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 2,
-			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 52,
+			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 53,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 52
 		},
 		"rank": 72
@@ -756,7 +756,7 @@
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 2,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 1
 		},
-		"rank": 16
+		"rank": 17
 	},
 	"3143": {
 		"player": "konsminator",
@@ -826,6 +826,19 @@
 		},
 		"rank": 27
 	},
+	"3551": {
+		"player": "esvelles",
+		"playerid": 3551,
+		"date": "2025-01-27T15:08:45Z",
+		"count": 60,
+		"chatcounts": {
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 60,
+			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 1,
+			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 1,
+			"![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)": 1
+		},
+		"rank": 85
+	},
 	"3555": {
 		"player": "garout",
 		"playerid": 3555,
@@ -840,12 +853,12 @@
 		"player": "derintu",
 		"playerid": 3638,
 		"date": "2025-03-07T11:17:00Z",
-		"count": 111,
+		"count": 112,
 		"chatcounts": {
-			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 109,
+			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 110,
 			"![swormbeard](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/swormbeard.png)": 40
 		},
-		"rank": 6
+		"rank": 5
 	},
 	"3736": {
 		"player": "ranctious",
@@ -855,7 +868,7 @@
 		"chatcounts": {
 			"![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)": 1,
 			"![mylifeislul](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/mylifeislul.png)": 4,
-			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 39,
+			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 41,
 			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 90
 		},
 		"rank": 26
@@ -880,7 +893,7 @@
 			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 12,
 			"![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)": 1,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 72,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 52
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 53
 		},
 		"rank": 52
 	},
@@ -926,7 +939,7 @@
 		"chatcounts": {
 			"![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)": 6,
 			"![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)": 64,
-			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 51
+			"![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)": 53
 		},
 		"rank": 59
 	},

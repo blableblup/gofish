@@ -41,13 +41,15 @@
 | 37    | choplueys             | 🐬 dolphin   | 77.20         | 2024-08-30 17:40:32 |
 | 38    | dev0p_                | 🐊 crocodile | 75.86         | 2025-03-09 17:41:10 |
 | 39    | esmeohmy              | 🐢 turtle    | 72.61         | 2025-04-08 17:36:03 |
-| 40    | respirate_            | 🐳 bluewhale | 66.62         | 2026-01-03 02:32:58 |
-| 41    | cyaniderx             | 🐢 turtle    | 63.80         | 2025-02-10 21:06:42 |
-| 42    | emotion_01            | 🐋 whale     | 63.17         | 2024-08-09 15:15:43 |
-| 43    | sulypert              | 🐙 octopus   | 61.78         | 2024-09-29 18:05:30 |
-| 44    | houseofleaves         | 🐋 whale     | 61.69         | 2024-09-01 01:35:25 |
-| 45    | evelyn_rawr           | 🐢 turtle    | 54.29         | 2025-09-07 21:18:35 |
+| 40 🆕 | thespecialone22       | 🐊 crocodile | 72.13         | 2026-04-04 04:16:59 |
+| 41 ⬇  | respirate_            | 🐳 bluewhale | 66.62         | 2026-01-03 02:32:58 |
+| 42 ⬇  | cyaniderx             | 🐢 turtle    | 63.80         | 2025-02-10 21:06:42 |
+| 43 ⬇  | emotion_01            | 🐋 whale     | 63.17         | 2024-08-09 15:15:43 |
+| 44 ⬇  | sulypert              | 🐙 octopus   | 61.78         | 2024-09-29 18:05:30 |
+| 45 ⬇  | houseofleaves         | 🐋 whale     | 61.69         | 2024-09-01 01:35:25 |
+| 46 ⬇  | evelyn_rawr           | 🐢 turtle    | 54.29         | 2025-09-07 21:18:35 |
+| 47 🆕 | ash__meow             | 🐢 turtle    | 51.82         | 2026-04-04 14:04:47 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2026-03-29 10:29:41 UTC_
+_Last updated at 2026-04-05 09:53:51 UTC_
