@@ -163,10 +163,10 @@
 	"21": {
 		"player": "lluuucy",
 		"playerid": 21,
-		"weight": 230.5,
+		"weight": 231.5,
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 43,
-		"silver": 80,
+		"silver": 81,
 		"bronze": 43,
 		"rank": 2
 	},
@@ -225,11 +225,11 @@
 	"2701": {
 		"player": "osnyisdead",
 		"playerid": 2701,
-		"weight": 234,
+		"weight": 235,
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 58,
 		"silver": 47,
-		"bronze": 26,
+		"bronze": 28,
 		"rank": 1
 	},
 	"2838": {
@@ -293,20 +293,28 @@
 	"3537": {
 		"player": "destin357",
 		"playerid": 3537,
-		"weight": 120.5,
+		"weight": 127.5,
 		"date": "0001-01-01T00:00:00Z",
-		"trophies": 32,
-		"silver": 21,
+		"trophies": 34,
+		"silver": 22,
 		"bronze": 7,
-		"rank": 5
+		"rank": 4
+	},
+	"3550": {
+		"player": "shojan",
+		"playerid": 3550,
+		"weight": 0.5,
+		"date": "0001-01-01T00:00:00Z",
+		"bronze": 1,
+		"rank": 48
 	},
 	"3551": {
 		"player": "esvelles",
 		"playerid": 3551,
-		"weight": 72.5,
+		"weight": 76.5,
 		"date": "0001-01-01T00:00:00Z",
-		"trophies": 20,
-		"silver": 10,
+		"trophies": 21,
+		"silver": 11,
 		"bronze": 5,
 		"rank": 9
 	},
@@ -464,7 +472,7 @@
 		"trophies": 35,
 		"silver": 15,
 		"bronze": 14,
-		"rank": 4
+		"rank": 5
 	},
 	"97": {
 		"player": "crazytown_bananapants",
