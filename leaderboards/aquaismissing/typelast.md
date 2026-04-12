@@ -2,25 +2,26 @@
 
 | Rank | Fish            | Weight in lbs | Player           | Date in UTC         |
 |:-----|:----------------|:--------------|:-----------------|:--------------------|
-| 65   | 🦀 crab         | 2.79          | kargalay         | 2026-04-04 22:35:27 |
-| 64   | 🧽 sponge       | 11.16         | likedom_         | 2026-04-04 22:28:13 |
-| 63   | 🐚 shell        | 1.25          | xlucianek        | 2026-04-04 21:30:44 |
-| 62   | 🐙 octopus      | 41.73         | ggmagician       | 2026-04-04 20:19:57 |
-| 61   | 🌿 seaweed      | 0.69          | xlucianek        | 2026-04-04 19:30:05 |
-| 60   | 🐍 snake        | 6.21          | glorpiusbot      | 2026-04-03 00:11:07 |
-| 59   | 🐟 fish         | 3.70          | fizz_breezer     | 2026-04-02 23:41:00 |
-| 58   | 🪺 nestwitheggs | 8.55          | glorpiusbot      | 2026-04-02 17:38:22 |
-| 57   | 🪝 hook         | 2.50          | aquaismissing    | 2026-04-01 00:37:22 |
-| 56   | 🦞 lobster      | 2.66          | desxyne          | 2026-04-01 00:37:10 |
-| 55   | 🦎 lizard       | 3.67          | glorpiusbot      | 2026-04-01 00:37:01 |
-| 54   | 🐦‍⬛ robin        | 0.51          | glorpiusbot      | 2026-04-01 00:35:37 |
-| 53   | 🪳 cockroach    | 13.00         | ggmagician       | 2026-03-31 19:22:24 |
-| 52   | 🗡️ dagger       | 10.53         | cute_ducc        | 2026-03-27 12:09:25 |
-| 51   | 🎏 lure         | 1.09          | ggmagician       | 2026-03-25 20:29:51 |
-| 50   | 🪀 bobber       | 1.56          | glorpiusbot      | 2026-03-25 00:53:43 |
-| 49   | 📱 iphone       | 0.39          | glorpiusbot      | 2026-03-24 20:36:13 |
-| 48   | 🧵 wireline     | 0.28          | glorpiusbot      | 2026-03-24 16:57:21 |
-| 47   | 🐸 frog         | 4.53          | nuflux           | 2026-03-17 01:55:52 |
+| 66   | 🪹 emptynest    | 8.04          | glorpiusbot      | 2026-04-10 23:13:18 |
+| 65   | 🐚 shell        | 1.87          | vylon893         | 2026-04-08 23:29:42 |
+| 64   | 🐸 frog         | 2.49          | glorpiusbot      | 2026-04-07 14:15:02 |
+| 63   | 🦀 crab         | 2.79          | kargalay         | 2026-04-04 22:35:27 |
+| 62   | 🧽 sponge       | 11.16         | likedom_         | 2026-04-04 22:28:13 |
+| 61   | 🐙 octopus      | 41.73         | ggmagician       | 2026-04-04 20:19:57 |
+| 60   | 🌿 seaweed      | 0.69          | xlucianek        | 2026-04-04 19:30:05 |
+| 59   | 🐍 snake        | 6.21          | glorpiusbot      | 2026-04-03 00:11:07 |
+| 58   | 🐟 fish         | 3.70          | fizz_breezer     | 2026-04-02 23:41:00 |
+| 57   | 🪺 nestwitheggs | 8.55          | glorpiusbot      | 2026-04-02 17:38:22 |
+| 56   | 🪝 hook         | 2.50          | aquaismissing    | 2026-04-01 00:37:22 |
+| 55   | 🦞 lobster      | 2.66          | desxyne          | 2026-04-01 00:37:10 |
+| 54   | 🦎 lizard       | 3.67          | glorpiusbot      | 2026-04-01 00:37:01 |
+| 53   | 🐦‍⬛ robin        | 0.51          | glorpiusbot      | 2026-04-01 00:35:37 |
+| 52   | 🪳 cockroach    | 13.00         | ggmagician       | 2026-03-31 19:22:24 |
+| 51   | 🗡️ dagger       | 10.53         | cute_ducc        | 2026-03-27 12:09:25 |
+| 50   | 🎏 lure         | 1.09          | ggmagician       | 2026-03-25 20:29:51 |
+| 49   | 🪀 bobber       | 1.56          | glorpiusbot      | 2026-03-25 00:53:43 |
+| 48   | 📱 iphone       | 0.39          | glorpiusbot      | 2026-03-24 20:36:13 |
+| 47   | 🧵 wireline     | 0.28          | glorpiusbot      | 2026-03-24 16:57:21 |
 | 46   | 🐊 crocodile    | 144.89        | likedom_         | 2026-03-17 00:09:14 |
 | 45   | ☘️ clover       | 1.86          | glorpiusbot      | 2026-03-11 19:28:08 |
 | 44   | 🦑 squid        | 17.88         | gigxbit          | 2026-03-09 20:01:39 |
@@ -68,4 +69,4 @@
 | 2    | 🧃 beveragebox  | 4.42          | aquaismissing    | 2025-06-04 09:00:50 |
 | 1    | 🩰 balletshoes  | 1.25          | delfino921       | 2025-02-22 23:48:09 |
 
-_Last updated at 2026-04-05 09:53:52 UTC_
+_Last updated at 2026-04-12 09:14:54 UTC_

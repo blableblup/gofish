@@ -3,18 +3,18 @@
 | Rank  | Player            | Total Weight in lbs |
 |:------|:------------------|:--------------------|
 | 1 🥇  | jeffbethyname69   | 5264.48             |
-| 2 🥈  | dolp_fin          | 3823.00             |
-| 3 🥉  | amatusz           | 2280.31 (+163.38)   |
-| 4     | b00gie310         | 1984.40 (+38.84)    |
+| 2 🥈  | dolp_fin          | 3830.56 (+7.56)     |
+| 3 🥉  | amatusz           | 2644.29 (+363.98)   |
+| 4     | b00gie310         | 1998.28 (+13.88)    |
 | 5     | gofishgamer       | 1843.60             |
-| 6     | allspice_boatrace | 1688.65 (+42.55)    |
-| 7     | aaurie            | 1130.89             |
-| 8     | guy_farting420    | 905.57 (+12.05)     |
-| 9     | abelito75         | 839.97 (+22.99)     |
+| 6     | allspice_boatrace | 1688.65             |
+| 7     | aaurie            | 1136.10 (+5.21)     |
+| 8 ⬆   | abelito75         | 1035.38 (+195.41)   |
+| 9 ⬇   | guy_farting420    | 909.53 (+3.96)      |
 | 10    | curiouscorvidae   | 699.64              |
 | 11    | bluezebra17       | 626.08              |
-| 12 ⬆  | victorvondoom313  | 582.74 (+37.82)     |
-| 13 ⬇  | preemalone        | 570.53              |
+| 12    | victorvondoom313  | 582.74              |
+| 13    | preemalone        | 570.53              |
 | 14    | rustnroll         | 513.60              |
 | 15    | lor_starcutter    | 453.38              |
 | 16    | dwaynepounder     | 438.31              |
@@ -31,4 +31,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-04-05 09:53:46 UTC_
+_Last updated at 2026-04-12 09:14:53 UTC_

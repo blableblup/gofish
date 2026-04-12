@@ -9,13 +9,13 @@
 | 5     | derinturitierutz | 32          |
 | 5     | pinksynthesis29  | 32          |
 | 7     | ninjaross*       | 29          |
-| 8     | dazedforevermore | 28          |
-| 8 ⬆   | ytp_dl*          | 28 (+8)     |
-| 10 ⬇  | elisworm         | 25          |
-| 11 ⬇  | kishma9          | 21          |
+| 7 ⬆   | ytp_dl*          | 29 (+1)     |
+| 9 ⬇   | dazedforevermore | 28          |
+| 10    | elisworm         | 25          |
+| 11    | kishma9          | 21          |
 | 12    | fvkdylan         | 12          |
 | 12    | larvaew          | 12          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-04-05 09:53:54 UTC_
+_Last updated at 2026-04-12 09:12:57 UTC_

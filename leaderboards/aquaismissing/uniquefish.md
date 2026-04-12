@@ -6,9 +6,9 @@
 | 2 🥈  | rustezzz      | 29        |
 | 3 🥉  | bubinga       | 26        |
 | 3 🥉  | elisworm      | 26        |
-| 5     | glorpiusbot   | 23 (+1)   |
-| 6     | desxyne       | 22 (+1)   |
-| 6     | likedom_      | 22 (+1)   |
+| 5     | glorpiusbot   | 24 (+1)   |
+| 6     | desxyne       | 22        |
+| 6     | likedom_      | 22        |
 | 8     | aquaismissing | 19        |
 | 8     | stofeyxd*     | 19        |
 | 10    | aistyrax3     | 18        |
@@ -16,10 +16,10 @@
 | 12    | kaitechpl     | 16        |
 | 12    | velantix*     | 16        |
 | 14    | dom1torii     | 15        |
-| 15    | ggmagician    | 14 (+1)   |
-| 16 ⬇  | kam3l_        | 13        |
-| 16 ⬇  | kargalay      | 13        |
-| 16 ⬇  | poggu_        | 13        |
+| 15    | ggmagician    | 14        |
+| 16    | kam3l_        | 13        |
+| 16    | kargalay      | 13        |
+| 16    | poggu_        | 13        |
 | 19    | kaczer1       | 12        |
 | 20    | vigilsync*    | 10        |
 
@@ -27,4 +27,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2026-04-05 09:53:47 UTC_
+_Last updated at 2026-04-12 09:12:55 UTC_

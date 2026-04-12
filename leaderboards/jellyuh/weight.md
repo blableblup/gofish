@@ -12,9 +12,9 @@
 | 8     | respirate_          | 🐳 bluewhale | 200.79          | 2025-12-29 13:50:56 |
 | 9     | crunch_sack         | 🦑 squid     | 198.61          | 2025-04-20 19:08:36 |
 | 10    | poioce              | 🫎 moose     | 190.00          | 2025-04-30 05:33:46 |
-| 11    | cptblack_           | 🐋 whale     | 150.06          | 2025-02-24 03:41:43 |
-| 12 ⬆  | jakthejanitor       | 🐳 bluewhale | 141.14 (+30.10) | 2026-02-20 00:20:15 |
-| 13 ⬇  | piz_z               | 🐋 whale     | 112.26          | 2025-05-05 04:04:12 |
+| 11 ⬆  | jakthejanitor       | 🦈 shark     | 163.51 (+22.37) | 2026-04-11 09:58:31 |
+| 12 ⬇  | cptblack_           | 🐋 whale     | 150.06          | 2025-02-24 03:41:43 |
+| 13    | piz_z               | 🐋 whale     | 112.26          | 2025-05-05 04:04:12 |
 | 14    | gofishgamer         | 🐋 whale     | 103.93          | 2026-01-01 04:59:38 |
 | 15    | yaykaiza            | 🪸 coral     | 98.94           | 2025-07-13 22:49:46 |
 | 16    | e1d2f3              | 🐊 crocodile | 97.62           | 2025-02-15 06:50:41 |
@@ -33,4 +33,4 @@
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2026-02-22 10:21:16 UTC_
+_Last updated at 2026-04-12 09:14:52 UTC_

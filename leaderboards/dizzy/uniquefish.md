@@ -11,11 +11,11 @@
 | 7     | ofaisalz           | 57        |
 | 8     | konsminator        | 49        |
 | 9     | hamoodhabibee      | 48        |
-| 9 ⬆   | notnownico         | 48 (+1)   |
+| 9     | notnownico         | 48        |
 | 9     | spanmer            | 48        |
-| 12 ⬇  | simplydrack        | 47        |
-| 12 ⬇  | tairaaaaa          | 47        |
-| 12 ⬇  | vagdy              | 47        |
+| 12    | simplydrack        | 47        |
+| 12    | tairaaaaa          | 47        |
+| 12    | vagdy              | 47        |
 | 15    | exo9*              | 45        |
 | 16    | rabituwu           | 44        |
 | 16    | sugur              | 44        |
@@ -35,7 +35,7 @@
 | 31    | icejamx            | 30        |
 | 31    | respirate_         | 30        |
 | 33    | silent11d5         | 27        |
-| 34    | depravias          | 26        |
+| 34    | depraviaa          | 26        |
 | 35    | ahxle              | 24        |
 | 35    | buffyo             | 24        |
 | 35    | mitsu_skidz        | 24        |
@@ -56,4 +56,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-03-15 09:23:28 UTC_
+_Last updated at 2026-04-12 09:12:56 UTC_
