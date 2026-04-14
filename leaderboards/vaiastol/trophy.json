@@ -2,10 +2,10 @@
 	"1135": {
 		"player": "vaiastol",
 		"playerid": 1135,
-		"weight": 320.5,
+		"weight": 325.5,
 		"date": "0001-01-01T00:00:00Z",
-		"trophies": 91,
-		"silver": 32,
+		"trophies": 92,
+		"silver": 34,
 		"bronze": 31,
 		"rank": 1
 	},
@@ -95,25 +95,42 @@
 		"trophies": 4,
 		"silver": 4,
 		"bronze": 2,
-		"rank": 9
+		"rank": 10
 	},
 	"4151": {
 		"player": "proswift",
 		"playerid": 4151,
-		"weight": 15,
+		"weight": 24,
 		"date": "0001-01-01T00:00:00Z",
-		"trophies": 2,
+		"trophies": 5,
 		"silver": 5,
 		"bronze": 8,
-		"rank": 10
+		"rank": 8
 	},
 	"4153": {
 		"player": "ryakarr",
 		"playerid": 4153,
-		"weight": 3,
+		"weight": 3.5,
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 1,
-		"rank": 16
+		"bronze": 1,
+		"rank": 13
+	},
+	"4753": {
+		"player": "thespecialone22",
+		"playerid": 4753,
+		"weight": 1,
+		"date": "0001-01-01T00:00:00Z",
+		"bronze": 2,
+		"rank": 18
+	},
+	"4793": {
+		"player": "ichezero",
+		"playerid": 4793,
+		"weight": 0.5,
+		"date": "0001-01-01T00:00:00Z",
+		"bronze": 1,
+		"rank": 19
 	},
 	"56": {
 		"player": "dazedforevermore",
@@ -122,7 +139,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 6,
 		"bronze": 4,
-		"rank": 8
+		"rank": 9
 	},
 	"575": {
 		"player": "divra__",
