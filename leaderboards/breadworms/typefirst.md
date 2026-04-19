@@ -2,7 +2,7 @@
 
 | Rank | Fish               | Weight in lbs | Player                  | Date in UTC         |
 |:-----|:-------------------|:--------------|:------------------------|:--------------------|
-| 131  | 🍊 orange          | 0.00          | kikyomushi              | 2025-12-18 03:39:22 |
+| 131  | 🍊 orange          | 0.00          | cutsekai                | 2025-12-18 03:39:22 |
 | 130  | 🍱 tacklebox       | 2.13          | derinturitierutz        | 2025-11-01 12:30:09 |
 | 129  | 🍎 apple           | 0.40          | cimgu                   | 2025-10-30 04:57:14 |
 | 128  | 🕯️ candle          | 0.00          | breadworms              | 2025-10-30 01:36:45 |
@@ -38,8 +38,8 @@
 | 98   | 🧥 coat            | 1.85          | gstaman911              | 2025-01-01 13:14:00 |
 | 97   | 🪿 goose           | 2.44          | leanmeister             | 2024-12-31 17:08:06 |
 | 94   | 🎀 wrappingpaper   | 0.00          | derinturitierutz        | 2024-12-24 10:24:51 |
-| 94   | 🍪 cookie          | 0.00          | derinturitierutz        | 2024-12-24 10:24:51 |
 | 94   | ✉️ letter          | 0.00          | derinturitierutz        | 2024-12-24 10:24:51 |
+| 94   | 🍪 cookie          | 0.00          | derinturitierutz        | 2024-12-24 10:24:51 |
 | 93   | 🎁 present         | 0.00          | breadworms              | 2024-12-24 09:32:34 |
 | 92   | 🐀 rat             | 75.78         | fishingalt              | 2024-12-23 14:44:14 |
 | 91   | 🐿️ squirrel        | 0.00          | larvaew                 | 2024-12-21 19:36:22 |
@@ -134,4 +134,4 @@
 | 2    | 🐸 frog            | 4.76          | miiiiisho               | 2022-12-04 01:04:30 |
 | 1    | 🦐 shrimp          | 29.58         | lagggm*                 | 2022-12-04 00:58:55 |
 
-_Last updated at 2026-03-01 09:44:16 UTC_
+_Last updated at 2026-04-19 09:29:06 UTC_

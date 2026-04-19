@@ -32,7 +32,7 @@
 | 28    | 🛒 shoppingcart    | 51.50         | deatron                   | 2025-12-24 19:24:29 |
 | 29    | 🗡️ dagger          | 47.98         | hahppyy                   | 2024-03-16 21:42:51 |
 | 30    | 🐸 frog            | 47.43         | noconcept_                | 2023-11-06 23:41:42 |
-| 31    | 🦫 beaver          | 43.91 (+0.45) | ranctious                 | 2026-04-06 20:22:18 |
+| 31    | 🦫 beaver          | 43.91         | ranctious                 | 2026-04-06 20:22:18 |
 | 32    | 🐧 penguin         | 41.83         | blu_inx                   | 2025-12-25 11:46:58 |
 | 33    | 🦀 crab            | 38.88         | d1ma1g*                   | 2023-09-03 11:19:10 |
 | 34    | 🐡 blowfish        | 35.81         | bluberry                  | 2024-08-13 06:51:36 |
@@ -40,7 +40,7 @@
 | 36    | 🕷️ spider          | 31.49         | poons_s                   | 2026-03-16 10:39:24 |
 | 37    | 🥒 seacucumber     | 31.24         | divra__                   | 2024-06-07 00:44:07 |
 | 38    | 🧽 sponge          | 29.89         | nndiana                   | 2025-07-24 04:14:09 |
-| 39    | 🐠 tropicalfish    | 26.73         | kevinlukejager            | 2026-03-28 20:05:35 |
+| 39    | 🐠 tropicalfish    | 27.72 (+0.99) | luneckie                  | 2026-04-16 02:41:16 |
 | 40    | 🪳 cockroach       | 25.94         | release1g                 | 2024-01-25 01:54:30 |
 | 41    | 🦠 plankton        | 21.99         | nndiana                   | 2023-12-26 04:58:23 |
 | 42    | 🪼 jellyfish       | 21.95         | sandwichsundays           | 2024-07-05 19:59:19 |
@@ -118,4 +118,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-04-12 09:11:54 UTC_
+_Last updated at 2026-04-19 09:29:26 UTC_

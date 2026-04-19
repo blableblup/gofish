@@ -75,7 +75,7 @@
 | 71    | 🌰 acorn          | 3.98          | vaiastol           | 2025-11-08 20:12:11 |
 | 72    | 🪝 hook           | 3.95          | yoimlee            | 2025-05-19 12:50:57 |
 | 73    | 🦢 swan           | 3.86          | divra__            | 2025-05-06 23:44:45 |
-| 74    | 🦇 bat            | 3.78 (+0.04)  | j4song             | 2026-03-22 15:45:04 |
+| 74    | 🦇 bat            | 3.78          | j4song             | 2026-03-22 15:45:04 |
 | 75    | 🌷 tulip          | 2.98          | eelacy             | 2025-03-18 02:28:33 |
 | 76    | 🌻 sunflower      | 2.94          | vaiastol           | 2025-06-10 19:21:56 |
 | 77    | ☂️ umbrella       | 2.84          | tiaguitos97        | 2025-10-06 22:42:15 |
@@ -85,8 +85,8 @@
 | 81    | 🦉 owl            | 2.08          | respirate_         | 2026-01-05 08:05:41 |
 | 82    | 🪿 goose          | 2.05          | vaiastol           | 2026-02-13 19:22:51 |
 | 83    | 👟 sneaker        | 1.99          | luvwiiseat         | 2025-05-27 00:29:20 |
-| 84    | 👢 boot           | 1.97          | yoimlee            | 2024-11-04 14:41:11 |
-| 85    | 🧦 socks          | 1.95          | divra__            | 2024-10-16 23:07:48 |
+| 83 ⬆  | 🧦 socks          | 1.99 (+0.04)  | ichezero           | 2026-04-18 11:59:17 |
+| 85 ⬇  | 👢 boot           | 1.97          | yoimlee            | 2024-11-04 14:41:11 |
 | 86    | 🌹 rose           | 1.92          | garout             | 2025-10-05 21:18:57 |
 | 87    | 🪻 lupine         | 1.90          | redreignss         | 2025-07-09 13:30:55 |
 | 88    | 🩰 balletshoes    | 1.89          | brontiiide         | 2025-01-01 02:12:26 |
@@ -111,4 +111,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-03-29 10:29:07 UTC_
+_Last updated at 2026-04-19 09:29:33 UTC_

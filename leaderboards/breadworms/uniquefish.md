@@ -5,8 +5,8 @@
 | 1 🥇  | fishingalt            | 122       |
 | 2 🥈  | derinturitierutz      | 118       |
 | 3 🥉  | derintu               | 110       |
-| 4     | lluuucy               | 105 (+1)  |
-| 5     | larvaew               | 104 (+1)  |
+| 4     | lluuucy               | 105       |
+| 5     | larvaew               | 104       |
 | 6     | leanmeister           | 102       |
 | 7     | cimgu                 | 100       |
 | 8     | qu4ttromila           | 94        |
@@ -17,7 +17,7 @@
 | 12    | ytp_dl*               | 90        |
 | 14    | dougiefresh_83*       | 87        |
 | 15    | dazedforevermore      | 86        |
-| 16    | miiiiisho             | 85        |
+| 15 ⬆  | miiiiisho             | 86 (+1)   |
 | 17    | ninjaross*            | 78        |
 | 18    | booty_bread           | 77        |
 | 19    | gstaman911            | 75        |
@@ -29,13 +29,13 @@
 | 25    | gawblemachine         | 69        |
 | 25    | julialuxel            | 69        |
 | 27    | crazytown_bananapants | 67        |
-| 27    | kikyomushi            | 67        |
+| 27    | cutsekai              | 67        |
 | 29    | comiqq                | 65        |
 | 29    | ryebreadward          | 65        |
 | 31    | mitgliederversammlung | 64        |
 | 32    | sussy_amonge          | 62        |
-| 33    | esvelles              | 61 (+1)   |
-| 34 ⬇  | kaasppeerr            | 60        |
+| 33    | esvelles              | 61        |
+| 34    | kaasppeerr            | 60        |
 | 35    | bapqo                 | 56        |
 | 35    | idini                 | 56        |
 | 35    | wisco9ers*            | 56        |
@@ -53,4 +53,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-04-12 09:12:56 UTC_
+_Last updated at 2026-04-19 09:27:22 UTC_

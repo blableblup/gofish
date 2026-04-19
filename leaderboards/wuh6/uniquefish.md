@@ -2,14 +2,14 @@
 
 | Rank  | Player                    | Fish seen |
 |:------|:--------------------------|:----------|
-| 1 🥇  | eeziiii                   | 113       |
+| 1 🥇  | eeziiii                   | 114 (+1)  |
 | 2 🥈  | theevirus                 | 109       |
 | 3 🥉  | iflya320                  | 108       |
 | 4     | bubinga                   | 107       |
 | 5     | lobuhtomy                 | 101       |
 | 6     | huuuuuuuuuuuuuuuuuuuuuurz | 96        |
-| 7     | wowitsdub                 | 93 (+1)   |
-| 8 ⬇   | nndiana*                  | 92        |
+| 7     | wowitsdub                 | 93        |
+| 8     | nndiana*                  | 92        |
 | 9     | ranctious                 | 90        |
 | 10    | gorillapark               | 87        |
 | 11    | veny2lbs                  | 82        |
@@ -19,9 +19,9 @@
 | 15    | commanda_u                | 58        |
 | 16    | supibot                   | 55        |
 | 17    | bluberry                  | 54        |
-| 18    | bcarw                     | 53        |
-| 18    | blu_inx                   | 53        |
-| 18    | feelsaceman               | 53        |
+| 17 ⬆  | feelsaceman               | 54 (+1)   |
+| 19 ⬇  | bcarw                     | 53        |
+| 19 ⬇  | blu_inx                   | 53        |
 | 21    | flovrek                   | 52        |
 | 22    | ocrw                      | 49        |
 | 22    | sandwichsundays*          | 49        |
@@ -32,9 +32,9 @@
 | 28    | flvx_flux*                | 42        |
 | 29    | jr_mime                   | 40        |
 | 30    | benciee                   | 39        |
-| 31 ⬆  | poons_s                   | 38 (+4)   |
-| 32 ⬇  | zwockel01                 | 35        |
-| 33 ⬇  | wuh6                      | 34        |
+| 30 ⬆  | poons_s                   | 39 (+1)   |
+| 32    | zwockel01                 | 35        |
+| 33    | wuh6                      | 34        |
 | 34    | ratot                     | 33        |
 | 35    | araqs                     | 29        |
 | 35    | ceriise__                 | 29        |
@@ -51,10 +51,10 @@
 | 46    | pspisafemboy              | 21        |
 | 46    | rottarded                 | 21        |
 | 49    | mrsmalvic                 | 20        |
-| 49 🆕 | nightbot                  | 20        |
+| 49    | nightbot                  | 20        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-04-12 09:12:55 UTC_
+_Last updated at 2026-04-19 09:27:22 UTC_

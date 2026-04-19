@@ -34,7 +34,7 @@
 | 30    | 🛒 shoppingcart    | 60.59         | osnyisdead            | 2026-01-01 20:27:10 |
 | 31    | 🗡️ dagger          | 47.73         | xz_xz                 | 2023-08-20 06:54:51 |
 | 32    | 🐸 frog            | 47.16         | vaiastol              | 2024-09-08 14:39:42 |
-| 33    | 🎰 slotmachine     | 47.00         | kikyomushi            | 2026-02-04 11:04:17 |
+| 33    | 🎰 slotmachine     | 47.00         | cutsekai              | 2026-02-04 11:04:17 |
 | 34    | 🦫 beaver          | 43.98         | bapqo                 | 2024-06-20 02:32:08 |
 | 35    | 🐧 penguin         | 41.60         | osnyatsky*            | 2022-12-26 11:29:32 |
 | 36    | 🦀 crab            | 38.91         | bussinongnocap        | 2023-09-05 06:10:03 |
@@ -67,8 +67,8 @@
 | 63    | 🧥 coat            | 11.62         | derinturitierutz      | 2025-03-25 12:20:39 |
 | 64    | 🧴 sunscreenbottle | 11.12         | kishma9               | 2025-08-24 22:23:00 |
 | 65    | 🪹 emptynest       | 10.99         | fvkdylan              | 2025-03-15 04:16:42 |
-| 66 ⬆  | 🪺 nestwitheggs    | 10.95 (+0.11) | ytp_dl                | 2026-03-22 15:30:55 |
-| 67 ⬇  | 🩲 briefs          | 10.94         | derintu               | 2025-07-10 13:16:26 |
+| 66    | 🪺 nestwitheggs    | 10.95         | ytp_dl                | 2026-03-22 15:30:55 |
+| 67    | 🩲 briefs          | 10.94         | derintu               | 2025-07-10 13:16:26 |
 | 68    | 🦎 lizard          | 10.61         | sussy_amonge          | 2023-06-04 08:16:33 |
 | 69    | 🪁 kite            | 10.40         | larvaew               | 2025-06-30 14:44:29 |
 | 70    | 🧋 bobacup         | 10.01         | fishingalt            | 2025-08-25 14:19:42 |
@@ -95,7 +95,7 @@
 | 90    | 🥀 wiltedflower    | 2.97          | cimgu                 | 2024-12-19 20:15:08 |
 | 92    | 🌹 rose            | 2.96          | osnyatsky             | 2024-03-28 12:12:36 |
 | 92    | 🥪 sandwich        | 2.96          | qu4ttromila           | 2023-05-29 08:10:17 |
-| 94    | 🍎 apple           | 2.92          | kikyomushi            | 2025-11-04 23:27:16 |
+| 94    | 🍎 apple           | 2.92          | cutsekai              | 2025-11-04 23:27:16 |
 | 95    | 🌷 tulip           | 2.85          | 111320_2              | 2025-04-26 01:03:44 |
 | 96    | 🫙 jar             | 2.60          | fishingalt            | 2025-08-31 09:09:47 |
 | 97    | 🍱 tacklebox       | 2.13          | derinturitierutz      | 2025-11-01 12:30:09 |
@@ -128,4 +128,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-03-29 10:28:39 UTC_
+_Last updated at 2026-04-19 09:30:29 UTC_
