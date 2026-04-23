@@ -30,7 +30,7 @@
 | 26    | larvaew               | 66          |
 | 27    | booty_bread           | 60          |
 | 27    | pinksynthesis29       | 60          |
-| 29    | kikyomushi            | 57          |
+| 29    | cutsekai              | 57          |
 | 30    | receipts              | 56          |
 | 31    | bk207*                | 53          |
 | 32    | hmsmob*               | 52          |
@@ -62,4 +62,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2026-02-24 22:24:14 UTC_
+_Last updated at 2026-04-23 11:11:21 UTC_

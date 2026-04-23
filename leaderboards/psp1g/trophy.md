@@ -2,23 +2,23 @@
 
 | Rank  | Player                    | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points       |
 |:------|:--------------------------|:------------|:-----------------|:-----------------|:-------------|
-| 1 🥇  | nndiana                   | 80          | 70 (+1)          | 34 (+1)          | 327.0 (+1.5) |
+| 1 🥇  | nndiana                   | 80          | 70               | 34               | 327.0        |
 | 2 🥈  | bubinga                   | 28          | 21               | 16               | 113.0        |
-| 3 🥉  | jacobzzbzz                | 27          | 21               | 7                | 105.5        |
-| 4     | luneckie                  | 12          | 4                | 8                | 44.0         |
+| 3 🥉  | jacobzzbzz                | 27          | 21               | 8 (+1)           | 106.0 (+0.5) |
+| 4     | luneckie                  | 12          | 5 (+1)           | 9 (+1)           | 45.5 (+1.5)  |
 | 5     | blu_inx                   | 8           | 11               | 8                | 39.0         |
 | 5     | mazzo_tv                  | 6           | 12               | 18               | 39.0         |
 | 7     | huuuuuuuuuuuuuuuuuuuuuurz | 8           | 10               | 9                | 38.5         |
 | 8     | benciee                   | 7           | 11               | 2                | 33.0         |
-| 9     | ratot                     | 4           | 7                | 9                | 23.5         |
-| 10 ⬆  | kevinlukejager            | 6 (+1)      | 4 (+1)           | 2                | 23.0 (+4.0)  |
-| 11 ⬇  | iflya320                  | 6           | 3                | 2                | 22.0         |
-| 12 ⬇  | jemcs_                    | 6           | 3                | 0                | 21.0         |
-| 13 ⬇  | amu1g                     | 6           | 2                | 0                | 20.0         |
-| 13 ⬇  | rottarded                 | 4           | 5                | 6                | 20.0         |
-| 15 ⬆  | disappointingtrash        | 4 (+1)      | 5                | 5 (+1)           | 19.5 (+3.5)  |
-| 15 ⬆  | joshuabzz                 | 3 (+1)      | 5                | 11               | 19.5 (+3.0)  |
-| 17 ⬇  | lobuhtomy                 | 3           | 3                | 11               | 17.5         |
+| 9 ⬆   | disappointingtrash        | 5 (+1)      | 6 (+1)           | 6 (+1)           | 24.0 (+4.5)  |
+| 10 ⬇  | ratot                     | 4           | 7                | 9                | 23.5         |
+| 11 ⬇  | kevinlukejager            | 6           | 4                | 2                | 23.0         |
+| 12 ⬇  | iflya320                  | 6           | 3                | 2                | 22.0         |
+| 13 ⬇  | jemcs_                    | 6           | 3                | 0                | 21.0         |
+| 14 ⬇  | amu1g                     | 6           | 2                | 0                | 20.0         |
+| 14 ⬇  | rottarded                 | 4           | 5                | 6                | 20.0         |
+| 16 ⬇  | joshuabzz                 | 3           | 5                | 11               | 19.5         |
+| 17    | lobuhtomy                 | 3           | 3                | 11               | 17.5         |
 | 18    | zwockel01                 | 4           | 2                | 2                | 15.0         |
 | 19    | noconcept_                | 4           | 2                | 0                | 14.0         |
 | 20    | r1cz4rd                   | 1           | 3                | 14               | 13.0         |
@@ -38,20 +38,21 @@
 | 34    | veny2lbs                  | 1           | 0                | 2                | 4.0          |
 | 35    | gorillapark               | 0           | 2                | 3                | 3.5          |
 | 36    | creepycode                | 0           | 3                | 0                | 3.0          |
+| 36 🆕 | paju1g                    | 1           | 0                | 0                | 3.0          |
 | 36    | popfizzgg                 | 1           | 0                | 0                | 3.0          |
+| 36 ⬆  | sillyfellow32             | 0           | 3 (+1)           | 0                | 3.0 (+1.0)   |
 | 36    | zsipe                     | 0           | 3                | 0                | 3.0          |
-| 39    | supibot                   | 0           | 2                | 1                | 2.5          |
-| 40 ⬆  | cutzen9                   | 0           | 2 (+1)           | 0                | 2.0 (+1.0)   |
-| 40    | yopego                    | 0           | 2                | 0                | 2.0          |
-| 42 ⬇  | crunch_sack               | 0           | 0                | 3                | 1.5          |
-| 43 ⬇  | deatron                   | 0           | 1                | 0                | 1.0          |
-| 43 ⬇  | r3kko_                    | 0           | 1                | 0                | 1.0          |
-| 43 ⬇  | ranctious                 | 0           | 1                | 0                | 1.0          |
-| 43 ⬇  | xd_2k                     | 0           | 1                | 0                | 1.0          |
-| 47    | ducksleazzy               | 0           | 0                | 1                | 0.5          |
-| 47    | eeziiii                   | 0           | 0                | 1                | 0.5          |
-| 47    | llikotesnecil             | 0           | 0                | 1                | 0.5          |
-| 47    | starducc                  | 0           | 0                | 1                | 0.5          |
-| 47 🆕 | totallynotaboykisser      | 0           | 0                | 1                | 0.5          |
+| 41 ⬇  | supibot                   | 0           | 2                | 1                | 2.5          |
+| 42 ⬇  | yopego                    | 0           | 2                | 0                | 2.0          |
+| 43 ⬇  | crunch_sack               | 0           | 0                | 3                | 1.5          |
+| 44 ⬇  | deatron                   | 0           | 1                | 0                | 1.0          |
+| 44 ⬇  | r3kko_                    | 0           | 1                | 0                | 1.0          |
+| 44 ⬇  | ranctious                 | 0           | 1                | 0                | 1.0          |
+| 44 ⬇  | xd_2k                     | 0           | 1                | 0                | 1.0          |
+| 48 ⬇  | ducksleazzy               | 0           | 0                | 1                | 0.5          |
+| 48 ⬇  | eeziiii                   | 0           | 0                | 1                | 0.5          |
+| 48 ⬇  | llikotesnecil             | 0           | 0                | 1                | 0.5          |
+| 48 ⬇  | starducc                  | 0           | 0                | 1                | 0.5          |
+| 48 ⬇  | totallynotaboykisser      | 0           | 0                | 1                | 0.5          |
 
-_Last updated at 2026-04-14 11:31:52 UTC_
+_Last updated at 2026-04-23 11:11:22 UTC_
