@@ -11,7 +11,7 @@
 | 7     | spanmer        | 366         |
 | 8     | ofaisalz       | 332         |
 | 9     | konsminator    | 326         |
-| 10    | notnownico     | 256 (+1)    |
+| 10    | notnownico     | 256         |
 | 11    | vagdy          | 254         |
 | 12    | rabituwu       | 243         |
 | 13    | hamoodhabibee  | 213         |
@@ -19,7 +19,7 @@
 | 15    | ssenario       | 171         |
 | 16    | tairaaaaa      | 170         |
 | 17    | mousee93       | 167         |
-| 18    | kyonuwu        | 147         |
+| 18    | kyonuwu        | 148 (+1)    |
 | 19    | sugur          | 138         |
 | 20    | exo9*          | 136         |
 | 21    | burnend        | 133         |
@@ -35,7 +35,7 @@
 | 31    | respirate_     | 63          |
 | 31    | whoop_ee       | 63          |
 | 33    | 777pancake     | 62          |
-| 34    | depraviaa      | 58          |
+| 34    | rusina         | 58          |
 | 35    | buffyo         | 54          |
 | 36    | mitsu_skidz    | 50          |
 | 37    | popfizzgg      | 48          |
@@ -56,4 +56,4 @@
 
 _Only showing fishers who caught >= 30 fish_
 
-_Last updated at 2026-04-19 09:27:18 UTC_
+_Last updated at 2026-04-26 08:58:29 UTC_

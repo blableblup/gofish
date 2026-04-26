@@ -101,6 +101,6 @@
 | 97     | bubinga         | 🦑 squid     | 51.14         | 2025-05-02 22:55:56 |
 | 98     | beepisla        | 🦑 squid     | 50.31         | 2025-01-14 21:39:57 |
 | 99     | yyaaaaaaaas     | 🦭 seal      | 49.06         | 2025-02-06 00:51:40 |
-| 100 🆕 | elisworm        | 🦞 lobster   | 48.73         | 2025-12-01 10:51:05 |
+| 100 🆕 | rustezzz        | 🐙 octopus   | 48.73         | 2025-09-07 00:15:10 |
 
-_Last updated at 2026-04-12 09:12:54 UTC_
+_Last updated at 2026-04-26 08:54:58 UTC_

@@ -25,7 +25,7 @@
 | 21    | 🛒 shoppingcart    | 70.34         | v6r_        | 2025-01-12 22:14:42 |
 | 22    | 🪨 rock            | 58.70         | v6r_        | 2025-09-16 21:11:31 |
 | 23    | 🦐 shrimp          | 56.46         | gofishgamer | 2025-07-30 01:44:31 |
-| 24    | 🐟 fish            | 54.27         | aliveleader | 2024-08-07 01:56:30 |
+| 24    | 🐟 fish            | 54.58 (+0.31) | mangos4u    | 2026-04-24 13:39:00 |
 | 25    | 👑 crown           | 49.57         | gofishgamer | 2025-07-30 05:46:59 |
 | 26    | 🗡️ dagger          | 47.37         | v6r_        | 2024-09-28 08:47:12 |
 | 27    | 🦫 beaver          | 43.81         | v6r_        | 2025-09-24 16:34:51 |
@@ -68,7 +68,7 @@
 | 64    | 🫙 jar             | 8.81          | mangos4u    | 2025-06-21 02:29:53 |
 | 65    | 🪁 kite            | 8.46          | gofishgamer | 2025-07-11 00:49:21 |
 | 66    | 🎱 8ball           | 8.13          | ritaaww     | 2024-09-27 20:08:42 |
-| 67    | 🦎 lizard          | 7.97 (+0.04)  | v6r_        | 2026-04-04 19:50:19 |
+| 67    | 🦎 lizard          | 7.97          | v6r_        | 2026-04-04 19:50:19 |
 | 68    | 🐸 frog            | 7.57          | solahh__    | 2025-08-08 08:47:09 |
 | 69    | 🐚 shell           | 5.95          | v6r_        | 2025-06-12 16:08:05 |
 | 70    | ☘️ clover          | 5.85          | mangos4u    | 2025-09-19 19:46:24 |
@@ -115,4 +115,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-04-05 09:55:51 UTC_
+_Last updated at 2026-04-26 08:58:05 UTC_

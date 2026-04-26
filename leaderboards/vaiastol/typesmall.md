@@ -8,7 +8,7 @@
 | 4     | 🐻‍❄ polarbear      | 24.33         | julialuxel         | 2024-12-26 01:45:22 |
 | 5     | 🫎 moose          | 22.03         | dazedforevermore   | 2025-05-06 17:17:48 |
 | 6     | 🧜‍♀️ mermaid        | 18.46         | hahppyy            | 2025-05-05 14:52:40 |
-| 7     | 🗡️ dagger         | 7.94 (-0.67)  | ryakarr            | 2026-04-03 07:00:14 |
+| 7     | 🗡️ dagger         | 7.94          | ryakarr            | 2026-04-03 07:00:14 |
 | 8     | 🧭 compass        | 7.53          | julialuxel         | 2024-12-25 19:32:21 |
 | 9     | 🐳 bluewhale      | 5.96          | julialuxel         | 2024-12-30 18:25:59 |
 | 10    | 🦭 seal           | 5.80          | pengeg             | 2024-12-28 12:10:08 |
@@ -22,8 +22,8 @@
 | 18    | 🕶️ darksunglasses | 2.89          | yoimlee            | 2025-08-16 15:14:59 |
 | 19    | 🧋 bobacup        | 2.74          | garout             | 2025-08-28 18:21:29 |
 | 20    | 🪁 kite           | 2.67          | garout             | 2025-07-27 01:22:16 |
-| 21    | 🦈 shark          | 2.19          | wcd0               | 2025-02-07 21:53:16 |
-| 22    | 🥒 seacucumber    | 1.94          | dazedforevermore   | 2024-08-07 18:39:10 |
+| 21 ⬆  | 🥒 seacucumber    | 1.94          | dazedforevermore   | 2024-08-07 18:39:10 |
+| 22 ⬇  | 🦈 shark          | 1.89 (-0.30)  | proswift           | 2026-04-22 03:02:48 |
 | 23    | 🍎 apple          | 1.57          | hahppyy            | 2025-10-31 20:59:46 |
 | 24    | 🧞‍♂ genie          | 1.44          | hahppyy            | 2024-10-31 05:57:15 |
 | 25    | 👟 sneaker        | 1.42          | cyaniderx          | 2024-10-29 20:03:19 |
@@ -60,8 +60,8 @@
 | 56    | 🪻 lupine         | 0.20          | redreignss         | 2025-07-25 19:24:30 |
 | 57    | 🦠 plankton       | 0.19          | hahppyy            | 2024-11-27 19:33:15 |
 | 57    | 🕷️ spider         | 0.19          | redreignss         | 2025-05-31 00:54:12 |
-| 59 ⬆  | 🦫 beaver         | 0.16          | pengeg             | 2024-10-15 04:52:16 |
-| 60 ⬇  | 🍃 deadleaves     | 0.14 (-0.03)  | esvelles           | 2026-03-30 16:48:24 |
+| 59    | 🦫 beaver         | 0.16          | pengeg             | 2024-10-15 04:52:16 |
+| 60    | 🍃 deadleaves     | 0.14          | esvelles           | 2026-03-30 16:48:24 |
 | 61    | 🪳 cockroach      | 0.13          | esmeohmy           | 2025-05-19 14:53:42 |
 | 61    | 🪺 nestwitheggs   | 0.13          | eelacy             | 2025-12-23 00:00:43 |
 | 61    | 🌻 sunflower      | 0.13          | vaiastol           | 2025-06-10 15:17:32 |
@@ -111,4 +111,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-04-05 09:55:36 UTC_
+_Last updated at 2026-04-26 08:56:38 UTC_

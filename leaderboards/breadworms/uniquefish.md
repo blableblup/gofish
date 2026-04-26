@@ -4,7 +4,7 @@
 |:------|:----------------------|:----------|
 | 1 🥇  | fishingalt            | 122       |
 | 2 🥈  | derinturitierutz      | 118       |
-| 3 🥉  | derintu               | 110       |
+| 3 🥉  | derintu               | 111 (+1)  |
 | 4     | lluuucy               | 105       |
 | 5     | larvaew               | 104       |
 | 6     | leanmeister           | 102       |
@@ -17,7 +17,7 @@
 | 12    | ytp_dl*               | 90        |
 | 14    | dougiefresh_83*       | 87        |
 | 15    | dazedforevermore      | 86        |
-| 15 ⬆  | miiiiisho             | 86 (+1)   |
+| 15    | miiiiisho             | 86        |
 | 17    | ninjaross*            | 78        |
 | 18    | booty_bread           | 77        |
 | 19    | gstaman911            | 75        |
@@ -33,8 +33,8 @@
 | 29    | comiqq                | 65        |
 | 29    | ryebreadward          | 65        |
 | 31    | mitgliederversammlung | 64        |
-| 32    | sussy_amonge          | 62        |
-| 33    | esvelles              | 61        |
+| 32 ⬆  | esvelles              | 63 (+2)   |
+| 33 ⬇  | sussy_amonge          | 62        |
 | 34    | kaasppeerr            | 60        |
 | 35    | bapqo                 | 56        |
 | 35    | idini                 | 56        |
@@ -53,4 +53,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-04-19 09:27:22 UTC_
+_Last updated at 2026-04-26 08:54:50 UTC_

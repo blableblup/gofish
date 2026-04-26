@@ -35,7 +35,7 @@
 | 31    | ssenario                  | 🐳 bluewhale | 184.59        | 2024-11-19 19:42:40 |
 | 32    | huuuuuuuuuuuuuuuuuuuuuurz | 🐉 dragon    | 183.16        | 2024-12-14 10:34:27 |
 | 33    | youngstercal              | 🐳 bluewhale | 175.49        | 2024-12-13 20:39:21 |
-| 34    | depraviaa                 | 🐉 dragon    | 170.98        | 2024-12-08 18:40:24 |
+| 34    | rusina                    | 🐉 dragon    | 170.98        | 2024-12-08 18:40:24 |
 | 35    | wisteraeia                | 🦈 shark     | 169.14        | 2025-02-19 13:58:34 |
 | 36    | buffyo                    | 🦕 sauropod  | 168.88        | 2025-01-18 00:31:53 |
 | 37    | kukkuri                   | 🐳 bluewhale | 158.42        | 2024-11-04 22:39:59 |
@@ -65,4 +65,4 @@
 
 _Only showing fish weighing >= 100 lbs_
 
-_Last updated at 2026-04-12 09:14:52 UTC_
+_Last updated at 2026-04-26 08:54:57 UTC_

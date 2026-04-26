@@ -12,14 +12,14 @@
 | 8     | konsminator    | 7261.34             |
 | 9     | ofaisalz       | 5763.31             |
 | 10    | vagdy          | 5318.19             |
-| 11    | notnownico     | 4425.01 (+19.89)    |
+| 11    | notnownico     | 4425.01             |
 | 12    | hamoodhabibee  | 4262.07             |
 | 13    | mousee93       | 4037.14             |
 | 14    | rabituwu       | 3852.81             |
 | 15    | simplydrack    | 3834.86             |
 | 16    | ssenario       | 3239.08             |
 | 17    | tairaaaaa      | 3040.98             |
-| 18    | kyonuwu        | 2801.77             |
+| 18    | kyonuwu        | 2802.96 (+1.19)     |
 | 19    | exo9*          | 2568.26             |
 | 20    | wisteraeia     | 2460.76             |
 | 21    | aceleju        | 2420.95             |
@@ -40,7 +40,7 @@
 | 36    | feuha          | 1095.98             |
 | 37    | youngstercal   | 1071.10             |
 | 38    | mitsu_skidz    | 1016.10             |
-| 39    | depraviaa      | 1004.92             |
+| 39    | rusina         | 1004.92             |
 | 40    | gofishgamer    | 948.82              |
 | 41    | fvkdylan       | 829.41              |
 | 42    | deadl3gs       | 797.56              |
@@ -58,4 +58,4 @@
 
 _Only showing fishers with a total weight of >= 500 lbs_
 
-_Last updated at 2026-04-19 09:29:06 UTC_
+_Last updated at 2026-04-26 08:54:52 UTC_

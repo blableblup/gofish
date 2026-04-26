@@ -4,10 +4,10 @@
 |:------|:--------------------|:------------|
 | 1 🥇  | rainedparade        | 362         |
 | 2 🥈  | miyabwah            | 280         |
-| 3 🥉  | goopy777            | 146 (+2)    |
-| 4 ⬇   | pompadourdelinquent | 144         |
-| 5 ⬆   | jakthejanitor       | 133 (+9)    |
-| 6 ⬇   | poioce              | 132         |
+| 3 🥉  | goopy777            | 148 (+2)    |
+| 4 ⬆   | jakthejanitor       | 147 (+14)   |
+| 5 ⬇   | pompadourdelinquent | 144         |
+| 6     | poioce              | 132         |
 | 7     | cptblack_           | 91          |
 | 8     | hello0d             | 89          |
 | 8     | teeto               | 89          |
@@ -19,7 +19,7 @@
 | 15    | cerealapii          | 19          |
 | 15    | jellyuh             | 19          |
 | 17    | fadingmemoriez      | 18          |
-| 18    | akasamoyed          | 16          |
+| 18    | akasamoyed          | 17 (+1)     |
 | 19    | blitzrailgun        | 13          |
 | 19    | jollygana           | 13          |
 | 21    | piz_z               | 12          |
@@ -29,4 +29,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-04-19 09:27:18 UTC_
+_Last updated at 2026-04-26 08:58:29 UTC_

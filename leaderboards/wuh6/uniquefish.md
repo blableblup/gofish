@@ -2,26 +2,26 @@
 
 | Rank  | Player                    | Fish seen |
 |:------|:--------------------------|:----------|
-| 1 🥇  | eeziiii                   | 114 (+1)  |
+| 1 🥇  | eeziiii                   | 114       |
 | 2 🥈  | theevirus                 | 109       |
 | 3 🥉  | iflya320                  | 108       |
 | 4     | bubinga                   | 107       |
 | 5     | lobuhtomy                 | 101       |
 | 6     | huuuuuuuuuuuuuuuuuuuuuurz | 96        |
+| 7 ⬆   | nndiana*                  | 93 (+1)   |
 | 7     | wowitsdub                 | 93        |
-| 8     | nndiana*                  | 92        |
-| 9     | ranctious                 | 90        |
+| 9     | ranctious                 | 92 (+2)   |
 | 10    | gorillapark               | 87        |
 | 11    | veny2lbs                  | 82        |
 | 12    | caprisen_*                | 62        |
 | 12    | mazzo_tv                  | 62        |
 | 14    | rancbot                   | 59        |
 | 15    | commanda_u                | 58        |
-| 16    | supibot                   | 55        |
-| 17    | bluberry                  | 54        |
-| 17 ⬆  | feelsaceman               | 54 (+1)   |
-| 19 ⬇  | bcarw                     | 53        |
-| 19 ⬇  | blu_inx                   | 53        |
+| 16 ⬆  | feelsaceman               | 56 (+2)   |
+| 17 ⬇  | supibot                   | 55        |
+| 18 ⬆  | bcarw                     | 54 (+1)   |
+| 18 ⬇  | bluberry                  | 54        |
+| 20 ⬇  | blu_inx                   | 53        |
 | 21    | flovrek                   | 52        |
 | 22    | ocrw                      | 49        |
 | 22    | sandwichsundays*          | 49        |
@@ -32,7 +32,7 @@
 | 28    | flvx_flux*                | 42        |
 | 29    | jr_mime                   | 40        |
 | 30    | benciee                   | 39        |
-| 30 ⬆  | poons_s                   | 39 (+1)   |
+| 30    | poons_s                   | 39        |
 | 32    | zwockel01                 | 35        |
 | 33    | wuh6                      | 34        |
 | 34    | ratot                     | 33        |
@@ -57,4 +57,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-04-19 09:27:22 UTC_
+_Last updated at 2026-04-26 08:54:51 UTC_
