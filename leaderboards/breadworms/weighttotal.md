@@ -2,27 +2,27 @@
 
 | Rank  | Player                  | Total Weight in lbs |
 |:------|:------------------------|:--------------------|
-| 1 🥇  | lluuucy                 | 100004.49 (+240.14) |
+| 1 🥇  | lluuucy                 | 100449.76 (+445.27) |
 | 2 🥈  | osnyatsky*              | 91106.82            |
-| 3 🥉  | osnyisdead              | 81412.24 (+1089.99) |
+| 3 🥉  | osnyisdead              | 82781.24 (+1369.00) |
 | 4     | puzzlow                 | 78733.57            |
 | 5     | sicklymaidrobot         | 76674.96            |
-| 6     | qu4ttromila             | 69829.14 (+140.79)  |
+| 6     | qu4ttromila             | 69837.79 (+8.65)    |
 | 7     | leanmeister             | 67760.79            |
-| 8     | destin357               | 63895.32 (+745.78)  |
-| 9     | miiiiisho               | 63463.32 (+428.20)  |
+| 8     | destin357               | 63895.32            |
+| 9     | miiiiisho               | 63488.89 (+25.57)   |
 | 10    | dazedforevermore        | 57246.65            |
-| 11    | derinturitierutz        | 57149.87 (+1.74)    |
+| 11    | derinturitierutz        | 57149.87            |
 | 12    | kishma9                 | 54542.72            |
 | 13    | sussy_amonge            | 52098.34            |
 | 14    | booty_bread             | 42662.03            |
-| 15    | derintu                 | 34746.13 (+131.53)  |
+| 15    | derintu                 | 34746.13            |
 | 16    | ninjaross*              | 32171.42            |
 | 17    | fishingalt              | 30927.99            |
 | 18    | dougiefresh_83*         | 25831.57            |
-| 19 ⬆  | esvelles                | 23437.32 (+1047.66) |
-| 20 ⬇  | ytp_dl*                 | 22912.13 (+441.20)  |
-| 21    | cimgu                   | 21397.72 (+0.78)    |
+| 19    | esvelles                | 24889.59 (+1452.27) |
+| 20    | ytp_dl*                 | 23494.92 (+582.79)  |
+| 21    | cimgu                   | 21590.39 (+192.67)  |
 | 22    | comiqq                  | 20900.39            |
 | 23    | paras220                | 20261.98            |
 | 24    | larvaew                 | 19710.42            |
@@ -34,17 +34,17 @@
 | 30    | julialuxel              | 14122.69            |
 | 31    | xth49*                  | 13595.84            |
 | 32    | trident1011             | 13141.95            |
-| 33    | breadworms              | 12592.67 (+13.64)   |
+| 33    | breadworms              | 12988.69 (+396.02)  |
 | 34    | xz_xz                   | 12457.40            |
 | 35    | islcfc*                 | 12393.14            |
 | 36    | kaasppeerr              | 11754.04            |
 | 37    | idini                   | 11044.84            |
 | 38    | mitgliederversammlung   | 9718.17             |
-| 39    | wcd0                    | 9059.45 (+84.19)    |
+| 39    | wcd0                    | 9069.21 (+9.76)     |
 | 40    | lazuli672*              | 8789.78             |
 | 41    | osnyatsky*              | 7723.42             |
-| 42    | doublehelicalstructure* | 7283.59             |
-| 43    | cutsekai                | 7170.65             |
+| 42 ⬆  | cutsekai                | 7360.03 (+189.38)   |
+| 43 ⬇  | doublehelicalstructure* | 7283.59             |
 | 44    | wisco9ers*              | 6585.86             |
 | 45    | gawblemachine           | 6380.65             |
 | 46    | fvkdylan                | 6183.52             |
@@ -60,7 +60,7 @@
 | 56    | receipts                | 4316.51             |
 | 57    | supibot                 | 4264.44             |
 | 58    | yliathim*               | 3939.78             |
-| 59    | wispmode                | 3678.21             |
+| 59    | wispmode                | 3680.13 (+1.92)     |
 | 60    | hmsmob*                 | 3577.12             |
 | 61    | 5pic3*                  | 3542.74             |
 | 62    | comiiiiiq               | 3322.63             |
@@ -77,4 +77,4 @@
 
 _Only showing fishers with a total weight of >= 1800 lbs_
 
-_Last updated at 2026-04-26 08:54:52 UTC_
+_Last updated at 2026-05-03 09:08:33 UTC_

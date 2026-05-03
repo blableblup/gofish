@@ -22,8 +22,8 @@
 | 18    | 🕶️ darksunglasses | 2.89          | yoimlee            | 2025-08-16 15:14:59 |
 | 19    | 🧋 bobacup        | 2.74          | garout             | 2025-08-28 18:21:29 |
 | 20    | 🪁 kite           | 2.67          | garout             | 2025-07-27 01:22:16 |
-| 21 ⬆  | 🥒 seacucumber    | 1.94          | dazedforevermore   | 2024-08-07 18:39:10 |
-| 22 ⬇  | 🦈 shark          | 1.89 (-0.30)  | proswift           | 2026-04-22 03:02:48 |
+| 21    | 🥒 seacucumber    | 1.94          | dazedforevermore   | 2024-08-07 18:39:10 |
+| 22    | 🦈 shark          | 1.89          | proswift           | 2026-04-22 03:02:48 |
 | 23    | 🍎 apple          | 1.57          | hahppyy            | 2025-10-31 20:59:46 |
 | 24    | 🧞‍♂ genie          | 1.44          | hahppyy            | 2024-10-31 05:57:15 |
 | 25    | 👟 sneaker        | 1.42          | cyaniderx          | 2024-10-29 20:03:19 |
@@ -33,20 +33,20 @@
 | 29    | 🐿️ squirrel       | 0.90          | creepycode         | 2024-12-04 03:46:23 |
 | 30    | 👒 hat            | 0.89          | milesdotcom        | 2024-09-13 22:05:28 |
 | 31    | 🦉 owl            | 0.85          | eelacy             | 2025-07-21 13:58:54 |
-| 32    | 👡 sandal         | 0.76          | leanmeister        | 2025-03-19 18:48:47 |
-| 33    | ☂️ umbrella       | 0.72          | hahppyy            | 2025-10-26 20:33:49 |
-| 34    | 🪿 goose          | 0.69          | eelacy             | 2026-02-06 06:39:22 |
-| 35    | 🐊 crocodile      | 0.59          | eelacy             | 2025-02-10 13:15:15 |
-| 36    | 🩲 briefs         | 0.49          | hahppyy            | 2024-09-16 22:40:24 |
-| 37    | 🥀 wiltedflower   | 0.44          | hahppyy            | 2024-12-19 22:38:17 |
-| 38    | 🐛 caterpillar    | 0.42          | leanmeister        | 2025-06-22 19:10:14 |
-| 39    | 🦦 otter          | 0.41          | eelacy             | 2025-02-22 15:32:02 |
-| 39    | 🦪 oyster         | 0.41          | yoimlee            | 2025-09-12 12:52:07 |
-| 41    | 🩰 balletshoes    | 0.40          | dazedforevermore   | 2025-01-26 21:30:29 |
-| 42    | 🐧 penguin        | 0.39          | dazedforevermore   | 2024-12-25 20:09:47 |
-| 43    | 🐙 octopus        | 0.34          | vaiastol           | 2025-01-17 13:07:16 |
-| 44    | 🐋 whale          | 0.33          | narwhaiv           | 2025-03-07 23:18:22 |
-| 45    | 🐡 blowfish       | 0.32          | divra__            | 2024-08-20 15:50:56 |
+| 32 ⬆  | ☂️ umbrella       | 0.72          | hahppyy            | 2025-10-26 20:33:49 |
+| 33 ⬆  | 🪿 goose          | 0.69          | eelacy             | 2026-02-06 06:39:22 |
+| 34 ⬆  | 🐊 crocodile      | 0.59          | eelacy             | 2025-02-10 13:15:15 |
+| 35 ⬆  | 🩲 briefs         | 0.49          | hahppyy            | 2024-09-16 22:40:24 |
+| 36 ⬆  | 🥀 wiltedflower   | 0.44          | hahppyy            | 2024-12-19 22:38:17 |
+| 37 ⬆  | 🐛 caterpillar    | 0.42          | leanmeister        | 2025-06-22 19:10:14 |
+| 38 ⬆  | 🦦 otter          | 0.41          | eelacy             | 2025-02-22 15:32:02 |
+| 38 ⬆  | 🦪 oyster         | 0.41          | yoimlee            | 2025-09-12 12:52:07 |
+| 40 ⬆  | 🩰 balletshoes    | 0.40          | dazedforevermore   | 2025-01-26 21:30:29 |
+| 41 ⬆  | 🐧 penguin        | 0.39          | dazedforevermore   | 2024-12-25 20:09:47 |
+| 42 ⬆  | 🐙 octopus        | 0.34          | vaiastol           | 2025-01-17 13:07:16 |
+| 43 ⬆  | 🐋 whale          | 0.33          | narwhaiv           | 2025-03-07 23:18:22 |
+| 44 ⬆  | 🐡 blowfish       | 0.32          | divra__            | 2024-08-20 15:50:56 |
+| 44 ⬇  | 👡 sandal         | 0.32 (-0.44)  | proswift           | 2026-04-30 20:28:18 |
 | 46    | 🍄 oceanplant     | 0.31          | leanmeister        | 2025-01-21 20:17:28 |
 | 47    | 🫙 jar            | 0.30          | hahppyy            | 2025-08-30 14:40:26 |
 | 48    | 🦑 squid          | 0.29          | peppyow            | 2025-03-03 16:51:46 |
@@ -111,4 +111,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-04-26 08:56:38 UTC_
+_Last updated at 2026-05-03 09:08:25 UTC_

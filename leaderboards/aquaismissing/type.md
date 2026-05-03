@@ -42,31 +42,31 @@
 | 38    | 💀 skull        | 9.10          | kam3l_        | 2025-07-12 17:03:52 |
 | 39    | 🪺 nestwitheggs | 8.55          | glorpiusbot   | 2026-04-02 17:38:22 |
 | 40    | 🪱 worm         | 8.50          | kaitechpl     | 2025-01-29 11:34:20 |
-| 41 🆕 | 🪹 emptynest    | 8.04          | glorpiusbot   | 2026-04-10 23:13:18 |
-| 42 ⬇  | 🦎 lizard       | 7.57          | bubinga       | 2025-09-24 07:03:29 |
-| 43 ⬇  | 🐸 frog         | 5.08          | giorping      | 2024-12-01 20:21:52 |
-| 44 ⬇  | 🎏 lure         | 4.91          | dom1torii     | 2025-12-12 04:51:11 |
-| 45 ⬇  | 🧃 beveragebox  | 4.42          | aquaismissing | 2025-06-04 09:00:50 |
-| 46 ⬇  | 🐚 shell        | 3.99          | aquaismissing | 2025-06-28 14:39:26 |
-| 47 ⬇  | ☘️ clover       | 3.98          | glorpiusbot   | 2026-01-05 15:05:34 |
-| 48 ⬇  | 🪝 hook         | 3.82          | sammevevo     | 2025-04-03 00:08:48 |
-| 49 ⬇  | 🌰 acorn        | 3.14          | glorpiusbot   | 2025-10-03 14:12:03 |
-| 50 ⬇  | ☂️ umbrella     | 2.65          | cute_ducc     | 2025-12-02 20:25:35 |
-| 51 ⬇  | 👢 boot         | 1.92          | respirate_    | 2025-12-01 23:45:00 |
-| 52 ⬇  | 🧦 socks        | 1.90          | velantix      | 2024-11-27 18:39:52 |
-| 53 ⬇  | 🩴 thongsandal  | 1.76          | kam3l_        | 2025-09-27 08:44:11 |
-| 54 ⬇  | 🥫 cannedfood   | 1.71          | yyaaaaaaaas   | 2024-12-28 18:16:47 |
-| 55 ⬇  | 🪀 bobber       | 1.56          | glorpiusbot   | 2026-03-25 00:53:43 |
-| 56 ⬇  | 🥪 sandwich     | 1.39          | ggmagician    | 2025-12-07 18:13:00 |
-| 57 ⬇  | 🩰 balletshoes  | 1.25          | delfino921    | 2025-02-22 23:48:09 |
-| 58 ⬇  | 🧤 gloves       | 0.98          | artibuhn      | 2025-11-09 17:41:43 |
-| 59 ⬇  | 🌿 seaweed      | 0.88          | smurfcat258   | 2025-05-14 21:25:22 |
-| 60 ⬇  | 🎱 8ball        | 0.74          | glorpiusbot   | 2025-12-22 01:06:01 |
-| 61 ⬇  | 🐦‍⬛ robin        | 0.51          | glorpiusbot   | 2026-04-01 00:35:37 |
-| 62 ⬇  | 📱 iphone       | 0.43          | glorpiusbot   | 2026-03-23 16:02:48 |
-| 63 ⬇  | 🧵 wireline     | 0.37          | glorpiusbot   | 2025-09-19 09:56:00 |
-| 64 ⬇  | 🕸️ spiderweb    | 0.32          | respirate_    | 2025-11-26 07:41:24 |
+| 41    | 🪹 emptynest    | 8.04          | glorpiusbot   | 2026-04-10 23:13:18 |
+| 42    | 🦎 lizard       | 7.57          | bubinga       | 2025-09-24 07:03:29 |
+| 43    | 🐸 frog         | 5.08          | giorping      | 2024-12-01 20:21:52 |
+| 44    | 🎏 lure         | 4.91          | dom1torii     | 2025-12-12 04:51:11 |
+| 45    | 🧃 beveragebox  | 4.42          | aquaismissing | 2025-06-04 09:00:50 |
+| 46    | 🐚 shell        | 3.99          | aquaismissing | 2025-06-28 14:39:26 |
+| 47    | ☘️ clover       | 3.98          | glorpiusbot   | 2026-01-05 15:05:34 |
+| 48    | 🪝 hook         | 3.82          | sammevevo     | 2025-04-03 00:08:48 |
+| 49    | 🌰 acorn        | 3.14          | glorpiusbot   | 2025-10-03 14:12:03 |
+| 50    | ☂️ umbrella     | 2.65          | cute_ducc     | 2025-12-02 20:25:35 |
+| 51 ⬆  | 🐦‍⬛ robin        | 2.01 (+1.50)  | glorpiusbot   | 2026-05-01 22:52:29 |
+| 52 ⬇  | 👢 boot         | 1.92          | respirate_    | 2025-12-01 23:45:00 |
+| 53 ⬇  | 🧦 socks        | 1.90          | velantix      | 2024-11-27 18:39:52 |
+| 54 ⬇  | 🩴 thongsandal  | 1.76          | kam3l_        | 2025-09-27 08:44:11 |
+| 55 ⬇  | 🥫 cannedfood   | 1.71          | yyaaaaaaaas   | 2024-12-28 18:16:47 |
+| 56 ⬇  | 🪀 bobber       | 1.56          | glorpiusbot   | 2026-03-25 00:53:43 |
+| 57 ⬇  | 🥪 sandwich     | 1.39          | ggmagician    | 2025-12-07 18:13:00 |
+| 58 ⬇  | 🩰 balletshoes  | 1.25          | delfino921    | 2025-02-22 23:48:09 |
+| 59 ⬇  | 🧤 gloves       | 0.98          | artibuhn      | 2025-11-09 17:41:43 |
+| 60 ⬇  | 🌿 seaweed      | 0.88          | smurfcat258   | 2025-05-14 21:25:22 |
+| 61 ⬇  | 🎱 8ball        | 0.74          | glorpiusbot   | 2025-12-22 01:06:01 |
+| 62    | 📱 iphone       | 0.43          | glorpiusbot   | 2026-03-23 16:02:48 |
+| 63    | 🧵 wireline     | 0.37          | glorpiusbot   | 2025-09-19 09:56:00 |
+| 64    | 🕸️ spiderweb    | 0.32          | respirate_    | 2025-11-26 07:41:24 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-04-12 09:11:11 UTC_
+_Last updated at 2026-05-03 09:09:07 UTC_

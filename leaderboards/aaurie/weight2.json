@@ -25,7 +25,7 @@
 		"fishid": 187454,
 		"chatid": 17,
 		"date": "2025-07-08T04:38:49Z",
-		"rank": 98
+		"rank": 99
 	},
 	"187458": {
 		"player": "abelito75",
@@ -109,7 +109,7 @@
 		"fishid": 187507,
 		"chatid": 70,
 		"date": "2025-07-14T05:47:40Z",
-		"rank": 97
+		"rank": 98
 	},
 	"188371": {
 		"player": "eldiabloskillet",
@@ -123,7 +123,7 @@
 		"fishid": 188371,
 		"chatid": 88,
 		"date": "2025-07-19T03:15:18Z",
-		"rank": 94
+		"rank": 95
 	},
 	"188383": {
 		"player": "preemalone",
@@ -207,7 +207,7 @@
 		"fishid": 192160,
 		"chatid": 200,
 		"date": "2025-08-08T03:02:43Z",
-		"rank": 91
+		"rank": 92
 	},
 	"193410": {
 		"player": "yaboieb27",
@@ -249,7 +249,7 @@
 		"fishid": 194288,
 		"chatid": 265,
 		"date": "2025-08-22T06:59:01Z",
-		"rank": 93
+		"rank": 94
 	},
 	"194724": {
 		"player": "jeffbethyname69",
@@ -585,7 +585,7 @@
 		"fishid": 206247,
 		"chatid": 798,
 		"date": "2025-04-15T00:42:43Z",
-		"rank": 95
+		"rank": 96
 	},
 	"206249": {
 		"player": "b00gie310",
@@ -739,7 +739,7 @@
 		"fishid": 206453,
 		"chatid": 1000,
 		"date": "2025-05-03T08:53:33Z",
-		"rank": 99
+		"rank": 100
 	},
 	"206454": {
 		"player": "guy_farting420",
@@ -839,20 +839,6 @@
 		"date": "2025-05-20T09:42:45Z",
 		"rank": 61
 	},
-	"206618": {
-		"player": "frostytangent",
-		"playerid": 4065,
-		"weight": 77.06,
-		"bot": "gofishgame",
-		"fishtype": "🐊",
-		"fishname": "crocodile",
-		"catchtype": "normal",
-		"chat": "aaurie",
-		"fishid": 206618,
-		"chatid": 1164,
-		"date": "2025-05-23T04:28:33Z",
-		"rank": 100
-	},
 	"206630": {
 		"player": "dolp_fin",
 		"playerid": 3839,
@@ -907,7 +893,7 @@
 		"fishid": 206714,
 		"chatid": 1257,
 		"date": "2025-06-02T03:03:48Z",
-		"rank": 92
+		"rank": 93
 	},
 	"206767": {
 		"player": "allspice_boatrace",
@@ -935,7 +921,7 @@
 		"fishid": 206772,
 		"chatid": 1315,
 		"date": "2025-06-10T05:18:43Z",
-		"rank": 96
+		"rank": 97
 	},
 	"206799": {
 		"player": "jeffbethyname69",
@@ -949,7 +935,7 @@
 		"fishid": 206799,
 		"chatid": 1342,
 		"date": "2025-06-13T06:52:51Z",
-		"rank": 90
+		"rank": 91
 	},
 	"206818": {
 		"player": "jeffbethyname69",
@@ -1229,7 +1215,7 @@
 		"fishid": 239622,
 		"chatid": 1715,
 		"date": "2026-02-09T04:09:38Z",
-		"rank": 89
+		"rank": 90
 	},
 	"240478": {
 		"player": "abelito75",
@@ -1398,5 +1384,19 @@
 		"chatid": 1962,
 		"date": "2026-04-24T05:14:54Z",
 		"rank": 31
+	},
+	"258847": {
+		"player": "mademooselle",
+		"playerid": 3998,
+		"weight": 84.32,
+		"bot": "gofishgame",
+		"fishtype": "🐢",
+		"fishname": "turtle",
+		"catchtype": "normal",
+		"chat": "aaurie",
+		"fishid": 258847,
+		"chatid": 1980,
+		"date": "2026-05-01T04:15:17Z",
+		"rank": 89
 	}
 }

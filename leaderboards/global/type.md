@@ -18,7 +18,7 @@
 | 14    | 🧞‍♂ genie           | 141.02        | lobuhtomy                 | 2024-07-07 07:59:30 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)           |
 | 15    | 🧜‍♀️ mermaid         | 139.02        | zwockel01                 | 2023-12-18 22:42:23 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)           |
 | 16    | 🦭 seal            | 134.99        | luneckie                  | 2026-01-01 07:51:54 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)           |
-| 17    | 🦪 oyster          | 131.94        | solahh__                  | 2024-12-29 14:45:52 | ![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)             |
+| 17    | 🦪 oyster          | 131.94        | solitahh                  | 2024-12-29 14:45:52 | ![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)             |
 | 18    | 🦞 lobster         | 126.55        | yopego                    | 2023-08-27 15:59:04 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 19    | 🧟 deadbody        | 119.89        | nndiana                   | 2026-02-27 17:30:40 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)             |
 | 20    | 🐬 dolphin         | 119.32        | nndiana                   | 2024-10-07 05:51:19 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)           |
@@ -129,4 +129,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-04-19 09:29:14 UTC_
+_Last updated at 2026-05-03 09:10:16 UTC_

@@ -26,26 +26,26 @@
 | 22    | 🕷️ spider       | 2.08          | likedom_      | 2024-12-11 01:52:38 |
 | 23    | 🐙 octopus      | 1.97          | respirate_    | 2025-11-21 03:34:05 |
 | 24    | 🪳 cockroach    | 1.90          | respirate_    | 2025-11-18 22:56:46 |
-| 25 ⬆  | 🐊 crocodile    | 1.77          | gigxbit       | 2025-12-07 18:13:12 |
-| 26 ⬆  | 🩴 thongsandal  | 1.76          | kam3l_        | 2025-09-27 08:44:11 |
-| 27 ⬆  | 🌰 acorn        | 1.66          | flovrek       | 2025-10-07 11:19:37 |
-| 28 ⬆  | 🐢 turtle       | 1.65          | glorpiusbot   | 2026-03-02 19:42:46 |
-| 29 ⬆  | 🐍 snake        | 1.29          | hibiki_x3     | 2025-09-18 12:34:26 |
-| 30 ⬆  | 🩰 balletshoes  | 1.25          | delfino921    | 2025-02-22 23:48:09 |
-| 30 ⬆  | 🪸 coral        | 1.25          | elisworm      | 2025-11-26 07:27:06 |
-| 32 ⬆  | 🪱 worm         | 1.23          | aistyrax3     | 2025-02-16 15:30:05 |
-| 33 ⬆  | 🍄 oceanplant   | 1.20          | helloimteto   | 2024-12-10 06:29:31 |
-| 34 ⬆  | 🎃 pumpkin      | 1.16          | respirate_    | 2025-11-26 08:12:21 |
-| 35 ⬆  | 🐡 blowfish     | 1.13          | stofeyxd      | 2025-06-06 14:14:23 |
-| 35 ⬆  | 🐌 snail        | 1.13          | likedom_      | 2024-11-26 16:48:58 |
-| 37 ⬇  | ☘️ clover       | 0.76 (-1.10)  | glorpiusbot   | 2026-04-23 23:11:29 |
-| 38    | 🥪 sandwich     | 0.71          | aquaismissing | 2024-12-02 05:35:34 |
-| 39    | 🦫 beaver       | 0.62          | glorpiusbot   | 2026-01-07 22:36:19 |
-| 40    | 🦠 plankton     | 0.60          | likedom_      | 2025-02-21 08:50:53 |
-| 41    | 🧸 teddybear    | 0.57          | respirate_    | 2025-11-20 06:00:10 |
-| 42    | 🐠 tropicalfish | 0.53          | stofeyxd      | 2025-05-05 09:19:54 |
-| 43    | 🦑 squid        | 0.52          | desxyne       | 2025-07-07 00:03:25 |
-| 44    | 🐦‍⬛ robin        | 0.51          | glorpiusbot   | 2026-04-01 00:35:37 |
+| 25    | 🐊 crocodile    | 1.77          | gigxbit       | 2025-12-07 18:13:12 |
+| 26    | 🩴 thongsandal  | 1.76          | kam3l_        | 2025-09-27 08:44:11 |
+| 27    | 🌰 acorn        | 1.66          | flovrek       | 2025-10-07 11:19:37 |
+| 28    | 🐢 turtle       | 1.65          | glorpiusbot   | 2026-03-02 19:42:46 |
+| 29    | 🐍 snake        | 1.29          | hibiki_x3     | 2025-09-18 12:34:26 |
+| 30    | 🩰 balletshoes  | 1.25          | delfino921    | 2025-02-22 23:48:09 |
+| 30    | 🪸 coral        | 1.25          | elisworm      | 2025-11-26 07:27:06 |
+| 32    | 🪱 worm         | 1.23          | aistyrax3     | 2025-02-16 15:30:05 |
+| 33    | 🍄 oceanplant   | 1.20          | helloimteto   | 2024-12-10 06:29:31 |
+| 34    | 🎃 pumpkin      | 1.16          | respirate_    | 2025-11-26 08:12:21 |
+| 35    | 🐡 blowfish     | 1.13          | stofeyxd      | 2025-06-06 14:14:23 |
+| 35    | 🐌 snail        | 1.13          | likedom_      | 2024-11-26 16:48:58 |
+| 37 ⬆  | 🥪 sandwich     | 0.71          | aquaismissing | 2024-12-02 05:35:34 |
+| 38 ⬆  | 🦫 beaver       | 0.62          | glorpiusbot   | 2026-01-07 22:36:19 |
+| 39 ⬆  | 🦠 plankton     | 0.60          | likedom_      | 2025-02-21 08:50:53 |
+| 40 ⬆  | 🧸 teddybear    | 0.57          | respirate_    | 2025-11-20 06:00:10 |
+| 41 ⬆  | 🐠 tropicalfish | 0.53          | stofeyxd      | 2025-05-05 09:19:54 |
+| 42 ⬆  | 🦑 squid        | 0.52          | desxyne       | 2025-07-07 00:03:25 |
+| 43 ⬆  | 🐦‍⬛ robin        | 0.51          | glorpiusbot   | 2026-04-01 00:35:37 |
+| 44 ⬇  | ☘️ clover       | 0.50 (-0.26)  | glorpiusbot   | 2026-05-02 21:28:20 |
 | 45    | 🪀 bobber       | 0.47          | glorpiusbot   | 2025-11-03 14:31:23 |
 | 46    | 👢 boot         | 0.45          | respirate_    | 2025-11-28 07:00:10 |
 | 47    | 🦦 otter        | 0.41          | cute_ducc     | 2026-01-14 19:12:18 |
@@ -69,4 +69,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-04-26 08:55:09 UTC_
+_Last updated at 2026-05-03 09:07:04 UTC_

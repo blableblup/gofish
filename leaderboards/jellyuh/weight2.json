@@ -11,7 +11,7 @@
 		"fishid": 150932,
 		"chatid": 30,
 		"date": "2024-12-28T03:12:36Z",
-		"rank": 92
+		"rank": 93
 	},
 	"150954": {
 		"player": "pompadourdelinquent",
@@ -81,7 +81,7 @@
 		"fishid": 151251,
 		"chatid": 126,
 		"date": "2025-01-26T03:04:32Z",
-		"rank": 95
+		"rank": 96
 	},
 	"151302": {
 		"player": "miyabwah",
@@ -151,7 +151,7 @@
 		"fishid": 151389,
 		"chatid": 234,
 		"date": "2025-02-08T03:39:02Z",
-		"rank": 98
+		"rank": 99
 	},
 	"151392": {
 		"player": "pompadourdelinquent",
@@ -305,7 +305,7 @@
 		"fishid": 151486,
 		"chatid": 314,
 		"date": "2025-02-18T15:36:51Z",
-		"rank": 97
+		"rank": 98
 	},
 	"151497": {
 		"player": "miyabwah",
@@ -362,20 +362,6 @@
 		"chatid": 387,
 		"date": "2025-02-25T04:19:19Z",
 		"rank": 30
-	},
-	"151593": {
-		"player": "miyabwah",
-		"playerid": 3604,
-		"weight": 84.23,
-		"bot": "gofishgame",
-		"fishtype": "🐊",
-		"fishname": "crocodile",
-		"catchtype": "normal",
-		"chat": "jellyuh",
-		"fishid": 151593,
-		"chatid": 416,
-		"date": "2025-02-27T04:01:01Z",
-		"rank": 99
 	},
 	"151594": {
 		"player": "cptblack_",
@@ -767,7 +753,7 @@
 		"fishid": 161447,
 		"chatid": 963,
 		"date": "2025-04-03T00:51:26Z",
-		"rank": 94
+		"rank": 95
 	},
 	"161756": {
 		"player": "miyabwah",
@@ -809,7 +795,7 @@
 		"fishid": 166146,
 		"chatid": 1049,
 		"date": "2025-04-15T04:59:35Z",
-		"rank": 87
+		"rank": 88
 	},
 	"166616": {
 		"player": "rainedparade",
@@ -935,7 +921,7 @@
 		"fishid": 171254,
 		"chatid": 1222,
 		"date": "2025-05-07T02:04:56Z",
-		"rank": 96
+		"rank": 97
 	},
 	"172841": {
 		"player": "rainedparade",
@@ -1033,7 +1019,7 @@
 		"fishid": 176557,
 		"chatid": 1401,
 		"date": "2025-05-29T03:41:40Z",
-		"rank": 99
+		"rank": 100
 	},
 	"176884": {
 		"player": "pompadourdelinquent",
@@ -1061,7 +1047,7 @@
 		"fishid": 177067,
 		"chatid": 1421,
 		"date": "2025-05-31T23:01:19Z",
-		"rank": 93
+		"rank": 94
 	},
 	"177325": {
 		"player": "miyabwah",
@@ -1089,7 +1075,7 @@
 		"fishid": 177582,
 		"chatid": 1437,
 		"date": "2025-06-04T07:05:23Z",
-		"rank": 90
+		"rank": 91
 	},
 	"177877": {
 		"player": "rainedparade",
@@ -1201,7 +1187,7 @@
 		"fishid": 193560,
 		"chatid": 1620,
 		"date": "2025-08-17T03:07:36Z",
-		"rank": 91
+		"rank": 92
 	},
 	"194484": {
 		"player": "teeto",
@@ -1257,7 +1243,7 @@
 		"fishid": 213736,
 		"chatid": 1696,
 		"date": "2025-11-05T17:03:02Z",
-		"rank": 88
+		"rank": 89
 	},
 	"229481": {
 		"player": "respirate_",
@@ -1341,7 +1327,7 @@
 		"fishid": 234121,
 		"chatid": 1765,
 		"date": "2026-01-16T20:43:37Z",
-		"rank": 89
+		"rank": 90
 	},
 	"240759": {
 		"player": "goopy777",
@@ -1398,5 +1384,19 @@
 		"chatid": 1862,
 		"date": "2026-04-11T09:58:31Z",
 		"rank": 38
+	},
+	"258477": {
+		"player": "jakthejanitor",
+		"playerid": 3821,
+		"weight": 93.27,
+		"bot": "gofishgame",
+		"fishtype": "🦈",
+		"fishname": "shark",
+		"catchtype": "normal",
+		"chat": "jellyuh",
+		"fishid": 258477,
+		"chatid": 1904,
+		"date": "2026-04-28T02:07:11Z",
+		"rank": 87
 	}
 }

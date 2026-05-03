@@ -1,34 +1,35 @@
 ### Biggest fish caught per player in aquaismissing's chat
 
-| Rank  | Player          | Fish         | Weight in lbs   | Date in UTC         |
-|:------|:----------------|:-------------|:----------------|:--------------------|
-| 1 🥇  | respirate_      | 🐳 bluewhale | 294.49          | 2025-12-02 04:57:18 |
-| 2 🥈  | velantix        | 🦕 sauropod  | 182.20          | 2025-07-03 10:41:32 |
-| 3 🥉  | bubinga         | 🐍 snake     | 180.80          | 2025-11-11 01:12:10 |
-| 4     | rustezzz        | 🐉 dragon    | 148.22          | 2025-07-02 14:14:26 |
-| 5 ⬆   | likedom_        | 🐊 crocodile | 144.89 (+10.33) | 2026-03-17 00:09:14 |
-| 6 ⬇   | desxyne         | 🐊 crocodile | 136.27          | 2025-10-31 13:33:34 |
-| 7 ⬇   | elisworm        | 🐋 whale     | 135.90          | 2025-11-26 02:46:03 |
-| 8     | poggu_          | 🦭 seal      | 129.15          | 2024-12-01 11:08:35 |
-| 9     | stofeyxd        | 🐢 turtle    | 127.58          | 2025-06-28 22:07:24 |
-| 10    | ranctious       | 🐙 octopus   | 113.24          | 2025-06-19 17:30:54 |
-| 11    | buck101_        | 🐊 crocodile | 111.01          | 2025-07-06 12:23:22 |
-| 12    | ggmagician      | 🪸 coral     | 98.94           | 2025-06-06 23:38:48 |
-| 13    | glorpiusbot     | 🐢 turtle    | 90.02           | 2026-01-02 20:51:21 |
-| 14    | vigilsync       | 🐳 bluewhale | 88.80           | 2025-02-23 19:30:19 |
-| 15    | ojack18         | 🐋 whale     | 82.22           | 2025-05-24 21:21:30 |
-| 16    | ievantee        | 🐋 whale     | 80.56           | 2025-07-04 00:00:47 |
-| 17    | dom1torii       | 🐊 crocodile | 80.34           | 2025-02-04 23:36:24 |
-| 18    | kaitechpl       | 🐊 crocodile | 79.42           | 2024-12-26 18:05:28 |
-| 19    | 3aphotp3        | 🐊 crocodile | 77.89           | 2024-12-02 23:41:17 |
-| 20    | aquaismissing   | 🐢 turtle    | 75.51           | 2024-11-29 17:43:11 |
-| 21    | flovrek         | 🐢 turtle    | 73.97           | 2025-10-29 03:04:09 |
-| 22    | aistyrax3       | 🦕 sauropod  | 73.83           | 2024-12-01 17:06:31 |
-| 23 🆕 | nuflux          | 🐙 octopus   | 59.93           | 2026-03-17 01:16:05 |
-| 24 ⬇  | tautautautautau | 🐢 turtle    | 59.69           | 2025-03-11 22:09:33 |
-| 25 ⬇  | sv_dea          | 🦞 lobster   | 58.02           | 2025-05-24 00:29:21 |
-| 26 ⬇  | beepisla        | 🦑 squid     | 50.31           | 2025-01-14 21:39:57 |
+| Rank  | Player           | Fish         | Weight in lbs | Date in UTC         |
+|:------|:-----------------|:-------------|:--------------|:--------------------|
+| 1 🥇  | respirate_       | 🐳 bluewhale | 294.49        | 2025-12-02 04:57:18 |
+| 2 🥈  | velantix         | 🦕 sauropod  | 182.20        | 2025-07-03 10:41:32 |
+| 3 🥉  | bubinga          | 🐍 snake     | 180.80        | 2025-11-11 01:12:10 |
+| 4     | rustezzz         | 🐉 dragon    | 148.22        | 2025-07-02 14:14:26 |
+| 5     | likedom_         | 🐊 crocodile | 144.89        | 2026-03-17 00:09:14 |
+| 6     | desxyne          | 🐊 crocodile | 136.27        | 2025-10-31 13:33:34 |
+| 7     | elisworm         | 🐋 whale     | 135.90        | 2025-11-26 02:46:03 |
+| 8     | poggu_           | 🦭 seal      | 129.15        | 2024-12-01 11:08:35 |
+| 9     | stofeyxd         | 🐢 turtle    | 127.58        | 2025-06-28 22:07:24 |
+| 10    | ranctious        | 🐙 octopus   | 113.24        | 2025-06-19 17:30:54 |
+| 11    | buck101_         | 🐊 crocodile | 111.01        | 2025-07-06 12:23:22 |
+| 12    | ggmagician       | 🪸 coral     | 98.94         | 2025-06-06 23:38:48 |
+| 13    | glorpiusbot      | 🐢 turtle    | 90.02         | 2026-01-02 20:51:21 |
+| 14    | vigilsync        | 🐳 bluewhale | 88.80         | 2025-02-23 19:30:19 |
+| 15    | ojack18          | 🐋 whale     | 82.22         | 2025-05-24 21:21:30 |
+| 16    | ievantee         | 🐋 whale     | 80.56         | 2025-07-04 00:00:47 |
+| 17    | dom1torii        | 🐊 crocodile | 80.34         | 2025-02-04 23:36:24 |
+| 18    | kaitechpl        | 🐊 crocodile | 79.42         | 2024-12-26 18:05:28 |
+| 19    | 3aphotp3         | 🐊 crocodile | 77.89         | 2024-12-02 23:41:17 |
+| 20    | aquaismissing    | 🐢 turtle    | 75.51         | 2024-11-29 17:43:11 |
+| 21    | flovrek          | 🐢 turtle    | 73.97         | 2025-10-29 03:04:09 |
+| 22    | aistyrax3        | 🦕 sauropod  | 73.83         | 2024-12-01 17:06:31 |
+| 23 🆕 | underpaidchatter | 🦑 squid     | 69.03         | 2026-05-01 22:52:23 |
+| 24 ⬇  | nuflux           | 🐙 octopus   | 59.93         | 2026-03-17 01:16:05 |
+| 25 ⬇  | tautautautautau  | 🐢 turtle    | 59.69         | 2025-03-11 22:09:33 |
+| 26 ⬇  | sv_dea           | 🦞 lobster   | 58.02         | 2025-05-24 00:29:21 |
+| 27 ⬇  | beepisla         | 🦑 squid     | 50.31         | 2025-01-14 21:39:57 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2026-03-22 11:13:40 UTC_
+_Last updated at 2026-05-03 09:06:54 UTC_

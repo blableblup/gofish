@@ -2,39 +2,39 @@
 
 | Rank | Fish              | Weight in lbs | Player            | Date in UTC         |
 |:-----|:------------------|:--------------|:------------------|:--------------------|
-| 76   | 🦀 crab           | 7.91          | amatusz           | 2026-04-25 06:35:46 |
-| 75   | 🦞 lobster        | 2.38          | honeytonguedbee   | 2026-04-25 04:11:15 |
-| 74   | 🎏 lure           | 0.18          | buffllo           | 2026-04-25 04:10:29 |
-| 73   | 🐟 fish           | 14.60         | goodtubbaa        | 2026-04-25 03:53:01 |
-| 72   | 🐳 bluewhale      | 22.17         | guy_farting420    | 2026-04-25 02:51:10 |
-| 71   | 🐍 snake          | 10.43         | abelito75         | 2026-04-25 01:28:45 |
-| 70   | 🐊 crocodile      | 140.64        | jeffbethyname69   | 2026-04-24 05:14:54 |
-| 69   | 🐠 tropicalfish   | 10.13         | abelito75         | 2026-04-24 03:15:23 |
-| 68   | 🌿 seaweed        | 0.67          | itsabbsx          | 2026-04-24 03:15:16 |
-| 67   | 🐚 shell          | 3.47          | b00gie310         | 2026-04-21 04:38:34 |
-| 66   | 🐡 blowfish       | 13.10         | munchysessions    | 2026-04-21 02:36:05 |
-| 65   | 🐸 frog           | 0.58          | aaurie            | 2026-04-21 01:11:29 |
-| 64   | 🧽 sponge         | 13.38         | amatusz           | 2026-04-20 03:41:06 |
-| 63   | 🪝 hook           | 0.58          | jonarboner        | 2026-04-20 03:19:09 |
-| 62   | 💀 skull          | 1.32          | amatusz           | 2026-04-20 02:42:07 |
-| 61   | 🪨 rock           | 46.46         | onetriforce       | 2026-04-18 01:40:58 |
-| 60   | 🧦 socks          | 1.07          | tonybaloney_1     | 2026-04-18 00:50:59 |
-| 59   | 🪀 bobber         | 0.00          | amatusz           | 2026-04-17 06:15:15 |
-| 58   | 🦪 oyster         | 3.96          | preemalone        | 2026-04-17 05:42:06 |
-| 57   | 🐋 whale          | 61.10         | a_purring_cat     | 2026-04-17 04:26:41 |
-| 56   | 🪳 cockroach      | 10.29         | preemalone        | 2026-04-17 04:26:38 |
-| 55   | 🐬 dolphin        | 86.00         | one_guy_123       | 2026-04-17 03:17:31 |
-| 54   | 🦑 squid          | 58.95         | jeffbethyname69   | 2026-04-13 04:15:29 |
-| 53   | 🐢 turtle         | 11.51         | amatusz           | 2026-04-13 01:41:31 |
-| 52   | 🗡️ dagger         | 42.05         | honeytonguedbee   | 2026-04-10 03:17:45 |
-| 51   | 🐌 snail          | 2.03          | victorvondoom313  | 2026-04-03 03:19:08 |
-| 50   | 🍄 oceanplant     | 4.77          | amatusz           | 2026-03-31 01:43:02 |
-| 49   | 🦠 plankton       | 12.05         | guy_farting420    | 2026-03-31 00:35:26 |
-| 48   | 🥫 cannedfood     | 1.34          | myuncledied       | 2026-03-30 04:16:44 |
-| 47   | 🦕 sauropod       | 203.35        | amatusz           | 2026-03-28 03:24:40 |
-| 46   | 🦐 shrimp         | 25.84         | amatusz           | 2026-03-24 04:04:00 |
-| 45   | 🐙 octopus        | 14.30         | abelito75         | 2026-03-21 01:19:19 |
-| 44   | 🪸 coral          | 7.63          | amatusz           | 2026-03-16 04:24:04 |
+| 76   | 🦀 crab           | 2.76          | springbean00      | 2026-05-02 05:31:01 |
+| 75   | 🐟 fish           | 0.99          | aaurie            | 2026-05-02 05:30:26 |
+| 74   | 🐳 bluewhale      | 18.22         | amatusz           | 2026-05-02 03:16:31 |
+| 73   | 🐠 tropicalfish   | 14.35         | abelito75         | 2026-05-02 03:14:54 |
+| 72   | 🎏 lure           | 2.40          | amatusz           | 2026-05-02 02:41:07 |
+| 71   | 🦐 shrimp         | 27.86         | amatusz           | 2026-05-01 05:14:10 |
+| 70   | 🪝 hook           | 0.90          | b00gie310         | 2026-05-01 04:15:30 |
+| 69   | 🐢 turtle         | 84.32         | mademooselle      | 2026-05-01 04:15:17 |
+| 68   | 🐡 blowfish       | 18.17         | abelito75         | 2026-05-01 04:08:39 |
+| 67   | 💀 skull          | 4.94          | guy_farting420    | 2026-04-28 02:00:33 |
+| 66   | 🪸 coral          | 18.97         | therealreplica    | 2026-04-27 02:42:34 |
+| 65   | 🦞 lobster        | 2.38          | honeytonguedbee   | 2026-04-25 04:11:15 |
+| 64   | 🐍 snake          | 10.43         | abelito75         | 2026-04-25 01:28:45 |
+| 63   | 🐊 crocodile      | 140.64        | jeffbethyname69   | 2026-04-24 05:14:54 |
+| 62   | 🌿 seaweed        | 0.67          | itsabbsx          | 2026-04-24 03:15:16 |
+| 61   | 🐚 shell          | 3.47          | b00gie310         | 2026-04-21 04:38:34 |
+| 60   | 🐸 frog           | 0.58          | aaurie            | 2026-04-21 01:11:29 |
+| 59   | 🧽 sponge         | 13.38         | amatusz           | 2026-04-20 03:41:06 |
+| 58   | 🪨 rock           | 46.46         | onetriforce       | 2026-04-18 01:40:58 |
+| 57   | 🧦 socks          | 1.07          | tonybaloney_1     | 2026-04-18 00:50:59 |
+| 56   | 🪀 bobber         | 0.00          | amatusz           | 2026-04-17 06:15:15 |
+| 55   | 🦪 oyster         | 3.96          | preemalone        | 2026-04-17 05:42:06 |
+| 54   | 🐋 whale          | 61.10         | a_purring_cat     | 2026-04-17 04:26:41 |
+| 53   | 🪳 cockroach      | 10.29         | preemalone        | 2026-04-17 04:26:38 |
+| 52   | 🐬 dolphin        | 86.00         | one_guy_123       | 2026-04-17 03:17:31 |
+| 51   | 🦑 squid          | 58.95         | jeffbethyname69   | 2026-04-13 04:15:29 |
+| 50   | 🗡️ dagger         | 42.05         | honeytonguedbee   | 2026-04-10 03:17:45 |
+| 49   | 🐌 snail          | 2.03          | victorvondoom313  | 2026-04-03 03:19:08 |
+| 48   | 🍄 oceanplant     | 4.77          | amatusz           | 2026-03-31 01:43:02 |
+| 47   | 🦠 plankton       | 12.05         | guy_farting420    | 2026-03-31 00:35:26 |
+| 46   | 🥫 cannedfood     | 1.34          | myuncledied       | 2026-03-30 04:16:44 |
+| 45   | 🦕 sauropod       | 203.35        | amatusz           | 2026-03-28 03:24:40 |
+| 44   | 🐙 octopus        | 14.30         | abelito75         | 2026-03-21 01:19:19 |
 | 43   | 🧤 gloves         | 0.20          | elusivehiggsboson | 2026-03-14 05:41:52 |
 | 42   | 🪱 worm           | 1.65          | victorvondoom313  | 2026-03-14 02:34:05 |
 | 41   | 👢 boot           | 1.08          | honeytonguedbee   | 2026-03-14 00:13:57 |
@@ -79,4 +79,4 @@
 | 2    | 🎱 8ball          | 2.22          | mademooselle      | 2025-04-01 04:29:50 |
 | 1    | 🧵 wireline       | 0.04          | nalls             | 2025-03-22 04:41:42 |
 
-_Last updated at 2026-04-26 08:54:53 UTC_
+_Last updated at 2026-05-03 09:08:35 UTC_
