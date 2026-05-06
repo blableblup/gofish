@@ -645,6 +645,29 @@
 			"checkfdata": true,
 			"board_enabled": false
 		},
+		"mangos4u": {
+			"twitchid": "197134952",
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2026/5"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2026/5"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/5"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2026/5"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
 		"miagooper": {
 			"twitchid": "422545773",
 			"logs_instances": [
