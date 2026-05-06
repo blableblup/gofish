@@ -34,7 +34,7 @@
 | 30    | receipts              | 56          |
 | 31    | bk207*                | 53          |
 | 32    | hmsmob*               | 52          |
-| 32    | kaasppeerr            | 52          |
+| 32    | michael_bay65         | 52          |
 | 34    | bapqo                 | 49          |
 | 35    | osnyatsky             | 47          |
 | 36    | paras220              | 46          |
@@ -62,4 +62,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2026-04-23 11:11:21 UTC_
+_Last updated at 2026-05-06 08:21:06 UTC_

@@ -76,7 +76,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 1,
 		"bronze": 1,
-		"rank": 13
+		"rank": 14
 	},
 	"3655": {
 		"player": "obama",
@@ -85,7 +85,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 1,
 		"bronze": 1,
-		"rank": 13
+		"rank": 14
 	},
 	"3717": {
 		"player": "redreignss",
@@ -100,10 +100,10 @@
 	"4151": {
 		"player": "proswift",
 		"playerid": 4151,
-		"weight": 33,
+		"weight": 35,
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 8,
-		"silver": 5,
+		"silver": 7,
 		"bronze": 8,
 		"rank": 6
 	},
@@ -114,7 +114,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 1,
 		"bronze": 1,
-		"rank": 13
+		"rank": 14
 	},
 	"4753": {
 		"player": "thespecialone22",
@@ -122,15 +122,16 @@
 		"weight": 1.5,
 		"date": "0001-01-01T00:00:00Z",
 		"bronze": 3,
-		"rank": 18
+		"rank": 19
 	},
 	"4793": {
 		"player": "ichezero",
 		"playerid": 4793,
-		"weight": 0.5,
+		"weight": 9.5,
 		"date": "0001-01-01T00:00:00Z",
+		"trophies": 3,
 		"bronze": 1,
-		"rank": 19
+		"rank": 12
 	},
 	"56": {
 		"player": "dazedforevermore",
@@ -158,7 +159,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"silver": 4,
 		"bronze": 4,
-		"rank": 12
+		"rank": 13
 	},
 	"756": {
 		"player": "pengeg",
@@ -167,7 +168,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"silver": 1,
 		"bronze": 2,
-		"rank": 17
+		"rank": 18
 	},
 	"785": {
 		"player": "yoimlee",
@@ -176,6 +177,6 @@
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 1,
 		"bronze": 1,
-		"rank": 13
+		"rank": 14
 	}
 }

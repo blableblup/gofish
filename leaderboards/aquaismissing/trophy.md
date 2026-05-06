@@ -2,8 +2,8 @@
 
 | Rank  | Player      | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points      |
 |:------|:------------|:------------|:-----------------|:-----------------|:------------|
-| 1 🥇  | bubinga     | 15 (+3)     | 0                | 0                | 45.0 (+9.0) |
-| 2 🥈  | glorpiusbot | 6           | 0                | 0                | 18.0        |
+| 1 🥇  | bubinga     | 15          | 3 (+3)           | 0                | 48.0 (+3.0) |
+| 2 🥈  | glorpiusbot | 9 (+3)      | 0                | 0                | 27.0 (+9.0) |
 | 3 🥉  | poggu_      | 3           | 0                | 0                | 9.0         |
 
-_Last updated at 2026-01-28 09:24:46 UTC_
+_Last updated at 2026-05-06 08:21:06 UTC_
