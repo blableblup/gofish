@@ -554,11 +554,9 @@ func AllTheDaysAPlayerFished(fishes []FishInfo, pool *pgxpool.Pool) ([]Dates, ma
 
 	var days []Dates
 
-	oneday := (time.Hour * 24)
-
 	// to store from which instance the fish came from
+	// to later check the raw logs page if needed
 	// it is []string since there are multiple instances for a chat
-	// this can add multiple urls from same instance for same day
 	playerURLs := make(map[time.Time][]string)
 
 	var highestDay, lowestDay, lastDay time.Time
@@ -566,26 +564,36 @@ func AllTheDaysAPlayerFished(fishes []FishInfo, pool *pgxpool.Pool) ([]Dates, ma
 
 	for _, fish := range fishes {
 
-		day := fish.Date.Truncate(oneday)
-		lastDay = day
+		year, month, day := fish.Date.Date()
 
-		if len(days) == 0 {
-			playerURLs[day] = append(playerURLs[day], fish.Url)
-			highestDay = day
-			lowestDay = day
+		var today time.Time
+
+		today = time.Date(year, month, day, 0, 0, 0, 0, time.UTC)
+
+		lastDay = today
+
+		if _, ok := playerURLs[today]; !ok {
+			playerURLs[today] = append(playerURLs[today], fish.Url)
 		} else {
-			if day.Before(lowestDay) {
-				lowestDay = day
-				playerURLs[day] = append(playerURLs[day], fish.Url)
-			}
-			if day.After(highestDay) {
-				highestDay = day
-				playerURLs[day] = append(playerURLs[day], fish.Url)
+			if !slices.Contains(playerURLs[today], fish.Url) {
+				playerURLs[today] = append(playerURLs[today], fish.Url)
 			}
 		}
 
+		if lowestDay.Equal(time.Time{}) {
+			lowestDay = today
+		}
+
+		if today.Before(lowestDay) {
+			lowestDay = today
+		}
+
+		if today.After(highestDay) {
+			highestDay = today
+		}
+
 		// if diff above 6 months; this could be a different player using that name
-		months, years, err := DiffBetweenTwoDates(day, lastDay, pool)
+		months, years, err := DiffBetweenTwoDates(today, lastDay, pool)
 		if err != nil {
 			return days, playerURLs, err
 		}
@@ -602,7 +610,7 @@ func AllTheDaysAPlayerFished(fishes []FishInfo, pool *pgxpool.Pool) ([]Dates, ma
 			days = append(days, newDays)
 
 			// reset the thing idk
-			highestDay, lowestDay = day, day
+			highestDay, lowestDay = today, today
 		}
 
 	}
