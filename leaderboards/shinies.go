@@ -123,6 +123,8 @@ func getShinies(params LeaderboardParams) (map[int]BoardData, error) {
 		}
 
 		result.ChatPfp = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/%s.png)", result.Chat, result.Chat)
+
+		result.FishTypeMouth = result.FishType // this is only so that i have just the name for the wrappeds bc those arent in markdown
 		result.FishType = fmt.Sprintf("![%s](https://raw.githubusercontent.com/blableblup/gofish/main/images/shiny/%s.png)", result.FishType, result.FishType)
 
 		Shinies[result.FishId] = result

@@ -60,7 +60,7 @@ func GetTheShiniesForWrappeds(params LeaderboardParams, Wrappeds map[int]*Wrappe
 			if fish.Date.Year() == yearInt {
 
 				rareFish := RareFish{
-					Fish:         fmt.Sprintf("%s shiny %s", fish.FishType, fish.FishName),
+					Fish:         fmt.Sprintf("%s shiny %s", fish.FishTypeMouth, fish.FishName),
 					CountYear:    shinyCountYear[fish.FishName],
 					CountAllTime: shinyCountAllTime[fish.FishName],
 				}
