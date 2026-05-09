@@ -64,7 +64,7 @@ func GetTheWrappeds(params LeaderboardParams, EmojisForFish map[string]string, v
 
 	// add shinies to rarest fish first
 	// this could mean, that someone caught a rarer fish than a shiny, but shiny will always show as rarest ? idk
-	Wrappeds, err = GetTheShiniesForWrappeds(params, Wrappeds, year)
+	Wrappeds, err = GetTheShiniesForWrappeds(params, Wrappeds)
 	if err != nil {
 		return Wrappeds, err
 	}

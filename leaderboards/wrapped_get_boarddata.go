@@ -4,10 +4,9 @@ import (
 	"fmt"
 	"gofish/logs"
 	"path/filepath"
-	"strconv"
 )
 
-func GetTheShiniesForWrappeds(params LeaderboardParams, Wrappeds map[int]*Wrapped, year string) (map[int]*Wrapped, error) {
+func GetTheShiniesForWrappeds(params LeaderboardParams, Wrappeds map[int]*Wrapped) (map[int]*Wrapped, error) {
 
 	Shinies, err := getShinies(params)
 	if err != nil {
@@ -29,16 +28,6 @@ func GetTheShiniesForWrappeds(params LeaderboardParams, Wrappeds map[int]*Wrappe
 		return Wrappeds, err
 	}
 
-	yearInt, err := strconv.Atoi(year)
-	if err != nil {
-		logs.Logs().Error().Err(err).
-			Str("Year", year).
-			Str("Chat", params.ChatName).
-			Str("Board", params.LeaderboardType).
-			Msg("Error converting year to int")
-		return Wrappeds, err
-	}
-
 	// count the shinies before doing this
 	shinyCountYear := make(map[string]int)
 
@@ -56,17 +45,14 @@ func GetTheShiniesForWrappeds(params LeaderboardParams, Wrappeds map[int]*Wrappe
 
 		if _, ok := Wrappeds[fish.PlayerID]; ok {
 
-			// check if this was in the year of the wrapped
-			if fish.Date.Year() == yearInt {
-
-				rareFish := RareFish{
-					Fish:         fmt.Sprintf("%s shiny %s", fish.FishTypeMouth, fish.FishName),
-					CountYear:    shinyCountYear[fish.FishName],
-					CountAllTime: shinyCountAllTime[fish.FishName],
-				}
-
-				Wrappeds[fish.PlayerID].RarestFish = append(Wrappeds[fish.PlayerID].RarestFish, rareFish)
+			rareFish := RareFish{
+				Fish:         fmt.Sprintf("%s shiny %s", fish.FishTypeMouth, fish.FishName),
+				CountYear:    shinyCountYear[fish.FishName],
+				CountAllTime: shinyCountAllTime[fish.FishName],
 			}
+
+			Wrappeds[fish.PlayerID].RarestFish = append(Wrappeds[fish.PlayerID].RarestFish, rareFish)
+
 		}
 	}
 
