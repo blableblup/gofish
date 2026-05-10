@@ -26,81 +26,81 @@
 | 22    | hahppyy               | 🐳 bluewhale | 250.89        | 2025-05-01 10:14:23 |
 | 23    | julialuxel            | 🦑 squid     | 244.54        | 2025-01-05 23:54:25 |
 | 24    | bubinga               | 🐳 bluewhale | 244.45        | 2024-11-02 12:59:08 |
-| 25    | hahppyy               | 🦑 squid     | 243.45        | 2025-01-11 13:10:54 |
-| 26    | leastsussyimposter    | 🐍 snake     | 240.52        | 2025-01-26 23:13:55 |
-| 27    | divra__               | 🦕 sauropod  | 240.28        | 2024-11-08 13:15:47 |
-| 28    | hahppyy               | 🦕 sauropod  | 239.32        | 2025-10-09 18:04:18 |
-| 29    | thetaxmen             | 🐉 dragon    | 239.00        | 2024-12-14 14:30:50 |
-| 30    | hahppyy               | 🦕 sauropod  | 237.22        | 2025-03-04 20:48:04 |
-| 31    | vaiastol              | 🐍 snake     | 236.36        | 2025-02-21 19:34:43 |
-| 32    | julialuxel            | 🐻‍❄ polarbear | 236.12        | 2024-12-30 06:35:55 |
-| 33    | hahppyy               | 🦑 squid     | 235.62        | 2025-01-17 14:06:34 |
-| 34    | leastsussyimposter    | 🦕 sauropod  | 235.21        | 2024-11-25 12:13:47 |
-| 35    | yoimlee               | 🦕 sauropod  | 235.13        | 2024-11-21 19:43:07 |
-| 36    | hahppyy               | 🦕 sauropod  | 234.55        | 2025-05-14 15:53:26 |
-| 37    | redreignss            | 🐳 bluewhale | 234.33        | 2025-06-20 04:11:17 |
-| 38    | dazedforevermore      | 🦑 squid     | 233.11        | 2025-01-07 00:43:06 |
-| 39    | hahppyy               | 🦕 sauropod  | 229.07        | 2025-03-31 22:18:26 |
-| 40    | vaiastol              | 🦕 sauropod  | 227.13        | 2025-03-11 07:27:57 |
-| 41    | narwhaiv              | 🐉 dragon    | 226.94        | 2025-03-26 22:53:29 |
-| 42    | divra__               | 🐳 bluewhale | 224.88        | 2024-10-31 02:27:31 |
-| 43    | mitgliederversammlung | 🐍 snake     | 224.83        | 2025-01-12 20:19:13 |
-| 44    | hahppyy               | 🦕 sauropod  | 223.54        | 2025-05-06 19:21:29 |
-| 45    | vaiastol              | 🦕 sauropod  | 223.03        | 2024-09-09 21:44:19 |
-| 46    | vaiastol              | 🦑 squid     | 222.05        | 2025-01-13 08:43:13 |
-| 47    | pengeg                | 🐉 dragon    | 216.34        | 2024-11-18 15:58:35 |
-| 48    | leanmeister           | 🐳 bluewhale | 214.82        | 2025-07-05 16:41:01 |
-| 49    | vaiastol              | 🐉 dragon    | 214.26        | 2024-08-21 23:20:14 |
-| 50    | hahppyy               | 🦕 sauropod  | 211.89        | 2024-12-15 16:41:55 |
-| 51    | hahppyy               | 🦑 squid     | 210.18        | 2025-01-06 22:47:51 |
-| 52    | leastsussyimposter    | 🦈 shark     | 210.14        | 2025-02-15 02:35:23 |
-| 53    | pengeg                | 🐻‍❄ polarbear | 209.67        | 2024-12-29 14:58:32 |
-| 54    | hahppyy               | 🐳 bluewhale | 204.55        | 2025-01-19 23:38:20 |
-| 55    | eelacy                | 🐳 bluewhale | 203.88        | 2025-02-20 15:58:41 |
-| 56    | redreignss            | 🦕 sauropod  | 203.74        | 2025-07-12 00:46:09 |
-| 57    | garout                | 🐍 snake     | 203.11        | 2025-12-11 16:15:01 |
-| 58    | narwhaiv              | 🐳 bluewhale | 202.21        | 2025-03-09 18:43:14 |
-| 59    | pengeg                | 🦈 shark     | 201.75        | 2024-11-16 06:57:21 |
-| 60    | narwhaiv              | 🦕 sauropod  | 199.45        | 2025-02-24 23:32:19 |
-| 61    | vaiastol              | 🐳 bluewhale | 198.46        | 2025-01-17 18:58:39 |
-| 62    | hahppyy               | 🐳 bluewhale | 197.94        | 2026-04-19 13:26:57 |
-| 63    | julialuxel            | 🦈 shark     | 197.30        | 2024-12-30 02:48:42 |
-| 64    | hahppyy               | 🦈 shark     | 194.63        | 2025-02-24 18:10:17 |
-| 65    | divra__               | 🦈 shark     | 194.10        | 2024-10-27 22:51:42 |
-| 66    | vaiastol              | 🐳 bluewhale | 193.14        | 2025-01-17 12:12:12 |
-| 67    | hahppyy               | 🦈 shark     | 192.96        | 2025-09-27 18:32:53 |
-| 68    | hahppyy               | 🐳 bluewhale | 192.64        | 2025-04-05 14:18:10 |
-| 69    | hahppyy               | 🐳 bluewhale | 191.77        | 2025-01-26 00:27:07 |
-| 70    | milesdotcom           | 🐳 bluewhale | 190.38        | 2024-10-10 11:59:46 |
-| 71    | leastsussyimposter    | 🦈 shark     | 190.32        | 2026-01-26 13:21:21 |
-| 72    | narwhaiv              | 🦈 shark     | 190.08        | 2025-05-15 22:07:31 |
-| 73    | narwhaiv              | 🦈 shark     | 189.41        | 2025-03-17 23:55:45 |
-| 74    | vaiastol              | 🐳 bluewhale | 188.07        | 2024-12-26 03:07:54 |
-| 75    | leastsussyimposter    | 🐉 dragon    | 188.04        | 2025-07-05 13:04:01 |
-| 76    | vaiastol              | 🦈 shark     | 187.96        | 2024-12-27 16:07:24 |
-| 77    | divra__               | 🦈 shark     | 187.88        | 2025-09-03 18:32:53 |
-| 78    | leanmeister           | 🦑 squid     | 187.11        | 2025-01-03 16:05:07 |
-| 79    | vaiastol              | 🦑 squid     | 186.48        | 2025-01-10 13:26:31 |
-| 80    | garout                | 🦕 sauropod  | 186.01        | 2025-07-10 13:09:01 |
-| 81    | garout                | 🦕 sauropod  | 185.65        | 2025-11-08 19:48:13 |
-| 82    | dazedforevermore      | 🐍 snake     | 185.15        | 2025-01-25 22:16:14 |
-| 83    | hahppyy               | 🦈 shark     | 182.33        | 2024-11-23 19:32:40 |
-| 84    | hahppyy               | 🦕 sauropod  | 181.90        | 2024-11-06 10:47:37 |
-| 85    | garout                | 🐳 bluewhale | 181.32        | 2025-12-03 14:42:37 |
-| 85    | hahppyy               | 🦕 sauropod  | 181.32        | 2025-04-29 20:54:26 |
-| 87    | vaiastol              | 🐍 snake     | 181.08        | 2025-02-08 04:38:07 |
-| 88    | vaiastol              | 🦈 shark     | 180.69        | 2024-12-27 08:42:33 |
-| 89 🆕 | ichezero              | 🐳 bluewhale | 180.31        | 2026-05-02 11:41:04 |
-| 90 ⬇  | hahppyy               | 🦕 sauropod  | 180.06        | 2025-03-03 16:43:50 |
-| 91 ⬇  | julialuxel            | 🐻‍❄ polarbear | 177.02        | 2024-12-26 06:20:30 |
-| 92 ⬇  | ichezero              | 🦈 shark     | 176.83        | 2026-04-23 13:21:54 |
-| 93 ⬇  | hahppyy               | 🦕 sauropod  | 173.60        | 2026-04-17 23:50:42 |
-| 94 ⬇  | divra__               | 🦈 shark     | 172.82        | 2024-10-12 17:51:16 |
-| 95 ⬇  | hahppyy               | 🐉 dragon    | 172.45        | 2026-04-18 13:15:41 |
-| 96 ⬇  | garout                | 🦈 shark     | 172.34        | 2025-07-18 16:36:06 |
-| 97 ⬇  | vaiastol              | 🐳 bluewhale | 169.42        | 2024-12-30 18:38:31 |
-| 98 ⬇  | vaiastol              | 🐍 snake     | 169.36        | 2025-02-02 18:50:19 |
-| 99 ⬇  | hahppyy               | 🦕 sauropod  | 167.85        | 2024-12-12 15:35:50 |
-| 100 ⬇ | leanmeister           | 🐳 bluewhale | 167.25        | 2025-06-01 19:43:39 |
+| 25 🆕 | proswift              | 🦕 sauropod  | 243.47        | 2026-05-07 17:54:04 |
+| 26 ⬇  | hahppyy               | 🦑 squid     | 243.45        | 2025-01-11 13:10:54 |
+| 27 ⬇  | leastsussyimposter    | 🐍 snake     | 240.52        | 2025-01-26 23:13:55 |
+| 28 ⬇  | divra__               | 🦕 sauropod  | 240.28        | 2024-11-08 13:15:47 |
+| 29 ⬇  | hahppyy               | 🦕 sauropod  | 239.32        | 2025-10-09 18:04:18 |
+| 30 ⬇  | thetaxmen             | 🐉 dragon    | 239.00        | 2024-12-14 14:30:50 |
+| 31 ⬇  | hahppyy               | 🦕 sauropod  | 237.22        | 2025-03-04 20:48:04 |
+| 32 ⬇  | vaiastol              | 🐍 snake     | 236.36        | 2025-02-21 19:34:43 |
+| 33 ⬇  | julialuxel            | 🐻‍❄️ polarbear | 236.12        | 2024-12-30 06:35:55 |
+| 34 ⬇  | hahppyy               | 🦑 squid     | 235.62        | 2025-01-17 14:06:34 |
+| 35 ⬇  | leastsussyimposter    | 🦕 sauropod  | 235.21        | 2024-11-25 12:13:47 |
+| 36 ⬇  | yoimlee               | 🦕 sauropod  | 235.13        | 2024-11-21 19:43:07 |
+| 37 ⬇  | hahppyy               | 🦕 sauropod  | 234.55        | 2025-05-14 15:53:26 |
+| 38 ⬇  | redreignss            | 🐳 bluewhale | 234.33        | 2025-06-20 04:11:17 |
+| 39 ⬇  | dazedforevermore      | 🦑 squid     | 233.11        | 2025-01-07 00:43:06 |
+| 40 ⬇  | hahppyy               | 🦕 sauropod  | 229.07        | 2025-03-31 22:18:26 |
+| 41 ⬇  | vaiastol              | 🦕 sauropod  | 227.13        | 2025-03-11 07:27:57 |
+| 42 ⬇  | nicestnarwhal         | 🐉 dragon    | 226.94        | 2025-03-26 22:53:29 |
+| 43 ⬇  | divra__               | 🐳 bluewhale | 224.88        | 2024-10-31 02:27:31 |
+| 44 ⬇  | mitgliederversammlung | 🐍 snake     | 224.83        | 2025-01-12 20:19:13 |
+| 45 🆕 | ichezero              | 🐳 bluewhale | 224.00        | 2026-05-06 13:55:11 |
+| 46 ⬇  | hahppyy               | 🦕 sauropod  | 223.54        | 2025-05-06 19:21:29 |
+| 47 ⬇  | vaiastol              | 🦕 sauropod  | 223.03        | 2024-09-09 21:44:19 |
+| 48 ⬇  | vaiastol              | 🦑 squid     | 222.05        | 2025-01-13 08:43:13 |
+| 49 ⬇  | pengeg                | 🐉 dragon    | 216.34        | 2024-11-18 15:58:35 |
+| 50 ⬇  | leanmeister           | 🐳 bluewhale | 214.82        | 2025-07-05 16:41:01 |
+| 51 ⬇  | vaiastol              | 🐉 dragon    | 214.26        | 2024-08-21 23:20:14 |
+| 52 ⬇  | hahppyy               | 🦕 sauropod  | 211.89        | 2024-12-15 16:41:55 |
+| 53 ⬇  | hahppyy               | 🦑 squid     | 210.18        | 2025-01-06 22:47:51 |
+| 54 ⬇  | leastsussyimposter    | 🦈 shark     | 210.14        | 2025-02-15 02:35:23 |
+| 55 ⬇  | pengeg                | 🐻‍❄️ polarbear | 209.67        | 2024-12-29 14:58:32 |
+| 56 ⬇  | hahppyy               | 🐳 bluewhale | 204.55        | 2025-01-19 23:38:20 |
+| 57 ⬇  | eelacy                | 🐳 bluewhale | 203.88        | 2025-02-20 15:58:41 |
+| 58 ⬇  | redreignss            | 🦕 sauropod  | 203.74        | 2025-07-12 00:46:09 |
+| 59 ⬇  | garout                | 🐍 snake     | 203.11        | 2025-12-11 16:15:01 |
+| 60 ⬇  | nicestnarwhal         | 🐳 bluewhale | 202.21        | 2025-03-09 18:43:14 |
+| 61 ⬇  | pengeg                | 🦈 shark     | 201.75        | 2024-11-16 06:57:21 |
+| 62 ⬇  | nicestnarwhal         | 🦕 sauropod  | 199.45        | 2025-02-24 23:32:19 |
+| 63 ⬇  | vaiastol              | 🐳 bluewhale | 198.46        | 2025-01-17 18:58:39 |
+| 64 ⬇  | hahppyy               | 🐳 bluewhale | 197.94        | 2026-04-19 13:26:57 |
+| 65 ⬇  | julialuxel            | 🦈 shark     | 197.30        | 2024-12-30 02:48:42 |
+| 66 ⬇  | hahppyy               | 🦈 shark     | 194.63        | 2025-02-24 18:10:17 |
+| 67 ⬇  | divra__               | 🦈 shark     | 194.10        | 2024-10-27 22:51:42 |
+| 68 ⬇  | vaiastol              | 🐳 bluewhale | 193.14        | 2025-01-17 12:12:12 |
+| 69 ⬇  | hahppyy               | 🦈 shark     | 192.96        | 2025-09-27 18:32:53 |
+| 70 ⬇  | hahppyy               | 🐳 bluewhale | 192.64        | 2025-04-05 14:18:10 |
+| 71 ⬇  | hahppyy               | 🐳 bluewhale | 191.77        | 2025-01-26 00:27:07 |
+| 72 ⬇  | milesdotcom           | 🐳 bluewhale | 190.38        | 2024-10-10 11:59:46 |
+| 73 ⬇  | leastsussyimposter    | 🦈 shark     | 190.32        | 2026-01-26 13:21:21 |
+| 74 ⬇  | nicestnarwhal         | 🦈 shark     | 190.08        | 2025-05-15 22:07:31 |
+| 75 ⬇  | nicestnarwhal         | 🦈 shark     | 189.41        | 2025-03-17 23:55:45 |
+| 76 ⬇  | vaiastol              | 🐳 bluewhale | 188.07        | 2024-12-26 03:07:54 |
+| 77 ⬇  | leastsussyimposter    | 🐉 dragon    | 188.04        | 2025-07-05 13:04:01 |
+| 78 ⬇  | vaiastol              | 🦈 shark     | 187.96        | 2024-12-27 16:07:24 |
+| 79 ⬇  | divra__               | 🦈 shark     | 187.88        | 2025-09-03 18:32:53 |
+| 80 ⬇  | leanmeister           | 🦑 squid     | 187.11        | 2025-01-03 16:05:07 |
+| 81 ⬇  | vaiastol              | 🦑 squid     | 186.48        | 2025-01-10 13:26:31 |
+| 82 ⬇  | garout                | 🦕 sauropod  | 186.01        | 2025-07-10 13:09:01 |
+| 83 ⬇  | garout                | 🦕 sauropod  | 185.65        | 2025-11-08 19:48:13 |
+| 84 ⬇  | dazedforevermore      | 🐍 snake     | 185.15        | 2025-01-25 22:16:14 |
+| 85 ⬇  | hahppyy               | 🦈 shark     | 182.33        | 2024-11-23 19:32:40 |
+| 86 ⬇  | hahppyy               | 🦕 sauropod  | 181.90        | 2024-11-06 10:47:37 |
+| 87 ⬇  | garout                | 🐳 bluewhale | 181.32        | 2025-12-03 14:42:37 |
+| 87 ⬇  | hahppyy               | 🦕 sauropod  | 181.32        | 2025-04-29 20:54:26 |
+| 89 ⬇  | vaiastol              | 🐍 snake     | 181.08        | 2025-02-08 04:38:07 |
+| 90 ⬇  | vaiastol              | 🦈 shark     | 180.69        | 2024-12-27 08:42:33 |
+| 91 ⬇  | ichezero              | 🐳 bluewhale | 180.31        | 2026-05-02 11:41:04 |
+| 92 ⬇  | hahppyy               | 🦕 sauropod  | 180.06        | 2025-03-03 16:43:50 |
+| 93 ⬇  | julialuxel            | 🐻‍❄️ polarbear | 177.02        | 2024-12-26 06:20:30 |
+| 94 ⬇  | ichezero              | 🦈 shark     | 176.83        | 2026-04-23 13:21:54 |
+| 95 ⬇  | hahppyy               | 🦕 sauropod  | 173.60        | 2026-04-17 23:50:42 |
+| 96 ⬇  | divra__               | 🦈 shark     | 172.82        | 2024-10-12 17:51:16 |
+| 97 ⬇  | hahppyy               | 🐉 dragon    | 172.45        | 2026-04-18 13:15:41 |
+| 98 ⬇  | garout                | 🦈 shark     | 172.34        | 2025-07-18 16:36:06 |
+| 99 ⬇  | vaiastol              | 🐳 bluewhale | 169.42        | 2024-12-30 18:38:31 |
+| 100 ⬇ | vaiastol              | 🐍 snake     | 169.36        | 2025-02-02 18:50:19 |
 
-_Last updated at 2026-05-03 09:08:33 UTC_
+_Last updated at 2026-05-10 08:55:50 UTC_

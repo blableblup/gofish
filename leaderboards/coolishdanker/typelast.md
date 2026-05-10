@@ -38,4 +38,4 @@
 | 2    | 🦦 otter        | 17.09         | kidnamedzan       | 2025-01-18 21:29:05 |
 | 1    | 🐳 bluewhale    | 8.92          | turkld            | 2025-01-18 18:50:12 |
 
-_Last updated at 2026-01-11 10:24:33 UTC_
+_Last updated at 2026-05-10 08:59:13 UTC_

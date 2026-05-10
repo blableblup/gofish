@@ -47,7 +47,7 @@
 | 86   | 👑 crown           | 38.38         | nndiana                   | 2025-03-13 14:06:01 |
 | 85   | 🌷 tulip           | 2.64          | huuuuuuuuuuuuuuuuuuuuuurz | 2025-03-13 10:58:21 |
 | 84   | 🗡️ dagger          | 0.86          | wowitsdub                 | 2025-03-02 12:20:28 |
-| 83   | 🧞‍♂ genie           | 1.10          | eeziiii                   | 2025-02-16 11:13:46 |
+| 83   | 🧞‍♂️ genie           | 1.10          | eeziiii                   | 2025-02-16 11:13:46 |
 | 82   | 🦆 duck            | 6.86          | flovrek                   | 2025-02-01 23:34:30 |
 | 81   | 🍄‍🟫 mushroom        | 11.42         | theevirus                 | 2025-01-05 16:58:16 |
 | 80   | 🪚 icesaw          | 0.60          | bubinga                   | 2025-01-03 14:20:33 |
@@ -64,8 +64,8 @@
 | 69   | 🧣 scarf           | 0.65          | ocrw                      | 2024-12-23 20:39:13 |
 | 68   | 🐧 penguin         | 15.79         | mazzo_tv                  | 2024-12-23 19:19:06 |
 | 67   | ⛸️ iceskate        | 1.07          | wowitsdub                 | 2024-12-23 17:31:49 |
-| 66   | 🧭 compass         | 1.09          | crtted                    | 2024-12-23 16:27:50 |
-| 65   | 🐻‍❄ polarbear       | 0.65          | bubinga                   | 2024-12-23 15:40:15 |
+| 66   | 🧭 compass         | 1.09          | yvhsu                     | 2024-12-23 16:27:50 |
+| 65   | 🐻‍❄️ polarbear       | 0.65          | bubinga                   | 2024-12-23 15:40:15 |
 | 64   | 🐀 rat             | 30.71         | jr_mime                   | 2024-12-23 14:09:01 |
 | 63   | 🐿️ squirrel        | 0.00          | lobuhtomy                 | 2024-12-21 20:01:28 |
 | 62   | 🎰 slotmachine     | 0.00          | thetaxmen                 | 2024-12-21 17:35:55 |
@@ -93,7 +93,7 @@
 | 40   | 🐡 blowfish        | 10.92         | ratot                     | 2024-12-15 13:26:57 |
 | 39   | 🍬 candy           | 0.00          | bubinga                   | 2024-12-15 12:33:04 |
 | 38   | 🪱 worm            | 0.06          | huuuuuuuuuuuuuuuuuuuuuurz | 2024-12-15 10:50:19 |
-| 37   | 🍄 oceanplant      | 9.60          | crtted                    | 2024-12-15 10:13:32 |
+| 37   | 🍄 oceanplant      | 9.60          | yvhsu                     | 2024-12-15 10:13:32 |
 | 36   | 🥪 sandwich        | 1.34          | theevirus                 | 2024-12-15 04:54:07 |
 | 35   | 🦭 seal            | 47.76         | nndiana                   | 2024-12-15 04:16:02 |
 | 34   | 👒 hat             | 11.04         | finalmorningstar          | 2024-12-15 02:23:05 |
@@ -131,4 +131,4 @@
 | 2    | 🪝 hook            | 1.91          | commanda_u                | 2024-12-14 15:55:38 |
 | 1    | 🐚 shell           | 3.49          | jukkii                    | 2024-12-14 15:55:11 |
 
-_Last updated at 2026-02-15 10:02:31 UTC_
+_Last updated at 2026-05-10 08:59:15 UTC_

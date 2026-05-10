@@ -3,10 +3,10 @@
 | Rank  | Fish               | Weight in lbs | Player                | Date in UTC         |
 |:------|:-------------------|:--------------|:----------------------|:--------------------|
 | 1 🥇  | 🫎 moose           | 48.74         | derintu               | 2025-03-16 14:42:36 |
-| 2 🥈  | 🐻‍❄ polarbear       | 14.96         | derintu               | 2025-03-25 15:00:46 |
+| 2 🥈  | 🐻‍❄️ polarbear       | 14.96         | derintu               | 2025-03-25 15:00:46 |
 | 3 🥉  | 🛢️ oildrum         | 13.36         | islcfc                | 2024-07-12 03:25:59 |
 | 4     | 🛒 shoppingcart    | 9.38          | esvelles              | 2025-12-26 10:29:24 |
-| 5     | 🧞‍♂ genie           | 3.22          | osnyatsky             | 2024-02-11 00:58:17 |
+| 5     | 🧞‍♂️ genie           | 3.22          | osnyatsky             | 2024-02-11 00:58:17 |
 | 6     | 🦉 owl             | 3.20          | dougiefresh_83        | 2025-04-12 07:16:46 |
 | 7     | 🐀 rat             | 3.13          | derinturitierutz      | 2025-09-19 07:25:43 |
 | 8     | 👑 crown           | 3.10          | osnyatsky*            | 2023-06-12 13:09:46 |
@@ -16,15 +16,15 @@
 | 12    | 🐈‍⬛ blackcat        | 1.84          | cimgu                 | 2025-12-13 14:59:41 |
 | 13    | 🧴 sunscreenbottle | 1.40          | fishingalt            | 2025-08-26 18:53:00 |
 | 14    | 🧋 bobacup         | 1.03          | derinturitierutz      | 2025-08-25 16:20:37 |
-| 15 ⬆  | 🦂 scorpion        | 0.92          | fishingalt            | 2025-08-28 08:12:44 |
-| 16 ⬆  | 🍱 tacklebox       | 0.81          | fishingalt            | 2025-11-04 13:24:20 |
-| 17 ⬆  | 🍇 crowberries     | 0.79          | derinturitierutz      | 2025-06-23 19:30:00 |
-| 18 ⬆  | 🧟 deadbody        | 0.57          | destin357             | 2025-08-18 07:29:39 |
-| 19 ⬆  | 🗡️ dagger          | 0.56          | respirate_            | 2024-08-26 22:03:27 |
-| 20 ⬆  | 🦆 duck            | 0.48          | osnyatsky*            | 2023-07-25 17:55:46 |
-| 21 ⬆  | 🪲 beetle          | 0.47          | qu4ttromila           | 2025-06-25 10:39:09 |
-| 22 ⬆  | 🎰 slotmachine     | 0.42          | leanmeister           | 2025-04-17 00:15:18 |
-| 23 ⬇  | 🐉 dragon          | 0.29 (-0.65)  | ytp_dl                | 2026-04-30 09:11:12 |
+| 15    | 🦂 scorpion        | 0.92          | fishingalt            | 2025-08-28 08:12:44 |
+| 16    | 🍱 tacklebox       | 0.81          | fishingalt            | 2025-11-04 13:24:20 |
+| 17    | 🍇 crowberries     | 0.79          | derinturitierutz      | 2025-06-23 19:30:00 |
+| 18    | 🧟 deadbody        | 0.57          | destin357             | 2025-08-18 07:29:39 |
+| 19    | 🗡️ dagger          | 0.56          | respirate_            | 2024-08-26 22:03:27 |
+| 20    | 🦆 duck            | 0.48          | osnyatsky*            | 2023-07-25 17:55:46 |
+| 21    | 🪲 beetle          | 0.47          | qu4ttromila           | 2025-06-25 10:39:09 |
+| 22    | 🎰 slotmachine     | 0.42          | leanmeister           | 2025-04-17 00:15:18 |
+| 23    | 🐉 dragon          | 0.29          | ytp_dl                | 2026-04-30 09:11:12 |
 | 24    | 🪿 goose           | 0.28          | fishingalt            | 2026-01-01 09:54:57 |
 | 24    | 🍄‍🟫 mushroom        | 0.28          | osnyisdead            | 2025-01-14 02:54:02 |
 | 26    | 🐳 bluewhale       | 0.27          | esvelles              | 2026-01-13 12:03:33 |
@@ -84,7 +84,7 @@
 | 75    | 🐦 cardinal        | 0.01          | fishingalt            | 2026-04-24 13:00:55 |
 | 75    | 🐛 caterpillar     | 0.01          | derintu               | 2025-06-24 21:22:17 |
 | 75    | ☘️ clover          | 0.01          | qu4ttromila           | 2024-03-28 02:40:02 |
-| 75    | 🧤 gloves          | 0.01          | kmskildo*             | 2022-12-29 22:46:59 |
+| 75    | 🧤 gloves          | 0.01          | kildofris*            | 2022-12-29 22:46:59 |
 | 75    | 🧊 icecube         | 0.01          | lluuucy               | 2025-01-30 14:21:23 |
 | 75    | 📱 iphone          | 0.01          | crazytown_bananapants | 2024-09-25 02:15:32 |
 | 75    | 🫙 jar             | 0.01          | derinturitierutz      | 2025-08-30 11:34:29 |
@@ -101,7 +101,7 @@
 | 97    | 🌰 acorn           | 0.00          | lluuucy               | 2024-10-05 13:50:17 |
 | 97    | 🍬 candy           | 0.00          | desoarer              | 2024-09-25 12:07:14 |
 | 97    | 🪳 cockroach       | 0.00          | derintu               | 2025-04-14 10:52:33 |
-| 97    | 🦀 crab            | 0.00          | kmskildo*             | 2022-12-14 15:37:51 |
+| 97    | 🦀 crab            | 0.00          | kildofris*            | 2022-12-14 15:37:51 |
 | 97    | 🍃 deadleaves      | 0.00          | cutsekai              | 2026-03-11 15:23:17 |
 | 97    | 🪶 feather         | 0.00          | kishma9               | 2023-08-18 06:48:14 |
 | 97    | 🐟 fish            | 0.00          | islcfc*               | 2023-02-05 00:08:54 |
@@ -114,7 +114,7 @@
 | 97    | 🐞 ladybug         | 0.00          | breadworms            | 2025-08-28 16:18:03 |
 | 97    | 🍁 leaf            | 0.00          | qu4ttromila           | 2025-11-01 12:08:32 |
 | 97    | 🪵 log             | 0.00          | derinturitierutz      | 2023-10-13 22:37:34 |
-| 97    | 🎏 lure            | 0.00          | kmskildo*             | 2022-12-13 00:44:33 |
+| 97    | 🎏 lure            | 0.00          | kildofris*            | 2022-12-13 00:44:33 |
 | 97    | 🌹 rose            | 0.00          | lluuucy               | 2025-09-27 16:07:57 |
 | 97    | 🌿 seaweed         | 0.00          | qu4ttromila           | 2023-06-02 16:21:39 |
 | 97    | 🐚 shell           | 0.00          | trident1011           | 2023-03-05 11:18:03 |
@@ -128,4 +128,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-05-03 09:07:52 UTC_
+_Last updated at 2026-05-10 08:56:04 UTC_

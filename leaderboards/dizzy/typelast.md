@@ -104,12 +104,12 @@
 | 10   | 🎁 present        | 0.00          | anothercull     | 2025-01-15 01:31:08 |
 | 9    | 🥀 wiltedflower   | 2.28          | simplydrack     | 2025-01-06 17:07:07 |
 | 8    | 🛒 shoppingcart   | 56.52         | buhl00n         | 2025-01-02 17:13:58 |
-| 7    | 🐻‍❄ polarbear      | 65.33         | ofaisalz        | 2024-12-31 17:15:21 |
+| 7    | 🐻‍❄️ polarbear      | 65.33         | ofaisalz        | 2024-12-31 17:15:21 |
 | 6    | 🧣 scarf          | 0.58          | buhl00n         | 2024-12-27 22:00:05 |
 | 5    | 🧭 compass        | 2.22          | ofaisalz        | 2024-12-25 20:19:01 |
 | 4    | 🍊 orange         | 0.00          | youngstercal    | 2024-12-24 16:41:23 |
 | 3    | 🔔 bell           | 0.00          | youngstercal    | 2024-12-22 14:44:17 |
 | 2    | 👑 crown          | 30.94         | glorp_fishing   | 2024-12-12 21:16:52 |
-| 1    | 🧞‍♂ genie          | 17.60         | feuha           | 2024-11-01 09:40:30 |
+| 1    | 🧞‍♂️ genie          | 17.60         | feuha           | 2024-11-01 09:40:30 |
 
-_Last updated at 2026-04-26 08:54:53 UTC_
+_Last updated at 2026-05-10 08:59:13 UTC_

@@ -27,12 +27,12 @@
 | 23    | 🧽 sponge         | 14.81         | druidvhs           | 2024-10-15 19:38:19 |
 | 24    | 🍄 oceanplant     | 14.62         | grumpo_            | 2024-10-31 14:02:46 |
 | 25    | 🎃 pumpkin        | 14.23         | respirate_         | 2025-11-04 23:59:10 |
-| 26    | 🕶️ darksunglasses | 11.83         | sosweetstar_vthree | 2024-10-24 19:00:50 |
+| 26    | 🕶️ darksunglasses | 11.83         | a_suika_           | 2024-10-24 19:00:50 |
 | 27    | 🕷️ spider         | 11.16         | kr1nxx_            | 2024-11-07 14:21:14 |
 | 28    | 🪹 emptynest      | 9.14          | bubinga            | 2024-10-15 12:55:27 |
 | 29    | 🐌 snail          | 8.69          | mxrio41            | 2024-10-26 07:39:22 |
 | 30    | 🦎 lizard         | 7.36          | yopego             | 2024-10-05 21:04:41 |
-| 31    | 💀 skull          | 6.47          | sosweetstar_vthree | 2024-10-30 22:22:49 |
+| 31    | 💀 skull          | 6.47          | a_suika_           | 2024-10-30 22:22:49 |
 | 32    | 🦀 crab           | 5.43          | mxrio41            | 2024-10-07 19:21:27 |
 | 33    | 🩲 briefs         | 5.27          | maurz__            | 2024-10-29 19:17:15 |
 | 34    | 🐸 frog           | 4.84          | xx_sn1perpro420_xx | 2024-11-03 09:53:04 |
@@ -53,4 +53,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-12-28 10:41:08 UTC_
+_Last updated at 2026-05-10 08:58:27 UTC_

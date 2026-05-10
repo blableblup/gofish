@@ -38,4 +38,4 @@
 | 2    | 💀 skull          | 1.40          | xriggby    | 2024-09-17 01:01:37 |
 | 1    | 🐢 turtle         | 31.45         | breadworms | 2024-09-17 01:01:32 |
 
-_Last updated at 2026-01-11 10:26:13 UTC_
+_Last updated at 2026-05-10 08:59:15 UTC_

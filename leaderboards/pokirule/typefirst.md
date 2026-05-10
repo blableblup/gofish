@@ -8,7 +8,7 @@
 | 46   | 🧃 beveragebox  | 10.04         | larvaew     | 2025-06-12 04:24:59 |
 | 45   | 👢 boot         | 1.76          | osnyatsky   | 2025-01-06 19:54:33 |
 | 44   | 🥫 cannedfood   | 4.34          | osnyisdead  | 2025-01-02 00:49:39 |
-| 43   | ⛸️ iceskate      | 0.25          | osnyisdead  | 2025-01-02 00:18:53 |
+| 43   | ⛸️ iceskate     | 0.25          | osnyisdead  | 2025-01-02 00:18:53 |
 | 42   | 🦈 shark        | 119.03        | osnyisdead  | 2024-12-26 23:32:18 |
 | 41   | 🐳 bluewhale    | 13.99         | osnyisdead  | 2024-12-26 12:55:00 |
 | 40   | 🦭 seal         | 59.77         | osnyisdead  | 2024-12-25 21:50:50 |
@@ -22,7 +22,7 @@
 | 32   | 🍬 candy        | 0.22          | osnyisdead  | 2024-12-23 13:13:40 |
 | 31   | 🥀 wiltedflower | 0.56          | osnyisdead  | 2024-12-23 02:34:52 |
 | 30   | 🪀 bobber       | 0.00          | osnyisdead  | 2024-12-22 13:27:32 |
-| 29   | ☘️ clover        | 0.65          | osnyisdead  | 2024-12-22 01:12:55 |
+| 29   | ☘️ clover       | 0.65          | osnyisdead  | 2024-12-22 01:12:55 |
 | 28   | 🪹 emptynest    | 4.04          | osnyisdead  | 2024-12-22 00:23:36 |
 | 27   | 🪺 nestwitheggs | 9.38          | osnyisdead  | 2024-12-21 04:31:32 |
 | 26   | 🐢 turtle       | 9.49          | osnyisdead  | 2024-12-21 03:47:03 |
@@ -37,7 +37,7 @@
 | 17   | 🪳 cockroach    | 0.04          | osnyisdead  | 2024-11-11 17:21:09 |
 | 16   | 🦪 oyster       | 22.10         | osnyisdead  | 2024-11-07 18:02:49 |
 | 15   | 🧤 gloves       | 0.36          | osnyisdead  | 2024-11-07 14:56:08 |
-| 14   | ☂️ umbrella      | 2.43          | osnyisdead  | 2024-10-31 18:58:16 |
+| 14   | ☂️ umbrella     | 2.43          | osnyisdead  | 2024-10-31 18:58:16 |
 | 13   | 🐚 shell        | 2.29          | osnyisdead  | 2024-10-28 17:32:06 |
 | 12   | 🐊 crocodile    | 32.16         | osnyisdead  | 2024-10-24 19:52:27 |
 | 11   | 🐬 dolphin      | 26.79         | osnyisdead  | 2024-10-02 00:50:04 |
@@ -52,4 +52,4 @@
 | 2    | 🐟 fish         | 18.70         | osnyisdead  | 2024-10-01 00:57:38 |
 | 1    | 🐸 frog         | 4.68          | osnyisdead  | 2024-09-30 22:45:01 |
 
-_Last updated at 2025-12-21 10:08:30 UTC_
+_Last updated at 2026-05-10 08:59:15 UTC_

@@ -25,7 +25,7 @@
 | 21    | 🪳 cockroach      | 21.55         | respirate_  | 2025-11-09 05:07:03 |
 | 22    | 🎃 pumpkin        | 21.50         | respirate_  | 2025-11-04 18:00:05 |
 | 23    | 🕷️ spider         | 19.94         | kohrro      | 2025-12-12 00:20:48 |
-| 24    | 🐠 tropicalfish   | 19.31         | shpeelerin* | 2023-09-11 14:04:53 |
+| 24    | 🐠 tropicalfish   | 19.31         | shpeeli*    | 2023-09-11 14:04:53 |
 | 25    | 🗡️ dagger         | 13.93         | kohrro      | 2024-09-09 15:45:49 |
 | 26    | 🕶️ darksunglasses | 12.16         | larvaew     | 2024-06-05 20:25:47 |
 | 27    | 🦆 duck           | 10.39         | kohrro      | 2024-09-03 14:58:44 |
@@ -71,4 +71,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-01-11 10:27:47 UTC_
+_Last updated at 2026-05-10 08:58:57 UTC_

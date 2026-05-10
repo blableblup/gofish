@@ -19,7 +19,7 @@
 | 15    | ssenario       | 171         |
 | 16    | tairaaaaa      | 170         |
 | 17    | mousee93       | 167         |
-| 18    | kyonuwu        | 148 (+1)    |
+| 18    | kyonuwu        | 148         |
 | 19    | sugur          | 138         |
 | 20    | exo9*          | 136         |
 | 21    | burnend        | 133         |
@@ -31,7 +31,7 @@
 | 27    | feuha          | 77          |
 | 28    | gofishgamer    | 72          |
 | 29    | icejamx        | 69          |
-| 30    | silent11d5     | 65          |
+| 30    | exit8like      | 65          |
 | 31    | respirate_     | 63          |
 | 31    | whoop_ee       | 63          |
 | 33    | 777pancake     | 62          |
@@ -56,4 +56,4 @@
 
 _Only showing fishers who caught >= 30 fish_
 
-_Last updated at 2026-04-26 08:58:29 UTC_
+_Last updated at 2026-05-10 08:55:48 UTC_

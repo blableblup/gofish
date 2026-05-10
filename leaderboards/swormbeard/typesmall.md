@@ -60,21 +60,21 @@
 | 56    | 🌾 grass          | 0.18          | derinturitierutz      | 2025-03-18 09:12:59 |
 | 56    | 🪝 hook           | 0.18          | leanmeister           | 2024-11-27 18:49:59 |
 | 58    | 🎏 lure           | 0.17          | pinksynthesis29       | 2026-02-22 22:00:26 |
-| 59 ⬆  | 🐸 frog           | 0.14          | kishma9               | 2025-03-15 16:26:23 |
-| 60 ⬆  | 🧦 socks          | 0.11          | larvaew               | 2024-11-01 20:23:07 |
-| 61 ⬆  | 🦐 shrimp         | 0.10          | fvkdylan              | 2025-03-14 22:17:46 |
-| 62 ⬆  | 🌹 rose           | 0.09          | derintu               | 2025-10-14 17:29:39 |
-| 63 ⬆  | 🐍 snake          | 0.07          | lluuucy               | 2024-11-04 21:26:38 |
-| 64 ⬆  | 🕸️ spiderweb      | 0.06          | respirate_            | 2025-08-29 17:16:52 |
-| 65 ⬆  | 🦋 butterfly      | 0.03          | derintu               | 2025-08-29 20:53:43 |
-| 65 ⬆  | 🪸 coral          | 0.03          | lluuucy               | 2025-12-02 18:07:24 |
-| 65 ⬆  | 🍁 leaf           | 0.03          | derintu               | 2025-10-12 16:58:08 |
-| 68 ⬆  | 🌰 acorn          | 0.01          | lluuucy               | 2024-11-30 18:15:35 |
-| 68 ⬆  | ☘️ clover         | 0.01          | leanmeister           | 2024-11-15 22:59:26 |
-| 68 ⬇  | 🌿 seaweed        | 0.01 (-0.14)  | derintu               | 2026-03-25 20:58:44 |
-| 68 ⬆  | 🐚 shell          | 0.01          | respirate_            | 2024-09-02 20:16:01 |
-| 68 ⬆  | 🌷 tulip          | 0.01          | derinturitierutz      | 2025-03-16 16:56:15 |
+| 59    | 🐸 frog           | 0.14          | kishma9               | 2025-03-15 16:26:23 |
+| 60    | 🧦 socks          | 0.11          | larvaew               | 2024-11-01 20:23:07 |
+| 61    | 🦐 shrimp         | 0.10          | fvkdylan              | 2025-03-14 22:17:46 |
+| 62    | 🌹 rose           | 0.09          | derintu               | 2025-10-14 17:29:39 |
+| 63    | 🐍 snake          | 0.07          | lluuucy               | 2024-11-04 21:26:38 |
+| 64    | 🕸️ spiderweb      | 0.06          | respirate_            | 2025-08-29 17:16:52 |
+| 65    | 🦋 butterfly      | 0.03          | derintu               | 2025-08-29 20:53:43 |
+| 65    | 🪸 coral          | 0.03          | lluuucy               | 2025-12-02 18:07:24 |
+| 65    | 🍁 leaf           | 0.03          | derintu               | 2025-10-12 16:58:08 |
+| 68    | 🌰 acorn          | 0.01          | lluuucy               | 2024-11-30 18:15:35 |
+| 68    | ☘️ clover         | 0.01          | leanmeister           | 2024-11-15 22:59:26 |
+| 68    | 🌿 seaweed        | 0.01          | derintu               | 2026-03-25 20:58:44 |
+| 68    | 🐚 shell          | 0.01          | respirate_            | 2024-09-02 20:16:01 |
+| 68    | 🌷 tulip          | 0.01          | derinturitierutz      | 2025-03-16 16:56:15 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-03-29 10:27:39 UTC_
+_Last updated at 2026-05-10 08:56:52 UTC_

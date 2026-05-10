@@ -10,7 +10,7 @@
 | 6     | 🐙 octopus        | 17.45         | kr1nxx_            | 2024-10-31 19:53:45 |
 | 7     | 🧽 sponge         | 14.81         | druidvhs           | 2024-10-15 19:38:19 |
 | 8     | 🍄 oceanplant     | 14.62         | grumpo_            | 2024-10-31 14:02:46 |
-| 9     | 🕶️ darksunglasses | 11.83         | sosweetstar_vthree | 2024-10-24 19:00:50 |
+| 9     | 🕶️ darksunglasses | 11.83         | a_suika_           | 2024-10-24 19:00:50 |
 | 10    | 🐡 blowfish       | 10.90         | xx_sn1perpro420_xx | 2024-10-28 14:11:29 |
 | 11    | 🗡️ dagger         | 9.48          | xx_sn1perpro420_xx | 2024-10-30 08:57:18 |
 | 12    | 🪹 emptynest      | 9.14          | bubinga            | 2024-10-15 12:55:27 |
@@ -29,7 +29,7 @@
 | 25    | 🍬 candy          | 1.50          | gofishgamer        | 2025-11-04 00:47:24 |
 | 26    | 💀 skull          | 1.27          | mxrio41            | 2024-10-15 19:47:50 |
 | 27    | 🦀 crab           | 1.24          | mxrio41            | 2024-10-25 21:25:36 |
-| 28    | 🐌 snail          | 0.99          | sosweetstar_vthree | 2024-10-25 06:09:55 |
+| 28    | 🐌 snail          | 0.99          | a_suika_           | 2024-10-25 06:09:55 |
 | 29    | 🌿 seaweed        | 0.98          | sequally           | 2024-11-03 07:22:33 |
 | 30    | 🎃 pumpkin        | 0.85          | gofishgamer        | 2025-11-04 23:33:18 |
 | 31    | 🐸 frog           | 0.83          | gizei_             | 2025-03-03 15:39:07 |
@@ -53,4 +53,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2025-12-28 10:39:47 UTC_
+_Last updated at 2026-05-10 08:57:04 UTC_

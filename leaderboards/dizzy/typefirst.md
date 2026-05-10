@@ -30,7 +30,7 @@
 | 84   | 🍄‍🟫 mushroom       | 20.04         | buhl00n          | 2025-01-05 17:28:41 |
 | 83   | 🛒 shoppingcart   | 15.28         | buhl00n          | 2025-01-01 13:00:22 |
 | 82   | 🧣 scarf          | 0.75          | exo9             | 2024-12-25 05:19:42 |
-| 81   | 🐻‍❄ polarbear      | 210.50        | lolspers         | 2024-12-24 23:02:22 |
+| 81   | 🐻‍❄️ polarbear      | 210.50        | lolspers         | 2024-12-24 23:02:22 |
 | 80   | 🍊 orange         | 0.00          | ofaisalz         | 2024-12-24 13:51:21 |
 | 78   | 🎀 wrappingpaper  | 0.00          | glorp_fishing    | 2024-12-24 10:59:00 |
 | 78   | 🍪 cookie         | 0.00          | glorp_fishing    | 2024-12-24 10:59:00 |
@@ -47,14 +47,14 @@
 | 67   | 👑 crown          | 23.44         | simplydrack      | 2024-11-02 11:32:08 |
 | 66   | 🦭 seal           | 54.88         | gimmeschmoneys   | 2024-11-02 10:48:32 |
 | 65   | 🧤 gloves         | 0.17          | vagdy            | 2024-11-02 09:44:37 |
-| 64   | 🧊 icecube        | 8.82          | silent11d5       | 2024-11-02 09:13:20 |
+| 64   | 🧊 icecube        | 8.82          | exit8like        | 2024-11-02 09:13:20 |
 | 63   | 🧸 teddybear      | 9.41          | iam_haunt        | 2024-11-02 07:17:33 |
 | 62   | 🦠 plankton       | 2.22          | spanmer          | 2024-11-01 07:45:27 |
 | 61   | 🍄 oceanplant     | 11.81         | buhl00n          | 2024-10-31 08:36:18 |
 | 60   | 👟 sneaker        | 1.91          | rabituwu         | 2024-10-31 07:41:07 |
 | 59   | 🦦 otter          | 16.42         | reallyxtra       | 2024-10-31 06:55:44 |
 | 58   | 🪱 worm           | 2.28          | paperboat99      | 2024-10-31 05:15:29 |
-| 57   | 🧞‍♂ genie          | 21.31         | zommie__         | 2024-10-29 22:15:10 |
+| 57   | 🧞‍♂️ genie          | 21.31         | zommie__         | 2024-10-29 22:15:10 |
 | 56   | 🪵 log            | 6.89          | spanmer          | 2024-10-27 23:24:15 |
 | 55   | 🎰 slotmachine    | 0.00          | rabituwu         | 2024-10-27 02:15:05 |
 | 54   | ☘️ clover         | 0.93          | flunke_          | 2024-10-25 19:46:41 |
@@ -70,7 +70,7 @@
 | 44   | 🕶️ darksunglasses | 9.87          | gimmeschmoneys   | 2024-10-22 11:25:00 |
 | 43   | 🥒 seacucumber    | 3.26          | vagdy            | 2024-10-22 08:42:14 |
 | 42   | 🩴 thongsandal    | 1.15          | ssenario         | 2024-10-22 06:23:52 |
-| 41   | 🐳 bluewhale      | 56.98         | silent11d5       | 2024-10-22 05:18:07 |
+| 41   | 🐳 bluewhale      | 56.98         | exit8like        | 2024-10-22 05:18:07 |
 | 40   | 🪶 feather        | 0.70          | squishyuh        | 2024-10-21 19:23:19 |
 | 39   | 🪳 cockroach      | 10.50         | benskeletor      | 2024-10-21 15:42:01 |
 | 38   | 🦈 shark          | 32.16         | 0_bpm            | 2024-10-21 07:50:26 |
@@ -89,7 +89,7 @@
 | 25   | 🪀 bobber         | 0.00          | gofishgamer      | 2024-10-21 03:50:41 |
 | 24   | 🐙 octopus        | 0.32          | icejamx          | 2024-10-21 02:11:08 |
 | 23   | 🦫 beaver         | 35.45         | gofishgamer      | 2024-10-21 01:29:18 |
-| 22   | 🕷️ spider         | 7.44          | aevidtv          | 2024-10-21 01:11:47 |
+| 22   | 🕷️ spider         | 7.44          | aevidd           | 2024-10-21 01:11:47 |
 | 21   | 🦆 duck           | 1.35          | respirate_       | 2024-10-21 01:04:03 |
 | 20   | 🐬 dolphin        | 17.27         | mitsu_skidz      | 2024-10-21 00:39:13 |
 | 19   | 🐢 turtle         | 25.60         | gofishgamer      | 2024-10-21 00:14:14 |
@@ -112,4 +112,4 @@
 | 2    | 🪝 hook           | 0.40          | lolspers         | 2024-10-20 21:13:11 |
 | 1    | 🎏 lure           | 0.16          | burnend          | 2024-10-20 21:13:00 |
 
-_Last updated at 2026-03-15 09:23:29 UTC_
+_Last updated at 2026-05-10 08:59:15 UTC_

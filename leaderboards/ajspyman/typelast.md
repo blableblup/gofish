@@ -45,9 +45,9 @@
 | 44   | 🐬 dolphin       | 58.58         | acornpond   | 2025-12-23 07:51:57 |
 | 43   | 🦑 squid         | 102.87        | acornpond   | 2025-12-23 06:32:16 |
 | 38   | 🍪 cookie        | 0.00          | elisworm    | 2025-12-18 03:56:48 |
-| 38   | ✉️ letter        | 0.00          | elisworm    | 2025-12-18 03:56:48 |
 | 38   | 🌰 acorn         | 0.00          | elisworm    | 2025-12-18 03:56:48 |
 | 38   | 🎀 wrappingpaper | 0.00          | elisworm    | 2025-12-18 03:56:48 |
+| 38   | ✉️ letter        | 0.00          | elisworm    | 2025-12-18 03:56:48 |
 | 38   | 🕯️ candle        | 0.00          | elisworm    | 2025-12-18 03:56:48 |
 | 37   | 🐀 rat           | 5.95          | gofishgames | 2025-12-16 03:33:42 |
 | 36   | 🐿️ squirrel      | 0.00          | gofishgames | 2025-12-15 21:33:08 |
@@ -87,4 +87,4 @@
 | 2    | 🥒 seacucumber   | 29.13         | elisworm    | 2025-08-25 00:42:18 |
 | 1    | 🧽 sponge        | 8.21          | ajspyman    | 2024-06-02 12:34:25 |
 
-_Last updated at 2026-04-05 09:53:53 UTC_
+_Last updated at 2026-05-10 08:59:13 UTC_

@@ -6,7 +6,7 @@
 | 2 🥈  | buhl00n                   | 🐳 bluewhale | 291.32        | 2024-12-09 16:08:37 |
 | 3 🥉  | buhl00n                   | 🦑 squid     | 279.78        | 2024-12-26 12:22:49 |
 | 4     | nolifeben1                | 🐳 bluewhale | 278.01        | 2024-12-24 23:18:00 |
-| 5     | buhl00n                   | 🐻‍❄ polarbear | 276.78        | 2024-12-25 12:19:46 |
+| 5     | buhl00n                   | 🐻‍❄️ polarbear | 276.78        | 2024-12-25 12:19:46 |
 | 6     | nolifeben1                | 🐳 bluewhale | 274.09        | 2024-12-12 00:23:24 |
 | 7     | buhl00n                   | 🦑 squid     | 270.23        | 2024-12-27 06:46:44 |
 | 8     | lolspers                  | 🦑 squid     | 270.13        | 2024-12-25 20:13:51 |
@@ -42,7 +42,7 @@
 | 38    | buhl00n                   | 🐍 snake     | 220.89        | 2024-11-04 14:33:02 |
 | 39    | buhl00n                   | 🦕 sauropod  | 220.87        | 2025-08-03 17:00:25 |
 | 40    | mousee93                  | 🐳 bluewhale | 220.61        | 2025-07-22 12:09:42 |
-| 41    | exo9                      | 🐻‍❄ polarbear | 219.84        | 2024-12-25 00:52:42 |
+| 41    | exo9                      | 🐻‍❄️ polarbear | 219.84        | 2024-12-25 00:52:42 |
 | 42    | konsminator               | 🐉 dragon    | 218.80        | 2024-11-10 14:00:47 |
 | 43    | buhl00n                   | 🦑 squid     | 218.12        | 2025-02-15 23:51:49 |
 | 44    | glorp_fishing             | 🦑 squid     | 217.28        | 2025-05-28 02:13:44 |
@@ -54,13 +54,13 @@
 | 50    | iam_haunt                 | 🦈 shark     | 211.46        | 2024-11-20 10:31:09 |
 | 51    | buhl00n                   | 🦕 sauropod  | 210.55        | 2024-11-08 22:45:37 |
 | 52    | glorp_fishing             | 🐍 snake     | 210.50        | 2024-12-15 08:04:17 |
-| 52    | lolspers                  | 🐻‍❄ polarbear | 210.50        | 2024-12-24 23:02:22 |
+| 52    | lolspers                  | 🐻‍❄️ polarbear | 210.50        | 2024-12-24 23:02:22 |
 | 54    | gimmeschmoneys            | 🦑 squid     | 210.35        | 2025-04-20 01:21:29 |
 | 55    | nolifeben1                | 🐉 dragon    | 210.27        | 2025-02-15 18:51:35 |
 | 56    | kyonuwu                   | 🦈 shark     | 210.09        | 2025-12-02 21:48:52 |
 | 57    | gizbart                   | 🦕 sauropod  | 208.53        | 2024-11-01 01:13:48 |
 | 58    | glorp_fishing             | 🐉 dragon    | 208.47        | 2025-02-16 19:52:25 |
-| 59    | glorp_fishing             | 🐻‍❄ polarbear | 208.29        | 2024-12-25 08:00:14 |
+| 59    | glorp_fishing             | 🐻‍❄️ polarbear | 208.29        | 2024-12-25 08:00:14 |
 | 60    | gigi                      | 🐳 bluewhale | 206.37        | 2024-11-09 20:55:03 |
 | 61    | gimmeschmoneys            | 🦈 shark     | 205.27        | 2024-11-05 18:36:34 |
 | 62    | spanmer                   | 🦕 sauropod  | 204.23        | 2024-11-27 03:51:27 |
@@ -88,7 +88,7 @@
 | 84    | qxxick_                   | 🦈 shark     | 188.42        | 2024-10-23 07:37:26 |
 | 85    | lolspers                  | 🦈 shark     | 188.32        | 2025-06-28 15:05:56 |
 | 86    | glorp_fishing             | 🐉 dragon    | 188.07        | 2024-12-20 13:43:47 |
-| 87    | silent11d5                | 🦈 shark     | 187.91        | 2024-10-27 00:37:28 |
+| 87    | exit8like                 | 🦈 shark     | 187.91        | 2024-10-27 00:37:28 |
 | 88    | paperboat99               | 🐉 dragon    | 186.46        | 2024-11-03 17:12:59 |
 | 89    | glorp_fishing             | 🦕 sauropod  | 186.21        | 2025-01-25 19:39:43 |
 | 90    | hamoodhabibee             | 🐳 bluewhale | 186.07        | 2025-04-11 21:08:55 |
@@ -103,4 +103,4 @@
 | 99    | huuuuuuuuuuuuuuuuuuuuuurz | 🐉 dragon    | 183.16        | 2024-12-14 10:34:27 |
 | 100   | glorp_fishing             | 🐳 bluewhale | 182.09        | 2024-12-14 04:52:40 |
 
-_Last updated at 2026-01-11 10:27:56 UTC_
+_Last updated at 2026-05-10 08:55:49 UTC_

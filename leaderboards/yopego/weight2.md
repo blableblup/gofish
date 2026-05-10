@@ -52,7 +52,7 @@
 | 48    | yopego             | 🦫 beaver         | 17.80         | 2024-10-09 08:30:16 |
 | 49    | kr1nxx_            | 🐙 octopus        | 17.45         | 2024-10-31 19:53:45 |
 | 50    | gizei_             | 🦪 oyster         | 17.37         | 2024-10-20 18:10:23 |
-| 51    | sosweetstar_vthree | 🐟 fish           | 16.78         | 2024-10-24 07:03:32 |
+| 51    | a_suika_           | 🐟 fish           | 16.78         | 2024-10-24 07:03:32 |
 | 52    | kr1nxx_            | 🪳 cockroach      | 16.23         | 2024-10-27 08:49:13 |
 | 53    | wafelel_           | 🪳 cockroach      | 16.22         | 2024-11-05 12:53:29 |
 | 54    | mxrio41            | 🐠 tropicalfish   | 16.06         | 2024-10-16 13:47:54 |
@@ -63,7 +63,7 @@
 | 59    | grumpo_            | 🍄 oceanplant     | 14.62         | 2024-10-31 14:02:46 |
 | 60    | respirate_         | 🎃 pumpkin        | 14.23         | 2025-11-04 23:59:10 |
 | 61    | respirate_         | 🦐 shrimp         | 11.96         | 2025-11-04 21:46:13 |
-| 62    | sosweetstar_vthree | 🕶️ darksunglasses | 11.83         | 2024-10-24 19:00:50 |
+| 62    | a_suika_           | 🕶️ darksunglasses | 11.83         | 2024-10-24 19:00:50 |
 | 63    | ggmagician         | 🦪 oyster         | 11.62         | 2024-10-16 06:08:23 |
 | 64    | ggmagician         | 🐢 turtle         | 11.53         | 2024-10-23 17:55:36 |
 | 65    | grumpo_            | 🐡 blowfish       | 11.38         | 2024-10-25 17:10:29 |
@@ -91,7 +91,7 @@
 | 87    | gofishgamer        | 🐍 snake          | 7.20          | 2025-11-04 02:35:51 |
 | 88    | jr_mime            | 🐟 fish           | 6.81          | 2024-11-01 13:47:25 |
 | 89    | ggmagician         | 🐍 snake          | 6.74          | 2024-11-14 13:52:57 |
-| 90    | sosweetstar_vthree | 💀 skull          | 6.47          | 2024-10-30 22:22:49 |
+| 90    | a_suika_           | 💀 skull          | 6.47          | 2024-10-30 22:22:49 |
 | 91    | gofishgamer        | 🎃 pumpkin        | 6.36          | 2025-11-04 04:23:20 |
 | 92    | xx_sn1perpro420_xx | 🦑 squid          | 6.31          | 2024-10-07 19:22:19 |
 | 93    | gofishgamer        | 🕷️ spider         | 6.29          | 2025-11-04 00:43:27 |
@@ -103,4 +103,4 @@
 | 99    | maurz__            | 🩲 briefs         | 5.27          | 2024-10-29 19:17:15 |
 | 100   | yopego             | 🦐 shrimp         | 5.25          | 2024-10-05 14:35:23 |
 
-_Last updated at 2026-03-15 09:21:40 UTC_
+_Last updated at 2026-05-10 08:55:50 UTC_

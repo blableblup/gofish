@@ -18,7 +18,7 @@
 | 14    | rancbot                   | 59        |
 | 15    | commanda_u                | 58        |
 | 16    | feelsaceman               | 56        |
-| 16 ⬆  | supibot                   | 56 (+1)   |
+| 16    | supibot                   | 56        |
 | 18    | bcarw                     | 54        |
 | 18    | bluberry                  | 54        |
 | 20    | blu_inx                   | 53        |
@@ -27,9 +27,9 @@
 | 22    | sandwichsundays*          | 49        |
 | 22    | thetaxmen                 | 49        |
 | 25    | ewpert1                   | 48        |
-| 26 ⬆  | flvx_flux*                | 45 (+3)   |
-| 27 ⬇  | teddbearcs                | 44        |
-| 28 ⬇  | glorianeq                 | 43        |
+| 26    | flvx_flux*                | 45        |
+| 27    | teddbearcs                | 44        |
+| 28    | glorianeq                 | 43        |
 | 29    | jr_mime                   | 40        |
 | 30    | benciee                   | 39        |
 | 30    | poons_s                   | 39        |
@@ -38,24 +38,24 @@
 | 34    | ratot                     | 33        |
 | 35    | araqs                     | 29        |
 | 35    | ceriise__                 | 29        |
-| 37    | crtted                    | 28        |
 | 37    | onarrrrrrrr               | 28        |
 | 37    | wadupcaprise              | 28        |
-| 40 ⬆  | bcarbot                   | 26 (+1)   |
+| 37    | yvhsu                     | 28        |
+| 40    | bcarbot                   | 26        |
+| 40 ⬆  | drecklo                   | 26 (+1)   |
 | 40    | funnywhitecat6*           | 26        |
 | 40    | turboyy                   | 26        |
-| 43 ⬇  | drecklo                   | 25        |
-| 43 🆕 | paju1g                    | 25        |
-| 45 ⬇  | flunke_                   | 23        |
-| 46 ⬇  | streamelements            | 22        |
-| 47 ⬇  | magicbluesword            | 21        |
-| 47 ⬇  | pspisafemboy              | 21        |
-| 47 ⬇  | rottarded                 | 21        |
-| 50 ⬇  | mrsmalvic                 | 20        |
-| 50 ⬇  | nightbot                  | 20        |
+| 44 ⬇  | paju1g                    | 25        |
+| 45    | flunke_                   | 23        |
+| 46    | streamelements            | 22        |
+| 47    | magicbluesword            | 21        |
+| 47    | pspisafemboy              | 21        |
+| 47    | rottarded                 | 21        |
+| 50    | mrsmalvic                 | 20        |
+| 50    | nightbot                  | 20        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-05-03 09:06:56 UTC_
+_Last updated at 2026-05-10 08:59:12 UTC_

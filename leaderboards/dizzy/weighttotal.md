@@ -28,7 +28,7 @@
 | 24    | paperboat99    | 2232.83             |
 | 25    | sugur          | 2141.79             |
 | 26    | kukkuri        | 1913.65             |
-| 27    | silent11d5     | 1522.15             |
+| 27    | exit8like      | 1522.15             |
 | 28    | dizzy          | 1453.66             |
 | 29    | 777pancake     | 1348.14             |
 | 30    | icejamx        | 1339.90             |
@@ -52,10 +52,10 @@
 | 48    | avrwhy         | 639.36              |
 | 49    | shheedy        | 636.46              |
 | 50    | nocer2k        | 628.12              |
-| 51    | remer_2        | 573.61              |
-| 52    | notcanopus     | 508.72              |
+| 51    | ermpossible    | 573.61              |
+| 52    | cano_tmp       | 508.72              |
 | 53    | yadduh         | 502.09              |
 
 _Only showing fishers with a total weight of >= 500 lbs_
 
-_Last updated at 2026-05-03 09:08:33 UTC_
+_Last updated at 2026-05-10 08:55:47 UTC_

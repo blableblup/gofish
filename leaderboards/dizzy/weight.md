@@ -29,7 +29,7 @@
 | 25    | hamoodhabibee             | 🐉 dragon    | 192.06        | 2025-04-17 00:47:22 |
 | 26    | respirate_                | 🐳 bluewhale | 189.60        | 2024-10-27 23:13:20 |
 | 27    | qxxick_                   | 🦈 shark     | 188.42        | 2024-10-23 07:37:26 |
-| 28    | silent11d5                | 🦈 shark     | 187.91        | 2024-10-27 00:37:28 |
+| 28    | exit8like                 | 🦈 shark     | 187.91        | 2024-10-27 00:37:28 |
 | 29    | paperboat99               | 🐉 dragon    | 186.46        | 2024-11-03 17:12:59 |
 | 30    | notnownico                | 🦈 shark     | 184.77        | 2024-12-03 13:31:43 |
 | 31    | ssenario                  | 🐳 bluewhale | 184.59        | 2024-11-19 19:42:40 |
@@ -45,24 +45,24 @@
 | 41    | mitsu_skidz               | 🦕 sauropod  | 142.77        | 2024-12-28 23:09:53 |
 | 42    | rabituwu                  | 🐊 crocodile | 140.73        | 2024-10-25 12:06:52 |
 | 43    | sugur                     | 🐉 dragon    | 137.72        | 2025-08-17 07:40:40 |
-| 44    | 2xbanish                  | 🦈 shark     | 135.56        | 2024-11-01 22:42:50 |
+| 44    | brothercherry             | 🦈 shark     | 135.56        | 2024-11-01 22:42:50 |
 | 45    | feuha                     | 🦈 shark     | 130.65        | 2024-12-14 08:02:15 |
 | 46    | burnend                   | 🦭 seal      | 130.03        | 2024-11-07 05:08:10 |
 | 47    | maccat1337                | 🐋 whale     | 121.67        | 2025-02-27 17:10:29 |
 | 48    | shheedy                   | 🦭 seal      | 119.34        | 2024-12-29 14:32:39 |
 | 49    | shlumy_                   | 🐋 whale     | 116.28        | 2024-10-23 10:11:10 |
 | 50    | rabbitotm                 | 🐋 whale     | 116.06        | 2024-11-02 23:32:26 |
-| 51    | fentbert                  | 🐊 crocodile | 115.05        | 2024-10-26 15:16:24 |
+| 51    | versxce__                 | 🐊 crocodile | 115.05        | 2024-10-26 15:16:24 |
 | 52    | avrwhy                    | 🦈 shark     | 111.35        | 2025-02-10 06:59:06 |
 | 53    | mellowmic                 | 🐊 crocodile | 108.60        | 2025-06-23 22:54:15 |
 | 54    | deadl3gs                  | 🐋 whale     | 108.56        | 2024-10-24 00:35:47 |
-| 55    | remer_2                   | 🐙 octopus   | 108.14        | 2024-10-26 03:38:50 |
+| 55    | ermpossible               | 🐙 octopus   | 108.14        | 2024-10-26 03:38:50 |
 | 56    | imgeformat                | 🐋 whale     | 105.98        | 2024-10-31 22:00:01 |
 | 57    | puhzzle                   | 🐙 octopus   | 105.71        | 2024-11-01 16:47:40 |
-| 58    | gingbeardman              | 🐙 octopus   | 103.24        | 2024-10-21 17:42:57 |
+| 58    | g__b__m                   | 🐙 octopus   | 103.24        | 2024-10-21 17:42:57 |
 | 59    | reallyxtra                | 🐋 whale     | 101.86        | 2024-10-22 08:33:30 |
 | 60    | marigoldandwine           | 🐋 whale     | 100.82        | 2024-12-08 05:39:17 |
 
 _Only showing fish weighing >= 100 lbs_
 
-_Last updated at 2026-04-26 08:54:57 UTC_
+_Last updated at 2026-05-10 08:59:15 UTC_

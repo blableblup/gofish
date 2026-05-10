@@ -14,13 +14,13 @@
 | 10    | 🐙 octopus        | 139.34        | jeffbethyname69   | 2025-10-31 03:03:20 |
 | 11    | 🦞 lobster        | 111.38        | amatusz           | 2026-04-04 03:24:11 |
 | 12    | 🦭 seal           | 110.92        | amatusz           | 2026-02-27 03:32:47 |
-| 13    | 🧞‍♂ genie          | 104.01        | dolp_fin          | 2025-05-27 01:57:20 |
+| 13    | 🧞‍♂️ genie          | 104.01        | dolp_fin          | 2025-05-27 01:57:20 |
 | 14    | 🪸 coral          | 99.19         | jeffbethyname69   | 2025-08-25 05:01:37 |
 | 15    | 🐢 turtle         | 96.85         | aaurie            | 2025-05-12 04:04:56 |
 | 16    | 🐬 dolphin        | 96.28         | sanfordthegrey    | 2025-04-04 01:46:16 |
 | 17    | 🧜‍♀️ mermaid        | 80.38         | dolp_fin          | 2025-06-10 05:18:43 |
 | 18    | 🛒 shoppingcart   | 68.75         | metalxml          | 2025-12-08 04:30:22 |
-| 19    | 🪨 rock           | 46.46 (+0.02) | onetriforce       | 2026-04-18 01:40:58 |
+| 19    | 🪨 rock           | 46.46         | onetriforce       | 2026-04-18 01:40:58 |
 | 20    | 🗡️ dagger         | 45.57         | wildturky82       | 2025-05-26 04:26:17 |
 | 21    | 👑 crown          | 38.17         | allspice_boatrace | 2025-04-08 01:50:15 |
 | 22    | 🦫 beaver         | 37.56         | aaurie            | 2025-07-25 03:29:55 |
@@ -78,4 +78,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-04-19 09:30:43 UTC_
+_Last updated at 2026-05-10 08:59:02 UTC_

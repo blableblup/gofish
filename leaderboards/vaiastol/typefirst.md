@@ -2,6 +2,7 @@
 
 | Rank | Fish              | Weight in lbs | Player                | Date in UTC         |
 |:-----|:------------------|:--------------|:----------------------|:--------------------|
+| 113  | 👑 crown          | 64.62         | ichezero              | 2026-05-04 12:10:02 |
 | 112  | 🪿 goose          | 0.69          | eelacy                | 2026-02-06 06:39:22 |
 | 111  | ✉️ letter         | 0.00          | vaiastol              | 2025-12-18 04:22:25 |
 | 110  | 🍎 apple          | 1.57          | hahppyy               | 2025-10-31 20:59:46 |
@@ -30,7 +31,7 @@
 | 87   | 🍄‍🟫 mushroom       | 21.32         | vaiastol              | 2025-01-05 18:34:29 |
 | 86   | 🪚 icesaw         | 0.19          | vaiastol              | 2025-01-03 11:16:05 |
 | 85   | 🛒 shoppingcart   | 6.09          | mitgliederversammlung | 2025-01-01 14:45:04 |
-| 84   | 🐻‍❄ polarbear      | 24.33         | julialuxel            | 2024-12-26 01:45:22 |
+| 84   | 🐻‍❄️ polarbear      | 24.33         | julialuxel            | 2024-12-26 01:45:22 |
 | 83   | 🐧 penguin        | 18.81         | pengeg                | 2024-12-25 04:04:34 |
 | 82   | 🧭 compass        | 12.25         | vaiastol              | 2024-12-25 03:46:12 |
 | 80   | 🎀 wrappingpaper  | 0.00          | vaiastol              | 2024-12-24 10:30:51 |
@@ -51,7 +52,7 @@
 | 66   | 👢 boot           | 0.61          | bubinga               | 2024-11-02 14:43:31 |
 | 65   | 🦭 seal           | 64.80         | hahppyy               | 2024-11-02 07:14:28 |
 | 64   | 🩰 balletshoes    | 0.67          | hahppyy               | 2024-10-31 21:30:14 |
-| 63   | 🧞‍♂ genie          | 1.44          | hahppyy               | 2024-10-31 05:57:15 |
+| 63   | 🧞‍♂️ genie          | 1.44          | hahppyy               | 2024-10-31 05:57:15 |
 | 62   | 🦢 swan           | 1.14          | vaiastol              | 2024-10-28 23:35:23 |
 | 61   | 🥫 cannedfood     | 0.60          | hahppyy               | 2024-10-17 16:38:02 |
 | 60   | 🪵 log            | 3.91          | leastsussyimposter    | 2024-10-14 22:20:07 |
@@ -99,7 +100,7 @@
 | 18   | 🪸 coral          | 32.08         | jr_mime               | 2024-07-31 14:33:10 |
 | 17   | 🐠 tropicalfish   | 9.08          | vaiastol              | 2024-07-31 13:14:49 |
 | 16   | 🦪 oyster         | 29.35         | leastsussyimposter    | 2024-07-31 11:57:10 |
-| 15   | 🪳 cockroach      | 25.61         | hailstrasza           | 2024-07-31 04:20:39 |
+| 15   | 🪳 cockroach      | 25.61         | hayleytakesmiles      | 2024-07-31 04:20:39 |
 | 14   | 🐙 octopus        | 74.96         | vaiastol              | 2024-07-31 01:46:26 |
 | 13   | 🦈 shark          | 16.89         | vaiastol              | 2024-07-31 00:09:44 |
 | 12   | 🕷️ spider         | 2.33          | hahppyy               | 2024-07-30 14:07:02 |
@@ -115,4 +116,4 @@
 | 2    | 🦀 crab           | 2.81          | jr_mime               | 2024-07-28 10:52:00 |
 | 1    | 🐸 frog           | 1.70          | mitgliederversammlung | 2024-07-28 00:20:07 |
 
-_Last updated at 2026-02-08 09:25:39 UTC_
+_Last updated at 2026-05-10 08:59:16 UTC_

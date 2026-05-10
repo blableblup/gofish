@@ -81,4 +81,4 @@
 | 2    | 🎱 8ball          | 0.79          | konsminator | 2025-06-23 16:25:30 |
 | 1    | 🪝 hook           | 2.28          | mowogan     | 2025-06-23 16:00:57 |
 
-_Last updated at 2026-03-08 09:08:55 UTC_
+_Last updated at 2026-05-10 08:59:15 UTC_

@@ -62,4 +62,4 @@
 | 2    | 🐬 dolphin        | 12.25         | e1llas         | 2024-12-06 14:32:12 |
 | 1    | 🐟 fish           | 5.77          | koenheylen     | 2024-12-06 14:27:27 |
 
-_Last updated at 2026-01-18 09:37:59 UTC_
+_Last updated at 2026-05-10 08:59:15 UTC_

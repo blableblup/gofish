@@ -20,16 +20,16 @@
 | 16    | ievantee         | 🐋 whale     | 80.56         | 2025-07-04 00:00:47 |
 | 17    | dom1torii        | 🐊 crocodile | 80.34         | 2025-02-04 23:36:24 |
 | 18    | kaitechpl        | 🐊 crocodile | 79.42         | 2024-12-26 18:05:28 |
-| 19    | 3aphotp3         | 🐊 crocodile | 77.89         | 2024-12-02 23:41:17 |
+| 19    | kagecs           | 🐊 crocodile | 77.89         | 2024-12-02 23:41:17 |
 | 20    | aquaismissing    | 🐢 turtle    | 75.51         | 2024-11-29 17:43:11 |
 | 21    | flovrek          | 🐢 turtle    | 73.97         | 2025-10-29 03:04:09 |
 | 22    | aistyrax3        | 🦕 sauropod  | 73.83         | 2024-12-01 17:06:31 |
-| 23 🆕 | underpaidchatter | 🦑 squid     | 69.03         | 2026-05-01 22:52:23 |
-| 24 ⬇  | nuflux           | 🐙 octopus   | 59.93         | 2026-03-17 01:16:05 |
-| 25 ⬇  | tautautautautau  | 🐢 turtle    | 59.69         | 2025-03-11 22:09:33 |
-| 26 ⬇  | sv_dea           | 🦞 lobster   | 58.02         | 2025-05-24 00:29:21 |
-| 27 ⬇  | beepisla         | 🦑 squid     | 50.31         | 2025-01-14 21:39:57 |
+| 23    | underpaidchatter | 🦑 squid     | 69.03         | 2026-05-01 22:52:23 |
+| 24    | nuflux           | 🐙 octopus   | 59.93         | 2026-03-17 01:16:05 |
+| 25    | tautautautautau  | 🐢 turtle    | 59.69         | 2025-03-11 22:09:33 |
+| 26    | sv_dea           | 🦞 lobster   | 58.02         | 2025-05-24 00:29:21 |
+| 27    | beepisla         | 🦑 squid     | 50.31         | 2025-01-14 21:39:57 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2026-05-03 09:06:54 UTC_
+_Last updated at 2026-05-10 08:59:14 UTC_

@@ -6,8 +6,8 @@
 | 118  | 🧥 coat            | 2.93          | feelsaceman               | 2025-12-25 02:51:38 |
 | 117  | 🛒 shoppingcart    | 51.50         | deatron                   | 2025-12-24 19:24:29 |
 | 116  | 🪿 goose           | 0.12          | blu_inx                   | 2025-12-23 17:17:16 |
-| 114  | ✉️ letter          | 0.00          | llikotesnecil             | 2025-12-20 02:37:58 |
 | 114  | 🎀 wrappingpaper   | 0.00          | llikotesnecil             | 2025-12-20 02:37:58 |
+| 114  | ✉️ letter          | 0.00          | llikotesnecil             | 2025-12-20 02:37:58 |
 | 113  | 🍪 cookie          | 0.00          | nndiana                   | 2025-12-18 05:39:11 |
 | 112  | 🎁 present         | 0.00          | mazzo_tv                  | 2025-12-15 06:42:54 |
 | 111  | 🔔 bell            | 0.00          | mazzo_tv                  | 2025-12-14 09:38:24 |
@@ -41,18 +41,18 @@
 | 83   | 🦢 swan            | 1.26          | mazzo_tv                  | 2024-07-08 06:43:22 |
 | 82   | 🐦‍⬛ robin           | 3.30          | nndiana                   | 2024-06-19 11:48:28 |
 | 81   | 🐦 cardinal        | 2.71          | huuuuuuuuuuuuuuuuuuuuuurz | 2024-06-19 07:48:00 |
-| 80   | 🌻 sunflower       | 2.10          | syxtuh                    | 2024-06-18 10:07:29 |
+| 80   | 🌻 sunflower       | 2.10          | aetryc                    | 2024-06-18 10:07:29 |
 | 79   | 🛢️ oildrum         | 139.15        | xveso                     | 2024-05-25 03:06:15 |
 | 78   | 🪹 emptynest       | 7.31          | huuuuuuuuuuuuuuuuuuuuuurz | 2024-04-11 07:27:06 |
 | 77   | 🎱 8ball           | 5.75          | euxoa                     | 2024-03-29 09:01:31 |
 | 76   | 🦫 beaver          | 9.65          | zwockel01                 | 2024-03-28 23:27:11 |
 | 75   | 🧵 wireline        | 1.12          | popfizzgg                 | 2024-03-28 23:06:05 |
 | 74   | 🦇 bat             | 77.36         | gorillapark               | 2024-03-28 22:52:34 |
-| 73   | 🌹 rose            | 1.75          | amu1g                     | 2024-03-28 12:41:57 |
+| 73   | 🌹 rose            | 1.75          | elusiin                   | 2024-03-28 12:41:57 |
 | 72   | ☘️ clover          | 1.50          | zwockel01                 | 2024-03-28 12:20:00 |
 | 71   | 🪺 nestwitheggs    | 3.80          | nndiana                   | 2024-03-28 04:12:45 |
 | 70   | 📱 iphone          | 59.71         | jr_mime                   | 2024-03-28 00:49:03 |
-| 69   | 🐻‍❄ polarbear       | 48.30         | nndiana                   | 2024-02-22 16:32:33 |
+| 69   | 🐻‍❄️ polarbear       | 48.30         | nndiana                   | 2024-02-22 16:32:33 |
 | 68   | 🧣 scarf           | 0.34          | divra__                   | 2023-12-28 01:00:06 |
 | 67   | 🧊 icecube         | 0.63          | caprisen_                 | 2023-12-26 21:44:36 |
 | 66   | 🐧 penguin         | 7.92          | neiliendam                | 2023-12-23 19:53:44 |
@@ -62,14 +62,14 @@
 | 62   | 🧸 teddybear       | 2.38          | sandwichsundays           | 2023-12-23 04:11:13 |
 | 61   | 🦭 seal            | 88.34         | satic____                 | 2023-12-23 03:45:30 |
 | 60   | 👢 boot            | 1.00          | jeejee_jjl                | 2023-12-23 03:25:54 |
-| 59   | 🧞‍♂ genie           | 15.58         | angus_lpc                 | 2023-10-01 15:43:42 |
+| 59   | 🧞‍♂️ genie           | 15.58         | angus_lpc                 | 2023-10-01 15:43:42 |
 | 58   | 🦎 lizard          | 1.24          | sandwichsundays           | 2023-10-01 15:34:32 |
 | 57   | 🦦 otter           | 16.69         | caprisen_                 | 2023-10-01 15:17:23 |
 | 56   | 🦠 plankton        | 6.57          | zsipe                     | 2023-10-01 13:54:01 |
 | 55   | 👟 sneaker         | 0.11          | norque69                  | 2023-10-01 13:36:32 |
 | 54   | 🍄 oceanplant      | 4.39          | vetti1g                   | 2023-10-01 12:14:48 |
 | 53   | 🪱 worm            | 0.89          | huuuuuuuuuuuuuuuuuuuuuurz | 2023-08-31 07:37:54 |
-| 52   | 🎰 slotmachine     | 0.00          | squirtyraccoon            | 2023-08-29 14:00:22 |
+| 52   | 🎰 slotmachine     | 0.00          | sqrtyraccoon              | 2023-08-29 14:00:22 |
 | 51   | 🪼 jellyfish       | 9.74          | donklugurtha*             | 2023-08-25 06:11:58 |
 | 50   | 🧜‍♀️ mermaid         | 94.32         | cutepengu*                | 2023-08-24 13:32:15 |
 | 49   | 🪨 rock            | 70.24         | thasbe                    | 2023-08-24 13:28:05 |
@@ -79,14 +79,14 @@
 | 45   | 🧃 beveragebox     | 10.03         | chrisslov*                | 2023-08-24 07:56:52 |
 | 44   | 🥒 seacucumber     | 28.59         | thasbe                    | 2023-08-24 05:30:28 |
 | 43   | 👒 hat             | 9.00          | sl3id3r                   | 2023-08-24 01:59:04 |
-| 42   | 🪵 log             | 8.10          | flaspoint_*               | 2023-08-23 22:58:23 |
+| 42   | 🪵 log             | 8.10          | flashpointnew*            | 2023-08-23 22:58:23 |
 | 41   | 🧟 deadbody        | 89.82         | reapex_1                  | 2023-08-23 22:45:34 |
 | 40   | 🦆 duck            | 5.94          | hennnnni                  | 2023-08-23 21:58:02 |
 | 39   | 🪶 feather         | 0.30          | cutepengu*                | 2023-08-23 18:38:25 |
 | 38   | 🐉 dragon          | 179.78        | sl3id3r                   | 2023-08-23 17:54:02 |
 | 37   | 🪀 bobber          | 0.00          | dankunite*                | 2023-08-23 16:38:12 |
 | 36   | 🐍 snake           | 12.52         | lugesbro                  | 2023-08-23 12:52:15 |
-| 35   | 🍬 candy           | 0.00          | restartmikel              | 2023-08-23 12:50:15 |
+| 35   | 🍬 candy           | 0.00          | 3mikel                    | 2023-08-23 12:50:15 |
 | 34   | 🕶️ darksunglasses  | 4.72          | mordestein*               | 2023-08-23 00:58:54 |
 | 33   | 🩴 thongsandal     | 0.79          | osnyatsky*                | 2023-08-22 22:59:22 |
 | 32   | 🩲 briefs          | 3.55          | osnyatsky*                | 2023-08-22 22:10:13 |
@@ -122,4 +122,4 @@
 | 2    | 🦞 lobster         | 36.18         | psp1g                     | 2023-08-21 01:23:40 |
 | 1    | 🐟 fish            | 13.12         | dazedforevermore          | 2023-08-21 01:11:17 |
 
-_Last updated at 2026-03-29 10:29:40 UTC_
+_Last updated at 2026-05-10 08:59:15 UTC_

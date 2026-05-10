@@ -2,7 +2,7 @@
 
 | Rank  | Player       | Fish         | Weight in lbs | Date in UTC         |
 |:------|:-------------|:-------------|:--------------|:--------------------|
-| 1 🥇  | mangos4u     | 🐻‍❄ polarbear | 294.19        | 2025-03-25 15:07:02 |
+| 1 🥇  | mangos4u     | 🐻‍❄️ polarbear | 294.19        | 2025-03-25 15:07:02 |
 | 2 🥈  | v6r_         | 🐳 bluewhale | 292.21        | 2025-12-20 06:12:06 |
 | 3 🥉  | respirate_   | 🦑 squid     | 284.27        | 2026-01-01 00:35:46 |
 | 4     | ritaaww      | 🦈 shark     | 277.20        | 2025-03-02 19:47:11 |
@@ -19,4 +19,4 @@
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2026-05-03 09:06:55 UTC_
+_Last updated at 2026-05-10 08:59:14 UTC_

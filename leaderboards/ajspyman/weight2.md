@@ -29,78 +29,78 @@
 | 25    | gofishgamer | 🐋 whale       | 92.04         | 2025-11-09 21:19:46 |
 | 26    | respirate_  | 🐬 dolphin     | 91.06         | 2024-10-02 20:34:54 |
 | 27    | respirate_  | 🐊 crocodile   | 89.52         | 2025-11-10 21:48:47 |
-| 28 🆕 | gofishgamer | 🐢 turtle      | 89.09         | 2026-03-25 01:02:58 |
-| 29 🆕 | gofishgamer | 🐢 turtle      | 87.07         | 2026-03-26 07:31:15 |
-| 30 ⬇  | respirate_  | 🐢 turtle      | 86.98         | 2025-12-12 01:26:30 |
-| 31 ⬇  | gofishgames | 🦈 shark       | 85.57         | 2025-12-28 11:11:08 |
-| 32 🆕 | respirate_  | 🐢 turtle      | 84.03         | 2026-03-25 01:02:39 |
-| 33 🆕 | gofishgamer | 🐢 turtle      | 83.99         | 2026-03-27 09:08:36 |
-| 34 ⬇  | gofishgamer | 🐢 turtle      | 82.50         | 2024-10-07 19:25:19 |
-| 35 ⬇  | respirate_  | 🐢 turtle      | 79.47         | 2025-12-13 07:56:50 |
-| 36 ⬇  | nottachasm  | 🦭 seal        | 79.23         | 2025-12-29 02:15:40 |
-| 37 ⬇  | nottachasm  | 🐢 turtle      | 78.34         | 2025-12-11 04:26:47 |
-| 38 ⬇  | gofishgames | 🐢 turtle      | 78.23         | 2025-12-11 08:10:44 |
-| 39 ⬇  | respirate_  | 🐢 turtle      | 78.13         | 2025-12-13 20:46:19 |
-| 40 ⬇  | respirate_  | 🐬 dolphin     | 77.43         | 2025-12-11 23:21:04 |
-| 41 ⬇  | ajspyman    | 🐙 octopus     | 75.23         | 2025-09-19 21:52:10 |
-| 42 ⬇  | nottachasm  | 🦭 seal        | 71.42         | 2025-12-22 21:25:41 |
-| 43 ⬇  | elisworm    | 🐢 turtle      | 63.78         | 2025-12-15 23:06:49 |
-| 44 🆕 | respirate_  | 🐢 turtle      | 60.85         | 2026-03-25 07:59:29 |
-| 45 ⬇  | acornpond   | 🐬 dolphin     | 58.58         | 2025-12-23 07:51:57 |
-| 45 ⬇  | nottachasm  | 🐢 turtle      | 58.58         | 2026-01-05 07:59:55 |
-| 47 ⬇  | elisworm    | 🦞 lobster     | 57.66         | 2025-08-25 07:22:06 |
-| 48 ⬇  | respirate_  | 🐢 turtle      | 56.80         | 2025-12-11 01:15:17 |
-| 49 ⬇  | respirate_  | 🐢 turtle      | 55.48         | 2025-12-15 09:34:22 |
-| 50 ⬇  | acornpond   | 🦈 shark       | 53.82         | 2025-12-23 19:46:55 |
-| 51 ⬇  | nottachasm  | 🦈 shark       | 52.99         | 2026-01-05 06:41:16 |
-| 52 ⬇  | supibot     | 🐢 turtle      | 51.00         | 2025-12-22 10:08:09 |
-| 53 🆕 | gofishgamer | 🐢 turtle      | 50.68         | 2026-03-25 07:59:04 |
-| 54 ⬇  | acornpond   | 🐢 turtle      | 50.38         | 2025-12-12 09:00:09 |
-| 55 🆕 | gofishgames | 🐢 turtle      | 50.18         | 2026-03-24 23:49:19 |
-| 56 ⬇  | elisworm    | 🐢 turtle      | 47.84         | 2025-12-12 02:40:42 |
-| 57 ⬇  | gofishgamer | 🐢 turtle      | 47.16         | 2025-12-12 08:30:55 |
-| 58 ⬇  | respirate_  | 🐬 dolphin     | 46.82         | 2025-12-08 03:00:54 |
-| 59 🆕 | gofishgamer | 🐢 turtle      | 45.74         | 2026-03-23 12:29:42 |
-| 60 ⬇  | acornpond   | 🦑 squid       | 45.24         | 2025-12-22 21:26:54 |
-| 61 ⬇  | gofishgames | 🦑 squid       | 43.90         | 2025-12-22 09:12:05 |
-| 62 ⬇  | acornpond   | 🦪 oyster      | 42.57         | 2025-12-23 03:42:02 |
-| 63 🆕 | elisworm    | 🐢 turtle      | 42.43         | 2026-03-23 02:44:05 |
-| 64 ⬇  | nottachasm  | 🦪 oyster      | 40.97         | 2025-12-25 03:48:13 |
-| 65 ⬇  | gofishgames | 🐧 penguin     | 40.50         | 2025-12-25 07:32:04 |
-| 66 ⬇  | nottachasm  | 🦪 oyster      | 39.70         | 2025-12-18 04:16:12 |
-| 67 ⬇  | gofishgamer | 🐢 turtle      | 38.89         | 2025-12-13 15:56:29 |
-| 68 ⬇  | gofishgames | 🐢 turtle      | 38.36         | 2025-12-29 08:08:56 |
-| 69 ⬇  | nottachasm  | 🐢 turtle      | 38.32         | 2025-12-11 21:02:57 |
-| 70 🆕 | gofishgamer | 🦫 beaver      | 38.23         | 2026-03-25 10:09:43 |
-| 71 ⬇  | elisworm    | 🦞 lobster     | 38.18         | 2025-12-22 22:32:41 |
-| 72 ⬇  | nottachasm  | 🐢 turtle      | 37.73         | 2025-12-24 22:03:38 |
-| 73 ⬇  | gofishgamer | 🦫 beaver      | 36.16         | 2025-12-11 11:18:08 |
-| 74 ⬇  | gofishgamer | 🦀 crab        | 35.83         | 2025-08-24 23:37:07 |
-| 75 ⬇  | elisworm    | 🐙 octopus     | 35.24         | 2025-12-22 09:36:29 |
-| 76 ⬇  | elisworm    | 🐟 fish        | 33.62         | 2025-11-10 21:40:05 |
-| 77 ⬇  | gofishgamer | 🦫 beaver      | 32.84         | 2025-12-12 09:58:38 |
-| 78 ⬇  | gofishgames | 🦭 seal        | 32.51         | 2025-12-23 00:25:26 |
-| 79 ⬇  | gofishgamer | 🦞 lobster     | 31.97         | 2025-12-17 08:54:43 |
-| 80 ⬇  | nottachasm  | 🐧 penguin     | 31.28         | 2025-12-26 06:34:39 |
-| 81 ⬇  | elisworm    | 🐙 octopus     | 30.86         | 2025-11-09 22:26:58 |
-| 82 ⬇  | gofishgames | 🐙 octopus     | 30.80         | 2025-12-23 06:18:54 |
-| 83 🆕 | nottachasm  | 🐢 turtle      | 30.74         | 2026-03-23 01:21:44 |
-| 84 ⬇  | respirate_  | 🦕 sauropod    | 30.41         | 2025-11-09 22:42:47 |
-| 85 ⬇  | nottachasm  | 🐊 crocodile   | 29.86         | 2025-12-16 09:19:06 |
-| 86 ⬇  | acornpond   | 🦭 seal        | 29.49         | 2025-12-22 08:37:28 |
-| 87 ⬇  | elisworm    | 🥒 seacucumber | 29.13         | 2025-08-25 00:42:18 |
-| 88 ⬇  | gofishgamer | 🦫 beaver      | 26.26         | 2025-12-12 01:57:25 |
-| 89 ⬇  | gofishgamer | 🦞 lobster     | 25.94         | 2025-12-18 00:22:51 |
-| 90 ⬇  | respirate_  | 🦈 shark       | 25.11         | 2025-12-16 09:16:18 |
-| 91 ⬇  | larvaew     | 🐬 dolphin     | 24.58         | 2025-06-14 00:05:22 |
-| 92 ⬇  | acornpond   | 🦞 lobster     | 23.88         | 2025-12-21 23:21:49 |
-| 93 ⬇  | gofishgamer | 🐬 dolphin     | 23.15         | 2025-12-16 06:52:05 |
-| 94 ⬇  | nottachasm  | 🐧 penguin     | 22.83         | 2025-12-26 04:07:20 |
-| 95 ⬇  | elisworm    | 🦑 squid       | 22.58         | 2025-07-09 04:10:52 |
-| 96 ⬇  | acornpond   | 🐬 dolphin     | 22.01         | 2025-12-23 05:06:38 |
-| 97 ⬇  | nottachasm  | 🍄‍🟫 mushroom    | 21.71         | 2025-12-22 22:34:10 |
-| 98 ⬇  | elisworm    | 🕷️ spider      | 21.58         | 2025-12-15 00:47:53 |
-| 99 ⬇  | gofishgamer | 🦪 oyster      | 21.45         | 2025-12-09 22:24:46 |
-| 100 ⬇ | gofishgamer | 🦠 plankton    | 21.43         | 2025-11-11 00:57:18 |
+| 28    | gofishgamer | 🐢 turtle      | 89.09         | 2026-03-25 01:02:58 |
+| 29    | gofishgamer | 🐢 turtle      | 87.07         | 2026-03-26 07:31:15 |
+| 30    | respirate_  | 🐢 turtle      | 86.98         | 2025-12-12 01:26:30 |
+| 31    | gofishgames | 🦈 shark       | 85.57         | 2025-12-28 11:11:08 |
+| 32    | respirate_  | 🐢 turtle      | 84.03         | 2026-03-25 01:02:39 |
+| 33    | gofishgamer | 🐢 turtle      | 83.99         | 2026-03-27 09:08:36 |
+| 34    | gofishgamer | 🐢 turtle      | 82.50         | 2024-10-07 19:25:19 |
+| 35    | respirate_  | 🐢 turtle      | 79.47         | 2025-12-13 07:56:50 |
+| 36    | nottachasm  | 🦭 seal        | 79.23         | 2025-12-29 02:15:40 |
+| 37    | nottachasm  | 🐢 turtle      | 78.34         | 2025-12-11 04:26:47 |
+| 38    | gofishgames | 🐢 turtle      | 78.23         | 2025-12-11 08:10:44 |
+| 39    | respirate_  | 🐢 turtle      | 78.13         | 2025-12-13 20:46:19 |
+| 40    | respirate_  | 🐬 dolphin     | 77.43         | 2025-12-11 23:21:04 |
+| 41    | ajspyman    | 🐙 octopus     | 75.23         | 2025-09-19 21:52:10 |
+| 42    | nottachasm  | 🦭 seal        | 71.42         | 2025-12-22 21:25:41 |
+| 43    | elisworm    | 🐢 turtle      | 63.78         | 2025-12-15 23:06:49 |
+| 44    | respirate_  | 🐢 turtle      | 60.85         | 2026-03-25 07:59:29 |
+| 45    | acornpond   | 🐬 dolphin     | 58.58         | 2025-12-23 07:51:57 |
+| 45    | nottachasm  | 🐢 turtle      | 58.58         | 2026-01-05 07:59:55 |
+| 47    | elisworm    | 🦞 lobster     | 57.66         | 2025-08-25 07:22:06 |
+| 48    | respirate_  | 🐢 turtle      | 56.80         | 2025-12-11 01:15:17 |
+| 49    | respirate_  | 🐢 turtle      | 55.48         | 2025-12-15 09:34:22 |
+| 50    | acornpond   | 🦈 shark       | 53.82         | 2025-12-23 19:46:55 |
+| 51    | nottachasm  | 🦈 shark       | 52.99         | 2026-01-05 06:41:16 |
+| 52    | supibot     | 🐢 turtle      | 51.00         | 2025-12-22 10:08:09 |
+| 53    | gofishgamer | 🐢 turtle      | 50.68         | 2026-03-25 07:59:04 |
+| 54    | acornpond   | 🐢 turtle      | 50.38         | 2025-12-12 09:00:09 |
+| 55    | gofishgames | 🐢 turtle      | 50.18         | 2026-03-24 23:49:19 |
+| 56    | elisworm    | 🐢 turtle      | 47.84         | 2025-12-12 02:40:42 |
+| 57    | gofishgamer | 🐢 turtle      | 47.16         | 2025-12-12 08:30:55 |
+| 58    | respirate_  | 🐬 dolphin     | 46.82         | 2025-12-08 03:00:54 |
+| 59    | gofishgamer | 🐢 turtle      | 45.74         | 2026-03-23 12:29:42 |
+| 60    | acornpond   | 🦑 squid       | 45.24         | 2025-12-22 21:26:54 |
+| 61    | gofishgames | 🦑 squid       | 43.90         | 2025-12-22 09:12:05 |
+| 62    | acornpond   | 🦪 oyster      | 42.57         | 2025-12-23 03:42:02 |
+| 63    | elisworm    | 🐢 turtle      | 42.43         | 2026-03-23 02:44:05 |
+| 64    | nottachasm  | 🦪 oyster      | 40.97         | 2025-12-25 03:48:13 |
+| 65    | gofishgames | 🐧 penguin     | 40.50         | 2025-12-25 07:32:04 |
+| 66    | nottachasm  | 🦪 oyster      | 39.70         | 2025-12-18 04:16:12 |
+| 67    | gofishgamer | 🐢 turtle      | 38.89         | 2025-12-13 15:56:29 |
+| 68    | gofishgames | 🐢 turtle      | 38.36         | 2025-12-29 08:08:56 |
+| 69    | nottachasm  | 🐢 turtle      | 38.32         | 2025-12-11 21:02:57 |
+| 70    | gofishgamer | 🦫 beaver      | 38.23         | 2026-03-25 10:09:43 |
+| 71    | elisworm    | 🦞 lobster     | 38.18         | 2025-12-22 22:32:41 |
+| 72    | nottachasm  | 🐢 turtle      | 37.73         | 2025-12-24 22:03:38 |
+| 73    | gofishgamer | 🦫 beaver      | 36.16         | 2025-12-11 11:18:08 |
+| 74    | gofishgamer | 🦀 crab        | 35.83         | 2025-08-24 23:37:07 |
+| 75    | elisworm    | 🐙 octopus     | 35.24         | 2025-12-22 09:36:29 |
+| 76    | elisworm    | 🐟 fish        | 33.62         | 2025-11-10 21:40:05 |
+| 77    | gofishgamer | 🦫 beaver      | 32.84         | 2025-12-12 09:58:38 |
+| 78    | gofishgames | 🦭 seal        | 32.51         | 2025-12-23 00:25:26 |
+| 79    | gofishgamer | 🦞 lobster     | 31.97         | 2025-12-17 08:54:43 |
+| 80    | nottachasm  | 🐧 penguin     | 31.28         | 2025-12-26 06:34:39 |
+| 81    | elisworm    | 🐙 octopus     | 30.86         | 2025-11-09 22:26:58 |
+| 82    | gofishgames | 🐙 octopus     | 30.80         | 2025-12-23 06:18:54 |
+| 83    | nottachasm  | 🐢 turtle      | 30.74         | 2026-03-23 01:21:44 |
+| 84    | respirate_  | 🦕 sauropod    | 30.41         | 2025-11-09 22:42:47 |
+| 85    | nottachasm  | 🐊 crocodile   | 29.86         | 2025-12-16 09:19:06 |
+| 86    | acornpond   | 🦭 seal        | 29.49         | 2025-12-22 08:37:28 |
+| 87    | elisworm    | 🥒 seacucumber | 29.13         | 2025-08-25 00:42:18 |
+| 88    | gofishgamer | 🦫 beaver      | 26.26         | 2025-12-12 01:57:25 |
+| 89    | gofishgamer | 🦞 lobster     | 25.94         | 2025-12-18 00:22:51 |
+| 90    | respirate_  | 🦈 shark       | 25.11         | 2025-12-16 09:16:18 |
+| 91    | larvaew     | 🐬 dolphin     | 24.58         | 2025-06-14 00:05:22 |
+| 92    | acornpond   | 🦞 lobster     | 23.88         | 2025-12-21 23:21:49 |
+| 93    | gofishgamer | 🐬 dolphin     | 23.15         | 2025-12-16 06:52:05 |
+| 94    | nottachasm  | 🐧 penguin     | 22.83         | 2025-12-26 04:07:20 |
+| 95    | elisworm    | 🦑 squid       | 22.58         | 2025-07-09 04:10:52 |
+| 96    | acornpond   | 🐬 dolphin     | 22.01         | 2025-12-23 05:06:38 |
+| 97    | nottachasm  | 🍄‍🟫 mushroom    | 21.71         | 2025-12-22 22:34:10 |
+| 98    | elisworm    | 🕷️ spider      | 21.58         | 2025-12-15 00:47:53 |
+| 99    | gofishgamer | 🦪 oyster      | 21.45         | 2025-12-09 22:24:46 |
+| 100   | gofishgamer | 🦠 plankton    | 21.43         | 2025-11-11 00:57:18 |
 
-_Last updated at 2026-03-29 10:29:43 UTC_
+_Last updated at 2026-05-10 08:55:49 UTC_

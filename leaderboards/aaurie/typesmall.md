@@ -2,13 +2,13 @@
 
 | Rank  | Fish              | Weight in lbs | Player             | Date in UTC         |
 |:------|:------------------|:--------------|:-------------------|:--------------------|
-| 1 🥇  | 🧞‍♂ genie          | 104.01        | dolp_fin           | 2025-05-27 01:57:20 |
+| 1 🥇  | 🧞‍♂️ genie          | 104.01        | dolp_fin           | 2025-05-27 01:57:20 |
 | 2 🥈  | 🧜‍♀️ mermaid        | 80.38         | dolp_fin           | 2025-06-10 05:18:43 |
 | 3 🥉  | 🦕 sauropod       | 73.51         | ratlover2244       | 2025-03-11 05:49:46 |
 | 4     | 🛒 shoppingcart   | 68.75         | metalxml           | 2025-12-08 04:30:22 |
 | 5     | 🛢️ oildrum        | 59.51         | jeffbethyname69    | 2025-08-11 03:23:15 |
 | 6     | 👑 crown          | 29.03         | guy_farting420     | 2025-05-04 22:41:55 |
-| 7     | 🐳 bluewhale      | 18.22 (-3.95) | amatusz            | 2026-05-02 03:16:31 |
+| 7     | 🐳 bluewhale      | 18.22         | amatusz            | 2026-05-02 03:16:31 |
 | 8     | 🦈 shark          | 16.60         | lor_starcutter     | 2025-07-22 03:31:43 |
 | 9     | 🍄‍🟫 mushroom       | 15.75         | respirate_         | 2026-01-02 16:35:14 |
 | 10    | 🦫 beaver         | 15.30         | slimdoggiedog      | 2025-03-29 03:22:14 |
@@ -78,4 +78,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-05-03 09:07:02 UTC_
+_Last updated at 2026-05-10 08:55:55 UTC_

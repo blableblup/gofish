@@ -9,9 +9,9 @@
 | 80   | ⛸️ iceskate      | 1.56          | nottachasm  | 2025-12-23 23:18:44 |
 | 79   | 🪚 icesaw        | 0.57          | elisworm    | 2025-12-23 20:29:22 |
 | 78   | 🕯️ candle        | 0.00          | elisworm    | 2025-12-18 03:56:48 |
+| 75   | ✉️ letter        | 0.00          | respirate_  | 2025-12-18 03:55:46 |
 | 75   | 🎀 wrappingpaper | 0.00          | respirate_  | 2025-12-18 03:55:46 |
 | 75   | 🍪 cookie        | 0.00          | respirate_  | 2025-12-18 03:55:46 |
-| 75   | ✉️ letter        | 0.00          | respirate_  | 2025-12-18 03:55:46 |
 | 74   | 🦭 seal          | 20.69         | gofishgamer | 2025-12-16 09:29:43 |
 | 73   | 🐳 bluewhale     | 183.48        | gofishgamer | 2025-12-16 08:03:05 |
 | 72   | 🍄‍🟫 mushroom      | 10.37         | gofishgames | 2025-12-16 06:47:29 |
@@ -81,10 +81,10 @@
 | 8    | 🐬 dolphin       | 91.06         | respirate_  | 2024-10-02 20:34:54 |
 | 7    | 🪀 bobber        | 4.26          | gofishgamer | 2024-09-27 01:37:11 |
 | 6    | 🎱 8ball         | 11.85         | gofishgamer | 2024-09-27 00:37:53 |
-| 5    | 🎏 lure          | 3.53          | juliilan    | 2024-05-25 23:23:35 |
+| 5    | 🎏 lure          | 3.53          | lroh        | 2024-05-25 23:23:35 |
 | 4    | 🧽 sponge        | 10.68         | ajspyman    | 2024-05-25 14:53:18 |
 | 3    | 🦐 shrimp        | 19.15         | ajspyman    | 2024-05-23 00:43:16 |
-| 2    | 🐟 fish          | 9.95          | juliilan    | 2024-05-22 23:39:16 |
+| 2    | 🐟 fish          | 9.95          | lroh        | 2024-05-22 23:39:16 |
 | 1    | 🪝 hook          | 0.34          | breadworms  | 2024-05-15 14:30:25 |
 
-_Last updated at 2026-03-29 10:29:40 UTC_
+_Last updated at 2026-05-10 08:59:15 UTC_

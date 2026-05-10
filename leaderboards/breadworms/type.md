@@ -8,7 +8,7 @@
 | 4     | 🦈 shark           | 288.27        | miiiiisho             | 2024-02-01 22:00:13 |
 | 5     | 🐉 dragon          | 284.43        | cimgu                 | 2024-12-10 21:13:14 |
 | 6     | 🫎 moose           | 278.16        | fvkdylan              | 2025-04-27 13:58:41 |
-| 7     | 🐻‍❄ polarbear       | 272.28        | larvaew               | 2025-01-02 19:01:21 |
+| 7     | 🐻‍❄️ polarbear       | 272.28        | larvaew               | 2025-01-02 19:01:21 |
 | 8     | 🐍 snake           | 271.95        | miiiiisho             | 2024-01-09 01:20:50 |
 | 9     | 🐢 turtle          | 255.00        | leanmeister           | 2025-06-13 20:52:39 |
 | 10    | 🛢️ oildrum         | 251.70        | osnyisdead            | 2024-08-14 01:03:37 |
@@ -17,19 +17,19 @@
 | 13    | 🐊 crocodile       | 149.98        | kishma9               | 2024-08-27 00:54:05 |
 | 14    | 🧜‍♀️ mermaid         | 136.90        | dazedforevermore      | 2023-08-17 12:37:02 |
 | 15    | 🦭 seal            | 134.85        | derinturitierutz      | 2025-02-02 16:33:05 |
-| 16    | 🧞‍♂ genie           | 131.64        | kishma9               | 2023-05-29 11:38:47 |
+| 16    | 🧞‍♂️ genie           | 131.64        | kishma9               | 2023-05-29 11:38:47 |
 | 17    | 🦪 oyster          | 130.81        | dougiefresh_83        | 2025-02-18 19:19:09 |
 | 18    | 🦞 lobster         | 126.55        | yopego                | 2023-08-27 15:59:04 |
 | 19    | 🧟 deadbody        | 118.47        | realtechnine          | 2023-07-25 17:13:49 |
 | 20    | 🐀 rat             | 113.57        | fishingalt            | 2025-03-14 09:25:18 |
-| 21    | 🐬 dolphin         | 112.76        | kaasppeerr            | 2024-04-22 16:38:27 |
+| 21    | 🐬 dolphin         | 112.76        | michael_bay65         | 2024-04-22 16:38:27 |
 | 22    | 🪸 coral           | 112.31        | fishingalt            | 2025-08-26 16:49:16 |
-| 23    | 📱 iphone          | 109.87        | kaasppeerr            | 2024-03-28 00:51:05 |
+| 23    | 📱 iphone          | 109.87        | michael_bay65         | 2024-03-28 00:51:05 |
 | 24    | 🦇 bat             | 109.65        | destin357             | 2025-06-21 00:32:36 |
 | 25    | 👑 crown           | 77.02         | puzzlow               | 2023-07-19 11:53:37 |
 | 26    | 🪨 rock            | 74.57         | fishingalt            | 2023-12-19 23:47:32 |
 | 27    | 🐈‍⬛ blackcat        | 67.48         | breadworms            | 2024-12-19 00:46:27 |
-| 28    | 🦐 shrimp          | 67.05         | 5pic3*                | 2022-12-05 10:26:58 |
+| 28    | 🦐 shrimp          | 67.05         | 6vi7*                 | 2022-12-05 10:26:58 |
 | 29    | 🐟 fish            | 63.56         | konsminator           | 2024-11-03 06:20:44 |
 | 30    | 🛒 shoppingcart    | 60.59         | osnyisdead            | 2026-01-01 20:27:10 |
 | 31    | 🗡️ dagger          | 47.73         | xz_xz                 | 2023-08-20 06:54:51 |
@@ -96,7 +96,7 @@
 | 92    | 🌹 rose            | 2.96          | osnyatsky             | 2024-03-28 12:12:36 |
 | 92    | 🥪 sandwich        | 2.96          | qu4ttromila           | 2023-05-29 08:10:17 |
 | 94    | 🍎 apple           | 2.92          | cutsekai              | 2025-11-04 23:27:16 |
-| 95    | 🌷 tulip           | 2.85          | 111320_2              | 2025-04-26 01:03:44 |
+| 95    | 🌷 tulip           | 2.85          | faeritual             | 2025-04-26 01:03:44 |
 | 96    | 🫙 jar             | 2.60          | fishingalt            | 2025-08-31 09:09:47 |
 | 97    | 🍱 tacklebox       | 2.13          | derinturitierutz      | 2025-11-01 12:30:09 |
 | 98    | 👟 sneaker         | 2.00          | kishma9               | 2023-11-05 02:37:53 |
@@ -128,4 +128,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-04-19 09:30:29 UTC_
+_Last updated at 2026-05-10 08:59:11 UTC_

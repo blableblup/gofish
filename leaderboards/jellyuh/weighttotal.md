@@ -2,12 +2,12 @@
 
 | Rank  | Player              | Total Weight in lbs |
 |:------|:--------------------|:--------------------|
-| 1 🥇  | rainedparade        | 7206.17 (+11.98)    |
-| 2 🥈  | miyabwah            | 6369.84 (+0.37)     |
+| 1 🥇  | rainedparade        | 7206.17             |
+| 2 🥈  | miyabwah            | 6369.84             |
 | 3 🥉  | pompadourdelinquent | 4485.88             |
-| 4     | goopy777            | 3286.53 (+8.28)     |
-| 5     | jakthejanitor       | 3207.09 (+370.03)   |
-| 6     | teeto               | 2302.28 (+1.94)     |
+| 4 ⬆   | jakthejanitor       | 3303.03 (+95.94)    |
+| 5 ⬇   | goopy777            | 3286.53             |
+| 6     | teeto               | 2302.28             |
 | 7     | poioce              | 2120.57             |
 | 8     | hello0d             | 2112.97             |
 | 9     | cptblack_           | 1819.89             |
@@ -27,4 +27,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-05-03 09:08:33 UTC_
+_Last updated at 2026-05-10 08:55:48 UTC_

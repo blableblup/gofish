@@ -2,7 +2,7 @@
 
 | Rank  | Fish               | Weight in lbs | Player      | Date in UTC         |
 |:------|:-------------------|:--------------|:------------|:--------------------|
-| 1 🥇  | 🐻‍❄ polarbear       | 294.19        | mangos4u    | 2025-03-25 15:07:02 |
+| 1 🥇  | 🐻‍❄️ polarbear       | 294.19        | mangos4u    | 2025-03-25 15:07:02 |
 | 2 🥈  | 🐳 bluewhale       | 292.21        | v6r_        | 2025-12-20 06:12:06 |
 | 3 🥉  | 🦑 squid           | 284.71        | mangos4u    | 2025-12-26 22:23:53 |
 | 4     | 🦈 shark           | 277.20        | ritaaww     | 2025-03-02 19:47:11 |
@@ -21,7 +21,7 @@
 | 17    | 🐬 dolphin         | 110.42        | mangos4u    | 2026-02-19 01:34:23 |
 | 18    | 🧟 deadbody        | 95.03         | ritaaww     | 2024-10-31 23:12:01 |
 | 19    | 🪸 coral           | 86.67         | ritaaww     | 2024-09-26 17:14:42 |
-| 20    | 🧞‍♂ genie           | 71.11         | v6r_        | 2024-10-10 10:00:02 |
+| 20    | 🧞‍♂️ genie           | 71.11         | v6r_        | 2024-10-10 10:00:02 |
 | 21    | 🛒 shoppingcart    | 70.34         | v6r_        | 2025-01-12 22:14:42 |
 | 22    | 🪨 rock            | 58.70         | v6r_        | 2025-09-16 21:11:31 |
 | 23    | 🦐 shrimp          | 56.46         | gofishgamer | 2025-07-30 01:44:31 |
@@ -115,4 +115,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-05-03 09:09:43 UTC_
+_Last updated at 2026-05-10 08:58:24 UTC_

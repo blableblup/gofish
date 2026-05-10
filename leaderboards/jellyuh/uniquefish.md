@@ -3,11 +3,11 @@
 | Rank  | Player              | Fish seen |
 |:------|:--------------------|:----------|
 | 1 🥇  | rainedparade        | 58        |
-| 2 🥈  | miyabwah            | 46 (+1)   |
+| 2 🥈  | miyabwah            | 46        |
 | 3 🥉  | pompadourdelinquent | 43        |
 | 4     | jakthejanitor       | 42        |
-| 5     | goopy777            | 40 (+1)   |
-| 6 ⬇   | hello0d             | 39        |
+| 5     | goopy777            | 40        |
+| 6     | hello0d             | 39        |
 | 7     | poioce              | 38        |
 | 8     | teeto               | 31        |
 | 9     | cptblack_           | 30        |
@@ -19,8 +19,8 @@
 | 14    | fadingmemoriez      | 14        |
 | 16    | jellyuh             | 13        |
 | 16    | pxxchy_dreams       | 13        |
-| 18    | akasamoyed          | 12 (+1)   |
-| 19 ⬇  | piz_z               | 11        |
+| 18    | akasamoyed          | 12        |
+| 19    | piz_z               | 11        |
 | 20    | blitzrailgun        | 10        |
 | 20    | embuhli             | 10        |
 | 20    | jollygana           | 10        |
@@ -29,4 +29,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2026-05-03 09:06:56 UTC_
+_Last updated at 2026-05-10 08:59:12 UTC_

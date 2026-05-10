@@ -25,7 +25,7 @@
 | 29   | 🐋 whale        | 129.04        | osnyatsky   | 2025-01-08 09:11:26 |
 | 28   | 🐙 octopus      | 9.57          | osnyatsky   | 2025-01-07 23:14:44 |
 | 27   | 🐊 crocodile    | 69.34         | osnyisdead  | 2025-01-07 14:20:06 |
-| 26   | ⛸️ iceskate      | 0.92          | osnyisdead  | 2025-01-06 22:25:55 |
+| 26   | ⛸️ iceskate     | 0.92          | osnyisdead  | 2025-01-06 22:25:55 |
 | 25   | 🧊 icecube      | 9.51          | osnyatsky   | 2025-01-06 17:00:49 |
 | 24   | 🍬 candy        | 0.00          | osnyatsky   | 2025-01-06 08:36:32 |
 | 23   | 🦭 seal         | 62.93         | osnyisdead  | 2025-01-02 21:58:11 |
@@ -40,7 +40,7 @@
 | 14   | 🐸 frog         | 2.84          | osnyisdead  | 2024-12-23 03:04:59 |
 | 13   | 🥀 wiltedflower | 0.56          | osnyisdead  | 2024-12-23 02:34:52 |
 | 12   | 🦎 lizard       | 1.56          | osnyisdead  | 2024-12-23 01:08:01 |
-| 11   | ☘️ clover        | 2.52          | osnyisdead  | 2024-12-22 23:44:48 |
+| 11   | ☘️ clover       | 2.52          | osnyisdead  | 2024-12-22 23:44:48 |
 | 10   | 🪹 emptynest    | 4.04          | osnyisdead  | 2024-12-22 00:23:36 |
 | 9    | 🪺 nestwitheggs | 9.38          | osnyisdead  | 2024-12-21 04:31:32 |
 | 8    | 📱 iphone       | 8.99          | osnyisdead  | 2024-12-21 01:16:55 |
@@ -48,8 +48,8 @@
 | 6    | 🎱 8ball        | 8.40          | osnyisdead  | 2024-12-20 03:01:47 |
 | 5    | 🧵 wireline     | 5.77          | osnyisdead  | 2024-12-19 09:12:45 |
 | 4    | 🪳 cockroach    | 0.04          | osnyisdead  | 2024-11-11 17:21:09 |
-| 3    | ☂️ umbrella      | 2.43          | osnyisdead  | 2024-10-31 18:58:16 |
+| 3    | ☂️ umbrella     | 2.43          | osnyisdead  | 2024-10-31 18:58:16 |
 | 2    | 🧽 sponge       | 16.50         | osnyisdead  | 2024-10-01 19:50:36 |
 | 1    | 🧦 socks        | 1.03          | osnyisdead  | 2024-10-01 17:44:35 |
 
-_Last updated at 2025-12-21 10:06:03 UTC_
+_Last updated at 2026-05-10 08:59:13 UTC_

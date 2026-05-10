@@ -24,9 +24,9 @@
 | 20    | 🐡 blowfish       | 32.43         | dazedforevermore | 2024-08-02 18:20:24 |
 | 21    | 🦐 shrimp         | 31.35         | leanmeister      | 2024-11-27 20:25:23 |
 | 22    | 🕷️ spider         | 23.80         | pinksynthesis29  | 2026-01-16 17:19:47 |
-| 23 ⬆  | 🐠 tropicalfish   | 21.01 (+2.29) | ytp_dl           | 2026-04-02 18:11:28 |
-| 24 ⬇  | 🪳 cockroach      | 20.53         | pinksynthesis29  | 2026-02-14 08:06:27 |
-| 25 ⬇  | 🦦 otter          | 18.91         | pinksynthesis29  | 2026-02-20 20:14:49 |
+| 23    | 🐠 tropicalfish   | 21.01         | ytp_dl           | 2026-04-02 18:11:28 |
+| 24    | 🪳 cockroach      | 20.53         | pinksynthesis29  | 2026-02-14 08:06:27 |
+| 25    | 🦦 otter          | 18.91         | pinksynthesis29  | 2026-02-20 20:14:49 |
 | 26    | 🍄‍🟫 mushroom       | 18.54         | derintu          | 2025-03-15 19:24:59 |
 | 27    | 🪸 coral          | 14.47         | respirate_       | 2024-09-01 18:32:43 |
 | 28    | 🧽 sponge         | 13.63         | wcd0             | 2025-11-07 00:53:25 |
@@ -77,4 +77,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-04-05 09:56:58 UTC_
+_Last updated at 2026-05-10 08:58:14 UTC_

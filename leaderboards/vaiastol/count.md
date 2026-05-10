@@ -2,50 +2,51 @@
 
 | Rank  | Player                | Fish caught |
 |:------|:----------------------|:------------|
-| 1 🥇  | vaiastol              | 4344 (+46)  |
-| 2 🥈  | hahppyy               | 1683 (+10)  |
+| 1 🥇  | vaiastol              | 4402 (+58)  |
+| 2 🥈  | hahppyy               | 1701 (+18)  |
 | 3 🥉  | eelacy                | 1450        |
-| 4     | garout                | 853 (+2)    |
+| 4     | garout                | 854 (+1)    |
 | 5     | divra__               | 645         |
-| 6     | leastsussyimposter    | 584 (+1)    |
-| 7 ⬆   | proswift              | 521 (+46)   |
-| 8 ⬇   | leanmeister           | 507         |
-| 9 ⬇   | narwhaiv              | 484         |
+| 6 ⬆   | proswift              | 608 (+87)   |
+| 7 ⬇   | leastsussyimposter    | 585 (+1)    |
+| 8     | leanmeister           | 507         |
+| 9     | nicestnarwhal         | 484         |
 | 10    | dazedforevermore      | 255         |
 | 11    | pengeg                | 243         |
-| 12    | redreignss            | 207         |
-| 13    | gstaman911            | 175 (+1)    |
-| 14 ⬆  | ichezero              | 167 (+58)   |
-| 15 ⬇  | yoimlee               | 166         |
-| 16 ⬇  | milesdotcom           | 137         |
-| 17 ⬇  | brontiiide            | 120         |
-| 18 ⬇  | tiaguitos97           | 117         |
-| 19 ⬇  | julialuxel            | 109         |
-| 20 ⬆  | thespecialone22       | 101 (+28)   |
-| 21 ⬇  | ryakarr               | 96 (+10)    |
+| 12 ⬆  | ichezero              | 223 (+56)   |
+| 13 ⬇  | redreignss            | 207         |
+| 14 ⬇  | gstaman911            | 180 (+5)    |
+| 15    | yoimlee               | 169 (+3)    |
+| 16    | milesdotcom           | 137         |
+| 17 ⬆  | thespecialone22       | 128 (+27)   |
+| 18 ⬇  | brontiiide            | 120         |
+| 19 ⬇  | tiaguitos97           | 117         |
+| 20 ⬆  | ryakarr               | 111 (+15)   |
+| 21 ⬇  | julialuxel            | 109         |
 | 22    | obama                 | 63          |
 | 23    | bubinga               | 55          |
-| 24    | rird_                 | 46          |
-| 25    | larvaew               | 45          |
-| 26 ⬆  | zfk770                | 43 (+23)    |
-| 27 ⬇  | fvkdylan              | 42          |
-| 28 ⬇  | esmeohmy              | 34          |
-| 29 ⬇  | houseofleaves*        | 29          |
-| 30 ⬇  | cyaniderx             | 23          |
-| 31 ⬇  | ash__meow             | 21          |
-| 32    | j4song                | 19 (+1)     |
-| 33 ⬇  | drpasu                | 18          |
-| 33 ⬇  | mitgliederversammlung | 18          |
-| 35    | dev0p_                | 17          |
-| 35    | jr_mime               | 17          |
-| 35    | respirate_            | 17          |
-| 38    | peppyow               | 16          |
-| 39    | ermnest               | 15          |
-| 39    | kaseyfart             | 15          |
-| 41    | creepycode*           | 13          |
-| 42    | nightmare_jpg         | 12          |
-| 42    | v6r_                  | 12          |
+| 24 ⬆  | zfk770                | 54 (+11)    |
+| 25 ⬇  | rird_                 | 46          |
+| 26 ⬇  | larvaew               | 45          |
+| 27    | fvkdylan              | 42          |
+| 28    | esmeohmy              | 34          |
+| 29    | houseofleaves*        | 29          |
+| 30    | cyaniderx             | 23          |
+| 31    | ash__meow             | 22 (+1)     |
+| 31 ⬆  | j4song                | 22 (+3)     |
+| 33 🆕 | crustymilk            | 21          |
+| 34 ⬇  | drpasu                | 18          |
+| 34 ⬇  | mitgliederversammlung | 18          |
+| 36 ⬇  | dev0p_                | 17          |
+| 36 ⬇  | jr_mime               | 17          |
+| 36 ⬇  | respirate_            | 17          |
+| 39 ⬇  | peppyow               | 16          |
+| 40 ⬇  | ermnest               | 15          |
+| 40 ⬇  | kaseyfart             | 15          |
+| 42 ⬇  | creepycode*           | 13          |
+| 43 ⬇  | nightmare_jpg         | 12          |
+| 43 ⬇  | v6r_                  | 12          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-05-03 09:06:57 UTC_
+_Last updated at 2026-05-10 08:55:49 UTC_

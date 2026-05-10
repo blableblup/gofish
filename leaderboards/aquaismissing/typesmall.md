@@ -38,14 +38,14 @@
 | 34    | 🎃 pumpkin      | 1.16          | respirate_    | 2025-11-26 08:12:21 |
 | 35    | 🐡 blowfish     | 1.13          | stofeyxd      | 2025-06-06 14:14:23 |
 | 35    | 🐌 snail        | 1.13          | likedom_      | 2024-11-26 16:48:58 |
-| 37 ⬆  | 🥪 sandwich     | 0.71          | aquaismissing | 2024-12-02 05:35:34 |
-| 38 ⬆  | 🦫 beaver       | 0.62          | glorpiusbot   | 2026-01-07 22:36:19 |
-| 39 ⬆  | 🦠 plankton     | 0.60          | likedom_      | 2025-02-21 08:50:53 |
-| 40 ⬆  | 🧸 teddybear    | 0.57          | respirate_    | 2025-11-20 06:00:10 |
-| 41 ⬆  | 🐠 tropicalfish | 0.53          | stofeyxd      | 2025-05-05 09:19:54 |
-| 42 ⬆  | 🦑 squid        | 0.52          | desxyne       | 2025-07-07 00:03:25 |
-| 43 ⬆  | 🐦‍⬛ robin        | 0.51          | glorpiusbot   | 2026-04-01 00:35:37 |
-| 44 ⬇  | ☘️ clover       | 0.50 (-0.26)  | glorpiusbot   | 2026-05-02 21:28:20 |
+| 37    | 🥪 sandwich     | 0.71          | aquaismissing | 2024-12-02 05:35:34 |
+| 38    | 🦫 beaver       | 0.62          | glorpiusbot   | 2026-01-07 22:36:19 |
+| 39    | 🦠 plankton     | 0.60          | likedom_      | 2025-02-21 08:50:53 |
+| 40    | 🧸 teddybear    | 0.57          | respirate_    | 2025-11-20 06:00:10 |
+| 41    | 🐠 tropicalfish | 0.53          | stofeyxd      | 2025-05-05 09:19:54 |
+| 42    | 🦑 squid        | 0.52          | desxyne       | 2025-07-07 00:03:25 |
+| 43    | 🐦‍⬛ robin        | 0.51          | glorpiusbot   | 2026-04-01 00:35:37 |
+| 44    | ☘️ clover       | 0.50          | glorpiusbot   | 2026-05-02 21:28:20 |
 | 45    | 🪀 bobber       | 0.47          | glorpiusbot   | 2025-11-03 14:31:23 |
 | 46    | 👢 boot         | 0.45          | respirate_    | 2025-11-28 07:00:10 |
 | 47    | 🦦 otter        | 0.41          | cute_ducc     | 2026-01-14 19:12:18 |
@@ -69,4 +69,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-05-03 09:07:04 UTC_
+_Last updated at 2026-05-10 08:56:44 UTC_

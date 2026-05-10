@@ -2,7 +2,7 @@
 
 | Rank  | Player      | Fish seen |
 |:------|:------------|:----------|
-| 1 🥇  | osnyisdead  | 43 (+1)   |
+| 1 🥇  | osnyisdead  | 43        |
 | 2 🥈  | osnyatsky*  | 17        |
 | 3 🥉  | gofishgamer | 15        |
 
@@ -10,4 +10,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2025-12-21 10:06:01 UTC_
+_Last updated at 2026-05-10 08:59:12 UTC_

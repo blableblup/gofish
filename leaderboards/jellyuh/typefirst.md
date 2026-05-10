@@ -2,7 +2,7 @@
 
 | Rank | Fish              | Weight in lbs | Player              | Date in UTC         |
 |:-----|:------------------|:--------------|:--------------------|:--------------------|
-| 82   | 🧞‍♂ genie          | 42.62         | jakthejanitor       | 2026-04-24 17:57:15 |
+| 82   | 🧞‍♂️ genie          | 42.62         | jakthejanitor       | 2026-04-24 17:57:15 |
 | 81   | 👟 sneaker        | 0.02          | jakthejanitor       | 2025-11-02 00:45:49 |
 | 80   | 🌰 acorn          | 3.38          | dougiefresh_83      | 2025-10-09 04:17:57 |
 | 79   | 🫙 jar            | 0.40          | teeto               | 2025-08-30 18:26:46 |
@@ -85,4 +85,4 @@
 | 2    | 🐸 frog           | 1.79          | goopy777            | 2024-12-20 03:52:32 |
 | 1    | 🥫 cannedfood     | 1.17          | avalidu5ername      | 2024-12-20 03:46:14 |
 
-_Last updated at 2026-04-26 08:54:51 UTC_
+_Last updated at 2026-05-10 08:59:15 UTC_

@@ -45,7 +45,7 @@
 | 10   | 🧦 socks          | 1.40          | wafelel_           | 2024-10-26 18:02:58 |
 | 9    | 🐌 snail          | 8.69          | mxrio41            | 2024-10-26 07:39:22 |
 | 8    | 🦀 crab           | 1.24          | mxrio41            | 2024-10-25 21:25:36 |
-| 7    | 🕶️ darksunglasses | 11.83         | sosweetstar_vthree | 2024-10-24 19:00:50 |
+| 7    | 🕶️ darksunglasses | 11.83         | a_suika_           | 2024-10-24 19:00:50 |
 | 6    | 🪵 log            | 2.19          | grumpo_            | 2024-10-18 07:33:13 |
 | 5    | 🧽 sponge         | 14.81         | druidvhs           | 2024-10-15 19:38:19 |
 | 4    | 🪹 emptynest      | 9.14          | bubinga            | 2024-10-15 12:55:27 |
@@ -53,4 +53,4 @@
 | 2    | 🦆 duck           | 1.83          | cornstarch1g       | 2024-10-07 19:38:57 |
 | 1    | 🪀 bobber         | 0.00          | yopego             | 2024-10-05 14:35:43 |
 
-_Last updated at 2025-12-28 10:42:52 UTC_
+_Last updated at 2026-05-10 08:59:13 UTC_

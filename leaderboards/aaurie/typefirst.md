@@ -20,7 +20,7 @@
 | 61   | 👒 hat            | 5.69          | amatusz             | 2025-07-07 03:54:58 |
 | 60   | 🧜‍♀️ mermaid        | 80.38         | dolp_fin            | 2025-06-10 05:18:43 |
 | 59   | 🌻 sunflower      | 0.79          | aaurie              | 2025-06-03 03:11:27 |
-| 58   | 🧞‍♂ genie          | 104.01        | dolp_fin            | 2025-05-27 01:57:20 |
+| 58   | 🧞‍♂️ genie          | 104.01        | dolp_fin            | 2025-05-27 01:57:20 |
 | 57   | 🍬 candy          | 0.00          | aaurie              | 2025-05-26 10:50:53 |
 | 56   | ☂️ umbrella       | 1.89          | hashmeer_           | 2025-05-17 23:55:55 |
 | 55   | 🩴 thongsandal    | 1.28          | yourdadscameraroll  | 2025-05-10 06:38:16 |
@@ -79,4 +79,4 @@
 | 2    | 🪝 hook           | 1.12          | aaurie              | 2025-03-07 01:01:14 |
 | 1    | 🐠 tropicalfish   | 21.11         | dwaynepounder       | 2025-03-06 08:02:47 |
 
-_Last updated at 2026-03-08 09:08:54 UTC_
+_Last updated at 2026-05-10 08:59:15 UTC_

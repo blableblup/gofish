@@ -69,4 +69,4 @@
 | 2    | 🪝 hook         | 0.88          | vladik4il     | 2024-11-26 16:02:08 |
 | 1    | 🧦 socks        | 0.82          | aquaismissing | 2024-11-26 15:51:47 |
 
-_Last updated at 2026-04-12 09:11:08 UTC_
+_Last updated at 2026-05-10 08:59:15 UTC_

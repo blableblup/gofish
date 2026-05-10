@@ -31,11 +31,11 @@
 | 27    | crazytown_bananapants | 67        |
 | 27    | cutsekai              | 67        |
 | 29    | comiqq                | 65        |
+| 29 ⬆  | esvelles              | 65 (+1)   |
 | 29    | ryebreadward          | 65        |
-| 31 ⬆  | esvelles              | 64 (+1)   |
-| 31    | mitgliederversammlung | 64        |
+| 32 ⬇  | mitgliederversammlung | 64        |
 | 33    | sussy_amonge          | 62        |
-| 34    | kaasppeerr            | 60        |
+| 34    | michael_bay65         | 60        |
 | 35    | bapqo                 | 56        |
 | 35    | idini                 | 56        |
 | 35    | wisco9ers*            | 56        |
@@ -53,4 +53,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-05-03 09:06:55 UTC_
+_Last updated at 2026-05-10 08:59:12 UTC_

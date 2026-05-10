@@ -28,23 +28,24 @@
 | 24    | forceghostleia    | 🐙 octopus      | 87.74         | 2026-03-20 06:41:56 |
 | 25    | eldiabloskillet   | 🦕 sauropod     | 86.33         | 2025-07-01 04:19:48 |
 | 26    | one_guy_123       | 🐬 dolphin      | 86.00         | 2026-04-17 03:17:31 |
-| 27 🆕 | mademooselle      | 🐢 turtle       | 84.32         | 2026-05-01 04:15:17 |
-| 28 ⬇  | naatatpotato      | 🐋 whale        | 79.45         | 2025-07-14 05:47:40 |
-| 29 ⬇  | dwaynepounder     | 🦑 squid        | 78.39         | 2025-05-03 08:53:33 |
-| 30 ⬇  | frostytangent     | 🐊 crocodile    | 77.06         | 2025-05-23 04:28:33 |
-| 31 ⬇  | ratlover2244      | 🦕 sauropod     | 73.51         | 2025-03-11 05:49:46 |
-| 32 ⬇  | blackberryking00  | 🐋 whale        | 69.25         | 2025-10-27 06:47:06 |
-| 33 ⬇  | metalxml          | 🛒 shoppingcart | 68.75         | 2025-12-08 04:30:22 |
-| 34 ⬇  | honeytonguedbee   | 🐬 dolphin      | 66.44         | 2026-04-17 00:24:53 |
-| 35 ⬇  | midwestbaddie574  | 🦑 squid        | 62.59         | 2025-08-15 03:23:42 |
-| 36 ⬇  | themandog         | 🐬 dolphin      | 61.41         | 2026-03-09 04:41:11 |
-| 37 ⬇  | a_purring_cat     | 🐋 whale        | 61.10         | 2026-04-17 04:26:41 |
-| 38 ⬇  | jah_alexander     | 🪸 coral        | 60.80         | 2025-08-12 03:57:19 |
-| 39 ⬇  | brody5020         | 🦑 squid        | 60.29         | 2025-04-08 05:20:51 |
-| 40 ⬇  | slimdoggiedog     | 🐢 turtle       | 58.86         | 2025-03-17 03:26:26 |
-| 41 ⬇  | nobrockudvn       | 🦞 lobster      | 56.21         | 2025-08-02 03:46:23 |
-| 42 ⬇  | dirvish           | 🐊 crocodile    | 50.24         | 2025-03-22 03:31:44 |
+| 27    | mademooselle      | 🐢 turtle       | 84.32         | 2026-05-01 04:15:17 |
+| 28    | naatatpotato      | 🐋 whale        | 79.45         | 2025-07-14 05:47:40 |
+| 29    | dwaynepounder     | 🦑 squid        | 78.39         | 2025-05-03 08:53:33 |
+| 30    | frostytangent     | 🐊 crocodile    | 77.06         | 2025-05-23 04:28:33 |
+| 31    | ratlover2244      | 🦕 sauropod     | 73.51         | 2025-03-11 05:49:46 |
+| 32    | blackberryking00  | 🐋 whale        | 69.25         | 2025-10-27 06:47:06 |
+| 33    | metalxml          | 🛒 shoppingcart | 68.75         | 2025-12-08 04:30:22 |
+| 34    | honeytonguedbee   | 🐬 dolphin      | 66.44         | 2026-04-17 00:24:53 |
+| 35    | midwestbaddie574  | 🦑 squid        | 62.59         | 2025-08-15 03:23:42 |
+| 36    | themandog         | 🐬 dolphin      | 61.41         | 2026-03-09 04:41:11 |
+| 37    | a_purring_cat     | 🐋 whale        | 61.10         | 2026-04-17 04:26:41 |
+| 38    | jah_alexander     | 🪸 coral        | 60.80         | 2025-08-12 03:57:19 |
+| 39    | brody5020         | 🦑 squid        | 60.29         | 2025-04-08 05:20:51 |
+| 40    | slimdoggiedog     | 🐢 turtle       | 58.86         | 2025-03-17 03:26:26 |
+| 41 🆕 | kittymeowms       | 🦑 squid        | 56.22         | 2026-05-08 01:04:21 |
+| 42 ⬇  | nobrockudvn       | 🦞 lobster      | 56.21         | 2025-08-02 03:46:23 |
+| 43 ⬇  | dirvish           | 🐊 crocodile    | 50.24         | 2025-03-22 03:31:44 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2026-05-03 09:06:54 UTC_
+_Last updated at 2026-05-10 08:59:14 UTC_
