@@ -23,10 +23,10 @@
 | 19    | exo9           | 34          |
 | 19    | ofaisalz       | 34          |
 | 21    | tairaaaaa      | 28          |
-| 22    | remer_2        | 22          |
+| 22    | ermpossible    | 22          |
 | 22    | simplydrack    | 22          |
 | 24    | dizzy          | 21          |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2026-01-14 15:55:37 UTC_
+_Last updated at 2026-05-13 10:46:10 UTC_
