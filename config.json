@@ -85,7 +85,7 @@
 			"totalcount_limit": 10,
 			"unique_limit": 10,
 			"checkfdata": true,
-			"board_enabled": true
+			"board_enabled": false
 		},
 		"aquaismissing": {
 			"twitchid": "782127507",
@@ -295,10 +295,6 @@
 				},
 				{
 					"url": "https://logs.susgee.dev",
-					"logs_added": "2025/5"
-				},
-				{
-					"url": "https://logs.xyqra.com",
 					"logs_added": "2025/5"
 				},
 				{
@@ -1040,6 +1036,29 @@
 				{
 					"url": "https://logs.twitchmetrics.xyz",
 					"logs_added": "no logs added found"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
+		"svdylan": {
+			"twitchid": "1214675336",
+			"logs_instances": [
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/5"
+				},
+				{
+					"url": "https://logs.susgee.dev",
+					"logs_added": "2026/5"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2026/5"
+				},
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2026/5"
 				}
 			],
 			"checkfdata": true,
