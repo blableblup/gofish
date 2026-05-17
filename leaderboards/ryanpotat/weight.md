@@ -8,7 +8,8 @@
 | 4     | kubo7       | 🐋 whale     | 123.15        | 2025-06-21 09:59:30 |
 | 5     | n1nzin_     | 🐙 octopus   | 103.71        | 2024-11-28 16:07:15 |
 | 6     | respirate_  | 🐋 whale     | 88.75         | 2025-10-31 06:12:46 |
+| 7 🆕  | mangos4u    | 🐊 crocodile | 69.00         | 2026-05-10 19:55:31 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2026-05-10 08:59:15 UTC_
+_Last updated at 2026-05-17 10:21:56 UTC_

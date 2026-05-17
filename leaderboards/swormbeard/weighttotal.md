@@ -8,8 +8,8 @@
 | 4     | pinksynthesis29       | 1014.61             |
 | 5     | respirate_            | 985.00              |
 | 6     | elisworm              | 635.41              |
-| 7     | derinturitierutz      | 599.67              |
-| 8     | ytp_dl*               | 589.07              |
+| 7 ⬆   | ytp_dl*               | 627.01 (+37.94)     |
+| 8 ⬇   | derinturitierutz      | 599.67              |
 | 9     | kishma9               | 498.05              |
 | 10    | dazedforevermore      | 426.64              |
 | 11    | mitgliederversammlung | 350.98              |
@@ -19,4 +19,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-05-10 08:55:48 UTC_
+_Last updated at 2026-05-17 10:20:07 UTC_

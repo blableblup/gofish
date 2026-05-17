@@ -2,29 +2,29 @@
 
 | Rank  | Player                  | Fish caught |
 |:------|:------------------------|:------------|
-| 1 🥇  | lluuucy                 | 5533 (+32)  |
+| 1 🥇  | lluuucy                 | 5533        |
 | 2 🥈  | osnyatsky*              | 5070        |
-| 3 🥉  | osnyisdead              | 4028 (+24)  |
+| 3 🥉  | osnyisdead              | 4045 (+17)  |
 | 4     | sicklymaidrobot         | 3850        |
 | 5     | puzzlow                 | 3760        |
 | 6     | destin357               | 3331        |
 | 7     | leanmeister             | 3283        |
-| 8     | qu4ttromila             | 3276        |
+| 8     | qu4ttromila             | 3279 (+3)   |
 | 9     | derinturitierutz        | 3142        |
-| 10    | miiiiisho               | 3129 (+6)   |
+| 10    | miiiiisho               | 3134 (+5)   |
 | 11    | kishma9                 | 2730        |
 | 12    | dazedforevermore        | 2697        |
 | 13    | derintu                 | 2316        |
 | 14    | sussy_amonge            | 2230        |
-| 15    | booty_bread             | 2089 (+2)   |
+| 15    | booty_bread             | 2090 (+1)   |
 | 16    | fishingalt              | 1819        |
 | 17    | ninjaross*              | 1685        |
-| 18    | gstaman911              | 1402        |
+| 18    | gstaman911              | 1405 (+3)   |
 | 19    | dougiefresh_83*         | 1380        |
-| 20    | ytp_dl*                 | 1306 (+46)  |
-| 21 ⬆  | esvelles                | 1262 (+74)  |
-| 22 ⬇  | cimgu                   | 1228 (+1)   |
-| 23    | larvaew                 | 1165 (+2)   |
+| 20    | ytp_dl*                 | 1323 (+17)  |
+| 21    | esvelles                | 1303 (+41)  |
+| 22    | cimgu                   | 1232 (+4)   |
+| 23    | larvaew                 | 1166 (+1)   |
 | 24    | paras220                | 1070        |
 | 25    | comiqq                  | 1047        |
 | 26    | ouacewi                 | 967         |
@@ -32,11 +32,11 @@
 | 28    | crazytown_bananapants   | 938         |
 | 29    | respirate_              | 810         |
 | 30    | bussinongnocap          | 797         |
-| 31    | breadworms              | 740 (+6)    |
+| 31    | breadworms              | 747 (+7)    |
 | 32    | michael_bay65           | 627         |
 | 33    | julialuxel              | 620         |
 | 34    | xth49*                  | 619         |
-| 35    | cutsekai                | 593 (+2)    |
+| 35    | cutsekai                | 593         |
 | 36    | trident1011             | 579         |
 | 37    | idini                   | 575         |
 | 38    | islcfc*                 | 569         |
@@ -60,8 +60,8 @@
 | 56    | supibot                 | 242         |
 | 57    | elisworm                | 220         |
 | 58    | vaiastol                | 214         |
-| 59 ⬆  | wispmode                | 204 (+2)    |
-| 60 ⬇  | hmsmob*                 | 203         |
+| 59    | wispmode                | 206 (+2)    |
+| 60    | hmsmob*                 | 203         |
 | 61    | faeritual               | 181         |
 | 62    | yliathim*               | 179         |
 | 63    | 6vi7*                   | 159         |
@@ -77,4 +77,4 @@
 
 _Only showing fishers who caught >= 100 fish_
 
-_Last updated at 2026-05-10 08:55:48 UTC_
+_Last updated at 2026-05-17 10:20:09 UTC_

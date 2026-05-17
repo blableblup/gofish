@@ -12,8 +12,8 @@
 | 8     | 🛢️ oildrum         | 248.25         | sandwichsundays           | 2024-08-21 02:57:22 |
 | 9     | 🫎 moose           | 244.04         | r3kko_                    | 2026-04-02 22:55:22 |
 | 10    | 🐙 octopus         | 191.79         | xkimi1337                 | 2023-09-19 13:02:10 |
-| 11    | 🐋 whale           | 158.40         | sandwichsundays           | 2023-10-24 00:08:28 |
-| 12    | 🐊 crocodile       | 149.71 (+0.03) | luneckie                  | 2026-05-08 01:09:07 |
+| 11    | 🐋 whale           | 159.39 (+0.99) | luneckie                  | 2026-05-13 01:41:58 |
+| 12    | 🐊 crocodile       | 149.71         | luneckie                  | 2026-05-08 01:09:07 |
 | 13    | 🧞‍♂️ genie           | 141.02         | lobuhtomy                 | 2024-07-07 07:59:30 |
 | 14    | 🧜‍♀️ mermaid         | 139.02         | zwockel01                 | 2023-12-18 22:42:23 |
 | 15    | 🦭 seal            | 134.99         | luneckie                  | 2026-01-01 07:51:54 |
@@ -23,9 +23,9 @@
 | 19    | 🦇 bat             | 117.16         | funnywhitecat6            | 2024-10-11 11:31:43 |
 | 20    | 🦪 oyster          | 114.43         | wisdom_frog               | 2023-12-28 02:26:26 |
 | 21    | 🪸 coral           | 99.92          | divra__                   | 2024-05-27 21:22:08 |
-| 22    | 🐻‍❄️ polarbear       | 74.33          | bubinga                   | 2026-02-27 10:16:09 |
-| 23    | 🪨 rock            | 74.24          | caprisen_                 | 2023-10-15 09:18:51 |
-| 24    | 👑 crown           | 73.08          | brunodestar               | 2023-08-31 04:01:22 |
+| 22 ⬆  | 👑 crown           | 77.95 (+4.87)  | paju1g                    | 2026-05-10 20:53:23 |
+| 23 ⬇  | 🐻‍❄️ polarbear       | 74.33          | bubinga                   | 2026-02-27 10:16:09 |
+| 24 ⬇  | 🪨 rock            | 74.24          | caprisen_                 | 2023-10-15 09:18:51 |
 | 25    | 🐟 fish            | 63.75          | adziooooo                 | 2023-10-27 22:15:11 |
 | 26    | 📱 iphone          | 59.71          | jr_mime                   | 2024-03-28 00:49:03 |
 | 27    | 🦐 shrimp          | 57.04          | sqrtyraccoon              | 2023-08-27 10:26:59 |
@@ -37,8 +37,8 @@
 | 33    | 🦀 crab            | 38.88          | d1ma1g*                   | 2023-09-03 11:19:10 |
 | 34    | 🐡 blowfish        | 35.81          | bluberry                  | 2024-08-13 06:51:36 |
 | 35    | 🎰 slotmachine     | 33.00          | mazzo_tv                  | 2025-12-17 08:07:21 |
-| 36 ⬆  | 🥒 seacucumber     | 31.76 (+0.52)  | jacobzzbzz                | 2026-05-06 19:15:07 |
-| 37 ⬇  | 🕷️ spider          | 31.49          | poons_s                   | 2026-03-16 10:39:24 |
+| 36    | 🥒 seacucumber     | 31.76          | jacobzzbzz                | 2026-05-06 19:15:07 |
+| 37    | 🕷️ spider          | 31.49          | poons_s                   | 2026-03-16 10:39:24 |
 | 38    | 🧽 sponge          | 29.89          | nndiana                   | 2025-07-24 04:14:09 |
 | 39    | 🐠 tropicalfish    | 27.72          | luneckie                  | 2026-04-16 02:41:16 |
 | 40    | 🪳 cockroach       | 25.94          | girls_ftw                 | 2024-01-25 01:54:30 |
@@ -118,4 +118,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-05-10 08:58:53 UTC_
+_Last updated at 2026-05-17 10:18:52 UTC_

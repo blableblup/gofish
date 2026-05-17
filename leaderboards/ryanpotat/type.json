@@ -11,7 +11,7 @@
 		"fishid": 180366,
 		"chatid": 108,
 		"date": "2025-06-21T10:46:42Z",
-		"rank": 45
+		"rank": 46
 	},
 	"apple": {
 		"player": "elisworm",
@@ -25,7 +25,7 @@
 		"fishid": 211586,
 		"chatid": 139,
 		"date": "2025-10-31T03:15:03Z",
-		"rank": 41
+		"rank": 42
 	},
 	"bat": {
 		"player": "elisworm",
@@ -53,7 +53,7 @@
 		"fishid": 180757,
 		"chatid": 112,
 		"date": "2025-06-22T02:49:31Z",
-		"rank": 38
+		"rank": 39
 	},
 	"boot": {
 		"player": "n1nzin_",
@@ -67,7 +67,7 @@
 		"fishid": 131629,
 		"chatid": 76,
 		"date": "2024-12-17T16:36:52Z",
-		"rank": 40
+		"rank": 41
 	},
 	"cannedfood": {
 		"player": "chrisgamingnl333",
@@ -81,7 +81,7 @@
 		"fishid": 115208,
 		"chatid": 6,
 		"date": "2024-10-28T12:10:33Z",
-		"rank": 36
+		"rank": 37
 	},
 	"clover": {
 		"player": "elisworm",
@@ -95,7 +95,7 @@
 		"fishid": 180332,
 		"chatid": 106,
 		"date": "2025-06-21T09:38:32Z",
-		"rank": 28
+		"rank": 29
 	},
 	"cockroach": {
 		"player": "elisworm",
@@ -123,7 +123,7 @@
 		"fishid": 119055,
 		"chatid": 13,
 		"date": "2024-11-06T20:30:17Z",
-		"rank": 35
+		"rank": 36
 	},
 	"crab": {
 		"player": "n1nzin_",
@@ -137,7 +137,7 @@
 		"fishid": 129675,
 		"chatid": 72,
 		"date": "2024-12-11T13:44:42Z",
-		"rank": 33
+		"rank": 34
 	},
 	"crocodile": {
 		"player": "elisworm",
@@ -221,7 +221,7 @@
 		"fishid": 129624,
 		"chatid": 71,
 		"date": "2024-12-11T05:49:03Z",
-		"rank": 30
+		"rank": 31
 	},
 	"gloves": {
 		"player": "n1nzin_",
@@ -235,7 +235,7 @@
 		"fishid": 131536,
 		"chatid": 75,
 		"date": "2024-12-17T10:26:23Z",
-		"rank": 48
+		"rank": 49
 	},
 	"hook": {
 		"player": "n1nzin_",
@@ -249,7 +249,7 @@
 		"fishid": 122463,
 		"chatid": 26,
 		"date": "2024-11-17T15:09:31Z",
-		"rank": 32
+		"rank": 33
 	},
 	"icecube": {
 		"player": "n1nzin_",
@@ -277,7 +277,7 @@
 		"fishid": 181334,
 		"chatid": 120,
 		"date": "2025-06-23T02:22:46Z",
-		"rank": 42
+		"rank": 43
 	},
 	"jar": {
 		"player": "n1nzin_",
@@ -291,7 +291,7 @@
 		"fishid": 181351,
 		"chatid": 124,
 		"date": "2025-06-23T03:56:08Z",
-		"rank": 47
+		"rank": 48
 	},
 	"lizard": {
 		"player": "elisworm",
@@ -305,7 +305,7 @@
 		"fishid": 181384,
 		"chatid": 129,
 		"date": "2025-06-23T07:18:11Z",
-		"rank": 25
+		"rank": 26
 	},
 	"lobster": {
 		"player": "n1nzin_",
@@ -333,7 +333,7 @@
 		"fishid": 128685,
 		"chatid": 65,
 		"date": "2024-12-08T12:50:28Z",
-		"rank": 29
+		"rank": 30
 	},
 	"nestwitheggs": {
 		"player": "lolspers",
@@ -347,7 +347,7 @@
 		"fishid": 134341,
 		"chatid": 78,
 		"date": "2024-12-23T18:12:05Z",
-		"rank": 27
+		"rank": 28
 	},
 	"oceanplant": {
 		"player": "lolspers",
@@ -473,7 +473,7 @@
 		"fishid": 181353,
 		"chatid": 125,
 		"date": "2025-06-23T04:19:08Z",
-		"rank": 44
+		"rank": 45
 	},
 	"shark": {
 		"player": "lolspers",
@@ -501,7 +501,7 @@
 		"fishid": 130688,
 		"chatid": 74,
 		"date": "2024-12-15T10:21:44Z",
-		"rank": 34
+		"rank": 35
 	},
 	"shrimp": {
 		"player": "lolspers",
@@ -515,7 +515,7 @@
 		"fishid": 134370,
 		"chatid": 79,
 		"date": "2024-12-23T19:03:26Z",
-		"rank": 26
+		"rank": 27
 	},
 	"skull": {
 		"player": "n1nzin_",
@@ -543,7 +543,21 @@
 		"fishid": 181166,
 		"chatid": 114,
 		"date": "2025-06-22T19:13:28Z",
-		"rank": 46
+		"rank": 47
+	},
+	"snake": {
+		"player": "lolspers",
+		"playerid": 2989,
+		"weight": 6.74,
+		"bot": "gofishgame",
+		"fishtype": "🐍",
+		"fishname": "snake",
+		"catchtype": "normal",
+		"chat": "ryanpotat",
+		"fishid": 261360,
+		"chatid": 157,
+		"date": "2026-05-10T16:14:03Z",
+		"rank": 25
 	},
 	"socks": {
 		"player": "n1nzin_",
@@ -557,7 +571,7 @@
 		"fishid": 123593,
 		"chatid": 41,
 		"date": "2024-11-21T11:51:25Z",
-		"rank": 39
+		"rank": 40
 	},
 	"spider": {
 		"player": "n1nzin_",
@@ -599,7 +613,7 @@
 		"fishid": 181436,
 		"chatid": 135,
 		"date": "2025-06-23T09:57:01Z",
-		"rank": 37
+		"rank": 38
 	},
 	"teddybear": {
 		"player": "n1nzin_",
@@ -613,7 +627,7 @@
 		"fishid": 122472,
 		"chatid": 27,
 		"date": "2024-11-17T15:46:37Z",
-		"rank": 31
+		"rank": 32
 	},
 	"tropicalfish": {
 		"player": "n1nzin_",
@@ -669,6 +683,6 @@
 		"fishid": 181335,
 		"chatid": 121,
 		"date": "2025-06-23T02:30:23Z",
-		"rank": 43
+		"rank": 44
 	}
 }

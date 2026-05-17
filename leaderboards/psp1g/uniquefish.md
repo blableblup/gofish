@@ -7,22 +7,22 @@
 | 3 🥉  | mazzo_tv                  | 86        |
 | 4     | jacobzzbzz                | 84        |
 | 5     | huuuuuuuuuuuuuuuuuuuuuurz | 79        |
-| 6     | feelsaceman               | 73        |
-| 6     | luneckie                  | 73        |
+| 6     | feelsaceman               | 74 (+1)   |
+| 7 ⬇   | luneckie                  | 73        |
 | 8     | bluberry                  | 72        |
 | 9     | caprisen_*                | 71        |
+| 9 ⬆   | flunke_                   | 71 (+1)   |
 | 9     | jr_mime                   | 71        |
-| 11    | flunke_                   | 70        |
-| 11    | sandwichsundays*          | 70        |
+| 12 ⬇  | sandwichsundays*          | 70        |
 | 13    | zwockel01                 | 69        |
 | 14    | joshuabzz                 | 68        |
-| 15 ⬆  | blu_inx                   | 67 (+1)   |
+| 15    | blu_inx                   | 67        |
 | 15    | gorillapark               | 67        |
 | 15    | llikotesnecil             | 67        |
 | 15    | lobuhtomy                 | 67        |
 | 15    | pengeg                    | 67        |
 | 15    | theevirus                 | 67        |
-| 21 ⬇  | ratot                     | 66        |
+| 21    | ratot                     | 66        |
 | 22    | divra__                   | 63        |
 | 23    | angus_lpc                 | 62        |
 | 23    | jem_mp3                   | 62        |
@@ -40,10 +40,10 @@
 | 32    | rottarded                 | 56        |
 | 37    | deatron                   | 55        |
 | 38    | disappointingtrash        | 54        |
-| 38 ⬆  | flovrek                   | 54 (+1)   |
+| 38    | flovrek                   | 54        |
 | 38    | maksmusz*                 | 54        |
 | 38    | r1cz4rd                   | 54        |
-| 42 ⬇  | euxoa                     | 53        |
+| 42    | euxoa                     | 53        |
 | 43    | faslker                   | 52        |
 | 43    | noconcept_                | 52        |
 | 43    | popfizzgg                 | 52        |
@@ -57,4 +57,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-05-10 08:59:12 UTC_
+_Last updated at 2026-05-17 10:21:58 UTC_

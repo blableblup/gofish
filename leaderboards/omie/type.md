@@ -87,10 +87,10 @@
 | 83    | 🍎 apple           | 1.99          | mangos4u    | 2025-10-31 23:32:55 |
 | 84    | 👢 boot            | 1.98          | v6r_        | 2024-12-11 03:17:58 |
 | 84    | ⛸️ iceskate        | 1.98          | mangos4u    | 2026-01-10 22:24:38 |
-| 86    | 🌹 rose            | 1.96          | mangos4u    | 2025-09-26 03:03:48 |
-| 87    | 🍃 deadleaves      | 1.94          | v6r_        | 2025-04-04 20:21:46 |
-| 87    | 🪻 lupine          | 1.94          | mangos4u    | 2025-09-14 13:02:40 |
-| 87    | 🧦 socks           | 1.94          | v6r_        | 2025-09-14 17:00:39 |
+| 84 ⬆  | 🧦 socks           | 1.98 (+0.04)  | v6r_        | 2026-05-14 21:45:30 |
+| 87 ⬇  | 🌹 rose            | 1.96          | mangos4u    | 2025-09-26 03:03:48 |
+| 88 ⬇  | 🍃 deadleaves      | 1.94          | v6r_        | 2025-04-04 20:21:46 |
+| 88 ⬇  | 🪻 lupine          | 1.94          | mangos4u    | 2025-09-14 13:02:40 |
 | 90    | 🩰 balletshoes     | 1.93          | v6r_        | 2025-07-21 10:00:13 |
 | 91    | 🩴 thongsandal     | 1.92          | v6r_        | 2025-08-19 14:08:12 |
 | 92    | 🥪 sandwich        | 1.74          | ritaaww     | 2025-12-25 21:26:04 |
@@ -115,4 +115,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-05-10 08:58:24 UTC_
+_Last updated at 2026-05-17 10:19:47 UTC_

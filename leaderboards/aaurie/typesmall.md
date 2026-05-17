@@ -8,19 +8,19 @@
 | 4     | 🛒 shoppingcart   | 68.75         | metalxml           | 2025-12-08 04:30:22 |
 | 5     | 🛢️ oildrum        | 59.51         | jeffbethyname69    | 2025-08-11 03:23:15 |
 | 6     | 👑 crown          | 29.03         | guy_farting420     | 2025-05-04 22:41:55 |
-| 7     | 🐳 bluewhale      | 18.22         | amatusz            | 2026-05-02 03:16:31 |
-| 8     | 🦈 shark          | 16.60         | lor_starcutter     | 2025-07-22 03:31:43 |
-| 9     | 🍄‍🟫 mushroom       | 15.75         | respirate_         | 2026-01-02 16:35:14 |
-| 10    | 🦫 beaver         | 15.30         | slimdoggiedog      | 2025-03-29 03:22:14 |
-| 11    | 🐉 dragon         | 12.52         | jonysays           | 2025-10-11 01:04:20 |
-| 12    | 🦠 plankton       | 12.05         | guy_farting420     | 2026-03-31 00:35:26 |
-| 13    | 🪵 log            | 11.18         | abelito75          | 2025-08-04 03:34:44 |
-| 14    | 🐙 octopus        | 7.25          | gofishgamer        | 2025-11-18 23:02:49 |
-| 15    | 🐋 whale          | 6.76          | bluezebra17        | 2025-07-05 05:35:40 |
-| 16    | 👒 hat            | 5.69          | amatusz            | 2025-07-07 03:54:58 |
-| 17    | 🦭 seal           | 4.97          | twofistedtales     | 2025-11-24 06:35:56 |
-| 18    | 🍄 oceanplant     | 4.77          | amatusz            | 2026-03-31 01:43:02 |
-| 19    | 🪨 rock           | 4.25          | jeffbethyname69    | 2025-08-08 02:14:50 |
+| 7 ⬆   | 🦈 shark          | 16.60         | lor_starcutter     | 2025-07-22 03:31:43 |
+| 8 ⬆   | 🍄‍🟫 mushroom       | 15.75         | respirate_         | 2026-01-02 16:35:14 |
+| 9 ⬆   | 🦫 beaver         | 15.30         | slimdoggiedog      | 2025-03-29 03:22:14 |
+| 10 ⬆  | 🐉 dragon         | 12.52         | jonysays           | 2025-10-11 01:04:20 |
+| 11 ⬆  | 🦠 plankton       | 12.05         | guy_farting420     | 2026-03-31 00:35:26 |
+| 12 ⬆  | 🪵 log            | 11.18         | abelito75          | 2025-08-04 03:34:44 |
+| 13 ⬆  | 🐙 octopus        | 7.25          | gofishgamer        | 2025-11-18 23:02:49 |
+| 14 ⬆  | 🐋 whale          | 6.76          | bluezebra17        | 2025-07-05 05:35:40 |
+| 15 ⬆  | 👒 hat            | 5.69          | amatusz            | 2025-07-07 03:54:58 |
+| 16 ⬆  | 🦭 seal           | 4.97          | twofistedtales     | 2025-11-24 06:35:56 |
+| 17 ⬆  | 🍄 oceanplant     | 4.77          | amatusz            | 2026-03-31 01:43:02 |
+| 18 ⬆  | 🪨 rock           | 4.25          | jeffbethyname69    | 2025-08-08 02:14:50 |
+| 19 ⬇  | 🐳 bluewhale      | 3.98 (-14.24) | allspice_boatrace  | 2026-05-12 02:29:22 |
 | 20    | 🦑 squid          | 3.44          | b00gie310          | 2025-04-01 01:15:13 |
 | 21    | 🪀 bobber         | 2.66          | mademooselle       | 2025-03-15 02:57:35 |
 | 22    | 🩲 briefs         | 2.58          | rjthebooger        | 2025-09-06 07:35:03 |
@@ -78,4 +78,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-05-10 08:55:55 UTC_
+_Last updated at 2026-05-17 10:21:50 UTC_

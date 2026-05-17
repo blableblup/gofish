@@ -2,6 +2,7 @@
 
 | Rank | Fish            | Weight in lbs | Player           | Date in UTC         |
 |:-----|:----------------|:--------------|:-----------------|:--------------------|
+| 49   | 🐍 snake        | 6.74          | lolspers         | 2026-05-10 16:14:03 |
 | 48   | 🎃 pumpkin      | 2.95          | gofishgamer      | 2025-10-31 03:38:46 |
 | 47   | 🍎 apple        | 1.07          | elisworm         | 2025-10-31 03:15:03 |
 | 46   | 🌻 sunflower    | 0.43          | respirate_       | 2025-06-23 08:28:34 |
@@ -51,4 +52,4 @@
 | 2    | 🐊 crocodile    | 83.85         | respirate_       | 2024-10-02 21:06:55 |
 | 1    | 🪳 cockroach    | 1.92          | ryanpotat        | 2023-12-09 03:32:47 |
 
-_Last updated at 2026-05-10 08:59:15 UTC_
+_Last updated at 2026-05-17 10:20:08 UTC_

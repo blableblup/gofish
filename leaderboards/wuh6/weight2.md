@@ -79,28 +79,28 @@
 | 75    | bubinga                   | 🦕 sauropod  | 264.19        | 2025-04-20 15:19:07 |
 | 76    | gorillapark               | 🐳 bluewhale | 263.03        | 2025-06-21 17:14:22 |
 | 77    | iflya320                  | 🐳 bluewhale | 262.52        | 2025-12-02 23:29:05 |
-| 78    | ranctious                 | 🐳 bluewhale | 261.92        | 2026-04-20 09:09:15 |
-| 79    | nndiana                   | 🦑 squid     | 261.89        | 2025-03-29 02:18:30 |
-| 80    | huuuuuuuuuuuuuuuuuuuuuurz | 🐉 dragon    | 261.43        | 2025-03-12 15:14:10 |
-| 81    | flunke_                   | 🦑 squid     | 261.17        | 2026-02-24 13:55:59 |
-| 82    | iflya320                  | 🐳 bluewhale | 260.70        | 2025-07-14 19:08:15 |
-| 83    | ranctious                 | 🐳 bluewhale | 260.31        | 2025-10-17 10:47:35 |
-| 84    | eeziiii                   | 🐳 bluewhale | 259.47        | 2025-03-09 22:01:24 |
-| 85    | eeziiii                   | 🐳 bluewhale | 259.23        | 2026-01-31 14:38:39 |
-| 86    | ranctious                 | 🦕 sauropod  | 259.13        | 2025-11-25 09:27:20 |
-| 87    | eeziiii                   | 🫎 moose     | 258.82        | 2025-03-18 19:39:14 |
-| 88    | iflya320                  | 🦕 sauropod  | 258.46        | 2025-05-09 19:47:37 |
-| 89    | huuuuuuuuuuuuuuuuuuuuuurz | 🦑 squid     | 258.01        | 2025-03-26 11:53:32 |
-| 90    | lobuhtomy                 | 🐳 bluewhale | 257.76        | 2025-08-13 19:53:44 |
-| 91    | nndiana                   | 🐻‍❄️ polarbear | 257.55        | 2024-12-25 14:00:59 |
-| 92    | ranctious                 | 🐉 dragon    | 257.15        | 2025-10-26 19:43:39 |
-| 93    | caprisen_                 | 🐳 bluewhale | 257.11        | 2026-02-25 19:52:07 |
-| 94    | gorillapark               | 🐳 bluewhale | 256.97        | 2025-09-12 00:24:13 |
-| 95    | iflya320                  | 🦕 sauropod  | 256.13        | 2025-07-29 19:33:36 |
-| 96    | lobuhtomy                 | 🐢 turtle    | 254.98        | 2025-09-05 16:45:33 |
-| 97    | gorillapark               | 🦕 sauropod  | 254.78        | 2025-05-23 17:52:25 |
-| 98    | iflya320                  | 🦕 sauropod  | 254.16        | 2025-09-02 17:27:24 |
-| 99    | nndiana                   | 🦕 sauropod  | 253.87        | 2025-10-09 22:38:51 |
-| 100   | iflya320                  | 🐳 bluewhale | 253.84        | 2025-07-27 19:10:21 |
+| 78 🆕 | ranctious                 | 🐉 dragon    | 262.29        | 2026-05-12 13:44:42 |
+| 79 ⬇  | ranctious                 | 🐳 bluewhale | 261.92        | 2026-04-20 09:09:15 |
+| 80 ⬇  | nndiana                   | 🦑 squid     | 261.89        | 2025-03-29 02:18:30 |
+| 81 ⬇  | huuuuuuuuuuuuuuuuuuuuuurz | 🐉 dragon    | 261.43        | 2025-03-12 15:14:10 |
+| 82 ⬇  | flunke_                   | 🦑 squid     | 261.17        | 2026-02-24 13:55:59 |
+| 83 ⬇  | iflya320                  | 🐳 bluewhale | 260.70        | 2025-07-14 19:08:15 |
+| 84 ⬇  | ranctious                 | 🐳 bluewhale | 260.31        | 2025-10-17 10:47:35 |
+| 85 ⬇  | eeziiii                   | 🐳 bluewhale | 259.47        | 2025-03-09 22:01:24 |
+| 86 ⬇  | eeziiii                   | 🐳 bluewhale | 259.23        | 2026-01-31 14:38:39 |
+| 87 ⬇  | ranctious                 | 🦕 sauropod  | 259.13        | 2025-11-25 09:27:20 |
+| 88 ⬇  | eeziiii                   | 🫎 moose     | 258.82        | 2025-03-18 19:39:14 |
+| 89 ⬇  | iflya320                  | 🦕 sauropod  | 258.46        | 2025-05-09 19:47:37 |
+| 90 ⬇  | huuuuuuuuuuuuuuuuuuuuuurz | 🦑 squid     | 258.01        | 2025-03-26 11:53:32 |
+| 91 ⬇  | lobuhtomy                 | 🐳 bluewhale | 257.76        | 2025-08-13 19:53:44 |
+| 92 ⬇  | nndiana                   | 🐻‍❄️ polarbear | 257.55        | 2024-12-25 14:00:59 |
+| 93 ⬇  | ranctious                 | 🐉 dragon    | 257.15        | 2025-10-26 19:43:39 |
+| 94 ⬇  | caprisen_                 | 🐳 bluewhale | 257.11        | 2026-02-25 19:52:07 |
+| 95 ⬇  | gorillapark               | 🐳 bluewhale | 256.97        | 2025-09-12 00:24:13 |
+| 96 ⬇  | iflya320                  | 🦕 sauropod  | 256.13        | 2025-07-29 19:33:36 |
+| 97 ⬇  | lobuhtomy                 | 🐢 turtle    | 254.98        | 2025-09-05 16:45:33 |
+| 98 ⬇  | gorillapark               | 🦕 sauropod  | 254.78        | 2025-05-23 17:52:25 |
+| 99 ⬇  | iflya320                  | 🦕 sauropod  | 254.16        | 2025-09-02 17:27:24 |
+| 100 ⬇ | nndiana                   | 🦕 sauropod  | 253.87        | 2025-10-09 22:38:51 |
 
-_Last updated at 2026-05-10 08:55:49 UTC_
+_Last updated at 2026-05-17 10:21:56 UTC_

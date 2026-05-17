@@ -18,10 +18,10 @@
 | 14    | ggmagician    | 410.11              |
 | 15    | kaitechpl     | 335.44              |
 | 16    | yyaaaaaaaas   | 254.07              |
-| 17    | kargalay      | 236.21 (+1.85)      |
+| 17    | kargalay      | 236.21              |
 | 18    | ojack18       | 218.50              |
 | 19    | buck101_      | 200.63              |
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-05-10 08:55:48 UTC_
+_Last updated at 2026-05-17 10:20:07 UTC_

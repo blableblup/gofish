@@ -139,18 +139,18 @@
 		"rank": 13
 	},
 	"crocodile": {
-		"player": "elisworm",
-		"playerid": 3005,
-		"weight": 147.43,
+		"player": "mangos4u",
+		"playerid": 3142,
+		"weight": 69,
 		"bot": "gofishgame",
 		"fishtype": "🐊",
 		"fishname": "crocodile",
 		"catchtype": "normal",
 		"chat": "ryanpotat",
-		"fishid": 211726,
-		"chatid": 154,
-		"date": "2025-10-31T14:54:20Z",
-		"rank": 46
+		"fishid": 261402,
+		"chatid": 158,
+		"date": "2026-05-10T19:55:31Z",
+		"rank": 49
 	},
 	"dagger": {
 		"player": "n1nzin_",
@@ -429,7 +429,7 @@
 		"fishid": 211750,
 		"chatid": 155,
 		"date": "2025-10-31T16:15:06Z",
-		"rank": 47
+		"rank": 46
 	},
 	"sauropod": {
 		"player": "gofishgamer",
@@ -443,7 +443,7 @@
 		"fishid": 211751,
 		"chatid": 156,
 		"date": "2025-10-31T16:15:24Z",
-		"rank": 48
+		"rank": 47
 	},
 	"seal": {
 		"player": "n1nzin_",
@@ -542,6 +542,20 @@
 		"chatid": 114,
 		"date": "2025-06-22T19:13:28Z",
 		"rank": 27
+	},
+	"snake": {
+		"player": "lolspers",
+		"playerid": 2989,
+		"weight": 6.74,
+		"bot": "gofishgame",
+		"fishtype": "🐍",
+		"fishname": "snake",
+		"catchtype": "normal",
+		"chat": "ryanpotat",
+		"fishid": 261360,
+		"chatid": 157,
+		"date": "2026-05-10T16:14:03Z",
+		"rank": 48
 	},
 	"socks": {
 		"player": "n1nzin_",

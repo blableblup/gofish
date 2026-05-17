@@ -2,43 +2,43 @@
 
 | Rank | Fish               | Weight in lbs | Player           | Date in UTC         |
 |:-----|:-------------------|:--------------|:-----------------|:--------------------|
-| 131  | 🕷️ spider          | 3.50          | esvelles         | 2026-05-09 23:18:16 |
-| 130  | 🐡 blowfish        | 8.77          | esvelles         | 2026-05-09 22:16:34 |
-| 129  | 🎏 lure            | 1.48          | ytp_dl           | 2026-05-09 21:52:35 |
-| 128  | 🐋 whale           | 12.40         | esvelles         | 2026-05-09 21:24:20 |
-| 127  | 🪨 rock            | 34.51         | esvelles         | 2026-05-09 19:56:42 |
-| 126  | 🐌 snail           | 8.56          | ytp_dl           | 2026-05-09 18:55:49 |
-| 125  | 🐉 dragon          | 40.87         | larvaew          | 2026-05-09 18:51:17 |
-| 124  | 🐠 tropicalfish    | 14.95         | esvelles         | 2026-05-09 18:30:58 |
-| 123  | 🦞 lobster         | 106.31        | breadworms       | 2026-05-09 16:50:32 |
-| 122  | 🐚 shell           | 0.63          | osnyisdead       | 2026-05-09 16:30:11 |
-| 121  | 🐟 fish            | 12.86         | ytp_dl           | 2026-05-09 16:07:37 |
-| 120  | 🪝 hook            | 0.69          | ytp_dl           | 2026-05-09 14:49:24 |
-| 119  | 💀 skull           | 0.70          | osnyisdead       | 2026-05-09 14:19:01 |
-| 118  | 🪀 bobber          | 0.00          | ytp_dl           | 2026-05-09 12:55:33 |
-| 117  | 🐬 dolphin         | 61.40         | booty_bread      | 2026-05-09 09:43:46 |
-| 116  | 🦕 sauropod        | 210.16        | miiiiisho        | 2026-05-09 05:52:38 |
-| 115  | 🧽 sponge          | 10.54         | osnyisdead       | 2026-05-09 01:16:09 |
-| 114  | 🐸 frog            | 2.14          | ytp_dl           | 2026-05-09 00:01:39 |
-| 113  | 🧦 socks           | 0.50          | ytp_dl           | 2026-05-08 23:25:57 |
-| 112  | 🐙 octopus         | 18.56         | miiiiisho        | 2026-05-08 22:57:48 |
-| 111  | 🐳 bluewhale       | 124.33        | ytp_dl           | 2026-05-08 22:04:04 |
-| 110  | 🦀 crab            | 1.69          | osnyisdead       | 2026-05-08 22:03:56 |
-| 109  | 🦪 oyster          | 28.24         | esvelles         | 2026-05-08 20:57:14 |
-| 108  | 🦑 squid           | 3.76          | esvelles         | 2026-05-08 19:48:32 |
-| 107  | 🦈 shark           | 69.00         | esvelles         | 2026-05-08 12:09:10 |
-| 106  | 🦐 shrimp          | 19.31         | esvelles         | 2026-05-08 10:58:27 |
-| 105  | 🌿 seaweed         | 0.35          | osnyisdead       | 2026-05-08 09:58:00 |
-| 104  | 🩲 briefs          | 7.06          | ytp_dl           | 2026-05-07 22:26:45 |
-| 103  | 🩴 thongsandal     | 1.37          | osnyisdead       | 2026-05-07 20:57:43 |
-| 102  | 🪼 jellyfish       | 7.95          | ytp_dl           | 2026-05-07 18:57:25 |
-| 101  | 🐊 crocodile       | 128.25        | esvelles         | 2026-05-07 18:23:53 |
-| 100  | 🪳 cockroach       | 5.86          | esvelles         | 2026-05-07 11:47:40 |
-| 99   | 🪸 coral           | 19.80         | ytp_dl           | 2026-05-07 08:42:25 |
-| 98   | 🥒 seacucumber     | 12.87         | esvelles         | 2026-05-06 17:35:54 |
-| 97   | 🕶️ darksunglasses  | 5.36          | lluuucy          | 2026-05-06 14:43:48 |
-| 96   | 🐍 snake           | 16.48         | esvelles         | 2026-05-06 13:23:01 |
-| 95   | 🐢 turtle          | 2.91          | esvelles         | 2026-05-05 11:38:32 |
+| 131  | 🪝 hook            | 0.14          | osnyisdead       | 2026-05-16 23:54:51 |
+| 130  | 🦀 crab            | 1.67          | esvelles         | 2026-05-16 21:48:47 |
+| 129  | 🐙 octopus         | 36.77         | miiiiisho        | 2026-05-16 21:44:51 |
+| 128  | 🎏 lure            | 1.19          | miiiiisho        | 2026-05-16 20:56:33 |
+| 127  | 🐟 fish            | 6.61          | breadworms       | 2026-05-16 19:04:23 |
+| 126  | 🪨 rock            | 36.96         | osnyisdead       | 2026-05-16 19:02:02 |
+| 125  | 🦪 oyster          | 24.57         | qu4ttromila      | 2026-05-16 18:24:39 |
+| 124  | 🌿 seaweed         | 0.24          | esvelles         | 2026-05-16 17:41:55 |
+| 123  | 🧦 socks           | 1.97          | miiiiisho        | 2026-05-16 17:35:53 |
+| 122  | 🐬 dolphin         | 20.18         | osnyisdead       | 2026-05-16 16:40:12 |
+| 121  | 🪀 bobber          | 0.00          | cimgu            | 2026-05-16 16:33:40 |
+| 120  | 🐸 frog            | 0.32          | osnyisdead       | 2026-05-16 15:51:58 |
+| 119  | 🐚 shell           | 1.25          | esvelles         | 2026-05-16 13:30:17 |
+| 118  | 🦞 lobster         | 17.60         | esvelles         | 2026-05-16 11:23:13 |
+| 117  | 🪳 cockroach       | 9.49          | esvelles         | 2026-05-16 08:33:03 |
+| 116  | 🐠 tropicalfish    | 11.44         | breadworms       | 2026-05-16 04:59:29 |
+| 115  | 🐢 turtle          | 3.69          | esvelles         | 2026-05-15 15:03:32 |
+| 114  | 🐌 snail           | 1.09          | ytp_dl           | 2026-05-15 12:39:00 |
+| 113  | 🦐 shrimp          | 12.58         | esvelles         | 2026-05-15 08:47:29 |
+| 112  | 💀 skull           | 9.31          | esvelles         | 2026-05-14 09:21:38 |
+| 111  | 🧽 sponge          | 14.91         | esvelles         | 2026-05-14 08:22:35 |
+| 110  | 🦕 sauropod        | 154.11        | osnyisdead       | 2026-05-13 09:08:28 |
+| 109  | 🐊 crocodile       | 37.35         | esvelles         | 2026-05-13 08:40:59 |
+| 108  | 🪸 coral           | 17.01         | esvelles         | 2026-05-12 12:40:48 |
+| 107  | 🐍 snake           | 0.29          | esvelles         | 2026-05-12 09:37:03 |
+| 106  | 🕷️ spider          | 4.58          | esvelles         | 2026-05-11 15:29:50 |
+| 105  | 🐡 blowfish        | 23.44         | esvelles         | 2026-05-11 13:42:26 |
+| 104  | 🦈 shark           | 75.95         | ytp_dl           | 2026-05-11 13:08:29 |
+| 103  | 🐉 dragon          | 258.38        | osnyisdead       | 2026-05-10 18:20:47 |
+| 102  | 🐋 whale           | 113.64        | esvelles         | 2026-05-10 14:36:58 |
+| 101  | 🐳 bluewhale       | 124.33        | ytp_dl           | 2026-05-08 22:04:04 |
+| 100  | 🦑 squid           | 3.76          | esvelles         | 2026-05-08 19:48:32 |
+| 99   | 🩲 briefs          | 7.06          | ytp_dl           | 2026-05-07 22:26:45 |
+| 98   | 🩴 thongsandal     | 1.37          | osnyisdead       | 2026-05-07 20:57:43 |
+| 97   | 🪼 jellyfish       | 7.95          | ytp_dl           | 2026-05-07 18:57:25 |
+| 96   | 🥒 seacucumber     | 12.87         | esvelles         | 2026-05-06 17:35:54 |
+| 95   | 🕶️ darksunglasses  | 5.36          | lluuucy          | 2026-05-06 14:43:48 |
 | 94   | ☂️ umbrella        | 0.61          | esvelles         | 2026-05-04 20:54:50 |
 | 93   | 🥫 cannedfood      | 1.87          | esvelles         | 2026-05-04 12:13:50 |
 | 92   | 🍬 candy           | 0.00          | lluuucy          | 2026-05-01 17:02:20 |
@@ -53,8 +53,8 @@
 | 83   | 👡 sandal          | 0.08          | cimgu            | 2026-04-22 04:56:27 |
 | 82   | 🪺 nestwitheggs    | 8.20          | breadworms       | 2026-04-18 17:57:01 |
 | 81   | 🧜‍♀️ mermaid         | 20.55         | miiiiisho        | 2026-04-17 23:34:46 |
-| 79   | 🍪 cookie          | 0.00          | qu4ttromila      | 2026-04-09 03:56:25 |
 | 79   | 🌰 acorn           | 0.00          | qu4ttromila      | 2026-04-09 03:56:25 |
+| 79   | 🍪 cookie          | 0.00          | qu4ttromila      | 2026-04-09 03:56:25 |
 | 78   | 🎁 present         | 0.00          | qu4ttromila      | 2026-04-09 03:54:42 |
 | 77   | 🌷 tulip           | 0.72          | gstaman911       | 2026-04-08 22:17:55 |
 | 76   | 🪵 log             | 7.08          | larvaew          | 2026-04-07 15:29:34 |
@@ -134,4 +134,4 @@
 | 2    | 🦉 owl             | 3.20          | dougiefresh_83   | 2025-04-12 07:16:46 |
 | 1    | 🐻‍❄️ polarbear       | 14.96         | derintu          | 2025-03-25 15:00:46 |
 
-_Last updated at 2026-05-10 08:59:13 UTC_
+_Last updated at 2026-05-17 10:21:58 UTC_

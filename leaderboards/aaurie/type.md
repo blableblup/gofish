@@ -27,9 +27,9 @@
 | 23    | 🦪 oyster         | 37.32         | guy_farting420    | 2025-04-26 17:13:05 |
 | 24    | 🐟 fish           | 33.98         | b00gie310         | 2025-11-03 04:36:15 |
 | 25    | 🦐 shrimp         | 32.35         | jeffbethyname69   | 2025-04-18 01:22:50 |
-| 26    | 🧽 sponge         | 28.32         | allspice_boatrace | 2025-07-04 02:50:18 |
-| 27    | 🥒 seacucumber    | 26.20         | allspice_boatrace | 2025-07-19 03:15:35 |
-| 28    | 🐡 blowfish       | 25.82         | dolp_fin          | 2025-08-02 04:19:30 |
+| 26 ⬆  | 🐡 blowfish       | 31.60 (+5.78) | amatusz           | 2026-05-16 05:41:27 |
+| 27 ⬇  | 🧽 sponge         | 28.32         | allspice_boatrace | 2025-07-04 02:50:18 |
+| 28 ⬇  | 🥒 seacucumber    | 26.20         | allspice_boatrace | 2025-07-19 03:15:35 |
 | 29    | 🪳 cockroach      | 25.54         | one_guy_123       | 2025-07-19 05:25:30 |
 | 30    | 🦀 crab           | 24.27         | dolp_fin          | 2025-09-23 03:42:29 |
 | 31    | 🕷️ spider         | 23.17         | b00gie310         | 2025-03-10 04:27:22 |
@@ -78,4 +78,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-05-10 08:59:02 UTC_
+_Last updated at 2026-05-17 10:20:00 UTC_

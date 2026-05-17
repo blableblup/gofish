@@ -2,9 +2,10 @@
 
 | Rank | Fish            | Weight in lbs | Player      | Date in UTC         |
 |:-----|:----------------|:--------------|:------------|:--------------------|
-| 48   | 🦕 sauropod     | 239.03        | gofishgamer | 2025-10-31 16:15:24 |
-| 47   | 🎃 pumpkin      | 22.07         | elisworm    | 2025-10-31 16:15:06 |
-| 46   | 🐊 crocodile    | 147.43        | elisworm    | 2025-10-31 14:54:20 |
+| 49   | 🐊 crocodile    | 69.00         | mangos4u    | 2026-05-10 19:55:31 |
+| 48   | 🐍 snake        | 6.74          | lolspers    | 2026-05-10 16:14:03 |
+| 47   | 🦕 sauropod     | 239.03        | gofishgamer | 2025-10-31 16:15:24 |
+| 46   | 🎃 pumpkin      | 22.07         | elisworm    | 2025-10-31 16:15:06 |
 | 45   | 🐟 fish         | 7.66          | gofishgamer | 2025-10-31 14:54:11 |
 | 44   | 🦈 shark        | 2.11          | respirate_  | 2025-10-31 11:24:29 |
 | 43   | 🐋 whale        | 121.91        | gofishgamer | 2025-10-31 10:56:54 |
@@ -51,4 +52,4 @@
 | 2    | 🪸 coral        | 2.75          | lolspers    | 2024-11-06 20:30:17 |
 | 1    | 🍄 oceanplant   | 16.10         | lolspers    | 2024-11-02 19:41:14 |
 
-_Last updated at 2026-05-10 08:59:13 UTC_
+_Last updated at 2026-05-17 10:21:59 UTC_

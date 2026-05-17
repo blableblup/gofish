@@ -26,31 +26,32 @@
 | 22    | 🦇 bat          | 10.41         | elisworm         | 2025-06-21 08:15:06 |
 | 23    | 🧊 icecube      | 10.31         | n1nzin_          | 2024-11-25 11:35:31 |
 | 24    | 💀 skull        | 9.90          | n1nzin_          | 2024-11-18 08:43:42 |
-| 25    | 🦎 lizard       | 6.31          | elisworm         | 2025-06-23 07:18:11 |
-| 26    | 🦐 shrimp       | 5.76          | lolspers         | 2024-12-23 19:03:26 |
-| 27    | 🪺 nestwitheggs | 5.05          | lolspers         | 2024-12-23 18:12:05 |
-| 28    | ☘️ clover       | 3.63          | elisworm         | 2025-06-21 09:38:32 |
-| 29    | 🎏 lure         | 3.57          | n1nzin_          | 2024-12-08 12:50:28 |
-| 30    | 🐸 frog         | 3.21          | n1nzin_          | 2024-12-11 05:49:03 |
-| 31    | 🧸 teddybear    | 2.99          | n1nzin_          | 2024-11-17 15:46:37 |
-| 32    | 🪝 hook         | 2.91          | n1nzin_          | 2024-11-17 15:09:31 |
-| 33    | 🦀 crab         | 2.79          | n1nzin_          | 2024-12-11 13:44:42 |
-| 34    | 🐚 shell        | 2.77          | n1nzin_          | 2024-12-15 10:21:44 |
-| 35    | 🪸 coral        | 2.75          | lolspers         | 2024-11-06 20:30:17 |
-| 36    | 🥫 cannedfood   | 1.75          | chrisgamingnl333 | 2024-10-28 12:10:33 |
-| 37    | 🌻 sunflower    | 1.53          | elisworm         | 2025-06-23 09:57:01 |
-| 38    | 🪀 bobber       | 1.51          | elisworm         | 2025-06-22 02:49:31 |
-| 39    | 🧦 socks        | 1.36          | n1nzin_          | 2024-11-21 11:51:25 |
-| 40    | 👢 boot         | 1.15          | n1nzin_          | 2024-12-17 16:36:52 |
-| 41    | 🍎 apple        | 1.07          | elisworm         | 2025-10-31 03:15:03 |
-| 42    | 📱 iphone       | 0.88          | elisworm         | 2025-06-23 02:22:46 |
-| 43    | 🧵 wireline     | 0.48          | respirate_       | 2025-06-23 02:30:23 |
-| 44    | 🌿 seaweed      | 0.42          | respirate_       | 2025-06-23 04:19:08 |
-| 45    | 🎱 8ball        | 0.32          | kubo7            | 2025-06-21 10:46:42 |
-| 46    | 🐌 snail        | 0.12          | respirate_       | 2025-06-22 19:13:28 |
-| 47    | 🫙 jar          | 0.02          | n1nzin_          | 2025-06-23 03:56:08 |
-| 48    | 🧤 gloves       | 0.01          | n1nzin_          | 2024-12-17 10:26:23 |
+| 25 🆕 | 🐍 snake        | 6.74          | lolspers         | 2026-05-10 16:14:03 |
+| 26 ⬇  | 🦎 lizard       | 6.31          | elisworm         | 2025-06-23 07:18:11 |
+| 27 ⬇  | 🦐 shrimp       | 5.76          | lolspers         | 2024-12-23 19:03:26 |
+| 28 ⬇  | 🪺 nestwitheggs | 5.05          | lolspers         | 2024-12-23 18:12:05 |
+| 29 ⬇  | ☘️ clover       | 3.63          | elisworm         | 2025-06-21 09:38:32 |
+| 30 ⬇  | 🎏 lure         | 3.57          | n1nzin_          | 2024-12-08 12:50:28 |
+| 31 ⬇  | 🐸 frog         | 3.21          | n1nzin_          | 2024-12-11 05:49:03 |
+| 32 ⬇  | 🧸 teddybear    | 2.99          | n1nzin_          | 2024-11-17 15:46:37 |
+| 33 ⬇  | 🪝 hook         | 2.91          | n1nzin_          | 2024-11-17 15:09:31 |
+| 34 ⬇  | 🦀 crab         | 2.79          | n1nzin_          | 2024-12-11 13:44:42 |
+| 35 ⬇  | 🐚 shell        | 2.77          | n1nzin_          | 2024-12-15 10:21:44 |
+| 36 ⬇  | 🪸 coral        | 2.75          | lolspers         | 2024-11-06 20:30:17 |
+| 37 ⬇  | 🥫 cannedfood   | 1.75          | chrisgamingnl333 | 2024-10-28 12:10:33 |
+| 38 ⬇  | 🌻 sunflower    | 1.53          | elisworm         | 2025-06-23 09:57:01 |
+| 39 ⬇  | 🪀 bobber       | 1.51          | elisworm         | 2025-06-22 02:49:31 |
+| 40 ⬇  | 🧦 socks        | 1.36          | n1nzin_          | 2024-11-21 11:51:25 |
+| 41 ⬇  | 👢 boot         | 1.15          | n1nzin_          | 2024-12-17 16:36:52 |
+| 42 ⬇  | 🍎 apple        | 1.07          | elisworm         | 2025-10-31 03:15:03 |
+| 43 ⬇  | 📱 iphone       | 0.88          | elisworm         | 2025-06-23 02:22:46 |
+| 44 ⬇  | 🧵 wireline     | 0.48          | respirate_       | 2025-06-23 02:30:23 |
+| 45 ⬇  | 🌿 seaweed      | 0.42          | respirate_       | 2025-06-23 04:19:08 |
+| 46 ⬇  | 🎱 8ball        | 0.32          | kubo7            | 2025-06-21 10:46:42 |
+| 47 ⬇  | 🐌 snail        | 0.12          | respirate_       | 2025-06-22 19:13:28 |
+| 48 ⬇  | 🫙 jar          | 0.02          | n1nzin_          | 2025-06-23 03:56:08 |
+| 49 ⬇  | 🧤 gloves       | 0.01          | n1nzin_          | 2024-12-17 10:26:23 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-05-10 08:57:57 UTC_
+_Last updated at 2026-05-17 10:18:32 UTC_
