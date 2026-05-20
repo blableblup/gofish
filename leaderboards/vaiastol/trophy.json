@@ -2,11 +2,11 @@
 	"1135": {
 		"player": "vaiastol",
 		"playerid": 1135,
-		"weight": 327.5,
+		"weight": 328,
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 92,
 		"silver": 36,
-		"bronze": 31,
+		"bronze": 32,
 		"rank": 1
 	},
 	"1280": {
@@ -47,7 +47,7 @@
 		"trophies": 2,
 		"silver": 5,
 		"bronze": 5,
-		"rank": 11
+		"rank": 12
 	},
 	"3535": {
 		"player": "nicestnarwhal",
@@ -76,7 +76,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 1,
 		"bronze": 1,
-		"rank": 14
+		"rank": 15
 	},
 	"3655": {
 		"player": "obama",
@@ -85,7 +85,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 1,
 		"bronze": 1,
-		"rank": 14
+		"rank": 15
 	},
 	"3717": {
 		"player": "redreignss",
@@ -100,12 +100,12 @@
 	"4151": {
 		"player": "proswift",
 		"playerid": 4151,
-		"weight": 44,
+		"weight": 47.5,
 		"date": "0001-01-01T00:00:00Z",
-		"trophies": 11,
+		"trophies": 12,
 		"silver": 7,
-		"bronze": 8,
-		"rank": 6
+		"bronze": 9,
+		"rank": 5
 	},
 	"4153": {
 		"player": "ryakarr",
@@ -114,25 +114,35 @@
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 1,
 		"bronze": 1,
-		"rank": 14
+		"rank": 15
 	},
 	"4753": {
 		"player": "thespecialone22",
 		"playerid": 4753,
-		"weight": 1.5,
+		"weight": 2.5,
 		"date": "0001-01-01T00:00:00Z",
+		"silver": 1,
 		"bronze": 3,
 		"rank": 19
 	},
 	"4793": {
 		"player": "ichezero",
 		"playerid": 4793,
-		"weight": 12,
+		"weight": 16.5,
 		"date": "0001-01-01T00:00:00Z",
-		"trophies": 3,
-		"silver": 2,
-		"bronze": 2,
-		"rank": 12
+		"trophies": 4,
+		"silver": 3,
+		"bronze": 3,
+		"rank": 11
+	},
+	"4805": {
+		"player": "zfk770",
+		"playerid": 4805,
+		"weight": 7,
+		"date": "0001-01-01T00:00:00Z",
+		"trophies": 2,
+		"silver": 1,
+		"rank": 13
 	},
 	"56": {
 		"player": "dazedforevermore",
@@ -160,7 +170,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"silver": 4,
 		"bronze": 4,
-		"rank": 13
+		"rank": 14
 	},
 	"756": {
 		"player": "pengeg",
@@ -169,7 +179,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"silver": 1,
 		"bronze": 2,
-		"rank": 18
+		"rank": 20
 	},
 	"785": {
 		"player": "yoimlee",
@@ -178,6 +188,6 @@
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 1,
 		"bronze": 1,
-		"rank": 14
+		"rank": 15
 	}
 }
