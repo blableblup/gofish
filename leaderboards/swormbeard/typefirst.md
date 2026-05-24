@@ -2,6 +2,7 @@
 
 | Rank | Fish              | Weight in lbs | Player                | Date in UTC         |
 |:-----|:------------------|:--------------|:----------------------|:--------------------|
+| 75   | 🪼 jellyfish      | 11.13         | ytp_dl                | 2026-05-19 23:33:53 |
 | 74   | 🐉 dragon         | 207.10        | ytp_dl                | 2026-03-19 22:39:49 |
 | 73   | 🧊 icecube        | 6.16          | lluuucy               | 2026-02-20 19:46:45 |
 | 72   | ☂️ umbrella       | 1.09          | pinksynthesis29       | 2026-01-24 22:59:13 |
@@ -39,7 +40,7 @@
 | 40   | 🦎 lizard         | 6.94          | lluuucy               | 2024-10-17 15:55:25 |
 | 39   | 🪺 nestwitheggs   | 10.58         | dazedforevermore      | 2024-10-14 19:42:06 |
 | 38   | 🦫 beaver         | 22.77         | lluuucy               | 2024-10-12 21:50:13 |
-| 37   | 🦆 duck           | 3.99          | cimgu                 | 2024-10-07 02:07:17 |
+| 37   | 🦆 duck           | 3.99          | cumgi                 | 2024-10-07 02:07:17 |
 | 36   | 🌰 acorn          | 0.31          | larvaew               | 2024-10-04 22:04:38 |
 | 35   | 👟 sneaker        | 0.91          | respirate_            | 2024-09-08 17:15:35 |
 | 34   | 🧦 socks          | 1.48          | respirate_            | 2024-09-07 23:49:45 |
@@ -70,10 +71,10 @@
 | 8    | 💀 skull          | 6.86          | dazedforevermore      | 2024-08-02 19:53:54 |
 | 7    | 🐬 dolphin        | 53.42         | ninjaross             | 2024-08-02 18:34:51 |
 | 6    | 🐡 blowfish       | 32.43         | dazedforevermore      | 2024-08-02 18:20:24 |
-| 5    | 🐸 frog           | 1.27          | cimgu                 | 2024-07-29 21:32:53 |
+| 5    | 🐸 frog           | 1.27          | cumgi                 | 2024-07-29 21:32:53 |
 | 4    | 🕶️ darksunglasses | 11.39         | respirate_            | 2024-07-29 07:01:49 |
 | 3    | 🧽 sponge         | 6.19          | respirate_            | 2024-07-28 22:59:22 |
 | 2    | 🦐 shrimp         | 3.14          | bapqo                 | 2024-07-28 22:59:12 |
 | 1    | 🐊 crocodile      | 105.00        | julialuxel            | 2024-07-28 22:59:00 |
 
-_Last updated at 2026-05-10 08:59:16 UTC_
+_Last updated at 2026-05-24 09:17:39 UTC_

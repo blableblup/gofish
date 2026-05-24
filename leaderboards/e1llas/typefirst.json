@@ -70,7 +70,7 @@
 		"rank": 58
 	},
 	"bobber": {
-		"player": "d1fforr",
+		"player": "eqcit",
 		"playerid": 3596,
 		"bot": "gofishgame",
 		"fishtype": "🪀",
@@ -83,7 +83,7 @@
 		"rank": 21
 	},
 	"boot": {
-		"player": "d1fforr",
+		"player": "eqcit",
 		"playerid": 3596,
 		"weight": 1.2,
 		"bot": "gofishgame",
@@ -237,7 +237,7 @@
 		"rank": 30
 	},
 	"feather": {
-		"player": "d1fforr",
+		"player": "eqcit",
 		"playerid": 3596,
 		"weight": 0.48,
 		"bot": "gofishgame",
@@ -321,7 +321,7 @@
 		"rank": 11
 	},
 	"icecube": {
-		"player": "d1fforr",
+		"player": "eqcit",
 		"playerid": 3596,
 		"weight": 10.48,
 		"bot": "gofishgame",
@@ -726,7 +726,7 @@
 		"rank": 54
 	},
 	"thongsandal": {
-		"player": "d1fforr",
+		"player": "eqcit",
 		"playerid": 3596,
 		"weight": 1.46,
 		"bot": "gofishgame",
@@ -752,6 +752,20 @@
 		"chatid": 91,
 		"date": "2025-04-28T17:07:55Z",
 		"rank": 27
+	},
+	"tulip": {
+		"player": "e1llas",
+		"playerid": 2821,
+		"weight": 1.17,
+		"bot": "gofishgame",
+		"fishtype": "🌷",
+		"fishname": "tulip",
+		"catchtype": "normal",
+		"chat": "e1llas",
+		"fishid": 263244,
+		"chatid": 505,
+		"date": "2026-05-20T10:31:50Z",
+		"rank": 60
 	},
 	"turtle": {
 		"player": "envtt",

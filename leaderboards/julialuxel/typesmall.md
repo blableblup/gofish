@@ -39,7 +39,7 @@
 | 35    | 🦐 shrimp       | 0.71          | julialuxel            | 2024-01-12 16:42:48 |
 | 36    | 🐦‍⬛ robin        | 0.69          | ninjaross             | 2024-05-04 18:16:52 |
 | 37    | ⛸️ iceskate     | 0.62          | toastyso              | 2024-01-07 02:21:01 |
-| 38    | 🐚 shell        | 0.56          | cimgu                 | 2025-03-31 02:33:51 |
+| 38    | 🐚 shell        | 0.56          | cumgi                 | 2025-03-31 02:33:51 |
 | 39    | 🕷️ spider       | 0.54          | hahppyy               | 2024-01-03 23:48:54 |
 | 40    | 👟 sneaker      | 0.53          | supibot               | 2024-01-04 18:43:39 |
 | 41    | 🫙 jar          | 0.41          | larvaew               | 2025-06-23 00:51:13 |
@@ -62,4 +62,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-05-10 08:57:24 UTC_
+_Last updated at 2026-05-24 09:17:55 UTC_

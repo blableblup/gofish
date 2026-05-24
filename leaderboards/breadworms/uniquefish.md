@@ -8,13 +8,13 @@
 | 4     | lluuucy               | 105       |
 | 5     | larvaew               | 104       |
 | 6     | leanmeister           | 102       |
-| 7     | cimgu                 | 100       |
+| 7     | cumgi                 | 100       |
 | 8     | qu4ttromila           | 94        |
 | 9     | breadworms            | 93        |
 | 9     | kishma9               | 93        |
 | 11    | osnyisdead            | 92        |
-| 12    | destin357             | 90        |
-| 12    | ytp_dl*               | 90        |
+| 12    | ytp_dl*               | 91 (+1)   |
+| 13 ⬇  | destin357             | 90        |
 | 14    | dougiefresh_83*       | 87        |
 | 15    | dazedforevermore      | 86        |
 | 15    | miiiiisho             | 86        |
@@ -31,9 +31,9 @@
 | 27    | crazytown_bananapants | 67        |
 | 27    | cutsekai              | 67        |
 | 29    | comiqq                | 65        |
-| 29 ⬆  | esvelles              | 65 (+1)   |
+| 29    | esvelles              | 65        |
 | 29    | ryebreadward          | 65        |
-| 32 ⬇  | mitgliederversammlung | 64        |
+| 32    | mitgliederversammlung | 64        |
 | 33    | sussy_amonge          | 62        |
 | 34    | michael_bay65         | 60        |
 | 35    | bapqo                 | 56        |
@@ -53,4 +53,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-05-10 08:59:12 UTC_
+_Last updated at 2026-05-24 09:20:50 UTC_

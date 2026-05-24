@@ -3,8 +3,8 @@
 | Rank  | Player         | Fish caught |
 |:------|:---------------|:------------|
 | 1 🥇  | envtt          | 138         |
-| 2 🥈  | e1llas         | 78          |
-| 3 🥉  | d1fforr        | 68          |
+| 2 🥈  | e1llas         | 92 (+14)    |
+| 3 🥉  | eqcit          | 68          |
 | 4     | gofishgamer    | 43          |
 | 5     | elisworm       | 42          |
 | 6     | respirate_     | 36          |
@@ -15,4 +15,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-05-10 08:55:49 UTC_
+_Last updated at 2026-05-24 09:20:51 UTC_

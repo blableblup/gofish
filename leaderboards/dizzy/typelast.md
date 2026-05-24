@@ -2,10 +2,10 @@
 
 | Rank | Fish              | Weight in lbs | Player          | Date in UTC         |
 |:-----|:------------------|:--------------|:----------------|:--------------------|
-| 110  | 🪸 coral          | 1.19          | kyonuwu         | 2026-04-25 22:56:19 |
-| 109  | 🐠 tropicalfish   | 19.89         | notnownico      | 2026-04-15 17:54:05 |
-| 108  | 🪝 hook           | 0.53          | ofaisalz        | 2026-04-08 18:45:02 |
-| 107  | 🦪 oyster         | 27.51         | hamoodhabibee   | 2026-04-05 01:18:41 |
+| 110  | 🦪 oyster         | 17.35         | meppppi         | 2026-05-22 21:31:52 |
+| 109  | 🪝 hook           | 2.12          | meppppi         | 2026-05-22 06:23:57 |
+| 108  | 🪸 coral          | 1.19          | kyonuwu         | 2026-04-25 22:56:19 |
+| 107  | 🐠 tropicalfish   | 19.89         | notnownico      | 2026-04-15 17:54:05 |
 | 106  | 🐍 snake          | 10.44         | notnownico      | 2026-03-29 19:47:57 |
 | 105  | 🐡 blowfish       | 3.50          | notnownico      | 2026-03-29 15:17:41 |
 | 104  | 🎏 lure           | 2.50          | avrwhy          | 2026-03-26 21:05:49 |
@@ -99,8 +99,8 @@
 | 15   | 🪚 icesaw         | 0.60          | gimmeschmoneys  | 2025-02-26 01:33:52 |
 | 14   | 🐧 penguin        | 30.26         | buhl00n         | 2025-02-18 01:34:38 |
 | 13   | 👟 sneaker        | 1.36          | greenfatso      | 2025-01-27 07:33:19 |
-| 11   | 🎀 wrappingpaper  | 0.00          | anothercull     | 2025-01-15 01:31:55 |
 | 11   | 🍪 cookie         | 0.00          | anothercull     | 2025-01-15 01:31:55 |
+| 11   | 🎀 wrappingpaper  | 0.00          | anothercull     | 2025-01-15 01:31:55 |
 | 10   | 🎁 present        | 0.00          | anothercull     | 2025-01-15 01:31:08 |
 | 9    | 🥀 wiltedflower   | 2.28          | simplydrack     | 2025-01-06 17:07:07 |
 | 8    | 🛒 shoppingcart   | 56.52         | buhl00n         | 2025-01-02 17:13:58 |
@@ -112,4 +112,4 @@
 | 2    | 👑 crown          | 30.94         | glorp_fishing   | 2024-12-12 21:16:52 |
 | 1    | 🧞‍♂️ genie          | 17.60         | feuha           | 2024-11-01 09:40:30 |
 
-_Last updated at 2026-05-10 08:59:13 UTC_
+_Last updated at 2026-05-24 09:20:52 UTC_

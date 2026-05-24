@@ -25,14 +25,14 @@
 | 21    | 👑 crown          | 38.17         | allspice_boatrace | 2025-04-08 01:50:15 |
 | 22    | 🦫 beaver         | 37.56         | aaurie            | 2025-07-25 03:29:55 |
 | 23    | 🦪 oyster         | 37.32         | guy_farting420    | 2025-04-26 17:13:05 |
-| 24    | 🐟 fish           | 33.98         | b00gie310         | 2025-11-03 04:36:15 |
+| 24    | 🐟 fish           | 33.98         | boogie_310        | 2025-11-03 04:36:15 |
 | 25    | 🦐 shrimp         | 32.35         | jeffbethyname69   | 2025-04-18 01:22:50 |
-| 26 ⬆  | 🐡 blowfish       | 31.60 (+5.78) | amatusz           | 2026-05-16 05:41:27 |
-| 27 ⬇  | 🧽 sponge         | 28.32         | allspice_boatrace | 2025-07-04 02:50:18 |
-| 28 ⬇  | 🥒 seacucumber    | 26.20         | allspice_boatrace | 2025-07-19 03:15:35 |
+| 26    | 🐡 blowfish       | 31.60         | amatusz           | 2026-05-16 05:41:27 |
+| 27    | 🧽 sponge         | 28.32         | allspice_boatrace | 2025-07-04 02:50:18 |
+| 28    | 🥒 seacucumber    | 26.20         | allspice_boatrace | 2025-07-19 03:15:35 |
 | 29    | 🪳 cockroach      | 25.54         | one_guy_123       | 2025-07-19 05:25:30 |
 | 30    | 🦀 crab           | 24.27         | dolp_fin          | 2025-09-23 03:42:29 |
-| 31    | 🕷️ spider         | 23.17         | b00gie310         | 2025-03-10 04:27:22 |
+| 31    | 🕷️ spider         | 23.17         | boogie_310        | 2025-03-10 04:27:22 |
 | 32    | 🐠 tropicalfish   | 21.24         | dolp_fin          | 2025-04-19 01:01:40 |
 | 33    | 🦦 otter          | 19.26         | gofishgamer       | 2025-11-19 03:49:06 |
 | 34    | 🦠 plankton       | 18.95         | blacklist_exe     | 2026-01-26 03:22:19 |
@@ -40,15 +40,15 @@
 | 36    | 🪼 jellyfish      | 16.38         | jeffbethyname69   | 2025-07-11 01:54:09 |
 | 37    | 🍄‍🟫 mushroom       | 15.75         | respirate_        | 2026-01-02 16:35:14 |
 | 38    | 🪵 log            | 13.44         | abelito75         | 2026-03-06 02:30:40 |
-| 39    | 🐌 snail          | 11.60         | b00gie310         | 2025-05-19 02:55:19 |
+| 39    | 🐌 snail          | 11.60         | boogie_310        | 2025-05-19 02:55:19 |
 | 40    | 🧃 beveragebox    | 10.85         | preemalone        | 2025-08-09 02:59:38 |
 | 41    | 🐸 frog           | 10.25         | eldiabloskillet   | 2025-05-27 01:25:32 |
 | 42    | 🦆 duck           | 10.04         | mirzaasjad_       | 2025-07-21 07:24:28 |
-| 43    | 💀 skull          | 10.00         | b00gie310         | 2025-09-05 06:52:36 |
+| 43    | 💀 skull          | 10.00         | boogie_310        | 2025-09-05 06:52:36 |
 | 44    | 🪱 worm           | 9.73          | gofishgamer       | 2025-11-20 05:35:28 |
 | 45    | 🧊 icecube        | 8.60          | amatusz           | 2026-02-24 06:14:02 |
 | 46    | 🦎 lizard         | 7.66          | aaurie            | 2025-03-29 01:03:36 |
-| 47    | 🕶️ darksunglasses | 7.20          | b00gie310         | 2025-08-04 02:26:26 |
+| 47    | 🕶️ darksunglasses | 7.20          | boogie_310        | 2025-08-04 02:26:26 |
 | 48    | 🩲 briefs         | 7.07          | jeffbethyname69   | 2025-08-04 01:47:45 |
 | 49    | 🧸 teddybear      | 6.20          | aaurie            | 2025-03-10 00:33:21 |
 | 50    | 👒 hat            | 5.69          | amatusz           | 2025-07-07 03:54:58 |
@@ -78,4 +78,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-05-17 10:20:00 UTC_
+_Last updated at 2026-05-24 09:19:26 UTC_

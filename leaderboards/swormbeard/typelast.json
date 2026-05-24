@@ -198,7 +198,7 @@
 		"rank": 40
 	},
 	"cannedfood": {
-		"player": "cimgu",
+		"player": "cumgi",
 		"playerid": 1369,
 		"weight": 1.6,
 		"bot": "gofishgame",
@@ -386,16 +386,16 @@
 	"fish": {
 		"player": "ytp_dl",
 		"playerid": 112,
-		"weight": 5.65,
+		"weight": 6.14,
 		"bot": "gofishgame",
 		"fishtype": "🐟",
 		"fishname": "fish",
 		"catchtype": "normal",
 		"chat": "swormbeard",
-		"fishid": 261887,
-		"chatid": 776,
-		"date": "2026-05-13T00:21:39Z",
-		"rank": 71
+		"fishid": 263161,
+		"chatid": 779,
+		"date": "2026-05-19T21:27:31Z",
+		"rank": 73
 	},
 	"frog": {
 		"player": "ytp_dl",
@@ -452,7 +452,7 @@
 		"fishid": 262176,
 		"chatid": 778,
 		"date": "2026-05-14T18:59:09Z",
-		"rank": 73
+		"rank": 72
 	},
 	"icecube": {
 		"player": "lluuucy",
@@ -525,6 +525,20 @@
 		"date": "2025-08-29T22:02:53Z",
 		"rank": 21
 	},
+	"jellyfish": {
+		"player": "ytp_dl",
+		"playerid": 112,
+		"weight": 11.13,
+		"bot": "gofishgame",
+		"fishtype": "🪼",
+		"fishname": "jellyfish",
+		"catchtype": "normal",
+		"chat": "swormbeard",
+		"fishid": 263177,
+		"chatid": 780,
+		"date": "2026-05-19T23:33:53Z",
+		"rank": 74
+	},
 	"leaf": {
 		"player": "larvaew",
 		"playerid": 1212,
@@ -565,7 +579,7 @@
 		"fishid": 262018,
 		"chatid": 777,
 		"date": "2026-05-13T18:18:48Z",
-		"rank": 72
+		"rank": 71
 	},
 	"lure": {
 		"player": "ytp_dl",

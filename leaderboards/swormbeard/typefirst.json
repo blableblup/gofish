@@ -361,7 +361,7 @@
 		"rank": 74
 	},
 	"duck": {
-		"player": "cimgu",
+		"player": "cumgi",
 		"playerid": 1369,
 		"weight": 3.99,
 		"bot": "gofishgame",
@@ -404,7 +404,7 @@
 		"rank": 9
 	},
 	"frog": {
-		"player": "cimgu",
+		"player": "cumgi",
 		"playerid": 1369,
 		"weight": 1.27,
 		"bot": "gofishgame",
@@ -530,6 +530,20 @@
 		"chatid": 486,
 		"date": "2025-08-29T19:24:40Z",
 		"rank": 63
+	},
+	"jellyfish": {
+		"player": "ytp_dl",
+		"playerid": 112,
+		"weight": 11.13,
+		"bot": "gofishgame",
+		"fishtype": "🪼",
+		"fishname": "jellyfish",
+		"catchtype": "normal",
+		"chat": "swormbeard",
+		"fishid": 263177,
+		"chatid": 780,
+		"date": "2026-05-19T23:33:53Z",
+		"rank": 75
 	},
 	"leaf": {
 		"player": "leanmeister",

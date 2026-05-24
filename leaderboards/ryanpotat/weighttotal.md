@@ -3,11 +3,11 @@
 | Rank  | Player      | Total Weight in lbs |
 |:------|:------------|:--------------------|
 | 1 🥇  | n1nzin_     | 1172.54             |
-| 2 🥈  | lolspers    | 588.95 (+6.74)      |
+| 2 🥈  | lolspers    | 588.95              |
 | 3 🥉  | elisworm    | 483.03              |
 | 4     | gofishgamer | 469.37              |
 | 5     | respirate_  | 453.25              |
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-05-17 10:20:07 UTC_
+_Last updated at 2026-05-24 09:20:53 UTC_

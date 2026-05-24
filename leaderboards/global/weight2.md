@@ -14,7 +14,7 @@
 | 10    | qu4ttromila               | 🐳 bluewhale | 303.81        | 2023-03-17 23:18:19 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)           |
 | 11    | vagdy                     | 🐳 bluewhale | 303.68        | 2026-01-09 18:48:49 | ![buhl00n](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/buhl00n.png)                 |
 | 12    | disappointingtrash        | 🐳 bluewhale | 303.67        | 2026-02-12 06:24:53 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                     |
-| 13    | cimgu                     | 🐳 bluewhale | 303.56        | 2025-02-09 04:29:50 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)           |
+| 13    | cumgi                     | 🐳 bluewhale | 303.56        | 2025-02-09 04:29:50 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)           |
 | 14    | huuuuuuuuuuuuuuuuuuuuuurz | 🐳 bluewhale | 303.51        | 2024-01-05 01:43:59 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                     |
 | 15    | ranctious                 | 🐳 bluewhale | 303.43        | 2026-01-28 22:32:30 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                       |
 | 16    | ranctious                 | 🐳 bluewhale | 303.36        | 2026-04-11 13:44:04 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                       |
@@ -103,4 +103,4 @@
 | 99    | leanmeister               | 🐳 bluewhale | 287.63        | 2025-02-22 02:58:30 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)           |
 | 100   | qu4ttromila               | 🐳 bluewhale | 287.55        | 2023-07-23 10:03:48 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)           |
 
-_Last updated at 2026-05-10 08:55:50 UTC_
+_Last updated at 2026-05-24 09:20:49 UTC_

@@ -13,7 +13,7 @@
 | 9     | 🧜‍♀️ mermaid         | 2.65          | kishma9               | 2023-12-04 11:12:58 |
 | 10    | 🦴 bone            | 1.97          | derinturitierutz      | 2025-08-28 05:53:44 |
 | 11    | 🧥 coat            | 1.85          | gstaman911            | 2025-01-01 13:14:00 |
-| 12    | 🐈‍⬛ blackcat        | 1.84          | cimgu                 | 2025-12-13 14:59:41 |
+| 12    | 🐈‍⬛ blackcat        | 1.84          | cumgi                 | 2025-12-13 14:59:41 |
 | 13    | 🧴 sunscreenbottle | 1.40          | fishingalt            | 2025-08-26 18:53:00 |
 | 14    | 🧋 bobacup         | 1.03          | derinturitierutz      | 2025-08-25 16:20:37 |
 | 15    | 🦂 scorpion        | 0.92          | fishingalt            | 2025-08-28 08:12:44 |
@@ -33,14 +33,14 @@
 | 29    | 🐊 crocodile       | 0.21          | suavvvvv              | 2024-03-05 17:44:44 |
 | 30    | 🌵 cactus          | 0.19          | breadworms            | 2025-08-26 21:41:29 |
 | 30    | 🕶️ darksunglasses  | 0.19          | leanmeister           | 2023-09-03 10:41:13 |
-| 32    | 🍥 sanddollar      | 0.17          | cimgu                 | 2025-08-26 16:13:12 |
+| 32    | 🍥 sanddollar      | 0.17          | cumgi                 | 2025-08-26 16:13:12 |
 | 32    | 🦢 swan            | 0.17          | lluuucy               | 2024-07-15 15:39:04 |
 | 34    | 🦭 seal            | 0.15          | dazedforevermore      | 2024-01-28 16:20:04 |
 | 35    | 🪁 kite            | 0.12          | destin357             | 2025-06-29 13:18:44 |
 | 36    | 🦇 bat             | 0.11          | fishingalt            | 2026-03-22 09:34:41 |
 | 36    | 🩲 briefs          | 0.11          | derinturitierutz      | 2024-07-31 17:15:58 |
 | 38    | 🧣 scarf           | 0.10          | ryebreadward          | 2023-12-25 05:27:44 |
-| 39    | 🐝 bee             | 0.09          | cimgu                 | 2025-08-26 20:24:32 |
+| 39    | 🐝 bee             | 0.09          | cumgi                 | 2025-08-26 20:24:32 |
 | 39    | 🐬 dolphin         | 0.09          | fishingalt            | 2023-12-22 20:00:52 |
 | 39    | 🍄 oceanplant      | 0.09          | miiiiisho             | 2024-01-24 19:44:13 |
 | 39    | 🌻 sunflower       | 0.09          | divra__               | 2024-06-22 14:36:26 |
@@ -128,4 +128,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-05-10 08:56:04 UTC_
+_Last updated at 2026-05-24 09:18:42 UTC_
