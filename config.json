@@ -1,6 +1,6 @@
 {
 	"twitch_chat": {
-		"6daves": {
+		"6davesdl": {
 			"twitchid": "893094510",
 			"logs_instances": [
 				{
@@ -241,6 +241,10 @@
 				{
 					"url": "https://logs.twitchmetrics.xyz",
 					"logs_added": "2026/2"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2026/6"
 				}
 			],
 			"fishweek_limit": 10,
@@ -318,7 +322,7 @@
 			"checkfdata": true,
 			"board_enabled": true
 		},
-		"dev0p_": {
+		"devroyalty": {
 			"twitchid": "189456668",
 			"logs_instances": [
 				{
