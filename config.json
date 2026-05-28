@@ -23,6 +23,33 @@
 			"checkfdata": true,
 			"board_enabled": false
 		},
+		"7niss": {
+			"twitchid": "824594608",
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2026/5"
+				},
+				{
+					"url": "https://logs.susgee.dev",
+					"logs_added": "2026/5"
+				},
+				{
+					"url": "https://logs.folhinhabot.com",
+					"logs_added": "2026/5"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2026/5"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/5"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
 		"aaurie": {
 			"twitchid": "222788698",
 			"logs_instances": [
