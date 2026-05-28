@@ -9,10 +9,10 @@
 | 5     | bubinga                   | 95          |
 | 6     | benciee                   | 94          |
 | 7     | fonuwu                    | 83          |
-| 7     | jacobzzbzz                | 83          |
+| 7     | jayayseaohbe              | 83          |
 | 7     | kevinlukejager            | 83          |
 | 10    | blu_inx                   | 80          |
-| 11    | poons_s                   | 78          |
+| 11    | poons_sssssssssssssssssss | 78          |
 | 12    | jr_mime                   | 73          |
 | 12    | rottarded                 | 73          |
 | 14    | gorillapark               | 72          |
@@ -58,4 +58,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2026-05-20 19:32:25 UTC_
+_Last updated at 2026-05-28 11:31:15 UTC_

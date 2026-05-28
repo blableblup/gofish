@@ -6,21 +6,21 @@
 | 2 🥈  | vaiastol           | 87          |
 | 3 🥉  | eelacy             | 79          |
 | 4     | divra__            | 70          |
-| 5     | garout             | 64          |
-| 6     | ichezero           | 57          |
-| 7     | hahppyy            | 53          |
-| 7 🆕  | zfk770             | 53          |
-| 9 ⬇   | pengeg             | 52          |
-| 10 ⬇  | nicestnarwhal      | 47          |
-| 11 ⬇  | julialuxel         | 40          |
-| 11 ⬇  | leanmeister        | 40          |
-| 13 ⬇  | dazedforevermore   | 38          |
-| 14 ⬇  | redreignss         | 37          |
-| 15 ⬇  | thespecialone22    | 30          |
-| 16 ⬇  | leastsussyimposter | 26          |
-| 17 ⬇  | milesdotcom        | 13          |
-| 18 ⬇  | ryakarr            | 11          |
+| 5 ⬆   | thespecialone22    | 69 (+39)    |
+| 6 ⬇   | garout             | 64          |
+| 7 ⬇   | ichezero           | 57          |
+| 8 ⬇   | hahppyy            | 53          |
+| 8 ⬇   | zfk770             | 53          |
+| 10 ⬇  | pengeg             | 52          |
+| 11 ⬇  | nicestnarwhal      | 47          |
+| 12 ⬇  | julialuxel         | 40          |
+| 12 ⬇  | leanmeister        | 40          |
+| 14 ⬇  | dazedforevermore   | 38          |
+| 15 ⬇  | redreignss         | 37          |
+| 16    | leastsussyimposter | 26          |
+| 17    | milesdotcom        | 13          |
+| 18    | ryakarr            | 11          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-05-20 19:32:25 UTC_
+_Last updated at 2026-05-28 11:31:15 UTC_

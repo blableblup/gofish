@@ -43,7 +43,7 @@
 | 39    | ninjaross             | 44          |
 | 40    | ouacewi               | 43          |
 | 41    | houseofleaves         | 42          |
-| 42    | cimgu                 | 40          |
+| 42    | cumgi                 | 40          |
 | 43    | fvkdylan              | 39          |
 | 44    | idini                 | 36          |
 | 45    | elisworm              | 34          |
@@ -62,4 +62,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2026-05-06 08:21:06 UTC_
+_Last updated at 2026-05-28 11:31:15 UTC_
