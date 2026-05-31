@@ -2,31 +2,31 @@
 
 | Rank | Fish              | Weight in lbs | Player              | Date in UTC         |
 |:-----|:------------------|:--------------|:--------------------|:--------------------|
-| 82   | 🐠 tropicalfish   | 5.13          | jakthejanitor       | 2026-05-23 05:28:28 |
-| 81   | 🐢 turtle         | 31.32         | jakthejanitor       | 2026-05-23 02:55:12 |
-| 80   | 🐟 fish           | 1.82          | wombatbrownies      | 2026-05-22 21:03:56 |
-| 79   | 🪝 hook           | 1.40          | jakthejanitor       | 2026-05-22 17:39:21 |
-| 78   | 🐡 blowfish       | 24.82         | jakthejanitor       | 2026-05-21 21:08:14 |
-| 77   | 🦞 lobster        | 57.23         | miyabwah            | 2026-05-21 02:45:17 |
-| 76   | 🦐 shrimp         | 4.03          | jakthejanitor       | 2026-05-21 00:07:59 |
-| 75   | 🎏 lure           | 0.09          | jakthejanitor       | 2026-05-20 23:12:12 |
-| 74   | 🐊 crocodile      | 13.34         | wombatbrownies      | 2026-05-17 16:50:18 |
-| 73   | 🧦 socks          | 0.25          | jakthejanitor       | 2026-05-16 09:40:01 |
-| 72   | 💀 skull          | 7.33          | jakthejanitor       | 2026-05-16 06:54:51 |
-| 71   | 🩴 thongsandal    | 0.63          | jakthejanitor       | 2026-05-16 01:45:48 |
-| 70   | 🧽 sponge         | 17.82         | jakthejanitor       | 2026-05-15 02:28:24 |
-| 69   | 🐚 shell          | 0.80          | miyabwah            | 2026-05-15 01:06:36 |
-| 68   | 🦀 crab           | 0.58          | jakthejanitor       | 2026-05-10 19:01:54 |
-| 67   | 🐬 dolphin        | 65.60         | jakthejanitor       | 2026-05-03 08:02:47 |
-| 66   | 🐍 snake          | 13.46         | jakthejanitor       | 2026-05-03 00:54:38 |
-| 65   | 🦑 squid          | 36.02         | jakthejanitor       | 2026-04-30 07:15:03 |
-| 64   | 🐳 bluewhale      | 32.76         | jakthejanitor       | 2026-04-30 00:45:29 |
-| 63   | 🪨 rock           | 25.03         | jakthejanitor       | 2026-04-28 17:31:34 |
-| 62   | 🦈 shark          | 93.27         | jakthejanitor       | 2026-04-28 02:07:11 |
-| 61   | 🐌 snail          | 1.73          | goopy777            | 2026-04-27 00:07:41 |
-| 60   | 🥫 cannedfood     | 0.37          | miyabwah            | 2026-04-26 18:35:23 |
-| 59   | 🦪 oyster         | 2.61          | jakthejanitor       | 2026-04-26 05:16:09 |
-| 58   | 🐸 frog           | 1.57          | akasamoyed          | 2026-04-26 01:49:28 |
+| 82   | 💀 skull          | 2.81          | miyabwah            | 2026-05-29 18:31:23 |
+| 81   | 🦞 lobster        | 37.59         | rainedparade        | 2026-05-29 01:44:25 |
+| 80   | 🐟 fish           | 14.65         | miyabwah            | 2026-05-28 23:54:45 |
+| 79   | 🐚 shell          | 2.42          | goopy777            | 2026-05-27 01:27:34 |
+| 78   | 🐸 frog           | 4.61          | jakthejanitor       | 2026-05-24 05:01:38 |
+| 77   | 🐠 tropicalfish   | 5.13          | jakthejanitor       | 2026-05-23 05:28:28 |
+| 76   | 🐢 turtle         | 31.32         | jakthejanitor       | 2026-05-23 02:55:12 |
+| 75   | 🪝 hook           | 1.40          | jakthejanitor       | 2026-05-22 17:39:21 |
+| 74   | 🐡 blowfish       | 24.82         | jakthejanitor       | 2026-05-21 21:08:14 |
+| 73   | 🦐 shrimp         | 4.03          | jakthejanitor       | 2026-05-21 00:07:59 |
+| 72   | 🎏 lure           | 0.09          | jakthejanitor       | 2026-05-20 23:12:12 |
+| 71   | 🐊 crocodile      | 13.34         | wombatbrownies      | 2026-05-17 16:50:18 |
+| 70   | 🧦 socks          | 0.25          | jakthejanitor       | 2026-05-16 09:40:01 |
+| 69   | 🩴 thongsandal    | 0.63          | jakthejanitor       | 2026-05-16 01:45:48 |
+| 68   | 🧽 sponge         | 17.82         | jakthejanitor       | 2026-05-15 02:28:24 |
+| 67   | 🦀 crab           | 0.58          | jakthejanitor       | 2026-05-10 19:01:54 |
+| 66   | 🐬 dolphin        | 65.60         | jakthejanitor       | 2026-05-03 08:02:47 |
+| 65   | 🐍 snake          | 13.46         | jakthejanitor       | 2026-05-03 00:54:38 |
+| 64   | 🦑 squid          | 36.02         | jakthejanitor       | 2026-04-30 07:15:03 |
+| 63   | 🐳 bluewhale      | 32.76         | jakthejanitor       | 2026-04-30 00:45:29 |
+| 62   | 🪨 rock           | 25.03         | jakthejanitor       | 2026-04-28 17:31:34 |
+| 61   | 🦈 shark          | 93.27         | jakthejanitor       | 2026-04-28 02:07:11 |
+| 60   | 🐌 snail          | 1.73          | goopy777            | 2026-04-27 00:07:41 |
+| 59   | 🥫 cannedfood     | 0.37          | miyabwah            | 2026-04-26 18:35:23 |
+| 58   | 🦪 oyster         | 2.61          | jakthejanitor       | 2026-04-26 05:16:09 |
 | 57   | 🧞‍♂️ genie          | 42.62         | jakthejanitor       | 2026-04-24 17:57:15 |
 | 56   | 🧃 beveragebox    | 6.90          | jakthejanitor       | 2026-04-23 17:03:13 |
 | 55   | 🐙 octopus        | 0.53          | akasamoyed          | 2026-04-22 00:26:28 |
@@ -85,4 +85,4 @@
 | 2    | 🪶 feather        | 0.43          | jellyuh             | 2025-01-02 09:31:14 |
 | 1    | 🧣 scarf          | 0.16          | goopy777            | 2024-12-29 00:40:05 |
 
-_Last updated at 2026-05-24 09:20:52 UTC_
+_Last updated at 2026-05-31 10:08:49 UTC_

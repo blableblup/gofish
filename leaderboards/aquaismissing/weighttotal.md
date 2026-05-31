@@ -10,18 +10,18 @@
 | 6     | velantix*     | 801.23              |
 | 7     | poggu_        | 706.03              |
 | 8     | stofeyxd*     | 663.82              |
-| 9     | aquaismissing | 660.06 (+29.47)     |
+| 9     | aquaismissing | 660.06              |
 | 10    | desxyne       | 607.21              |
-| 11    | likedom_      | 550.73              |
+| 11    | likedom_      | 577.49 (+26.76)     |
 | 12    | dom1torii     | 466.41              |
 | 13    | aistyrax3     | 423.39              |
 | 14    | ggmagician    | 410.11              |
 | 15    | kaitechpl     | 335.44              |
-| 16 ⬆  | kargalay      | 278.88 (+42.67)     |
-| 17 ⬇  | yyaaaaaaaas   | 254.07              |
-| 18    | ojack18       | 231.87 (+13.37)     |
+| 16    | kargalay      | 280.93 (+2.05)      |
+| 17    | yyaaaaaaaas   | 254.07              |
+| 18    | ojack18       | 231.87              |
 | 19    | buck101_      | 200.63              |
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-05-24 09:20:53 UTC_
+_Last updated at 2026-05-31 10:10:37 UTC_

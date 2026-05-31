@@ -17,22 +17,22 @@
 | 12    | yoimlee            | 43        |
 | 14    | milesdotcom        | 42        |
 | 15    | ichezero           | 40        |
-| 16    | redreignss         | 38        |
-| 17    | julialuxel         | 37        |
-| 17    | ryakarr            | 37        |
-| 17 ⬆  | thespecialone22    | 37 (+6)   |
-| 20 ⬇  | brontiiide         | 34        |
-| 20    | zfk770             | 34 (+3)   |
-| 22 ⬇  | obama              | 31        |
+| 16 ⬆  | ryakarr            | 39 (+2)   |
+| 16 ⬆  | thespecialone22    | 39 (+2)   |
+| 18 ⬇  | redreignss         | 38        |
+| 19 ⬇  | julialuxel         | 37        |
+| 20    | zfk770             | 35 (+1)   |
+| 21 ⬇  | brontiiide         | 34        |
+| 22    | obama              | 31        |
 | 23    | larvaew            | 29        |
-| 24    | bubinga            | 25        |
-| 25 🆕 | crustymilk         | 21        |
-| 25    | gstaman911         | 21        |
-| 25    | rird_              | 21        |
-| 28 ⬇  | fvkdylan           | 20        |
+| 24 ⬆  | crustymilk         | 26 (+5)   |
+| 25 ⬇  | bubinga            | 25        |
+| 26 ⬇  | gstaman911         | 21        |
+| 26 ⬇  | rird_              | 21        |
+| 28    | fvkdylan           | 20        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-05-24 09:20:50 UTC_
+_Last updated at 2026-05-31 10:06:57 UTC_

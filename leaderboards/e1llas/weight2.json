@@ -123,7 +123,7 @@
 		"fishid": 169716,
 		"chatid": 97,
 		"date": "2025-04-30T09:39:54Z",
-		"rank": 96
+		"rank": 97
 	},
 	"169950": {
 		"player": "e1llas",
@@ -165,7 +165,7 @@
 		"fishid": 170786,
 		"chatid": 134,
 		"date": "2025-05-05T10:32:09Z",
-		"rank": 88
+		"rank": 89
 	},
 	"170788": {
 		"player": "e1llas",
@@ -277,7 +277,7 @@
 		"fishid": 171905,
 		"chatid": 161,
 		"date": "2025-05-09T12:49:07Z",
-		"rank": 83
+		"rank": 84
 	},
 	"172247": {
 		"player": "envtt",
@@ -445,7 +445,7 @@
 		"fishid": 173019,
 		"chatid": 199,
 		"date": "2025-05-13T19:31:05Z",
-		"rank": 95
+		"rank": 96
 	},
 	"173456": {
 		"player": "envtt",
@@ -459,7 +459,7 @@
 		"fishid": 173456,
 		"chatid": 205,
 		"date": "2025-05-15T13:08:01Z",
-		"rank": 87
+		"rank": 88
 	},
 	"173492": {
 		"player": "envtt",
@@ -473,7 +473,7 @@
 		"fishid": 173492,
 		"chatid": 208,
 		"date": "2025-05-15T16:20:05Z",
-		"rank": 98
+		"rank": 99
 	},
 	"173585": {
 		"player": "e1llas",
@@ -543,7 +543,7 @@
 		"fishid": 174045,
 		"chatid": 223,
 		"date": "2025-05-17T21:37:39Z",
-		"rank": 93
+		"rank": 94
 	},
 	"174197": {
 		"player": "e1llas",
@@ -627,7 +627,7 @@
 		"fishid": 176494,
 		"chatid": 261,
 		"date": "2025-05-28T19:55:54Z",
-		"rank": 92
+		"rank": 93
 	},
 	"176568": {
 		"player": "eqcit",
@@ -725,7 +725,7 @@
 		"fishid": 177426,
 		"chatid": 290,
 		"date": "2025-06-03T12:19:32Z",
-		"rank": 97
+		"rank": 98
 	},
 	"177570": {
 		"player": "eqcit",
@@ -767,7 +767,7 @@
 		"fishid": 177828,
 		"chatid": 303,
 		"date": "2025-06-05T16:32:56Z",
-		"rank": 85
+		"rank": 86
 	},
 	"177998": {
 		"player": "eqcit",
@@ -837,7 +837,7 @@
 		"fishid": 179037,
 		"chatid": 319,
 		"date": "2025-06-12T14:00:05Z",
-		"rank": 99
+		"rank": 100
 	},
 	"179074": {
 		"player": "envtt",
@@ -921,7 +921,7 @@
 		"fishid": 189608,
 		"chatid": 367,
 		"date": "2025-07-24T14:31:39Z",
-		"rank": 94
+		"rank": 95
 	},
 	"214686": {
 		"player": "gofishgamer",
@@ -991,7 +991,7 @@
 		"fishid": 214713,
 		"chatid": 392,
 		"date": "2025-11-10T03:44:16Z",
-		"rank": 90
+		"rank": 91
 	},
 	"214721": {
 		"player": "gofishgamer",
@@ -1033,7 +1033,7 @@
 		"fishid": 214734,
 		"chatid": 401,
 		"date": "2025-11-10T06:19:39Z",
-		"rank": 86
+		"rank": 87
 	},
 	"214736": {
 		"player": "gofishgamer",
@@ -1159,21 +1159,7 @@
 		"fishid": 215167,
 		"chatid": 434,
 		"date": "2025-11-12T09:52:09Z",
-		"rank": 84
-	},
-	"215168": {
-		"player": "gofishgamer",
-		"playerid": 2944,
-		"weight": 23.7,
-		"bot": "gofishgame",
-		"fishtype": "🐊",
-		"fishname": "crocodile",
-		"catchtype": "normal",
-		"chat": "e1llas",
-		"fishid": 215168,
-		"chatid": 435,
-		"date": "2025-11-12T09:54:19Z",
-		"rank": 100
+		"rank": 85
 	},
 	"215492": {
 		"player": "respirate_",
@@ -1369,7 +1355,7 @@
 		"fishid": 216138,
 		"chatid": 492,
 		"date": "2025-11-17T01:04:03Z",
-		"rank": 91
+		"rank": 92
 	},
 	"216150": {
 		"player": "respirate_",
@@ -1397,6 +1383,20 @@
 		"fishid": 217546,
 		"chatid": 497,
 		"date": "2025-11-23T18:08:43Z",
-		"rank": 89
+		"rank": 90
+	},
+	"264086": {
+		"player": "besceny",
+		"playerid": 6912,
+		"weight": 32.58,
+		"bot": "gofishgame",
+		"fishtype": "🐢",
+		"fishname": "turtle",
+		"catchtype": "normal",
+		"chat": "e1llas",
+		"fishid": 264086,
+		"chatid": 520,
+		"date": "2026-05-25T04:03:43Z",
+		"rank": 83
 	}
 }

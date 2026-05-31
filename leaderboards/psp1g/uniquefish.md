@@ -5,10 +5,10 @@
 | 1 🥇  | nndiana*                  | 98        |
 | 2 🥈  | bubinga                   | 89        |
 | 3 🥉  | mazzo_tv                  | 86        |
-| 4     | jacobzzbzz                | 84        |
+| 4     | jayayseaohbe              | 84        |
 | 5     | huuuuuuuuuuuuuuuuuuuuuurz | 79        |
-| 6 ⬆   | luneckie                  | 75 (+2)   |
-| 7 ⬇   | feelsaceman               | 74        |
+| 6     | luneckie                  | 76 (+1)   |
+| 7     | feelsaceman               | 74        |
 | 8     | bluberry                  | 72        |
 | 9     | caprisen_*                | 71        |
 | 9     | flunke_                   | 71        |
@@ -16,12 +16,12 @@
 | 12    | sandwichsundays*          | 70        |
 | 13    | zwockel01                 | 69        |
 | 14    | joshuabzz                 | 68        |
-| 14 ⬆  | lobuhtomy                 | 68 (+1)   |
-| 16 ⬇  | blu_inx                   | 67        |
-| 16 ⬇  | gorillapark               | 67        |
-| 16 ⬇  | llikotesnecil             | 67        |
-| 16 ⬇  | pengeg                    | 67        |
-| 16 ⬇  | theevirus                 | 67        |
+| 14    | lobuhtomy                 | 68        |
+| 16    | blu_inx                   | 67        |
+| 16    | gorillapark               | 67        |
+| 16    | llikotesnecil             | 67        |
+| 16    | pengeg                    | 67        |
+| 16    | theevirus                 | 67        |
 | 21    | ratot                     | 66        |
 | 22    | divra__                   | 63        |
 | 23    | angus_lpc                 | 62        |
@@ -30,9 +30,9 @@
 | 26    | eeziiii                   | 58        |
 | 26    | kevinlukejager            | 58        |
 | 26    | markenzy01                | 58        |
-| 26 ⬆  | poons_sssssssssssssssssss | 58 (+1)   |
+| 26    | poons_sssssssssssssssssss | 58        |
 | 26    | veny2lbs                  | 58        |
-| 31 ⬇  | iflya320                  | 57        |
+| 31    | iflya320                  | 57        |
 | 32    | benciee                   | 56        |
 | 32    | creepycode*               | 56        |
 | 32    | deo7gen                   | 56        |
@@ -57,4 +57,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-05-24 09:20:51 UTC_
+_Last updated at 2026-05-31 10:06:57 UTC_

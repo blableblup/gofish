@@ -28,8 +28,8 @@
 | 24    | 🦠 plankton       | 20.89         | elisworm       | 2025-11-10 01:09:27 |
 | 25    | 🐠 tropicalfish   | 19.15         | respirate_     | 2025-11-11 06:03:12 |
 | 26    | 🦦 otter          | 17.18         | xopowosidim667 | 2024-12-10 11:11:08 |
-| 27    | 🕷️ spider         | 14.69         | gofishgamer    | 2025-11-15 05:55:59 |
-| 28    | 🥒 seacucumber    | 14.36         | mersufy        | 2025-05-03 17:06:56 |
+| 27 ⬆  | 🥒 seacucumber    | 16.34 (+1.98) | mersufy        | 2026-05-26 20:57:22 |
+| 28 ⬇  | 🕷️ spider         | 14.69         | gofishgamer    | 2025-11-15 05:55:59 |
 | 29    | 🪼 jellyfish      | 14.11         | envtt          | 2025-06-11 18:50:00 |
 | 30    | 🧊 icecube        | 10.48         | eqcit          | 2024-12-13 15:21:31 |
 | 31    | 💀 skull          | 9.74          | envtt          | 2025-05-01 13:32:27 |
@@ -45,23 +45,23 @@
 | 41    | 🪝 hook           | 3.15          | eqcit          | 2025-05-14 12:34:21 |
 | 42    | 🦀 crab           | 2.98          | wavehearts     | 2025-01-01 11:22:12 |
 | 43    | ☂️ umbrella       | 2.86          | e1llas         | 2025-05-13 06:13:22 |
-| 44 ⬆  | ☘️ clover         | 2.40 (+2.19)  | e1llas         | 2026-05-22 17:45:40 |
-| 45 ⬇  | 🧦 socks          | 1.92          | wavehearts     | 2024-12-30 23:00:36 |
-| 46 ⬇  | 🍁 leaf           | 1.88          | gofishgamer    | 2025-11-05 11:48:59 |
-| 47 ⬇  | 🥪 sandwich       | 1.81          | 0pasha_top     | 2025-05-20 18:45:51 |
-| 48 ⬇  | 🩰 balletshoes    | 1.52          | e1llas         | 2025-05-06 09:59:25 |
-| 49 ⬇  | 🩴 thongsandal    | 1.46          | eqcit          | 2025-06-06 22:15:29 |
-| 50 ⬇  | 👢 boot           | 1.20          | eqcit          | 2024-12-13 16:11:21 |
-| 51 ⬇  | 🪀 bobber         | 1.17          | envtt          | 2025-06-23 16:28:15 |
-| 51 🆕 | 🌷 tulip          | 1.17          | e1llas         | 2026-05-20 10:31:50 |
-| 53 ⬇  | 🥫 cannedfood     | 1.12          | eqcit          | 2024-12-20 22:15:48 |
-| 54 ⬇  | 🧤 gloves         | 0.95          | xopowosidim667 | 2024-12-08 11:30:05 |
-| 55 ⬇  | 📱 iphone         | 0.89          | e1llas         | 2025-06-23 16:14:57 |
-| 56 ⬇  | 🌿 seaweed        | 0.79          | e1llas         | 2025-06-04 03:09:27 |
-| 57 ⬇  | 🧵 wireline       | 0.50          | envtt          | 2025-06-24 08:17:06 |
-| 58 ⬇  | 🪶 feather        | 0.48          | eqcit          | 2025-05-29 18:53:46 |
-| 59 ⬇  | 🌻 sunflower      | 0.10          | e1llas         | 2025-07-23 17:42:30 |
+| 44    | ☘️ clover         | 2.40          | e1llas         | 2026-05-22 17:45:40 |
+| 45    | 🧦 socks          | 1.92          | wavehearts     | 2024-12-30 23:00:36 |
+| 46    | 🍁 leaf           | 1.88          | gofishgamer    | 2025-11-05 11:48:59 |
+| 47    | 🥪 sandwich       | 1.81          | 0pasha_top     | 2025-05-20 18:45:51 |
+| 48    | 🩰 balletshoes    | 1.52          | e1llas         | 2025-05-06 09:59:25 |
+| 49    | 🩴 thongsandal    | 1.46          | eqcit          | 2025-06-06 22:15:29 |
+| 50    | 👢 boot           | 1.20          | eqcit          | 2024-12-13 16:11:21 |
+| 51    | 🪀 bobber         | 1.17          | envtt          | 2025-06-23 16:28:15 |
+| 51    | 🌷 tulip          | 1.17          | e1llas         | 2026-05-20 10:31:50 |
+| 53    | 🥫 cannedfood     | 1.12          | eqcit          | 2024-12-20 22:15:48 |
+| 54    | 🧤 gloves         | 0.95          | xopowosidim667 | 2024-12-08 11:30:05 |
+| 55    | 📱 iphone         | 0.89          | e1llas         | 2025-06-23 16:14:57 |
+| 56    | 🌿 seaweed        | 0.79          | e1llas         | 2025-06-04 03:09:27 |
+| 57    | 🧵 wireline       | 0.50          | envtt          | 2025-06-24 08:17:06 |
+| 58    | 🪶 feather        | 0.48          | eqcit          | 2025-05-29 18:53:46 |
+| 59    | 🌻 sunflower      | 0.10          | e1llas         | 2025-07-23 17:42:30 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-05-24 09:19:40 UTC_
+_Last updated at 2026-05-31 10:08:14 UTC_
