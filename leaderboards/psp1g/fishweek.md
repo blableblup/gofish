@@ -28,34 +28,36 @@
 | 23    | veny2lbs                  | 59          |
 | 25    | eeziiii                   | 54          |
 | 26    | disappointingtrash        | 48          |
+| 26 🆕 | inders                    | 48          |
 | 26    | thasbe                    | 48          |
-| 28    | harnas_pro                | 47          |
-| 28    | trendymirror              | 47          |
-| 28    | yopego                    | 47          |
-| 31    | wowitsdub                 | 46          |
-| 32    | jem_mp3                   | 45          |
-| 33    | joshuabzz                 | 44          |
-| 34    | r1cz4rd                   | 42          |
-| 34    | zwockel01                 | 42          |
-| 36    | theevirus                 | 41          |
-| 37    | commanda_u                | 37          |
-| 37    | elusiin                   | 37          |
-| 37    | pengeg                    | 37          |
-| 40    | ducksleazzy               | 34          |
-| 41    | divra__                   | 33          |
-| 42    | glorianeq                 | 32          |
-| 43    | 3mikel                    | 31          |
-| 44    | kitenbleh                 | 30          |
-| 45    | noconcept_                | 29          |
-| 46    | yvhsu                     | 28          |
-| 47    | bananenshak3              | 27          |
-| 47    | llikotesnecil             | 27          |
-| 49    | creepycode                | 26          |
-| 49    | flunke_                   | 26          |
-| 51    | angus_lpc                 | 24          |
-| 51    | seryxx                    | 24          |
-| 53    | afju*                     | 21          |
+| 29 ⬇  | harnas_pro                | 47          |
+| 29 ⬇  | trendymirror              | 47          |
+| 29 ⬇  | yopego                    | 47          |
+| 32 ⬇  | wowitsdub                 | 46          |
+| 33 ⬇  | jem_mp3                   | 45          |
+| 34 ⬇  | joshuabzz                 | 44          |
+| 35 ⬇  | r1cz4rd                   | 42          |
+| 35 ⬇  | zwockel01                 | 42          |
+| 37 ⬇  | theevirus                 | 41          |
+| 38 ⬇  | commanda_u                | 37          |
+| 38 ⬇  | elusiin                   | 37          |
+| 38 ⬇  | pengeg                    | 37          |
+| 38 🆕 | rascothebirb              | 37          |
+| 42 ⬇  | ducksleazzy               | 34          |
+| 43 ⬇  | divra__                   | 33          |
+| 44 ⬇  | glorianeq                 | 32          |
+| 45 ⬇  | 3mikel                    | 31          |
+| 46 ⬇  | kitenbleh                 | 30          |
+| 47 ⬇  | noconcept_                | 29          |
+| 48 ⬇  | yvhsu                     | 28          |
+| 49 ⬇  | bananenshak3              | 27          |
+| 49 ⬇  | llikotesnecil             | 27          |
+| 51 ⬇  | creepycode                | 26          |
+| 51 ⬇  | flunke_                   | 26          |
+| 53 ⬇  | angus_lpc                 | 24          |
+| 53 ⬇  | seryxx                    | 24          |
+| 55 ⬇  | afju*                     | 21          |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2026-05-28 11:31:15 UTC_
+_Last updated at 2026-06-03 21:18:07 UTC_
