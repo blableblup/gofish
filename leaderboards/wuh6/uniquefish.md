@@ -8,8 +8,8 @@
 | 4     | bubinga                   | 107       |
 | 5     | lobuhtomy                 | 101       |
 | 6     | huuuuuuuuuuuuuuuuuuuuuurz | 96        |
-| 7     | nndiana*                  | 93        |
-| 7     | wowitsdub                 | 93        |
+| 7     | wowitsdub                 | 94 (+1)   |
+| 8 ⬇   | nndiana*                  | 93        |
 | 9     | ranctious                 | 92        |
 | 10    | gorillapark               | 87        |
 | 11    | veny2lbs                  | 82        |
@@ -18,7 +18,7 @@
 | 14    | rancbot                   | 59        |
 | 15    | commanda_u                | 58        |
 | 15    | feelsaceman               | 58        |
-| 17    | supibot                   | 57        |
+| 15 ⬆  | supibot                   | 58 (+1)   |
 | 18    | bcarw                     | 54        |
 | 18    | bluberry                  | 54        |
 | 20    | blu_inx                   | 53        |
@@ -38,15 +38,15 @@
 | 34    | ratot                     | 33        |
 | 35    | araqs                     | 29        |
 | 35    | ceriise__                 | 29        |
-| 35 ⬆  | flunke_                   | 29 (+5)   |
-| 38 ⬇  | onarrrrrrrr               | 28        |
-| 38 ⬆  | paju1g                    | 28 (+1)   |
-| 38 ⬇  | wadupcaprise              | 28        |
-| 38 ⬇  | yvhsu                     | 28        |
-| 42 ⬇  | bcarbot                   | 26        |
-| 42 ⬇  | drecklo                   | 26        |
-| 42 ⬇  | funnywhitecat6*           | 26        |
-| 42 ⬇  | turboyy                   | 26        |
+| 35    | flunke_                   | 29        |
+| 38    | onarrrrrrrr               | 28        |
+| 38    | paju1g                    | 28        |
+| 38    | wadupcaprise              | 28        |
+| 38    | yvhsu                     | 28        |
+| 42    | bcarbot                   | 26        |
+| 42    | drecklo                   | 26        |
+| 42    | funnywhitecat6*           | 26        |
+| 42    | turboyy                   | 26        |
 | 46    | r3kko_                    | 23        |
 | 47    | streamelements            | 22        |
 | 48    | magicbluesword            | 21        |
@@ -59,4 +59,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-05-24 09:20:51 UTC_
+_Last updated at 2026-06-07 09:24:42 UTC_

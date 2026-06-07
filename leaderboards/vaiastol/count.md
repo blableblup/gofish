@@ -2,37 +2,37 @@
 
 | Rank  | Player                | Fish caught |
 |:------|:----------------------|:------------|
-| 1 🥇  | vaiastol              | 4577 (+48)  |
-| 2 🥈  | hahppyy               | 1743 (+7)   |
-| 3 🥉  | eelacy                | 1453 (+1)   |
-| 4     | garout                | 886 (+16)   |
+| 1 🥇  | vaiastol              | 4618 (+41)  |
+| 2 🥈  | hahppyy               | 1751 (+8)   |
+| 3 🥉  | eelacy                | 1453        |
+| 4     | garout                | 888 (+2)    |
 | 5     | proswift              | 661         |
 | 6     | divra__               | 645         |
-| 7     | leastsussyimposter    | 587 (+1)    |
+| 7     | leastsussyimposter    | 588 (+1)    |
 | 8     | leanmeister           | 507         |
 | 9     | nicestnarwhal         | 484         |
-| 10    | ichezero              | 361 (+33)   |
-| 11 ⬆  | thespecialone22       | 266 (+53)   |
-| 12 ⬇  | dazedforevermore      | 255         |
-| 13 ⬇  | pengeg                | 243         |
+| 10    | ichezero              | 389 (+28)   |
+| 11    | thespecialone22       | 268 (+2)    |
+| 12    | dazedforevermore      | 255         |
+| 13    | pengeg                | 243         |
 | 14    | redreignss            | 207         |
-| 15    | gstaman911            | 181 (+1)    |
+| 15    | gstaman911            | 181         |
 | 16    | yoimlee               | 169         |
-| 17    | ryakarr               | 161 (+17)   |
-| 18    | zfk770                | 152 (+15)   |
-| 19 ⬇  | milesdotcom           | 137         |
+| 17    | ryakarr               | 162 (+1)    |
+| 18    | zfk770                | 161 (+9)    |
+| 19    | milesdotcom           | 137         |
 | 20    | brontiiide            | 120         |
 | 21    | tiaguitos97           | 117         |
 | 22    | julialuxel            | 109         |
-| 23 ⬆  | crustymilk            | 63 (+12)    |
-| 23    | obama                 | 63          |
-| 25 ⬇  | bubinga               | 55          |
+| 23    | crustymilk            | 75 (+12)    |
+| 24 ⬇  | obama                 | 63          |
+| 25    | bubinga               | 55          |
 | 26    | rird_                 | 47          |
 | 27    | larvaew               | 45          |
 | 28    | fvkdylan              | 42          |
 | 29    | esmeohmy              | 34          |
 | 30    | houseofleaves*        | 29          |
-| 31    | j4song                | 27 (+2)     |
+| 30 ⬆  | j4song                | 29 (+2)     |
 | 32    | cyaniderx             | 23          |
 | 33    | ash__meow             | 22          |
 | 34    | drpasu                | 18          |
@@ -49,4 +49,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-05-31 10:08:52 UTC_
+_Last updated at 2026-06-07 09:24:44 UTC_

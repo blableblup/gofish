@@ -26,13 +26,13 @@
 | 21    | puzzlow               | 73        |
 | 23    | paras220              | 72        |
 | 23    | respirate_            | 72        |
+| 25 ⬆  | cutsekai              | 69 (+1)   |
 | 25    | gawblemachine         | 69        |
 | 25    | julialuxel            | 69        |
-| 27    | cutsekai              | 68 (+1)   |
-| 28 ⬇  | crazytown_bananapants | 67        |
-| 29    | esvelles              | 66 (+1)   |
-| 30 ⬇  | comiqq                | 65        |
-| 30 ⬇  | ryebreadward          | 65        |
+| 28    | crazytown_bananapants | 67        |
+| 28 ⬆  | esvelles              | 67 (+1)   |
+| 30    | comiqq                | 65        |
+| 30    | ryebreadward          | 65        |
 | 32    | mitgliederversammlung | 64        |
 | 33    | sussy_amonge          | 62        |
 | 34    | michael_bay65         | 60        |
@@ -53,4 +53,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-05-31 10:06:57 UTC_
+_Last updated at 2026-06-07 09:24:43 UTC_

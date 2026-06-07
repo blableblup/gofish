@@ -32,7 +32,7 @@
 | 28    | 🐧 penguin         | 41.98         | mangos4u    | 2024-12-27 00:40:18 |
 | 29    | 🦀 crab            | 36.25         | v6r_        | 2025-07-19 03:52:22 |
 | 30    | 🐡 blowfish        | 35.82         | ritaaww     | 2025-08-28 11:00:35 |
-| 31    | 🥒 seacucumber     | 30.76         | gofishgamer | 2025-07-30 21:02:09 |
+| 31    | 🥒 seacucumber     | 31.78 (+1.02) | v6r_        | 2026-06-04 21:48:09 |
 | 32    | 🐠 tropicalfish    | 29.62         | v6r_        | 2025-03-29 00:07:25 |
 | 33    | 🧽 sponge          | 27.80         | mangos4u    | 2025-08-05 21:42:41 |
 | 34    | 🧊 icecube         | 27.47         | solitahh    | 2024-12-27 18:15:58 |
@@ -54,7 +54,7 @@
 | 50    | 🧴 sunscreenbottle | 11.71         | v6r_        | 2025-08-25 14:03:05 |
 | 51    | 🧸 teddybear       | 11.42         | v6r_        | 2025-11-21 03:47:26 |
 | 52    | 🧃 beveragebox     | 11.41         | elisworm    | 2025-06-12 21:42:37 |
-| 53    | 🐌 snail           | 11.28         | v6r_        | 2025-08-03 01:24:26 |
+| 53    | 🐌 snail           | 11.40 (+0.12) | v6r_        | 2026-06-02 01:13:35 |
 | 54    | 🐦 cardinal        | 10.75         | sykelle     | 2024-12-19 22:23:58 |
 | 55    | 🩲 briefs          | 10.62         | solitahh    | 2025-08-20 00:40:43 |
 | 56    | 🐈‍⬛ blackcat        | 10.37         | mangos4u    | 2025-12-15 00:58:52 |
@@ -87,10 +87,10 @@
 | 83    | 🍎 apple           | 1.99          | mangos4u    | 2025-10-31 23:32:55 |
 | 84    | 👢 boot            | 1.98          | v6r_        | 2024-12-11 03:17:58 |
 | 84    | ⛸️ iceskate        | 1.98          | mangos4u    | 2026-01-10 22:24:38 |
-| 84 ⬆  | 🧦 socks           | 1.98 (+0.04)  | v6r_        | 2026-05-14 21:45:30 |
-| 87 ⬇  | 🌹 rose            | 1.96          | mangos4u    | 2025-09-26 03:03:48 |
-| 88 ⬇  | 🍃 deadleaves      | 1.94          | v6r_        | 2025-04-04 20:21:46 |
-| 88 ⬇  | 🪻 lupine          | 1.94          | mangos4u    | 2025-09-14 13:02:40 |
+| 84    | 🧦 socks           | 1.98          | v6r_        | 2026-05-14 21:45:30 |
+| 87    | 🌹 rose            | 1.96          | mangos4u    | 2025-09-26 03:03:48 |
+| 88    | 🍃 deadleaves      | 1.94          | v6r_        | 2025-04-04 20:21:46 |
+| 88    | 🪻 lupine          | 1.94          | mangos4u    | 2025-09-14 13:02:40 |
 | 90    | 🩰 balletshoes     | 1.93          | v6r_        | 2025-07-21 10:00:13 |
 | 91    | 🩴 thongsandal     | 1.92          | v6r_        | 2025-08-19 14:08:12 |
 | 92    | 🥪 sandwich        | 1.74          | ritaaww     | 2025-12-25 21:26:04 |
@@ -115,4 +115,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-05-17 10:19:47 UTC_
+_Last updated at 2026-06-07 09:23:54 UTC_

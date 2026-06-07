@@ -7,7 +7,7 @@
 | 3 🥉  | mazzo_tv                  | 86        |
 | 4     | jayayseaohbe              | 84        |
 | 5     | huuuuuuuuuuuuuuuuuuuuuurz | 79        |
-| 6     | luneckie                  | 76 (+1)   |
+| 6     | luneckie                  | 77 (+1)   |
 | 7     | feelsaceman               | 74        |
 | 8     | bluberry                  | 72        |
 | 9     | caprisen_*                | 71        |
@@ -57,4 +57,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-05-31 10:06:57 UTC_
+_Last updated at 2026-06-07 09:24:42 UTC_

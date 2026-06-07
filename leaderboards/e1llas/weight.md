@@ -10,8 +10,9 @@
 | 6     | jboy42o        | 🐊 crocodile | 136.17        | 2025-05-12 14:12:14 |
 | 7     | eqcit          | 🐙 octopus   | 127.37        | 2024-12-27 08:38:01 |
 | 8     | koenheylen     | 🐋 whale     | 110.79        | 2024-12-28 22:02:51 |
-| 9     | xopowosidim667 | 🦞 lobster   | 54.97         | 2024-12-15 14:53:40 |
+| 9 🆕  | besceny        | 🐳 bluewhale | 85.46         | 2026-06-05 11:29:34 |
+| 10 ⬇  | xopowosidim667 | 🦞 lobster   | 54.97         | 2024-12-15 14:53:40 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2026-05-24 09:19:12 UTC_
+_Last updated at 2026-06-07 09:23:01 UTC_

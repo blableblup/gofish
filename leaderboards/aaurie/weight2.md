@@ -31,76 +31,76 @@
 | 27    | boogie_310             | 🦕 sauropod  | 153.37        | 2025-03-22 05:44:33 |
 | 28    | dolp_fin               | 🐋 whale     | 142.23        | 2025-04-26 04:44:55 |
 | 29    | jeffbethyname69        | 🐋 whale     | 142.22        | 2025-04-12 01:49:54 |
-| 30 🆕 | honeytonguedbee        | 🦕 sauropod  | 141.90        | 2026-05-30 02:15:58 |
-| 31 ⬇  | twofistedtales         | 🐊 crocodile | 141.43        | 2025-09-19 02:20:33 |
-| 32 ⬇  | amatusz                | 🦕 sauropod  | 141.25        | 2026-05-09 03:19:40 |
-| 33 ⬇  | jeffbethyname69        | 🐊 crocodile | 140.64        | 2026-04-24 05:14:54 |
-| 34 ⬇  | preemalone             | 🐋 whale     | 139.51        | 2025-07-19 04:24:53 |
-| 35 ⬇  | jeffbethyname69        | 🐙 octopus   | 139.34        | 2025-10-31 03:03:20 |
-| 36 ⬇  | amatusz                | 🐋 whale     | 135.88        | 2025-11-21 06:33:09 |
-| 37 ⬇  | yaboieb27              | 🐊 crocodile | 134.04        | 2025-08-16 02:46:21 |
-| 38 ⬇  | bluezebra17            | 🐙 octopus   | 132.38        | 2025-07-11 07:14:57 |
-| 39 ⬇  | preemalone             | 🐋 whale     | 127.17        | 2025-05-27 06:17:08 |
-| 40 ⬇  | rustnroll              | 🐙 octopus   | 124.17        | 2025-03-17 03:55:34 |
-| 41 ⬇  | hashmeer_              | 🐙 octopus   | 123.72        | 2025-04-04 17:59:37 |
-| 42 ⬇  | jeffbethyname69        | 🐊 crocodile | 123.09        | 2026-05-19 01:46:42 |
-| 43 ⬇  | aaurie                 | 🐊 crocodile | 121.92        | 2025-03-08 07:10:45 |
-| 44 ⬇  | theshadows86           | 🐉 dragon    | 120.67        | 2025-04-08 05:35:20 |
-| 45 ⬇  | amatusz                | 🐊 crocodile | 120.13        | 2026-03-20 04:49:27 |
-| 46 ⬇  | allspice_boatrace      | 🦕 sauropod  | 119.02        | 2025-04-21 04:45:57 |
-| 47 ⬇  | jeffbethyname69        | 🐙 octopus   | 118.72        | 2025-06-20 08:24:36 |
-| 48 ⬇  | rustnroll              | 🐋 whale     | 117.85        | 2025-03-07 02:11:09 |
-| 49 ⬇  | amatusz                | 🐳 bluewhale | 115.42        | 2026-05-22 02:24:46 |
-| 50 ⬇  | dolp_fin               | 🐙 octopus   | 115.23        | 2025-04-22 01:42:36 |
-| 51 ⬇  | amatusz                | 🦞 lobster   | 111.38        | 2026-04-04 03:24:11 |
-| 52 ⬇  | gofishgamer            | 🦈 shark     | 111.09        | 2025-11-26 01:30:41 |
-| 53 ⬇  | amatusz                | 🦭 seal      | 110.92        | 2026-02-27 03:32:47 |
-| 54 ⬇  | amatusz                | 🐋 whale     | 109.80        | 2026-03-09 07:12:43 |
-| 55 ⬇  | gofishgamer            | 🦭 seal      | 109.45        | 2025-12-02 09:31:53 |
-| 56 ⬇  | boogie_310             | 🦈 shark     | 108.55        | 2025-09-08 04:28:52 |
-| 57 ⬇  | lor_starcutter         | 🐊 crocodile | 108.29        | 2025-07-05 06:30:54 |
-| 58 ⬇  | amatusz                | 🐙 octopus   | 107.76        | 2025-10-07 05:41:32 |
-| 59 ⬇  | lor_starcutter         | 🐋 whale     | 106.73        | 2025-08-18 03:24:30 |
-| 60 ⬇  | dolp_fin               | 🐳 bluewhale | 106.17        | 2025-04-19 03:57:05 |
-| 61 ⬇  | jeffbethyname69        | 🐉 dragon    | 104.20        | 2025-03-25 01:53:36 |
-| 62 ⬇  | dolp_fin               | 🧞‍♂️ genie     | 104.01        | 2025-05-27 01:57:20 |
-| 63 ⬇  | curiouscorvidae        | 🦭 seal      | 103.37        | 2025-11-17 02:49:01 |
-| 64 ⬇  | amatusz                | 🐊 crocodile | 103.18        | 2026-05-15 01:24:48 |
-| 65 ⬇  | boogie_310             | 🐋 whale     | 102.44        | 2025-04-22 00:58:16 |
-| 66 ⬇  | dolp_fin               | 🐊 crocodile | 102.27        | 2025-05-20 09:42:45 |
-| 67 ⬇  | aaurie                 | 🐊 crocodile | 102.17        | 2025-03-07 05:16:33 |
-| 68 ⬇  | amatusz                | 🐋 whale     | 100.64        | 2025-09-08 04:48:46 |
-| 69 ⬇  | bluezebra17            | 🐙 octopus   | 100.40        | 2025-07-21 05:22:28 |
-| 70 ⬇  | jeffbethyname69        | 🪸 coral     | 99.19         | 2025-08-25 05:01:37 |
-| 71 ⬇  | dolp_fin               | 🐋 whale     | 99.00         | 2025-10-07 02:05:06 |
-| 72 ⬇  | dolp_fin               | 🦈 shark     | 98.87         | 2025-07-28 04:32:43 |
-| 73 ⬇  | dolp_fin               | 🐊 crocodile | 96.90         | 2025-07-12 03:28:31 |
-| 74 ⬇  | jeffbethyname69        | 🪸 coral     | 96.87         | 2025-08-26 05:30:10 |
-| 75 ⬇  | aaurie                 | 🐢 turtle    | 96.85         | 2025-05-12 04:04:56 |
-| 76 ⬇  | zharan_keating         | 🐙 octopus   | 96.52         | 2025-09-15 03:43:26 |
-| 77 ⬇  | sanfordthegrey         | 🐬 dolphin   | 96.28         | 2025-04-04 01:46:16 |
-| 78 🆕 | boogie_310             | 🐋 whale     | 95.95         | 2026-05-30 05:26:56 |
-| 79 ⬇  | jeffbethyname69        | 🐬 dolphin   | 95.69         | 2025-07-12 01:52:08 |
-| 80 ⬇  | victorvondoom313       | 🐊 crocodile | 95.52         | 2025-04-11 00:55:08 |
-| 81 ⬇  | abelito75              | 🐋 whale     | 94.61         | 2025-07-11 01:11:52 |
-| 82 ⬇  | gofishgamer            | 🐳 bluewhale | 93.79         | 2025-12-04 05:50:29 |
-| 83 ⬇  | guy_farting420         | 🪸 coral     | 93.59         | 2025-05-03 16:07:10 |
-| 84 ⬇  | dolp_fin               | 🐊 crocodile | 93.51         | 2025-08-04 07:27:18 |
-| 85 ⬇  | allspice_boatrace      | 🐊 crocodile | 92.06         | 2025-06-10 03:50:04 |
-| 86 ⬇  | nalls                  | 🐢 turtle    | 92.01         | 2025-07-11 02:24:31 |
-| 87 ⬇  | curiouscorvidae        | 🐋 whale     | 91.47         | 2025-10-11 03:05:19 |
-| 88 ⬇  | aaurie                 | 🐢 turtle    | 91.35         | 2025-07-04 04:35:10 |
-| 89 ⬇  | forceghostleia         | 🐙 octopus   | 87.74         | 2026-03-20 06:41:56 |
-| 90 ⬇  | allspice_boatrace      | 🐋 whale     | 86.50         | 2025-03-25 01:18:44 |
-| 91 ⬇  | eldiabloskillet        | 🦕 sauropod  | 86.33         | 2025-07-01 04:19:48 |
-| 92 ⬇  | preemalone             | 🐋 whale     | 86.02         | 2025-03-25 05:02:25 |
-| 93 ⬇  | one_guy_123            | 🐬 dolphin   | 86.00         | 2026-04-17 03:17:31 |
-| 94 ⬇  | allspice_boatrace      | 🐙 octopus   | 85.52         | 2025-05-05 03:25:18 |
-| 95 🆕 | theevilassvampire_vahd | 🦑 squid     | 85.17         | 2026-05-29 01:54:08 |
-| 96 ⬇  | mademooselle           | 🐢 turtle    | 84.32         | 2026-05-01 04:15:17 |
-| 97 ⬇  | zharan_keating         | 🦭 seal      | 83.83         | 2026-02-09 04:09:38 |
-| 98 ⬇  | jeffbethyname69        | 🪸 coral     | 83.56         | 2025-06-13 06:52:51 |
-| 99 ⬇  | amatusz                | 🐋 whale     | 83.49         | 2025-08-08 03:02:43 |
-| 100 ⬇ | jeffbethyname69        | 🦑 squid     | 83.08         | 2025-06-02 03:03:48 |
+| 30    | honeytonguedbee        | 🦕 sauropod  | 141.90        | 2026-05-30 02:15:58 |
+| 31    | twofistedtales         | 🐊 crocodile | 141.43        | 2025-09-19 02:20:33 |
+| 32    | amatusz                | 🦕 sauropod  | 141.25        | 2026-05-09 03:19:40 |
+| 33    | jeffbethyname69        | 🐊 crocodile | 140.64        | 2026-04-24 05:14:54 |
+| 34    | preemalone             | 🐋 whale     | 139.51        | 2025-07-19 04:24:53 |
+| 35    | jeffbethyname69        | 🐙 octopus   | 139.34        | 2025-10-31 03:03:20 |
+| 36    | amatusz                | 🐋 whale     | 135.88        | 2025-11-21 06:33:09 |
+| 37    | yaboieb27              | 🐊 crocodile | 134.04        | 2025-08-16 02:46:21 |
+| 38    | bluezebra17            | 🐙 octopus   | 132.38        | 2025-07-11 07:14:57 |
+| 39    | preemalone             | 🐋 whale     | 127.17        | 2025-05-27 06:17:08 |
+| 40    | rustnroll              | 🐙 octopus   | 124.17        | 2025-03-17 03:55:34 |
+| 41    | hashmeer_              | 🐙 octopus   | 123.72        | 2025-04-04 17:59:37 |
+| 42    | jeffbethyname69        | 🐊 crocodile | 123.09        | 2026-05-19 01:46:42 |
+| 43    | aaurie                 | 🐊 crocodile | 121.92        | 2025-03-08 07:10:45 |
+| 44    | theshadows86           | 🐉 dragon    | 120.67        | 2025-04-08 05:35:20 |
+| 45    | amatusz                | 🐊 crocodile | 120.13        | 2026-03-20 04:49:27 |
+| 46    | allspice_boatrace      | 🦕 sauropod  | 119.02        | 2025-04-21 04:45:57 |
+| 47    | jeffbethyname69        | 🐙 octopus   | 118.72        | 2025-06-20 08:24:36 |
+| 48    | rustnroll              | 🐋 whale     | 117.85        | 2025-03-07 02:11:09 |
+| 49    | amatusz                | 🐳 bluewhale | 115.42        | 2026-05-22 02:24:46 |
+| 50    | dolp_fin               | 🐙 octopus   | 115.23        | 2025-04-22 01:42:36 |
+| 51    | amatusz                | 🦞 lobster   | 111.38        | 2026-04-04 03:24:11 |
+| 52    | gofishgamer            | 🦈 shark     | 111.09        | 2025-11-26 01:30:41 |
+| 53    | amatusz                | 🦭 seal      | 110.92        | 2026-02-27 03:32:47 |
+| 54    | amatusz                | 🐋 whale     | 109.80        | 2026-03-09 07:12:43 |
+| 55    | gofishgamer            | 🦭 seal      | 109.45        | 2025-12-02 09:31:53 |
+| 56    | boogie_310             | 🦈 shark     | 108.55        | 2025-09-08 04:28:52 |
+| 57    | lor_starcutter         | 🐊 crocodile | 108.29        | 2025-07-05 06:30:54 |
+| 58    | amatusz                | 🐙 octopus   | 107.76        | 2025-10-07 05:41:32 |
+| 59    | lor_starcutter         | 🐋 whale     | 106.73        | 2025-08-18 03:24:30 |
+| 60    | dolp_fin               | 🐳 bluewhale | 106.17        | 2025-04-19 03:57:05 |
+| 61    | jeffbethyname69        | 🐉 dragon    | 104.20        | 2025-03-25 01:53:36 |
+| 62    | dolp_fin               | 🧞‍♂️ genie     | 104.01        | 2025-05-27 01:57:20 |
+| 63    | curiouscorvidae        | 🦭 seal      | 103.37        | 2025-11-17 02:49:01 |
+| 64    | amatusz                | 🐊 crocodile | 103.18        | 2026-05-15 01:24:48 |
+| 65    | boogie_310             | 🐋 whale     | 102.44        | 2025-04-22 00:58:16 |
+| 66    | dolp_fin               | 🐊 crocodile | 102.27        | 2025-05-20 09:42:45 |
+| 67    | aaurie                 | 🐊 crocodile | 102.17        | 2025-03-07 05:16:33 |
+| 68    | amatusz                | 🐋 whale     | 100.64        | 2025-09-08 04:48:46 |
+| 69    | bluezebra17            | 🐙 octopus   | 100.40        | 2025-07-21 05:22:28 |
+| 70    | jeffbethyname69        | 🪸 coral     | 99.19         | 2025-08-25 05:01:37 |
+| 71    | dolp_fin               | 🐋 whale     | 99.00         | 2025-10-07 02:05:06 |
+| 72    | dolp_fin               | 🦈 shark     | 98.87         | 2025-07-28 04:32:43 |
+| 73 🆕 | boogie_310             | 🐋 whale     | 97.82         | 2026-06-06 01:26:09 |
+| 74 ⬇  | dolp_fin               | 🐊 crocodile | 96.90         | 2025-07-12 03:28:31 |
+| 75 ⬇  | jeffbethyname69        | 🪸 coral     | 96.87         | 2025-08-26 05:30:10 |
+| 76 ⬇  | aaurie                 | 🐢 turtle    | 96.85         | 2025-05-12 04:04:56 |
+| 77 ⬇  | zharan_keating         | 🐙 octopus   | 96.52         | 2025-09-15 03:43:26 |
+| 78 ⬇  | sanfordthegrey         | 🐬 dolphin   | 96.28         | 2025-04-04 01:46:16 |
+| 79 ⬇  | boogie_310             | 🐋 whale     | 95.95         | 2026-05-30 05:26:56 |
+| 80 ⬇  | jeffbethyname69        | 🐬 dolphin   | 95.69         | 2025-07-12 01:52:08 |
+| 81 ⬇  | victorvondoom313       | 🐊 crocodile | 95.52         | 2025-04-11 00:55:08 |
+| 82 ⬇  | abelito75              | 🐋 whale     | 94.61         | 2025-07-11 01:11:52 |
+| 83 ⬇  | gofishgamer            | 🐳 bluewhale | 93.79         | 2025-12-04 05:50:29 |
+| 84 ⬇  | guy_farting420         | 🪸 coral     | 93.59         | 2025-05-03 16:07:10 |
+| 85 ⬇  | dolp_fin               | 🐊 crocodile | 93.51         | 2025-08-04 07:27:18 |
+| 86 ⬇  | allspice_boatrace      | 🐊 crocodile | 92.06         | 2025-06-10 03:50:04 |
+| 87 ⬇  | nalls                  | 🐢 turtle    | 92.01         | 2025-07-11 02:24:31 |
+| 88 ⬇  | curiouscorvidae        | 🐋 whale     | 91.47         | 2025-10-11 03:05:19 |
+| 89 ⬇  | aaurie                 | 🐢 turtle    | 91.35         | 2025-07-04 04:35:10 |
+| 90 ⬇  | forceghostleia         | 🐙 octopus   | 87.74         | 2026-03-20 06:41:56 |
+| 91 ⬇  | allspice_boatrace      | 🐋 whale     | 86.50         | 2025-03-25 01:18:44 |
+| 92 ⬇  | eldiabloskillet        | 🦕 sauropod  | 86.33         | 2025-07-01 04:19:48 |
+| 93 ⬇  | preemalone             | 🐋 whale     | 86.02         | 2025-03-25 05:02:25 |
+| 94 ⬇  | one_guy_123            | 🐬 dolphin   | 86.00         | 2026-04-17 03:17:31 |
+| 95 ⬇  | allspice_boatrace      | 🐙 octopus   | 85.52         | 2025-05-05 03:25:18 |
+| 96 ⬇  | theevilassvampire_vahd | 🦑 squid     | 85.17         | 2026-05-29 01:54:08 |
+| 97 ⬇  | mademooselle           | 🐢 turtle    | 84.32         | 2026-05-01 04:15:17 |
+| 98 ⬇  | zharan_keating         | 🦭 seal      | 83.83         | 2026-02-09 04:09:38 |
+| 99 ⬇  | jeffbethyname69        | 🪸 coral     | 83.56         | 2025-06-13 06:52:51 |
+| 100 ⬇ | amatusz                | 🐋 whale     | 83.49         | 2025-08-08 03:02:43 |
 
-_Last updated at 2026-05-31 10:10:39 UTC_
+_Last updated at 2026-06-07 09:24:41 UTC_

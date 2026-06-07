@@ -59,7 +59,7 @@
 | 55    | 🦴 bone            | 14.50         | destin357                | 2025-08-28 15:22:01 |
 | 56    | 🐌 snail           | 14.24         | yliathim*                | 2022-12-05 13:25:16 |
 | 57    | 🎱 8ball           | 12.85         | qu4ttromila              | 2024-03-28 16:36:34 |
-| 58    | 🕶️ darksunglasses  | 12.80         | kishma9                  | 2025-08-25 00:11:30 |
+| 57 ⬆  | 🕶️ darksunglasses  | 12.85 (+0.05) | esvelles                 | 2026-06-05 13:18:51 |
 | 59    | 🧸 teddybear       | 11.98         | destin357                | 2025-02-26 03:30:12 |
 | 60    | 🐦 cardinal        | 11.96         | julialuxel               | 2024-04-25 00:21:16 |
 | 61    | 🧃 beveragebox     | 11.87         | leanmeister              | 2025-06-12 05:56:46 |
@@ -128,4 +128,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-05-24 09:20:16 UTC_
+_Last updated at 2026-06-07 09:23:09 UTC_

@@ -14,7 +14,7 @@
 | 10    | 🐬 dolphin        | 97.90         | eqcit          | 2025-06-01 17:39:10 |
 | 11    | 🦑 squid          | 76.95         | e1llas         | 2025-05-16 01:44:24 |
 | 12    | 🐟 fish           | 63.70         | envtt          | 2025-05-20 14:20:40 |
-| 13    | 🦞 lobster        | 56.04         | eqcit          | 2025-05-29 08:01:44 |
+| 13    | 🦞 lobster        | 60.43 (+4.39) | besceny        | 2026-05-31 10:22:25 |
 | 14    | 🦭 seal           | 54.69         | gofishgamer    | 2025-11-10 05:08:30 |
 | 15    | 🪨 rock           | 41.08         | envtt          | 2025-05-10 16:20:17 |
 | 16    | 🦪 oyster         | 36.58         | envtt          | 2025-05-05 13:32:33 |
@@ -28,8 +28,8 @@
 | 24    | 🦠 plankton       | 20.89         | elisworm       | 2025-11-10 01:09:27 |
 | 25    | 🐠 tropicalfish   | 19.15         | respirate_     | 2025-11-11 06:03:12 |
 | 26    | 🦦 otter          | 17.18         | xopowosidim667 | 2024-12-10 11:11:08 |
-| 27 ⬆  | 🥒 seacucumber    | 16.34 (+1.98) | mersufy        | 2026-05-26 20:57:22 |
-| 28 ⬇  | 🕷️ spider         | 14.69         | gofishgamer    | 2025-11-15 05:55:59 |
+| 27    | 🥒 seacucumber    | 16.34         | mersufy        | 2026-05-26 20:57:22 |
+| 28    | 🕷️ spider         | 14.69         | gofishgamer    | 2025-11-15 05:55:59 |
 | 29    | 🪼 jellyfish      | 14.11         | envtt          | 2025-06-11 18:50:00 |
 | 30    | 🧊 icecube        | 10.48         | eqcit          | 2024-12-13 15:21:31 |
 | 31    | 💀 skull          | 9.74          | envtt          | 2025-05-01 13:32:27 |
@@ -64,4 +64,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-05-31 10:08:14 UTC_
+_Last updated at 2026-06-07 09:24:37 UTC_

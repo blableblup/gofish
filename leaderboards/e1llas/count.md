@@ -10,10 +10,10 @@
 | 6     | respirate_     | 36          |
 | 7     | jboy42o        | 30          |
 | 8     | xopowosidim667 | 21          |
-| 9     | mersufy        | 18 (+1)     |
-| 10    | koenheylen     | 11          |
-| 11 🆕 | besceny        | 10          |
+| 9     | mersufy        | 18          |
+| 10 ⬆  | besceny        | 14 (+4)     |
+| 11 ⬇  | koenheylen     | 11          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-05-31 10:08:51 UTC_
+_Last updated at 2026-06-07 09:24:44 UTC_
