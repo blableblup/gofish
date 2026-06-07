@@ -45,6 +45,10 @@
 				{
 					"url": "https://logs.twitchmetrics.xyz",
 					"logs_added": "2026/5"
+				},
+				{
+					"url": "https://logs.itsbr0dyy.dev",
+					"logs_added": "2026/6"
 				}
 			],
 			"checkfdata": true,
@@ -104,6 +108,10 @@
 				{
 					"url": "https://logs.twitchmetrics.xyz",
 					"logs_added": "no logs added found"
+				},
+				{
+					"url": "https://logs.itsbr0dyy.dev",
+					"logs_added": "2026/6"
 				}
 			],
 			"fishweek_limit": 10,
@@ -205,6 +213,17 @@
 			"weighttotal_limit": 1800,
 			"checkfdata": true,
 			"board_enabled": true
+		},
+		"brogboi": {
+			"twitchid": "61826654",
+			"logs_instances": [
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/6"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
 		},
 		"buhl00n": {
 			"twitchid": "428208278",
@@ -339,6 +358,10 @@
 				{
 					"url": "https://logs.twitchmetrics.xyz",
 					"logs_added": "no logs added found"
+				},
+				{
+					"url": "https://logs.itsbr0dyy.dev",
+					"logs_added": "2026/6"
 				}
 			],
 			"fishweek_limit": 10,
@@ -375,6 +398,10 @@
 				{
 					"url": "https://logs.twitchmetrics.xyz",
 					"logs_added": "no logs added found"
+				},
+				{
+					"url": "https://logs.itsbr0dyy.dev",
+					"logs_added": "2026/6"
 				}
 			],
 			"checkfdata": true,
@@ -438,6 +465,10 @@
 				{
 					"url": "https://logs.twitchmetrics.xyz",
 					"logs_added": "2026/1"
+				},
+				{
+					"url": "https://logs.itsbr0dyy.dev",
+					"logs_added": "2026/6"
 				}
 			],
 			"fishweek_limit": 10,
@@ -501,6 +532,41 @@
 			"unique_limit": 60,
 			"checkfdata": false,
 			"board_enabled": true
+		},
+		"itsbr0dyy": {
+			"twitchid": "1039455040",
+			"logs_instances": [
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/6"
+				},
+				{
+					"url": "https://logs.folhinhabot.com",
+					"logs_added": "2026/6"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2026/6"
+				},
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2026/6"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2026/6"
+				},
+				{
+					"url": "https://logs.susgee.dev",
+					"logs_added": "2026/6"
+				},
+				{
+					"url": "https://logs.itsbr0dyy.dev",
+					"logs_added": "2026/6"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
 		},
 		"jackwhalebreaker": {
 			"twitchid": "729305888",
@@ -748,6 +814,10 @@
 				{
 					"url": "https://logs.twitchmetrics.xyz",
 					"logs_added": "2026/1"
+				},
+				{
+					"url": "https://logs.itsbr0dyy.dev",
+					"logs_added": "2026/6"
 				}
 			],
 			"fishweek_limit": 10,
@@ -787,6 +857,10 @@
 				{
 					"url": "https://logs.twitchmetrics.xyz",
 					"logs_added": "no logs added found"
+				},
+				{
+					"url": "https://logs.itsbr0dyy.dev",
+					"logs_added": "2026/6"
 				}
 			],
 			"checkfdata": true,
@@ -938,6 +1012,10 @@
 				{
 					"url": "https://logs.susgee.dev",
 					"logs_added": "2026/3"
+				},
+				{
+					"url": "https://logs.itsbr0dyy.dev",
+					"logs_added": "2026/6"
 				}
 			],
 			"weighttotal_limit": 1800,
@@ -962,6 +1040,10 @@
 				{
 					"url": "https://logs.twitchmetrics.xyz",
 					"logs_added": "no logs added found"
+				},
+				{
+					"url": "https://logs.itsbr0dyy.dev",
+					"logs_added": "2026/6"
 				}
 			],
 			"checkfdata": true,
@@ -1090,6 +1172,10 @@
 				{
 					"url": "https://logs.spanix.team",
 					"logs_added": "2026/5"
+				},
+				{
+					"url": "https://logs.itsbr0dyy.dev",
+					"logs_added": "2026/6"
 				}
 			],
 			"checkfdata": true,
@@ -1187,6 +1273,10 @@
 				{
 					"url": "https://logs.twitchmetrics.xyz",
 					"logs_added": "2026/1"
+				},
+				{
+					"url": "https://logs.itsbr0dyy.dev",
+					"logs_added": "2026/6"
 				}
 			],
 			"checkfdata": true,
@@ -1214,6 +1304,10 @@
 				{
 					"url": "https://logs.twitchmetrics.xyz",
 					"logs_added": "2026/1"
+				},
+				{
+					"url": "https://logs.itsbr0dyy.dev",
+					"logs_added": "2026/6"
 				}
 			],
 			"fishweek_limit": 10,
@@ -1309,6 +1403,10 @@
 				{
 					"url": "https://logs.twitchmetrics.xyz",
 					"logs_added": "no logs added found"
+				},
+				{
+					"url": "https://logs.itsbr0dyy.dev",
+					"logs_added": "2026/6"
 				}
 			],
 			"checkfdata": true,
