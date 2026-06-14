@@ -7,7 +7,7 @@
 | 3 🥉  | mazzo_tv                  | 86        |
 | 4     | jayayseaohbe              | 84        |
 | 5     | huuuuuuuuuuuuuuuuuuuuuurz | 79        |
-| 6     | luneckie                  | 77 (+1)   |
+| 6     | luneckie                  | 77        |
 | 7     | feelsaceman               | 74        |
 | 8     | bluberry                  | 72        |
 | 9     | caprisen_*                | 71        |
@@ -36,13 +36,13 @@
 | 32    | benciee                   | 56        |
 | 32    | creepycode*               | 56        |
 | 32    | deo7gen                   | 56        |
+| 32 ⬆  | disappointingtrash        | 56 (+2)   |
 | 32    | elusiin                   | 56        |
 | 32    | rottarded                 | 56        |
-| 37    | deatron                   | 55        |
-| 38    | disappointingtrash        | 54        |
-| 38    | flovrek                   | 54        |
-| 38    | maksmusz*                 | 54        |
-| 38    | r1cz4rd                   | 54        |
+| 38 ⬇  | deatron                   | 55        |
+| 39 ⬇  | flovrek                   | 54        |
+| 39 ⬇  | maksmusz*                 | 54        |
+| 39 ⬇  | r1cz4rd                   | 54        |
 | 42    | euxoa                     | 53        |
 | 43    | faslker                   | 52        |
 | 43    | noconcept_                | 52        |
@@ -57,4 +57,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-06-07 09:24:42 UTC_
+_Last updated at 2026-06-14 09:21:04 UTC_

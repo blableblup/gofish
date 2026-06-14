@@ -2,29 +2,29 @@
 
 | Rank | Fish              | Weight in lbs | Player                 | Date in UTC         |
 |:-----|:------------------|:--------------|:-----------------------|:--------------------|
-| 76   | 🐋 whale          | 97.82         | boogie_310             | 2026-06-06 01:26:09 |
-| 75   | 🐙 octopus        | 55.98         | victorvondoom313       | 2026-06-06 01:26:01 |
-| 74   | 🌿 seaweed        | 0.75          | amatusz                | 2026-06-05 05:24:44 |
-| 73   | 🐚 shell          | 1.30          | amatusz                | 2026-06-05 04:15:35 |
-| 72   | 🐊 crocodile      | 50.45         | amatusz                | 2026-06-05 03:17:01 |
-| 71   | 💀 skull          | 9.44          | amatusz                | 2026-06-05 02:10:21 |
-| 70   | 🐟 fish           | 0.03          | amatusz                | 2026-06-02 06:16:04 |
-| 69   | 🦪 oyster         | 19.59         | boogie_310             | 2026-06-01 05:53:43 |
-| 68   | 🐠 tropicalfish   | 4.62          | amatusz                | 2026-06-01 05:03:39 |
-| 67   | 🦞 lobster        | 16.67         | amatusz                | 2026-06-01 03:17:02 |
-| 66   | 🎏 lure           | 0.51          | boogie_310             | 2026-06-01 03:05:31 |
-| 65   | 🕷️ spider         | 0.29          | amatusz                | 2026-06-01 02:07:52 |
-| 64   | 🐸 frog           | 4.70          | tonybaloney_1          | 2026-05-30 06:22:11 |
-| 63   | 🦐 shrimp         | 10.00         | wildturky82            | 2026-05-30 03:54:51 |
-| 62   | 🪝 hook           | 2.32          | abelito75              | 2026-05-30 03:53:51 |
-| 61   | 🦀 crab           | 2.45          | copaheal               | 2026-05-30 03:53:30 |
-| 60   | 🦕 sauropod       | 141.90        | honeytonguedbee        | 2026-05-30 02:15:58 |
-| 59   | 🦑 squid          | 85.17         | theevilassvampire_vahd | 2026-05-29 01:54:08 |
-| 58   | 🐍 snake          | 1.72          | therealreplica         | 2026-05-29 01:31:20 |
-| 57   | 🧦 socks          | 0.28          | onetriforce            | 2026-05-26 04:07:43 |
-| 56   | 🐌 snail          | 7.30          | amatusz                | 2026-05-25 06:24:00 |
-| 55   | 🥪 sandwich       | 0.04          | amatusz                | 2026-05-23 03:14:21 |
-| 54   | 🐢 turtle         | 35.81         | aaurie                 | 2026-05-23 01:23:22 |
+| 76   | 🐠 tropicalfish   | 5.07          | honeytonguedbee        | 2026-06-12 04:25:46 |
+| 75   | 🐊 crocodile      | 40.06         | curiouscorvidae        | 2026-06-12 01:43:09 |
+| 74   | 🐸 frog           | 2.32          | aaurie                 | 2026-06-12 01:34:49 |
+| 73   | 🐟 fish           | 3.37          | springbean00           | 2026-06-09 03:27:34 |
+| 72   | 🎏 lure           | 2.59          | guy_farting420         | 2026-06-09 03:25:14 |
+| 71   | 🪝 hook           | 0.31          | amatusz                | 2026-06-09 03:25:06 |
+| 70   | 🦐 shrimp         | 2.08          | guy_farting420         | 2026-06-09 02:00:05 |
+| 69   | 🧦 socks          | 0.69          | amatusz                | 2026-06-09 01:19:46 |
+| 68   | 🐢 turtle         | 17.13         | andrewlmao             | 2026-06-08 06:47:04 |
+| 67   | 🐋 whale          | 97.82         | boogie_310             | 2026-06-06 01:26:09 |
+| 66   | 🐙 octopus        | 55.98         | victorvondoom313       | 2026-06-06 01:26:01 |
+| 65   | 🌿 seaweed        | 0.75          | amatusz                | 2026-06-05 05:24:44 |
+| 64   | 🐚 shell          | 1.30          | amatusz                | 2026-06-05 04:15:35 |
+| 63   | 💀 skull          | 9.44          | amatusz                | 2026-06-05 02:10:21 |
+| 62   | 🦪 oyster         | 19.59         | boogie_310             | 2026-06-01 05:53:43 |
+| 61   | 🦞 lobster        | 16.67         | amatusz                | 2026-06-01 03:17:02 |
+| 60   | 🕷️ spider         | 0.29          | amatusz                | 2026-06-01 02:07:52 |
+| 59   | 🦀 crab           | 2.45          | copaheal               | 2026-05-30 03:53:30 |
+| 58   | 🦕 sauropod       | 141.90        | honeytonguedbee        | 2026-05-30 02:15:58 |
+| 57   | 🦑 squid          | 85.17         | theevilassvampire_vahd | 2026-05-29 01:54:08 |
+| 56   | 🐍 snake          | 1.72          | therealreplica         | 2026-05-29 01:31:20 |
+| 55   | 🐌 snail          | 7.30          | amatusz                | 2026-05-25 06:24:00 |
+| 54   | 🥪 sandwich       | 0.04          | amatusz                | 2026-05-23 03:14:21 |
 | 53   | 🐳 bluewhale      | 115.42        | amatusz                | 2026-05-22 02:24:46 |
 | 52   | 🦎 lizard         | 5.74          | aaurie                 | 2026-05-22 01:19:09 |
 | 51   | 🪳 cockroach      | 15.79         | amatusz                | 2026-05-18 06:24:17 |
@@ -79,4 +79,4 @@
 | 2    | 🎱 8ball          | 2.22          | mademooselle           | 2025-04-01 04:29:50 |
 | 1    | 🧵 wireline       | 0.04          | nalls                  | 2025-03-22 04:41:42 |
 
-_Last updated at 2026-06-07 09:24:45 UTC_
+_Last updated at 2026-06-14 09:21:06 UTC_

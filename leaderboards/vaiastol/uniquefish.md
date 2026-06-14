@@ -16,23 +16,23 @@
 | 12    | tiaguitos97        | 43        |
 | 12    | yoimlee            | 43        |
 | 14    | milesdotcom        | 42        |
-| 15    | ichezero           | 40        |
-| 16 ⬆  | ryakarr            | 39 (+2)   |
-| 16 ⬆  | thespecialone22    | 39 (+2)   |
-| 18 ⬇  | redreignss         | 38        |
-| 19 ⬇  | julialuxel         | 37        |
-| 20    | zfk770             | 35 (+1)   |
-| 21 ⬇  | brontiiide         | 34        |
+| 14 ⬆  | ryakarr            | 42 (+3)   |
+| 16 ⬇  | ichezero           | 41 (+1)   |
+| 17 ⬇  | thespecialone22    | 39        |
+| 18    | redreignss         | 38        |
+| 19    | julialuxel         | 37        |
+| 20    | zfk770             | 36 (+1)   |
+| 21    | brontiiide         | 34        |
 | 22    | obama              | 31        |
 | 23    | larvaew            | 29        |
-| 24 ⬆  | crustymilk         | 26 (+5)   |
-| 25 ⬇  | bubinga            | 25        |
-| 26 ⬇  | gstaman911         | 21        |
-| 26 ⬇  | rird_              | 21        |
+| 24    | crustymilk         | 26        |
+| 25    | bubinga            | 25        |
+| 26    | gstaman911         | 21        |
+| 26    | rird_              | 21        |
 | 28    | fvkdylan           | 20        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-05-31 10:06:57 UTC_
+_Last updated at 2026-06-14 09:21:04 UTC_

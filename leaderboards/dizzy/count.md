@@ -9,7 +9,7 @@
 | 5     | lolspers       | 621         |
 | 6     | iam_haunt      | 536         |
 | 7     | spanmer        | 366         |
-| 8     | ofaisalz       | 332         |
+| 8     | ofaisalz       | 333 (+1)    |
 | 9     | konsminator    | 326         |
 | 10    | notnownico     | 256         |
 | 11    | vagdy          | 254         |
@@ -56,4 +56,4 @@
 
 _Only showing fishers who caught >= 30 fish_
 
-_Last updated at 2026-05-10 08:55:48 UTC_
+_Last updated at 2026-06-14 09:20:05 UTC_

@@ -10,7 +10,7 @@
 | 6     | iam_haunt      | 10603.67            |
 | 7     | spanmer        | 7651.11             |
 | 8     | konsminator    | 7261.34             |
-| 9     | ofaisalz       | 5763.31             |
+| 9     | ofaisalz       | 5778.34 (+15.03)    |
 | 10    | vagdy          | 5318.19             |
 | 11    | notnownico     | 4425.01             |
 | 12    | hamoodhabibee  | 4262.07             |
@@ -58,4 +58,4 @@
 
 _Only showing fishers with a total weight of >= 500 lbs_
 
-_Last updated at 2026-05-24 09:20:53 UTC_
+_Last updated at 2026-06-14 09:21:03 UTC_

@@ -4,9 +4,9 @@
 |:------|:-------------------|:---------------|:--------------------------|:--------------------|
 | 1 🥇  | 🦑 squid           | 311.04         | eeziiii                   | 2024-12-25 06:20:38 |
 | 2 🥈  | 🐳 bluewhale       | 303.43         | ranctious                 | 2026-01-28 22:32:30 |
-| 3 🥉  | 🦕 sauropod        | 294.82 (+2.97) | wowitsdub                 | 2026-06-06 12:03:24 |
+| 3 🥉  | 🦕 sauropod        | 294.82         | wowitsdub                 | 2026-06-06 12:03:24 |
 | 4     | 🐻‍❄️ polarbear       | 284.71         | eeziiii                   | 2024-12-26 23:37:31 |
-| 5     | 🐉 dragon          | 282.76         | theevirus                 | 2025-11-19 13:27:46 |
+| 5     | 🐉 dragon          | 284.19 (+1.43) | ranctious                 | 2026-06-08 09:40:05 |
 | 6     | 🫎 moose           | 258.82         | eeziiii                   | 2025-03-18 19:39:14 |
 | 7     | 🐢 turtle          | 254.98         | lobuhtomy                 | 2025-09-05 16:45:33 |
 | 8     | 🐍 snake           | 247.95         | huuuuuuuuuuuuuuuuuuuuuurz | 2026-02-10 15:00:29 |
@@ -114,7 +114,7 @@
 | 110   | 🫐 bilberries      | 0.95           | bubinga                   | 2025-06-22 12:09:29 |
 | 111   | 🪶 feather         | 0.94           | womenfeet                 | 2025-02-15 18:29:30 |
 | 112   | 🐜 ant             | 0.82           | theevirus                 | 2025-08-31 05:49:08 |
-| 113   | 🍥 sanddollar      | 0.71           | gorillapark               | 2025-08-25 15:23:54 |
+| 113   | 🍥 sanddollar      | 0.73 (+0.02)   | bubinga                   | 2026-06-12 11:44:55 |
 | 114   | 🦂 scorpion        | 0.65           | iflya320                  | 2025-08-31 17:46:24 |
 | 115   | 🍇 crowberries     | 0.64           | larvaew                   | 2025-06-22 19:00:17 |
 | 116   | 🦟 mosquito        | 0.49           | wowitsdub                 | 2025-08-28 13:07:07 |
@@ -125,4 +125,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-06-07 09:24:29 UTC_
+_Last updated at 2026-06-14 09:21:48 UTC_

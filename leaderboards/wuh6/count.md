@@ -2,32 +2,32 @@
 
 | Rank  | Player                    | Fish caught |
 |:------|:--------------------------|:------------|
-| 1 🥇  | iflya320                  | 4970 (+1)   |
-| 2 🥈  | eeziiii                   | 4044 (+38)  |
-| 3 🥉  | bubinga                   | 3833 (+13)  |
-| 4     | theevirus                 | 3664 (+39)  |
-| 5     | ranctious                 | 3521 (+76)  |
+| 1 🥇  | iflya320                  | 4985 (+15)  |
+| 2 🥈  | eeziiii                   | 4083 (+39)  |
+| 3 🥉  | bubinga                   | 3853 (+20)  |
+| 4     | theevirus                 | 3717 (+53)  |
+| 5     | ranctious                 | 3604 (+83)  |
 | 6     | huuuuuuuuuuuuuuuuuuuuuurz | 2771        |
-| 7     | lobuhtomy                 | 2451 (+24)  |
-| 8     | wowitsdub                 | 2380 (+11)  |
-| 9     | nndiana*                  | 1634 (+25)  |
+| 7     | lobuhtomy                 | 2476 (+25)  |
+| 8     | wowitsdub                 | 2397 (+17)  |
+| 9     | nndiana*                  | 1641 (+7)   |
 | 10    | gorillapark               | 1499        |
-| 11    | veny2lbs                  | 953         |
-| 12    | creepycode*               | 861 (+17)   |
-| 13    | rancbot                   | 809 (+3)    |
+| 11    | veny2lbs                  | 954 (+1)    |
+| 12    | creepycode*               | 868 (+7)    |
+| 13    | rancbot                   | 814 (+5)    |
 | 14    | mazzo_tv                  | 567         |
 | 15    | caprisen_*                | 453         |
 | 16    | sandwichsundays*          | 400         |
-| 17    | feelsaceman               | 374 (+12)   |
+| 17    | feelsaceman               | 377 (+3)    |
 | 18    | blu_inx                   | 338         |
 | 19    | commanda_u                | 327         |
 | 20    | bluberry                  | 267         |
 | 21    | bcarw                     | 262         |
-| 22    | flovrek                   | 251 (+1)    |
-| 23    | supibot                   | 221 (+1)    |
+| 22    | flovrek                   | 251         |
+| 23    | supibot                   | 221         |
 | 24    | ocrw                      | 216         |
-| 25    | ewpert1                   | 211 (+1)    |
-| 26    | flvx_flux*                | 180 (+1)    |
+| 25    | ewpert1                   | 211         |
+| 26    | flvx_flux*                | 184 (+4)    |
 | 27    | poons_sssssssssssssssssss | 151         |
 | 28    | ceriise__                 | 150         |
 | 29    | thetaxmen                 | 148         |
@@ -56,7 +56,7 @@
 | 52    | cotovelo3                 | 41          |
 | 52    | rottarded                 | 41          |
 | 54    | pspisafemboy              | 38          |
-| 55    | xyqra                     | 35          |
+| 54 ⬆  | xyqra                     | 38 (+3)     |
 | 56    | mrsmalvic                 | 33          |
 | 57    | iflyb737                  | 32          |
 | 57    | pikausha                  | 32          |
@@ -65,10 +65,10 @@
 | 61    | ggmagician                | 22          |
 | 62    | buh_official_             | 18          |
 | 62    | lluuucy                   | 18          |
-| 64    | wiihxhx                   | 16 (+1)     |
-| 65    | larvaew                   | 14          |
-| 65 ⬆  | luneckie                  | 14 (+1)     |
-| 67 ⬇  | xd_2k                     | 13          |
+| 64    | wiihxhx                   | 16          |
+| 65    | luneckie                  | 15 (+1)     |
+| 66 ⬇  | larvaew                   | 14          |
+| 67    | xd_2k                     | 13          |
 | 68    | baerlings                 | 12          |
 | 69    | cozysocks398              | 11          |
 | 70    | gwincyy                   | 10          |
@@ -78,4 +78,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-06-07 09:24:43 UTC_
+_Last updated at 2026-06-14 09:20:05 UTC_

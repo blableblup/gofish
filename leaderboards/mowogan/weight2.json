@@ -305,7 +305,7 @@
 		"fishid": 189282,
 		"chatid": 269,
 		"date": "2025-07-23T00:26:25Z",
-		"rank": 91
+		"rank": 92
 	},
 	"189664": {
 		"player": "mowogan",
@@ -361,7 +361,7 @@
 		"fishid": 190097,
 		"chatid": 317,
 		"date": "2025-07-27T02:46:59Z",
-		"rank": 98
+		"rank": 99
 	},
 	"190330": {
 		"player": "konsminator",
@@ -516,20 +516,6 @@
 		"chatid": 403,
 		"date": "2025-08-10T06:24:00Z",
 		"rank": 52
-	},
-	"192988": {
-		"player": "konsminator",
-		"playerid": 3143,
-		"weight": 57.37,
-		"bot": "gofishgame",
-		"fishtype": "🐬",
-		"fishname": "dolphin",
-		"catchtype": "normal",
-		"chat": "mowogan",
-		"fishid": 192988,
-		"chatid": 419,
-		"date": "2025-08-13T17:24:04Z",
-		"rank": 100
 	},
 	"193022": {
 		"player": "konsminator",
@@ -725,7 +711,7 @@
 		"fishid": 196252,
 		"chatid": 531,
 		"date": "2025-08-30T10:25:32Z",
-		"rank": 84
+		"rank": 85
 	},
 	"196783": {
 		"player": "konsminator",
@@ -739,7 +725,7 @@
 		"fishid": 196783,
 		"chatid": 544,
 		"date": "2025-09-01T13:54:18Z",
-		"rank": 95
+		"rank": 96
 	},
 	"197699": {
 		"player": "konsminator",
@@ -781,7 +767,7 @@
 		"fishid": 198160,
 		"chatid": 562,
 		"date": "2025-09-09T08:35:01Z",
-		"rank": 88
+		"rank": 89
 	},
 	"198349": {
 		"player": "lolspers",
@@ -795,7 +781,7 @@
 		"fishid": 198349,
 		"chatid": 563,
 		"date": "2025-09-10T12:17:20Z",
-		"rank": 90
+		"rank": 91
 	},
 	"199776": {
 		"player": "mowogan",
@@ -851,7 +837,7 @@
 		"fishid": 201877,
 		"chatid": 598,
 		"date": "2025-09-25T15:04:15Z",
-		"rank": 85
+		"rank": 86
 	},
 	"202175": {
 		"player": "mowogan",
@@ -879,7 +865,7 @@
 		"fishid": 202408,
 		"chatid": 604,
 		"date": "2025-09-27T05:44:49Z",
-		"rank": 86
+		"rank": 87
 	},
 	"206951": {
 		"player": "mowogan",
@@ -1033,7 +1019,7 @@
 		"fishid": 227523,
 		"chatid": 846,
 		"date": "2025-12-23T23:19:24Z",
-		"rank": 92
+		"rank": 93
 	},
 	"228303": {
 		"player": "gofishgamer",
@@ -1061,7 +1047,7 @@
 		"fishid": 228367,
 		"chatid": 879,
 		"date": "2025-12-26T08:26:42Z",
-		"rank": 96
+		"rank": 97
 	},
 	"228589": {
 		"player": "gofishgamer",
@@ -1173,7 +1159,7 @@
 		"fishid": 234480,
 		"chatid": 1023,
 		"date": "2026-01-18T07:46:50Z",
-		"rank": 99
+		"rank": 100
 	},
 	"235997": {
 		"player": "konsminator",
@@ -1187,7 +1173,7 @@
 		"fishid": 235997,
 		"chatid": 1059,
 		"date": "2026-01-24T12:56:11Z",
-		"rank": 93
+		"rank": 94
 	},
 	"237543": {
 		"player": "mowogan",
@@ -1257,7 +1243,7 @@
 		"fishid": 240090,
 		"chatid": 1142,
 		"date": "2026-02-11T07:07:21Z",
-		"rank": 97
+		"rank": 98
 	},
 	"240414": {
 		"player": "konsminator",
@@ -1271,7 +1257,7 @@
 		"fishid": 240414,
 		"chatid": 1154,
 		"date": "2026-02-12T19:12:16Z",
-		"rank": 89
+		"rank": 90
 	},
 	"240775": {
 		"player": "lolspers",
@@ -1313,7 +1299,7 @@
 		"fishid": 243760,
 		"chatid": 1181,
 		"date": "2026-02-28T19:02:29Z",
-		"rank": 87
+		"rank": 88
 	},
 	"244713": {
 		"player": "lolspers",
@@ -1341,7 +1327,7 @@
 		"fishid": 245498,
 		"chatid": 1198,
 		"date": "2026-03-09T07:24:40Z",
-		"rank": 94
+		"rank": 95
 	},
 	"245511": {
 		"player": "mowogan",
@@ -1398,5 +1384,19 @@
 		"chatid": 1213,
 		"date": "2026-03-22T22:34:54Z",
 		"rank": 70
+	},
+	"266832": {
+		"player": "mowogan",
+		"playerid": 3811,
+		"weight": 64.05,
+		"bot": "gofishgame",
+		"fishtype": "🐋",
+		"fishname": "whale",
+		"catchtype": "normal",
+		"chat": "mowogan",
+		"fishid": 266832,
+		"chatid": 1231,
+		"date": "2026-06-10T00:52:54Z",
+		"rank": 84
 	}
 }

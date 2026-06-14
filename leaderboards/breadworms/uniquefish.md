@@ -13,7 +13,7 @@
 | 9     | breadworms            | 93        |
 | 9     | kishma9               | 93        |
 | 11    | osnyisdead            | 92        |
-| 12    | ytp_dl*               | 91        |
+| 11 ⬆  | ytp_dl*               | 92 (+1)   |
 | 13    | destin357             | 90        |
 | 14    | dougiefresh_83*       | 87        |
 | 15    | dazedforevermore      | 86        |
@@ -26,11 +26,11 @@
 | 21    | puzzlow               | 73        |
 | 23    | paras220              | 72        |
 | 23    | respirate_            | 72        |
-| 25 ⬆  | cutsekai              | 69 (+1)   |
+| 25    | cutsekai              | 69        |
 | 25    | gawblemachine         | 69        |
 | 25    | julialuxel            | 69        |
 | 28    | crazytown_bananapants | 67        |
-| 28 ⬆  | esvelles              | 67 (+1)   |
+| 28    | esvelles              | 67        |
 | 30    | comiqq                | 65        |
 | 30    | ryebreadward          | 65        |
 | 32    | mitgliederversammlung | 64        |
@@ -40,9 +40,9 @@
 | 35    | idini                 | 56        |
 | 35    | wisco9ers*            | 56        |
 | 38    | divra__               | 55        |
+| 38 ⬆  | fvkdylan              | 55 (+1)   |
 | 38    | ouacewi               | 55        |
-| 40    | fvkdylan              | 54        |
-| 40    | wcd0                  | 54        |
+| 41 ⬇  | wcd0                  | 54        |
 | 42    | bussinongnocap        | 53        |
 | 42    | lazuli672*            | 53        |
 | 44    | houseofleaves*        | 51        |
@@ -53,4 +53,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-06-07 09:24:43 UTC_
+_Last updated at 2026-06-14 09:21:04 UTC_

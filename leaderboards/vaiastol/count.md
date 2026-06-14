@@ -2,37 +2,37 @@
 
 | Rank  | Player                | Fish caught |
 |:------|:----------------------|:------------|
-| 1 🥇  | vaiastol              | 4618 (+41)  |
-| 2 🥈  | hahppyy               | 1751 (+8)   |
+| 1 🥇  | vaiastol              | 4668 (+50)  |
+| 2 🥈  | hahppyy               | 1757 (+6)   |
 | 3 🥉  | eelacy                | 1453        |
-| 4     | garout                | 888 (+2)    |
+| 4     | garout                | 898 (+10)   |
 | 5     | proswift              | 661         |
 | 6     | divra__               | 645         |
-| 7     | leastsussyimposter    | 588 (+1)    |
+| 7     | leastsussyimposter    | 588         |
 | 8     | leanmeister           | 507         |
 | 9     | nicestnarwhal         | 484         |
-| 10    | ichezero              | 389 (+28)   |
-| 11    | thespecialone22       | 268 (+2)    |
+| 10    | ichezero              | 405 (+16)   |
+| 11    | thespecialone22       | 327 (+59)   |
 | 12    | dazedforevermore      | 255         |
 | 13    | pengeg                | 243         |
 | 14    | redreignss            | 207         |
-| 15    | gstaman911            | 181         |
-| 16    | yoimlee               | 169         |
-| 17    | ryakarr               | 162 (+1)    |
-| 18    | zfk770                | 161 (+9)    |
+| 15 ⬆  | ryakarr               | 186 (+24)   |
+| 16 ⬇  | gstaman911            | 181         |
+| 17 ⬇  | yoimlee               | 169         |
+| 18    | zfk770                | 166 (+5)    |
 | 19    | milesdotcom           | 137         |
 | 20    | brontiiide            | 120         |
 | 21    | tiaguitos97           | 117         |
 | 22    | julialuxel            | 109         |
-| 23    | crustymilk            | 75 (+12)    |
-| 24 ⬇  | obama                 | 63          |
+| 23    | crustymilk            | 75          |
+| 24    | obama                 | 63          |
 | 25    | bubinga               | 55          |
-| 26    | rird_                 | 47          |
+| 26    | rird_                 | 48 (+1)     |
 | 27    | larvaew               | 45          |
 | 28    | fvkdylan              | 42          |
 | 29    | esmeohmy              | 34          |
-| 30    | houseofleaves*        | 29          |
-| 30 ⬆  | j4song                | 29 (+2)     |
+| 30    | j4song                | 30 (+1)     |
+| 31 ⬇  | houseofleaves*        | 29          |
 | 32    | cyaniderx             | 23          |
 | 33    | ash__meow             | 22          |
 | 34    | drpasu                | 18          |
@@ -49,4 +49,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-06-07 09:24:44 UTC_
+_Last updated at 2026-06-14 09:20:05 UTC_
