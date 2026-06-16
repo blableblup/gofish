@@ -2,14 +2,14 @@
 
 | Rank  | Player                    | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points       |
 |:------|:--------------------------|:------------|:-----------------|:-----------------|:-------------|
-| 1 🥇  | osnyisdead                | 72          | 51 (+1)          | 33 (+1)          | 283.5 (+1.5) |
+| 1 🥇  | osnyisdead                | 75 (+3)     | 51               | 33               | 292.5 (+9.0) |
 | 2 🥈  | lluuucy                   | 43          | 81               | 47               | 233.5        |
 | 3 🥉  | leanmeister               | 51          | 16               | 12               | 175.0        |
 | 4     | destin357                 | 34          | 25               | 7                | 130.5        |
 | 5     | puzzlow                   | 35          | 15               | 14               | 127.0        |
-| 6 ⬆   | esvelles                  | 32 (+2)     | 23 (+1)          | 7                | 122.5 (+7.0) |
-| 7 ⬇   | osnyatsky                 | 31          | 24               | 6                | 120.0        |
-| 8 ⬇   | derinturitierutz          | 35          | 7                | 15               | 119.5        |
+| 6     | esvelles                  | 32          | 24 (+1)          | 9 (+2)           | 124.5 (+2.0) |
+| 7     | osnyatsky                 | 31          | 24               | 6                | 120.0        |
+| 8     | derinturitierutz          | 35          | 7                | 15               | 119.5        |
 | 9     | derintu                   | 18          | 24               | 19               | 87.5         |
 | 10    | qu4ttromila               | 12          | 19               | 23               | 66.5         |
 | 11    | kishma9                   | 11          | 19               | 11               | 57.5         |
@@ -19,8 +19,8 @@
 | 15    | sicklymaidrobot           | 5           | 10               | 26               | 38.0         |
 | 16    | comiqq                    | 5           | 14               | 13               | 35.5         |
 | 17    | fishingalt                | 5           | 9                | 16               | 32.0         |
-| 18 ⬆  | ytp_dl                    | 2 (+1)      | 10 (+1)          | 16 (+1)          | 24.0 (+4.5)  |
-| 19 ⬇  | cumgi                     | 3           | 5                | 16               | 22.0         |
+| 18    | ytp_dl                    | 2           | 11 (+1)          | 16               | 25.0 (+1.0)  |
+| 19    | cumgi                     | 3           | 5                | 17 (+1)          | 22.5 (+0.5)  |
 | 20    | booty_bread               | 4           | 2                | 6                | 17.0         |
 | 21    | ryebreadward              | 3           | 3                | 6                | 15.0         |
 | 22    | larvaew                   | 3           | 2                | 5                | 13.5         |
@@ -38,12 +38,12 @@
 | 33    | osnyatsky                 | 0           | 2                | 5                | 4.5          |
 | 35    | elisworm                  | 1           | 1                | 0                | 4.0          |
 | 35    | paras220                  | 1           | 0                | 2                | 4.0          |
+| 37 ⬆  | breadworms                | 0           | 1 (+1)           | 5                | 3.5 (+1.0)   |
 | 37    | crazytown_bananapants     | 1           | 0                | 1                | 3.5          |
-| 38    | divra__                   | 1           | 0                | 0                | 3.0          |
-| 38    | pinksynthesis29           | 0           | 1                | 4                | 3.0          |
-| 38    | receipts                  | 0           | 2                | 2                | 3.0          |
-| 41    | breadworms                | 0           | 0                | 5                | 2.5          |
-| 41    | houseofleaves             | 0           | 2                | 1                | 2.5          |
+| 39 ⬇  | divra__                   | 1           | 0                | 0                | 3.0          |
+| 39 ⬇  | pinksynthesis29           | 0           | 1                | 4                | 3.0          |
+| 39 ⬇  | receipts                  | 0           | 2                | 2                | 3.0          |
+| 42 ⬇  | houseofleaves             | 0           | 2                | 1                | 2.5          |
 | 43    | bussinongnocap            | 0           | 1                | 2                | 2.0          |
 | 44    | michael_bay65             | 0           | 0                | 3                | 1.5          |
 | 45    | bapqo                     | 0           | 0                | 2                | 1.0          |
@@ -55,4 +55,4 @@
 | 48    | niiy                      | 0           | 0                | 1                | 0.5          |
 | 48    | shojan                    | 0           | 0                | 1                | 0.5          |
 
-_Last updated at 2026-06-10 18:25:08 UTC_
+_Last updated at 2026-06-16 16:08:57 UTC_
