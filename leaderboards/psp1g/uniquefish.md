@@ -35,14 +35,14 @@
 | 31    | iflya320                  | 57        |
 | 32    | benciee                   | 56        |
 | 32    | creepycode*               | 56        |
+| 32 ⬆  | deatron                   | 56 (+1)   |
 | 32    | deo7gen                   | 56        |
-| 32 ⬆  | disappointingtrash        | 56 (+2)   |
+| 32    | disappointingtrash        | 56        |
 | 32    | elusiin                   | 56        |
 | 32    | rottarded                 | 56        |
-| 38 ⬇  | deatron                   | 55        |
-| 39 ⬇  | flovrek                   | 54        |
-| 39 ⬇  | maksmusz*                 | 54        |
-| 39 ⬇  | r1cz4rd                   | 54        |
+| 39    | flovrek                   | 54        |
+| 39    | maksmusz*                 | 54        |
+| 39    | r1cz4rd                   | 54        |
 | 42    | euxoa                     | 53        |
 | 43    | faslker                   | 52        |
 | 43    | noconcept_                | 52        |
@@ -57,4 +57,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-06-14 09:21:04 UTC_
+_Last updated at 2026-06-21 09:43:21 UTC_

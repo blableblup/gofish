@@ -2,6 +2,7 @@
 
 | Rank | Fish              | Weight in lbs | Player                 | Date in UTC         |
 |:-----|:------------------|:--------------|:-----------------------|:--------------------|
+| 77   | 🧟 deadbody       | 32.64         | guy_farting420         | 2026-06-16 03:36:57 |
 | 76   | 🍄 oceanplant     | 17.09         | preemalone             | 2026-02-21 04:28:43 |
 | 75   | 🍄‍🟫 mushroom       | 15.75         | respirate_             | 2026-01-02 16:35:14 |
 | 74   | 🛒 shoppingcart   | 68.75         | metalxml               | 2025-12-08 04:30:22 |
@@ -79,4 +80,4 @@
 | 2    | 🪝 hook           | 1.12          | aaurie                 | 2025-03-07 01:01:14 |
 | 1    | 🐠 tropicalfish   | 21.11         | dwaynepounder          | 2025-03-06 08:02:47 |
 
-_Last updated at 2026-05-31 10:10:38 UTC_
+_Last updated at 2026-06-21 09:45:10 UTC_

@@ -22,21 +22,21 @@
 | 18    | 🧟 deadbody        | 118.60         | asthmaa                   | 2023-10-26 13:48:29 |
 | 19    | 🦇 bat             | 117.16         | funnywhitecat6            | 2024-10-11 11:31:43 |
 | 20    | 🦪 oyster          | 114.43         | wisdom_frog               | 2023-12-28 02:26:26 |
-| 21    | 🪸 coral           | 107.52 (+7.60) | defirence                 | 2026-06-12 08:31:56 |
+| 21    | 🪸 coral           | 107.52         | defirence                 | 2026-06-12 08:31:56 |
 | 22    | 👑 crown           | 77.95          | paju1g                    | 2026-05-10 20:53:23 |
 | 23    | 🐻‍❄️ polarbear       | 74.33          | bubinga                   | 2026-02-27 10:16:09 |
 | 24    | 🪨 rock            | 74.24          | caprisen_                 | 2023-10-15 09:18:51 |
 | 25    | 🐟 fish            | 63.75          | adziooooo                 | 2023-10-27 22:15:11 |
 | 26    | 📱 iphone          | 59.71          | jr_mime                   | 2024-03-28 00:49:03 |
 | 27    | 🦐 shrimp          | 57.04          | sqrtyraccoon              | 2023-08-27 10:26:59 |
-| 28    | 🛒 shoppingcart    | 51.50          | deatron                   | 2025-12-24 19:24:29 |
-| 29    | 🗡️ dagger          | 47.98          | hahppyy                   | 2024-03-16 21:42:51 |
-| 30    | 🐸 frog            | 47.43          | noconcept_                | 2023-11-06 23:41:42 |
-| 31    | 🦫 beaver          | 43.91          | ranctious                 | 2026-04-06 20:22:18 |
-| 32    | 🐧 penguin         | 41.83          | blu_inx                   | 2025-12-25 11:46:58 |
-| 33    | 🦀 crab            | 38.88          | d1ma1g*                   | 2023-09-03 11:19:10 |
-| 34    | 🐡 blowfish        | 35.81          | bluberry                  | 2024-08-13 06:51:36 |
-| 35    | 🎰 slotmachine     | 33.00          | mazzo_tv                  | 2025-12-17 08:07:21 |
+| 28 ⬆  | 🎰 slotmachine     | 52.00 (+19.00) | bamfzi                    | 2026-06-20 18:04:48 |
+| 29 ⬇  | 🛒 shoppingcart    | 51.50          | deatron                   | 2025-12-24 19:24:29 |
+| 30 ⬇  | 🗡️ dagger          | 47.98          | hahppyy                   | 2024-03-16 21:42:51 |
+| 31 ⬇  | 🐸 frog            | 47.43          | noconcept_                | 2023-11-06 23:41:42 |
+| 32 ⬇  | 🦫 beaver          | 43.91          | ranctious                 | 2026-04-06 20:22:18 |
+| 33 ⬇  | 🐧 penguin         | 41.83          | blu_inx                   | 2025-12-25 11:46:58 |
+| 34 ⬇  | 🦀 crab            | 38.88          | d1ma1g*                   | 2023-09-03 11:19:10 |
+| 35 ⬇  | 🐡 blowfish        | 35.81          | bluberry                  | 2024-08-13 06:51:36 |
 | 36    | 🥒 seacucumber     | 31.76          | jayayseaohbe              | 2026-05-06 19:15:07 |
 | 37    | 🕷️ spider          | 31.49          | poons_sssssssssssssssssss | 2026-03-16 10:39:24 |
 | 38    | 🧽 sponge          | 29.89          | nndiana                   | 2025-07-24 04:14:09 |
@@ -112,10 +112,10 @@
 | 108   | 🐜 ant             | 0.62           | bluberry                  | 2025-08-31 21:59:07 |
 | 108   | 🪿 goose           | 0.62           | llikotesnecil             | 2026-01-05 01:54:01 |
 | 110   | 🦟 mosquito        | 0.34           | bluberry                  | 2025-08-30 20:49:06 |
-| 111   | 🦗 cricket         | 0.19           | jayayseaohbe              | 2025-09-11 02:05:57 |
-| 112   | 🪰 fly             | 0.14           | nndiana                   | 2025-06-22 14:06:56 |
+| 111 ⬆ | 🪰 fly             | 0.20 (+0.06)   | totallynotaboykisser      | 2026-06-14 10:05:39 |
+| 112 ⬇ | 🦗 cricket         | 0.19           | jayayseaohbe              | 2025-09-11 02:05:57 |
 | 113   | 🐛 caterpillar     | 0.05           | jayayseaohbe              | 2025-08-31 00:03:26 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-06-14 09:21:42 UTC_
+_Last updated at 2026-06-21 09:45:48 UTC_

@@ -8,7 +8,7 @@
 | 4     | boogie_310             | 35        |
 | 5     | gofishgamer            | 32        |
 | 6     | allspice_boatrace      | 31        |
-| 7     | guy_farting420         | 25 (+1)   |
+| 7     | guy_farting420         | 27 (+2)   |
 | 8     | aaurie                 | 23        |
 | 9     | abelito75              | 22        |
 | 9     | bluezebra17            | 22        |
@@ -35,4 +35,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2026-06-14 09:21:05 UTC_
+_Last updated at 2026-06-21 09:43:21 UTC_

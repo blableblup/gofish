@@ -33,8 +33,8 @@
 | 29    | 🦫 beaver         | 44.84         | vaiastol           | 2024-10-19 16:31:30 |
 | 30    | 🐧 penguin        | 39.69         | vaiastol           | 2024-12-27 10:43:48 |
 | 31    | 🦀 crab           | 36.97         | julialuxel         | 2024-08-29 02:39:38 |
-| 32    | 🥒 seacucumber    | 31.74         | hahppyy            | 2024-08-09 18:09:50 |
-| 33    | 🐡 blowfish       | 31.46         | yoimlee            | 2024-08-30 16:54:37 |
+| 32 ⬆  | 🐡 blowfish       | 33.66 (+2.20) | thespecialone22    | 2026-06-16 21:12:24 |
+| 33 ⬇  | 🥒 seacucumber    | 31.74         | hahppyy            | 2024-08-09 18:09:50 |
 | 34    | 🧽 sponge         | 29.11         | obama              | 2025-05-26 22:11:41 |
 | 35    | 🕷️ spider         | 27.42         | ichezero           | 2026-06-03 11:24:12 |
 | 36    | 🧊 icecube        | 26.42         | vaiastol           | 2024-12-27 04:13:21 |
@@ -84,14 +84,14 @@
 | 80    | 👡 sandal         | 2.41          | hahppyy            | 2025-03-20 18:39:52 |
 | 81    | 🍃 deadleaves     | 2.30          | hahppyy            | 2025-11-04 00:39:16 |
 | 82    | 🦉 owl            | 2.08          | respirate_         | 2026-01-05 08:05:41 |
-| 82 ⬆  | 🐦‍⬛ robin          | 2.08 (+0.16)  | vaiastol           | 2026-06-12 14:58:43 |
-| 84 ⬇  | 🪿 goose          | 2.05          | vaiastol           | 2026-02-13 19:22:51 |
-| 85 ⬇  | 👟 sneaker        | 1.99          | luvwiiseat         | 2025-05-27 00:29:20 |
-| 85 ⬇  | 🧦 socks          | 1.99          | ichezero           | 2026-04-18 11:59:17 |
-| 87 ⬇  | 👢 boot           | 1.97          | yoimlee            | 2024-11-04 14:41:11 |
-| 88 ⬇  | 🌹 rose           | 1.92          | garout             | 2025-10-05 21:18:57 |
+| 82    | 🐦‍⬛ robin          | 2.08          | vaiastol           | 2026-06-12 14:58:43 |
+| 84    | 🪿 goose          | 2.05          | vaiastol           | 2026-02-13 19:22:51 |
+| 85    | 👟 sneaker        | 1.99          | luvwiiseat         | 2025-05-27 00:29:20 |
+| 85    | 🧦 socks          | 1.99          | ichezero           | 2026-04-18 11:59:17 |
+| 87    | 👢 boot           | 1.97          | yoimlee            | 2024-11-04 14:41:11 |
+| 88    | 🌹 rose           | 1.92          | garout             | 2025-10-05 21:18:57 |
 | 89    | 🥪 sandwich       | 1.91          | thespecialone22    | 2026-05-23 00:47:22 |
-| 90    | 🪻 lupine         | 1.90          | redreignss         | 2025-07-09 13:30:55 |
+| 90    | 🪻 lupine         | 1.90          | ryakarr            | 2025-07-09 13:30:55 |
 | 91    | 🩰 balletshoes    | 1.89          | brontiiide         | 2025-01-01 02:12:26 |
 | 92    | 🩴 thongsandal    | 1.87          | vaiastol           | 2024-07-31 16:40:54 |
 | 93    | ⛸️ iceskate       | 1.84          | hahppyy            | 2025-01-12 19:57:15 |
@@ -112,4 +112,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-06-14 09:21:19 UTC_
+_Last updated at 2026-06-21 09:46:41 UTC_

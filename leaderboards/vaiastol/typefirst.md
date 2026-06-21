@@ -13,8 +13,8 @@
 | 105  | 🦟 mosquito       | 0.31          | larvaew               | 2025-08-28 20:59:25 |
 | 104  | 🧋 bobacup        | 7.16          | garout                | 2025-08-28 11:52:35 |
 | 103  | 🦉 owl            | 0.85          | eelacy                | 2025-07-21 13:58:54 |
-| 102  | 🪁 kite           | 3.47          | redreignss            | 2025-07-09 14:49:09 |
-| 101  | 🪻 lupine         | 1.90          | redreignss            | 2025-07-09 13:30:55 |
+| 102  | 🪁 kite           | 3.47          | ryakarr               | 2025-07-09 14:49:09 |
+| 101  | 🪻 lupine         | 1.90          | ryakarr               | 2025-07-09 13:30:55 |
 | 100  | 🕸️ spiderweb      | 0.02          | vaiastol              | 2025-07-05 00:02:49 |
 | 99   | 🪰 fly            | 0.10          | hahppyy               | 2025-06-25 08:02:09 |
 | 98   | 🐛 caterpillar    | 0.42          | leanmeister           | 2025-06-22 19:10:14 |
@@ -116,4 +116,4 @@
 | 2    | 🦀 crab           | 2.81          | jr_mime               | 2024-07-28 10:52:00 |
 | 1    | 🐸 frog           | 1.70          | mitgliederversammlung | 2024-07-28 00:20:07 |
 
-_Last updated at 2026-05-10 08:59:16 UTC_
+_Last updated at 2026-06-21 09:45:09 UTC_

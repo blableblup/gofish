@@ -1,12 +1,12 @@
-### Most fish caught in ovrht's chat
+### Most fish caught in overhatecore's chat
 
 | Rank  | Player           | Fish caught |
 |:------|:-----------------|:------------|
 | 1 🥇  | ovrht            | 209         |
-| 2 🥈  | alenakuz03       | 115         |
+| 2 🥈  | alenakuz03       | 116 (+1)    |
 | 3 🥉  | sgv4bl           | 91          |
-| 4     | dan1lew          | 59          |
-| 5     | sidneya_         | 56          |
+| 4     | dan1lew          | 61 (+2)     |
+| 5     | sidneya_         | 57 (+1)     |
 | 6     | nightbot         | 51          |
 | 7     | wizzyy6          | 49          |
 | 8     | diloindys*       | 37          |
@@ -17,11 +17,12 @@
 | 13    | offwhiteairforc3 | 19          |
 | 14    | k1lk4_           | 17          |
 | 14    | wenlygga         | 17          |
-| 16    | ewwwedd          | 13          |
-| 17    | helloimteto      | 11          |
-| 17    | kvgch            | 11          |
-| 17    | pelme44ka        | 11          |
+| 16 🆕 | overhatecore     | 15          |
+| 17 ⬇  | ewwwedd          | 13          |
+| 18 ⬇  | helloimteto      | 11          |
+| 18 ⬇  | kvgch            | 11          |
+| 18 ⬇  | pelme44ka        | 11          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-05-10 08:55:49 UTC_
+_Last updated at 2026-06-21 09:45:07 UTC_

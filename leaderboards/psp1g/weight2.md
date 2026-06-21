@@ -11,96 +11,96 @@
 | 7     | nndiana                   | 🐳 bluewhale | 297.35        | 2024-01-16 20:50:23 |
 | 8     | benciee                   | 🐳 bluewhale | 295.43        | 2024-09-07 13:08:06 |
 | 9     | fonuwu                    | 🐳 bluewhale | 294.10        | 2024-06-01 05:21:41 |
-| 10 🆕 | blu_inx                   | 🐳 bluewhale | 293.36        | 2026-06-12 21:11:51 |
-| 11 ⬇  | pengeg                    | 🐳 bluewhale | 293.10        | 2024-02-27 00:43:17 |
-| 12 ⬇  | nndiana                   | 🐳 bluewhale | 292.37        | 2024-05-02 05:40:21 |
-| 13 ⬇  | wisdom_frog               | 🐳 bluewhale | 291.86        | 2023-11-26 23:37:57 |
-| 14 ⬇  | benciee                   | 🐳 bluewhale | 291.25        | 2024-11-01 01:04:04 |
-| 15 ⬇  | kevinlukejager            | 🐳 bluewhale | 290.80        | 2026-01-05 13:20:18 |
-| 16 ⬇  | wowitsdub                 | 🐳 bluewhale | 290.06        | 2025-05-06 20:41:02 |
-| 17 ⬇  | nndiana                   | 🐳 bluewhale | 289.70        | 2024-07-06 12:25:46 |
-| 18 ⬇  | crunch_sack               | 🐳 bluewhale | 287.96        | 2024-03-31 05:58:07 |
-| 19 ⬇  | caprisen_                 | 🐳 bluewhale | 287.82        | 2024-12-05 13:28:42 |
-| 20 ⬇  | luneckie                  | 🐳 bluewhale | 286.53        | 2026-01-29 02:02:01 |
-| 21 ⬇  | ratot                     | 🐳 bluewhale | 285.51        | 2024-11-25 21:00:53 |
-| 22 ⬇  | sandwichsundays           | 🐉 dragon    | 284.61        | 2024-05-27 23:48:53 |
-| 23 ⬇  | theevirus                 | 🐳 bluewhale | 284.57        | 2024-12-10 00:21:41 |
-| 24 ⬇  | kitenbleh                 | 🐉 dragon    | 284.24        | 2026-05-22 00:37:50 |
-| 25 ⬇  | kevinlukejager            | 🐉 dragon    | 283.84        | 2026-04-02 23:21:02 |
-| 26 ⬇  | bubinga                   | 🐳 bluewhale | 283.33        | 2024-09-12 16:23:12 |
-| 27 ⬇  | deo7gen                   | 🐳 bluewhale | 282.59        | 2024-07-10 20:47:34 |
-| 28 ⬇  | feelsaceman               | 🐉 dragon    | 281.86        | 2026-04-16 15:29:56 |
-| 29 ⬇  | caprisen_                 | 🐉 dragon    | 281.82        | 2024-11-23 10:23:50 |
-| 30 ⬇  | bubinga                   | 🐳 bluewhale | 281.37        | 2024-08-13 07:36:04 |
-| 31 ⬇  | sunflowerrr8              | 🐳 bluewhale | 281.05        | 2024-03-19 18:33:24 |
-| 32 ⬇  | faslker                   | 🐳 bluewhale | 280.99        | 2024-02-20 04:47:50 |
-| 33 ⬇  | bubinga                   | 🐳 bluewhale | 280.59        | 2026-01-18 00:35:46 |
-| 34 ⬇  | gorillapark               | 🐉 dragon    | 280.50        | 2024-09-19 13:46:44 |
-| 35 ⬇  | huuuuuuuuuuuuuuuuuuuuuurz | 🦑 squid     | 280.48        | 2024-01-22 06:22:38 |
-| 36 ⬇  | kevinlukejager            | 🐳 bluewhale | 280.44        | 2026-02-23 02:00:42 |
-| 37 ⬇  | commanda_u                | 🐉 dragon    | 279.99        | 2024-10-18 21:29:49 |
-| 38 ⬇  | jayayseaohbe              | 🐉 dragon    | 279.71        | 2026-04-26 19:48:09 |
-| 39 ⬇  | disappointingtrash        | 🐳 bluewhale | 279.28        | 2026-03-16 00:26:18 |
-| 40 ⬇  | lobuhtomy                 | 🐳 bluewhale | 279.06        | 2024-07-25 19:51:11 |
-| 41 ⬇  | bluberry                  | 🦕 sauropod  | 278.92        | 2025-07-09 20:27:34 |
-| 42 ⬇  | jayayseaohbe              | 🐳 bluewhale | 278.70        | 2025-09-13 18:22:15 |
-| 43 ⬇  | huuuuuuuuuuuuuuuuuuuuuurz | 🐳 bluewhale | 278.23        | 2024-10-24 06:36:24 |
-| 44 ⬇  | huuuuuuuuuuuuuuuuuuuuuurz | 🐉 dragon    | 278.10        | 2024-11-21 08:41:11 |
-| 45 ⬇  | ratot                     | 🦑 squid     | 277.33        | 2026-01-08 03:14:38 |
-| 46 ⬇  | pengeg                    | 🐳 bluewhale | 277.06        | 2023-12-07 07:17:19 |
-| 47 ⬇  | markenzy01                | 🐉 dragon    | 277.03        | 2025-06-03 15:10:05 |
-| 48 ⬇  | damon__okami              | 🐉 dragon    | 276.80        | 2024-03-30 10:05:38 |
-| 49 ⬇  | pengeg                    | 🦑 squid     | 276.61        | 2024-01-22 07:06:40 |
-| 50 ⬇  | theevirus                 | 🐳 bluewhale | 276.50        | 2024-11-26 01:19:44 |
-| 51 ⬇  | nndiana                   | 🐳 bluewhale | 276.12        | 2025-09-11 16:19:17 |
-| 52 ⬇  | zwockel01                 | 🐉 dragon    | 275.31        | 2024-07-26 08:00:35 |
-| 53 ⬇  | disappointingtrash        | 🐉 dragon    | 274.99        | 2026-04-19 04:44:08 |
-| 54 ⬇  | kevinlukejager            | 🐉 dragon    | 274.89        | 2026-04-01 07:07:21 |
-| 55 ⬇  | caprisen_                 | 🐳 bluewhale | 274.74        | 2023-12-18 20:31:27 |
-| 56 ⬇  | iflya320                  | 🐉 dragon    | 274.21        | 2024-09-06 11:53:15 |
-| 57 ⬇  | joshuabzz                 | 🐉 dragon    | 273.74        | 2026-04-05 16:59:03 |
-| 58 ⬇  | bluberry                  | 🦕 sauropod  | 273.38        | 2025-07-06 18:10:57 |
-| 59 ⬇  | nndiana                   | 🐳 bluewhale | 272.94        | 2025-10-17 23:55:31 |
-| 60 ⬇  | 6blmue                    | 🐳 bluewhale | 272.90        | 2023-10-20 04:12:07 |
-| 61 ⬇  | sandwichsundays           | 🐉 dragon    | 271.08        | 2024-10-19 02:32:14 |
-| 62 ⬇  | caprisen_                 | 🐳 bluewhale | 270.27        | 2024-09-13 09:23:08 |
-| 63 ⬇  | caprisen_                 | 🐍 snake     | 269.95        | 2024-11-27 05:57:58 |
-| 64 ⬇  | jayayseaohbe              | 🐳 bluewhale | 269.93        | 2025-08-01 15:37:55 |
-| 65 ⬇  | hahppyy                   | 🐉 dragon    | 269.69        | 2024-05-09 10:39:22 |
-| 66 ⬇  | kevinlukejager            | 🦕 sauropod  | 268.72        | 2026-04-04 08:10:22 |
-| 67 ⬇  | angus_lpc                 | 🐉 dragon    | 268.54        | 2024-05-18 07:02:20 |
-| 68 ⬇  | huuuuuuuuuuuuuuuuuuuuuurz | 🐳 bluewhale | 268.32        | 2024-11-02 12:15:11 |
-| 69 ⬇  | mazzo_tv                  | 🐳 bluewhale | 268.26        | 2025-12-30 11:15:39 |
-| 70 ⬇  | luneckie                  | 🐳 bluewhale | 268.18        | 2025-12-13 04:22:41 |
-| 71 ⬇  | pspisafemboy              | 🦑 squid     | 268.10        | 2026-01-20 04:34:38 |
-| 72 ⬇  | commanda_u                | 🐉 dragon    | 267.88        | 2024-04-26 22:08:55 |
-| 73 ⬇  | huuuuuuuuuuuuuuuuuuuuuurz | 🦕 sauropod  | 267.81        | 2024-07-18 09:42:37 |
-| 74 ⬇  | bubinga                   | 🐳 bluewhale | 267.78        | 2024-11-02 09:09:03 |
-| 75 ⬇  | nndiana                   | 🐳 bluewhale | 267.56        | 2025-12-04 21:18:07 |
-| 76 ⬇  | jem_mp3                   | 🐳 bluewhale | 267.13        | 2024-04-22 23:03:08 |
-| 77 ⬇  | zwockel01                 | 🐳 bluewhale | 267.09        | 2024-06-30 09:13:54 |
-| 78 ⬇  | mazzo_tv                  | 🐳 bluewhale | 266.97        | 2025-12-19 08:29:21 |
-| 79 ⬇  | pengeg                    | 🐍 snake     | 266.77        | 2023-12-30 04:49:16 |
-| 80 ⬇  | angus_lpc                 | 🐳 bluewhale | 266.76        | 2026-05-04 13:32:35 |
-| 81 ⬇  | bubinga                   | 🐍 snake     | 266.59        | 2024-12-02 17:55:44 |
-| 82 ⬇  | glorianeq                 | 🐉 dragon    | 266.53        | 2024-10-22 20:29:56 |
-| 83 ⬇  | quinrayy                  | 🦕 sauropod  | 266.36        | 2024-01-27 23:27:52 |
-| 84 ⬇  | divra__                   | 🐍 snake     | 266.35        | 2024-01-22 18:06:06 |
-| 85 ⬇  | zwockel01                 | 🦕 sauropod  | 266.02        | 2024-10-04 13:10:49 |
-| 86 ⬇  | jayayseaohbe              | 🐍 snake     | 265.97        | 2025-11-08 00:20:40 |
-| 87 ⬇  | commanda_u                | 🐉 dragon    | 265.33        | 2024-10-25 07:25:55 |
-| 88 ⬇  | huuuuuuuuuuuuuuuuuuuuuurz | 🐉 dragon    | 265.32        | 2024-05-15 08:25:49 |
-| 89 ⬇  | goodnews2                 | 🦕 sauropod  | 264.62        | 2025-05-09 22:08:28 |
-| 90 ⬇  | totallynotaboykisser      | 🦕 sauropod  | 264.40        | 2026-05-30 17:20:52 |
-| 91 ⬇  | feelsaceman               | 🐉 dragon    | 264.12        | 2026-04-18 21:43:22 |
-| 92 ⬇  | commanda_u                | 🐉 dragon    | 264.06        | 2024-07-04 20:19:58 |
-| 93 ⬇  | luneckie                  | 🐉 dragon    | 263.97        | 2026-03-06 23:27:39 |
-| 94 ⬇  | nndiana                   | 🐉 dragon    | 263.67        | 2026-04-08 03:10:01 |
-| 95 ⬇  | mazzo_tv                  | 🐳 bluewhale | 263.32        | 2025-08-27 12:02:54 |
-| 96 ⬇  | pengeg                    | 🦕 sauropod  | 263.23        | 2023-12-11 02:05:10 |
-| 97 ⬇  | nndiana                   | 🐉 dragon    | 262.96        | 2024-08-06 04:06:27 |
-| 98 ⬇  | benlol_l                  | 🦕 sauropod  | 262.44        | 2024-05-14 13:09:03 |
-| 99 ⬇  | bubinga                   | 🐉 dragon    | 262.41        | 2024-08-24 20:46:03 |
-| 100 ⬇ | theevirus                 | 🐳 bluewhale | 261.59        | 2024-11-30 20:06:05 |
+| 10    | blu_inx                   | 🐳 bluewhale | 293.36        | 2026-06-12 21:11:51 |
+| 11    | pengeg                    | 🐳 bluewhale | 293.10        | 2024-02-27 00:43:17 |
+| 12    | nndiana                   | 🐳 bluewhale | 292.37        | 2024-05-02 05:40:21 |
+| 13    | wisdom_frog               | 🐳 bluewhale | 291.86        | 2023-11-26 23:37:57 |
+| 14    | benciee                   | 🐳 bluewhale | 291.25        | 2024-11-01 01:04:04 |
+| 15    | kevinlukejager            | 🐳 bluewhale | 290.80        | 2026-01-05 13:20:18 |
+| 16    | wowitsdub                 | 🐳 bluewhale | 290.06        | 2025-05-06 20:41:02 |
+| 17    | nndiana                   | 🐳 bluewhale | 289.70        | 2024-07-06 12:25:46 |
+| 18    | crunch_sack               | 🐳 bluewhale | 287.96        | 2024-03-31 05:58:07 |
+| 19    | caprisen_                 | 🐳 bluewhale | 287.82        | 2024-12-05 13:28:42 |
+| 20    | luneckie                  | 🐳 bluewhale | 286.53        | 2026-01-29 02:02:01 |
+| 21    | ratot                     | 🐳 bluewhale | 285.51        | 2024-11-25 21:00:53 |
+| 22    | sandwichsundays           | 🐉 dragon    | 284.61        | 2024-05-27 23:48:53 |
+| 23    | theevirus                 | 🐳 bluewhale | 284.57        | 2024-12-10 00:21:41 |
+| 24    | kitenbleh                 | 🐉 dragon    | 284.24        | 2026-05-22 00:37:50 |
+| 25    | kevinlukejager            | 🐉 dragon    | 283.84        | 2026-04-02 23:21:02 |
+| 26    | bubinga                   | 🐳 bluewhale | 283.33        | 2024-09-12 16:23:12 |
+| 27    | deo7gen                   | 🐳 bluewhale | 282.59        | 2024-07-10 20:47:34 |
+| 28    | feelsaceman               | 🐉 dragon    | 281.86        | 2026-04-16 15:29:56 |
+| 29    | caprisen_                 | 🐉 dragon    | 281.82        | 2024-11-23 10:23:50 |
+| 30    | bubinga                   | 🐳 bluewhale | 281.37        | 2024-08-13 07:36:04 |
+| 31    | sunflowerrr8              | 🐳 bluewhale | 281.05        | 2024-03-19 18:33:24 |
+| 32    | faslker                   | 🐳 bluewhale | 280.99        | 2024-02-20 04:47:50 |
+| 33    | bubinga                   | 🐳 bluewhale | 280.59        | 2026-01-18 00:35:46 |
+| 34    | gorillapark               | 🐉 dragon    | 280.50        | 2024-09-19 13:46:44 |
+| 35    | huuuuuuuuuuuuuuuuuuuuuurz | 🦑 squid     | 280.48        | 2024-01-22 06:22:38 |
+| 36    | kevinlukejager            | 🐳 bluewhale | 280.44        | 2026-02-23 02:00:42 |
+| 37    | commanda_u                | 🐉 dragon    | 279.99        | 2024-10-18 21:29:49 |
+| 38    | jayayseaohbe              | 🐉 dragon    | 279.71        | 2026-04-26 19:48:09 |
+| 39    | disappointingtrash        | 🐳 bluewhale | 279.28        | 2026-03-16 00:26:18 |
+| 40    | lobuhtomy                 | 🐳 bluewhale | 279.06        | 2024-07-25 19:51:11 |
+| 41    | bluberry                  | 🦕 sauropod  | 278.92        | 2025-07-09 20:27:34 |
+| 42    | jayayseaohbe              | 🐳 bluewhale | 278.70        | 2025-09-13 18:22:15 |
+| 43    | huuuuuuuuuuuuuuuuuuuuuurz | 🐳 bluewhale | 278.23        | 2024-10-24 06:36:24 |
+| 44    | huuuuuuuuuuuuuuuuuuuuuurz | 🐉 dragon    | 278.10        | 2024-11-21 08:41:11 |
+| 45    | ratot                     | 🦑 squid     | 277.33        | 2026-01-08 03:14:38 |
+| 46    | pengeg                    | 🐳 bluewhale | 277.06        | 2023-12-07 07:17:19 |
+| 47    | markenzy01                | 🐉 dragon    | 277.03        | 2025-06-03 15:10:05 |
+| 48    | damon__okami              | 🐉 dragon    | 276.80        | 2024-03-30 10:05:38 |
+| 49    | pengeg                    | 🦑 squid     | 276.61        | 2024-01-22 07:06:40 |
+| 50    | theevirus                 | 🐳 bluewhale | 276.50        | 2024-11-26 01:19:44 |
+| 51    | nndiana                   | 🐳 bluewhale | 276.12        | 2025-09-11 16:19:17 |
+| 52    | zwockel01                 | 🐉 dragon    | 275.31        | 2024-07-26 08:00:35 |
+| 53    | disappointingtrash        | 🐉 dragon    | 274.99        | 2026-04-19 04:44:08 |
+| 54    | kevinlukejager            | 🐉 dragon    | 274.89        | 2026-04-01 07:07:21 |
+| 55    | caprisen_                 | 🐳 bluewhale | 274.74        | 2023-12-18 20:31:27 |
+| 56    | iflya320                  | 🐉 dragon    | 274.21        | 2024-09-06 11:53:15 |
+| 57    | joshuabzz                 | 🐉 dragon    | 273.74        | 2026-04-05 16:59:03 |
+| 58    | bluberry                  | 🦕 sauropod  | 273.38        | 2025-07-06 18:10:57 |
+| 59    | nndiana                   | 🐳 bluewhale | 272.94        | 2025-10-17 23:55:31 |
+| 60    | 6blmue                    | 🐳 bluewhale | 272.90        | 2023-10-20 04:12:07 |
+| 61    | sandwichsundays           | 🐉 dragon    | 271.08        | 2024-10-19 02:32:14 |
+| 62    | caprisen_                 | 🐳 bluewhale | 270.27        | 2024-09-13 09:23:08 |
+| 63    | caprisen_                 | 🐍 snake     | 269.95        | 2024-11-27 05:57:58 |
+| 64    | jayayseaohbe              | 🐳 bluewhale | 269.93        | 2025-08-01 15:37:55 |
+| 65    | hahppyy                   | 🐉 dragon    | 269.69        | 2024-05-09 10:39:22 |
+| 66    | kevinlukejager            | 🦕 sauropod  | 268.72        | 2026-04-04 08:10:22 |
+| 67    | angus_lpc                 | 🐉 dragon    | 268.54        | 2024-05-18 07:02:20 |
+| 68    | huuuuuuuuuuuuuuuuuuuuuurz | 🐳 bluewhale | 268.32        | 2024-11-02 12:15:11 |
+| 69    | mazzo_tv                  | 🐳 bluewhale | 268.26        | 2025-12-30 11:15:39 |
+| 70    | luneckie                  | 🐳 bluewhale | 268.18        | 2025-12-13 04:22:41 |
+| 71    | pspisafemboy              | 🦑 squid     | 268.10        | 2026-01-20 04:34:38 |
+| 72 🆕 | nndiana                   | 🐳 bluewhale | 268.05        | 2026-06-18 15:00:59 |
+| 73 ⬇  | commanda_u                | 🐉 dragon    | 267.88        | 2024-04-26 22:08:55 |
+| 74 ⬇  | huuuuuuuuuuuuuuuuuuuuuurz | 🦕 sauropod  | 267.81        | 2024-07-18 09:42:37 |
+| 75 ⬇  | bubinga                   | 🐳 bluewhale | 267.78        | 2024-11-02 09:09:03 |
+| 76 ⬇  | nndiana                   | 🐳 bluewhale | 267.56        | 2025-12-04 21:18:07 |
+| 77 ⬇  | jem_mp3                   | 🐳 bluewhale | 267.13        | 2024-04-22 23:03:08 |
+| 78 ⬇  | zwockel01                 | 🐳 bluewhale | 267.09        | 2024-06-30 09:13:54 |
+| 79 ⬇  | mazzo_tv                  | 🐳 bluewhale | 266.97        | 2025-12-19 08:29:21 |
+| 80 ⬇  | pengeg                    | 🐍 snake     | 266.77        | 2023-12-30 04:49:16 |
+| 81 ⬇  | angus_lpc                 | 🐳 bluewhale | 266.76        | 2026-05-04 13:32:35 |
+| 82 ⬇  | bubinga                   | 🐍 snake     | 266.59        | 2024-12-02 17:55:44 |
+| 83 ⬇  | glorianeq                 | 🐉 dragon    | 266.53        | 2024-10-22 20:29:56 |
+| 84 ⬇  | quinrayy                  | 🦕 sauropod  | 266.36        | 2024-01-27 23:27:52 |
+| 85 ⬇  | divra__                   | 🐍 snake     | 266.35        | 2024-01-22 18:06:06 |
+| 86 ⬇  | zwockel01                 | 🦕 sauropod  | 266.02        | 2024-10-04 13:10:49 |
+| 87 ⬇  | jayayseaohbe              | 🐍 snake     | 265.97        | 2025-11-08 00:20:40 |
+| 88 ⬇  | commanda_u                | 🐉 dragon    | 265.33        | 2024-10-25 07:25:55 |
+| 89 ⬇  | huuuuuuuuuuuuuuuuuuuuuurz | 🐉 dragon    | 265.32        | 2024-05-15 08:25:49 |
+| 90 ⬇  | goodnews2                 | 🦕 sauropod  | 264.62        | 2025-05-09 22:08:28 |
+| 91 ⬇  | totallynotaboykisser      | 🦕 sauropod  | 264.40        | 2026-05-30 17:20:52 |
+| 92 ⬇  | feelsaceman               | 🐉 dragon    | 264.12        | 2026-04-18 21:43:22 |
+| 93 ⬇  | commanda_u                | 🐉 dragon    | 264.06        | 2024-07-04 20:19:58 |
+| 94 ⬇  | luneckie                  | 🐉 dragon    | 263.97        | 2026-03-06 23:27:39 |
+| 95 ⬇  | nndiana                   | 🐉 dragon    | 263.67        | 2026-04-08 03:10:01 |
+| 96 ⬇  | mazzo_tv                  | 🐳 bluewhale | 263.32        | 2025-08-27 12:02:54 |
+| 97 ⬇  | pengeg                    | 🦕 sauropod  | 263.23        | 2023-12-11 02:05:10 |
+| 98 ⬇  | nndiana                   | 🐉 dragon    | 262.96        | 2024-08-06 04:06:27 |
+| 99 ⬇  | benlol_l                  | 🦕 sauropod  | 262.44        | 2024-05-14 13:09:03 |
+| 100 ⬇ | bubinga                   | 🐉 dragon    | 262.41        | 2024-08-24 20:46:03 |
 
-_Last updated at 2026-06-14 09:21:02 UTC_
+_Last updated at 2026-06-21 09:46:54 UTC_

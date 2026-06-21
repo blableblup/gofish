@@ -13,15 +13,15 @@
 | 9     | stofeyxd*     | 19        |
 | 10    | aistyrax3     | 18        |
 | 11    | yyaaaaaaaas   | 17        |
+| 12 ⬆  | dom1torii     | 16 (+1)   |
 | 12    | kaitechpl     | 16        |
 | 12    | velantix*     | 16        |
-| 14    | dom1torii     | 15        |
-| 15    | ggmagician    | 14        |
-| 15    | kam3l_        | 14        |
-| 15    | kargalay      | 14        |
-| 18 ⬆  | cute_ducc     | 13 (+2)   |
-| 18    | poggu_        | 13        |
-| 20 ⬇  | kaczer1       | 12        |
+| 15 ⬆  | cute_ducc     | 15 (+2)   |
+| 16 ⬇  | ggmagician    | 14        |
+| 16 ⬇  | kam3l_        | 14        |
+| 16 ⬇  | kargalay      | 14        |
+| 19 ⬇  | poggu_        | 13        |
+| 20    | kaczer1       | 12        |
 | 21    | ojack18       | 10        |
 | 21    | vigilsync*    | 10        |
 
@@ -29,4 +29,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2026-05-31 10:06:58 UTC_
+_Last updated at 2026-06-21 09:43:20 UTC_

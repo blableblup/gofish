@@ -4,27 +4,27 @@
 |:------|:-------------------------|:------------|
 | 1 🥇  | lluuucy                  | 5533        |
 | 2 🥈  | osnyatsky*               | 5070        |
-| 3 🥉  | osnyisdead               | 4161 (+45)  |
+| 3 🥉  | osnyisdead               | 4178 (+17)  |
 | 4     | sicklymaidrobot          | 3850        |
 | 5     | puzzlow                  | 3760        |
 | 6     | destin357                | 3331        |
 | 7     | leanmeister              | 3283        |
 | 8     | qu4ttromila              | 3282        |
-| 9     | miiiiisho                | 3149 (+4)   |
-| 10    | derinturitierutz         | 3148 (+6)   |
-| 11    | kishma9                  | 2736 (+5)   |
+| 9     | miiiiisho                | 3150 (+1)   |
+| 10    | derinturitierutz         | 3148        |
+| 11    | kishma9                  | 2738 (+2)   |
 | 12    | dazedforevermore         | 2697        |
-| 13    | derintu                  | 2321 (+5)   |
+| 13    | derintu                  | 2325 (+4)   |
 | 14    | sussy_amonge             | 2230        |
-| 15    | booty_bread              | 2097        |
+| 15    | booty_bread              | 2098 (+1)   |
 | 16    | fishingalt               | 1819        |
 | 17    | ninjaross*               | 1685        |
-| 18 ⬆  | dougiefresh_83*          | 1411 (+10)  |
-| 19 ⬆  | esvelles                 | 1409 (+15)  |
-| 19 ⬇  | gstaman911               | 1409        |
-| 21    | ytp_dl*                  | 1391 (+23)  |
-| 22    | cumgi                    | 1257 (+6)   |
-| 23    | larvaew                  | 1171 (+3)   |
+| 18 ⬆  | esvelles                 | 1425 (+16)  |
+| 19 ⬇  | dougiefresh_83*          | 1423 (+12)  |
+| 19 ⬆  | ytp_dl*                  | 1423 (+32)  |
+| 21 ⬇  | gstaman911               | 1410 (+1)   |
+| 22    | cumgi                    | 1271 (+14)  |
+| 23    | larvaew                  | 1173 (+2)   |
 | 24    | paras220                 | 1070        |
 | 25    | comiqq                   | 1047        |
 | 26    | ouacewi                  | 967         |
@@ -32,11 +32,11 @@
 | 28    | crazytown_bananapants    | 938         |
 | 29    | respirate_               | 810         |
 | 30    | bussinongnocap           | 797         |
-| 31    | breadworms               | 767 (+10)   |
+| 31    | breadworms               | 772 (+5)    |
 | 32    | michael_bay65            | 627         |
 | 33    | julialuxel               | 620         |
 | 34    | xth49*                   | 619         |
-| 35    | cutsekai                 | 609 (+3)    |
+| 35    | cutsekai                 | 610 (+1)    |
 | 36    | trident1011              | 579         |
 | 37    | idini                    | 575         |
 | 38    | islcfc*                  | 569         |
@@ -53,14 +53,14 @@
 | 49    | wisco9ers*               | 372         |
 | 50    | osnyatsky*               | 367         |
 | 51    | divra__                  | 318         |
-| 52    | fvkdylan                 | 307 (+1)    |
+| 52    | fvkdylan                 | 310 (+3)    |
 | 53    | realtechnine             | 302         |
 | 54    | freyjiiita*              | 284         |
 | 55    | houseofleaves*           | 275         |
 | 56    | supibot                  | 242         |
 | 57    | elisworm                 | 220         |
 | 58    | vaiastol                 | 214         |
-| 59    | wispmode                 | 211 (+4)    |
+| 58 ⬆  | wispmode                 | 214 (+3)    |
 | 60    | hmsmob*                  | 203         |
 | 61    | electroconvulsivetherapy | 181         |
 | 62    | yliathim*                | 179         |
@@ -77,4 +77,4 @@
 
 _Only showing fishers who caught >= 100 fish_
 
-_Last updated at 2026-06-14 09:20:05 UTC_
+_Last updated at 2026-06-21 09:45:07 UTC_
