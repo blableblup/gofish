@@ -191,8 +191,12 @@
 					"logs_added": "2026/6"
 				}
 			],
+			"fishweek_limit": 10,
+			"weight_limit": 50,
+			"totalcount_limit": 10,
+			"unique_limit": 20,
 			"checkfdata": true,
-			"board_enabled": false
+			"board_enabled": true
 		},
 		"buhl00n": {
 			"twitchid": "428208278",

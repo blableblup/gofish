@@ -1,0 +1,106 @@
+### 100 biggest fish caught in brogboi's chat
+
+| Rank    | Player               | Fish            | Weight in lbs | Date in UTC         |
+|:--------|:---------------------|:----------------|:--------------|:--------------------|
+| 1 🥇 🆕 | brogboi              | 🐋 whale        | 137.74        | 2026-06-15 16:58:36 |
+| 2 🥈 🆕 | xknownplayer         | 🐙 octopus      | 129.53        | 2026-06-07 16:48:05 |
+| 3 🥉 🆕 | punkish_live         | 🐊 crocodile    | 119.68        | 2026-06-17 13:57:31 |
+| 4 🆕    | xknownplayer         | 🐙 octopus      | 114.18        | 2026-06-20 14:28:03 |
+| 5 🆕    | littlemunnster       | 🐙 octopus      | 112.88        | 2026-06-15 12:56:17 |
+| 6 🆕    | brogboi              | 🐊 crocodile    | 111.79        | 2026-06-17 17:45:56 |
+| 7 🆕    | brogboi              | 🐊 crocodile    | 109.89        | 2026-06-07 15:24:37 |
+| 8 🆕    | ffcolx               | 🐋 whale        | 105.43        | 2026-06-17 15:44:59 |
+| 9 🆕    | xknownplayer         | 🐳 bluewhale    | 102.30        | 2026-06-18 13:47:57 |
+| 10 🆕   | xknownplayer         | 🐉 dragon       | 93.73         | 2026-06-15 15:21:31 |
+| 11 🆕   | punkish_live         | 🐋 whale        | 87.96         | 2026-06-18 18:26:27 |
+| 12 🆕   | reinatheraven        | 🐙 octopus      | 85.81         | 2026-06-11 16:23:28 |
+| 13 🆕   | xknownplayer         | 🐊 crocodile    | 84.64         | 2026-06-20 17:21:53 |
+| 14 🆕   | lanisye              | 🐋 whale        | 82.22         | 2026-06-20 14:59:29 |
+| 15 🆕   | littlemunnster       | 🐋 whale        | 80.90         | 2026-06-12 14:09:18 |
+| 16 🆕   | whotookmamulukkikala | 🐋 whale        | 79.42         | 2026-06-17 14:18:49 |
+| 17 🆕   | xknownplayer         | 🦑 squid        | 76.38         | 2026-06-15 17:00:45 |
+| 18 🆕   | xt1di                | 🪸 coral        | 73.34         | 2026-06-17 14:20:01 |
+| 19 🆕   | xt1di                | 🐢 turtle       | 73.30         | 2026-06-15 13:34:43 |
+| 20 🆕   | kornmealius          | 🦑 squid        | 68.85         | 2026-06-07 16:27:28 |
+| 21 🆕   | xknownplayer         | 🐬 dolphin      | 67.13         | 2026-06-11 16:42:07 |
+| 22 🆕   | whotookmamulukkikala | 🦞 lobster      | 60.91         | 2026-06-17 17:49:09 |
+| 23 🆕   | punkish_live         | 🐙 octopus      | 58.98         | 2026-06-18 17:53:42 |
+| 24 🆕   | luciafton            | 🐙 octopus      | 56.74         | 2026-06-18 17:29:50 |
+| 25 🆕   | brogboi              | 🐙 octopus      | 56.59         | 2026-06-11 17:35:56 |
+| 26 🆕   | luciafton            | 🐬 dolphin      | 56.40         | 2026-06-10 15:52:59 |
+| 27 🆕   | brogboi              | 🐢 turtle       | 54.53         | 2026-06-07 13:31:05 |
+| 28 🆕   | ave0_                | 🦞 lobster      | 52.35         | 2026-06-10 14:16:14 |
+| 29 🆕   | ave0_                | 🐊 crocodile    | 45.63         | 2026-06-11 14:33:55 |
+| 30 🆕   | xt1di                | 🦞 lobster      | 44.50         | 2026-06-15 14:14:47 |
+| 31 🆕   | brogboi              | 🐢 turtle       | 42.95         | 2026-06-06 19:48:35 |
+| 32 🆕   | xknownplayer         | 🦞 lobster      | 42.62         | 2026-06-11 17:14:59 |
+| 33 🆕   | xknownplayer         | 🗡️ dagger       | 42.41         | 2026-06-11 14:08:49 |
+| 34 🆕   | luciafton            | 🐳 bluewhale    | 42.21         | 2026-06-17 18:28:07 |
+| 35 🆕   | luluchanso           | 🐋 whale        | 40.14         | 2026-06-15 14:35:59 |
+| 36 🆕   | tekillusionzz        | 🦞 lobster      | 39.00         | 2026-06-20 15:57:37 |
+| 37 🆕   | xt1di                | 🦪 oyster       | 37.97         | 2026-06-11 15:50:09 |
+| 38 🆕   | xknownplayer         | 🦪 oyster       | 37.74         | 2026-06-12 15:10:09 |
+| 39 🆕   | comborl_             | 🦞 lobster      | 29.98         | 2026-06-18 15:26:40 |
+| 40 🆕   | xknownplayer         | 🐙 octopus      | 29.52         | 2026-06-12 17:58:35 |
+| 41 🆕   | littlemunnster       | 🐙 octopus      | 28.35         | 2026-06-15 16:28:28 |
+| 42 🆕   | xknownplayer         | 🐡 blowfish     | 27.14         | 2026-06-17 15:45:42 |
+| 43 🆕   | brogboi              | 🐬 dolphin      | 26.46         | 2026-06-12 15:43:59 |
+| 44 🆕   | punkish_live         | 🦑 squid        | 21.71         | 2026-06-12 18:28:00 |
+| 45 🆕   | whotookmamulukkikala | 🪸 coral        | 21.12         | 2026-06-12 17:58:19 |
+| 46 🆕   | comborl_             | 🐬 dolphin      | 20.98         | 2026-06-17 17:41:59 |
+| 47 🆕   | brogboi              | 🪨 rock         | 20.71         | 2026-06-08 16:44:32 |
+| 48 🆕   | whotookmamulukkikala | 🐡 blowfish     | 19.76         | 2026-06-11 13:43:13 |
+| 49 🆕   | xt1di                | 🦐 shrimp       | 19.50         | 2026-06-15 14:54:24 |
+| 50 🆕   | brogboi              | 🐬 dolphin      | 18.78         | 2026-06-10 15:43:25 |
+| 51 🆕   | whotookmamulukkikala | 🪸 coral        | 18.36         | 2026-06-15 16:27:54 |
+| 52 🆕   | punkish_live         | 🐡 blowfish     | 18.33         | 2026-06-18 16:52:02 |
+| 53 🆕   | brogboi              | 🐡 blowfish     | 17.67         | 2026-06-10 18:34:22 |
+| 54 🆕   | whotookmamulukkikala | 🐬 dolphin      | 16.58         | 2026-06-08 15:53:04 |
+| 55 🆕   | brogboi              | 🐍 snake        | 15.94         | 2026-06-10 16:49:01 |
+| 56 🆕   | shoota_rafh          | 🐟 fish         | 15.79         | 2026-06-12 15:24:12 |
+| 57 🆕   | xknownplayer         | 🦪 oyster       | 15.65         | 2026-06-15 14:40:47 |
+| 58 🆕   | xknownplayer         | 🦀 crab         | 15.55         | 2026-06-18 16:13:42 |
+| 59 🆕   | jusyo2d              | 🐟 fish         | 15.30         | 2026-06-07 13:31:22 |
+| 60 🆕   | xknownplayer         | 🐡 blowfish     | 15.28         | 2026-06-18 15:36:25 |
+| 61 🆕   | xknownplayer         | 🦑 squid        | 15.19         | 2026-06-15 13:54:57 |
+| 62 🆕   | kleinheld04          | 🐟 fish         | 15.18         | 2026-06-20 15:39:42 |
+| 63 🆕   | leonsasscheeks       | 🐟 fish         | 15.14         | 2026-06-11 14:09:14 |
+| 64 🆕   | brogboi              | 🪨 rock         | 14.52         | 2026-06-12 16:53:45 |
+| 65 🆕   | whotookmamulukkikala | 🪸 coral        | 14.33         | 2026-06-15 15:47:37 |
+| 66 🆕   | whotookmamulukkikala | 🐍 snake        | 14.27         | 2026-06-15 14:40:58 |
+| 67 🆕   | brogboi              | 🪸 coral        | 14.10         | 2026-06-20 15:41:06 |
+| 68 🆕   | xknownplayer         | 🐟 fish         | 13.92         | 2026-06-11 17:55:38 |
+| 69 🆕   | brogboi              | 🐟 fish         | 13.76         | 2026-06-11 15:16:57 |
+| 70 🆕   | whotookmamulukkikala | 🐟 fish         | 13.66         | 2026-06-15 13:35:23 |
+| 71 🆕   | kornmealius          | 🐟 fish         | 13.52         | 2026-06-12 18:18:19 |
+| 72 🆕   | littlemunnster       | 🐠 tropicalfish | 13.07         | 2026-06-08 15:10:19 |
+| 73 🆕   | xknownplayer         | 🐟 fish         | 12.99         | 2026-06-17 14:24:37 |
+| 74 🆕   | xt1di                | 🐟 fish         | 12.98         | 2026-06-17 16:20:13 |
+| 75 🆕   | whotookmamulukkikala | 🐟 fish         | 12.94         | 2026-06-18 13:55:58 |
+| 76 🆕   | brogboi              | 🦑 squid        | 12.87         | 2026-06-17 15:37:22 |
+| 77 🆕   | brogboi              | 🐠 tropicalfish | 12.69         | 2026-06-20 16:50:13 |
+| 78 🆕   | brogboi              | 🐟 fish         | 12.54         | 2026-06-12 15:11:36 |
+| 79 🆕   | kornmealius          | 🐟 fish         | 11.87         | 2026-06-11 17:14:05 |
+| 80 🆕   | ave0_                | 🐠 tropicalfish | 11.67         | 2026-06-17 18:27:22 |
+| 81 🆕   | xknownplayer         | 🐡 blowfish     | 11.63         | 2026-06-11 15:39:38 |
+| 82 🆕   | kleinheld04          | 🐠 tropicalfish | 11.58         | 2026-06-18 18:18:11 |
+| 83 🆕   | reinatheraven        | 🐍 snake        | 11.33         | 2026-06-11 17:45:40 |
+| 84 🆕   | punkish_live         | 🪸 coral        | 11.31         | 2026-06-15 16:26:56 |
+| 85 🆕   | xknownplayer         | 🐟 fish         | 10.66         | 2026-06-12 16:22:28 |
+| 86 🆕   | reinatheraven        | 🕷️ spider       | 10.55         | 2026-06-15 12:49:34 |
+| 87 🆕   | punkish_live         | 🕷️ spider       | 10.23         | 2026-06-15 14:37:13 |
+| 88 🆕   | littlemunnster       | 🐟 fish         | 10.16         | 2026-06-15 17:21:22 |
+| 89 🆕   | xknownplayer         | 🥒 seacucumber  | 10.09         | 2026-06-12 18:36:56 |
+| 90 🆕   | xknownplayer         | 💀 skull        | 9.97          | 2026-06-17 15:12:11 |
+| 91 🆕   | duckypond324         | 🐠 tropicalfish | 9.85          | 2026-06-18 17:52:48 |
+| 92 🆕   | whotookmamulukkikala | 🐡 blowfish     | 9.63          | 2026-06-11 14:36:04 |
+| 93 🆕   | reinatheraven        | 💀 skull        | 9.55          | 2026-06-08 15:29:50 |
+| 94 🆕   | venus2642            | 🩲 briefs       | 9.54          | 2026-06-18 17:33:46 |
+| 95 🆕   | theescuro            | 🐟 fish         | 9.19          | 2026-06-18 16:06:51 |
+| 96 🆕   | punkish_live         | 🐟 fish         | 8.93          | 2026-06-11 15:24:11 |
+| 97 🆕   | ave0_                | 🧃 beveragebox  | 8.84          | 2026-06-18 14:17:59 |
+| 98 🆕   | littlemunnster       | 🐟 fish         | 8.83          | 2026-06-20 17:16:36 |
+| 99 🆕   | whotookmamulukkikala | 🐟 fish         | 8.29          | 2026-06-18 17:52:51 |
+| 100 🆕  | xknownplayer         | 🦪 oyster       | 8.12          | 2026-06-11 15:01:21 |
+
+_Last updated at 2026-06-21 10:35:21 UTC_
