@@ -23,37 +23,6 @@
 			"checkfdata": true,
 			"board_enabled": false
 		},
-		"7niss": {
-			"twitchid": "824594608",
-			"logs_instances": [
-				{
-					"url": "https://logs.spanix.team",
-					"logs_added": "2026/5"
-				},
-				{
-					"url": "https://logs.susgee.dev",
-					"logs_added": "2026/5"
-				},
-				{
-					"url": "https://logs.folhinhabot.com",
-					"logs_added": "2026/5"
-				},
-				{
-					"url": "https://logs.potat.app",
-					"logs_added": "2026/5"
-				},
-				{
-					"url": "https://logs.twitchmetrics.xyz",
-					"logs_added": "2026/5"
-				},
-				{
-					"url": "https://logs.itsbr0dyy.dev",
-					"logs_added": "2026/6"
-				}
-			],
-			"checkfdata": true,
-			"board_enabled": false
-		},
 		"aaurie": {
 			"twitchid": "222788698",
 			"logs_instances": [
@@ -235,6 +204,41 @@
 				{
 					"url": "https://logs.twitchmetrics.xyz",
 					"logs_added": "2026/1"
+				}
+			],
+			"fishweek_limit": 10,
+			"weight_limit": 50,
+			"totalcount_limit": 10,
+			"unique_limit": 20,
+			"checkfdata": true,
+			"board_enabled": true
+		},
+		"cconnector": {
+			"twitchid": "824594608",
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2026/5"
+				},
+				{
+					"url": "https://logs.susgee.dev",
+					"logs_added": "2026/5"
+				},
+				{
+					"url": "https://logs.folhinhabot.com",
+					"logs_added": "2026/5"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2026/5"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/5"
+				},
+				{
+					"url": "https://logs.itsbr0dyy.dev",
+					"logs_added": "2026/6"
 				}
 			],
 			"checkfdata": true,
@@ -673,6 +677,11 @@
 			"checkfdata": true,
 			"board_enabled": false
 		},
+		"lanisye": {
+			"twitchid": "886678466",
+			"checkfdata": false,
+			"board_enabled": false
+		},
 		"larvaew": {
 			"twitchid": "907334690",
 			"logs_instances": [
@@ -916,12 +925,12 @@
 			"checkfdata": true,
 			"board_enabled": true
 		},
-		"ovrht": {
-			"twitchid": "649281193",
+		"overhatecore": {
+			"twitchid": "514679460",
 			"logs_instances": [
 				{
-					"url": "https://logs.spanix.team",
-					"logs_added": "2023/10"
+					"url": "https://logs.potat.app",
+					"logs_added": "2026/6"
 				}
 			],
 			"fishweek_limit": 10,
@@ -1021,6 +1030,11 @@
 			"weighttotal_limit": 1800,
 			"checkfdata": true,
 			"board_enabled": true
+		},
+		"punkish_live": {
+			"twitchid": "533110988",
+			"checkfdata": false,
+			"board_enabled": false
 		},
 		"retrorelaxo": {
 			"twitchid": "265557682",
