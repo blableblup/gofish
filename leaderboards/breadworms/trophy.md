@@ -2,12 +2,12 @@
 
 | Rank  | Player                    | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points       |
 |:------|:--------------------------|:------------|:-----------------|:-----------------|:-------------|
-| 1 🥇  | osnyisdead                | 75 (+3)     | 51               | 33               | 292.5 (+9.0) |
+| 1 🥇  | osnyisdead                | 75          | 52 (+1)          | 35 (+2)          | 294.5 (+2.0) |
 | 2 🥈  | lluuucy                   | 43          | 81               | 47               | 233.5        |
 | 3 🥉  | leanmeister               | 51          | 16               | 12               | 175.0        |
 | 4     | destin357                 | 34          | 25               | 7                | 130.5        |
+| 5 ⬆   | esvelles                  | 32          | 26 (+2)          | 10 (+1)          | 127.0 (+2.5) |
 | 5     | puzzlow                   | 35          | 15               | 14               | 127.0        |
-| 6     | esvelles                  | 32          | 24 (+1)          | 9 (+2)           | 124.5 (+2.0) |
 | 7     | osnyatsky                 | 31          | 24               | 6                | 120.0        |
 | 8     | derinturitierutz          | 35          | 7                | 15               | 119.5        |
 | 9     | derintu                   | 18          | 24               | 19               | 87.5         |
@@ -18,9 +18,9 @@
 | 14    | sussy_amonge              | 12          | 4                | 7                | 43.5         |
 | 15    | sicklymaidrobot           | 5           | 10               | 26               | 38.0         |
 | 16    | comiqq                    | 5           | 14               | 13               | 35.5         |
-| 17    | fishingalt                | 5           | 9                | 16               | 32.0         |
-| 18    | ytp_dl                    | 2           | 11 (+1)          | 16               | 25.0 (+1.0)  |
-| 19    | cumgi                     | 3           | 5                | 17 (+1)          | 22.5 (+0.5)  |
+| 17 ⬆  | ytp_dl                    | 5 (+3)      | 11               | 16               | 34.0 (+9.0)  |
+| 18 ⬇  | fishingalt                | 5           | 9                | 16               | 32.0         |
+| 19    | cumgi                     | 3           | 5                | 17               | 22.5         |
 | 20    | booty_bread               | 4           | 2                | 6                | 17.0         |
 | 21    | ryebreadward              | 3           | 3                | 6                | 15.0         |
 | 22    | larvaew                   | 3           | 2                | 5                | 13.5         |
@@ -38,12 +38,12 @@
 | 33    | osnyatsky                 | 0           | 2                | 5                | 4.5          |
 | 35    | elisworm                  | 1           | 1                | 0                | 4.0          |
 | 35    | paras220                  | 1           | 0                | 2                | 4.0          |
-| 37 ⬆  | breadworms                | 0           | 1 (+1)           | 5                | 3.5 (+1.0)   |
+| 37    | breadworms                | 0           | 1                | 5                | 3.5          |
 | 37    | crazytown_bananapants     | 1           | 0                | 1                | 3.5          |
-| 39 ⬇  | divra__                   | 1           | 0                | 0                | 3.0          |
-| 39 ⬇  | pinksynthesis29           | 0           | 1                | 4                | 3.0          |
-| 39 ⬇  | receipts                  | 0           | 2                | 2                | 3.0          |
-| 42 ⬇  | houseofleaves             | 0           | 2                | 1                | 2.5          |
+| 39    | divra__                   | 1           | 0                | 0                | 3.0          |
+| 39    | pinksynthesis29           | 0           | 1                | 4                | 3.0          |
+| 39    | receipts                  | 0           | 2                | 2                | 3.0          |
+| 42    | houseofleaves             | 0           | 2                | 1                | 2.5          |
 | 43    | bussinongnocap            | 0           | 1                | 2                | 2.0          |
 | 44    | michael_bay65             | 0           | 0                | 3                | 1.5          |
 | 45    | bapqo                     | 0           | 0                | 2                | 1.0          |
@@ -55,4 +55,4 @@
 | 48    | niiy                      | 0           | 0                | 1                | 0.5          |
 | 48    | shojan                    | 0           | 0                | 1                | 0.5          |
 
-_Last updated at 2026-06-16 16:08:57 UTC_
+_Last updated at 2026-06-23 08:57:11 UTC_

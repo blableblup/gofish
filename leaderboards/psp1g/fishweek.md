@@ -23,13 +23,13 @@
 | 19    | caprisen_                 | 65          |
 | 19    | sandwichsundays           | 65          |
 | 21    | xd_2k                     | 64          |
+| 22 ⬆  | inders                    | 63 (+1)     |
 | 22    | ratot                     | 63          |
-| 23 ⬆  | inders                    | 62 (+14)    |
-| 24 ⬇  | lobuhtomy                 | 59          |
-| 24 ⬇  | veny2lbs                  | 59          |
-| 26 ⬇  | eeziiii                   | 54          |
-| 27 ⬇  | disappointingtrash        | 48          |
-| 27 ⬇  | thasbe                    | 48          |
+| 24    | lobuhtomy                 | 59          |
+| 24    | veny2lbs                  | 59          |
+| 26    | eeziiii                   | 54          |
+| 27    | disappointingtrash        | 48          |
+| 27    | thasbe                    | 48          |
 | 29    | harnas_pro                | 47          |
 | 29    | trendymirror              | 47          |
 | 29    | yopego                    | 47          |
@@ -55,10 +55,10 @@
 | 51    | creepycode                | 26          |
 | 51    | flunke_                   | 26          |
 | 53    | angus_lpc                 | 24          |
-| 53 🆕 | bamfzi                    | 24          |
+| 53    | bamfzi                    | 24          |
 | 53    | seryxx                    | 24          |
-| 56 ⬇  | afju*                     | 21          |
+| 56    | afju*                     | 21          |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2026-06-16 16:08:57 UTC_
+_Last updated at 2026-06-23 08:57:11 UTC_
