@@ -4,35 +4,35 @@
 |:------|:-------------------------|:--------------------|
 | 1 🥇  | lluuucy                  | 101004.27           |
 | 2 🥈  | osnyatsky*               | 91106.82            |
-| 3 🥉  | osnyisdead               | 86493.42 (+349.45)  |
+| 3 🥉  | osnyisdead               | 87210.76 (+717.34)  |
 | 4     | puzzlow                  | 78733.57            |
 | 5     | sicklymaidrobot          | 76674.96            |
-| 6     | qu4ttromila              | 69893.28            |
+| 6     | qu4ttromila              | 69937.31 (+44.03)   |
 | 7     | leanmeister              | 67760.79            |
-| 8     | miiiiisho                | 64327.88 (+0.41)    |
+| 8     | miiiiisho                | 64328.66 (+0.78)    |
 | 9     | destin357                | 63895.32            |
-| 10    | dazedforevermore         | 57246.65            |
-| 11    | derinturitierutz         | 57222.05            |
-| 12    | kishma9                  | 54672.35 (+21.17)   |
+| 10 ⬆  | derinturitierutz         | 57594.68 (+372.63)  |
+| 11 ⬇  | dazedforevermore         | 57246.65            |
+| 12    | kishma9                  | 54945.70 (+273.35)  |
 | 13    | sussy_amonge             | 52098.34            |
-| 14    | booty_bread              | 42826.40 (+12.88)   |
-| 15    | derintu                  | 34778.96 (+10.25)   |
+| 14    | booty_bread              | 42826.40            |
+| 15    | derintu                  | 35061.23 (+282.27)  |
 | 16    | ninjaross*               | 32171.42            |
-| 17    | fishingalt               | 30927.99            |
-| 18    | esvelles                 | 29832.33 (+676.78)  |
-| 19    | ytp_dl*                  | 27111.50 (+739.64)  |
-| 20    | dougiefresh_83*          | 26379.56 (+316.85)  |
-| 21    | cumgi                    | 23386.39 (+570.69)  |
+| 17    | fishingalt               | 31277.46 (+349.47)  |
+| 18    | esvelles                 | 30337.94 (+505.61)  |
+| 19    | ytp_dl*                  | 27416.34 (+304.84)  |
+| 20    | dougiefresh_83*          | 26835.03 (+455.47)  |
+| 21    | cumgi                    | 23444.37 (+57.98)   |
 | 22    | comiqq                   | 20900.39            |
-| 23    | paras220                 | 20261.98            |
-| 24    | larvaew                  | 19956.67 (+15.91)   |
+| 23 ⬆  | larvaew                  | 20820.27 (+863.60)  |
+| 24 ⬇  | paras220                 | 20261.98            |
 | 25    | ryebreadward             | 19103.99            |
 | 26    | crazytown_bananapants    | 18176.45            |
-| 27    | gstaman911               | 16736.11 (+65.65)   |
+| 27    | gstaman911               | 16741.33 (+5.22)    |
 | 28    | bussinongnocap           | 16404.64            |
 | 29    | respirate_               | 14595.42            |
 | 30    | julialuxel               | 14122.69            |
-| 31    | breadworms               | 13754.31 (+61.84)   |
+| 31    | breadworms               | 13990.94 (+236.63)  |
 | 32    | xth49*                   | 13595.84            |
 | 33    | trident1011              | 13141.95            |
 | 34    | xz_xz                    | 12457.40            |
@@ -40,14 +40,14 @@
 | 36    | michael_bay65            | 11754.04            |
 | 37    | idini                    | 11044.84            |
 | 38    | mitgliederversammlung    | 9718.17             |
-| 39    | wcd0                     | 9069.21             |
+| 39    | wcd0                     | 9079.92 (+10.71)    |
 | 40    | lazuli672*               | 8789.78             |
-| 41    | cutsekai                 | 7893.88 (+16.74)    |
+| 41    | cutsekai                 | 8546.73 (+652.85)   |
 | 42    | osnyatsky*               | 7723.42             |
 | 43    | doublehelicalstructure*  | 7292.83             |
 | 44    | wisco9ers*               | 6585.86             |
-| 45 ⬆  | fvkdylan                 | 6519.11 (+319.44)   |
-| 46 ⬇  | gawblemachine            | 6380.65             |
+| 45    | fvkdylan                 | 6583.43 (+64.32)    |
+| 46    | gawblemachine            | 6380.65             |
 | 47    | ouacewi                  | 6173.19             |
 | 48    | realtechnine             | 6015.30             |
 | 49    | divra__                  | 5760.49             |
@@ -60,7 +60,7 @@
 | 56    | receipts                 | 4316.51             |
 | 57    | supibot                  | 4264.44             |
 | 58    | yliathim*                | 3939.78             |
-| 59    | wispmode                 | 3715.97 (+5.90)     |
+| 59    | wispmode                 | 3806.72 (+90.75)    |
 | 60    | hmsmob*                  | 3577.12             |
 | 61    | 6vi7*                    | 3542.74             |
 | 62    | comiiiiiq                | 3322.63             |
@@ -77,4 +77,4 @@
 
 _Only showing fishers with a total weight of >= 1800 lbs_
 
-_Last updated at 2026-06-21 09:46:55 UTC_
+_Last updated at 2026-06-28 08:44:43 UTC_

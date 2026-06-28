@@ -2,6 +2,8 @@
 
 | Rank | Fish              | Weight in lbs | Player                | Date in UTC         |
 |:-----|:------------------|:--------------|:----------------------|:--------------------|
+| 115  | 🐝 bee            | 0.35          | proswift              | 2026-06-24 23:26:42 |
+| 114  | 🍇 crowberries    | 1.00          | proswift              | 2026-06-23 23:59:10 |
 | 113  | 👑 crown          | 64.62         | ichezero              | 2026-05-04 12:10:02 |
 | 112  | 🪿 goose          | 0.69          | eelacy                | 2026-02-06 06:39:22 |
 | 111  | ✉️ letter         | 0.00          | vaiastol              | 2025-12-18 04:22:25 |
@@ -34,8 +36,8 @@
 | 84   | 🐻‍❄️ polarbear      | 24.33         | julialuxel            | 2024-12-26 01:45:22 |
 | 83   | 🐧 penguin        | 18.81         | pengeg                | 2024-12-25 04:04:34 |
 | 82   | 🧭 compass        | 12.25         | vaiastol              | 2024-12-25 03:46:12 |
-| 80   | 🎀 wrappingpaper  | 0.00          | vaiastol              | 2024-12-24 10:30:51 |
 | 80   | 🍪 cookie         | 0.00          | vaiastol              | 2024-12-24 10:30:51 |
+| 80   | 🎀 wrappingpaper  | 0.00          | vaiastol              | 2024-12-24 10:30:51 |
 | 79   | 🎁 present        | 0.00          | vaiastol              | 2024-12-24 10:30:29 |
 | 78   | ⛸️ iceskate       | 0.80          | pengeg                | 2024-12-24 03:21:39 |
 | 77   | 🔔 bell           | 0.00          | vaiastol              | 2024-12-22 18:29:48 |
@@ -116,4 +118,4 @@
 | 2    | 🦀 crab           | 2.81          | jr_mime               | 2024-07-28 10:52:00 |
 | 1    | 🐸 frog           | 1.70          | mitgliederversammlung | 2024-07-28 00:20:07 |
 
-_Last updated at 2026-06-21 09:45:09 UTC_
+_Last updated at 2026-06-28 08:44:39 UTC_

@@ -2,6 +2,8 @@
 
 | Rank | Fish               | Weight in lbs | Player                    | Date in UTC         |
 |:-----|:-------------------|:--------------|:--------------------------|:--------------------|
+| 121  | 🫐 bilberries      | 0.23          | blu_inx                   | 2026-06-24 19:56:50 |
+| 120  | 🍇 crowberries     | 0.96          | lobuhtomy                 | 2026-06-22 20:37:54 |
 | 119  | 🪚 icesaw          | 0.94          | flunke_                   | 2026-01-02 09:59:07 |
 | 118  | 🧥 coat            | 2.93          | feelsaceman               | 2025-12-25 02:51:38 |
 | 117  | 🛒 shoppingcart    | 51.50         | deatron                   | 2025-12-24 19:24:29 |
@@ -122,4 +124,4 @@
 | 2    | 🦞 lobster         | 36.18         | psp1g                     | 2023-08-21 01:23:40 |
 | 1    | 🐟 fish            | 13.12         | dazedforevermore          | 2023-08-21 01:11:17 |
 
-_Last updated at 2026-05-31 10:10:38 UTC_
+_Last updated at 2026-06-28 08:44:39 UTC_

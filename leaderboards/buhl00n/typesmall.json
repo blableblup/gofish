@@ -95,7 +95,7 @@
 		"fishid": 230951,
 		"chatid": 360,
 		"date": "2026-01-03T04:47:04Z",
-		"rank": 55
+		"rank": 56
 	},
 	"cannedfood": {
 		"player": "buhl00n",
@@ -109,7 +109,7 @@
 		"fishid": 236306,
 		"chatid": 577,
 		"date": "2026-01-25T21:31:54Z",
-		"rank": 62
+		"rank": 63
 	},
 	"cardinal": {
 		"player": "buhl00n",
@@ -193,7 +193,7 @@
 		"fishid": 266790,
 		"chatid": 732,
 		"date": "2026-06-09T20:33:07Z",
-		"rank": 53
+		"rank": 54
 	},
 	"crocodile": {
 		"player": "vagdy",
@@ -263,7 +263,7 @@
 		"fishid": 256623,
 		"chatid": 677,
 		"date": "2026-04-20T16:04:33Z",
-		"rank": 52
+		"rank": 53
 	},
 	"frog": {
 		"player": "buhl00n",
@@ -277,7 +277,7 @@
 		"fishid": 222381,
 		"chatid": 33,
 		"date": "2025-12-14T00:47:14Z",
-		"rank": 50
+		"rank": 51
 	},
 	"gloves": {
 		"player": "buhl00n",
@@ -291,7 +291,7 @@
 		"fishid": 228000,
 		"chatid": 201,
 		"date": "2025-12-25T08:18:26Z",
-		"rank": 57
+		"rank": 58
 	},
 	"grass": {
 		"player": "gimmeschmoneys",
@@ -319,7 +319,7 @@
 		"fishid": 233153,
 		"chatid": 464,
 		"date": "2026-01-13T00:27:56Z",
-		"rank": 57
+		"rank": 58
 	},
 	"icecube": {
 		"player": "buhl00n",
@@ -333,7 +333,7 @@
 		"fishid": 232884,
 		"chatid": 453,
 		"date": "2026-01-11T21:48:00Z",
-		"rank": 51
+		"rank": 52
 	},
 	"icesaw": {
 		"player": "gimmeschmoneys",
@@ -375,7 +375,7 @@
 		"fishid": 222138,
 		"chatid": 19,
 		"date": "2025-12-13T12:43:25Z",
-		"rank": 57
+		"rank": 58
 	},
 	"lizard": {
 		"player": "vagdy",
@@ -389,7 +389,7 @@
 		"fishid": 225775,
 		"chatid": 124,
 		"date": "2025-12-18T12:34:50Z",
-		"rank": 54
+		"rank": 55
 	},
 	"lobster": {
 		"player": "buhl00n",
@@ -417,7 +417,7 @@
 		"fishid": 268300,
 		"chatid": 739,
 		"date": "2026-06-17T13:45:25Z",
-		"rank": 55
+		"rank": 56
 	},
 	"lure": {
 		"player": "buhl00n",
@@ -431,7 +431,7 @@
 		"fishid": 227431,
 		"chatid": 181,
 		"date": "2025-12-23T18:14:11Z",
-		"rank": 57
+		"rank": 58
 	},
 	"mushroom": {
 		"player": "glorp_fishing",
@@ -641,7 +641,7 @@
 		"fishid": 226043,
 		"chatid": 133,
 		"date": "2025-12-19T04:39:07Z",
-		"rank": 57
+		"rank": 58
 	},
 	"shark": {
 		"player": "glorp_fishing",
@@ -669,7 +669,7 @@
 		"fishid": 232443,
 		"chatid": 427,
 		"date": "2026-01-10T08:29:00Z",
-		"rank": 62
+		"rank": 63
 	},
 	"shrimp": {
 		"player": "buhl00n",
@@ -753,7 +753,7 @@
 		"fishid": 233365,
 		"chatid": 474,
 		"date": "2026-01-13T21:06:22Z",
-		"rank": 49
+		"rank": 50
 	},
 	"sponge": {
 		"player": "buhl00n",
@@ -796,6 +796,20 @@
 		"chatid": 590,
 		"date": "2026-01-29T03:45:54Z",
 		"rank": 14
+	},
+	"thongsandal": {
+		"player": "buhl00n",
+		"playerid": 3121,
+		"weight": 0.26,
+		"bot": "gofishgame",
+		"fishtype": "🩴",
+		"fishname": "thongsandal",
+		"catchtype": "normal",
+		"chat": "buhl00n",
+		"fishid": 269675,
+		"chatid": 744,
+		"date": "2026-06-23T00:51:35Z",
+		"rank": 49
 	},
 	"tropicalfish": {
 		"player": "buhl00n",

@@ -11,9 +11,9 @@
 | 7     | jboy42o        | 30          |
 | 8     | xopowosidim667 | 21          |
 | 9     | mersufy        | 18          |
-| 10    | besceny        | 15 (+1)     |
+| 10    | besceny        | 16 (+1)     |
 | 11    | koenheylen     | 11          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-06-14 09:20:05 UTC_
+_Last updated at 2026-06-28 08:41:03 UTC_

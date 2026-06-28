@@ -4,27 +4,27 @@
 |:------|:------------------|:--------------------|
 | 1 🥇  | jeffbethyname69   | 5627.08             |
 | 2 🥈  | dolp_fin          | 3830.56             |
-| 3 🥉  | amatusz           | 3562.74 (+15.49)    |
-| 4     | boogie_310        | 2305.10 (+71.96)    |
+| 3 🥉  | amatusz           | 3575.98 (+13.24)    |
+| 4     | boogie_310        | 2305.10             |
 | 5     | gofishgamer       | 1843.60             |
 | 6     | allspice_boatrace | 1692.63             |
-| 7     | aaurie            | 1193.93             |
-| 8     | abelito75         | 1142.30 (+15.99)    |
-| 9     | guy_farting420    | 1045.82 (+59.86)    |
-| 10    | curiouscorvidae   | 746.32              |
-| 11    | victorvondoom313  | 692.02              |
-| 12    | bluezebra17       | 626.08              |
-| 13    | preemalone        | 584.78              |
-| 14    | rustnroll         | 515.86              |
+| 7 ⬆   | abelito75         | 1233.33 (+91.03)    |
+| 8 ⬇   | aaurie            | 1193.93             |
+| 9     | guy_farting420    | 1045.82             |
+| 10    | curiouscorvidae   | 749.14 (+2.82)      |
+| 11 ⬆  | rustnroll         | 743.53 (+227.67)    |
+| 12 ⬇  | victorvondoom313  | 692.02              |
+| 13 ⬇  | bluezebra17       | 626.08              |
+| 14 ⬇  | preemalone        | 584.78              |
 | 15    | lor_starcutter    | 453.38              |
 | 16    | dwaynepounder     | 438.31              |
 | 17    | slimdoggiedog     | 438.27              |
 | 18    | honeytonguedbee   | 420.60              |
 | 19    | eldiabloskillet   | 379.29              |
 | 20    | brody5020         | 327.67              |
-| 21    | meowinmestar      | 308.22              |
-| 22    | one_guy_123       | 307.17              |
-| 23    | mademooselle      | 300.86              |
+| 21 ⬆  | mademooselle      | 313.87 (+13.01)     |
+| 22    | one_guy_123       | 309.41 (+2.24)      |
+| 23 ⬇  | miaumestar        | 308.22              |
 | 24    | onetriforce       | 296.54              |
 | 25    | ratlover2244      | 282.57              |
 | 26    | forceghostleia    | 254.21              |
@@ -34,4 +34,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-06-21 09:46:55 UTC_
+_Last updated at 2026-06-28 08:44:43 UTC_

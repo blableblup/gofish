@@ -2,29 +2,29 @@
 
 | Rank | Fish              | Weight in lbs | Player            | Date in UTC         |
 |:-----|:------------------|:--------------|:------------------|:--------------------|
-| 77   | 🪸 coral          | 4.81          | andrewlmao        | 2026-06-20 05:40:32 |
-| 76   | 🪝 hook           | 0.87          | damnsalem         | 2026-06-20 03:33:43 |
-| 75   | 🦐 shrimp         | 3.32          | abandonedplayer_  | 2026-06-20 03:25:33 |
-| 74   | 🦑 squid          | 27.22         | guy_farting420    | 2026-06-20 03:23:33 |
-| 73   | 🧽 sponge         | 3.37          | amatusz           | 2026-06-20 03:14:59 |
-| 72   | 🐟 fish           | 10.44         | amatusz           | 2026-06-16 05:24:07 |
-| 71   | 🧟 deadbody       | 32.64         | guy_farting420    | 2026-06-16 03:36:57 |
-| 70   | 🎏 lure           | 0.31          | ojedi8            | 2026-06-15 07:47:34 |
-| 69   | 🐚 shell          | 1.68          | amatusz           | 2026-06-15 06:41:30 |
-| 68   | 🐠 tropicalfish   | 5.07          | honeytonguedbee   | 2026-06-12 04:25:46 |
-| 67   | 🐊 crocodile      | 40.06         | curiouscorvidae   | 2026-06-12 01:43:09 |
-| 66   | 🐸 frog           | 2.32          | aaurie            | 2026-06-12 01:34:49 |
-| 65   | 🧦 socks          | 0.69          | amatusz           | 2026-06-09 01:19:46 |
-| 64   | 🐢 turtle         | 17.13         | andrewlmao        | 2026-06-08 06:47:04 |
-| 63   | 🐋 whale          | 97.82         | boogie_310        | 2026-06-06 01:26:09 |
-| 62   | 🐙 octopus        | 55.98         | victorvondoom313  | 2026-06-06 01:26:01 |
-| 61   | 🌿 seaweed        | 0.75          | amatusz           | 2026-06-05 05:24:44 |
-| 60   | 💀 skull          | 9.44          | amatusz           | 2026-06-05 02:10:21 |
-| 59   | 🦪 oyster         | 19.59         | boogie_310        | 2026-06-01 05:53:43 |
-| 58   | 🦞 lobster        | 16.67         | amatusz           | 2026-06-01 03:17:02 |
-| 57   | 🕷️ spider         | 0.29          | amatusz           | 2026-06-01 02:07:52 |
-| 56   | 🦀 crab           | 2.45          | copaheal          | 2026-05-30 03:53:30 |
-| 55   | 🦕 sauropod       | 141.90        | honeytonguedbee   | 2026-05-30 02:15:58 |
+| 77   | 🐟 fish           | 4.08          | amatusz           | 2026-06-27 02:17:32 |
+| 76   | 🦀 crab           | 2.82          | curiouscorvidae   | 2026-06-27 01:47:22 |
+| 75   | 🐢 turtle         | 71.19         | abelito75         | 2026-06-27 01:17:49 |
+| 74   | 🐠 tropicalfish   | 16.73         | ojedi8            | 2026-06-26 05:42:07 |
+| 73   | 🧽 sponge         | 3.58          | amatusz           | 2026-06-26 05:15:01 |
+| 72   | 🪸 coral          | 1.29          | amatusz           | 2026-06-26 03:24:10 |
+| 71   | 🕷️ spider         | 0.67          | amatusz           | 2026-06-26 01:06:23 |
+| 70   | 🐙 octopus        | 58.15         | zilarrezko        | 2026-06-26 00:45:53 |
+| 69   | 🦐 shrimp         | 3.44          | rustnroll         | 2026-06-23 01:20:52 |
+| 68   | 🪝 hook           | 2.24          | one_guy_123       | 2026-06-22 04:51:26 |
+| 67   | 🦕 sauropod       | 224.23        | rustnroll         | 2026-06-22 04:26:09 |
+| 66   | 🐚 shell          | 3.62          | amatusz           | 2026-06-22 02:24:12 |
+| 65   | 🦑 squid          | 27.22         | guy_farting420    | 2026-06-20 03:23:33 |
+| 64   | 🧟 deadbody       | 32.64         | guy_farting420    | 2026-06-16 03:36:57 |
+| 63   | 🎏 lure           | 0.31          | ojedi8            | 2026-06-15 07:47:34 |
+| 62   | 🐊 crocodile      | 40.06         | curiouscorvidae   | 2026-06-12 01:43:09 |
+| 61   | 🐸 frog           | 2.32          | aaurie            | 2026-06-12 01:34:49 |
+| 60   | 🧦 socks          | 0.69          | amatusz           | 2026-06-09 01:19:46 |
+| 59   | 🐋 whale          | 97.82         | boogie_310        | 2026-06-06 01:26:09 |
+| 58   | 🌿 seaweed        | 0.75          | amatusz           | 2026-06-05 05:24:44 |
+| 57   | 💀 skull          | 9.44          | amatusz           | 2026-06-05 02:10:21 |
+| 56   | 🦪 oyster         | 19.59         | boogie_310        | 2026-06-01 05:53:43 |
+| 55   | 🦞 lobster        | 16.67         | amatusz           | 2026-06-01 03:17:02 |
 | 54   | 🐍 snake          | 1.72          | therealreplica    | 2026-05-29 01:31:20 |
 | 53   | 🐌 snail          | 7.30          | amatusz           | 2026-05-25 06:24:00 |
 | 52   | 🥪 sandwich       | 0.04          | amatusz           | 2026-05-23 03:14:21 |
@@ -64,13 +64,13 @@
 | 18   | 🐉 dragon         | 12.52         | jonysays          | 2025-10-11 01:04:20 |
 | 17   | 🍁 leaf           | 0.82          | mademooselle      | 2025-10-06 07:00:34 |
 | 16   | 🛢️ oildrum        | 160.83        | dolp_fin          | 2025-09-23 04:48:26 |
-| 15   | 🩲 briefs         | 2.58          | rjthebooger       | 2025-09-06 07:35:03 |
+| 15   | 🩲 briefs         | 2.58          | jimmybooger       | 2025-09-06 07:35:03 |
 | 14   | 🪼 jellyfish      | 2.10          | twofistedtales    | 2025-09-05 06:19:28 |
 | 13   | 🕶️ darksunglasses | 1.95          | jeffbethyname69   | 2025-08-30 01:35:48 |
 | 12   | 🩴 thongsandal    | 1.69          | blackberryking00  | 2025-08-25 03:04:17 |
 | 11   | ☘️ clover         | 1.50          | aaurie            | 2025-08-15 21:53:38 |
 | 10   | 🌻 sunflower      | 2.35          | aaurie            | 2025-08-09 01:41:23 |
-| 9    | ☂️ umbrella       | 2.97          | rjthebooger       | 2025-08-02 01:10:31 |
+| 9    | ☂️ umbrella       | 2.97          | jimmybooger       | 2025-08-02 01:10:31 |
 | 8    | 🦆 duck           | 10.04         | mirzaasjad_       | 2025-07-21 07:24:28 |
 | 7    | 👒 hat            | 5.69          | amatusz           | 2025-07-07 03:54:58 |
 | 6    | 🧜‍♀️ mermaid        | 80.38         | dolp_fin          | 2025-06-10 05:18:43 |
@@ -80,4 +80,4 @@
 | 2    | 🎱 8ball          | 2.22          | mademooselle      | 2025-04-01 04:29:50 |
 | 1    | 🧵 wireline       | 0.04          | nalls             | 2025-03-22 04:41:42 |
 
-_Last updated at 2026-06-21 09:45:08 UTC_
+_Last updated at 2026-06-28 08:41:05 UTC_

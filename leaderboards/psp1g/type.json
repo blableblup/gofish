@@ -39,7 +39,7 @@
 		"fishid": 196700,
 		"chatid": 65043,
 		"date": "2025-08-31T21:59:07Z",
-		"rank": 108
+		"rank": 109
 	},
 	"apple": {
 		"player": "mazzo_tv",
@@ -112,6 +112,20 @@
 		"chatid": 5574,
 		"date": "2023-09-27T10:52:21Z",
 		"rank": 53
+	},
+	"bilberries": {
+		"player": "blu_inx",
+		"playerid": 4099,
+		"weight": 0.23,
+		"bot": "gofishgame",
+		"fishtype": "🫐",
+		"fishname": "bilberries",
+		"catchtype": "normal",
+		"chat": "psp1g",
+		"fishid": 270483,
+		"chatid": 85463,
+		"date": "2026-06-24T19:56:50Z",
+		"rank": 114
 	},
 	"blowfish": {
 		"player": "bluberry",
@@ -255,18 +269,18 @@
 		"rank": 66
 	},
 	"caterpillar": {
-		"player": "jayayseaohbe",
-		"playerid": 3794,
-		"weight": 0.05,
+		"player": "blu_inx",
+		"playerid": 4099,
+		"weight": 0.55,
 		"bot": "gofishgame",
 		"fishtype": "🐛",
 		"fishname": "caterpillar",
 		"catchtype": "normal",
 		"chat": "psp1g",
-		"fishid": 196442,
-		"chatid": 65021,
-		"date": "2025-08-31T00:03:26Z",
-		"rank": 113
+		"fishid": 270971,
+		"chatid": 85617,
+		"date": "2026-06-26T09:33:17Z",
+		"rank": 111
 	},
 	"clover": {
 		"player": "flovrek",
@@ -364,7 +378,7 @@
 		"fishid": 198464,
 		"chatid": 65357,
 		"date": "2025-09-11T02:05:57Z",
-		"rank": 112
+		"rank": 115
 	},
 	"crocodile": {
 		"player": "luneckie",
@@ -379,6 +393,21 @@
 		"chatid": 81667,
 		"date": "2026-05-08T01:09:07Z",
 		"rank": 12
+	},
+	"crowberries": {
+		"player": "lobuhtomy",
+		"playerid": 599,
+		"verified": true,
+		"weight": 0.96,
+		"bot": "gofishgame",
+		"fishtype": "🍇",
+		"fishname": "crowberries",
+		"catchtype": "normal",
+		"chat": "psp1g",
+		"fishid": 269546,
+		"chatid": 85250,
+		"date": "2026-06-22T20:37:54Z",
+		"rank": 104
 	},
 	"crown": {
 		"player": "paju1g",
@@ -539,16 +568,16 @@
 	"fly": {
 		"player": "totallynotaboykisser",
 		"playerid": 3982,
-		"weight": 0.2,
+		"weight": 0.28,
 		"bot": "gofishgame",
 		"fishtype": "🪰",
 		"fishname": "fly",
 		"catchtype": "normal",
 		"chat": "psp1g",
-		"fishid": 267702,
-		"chatid": 84458,
-		"date": "2026-06-14T10:05:39Z",
-		"rank": 111
+		"fishid": 271168,
+		"chatid": 85662,
+		"date": "2026-06-26T21:19:11Z",
+		"rank": 113
 	},
 	"frog": {
 		"player": "noconcept_",
@@ -605,7 +634,7 @@
 		"fishid": 231495,
 		"chatid": 71494,
 		"date": "2026-01-05T01:54:01Z",
-		"rank": 108
+		"rank": 109
 	},
 	"grass": {
 		"player": "flunke_",
@@ -620,7 +649,7 @@
 		"fishid": 244101,
 		"chatid": 75191,
 		"date": "2026-03-02T09:30:18Z",
-		"rank": 105
+		"rank": 106
 	},
 	"hat": {
 		"player": "ttecnk",
@@ -708,18 +737,18 @@
 		"rank": 26
 	},
 	"jar": {
-		"player": "jayayseaohbe",
-		"playerid": 3794,
-		"weight": 0.98,
+		"player": "yo_tacos",
+		"playerid": 6931,
+		"weight": 1,
 		"bot": "gofishgame",
 		"fishtype": "🫙",
 		"fishname": "jar",
 		"catchtype": "normal",
 		"chat": "psp1g",
-		"fishid": 196432,
-		"chatid": 65019,
-		"date": "2025-08-30T23:01:22Z",
-		"rank": 103
+		"fishid": 269542,
+		"chatid": 85246,
+		"date": "2026-06-22T20:15:55Z",
+		"rank": 100
 	},
 	"jellyfish": {
 		"player": "sandwichsundays",
@@ -874,7 +903,7 @@
 		"fishid": 196399,
 		"chatid": 65015,
 		"date": "2025-08-30T20:49:06Z",
-		"rank": 110
+		"rank": 112
 	},
 	"mushroom": {
 		"player": "flunke_",
@@ -1102,7 +1131,7 @@
 		"fishid": 194749,
 		"chatid": 64876,
 		"date": "2025-08-25T07:57:19Z",
-		"rank": 107
+		"rank": 108
 	},
 	"sandwich": {
 		"player": "feelsaceman",
@@ -1144,7 +1173,7 @@
 		"fishid": 58667,
 		"chatid": 20871,
 		"date": "2024-02-01T23:11:44Z",
-		"rank": 104
+		"rank": 105
 	},
 	"seacucumber": {
 		"player": "jayayseaohbe",
@@ -1400,21 +1429,21 @@
 		"fishid": 128075,
 		"chatid": 56969,
 		"date": "2024-12-04T11:13:44Z",
-		"rank": 105
+		"rank": 106
 	},
 	"sunflower": {
-		"player": "jayayseaohbe",
-		"playerid": 3794,
-		"weight": 2.97,
+		"player": "feelsaceman",
+		"playerid": 3772,
+		"weight": 2.98,
 		"bot": "gofishgame",
 		"fishtype": "🌻",
 		"fishname": "sunflower",
 		"catchtype": "normal",
 		"chat": "psp1g",
-		"fishid": 182933,
-		"chatid": 62294,
-		"date": "2025-06-26T19:37:21Z",
-		"rank": 79
+		"fishid": 270073,
+		"chatid": 85356,
+		"date": "2026-06-23T20:47:28Z",
+		"rank": 78
 	},
 	"sunscreenbottle": {
 		"player": "joshuabzz",
@@ -1569,7 +1598,7 @@
 		"fishid": 129361,
 		"chatid": 57603,
 		"date": "2024-12-10T13:06:53Z",
-		"rank": 79
+		"rank": 80
 	},
 	"wireline": {
 		"player": "ocrw",

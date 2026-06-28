@@ -2,10 +2,10 @@
 
 | Rank   | Player           | Fish seen |
 |:-------|:-----------------|:----------|
-| 1 🥇   | ovrht            | 47        |
-| 2 🥈 ⬆ | alenakuz03       | 34 (+1)   |
+| 1 🥇 ⬆ | overhatecore     | 50 (+40)  |
+| 2 🥈   | alenakuz03       | 34        |
 | 2 🥈   | sgv4bl           | 34        |
-| 4      | dan1lew          | 29 (+1)   |
+| 4      | dan1lew          | 29        |
 | 5      | sidneya_         | 26        |
 | 6      | wizzyy6          | 24        |
 | 7      | klyne_qq         | 23        |
@@ -15,14 +15,14 @@
 | 11     | focfee           | 17        |
 | 12     | miaquiet         | 14        |
 | 13     | offwhiteairforc3 | 13        |
+| 14 🆕  | dagsai           | 12        |
 | 14     | k1lk4_           | 12        |
-| 15     | ewwwedd          | 11        |
-| 15     | kvgch            | 11        |
-| 15     | wenlygga         | 11        |
-| 18 🆕  | overhatecore     | 10        |
+| 16 ⬇   | ewwwedd          | 11        |
+| 16 ⬇   | kvgch            | 11        |
+| 16 ⬇   | wenlygga         | 11        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2026-06-21 09:43:20 UTC_
+_Last updated at 2026-06-28 08:41:03 UTC_

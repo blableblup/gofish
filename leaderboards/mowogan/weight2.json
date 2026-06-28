@@ -349,20 +349,6 @@
 		"date": "2025-07-27T01:57:01Z",
 		"rank": 45
 	},
-	"190097": {
-		"player": "mowogan",
-		"playerid": 3811,
-		"weight": 57.74,
-		"bot": "gofishgame",
-		"fishtype": "🐋",
-		"fishname": "whale",
-		"catchtype": "normal",
-		"chat": "mowogan",
-		"fishid": 190097,
-		"chatid": 317,
-		"date": "2025-07-27T02:46:59Z",
-		"rank": 100
-	},
 	"190330": {
 		"player": "konsminator",
 		"playerid": 3143,
@@ -1229,7 +1215,7 @@
 		"fishid": 240090,
 		"chatid": 1142,
 		"date": "2026-02-11T07:07:21Z",
-		"rank": 99
+		"rank": 100
 	},
 	"240414": {
 		"player": "konsminator",
@@ -1398,5 +1384,19 @@
 		"chatid": 1236,
 		"date": "2026-06-15T22:30:59Z",
 		"rank": 56
+	},
+	"270176": {
+		"player": "gibbbons",
+		"playerid": 4150,
+		"weight": 58.45,
+		"bot": "gofishgame",
+		"fishtype": "🐙",
+		"fishname": "octopus",
+		"catchtype": "normal",
+		"chat": "mowogan",
+		"fishid": 270176,
+		"chatid": 1238,
+		"date": "2026-06-24T02:19:50Z",
+		"rank": 99
 	}
 }

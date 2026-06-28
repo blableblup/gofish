@@ -2,29 +2,29 @@
 
 | Rank | Fish            | Weight in lbs | Player           | Date in UTC         |
 |:-----|:----------------|:--------------|:-----------------|:--------------------|
-| 66   | 🐠 tropicalfish | 20.35         | dom1torii        | 2026-06-19 23:17:20 |
-| 65   | 🐸 frog         | 1.77          | glorpiusbot      | 2026-06-19 20:30:36 |
-| 64   | 🪸 coral        | 5.04          | cute_ducc        | 2026-06-17 00:02:13 |
-| 63   | 🐚 shell        | 1.14          | aquaismissing    | 2026-06-15 22:21:58 |
-| 62   | 🐟 fish         | 4.13          | cute_ducc        | 2026-06-15 22:21:47 |
-| 61   | 🪨 rock         | 17.44         | aleknx           | 2026-06-08 22:33:19 |
-| 60   | 🪝 hook         | 2.47          | kreplj           | 2026-06-03 16:17:15 |
-| 59   | 🪼 jellyfish    | 12.46         | kreplj           | 2026-06-03 15:40:11 |
-| 58   | 🐋 whale        | 33.08         | kreplj           | 2026-06-02 17:38:16 |
-| 57   | 🕷️ spider       | 0.09          | kreplj           | 2026-06-02 16:22:52 |
-| 56   | 🎏 lure         | 1.10          | kreplj           | 2026-06-02 11:04:56 |
-| 55   | 🦀 crab         | 1.56          | mir9_9           | 2026-06-02 02:03:12 |
-| 54   | 🌿 seaweed      | 0.50          | kreplj           | 2026-06-02 01:59:41 |
-| 53   | 🧃 beveragebox  | 7.68          | cute_ducc        | 2026-05-26 20:52:15 |
-| 52   | 🧽 sponge       | 23.78         | likedom_         | 2026-05-26 20:52:09 |
-| 51   | 🗡️ dagger       | 0.60          | ojack18          | 2026-05-23 18:32:32 |
-| 50   | 🦑 squid        | 42.67         | kargalay         | 2026-05-22 16:55:49 |
-| 49   | 🐢 turtle       | 3.87          | underpaidchatter | 2026-05-20 00:14:15 |
-| 48   | 🐊 crocodile    | 29.47         | aquaismissing    | 2026-05-17 02:18:40 |
-| 47   | 🥫 cannedfood   | 0.85          | cute_ducc        | 2026-05-04 14:47:36 |
-| 46   | ☘️ clover       | 0.50          | glorpiusbot      | 2026-05-02 21:28:20 |
-| 45   | 🐦‍⬛ robin        | 2.01          | glorpiusbot      | 2026-05-01 22:52:29 |
-| 44   | 🧦 socks        | 0.97          | bubinga          | 2026-05-01 22:51:06 |
+| 66   | 🧦 socks        | 1.69          | xlucianek        | 2026-06-27 23:19:52 |
+| 65   | 🦑 squid        | 31.46         | cute_ducc        | 2026-06-27 22:38:01 |
+| 64   | 🧽 sponge       | 0.28          | cute_ducc        | 2026-06-22 00:40:35 |
+| 63   | 🐠 tropicalfish | 20.35         | dom1torii        | 2026-06-19 23:17:20 |
+| 62   | 🐸 frog         | 1.77          | glorpiusbot      | 2026-06-19 20:30:36 |
+| 61   | 🪸 coral        | 5.04          | cute_ducc        | 2026-06-17 00:02:13 |
+| 60   | 🐚 shell        | 1.14          | aquaismissing    | 2026-06-15 22:21:58 |
+| 59   | 🐟 fish         | 4.13          | cute_ducc        | 2026-06-15 22:21:47 |
+| 58   | 🪨 rock         | 17.44         | aleknx           | 2026-06-08 22:33:19 |
+| 57   | 🪝 hook         | 2.47          | kreplj           | 2026-06-03 16:17:15 |
+| 56   | 🪼 jellyfish    | 12.46         | kreplj           | 2026-06-03 15:40:11 |
+| 55   | 🐋 whale        | 33.08         | kreplj           | 2026-06-02 17:38:16 |
+| 54   | 🕷️ spider       | 0.09          | kreplj           | 2026-06-02 16:22:52 |
+| 53   | 🎏 lure         | 1.10          | kreplj           | 2026-06-02 11:04:56 |
+| 52   | 🦀 crab         | 1.56          | mir9_9           | 2026-06-02 02:03:12 |
+| 51   | 🌿 seaweed      | 0.50          | kreplj           | 2026-06-02 01:59:41 |
+| 50   | 🧃 beveragebox  | 7.68          | cute_ducc        | 2026-05-26 20:52:15 |
+| 49   | 🗡️ dagger       | 0.60          | ojack18          | 2026-05-23 18:32:32 |
+| 48   | 🐢 turtle       | 3.87          | underpaidchatter | 2026-05-20 00:14:15 |
+| 47   | 🐊 crocodile    | 29.47         | aquaismissing    | 2026-05-17 02:18:40 |
+| 46   | 🥫 cannedfood   | 0.85          | cute_ducc        | 2026-05-04 14:47:36 |
+| 45   | ☘️ clover       | 0.50          | glorpiusbot      | 2026-05-02 21:28:20 |
+| 44   | 🐦‍⬛ robin        | 2.01          | glorpiusbot      | 2026-05-01 22:52:29 |
 | 43   | 🦐 shrimp       | 0.33          | cute_ducc        | 2026-05-01 18:11:05 |
 | 42   | 🪹 emptynest    | 8.04          | glorpiusbot      | 2026-04-10 23:13:18 |
 | 41   | 🐙 octopus      | 41.73         | ggmagician       | 2026-04-04 20:19:57 |
@@ -69,4 +69,4 @@
 | 2    | 🛢️ oildrum      | 37.07         | rustezzz         | 2025-06-21 00:09:40 |
 | 1    | 🩰 balletshoes  | 1.25          | delfino921       | 2025-02-22 23:48:09 |
 
-_Last updated at 2026-06-21 09:45:08 UTC_
+_Last updated at 2026-06-28 08:41:04 UTC_

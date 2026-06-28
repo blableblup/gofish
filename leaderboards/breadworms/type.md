@@ -59,7 +59,7 @@
 | 55    | 🦴 bone            | 14.50         | destin357                | 2025-08-28 15:22:01 |
 | 56    | 🐌 snail           | 14.24         | yliathim*                | 2022-12-05 13:25:16 |
 | 57    | 🎱 8ball           | 12.85         | qu4ttromila              | 2024-03-28 16:36:34 |
-| 57 ⬆  | 🕶️ darksunglasses  | 12.85 (+0.05) | esvelles                 | 2026-06-05 13:18:51 |
+| 57    | 🕶️ darksunglasses  | 12.85         | esvelles                 | 2026-06-05 13:18:51 |
 | 59    | 🧸 teddybear       | 11.98         | destin357                | 2025-02-26 03:30:12 |
 | 60    | 🐦 cardinal        | 11.96         | julialuxel               | 2024-04-25 00:21:16 |
 | 61    | 🧃 beveragebox     | 11.87         | leanmeister              | 2025-06-12 05:56:46 |
@@ -116,16 +116,16 @@
 | 109   | 🧣 scarf           | 0.99          | osnyatsky*               | 2022-12-22 04:35:03 |
 | 113   | 🪚 icesaw          | 0.95          | osnyisdead               | 2025-02-12 04:45:11 |
 | 114   | 🍥 sanddollar      | 0.85          | derinturitierutz         | 2025-08-26 12:01:59 |
-| 115   | 🍇 crowberries     | 0.79          | derinturitierutz         | 2025-06-23 19:30:00 |
-| 116   | 🐜 ant             | 0.74          | derinturitierutz         | 2025-08-30 16:52:57 |
-| 117   | 🦟 mosquito        | 0.55          | lluuucy                  | 2025-08-31 15:30:07 |
-| 118   | 🪲 beetle          | 0.47          | qu4ttromila              | 2025-06-25 10:39:09 |
-| 119   | 🐞 ladybug         | 0.37          | derintu                  | 2025-08-31 20:38:14 |
-| 120   | 🪰 fly             | 0.27          | fvkdylan                 | 2025-06-22 09:13:07 |
-| 121   | 🦋 butterfly       | 0.26          | breadworms               | 2025-08-29 23:15:05 |
-| 122   | 🦗 cricket         | 0.24          | respirate_               | 2025-07-18 00:38:53 |
-| 123   | 🫐 bilberries      | 0.21          | respirate_               | 2025-07-11 04:22:15 |
+| 115 ⬆ | 🫐 bilberries      | 0.84 (+0.63)  | dougiefresh_83           | 2026-06-22 22:13:23 |
+| 115   | 🍇 crowberries     | 0.84 (+0.05)  | kishma9                  | 2026-06-22 20:55:31 |
+| 117 ⬇ | 🐜 ant             | 0.74          | derinturitierutz         | 2025-08-30 16:52:57 |
+| 118 ⬇ | 🦟 mosquito        | 0.55          | lluuucy                  | 2025-08-31 15:30:07 |
+| 119 ⬇ | 🪲 beetle          | 0.47          | qu4ttromila              | 2025-06-25 10:39:09 |
+| 120 ⬇ | 🐞 ladybug         | 0.37          | derintu                  | 2025-08-31 20:38:14 |
+| 121 ⬇ | 🪰 fly             | 0.34 (+0.07)  | derinturitierutz         | 2026-06-25 14:46:09 |
+| 122 ⬇ | 🦋 butterfly       | 0.26          | breadworms               | 2025-08-29 23:15:05 |
+| 123 ⬇ | 🦗 cricket         | 0.24          | respirate_               | 2025-07-18 00:38:53 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-06-07 09:23:09 UTC_
+_Last updated at 2026-06-28 08:43:20 UTC_

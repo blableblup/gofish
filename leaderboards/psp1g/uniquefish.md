@@ -2,26 +2,26 @@
 
 | Rank  | Player                    | Fish seen |
 |:------|:--------------------------|:----------|
-| 1 🥇  | nndiana*                  | 98        |
-| 2 🥈  | bubinga                   | 89        |
+| 1 🥇  | nndiana*                  | 100 (+2)  |
+| 2 🥈  | bubinga                   | 90 (+1)   |
 | 3 🥉  | mazzo_tv                  | 86        |
 | 4     | jayayseaohbe              | 84        |
-| 5     | huuuuuuuuuuuuuuuuuuuuuurz | 79        |
-| 6     | luneckie                  | 77        |
-| 7     | feelsaceman               | 74        |
+| 5 ⬆   | luneckie                  | 82 (+5)   |
+| 6 ⬇   | huuuuuuuuuuuuuuuuuuuuuurz | 79        |
+| 7     | feelsaceman               | 76 (+2)   |
+| 8 ⬆   | blu_inx                   | 72 (+5)   |
 | 8     | bluberry                  | 72        |
-| 9     | caprisen_*                | 71        |
-| 9     | flunke_                   | 71        |
-| 9     | jr_mime                   | 71        |
-| 12    | sandwichsundays*          | 70        |
-| 13    | zwockel01                 | 69        |
-| 14    | joshuabzz                 | 68        |
-| 14    | lobuhtomy                 | 68        |
-| 16    | blu_inx                   | 67        |
-| 16    | gorillapark               | 67        |
-| 16    | llikotesnecil             | 67        |
-| 16    | pengeg                    | 67        |
-| 16    | theevirus                 | 67        |
+| 10 ⬇  | caprisen_*                | 71        |
+| 10 ⬇  | flunke_                   | 71        |
+| 10 ⬇  | jr_mime                   | 71        |
+| 13 ⬆  | lobuhtomy                 | 70 (+2)   |
+| 13 ⬇  | sandwichsundays*          | 70        |
+| 15 ⬆  | llikotesnecil             | 69 (+2)   |
+| 15 ⬇  | zwockel01                 | 69        |
+| 17 ⬇  | joshuabzz                 | 68        |
+| 18 ⬇  | gorillapark               | 67        |
+| 18 ⬇  | pengeg                    | 67        |
+| 18 ⬇  | theevirus                 | 67        |
 | 21    | ratot                     | 66        |
 | 22    | divra__                   | 63        |
 | 23    | angus_lpc                 | 62        |
@@ -31,30 +31,32 @@
 | 26    | kevinlukejager            | 58        |
 | 26    | markenzy01                | 58        |
 | 26    | poons_sssssssssssssssssss | 58        |
+| 26 ⬆  | rottarded                 | 58 (+2)   |
 | 26    | veny2lbs                  | 58        |
-| 31    | iflya320                  | 57        |
-| 32    | benciee                   | 56        |
-| 32    | creepycode*               | 56        |
-| 32 ⬆  | deatron                   | 56 (+1)   |
-| 32    | deo7gen                   | 56        |
-| 32    | disappointingtrash        | 56        |
-| 32    | elusiin                   | 56        |
-| 32    | rottarded                 | 56        |
-| 39    | flovrek                   | 54        |
-| 39    | maksmusz*                 | 54        |
-| 39    | r1cz4rd                   | 54        |
+| 32    | deatron                   | 57 (+1)   |
+| 32 ⬇  | iflya320                  | 57        |
+| 34 ⬇  | benciee                   | 56        |
+| 34 ⬇  | creepycode*               | 56        |
+| 34 ⬇  | deo7gen                   | 56        |
+| 34 ⬇  | disappointingtrash        | 56        |
+| 34 ⬇  | elusiin                   | 56        |
+| 39    | flovrek                   | 55 (+1)   |
+| 40 ⬇  | maksmusz*                 | 54        |
+| 40 ⬇  | r1cz4rd                   | 54        |
 | 42    | euxoa                     | 53        |
-| 43    | faslker                   | 52        |
-| 43    | noconcept_                | 52        |
-| 43    | popfizzgg                 | 52        |
-| 43    | velantix*                 | 52        |
-| 47    | qxxick_                   | 51        |
-| 47    | wisdom_frog               | 51        |
-| 49    | bartohehe                 | 50        |
-| 49    | seryxx                    | 50        |
+| 42 🆕 | r3kko_                    | 53        |
+| 42 🆕 | totallynotaboykisser      | 53        |
+| 45 ⬇  | faslker                   | 52        |
+| 45 ⬇  | noconcept_                | 52        |
+| 45 ⬇  | popfizzgg                 | 52        |
+| 45 ⬇  | velantix*                 | 52        |
+| 49 ⬇  | qxxick_                   | 51        |
+| 49 ⬇  | wisdom_frog               | 51        |
+| 51 ⬇  | bartohehe                 | 50        |
+| 51 ⬇  | seryxx                    | 50        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-06-21 09:43:21 UTC_
+_Last updated at 2026-06-28 08:41:02 UTC_
