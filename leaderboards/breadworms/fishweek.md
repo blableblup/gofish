@@ -44,22 +44,23 @@
 | 40    | ouacewi               | 43          |
 | 41    | houseofleaves         | 42          |
 | 42    | cumgi                 | 40          |
-| 43    | fvkdylan              | 39          |
-| 44    | idini                 | 36          |
-| 45    | elisworm              | 34          |
-| 45    | julialuxel            | 34          |
-| 47    | islcfc*               | 33          |
-| 48    | jr_mime               | 32          |
-| 49    | death_nd_decay        | 28          |
-| 50    | breadworms            | 27          |
-| 50    | dougiefresh_83        | 27          |
-| 52    | globcob               | 25          |
-| 52    | wisco9ers             | 25          |
-| 54    | rocketpol*            | 24          |
-| 55    | divra__               | 22          |
-| 56    | veggesh               | 21          |
-| 57    | realtechnine          | 20          |
+| 42 🆕 | ommcyrene             | 40          |
+| 44 ⬇  | fvkdylan              | 39          |
+| 45 ⬇  | idini                 | 36          |
+| 46 ⬇  | elisworm              | 34          |
+| 46 ⬇  | julialuxel            | 34          |
+| 48 ⬇  | islcfc*               | 33          |
+| 49 ⬆  | breadworms            | 32 (+5)     |
+| 49 ⬇  | jr_mime               | 32          |
+| 51 ⬇  | death_nd_decay        | 28          |
+| 52 ⬇  | dougiefresh_83        | 27          |
+| 53 ⬇  | globcob               | 25          |
+| 53 ⬇  | wisco9ers             | 25          |
+| 55 ⬇  | rocketpol*            | 24          |
+| 56 ⬇  | divra__               | 22          |
+| 57 ⬇  | veggesh               | 21          |
+| 58 ⬇  | realtechnine          | 20          |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2026-05-28 11:31:15 UTC_
+_Last updated at 2026-07-01 11:26:34 UTC_

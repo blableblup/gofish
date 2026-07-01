@@ -4,7 +4,7 @@
 |:------|:--------------------------|:------------|
 | 1 🥇  | iflya320                  | 135         |
 | 2 🥈  | nndiana                   | 118         |
-| 3 🥉  | luneckie                  | 113         |
+| 3 🥉  | luneckie                  | 117 (+4)    |
 | 4     | huuuuuuuuuuuuuuuuuuuuuurz | 101         |
 | 5     | bubinga                   | 95          |
 | 6     | benciee                   | 94          |
@@ -23,7 +23,7 @@
 | 19    | caprisen_                 | 65          |
 | 19    | sandwichsundays           | 65          |
 | 21    | xd_2k                     | 64          |
-| 22 ⬆  | inders                    | 63 (+1)     |
+| 22    | inders                    | 63          |
 | 22    | ratot                     | 63          |
 | 24    | lobuhtomy                 | 59          |
 | 24    | veny2lbs                  | 59          |
@@ -37,28 +37,30 @@
 | 33    | jem_mp3                   | 45          |
 | 34    | joshuabzz                 | 44          |
 | 35    | r1cz4rd                   | 42          |
+| 35 🆕 | yo_tacos                  | 42          |
 | 35    | zwockel01                 | 42          |
-| 37    | theevirus                 | 41          |
-| 38    | commanda_u                | 37          |
-| 38    | elusiin                   | 37          |
-| 38    | pengeg                    | 37          |
-| 38    | rascothebirb              | 37          |
-| 42    | ducksleazzy               | 34          |
-| 43    | divra__                   | 33          |
-| 44    | glorianeq                 | 32          |
-| 45    | 3mikel                    | 31          |
-| 46    | kitenbleh                 | 30          |
-| 47    | noconcept_                | 29          |
-| 48    | yvhsu                     | 28          |
-| 49    | bananenshak3              | 27          |
-| 49    | llikotesnecil             | 27          |
-| 51    | creepycode                | 26          |
-| 51    | flunke_                   | 26          |
-| 53    | angus_lpc                 | 24          |
-| 53    | bamfzi                    | 24          |
-| 53    | seryxx                    | 24          |
-| 56    | afju*                     | 21          |
+| 38 ⬇  | theevirus                 | 41          |
+| 39 🆕 | r3kko_                    | 38          |
+| 40 ⬇  | commanda_u                | 37          |
+| 40 ⬇  | elusiin                   | 37          |
+| 40 ⬇  | pengeg                    | 37          |
+| 40 ⬇  | rascothebirb              | 37          |
+| 44 ⬇  | ducksleazzy               | 34          |
+| 45 ⬇  | divra__                   | 33          |
+| 46 ⬇  | glorianeq                 | 32          |
+| 47 ⬇  | 3mikel                    | 31          |
+| 48 ⬇  | kitenbleh                 | 30          |
+| 49 ⬇  | noconcept_                | 29          |
+| 50 ⬇  | yvhsu                     | 28          |
+| 51 ⬇  | bananenshak3              | 27          |
+| 51 ⬇  | llikotesnecil             | 27          |
+| 53 ⬇  | creepycode                | 26          |
+| 53 ⬇  | flunke_                   | 26          |
+| 55 ⬇  | angus_lpc                 | 24          |
+| 55 ⬇  | bamfzi                    | 24          |
+| 55 ⬇  | seryxx                    | 24          |
+| 58 ⬇  | afju*                     | 21          |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2026-06-23 08:57:11 UTC_
+_Last updated at 2026-07-01 11:26:34 UTC_
