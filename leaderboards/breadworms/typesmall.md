@@ -8,28 +8,28 @@
 | 4     | 🛒 shoppingcart    | 9.38          | esvelles              | 2025-12-26 10:29:24 |
 | 5     | 🧞‍♂️ genie           | 3.22          | osnyatsky             | 2024-02-11 00:58:17 |
 | 6     | 🦉 owl             | 3.20          | dougiefresh_83        | 2025-04-12 07:16:46 |
-| 7 ⬆   | 👑 crown           | 3.10          | osnyatsky*            | 2023-06-12 13:09:46 |
-| 8 ⬆   | 🧜‍♀️ mermaid         | 2.65          | kishma9               | 2023-12-04 11:12:58 |
-| 9 ⬇   | 🐀 rat             | 2.64 (-0.49)  | breadworms            | 2026-06-23 00:18:57 |
+| 7     | 👑 crown           | 3.10          | osnyatsky*            | 2023-06-12 13:09:46 |
+| 8     | 🧜‍♀️ mermaid         | 2.65          | kishma9               | 2023-12-04 11:12:58 |
+| 9     | 🐀 rat             | 2.64          | breadworms            | 2026-06-23 00:18:57 |
 | 10    | 🦴 bone            | 1.97          | derinturitierutz      | 2025-08-28 05:53:44 |
 | 11    | 🧥 coat            | 1.85          | gstaman911            | 2025-01-01 13:14:00 |
 | 12    | 🐈‍⬛ blackcat        | 1.84          | cumgi                 | 2025-12-13 14:59:41 |
 | 13    | 🧴 sunscreenbottle | 1.40          | fishingalt            | 2025-08-26 18:53:00 |
 | 14    | 🧋 bobacup         | 1.03          | derinturitierutz      | 2025-08-25 16:20:37 |
-| 15    | 🦂 scorpion        | 0.92          | fishingalt            | 2025-08-28 08:12:44 |
-| 16    | 🍱 tacklebox       | 0.81          | fishingalt            | 2025-11-04 13:24:20 |
-| 17 ⬆  | 🧟 deadbody        | 0.57          | destin357             | 2025-08-18 07:29:39 |
-| 18 ⬆  | 🗡️ dagger          | 0.56          | respirate_            | 2024-08-26 22:03:27 |
-| 19 ⬆  | 🦆 duck            | 0.48          | osnyatsky*            | 2023-07-25 17:55:46 |
-| 20 ⬆  | 🪲 beetle          | 0.47          | qu4ttromila           | 2025-06-25 10:39:09 |
-| 21 ⬆  | 🎰 slotmachine     | 0.42          | leanmeister           | 2025-04-17 00:15:18 |
-| 22 ⬆  | 🐉 dragon          | 0.29          | ytp_dl                | 2026-04-30 09:11:12 |
-| 23 ⬆  | 🪿 goose           | 0.28          | fishingalt            | 2026-01-01 09:54:57 |
-| 23 ⬆  | 🍄‍🟫 mushroom        | 0.28          | osnyisdead            | 2025-01-14 02:54:02 |
-| 25 ⬆  | 🐳 bluewhale       | 0.27          | esvelles              | 2026-01-13 12:03:33 |
-| 26 ⬆  | 🧭 compass         | 0.25          | breadworms            | 2025-01-02 17:10:06 |
-| 27 ⬆  | 🦫 beaver          | 0.22          | lluuucy               | 2025-12-01 03:14:34 |
-| 27 ⬇  | 🍇 crowberries     | 0.22 (-0.57)  | fishingalt            | 2026-06-26 10:34:43 |
+| 15 ⬆  | 🍱 tacklebox       | 0.81          | fishingalt            | 2025-11-04 13:24:20 |
+| 16 ⬆  | 🧟 deadbody        | 0.57          | destin357             | 2025-08-18 07:29:39 |
+| 17 ⬆  | 🗡️ dagger          | 0.56          | respirate_            | 2024-08-26 22:03:27 |
+| 18 ⬇  | 🦂 scorpion        | 0.52 (-0.40)  | derintu               | 2026-07-02 08:12:07 |
+| 19    | 🦆 duck            | 0.48          | osnyatsky*            | 2023-07-25 17:55:46 |
+| 20    | 🪲 beetle          | 0.47          | qu4ttromila           | 2025-06-25 10:39:09 |
+| 21    | 🎰 slotmachine     | 0.42          | leanmeister           | 2025-04-17 00:15:18 |
+| 22    | 🐉 dragon          | 0.29          | ytp_dl                | 2026-04-30 09:11:12 |
+| 23    | 🪿 goose           | 0.28          | fishingalt            | 2026-01-01 09:54:57 |
+| 23    | 🍄‍🟫 mushroom        | 0.28          | osnyisdead            | 2025-01-14 02:54:02 |
+| 25    | 🐳 bluewhale       | 0.27          | esvelles              | 2026-01-13 12:03:33 |
+| 26    | 🧭 compass         | 0.25          | breadworms            | 2025-01-02 17:10:06 |
+| 27    | 🦫 beaver          | 0.22          | lluuucy               | 2025-12-01 03:14:34 |
+| 27    | 🍇 crowberries     | 0.22          | fishingalt            | 2026-06-26 10:34:43 |
 | 29    | 🐊 crocodile       | 0.21          | suavvvvv              | 2024-03-05 17:44:44 |
 | 30    | 🌵 cactus          | 0.19          | breadworms            | 2025-08-26 21:41:29 |
 | 30    | 🕶️ darksunglasses  | 0.19          | leanmeister           | 2023-09-03 10:41:13 |
@@ -40,26 +40,26 @@
 | 36    | 🦇 bat             | 0.11          | fishingalt            | 2026-03-22 09:34:41 |
 | 36    | 🩲 briefs          | 0.11          | derinturitierutz      | 2024-07-31 17:15:58 |
 | 38    | 🧣 scarf           | 0.10          | ryebreadward          | 2023-12-25 05:27:44 |
-| 39    | 🐝 bee             | 0.09          | cumgi                 | 2025-08-26 20:24:32 |
 | 39    | 🐬 dolphin         | 0.09          | fishingalt            | 2023-12-22 20:00:52 |
 | 39    | 🍄 oceanplant      | 0.09          | miiiiisho             | 2024-01-24 19:44:13 |
 | 39    | 🌻 sunflower       | 0.09          | divra__               | 2024-06-22 14:36:26 |
-| 43    | 🍎 apple           | 0.08          | fishingalt            | 2025-10-31 19:39:40 |
-| 43    | 🪻 lupine          | 0.08          | breadworms            | 2025-08-26 18:57:21 |
-| 43    | 🐧 penguin         | 0.08          | bapqo                 | 2024-12-24 06:23:03 |
-| 43    | 🦈 shark           | 0.08          | sussy_amonge          | 2023-05-06 16:00:04 |
-| 47    | 👒 hat             | 0.07          | breadworms            | 2024-02-21 05:05:28 |
-| 47    | 🥒 seacucumber     | 0.07          | cutsekai              | 2025-09-09 14:26:45 |
-| 47    | 🧸 teddybear       | 0.07          | sicklymaidrobot       | 2024-02-13 07:14:29 |
-| 50    | 🪹 emptynest       | 0.06          | osnyisdead            | 2026-03-23 13:14:10 |
-| 50    | 🐦‍⬛ robin           | 0.06          | paras220              | 2024-07-07 04:33:58 |
-| 50    | 🦕 sauropod        | 0.06          | dazedforevermore      | 2023-06-23 01:50:15 |
-| 50    | 🌷 tulip           | 0.06          | qu4ttromila           | 2025-03-15 12:00:08 |
-| 54    | 🦞 lobster         | 0.05          | derinturitierutz      | 2023-09-27 05:33:15 |
-| 55    | 🧃 beveragebox     | 0.04          | larvaew               | 2025-06-12 04:57:02 |
-| 55    | 🪺 nestwitheggs    | 0.04          | idini                 | 2024-12-21 20:55:47 |
-| 55    | 🦠 plankton        | 0.04          | esvelles              | 2026-01-17 23:03:32 |
-| 55    | 🧽 sponge          | 0.04          | osnyisdead            | 2024-09-19 13:45:06 |
+| 42 ⬆  | 🍎 apple           | 0.08          | fishingalt            | 2025-10-31 19:39:40 |
+| 42 ⬆  | 🪻 lupine          | 0.08          | breadworms            | 2025-08-26 18:57:21 |
+| 42 ⬆  | 🐧 penguin         | 0.08          | bapqo                 | 2024-12-24 06:23:03 |
+| 42 ⬆  | 🦈 shark           | 0.08          | sussy_amonge          | 2023-05-06 16:00:04 |
+| 46 ⬆  | 👒 hat             | 0.07          | breadworms            | 2024-02-21 05:05:28 |
+| 46 ⬆  | 🥒 seacucumber     | 0.07          | cutsekai              | 2025-09-09 14:26:45 |
+| 46 ⬆  | 🧸 teddybear       | 0.07          | sicklymaidrobot       | 2024-02-13 07:14:29 |
+| 49 ⬆  | 🪹 emptynest       | 0.06          | osnyisdead            | 2026-03-23 13:14:10 |
+| 49 ⬆  | 🐦‍⬛ robin           | 0.06          | paras220              | 2024-07-07 04:33:58 |
+| 49 ⬆  | 🦕 sauropod        | 0.06          | dazedforevermore      | 2023-06-23 01:50:15 |
+| 49 ⬆  | 🌷 tulip           | 0.06          | qu4ttromila           | 2025-03-15 12:00:08 |
+| 53 ⬆  | 🦞 lobster         | 0.05          | derinturitierutz      | 2023-09-27 05:33:15 |
+| 54 ⬇  | 🐝 bee             | 0.04 (-0.05)  | fishingalt            | 2026-07-02 08:51:01 |
+| 54 ⬆  | 🧃 beveragebox     | 0.04          | larvaew               | 2025-06-12 04:57:02 |
+| 54 ⬆  | 🪺 nestwitheggs    | 0.04          | idini                 | 2024-12-21 20:55:47 |
+| 54 ⬆  | 🦠 plankton        | 0.04          | esvelles              | 2026-01-17 23:03:32 |
+| 54 ⬆  | 🧽 sponge          | 0.04          | osnyisdead            | 2024-09-19 13:45:06 |
 | 59    | 🐜 ant             | 0.03          | gawblemachine         | 2025-08-30 19:01:15 |
 | 59    | 🦗 cricket         | 0.03          | leanmeister           | 2025-07-04 00:29:09 |
 | 59    | 🐙 octopus         | 0.03          | qu4ttromila           | 2023-08-30 11:27:07 |
@@ -128,4 +128,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-06-28 08:42:11 UTC_
+_Last updated at 2026-07-05 09:08:00 UTC_

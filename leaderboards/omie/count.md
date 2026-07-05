@@ -2,16 +2,16 @@
 
 | Rank  | Player       | Fish caught |
 |:------|:-------------|:------------|
-| 1 🥇  | v6r_         | 5560 (+27)  |
-| 2 🥈  | mangos4u     | 2451 (+28)  |
-| 3 🥉  | ritaaww      | 2126 (+1)   |
+| 1 🥇  | v6r_         | 5570 (+10)  |
+| 2 🥈  | mangos4u     | 2462 (+11)  |
+| 3 🥉  | ritaaww      | 2126        |
 | 4     | solitahh     | 895         |
 | 5     | gofishgamer  | 371         |
 | 6     | aliveleader  | 145         |
 | 7     | respirate_   | 121         |
 | 8     | elisworm     | 93          |
 | 9     | sykelle      | 81          |
-| 10    | larvaew      | 63 (+17)    |
+| 10    | larvaew      | 67 (+4)     |
 | 11    | xddjenny     | 34          |
 | 12    | sussy_amonge | 21          |
 | 13    | dominoswifi  | 19          |
@@ -20,4 +20,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-06-28 08:41:04 UTC_
+_Last updated at 2026-07-05 09:04:31 UTC_

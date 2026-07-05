@@ -95,12 +95,12 @@
 | 91    | derintu                   | 🐳 bluewhale | 289.11        | 2025-03-27 15:03:12 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)           |
 | 92    | bubinga                   | 🐳 bluewhale | 288.72        | 2025-03-31 12:26:55 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                       |
 | 93    | vagdy                     | 🐳 bluewhale | 288.65        | 2026-01-11 22:18:50 | ![buhl00n](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/buhl00n.png)                 |
-| 94    | miiiiisho                 | 🦈 shark     | 288.27        | 2024-02-01 22:00:13 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)           |
-| 95    | comiqq                    | 🐳 bluewhale | 288.19        | 2024-03-24 15:49:44 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)           |
-| 95    | lobuhtomy                 | 🐳 bluewhale | 288.19        | 2025-12-05 02:45:41 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                       |
-| 97    | crunch_sack               | 🐳 bluewhale | 287.96        | 2024-03-31 05:58:07 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                     |
-| 98    | caprisen_                 | 🐳 bluewhale | 287.82        | 2024-12-05 13:28:42 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                     |
-| 99    | overhatecore              | 🐳 bluewhale | 287.76        | 2024-08-11 09:56:21 | ![overhatecore](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/overhatecore.png)       |
-| 100   | elisworm                  | 🐳 bluewhale | 287.68        | 2025-07-14 04:43:03 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)           |
+| 94 🆕 | esvelles                  | 🐳 bluewhale | 288.59        | 2026-07-03 10:31:09 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)           |
+| 95 ⬇  | miiiiisho                 | 🦈 shark     | 288.27        | 2024-02-01 22:00:13 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)           |
+| 96 ⬇  | comiqq                    | 🐳 bluewhale | 288.19        | 2024-03-24 15:49:44 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)           |
+| 96 ⬇  | lobuhtomy                 | 🐳 bluewhale | 288.19        | 2025-12-05 02:45:41 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                       |
+| 98 ⬇  | crunch_sack               | 🐳 bluewhale | 287.96        | 2024-03-31 05:58:07 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                     |
+| 99 ⬇  | caprisen_                 | 🐳 bluewhale | 287.82        | 2024-12-05 13:28:42 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                     |
+| 100 ⬇ | overhatecore              | 🐳 bluewhale | 287.76        | 2024-08-11 09:56:21 | ![overhatecore](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/overhatecore.png)       |
 
-_Last updated at 2026-06-28 08:44:42 UTC_
+_Last updated at 2026-07-05 09:08:14 UTC_

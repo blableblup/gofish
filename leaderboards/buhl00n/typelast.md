@@ -2,41 +2,43 @@
 
 | Rank | Fish             | Weight in lbs | Player         | Date in UTC         |
 |:-----|:-----------------|:--------------|:---------------|:--------------------|
-| 72   | 🌿 seaweed       | 0.52          | buhl00n        | 2026-06-27 20:17:20 |
-| 71   | 🐙 octopus       | 168.32        | glorp_fishing  | 2026-06-27 19:44:20 |
-| 70   | 🦐 shrimp        | 56.75         | buhl00n        | 2026-06-27 18:43:31 |
-| 69   | 🐊 crocodile     | 79.83         | glorp_fishing  | 2026-06-27 18:35:16 |
-| 68   | 🪝 hook          | 0.85          | buhl00n        | 2026-06-27 16:35:49 |
-| 67   | 🎏 lure          | 1.72          | buhl00n        | 2026-06-27 06:09:52 |
-| 66   | 🐌 snail         | 9.59          | gimmeschmoneys | 2026-06-25 15:52:07 |
-| 65   | 🐠 tropicalfish  | 5.48          | buhl00n        | 2026-06-25 04:56:17 |
-| 64   | 🍬 candy         | 0.00          | gimmeschmoneys | 2026-06-24 19:10:47 |
-| 63   | 🪻 lupine        | 0.68          | gimmeschmoneys | 2026-06-23 19:13:55 |
-| 62   | 🩴 thongsandal   | 0.26          | buhl00n        | 2026-06-23 00:51:35 |
-| 61   | 🐟 fish          | 6.86          | gimmeschmoneys | 2026-06-21 17:22:01 |
-| 60   | 🦀 crab          | 2.31          | gimmeschmoneys | 2026-06-21 14:02:57 |
-| 59   | 🐚 shell         | 2.67          | buhl00n        | 2026-06-21 05:37:17 |
-| 58   | 💀 skull         | 0.36          | buhl00n        | 2026-06-16 19:27:15 |
-| 57   | 🪶 feather       | 0.65          | buhl00n        | 2026-06-10 01:27:30 |
-| 56   | 🦈 shark         | 64.27         | gimmeschmoneys | 2026-06-04 08:10:22 |
-| 55   | 🦞 lobster       | 33.39         | glorp_fishing  | 2026-05-27 16:51:24 |
-| 54   | 🦪 oyster        | 5.83          | gimmeschmoneys | 2026-05-27 02:47:33 |
-| 53   | 🧦 socks         | 0.68          | buhl00n        | 2026-05-25 08:52:04 |
-| 52   | 🪳 cockroach     | 2.23          | buhl00n        | 2026-05-19 06:01:09 |
-| 51   | 🐸 frog          | 3.06          | gimmeschmoneys | 2026-05-13 09:09:15 |
-| 50   | 🎰 slotmachine   | 0.00          | gimmeschmoneys | 2026-05-12 16:59:57 |
-| 49   | 🐢 turtle        | 15.19         | glorp_fishing  | 2026-05-11 18:34:34 |
-| 48   | 🐋 whale         | 22.61         | glorp_fishing  | 2026-05-11 17:21:56 |
-| 47   | 🐳 bluewhale     | 243.03        | buhl00n        | 2026-05-06 18:08:20 |
-| 46   | 🐍 snake         | 13.98         | buhl00n        | 2026-05-06 14:15:01 |
-| 45   | 🐡 blowfish      | 2.83          | buhl00n        | 2026-05-05 15:35:39 |
-| 44   | 🪸 coral         | 1.79          | buhl00n        | 2026-04-19 17:04:45 |
-| 43   | 🐬 dolphin       | 40.99         | buhl00n        | 2026-04-13 06:19:05 |
-| 42   | 🥪 sandwich      | 0.98          | buhl00n        | 2026-04-08 00:09:03 |
-| 41   | 🌾 grass         | 0.64          | gimmeschmoneys | 2026-03-19 02:07:00 |
-| 40   | 🩰 balletshoes   | 0.74          | buhl00n        | 2026-03-15 10:40:48 |
-| 39   | 🦕 sauropod      | 242.30        | buhl00n        | 2026-03-11 15:17:56 |
-| 38   | 🕷️ spider        | 30.95         | glorp_fishing  | 2026-03-09 14:22:08 |
+| 74   | 🐢 turtle        | 63.33         | gimmeschmoneys | 2026-07-02 20:51:17 |
+| 73   | 🫙 jar           | 1.15          | gimmeschmoneys | 2026-07-02 10:14:33 |
+| 72   | 🎏 lure          | 0.43          | buhl00n        | 2026-07-02 10:10:14 |
+| 71   | 🐛 caterpillar   | 0.90          | buhl00n        | 2026-07-02 09:08:12 |
+| 70   | 🐌 snail         | 0.80          | buhl00n        | 2026-07-02 08:06:47 |
+| 69   | 🕷️ spider        | 0.18          | gimmeschmoneys | 2026-07-02 07:59:32 |
+| 68   | 🪝 hook          | 0.04          | gimmeschmoneys | 2026-07-02 00:18:18 |
+| 67   | 🐟 fish          | 12.37         | buhl00n        | 2026-07-01 18:58:04 |
+| 66   | 🐊 crocodile     | 29.78         | buhl00n        | 2026-07-01 13:35:13 |
+| 65   | 🌿 seaweed       | 0.15          | buhl00n        | 2026-06-29 22:15:47 |
+| 64   | 🦀 crab          | 2.77          | gimmeschmoneys | 2026-06-28 21:23:18 |
+| 63   | 🐙 octopus       | 168.32        | glorp_fishing  | 2026-06-27 19:44:20 |
+| 62   | 🦐 shrimp        | 56.75         | buhl00n        | 2026-06-27 18:43:31 |
+| 61   | 🐠 tropicalfish  | 5.48          | buhl00n        | 2026-06-25 04:56:17 |
+| 60   | 🍬 candy         | 0.00          | gimmeschmoneys | 2026-06-24 19:10:47 |
+| 59   | 🪻 lupine        | 0.68          | gimmeschmoneys | 2026-06-23 19:13:55 |
+| 58   | 🩴 thongsandal   | 0.26          | buhl00n        | 2026-06-23 00:51:35 |
+| 57   | 🐚 shell         | 2.67          | buhl00n        | 2026-06-21 05:37:17 |
+| 56   | 💀 skull         | 0.36          | buhl00n        | 2026-06-16 19:27:15 |
+| 55   | 🪶 feather       | 0.65          | buhl00n        | 2026-06-10 01:27:30 |
+| 54   | 🦈 shark         | 64.27         | gimmeschmoneys | 2026-06-04 08:10:22 |
+| 53   | 🦞 lobster       | 33.39         | glorp_fishing  | 2026-05-27 16:51:24 |
+| 52   | 🦪 oyster        | 5.83          | gimmeschmoneys | 2026-05-27 02:47:33 |
+| 51   | 🧦 socks         | 0.68          | buhl00n        | 2026-05-25 08:52:04 |
+| 50   | 🪳 cockroach     | 2.23          | buhl00n        | 2026-05-19 06:01:09 |
+| 49   | 🐸 frog          | 3.06          | gimmeschmoneys | 2026-05-13 09:09:15 |
+| 48   | 🎰 slotmachine   | 0.00          | gimmeschmoneys | 2026-05-12 16:59:57 |
+| 47   | 🐋 whale         | 22.61         | glorp_fishing  | 2026-05-11 17:21:56 |
+| 46   | 🐳 bluewhale     | 243.03        | buhl00n        | 2026-05-06 18:08:20 |
+| 45   | 🐍 snake         | 13.98         | buhl00n        | 2026-05-06 14:15:01 |
+| 44   | 🐡 blowfish      | 2.83          | buhl00n        | 2026-05-05 15:35:39 |
+| 43   | 🪸 coral         | 1.79          | buhl00n        | 2026-04-19 17:04:45 |
+| 42   | 🐬 dolphin       | 40.99         | buhl00n        | 2026-04-13 06:19:05 |
+| 41   | 🥪 sandwich      | 0.98          | buhl00n        | 2026-04-08 00:09:03 |
+| 40   | 🌾 grass         | 0.64          | gimmeschmoneys | 2026-03-19 02:07:00 |
+| 39   | 🩰 balletshoes   | 0.74          | buhl00n        | 2026-03-15 10:40:48 |
+| 38   | 🦕 sauropod      | 242.30        | buhl00n        | 2026-03-11 15:17:56 |
 | 37   | 🪨 rock          | 18.44         | buhl00n        | 2026-03-06 21:57:25 |
 | 36   | 🧟 deadbody      | 42.11         | buhl00n        | 2026-03-04 19:47:47 |
 | 35   | 👡 sandal        | 2.64          | gimmeschmoneys | 2026-03-04 14:52:40 |
@@ -63,8 +65,8 @@
 | 14   | ⛸️ iceskate      | 0.31          | gimmeschmoneys | 2025-12-29 07:35:46 |
 | 13   | 🎱 8ball         | 0.34          | vagdy          | 2025-12-20 16:50:33 |
 | 12   | 🦎 lizard        | 0.04          | vagdy          | 2025-12-18 12:34:50 |
-| 9    | 🍪 cookie        | 0.00          | buhl00n        | 2025-12-18 06:15:35 |
 | 9    | ✉️ letter        | 0.00          | buhl00n        | 2025-12-18 06:15:35 |
+| 9    | 🍪 cookie        | 0.00          | buhl00n        | 2025-12-18 06:15:35 |
 | 9    | 🎀 wrappingpaper | 0.00          | buhl00n        | 2025-12-18 06:15:35 |
 | 8    | 🥀 wiltedflower  | 1.77          | vagdy          | 2025-12-16 10:34:04 |
 | 7    | 🦫 beaver        | 3.22          | buhl00n        | 2025-12-15 22:40:04 |
@@ -75,4 +77,4 @@
 | 2    | 🔔 bell          | 0.00          | buhl00n        | 2025-12-13 11:15:38 |
 | 1    | 🪺 nestwitheggs  | 10.37         | buhl00n        | 2025-12-12 06:12:20 |
 
-_Last updated at 2026-06-28 08:41:04 UTC_
+_Last updated at 2026-07-05 09:04:37 UTC_

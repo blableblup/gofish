@@ -8,15 +8,15 @@
 | 4     | boogie_310             | 35        |
 | 5     | gofishgamer            | 32        |
 | 6     | allspice_boatrace      | 31        |
-| 7     | guy_farting420         | 27        |
+| 7     | guy_farting420         | 28 (+1)   |
 | 8     | aaurie                 | 23        |
-| 8 ⬆   | abelito75              | 23 (+1)   |
-| 10 ⬇  | bluezebra17            | 22        |
-| 10 ⬇  | curiouscorvidae        | 22        |
+| 8     | abelito75              | 23        |
+| 10    | bluezebra17            | 22        |
+| 10    | curiouscorvidae        | 22        |
 | 12    | victorvondoom313       | 21        |
-| 13    | rustnroll              | 20 (+1)   |
-| 14 ⬇  | dwaynepounder          | 19        |
-| 14 ⬇  | preemalone             | 19        |
+| 13    | rustnroll              | 20        |
+| 14    | dwaynepounder          | 19        |
+| 14    | preemalone             | 19        |
 | 16    | eldiabloskillet        | 16        |
 | 16    | honeytonguedbee        | 16        |
 | 18    | brody5020              | 14        |
@@ -35,4 +35,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2026-06-28 08:41:03 UTC_
+_Last updated at 2026-07-05 09:04:36 UTC_

@@ -39,7 +39,7 @@
 		"fishid": 266417,
 		"chatid": 18,
 		"date": "2026-06-07T16:27:28Z",
-		"rank": 10
+		"rank": 12
 	},
 	"6952": {
 		"player": "littlemunnster",
@@ -95,7 +95,7 @@
 		"fishid": 266890,
 		"chatid": 45,
 		"date": "2026-06-10T14:16:14Z",
-		"rank": 12
+		"rank": 14
 	},
 	"6962": {
 		"player": "whotookmamulukkikala",
@@ -109,7 +109,7 @@
 		"fishid": 268308,
 		"chatid": 167,
 		"date": "2026-06-17T14:18:49Z",
-		"rank": 8
+		"rank": 9
 	},
 	"6963": {
 		"player": "reinatheraven",
@@ -137,21 +137,49 @@
 		"fishid": 268590,
 		"chatid": 226,
 		"date": "2026-06-18T17:29:50Z",
-		"rank": 11
+		"rank": 13
 	},
 	"6966": {
 		"player": "xt1di",
 		"playerid": 6966,
-		"weight": 73.34,
+		"weight": 78.48,
 		"bot": "gofishgame",
-		"fishtype": "🪸",
-		"fishname": "coral",
+		"fishtype": "🐬",
+		"fishname": "dolphin",
 		"catchtype": "normal",
 		"chat": "brogboi",
-		"fishid": 268309,
-		"chatid": 168,
-		"date": "2026-06-17T14:20:01Z",
-		"rank": 9
+		"fishid": 272510,
+		"chatid": 315,
+		"date": "2026-07-01T16:43:45Z",
+		"rank": 10
+	},
+	"6974": {
+		"player": "venus2642",
+		"playerid": 6974,
+		"weight": 79.63,
+		"bot": "gofishgame",
+		"fishtype": "🐋",
+		"fishname": "whale",
+		"catchtype": "normal",
+		"chat": "brogboi",
+		"fishid": 272282,
+		"chatid": 298,
+		"date": "2026-06-30T18:59:29Z",
+		"rank": 8
+	},
+	"6981": {
+		"player": "nikkirowland",
+		"playerid": 6981,
+		"weight": 69.3,
+		"bot": "gofishgame",
+		"fishtype": "🐙",
+		"fishname": "octopus",
+		"catchtype": "normal",
+		"chat": "brogboi",
+		"fishid": 272508,
+		"chatid": 314,
+		"date": "2026-07-01T16:33:23Z",
+		"rank": 11
 	},
 	"7000": {
 		"player": "lanisye",

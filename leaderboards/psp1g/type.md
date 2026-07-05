@@ -79,9 +79,9 @@
 | 75     | 🌰 acorn           | 4.00          | bubinga                   | 2024-09-26 10:53:14 |
 | 76     | 🐦‍⬛ robin           | 3.93          | flunke_                   | 2024-09-05 14:16:16 |
 | 77     | 🍱 tacklebox       | 3.84          | bubinga                   | 2025-11-02 17:33:24 |
-| 78 ⬆   | 🌻 sunflower       | 2.98 (+0.01)  | feelsaceman               | 2026-06-23 20:47:28 |
+| 78     | 🌻 sunflower       | 2.98          | feelsaceman               | 2026-06-23 20:47:28 |
 | 78     | ☂️ umbrella        | 2.98          | theevirus                 | 2024-11-16 17:35:32 |
-| 80 ⬇   | 🥀 wiltedflower    | 2.97          | iflya320                  | 2024-12-10 13:06:53 |
+| 80     | 🥀 wiltedflower    | 2.97          | iflya320                  | 2024-12-10 13:06:53 |
 | 81     | 🩴 thongsandal     | 2.94          | bubinga                   | 2024-08-13 10:17:43 |
 | 82     | 🌷 tulip           | 2.93          | iflya320                  | 2024-12-04 16:22:17 |
 | 83     | 🌹 rose            | 2.88          | zwockel01                 | 2024-04-11 08:51:47 |
@@ -104,20 +104,21 @@
 | 100    | 🪶 feather         | 1.00          | shadowraider247           | 2024-09-15 13:12:58 |
 | 100    | 🧤 gloves          | 1.00          | kubo7                     | 2024-01-27 18:51:58 |
 | 100    | 🪚 icesaw          | 1.00          | feelsaceman               | 2026-02-16 11:45:50 |
-| 100 ⬆  | 🫙 jar             | 1.00 (+0.02)  | yo_tacos                  | 2026-06-22 20:15:55 |
-| 104 🆕 | 🍇 crowberries     | 0.96          | lobuhtomy                 | 2026-06-22 20:37:54 |
-| 105 ⬇  | 🧣 scarf           | 0.92          | blazeblitzzz              | 2024-02-01 23:11:44 |
-| 106 ⬇  | 🌾 grass           | 0.90          | flunke_                   | 2026-03-02 09:30:18 |
-| 106 ⬇  | 🐿️ squirrel        | 0.90          | iflya320                  | 2024-12-04 11:13:44 |
-| 108 ⬇  | 🍥 sanddollar      | 0.77          | bubinga                   | 2025-08-25 07:57:19 |
-| 109 ⬇  | 🐜 ant             | 0.62          | bluberry                  | 2025-08-31 21:59:07 |
-| 109 ⬇  | 🪿 goose           | 0.62          | llikotesnecil             | 2026-01-05 01:54:01 |
-| 111 ⬆  | 🐛 caterpillar     | 0.55 (+0.50)  | blu_inx                   | 2026-06-26 09:33:17 |
-| 112 ⬇  | 🦟 mosquito        | 0.34          | bluberry                  | 2025-08-30 20:49:06 |
-| 113 ⬇  | 🪰 fly             | 0.28 (+0.08)  | totallynotaboykisser      | 2026-06-26 21:19:11 |
-| 114 🆕 | 🫐 bilberries      | 0.23          | blu_inx                   | 2026-06-24 19:56:50 |
-| 115 ⬇  | 🦗 cricket         | 0.19          | jayayseaohbe              | 2025-09-11 02:05:57 |
+| 100    | 🫙 jar             | 1.00          | yo_tacos                  | 2026-06-22 20:15:55 |
+| 104    | 🍇 crowberries     | 0.96          | lobuhtomy                 | 2026-06-22 20:37:54 |
+| 105    | 🧣 scarf           | 0.92          | blazeblitzzz              | 2024-02-01 23:11:44 |
+| 106    | 🌾 grass           | 0.90          | flunke_                   | 2026-03-02 09:30:18 |
+| 106    | 🐿️ squirrel        | 0.90          | iflya320                  | 2024-12-04 11:13:44 |
+| 108    | 🍥 sanddollar      | 0.77          | bubinga                   | 2025-08-25 07:57:19 |
+| 109    | 🐜 ant             | 0.67 (+0.05)  | autisticfemboy_           | 2026-06-28 09:39:30 |
+| 110 ⬇  | 🪿 goose           | 0.62          | llikotesnecil             | 2026-01-05 01:54:01 |
+| 111    | 🐛 caterpillar     | 0.55          | blu_inx                   | 2026-06-26 09:33:17 |
+| 112 🆕 | 🦂 scorpion        | 0.35          | jayayseaohbe              | 2026-07-03 00:45:53 |
+| 113 ⬇  | 🦟 mosquito        | 0.34          | bluberry                  | 2025-08-30 20:49:06 |
+| 114 ⬇  | 🪰 fly             | 0.28          | totallynotaboykisser      | 2026-06-26 21:19:11 |
+| 115 ⬇  | 🫐 bilberries      | 0.23          | blu_inx                   | 2026-06-24 19:56:50 |
+| 116 ⬇  | 🦗 cricket         | 0.19          | jayayseaohbe              | 2025-09-11 02:05:57 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-06-28 08:44:38 UTC_
+_Last updated at 2026-07-05 09:05:04 UTC_

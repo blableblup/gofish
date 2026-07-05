@@ -4,14 +4,14 @@
 |:------|:------------|:--------------------|
 | 1 🥇  | envtt       | 2357.11             |
 | 2 🥈  | respirate_  | 1845.48             |
-| 3 🥉  | e1llas      | 1604.26             |
+| 3 🥉  | e1llas      | 1614.04 (+9.78)     |
 | 4     | eqcit       | 992.25              |
 | 5     | elisworm    | 842.46              |
 | 6     | gofishgamer | 764.16              |
 | 7     | jboy42o     | 598.47              |
-| 8     | besceny     | 374.60 (+95.04)     |
+| 8     | besceny     | 401.22 (+26.62)     |
 | 9     | koenheylen  | 217.37              |
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-06-28 08:44:43 UTC_
+_Last updated at 2026-07-05 09:06:29 UTC_

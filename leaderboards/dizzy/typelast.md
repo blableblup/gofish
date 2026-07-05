@@ -2,28 +2,28 @@
 
 | Rank | Fish              | Weight in lbs | Player          | Date in UTC         |
 |:-----|:------------------|:--------------|:----------------|:--------------------|
-| 110  | 🐠 tropicalfish   | 15.03         | ofaisalz        | 2026-06-09 16:11:44 |
-| 109  | 🦪 oyster         | 17.35         | meppppi         | 2026-05-22 21:31:52 |
-| 108  | 🪝 hook           | 2.12          | meppppi         | 2026-05-22 06:23:57 |
-| 107  | 🪸 coral          | 1.19          | kyonuwu         | 2026-04-25 22:56:19 |
-| 106  | 🐍 snake          | 10.44         | notnownico      | 2026-03-29 19:47:57 |
-| 105  | 🐡 blowfish       | 3.50          | notnownico      | 2026-03-29 15:17:41 |
-| 104  | 🎏 lure           | 2.50          | avrwhy          | 2026-03-26 21:05:49 |
-| 103  | 🐢 turtle         | 66.30         | notnownico      | 2026-03-23 21:02:58 |
-| 102  | 💀 skull          | 8.02          | notnownico      | 2026-03-23 13:26:05 |
-| 101  | 🪳 cockroach      | 0.21          | notnownico      | 2026-03-19 16:52:40 |
-| 100  | 🐟 fish           | 1.70          | notnownico      | 2026-03-18 17:47:25 |
-| 99   | 🐊 crocodile      | 133.44        | notnownico      | 2026-03-14 15:43:00 |
-| 98   | ☂️ umbrella       | 2.69          | notnownico      | 2026-03-12 22:52:31 |
-| 97   | 🦢 swan           | 1.44          | notnownico      | 2026-03-11 15:26:50 |
-| 96   | 🦞 lobster        | 28.29         | notnownico      | 2026-03-10 16:37:00 |
-| 95   | 🐬 dolphin        | 12.95         | notnownico      | 2026-03-10 13:05:24 |
-| 94   | 🍃 deadleaves     | 0.71          | notnownico      | 2026-03-05 12:54:12 |
-| 93   | 🧦 socks          | 1.91          | dizzy           | 2026-03-02 11:42:16 |
-| 92   | 🪱 worm           | 5.18          | avrwhy          | 2026-02-23 23:44:12 |
-| 91   | 🐚 shell          | 1.02          | notnownico      | 2026-02-20 14:10:56 |
-| 90   | 🥫 cannedfood     | 1.96          | notnownico      | 2026-02-15 21:02:52 |
-| 89   | 🦐 shrimp         | 6.95          | a_wildmoose     | 2026-02-15 18:55:05 |
+| 110  | 🦐 shrimp         | 6.43          | hamoodhabibee   | 2026-07-01 23:46:01 |
+| 109  | 🐠 tropicalfish   | 15.03         | ofaisalz        | 2026-06-09 16:11:44 |
+| 108  | 🦪 oyster         | 17.35         | meppppi         | 2026-05-22 21:31:52 |
+| 107  | 🪝 hook           | 2.12          | meppppi         | 2026-05-22 06:23:57 |
+| 106  | 🪸 coral          | 1.19          | kyonuwu         | 2026-04-25 22:56:19 |
+| 105  | 🐍 snake          | 10.44         | notnownico      | 2026-03-29 19:47:57 |
+| 104  | 🐡 blowfish       | 3.50          | notnownico      | 2026-03-29 15:17:41 |
+| 103  | 🎏 lure           | 2.50          | avrwhy          | 2026-03-26 21:05:49 |
+| 102  | 🐢 turtle         | 66.30         | notnownico      | 2026-03-23 21:02:58 |
+| 101  | 💀 skull          | 8.02          | notnownico      | 2026-03-23 13:26:05 |
+| 100  | 🪳 cockroach      | 0.21          | notnownico      | 2026-03-19 16:52:40 |
+| 99   | 🐟 fish           | 1.70          | notnownico      | 2026-03-18 17:47:25 |
+| 98   | 🐊 crocodile      | 133.44        | notnownico      | 2026-03-14 15:43:00 |
+| 97   | ☂️ umbrella       | 2.69          | notnownico      | 2026-03-12 22:52:31 |
+| 96   | 🦢 swan           | 1.44          | notnownico      | 2026-03-11 15:26:50 |
+| 95   | 🦞 lobster        | 28.29         | notnownico      | 2026-03-10 16:37:00 |
+| 94   | 🐬 dolphin        | 12.95         | notnownico      | 2026-03-10 13:05:24 |
+| 93   | 🍃 deadleaves     | 0.71          | notnownico      | 2026-03-05 12:54:12 |
+| 92   | 🧦 socks          | 1.91          | dizzy           | 2026-03-02 11:42:16 |
+| 91   | 🪱 worm           | 5.18          | avrwhy          | 2026-02-23 23:44:12 |
+| 90   | 🐚 shell          | 1.02          | notnownico      | 2026-02-20 14:10:56 |
+| 89   | 🥫 cannedfood     | 1.96          | notnownico      | 2026-02-15 21:02:52 |
 | 88   | 👢 boot           | 0.70          | baklavaandsushi | 2026-01-31 21:15:56 |
 | 87   | 🐳 bluewhale      | 85.86         | kyonuwu         | 2026-01-07 23:29:26 |
 | 86   | 🐸 frog           | 1.63          | ofaisalz        | 2025-12-31 18:12:39 |
@@ -99,8 +99,8 @@
 | 15   | 🪚 icesaw         | 0.60          | gimmeschmoneys  | 2025-02-26 01:33:52 |
 | 14   | 🐧 penguin        | 30.26         | buhl00n         | 2025-02-18 01:34:38 |
 | 13   | 👟 sneaker        | 1.36          | greenfatso      | 2025-01-27 07:33:19 |
-| 11   | 🎀 wrappingpaper  | 0.00          | anothercull     | 2025-01-15 01:31:55 |
 | 11   | 🍪 cookie         | 0.00          | anothercull     | 2025-01-15 01:31:55 |
+| 11   | 🎀 wrappingpaper  | 0.00          | anothercull     | 2025-01-15 01:31:55 |
 | 10   | 🎁 present        | 0.00          | anothercull     | 2025-01-15 01:31:08 |
 | 9    | 🥀 wiltedflower   | 2.28          | simplydrack     | 2025-01-06 17:07:07 |
 | 8    | 🛒 shoppingcart   | 56.52         | buhl00n         | 2025-01-02 17:13:58 |
@@ -112,4 +112,4 @@
 | 2    | 👑 crown          | 30.94         | glorp_fishing   | 2024-12-12 21:16:52 |
 | 1    | 🧞‍♂️ genie          | 17.60         | feuha           | 2024-11-01 09:40:30 |
 
-_Last updated at 2026-06-21 09:45:08 UTC_
+_Last updated at 2026-07-05 09:04:36 UTC_

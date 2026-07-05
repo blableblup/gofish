@@ -6,9 +6,10 @@
 | 2 🥈  | mowogan     | 53        |
 | 3 🥉  | lolspers    | 27        |
 | 4     | gofishgamer | 22        |
+| 5 🆕  | gibbbons    | 20        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-05-10 08:59:12 UTC_
+_Last updated at 2026-07-05 09:04:36 UTC_

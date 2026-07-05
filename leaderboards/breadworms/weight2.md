@@ -39,68 +39,68 @@
 | 35    | lluuucy          | 🐳 bluewhale | 290.70        | 2026-03-17 21:23:32 |
 | 36    | qu4ttromila      | 🐳 bluewhale | 289.87        | 2026-02-03 10:00:43 |
 | 37    | derintu          | 🐳 bluewhale | 289.11        | 2025-03-27 15:03:12 |
-| 38    | miiiiisho        | 🦈 shark     | 288.27        | 2024-02-01 22:00:13 |
-| 39    | comiqq           | 🐳 bluewhale | 288.19        | 2024-03-24 15:49:44 |
-| 40    | elisworm         | 🐳 bluewhale | 287.68        | 2025-07-14 04:43:03 |
-| 41    | leanmeister      | 🐳 bluewhale | 287.63        | 2025-02-22 02:58:30 |
-| 42    | qu4ttromila      | 🐳 bluewhale | 287.55        | 2023-07-23 10:03:48 |
-| 43    | paras220         | 🐳 bluewhale | 287.47        | 2023-09-08 03:21:48 |
-| 44    | ryebreadward     | 🐳 bluewhale | 287.28        | 2024-03-27 09:33:32 |
-| 45    | ninjaross        | 🐳 bluewhale | 287.26        | 2025-04-22 07:47:19 |
-| 46    | qu4ttromila      | 🐳 bluewhale | 287.01        | 2023-03-28 09:05:06 |
-| 47    | derintu          | 🦑 squid     | 286.68        | 2025-12-31 15:16:08 |
-| 47    | kishma9          | 🐳 bluewhale | 286.68        | 2025-02-01 20:40:05 |
-| 49    | osnyisdead       | 🐳 bluewhale | 286.65        | 2025-09-29 23:59:33 |
-| 50    | puzzlow          | 🐳 bluewhale | 286.47        | 2023-07-25 08:58:17 |
-| 51    | sicklymaidrobot  | 🦕 sauropod  | 286.09        | 2023-11-06 10:21:56 |
-| 52    | osnyisdead       | 🐳 bluewhale | 286.05        | 2025-10-18 12:46:18 |
-| 53    | islcfc*          | 🐳 bluewhale | 285.99        | 2023-03-06 02:06:42 |
-| 54    | kishma9          | 🐳 bluewhale | 285.96        | 2023-07-26 07:53:58 |
-| 55    | miiiiisho        | 🐳 bluewhale | 285.53        | 2025-03-05 11:50:22 |
-| 56    | dazedforevermore | 🐳 bluewhale | 284.98        | 2023-11-03 17:24:00 |
-| 57    | osnyisdead       | 🐳 bluewhale | 284.77        | 2026-05-05 19:18:31 |
-| 58    | cumgi            | 🐉 dragon    | 284.43        | 2024-12-10 21:13:14 |
-| 59    | esvelles         | 🐉 dragon    | 284.34        | 2026-05-03 19:58:12 |
-| 60    | leanmeister      | 🐉 dragon    | 284.27        | 2025-05-25 02:30:04 |
-| 61    | puzzlow          | 🐉 dragon    | 284.24        | 2023-12-22 05:04:13 |
-| 62    | derinturitierutz | 🦑 squid     | 283.49        | 2024-12-24 14:23:59 |
-| 63    | dougiefresh_83   | 🐳 bluewhale | 283.40        | 2024-07-24 04:02:39 |
-| 64    | dougiefresh_83   | 🐳 bluewhale | 283.22        | 2025-05-08 02:23:46 |
-| 65    | puzzlow          | 🐳 bluewhale | 283.20        | 2024-04-06 00:46:32 |
-| 66    | miiiiisho        | 🐉 dragon    | 283.17        | 2024-03-09 18:10:41 |
-| 67    | leanmeister      | 🐳 bluewhale | 283.12        | 2025-03-30 17:16:59 |
-| 68    | breadworms       | 🐳 bluewhale | 282.85        | 2023-09-26 01:07:47 |
-| 68    | osnyisdead       | 🦈 shark     | 282.85        | 2025-12-25 11:15:39 |
-| 70    | lluuucy          | 🐳 bluewhale | 282.59        | 2024-06-29 11:14:15 |
-| 71    | jr_mime          | 🦑 squid     | 282.46        | 2023-12-25 15:56:15 |
-| 72    | osnyisdead       | 🦑 squid     | 282.40        | 2025-02-28 14:45:01 |
-| 73    | 6vi7*            | 🐉 dragon    | 281.63        | 2023-02-15 13:14:09 |
-| 74    | osnyatsky*       | 🐉 dragon    | 279.63        | 2023-08-07 09:16:07 |
-| 75    | islcfc*          | 🐳 bluewhale | 279.56        | 2023-02-18 05:14:03 |
-| 76    | miiiiisho        | 🐳 bluewhale | 279.47        | 2024-02-04 02:32:47 |
-| 77    | lluuucy          | 🦕 sauropod  | 279.39        | 2025-06-29 15:31:02 |
-| 78    | qu4ttromila      | 🐳 bluewhale | 279.01        | 2023-07-13 11:05:04 |
-| 79    | sicklymaidrobot  | 🐳 bluewhale | 279.00        | 2023-03-09 09:41:01 |
-| 80    | osnyisdead       | 🐳 bluewhale | 278.78        | 2026-03-26 12:34:39 |
-| 81    | sussy_amonge     | 🐉 dragon    | 278.70        | 2023-08-19 07:18:50 |
-| 82    | osnyisdead       | 🐉 dragon    | 278.61        | 2026-04-05 13:03:50 |
-| 83    | osnyatsky*       | 🐉 dragon    | 278.46        | 2023-05-07 01:45:59 |
-| 84    | fvkdylan         | 🫎 moose     | 278.16        | 2025-04-27 13:58:41 |
-| 85    | ytp_dl           | 🐳 bluewhale | 278.01        | 2026-02-04 14:07:56 |
-| 86    | leanmeister      | 🐳 bluewhale | 277.98        | 2025-07-04 14:37:39 |
-| 87    | lluuucy          | 🐳 bluewhale | 277.87        | 2025-12-25 15:55:15 |
-| 88    | miiiiisho        | 🐳 bluewhale | 277.73        | 2025-03-09 10:24:36 |
-| 89    | respirate_       | 🐳 bluewhale | 277.53        | 2024-09-01 04:28:56 |
-| 90    | gawblemachine    | 🐳 bluewhale | 276.87        | 2025-05-03 09:09:09 |
-| 91    | derintu          | 🦑 squid     | 276.65        | 2026-01-01 14:22:18 |
-| 92    | dazedforevermore | 🦕 sauropod  | 276.61        | 2023-05-29 11:37:16 |
-| 93    | dazedforevermore | 🐉 dragon    | 276.52        | 2024-09-21 20:01:56 |
-| 94    | julialuxel       | 🐉 dragon    | 276.38        | 2025-07-10 02:40:50 |
-| 95    | miiiiisho        | 🦑 squid     | 275.58        | 2023-12-25 13:50:30 |
-| 96    | qu4ttromila      | 🐉 dragon    | 275.02        | 2023-10-30 23:07:50 |
-| 97    | lluuucy          | 🐉 dragon    | 274.83        | 2024-09-18 12:45:57 |
-| 98    | destin357        | 🐉 dragon    | 274.69        | 2025-08-22 11:34:32 |
-| 99    | qu4ttromila      | 🐳 bluewhale | 274.45        | 2023-04-06 15:05:36 |
-| 100   | niiy             | 🐳 bluewhale | 273.90        | 2023-06-01 15:55:18 |
+| 38 🆕 | esvelles         | 🐳 bluewhale | 288.59        | 2026-07-03 10:31:09 |
+| 39 ⬇  | miiiiisho        | 🦈 shark     | 288.27        | 2024-02-01 22:00:13 |
+| 40 ⬇  | comiqq           | 🐳 bluewhale | 288.19        | 2024-03-24 15:49:44 |
+| 41 ⬇  | elisworm         | 🐳 bluewhale | 287.68        | 2025-07-14 04:43:03 |
+| 42 ⬇  | leanmeister      | 🐳 bluewhale | 287.63        | 2025-02-22 02:58:30 |
+| 43 ⬇  | qu4ttromila      | 🐳 bluewhale | 287.55        | 2023-07-23 10:03:48 |
+| 44 ⬇  | paras220         | 🐳 bluewhale | 287.47        | 2023-09-08 03:21:48 |
+| 45 ⬇  | ryebreadward     | 🐳 bluewhale | 287.28        | 2024-03-27 09:33:32 |
+| 46 ⬇  | ninjaross        | 🐳 bluewhale | 287.26        | 2025-04-22 07:47:19 |
+| 47 ⬇  | qu4ttromila      | 🐳 bluewhale | 287.01        | 2023-03-28 09:05:06 |
+| 48 ⬇  | derintu          | 🦑 squid     | 286.68        | 2025-12-31 15:16:08 |
+| 48 ⬇  | kishma9          | 🐳 bluewhale | 286.68        | 2025-02-01 20:40:05 |
+| 50 ⬇  | osnyisdead       | 🐳 bluewhale | 286.65        | 2025-09-29 23:59:33 |
+| 51 ⬇  | puzzlow          | 🐳 bluewhale | 286.47        | 2023-07-25 08:58:17 |
+| 52 ⬇  | sicklymaidrobot  | 🦕 sauropod  | 286.09        | 2023-11-06 10:21:56 |
+| 53 ⬇  | osnyisdead       | 🐳 bluewhale | 286.05        | 2025-10-18 12:46:18 |
+| 54 ⬇  | islcfc*          | 🐳 bluewhale | 285.99        | 2023-03-06 02:06:42 |
+| 55 ⬇  | kishma9          | 🐳 bluewhale | 285.96        | 2023-07-26 07:53:58 |
+| 56 ⬇  | miiiiisho        | 🐳 bluewhale | 285.53        | 2025-03-05 11:50:22 |
+| 57 ⬇  | dazedforevermore | 🐳 bluewhale | 284.98        | 2023-11-03 17:24:00 |
+| 58 ⬇  | osnyisdead       | 🐳 bluewhale | 284.77        | 2026-05-05 19:18:31 |
+| 59 ⬇  | cumgi            | 🐉 dragon    | 284.43        | 2024-12-10 21:13:14 |
+| 60 ⬇  | esvelles         | 🐉 dragon    | 284.34        | 2026-05-03 19:58:12 |
+| 61 ⬇  | leanmeister      | 🐉 dragon    | 284.27        | 2025-05-25 02:30:04 |
+| 62 ⬇  | puzzlow          | 🐉 dragon    | 284.24        | 2023-12-22 05:04:13 |
+| 63 ⬇  | derinturitierutz | 🦑 squid     | 283.49        | 2024-12-24 14:23:59 |
+| 64 ⬇  | dougiefresh_83   | 🐳 bluewhale | 283.40        | 2024-07-24 04:02:39 |
+| 65 ⬇  | dougiefresh_83   | 🐳 bluewhale | 283.22        | 2025-05-08 02:23:46 |
+| 66 ⬇  | puzzlow          | 🐳 bluewhale | 283.20        | 2024-04-06 00:46:32 |
+| 67 ⬇  | miiiiisho        | 🐉 dragon    | 283.17        | 2024-03-09 18:10:41 |
+| 68 ⬇  | leanmeister      | 🐳 bluewhale | 283.12        | 2025-03-30 17:16:59 |
+| 69 ⬇  | breadworms       | 🐳 bluewhale | 282.85        | 2023-09-26 01:07:47 |
+| 69 ⬇  | osnyisdead       | 🦈 shark     | 282.85        | 2025-12-25 11:15:39 |
+| 71 ⬇  | lluuucy          | 🐳 bluewhale | 282.59        | 2024-06-29 11:14:15 |
+| 72 ⬇  | jr_mime          | 🦑 squid     | 282.46        | 2023-12-25 15:56:15 |
+| 73 ⬇  | osnyisdead       | 🦑 squid     | 282.40        | 2025-02-28 14:45:01 |
+| 74 ⬇  | 6vi7*            | 🐉 dragon    | 281.63        | 2023-02-15 13:14:09 |
+| 75 ⬇  | osnyatsky*       | 🐉 dragon    | 279.63        | 2023-08-07 09:16:07 |
+| 76 ⬇  | islcfc*          | 🐳 bluewhale | 279.56        | 2023-02-18 05:14:03 |
+| 77 ⬇  | miiiiisho        | 🐳 bluewhale | 279.47        | 2024-02-04 02:32:47 |
+| 78 ⬇  | lluuucy          | 🦕 sauropod  | 279.39        | 2025-06-29 15:31:02 |
+| 79 ⬇  | qu4ttromila      | 🐳 bluewhale | 279.01        | 2023-07-13 11:05:04 |
+| 80 ⬇  | sicklymaidrobot  | 🐳 bluewhale | 279.00        | 2023-03-09 09:41:01 |
+| 81 ⬇  | osnyisdead       | 🐳 bluewhale | 278.78        | 2026-03-26 12:34:39 |
+| 82 ⬇  | sussy_amonge     | 🐉 dragon    | 278.70        | 2023-08-19 07:18:50 |
+| 83 ⬇  | osnyisdead       | 🐉 dragon    | 278.61        | 2026-04-05 13:03:50 |
+| 84 ⬇  | osnyatsky*       | 🐉 dragon    | 278.46        | 2023-05-07 01:45:59 |
+| 85 ⬇  | fvkdylan         | 🫎 moose     | 278.16        | 2025-04-27 13:58:41 |
+| 86 ⬇  | ytp_dl           | 🐳 bluewhale | 278.01        | 2026-02-04 14:07:56 |
+| 87 ⬇  | leanmeister      | 🐳 bluewhale | 277.98        | 2025-07-04 14:37:39 |
+| 88 ⬇  | lluuucy          | 🐳 bluewhale | 277.87        | 2025-12-25 15:55:15 |
+| 89 ⬇  | miiiiisho        | 🐳 bluewhale | 277.73        | 2025-03-09 10:24:36 |
+| 90 ⬇  | respirate_       | 🐳 bluewhale | 277.53        | 2024-09-01 04:28:56 |
+| 91 ⬇  | gawblemachine    | 🐳 bluewhale | 276.87        | 2025-05-03 09:09:09 |
+| 92 ⬇  | derintu          | 🦑 squid     | 276.65        | 2026-01-01 14:22:18 |
+| 93 ⬇  | dazedforevermore | 🦕 sauropod  | 276.61        | 2023-05-29 11:37:16 |
+| 94 ⬇  | dazedforevermore | 🐉 dragon    | 276.52        | 2024-09-21 20:01:56 |
+| 95 ⬇  | julialuxel       | 🐉 dragon    | 276.38        | 2025-07-10 02:40:50 |
+| 96 ⬇  | miiiiisho        | 🦑 squid     | 275.58        | 2023-12-25 13:50:30 |
+| 97 ⬇  | qu4ttromila      | 🐉 dragon    | 275.02        | 2023-10-30 23:07:50 |
+| 98 ⬇  | lluuucy          | 🐉 dragon    | 274.83        | 2024-09-18 12:45:57 |
+| 99 ⬇  | destin357        | 🐉 dragon    | 274.69        | 2025-08-22 11:34:32 |
+| 100 ⬇ | qu4ttromila      | 🐳 bluewhale | 274.45        | 2023-04-06 15:05:36 |
 
-_Last updated at 2026-05-24 09:20:49 UTC_
+_Last updated at 2026-07-05 09:08:13 UTC_

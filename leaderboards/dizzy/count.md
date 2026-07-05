@@ -9,12 +9,12 @@
 | 5     | lolspers       | 621         |
 | 6     | iam_haunt      | 536         |
 | 7     | spanmer        | 366         |
-| 8     | ofaisalz       | 333 (+1)    |
+| 8     | ofaisalz       | 333         |
 | 9     | konsminator    | 326         |
 | 10    | notnownico     | 256         |
 | 11    | vagdy          | 254         |
 | 12    | rabituwu       | 243         |
-| 13    | hamoodhabibee  | 213         |
+| 13    | hamoodhabibee  | 214 (+1)    |
 | 14    | simplydrack    | 183         |
 | 15    | ssenario       | 171         |
 | 16    | tairaaaaa      | 170         |
@@ -56,4 +56,4 @@
 
 _Only showing fishers who caught >= 30 fish_
 
-_Last updated at 2026-06-14 09:20:05 UTC_
+_Last updated at 2026-07-05 09:04:31 UTC_
