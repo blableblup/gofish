@@ -18,13 +18,13 @@
 | 14    | leanmeister               | 🦑 squid     | 294.63         | 2024-12-24 09:47:20 |
 | 15    | puzzlow                   | 🐳 bluewhale | 292.04         | 2023-12-08 05:04:14 |
 | 16    | derintu                   | 🐳 bluewhale | 289.11         | 2025-03-27 15:03:12 |
-| 17 ⬆  | esvelles                  | 🐳 bluewhale | 288.59 (+4.25) | 2026-07-03 10:31:09 |
-| 18 ⬇  | miiiiisho                 | 🦈 shark     | 288.27         | 2024-02-01 22:00:13 |
-| 19 ⬇  | comiqq                    | 🐳 bluewhale | 288.19         | 2024-03-24 15:49:44 |
-| 20 ⬇  | elisworm                  | 🐳 bluewhale | 287.68         | 2025-07-14 04:43:03 |
-| 21 ⬇  | paras220                  | 🐳 bluewhale | 287.47         | 2023-09-08 03:21:48 |
-| 22 ⬇  | ryebreadward              | 🐳 bluewhale | 287.28         | 2024-03-27 09:33:32 |
-| 23 ⬇  | ninjaross                 | 🐳 bluewhale | 287.26         | 2025-04-22 07:47:19 |
+| 17    | esvelles                  | 🐳 bluewhale | 288.59         | 2026-07-03 10:31:09 |
+| 18    | miiiiisho                 | 🦈 shark     | 288.27         | 2024-02-01 22:00:13 |
+| 19    | comiqq                    | 🐳 bluewhale | 288.19         | 2024-03-24 15:49:44 |
+| 20    | elisworm                  | 🐳 bluewhale | 287.68         | 2025-07-14 04:43:03 |
+| 21    | paras220                  | 🐳 bluewhale | 287.47         | 2023-09-08 03:21:48 |
+| 22    | ryebreadward              | 🐳 bluewhale | 287.28         | 2024-03-27 09:33:32 |
+| 23    | ninjaross                 | 🐳 bluewhale | 287.26         | 2025-04-22 07:47:19 |
 | 24    | dougiefresh_83            | 🐳 bluewhale | 283.40         | 2024-07-24 04:02:39 |
 | 25    | breadworms                | 🐳 bluewhale | 282.85         | 2023-09-26 01:07:47 |
 | 26    | jr_mime                   | 🦑 squid     | 282.46         | 2023-12-25 15:56:15 |
@@ -68,10 +68,10 @@
 | 64    | lazuli672*                | 🦈 shark     | 215.97         | 2023-07-09 23:11:02 |
 | 65    | realtechnine              | 🦕 sauropod  | 214.11         | 2023-02-14 20:12:23 |
 | 66    | divra__                   | 🐳 bluewhale | 213.23         | 2024-04-16 16:17:28 |
-| 67 🆕 | ommcyrene                 | 🦈 shark     | 209.61         | 2026-07-03 10:09:15 |
-| 68 ⬇  | basedredactedgang*        | 🐉 dragon    | 207.18         | 2023-06-05 03:16:42 |
-| 69 ⬇  | veggesh                   | 🦈 shark     | 206.22         | 2024-02-25 22:40:19 |
+| 67    | ommcyrene                 | 🦈 shark     | 213.16 (+3.55) | 2026-07-07 02:22:04 |
+| 68    | basedredactedgang*        | 🐉 dragon    | 207.18         | 2023-06-05 03:16:42 |
+| 69    | veggesh                   | 🦈 shark     | 206.22         | 2024-02-25 22:40:19 |
 
 _Only showing fish weighing >= 200 lbs_
 
-_Last updated at 2026-07-05 09:04:34 UTC_
+_Last updated at 2026-07-12 12:55:55 UTC_

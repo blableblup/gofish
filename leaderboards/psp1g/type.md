@@ -98,27 +98,28 @@
 | 94     | 🍃 deadleaves      | 1.97          | jayayseaohbe              | 2026-03-06 20:06:45 |
 | 95     | ⛸️ iceskate        | 1.96          | pookiesnowman             | 2023-12-24 05:51:00 |
 | 96     | 🍬 candy           | 1.93          | bananenshak3              | 2026-01-14 18:46:31 |
-| 97     | 🪻 lupine          | 1.80          | nndiana                   | 2025-09-01 13:32:55 |
-| 98     | 🍁 leaf            | 1.69          | jayayseaohbe              | 2025-10-31 19:07:51 |
-| 99     | 🦢 swan            | 1.26          | mazzo_tv                  | 2024-07-08 06:43:22 |
-| 100    | 🪶 feather         | 1.00          | shadowraider247           | 2024-09-15 13:12:58 |
-| 100    | 🧤 gloves          | 1.00          | kubo7                     | 2024-01-27 18:51:58 |
-| 100    | 🪚 icesaw          | 1.00          | feelsaceman               | 2026-02-16 11:45:50 |
-| 100    | 🫙 jar             | 1.00          | yo_tacos                  | 2026-06-22 20:15:55 |
-| 104    | 🍇 crowberries     | 0.96          | lobuhtomy                 | 2026-06-22 20:37:54 |
-| 105    | 🧣 scarf           | 0.92          | blazeblitzzz              | 2024-02-01 23:11:44 |
-| 106    | 🌾 grass           | 0.90          | flunke_                   | 2026-03-02 09:30:18 |
-| 106    | 🐿️ squirrel        | 0.90          | iflya320                  | 2024-12-04 11:13:44 |
-| 108    | 🍥 sanddollar      | 0.77          | bubinga                   | 2025-08-25 07:57:19 |
-| 109    | 🐜 ant             | 0.67 (+0.05)  | autisticfemboy_           | 2026-06-28 09:39:30 |
-| 110 ⬇  | 🪿 goose           | 0.62          | llikotesnecil             | 2026-01-05 01:54:01 |
-| 111    | 🐛 caterpillar     | 0.55          | blu_inx                   | 2026-06-26 09:33:17 |
-| 112 🆕 | 🦂 scorpion        | 0.35          | jayayseaohbe              | 2026-07-03 00:45:53 |
-| 113 ⬇  | 🦟 mosquito        | 0.34          | bluberry                  | 2025-08-30 20:49:06 |
-| 114 ⬇  | 🪰 fly             | 0.28          | totallynotaboykisser      | 2026-06-26 21:19:11 |
-| 115 ⬇  | 🫐 bilberries      | 0.23          | blu_inx                   | 2026-06-24 19:56:50 |
-| 116 ⬇  | 🦗 cricket         | 0.19          | jayayseaohbe              | 2025-09-11 02:05:57 |
+| 97 ⬆   | 🫙 jar             | 1.89 (+0.89)  | feelsaceman               | 2026-07-06 19:07:36 |
+| 98 ⬇   | 🪻 lupine          | 1.80          | nndiana                   | 2025-09-01 13:32:55 |
+| 99 ⬇   | 🍁 leaf            | 1.69          | jayayseaohbe              | 2025-10-31 19:07:51 |
+| 100 ⬇  | 🦢 swan            | 1.26          | mazzo_tv                  | 2024-07-08 06:43:22 |
+| 101 ⬇  | 🪶 feather         | 1.00          | shadowraider247           | 2024-09-15 13:12:58 |
+| 101 ⬇  | 🧤 gloves          | 1.00          | kubo7                     | 2024-01-27 18:51:58 |
+| 101 ⬇  | 🪚 icesaw          | 1.00          | feelsaceman               | 2026-02-16 11:45:50 |
+| 104 ⬆  | 🌾 grass           | 0.99 (+0.09)  | nndiana                   | 2026-07-07 03:26:58 |
+| 105 ⬆  | 🐛 caterpillar     | 0.98 (+0.43)  | blu_inx                   | 2026-07-06 22:19:02 |
+| 106 ⬇  | 🍇 crowberries     | 0.96          | lobuhtomy                 | 2026-06-22 20:37:54 |
+| 107 ⬇  | 🧣 scarf           | 0.92          | blazeblitzzz              | 2024-02-01 23:11:44 |
+| 108 ⬇  | 🐿️ squirrel        | 0.90          | iflya320                  | 2024-12-04 11:13:44 |
+| 109 ⬇  | 🍥 sanddollar      | 0.77          | bubinga                   | 2025-08-25 07:57:19 |
+| 110 ⬇  | 🐜 ant             | 0.67          | autisticfemboy_           | 2026-06-28 09:39:30 |
+| 111 ⬇  | 🪿 goose           | 0.62          | llikotesnecil             | 2026-01-05 01:54:01 |
+| 112 ⬆  | 🦟 mosquito        | 0.55 (+0.21)  | blu_inx                   | 2026-07-06 10:05:53 |
+| 113 ⬇  | 🦂 scorpion        | 0.35          | jayayseaohbe              | 2026-07-03 00:45:53 |
+| 114    | 🪰 fly             | 0.28          | totallynotaboykisser      | 2026-06-26 21:19:11 |
+| 115    | 🫐 bilberries      | 0.23          | blu_inx                   | 2026-06-24 19:56:50 |
+| 116    | 🦗 cricket         | 0.19          | jayayseaohbe              | 2025-09-11 02:05:57 |
+| 117 🆕 | 🐞 ladybug         | 0.18          | feelsaceman               | 2026-07-06 19:08:28 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-07-05 09:05:04 UTC_
+_Last updated at 2026-07-12 12:55:27 UTC_

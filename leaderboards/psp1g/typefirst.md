@@ -2,6 +2,7 @@
 
 | Rank | Fish               | Weight in lbs | Player                    | Date in UTC         |
 |:-----|:-------------------|:--------------|:--------------------------|:--------------------|
+| 123  | 🐞 ladybug         | 0.18          | feelsaceman               | 2026-07-06 19:08:28 |
 | 122  | 🦂 scorpion        | 0.35          | jayayseaohbe              | 2026-07-03 00:45:53 |
 | 121  | 🫐 bilberries      | 0.23          | blu_inx                   | 2026-06-24 19:56:50 |
 | 120  | 🍇 crowberries     | 0.96          | lobuhtomy                 | 2026-06-22 20:37:54 |
@@ -125,4 +126,4 @@
 | 2    | 🦞 lobster         | 36.18         | psp1g                     | 2023-08-21 01:23:40 |
 | 1    | 🐟 fish            | 13.12         | dazedforevermore          | 2023-08-21 01:11:17 |
 
-_Last updated at 2026-07-05 09:04:37 UTC_
+_Last updated at 2026-07-12 12:55:52 UTC_

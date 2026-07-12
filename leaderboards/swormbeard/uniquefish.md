@@ -2,12 +2,12 @@
 
 | Rank  | Player           | Fish seen |
 |:------|:-----------------|:----------|
-| 1 🥇  | derintu          | 45 (+3)   |
+| 1 🥇  | derintu          | 45        |
 | 2 🥈  | respirate_       | 31        |
 | 3 🥉  | leanmeister      | 29        |
 | 3 🥉  | lluuucy          | 29        |
-| 5     | derinturitierutz | 21        |
-| 5     | ytp_dl*          | 21        |
+| 5     | ytp_dl*          | 24 (+3)   |
+| 6 ⬇   | derinturitierutz | 21        |
 | 7     | pinksynthesis29  | 20        |
 | 8     | dazedforevermore | 18        |
 | 9     | elisworm         | 17        |
@@ -18,4 +18,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2026-07-05 09:04:35 UTC_
+_Last updated at 2026-07-12 12:55:56 UTC_

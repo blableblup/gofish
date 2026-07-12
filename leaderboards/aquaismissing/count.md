@@ -20,11 +20,11 @@
 | 16    | kam3l_           | 22          |
 | 17    | kargalay         | 21          |
 | 18    | ggmagician       | 20          |
-| 19 ⬆  | cute_ducc        | 18 (+2)     |
-| 19    | kaczer1          | 18          |
+| 19    | cute_ducc        | 19 (+1)     |
+| 20 ⬇  | kaczer1          | 18          |
+| 21 ⬆  | ojack18          | 14 (+1)     |
 | 21    | underpaidchatter | 14          |
-| 22    | ojack18          | 13          |
-| 22    | vigilsync*       | 13          |
+| 23 ⬇  | vigilsync*       | 13          |
 | 24    | helloimteto      | 12          |
 | 25    | buck101_         | 11          |
 | 25    | ievantee         | 11          |
@@ -32,4 +32,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-06-28 08:41:04 UTC_
+_Last updated at 2026-07-12 12:55:58 UTC_

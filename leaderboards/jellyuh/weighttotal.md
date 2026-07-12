@@ -27,4 +27,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-07-05 09:06:29 UTC_
+_Last updated at 2026-07-12 12:55:56 UTC_

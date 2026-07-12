@@ -1,17 +1,17 @@
 {
 	"8ball": {
-		"player": "j4song",
-		"playerid": 4672,
-		"weight": 0.24,
+		"player": "notsatan13",
+		"playerid": 6996,
+		"weight": 0.19,
 		"bot": "gofishgame",
 		"fishtype": "🎱",
 		"fishname": "8ball",
 		"catchtype": "normal",
 		"chat": "vaiastol",
-		"fishid": 248216,
-		"chatid": 12393,
-		"date": "2026-03-22T13:51:03Z",
-		"rank": 53
+		"fishid": 274604,
+		"chatid": 16059,
+		"date": "2026-07-09T10:16:12Z",
+		"rank": 58
 	},
 	"acorn": {
 		"player": "leastsussyimposter",
@@ -25,7 +25,21 @@
 		"fishid": 103503,
 		"chatid": 675,
 		"date": "2024-09-25T23:23:39Z",
-		"rank": 88
+		"rank": 91
+	},
+	"ant": {
+		"player": "notsatan13",
+		"playerid": 6996,
+		"weight": 0.78,
+		"bot": "gofishgame",
+		"fishtype": "🐜",
+		"fishname": "ant",
+		"catchtype": "normal",
+		"chat": "vaiastol",
+		"fishid": 274770,
+		"chatid": 16100,
+		"date": "2026-07-09T22:04:31Z",
+		"rank": 36
 	},
 	"apple": {
 		"player": "hahppyy",
@@ -52,7 +66,7 @@
 		"fishid": 261318,
 		"chatid": 13979,
 		"date": "2026-05-10T13:53:06Z",
-		"rank": 101
+		"rank": 104
 	},
 	"bat": {
 		"player": "garout",
@@ -66,7 +80,7 @@
 		"fishid": 200384,
 		"chatid": 9146,
 		"date": "2025-09-20T20:16:28Z",
-		"rank": 15
+		"rank": 14
 	},
 	"beaver": {
 		"player": "pengeg",
@@ -80,7 +94,7 @@
 		"fishid": 109697,
 		"chatid": 1306,
 		"date": "2024-10-15T04:52:16Z",
-		"rank": 58
+		"rank": 61
 	},
 	"bee": {
 		"player": "proswift",
@@ -94,7 +108,7 @@
 		"fishid": 270575,
 		"chatid": 15400,
 		"date": "2026-06-24T23:26:42Z",
-		"rank": 42
+		"rank": 45
 	},
 	"beveragebox": {
 		"player": "notsatan13",
@@ -108,7 +122,7 @@
 		"fishid": 269973,
 		"chatid": 15321,
 		"date": "2026-06-23T16:28:36Z",
-		"rank": 79
+		"rank": 81
 	},
 	"blackcat": {
 		"player": "hahppyy",
@@ -137,7 +151,7 @@
 		"fishid": 96709,
 		"chatid": 228,
 		"date": "2024-08-20T15:50:56Z",
-		"rank": 44
+		"rank": 47
 	},
 	"bluewhale": {
 		"player": "julialuxel",
@@ -152,7 +166,7 @@
 		"fishid": 137173,
 		"chatid": 2910,
 		"date": "2024-12-30T18:25:59Z",
-		"rank": 10
+		"rank": 9
 	},
 	"bobacup": {
 		"player": "garout",
@@ -166,7 +180,7 @@
 		"fishid": 195824,
 		"chatid": 8736,
 		"date": "2025-08-28T18:21:29Z",
-		"rank": 18
+		"rank": 17
 	},
 	"bobber": {
 		"player": "divra__",
@@ -181,21 +195,21 @@
 		"fishid": 196830,
 		"chatid": 8813,
 		"date": "2025-09-01T18:53:05Z",
-		"rank": 73
+		"rank": 76
 	},
 	"bone": {
-		"player": "thespecialone22",
-		"playerid": 4753,
-		"weight": 13.7,
+		"player": "proswift",
+		"playerid": 4151,
+		"weight": 1.04,
 		"bot": "gofishgame",
 		"fishtype": "🦴",
 		"fishname": "bone",
 		"catchtype": "normal",
 		"chat": "vaiastol",
-		"fishid": 273606,
-		"chatid": 15868,
-		"date": "2026-07-02T07:26:09Z",
-		"rank": 7
+		"fishid": 274724,
+		"chatid": 16085,
+		"date": "2026-07-09T19:38:47Z",
+		"rank": 29
 	},
 	"boot": {
 		"player": "obama",
@@ -209,7 +223,7 @@
 		"fishid": 242675,
 		"chatid": 12028,
 		"date": "2026-02-22T19:13:14Z",
-		"rank": 88
+		"rank": 91
 	},
 	"briefs": {
 		"player": "hahppyy",
@@ -223,7 +237,22 @@
 		"fishid": 101764,
 		"chatid": 529,
 		"date": "2024-09-16T22:40:24Z",
-		"rank": 37
+		"rank": 40
+	},
+	"cactus": {
+		"player": "divra__",
+		"playerid": 575,
+		"verified": true,
+		"weight": 2.02,
+		"bot": "gofishgame",
+		"fishtype": "🌵",
+		"fishname": "cactus",
+		"catchtype": "normal",
+		"chat": "vaiastol",
+		"fishid": 274730,
+		"chatid": 16086,
+		"date": "2026-07-09T19:45:09Z",
+		"rank": 18
 	},
 	"candy": {
 		"player": "hahppyy",
@@ -237,7 +266,7 @@
 		"fishid": 120361,
 		"chatid": 1945,
 		"date": "2024-11-10T18:29:03Z",
-		"rank": 81
+		"rank": 83
 	},
 	"cannedfood": {
 		"player": "nicestnarwhal",
@@ -251,7 +280,7 @@
 		"fishid": 139860,
 		"chatid": 3280,
 		"date": "2025-01-08T13:23:38Z",
-		"rank": 88
+		"rank": 91
 	},
 	"cardinal": {
 		"player": "garout",
@@ -265,7 +294,7 @@
 		"fishid": 241141,
 		"chatid": 11946,
 		"date": "2026-02-15T18:07:11Z",
-		"rank": 67
+		"rank": 70
 	},
 	"caterpillar": {
 		"player": "vaiastol",
@@ -279,7 +308,7 @@
 		"fishid": 271566,
 		"chatid": 15548,
 		"date": "2026-06-27T23:10:45Z",
-		"rank": 49
+		"rank": 52
 	},
 	"clover": {
 		"player": "eelacy",
@@ -293,7 +322,7 @@
 		"fishid": 157681,
 		"chatid": 5395,
 		"date": "2025-03-22T09:54:23Z",
-		"rank": 95
+		"rank": 97
 	},
 	"cockroach": {
 		"player": "esmeohmy",
@@ -307,7 +336,7 @@
 		"fishid": 174395,
 		"chatid": 7232,
 		"date": "2025-05-19T14:53:42Z",
-		"rank": 60
+		"rank": 63
 	},
 	"compass": {
 		"player": "julialuxel",
@@ -322,7 +351,7 @@
 		"fishid": 135383,
 		"chatid": 2685,
 		"date": "2024-12-25T19:32:21Z",
-		"rank": 9
+		"rank": 8
 	},
 	"coral": {
 		"player": "hahppyy",
@@ -336,7 +365,7 @@
 		"fishid": 114472,
 		"chatid": 1571,
 		"date": "2024-10-26T17:19:25Z",
-		"rank": 84
+		"rank": 87
 	},
 	"crab": {
 		"player": "eelacy",
@@ -350,7 +379,7 @@
 		"fishid": 149727,
 		"chatid": 4450,
 		"date": "2025-02-24T14:56:28Z",
-		"rank": 95
+		"rank": 97
 	},
 	"crocodile": {
 		"player": "eelacy",
@@ -364,7 +393,7 @@
 		"fishid": 146886,
 		"chatid": 4058,
 		"date": "2025-02-10T13:15:15Z",
-		"rank": 36
+		"rank": 39
 	},
 	"crowberries": {
 		"player": "proswift",
@@ -378,7 +407,7 @@
 		"fishid": 270135,
 		"chatid": 15349,
 		"date": "2026-06-23T23:59:10Z",
-		"rank": 29
+		"rank": 30
 	},
 	"crown": {
 		"player": "ayobl7",
@@ -420,7 +449,7 @@
 		"fishid": 273608,
 		"chatid": 15870,
 		"date": "2026-07-02T10:14:21Z",
-		"rank": 71
+		"rank": 74
 	},
 	"deadbody": {
 		"player": "leastsussyimposter",
@@ -448,7 +477,7 @@
 		"fishid": 250893,
 		"chatid": 12611,
 		"date": "2026-03-30T16:48:24Z",
-		"rank": 59
+		"rank": 62
 	},
 	"dolphin": {
 		"player": "hahppyy",
@@ -462,7 +491,7 @@
 		"fishid": 179526,
 		"chatid": 7624,
 		"date": "2025-06-14T15:13:13Z",
-		"rank": 48
+		"rank": 51
 	},
 	"dragon": {
 		"player": "ichezero",
@@ -476,7 +505,7 @@
 		"fishid": 260073,
 		"chatid": 13743,
 		"date": "2026-05-04T16:44:13Z",
-		"rank": 8
+		"rank": 7
 	},
 	"duck": {
 		"player": "gstaman911",
@@ -490,7 +519,7 @@
 		"fishid": 215290,
 		"chatid": 10053,
 		"date": "2025-11-12T23:45:36Z",
-		"rank": 52
+		"rank": 55
 	},
 	"emptynest": {
 		"player": "vaiastol",
@@ -503,7 +532,7 @@
 		"fishid": 184548,
 		"chatid": 7909,
 		"date": "2025-07-02T18:53:36Z",
-		"rank": 101
+		"rank": 104
 	},
 	"feather": {
 		"player": "garout",
@@ -517,7 +546,7 @@
 		"fishid": 147340,
 		"chatid": 4125,
 		"date": "2025-02-12T20:51:20Z",
-		"rank": 73
+		"rank": 76
 	},
 	"fish": {
 		"player": "vaiastol",
@@ -530,7 +559,7 @@
 		"fishid": 195785,
 		"chatid": 8733,
 		"date": "2025-08-28T15:38:36Z",
-		"rank": 101
+		"rank": 104
 	},
 	"fly": {
 		"player": "julialuxel",
@@ -545,7 +574,7 @@
 		"fishid": 182727,
 		"chatid": 7802,
 		"date": "2025-06-26T08:20:55Z",
-		"rank": 67
+		"rank": 70
 	},
 	"frog": {
 		"player": "vaiastol",
@@ -558,7 +587,7 @@
 		"fishid": 261777,
 		"chatid": 14099,
 		"date": "2026-05-12T15:52:42Z",
-		"rank": 101
+		"rank": 104
 	},
 	"genie": {
 		"player": "hahppyy",
@@ -585,7 +614,7 @@
 		"fishid": 150526,
 		"chatid": 4583,
 		"date": "2025-02-28T22:53:41Z",
-		"rank": 101
+		"rank": 104
 	},
 	"goose": {
 		"player": "eelacy",
@@ -599,7 +628,7 @@
 		"fishid": 238885,
 		"chatid": 11719,
 		"date": "2026-02-06T06:39:22Z",
-		"rank": 35
+		"rank": 38
 	},
 	"grass": {
 		"player": "ryakarr",
@@ -613,7 +642,7 @@
 		"fishid": 189398,
 		"chatid": 8362,
 		"date": "2025-07-23T15:07:23Z",
-		"rank": 65
+		"rank": 68
 	},
 	"hat": {
 		"player": "milesdotcom",
@@ -627,7 +656,7 @@
 		"fishid": 101160,
 		"chatid": 494,
 		"date": "2024-09-13T22:05:28Z",
-		"rank": 32
+		"rank": 34
 	},
 	"hook": {
 		"player": "hahppyy",
@@ -640,7 +669,7 @@
 		"fishid": 203610,
 		"chatid": 9336,
 		"date": "2025-10-01T14:33:27Z",
-		"rank": 101
+		"rank": 104
 	},
 	"icecube": {
 		"player": "leanmeister",
@@ -655,7 +684,7 @@
 		"fishid": 139968,
 		"chatid": 3301,
 		"date": "2025-01-08T21:50:10Z",
-		"rank": 81
+		"rank": 83
 	},
 	"icesaw": {
 		"player": "vaiastol",
@@ -669,7 +698,7 @@
 		"fishid": 142960,
 		"chatid": 3665,
 		"date": "2025-01-21T23:39:41Z",
-		"rank": 95
+		"rank": 97
 	},
 	"iceskate": {
 		"player": "vaiastol",
@@ -683,7 +712,7 @@
 		"fishid": 138320,
 		"chatid": 3080,
 		"date": "2025-01-03T11:53:37Z",
-		"rank": 84
+		"rank": 87
 	},
 	"iphone": {
 		"player": "tiaguitos97",
@@ -697,7 +726,7 @@
 		"fishid": 226370,
 		"chatid": 10566,
 		"date": "2025-12-20T13:41:07Z",
-		"rank": 84
+		"rank": 87
 	},
 	"jar": {
 		"player": "notsatan13",
@@ -711,7 +740,7 @@
 		"fishid": 270013,
 		"chatid": 15331,
 		"date": "2026-06-23T18:25:14Z",
-		"rank": 73
+		"rank": 76
 	},
 	"jellyfish": {
 		"player": "ichezero",
@@ -725,7 +754,7 @@
 		"fishid": 266700,
 		"chatid": 14925,
 		"date": "2026-06-09T11:24:28Z",
-		"rank": 30
+		"rank": 31
 	},
 	"kite": {
 		"player": "thespecialone22",
@@ -752,7 +781,7 @@
 		"fishid": 207652,
 		"chatid": 9590,
 		"date": "2025-10-13T19:50:38Z",
-		"rank": 101
+		"rank": 104
 	},
 	"lizard": {
 		"player": "vaiastol",
@@ -766,7 +795,7 @@
 		"fishid": 216511,
 		"chatid": 10127,
 		"date": "2025-11-18T23:50:02Z",
-		"rank": 88
+		"rank": 91
 	},
 	"lobster": {
 		"player": "eelacy",
@@ -780,7 +809,7 @@
 		"fishid": 150109,
 		"chatid": 4527,
 		"date": "2025-02-26T19:43:55Z",
-		"rank": 54
+		"rank": 56
 	},
 	"log": {
 		"player": "leastsussyimposter",
@@ -794,7 +823,7 @@
 		"fishid": 109639,
 		"chatid": 1302,
 		"date": "2024-10-14T22:20:07Z",
-		"rank": 14
+		"rank": 13
 	},
 	"lupine": {
 		"player": "ryakarr",
@@ -808,7 +837,7 @@
 		"fishid": 189874,
 		"chatid": 8402,
 		"date": "2025-07-25T19:24:30Z",
-		"rank": 55
+		"rank": 57
 	},
 	"lure": {
 		"player": "hahppyy",
@@ -822,7 +851,7 @@
 		"fishid": 123269,
 		"chatid": 2103,
 		"date": "2024-11-20T09:09:11Z",
-		"rank": 95
+		"rank": 97
 	},
 	"mermaid": {
 		"player": "hahppyy",
@@ -856,16 +885,16 @@
 	"mosquito": {
 		"player": "hahppyy",
 		"playerid": 1310,
-		"weight": 0.06,
+		"weight": 0.04,
 		"bot": "gofishgame",
 		"fishtype": "🦟",
 		"fishname": "mosquito",
 		"catchtype": "normal",
 		"chat": "vaiastol",
-		"fishid": 196676,
-		"chatid": 8800,
-		"date": "2025-08-31T20:32:34Z",
-		"rank": 73
+		"fishid": 274773,
+		"chatid": 16102,
+		"date": "2026-07-09T22:09:50Z",
+		"rank": 83
 	},
 	"mushroom": {
 		"player": "julialuxel",
@@ -880,7 +909,7 @@
 		"fishid": 139295,
 		"chatid": 3223,
 		"date": "2025-01-06T10:52:27Z",
-		"rank": 17
+		"rank": 16
 	},
 	"nestwitheggs": {
 		"player": "eelacy",
@@ -894,7 +923,7 @@
 		"fishid": 227149,
 		"chatid": 10641,
 		"date": "2025-12-23T00:00:43Z",
-		"rank": 60
+		"rank": 63
 	},
 	"oceanplant": {
 		"player": "leanmeister",
@@ -909,7 +938,7 @@
 		"fishid": 142927,
 		"chatid": 3653,
 		"date": "2025-01-21T20:17:28Z",
-		"rank": 46
+		"rank": 49
 	},
 	"octopus": {
 		"player": "thespecialone22",
@@ -923,7 +952,7 @@
 		"fishid": 263376,
 		"chatid": 14401,
 		"date": "2026-05-21T01:47:17Z",
-		"rank": 66
+		"rank": 69
 	},
 	"oildrum": {
 		"player": "julialuxel",
@@ -952,7 +981,7 @@
 		"fishid": 149389,
 		"chatid": 4407,
 		"date": "2025-02-22T15:32:02Z",
-		"rank": 39
+		"rank": 42
 	},
 	"owl": {
 		"player": "eelacy",
@@ -966,7 +995,7 @@
 		"fishid": 188961,
 		"chatid": 8311,
 		"date": "2025-07-21T13:58:54Z",
-		"rank": 33
+		"rank": 35
 	},
 	"oyster": {
 		"player": "yoimlee",
@@ -980,7 +1009,7 @@
 		"fishid": 198690,
 		"chatid": 8998,
 		"date": "2025-09-12T12:52:07Z",
-		"rank": 39
+		"rank": 42
 	},
 	"penguin": {
 		"player": "dazedforevermore",
@@ -995,7 +1024,7 @@
 		"fishid": 135403,
 		"chatid": 2688,
 		"date": "2024-12-25T20:09:47Z",
-		"rank": 41
+		"rank": 44
 	},
 	"plankton": {
 		"player": "hahppyy",
@@ -1009,7 +1038,7 @@
 		"fishid": 125302,
 		"chatid": 2239,
 		"date": "2024-11-27T19:33:15Z",
-		"rank": 56
+		"rank": 58
 	},
 	"polarbear": {
 		"player": "julialuxel",
@@ -1052,7 +1081,7 @@
 		"fishid": 248999,
 		"chatid": 12450,
 		"date": "2026-03-24T13:08:18Z",
-		"rank": 67
+		"rank": 70
 	},
 	"rock": {
 		"player": "yoimlee",
@@ -1066,7 +1095,7 @@
 		"fishid": 165886,
 		"chatid": 6279,
 		"date": "2025-04-14T05:02:31Z",
-		"rank": 88
+		"rank": 91
 	},
 	"rose": {
 		"player": "vaiastol",
@@ -1080,7 +1109,7 @@
 		"fishid": 203796,
 		"chatid": 9350,
 		"date": "2025-10-02T12:11:56Z",
-		"rank": 73
+		"rank": 76
 	},
 	"sandal": {
 		"player": "proswift",
@@ -1094,7 +1123,21 @@
 		"fishid": 259738,
 		"chatid": 13666,
 		"date": "2026-04-30T20:28:18Z",
-		"rank": 44
+		"rank": 47
+	},
+	"sanddollar": {
+		"player": "tharawow",
+		"playerid": 4157,
+		"weight": 0.92,
+		"bot": "gofishgame",
+		"fishtype": "🍥",
+		"fishname": "sanddollar",
+		"catchtype": "normal",
+		"chat": "vaiastol",
+		"fishid": 274758,
+		"chatid": 16095,
+		"date": "2026-07-09T21:26:04Z",
+		"rank": 32
 	},
 	"sandwich": {
 		"player": "eelacy",
@@ -1108,7 +1151,7 @@
 		"fishid": 145884,
 		"chatid": 3952,
 		"date": "2025-02-05T02:13:35Z",
-		"rank": 51
+		"rank": 54
 	},
 	"sauropod": {
 		"player": "hahppyy",
@@ -1122,7 +1165,7 @@
 		"fishid": 205053,
 		"chatid": 9484,
 		"date": "2025-10-06T23:35:30Z",
-		"rank": 13
+		"rank": 12
 	},
 	"seacucumber": {
 		"player": "dazedforevermore",
@@ -1151,7 +1194,7 @@
 		"fishid": 136438,
 		"chatid": 2820,
 		"date": "2024-12-28T12:10:08Z",
-		"rank": 11
+		"rank": 10
 	},
 	"seaweed": {
 		"player": "proswift",
@@ -1164,7 +1207,7 @@
 		"fishid": 250255,
 		"chatid": 12551,
 		"date": "2026-03-28T13:16:48Z",
-		"rank": 101
+		"rank": 104
 	},
 	"shark": {
 		"player": "proswift",
@@ -1191,7 +1234,7 @@
 		"fishid": 225882,
 		"chatid": 10522,
 		"date": "2025-12-18T18:40:03Z",
-		"rank": 101
+		"rank": 104
 	},
 	"shoppingcart": {
 		"player": "brontiiide",
@@ -1205,7 +1248,7 @@
 		"fishid": 137773,
 		"chatid": 3011,
 		"date": "2025-01-01T18:41:52Z",
-		"rank": 12
+		"rank": 11
 	},
 	"shrimp": {
 		"player": "vaiastol",
@@ -1219,7 +1262,7 @@
 		"fishid": 158059,
 		"chatid": 5439,
 		"date": "2025-03-23T16:20:22Z",
-		"rank": 95
+		"rank": 97
 	},
 	"skull": {
 		"player": "leastsussyimposter",
@@ -1233,7 +1276,7 @@
 		"fishid": 124855,
 		"chatid": 2214,
 		"date": "2024-11-26T08:49:53Z",
-		"rank": 67
+		"rank": 70
 	},
 	"slotmachine": {
 		"player": "hahppyy",
@@ -1247,7 +1290,7 @@
 		"fishid": 208554,
 		"chatid": 9679,
 		"date": "2025-10-17T18:49:05Z",
-		"rank": 16
+		"rank": 15
 	},
 	"snail": {
 		"player": "vaiastol",
@@ -1261,7 +1304,7 @@
 		"fishid": 227951,
 		"chatid": 10710,
 		"date": "2025-12-25T03:49:18Z",
-		"rank": 88
+		"rank": 91
 	},
 	"snake": {
 		"player": "vaiastol",
@@ -1275,7 +1318,7 @@
 		"fishid": 187007,
 		"chatid": 8112,
 		"date": "2025-07-13T17:43:09Z",
-		"rank": 95
+		"rank": 97
 	},
 	"sneaker": {
 		"player": "cyaniderx",
@@ -1302,7 +1345,7 @@
 		"fishid": 272481,
 		"chatid": 15701,
 		"date": "2026-07-01T14:58:42Z",
-		"rank": 101
+		"rank": 104
 	},
 	"spider": {
 		"player": "thespecialone22",
@@ -1316,21 +1359,21 @@
 		"fishid": 261850,
 		"chatid": 14114,
 		"date": "2026-05-12T21:18:06Z",
-		"rank": 81
+		"rank": 83
 	},
 	"spiderweb": {
-		"player": "vaiastol",
-		"playerid": 1135,
-		"weight": 0.02,
+		"player": "thespecialone22",
+		"playerid": 4753,
+		"weight": 0.01,
 		"bot": "gofishgame",
 		"fishtype": "🕸️",
 		"fishname": "spiderweb",
 		"catchtype": "normal",
 		"chat": "vaiastol",
-		"fishid": 185066,
-		"chatid": 7963,
-		"date": "2025-07-05T00:02:49Z",
-		"rank": 88
+		"fishid": 273989,
+		"chatid": 15923,
+		"date": "2026-07-06T18:28:14Z",
+		"rank": 97
 	},
 	"sponge": {
 		"player": "jr_mime",
@@ -1344,7 +1387,7 @@
 		"fishid": 93279,
 		"chatid": 66,
 		"date": "2024-08-02T17:19:54Z",
-		"rank": 73
+		"rank": 76
 	},
 	"squid": {
 		"player": "peppyow",
@@ -1358,7 +1401,7 @@
 		"fishid": 152093,
 		"chatid": 4646,
 		"date": "2025-03-03T16:51:46Z",
-		"rank": 47
+		"rank": 50
 	},
 	"squirrel": {
 		"player": "creepycode",
@@ -1372,7 +1415,7 @@
 		"fishid": 128073,
 		"chatid": 2366,
 		"date": "2024-12-04T03:46:23Z",
-		"rank": 31
+		"rank": 33
 	},
 	"sunflower": {
 		"player": "vaiastol",
@@ -1386,7 +1429,7 @@
 		"fishid": 178574,
 		"chatid": 7563,
 		"date": "2025-06-10T15:17:32Z",
-		"rank": 60
+		"rank": 63
 	},
 	"swan": {
 		"player": "vaiastol",
@@ -1414,7 +1457,7 @@
 		"fishid": 148373,
 		"chatid": 4235,
 		"date": "2025-02-17T13:35:21Z",
-		"rank": 49
+		"rank": 52
 	},
 	"thongsandal": {
 		"player": "garout",
@@ -1428,7 +1471,7 @@
 		"fishid": 194890,
 		"chatid": 8677,
 		"date": "2025-08-25T18:31:37Z",
-		"rank": 79
+		"rank": 81
 	},
 	"tropicalfish": {
 		"player": "ichezero",
@@ -1442,7 +1485,7 @@
 		"fishid": 265326,
 		"chatid": 14748,
 		"date": "2026-05-31T12:23:07Z",
-		"rank": 56
+		"rank": 58
 	},
 	"tulip": {
 		"player": "garout",
@@ -1456,7 +1499,7 @@
 		"fishid": 172813,
 		"chatid": 7044,
 		"date": "2025-05-12T23:15:34Z",
-		"rank": 71
+		"rank": 74
 	},
 	"turtle": {
 		"player": "leastsussyimposter",
@@ -1470,7 +1513,7 @@
 		"fishid": 137223,
 		"chatid": 2923,
 		"date": "2024-12-30T21:37:56Z",
-		"rank": 60
+		"rank": 63
 	},
 	"umbrella": {
 		"player": "hahppyy",
@@ -1484,7 +1527,7 @@
 		"fishid": 210525,
 		"chatid": 9830,
 		"date": "2025-10-26T20:33:49Z",
-		"rank": 34
+		"rank": 37
 	},
 	"whale": {
 		"player": "nicestnarwhal",
@@ -1498,7 +1541,7 @@
 		"fishid": 153079,
 		"chatid": 4841,
 		"date": "2025-03-07T23:18:22Z",
-		"rank": 43
+		"rank": 46
 	},
 	"wiltedflower": {
 		"player": "hahppyy",
@@ -1512,7 +1555,7 @@
 		"fishid": 132404,
 		"chatid": 2531,
 		"date": "2024-12-19T22:38:17Z",
-		"rank": 38
+		"rank": 41
 	},
 	"wireline": {
 		"player": "ryakarr",
@@ -1526,7 +1569,7 @@
 		"fishid": 269669,
 		"chatid": 15285,
 		"date": "2026-06-23T00:36:15Z",
-		"rank": 84
+		"rank": 87
 	},
 	"worm": {
 		"player": "eelacy",
@@ -1540,6 +1583,6 @@
 		"fishid": 149172,
 		"chatid": 4374,
 		"date": "2025-02-21T07:31:57Z",
-		"rank": 64
+		"rank": 67
 	}
 }

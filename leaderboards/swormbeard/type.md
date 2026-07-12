@@ -60,23 +60,24 @@
 | 56    | 👢 boot           | 1.78          | leanmeister      | 2024-11-25 23:27:07 |
 | 57    | 🫙 jar            | 1.53          | derintu          | 2025-08-29 19:43:05 |
 | 58    | 🧦 socks          | 1.48          | respirate_       | 2024-09-07 23:49:45 |
-| 59    | ☂️ umbrella       | 1.09          | pinksynthesis29  | 2026-01-24 22:59:13 |
-| 60    | 🌿 seaweed        | 0.98          | respirate_       | 2024-09-02 19:38:53 |
-| 61    | 🍁 leaf           | 0.96          | larvaew          | 2025-10-30 21:27:22 |
-| 62    | 👟 sneaker        | 0.91          | respirate_       | 2024-09-08 17:15:35 |
-| 63    | ⛸️ iceskate       | 0.84          | derintu          | 2025-03-17 16:11:43 |
-| 64    | 🧤 gloves         | 0.74          | derintu          | 2025-11-12 18:47:14 |
-| 65    | 🩴 thongsandal    | 0.65          | dazedforevermore | 2024-08-03 15:29:46 |
-| 66    | 🌷 tulip          | 0.58          | ytp_dl           | 2026-03-23 22:03:49 |
-| 67    | 🪚 icesaw         | 0.57          | derintu          | 2025-03-17 16:55:26 |
-| 68    | 🍬 candy          | 0.53          | elisworm         | 2025-11-20 07:00:16 |
-| 68    | 🧵 wireline       | 0.53          | leanmeister      | 2025-12-13 18:13:39 |
-| 70    | 🎱 8ball          | 0.49          | elisworm         | 2025-09-20 21:33:38 |
-| 71    | 🌾 grass          | 0.23          | derintu          | 2025-03-17 20:23:03 |
-| 72 🆕 | 🪰 fly            | 0.14          | derintu          | 2026-07-01 19:27:09 |
-| 73 ⬇  | 🕸️ spiderweb      | 0.06          | respirate_       | 2025-08-29 17:16:52 |
-| 74 ⬇  | 🦋 butterfly      | 0.03          | derintu          | 2025-08-29 20:53:43 |
+| 59 🆕 | 🌻 sunflower      | 1.39          | ytp_dl           | 2026-07-07 22:37:16 |
+| 60 ⬇  | ☂️ umbrella       | 1.09          | pinksynthesis29  | 2026-01-24 22:59:13 |
+| 61 ⬇  | 🌿 seaweed        | 0.98          | respirate_       | 2024-09-02 19:38:53 |
+| 62 ⬇  | 🍁 leaf           | 0.96          | larvaew          | 2025-10-30 21:27:22 |
+| 63 ⬇  | 👟 sneaker        | 0.91          | respirate_       | 2024-09-08 17:15:35 |
+| 64 ⬇  | ⛸️ iceskate       | 0.84          | derintu          | 2025-03-17 16:11:43 |
+| 65 ⬇  | 🧤 gloves         | 0.74          | derintu          | 2025-11-12 18:47:14 |
+| 66 ⬇  | 🩴 thongsandal    | 0.65          | dazedforevermore | 2024-08-03 15:29:46 |
+| 67 ⬇  | 🌷 tulip          | 0.58          | ytp_dl           | 2026-03-23 22:03:49 |
+| 68 ⬇  | 🪚 icesaw         | 0.57          | derintu          | 2025-03-17 16:55:26 |
+| 69 ⬇  | 🍬 candy          | 0.53          | elisworm         | 2025-11-20 07:00:16 |
+| 69 ⬇  | 🧵 wireline       | 0.53          | leanmeister      | 2025-12-13 18:13:39 |
+| 71 ⬇  | 🎱 8ball          | 0.49          | elisworm         | 2025-09-20 21:33:38 |
+| 72 ⬇  | 🌾 grass          | 0.23          | derintu          | 2025-03-17 20:23:03 |
+| 73 ⬇  | 🪰 fly            | 0.14          | derintu          | 2026-07-01 19:27:09 |
+| 74 ⬇  | 🕸️ spiderweb      | 0.06          | respirate_       | 2025-08-29 17:16:52 |
+| 75 ⬇  | 🦋 butterfly      | 0.03          | derintu          | 2025-08-29 20:53:43 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-07-05 09:06:17 UTC_
+_Last updated at 2026-07-12 12:55:32 UTC_

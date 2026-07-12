@@ -11,7 +11,7 @@
 		"fishid": 205970,
 		"chatid": 524,
 		"date": "2025-03-15T00:25:09Z",
-		"rank": 59
+		"rank": 60
 	},
 	"acorn": {
 		"player": "aaurie",
@@ -25,7 +25,7 @@
 		"fishid": 214105,
 		"chatid": 1512,
 		"date": "2025-11-07T08:33:28Z",
-		"rank": 58
+		"rank": 59
 	},
 	"balletshoes": {
 		"player": "victorvondoom313",
@@ -39,7 +39,7 @@
 		"fishid": 206393,
 		"chatid": 940,
 		"date": "2025-04-28T01:54:30Z",
-		"rank": 74
+		"rank": 75
 	},
 	"beaver": {
 		"player": "aaurie",
@@ -109,7 +109,7 @@
 		"fishid": 205989,
 		"chatid": 543,
 		"date": "2025-03-15T09:26:37Z",
-		"rank": 55
+		"rank": 56
 	},
 	"boot": {
 		"player": "allspice_boatrace",
@@ -123,7 +123,7 @@
 		"fishid": 205923,
 		"chatid": 477,
 		"date": "2025-03-11T03:04:55Z",
-		"rank": 64
+		"rank": 65
 	},
 	"briefs": {
 		"player": "jeffbethyname69",
@@ -151,7 +151,7 @@
 		"fishid": 216732,
 		"chatid": 1548,
 		"date": "2025-11-20T06:06:44Z",
-		"rank": 67
+		"rank": 68
 	},
 	"clover": {
 		"player": "aaurie",
@@ -165,7 +165,7 @@
 		"fishid": 206853,
 		"chatid": 1396,
 		"date": "2025-06-24T05:07:24Z",
-		"rank": 56
+		"rank": 57
 	},
 	"cockroach": {
 		"player": "one_guy_123",
@@ -333,7 +333,7 @@
 		"fishid": 217197,
 		"chatid": 1569,
 		"date": "2025-11-22T05:30:19Z",
-		"rank": 71
+		"rank": 72
 	},
 	"fish": {
 		"player": "boogie_310",
@@ -389,7 +389,7 @@
 		"fishid": 205921,
 		"chatid": 475,
 		"date": "2025-03-11T00:55:22Z",
-		"rank": 73
+		"rank": 74
 	},
 	"hat": {
 		"player": "amatusz",
@@ -403,7 +403,7 @@
 		"fishid": 206919,
 		"chatid": 1461,
 		"date": "2025-07-07T03:54:58Z",
-		"rank": 51
+		"rank": 52
 	},
 	"hook": {
 		"player": "gofishgamer",
@@ -417,7 +417,7 @@
 		"fishid": 216574,
 		"chatid": 1538,
 		"date": "2025-11-19T05:50:35Z",
-		"rank": 53
+		"rank": 54
 	},
 	"icecube": {
 		"player": "amatusz",
@@ -459,7 +459,7 @@
 		"fishid": 204893,
 		"chatid": 434,
 		"date": "2025-10-06T07:00:34Z",
-		"rank": 72
+		"rank": 73
 	},
 	"lizard": {
 		"player": "aaurie",
@@ -515,7 +515,7 @@
 		"fishid": 230970,
 		"chatid": 1661,
 		"date": "2026-01-03T07:20:24Z",
-		"rank": 52
+		"rank": 53
 	},
 	"mermaid": {
 		"player": "dolp_fin",
@@ -641,7 +641,7 @@
 		"fishid": 218087,
 		"chatid": 1585,
 		"date": "2025-11-26T07:36:18Z",
-		"rank": 63
+		"rank": 64
 	},
 	"rock": {
 		"player": "onetriforce",
@@ -669,7 +669,7 @@
 		"fishid": 214931,
 		"chatid": 1514,
 		"date": "2025-11-11T03:51:10Z",
-		"rank": 69
+		"rank": 70
 	},
 	"sandwich": {
 		"player": "dolp_fin",
@@ -683,7 +683,7 @@
 		"fishid": 206398,
 		"chatid": 945,
 		"date": "2025-04-28T03:19:54Z",
-		"rank": 66
+		"rank": 67
 	},
 	"sauropod": {
 		"player": "rustnroll",
@@ -739,7 +739,7 @@
 		"fishid": 206456,
 		"chatid": 1003,
 		"date": "2025-05-04T01:37:21Z",
-		"rank": 70
+		"rank": 71
 	},
 	"shark": {
 		"player": "dolp_fin",
@@ -767,7 +767,7 @@
 		"fishid": 192702,
 		"chatid": 220,
 		"date": "2025-08-12T01:35:25Z",
-		"rank": 54
+		"rank": 55
 	},
 	"shoppingcart": {
 		"player": "metalxml",
@@ -851,7 +851,7 @@
 		"fishid": 206810,
 		"chatid": 1353,
 		"date": "2025-06-20T02:41:32Z",
-		"rank": 64
+		"rank": 65
 	},
 	"spider": {
 		"player": "boogie_310",
@@ -907,7 +907,21 @@
 		"fishid": 192288,
 		"chatid": 206,
 		"date": "2025-08-09T01:41:23Z",
-		"rank": 62
+		"rank": 63
+	},
+	"sunscreenbottle": {
+		"player": "jeffbethyname69",
+		"playerid": 3841,
+		"weight": 6.17,
+		"bot": "gofishgame",
+		"fishtype": "🧴",
+		"fishname": "sunscreenbottle",
+		"catchtype": "normal",
+		"chat": "aaurie",
+		"fishid": 273835,
+		"chatid": 2125,
+		"date": "2026-07-06T06:03:58Z",
+		"rank": 51
 	},
 	"teddybear": {
 		"player": "aaurie",
@@ -935,7 +949,7 @@
 		"fishid": 194713,
 		"chatid": 271,
 		"date": "2025-08-25T03:04:17Z",
-		"rank": 68
+		"rank": 69
 	},
 	"tropicalfish": {
 		"player": "dolp_fin",
@@ -963,7 +977,7 @@
 		"fishid": 205988,
 		"chatid": 542,
 		"date": "2025-03-15T09:26:32Z",
-		"rank": 60
+		"rank": 61
 	},
 	"turtle": {
 		"player": "aaurie",
@@ -991,7 +1005,7 @@
 		"fishid": 191201,
 		"chatid": 158,
 		"date": "2025-08-02T01:10:31Z",
-		"rank": 57
+		"rank": 58
 	},
 	"whale": {
 		"player": "dolp_fin",
@@ -1019,7 +1033,7 @@
 		"fishid": 205966,
 		"chatid": 520,
 		"date": "2025-03-14T22:20:30Z",
-		"rank": 61
+		"rank": 62
 	},
 	"worm": {
 		"player": "gofishgamer",

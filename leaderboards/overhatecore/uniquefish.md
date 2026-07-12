@@ -10,13 +10,13 @@
 | 6     | wizzyy6          | 24        |
 | 7     | klyne_qq         | 23        |
 | 7     | nightbot         | 23        |
-| 9     | diloindys*       | 22 (+1)   |
+| 9     | diloindys*       | 22        |
 | 10    | wiazuh           | 18        |
 | 11    | focfee           | 17        |
-| 12 ⬆  | dagsai           | 14 (+2)   |
-| 12    | miaquiet         | 14        |
-| 14 ⬇  | offwhiteairforc3 | 13        |
-| 15 ⬇  | k1lk4_           | 12        |
+| 12    | dagsai           | 15 (+1)   |
+| 13 ⬇  | miaquiet         | 14        |
+| 14    | offwhiteairforc3 | 13        |
+| 15    | k1lk4_           | 12        |
 | 16    | ewwwedd          | 11        |
 | 16    | kvgch            | 11        |
 | 16    | wenlygga         | 11        |
@@ -25,4 +25,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2026-07-05 09:04:36 UTC_
+_Last updated at 2026-07-12 12:55:57 UTC_

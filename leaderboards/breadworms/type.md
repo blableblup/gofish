@@ -116,16 +116,16 @@
 | 109   | 🧣 scarf           | 0.99          | osnyatsky*               | 2022-12-22 04:35:03 |
 | 113   | 🪚 icesaw          | 0.95          | osnyisdead               | 2025-02-12 04:45:11 |
 | 114   | 🍥 sanddollar      | 0.85          | derinturitierutz         | 2025-08-26 12:01:59 |
-| 115 ⬆ | 🫐 bilberries      | 0.84 (+0.63)  | dougiefresh_83           | 2026-06-22 22:13:23 |
-| 115   | 🍇 crowberries     | 0.84 (+0.05)  | kishma9                  | 2026-06-22 20:55:31 |
-| 117 ⬇ | 🐜 ant             | 0.74          | derinturitierutz         | 2025-08-30 16:52:57 |
-| 118 ⬇ | 🦟 mosquito        | 0.55          | lluuucy                  | 2025-08-31 15:30:07 |
-| 119 ⬇ | 🪲 beetle          | 0.47          | qu4ttromila              | 2025-06-25 10:39:09 |
-| 120 ⬇ | 🐞 ladybug         | 0.37          | derintu                  | 2025-08-31 20:38:14 |
-| 121 ⬇ | 🪰 fly             | 0.34 (+0.07)  | derinturitierutz         | 2026-06-25 14:46:09 |
-| 122 ⬇ | 🦋 butterfly       | 0.26          | breadworms               | 2025-08-29 23:15:05 |
-| 123 ⬇ | 🦗 cricket         | 0.24          | respirate_               | 2025-07-18 00:38:53 |
+| 115   | 🫐 bilberries      | 0.84          | dougiefresh_83           | 2026-06-22 22:13:23 |
+| 115   | 🍇 crowberries     | 0.84          | kishma9                  | 2026-06-22 20:55:31 |
+| 117   | 🐜 ant             | 0.74          | derinturitierutz         | 2025-08-30 16:52:57 |
+| 118   | 🦟 mosquito        | 0.55          | lluuucy                  | 2025-08-31 15:30:07 |
+| 119   | 🪲 beetle          | 0.47          | qu4ttromila              | 2025-06-25 10:39:09 |
+| 120   | 🐞 ladybug         | 0.37          | derintu                  | 2025-08-31 20:38:14 |
+| 121 ⬆ | 🦋 butterfly       | 0.35 (+0.09)  | larvaew                  | 2026-07-07 09:51:01 |
+| 122 ⬇ | 🪰 fly             | 0.34          | derinturitierutz         | 2026-06-25 14:46:09 |
+| 123   | 🦗 cricket         | 0.24          | respirate_               | 2025-07-18 00:38:53 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-06-28 08:43:20 UTC_
+_Last updated at 2026-07-12 12:55:40 UTC_

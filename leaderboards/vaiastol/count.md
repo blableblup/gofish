@@ -2,42 +2,42 @@
 
 | Rank  | Player                | Fish caught |
 |:------|:----------------------|:------------|
-| 1 🥇  | vaiastol              | 4827 (+57)  |
-| 2 🥈  | hahppyy               | 1819 (+21)  |
-| 3 🥉  | eelacy                | 1455 (+2)   |
-| 4     | garout                | 910         |
-| 5     | proswift              | 708 (+20)   |
-| 6     | divra__               | 653 (+8)    |
-| 7     | leastsussyimposter    | 590 (+1)    |
+| 1 🥇  | vaiastol              | 4883 (+56)  |
+| 2 🥈  | hahppyy               | 1842 (+23)  |
+| 3 🥉  | eelacy                | 1455        |
+| 4     | garout                | 911 (+1)    |
+| 5     | proswift              | 744 (+36)   |
+| 6     | divra__               | 684 (+31)   |
+| 7     | leastsussyimposter    | 590         |
 | 8     | leanmeister           | 507         |
-| 9     | nicestnarwhal         | 484         |
-| 10    | ichezero              | 475 (+18)   |
-| 11    | thespecialone22       | 464 (+52)   |
-| 12    | ryakarr               | 402 (+2)    |
-| 13    | zfk770                | 324 (+47)   |
+| 9 ⬆   | thespecialone22       | 500 (+36)   |
+| 10    | ichezero              | 490 (+15)   |
+| 11 ⬇  | nicestnarwhal         | 484         |
+| 12    | ryakarr               | 402         |
+| 13    | zfk770                | 384 (+60)   |
 | 14    | dazedforevermore      | 255         |
 | 15    | pengeg                | 243         |
-| 16    | gstaman911            | 186 (+2)    |
-| 17    | yoimlee               | 174 (+2)    |
+| 16    | gstaman911            | 189 (+3)    |
+| 17    | yoimlee               | 184 (+10)   |
 | 18    | milesdotcom           | 137         |
 | 19    | brontiiide            | 120         |
 | 20    | tiaguitos97           | 117         |
-| 21    | julialuxel            | 109         |
-| 22    | crustymilk            | 94 (+15)    |
-| 23    | obama                 | 63          |
-| 24 ⬆  | tharawow              | 60 (+22)    |
-| 25 ⬇  | bubinga               | 55          |
-| 26 ⬇  | rird_                 | 48          |
-| 27 ⬇  | larvaew               | 45          |
-| 28 ⬆  | ayobl7                | 42 (+9)     |
-| 28 ⬇  | fvkdylan              | 42          |
-| 30 ⬇  | esmeohmy              | 34          |
-| 31    | j4song                | 33 (+1)     |
-| 32 ⬆  | notsatan13            | 31 (+11)    |
-| 33 ⬇  | houseofleaves*        | 29          |
-| 34 ⬇  | cyaniderx             | 23          |
-| 35 ⬇  | ash__meow             | 22          |
-| 36 ⬇  | ermnest               | 21 (+1)     |
+| 21 ⬆  | tharawow              | 112 (+52)   |
+| 22 ⬇  | julialuxel            | 109         |
+| 23 ⬇  | crustymilk            | 100 (+6)    |
+| 24 ⬇  | obama                 | 63          |
+| 25 ⬆  | notsatan13            | 57 (+26)    |
+| 26 ⬇  | bubinga               | 55          |
+| 27 ⬇  | rird_                 | 48          |
+| 28 ⬇  | larvaew               | 45          |
+| 29 ⬇  | ayobl7                | 42          |
+| 29 ⬇  | fvkdylan              | 42          |
+| 31    | j4song                | 36 (+3)     |
+| 32 ⬇  | esmeohmy              | 34          |
+| 33    | houseofleaves*        | 29          |
+| 34    | cyaniderx             | 23          |
+| 35    | ash__meow             | 22          |
+| 36    | ermnest               | 21          |
 | 37    | drpasu                | 18          |
 | 37    | mitgliederversammlung | 18          |
 | 39    | dev0p_                | 17          |
@@ -51,4 +51,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-07-05 09:04:31 UTC_
+_Last updated at 2026-07-12 12:55:58 UTC_

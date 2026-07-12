@@ -2,7 +2,7 @@
 
 | Rank  | Player         | Fish caught |
 |:------|:---------------|:------------|
-| 1 🥇  | buhl00n        | 2469        |
+| 1 🥇  | buhl00n        | 2470 (+1)   |
 | 2 🥈  | glorp_fishing  | 1093        |
 | 3 🥉  | gimmeschmoneys | 1091        |
 | 4     | nolifeben1     | 777         |
@@ -14,7 +14,7 @@
 | 10    | notnownico     | 256         |
 | 11    | vagdy          | 254         |
 | 12    | rabituwu       | 243         |
-| 13    | hamoodhabibee  | 214 (+1)    |
+| 13    | hamoodhabibee  | 214         |
 | 14    | simplydrack    | 183         |
 | 15    | ssenario       | 171         |
 | 16    | tairaaaaa      | 170         |
@@ -56,4 +56,4 @@
 
 _Only showing fishers who caught >= 30 fish_
 
-_Last updated at 2026-07-05 09:04:31 UTC_
+_Last updated at 2026-07-12 12:55:58 UTC_
