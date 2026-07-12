@@ -902,6 +902,25 @@
 			"checkfdata": true,
 			"board_enabled": false
 		},
+		"npqg": {
+			"twitchid": "1386977355",
+			"logs_instances": [
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/7"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2026/7"
+				},
+				{
+					"url": "https://logs.susgee.dev",
+					"logs_added": "2026/7"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
 		"omie": {
 			"twitchid": "196858",
 			"logs_instances": [
