@@ -12,15 +12,16 @@
 | 8     | ichezero           | 57          |
 | 9     | hahppyy            | 53          |
 | 10    | pengeg             | 52          |
-| 11    | nicestnarwhal      | 47          |
-| 12    | julialuxel         | 40          |
-| 12    | leanmeister        | 40          |
-| 14    | dazedforevermore   | 38          |
-| 15    | ryakarr            | 37          |
-| 16    | leastsussyimposter | 26          |
-| 17 🆕 | tharawow           | 19          |
-| 18 ⬇  | milesdotcom        | 13          |
+| 10 ⬆  | tharawow           | 52 (+33)    |
+| 12 ⬇  | nicestnarwhal      | 47          |
+| 13 ⬇  | julialuxel         | 40          |
+| 13 ⬇  | leanmeister        | 40          |
+| 15 ⬇  | dazedforevermore   | 38          |
+| 16 ⬇  | ryakarr            | 37          |
+| 17 ⬇  | leastsussyimposter | 26          |
+| 18    | milesdotcom        | 13          |
+| 19 🆕 | yoimlee            | 10          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-07-09 13:09:49 UTC_
+_Last updated at 2026-07-15 10:51:58 UTC_
