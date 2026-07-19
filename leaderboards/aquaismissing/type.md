@@ -39,14 +39,14 @@
 | 35    | 👒 hat          | 10.81         | syberiak_     | 2025-12-07 20:20:18 |
 | 36    | 🐌 snail        | 10.36         | kargalay      | 2025-07-06 18:04:51 |
 | 37    | 🧊 icecube      | 9.68          | respirate_    | 2025-11-29 00:46:15 |
-| 38    | 💀 skull        | 9.10          | kam3l_        | 2025-07-12 17:03:52 |
+| 37 ⬆  | 💀 skull        | 9.68 (+0.58)  | cute_ducc     | 2026-07-14 23:59:22 |
 | 39    | 🪺 nestwitheggs | 8.55          | glorpiusbot   | 2026-04-02 17:38:22 |
 | 40    | 🪱 worm         | 8.50          | kaitechpl     | 2025-01-29 11:34:20 |
 | 41    | 🪹 emptynest    | 8.04          | glorpiusbot   | 2026-04-10 23:13:18 |
-| 42 ⬆  | 🧃 beveragebox  | 7.68 (+3.26)  | cute_ducc     | 2026-05-26 20:52:15 |
-| 43 ⬇  | 🦎 lizard       | 7.57          | bubinga       | 2025-09-24 07:03:29 |
-| 44 ⬇  | 🐸 frog         | 5.08          | giorping      | 2024-12-01 20:21:52 |
-| 45 ⬇  | 🎏 lure         | 4.91          | dom1torii     | 2025-12-12 04:51:11 |
+| 42    | 🧃 beveragebox  | 7.68          | cute_ducc     | 2026-05-26 20:52:15 |
+| 43    | 🦎 lizard       | 7.57          | bubinga       | 2025-09-24 07:03:29 |
+| 44    | 🐸 frog         | 5.08          | giorping      | 2024-12-01 20:21:52 |
+| 45    | 🎏 lure         | 4.91          | dom1torii     | 2025-12-12 04:51:11 |
 | 46    | 🐚 shell        | 3.99          | aquaismissing | 2025-06-28 14:39:26 |
 | 47    | ☘️ clover       | 3.98          | glorpiusbot   | 2026-01-05 15:05:34 |
 | 48    | 🪝 hook         | 3.82          | sammevevo     | 2025-04-03 00:08:48 |
@@ -69,4 +69,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-05-31 10:08:47 UTC_
+_Last updated at 2026-07-19 08:32:05 UTC_

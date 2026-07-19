@@ -2,30 +2,30 @@
 
 | Rank | Fish               | Weight in lbs | Player            | Date in UTC         |
 |:-----|:-------------------|:--------------|:------------------|:--------------------|
-| 78   | 🐙 octopus         | 122.13        | amatusz           | 2026-07-11 02:32:42 |
-| 77   | 🐋 whale           | 126.12        | amatusz           | 2026-07-10 01:30:14 |
-| 76   | 🐠 tropicalfish    | 3.34          | amatusz           | 2026-07-07 02:17:14 |
-| 75   | 🦪 oyster          | 9.88          | guy_farting420    | 2026-07-07 01:38:34 |
-| 74   | 🐬 dolphin         | 18.40         | amatusz           | 2026-07-07 01:36:42 |
-| 73   | 🐌 snail           | 0.36          | aaurie            | 2026-07-07 01:36:21 |
-| 72   | 🧴 sunscreenbottle | 6.17          | jeffbethyname69   | 2026-07-06 06:03:58 |
-| 71   | 🐸 frog            | 4.69          | jekimo33          | 2026-07-06 02:40:52 |
-| 70   | 🪝 hook            | 1.48          | limwik            | 2026-07-06 02:40:30 |
-| 69   | 🎏 lure            | 1.04          | springbean00      | 2026-07-06 02:23:41 |
-| 68   | 🦐 shrimp          | 24.18         | andrewlmao        | 2026-07-06 01:23:26 |
-| 67   | 🪼 jellyfish       | 10.26         | guy_farting420    | 2026-07-03 03:51:05 |
-| 66   | 🐚 shell           | 2.62          | zelathiel         | 2026-06-30 04:15:09 |
-| 65   | 🦕 sauropod        | 215.44        | amatusz           | 2026-06-29 04:41:14 |
-| 64   | 🦀 crab            | 2.14          | amatusz           | 2026-06-29 02:42:06 |
-| 63   | 🐟 fish            | 16.47         | onetriforce       | 2026-06-29 01:18:42 |
-| 62   | 🐢 turtle          | 71.19         | abelito75         | 2026-06-27 01:17:49 |
-| 61   | 🧽 sponge          | 3.58          | amatusz           | 2026-06-26 05:15:01 |
-| 60   | 🪸 coral           | 1.29          | amatusz           | 2026-06-26 03:24:10 |
-| 59   | 🕷️ spider          | 0.67          | amatusz           | 2026-06-26 01:06:23 |
-| 58   | 🦑 squid           | 27.22         | guy_farting420    | 2026-06-20 03:23:33 |
-| 57   | 🧟 deadbody        | 32.64         | guy_farting420    | 2026-06-16 03:36:57 |
-| 56   | 🐊 crocodile       | 40.06         | curiouscorvidae   | 2026-06-12 01:43:09 |
-| 55   | 🧦 socks           | 0.69          | amatusz           | 2026-06-09 01:19:46 |
+| 78   | 🎏 lure            | 0.14          | honeytonguedbee   | 2026-07-14 02:55:29 |
+| 77   | 🐠 tropicalfish    | 16.64         | amatusz           | 2026-07-14 02:17:11 |
+| 76   | 🐙 octopus         | 9.36          | guy_farting420    | 2026-07-14 01:51:46 |
+| 75   | 🐚 shell           | 3.61          | amatusz           | 2026-07-13 04:32:51 |
+| 74   | 🧦 socks           | 1.90          | amatusz           | 2026-07-13 01:20:57 |
+| 73   | 🐋 whale           | 126.12        | amatusz           | 2026-07-10 01:30:14 |
+| 72   | 🦪 oyster          | 9.88          | guy_farting420    | 2026-07-07 01:38:34 |
+| 71   | 🐬 dolphin         | 18.40         | amatusz           | 2026-07-07 01:36:42 |
+| 70   | 🐌 snail           | 0.36          | aaurie            | 2026-07-07 01:36:21 |
+| 69   | 🧴 sunscreenbottle | 6.17          | jeffbethyname69   | 2026-07-06 06:03:58 |
+| 68   | 🐸 frog            | 4.69          | jekimo33          | 2026-07-06 02:40:52 |
+| 67   | 🪝 hook            | 1.48          | limwik            | 2026-07-06 02:40:30 |
+| 66   | 🦐 shrimp          | 24.18         | andrewlmao        | 2026-07-06 01:23:26 |
+| 65   | 🪼 jellyfish       | 10.26         | guy_farting420    | 2026-07-03 03:51:05 |
+| 64   | 🦕 sauropod        | 215.44        | amatusz           | 2026-06-29 04:41:14 |
+| 63   | 🦀 crab            | 2.14          | amatusz           | 2026-06-29 02:42:06 |
+| 62   | 🐟 fish            | 16.47         | onetriforce       | 2026-06-29 01:18:42 |
+| 61   | 🐢 turtle          | 71.19         | abelito75         | 2026-06-27 01:17:49 |
+| 60   | 🧽 sponge          | 3.58          | amatusz           | 2026-06-26 05:15:01 |
+| 59   | 🪸 coral           | 1.29          | amatusz           | 2026-06-26 03:24:10 |
+| 58   | 🕷️ spider          | 0.67          | amatusz           | 2026-06-26 01:06:23 |
+| 57   | 🦑 squid           | 27.22         | guy_farting420    | 2026-06-20 03:23:33 |
+| 56   | 🧟 deadbody        | 32.64         | guy_farting420    | 2026-06-16 03:36:57 |
+| 55   | 🐊 crocodile       | 40.06         | curiouscorvidae   | 2026-06-12 01:43:09 |
 | 54   | 🌿 seaweed         | 0.75          | amatusz           | 2026-06-05 05:24:44 |
 | 53   | 💀 skull           | 9.44          | amatusz           | 2026-06-05 02:10:21 |
 | 52   | 🦞 lobster         | 16.67         | amatusz           | 2026-06-01 03:17:02 |
@@ -81,4 +81,4 @@
 | 2    | 🎱 8ball           | 2.22          | mademooselle      | 2025-04-01 04:29:50 |
 | 1    | 🧵 wireline        | 0.04          | nalls             | 2025-03-22 04:41:42 |
 
-_Last updated at 2026-07-12 12:55:59 UTC_
+_Last updated at 2026-07-19 08:29:14 UTC_

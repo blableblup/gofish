@@ -2,11 +2,11 @@
 
 | Rank  | Player           | Total Weight in lbs |
 |:------|:-----------------|:--------------------|
-| 1 🥇  | overhatecore     | 4868.69 (+62.46)    |
-| 2 🥈  | alenakuz03       | 2353.22 (+104.68)   |
+| 1 🥇  | overhatecore     | 4868.69             |
+| 2 🥈  | alenakuz03       | 2353.22             |
 | 3 🥉  | sgv4bl           | 1842.14             |
 | 4     | sidneya_         | 1371.92             |
-| 5     | dan1lew          | 1272.63 (+2.60)     |
+| 5     | dan1lew          | 1300.38 (+27.75)    |
 | 6     | nightbot         | 1162.17             |
 | 7     | diloindys*       | 734.48              |
 | 8     | klyne_qq         | 673.70              |
@@ -15,10 +15,10 @@
 | 11    | wiazuh           | 486.67              |
 | 12    | miaquiet         | 482.46              |
 | 13    | wenlygga         | 410.90              |
-| 14    | dagsai           | 404.35 (+10.93)     |
+| 14    | dagsai           | 404.35              |
 | 15    | focfee           | 250.40              |
 | 16    | k1lk4_           | 243.44              |
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-07-12 12:55:56 UTC_
+_Last updated at 2026-07-19 08:33:09 UTC_

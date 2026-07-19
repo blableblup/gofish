@@ -74,13 +74,14 @@
 | 70    | 🌾 grass          | 0.83          | mowogan     | 2025-08-10 07:37:40 |
 | 71    | ⛸️ iceskate       | 0.81          | elisworm    | 2025-12-27 01:20:45 |
 | 72    | 🧵 wireline       | 0.46          | mowogan     | 2025-06-23 19:26:16 |
-| 73    | 📱 iphone         | 0.32          | lolspers    | 2025-09-20 10:57:09 |
-| 74    | 🪶 feather        | 0.28          | konsminator | 2025-07-21 06:25:25 |
-| 75    | 🩰 balletshoes    | 0.19          | konsminator | 2025-07-21 10:55:56 |
-| 75    | 🍬 candy          | 0.19          | konsminator | 2025-08-13 19:47:32 |
-| 77    | 🐜 ant            | 0.12          | n1nzin_     | 2025-06-24 12:10:54 |
-| 78    | 🪚 icesaw         | 0.00          | gofishgamer | 2025-12-28 10:04:36 |
+| 73 🆕 | 🫙 jar            | 0.35          | mowogan     | 2026-07-15 04:02:05 |
+| 74 ⬇  | 📱 iphone         | 0.32          | lolspers    | 2025-09-20 10:57:09 |
+| 75 ⬇  | 🪶 feather        | 0.28          | konsminator | 2025-07-21 06:25:25 |
+| 76 ⬇  | 🩰 balletshoes    | 0.19          | konsminator | 2025-07-21 10:55:56 |
+| 76 ⬇  | 🍬 candy          | 0.19          | konsminator | 2025-08-13 19:47:32 |
+| 78 ⬇  | 🐜 ant            | 0.12          | n1nzin_     | 2025-06-24 12:10:54 |
+| 79 ⬇  | 🪚 icesaw         | 0.00          | gofishgamer | 2025-12-28 10:04:36 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-05-10 08:57:34 UTC_
+_Last updated at 2026-07-19 08:33:05 UTC_

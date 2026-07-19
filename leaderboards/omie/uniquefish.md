@@ -11,11 +11,11 @@
 | 7     | respirate_  | 34        |
 | 7     | sykelle     | 34        |
 | 9     | elisworm    | 32        |
-| 10    | larvaew     | 30 (+2)   |
+| 10    | larvaew     | 31 (+1)   |
 | 11    | xddjenny    | 20        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-07-12 12:55:57 UTC_
+_Last updated at 2026-07-19 08:33:13 UTC_

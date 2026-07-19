@@ -9,7 +9,7 @@
 | 5     | elisworm       | 21        |
 | 6     | jboy42o        | 18        |
 | 6     | respirate_     | 18        |
-| 8     | besceny        | 14 (+1)   |
+| 8     | besceny        | 16 (+2)   |
 | 9     | mersufy        | 11        |
 | 9     | xopowosidim667 | 11        |
 | 11    | koenheylen     | 10        |
@@ -18,4 +18,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2026-07-12 12:55:57 UTC_
+_Last updated at 2026-07-19 08:33:13 UTC_

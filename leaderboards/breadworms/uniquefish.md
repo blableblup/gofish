@@ -2,32 +2,32 @@
 
 | Rank  | Player                | Fish seen |
 |:------|:----------------------|:----------|
-| 1 🥇  | fishingalt            | 123       |
+| 1 🥇  | fishingalt            | 124 (+1)  |
 | 2 🥈  | derinturitierutz      | 118       |
 | 3 🥉  | derintu               | 113       |
-| 4     | larvaew               | 106 (+1)  |
-| 5 ⬇   | lluuucy               | 105       |
+| 4     | larvaew               | 108 (+2)  |
+| 5     | lluuucy               | 105       |
 | 6     | leanmeister           | 102       |
 | 7     | cumgi                 | 101       |
-| 8     | qu4ttromila           | 96        |
-| 9     | breadworms            | 94        |
-| 9     | kishma9               | 94        |
-| 9     | osnyisdead            | 94        |
+| 8 ⬆   | osnyisdead            | 98 (+4)   |
+| 9 ⬇   | qu4ttromila           | 97 (+1)   |
+| 10 ⬇  | breadworms            | 94        |
+| 10 ⬇  | kishma9               | 94        |
 | 12    | ytp_dl*               | 93        |
-| 13    | destin357             | 90        |
-| 14    | dougiefresh_83*       | 89        |
-| 15    | miiiiisho             | 87 (+1)   |
-| 16 ⬇  | dazedforevermore      | 86        |
+| 13 ⬆  | dazedforevermore      | 92 (+6)   |
+| 14 ⬇  | destin357             | 90        |
+| 15 ⬇  | dougiefresh_83*       | 89        |
+| 16 ⬇  | miiiiisho             | 87        |
 | 17    | ninjaross*            | 78        |
 | 18    | booty_bread           | 77        |
+| 19 ⬆  | esvelles              | 75 (+2)   |
 | 19    | gstaman911            | 75        |
 | 19    | sicklymaidrobot       | 75        |
-| 21 ⬆  | esvelles              | 73 (+1)   |
-| 21    | osnyatsky*            | 73        |
-| 21    | puzzlow               | 73        |
-| 24 ⬇  | paras220              | 72        |
-| 24 ⬇  | respirate_            | 72        |
-| 26    | cutsekai              | 71 (+1)   |
+| 22 ⬇  | osnyatsky*            | 73        |
+| 22 ⬇  | puzzlow               | 73        |
+| 24 ⬆  | cutsekai              | 72 (+1)   |
+| 24    | paras220              | 72        |
+| 24    | respirate_            | 72        |
 | 27    | gawblemachine         | 69        |
 | 27    | julialuxel            | 69        |
 | 29    | crazytown_bananapants | 67        |
@@ -53,4 +53,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-07-12 12:55:57 UTC_
+_Last updated at 2026-07-19 08:33:13 UTC_

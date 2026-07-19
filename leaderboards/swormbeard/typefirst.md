@@ -2,6 +2,8 @@
 
 | Rank | Fish              | Weight in lbs | Player                | Date in UTC         |
 |:-----|:------------------|:--------------|:----------------------|:--------------------|
+| 79   | 🐜 ant            | 0.75          | derintu               | 2026-07-14 20:41:09 |
+| 78   | 🐛 caterpillar    | 0.90          | derinturitierutz      | 2026-07-14 19:21:09 |
 | 77   | 🌻 sunflower      | 1.39          | ytp_dl                | 2026-07-07 22:37:16 |
 | 76   | 🪰 fly            | 0.14          | derintu               | 2026-07-01 19:27:09 |
 | 75   | 🪼 jellyfish      | 11.13         | ytp_dl                | 2026-05-19 23:33:53 |
@@ -79,4 +81,4 @@
 | 2    | 🦐 shrimp         | 3.14          | bapqo                 | 2024-07-28 22:59:12 |
 | 1    | 🐊 crocodile      | 105.00        | julialuxel            | 2024-07-28 22:59:00 |
 
-_Last updated at 2026-07-12 12:55:52 UTC_
+_Last updated at 2026-07-19 08:29:16 UTC_

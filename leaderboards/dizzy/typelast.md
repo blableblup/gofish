@@ -2,7 +2,7 @@
 
 | Rank | Fish              | Weight in lbs | Player          | Date in UTC         |
 |:-----|:------------------|:--------------|:----------------|:--------------------|
-| 110  | 🐙 octopus        | 130.90        | buhl00n         | 2026-07-09 09:54:20 |
+| 110  | 🐙 octopus        | 8.56          | hamoodhabibee   | 2026-07-17 22:41:51 |
 | 109  | 🦐 shrimp         | 6.43          | hamoodhabibee   | 2026-07-01 23:46:01 |
 | 108  | 🐠 tropicalfish   | 15.03         | ofaisalz        | 2026-06-09 16:11:44 |
 | 107  | 🦪 oyster         | 17.35         | meppppi         | 2026-05-22 21:31:52 |
@@ -99,8 +99,8 @@
 | 15   | 🪚 icesaw         | 0.60          | gimmeschmoneys  | 2025-02-26 01:33:52 |
 | 14   | 🐧 penguin        | 30.26         | buhl00n         | 2025-02-18 01:34:38 |
 | 13   | 👟 sneaker        | 1.36          | greenfatso      | 2025-01-27 07:33:19 |
-| 11   | 🍪 cookie         | 0.00          | anothercull     | 2025-01-15 01:31:55 |
 | 11   | 🎀 wrappingpaper  | 0.00          | anothercull     | 2025-01-15 01:31:55 |
+| 11   | 🍪 cookie         | 0.00          | anothercull     | 2025-01-15 01:31:55 |
 | 10   | 🎁 present        | 0.00          | anothercull     | 2025-01-15 01:31:08 |
 | 9    | 🥀 wiltedflower   | 2.28          | simplydrack     | 2025-01-06 17:07:07 |
 | 8    | 🛒 shoppingcart   | 56.52         | buhl00n         | 2025-01-02 17:13:58 |
@@ -112,4 +112,4 @@
 | 2    | 👑 crown          | 30.94         | glorp_fishing   | 2024-12-12 21:16:52 |
 | 1    | 🧞‍♂️ genie          | 17.60         | feuha           | 2024-11-01 09:40:30 |
 
-_Last updated at 2026-07-12 12:55:59 UTC_
+_Last updated at 2026-07-19 08:29:15 UTC_

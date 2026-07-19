@@ -2,6 +2,7 @@
 
 | Rank | Fish              | Weight in lbs | Player      | Date in UTC         |
 |:-----|:------------------|:--------------|:------------|:--------------------|
+| 79   | 🫙 jar            | 0.35          | mowogan     | 2026-07-15 04:02:05 |
 | 78   | 👡 sandal         | 1.10          | mowogan     | 2026-03-05 09:35:20 |
 | 77   | 🧸 teddybear      | 5.61          | konsminator | 2026-02-11 17:06:13 |
 | 76   | 🧟 deadbody       | 91.35         | konsminator | 2026-02-09 16:10:54 |
@@ -81,4 +82,4 @@
 | 2    | 🎱 8ball          | 0.79          | konsminator | 2025-06-23 16:25:30 |
 | 1    | 🪝 hook           | 2.28          | mowogan     | 2025-06-23 16:00:57 |
 
-_Last updated at 2026-05-10 08:59:15 UTC_
+_Last updated at 2026-07-19 08:29:15 UTC_

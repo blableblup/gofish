@@ -2,22 +2,24 @@
 
 | Rank | Fish              | Weight in lbs | Player                | Date in UTC         |
 |:-----|:------------------|:--------------|:----------------------|:--------------------|
-| 76   | 🦫 beaver         | 33.57         | ytp_dl                | 2026-07-08 18:04:51 |
-| 75   | 🌻 sunflower      | 1.39          | ytp_dl                | 2026-07-07 22:37:16 |
-| 74   | 🌿 seaweed        | 0.23          | ytp_dl                | 2026-07-07 17:38:48 |
-| 73   | 🐟 fish           | 5.20          | cumgi                 | 2026-07-03 14:52:15 |
-| 72   | 🪺 nestwitheggs   | 1.08          | derintu               | 2026-07-01 20:51:22 |
-| 71   | 🐸 frog           | 0.22          | derintu               | 2026-07-01 20:02:40 |
-| 70   | 🪰 fly            | 0.14          | derintu               | 2026-07-01 19:27:09 |
-| 69   | 🐦 cardinal       | 0.30          | derintu               | 2026-07-01 18:30:30 |
-| 68   | 🪹 emptynest      | 1.51          | derintu               | 2026-07-01 18:30:05 |
-| 67   | 🐍 snake          | 7.64          | derintu               | 2026-07-01 17:31:54 |
-| 66   | 🦐 shrimp         | 3.80          | derintu               | 2026-07-01 16:36:09 |
-| 65   | 🦎 lizard         | 1.16          | derintu               | 2026-06-30 20:51:57 |
-| 64   | 🪀 bobber         | 0.00          | derintu               | 2026-06-29 20:44:57 |
-| 63   | ☘️ clover         | 2.56          | derinturitierutz      | 2026-06-25 19:28:24 |
-| 62   | 🐢 turtle         | 13.83         | derintu               | 2026-06-24 19:32:51 |
-| 61   | 🫙 jar            | 0.00          | derinturitierutz      | 2026-06-24 18:01:22 |
+| 78   | 🦐 shrimp         | 1.53          | ytp_dl                | 2026-07-18 19:32:58 |
+| 77   | 🐜 ant            | 0.71          | derinturitierutz      | 2026-07-14 20:41:24 |
+| 76   | 🐛 caterpillar    | 0.90          | derinturitierutz      | 2026-07-14 19:21:09 |
+| 75   | 🫙 jar            | 0.21          | derintu               | 2026-07-14 19:20:51 |
+| 74   | ☘️ clover         | 1.89          | ytp_dl                | 2026-07-14 18:15:24 |
+| 73   | 🦫 beaver         | 33.57         | ytp_dl                | 2026-07-08 18:04:51 |
+| 72   | 🌻 sunflower      | 1.39          | ytp_dl                | 2026-07-07 22:37:16 |
+| 71   | 🌿 seaweed        | 0.23          | ytp_dl                | 2026-07-07 17:38:48 |
+| 70   | 🐟 fish           | 5.20          | cumgi                 | 2026-07-03 14:52:15 |
+| 69   | 🪺 nestwitheggs   | 1.08          | derintu               | 2026-07-01 20:51:22 |
+| 68   | 🐸 frog           | 0.22          | derintu               | 2026-07-01 20:02:40 |
+| 67   | 🪰 fly            | 0.14          | derintu               | 2026-07-01 19:27:09 |
+| 66   | 🐦 cardinal       | 0.30          | derintu               | 2026-07-01 18:30:30 |
+| 65   | 🪹 emptynest      | 1.51          | derintu               | 2026-07-01 18:30:05 |
+| 64   | 🐍 snake          | 7.64          | derintu               | 2026-07-01 17:31:54 |
+| 63   | 🦎 lizard         | 1.16          | derintu               | 2026-06-30 20:51:57 |
+| 62   | 🪀 bobber         | 0.00          | derintu               | 2026-06-29 20:44:57 |
+| 61   | 🐢 turtle         | 13.83         | derintu               | 2026-06-24 19:32:51 |
 | 60   | 🍬 candy          | 0.00          | derinturitierutz      | 2026-06-23 19:05:25 |
 | 59   | 🪱 worm           | 0.22          | derintu               | 2026-06-23 19:04:33 |
 | 58   | 🎏 lure           | 0.62          | miiiiisho             | 2026-06-23 17:27:13 |
@@ -79,4 +81,4 @@
 | 2    | 🩴 thongsandal    | 0.65          | dazedforevermore      | 2024-08-03 15:29:46 |
 | 1    | 🕶️ darksunglasses | 11.39         | respirate_            | 2024-07-29 07:01:49 |
 
-_Last updated at 2026-07-12 12:55:59 UTC_
+_Last updated at 2026-07-19 08:29:14 UTC_

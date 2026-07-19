@@ -2,6 +2,8 @@
 
 | Rank | Fish               | Weight in lbs | Player                    | Date in UTC         |
 |:-----|:-------------------|:--------------|:--------------------------|:--------------------|
+| 125  | 🐝 bee             | 0.09          | llikotesnecil             | 2026-07-15 05:22:34 |
+| 124  | 🦴 bone            | 9.31          | feelsaceman               | 2026-07-14 18:59:43 |
 | 123  | 🐞 ladybug         | 0.18          | feelsaceman               | 2026-07-06 19:08:28 |
 | 122  | 🦂 scorpion        | 0.35          | jayayseaohbe              | 2026-07-03 00:45:53 |
 | 121  | 🫐 bilberries      | 0.23          | blu_inx                   | 2026-06-24 19:56:50 |
@@ -10,8 +12,8 @@
 | 118  | 🧥 coat            | 2.93          | feelsaceman               | 2025-12-25 02:51:38 |
 | 117  | 🛒 shoppingcart    | 51.50         | deatron                   | 2025-12-24 19:24:29 |
 | 116  | 🪿 goose           | 0.12          | blu_inx                   | 2025-12-23 17:17:16 |
-| 114  | ✉️ letter          | 0.00          | llikotesnecil             | 2025-12-20 02:37:58 |
 | 114  | 🎀 wrappingpaper   | 0.00          | llikotesnecil             | 2025-12-20 02:37:58 |
+| 114  | ✉️ letter          | 0.00          | llikotesnecil             | 2025-12-20 02:37:58 |
 | 113  | 🍪 cookie          | 0.00          | nndiana                   | 2025-12-18 05:39:11 |
 | 112  | 🎁 present         | 0.00          | mazzo_tv                  | 2025-12-15 06:42:54 |
 | 111  | 🔔 bell            | 0.00          | mazzo_tv                  | 2025-12-14 09:38:24 |
@@ -126,4 +128,4 @@
 | 2    | 🦞 lobster         | 36.18         | psp1g                     | 2023-08-21 01:23:40 |
 | 1    | 🐟 fish            | 13.12         | dazedforevermore          | 2023-08-21 01:11:17 |
 
-_Last updated at 2026-07-12 12:55:52 UTC_
+_Last updated at 2026-07-19 08:29:15 UTC_

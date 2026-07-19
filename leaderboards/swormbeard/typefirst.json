@@ -27,6 +27,20 @@
 		"date": "2024-10-04T22:04:38Z",
 		"rank": 36
 	},
+	"ant": {
+		"player": "derintu",
+		"playerid": 3638,
+		"weight": 0.75,
+		"bot": "gofishgame",
+		"fishtype": "🐜",
+		"fishname": "ant",
+		"catchtype": "normal",
+		"chat": "swormbeard",
+		"fishid": 275938,
+		"chatid": 850,
+		"date": "2026-07-14T20:41:09Z",
+		"rank": 79
+	},
 	"apple": {
 		"player": "derinturitierutz",
 		"playerid": 126,
@@ -229,6 +243,21 @@
 		"chatid": 157,
 		"date": "2024-10-26T03:04:44Z",
 		"rank": 44
+	},
+	"caterpillar": {
+		"player": "derinturitierutz",
+		"playerid": 126,
+		"verified": true,
+		"weight": 0.9,
+		"bot": "gofishgame",
+		"fishtype": "🐛",
+		"fishname": "caterpillar",
+		"catchtype": "normal",
+		"chat": "swormbeard",
+		"fishid": 275906,
+		"chatid": 849,
+		"date": "2026-07-14T19:21:09Z",
+		"rank": 78
 	},
 	"clover": {
 		"player": "lluuucy",
@@ -875,8 +904,8 @@
 		"fishname": "snake",
 		"catchtype": "normal",
 		"chat": "swormbeard",
-		"fishid": 110983,
-		"chatid": 57,
+		"fishid": 110982,
+		"chatid": 56,
 		"date": "2024-08-07T17:36:47Z",
 		"rank": 23
 	},

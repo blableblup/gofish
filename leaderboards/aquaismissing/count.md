@@ -18,18 +18,19 @@
 | 14    | dom1torii        | 23          |
 | 14    | poggu_           | 23          |
 | 16    | kam3l_           | 22          |
+| 17 ⬆  | cute_ducc        | 21 (+2)     |
 | 17    | kargalay         | 21          |
-| 18    | ggmagician       | 20          |
-| 19    | cute_ducc        | 19 (+1)     |
-| 20 ⬇  | kaczer1          | 18          |
-| 21 ⬆  | ojack18          | 14 (+1)     |
-| 21    | underpaidchatter | 14          |
-| 23 ⬇  | vigilsync*       | 13          |
+| 19 ⬇  | ggmagician       | 20          |
+| 19 ⬆  | kaczer1          | 20 (+2)     |
+| 21    | underpaidchatter | 15 (+1)     |
+| 22 ⬇  | ojack18          | 14          |
+| 23    | vigilsync*       | 13          |
 | 24    | helloimteto      | 12          |
 | 25    | buck101_         | 11          |
 | 25    | ievantee         | 11          |
+| 27 🆕 | kreplj           | 10          |
 | 27    | mishashto        | 10          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-07-12 12:55:58 UTC_
+_Last updated at 2026-07-19 08:33:14 UTC_

@@ -1,63 +1,63 @@
 ### Players who have seen the most fish in wuh6's chat
 
-| Rank   | Player                    | Fish seen |
-|:-------|:--------------------------|:----------|
-| 1 🥇   | eeziiii                   | 115       |
-| 2 🥈   | theevirus                 | 111 (+1)  |
-| 3 🥉 ⬇ | iflya320                  | 110       |
-| 4      | bubinga                   | 107       |
-| 5      | lobuhtomy                 | 106 (+1)  |
-| 6      | huuuuuuuuuuuuuuuuuuuuuurz | 96        |
-| 7 ⬆    | ranctious                 | 95 (+1)   |
-| 7      | wowitsdub                 | 95        |
-| 9 ⬇    | nndiana*                  | 94        |
-| 10     | gorillapark               | 87        |
-| 11     | veny2lbs                  | 82        |
-| 12     | caprisen_*                | 62        |
-| 12     | mazzo_tv                  | 62        |
-| 12     | rancbot                   | 62        |
-| 15     | feelsaceman               | 60        |
-| 16     | commanda_u                | 58        |
-| 16     | supibot                   | 58        |
-| 18     | bcarw                     | 55        |
-| 19     | bluberry                  | 54        |
-| 20     | blu_inx                   | 53        |
-| 21     | flovrek                   | 52        |
-| 22     | ocrw                      | 49        |
-| 22     | sandwichsundays*          | 49        |
-| 22     | thetaxmen                 | 49        |
-| 25     | ewpert1                   | 48        |
-| 26     | flvx_flux*                | 45        |
-| 27     | teddbearcs                | 44        |
-| 28     | glorianeq                 | 43        |
-| 29     | jr_mime                   | 40        |
-| 30     | benciee                   | 39        |
-| 30     | poons_sssssssssssssssssss | 39        |
-| 32     | zwockel01                 | 35        |
-| 33 ⬆   | r3kko_                    | 34 (+4)   |
-| 33     | wuh6                      | 34        |
-| 35 ⬇   | ratot                     | 33        |
-| 36     | araqs                     | 29        |
-| 36     | ceriise__                 | 29        |
-| 36     | flunke_                   | 29        |
-| 39     | onarrrrrrrr               | 28        |
-| 39     | paju1g                    | 28        |
-| 39     | wadupcaprise              | 28        |
-| 39     | yvhsu                     | 28        |
-| 43     | funnywhitecat6*           | 27        |
-| 44     | bcarbot                   | 26        |
-| 44     | drecklo                   | 26        |
-| 44     | turboyy                   | 26        |
-| 47     | streamelements            | 22        |
-| 48     | magicbluesword            | 21        |
-| 48     | pspisafemboy              | 21        |
-| 48     | rottarded                 | 21        |
-| 51     | mrsmalvic                 | 20        |
-| 51     | nightbot                  | 20        |
-| 51     | xyqra                     | 20        |
+| Rank  | Player                    | Fish seen |
+|:------|:--------------------------|:----------|
+| 1 🥇  | eeziiii                   | 115       |
+| 2 🥈  | theevirus                 | 112 (+1)  |
+| 3 🥉  | iflya320                  | 110       |
+| 4     | bubinga                   | 107       |
+| 4 ⬆   | lobuhtomy                 | 107 (+1)  |
+| 6     | huuuuuuuuuuuuuuuuuuuuuurz | 96        |
+| 6 ⬆   | nndiana*                  | 96 (+2)   |
+| 8 ⬇   | ranctious                 | 95        |
+| 8 ⬇   | wowitsdub                 | 95        |
+| 10    | gorillapark               | 87        |
+| 11    | veny2lbs                  | 82        |
+| 12 ⬆  | feelsaceman               | 64 (+4)   |
+| 13 ⬇  | caprisen_*                | 62        |
+| 13 ⬇  | mazzo_tv                  | 62        |
+| 13 ⬇  | rancbot                   | 62        |
+| 16    | commanda_u                | 58        |
+| 16    | supibot                   | 58        |
+| 18    | bcarw                     | 55        |
+| 19    | bluberry                  | 54        |
+| 20    | blu_inx                   | 53        |
+| 21    | flovrek                   | 52        |
+| 22    | ocrw                      | 49        |
+| 22    | sandwichsundays*          | 49        |
+| 22    | thetaxmen                 | 49        |
+| 25    | ewpert1                   | 48        |
+| 26    | flvx_flux*                | 45        |
+| 27    | teddbearcs                | 44        |
+| 28    | glorianeq                 | 43        |
+| 29    | jr_mime                   | 40        |
+| 30    | benciee                   | 39        |
+| 30    | poons_sssssssssssssssssss | 39        |
+| 32 ⬆  | r3kko_                    | 36 (+2)   |
+| 33 ⬇  | zwockel01                 | 35        |
+| 34 ⬇  | wuh6                      | 34        |
+| 35    | ratot                     | 33        |
+| 36    | araqs                     | 29        |
+| 36    | ceriise__                 | 29        |
+| 36    | flunke_                   | 29        |
+| 39    | onarrrrrrrr               | 28        |
+| 39    | paju1g                    | 28        |
+| 39    | wadupcaprise              | 28        |
+| 39    | yvhsu                     | 28        |
+| 43    | funnywhitecat6*           | 27        |
+| 44    | bcarbot                   | 26        |
+| 44    | drecklo                   | 26        |
+| 44    | turboyy                   | 26        |
+| 47    | streamelements            | 22        |
+| 48    | magicbluesword            | 21        |
+| 48    | pspisafemboy              | 21        |
+| 48    | rottarded                 | 21        |
+| 51    | mrsmalvic                 | 20        |
+| 51    | nightbot                  | 20        |
+| 51    | xyqra                     | 20        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-07-05 09:04:35 UTC_
+_Last updated at 2026-07-19 08:33:12 UTC_

@@ -65,13 +65,13 @@
 | 61    | hansworthelias            | 🦕 sauropod  | 221.23         | 2024-10-18 08:54:02 |
 | 62    | death_nd_decay            | 🐳 bluewhale | 219.76         | 2024-02-24 12:26:34 |
 | 63    | mitgliederversammlung     | 🦕 sauropod  | 219.52         | 2024-11-08 15:07:01 |
-| 64    | lazuli672*                | 🦈 shark     | 215.97         | 2023-07-09 23:11:02 |
-| 65    | realtechnine              | 🦕 sauropod  | 214.11         | 2023-02-14 20:12:23 |
-| 66    | divra__                   | 🐳 bluewhale | 213.23         | 2024-04-16 16:17:28 |
-| 67    | ommcyrene                 | 🦈 shark     | 213.16 (+3.55) | 2026-07-07 02:22:04 |
+| 64 ⬆  | ommcyrene                 | 🦕 sauropod  | 217.98 (+4.82) | 2026-07-18 16:19:57 |
+| 65 ⬇  | lazuli672*                | 🦈 shark     | 215.97         | 2023-07-09 23:11:02 |
+| 66 ⬇  | realtechnine              | 🦕 sauropod  | 214.11         | 2023-02-14 20:12:23 |
+| 67 ⬇  | divra__                   | 🐳 bluewhale | 213.23         | 2024-04-16 16:17:28 |
 | 68    | basedredactedgang*        | 🐉 dragon    | 207.18         | 2023-06-05 03:16:42 |
 | 69    | veggesh                   | 🦈 shark     | 206.22         | 2024-02-25 22:40:19 |
 
 _Only showing fish weighing >= 200 lbs_
 
-_Last updated at 2026-07-12 12:55:55 UTC_
+_Last updated at 2026-07-19 08:33:11 UTC_
