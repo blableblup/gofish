@@ -97,7 +97,7 @@
 		"rank": 19
 	},
 	"cannedfood": {
-		"player": "eqcit",
+		"player": "d1ifforr",
 		"playerid": 3596,
 		"weight": 1.12,
 		"bot": "gofishgame",
@@ -127,16 +127,16 @@
 	"cockroach": {
 		"player": "besceny",
 		"playerid": 6912,
-		"weight": 11.29,
+		"weight": 15.54,
 		"bot": "gofishgame",
 		"fishtype": "🪳",
 		"fishname": "cockroach",
 		"catchtype": "normal",
 		"chat": "e1llas",
-		"fishid": 266148,
-		"chatid": 529,
-		"date": "2026-06-05T14:42:40Z",
-		"rank": 50
+		"fishid": 278020,
+		"chatid": 543,
+		"date": "2026-07-22T05:59:40Z",
+		"rank": 61
 	},
 	"coral": {
 		"player": "besceny",
@@ -150,7 +150,7 @@
 		"fishid": 271294,
 		"chatid": 531,
 		"date": "2026-06-27T06:45:10Z",
-		"rank": 52
+		"rank": 51
 	},
 	"crab": {
 		"player": "besceny",
@@ -164,7 +164,7 @@
 		"fishid": 273398,
 		"chatid": 534,
 		"date": "2026-07-04T16:40:02Z",
-		"rank": 55
+		"rank": 54
 	},
 	"crocodile": {
 		"player": "gofishgamer",
@@ -234,10 +234,10 @@
 		"fishid": 272982,
 		"chatid": 533,
 		"date": "2026-07-03T09:47:52Z",
-		"rank": 54
+		"rank": 53
 	},
 	"feather": {
-		"player": "eqcit",
+		"player": "d1ifforr",
 		"playerid": 3596,
 		"weight": 0.48,
 		"bot": "gofishgame",
@@ -262,7 +262,7 @@
 		"fishid": 274191,
 		"chatid": 535,
 		"date": "2026-07-07T09:59:24Z",
-		"rank": 56
+		"rank": 55
 	},
 	"frog": {
 		"player": "elisworm",
@@ -321,7 +321,7 @@
 		"rank": 43
 	},
 	"icecube": {
-		"player": "eqcit",
+		"player": "d1ifforr",
 		"playerid": 3596,
 		"weight": 3.47,
 		"bot": "gofishgame",
@@ -402,7 +402,7 @@
 		"fishid": 274225,
 		"chatid": 536,
 		"date": "2026-07-07T13:55:24Z",
-		"rank": 57
+		"rank": 56
 	},
 	"lure": {
 		"player": "besceny",
@@ -458,7 +458,7 @@
 		"fishid": 267359,
 		"chatid": 530,
 		"date": "2026-06-12T14:49:49Z",
-		"rank": 51
+		"rank": 50
 	},
 	"plankton": {
 		"player": "elisworm",
@@ -584,7 +584,7 @@
 		"fishid": 275264,
 		"chatid": 539,
 		"date": "2026-07-12T10:11:57Z",
-		"rank": 58
+		"rank": 57
 	},
 	"shrimp": {
 		"player": "besceny",
@@ -612,7 +612,7 @@
 		"fishid": 276730,
 		"chatid": 541,
 		"date": "2026-07-18T08:01:15Z",
-		"rank": 60
+		"rank": 59
 	},
 	"slotmachine": {
 		"player": "gofishgamer",
@@ -653,7 +653,7 @@
 		"fishid": 272671,
 		"chatid": 532,
 		"date": "2026-07-02T05:16:19Z",
-		"rank": 53
+		"rank": 52
 	},
 	"socks": {
 		"player": "gofishgamer",
@@ -681,7 +681,7 @@
 		"fishid": 275293,
 		"chatid": 540,
 		"date": "2026-07-12T12:19:21Z",
-		"rank": 59
+		"rank": 58
 	},
 	"sponge": {
 		"player": "mersufy",
@@ -725,8 +725,22 @@
 		"date": "2025-07-23T17:42:30Z",
 		"rank": 16
 	},
+	"sunscreenbottle": {
+		"player": "besceny",
+		"playerid": 6912,
+		"weight": 8.24,
+		"bot": "gofishgame",
+		"fishtype": "🧴",
+		"fishname": "sunscreenbottle",
+		"catchtype": "normal",
+		"chat": "e1llas",
+		"fishid": 277185,
+		"chatid": 542,
+		"date": "2026-07-20T10:55:00Z",
+		"rank": 60
+	},
 	"thongsandal": {
-		"player": "eqcit",
+		"player": "d1ifforr",
 		"playerid": 3596,
 		"weight": 1.46,
 		"bot": "gofishgame",

@@ -2,14 +2,14 @@
 
 | Rank  | Player                 | Fish caught |
 |:------|:-----------------------|:------------|
-| 1 🥇  | jeffbethyname69        | 232         |
+| 1 🥇  | jeffbethyname69        | 233 (+1)    |
 | 2 🥈  | dolp_fin               | 198         |
-| 3 🥉  | amatusz                | 193 (+4)    |
+| 3 🥉  | amatusz                | 196 (+3)    |
 | 4     | boogie_310             | 155         |
 | 5     | aaurie                 | 122         |
 | 6     | allspice_boatrace      | 73          |
 | 7     | gofishgamer            | 71          |
-| 8     | guy_farting420         | 67 (+2)     |
+| 8     | guy_farting420         | 67          |
 | 9     | abelito75              | 62          |
 | 10    | victorvondoom313       | 48          |
 | 11    | slimdoggiedog          | 42          |
@@ -21,7 +21,7 @@
 | 17    | preemalone             | 34          |
 | 18    | dwaynepounder          | 28          |
 | 19    | brody5020              | 25          |
-| 19 ⬆  | honeytonguedbee        | 25 (+1)     |
+| 19    | honeytonguedbee        | 25          |
 | 21    | miaumestar             | 22          |
 | 22    | eldiabloskillet        | 21          |
 | 22    | onetriforce            | 21          |
@@ -40,4 +40,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-07-19 08:33:14 UTC_
+_Last updated at 2026-07-26 09:21:04 UTC_

@@ -13,8 +13,8 @@
 | 9     | diloindys*       | 22        |
 | 10    | wiazuh           | 18        |
 | 11    | focfee           | 17        |
-| 12    | dagsai           | 15 (+1)   |
-| 13 ⬇  | miaquiet         | 14        |
+| 12    | dagsai_di        | 15        |
+| 13    | miaquiet         | 14        |
 | 14    | offwhiteairforc3 | 13        |
 | 15    | k1lk4_           | 12        |
 | 16    | ewwwedd          | 11        |
@@ -25,4 +25,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2026-07-12 12:55:57 UTC_
+_Last updated at 2026-07-26 09:23:05 UTC_

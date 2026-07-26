@@ -52,32 +52,32 @@
 | 48    | 🕶️ darksunglasses  | 7.20          | boogie_310        | 2025-08-04 02:26:26 |
 | 49    | 🩲 briefs          | 7.07          | jeffbethyname69   | 2025-08-04 01:47:45 |
 | 50    | 🧸 teddybear       | 6.20          | aaurie            | 2025-03-10 00:33:21 |
-| 51 🆕 | 🧴 sunscreenbottle | 6.17          | jeffbethyname69   | 2026-07-06 06:03:58 |
-| 52 ⬇  | 👒 hat             | 5.69          | amatusz           | 2025-07-07 03:54:58 |
-| 53 ⬇  | 🎏 lure            | 4.89          | amatusz           | 2026-01-03 07:20:24 |
-| 54 ⬇  | 🪝 hook            | 3.97          | gofishgamer       | 2025-11-19 05:50:35 |
-| 55 ⬇  | 🐚 shell           | 3.93          | jimmybooger       | 2025-08-12 01:35:25 |
-| 56 ⬇  | 🪀 bobber          | 3.28          | aaurie            | 2025-03-15 09:26:37 |
-| 57 ⬇  | ☘️ clover          | 3.14          | aaurie            | 2025-06-24 05:07:24 |
-| 58 ⬇  | ☂️ umbrella        | 2.97          | jimmybooger       | 2025-08-02 01:10:31 |
-| 59 ⬇  | 🌰 acorn           | 2.78          | aaurie            | 2025-11-07 08:33:28 |
-| 60 ⬇  | 🎱 8ball           | 2.72          | slimdoggiedog     | 2025-03-15 00:25:09 |
-| 61 ⬇  | 🌷 tulip           | 2.63          | slimdoggiedog     | 2025-03-15 09:26:32 |
-| 62 ⬇  | 🧵 wireline        | 2.54          | slimdoggiedog     | 2025-03-14 22:20:30 |
-| 63 ⬇  | 🌻 sunflower       | 2.35          | aaurie            | 2025-08-09 01:41:23 |
-| 64 ⬇  | 🎃 pumpkin         | 2.12          | gofishgamer       | 2025-11-26 07:36:18 |
-| 65 ⬇  | 👢 boot            | 1.99          | allspice_boatrace | 2025-03-11 03:04:55 |
-| 65 ⬇  | 🧦 socks           | 1.99          | 2_dark_davo       | 2025-06-20 02:41:32 |
-| 67 ⬇  | 🥪 sandwich        | 1.93          | dolp_fin          | 2025-04-28 03:19:54 |
-| 68 ⬇  | 🥫 cannedfood      | 1.70          | gofishgamer       | 2025-11-20 06:06:44 |
-| 69 ⬇  | 🩴 thongsandal     | 1.69          | blackberryking00  | 2025-08-25 03:04:17 |
-| 70 ⬇  | 🌹 rose            | 1.00          | aaurie            | 2025-11-11 03:51:10 |
-| 71 ⬇  | 🌿 seaweed         | 0.96          | jeffbethyname69   | 2025-05-04 01:37:21 |
-| 72 ⬇  | 🪶 feather         | 0.88          | allspice_boatrace | 2025-11-22 05:30:19 |
-| 73 ⬇  | 🍁 leaf            | 0.82          | mademooselle      | 2025-10-06 07:00:34 |
-| 74 ⬇  | 🧤 gloves          | 0.63          | herbemoji         | 2025-03-11 00:55:22 |
-| 75 ⬇  | 🩰 balletshoes     | 0.38          | victorvondoom313  | 2025-04-28 01:54:30 |
+| 51    | 🧴 sunscreenbottle | 6.17          | jeffbethyname69   | 2026-07-06 06:03:58 |
+| 52    | 👒 hat             | 5.69          | amatusz           | 2025-07-07 03:54:58 |
+| 53    | 🎏 lure            | 4.89          | amatusz           | 2026-01-03 07:20:24 |
+| 54    | 🪝 hook            | 3.97          | gofishgamer       | 2025-11-19 05:50:35 |
+| 55    | 🐚 shell           | 3.93          | jimmybooger       | 2025-08-12 01:35:25 |
+| 56    | 🪀 bobber          | 3.28          | aaurie            | 2025-03-15 09:26:37 |
+| 57    | ☘️ clover          | 3.14          | aaurie            | 2025-06-24 05:07:24 |
+| 58    | ☂️ umbrella        | 2.97          | jimmybooger       | 2025-08-02 01:10:31 |
+| 59    | 🌰 acorn           | 2.78          | aaurie            | 2025-11-07 08:33:28 |
+| 60    | 🎱 8ball           | 2.72          | slimdoggiedog     | 2025-03-15 00:25:09 |
+| 61    | 🌷 tulip           | 2.63          | slimdoggiedog     | 2025-03-15 09:26:32 |
+| 62    | 🧵 wireline        | 2.54          | slimdoggiedog     | 2025-03-14 22:20:30 |
+| 63    | 🌻 sunflower       | 2.35          | aaurie            | 2025-08-09 01:41:23 |
+| 64    | 🎃 pumpkin         | 2.12          | gofishgamer       | 2025-11-26 07:36:18 |
+| 65    | 👢 boot            | 1.99          | allspice_boatrace | 2025-03-11 03:04:55 |
+| 65    | 🧦 socks           | 1.99          | 2_dark_davo       | 2025-06-20 02:41:32 |
+| 67    | 🥪 sandwich        | 1.93          | dolp_fin          | 2025-04-28 03:19:54 |
+| 68    | 🥫 cannedfood      | 1.70          | gofishgamer       | 2025-11-20 06:06:44 |
+| 68 ⬆  | 🩴 thongsandal     | 1.70 (+0.01)  | jarble_           | 2026-07-25 03:26:13 |
+| 70    | 🌹 rose            | 1.00          | aaurie            | 2025-11-11 03:51:10 |
+| 71    | 🌿 seaweed         | 0.96          | jeffbethyname69   | 2025-05-04 01:37:21 |
+| 72    | 🪶 feather         | 0.88          | allspice_boatrace | 2025-11-22 05:30:19 |
+| 73    | 🍁 leaf            | 0.82          | mademooselle      | 2025-10-06 07:00:34 |
+| 74    | 🧤 gloves          | 0.63          | herbemoji         | 2025-03-11 00:55:22 |
+| 75    | 🩰 balletshoes     | 0.38          | victorvondoom313  | 2025-04-28 01:54:30 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-07-12 12:55:05 UTC_
+_Last updated at 2026-07-26 09:23:43 UTC_

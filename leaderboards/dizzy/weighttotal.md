@@ -13,7 +13,7 @@
 | 9     | ofaisalz       | 5778.34             |
 | 10    | vagdy          | 5318.19             |
 | 11    | notnownico     | 4425.01             |
-| 12    | hamoodhabibee  | 4277.06 (+8.56)     |
+| 12    | hamoodhabibee  | 4278.78 (+1.72)     |
 | 13    | mousee93       | 4037.14             |
 | 14    | rabituwu       | 3852.81             |
 | 15    | simplydrack    | 3834.86             |
@@ -40,7 +40,7 @@
 | 36    | feuha          | 1095.98             |
 | 37    | youngstercal   | 1071.10             |
 | 38    | mitsu_skidz    | 1016.10             |
-| 39    | rusina         | 1004.92             |
+| 39    | ruusui         | 1004.92             |
 | 40    | gofishgamer    | 948.82              |
 | 41    | fvkdylan       | 829.41              |
 | 42    | deadl3gs       | 797.56              |
@@ -58,4 +58,4 @@
 
 _Only showing fishers with a total weight of >= 500 lbs_
 
-_Last updated at 2026-07-19 08:33:09 UTC_
+_Last updated at 2026-07-26 09:23:03 UTC_

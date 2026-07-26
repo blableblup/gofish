@@ -13,7 +13,7 @@
 | 9     | cptblack_           | 1819.89             |
 | 10    | crunch_sack         | 1206.90             |
 | 11    | e1d2f3              | 973.52              |
-| 12    | wombatbrownies      | 517.71 (+8.60)      |
+| 12    | wombatbrownies      | 517.71              |
 | 13    | elisworm            | 427.64              |
 | 14    | yaykaiza            | 386.74              |
 | 15    | respirate_          | 332.66              |
@@ -27,4 +27,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-07-19 08:33:09 UTC_
+_Last updated at 2026-07-26 09:23:03 UTC_

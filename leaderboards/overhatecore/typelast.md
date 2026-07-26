@@ -2,42 +2,42 @@
 
 | Rank | Fish              | Weight in lbs | Player           | Date in UTC         |
 |:-----|:------------------|:--------------|:-----------------|:--------------------|
-| 59   | 🐙 octopus        | 27.75         | dan1lew          | 2026-07-14 17:21:52 |
-| 58   | 🎏 lure           | 0.48          | asdiasei         | 2026-07-12 22:35:10 |
-| 57   | 🐚 shell          | 1.36          | dan1lew          | 2026-07-09 07:11:54 |
-| 56   | 🪝 hook           | 1.20          | dagsai           | 2026-07-06 10:19:29 |
-| 55   | 🐳 bluewhale      | 33.56         | overhatecore     | 2026-07-06 09:32:35 |
-| 54   | 🐟 fish           | 9.47          | dagsai           | 2026-07-05 22:10:24 |
-| 53   | 🌿 seaweed        | 0.26          | dagsai           | 2026-07-05 19:42:00 |
-| 52   | 🐡 blowfish       | 25.55         | overhatecore     | 2026-07-05 12:51:45 |
-| 51   | 🦞 lobster        | 45.84         | diloindys        | 2026-07-04 11:20:58 |
-| 50   | 🐠 tropicalfish   | 10.71         | dagsai           | 2026-07-04 08:11:52 |
-| 49   | 🦐 shrimp         | 9.19          | diloindys        | 2026-07-03 15:07:59 |
-| 48   | 🐸 frog           | 0.33          | overhatecore     | 2026-07-02 21:25:26 |
-| 47   | 🐢 turtle         | 187.44        | overhatecore     | 2026-07-01 09:14:35 |
-| 46   | 🦑 squid          | 80.10         | dan1lew          | 2026-06-30 19:41:03 |
-| 45   | 🐬 dolphin        | 65.88         | diloindys        | 2026-06-30 14:35:55 |
-| 44   | 💀 skull          | 8.36          | overhatecore     | 2026-06-28 12:46:39 |
-| 43   | 🧃 beveragebox    | 4.41          | overhatecore     | 2026-06-27 09:39:05 |
-| 42   | 🐋 whale          | 125.32        | dagsai           | 2026-06-24 07:21:55 |
-| 41   | 🗡️ dagger         | 3.14          | dagsai           | 2026-06-23 11:42:56 |
-| 40   | 🐍 snake          | 10.12         | dagsai           | 2026-06-21 22:16:10 |
-| 39   | 🦀 crab           | 1.85          | dagsai           | 2026-06-21 11:14:16 |
-| 38   | 🐊 crocodile      | 139.73        | dagsai           | 2026-06-20 19:51:22 |
-| 37   | 🪳 cockroach      | 6.86          | overhatecore     | 2026-06-20 18:15:20 |
-| 36   | 🪨 rock           | 43.71         | sidneya_         | 2026-06-18 23:25:29 |
-| 35   | 🪸 coral          | 20.35         | offwhiteairforc3 | 2024-09-22 13:59:31 |
-| 34   | 🧦 socks          | 0.15          | ewwwedd          | 2024-09-21 17:32:26 |
-| 33   | 🦕 sauropod       | 208.67        | sgv4bl           | 2024-09-21 17:01:13 |
-| 32   | 🐉 dragon         | 172.37        | sidneya_         | 2024-09-21 16:30:24 |
-| 31   | 🩰 balletshoes    | 0.59          | overhatecore     | 2024-09-21 16:29:49 |
-| 30   | 🕷️ spider         | 9.22          | wenlygga         | 2024-09-20 13:38:24 |
-| 29   | 🥪 sandwich       | 0.98          | wiazuh           | 2024-09-17 13:42:15 |
-| 28   | 🦈 shark          | 166.34        | wizzyy6          | 2024-09-17 11:02:52 |
-| 27   | 🩴 thongsandal    | 0.37          | pelme44ka        | 2024-09-16 19:18:45 |
-| 26   | 🪼 jellyfish      | 13.37         | dan1lew          | 2024-09-15 19:31:49 |
-| 25   | 🦪 oyster         | 21.97         | offwhiteairforc3 | 2024-09-13 08:56:46 |
-| 24   | 🥒 seacucumber    | 12.90         | sgv4bl           | 2024-09-11 19:17:54 |
+| 59   | 🐚 shell          | 0.88          | dagsai_di        | 2026-07-23 23:45:12 |
+| 58   | 🥒 seacucumber    | 26.66         | overhatecore     | 2026-07-23 21:04:31 |
+| 57   | 🪼 jellyfish      | 6.85          | dan1lew          | 2026-07-21 14:56:41 |
+| 56   | 🐙 octopus        | 27.75         | dan1lew          | 2026-07-14 17:21:52 |
+| 55   | 🎏 lure           | 0.48          | asdiasei         | 2026-07-12 22:35:10 |
+| 54   | 🪝 hook           | 1.20          | dagsai_di        | 2026-07-06 10:19:29 |
+| 53   | 🐳 bluewhale      | 33.56         | overhatecore     | 2026-07-06 09:32:35 |
+| 52   | 🐟 fish           | 9.47          | dagsai_di        | 2026-07-05 22:10:24 |
+| 51   | 🌿 seaweed        | 0.26          | dagsai_di        | 2026-07-05 19:42:00 |
+| 50   | 🐡 blowfish       | 25.55         | overhatecore     | 2026-07-05 12:51:45 |
+| 49   | 🦞 lobster        | 45.84         | diloindys        | 2026-07-04 11:20:58 |
+| 48   | 🐠 tropicalfish   | 10.71         | dagsai_di        | 2026-07-04 08:11:52 |
+| 47   | 🦐 shrimp         | 9.19          | diloindys        | 2026-07-03 15:07:59 |
+| 46   | 🐸 frog           | 0.33          | overhatecore     | 2026-07-02 21:25:26 |
+| 45   | 🐢 turtle         | 187.44        | overhatecore     | 2026-07-01 09:14:35 |
+| 44   | 🦑 squid          | 80.10         | dan1lew          | 2026-06-30 19:41:03 |
+| 43   | 🐬 dolphin        | 65.88         | diloindys        | 2026-06-30 14:35:55 |
+| 42   | 💀 skull          | 8.36          | overhatecore     | 2026-06-28 12:46:39 |
+| 41   | 🧃 beveragebox    | 4.41          | overhatecore     | 2026-06-27 09:39:05 |
+| 40   | 🐋 whale          | 125.32        | dagsai_di        | 2026-06-24 07:21:55 |
+| 39   | 🗡️ dagger         | 3.14          | dagsai_di        | 2026-06-23 11:42:56 |
+| 38   | 🐍 snake          | 10.12         | dagsai_di        | 2026-06-21 22:16:10 |
+| 37   | 🦀 crab           | 1.85          | dagsai_di        | 2026-06-21 11:14:16 |
+| 36   | 🐊 crocodile      | 139.73        | dagsai_di        | 2026-06-20 19:51:22 |
+| 35   | 🪳 cockroach      | 6.86          | overhatecore     | 2026-06-20 18:15:20 |
+| 34   | 🪨 rock           | 43.71         | sidneya_         | 2026-06-18 23:25:29 |
+| 33   | 🪸 coral          | 20.35         | offwhiteairforc3 | 2024-09-22 13:59:31 |
+| 32   | 🧦 socks          | 0.15          | ewwwedd          | 2024-09-21 17:32:26 |
+| 31   | 🦕 sauropod       | 208.67        | sgv4bl           | 2024-09-21 17:01:13 |
+| 30   | 🐉 dragon         | 172.37        | sidneya_         | 2024-09-21 16:30:24 |
+| 29   | 🩰 balletshoes    | 0.59          | overhatecore     | 2024-09-21 16:29:49 |
+| 28   | 🕷️ spider         | 9.22          | wenlygga         | 2024-09-20 13:38:24 |
+| 27   | 🥪 sandwich       | 0.98          | wiazuh           | 2024-09-17 13:42:15 |
+| 26   | 🦈 shark          | 166.34        | wizzyy6          | 2024-09-17 11:02:52 |
+| 25   | 🩴 thongsandal    | 0.37          | pelme44ka        | 2024-09-16 19:18:45 |
+| 24   | 🦪 oyster         | 21.97         | offwhiteairforc3 | 2024-09-13 08:56:46 |
 | 23   | 🧽 sponge         | 2.12          | overhatecore     | 2024-08-29 19:09:44 |
 | 22   | 🐌 snail          | 4.75          | overhatecore     | 2024-08-23 15:30:01 |
 | 21   | 🩲 briefs         | 8.83          | sgv4bl           | 2024-08-20 13:44:36 |
@@ -62,4 +62,4 @@
 | 2    | 👑 crown          | 1.16          | alenakuz03       | 2023-10-19 10:36:49 |
 | 1    | 🧟 deadbody       | 109.08        | overhatecore     | 2023-10-13 17:00:56 |
 
-_Last updated at 2026-07-19 08:29:14 UTC_
+_Last updated at 2026-07-26 09:21:06 UTC_

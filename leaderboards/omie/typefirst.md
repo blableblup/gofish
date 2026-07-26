@@ -2,6 +2,7 @@
 
 | Rank | Fish               | Weight in lbs | Player       | Date in UTC         |
 |:-----|:-------------------|:--------------|:-------------|:--------------------|
+| 121  | 🦋 butterfly       | 0.22          | mangos4u     | 2026-07-20 21:10:21 |
 | 120  | 🦉 owl             | 2.43          | mangos4u     | 2026-06-26 19:21:21 |
 | 119  | 🍇 crowberries     | 0.37          | blu_inx      | 2026-06-23 17:07:59 |
 | 118  | ✉️ letter          | 0.00          | mangos4u     | 2025-12-18 03:06:20 |
@@ -123,4 +124,4 @@
 | 2    | 🐡 blowfish        | 15.39         | ritaaww      | 2024-08-03 21:47:08 |
 | 1    | 🦞 lobster         | 28.99         | aliveleader  | 2024-08-03 21:45:17 |
 
-_Last updated at 2026-06-28 08:44:38 UTC_
+_Last updated at 2026-07-26 09:21:08 UTC_

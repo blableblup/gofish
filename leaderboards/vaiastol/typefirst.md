@@ -2,6 +2,7 @@
 
 | Rank | Fish               | Weight in lbs | Player                | Date in UTC         |
 |:-----|:-------------------|:--------------|:----------------------|:--------------------|
+| 122  | 🦋 butterfly       | 0.34          | divra__               | 2026-07-20 23:56:23 |
 | 121  | 🧴 sunscreenbottle | 10.89         | thespecialone22       | 2026-07-16 06:05:08 |
 | 120  | 🐞 ladybug         | 0.14          | proswift              | 2026-07-12 20:10:40 |
 | 119  | 🐜 ant             | 0.78          | notsatan13            | 2026-07-09 22:04:31 |
@@ -42,8 +43,8 @@
 | 84   | 🐻‍❄️ polarbear       | 24.33         | julialuxel            | 2024-12-26 01:45:22 |
 | 83   | 🐧 penguin         | 18.81         | pengeg                | 2024-12-25 04:04:34 |
 | 82   | 🧭 compass         | 12.25         | vaiastol              | 2024-12-25 03:46:12 |
-| 80   | 🎀 wrappingpaper   | 0.00          | vaiastol              | 2024-12-24 10:30:51 |
 | 80   | 🍪 cookie          | 0.00          | vaiastol              | 2024-12-24 10:30:51 |
+| 80   | 🎀 wrappingpaper   | 0.00          | vaiastol              | 2024-12-24 10:30:51 |
 | 79   | 🎁 present         | 0.00          | vaiastol              | 2024-12-24 10:30:29 |
 | 78   | ⛸️ iceskate        | 0.80          | pengeg                | 2024-12-24 03:21:39 |
 | 77   | 🔔 bell            | 0.00          | vaiastol              | 2024-12-22 18:29:48 |
@@ -124,4 +125,4 @@
 | 2    | 🦀 crab            | 2.81          | jr_mime               | 2024-07-28 10:52:00 |
 | 1    | 🐸 frog            | 1.70          | mitgliederversammlung | 2024-07-28 00:20:07 |
 
-_Last updated at 2026-07-19 08:29:15 UTC_
+_Last updated at 2026-07-26 09:21:07 UTC_

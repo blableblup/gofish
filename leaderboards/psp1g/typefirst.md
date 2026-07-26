@@ -2,6 +2,8 @@
 
 | Rank | Fish               | Weight in lbs | Player                    | Date in UTC         |
 |:-----|:-------------------|:--------------|:--------------------------|:--------------------|
+| 127  | 🪲 beetle          | 1.33          | sillyfellow32             | 2026-07-24 01:23:54 |
+| 126  | 🦋 butterfly       | 0.14          | blu_inx                   | 2026-07-20 19:53:40 |
 | 125  | 🐝 bee             | 0.09          | llikotesnecil             | 2026-07-15 05:22:34 |
 | 124  | 🦴 bone            | 9.31          | feelsaceman               | 2026-07-14 18:59:43 |
 | 123  | 🐞 ladybug         | 0.18          | feelsaceman               | 2026-07-06 19:08:28 |
@@ -128,4 +130,4 @@
 | 2    | 🦞 lobster         | 36.18         | psp1g                     | 2023-08-21 01:23:40 |
 | 1    | 🐟 fish            | 13.12         | dazedforevermore          | 2023-08-21 01:11:17 |
 
-_Last updated at 2026-07-19 08:29:15 UTC_
+_Last updated at 2026-07-26 09:21:07 UTC_

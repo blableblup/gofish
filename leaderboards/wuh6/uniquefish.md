@@ -2,21 +2,21 @@
 
 | Rank  | Player                    | Fish seen |
 |:------|:--------------------------|:----------|
-| 1 🥇  | eeziiii                   | 115       |
-| 2 🥈  | theevirus                 | 112 (+1)  |
-| 3 🥉  | iflya320                  | 110       |
-| 4     | bubinga                   | 107       |
-| 4 ⬆   | lobuhtomy                 | 107 (+1)  |
-| 6     | huuuuuuuuuuuuuuuuuuuuuurz | 96        |
-| 6 ⬆   | nndiana*                  | 96 (+2)   |
-| 8 ⬇   | ranctious                 | 95        |
-| 8 ⬇   | wowitsdub                 | 95        |
-| 10    | gorillapark               | 87        |
+| 1 🥇  | eeziiii                   | 116 (+1)  |
+| 2 🥈  | theevirus                 | 113 (+1)  |
+| 3 🥉  | iflya320                  | 111 (+1)  |
+| 4     | bubinga                   | 110 (+3)  |
+| 5 ⬇   | lobuhtomy                 | 109 (+2)  |
+| 6 ⬆   | ranctious                 | 104 (+9)  |
+| 7 ⬇   | nndiana*                  | 100 (+4)  |
+| 8 ⬇   | huuuuuuuuuuuuuuuuuuuuuurz | 96        |
+| 9 ⬇   | wowitsdub                 | 95        |
+| 10    | gorillapark               | 90 (+3)   |
 | 11    | veny2lbs                  | 82        |
-| 12 ⬆  | feelsaceman               | 64 (+4)   |
-| 13 ⬇  | caprisen_*                | 62        |
-| 13 ⬇  | mazzo_tv                  | 62        |
-| 13 ⬇  | rancbot                   | 62        |
+| 12    | feelsaceman               | 68 (+4)   |
+| 13    | rancbot                   | 65 (+3)   |
+| 14 ⬇  | caprisen_*                | 62        |
+| 14 ⬇  | mazzo_tv                  | 62        |
 | 16    | commanda_u                | 58        |
 | 16    | supibot                   | 58        |
 | 18    | bcarw                     | 55        |
@@ -30,12 +30,12 @@
 | 26    | flvx_flux*                | 45        |
 | 27    | teddbearcs                | 44        |
 | 28    | glorianeq                 | 43        |
-| 29    | jr_mime                   | 40        |
-| 30    | benciee                   | 39        |
-| 30    | poons_sssssssssssssssssss | 39        |
-| 32 ⬆  | r3kko_                    | 36 (+2)   |
-| 33 ⬇  | zwockel01                 | 35        |
-| 34 ⬇  | wuh6                      | 34        |
+| 29 ⬆  | r3kko_                    | 42 (+6)   |
+| 30 ⬇  | jr_mime                   | 40        |
+| 31 ⬇  | benciee                   | 39        |
+| 31 ⬇  | poons_u                   | 39        |
+| 33    | zwockel01                 | 35        |
+| 34    | wuh6                      | 34        |
 | 35    | ratot                     | 33        |
 | 36    | araqs                     | 29        |
 | 36    | ceriise__                 | 29        |
@@ -60,4 +60,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-07-19 08:33:12 UTC_
+_Last updated at 2026-07-26 09:23:05 UTC_

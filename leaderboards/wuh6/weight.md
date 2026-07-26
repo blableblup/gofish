@@ -5,11 +5,11 @@
 | 1 🥇  | eeziiii                   | 🦑 squid     | 311.04          | 2024-12-25 06:20:38 |
 | 2 🥈  | theevirus                 | 🦑 squid     | 310.88          | 2025-01-12 16:16:12 |
 | 3 🥉  | ranctious                 | 🐳 bluewhale | 303.43          | 2026-01-28 22:32:30 |
-| 4 ⬆   | lobuhtomy                 | 🐳 bluewhale | 302.74 (+10.03) | 2026-07-17 17:07:32 |
-| 5 ⬇   | huuuuuuuuuuuuuuuuuuuuuurz | 🐳 bluewhale | 300.95          | 2025-10-13 05:18:31 |
-| 6 ⬇   | wowitsdub                 | 🐳 bluewhale | 299.57          | 2025-09-13 14:35:33 |
-| 7 ⬇   | iflya320                  | 🐳 bluewhale | 296.80          | 2025-08-19 10:45:00 |
-| 8 ⬇   | bubinga                   | 🐳 bluewhale | 295.52          | 2025-04-23 00:43:50 |
+| 4     | lobuhtomy                 | 🐳 bluewhale | 302.74          | 2026-07-17 17:07:32 |
+| 5     | huuuuuuuuuuuuuuuuuuuuuurz | 🐳 bluewhale | 300.95          | 2025-10-13 05:18:31 |
+| 6     | wowitsdub                 | 🐳 bluewhale | 299.57          | 2025-09-13 14:35:33 |
+| 7     | iflya320                  | 🐳 bluewhale | 296.80          | 2025-08-19 10:45:00 |
+| 8     | bubinga                   | 🐳 bluewhale | 295.52          | 2025-04-23 00:43:50 |
 | 9     | jr_mime                   | 🦕 sauropod  | 291.85          | 2025-07-13 14:28:59 |
 | 10    | nndiana                   | 🦑 squid     | 285.48          | 2024-12-28 02:37:19 |
 | 11    | rancbot                   | 🐳 bluewhale | 285.32          | 2026-01-15 11:26:55 |
@@ -29,17 +29,17 @@
 | 25    | kalechap                  | 🦕 sauropod  | 221.55          | 2024-12-31 19:41:50 |
 | 26    | ewpert1                   | 🐉 dragon    | 213.35          | 2025-08-08 17:45:24 |
 | 27    | flovrek                   | 🐳 bluewhale | 211.89          | 2025-01-27 17:07:07 |
-| 28    | llikotesnecil             | 🐳 bluewhale | 205.03          | 2024-12-28 05:45:39 |
-| 29    | supibot                   | 🐳 bluewhale | 202.28          | 2026-05-16 19:47:09 |
-| 30    | feelsaceman               | 🐳 bluewhale | 196.46          | 2025-09-30 17:14:04 |
-| 31    | xyqra                     | 🦈 shark     | 189.67          | 2026-06-22 16:26:05 |
-| 32    | thetaxmen                 | 🐳 bluewhale | 187.86          | 2025-01-03 16:38:34 |
-| 33    | flvx_flux                 | 🦈 shark     | 186.93          | 2025-08-16 10:33:45 |
-| 34    | rottarded                 | 🦑 squid     | 174.16          | 2025-12-22 19:13:06 |
-| 35    | benciee                   | 🐳 bluewhale | 173.02          | 2024-12-23 16:35:05 |
-| 36    | zwockel01                 | 🦑 squid     | 172.20          | 2024-12-29 20:27:30 |
-| 37    | glorianeq                 | 🐻‍❄️ polarbear | 165.17          | 2024-12-28 05:16:59 |
-| 38    | r3kko_                    | 🐢 turtle    | 155.14          | 2026-06-29 13:40:48 |
+| 28 ⬆  | r3kko_                    | 🦈 shark     | 208.58 (+53.44) | 2026-07-23 17:58:26 |
+| 29 ⬇  | llikotesnecil             | 🐳 bluewhale | 205.03          | 2024-12-28 05:45:39 |
+| 30 ⬇  | supibot                   | 🐳 bluewhale | 202.28          | 2026-05-16 19:47:09 |
+| 31 ⬇  | feelsaceman               | 🐳 bluewhale | 196.46          | 2025-09-30 17:14:04 |
+| 32 ⬇  | xyqra                     | 🦈 shark     | 189.67          | 2026-06-22 16:26:05 |
+| 33 ⬇  | thetaxmen                 | 🐳 bluewhale | 187.86          | 2025-01-03 16:38:34 |
+| 34 ⬇  | flvx_flux                 | 🦈 shark     | 186.93          | 2025-08-16 10:33:45 |
+| 35 ⬇  | rottarded                 | 🦑 squid     | 174.16          | 2025-12-22 19:13:06 |
+| 36 ⬇  | benciee                   | 🐳 bluewhale | 173.02          | 2024-12-23 16:35:05 |
+| 37 ⬇  | zwockel01                 | 🦑 squid     | 172.20          | 2024-12-29 20:27:30 |
+| 38 ⬇  | glorianeq                 | 🐻‍❄️ polarbear | 165.17          | 2024-12-28 05:16:59 |
 | 39    | araqs                     | 🦑 squid     | 150.01          | 2024-12-25 20:45:00 |
 | 40    | wadupcaprise              | 🐊 crocodile | 149.05          | 2025-03-25 18:51:00 |
 | 41    | funnywhitecat6            | 🦕 sauropod  | 142.23          | 2025-04-17 13:59:16 |
@@ -51,7 +51,7 @@
 | 47    | lluuucy                   | 🐊 crocodile | 126.41          | 2024-12-25 19:01:09 |
 | 48    | yvhsu                     | 🦪 oyster    | 125.63          | 2024-12-23 15:44:10 |
 | 49    | jesefs                    | 🐋 whale     | 125.31          | 2024-12-16 20:39:54 |
-| 50    | poons_sssssssssssssssssss | 🐋 whale     | 123.30          | 2026-03-30 19:53:37 |
+| 50    | poons_u                   | 🐋 whale     | 123.30          | 2026-03-30 19:53:37 |
 | 51    | onarrrrrrrr               | 🧟 deadbody  | 119.53          | 2024-12-15 18:50:39 |
 | 52    | turboyy                   | 🐊 crocodile | 118.45          | 2025-07-23 20:01:41 |
 | 53    | ratatas1g                 | 🐙 octopus   | 115.92          | 2025-02-16 21:47:45 |
@@ -73,17 +73,17 @@
 | 69    | bungercs                  | 🐬 dolphin   | 79.05           | 2024-12-16 03:46:47 |
 | 70    | streamelements            | 🐢 turtle    | 77.07           | 2026-05-02 10:45:08 |
 | 71    | bcarbot                   | 🐢 turtle    | 76.82           | 2026-01-05 15:02:04 |
-| 72 ⬆  | sillyfellow32             | 🐙 octopus   | 76.41 (+16.13)  | 2026-07-17 18:54:01 |
-| 73 ⬇  | adamery                   | 🦑 squid     | 73.15           | 2025-03-30 20:12:07 |
-| 74 ⬇  | ojack18                   | 🐋 whale     | 67.07           | 2025-05-18 16:26:59 |
-| 75 ⬇  | iflyb737                  | 🐢 turtle    | 65.65           | 2026-02-17 09:39:35 |
-| 76 ⬇  | kakireki                  | 🦭 seal      | 65.06           | 2024-12-15 15:01:09 |
-| 77 ⬇  | buh_official_             | 🐊 crocodile | 63.18           | 2026-05-03 16:10:16 |
-| 78 ⬇  | thetuh                    | 🦑 squid     | 62.96           | 2025-08-03 12:58:06 |
+| 72    | sillyfellow32             | 🐙 octopus   | 76.41           | 2026-07-17 18:54:01 |
+| 73    | adamery                   | 🦑 squid     | 73.15           | 2025-03-30 20:12:07 |
+| 74    | ojack18                   | 🐋 whale     | 67.07           | 2025-05-18 16:26:59 |
+| 75    | iflyb737                  | 🐢 turtle    | 65.65           | 2026-02-17 09:39:35 |
+| 76    | kakireki                  | 🦭 seal      | 65.06           | 2024-12-15 15:01:09 |
+| 77    | buh_official_             | 🐊 crocodile | 63.18           | 2026-05-03 16:10:16 |
+| 78    | thetuh                    | 🦑 squid     | 62.96           | 2025-08-03 12:58:06 |
 | 79    | finalmorningstar          | 🐙 octopus   | 55.13           | 2024-12-15 08:49:41 |
 | 80    | baerlings                 | 🦑 squid     | 53.94           | 2025-09-16 11:36:14 |
 | 81    | nightbot                  | 🐢 turtle    | 50.39           | 2025-11-12 10:27:43 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2026-07-19 08:33:12 UTC_
+_Last updated at 2026-07-26 09:23:02 UTC_

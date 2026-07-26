@@ -35,7 +35,7 @@
 | 31    | icejamx            | 30        |
 | 31    | respirate_         | 30        |
 | 33    | exit8like          | 27        |
-| 34    | rusina             | 26        |
+| 34    | ruusui             | 26        |
 | 35    | ahxle              | 24        |
 | 35    | buffyo             | 24        |
 | 35    | mitsu_skidz        | 24        |
@@ -56,4 +56,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-05-10 08:59:11 UTC_
+_Last updated at 2026-07-26 09:23:04 UTC_

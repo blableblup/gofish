@@ -14,7 +14,7 @@
 | 10    | notnownico     | 256         |
 | 11    | vagdy          | 254         |
 | 12    | rabituwu       | 243         |
-| 13    | hamoodhabibee  | 215 (+1)    |
+| 13    | hamoodhabibee  | 217 (+2)    |
 | 14    | simplydrack    | 183         |
 | 15    | ssenario       | 171         |
 | 16    | tairaaaaa      | 170         |
@@ -35,7 +35,7 @@
 | 31    | respirate_     | 63          |
 | 31    | whoop_ee       | 63          |
 | 33    | 777pancake     | 62          |
-| 34    | rusina         | 58          |
+| 34    | ruusui         | 58          |
 | 35    | buffyo         | 54          |
 | 36    | mitsu_skidz    | 50          |
 | 37    | popfizzgg      | 48          |
@@ -56,4 +56,4 @@
 
 _Only showing fishers who caught >= 30 fish_
 
-_Last updated at 2026-07-19 08:33:14 UTC_
+_Last updated at 2026-07-26 09:21:05 UTC_
