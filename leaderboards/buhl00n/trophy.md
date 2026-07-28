@@ -1,10 +1,10 @@
 ### Leaderboard for the weekly tournaments in buhl00n's chat
 
-| Rank  | Player         | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points      |
-|:------|:---------------|:------------|:-----------------|:-----------------|:------------|
-| 1 🥇  | buhl00n        | 12 (+1)     | 10 (+2)          | 5                | 48.5 (+5.0) |
-| 2 🥈  | vagdy          | 9           | 5                | 1                | 32.5        |
-| 3 🥉  | ofaisalz       | 0           | 3                | 3                | 4.5         |
-| 4     | gimmeschmoneys | 0           | 0                | 3                | 1.5         |
+| Rank   | Player         | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points      |
+|:-------|:---------------|:------------|:-----------------|:-----------------|:------------|
+| 1 🥇   | buhl00n        | 14 (+2)     | 12 (+2)          | 7 (+2)           | 57.5 (+9.0) |
+| 2 🥈   | vagdy          | 9           | 5                | 1                | 32.5        |
+| 3 🥉 ⬆ | gimmeschmoneys | 2 (+2)      | 1 (+1)           | 3                | 8.5 (+7.0)  |
+| 4 ⬇    | ofaisalz       | 0           | 3                | 3                | 4.5         |
 
-_Last updated at 2026-07-15 10:51:57 UTC_
+_Last updated at 2026-07-28 11:41:26 UTC_

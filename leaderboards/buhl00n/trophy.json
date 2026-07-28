@@ -12,19 +12,21 @@
 	"3086": {
 		"player": "gimmeschmoneys",
 		"playerid": 3086,
-		"weight": 1.5,
+		"weight": 8.5,
 		"date": "0001-01-01T00:00:00Z",
+		"trophies": 2,
+		"silver": 1,
 		"bronze": 3,
-		"rank": 4
+		"rank": 3
 	},
 	"3121": {
 		"player": "buhl00n",
 		"playerid": 3121,
-		"weight": 48.5,
+		"weight": 57.5,
 		"date": "0001-01-01T00:00:00Z",
-		"trophies": 12,
-		"silver": 10,
-		"bronze": 5,
+		"trophies": 14,
+		"silver": 12,
+		"bronze": 7,
 		"rank": 1
 	},
 	"3179": {
@@ -34,6 +36,6 @@
 		"date": "0001-01-01T00:00:00Z",
 		"silver": 3,
 		"bronze": 3,
-		"rank": 3
+		"rank": 4
 	}
 }

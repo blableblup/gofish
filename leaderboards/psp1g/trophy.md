@@ -1,64 +1,64 @@
 ### Leaderboard for the weekly tournaments in psp1g's chat
 
-| Rank  | Player                    | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points       |
-|:------|:--------------------------|:------------|:-----------------|:-----------------|:-------------|
-| 1 🥇  | nndiana                   | 83 (+2)     | 76               | 40               | 345.0 (+6.0) |
-| 2 🥈  | luneckie                  | 36 (+1)     | 9 (+1)           | 11               | 122.5 (+4.0) |
-| 3 🥉  | jayayseaohbe              | 29          | 22               | 10               | 114.0        |
-| 4     | bubinga                   | 28          | 21               | 16               | 113.0        |
-| 5     | blu_inx                   | 9           | 12               | 11               | 44.5         |
-| 6     | mazzo_tv                  | 6           | 12               | 18               | 39.0         |
-| 7     | huuuuuuuuuuuuuuuuuuuuuurz | 8           | 10               | 9                | 38.5         |
-| 8     | benciee                   | 7           | 11               | 2                | 33.0         |
-| 9     | disappointingtrash        | 7           | 7                | 7                | 31.5         |
-| 10    | ratot                     | 4           | 7                | 9                | 23.5         |
-| 11    | kevinlukejager            | 6           | 4                | 2                | 23.0         |
-| 12    | iflya320                  | 6           | 3                | 2                | 22.0         |
-| 13    | jem_mp3                   | 6           | 3                | 0                | 21.0         |
-| 14    | elusiin                   | 6           | 2                | 0                | 20.0         |
-| 14    | rottarded                 | 4           | 5                | 6                | 20.0         |
-| 16    | joshuabzz                 | 3           | 5                | 11               | 19.5         |
-| 17    | lobuhtomy                 | 3           | 3                | 11               | 17.5         |
-| 18 ⬆  | totallynotaboykisser      | 2           | 6 (+1)           | 6                | 15.0 (+1.0)  |
-| 18    | zwockel01                 | 4           | 2                | 2                | 15.0         |
-| 20 ⬇  | noconcept_                | 4           | 2                | 0                | 14.0         |
-| 21    | 3mikel                    | 4           | 0                | 2                | 13.0         |
-| 21    | r1cz4rd                   | 1           | 3                | 14               | 13.0         |
-| 23    | caprisen_                 | 2           | 2                | 8                | 12.0         |
-| 24    | cale4                     | 3           | 0                | 5                | 11.5         |
-| 25    | jr_mime                   | 2           | 4                | 2                | 11.0         |
-| 26    | paju1g                    | 2           | 3                | 3                | 10.5         |
-| 27    | fonuwu                    | 3           | 0                | 1                | 9.5          |
-| 28    | pengeg                    | 2           | 3                | 0                | 9.0          |
-| 29    | inders                    | 1           | 3                | 5                | 8.5          |
-| 30    | sandwichsundays           | 1           | 2                | 4                | 7.0          |
-| 30    | thasbe                    | 2           | 1                | 0                | 7.0          |
-| 32    | commanda_u                | 1           | 0                | 4                | 5.0          |
-| 32    | divra__                   | 1           | 2                | 0                | 5.0          |
-| 32    | hahppyy                   | 1           | 1                | 2                | 5.0          |
-| 35    | poons_u                   | 0           | 3                | 3                | 4.5          |
-| 35    | tomokomot                 | 1           | 1                | 1                | 4.5          |
-| 37    | veny2lbs                  | 1           | 0                | 2                | 4.0          |
-| 38    | gorillapark               | 0           | 2                | 3                | 3.5          |
-| 38    | kitenbleh                 | 0           | 2                | 3                | 3.5          |
-| 38 ⬆  | sillyfellow32             | 0           | 3                | 1 (+1)           | 3.5 (+0.5)   |
-| 41 ⬇  | creepycode                | 0           | 3                | 0                | 3.0          |
-| 41 ⬇  | popfizzgg                 | 1           | 0                | 0                | 3.0          |
-| 41 ⬇  | zsipe                     | 0           | 3                | 0                | 3.0          |
-| 44    | r3kko_                    | 0           | 2                | 1                | 2.5          |
-| 44    | supibot                   | 0           | 2                | 1                | 2.5          |
-| 46    | harnas_pro                | 0           | 2                | 0                | 2.0          |
-| 46    | yopego                    | 0           | 2                | 0                | 2.0          |
-| 48    | crunch_sack               | 0           | 0                | 3                | 1.5          |
-| 49    | deatron                   | 0           | 1                | 0                | 1.0          |
-| 49    | feelsaceman               | 0           | 1                | 0                | 1.0          |
-| 49    | ranctious                 | 0           | 1                | 0                | 1.0          |
-| 49    | sklortch                  | 0           | 1                | 0                | 1.0          |
-| 49    | xd_2k                     | 0           | 1                | 0                | 1.0          |
-| 54    | ducksleazzy               | 0           | 0                | 1                | 0.5          |
-| 54    | eeziiii                   | 0           | 0                | 1                | 0.5          |
-| 54    | llikotesnecil             | 0           | 0                | 1                | 0.5          |
-| 54    | maplegif                  | 0           | 0                | 1                | 0.5          |
-| 54    | starducc                  | 0           | 0                | 1                | 0.5          |
+| Rank  | Player                    | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points      |
+|:------|:--------------------------|:------------|:-----------------|:-----------------|:------------|
+| 1 🥇  | nndiana                   | 83          | 76               | 40               | 345.0       |
+| 2 🥈  | luneckie                  | 36          | 9                | 11               | 122.5       |
+| 3 🥉  | jayayseaohbe              | 29          | 22               | 10               | 114.0       |
+| 4     | bubinga                   | 28          | 21               | 16               | 113.0       |
+| 5     | blu_inx                   | 9           | 12               | 11               | 44.5        |
+| 6     | mazzo_tv                  | 6           | 12               | 18               | 39.0        |
+| 7     | huuuuuuuuuuuuuuuuuuuuuurz | 8           | 10               | 9                | 38.5        |
+| 8     | benciee                   | 7           | 11               | 2                | 33.0        |
+| 9     | disappointingtrash        | 7           | 7                | 7                | 31.5        |
+| 10    | ratot                     | 4           | 7                | 9                | 23.5        |
+| 11    | kevinlukejager            | 6           | 4                | 2                | 23.0        |
+| 12    | iflya320                  | 6           | 3                | 2                | 22.0        |
+| 13    | jem_mp3                   | 6           | 3                | 0                | 21.0        |
+| 14    | elusiin                   | 6           | 2                | 0                | 20.0        |
+| 14    | rottarded                 | 4           | 5                | 6                | 20.0        |
+| 16    | joshuabzz                 | 3           | 5                | 11               | 19.5        |
+| 17    | lobuhtomy                 | 3           | 3                | 11               | 17.5        |
+| 18 ⬆  | inders                    | 3 (+2)      | 4 (+1)           | 5                | 15.5 (+7.0) |
+| 19 ⬇  | totallynotaboykisser      | 2           | 6                | 6                | 15.0        |
+| 19 ⬇  | zwockel01                 | 4           | 2                | 2                | 15.0        |
+| 21 ⬇  | noconcept_                | 4           | 2                | 0                | 14.0        |
+| 22 ⬇  | 3mikel                    | 4           | 0                | 2                | 13.0        |
+| 22 ⬇  | r1cz4rd                   | 1           | 3                | 14               | 13.0        |
+| 24 ⬇  | caprisen_                 | 2           | 2                | 8                | 12.0        |
+| 25 ⬇  | cale4                     | 3           | 0                | 5                | 11.5        |
+| 26 ⬇  | jr_mime                   | 2           | 4                | 2                | 11.0        |
+| 27 ⬇  | paju1g                    | 2           | 3                | 3                | 10.5        |
+| 28 ⬇  | fonuwu                    | 3           | 0                | 1                | 9.5         |
+| 29 ⬇  | pengeg                    | 2           | 3                | 0                | 9.0         |
+| 30    | sandwichsundays           | 1           | 2                | 4                | 7.0         |
+| 30    | thasbe                    | 2           | 1                | 0                | 7.0         |
+| 32    | commanda_u                | 1           | 0                | 4                | 5.0         |
+| 32    | divra__                   | 1           | 2                | 0                | 5.0         |
+| 32    | hahppyy                   | 1           | 1                | 2                | 5.0         |
+| 32 ⬆  | kitenbleh                 | 0           | 3 (+1)           | 4 (+1)           | 5.0 (+1.5)  |
+| 36 ⬇  | poons_u                   | 0           | 3                | 3                | 4.5         |
+| 36 ⬇  | tomokomot                 | 1           | 1                | 1                | 4.5         |
+| 38 ⬇  | veny2lbs                  | 1           | 0                | 2                | 4.0         |
+| 39 ⬇  | gorillapark               | 0           | 2                | 3                | 3.5         |
+| 39 ⬇  | sillyfellow32             | 0           | 3                | 1                | 3.5         |
+| 41    | creepycode                | 0           | 3                | 0                | 3.0         |
+| 41    | popfizzgg                 | 1           | 0                | 0                | 3.0         |
+| 41 ⬆  | sklortch                  | 0           | 2 (+1)           | 2 (+2)           | 3.0 (+2.0)  |
+| 41    | zsipe                     | 0           | 3                | 0                | 3.0         |
+| 45 ⬇  | r3kko_                    | 0           | 2                | 1                | 2.5         |
+| 45 ⬇  | supibot                   | 0           | 2                | 1                | 2.5         |
+| 47 ⬇  | harnas_pro                | 0           | 2                | 0                | 2.0         |
+| 47 ⬇  | yopego                    | 0           | 2                | 0                | 2.0         |
+| 49 ⬇  | crunch_sack               | 0           | 0                | 3                | 1.5         |
+| 50 ⬇  | deatron                   | 0           | 1                | 0                | 1.0         |
+| 50 ⬇  | feelsaceman               | 0           | 1                | 0                | 1.0         |
+| 50 ⬇  | ranctious                 | 0           | 1                | 0                | 1.0         |
+| 50 ⬇  | xd_2k                     | 0           | 1                | 0                | 1.0         |
+| 54    | ducksleazzy               | 0           | 0                | 1                | 0.5         |
+| 54    | eeziiii                   | 0           | 0                | 1                | 0.5         |
+| 54    | llikotesnecil             | 0           | 0                | 1                | 0.5         |
+| 54    | maplegif                  | 0           | 0                | 1                | 0.5         |
+| 54    | starducc                  | 0           | 0                | 1                | 0.5         |
 
-_Last updated at 2026-07-22 19:29:45 UTC_
+_Last updated at 2026-07-28 11:41:26 UTC_
