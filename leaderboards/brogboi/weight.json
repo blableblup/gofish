@@ -39,7 +39,7 @@
 		"fishid": 266417,
 		"chatid": 18,
 		"date": "2026-06-07T16:27:28Z",
-		"rank": 14
+		"rank": 15
 	},
 	"6952": {
 		"player": "littlemunnster",
@@ -53,7 +53,7 @@
 		"fishid": 267911,
 		"chatid": 129,
 		"date": "2026-06-15T12:56:17Z",
-		"rank": 5
+		"rank": 6
 	},
 	"6953": {
 		"player": "punkish_live",
@@ -81,7 +81,7 @@
 		"fishid": 268340,
 		"chatid": 176,
 		"date": "2026-06-17T15:44:59Z",
-		"rank": 7
+		"rank": 8
 	},
 	"6958": {
 		"player": "ave0_",
@@ -95,20 +95,34 @@
 		"fishid": 275914,
 		"chatid": 391,
 		"date": "2026-07-14T19:33:28Z",
-		"rank": 6
+		"rank": 7
+	},
+	"6961": {
+		"player": "luluchanso",
+		"playerid": 6961,
+		"weight": 80.55,
+		"bot": "gofishgame",
+		"fishtype": "🐋",
+		"fishname": "whale",
+		"catchtype": "normal",
+		"chat": "brogboi",
+		"fishid": 280057,
+		"chatid": 533,
+		"date": "2026-07-27T13:39:06Z",
+		"rank": 12
 	},
 	"6962": {
 		"player": "whotookmamulukkikala",
 		"playerid": 6962,
-		"weight": 139.74,
+		"weight": 153.98,
 		"bot": "gofishgame",
-		"fishtype": "🐳",
-		"fishname": "bluewhale",
+		"fishtype": "🦈",
+		"fishname": "shark",
 		"catchtype": "normal",
 		"chat": "brogboi",
-		"fishid": 276952,
-		"chatid": 468,
-		"date": "2026-07-19T14:50:21Z",
+		"fishid": 280093,
+		"chatid": 546,
+		"date": "2026-07-27T15:04:14Z",
 		"rank": 1
 	},
 	"6963": {
@@ -137,7 +151,7 @@
 		"fishid": 278589,
 		"chatid": 516,
 		"date": "2026-07-23T15:01:15Z",
-		"rank": 8
+		"rank": 9
 	},
 	"6966": {
 		"player": "xt1di",
@@ -151,7 +165,7 @@
 		"fishid": 272510,
 		"chatid": 315,
 		"date": "2026-07-01T16:43:45Z",
-		"rank": 13
+		"rank": 14
 	},
 	"6974": {
 		"player": "venus2642",
@@ -165,21 +179,21 @@
 		"fishid": 272282,
 		"chatid": 298,
 		"date": "2026-06-30T18:59:29Z",
-		"rank": 12
+		"rank": 13
 	},
 	"6981": {
 		"player": "nikkirowland",
 		"playerid": 6981,
-		"weight": 101.79,
+		"weight": 118.26,
 		"bot": "gofishgame",
-		"fishtype": "🐙",
-		"fishname": "octopus",
+		"fishtype": "🐊",
+		"fishname": "crocodile",
 		"catchtype": "normal",
 		"chat": "brogboi",
-		"fishid": 276931,
-		"chatid": 461,
-		"date": "2026-07-19T13:36:03Z",
-		"rank": 9
+		"fishid": 280098,
+		"chatid": 547,
+		"date": "2026-07-27T15:11:54Z",
+		"rank": 5
 	},
 	"7000": {
 		"player": "lanisye",
@@ -207,7 +221,7 @@
 		"fishid": 278565,
 		"chatid": 514,
 		"date": "2026-07-23T14:18:50Z",
-		"rank": 15
+		"rank": 16
 	},
 	"7045": {
 		"player": "cookiemonstamadi",
@@ -221,6 +235,6 @@
 		"fishid": 277235,
 		"chatid": 490,
 		"date": "2026-07-20T13:58:21Z",
-		"rank": 16
+		"rank": 17
 	}
 }

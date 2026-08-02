@@ -2,6 +2,7 @@
 
 | Rank | Fish               | Weight in lbs | Player                | Date in UTC         |
 |:-----|:-------------------|:--------------|:----------------------|:--------------------|
+| 123  | 🦂 scorpion        | 0.47          | proswift              | 2026-07-27 18:28:19 |
 | 122  | 🦋 butterfly       | 0.34          | divra__               | 2026-07-20 23:56:23 |
 | 121  | 🧴 sunscreenbottle | 10.89         | thespecialone22       | 2026-07-16 06:05:08 |
 | 120  | 🐞 ladybug         | 0.14          | proswift              | 2026-07-12 20:10:40 |
@@ -125,4 +126,4 @@
 | 2    | 🦀 crab            | 2.81          | jr_mime               | 2024-07-28 10:52:00 |
 | 1    | 🐸 frog            | 1.70          | mitgliederversammlung | 2024-07-28 00:20:07 |
 
-_Last updated at 2026-07-26 09:21:07 UTC_
+_Last updated at 2026-08-02 09:37:47 UTC_

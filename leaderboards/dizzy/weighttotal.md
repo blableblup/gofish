@@ -10,10 +10,10 @@
 | 6     | iam_haunt      | 10603.67            |
 | 7     | spanmer        | 7651.11             |
 | 8     | konsminator    | 7261.34             |
-| 9     | ofaisalz       | 5778.34             |
+| 9     | ofaisalz       | 5788.67 (+10.33)    |
 | 10    | vagdy          | 5318.19             |
 | 11    | notnownico     | 4425.01             |
-| 12    | hamoodhabibee  | 4278.78 (+1.72)     |
+| 12    | hamoodhabibee  | 4278.78             |
 | 13    | mousee93       | 4037.14             |
 | 14    | rabituwu       | 3852.81             |
 | 15    | simplydrack    | 3834.86             |
@@ -58,4 +58,4 @@
 
 _Only showing fishers with a total weight of >= 500 lbs_
 
-_Last updated at 2026-07-26 09:23:03 UTC_
+_Last updated at 2026-08-02 09:39:45 UTC_

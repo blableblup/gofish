@@ -73,34 +73,34 @@
 | 69    | mazzo_tv                  | 🐳 bluewhale | 268.26        | 2025-12-30 11:15:39 |
 | 70    | luneckie                  | 🐳 bluewhale | 268.18        | 2025-12-13 04:22:41 |
 | 71    | pspisafemboy              | 🦑 squid     | 268.10        | 2026-01-20 04:34:38 |
-| 72 🆕 | nndiana                   | 🐳 bluewhale | 268.05        | 2026-06-18 15:00:59 |
-| 73 ⬇  | commanda_u                | 🐉 dragon    | 267.88        | 2024-04-26 22:08:55 |
-| 74 ⬇  | huuuuuuuuuuuuuuuuuuuuuurz | 🦕 sauropod  | 267.81        | 2024-07-18 09:42:37 |
-| 75 ⬇  | bubinga                   | 🐳 bluewhale | 267.78        | 2024-11-02 09:09:03 |
-| 76 ⬇  | nndiana                   | 🐳 bluewhale | 267.56        | 2025-12-04 21:18:07 |
-| 77 ⬇  | jem_mp3                   | 🐳 bluewhale | 267.13        | 2024-04-22 23:03:08 |
-| 78 ⬇  | zwockel01                 | 🐳 bluewhale | 267.09        | 2024-06-30 09:13:54 |
-| 79 ⬇  | mazzo_tv                  | 🐳 bluewhale | 266.97        | 2025-12-19 08:29:21 |
-| 80 ⬇  | pengeg                    | 🐍 snake     | 266.77        | 2023-12-30 04:49:16 |
-| 81 ⬇  | angus_lpc                 | 🐳 bluewhale | 266.76        | 2026-05-04 13:32:35 |
-| 82 ⬇  | bubinga                   | 🐍 snake     | 266.59        | 2024-12-02 17:55:44 |
-| 83 ⬇  | glorianeq                 | 🐉 dragon    | 266.53        | 2024-10-22 20:29:56 |
-| 84 ⬇  | quinrayy                  | 🦕 sauropod  | 266.36        | 2024-01-27 23:27:52 |
-| 85 ⬇  | divra__                   | 🐍 snake     | 266.35        | 2024-01-22 18:06:06 |
-| 86 ⬇  | zwockel01                 | 🦕 sauropod  | 266.02        | 2024-10-04 13:10:49 |
-| 87 ⬇  | jayayseaohbe              | 🐍 snake     | 265.97        | 2025-11-08 00:20:40 |
-| 88 ⬇  | commanda_u                | 🐉 dragon    | 265.33        | 2024-10-25 07:25:55 |
-| 89 ⬇  | huuuuuuuuuuuuuuuuuuuuuurz | 🐉 dragon    | 265.32        | 2024-05-15 08:25:49 |
-| 90 ⬇  | goodnews2                 | 🦕 sauropod  | 264.62        | 2025-05-09 22:08:28 |
-| 91 ⬇  | totallynotaboykisser      | 🦕 sauropod  | 264.40        | 2026-05-30 17:20:52 |
-| 92 ⬇  | feelsaceman               | 🐉 dragon    | 264.12        | 2026-04-18 21:43:22 |
-| 93 ⬇  | commanda_u                | 🐉 dragon    | 264.06        | 2024-07-04 20:19:58 |
-| 94 ⬇  | luneckie                  | 🐉 dragon    | 263.97        | 2026-03-06 23:27:39 |
-| 95 ⬇  | nndiana                   | 🐉 dragon    | 263.67        | 2026-04-08 03:10:01 |
-| 96 ⬇  | mazzo_tv                  | 🐳 bluewhale | 263.32        | 2025-08-27 12:02:54 |
-| 97 ⬇  | pengeg                    | 🦕 sauropod  | 263.23        | 2023-12-11 02:05:10 |
-| 98 ⬇  | nndiana                   | 🐉 dragon    | 262.96        | 2024-08-06 04:06:27 |
-| 99 ⬇  | benlol_l                  | 🦕 sauropod  | 262.44        | 2024-05-14 13:09:03 |
-| 100 ⬇ | bubinga                   | 🐉 dragon    | 262.41        | 2024-08-24 20:46:03 |
+| 72    | nndiana                   | 🐳 bluewhale | 268.05        | 2026-06-18 15:00:59 |
+| 73    | commanda_u                | 🐉 dragon    | 267.88        | 2024-04-26 22:08:55 |
+| 74    | huuuuuuuuuuuuuuuuuuuuuurz | 🦕 sauropod  | 267.81        | 2024-07-18 09:42:37 |
+| 75    | bubinga                   | 🐳 bluewhale | 267.78        | 2024-11-02 09:09:03 |
+| 76    | nndiana                   | 🐳 bluewhale | 267.56        | 2025-12-04 21:18:07 |
+| 77    | jem_mp3                   | 🐳 bluewhale | 267.13        | 2024-04-22 23:03:08 |
+| 78    | zwockel01                 | 🐳 bluewhale | 267.09        | 2024-06-30 09:13:54 |
+| 79    | mazzo_tv                  | 🐳 bluewhale | 266.97        | 2025-12-19 08:29:21 |
+| 80    | pengeg                    | 🐍 snake     | 266.77        | 2023-12-30 04:49:16 |
+| 81    | angus_lpc                 | 🐳 bluewhale | 266.76        | 2026-05-04 13:32:35 |
+| 82    | bubinga                   | 🐍 snake     | 266.59        | 2024-12-02 17:55:44 |
+| 83    | glorianeq                 | 🐉 dragon    | 266.53        | 2024-10-22 20:29:56 |
+| 84    | quinrayy                  | 🦕 sauropod  | 266.36        | 2024-01-27 23:27:52 |
+| 85    | divra__                   | 🐍 snake     | 266.35        | 2024-01-22 18:06:06 |
+| 86    | zwockel01                 | 🦕 sauropod  | 266.02        | 2024-10-04 13:10:49 |
+| 87    | jayayseaohbe              | 🐍 snake     | 265.97        | 2025-11-08 00:20:40 |
+| 88    | commanda_u                | 🐉 dragon    | 265.33        | 2024-10-25 07:25:55 |
+| 89    | huuuuuuuuuuuuuuuuuuuuuurz | 🐉 dragon    | 265.32        | 2024-05-15 08:25:49 |
+| 90    | goodnews2                 | 🦕 sauropod  | 264.62        | 2025-05-09 22:08:28 |
+| 91    | totallynotaboykisser      | 🦕 sauropod  | 264.40        | 2026-05-30 17:20:52 |
+| 92 🆕 | sklortch                  | 🐉 dragon    | 264.34        | 2026-07-28 20:47:47 |
+| 93 ⬇  | feelsaceman               | 🐉 dragon    | 264.12        | 2026-04-18 21:43:22 |
+| 94 ⬇  | commanda_u                | 🐉 dragon    | 264.06        | 2024-07-04 20:19:58 |
+| 95 ⬇  | luneckie                  | 🐉 dragon    | 263.97        | 2026-03-06 23:27:39 |
+| 96 ⬇  | nndiana                   | 🐉 dragon    | 263.67        | 2026-04-08 03:10:01 |
+| 97 ⬇  | mazzo_tv                  | 🐳 bluewhale | 263.32        | 2025-08-27 12:02:54 |
+| 98 ⬇  | pengeg                    | 🦕 sauropod  | 263.23        | 2023-12-11 02:05:10 |
+| 99 ⬇  | nndiana                   | 🐉 dragon    | 262.96        | 2024-08-06 04:06:27 |
+| 100 ⬇ | benlol_l                  | 🦕 sauropod  | 262.44        | 2024-05-14 13:09:03 |
 
-_Last updated at 2026-06-21 09:46:54 UTC_
+_Last updated at 2026-08-02 09:37:44 UTC_

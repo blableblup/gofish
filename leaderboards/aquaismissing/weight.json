@@ -11,7 +11,7 @@
 		"fishid": 274346,
 		"chatid": 1018,
 		"date": "2026-07-08T01:10:12Z",
-		"rank": 13
+		"rank": 14
 	},
 	"1907": {
 		"player": "ggmagician",
@@ -25,7 +25,7 @@
 		"fishid": 178043,
 		"chatid": 474,
 		"date": "2025-06-06T23:38:48Z",
-		"rank": 12
+		"rank": 13
 	},
 	"2107": {
 		"player": "ievantee",
@@ -39,7 +39,7 @@
 		"fishid": 184830,
 		"chatid": 523,
 		"date": "2025-07-04T00:00:47Z",
-		"rank": 16
+		"rank": 17
 	},
 	"2339": {
 		"player": "bubinga",
@@ -81,7 +81,7 @@
 		"fishid": 210960,
 		"chatid": 658,
 		"date": "2025-10-29T03:04:09Z",
-		"rank": 21
+		"rank": 22
 	},
 	"2792": {
 		"player": "likedom_",
@@ -123,7 +123,7 @@
 		"fishid": 125941,
 		"chatid": 68,
 		"date": "2024-11-29T17:43:11Z",
-		"rank": 20
+		"rank": 21
 	},
 	"3471": {
 		"player": "aistyrax3",
@@ -137,7 +137,7 @@
 		"fishid": 126631,
 		"chatid": 86,
 		"date": "2024-12-01T17:06:31Z",
-		"rank": 22
+		"rank": 23
 	},
 	"3472": {
 		"player": "rustezzz",
@@ -179,7 +179,7 @@
 		"fishid": 127047,
 		"chatid": 115,
 		"date": "2024-12-02T23:41:17Z",
-		"rank": 19
+		"rank": 20
 	},
 	"3498": {
 		"player": "beepisla",
@@ -193,7 +193,7 @@
 		"fishid": 141427,
 		"chatid": 249,
 		"date": "2025-01-14T21:39:57Z",
-		"rank": 27
+		"rank": 29
 	},
 	"3515": {
 		"player": "kaitechpl",
@@ -207,7 +207,7 @@
 		"fishid": 135823,
 		"chatid": 196,
 		"date": "2024-12-26T18:05:28Z",
-		"rank": 18
+		"rank": 19
 	},
 	"3541": {
 		"player": "girlglock",
@@ -221,7 +221,7 @@
 		"fishid": 175503,
 		"chatid": 453,
 		"date": "2025-05-24T00:29:21Z",
-		"rank": 26
+		"rank": 28
 	},
 	"3542": {
 		"player": "dom1torii",
@@ -235,7 +235,7 @@
 		"fishid": 145856,
 		"chatid": 285,
 		"date": "2025-02-04T23:36:24Z",
-		"rank": 17
+		"rank": 18
 	},
 	"3563": {
 		"player": "glorpiusbot",
@@ -249,7 +249,7 @@
 		"fishid": 230853,
 		"chatid": 892,
 		"date": "2026-01-02T20:51:21Z",
-		"rank": 14
+		"rank": 15
 	},
 	"3565": {
 		"player": "underpaidchatter",
@@ -263,7 +263,7 @@
 		"fishid": 259120,
 		"chatid": 974,
 		"date": "2026-05-01T22:52:23Z",
-		"rank": 23
+		"rank": 25
 	},
 	"3568": {
 		"player": "tautautautautau",
@@ -277,7 +277,7 @@
 		"fishid": 153952,
 		"chatid": 374,
 		"date": "2025-03-11T22:09:33Z",
-		"rank": 25
+		"rank": 27
 	},
 	"3572": {
 		"player": "desxyne",
@@ -305,7 +305,7 @@
 		"fishid": 179817,
 		"chatid": 482,
 		"date": "2025-06-19T17:30:54Z",
-		"rank": 10
+		"rank": 11
 	},
 	"3818": {
 		"player": "buck101_",
@@ -319,7 +319,21 @@
 		"fishid": 185384,
 		"chatid": 530,
 		"date": "2025-07-06T12:23:22Z",
-		"rank": 11
+		"rank": 12
+	},
+	"4133": {
+		"player": "cute_ducc",
+		"playerid": 4133,
+		"weight": 113.34,
+		"bot": "gofishgame",
+		"fishtype": "🪸",
+		"fishname": "coral",
+		"catchtype": "normal",
+		"chat": "aquaismissing",
+		"fishid": 280204,
+		"chatid": 1039,
+		"date": "2026-07-27T19:58:44Z",
+		"rank": 10
 	},
 	"454": {
 		"player": "velantix",
@@ -361,7 +375,7 @@
 		"fishid": 149602,
 		"chatid": 356,
 		"date": "2025-02-23T19:30:19Z",
-		"rank": 15
+		"rank": 16
 	},
 	"629": {
 		"player": "nuflux",
@@ -375,6 +389,20 @@
 		"fishid": 247100,
 		"chatid": 935,
 		"date": "2026-03-17T01:16:05Z",
+		"rank": 26
+	},
+	"6874": {
+		"player": "mir9_9",
+		"playerid": 6874,
+		"weight": 69.79,
+		"bot": "gofishgame",
+		"fishtype": "👑",
+		"fishname": "crown",
+		"catchtype": "normal",
+		"chat": "aquaismissing",
+		"fishid": 281042,
+		"chatid": 1045,
+		"date": "2026-07-30T22:21:22Z",
 		"rank": 24
 	}
 }

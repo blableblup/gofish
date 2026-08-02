@@ -11,25 +11,27 @@
 | 7     | elisworm         | 🐋 whale     | 135.90        | 2025-11-26 02:46:03 |
 | 8     | poggu_           | 🦭 seal      | 129.15        | 2024-12-01 11:08:35 |
 | 9     | stofeyxd         | 🐢 turtle    | 127.58        | 2025-06-28 22:07:24 |
-| 10    | ranctious        | 🐙 octopus   | 113.24        | 2025-06-19 17:30:54 |
-| 11    | buck101_         | 🐊 crocodile | 111.01        | 2025-07-06 12:23:22 |
-| 12    | ggmagician       | 🪸 coral     | 98.94         | 2025-06-06 23:38:48 |
-| 13    | ojack18          | 🐋 whale     | 97.17         | 2026-07-08 01:10:12 |
-| 14    | glorpiusbot      | 🐢 turtle    | 90.02         | 2026-01-02 20:51:21 |
-| 15    | vigilsync        | 🐳 bluewhale | 88.80         | 2025-02-23 19:30:19 |
-| 16    | ievantee         | 🐋 whale     | 80.56         | 2025-07-04 00:00:47 |
-| 17    | dom1torii        | 🐊 crocodile | 80.34         | 2025-02-04 23:36:24 |
-| 18    | kaitechpl        | 🐊 crocodile | 79.42         | 2024-12-26 18:05:28 |
-| 19    | kagecs           | 🐊 crocodile | 77.89         | 2024-12-02 23:41:17 |
-| 20    | aquaismissing    | 🐢 turtle    | 75.51         | 2024-11-29 17:43:11 |
-| 21    | flovrek          | 🐢 turtle    | 73.97         | 2025-10-29 03:04:09 |
-| 22    | aistyrax3        | 🦕 sauropod  | 73.83         | 2024-12-01 17:06:31 |
-| 23    | underpaidchatter | 🦑 squid     | 69.03         | 2026-05-01 22:52:23 |
-| 24    | nuflux           | 🐙 octopus   | 59.93         | 2026-03-17 01:16:05 |
-| 25    | tautautautautau  | 🐢 turtle    | 59.69         | 2025-03-11 22:09:33 |
-| 26    | girlglock        | 🦞 lobster   | 58.02         | 2025-05-24 00:29:21 |
-| 27    | beepisla         | 🦑 squid     | 50.31         | 2025-01-14 21:39:57 |
+| 10 🆕 | cute_ducc        | 🪸 coral     | 113.34        | 2026-07-27 19:58:44 |
+| 11 ⬇  | ranctious        | 🐙 octopus   | 113.24        | 2025-06-19 17:30:54 |
+| 12 ⬇  | buck101_         | 🐊 crocodile | 111.01        | 2025-07-06 12:23:22 |
+| 13 ⬇  | ggmagician       | 🪸 coral     | 98.94         | 2025-06-06 23:38:48 |
+| 14 ⬇  | ojack18          | 🐋 whale     | 97.17         | 2026-07-08 01:10:12 |
+| 15 ⬇  | glorpiusbot      | 🐢 turtle    | 90.02         | 2026-01-02 20:51:21 |
+| 16 ⬇  | vigilsync        | 🐳 bluewhale | 88.80         | 2025-02-23 19:30:19 |
+| 17 ⬇  | ievantee         | 🐋 whale     | 80.56         | 2025-07-04 00:00:47 |
+| 18 ⬇  | dom1torii        | 🐊 crocodile | 80.34         | 2025-02-04 23:36:24 |
+| 19 ⬇  | kaitechpl        | 🐊 crocodile | 79.42         | 2024-12-26 18:05:28 |
+| 20 ⬇  | kagecs           | 🐊 crocodile | 77.89         | 2024-12-02 23:41:17 |
+| 21 ⬇  | aquaismissing    | 🐢 turtle    | 75.51         | 2024-11-29 17:43:11 |
+| 22 ⬇  | flovrek          | 🐢 turtle    | 73.97         | 2025-10-29 03:04:09 |
+| 23 ⬇  | aistyrax3        | 🦕 sauropod  | 73.83         | 2024-12-01 17:06:31 |
+| 24 🆕 | mir9_9           | 👑 crown     | 69.79         | 2026-07-30 22:21:22 |
+| 25 ⬇  | underpaidchatter | 🦑 squid     | 69.03         | 2026-05-01 22:52:23 |
+| 26 ⬇  | nuflux           | 🐙 octopus   | 59.93         | 2026-03-17 01:16:05 |
+| 27 ⬇  | tautautautautau  | 🐢 turtle    | 59.69         | 2025-03-11 22:09:33 |
+| 28 ⬇  | girlglock        | 🦞 lobster   | 58.02         | 2025-05-24 00:29:21 |
+| 29 ⬇  | beepisla         | 🦑 squid     | 50.31         | 2025-01-14 21:39:57 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2026-07-19 08:33:11 UTC_
+_Last updated at 2026-08-02 09:37:47 UTC_

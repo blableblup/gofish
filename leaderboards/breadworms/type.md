@@ -52,8 +52,8 @@
 | 48    | 🧭 compass         | 21.26         | destin357                | 2025-03-25 13:46:19 |
 | 49    | 🦦 otter           | 19.78         | dazedforevermore         | 2024-02-17 10:37:23 |
 | 50    | 🪱 worm            | 18.97         | comiqq                   | 2025-10-01 10:45:25 |
-| 51 ⬆  | 🦴 bone            | 18.25 (+0.63) | dazedforevermore         | 2026-07-23 11:44:12 |
-| 52 ⬇  | 🍄 oceanplant      | 17.85         | comiqq                   | 2024-02-22 05:08:00 |
+| 51    | 🦴 bone            | 18.96 (+0.71) | dazedforevermore         | 2026-07-29 22:20:46 |
+| 52    | 🍄 oceanplant      | 17.85         | comiqq                   | 2024-02-22 05:08:00 |
 | 53    | 🦆 duck            | 15.69         | derinturitierutz         | 2023-11-04 14:31:09 |
 | 54    | 🪀 bobber          | 15.60         | osnyisdead               | 2024-09-27 00:16:38 |
 | 55    | 🪵 log             | 15.28         | comiqq                   | 2024-05-16 17:26:45 |
@@ -107,8 +107,8 @@
 | 103   | 👢 boot            | 1.98          | derinturitierutz         | 2023-12-30 12:35:00 |
 | 103   | 🪻 lupine          | 1.98          | ytp_dl                   | 2025-07-10 15:36:58 |
 | 105   | 🌿 seaweed         | 1.97          | comiqq                   | 2025-09-20 16:29:43 |
-| 106 ⬆ | 🦂 scorpion        | 1.38 (+0.22)  | osnyisdead               | 2026-07-25 23:24:58 |
-| 107 ⬇ | 🐝 bee             | 1.25          | lluuucy                  | 2025-06-24 11:19:51 |
+| 106   | 🦂 scorpion        | 1.38          | osnyisdead               | 2026-07-25 23:24:58 |
+| 107   | 🐝 bee             | 1.25          | lluuucy                  | 2025-06-24 11:19:51 |
 | 108   | 🐛 caterpillar     | 1.02          | fishingalt               | 2025-08-30 11:34:52 |
 | 109   | 🪶 feather         | 0.99          | osnyatsky*               | 2023-08-24 01:31:11 |
 | 109   | 🧤 gloves          | 0.99          | sicklymaidrobot          | 2024-02-23 12:41:32 |
@@ -118,8 +118,8 @@
 | 114   | 🍥 sanddollar      | 0.85          | derinturitierutz         | 2025-08-26 12:01:59 |
 | 115   | 🫐 bilberries      | 0.84          | dougiefresh_83           | 2026-06-22 22:13:23 |
 | 115   | 🍇 crowberries     | 0.84          | kishma9                  | 2026-06-22 20:55:31 |
-| 117   | 🐜 ant             | 0.78 (+0.04)  | dazedforevermore         | 2026-07-21 08:54:05 |
-| 118   | 🦟 mosquito        | 0.63 (+0.02)  | derintu                  | 2026-07-24 09:18:22 |
+| 117   | 🐜 ant             | 0.78          | dazedforevermore         | 2026-07-21 08:54:05 |
+| 118   | 🦟 mosquito        | 0.65 (+0.02)  | derintu                  | 2026-07-27 17:19:23 |
 | 119   | 🪲 beetle          | 0.47          | qu4ttromila              | 2025-06-25 10:39:09 |
 | 120   | 🐞 ladybug         | 0.37          | derintu                  | 2025-08-31 20:38:14 |
 | 121   | 🦋 butterfly       | 0.35          | larvaew                  | 2026-07-07 09:51:01 |
@@ -128,4 +128,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-07-26 09:23:35 UTC_
+_Last updated at 2026-08-02 09:36:54 UTC_

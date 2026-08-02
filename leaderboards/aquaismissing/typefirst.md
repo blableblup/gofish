@@ -2,6 +2,7 @@
 
 | Rank | Fish              | Weight in lbs | Player        | Date in UTC         |
 |:-----|:------------------|:--------------|:--------------|:--------------------|
+| 69   | 👑 crown          | 69.79         | mir9_9        | 2026-07-30 22:21:22 |
 | 68   | 🫙 jar            | 1.43          | bubinga       | 2026-07-25 23:21:08 |
 | 67   | 🕶️ darksunglasses | 3.92          | cute_ducc     | 2026-07-23 19:11:49 |
 | 66   | 🪹 emptynest      | 8.04          | glorpiusbot   | 2026-04-10 23:13:18 |
@@ -71,4 +72,4 @@
 | 2    | 🪝 hook           | 0.88          | vladik4il     | 2024-11-26 16:02:08 |
 | 1    | 🧦 socks          | 0.82          | aquaismissing | 2024-11-26 15:51:47 |
 
-_Last updated at 2026-07-26 09:21:07 UTC_
+_Last updated at 2026-08-02 09:37:47 UTC_

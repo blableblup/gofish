@@ -9,9 +9,9 @@
 | 5     | elisworm    | 842.46              |
 | 6     | gofishgamer | 764.16              |
 | 7     | jboy42o     | 598.47              |
-| 8     | besceny     | 499.37 (+23.78)     |
+| 8     | besceny     | 500.79 (+1.42)      |
 | 9     | koenheylen  | 217.37              |
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-07-26 09:23:04 UTC_
+_Last updated at 2026-08-02 09:39:45 UTC_

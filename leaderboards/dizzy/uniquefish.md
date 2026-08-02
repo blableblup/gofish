@@ -8,7 +8,7 @@
 | 4     | nolifeben1         | 63        |
 | 5     | iam_haunt          | 59        |
 | 6     | lolspers           | 58        |
-| 7     | ofaisalz           | 57        |
+| 6 ⬆   | ofaisalz           | 58 (+1)   |
 | 8     | konsminator        | 49        |
 | 9     | hamoodhabibee      | 48        |
 | 9     | notnownico         | 48        |
@@ -56,4 +56,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-07-26 09:23:04 UTC_
+_Last updated at 2026-08-02 09:35:49 UTC_

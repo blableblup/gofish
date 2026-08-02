@@ -2,23 +2,23 @@
 
 | Rank | Fish              | Weight in lbs | Player           | Date in UTC         |
 |:-----|:------------------|:--------------|:-----------------|:--------------------|
-| 59   | 🐚 shell          | 0.88          | dagsai_di        | 2026-07-23 23:45:12 |
-| 58   | 🥒 seacucumber    | 26.66         | overhatecore     | 2026-07-23 21:04:31 |
-| 57   | 🪼 jellyfish      | 6.85          | dan1lew          | 2026-07-21 14:56:41 |
-| 56   | 🐙 octopus        | 27.75         | dan1lew          | 2026-07-14 17:21:52 |
-| 55   | 🎏 lure           | 0.48          | asdiasei         | 2026-07-12 22:35:10 |
-| 54   | 🪝 hook           | 1.20          | dagsai_di        | 2026-07-06 10:19:29 |
-| 53   | 🐳 bluewhale      | 33.56         | overhatecore     | 2026-07-06 09:32:35 |
-| 52   | 🐟 fish           | 9.47          | dagsai_di        | 2026-07-05 22:10:24 |
-| 51   | 🌿 seaweed        | 0.26          | dagsai_di        | 2026-07-05 19:42:00 |
-| 50   | 🐡 blowfish       | 25.55         | overhatecore     | 2026-07-05 12:51:45 |
-| 49   | 🦞 lobster        | 45.84         | diloindys        | 2026-07-04 11:20:58 |
-| 48   | 🐠 tropicalfish   | 10.71         | dagsai_di        | 2026-07-04 08:11:52 |
-| 47   | 🦐 shrimp         | 9.19          | diloindys        | 2026-07-03 15:07:59 |
-| 46   | 🐸 frog           | 0.33          | overhatecore     | 2026-07-02 21:25:26 |
-| 45   | 🐢 turtle         | 187.44        | overhatecore     | 2026-07-01 09:14:35 |
-| 44   | 🦑 squid          | 80.10         | dan1lew          | 2026-06-30 19:41:03 |
-| 43   | 🐬 dolphin        | 65.88         | diloindys        | 2026-06-30 14:35:55 |
+| 59   | 🐬 dolphin        | 10.63         | overhatecore     | 2026-07-28 21:11:16 |
+| 58   | 🐚 shell          | 0.88          | dagsai_di        | 2026-07-23 23:45:12 |
+| 57   | 🥒 seacucumber    | 26.66         | overhatecore     | 2026-07-23 21:04:31 |
+| 56   | 🪼 jellyfish      | 6.85          | dan1lew          | 2026-07-21 14:56:41 |
+| 55   | 🐙 octopus        | 27.75         | dan1lew          | 2026-07-14 17:21:52 |
+| 54   | 🎏 lure           | 0.48          | asdiasei         | 2026-07-12 22:35:10 |
+| 53   | 🪝 hook           | 1.20          | dagsai_di        | 2026-07-06 10:19:29 |
+| 52   | 🐳 bluewhale      | 33.56         | overhatecore     | 2026-07-06 09:32:35 |
+| 51   | 🐟 fish           | 9.47          | dagsai_di        | 2026-07-05 22:10:24 |
+| 50   | 🌿 seaweed        | 0.26          | dagsai_di        | 2026-07-05 19:42:00 |
+| 49   | 🐡 blowfish       | 25.55         | overhatecore     | 2026-07-05 12:51:45 |
+| 48   | 🦞 lobster        | 45.84         | diloindys        | 2026-07-04 11:20:58 |
+| 47   | 🐠 tropicalfish   | 10.71         | dagsai_di        | 2026-07-04 08:11:52 |
+| 46   | 🦐 shrimp         | 9.19          | diloindys        | 2026-07-03 15:07:59 |
+| 45   | 🐸 frog           | 0.33          | overhatecore     | 2026-07-02 21:25:26 |
+| 44   | 🐢 turtle         | 187.44        | overhatecore     | 2026-07-01 09:14:35 |
+| 43   | 🦑 squid          | 80.10         | dan1lew          | 2026-06-30 19:41:03 |
 | 42   | 💀 skull          | 8.36          | overhatecore     | 2026-06-28 12:46:39 |
 | 41   | 🧃 beveragebox    | 4.41          | overhatecore     | 2026-06-27 09:39:05 |
 | 40   | 🐋 whale          | 125.32        | dagsai_di        | 2026-06-24 07:21:55 |
@@ -62,4 +62,4 @@
 | 2    | 👑 crown          | 1.16          | alenakuz03       | 2023-10-19 10:36:49 |
 | 1    | 🧟 deadbody       | 109.08        | overhatecore     | 2023-10-13 17:00:56 |
 
-_Last updated at 2026-07-26 09:21:06 UTC_
+_Last updated at 2026-08-02 09:37:46 UTC_

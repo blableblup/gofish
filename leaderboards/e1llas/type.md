@@ -35,34 +35,35 @@
 | 31    | 🧊 icecube         | 10.48         | d1ifforr       | 2024-12-13 15:21:31 |
 | 32    | 💀 skull           | 9.74          | envtt          | 2025-05-01 13:32:27 |
 | 33    | 🕶️ darksunglasses  | 9.39          | e1llas         | 2025-05-03 14:18:39 |
-| 34 🆕 | 🧴 sunscreenbottle | 8.24          | besceny        | 2026-07-20 10:55:00 |
-| 35 ⬇  | 🐌 snail           | 7.70          | e1llas         | 2025-05-20 14:18:10 |
-| 36 ⬇  | 👒 hat             | 7.56          | envtt          | 2025-06-07 19:30:11 |
-| 37 ⬇  | 🧃 beveragebox     | 6.85          | envtt          | 2025-05-09 16:07:17 |
-| 38 ⬇  | 🪱 worm            | 6.55          | mersufy        | 2024-12-15 14:45:59 |
-| 39 ⬇  | 🦎 lizard          | 5.97          | e1llas         | 2025-07-24 18:01:29 |
-| 40 ⬇  | 🐸 frog            | 4.84          | d1ifforr       | 2024-12-28 20:22:24 |
-| 41 ⬇  | 🎏 lure            | 4.03          | d1ifforr       | 2024-12-10 16:04:12 |
-| 42 ⬇  | 🐚 shell           | 3.95          | xopowosidim667 | 2024-12-29 08:24:54 |
-| 43 ⬇  | 🪝 hook            | 3.15          | d1ifforr       | 2025-05-14 12:34:21 |
-| 44 ⬇  | ☂️ umbrella        | 2.86          | e1llas         | 2025-05-13 06:13:22 |
-| 45 ⬇  | ☘️ clover          | 2.40          | e1llas         | 2026-05-22 17:45:40 |
-| 46 ⬇  | 🧦 socks           | 1.92          | wavehearts     | 2024-12-30 23:00:36 |
-| 47 ⬇  | 🍁 leaf            | 1.88          | gofishgamer    | 2025-11-05 11:48:59 |
-| 48 ⬇  | 🥪 sandwich        | 1.81          | 0pasha_top     | 2025-05-20 18:45:51 |
-| 49 ⬇  | 🩰 balletshoes     | 1.52          | e1llas         | 2025-05-06 09:59:25 |
-| 50 ⬇  | 🩴 thongsandal     | 1.46          | d1ifforr       | 2025-06-06 22:15:29 |
-| 51 ⬇  | 👢 boot            | 1.20          | d1ifforr       | 2024-12-13 16:11:21 |
-| 52 ⬇  | 🪀 bobber          | 1.17          | envtt          | 2025-06-23 16:28:15 |
-| 52 ⬇  | 🌷 tulip           | 1.17          | e1llas         | 2026-05-20 10:31:50 |
-| 54 ⬇  | 🥫 cannedfood      | 1.12          | d1ifforr       | 2024-12-20 22:15:48 |
-| 55 ⬇  | 🧤 gloves          | 0.95          | xopowosidim667 | 2024-12-08 11:30:05 |
-| 56 ⬇  | 📱 iphone          | 0.89          | e1llas         | 2025-06-23 16:14:57 |
-| 57 ⬇  | 🌿 seaweed         | 0.79          | e1llas         | 2025-06-04 03:09:27 |
-| 58 ⬇  | 🧵 wireline        | 0.50          | envtt          | 2025-06-24 08:17:06 |
-| 59 ⬇  | 🪶 feather         | 0.48          | d1ifforr       | 2025-05-29 18:53:46 |
-| 60 ⬇  | 🌻 sunflower       | 0.10          | e1llas         | 2025-07-23 17:42:30 |
+| 34    | 🧴 sunscreenbottle | 8.24          | besceny        | 2026-07-20 10:55:00 |
+| 35    | 🐌 snail           | 7.70          | e1llas         | 2025-05-20 14:18:10 |
+| 36    | 👒 hat             | 7.56          | envtt          | 2025-06-07 19:30:11 |
+| 37    | 🧃 beveragebox     | 6.85          | envtt          | 2025-05-09 16:07:17 |
+| 38    | 🪱 worm            | 6.55          | mersufy        | 2024-12-15 14:45:59 |
+| 39    | 🦎 lizard          | 5.97          | e1llas         | 2025-07-24 18:01:29 |
+| 40    | 🐸 frog            | 4.84          | d1ifforr       | 2024-12-28 20:22:24 |
+| 41    | 🎏 lure            | 4.03          | d1ifforr       | 2024-12-10 16:04:12 |
+| 42    | 🐚 shell           | 3.95          | xopowosidim667 | 2024-12-29 08:24:54 |
+| 43    | 🪝 hook            | 3.15          | d1ifforr       | 2025-05-14 12:34:21 |
+| 44    | ☂️ umbrella        | 2.86          | e1llas         | 2025-05-13 06:13:22 |
+| 45    | ☘️ clover          | 2.40          | e1llas         | 2026-05-22 17:45:40 |
+| 46    | 🧦 socks           | 1.92          | wavehearts     | 2024-12-30 23:00:36 |
+| 47    | 🍁 leaf            | 1.88          | gofishgamer    | 2025-11-05 11:48:59 |
+| 48    | 🥪 sandwich        | 1.81          | 0pasha_top     | 2025-05-20 18:45:51 |
+| 49    | 🩰 balletshoes     | 1.52          | e1llas         | 2025-05-06 09:59:25 |
+| 50    | 🩴 thongsandal     | 1.46          | d1ifforr       | 2025-06-06 22:15:29 |
+| 51    | 👢 boot            | 1.20          | d1ifforr       | 2024-12-13 16:11:21 |
+| 52    | 🪀 bobber          | 1.17          | envtt          | 2025-06-23 16:28:15 |
+| 52    | 🌷 tulip           | 1.17          | e1llas         | 2026-05-20 10:31:50 |
+| 54    | 🥫 cannedfood      | 1.12          | d1ifforr       | 2024-12-20 22:15:48 |
+| 55    | 🧤 gloves          | 0.95          | xopowosidim667 | 2024-12-08 11:30:05 |
+| 56    | 📱 iphone          | 0.89          | e1llas         | 2025-06-23 16:14:57 |
+| 57    | 🌿 seaweed         | 0.79          | e1llas         | 2025-06-04 03:09:27 |
+| 58    | 🧵 wireline        | 0.50          | envtt          | 2025-06-24 08:17:06 |
+| 59    | 🪶 feather         | 0.48          | d1ifforr       | 2025-05-29 18:53:46 |
+| 60 🆕 | 🍥 sanddollar      | 0.21          | besceny        | 2026-07-27 15:10:08 |
+| 61 ⬇  | 🌻 sunflower       | 0.10          | e1llas         | 2025-07-23 17:42:30 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-07-26 09:24:30 UTC_
+_Last updated at 2026-08-02 09:37:32 UTC_

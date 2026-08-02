@@ -2,6 +2,7 @@
 
 | Rank | Fish               | Weight in lbs | Player         | Date in UTC         |
 |:-----|:-------------------|:--------------|:---------------|:--------------------|
+| 62   | 🍥 sanddollar      | 0.21          | besceny        | 2026-07-27 15:10:08 |
 | 61   | 🧴 sunscreenbottle | 8.24          | besceny        | 2026-07-20 10:55:00 |
 | 60   | 🌷 tulip           | 1.17          | e1llas         | 2026-05-20 10:31:50 |
 | 59   | 🎰 slotmachine     | 0.00          | gofishgamer    | 2025-11-14 03:01:46 |
@@ -64,4 +65,4 @@
 | 2    | 🐬 dolphin         | 12.25         | e1llas         | 2024-12-06 14:32:12 |
 | 1    | 🐟 fish            | 5.77          | koenheylen     | 2024-12-06 14:27:27 |
 
-_Last updated at 2026-07-26 09:21:07 UTC_
+_Last updated at 2026-08-02 09:37:47 UTC_
