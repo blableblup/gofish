@@ -2,12 +2,12 @@
 
 | Rank  | Player         | Fish caught |
 |:------|:---------------|:------------|
-| 1 🥇  | buhl00n        | 596 (+74)   |
-| 2 🥈  | gimmeschmoneys | 234 (+53)   |
+| 1 🥇  | buhl00n        | 628 (+32)   |
+| 2 🥈  | gimmeschmoneys | 260 (+26)   |
 | 3 🥉  | vagdy          | 153         |
-| 4     | glorp_fishing  | 85 (+7)     |
+| 4     | glorp_fishing  | 89 (+4)     |
 | 5     | ofaisalz       | 31          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-08-02 09:37:45 UTC_
+_Last updated at 2026-08-09 10:30:41 UTC_

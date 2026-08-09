@@ -50,9 +50,9 @@
 | 46    | 🪱 worm            | 19.17         | caprisen_                 | 2023-10-18 12:29:31 |
 | 47    | 🍄 oceanplant      | 17.89         | deatron                   | 2026-01-19 19:50:16 |
 | 48    | 🧭 compass         | 17.75         | pylonii                   | 2024-01-01 22:13:11 |
-| 49 ⬆  | 🦴 bone            | 16.95 (+1.55) | luneckie                  | 2026-07-31 22:15:48 |
-| 50 ⬇  | 🦆 duck            | 15.55         | sameone                   | 2023-09-07 09:03:09 |
-| 51 ⬇  | 🪵 log             | 15.54         | nndiana                   | 2026-02-09 19:46:22 |
+| 49    | 🦴 bone            | 16.95         | luneckie                  | 2026-07-31 22:15:48 |
+| 50    | 🦆 duck            | 15.55         | sameone                   | 2023-09-07 09:03:09 |
+| 51    | 🪵 log             | 15.54         | nndiana                   | 2026-02-09 19:46:22 |
 | 52    | 🪀 bobber          | 14.82         | jem_mp3                   | 2024-03-28 22:56:08 |
 | 53    | 🕶️ darksunglasses  | 12.90         | themeatball               | 2024-09-29 20:03:22 |
 | 54    | 🧃 beveragebox     | 12.83         | huuuuuuuuuuuuuuuuuuuuuurz | 2023-09-27 10:52:21 |
@@ -111,13 +111,13 @@
 | 106   | 🧤 gloves          | 1.00          | kubo7                     | 2024-01-27 18:51:58 |
 | 106   | 🪚 icesaw          | 1.00          | feelsaceman               | 2026-02-16 11:45:50 |
 | 109   | 🌾 grass           | 0.99          | nndiana                   | 2026-07-07 03:26:58 |
-| 110   | 🍇 crowberries     | 0.96          | lobuhtomy                 | 2026-06-22 20:37:54 |
-| 111 ⬆ | 🍥 sanddollar      | 0.95 (+0.09)  | inders                    | 2026-07-26 22:15:54 |
-| 112 ⬇ | 🧣 scarf           | 0.92          | blazeblitzzz              | 2024-02-01 23:11:44 |
-| 113 ⬇ | 🐿️ squirrel        | 0.90          | iflya320                  | 2024-12-04 11:13:44 |
+| 109 ⬆ | 🍥 sanddollar      | 0.99 (+0.04)  | ducksleazzy               | 2026-08-05 19:17:38 |
+| 111 ⬇ | 🍇 crowberries     | 0.96          | lobuhtomy                 | 2026-06-22 20:37:54 |
+| 112   | 🧣 scarf           | 0.92          | blazeblitzzz              | 2024-02-01 23:11:44 |
+| 113   | 🐿️ squirrel        | 0.90          | iflya320                  | 2024-12-04 11:13:44 |
 | 114   | 🐜 ant             | 0.83          | esca1g                    | 2026-07-23 08:56:30 |
-| 115   | 🪿 goose           | 0.62          | llikotesnecil             | 2026-01-05 01:54:01 |
-| 115   | 🦟 mosquito        | 0.62          | feelsaceman               | 2026-07-14 23:22:59 |
+| 115   | 🦟 mosquito        | 0.63 (+0.01)  | luneckie                  | 2026-08-02 17:00:36 |
+| 116 ⬇ | 🪿 goose           | 0.62          | llikotesnecil             | 2026-01-05 01:54:01 |
 | 117   | 🦋 butterfly       | 0.34          | feelsaceman               | 2026-07-24 22:27:45 |
 | 118   | 🪰 fly             | 0.33          | feelsaceman               | 2026-07-20 02:42:39 |
 | 119   | 🐞 ladybug         | 0.26          | luneckie                  | 2026-07-20 20:41:34 |
@@ -126,4 +126,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-08-02 09:37:15 UTC_
+_Last updated at 2026-08-09 10:30:16 UTC_

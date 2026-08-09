@@ -13,18 +13,18 @@
 | 9     | 🐀 rat             | 2.64          | breadworms            | 2026-06-23 00:18:57 |
 | 10    | 🧥 coat            | 1.85          | gstaman911            | 2025-01-01 13:14:00 |
 | 11    | 🐈‍⬛ blackcat        | 1.84          | cumgi                 | 2025-12-13 14:59:41 |
-| 12    | 🧴 sunscreenbottle | 1.40          | fishingalt            | 2025-08-26 18:53:00 |
-| 13    | 🧋 bobacup         | 1.03          | derinturitierutz      | 2025-08-25 16:20:37 |
-| 14    | 🍱 tacklebox       | 0.81          | fishingalt            | 2025-11-04 13:24:20 |
-| 15 ⬆  | 🧟 deadbody        | 0.57          | destin357             | 2025-08-18 07:29:39 |
-| 16 ⬆  | 🗡️ dagger          | 0.56          | respirate_            | 2024-08-26 22:03:27 |
-| 17 ⬆  | 🦆 duck            | 0.48          | osnyatsky*            | 2023-07-25 17:55:46 |
-| 18 ⬆  | 🪲 beetle          | 0.47          | qu4ttromila           | 2025-06-25 10:39:09 |
-| 19 ⬆  | 🎰 slotmachine     | 0.42          | leanmeister           | 2025-04-17 00:15:18 |
-| 20 ⬆  | 🐉 dragon          | 0.29          | ytp_dl                | 2026-04-30 09:11:12 |
-| 21 ⬇  | 🦴 bone            | 0.28 (-0.34)  | dazedforevermore      | 2026-07-27 12:48:30 |
-| 21 ⬆  | 🪿 goose           | 0.28          | fishingalt            | 2026-01-01 09:54:57 |
-| 21 ⬆  | 🍄‍🟫 mushroom        | 0.28          | osnyisdead            | 2025-01-14 02:54:02 |
+| 12 ⬆  | 🧋 bobacup         | 1.03          | derinturitierutz      | 2025-08-25 16:20:37 |
+| 13 ⬆  | 🍱 tacklebox       | 0.81          | fishingalt            | 2025-11-04 13:24:20 |
+| 14 ⬆  | 🧟 deadbody        | 0.57          | destin357             | 2025-08-18 07:29:39 |
+| 15 ⬆  | 🗡️ dagger          | 0.56          | respirate_            | 2024-08-26 22:03:27 |
+| 16 ⬆  | 🦆 duck            | 0.48          | osnyatsky*            | 2023-07-25 17:55:46 |
+| 17 ⬆  | 🪲 beetle          | 0.47          | qu4ttromila           | 2025-06-25 10:39:09 |
+| 18 ⬇  | 🧴 sunscreenbottle | 0.46 (-0.94)  | wcd0                  | 2026-08-03 20:16:41 |
+| 19    | 🎰 slotmachine     | 0.42          | leanmeister           | 2025-04-17 00:15:18 |
+| 20    | 🐉 dragon          | 0.29          | ytp_dl                | 2026-04-30 09:11:12 |
+| 21    | 🦴 bone            | 0.28          | dazedforevermore      | 2026-07-27 12:48:30 |
+| 21    | 🪿 goose           | 0.28          | fishingalt            | 2026-01-01 09:54:57 |
+| 21    | 🍄‍🟫 mushroom        | 0.28          | osnyisdead            | 2025-01-14 02:54:02 |
 | 24    | 🐳 bluewhale       | 0.27          | esvelles              | 2026-01-13 12:03:33 |
 | 25    | 🧭 compass         | 0.25          | breadworms            | 2025-01-02 17:10:06 |
 | 26    | 🦫 beaver          | 0.22          | lluuucy               | 2025-12-01 03:14:34 |
@@ -32,8 +32,8 @@
 | 28    | 🌵 cactus          | 0.19          | breadworms            | 2025-08-26 21:41:29 |
 | 28    | 🕶️ darksunglasses  | 0.19          | leanmeister           | 2023-09-03 10:41:13 |
 | 30    | 🦢 swan            | 0.17          | lluuucy               | 2024-07-15 15:39:04 |
-| 31 ⬆  | 🦭 seal            | 0.15          | dazedforevermore      | 2024-01-28 16:20:04 |
-| 32 ⬇  | 🍥 sanddollar      | 0.14 (-0.03)  | wcd0                  | 2026-07-28 13:04:50 |
+| 31    | 🦭 seal            | 0.15          | dazedforevermore      | 2024-01-28 16:20:04 |
+| 32    | 🍥 sanddollar      | 0.14          | wcd0                  | 2026-07-28 13:04:50 |
 | 33    | 🪁 kite            | 0.12          | destin357             | 2025-06-29 13:18:44 |
 | 34    | 🦇 bat             | 0.11          | fishingalt            | 2026-03-22 09:34:41 |
 | 34    | 🩲 briefs          | 0.11          | derinturitierutz      | 2024-07-31 17:15:58 |
@@ -128,4 +128,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-08-02 09:38:53 UTC_
+_Last updated at 2026-08-09 10:31:19 UTC_

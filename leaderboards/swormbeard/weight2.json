@@ -463,7 +463,7 @@
 		"fishid": 123409,
 		"chatid": 253,
 		"date": "2024-11-20T18:39:22Z",
-		"rank": 94
+		"rank": 95
 	},
 	"125630": {
 		"player": "leanmeister",
@@ -492,7 +492,7 @@
 		"fishid": 125957,
 		"chatid": 285,
 		"date": "2024-11-29T19:07:42Z",
-		"rank": 97
+		"rank": 98
 	},
 	"126263": {
 		"player": "lluuucy",
@@ -567,7 +567,7 @@
 		"fishid": 155099,
 		"chatid": 314,
 		"date": "2025-03-14T22:02:31Z",
-		"rank": 92
+		"rank": 93
 	},
 	"155137": {
 		"player": "leanmeister",
@@ -640,7 +640,7 @@
 		"fishid": 155451,
 		"chatid": 351,
 		"date": "2025-03-15T18:10:47Z",
-		"rank": 96
+		"rank": 97
 	},
 	"155478": {
 		"player": "derinturitierutz",
@@ -756,7 +756,7 @@
 		"fishid": 156583,
 		"chatid": 418,
 		"date": "2025-03-18T16:45:50Z",
-		"rank": 99
+		"rank": 100
 	},
 	"156635": {
 		"player": "derintu",
@@ -940,7 +940,7 @@
 		"fishid": 204169,
 		"chatid": 507,
 		"date": "2025-10-03T19:39:17Z",
-		"rank": 91
+		"rank": 92
 	},
 	"207215": {
 		"player": "derintu",
@@ -968,7 +968,7 @@
 		"fishid": 207225,
 		"chatid": 535,
 		"date": "2025-10-11T18:05:50Z",
-		"rank": 98
+		"rank": 99
 	},
 	"207411": {
 		"player": "derintu",
@@ -1039,7 +1039,7 @@
 		"fishid": 216579,
 		"chatid": 623,
 		"date": "2025-11-19T06:28:03Z",
-		"rank": 93
+		"rank": 94
 	},
 	"216583": {
 		"player": "elisworm",
@@ -1081,7 +1081,7 @@
 		"fishid": 216758,
 		"chatid": 636,
 		"date": "2025-11-20T08:24:59Z",
-		"rank": 90
+		"rank": 91
 	},
 	"216914": {
 		"player": "elisworm",
@@ -1239,20 +1239,6 @@
 		"date": "2026-01-16T18:57:54Z",
 		"rank": 6
 	},
-	"236082": {
-		"player": "pinksynthesis29",
-		"playerid": 3984,
-		"weight": 34.54,
-		"bot": "gofishgame",
-		"fishtype": "🦞",
-		"fishname": "lobster",
-		"catchtype": "normal",
-		"chat": "swormbeard",
-		"fishid": 236082,
-		"chatid": 683,
-		"date": "2026-01-24T19:54:31Z",
-		"rank": 100
-	},
 	"236282": {
 		"player": "pinksynthesis29",
 		"playerid": 3984,
@@ -1322,7 +1308,7 @@
 		"fishid": 237989,
 		"chatid": 702,
 		"date": "2026-02-02T02:02:47Z",
-		"rank": 95
+		"rank": 96
 	},
 	"238452": {
 		"player": "pinksynthesis29",
@@ -1438,5 +1424,19 @@
 		"chatid": 774,
 		"date": "2026-04-27T18:19:41Z",
 		"rank": 38
+	},
+	"282789": {
+		"player": "ytp_dl",
+		"playerid": 112,
+		"weight": 39.99,
+		"bot": "gofishgame",
+		"fishtype": "🐬",
+		"fishname": "dolphin",
+		"catchtype": "normal",
+		"chat": "swormbeard",
+		"fishid": 282789,
+		"chatid": 870,
+		"date": "2026-08-07T16:21:41Z",
+		"rank": 90
 	}
 }

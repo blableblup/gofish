@@ -91,16 +91,16 @@
 | 87    | respirate_            | 🐊 crocodile | 41.47         | 2024-09-01 18:00:28 |
 | 88    | sicklymaidrobot       | 🪨 rock      | 41.20         | 2024-09-04 23:11:31 |
 | 89    | ytp_dl                | 🐢 turtle    | 40.31         | 2026-03-05 00:48:17 |
-| 90    | elisworm              | 🦑 squid     | 39.85         | 2025-11-20 08:24:59 |
-| 91    | derintu               | 🐢 turtle    | 38.67         | 2025-10-03 19:39:17 |
-| 92    | dazedforevermore      | 🦫 beaver    | 37.92         | 2025-03-14 22:02:31 |
-| 93    | elisworm              | 🦪 oyster    | 37.79         | 2025-11-19 06:28:03 |
-| 94    | lluuucy               | 🐢 turtle    | 37.40         | 2024-11-20 18:39:22 |
-| 95    | pinksynthesis29       | 🐊 crocodile | 37.38         | 2026-02-02 02:02:47 |
-| 96    | kishma9               | 🦭 seal      | 36.84         | 2025-03-15 18:10:47 |
-| 97    | ninjaross             | 🐢 turtle    | 36.15         | 2024-11-29 19:07:42 |
-| 98    | derintu               | 🐢 turtle    | 36.02         | 2025-10-11 18:05:50 |
-| 99    | derintu               | 🐊 crocodile | 35.30         | 2025-03-18 16:45:50 |
-| 100   | pinksynthesis29       | 🦞 lobster   | 34.54         | 2026-01-24 19:54:31 |
+| 90 🆕 | ytp_dl                | 🐬 dolphin   | 39.99         | 2026-08-07 16:21:41 |
+| 91 ⬇  | elisworm              | 🦑 squid     | 39.85         | 2025-11-20 08:24:59 |
+| 92 ⬇  | derintu               | 🐢 turtle    | 38.67         | 2025-10-03 19:39:17 |
+| 93 ⬇  | dazedforevermore      | 🦫 beaver    | 37.92         | 2025-03-14 22:02:31 |
+| 94 ⬇  | elisworm              | 🦪 oyster    | 37.79         | 2025-11-19 06:28:03 |
+| 95 ⬇  | lluuucy               | 🐢 turtle    | 37.40         | 2024-11-20 18:39:22 |
+| 96 ⬇  | pinksynthesis29       | 🐊 crocodile | 37.38         | 2026-02-02 02:02:47 |
+| 97 ⬇  | kishma9               | 🦭 seal      | 36.84         | 2025-03-15 18:10:47 |
+| 98 ⬇  | ninjaross             | 🐢 turtle    | 36.15         | 2024-11-29 19:07:42 |
+| 99 ⬇  | derintu               | 🐢 turtle    | 36.02         | 2025-10-11 18:05:50 |
+| 100 ⬇ | derintu               | 🐊 crocodile | 35.30         | 2025-03-18 16:45:50 |
 
-_Last updated at 2026-05-10 08:55:50 UTC_
+_Last updated at 2026-08-09 10:32:37 UTC_

@@ -2,6 +2,7 @@
 
 | Rank | Fish               | Weight in lbs | Player       | Date in UTC         |
 |:-----|:-------------------|:--------------|:-------------|:--------------------|
+| 122  | 🧋 bobacup         | 6.30          | larvaew      | 2026-08-04 18:15:06 |
 | 121  | 🦋 butterfly       | 0.22          | mangos4u     | 2026-07-20 21:10:21 |
 | 120  | 🦉 owl             | 2.43          | mangos4u     | 2026-06-26 19:21:21 |
 | 119  | 🍇 crowberries     | 0.37          | blu_inx      | 2026-06-23 17:07:59 |
@@ -46,9 +47,9 @@
 | 80   | ⛸️ iceskate        | 1.74          | solitahh     | 2024-12-26 01:24:15 |
 | 79   | 🐧 penguin         | 39.82         | mangos4u     | 2024-12-25 01:36:57 |
 | 78   | 🧭 compass         | 1.32          | mangos4u     | 2024-12-24 15:01:54 |
-| 75   | 🎀 wrappingpaper   | 0.00          | mangos4u     | 2024-12-24 11:20:20 |
 | 75   | 🍊 orange          | 0.00          | mangos4u     | 2024-12-24 11:20:20 |
 | 75   | 🍪 cookie          | 0.00          | mangos4u     | 2024-12-24 11:20:20 |
+| 75   | 🎀 wrappingpaper   | 0.00          | mangos4u     | 2024-12-24 11:20:20 |
 | 74   | 🎁 present         | 0.00          | mangos4u     | 2024-12-24 11:20:05 |
 | 73   | 🐻‍❄️ polarbear       | 14.64         | mangos4u     | 2024-12-23 16:03:38 |
 | 72   | 🔔 bell            | 0.00          | mangos4u     | 2024-12-20 13:44:13 |
@@ -124,4 +125,4 @@
 | 2    | 🐡 blowfish        | 15.39         | ritaaww      | 2024-08-03 21:47:08 |
 | 1    | 🦞 lobster         | 28.99         | aliveleader  | 2024-08-03 21:45:17 |
 
-_Last updated at 2026-07-26 09:21:08 UTC_
+_Last updated at 2026-08-09 10:30:42 UTC_

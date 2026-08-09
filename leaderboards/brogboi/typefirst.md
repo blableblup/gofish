@@ -2,6 +2,7 @@
 
 | Rank | Fish               | Weight in lbs | Player               | Date in UTC         |
 |:-----|:-------------------|:--------------|:---------------------|:--------------------|
+| 47   | 🍥 sanddollar      | 0.19          | whotookmamulukkikala | 2026-08-05 14:51:08 |
 | 46   | 🧋 bobacup         | 10.50         | littlemunnster       | 2026-07-27 14:45:30 |
 | 45   | 🧴 sunscreenbottle | 0.96          | xknownplayer         | 2026-07-23 13:59:18 |
 | 44   | 🦆 duck            | 3.49          | littlemunnster       | 2026-07-20 13:59:27 |
@@ -49,4 +50,4 @@
 | 2    | 🐢 turtle          | 42.95         | brogboi              | 2026-06-06 19:48:35 |
 | 1    | 💀 skull           | 3.85          | brogboi              | 2026-06-05 17:07:40 |
 
-_Last updated at 2026-08-02 09:37:47 UTC_
+_Last updated at 2026-08-09 10:30:42 UTC_

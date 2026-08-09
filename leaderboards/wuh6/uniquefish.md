@@ -4,19 +4,19 @@
 |:------|:--------------------------|:----------|
 | 1 🥇  | eeziiii                   | 116       |
 | 2 🥈  | theevirus                 | 113       |
-| 3 🥉  | iflya320                  | 111       |
+| 3 🥉  | iflya320                  | 112 (+1)  |
 | 4     | bubinga                   | 110       |
-| 4 ⬆   | lobuhtomy                 | 110 (+1)  |
+| 4     | lobuhtomy                 | 110       |
 | 6     | ranctious                 | 104       |
-| 7     | nndiana*                  | 101 (+1)  |
-| 8 ⬆   | wowitsdub                 | 98 (+3)   |
-| 9 ⬇   | huuuuuuuuuuuuuuuuuuuuuurz | 96        |
+| 7     | nndiana*                  | 101       |
+| 8     | wowitsdub                 | 100 (+2)  |
+| 9     | huuuuuuuuuuuuuuuuuuuuuurz | 96        |
 | 10    | gorillapark               | 90        |
 | 11    | veny2lbs                  | 82        |
-| 12    | feelsaceman               | 70 (+2)   |
-| 13    | rancbot                   | 67 (+2)   |
-| 14    | caprisen_*                | 63 (+1)   |
-| 15 ⬇  | mazzo_tv                  | 62        |
+| 12    | feelsaceman               | 70        |
+| 13    | rancbot                   | 69 (+2)   |
+| 14    | caprisen_*                | 63        |
+| 15    | mazzo_tv                  | 62        |
 | 16    | commanda_u                | 58        |
 | 16    | supibot                   | 58        |
 | 18    | bcarw                     | 55        |
@@ -28,9 +28,9 @@
 | 22    | thetaxmen                 | 49        |
 | 25    | ewpert1                   | 48        |
 | 26    | flvx_flux*                | 45        |
+| 27 ⬆  | r3kko_                    | 44 (+1)   |
 | 27    | teddbearcs                | 44        |
-| 28    | glorianeq                 | 43        |
-| 28 ⬆  | r3kko_                    | 43 (+1)   |
+| 29 ⬇  | glorianeq                 | 43        |
 | 30    | jr_mime                   | 40        |
 | 31    | benciee                   | 39        |
 | 31    | poons_u                   | 39        |
@@ -54,11 +54,11 @@
 | 48    | rottarded                 | 21        |
 | 51    | mrsmalvic                 | 20        |
 | 51    | nightbot                  | 20        |
-| 51 🆕 | sillyfellow32             | 20        |
+| 51    | sillyfellow32             | 20        |
 | 51    | xyqra                     | 20        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-08-02 09:35:48 UTC_
+_Last updated at 2026-08-09 10:28:44 UTC_

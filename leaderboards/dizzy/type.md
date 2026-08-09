@@ -64,13 +64,13 @@
 | 60    | 🦎 lizard         | 9.91          | synncss        | 2024-11-01 01:12:13 |
 | 61    | 🕶️ darksunglasses | 9.87          | gimmeschmoneys | 2024-10-22 11:25:00 |
 | 62    | 🧥 coat           | 6.78          | glorp_fishing  | 2025-02-18 01:35:25 |
-| 63    | 🐚 shell          | 5.90          | gimmeschmoneys | 2025-05-03 20:58:43 |
-| 64    | 🥫 cannedfood     | 5.88          | gimmeschmoneys | 2025-03-02 04:38:49 |
-| 65    | 🧵 wireline       | 5.77          | glorp_fishing  | 2025-06-21 00:07:05 |
-| 66    | 🐦 cardinal       | 5.18          | hamoodhabibee  | 2025-04-21 22:06:03 |
-| 67    | 🎏 lure           | 4.97          | rougep1rate    | 2025-02-02 21:36:15 |
-| 68    | 🪝 hook           | 4.72          | nolifeben1     | 2025-02-05 02:21:58 |
-| 69    | 🌵 cactus         | 4.18          | gimmeschmoneys | 2025-08-30 17:50:05 |
+| 63 ⬆  | 🌵 cactus         | 6.51 (+2.33)  | buhl00n        | 2026-08-05 03:12:21 |
+| 64 ⬇  | 🐚 shell          | 5.90          | gimmeschmoneys | 2025-05-03 20:58:43 |
+| 65 ⬇  | 🥫 cannedfood     | 5.88          | gimmeschmoneys | 2025-03-02 04:38:49 |
+| 66 ⬇  | 🧵 wireline       | 5.77          | glorp_fishing  | 2025-06-21 00:07:05 |
+| 67 ⬇  | 🐦 cardinal       | 5.18          | hamoodhabibee  | 2025-04-21 22:06:03 |
+| 68 ⬇  | 🎏 lure           | 4.97          | rougep1rate    | 2025-02-02 21:36:15 |
+| 69 ⬇  | 🪝 hook           | 4.72          | nolifeben1     | 2025-02-05 02:21:58 |
 | 70    | ☘️ clover         | 3.99          | glorp_fishing  | 2025-04-04 08:21:18 |
 | 71    | 🪁 kite           | 3.58          | buhl00n        | 2025-07-15 07:58:53 |
 | 72    | 🌰 acorn          | 3.26          | gofishgamer    | 2024-10-25 03:40:01 |
@@ -109,4 +109,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-05-10 08:57:43 UTC_
+_Last updated at 2026-08-09 10:29:11 UTC_

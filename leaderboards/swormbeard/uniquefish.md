@@ -2,21 +2,21 @@
 
 | Rank  | Player           | Fish seen |
 |:------|:-----------------|:----------|
-| 1 🥇  | derintu          | 47 (+1)   |
+| 1 🥇  | derintu          | 47        |
 | 2 🥈  | respirate_       | 31        |
 | 3 🥉  | leanmeister      | 29        |
 | 3 🥉  | lluuucy          | 29        |
-| 5     | ytp_dl*          | 26        |
+| 5     | ytp_dl*          | 27 (+1)   |
 | 6     | derinturitierutz | 23        |
 | 7     | pinksynthesis29  | 20        |
 | 8     | dazedforevermore | 18        |
 | 9     | elisworm         | 17        |
-| 10 ⬆  | kishma9          | 15 (+2)   |
-| 11 ⬇  | ninjaross*       | 14        |
-| 12 🆕 | cumgi            | 11        |
+| 10    | kishma9          | 15        |
+| 11    | ninjaross*       | 14        |
+| 12    | cumgi            | 11        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2026-07-26 09:23:05 UTC_
+_Last updated at 2026-08-09 10:28:44 UTC_
