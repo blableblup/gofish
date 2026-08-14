@@ -5,7 +5,7 @@
 | 1 🥇  | osnyisdead                | 80          | 54               | 37               | 312.5        |
 | 2 🥈  | lluuucy                   | 43          | 81               | 47               | 233.5        |
 | 3 🥉  | leanmeister               | 51          | 16               | 12               | 175.0        |
-| 4     | esvelles                  | 35          | 29               | 12 (+2)          | 140.0 (+1.0) |
+| 4     | esvelles                  | 36 (+1)     | 30 (+1)          | 12               | 144.0 (+4.0) |
 | 5     | destin357                 | 34          | 25               | 7                | 130.5        |
 | 6     | puzzlow                   | 35          | 15               | 14               | 127.0        |
 | 7     | derinturitierutz          | 35          | 7                | 16               | 120.0        |
@@ -14,16 +14,16 @@
 | 10    | qu4ttromila               | 12          | 19               | 24               | 67.0         |
 | 11    | kishma9                   | 11          | 19               | 11               | 57.5         |
 | 12    | miiiiisho                 | 8           | 21               | 14               | 52.0         |
-| 13    | dazedforevermore          | 10          | 11               | 16 (+1)          | 49.0 (+0.5)  |
+| 13    | dazedforevermore          | 10          | 11               | 16               | 49.0         |
 | 14    | sussy_amonge              | 12          | 4                | 7                | 43.5         |
+| 15 ⬆  | fishingalt                | 7 (+1)      | 9                | 16               | 38.0 (+3.0)  |
 | 15    | sicklymaidrobot           | 5           | 10               | 26               | 38.0         |
-| 16    | ytp_dl                    | 5           | 14               | 16               | 37.0         |
-| 17    | comiqq                    | 5           | 14               | 13               | 35.5         |
-| 18    | fishingalt                | 6 (+1)      | 9                | 16               | 35.0 (+3.0)  |
-| 19 ⬆  | wcd0                      | 6 (+2)      | 5                | 7                | 26.5 (+6.0)  |
-| 20 ⬇  | cumgi                     | 3           | 5                | 17               | 22.5         |
-| 21 ⬇  | dougiefresh_83            | 6           | 2                | 4                | 22.0         |
-| 22    | larvaew                   | 4           | 4 (+1)           | 6                | 19.0 (+1.0)  |
+| 17 ⬇  | ytp_dl                    | 5           | 14               | 16               | 37.0         |
+| 18 ⬇  | comiqq                    | 5           | 14               | 13               | 35.5         |
+| 19    | eagueoflegends            | 7 (+1)      | 7 (+2)           | 7                | 31.5 (+5.0)  |
+| 20 ⬆  | dougiefresh_83            | 6           | 2                | 6 (+2)           | 23.0 (+1.0)  |
+| 21 ⬇  | cumgi                     | 3           | 5                | 17               | 22.5         |
+| 22    | larvaew                   | 4           | 4                | 6                | 19.0         |
 | 23    | booty_bread               | 4           | 2                | 6                | 17.0         |
 | 24    | ryebreadward              | 3           | 3                | 6                | 15.0         |
 | 25    | ninjaross                 | 2           | 2                | 10               | 13.0         |
@@ -44,8 +44,8 @@
 | 39    | pinksynthesis29           | 0           | 1                | 4                | 3.0          |
 | 39    | receipts                  | 0           | 2                | 2                | 3.0          |
 | 42    | houseofleaves             | 0           | 2                | 1                | 2.5          |
-| 43    | bussinongnocap            | 0           | 1                | 2                | 2.0          |
-| 43    | ommcyrene                 | 0           | 1                | 2                | 2.0          |
+| 42 ⬆  | ommcyrene                 | 0           | 1                | 3 (+1)           | 2.5 (+0.5)   |
+| 44 ⬇  | bussinongnocap            | 0           | 1                | 2                | 2.0          |
 | 45    | michael_bay65             | 0           | 0                | 3                | 1.5          |
 | 46    | bapqo                     | 0           | 0                | 2                | 1.0          |
 | 46    | gawblemachine             | 0           | 1                | 0                | 1.0          |
@@ -56,4 +56,4 @@
 | 49    | niiy                      | 0           | 0                | 1                | 0.5          |
 | 49    | shojan                    | 0           | 0                | 1                | 0.5          |
 
-_Last updated at 2026-08-05 20:01:17 UTC_
+_Last updated at 2026-08-14 10:23:25 UTC_

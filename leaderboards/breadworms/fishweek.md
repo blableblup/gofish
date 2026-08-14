@@ -36,10 +36,10 @@
 | 32    | hmsmob*               | 52          |
 | 32    | michael_bay65         | 52          |
 | 34    | bapqo                 | 49          |
-| 34 ⬆  | wcd0                  | 49 (+4)     |
-| 36 ⬇  | osnyatsky             | 47          |
-| 37 ⬇  | paras220              | 46          |
-| 37 ⬇  | ytp_dl                | 46          |
+| 34    | eagueoflegends        | 49          |
+| 36    | osnyatsky             | 47          |
+| 37    | paras220              | 46          |
+| 37    | ytp_dl                | 46          |
 | 39    | ninjaross             | 44          |
 | 40    | ouacewi               | 43          |
 | 41    | houseofleaves         | 42          |
@@ -63,4 +63,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2026-08-05 20:01:17 UTC_
+_Last updated at 2026-08-14 10:23:25 UTC_
