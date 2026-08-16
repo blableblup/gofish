@@ -562,6 +562,10 @@
 				{
 					"url": "https://logs.spanix.team",
 					"logs_added": "2026/7"
+				},
+				{
+					"url": "https://logs.susgee.dev",
+					"logs_added": "2026/8"
 				}
 			],
 			"checkfdata": true,
@@ -1002,7 +1006,7 @@
 			"checkfdata": true,
 			"board_enabled": true
 		},
-		"overhatecore": {
+		"ovrhtcd": {
 			"twitchid": "514679460",
 			"logs_instances": [
 				{
