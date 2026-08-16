@@ -7,10 +7,10 @@
 | 3 🥉  | lolspers    | 2000.30             |
 | 4     | gofishgamer | 1015.52             |
 | 5     | respirate_  | 567.11              |
-| 6     | gibbbons    | 543.63              |
+| 6     | gibbbons    | 544.05 (+0.42)      |
 | 7     | elisworm    | 305.09              |
 | 8     | v6r_        | 217.03              |
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-08-02 09:39:45 UTC_
+_Last updated at 2026-08-16 11:46:01 UTC_

@@ -2,11 +2,11 @@
 
 | Rank | Fish              | Weight in lbs | Player          | Date in UTC         |
 |:-----|:------------------|:--------------|:----------------|:--------------------|
-| 109  | 🌵 cactus         | 6.51          | buhl00n         | 2026-08-05 03:12:21 |
-| 108  | 🪼 jellyfish      | 10.33         | ofaisalz        | 2026-07-27 18:07:48 |
-| 107  | 🕷️ spider         | 1.20          | hamoodhabibee   | 2026-07-22 18:42:44 |
-| 106  | 🫙 jar            | 0.52          | hamoodhabibee   | 2026-07-21 20:23:36 |
-| 105  | 🐙 octopus        | 8.56          | hamoodhabibee   | 2026-07-17 22:41:51 |
+| 109  | 🐙 octopus        | 32.23         | greenfatso      | 2026-08-14 21:06:47 |
+| 108  | 🪼 jellyfish      | 15.23         | baiii__         | 2026-08-09 10:35:18 |
+| 107  | 🌵 cactus         | 6.51          | buhl00n         | 2026-08-05 03:12:21 |
+| 106  | 🕷️ spider         | 1.20          | hamoodhabibee   | 2026-07-22 18:42:44 |
+| 105  | 🫙 jar            | 0.52          | hamoodhabibee   | 2026-07-21 20:23:36 |
 | 104  | 🦐 shrimp         | 6.43          | hamoodhabibee   | 2026-07-01 23:46:01 |
 | 103  | 🐠 tropicalfish   | 15.03         | ofaisalz        | 2026-06-09 16:11:44 |
 | 102  | 🦪 oyster         | 17.35         | meppppi         | 2026-05-22 21:31:52 |
@@ -112,4 +112,4 @@
 | 2    | 👑 crown          | 30.94         | glorp_fishing   | 2024-12-12 21:16:52 |
 | 1    | 🧞‍♂️ genie          | 17.60         | feuha           | 2024-11-01 09:40:30 |
 
-_Last updated at 2026-08-09 10:28:45 UTC_
+_Last updated at 2026-08-16 11:44:10 UTC_

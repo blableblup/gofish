@@ -1,8 +1,8 @@
-### Biggest fish caught per player in overhatecore's chat
+### Biggest fish caught per player in ovrhtcd's chat
 
 | Rank  | Player           | Fish         | Weight in lbs | Date in UTC         |
 |:------|:-----------------|:-------------|:--------------|:--------------------|
-| 1 🥇  | overhatecore     | 🐳 bluewhale | 287.76        | 2024-08-11 09:56:21 |
+| 1 🥇  | ovrhtcd          | 🐳 bluewhale | 287.76        | 2024-08-11 09:56:21 |
 | 2 🥈  | alenakuz03       | 🐉 dragon    | 236.79        | 2023-12-19 18:47:04 |
 | 3 🥉  | sgv4bl           | 🦕 sauropod  | 208.67        | 2024-09-21 17:01:13 |
 | 4     | offwhiteairforc3 | 🦈 shark     | 185.21        | 2024-09-15 05:43:00 |
@@ -20,4 +20,4 @@
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2026-07-26 09:23:02 UTC_
+_Last updated at 2026-08-16 11:48:32 UTC_

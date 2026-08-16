@@ -2,7 +2,7 @@
 
 | Rank | Fish               | Weight in lbs | Player                | Date in UTC         |
 |:-----|:-------------------|:--------------|:----------------------|:--------------------|
-| 81   | 🧴 sunscreenbottle | 5.96          | wcd0                  | 2026-08-04 20:12:06 |
+| 81   | 🧴 sunscreenbottle | 5.96          | eagueoflegends        | 2026-08-04 20:12:06 |
 | 80   | 🦴 bone            | 0.67          | derintu               | 2026-07-19 19:52:38 |
 | 79   | 🐜 ant             | 0.75          | derintu               | 2026-07-14 20:41:09 |
 | 78   | 🐛 caterpillar     | 0.90          | derinturitierutz      | 2026-07-14 19:21:09 |
@@ -83,4 +83,4 @@
 | 2    | 🦐 shrimp          | 3.14          | bapqo                 | 2024-07-28 22:59:12 |
 | 1    | 🐊 crocodile       | 105.00        | julialuxel            | 2024-07-28 22:59:00 |
 
-_Last updated at 2026-08-09 10:30:42 UTC_
+_Last updated at 2026-08-16 11:46:05 UTC_

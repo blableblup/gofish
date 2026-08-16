@@ -64,8 +64,8 @@
 | 60    | 🐦 cardinal        | 11.96         | julialuxel               | 2024-04-25 00:21:16 |
 | 61    | 🧃 beveragebox     | 11.87         | leanmeister              | 2025-06-12 05:56:46 |
 | 62    | 👒 hat             | 11.85         | sussy_amonge             | 2023-08-23 21:47:21 |
-| 63    | 🧥 coat            | 11.62         | derinturitierutz         | 2025-03-25 12:20:39 |
-| 64    | 🧴 sunscreenbottle | 11.19 (+0.07) | wcd0                     | 2026-08-03 19:33:04 |
+| 63 ⬆  | 🧴 sunscreenbottle | 11.68 (+0.49) | esvelles                 | 2026-08-11 16:40:10 |
+| 64 ⬇  | 🧥 coat            | 11.62         | derinturitierutz         | 2025-03-25 12:20:39 |
 | 65    | 🪹 emptynest       | 10.99         | fvkdylan                 | 2025-03-15 04:16:42 |
 | 66    | 🪺 nestwitheggs    | 10.95         | ytp_dl                   | 2026-03-22 15:30:55 |
 | 67    | 🩲 briefs          | 10.94         | derintu                  | 2025-07-10 13:16:26 |
@@ -118,9 +118,9 @@
 | 114   | 🍥 sanddollar      | 0.85          | derinturitierutz         | 2025-08-26 12:01:59 |
 | 115   | 🫐 bilberries      | 0.84          | dougiefresh_83           | 2026-06-22 22:13:23 |
 | 115   | 🍇 crowberries     | 0.84          | kishma9                  | 2026-06-22 20:55:31 |
-| 117   | 🐜 ant             | 0.78          | dazedforevermore         | 2026-07-21 08:54:05 |
-| 118 ⬆ | 🪲 beetle          | 0.69 (+0.22)  | larvaew                  | 2026-08-03 23:54:01 |
-| 119 ⬇ | 🦟 mosquito        | 0.65          | derintu                  | 2026-07-27 17:19:23 |
+| 117   | 🐜 ant             | 0.80 (+0.02)  | fishingalt               | 2026-08-11 14:14:31 |
+| 118   | 🪲 beetle          | 0.69          | larvaew                  | 2026-08-03 23:54:01 |
+| 119   | 🦟 mosquito        | 0.65          | derintu                  | 2026-07-27 17:19:23 |
 | 120   | 🐞 ladybug         | 0.37          | derintu                  | 2025-08-31 20:38:14 |
 | 121   | 🦋 butterfly       | 0.35          | larvaew                  | 2026-07-07 09:51:01 |
 | 122   | 🪰 fly             | 0.34          | derinturitierutz         | 2026-06-25 14:46:09 |
@@ -128,4 +128,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-08-09 10:30:00 UTC_
+_Last updated at 2026-08-16 11:44:38 UTC_

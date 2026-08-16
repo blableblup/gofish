@@ -1,8 +1,8 @@
-### Most fish caught in overhatecore's chat
+### Most fish caught in ovrhtcd's chat
 
 | Rank  | Player           | Fish caught |
 |:------|:-----------------|:------------|
-| 1 🥇  | overhatecore     | 246 (+1)    |
+| 1 🥇  | ovrhtcd          | 248 (+2)    |
 | 2 🥈  | alenakuz03       | 117         |
 | 3 🥉  | sgv4bl           | 91          |
 | 4     | dan1lew          | 67          |
@@ -25,4 +25,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-08-09 10:30:41 UTC_
+_Last updated at 2026-08-16 11:48:34 UTC_

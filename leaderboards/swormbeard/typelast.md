@@ -4,12 +4,12 @@
 |:-----|:-------------------|:--------------|:----------------------|:--------------------|
 | 80   | 🐬 dolphin         | 39.99         | ytp_dl                | 2026-08-07 16:21:41 |
 | 79   | 🫙 jar             | 0.49          | ytp_dl                | 2026-08-05 16:06:33 |
-| 78   | 🧴 sunscreenbottle | 5.96          | wcd0                  | 2026-08-04 20:12:06 |
-| 77   | 🪳 cockroach       | 16.74         | wcd0                  | 2026-07-30 20:13:37 |
+| 78   | 🧴 sunscreenbottle | 5.96          | eagueoflegends        | 2026-08-04 20:12:06 |
+| 77   | 🪳 cockroach       | 16.74         | eagueoflegends        | 2026-07-30 20:13:37 |
 | 76   | 🦐 shrimp          | 4.11          | fvkdylan              | 2026-07-21 03:19:52 |
 | 75   | 🦴 bone            | 6.60          | kishma9               | 2026-07-21 02:33:34 |
 | 74   | 🕸️ spiderweb       | 0.01          | cumgi                 | 2026-07-20 21:55:08 |
-| 73   | 🐟 fish            | 8.70          | wcd0                  | 2026-07-19 20:56:08 |
+| 73   | 🐟 fish            | 8.70          | eagueoflegends        | 2026-07-19 20:56:08 |
 | 72   | 🐜 ant             | 0.49          | derinturitierutz      | 2026-07-19 20:56:05 |
 | 71   | 🕷️ spider          | 0.99          | derintu               | 2026-07-19 20:55:50 |
 | 70   | 🐌 snail           | 0.28          | derinturitierutz      | 2026-07-19 19:54:43 |
@@ -59,7 +59,7 @@
 | 26   | 💀 skull           | 7.63          | elisworm              | 2025-11-19 09:22:37 |
 | 25   | 🧤 gloves          | 0.74          | derintu               | 2025-11-12 18:47:14 |
 | 24   | 👢 boot            | 0.60          | derintu               | 2025-11-12 18:13:19 |
-| 23   | 🧽 sponge          | 13.63         | wcd0                  | 2025-11-07 00:53:25 |
+| 23   | 🧽 sponge          | 13.63         | eagueoflegends        | 2025-11-07 00:53:25 |
 | 22   | 🌰 acorn           | 0.47          | derintu               | 2025-11-01 18:18:08 |
 | 21   | 🍁 leaf            | 0.96          | larvaew               | 2025-10-30 21:27:22 |
 | 20   | 🍃 deadleaves      | 1.50          | derinturitierutz      | 2025-10-30 20:57:07 |
@@ -83,4 +83,4 @@
 | 2    | 🩴 thongsandal     | 0.65          | dazedforevermore      | 2024-08-03 15:29:46 |
 | 1    | 🕶️ darksunglasses  | 11.39         | respirate_            | 2024-07-29 07:01:49 |
 
-_Last updated at 2026-08-09 10:28:45 UTC_
+_Last updated at 2026-08-16 11:44:10 UTC_

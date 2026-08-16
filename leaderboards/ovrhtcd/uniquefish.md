@@ -1,8 +1,8 @@
-### Players who have seen the most fish in overhatecore's chat
+### Players who have seen the most fish in ovrhtcd's chat
 
 | Rank  | Player           | Fish seen |
 |:------|:-----------------|:----------|
-| 1 🥇  | overhatecore     | 50        |
+| 1 🥇  | ovrhtcd          | 50        |
 | 2 🥈  | alenakuz03       | 34        |
 | 2 🥈  | sgv4bl           | 34        |
 | 4     | dan1lew          | 29        |
@@ -25,4 +25,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2026-07-26 09:23:05 UTC_
+_Last updated at 2026-08-16 11:48:30 UTC_

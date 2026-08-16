@@ -51,8 +51,8 @@
 | 47    | 🍄 oceanplant      | 17.89         | deatron                   | 2026-01-19 19:50:16 |
 | 48    | 🧭 compass         | 17.75         | pylonii                   | 2024-01-01 22:13:11 |
 | 49    | 🦴 bone            | 16.95         | luneckie                  | 2026-07-31 22:15:48 |
-| 50    | 🦆 duck            | 15.55         | sameone                   | 2023-09-07 09:03:09 |
-| 51    | 🪵 log             | 15.54         | nndiana                   | 2026-02-09 19:46:22 |
+| 50 ⬆  | 🪵 log             | 15.86 (+0.32) | poons_u                   | 2026-08-15 01:10:21 |
+| 51 ⬇  | 🦆 duck            | 15.55         | sameone                   | 2023-09-07 09:03:09 |
 | 52    | 🪀 bobber          | 14.82         | jem_mp3                   | 2024-03-28 22:56:08 |
 | 53    | 🕶️ darksunglasses  | 12.90         | themeatball               | 2024-09-29 20:03:22 |
 | 54    | 🧃 beveragebox     | 12.83         | huuuuuuuuuuuuuuuuuuuuuurz | 2023-09-27 10:52:21 |
@@ -64,11 +64,11 @@
 | 60    | 🧊 icecube         | 10.89         | mazzo_tv                  | 2025-12-16 08:01:05 |
 | 60    | 💀 skull           | 10.89         | yvhsu                     | 2024-10-12 08:17:27 |
 | 62    | 🦎 lizard          | 10.84         | bosscrazymen              | 2023-12-17 18:48:58 |
-| 63    | 🎱 8ball           | 10.82         | 0_asd                     | 2024-03-31 10:49:57 |
-| 64    | 🪺 nestwitheggs    | 10.69         | jayayseaohbe              | 2025-12-14 03:27:36 |
-| 65    | 🪁 kite            | 10.68         | bluberry                  | 2025-07-13 06:00:03 |
-| 66    | 🩲 briefs          | 10.49         | jayayseaohbe              | 2025-07-24 11:51:44 |
-| 67    | 🧋 bobacup         | 10.21         | inders                    | 2026-07-25 17:30:48 |
+| 63 ⬆  | 🧋 bobacup         | 10.83 (+0.62) | adankman                  | 2026-08-11 08:56:12 |
+| 64 ⬇  | 🎱 8ball           | 10.82         | 0_asd                     | 2024-03-31 10:49:57 |
+| 65 ⬇  | 🪺 nestwitheggs    | 10.69         | jayayseaohbe              | 2025-12-14 03:27:36 |
+| 66 ⬇  | 🪁 kite            | 10.68         | bluberry                  | 2025-07-13 06:00:03 |
+| 67 ⬇  | 🩲 briefs          | 10.49         | jayayseaohbe              | 2025-07-24 11:51:44 |
 | 68    | 🌵 cactus          | 9.37          | feelsaceman               | 2026-07-24 01:02:31 |
 | 69    | 🐦 cardinal        | 9.22          | zwockel01                 | 2024-07-04 11:25:35 |
 | 70    | 🧥 coat            | 7.42          | deatron                   | 2026-01-01 11:53:17 |
@@ -111,13 +111,13 @@
 | 106   | 🧤 gloves          | 1.00          | kubo7                     | 2024-01-27 18:51:58 |
 | 106   | 🪚 icesaw          | 1.00          | feelsaceman               | 2026-02-16 11:45:50 |
 | 109   | 🌾 grass           | 0.99          | nndiana                   | 2026-07-07 03:26:58 |
-| 109 ⬆ | 🍥 sanddollar      | 0.99 (+0.04)  | ducksleazzy               | 2026-08-05 19:17:38 |
-| 111 ⬇ | 🍇 crowberries     | 0.96          | lobuhtomy                 | 2026-06-22 20:37:54 |
+| 109   | 🍥 sanddollar      | 0.99          | ducksleazzy               | 2026-08-05 19:17:38 |
+| 111   | 🍇 crowberries     | 0.96          | lobuhtomy                 | 2026-06-22 20:37:54 |
 | 112   | 🧣 scarf           | 0.92          | blazeblitzzz              | 2024-02-01 23:11:44 |
 | 113   | 🐿️ squirrel        | 0.90          | iflya320                  | 2024-12-04 11:13:44 |
 | 114   | 🐜 ant             | 0.83          | esca1g                    | 2026-07-23 08:56:30 |
-| 115   | 🦟 mosquito        | 0.63 (+0.01)  | luneckie                  | 2026-08-02 17:00:36 |
-| 116 ⬇ | 🪿 goose           | 0.62          | llikotesnecil             | 2026-01-05 01:54:01 |
+| 115   | 🦟 mosquito        | 0.63          | luneckie                  | 2026-08-02 17:00:36 |
+| 116   | 🪿 goose           | 0.62          | llikotesnecil             | 2026-01-05 01:54:01 |
 | 117   | 🦋 butterfly       | 0.34          | feelsaceman               | 2026-07-24 22:27:45 |
 | 118   | 🪰 fly             | 0.33          | feelsaceman               | 2026-07-20 02:42:39 |
 | 119   | 🐞 ladybug         | 0.26          | luneckie                  | 2026-07-20 20:41:34 |
@@ -126,4 +126,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-08-09 10:30:16 UTC_
+_Last updated at 2026-08-16 11:45:56 UTC_

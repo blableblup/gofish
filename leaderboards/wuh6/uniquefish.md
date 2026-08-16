@@ -4,17 +4,17 @@
 |:------|:--------------------------|:----------|
 | 1 🥇  | eeziiii                   | 116       |
 | 2 🥈  | theevirus                 | 113       |
-| 3 🥉  | iflya320                  | 112 (+1)  |
+| 3 🥉  | iflya320                  | 112       |
 | 4     | bubinga                   | 110       |
 | 4     | lobuhtomy                 | 110       |
 | 6     | ranctious                 | 104       |
 | 7     | nndiana*                  | 101       |
-| 8     | wowitsdub                 | 100 (+2)  |
+| 8     | wowitsdub                 | 100       |
 | 9     | huuuuuuuuuuuuuuuuuuuuuurz | 96        |
 | 10    | gorillapark               | 90        |
 | 11    | veny2lbs                  | 82        |
 | 12    | feelsaceman               | 70        |
-| 13    | rancbot                   | 69 (+2)   |
+| 13    | rancbot                   | 69        |
 | 14    | caprisen_*                | 63        |
 | 15    | mazzo_tv                  | 62        |
 | 16    | commanda_u                | 58        |
@@ -28,9 +28,9 @@
 | 22    | thetaxmen                 | 49        |
 | 25    | ewpert1                   | 48        |
 | 26    | flvx_flux*                | 45        |
-| 27 ⬆  | r3kko_                    | 44 (+1)   |
+| 27    | r3kko_                    | 44        |
 | 27    | teddbearcs                | 44        |
-| 29 ⬇  | glorianeq                 | 43        |
+| 29    | glorianeq                 | 43        |
 | 30    | jr_mime                   | 40        |
 | 31    | benciee                   | 39        |
 | 31    | poons_u                   | 39        |
@@ -40,11 +40,11 @@
 | 36    | araqs                     | 29        |
 | 36    | ceriise__                 | 29        |
 | 36    | flunke_                   | 29        |
+| 39 ⬆  | funnywhitecat6*           | 28 (+1)   |
 | 39    | onarrrrrrrr               | 28        |
 | 39    | paju1g                    | 28        |
 | 39    | wadupcaprise              | 28        |
 | 39    | yvhsu                     | 28        |
-| 43    | funnywhitecat6*           | 27        |
 | 44    | bcarbot                   | 26        |
 | 44    | drecklo                   | 26        |
 | 44    | turboyy                   | 26        |
@@ -61,4 +61,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-08-09 10:28:44 UTC_
+_Last updated at 2026-08-16 11:44:10 UTC_

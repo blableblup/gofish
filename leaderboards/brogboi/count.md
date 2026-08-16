@@ -2,19 +2,19 @@
 
 | Rank  | Player               | Fish caught |
 |:------|:---------------------|:------------|
-| 1 🥇  | xknownplayer         | 142 (+12)   |
-| 2 🥈  | whotookmamulukkikala | 92 (+7)     |
-| 3 🥉  | brogboi              | 78 (+4)     |
-| 4     | xt1di                | 38 (+1)     |
-| 5     | ave0_                | 30 (+1)     |
-| 6     | littlemunnster       | 26 (+2)     |
-| 6     | nikkirowland         | 26 (+2)     |
-| 8     | comborl_             | 21 (+2)     |
+| 1 🥇  | xknownplayer         | 151 (+9)    |
+| 2 🥈  | whotookmamulukkikala | 102 (+10)   |
+| 3 🥉  | brogboi              | 79 (+1)     |
+| 4     | xt1di                | 38          |
+| 5     | ave0_                | 31 (+1)     |
+| 6     | nikkirowland         | 27 (+1)     |
+| 7 ⬇   | littlemunnster       | 26          |
+| 8     | comborl_             | 22 (+1)     |
 | 9     | punkish_live         | 18          |
 | 10    | luciafton            | 14          |
-| 11    | lanisye              | 13 (+1)     |
-| 12    | supertauro           | 11          |
+| 11    | lanisye              | 13          |
+| 12    | supertauro           | 12 (+1)     |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-08-09 10:30:41 UTC_
+_Last updated at 2026-08-16 11:46:05 UTC_

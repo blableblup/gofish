@@ -1,8 +1,8 @@
-### Total weight of all fish caught per player in overhatecore's chat
+### Total weight of all fish caught per player in ovrhtcd's chat
 
 | Rank  | Player           | Total Weight in lbs |
 |:------|:-----------------|:--------------------|
-| 1 🥇  | overhatecore     | 4943.28 (+37.30)    |
+| 1 🥇  | ovrhtcd          | 4955.05 (+11.77)    |
 | 2 🥈  | alenakuz03       | 2353.22             |
 | 3 🥉  | sgv4bl           | 1842.14             |
 | 4     | sidneya_         | 1371.92             |
@@ -21,4 +21,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-08-09 10:32:37 UTC_
+_Last updated at 2026-08-16 11:48:34 UTC_
