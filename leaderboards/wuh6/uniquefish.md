@@ -13,7 +13,7 @@
 | 9     | huuuuuuuuuuuuuuuuuuuuuurz | 96        |
 | 10    | gorillapark               | 90        |
 | 11    | veny2lbs                  | 82        |
-| 12    | feelsaceman               | 70        |
+| 12    | feelsaceman               | 71 (+1)   |
 | 13    | rancbot                   | 69        |
 | 14    | caprisen_*                | 63        |
 | 15    | mazzo_tv                  | 62        |
@@ -40,7 +40,7 @@
 | 36    | araqs                     | 29        |
 | 36    | ceriise__                 | 29        |
 | 36    | flunke_                   | 29        |
-| 39 ⬆  | funnywhitecat6*           | 28 (+1)   |
+| 39    | funnywhitecat6*           | 28        |
 | 39    | onarrrrrrrr               | 28        |
 | 39    | paju1g                    | 28        |
 | 39    | wadupcaprise              | 28        |
@@ -61,4 +61,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-08-16 11:44:10 UTC_
+_Last updated at 2026-08-23 09:00:52 UTC_

@@ -2,21 +2,21 @@
 
 | Rank  | Player                    | Fish caught |
 |:------|:--------------------------|:------------|
-| 1 🥇  | iflya320                  | 5172 (+48)  |
-| 2 🥈  | ranctious                 | 4480 (+62)  |
-| 3 🥉  | eeziiii                   | 4329 (+4)   |
-| 4     | bubinga                   | 4212 (+10)  |
-| 5     | theevirus                 | 4034 (+32)  |
-| 6     | lobuhtomy                 | 2890 (+8)   |
+| 1 🥇  | iflya320                  | 5223 (+51)  |
+| 2 🥈  | ranctious                 | 4527 (+47)  |
+| 3 🥉  | eeziiii                   | 4331 (+2)   |
+| 4     | bubinga                   | 4243 (+31)  |
+| 5     | theevirus                 | 4043 (+9)   |
+| 6     | lobuhtomy                 | 2909 (+19)  |
 | 7     | huuuuuuuuuuuuuuuuuuuuuurz | 2772        |
-| 8     | wowitsdub                 | 2608 (+16)  |
-| 9     | nndiana*                  | 1819 (+6)   |
+| 8     | wowitsdub                 | 2627 (+19)  |
+| 9     | nndiana*                  | 1830 (+11)  |
 | 10    | gorillapark               | 1561        |
 | 11    | veny2lbs                  | 954         |
-| 12    | rancbot                   | 894 (+5)    |
+| 12    | rancbot                   | 895 (+1)    |
 | 13    | creepycode*               | 870         |
 | 14    | mazzo_tv                  | 567         |
-| 15    | feelsaceman               | 474 (+10)   |
+| 15    | feelsaceman               | 476 (+2)    |
 | 16    | caprisen_*                | 461         |
 | 17    | sandwichsundays*          | 400         |
 | 18    | blu_inx                   | 338         |
@@ -28,7 +28,7 @@
 | 24    | supibot                   | 222         |
 | 25    | ewpert1                   | 211         |
 | 26    | flvx_flux*                | 200         |
-| 27    | r3kko_                    | 155 (+1)    |
+| 27    | r3kko_                    | 155         |
 | 28    | poons_u                   | 151         |
 | 29    | ceriise__                 | 150         |
 | 30    | thetaxmen                 | 148         |
@@ -44,7 +44,7 @@
 | 40    | ratot                     | 74          |
 | 41    | flunke_                   | 70          |
 | 42    | wadupcaprise              | 67          |
-| 43    | funnywhitecat6*           | 63 (+1)     |
+| 43    | funnywhitecat6*           | 63          |
 | 44    | turboyy                   | 56          |
 | 45    | drecklo                   | 54          |
 | 46    | nightbot                  | 52          |
@@ -63,15 +63,15 @@
 | 58    | pikausha                  | 32          |
 | 60    | llikotesnecil             | 31          |
 | 61    | kalechap                  | 25          |
-| 62 ⬆  | wiihxhx                   | 23 (+2)     |
-| 63 ⬇  | ggmagician                | 22          |
-| 64 ⬇  | luneckie                  | 21          |
+| 62    | wiihxhx                   | 23          |
+| 63    | ggmagician                | 22          |
+| 64    | luneckie                  | 21          |
 | 65    | buh_official_             | 18          |
 | 65    | lluuucy                   | 18          |
 | 67    | larvaew                   | 14          |
 | 68    | xd_2k                     | 13          |
 | 69    | baerlings                 | 12          |
-| 69 ⬆  | cozysocks398              | 12 (+1)     |
+| 69    | cozysocks398              | 12          |
 | 71    | gwincyy                   | 10          |
 | 71    | ojack18                   | 10          |
 | 71    | ratatas1g*                | 10          |
@@ -79,4 +79,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-08-16 11:46:05 UTC_
+_Last updated at 2026-08-23 09:02:55 UTC_

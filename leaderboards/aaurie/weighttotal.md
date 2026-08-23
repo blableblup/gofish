@@ -3,20 +3,20 @@
 | Rank  | Player            | Total Weight in lbs |
 |:------|:------------------|:--------------------|
 | 1 🥇  | jeffbethyname69   | 5635.69             |
-| 2 🥈  | amatusz           | 4457.73 (+87.77)    |
+| 2 🥈  | amatusz           | 4468.73 (+11.00)    |
 | 3 🥉  | dolp_fin          | 3830.56             |
-| 4     | boogie_310        | 2315.12 (+10.02)    |
+| 4     | boogie_310        | 2316.55 (+1.43)     |
 | 5     | gofishgamer       | 1843.60             |
 | 6     | allspice_boatrace | 1692.63             |
-| 7     | abelito75         | 1493.95 (+1.89)     |
+| 7     | abelito75         | 1493.95             |
 | 8     | aaurie            | 1194.29             |
-| 9     | guy_farting420    | 1084.08             |
-| 10 ⬆  | rustnroll         | 826.40 (+82.87)     |
-| 11 ⬇  | curiouscorvidae   | 763.40 (+14.26)     |
-| 12    | victorvondoom313  | 697.25 (+1.25)      |
+| 9     | guy_farting420    | 1084.59 (+0.51)     |
+| 10    | rustnroll         | 840.36 (+13.96)     |
+| 11    | curiouscorvidae   | 763.40              |
+| 12    | victorvondoom313  | 697.25              |
 | 13    | bluezebra17       | 626.08              |
 | 14    | preemalone        | 584.78              |
-| 15    | honeytonguedbee   | 518.29 (+7.50)      |
+| 15    | honeytonguedbee   | 522.69 (+4.40)      |
 | 16    | lor_starcutter    | 453.38              |
 | 17    | dwaynepounder     | 438.31              |
 | 18    | slimdoggiedog     | 438.27              |
@@ -34,4 +34,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-08-16 11:46:01 UTC_
+_Last updated at 2026-08-23 09:00:54 UTC_

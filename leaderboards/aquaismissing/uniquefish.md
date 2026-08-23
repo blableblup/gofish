@@ -22,12 +22,13 @@
 | 16    | kargalay      | 14        |
 | 19    | kaczer1       | 13        |
 | 19    | poggu_        | 13        |
-| 21 🆕 | kreplj        | 10        |
-| 21    | ojack18       | 10        |
-| 21    | vigilsync*    | 10        |
+| 21 🆕 | mir9_9        | 12        |
+| 22 ⬇  | kreplj        | 10        |
+| 22 ⬇  | ojack18       | 10        |
+| 22 ⬇  | vigilsync*    | 10        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2026-08-09 10:28:43 UTC_
+_Last updated at 2026-08-23 09:00:51 UTC_

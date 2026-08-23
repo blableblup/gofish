@@ -28,8 +28,8 @@
 | 24    | 🪳 cockroach       | 20.53         | pinksynthesis29  | 2026-02-14 08:06:27 |
 | 25    | 🦦 otter           | 18.91         | pinksynthesis29  | 2026-02-20 20:14:49 |
 | 26    | 🍄‍🟫 mushroom        | 18.54         | derintu          | 2025-03-15 19:24:59 |
-| 27    | 🪸 coral           | 14.47         | respirate_       | 2024-09-01 18:32:43 |
-| 28    | 🧽 sponge          | 13.63         | eagueoflegends   | 2025-11-07 00:53:25 |
+| 27 ⬆  | 🧽 sponge          | 16.57 (+2.94) | ytp_dl           | 2026-08-18 21:20:59 |
+| 28 ⬇  | 🪸 coral           | 14.47         | respirate_       | 2024-09-01 18:32:43 |
 | 29    | 🧃 beveragebox     | 11.89         | dazedforevermore | 2024-08-04 17:56:24 |
 | 30    | 🕶️ darksunglasses  | 11.39         | respirate_       | 2024-07-29 07:01:49 |
 | 31    | 🪼 jellyfish       | 11.13         | ytp_dl           | 2026-05-19 23:33:53 |
@@ -84,4 +84,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-08-16 11:44:51 UTC_
+_Last updated at 2026-08-23 09:03:39 UTC_

@@ -54,7 +54,7 @@
 | 50    | 🧞‍♂️ genie           | 16.68         | feelsaceman               | 2025-10-06 14:20:46 |
 | 51    | 🪀 bobber          | 15.44         | wuh6                      | 2024-12-25 02:55:50 |
 | 52    | 🪵 log             | 14.90         | wowitsdub                 | 2025-05-21 11:27:21 |
-| 53    | 🕶️ darksunglasses  | 12.23         | huuuuuuuuuuuuuuuuuuuuuurz | 2025-07-28 11:49:10 |
+| 53    | 🕶️ darksunglasses  | 12.69 (+0.46) | iflya320                  | 2026-08-20 11:43:09 |
 | 54    | 🐌 snail           | 11.93         | iflya320                  | 2025-07-22 17:25:11 |
 | 55    | 👒 hat             | 11.92         | bcarw                     | 2025-11-05 00:26:47 |
 | 55    | 🧸 teddybear       | 11.92         | bubinga                   | 2025-12-30 00:20:22 |
@@ -110,12 +110,12 @@
 | 106   | 🐛 caterpillar     | 1.06          | rancbot                   | 2026-07-27 13:53:20 |
 | 107   | 🌾 grass           | 1.00          | blu_inx                   | 2026-03-09 21:20:26 |
 | 107   | 🌿 seaweed         | 1.00          | iflya320                  | 2024-12-14 23:52:21 |
-| 109 ⬆ | 🪶 feather         | 0.99 (+0.05)  | ranctious                 | 2026-08-15 01:26:22 |
+| 109   | 🪶 feather         | 0.99          | ranctious                 | 2026-08-15 01:26:22 |
 | 109   | 🧤 gloves          | 0.99          | theevirus                 | 2026-01-16 01:07:47 |
 | 109   | 🪚 icesaw          | 0.99          | lobuhtomy                 | 2026-02-17 16:37:37 |
-| 112 ⬇ | 🧣 scarf           | 0.96          | thetaxmen                 | 2025-01-03 00:50:02 |
-| 113 ⬇ | 🫐 bilberries      | 0.95          | bubinga                   | 2025-06-22 12:09:29 |
-| 113 ⬇ | 🍇 crowberries     | 0.95          | lobuhtomy                 | 2026-06-28 14:59:06 |
+| 112   | 🧣 scarf           | 0.96          | thetaxmen                 | 2025-01-03 00:50:02 |
+| 113   | 🫐 bilberries      | 0.95          | bubinga                   | 2025-06-22 12:09:29 |
+| 113   | 🍇 crowberries     | 0.95          | lobuhtomy                 | 2026-06-28 14:59:06 |
 | 115   | 🦉 owl             | 0.89          | feelsaceman               | 2026-07-14 10:52:58 |
 | 116   | 🐜 ant             | 0.82          | theevirus                 | 2025-08-31 05:49:08 |
 | 117   | 🍥 sanddollar      | 0.73          | bubinga                   | 2026-06-12 11:44:55 |
@@ -128,4 +128,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-08-16 11:45:34 UTC_
+_Last updated at 2026-08-23 09:03:48 UTC_

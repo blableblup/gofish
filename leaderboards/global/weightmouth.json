@@ -372,7 +372,7 @@
 		"fishtypemouth": "🌿",
 		"fishnamemouth": "seaweed",
 		"totalweight": 154.26,
-		"rank": 78
+		"rank": 79
 	},
 	"2025-03-25 07:08:43 UTC": {
 		"player": "leanmeister",
@@ -392,7 +392,7 @@
 		"fishtypemouth": "🦞",
 		"fishnamemouth": "lobster",
 		"totalweight": 150.58999999999997,
-		"rank": 83
+		"rank": 84
 	},
 	"2025-03-27 09:50:32 UTC": {
 		"player": "lobuhtomy",
@@ -528,7 +528,7 @@
 		"fishtypemouth": "🐋",
 		"fishnamemouth": "whale",
 		"totalweight": 151.19,
-		"rank": 82
+		"rank": 83
 	},
 	"2025-04-15 03:54:50 UTC": {
 		"player": "destin357",
@@ -1042,7 +1042,7 @@
 		"fishtypemouth": "🪝",
 		"fishnamemouth": "hook",
 		"totalweight": 151.21,
-		"rank": 81
+		"rank": 82
 	},
 	"2025-10-29 11:31:02 UTC": {
 		"player": "bubinga",
@@ -1234,7 +1234,7 @@
 		"fishtypemouth": "🐠",
 		"fishnamemouth": "tropicalfish",
 		"totalweight": 155.61,
-		"rank": 77
+		"rank": 78
 	},
 	"2025-11-29 12:54:09 UTC": {
 		"player": "v6r_",
@@ -1253,7 +1253,7 @@
 		"fishtypemouth": "🦪",
 		"fishnamemouth": "oyster",
 		"totalweight": 153.48999999999998,
-		"rank": 79
+		"rank": 80
 	},
 	"2025-12-20 18:32:54 UTC": {
 		"player": "bubinga",
@@ -1369,7 +1369,7 @@
 		"fishtypemouth": "💀",
 		"fishnamemouth": "skull",
 		"totalweight": 151.24,
-		"rank": 80
+		"rank": 81
 	},
 	"2026-02-10 20:27:11 UTC": {
 		"player": "dougiefresh_83",
@@ -1601,5 +1601,24 @@
 		"fishnamemouth": "dolphin",
 		"totalweight": 168.5,
 		"rank": 63
+	},
+	"2026-08-21 19:14:22 UTC": {
+		"player": "dougiefresh_83",
+		"playerid": 129,
+		"weight": 109.37,
+		"bot": "gofishgame",
+		"fishtype": "🐙",
+		"fishname": "octopus",
+		"catchtype": "normal",
+		"chat": "breadworms",
+		"chatpfp": "![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)",
+		"fishid": 284802,
+		"chatid": 90148,
+		"date": "2026-08-21T19:14:22Z",
+		"weightmouth": 46.34,
+		"fishtypemouth": "🦑",
+		"fishnamemouth": "squid",
+		"totalweight": 155.71,
+		"rank": 77
 	}
 }

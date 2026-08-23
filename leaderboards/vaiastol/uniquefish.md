@@ -11,9 +11,9 @@
 | 7     | leanmeister        | 60        |
 | 7     | leastsussyimposter | 60        |
 | 9     | eelacy             | 57        |
-| 10    | ryakarr            | 55        |
-| 11    | nicestnarwhal      | 52        |
-| 11 ⬆  | zfk770             | 52 (+1)   |
+| 10 ⬆  | zfk770             | 56 (+4)   |
+| 11 ⬇  | ryakarr            | 55        |
+| 12 ⬇  | nicestnarwhal      | 52        |
 | 13    | pengeg             | 50        |
 | 14    | dazedforevermore   | 49        |
 | 15    | yoimlee            | 47        |
@@ -21,11 +21,11 @@
 | 17    | ichezero           | 45        |
 | 18    | tiaguitos97        | 43        |
 | 19    | milesdotcom        | 42        |
-| 20    | notsatan13         | 39 (+2)   |
-| 21 ⬇  | julialuxel         | 37        |
+| 20    | notsatan13         | 40 (+1)   |
+| 21    | julialuxel         | 37        |
 | 22    | brontiiide         | 34        |
 | 23    | crustymilk         | 32        |
-| 23 ⬆  | obama              | 32 (+1)   |
+| 23    | obama              | 32        |
 | 25    | larvaew            | 29        |
 | 26    | bubinga            | 25        |
 | 27    | ayobl7             | 24        |
@@ -37,4 +37,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-08-16 11:44:10 UTC_
+_Last updated at 2026-08-23 09:00:52 UTC_

@@ -2,31 +2,31 @@
 
 | Rank | Fish               | Weight in lbs | Player            | Date in UTC         |
 |:-----|:-------------------|:--------------|:------------------|:--------------------|
-| 78   | 🦐 shrimp          | 10.02         | boogie_310        | 2026-08-15 06:24:18 |
-| 77   | 🦀 crab            | 8.60          | amatusz           | 2026-08-15 04:41:32 |
-| 76   | 🪶 feather         | 0.46          | amatusz           | 2026-08-15 02:24:32 |
-| 75   | 🧦 socks           | 0.53          | amatusz           | 2026-08-14 03:03:31 |
-| 74   | 🐬 dolphin         | 82.87         | rustnroll         | 2026-08-14 02:00:37 |
-| 73   | 🎏 lure            | 1.25          | victorvondoom313  | 2026-08-14 01:57:24 |
-| 72   | 🐟 fish            | 4.53          | honeytonguedbee   | 2026-08-14 00:54:31 |
-| 71   | 🐸 frog            | 1.89          | abelito75         | 2026-08-14 00:51:51 |
-| 70   | 🌿 seaweed         | 0.40          | amatusz           | 2026-08-11 05:24:51 |
-| 69   | 🐚 shell           | 2.18          | amatusz           | 2026-08-11 01:01:55 |
-| 68   | 💀 skull           | 2.97          | honeytonguedbee   | 2026-08-10 04:25:33 |
-| 67   | 🐠 tropicalfish    | 7.42          | amatusz           | 2026-08-10 04:25:23 |
-| 66   | 🦞 lobster         | 62.60         | amatusz           | 2026-08-10 03:30:10 |
-| 65   | 🧽 sponge          | 5.58          | amatusz           | 2026-08-10 02:24:16 |
-| 64   | 🐙 octopus         | 73.06         | one_guy_123       | 2026-08-08 01:24:28 |
-| 63   | 🦑 squid           | 17.39         | amatusz           | 2026-08-08 01:24:20 |
-| 62   | 🐡 blowfish        | 3.98          | victorvondoom313  | 2026-08-07 03:52:41 |
-| 61   | 🪝 hook            | 1.47          | thatkidjohn97     | 2026-08-07 03:35:02 |
-| 60   | 🐳 bluewhale       | 194.81        | amatusz           | 2026-08-07 01:41:06 |
-| 59   | 🛢️ oildrum         | 239.63        | abelito75         | 2026-08-07 00:46:02 |
-| 58   | 🦪 oyster          | 29.05         | amatusz           | 2026-08-04 04:53:10 |
-| 57   | 🥒 seacucumber     | 8.60          | amatusz           | 2026-08-04 03:23:38 |
-| 56   | 🩲 briefs          | 3.82          | amatusz           | 2026-07-25 05:14:08 |
-| 55   | 🩴 thongsandal     | 1.70          | jarble_           | 2026-07-25 03:26:13 |
-| 54   | 🐍 snake           | 18.70         | amatusz           | 2026-07-24 02:41:29 |
+| 78   | 🐍 snake           | 8.73          | amatusz           | 2026-08-22 04:42:08 |
+| 77   | 🧦 socks           | 1.35          | honeytonguedbee   | 2026-08-22 03:48:10 |
+| 76   | 🎏 lure            | 1.05          | amatusz           | 2026-08-21 01:24:39 |
+| 75   | 🐟 fish            | 13.37         | anyonebutfejjy    | 2026-08-18 04:27:05 |
+| 74   | 🐸 frog            | 3.05          | honeytonguedbee   | 2026-08-18 04:25:32 |
+| 73   | 🐚 shell           | 1.22          | amatusz           | 2026-08-18 01:18:05 |
+| 72   | 🪝 hook            | 1.43          | boogie_310        | 2026-08-17 02:11:22 |
+| 71   | 🦐 shrimp          | 10.02         | boogie_310        | 2026-08-15 06:24:18 |
+| 70   | 🦀 crab            | 8.60          | amatusz           | 2026-08-15 04:41:32 |
+| 69   | 🪶 feather         | 0.46          | amatusz           | 2026-08-15 02:24:32 |
+| 68   | 🐬 dolphin         | 82.87         | rustnroll         | 2026-08-14 02:00:37 |
+| 67   | 🌿 seaweed         | 0.40          | amatusz           | 2026-08-11 05:24:51 |
+| 66   | 💀 skull           | 2.97          | honeytonguedbee   | 2026-08-10 04:25:33 |
+| 65   | 🐠 tropicalfish    | 7.42          | amatusz           | 2026-08-10 04:25:23 |
+| 64   | 🦞 lobster         | 62.60         | amatusz           | 2026-08-10 03:30:10 |
+| 63   | 🧽 sponge          | 5.58          | amatusz           | 2026-08-10 02:24:16 |
+| 62   | 🐙 octopus         | 73.06         | one_guy_123       | 2026-08-08 01:24:28 |
+| 61   | 🦑 squid           | 17.39         | amatusz           | 2026-08-08 01:24:20 |
+| 60   | 🐡 blowfish        | 3.98          | victorvondoom313  | 2026-08-07 03:52:41 |
+| 59   | 🐳 bluewhale       | 194.81        | amatusz           | 2026-08-07 01:41:06 |
+| 58   | 🛢️ oildrum         | 239.63        | abelito75         | 2026-08-07 00:46:02 |
+| 57   | 🦪 oyster          | 29.05         | amatusz           | 2026-08-04 04:53:10 |
+| 56   | 🥒 seacucumber     | 8.60          | amatusz           | 2026-08-04 03:23:38 |
+| 55   | 🩲 briefs          | 3.82          | amatusz           | 2026-07-25 05:14:08 |
+| 54   | 🩴 thongsandal     | 1.70          | jarble_           | 2026-07-25 03:26:13 |
 | 53   | 🐋 whale           | 126.12        | amatusz           | 2026-07-10 01:30:14 |
 | 52   | 🐌 snail           | 0.36          | aaurie            | 2026-07-07 01:36:21 |
 | 51   | 🧴 sunscreenbottle | 6.17          | jeffbethyname69   | 2026-07-06 06:03:58 |
@@ -81,4 +81,4 @@
 | 2    | 🎱 8ball           | 2.22          | mademooselle      | 2025-04-01 04:29:50 |
 | 1    | 🧵 wireline        | 0.04          | nalls             | 2025-03-22 04:41:42 |
 
-_Last updated at 2026-08-16 11:44:10 UTC_
+_Last updated at 2026-08-23 09:00:53 UTC_
