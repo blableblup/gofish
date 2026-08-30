@@ -11,7 +11,7 @@
 		"fishid": 248408,
 		"chatid": 1214,
 		"date": "2026-03-22T22:37:33Z",
-		"rank": 59
+		"rank": 56
 	},
 	"acorn": {
 		"player": "lolspers",
@@ -67,7 +67,7 @@
 		"fishid": 239075,
 		"chatid": 1118,
 		"date": "2026-02-06T22:58:37Z",
-		"rank": 38
+		"rank": 37
 	},
 	"blowfish": {
 		"player": "gibbbons",
@@ -81,7 +81,7 @@
 		"fishid": 265226,
 		"chatid": 1218,
 		"date": "2026-05-31T02:50:00Z",
-		"rank": 61
+		"rank": 58
 	},
 	"bluewhale": {
 		"player": "respirate_",
@@ -122,7 +122,7 @@
 		"fishid": 248409,
 		"chatid": 1215,
 		"date": "2026-03-22T22:38:18Z",
-		"rank": 60
+		"rank": 57
 	},
 	"boot": {
 		"player": "v6r_",
@@ -177,7 +177,7 @@
 		"fishid": 240120,
 		"chatid": 1143,
 		"date": "2026-02-11T10:31:45Z",
-		"rank": 43
+		"rank": 42
 	},
 	"cardinal": {
 		"player": "konsminator",
@@ -193,6 +193,20 @@
 		"date": "2026-01-31T07:46:25Z",
 		"rank": 35
 	},
+	"caterpillar": {
+		"player": "mowogan",
+		"playerid": 3811,
+		"weight": 0.32,
+		"bot": "gofishgame",
+		"fishtype": "🐛",
+		"fishname": "caterpillar",
+		"catchtype": "normal",
+		"chat": "mowogan",
+		"fishid": 285550,
+		"chatid": 1252,
+		"date": "2026-08-28T22:58:18Z",
+		"rank": 79
+	},
 	"clover": {
 		"player": "lolspers",
 		"playerid": 2989,
@@ -205,7 +219,7 @@
 		"fishid": 239924,
 		"chatid": 1141,
 		"date": "2026-02-10T11:47:28Z",
-		"rank": 42
+		"rank": 41
 	},
 	"cockroach": {
 		"player": "gibbbons",
@@ -247,7 +261,7 @@
 		"fishid": 268868,
 		"chatid": 1237,
 		"date": "2026-06-20T06:59:33Z",
-		"rank": 71
+		"rank": 67
 	},
 	"crab": {
 		"player": "gibbbons",
@@ -261,7 +275,7 @@
 		"fishid": 273501,
 		"chatid": 1241,
 		"date": "2026-07-04T21:48:34Z",
-		"rank": 74
+		"rank": 70
 	},
 	"crocodile": {
 		"player": "mowogan",
@@ -275,7 +289,7 @@
 		"fishid": 245619,
 		"chatid": 1203,
 		"date": "2026-03-09T22:53:08Z",
-		"rank": 53
+		"rank": 52
 	},
 	"dagger": {
 		"player": "mowogan",
@@ -317,7 +331,7 @@
 		"fishid": 239740,
 		"chatid": 1135,
 		"date": "2026-02-09T16:10:54Z",
-		"rank": 41
+		"rank": 40
 	},
 	"dolphin": {
 		"player": "mowogan",
@@ -331,7 +345,7 @@
 		"fishid": 267461,
 		"chatid": 1233,
 		"date": "2026-06-12T22:47:24Z",
-		"rank": 70
+		"rank": 66
 	},
 	"dragon": {
 		"player": "konsminator",
@@ -376,18 +390,18 @@
 		"rank": 4
 	},
 	"fish": {
-		"player": "amphivt",
-		"playerid": 4663,
-		"weight": 12.19,
+		"player": "mowogan",
+		"playerid": 3811,
+		"weight": 12.68,
 		"bot": "gofishgame",
 		"fishtype": "🐟",
 		"fishname": "fish",
 		"catchtype": "normal",
 		"chat": "mowogan",
-		"fishid": 275508,
-		"chatid": 1242,
-		"date": "2026-07-12T22:33:25Z",
-		"rank": 75
+		"fishid": 285109,
+		"chatid": 1249,
+		"date": "2026-08-23T22:15:58Z",
+		"rank": 76
 	},
 	"frog": {
 		"player": "mowogan",
@@ -401,7 +415,7 @@
 		"fishid": 266744,
 		"chatid": 1228,
 		"date": "2026-06-09T15:42:56Z",
-		"rank": 67
+		"rank": 63
 	},
 	"grass": {
 		"player": "mowogan",
@@ -429,7 +443,7 @@
 		"fishid": 275691,
 		"chatid": 1243,
 		"date": "2026-07-14T00:06:24Z",
-		"rank": 76
+		"rank": 71
 	},
 	"icecube": {
 		"player": "konsminator",
@@ -443,7 +457,7 @@
 		"fishid": 240629,
 		"chatid": 1163,
 		"date": "2026-02-13T17:54:50Z",
-		"rank": 48
+		"rank": 47
 	},
 	"icesaw": {
 		"player": "gofishgamer",
@@ -498,7 +512,7 @@
 		"fishid": 276056,
 		"chatid": 1244,
 		"date": "2026-07-15T04:02:05Z",
-		"rank": 77
+		"rank": 72
 	},
 	"jellyfish": {
 		"player": "mowogan",
@@ -526,7 +540,7 @@
 		"fishid": 276703,
 		"chatid": 1245,
 		"date": "2026-07-18T00:31:02Z",
-		"rank": 78
+		"rank": 73
 	},
 	"leaf": {
 		"player": "konsminator",
@@ -554,7 +568,7 @@
 		"fishid": 246626,
 		"chatid": 1206,
 		"date": "2026-03-14T20:44:37Z",
-		"rank": 54
+		"rank": 53
 	},
 	"lobster": {
 		"player": "mowogan",
@@ -568,7 +582,7 @@
 		"fishid": 265667,
 		"chatid": 1220,
 		"date": "2026-06-02T10:45:39Z",
-		"rank": 63
+		"rank": 60
 	},
 	"log": {
 		"player": "konsminator",
@@ -582,7 +596,7 @@
 		"fishid": 239700,
 		"chatid": 1134,
 		"date": "2026-02-09T12:57:57Z",
-		"rank": 40
+		"rank": 39
 	},
 	"lupine": {
 		"player": "mowogan",
@@ -596,7 +610,7 @@
 		"fishid": 276712,
 		"chatid": 1246,
 		"date": "2026-07-18T01:43:25Z",
-		"rank": 79
+		"rank": 74
 	},
 	"lure": {
 		"player": "mowogan",
@@ -610,7 +624,7 @@
 		"fishid": 266506,
 		"chatid": 1227,
 		"date": "2026-06-08T07:01:14Z",
-		"rank": 66
+		"rank": 62
 	},
 	"mushroom": {
 		"player": "mowogan",
@@ -624,7 +638,7 @@
 		"fishid": 244141,
 		"chatid": 1182,
 		"date": "2026-03-02T13:28:05Z",
-		"rank": 50
+		"rank": 49
 	},
 	"nestwitheggs": {
 		"player": "konsminator",
@@ -652,7 +666,7 @@
 		"fishid": 270176,
 		"chatid": 1238,
 		"date": "2026-06-24T02:19:50Z",
-		"rank": 72
+		"rank": 68
 	},
 	"otter": {
 		"player": "gibbbons",
@@ -680,7 +694,7 @@
 		"fishid": 245227,
 		"chatid": 1194,
 		"date": "2026-03-07T21:05:27Z",
-		"rank": 52
+		"rank": 51
 	},
 	"penguin": {
 		"player": "gofishgamer",
@@ -708,7 +722,7 @@
 		"fishid": 241912,
 		"chatid": 1174,
 		"date": "2026-02-19T09:58:59Z",
-		"rank": 49
+		"rank": 48
 	},
 	"robin": {
 		"player": "konsminator",
@@ -764,7 +778,7 @@
 		"fishid": 245108,
 		"chatid": 1191,
 		"date": "2026-03-07T10:08:17Z",
-		"rank": 51
+		"rank": 50
 	},
 	"sanddollar": {
 		"player": "gibbbons",
@@ -778,7 +792,7 @@
 		"fishid": 283477,
 		"chatid": 1247,
 		"date": "2026-08-12T10:08:57Z",
-		"rank": 80
+		"rank": 75
 	},
 	"sauropod": {
 		"player": "v6r_",
@@ -820,21 +834,21 @@
 		"fishid": 240355,
 		"chatid": 1151,
 		"date": "2026-02-12T13:16:56Z",
-		"rank": 46
+		"rank": 45
 	},
 	"seaweed": {
-		"player": "mowogan",
-		"playerid": 3811,
-		"weight": 0.52,
+		"player": "gibbbons",
+		"playerid": 4150,
+		"weight": 0.63,
 		"bot": "gofishgame",
 		"fishtype": "🌿",
 		"fishname": "seaweed",
 		"catchtype": "normal",
 		"chat": "mowogan",
-		"fishid": 238060,
-		"chatid": 1090,
-		"date": "2026-02-02T11:12:01Z",
-		"rank": 36
+		"fishid": 285447,
+		"chatid": 1251,
+		"date": "2026-08-27T18:35:12Z",
+		"rank": 78
 	},
 	"shark": {
 		"player": "gofishgames",
@@ -848,7 +862,7 @@
 		"fishid": 248405,
 		"chatid": 1213,
 		"date": "2026-03-22T22:34:54Z",
-		"rank": 58
+		"rank": 55
 	},
 	"shell": {
 		"player": "gibbbons",
@@ -862,7 +876,7 @@
 		"fishid": 265553,
 		"chatid": 1219,
 		"date": "2026-06-01T18:48:00Z",
-		"rank": 62
+		"rank": 59
 	},
 	"shrimp": {
 		"player": "amphivt",
@@ -876,21 +890,21 @@
 		"fishid": 273182,
 		"chatid": 1240,
 		"date": "2026-07-03T23:17:04Z",
-		"rank": 73
+		"rank": 69
 	},
 	"skull": {
-		"player": "vagdy",
-		"playerid": 3067,
-		"weight": 6.63,
+		"player": "gibbbons",
+		"playerid": 4150,
+		"weight": 9.59,
 		"bot": "gofishgame",
 		"fishtype": "💀",
 		"fishname": "skull",
 		"catchtype": "normal",
 		"chat": "mowogan",
-		"fishid": 266442,
-		"chatid": 1226,
-		"date": "2026-06-07T18:23:35Z",
-		"rank": 65
+		"fishid": 285624,
+		"chatid": 1254,
+		"date": "2026-08-29T18:46:04Z",
+		"rank": 81
 	},
 	"slotmachine": {
 		"player": "konsminator",
@@ -918,21 +932,21 @@
 		"fishid": 238971,
 		"chatid": 1117,
 		"date": "2026-02-06T14:37:31Z",
-		"rank": 37
+		"rank": 36
 	},
 	"snake": {
-		"player": "lolspers",
-		"playerid": 2989,
-		"weight": 4.14,
+		"player": "v6r_",
+		"playerid": 2941,
+		"weight": 5.63,
 		"bot": "gofishgame",
 		"fishtype": "🐍",
 		"fishname": "snake",
 		"catchtype": "normal",
 		"chat": "mowogan",
-		"fishid": 246968,
-		"chatid": 1208,
-		"date": "2026-03-16T11:30:03Z",
-		"rank": 56
+		"fishid": 285572,
+		"chatid": 1253,
+		"date": "2026-08-29T03:24:41Z",
+		"rank": 80
 	},
 	"socks": {
 		"player": "gibbbons",
@@ -946,7 +960,7 @@
 		"fishid": 266213,
 		"chatid": 1224,
 		"date": "2026-06-06T01:56:23Z",
-		"rank": 64
+		"rank": 61
 	},
 	"spider": {
 		"player": "mowogan",
@@ -960,7 +974,7 @@
 		"fishid": 240418,
 		"chatid": 1155,
 		"date": "2026-02-12T19:33:17Z",
-		"rank": 47
+		"rank": 46
 	},
 	"sponge": {
 		"player": "mowogan",
@@ -988,7 +1002,7 @@
 		"fishid": 246959,
 		"chatid": 1207,
 		"date": "2026-03-16T10:45:08Z",
-		"rank": 55
+		"rank": 54
 	},
 	"sunflower": {
 		"player": "mowogan",
@@ -1016,7 +1030,7 @@
 		"fishid": 240189,
 		"chatid": 1147,
 		"date": "2026-02-11T17:06:13Z",
-		"rank": 45
+		"rank": 44
 	},
 	"thongsandal": {
 		"player": "mowogan",
@@ -1044,21 +1058,21 @@
 		"fishid": 266816,
 		"chatid": 1230,
 		"date": "2026-06-09T23:18:37Z",
-		"rank": 68
+		"rank": 64
 	},
 	"turtle": {
-		"player": "mowogan",
-		"playerid": 3811,
-		"weight": 34.46,
+		"player": "mangos4u",
+		"playerid": 3142,
+		"weight": 62.06,
 		"bot": "gofishgame",
 		"fishtype": "🐢",
 		"fishname": "turtle",
 		"catchtype": "normal",
 		"chat": "mowogan",
-		"fishid": 247691,
-		"chatid": 1211,
-		"date": "2026-03-20T00:59:10Z",
-		"rank": 57
+		"fishid": 285131,
+		"chatid": 1250,
+		"date": "2026-08-24T00:06:59Z",
+		"rank": 77
 	},
 	"whale": {
 		"player": "mowogan",
@@ -1072,7 +1086,7 @@
 		"fishid": 266832,
 		"chatid": 1231,
 		"date": "2026-06-10T00:52:54Z",
-		"rank": 69
+		"rank": 65
 	},
 	"wiltedflower": {
 		"player": "mowogan",
@@ -1086,7 +1100,7 @@
 		"fishid": 239370,
 		"chatid": 1124,
 		"date": "2026-02-08T06:17:18Z",
-		"rank": 39
+		"rank": 38
 	},
 	"wireline": {
 		"player": "lolspers",
@@ -1114,6 +1128,6 @@
 		"fishid": 240180,
 		"chatid": 1145,
 		"date": "2026-02-11T16:08:39Z",
-		"rank": 44
+		"rank": 43
 	}
 }

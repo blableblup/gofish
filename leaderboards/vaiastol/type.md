@@ -50,10 +50,10 @@
 | 46    | 🐸 frog            | 15.69         | divra__            | 2024-11-01 16:31:44 |
 | 47    | 🪵 log             | 15.15         | zfk770             | 2026-05-11 18:51:42 |
 | 48    | 🪀 bobber          | 14.41         | leastsussyimposter | 2024-12-22 14:08:31 |
-| 49 ⬆  | 🕶️ darksunglasses  | 12.47 (+0.67) | yoimlee            | 2026-08-13 23:25:12 |
-| 50 ⬇  | 🧭 compass         | 12.25         | vaiastol           | 2024-12-25 03:46:12 |
-| 51 ⬇  | 🧴 sunscreenbottle | 11.92         | tharawow           | 2026-07-23 19:29:31 |
-| 52 ⬇  | 🐌 snail           | 11.90         | leastsussyimposter | 2024-08-28 17:02:48 |
+| 49    | 🕶️ darksunglasses  | 12.47         | yoimlee            | 2026-08-13 23:25:12 |
+| 50    | 🧭 compass         | 12.25         | vaiastol           | 2024-12-25 03:46:12 |
+| 51    | 🧴 sunscreenbottle | 11.92         | tharawow           | 2026-07-23 19:29:31 |
+| 52    | 🐌 snail           | 11.90         | leastsussyimposter | 2024-08-28 17:02:48 |
 | 53    | 🧸 teddybear       | 11.77         | eelacy             | 2025-02-28 20:45:50 |
 | 54    | 🎃 pumpkin         | 11.52         | larvaew            | 2025-10-30 19:19:40 |
 | 55    | 🧃 beveragebox     | 11.47         | thespecialone22    | 2026-05-23 07:59:57 |
@@ -94,9 +94,9 @@
 | 89    | 🧦 socks           | 1.99          | ichezero           | 2026-04-18 11:59:17 |
 | 91    | 👢 boot            | 1.97          | yoimlee            | 2024-11-04 14:41:11 |
 | 91    | 🩴 thongsandal     | 1.97          | tharawow           | 2026-07-07 07:01:15 |
-| 93 ⬆  | 🪻 lupine          | 1.93 (+0.03)  | divra__            | 2026-08-12 21:42:56 |
-| 94 ⬇  | 🌹 rose            | 1.92          | garout             | 2025-10-05 21:18:57 |
-| 95 ⬇  | 🥪 sandwich        | 1.91          | thespecialone22    | 2026-05-23 00:47:22 |
+| 93    | 🪻 lupine          | 1.93          | divra__            | 2026-08-12 21:42:56 |
+| 94    | 🌹 rose            | 1.92          | garout             | 2025-10-05 21:18:57 |
+| 95    | 🥪 sandwich        | 1.91          | thespecialone22    | 2026-05-23 00:47:22 |
 | 96    | 🩰 balletshoes     | 1.89          | brontiiide         | 2025-01-01 02:12:26 |
 | 97    | ⛸️ iceskate        | 1.84          | hahppyy            | 2025-01-12 19:57:15 |
 | 98    | 🍬 candy           | 1.79          | tharawow           | 2026-07-08 16:50:20 |
@@ -114,7 +114,7 @@
 | 110   | 🐜 ant             | 0.78          | notsatan13         | 2026-07-09 22:04:31 |
 | 111   | 🐝 bee             | 0.48          | divra__            | 2026-07-24 21:59:15 |
 | 112   | 🦂 scorpion        | 0.47          | proswift           | 2026-07-27 18:28:19 |
-| 113   | 🦟 mosquito        | 0.39          | proswift           | 2026-07-15 02:23:47 |
+| 113   | 🦟 mosquito        | 0.43 (+0.04)  | zfk770             | 2026-08-23 11:32:22 |
 | 114   | 🦋 butterfly       | 0.34          | divra__            | 2026-07-20 23:56:23 |
 | 115   | 🐞 ladybug         | 0.25          | notsatan13         | 2026-07-22 00:57:27 |
 | 116   | 🪰 fly             | 0.23          | notsatan13         | 2026-07-12 15:54:41 |
@@ -122,4 +122,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-08-16 11:45:42 UTC_
+_Last updated at 2026-08-30 08:28:33 UTC_

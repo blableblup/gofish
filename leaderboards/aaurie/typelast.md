@@ -2,21 +2,21 @@
 
 | Rank | Fish               | Weight in lbs | Player            | Date in UTC         |
 |:-----|:-------------------|:--------------|:------------------|:--------------------|
-| 78   | 🐍 snake           | 8.73          | amatusz           | 2026-08-22 04:42:08 |
-| 77   | 🧦 socks           | 1.35          | honeytonguedbee   | 2026-08-22 03:48:10 |
-| 76   | 🎏 lure            | 1.05          | amatusz           | 2026-08-21 01:24:39 |
-| 75   | 🐟 fish            | 13.37         | anyonebutfejjy    | 2026-08-18 04:27:05 |
-| 74   | 🐸 frog            | 3.05          | honeytonguedbee   | 2026-08-18 04:25:32 |
-| 73   | 🐚 shell           | 1.22          | amatusz           | 2026-08-18 01:18:05 |
-| 72   | 🪝 hook            | 1.43          | boogie_310        | 2026-08-17 02:11:22 |
-| 71   | 🦐 shrimp          | 10.02         | boogie_310        | 2026-08-15 06:24:18 |
-| 70   | 🦀 crab            | 8.60          | amatusz           | 2026-08-15 04:41:32 |
-| 69   | 🪶 feather         | 0.46          | amatusz           | 2026-08-15 02:24:32 |
-| 68   | 🐬 dolphin         | 82.87         | rustnroll         | 2026-08-14 02:00:37 |
-| 67   | 🌿 seaweed         | 0.40          | amatusz           | 2026-08-11 05:24:51 |
-| 66   | 💀 skull           | 2.97          | honeytonguedbee   | 2026-08-10 04:25:33 |
-| 65   | 🐠 tropicalfish    | 7.42          | amatusz           | 2026-08-10 04:25:23 |
-| 64   | 🦞 lobster         | 62.60         | amatusz           | 2026-08-10 03:30:10 |
+| 78   | 🪝 hook            | 0.00          | amatusz           | 2026-08-29 02:25:11 |
+| 77   | 🦞 lobster         | 53.36         | amatusz           | 2026-08-29 01:43:45 |
+| 76   | 🐍 snake           | 8.73          | amatusz           | 2026-08-22 04:42:08 |
+| 75   | 🧦 socks           | 1.35          | honeytonguedbee   | 2026-08-22 03:48:10 |
+| 74   | 🎏 lure            | 1.05          | amatusz           | 2026-08-21 01:24:39 |
+| 73   | 🐟 fish            | 13.37         | anyonebutfejjy    | 2026-08-18 04:27:05 |
+| 72   | 🐸 frog            | 3.05          | honeytonguedbee   | 2026-08-18 04:25:32 |
+| 71   | 🐚 shell           | 1.22          | amatusz           | 2026-08-18 01:18:05 |
+| 70   | 🦐 shrimp          | 10.02         | boogie_310        | 2026-08-15 06:24:18 |
+| 69   | 🦀 crab            | 8.60          | amatusz           | 2026-08-15 04:41:32 |
+| 68   | 🪶 feather         | 0.46          | amatusz           | 2026-08-15 02:24:32 |
+| 67   | 🐬 dolphin         | 82.87         | rustnroll         | 2026-08-14 02:00:37 |
+| 66   | 🌿 seaweed         | 0.40          | amatusz           | 2026-08-11 05:24:51 |
+| 65   | 💀 skull           | 2.97          | honeytonguedbee   | 2026-08-10 04:25:33 |
+| 64   | 🐠 tropicalfish    | 7.42          | amatusz           | 2026-08-10 04:25:23 |
 | 63   | 🧽 sponge          | 5.58          | amatusz           | 2026-08-10 02:24:16 |
 | 62   | 🐙 octopus         | 73.06         | one_guy_123       | 2026-08-08 01:24:28 |
 | 61   | 🦑 squid           | 17.39         | amatusz           | 2026-08-08 01:24:20 |
@@ -81,4 +81,4 @@
 | 2    | 🎱 8ball           | 2.22          | mademooselle      | 2025-04-01 04:29:50 |
 | 1    | 🧵 wireline        | 0.04          | nalls             | 2025-03-22 04:41:42 |
 
-_Last updated at 2026-08-23 09:00:53 UTC_
+_Last updated at 2026-08-30 08:28:43 UTC_

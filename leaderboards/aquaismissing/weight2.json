@@ -39,7 +39,7 @@
 		"fishid": 125686,
 		"chatid": 65,
 		"date": "2024-11-28T23:38:12Z",
-		"rank": 98
+		"rank": 99
 	},
 	"125941": {
 		"player": "aquaismissing",
@@ -167,20 +167,6 @@
 		"date": "2024-12-04T19:41:04Z",
 		"rank": 30
 	},
-	"128031": {
-		"player": "ggmagician",
-		"playerid": 1907,
-		"weight": 51.49,
-		"bot": "gofishgame",
-		"fishtype": "🦑",
-		"fishname": "squid",
-		"catchtype": "normal",
-		"chat": "aquaismissing",
-		"fishid": 128031,
-		"chatid": 130,
-		"date": "2024-12-06T12:06:44Z",
-		"rank": 100
-	},
 	"129435": {
 		"player": "bubinga",
 		"playerid": 2339,
@@ -221,7 +207,7 @@
 		"fishid": 137253,
 		"chatid": 221,
 		"date": "2024-12-30T23:59:00Z",
-		"rank": 91
+		"rank": 92
 	},
 	"142861": {
 		"player": "aistyrax3",
@@ -235,7 +221,7 @@
 		"fishid": 142861,
 		"chatid": 265,
 		"date": "2025-01-21T14:28:21Z",
-		"rank": 93
+		"rank": 94
 	},
 	"143054": {
 		"player": "dom1torii",
@@ -781,7 +767,7 @@
 		"fishid": 204695,
 		"chatid": 644,
 		"date": "2025-10-05T14:50:21Z",
-		"rank": 92
+		"rank": 93
 	},
 	"210868": {
 		"player": "glorpiusbot",
@@ -837,7 +823,7 @@
 		"fishid": 212270,
 		"chatid": 666,
 		"date": "2025-11-02T00:08:33Z",
-		"rank": 95
+		"rank": 96
 	},
 	"212643": {
 		"player": "glorpiusbot",
@@ -949,7 +935,7 @@
 		"fishid": 216577,
 		"chatid": 721,
 		"date": "2025-11-19T06:25:57Z",
-		"rank": 96
+		"rank": 97
 	},
 	"216581": {
 		"player": "respirate_",
@@ -1019,7 +1005,7 @@
 		"fishid": 216999,
 		"chatid": 752,
 		"date": "2025-11-21T09:23:24Z",
-		"rank": 99
+		"rank": 100
 	},
 	"218046": {
 		"player": "elisworm",
@@ -1089,7 +1075,7 @@
 		"fishid": 218517,
 		"chatid": 790,
 		"date": "2025-11-28T08:41:49Z",
-		"rank": 90
+		"rank": 91
 	},
 	"218669": {
 		"player": "elisworm",
@@ -1173,7 +1159,7 @@
 		"fishid": 219194,
 		"chatid": 830,
 		"date": "2025-12-01T08:43:10Z",
-		"rank": 94
+		"rank": 95
 	},
 	"219201": {
 		"player": "respirate_",
@@ -1285,7 +1271,7 @@
 		"fishid": 233114,
 		"chatid": 903,
 		"date": "2026-01-12T19:38:18Z",
-		"rank": 97
+		"rank": 98
 	},
 	"243626": {
 		"player": "glorpiusbot",
@@ -1398,5 +1384,19 @@
 		"chatid": 1045,
 		"date": "2026-07-30T22:21:22Z",
 		"rank": 57
+	},
+	"285162": {
+		"player": "mir9_9",
+		"playerid": 6874,
+		"weight": 56.52,
+		"bot": "gofishgame",
+		"fishtype": "🐳",
+		"fishname": "bluewhale",
+		"catchtype": "normal",
+		"chat": "aquaismissing",
+		"fishid": 285162,
+		"chatid": 1060,
+		"date": "2026-08-24T09:46:18Z",
+		"rank": 90
 	}
 }

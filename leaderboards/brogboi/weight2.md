@@ -86,21 +86,21 @@
 | 82    | xknownplayer         | 🗡️ dagger    | 42.41         | 2026-06-11 14:08:49 |
 | 83    | luciafton            | 🐳 bluewhale | 42.21         | 2026-06-17 18:28:07 |
 | 84    | whotookmamulukkikala | 🗡️ dagger    | 42.09         | 2026-07-18 13:17:44 |
-| 85    | luciafton            | 🦞 lobster   | 40.62         | 2026-07-19 14:56:00 |
-| 86    | luluchanso           | 🐋 whale     | 40.14         | 2026-06-15 14:35:59 |
-| 87    | brogboi              | 🦞 lobster   | 39.90         | 2026-08-03 15:44:34 |
-| 88    | xknownplayer         | 🪨 rock      | 39.25         | 2026-07-16 16:43:33 |
-| 89    | tekillusionzz        | 🦞 lobster   | 39.00         | 2026-06-20 15:57:37 |
-| 90    | xt1di                | 🗡️ dagger    | 38.58         | 2026-06-30 19:54:17 |
-| 91    | whotookmamulukkikala | 🐢 turtle    | 38.07         | 2026-06-30 18:45:31 |
-| 92    | xt1di                | 🦪 oyster    | 37.97         | 2026-06-11 15:50:09 |
-| 93    | whotookmamulukkikala | 🦪 oyster    | 37.93         | 2026-07-19 16:26:08 |
-| 94    | xknownplayer         | 🦪 oyster    | 37.74         | 2026-06-12 15:10:09 |
-| 95    | supertauro           | 🪸 coral     | 37.47         | 2026-07-27 15:35:01 |
-| 96    | comborl_             | 🐙 octopus   | 36.78         | 2026-07-08 15:41:44 |
-| 96    | nikkirowland         | 🐋 whale     | 36.78         | 2026-07-20 13:30:45 |
-| 98 🆕 | whotookmamulukkikala | 🦞 lobster   | 35.58         | 2026-08-17 12:11:59 |
-| 99 ⬇  | xknownplayer         | 🦪 oyster    | 35.05         | 2026-08-03 17:54:10 |
-| 100 ⬇ | xknownplayer         | 🐳 bluewhale | 34.22         | 2026-07-20 16:09:17 |
+| 85 🆕 | longago_crow         | 🐬 dolphin   | 40.84         | 2026-08-24 12:38:35 |
+| 86 ⬇  | luciafton            | 🦞 lobster   | 40.62         | 2026-07-19 14:56:00 |
+| 87 ⬇  | luluchanso           | 🐋 whale     | 40.14         | 2026-06-15 14:35:59 |
+| 88 ⬇  | brogboi              | 🦞 lobster   | 39.90         | 2026-08-03 15:44:34 |
+| 89 ⬇  | xknownplayer         | 🪨 rock      | 39.25         | 2026-07-16 16:43:33 |
+| 90 ⬇  | tekillusionzz        | 🦞 lobster   | 39.00         | 2026-06-20 15:57:37 |
+| 91 ⬇  | xt1di                | 🗡️ dagger    | 38.58         | 2026-06-30 19:54:17 |
+| 92 ⬇  | whotookmamulukkikala | 🐢 turtle    | 38.07         | 2026-06-30 18:45:31 |
+| 93 ⬇  | xt1di                | 🦪 oyster    | 37.97         | 2026-06-11 15:50:09 |
+| 94 ⬇  | whotookmamulukkikala | 🦪 oyster    | 37.93         | 2026-07-19 16:26:08 |
+| 95 ⬇  | xknownplayer         | 🦪 oyster    | 37.74         | 2026-06-12 15:10:09 |
+| 96 ⬇  | supertauro           | 🪸 coral     | 37.47         | 2026-07-27 15:35:01 |
+| 97 ⬇  | comborl_             | 🐙 octopus   | 36.78         | 2026-07-08 15:41:44 |
+| 97 ⬇  | nikkirowland         | 🐋 whale     | 36.78         | 2026-07-20 13:30:45 |
+| 99 ⬇  | whotookmamulukkikala | 🦞 lobster   | 35.58         | 2026-08-17 12:11:59 |
+| 100 ⬇ | xknownplayer         | 🦪 oyster    | 35.05         | 2026-08-03 17:54:10 |
 
-_Last updated at 2026-08-23 09:04:55 UTC_
+_Last updated at 2026-08-30 08:28:43 UTC_

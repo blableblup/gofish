@@ -92,15 +92,15 @@
 | 88    | mowogan     | 🐢 turtle    | 62.94         | 2025-09-27 05:44:49 |
 | 89    | lolspers    | 🐢 turtle    | 62.70         | 2026-02-28 19:02:29 |
 | 90    | lolspers    | 🦞 lobster   | 62.47         | 2025-09-09 08:35:01 |
-| 91    | konsminator | 🦞 lobster   | 60.72         | 2026-02-12 19:12:16 |
-| 92    | lolspers    | 🦞 lobster   | 60.70         | 2025-09-10 12:17:20 |
-| 93    | mowogan     | 🐊 crocodile | 60.29         | 2025-07-23 00:26:25 |
-| 94    | gofishgamer | 🐬 dolphin   | 60.01         | 2025-12-23 23:19:24 |
-| 95    | konsminator | 🐢 turtle    | 59.90         | 2026-01-24 12:56:11 |
-| 96    | konsminator | 🐊 crocodile | 59.38         | 2026-03-09 07:24:40 |
-| 97    | konsminator | 🐬 dolphin   | 59.18         | 2025-09-01 13:54:18 |
-| 98    | gofishgamer | 🦭 seal      | 58.76         | 2025-12-26 08:26:42 |
-| 99 🆕 | gibbbons    | 🐙 octopus   | 58.45         | 2026-06-24 02:19:50 |
-| 100 ⬇ | konsminator | 🦞 lobster   | 58.33         | 2026-02-11 07:07:21 |
+| 91 🆕 | mangos4u    | 🐢 turtle    | 62.06         | 2026-08-24 00:06:59 |
+| 92 ⬇  | konsminator | 🦞 lobster   | 60.72         | 2026-02-12 19:12:16 |
+| 93 ⬇  | lolspers    | 🦞 lobster   | 60.70         | 2025-09-10 12:17:20 |
+| 94 ⬇  | mowogan     | 🐊 crocodile | 60.29         | 2025-07-23 00:26:25 |
+| 95 ⬇  | gofishgamer | 🐬 dolphin   | 60.01         | 2025-12-23 23:19:24 |
+| 96 ⬇  | konsminator | 🐢 turtle    | 59.90         | 2026-01-24 12:56:11 |
+| 97 ⬇  | konsminator | 🐊 crocodile | 59.38         | 2026-03-09 07:24:40 |
+| 98 ⬇  | konsminator | 🐬 dolphin   | 59.18         | 2025-09-01 13:54:18 |
+| 99 ⬇  | gofishgamer | 🦭 seal      | 58.76         | 2025-12-26 08:26:42 |
+| 100 ⬇ | gibbbons    | 🐙 octopus   | 58.45         | 2026-06-24 02:19:50 |
 
-_Last updated at 2026-06-28 08:44:43 UTC_
+_Last updated at 2026-08-30 08:28:43 UTC_

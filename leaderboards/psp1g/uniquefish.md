@@ -7,22 +7,22 @@
 | 3 🥉  | feelsaceman               | 92        |
 | 3 🥉  | jayayseaohbe              | 92        |
 | 5     | bubinga                   | 91        |
+| 6 ⬆   | blu_inx                   | 86 (+1)   |
 | 6     | mazzo_tv                  | 86        |
-| 7     | blu_inx                   | 85        |
 | 8     | huuuuuuuuuuuuuuuuuuuuuurz | 79        |
 | 9     | llikotesnecil             | 78        |
 | 10    | bluberry                  | 72        |
 | 10    | joshuabzz                 | 72        |
-| 10 ⬆  | poons_u                   | 72 (+2)   |
-| 13 ⬇  | caprisen_*                | 71        |
-| 13 ⬇  | flunke_                   | 71        |
-| 13 ⬇  | jr_mime                   | 71        |
-| 13 ⬇  | lobuhtomy                 | 71        |
-| 17 ⬇  | deatron                   | 70        |
-| 17 ⬆  | kevinlukejager            | 70 (+2)   |
-| 17 ⬇  | sandwichsundays*          | 70        |
-| 20 ⬇  | zwockel01                 | 69        |
-| 21 ⬇  | totallynotaboykisser      | 68        |
+| 10    | poons_u                   | 72        |
+| 13    | caprisen_*                | 71        |
+| 13    | flunke_                   | 71        |
+| 13    | jr_mime                   | 71        |
+| 13    | lobuhtomy                 | 71        |
+| 17    | deatron                   | 70        |
+| 17    | kevinlukejager            | 70        |
+| 17    | sandwichsundays*          | 70        |
+| 20 ⬆  | boyykisser                | 69 (+1)   |
+| 20    | zwockel01                 | 69        |
 | 22    | gorillapark               | 67        |
 | 22    | pengeg                    | 67        |
 | 22    | theevirus                 | 67        |
@@ -44,8 +44,8 @@
 | 38    | deo7gen                   | 56        |
 | 38    | elusiin                   | 56        |
 | 38    | r3kko_                    | 56        |
-| 43    | r1cz4rd                   | 55 (+1)   |
-| 44 ⬇  | maksmusz*                 | 54        |
+| 43    | r1cz4rd                   | 55        |
+| 44    | maksmusz*                 | 54        |
 | 45    | euxoa                     | 53        |
 | 46    | faslker                   | 52        |
 | 46    | noconcept_                | 52        |
@@ -62,4 +62,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-08-23 09:00:52 UTC_
+_Last updated at 2026-08-30 08:26:45 UTC_

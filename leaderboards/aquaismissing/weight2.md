@@ -16,91 +16,91 @@
 | 12    | stofeyxd         | 🐢 turtle    | 127.58        | 2025-06-28 22:07:24 |
 | 13    | elisworm         | 🐙 octopus   | 120.57        | 2025-11-26 01:29:16 |
 | 14    | elisworm         | 🐊 crocodile | 116.82        | 2025-12-02 01:14:08 |
-| 15 🆕 | cute_ducc        | 🪸 coral     | 113.34        | 2026-07-27 19:58:44 |
-| 16 ⬇  | ranctious        | 🐙 octopus   | 113.24        | 2025-06-19 17:30:54 |
-| 17 ⬇  | respirate_       | 🦈 shark     | 112.40        | 2025-11-21 05:00:34 |
-| 18 ⬇  | buck101_         | 🐊 crocodile | 111.01        | 2025-07-06 12:23:22 |
-| 19 ⬇  | bubinga          | 🐊 crocodile | 106.79        | 2025-07-11 06:44:34 |
-| 20 ⬇  | respirate_       | 🐋 whale     | 104.48        | 2025-11-26 07:20:47 |
-| 21 ⬇  | poggu_           | 🐊 crocodile | 104.06        | 2024-11-29 21:58:16 |
-| 22 ⬇  | bubinga          | 🐋 whale     | 102.44        | 2024-12-10 17:23:25 |
-| 23 ⬇  | bubinga          | 🐬 dolphin   | 101.76        | 2025-08-19 07:47:17 |
-| 24 ⬇  | ggmagician       | 🪸 coral     | 98.94         | 2025-06-06 23:38:48 |
-| 25 ⬇  | ojack18          | 🐋 whale     | 97.17         | 2026-07-08 01:10:12 |
-| 26 ⬇  | elisworm         | 🐊 crocodile | 96.89         | 2025-12-02 00:24:00 |
-| 27 ⬇  | likedom_         | 🐋 whale     | 94.60         | 2024-12-02 07:42:34 |
-| 28 ⬇  | rustezzz         | 🦭 seal      | 94.11         | 2025-04-02 16:46:39 |
-| 29 ⬇  | velantix         | 🐊 crocodile | 94.10         | 2025-02-09 20:10:49 |
-| 30 ⬇  | ggmagician       | 🦭 seal      | 93.61         | 2024-12-04 19:41:04 |
-| 31 ⬇  | rustezzz         | 🐋 whale     | 90.65         | 2025-02-14 12:32:00 |
-| 32 ⬇  | glorpiusbot      | 🐢 turtle    | 90.02         | 2026-01-02 20:51:21 |
-| 33 ⬇  | velantix         | 🐙 octopus   | 89.65         | 2025-08-14 18:46:06 |
-| 34 ⬇  | vigilsync        | 🐳 bluewhale | 88.80         | 2025-02-23 19:30:19 |
-| 35 ⬇  | rustezzz         | 🪸 coral     | 87.14         | 2025-06-23 17:50:14 |
-| 36 ⬇  | respirate_       | 🐬 dolphin   | 86.60         | 2025-11-29 08:10:40 |
-| 37 ⬇  | glorpiusbot      | 🐢 turtle    | 85.85         | 2026-02-27 23:52:27 |
-| 38 ⬇  | elisworm         | 🐋 whale     | 84.66         | 2025-12-01 10:19:26 |
-| 39 ⬇  | ojack18          | 🐋 whale     | 82.22         | 2025-05-24 21:21:30 |
-| 40 ⬇  | ievantee         | 🐋 whale     | 80.56         | 2025-07-04 00:00:47 |
-| 41 ⬇  | dom1torii        | 🐊 crocodile | 80.34         | 2025-02-04 23:36:24 |
-| 42 ⬇  | respirate_       | 🦕 sauropod  | 80.11         | 2025-11-21 00:12:33 |
-| 43 ⬇  | poggu_           | 🐙 octopus   | 79.92         | 2024-11-28 12:39:38 |
-| 44 ⬇  | elisworm         | 🐋 whale     | 79.48         | 2025-11-27 02:42:53 |
-| 45 ⬇  | kaitechpl        | 🐊 crocodile | 79.42         | 2024-12-26 18:05:28 |
-| 46 ⬇  | stofeyxd         | 🐊 crocodile | 79.05         | 2025-05-26 11:41:35 |
-| 47 ⬇  | bubinga          | 🐢 turtle    | 78.05         | 2025-06-24 08:47:23 |
-| 48 ⬇  | kagecs           | 🐊 crocodile | 77.89         | 2024-12-02 23:41:17 |
-| 49 ⬇  | respirate_       | 🦈 shark     | 76.70         | 2025-12-01 09:24:00 |
-| 50 ⬇  | aquaismissing    | 🐢 turtle    | 75.51         | 2024-11-29 17:43:11 |
-| 51 ⬇  | dom1torii        | 🐊 crocodile | 75.04         | 2025-02-20 23:56:45 |
-| 52 ⬇  | flovrek          | 🐢 turtle    | 73.97         | 2025-10-29 03:04:09 |
-| 53 ⬇  | aistyrax3        | 🦕 sauropod  | 73.83         | 2024-12-01 17:06:31 |
-| 54 ⬇  | bubinga          | 🦭 seal      | 73.65         | 2026-01-01 23:18:37 |
-| 55 ⬇  | desxyne          | 🦑 squid     | 73.22         | 2025-07-12 23:13:36 |
-| 56 ⬇  | dom1torii        | 🦭 seal      | 70.92         | 2025-01-22 14:50:52 |
-| 57 🆕 | mir9_9           | 👑 crown     | 69.79         | 2026-07-30 22:21:22 |
-| 58 ⬇  | glorpiusbot      | 🐊 crocodile | 69.50         | 2025-11-19 01:21:33 |
-| 59 ⬇  | rustezzz         | 🐳 bluewhale | 69.22         | 2025-08-06 17:00:12 |
-| 60 ⬇  | underpaidchatter | 🦑 squid     | 69.03         | 2026-05-01 22:52:23 |
-| 61 ⬇  | bubinga          | 🐙 octopus   | 68.53         | 2025-08-03 15:08:56 |
-| 62 ⬇  | glorpiusbot      | 🐙 octopus   | 67.80         | 2025-11-03 22:50:21 |
-| 63 ⬇  | dom1torii        | 🐬 dolphin   | 67.04         | 2025-03-06 23:54:11 |
-| 64 ⬇  | elisworm         | 🐳 bluewhale | 66.75         | 2025-11-29 08:13:41 |
-| 65 ⬇  | respirate_       | 🐬 dolphin   | 66.05         | 2025-12-01 08:41:37 |
-| 66 ⬇  | aistyrax3        | 🪸 coral     | 64.42         | 2025-09-18 12:40:52 |
-| 67 ⬇  | velantix         | 🐊 crocodile | 63.68         | 2025-02-04 14:40:31 |
-| 68 ⬇  | aquaismissing    | 🦑 squid     | 63.36         | 2025-08-25 21:37:47 |
-| 69 ⬇  | stofeyxd         | 🦑 squid     | 63.28         | 2025-07-07 17:09:48 |
-| 70 ⬇  | rustezzz         | 🦞 lobster   | 62.98         | 2025-11-13 22:12:15 |
-| 71 ⬇  | ggmagician       | 🐙 octopus   | 62.94         | 2024-12-02 01:00:54 |
-| 72 ⬇  | bubinga          | 🐢 turtle    | 61.73         | 2025-11-30 02:26:18 |
-| 73 ⬇  | glorpiusbot      | 🐢 turtle    | 61.68         | 2025-10-28 16:32:35 |
-| 74 ⬇  | respirate_       | 🦑 squid     | 61.49         | 2025-11-17 05:38:28 |
-| 75 ⬇  | elisworm         | 🦞 lobster   | 60.79         | 2025-11-21 07:30:05 |
-| 76 ⬇  | stofeyxd         | 🐢 turtle    | 60.60         | 2025-05-15 14:53:40 |
-| 77 ⬇  | respirate_       | 🐢 turtle    | 60.31         | 2025-11-19 07:00:00 |
-| 78 ⬇  | nuflux           | 🐙 octopus   | 59.93         | 2026-03-17 01:16:05 |
-| 79 ⬇  | tautautautautau  | 🐢 turtle    | 59.69         | 2025-03-11 22:09:33 |
-| 80 ⬇  | poggu_           | 🦞 lobster   | 59.30         | 2024-11-28 10:34:33 |
-| 81 ⬇  | velantix         | 🐊 crocodile | 59.24         | 2025-04-19 15:26:33 |
-| 82 ⬇  | aquaismissing    | 🦑 squid     | 59.01         | 2025-02-03 23:27:27 |
-| 83 ⬇  | aistyrax3        | 🦑 squid     | 58.90         | 2025-02-11 21:52:32 |
-| 84 ⬇  | poggu_           | 🦞 lobster   | 58.71         | 2024-11-29 20:54:45 |
-| 85 ⬇  | underpaidchatter | 🐢 turtle    | 58.44         | 2026-07-15 23:37:22 |
-| 86 ⬇  | girlglock        | 🦞 lobster   | 58.02         | 2025-05-24 00:29:21 |
-| 87 ⬇  | elisworm         | 🐳 bluewhale | 57.67         | 2025-11-29 06:18:25 |
-| 88 ⬇  | respirate_       | 🐙 octopus   | 57.00         | 2025-11-19 01:23:57 |
-| 89 ⬇  | glorpiusbot      | 🐢 turtle    | 56.81         | 2025-11-02 22:49:03 |
-| 90 ⬇  | respirate_       | 🐋 whale     | 55.23         | 2025-11-28 08:41:49 |
-| 91 ⬇  | aquaismissing    | 🐙 octopus   | 54.71         | 2024-12-30 23:59:00 |
-| 92 ⬇  | bubinga          | 🦑 squid     | 54.60         | 2025-10-05 14:50:21 |
-| 93 ⬇  | aistyrax3        | 🐋 whale     | 53.95         | 2025-01-21 14:28:21 |
-| 94 ⬇  | elisworm         | 🦞 lobster   | 53.64         | 2025-12-01 08:43:10 |
-| 95 ⬇  | desxyne          | 🐬 dolphin   | 53.63         | 2025-11-02 00:08:33 |
-| 96 ⬇  | respirate_       | 🐋 whale     | 53.45         | 2025-11-19 06:25:57 |
-| 97 ⬇  | glorpiusbot      | 🐢 turtle    | 53.30         | 2026-01-12 19:38:18 |
-| 98 ⬇  | poggu_           | 🐙 octopus   | 52.66         | 2024-11-28 23:38:12 |
-| 99 ⬇  | elisworm         | 🐙 octopus   | 51.86         | 2025-11-21 09:23:24 |
-| 100 ⬇ | ggmagician       | 🦑 squid     | 51.49         | 2024-12-06 12:06:44 |
+| 15    | cute_ducc        | 🪸 coral     | 113.34        | 2026-07-27 19:58:44 |
+| 16    | ranctious        | 🐙 octopus   | 113.24        | 2025-06-19 17:30:54 |
+| 17    | respirate_       | 🦈 shark     | 112.40        | 2025-11-21 05:00:34 |
+| 18    | buck101_         | 🐊 crocodile | 111.01        | 2025-07-06 12:23:22 |
+| 19    | bubinga          | 🐊 crocodile | 106.79        | 2025-07-11 06:44:34 |
+| 20    | respirate_       | 🐋 whale     | 104.48        | 2025-11-26 07:20:47 |
+| 21    | poggu_           | 🐊 crocodile | 104.06        | 2024-11-29 21:58:16 |
+| 22    | bubinga          | 🐋 whale     | 102.44        | 2024-12-10 17:23:25 |
+| 23    | bubinga          | 🐬 dolphin   | 101.76        | 2025-08-19 07:47:17 |
+| 24    | ggmagician       | 🪸 coral     | 98.94         | 2025-06-06 23:38:48 |
+| 25    | ojack18          | 🐋 whale     | 97.17         | 2026-07-08 01:10:12 |
+| 26    | elisworm         | 🐊 crocodile | 96.89         | 2025-12-02 00:24:00 |
+| 27    | likedom_         | 🐋 whale     | 94.60         | 2024-12-02 07:42:34 |
+| 28    | rustezzz         | 🦭 seal      | 94.11         | 2025-04-02 16:46:39 |
+| 29    | velantix         | 🐊 crocodile | 94.10         | 2025-02-09 20:10:49 |
+| 30    | ggmagician       | 🦭 seal      | 93.61         | 2024-12-04 19:41:04 |
+| 31    | rustezzz         | 🐋 whale     | 90.65         | 2025-02-14 12:32:00 |
+| 32    | glorpiusbot      | 🐢 turtle    | 90.02         | 2026-01-02 20:51:21 |
+| 33    | velantix         | 🐙 octopus   | 89.65         | 2025-08-14 18:46:06 |
+| 34    | vigilsync        | 🐳 bluewhale | 88.80         | 2025-02-23 19:30:19 |
+| 35    | rustezzz         | 🪸 coral     | 87.14         | 2025-06-23 17:50:14 |
+| 36    | respirate_       | 🐬 dolphin   | 86.60         | 2025-11-29 08:10:40 |
+| 37    | glorpiusbot      | 🐢 turtle    | 85.85         | 2026-02-27 23:52:27 |
+| 38    | elisworm         | 🐋 whale     | 84.66         | 2025-12-01 10:19:26 |
+| 39    | ojack18          | 🐋 whale     | 82.22         | 2025-05-24 21:21:30 |
+| 40    | ievantee         | 🐋 whale     | 80.56         | 2025-07-04 00:00:47 |
+| 41    | dom1torii        | 🐊 crocodile | 80.34         | 2025-02-04 23:36:24 |
+| 42    | respirate_       | 🦕 sauropod  | 80.11         | 2025-11-21 00:12:33 |
+| 43    | poggu_           | 🐙 octopus   | 79.92         | 2024-11-28 12:39:38 |
+| 44    | elisworm         | 🐋 whale     | 79.48         | 2025-11-27 02:42:53 |
+| 45    | kaitechpl        | 🐊 crocodile | 79.42         | 2024-12-26 18:05:28 |
+| 46    | stofeyxd         | 🐊 crocodile | 79.05         | 2025-05-26 11:41:35 |
+| 47    | bubinga          | 🐢 turtle    | 78.05         | 2025-06-24 08:47:23 |
+| 48    | kagecs           | 🐊 crocodile | 77.89         | 2024-12-02 23:41:17 |
+| 49    | respirate_       | 🦈 shark     | 76.70         | 2025-12-01 09:24:00 |
+| 50    | aquaismissing    | 🐢 turtle    | 75.51         | 2024-11-29 17:43:11 |
+| 51    | dom1torii        | 🐊 crocodile | 75.04         | 2025-02-20 23:56:45 |
+| 52    | flovrek          | 🐢 turtle    | 73.97         | 2025-10-29 03:04:09 |
+| 53    | aistyrax3        | 🦕 sauropod  | 73.83         | 2024-12-01 17:06:31 |
+| 54    | bubinga          | 🦭 seal      | 73.65         | 2026-01-01 23:18:37 |
+| 55    | desxyne          | 🦑 squid     | 73.22         | 2025-07-12 23:13:36 |
+| 56    | dom1torii        | 🦭 seal      | 70.92         | 2025-01-22 14:50:52 |
+| 57    | mir9_9           | 👑 crown     | 69.79         | 2026-07-30 22:21:22 |
+| 58    | glorpiusbot      | 🐊 crocodile | 69.50         | 2025-11-19 01:21:33 |
+| 59    | rustezzz         | 🐳 bluewhale | 69.22         | 2025-08-06 17:00:12 |
+| 60    | underpaidchatter | 🦑 squid     | 69.03         | 2026-05-01 22:52:23 |
+| 61    | bubinga          | 🐙 octopus   | 68.53         | 2025-08-03 15:08:56 |
+| 62    | glorpiusbot      | 🐙 octopus   | 67.80         | 2025-11-03 22:50:21 |
+| 63    | dom1torii        | 🐬 dolphin   | 67.04         | 2025-03-06 23:54:11 |
+| 64    | elisworm         | 🐳 bluewhale | 66.75         | 2025-11-29 08:13:41 |
+| 65    | respirate_       | 🐬 dolphin   | 66.05         | 2025-12-01 08:41:37 |
+| 66    | aistyrax3        | 🪸 coral     | 64.42         | 2025-09-18 12:40:52 |
+| 67    | velantix         | 🐊 crocodile | 63.68         | 2025-02-04 14:40:31 |
+| 68    | aquaismissing    | 🦑 squid     | 63.36         | 2025-08-25 21:37:47 |
+| 69    | stofeyxd         | 🦑 squid     | 63.28         | 2025-07-07 17:09:48 |
+| 70    | rustezzz         | 🦞 lobster   | 62.98         | 2025-11-13 22:12:15 |
+| 71    | ggmagician       | 🐙 octopus   | 62.94         | 2024-12-02 01:00:54 |
+| 72    | bubinga          | 🐢 turtle    | 61.73         | 2025-11-30 02:26:18 |
+| 73    | glorpiusbot      | 🐢 turtle    | 61.68         | 2025-10-28 16:32:35 |
+| 74    | respirate_       | 🦑 squid     | 61.49         | 2025-11-17 05:38:28 |
+| 75    | elisworm         | 🦞 lobster   | 60.79         | 2025-11-21 07:30:05 |
+| 76    | stofeyxd         | 🐢 turtle    | 60.60         | 2025-05-15 14:53:40 |
+| 77    | respirate_       | 🐢 turtle    | 60.31         | 2025-11-19 07:00:00 |
+| 78    | nuflux           | 🐙 octopus   | 59.93         | 2026-03-17 01:16:05 |
+| 79    | tautautautautau  | 🐢 turtle    | 59.69         | 2025-03-11 22:09:33 |
+| 80    | poggu_           | 🦞 lobster   | 59.30         | 2024-11-28 10:34:33 |
+| 81    | velantix         | 🐊 crocodile | 59.24         | 2025-04-19 15:26:33 |
+| 82    | aquaismissing    | 🦑 squid     | 59.01         | 2025-02-03 23:27:27 |
+| 83    | aistyrax3        | 🦑 squid     | 58.90         | 2025-02-11 21:52:32 |
+| 84    | poggu_           | 🦞 lobster   | 58.71         | 2024-11-29 20:54:45 |
+| 85    | underpaidchatter | 🐢 turtle    | 58.44         | 2026-07-15 23:37:22 |
+| 86    | girlglock        | 🦞 lobster   | 58.02         | 2025-05-24 00:29:21 |
+| 87    | elisworm         | 🐳 bluewhale | 57.67         | 2025-11-29 06:18:25 |
+| 88    | respirate_       | 🐙 octopus   | 57.00         | 2025-11-19 01:23:57 |
+| 89    | glorpiusbot      | 🐢 turtle    | 56.81         | 2025-11-02 22:49:03 |
+| 90 🆕 | mir9_9           | 🐳 bluewhale | 56.52         | 2026-08-24 09:46:18 |
+| 91 ⬇  | respirate_       | 🐋 whale     | 55.23         | 2025-11-28 08:41:49 |
+| 92 ⬇  | aquaismissing    | 🐙 octopus   | 54.71         | 2024-12-30 23:59:00 |
+| 93 ⬇  | bubinga          | 🦑 squid     | 54.60         | 2025-10-05 14:50:21 |
+| 94 ⬇  | aistyrax3        | 🐋 whale     | 53.95         | 2025-01-21 14:28:21 |
+| 95 ⬇  | elisworm         | 🦞 lobster   | 53.64         | 2025-12-01 08:43:10 |
+| 96 ⬇  | desxyne          | 🐬 dolphin   | 53.63         | 2025-11-02 00:08:33 |
+| 97 ⬇  | respirate_       | 🐋 whale     | 53.45         | 2025-11-19 06:25:57 |
+| 98 ⬇  | glorpiusbot      | 🐢 turtle    | 53.30         | 2026-01-12 19:38:18 |
+| 99 ⬇  | poggu_           | 🐙 octopus   | 52.66         | 2024-11-28 23:38:12 |
+| 100 ⬇ | elisworm         | 🐙 octopus   | 51.86         | 2025-11-21 09:23:24 |
 
-_Last updated at 2026-08-02 09:37:44 UTC_
+_Last updated at 2026-08-30 08:28:43 UTC_

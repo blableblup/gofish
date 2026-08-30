@@ -6,7 +6,7 @@
 | 2 🥈  | rustezzz         | 1405.01             |
 | 3 🥉  | bubinga          | 1346.92             |
 | 4     | elisworm         | 1310.16             |
-| 5     | glorpiusbot      | 879.22 (+9.99)      |
+| 5     | glorpiusbot      | 879.22              |
 | 6     | velantix*        | 801.23              |
 | 7     | poggu_           | 706.03              |
 | 8     | stofeyxd*        | 663.82              |
@@ -26,4 +26,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-08-23 09:00:54 UTC_
+_Last updated at 2026-08-30 08:28:42 UTC_

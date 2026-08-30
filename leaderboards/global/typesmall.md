@@ -32,9 +32,9 @@
 | 27    | 🐦‍⬛ robin           | 0.06          | paras220                  | 2024-07-07 04:33:58 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 27    | 🦕 sauropod        | 0.06          | dazedforevermore          | 2023-06-23 01:50:15 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 27    | 🥒 seacucumber     | 0.06          | gruble                    | 2023-10-19 13:14:09 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)           |
-| 31 ⬆  | 🧋 bobacup         | 0.05          | totallynotaboykisser      | 2026-08-03 16:36:29 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)           |
-| 31 ⬇  | 🍥 sanddollar      | 0.05 (-0.01)  | poons_u                   | 2026-08-11 16:46:13 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)           |
-| 31 ⬆  | 🧸 teddybear       | 0.05          | huuuuuuuuuuuuuuuuuuuuuurz | 2024-11-15 07:52:38 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)           |
+| 31    | 🧋 bobacup         | 0.05          | boyykisser                | 2026-08-03 16:36:29 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)           |
+| 31    | 🍥 sanddollar      | 0.05          | poons_u                   | 2026-08-11 16:46:13 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)           |
+| 31    | 🧸 teddybear       | 0.05          | huuuuuuuuuuuuuuuuuuuuuurz | 2024-11-15 07:52:38 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)           |
 | 34    | 🧃 beveragebox     | 0.04          | larvaew                   | 2025-06-12 04:57:02 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 34    | 🪁 kite            | 0.04          | eeziiii                   | 2025-06-29 14:46:14 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)             |
 | 34    | 🍄‍🟫 mushroom        | 0.04          | nndiana                   | 2025-12-27 01:39:15 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)             |
@@ -129,4 +129,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-08-16 11:46:17 UTC_
+_Last updated at 2026-08-30 08:26:06 UTC_

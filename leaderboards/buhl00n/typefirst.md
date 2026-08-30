@@ -2,6 +2,7 @@
 
 | Rank | Fish             | Weight in lbs | Player         | Date in UTC         |
 |:-----|:-----------------|:--------------|:---------------|:--------------------|
+| 88   | 🍥 sanddollar    | 0.57          | buhl00n        | 2026-08-28 20:51:35 |
 | 87   | 🐉 dragon        | 168.84        | buhl00n        | 2026-08-21 09:49:33 |
 | 86   | 🦋 butterfly     | 0.35          | gimmeschmoneys | 2026-07-23 11:48:01 |
 | 85   | 🪲 beetle        | 1.01          | gimmeschmoneys | 2026-07-22 08:07:54 |
@@ -57,9 +58,9 @@
 | 35   | 🧤 gloves        | 0.37          | buhl00n        | 2025-12-20 16:10:11 |
 | 34   | 🌾 grass         | 0.82          | gimmeschmoneys | 2025-12-19 05:50:41 |
 | 33   | 🐬 dolphin       | 38.19         | buhl00n        | 2025-12-18 07:05:45 |
+| 29   | ✉️ letter        | 0.00          | buhl00n        | 2025-12-18 06:15:35 |
 | 29   | 🍬 candy         | 0.00          | buhl00n        | 2025-12-18 06:15:35 |
 | 29   | 🍪 cookie        | 0.00          | buhl00n        | 2025-12-18 06:15:35 |
-| 29   | ✉️ letter        | 0.00          | buhl00n        | 2025-12-18 06:15:35 |
 | 29   | 🎀 wrappingpaper | 0.00          | buhl00n        | 2025-12-18 06:15:35 |
 | 28   | 🐠 tropicalfish  | 13.85         | buhl00n        | 2025-12-17 14:55:18 |
 | 27   | 🐙 octopus       | 35.55         | buhl00n        | 2025-12-17 04:32:28 |
@@ -90,4 +91,4 @@
 | 2    | 🐚 shell         | 3.21          | gimmeschmoneys | 2025-12-12 09:28:35 |
 | 1    | 🪺 nestwitheggs  | 10.37         | buhl00n        | 2025-12-12 06:12:20 |
 
-_Last updated at 2026-08-23 09:00:55 UTC_
+_Last updated at 2026-08-30 08:24:51 UTC_

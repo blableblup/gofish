@@ -305,7 +305,7 @@
 		"fishid": 189282,
 		"chatid": 269,
 		"date": "2025-07-23T00:26:25Z",
-		"rank": 93
+		"rank": 94
 	},
 	"189664": {
 		"player": "mowogan",
@@ -711,7 +711,7 @@
 		"fishid": 196783,
 		"chatid": 544,
 		"date": "2025-09-01T13:54:18Z",
-		"rank": 97
+		"rank": 98
 	},
 	"197699": {
 		"player": "konsminator",
@@ -767,7 +767,7 @@
 		"fishid": 198349,
 		"chatid": 563,
 		"date": "2025-09-10T12:17:20Z",
-		"rank": 92
+		"rank": 93
 	},
 	"199776": {
 		"player": "mowogan",
@@ -1005,7 +1005,7 @@
 		"fishid": 227523,
 		"chatid": 846,
 		"date": "2025-12-23T23:19:24Z",
-		"rank": 94
+		"rank": 95
 	},
 	"228303": {
 		"player": "gofishgamer",
@@ -1033,7 +1033,7 @@
 		"fishid": 228367,
 		"chatid": 879,
 		"date": "2025-12-26T08:26:42Z",
-		"rank": 98
+		"rank": 99
 	},
 	"228589": {
 		"player": "gofishgamer",
@@ -1145,7 +1145,7 @@
 		"fishid": 235997,
 		"chatid": 1059,
 		"date": "2026-01-24T12:56:11Z",
-		"rank": 95
+		"rank": 96
 	},
 	"237543": {
 		"player": "mowogan",
@@ -1203,20 +1203,6 @@
 		"date": "2026-02-09T21:00:20Z",
 		"rank": 30
 	},
-	"240090": {
-		"player": "konsminator",
-		"playerid": 3143,
-		"weight": 58.33,
-		"bot": "gofishgame",
-		"fishtype": "🦞",
-		"fishname": "lobster",
-		"catchtype": "normal",
-		"chat": "mowogan",
-		"fishid": 240090,
-		"chatid": 1142,
-		"date": "2026-02-11T07:07:21Z",
-		"rank": 100
-	},
 	"240414": {
 		"player": "konsminator",
 		"playerid": 3143,
@@ -1229,7 +1215,7 @@
 		"fishid": 240414,
 		"chatid": 1154,
 		"date": "2026-02-12T19:12:16Z",
-		"rank": 91
+		"rank": 92
 	},
 	"240775": {
 		"player": "lolspers",
@@ -1299,7 +1285,7 @@
 		"fishid": 245498,
 		"chatid": 1198,
 		"date": "2026-03-09T07:24:40Z",
-		"rank": 96
+		"rank": 97
 	},
 	"245511": {
 		"player": "mowogan",
@@ -1397,6 +1383,20 @@
 		"fishid": 270176,
 		"chatid": 1238,
 		"date": "2026-06-24T02:19:50Z",
-		"rank": 99
+		"rank": 100
+	},
+	"285131": {
+		"player": "mangos4u",
+		"playerid": 3142,
+		"weight": 62.06,
+		"bot": "gofishgame",
+		"fishtype": "🐢",
+		"fishname": "turtle",
+		"catchtype": "normal",
+		"chat": "mowogan",
+		"fishid": 285131,
+		"chatid": 1250,
+		"date": "2026-08-24T00:06:59Z",
+		"rank": 91
 	}
 }

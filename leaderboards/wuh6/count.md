@@ -2,22 +2,22 @@
 
 | Rank  | Player                    | Fish caught |
 |:------|:--------------------------|:------------|
-| 1 🥇  | iflya320                  | 5223 (+51)  |
-| 2 🥈  | ranctious                 | 4527 (+47)  |
-| 3 🥉  | eeziiii                   | 4331 (+2)   |
-| 4     | bubinga                   | 4243 (+31)  |
-| 5     | theevirus                 | 4043 (+9)   |
-| 6     | lobuhtomy                 | 2909 (+19)  |
+| 1 🥇  | iflya320                  | 5246 (+23)  |
+| 2 🥈  | ranctious                 | 4589 (+62)  |
+| 3 🥉  | eeziiii                   | 4331        |
+| 4     | bubinga                   | 4257 (+14)  |
+| 5     | theevirus                 | 4049 (+6)   |
+| 6     | lobuhtomy                 | 2920 (+11)  |
 | 7     | huuuuuuuuuuuuuuuuuuuuuurz | 2772        |
-| 8     | wowitsdub                 | 2627 (+19)  |
-| 9     | nndiana*                  | 1830 (+11)  |
+| 8     | wowitsdub                 | 2644 (+17)  |
+| 9     | nndiana*                  | 1847 (+17)  |
 | 10    | gorillapark               | 1561        |
 | 11    | veny2lbs                  | 954         |
-| 12    | rancbot                   | 895 (+1)    |
+| 12    | rancbot                   | 897 (+2)    |
 | 13    | creepycode*               | 870         |
 | 14    | mazzo_tv                  | 567         |
-| 15    | feelsaceman               | 476 (+2)    |
-| 16    | caprisen_*                | 461         |
+| 15    | feelsaceman               | 478 (+2)    |
+| 16    | caprisen_*                | 462 (+1)    |
 | 17    | sandwichsundays*          | 400         |
 | 18    | blu_inx                   | 338         |
 | 19    | commanda_u                | 328         |
@@ -25,7 +25,7 @@
 | 21    | bluberry                  | 267         |
 | 22    | flovrek                   | 257         |
 | 23    | ocrw                      | 232         |
-| 24    | supibot                   | 222         |
+| 24    | supibot                   | 223 (+1)    |
 | 25    | ewpert1                   | 211         |
 | 26    | flvx_flux*                | 200         |
 | 27    | r3kko_                    | 155         |
@@ -63,7 +63,7 @@
 | 58    | pikausha                  | 32          |
 | 60    | llikotesnecil             | 31          |
 | 61    | kalechap                  | 25          |
-| 62    | wiihxhx                   | 23          |
+| 62    | wiihxhx                   | 24 (+1)     |
 | 63    | ggmagician                | 22          |
 | 64    | luneckie                  | 21          |
 | 65    | buh_official_             | 18          |
@@ -79,4 +79,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-08-23 09:02:55 UTC_
+_Last updated at 2026-08-30 08:24:51 UTC_
