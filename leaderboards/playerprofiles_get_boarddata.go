@@ -184,14 +184,16 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 
 		// give the players Records for their fish caught
 		for playerID := range otherBoardData[chatName].Count {
-			rank := otherBoardData[chatName].Count[playerID].Rank
+			if _, ok := Profiles[playerID]; ok {
 
-			if rank <= ranklimit {
+				rank := otherBoardData[chatName].Count[playerID].Rank
 
-				ranksuffix := changeRankThingy(rank)
+				if rank <= ranklimit {
 
-				// only update Records if they are in the map
-				if _, ok := Profiles[playerID]; ok {
+					ranksuffix := changeRankThingy(rank)
+
+					// only update Records if they are in the map
+
 					switch rank {
 					default:
 						Profiles[playerID].Records = append(Profiles[playerID].Records,
@@ -207,18 +209,18 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 							fmt.Sprintf("🥉 Third most fish caught %s !", text))
 					}
 				}
-
 			}
 		}
 
 		// give the players Records for their fish seen
 		for playerID := range otherBoardData[chatName].Uniquefish {
-			rank := otherBoardData[chatName].Uniquefish[playerID].Rank
-			if rank <= ranklimit {
+			if _, ok := Profiles[playerID]; ok {
 
-				ranksuffix := changeRankThingy(rank)
+				rank := otherBoardData[chatName].Uniquefish[playerID].Rank
+				if rank <= ranklimit {
 
-				if _, ok := Profiles[playerID]; ok {
+					ranksuffix := changeRankThingy(rank)
+
 					switch rank {
 					default:
 						Profiles[playerID].Records = append(Profiles[playerID].Records,
@@ -234,18 +236,18 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 							fmt.Sprintf("🥉 Third most fish seen %s !", text))
 					}
 				}
-
 			}
 		}
 
 		// give the players Records for their biggest fish
 		for playerID := range otherBoardData[chatName].Weight {
-			rank := otherBoardData[chatName].Weight[playerID].Rank
-			if rank <= ranklimit {
+			if _, ok := Profiles[playerID]; ok {
 
-				ranksuffix := changeRankThingy(rank)
+				rank := otherBoardData[chatName].Weight[playerID].Rank
+				if rank <= ranklimit {
 
-				if _, ok := Profiles[playerID]; ok {
+					ranksuffix := changeRankThingy(rank)
+
 					switch rank {
 					default:
 						Profiles[playerID].Records = append(Profiles[playerID].Records,
@@ -260,18 +262,19 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 						Profiles[playerID].Records = append(Profiles[playerID].Records,
 							fmt.Sprintf("🥉 Third biggest fish record %s !", text))
 					}
-				}
 
+				}
 			}
 		}
 
 		for playerID := range otherBoardData[chatName].Trophy {
 			rank := otherBoardData[chatName].Trophy[playerID].Rank
-			if rank <= ranklimit {
 
-				ranksuffix := changeRankThingy(rank)
+			if _, ok := Profiles[playerID]; ok {
+				if rank <= ranklimit {
 
-				if _, ok := Profiles[playerID]; ok {
+					ranksuffix := changeRankThingy(rank)
+
 					switch rank {
 					default:
 						Profiles[playerID].Records = append(Profiles[playerID].Records,
@@ -288,6 +291,30 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 					}
 				}
 
+				// store how many stuff they won in total and for each chat
+				trophies := otherBoardData[chatName].Trophy[playerID].Trophies
+				silverMedals := otherBoardData[chatName].Trophy[playerID].Silver
+				bronzeMedals := otherBoardData[chatName].Trophy[playerID].Bronze
+
+				if Profiles[playerID].Trophies.TotalTrophies == nil {
+					Profiles[playerID].Trophies.TotalTrophies = make(map[int]int)
+				}
+
+				Profiles[playerID].Trophies.TotalTrophies[1] += trophies
+				Profiles[playerID].Trophies.TotalTrophies[2] += silverMedals
+				Profiles[playerID].Trophies.TotalTrophies[3] += bronzeMedals
+
+				if Profiles[playerID].Trophies.ChatTrophies == nil {
+					Profiles[playerID].Trophies.ChatTrophies = make(map[string]map[int]int)
+				}
+
+				if Profiles[playerID].Trophies.ChatTrophies[chatName] == nil {
+					Profiles[playerID].Trophies.ChatTrophies[chatName] = make(map[int]int)
+				}
+
+				Profiles[playerID].Trophies.ChatTrophies[chatName][1] = trophies
+				Profiles[playerID].Trophies.ChatTrophies[chatName][2] = silverMedals
+				Profiles[playerID].Trophies.ChatTrophies[chatName][3] = bronzeMedals
 			}
 		}
 
@@ -298,9 +325,8 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 
 			playerID := otherBoardData[chatName].Type[fishName].PlayerID
 
-			fishType := fmt.Sprintf("%s %s", fishName, fish.FishType)
-
 			if _, ok := Profiles[playerID]; ok {
+				fishType := fmt.Sprintf("%s %s", fishName, fish.FishType)
 
 				if Profiles[playerID].FishData[fishType].Biggest.Date.Equal(otherBoardData[chatName].Type[fishName].Date) {
 
@@ -308,9 +334,7 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 						fmt.Sprintf("🥇 Biggest %s %s record %s !", fish.FishType, fishName, text))
 
 				}
-
 			}
-
 		}
 
 		// update the record for the smallest per type
@@ -318,9 +342,8 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 
 			playerID := otherBoardData[chatName].Typesmall[fishName].PlayerID
 
-			fishType := fmt.Sprintf("%s %s", fishName, fish.FishType)
-
 			if _, ok := Profiles[playerID]; ok {
+				fishType := fmt.Sprintf("%s %s", fishName, fish.FishType)
 
 				if Profiles[playerID].FishData[fishType].Smallest.Date.Equal(otherBoardData[chatName].Typesmall[fishName].Date) {
 
@@ -328,18 +351,16 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 						fmt.Sprintf("🥇 Smallest %s %s record %s !", fish.FishType, fishName, text))
 
 				}
-
 			}
-
 		}
+
 		// update the record for the first per type
 		for fishName, fish := range otherBoardData[chatName].Typefirst {
 
 			playerID := otherBoardData[chatName].Typefirst[fishName].PlayerID
 
-			fishType := fmt.Sprintf("%s %s", fishName, fish.FishType)
-
 			if _, ok := Profiles[playerID]; ok {
+				fishType := fmt.Sprintf("%s %s", fishName, fish.FishType)
 
 				if Profiles[playerID].FishData[fishType].First.Date.Equal(otherBoardData[chatName].Typefirst[fishName].Date) {
 
@@ -347,9 +368,7 @@ func UpdatePlayerProfilesRecords(params LeaderboardParams, Profiles map[int]*Pla
 						fmt.Sprintf("🥇 First ever %s %s caught %s !", fish.FishType, fishName, text))
 
 				}
-
 			}
-
 		}
 
 		// nothing for typelast ? maybe only if the catch was long ago

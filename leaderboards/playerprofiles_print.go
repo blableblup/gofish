@@ -265,6 +265,37 @@ func PrintPlayerProfileMD(Profile *PlayerProfile, EmojisForFish map[string]strin
 
 	_, _ = fmt.Fprintln(file, "\n---------------")
 
+	_, _ = fmt.Fprintln(file, "\n## Their tournament awards 🏆🥈🥉")
+
+	if Profile.Trophies.TotalTrophies[1] == 0 && Profile.Trophies.TotalTrophies[2] == 0 && Profile.Trophies.TotalTrophies[3] == 0 {
+		fmt.Fprintln(file, "This fisher never won anything anywhere.")
+	} else {
+		fmt.Fprint(file, "In total they won ")
+
+		if Profile.Trophies.TotalTrophies[1] > 0 {
+			_, _ = fmt.Fprintf(file, "%d 🏆 ", Profile.Trophies.TotalTrophies[1])
+		}
+
+		if Profile.Trophies.TotalTrophies[2] > 0 {
+			_, _ = fmt.Fprintf(file, "%d 🥈 ", Profile.Trophies.TotalTrophies[2])
+		}
+
+		if Profile.Trophies.TotalTrophies[3] > 0 {
+			_, _ = fmt.Fprintf(file, "%d 🥉 ", Profile.Trophies.TotalTrophies[3])
+		}
+
+		fmt.Fprint(file, ".")
+
+		_, _ = fmt.Fprintln(file)
+
+		err = PrintTableMD(Profile.Trophies.ChatTrophies, []string{"Chat", "🏆", "🥈", "🥉"}, "Awards won per chat", "trophies", true, file)
+		if err != nil {
+			return err
+		}
+	}
+
+	_, _ = fmt.Fprintln(file, "\n---------------")
+
 	_, _ = fmt.Fprintln(file, "\n## Their last seen bag 🎒")
 
 	err = PrintTableMD(Profile.Bag, []string{"Bag", "Date", "Chat"}, "", "notslice", false, file)
@@ -709,6 +740,21 @@ func PrintTableMD(data any, header []string, title string, what string, hide boo
 			}
 		}
 
+	case "trophies":
+
+		trophies := data.(map[string]map[int]int)
+
+		for chatName, chatTrophies := range trophies {
+			err = table.Append(
+				chatName,
+				chatTrophies[1],
+				chatTrophies[2],
+				chatTrophies[3],
+			)
+			if err != nil {
+				return err
+			}
+		}
 	}
 
 	err = table.Render()

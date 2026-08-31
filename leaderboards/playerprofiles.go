@@ -45,6 +45,8 @@ type PlayerProfile struct {
 	LastFish     []ProfileFish          `json:"Their overall last fish"`
 	LastFishChat map[string]ProfileFish `json:"Their last fish per chat"`
 
+	Trophies Trophies
+
 	TotalWeight     *TotalChatStructFloat            `json:"Combined weight of all caught fish"`
 	TotalWeightYear map[string]*TotalChatStructFloat `json:"Combined weight of all caught fish per year"`
 
@@ -157,6 +159,11 @@ type ProfileFish struct {
 	ChatPfp  string    `json:"-"`
 	Url      string    `json:"-"`
 	Date     time.Time `json:"-"`
+}
+
+type Trophies struct {
+	TotalTrophies map[int]int
+	ChatTrophies  map[string]map[int]int
 }
 
 // struct for each fish types data
@@ -290,8 +297,7 @@ func GetPlayerProfiles(params LeaderboardParams) {
 	mu := new(sync.Mutex)
 
 	for _, validPlayer := range validPlayers {
-		wg.Add(1)
-		go func() {
+		wg.Go(func() {
 
 			if playerProfiles[validPlayer].TwitchID != 0 {
 				err = PrintPlayerProfile(playerProfiles[validPlayer], FishWithEmoji, fishLists)
@@ -311,8 +317,7 @@ func GetPlayerProfiles(params LeaderboardParams) {
 				}
 			}
 
-			wg.Done()
-		}()
+		})
 	}
 
 	wg.Wait()
