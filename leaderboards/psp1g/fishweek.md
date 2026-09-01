@@ -11,7 +11,7 @@
 | 7     | fonuwu                    | 83          |
 | 7     | jayayseaohbe              | 83          |
 | 7     | kevinlukejager            | 83          |
-| 10    | totallynotaboykisser      | 82          |
+| 10    | boyykisser                | 82          |
 | 11    | blu_inx                   | 80          |
 | 12    | inders                    | 79          |
 | 13    | poons_u                   | 78          |
@@ -54,16 +54,16 @@
 | 50    | 3mikel                    | 31          |
 | 50    | llikotesnecil             | 31          |
 | 52    | noconcept_                | 29          |
-| 53 🆕 | xyqra                     | 28          |
+| 53    | xyqra                     | 28          |
 | 53    | yvhsu                     | 28          |
-| 55 ⬇  | bananenshak3              | 27          |
-| 56 ⬇  | creepycode                | 26          |
-| 56 ⬇  | flunke_                   | 26          |
-| 58 ⬇  | angus_lpc                 | 24          |
-| 58 ⬇  | bamfzi                    | 24          |
-| 58 ⬇  | seryxx                    | 24          |
-| 61 ⬇  | afju*                     | 21          |
+| 55    | bananenshak3              | 27          |
+| 56    | creepycode                | 26          |
+| 56    | flunke_                   | 26          |
+| 58    | angus_lpc                 | 24          |
+| 58    | bamfzi                    | 24          |
+| 58    | seryxx                    | 24          |
+| 61    | afju*                     | 21          |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2026-08-18 12:27:19 UTC_
+_Last updated at 2026-09-01 09:03:01 UTC_

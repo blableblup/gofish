@@ -2,27 +2,27 @@
 
 | Rank  | Player                    | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points       |
 |:------|:--------------------------|:------------|:-----------------|:-----------------|:-------------|
-| 1 🥇  | nndiana                   | 84          | 76               | 41               | 348.5        |
+| 1 🥇  | nndiana                   | 84          | 79 (+3)          | 41               | 351.5 (+3.0) |
 | 2 🥈  | luneckie                  | 37          | 11               | 14               | 129.0        |
-| 3 🥉  | jayayseaohbe              | 30 (+1)     | 22               | 11 (+1)          | 117.5 (+3.5) |
+| 3 🥉  | jayayseaohbe              | 30          | 22               | 11               | 117.5        |
 | 4     | bubinga                   | 28          | 21               | 16               | 113.0        |
 | 5     | blu_inx                   | 9           | 12               | 11               | 44.5         |
 | 6     | mazzo_tv                  | 6           | 12               | 18               | 39.0         |
 | 7     | huuuuuuuuuuuuuuuuuuuuuurz | 8           | 10               | 9                | 38.5         |
 | 8     | benciee                   | 7           | 11               | 2                | 33.0         |
 | 9     | disappointingtrash        | 7           | 7                | 7                | 31.5         |
-| 10    | totallynotaboykisser      | 5           | 8                | 6                | 26.0         |
-| 11    | kevinlukejager            | 6           | 4                | 5                | 24.5         |
-| 12    | ratot                     | 4           | 7                | 9                | 23.5         |
-| 13    | iflya320                  | 6           | 3                | 2                | 22.0         |
-| 13 ⬆  | sklortch                  | 5 (+2)      | 6 (+1)           | 2                | 22.0 (+7.0)  |
-| 15 ⬇  | jem_mp3                   | 6           | 3                | 0                | 21.0         |
-| 16 ⬇  | elusiin                   | 6           | 2                | 0                | 20.0         |
-| 16 ⬇  | rottarded                 | 4           | 5                | 6                | 20.0         |
-| 18 ⬇  | joshuabzz                 | 3           | 5                | 11               | 19.5         |
-| 19 ⬇  | lobuhtomy                 | 3           | 3                | 11               | 17.5         |
-| 20 ⬇  | inders                    | 3           | 4                | 5                | 15.5         |
-| 21 ⬇  | zwockel01                 | 4           | 2                | 2                | 15.0         |
+| 10 ⬆  | sklortch                  | 8 (+3)      | 6                | 2                | 31.0 (+9.0)  |
+| 11 ⬇  | boyykisser                | 5           | 8                | 6                | 26.0         |
+| 12 ⬇  | kevinlukejager            | 6           | 4                | 5                | 24.5         |
+| 13 ⬇  | ratot                     | 4           | 7                | 9                | 23.5         |
+| 14 ⬇  | iflya320                  | 6           | 3                | 2                | 22.0         |
+| 15    | jem_mp3                   | 6           | 3                | 0                | 21.0         |
+| 16    | elusiin                   | 6           | 2                | 0                | 20.0         |
+| 16    | rottarded                 | 4           | 5                | 6                | 20.0         |
+| 18    | joshuabzz                 | 3           | 5                | 11               | 19.5         |
+| 19    | lobuhtomy                 | 3           | 3                | 11               | 17.5         |
+| 20    | inders                    | 3           | 4                | 5                | 15.5         |
+| 21    | zwockel01                 | 4           | 2                | 2                | 15.0         |
 | 22    | noconcept_                | 4           | 2                | 0                | 14.0         |
 | 23    | 3mikel                    | 4           | 0                | 2                | 13.0         |
 | 23    | r1cz4rd                   | 1           | 3                | 14               | 13.0         |
@@ -61,4 +61,4 @@
 | 54    | maplegif                  | 0           | 0                | 1                | 0.5          |
 | 54    | starducc                  | 0           | 0                | 1                | 0.5          |
 
-_Last updated at 2026-08-27 11:26:41 UTC_
+_Last updated at 2026-09-01 09:03:01 UTC_
