@@ -20,9 +20,9 @@
 | 16    | ggmagician    | 14        |
 | 16    | kam3l_        | 14        |
 | 16    | kargalay      | 14        |
-| 19    | kaczer1       | 13        |
-| 19 ⬆  | mir9_9        | 13 (+1)   |
-| 19    | poggu_        | 13        |
+| 16 ⬆  | mir9_9        | 14 (+1)   |
+| 20 ⬇  | kaczer1       | 13        |
+| 20 ⬇  | poggu_        | 13        |
 | 22    | kreplj        | 10        |
 | 22    | ojack18       | 10        |
 | 22    | vigilsync*    | 10        |
@@ -31,4 +31,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2026-08-30 08:26:44 UTC_
+_Last updated at 2026-09-06 09:42:42 UTC_

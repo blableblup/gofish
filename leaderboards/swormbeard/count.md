@@ -7,7 +7,7 @@
 | 3 🥉  | leanmeister      | 77          |
 | 4     | respirate_       | 63          |
 | 5     | derinturitierutz | 61          |
-| 6     | ytp_dl*          | 57 (+5)     |
+| 6     | ytp_dl*          | 58 (+1)     |
 | 7     | pinksynthesis29  | 32          |
 | 8     | ninjaross*       | 29          |
 | 9     | dazedforevermore | 28          |
@@ -19,4 +19,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-08-30 08:24:51 UTC_
+_Last updated at 2026-09-06 09:46:49 UTC_

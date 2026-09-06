@@ -7,7 +7,7 @@
 | 3 🥉  | leanmeister           | 1041.97             |
 | 4     | pinksynthesis29       | 1014.61             |
 | 5     | respirate_            | 985.00              |
-| 6     | ytp_dl*               | 925.44 (+149.18)    |
+| 6     | ytp_dl*               | 926.96 (+1.52)      |
 | 7     | derinturitierutz      | 735.35              |
 | 8     | elisworm              | 635.41              |
 | 9     | kishma9               | 505.22              |
@@ -19,4 +19,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-08-30 08:28:42 UTC_
+_Last updated at 2026-09-06 09:44:45 UTC_

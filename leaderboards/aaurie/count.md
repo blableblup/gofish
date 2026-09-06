@@ -3,23 +3,23 @@
 | Rank  | Player                 | Fish caught |
 |:------|:-----------------------|:------------|
 | 1 🥇  | jeffbethyname69        | 233         |
-| 2 🥈  | amatusz                | 217 (+3)    |
+| 2 🥈  | amatusz                | 217         |
 | 3 🥉  | dolp_fin               | 198         |
 | 4     | boogie_310             | 157         |
 | 5     | aaurie                 | 122         |
 | 6     | allspice_boatrace      | 73          |
 | 7     | gofishgamer            | 71          |
 | 8     | guy_farting420         | 68          |
-| 9     | abelito75              | 64          |
-| 10    | victorvondoom313       | 50          |
-| 11    | rustnroll              | 44 (+1)     |
+| 9     | abelito75              | 65 (+1)     |
+| 10    | victorvondoom313       | 51 (+1)     |
+| 11    | rustnroll              | 44          |
 | 12    | slimdoggiedog          | 42          |
 | 13    | curiouscorvidae        | 41          |
 | 14    | jimmybooger            | 39          |
 | 14    | mademooselle           | 39          |
 | 16    | bluezebra17            | 38          |
-| 17    | preemalone             | 34          |
-| 18    | honeytonguedbee        | 31          |
+| 17 ⬆  | honeytonguedbee        | 35 (+4)     |
+| 18 ⬇  | preemalone             | 34          |
 | 19    | dwaynepounder          | 28          |
 | 20    | brody5020              | 25          |
 | 21    | meinmestar             | 22          |
@@ -32,13 +32,13 @@
 | 27    | ratlover2244           | 12          |
 | 29    | goodtubbaa             | 11          |
 | 29    | jah_alexander          | 11          |
-| 31    | frostytangent          | 10          |
-| 31    | jonysays               | 10          |
-| 31    | lor_starcutter         | 10          |
-| 31    | theevilassvampire_vahd | 10          |
-| 31    | twofistedtales         | 10          |
-| 31    | yourdadscameraroll     | 10          |
+| 29 ⬆  | jonysays               | 11 (+1)     |
+| 32 ⬇  | frostytangent          | 10          |
+| 32 ⬇  | lor_starcutter         | 10          |
+| 32 ⬇  | theevilassvampire_vahd | 10          |
+| 32 ⬇  | twofistedtales         | 10          |
+| 32 ⬇  | yourdadscameraroll     | 10          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-08-30 08:24:51 UTC_
+_Last updated at 2026-09-06 09:46:49 UTC_

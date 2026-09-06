@@ -2,8 +2,8 @@
 
 | Rank  | Player               | Fish seen |
 |:------|:---------------------|:----------|
-| 1 🥇  | xknownplayer         | 39 (+1)   |
-| 2 🥈  | whotookmamulukkikala | 35 (+1)   |
+| 1 🥇  | xknownplayer         | 39        |
+| 2 🥈  | whotookmamulukkikala | 36 (+1)   |
 | 3 🥉  | brogboi              | 27        |
 | 4     | ave0_                | 21        |
 
@@ -11,4 +11,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-08-30 08:26:44 UTC_
+_Last updated at 2026-09-06 09:42:42 UTC_

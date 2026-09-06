@@ -8,11 +8,12 @@
 | 4     | lolspers    | 🐢 turtle    | 179.08        | 2025-08-27 21:08:42 |
 | 5     | respirate_  | 🐳 bluewhale | 136.85        | 2026-01-01 10:19:23 |
 | 6     | elisworm    | 🐋 whale     | 107.19        | 2025-12-08 05:53:26 |
-| 7     | v6r_        | 🦕 sauropod  | 101.09        | 2026-01-13 04:36:46 |
-| 8     | gibbbons    | 🐙 octopus   | 85.32         | 2026-06-15 22:30:59 |
-| 9     | gofishgames | 🦈 shark     | 76.46         | 2026-03-22 22:34:54 |
-| 10 🆕 | mangos4u    | 🐢 turtle    | 62.06         | 2026-08-24 00:06:59 |
+| 7 🆕  | xtlos       | 🐋 whale     | 102.64        | 2026-09-05 17:37:30 |
+| 8 ⬇   | v6r_        | 🦕 sauropod  | 101.09        | 2026-01-13 04:36:46 |
+| 9 ⬇   | gibbbons    | 🐙 octopus   | 85.32         | 2026-06-15 22:30:59 |
+| 10 ⬇  | gofishgames | 🦈 shark     | 76.46         | 2026-03-22 22:34:54 |
+| 11 ⬇  | mangos4u    | 🐢 turtle    | 62.06         | 2026-08-24 00:06:59 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2026-08-30 08:28:41 UTC_
+_Last updated at 2026-09-06 09:44:44 UTC_

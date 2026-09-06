@@ -2,23 +2,23 @@
 
 | Rank  | Player                    | Total Weight in lbs |
 |:------|:--------------------------|:--------------------|
-| 1 🥇  | ranctious                 | 83621.08 (+1454.33) |
-| 2 🥈  | bubinga                   | 80985.78 (+190.60)  |
-| 3 🥉  | iflya320                  | 76974.04 (+783.64)  |
+| 1 🥇  | ranctious                 | 84670.96 (+1049.88) |
+| 2 🥈  | bubinga                   | 81463.41 (+477.63)  |
+| 3 🥉  | iflya320                  | 76974.04            |
 | 4     | eeziiii                   | 75590.93            |
-| 5     | theevirus                 | 67202.45 (+46.69)   |
+| 5     | theevirus                 | 67322.50 (+120.05)  |
 | 6     | huuuuuuuuuuuuuuuuuuuuuurz | 57546.30            |
-| 7     | wowitsdub                 | 46457.88 (+211.74)  |
-| 8     | lobuhtomy                 | 44621.77 (+828.60)  |
-| 9     | nndiana*                  | 35357.06 (+205.81)  |
+| 7     | wowitsdub                 | 46696.00 (+238.12)  |
+| 8     | lobuhtomy                 | 45158.37 (+536.60)  |
+| 9     | nndiana*                  | 35363.66 (+6.60)    |
 | 10    | gorillapark               | 29943.13            |
 | 11    | veny2lbs                  | 21146.70            |
-| 12    | rancbot                   | 12982.11 (+87.97)   |
+| 12    | rancbot                   | 12983.57 (+1.46)    |
 | 13    | mazzo_tv                  | 12132.50            |
 | 14    | sandwichsundays*          | 8993.77             |
 | 15    | creepycode*               | 8474.01             |
-| 16    | caprisen_*                | 8149.36 (+0.83)     |
-| 17    | feelsaceman               | 7074.45 (+1.19)     |
+| 16    | caprisen_*                | 8149.36             |
+| 17    | feelsaceman               | 7074.45             |
 | 18    | commanda_u                | 7064.26             |
 | 19    | blu_inx                   | 6225.66             |
 | 20    | bluberry                  | 5990.61             |
@@ -27,7 +27,7 @@
 | 23    | flovrek                   | 3625.19             |
 | 24    | flvx_flux*                | 3620.32             |
 | 25    | ewpert1                   | 3318.31             |
-| 26    | supibot                   | 2994.02 (+2.96)     |
+| 26    | supibot                   | 2994.02             |
 | 27    | teddbearcs                | 2938.09             |
 | 28    | benciee                   | 2935.59             |
 | 29    | r3kko_                    | 2768.64             |
@@ -39,18 +39,18 @@
 | 35    | paju1g                    | 1319.21             |
 | 36    | wuh6                      | 1318.90             |
 | 37    | ceriise__                 | 1255.49             |
-| 38    | funnywhitecat6*           | 1198.36             |
+| 38    | funnywhitecat6*           | 1249.97 (+51.61)    |
 | 39    | wadupcaprise              | 1189.81             |
 | 40    | flunke_                   | 1178.05             |
 | 41    | rottarded                 | 1158.87             |
 | 42    | llikotesnecil             | 1094.64             |
-| 43    | yvhsu                     | 1016.15             |
+| 43    | crticly                   | 1016.15             |
 | 44    | turboyy                   | 965.77              |
 | 45    | kalechap                  | 953.38              |
 | 46    | pspisafemboy              | 920.32              |
 | 47    | ratot                     | 908.74              |
 | 48    | bcarbot                   | 878.88              |
-| 49    | drecklo                   | 859.09              |
+| 49    | drecklo                   | 870.75 (+11.66)     |
 | 50    | magicbluesword            | 845.02              |
 | 51    | lluuucy                   | 723.46              |
 | 52    | onarrrrrrrr               | 715.67              |
@@ -69,9 +69,9 @@
 | 65    | ratatas1g*                | 236.99              |
 | 66    | jesefs                    | 227.33              |
 | 67    | iflyb737                  | 226.43              |
-| 68 ⬆  | wiihxhx                   | 217.98 (+12.26)     |
-| 69 ⬇  | cozysocks398              | 210.54              |
+| 68    | wiihxhx                   | 219.28 (+1.30)      |
+| 69    | cozysocks398              | 210.54              |
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-08-30 08:28:42 UTC_
+_Last updated at 2026-09-06 09:44:45 UTC_

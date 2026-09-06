@@ -22,11 +22,11 @@
 | 18    | kargalay         | 21          |
 | 19    | ggmagician       | 20          |
 | 19    | kaczer1          | 20          |
+| 21 ⬆  | mir9_9           | 15 (+1)     |
 | 21    | underpaidchatter | 15          |
-| 22    | kreplj           | 14          |
-| 22 ⬆  | mir9_9           | 14 (+1)     |
-| 22    | ojack18          | 14          |
-| 25 ⬇  | vigilsync*       | 13          |
+| 23 ⬇  | kreplj           | 14          |
+| 23 ⬇  | ojack18          | 14          |
+| 25    | vigilsync*       | 13          |
 | 26    | helloimteto      | 12          |
 | 27    | buck101_         | 11          |
 | 27    | ievantee         | 11          |
@@ -34,4 +34,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-08-30 08:24:51 UTC_
+_Last updated at 2026-09-06 09:46:49 UTC_

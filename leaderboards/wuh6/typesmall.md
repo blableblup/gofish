@@ -2,8 +2,8 @@
 
 | Rank  | Fish               | Weight in lbs | Player                    | Date in UTC         |
 |:------|:-------------------|:--------------|:--------------------------|:--------------------|
-| 1 🥇  | 🛢️ oildrum         | 118.16        | eeziiii                   | 2026-06-19 02:45:04 |
-| 2 🥈  | 🧜‍♀️ mermaid         | 66.61         | veny2lbs                  | 2025-07-14 13:55:25 |
+| 1 🥇  | 🛢️ oildrum          | 118.16        | eeziiii                   | 2026-06-19 02:45:04 |
+| 2 🥈  | 🧜‍♀️ mermaid        | 66.61         | veny2lbs                  | 2025-07-14 13:55:25 |
 | 3 🥉  | 👑 crown           | 15.78         | eeziiii                   | 2025-05-03 09:12:12 |
 | 4     | 🫎 moose           | 7.50          | benciee                   | 2025-03-18 21:41:18 |
 | 5     | 🛒 shoppingcart    | 5.33          | bubinga                   | 2025-05-02 17:56:26 |
@@ -12,28 +12,28 @@
 | 8     | 🧴 sunscreenbottle | 1.29          | iflya320                  | 2025-08-27 09:18:33 |
 | 9     | 🦕 sauropod        | 1.25          | veny2lbs                  | 2025-04-10 21:22:43 |
 | 10    | 🪵 log             | 1.21          | thetaxmen                 | 2024-12-15 20:08:14 |
-| 11    | 🧞‍♂️ genie           | 1.10          | eeziiii                   | 2025-02-16 11:13:46 |
-| 12    | 🧭 compass         | 1.09          | yvhsu                     | 2024-12-23 16:27:50 |
-| 13    | 🐈‍⬛ blackcat        | 1.05          | ewpert1                   | 2025-12-14 15:56:18 |
+| 11    | 🧞‍♂️ genie          | 1.10          | eeziiii                   | 2025-02-16 11:13:46 |
+| 12    | 🧭 compass         | 1.09          | crticly                   | 2024-12-23 16:27:50 |
+| 13    | 🐈‍⬛ blackcat      | 1.05          | ewpert1                   | 2025-12-14 15:56:18 |
 | 14    | 🎰 slotmachine     | 1.03          | bubinga                   | 2025-02-14 23:46:26 |
 | 15    | 🐋 whale           | 0.92          | eeziiii                   | 2025-03-27 18:16:51 |
 | 16    | 🦉 owl             | 0.89          | feelsaceman               | 2026-07-14 10:52:58 |
-| 17    | 🗡️ dagger          | 0.86          | wowitsdub                 | 2025-03-02 12:20:28 |
+| 17    | 🗡️ dagger           | 0.86          | wowitsdub                 | 2025-03-02 12:20:28 |
 | 18    | 🐀 rat             | 0.69          | nightbot                  | 2025-11-13 01:16:50 |
-| 19    | 🐻‍❄️ polarbear       | 0.65          | bubinga                   | 2024-12-23 15:40:15 |
+| 19    | 🐻‍❄️ polarbear      | 0.65          | bubinga                   | 2024-12-23 15:40:15 |
 | 20    | 🍇 crowberries     | 0.64          | larvaew                   | 2025-06-22 19:00:17 |
 | 21    | 🫐 bilberries      | 0.63          | veny2lbs                  | 2025-06-23 22:01:16 |
 | 22    | 🦭 seal            | 0.58          | gorillapark               | 2025-11-08 14:48:00 |
 | 23    | 🦆 duck            | 0.57          | ranctious                 | 2025-10-03 14:50:43 |
-| 24 ⬆  | 🦈 shark           | 0.49          | ranctious                 | 2025-12-27 02:28:59 |
-| 25 ⬆  | 🧋 bobacup         | 0.44          | wuh6                      | 2025-08-25 16:16:36 |
-| 26 ⬆  | 🧃 beveragebox     | 0.36          | huuuuuuuuuuuuuuuuuuuuuurz | 2025-09-18 12:06:19 |
-| 27 ⬆  | 🍱 tacklebox       | 0.35          | ocrw                      | 2025-12-24 00:59:21 |
-| 28 ⬆  | 🧥 coat            | 0.32          | eeziiii                   | 2025-05-02 13:10:50 |
-| 28 ⬆  | 🪿 goose           | 0.32          | ranctious                 | 2025-12-19 19:13:27 |
-| 30 ⬆  | 🩲 briefs          | 0.30          | ranctious                 | 2025-10-29 16:51:15 |
-| 31 ⬇  | 🦴 bone            | 0.29 (-0.21)  | bubinga                   | 2026-08-02 11:39:57 |
-| 31 ⬆  | 🦦 otter           | 0.29          | ranctious                 | 2025-11-04 22:46:10 |
+| 24    | 🦈 shark           | 0.49          | ranctious                 | 2025-12-27 02:28:59 |
+| 25    | 🧋 bobacup         | 0.44          | wuh6                      | 2025-08-25 16:16:36 |
+| 26    | 🧃 beveragebox     | 0.36          | huuuuuuuuuuuuuuuuuuuuuurz | 2025-09-18 12:06:19 |
+| 27    | 🍱 tacklebox       | 0.35          | ocrw                      | 2025-12-24 00:59:21 |
+| 28    | 🧥 coat            | 0.32          | eeziiii                   | 2025-05-02 13:10:50 |
+| 28    | 🪿 goose           | 0.32          | ranctious                 | 2025-12-19 19:13:27 |
+| 30    | 🩲 briefs          | 0.30          | ranctious                 | 2025-10-29 16:51:15 |
+| 31    | 🦴 bone            | 0.29          | bubinga                   | 2026-08-02 11:39:57 |
+| 31    | 🦦 otter           | 0.29          | ranctious                 | 2025-11-04 22:46:10 |
 | 33    | 🪲 beetle          | 0.28          | gorillapark               | 2026-07-23 19:41:01 |
 | 34    | 🐧 penguin         | 0.21          | zwockel01                 | 2024-12-27 15:14:19 |
 | 35    | 🌵 cactus          | 0.19          | veny2lbs                  | 2025-08-29 09:30:58 |
@@ -43,45 +43,45 @@
 | 39    | 🪼 jellyfish       | 0.15          | wowitsdub                 | 2025-10-04 12:18:18 |
 | 39    | 🥒 seacucumber     | 0.15          | eeziiii                   | 2026-06-07 18:01:05 |
 | 41    | 🦞 lobster         | 0.13          | theevirus                 | 2025-02-04 12:24:59 |
-| 42 ⬆  | 🦫 beaver          | 0.12          | iflya320                  | 2024-12-27 20:44:27 |
-| 42 ⬆  | 🪳 cockroach       | 0.12          | iflya320                  | 2025-05-19 14:16:50 |
-| 44 ⬆  | 🕶️ darksunglasses  | 0.11          | bubinga                   | 2025-07-15 16:35:28 |
-| 44 ⬆  | 🦠 plankton        | 0.11          | theevirus                 | 2026-01-20 19:56:44 |
-| 44 ⬆  | 🧽 sponge          | 0.11          | ranctious                 | 2026-05-20 10:47:53 |
-| 44 ⬆  | 🐠 tropicalfish    | 0.11          | theevirus                 | 2025-04-09 12:45:59 |
-| 48 ⬆  | 🐦‍⬛ robin           | 0.09          | theevirus                 | 2026-04-09 14:39:45 |
-| 49 ⬆  | 👒 hat             | 0.08          | ranctious                 | 2025-10-26 13:50:24 |
-| 49 ⬆  | 🐙 octopus         | 0.08          | caprisen_                 | 2025-09-16 11:51:37 |
-| 49 ⬆  | 👡 sandal          | 0.08          | theevirus                 | 2025-04-17 15:11:02 |
-| 49 ⬆  | 🍥 sanddollar      | 0.08          | iflya320                  | 2025-08-25 15:38:48 |
-| 49 ⬆  | 👟 sneaker         | 0.08          | bubinga                   | 2026-04-24 13:13:05 |
-| 54 ⬇  | 🐞 ladybug         | 0.07 (-0.02)  | iflya320                  | 2026-08-05 09:56:40 |
-| 54 ⬆  | 🪨 rock            | 0.07          | nndiana                   | 2025-11-02 19:49:10 |
-| 54 ⬆  | ☂️ umbrella        | 0.07          | bluberry                  | 2025-04-29 14:20:33 |
-| 57 ⬆  | 🐊 crocodile       | 0.06          | xyqra                     | 2026-05-03 09:10:32 |
-| 57 ⬆  | 🍄 oceanplant      | 0.06          | huuuuuuuuuuuuuuuuuuuuuurz | 2026-01-29 11:12:29 |
-| 57 ⬆  | 🧣 scarf           | 0.06          | bubinga                   | 2024-12-29 00:47:04 |
-| 60 ⬆  | 🩰 balletshoes     | 0.04          | wowitsdub                 | 2026-07-20 16:53:47 |
-| 60 ⬆  | 🪶 feather         | 0.04          | bubinga                   | 2024-12-15 20:15:50 |
-| 60 ⬆  | 🪁 kite            | 0.04          | eeziiii                   | 2025-06-29 14:46:14 |
-| 60 ⬆  | 🍄‍🟫 mushroom        | 0.04          | nndiana                   | 2025-12-27 01:39:15 |
-| 64 ⬆  | 🎱 8ball           | 0.03          | eeziiii                   | 2025-06-22 05:42:45 |
-| 64 ⬆  | 🐜 ant             | 0.03          | feelsaceman               | 2026-07-20 18:37:49 |
-| 64 ⬆  | 🍎 apple           | 0.03          | theevirus                 | 2025-11-02 20:47:18 |
-| 64 ⬇  | 🦋 butterfly       | 0.03 (-0.10)  | wowitsdub                 | 2026-08-04 08:06:59 |
-| 64 ⬆  | 🐬 dolphin         | 0.03          | nndiana                   | 2025-01-08 13:59:09 |
-| 64 ⬆  | 🦪 oyster          | 0.03          | iflya320                  | 2025-04-23 17:21:41 |
-| 64 ⬆  | 🌹 rose            | 0.03          | huuuuuuuuuuuuuuuuuuuuuurz | 2025-09-19 12:03:20 |
-| 64 ⬆  | 🦑 squid           | 0.03          | lobuhtomy                 | 2025-02-08 02:53:04 |
-| 64 ⬆  | 🌻 sunflower       | 0.03          | nndiana                   | 2026-06-24 16:05:15 |
-| 64 ⬆  | 🪱 worm            | 0.03          | eeziiii                   | 2025-06-24 10:42:09 |
-| 74 ⬆  | 🐳 bluewhale       | 0.02          | theevirus                 | 2025-07-23 15:14:09 |
-| 74 ⬇  | 🐛 caterpillar     | 0.02 (-0.02)  | ranctious                 | 2026-08-05 15:58:32 |
-| 74 ⬆  | 🪹 emptynest       | 0.02          | lobuhtomy                 | 2026-06-07 16:49:01 |
-| 74 ⬆  | 🌾 grass           | 0.02          | nndiana                   | 2025-09-01 03:00:17 |
-| 74 ⬆  | ⛸️ iceskate        | 0.02          | mazzo_tv                  | 2025-02-26 06:00:10 |
-| 74 ⬆  | 📱 iphone          | 0.02          | ranctious                 | 2026-06-22 01:54:47 |
-| 74 ⬆  | 🌷 tulip           | 0.02          | lobuhtomy                 | 2026-04-23 09:06:36 |
+| 42    | 🦫 beaver          | 0.12          | iflya320                  | 2024-12-27 20:44:27 |
+| 42    | 🪳 cockroach       | 0.12          | iflya320                  | 2025-05-19 14:16:50 |
+| 44    | 🕶️ darksunglasses   | 0.11          | bubinga                   | 2025-07-15 16:35:28 |
+| 44    | 🦠 plankton        | 0.11          | theevirus                 | 2026-01-20 19:56:44 |
+| 44    | 🧽 sponge          | 0.11          | ranctious                 | 2026-05-20 10:47:53 |
+| 44    | 🐠 tropicalfish    | 0.11          | theevirus                 | 2025-04-09 12:45:59 |
+| 48    | 🐦‍⬛ robin         | 0.09          | theevirus                 | 2026-04-09 14:39:45 |
+| 49    | 👒 hat             | 0.08          | ranctious                 | 2025-10-26 13:50:24 |
+| 49    | 🐙 octopus         | 0.08          | caprisen_                 | 2025-09-16 11:51:37 |
+| 49    | 👡 sandal          | 0.08          | theevirus                 | 2025-04-17 15:11:02 |
+| 49    | 🍥 sanddollar      | 0.08          | iflya320                  | 2025-08-25 15:38:48 |
+| 49    | 👟 sneaker         | 0.08          | bubinga                   | 2026-04-24 13:13:05 |
+| 54    | 🐞 ladybug         | 0.07          | iflya320                  | 2026-08-05 09:56:40 |
+| 54    | 🪨 rock            | 0.07          | nndiana                   | 2025-11-02 19:49:10 |
+| 54    | ☂️ umbrella         | 0.07          | bluberry                  | 2025-04-29 14:20:33 |
+| 57    | 🐊 crocodile       | 0.06          | xyqra                     | 2026-05-03 09:10:32 |
+| 57    | 🍄 oceanplant      | 0.06          | huuuuuuuuuuuuuuuuuuuuuurz | 2026-01-29 11:12:29 |
+| 57    | 🧣 scarf           | 0.06          | bubinga                   | 2024-12-29 00:47:04 |
+| 60    | 🩰 balletshoes     | 0.04          | wowitsdub                 | 2026-07-20 16:53:47 |
+| 60    | 🪶 feather         | 0.04          | bubinga                   | 2024-12-15 20:15:50 |
+| 60    | 🪁 kite            | 0.04          | eeziiii                   | 2025-06-29 14:46:14 |
+| 60    | 🍄‍🟫 mushroom      | 0.04          | nndiana                   | 2025-12-27 01:39:15 |
+| 64    | 🎱 8ball           | 0.03          | eeziiii                   | 2025-06-22 05:42:45 |
+| 64    | 🐜 ant             | 0.03          | feelsaceman               | 2026-07-20 18:37:49 |
+| 64    | 🍎 apple           | 0.03          | theevirus                 | 2025-11-02 20:47:18 |
+| 64    | 🦋 butterfly       | 0.03          | wowitsdub                 | 2026-08-04 08:06:59 |
+| 64    | 🐬 dolphin         | 0.03          | nndiana                   | 2025-01-08 13:59:09 |
+| 64    | 🦪 oyster          | 0.03          | iflya320                  | 2025-04-23 17:21:41 |
+| 64    | 🌹 rose            | 0.03          | huuuuuuuuuuuuuuuuuuuuuurz | 2025-09-19 12:03:20 |
+| 64    | 🦑 squid           | 0.03          | lobuhtomy                 | 2025-02-08 02:53:04 |
+| 64    | 🌻 sunflower       | 0.03          | nndiana                   | 2026-06-24 16:05:15 |
+| 64    | 🪱 worm            | 0.03          | eeziiii                   | 2025-06-24 10:42:09 |
+| 74    | 🐳 bluewhale       | 0.02          | theevirus                 | 2025-07-23 15:14:09 |
+| 74    | 🐛 caterpillar     | 0.02          | ranctious                 | 2026-08-05 15:58:32 |
+| 74    | 🪹 emptynest       | 0.02          | lobuhtomy                 | 2026-06-07 16:49:01 |
+| 74    | 🌾 grass           | 0.02          | nndiana                   | 2025-09-01 03:00:17 |
+| 74    | ⛸️ iceskate         | 0.02          | mazzo_tv                  | 2025-02-26 06:00:10 |
+| 74    | 📱 iphone          | 0.02          | ranctious                 | 2026-06-22 01:54:47 |
+| 74    | 🌷 tulip           | 0.02          | lobuhtomy                 | 2026-04-23 09:06:36 |
 | 81    | 🌰 acorn           | 0.01          | huuuuuuuuuuuuuuuuuuuuuurz | 2025-09-19 08:49:53 |
 | 81    | 🐝 bee             | 0.01          | eeziiii                   | 2026-07-23 18:14:40 |
 | 81    | 🐦 cardinal        | 0.01          | eeziiii                   | 2025-10-26 16:37:52 |
@@ -96,7 +96,7 @@
 | 81    | 🦂 scorpion        | 0.01          | theevirus                 | 2025-08-28 14:48:52 |
 | 81    | 🐚 shell           | 0.01          | teddbearcs                | 2024-12-23 21:32:54 |
 | 81    | 💀 skull           | 0.01          | iflya320                  | 2025-04-21 15:37:14 |
-| 81    | 🕷️ spider          | 0.01          | lobuhtomy                 | 2024-12-18 14:22:22 |
+| 81    | 🕷️ spider           | 0.01          | lobuhtomy                 | 2024-12-18 14:22:22 |
 | 81    | 🦢 swan            | 0.01          | bcarw                     | 2026-04-22 14:38:51 |
 | 81    | 🩴 thongsandal     | 0.01          | lobuhtomy                 | 2026-07-23 11:28:10 |
 | 81    | 🐢 turtle          | 0.01          | bubinga                   | 2025-04-17 15:17:36 |
@@ -107,7 +107,7 @@
 | 101   | 👢 boot            | 0.00          | ranctious                 | 2026-02-08 20:30:23 |
 | 101   | 🍬 candy           | 0.00          | rancbot                   | 2025-12-13 10:29:10 |
 | 101   | 🥫 cannedfood      | 0.00          | eeziiii                   | 2025-01-22 22:36:08 |
-| 101   | ☘️ clover          | 0.00          | iflya320                  | 2026-03-13 10:17:48 |
+| 101   | ☘️ clover           | 0.00          | iflya320                  | 2026-03-13 10:17:48 |
 | 101   | 🦀 crab            | 0.00          | eeziiii                   | 2025-05-05 21:10:25 |
 | 101   | 🐟 fish            | 0.00          | lobuhtomy                 | 2025-06-21 12:58:57 |
 | 101   | 🪰 fly             | 0.00          | gorillapark               | 2025-08-29 22:44:47 |
@@ -124,8 +124,8 @@
 | 101   | 🐌 snail           | 0.00          | flovrek                   | 2025-03-24 11:54:26 |
 | 101   | 🐍 snake           | 0.00          | creepycode                | 2025-12-08 17:25:17 |
 | 101   | 🧦 socks           | 0.00          | flunke_                   | 2026-05-18 17:51:54 |
-| 101   | 🕸️ spiderweb       | 0.00          | ranctious                 | 2026-06-27 21:41:33 |
+| 101   | 🕸️ spiderweb        | 0.00          | ranctious                 | 2026-06-27 21:41:33 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-08-09 10:32:08 UTC_
+_Last updated at 2026-09-06 09:46:35 UTC_

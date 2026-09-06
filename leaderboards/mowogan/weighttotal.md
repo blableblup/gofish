@@ -2,15 +2,16 @@
 
 | Rank  | Player      | Total Weight in lbs |
 |:------|:------------|:--------------------|
-| 1 🥇  | mowogan     | 8163.14 (+30.18)    |
+| 1 🥇  | mowogan     | 9061.74 (+898.60)   |
 | 2 🥈  | konsminator | 6409.32             |
-| 3 🥉  | lolspers    | 2000.30             |
+| 3 🥉  | lolspers    | 2543.58 (+543.28)   |
 | 4     | gofishgamer | 1015.52             |
-| 5     | respirate_  | 567.11              |
-| 6     | gibbbons    | 554.27 (+10.22)     |
-| 7     | elisworm    | 305.09              |
-| 8     | v6r_        | 222.66 (+5.63)      |
+| 5 ⬆   | gibbbons    | 569.97 (+15.70)     |
+| 6 ⬇   | respirate_  | 567.11              |
+| 7 ⬆   | v6r_        | 404.27 (+181.61)    |
+| 8 ⬇   | elisworm    | 305.09              |
+| 9 🆕  | xtlos       | 252.01              |
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-08-30 08:28:42 UTC_
+_Last updated at 2026-09-06 09:44:45 UTC_

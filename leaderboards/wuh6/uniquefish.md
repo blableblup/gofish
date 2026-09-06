@@ -14,11 +14,11 @@
 | 10    | gorillapark               | 90        |
 | 11    | veny2lbs                  | 82        |
 | 12    | feelsaceman               | 71        |
-| 13    | rancbot                   | 70 (+1)   |
+| 13    | rancbot                   | 70        |
 | 14    | caprisen_*                | 63        |
 | 15    | mazzo_tv                  | 62        |
-| 16    | commanda_u                | 58        |
-| 16    | supibot                   | 58        |
+| 16    | supibot                   | 59 (+1)   |
+| 17 ⬇  | commanda_u                | 58        |
 | 18    | bcarw                     | 55        |
 | 19    | bluberry                  | 54        |
 | 20    | blu_inx                   | 53        |
@@ -39,15 +39,15 @@
 | 35    | ratot                     | 33        |
 | 36    | araqs                     | 29        |
 | 36    | ceriise__                 | 29        |
+| 36 ⬆  | drecklo                   | 29 (+3)   |
 | 36    | flunke_                   | 29        |
-| 39    | funnywhitecat6*           | 28        |
-| 39    | onarrrrrrrr               | 28        |
-| 39    | paju1g                    | 28        |
-| 39    | wadupcaprise              | 28        |
-| 39    | yvhsu                     | 28        |
-| 44    | bcarbot                   | 26        |
-| 44    | drecklo                   | 26        |
-| 44    | turboyy                   | 26        |
+| 40 ⬇  | crticly                   | 28        |
+| 40 ⬇  | funnywhitecat6*           | 28        |
+| 40 ⬇  | onarrrrrrrr               | 28        |
+| 40 ⬇  | paju1g                    | 28        |
+| 40 ⬇  | wadupcaprise              | 28        |
+| 45 ⬇  | bcarbot                   | 26        |
+| 45 ⬇  | turboyy                   | 26        |
 | 47    | streamelements            | 22        |
 | 48    | magicbluesword            | 21        |
 | 48    | pspisafemboy              | 21        |
@@ -61,4 +61,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-08-30 08:26:45 UTC_
+_Last updated at 2026-09-06 09:42:43 UTC_

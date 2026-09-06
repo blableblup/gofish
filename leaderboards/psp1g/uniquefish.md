@@ -7,22 +7,22 @@
 | 3 🥉  | feelsaceman               | 92        |
 | 3 🥉  | jayayseaohbe              | 92        |
 | 5     | bubinga                   | 91        |
-| 6 ⬆   | blu_inx                   | 86 (+1)   |
+| 6     | blu_inx                   | 86        |
 | 6     | mazzo_tv                  | 86        |
 | 8     | huuuuuuuuuuuuuuuuuuuuuurz | 79        |
 | 9     | llikotesnecil             | 78        |
 | 10    | bluberry                  | 72        |
 | 10    | joshuabzz                 | 72        |
 | 10    | poons_u                   | 72        |
+| 13 ⬆  | boyykisser                | 71 (+2)   |
 | 13    | caprisen_*                | 71        |
 | 13    | flunke_                   | 71        |
 | 13    | jr_mime                   | 71        |
 | 13    | lobuhtomy                 | 71        |
-| 17    | deatron                   | 70        |
-| 17    | kevinlukejager            | 70        |
-| 17    | sandwichsundays*          | 70        |
-| 20 ⬆  | boyykisser                | 69 (+1)   |
-| 20    | zwockel01                 | 69        |
+| 18 ⬇  | deatron                   | 70        |
+| 18 ⬇  | kevinlukejager            | 70        |
+| 18 ⬇  | sandwichsundays*          | 70        |
+| 21 ⬇  | zwockel01                 | 69        |
 | 22    | gorillapark               | 67        |
 | 22    | pengeg                    | 67        |
 | 22    | theevirus                 | 67        |
@@ -48,18 +48,19 @@
 | 44    | maksmusz*                 | 54        |
 | 45    | euxoa                     | 53        |
 | 46    | faslker                   | 52        |
+| 46 🆕 | inders                    | 52        |
 | 46    | noconcept_                | 52        |
 | 46    | popfizzgg                 | 52        |
 | 46    | velantix*                 | 52        |
-| 50    | faal_lazarino*            | 51        |
-| 50    | qxxick_                   | 51        |
-| 50    | wisdom_frog               | 51        |
-| 53    | bamfzi                    | 50        |
-| 53    | bartohehe                 | 50        |
-| 53    | seryxx                    | 50        |
+| 51 ⬇  | faal_lazarino*            | 51        |
+| 51 ⬇  | qxxick_                   | 51        |
+| 51 ⬇  | wisdom_frog               | 51        |
+| 54 ⬇  | bamfzi                    | 50        |
+| 54 ⬇  | bartohehe                 | 50        |
+| 54 ⬇  | seryxx                    | 50        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-08-30 08:26:45 UTC_
+_Last updated at 2026-09-06 09:42:42 UTC_
