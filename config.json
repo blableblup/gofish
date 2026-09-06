@@ -262,7 +262,13 @@
 		},
 		"chellesorandom": {
 			"twitchid": "124376423",
-			"checkfdata": false,
+			"logs_instances": [
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2026/9"
+				}
+			],
+			"checkfdata": true,
 			"board_enabled": false
 		},
 		"coolishdanker": {
@@ -1144,7 +1150,13 @@
 		},
 		"punkish_live": {
 			"twitchid": "533110988",
-			"checkfdata": false,
+			"logs_instances": [
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2026/9"
+				}
+			],
+			"checkfdata": true,
 			"board_enabled": false
 		},
 		"retrorelaxo": {
