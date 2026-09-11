@@ -54,8 +54,8 @@
 | 50    | 3mikel                    | 31          |
 | 50    | llikotesnecil             | 31          |
 | 52    | noconcept_                | 29          |
+| 53    | crticly                   | 28          |
 | 53    | xyqra                     | 28          |
-| 53    | yvhsu                     | 28          |
 | 55    | bananenshak3              | 27          |
 | 56    | creepycode                | 26          |
 | 56    | flunke_                   | 26          |
@@ -66,4 +66,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2026-09-01 09:03:01 UTC_
+_Last updated at 2026-09-11 09:34:59 UTC_
