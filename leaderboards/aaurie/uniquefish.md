@@ -2,29 +2,29 @@
 
 | Rank  | Player                 | Fish seen |
 |:------|:-----------------------|:----------|
-| 1 🥇  | amatusz                | 43        |
+| 1 🥇  | amatusz                | 44 (+1)   |
 | 2 🥈  | jeffbethyname69        | 42        |
 | 3 🥉  | dolp_fin               | 41        |
 | 4     | boogie_310             | 35        |
 | 5     | gofishgamer            | 32        |
 | 6     | allspice_boatrace      | 31        |
 | 7     | guy_farting420         | 29        |
-| 8     | abelito75              | 25 (+1)   |
-| 9     | aaurie                 | 23        |
-| 9     | rustnroll              | 23        |
-| 11    | bluezebra17            | 22        |
-| 11    | curiouscorvidae        | 22        |
-| 11    | victorvondoom313       | 22        |
+| 8     | abelito75              | 25        |
+| 8 ⬆   | rustnroll              | 25 (+2)   |
+| 10 ⬇  | aaurie                 | 23        |
+| 10 ⬆  | victorvondoom313       | 23 (+1)   |
+| 12 ⬇  | bluezebra17            | 22        |
+| 12 ⬇  | curiouscorvidae        | 22        |
 | 14    | dwaynepounder          | 19        |
 | 14    | preemalone             | 19        |
-| 16    | honeytonguedbee        | 17 (+1)   |
-| 17 ⬇  | eldiabloskillet        | 16        |
+| 16    | honeytonguedbee        | 18 (+1)   |
+| 17    | eldiabloskillet        | 16        |
 | 18    | brody5020              | 14        |
 | 18    | meinmestar             | 14        |
 | 18    | one_guy_123            | 14        |
-| 21    | mademooselle           | 13        |
-| 21    | onetriforce            | 13        |
-| 21    | slimdoggiedog          | 13        |
+| 18 ⬆  | onetriforce            | 14 (+1)   |
+| 22 ⬇  | mademooselle           | 13        |
+| 22 ⬇  | slimdoggiedog          | 13        |
 | 24    | jimmybooger            | 12        |
 | 25    | blackberryking00       | 11        |
 | 25    | forceghostleia         | 11        |
@@ -35,4 +35,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2026-09-06 09:42:42 UTC_
+_Last updated at 2026-09-13 08:05:05 UTC_

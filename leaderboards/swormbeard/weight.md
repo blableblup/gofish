@@ -17,7 +17,8 @@
 | 13    | gawblemachine         | 🐬 dolphin   | 101.18        | 2024-08-07 17:37:10 |
 | 14    | dazedforevermore      | 🐬 dolphin   | 100.81        | 2024-08-02 22:34:26 |
 | 15    | ninjaross             | 🐬 dolphin   | 99.98         | 2024-08-02 19:41:23 |
+| 16 🆕 | cumgi                 | 🦕 sauropod  | 88.39         | 2026-09-09 00:43:33 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2026-05-10 08:59:14 UTC_
+_Last updated at 2026-09-13 08:07:08 UTC_

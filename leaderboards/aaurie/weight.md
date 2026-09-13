@@ -5,10 +5,10 @@
 | 1 🥇  | jeffbethyname69        | 🐳 bluewhale    | 271.57          | 2025-05-17 04:22:13 |
 | 2 🥈  | gofishgamer            | 🦑 squid        | 270.99          | 2026-01-01 03:36:14 |
 | 3 🥉  | amatusz                | 🐳 bluewhale    | 270.89          | 2026-04-06 05:14:44 |
-| 4 ⬆   | abelito75              | 🛢️ oildrum      | 239.63 (+44.22) | 2026-08-07 00:46:02 |
-| 5 ⬇   | rustnroll              | 🦕 sauropod     | 224.23          | 2026-06-22 04:26:09 |
-| 6 ⬇   | dolp_fin               | 🦈 shark        | 209.34          | 2025-04-28 04:59:34 |
-| 7 ⬇   | boogie_310             | 🐳 bluewhale    | 208.86          | 2025-04-15 05:22:19 |
+| 4     | abelito75              | 🛢️ oildrum       | 239.63          | 2026-08-07 00:46:02 |
+| 5     | rustnroll              | 🦕 sauropod     | 224.23          | 2026-06-22 04:26:09 |
+| 6     | dolp_fin               | 🦈 shark        | 209.34          | 2025-04-28 04:59:34 |
+| 7     | boogie_310             | 🐳 bluewhale    | 208.86          | 2025-04-15 05:22:19 |
 | 8     | guy_farting420         | 🦈 shark        | 194.78          | 2026-02-16 01:30:03 |
 | 9     | allspice_boatrace      | 🐳 bluewhale    | 180.68          | 2025-07-07 00:45:19 |
 | 10    | curiouscorvidae        | 🐍 snake        | 175.01          | 2025-12-30 02:22:21 |
@@ -22,9 +22,9 @@
 | 18    | hashmeer_              | 🐙 octopus      | 123.72          | 2025-04-04 17:59:37 |
 | 19    | aaurie                 | 🐊 crocodile    | 121.92          | 2025-03-08 07:10:45 |
 | 20    | theshadows86           | 🐉 dragon       | 120.67          | 2025-04-08 05:35:20 |
-| 21    | zharan_keating         | 🐙 octopus      | 96.52           | 2025-09-15 03:43:26 |
-| 22    | sanfordthegrey         | 🐬 dolphin      | 96.28           | 2025-04-04 01:46:16 |
-| 23    | victorvondoom313       | 🐊 crocodile    | 95.52           | 2025-04-11 00:55:08 |
+| 21 ⬆  | victorvondoom313       | 🦕 sauropod     | 116.04 (+20.52) | 2026-09-07 02:31:47 |
+| 22 ⬇  | zharan_keating         | 🐙 octopus      | 96.52           | 2025-09-15 03:43:26 |
+| 23 ⬇  | sanfordthegrey         | 🐬 dolphin      | 96.28           | 2025-04-04 01:46:16 |
 | 24    | nalls                  | 🐢 turtle       | 92.01           | 2025-07-11 02:24:31 |
 | 25    | forceghostleia         | 🐙 octopus      | 87.74           | 2026-03-20 06:41:56 |
 | 26    | eldiabloskillet        | 🦕 sauropod     | 86.33           | 2025-07-01 04:19:48 |
@@ -51,4 +51,4 @@
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2026-08-09 10:32:36 UTC_
+_Last updated at 2026-09-13 08:07:08 UTC_

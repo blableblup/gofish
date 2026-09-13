@@ -3,42 +3,42 @@
 | Rank  | Player                 | Fish caught |
 |:------|:-----------------------|:------------|
 | 1 🥇  | jeffbethyname69        | 233         |
-| 2 🥈  | amatusz                | 217         |
+| 2 🥈  | amatusz                | 223 (+6)    |
 | 3 🥉  | dolp_fin               | 198         |
 | 4     | boogie_310             | 157         |
 | 5     | aaurie                 | 122         |
 | 6     | allspice_boatrace      | 73          |
 | 7     | gofishgamer            | 71          |
-| 8     | guy_farting420         | 68          |
-| 9     | abelito75              | 65 (+1)     |
-| 10    | victorvondoom313       | 51 (+1)     |
-| 11    | rustnroll              | 44          |
+| 8     | guy_farting420         | 69 (+1)     |
+| 9     | abelito75              | 66 (+1)     |
+| 10    | victorvondoom313       | 52 (+1)     |
+| 11    | rustnroll              | 46 (+2)     |
 | 12    | slimdoggiedog          | 42          |
 | 13    | curiouscorvidae        | 41          |
 | 14    | jimmybooger            | 39          |
 | 14    | mademooselle           | 39          |
 | 16    | bluezebra17            | 38          |
-| 17 ⬆  | honeytonguedbee        | 35 (+4)     |
-| 18 ⬇  | preemalone             | 34          |
+| 17    | honeytonguedbee        | 37 (+2)     |
+| 18    | preemalone             | 34          |
 | 19    | dwaynepounder          | 28          |
 | 20    | brody5020              | 25          |
 | 21    | meinmestar             | 22          |
-| 22    | eldiabloskillet        | 21          |
-| 22    | onetriforce            | 21          |
-| 24    | one_guy_123            | 20          |
+| 21 ⬆  | onetriforce            | 22 (+1)     |
+| 23 ⬇  | eldiabloskillet        | 21          |
+| 23 ⬆  | one_guy_123            | 21 (+1)     |
 | 25    | forceghostleia         | 15          |
-| 26    | norstargik             | 13          |
+| 26    | norstargik             | 14 (+1)     |
 | 27    | blackberryking00       | 12          |
 | 27    | ratlover2244           | 12          |
 | 29    | goodtubbaa             | 11          |
 | 29    | jah_alexander          | 11          |
-| 29 ⬆  | jonysays               | 11 (+1)     |
-| 32 ⬇  | frostytangent          | 10          |
-| 32 ⬇  | lor_starcutter         | 10          |
-| 32 ⬇  | theevilassvampire_vahd | 10          |
-| 32 ⬇  | twofistedtales         | 10          |
-| 32 ⬇  | yourdadscameraroll     | 10          |
+| 29    | jonysays               | 11          |
+| 32    | frostytangent          | 10          |
+| 32    | lor_starcutter         | 10          |
+| 32    | theevilassvampire_vahd | 10          |
+| 32    | twofistedtales         | 10          |
+| 32    | yourdadscameraroll     | 10          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-09-06 09:46:49 UTC_
+_Last updated at 2026-09-13 08:05:06 UTC_

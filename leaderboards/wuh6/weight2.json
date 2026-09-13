@@ -333,7 +333,7 @@
 		"fishid": 153498,
 		"chatid": 8722,
 		"date": "2025-03-09T22:01:24Z",
-		"rank": 97
+		"rank": 98
 	},
 	"153559": {
 		"player": "huuuuuuuuuuuuuuuuuuuuuurz",
@@ -363,21 +363,7 @@
 		"fishid": 154121,
 		"chatid": 8884,
 		"date": "2025-03-12T15:14:10Z",
-		"rank": 93
-	},
-	"156641": {
-		"player": "eeziiii",
-		"playerid": 2578,
-		"weight": 258.82,
-		"bot": "gofishgame",
-		"fishtype": "🫎",
-		"fishname": "moose",
-		"catchtype": "normal",
-		"chat": "wuh6",
-		"fishid": 156641,
-		"chatid": 9662,
-		"date": "2025-03-18T19:39:14Z",
-		"rank": 100
+		"rank": 94
 	},
 	"160026": {
 		"player": "nndiana",
@@ -391,7 +377,7 @@
 		"fishid": 160026,
 		"chatid": 10559,
 		"date": "2025-03-29T02:18:30Z",
-		"rank": 91
+		"rank": 92
 	},
 	"160670": {
 		"player": "bubinga",
@@ -559,7 +545,7 @@
 		"fishid": 180533,
 		"chatid": 15865,
 		"date": "2025-06-21T17:14:22Z",
-		"rank": 87
+		"rank": 88
 	},
 	"182113": {
 		"player": "theevirus",
@@ -644,7 +630,7 @@
 		"fishid": 187297,
 		"chatid": 17678,
 		"date": "2025-07-14T19:08:15Z",
-		"rank": 95
+		"rank": 96
 	},
 	"187558": {
 		"player": "gorillapark",
@@ -772,7 +758,7 @@
 		"fishid": 208458,
 		"chatid": 23808,
 		"date": "2025-10-17T10:47:35Z",
-		"rank": 96
+		"rank": 97
 	},
 	"209582": {
 		"player": "wowitsdub",
@@ -828,7 +814,7 @@
 		"fishid": 217850,
 		"chatid": 26814,
 		"date": "2025-11-25T09:27:20Z",
-		"rank": 99
+		"rank": 100
 	},
 	"218011": {
 		"player": "theevirus",
@@ -870,7 +856,7 @@
 		"fishid": 219572,
 		"chatid": 27411,
 		"date": "2025-12-02T23:29:05Z",
-		"rank": 88
+		"rank": 89
 	},
 	"219629": {
 		"player": "eeziiii",
@@ -997,7 +983,7 @@
 		"fishid": 237625,
 		"chatid": 32421,
 		"date": "2026-01-31T14:38:39Z",
-		"rank": 98
+		"rank": 99
 	},
 	"238136": {
 		"player": "ranctious",
@@ -1125,7 +1111,7 @@
 		"fishid": 243039,
 		"chatid": 33940,
 		"date": "2026-02-24T13:55:59Z",
-		"rank": 94
+		"rank": 95
 	},
 	"243368": {
 		"player": "blu_inx",
@@ -1195,7 +1181,7 @@
 		"fishid": 256522,
 		"chatid": 38051,
 		"date": "2026-04-20T09:09:15Z",
-		"rank": 90
+		"rank": 91
 	},
 	"258383": {
 		"player": "ranctious",
@@ -1237,7 +1223,7 @@
 		"fishid": 261761,
 		"chatid": 39235,
 		"date": "2026-05-12T13:44:42Z",
-		"rank": 89
+		"rank": 90
 	},
 	"263824": {
 		"player": "ranctious",
@@ -1377,7 +1363,7 @@
 		"fishid": 267439,
 		"chatid": 40473,
 		"date": "2026-06-12T20:12:41Z",
-		"rank": 92
+		"rank": 93
 	},
 	"276648": {
 		"player": "lobuhtomy",
@@ -1407,5 +1393,19 @@
 		"chatid": 43690,
 		"date": "2026-08-12T02:35:11Z",
 		"rank": 34
+	},
+	"286625": {
+		"player": "ranctious",
+		"playerid": 3736,
+		"weight": 263.56,
+		"bot": "gofishgame",
+		"fishtype": "🐉",
+		"fishname": "dragon",
+		"catchtype": "normal",
+		"chat": "wuh6",
+		"fishid": 286625,
+		"chatid": 44294,
+		"date": "2026-09-06T14:42:29Z",
+		"rank": 87
 	}
 }

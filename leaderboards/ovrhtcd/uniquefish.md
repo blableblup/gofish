@@ -8,9 +8,9 @@
 | 4     | dan1lew          | 29        |
 | 5     | sidneya_         | 26        |
 | 6     | wizzyy6          | 24        |
+| 7 ⬆   | diloindys*       | 23 (+1)   |
 | 7     | klyne_qq         | 23        |
 | 7     | nightbot         | 23        |
-| 9     | diloindys*       | 22        |
 | 10    | wiazuh           | 18        |
 | 11    | focfee           | 17        |
 | 12    | dagsai_di        | 15        |
@@ -25,4 +25,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2026-08-16 11:48:30 UTC_
+_Last updated at 2026-09-13 08:05:05 UTC_

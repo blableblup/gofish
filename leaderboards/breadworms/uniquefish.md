@@ -5,7 +5,7 @@
 | 1 🥇  | fishingalt            | 124       |
 | 2 🥈  | derinturitierutz      | 122       |
 | 3 🥉  | derintu               | 116       |
-| 4     | larvaew               | 111       |
+| 4     | larvaew               | 112 (+1)  |
 | 5     | cumgi                 | 106       |
 | 6     | lluuucy               | 105       |
 | 7     | osnyisdead            | 104       |
@@ -35,8 +35,8 @@
 | 30    | ryebreadward          | 65        |
 | 32    | mitgliederversammlung | 64        |
 | 33    | sussy_amonge          | 62        |
+| 34 ⬆  | eagueoflegends        | 60 (+1)   |
 | 34    | michael_bay65         | 60        |
-| 35    | eagueoflegends        | 59        |
 | 36    | fvkdylan              | 57        |
 | 37    | bapqo                 | 56        |
 | 37    | idini                 | 56        |
@@ -45,13 +45,13 @@
 | 40    | ouacewi               | 55        |
 | 42    | bussinongnocap        | 53        |
 | 42    | lazuli672*            | 53        |
-| 42 ⬆  | ommcyrene             | 53 (+2)   |
-| 45 ⬇  | houseofleaves*        | 51        |
-| 45 ⬇  | osnyatsky*            | 51        |
+| 42    | ommcyrene             | 53        |
+| 45    | houseofleaves*        | 51        |
+| 45    | osnyatsky*            | 51        |
 | 47    | pinksynthesis29       | 50        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-09-06 09:42:43 UTC_
+_Last updated at 2026-09-13 08:05:04 UTC_
