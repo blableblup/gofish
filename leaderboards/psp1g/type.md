@@ -20,7 +20,7 @@
 | 16    | 🦞 lobster         | 125.87        | rottarded                 | 2026-03-03 04:40:13 |
 | 17    | 🐬 dolphin         | 119.32        | nndiana                   | 2024-10-07 05:51:19 |
 | 18    | 🧟 deadbody        | 118.60        | asthmaa                   | 2023-10-26 13:48:29 |
-| 19    | 🦇 bat             | 117.16        | funnywhitecat6            | 2024-10-11 11:31:43 |
+| 19    | 🦇 bat             | 117.16        | funnywhitecat12           | 2024-10-11 11:31:43 |
 | 20    | 🦪 oyster          | 114.43        | wisdom_frog               | 2023-12-28 02:26:26 |
 | 21    | 🪸 coral           | 107.52        | defirence                 | 2026-06-12 08:31:56 |
 | 22    | 👑 crown           | 77.95         | paju1g                    | 2026-05-10 20:53:23 |
@@ -37,7 +37,7 @@
 | 33    | 🐧 penguin         | 41.83         | blu_inx                   | 2025-12-25 11:46:58 |
 | 34    | 🦀 crab            | 38.88         | d1ma1g*                   | 2023-09-03 11:19:10 |
 | 35    | 🐡 blowfish        | 35.81         | bluberry                  | 2024-08-13 06:51:36 |
-| 36    | 🥒 seacucumber     | 31.83 (+0.07) | inders                    | 2026-09-02 18:06:55 |
+| 36    | 🥒 seacucumber     | 31.83         | inders                    | 2026-09-02 18:06:55 |
 | 37    | 🕷️ spider           | 31.49         | poons_u                   | 2026-03-16 10:39:24 |
 | 38    | 🧽 sponge          | 29.89         | nndiana                   | 2025-07-24 04:14:09 |
 | 39    | 🐠 tropicalfish    | 27.72         | luneckie                  | 2026-04-16 02:41:16 |
@@ -66,15 +66,15 @@
 | 62    | 🦎 lizard          | 10.84         | bosscrazymen              | 2023-12-17 18:48:58 |
 | 63    | 🧋 bobacup         | 10.83         | adankman                  | 2026-08-11 08:56:12 |
 | 64    | 🎱 8ball           | 10.82         | 0_asd                     | 2024-03-31 10:49:57 |
-| 65    | 🪺 nestwitheggs    | 10.69         | jayayseaohbe              | 2025-12-14 03:27:36 |
+| 65    | 🪺 nestwitheggs    | 10.71 (+0.02) | llikotesnecil             | 2026-09-18 16:30:37 |
 | 66    | 🪁 kite            | 10.68         | bluberry                  | 2025-07-13 06:00:03 |
 | 67    | 🩲 briefs          | 10.49         | jayayseaohbe              | 2025-07-24 11:51:44 |
 | 68    | 🌵 cactus          | 9.37          | feelsaceman               | 2026-07-24 01:02:31 |
 | 69    | 🐦 cardinal        | 9.22          | zwockel01                 | 2024-07-04 11:25:35 |
 | 70    | 🧥 coat            | 7.42          | deatron                   | 2026-01-01 11:53:17 |
 | 71    | 🧵 wireline        | 6.00          | ocrw                      | 2024-06-20 15:30:46 |
-| 72    | 🐚 shell           | 5.92          | mazzo_tv                  | 2025-05-25 17:38:47 |
-| 73    | ☘️ clover           | 5.86          | flovrek                   | 2025-10-06 06:50:46 |
+| 72 ⬆  | ☘️ clover           | 5.98 (+0.12)  | inders                    | 2026-09-18 22:16:31 |
+| 73 ⬇  | 🐚 shell           | 5.92          | mazzo_tv                  | 2025-05-25 17:38:47 |
 | 74    | 🥫 cannedfood      | 5.54          | blu_inx                   | 2026-01-03 09:24:11 |
 | 75    | 🎏 lure            | 5.00          | flovrek                   | 2025-05-31 14:12:56 |
 | 76    | 🪝 hook            | 4.99          | thedraingangceo*          | 2023-08-24 20:19:25 |
@@ -126,4 +126,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-09-06 09:44:42 UTC_
+_Last updated at 2026-09-20 09:18:36 UTC_

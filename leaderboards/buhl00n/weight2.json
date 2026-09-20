@@ -209,20 +209,6 @@
 		"date": "2025-12-24T12:58:09Z",
 		"rank": 37
 	},
-	"227704": {
-		"player": "buhl00n",
-		"playerid": 3121,
-		"weight": 30.91,
-		"bot": "gofishgame",
-		"fishtype": "🐢",
-		"fishname": "turtle",
-		"catchtype": "normal",
-		"chat": "buhl00n",
-		"fishid": 227704,
-		"chatid": 192,
-		"date": "2025-12-24T13:50:26Z",
-		"rank": 100
-	},
 	"227751": {
 		"player": "vagdy",
 		"playerid": 3067,
@@ -585,7 +571,7 @@
 		"fishid": 233359,
 		"chatid": 473,
 		"date": "2026-01-13T20:11:21Z",
-		"rank": 94
+		"rank": 95
 	},
 	"233375": {
 		"player": "vagdy",
@@ -949,7 +935,7 @@
 		"fishid": 244560,
 		"chatid": 621,
 		"date": "2026-03-04T14:30:08Z",
-		"rank": 97
+		"rank": 98
 	},
 	"244603": {
 		"player": "buhl00n",
@@ -991,7 +977,7 @@
 		"fishid": 245545,
 		"chatid": 633,
 		"date": "2026-03-09T14:22:08Z",
-		"rank": 99
+		"rank": 100
 	},
 	"245945": {
 		"player": "buhl00n",
@@ -1047,7 +1033,7 @@
 		"fishid": 246616,
 		"chatid": 645,
 		"date": "2026-03-14T19:57:43Z",
-		"rank": 96
+		"rank": 97
 	},
 	"254697": {
 		"player": "buhl00n",
@@ -1243,7 +1229,7 @@
 		"fishid": 275601,
 		"chatid": 807,
 		"date": "2026-07-13T11:50:20Z",
-		"rank": 95
+		"rank": 96
 	},
 	"275672": {
 		"player": "buhl00n",
@@ -1285,7 +1271,7 @@
 		"fishid": 276129,
 		"chatid": 820,
 		"date": "2026-07-15T13:58:32Z",
-		"rank": 98
+		"rank": 99
 	},
 	"276141": {
 		"player": "buhl00n",
@@ -1398,5 +1384,19 @@
 		"chatid": 1207,
 		"date": "2026-08-28T13:02:37Z",
 		"rank": 17
+	},
+	"288606": {
+		"player": "gimmeschmoneys",
+		"playerid": 3086,
+		"weight": 32.24,
+		"bot": "gofishgame",
+		"fishtype": "🦞",
+		"fishname": "lobster",
+		"catchtype": "normal",
+		"chat": "buhl00n",
+		"fishid": 288606,
+		"chatid": 1244,
+		"date": "2026-09-18T17:39:46Z",
+		"rank": 94
 	}
 }

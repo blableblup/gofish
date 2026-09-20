@@ -12,8 +12,8 @@
 | 8     | konsminator    | 7261.34             |
 | 9     | ofaisalz       | 5788.67             |
 | 10    | vagdy          | 5318.19             |
-| 11    | notnownico     | 4425.01             |
-| 12    | hamoodhabibee  | 4278.78             |
+| 11 ⬆  | hamoodhabibee  | 4530.80 (+252.02)   |
+| 12 ⬇  | notnownico     | 4425.01             |
 | 13    | mousee93       | 4037.14             |
 | 14    | rabituwu       | 3852.81             |
 | 15    | simplydrack    | 3834.86             |
@@ -58,4 +58,4 @@
 
 _Only showing fishers with a total weight of >= 500 lbs_
 
-_Last updated at 2026-09-06 09:44:46 UTC_
+_Last updated at 2026-09-20 09:20:32 UTC_

@@ -101,6 +101,6 @@
 | 97     | elisworm         | ☘️ clover        | 2.07          | 2025-06-23 09:04:10 |
 | 97     | lolspers         | 🦪 oyster       | 2.07          | 2024-11-30 12:15:07 |
 | 99     | ryanpotat        | 🪳 cockroach    | 1.92          | 2023-12-09 03:32:47 |
-| 100 🆕 | n1nzin_          | 🐚 shell        | 1.75          | 2024-11-21 13:52:47 |
+| 100 🆕 | chrisgamingnl333 | 🥫 cannedfood   | 1.75          | 2024-10-28 12:10:33 |
 
-_Last updated at 2026-09-13 08:03:01 UTC_
+_Last updated at 2026-09-20 09:20:33 UTC_

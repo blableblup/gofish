@@ -22,7 +22,7 @@
 | 18    | 🦞 lobster         | 126.55        | yopego                    | 2023-08-27 15:59:04 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
 | 19    | 🧟 deadbody        | 119.89        | nndiana                   | 2026-02-27 17:30:40 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
 | 20    | 🐬 dolphin         | 119.32        | nndiana                   | 2024-10-07 05:51:19 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
-| 21    | 🦇 bat             | 117.16        | funnywhitecat6            | 2024-10-11 11:31:43 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
+| 21    | 🦇 bat             | 117.16        | funnywhitecat12           | 2024-10-11 11:31:43 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
 | 22    | 🐀 rat             | 113.57        | fishingalt                | 2025-03-14 09:25:18 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
 | 23    | 🪸 coral           | 113.34        | cute_ducc                 | 2026-07-27 19:58:44 | ![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png) |
 | 24    | 📱 iphone          | 109.87        | michael_bay65             | 2024-03-28 00:51:05 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
@@ -129,4 +129,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-09-06 09:44:33 UTC_
+_Last updated at 2026-09-20 09:19:26 UTC_

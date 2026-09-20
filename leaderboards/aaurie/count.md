@@ -3,31 +3,31 @@
 | Rank  | Player                 | Fish caught |
 |:------|:-----------------------|:------------|
 | 1 🥇  | jeffbethyname69        | 233         |
-| 2 🥈  | amatusz                | 223 (+6)    |
+| 2 🥈  | amatusz                | 227 (+4)    |
 | 3 🥉  | dolp_fin               | 198         |
 | 4     | boogie_310             | 157         |
-| 5     | aaurie                 | 122         |
+| 5     | aaurie                 | 123 (+1)    |
 | 6     | allspice_boatrace      | 73          |
 | 7     | gofishgamer            | 71          |
-| 8     | guy_farting420         | 69 (+1)     |
-| 9     | abelito75              | 66 (+1)     |
-| 10    | victorvondoom313       | 52 (+1)     |
-| 11    | rustnroll              | 46 (+2)     |
+| 8     | guy_farting420         | 70 (+1)     |
+| 9     | abelito75              | 66          |
+| 10    | victorvondoom313       | 52          |
+| 11    | rustnroll              | 46          |
 | 12    | slimdoggiedog          | 42          |
 | 13    | curiouscorvidae        | 41          |
 | 14    | jimmybooger            | 39          |
 | 14    | mademooselle           | 39          |
 | 16    | bluezebra17            | 38          |
-| 17    | honeytonguedbee        | 37 (+2)     |
+| 17    | honeytonguedbee        | 37          |
 | 18    | preemalone             | 34          |
 | 19    | dwaynepounder          | 28          |
 | 20    | brody5020              | 25          |
 | 21    | meinmestar             | 22          |
-| 21 ⬆  | onetriforce            | 22 (+1)     |
-| 23 ⬇  | eldiabloskillet        | 21          |
-| 23 ⬆  | one_guy_123            | 21 (+1)     |
+| 21    | onetriforce            | 22          |
+| 23    | eldiabloskillet        | 21          |
+| 23    | one_guy_123            | 21          |
 | 25    | forceghostleia         | 15          |
-| 26    | norstargik             | 14 (+1)     |
+| 26    | norstargik             | 14          |
 | 27    | blackberryking00       | 12          |
 | 27    | ratlover2244           | 12          |
 | 29    | goodtubbaa             | 11          |
@@ -41,4 +41,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-09-13 08:05:06 UTC_
+_Last updated at 2026-09-20 09:20:34 UTC_

@@ -11,9 +11,9 @@
 | 7     | desxyne          | 39          |
 | 8     | likedom_         | 37          |
 | 9     | stofeyxd*        | 32          |
-| 10    | cute_ducc        | 28 (+1)     |
-| 11 ⬇  | aistyrax3        | 27          |
-| 11 ⬇  | yyaaaaaaaas      | 27          |
+| 10    | cute_ducc        | 29 (+1)     |
+| 11    | aistyrax3        | 27          |
+| 11    | yyaaaaaaaas      | 27          |
 | 13    | kaitechpl        | 26          |
 | 13    | velantix*        | 26          |
 | 15    | dom1torii        | 23          |
@@ -22,8 +22,8 @@
 | 18    | kargalay         | 21          |
 | 19    | ggmagician       | 20          |
 | 19    | kaczer1          | 20          |
-| 21    | mir9_9           | 15          |
-| 21    | underpaidchatter | 15          |
+| 21    | mir9_9           | 16 (+1)     |
+| 22 ⬇  | underpaidchatter | 15          |
 | 23    | kreplj           | 14          |
 | 23    | ojack18          | 14          |
 | 25    | vigilsync*       | 13          |
@@ -34,4 +34,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-09-13 08:05:06 UTC_
+_Last updated at 2026-09-20 09:20:34 UTC_

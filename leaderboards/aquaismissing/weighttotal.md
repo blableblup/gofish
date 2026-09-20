@@ -18,7 +18,7 @@
 | 14    | ggmagician       | 410.11              |
 | 15    | kaitechpl        | 335.44              |
 | 16    | ojack18          | 329.04              |
-| 17    | cute_ducc        | 298.10 (+17.03)     |
+| 17    | cute_ducc        | 300.23 (+2.13)      |
 | 18    | kargalay         | 280.93              |
 | 19    | yyaaaaaaaas      | 254.07              |
 | 20    | underpaidchatter | 214.45              |
@@ -26,4 +26,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-09-13 08:07:09 UTC_
+_Last updated at 2026-09-20 09:20:31 UTC_

@@ -22,11 +22,11 @@
 | 18    | 🛒 shoppingcart    | 68.75         | metalxml          | 2025-12-08 04:30:22 |
 | 19    | 🪨 rock            | 46.46         | onetriforce       | 2026-04-18 01:40:58 |
 | 20    | 🗡️ dagger           | 45.57         | wildturky82       | 2025-05-26 04:26:17 |
-| 21 ⬆  | 🧟 deadbody        | 39.14 (+6.50) | therealreplica    | 2026-09-01 03:14:48 |
-| 22 ⬇  | 👑 crown           | 38.17         | allspice_boatrace | 2025-04-08 01:50:15 |
-| 23 ⬇  | 🦫 beaver          | 37.56         | aaurie            | 2025-07-25 03:29:55 |
-| 24 ⬇  | 🦪 oyster          | 37.32         | guy_farting420    | 2025-04-26 17:13:05 |
-| 25 ⬇  | 🐟 fish            | 33.98         | boogie_310        | 2025-11-03 04:36:15 |
+| 21    | 🧟 deadbody        | 39.14         | therealreplica    | 2026-09-01 03:14:48 |
+| 22    | 👑 crown           | 38.17         | allspice_boatrace | 2025-04-08 01:50:15 |
+| 23    | 🦫 beaver          | 37.56         | aaurie            | 2025-07-25 03:29:55 |
+| 24    | 🦪 oyster          | 37.32         | guy_farting420    | 2025-04-26 17:13:05 |
+| 25    | 🐟 fish            | 33.98         | boogie_310        | 2025-11-03 04:36:15 |
 | 26    | 🦐 shrimp          | 32.35         | jeffbethyname69   | 2025-04-18 01:22:50 |
 | 27    | 🐡 blowfish        | 31.60         | amatusz           | 2026-05-16 05:41:27 |
 | 28    | 🧽 sponge          | 28.32         | allspice_boatrace | 2025-07-04 02:50:18 |
@@ -54,11 +54,11 @@
 | 50    | 🧸 teddybear       | 6.20          | aaurie            | 2025-03-10 00:33:21 |
 | 51    | 🧴 sunscreenbottle | 6.17          | jeffbethyname69   | 2026-07-06 06:03:58 |
 | 52    | 👒 hat             | 5.69          | amatusz           | 2025-07-07 03:54:58 |
-| 53 ⬆  | 🪝 hook            | 4.92 (+0.92)  | honeytonguedbee   | 2026-09-01 03:28:48 |
-| 54 ⬇  | 🎏 lure            | 4.89          | amatusz           | 2026-01-03 07:20:24 |
-| 55    | 🐚 shell           | 3.93          | jimmybooger       | 2025-08-12 01:35:25 |
-| 56    | 🪀 bobber          | 3.28          | aaurie            | 2025-03-15 09:26:37 |
-| 57    | ☘️ clover           | 3.14          | aaurie            | 2025-06-24 05:07:24 |
+| 53    | 🪝 hook            | 4.92          | honeytonguedbee   | 2026-09-01 03:28:48 |
+| 54    | 🎏 lure            | 4.89          | amatusz           | 2026-01-03 07:20:24 |
+| 55 ⬆  | ☘️ clover           | 4.23 (+1.09)  | aaurie            | 2026-09-18 01:58:17 |
+| 56 ⬇  | 🐚 shell           | 3.93          | jimmybooger       | 2025-08-12 01:35:25 |
+| 57 ⬇  | 🪀 bobber          | 3.28          | aaurie            | 2025-03-15 09:26:37 |
 | 58    | ☂️ umbrella         | 2.97          | jimmybooger       | 2025-08-02 01:10:31 |
 | 59    | 🌰 acorn           | 2.78          | aaurie            | 2025-11-07 08:33:28 |
 | 60    | 🎱 8ball           | 2.72          | slimdoggiedog     | 2025-03-15 00:25:09 |
@@ -80,4 +80,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-09-06 09:42:46 UTC_
+_Last updated at 2026-09-20 09:20:12 UTC_

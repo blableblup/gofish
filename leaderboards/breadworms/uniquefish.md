@@ -5,7 +5,7 @@
 | 1 🥇  | fishingalt            | 124       |
 | 2 🥈  | derinturitierutz      | 122       |
 | 3 🥉  | derintu               | 116       |
-| 4     | larvaew               | 112 (+1)  |
+| 4     | larvaew               | 112       |
 | 5     | cumgi                 | 106       |
 | 6     | lluuucy               | 105       |
 | 7     | osnyisdead            | 104       |
@@ -18,10 +18,10 @@
 | 14    | kishma9               | 94        |
 | 15    | destin357             | 90        |
 | 16    | miiiiisho             | 89        |
-| 17    | esvelles              | 80        |
+| 17    | esvelles              | 81 (+1)   |
 | 18    | ninjaross*            | 78        |
 | 19    | booty_bread           | 77        |
-| 20    | cutsekai              | 76        |
+| 19 ⬆  | cutsekai              | 77 (+1)   |
 | 21    | gstaman911            | 75        |
 | 21    | sicklymaidrobot       | 75        |
 | 23    | osnyatsky*            | 73        |
@@ -33,19 +33,19 @@
 | 29    | crazytown_bananapants | 67        |
 | 30    | comiqq                | 65        |
 | 30    | ryebreadward          | 65        |
+| 32 ⬆  | eagueoflegends        | 64 (+4)   |
 | 32    | mitgliederversammlung | 64        |
-| 33    | sussy_amonge          | 62        |
-| 34 ⬆  | eagueoflegends        | 60 (+1)   |
-| 34    | michael_bay65         | 60        |
-| 36    | fvkdylan              | 57        |
-| 37    | bapqo                 | 56        |
-| 37    | idini                 | 56        |
-| 37    | wisco9ers*            | 56        |
-| 40    | divra__               | 55        |
-| 40    | ouacewi               | 55        |
-| 42    | bussinongnocap        | 53        |
-| 42    | lazuli672*            | 53        |
-| 42    | ommcyrene             | 53        |
+| 34 ⬇  | sussy_amonge          | 62        |
+| 35 ⬇  | michael_bay65         | 60        |
+| 36 ⬆  | ommcyrene             | 58 (+5)   |
+| 37 ⬇  | fvkdylan              | 57        |
+| 38 ⬇  | bapqo                 | 56        |
+| 38 ⬇  | idini                 | 56        |
+| 38 ⬇  | wisco9ers*            | 56        |
+| 41 ⬇  | divra__               | 55        |
+| 41 ⬇  | ouacewi               | 55        |
+| 43 ⬇  | bussinongnocap        | 53        |
+| 43 ⬇  | lazuli672*            | 53        |
 | 45    | houseofleaves*        | 51        |
 | 45    | osnyatsky*            | 51        |
 | 47    | pinksynthesis29       | 50        |
@@ -54,4 +54,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-09-13 08:05:04 UTC_
+_Last updated at 2026-09-20 09:22:36 UTC_

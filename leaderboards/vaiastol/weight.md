@@ -36,28 +36,29 @@
 | 32    | v6r_                  | 🦈 shark     | 124.61        | 2025-03-26 02:03:55 |
 | 33    | sandwichsundays       | 🐊 crocodile | 122.88        | 2024-07-31 18:53:34 |
 | 34    | larvaew               | 🦈 shark     | 120.80        | 2025-12-28 23:37:00 |
-| 35    | eagueoflegends        | 🧞‍♂️ genie     | 119.98        | 2025-11-01 20:23:46 |
-| 36    | jr_mime               | 🐙 octopus   | 105.86        | 2024-08-24 13:55:32 |
-| 37    | nightmare_jpg         | 🐬 dolphin   | 100.22        | 2025-10-26 13:32:59 |
-| 38    | gstaman911            | 🐢 turtle    | 96.31         | 2025-10-10 11:07:10 |
-| 39    | crustymilk            | 🐢 turtle    | 96.27         | 2026-06-24 02:38:54 |
-| 40    | fvkdylan              | 🐬 dolphin   | 90.12         | 2025-02-05 08:48:24 |
-| 41    | drpasu                | 🐙 octopus   | 89.12         | 2025-04-18 23:30:56 |
-| 42    | lisa_bin              | 🐋 whale     | 88.06         | 2026-07-23 19:17:39 |
-| 43    | ermnest               | 🦑 squid     | 77.83         | 2024-10-02 09:12:01 |
-| 44    | choplueys             | 🐬 dolphin   | 77.20         | 2024-08-30 17:40:32 |
-| 45    | dev0p_                | 🐊 crocodile | 75.86         | 2025-03-09 17:41:10 |
-| 46    | esmeohmy              | 🐢 turtle    | 72.61         | 2025-04-08 17:36:03 |
-| 47    | respirate_            | 🐳 bluewhale | 66.62         | 2026-01-03 02:32:58 |
-| 48    | cyaniderx             | 🐢 turtle    | 63.80         | 2025-02-10 21:06:42 |
-| 49    | ash__meow             | 🐢 turtle    | 63.30         | 2026-04-06 09:46:00 |
-| 50    | emotion_01            | 🐋 whale     | 63.17         | 2024-08-09 15:15:43 |
-| 51    | sulypert              | 🐙 octopus   | 61.78         | 2024-09-29 18:05:30 |
-| 52    | houseofleaves         | 🐋 whale     | 61.69         | 2024-09-01 01:35:25 |
-| 53    | mangos4u              | 🦈 shark     | 58.49         | 2026-05-03 00:54:11 |
-| 54    | evelyn_rawr           | 🐢 turtle    | 54.29         | 2025-09-07 21:18:35 |
-| 55 🆕 | j4song                | 🐢 turtle    | 54.04         | 2026-08-29 15:26:10 |
+| 35    | eagueoflegends        | 🧞‍♂️ genie    | 119.98        | 2025-11-01 20:23:46 |
+| 36 🆕 | jorpiter              | 🐋 whale     | 111.27        | 2026-09-18 21:19:18 |
+| 37 ⬇  | jr_mime               | 🐙 octopus   | 105.86        | 2024-08-24 13:55:32 |
+| 38 ⬇  | nightmare_jpg         | 🐬 dolphin   | 100.22        | 2025-10-26 13:32:59 |
+| 39 ⬇  | gstaman911            | 🐢 turtle    | 96.31         | 2025-10-10 11:07:10 |
+| 40 ⬇  | crustymilk            | 🐢 turtle    | 96.27         | 2026-06-24 02:38:54 |
+| 41 ⬇  | fvkdylan              | 🐬 dolphin   | 90.12         | 2025-02-05 08:48:24 |
+| 42 ⬇  | drpasu                | 🐙 octopus   | 89.12         | 2025-04-18 23:30:56 |
+| 43 ⬇  | lisa_bin              | 🐋 whale     | 88.06         | 2026-07-23 19:17:39 |
+| 44 ⬇  | ermnest               | 🦑 squid     | 77.83         | 2024-10-02 09:12:01 |
+| 45 ⬇  | choplueys             | 🐬 dolphin   | 77.20         | 2024-08-30 17:40:32 |
+| 46 ⬇  | dev0p_                | 🐊 crocodile | 75.86         | 2025-03-09 17:41:10 |
+| 47 ⬇  | esmeohmy              | 🐢 turtle    | 72.61         | 2025-04-08 17:36:03 |
+| 48 ⬇  | respirate_            | 🐳 bluewhale | 66.62         | 2026-01-03 02:32:58 |
+| 49 ⬇  | cyaniderx             | 🐢 turtle    | 63.80         | 2025-02-10 21:06:42 |
+| 50 ⬇  | ash__meow             | 🐢 turtle    | 63.30         | 2026-04-06 09:46:00 |
+| 51 ⬇  | emotion_01            | 🐋 whale     | 63.17         | 2024-08-09 15:15:43 |
+| 52 ⬇  | sulypert              | 🐙 octopus   | 61.78         | 2024-09-29 18:05:30 |
+| 53 ⬇  | houseofleaves         | 🐋 whale     | 61.69         | 2024-09-01 01:35:25 |
+| 54 ⬇  | mangos4u              | 🦈 shark     | 58.49         | 2026-05-03 00:54:11 |
+| 55 ⬇  | evelyn_rawr           | 🐢 turtle    | 54.29         | 2025-09-07 21:18:35 |
+| 56 ⬇  | j4song                | 🐢 turtle    | 54.04         | 2026-08-29 15:26:10 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2026-08-30 08:28:42 UTC_
+_Last updated at 2026-09-20 09:20:33 UTC_
