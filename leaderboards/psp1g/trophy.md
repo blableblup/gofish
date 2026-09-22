@@ -3,20 +3,20 @@
 | Rank  | Player                    | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points       |
 |:------|:--------------------------|:------------|:-----------------|:-----------------|:-------------|
 | 1 🥇  | nndiana                   | 85          | 79               | 42               | 355.0        |
-| 2 🥈  | luneckie                  | 39 (+2)     | 11               | 17 (+1)          | 136.5 (+6.5) |
+| 2 🥈  | luneckie                  | 39          | 11               | 19 (+2)          | 137.5 (+1.0) |
 | 3 🥉  | jayayseaohbe              | 30          | 22               | 11               | 117.5        |
 | 4     | bubinga                   | 28          | 21               | 16               | 113.0        |
 | 5     | blu_inx                   | 9           | 12               | 11               | 44.5         |
 | 6     | mazzo_tv                  | 6           | 12               | 18               | 39.0         |
 | 7     | huuuuuuuuuuuuuuuuuuuuuurz | 8           | 10               | 9                | 38.5         |
-| 8 ⬆   | sklortch                  | 9 (+1)      | 8 (+1)           | 2                | 36.0 (+4.0)  |
-| 9 ⬇   | benciee                   | 7           | 11               | 2                | 33.0         |
+| 8     | sklortch                  | 9           | 10 (+2)          | 2                | 38.0 (+2.0)  |
+| 9     | benciee                   | 7           | 11               | 2                | 33.0         |
 | 10    | disappointingtrash        | 7           | 7                | 7                | 31.5         |
-| 11    | boyykisser                | 5           | 10               | 7 (+1)           | 28.5 (+0.5)  |
-| 12    | kevinlukejager            | 6           | 4                | 5                | 24.5         |
-| 13    | ratot                     | 4           | 7                | 9                | 23.5         |
-| 14    | iflya320                  | 6           | 3                | 2                | 22.0         |
-| 15    | inders                    | 5           | 4                | 5                | 21.5         |
+| 11 ⬆  | inders                    | 8 (+3)      | 4                | 5                | 30.5 (+9.0)  |
+| 12 ⬇  | boyykisser                | 5           | 10               | 7                | 28.5         |
+| 13 ⬇  | kevinlukejager            | 6           | 4                | 5                | 24.5         |
+| 14 ⬇  | ratot                     | 4           | 7                | 9                | 23.5         |
+| 15 ⬇  | iflya320                  | 6           | 3                | 2                | 22.0         |
 | 16    | jem_mp3                   | 6           | 3                | 0                | 21.0         |
 | 17    | elusiin                   | 6           | 2                | 0                | 20.0         |
 | 17    | rottarded                 | 4           | 5                | 6                | 20.0         |
@@ -61,4 +61,4 @@
 | 54    | maplegif                  | 0           | 0                | 1                | 0.5          |
 | 54    | starducc                  | 0           | 0                | 1                | 0.5          |
 
-_Last updated at 2026-09-16 17:54:54 UTC_
+_Last updated at 2026-09-22 09:24:07 UTC_

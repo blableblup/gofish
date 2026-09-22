@@ -2,10 +2,10 @@
 
 | Rank  | Player                    | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points       |
 |:------|:--------------------------|:------------|:-----------------|:-----------------|:-------------|
-| 1 🥇  | osnyisdead                | 88 (+1)     | 58 (+2)          | 38               | 341.0 (+5.0) |
+| 1 🥇  | osnyisdead                | 89 (+1)     | 59 (+1)          | 39 (+1)          | 345.5 (+4.5) |
 | 2 🥈  | lluuucy                   | 43          | 81               | 47               | 233.5        |
 | 3 🥉  | leanmeister               | 51          | 16               | 12               | 175.0        |
-| 4     | esvelles                  | 42 (+2)     | 33 (+1)          | 14               | 166.0 (+7.0) |
+| 4     | esvelles                  | 44 (+2)     | 34 (+1)          | 14               | 173.0 (+7.0) |
 | 5     | destin357                 | 34          | 25               | 7                | 130.5        |
 | 6     | puzzlow                   | 35          | 15               | 14               | 127.0        |
 | 7     | derinturitierutz          | 35          | 7                | 16               | 120.0        |
@@ -19,7 +19,7 @@
 | 15    | fishingalt                | 7           | 9                | 16               | 38.0         |
 | 15    | sicklymaidrobot           | 5           | 10               | 26               | 38.0         |
 | 17    | ytp_dl                    | 5           | 14               | 17               | 37.5         |
-| 18    | eagueoflegends            | 7           | 11               | 10 (+2)          | 37.0 (+1.0)  |
+| 18    | eagueoflegends            | 7           | 11               | 10               | 37.0         |
 | 19    | comiqq                    | 5           | 14               | 13               | 35.5         |
 | 20    | dougiefresh_83            | 7           | 3                | 7                | 27.5         |
 | 21    | cumgi                     | 3           | 5                | 17               | 22.5         |
@@ -40,20 +40,21 @@
 | 36    | elisworm                  | 1           | 1                | 0                | 4.0          |
 | 36    | paras220                  | 1           | 0                | 2                | 4.0          |
 | 38    | crazytown_bananapants     | 1           | 0                | 1                | 3.5          |
-| 39    | divra__                   | 1           | 0                | 0                | 3.0          |
-| 39    | pinksynthesis29           | 0           | 1                | 4                | 3.0          |
-| 39    | receipts                  | 0           | 2                | 2                | 3.0          |
-| 42    | houseofleaves             | 0           | 2                | 1                | 2.5          |
-| 42    | ommcyrene                 | 0           | 1                | 3                | 2.5          |
+| 38 ⬆  | ommcyrene                 | 0           | 1                | 5 (+2)           | 3.5 (+1.0)   |
+| 40 ⬇  | divra__                   | 1           | 0                | 0                | 3.0          |
+| 40 ⬇  | pinksynthesis29           | 0           | 1                | 4                | 3.0          |
+| 40 ⬇  | receipts                  | 0           | 2                | 2                | 3.0          |
+| 43 ⬇  | houseofleaves             | 0           | 2                | 1                | 2.5          |
 | 44    | bussinongnocap            | 0           | 1                | 2                | 2.0          |
 | 45    | michael_bay65             | 0           | 0                | 3                | 1.5          |
 | 46    | bapqo                     | 0           | 0                | 2                | 1.0          |
 | 46    | gawblemachine             | 0           | 1                | 0                | 1.0          |
 | 46    | globcob                   | 0           | 1                | 0                | 1.0          |
-| 49    | hansworthelias            | 0           | 0                | 1                | 0.5          |
-| 49    | jr_mime                   | 0           | 0                | 1                | 0.5          |
-| 49    | mochi_uygqzidbjizjkbehuiw | 0           | 0                | 1                | 0.5          |
-| 49    | niiy                      | 0           | 0                | 1                | 0.5          |
-| 49    | shojan                    | 0           | 0                | 1                | 0.5          |
+| 46 🆕 | lelullu                   | 0           | 1                | 0                | 1.0          |
+| 50 ⬇  | hansworthelias            | 0           | 0                | 1                | 0.5          |
+| 50 ⬇  | jr_mime                   | 0           | 0                | 1                | 0.5          |
+| 50 ⬇  | mochi_uygqzidbjizjkbehuiw | 0           | 0                | 1                | 0.5          |
+| 50 ⬇  | niiy                      | 0           | 0                | 1                | 0.5          |
+| 50 ⬇  | shojan                    | 0           | 0                | 1                | 0.5          |
 
-_Last updated at 2026-09-16 17:54:53 UTC_
+_Last updated at 2026-09-22 09:24:07 UTC_

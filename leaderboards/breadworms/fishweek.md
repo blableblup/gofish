@@ -59,8 +59,9 @@
 | 55    | rocketpol*            | 24          |
 | 56    | divra__               | 22          |
 | 57    | veggesh               | 21          |
+| 58 🆕 | lelullu               | 20          |
 | 58    | realtechnine          | 20          |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2026-08-14 10:23:25 UTC_
+_Last updated at 2026-09-22 09:24:07 UTC_
