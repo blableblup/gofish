@@ -1494,6 +1494,33 @@
 			"checkfdata": true,
 			"board_enabled": true
 		},
+		"yanny": {
+			"twitchid": "113059139",
+			"logs_instances": [
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2026/9"
+				},
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2026/9"
+				},
+				{
+					"url": "https://logxx.dev",
+					"logs_added": "2026/9"
+				},
+				{
+					"url": "https://logs.susgee.dev",
+					"logs_added": "2026/9"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/9"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
 		"yopego": {
 			"twitchid": "175225959",
 			"logs_instances": [
