@@ -1,44 +1,45 @@
 ### Most fish caught in aaurie's chat
 
-| Rank  | Player                 | Fish caught |
-|:------|:-----------------------|:------------|
-| 1 🥇  | jeffbethyname69        | 233         |
-| 2 🥈  | amatusz                | 227 (+4)    |
-| 3 🥉  | dolp_fin               | 198         |
-| 4     | boogie_310             | 157         |
-| 5     | aaurie                 | 123 (+1)    |
-| 6     | allspice_boatrace      | 73          |
-| 7     | gofishgamer            | 71          |
-| 8     | guy_farting420         | 70 (+1)     |
-| 9     | abelito75              | 66          |
-| 10    | victorvondoom313       | 52          |
-| 11    | rustnroll              | 46          |
-| 12    | slimdoggiedog          | 42          |
-| 13    | curiouscorvidae        | 41          |
-| 14    | jimmybooger            | 39          |
-| 14    | mademooselle           | 39          |
-| 16    | bluezebra17            | 38          |
-| 17    | honeytonguedbee        | 37          |
-| 18    | preemalone             | 34          |
-| 19    | dwaynepounder          | 28          |
-| 20    | brody5020              | 25          |
-| 21    | meinmestar             | 22          |
-| 21    | onetriforce            | 22          |
-| 23    | eldiabloskillet        | 21          |
-| 23    | one_guy_123            | 21          |
-| 25    | forceghostleia         | 15          |
-| 26    | norstargik             | 14          |
-| 27    | blackberryking00       | 12          |
-| 27    | ratlover2244           | 12          |
-| 29    | goodtubbaa             | 11          |
-| 29    | jah_alexander          | 11          |
-| 29    | jonysays               | 11          |
-| 32    | frostytangent          | 10          |
-| 32    | lor_starcutter         | 10          |
-| 32    | theevilassvampire_vahd | 10          |
-| 32    | twofistedtales         | 10          |
-| 32    | yourdadscameraroll     | 10          |
+| Rank   | Player                 | Fish caught |
+|:-------|:-----------------------|:------------|
+| 1 🥇 ⬆ | amatusz                | 239 (+12)   |
+| 2 🥈 ⬇ | jeffbethyname69        | 233         |
+| 3 🥉   | dolp_fin               | 198         |
+| 4      | boogie_310             | 158 (+1)    |
+| 5      | aaurie                 | 125 (+2)    |
+| 6      | allspice_boatrace      | 73          |
+| 7      | gofishgamer            | 71          |
+| 8      | guy_farting420         | 70          |
+| 9      | abelito75              | 68 (+2)     |
+| 10     | victorvondoom313       | 52          |
+| 11     | rustnroll              | 50 (+4)     |
+| 12     | slimdoggiedog          | 42          |
+| 13     | curiouscorvidae        | 41          |
+| 14     | jimmybooger            | 39          |
+| 14     | mademooselle           | 39          |
+| 16     | bluezebra17            | 38          |
+| 17     | honeytonguedbee        | 37          |
+| 18     | preemalone             | 34          |
+| 19     | dwaynepounder          | 28          |
+| 20     | brody5020              | 25          |
+| 21     | meinmestar             | 22          |
+| 21     | onetriforce            | 22          |
+| 23     | eldiabloskillet        | 21          |
+| 23     | one_guy_123            | 21          |
+| 25     | forceghostleia         | 15          |
+| 26     | norstargik             | 14          |
+| 27 ⬆   | goodtubbaa             | 13 (+2)     |
+| 28 ⬇   | blackberryking00       | 12          |
+| 28 ⬇   | ratlover2244           | 12          |
+| 30 ⬇   | jah_alexander          | 11          |
+| 30 ⬇   | jonysays               | 11          |
+| 32     | frostytangent          | 10          |
+| 32     | lor_starcutter         | 10          |
+| 32     | theevilassvampire_vahd | 10          |
+| 32     | twofistedtales         | 10          |
+| 32 🆕  | wildturky82            | 10          |
+| 32     | yourdadscameraroll     | 10          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-09-20 09:20:34 UTC_
+_Last updated at 2026-09-27 09:49:59 UTC_

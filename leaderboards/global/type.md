@@ -40,7 +40,7 @@
 | 36    | 🦀 crab            | 39.37         | huuuuuuuuuuuuuuuuuuuuuurz | 2025-03-31 19:21:43 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
 | 37    | 🐡 blowfish        | 36.60         | huuuuuuuuuuuuuuuuuuuuuurz | 2025-10-09 05:13:02 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
 | 38    | 🕷️ spider           | 32.71         | leanmeister               | 2025-04-02 10:24:56 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 39    | 🥒 seacucumber     | 31.99         | tharawow                  | 2026-08-01 14:33:48 | ![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)           |
+| 39    | 🥒 seacucumber     | 31.99         | itsthara                  | 2026-08-01 14:33:48 | ![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)           |
 | 40    | 🧽 sponge          | 29.89         | nndiana                   | 2025-07-24 04:14:09 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
 | 41    | 🐠 tropicalfish    | 29.62         | v6r_                      | 2025-03-29 00:07:25 | ![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)                   |
 | 42    | 🧊 icecube         | 29.34         | dougiefresh_83            | 2024-12-31 21:24:39 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
@@ -129,4 +129,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-09-20 09:19:26 UTC_
+_Last updated at 2026-09-27 09:46:33 UTC_

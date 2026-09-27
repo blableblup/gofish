@@ -11,50 +11,50 @@
 | 7     | 🍄‍🟫 mushroom   | 12.66         | glorp_fishing  | 2026-01-03 05:12:11 |
 | 8     | 🐬 dolphin      | 10.60         | glorp_fishing  | 2026-03-28 04:32:04 |
 | 9     | 🪺 nestwitheggs | 10.37         | buhl00n        | 2025-12-12 06:12:20 |
-| 10 ⬆  | 🪨 rock         | 9.17          | buhl00n        | 2026-08-21 20:31:20 |
-| 11 ⬆  | 🧥 coat         | 8.33          | buhl00n        | 2026-01-01 15:38:41 |
-| 12 ⬆  | 🧸 teddybear    | 7.95          | buhl00n        | 2026-01-29 03:45:54 |
-| 13 ⬆  | 🪁 kite         | 7.02          | buhl00n        | 2026-07-17 20:47:17 |
-| 14 ⬆  | 🦦 otter        | 6.76          | ofaisalz       | 2026-01-11 12:55:48 |
-| 15 ⬆  | 🦕 sauropod     | 5.91          | ofaisalz       | 2026-01-16 21:43:42 |
-| 16 ⬆  | 🦫 beaver       | 3.22          | buhl00n        | 2025-12-15 22:40:04 |
-| 17 ⬆  | 🦠 plankton     | 3.02          | buhl00n        | 2026-01-10 22:19:04 |
-| 18 ⬆  | 👡 sandal       | 2.64          | gimmeschmoneys | 2026-03-04 14:52:40 |
-| 19 ⬆  | 🐠 tropicalfish | 2.26          | buhl00n        | 2026-08-27 22:19:32 |
-| 20 ⬆  | 🦞 lobster      | 2.25          | buhl00n        | 2025-12-23 16:46:55 |
-| 21 ⬆  | 🪳 cockroach    | 2.23          | buhl00n        | 2026-05-19 06:01:09 |
-| 22 ⬇  | 🐙 octopus      | 2.03 (-7.15)  | buhl00n        | 2026-09-18 13:02:15 |
-| 23    | ☘️ clover        | 1.85          | buhl00n        | 2025-12-13 17:07:17 |
-| 24    | 🪸 coral        | 1.79          | buhl00n        | 2026-04-19 17:04:45 |
-| 25    | 🦴 bone         | 1.67          | buhl00n        | 2026-08-04 14:39:11 |
-| 26    | 🐢 turtle       | 1.44          | buhl00n        | 2026-08-19 06:54:35 |
-| 27    | 🍄 oceanplant   | 1.19          | vagdy          | 2026-01-12 01:57:37 |
-| 28    | 🥪 sandwich     | 0.91          | buhl00n        | 2025-12-31 15:44:11 |
-| 29    | ☂️ umbrella      | 0.84          | glorp_fishing  | 2026-01-17 06:33:38 |
-| 30    | 🌵 cactus       | 0.82          | gimmeschmoneys | 2026-07-25 15:43:02 |
-| 31    | 🐧 penguin      | 0.81          | gimmeschmoneys | 2026-01-01 00:12:02 |
-| 32    | 🦪 oyster       | 0.79          | glorp_fishing  | 2026-01-16 17:40:44 |
-| 33    | 🐦 cardinal     | 0.78          | buhl00n        | 2026-01-04 17:08:41 |
-| 34    | 🦑 squid        | 0.72          | gimmeschmoneys | 2026-07-15 18:18:11 |
-| 35    | 🪲 beetle       | 0.70          | glorp_fishing  | 2026-07-23 18:22:17 |
-| 36    | 🐋 whale        | 0.69          | buhl00n        | 2025-12-30 06:35:22 |
-| 37    | 🪚 icesaw       | 0.63          | gimmeschmoneys | 2025-12-29 10:58:55 |
-| 38    | 🧣 scarf        | 0.62          | gimmeschmoneys | 2025-12-31 13:05:59 |
-| 39    | 🍥 sanddollar   | 0.57          | buhl00n        | 2026-08-28 20:51:35 |
-| 40    | 🥀 wiltedflower | 0.54          | vagdy          | 2025-12-15 21:33:40 |
-| 41    | 🪶 feather      | 0.53          | buhl00n        | 2026-03-17 12:27:18 |
-| 41    | 🌾 grass        | 0.53          | gimmeschmoneys | 2026-08-17 08:48:55 |
-| 43    | 🐍 snake        | 0.46          | vagdy          | 2025-12-16 12:41:10 |
-| 44    | 🪀 bobber       | 0.40          | vagdy          | 2025-12-13 12:11:40 |
-| 44    | 🧦 socks        | 0.40          | buhl00n        | 2026-05-08 15:19:49 |
-| 46    | 🩰 balletshoes  | 0.36          | buhl00n        | 2026-01-11 15:27:14 |
-| 46    | 💀 skull        | 0.36          | buhl00n        | 2026-06-16 19:27:15 |
-| 48    | 🪱 worm         | 0.35          | glorp_fishing  | 2026-07-26 15:50:58 |
-| 49    | 🎱 8ball        | 0.34          | vagdy          | 2025-12-20 16:50:33 |
-| 50    | 🐡 blowfish     | 0.33          | buhl00n        | 2026-01-14 06:20:43 |
-| 51    | 🐝 bee          | 0.32          | buhl00n        | 2026-08-03 01:56:02 |
-| 52    | ⛸️ iceskate      | 0.31          | gimmeschmoneys | 2025-12-29 07:35:46 |
-| 53    | 🦐 shrimp       | 0.30          | buhl00n        | 2025-12-15 06:36:56 |
+| 10    | 🪨 rock         | 9.17          | buhl00n        | 2026-08-21 20:31:20 |
+| 11    | 🧥 coat         | 8.33          | buhl00n        | 2026-01-01 15:38:41 |
+| 12    | 🧸 teddybear    | 7.95          | buhl00n        | 2026-01-29 03:45:54 |
+| 13    | 🪁 kite         | 7.02          | buhl00n        | 2026-07-17 20:47:17 |
+| 14    | 🦦 otter        | 6.76          | ofaisalz       | 2026-01-11 12:55:48 |
+| 15    | 🦕 sauropod     | 5.91          | ofaisalz       | 2026-01-16 21:43:42 |
+| 16    | 🦫 beaver       | 3.22          | buhl00n        | 2025-12-15 22:40:04 |
+| 17    | 🦠 plankton     | 3.02          | buhl00n        | 2026-01-10 22:19:04 |
+| 18    | 👡 sandal       | 2.64          | gimmeschmoneys | 2026-03-04 14:52:40 |
+| 19 ⬆  | 🦞 lobster      | 2.25          | buhl00n        | 2025-12-23 16:46:55 |
+| 20 ⬆  | 🪳 cockroach    | 2.23          | buhl00n        | 2026-05-19 06:01:09 |
+| 21 ⬆  | 🐙 octopus      | 2.03          | buhl00n        | 2026-09-18 13:02:15 |
+| 22 ⬆  | ☘️ clover        | 1.85          | buhl00n        | 2025-12-13 17:07:17 |
+| 23 ⬆  | 🪸 coral        | 1.79          | buhl00n        | 2026-04-19 17:04:45 |
+| 24 ⬆  | 🦴 bone         | 1.67          | buhl00n        | 2026-08-04 14:39:11 |
+| 25 ⬆  | 🐢 turtle       | 1.44          | buhl00n        | 2026-08-19 06:54:35 |
+| 26 ⬆  | 🍄 oceanplant   | 1.19          | vagdy          | 2026-01-12 01:57:37 |
+| 27 ⬆  | 🥪 sandwich     | 0.91          | buhl00n        | 2025-12-31 15:44:11 |
+| 28 ⬆  | ☂️ umbrella      | 0.84          | glorp_fishing  | 2026-01-17 06:33:38 |
+| 29 ⬆  | 🌵 cactus       | 0.82          | gimmeschmoneys | 2026-07-25 15:43:02 |
+| 30 ⬆  | 🐧 penguin      | 0.81          | gimmeschmoneys | 2026-01-01 00:12:02 |
+| 31 ⬆  | 🦪 oyster       | 0.79          | glorp_fishing  | 2026-01-16 17:40:44 |
+| 32 ⬆  | 🐦 cardinal     | 0.78          | buhl00n        | 2026-01-04 17:08:41 |
+| 33 ⬆  | 🦑 squid        | 0.72          | gimmeschmoneys | 2026-07-15 18:18:11 |
+| 34 ⬆  | 🪲 beetle       | 0.70          | glorp_fishing  | 2026-07-23 18:22:17 |
+| 35 ⬆  | 🐋 whale        | 0.69          | buhl00n        | 2025-12-30 06:35:22 |
+| 36 ⬆  | 🪚 icesaw       | 0.63          | gimmeschmoneys | 2025-12-29 10:58:55 |
+| 37 ⬆  | 🧣 scarf        | 0.62          | gimmeschmoneys | 2025-12-31 13:05:59 |
+| 38 ⬆  | 🍥 sanddollar   | 0.57          | buhl00n        | 2026-08-28 20:51:35 |
+| 39 ⬆  | 🥀 wiltedflower | 0.54          | vagdy          | 2025-12-15 21:33:40 |
+| 40 ⬆  | 🪶 feather      | 0.53          | buhl00n        | 2026-03-17 12:27:18 |
+| 40 ⬆  | 🌾 grass        | 0.53          | gimmeschmoneys | 2026-08-17 08:48:55 |
+| 42 ⬆  | 🐍 snake        | 0.46          | vagdy          | 2025-12-16 12:41:10 |
+| 43 ⬆  | 🪀 bobber       | 0.40          | vagdy          | 2025-12-13 12:11:40 |
+| 44 ⬆  | 🩰 balletshoes  | 0.36          | buhl00n        | 2026-01-11 15:27:14 |
+| 44 ⬆  | 💀 skull        | 0.36          | buhl00n        | 2026-06-16 19:27:15 |
+| 46 ⬆  | 🪱 worm         | 0.35          | glorp_fishing  | 2026-07-26 15:50:58 |
+| 47 ⬆  | 🎱 8ball        | 0.34          | vagdy          | 2025-12-20 16:50:33 |
+| 48 ⬆  | 🐡 blowfish     | 0.33          | buhl00n        | 2026-01-14 06:20:43 |
+| 49 ⬆  | 🐝 bee          | 0.32          | buhl00n        | 2026-08-03 01:56:02 |
+| 50 ⬆  | ⛸️ iceskate      | 0.31          | gimmeschmoneys | 2025-12-29 07:35:46 |
+| 51 ⬆  | 🦐 shrimp       | 0.30          | buhl00n        | 2025-12-15 06:36:56 |
+| 52 ⬇  | 🧦 socks        | 0.20 (-0.20)  | buhl00n        | 2026-09-21 16:40:57 |
+| 53 ⬇  | 🐠 tropicalfish | 0.19 (-2.07)  | buhl00n        | 2026-09-24 08:59:49 |
 | 54    | 🦋 butterfly    | 0.17          | buhl00n        | 2026-07-23 19:36:42 |
 | 55    | 🐸 frog         | 0.16          | buhl00n        | 2025-12-14 00:47:14 |
 | 56    | 🩴 thongsandal  | 0.15          | buhl00n        | 2026-08-28 20:03:53 |
@@ -85,4 +85,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-09-20 09:22:10 UTC_
+_Last updated at 2026-09-27 09:49:49 UTC_

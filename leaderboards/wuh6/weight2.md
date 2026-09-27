@@ -26,81 +26,81 @@
 | 22    | bubinga                   | 🐳 bluewhale  | 288.72        | 2025-03-31 12:26:55 |
 | 23    | lobuhtomy                 | 🐳 bluewhale  | 288.19        | 2025-12-05 02:45:41 |
 | 24    | nndiana                   | 🦑 squid      | 285.48        | 2024-12-28 02:37:19 |
-| 25    | wowitsdub                 | 🐳 bluewhale  | 285.41        | 2026-04-14 10:46:20 |
-| 26    | rancbot                   | 🐳 bluewhale  | 285.32        | 2026-01-15 11:26:55 |
-| 27    | bluberry                  | 🐳 bluewhale  | 285.14        | 2025-04-14 17:16:48 |
-| 28    | blu_inx                   | 🐳 bluewhale  | 284.82        | 2026-02-26 12:38:32 |
-| 29    | eeziiii                   | 🐻‍❄️ polarbear | 284.71        | 2024-12-26 23:37:31 |
-| 30    | ranctious                 | 🐉 dragon     | 284.19        | 2026-06-08 09:40:05 |
-| 31    | eeziiii                   | 🐳 bluewhale  | 284.04        | 2025-12-03 07:17:11 |
-| 32    | bubinga                   | 🐳 bluewhale  | 283.84        | 2025-04-24 20:10:17 |
-| 33    | nndiana                   | 🐳 bluewhale  | 283.76        | 2025-01-15 15:48:59 |
-| 34    | ranctious                 | 🐉 dragon     | 283.42        | 2026-08-12 02:35:11 |
-| 35    | eeziiii                   | 🐳 bluewhale  | 283.34        | 2026-06-01 21:13:01 |
-| 36    | bubinga                   | 🐳 bluewhale  | 282.97        | 2026-06-09 23:59:09 |
-| 37    | theevirus                 | 🐉 dragon     | 282.76        | 2025-11-19 13:27:46 |
-| 38    | eeziiii                   | 🦑 squid      | 282.45        | 2026-02-15 07:30:30 |
-| 39    | bcarw                     | 🦑 squid      | 282.38        | 2025-12-31 11:47:22 |
-| 40    | eeziiii                   | 🐳 bluewhale  | 282.14        | 2026-06-09 08:34:01 |
-| 41    | gorillapark               | 🦑 squid      | 281.65        | 2025-03-03 20:31:27 |
-| 42    | huuuuuuuuuuuuuuuuuuuuuurz | 🐉 dragon     | 281.30        | 2025-03-10 06:15:06 |
-| 43    | bcarw                     | 🦑 squid      | 281.10        | 2026-02-07 15:28:03 |
-| 44    | eeziiii                   | 🐳 bluewhale  | 280.64        | 2026-06-08 07:31:18 |
-| 45    | eeziiii                   | 🐳 bluewhale  | 280.10        | 2025-05-26 14:34:06 |
-| 46    | bubinga                   | 🦑 squid      | 278.52        | 2025-01-01 18:34:49 |
-| 47    | iflya320                  | 🐳 bluewhale  | 278.14        | 2025-05-25 13:05:41 |
-| 48    | ranctious                 | 🐳 bluewhale  | 277.70        | 2025-12-29 00:38:13 |
-| 49    | nndiana                   | 🐳 bluewhale  | 276.95        | 2025-02-11 05:04:11 |
-| 50    | nndiana                   | 🐳 bluewhale  | 276.67        | 2024-12-28 21:27:24 |
-| 51    | nndiana                   | 🦑 squid      | 276.15        | 2025-01-11 12:26:38 |
-| 52    | veny2lbs                  | 🦕 sauropod   | 276.08        | 2025-07-06 18:30:29 |
-| 53    | eeziiii                   | 🐳 bluewhale  | 272.07        | 2026-02-08 20:45:46 |
-| 54    | sandwichsundays           | 🦕 sauropod   | 271.44        | 2025-01-03 06:42:24 |
-| 55    | ranctious                 | 🐳 bluewhale  | 271.27        | 2026-04-27 17:33:25 |
-| 56    | teddbearcs                | 🐳 bluewhale  | 271.14        | 2025-01-03 16:31:20 |
-| 57    | nndiana                   | 🐳 bluewhale  | 271.10        | 2024-12-16 03:14:55 |
-| 58    | ranctious                 | 🐳 bluewhale  | 270.39        | 2026-05-23 15:38:37 |
-| 59    | ranctious                 | 🦑 squid      | 270.25        | 2026-02-10 10:35:30 |
-| 60    | theevirus                 | 🦑 squid      | 270.16        | 2024-12-25 03:56:00 |
-| 61    | caprisen_                 | 🐳 bluewhale  | 269.66        | 2026-02-22 13:22:12 |
-| 62    | theevirus                 | 🐉 dragon     | 269.52        | 2026-06-04 12:38:37 |
-| 63    | wowitsdub                 | 🐉 dragon     | 269.21        | 2025-10-22 12:15:04 |
-| 64    | bubinga                   | 🦕 sauropod   | 269.17        | 2026-04-30 21:45:53 |
-| 65    | sandwichsundays           | 🦕 sauropod   | 268.92        | 2024-12-15 05:53:55 |
-| 66    | ranctious                 | 🦕 sauropod   | 268.45        | 2026-02-02 18:25:58 |
-| 67    | bubinga                   | 🐉 dragon     | 267.94        | 2025-11-28 22:15:57 |
-| 68    | iflya320                  | 🐉 dragon     | 267.83        | 2025-05-21 12:06:54 |
-| 69    | theevirus                 | 🐳 bluewhale  | 267.69        | 2025-12-06 20:15:31 |
-| 70    | theevirus                 | 🦑 squid      | 267.47        | 2025-01-25 01:13:53 |
-| 71    | veny2lbs                  | 🐉 dragon     | 267.37        | 2025-06-05 08:11:58 |
-| 72    | iflya320                  | 🦕 sauropod   | 266.80        | 2025-07-12 10:57:15 |
-| 73    | bluberry                  | 🦕 sauropod   | 266.71        | 2025-04-18 06:53:04 |
-| 74    | bubinga                   | 🦕 sauropod   | 266.22        | 2025-01-15 16:38:26 |
-| 75    | gorillapark               | 🐳 bluewhale  | 266.18        | 2025-07-15 13:49:45 |
-| 76    | gorillapark               | 🐳 bluewhale  | 266.13        | 2025-09-10 16:31:40 |
-| 77    | huuuuuuuuuuuuuuuuuuuuuurz | 🦕 sauropod   | 266.12        | 2026-02-09 10:20:03 |
-| 78    | theevirus                 | 🦑 squid      | 265.70        | 2025-02-20 18:27:22 |
-| 79    | ranctious                 | 🦕 sauropod   | 265.54        | 2025-10-15 09:06:14 |
-| 80    | bubinga                   | 🐳 bluewhale  | 265.42        | 2026-04-15 08:35:45 |
-| 81    | ranctious                 | 🐳 bluewhale  | 265.39        | 2026-02-16 15:09:23 |
-| 82    | theevirus                 | 🦑 squid      | 264.74        | 2025-01-30 21:46:12 |
-| 83    | iflya320                  | 🐳 bluewhale  | 264.55        | 2025-05-14 10:14:37 |
-| 84    | ranctious                 | 🦕 sauropod   | 264.44        | 2026-05-28 21:10:29 |
-| 85    | magicbluesword            | 🐳 bluewhale  | 264.34        | 2025-09-05 23:44:41 |
-| 86    | bubinga                   | 🦕 sauropod   | 264.19        | 2025-04-20 15:19:07 |
-| 87 🆕 | ranctious                 | 🐉 dragon     | 263.56        | 2026-09-06 14:42:29 |
-| 88 ⬇  | gorillapark               | 🐳 bluewhale  | 263.03        | 2025-06-21 17:14:22 |
-| 89 ⬇  | iflya320                  | 🐳 bluewhale  | 262.52        | 2025-12-02 23:29:05 |
-| 90 ⬇  | ranctious                 | 🐉 dragon     | 262.29        | 2026-05-12 13:44:42 |
-| 91 ⬇  | ranctious                 | 🐳 bluewhale  | 261.92        | 2026-04-20 09:09:15 |
-| 92 ⬇  | nndiana                   | 🦑 squid      | 261.89        | 2025-03-29 02:18:30 |
-| 93 ⬇  | wowitsdub                 | 🦕 sauropod   | 261.77        | 2026-06-12 20:12:41 |
-| 94 ⬇  | huuuuuuuuuuuuuuuuuuuuuurz | 🐉 dragon     | 261.43        | 2025-03-12 15:14:10 |
-| 95 ⬇  | flunke_                   | 🦑 squid      | 261.17        | 2026-02-24 13:55:59 |
-| 96 ⬇  | iflya320                  | 🐳 bluewhale  | 260.70        | 2025-07-14 19:08:15 |
-| 97 ⬇  | ranctious                 | 🐳 bluewhale  | 260.31        | 2025-10-17 10:47:35 |
-| 98 ⬇  | eeziiii                   | 🐳 bluewhale  | 259.47        | 2025-03-09 22:01:24 |
-| 99 ⬇  | eeziiii                   | 🐳 bluewhale  | 259.23        | 2026-01-31 14:38:39 |
-| 100 ⬇ | ranctious                 | 🦕 sauropod   | 259.13        | 2025-11-25 09:27:20 |
+| 25 🆕 | r3kko_                    | 🐳 bluewhale  | 285.42        | 2026-09-26 18:42:17 |
+| 26 ⬇  | wowitsdub                 | 🐳 bluewhale  | 285.41        | 2026-04-14 10:46:20 |
+| 27 ⬇  | rancbot                   | 🐳 bluewhale  | 285.32        | 2026-01-15 11:26:55 |
+| 28 ⬇  | bluberry                  | 🐳 bluewhale  | 285.14        | 2025-04-14 17:16:48 |
+| 29 ⬇  | blu_inx                   | 🐳 bluewhale  | 284.82        | 2026-02-26 12:38:32 |
+| 30 ⬇  | eeziiii                   | 🐻‍❄️ polarbear | 284.71        | 2024-12-26 23:37:31 |
+| 31 ⬇  | ranctious                 | 🐉 dragon     | 284.19        | 2026-06-08 09:40:05 |
+| 32 ⬇  | eeziiii                   | 🐳 bluewhale  | 284.04        | 2025-12-03 07:17:11 |
+| 33 ⬇  | bubinga                   | 🐳 bluewhale  | 283.84        | 2025-04-24 20:10:17 |
+| 34 ⬇  | nndiana                   | 🐳 bluewhale  | 283.76        | 2025-01-15 15:48:59 |
+| 35 ⬇  | ranctious                 | 🐉 dragon     | 283.42        | 2026-08-12 02:35:11 |
+| 36 ⬇  | eeziiii                   | 🐳 bluewhale  | 283.34        | 2026-06-01 21:13:01 |
+| 37 ⬇  | bubinga                   | 🐳 bluewhale  | 282.97        | 2026-06-09 23:59:09 |
+| 38 ⬇  | theevirus                 | 🐉 dragon     | 282.76        | 2025-11-19 13:27:46 |
+| 39 ⬇  | eeziiii                   | 🦑 squid      | 282.45        | 2026-02-15 07:30:30 |
+| 40 ⬇  | bcarw                     | 🦑 squid      | 282.38        | 2025-12-31 11:47:22 |
+| 41 ⬇  | eeziiii                   | 🐳 bluewhale  | 282.14        | 2026-06-09 08:34:01 |
+| 42 ⬇  | gorillapark               | 🦑 squid      | 281.65        | 2025-03-03 20:31:27 |
+| 43 ⬇  | huuuuuuuuuuuuuuuuuuuuuurz | 🐉 dragon     | 281.30        | 2025-03-10 06:15:06 |
+| 44 ⬇  | bcarw                     | 🦑 squid      | 281.10        | 2026-02-07 15:28:03 |
+| 45 ⬇  | eeziiii                   | 🐳 bluewhale  | 280.64        | 2026-06-08 07:31:18 |
+| 46 ⬇  | eeziiii                   | 🐳 bluewhale  | 280.10        | 2025-05-26 14:34:06 |
+| 47 ⬇  | bubinga                   | 🦑 squid      | 278.52        | 2025-01-01 18:34:49 |
+| 48 ⬇  | iflya320                  | 🐳 bluewhale  | 278.14        | 2025-05-25 13:05:41 |
+| 49 ⬇  | ranctious                 | 🐳 bluewhale  | 277.70        | 2025-12-29 00:38:13 |
+| 50 ⬇  | nndiana                   | 🐳 bluewhale  | 276.95        | 2025-02-11 05:04:11 |
+| 51 ⬇  | nndiana                   | 🐳 bluewhale  | 276.67        | 2024-12-28 21:27:24 |
+| 52 ⬇  | nndiana                   | 🦑 squid      | 276.15        | 2025-01-11 12:26:38 |
+| 53 ⬇  | veny2lbs                  | 🦕 sauropod   | 276.08        | 2025-07-06 18:30:29 |
+| 54 ⬇  | eeziiii                   | 🐳 bluewhale  | 272.07        | 2026-02-08 20:45:46 |
+| 55 ⬇  | sandwichsundays           | 🦕 sauropod   | 271.44        | 2025-01-03 06:42:24 |
+| 56 ⬇  | ranctious                 | 🐳 bluewhale  | 271.27        | 2026-04-27 17:33:25 |
+| 57 ⬇  | teddbearcs                | 🐳 bluewhale  | 271.14        | 2025-01-03 16:31:20 |
+| 58 ⬇  | nndiana                   | 🐳 bluewhale  | 271.10        | 2024-12-16 03:14:55 |
+| 59 ⬇  | ranctious                 | 🐳 bluewhale  | 270.39        | 2026-05-23 15:38:37 |
+| 60 ⬇  | ranctious                 | 🦑 squid      | 270.25        | 2026-02-10 10:35:30 |
+| 61 ⬇  | theevirus                 | 🦑 squid      | 270.16        | 2024-12-25 03:56:00 |
+| 62 ⬇  | caprisen_                 | 🐳 bluewhale  | 269.66        | 2026-02-22 13:22:12 |
+| 63 ⬇  | theevirus                 | 🐉 dragon     | 269.52        | 2026-06-04 12:38:37 |
+| 64 ⬇  | wowitsdub                 | 🐉 dragon     | 269.21        | 2025-10-22 12:15:04 |
+| 65 ⬇  | bubinga                   | 🦕 sauropod   | 269.17        | 2026-04-30 21:45:53 |
+| 66 ⬇  | sandwichsundays           | 🦕 sauropod   | 268.92        | 2024-12-15 05:53:55 |
+| 67 ⬇  | ranctious                 | 🦕 sauropod   | 268.45        | 2026-02-02 18:25:58 |
+| 68 ⬇  | bubinga                   | 🐉 dragon     | 267.94        | 2025-11-28 22:15:57 |
+| 69 ⬇  | iflya320                  | 🐉 dragon     | 267.83        | 2025-05-21 12:06:54 |
+| 70 ⬇  | theevirus                 | 🐳 bluewhale  | 267.69        | 2025-12-06 20:15:31 |
+| 71 ⬇  | theevirus                 | 🦑 squid      | 267.47        | 2025-01-25 01:13:53 |
+| 72 ⬇  | veny2lbs                  | 🐉 dragon     | 267.37        | 2025-06-05 08:11:58 |
+| 73 ⬇  | iflya320                  | 🦕 sauropod   | 266.80        | 2025-07-12 10:57:15 |
+| 74 ⬇  | bluberry                  | 🦕 sauropod   | 266.71        | 2025-04-18 06:53:04 |
+| 75 ⬇  | bubinga                   | 🦕 sauropod   | 266.22        | 2025-01-15 16:38:26 |
+| 76 ⬇  | gorillapark               | 🐳 bluewhale  | 266.18        | 2025-07-15 13:49:45 |
+| 77 ⬇  | gorillapark               | 🐳 bluewhale  | 266.13        | 2025-09-10 16:31:40 |
+| 78 ⬇  | huuuuuuuuuuuuuuuuuuuuuurz | 🦕 sauropod   | 266.12        | 2026-02-09 10:20:03 |
+| 79 ⬇  | theevirus                 | 🦑 squid      | 265.70        | 2025-02-20 18:27:22 |
+| 80 ⬇  | ranctious                 | 🦕 sauropod   | 265.54        | 2025-10-15 09:06:14 |
+| 81 ⬇  | bubinga                   | 🐳 bluewhale  | 265.42        | 2026-04-15 08:35:45 |
+| 82 ⬇  | ranctious                 | 🐳 bluewhale  | 265.39        | 2026-02-16 15:09:23 |
+| 83 ⬇  | theevirus                 | 🦑 squid      | 264.74        | 2025-01-30 21:46:12 |
+| 84 ⬇  | iflya320                  | 🐳 bluewhale  | 264.55        | 2025-05-14 10:14:37 |
+| 85 ⬇  | ranctious                 | 🦕 sauropod   | 264.44        | 2026-05-28 21:10:29 |
+| 86 ⬇  | magicbluesword            | 🐳 bluewhale  | 264.34        | 2025-09-05 23:44:41 |
+| 87 ⬇  | bubinga                   | 🦕 sauropod   | 264.19        | 2025-04-20 15:19:07 |
+| 88 ⬇  | ranctious                 | 🐉 dragon     | 263.56        | 2026-09-06 14:42:29 |
+| 89 ⬇  | gorillapark               | 🐳 bluewhale  | 263.03        | 2025-06-21 17:14:22 |
+| 90 ⬇  | iflya320                  | 🐳 bluewhale  | 262.52        | 2025-12-02 23:29:05 |
+| 91 ⬇  | ranctious                 | 🐉 dragon     | 262.29        | 2026-05-12 13:44:42 |
+| 92 ⬇  | ranctious                 | 🐳 bluewhale  | 261.92        | 2026-04-20 09:09:15 |
+| 93 ⬇  | nndiana                   | 🦑 squid      | 261.89        | 2025-03-29 02:18:30 |
+| 94 ⬇  | wowitsdub                 | 🦕 sauropod   | 261.77        | 2026-06-12 20:12:41 |
+| 95 ⬇  | huuuuuuuuuuuuuuuuuuuuuurz | 🐉 dragon     | 261.43        | 2025-03-12 15:14:10 |
+| 96 ⬇  | flunke_                   | 🦑 squid      | 261.17        | 2026-02-24 13:55:59 |
+| 97 ⬇  | iflya320                  | 🐳 bluewhale  | 260.70        | 2025-07-14 19:08:15 |
+| 98 ⬇  | ranctious                 | 🐳 bluewhale  | 260.31        | 2025-10-17 10:47:35 |
+| 99 ⬇  | eeziiii                   | 🐳 bluewhale  | 259.47        | 2025-03-09 22:01:24 |
+| 100 ⬇ | eeziiii                   | 🐳 bluewhale  | 259.23        | 2026-01-31 14:38:39 |
 
-_Last updated at 2026-09-13 08:03:01 UTC_
+_Last updated at 2026-09-27 09:47:53 UTC_

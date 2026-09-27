@@ -13,23 +13,23 @@
 | 9     | huuuuuuuuuuuuuuuuuuuuuurz | 96        |
 | 10    | gorillapark               | 90        |
 | 11    | veny2lbs                  | 82        |
-| 12    | feelsaceman               | 71        |
+| 12    | feelsaceman               | 72 (+1)   |
 | 13    | rancbot                   | 70        |
 | 14    | caprisen_*                | 63        |
 | 15    | mazzo_tv                  | 62        |
 | 16    | supibot                   | 59        |
 | 17    | commanda_u                | 58        |
-| 18    | bcarw                     | 55        |
-| 19    | bluberry                  | 54        |
-| 20    | blu_inx                   | 53        |
-| 20 ⬆  | r3kko_                    | 53 (+9)   |
-| 22 ⬇  | flovrek                   | 52        |
-| 23 ⬇  | ocrw                      | 49        |
-| 23 ⬇  | sandwichsundays*          | 49        |
-| 23 ⬇  | thetaxmen                 | 49        |
-| 26 ⬇  | ewpert1                   | 48        |
-| 27 ⬇  | flvx_flux*                | 45        |
-| 28 ⬇  | teddbearcs                | 44        |
+| 18 ⬆  | r3kko_                    | 56 (+3)   |
+| 19 ⬇  | bcarw                     | 55        |
+| 20 ⬇  | bluberry                  | 54        |
+| 21 ⬇  | blu_inx                   | 53        |
+| 22    | flovrek                   | 52        |
+| 23    | ocrw                      | 49        |
+| 23    | sandwichsundays*          | 49        |
+| 23    | thetaxmen                 | 49        |
+| 26    | ewpert1                   | 48        |
+| 27    | flvx_flux*                | 45        |
+| 28    | teddbearcs                | 44        |
 | 29    | glorianeq                 | 43        |
 | 30    | jr_mime                   | 40        |
 | 31    | benciee                   | 39        |
@@ -41,11 +41,11 @@
 | 36    | ceriise__                 | 29        |
 | 36    | drecklo                   | 29        |
 | 36    | flunke_                   | 29        |
-| 40    | crticly                   | 28        |
-| 40    | funnywhitecat12*          | 28        |
-| 40    | onarrrrrrrr               | 28        |
-| 40    | paju1g                    | 28        |
-| 40    | wadupcaprise              | 28        |
+| 36 ⬆  | funnywhitecat12*          | 29 (+1)   |
+| 41 ⬇  | crticly                   | 28        |
+| 41 ⬇  | onarrrrrrrr               | 28        |
+| 41 ⬇  | paju1g                    | 28        |
+| 41 ⬇  | wadupcaprise              | 28        |
 | 45    | bcarbot                   | 26        |
 | 45    | turboyy                   | 26        |
 | 47    | streamelements            | 22        |
@@ -61,4 +61,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-09-20 09:22:37 UTC_
+_Last updated at 2026-09-27 09:47:54 UTC_

@@ -2,29 +2,29 @@
 
 | Rank  | Player                | Fish caught |
 |:------|:----------------------|:------------|
-| 1 🥇  | vaiastol              | 5267 (+51)  |
-| 2 🥈  | hahppyy               | 1916 (+5)   |
+| 1 🥇  | vaiastol              | 5288 (+21)  |
+| 2 🥈  | hahppyy               | 1926 (+10)  |
 | 3 🥉  | eelacy                | 1458        |
-| 4     | garout                | 918         |
+| 4     | garout                | 919 (+1)    |
 | 5     | divra__               | 914         |
-| 6     | proswift              | 825 (+26)   |
-| 7     | zfk770                | 707 (+19)   |
+| 6     | proswift              | 880 (+55)   |
+| 7     | zfk770                | 735 (+28)   |
 | 8     | leastsussyimposter    | 590         |
 | 9     | thespecialone22       | 570         |
 | 10    | ichezero              | 521         |
 | 11    | leanmeister           | 507         |
 | 12    | nicestnarwhal         | 484         |
 | 13    | ryakarr               | 402         |
-| 14    | tharawow              | 278 (+10)   |
+| 14    | itsthara              | 296 (+18)   |
 | 15    | dazedforevermore      | 255         |
 | 16    | pengeg                | 243         |
-| 17    | yoimlee               | 239 (+2)    |
-| 18    | gstaman911            | 201 (+2)    |
+| 17    | louisemaxxing         | 241 (+2)    |
+| 18    | gstaman911            | 203 (+2)    |
 | 19    | milesdotcom           | 137         |
 | 20    | brontiiide            | 120         |
-| 21    | tiaguitos97           | 117         |
-| 22    | crustymilk            | 114         |
-| 23    | notsatan13            | 111 (+1)    |
+| 21 ⬆  | notsatan13            | 118 (+7)    |
+| 22 ⬇  | tiaguitos97           | 117         |
+| 23 ⬇  | crustymilk            | 114         |
 | 24    | julialuxel            | 109         |
 | 25    | obama                 | 64          |
 | 26    | bubinga               | 55          |
@@ -36,8 +36,8 @@
 | 32    | esmeohmy              | 34          |
 | 33    | houseofleaves*        | 29          |
 | 34    | cyaniderx             | 23          |
-| 34 ⬆  | lisa_bin              | 23 (+1)     |
-| 36 ⬇  | ash__meow             | 22          |
+| 34    | lisa_bin              | 23          |
+| 36    | ash__meow             | 22          |
 | 37    | ermnest               | 21          |
 | 38    | drpasu                | 18          |
 | 38    | mitgliederversammlung | 18          |
@@ -50,8 +50,8 @@
 | 46    | nightmare_jpg         | 12          |
 | 46    | v6r_                  | 12          |
 | 48    | j0urin                | 11          |
-| 48 🆕 | jorpiter              | 11          |
+| 48    | jorpiter              | 11          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-09-20 09:20:35 UTC_
+_Last updated at 2026-09-27 09:49:59 UTC_

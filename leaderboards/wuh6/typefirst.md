@@ -61,8 +61,8 @@
 | 75   | 🌰 acorn           | 0.00          | jr_mime                   | 2024-12-28 15:37:56 |
 | 74   | 🪿 goose           | 1.30          | eeziiii                   | 2024-12-26 04:27:20 |
 | 73   | ✉️ letter           | 0.00          | huuuuuuuuuuuuuuuuuuuuuurz | 2024-12-24 12:05:46 |
-| 71   | 🍪 cookie          | 0.00          | eeziiii                   | 2024-12-24 10:31:21 |
 | 71   | 🎀 wrappingpaper   | 0.00          | eeziiii                   | 2024-12-24 10:31:21 |
+| 71   | 🍪 cookie          | 0.00          | eeziiii                   | 2024-12-24 10:31:21 |
 | 70   | 🎁 present         | 0.00          | eeziiii                   | 2024-12-24 10:27:17 |
 | 69   | 🧣 scarf           | 0.65          | ocrw                      | 2024-12-23 20:39:13 |
 | 68   | 🐧 penguin         | 15.79         | mazzo_tv                  | 2024-12-23 19:19:06 |
@@ -107,7 +107,7 @@
 | 29   | 🧤 gloves          | 0.42          | commanda_u                | 2024-12-14 23:12:18 |
 | 28   | 🕷️ spider           | 2.95          | bubinga                   | 2024-12-14 21:34:18 |
 | 27   | 🦪 oyster          | 2.51          | mazzo_tv                  | 2024-12-14 21:28:34 |
-| 26   | 🦀 crab            | 2.97          | helloimteto               | 2024-12-14 21:19:26 |
+| 26   | 🦀 crab            | 2.97          | de_helly                  | 2024-12-14 21:19:26 |
 | 25   | 🧊 icecube         | 7.93          | wowitsdub                 | 2024-12-14 21:05:31 |
 | 24   | 🐸 frog            | 2.45          | onarrrrrrrr               | 2024-12-14 20:54:42 |
 | 23   | 🐊 crocodile       | 62.25         | drecklo                   | 2024-12-14 20:27:47 |
@@ -134,4 +134,4 @@
 | 2    | 🪝 hook            | 1.91          | commanda_u                | 2024-12-14 15:55:38 |
 | 1    | 🐚 shell           | 3.49          | jukkii                    | 2024-12-14 15:55:11 |
 
-_Last updated at 2026-09-06 09:44:47 UTC_
+_Last updated at 2026-09-27 09:50:00 UTC_

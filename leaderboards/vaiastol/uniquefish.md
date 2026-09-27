@@ -2,26 +2,26 @@
 
 | Rank  | Player             | Fish seen |
 |:------|:-------------------|:----------|
-| 1 🥇  | hahppyy            | 96 (+1)   |
+| 1 🥇  | hahppyy            | 96        |
 | 2 🥈  | vaiastol           | 82        |
-| 3 🥉  | proswift           | 76 (+2)   |
+| 3 🥉  | proswift           | 78 (+2)   |
 | 4     | garout             | 72        |
 | 5     | divra__            | 68        |
 | 6     | thespecialone22    | 62        |
 | 7     | leanmeister        | 60        |
 | 7     | leastsussyimposter | 60        |
-| 7 ⬆   | zfk770             | 60 (+1)   |
+| 7     | zfk770             | 60        |
 | 10    | eelacy             | 57        |
 | 11    | ryakarr            | 55        |
 | 12    | nicestnarwhal      | 52        |
+| 13 ⬆  | itsthara           | 50 (+1)   |
 | 13    | pengeg             | 50        |
-| 14    | dazedforevermore   | 49        |
-| 14 ⬆  | tharawow           | 49 (+3)   |
-| 16 ⬇  | yoimlee            | 48        |
+| 15 ⬇  | dazedforevermore   | 49        |
+| 16    | louisemaxxing      | 48        |
 | 17    | ichezero           | 45        |
 | 18    | tiaguitos97        | 43        |
 | 19    | milesdotcom        | 42        |
-| 20    | notsatan13         | 40        |
+| 20    | notsatan13         | 41 (+1)   |
 | 21    | julialuxel         | 37        |
 | 22    | brontiiide         | 34        |
 | 23    | crustymilk         | 32        |
@@ -29,7 +29,7 @@
 | 25    | larvaew            | 29        |
 | 26    | bubinga            | 25        |
 | 27    | ayobl7             | 24        |
-| 28    | gstaman911         | 23 (+1)   |
+| 28    | gstaman911         | 23        |
 | 29    | rird_              | 21        |
 | 30    | fvkdylan           | 20        |
 
@@ -37,4 +37,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-09-20 09:22:37 UTC_
+_Last updated at 2026-09-27 09:47:54 UTC_

@@ -43,22 +43,22 @@
 | 39    | 🪵 log             | 13.44         | abelito75         | 2026-03-06 02:30:40 |
 | 40    | 🐌 snail           | 11.60         | boogie_310        | 2025-05-19 02:55:19 |
 | 41    | 🧃 beveragebox     | 10.85         | preemalone        | 2025-08-09 02:59:38 |
-| 42    | 🐸 frog            | 10.25         | eldiabloskillet   | 2025-05-27 01:25:32 |
-| 43    | 🦆 duck            | 10.04         | mirzaasjad_       | 2025-07-21 07:24:28 |
-| 44    | 💀 skull           | 10.00         | boogie_310        | 2025-09-05 06:52:36 |
-| 45    | 🪱 worm            | 9.73          | gofishgamer       | 2025-11-20 05:35:28 |
-| 46    | 🧊 icecube         | 8.60          | amatusz           | 2026-02-24 06:14:02 |
-| 47    | 🦎 lizard          | 7.66          | aaurie            | 2025-03-29 01:03:36 |
-| 48    | 🕶️ darksunglasses   | 7.20          | boogie_310        | 2025-08-04 02:26:26 |
+| 42 ⬆  | 🕶️ darksunglasses   | 10.70 (+3.50) | rustnroll         | 2026-09-22 06:38:42 |
+| 43 ⬇  | 🐸 frog            | 10.25         | eldiabloskillet   | 2025-05-27 01:25:32 |
+| 44 ⬇  | 🦆 duck            | 10.04         | mirzaasjad_       | 2025-07-21 07:24:28 |
+| 45 ⬇  | 💀 skull           | 10.00         | boogie_310        | 2025-09-05 06:52:36 |
+| 46 ⬇  | 🪱 worm            | 9.73          | gofishgamer       | 2025-11-20 05:35:28 |
+| 47 ⬇  | 🧊 icecube         | 8.60          | amatusz           | 2026-02-24 06:14:02 |
+| 48 ⬇  | 🦎 lizard          | 7.66          | aaurie            | 2025-03-29 01:03:36 |
 | 49    | 🩲 briefs          | 7.07          | jeffbethyname69   | 2025-08-04 01:47:45 |
 | 50    | 🧸 teddybear       | 6.20          | aaurie            | 2025-03-10 00:33:21 |
 | 51    | 🧴 sunscreenbottle | 6.17          | jeffbethyname69   | 2026-07-06 06:03:58 |
 | 52    | 👒 hat             | 5.69          | amatusz           | 2025-07-07 03:54:58 |
-| 53    | 🪝 hook            | 4.92          | honeytonguedbee   | 2026-09-01 03:28:48 |
-| 54    | 🎏 lure            | 4.89          | amatusz           | 2026-01-03 07:20:24 |
-| 55 ⬆  | ☘️ clover           | 4.23 (+1.09)  | aaurie            | 2026-09-18 01:58:17 |
-| 56 ⬇  | 🐚 shell           | 3.93          | jimmybooger       | 2025-08-12 01:35:25 |
-| 57 ⬇  | 🪀 bobber          | 3.28          | aaurie            | 2025-03-15 09:26:37 |
+| 53 ⬆  | ☘️ clover           | 5.15 (+0.92)  | aaurie            | 2026-09-25 05:08:27 |
+| 54 ⬇  | 🪝 hook            | 4.92          | honeytonguedbee   | 2026-09-01 03:28:48 |
+| 55 ⬇  | 🎏 lure            | 4.89          | amatusz           | 2026-01-03 07:20:24 |
+| 56    | 🐚 shell           | 3.93          | jimmybooger       | 2025-08-12 01:35:25 |
+| 57    | 🪀 bobber          | 3.28          | aaurie            | 2025-03-15 09:26:37 |
 | 58    | ☂️ umbrella         | 2.97          | jimmybooger       | 2025-08-02 01:10:31 |
 | 59    | 🌰 acorn           | 2.78          | aaurie            | 2025-11-07 08:33:28 |
 | 60    | 🎱 8ball           | 2.72          | slimdoggiedog     | 2025-03-15 00:25:09 |
@@ -80,4 +80,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-09-20 09:20:12 UTC_
+_Last updated at 2026-09-27 09:46:10 UTC_

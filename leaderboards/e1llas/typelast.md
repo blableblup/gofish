@@ -2,15 +2,15 @@
 
 | Rank | Fish               | Weight in lbs | Player      | Date in UTC         |
 |:-----|:-------------------|:--------------|:------------|:--------------------|
-| 62   | 🐙 octopus         | 101.57        | besceny     | 2026-09-19 04:47:20 |
-| 61   | 🎏 lure            | 1.97          | besceny     | 2026-08-16 09:18:15 |
-| 60   | 🦐 shrimp          | 1.21          | besceny     | 2026-07-28 13:10:12 |
-| 59   | 🍥 sanddollar      | 0.21          | besceny     | 2026-07-27 15:10:08 |
-| 58   | 🪳 cockroach       | 15.54         | besceny     | 2026-07-22 05:59:40 |
-| 57   | 🧴 sunscreenbottle | 8.24          | besceny     | 2026-07-20 10:55:00 |
-| 56   | 💀 skull           | 8.40          | besceny     | 2026-07-18 08:01:15 |
-| 55   | 🕷️ spider           | 1.68          | besceny     | 2026-07-12 12:19:21 |
-| 54   | 🐚 shell           | 2.49          | besceny     | 2026-07-12 10:11:57 |
+| 62   | 🐚 shell           | 2.57          | besceny     | 2026-09-26 05:46:46 |
+| 61   | 🐙 octopus         | 101.57        | besceny     | 2026-09-19 04:47:20 |
+| 60   | 🎏 lure            | 1.97          | besceny     | 2026-08-16 09:18:15 |
+| 59   | 🦐 shrimp          | 1.21          | besceny     | 2026-07-28 13:10:12 |
+| 58   | 🍥 sanddollar      | 0.21          | besceny     | 2026-07-27 15:10:08 |
+| 57   | 🪳 cockroach       | 15.54         | besceny     | 2026-07-22 05:59:40 |
+| 56   | 🧴 sunscreenbottle | 8.24          | besceny     | 2026-07-20 10:55:00 |
+| 55   | 💀 skull           | 8.40          | besceny     | 2026-07-18 08:01:15 |
+| 54   | 🕷️ spider           | 1.68          | besceny     | 2026-07-12 12:19:21 |
 | 53   | 🦞 lobster         | 49.19         | besceny     | 2026-07-07 13:55:24 |
 | 52   | 🐟 fish            | 10.46         | besceny     | 2026-07-07 09:59:24 |
 | 51   | 🦀 crab            | 25.40         | besceny     | 2026-07-04 16:40:02 |
@@ -65,4 +65,4 @@
 | 2    | 🧊 icecube         | 3.47          | d1ifforr    | 2024-12-16 08:17:13 |
 | 1    | 🪱 worm            | 6.55          | mersufy     | 2024-12-15 14:45:59 |
 
-_Last updated at 2026-09-20 09:22:38 UTC_
+_Last updated at 2026-09-27 09:45:50 UTC_

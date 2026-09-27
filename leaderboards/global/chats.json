@@ -22,7 +22,8 @@
 		"chat": "aaurie",
 		"chatpfp": "![aaurie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aaurie.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 2236,
+		"count": 2262,
+		"activefishers": 1,
 		"uniquefishers": 172,
 		"uniquefish": 78,
 		"rank": 7
@@ -50,7 +51,7 @@
 		"chat": "aquaismissing",
 		"chatpfp": "![aquaismissing](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/aquaismissing.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 1066,
+		"count": 1070,
 		"uniquefishers": 95,
 		"uniquefish": 69,
 		"rank": 11
@@ -59,13 +60,13 @@
 		"chat": "avrwhy",
 		"chatpfp": "![avrwhy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/avrwhy.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"rank": 49
+		"rank": 51
 	},
 	"bapqo": {
 		"chat": "bapqo",
 		"chatpfp": "![bapqo](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/bapqo.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"rank": 49
+		"rank": 51
 	},
 	"breadworms": {
 		"player": "lluuucy",
@@ -76,8 +77,8 @@
 		"chat": "breadworms",
 		"chatpfp": "![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 91038,
-		"activefishers": 14,
+		"count": 91279,
+		"activefishers": 7,
 		"uniquefishers": 342,
 		"uniquefish": 131,
 		"rank": 2
@@ -91,8 +92,8 @@
 		"chat": "brogboi",
 		"chatpfp": "![brogboi](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/brogboi.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 763,
-		"uniquefishers": 59,
+		"count": 781,
+		"uniquefishers": 60,
 		"uniquefish": 49,
 		"rank": 15
 	},
@@ -105,7 +106,7 @@
 		"chat": "buhl00n",
 		"chatpfp": "![buhl00n](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/buhl00n.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 1253,
+		"count": 1300,
 		"activefishers": 1,
 		"uniquefishers": 5,
 		"uniquefish": 88,
@@ -115,13 +116,21 @@
 		"chat": "cconnector",
 		"chatpfp": "![cconnector](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/cconnector.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"rank": 49
+		"rank": 51
 	},
 	"chellesorandom": {
+		"player": "rustnroll",
+		"playerid": 3885,
+		"weight": 3.54,
+		"fishtype": "🧽",
+		"fishname": "sponge",
 		"chat": "chellesorandom",
 		"chatpfp": "![chellesorandom](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/chellesorandom.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"rank": 49
+		"count": 1,
+		"uniquefishers": 1,
+		"uniquefish": 1,
+		"rank": 47
 	},
 	"coolishdanker": {
 		"player": "elisworm",
@@ -163,7 +172,7 @@
 		"count": 2,
 		"uniquefishers": 1,
 		"uniquefish": 2,
-		"rank": 45
+		"rank": 46
 	},
 	"deme": {
 		"player": "bubinga",
@@ -183,7 +192,7 @@
 		"chat": "devroyalty",
 		"chatpfp": "![devroyalty](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/devroyalty.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"rank": 49
+		"rank": 51
 	},
 	"dizzy": {
 		"player": "gofishgamer",
@@ -208,7 +217,7 @@
 		"chat": "e1llas",
 		"chatpfp": "![e1llas](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/e1llas.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 547,
+		"count": 548,
 		"uniquefishers": 21,
 		"uniquefish": 62,
 		"rank": 17
@@ -236,7 +245,7 @@
 		"chat": "esellaaa",
 		"chatpfp": "![esellaaa](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/esellaaa.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 393,
+		"count": 404,
 		"uniquefishers": 14,
 		"uniquefish": 52,
 		"rank": 18
@@ -264,9 +273,9 @@
 		"chat": "flovrek",
 		"chatpfp": "![flovrek](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/flovrek.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 95,
-		"uniquefishers": 20,
-		"uniquefish": 39,
+		"count": 115,
+		"uniquefishers": 23,
+		"uniquefish": 42,
 		"rank": 26
 	},
 	"forsengosling": {
@@ -309,7 +318,7 @@
 		"count": 1,
 		"uniquefishers": 1,
 		"uniquefish": 1,
-		"rank": 46
+		"rank": 47
 	},
 	"jellyuh": {
 		"player": "pompadourdelinquent",
@@ -351,7 +360,7 @@
 		"count": 4,
 		"uniquefishers": 4,
 		"uniquefish": 4,
-		"rank": 44
+		"rank": 45
 	},
 	"lanisye": {
 		"player": "cristianaxxel",
@@ -376,9 +385,9 @@
 		"chat": "larvaew",
 		"chatpfp": "![larvaew](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/larvaew.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 35,
-		"uniquefishers": 7,
-		"uniquefish": 16,
+		"count": 36,
+		"uniquefishers": 8,
+		"uniquefish": 17,
 		"rank": 33
 	},
 	"leanmeister": {
@@ -399,7 +408,7 @@
 		"chat": "lifeless",
 		"chatpfp": "![lifeless](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/lifeless.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"rank": 49
+		"rank": 51
 	},
 	"mangos4u": {
 		"player": "breadworms",
@@ -427,7 +436,7 @@
 		"count": 1,
 		"uniquefishers": 1,
 		"uniquefish": 1,
-		"rank": 46
+		"rank": 47
 	},
 	"mowogan": {
 		"player": "konsminator",
@@ -438,9 +447,9 @@
 		"chat": "mowogan",
 		"chatpfp": "![mowogan](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/mowogan.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 1460,
-		"activefishers": 1,
-		"uniquefishers": 21,
+		"count": 1518,
+		"activefishers": 2,
+		"uniquefishers": 22,
 		"uniquefish": 86,
 		"rank": 9
 	},
@@ -476,7 +485,7 @@
 		"chat": "npqg",
 		"chatpfp": "![npqg](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/npqg.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"rank": 49
+		"rank": 51
 	},
 	"omie": {
 		"player": "mangos4u",
@@ -487,8 +496,8 @@
 		"chat": "omie",
 		"chatpfp": "![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 12280,
-		"uniquefishers": 52,
+		"count": 12305,
+		"uniquefishers": 56,
 		"uniquefish": 122,
 		"rank": 6
 	},
@@ -501,7 +510,7 @@
 		"chat": "ovrhtcd",
 		"chatpfp": "![ovrhtcd](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ovrhtcd.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 1033,
+		"count": 1034,
 		"uniquefishers": 42,
 		"uniquefish": 59,
 		"rank": 13
@@ -543,8 +552,8 @@
 		"chat": "psp1g",
 		"chatpfp": "![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 91675,
-		"activefishers": 15,
+		"count": 91937,
+		"activefishers": 10,
 		"uniquefishers": 2981,
 		"uniquefish": 127,
 		"rank": 1
@@ -553,13 +562,13 @@
 		"chat": "punkish_live",
 		"chatpfp": "![punkish_live](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/punkish_live.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"rank": 49
+		"rank": 51
 	},
 	"retrorelaxo": {
 		"chat": "retrorelaxo",
 		"chatpfp": "![retrorelaxo](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/retrorelaxo.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"rank": 49
+		"rank": 51
 	},
 	"ryanpotat": {
 		"player": "gofishgamer",
@@ -587,13 +596,13 @@
 		"count": 1,
 		"uniquefishers": 1,
 		"uniquefish": 1,
-		"rank": 46
+		"rank": 47
 	},
 	"smoge7": {
 		"chat": "smoge7",
 		"chatpfp": "![smoge7](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/smoge7.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"rank": 49
+		"rank": 51
 	},
 	"sukoxi": {
 		"player": "sukoxi",
@@ -660,8 +669,8 @@
 		"chat": "vaiastol",
 		"chatpfp": "![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 17790,
-		"activefishers": 3,
+		"count": 17935,
+		"activefishers": 4,
 		"uniquefishers": 78,
 		"uniquefish": 123,
 		"rank": 4
@@ -689,9 +698,9 @@
 		"chat": "wuh6",
 		"chatpfp": "![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)",
 		"date": "0001-01-01T00:00:00Z",
-		"count": 44728,
-		"activefishers": 8,
-		"uniquefishers": 143,
+		"count": 44985,
+		"activefishers": 6,
+		"uniquefishers": 144,
 		"uniquefish": 131,
 		"rank": 3
 	},
@@ -708,6 +717,20 @@
 		"uniquefishers": 7,
 		"uniquefish": 35,
 		"rank": 27
+	},
+	"yanny": {
+		"player": "yanny",
+		"playerid": 7181,
+		"weight": 13.49,
+		"fishtype": "🐟",
+		"fishname": "fish",
+		"chat": "yanny",
+		"chatpfp": "![yanny](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/yanny.png)",
+		"date": "0001-01-01T00:00:00Z",
+		"count": 7,
+		"uniquefishers": 4,
+		"uniquefish": 6,
+		"rank": 42
 	},
 	"yopego": {
 		"player": "respirate_",

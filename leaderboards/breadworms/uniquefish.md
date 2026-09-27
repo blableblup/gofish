@@ -18,10 +18,10 @@
 | 14    | kishma9               | 94        |
 | 15    | destin357             | 90        |
 | 16    | miiiiisho             | 89        |
-| 17    | esvelles              | 81 (+1)   |
+| 17    | esvelles              | 81        |
 | 18    | ninjaross*            | 78        |
 | 19    | booty_bread           | 77        |
-| 19 ⬆  | cutsekai              | 77 (+1)   |
+| 19    | cutsekai              | 77        |
 | 21    | gstaman911            | 75        |
 | 21    | sicklymaidrobot       | 75        |
 | 23    | osnyatsky*            | 73        |
@@ -32,20 +32,20 @@
 | 28    | julialuxel            | 69        |
 | 29    | crazytown_bananapants | 67        |
 | 30    | comiqq                | 65        |
+| 30 ⬆  | eagueoflegends        | 65 (+1)   |
 | 30    | ryebreadward          | 65        |
-| 32 ⬆  | eagueoflegends        | 64 (+4)   |
-| 32    | mitgliederversammlung | 64        |
-| 34 ⬇  | sussy_amonge          | 62        |
-| 35 ⬇  | michael_bay65         | 60        |
-| 36 ⬆  | ommcyrene             | 58 (+5)   |
-| 37 ⬇  | fvkdylan              | 57        |
-| 38 ⬇  | bapqo                 | 56        |
-| 38 ⬇  | idini                 | 56        |
-| 38 ⬇  | wisco9ers*            | 56        |
-| 41 ⬇  | divra__               | 55        |
-| 41 ⬇  | ouacewi               | 55        |
-| 43 ⬇  | bussinongnocap        | 53        |
-| 43 ⬇  | lazuli672*            | 53        |
+| 33 ⬇  | mitgliederversammlung | 64        |
+| 34    | sussy_amonge          | 62        |
+| 35    | michael_bay65         | 60        |
+| 36    | ommcyrene             | 58        |
+| 37    | fvkdylan              | 57        |
+| 38    | bapqo                 | 56        |
+| 38    | idini                 | 56        |
+| 38    | wisco9ers*            | 56        |
+| 41    | divra__               | 55        |
+| 41    | ouacewi               | 55        |
+| 43    | bussinongnocap        | 53        |
+| 43    | lazuli672*            | 53        |
 | 45    | houseofleaves*        | 51        |
 | 45    | osnyatsky*            | 51        |
 | 47    | pinksynthesis29       | 50        |
@@ -54,4 +54,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-09-20 09:22:36 UTC_
+_Last updated at 2026-09-27 09:47:54 UTC_

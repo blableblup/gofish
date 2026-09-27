@@ -4,7 +4,7 @@
 |:------|:--------------------------|:-------------|:--------------|:--------------------|
 | 1 🥇  | disappointingtrash        | 🐳 bluewhale | 303.67        | 2026-02-12 06:24:53 |
 | 2 🥈  | huuuuuuuuuuuuuuuuuuuuuurz | 🐳 bluewhale | 303.51        | 2024-01-05 01:43:59 |
-| 3 🥉  | jayayseaohbe              | 🐳 bluewhale | 303.07        | 2026-08-19 23:07:40 |
+| 3 🥉  | jayayseaohbee             | 🐳 bluewhale | 303.07        | 2026-08-19 23:07:40 |
 | 4     | nndiana                   | 🐳 bluewhale | 302.46        | 2025-07-08 18:59:29 |
 | 5     | luneckie                  | 🐳 bluewhale | 300.14        | 2026-03-15 04:24:00 |
 | 6     | benciee                   | 🐳 bluewhale | 295.43        | 2024-09-07 13:08:06 |
@@ -131,4 +131,4 @@
 
 _Only showing fish weighing >= 200 lbs_
 
-_Last updated at 2026-09-20 09:20:32 UTC_
+_Last updated at 2026-09-27 09:45:53 UTC_

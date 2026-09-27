@@ -3,15 +3,15 @@
 | Rank  | Player            | Total Weight in lbs |
 |:------|:------------------|:--------------------|
 | 1 🥇  | jeffbethyname69   | 5635.69             |
-| 2 🥈  | amatusz           | 4789.98 (+98.50)    |
+| 2 🥈  | amatusz           | 5117.55 (+327.57)   |
 | 3 🥉  | dolp_fin          | 3830.56             |
-| 4     | boogie_310        | 2316.55             |
+| 4     | boogie_310        | 2365.02 (+48.47)    |
 | 5     | gofishgamer       | 1843.60             |
 | 6     | allspice_boatrace | 1692.63             |
-| 7     | abelito75         | 1510.25             |
-| 8     | aaurie            | 1198.52 (+4.23)     |
-| 9     | guy_farting420    | 1102.18 (+10.33)    |
-| 10    | rustnroll         | 1020.26             |
+| 7     | abelito75         | 1514.04 (+3.79)     |
+| 8     | aaurie            | 1203.83 (+5.31)     |
+| 9     | guy_farting420    | 1102.18             |
+| 10    | rustnroll         | 1041.02 (+20.76)    |
 | 11    | victorvondoom313  | 854.60              |
 | 12    | curiouscorvidae   | 763.40              |
 | 13    | bluezebra17       | 626.08              |
@@ -34,4 +34,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-09-20 09:20:31 UTC_
+_Last updated at 2026-09-27 09:45:55 UTC_

@@ -37,7 +37,7 @@
 | 33    | 🐧 penguin         | 41.83         | blu_inx                   | 2025-12-25 11:46:58 |
 | 34    | 🦀 crab            | 38.88         | d1ma1g*                   | 2023-09-03 11:19:10 |
 | 35    | 🐡 blowfish        | 35.81         | bluberry                  | 2024-08-13 06:51:36 |
-| 36    | 🥒 seacucumber     | 31.83         | inders                    | 2026-09-02 18:06:55 |
+| 36    | 🥒 seacucumber     | 31.91 (+0.08) | r3kko_                    | 2026-09-25 00:07:24 |
 | 37    | 🕷️ spider           | 31.49         | poons_u                   | 2026-03-16 10:39:24 |
 | 38    | 🧽 sponge          | 29.89         | nndiana                   | 2025-07-24 04:14:09 |
 | 39    | 🐠 tropicalfish    | 27.72         | luneckie                  | 2026-04-16 02:41:16 |
@@ -66,15 +66,15 @@
 | 62    | 🦎 lizard          | 10.84         | bosscrazymen              | 2023-12-17 18:48:58 |
 | 63    | 🧋 bobacup         | 10.83         | adankman                  | 2026-08-11 08:56:12 |
 | 64    | 🎱 8ball           | 10.82         | 0_asd                     | 2024-03-31 10:49:57 |
-| 65    | 🪺 nestwitheggs    | 10.71 (+0.02) | llikotesnecil             | 2026-09-18 16:30:37 |
+| 65    | 🪺 nestwitheggs    | 10.71         | llikotesnecil             | 2026-09-18 16:30:37 |
 | 66    | 🪁 kite            | 10.68         | bluberry                  | 2025-07-13 06:00:03 |
-| 67    | 🩲 briefs          | 10.49         | jayayseaohbe              | 2025-07-24 11:51:44 |
+| 67    | 🩲 briefs          | 10.49         | jayayseaohbee             | 2025-07-24 11:51:44 |
 | 68    | 🌵 cactus          | 9.37          | feelsaceman               | 2026-07-24 01:02:31 |
 | 69    | 🐦 cardinal        | 9.22          | zwockel01                 | 2024-07-04 11:25:35 |
 | 70    | 🧥 coat            | 7.42          | deatron                   | 2026-01-01 11:53:17 |
 | 71    | 🧵 wireline        | 6.00          | ocrw                      | 2024-06-20 15:30:46 |
-| 72 ⬆  | ☘️ clover           | 5.98 (+0.12)  | inders                    | 2026-09-18 22:16:31 |
-| 73 ⬇  | 🐚 shell           | 5.92          | mazzo_tv                  | 2025-05-25 17:38:47 |
+| 72    | ☘️ clover           | 5.98          | inders                    | 2026-09-18 22:16:31 |
+| 73    | 🐚 shell           | 5.92          | mazzo_tv                  | 2025-05-25 17:38:47 |
 | 74    | 🥫 cannedfood      | 5.54          | blu_inx                   | 2026-01-03 09:24:11 |
 | 75    | 🎏 lure            | 5.00          | flovrek                   | 2025-05-31 14:12:56 |
 | 76    | 🪝 hook            | 4.99          | thedraingangceo*          | 2023-08-24 20:19:25 |
@@ -97,11 +97,11 @@
 | 90    | 🧦 socks           | 2.00          | manmanboy_                | 2023-09-16 12:22:22 |
 | 94    | 🌿 seaweed         | 1.99          | angus_lpc                 | 2024-06-30 11:26:57 |
 | 95    | 👟 sneaker         | 1.98          | jeejee_jjl                | 2023-10-18 11:56:32 |
-| 96    | 🍃 deadleaves      | 1.97          | jayayseaohbe              | 2026-03-06 20:06:45 |
+| 96    | 🍃 deadleaves      | 1.97          | jayayseaohbee             | 2026-03-06 20:06:45 |
 | 97    | ⛸️ iceskate         | 1.96          | pookiesnowman             | 2023-12-24 05:51:00 |
 | 98    | 🪻 lupine          | 1.95          | llikotesnecil             | 2026-07-16 22:31:25 |
 | 99    | 🍬 candy           | 1.93          | bananenshak3              | 2026-01-14 18:46:31 |
-| 100   | 🍁 leaf            | 1.69          | jayayseaohbe              | 2025-10-31 19:07:51 |
+| 100   | 🍁 leaf            | 1.69          | jayayseaohbee             | 2025-10-31 19:07:51 |
 | 101   | 🪲 beetle          | 1.33          | sillyfellow32             | 2026-07-24 01:23:54 |
 | 102   | 🦂 scorpion        | 1.31          | bamfzi                    | 2026-07-20 19:45:40 |
 | 103   | 🦢 swan            | 1.26          | mazzo_tv                  | 2024-07-08 06:43:22 |
@@ -122,8 +122,8 @@
 | 118   | 🪰 fly             | 0.33          | feelsaceman               | 2026-07-20 02:42:39 |
 | 119   | 🐞 ladybug         | 0.26          | luneckie                  | 2026-07-20 20:41:34 |
 | 120   | 🫐 bilberries      | 0.23          | blu_inx                   | 2026-06-24 19:56:50 |
-| 121   | 🦗 cricket         | 0.19          | jayayseaohbe              | 2025-09-11 02:05:57 |
+| 121   | 🦗 cricket         | 0.19          | jayayseaohbee             | 2025-09-11 02:05:57 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-09-20 09:18:36 UTC_
+_Last updated at 2026-09-27 09:46:41 UTC_
