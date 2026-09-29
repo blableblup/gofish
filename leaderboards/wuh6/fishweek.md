@@ -17,18 +17,18 @@
 | 13    | wowitsdub                 | 54          |
 | 14    | caprisen_                 | 51          |
 | 15    | veny2lbs                  | 47          |
-| 16    | blu_inx                   | 43          |
-| 17    | paju1g                    | 40          |
-| 17    | zwockel01                 | 40          |
-| 19 🆕 | r3kko_                    | 26          |
-| 20 ⬇  | flovrek                   | 24          |
-| 21 ⬇  | bluberry                  | 21          |
-| 22 ⬇  | wuh6                      | 18          |
-| 23 ⬇  | magicbluesword            | 12          |
-| 24 ⬇  | ceriise__                 | 11          |
-| 24 ⬇  | lluuucy                   | 11          |
-| 26 ⬇  | commanda_u                | 10          |
+| 16 ⬆  | r3kko_                    | 45 (+19)    |
+| 17 ⬇  | blu_inx                   | 43          |
+| 18 ⬇  | paju1g                    | 40          |
+| 18 ⬇  | zwockel01                 | 40          |
+| 20    | flovrek                   | 24          |
+| 21    | bluberry                  | 21          |
+| 22    | wuh6                      | 18          |
+| 23    | magicbluesword            | 12          |
+| 24    | ceriise__                 | 11          |
+| 24    | lluuucy                   | 11          |
+| 26    | commanda_u                | 10          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-07-01 11:26:34 UTC_
+_Last updated at 2026-09-29 19:48:37 UTC_

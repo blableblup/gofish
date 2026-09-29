@@ -38,30 +38,30 @@
 | 34    | bapqo                 | 49          |
 | 34    | eagueoflegends        | 49          |
 | 36    | osnyatsky             | 47          |
+| 37 ⬆  | lelullu               | 46 (+26)    |
 | 37    | paras220              | 46          |
 | 37    | ytp_dl                | 46          |
-| 39    | ninjaross             | 44          |
-| 40    | ouacewi               | 43          |
-| 41    | houseofleaves         | 42          |
-| 42    | cumgi                 | 40          |
-| 42    | ommcyrene             | 40          |
-| 44    | fvkdylan              | 39          |
-| 45    | idini                 | 36          |
-| 46    | elisworm              | 34          |
-| 46    | julialuxel            | 34          |
-| 48    | islcfc*               | 33          |
-| 49    | breadworms            | 32          |
-| 49    | jr_mime               | 32          |
-| 51    | death_nd_decay        | 28          |
-| 52    | dougiefresh_83        | 27          |
-| 53    | globcob               | 25          |
-| 53    | wisco9ers             | 25          |
-| 55    | rocketpol*            | 24          |
-| 56    | divra__               | 22          |
-| 57    | veggesh               | 21          |
-| 58 🆕 | lelullu               | 20          |
-| 58    | realtechnine          | 20          |
+| 40 ⬇  | ninjaross             | 44          |
+| 41 ⬇  | ouacewi               | 43          |
+| 42 ⬇  | houseofleaves         | 42          |
+| 43 ⬇  | cumgi                 | 40          |
+| 43 ⬇  | ommcyrene             | 40          |
+| 45 ⬇  | fvkdylan              | 39          |
+| 46 ⬇  | idini                 | 36          |
+| 47 ⬇  | elisworm              | 34          |
+| 47 ⬇  | julialuxel            | 34          |
+| 49 ⬇  | islcfc*               | 33          |
+| 50 ⬇  | breadworms            | 32          |
+| 50 ⬇  | jr_mime               | 32          |
+| 52 ⬇  | death_nd_decay        | 28          |
+| 53 ⬇  | dougiefresh_83        | 27          |
+| 54 ⬇  | globcob               | 25          |
+| 54 ⬇  | wisco9ers             | 25          |
+| 56 ⬇  | rocketpol*            | 24          |
+| 57 ⬇  | divra__               | 22          |
+| 58 ⬇  | veggesh               | 21          |
+| 59 ⬇  | realtechnine          | 20          |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2026-09-22 09:24:07 UTC_
+_Last updated at 2026-09-29 19:48:37 UTC_

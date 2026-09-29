@@ -11,19 +11,20 @@
 	"2989": {
 		"player": "lolspers",
 		"playerid": 2989,
-		"weight": 90,
+		"weight": 91.5,
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 20,
-		"silver": 14,
-		"bronze": 32,
+		"silver": 15,
+		"bronze": 33,
 		"rank": 3
 	},
 	"3142": {
 		"player": "mangos4u",
 		"playerid": 3142,
-		"weight": 9,
+		"weight": 10,
 		"date": "0001-01-01T00:00:00Z",
 		"trophies": 3,
+		"bronze": 2,
 		"rank": 4
 	},
 	"3143": {
@@ -39,9 +40,9 @@
 	"3811": {
 		"player": "mowogan",
 		"playerid": 3811,
-		"weight": 180,
+		"weight": 186,
 		"date": "0001-01-01T00:00:00Z",
-		"trophies": 50,
+		"trophies": 52,
 		"silver": 26,
 		"bronze": 8,
 		"rank": 1
@@ -53,7 +54,7 @@
 		"date": "0001-01-01T00:00:00Z",
 		"silver": 1,
 		"bronze": 2,
-		"rank": 7
+		"rank": 8
 	},
 	"4652": {
 		"player": "xtlos",
@@ -62,6 +63,15 @@
 		"date": "0001-01-01T00:00:00Z",
 		"silver": 2,
 		"bronze": 4,
+		"rank": 6
+	},
+	"6866": {
+		"player": "maangooss",
+		"playerid": 6866,
+		"weight": 4,
+		"date": "0001-01-01T00:00:00Z",
+		"trophies": 1,
+		"silver": 1,
 		"rank": 6
 	}
 }

@@ -10,7 +10,7 @@
 | 6     | thespecialone22    | 69          |
 | 7     | garout             | 64          |
 | 8     | ichezero           | 57          |
-| 9     | tharawow           | 54          |
+| 9     | itsthara           | 54          |
 | 10    | hahppyy            | 53          |
 | 11    | pengeg             | 52          |
 | 12    | nicestnarwhal      | 47          |
@@ -19,9 +19,9 @@
 | 15    | dazedforevermore   | 38          |
 | 16    | ryakarr            | 37          |
 | 17    | leastsussyimposter | 26          |
-| 18 ⬆  | yoimlee            | 16 (+6)     |
-| 19 ⬇  | milesdotcom        | 13          |
+| 18    | louisemaxxing      | 16          |
+| 19    | milesdotcom        | 13          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-08-18 12:27:19 UTC_
+_Last updated at 2026-09-29 19:48:37 UTC_

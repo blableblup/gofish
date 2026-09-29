@@ -5,15 +5,15 @@
 | 1 🥇  | iflya320                  | 135         |
 | 2 🥈  | nndiana                   | 118         |
 | 3 🥉  | luneckie                  | 117         |
-| 4 ⬆   | inders                    | 107 (+28)   |
-| 5 ⬇   | huuuuuuuuuuuuuuuuuuuuuurz | 101         |
-| 6 ⬇   | bubinga                   | 95          |
-| 7 ⬇   | benciee                   | 94          |
-| 8 ⬇   | fonuwu                    | 83          |
-| 8 ⬇   | jayayseaohbe              | 83          |
-| 8 ⬇   | kevinlukejager            | 83          |
-| 11 ⬇  | boyykisser                | 82          |
-| 12 ⬇  | blu_inx                   | 80          |
+| 4     | inders                    | 107         |
+| 5     | huuuuuuuuuuuuuuuuuuuuuurz | 101         |
+| 6     | bubinga                   | 95          |
+| 7     | benciee                   | 94          |
+| 8     | fonuwu                    | 83          |
+| 8     | jayayseaohbee             | 83          |
+| 8     | kevinlukejager            | 83          |
+| 11    | boyykisser                | 82          |
+| 12    | blu_inx                   | 80          |
 | 13    | poons_u                   | 78          |
 | 14    | sklortch                  | 74          |
 | 15    | jr_mime                   | 73          |
@@ -66,4 +66,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2026-09-22 09:24:07 UTC_
+_Last updated at 2026-09-29 19:48:37 UTC_
