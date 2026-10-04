@@ -15,10 +15,10 @@
 | 11    | 🪸 coral           | 73.34         | xt1di                | 2026-06-17 14:20:01 |
 | 12    | 🦞 lobster         | 63.50         | supertauro           | 2026-07-23 14:18:50 |
 | 13    | 🧟 deadbody        | 53.49         | xt1di                | 2026-09-12 15:35:01 |
-| 14    | 🪨 rock            | 46.97 (+1.29) | whotookmamulukkikala | 2026-09-21 16:49:01 |
+| 14    | 🪨 rock            | 46.97         | whotookmamulukkikala | 2026-09-21 16:49:01 |
 | 15    | 🗡️ dagger           | 42.41         | xknownplayer         | 2026-06-11 14:08:49 |
 | 16    | 🦪 oyster          | 37.97         | xt1di                | 2026-06-11 15:50:09 |
-| 17    | 🐡 blowfish        | 32.92         | xknownplayer         | 2026-07-14 13:01:00 |
+| 17    | 🐡 blowfish        | 34.60 (+1.68) | brogboi              | 2026-09-27 15:03:22 |
 | 18    | 🥒 seacucumber     | 31.52         | xknownplayer         | 2026-07-14 20:13:56 |
 | 19    | 🧽 sponge          | 25.49         | comborl_             | 2026-07-14 21:05:28 |
 | 20    | 🦀 crab            | 19.78         | xt1di                | 2026-07-27 14:45:01 |
@@ -44,11 +44,12 @@
 | 40    | 🧦 socks           | 1.89          | rainbymoonrise       | 2026-08-10 16:26:28 |
 | 41    | 🩰 balletshoes     | 1.71          | ave0_                | 2026-07-14 13:26:16 |
 | 41    | 🩴 thongsandal     | 1.71          | xknownplayer         | 2026-07-01 17:55:49 |
-| 43    | 🥪 sandwich        | 1.31          | thesleepycarrot      | 2026-07-16 13:12:44 |
-| 44    | 🌿 seaweed         | 0.95          | xknownplayer         | 2026-08-30 14:28:09 |
-| 45    | 🪶 feather         | 0.92          | lazyyy714            | 2026-07-14 13:34:34 |
-| 46    | 🍥 sanddollar      | 0.19          | whotookmamulukkikala | 2026-08-05 14:51:08 |
+| 43 🆕 | 🌹 rose            | 1.40          | ne01g                | 2026-09-30 13:32:47 |
+| 44 ⬇  | 🥪 sandwich        | 1.31          | thesleepycarrot      | 2026-07-16 13:12:44 |
+| 45 ⬇  | 🌿 seaweed         | 0.95          | xknownplayer         | 2026-08-30 14:28:09 |
+| 46 ⬇  | 🪶 feather         | 0.92          | lazyyy714            | 2026-07-14 13:34:34 |
+| 47 ⬇  | 🍥 sanddollar      | 0.19          | whotookmamulukkikala | 2026-08-05 14:51:08 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-09-27 09:47:53 UTC_
+_Last updated at 2026-10-04 07:59:57 UTC_

@@ -6,7 +6,7 @@
 | 2 🥈  | rustezzz         | 1405.01             |
 | 3 🥉  | bubinga          | 1346.92             |
 | 4     | elisworm         | 1310.16             |
-| 5     | glorpiusbot      | 879.22              |
+| 5     | glorpiusbot      | 882.98 (+3.76)      |
 | 6     | velantix*        | 801.23              |
 | 7     | poggu_           | 706.03              |
 | 8     | stofeyxd*        | 663.82              |
@@ -18,13 +18,13 @@
 | 14    | ggmagician       | 410.11              |
 | 15    | kaitechpl        | 335.44              |
 | 16    | ojack18          | 329.04              |
-| 17    | cute_ducc        | 315.39 (+15.16)     |
+| 17    | cute_ducc        | 315.39              |
 | 18    | kargalay         | 280.93              |
 | 19    | yyaaaaaaaas      | 254.07              |
-| 20    | underpaidchatter | 251.91 (+37.46)     |
-| 21 🆕 | mir9_9           | 200.78              |
-| 22 ⬇  | buck101_         | 200.63              |
+| 20    | underpaidchatter | 251.91              |
+| 21    | mir9_9           | 200.78              |
+| 22    | buck101_         | 200.63              |
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-09-27 09:45:55 UTC_
+_Last updated at 2026-10-04 08:04:04 UTC_

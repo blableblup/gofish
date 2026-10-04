@@ -319,7 +319,7 @@
 		"fishid": 234260,
 		"chatid": 533,
 		"date": "2026-01-17T11:49:39Z",
-		"rank": 15
+		"rank": 16
 	},
 	"dolphin": {
 		"player": "glorp_fishing",
@@ -375,7 +375,7 @@
 		"fishid": 260054,
 		"chatid": 683,
 		"date": "2026-05-04T14:50:12Z",
-		"rank": 17
+		"rank": 18
 	},
 	"fly": {
 		"player": "gimmeschmoneys",
@@ -560,18 +560,18 @@
 		"rank": 40
 	},
 	"lobster": {
-		"player": "glorp_fishing",
-		"playerid": 3448,
-		"weight": 33.39,
+		"player": "buhl00n",
+		"playerid": 3121,
+		"weight": 48.5,
 		"bot": "gofishgame",
 		"fishtype": "🦞",
 		"fishname": "lobster",
 		"catchtype": "normal",
 		"chat": "buhl00n",
-		"fishid": 264432,
-		"chatid": 712,
-		"date": "2026-05-27T16:51:24Z",
-		"rank": 18
+		"fishid": 290587,
+		"chatid": 1323,
+		"date": "2026-09-30T18:19:26Z",
+		"rank": 15
 	},
 	"lupine": {
 		"player": "gimmeschmoneys",
@@ -739,7 +739,7 @@
 		"fishid": 289869,
 		"chatid": 1289,
 		"date": "2026-09-25T16:22:12Z",
-		"rank": 16
+		"rank": 17
 	},
 	"sandal": {
 		"player": "gimmeschmoneys",
@@ -898,15 +898,15 @@
 	"skull": {
 		"player": "buhl00n",
 		"playerid": 3121,
-		"weight": 9.41,
+		"weight": 9.94,
 		"bot": "gofishgame",
 		"fishtype": "💀",
 		"fishname": "skull",
 		"catchtype": "normal",
 		"chat": "buhl00n",
-		"fishid": 246361,
-		"chatid": 640,
-		"date": "2026-03-13T17:39:44Z",
+		"fishid": 290902,
+		"chatid": 1337,
+		"date": "2026-10-03T01:23:00Z",
 		"rank": 35
 	},
 	"snail": {

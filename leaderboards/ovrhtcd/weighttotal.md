@@ -2,7 +2,7 @@
 
 | Rank  | Player           | Total Weight in lbs |
 |:------|:-----------------|:--------------------|
-| 1 🥇  | ovrhtcd          | 5225.39 (+93.93)    |
+| 1 🥇  | ovrhtcd          | 5225.58 (+0.19)     |
 | 2 🥈  | alenakuz03       | 2353.22             |
 | 3 🥉  | sgv4bl           | 1842.14             |
 | 4     | sidneya_         | 1371.92             |
@@ -21,4 +21,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-09-27 09:45:54 UTC_
+_Last updated at 2026-10-04 08:04:04 UTC_

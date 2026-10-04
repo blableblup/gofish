@@ -2,6 +2,7 @@
 
 | Rank | Fish               | Weight in lbs | Player               | Date in UTC         |
 |:-----|:-------------------|:--------------|:---------------------|:--------------------|
+| 50   | 🌹 rose            | 1.40          | ne01g                | 2026-09-30 13:32:47 |
 | 49   | 🪀 bobber          | 0.00          | whotookmamulukkikala | 2026-08-10 17:55:02 |
 | 48   | 🦕 sauropod        | 198.90        | xknownplayer         | 2026-08-10 15:23:08 |
 | 47   | 🍥 sanddollar      | 0.19          | whotookmamulukkikala | 2026-08-05 14:51:08 |
@@ -11,7 +12,7 @@
 | 43   | 🧟 deadbody        | 53.10         | cookiemonstamadi     | 2026-07-20 13:58:21 |
 | 42   | 🦈 shark           | 101.92        | xknownplayer         | 2026-07-18 16:55:48 |
 | 41   | 🪼 jellyfish       | 0.02          | xknownplayer         | 2026-07-15 16:18:19 |
-| 40   | 🕶️ darksunglasses  | 10.21         | xt1di                | 2026-07-15 14:50:34 |
+| 40   | 🕶️ darksunglasses   | 10.21         | xt1di                | 2026-07-15 14:50:34 |
 | 39   | 🥪 sandwich        | 0.67          | supertauro           | 2026-07-14 16:29:47 |
 | 38   | 🪶 feather         | 0.92          | lazyyy714            | 2026-07-14 13:34:34 |
 | 37   | 🩰 balletshoes     | 1.71          | ave0_                | 2026-07-14 13:26:16 |
@@ -26,9 +27,9 @@
 | 28   | 🥒 seacucumber     | 10.09         | xknownplayer         | 2026-06-12 18:36:56 |
 | 27   | 🧽 sponge          | 4.52          | xknownplayer         | 2026-06-12 15:45:08 |
 | 26   | 🐋 whale           | 80.90         | littlemunnster       | 2026-06-12 14:09:18 |
-| 25   | 🕷️ spider          | 2.88          | punkish_live         | 2026-06-11 16:26:55 |
+| 25   | 🕷️ spider           | 2.88          | punkish_live         | 2026-06-11 16:26:55 |
 | 24   | 🦪 oyster          | 8.12          | xknownplayer         | 2026-06-11 15:01:21 |
-| 23   | 🗡️ dagger          | 42.41         | xknownplayer         | 2026-06-11 14:08:49 |
+| 23   | 🗡️ dagger           | 42.41         | xknownplayer         | 2026-06-11 14:08:49 |
 | 22   | 🐡 blowfish        | 17.67         | brogboi              | 2026-06-10 18:34:22 |
 | 21   | 🐍 snake           | 15.94         | brogboi              | 2026-06-10 16:49:01 |
 | 20   | 🦐 shrimp          | 3.44          | ave0_                | 2026-06-10 15:19:16 |
@@ -52,4 +53,4 @@
 | 2    | 🐢 turtle          | 42.95         | brogboi              | 2026-06-06 19:48:35 |
 | 1    | 💀 skull           | 3.85          | brogboi              | 2026-06-05 17:07:40 |
 
-_Last updated at 2026-08-16 11:46:06 UTC_
+_Last updated at 2026-10-04 08:04:05 UTC_

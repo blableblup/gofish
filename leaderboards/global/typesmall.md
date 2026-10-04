@@ -103,7 +103,7 @@
 | 71    | 🍁 leaf            | 0.00          | caprisen_                 | 2024-10-29 14:04:53 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)           |
 | 71    | 🦎 lizard          | 0.00          | bcarw                     | 2024-08-16 11:04:52 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)           |
 | 71    | 🪵 log             | 0.00          | derinturitierutz          | 2023-10-13 22:37:34 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
-| 71    | 🪻 lupine          | 0.00          | cumgi                     | 2026-07-21 09:45:27 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
+| 71    | 🪻 lupine          | 0.00          | uumgi                     | 2026-07-21 09:45:27 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 71    | 🎏 lure            | 0.00          | kildofris*                | 2022-12-13 00:44:33 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 71    | 🦟 mosquito        | 0.00          | elisworm                  | 2025-08-27 20:02:13 | ![ajspyman](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/ajspyman.png)     |
 | 71    | 🪺 nestwitheggs    | 0.00          | derinturitierutz          | 2026-09-17 16:36:40 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
@@ -129,4 +129,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-09-27 09:49:31 UTC_
+_Last updated at 2026-10-04 08:03:12 UTC_

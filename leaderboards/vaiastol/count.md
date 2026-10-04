@@ -2,29 +2,29 @@
 
 | Rank  | Player                | Fish caught |
 |:------|:----------------------|:------------|
-| 1 🥇  | vaiastol              | 5288 (+21)  |
-| 2 🥈  | hahppyy               | 1926 (+10)  |
+| 1 🥇  | vaiastol              | 5296 (+8)   |
+| 2 🥈  | hahppyy               | 1936 (+10)  |
 | 3 🥉  | eelacy                | 1458        |
-| 4     | garout                | 919 (+1)    |
-| 5     | divra__               | 914         |
-| 6     | proswift              | 880 (+55)   |
-| 7     | zfk770                | 735 (+28)   |
+| 4 ⬆   | proswift              | 958 (+78)   |
+| 5 ⬇   | garout                | 921 (+2)    |
+| 6 ⬇   | divra__               | 914         |
+| 7     | zfk770                | 744 (+9)    |
 | 8     | leastsussyimposter    | 590         |
 | 9     | thespecialone22       | 570         |
 | 10    | ichezero              | 521         |
 | 11    | leanmeister           | 507         |
 | 12    | nicestnarwhal         | 484         |
 | 13    | ryakarr               | 402         |
-| 14    | itsthara              | 296 (+18)   |
+| 14    | itsthara              | 296         |
 | 15    | dazedforevermore      | 255         |
-| 16    | pengeg                | 243         |
-| 17    | louisemaxxing         | 241 (+2)    |
-| 18    | gstaman911            | 203 (+2)    |
+| 16 ⬆  | louisemaxxing         | 252 (+11)   |
+| 17 ⬇  | pengeg                | 243         |
+| 18    | gstaman911            | 203         |
 | 19    | milesdotcom           | 137         |
 | 20    | brontiiide            | 120         |
-| 21 ⬆  | notsatan13            | 118 (+7)    |
-| 22 ⬇  | tiaguitos97           | 117         |
-| 23 ⬇  | crustymilk            | 114         |
+| 21    | notsatan13            | 118         |
+| 22    | tiaguitos97           | 117         |
+| 23    | crustymilk            | 114         |
 | 24    | julialuxel            | 109         |
 | 25    | obama                 | 64          |
 | 26    | bubinga               | 55          |
@@ -47,11 +47,11 @@
 | 43    | peppyow               | 16          |
 | 44    | kaseyfart             | 15          |
 | 45    | creepycode*           | 13          |
+| 46 ⬆  | jorpiter              | 12 (+1)     |
 | 46    | nightmare_jpg         | 12          |
 | 46    | v6r_                  | 12          |
-| 48    | j0urin                | 11          |
-| 48    | jorpiter              | 11          |
+| 49 ⬇  | j0urin                | 11          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-09-27 09:49:59 UTC_
+_Last updated at 2026-10-04 08:04:05 UTC_

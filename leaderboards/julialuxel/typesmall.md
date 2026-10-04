@@ -37,10 +37,10 @@
 | 33    | 👢 boot         | 0.89          | toastyso              | 2024-01-07 13:47:48 |
 | 34    | 🐸 frog         | 0.81          | dazedforevermore      | 2024-04-01 16:32:08 |
 | 35    | 🦐 shrimp       | 0.71          | julialuxel            | 2024-01-12 16:42:48 |
-| 36    | 🐦‍⬛ robin        | 0.69          | ninjaross             | 2024-05-04 18:16:52 |
-| 37    | ⛸️ iceskate     | 0.62          | toastyso              | 2024-01-07 02:21:01 |
-| 38    | 🐚 shell        | 0.56          | cumgi                 | 2025-03-31 02:33:51 |
-| 39    | 🕷️ spider       | 0.54          | hahppyy               | 2024-01-03 23:48:54 |
+| 36    | 🐦‍⬛ robin      | 0.69          | ninjaross             | 2024-05-04 18:16:52 |
+| 37    | ⛸️ iceskate      | 0.62          | toastyso              | 2024-01-07 02:21:01 |
+| 38    | 🐚 shell        | 0.56          | uumgi                 | 2025-03-31 02:33:51 |
+| 39    | 🕷️ spider        | 0.54          | hahppyy               | 2024-01-03 23:48:54 |
 | 40    | 👟 sneaker      | 0.53          | supibot               | 2024-01-04 18:43:39 |
 | 41    | 🫙 jar          | 0.41          | larvaew               | 2025-06-23 00:51:13 |
 | 42    | 🪳 cockroach    | 0.38          | julialuxel            | 2024-01-03 13:55:10 |
@@ -53,7 +53,7 @@
 | 49    | 🪸 coral        | 0.16          | hahppyy               | 2024-02-01 06:14:37 |
 | 50    | 🐟 fish         | 0.14          | hahppyy               | 2024-01-15 06:53:09 |
 | 51    | 🪝 hook         | 0.13          | hahppyy               | 2024-01-11 15:39:26 |
-| 52    | ☘️ clover       | 0.12          | lluuucy               | 2024-03-29 18:19:02 |
+| 52    | ☘️ clover        | 0.12          | lluuucy               | 2024-03-29 18:19:02 |
 | 53    | 🦀 crab         | 0.10          | toastyso              | 2023-12-25 05:16:13 |
 | 54    | 🎱 8ball        | 0.06          | julialuxel            | 2025-09-21 02:20:23 |
 | 55    | 🥫 cannedfood   | 0.05          | hahppyy               | 2024-01-08 12:44:21 |
@@ -62,4 +62,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-05-24 09:17:55 UTC_
+_Last updated at 2026-10-04 08:03:29 UTC_

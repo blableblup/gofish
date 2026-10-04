@@ -11,7 +11,7 @@
 | 75   | 🪼 jellyfish       | 11.13         | ytp_dl                | 2026-05-19 23:33:53 |
 | 74   | 🐉 dragon          | 207.10        | ytp_dl                | 2026-03-19 22:39:49 |
 | 73   | 🧊 icecube         | 6.16          | lluuucy               | 2026-02-20 19:46:45 |
-| 72   | ☂️ umbrella        | 1.09          | pinksynthesis29       | 2026-01-24 22:59:13 |
+| 72   | ☂️ umbrella         | 1.09          | pinksynthesis29       | 2026-01-24 22:59:13 |
 | 71   | 🪱 worm            | 0.84          | derintu               | 2025-12-25 20:43:40 |
 | 70   | 🧵 wireline        | 0.53          | leanmeister           | 2025-12-13 18:13:39 |
 | 69   | 🔔 bell            | 0.00          | gawblemachine         | 2025-12-13 13:14:15 |
@@ -21,14 +21,14 @@
 | 65   | 🎱 8ball           | 0.49          | elisworm              | 2025-09-20 21:33:38 |
 | 64   | 🦋 butterfly       | 0.03          | derintu               | 2025-08-29 20:53:43 |
 | 63   | 🫙 jar             | 1.18          | elisworm              | 2025-08-29 19:24:40 |
-| 62   | 🕸️ spiderweb       | 0.06          | respirate_            | 2025-08-29 17:16:52 |
+| 62   | 🕸️ spiderweb        | 0.06          | respirate_            | 2025-08-29 17:16:52 |
 | 61   | 🫎 moose           | 238.43        | derintu               | 2025-03-23 20:14:40 |
 | 60   | 📱 iphone          | 5.21          | fvkdylan              | 2025-03-18 23:17:58 |
 | 59   | 🌾 grass           | 0.23          | derintu               | 2025-03-17 20:23:03 |
 | 58   | 🪚 icesaw          | 0.57          | derintu               | 2025-03-17 16:55:26 |
-| 57   | ⛸️ iceskate        | 0.84          | derintu               | 2025-03-17 16:11:43 |
+| 57   | ⛸️ iceskate         | 0.84          | derintu               | 2025-03-17 16:11:43 |
 | 56   | 🌷 tulip           | 0.01          | derinturitierutz      | 2025-03-16 16:56:15 |
-| 55   | 🍄‍🟫 mushroom        | 18.54         | derintu               | 2025-03-15 19:24:59 |
+| 55   | 🍄‍🟫 mushroom      | 18.54         | derintu               | 2025-03-15 19:24:59 |
 | 54   | 👡 sandal          | 1.24          | kishma9               | 2025-03-15 15:10:01 |
 | 53   | 🍃 deadleaves      | 1.48          | kishma9               | 2025-03-14 22:12:25 |
 | 52   | 🦇 bat             | 60.15         | kishma9               | 2025-03-14 00:11:12 |
@@ -42,17 +42,17 @@
 | 44   | 🐦 cardinal        | 2.81          | lluuucy               | 2024-10-26 03:04:44 |
 | 43   | 🦑 squid           | 7.81          | respirate_            | 2024-10-23 02:22:48 |
 | 42   | 🦀 crab            | 2.67          | respirate_            | 2024-10-23 01:04:27 |
-| 41   | ☘️ clover          | 0.39          | lluuucy               | 2024-10-22 18:50:22 |
+| 41   | ☘️ clover           | 0.39          | lluuucy               | 2024-10-22 18:50:22 |
 | 40   | 🦎 lizard          | 6.94          | lluuucy               | 2024-10-17 15:55:25 |
 | 39   | 🪺 nestwitheggs    | 10.58         | dazedforevermore      | 2024-10-14 19:42:06 |
 | 38   | 🦫 beaver          | 22.77         | lluuucy               | 2024-10-12 21:50:13 |
-| 37   | 🦆 duck            | 3.99          | cumgi                 | 2024-10-07 02:07:17 |
+| 37   | 🦆 duck            | 3.99          | uumgi                 | 2024-10-07 02:07:17 |
 | 36   | 🌰 acorn           | 0.31          | larvaew               | 2024-10-04 22:04:38 |
 | 35   | 👟 sneaker         | 0.91          | respirate_            | 2024-09-08 17:15:35 |
 | 34   | 🧦 socks           | 1.48          | respirate_            | 2024-09-07 23:49:45 |
 | 33   | 🪸 coral           | 14.47         | respirate_            | 2024-09-01 18:32:43 |
 | 32   | 🪨 rock            | 10.48         | respirate_            | 2024-08-31 22:32:13 |
-| 31   | 🕷️ spider          | 11.42         | respirate_            | 2024-08-31 20:13:14 |
+| 31   | 🕷️ spider           | 11.42         | respirate_            | 2024-08-31 20:13:14 |
 | 30   | 🦕 sauropod        | 202.40        | mitgliederversammlung | 2024-08-30 22:35:37 |
 | 29   | 🦈 shark           | 29.43         | respirate_            | 2024-08-30 20:13:52 |
 | 28   | 🐠 tropicalfish    | 3.54          | respirate_            | 2024-08-24 21:55:40 |
@@ -77,10 +77,10 @@
 | 8    | 💀 skull           | 6.86          | dazedforevermore      | 2024-08-02 19:53:54 |
 | 7    | 🐬 dolphin         | 53.42         | ninjaross             | 2024-08-02 18:34:51 |
 | 6    | 🐡 blowfish        | 32.43         | dazedforevermore      | 2024-08-02 18:20:24 |
-| 5    | 🐸 frog            | 1.27          | cumgi                 | 2024-07-29 21:32:53 |
-| 4    | 🕶️ darksunglasses  | 11.39         | respirate_            | 2024-07-29 07:01:49 |
+| 5    | 🐸 frog            | 1.27          | uumgi                 | 2024-07-29 21:32:53 |
+| 4    | 🕶️ darksunglasses   | 11.39         | respirate_            | 2024-07-29 07:01:49 |
 | 3    | 🧽 sponge          | 6.19          | respirate_            | 2024-07-28 22:59:22 |
 | 2    | 🦐 shrimp          | 3.14          | bapqo                 | 2024-07-28 22:59:12 |
 | 1    | 🐊 crocodile       | 105.00        | julialuxel            | 2024-07-28 22:59:00 |
 
-_Last updated at 2026-08-16 11:46:05 UTC_
+_Last updated at 2026-10-04 08:04:06 UTC_

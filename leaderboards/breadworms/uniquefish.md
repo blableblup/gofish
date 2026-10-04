@@ -6,7 +6,7 @@
 | 2 🥈  | derinturitierutz      | 122       |
 | 3 🥉  | derintu               | 116       |
 | 4     | larvaew               | 112       |
-| 5     | cumgi                 | 106       |
+| 5     | uumgi                 | 106       |
 | 6     | lluuucy               | 105       |
 | 7     | osnyisdead            | 104       |
 | 8     | leanmeister           | 102       |
@@ -31,10 +31,10 @@
 | 27    | gawblemachine         | 71        |
 | 28    | julialuxel            | 69        |
 | 29    | crazytown_bananapants | 67        |
-| 30    | comiqq                | 65        |
-| 30 ⬆  | eagueoflegends        | 65 (+1)   |
-| 30    | ryebreadward          | 65        |
-| 33 ⬇  | mitgliederversammlung | 64        |
+| 29 ⬆  | eagueoflegends        | 67 (+2)   |
+| 31 ⬇  | comiqq                | 65        |
+| 31 ⬇  | ryebreadward          | 65        |
+| 33    | mitgliederversammlung | 64        |
 | 34    | sussy_amonge          | 62        |
 | 35    | michael_bay65         | 60        |
 | 36    | ommcyrene             | 58        |
@@ -54,4 +54,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-09-27 09:47:54 UTC_
+_Last updated at 2026-10-04 07:59:48 UTC_

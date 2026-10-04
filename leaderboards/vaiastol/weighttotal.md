@@ -2,29 +2,29 @@
 
 | Rank  | Player                | Total Weight in lbs |
 |:------|:----------------------|:--------------------|
-| 1 🥇  | vaiastol              | 56472.14 (+134.39)  |
-| 2 🥈  | hahppyy               | 35729.44 (+24.52)   |
+| 1 🥇  | vaiastol              | 56574.73 (+102.59)  |
+| 2 🥈  | hahppyy               | 35989.16 (+259.72)  |
 | 3 🥉  | eelacy                | 16302.36            |
 | 4     | divra__               | 12549.83            |
-| 5     | garout                | 12463.73 (+13.40)   |
-| 6     | proswift              | 11560.17 (+126.28)  |
+| 5     | garout                | 12474.59 (+10.86)   |
+| 6     | proswift              | 12250.64 (+690.47)  |
 | 7     | ichezero              | 11210.20            |
 | 8     | nicestnarwhal         | 9929.13             |
 | 9     | leastsussyimposter    | 9791.51             |
 | 10    | leanmeister           | 9660.42             |
 | 11    | thespecialone22       | 9311.66             |
-| 12    | zfk770                | 8493.70 (+200.19)   |
+| 12    | zfk770                | 8525.67 (+31.97)    |
 | 13    | ryakarr               | 7983.04             |
 | 14    | dazedforevermore      | 5610.15             |
-| 15    | itsthara              | 5215.87 (+94.53)    |
+| 15    | itsthara              | 5215.87             |
 | 16    | pengeg                | 4975.48             |
-| 17    | julialuxel            | 4536.16             |
-| 18    | louisemaxxing         | 4446.44 (+11.84)    |
+| 17 ⬆  | louisemaxxing         | 4711.06 (+264.62)   |
+| 18 ⬇  | julialuxel            | 4536.16             |
 | 19    | milesdotcom           | 2546.43             |
 | 20    | tiaguitos97           | 2319.20             |
-| 21 ⬆  | notsatan13            | 1990.10 (+248.56)   |
-| 22 ⬇  | brontiiide            | 1966.17             |
-| 23    | gstaman911            | 1735.37 (+7.79)     |
+| 21    | notsatan13            | 1990.10             |
+| 22    | brontiiide            | 1966.17             |
+| 23    | gstaman911            | 1735.37             |
 | 24    | crustymilk            | 1587.56             |
 | 25    | bubinga               | 1215.75             |
 | 26    | ayobl7                | 1068.24             |
@@ -53,4 +53,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-09-27 09:45:54 UTC_
+_Last updated at 2026-10-04 08:04:04 UTC_

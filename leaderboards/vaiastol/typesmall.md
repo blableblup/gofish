@@ -105,21 +105,21 @@
 | 95    | 🫙 jar             | 0.01          | divra__            | 2026-07-24 17:51:58 |
 | 95    | 🪻 lupine          | 0.01          | divra__            | 2026-07-21 03:22:49 |
 | 95    | 🎏 lure            | 0.01          | hahppyy            | 2024-11-20 09:09:11 |
-| 95    | 🦐 shrimp          | 0.01          | vaiastol           | 2025-03-23 16:20:22 |
 | 95    | 🐍 snake           | 0.01          | vaiastol           | 2025-07-13 17:43:09 |
 | 95    | 🕸️ spiderweb        | 0.01          | thespecialone22    | 2026-07-06 18:28:14 |
-| 107   | 🩰 balletshoes     | 0.00          | proswift           | 2026-05-10 13:53:06 |
-| 107   | 🪹 emptynest       | 0.00          | vaiastol           | 2025-07-02 18:53:36 |
-| 107   | 🐟 fish            | 0.00          | vaiastol           | 2025-08-28 15:38:36 |
-| 107   | 🪰 fly             | 0.00          | divra__            | 2026-07-21 21:46:27 |
-| 107   | 🐸 frog            | 0.00          | vaiastol           | 2026-05-12 15:52:42 |
-| 107   | 🧤 gloves          | 0.00          | vaiastol           | 2025-02-28 22:53:41 |
-| 107   | 🪝 hook            | 0.00          | hahppyy            | 2025-10-01 14:33:27 |
-| 107   | 🍁 leaf            | 0.00          | garout             | 2025-10-13 19:50:38 |
-| 107   | 🌿 seaweed         | 0.00          | proswift           | 2026-03-28 13:16:48 |
-| 107   | 🐚 shell           | 0.00          | ryakarr            | 2025-12-18 18:40:03 |
-| 107   | 🧦 socks           | 0.00          | lisa_bin           | 2026-07-01 14:58:42 |
+| 106 ⬆ | 🩰 balletshoes     | 0.00          | proswift           | 2026-05-10 13:53:06 |
+| 106 ⬆ | 🪹 emptynest       | 0.00          | vaiastol           | 2025-07-02 18:53:36 |
+| 106 ⬆ | 🐟 fish            | 0.00          | vaiastol           | 2025-08-28 15:38:36 |
+| 106 ⬆ | 🪰 fly             | 0.00          | divra__            | 2026-07-21 21:46:27 |
+| 106 ⬆ | 🐸 frog            | 0.00          | vaiastol           | 2026-05-12 15:52:42 |
+| 106 ⬆ | 🧤 gloves          | 0.00          | vaiastol           | 2025-02-28 22:53:41 |
+| 106 ⬆ | 🪝 hook            | 0.00          | hahppyy            | 2025-10-01 14:33:27 |
+| 106 ⬆ | 🍁 leaf            | 0.00          | garout             | 2025-10-13 19:50:38 |
+| 106 ⬆ | 🌿 seaweed         | 0.00          | proswift           | 2026-03-28 13:16:48 |
+| 106 ⬆ | 🐚 shell           | 0.00          | ryakarr            | 2025-12-18 18:40:03 |
+| 106 ⬇ | 🦐 shrimp          | 0.00 (-0.01)  | zfk770             | 2026-10-02 12:30:20 |
+| 106 ⬆ | 🧦 socks           | 0.00          | lisa_bin           | 2026-07-01 14:58:42 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-09-27 09:48:13 UTC_
+_Last updated at 2026-10-04 08:02:03 UTC_

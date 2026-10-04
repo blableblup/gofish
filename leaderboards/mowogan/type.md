@@ -24,7 +24,7 @@
 | 20    | 🗡️ dagger         | 39.26         | gibbbons    | 2026-09-10 21:48:29 |
 | 21    | 🐟 fish          | 39.08         | mowogan     | 2026-03-20 03:34:11 |
 | 22    | 🐡 blowfish      | 33.05         | lolspers    | 2025-08-26 12:16:21 |
-| 23    | 🦐 shrimp        | 31.96 (+1.70) | lolspers    | 2026-09-26 18:47:55 |
+| 23    | 🦐 shrimp        | 31.96         | lolspers    | 2026-09-26 18:47:55 |
 | 24    | 🦀 crab          | 29.67         | konsminator | 2025-07-24 07:11:17 |
 | 25    | 🥒 seacucumber   | 27.51         | konsminator | 2025-08-28 13:40:36 |
 | 26    | 🪳 cockroach     | 25.58         | lolspers    | 2025-08-31 18:20:56 |
@@ -39,17 +39,17 @@
 | 35    | 🧭 compass       | 11.08         | gofishgamer | 2025-12-24 04:22:06 |
 | 35    | 🎰 slotmachine   | 11.08         | konsminator | 2025-08-13 19:17:45 |
 | 37    | 🪱 worm          | 10.99         | gofishgamer | 2025-12-25 05:25:21 |
-| 38 ⬆  | 🪺 nestwitheggs  | 10.98 (+5.26) | xtlos       | 2026-09-23 12:43:47 |
-| 39 ⬇  | 🧊 icecube       | 10.64         | gibbbons    | 2025-12-23 19:03:45 |
-| 40 ⬇  | 🪹 emptynest     | 10.55         | konsminator | 2026-01-21 14:24:19 |
-| 41 ⬇  | 🐌 snail         | 10.44         | respirate_  | 2025-12-24 20:16:40 |
-| 42 ⬇  | 🕷️ spider         | 10.37         | mowogan     | 2026-02-12 19:33:17 |
-| 43 ⬇  | 🪁 kite          | 10.29         | mowogan     | 2025-08-24 06:08:37 |
-| 44 ⬇  | 💀 skull         | 9.73          | konsminator | 2025-08-27 17:00:44 |
-| 45 ⬇  | 🩲 briefs        | 8.75          | gibbbons    | 2026-09-15 22:44:02 |
-| 46 ⬇  | 🦎 lizard        | 7.54          | mowogan     | 2025-10-07 22:49:46 |
-| 47 ⬇  | 🧋 bobacup       | 6.08          | konsminator | 2025-08-29 12:17:31 |
-| 48 ⬇  | ☘️ clover         | 5.93          | mowogan     | 2025-10-01 00:55:54 |
+| 38    | 🪺 nestwitheggs  | 10.98         | xtlos       | 2026-09-23 12:43:47 |
+| 39    | 🧊 icecube       | 10.64         | gibbbons    | 2025-12-23 19:03:45 |
+| 40    | 🪹 emptynest     | 10.55         | konsminator | 2026-01-21 14:24:19 |
+| 41    | 🐌 snail         | 10.44         | respirate_  | 2025-12-24 20:16:40 |
+| 42    | 🕷️ spider         | 10.37         | mowogan     | 2026-02-12 19:33:17 |
+| 43    | 🪁 kite          | 10.29         | mowogan     | 2025-08-24 06:08:37 |
+| 44    | 💀 skull         | 9.73          | konsminator | 2025-08-27 17:00:44 |
+| 45    | 🩲 briefs        | 8.75          | gibbbons    | 2026-09-15 22:44:02 |
+| 46    | 🦎 lizard        | 7.75 (+0.21)  | mowogan     | 2026-09-27 23:45:36 |
+| 47    | 🧋 bobacup       | 6.08          | konsminator | 2025-08-29 12:17:31 |
+| 48    | ☘️ clover         | 5.93          | mowogan     | 2025-10-01 00:55:54 |
 | 49    | 🧸 teddybear     | 5.61          | konsminator | 2026-02-11 17:06:13 |
 | 50    | 🦇 bat           | 5.48          | lolspers    | 2026-09-16 22:43:24 |
 | 51    | 🥫 cannedfood    | 5.34          | respirate_  | 2026-01-03 04:17:57 |
@@ -91,4 +91,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-09-27 09:46:13 UTC_
+_Last updated at 2026-10-04 08:01:18 UTC_

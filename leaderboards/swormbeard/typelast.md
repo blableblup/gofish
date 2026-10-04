@@ -2,14 +2,14 @@
 
 | Rank | Fish               | Weight in lbs | Player           | Date in UTC         |
 |:-----|:-------------------|:--------------|:-----------------|:--------------------|
-| 80   | 🌰 acorn           | 1.89          | cumgi            | 2026-09-17 22:00:00 |
+| 80   | 🌰 acorn           | 1.89          | uumgi            | 2026-09-17 22:00:00 |
 | 79   | 🦎 lizard          | 1.35          | esvelles         | 2026-09-15 20:25:30 |
 | 78   | 🍬 candy           | 0.00          | fishingalt       | 2026-09-15 18:37:35 |
 | 77   | 🧵 wireline        | 0.19          | derinturitierutz | 2026-09-14 08:51:28 |
 | 76   | 🎱 8ball           | 0.22          | derintu          | 2026-09-14 08:49:29 |
 | 75   | 📱 iphone          | 0.64          | derintu          | 2026-09-14 08:19:44 |
 | 74   | 🧽 sponge          | 12.76         | ytp_dl           | 2026-09-10 16:06:53 |
-| 73   | 🦕 sauropod        | 88.39         | cumgi            | 2026-09-09 00:43:33 |
+| 73   | 🦕 sauropod        | 88.39         | uumgi            | 2026-09-09 00:43:33 |
 | 72   | 🧦 socks           | 1.52          | ytp_dl           | 2026-09-01 15:25:44 |
 | 71   | 🐡 blowfish        | 9.89          | eagueoflegends   | 2026-08-29 21:11:47 |
 | 70   | 🐊 crocodile       | 83.77         | ytp_dl           | 2026-08-28 16:06:52 |
@@ -25,7 +25,7 @@
 | 60   | 🪳 cockroach       | 16.74         | eagueoflegends   | 2026-07-30 20:13:37 |
 | 59   | 🦐 shrimp          | 4.11          | fvkdylan         | 2026-07-21 03:19:52 |
 | 58   | 🦴 bone            | 6.60          | kishma9          | 2026-07-21 02:33:34 |
-| 57   | 🕸️ spiderweb        | 0.01          | cumgi            | 2026-07-20 21:55:08 |
+| 57   | 🕸️ spiderweb        | 0.01          | uumgi            | 2026-07-20 21:55:08 |
 | 56   | 🐜 ant             | 0.49          | derinturitierutz | 2026-07-19 20:56:05 |
 | 55   | 🕷️ spider           | 0.99          | derintu          | 2026-07-19 20:55:50 |
 | 54   | 🐌 snail           | 0.28          | derinturitierutz | 2026-07-19 19:54:43 |
@@ -54,7 +54,7 @@
 | 31   | 🦦 otter           | 18.91         | pinksynthesis29  | 2026-02-20 20:14:49 |
 | 30   | 🧊 icecube         | 6.16          | lluuucy          | 2026-02-20 19:46:45 |
 | 29   | 🦭 seal            | 27.64         | pinksynthesis29  | 2026-02-13 17:21:23 |
-| 28   | 🥫 cannedfood      | 1.60          | cumgi            | 2026-01-27 01:12:45 |
+| 28   | 🥫 cannedfood      | 1.60          | uumgi            | 2026-01-27 01:12:45 |
 | 27   | ☂️ umbrella         | 1.09          | pinksynthesis29  | 2026-01-24 22:59:13 |
 | 26   | 🐋 whale           | 105.30        | derintu          | 2025-12-26 19:38:12 |
 | 25   | 🐳 bluewhale       | 212.18        | derintu          | 2025-12-25 21:49:45 |
@@ -83,4 +83,4 @@
 | 2    | 🩴 thongsandal     | 0.65          | dazedforevermore | 2024-08-03 15:29:46 |
 | 1    | 🕶️ darksunglasses   | 11.39         | respirate_       | 2024-07-29 07:01:49 |
 
-_Last updated at 2026-09-20 09:22:38 UTC_
+_Last updated at 2026-10-04 08:01:55 UTC_

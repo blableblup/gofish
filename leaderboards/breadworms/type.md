@@ -6,7 +6,7 @@
 | 2 🥈  | 🐳 bluewhale       | 303.81        | qu4ttromila              | 2023-03-17 23:18:19 |
 | 3 🥉  | 🦕 sauropod        | 300.31        | fishingalt               | 2025-10-31 08:38:14 |
 | 4     | 🦈 shark           | 288.27        | miiiiisho                | 2024-02-01 22:00:13 |
-| 5     | 🐉 dragon          | 284.43        | cumgi                    | 2024-12-10 21:13:14 |
+| 5     | 🐉 dragon          | 284.43        | uumgi                    | 2024-12-10 21:13:14 |
 | 6     | 🫎 moose           | 278.16        | fvkdylan                 | 2025-04-27 13:58:41 |
 | 7     | 🐻‍❄️ polarbear      | 272.28        | larvaew                  | 2025-01-02 19:01:21 |
 | 8     | 🐍 snake           | 271.95        | miiiiisho                | 2024-01-09 01:20:50 |
@@ -43,7 +43,7 @@
 | 39    | 🥒 seacucumber     | 31.92         | destin357                | 2025-06-09 10:41:23 |
 | 40    | 🧽 sponge          | 29.73         | dazedforevermore         | 2023-08-24 08:42:37 |
 | 41    | 🧊 icecube         | 29.34         | dougiefresh_83           | 2024-12-31 21:24:39 |
-| 42    | 🐠 tropicalfish    | 28.79         | cumgi                    | 2025-03-28 16:25:42 |
+| 42    | 🐠 tropicalfish    | 28.79         | uumgi                    | 2025-03-28 16:25:42 |
 | 43    | 🪳 cockroach       | 26.79         | fishingalt               | 2025-03-02 15:50:28 |
 | 44    | 🎃 pumpkin         | 23.53         | larvaew                  | 2025-11-04 09:29:12 |
 | 45    | 🦠 plankton        | 22.00         | osnyatsky                | 2024-01-03 09:00:25 |
@@ -77,9 +77,9 @@
 | 73    | 🥫 cannedfood      | 5.98          | leanmeister              | 2025-01-07 20:29:27 |
 | 74    | 🍬 candy           | 5.97          | fishingalt               | 2025-11-04 09:33:33 |
 | 75    | 🧵 wireline        | 5.95          | ninjaross                | 2025-03-15 11:04:57 |
-| 76 ⬆  | ☘️ clover           | 5.93 (+0.02)  | ytp_dl                   | 2026-09-19 12:30:22 |
-| 77 ⬇  | 🐚 shell           | 5.92          | cumgi                    | 2025-04-01 04:02:00 |
-| 78    | 🦉 owl             | 5.90          | cumgi                    | 2024-10-20 16:28:24 |
+| 76    | ☘️ clover           | 5.93          | ytp_dl                   | 2026-09-19 12:30:22 |
+| 77    | 🐚 shell           | 5.92          | uumgi                    | 2025-04-01 04:02:00 |
+| 78    | 🦉 owl             | 5.90          | uumgi                    | 2024-10-20 16:28:24 |
 | 79    | 🎏 lure            | 5.76          | fishingalt               | 2024-01-13 13:04:30 |
 | 80    | 🪝 hook            | 4.98          | sussy_amonge             | 2022-12-15 17:37:01 |
 | 81    | 🐦‍⬛ robin         | 4.85          | qu4ttromila              | 2024-04-25 00:23:08 |
@@ -92,7 +92,7 @@
 | 87    | ☂️ umbrella         | 2.99          | vaiastol                 | 2024-07-14 15:25:04 |
 | 89    | 🍃 deadleaves      | 2.98          | ytp_dl                   | 2025-11-05 19:05:46 |
 | 90    | 👡 sandal          | 2.97          | fishingalt               | 2025-03-16 15:45:17 |
-| 90    | 🥀 wiltedflower    | 2.97          | cumgi                    | 2024-12-19 20:15:08 |
+| 90    | 🥀 wiltedflower    | 2.97          | uumgi                    | 2024-12-19 20:15:08 |
 | 92    | 🌹 rose            | 2.96          | osnyatsky                | 2024-03-28 12:12:36 |
 | 92    | 🥪 sandwich        | 2.96          | qu4ttromila              | 2023-05-29 08:10:17 |
 | 94    | 🍎 apple           | 2.92          | cutsekai                 | 2025-11-04 23:27:16 |
@@ -128,4 +128,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-09-20 09:20:29 UTC_
+_Last updated at 2026-10-04 08:00:06 UTC_

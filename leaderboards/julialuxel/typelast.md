@@ -19,7 +19,7 @@
 | 45   | 🪝 hook         | 0.00          | julialuxel            | 2025-06-14 01:18:00 |
 | 44   | 🐋 whale        | 59.28         | julialuxel            | 2025-06-14 01:11:23 |
 | 43   | 🐠 tropicalfish | 13.48         | julialuxel            | 2025-05-08 03:22:34 |
-| 42   | 🐚 shell        | 0.56          | cumgi                 | 2025-03-31 02:33:51 |
+| 42   | 🐚 shell        | 0.56          | uumgi                 | 2025-03-31 02:33:51 |
 | 41   | 🪳 cockroach    | 2.77          | leanmeister           | 2025-03-29 23:41:42 |
 | 40   | 🐍 snake        | 17.81         | leanmeister           | 2025-03-26 20:13:10 |
 | 39   | 📱 iphone       | 2.28          | julialuxel            | 2025-03-16 00:00:13 |
@@ -33,8 +33,8 @@
 | 31   | 🪺 nestwitheggs | 2.18          | julialuxel            | 2024-12-24 01:54:16 |
 | 30   | 🔔 bell         | 0.00          | julialuxel            | 2024-12-21 06:21:28 |
 | 29   | 🌰 acorn        | 1.34          | julialuxel            | 2024-09-30 23:18:34 |
-| 28   | 🐦‍⬛ robin        | 0.69          | ninjaross             | 2024-05-04 18:16:52 |
-| 27   | ☘️ clover       | 1.46          | hahppyy               | 2024-04-02 15:48:36 |
+| 28   | 🐦‍⬛ robin      | 0.69          | ninjaross             | 2024-05-04 18:16:52 |
+| 27   | ☘️ clover        | 1.46          | hahppyy               | 2024-04-02 15:48:36 |
 | 26   | 🪸 coral        | 20.18         | lluuucy               | 2024-04-01 18:43:48 |
 | 25   | 🐸 frog         | 0.81          | dazedforevermore      | 2024-04-01 16:32:08 |
 | 24   | 💀 skull        | 8.64          | julialuxel            | 2024-04-01 16:11:26 |
@@ -53,13 +53,13 @@
 | 11   | 🦠 plankton     | 4.71          | hahppyy               | 2024-01-23 18:19:34 |
 | 10   | 🧤 gloves       | 0.27          | hahppyy               | 2024-01-16 10:58:25 |
 | 9    | 🧊 icecube      | 8.17          | julialuxel            | 2024-01-11 13:42:35 |
-| 8    | 🕷️ spider       | 12.29         | julialuxel            | 2024-01-10 12:18:48 |
+| 8    | 🕷️ spider        | 12.29         | julialuxel            | 2024-01-10 12:18:48 |
 | 7    | 🦕 sauropod     | 241.63        | toastyso              | 2024-01-10 01:45:42 |
 | 6    | 🧸 teddybear    | 0.94          | toastyso              | 2024-01-08 02:45:55 |
-| 5    | ⛸️ iceskate     | 0.62          | toastyso              | 2024-01-07 02:21:01 |
+| 5    | ⛸️ iceskate      | 0.62          | toastyso              | 2024-01-07 02:21:01 |
 | 4    | 🍄 oceanplant   | 5.19          | toastyso              | 2024-01-05 19:43:14 |
 | 3    | 👟 sneaker      | 0.53          | supibot               | 2024-01-04 18:43:39 |
 | 2    | 🐧 penguin      | 29.49         | ryebreadward          | 2024-01-01 00:28:42 |
 | 1    | 🧣 scarf        | 0.37          | hahppyy               | 2023-12-24 23:05:05 |
 
-_Last updated at 2026-05-24 09:20:52 UTC_
+_Last updated at 2026-10-04 08:01:55 UTC_
