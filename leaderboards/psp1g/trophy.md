@@ -2,14 +2,14 @@
 
 | Rank  | Player                    | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points       |
 |:------|:--------------------------|:------------|:-----------------|:-----------------|:-------------|
-| 1 🥇  | nndiana                   | 85          | 79               | 42               | 355.0        |
-| 2 🥈  | luneckie                  | 40 (+1)     | 11               | 20 (+1)          | 141.0 (+3.5) |
+| 1 🥇  | nndiana                   | 85          | 80 (+1)          | 42               | 356.0 (+1.0) |
+| 2 🥈  | luneckie                  | 41 (+1)     | 13 (+2)          | 20               | 146.0 (+5.0) |
 | 3 🥉  | jayayseaohbee             | 30          | 22               | 11               | 117.5        |
 | 4     | bubinga                   | 28          | 21               | 16               | 113.0        |
-| 5     | blu_inx                   | 9           | 12               | 11               | 44.5         |
-| 6 ⬆   | sklortch                  | 11 (+2)     | 10               | 2                | 44.0 (+6.0)  |
-| 7 ⬇   | mazzo_tv                  | 6           | 12               | 18               | 39.0         |
-| 8 ⬇   | huuuuuuuuuuuuuuuuuuuuuurz | 8           | 10               | 9                | 38.5         |
+| 5 ⬆   | sklortch                  | 13 (+2)     | 10               | 3 (+1)           | 50.5 (+6.5)  |
+| 6 ⬇   | blu_inx                   | 9           | 12               | 11               | 44.5         |
+| 7     | mazzo_tv                  | 6           | 12               | 18               | 39.0         |
+| 8     | huuuuuuuuuuuuuuuuuuuuuurz | 8           | 10               | 9                | 38.5         |
 | 9     | benciee                   | 7           | 11               | 2                | 33.0         |
 | 10    | disappointingtrash        | 7           | 7                | 7                | 31.5         |
 | 11    | inders                    | 8           | 4                | 5                | 30.5         |
@@ -39,15 +39,15 @@
 | 35    | commanda_u                | 1           | 0                | 4                | 5.0          |
 | 35    | divra__                   | 1           | 2                | 0                | 5.0          |
 | 35    | hahppyy                   | 1           | 1                | 2                | 5.0          |
-| 38 ⬆  | r3kko_                    | 0           | 4 (+2)           | 1                | 4.5 (+2.0)   |
+| 38    | r3kko_                    | 0           | 4                | 1                | 4.5          |
 | 38    | tomokomot                 | 1           | 1                | 1                | 4.5          |
-| 40 ⬇  | veny2lbs                  | 1           | 0                | 2                | 4.0          |
-| 41 ⬇  | gorillapark               | 0           | 2                | 3                | 3.5          |
-| 41 ⬇  | sillyfellow32             | 0           | 3                | 1                | 3.5          |
-| 43 ⬇  | creepycode                | 0           | 3                | 0                | 3.0          |
-| 43 ⬇  | popfizzgg                 | 1           | 0                | 0                | 3.0          |
-| 43 ⬇  | zsipe                     | 0           | 3                | 0                | 3.0          |
-| 46 ⬇  | supibot                   | 0           | 2                | 1                | 2.5          |
+| 40    | veny2lbs                  | 1           | 0                | 2                | 4.0          |
+| 41    | gorillapark               | 0           | 2                | 3                | 3.5          |
+| 41    | sillyfellow32             | 0           | 3                | 1                | 3.5          |
+| 43    | creepycode                | 0           | 3                | 0                | 3.0          |
+| 43    | popfizzgg                 | 1           | 0                | 0                | 3.0          |
+| 43    | zsipe                     | 0           | 3                | 0                | 3.0          |
+| 46    | supibot                   | 0           | 2                | 1                | 2.5          |
 | 47    | harnas_pro                | 0           | 2                | 0                | 2.0          |
 | 47    | yopego                    | 0           | 2                | 0                | 2.0          |
 | 49    | crunch_sack               | 0           | 0                | 3                | 1.5          |
@@ -61,4 +61,4 @@
 | 54    | maplegif                  | 0           | 0                | 1                | 0.5          |
 | 54    | starducc                  | 0           | 0                | 1                | 0.5          |
 
-_Last updated at 2026-09-29 19:48:37 UTC_
+_Last updated at 2026-10-06 18:33:41 UTC_
