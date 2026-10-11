@@ -12,7 +12,7 @@
 | 8     | huuuuuuuuuuuuuuuuuuuuuurz | 79        |
 | 8     | llikotesnecil             | 79        |
 | 10    | boyykisser                | 76        |
-| 11    | deatron                   | 74        |
+| 11    | deatron                   | 75 (+1)   |
 | 12    | bluberry                  | 72        |
 | 12    | joshuabzz                 | 72        |
 | 12    | poons_u                   | 72        |
@@ -27,13 +27,13 @@
 | 22    | pengeg                    | 67        |
 | 22    | theevirus                 | 67        |
 | 25    | ratot                     | 66        |
-| 26    | divra__                   | 63        |
-| 26    | sillyfellow32             | 63        |
+| 26    | sillyfellow32             | 65 (+2)   |
+| 27 ⬇  | divra__                   | 63        |
 | 28    | angus_lpc                 | 62        |
 | 28    | inders                    | 62        |
 | 28    | jem_mp3                   | 62        |
-| 31    | commanda_u                | 61        |
-| 31 ⬆  | rottarded                 | 61 (+2)   |
+| 28 ⬆  | rottarded                 | 62 (+1)   |
+| 32 ⬇  | commanda_u                | 61        |
 | 33    | disappointingtrash        | 58        |
 | 33    | eeziiii                   | 58        |
 | 33    | flovrek                   | 58        |
@@ -45,25 +45,25 @@
 | 40    | creepycode*               | 56        |
 | 40    | deo7gen                   | 56        |
 | 40    | elusiin                   | 56        |
-| 44 ⬆  | kitenbleh                 | 55 (+1)   |
+| 44    | kitenbleh                 | 55        |
 | 44    | r1cz4rd                   | 55        |
-| 46 ⬇  | maksmusz*                 | 54        |
-| 46 ⬆  | sklortch                  | 54 (+1)   |
-| 48 ⬇  | bamfzi                    | 53        |
-| 48 ⬇  | euxoa                     | 53        |
-| 50    | faslker                   | 52        |
-| 50    | noconcept_                | 52        |
-| 50    | popfizzgg                 | 52        |
-| 50    | velantix*                 | 52        |
-| 54    | faal_lazarino*            | 51        |
-| 54 🆕 | maplegif                  | 51        |
-| 54    | qxxick_                   | 51        |
-| 54    | wisdom_frog               | 51        |
-| 58 ⬇  | bartohehe                 | 50        |
-| 58 ⬇  | seryxx                    | 50        |
+| 44 ⬆  | sklortch                  | 55 (+1)   |
+| 47 ⬇  | maksmusz*                 | 54        |
+| 48    | bamfzi                    | 53        |
+| 48    | euxoa                     | 53        |
+| 48 ⬆  | maplegif                  | 53 (+2)   |
+| 51 ⬆  | faal_lazarino*            | 52 (+1)   |
+| 51 ⬇  | faslker                   | 52        |
+| 51 ⬇  | noconcept_                | 52        |
+| 51 ⬇  | popfizzgg                 | 52        |
+| 51 ⬇  | velantix*                 | 52        |
+| 56 ⬇  | qxxick_                   | 51        |
+| 56 ⬇  | wisdom_frog               | 51        |
+| 58    | bartohehe                 | 50        |
+| 58    | seryxx                    | 50        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-10-04 07:59:49 UTC_
+_Last updated at 2026-10-11 10:23:48 UTC_

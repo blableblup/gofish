@@ -2,12 +2,12 @@
 
 | Rank  | Player         | Total Weight in lbs |
 |:------|:---------------|:--------------------|
-| 1 🥇  | buhl00n        | 6410.65 (+503.18)   |
+| 1 🥇  | buhl00n        | 6707.30 (+296.65)   |
 | 2 🥈  | vagdy          | 3768.71             |
-| 3 🥉  | gimmeschmoneys | 1650.06 (+166.26)   |
-| 4     | glorp_fishing  | 1479.06             |
+| 3 🥉  | gimmeschmoneys | 1815.39 (+165.33)   |
+| 4     | glorp_fishing  | 1576.15 (+97.09)    |
 | 5     | ofaisalz       | 940.03              |
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-10-04 08:04:04 UTC_
+_Last updated at 2026-10-11 10:23:50 UTC_

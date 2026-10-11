@@ -2,10 +2,10 @@
 
 | Rank  | Player           | Fish caught |
 |:------|:-----------------|:------------|
-| 1 🥇  | ovrhtcd          | 253 (+1)    |
+| 1 🥇  | ovrhtcd          | 253         |
 | 2 🥈  | alenakuz03       | 117         |
 | 3 🥉  | sgv4bl           | 91          |
-| 4     | dan1lew          | 67          |
+| 4     | dan1lew          | 68 (+1)     |
 | 5     | sidneya_         | 57          |
 | 6     | nightbot         | 51          |
 | 7     | wizzyy6          | 49          |
@@ -25,4 +25,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-10-04 08:04:04 UTC_
+_Last updated at 2026-10-11 10:23:41 UTC_

@@ -16,24 +16,24 @@
 | 12    | 🍱 tacklebox       | 0.81          | fishingalt            | 2025-11-04 13:24:20 |
 | 13    | 🧟 deadbody        | 0.57          | destin357             | 2025-08-18 07:29:39 |
 | 14    | 🗡️ dagger           | 0.56          | respirate_            | 2024-08-26 22:03:27 |
-| 15    | 🦆 duck            | 0.48          | osnyatsky*            | 2023-07-25 17:55:46 |
-| 16    | 🪲 beetle          | 0.47          | qu4ttromila           | 2025-06-25 10:39:09 |
-| 17    | 🧴 sunscreenbottle | 0.46          | eagueoflegends        | 2026-08-03 20:16:41 |
-| 18    | 🎰 slotmachine     | 0.42          | leanmeister           | 2025-04-17 00:15:18 |
-| 19    | 🐉 dragon          | 0.29          | ytp_dl                | 2026-04-30 09:11:12 |
-| 20    | 🦴 bone            | 0.28          | dazedforevermore      | 2026-07-27 12:48:30 |
-| 20    | 🪿 goose           | 0.28          | fishingalt            | 2026-01-01 09:54:57 |
-| 20    | 🍄‍🟫 mushroom      | 0.28          | osnyisdead            | 2025-01-14 02:54:02 |
-| 23    | 🐳 bluewhale       | 0.27          | esvelles              | 2026-01-13 12:03:33 |
-| 24    | 🧭 compass         | 0.25          | breadworms            | 2025-01-02 17:10:06 |
-| 25    | 🦫 beaver          | 0.22          | lluuucy               | 2025-12-01 03:14:34 |
-| 25    | 🍇 crowberries     | 0.22          | fishingalt            | 2026-06-26 10:34:43 |
-| 27    | 🌵 cactus          | 0.19          | breadworms            | 2025-08-26 21:41:29 |
-| 27    | 🕶️ darksunglasses   | 0.19          | leanmeister           | 2023-09-03 10:41:13 |
-| 29    | 🦢 swan            | 0.17          | lluuucy               | 2024-07-15 15:39:04 |
-| 30    | 🦭 seal            | 0.15          | dazedforevermore      | 2024-01-28 16:20:04 |
-| 31    | 🍥 sanddollar      | 0.14          | eagueoflegends        | 2026-07-28 13:04:50 |
-| 32    | 🪁 kite            | 0.12          | destin357             | 2025-06-29 13:18:44 |
+| 15 ⬆  | 🪲 beetle          | 0.47          | qu4ttromila           | 2025-06-25 10:39:09 |
+| 16 ⬆  | 🧴 sunscreenbottle | 0.46          | eagueoflegends        | 2026-08-03 20:16:41 |
+| 17 ⬆  | 🎰 slotmachine     | 0.42          | leanmeister           | 2025-04-17 00:15:18 |
+| 18 ⬆  | 🐉 dragon          | 0.29          | ytp_dl                | 2026-04-30 09:11:12 |
+| 19 ⬆  | 🦴 bone            | 0.28          | dazedforevermore      | 2026-07-27 12:48:30 |
+| 19 ⬆  | 🪿 goose           | 0.28          | fishingalt            | 2026-01-01 09:54:57 |
+| 19 ⬆  | 🍄‍🟫 mushroom      | 0.28          | osnyisdead            | 2025-01-14 02:54:02 |
+| 22 ⬆  | 🐳 bluewhale       | 0.27          | esvelles              | 2026-01-13 12:03:33 |
+| 23 ⬆  | 🧭 compass         | 0.25          | breadworms            | 2025-01-02 17:10:06 |
+| 24 ⬆  | 🦫 beaver          | 0.22          | lluuucy               | 2025-12-01 03:14:34 |
+| 24 ⬆  | 🍇 crowberries     | 0.22          | fishingalt            | 2026-06-26 10:34:43 |
+| 26 ⬆  | 🌵 cactus          | 0.19          | breadworms            | 2025-08-26 21:41:29 |
+| 26 ⬆  | 🕶️ darksunglasses   | 0.19          | leanmeister           | 2023-09-03 10:41:13 |
+| 28 ⬆  | 🦢 swan            | 0.17          | lluuucy               | 2024-07-15 15:39:04 |
+| 29 ⬆  | 🦭 seal            | 0.15          | dazedforevermore      | 2024-01-28 16:20:04 |
+| 30 ⬆  | 🍥 sanddollar      | 0.14          | eagueoflegends        | 2026-07-28 13:04:50 |
+| 31 ⬇  | 🦆 duck            | 0.12 (-0.36)  | lelullu               | 2026-10-08 03:36:04 |
+| 31 ⬆  | 🪁 kite            | 0.12          | destin357             | 2025-06-29 13:18:44 |
 | 33    | 🦇 bat             | 0.11          | fishingalt            | 2026-03-22 09:34:41 |
 | 33    | 🩲 briefs          | 0.11          | derinturitierutz      | 2024-07-31 17:15:58 |
 | 35    | 🐊 crocodile       | 0.10          | derinturitierutz      | 2026-07-22 18:28:28 |
@@ -128,4 +128,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-10-04 08:02:49 UTC_
+_Last updated at 2026-10-11 10:21:09 UTC_

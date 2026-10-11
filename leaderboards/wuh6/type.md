@@ -55,7 +55,7 @@
 | 51    | 🪀 bobber          | 15.44         | wuh6                      | 2024-12-25 02:55:50 |
 | 52    | 🪵 log             | 14.90         | wowitsdub                 | 2025-05-21 11:27:21 |
 | 53    | 🕶️ darksunglasses   | 12.69         | iflya320                  | 2026-08-20 11:43:09 |
-| 54    | 🐌 snail           | 11.93         | iflya320                  | 2025-07-22 17:25:11 |
+| 54    | 🐌 snail           | 11.97 (+0.04) | theevirus                 | 2026-10-10 00:09:04 |
 | 55    | 👒 hat             | 11.92         | bcarw                     | 2025-11-05 00:26:47 |
 | 55    | 🧸 teddybear       | 11.92         | bubinga                   | 2025-12-30 00:20:22 |
 | 57    | 🧃 beveragebox     | 11.67         | nndiana                   | 2026-07-12 22:04:29 |
@@ -97,10 +97,10 @@
 | 93    | 🍎 apple           | 2.51          | bubinga                   | 2025-10-30 18:14:34 |
 | 93    | 🍁 leaf            | 2.51          | bubinga                   | 2025-11-02 15:37:50 |
 | 95    | ⛸️ iceskate         | 2.00          | eeziiii                   | 2024-12-31 04:54:11 |
-| 95 ⬆  | 🌹 rose            | 2.00 (+0.02)  | lobuhtomy                 | 2026-09-30 13:26:59 |
+| 95    | 🌹 rose            | 2.00          | lobuhtomy                 | 2026-09-30 13:26:59 |
 | 95    | 🧦 socks           | 2.00          | theevirus                 | 2025-08-02 16:04:28 |
-| 98 ⬇  | 👢 boot            | 1.99          | nndiana                   | 2025-01-07 20:55:21 |
-| 98 ⬇  | 🥪 sandwich        | 1.99          | huuuuuuuuuuuuuuuuuuuuuurz | 2025-08-13 05:41:48 |
+| 98    | 👢 boot            | 1.99          | nndiana                   | 2025-01-07 20:55:21 |
+| 98    | 🥪 sandwich        | 1.99          | huuuuuuuuuuuuuuuuuuuuuurz | 2025-08-13 05:41:48 |
 | 100   | 🩰 balletshoes     | 1.97          | eeziiii                   | 2026-02-09 12:32:16 |
 | 101   | 🪻 lupine          | 1.96          | huuuuuuuuuuuuuuuuuuuuuurz | 2025-07-09 11:48:47 |
 | 102   | 🩴 thongsandal     | 1.95          | theevirus                 | 2025-08-27 14:13:53 |
@@ -128,4 +128,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-10-04 08:01:35 UTC_
+_Last updated at 2026-10-11 10:22:07 UTC_

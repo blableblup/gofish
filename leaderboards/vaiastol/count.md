@@ -2,13 +2,13 @@
 
 | Rank  | Player                | Fish caught |
 |:------|:----------------------|:------------|
-| 1 🥇  | vaiastol              | 5296 (+8)   |
-| 2 🥈  | hahppyy               | 1936 (+10)  |
+| 1 🥇  | vaiastol              | 5318 (+22)  |
+| 2 🥈  | hahppyy               | 1943 (+7)   |
 | 3 🥉  | eelacy                | 1458        |
-| 4 ⬆   | proswift              | 958 (+78)   |
-| 5 ⬇   | garout                | 921 (+2)    |
-| 6 ⬇   | divra__               | 914         |
-| 7     | zfk770                | 744 (+9)    |
+| 4     | proswift              | 1006 (+48)  |
+| 5     | garout                | 921         |
+| 6     | divra__               | 914         |
+| 7     | zfk770                | 745 (+1)    |
 | 8     | leastsussyimposter    | 590         |
 | 9     | thespecialone22       | 570         |
 | 10    | ichezero              | 521         |
@@ -16,10 +16,10 @@
 | 12    | nicestnarwhal         | 484         |
 | 13    | ryakarr               | 402         |
 | 14    | itsthara              | 296         |
-| 15    | dazedforevermore      | 255         |
-| 16 ⬆  | louisemaxxing         | 252 (+11)   |
-| 17 ⬇  | pengeg                | 243         |
-| 18    | gstaman911            | 203         |
+| 15 ⬆  | louisemaxxing         | 257 (+5)    |
+| 16 ⬇  | dazedforevermore      | 255         |
+| 17    | pengeg                | 243         |
+| 18    | gstaman911            | 205 (+2)    |
 | 19    | milesdotcom           | 137         |
 | 20    | brontiiide            | 120         |
 | 21    | notsatan13            | 118         |
@@ -30,8 +30,8 @@
 | 26    | bubinga               | 55          |
 | 27    | ayobl7                | 50          |
 | 28    | rird_                 | 48          |
+| 29 ⬆  | j4song                | 45 (+1)     |
 | 29    | larvaew               | 45          |
-| 30    | j4song                | 44          |
 | 31    | fvkdylan              | 42          |
 | 32    | esmeohmy              | 34          |
 | 33    | houseofleaves*        | 29          |
@@ -46,12 +46,12 @@
 | 40    | respirate_            | 17          |
 | 43    | peppyow               | 16          |
 | 44    | kaseyfart             | 15          |
-| 45    | creepycode*           | 13          |
-| 46 ⬆  | jorpiter              | 12 (+1)     |
-| 46    | nightmare_jpg         | 12          |
-| 46    | v6r_                  | 12          |
-| 49 ⬇  | j0urin                | 11          |
+| 45 ⬆  | jorpiter              | 14 (+2)     |
+| 46 ⬇  | creepycode*           | 13          |
+| 47 ⬇  | nightmare_jpg         | 12          |
+| 47 ⬇  | v6r_                  | 12          |
+| 49    | j0urin                | 11          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-10-04 08:04:05 UTC_
+_Last updated at 2026-10-11 10:23:41 UTC_

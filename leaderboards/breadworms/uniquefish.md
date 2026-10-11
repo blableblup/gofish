@@ -19,9 +19,9 @@
 | 15    | destin357             | 90        |
 | 16    | miiiiisho             | 89        |
 | 17    | esvelles              | 81        |
+| 18 ⬆  | cutsekai              | 78 (+1)   |
 | 18    | ninjaross*            | 78        |
-| 19    | booty_bread           | 77        |
-| 19    | cutsekai              | 77        |
+| 20 ⬇  | booty_bread           | 77        |
 | 21    | gstaman911            | 75        |
 | 21    | sicklymaidrobot       | 75        |
 | 23    | osnyatsky*            | 73        |
@@ -30,10 +30,10 @@
 | 25    | respirate_            | 72        |
 | 27    | gawblemachine         | 71        |
 | 28    | julialuxel            | 69        |
-| 29    | crazytown_bananapants | 67        |
-| 29 ⬆  | eagueoflegends        | 67 (+2)   |
-| 31 ⬇  | comiqq                | 65        |
-| 31 ⬇  | ryebreadward          | 65        |
+| 29    | eagueoflegends        | 68 (+1)   |
+| 30 ⬇  | crazytown_bananapants | 67        |
+| 31    | comiqq                | 65        |
+| 31    | ryebreadward          | 65        |
 | 33    | mitgliederversammlung | 64        |
 | 34    | sussy_amonge          | 62        |
 | 35    | michael_bay65         | 60        |
@@ -54,4 +54,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-10-04 07:59:48 UTC_
+_Last updated at 2026-10-11 10:23:48 UTC_

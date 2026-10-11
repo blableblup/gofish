@@ -20,7 +20,7 @@
 | 16    | 🫎 moose           | 0.25          | v6r_                      | 2025-06-06 21:55:05 | ![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)             |
 | 17    | 🍇 crowberries     | 0.22          | fishingalt                | 2026-06-26 10:34:43 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 18    | 🐉 dragon          | 0.18          | ranctious                 | 2026-04-12 19:36:35 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)             |
-| 19    | 🦆 duck            | 0.13          | mazzo_tv                  | 2024-10-16 12:40:23 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)           |
+| 19    | 🦆 duck            | 0.12 (-0.01)  | lelullu                   | 2026-10-08 03:36:04 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 20    | 🦇 bat             | 0.11          | fishingalt                | 2026-03-22 09:34:41 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 21    | 🧭 compass         | 0.08          | obscurecharmling          | 2024-01-15 08:22:22 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)           |
 | 21    | 🐧 penguin         | 0.08          | bapqo                     | 2024-12-24 06:23:03 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
@@ -129,4 +129,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-10-04 08:03:12 UTC_
+_Last updated at 2026-10-11 10:21:34 UTC_

@@ -15,11 +15,11 @@
 | 11    | 🦪 oyster       | 113.97         | vagdy          | 2025-12-24 16:17:24 |
 | 12    | 🐬 dolphin      | 106.46         | glorp_fishing  | 2026-03-11 15:24:51 |
 | 13    | 🐢 turtle       | 83.60          | buhl00n        | 2025-12-15 05:28:15 |
-| 14    | 🦐 shrimp       | 56.75          | buhl00n        | 2026-06-27 18:43:31 |
-| 15 ⬆  | 🦞 lobster      | 48.50 (+15.11) | buhl00n        | 2026-09-30 18:19:26 |
-| 16 ⬇  | 🧟 deadbody     | 45.06          | glorp_fishing  | 2026-01-17 11:49:39 |
-| 17 ⬇  | 🪨 rock         | 43.74          | buhl00n        | 2026-09-25 16:22:12 |
-| 18 ⬇  | 🐟 fish         | 35.04          | buhl00n        | 2026-05-04 14:50:12 |
+| 14 ⬆  | 🧟 deadbody     | 62.26 (+17.20) | glorp_fishing  | 2026-10-05 03:29:16 |
+| 15 ⬇  | 🦐 shrimp       | 56.75          | buhl00n        | 2026-06-27 18:43:31 |
+| 16 ⬇  | 🦞 lobster      | 48.50          | buhl00n        | 2026-09-30 18:19:26 |
+| 17    | 🪨 rock         | 43.74          | buhl00n        | 2026-09-25 16:22:12 |
+| 18    | 🐟 fish         | 35.04          | buhl00n        | 2026-05-04 14:50:12 |
 | 19    | 🕷️ spider        | 30.95          | glorp_fishing  | 2026-03-09 14:22:08 |
 | 20    | 🦫 beaver       | 29.11          | vagdy          | 2025-12-15 20:20:16 |
 | 21    | 🐡 blowfish     | 25.46          | glorp_fishing  | 2026-01-24 15:12:02 |
@@ -36,7 +36,7 @@
 | 32    | 🪺 nestwitheggs | 10.37          | buhl00n        | 2025-12-12 06:12:20 |
 | 33    | 🧊 icecube      | 9.98           | buhl00n        | 2025-12-24 08:30:53 |
 | 34    | 🐌 snail        | 9.97           | gimmeschmoneys | 2026-07-15 21:53:03 |
-| 35    | 💀 skull        | 9.94 (+0.53)   | buhl00n        | 2026-10-03 01:23:00 |
+| 35    | 💀 skull        | 9.94           | buhl00n        | 2026-10-03 01:23:00 |
 | 36    | 🌵 cactus       | 9.11           | buhl00n        | 2026-07-29 01:47:20 |
 | 37    | 🦀 crab         | 8.95           | buhl00n        | 2026-08-21 08:27:44 |
 | 38    | 🧥 coat         | 8.33           | buhl00n        | 2026-01-01 15:38:41 |
@@ -85,4 +85,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-10-04 08:01:44 UTC_
+_Last updated at 2026-10-11 10:22:41 UTC_

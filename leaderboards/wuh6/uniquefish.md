@@ -9,18 +9,18 @@
 | 4     | lobuhtomy                 | 110       |
 | 6     | ranctious                 | 104       |
 | 7     | nndiana*                  | 101       |
-| 7 ⬆   | wowitsdub                 | 101 (+1)  |
+| 7     | wowitsdub                 | 101       |
 | 9     | huuuuuuuuuuuuuuuuuuuuuurz | 96        |
 | 10    | gorillapark               | 90        |
 | 11    | veny2lbs                  | 82        |
-| 12    | feelsaceman               | 73 (+1)   |
+| 12    | feelsaceman               | 74 (+1)   |
 | 13    | rancbot                   | 70        |
 | 14    | caprisen_*                | 63        |
 | 15    | mazzo_tv                  | 62        |
 | 16    | supibot                   | 59        |
 | 17    | commanda_u                | 58        |
-| 18 ⬆  | bcarw                     | 56 (+1)   |
-| 18    | r3kko_                    | 56        |
+| 18    | r3kko_                    | 57 (+1)   |
+| 19 ⬇  | bcarw                     | 56        |
 | 20    | bluberry                  | 54        |
 | 21    | blu_inx                   | 53        |
 | 22    | flovrek                   | 52        |
@@ -52,6 +52,7 @@
 | 48    | magicbluesword            | 21        |
 | 48    | pspisafemboy              | 21        |
 | 48    | rottarded                 | 21        |
+| 51 🆕 | ggmagician                | 20        |
 | 51    | mrsmalvic                 | 20        |
 | 51    | nightbot                  | 20        |
 | 51    | sillyfellow32             | 20        |
@@ -61,4 +62,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-10-04 07:59:49 UTC_
+_Last updated at 2026-10-11 10:23:48 UTC_

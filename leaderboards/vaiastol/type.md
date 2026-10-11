@@ -90,12 +90,12 @@
 | 86    | 🐦‍⬛ robin         | 2.22          | vaiastol           | 2026-09-01 12:30:55 |
 | 87    | 🦉 owl             | 2.08          | respirate_         | 2026-01-05 08:05:41 |
 | 88    | 🪿 goose           | 2.05          | vaiastol           | 2026-02-13 19:22:51 |
+| 89 ⬆  | 🌹 rose            | 1.99 (+0.07)  | proswift           | 2026-10-04 04:29:59 |
 | 89    | 👟 sneaker         | 1.99          | luvwiiseat         | 2025-05-27 00:29:20 |
 | 89    | 🧦 socks           | 1.99          | ichezero           | 2026-04-18 11:59:17 |
-| 91    | 👢 boot            | 1.97          | louisemaxxing      | 2024-11-04 14:41:11 |
-| 91    | 🩴 thongsandal     | 1.97          | itsthara           | 2026-07-07 07:01:15 |
-| 93    | 🪻 lupine          | 1.93          | divra__            | 2026-08-12 21:42:56 |
-| 94    | 🌹 rose            | 1.92          | garout             | 2025-10-05 21:18:57 |
+| 92 ⬇  | 👢 boot            | 1.97          | louisemaxxing      | 2024-11-04 14:41:11 |
+| 92 ⬇  | 🩴 thongsandal     | 1.97          | itsthara           | 2026-07-07 07:01:15 |
+| 94 ⬇  | 🪻 lupine          | 1.93          | divra__            | 2026-08-12 21:42:56 |
 | 95    | 🥪 sandwich        | 1.91          | thespecialone22    | 2026-05-23 00:47:22 |
 | 96    | 🩰 balletshoes     | 1.89          | brontiiide         | 2025-01-01 02:12:26 |
 | 97    | ⛸️ iceskate         | 1.84          | hahppyy            | 2025-01-12 19:57:15 |
@@ -122,4 +122,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-09-27 09:47:20 UTC_
+_Last updated at 2026-10-11 10:22:49 UTC_

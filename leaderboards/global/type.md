@@ -75,10 +75,10 @@
 | 71    | 🪁 kite            | 10.79         | huuuuuuuuuuuuuuuuuuuuuurz | 2025-07-13 01:08:24 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
 | 72    | 🌵 cactus          | 9.54          | luneckie                  | 2026-07-24 18:16:54 | ![flovrek](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/flovrek.png)             |
 | 73    | 🫙 jar             | 8.81          | mangos4u                  | 2025-06-21 02:29:53 | ![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)                   |
+| 74 ⬆  | ☘️ clover           | 6.00 (+0.02)  | rottarded                 | 2026-10-10 08:28:21 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
 | 74    | 🧵 wireline        | 6.00          | ocrw                      | 2024-06-20 15:30:46 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
-| 75    | 🥫 cannedfood      | 5.98          | leanmeister               | 2025-01-07 20:29:27 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 75    | ☘️ clover           | 5.98          | vaiastol                  | 2025-09-03 16:31:17 | ![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)           |
-| 75    | 🐚 shell           | 5.98          | ranctious                 | 2026-03-07 12:37:53 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
+| 76 ⬇  | 🥫 cannedfood      | 5.98          | leanmeister               | 2025-01-07 20:29:27 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 76 ⬇  | 🐚 shell           | 5.98          | ranctious                 | 2026-03-07 12:37:53 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
 | 78    | 🍬 candy           | 5.97          | fishingalt                | 2025-11-04 09:33:33 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
 | 79    | 🦉 owl             | 5.90          | uumgi                     | 2024-10-20 16:28:24 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
 | 80    | 🎏 lure            | 5.76          | fishingalt                | 2024-01-13 13:04:30 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
@@ -129,4 +129,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-10-04 08:00:29 UTC_
+_Last updated at 2026-10-11 10:22:15 UTC_
