@@ -1,28 +1,5 @@
 {
 	"twitch_chat": {
-		"6davesdl": {
-			"twitchid": "893094510",
-			"logs_instances": [
-				{
-					"url": "https://logs.spanix.team",
-					"logs_added": "2024/8"
-				},
-				{
-					"url": "https://logs.potat.app",
-					"logs_added": "2024/7"
-				},
-				{
-					"url": "https://logs.cyex.app",
-					"logs_added": "2025/4"
-				},
-				{
-					"url": "https://logs.twitchmetrics.xyz",
-					"logs_added": "2026/1"
-				}
-			],
-			"checkfdata": true,
-			"board_enabled": false
-		},
 		"aaurie": {
 			"twitchid": "222788698",
 			"logs_instances": [
@@ -1007,6 +984,29 @@
 			"checkfdata": true,
 			"board_enabled": false
 		},
+		"oidaves": {
+			"twitchid": "893094510",
+			"logs_instances": [
+				{
+					"url": "https://logs.spanix.team",
+					"logs_added": "2024/8"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2024/7"
+				},
+				{
+					"url": "https://logs.cyex.app",
+					"logs_added": "2025/4"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/1"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
 		"omie": {
 			"twitchid": "196858",
 			"logs_instances": [
@@ -1033,6 +1033,11 @@
 			"unique_limit": 20,
 			"checkfdata": true,
 			"board_enabled": true
+		},
+		"ommcyrene": {
+			"twitchid": "114067547",
+			"checkfdata": false,
+			"board_enabled": false
 		},
 		"ovrhtcd": {
 			"twitchid": "514679460",
