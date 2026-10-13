@@ -2,12 +2,12 @@
 
 | Rank  | Player                    | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points       |
 |:------|:--------------------------|:------------|:-----------------|:-----------------|:-------------|
-| 1 🥇  | nndiana                   | 85          | 80 (+1)          | 42               | 356.0 (+1.0) |
-| 2 🥈  | luneckie                  | 41 (+1)     | 13 (+2)          | 20               | 146.0 (+5.0) |
+| 1 🥇  | nndiana                   | 85          | 80               | 42               | 356.0        |
+| 2 🥈  | luneckie                  | 43 (+2)     | 14 (+1)          | 20               | 153.0 (+7.0) |
 | 3 🥉  | jayayseaohbee             | 30          | 22               | 11               | 117.5        |
 | 4     | bubinga                   | 28          | 21               | 16               | 113.0        |
-| 5 ⬆   | sklortch                  | 13 (+2)     | 10               | 3 (+1)           | 50.5 (+6.5)  |
-| 6 ⬇   | blu_inx                   | 9           | 12               | 11               | 44.5         |
+| 5     | sklortch                  | 14 (+1)     | 12 (+2)          | 3                | 55.5 (+5.0)  |
+| 6     | blu_inx                   | 9           | 12               | 11               | 44.5         |
 | 7     | mazzo_tv                  | 6           | 12               | 18               | 39.0         |
 | 8     | huuuuuuuuuuuuuuuuuuuuuurz | 8           | 10               | 9                | 38.5         |
 | 9     | benciee                   | 7           | 11               | 2                | 33.0         |
@@ -49,16 +49,16 @@
 | 43    | zsipe                     | 0           | 3                | 0                | 3.0          |
 | 46    | supibot                   | 0           | 2                | 1                | 2.5          |
 | 47    | harnas_pro                | 0           | 2                | 0                | 2.0          |
+| 47 ⬆  | maplegif                  | 0           | 0                | 4 (+3)           | 2.0 (+1.5)   |
 | 47    | yopego                    | 0           | 2                | 0                | 2.0          |
-| 49    | crunch_sack               | 0           | 0                | 3                | 1.5          |
-| 50    | deatron                   | 0           | 1                | 0                | 1.0          |
-| 50    | feelsaceman               | 0           | 1                | 0                | 1.0          |
-| 50    | ranctious                 | 0           | 1                | 0                | 1.0          |
-| 50    | xd_2k                     | 0           | 1                | 0                | 1.0          |
-| 54    | ducksleazzy               | 0           | 0                | 1                | 0.5          |
-| 54    | eeziiii                   | 0           | 0                | 1                | 0.5          |
-| 54    | llikotesnecil             | 0           | 0                | 1                | 0.5          |
-| 54    | maplegif                  | 0           | 0                | 1                | 0.5          |
-| 54    | starducc                  | 0           | 0                | 1                | 0.5          |
+| 50 ⬇  | crunch_sack               | 0           | 0                | 3                | 1.5          |
+| 51 ⬇  | deatron                   | 0           | 1                | 0                | 1.0          |
+| 51 ⬇  | feelsaceman               | 0           | 1                | 0                | 1.0          |
+| 51 ⬇  | ranctious                 | 0           | 1                | 0                | 1.0          |
+| 51 ⬇  | xd_2k                     | 0           | 1                | 0                | 1.0          |
+| 55 ⬇  | ducksleazzy               | 0           | 0                | 1                | 0.5          |
+| 55 ⬇  | eeziiii                   | 0           | 0                | 1                | 0.5          |
+| 55 ⬇  | llikotesnecil             | 0           | 0                | 1                | 0.5          |
+| 55 ⬇  | starducc                  | 0           | 0                | 1                | 0.5          |
 
-_Last updated at 2026-10-06 18:33:41 UTC_
+_Last updated at 2026-10-13 16:49:37 UTC_

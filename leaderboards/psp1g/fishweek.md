@@ -62,8 +62,9 @@
 | 58    | angus_lpc                 | 24          |
 | 58    | bamfzi                    | 24          |
 | 58    | seryxx                    | 24          |
-| 61    | afju*                     | 21          |
+| 61 🆕 | maplegif                  | 22          |
+| 62 ⬇  | afju*                     | 21          |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2026-09-29 19:48:37 UTC_
+_Last updated at 2026-10-13 16:49:38 UTC_

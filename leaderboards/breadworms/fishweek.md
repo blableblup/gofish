@@ -36,7 +36,7 @@
 | 32    | hmsmob*               | 52          |
 | 32    | michael_bay65         | 52          |
 | 34    | bapqo                 | 49          |
-| 34    | eagueoflegends        | 49          |
+| 34    | wceol                 | 49          |
 | 36    | osnyatsky             | 47          |
 | 37    | lelullu               | 46          |
 | 37    | paras220              | 46          |
@@ -64,4 +64,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2026-10-06 18:33:41 UTC_
+_Last updated at 2026-10-13 16:49:38 UTC_
