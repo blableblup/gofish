@@ -4,7 +4,7 @@
 |:------|:-------------|:------------|
 | 1 🥇  | v6r_         | 5631        |
 | 2 🥈  | mangos4u     | 2547        |
-| 3 🥉  | ritaaww      | 2163 (+6)   |
+| 3 🥉  | ritaaww      | 2188 (+25)  |
 | 4     | solitahh     | 895         |
 | 5     | gofishgamer  | 371         |
 | 6     | aliveleader  | 145         |
@@ -17,8 +17,8 @@
 | 13    | dominoswifi  | 19          |
 | 14    | haha_been    | 11          |
 | 15    | exit8like    | 10          |
-| 15 🆕 | ockknight    | 10          |
+| 15    | ockknight    | 10          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-10-11 10:23:41 UTC_
+_Last updated at 2026-10-18 09:24:02 UTC_

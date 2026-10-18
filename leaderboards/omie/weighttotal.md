@@ -4,7 +4,7 @@
 |:------|:-------------|:--------------------|
 | 1 🥇  | v6r_         | 98199.46            |
 | 2 🥈  | mangos4u     | 48260.03            |
-| 3 🥉  | ritaaww      | 43892.68 (+84.46)   |
+| 3 🥉  | ritaaww      | 44280.78 (+388.10)  |
 | 4     | solitahh     | 17237.17            |
 | 5     | gofishgamer  | 6138.52             |
 | 6     | respirate_   | 2777.34             |
@@ -18,4 +18,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-10-11 10:23:50 UTC_
+_Last updated at 2026-10-18 09:26:04 UTC_

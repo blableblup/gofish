@@ -41,7 +41,7 @@
 | 37    | 🦴 bone            | 6.60          | kishma9          | 2026-07-21 02:33:34 |
 | 38    | 🩲 briefs          | 6.30          | dazedforevermore | 2024-08-02 22:34:26 |
 | 39    | 🧊 icecube         | 6.16          | lluuucy          | 2026-02-20 19:46:45 |
-| 40    | 🧴 sunscreenbottle | 5.96          | eagueoflegends   | 2026-08-04 20:12:06 |
+| 40    | 🧴 sunscreenbottle | 5.96          | wceol            | 2026-08-04 20:12:06 |
 | 41    | ☘️ clover           | 5.85          | derintu          | 2025-10-14 18:12:22 |
 | 42    | 📱 iphone          | 5.21          | fvkdylan         | 2025-03-18 23:17:58 |
 | 43    | 🪀 bobber          | 4.99          | kishma9          | 2025-03-15 00:18:52 |
@@ -61,7 +61,7 @@
 | 57    | 🍃 deadleaves      | 1.87          | derintu          | 2025-03-17 18:45:36 |
 | 58    | 👢 boot            | 1.78          | leanmeister      | 2024-11-25 23:27:07 |
 | 59    | 🫙 jar             | 1.53          | derintu          | 2025-08-29 19:43:05 |
-| 60    | 🧦 socks           | 1.52 (+0.04)  | ytp_dl           | 2026-09-01 15:25:44 |
+| 60    | 🧦 socks           | 1.52          | ytp_dl           | 2026-09-01 15:25:44 |
 | 61    | 🌻 sunflower       | 1.39          | ytp_dl           | 2026-07-07 22:37:16 |
 | 62    | ☂️ umbrella         | 1.09          | pinksynthesis29  | 2026-01-24 22:59:13 |
 | 63    | 🌿 seaweed         | 0.98          | respirate_       | 2024-09-02 19:38:53 |
@@ -84,4 +84,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-09-06 09:43:03 UTC_
+_Last updated at 2026-10-18 09:28:04 UTC_

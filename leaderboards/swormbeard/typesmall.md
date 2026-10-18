@@ -15,10 +15,10 @@
 | 11    | 🪼 jellyfish       | 11.13         | ytp_dl           | 2026-05-19 23:33:53 |
 | 12    | 🦇 bat             | 10.96         | gawblemachine    | 2025-09-19 19:35:47 |
 | 13    | 🪨 rock            | 10.48         | respirate_       | 2024-08-31 22:32:13 |
-| 14    | 🐡 blowfish        | 9.89          | eagueoflegends   | 2026-08-29 21:11:47 |
+| 14    | 🐡 blowfish        | 9.89          | wceol            | 2026-08-29 21:11:47 |
 | 15    | 🦪 oyster          | 7.49          | ninjaross        | 2024-11-27 17:24:59 |
 | 16    | 🧊 icecube         | 6.16          | lluuucy          | 2026-02-20 19:46:45 |
-| 17    | 🧴 sunscreenbottle | 5.96          | eagueoflegends   | 2026-08-04 20:12:06 |
+| 17    | 🧴 sunscreenbottle | 5.96          | wceol            | 2026-08-04 20:12:06 |
 | 18    | 🦑 squid           | 5.88          | derintu          | 2025-03-18 20:06:31 |
 | 19    | 🩲 briefs          | 5.43          | dazedforevermore | 2024-08-03 17:16:23 |
 | 20    | 🐋 whale           | 4.91          | gawblemachine    | 2024-08-07 18:36:53 |
@@ -84,4 +84,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-10-04 08:03:40 UTC_
+_Last updated at 2026-10-18 09:24:53 UTC_

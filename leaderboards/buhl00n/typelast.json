@@ -135,7 +135,7 @@
 		"fishid": 291034,
 		"chatid": 1342,
 		"date": "2026-10-04T01:17:33Z",
-		"rank": 74
+		"rank": 72
 	},
 	"bobber": {
 		"player": "glorp_fishing",
@@ -148,7 +148,7 @@
 		"fishid": 291036,
 		"chatid": 1344,
 		"date": "2026-10-04T01:19:13Z",
-		"rank": 75
+		"rank": 73
 	},
 	"bone": {
 		"player": "buhl00n",
@@ -333,16 +333,16 @@
 	"crab": {
 		"player": "buhl00n",
 		"playerid": 3121,
-		"weight": 2.56,
+		"weight": 2.17,
 		"bot": "gofishgame",
 		"fishtype": "🦀",
 		"fishname": "crab",
 		"catchtype": "normal",
 		"chat": "buhl00n",
-		"fishid": 290888,
-		"chatid": 1334,
-		"date": "2026-10-02T23:18:33Z",
-		"rank": 71
+		"fishid": 292624,
+		"chatid": 1372,
+		"date": "2026-10-16T20:59:46Z",
+		"rank": 87
 	},
 	"crocodile": {
 		"player": "gimmeschmoneys",
@@ -356,7 +356,7 @@
 		"fishid": 291291,
 		"chatid": 1357,
 		"date": "2026-10-05T20:42:17Z",
-		"rank": 82
+		"rank": 80
 	},
 	"deadbody": {
 		"player": "glorp_fishing",
@@ -370,7 +370,7 @@
 		"fishid": 291186,
 		"chatid": 1349,
 		"date": "2026-10-05T03:29:16Z",
-		"rank": 77
+		"rank": 75
 	},
 	"dolphin": {
 		"player": "buhl00n",
@@ -412,21 +412,21 @@
 		"fishid": 291017,
 		"chatid": 1339,
 		"date": "2026-10-03T21:37:16Z",
-		"rank": 72
+		"rank": 71
 	},
 	"fish": {
 		"player": "gimmeschmoneys",
 		"playerid": 3086,
-		"weight": 15.61,
+		"weight": 11.42,
 		"bot": "gofishgame",
 		"fishtype": "🐟",
 		"fishname": "fish",
 		"catchtype": "normal",
 		"chat": "buhl00n",
-		"fishid": 291512,
-		"chatid": 1367,
-		"date": "2026-10-07T17:53:26Z",
-		"rank": 87
+		"fishid": 292223,
+		"chatid": 1371,
+		"date": "2026-10-13T12:29:57Z",
+		"rank": 86
 	},
 	"fly": {
 		"player": "gimmeschmoneys",
@@ -454,7 +454,7 @@
 		"fishid": 291204,
 		"chatid": 1354,
 		"date": "2026-10-05T08:52:47Z",
-		"rank": 81
+		"rank": 79
 	},
 	"gloves": {
 		"player": "vagdy",
@@ -485,18 +485,18 @@
 		"rank": 56
 	},
 	"hook": {
-		"player": "buhl00n",
-		"playerid": 3121,
-		"weight": 1.7,
+		"player": "gimmeschmoneys",
+		"playerid": 3086,
+		"weight": 2.82,
 		"bot": "gofishgame",
 		"fishtype": "🪝",
 		"fishname": "hook",
 		"catchtype": "normal",
 		"chat": "buhl00n",
-		"fishid": 291022,
-		"chatid": 1340,
-		"date": "2026-10-03T22:34:40Z",
-		"rank": 73
+		"fishid": 292106,
+		"chatid": 1370,
+		"date": "2026-10-12T15:25:26Z",
+		"rank": 85
 	},
 	"icecube": {
 		"player": "buhl00n",
@@ -654,15 +654,15 @@
 	"lure": {
 		"player": "gimmeschmoneys",
 		"playerid": 3086,
-		"weight": 1.61,
+		"weight": 2.37,
 		"bot": "gofishgame",
 		"fishtype": "🎏",
 		"fishname": "lure",
 		"catchtype": "normal",
 		"chat": "buhl00n",
-		"fishid": 291316,
-		"chatid": 1361,
-		"date": "2026-10-06T00:59:30Z",
+		"fishid": 292027,
+		"chatid": 1369,
+		"date": "2026-10-11T20:03:24Z",
 		"rank": 84
 	},
 	"mosquito": {
@@ -816,7 +816,7 @@
 		"fishid": 291188,
 		"chatid": 1350,
 		"date": "2026-10-05T03:36:10Z",
-		"rank": 78
+		"rank": 76
 	},
 	"sandal": {
 		"player": "gimmeschmoneys",
@@ -956,7 +956,7 @@
 		"fishid": 291505,
 		"chatid": 1366,
 		"date": "2026-10-07T16:42:29Z",
-		"rank": 86
+		"rank": 82
 	},
 	"shrimp": {
 		"player": "gimmeschmoneys",
@@ -970,21 +970,21 @@
 		"fishid": 291540,
 		"chatid": 1368,
 		"date": "2026-10-07T21:06:58Z",
-		"rank": 88
+		"rank": 83
 	},
 	"skull": {
-		"player": "gimmeschmoneys",
-		"playerid": 3086,
-		"weight": 4.67,
+		"player": "buhl00n",
+		"playerid": 3121,
+		"weight": 6.05,
 		"bot": "gofishgame",
 		"fishtype": "💀",
 		"fishname": "skull",
 		"catchtype": "normal",
 		"chat": "buhl00n",
-		"fishid": 291483,
-		"chatid": 1364,
-		"date": "2026-10-07T14:09:20Z",
-		"rank": 85
+		"fishid": 292724,
+		"chatid": 1373,
+		"date": "2026-10-17T21:29:49Z",
+		"rank": 88
 	},
 	"slotmachine": {
 		"player": "gimmeschmoneys",
@@ -1025,7 +1025,7 @@
 		"fishid": 291311,
 		"chatid": 1360,
 		"date": "2026-10-06T00:36:48Z",
-		"rank": 83
+		"rank": 81
 	},
 	"socks": {
 		"player": "buhl00n",
@@ -1039,7 +1039,7 @@
 		"fishid": 291196,
 		"chatid": 1353,
 		"date": "2026-10-05T07:51:43Z",
-		"rank": 80
+		"rank": 78
 	},
 	"spider": {
 		"player": "gimmeschmoneys",
@@ -1165,7 +1165,7 @@
 		"fishid": 291043,
 		"chatid": 1346,
 		"date": "2026-10-04T02:08:01Z",
-		"rank": 76
+		"rank": 74
 	},
 	"whale": {
 		"player": "buhl00n",
@@ -1179,7 +1179,7 @@
 		"fishid": 291191,
 		"chatid": 1351,
 		"date": "2026-10-05T04:14:07Z",
-		"rank": 79
+		"rank": 77
 	},
 	"wiltedflower": {
 		"player": "vagdy",

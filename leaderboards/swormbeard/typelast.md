@@ -11,7 +11,7 @@
 | 74   | 🧽 sponge          | 12.76         | ytp_dl           | 2026-09-10 16:06:53 |
 | 73   | 🦕 sauropod        | 88.39         | uumgi            | 2026-09-09 00:43:33 |
 | 72   | 🧦 socks           | 1.52          | ytp_dl           | 2026-09-01 15:25:44 |
-| 71   | 🐡 blowfish        | 9.89          | eagueoflegends   | 2026-08-29 21:11:47 |
+| 71   | 🐡 blowfish        | 9.89          | wceol            | 2026-08-29 21:11:47 |
 | 70   | 🐊 crocodile       | 83.77         | ytp_dl           | 2026-08-28 16:06:52 |
 | 69   | 🐙 octopus         | 46.36         | ytp_dl           | 2026-08-27 18:16:35 |
 | 68   | 🐚 shell           | 1.01          | ytp_dl           | 2026-08-26 18:24:09 |
@@ -21,8 +21,8 @@
 | 64   | 🐸 frog            | 1.37          | ytp_dl           | 2026-08-19 16:24:33 |
 | 63   | 🐬 dolphin         | 39.99         | ytp_dl           | 2026-08-07 16:21:41 |
 | 62   | 🫙 jar             | 0.49          | ytp_dl           | 2026-08-05 16:06:33 |
-| 61   | 🧴 sunscreenbottle | 5.96          | eagueoflegends   | 2026-08-04 20:12:06 |
-| 60   | 🪳 cockroach       | 16.74         | eagueoflegends   | 2026-07-30 20:13:37 |
+| 61   | 🧴 sunscreenbottle | 5.96          | wceol            | 2026-08-04 20:12:06 |
+| 60   | 🪳 cockroach       | 16.74         | wceol            | 2026-07-30 20:13:37 |
 | 59   | 🦐 shrimp          | 4.11          | fvkdylan         | 2026-07-21 03:19:52 |
 | 58   | 🦴 bone            | 6.60          | kishma9          | 2026-07-21 02:33:34 |
 | 57   | 🕸️ spiderweb        | 0.01          | uumgi            | 2026-07-20 21:55:08 |
@@ -83,4 +83,4 @@
 | 2    | 🩴 thongsandal     | 0.65          | dazedforevermore | 2024-08-03 15:29:46 |
 | 1    | 🕶️ darksunglasses   | 11.39         | respirate_       | 2024-07-29 07:01:49 |
 
-_Last updated at 2026-10-04 08:01:55 UTC_
+_Last updated at 2026-10-18 09:24:01 UTC_

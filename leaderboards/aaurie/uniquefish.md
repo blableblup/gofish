@@ -2,7 +2,7 @@
 
 | Rank  | Player                 | Fish seen |
 |:------|:-----------------------|:----------|
-| 1 🥇  | amatusz                | 46 (+1)   |
+| 1 🥇  | amatusz                | 46        |
 | 2 🥈  | jeffbethyname69        | 42        |
 | 3 🥉  | dolp_fin               | 41        |
 | 4     | boogie_310             | 35        |
@@ -10,8 +10,8 @@
 | 6     | allspice_boatrace      | 31        |
 | 7     | guy_farting420         | 29        |
 | 8     | rustnroll              | 27        |
-| 9     | abelito75              | 25        |
-| 9 ⬆   | victorvondoom313       | 25 (+1)   |
+| 9     | abelito75              | 26 (+1)   |
+| 10 ⬇  | victorvondoom313       | 25        |
 | 11    | aaurie                 | 23        |
 | 12    | bluezebra17            | 22        |
 | 12    | curiouscorvidae        | 22        |
@@ -21,7 +21,7 @@
 | 17    | eldiabloskillet        | 16        |
 | 18    | onetriforce            | 15        |
 | 19    | brody5020              | 14        |
-| 19    | meinmestar             | 14        |
+| 19    | meanmestar             | 14        |
 | 19    | one_guy_123            | 14        |
 | 22    | mademooselle           | 13        |
 | 22    | slimdoggiedog          | 13        |
@@ -36,4 +36,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2026-10-11 10:23:49 UTC_
+_Last updated at 2026-10-18 09:23:59 UTC_

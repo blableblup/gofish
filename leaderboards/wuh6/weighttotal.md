@@ -2,33 +2,33 @@
 
 | Rank  | Player                    | Total Weight in lbs |
 |:------|:--------------------------|:--------------------|
-| 1 🥇  | ranctious                 | 89518.93 (+579.84)  |
-| 2 🥈  | bubinga                   | 83844.78 (+587.48)  |
-| 3 🥉  | iflya320                  | 77020.96 (+19.88)   |
-| 4     | eeziiii                   | 76028.49            |
-| 5     | theevirus                 | 68705.61 (+18.56)   |
+| 1 🥇  | ranctious                 | 90132.65 (+613.72)  |
+| 2 🥈  | bubinga                   | 84219.99 (+375.21)  |
+| 3 🥉  | iflya320                  | 77022.28 (+1.32)    |
+| 4     | eeziiii                   | 76155.93 (+127.44)  |
+| 5     | theevirus                 | 68828.55 (+122.94)  |
 | 6     | huuuuuuuuuuuuuuuuuuuuuurz | 57546.30            |
-| 7     | wowitsdub                 | 47152.27 (+38.86)   |
-| 8     | lobuhtomy                 | 46622.35 (+357.29)  |
-| 9     | nndiana*                  | 35955.59 (+223.78)  |
-| 10    | gorillapark               | 30013.94 (+70.81)   |
+| 7     | wowitsdub                 | 47199.98 (+47.71)   |
+| 8     | lobuhtomy                 | 46805.00 (+182.65)  |
+| 9     | nndiana*                  | 36154.04 (+198.45)  |
+| 10    | gorillapark               | 30013.94            |
 | 11    | veny2lbs                  | 21146.70            |
-| 12    | rancbot                   | 13099.92 (+7.53)    |
+| 12    | rancbot                   | 13099.92            |
 | 13    | mazzo_tv                  | 12132.50            |
 | 14    | sandwichsundays*          | 8993.77             |
 | 15    | creepycode*               | 8479.19             |
 | 16    | caprisen_*                | 8149.36             |
-| 17    | feelsaceman               | 7180.24 (+63.99)    |
+| 17    | feelsaceman               | 7362.53 (+182.29)   |
 | 18    | commanda_u                | 7064.26             |
 | 19    | blu_inx                   | 6225.66             |
 | 20    | bluberry                  | 5990.61             |
-| 21    | r3kko_                    | 5081.04 (+42.20)    |
+| 21    | r3kko_                    | 5081.58 (+0.54)     |
 | 22    | jr_mime                   | 4064.84             |
-| 23    | bcarw                     | 3802.77 (+24.79)    |
+| 23    | bcarw                     | 3802.77             |
 | 24    | flovrek                   | 3625.19             |
 | 25    | flvx_flux*                | 3620.32             |
 | 26    | ewpert1                   | 3323.68             |
-| 27    | supibot                   | 3012.01             |
+| 27    | supibot                   | 3015.24 (+3.23)     |
 | 28    | teddbearcs                | 2938.09             |
 | 29    | benciee                   | 2935.59             |
 | 30    | ocrw                      | 2269.00             |
@@ -48,8 +48,8 @@
 | 44    | turboyy                   | 965.77              |
 | 45    | kalechap                  | 953.38              |
 | 46    | pspisafemboy              | 920.32              |
-| 47 ⬆  | drecklo                   | 913.27 (+7.07)      |
-| 48 ⬇  | ratot                     | 908.74              |
+| 47    | drecklo                   | 913.27              |
+| 48    | ratot                     | 908.74              |
 | 49    | bcarbot                   | 879.13              |
 | 50    | magicbluesword            | 845.02              |
 | 51    | lluuucy                   | 723.46              |
@@ -57,8 +57,8 @@
 | 53    | pikausha                  | 704.22              |
 | 54    | xyqra                     | 700.63              |
 | 55    | araqs                     | 665.83              |
-| 56    | iflya350                  | 624.38 (+2.07)      |
-| 57    | ggmagician                | 464.22 (+16.28)     |
+| 56    | iflya350                  | 624.38              |
+| 57    | ggmagician                | 464.22              |
 | 58    | nightbot                  | 387.25              |
 | 59    | cotovelo3                 | 367.98              |
 | 60    | mrsmalvic                 | 357.90              |
@@ -75,4 +75,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-10-11 10:23:49 UTC_
+_Last updated at 2026-10-18 09:26:04 UTC_

@@ -36,7 +36,7 @@
 | 32    | v6r_                  | 🦈 shark     | 124.61        | 2025-03-26 02:03:55 |
 | 33    | sandwichsundays       | 🐊 crocodile | 122.88        | 2024-07-31 18:53:34 |
 | 34    | larvaew               | 🦈 shark     | 120.80        | 2025-12-28 23:37:00 |
-| 35    | eagueoflegends        | 🧞‍♂️ genie    | 119.98        | 2025-11-01 20:23:46 |
+| 35    | wceol                 | 🧞‍♂️ genie    | 119.98        | 2025-11-01 20:23:46 |
 | 36    | jorpiter              | 🐋 whale     | 111.27        | 2026-09-18 21:19:18 |
 | 37    | jr_mime               | 🐙 octopus   | 105.86        | 2024-08-24 13:55:32 |
 | 38    | nightmare_jpg         | 🐬 dolphin   | 100.22        | 2025-10-26 13:32:59 |
@@ -61,4 +61,4 @@
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2026-09-27 09:45:53 UTC_
+_Last updated at 2026-10-18 09:28:09 UTC_
