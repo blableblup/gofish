@@ -3,10 +3,10 @@
 | Rank  | Player                    | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points       |
 |:------|:--------------------------|:------------|:-----------------|:-----------------|:-------------|
 | 1 🥇  | nndiana                   | 85          | 80               | 42               | 356.0        |
-| 2 🥈  | luneckie                  | 43 (+2)     | 14 (+1)          | 20               | 153.0 (+7.0) |
+| 2 🥈  | luneckie                  | 45 (+2)     | 15 (+1)          | 20               | 160.0 (+7.0) |
 | 3 🥉  | jayayseaohbee             | 30          | 22               | 11               | 117.5        |
 | 4     | bubinga                   | 28          | 21               | 16               | 113.0        |
-| 5     | sklortch                  | 14 (+1)     | 12 (+2)          | 3                | 55.5 (+5.0)  |
+| 5     | sklortch                  | 14          | 12               | 3                | 55.5         |
 | 6     | blu_inx                   | 9           | 12               | 11               | 44.5         |
 | 7     | mazzo_tv                  | 6           | 12               | 18               | 39.0         |
 | 8     | huuuuuuuuuuuuuuuuuuuuuurz | 8           | 10               | 9                | 38.5         |
@@ -41,24 +41,25 @@
 | 35    | hahppyy                   | 1           | 1                | 2                | 5.0          |
 | 38    | r3kko_                    | 0           | 4                | 1                | 4.5          |
 | 38    | tomokomot                 | 1           | 1                | 1                | 4.5          |
+| 40 🆕 | sacredpom                 | 1           | 1                | 0                | 4.0          |
 | 40    | veny2lbs                  | 1           | 0                | 2                | 4.0          |
-| 41    | gorillapark               | 0           | 2                | 3                | 3.5          |
-| 41    | sillyfellow32             | 0           | 3                | 1                | 3.5          |
-| 43    | creepycode                | 0           | 3                | 0                | 3.0          |
-| 43    | popfizzgg                 | 1           | 0                | 0                | 3.0          |
-| 43    | zsipe                     | 0           | 3                | 0                | 3.0          |
-| 46    | supibot                   | 0           | 2                | 1                | 2.5          |
-| 47    | harnas_pro                | 0           | 2                | 0                | 2.0          |
-| 47 ⬆  | maplegif                  | 0           | 0                | 4 (+3)           | 2.0 (+1.5)   |
-| 47    | yopego                    | 0           | 2                | 0                | 2.0          |
-| 50 ⬇  | crunch_sack               | 0           | 0                | 3                | 1.5          |
-| 51 ⬇  | deatron                   | 0           | 1                | 0                | 1.0          |
-| 51 ⬇  | feelsaceman               | 0           | 1                | 0                | 1.0          |
-| 51 ⬇  | ranctious                 | 0           | 1                | 0                | 1.0          |
-| 51 ⬇  | xd_2k                     | 0           | 1                | 0                | 1.0          |
-| 55 ⬇  | ducksleazzy               | 0           | 0                | 1                | 0.5          |
-| 55 ⬇  | eeziiii                   | 0           | 0                | 1                | 0.5          |
-| 55 ⬇  | llikotesnecil             | 0           | 0                | 1                | 0.5          |
-| 55 ⬇  | starducc                  | 0           | 0                | 1                | 0.5          |
+| 42 ⬇  | gorillapark               | 0           | 2                | 3                | 3.5          |
+| 42 ⬇  | sillyfellow32             | 0           | 3                | 1                | 3.5          |
+| 44 ⬇  | creepycode                | 0           | 3                | 0                | 3.0          |
+| 44 ⬇  | popfizzgg                 | 1           | 0                | 0                | 3.0          |
+| 44 ⬇  | zsipe                     | 0           | 3                | 0                | 3.0          |
+| 47 ⬇  | supibot                   | 0           | 2                | 1                | 2.5          |
+| 48 ⬇  | harnas_pro                | 0           | 2                | 0                | 2.0          |
+| 48 ⬇  | maplegif                  | 0           | 0                | 4                | 2.0          |
+| 48 ⬇  | yopego                    | 0           | 2                | 0                | 2.0          |
+| 51 ⬇  | crunch_sack               | 0           | 0                | 3                | 1.5          |
+| 52 ⬇  | deatron                   | 0           | 1                | 0                | 1.0          |
+| 52 ⬇  | feelsaceman               | 0           | 1                | 0                | 1.0          |
+| 52 ⬇  | ranctious                 | 0           | 1                | 0                | 1.0          |
+| 52 ⬇  | xd_2k                     | 0           | 1                | 0                | 1.0          |
+| 56 ⬇  | ducksleazzy               | 0           | 0                | 1                | 0.5          |
+| 56 ⬇  | eeziiii                   | 0           | 0                | 1                | 0.5          |
+| 56 ⬇  | llikotesnecil             | 0           | 0                | 1                | 0.5          |
+| 56 ⬇  | starducc                  | 0           | 0                | 1                | 0.5          |
 
-_Last updated at 2026-10-13 16:49:37 UTC_
+_Last updated at 2026-10-21 11:20:06 UTC_
