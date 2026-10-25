@@ -2,30 +2,30 @@
 
 | Rank  | Player                    | Fish caught |
 |:------|:--------------------------|:------------|
-| 1 🥇  | nndiana*                  | 5945 (+12)  |
-| 2 🥈  | luneckie                  | 2609 (+26)  |
-| 3 🥉  | bubinga                   | 2457 (+3)   |
-| 4     | jayayseaohbee             | 2290 (+15)  |
+| 1 🥇  | nndiana*                  | 5963 (+18)  |
+| 2 🥈  | luneckie                  | 2640 (+31)  |
+| 3 🥉  | bubinga                   | 2459 (+2)   |
+| 4     | jayayseaohbee             | 2317 (+27)  |
 | 5     | caprisen_*                | 2107        |
 | 6     | huuuuuuuuuuuuuuuuuuuuuurz | 1907        |
-| 7     | mazzo_tv                  | 1732        |
-| 8     | feelsaceman               | 1731 (+20)  |
+| 7 ⬆   | feelsaceman               | 1748 (+17)  |
+| 8 ⬇   | mazzo_tv                  | 1732        |
 | 9     | sandwichsundays*          | 1507        |
 | 10    | iflya320                  | 1334        |
 | 11    | jr_mime                   | 1215        |
-| 12    | blu_inx                   | 1197        |
+| 12    | blu_inx                   | 1200 (+3)   |
 | 13    | inders                    | 1192        |
-| 14    | boyykisser                | 1178 (+8)   |
+| 14    | boyykisser                | 1190 (+12)  |
 | 15    | pengeg                    | 1101        |
 | 16    | ratot                     | 1048        |
 | 17    | theevirus                 | 1034        |
 | 18    | kevinlukejager            | 994         |
-| 19    | lobuhtomy                 | 990 (+6)    |
+| 19    | lobuhtomy                 | 993 (+3)    |
 | 20    | zwockel01                 | 974         |
 | 21    | benciee                   | 963         |
 | 22    | jem_mp3                   | 895         |
 | 23    | angus_lpc                 | 883         |
-| 24    | sillyfellow32             | 837 (+5)    |
+| 24    | sillyfellow32             | 861 (+24)   |
 | 25    | flunke_                   | 814         |
 | 26    | markenzy01                | 804         |
 | 27    | poons_u                   | 796         |
@@ -35,18 +35,18 @@
 | 31    | elusiin                   | 724         |
 | 32    | bluberry                  | 722         |
 | 33    | joshuabzz                 | 712         |
-| 34    | llikotesnecil             | 705 (+2)    |
-| 35    | deatron                   | 676 (+12)   |
+| 34    | llikotesnecil             | 706 (+1)    |
+| 35    | deatron                   | 681 (+5)    |
 | 36    | disappointingtrash        | 624         |
-| 37 ⬆  | rottarded                 | 588 (+17)   |
-| 38 ⬇  | ducksleazzy               | 575         |
-| 39 ⬆  | sklortch                  | 536 (+14)   |
-| 40 ⬇  | r1cz4rd                   | 531         |
-| 41 ⬇  | wisdom_frog               | 527         |
+| 37    | rottarded                 | 606 (+18)   |
+| 38    | ducksleazzy               | 578 (+3)    |
+| 39    | sklortch                  | 552 (+16)   |
+| 40    | r1cz4rd                   | 531         |
+| 41    | wisdom_frog               | 527         |
 | 42    | deo7gen                   | 502         |
-| 43    | flovrek                   | 438 (+3)    |
-| 44 ⬆  | kitenbleh                 | 430 (+4)    |
-| 45 ⬇  | divra__                   | 428         |
+| 43    | flovrek                   | 442 (+4)    |
+| 44    | kitenbleh                 | 430         |
+| 45    | divra__                   | 428         |
 | 46    | quinrayy                  | 425         |
 | 47    | maksmusz*                 | 411         |
 | 48    | eeziiii                   | 407         |
@@ -56,16 +56,16 @@
 | 52    | noconcept_                | 385         |
 | 53    | seryxx                    | 384         |
 | 54    | faslker                   | 374         |
-| 55    | copper_qq                 | 346         |
-| 56 ⬆  | bamfzi                    | 333 (+21)   |
-| 57 ⬇  | maplegif                  | 323 (+4)    |
-| 58    | bananenshak3              | 306         |
-| 59    | eng0_                     | 301         |
-| 59    | r3kko_                    | 301         |
-| 61 ⬆  | duykute                   | 297 (+8)    |
-| 61    | euxoa                     | 297         |
-| 63 ⬇  | popfizzgg                 | 296         |
-| 64 ⬇  | onarrrrrrrr               | 289         |
+| 55 ⬆  | bamfzi                    | 347 (+14)   |
+| 56 ⬇  | copper_qq                 | 346         |
+| 57    | maplegif                  | 332 (+9)    |
+| 58 ⬆  | duykute                   | 318 (+21)   |
+| 59 ⬇  | bananenshak3              | 306         |
+| 60 ⬇  | eng0_                     | 301         |
+| 60 ⬇  | riririririririririririkko | 301         |
+| 62 ⬇  | euxoa                     | 297         |
+| 63    | popfizzgg                 | 296         |
+| 64    | onarrrrrrrr               | 289         |
 | 65    | kaspu222                  | 278         |
 | 66    | glorianeq                 | 276         |
 | 66    | qxxick_                   | 276         |
@@ -79,30 +79,30 @@
 | 75    | jeejee_jjl                | 229         |
 | 76    | thetaxmen                 | 217         |
 | 77    | cappo7117                 | 213         |
-| 78    | bartohehe                 | 212 (+1)    |
+| 78    | bartohehe                 | 212         |
 | 79    | flowersofblood            | 208         |
 | 80    | supibot                   | 203         |
 | 81    | jamimeow                  | 202         |
 | 82    | hydronix                  | 201         |
 | 83    | alvanissdev               | 200         |
 | 83    | trendymirror              | 200         |
-| 85    | wasdecxyq                 | 193         |
-| 86    | xd_2k                     | 190         |
-| 87    | xveso                     | 186         |
-| 88 ⬆  | ne01g                     | 178 (+17)   |
-| 89 ⬇  | yo_tacos                  | 177         |
-| 90 ⬇  | faal_lazarino*            | 176         |
-| 91 ⬇  | satic____                 | 175         |
-| 92 ⬇  | quton                     | 173         |
-| 93 ⬆  | sacredpom                 | 171 (+10)   |
-| 94 ⬇  | yopego                    | 168         |
-| 95 ⬇  | ranctious                 | 167         |
-| 96 ⬇  | crunch_sack               | 166         |
-| 97 ⬇  | f_i_o_r                   | 162         |
-| 97 ⬆  | somefeimi                 | 162 (+5)    |
-| 99 ⬇  | aetryc                    | 159         |
-| 100 ⬇ | kubo7                     | 158         |
-| 100 ⬇ | ttecnk                    | 158         |
+| 85 ⬆  | ne01g                     | 195 (+17)   |
+| 86 ⬇  | wasdecxyq                 | 193         |
+| 87 ⬇  | xd_2k                     | 190         |
+| 88 ⬇  | xveso                     | 186         |
+| 89 ⬆  | sacredpom                 | 180 (+9)    |
+| 90 ⬇  | yo_tacos                  | 177         |
+| 91 ⬇  | faal_lazarino*            | 176         |
+| 92 ⬇  | satic____                 | 175         |
+| 93 ⬇  | quton                     | 173         |
+| 94    | yopego                    | 168         |
+| 95    | ranctious                 | 167         |
+| 96    | crunch_sack               | 166         |
+| 97    | somefeimi                 | 164 (+2)    |
+| 98 ⬇  | f_i_o_r                   | 162         |
+| 99    | aetryc                    | 159         |
+| 100   | kubo7                     | 158         |
+| 100   | ttecnk                    | 158         |
 | 102   | esca1g                    | 155         |
 | 102   | muppetinccc               | 155         |
 | 102   | wowitsdub                 | 155         |
@@ -121,7 +121,7 @@
 | 117   | defirence                 | 130         |
 | 117   | rttvname                  | 130         |
 | 117   | sunflowerrr8              | 130         |
-| 120   | ovrhtcd                   | 129 (+1)    |
+| 120   | ovrhtcd                   | 129         |
 | 121   | garciaerik                | 127         |
 | 122   | autisticfemboy_           | 126         |
 | 122   | benlol_l*                 | 126         |
@@ -138,7 +138,7 @@
 | 133   | x8nkj                     | 111         |
 | 135   | tamnyr*                   | 110         |
 | 136   | cotovelo3                 | 108         |
-| 136 ⬆ | hardtlmes                 | 108 (+1)    |
+| 136   | hardtlmes                 | 108         |
 | 136   | starducc                  | 108         |
 | 136   | wuh6                      | 108         |
 | 140   | acidyay                   | 105         |
@@ -147,4 +147,4 @@
 
 _Only showing fishers who caught >= 100 fish_
 
-_Last updated at 2026-10-18 09:24:01 UTC_
+_Last updated at 2026-10-25 10:06:06 UTC_

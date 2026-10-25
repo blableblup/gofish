@@ -10,7 +10,7 @@
 | 6     | 🐢 turtle          | 254.30        | yopego                    | 2023-09-12 11:49:45 |
 | 7     | 🦈 shark           | 249.45        | divra__                   | 2023-12-28 00:26:48 |
 | 8     | 🛢️ oildrum          | 248.25        | sandwichsundays           | 2024-08-21 02:57:22 |
-| 9     | 🫎 moose           | 244.04        | r3kko_                    | 2026-04-02 22:55:22 |
+| 9     | 🫎 moose           | 244.04        | riririririririririririkko | 2026-04-02 22:55:22 |
 | 10    | 🐙 octopus         | 191.79        | xkimi1337                 | 2023-09-19 13:02:10 |
 | 11    | 🐋 whale           | 159.39        | luneckie                  | 2026-05-13 01:41:58 |
 | 12    | 🐊 crocodile       | 149.71        | luneckie                  | 2026-05-08 01:09:07 |
@@ -37,7 +37,7 @@
 | 33    | 🐧 penguin         | 41.83         | blu_inx                   | 2025-12-25 11:46:58 |
 | 34    | 🦀 crab            | 38.88         | d1ma1g*                   | 2023-09-03 11:19:10 |
 | 35    | 🐡 blowfish        | 35.81         | bluberry                  | 2024-08-13 06:51:36 |
-| 36    | 🥒 seacucumber     | 31.91         | r3kko_                    | 2026-09-25 00:07:24 |
+| 36    | 🥒 seacucumber     | 31.91         | riririririririririririkko | 2026-09-25 00:07:24 |
 | 37    | 🕷️ spider           | 31.49         | poons_u                   | 2026-03-16 10:39:24 |
 | 38    | 🧽 sponge          | 29.89         | nndiana                   | 2025-07-24 04:14:09 |
 | 39    | 🐠 tropicalfish    | 27.72         | luneckie                  | 2026-04-16 02:41:16 |
@@ -72,7 +72,7 @@
 | 68    | 🌵 cactus          | 9.37          | feelsaceman               | 2026-07-24 01:02:31 |
 | 69    | 🐦 cardinal        | 9.22          | zwockel01                 | 2024-07-04 11:25:35 |
 | 70    | 🧥 coat            | 7.42          | deatron                   | 2026-01-01 11:53:17 |
-| 71 ⬆  | ☘️ clover           | 6.00 (+0.02)  | rottarded                 | 2026-10-10 08:28:21 |
+| 71    | ☘️ clover           | 6.00          | rottarded                 | 2026-10-10 08:28:21 |
 | 71    | 🧵 wireline        | 6.00          | ocrw                      | 2024-06-20 15:30:46 |
 | 73    | 🐚 shell           | 5.92          | mazzo_tv                  | 2025-05-25 17:38:47 |
 | 74    | 🥫 cannedfood      | 5.54          | blu_inx                   | 2026-01-03 09:24:11 |
@@ -126,4 +126,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-10-11 10:23:12 UTC_
+_Last updated at 2026-10-25 10:07:31 UTC_

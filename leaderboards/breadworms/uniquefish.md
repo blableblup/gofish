@@ -11,16 +11,16 @@
 | 7     | osnyisdead            | 104       |
 | 8     | leanmeister           | 102       |
 | 8     | qu4ttromila           | 102       |
-| 10    | dazedforevermore      | 98        |
-| 10    | dougiefresh_83*       | 98        |
+| 10    | dougiefresh_83*       | 99 (+1)   |
+| 11 ⬇  | dazedforevermore      | 98        |
 | 12    | breadworms            | 95        |
 | 12    | ytp_dl*               | 95        |
 | 14    | kishma9               | 94        |
 | 15    | destin357             | 90        |
 | 16    | miiiiisho             | 89        |
 | 17    | esvelles              | 81        |
-| 18    | cutsekai              | 78        |
 | 18    | ninjaross*            | 78        |
+| 18    | orldofwarcraft        | 78        |
 | 20    | booty_bread           | 77        |
 | 21    | gstaman911            | 75        |
 | 21    | sicklymaidrobot       | 75        |
@@ -54,4 +54,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 50 fish_
 
-_Last updated at 2026-10-18 09:24:00 UTC_
+_Last updated at 2026-10-25 10:03:59 UTC_

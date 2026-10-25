@@ -23,30 +23,30 @@
 | 19    | 🦑 squid         | 3.22          | v6r_        | 2026-09-05 22:48:04 |
 | 20    | 🦇 bat           | 3.14          | xtlos       | 2026-09-16 19:42:50 |
 | 21    | 🥒 seacucumber   | 3.06          | mowogan     | 2025-07-21 16:26:56 |
-| 22 ⬆  | ☂️ umbrella       | 2.91          | xtlos       | 2026-09-03 04:49:47 |
-| 23 ⬆  | 🐊 crocodile     | 2.86          | mowogan     | 2026-02-12 21:47:28 |
-| 24 ⬆  | 🐢 turtle        | 2.66          | konsminator | 2025-06-25 07:45:09 |
-| 25 ⬆  | 🐋 whale         | 2.40          | mowogan     | 2025-07-09 12:41:10 |
-| 26 ⬆  | 💀 skull         | 2.12          | mowogan     | 2025-07-28 01:51:22 |
-| 27 ⬆  | 🪹 emptynest     | 2.05          | xtlos       | 2026-09-24 16:28:52 |
-| 28 ⬆  | 🐦 cardinal      | 1.98          | konsminator | 2026-01-31 07:46:25 |
-| 29 ⬆  | 🦭 seal          | 1.89          | mowogan     | 2026-02-12 13:16:56 |
-| 30 ⬆  | 🐳 bluewhale     | 1.61          | lolspers    | 2026-09-04 16:37:48 |
-| 31 ⬆  | 🦈 shark         | 1.56          | n1nzin_     | 2025-07-05 14:54:34 |
-| 31 ⬆  | 🧽 sponge        | 1.56          | mowogan     | 2025-07-16 15:11:54 |
-| 33 ⬆  | 🪸 coral         | 1.36          | mowogan     | 2025-07-25 18:26:59 |
-| 34 ⬆  | 🧋 bobacup       | 1.33          | konsminator | 2025-08-25 13:51:43 |
-| 35 ⬆  | 🐦‍⬛ robin       | 1.28          | konsminator | 2025-08-08 15:44:29 |
-| 36 ⬆  | 👡 sandal        | 1.10          | mowogan     | 2026-03-05 09:35:20 |
-| 37 ⬆  | 🪳 cockroach     | 1.05          | konsminator | 2025-07-26 11:16:01 |
-| 38 ⬆  | 🍄‍🟫 mushroom    | 1.00          | mowogan     | 2026-03-02 13:28:05 |
-| 39 ⬆  | 🪺 nestwitheggs  | 0.94          | konsminator | 2025-06-24 16:34:13 |
-| 40 ⬆  | 🐡 blowfish      | 0.88          | xtlos       | 2026-09-04 04:44:44 |
-| 41 ⬆  | 🦞 lobster       | 0.73          | mowogan     | 2025-08-14 15:28:42 |
-| 42 ⬆  | ⛸️ iceskate       | 0.52          | elisworm    | 2025-12-29 05:49:08 |
-| 43 ⬆  | 🍁 leaf          | 0.49          | konsminator | 2025-10-28 12:36:33 |
-| 44 ⬆  | 🥫 cannedfood    | 0.45          | gibbbons    | 2025-12-30 13:45:39 |
-| 44 ⬇  | 🦪 oyster        | 0.45 (-2.48)  | crazy__ape  | 2026-10-09 06:53:05 |
+| 22    | ☂️ umbrella       | 2.91          | xtlos       | 2026-09-03 04:49:47 |
+| 23    | 🐊 crocodile     | 2.86          | mowogan     | 2026-02-12 21:47:28 |
+| 24    | 🐢 turtle        | 2.66          | konsminator | 2025-06-25 07:45:09 |
+| 25    | 🐋 whale         | 2.40          | mowogan     | 2025-07-09 12:41:10 |
+| 26    | 💀 skull         | 2.06 (-0.06)  | crazy__ape  | 2026-10-20 01:46:44 |
+| 27    | 🪹 emptynest     | 2.05          | xtlos       | 2026-09-24 16:28:52 |
+| 28    | 🐦 cardinal      | 1.98          | konsminator | 2026-01-31 07:46:25 |
+| 29    | 🦭 seal          | 1.89          | mowogan     | 2026-02-12 13:16:56 |
+| 30    | 🐳 bluewhale     | 1.61          | lolspers    | 2026-09-04 16:37:48 |
+| 31    | 🦈 shark         | 1.56          | n1nzin_     | 2025-07-05 14:54:34 |
+| 31    | 🧽 sponge        | 1.56          | mowogan     | 2025-07-16 15:11:54 |
+| 33    | 🪸 coral         | 1.36          | mowogan     | 2025-07-25 18:26:59 |
+| 34    | 🧋 bobacup       | 1.33          | konsminator | 2025-08-25 13:51:43 |
+| 35    | 🐦‍⬛ robin       | 1.28          | konsminator | 2025-08-08 15:44:29 |
+| 36    | 👡 sandal        | 1.10          | mowogan     | 2026-03-05 09:35:20 |
+| 37    | 🪳 cockroach     | 1.05          | konsminator | 2025-07-26 11:16:01 |
+| 38    | 🍄‍🟫 mushroom    | 1.00          | mowogan     | 2026-03-02 13:28:05 |
+| 39    | 🪺 nestwitheggs  | 0.94          | konsminator | 2025-06-24 16:34:13 |
+| 40    | 🐡 blowfish      | 0.88          | xtlos       | 2026-09-04 04:44:44 |
+| 41    | 🦞 lobster       | 0.73          | mowogan     | 2025-08-14 15:28:42 |
+| 42    | ⛸️ iceskate       | 0.52          | elisworm    | 2025-12-29 05:49:08 |
+| 43    | 🍁 leaf          | 0.49          | konsminator | 2025-10-28 12:36:33 |
+| 44    | 🥫 cannedfood    | 0.45          | gibbbons    | 2025-12-30 13:45:39 |
+| 44    | 🦪 oyster        | 0.45          | crazy__ape  | 2026-10-09 06:53:05 |
 | 46    | 🍥 sanddollar    | 0.42          | gibbbons    | 2026-08-12 10:08:57 |
 | 47    | 🌹 rose          | 0.38          | mowogan     | 2025-09-28 19:31:58 |
 | 48    | 🫙 jar           | 0.35          | mowogan     | 2026-07-15 04:02:05 |
@@ -91,4 +91,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-10-11 10:21:00 UTC_
+_Last updated at 2026-10-25 10:04:24 UTC_

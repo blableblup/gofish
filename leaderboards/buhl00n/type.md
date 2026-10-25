@@ -15,23 +15,23 @@
 | 11    | 🦪 oyster       | 113.97         | vagdy          | 2025-12-24 16:17:24 |
 | 12    | 🐬 dolphin      | 106.46         | glorp_fishing  | 2026-03-11 15:24:51 |
 | 13    | 🐢 turtle       | 83.60          | buhl00n        | 2025-12-15 05:28:15 |
-| 14 ⬆  | 🧟 deadbody     | 62.26 (+17.20) | glorp_fishing  | 2026-10-05 03:29:16 |
-| 15 ⬇  | 🦐 shrimp       | 56.75          | buhl00n        | 2026-06-27 18:43:31 |
-| 16 ⬇  | 🦞 lobster      | 48.50          | buhl00n        | 2026-09-30 18:19:26 |
-| 17    | 🪨 rock         | 43.74          | buhl00n        | 2026-09-25 16:22:12 |
-| 18    | 🐟 fish         | 35.04          | buhl00n        | 2026-05-04 14:50:12 |
+| 14    | 🧟 deadbody     | 62.26          | glorp_fishing  | 2026-10-05 03:29:16 |
+| 15    | 🦐 shrimp       | 56.75          | buhl00n        | 2026-06-27 18:43:31 |
+| 16    | 🦞 lobster      | 48.50          | buhl00n        | 2026-09-30 18:19:26 |
+| 17 ⬆  | 🐟 fish         | 45.84 (+10.80) | buhl00n        | 2026-10-24 16:44:54 |
+| 18 ⬇  | 🪨 rock         | 43.74          | buhl00n        | 2026-09-25 16:22:12 |
 | 19    | 🕷️ spider        | 30.95          | glorp_fishing  | 2026-03-09 14:22:08 |
 | 20    | 🦫 beaver       | 29.11          | vagdy          | 2025-12-15 20:20:16 |
 | 21    | 🐡 blowfish     | 25.46          | glorp_fishing  | 2026-01-24 15:12:02 |
 | 22    | 🪳 cockroach    | 23.99          | vagdy          | 2026-01-16 01:36:48 |
-| 23    | 🦠 plankton     | 19.73          | vagdy          | 2026-01-01 15:31:21 |
-| 24    | 🦦 otter        | 18.90          | buhl00n        | 2025-12-23 20:07:49 |
-| 25    | 🍄‍🟫 mushroom   | 18.78          | gimmeschmoneys | 2025-12-30 16:59:15 |
-| 26    | 🐠 tropicalfish | 18.38          | buhl00n        | 2026-01-17 09:29:10 |
-| 27    | 🦴 bone         | 16.37          | glorp_fishing  | 2026-07-23 19:43:24 |
-| 28    | 🍄 oceanplant   | 16.17          | buhl00n        | 2026-01-20 17:00:04 |
-| 29    | 🧽 sponge       | 15.38          | buhl00n        | 2026-02-27 14:16:31 |
-| 30    | 🪸 coral        | 14.25          | buhl00n        | 2026-03-15 13:24:28 |
+| 23 ⬆  | 🪸 coral        | 22.07 (+7.82)  | buhl00n        | 2026-10-24 14:04:50 |
+| 24 ⬇  | 🦠 plankton     | 19.73          | vagdy          | 2026-01-01 15:31:21 |
+| 25 ⬇  | 🦦 otter        | 18.90          | buhl00n        | 2025-12-23 20:07:49 |
+| 26 ⬇  | 🍄‍🟫 mushroom   | 18.78          | gimmeschmoneys | 2025-12-30 16:59:15 |
+| 27 ⬇  | 🐠 tropicalfish | 18.38          | buhl00n        | 2026-01-17 09:29:10 |
+| 28 ⬇  | 🦴 bone         | 16.37          | glorp_fishing  | 2026-07-23 19:43:24 |
+| 29 ⬇  | 🍄 oceanplant   | 16.17          | buhl00n        | 2026-01-20 17:00:04 |
+| 30 ⬇  | 🧽 sponge       | 15.38          | buhl00n        | 2026-02-27 14:16:31 |
 | 31    | 🐧 penguin      | 11.00          | vagdy          | 2025-12-24 21:25:51 |
 | 32    | 🪺 nestwitheggs | 10.37          | buhl00n        | 2025-12-12 06:12:20 |
 | 33    | 🧊 icecube      | 9.98           | buhl00n        | 2025-12-24 08:30:53 |
@@ -85,4 +85,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-10-11 10:22:41 UTC_
+_Last updated at 2026-10-25 10:08:02 UTC_

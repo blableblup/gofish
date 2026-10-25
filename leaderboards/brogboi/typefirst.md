@@ -14,7 +14,7 @@
 | 41   | 🪼 jellyfish       | 0.02          | xknownplayer         | 2026-07-15 16:18:19 |
 | 40   | 🕶️ darksunglasses   | 10.21         | xt1di                | 2026-07-15 14:50:34 |
 | 39   | 🥪 sandwich        | 0.67          | supertauro           | 2026-07-14 16:29:47 |
-| 38   | 🪶 feather         | 0.92          | lazyyy714            | 2026-07-14 13:34:34 |
+| 38   | 🪶 feather         | 0.92          | lazy10k              | 2026-07-14 13:34:34 |
 | 37   | 🩰 balletshoes     | 1.71          | ave0_                | 2026-07-14 13:26:16 |
 | 36   | 🍬 candy           | 0.00          | brogboi              | 2026-06-20 15:16:10 |
 | 35   | 🎰 slotmachine     | 0.00          | xknownplayer         | 2026-06-20 14:53:24 |
@@ -53,4 +53,4 @@
 | 2    | 🐢 turtle          | 42.95         | brogboi              | 2026-06-06 19:48:35 |
 | 1    | 💀 skull           | 3.85          | brogboi              | 2026-06-05 17:07:40 |
 
-_Last updated at 2026-10-04 08:04:05 UTC_
+_Last updated at 2026-10-25 10:04:00 UTC_

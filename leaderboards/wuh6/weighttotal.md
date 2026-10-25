@@ -2,33 +2,33 @@
 
 | Rank  | Player                    | Total Weight in lbs |
 |:------|:--------------------------|:--------------------|
-| 1 🥇  | ranctious                 | 90132.65 (+613.72)  |
-| 2 🥈  | bubinga                   | 84219.99 (+375.21)  |
-| 3 🥉  | iflya320                  | 77022.28 (+1.32)    |
-| 4     | eeziiii                   | 76155.93 (+127.44)  |
-| 5     | theevirus                 | 68828.55 (+122.94)  |
+| 1 🥇  | ranctious                 | 90910.82 (+778.17)  |
+| 2 🥈  | bubinga                   | 84660.28 (+440.29)  |
+| 3 🥉  | iflya320                  | 77022.28            |
+| 4     | eeziiii                   | 76545.24 (+389.31)  |
+| 5     | theevirus                 | 69136.06 (+307.51)  |
 | 6     | huuuuuuuuuuuuuuuuuuuuuurz | 57546.30            |
-| 7     | wowitsdub                 | 47199.98 (+47.71)   |
-| 8     | lobuhtomy                 | 46805.00 (+182.65)  |
-| 9     | nndiana*                  | 36154.04 (+198.45)  |
+| 7     | wowitsdub                 | 47344.25 (+144.27)  |
+| 8     | lobuhtomy                 | 46984.57 (+179.57)  |
+| 9     | nndiana*                  | 36207.24 (+53.20)   |
 | 10    | gorillapark               | 30013.94            |
 | 11    | veny2lbs                  | 21146.70            |
 | 12    | rancbot                   | 13099.92            |
 | 13    | mazzo_tv                  | 12132.50            |
 | 14    | sandwichsundays*          | 8993.77             |
 | 15    | creepycode*               | 8479.19             |
-| 16    | caprisen_*                | 8149.36             |
-| 17    | feelsaceman               | 7362.53 (+182.29)   |
+| 16    | caprisen_*                | 8183.16 (+33.80)    |
+| 17    | feelsaceman               | 7613.32 (+250.79)   |
 | 18    | commanda_u                | 7064.26             |
 | 19    | blu_inx                   | 6225.66             |
 | 20    | bluberry                  | 5990.61             |
-| 21    | r3kko_                    | 5081.58 (+0.54)     |
+| 21    | riririririririririririkko | 5234.41 (+152.83)   |
 | 22    | jr_mime                   | 4064.84             |
 | 23    | bcarw                     | 3802.77             |
 | 24    | flovrek                   | 3625.19             |
 | 25    | flvx_flux*                | 3620.32             |
 | 26    | ewpert1                   | 3323.68             |
-| 27    | supibot                   | 3015.24 (+3.23)     |
+| 27    | supibot                   | 3020.40 (+5.16)     |
 | 28    | teddbearcs                | 2938.09             |
 | 29    | benciee                   | 2935.59             |
 | 30    | ocrw                      | 2269.00             |
@@ -68,11 +68,11 @@
 | 64    | buh_official_             | 280.90              |
 | 65    | xd_2k                     | 278.95              |
 | 66    | ratatas1g*                | 236.99              |
-| 67    | jesefs                    | 227.33              |
-| 68    | iflyb737                  | 227.12              |
-| 69    | wiihxhx                   | 220.68              |
+| 67 ⬆  | wiihxhx                   | 231.19 (+10.51)     |
+| 68 ⬇  | jesefs                    | 227.33              |
+| 69 ⬇  | iflyb737                  | 227.12              |
 | 70    | cozysocks398              | 210.54              |
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-10-18 09:26:04 UTC_
+_Last updated at 2026-10-25 10:06:05 UTC_

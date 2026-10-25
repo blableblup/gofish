@@ -2,7 +2,7 @@
 
 | Rank | Fish               | Weight in lbs | Player                  | Date in UTC         |
 |:-----|:-------------------|:--------------|:------------------------|:--------------------|
-| 131  | 🍊 orange          | 0.00          | cutsekai                | 2025-12-18 03:39:22 |
+| 131  | 🍊 orange          | 0.00          | orldofwarcraft          | 2025-12-18 03:39:22 |
 | 130  | 🍱 tacklebox       | 2.13          | derinturitierutz        | 2025-11-01 12:30:09 |
 | 129  | 🍎 apple           | 0.40          | uumgi                   | 2025-10-30 04:57:14 |
 | 128  | 🕯️ candle           | 0.00          | breadworms              | 2025-10-30 01:36:45 |
@@ -134,4 +134,4 @@
 | 2    | 🐸 frog            | 4.76          | miiiiisho               | 2022-12-04 01:04:30 |
 | 1    | 🦐 shrimp          | 29.58         | lagggm*                 | 2022-12-04 00:58:55 |
 
-_Last updated at 2026-10-04 08:04:05 UTC_
+_Last updated at 2026-10-25 10:04:01 UTC_

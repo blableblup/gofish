@@ -58,7 +58,7 @@
 | 54    | ninjaross                 | 🐳 bluewhale  | 287.26        | 2025-04-22 07:47:19 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)           |
 | 55    | sklortch                  | 🦕 sauropod   | 286.28        | 2026-10-01 23:25:57 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                     |
 | 56    | ratot                     | 🐳 bluewhale  | 285.51        | 2024-11-25 21:00:53 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                     |
-| 57    | r3kko_                    | 🐳 bluewhale  | 285.42        | 2026-09-26 18:42:17 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                       |
+| 57    | riririririririririririkko | 🐳 bluewhale  | 285.42        | 2026-09-26 18:42:17 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                       |
 | 58    | rancbot                   | 🐳 bluewhale  | 285.32        | 2026-01-15 11:26:55 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                       |
 | 59    | bluberry                  | 🐳 bluewhale  | 285.14        | 2025-04-14 17:16:48 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                       |
 | 60    | sandwichsundays           | 🐉 dragon     | 284.61        | 2024-05-27 23:48:53 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                     |
@@ -103,4 +103,4 @@
 
 _Only showing fish weighing >= 270 lbs_
 
-_Last updated at 2026-10-18 09:28:09 UTC_
+_Last updated at 2026-10-25 10:08:11 UTC_

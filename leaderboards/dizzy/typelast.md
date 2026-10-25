@@ -46,7 +46,7 @@
 | 68   | 🦠 plankton      | 6.97          | vagdy           | 2025-12-01 19:54:31 |
 | 67   | 🦦 otter         | 4.26          | vagdy           | 2025-11-23 12:24:19 |
 | 66   | 🦕 sauropod      | 25.79         | kyonuwu         | 2025-11-22 18:53:44 |
-| 65   | 🌰 acorn         | 1.94          | trashxpanda__   | 2025-11-19 09:25:05 |
+| 65   | 🌰 acorn         | 1.94          | panda__1of1     | 2025-11-19 09:25:05 |
 | 64   | ☘️ clover         | 1.37          | ofaisalz        | 2025-11-18 13:15:15 |
 | 63   | 🌿 seaweed       | 0.93          | buhl00n         | 2025-11-16 06:55:56 |
 | 62   | 🧟 deadbody      | 117.03        | mousee93        | 2025-10-27 12:41:09 |
@@ -75,9 +75,9 @@
 | 39   | 🗡️ dagger         | 31.51         | 1fvp            | 2025-07-26 11:19:46 |
 | 38   | 👒 hat           | 7.46          | buhl00n         | 2025-07-21 10:33:37 |
 | 37   | 🧃 beveragebox   | 11.67         | jdxl            | 2025-07-15 13:12:41 |
-| 36   | 🌻 sunflower     | 1.23          | trashxpanda__   | 2025-07-15 12:54:09 |
+| 36   | 🌻 sunflower     | 1.23          | panda__1of1     | 2025-07-15 12:54:09 |
 | 35   | 🪁 kite          | 3.58          | buhl00n         | 2025-07-15 07:58:53 |
-| 34   | 🦫 beaver        | 26.73         | trashxpanda__   | 2025-07-14 22:00:31 |
+| 34   | 🦫 beaver        | 26.73         | panda__1of1     | 2025-07-14 22:00:31 |
 | 33   | 🧵 wireline      | 0.35          | kyonuwu         | 2025-07-14 21:53:50 |
 | 32   | 🌾 grass         | 0.31          | glorp_fishing   | 2025-07-02 04:04:38 |
 | 31   | 🛢️ oildrum        | 39.41         | lolspers        | 2025-06-28 00:12:52 |
@@ -99,8 +99,8 @@
 | 15   | 🪚 icesaw        | 0.60          | gimmeschmoneys  | 2025-02-26 01:33:52 |
 | 14   | 🐧 penguin       | 30.26         | buhl00n         | 2025-02-18 01:34:38 |
 | 13   | 👟 sneaker       | 1.36          | greenfatso      | 2025-01-27 07:33:19 |
-| 11   | 🎀 wrappingpaper | 0.00          | anothercull     | 2025-01-15 01:31:55 |
 | 11   | 🍪 cookie        | 0.00          | anothercull     | 2025-01-15 01:31:55 |
+| 11   | 🎀 wrappingpaper | 0.00          | anothercull     | 2025-01-15 01:31:55 |
 | 10   | 🎁 present       | 0.00          | anothercull     | 2025-01-15 01:31:08 |
 | 9    | 🥀 wiltedflower  | 2.28          | simplydrack     | 2025-01-06 17:07:07 |
 | 8    | 🛒 shoppingcart  | 56.52         | buhl00n         | 2025-01-02 17:13:58 |
@@ -112,4 +112,4 @@
 | 2    | 👑 crown         | 30.94         | glorp_fishing   | 2024-12-12 21:16:52 |
 | 1    | 🧞‍♂️ genie        | 17.60         | feuha           | 2024-11-01 09:40:30 |
 
-_Last updated at 2026-10-11 10:23:42 UTC_
+_Last updated at 2026-10-25 10:06:07 UTC_

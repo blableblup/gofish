@@ -7,8 +7,8 @@
 | 3 🥉  | 🛢️ oildrum          | 13.36         | islcfc                | 2024-07-12 03:25:59 |
 | 4     | 🛒 shoppingcart    | 9.38          | esvelles              | 2025-12-26 10:29:24 |
 | 5     | 🧞‍♂️ genie          | 3.22          | osnyatsky             | 2024-02-11 00:58:17 |
-| 6 ⬆   | 👑 crown           | 3.10          | osnyatsky*            | 2023-06-12 13:09:46 |
-| 7 ⬇   | 🦉 owl             | 2.87 (-0.33)  | uumgi                 | 2026-10-17 04:54:17 |
+| 6     | 👑 crown           | 3.10          | osnyatsky*            | 2023-06-12 13:09:46 |
+| 7     | 🦉 owl             | 2.87          | uumgi                 | 2026-10-17 04:54:17 |
 | 8     | 🧜‍♀️ mermaid        | 2.65          | kishma9               | 2023-12-04 11:12:58 |
 | 9     | 🧥 coat            | 1.85          | gstaman911            | 2025-01-01 13:14:00 |
 | 10    | 🐈‍⬛ blackcat      | 1.84          | uumgi                 | 2025-12-13 14:59:41 |
@@ -46,7 +46,7 @@
 | 40    | 🐀 rat             | 0.08          | derinturitierutz      | 2026-09-15 06:40:32 |
 | 40    | 🦈 shark           | 0.08          | sussy_amonge          | 2023-05-06 16:00:04 |
 | 44    | 👒 hat             | 0.07          | breadworms            | 2024-02-21 05:05:28 |
-| 44    | 🥒 seacucumber     | 0.07          | cutsekai              | 2025-09-09 14:26:45 |
+| 44    | 🥒 seacucumber     | 0.07          | orldofwarcraft        | 2025-09-09 14:26:45 |
 | 44    | 🧸 teddybear       | 0.07          | sicklymaidrobot       | 2024-02-13 07:14:29 |
 | 47    | 🪹 emptynest       | 0.06          | osnyisdead            | 2026-03-23 13:14:10 |
 | 47    | 🐦‍⬛ robin         | 0.06          | paras220              | 2024-07-07 04:33:58 |
@@ -73,7 +73,7 @@
 | 61    | 👟 sneaker         | 0.02          | derinturitierutz      | 2023-10-26 07:33:49 |
 | 61    | ☂️ umbrella         | 0.02          | ouacewi               | 2025-02-03 08:32:50 |
 | 71    | 🎱 8ball           | 0.01          | esvelles              | 2026-03-23 15:18:49 |
-| 71    | 🐜 ant             | 0.01          | cutsekai              | 2026-07-06 09:08:58 |
+| 71    | 🐜 ant             | 0.01          | orldofwarcraft        | 2026-07-06 09:08:58 |
 | 71    | 🫐 bilberries      | 0.01          | larvaew               | 2025-06-22 00:11:05 |
 | 71    | 🪀 bobber          | 0.01          | julialuxel            | 2023-08-20 23:19:06 |
 | 71    | 👢 boot            | 0.01          | osnyatsky             | 2024-02-03 06:44:14 |
@@ -96,7 +96,7 @@
 | 91    | 🍬 candy           | 0.00          | desoarer              | 2024-09-25 12:07:14 |
 | 91    | 🪳 cockroach       | 0.00          | derintu               | 2025-04-14 10:52:33 |
 | 91    | 🦀 crab            | 0.00          | kildofris*            | 2022-12-14 15:37:51 |
-| 91    | 🍃 deadleaves      | 0.00          | cutsekai              | 2026-03-11 15:23:17 |
+| 91    | 🍃 deadleaves      | 0.00          | orldofwarcraft        | 2026-03-11 15:23:17 |
 | 91    | 🪶 feather         | 0.00          | kishma9               | 2023-08-18 06:48:14 |
 | 91    | 🐟 fish            | 0.00          | islcfc*               | 2023-02-05 00:08:54 |
 | 91    | 🪰 fly             | 0.00          | kishma9               | 2025-08-26 17:15:21 |
@@ -128,4 +128,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-10-18 09:25:25 UTC_
+_Last updated at 2026-10-25 10:04:18 UTC_
