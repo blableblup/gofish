@@ -17,10 +17,10 @@
 | 13    | wowitsdub                 | 54          |
 | 14    | caprisen_                 | 51          |
 | 15    | veny2lbs                  | 47          |
-| 16 ⬆  | r3kko_                    | 45 (+19)    |
-| 17 ⬇  | blu_inx                   | 43          |
-| 18 ⬇  | paju1g                    | 40          |
-| 18 ⬇  | zwockel01                 | 40          |
+| 16    | riririririririririririkko | 45          |
+| 17    | blu_inx                   | 43          |
+| 18    | paju1g                    | 40          |
+| 18    | zwockel01                 | 40          |
 | 20    | flovrek                   | 24          |
 | 21    | bluberry                  | 21          |
 | 22    | wuh6                      | 18          |
@@ -31,4 +31,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-09-29 19:48:37 UTC_
+_Last updated at 2026-10-27 12:51:25 UTC_

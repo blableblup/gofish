@@ -43,7 +43,7 @@
 | 38    | yo_tacos                  | 42          |
 | 38    | zwockel01                 | 42          |
 | 41    | theevirus                 | 41          |
-| 42    | r3kko_                    | 38          |
+| 42    | riririririririririririkko | 38          |
 | 43    | commanda_u                | 37          |
 | 43    | elusiin                   | 37          |
 | 43    | pengeg                    | 37          |
@@ -62,9 +62,9 @@
 | 58    | angus_lpc                 | 24          |
 | 58    | bamfzi                    | 24          |
 | 58    | seryxx                    | 24          |
-| 61 🆕 | maplegif                  | 22          |
-| 62 ⬇  | afju*                     | 21          |
+| 61    | maplegif                  | 22          |
+| 62    | afju*                     | 21          |
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2026-10-13 16:49:38 UTC_
+_Last updated at 2026-10-27 12:51:25 UTC_

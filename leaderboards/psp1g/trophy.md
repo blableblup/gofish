@@ -3,8 +3,8 @@
 | Rank  | Player                    | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points       |
 |:------|:--------------------------|:------------|:-----------------|:-----------------|:-------------|
 | 1 🥇  | nndiana                   | 85          | 80               | 42               | 356.0        |
-| 2 🥈  | luneckie                  | 45 (+2)     | 15 (+1)          | 20               | 160.0 (+7.0) |
-| 3 🥉  | jayayseaohbee             | 30          | 22               | 11               | 117.5        |
+| 2 🥈  | luneckie                  | 45          | 15               | 20               | 160.0        |
+| 3 🥉  | jayayseaohbee             | 33 (+3)     | 22               | 11               | 126.5 (+9.0) |
 | 4     | bubinga                   | 28          | 21               | 16               | 113.0        |
 | 5     | sklortch                  | 14          | 12               | 3                | 55.5         |
 | 6     | blu_inx                   | 9           | 12               | 11               | 44.5         |
@@ -39,27 +39,27 @@
 | 35    | commanda_u                | 1           | 0                | 4                | 5.0          |
 | 35    | divra__                   | 1           | 2                | 0                | 5.0          |
 | 35    | hahppyy                   | 1           | 1                | 2                | 5.0          |
-| 38    | r3kko_                    | 0           | 4                | 1                | 4.5          |
-| 38    | tomokomot                 | 1           | 1                | 1                | 4.5          |
-| 40 🆕 | sacredpom                 | 1           | 1                | 0                | 4.0          |
-| 40    | veny2lbs                  | 1           | 0                | 2                | 4.0          |
-| 42 ⬇  | gorillapark               | 0           | 2                | 3                | 3.5          |
-| 42 ⬇  | sillyfellow32             | 0           | 3                | 1                | 3.5          |
-| 44 ⬇  | creepycode                | 0           | 3                | 0                | 3.0          |
-| 44 ⬇  | popfizzgg                 | 1           | 0                | 0                | 3.0          |
-| 44 ⬇  | zsipe                     | 0           | 3                | 0                | 3.0          |
-| 47 ⬇  | supibot                   | 0           | 2                | 1                | 2.5          |
-| 48 ⬇  | harnas_pro                | 0           | 2                | 0                | 2.0          |
-| 48 ⬇  | maplegif                  | 0           | 0                | 4                | 2.0          |
-| 48 ⬇  | yopego                    | 0           | 2                | 0                | 2.0          |
-| 51 ⬇  | crunch_sack               | 0           | 0                | 3                | 1.5          |
-| 52 ⬇  | deatron                   | 0           | 1                | 0                | 1.0          |
-| 52 ⬇  | feelsaceman               | 0           | 1                | 0                | 1.0          |
-| 52 ⬇  | ranctious                 | 0           | 1                | 0                | 1.0          |
-| 52 ⬇  | xd_2k                     | 0           | 1                | 0                | 1.0          |
-| 56 ⬇  | ducksleazzy               | 0           | 0                | 1                | 0.5          |
-| 56 ⬇  | eeziiii                   | 0           | 0                | 1                | 0.5          |
-| 56 ⬇  | llikotesnecil             | 0           | 0                | 1                | 0.5          |
-| 56 ⬇  | starducc                  | 0           | 0                | 1                | 0.5          |
+| 35 ⬆  | maplegif                  | 0           | 3 (+3)           | 4                | 5.0 (+3.0)   |
+| 39 ⬇  | riririririririririririkko | 0           | 4                | 1                | 4.5          |
+| 39 ⬇  | tomokomot                 | 1           | 1                | 1                | 4.5          |
+| 41 ⬇  | sacredpom                 | 1           | 1                | 0                | 4.0          |
+| 41 ⬇  | veny2lbs                  | 1           | 0                | 2                | 4.0          |
+| 43 ⬇  | gorillapark               | 0           | 2                | 3                | 3.5          |
+| 43 ⬇  | sillyfellow32             | 0           | 3                | 1                | 3.5          |
+| 45 ⬇  | creepycode                | 0           | 3                | 0                | 3.0          |
+| 45 ⬇  | popfizzgg                 | 1           | 0                | 0                | 3.0          |
+| 45 ⬇  | zsipe                     | 0           | 3                | 0                | 3.0          |
+| 48 ⬇  | supibot                   | 0           | 2                | 1                | 2.5          |
+| 49 ⬇  | harnas_pro                | 0           | 2                | 0                | 2.0          |
+| 49 ⬇  | yopego                    | 0           | 2                | 0                | 2.0          |
+| 51    | crunch_sack               | 0           | 0                | 3                | 1.5          |
+| 52    | deatron                   | 0           | 1                | 0                | 1.0          |
+| 52    | feelsaceman               | 0           | 1                | 0                | 1.0          |
+| 52    | ranctious                 | 0           | 1                | 0                | 1.0          |
+| 52    | xd_2k                     | 0           | 1                | 0                | 1.0          |
+| 56    | ducksleazzy               | 0           | 0                | 1                | 0.5          |
+| 56    | eeziiii                   | 0           | 0                | 1                | 0.5          |
+| 56    | llikotesnecil             | 0           | 0                | 1                | 0.5          |
+| 56    | starducc                  | 0           | 0                | 1                | 0.5          |
 
-_Last updated at 2026-10-21 11:20:06 UTC_
+_Last updated at 2026-10-27 12:51:25 UTC_
