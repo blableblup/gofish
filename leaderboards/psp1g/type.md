@@ -45,8 +45,8 @@
 | 41    | 🦠 plankton        | 21.99         | nndiana                   | 2023-12-26 04:58:23 |
 | 42    | 🪼 jellyfish       | 21.95         | sandwichsundays           | 2024-07-05 19:59:19 |
 | 43    | 🍄‍🟫 mushroom      | 21.86         | flunke_                   | 2026-02-13 07:50:03 |
-| 44    | 🦦 otter           | 19.96         | blu_inx                   | 2026-01-24 08:49:59 |
-| 45    | 🎃 pumpkin         | 19.80         | feelsaceman               | 2025-10-31 08:34:30 |
+| 44 ⬆  | 🎃 pumpkin         | 21.83 (+2.03) | ne01g                     | 2026-10-31 20:27:29 |
+| 45 ⬇  | 🦦 otter           | 19.96         | blu_inx                   | 2026-01-24 08:49:59 |
 | 46    | 🪱 worm            | 19.17         | caprisen_                 | 2023-10-18 12:29:31 |
 | 47    | 🍄 oceanplant      | 17.89         | deatron                   | 2026-01-19 19:50:16 |
 | 48    | 🧭 compass         | 17.75         | pylonii                   | 2024-01-01 22:13:11 |
@@ -126,4 +126,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-10-25 10:07:31 UTC_
+_Last updated at 2026-11-01 09:53:02 UTC_

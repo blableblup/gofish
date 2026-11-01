@@ -2,7 +2,7 @@
 
 | Rank  | Player           | Fish caught |
 |:------|:-----------------|:------------|
-| 1 🥇  | derintu          | 246         |
+| 1 🥇  | derintu          | 251 (+5)    |
 | 2 🥈  | lluuucy          | 160         |
 | 3 🥉  | leanmeister      | 77          |
 | 4     | derinturitierutz | 64          |
@@ -13,10 +13,10 @@
 | 9     | dazedforevermore | 28          |
 | 10    | elisworm         | 25          |
 | 11    | kishma9          | 23          |
+| 12 ⬆  | larvaew          | 14 (+1)     |
 | 12    | uumgi            | 14          |
-| 13    | fvkdylan         | 13          |
-| 13    | larvaew          | 13          |
+| 14 ⬇  | fvkdylan         | 13          |
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-10-04 08:04:05 UTC_
+_Last updated at 2026-11-01 09:50:13 UTC_

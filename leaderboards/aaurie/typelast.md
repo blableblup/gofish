@@ -2,34 +2,34 @@
 
 | Rank | Fish               | Weight in lbs | Player            | Date in UTC         |
 |:-----|:-------------------|:--------------|:------------------|:--------------------|
-| 78   | 🐠 tropicalfish    | 12.25         | victorvondoom313  | 2026-10-24 02:57:51 |
-| 77   | 🦀 crab            | 1.07          | anyonebutfejjy    | 2026-10-24 01:25:21 |
-| 76   | 🗡️ dagger           | 15.76         | anyonebutfejjy    | 2026-10-23 01:26:44 |
-| 75   | 🦪 oyster          | 7.70          | amatusz           | 2026-10-23 01:18:28 |
-| 74   | 🎏 lure            | 0.00          | amatusz           | 2026-10-22 00:53:27 |
-| 73   | 🦐 shrimp          | 19.90         | rustnroll         | 2026-10-20 05:34:48 |
-| 72   | 🐚 shell           | 3.10          | amatusz           | 2026-10-19 06:41:12 |
-| 71   | 🧽 sponge          | 12.31         | guy_farting420    | 2026-10-19 01:23:33 |
-| 70   | 🐡 blowfish        | 20.26         | onetriforce       | 2026-10-17 02:07:06 |
-| 69   | 🦞 lobster         | 30.44         | amatusz           | 2026-10-16 06:41:49 |
-| 68   | 🪝 hook            | 1.01          | amatusz           | 2026-10-16 01:24:28 |
-| 67   | 🌿 seaweed         | 0.45          | dirtnatty         | 2026-10-13 03:45:04 |
-| 66   | 🐸 frog            | 4.60          | nathanjames19     | 2026-10-13 03:42:08 |
-| 65   | 🪳 cockroach       | 6.99          | abelito75         | 2026-10-13 01:32:35 |
-| 64   | 🐟 fish            | 2.13          | ellie_is_random   | 2026-10-12 03:50:21 |
-| 63   | 🐍 snake           | 14.29         | anyonebutfejjy    | 2026-10-12 03:48:22 |
-| 62   | 🪸 coral           | 17.95         | amatusz           | 2026-10-10 04:14:52 |
-| 61   | 🐬 dolphin         | 89.59         | victorvondoom313  | 2026-10-10 03:07:19 |
-| 60   | 🐌 snail           | 0.82          | boogie_310        | 2026-10-09 06:07:45 |
-| 59   | 🍬 candy           | 0.00          | amatusz           | 2026-10-08 22:13:33 |
-| 58   | 🪀 bobber          | 0.00          | amatusz           | 2026-10-06 08:09:36 |
-| 57   | 🐉 dragon          | 254.89        | amatusz           | 2026-10-06 03:18:44 |
-| 56   | 💀 skull           | 5.87          | guy_farting420    | 2026-10-05 01:42:42 |
-| 55   | 🐋 whale           | 116.75        | victorvondoom313  | 2026-10-03 05:08:19 |
-| 54   | 🐳 bluewhale       | 97.77         | onetriforce       | 2026-09-28 23:31:40 |
-| 53   | 🐢 turtle          | 48.47         | boogie_310        | 2026-09-26 06:13:25 |
-| 52   | ☘️ clover           | 5.15          | aaurie            | 2026-09-25 05:08:27 |
-| 51   | 🐙 octopus         | 33.88         | goodtubbaa        | 2026-09-25 04:09:18 |
+| 78   | 🐙 octopus         | 61.56         | onetriforce       | 2026-10-31 03:05:40 |
+| 77   | 🧽 sponge          | 11.47         | norstargik        | 2026-10-31 02:16:23 |
+| 76   | 🪝 hook            | 0.09          | amatusz           | 2026-10-30 06:41:39 |
+| 75   | 🐠 tropicalfish    | 13.58         | amatusz           | 2026-10-30 05:34:48 |
+| 74   | 🎏 lure            | 1.66          | amatusz           | 2026-10-30 04:22:00 |
+| 73   | 🐋 whale           | 75.15         | amatusz           | 2026-10-30 01:18:11 |
+| 72   | 🐟 fish            | 47.64         | anyonebutfejjy    | 2026-10-27 01:18:38 |
+| 71   | 🦀 crab            | 1.07          | anyonebutfejjy    | 2026-10-24 01:25:21 |
+| 70   | 🗡️ dagger           | 15.76         | anyonebutfejjy    | 2026-10-23 01:26:44 |
+| 69   | 🦪 oyster          | 7.70          | amatusz           | 2026-10-23 01:18:28 |
+| 68   | 🦐 shrimp          | 19.90         | rustnroll         | 2026-10-20 05:34:48 |
+| 67   | 🐚 shell           | 3.10          | amatusz           | 2026-10-19 06:41:12 |
+| 66   | 🐡 blowfish        | 20.26         | onetriforce       | 2026-10-17 02:07:06 |
+| 65   | 🦞 lobster         | 30.44         | amatusz           | 2026-10-16 06:41:49 |
+| 64   | 🌿 seaweed         | 0.45          | dirtnatty         | 2026-10-13 03:45:04 |
+| 63   | 🐸 frog            | 4.60          | nathanjames19     | 2026-10-13 03:42:08 |
+| 62   | 🪳 cockroach       | 6.99          | abelito75         | 2026-10-13 01:32:35 |
+| 61   | 🐍 snake           | 14.29         | anyonebutfejjy    | 2026-10-12 03:48:22 |
+| 60   | 🪸 coral           | 17.95         | amatusz           | 2026-10-10 04:14:52 |
+| 59   | 🐬 dolphin         | 89.59         | victorvondoom313  | 2026-10-10 03:07:19 |
+| 58   | 🐌 snail           | 0.82          | boogie_310        | 2026-10-09 06:07:45 |
+| 57   | 🍬 candy           | 0.00          | amatusz           | 2026-10-08 22:13:33 |
+| 56   | 🪀 bobber          | 0.00          | amatusz           | 2026-10-06 08:09:36 |
+| 55   | 🐉 dragon          | 254.89        | amatusz           | 2026-10-06 03:18:44 |
+| 54   | 💀 skull           | 5.87          | guy_farting420    | 2026-10-05 01:42:42 |
+| 53   | 🐳 bluewhale       | 97.77         | onetriforce       | 2026-09-28 23:31:40 |
+| 52   | 🐢 turtle          | 48.47         | boogie_310        | 2026-09-26 06:13:25 |
+| 51   | ☘️ clover           | 5.15          | aaurie            | 2026-09-25 05:08:27 |
 | 50   | 🪵 log             | 8.85          | anyonebutfejjy    | 2026-09-25 01:08:31 |
 | 49   | 🕶️ darksunglasses   | 10.70         | rustnroll         | 2026-09-22 06:38:42 |
 | 48   | 🧦 socks           | 1.63          | abelito75         | 2026-09-22 00:58:30 |
@@ -81,4 +81,4 @@
 | 2    | 🎱 8ball           | 2.22          | mademooselle      | 2025-04-01 04:29:50 |
 | 1    | 🧵 wireline        | 0.04          | nalls             | 2025-03-22 04:41:42 |
 
-_Last updated at 2026-10-25 10:06:07 UTC_
+_Last updated at 2026-11-01 09:54:16 UTC_

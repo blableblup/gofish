@@ -32,75 +32,75 @@
 | 28    | xknownplayer         | 🐉 dragon    | 93.73         | 2026-06-15 15:21:31 |
 | 29    | lanisye              | 🐊 crocodile | 92.44         | 2026-07-20 16:21:56 |
 | 30    | punkish_live         | 🐋 whale     | 87.96         | 2026-06-18 18:26:27 |
-| 31    | ave0_                | 🦑 squid     | 86.33         | 2026-07-18 20:01:49 |
-| 32    | reinatheraven        | 🐙 octopus   | 85.81         | 2026-06-11 16:23:28 |
-| 33    | xknownplayer         | 🐊 crocodile | 84.64         | 2026-06-20 17:21:53 |
-| 34    | xknownplayer         | 🦈 shark     | 84.32         | 2026-07-20 16:59:59 |
-| 35    | lanisye              | 🐋 whale     | 82.22         | 2026-06-20 14:59:29 |
-| 36    | shootaahhh           | 🦑 squid     | 81.84         | 2026-08-03 15:54:40 |
-| 37    | littlemunnster       | 🐋 whale     | 80.90         | 2026-06-12 14:09:18 |
-| 38    | luluchanso           | 🐋 whale     | 80.55         | 2026-07-27 13:39:06 |
-| 39    | venus2642            | 🐋 whale     | 79.63         | 2026-06-30 18:59:29 |
-| 40    | whotookmamulukkikala | 🐋 whale     | 79.42         | 2026-06-17 14:18:49 |
-| 41    | xt1di                | 🐬 dolphin   | 78.48         | 2026-07-01 16:43:45 |
-| 42    | xknownplayer         | 🦑 squid     | 76.38         | 2026-06-15 17:00:45 |
-| 43    | whotookmamulukkikala | 🦕 sauropod  | 74.35         | 2026-08-10 16:08:09 |
-| 44    | xknownplayer         | 🦑 squid     | 74.00         | 2026-09-12 14:50:54 |
-| 45    | xt1di                | 🪸 coral     | 73.34         | 2026-06-17 14:20:01 |
-| 46    | xt1di                | 🐢 turtle    | 73.30         | 2026-06-15 13:34:43 |
-| 47    | nikkirowland         | 🐙 octopus   | 69.30         | 2026-07-01 16:33:23 |
-| 48    | kornmealius          | 🦑 squid     | 68.85         | 2026-06-07 16:27:28 |
-| 49    | brogboi              | 🦑 squid     | 68.79         | 2026-07-27 13:51:02 |
-| 50    | rainbymoonrise       | 🐙 octopus   | 67.25         | 2026-08-05 14:49:31 |
-| 51    | whotookmamulukkikala | 🪸 coral     | 67.16         | 2026-08-03 13:49:56 |
-| 52    | xknownplayer         | 🐬 dolphin   | 67.13         | 2026-06-11 16:42:07 |
-| 53    | supertauro           | 🦞 lobster   | 63.50         | 2026-07-23 14:18:50 |
-| 54    | luciafton            | 🪸 coral     | 62.74         | 2026-09-27 15:51:48 |
-| 55    | whotookmamulukkikala | 🐊 crocodile | 62.67         | 2026-07-18 15:49:37 |
-| 56    | nikkirowland         | 🐬 dolphin   | 62.54         | 2026-07-14 12:53:15 |
-| 57    | whotookmamulukkikala | 🦞 lobster   | 60.91         | 2026-06-17 17:49:09 |
-| 58    | xknownplayer         | 🐙 octopus   | 60.66         | 2026-07-31 14:29:08 |
-| 59    | punkish_live         | 🐙 octopus   | 58.98         | 2026-06-18 17:53:42 |
-| 60    | xknownplayer         | 🦞 lobster   | 57.96         | 2026-07-08 13:30:00 |
-| 61    | ave0_                | 🪸 coral     | 57.74         | 2026-07-14 12:53:34 |
-| 62    | xt1di                | 🦑 squid     | 56.80         | 2026-09-18 14:23:05 |
-| 63    | luciafton            | 🐙 octopus   | 56.74         | 2026-06-18 17:29:50 |
-| 64    | nikkirowland         | 🐢 turtle    | 56.63         | 2026-08-13 16:43:14 |
-| 65    | brogboi              | 🐙 octopus   | 56.59         | 2026-06-11 17:35:56 |
-| 66    | luciafton            | 🐬 dolphin   | 56.40         | 2026-06-10 15:52:59 |
-| 67    | supertauro           | 🦞 lobster   | 56.26         | 2026-07-20 14:43:01 |
-| 68    | brogboi              | 🐢 turtle    | 54.53         | 2026-06-07 13:31:05 |
-| 69    | xknownplayer         | 🐬 dolphin   | 53.83         | 2026-08-05 13:53:33 |
-| 70    | brogboi              | 🪸 coral     | 53.65         | 2026-07-31 15:04:45 |
-| 71    | xknownplayer         | 🐊 crocodile | 53.60         | 2026-07-14 20:50:25 |
-| 72    | xt1di                | 🧟 deadbody  | 53.49         | 2026-09-12 15:35:01 |
-| 73    | cookiemonstamadi     | 🧟 deadbody  | 53.10         | 2026-07-20 13:58:21 |
-| 74 🆕 | xknownplayer         | 🦞 lobster   | 52.96         | 2026-10-20 14:59:52 |
-| 75 ⬇  | whotookmamulukkikala | 🦑 squid     | 52.63         | 2026-07-01 15:54:13 |
-| 76 ⬇  | shootaahhh           | 🐬 dolphin   | 52.58         | 2026-08-03 17:04:33 |
-| 77 ⬇  | ave0_                | 🦞 lobster   | 52.35         | 2026-06-10 14:16:14 |
-| 78 ⬇  | whotookmamulukkikala | 🐢 turtle    | 51.84         | 2026-06-30 18:13:53 |
-| 79 ⬇  | xknownplayer         | 🐊 crocodile | 51.76         | 2026-07-15 15:37:38 |
-| 80 ⬇  | xknownplayer         | 🦑 squid     | 51.21         | 2026-07-16 11:43:08 |
-| 81 ⬇  | luluchanso           | 🦈 shark     | 51.17         | 2026-09-13 14:02:00 |
-| 82 ⬇  | luciafton            | 🪸 coral     | 50.60         | 2026-09-02 18:03:40 |
-| 83 🆕 | ave0_                | 🐊 crocodile | 49.97         | 2026-10-24 22:53:00 |
-| 84 ⬇  | xknownplayer         | 🐙 octopus   | 48.69         | 2026-06-30 15:13:23 |
-| 85 ⬇  | whotookmamulukkikala | 🪨 rock      | 46.97         | 2026-09-21 16:49:01 |
-| 86 ⬇  | whotookmamulukkikala | 🐬 dolphin   | 45.97         | 2026-07-08 13:42:03 |
-| 87 ⬇  | brogboi              | 🪨 rock      | 45.68         | 2026-06-30 18:55:55 |
-| 88 ⬇  | ave0_                | 🐊 crocodile | 45.63         | 2026-06-11 14:33:55 |
-| 89 ⬇  | whotookmamulukkikala | 🐉 dragon    | 45.12         | 2026-07-18 18:24:55 |
-| 90 ⬇  | xt1di                | 🦞 lobster   | 44.50         | 2026-06-15 14:14:47 |
-| 91 ⬇  | kasaii_kitsune       | 🐙 octopus   | 42.98         | 2026-07-16 13:35:00 |
-| 92 ⬇  | brogboi              | 🐢 turtle    | 42.95         | 2026-06-06 19:48:35 |
-| 93 ⬇  | xknownplayer         | 🦞 lobster   | 42.62         | 2026-06-11 17:14:59 |
-| 94 ⬇  | xknownplayer         | 🗡️ dagger     | 42.41         | 2026-06-11 14:08:49 |
-| 95 ⬇  | luciafton            | 🐳 bluewhale | 42.21         | 2026-06-17 18:28:07 |
-| 96 ⬇  | whotookmamulukkikala | 🗡️ dagger     | 42.09         | 2026-07-18 13:17:44 |
-| 97 ⬇  | longago_crow         | 🐬 dolphin   | 40.84         | 2026-08-24 12:38:35 |
-| 98 ⬇  | luciafton            | 🦞 lobster   | 40.62         | 2026-07-19 14:56:00 |
-| 99 ⬇  | luluchanso           | 🐋 whale     | 40.14         | 2026-06-15 14:35:59 |
-| 100 ⬇ | brogboi              | 🦞 lobster   | 39.90         | 2026-08-03 15:44:34 |
+| 31 🆕 | xt1di                | 🦑 squid     | 87.65         | 2026-10-30 17:12:16 |
+| 32 ⬇  | ave0_                | 🦑 squid     | 86.33         | 2026-07-18 20:01:49 |
+| 33 ⬇  | reinatheraven        | 🐙 octopus   | 85.81         | 2026-06-11 16:23:28 |
+| 34 ⬇  | xknownplayer         | 🐊 crocodile | 84.64         | 2026-06-20 17:21:53 |
+| 35 ⬇  | xknownplayer         | 🦈 shark     | 84.32         | 2026-07-20 16:59:59 |
+| 36 ⬇  | lanisye              | 🐋 whale     | 82.22         | 2026-06-20 14:59:29 |
+| 37 ⬇  | shootaahhh           | 🦑 squid     | 81.84         | 2026-08-03 15:54:40 |
+| 38 ⬇  | littlemunnster       | 🐋 whale     | 80.90         | 2026-06-12 14:09:18 |
+| 39 ⬇  | luluchanso           | 🐋 whale     | 80.55         | 2026-07-27 13:39:06 |
+| 40 🆕 | whotookmamulukkikala | 🦑 squid     | 79.74         | 2026-10-26 15:40:08 |
+| 41 ⬇  | venus2642            | 🐋 whale     | 79.63         | 2026-06-30 18:59:29 |
+| 42 ⬇  | whotookmamulukkikala | 🐋 whale     | 79.42         | 2026-06-17 14:18:49 |
+| 43 ⬇  | xt1di                | 🐬 dolphin   | 78.48         | 2026-07-01 16:43:45 |
+| 44 ⬇  | xknownplayer         | 🦑 squid     | 76.38         | 2026-06-15 17:00:45 |
+| 45 ⬇  | whotookmamulukkikala | 🦕 sauropod  | 74.35         | 2026-08-10 16:08:09 |
+| 46 ⬇  | xknownplayer         | 🦑 squid     | 74.00         | 2026-09-12 14:50:54 |
+| 47 ⬇  | xt1di                | 🪸 coral     | 73.34         | 2026-06-17 14:20:01 |
+| 48 ⬇  | xt1di                | 🐢 turtle    | 73.30         | 2026-06-15 13:34:43 |
+| 49 ⬇  | nikkirowland         | 🐙 octopus   | 69.30         | 2026-07-01 16:33:23 |
+| 50 ⬇  | kornmealius          | 🦑 squid     | 68.85         | 2026-06-07 16:27:28 |
+| 51 ⬇  | brogboi              | 🦑 squid     | 68.79         | 2026-07-27 13:51:02 |
+| 52 🆕 | luciafton            | 🐊 crocodile | 68.73         | 2026-10-31 19:39:00 |
+| 53 ⬇  | rainbymoonrise       | 🐙 octopus   | 67.25         | 2026-08-05 14:49:31 |
+| 54 ⬇  | whotookmamulukkikala | 🪸 coral     | 67.16         | 2026-08-03 13:49:56 |
+| 55 ⬇  | xknownplayer         | 🐬 dolphin   | 67.13         | 2026-06-11 16:42:07 |
+| 56 ⬇  | supertauro           | 🦞 lobster   | 63.50         | 2026-07-23 14:18:50 |
+| 57 ⬇  | luciafton            | 🪸 coral     | 62.74         | 2026-09-27 15:51:48 |
+| 58 ⬇  | whotookmamulukkikala | 🐊 crocodile | 62.67         | 2026-07-18 15:49:37 |
+| 59 ⬇  | nikkirowland         | 🐬 dolphin   | 62.54         | 2026-07-14 12:53:15 |
+| 60 ⬇  | whotookmamulukkikala | 🦞 lobster   | 60.91         | 2026-06-17 17:49:09 |
+| 61 ⬇  | xknownplayer         | 🐙 octopus   | 60.66         | 2026-07-31 14:29:08 |
+| 62 🆕 | luciafton            | 🐳 bluewhale | 60.47         | 2026-10-30 18:20:24 |
+| 63 ⬇  | punkish_live         | 🐙 octopus   | 58.98         | 2026-06-18 17:53:42 |
+| 64 ⬇  | xknownplayer         | 🦞 lobster   | 57.96         | 2026-07-08 13:30:00 |
+| 65 ⬇  | ave0_                | 🪸 coral     | 57.74         | 2026-07-14 12:53:34 |
+| 66 ⬇  | xt1di                | 🦑 squid     | 56.80         | 2026-09-18 14:23:05 |
+| 67 ⬇  | luciafton            | 🐙 octopus   | 56.74         | 2026-06-18 17:29:50 |
+| 68 ⬇  | nikkirowland         | 🐢 turtle    | 56.63         | 2026-08-13 16:43:14 |
+| 69 ⬇  | brogboi              | 🐙 octopus   | 56.59         | 2026-06-11 17:35:56 |
+| 70 ⬇  | luciafton            | 🐬 dolphin   | 56.40         | 2026-06-10 15:52:59 |
+| 71 ⬇  | supertauro           | 🦞 lobster   | 56.26         | 2026-07-20 14:43:01 |
+| 72 ⬇  | brogboi              | 🐢 turtle    | 54.53         | 2026-06-07 13:31:05 |
+| 73 ⬇  | xknownplayer         | 🐬 dolphin   | 53.83         | 2026-08-05 13:53:33 |
+| 74 ⬇  | brogboi              | 🪸 coral     | 53.65         | 2026-07-31 15:04:45 |
+| 75 ⬇  | xknownplayer         | 🐊 crocodile | 53.60         | 2026-07-14 20:50:25 |
+| 76 ⬇  | xt1di                | 🧟 deadbody  | 53.49         | 2026-09-12 15:35:01 |
+| 77 ⬇  | cookiemonstamadi     | 🧟 deadbody  | 53.10         | 2026-07-20 13:58:21 |
+| 78 ⬇  | xknownplayer         | 🦞 lobster   | 52.96         | 2026-10-20 14:59:52 |
+| 79 ⬇  | whotookmamulukkikala | 🦑 squid     | 52.63         | 2026-07-01 15:54:13 |
+| 80 ⬇  | shootaahhh           | 🐬 dolphin   | 52.58         | 2026-08-03 17:04:33 |
+| 81 🆕 | whotookmamulukkikala | 🐬 dolphin   | 52.51         | 2026-10-31 19:08:55 |
+| 82 ⬇  | ave0_                | 🦞 lobster   | 52.35         | 2026-06-10 14:16:14 |
+| 83 ⬇  | whotookmamulukkikala | 🐢 turtle    | 51.84         | 2026-06-30 18:13:53 |
+| 84 ⬇  | xknownplayer         | 🐊 crocodile | 51.76         | 2026-07-15 15:37:38 |
+| 85 ⬇  | xknownplayer         | 🦑 squid     | 51.21         | 2026-07-16 11:43:08 |
+| 86 ⬇  | luluchanso           | 🦈 shark     | 51.17         | 2026-09-13 14:02:00 |
+| 87 ⬇  | luciafton            | 🪸 coral     | 50.60         | 2026-09-02 18:03:40 |
+| 88 ⬇  | ave0_                | 🐊 crocodile | 49.97         | 2026-10-24 22:53:00 |
+| 89 ⬇  | xknownplayer         | 🐙 octopus   | 48.69         | 2026-06-30 15:13:23 |
+| 90 🆕 | whotookmamulukkikala | 🐬 dolphin   | 47.45         | 2026-10-31 15:34:27 |
+| 91 ⬇  | whotookmamulukkikala | 🪨 rock      | 46.97         | 2026-09-21 16:49:01 |
+| 92 ⬇  | whotookmamulukkikala | 🐬 dolphin   | 45.97         | 2026-07-08 13:42:03 |
+| 93 🆕 | xt1di                | 🐟 fish      | 45.94         | 2026-10-30 20:32:32 |
+| 94 ⬇  | brogboi              | 🪨 rock      | 45.68         | 2026-06-30 18:55:55 |
+| 95 ⬇  | ave0_                | 🐊 crocodile | 45.63         | 2026-06-11 14:33:55 |
+| 96 ⬇  | whotookmamulukkikala | 🐉 dragon    | 45.12         | 2026-07-18 18:24:55 |
+| 97 ⬇  | xt1di                | 🦞 lobster   | 44.50         | 2026-06-15 14:14:47 |
+| 98 ⬇  | kasaii_kitsune       | 🐙 octopus   | 42.98         | 2026-07-16 13:35:00 |
+| 99 ⬇  | brogboi              | 🐢 turtle    | 42.95         | 2026-06-06 19:48:35 |
+| 100 ⬇ | xknownplayer         | 🦞 lobster   | 42.62         | 2026-06-11 17:14:59 |
 
-_Last updated at 2026-10-25 10:08:13 UTC_
+_Last updated at 2026-11-01 09:54:16 UTC_

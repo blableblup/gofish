@@ -2,9 +2,9 @@
 
 | Rank | Fish             | Weight in lbs | Player           | Date in UTC         |
 |:-----|:-----------------|:--------------|:-----------------|:--------------------|
-| 69   | 🐢 turtle        | 67.48         | glorpiusbot      | 2026-10-19 22:51:05 |
-| 68   | 🪝 hook          | 1.77          | cute_ducc        | 2026-10-16 12:42:36 |
-| 67   | 🐟 fish          | 6.86          | yucidra          | 2026-10-13 21:58:40 |
+| 69   | 🐟 fish          | 5.69          | glorpiusbot      | 2026-10-29 15:46:57 |
+| 68   | 🐢 turtle        | 67.48         | glorpiusbot      | 2026-10-19 22:51:05 |
+| 67   | 🪝 hook          | 1.77          | cute_ducc        | 2026-10-16 12:42:36 |
 | 66   | ☘️ clover         | 3.76          | glorpiusbot      | 2026-09-29 02:20:33 |
 | 65   | 🐸 frog          | 2.97          | kam3l_           | 2026-09-27 20:13:33 |
 | 64   | 🪼 jellyfish     | 15.16         | cute_ducc        | 2026-09-25 19:30:23 |
@@ -72,4 +72,4 @@
 | 2    | 🛢️ oildrum        | 37.07         | rustezzz         | 2025-06-21 00:09:40 |
 | 1    | 🩰 balletshoes   | 1.25          | delfino921       | 2025-02-22 23:48:09 |
 
-_Last updated at 2026-10-25 10:06:07 UTC_
+_Last updated at 2026-11-01 09:54:17 UTC_

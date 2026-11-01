@@ -2,6 +2,10 @@
 
 | Rank | Fish               | Weight in lbs | Player               | Date in UTC         |
 |:-----|:-------------------|:--------------|:---------------------|:--------------------|
+| 54   | 🍄 oceanplant      | 12.56         | nikkirowland         | 2026-10-31 15:44:29 |
+| 53   | 🦦 otter           | 8.66          | whotookmamulukkikala | 2026-10-30 21:22:05 |
+| 52   | 🦎 lizard          | 8.47          | whotookmamulukkikala | 2026-10-30 20:11:56 |
+| 51   | 👟 sneaker         | 0.63          | whotookmamulukkikala | 2026-10-30 17:36:57 |
 | 50   | 🌹 rose            | 1.40          | ne01g                | 2026-09-30 13:32:47 |
 | 49   | 🪀 bobber          | 0.00          | whotookmamulukkikala | 2026-08-10 17:55:02 |
 | 48   | 🦕 sauropod        | 198.90        | xknownplayer         | 2026-08-10 15:23:08 |
@@ -53,4 +57,4 @@
 | 2    | 🐢 turtle          | 42.95         | brogboi              | 2026-06-06 19:48:35 |
 | 1    | 💀 skull           | 3.85          | brogboi              | 2026-06-05 17:07:40 |
 
-_Last updated at 2026-10-25 10:04:00 UTC_
+_Last updated at 2026-11-01 09:50:13 UTC_

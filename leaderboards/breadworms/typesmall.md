@@ -32,7 +32,7 @@
 | 28    | 🦢 swan            | 0.17          | lluuucy               | 2024-07-15 15:39:04 |
 | 29    | 🦭 seal            | 0.15          | dazedforevermore      | 2024-01-28 16:20:04 |
 | 30    | 🍥 sanddollar      | 0.14          | wceol                 | 2026-07-28 13:04:50 |
-| 31    | 🦆 duck            | 0.12          | lelullu               | 2026-10-08 03:36:04 |
+| 31    | 🦆 duck            | 0.12          | oikyanus              | 2026-10-08 03:36:04 |
 | 31    | 🪁 kite            | 0.12          | destin357             | 2025-06-29 13:18:44 |
 | 33    | 🦇 bat             | 0.11          | fishingalt            | 2026-03-22 09:34:41 |
 | 33    | 🩲 briefs          | 0.11          | derinturitierutz      | 2024-07-31 17:15:58 |
@@ -128,4 +128,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-10-25 10:04:18 UTC_
+_Last updated at 2026-11-01 09:51:59 UTC_

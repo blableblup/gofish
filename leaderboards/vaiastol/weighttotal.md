@@ -2,27 +2,27 @@
 
 | Rank  | Player                | Total Weight in lbs |
 |:------|:----------------------|:--------------------|
-| 1 🥇  | vaiastol              | 57283.56 (+402.73)  |
+| 1 🥇  | vaiastol              | 57630.78 (+347.22)  |
 | 2 🥈  | hahppyy               | 36131.39            |
 | 3 🥉  | eelacy                | 16302.36            |
-| 4     | proswift              | 13279.26 (+139.50)  |
+| 4     | proswift              | 13412.66 (+133.40)  |
 | 5     | divra__               | 12549.83            |
 | 6     | garout                | 12474.59            |
 | 7     | ichezero              | 11210.20            |
 | 8     | nicestnarwhal         | 9929.13             |
 | 9     | leastsussyimposter    | 9791.51             |
 | 10    | leanmeister           | 9660.42             |
-| 11    | thespecialone22       | 9311.66             |
-| 12    | zfk770                | 8948.03 (+221.97)   |
+| 11 ⬆  | zfk770                | 9346.79 (+398.76)   |
+| 12 ⬇  | thespecialone22       | 9311.66             |
 | 13    | ryakarr               | 7983.04             |
 | 14    | dazedforevermore      | 5610.15             |
 | 15    | itsthara              | 5215.87             |
 | 16    | pengeg                | 4975.48             |
-| 17    | louisemaxxing         | 4858.17 (+63.26)    |
+| 17    | louisemaxxing         | 4858.17             |
 | 18    | julialuxel            | 4536.16             |
 | 19    | milesdotcom           | 2546.43             |
 | 20    | tiaguitos97           | 2319.20             |
-| 21    | notsatan13            | 1990.10             |
+| 21    | notsatan13            | 2024.73 (+34.63)    |
 | 22    | brontiiide            | 1966.17             |
 | 23    | gstaman911            | 1745.30             |
 | 24    | crustymilk            | 1587.56             |
@@ -54,4 +54,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-10-25 10:06:05 UTC_
+_Last updated at 2026-11-01 09:50:10 UTC_

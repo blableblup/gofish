@@ -101,6 +101,6 @@
 | 97     | vagdy                     | 🐳 bluewhale  | 288.65        | 2026-01-11 22:18:50 | ![buhl00n](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/buhl00n.png)                 |
 | 98     | esvelles                  | 🐳 bluewhale  | 288.59        | 2026-07-03 10:31:09 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)           |
 | 99     | miiiiisho                 | 🦈 shark      | 288.27        | 2024-02-01 22:00:13 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)           |
-| 100 🆕 | comiqq                    | 🐳 bluewhale  | 288.19        | 2024-03-24 15:49:44 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)           |
+| 100 🆕 | lobuhtomy                 | 🐳 bluewhale  | 288.19        | 2025-12-05 02:45:41 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                       |
 
-_Last updated at 2026-10-18 09:28:09 UTC_
+_Last updated at 2026-11-01 09:54:16 UTC_

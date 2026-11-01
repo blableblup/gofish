@@ -3,38 +3,38 @@
 | Rank  | Player                    | Fish caught |
 |:------|:--------------------------|:------------|
 | 1 🥇  | iflya320                  | 5263        |
-| 2 🥈  | ranctious                 | 5168 (+70)  |
-| 3 🥉  | bubinga                   | 4454 (+25)  |
-| 4     | eeziiii                   | 4352 (+7)   |
-| 5     | theevirus                 | 4148 (+17)  |
-| 6     | lobuhtomy                 | 3173 (+23)  |
+| 2 🥈  | ranctious                 | 5237 (+69)  |
+| 3 🥉  | bubinga                   | 4479 (+25)  |
+| 4     | eeziiii                   | 4353 (+1)   |
+| 5     | theevirus                 | 4176 (+28)  |
+| 6     | lobuhtomy                 | 3197 (+24)  |
 | 7     | huuuuuuuuuuuuuuuuuuuuuurz | 2772        |
-| 8     | wowitsdub                 | 2726 (+10)  |
-| 9     | nndiana*                  | 1948 (+10)  |
-| 10    | gorillapark               | 1568        |
+| 8     | wowitsdub                 | 2734 (+8)   |
+| 9     | nndiana*                  | 1969 (+21)  |
+| 10    | gorillapark               | 1570 (+2)   |
 | 11    | veny2lbs                  | 954         |
 | 12    | rancbot                   | 916         |
 | 13    | creepycode*               | 873         |
 | 14    | mazzo_tv                  | 567         |
-| 15    | feelsaceman               | 516 (+8)    |
-| 16    | caprisen_*                | 465 (+3)    |
+| 15    | feelsaceman               | 527 (+11)   |
+| 16    | caprisen_*                | 468 (+3)    |
 | 17    | sandwichsundays*          | 400         |
 | 18    | blu_inx                   | 338         |
 | 19    | commanda_u                | 328         |
-| 20    | bcarw                     | 288         |
+| 20    | bcarw                     | 294 (+6)    |
 | 21    | bluberry                  | 267         |
-| 22    | flovrek                   | 257         |
-| 23 ⬆  | riririririririririririkko | 236 (+6)    |
-| 24 ⬇  | ocrw                      | 235         |
-| 25    | supibot                   | 230 (+1)    |
-| 26    | ewpert1                   | 212         |
+| 22 ⬆  | riririririririririririkko | 261 (+25)   |
+| 23 ⬇  | flovrek                   | 257         |
+| 24    | ocrw                      | 243 (+8)    |
+| 25    | supibot                   | 230         |
+| 26    | ewpert1                   | 213 (+1)    |
 | 27    | flvx_flux*                | 200         |
 | 28    | poons_u                   | 151         |
 | 29    | ceriise__                 | 150         |
 | 30    | thetaxmen                 | 148         |
 | 31    | teddbearcs                | 146         |
 | 32    | jr_mime                   | 144         |
-| 33    | bcarbot                   | 140         |
+| 33    | bcarbot                   | 142 (+2)    |
 | 34    | benciee                   | 135         |
 | 35    | glorianeq                 | 105         |
 | 35    | iflya350                  | 105         |
@@ -58,11 +58,11 @@
 | 53    | rottarded                 | 41          |
 | 55    | pspisafemboy              | 38          |
 | 56    | sillyfellow32             | 36          |
-| 57    | iflyb737                  | 33          |
-| 57    | mrsmalvic                 | 33          |
+| 57    | mrsmalvic                 | 34 (+1)     |
+| 58 ⬇  | iflyb737                  | 33          |
 | 59    | pikausha                  | 32          |
 | 60    | llikotesnecil             | 31          |
-| 61    | wiihxhx                   | 28 (+2)     |
+| 61    | wiihxhx                   | 28          |
 | 62    | kalechap                  | 25          |
 | 63    | ggmagician                | 23          |
 | 64    | luneckie                  | 21          |
@@ -79,4 +79,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-10-25 10:06:06 UTC_
+_Last updated at 2026-11-01 09:50:12 UTC_

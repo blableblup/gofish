@@ -3,7 +3,7 @@
 | Rank  | Player                    | Fish seen |
 |:------|:--------------------------|:----------|
 | 1 🥇  | eeziiii                   | 116       |
-| 2 🥈  | theevirus                 | 113       |
+| 2 🥈  | theevirus                 | 114 (+1)  |
 | 3 🥉  | iflya320                  | 112       |
 | 4     | bubinga                   | 110       |
 | 4     | lobuhtomy                 | 110       |
@@ -13,20 +13,20 @@
 | 9     | huuuuuuuuuuuuuuuuuuuuuurz | 96        |
 | 10    | gorillapark               | 90        |
 | 11    | veny2lbs                  | 82        |
-| 12    | feelsaceman               | 74        |
+| 12    | feelsaceman               | 75 (+1)   |
 | 13    | rancbot                   | 70        |
 | 14    | caprisen_*                | 63        |
 | 15    | mazzo_tv                  | 62        |
-| 16    | supibot                   | 59        |
-| 17    | commanda_u                | 58        |
-| 17 ⬆  | riririririririririririkko | 58 (+1)   |
-| 19    | bcarw                     | 56        |
+| 16 ⬆  | riririririririririririkko | 61 (+3)   |
+| 17 ⬇  | supibot                   | 59        |
+| 18 ⬆  | bcarw                     | 58 (+2)   |
+| 18 ⬇  | commanda_u                | 58        |
 | 20    | bluberry                  | 54        |
 | 21    | blu_inx                   | 53        |
 | 22    | flovrek                   | 52        |
-| 23    | ocrw                      | 49        |
-| 23    | sandwichsundays*          | 49        |
-| 23    | thetaxmen                 | 49        |
+| 23    | ocrw                      | 50 (+1)   |
+| 24 ⬇  | sandwichsundays*          | 49        |
+| 24 ⬇  | thetaxmen                 | 49        |
 | 26    | ewpert1                   | 48        |
 | 27    | flvx_flux*                | 45        |
 | 28    | teddbearcs                | 44        |
@@ -62,4 +62,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-10-25 10:03:59 UTC_
+_Last updated at 2026-11-01 09:50:11 UTC_
