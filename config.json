@@ -1157,6 +1157,25 @@
 			"checkfdata": true,
 			"board_enabled": true
 		},
+		"psp247": {
+			"twitchid": "1510177905",
+			"logs_instances": [
+				{
+					"url": "https://logs.susgee.dev",
+					"logs_added": "2026/10"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2026/10"
+				},
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/10"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
 		"punkish_live": {
 			"twitchid": "533110988",
 			"logs_instances": [
