@@ -38,7 +38,7 @@
 | 34    | bapqo                 | 49          |
 | 34    | wceol                 | 49          |
 | 36    | osnyatsky             | 47          |
-| 37    | lelullu               | 46          |
+| 37    | oikyanus              | 46          |
 | 37    | paras220              | 46          |
 | 37    | ytp_dl                | 46          |
 | 40    | ninjaross             | 44          |
@@ -64,4 +64,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2026-10-27 12:51:25 UTC_
+_Last updated at 2026-11-03 18:07:46 UTC_
