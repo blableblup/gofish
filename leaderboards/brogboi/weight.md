@@ -6,23 +6,24 @@
 | 2 🥈  | nikkirowland         | 🐉 dragon    | 171.71        | 2026-09-13 14:16:20 |
 | 3 🥉  | whotookmamulukkikala | 🐢 turtle    | 154.34        | 2026-08-03 18:04:29 |
 | 4     | brogboi              | 🐋 whale     | 137.74        | 2026-06-15 16:58:36 |
-| 5     | punkish_live         | 🐊 crocodile | 119.68        | 2026-06-17 13:57:31 |
-| 6     | littlemunnster       | 🐙 octopus   | 112.88        | 2026-06-15 12:56:17 |
-| 7     | ave0_                | 🐊 crocodile | 108.28        | 2026-07-14 19:33:28 |
-| 8     | ffcolx               | 🐋 whale     | 105.43        | 2026-06-17 15:44:59 |
-| 9     | luciafton            | 🦈 shark     | 105.32        | 2026-07-23 15:01:15 |
-| 10    | lanisye              | 🐊 crocodile | 102.07        | 2026-09-02 14:27:11 |
-| 11    | kleinheld04          | 🐋 whale     | 96.06         | 2026-08-10 14:43:47 |
-| 12 ⬆  | xt1di                | 🦑 squid     | 87.65 (+9.17) | 2026-10-30 17:12:16 |
-| 13 ⬇  | reinatheraven        | 🐙 octopus   | 85.81         | 2026-06-11 16:23:28 |
-| 14 ⬇  | shootaahhh           | 🦑 squid     | 81.84         | 2026-08-03 15:54:40 |
-| 15 ⬇  | luluchanso           | 🐋 whale     | 80.55         | 2026-07-27 13:39:06 |
-| 16 ⬇  | venus2642            | 🐋 whale     | 79.63         | 2026-06-30 18:59:29 |
-| 17    | kornmealius          | 🦑 squid     | 68.85         | 2026-06-07 16:27:28 |
-| 18    | rainbymoonrise       | 🐙 octopus   | 67.25         | 2026-08-05 14:49:31 |
-| 19    | supertauro           | 🦞 lobster   | 63.50         | 2026-07-23 14:18:50 |
-| 20    | cookiemonstamadi     | 🧟 deadbody  | 53.10         | 2026-07-20 13:58:21 |
+| 5 🆕  | draculvrita          | 🐙 octopus   | 130.75        | 2026-11-07 16:39:01 |
+| 6 ⬇   | punkish_live         | 🐊 crocodile | 119.68        | 2026-06-17 13:57:31 |
+| 7 ⬇   | littlemunnster       | 🐙 octopus   | 112.88        | 2026-06-15 12:56:17 |
+| 8 ⬇   | ave0_                | 🐊 crocodile | 108.28        | 2026-07-14 19:33:28 |
+| 9 ⬇   | ffcolx               | 🐋 whale     | 105.43        | 2026-06-17 15:44:59 |
+| 10 ⬇  | luciafton            | 🦈 shark     | 105.32        | 2026-07-23 15:01:15 |
+| 11 ⬇  | lanisye              | 🐊 crocodile | 102.07        | 2026-09-02 14:27:11 |
+| 12 ⬇  | kleinheld04          | 🐋 whale     | 96.06         | 2026-08-10 14:43:47 |
+| 13 ⬇  | xt1di                | 🦑 squid     | 87.65         | 2026-10-30 17:12:16 |
+| 14 ⬇  | reinatheraven        | 🐙 octopus   | 85.81         | 2026-06-11 16:23:28 |
+| 15 ⬇  | shootaahhh           | 🦑 squid     | 81.84         | 2026-08-03 15:54:40 |
+| 16 ⬇  | luluchanso           | 🐋 whale     | 80.55         | 2026-07-27 13:39:06 |
+| 17 ⬇  | venus2642            | 🐋 whale     | 79.63         | 2026-06-30 18:59:29 |
+| 18 ⬇  | kornmealius          | 🦑 squid     | 68.85         | 2026-06-07 16:27:28 |
+| 19 ⬇  | rainbymoonrise       | 🐙 octopus   | 67.25         | 2026-08-05 14:49:31 |
+| 20 ⬇  | supertauro           | 🦞 lobster   | 63.50         | 2026-07-23 14:18:50 |
+| 21 ⬇  | cookiemonstamadi     | 🧟 deadbody  | 53.10         | 2026-07-20 13:58:21 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2026-11-01 09:54:19 UTC_
+_Last updated at 2026-11-08 09:25:39 UTC_

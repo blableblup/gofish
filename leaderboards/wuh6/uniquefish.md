@@ -3,30 +3,30 @@
 | Rank  | Player                    | Fish seen |
 |:------|:--------------------------|:----------|
 | 1 🥇  | eeziiii                   | 116       |
-| 2 🥈  | theevirus                 | 114 (+1)  |
+| 2 🥈  | theevirus                 | 114       |
 | 3 🥉  | iflya320                  | 112       |
-| 4     | bubinga                   | 110       |
-| 4     | lobuhtomy                 | 110       |
-| 6     | ranctious                 | 104       |
+| 4     | bubinga                   | 111 (+1)  |
+| 4     | lobuhtomy                 | 111 (+1)  |
+| 6     | ranctious                 | 105 (+1)  |
 | 7     | nndiana*                  | 101       |
 | 7     | wowitsdub                 | 101       |
 | 9     | huuuuuuuuuuuuuuuuuuuuuurz | 96        |
 | 10    | gorillapark               | 90        |
 | 11    | veny2lbs                  | 82        |
-| 12    | feelsaceman               | 75 (+1)   |
+| 12    | feelsaceman               | 78 (+3)   |
 | 13    | rancbot                   | 70        |
 | 14    | caprisen_*                | 63        |
-| 15    | mazzo_tv                  | 62        |
-| 16 ⬆  | riririririririririririkko | 61 (+3)   |
-| 17 ⬇  | supibot                   | 59        |
-| 18 ⬆  | bcarw                     | 58 (+2)   |
-| 18 ⬇  | commanda_u                | 58        |
+| 14 ⬆  | riririririririririririkko | 63 (+2)   |
+| 16 ⬇  | mazzo_tv                  | 62        |
+| 17 ⬆  | bcarw                     | 60 (+2)   |
+| 18 ⬇  | supibot                   | 59        |
+| 19 ⬇  | commanda_u                | 58        |
 | 20    | bluberry                  | 54        |
-| 21    | blu_inx                   | 53        |
-| 22    | flovrek                   | 52        |
-| 23    | ocrw                      | 50 (+1)   |
-| 24 ⬇  | sandwichsundays*          | 49        |
-| 24 ⬇  | thetaxmen                 | 49        |
+| 20 ⬆  | ocrw                      | 54 (+4)   |
+| 22 ⬇  | blu_inx                   | 53        |
+| 23 ⬇  | flovrek                   | 52        |
+| 24    | sandwichsundays*          | 49        |
+| 24    | thetaxmen                 | 49        |
 | 26    | ewpert1                   | 48        |
 | 27    | flvx_flux*                | 45        |
 | 28    | teddbearcs                | 44        |
@@ -62,4 +62,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-11-01 09:50:11 UTC_
+_Last updated at 2026-11-08 09:25:40 UTC_

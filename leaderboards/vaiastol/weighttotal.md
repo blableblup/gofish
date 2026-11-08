@@ -2,18 +2,18 @@
 
 | Rank  | Player                | Total Weight in lbs |
 |:------|:----------------------|:--------------------|
-| 1 🥇  | vaiastol              | 57630.78 (+347.22)  |
+| 1 🥇  | vaiastol              | 58223.60 (+592.82)  |
 | 2 🥈  | hahppyy               | 36131.39            |
 | 3 🥉  | eelacy                | 16302.36            |
-| 4     | proswift              | 13412.66 (+133.40)  |
+| 4     | proswift              | 13445.06 (+32.40)   |
 | 5     | divra__               | 12549.83            |
 | 6     | garout                | 12474.59            |
 | 7     | ichezero              | 11210.20            |
 | 8     | nicestnarwhal         | 9929.13             |
 | 9     | leastsussyimposter    | 9791.51             |
 | 10    | leanmeister           | 9660.42             |
-| 11 ⬆  | zfk770                | 9346.79 (+398.76)   |
-| 12 ⬇  | thespecialone22       | 9311.66             |
+| 11    | zfk770                | 9369.34 (+22.55)    |
+| 12    | thespecialone22       | 9311.66             |
 | 13    | ryakarr               | 7983.04             |
 | 14    | dazedforevermore      | 5610.15             |
 | 15    | itsthara              | 5215.87             |
@@ -22,7 +22,7 @@
 | 18    | julialuxel            | 4536.16             |
 | 19    | milesdotcom           | 2546.43             |
 | 20    | tiaguitos97           | 2319.20             |
-| 21    | notsatan13            | 2024.73 (+34.63)    |
+| 21    | notsatan13            | 2024.73             |
 | 22    | brontiiide            | 1966.17             |
 | 23    | gstaman911            | 1745.30             |
 | 24    | crustymilk            | 1587.56             |
@@ -43,15 +43,15 @@
 | 39    | v6r_                  | 325.01              |
 | 40    | j4song                | 321.68              |
 | 41    | lisa_bin              | 286.41              |
-| 42    | respirate_            | 268.58              |
-| 43    | sandwichsundays*      | 254.32              |
-| 44    | thetaxmen             | 239.00              |
-| 45    | gamby985*             | 227.02              |
-| 46    | jorpiter              | 215.04              |
+| 42 ⬆  | jorpiter              | 274.95 (+59.91)     |
+| 43 ⬇  | respirate_            | 268.58              |
+| 44 ⬇  | sandwichsundays*      | 254.32              |
+| 45 ⬇  | thetaxmen             | 239.00              |
+| 46 ⬇  | gamby985*             | 227.02              |
 | 47    | dev0p_                | 210.01              |
 | 48    | nightmare_jpg         | 206.76              |
 | 49    | cyaniderx             | 203.83              |
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-11-01 09:50:10 UTC_
+_Last updated at 2026-11-08 09:25:39 UTC_

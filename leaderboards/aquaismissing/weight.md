@@ -28,11 +28,11 @@
 | 24    | mir9_9           | 👑 crown     | 69.79         | 2026-07-30 22:21:22 |
 | 25    | underpaidchatter | 🦑 squid     | 69.03         | 2026-05-01 22:52:23 |
 | 26    | nuflux           | 🐙 octopus   | 59.93         | 2026-03-17 01:16:05 |
-| 27 🆕 | wamacry          | 🦑 squid     | 59.84         | 2026-09-07 23:50:18 |
-| 28 ⬇  | tautautautautau  | 🐢 turtle    | 59.69         | 2025-03-11 22:09:33 |
-| 29 ⬇  | girlglock        | 🦞 lobster   | 58.02         | 2025-05-24 00:29:21 |
-| 30 ⬇  | beepisla         | 🦑 squid     | 50.31         | 2025-01-14 21:39:57 |
+| 27    | leaky_gooner     | 🦑 squid     | 59.84         | 2026-09-07 23:50:18 |
+| 28    | tautautautautau  | 🐢 turtle    | 59.69         | 2025-03-11 22:09:33 |
+| 29    | girlglock        | 🦞 lobster   | 58.02         | 2025-05-24 00:29:21 |
+| 30    | beepisla         | 🦑 squid     | 50.31         | 2025-01-14 21:39:57 |
 
 _Only showing fish weighing >= 50 lbs_
 
-_Last updated at 2026-09-13 08:07:08 UTC_
+_Last updated at 2026-11-08 09:25:38 UTC_

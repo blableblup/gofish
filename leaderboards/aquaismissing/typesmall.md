@@ -7,26 +7,26 @@
 | 3 🥉  | 🛢️ oildrum        | 37.07         | rustezzz      | 2025-06-21 00:09:40 |
 | 4     | 🐬 dolphin       | 17.51         | mrboringcom   | 2024-12-05 02:30:17 |
 | 5     | 🦈 shark         | 13.87         | respirate_    | 2025-11-17 08:49:21 |
-| 6 ⬆   | 👒 hat           | 10.81         | syberiak_     | 2025-12-07 20:20:18 |
-| 7 ⬆   | 🦕 sauropod      | 9.94          | stofeyxd      | 2025-07-06 23:39:50 |
-| 8 ⬆   | 🪹 emptynest     | 8.04          | glorpiusbot   | 2026-04-10 23:13:18 |
-| 9 ⬆   | 🪨 rock          | 6.66          | bubinga       | 2025-08-14 20:19:13 |
-| 10 ⬆  | 🦭 seal          | 5.02          | poggu_        | 2024-12-02 08:54:27 |
-| 11 ⬆  | 🐉 dragon        | 4.72          | glorpiusbot   | 2025-08-16 14:21:11 |
-| 12 ⬆  | 🧃 beveragebox   | 4.42          | aquaismissing | 2025-06-04 09:00:50 |
-| 13 ⬆  | 🕶️ darksunglasses | 3.92          | cute_ducc     | 2026-07-23 19:11:49 |
-| 14 ⬆  | 🪼 jellyfish     | 3.90          | rustezzz      | 2025-08-28 22:22:42 |
-| 15 ⬆  | 🦪 oyster        | 2.64          | girlglock     | 2025-05-24 20:38:52 |
-| 16 ⬆  | 🦎 lizard        | 2.48          | glorpiusbot   | 2026-07-21 00:08:35 |
-| 17 ⬇  | 🥒 seacucumber   | 2.44 (-9.29)  | wamacry       | 2026-09-23 22:21:39 |
-| 18 ⬆  | 🧊 icecube       | 2.43          | respirate_    | 2025-11-29 23:55:20 |
-| 19 ⬆  | 🐋 whale         | 2.28          | yyaaaaaaaas   | 2024-12-29 15:40:53 |
-| 20 ⬆  | 🐙 octopus       | 1.97          | respirate_    | 2025-11-21 03:34:05 |
-| 21 ⬆  | 🐊 crocodile     | 1.77          | gigxbit       | 2025-12-07 18:13:12 |
-| 22 ⬆  | 🌰 acorn         | 1.66          | flovrek       | 2025-10-07 11:19:37 |
-| 23 ⬆  | 🐢 turtle        | 1.65          | glorpiusbot   | 2026-03-02 19:42:46 |
-| 24 ⬆  | 🫙 jar           | 1.43          | bubinga       | 2026-07-25 23:21:08 |
-| 25 ⬇  | 🦞 lobster       | 1.42 (-1.24)  | mir9_9        | 2026-09-22 20:04:42 |
+| 6     | 👒 hat           | 10.81         | syberiak_     | 2025-12-07 20:20:18 |
+| 7     | 🦕 sauropod      | 9.94          | stofeyxd      | 2025-07-06 23:39:50 |
+| 8     | 🪹 emptynest     | 8.04          | glorpiusbot   | 2026-04-10 23:13:18 |
+| 9     | 🪨 rock          | 6.66          | bubinga       | 2025-08-14 20:19:13 |
+| 10    | 🦭 seal          | 5.02          | poggu_        | 2024-12-02 08:54:27 |
+| 11    | 🐉 dragon        | 4.72          | glorpiusbot   | 2025-08-16 14:21:11 |
+| 12    | 🧃 beveragebox   | 4.42          | aquaismissing | 2025-06-04 09:00:50 |
+| 13    | 🕶️ darksunglasses | 3.92          | cute_ducc     | 2026-07-23 19:11:49 |
+| 14    | 🪼 jellyfish     | 3.90          | rustezzz      | 2025-08-28 22:22:42 |
+| 15    | 🦪 oyster        | 2.64          | girlglock     | 2025-05-24 20:38:52 |
+| 16    | 🦎 lizard        | 2.48          | glorpiusbot   | 2026-07-21 00:08:35 |
+| 17    | 🥒 seacucumber   | 2.44          | leaky_gooner  | 2026-09-23 22:21:39 |
+| 18    | 🧊 icecube       | 2.43          | respirate_    | 2025-11-29 23:55:20 |
+| 19    | 🐋 whale         | 2.28          | yyaaaaaaaas   | 2024-12-29 15:40:53 |
+| 20    | 🐙 octopus       | 1.97          | respirate_    | 2025-11-21 03:34:05 |
+| 21    | 🐊 crocodile     | 1.77          | gigxbit       | 2025-12-07 18:13:12 |
+| 22    | 🌰 acorn         | 1.66          | flovrek       | 2025-10-07 11:19:37 |
+| 23    | 🐢 turtle        | 1.65          | glorpiusbot   | 2026-03-02 19:42:46 |
+| 24    | 🫙 jar           | 1.43          | bubinga       | 2026-07-25 23:21:08 |
+| 25    | 🦞 lobster       | 1.42          | mir9_9        | 2026-09-22 20:04:42 |
 | 26    | 🩰 balletshoes   | 1.25          | delfino921    | 2025-02-22 23:48:09 |
 | 26    | 🪸 coral         | 1.25          | elisworm      | 2025-11-26 07:27:06 |
 | 28    | 🪱 worm          | 1.23          | aistyrax3     | 2025-02-16 15:30:05 |
@@ -72,4 +72,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-09-27 09:48:40 UTC_
+_Last updated at 2026-11-08 09:27:24 UTC_

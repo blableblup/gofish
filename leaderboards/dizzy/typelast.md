@@ -2,6 +2,7 @@
 
 | Rank | Fish             | Weight in lbs | Player          | Date in UTC         |
 |:-----|:-----------------|:--------------|:----------------|:--------------------|
+| 110  | 🍁 leaf          | 0.35          | vagdy           | 2026-11-06 21:05:47 |
 | 109  | 🐋 whale         | 27.92         | hamoodhabibee   | 2026-10-10 20:04:47 |
 | 108  | 🐊 crocodile     | 57.35         | hamoodhabibee   | 2026-10-03 22:24:20 |
 | 107  | 🪨 rock          | 21.57         | hamoodhabibee   | 2026-09-28 19:33:58 |
@@ -112,4 +113,4 @@
 | 2    | 👑 crown         | 30.94         | glorp_fishing   | 2024-12-12 21:16:52 |
 | 1    | 🧞‍♂️ genie        | 17.60         | feuha           | 2024-11-01 09:40:30 |
 
-_Last updated at 2026-10-25 10:06:07 UTC_
+_Last updated at 2026-11-08 09:25:35 UTC_

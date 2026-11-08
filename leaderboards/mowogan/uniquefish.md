@@ -4,9 +4,9 @@
 |:------|:------------|:----------|
 | 1 🥇  | konsminator | 60        |
 | 2 🥈  | mowogan     | 58        |
-| 3 🥉  | lolspers    | 40 (+1)   |
+| 3 🥉  | lolspers    | 40        |
 | 4     | xtlos       | 33        |
-| 5     | crazy__ape  | 28        |
+| 5     | crazy__ape  | 29 (+1)   |
 | 6     | gibbbons    | 27        |
 | 7     | v6r_        | 24        |
 | 8     | gofishgamer | 22        |
@@ -15,4 +15,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-10-25 10:03:59 UTC_
+_Last updated at 2026-11-08 09:25:41 UTC_

@@ -11,7 +11,7 @@
 		"fishid": 247671,
 		"chatid": 748,
 		"date": "2026-03-19T22:39:49Z",
-		"rank": 6
+		"rank": 7
 	},
 	"1212": {
 		"player": "larvaew",
@@ -25,22 +25,22 @@
 		"fishid": 110972,
 		"chatid": 46,
 		"date": "2024-08-04T20:06:31Z",
-		"rank": 5
+		"rank": 6
 	},
 	"126": {
 		"player": "derinturitierutz",
 		"playerid": 126,
 		"verified": true,
-		"weight": 206.65,
+		"weight": 261.7,
 		"bot": "gofishgame",
-		"fishtype": "🐳",
-		"fishname": "bluewhale",
+		"fishtype": "🦕",
+		"fishname": "sauropod",
 		"catchtype": "normal",
 		"chat": "swormbeard",
-		"fishid": 110980,
-		"chatid": 54,
-		"date": "2024-08-05T19:56:13Z",
-		"rank": 7
+		"fishid": 295875,
+		"chatid": 911,
+		"date": "2026-11-07T21:20:32Z",
+		"rank": 2
 	},
 	"135": {
 		"player": "leanmeister",
@@ -155,7 +155,21 @@
 		"fishid": 216914,
 		"chatid": 638,
 		"date": "2025-11-21T00:21:40Z",
-		"rank": 2
+		"rank": 3
+	},
+	"3551": {
+		"player": "esvelles",
+		"playerid": 3551,
+		"weight": 58.75,
+		"bot": "gofishgame",
+		"fishtype": "🦑",
+		"fishname": "squid",
+		"catchtype": "normal",
+		"chat": "swormbeard",
+		"fishid": 295593,
+		"chatid": 900,
+		"date": "2026-11-06T18:09:40Z",
+		"rank": 17
 	},
 	"3638": {
 		"player": "derintu",
@@ -169,7 +183,7 @@
 		"fishid": 158108,
 		"chatid": 452,
 		"date": "2025-03-23T20:14:40Z",
-		"rank": 4
+		"rank": 5
 	},
 	"3984": {
 		"player": "pinksynthesis29",
@@ -228,6 +242,6 @@
 		"fishid": 155079,
 		"chatid": 311,
 		"date": "2025-03-14T20:12:15Z",
-		"rank": 3
+		"rank": 4
 	}
 }

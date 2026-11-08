@@ -2,6 +2,7 @@
 
 | Rank | Fish               | Weight in lbs | Player               | Date in UTC         |
 |:-----|:-------------------|:--------------|:---------------------|:--------------------|
+| 55   | 🦠 plankton        | 1.45          | comborl_             | 2026-11-07 17:54:12 |
 | 54   | 🍄 oceanplant      | 12.56         | nikkirowland         | 2026-10-31 15:44:29 |
 | 53   | 🦦 otter           | 8.66          | whotookmamulukkikala | 2026-10-30 21:22:05 |
 | 52   | 🦎 lizard          | 8.47          | whotookmamulukkikala | 2026-10-30 20:11:56 |
@@ -57,4 +58,4 @@
 | 2    | 🐢 turtle          | 42.95         | brogboi              | 2026-06-06 19:48:35 |
 | 1    | 💀 skull           | 3.85          | brogboi              | 2026-06-05 17:07:40 |
 
-_Last updated at 2026-11-01 09:50:13 UTC_
+_Last updated at 2026-11-08 09:25:36 UTC_

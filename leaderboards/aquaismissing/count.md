@@ -2,8 +2,8 @@
 
 | Rank   | Player           | Fish caught |
 |:-------|:-----------------|:------------|
-| 1 🥇 ⬆ | glorpiusbot      | 95 (+1)     |
-| 1 🥇   | respirate_       | 95          |
+| 1 🥇   | glorpiusbot      | 96 (+1)     |
+| 2 🥈 ⬇ | respirate_       | 95          |
 | 3 🥉   | rustezzz         | 67          |
 | 4      | bubinga          | 63          |
 | 5      | elisworm         | 56          |
@@ -34,4 +34,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-11-01 09:50:12 UTC_
+_Last updated at 2026-11-08 09:25:33 UTC_

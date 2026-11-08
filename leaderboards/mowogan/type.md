@@ -27,7 +27,7 @@
 | 23    | 🦐 shrimp        | 31.96         | lolspers    | 2026-09-26 18:47:55 |
 | 24    | 🦀 crab          | 29.67         | konsminator | 2025-07-24 07:11:17 |
 | 25    | 🥒 seacucumber   | 27.51         | konsminator | 2025-08-28 13:40:36 |
-| 26    | 🪳 cockroach     | 25.60 (+0.02) | crazy__ape  | 2026-10-23 07:10:32 |
+| 26    | 🪳 cockroach     | 25.60         | crazy__ape  | 2026-10-23 07:10:32 |
 | 27    | 🪼 jellyfish     | 22.93         | mowogan     | 2025-08-27 11:15:37 |
 | 28    | 🧽 sponge        | 22.70         | konsminator | 2025-07-20 08:10:24 |
 | 29    | 🦠 plankton      | 21.91         | konsminator | 2026-02-13 13:13:05 |
@@ -78,17 +78,18 @@
 | 74    | 🌾 grass         | 0.83          | mowogan     | 2025-08-10 07:37:40 |
 | 75    | ⛸️ iceskate       | 0.81          | elisworm    | 2025-12-27 01:20:45 |
 | 76    | 📱 iphone        | 0.74          | xtlos       | 2026-09-17 21:44:54 |
-| 77    | 🧵 wireline      | 0.46          | mowogan     | 2025-06-23 19:26:16 |
-| 78    | 🍥 sanddollar    | 0.42          | gibbbons    | 2026-08-12 10:08:57 |
-| 79    | 🫙 jar           | 0.35          | mowogan     | 2026-07-15 04:02:05 |
-| 80    | 🐛 caterpillar   | 0.32          | mowogan     | 2026-08-28 22:58:18 |
-| 81    | 🧃 beveragebox   | 0.31          | xtlos       | 2026-08-30 05:26:51 |
-| 82    | 🪶 feather       | 0.28          | konsminator | 2025-07-21 06:25:25 |
-| 83    | 🍬 candy         | 0.19          | konsminator | 2025-08-13 19:47:32 |
-| 84    | 🐜 ant           | 0.12          | n1nzin_     | 2025-06-24 12:10:54 |
-| 85    | 🪰 fly           | 0.09          | v6r_        | 2026-09-04 20:48:29 |
-| 86    | 🪚 icesaw        | 0.00          | gofishgamer | 2025-12-28 10:04:36 |
+| 77 🆕 | 🎃 pumpkin       | 0.49          | maangooss   | 2026-11-07 13:36:40 |
+| 78 ⬇  | 🧵 wireline      | 0.46          | mowogan     | 2025-06-23 19:26:16 |
+| 79 ⬇  | 🍥 sanddollar    | 0.42          | gibbbons    | 2026-08-12 10:08:57 |
+| 80 ⬇  | 🫙 jar           | 0.35          | mowogan     | 2026-07-15 04:02:05 |
+| 81 ⬇  | 🐛 caterpillar   | 0.32          | mowogan     | 2026-08-28 22:58:18 |
+| 82 ⬇  | 🧃 beveragebox   | 0.31          | xtlos       | 2026-08-30 05:26:51 |
+| 83 ⬇  | 🪶 feather       | 0.28          | konsminator | 2025-07-21 06:25:25 |
+| 84 ⬇  | 🍬 candy         | 0.19          | konsminator | 2025-08-13 19:47:32 |
+| 85 ⬇  | 🐜 ant           | 0.12          | n1nzin_     | 2025-06-24 12:10:54 |
+| 86 ⬇  | 🪰 fly           | 0.09          | v6r_        | 2026-09-04 20:48:29 |
+| 87 ⬇  | 🪚 icesaw        | 0.00          | gofishgamer | 2025-12-28 10:04:36 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-10-25 10:06:19 UTC_
+_Last updated at 2026-11-08 09:28:09 UTC_

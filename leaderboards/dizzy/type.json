@@ -179,7 +179,7 @@
 		"fishid": 195968,
 		"chatid": 13018,
 		"date": "2025-08-29T10:25:57Z",
-		"rank": 103
+		"rank": 104
 	},
 	"cactus": {
 		"player": "buhl00n",
@@ -348,7 +348,7 @@
 		"fishid": 192562,
 		"chatid": 12912,
 		"date": "2025-08-11T03:39:03Z",
-		"rank": 102
+		"rank": 103
 	},
 	"crocodile": {
 		"player": "buhl00n",
@@ -530,7 +530,7 @@
 		"fishid": 195790,
 		"chatid": 13006,
 		"date": "2025-08-28T16:09:13Z",
-		"rank": 101
+		"rank": 102
 	},
 	"frog": {
 		"player": "vagdy",
@@ -740,6 +740,20 @@
 		"fishid": 196543,
 		"chatid": 13083,
 		"date": "2025-08-31T11:08:30Z",
+		"rank": 101
+	},
+	"leaf": {
+		"player": "vagdy",
+		"playerid": 3067,
+		"weight": 0.35,
+		"bot": "gofishgame",
+		"fishtype": "🍁",
+		"fishname": "leaf",
+		"catchtype": "normal",
+		"chat": "dizzy",
+		"fishid": 295620,
+		"chatid": 13345,
+		"date": "2026-11-06T21:05:47Z",
 		"rank": 100
 	},
 	"lizard": {
@@ -1258,7 +1272,7 @@
 		"fishid": 195315,
 		"chatid": 12981,
 		"date": "2025-08-27T06:14:33Z",
-		"rank": 104
+		"rank": 105
 	},
 	"sponge": {
 		"player": "lolspers",

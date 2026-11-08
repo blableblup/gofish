@@ -81,13 +81,13 @@
 | 77    | 🐚 shell           | 5.92          | uumgi                    | 2025-04-01 04:02:00 |
 | 78    | 🦉 owl             | 5.90          | uumgi                    | 2024-10-20 16:28:24 |
 | 79    | 🎏 lure            | 5.76          | fishingalt               | 2024-01-13 13:04:30 |
-| 80    | 🪝 hook            | 4.98          | sussy_amonge             | 2022-12-15 17:37:01 |
-| 81    | 🐦‍⬛ robin         | 4.85          | qu4ttromila              | 2024-04-25 00:23:08 |
-| 82    | 🦢 swan            | 4.40          | fishingalt               | 2025-03-30 15:28:03 |
-| 83    | 🌰 acorn           | 3.98          | derintu                  | 2025-11-02 13:14:52 |
-| 84    | 🍁 leaf            | 3.87          | dazedforevermore         | 2025-11-04 21:35:08 |
-| 85    | 🪿 goose           | 3.41          | julialuxel               | 2025-01-15 04:08:39 |
-| 86    | 🕸️ spiderweb        | 3.38          | breadworms               | 2025-11-01 14:36:33 |
+| 80 ⬆  | 🕸️ spiderweb        | 5.23 (+1.85)  | derinturitierutz         | 2026-11-06 13:23:25 |
+| 81 ⬇  | 🪝 hook            | 4.98          | sussy_amonge             | 2022-12-15 17:37:01 |
+| 82 ⬇  | 🐦‍⬛ robin         | 4.85          | qu4ttromila              | 2024-04-25 00:23:08 |
+| 83 ⬇  | 🦢 swan            | 4.40          | fishingalt               | 2025-03-30 15:28:03 |
+| 84 ⬇  | 🌰 acorn           | 3.98          | derintu                  | 2025-11-02 13:14:52 |
+| 85 ⬇  | 🍁 leaf            | 3.87          | dazedforevermore         | 2025-11-04 21:35:08 |
+| 86 ⬇  | 🪿 goose           | 3.41          | julialuxel               | 2025-01-15 04:08:39 |
 | 87    | 🌻 sunflower       | 2.99          | kishma9                  | 2025-08-13 23:02:21 |
 | 87    | ☂️ umbrella         | 2.99          | vaiastol                 | 2024-07-14 15:25:04 |
 | 89    | 🍃 deadleaves      | 2.98          | ytp_dl                   | 2025-11-05 19:05:46 |
@@ -128,4 +128,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-10-25 10:06:16 UTC_
+_Last updated at 2026-11-08 09:28:06 UTC_

@@ -45,8 +45,8 @@
 | 41    | 🦠 plankton        | 21.99         | nndiana                   | 2023-12-26 04:58:23 |
 | 42    | 🪼 jellyfish       | 21.95         | sandwichsundays           | 2024-07-05 19:59:19 |
 | 43    | 🍄‍🟫 mushroom      | 21.86         | flunke_                   | 2026-02-13 07:50:03 |
-| 44 ⬆  | 🎃 pumpkin         | 21.83 (+2.03) | ne01g                     | 2026-10-31 20:27:29 |
-| 45 ⬇  | 🦦 otter           | 19.96         | blu_inx                   | 2026-01-24 08:49:59 |
+| 44    | 🎃 pumpkin         | 21.83         | ne01g                     | 2026-10-31 20:27:29 |
+| 45    | 🦦 otter           | 19.96         | blu_inx                   | 2026-01-24 08:49:59 |
 | 46    | 🪱 worm            | 19.17         | caprisen_                 | 2023-10-18 12:29:31 |
 | 47    | 🍄 oceanplant      | 17.89         | deatron                   | 2026-01-19 19:50:16 |
 | 48    | 🧭 compass         | 17.75         | pylonii                   | 2024-01-01 22:13:11 |
@@ -89,15 +89,15 @@
 | 85    | 🌹 rose            | 2.88          | zwockel01                 | 2024-04-11 08:51:47 |
 | 86    | 🍎 apple           | 2.85          | mazzo_tv                  | 2025-11-04 08:21:15 |
 | 87    | 👡 sandal          | 2.83          | mazzo_tv                  | 2025-05-27 10:56:25 |
+| 88 ⬆  | 🍃 deadleaves      | 2.40 (+0.43)  | maplegif                  | 2026-11-05 21:39:23 |
 | 88    | 🫙 jar             | 2.40          | poons_u                   | 2026-07-25 21:24:47 |
-| 89    | 🕸️ spiderweb        | 2.25          | mazzo_tv                  | 2025-11-02 10:09:07 |
-| 90    | 🩰 balletshoes     | 2.00          | tomsig_gg                 | 2023-09-01 09:27:04 |
-| 90    | 👢 boot            | 2.00          | thegovernment5g           | 2024-01-03 19:04:05 |
-| 90    | 🥪 sandwich        | 2.00          | feelsaceman               | 2026-03-18 19:15:53 |
-| 90    | 🧦 socks           | 2.00          | manmanboy_                | 2023-09-16 12:22:22 |
-| 94    | 🌿 seaweed         | 1.99          | angus_lpc                 | 2024-06-30 11:26:57 |
-| 95    | 👟 sneaker         | 1.98          | jeejee_jjl                | 2023-10-18 11:56:32 |
-| 96    | 🍃 deadleaves      | 1.97          | jayayseaohbee             | 2026-03-06 20:06:45 |
+| 90 ⬇  | 🕸️ spiderweb        | 2.36 (+0.11)  | llikotesnecil             | 2026-11-06 07:13:14 |
+| 91 ⬇  | 🩰 balletshoes     | 2.00          | tomsig_gg                 | 2023-09-01 09:27:04 |
+| 91 ⬇  | 👢 boot            | 2.00          | thegovernment5g           | 2024-01-03 19:04:05 |
+| 91 ⬇  | 🥪 sandwich        | 2.00          | feelsaceman               | 2026-03-18 19:15:53 |
+| 91 ⬇  | 🧦 socks           | 2.00          | manmanboy_                | 2023-09-16 12:22:22 |
+| 95 ⬇  | 🌿 seaweed         | 1.99          | angus_lpc                 | 2024-06-30 11:26:57 |
+| 96 ⬇  | 👟 sneaker         | 1.98          | jeejee_jjl                | 2023-10-18 11:56:32 |
 | 97    | ⛸️ iceskate         | 1.96          | pookiesnowman             | 2023-12-24 05:51:00 |
 | 98    | 🪻 lupine          | 1.95          | llikotesnecil             | 2026-07-16 22:31:25 |
 | 99    | 🍬 candy           | 1.93          | bananenshak3              | 2026-01-14 18:46:31 |
@@ -126,4 +126,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-11-01 09:53:02 UTC_
+_Last updated at 2026-11-08 09:27:57 UTC_
