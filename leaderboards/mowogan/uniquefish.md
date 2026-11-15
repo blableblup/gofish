@@ -5,14 +5,14 @@
 | 1 🥇  | konsminator | 60        |
 | 2 🥈  | mowogan     | 58        |
 | 3 🥉  | lolspers    | 40        |
-| 4     | xtlos       | 33        |
-| 5     | crazy__ape  | 29 (+1)   |
+| 4 ⬆   | crazy__ape  | 34 (+5)   |
+| 5 ⬇   | xtlos       | 33        |
 | 6     | gibbbons    | 27        |
-| 7     | v6r_        | 24        |
+| 7     | v6r_        | 25 (+1)   |
 | 8     | gofishgamer | 22        |
 
 _This does not include fish seen through gifting to another player during the winter events!_
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-11-08 09:25:41 UTC_
+_Last updated at 2026-11-15 09:23:51 UTC_

@@ -205,7 +205,7 @@
 		"fishid": 282390,
 		"chatid": 13338,
 		"date": "2026-08-05T03:12:21Z",
-		"rank": 103
+		"rank": 102
 	},
 	"candy": {
 		"player": "glorp_fishing",
@@ -385,7 +385,7 @@
 		"fishid": 291021,
 		"chatid": 13343,
 		"date": "2026-10-03T22:24:20Z",
-		"rank": 108
+		"rank": 106
 	},
 	"crown": {
 		"player": "glorp_fishing",
@@ -483,7 +483,7 @@
 		"fishid": 288907,
 		"chatid": 13341,
 		"date": "2026-09-19T22:54:56Z",
-		"rank": 106
+		"rank": 104
 	},
 	"duck": {
 		"player": "glorp_fishing",
@@ -640,18 +640,17 @@
 		"rank": 38
 	},
 	"hook": {
-		"player": "meppppi",
-		"playerid": 4577,
-		"weight": 2.12,
+		"player": "hamoodhabibee",
+		"playerid": 3002,
 		"bot": "gofishgame",
 		"fishtype": "🪝",
 		"fishname": "hook",
-		"catchtype": "normal",
+		"catchtype": "release",
 		"chat": "dizzy",
-		"fishid": 263584,
-		"chatid": 13329,
-		"date": "2026-05-22T06:23:57Z",
-		"rank": 97
+		"fishid": 296968,
+		"chatid": 13347,
+		"date": "2026-11-14T05:22:10Z",
+		"rank": 110
 	},
 	"icecube": {
 		"player": "gimmeschmoneys",
@@ -721,7 +720,7 @@
 		"fishid": 277860,
 		"chatid": 13335,
 		"date": "2026-07-21T20:23:36Z",
-		"rank": 101
+		"rank": 100
 	},
 	"jellyfish": {
 		"player": "baiii__",
@@ -735,7 +734,7 @@
 		"fishid": 283020,
 		"chatid": 13339,
 		"date": "2026-08-09T10:35:18Z",
-		"rank": 104
+		"rank": 103
 	},
 	"kite": {
 		"player": "buhl00n",
@@ -777,7 +776,7 @@
 		"fishid": 295620,
 		"chatid": 13345,
 		"date": "2026-11-06T21:05:47Z",
-		"rank": 110
+		"rank": 108
 	},
 	"lizard": {
 		"player": "vagdy",
@@ -920,18 +919,18 @@
 		"rank": 71
 	},
 	"octopus": {
-		"player": "greenfatso",
-		"playerid": 3133,
-		"weight": 32.23,
+		"player": "hamoodhabibee",
+		"playerid": 3002,
+		"weight": 57.66,
 		"bot": "gofishgame",
 		"fishtype": "🐙",
 		"fishname": "octopus",
 		"catchtype": "normal",
 		"chat": "dizzy",
-		"fishid": 283967,
-		"chatid": 13340,
-		"date": "2026-08-14T21:06:47Z",
-		"rank": 105
+		"fishid": 296967,
+		"chatid": 13346,
+		"date": "2026-11-14T05:21:48Z",
+		"rank": 109
 	},
 	"oildrum": {
 		"player": "lolspers",
@@ -986,7 +985,7 @@
 		"fishid": 263710,
 		"chatid": 13330,
 		"date": "2026-05-22T21:31:52Z",
-		"rank": 98
+		"rank": 97
 	},
 	"penguin": {
 		"player": "buhl00n",
@@ -1055,7 +1054,7 @@
 		"fishid": 290322,
 		"chatid": 13342,
 		"date": "2026-09-28T19:33:58Z",
-		"rank": 107
+		"rank": 105
 	},
 	"sandal": {
 		"player": "buhl00n",
@@ -1209,7 +1208,7 @@
 		"fishid": 272623,
 		"chatid": 13332,
 		"date": "2026-07-01T23:46:01Z",
-		"rank": 100
+		"rank": 99
 	},
 	"skull": {
 		"player": "notnownico",
@@ -1306,7 +1305,7 @@
 		"fishid": 278275,
 		"chatid": 13336,
 		"date": "2026-07-22T18:42:44Z",
-		"rank": 102
+		"rank": 101
 	},
 	"spiderweb": {
 		"player": "buhl00n",
@@ -1418,7 +1417,7 @@
 		"fishid": 266750,
 		"chatid": 13331,
 		"date": "2026-06-09T16:11:44Z",
-		"rank": 99
+		"rank": 98
 	},
 	"tulip": {
 		"player": "buhl00n",
@@ -1474,7 +1473,7 @@
 		"fishid": 291890,
 		"chatid": 13344,
 		"date": "2026-10-10T20:04:47Z",
-		"rank": 109
+		"rank": 107
 	},
 	"wiltedflower": {
 		"player": "simplydrack",

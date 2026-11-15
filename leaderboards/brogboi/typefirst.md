@@ -2,6 +2,10 @@
 
 | Rank | Fish               | Weight in lbs | Player               | Date in UTC         |
 |:-----|:-------------------|:--------------|:---------------------|:--------------------|
+| 59   | 🥫 cannedfood      | 1.52          | dark336bunny         | 2026-11-14 17:47:17 |
+| 58   | 👢 boot            | 0.22          | whotookmamulukkikala | 2026-11-14 17:11:46 |
+| 57   | 🧤 gloves          | 0.47          | draculvrita          | 2026-11-12 14:33:42 |
+| 56   | 🪱 worm            | 7.34          | nikkirowland         | 2026-11-10 19:13:48 |
 | 55   | 🦠 plankton        | 1.45          | comborl_             | 2026-11-07 17:54:12 |
 | 54   | 🍄 oceanplant      | 12.56         | nikkirowland         | 2026-10-31 15:44:29 |
 | 53   | 🦦 otter           | 8.66          | whotookmamulukkikala | 2026-10-30 21:22:05 |
@@ -58,4 +62,4 @@
 | 2    | 🐢 turtle          | 42.95         | brogboi              | 2026-06-06 19:48:35 |
 | 1    | 💀 skull           | 3.85          | brogboi              | 2026-06-05 17:07:40 |
 
-_Last updated at 2026-11-08 09:25:36 UTC_
+_Last updated at 2026-11-15 09:26:00 UTC_

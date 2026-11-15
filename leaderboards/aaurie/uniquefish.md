@@ -2,7 +2,7 @@
 
 | Rank  | Player                 | Fish seen |
 |:------|:-----------------------|:----------|
-| 1 🥇  | amatusz                | 47 (+1)   |
+| 1 🥇  | amatusz                | 47        |
 | 2 🥈  | jeffbethyname69        | 42        |
 | 3 🥉  | dolp_fin               | 41        |
 | 4     | boogie_310             | 35        |
@@ -18,18 +18,18 @@
 | 14    | dwaynepounder          | 19        |
 | 14    | preemalone             | 19        |
 | 16    | honeytonguedbee        | 18        |
-| 16 ⬆  | onetriforce            | 18 (+2)   |
-| 18 ⬇  | eldiabloskillet        | 16        |
-| 19    | brody5020              | 14        |
-| 19    | meanmestar             | 14        |
-| 19    | one_guy_123            | 14        |
-| 22    | mademooselle           | 13        |
-| 22    | slimdoggiedog          | 13        |
-| 24 ⬆  | anyonebutfejjy         | 12 (+1)   |
-| 24    | jimmybooger            | 12        |
-| 26 ⬇  | blackberryking00       | 11        |
-| 26 ⬇  | forceghostleia         | 11        |
-| 26 ⬇  | ratlover2244           | 11        |
+| 16    | onetriforce            | 18        |
+| 18    | eldiabloskillet        | 16        |
+| 19    | brody5020              | 15 (+1)   |
+| 20 ⬆  | anyonebutfejjy         | 14 (+2)   |
+| 20 ⬇  | meanmestar             | 14        |
+| 20 ⬇  | one_guy_123            | 14        |
+| 23 ⬇  | mademooselle           | 13        |
+| 23 ⬇  | slimdoggiedog          | 13        |
+| 25 ⬇  | jimmybooger            | 12        |
+| 26    | blackberryking00       | 11        |
+| 26    | forceghostleia         | 11        |
+| 26    | ratlover2244           | 11        |
 | 29    | goodtubbaa             | 10        |
 | 29    | theevilassvampire_vahd | 10        |
 
@@ -37,4 +37,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2026-11-08 09:25:40 UTC_
+_Last updated at 2026-11-15 09:23:52 UTC_

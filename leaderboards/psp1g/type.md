@@ -76,42 +76,42 @@
 | 71    | 🧵 wireline        | 6.00          | ocrw                      | 2024-06-20 15:30:46 |
 | 73    | 🐚 shell           | 5.92          | mazzo_tv                  | 2025-05-25 17:38:47 |
 | 74    | 🥫 cannedfood      | 5.54          | blu_inx                   | 2026-01-03 09:24:11 |
-| 75    | 🎏 lure            | 5.00          | flovrek                   | 2025-05-31 14:12:56 |
-| 76    | 🪝 hook            | 4.99          | thedraingangceo*          | 2023-08-24 20:19:25 |
-| 77    | 🌰 acorn           | 4.00          | bubinga                   | 2024-09-26 10:53:14 |
-| 78    | 🐦‍⬛ robin         | 3.93          | flunke_                   | 2024-09-05 14:16:16 |
-| 79    | 🍱 tacklebox       | 3.84          | bubinga                   | 2025-11-02 17:33:24 |
-| 80    | 🌻 sunflower       | 2.98          | feelsaceman               | 2026-06-23 20:47:28 |
-| 80    | ☂️ umbrella         | 2.98          | theevirus                 | 2024-11-16 17:35:32 |
-| 82    | 🥀 wiltedflower    | 2.97          | iflya320                  | 2024-12-10 13:06:53 |
-| 83    | 🩴 thongsandal     | 2.94          | bubinga                   | 2024-08-13 10:17:43 |
-| 84    | 🌷 tulip           | 2.93          | iflya320                  | 2024-12-04 16:22:17 |
-| 85    | 🌹 rose            | 2.88          | zwockel01                 | 2024-04-11 08:51:47 |
-| 86    | 🍎 apple           | 2.85          | mazzo_tv                  | 2025-11-04 08:21:15 |
-| 87    | 👡 sandal          | 2.83          | mazzo_tv                  | 2025-05-27 10:56:25 |
-| 88 ⬆  | 🍃 deadleaves      | 2.40 (+0.43)  | maplegif                  | 2026-11-05 21:39:23 |
-| 88    | 🫙 jar             | 2.40          | poons_u                   | 2026-07-25 21:24:47 |
-| 90 ⬇  | 🕸️ spiderweb        | 2.36 (+0.11)  | llikotesnecil             | 2026-11-06 07:13:14 |
-| 91 ⬇  | 🩰 balletshoes     | 2.00          | tomsig_gg                 | 2023-09-01 09:27:04 |
-| 91 ⬇  | 👢 boot            | 2.00          | thegovernment5g           | 2024-01-03 19:04:05 |
-| 91 ⬇  | 🥪 sandwich        | 2.00          | feelsaceman               | 2026-03-18 19:15:53 |
-| 91 ⬇  | 🧦 socks           | 2.00          | manmanboy_                | 2023-09-16 12:22:22 |
-| 95 ⬇  | 🌿 seaweed         | 1.99          | angus_lpc                 | 2024-06-30 11:26:57 |
-| 96 ⬇  | 👟 sneaker         | 1.98          | jeejee_jjl                | 2023-10-18 11:56:32 |
-| 97    | ⛸️ iceskate         | 1.96          | pookiesnowman             | 2023-12-24 05:51:00 |
-| 98    | 🪻 lupine          | 1.95          | llikotesnecil             | 2026-07-16 22:31:25 |
-| 99    | 🍬 candy           | 1.93          | bananenshak3              | 2026-01-14 18:46:31 |
-| 100   | 🍁 leaf            | 1.69          | jayayseaohbee             | 2025-10-31 19:07:51 |
-| 101   | 🪲 beetle          | 1.33          | sillyfellow32             | 2026-07-24 01:23:54 |
-| 102   | 🦂 scorpion        | 1.31          | bamfzi                    | 2026-07-20 19:45:40 |
-| 103   | 🦢 swan            | 1.26          | mazzo_tv                  | 2024-07-08 06:43:22 |
-| 104   | 🐝 bee             | 1.25          | poons_u                   | 2026-07-21 14:54:11 |
-| 105   | 🐛 caterpillar     | 1.05          | feelsaceman               | 2026-07-21 01:28:24 |
-| 106   | 🪶 feather         | 1.00          | shadowraider247           | 2024-09-15 13:12:58 |
-| 106   | 🧤 gloves          | 1.00          | kubo7                     | 2024-01-27 18:51:58 |
-| 106   | 🪚 icesaw          | 1.00          | feelsaceman               | 2026-02-16 11:45:50 |
-| 109   | 🌾 grass           | 0.99          | nndiana                   | 2026-07-07 03:26:58 |
-| 109   | 🍥 sanddollar      | 0.99          | ducksleazzy               | 2026-08-05 19:17:38 |
+| 75 ⬆  | 🕸️ spiderweb        | 5.03 (+2.67)  | ne01g                     | 2026-11-09 19:44:58 |
+| 76 ⬇  | 🎏 lure            | 5.00          | flovrek                   | 2025-05-31 14:12:56 |
+| 77 ⬇  | 🪝 hook            | 4.99          | thedraingangceo*          | 2023-08-24 20:19:25 |
+| 78 ⬇  | 🌰 acorn           | 4.00          | bubinga                   | 2024-09-26 10:53:14 |
+| 79 ⬇  | 🐦‍⬛ robin         | 3.93          | flunke_                   | 2024-09-05 14:16:16 |
+| 80 ⬇  | 🍱 tacklebox       | 3.84          | bubinga                   | 2025-11-02 17:33:24 |
+| 81 ⬆  | 🍁 leaf            | 3.64 (+1.95)  | sklortch                  | 2026-11-13 10:13:43 |
+| 82 ⬇  | 🌻 sunflower       | 2.98          | feelsaceman               | 2026-06-23 20:47:28 |
+| 82 ⬇  | ☂️ umbrella         | 2.98          | theevirus                 | 2024-11-16 17:35:32 |
+| 84 ⬇  | 🥀 wiltedflower    | 2.97          | iflya320                  | 2024-12-10 13:06:53 |
+| 85 ⬇  | 🩴 thongsandal     | 2.94          | bubinga                   | 2024-08-13 10:17:43 |
+| 86 ⬇  | 🌷 tulip           | 2.93          | iflya320                  | 2024-12-04 16:22:17 |
+| 87 ⬇  | 🌹 rose            | 2.88          | zwockel01                 | 2024-04-11 08:51:47 |
+| 88 ⬇  | 🍎 apple           | 2.85          | mazzo_tv                  | 2025-11-04 08:21:15 |
+| 89 ⬇  | 👡 sandal          | 2.83          | mazzo_tv                  | 2025-05-27 10:56:25 |
+| 90 ⬇  | 🍃 deadleaves      | 2.40          | maplegif                  | 2026-11-05 21:39:23 |
+| 90 ⬇  | 🫙 jar             | 2.40          | poons_u                   | 2026-07-25 21:24:47 |
+| 92 ⬆  | 🍬 candy           | 2.04 (+0.11)  | ne01g                     | 2026-11-11 09:57:11 |
+| 93 ⬇  | 🩰 balletshoes     | 2.00          | tomsig_gg                 | 2023-09-01 09:27:04 |
+| 93 ⬇  | 👢 boot            | 2.00          | thegovernment5g           | 2024-01-03 19:04:05 |
+| 93 ⬇  | 🥪 sandwich        | 2.00          | feelsaceman               | 2026-03-18 19:15:53 |
+| 93 ⬇  | 🧦 socks           | 2.00          | manmanboy_                | 2023-09-16 12:22:22 |
+| 97 ⬇  | 🌿 seaweed         | 1.99          | angus_lpc                 | 2024-06-30 11:26:57 |
+| 98 ⬇  | 👟 sneaker         | 1.98          | jeejee_jjl                | 2023-10-18 11:56:32 |
+| 99 ⬇  | ⛸️ iceskate         | 1.96          | pookiesnowman             | 2023-12-24 05:51:00 |
+| 100 ⬇ | 🪻 lupine          | 1.95          | llikotesnecil             | 2026-07-16 22:31:25 |
+| 101 ⬆ | 🌾 grass           | 1.38 (+0.39)  | feelsaceman               | 2026-11-11 20:04:51 |
+| 102 ⬇ | 🪲 beetle          | 1.33          | sillyfellow32             | 2026-07-24 01:23:54 |
+| 103 ⬇ | 🦂 scorpion        | 1.31          | bamfzi                    | 2026-07-20 19:45:40 |
+| 104 ⬇ | 🦢 swan            | 1.26          | mazzo_tv                  | 2024-07-08 06:43:22 |
+| 105 ⬇ | 🐝 bee             | 1.25          | poons_u                   | 2026-07-21 14:54:11 |
+| 106 ⬇ | 🐛 caterpillar     | 1.05          | feelsaceman               | 2026-07-21 01:28:24 |
+| 107 ⬇ | 🪶 feather         | 1.00          | shadowraider247           | 2024-09-15 13:12:58 |
+| 107 ⬇ | 🧤 gloves          | 1.00          | kubo7                     | 2024-01-27 18:51:58 |
+| 107 ⬇ | 🪚 icesaw          | 1.00          | feelsaceman               | 2026-02-16 11:45:50 |
+| 110 ⬇ | 🍥 sanddollar      | 0.99          | ducksleazzy               | 2026-08-05 19:17:38 |
 | 111   | 🍇 crowberries     | 0.96          | lobuhtomy                 | 2026-06-22 20:37:54 |
 | 112   | 🧣 scarf           | 0.92          | blazeblitzzz              | 2024-02-01 23:11:44 |
 | 113   | 🐿️ squirrel         | 0.90          | iflya320                  | 2024-12-04 11:13:44 |
@@ -126,4 +126,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-11-08 09:27:57 UTC_
+_Last updated at 2026-11-15 09:24:07 UTC_

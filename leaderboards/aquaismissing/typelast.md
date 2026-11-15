@@ -2,15 +2,15 @@
 
 | Rank | Fish             | Weight in lbs | Player           | Date in UTC         |
 |:-----|:-----------------|:--------------|:-----------------|:--------------------|
-| 69   | 🦐 shrimp        | 4.16          | glorpiusbot      | 2026-11-02 01:11:43 |
-| 68   | 🐟 fish          | 5.69          | glorpiusbot      | 2026-10-29 15:46:57 |
-| 67   | 🐢 turtle        | 67.48         | glorpiusbot      | 2026-10-19 22:51:05 |
-| 66   | 🪝 hook          | 1.77          | cute_ducc        | 2026-10-16 12:42:36 |
-| 65   | ☘️ clover         | 3.76          | glorpiusbot      | 2026-09-29 02:20:33 |
-| 64   | 🐸 frog          | 2.97          | kam3l_           | 2026-09-27 20:13:33 |
-| 63   | 🪼 jellyfish     | 15.16         | cute_ducc        | 2026-09-25 19:30:23 |
-| 62   | 🥒 seacucumber   | 2.44          | leaky_gooner     | 2026-09-23 22:21:39 |
-| 61   | 🦞 lobster       | 1.42          | mir9_9           | 2026-09-22 20:04:42 |
+| 69   | 🐟 fish          | 3.08          | bubinga          | 2026-11-10 17:40:07 |
+| 68   | 🦞 lobster       | 48.81         | kargalay         | 2026-11-09 22:18:21 |
+| 67   | 🦐 shrimp        | 3.64          | glorpiusbot      | 2026-11-09 02:20:22 |
+| 66   | 🐢 turtle        | 67.48         | glorpiusbot      | 2026-10-19 22:51:05 |
+| 65   | 🪝 hook          | 1.77          | cute_ducc        | 2026-10-16 12:42:36 |
+| 64   | ☘️ clover         | 3.76          | glorpiusbot      | 2026-09-29 02:20:33 |
+| 63   | 🐸 frog          | 2.97          | kam3l_           | 2026-09-27 20:13:33 |
+| 62   | 🪼 jellyfish     | 15.16         | cute_ducc        | 2026-09-25 19:30:23 |
+| 61   | 🥒 seacucumber   | 2.44          | leaky_gooner     | 2026-09-23 22:21:39 |
 | 60   | 🦪 oyster        | 37.46         | underpaidchatter | 2026-09-22 19:32:54 |
 | 59   | 🐚 shell         | 0.70          | beyoonder_       | 2026-09-18 23:21:21 |
 | 58   | 🎏 lure          | 2.13          | cute_ducc        | 2026-09-18 20:47:00 |
@@ -72,4 +72,4 @@
 | 2    | 🛢️ oildrum        | 37.07         | rustezzz         | 2025-06-21 00:09:40 |
 | 1    | 🩰 balletshoes   | 1.25          | delfino921       | 2025-02-22 23:48:09 |
 
-_Last updated at 2026-11-08 09:25:35 UTC_
+_Last updated at 2026-11-15 09:25:59 UTC_

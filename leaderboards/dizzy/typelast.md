@@ -2,20 +2,20 @@
 
 | Rank | Fish             | Weight in lbs | Player          | Date in UTC         |
 |:-----|:-----------------|:--------------|:----------------|:--------------------|
-| 110  | 🍁 leaf          | 0.35          | vagdy           | 2026-11-06 21:05:47 |
-| 109  | 🐋 whale         | 27.92         | hamoodhabibee   | 2026-10-10 20:04:47 |
-| 108  | 🐊 crocodile     | 57.35         | hamoodhabibee   | 2026-10-03 22:24:20 |
-| 107  | 🪨 rock          | 21.57         | hamoodhabibee   | 2026-09-28 19:33:58 |
-| 106  | 🐉 dragon        | 252.02        | hamoodhabibee   | 2026-09-19 22:54:56 |
-| 105  | 🐙 octopus       | 32.23         | greenfatso      | 2026-08-14 21:06:47 |
-| 104  | 🪼 jellyfish     | 15.23         | baiii__         | 2026-08-09 10:35:18 |
-| 103  | 🌵 cactus        | 6.51          | buhl00n         | 2026-08-05 03:12:21 |
-| 102  | 🕷️ spider         | 1.20          | hamoodhabibee   | 2026-07-22 18:42:44 |
-| 101  | 🫙 jar           | 0.52          | hamoodhabibee   | 2026-07-21 20:23:36 |
-| 100  | 🦐 shrimp        | 6.43          | hamoodhabibee   | 2026-07-01 23:46:01 |
-| 99   | 🐠 tropicalfish  | 15.03         | ofaisalz        | 2026-06-09 16:11:44 |
-| 98   | 🦪 oyster        | 17.35         | meppppi         | 2026-05-22 21:31:52 |
-| 97   | 🪝 hook          | 2.12          | meppppi         | 2026-05-22 06:23:57 |
+| 110  | 🪝 hook          | 0.00          | hamoodhabibee   | 2026-11-14 05:22:10 |
+| 109  | 🐙 octopus       | 57.66         | hamoodhabibee   | 2026-11-14 05:21:48 |
+| 108  | 🍁 leaf          | 0.35          | vagdy           | 2026-11-06 21:05:47 |
+| 107  | 🐋 whale         | 27.92         | hamoodhabibee   | 2026-10-10 20:04:47 |
+| 106  | 🐊 crocodile     | 57.35         | hamoodhabibee   | 2026-10-03 22:24:20 |
+| 105  | 🪨 rock          | 21.57         | hamoodhabibee   | 2026-09-28 19:33:58 |
+| 104  | 🐉 dragon        | 252.02        | hamoodhabibee   | 2026-09-19 22:54:56 |
+| 103  | 🪼 jellyfish     | 15.23         | baiii__         | 2026-08-09 10:35:18 |
+| 102  | 🌵 cactus        | 6.51          | buhl00n         | 2026-08-05 03:12:21 |
+| 101  | 🕷️ spider         | 1.20          | hamoodhabibee   | 2026-07-22 18:42:44 |
+| 100  | 🫙 jar           | 0.52          | hamoodhabibee   | 2026-07-21 20:23:36 |
+| 99   | 🦐 shrimp        | 6.43          | hamoodhabibee   | 2026-07-01 23:46:01 |
+| 98   | 🐠 tropicalfish  | 15.03         | ofaisalz        | 2026-06-09 16:11:44 |
+| 97   | 🦪 oyster        | 17.35         | meppppi         | 2026-05-22 21:31:52 |
 | 96   | 🪸 coral         | 1.19          | kyonuwu         | 2026-04-25 22:56:19 |
 | 95   | 🐍 snake         | 10.44         | notnownico      | 2026-03-29 19:47:57 |
 | 94   | 🐡 blowfish      | 3.50          | notnownico      | 2026-03-29 15:17:41 |
@@ -113,4 +113,4 @@
 | 2    | 👑 crown         | 30.94         | glorp_fishing   | 2024-12-12 21:16:52 |
 | 1    | 🧞‍♂️ genie        | 17.60         | feuha           | 2024-11-01 09:40:30 |
 
-_Last updated at 2026-11-08 09:25:35 UTC_
+_Last updated at 2026-11-15 09:25:59 UTC_

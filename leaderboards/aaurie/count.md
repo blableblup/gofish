@@ -2,17 +2,17 @@
 
 | Rank  | Player                 | Fish caught |
 |:------|:-----------------------|:------------|
-| 1 🥇  | amatusz                | 268 (+4)    |
+| 1 🥇  | amatusz                | 274 (+6)    |
 | 2 🥈  | jeffbethyname69        | 233         |
 | 3 🥉  | dolp_fin               | 198         |
 | 4     | boogie_310             | 159         |
 | 5     | aaurie                 | 125         |
-| 6     | allspice_boatrace      | 73          |
-| 6     | guy_farting420         | 73          |
+| 6     | guy_farting420         | 74 (+1)     |
+| 7 ⬇   | allspice_boatrace      | 73          |
 | 8     | gofishgamer            | 71          |
 | 9     | abelito75              | 70          |
 | 10    | victorvondoom313       | 56          |
-| 11    | rustnroll              | 51          |
+| 11    | rustnroll              | 52 (+1)     |
 | 12    | slimdoggiedog          | 42          |
 | 13    | curiouscorvidae        | 41          |
 | 14    | jimmybooger            | 39          |
@@ -20,13 +20,13 @@
 | 16    | bluezebra17            | 38          |
 | 17    | honeytonguedbee        | 37          |
 | 18    | preemalone             | 34          |
+| 19 ⬆  | brody5020              | 28 (+3)     |
 | 19    | dwaynepounder          | 28          |
-| 19 ⬆  | onetriforce            | 28 (+2)     |
-| 21    | brody5020              | 25          |
+| 19    | onetriforce            | 28          |
+| 22 ⬆  | anyonebutfejjy         | 22 (+4)     |
 | 22    | meanmestar             | 22          |
-| 23    | eldiabloskillet        | 21          |
-| 23    | one_guy_123            | 21          |
-| 25    | anyonebutfejjy         | 18 (+2)     |
+| 24 ⬇  | eldiabloskillet        | 21          |
+| 24 ⬇  | one_guy_123            | 21          |
 | 26    | forceghostleia         | 15          |
 | 26    | norstargik             | 15          |
 | 28    | goodtubbaa             | 13          |
@@ -43,4 +43,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-11-08 09:25:34 UTC_
+_Last updated at 2026-11-15 09:23:53 UTC_

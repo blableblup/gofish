@@ -7,54 +7,58 @@
 | 3 🥉  | 🗡️ dagger           | 38.58         | xt1di                | 2026-06-30 19:54:17 |
 | 4     | 🦕 sauropod        | 32.23         | whotookmamulukkikala | 2026-10-20 17:53:23 |
 | 5     | 🐉 dragon          | 26.91         | xknownplayer         | 2026-07-18 20:05:34 |
-| 6 ⬆   | 🦦 otter           | 8.66          | whotookmamulukkikala | 2026-10-30 21:22:05 |
-| 7 ⬆   | 🦎 lizard          | 8.47          | whotookmamulukkikala | 2026-10-30 20:11:56 |
-| 8 ⬆   | 🦪 oyster          | 8.12          | xknownplayer         | 2026-06-11 15:01:21 |
-| 9 ⬆   | 🩲 briefs          | 7.61          | brogboi              | 2026-06-18 16:14:28 |
-| 10 ⬆  | 🐳 bluewhale       | 7.53          | xknownplayer         | 2026-07-08 16:13:57 |
-| 10 ⬆  | 🐋 whale           | 7.53          | whotookmamulukkikala | 2026-10-26 14:26:15 |
-| 12 ⬇  | 🍄 oceanplant      | 6.82 (-5.74)  | kleinheld04          | 2026-11-07 17:30:11 |
-| 13    | 🥒 seacucumber     | 6.58          | brogboi              | 2026-08-03 13:48:02 |
-| 14    | 🪨 rock            | 5.98          | whotookmamulukkikala | 2026-10-20 15:06:33 |
-| 15    | 🐌 snail           | 5.05          | nikkirowland         | 2026-09-22 13:32:09 |
-| 16    | 🐬 dolphin         | 4.35          | comborl_             | 2026-06-20 14:11:54 |
-| 17    | 🕶️ darksunglasses   | 4.31          | comborl_             | 2026-07-31 16:48:31 |
-| 18    | 🦆 duck            | 3.49          | littlemunnster       | 2026-07-20 13:59:27 |
+| 6     | 🦦 otter           | 8.66          | whotookmamulukkikala | 2026-10-30 21:22:05 |
+| 7 ⬆   | 🦪 oyster          | 8.12          | xknownplayer         | 2026-06-11 15:01:21 |
+| 8 ⬆   | 🩲 briefs          | 7.61          | brogboi              | 2026-06-18 16:14:28 |
+| 9 ⬆   | 🐳 bluewhale       | 7.53          | xknownplayer         | 2026-07-08 16:13:57 |
+| 9 ⬆   | 🐋 whale           | 7.53          | whotookmamulukkikala | 2026-10-26 14:26:15 |
+| 11 🆕 | 🪱 worm            | 7.34          | nikkirowland         | 2026-11-10 19:13:48 |
+| 12 ⬆  | 🥒 seacucumber     | 6.58          | brogboi              | 2026-08-03 13:48:02 |
+| 13 ⬆  | 🪨 rock            | 5.98          | whotookmamulukkikala | 2026-10-20 15:06:33 |
+| 14 ⬆  | 🐌 snail           | 5.05          | nikkirowland         | 2026-09-22 13:32:09 |
+| 15 ⬆  | 🐬 dolphin         | 4.35          | comborl_             | 2026-06-20 14:11:54 |
+| 16 ⬆  | 🕶️ darksunglasses   | 4.31          | comborl_             | 2026-07-31 16:48:31 |
+| 17 ⬆  | 🦆 duck            | 3.49          | littlemunnster       | 2026-07-20 13:59:27 |
+| 18 ⬇  | 🍄 oceanplant      | 2.84 (-3.98)  | ikannnixl            | 2026-11-10 15:06:13 |
 | 19    | 🧽 sponge          | 2.47          | xknownplayer         | 2026-10-20 14:22:21 |
 | 20    | 🧋 bobacup         | 2.29          | xknownplayer         | 2026-08-03 17:03:28 |
 | 21    | 🐡 blowfish        | 2.07          | xknownplayer         | 2026-07-16 15:20:40 |
-| 22 🆕 | 🦠 plankton        | 1.45          | comborl_             | 2026-11-07 17:54:12 |
-| 23 ⬇  | 🌹 rose            | 1.40          | ne01g                | 2026-09-30 13:32:47 |
-| 24 ⬇  | 🧃 beveragebox     | 1.28          | xknownplayer         | 2026-06-17 13:53:16 |
-| 25 ⬇  | 🦑 squid           | 1.21          | whotookmamulukkikala | 2026-10-26 18:43:52 |
-| 26 ⬇  | 🐙 octopus         | 1.05          | whotookmamulukkikala | 2026-09-08 13:21:38 |
-| 27 ⬇  | 🧴 sunscreenbottle | 0.96          | xknownplayer         | 2026-07-23 13:59:18 |
-| 28 ⬇  | 🐸 frog            | 0.93          | xknownplayer         | 2026-07-19 17:35:51 |
-| 29 ⬇  | 🪳 cockroach       | 0.91          | xknownplayer         | 2026-07-23 15:13:55 |
-| 30 ⬇  | 🥪 sandwich        | 0.67          | supertauro           | 2026-07-14 16:29:47 |
-| 31 ⬇  | 👟 sneaker         | 0.63          | whotookmamulukkikala | 2026-10-30 17:36:57 |
-| 32 ⬇  | 🩴 thongsandal     | 0.52          | xknownplayer         | 2026-07-31 18:13:13 |
-| 33 ⬇  | 🪸 coral           | 0.39          | brogboi              | 2026-06-20 18:09:31 |
-| 33 ⬇  | 🦞 lobster         | 0.39          | xknownplayer         | 2026-07-27 13:43:27 |
-| 35 ⬇  | 🪝 hook            | 0.32          | brogboi              | 2026-06-12 18:35:39 |
-| 36 ⬇  | 🦐 shrimp          | 0.24          | whotookmamulukkikala | 2026-07-16 11:27:55 |
-| 37 ⬇  | 🩰 balletshoes     | 0.23          | lanisye              | 2026-10-26 16:27:08 |
-| 38 ⬇  | 🐍 snake           | 0.21          | draculvrita          | 2026-10-21 16:43:39 |
-| 39 ⬇  | 🍥 sanddollar      | 0.19          | whotookmamulukkikala | 2026-08-05 14:51:08 |
-| 40 ⬇  | 🪶 feather         | 0.17          | cinnaminawin         | 2026-09-12 17:18:24 |
-| 41 ⬇  | 🐟 fish            | 0.16          | ave0_                | 2026-10-21 16:49:17 |
-| 42 ⬇  | 🐊 crocodile       | 0.08          | nikkirowland         | 2026-09-21 12:49:07 |
-| 42 ⬇  | 🧦 socks           | 0.08          | whotookmamulukkikala | 2026-06-20 14:25:08 |
-| 44 ⬇  | 🐢 turtle          | 0.06          | kleinheld04          | 2026-08-13 16:43:25 |
-| 45 ⬇  | 🎏 lure            | 0.05          | littlemunnster       | 2026-06-15 15:48:28 |
-| 46 ⬇  | 🐚 shell           | 0.04          | brogboi              | 2026-07-06 13:20:34 |
-| 46 ⬇  | 🐠 tropicalfish    | 0.04          | nikkirowland         | 2026-07-19 15:53:23 |
-| 48 ⬇  | 💀 skull           | 0.03          | venus2642            | 2026-06-12 14:25:04 |
-| 49 ⬇  | 🪼 jellyfish       | 0.02          | xknownplayer         | 2026-07-15 16:18:19 |
-| 50 ⬇  | 🦀 crab            | 0.01          | demonkinglucifer_    | 2026-06-20 14:04:08 |
-| 51 ⬇  | 🌿 seaweed         | 0.00          | rainbymoonrise       | 2026-08-10 15:08:02 |
-| 51 ⬇  | 🕷️ spider           | 0.00          | comborl_             | 2026-07-23 15:01:56 |
+| 22 ⬇  | 🦎 lizard          | 1.63 (-6.84)  | whotookmamulukkikala | 2026-11-10 17:52:23 |
+| 23 🆕 | 🥫 cannedfood      | 1.52          | dark336bunny         | 2026-11-14 17:47:17 |
+| 24 ⬇  | 🦠 plankton        | 1.45          | comborl_             | 2026-11-07 17:54:12 |
+| 25 ⬇  | 🌹 rose            | 1.40          | ne01g                | 2026-09-30 13:32:47 |
+| 26 ⬇  | 🧃 beveragebox     | 1.28          | xknownplayer         | 2026-06-17 13:53:16 |
+| 27 ⬇  | 🦑 squid           | 1.21          | whotookmamulukkikala | 2026-10-26 18:43:52 |
+| 28 ⬇  | 🐙 octopus         | 1.05          | whotookmamulukkikala | 2026-09-08 13:21:38 |
+| 29 ⬇  | 🧴 sunscreenbottle | 0.96          | xknownplayer         | 2026-07-23 13:59:18 |
+| 30 ⬇  | 🐸 frog            | 0.93          | xknownplayer         | 2026-07-19 17:35:51 |
+| 31 ⬇  | 🪳 cockroach       | 0.91          | xknownplayer         | 2026-07-23 15:13:55 |
+| 32 ⬇  | 🥪 sandwich        | 0.67          | supertauro           | 2026-07-14 16:29:47 |
+| 33 ⬇  | 👟 sneaker         | 0.62 (-0.01)  | whotookmamulukkikala | 2026-11-10 15:07:29 |
+| 34 ⬇  | 🩴 thongsandal     | 0.52          | xknownplayer         | 2026-07-31 18:13:13 |
+| 35 🆕 | 🧤 gloves          | 0.46          | dark336bunny         | 2026-11-14 18:48:38 |
+| 36 ⬇  | 🪸 coral           | 0.39          | brogboi              | 2026-06-20 18:09:31 |
+| 36 ⬇  | 🦞 lobster         | 0.39          | xknownplayer         | 2026-07-27 13:43:27 |
+| 38 ⬇  | 🦐 shrimp          | 0.24          | whotookmamulukkikala | 2026-07-16 11:27:55 |
+| 39 ⬇  | 🩰 balletshoes     | 0.23          | lanisye              | 2026-10-26 16:27:08 |
+| 40 🆕 | 👢 boot            | 0.22          | whotookmamulukkikala | 2026-11-14 17:11:46 |
+| 41 ⬇  | 🐍 snake           | 0.21          | draculvrita          | 2026-10-21 16:43:39 |
+| 42 ⬇  | 🍥 sanddollar      | 0.19          | whotookmamulukkikala | 2026-08-05 14:51:08 |
+| 43 ⬇  | 🪶 feather         | 0.17          | cinnaminawin         | 2026-09-12 17:18:24 |
+| 44 ⬇  | 🐟 fish            | 0.16          | ave0_                | 2026-10-21 16:49:17 |
+| 45 ⬇  | 🪝 hook            | 0.09 (-0.23)  | lunaluminee          | 2026-11-10 16:58:35 |
+| 46 ⬇  | 🐊 crocodile       | 0.08          | nikkirowland         | 2026-09-21 12:49:07 |
+| 46 ⬇  | 🧦 socks           | 0.08          | whotookmamulukkikala | 2026-06-20 14:25:08 |
+| 48 ⬇  | 🐢 turtle          | 0.06          | kleinheld04          | 2026-08-13 16:43:25 |
+| 49 ⬇  | 🎏 lure            | 0.05          | littlemunnster       | 2026-06-15 15:48:28 |
+| 50 ⬇  | 🐚 shell           | 0.04          | brogboi              | 2026-07-06 13:20:34 |
+| 50 ⬇  | 🐠 tropicalfish    | 0.04          | nikkirowland         | 2026-07-19 15:53:23 |
+| 52 ⬇  | 💀 skull           | 0.03          | venus2642            | 2026-06-12 14:25:04 |
+| 53 ⬇  | 🪼 jellyfish       | 0.02          | xknownplayer         | 2026-07-15 16:18:19 |
+| 54 ⬇  | 🦀 crab            | 0.01          | demonkinglucifer_    | 2026-06-20 14:04:08 |
+| 55 ⬇  | 🌿 seaweed         | 0.00          | rainbymoonrise       | 2026-08-10 15:08:02 |
+| 55 ⬇  | 🕷️ spider           | 0.00          | comborl_             | 2026-07-23 15:01:56 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-11-08 09:27:00 UTC_
+_Last updated at 2026-11-15 09:27:49 UTC_

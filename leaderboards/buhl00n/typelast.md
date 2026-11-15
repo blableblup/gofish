@@ -2,35 +2,35 @@
 
 | Rank | Fish             | Weight in lbs | Player         | Date in UTC         |
 |:-----|:-----------------|:--------------|:---------------|:--------------------|
-| 93   | 🍁 leaf          | 0.44          | buhl00n        | 2026-11-07 23:51:19 |
-| 92   | 🐟 fish          | 11.20         | buhl00n        | 2026-11-07 22:23:29 |
-| 91   | 📱 iphone        | 0.16          | glorp_fishing  | 2026-11-07 21:34:54 |
-| 90   | 🍎 apple         | 0.69          | buhl00n        | 2026-11-07 21:22:46 |
-| 89   | 🎃 pumpkin       | 1.14          | buhl00n        | 2026-11-07 20:00:10 |
-| 88   | 🕸️ spiderweb      | 2.48          | glorp_fishing  | 2026-11-07 19:58:45 |
-| 87   | 🕷️ spider         | 3.24          | gimmeschmoneys | 2026-11-07 19:57:12 |
-| 86   | 🐊 crocodile     | 48.55         | gimmeschmoneys | 2026-11-07 17:49:29 |
-| 85   | 🪝 hook          | 2.97          | gimmeschmoneys | 2026-11-07 16:11:04 |
-| 84   | 🪱 worm          | 3.46          | glorp_fishing  | 2026-11-07 09:19:37 |
-| 83   | 🍃 deadleaves    | 1.87          | buhl00n        | 2026-11-07 08:29:33 |
-| 82   | 🐋 whale         | 29.14         | glorp_fishing  | 2026-11-07 08:18:09 |
-| 81   | 🐌 snail         | 0.81          | gimmeschmoneys | 2026-11-07 05:57:29 |
-| 80   | 🎏 lure          | 0.73          | buhl00n        | 2026-11-07 04:48:25 |
-| 79   | 🦐 shrimp        | 15.74         | glorp_fishing  | 2026-11-07 03:42:08 |
-| 78   | 🐢 turtle        | 76.53         | glorp_fishing  | 2026-11-07 01:12:26 |
-| 77   | 🕯️ candle         | 0.00          | glorp_fishing  | 2026-11-06 23:51:00 |
-| 76   | 🦑 squid         | 49.84         | gimmeschmoneys | 2026-11-06 21:23:46 |
-| 75   | 🐙 octopus       | 49.36         | glorp_fishing  | 2026-11-06 18:16:49 |
-| 74   | 🐸 frog          | 3.49          | buhl00n        | 2026-11-06 16:46:28 |
-| 73   | 🪀 bobber        | 0.00          | buhl00n        | 2026-11-06 15:47:33 |
-| 72   | 🐍 snake         | 0.79          | glorp_fishing  | 2026-11-05 22:17:23 |
-| 71   | 🪨 rock          | 0.15          | glorp_fishing  | 2026-11-05 21:34:34 |
-| 70   | 🐠 tropicalfish  | 0.05          | buhl00n        | 2026-11-05 00:19:27 |
-| 69   | 🦪 oyster        | 7.24          | gimmeschmoneys | 2026-11-03 05:38:29 |
-| 68   | 🌾 grass         | 0.66          | buhl00n        | 2026-11-03 02:28:47 |
-| 67   | 🪻 lupine        | 0.76          | buhl00n        | 2026-11-03 00:18:52 |
-| 66   | 🦞 lobster       | 63.33         | glorp_fishing  | 2026-11-01 03:25:56 |
-| 65   | 🐚 shell         | 3.02          | gimmeschmoneys | 2026-10-28 14:47:07 |
+| 93   | 🪝 hook          | 0.54          | gimmeschmoneys | 2026-11-14 23:51:37 |
+| 92   | 🐟 fish          | 9.05          | buhl00n        | 2026-11-14 16:51:32 |
+| 91   | 🎏 lure          | 0.47          | buhl00n        | 2026-11-14 08:48:52 |
+| 90   | 🌾 grass         | 0.93          | buhl00n        | 2026-11-13 14:02:49 |
+| 89   | 🐚 shell         | 0.73          | gimmeschmoneys | 2026-11-13 06:51:39 |
+| 88   | 🐊 crocodile     | 66.01         | buhl00n        | 2026-11-12 07:53:05 |
+| 87   | 📱 iphone        | 1.18          | gimmeschmoneys | 2026-11-11 19:43:49 |
+| 86   | 🪱 worm          | 3.49          | gimmeschmoneys | 2026-11-11 05:57:11 |
+| 85   | 🍃 deadleaves    | 1.80          | gimmeschmoneys | 2026-11-10 20:37:18 |
+| 84   | 🐌 snail         | 2.45          | buhl00n        | 2026-11-10 10:08:12 |
+| 83   | 🐸 frog          | 3.47          | buhl00n        | 2026-11-10 06:23:20 |
+| 82   | 🍁 leaf          | 0.86          | buhl00n        | 2026-11-10 02:46:56 |
+| 81   | 🕯️ candle         | 0.00          | buhl00n        | 2026-11-09 02:04:35 |
+| 80   | 🎃 pumpkin       | 2.97          | buhl00n        | 2026-11-09 02:04:11 |
+| 79   | 🐙 octopus       | 39.59         | buhl00n        | 2026-11-09 00:11:47 |
+| 78   | 🐋 whale         | 35.83         | buhl00n        | 2026-11-08 22:31:00 |
+| 77   | 🦐 shrimp        | 8.51          | gimmeschmoneys | 2026-11-08 17:20:11 |
+| 76   | 🍎 apple         | 0.69          | buhl00n        | 2026-11-07 21:22:46 |
+| 75   | 🕸️ spiderweb      | 2.48          | glorp_fishing  | 2026-11-07 19:58:45 |
+| 74   | 🕷️ spider         | 3.24          | gimmeschmoneys | 2026-11-07 19:57:12 |
+| 73   | 🐢 turtle        | 76.53         | glorp_fishing  | 2026-11-07 01:12:26 |
+| 72   | 🦑 squid         | 49.84         | gimmeschmoneys | 2026-11-06 21:23:46 |
+| 71   | 🪀 bobber        | 0.00          | buhl00n        | 2026-11-06 15:47:33 |
+| 70   | 🐍 snake         | 0.79          | glorp_fishing  | 2026-11-05 22:17:23 |
+| 69   | 🪨 rock          | 0.15          | glorp_fishing  | 2026-11-05 21:34:34 |
+| 68   | 🐠 tropicalfish  | 0.05          | buhl00n        | 2026-11-05 00:19:27 |
+| 67   | 🦪 oyster        | 7.24          | gimmeschmoneys | 2026-11-03 05:38:29 |
+| 66   | 🪻 lupine        | 0.76          | buhl00n        | 2026-11-03 00:18:52 |
+| 65   | 🦞 lobster       | 63.33         | glorp_fishing  | 2026-11-01 03:25:56 |
 | 64   | 🐡 blowfish      | 7.61          | buhl00n        | 2026-10-27 21:41:41 |
 | 63   | 🎰 slotmachine   | 0.00          | buhl00n        | 2026-10-27 15:50:19 |
 | 62   | 🦈 shark         | 176.61        | buhl00n        | 2026-10-26 14:54:01 |
@@ -85,8 +85,8 @@
 | 13   | ⛸️ iceskate       | 0.31          | gimmeschmoneys | 2025-12-29 07:35:46 |
 | 12   | 🎱 8ball         | 0.34          | vagdy          | 2025-12-20 16:50:33 |
 | 11   | 🦎 lizard        | 0.04          | vagdy          | 2025-12-18 12:34:50 |
-| 8    | ✉️ letter         | 0.00          | buhl00n        | 2025-12-18 06:15:35 |
 | 8    | 🎀 wrappingpaper | 0.00          | buhl00n        | 2025-12-18 06:15:35 |
+| 8    | ✉️ letter         | 0.00          | buhl00n        | 2025-12-18 06:15:35 |
 | 8    | 🍪 cookie        | 0.00          | buhl00n        | 2025-12-18 06:15:35 |
 | 7    | 🥀 wiltedflower  | 1.77          | vagdy          | 2025-12-16 10:34:04 |
 | 6    | 🦫 beaver        | 3.22          | buhl00n        | 2025-12-15 22:40:04 |
@@ -96,4 +96,4 @@
 | 2    | 🔔 bell          | 0.00          | buhl00n        | 2025-12-13 11:15:38 |
 | 1    | 🪺 nestwitheggs  | 10.37         | buhl00n        | 2025-12-12 06:12:20 |
 
-_Last updated at 2026-11-08 09:25:34 UTC_
+_Last updated at 2026-11-15 09:25:59 UTC_

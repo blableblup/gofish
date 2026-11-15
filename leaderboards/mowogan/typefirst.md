@@ -2,6 +2,7 @@
 
 | Rank | Fish             | Weight in lbs | Player      | Date in UTC         |
 |:-----|:-----------------|:--------------|:------------|:--------------------|
+| 88   | 🍄 oceanplant    | 5.54          | crazy__ape  | 2026-11-10 00:09:11 |
 | 87   | 🎃 pumpkin       | 0.49          | maangooss   | 2026-11-07 13:36:40 |
 | 86   | 🛢️ oildrum        | 12.81         | lolspers    | 2026-09-18 05:48:20 |
 | 85   | 🦇 bat           | 3.14          | xtlos       | 2026-09-16 19:42:50 |
@@ -90,4 +91,4 @@
 | 2    | 🎱 8ball         | 0.79          | konsminator | 2025-06-23 16:25:30 |
 | 1    | 🪝 hook          | 2.28          | mowogan     | 2025-06-23 16:00:57 |
 
-_Last updated at 2026-11-08 09:25:35 UTC_
+_Last updated at 2026-11-15 09:26:00 UTC_

@@ -2,20 +2,21 @@
 
 | Rank  | Player               | Total Weight in lbs |
 |:------|:---------------------|:--------------------|
-| 1 🥇  | xknownplayer         | 3251.95 (+9.36)     |
-| 2 🥈  | whotookmamulukkikala | 2742.88 (+17.06)    |
-| 3 🥉  | brogboi              | 1410.71             |
-| 4     | nikkirowland         | 875.02 (+25.96)     |
-| 5     | xt1di                | 814.42              |
+| 1 🥇  | xknownplayer         | 3308.65 (+56.70)    |
+| 2 🥈  | whotookmamulukkikala | 2839.49 (+96.61)    |
+| 3 🥉  | brogboi              | 1508.46 (+97.75)    |
+| 4     | nikkirowland         | 1088.40 (+213.38)   |
+| 5     | xt1di                | 817.78 (+3.36)      |
 | 6     | luciafton            | 701.36              |
-| 7     | ave0_                | 660.82 (+3.20)      |
-| 8     | lanisye              | 432.59 (+19.03)     |
+| 7     | ave0_                | 660.82              |
+| 8     | lanisye              | 511.97 (+79.38)     |
 | 9     | littlemunnster       | 400.64              |
 | 10    | punkish_live         | 352.30              |
-| 11    | comborl_             | 277.83 (+1.45)      |
+| 11    | comborl_             | 303.25 (+25.42)     |
 | 12    | supertauro           | 246.41              |
-| 13 🆕 | draculvrita          | 207.20              |
+| 13 🆕 | kleinheld04          | 211.41              |
+| 14 ⬇  | draculvrita          | 209.34 (+2.14)      |
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-11-08 09:25:39 UTC_
+_Last updated at 2026-11-15 09:25:56 UTC_

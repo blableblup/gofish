@@ -4,13 +4,13 @@
 |:------|:-------------|:--------------------|
 | 1 🥇  | v6r_         | 98199.46            |
 | 2 🥈  | mangos4u     | 48263.54            |
-| 3 🥉  | ritaaww      | 45162.86 (+103.37)  |
+| 3 🥉  | ritaaww      | 45162.86            |
 | 4     | solitahh     | 17237.17            |
 | 5     | gofishgamer  | 6138.52             |
 | 6     | respirate_   | 2777.34             |
 | 7     | aliveleader  | 2637.21             |
 | 8     | elisworm     | 2140.92             |
-| 9     | larvaew      | 1822.35             |
+| 9     | larvaew      | 1830.20 (+7.85)     |
 | 10    | sykelle      | 1085.03             |
 | 11    | xddjenny     | 514.24              |
 | 12    | sussy_amonge | 414.18              |
@@ -18,4 +18,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-11-08 09:25:40 UTC_
+_Last updated at 2026-11-15 09:25:56 UTC_

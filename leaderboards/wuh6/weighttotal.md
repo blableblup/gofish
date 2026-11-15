@@ -2,36 +2,36 @@
 
 | Rank  | Player                    | Total Weight in lbs |
 |:------|:--------------------------|:--------------------|
-| 1 🥇  | ranctious                 | 93943.33 (+1867.17) |
-| 2 🥈  | bubinga                   | 86290.88 (+952.65)  |
+| 1 🥇  | ranctious                 | 96653.17 (+2709.84) |
+| 2 🥈  | bubinga                   | 86495.04 (+204.16)  |
 | 3 🥉  | iflya320                  | 77022.28            |
-| 4     | eeziiii                   | 76679.98 (+72.80)   |
-| 5     | theevirus                 | 70052.74 (+262.37)  |
+| 4     | eeziiii                   | 76688.12 (+8.14)    |
+| 5     | theevirus                 | 71280.94 (+1228.20) |
 | 6     | huuuuuuuuuuuuuuuuuuuuuurz | 57546.30            |
-| 7     | wowitsdub                 | 47972.43 (+467.15)  |
-| 8     | lobuhtomy                 | 47492.57 (+253.71)  |
-| 9     | nndiana*                  | 36706.35 (+327.28)  |
-| 10    | gorillapark               | 30019.91            |
+| 7     | wowitsdub                 | 48051.50 (+79.07)   |
+| 8     | lobuhtomy                 | 47926.23 (+433.66)  |
+| 9     | nndiana*                  | 36824.29 (+117.94)  |
+| 10    | gorillapark               | 30050.81 (+30.90)   |
 | 11    | veny2lbs                  | 21146.70            |
-| 12    | rancbot                   | 13099.92            |
+| 12    | rancbot                   | 13105.60 (+5.68)    |
 | 13    | mazzo_tv                  | 12132.50            |
 | 14    | sandwichsundays*          | 8993.77             |
 | 15    | creepycode*               | 8479.19             |
-| 16    | caprisen_*                | 8340.02             |
-| 17    | feelsaceman               | 7667.32 (+34.52)    |
+| 16    | caprisen_*                | 8446.42 (+106.40)   |
+| 17    | feelsaceman               | 7699.22 (+31.90)    |
 | 18    | commanda_u                | 7064.26             |
-| 19 ⬆  | riririririririririririkko | 6748.74 (+613.11)   |
-| 20 ⬇  | blu_inx                   | 6225.66             |
+| 19    | riririririririririririkko | 6950.21 (+201.47)   |
+| 20    | blu_inx                   | 6225.66             |
 | 21    | bluberry                  | 5990.61             |
-| 22    | bcarw                     | 4318.51 (+241.76)   |
+| 22    | bcarw                     | 4984.95 (+666.44)   |
 | 23    | jr_mime                   | 4064.84             |
 | 24    | flovrek                   | 3625.19             |
 | 25    | flvx_flux*                | 3620.32             |
-| 26    | ewpert1                   | 3441.45 (+76.49)    |
-| 27    | supibot                   | 3020.40             |
-| 28    | teddbearcs                | 2938.09             |
-| 29    | benciee                   | 2935.59             |
-| 30    | ocrw                      | 2550.29 (+99.94)    |
+| 26    | ewpert1                   | 3441.45             |
+| 27 ⬆  | ocrw                      | 3026.67 (+476.38)   |
+| 28 ⬇  | supibot                   | 3020.40             |
+| 29 ⬇  | teddbearcs                | 2938.09             |
+| 30 ⬇  | benciee                   | 2935.59             |
 | 31    | thetaxmen                 | 2208.30             |
 | 32    | poons_u                   | 1680.42             |
 | 33    | glorianeq                 | 1478.66             |
@@ -50,7 +50,7 @@
 | 46    | pspisafemboy              | 920.32              |
 | 47    | drecklo                   | 913.27              |
 | 48    | ratot                     | 908.74              |
-| 49    | bcarbot                   | 880.61              |
+| 49    | bcarbot                   | 881.60 (+0.99)      |
 | 50    | magicbluesword            | 845.02              |
 | 51    | lluuucy                   | 723.46              |
 | 52    | onarrrrrrrr               | 715.67              |
@@ -59,11 +59,11 @@
 | 55    | araqs                     | 665.83              |
 | 56    | iflya350                  | 624.38              |
 | 57    | ggmagician                | 464.22              |
-| 58    | nightbot                  | 387.25              |
-| 59    | cotovelo3                 | 367.98              |
-| 60    | mrsmalvic                 | 360.65              |
-| 61    | streamelements            | 354.95              |
-| 62    | sillyfellow32             | 352.97              |
+| 58 ⬆  | sillyfellow32             | 417.60 (+64.63)     |
+| 59 ⬇  | nightbot                  | 387.25              |
+| 60 ⬇  | cotovelo3                 | 367.98              |
+| 61 ⬇  | mrsmalvic                 | 360.65              |
+| 62 ⬇  | streamelements            | 354.95              |
 | 63    | luneckie                  | 298.84              |
 | 64    | buh_official_             | 280.90              |
 | 65    | xd_2k                     | 278.95              |
@@ -75,4 +75,4 @@
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-11-08 09:25:39 UTC_
+_Last updated at 2026-11-15 09:25:56 UTC_

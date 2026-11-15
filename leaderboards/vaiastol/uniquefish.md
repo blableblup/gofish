@@ -8,7 +8,7 @@
 | 4     | garout             | 72        |
 | 5     | divra__            | 68        |
 | 6     | thespecialone22    | 62        |
-| 6 ⬆   | zfk770             | 62 (+1)   |
+| 6     | zfk770             | 62        |
 | 8     | leanmeister        | 60        |
 | 8     | leastsussyimposter | 60        |
 | 10    | eelacy             | 57        |
@@ -17,7 +17,7 @@
 | 13    | itsthara           | 50        |
 | 13    | pengeg             | 50        |
 | 15    | dazedforevermore   | 49        |
-| 16    | louisemaxxing      | 48        |
+| 15 ⬆  | louisemaxxing      | 49 (+1)   |
 | 17    | ichezero           | 45        |
 | 18    | tiaguitos97        | 43        |
 | 19    | milesdotcom        | 42        |
@@ -37,4 +37,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 20 fish_
 
-_Last updated at 2026-10-25 10:03:59 UTC_
+_Last updated at 2026-11-15 09:23:52 UTC_
