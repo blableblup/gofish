@@ -539,6 +539,29 @@
 			"checkfdata": true,
 			"board_enabled": false
 		},
+		"eyemleonard": {
+			"twitchid": "1071801594",
+			"logs_instances": [
+				{
+					"url": "https://logs.twitchmetrics.xyz",
+					"logs_added": "2026/11"
+				},
+				{
+					"url": "https://logs.susgee.dev",
+					"logs_added": "2026/11"
+				},
+				{
+					"url": "https://logs.cyex.app",
+					"logs_added": "2026/11"
+				},
+				{
+					"url": "https://logs.potat.app",
+					"logs_added": "2026/11"
+				}
+			],
+			"checkfdata": true,
+			"board_enabled": false
+		},
 		"flovrek": {
 			"twitchid": "415401864",
 			"logs_instances": [
