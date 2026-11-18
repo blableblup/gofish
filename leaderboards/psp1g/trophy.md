@@ -2,9 +2,9 @@
 
 | Rank  | Player                    | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points       |
 |:------|:--------------------------|:------------|:-----------------|:-----------------|:-------------|
-| 1 🥇  | nndiana                   | 88 (+3)     | 81               | 42               | 366.0 (+9.0) |
-| 2 🥈  | luneckie                  | 47          | 15               | 20               | 166.0        |
-| 3 🥉  | jayayseaohbee             | 34          | 23               | 11               | 130.5        |
+| 1 🥇  | nndiana                   | 88          | 81               | 42               | 366.0        |
+| 2 🥈  | luneckie                  | 48 (+1)     | 15               | 20               | 169.0 (+3.0) |
+| 3 🥉  | jayayseaohbee             | 34          | 23               | 12 (+1)          | 131.0 (+0.5) |
 | 4     | bubinga                   | 28          | 21               | 16               | 113.0        |
 | 5     | sklortch                  | 14          | 12               | 3                | 55.5         |
 | 6     | blu_inx                   | 9           | 12               | 11               | 44.5         |
@@ -55,12 +55,12 @@
 | 51    | crunch_sack               | 0           | 0                | 3                | 1.5          |
 | 52    | deatron                   | 0           | 1                | 0                | 1.0          |
 | 52    | feelsaceman               | 0           | 1                | 0                | 1.0          |
-| 52 🆕 | miagooper                 | 0           | 0                | 2                | 1.0          |
+| 52    | miagooper                 | 0           | 0                | 2                | 1.0          |
 | 52    | ranctious                 | 0           | 1                | 0                | 1.0          |
 | 52    | xd_2k                     | 0           | 1                | 0                | 1.0          |
-| 57 ⬇  | ducksleazzy               | 0           | 0                | 1                | 0.5          |
-| 57 ⬇  | eeziiii                   | 0           | 0                | 1                | 0.5          |
-| 57 ⬇  | llikotesnecil             | 0           | 0                | 1                | 0.5          |
-| 57 ⬇  | starducc                  | 0           | 0                | 1                | 0.5          |
+| 57    | ducksleazzy               | 0           | 0                | 1                | 0.5          |
+| 57    | eeziiii                   | 0           | 0                | 1                | 0.5          |
+| 57    | llikotesnecil             | 0           | 0                | 1                | 0.5          |
+| 57    | starducc                  | 0           | 0                | 1                | 0.5          |
 
-_Last updated at 2026-11-10 09:39:21 UTC_
+_Last updated at 2026-11-18 10:14:48 UTC_
