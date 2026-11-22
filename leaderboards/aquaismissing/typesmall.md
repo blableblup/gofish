@@ -18,7 +18,7 @@
 | 14    | 🪼 jellyfish     | 3.90          | rustezzz      | 2025-08-28 22:22:42 |
 | 15    | 🦪 oyster        | 2.64          | girlglock     | 2025-05-24 20:38:52 |
 | 16    | 🦎 lizard        | 2.48          | glorpiusbot   | 2026-07-21 00:08:35 |
-| 17    | 🥒 seacucumber   | 2.44          | leaky_gooner  | 2026-09-23 22:21:39 |
+| 17    | 🥒 seacucumber   | 2.44          | ohnefreaky    | 2026-09-23 22:21:39 |
 | 18    | 🧊 icecube       | 2.43          | respirate_    | 2025-11-29 23:55:20 |
 | 19    | 🐋 whale         | 2.28          | yyaaaaaaaas   | 2024-12-29 15:40:53 |
 | 20    | 🐙 octopus       | 1.97          | respirate_    | 2025-11-21 03:34:05 |
@@ -72,4 +72,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-11-08 09:27:24 UTC_
+_Last updated at 2026-11-22 10:50:24 UTC_

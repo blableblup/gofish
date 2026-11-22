@@ -87,46 +87,47 @@
 | 83    | 🪝 hook            | 4.99          | thedraingangceo*          | 2023-08-24 20:19:25 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
 | 84    | 🐦‍⬛ robin         | 4.85          | qu4ttromila               | 2024-04-25 00:23:08 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
 | 85    | 🌰 acorn           | 4.00          | bubinga                   | 2024-09-26 10:53:14 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
-| 86    | 🍁 leaf            | 3.87          | dazedforevermore          | 2025-11-04 21:35:08 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 87    | 🍱 tacklebox       | 3.84          | bubinga                   | 2025-11-02 17:33:24 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
-| 88    | 🪿 goose           | 3.49          | wuh6                      | 2024-12-27 18:55:27 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
-| 89    | 👡 sandal          | 2.99          | eeziiii                   | 2025-04-03 19:02:08 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
-| 89    | 🌻 sunflower       | 2.99          | kishma9                   | 2025-08-13 23:02:21 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 89    | ☂️ umbrella         | 2.99          | vaiastol                  | 2024-07-14 15:25:04 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 92    | 🍃 deadleaves      | 2.98          | iflya320                  | 2025-10-31 21:26:01 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
-| 92    | 🌷 tulip           | 2.98          | lobuhtomy                 | 2025-03-17 14:23:51 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
-| 94    | 🥀 wiltedflower    | 2.97          | iflya320                  | 2024-12-10 13:06:53 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
-| 95    | 🌹 rose            | 2.96          | osnyatsky                 | 2024-03-28 12:12:36 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 95    | 🥪 sandwich        | 2.96          | qu4ttromila               | 2023-05-29 08:10:17 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 97    | 🩴 thongsandal     | 2.94          | bubinga                   | 2024-08-13 10:17:43 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
-| 98    | 🍎 apple           | 2.92          | orldofwarcraft            | 2025-11-04 23:27:16 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 99    | 🩰 balletshoes     | 2.00          | tomsig_gg                 | 2023-09-01 09:27:04 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
-| 99    | 👢 boot            | 2.00          | thegovernment5g           | 2024-01-03 19:04:05 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
-| 99    | ⛸️ iceskate         | 2.00          | eeziiii                   | 2024-12-31 04:54:11 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
-| 99    | 👟 sneaker         | 2.00          | kishma9                   | 2023-11-05 02:37:53 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 99    | 🧦 socks           | 2.00          | osnyatsky*                | 2023-01-31 01:42:33 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 104   | 🌿 seaweed         | 1.99          | angus_lpc                 | 2024-06-30 11:26:57 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
-| 105   | 🪻 lupine          | 1.98          | ytp_dl                    | 2025-07-10 15:36:58 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 106 ⬆ | 🌾 grass           | 1.38 (+0.38)  | feelsaceman               | 2026-11-11 20:04:51 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
-| 106   | 🦂 scorpion        | 1.38          | osnyisdead                | 2026-07-25 23:24:58 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 108 ⬇ | 🐝 bee             | 1.33          | lobuhtomy                 | 2026-06-24 12:18:26 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
-| 108 ⬇ | 🪲 beetle          | 1.33          | sillyfellow32             | 2026-07-24 01:23:54 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
-| 110 ⬇ | 🫐 bilberries      | 1.06          | v6r_                      | 2025-06-26 01:31:42 | ![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)                   |
-| 110 ⬇ | 🐛 caterpillar     | 1.06          | rancbot                   | 2026-07-27 13:53:20 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
-| 112 ⬇ | 🍇 crowberries     | 1.00          | proswift                  | 2026-06-23 23:59:10 | ![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)           |
-| 112 ⬇ | 🪶 feather         | 1.00          | shadowraider247           | 2024-09-15 13:12:58 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
-| 112 ⬇ | 🧤 gloves          | 1.00          | kubo7                     | 2024-01-27 18:51:58 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
-| 112 ⬇ | 🪚 icesaw          | 1.00          | feelsaceman               | 2026-02-16 11:45:50 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
-| 116   | 🍥 sanddollar      | 0.99          | ducksleazzy               | 2026-08-05 19:17:38 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
-| 116   | 🧣 scarf           | 0.99          | osnyatsky*                | 2022-12-22 04:35:03 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 118   | 🐿️ squirrel         | 0.90          | creepycode                | 2024-12-04 03:46:23 | ![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)           |
-| 119   | 🐜 ant             | 0.83          | esca1g                    | 2026-07-23 08:56:30 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
-| 120   | 🦟 mosquito        | 0.68          | v6r_                      | 2025-08-31 21:42:46 | ![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)                   |
-| 121   | 🐞 ladybug         | 0.40          | v6r_                      | 2025-08-29 22:41:13 | ![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)                   |
-| 122   | 🦋 butterfly       | 0.35          | larvaew                   | 2026-07-07 09:51:01 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 123   | 🪰 fly             | 0.34          | derinturitierutz          | 2026-06-25 14:46:09 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
-| 124   | 🦗 cricket         | 0.25          | glorp_fishing             | 2025-08-11 03:39:03 | ![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)                 |
+| 86 🆕 | 🐁 mouse           | 3.92          | breadworms                | 2026-11-17 06:36:50 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 87 ⬇  | 🍁 leaf            | 3.87          | dazedforevermore          | 2025-11-04 21:35:08 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 88 ⬇  | 🍱 tacklebox       | 3.84          | bubinga                   | 2025-11-02 17:33:24 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
+| 89 ⬇  | 🪿 goose           | 3.49          | wuh6                      | 2024-12-27 18:55:27 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
+| 90 ⬇  | 👡 sandal          | 2.99          | eeziiii                   | 2025-04-03 19:02:08 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
+| 90 ⬇  | 🌻 sunflower       | 2.99          | kishma9                   | 2025-08-13 23:02:21 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 90 ⬇  | ☂️ umbrella         | 2.99          | vaiastol                  | 2024-07-14 15:25:04 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 93 ⬇  | 🍃 deadleaves      | 2.98          | iflya320                  | 2025-10-31 21:26:01 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
+| 93 ⬇  | 🌷 tulip           | 2.98          | lobuhtomy                 | 2025-03-17 14:23:51 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
+| 95 ⬇  | 🥀 wiltedflower    | 2.97          | iflya320                  | 2024-12-10 13:06:53 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
+| 96 ⬇  | 🌹 rose            | 2.96          | osnyatsky                 | 2024-03-28 12:12:36 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 96 ⬇  | 🥪 sandwich        | 2.96          | qu4ttromila               | 2023-05-29 08:10:17 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 98 ⬇  | 🩴 thongsandal     | 2.94          | bubinga                   | 2024-08-13 10:17:43 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
+| 99 ⬇  | 🍎 apple           | 2.92          | orldofwarcraft            | 2025-11-04 23:27:16 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 100 ⬇ | 🩰 balletshoes     | 2.00          | tomsig_gg                 | 2023-09-01 09:27:04 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
+| 100 ⬇ | 👢 boot            | 2.00          | thegovernment5g           | 2024-01-03 19:04:05 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
+| 100 ⬇ | ⛸️ iceskate         | 2.00          | eeziiii                   | 2024-12-31 04:54:11 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
+| 100 ⬇ | 👟 sneaker         | 2.00          | kishma9                   | 2023-11-05 02:37:53 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 100 ⬇ | 🧦 socks           | 2.00          | osnyatsky*                | 2023-01-31 01:42:33 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 105 ⬇ | 🌿 seaweed         | 1.99          | angus_lpc                 | 2024-06-30 11:26:57 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
+| 106 ⬇ | 🪻 lupine          | 1.98          | ytp_dl                    | 2025-07-10 15:36:58 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 107 ⬇ | 🌾 grass           | 1.38          | feelsaceman               | 2026-11-11 20:04:51 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
+| 107 ⬇ | 🦂 scorpion        | 1.38          | osnyisdead                | 2026-07-25 23:24:58 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 109 ⬇ | 🐝 bee             | 1.33          | lobuhtomy                 | 2026-06-24 12:18:26 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
+| 109 ⬇ | 🪲 beetle          | 1.33          | sillyfellow32             | 2026-07-24 01:23:54 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
+| 111 ⬇ | 🫐 bilberries      | 1.06          | v6r_                      | 2025-06-26 01:31:42 | ![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)                   |
+| 111 ⬇ | 🐛 caterpillar     | 1.06          | rancbot                   | 2026-07-27 13:53:20 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)                   |
+| 113 ⬇ | 🍇 crowberries     | 1.00          | proswift                  | 2026-06-23 23:59:10 | ![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)           |
+| 113 ⬇ | 🪶 feather         | 1.00          | shadowraider247           | 2024-09-15 13:12:58 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
+| 113 ⬇ | 🧤 gloves          | 1.00          | kubo7                     | 2024-01-27 18:51:58 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
+| 113 ⬇ | 🪚 icesaw          | 1.00          | feelsaceman               | 2026-02-16 11:45:50 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
+| 117 ⬇ | 🍥 sanddollar      | 0.99          | ducksleazzy               | 2026-08-05 19:17:38 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
+| 117 ⬇ | 🧣 scarf           | 0.99          | osnyatsky*                | 2022-12-22 04:35:03 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 119 ⬇ | 🐿️ squirrel         | 0.90          | creepycode                | 2024-12-04 03:46:23 | ![vaiastol](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/vaiastol.png)           |
+| 120 ⬇ | 🐜 ant             | 0.83          | esca1g                    | 2026-07-23 08:56:30 | ![psp1g](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/psp1g.png)                 |
+| 121 ⬇ | 🦟 mosquito        | 0.68          | v6r_                      | 2025-08-31 21:42:46 | ![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)                   |
+| 122 ⬇ | 🐞 ladybug         | 0.40          | v6r_                      | 2025-08-29 22:41:13 | ![omie](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/omie.png)                   |
+| 123 ⬇ | 🦋 butterfly       | 0.35          | larvaew                   | 2026-07-07 09:51:01 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 124 ⬇ | 🪰 fly             | 0.34          | derinturitierutz          | 2026-06-25 14:46:09 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png)       |
+| 125 ⬇ | 🦗 cricket         | 0.25          | glorp_fishing             | 2025-08-11 03:39:03 | ![dizzy](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/dizzy.png)                 |
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-11-15 09:24:44 UTC_
+_Last updated at 2026-11-22 10:53:16 UTC_

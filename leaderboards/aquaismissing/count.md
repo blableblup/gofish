@@ -2,16 +2,16 @@
 
 | Rank  | Player           | Fish caught |
 |:------|:-----------------|:------------|
-| 1 🥇  | glorpiusbot      | 97 (+1)     |
+| 1 🥇  | glorpiusbot      | 97          |
 | 2 🥈  | respirate_       | 95          |
 | 3 🥉  | rustezzz         | 67          |
-| 4     | bubinga          | 64 (+1)     |
+| 4     | bubinga          | 65 (+1)     |
 | 5     | elisworm         | 56          |
 | 6     | aquaismissing    | 41          |
 | 7     | desxyne          | 39          |
 | 8     | likedom_         | 37          |
+| 9 ⬆   | cute_ducc        | 32 (+1)     |
 | 9     | stofeyxd*        | 32          |
-| 10    | cute_ducc        | 31          |
 | 11    | aistyrax3        | 27          |
 | 11    | yyaaaaaaaas      | 27          |
 | 13    | kaitechpl        | 26          |
@@ -19,7 +19,7 @@
 | 15    | dom1torii        | 23          |
 | 15    | kam3l_           | 23          |
 | 15    | poggu_           | 23          |
-| 18    | kargalay         | 22 (+1)     |
+| 18    | kargalay         | 22          |
 | 19    | ggmagician       | 20          |
 | 19    | kaczer1          | 20          |
 | 21    | mir9_9           | 17          |
@@ -34,4 +34,4 @@
 
 _Only showing fishers who caught >= 10 fish_
 
-_Last updated at 2026-11-15 09:23:52 UTC_
+_Last updated at 2026-11-22 10:50:07 UTC_

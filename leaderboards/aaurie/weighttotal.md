@@ -2,17 +2,17 @@
 
 | Rank  | Player            | Total Weight in lbs |
 |:------|:------------------|:--------------------|
-| 1 🥇  | amatusz           | 5983.49 (+237.87)   |
+| 1 🥇  | amatusz           | 6088.14 (+104.65)   |
 | 2 🥈  | jeffbethyname69   | 5635.69             |
 | 3 🥉  | dolp_fin          | 3830.56             |
-| 4     | boogie_310        | 2365.84             |
+| 4     | boogie_310        | 2366.82 (+0.98)     |
 | 5     | gofishgamer       | 1843.60             |
 | 6     | allspice_boatrace | 1692.63             |
 | 7     | abelito75         | 1524.01             |
-| 8     | aaurie            | 1203.83             |
-| 9     | guy_farting420    | 1130.68 (+2.36)     |
-| 10 ⬆  | rustnroll         | 1101.92 (+41.00)    |
-| 11 ⬇  | victorvondoom313  | 1076.77             |
+| 8 ⬆   | rustnroll         | 1216.08 (+114.16)   |
+| 9 ⬇   | aaurie            | 1203.83             |
+| 10 ⬇  | guy_farting420    | 1177.49 (+46.81)    |
+| 11    | victorvondoom313  | 1122.71 (+45.94)    |
 | 12    | curiouscorvidae   | 763.40              |
 | 13    | bluezebra17       | 626.08              |
 | 14    | onetriforce       | 587.21              |
@@ -23,16 +23,16 @@
 | 19    | dwaynepounder     | 438.31              |
 | 20    | slimdoggiedog     | 438.27              |
 | 21    | eldiabloskillet   | 379.29              |
-| 22    | brody5020         | 366.69 (+39.02)     |
+| 22    | brody5020         | 369.60 (+2.91)      |
 | 23    | mademooselle      | 313.87              |
 | 24    | meanmestar        | 308.22              |
 | 25    | ratlover2244      | 282.57              |
 | 26    | forceghostleia    | 254.21              |
 | 27    | zharan_keating    | 250.27              |
-| 28 🆕 | anyonebutfejjy    | 221.84              |
-| 29 ⬇  | yaboieb27         | 216.03              |
-| 30 ⬇  | frostytangent     | 207.66              |
+| 28    | anyonebutfejjy    | 234.47 (+12.63)     |
+| 29    | yaboieb27         | 216.03              |
+| 30    | frostytangent     | 207.66              |
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-11-15 09:25:57 UTC_
+_Last updated at 2026-11-22 10:54:18 UTC_

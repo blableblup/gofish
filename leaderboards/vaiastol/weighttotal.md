@@ -2,27 +2,27 @@
 
 | Rank  | Player                | Total Weight in lbs |
 |:------|:----------------------|:--------------------|
-| 1 🥇  | vaiastol              | 58707.25 (+483.65)  |
+| 1 🥇  | vaiastol              | 59005.57 (+298.32)  |
 | 2 🥈  | hahppyy               | 36131.39            |
 | 3 🥉  | eelacy                | 16302.36            |
-| 4     | proswift              | 13578.79 (+133.73)  |
+| 4     | proswift              | 13585.27 (+6.48)    |
 | 5     | divra__               | 12549.83            |
 | 6     | garout                | 12474.59            |
 | 7     | ichezero              | 11210.20            |
-| 8     | nicestnarwhal         | 9929.13             |
-| 9     | leastsussyimposter    | 9791.51             |
-| 10    | leanmeister           | 9660.42             |
-| 11    | zfk770                | 9622.86 (+253.52)   |
+| 8 ⬆   | zfk770                | 9969.72 (+346.86)   |
+| 9 ⬇   | nicestnarwhal         | 9929.13             |
+| 10 ⬇  | leastsussyimposter    | 9791.51             |
+| 11 ⬇  | leanmeister           | 9660.42             |
 | 12    | thespecialone22       | 9311.66             |
 | 13    | ryakarr               | 7983.04             |
 | 14    | dazedforevermore      | 5610.15             |
 | 15    | itsthara              | 5215.87             |
-| 16    | pengeg                | 4975.48             |
-| 17    | louisemaxxing         | 4883.20 (+25.03)    |
+| 16 ⬆  | louisemaxxing         | 4975.57 (+92.37)    |
+| 17 ⬇  | pengeg                | 4975.48             |
 | 18    | julialuxel            | 4536.16             |
 | 19    | milesdotcom           | 2546.43             |
 | 20    | tiaguitos97           | 2319.20             |
-| 21    | notsatan13            | 2087.92 (+63.19)    |
+| 21    | notsatan13            | 2087.92             |
 | 22    | brontiiide            | 1966.17             |
 | 23    | gstaman911            | 1745.30             |
 | 24    | crustymilk            | 1587.56             |
@@ -42,8 +42,8 @@
 | 38    | ermnest               | 352.56              |
 | 39    | v6r_                  | 325.01              |
 | 40    | j4song                | 321.68              |
-| 41    | lisa_bin              | 286.41              |
-| 42    | jorpiter              | 283.05 (+8.10)      |
+| 41 ⬆  | jorpiter              | 296.93 (+13.88)     |
+| 42 ⬇  | lisa_bin              | 286.41              |
 | 43    | respirate_            | 268.58              |
 | 44    | sandwichsundays*      | 254.32              |
 | 45    | thetaxmen             | 239.00              |
@@ -51,8 +51,7 @@
 | 47    | dev0p_                | 210.01              |
 | 48    | nightmare_jpg         | 206.76              |
 | 49    | cyaniderx             | 203.83              |
-| 50 🆕 | ash__meow             | 200.00              |
 
 _Only showing fishers with a total weight of >= 200 lbs_
 
-_Last updated at 2026-11-15 09:25:56 UTC_
+_Last updated at 2026-11-22 10:54:18 UTC_

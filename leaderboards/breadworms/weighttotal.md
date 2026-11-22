@@ -2,38 +2,38 @@
 
 | Rank  | Player                  | Total Weight in lbs |
 |:------|:------------------------|:--------------------|
-| 1 🥇  | osnyisdead              | 102571.27 (+97.04)  |
+| 1 🥇  | osnyisdead              | 102888.26 (+316.99) |
 | 2 🥈  | lluuucy                 | 101004.27           |
 | 3 🥉  | osnyatsky*              | 91106.82            |
 | 4     | puzzlow                 | 78733.57            |
 | 5     | sicklymaidrobot         | 76674.96            |
 | 6     | qu4ttromila             | 70247.66            |
 | 7     | leanmeister             | 67767.20            |
-| 8     | miiiiisho               | 66911.72 (+205.44)  |
+| 8     | miiiiisho               | 67097.61 (+185.89)  |
 | 9     | destin357               | 63895.32            |
 | 10    | dazedforevermore        | 60207.82            |
-| 11    | derinturitierutz        | 58831.58 (+56.73)   |
+| 11    | derinturitierutz        | 58831.58            |
 | 12    | kishma9                 | 55056.90            |
 | 13    | sussy_amonge            | 52098.34            |
-| 14    | esvelles                | 46062.48 (+871.39)  |
+| 14    | esvelles                | 46403.51 (+341.03)  |
 | 15    | booty_bread             | 42993.60            |
-| 16    | derintu                 | 36877.25 (+251.80)  |
-| 17 ⬆  | fishingalt              | 32206.45 (+59.22)   |
-| 18 ⬇  | ninjaross*              | 32171.42            |
+| 16    | derintu                 | 36877.25            |
+| 17    | fishingalt              | 32206.45            |
+| 18    | ninjaross*              | 32171.42            |
 | 19    | ytp_dl*                 | 30636.76            |
-| 20    | dougiefresh_83*         | 30269.53 (+19.55)   |
-| 21    | uumgi                   | 27217.80 (+282.99)  |
-| 22    | larvaew                 | 25930.30 (+167.07)  |
+| 20    | dougiefresh_83*         | 30482.47 (+212.94)  |
+| 21    | uumgi                   | 27367.71 (+149.91)  |
+| 22    | larvaew                 | 25930.30            |
 | 23    | comiqq                  | 20900.39            |
 | 24    | paras220                | 20261.98            |
 | 25    | ryebreadward            | 19103.99            |
 | 26    | crazytown_bananapants   | 18176.45            |
-| 27 ⬆  | gstaman911              | 17077.08 (+127.62)  |
-| 28 ⬇  | breadworms              | 16985.65 (+13.60)   |
+| 27    | gstaman911              | 17077.08            |
+| 28    | breadworms              | 16989.57 (+3.92)    |
 | 29    | bussinongnocap          | 16404.64            |
 | 30    | respirate_              | 14595.42            |
 | 31    | julialuxel              | 14122.69            |
-| 32    | wceol                   | 13845.81 (+11.33)   |
+| 32    | wceol                   | 13848.48 (+2.67)    |
 | 33    | xth49*                  | 13595.84            |
 | 34    | trident1011             | 13141.95            |
 | 35    | xz_xz                   | 12457.40            |
@@ -41,12 +41,12 @@
 | 37    | michael_bay65           | 11754.04            |
 | 38    | idini                   | 11044.84            |
 | 39    | mitgliederversammlung   | 9718.17             |
-| 40    | orldofwarcraft          | 9581.13 (+29.59)    |
+| 40    | orldofwarcraft          | 9581.13             |
 | 41    | lazuli672*              | 8789.78             |
 | 42    | osnyatsky*              | 7723.42             |
 | 43    | doublehelicalstructure* | 7292.83             |
 | 44    | gawblemachine           | 6874.32             |
-| 45    | fvkdylan                | 6626.35             |
+| 45    | fvkdylan                | 6628.15 (+1.80)     |
 | 46    | wisco9ers*              | 6585.86             |
 | 47    | ouacewi                 | 6173.19             |
 | 48    | realtechnine            | 6015.30             |
@@ -80,4 +80,4 @@
 
 _Only showing fishers with a total weight of >= 1800 lbs_
 
-_Last updated at 2026-11-15 09:25:56 UTC_
+_Last updated at 2026-11-22 10:54:17 UTC_

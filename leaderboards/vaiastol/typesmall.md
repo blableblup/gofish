@@ -76,37 +76,37 @@
 | 72    | 🪀 bobber          | 0.06          | divra__            | 2025-09-01 18:53:05 |
 | 72    | 🪶 feather         | 0.06          | garout             | 2025-02-12 20:51:20 |
 | 72    | 🧽 sponge          | 0.06          | jr_mime            | 2024-08-02 17:19:54 |
-| 75 ⬆  | 🧃 beveragebox     | 0.05          | notsatan13         | 2026-06-23 16:28:36 |
-| 75 ⬆  | 🦋 butterfly       | 0.05          | divra__            | 2026-08-03 12:19:43 |
-| 75 ⬆  | 🩴 thongsandal     | 0.05          | garout             | 2025-08-25 18:31:37 |
-| 78 ⬆  | 🍬 candy           | 0.04          | hahppyy            | 2024-11-10 18:29:03 |
-| 78 ⬆  | 🧊 icecube         | 0.04          | leanmeister        | 2025-01-08 21:50:10 |
-| 78 ⬇  | 🌹 rose            | 0.04 (-0.02)  | proswift           | 2026-10-12 23:03:13 |
-| 78 ⬆  | 🕷️ spider           | 0.04          | thespecialone22    | 2026-05-12 21:18:06 |
-| 78 ⬆  | 🌻 sunflower       | 0.04          | zfk770             | 2026-07-14 19:16:58 |
+| 75    | 🧃 beveragebox     | 0.05          | notsatan13         | 2026-06-23 16:28:36 |
+| 75    | 🦋 butterfly       | 0.05          | divra__            | 2026-08-03 12:19:43 |
+| 75    | 🩴 thongsandal     | 0.05          | garout             | 2025-08-25 18:31:37 |
+| 78    | 🍬 candy           | 0.04          | hahppyy            | 2024-11-10 18:29:03 |
+| 78    | 🧊 icecube         | 0.04          | leanmeister        | 2025-01-08 21:50:10 |
+| 78    | 🌹 rose            | 0.04          | proswift           | 2026-10-12 23:03:13 |
+| 78    | 🕷️ spider           | 0.04          | thespecialone22    | 2026-05-12 21:18:06 |
+| 78    | 🌻 sunflower       | 0.04          | zfk770             | 2026-07-14 19:16:58 |
 | 83    | 🪸 coral           | 0.03          | hahppyy            | 2024-10-26 17:19:25 |
 | 83    | ⛸️ iceskate         | 0.03          | vaiastol           | 2025-01-03 11:53:37 |
 | 83    | 📱 iphone          | 0.03          | tiaguitos97        | 2025-12-20 13:41:07 |
 | 83    | 🧵 wireline        | 0.03          | ryakarr            | 2026-06-23 00:36:15 |
 | 87    | 🎱 8ball           | 0.02          | proswift           | 2026-09-16 14:35:14 |
-| 87    | 🌰 acorn           | 0.02          | leastsussyimposter | 2024-09-25 23:23:39 |
 | 87    | 👢 boot            | 0.02          | obama              | 2026-02-22 19:13:14 |
 | 87    | 🥫 cannedfood      | 0.02          | nicestnarwhal      | 2025-01-08 13:23:38 |
 | 87    | 🦎 lizard          | 0.02          | vaiastol           | 2025-11-18 23:50:02 |
 | 87    | 🦟 mosquito        | 0.02          | proswift           | 2026-07-22 21:48:31 |
 | 87    | 🪨 rock            | 0.02          | louisemaxxing      | 2025-04-14 05:02:31 |
 | 87    | 🐌 snail           | 0.02          | vaiastol           | 2025-12-25 03:49:18 |
-| 95    | 🐜 ant             | 0.01          | notsatan13         | 2026-07-27 21:59:21 |
-| 95    | 🐛 caterpillar     | 0.01          | proswift           | 2026-07-16 16:47:14 |
-| 95    | ☘️ clover           | 0.01          | eelacy             | 2025-03-22 09:54:23 |
-| 95    | 🦀 crab            | 0.01          | eelacy             | 2025-02-24 14:56:28 |
-| 95    | 🌾 grass           | 0.01          | hahppyy            | 2026-07-13 19:00:34 |
-| 95    | 🪚 icesaw          | 0.01          | vaiastol           | 2025-01-21 23:39:41 |
-| 95    | 🫙 jar             | 0.01          | divra__            | 2026-07-24 17:51:58 |
-| 95    | 🪻 lupine          | 0.01          | divra__            | 2026-07-21 03:22:49 |
-| 95    | 🎏 lure            | 0.01          | hahppyy            | 2024-11-20 09:09:11 |
-| 95    | 🐍 snake           | 0.01          | vaiastol           | 2025-07-13 17:43:09 |
-| 95    | 🕸️ spiderweb        | 0.01          | thespecialone22    | 2026-07-06 18:28:14 |
+| 94 ⬇  | 🌰 acorn           | 0.01 (-0.01)  | zfk770             | 2026-11-17 00:30:17 |
+| 94 ⬆  | 🐜 ant             | 0.01          | notsatan13         | 2026-07-27 21:59:21 |
+| 94 ⬆  | 🐛 caterpillar     | 0.01          | proswift           | 2026-07-16 16:47:14 |
+| 94 ⬆  | ☘️ clover           | 0.01          | eelacy             | 2025-03-22 09:54:23 |
+| 94 ⬆  | 🦀 crab            | 0.01          | eelacy             | 2025-02-24 14:56:28 |
+| 94 ⬆  | 🌾 grass           | 0.01          | hahppyy            | 2026-07-13 19:00:34 |
+| 94 ⬆  | 🪚 icesaw          | 0.01          | vaiastol           | 2025-01-21 23:39:41 |
+| 94 ⬆  | 🫙 jar             | 0.01          | divra__            | 2026-07-24 17:51:58 |
+| 94 ⬆  | 🪻 lupine          | 0.01          | divra__            | 2026-07-21 03:22:49 |
+| 94 ⬆  | 🎏 lure            | 0.01          | hahppyy            | 2024-11-20 09:09:11 |
+| 94 ⬆  | 🐍 snake           | 0.01          | vaiastol           | 2025-07-13 17:43:09 |
+| 94 ⬆  | 🕸️ spiderweb        | 0.01          | thespecialone22    | 2026-07-06 18:28:14 |
 | 106   | 🩰 balletshoes     | 0.00          | proswift           | 2026-05-10 13:53:06 |
 | 106   | 🪹 emptynest       | 0.00          | vaiastol           | 2025-07-02 18:53:36 |
 | 106   | 🐟 fish            | 0.00          | vaiastol           | 2025-08-28 15:38:36 |
@@ -122,4 +122,4 @@
 
 _If there are multiple records with the same weight, only the player who caught it first is displayed_
 
-_Last updated at 2026-10-18 09:25:37 UTC_
+_Last updated at 2026-11-22 10:51:27 UTC_

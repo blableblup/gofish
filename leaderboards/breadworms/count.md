@@ -4,37 +4,37 @@
 |:------|:------------------------|:------------|
 | 1 🥇  | lluuucy                 | 5533        |
 | 2 🥈  | osnyatsky*              | 5070        |
-| 3 🥉  | osnyisdead              | 4994 (+6)   |
+| 3 🥉  | osnyisdead              | 5005 (+11)  |
 | 4     | sicklymaidrobot         | 3850        |
 | 5     | puzzlow                 | 3760        |
-| 6     | derinturitierutz        | 3432 (+25)  |
+| 6     | derinturitierutz        | 3432        |
 | 7     | qu4ttromila             | 3333        |
 | 8     | destin357               | 3331        |
 | 9     | leanmeister             | 3285        |
-| 10    | miiiiisho               | 3269 (+13)  |
+| 10    | miiiiisho               | 3279 (+10)  |
 | 11    | dazedforevermore        | 2958        |
 | 12    | kishma9                 | 2792        |
-| 13    | derintu                 | 2642 (+21)  |
+| 13    | derintu                 | 2642        |
 | 14    | sussy_amonge            | 2230        |
-| 15    | fishingalt              | 2201 (+9)   |
-| 16    | esvelles                | 2187 (+47)  |
+| 15 ⬆  | esvelles                | 2207 (+20)  |
+| 16 ⬇  | fishingalt              | 2201        |
 | 17    | booty_bread             | 2102        |
 | 18    | ytp_dl*                 | 1771        |
-| 19 ⬆  | dougiefresh_83*         | 1688 (+9)   |
-| 20 ⬇  | ninjaross*              | 1685        |
-| 21    | larvaew                 | 1647 (+8)   |
-| 22    | uumgi                   | 1505 (+24)  |
-| 23    | gstaman911              | 1442 (+4)   |
+| 19    | dougiefresh_83*         | 1695 (+7)   |
+| 20    | ninjaross*              | 1685        |
+| 21    | larvaew                 | 1647        |
+| 22    | uumgi                   | 1510 (+5)   |
+| 23    | gstaman911              | 1442        |
 | 24    | paras220                | 1070        |
 | 25    | comiqq                  | 1047        |
-| 26    | breadworms              | 974 (+7)    |
-| 27 ⬇  | ouacewi                 | 967         |
+| 26    | breadworms              | 975 (+1)    |
+| 27    | ouacewi                 | 967         |
 | 28    | ryebreadward            | 957         |
 | 29    | crazytown_bananapants   | 938         |
-| 30    | orldofwarcraft          | 825 (+12)   |
+| 30    | orldofwarcraft          | 825         |
 | 31    | respirate_              | 810         |
 | 32    | bussinongnocap          | 797         |
-| 33    | wceol                   | 655 (+3)    |
+| 33    | wceol                   | 656 (+1)    |
 | 34    | michael_bay65           | 627         |
 | 35    | julialuxel              | 620         |
 | 36    | xth49*                  | 619         |
@@ -53,7 +53,7 @@
 | 49    | wisco9ers*              | 372         |
 | 50    | osnyatsky*              | 367         |
 | 51    | ommcyrene               | 366         |
-| 52    | fvkdylan                | 334         |
+| 52    | fvkdylan                | 335 (+1)    |
 | 53    | divra__                 | 318         |
 | 54    | realtechnine            | 302         |
 | 55    | freyjiiita*             | 284         |
@@ -80,4 +80,4 @@
 
 _Only showing fishers who caught >= 100 fish_
 
-_Last updated at 2026-11-15 09:23:53 UTC_
+_Last updated at 2026-11-22 10:50:07 UTC_

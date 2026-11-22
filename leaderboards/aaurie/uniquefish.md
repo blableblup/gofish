@@ -9,7 +9,7 @@
 | 5     | gofishgamer            | 32        |
 | 6     | allspice_boatrace      | 31        |
 | 7     | guy_farting420         | 30        |
-| 8     | rustnroll              | 27        |
+| 8     | rustnroll              | 29 (+2)   |
 | 9     | abelito75              | 26        |
 | 9     | victorvondoom313       | 26        |
 | 11    | aaurie                 | 23        |
@@ -19,14 +19,14 @@
 | 14    | preemalone             | 19        |
 | 16    | honeytonguedbee        | 18        |
 | 16    | onetriforce            | 18        |
+| 18 ⬆  | brody5020              | 16 (+1)   |
 | 18    | eldiabloskillet        | 16        |
-| 19    | brody5020              | 15 (+1)   |
-| 20 ⬆  | anyonebutfejjy         | 14 (+2)   |
-| 20 ⬇  | meanmestar             | 14        |
-| 20 ⬇  | one_guy_123            | 14        |
-| 23 ⬇  | mademooselle           | 13        |
-| 23 ⬇  | slimdoggiedog          | 13        |
-| 25 ⬇  | jimmybooger            | 12        |
+| 20    | anyonebutfejjy         | 15 (+1)   |
+| 21 ⬇  | meanmestar             | 14        |
+| 21 ⬇  | one_guy_123            | 14        |
+| 23    | mademooselle           | 13        |
+| 23    | slimdoggiedog          | 13        |
+| 25    | jimmybooger            | 12        |
 | 26    | blackberryking00       | 11        |
 | 26    | forceghostleia         | 11        |
 | 26    | ratlover2244           | 11        |
@@ -37,4 +37,4 @@ _This does not include fish seen through gifting to another player during the wi
 
 _Only showing fishers who have seen >= 10 fish_
 
-_Last updated at 2026-11-15 09:23:52 UTC_
+_Last updated at 2026-11-22 10:54:14 UTC_

@@ -2,6 +2,7 @@
 
 | Rank | Fish               | Weight in lbs | Player                  | Date in UTC         |
 |:-----|:-------------------|:--------------|:------------------------|:--------------------|
+| 132  | 🐁 mouse           | 3.92          | breadworms              | 2026-11-17 06:36:50 |
 | 131  | 🍊 orange          | 0.00          | orldofwarcraft          | 2025-12-18 03:39:22 |
 | 130  | 🍱 tacklebox       | 2.13          | derinturitierutz        | 2025-11-01 12:30:09 |
 | 129  | 🍎 apple           | 0.40          | uumgi                   | 2025-10-30 04:57:14 |
@@ -37,8 +38,8 @@
 | 99   | 🛒 shoppingcart    | 34.05         | derinturitierutz        | 2025-01-01 18:01:51 |
 | 98   | 🧥 coat            | 1.85          | gstaman911              | 2025-01-01 13:14:00 |
 | 97   | 🪿 goose           | 2.44          | leanmeister             | 2024-12-31 17:08:06 |
-| 94   | 🍪 cookie          | 0.00          | derinturitierutz        | 2024-12-24 10:24:51 |
 | 94   | 🎀 wrappingpaper   | 0.00          | derinturitierutz        | 2024-12-24 10:24:51 |
+| 94   | 🍪 cookie          | 0.00          | derinturitierutz        | 2024-12-24 10:24:51 |
 | 94   | ✉️ letter           | 0.00          | derinturitierutz        | 2024-12-24 10:24:51 |
 | 93   | 🎁 present         | 0.00          | breadworms              | 2024-12-24 09:32:34 |
 | 92   | 🐀 rat             | 75.78         | fishingalt              | 2024-12-23 14:44:14 |
@@ -134,4 +135,4 @@
 | 2    | 🐸 frog            | 4.76          | miiiiisho               | 2022-12-04 01:04:30 |
 | 1    | 🦐 shrimp          | 29.58         | lagggm*                 | 2022-12-04 00:58:55 |
 
-_Last updated at 2026-10-25 10:04:01 UTC_
+_Last updated at 2026-11-22 10:54:18 UTC_

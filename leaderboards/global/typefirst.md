@@ -2,6 +2,7 @@
 
 | Rank | Fish               | Weight in lbs | Player                  | Date in UTC         | Chat                                                                                                  |
 |:-----|:-------------------|:--------------|:------------------------|:--------------------|:------------------------------------------------------------------------------------------------------|
+| 132  | 🐁 mouse           | 3.92          | breadworms              | 2026-11-17 06:36:50 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 131  | 🍱 tacklebox       | 0.53          | ocrw                    | 2025-10-31 20:56:05 | ![wuh6](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/wuh6.png)             |
 | 130  | 🍎 apple           | 0.40          | uumgi                   | 2025-10-30 04:57:14 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 129  | 🕯️ candle           | 0.00          | breadworms              | 2025-10-30 01:36:45 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
@@ -134,4 +135,4 @@
 | 2    | 🐸 frog            | 4.76          | miiiiisho               | 2022-12-04 01:04:30 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 | 1    | 🦐 shrimp          | 29.58         | lagggm*                 | 2022-12-04 00:58:55 | ![breadworms](https://raw.githubusercontent.com/blableblup/gofish/main/images/players/breadworms.png) |
 
-_Last updated at 2026-10-04 08:04:05 UTC_
+_Last updated at 2026-11-22 10:54:18 UTC_

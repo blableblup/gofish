@@ -81,7 +81,7 @@
 | 77    | stofeyxd         | 🐢 turtle    | 60.60         | 2025-05-15 14:53:40 |
 | 78    | respirate_       | 🐢 turtle    | 60.31         | 2025-11-19 07:00:00 |
 | 79    | nuflux           | 🐙 octopus   | 59.93         | 2026-03-17 01:16:05 |
-| 80    | leaky_gooner     | 🦑 squid     | 59.84         | 2026-09-07 23:50:18 |
+| 80    | ohnefreaky       | 🦑 squid     | 59.84         | 2026-09-07 23:50:18 |
 | 81    | tautautautautau  | 🐢 turtle    | 59.69         | 2025-03-11 22:09:33 |
 | 82    | poggu_           | 🦞 lobster   | 59.30         | 2024-11-28 10:34:33 |
 | 83    | velantix         | 🐊 crocodile | 59.24         | 2025-04-19 15:26:33 |
@@ -103,4 +103,4 @@
 | 99    | respirate_       | 🐋 whale     | 53.45         | 2025-11-19 06:25:57 |
 | 100   | glorpiusbot      | 🐢 turtle    | 53.30         | 2026-01-12 19:38:18 |
 
-_Last updated at 2026-11-08 09:29:48 UTC_
+_Last updated at 2026-11-22 10:54:13 UTC_

@@ -137,7 +137,7 @@
 		"fishid": 227456,
 		"chatid": 183,
 		"date": "2025-12-23T19:32:00Z",
-		"rank": 57
+		"rank": 58
 	},
 	"bone": {
 		"player": "glorp_fishing",
@@ -165,7 +165,7 @@
 		"fishid": 231710,
 		"chatid": 397,
 		"date": "2026-01-07T12:56:53Z",
-		"rank": 55
+		"rank": 56
 	},
 	"butterfly": {
 		"player": "gimmeschmoneys",
@@ -249,7 +249,7 @@
 		"fishid": 222220,
 		"chatid": 26,
 		"date": "2025-12-13T17:07:17Z",
-		"rank": 58
+		"rank": 59
 	},
 	"coat": {
 		"player": "buhl00n",
@@ -347,7 +347,7 @@
 		"fishid": 295718,
 		"chatid": 1503,
 		"date": "2026-11-07T08:29:33Z",
-		"rank": 56
+		"rank": 57
 	},
 	"dolphin": {
 		"player": "glorp_fishing",
@@ -616,18 +616,18 @@
 		"rank": 14
 	},
 	"lupine": {
-		"player": "gimmeschmoneys",
-		"playerid": 3086,
-		"weight": 1.41,
+		"player": "buhl00n",
+		"playerid": 3121,
+		"weight": 1.95,
 		"bot": "gofishgame",
 		"fishtype": "🪻",
 		"fishname": "lupine",
 		"catchtype": "normal",
 		"chat": "buhl00n",
-		"fishid": 284374,
-		"chatid": 1181,
-		"date": "2026-08-17T20:49:32Z",
-		"rank": 61
+		"fishid": 297629,
+		"chatid": 1551,
+		"date": "2026-11-19T11:52:03Z",
+		"rank": 55
 	},
 	"lure": {
 		"player": "buhl00n",
@@ -669,7 +669,7 @@
 		"fishid": 229772,
 		"chatid": 293,
 		"date": "2025-12-30T16:59:15Z",
-		"rank": 26
+		"rank": 27
 	},
 	"nestwitheggs": {
 		"player": "buhl00n",
@@ -725,7 +725,7 @@
 		"fishid": 227467,
 		"chatid": 185,
 		"date": "2025-12-23T20:07:49Z",
-		"rank": 25
+		"rank": 26
 	},
 	"oyster": {
 		"player": "vagdy",
@@ -837,7 +837,7 @@
 		"fishid": 243551,
 		"chatid": 596,
 		"date": "2026-02-27T16:32:31Z",
-		"rank": 59
+		"rank": 60
 	},
 	"sauropod": {
 		"player": "ofaisalz",
@@ -1005,7 +1005,7 @@
 		"fishid": 290022,
 		"chatid": 1299,
 		"date": "2026-09-26T20:38:51Z",
-		"rank": 60
+		"rank": 61
 	},
 	"spider": {
 		"player": "glorp_fishing",
@@ -1094,16 +1094,16 @@
 	"tropicalfish": {
 		"player": "buhl00n",
 		"playerid": 3121,
-		"weight": 18.38,
+		"weight": 19.16,
 		"bot": "gofishgame",
 		"fishtype": "🐠",
 		"fishname": "tropicalfish",
 		"catchtype": "normal",
 		"chat": "buhl00n",
-		"fishid": 234237,
-		"chatid": 527,
-		"date": "2026-01-17T09:29:10Z",
-		"rank": 27
+		"fishid": 297783,
+		"chatid": 1553,
+		"date": "2026-11-20T19:44:10Z",
+		"rank": 25
 	},
 	"turtle": {
 		"player": "buhl00n",
