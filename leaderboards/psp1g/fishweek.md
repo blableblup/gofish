@@ -21,7 +21,7 @@
 | 17    | gorillapark               | 72          |
 | 18    | mazzo_tv                  | 71          |
 | 19    | paju1g                    | 70          |
-| 20    | sillyfellow32             | 69          |
+| 20    | sillymeow32               | 69          |
 | 21    | caprisen_                 | 65          |
 | 21    | sandwichsundays           | 65          |
 | 23    | xd_2k                     | 64          |
@@ -67,4 +67,4 @@
 
 _Only showing fishers who caught >= 20 fish_
 
-_Last updated at 2026-10-27 12:51:25 UTC_
+_Last updated at 2026-11-26 14:21:32 UTC_

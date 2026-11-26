@@ -2,11 +2,11 @@
 
 | Rank  | Player                    | Trophies 🏆 | Silver Medals 🥈 | Bronze Medals 🥉 | Points       |
 |:------|:--------------------------|:------------|:-----------------|:-----------------|:-------------|
-| 1 🥇  | nndiana                   | 88          | 81               | 42               | 366.0        |
-| 2 🥈  | luneckie                  | 48 (+1)     | 15               | 20               | 169.0 (+3.0) |
-| 3 🥉  | jayayseaohbee             | 34          | 23               | 12 (+1)          | 131.0 (+0.5) |
+| 1 🥇  | nndiana                   | 89 (+1)     | 81               | 42               | 369.0 (+3.0) |
+| 2 🥈  | luneckie                  | 48          | 15               | 20               | 169.0        |
+| 3 🥉  | jayayseaohbee             | 34          | 24 (+1)          | 13 (+1)          | 132.5 (+1.5) |
 | 4     | bubinga                   | 28          | 21               | 16               | 113.0        |
-| 5     | sklortch                  | 14          | 12               | 3                | 55.5         |
+| 5     | sklortch                  | 16 (+2)     | 13 (+1)          | 3                | 62.5 (+7.0)  |
 | 6     | blu_inx                   | 9           | 12               | 11               | 44.5         |
 | 7     | mazzo_tv                  | 6           | 12               | 18               | 39.0         |
 | 8     | huuuuuuuuuuuuuuuuuuuuuurz | 8           | 10               | 9                | 38.5         |
@@ -35,17 +35,17 @@
 | 31    | poons_u                   | 1           | 3                | 3                | 7.5          |
 | 32    | sandwichsundays           | 1           | 2                | 4                | 7.0          |
 | 32    | thasbe                    | 2           | 1                | 0                | 7.0          |
-| 34    | kitenbleh                 | 0           | 3                | 5                | 5.5          |
-| 35    | commanda_u                | 1           | 0                | 4                | 5.0          |
-| 35    | divra__                   | 1           | 2                | 0                | 5.0          |
-| 35    | hahppyy                   | 1           | 1                | 2                | 5.0          |
-| 35    | maplegif                  | 0           | 3                | 4                | 5.0          |
+| 34 ⬆  | maplegif                  | 0           | 4 (+1)           | 4                | 6.0 (+1.0)   |
+| 35 ⬇  | kitenbleh                 | 0           | 3                | 5                | 5.5          |
+| 36 ⬇  | commanda_u                | 1           | 0                | 4                | 5.0          |
+| 36 ⬇  | divra__                   | 1           | 2                | 0                | 5.0          |
+| 36 ⬇  | hahppyy                   | 1           | 1                | 2                | 5.0          |
 | 39    | riririririririririririkko | 0           | 4                | 1                | 4.5          |
 | 39    | tomokomot                 | 1           | 1                | 1                | 4.5          |
 | 41    | sacredpom                 | 1           | 1                | 0                | 4.0          |
 | 41    | veny2lbs                  | 1           | 0                | 2                | 4.0          |
 | 43    | gorillapark               | 0           | 2                | 3                | 3.5          |
-| 43    | sillyfellow32             | 0           | 3                | 1                | 3.5          |
+| 43    | sillymeow32               | 0           | 3                | 1                | 3.5          |
 | 45    | creepycode                | 0           | 3                | 0                | 3.0          |
 | 45    | popfizzgg                 | 1           | 0                | 0                | 3.0          |
 | 45    | zsipe                     | 0           | 3                | 0                | 3.0          |
@@ -61,6 +61,7 @@
 | 57    | ducksleazzy               | 0           | 0                | 1                | 0.5          |
 | 57    | eeziiii                   | 0           | 0                | 1                | 0.5          |
 | 57    | llikotesnecil             | 0           | 0                | 1                | 0.5          |
+| 57 🆕 | somefeimi                 | 0           | 0                | 1                | 0.5          |
 | 57    | starducc                  | 0           | 0                | 1                | 0.5          |
 
-_Last updated at 2026-11-18 10:14:48 UTC_
+_Last updated at 2026-11-26 14:21:32 UTC_
